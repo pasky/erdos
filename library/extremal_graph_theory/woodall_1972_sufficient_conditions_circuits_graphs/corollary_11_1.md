@@ -74,8 +74,8 @@ first bound, and B1, whose bound is the second.
 
 **In Problem 1012's notation.** The problem's $k$ is the paper's $r$. The
 first bound at $r=k$ is the problem's edge count
-$\binom{n-k-1}2+\binom{k+2}2+1$, the range $n\ge2k+3$ is the site's, and
-$d=n-k$ lies in the conclusion's range, so every graph on $n\ge2k+3$
+$\binom{n-k-1}2+\binom{k+2}2+1$, the range $n\ge2k+3$ is erdosproblems.com's,
+and $d=n-k$ lies in the conclusion's range, so every graph on $n\ge2k+3$
 vertices with the problem's count has a cycle on $n-k$ vertices: $f(k)=2k+3$
 is admissible for every $k\ge0$, and the theorem gives every cycle length
 from $3$ to $n-k$ besides. $G_4(n,k)$ is the problem's sharpness graph,
@@ -97,8 +97,8 @@ graph on $n$ vertices with the problem's count contains a cycle on $n-k$
 vertices for every $n\ge k+3$, and for $n\le k+2$ the count exceeds
 $\binom n2$ ($\binom{n-k-1}2=0$ there), so no graph meets the hypothesis.
 The problem's implication therefore holds for every $n\ge1$, which is the
-reading the site's discussion thread reached from the theorem as restated
-by Li and Ning; the printed corollary supplies the small range that the
+reading the erdosproblems.com discussion thread reached from the theorem as
+restated by Li and Ning; the printed corollary supplies the small range that the
 restatement omits. The comparison is the corpus's, not the paper's.
 
 **Source.** D. R. Woodall, *Sufficient conditions for circuits in graphs*,
@@ -167,11 +167,11 @@ held).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the theorem the
-  site credits to the paper, read in the original. With $r=k$ the first
-  bound is the problem's edge count, the range $n\ge2k+3$ is the site's,
-  and the conclusion includes a cycle on $n-k$ vertices, so $f(k)\le2k+3$;
-  the statement agrees with Theorem 8 of
+- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the
+  theorem erdosproblems.com credits to the paper, read in the original. With
+  $r=k$ the first bound is the problem's edge count, the range $n\ge2k+3$ is
+  erdosproblems.com's, and the conclusion includes a cycle on $n-k$ vertices, so
+  $f(k)\le2k+3$; the statement agrees with Theorem 8 of
   [[extremal_graph_theory/li_2023_stability_woodall_theorem_spectral_conditions_large_cycles/_index|Li and Ning 2023]].
   The paper frames the corollary as the answer to Erdős's 1969 question,
   Problem 4 of the Oxford list paged at

@@ -25,7 +25,7 @@ $\{1,\ldots,N\}$ there is a set $A$ of size $k$ such that all subset sums
 $\sum_{a\in S}a$ (for $\emptyset\neq S\subseteq A$) are monochromatic. Estimate
 $F(k)$.
 
-**Formulation.** The site's wording on 2026-09-17 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-17 (the page shows no
 last-edited date). Since only $\{1,\ldots,N\}$ is colored, a monochromatic set
 of subset sums lies inside $\{1,\ldots,N\}$; Erdős and Spencer write this
 condition explicitly ($P(S)\subset[n]$), as do Balogh, Eberhard, Narayanan,
@@ -34,7 +34,7 @@ Folkman number $F(k,r)$. The existence of $F(k)$ is Folkman's theorem, proved
 independently by Folkman, Rado and Sanders; Erdős's 1973 survey calls the
 function $g(n)$. The problem asks for its order of growth.
 
-**Status.** The site labeled the problem OPEN. The search whose scope the
+**Status.** Bloom's catalog labeled the problem OPEN. The search whose scope the
 Current assessment records located two bounds. The lower bound is the doubly
 exponential $F(k)\ge2^{2^{k-1}/k}$ of Balogh, Eberhard, Narayanan, Treglown and
 Wagner (2017, refereed), which replaced Erdős and Spencer's
@@ -45,10 +45,10 @@ certificate of openness.
 
 **Source.** [erdosproblems.com/531](https://www.erdosproblems.com/531),
 accessed 2026-09-17: the problem page (labeled
-OPEN, with the site's note that no finite computation can settle it; no
-last-edited date; source key [Er73]; commentary citing [ErSp89] and [BENTW17];
-an indicator that an OEIS entry may exist), its empty discussion thread
-and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #531,
+OPEN, with the erdosproblems.com note that no finite computation can settle it;
+no last-edited date; source key [Er73]; commentary citing [ErSp89] and
+[BENTW17]; an indicator that an OEIS entry may exist), its empty discussion
+thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #531,
 https://www.erdosproblems.com/531, accessed 2026-09-17.
 
 **References.**
@@ -79,14 +79,14 @@ https://www.erdosproblems.com/531, accessed 2026-09-17.
 
 **Formalization.** None. No file `ErdosProblems/531.lean` existed in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/tree/cbee53b0ccb3bacf2d9e9b2bf2eea493a373b22c/FormalConjectures/ErdosProblems)
-(`main`, fetched 2026-09-17); the site's indicator shows no formalized
-statement, and the community database (fetched 2026-09-17) records the problem
-as open and unformalized with no formal-proof URL and an OEIS entry marked as
-possible.
+(`main`, fetched 2026-09-17); the erdosproblems.com indicator shows no
+formalized statement, and the community database (fetched 2026-09-17) records
+the problem as open and unformalized with no formal-proof URL and an OEIS entry
+marked as possible.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site states the
+**The question.** On 2026-09-17 erdosproblems.com states the
 problem as above, showed OPEN, cites [Er73], and comments, in this page's words:
 the finiteness of $F(k)$ is the theorem of Sanders and Folkman, also a
 consequence of Rado's theorem, and goes under the name Folkman's theorem; the
@@ -180,16 +180,17 @@ proofs were followed, and the proofs of Lemmas 2.1 and 2.2 were read for
 structure only. No smaller upper bound was found.
 
 **The gap.** $\log_2F(k)$ lies between $2^{k-1}/k$ and roughly a tower of threes
-of height $4k-4$; no source found closes it in either direction, and the site's
-request to "estimate $F(k)$" remains open. Adjacent leads, none about $F(k)$:
-the infinite-sumset question over the reals of [KLRSSV19] (a consistency result
-for monochromatic $X+X$), and the infinite version over $\mathbb{N}$, which is
-Hindman's theorem ([[problems/ramsey_theory/E0532/_index|Problem 532]]).
+of height $4k-4$; no source found closes it in either direction, and
+erdosproblems.com's request to "estimate $F(k)$" remains open. Adjacent leads,
+none about $F(k)$: the infinite-sumset question over the reals of [KLRSSV19] (a
+consistency result for monochromatic $X+X$), and the infinite version over
+$\mathbb{N}$, which is Hindman's theorem
+([[problems/ramsey_theory/E0532/_index|Problem 532]]).
 
 **Search scope.** None of the routes below found a bound
 improving either side.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing at the pinned commit (no file); the
   community database record.
 - arXiv abstract pages for 1703.02473 (two versions; comment "Bulletin of

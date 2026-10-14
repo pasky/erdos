@@ -2,10 +2,11 @@
 name: problems/integer_sequences/E0856/claims/2026_07_18_rayyoung_zhu_luo
 title: RayYoung, Zhu and Luo's exact exponent by a finite-block extremal formula
 desc: |
-  A 2026 manuscript by RayYoung, Zhu and Luo on the site's proof-claim tab,
-  written with GPT 5.6 Sol Pro, claims $f_k(N)=(\log N)^{\gamma_k+o(1)}$, with
-  $\gamma_k$ a supremum over uniform families with no $k$ sets of equal pairwise
-  union. The exponent's value is open.
+  A 2026 manuscript by RayYoung, Zhu and Luo on the erdosproblems.com
+  proof-claim tab, written with GPT 5.6 Sol Pro, claims
+  $f_k(N)=(\log N)^{\gamma_k+o(1)}$, with $\gamma_k$ a supremum over uniform
+  families with no $k$ sets of equal pairwise union. The exponent's value is
+  open.
 authors:
 - Keheng Zhu
 - Yanping Luo
@@ -92,8 +93,8 @@ is this project's own review.
 
 **Standing.** Claimed: a shared Overleaf manuscript with no arXiv or journal
 record found. The proof-claim tab showed the claim with no
-comments and the site's standing notice that appearing on the tab means no one
-at the site has examined the proof. The site's label was OPEN (page last edited
-18 January 2026).
+comments and erdosproblems.com's standing notice that appearing on the tab means
+no one at erdosproblems.com has examined the proof. The erdosproblems.com label
+was OPEN (page last edited 18 January 2026).
 
 **Depends on.** No page of this wiki.

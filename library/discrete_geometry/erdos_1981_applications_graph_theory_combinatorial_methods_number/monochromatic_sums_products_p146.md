@@ -57,9 +57,9 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0172/_index|Problem 172]]: question
-  (5) is the two-colour case of the site's question, which allows any
+  (5) is the two-colour case of the erdosproblems.com question, which allows any
   finite number of colours and asks for arbitrarily large finite sets with
   all sums and products of distinct elements in one colour. The paper
   reports (5) open for $n\ge3$. Question (4) is the infinite two-class
-  version, which the site's formulation sets aside as false; the paper
-  reports Hindman's disproof.
+  version, which the erdosproblems.com formulation sets aside as false; the
+  paper reports Hindman's disproof.

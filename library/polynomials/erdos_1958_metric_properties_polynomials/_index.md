@@ -209,8 +209,8 @@ one-sentence remark on the same page, asks for the maximum of |D(f)| when
 |z_mu - z_v| <= 2 for all mu < v, and whether it is attained when the z_v are
 the vertices of a regular n-gon whose greatest diagonal has length 2. This is
 exactly Problem 1045: its ordered product prod_{i != j} |z_i - z_j| equals
-prod_{i<j} |z_i - z_j|^2 = |D(f)|, so the catalog and the source use the same
-objective, not merely objectives with the same maximizers. Theorem 10 does
+prod_{i<j} |z_i - z_j|^2 = |D(f)|, so Bloom's catalog and the source use the
+same objective, not merely objectives with the same maximizers. Theorem 10 does
 not answer Problem 13: its hypothesis controls the critical values through a
 connected lemniscate, whereas Problem 13 assumes only a diameter bound on the
 roots, and the paper supplies no implication from the latter to the former.

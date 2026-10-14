@@ -19,9 +19,9 @@ there exists $a\in\mathrm{Sym}([n])$ such that $|S(a)|\ge\frac14n^2$."
 
 Here $[n]=\{1,2,\ldots,n\}$, $\mathrm{Sym}([n])$ is the set of permutations
 $a=(a_i)_{i=1}^n$ of $[n]$, and $S(a)=\{\sum_{i=u}^{v-1}a_i:1\le u<v\le n+1\}$
-is the set of sums of consecutive terms (p. 1), so $|S(a)|$ is the site's
-$S(\pi)$ for $\pi=a$: the sums $\sum_{u\le i\le v}\pi(i)$ over
-$1\le u\le v\le n$, single terms included.
+is the set of sums of consecutive terms (p. 1), so $|S(a)|$ is
+erdosproblems.com's $S(\pi)$ for $\pi=a$: the sums $\sum_{u\le i\le v}\pi(i)$
+over $1\le u\le v\le n$, single terms included.
 
 **Source.** Jakub Konieczny, *On consecutive sums in permutations*,
 arXiv:1504.07156v5 (27 August 2021), p. 2; J. Combinatorics 12 (2021), no. 3,
@@ -55,8 +55,8 @@ None; the argument is self-contained.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E0034/_index|Problem 34]]: the status-defining
-  counterexample. The site's question asks whether $S(\pi)=o(n^2)$ for all
-  $\pi\in S_n$; the proposition gives, for every $n$, a permutation with
+  counterexample. The erdosproblems.com question asks whether $S(\pi)=o(n^2)$
+  for all $\pi\in S_n$; the proposition gives, for every $n$, a permutation with
   $S(\pi)\ge n^2/4$, so no bound $S(\pi)\le\epsilon n^2$ with $\epsilon<1/4$
   holds for all large $n$ and all $\pi$. The paper (p. 3) notes that
   Hegyvári's 1986 construction already gives a permutation with at least

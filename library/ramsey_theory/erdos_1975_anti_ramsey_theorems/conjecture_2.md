@@ -46,13 +46,13 @@ valid."
 
 "However, even the proof of Theorem 5 is rather long and we cannot prove
 Theorem 6 in a satisfactorily short way. The proofs of Theorems 5, 6, will
-be published later." Neither proof is in the paper; the site records that
-"these never appeared". A second, unrelated "Theorem 6" (an extremal number
+be published later." Neither proof is in the paper; erdosproblems.com records
+that "these never appeared". A second, unrelated "Theorem 6" (an extremal number
 $\mathrm{ext}(n,\mathcal T)$ for graphs obtained from $K_d(r,\ldots,r)$ by
 adding $k$ edges) is printed in Section 3, p. 640.
 
-A one-line check made here of the site's form of the conjecture. Problem
-1105 writes $\ell=\lfloor(k-1)/2\rfloor$ and asks for
+A one-line check made here of the erdosproblems.com form of the conjecture.
+Problem 1105 writes $\ell=\lfloor(k-1)/2\rfloor$ and asks for
 $\max(\binom{k-2}2+1,\binom{\ell-1}2+(\ell-1)(n-\ell+1)+\epsilon')$ with
 $\epsilon'=1$ for odd $k$ and $2$ for even $k$, the form of Yuan's Theorem
 1. With $k=2t+3+\epsilon$ one has $\ell=t+1$ and $\epsilon'=\epsilon+1$, and
@@ -93,4 +93,4 @@ None.
 - [[../wiki/problems/ramsey_theory/E1105/_index|Problem 1105]]: the second question of the
   problem in its original two-regime form, with the parameter translation
   checked above; Theorems 5 and 6 are the results whose announced proofs
-  the site says never appeared.
+  erdosproblems.com says never appeared.

@@ -5,8 +5,8 @@ desc: |
   Brandt's unnumbered 1996 bound that every connected graph of order n and
   size at most 84 n need not be triangle-good: almost every 168-regular or
   denser graph H has Ramsey number against a triangle above twice its order.
-  In the site's letters, F(n) < 84 n for large n, which would answer the
-  closing question of Problem 1182 negatively.
+  In erdosproblems.com's letters, F(n) < 84 n for large n, which would answer
+  the closing question of Problem 1182 negatively.
 created: 2026-09-18T11:20:00Z
 updated: 2026-10-08T15:18:51Z
 ---
@@ -27,11 +27,11 @@ $r(K_3,H)>2|H|$ for almost every $d$-regular graph with $d\ge168$", and it
 closes on p. 8: "So the Ramsey number $r(K_3,H)>2n$ and hence $f(n,3)/n<84$."
 
 Here $f(n,m)$ is the greatest $s$ for which each connected graph with $n$
-vertices and at most $s$ edges is $K_m$-good (p. 3), the function the
-site's Problem 1182 writes as $F(n)$ for $m=3$; "almost every" means with
-probability $1-o(1)$ over $d$-regular graphs of order $n$ as $n\to\infty$
-(p. 3). Since almost every $d$-regular graph is connected (the preprint
-notes on p. 5, citing Robinson and Wormald, that for $d\ge3$ a random
+vertices and at most $s$ edges is $K_m$-good (p. 3), the function
+erdosproblems.com's Problem 1182 writes as $F(n)$ for $m=3$; "almost every"
+means with probability $1-o(1)$ over $d$-regular graphs of order $n$ as
+$n\to\infty$ (p. 3). Since almost every $d$-regular graph is connected (the
+preprint notes on p. 5, citing Robinson and Wormald, that for $d\ge3$ a random
 $d$-regular graph is almost surely Hamiltonian, hence connected) and has
 $dn/2=84n$ edges when $d=168$, the statement is that for large $n$ some
 connected graph of order $n$ and size $84n$ is not $K_3$-good, so
@@ -46,8 +46,8 @@ p. 4 (the announcement) and pp. 7--8 (the proof), read in the text layer
 of the Ghostscript conversion of the preprint's PostScript (ten
 A4 pages; page references are the preprint's own). No journal version was
 found: a Crossref bibliographic query for the title on 2026-09-18 returned
-no matching record, and the site's own reference [Br96] names the preprint
-series. The edition is identified in the
+no matching record, and erdosproblems.com's own reference [Br96] names the
+preprint series. The edition is identified in the
 [[ramsey_theory/brandt_1996_expanding_graphs_ramsey_numbers/_index|source digest]].
 
 **Read depth.** Claims checked: the announcement on p. 4 and the statement
@@ -81,10 +81,11 @@ Hamiltonian (its [23], cited on p. 5).
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in the site's letters,
-  $F(n)<84n$ for all large $n$, so $F(n)/n$ is bounded and the closing
-  question "is it true that $F(n)/n\to\infty$?" would have the answer no.
-  The site's commentary notes that the bound answers the final question in
-  the negative while the site kept the problem's label open, and the
-  estimation problem stays open either way. The result is a preprint's and
-  has no journal record; the problem's claim page records it as pending.
+- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in
+  erdosproblems.com's letters, $F(n)<84n$ for all large $n$, so $F(n)/n$ is
+  bounded and the closing question "is it true that $F(n)/n\to\infty$?" would
+  have the answer no. The erdosproblems.com commentary notes that the bound
+  answers the final question in the negative while erdosproblems.com kept the
+  problem's label open, and the estimation problem stays open either way. The
+  result is a preprint's and has no journal record; the problem's claim page
+  records it as pending.

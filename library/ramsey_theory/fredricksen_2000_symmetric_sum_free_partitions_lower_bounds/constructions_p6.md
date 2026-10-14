@@ -39,10 +39,10 @@ sets" (p. 2).
 
 The note's own qualification (p. 2): "There are no real theorems in this note,
 only observations and conjectures based on a computer study of symmetric
-sum-free partitions." In the site's convention $f(k)=S(k)+1$ the bounds read
-$f(6)\ge537$ and $f(7)\ge1681$. For $k=7$ the bound has since been raised to
-$S(7)\ge1696$ (Rowley 2021, recorded second-hand from the arXiv abstract of
-2107.03560 and from Table 1 of Ageron et al.; not held).
+sum-free partitions." In the erdosproblems.com convention $f(k)=S(k)+1$ the
+bounds read $f(6)\ge537$ and $f(7)\ge1681$. For $k=7$ the bound has since been
+raised to $S(7)\ge1696$ (Rowley 2021, recorded second-hand from the arXiv
+abstract of 2107.03560 and from Table 1 of Ageron et al.; not held).
 
 **Source.** H. Fredricksen and M. M. Sweet, *Symmetric sum-free partitions
 and lower bounds for Schur numbers*, Electron. J. Combin. 7 (2000), #R32,
@@ -72,12 +72,12 @@ None for the bounds; display (2) for the Ramsey consequences.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the values $f(6)\ge537$
-  and $f(7)\ge1681$ in the site's convention $f(k)=S(k)+1$. The site's
-  commentary names Fredricksen and Sweet among the earlier large-$k$ lower
-  bounds that Ageron et al. improved; as the site's comment thread traces it
-  (recorded on the problem page), that bound is the growth base
-  $(1073)^{1/6}\approx3.1996$, which $S(6)\ge536$ gives through Abbott and
-  Hanson's inequality, and the paper does not state it.
+  and $f(7)\ge1681$ in the erdosproblems.com convention $f(k)=S(k)+1$. The
+  erdosproblems.com commentary names Fredricksen and Sweet among the earlier
+  large-$k$ lower bounds that Ageron et al. improved; as the erdosproblems.com
+  comment thread traces it (recorded on the problem page), that bound is the
+  growth base $(1073)^{1/6}\approx3.1996$, which $S(6)\ge536$ gives through
+  Abbott and Hanson's inequality, and the paper does not state it.
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: through display (2),
   $S(k)\le R_k(3)-2$, the constructions give $R_6(3)\ge538$ and
   $R_7(3)\ge1682$ (p. 2), lower bounds on the problem's $R(3;6)$ and

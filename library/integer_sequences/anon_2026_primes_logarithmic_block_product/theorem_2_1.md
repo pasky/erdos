@@ -33,8 +33,8 @@ $p\le(2+\epsilon)\log n$? The theorem answers it yes with $\epsilon=0.1$.
 
 **Source.** *Primes in a logarithmic block product*, an anonymous four-page
 note (PDF metadata author field "Anonymous", created 2 March 2026) linked
-from the site's Problem 457 thread and retrieved 2026-09-05; Theorem 2.1 on
-p. 1, proof on pp. 2--4, read on the page images. The
+from erdosproblems.com's Problem 457 thread and retrieved 2026-09-05; Theorem
+2.1 on p. 1, proof on pp. 2--4, read on the page images. The
 [[integer_sequences/anon_2026_primes_logarithmic_block_product/_index|card]]
 records the provenance, the other sources' attributions and the identity
 caveat.
@@ -74,8 +74,8 @@ pigeonhole principle; no external theorem is cited in the proof.
 
 - [[../wiki/problems/integer_sequences/E0457/_index|Problem 457]]: the statement is the
   problem's question with $\epsilon=0.1$, the product read over
-  $1\le i\le\lfloor\log n\rfloor$ as the site and the formal statement read
-  it; the site's label PROVED (LEAN) rests on this construction and on the
-  external Lean file the card lists, whose `thm_main` states the same bound.
-  The sharper constant the site reports comes from
+  $1\le i\le\lfloor\log n\rfloor$ as erdosproblems.com and the formal statement
+  read it; the erdosproblems.com label PROVED (LEAN) rests on this construction
+  and on the external Lean file the card lists, whose `thm_main` states the same
+  bound. The sharper constant erdosproblems.com reports comes from
   [[integer_sequences/anon_2026_primes_logarithmic_block_product/remark_2_4|Remark 2.4]].

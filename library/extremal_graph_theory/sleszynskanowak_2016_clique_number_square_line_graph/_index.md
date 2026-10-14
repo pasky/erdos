@@ -77,7 +77,7 @@ give the clique form $\omega(L(G)^2)\le\frac54\Delta^2$, which p. 2 of
 the paper records as not known. The paper settles neither form:
 [[extremal_graph_theory/sleszynskanowak_2016_clique_number_square_line_graph/theorem_5|Theorem 5]]
 (pp. 2 and 5) proves the clique form with the constant $1.5$ for every
-simple graph, the site's "Śleszyńska-Nowak [Sl16] proved
+simple graph, erdosproblems.com's "Śleszyńska-Nowak [Sl16] proved
 $\omega\le\frac32\Delta^2$";
 [[extremal_graph_theory/sleszynskanowak_2016_clique_number_square_line_graph/theorem_2|Theorem 2]]
 (p. 2) proves the clique bound $\Delta_G^2$ for simple bipartite graphs;

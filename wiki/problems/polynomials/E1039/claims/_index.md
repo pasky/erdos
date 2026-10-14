@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 1039, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/polynomials/E1039/claims
@@ -19,7 +19,7 @@ the minimal inradius.
 [[problems/polynomials/E1039/claims/2025_03_24_krishnapur_lundberg_ramachandran|2025_03_24_krishnapur_lundberg_ramachandran]]: Krishnapur, Lundberg and Ramachandran (2025) prove that the minimal inradius
 of a degree $n$ lemniscate with zeros in the closed unit disk is at least
 $c/(n\sqrt{\log n})$ for a constant $c>0$. The result is in an arXiv preprint
-credited by the site.
+credited by erdosproblems.com.
 
 [[problems/polynomials/E1039/claims/2026_03_06_houi|2026_03_06_houi]]: A forum user, working with Claude Opus 4.6, claims that a monic polynomial
 with roots in the closed unit disk and all critical values of modulus at least
@@ -34,6 +34,6 @@ by Kitamura.
 [[problems/polynomials/E1039/claims/2026_09_06_geng_qiu|2026_09_06_geng_qiu]]: Geng and Qiu, with ChatGPT assistance, claim that $nR_n\to\pi/2$, where $R_n$
 is the infimum of the inradius over monic degree $n$ polynomials with roots in
 the closed unit disk. It is an arXiv preprint with a Lean formalization,
-listed as a claim on the site's tab.
+listed as a claim on the erdosproblems.com tab.
 
 ***

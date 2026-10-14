@@ -44,11 +44,11 @@ every graph $G$, finite or infinite, each of whose finite $n$-vertex subgraphs
 can be made bipartite by deleting at most $f(n)$ edges, has chromatic number
 at most three. In particular no graph of infinite chromatic number has the
 property for that $f$, which negates the universal quantifier over divergent
-functions in [[problems/graph_coloring/E0074/_index|Problem 74]]. The site
-states the rate as $f(n)\asymp\log n/\log\log n$. The argument finds bounded
-edge sets meeting all short odd closed walks, builds a chain of progressively
-sparser graphs, joins three-colorings across distance bands, and passes to
-infinite graphs by de Bruijn–Erdős compactness.
+functions in [[problems/graph_coloring/E0074/_index|Problem 74]].
+erdosproblems.com states the rate as $f(n)\asymp\log n/\log\log n$. The argument
+finds bounded edge sets meeting all short odd closed walks, builds a chain of
+progressively sparser graphs, joins three-colorings across distance bands, and
+passes to infinite graphs by de Bruijn–Erdős compactness.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by GPT-6 Astra
 (account TFBloom) on 3 September 2026, giving "GPT-6 Astra" as the AI used:
@@ -66,24 +66,25 @@ infinite graphs by de Bruijn–Erdős compactness.
 > (volunteers welcome!).
 
 **Claimant and postings.** The claimant is Tom Adamczewski, the name the
-publication carries: the Lean development the site's proof claim links,
+publication carries: the Lean development erdosproblems.com's proof claim links,
 pinned above, is the repository Adamczewski packaged and maintains (created
 2026-09-03, Apache-2.0; its Lean proofs were written by GPT-6 Astra, as its
 README says), and the
 FrontierMath Erdős paper of Adamczewski and Bloom (arXiv:2609.25050, v1
 2026-09-06) and Epoch AI's report, linked above, record the resolution
 (Appendix B.2, Theorem 2 of the report). The proof was found by GPT-6 Astra,
-which the site's proof-claim entry names as its claimant and describes as a
-pre-release version run by Epoch AI, in its FrontierMath Erdős benchmark. The
-repository's trusted challenge states the negated conjecture for an
-integer-valued divergent $f$ over all finite subgraphs of a graph on an
+which the erdosproblems.com proof-claim entry names as its claimant and
+describes as a pre-release version run by Epoch AI, in its FrontierMath Erdős
+benchmark. The repository's trusted challenge states the negated conjecture for
+an integer-valued divergent $f$ over all finite subgraphs of a graph on an
 arbitrary vertex type; its primary compared module proves that endpoint by a
 route ending in a four-color bound, and an alternate module matches the
-exposition's three-color route for finite graphs. The site's proof-claim entry
-was submitted on 2026-09-03 by the site's curator, Thomas Bloom, with an
-unsigned seven-page exposition that GPT generated from the Lean proof at
-Bloom's request, as the entry states; the curator is a co-author of the paper
-and the submitter of the entry, not an outside reviewer of it. The library card
+exposition's three-color route for finite graphs. The erdosproblems.com
+proof-claim entry was submitted on 2026-09-03 by the erdosproblems.com curator,
+Thomas Bloom, with an unsigned seven-page exposition that GPT generated from the
+Lean proof at Bloom's request, as the entry states; the curator is a co-author
+of the paper and the submitter of the entry, not an outside reviewer of it. The
+library card
 [[../library/graph_coloring/adamczewski_2026_erdos74/_index|A slow edge-deletion budget forces three-colorability]]
 reconstructs the exposition's route in full
 ([[../library/graph_coloring/adamczewski_2026_erdos74/theorem_1_1|Theorem 1.1]])
@@ -122,11 +123,11 @@ colors for all graphs is proved only in modules the comparator does not check
 not audited. The module `Erdos74_25usd_5h` gives three colors for finite graphs
 only.
 
-Not reviewed: the site labeled the problem DISPROVED (LEAN), and its curator
-accepts the headline formal resolution. But the curator submitted the site's
-proof claim themself and is a co-author of the FrontierMath Erdős paper that
-announces the result. So the curator's acceptance is not a review independent of
-the claimant. Not refereed: the site's proof-claim note calls the prose
-exposition preliminary. The FrontierMath Erdős paper is a preprint, and it says
-that expert understanding of the proofs and of their relation to prior work is
-incomplete.
+Not reviewed: Bloom's catalog labeled the problem DISPROVED (LEAN), and its
+curator accepts the headline formal resolution. But the curator submitted
+erdosproblems.com's proof claim themself and is a co-author of the FrontierMath
+Erdős paper that announces the result. So the curator's acceptance is not a
+review independent of the claimant. Not refereed: the erdosproblems.com
+proof-claim note calls the prose exposition preliminary. The FrontierMath Erdős
+paper is a preprint, and it says that expert understanding of the proofs and of
+their relation to prior work is incomplete.

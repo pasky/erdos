@@ -58,27 +58,27 @@ and
 and the
 [[../library/irrationality/nesterenko_1996_modular_functions_transcendence_questions/_index|source card]]
 hold the statements from the Russian original; the proof is recorded by
-statement and pointer only. The site's reference [Ne96] is the announcement of
-the same theorem in C. R. Acad. Sci. Paris Sér. I Math. 322 (1996), no. 10,
-909–914 (the second `record` link, its zbMATH entry Zbl 0859.11047), of which
-the library holds no copy. The irrationality alone had been proved a few
-months earlier by Duverney, on
+statement and pointer only. The erdosproblems.com reference [Ne96] is the
+announcement of the same theorem in C. R. Acad. Sci. Paris Sér. I Math. 322
+(1996), no. 10, 909–914 (the second `record` link, its zbMATH entry Zbl
+0859.11047), of which the library holds no copy. The irrationality alone had
+been proved a few months earlier by Duverney, on
 [[problems/irrationality/E0250/claims/1995_09_18_duverney|its own claim page]].
 
 **Acceptance.** Refereed: Matematicheskii Sbornik, volume 187, number 9 (1996),
 received by the editors on 7 March 1996, with the English translation in
 Sbornik: Mathematics.
 
-Reviewed: Thomas Bloom, the site's curator, credits this theorem with the answer
-in the problem's remarks and labeled the problem proved (page last edited 28
-September 2025, as of 2026-09-17). zbMATH reviews the paper (Zbl 0898.11031,
-reviewer J. Wolfart) and the announcement (Zbl 0859.11047) without objection.
-The theorem was the subject of Waldschmidt's Bourbaki exposé of November 1996
-(Astérisque 245 (1997), 105–140, whose Théorème 4 restates it) and of a chapter
-of Lecture Notes in Mathematics 1752 (2001). Nesterenko received the 1997
-Ostrowski Prize. The formal-conjectures statement for the problem cites this
-paper and is tagged research solved
-([`250.lean` at main on 2026-10-07](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/250.lean)).
+Reviewed: Thomas Bloom, the erdosproblems.com curator, credits this theorem with
+the answer in the problem's remarks and labeled the problem proved (page last
+edited 28 September 2025, accessed 2026-09-17). zbMATH reviews the paper (Zbl
+0898.11031, reviewer J. Wolfart) and the announcement (Zbl 0859.11047) without
+objection. The theorem was the subject of Waldschmidt's Bourbaki exposé of
+November 1996 (Astérisque 245 (1997), 105–140, whose Théorème 4 restates it) and
+of a chapter of Lecture Notes in Mathematics 1752 (2001). Nesterenko received
+the 1997 Ostrowski Prize. The formal-conjectures statement for the problem cites
+this paper and is tagged research solved ([`250.lean` at main on
+2026-10-07](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/250.lean)).
 This corpus has not reproved the theorem and awards no tier of its own.
 
 The `formalization` link is a public Lean 4 proof of the problem's statement in

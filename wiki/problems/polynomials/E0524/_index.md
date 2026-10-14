@@ -31,21 +31,21 @@ $$
 M_n(t)=\max_{x\in [-1,1]}\left\lvert \sum_{k\leq n}(-1)^{\epsilon_k(t)}x^k\right\rvert?
 $$
 
-**Formulation.** The site's statement was corrected on 27 December 2025, after
-a thread comment, to the signs $(-1)^{\epsilon_k(t)}$ and the interval
-$[-1,1]$; the earlier text used the digits $\epsilon_k(t)$ themselves and the
-interval $[0,1]$, for which the maximum is just the digit sum. Erdős [Er61,
-p. 253] defines $M_n(t)$ as the maximum over $\lvert x\rvert\le1$, says that
-the law of the iterated logarithm gives its upper bound, asks for its exact
+**Formulation.** The erdosproblems.com statement was corrected on 27 December
+2025, after a thread comment, to the signs $(-1)^{\epsilon_k(t)}$ and the
+interval $[-1,1]$; the earlier text used the digits $\epsilon_k(t)$ themselves
+and the interval $[0,1]$, for which the maximum is just the digit sum. Erdős
+[Er61, p. 253] defines $M_n(t)$ as the maximum over $\lvert x\rvert\le1$, says
+that the law of the iterated logarithm gives its upper bound, asks for its exact
 lower bound, which "seems very difficult", and attributes the problem to Salem
 and Zygmund [SaZy54]. The question is read as Erdős reads it and as Letwin and
 Sawhney read it: for almost every $t$, the signs are independent Rademacher
 variables, and the question asks for the almost sure lower envelope of
 $M_n(t)$, the upper envelope being Salem and Zygmund's.
 
-**Status.** OPEN (the site's label; page last edited 27 December 2025). The
-derived standing, claimed and answered, departs from the label because of a
-pending full claim.
+**Status.** OPEN (the erdosproblems.com label; page last edited 27 December
+2025). The derived standing, claimed and answered, departs from the label
+because of a pending full claim.
 [[problems/polynomials/E0524/claims/2026_04_21_letwin_sawhney|Letwin–Sawhney 2026]],
 an arXiv preprint announced on the thread on 2026-04-24, determines the almost
 sure lower envelope. Together with Salem and Zygmund's upper envelope, that
@@ -53,7 +53,8 @@ answers the question. A partial claim precedes it.
 [[problems/polynomials/E0524/claims/2026_01_30_chojecki|Chojecki 2026]], a note
 posted on the thread on 2026-01-30, reproves the upper envelope and finds the
 lower-envelope scale along a sparse subsequence. Neither claim is refereed,
-registered on the site's proof-claims tab, or accepted by the site.
+registered on the erdosproblems.com proof-claims tab, or accepted by
+erdosproblems.com.
 
 **Source.** [erdosproblems.com/524](https://www.erdosproblems.com/524), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #524,
@@ -78,9 +79,9 @@ exists, and the community database lists the problem as unformalized.
 
 ## Current assessment
 
-The site labeled the problem OPEN (page last edited 27 December 2025) and its
-remarks record two bounds. Salem and Zygmund [SaZy54, Theorem (6.1.1)] proved
-the upper envelope: almost surely
+Bloom's catalog labeled the problem OPEN (page last edited 27 December 2025) and
+its remarks record two bounds. Salem and Zygmund [SaZy54, Theorem (6.1.1)]
+proved the upper envelope: almost surely
 $\limsup_n M_n(t)/\sqrt{2n\log\log n}=1$. The remarks credit Chung with
 $M_n(t)\ll(n/\log\log n)^{1/2}$ for infinitely many $n$, almost surely, and
 Erdős with the unpublished result that $M_n(t)/n^{1/2-\epsilon}\to\infty$ for
@@ -95,10 +96,10 @@ along $n_m=\lfloor e^{m^3}\rfloor$ the minimal values of $M_n(t)$ occur at the
 scale $\sqrt n\exp(-\Theta((\log\log n)^{1/3}))$, with the constant pinned
 between two values taken from the Gao–Li–Wellner small-ball bounds; it does
 not determine the lower envelope, as its conclusion says. The same day the
-site's curator wrote that they would view the problem as unresolved until an
-expert confirmed the argument or a formal proof existed, and Mehtaab Sawhney
-replied that the proof is correct and is what Sawhney had sketched on the
-thread, adding that neither the note nor the coming result with Letwin pins
+erdosproblems.com curator wrote that they would view the problem as unresolved
+until an expert confirmed the argument or a formal proof existed, and Mehtaab
+Sawhney replied that the proof is correct and is what Sawhney had sketched on
+the thread, adding that neither the note nor the coming result with Letwin pins
 the answer down as precisely as Salem and Zygmund might have wanted. That
 result is the pending full claim [LeSa26]: almost surely
 
@@ -111,16 +112,16 @@ the lower envelope through the small-ball probability of the Gaussian process
 $\int_0^1e^{-st}\,dB_s$ and the leading constant of that probability. With the
 upper envelope this determines both envelopes of $M_n(t)$, the answer Erdős
 asked for. The preprint is not refereed, no proof claim is registered on the
-site's proof-claims tab, and neither argument is compiled or reviewed in this
-wiki; the site's page predates both postings.
+erdosproblems.com proof-claims tab, and neither argument is compiled or reviewed
+in this wiki; the erdosproblems.com page predates both postings.
 
-Search scope, with the sources as they stood on 2026-10-07: the site's problem
-page as exported (last edited 27 December 2025), its discussion thread (11
-comments) and proof-claims tab (none), the community database entry (open,
-unformalized), the arXiv record of the Letwin–Sawhney preprint and the note's
-own page; formal-conjectures had no statement for the problem and no OpenAI
-release item named it. MathSciNet and zbMATH were not searched and X was not
-used.
+Search scope, with the sources as they stood on 2026-10-07: the
+erdosproblems.com problem page as exported (last edited 27 December 2025), its
+discussion thread (11 comments) and proof-claims tab (none), the community
+database entry (open, unformalized), the arXiv record of the Letwin–Sawhney
+preprint and the note's own page; formal-conjectures had no statement for the
+problem and no OpenAI release item named it. MathSciNet and zbMATH were not
+searched and X was not used.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -39,10 +39,11 @@ star at one vertex together with a maximum matching of $r$-sets among the
 other $n-1$ vertices, or, when $r$ divides $n$, to (C2), the same hypergraph
 with one matching edge shifted by one vertex. The paper calls the statement
 the Erdős–Füredi conjecture (its Conjecture 1.1), after Füredi's 1984
-conjecture that Füredi's lower bound is sharp for $r\ge4$, which the site
-records. The $f(n;t)$ of [[problems/set_systems/E0643/_index|Problem 643]] is
-the least edge count that forces such four edges, so $f(n;t)=f_t(n)+1$, and for
-fixed $t\ge3$ the identity $\binom{n-1}{t-1}=\frac{n-t+1}{n}\binom{n}{t-1}$ with
+conjecture that Füredi's lower bound is sharp for $r\ge4$, which
+erdosproblems.com records. The $f(n;t)$ of
+[[problems/set_systems/E0643/_index|Problem 643]] is the least edge count that
+forces such four edges, so $f(n;t)=f_t(n)+1$, and for fixed $t\ge3$ the identity
+$\binom{n-1}{t-1}=\frac{n-t+1}{n}\binom{n}{t-1}$ with
 $\lfloor(n-1)/t\rfloor=O(n)$ gives $f(n;t)=(1+o(1))\binom{n}{t-1}$ for every
 fixed $t\ge4$, the problem's question answered yes for those $t$, with the exact
 value for large $n$. The case $t=3$ is not covered: the paper's Section 7 says
@@ -56,10 +57,10 @@ the best upper bound is Pikhurko and Verstraëte's $\frac{13}{9}\binom n2$, is
 not covered.
 
 **Standing.** The claimants are the three authors, who posted the preprint on
-arXiv on 2026-09-29; a comment in the site's discussion thread linked it on
-2026-10-03. The authors state that AI tools were used only for proofreading
-and not in generating the mathematical ideas. The preprint is not refereed,
-the site's label was OPEN and its commentary does not credit the result, and
-nothing was built here, so the claim stays `claimed`.
+arXiv on 2026-09-29; a comment in the erdosproblems.com discussion thread linked
+it on 2026-10-03. The authors state that AI tools were used only for
+proofreading and not in generating the mathematical ideas. The preprint is not
+refereed, the erdosproblems.com label was OPEN and its commentary does not
+credit the result, and nothing was built here, so the claim stays `claimed`.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited preprint.

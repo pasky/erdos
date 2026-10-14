@@ -56,23 +56,23 @@ https://www.erdosproblems.com/69.
 
 ## Current assessment
 
-The site's formulation of 2026-10-07 asks whether $\sum_{n\geq2}\omega(n)/2^n$
-is irrational. Answered yes:
+The erdosproblems.com formulation of 2026-10-07 asks whether
+$\sum_{n\geq2}\omega(n)/2^n$ is irrational. Answered yes:
 [[problems/irrationality/E0069/claims/2025_12_01_tao_teravainen|Tao and
 Teräväinen's claim page]] records Theorem 1.3 of [TaTe25], which proves the
 series, equal to $\sum_p 1/(2^p-1)$ and so the case of
 [[problems/irrationality/E0257/_index|Problem 257]] with the primes as the
-infinite set, irrational, a result the site's curator credits. Pratt's earlier
-theorem, that $\sum_n\omega(n)/t^n$ is irrational for every integer $t\geq2$
-under a uniform quantitative prime tuples conjecture, is on
+infinite set, irrational, a result the erdosproblems.com curator credits.
+Pratt's earlier theorem, that $\sum_n\omega(n)/t^n$ is irrational for every
+integer $t\geq2$ under a uniform quantitative prime tuples conjecture, is on
 [[problems/irrationality/E0069/claims/2024_09_23_pratt|Pratt's claim page]];
 it is conditional and decides nothing for the problem's standing. Erdős proved
 in [Er48] that $\sum_n\tau(n)/2^n$ is irrational and wrote that the analogous
 series for the number of prime factors seemed to present difficulties. Status
-search: the site's page and remarks, its forum thread, which had no comments on
-2026-10-07, the formal-conjectures file, and Crossref, which listed no journal
-version of [TaTe25] on that date. The corpus holds no compiled or reviewed
-proof.
+search: the erdosproblems.com page and remarks, its forum thread, which had no
+comments on 2026-10-07, the formal-conjectures file, and Crossref, which listed
+no journal version of [TaTe25] on that date. The corpus holds no compiled or
+reviewed proof.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

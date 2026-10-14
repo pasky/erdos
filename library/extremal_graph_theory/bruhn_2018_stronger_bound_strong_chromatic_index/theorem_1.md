@@ -72,4 +72,4 @@ Talagrand-type inequality of Section 7,
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the second step of
   the refereed chain of upper bounds ($1.998$, $1.93$, $1.835$, $1.772$), all
   for large $\Delta$, as the problem page records them; the $1.93\Delta^2$
-  the site credits to Bruhn and Joos.
+  erdosproblems.com credits to Bruhn and Joos.

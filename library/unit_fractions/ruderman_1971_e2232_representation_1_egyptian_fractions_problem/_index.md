@@ -43,8 +43,9 @@ that their denominators exceed m + 1. The solvers add (p. 303) that it seems
 certain to them that U_n - (e-1)n tends to infinity, but they have not proved
 it; the editorial note after the solution records a conjecture of several
 solvers that 2n is an upper bound.
-Problem 295's site cites this solution; the constant e - 1 and both halves
-of -c < U_n - (e-1)n << n / log n that the site records come from it.
+Problem 295's erdosproblems.com cites this solution; the constant e - 1 and both
+halves of -c < U_n - (e-1)n << n / log n that erdosproblems.com records come
+from it.
 
 Source: <https://www.jstor.org/stable/2317539>.
 

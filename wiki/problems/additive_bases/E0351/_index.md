@@ -36,15 +36,16 @@ $$
 
 contains all sufficiently large integers?
 
-**Status.** Proved, in the site's label "PROVED (LEAN)". The argument that GPT
-5.5 Pro produced for [[problems/unit_fractions/E0283/_index|Problem 283]] yields
-the statement for every $p$ with positive leading coefficient. Liam Price posted
-it on 2026-05-03, and Kevin Barreto edited it. Nat Sothanaphan confirmed it with
-ChatGPT, it is formalized in Lean, and the site accepted it (page last edited 10
-May 2026). See the
+**Status.** Proved, in the erdosproblems.com label "PROVED (LEAN)". The argument
+that GPT 5.5 Pro produced for
+[[problems/unit_fractions/E0283/_index|Problem 283]] yields the statement for
+every $p$ with positive leading coefficient. Liam Price posted it on 2026-05-03,
+and Kevin Barreto edited it. Nat Sothanaphan confirmed it with ChatGPT, it is
+formalized in Lean, and erdosproblems.com accepted it (page last edited 10 May
+2026). See the
 [[problems/additive_bases/E0351/claims/2026_05_03_price_barreto|claim page]].
-The (Lean) suffix of the site's label PROVED (LEAN) means nothing here, because
-this corpus has not built or audited the Lean proof.
+The (Lean) suffix of the erdosproblems.com label PROVED (LEAN) means nothing
+here, because this corpus has not built or audited the Lean proof.
 
 Earlier partial results each have their own claim page. Graham [Gr63] proved the
 case $p(x)=x$

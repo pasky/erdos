@@ -4,7 +4,7 @@ title: "Corollary 2.9: the growth rate of the Schur numbers and of R_n(3) is at 
 desc: |
   The exponential lower bound on Schur numbers and on the multicolor Ramsey
   numbers of the triangle that follows from the recursion S(n+5) at least
-  380 S(n) + 148; the best lower growth rate the site records for f(k).
+  380 S(n) + 148; the best lower growth rate erdosproblems.com records for f(k).
 created: 2026-09-18T06:30:00Z
 updated: 2026-10-08T14:29:35Z
 ---
@@ -24,7 +24,7 @@ argument supports, is $\liminf_{n\to\infty}S(n)^{1/n}$ (and the same for
 $R_n(3)$), since $S(n)\le R_n(3)-2$ transfers any lower growth rate of
 $S(n)$ to $R_n(3)$.
 
-In the site's convention $f(k)=S(k)+1$, so the corollary gives
+In the erdosproblems.com convention $f(k)=S(k)+1$, so the corollary gives
 $\liminf f(k)^{1/k}\ge380^{1/5}\approx3.2806$.
 
 **Source.** R. Ageron, P. Casteras, T. Pellerin, Y. Portella, A. Rimmel and
@@ -56,7 +56,7 @@ the relation $S(n)\le R_n(3)-2$.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the best known lower
-  growth rate of $f(k)$, the lower half of the site's bounds map.
+  growth rate of $f(k)$, the lower half of erdosproblems.com's bounds map.
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: the corollary's
   parenthesis "(and Ramsey numbers $R_n(3)$)", with its proof's
   $S(n)\le R_n(3)-2$, is the lower bound $\liminf R(3;k)^{1/k}\ge380^{1/5}$

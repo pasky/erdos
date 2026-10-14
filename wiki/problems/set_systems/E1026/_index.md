@@ -38,40 +38,41 @@ $$
 
 where the maximum is taken over all monotonic subsequences.
 
-**Notes.** The site's wording is ambiguous, as its commentary says: for one
-given sequence the maximum is a finite computation, and the wording names
-neither a normalization nor the extremal quantity to be found. The modified
-Statement replaces the object of "Determine", the maximum itself, with "the
-largest constant $c$ such that, for all such sequences," that maximum exceeds
-$(c-o(1))\frac{1}{\sqrt{n}}\sum x_i$. The ambiguity is already in Erdős's
-text: [Er71, item 22], on the card
+**Notes.** The erdosproblems.com wording is ambiguous, as its commentary says:
+for one given sequence the maximum is a finite computation, and the wording
+names neither a normalization nor the extremal quantity to be found. The
+modified Statement replaces the object of "Determine", the maximum itself, with
+"the largest constant $c$ such that, for all such sequences," that maximum
+exceeds $(c-o(1))\frac{1}{\sqrt{n}}\sum x_i$. The ambiguity is already in
+Erdős's text: [Er71, item 22], on the card
 [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|Erdős 1971]],
 asks only to determine $\max(\sum x_{i_r})$ over the monotonic subsequences of
 $n$ distinct numbers and calls the question unsettled, and Steele's survey
 [St95, Section 12] and Problem 3.4 of [TWY16] repeat that form. The inserted
-words are the site's: its commentary adopts this precise question, posed by
-Wouter van Doorn in the site's thread on 12 September 2025 after discussion
-with Desmond Weisenberg and Stijn Cambie, and the site's label SOLVED (LEAN),
-with the answer $c=1$, describes it. The commentary states the question for
-all sequences of $n$ reals; the modified Statement keeps the site's distinct
-reals. The normalization agrees with a weighted question of Erdős that
-Steele reports in the same section, citing Chung (1980, p. 278): to determine
-$\tau(n,0)$, the least over nonnegative weights $w_1,\ldots,w_n$ with sum $1$
-of the largest sum of the weights along a monotone subsequence, which Steele
-expects to satisfy $\tau(n,0)\sqrt n\to1$. No result about the wording before
-it was made precise is recorded.
+words are erdosproblems.com's: its commentary adopts this precise question,
+posed by Wouter van Doorn in the erdosproblems.com thread on 12 September 2025
+after discussion with Desmond Weisenberg and Stijn Cambie, and the
+erdosproblems.com label SOLVED (LEAN), with the answer $c=1$, describes it. The
+commentary states the question for all sequences of $n$ reals; the modified
+Statement keeps erdosproblems.com's distinct reals. The normalization agrees
+with a weighted question of Erdős that Steele reports in the same section,
+citing Chung (1980, p. 278): to determine $\tau(n,0)$, the least over
+nonnegative weights $w_1,\ldots,w_n$ with sum $1$ of the largest sum of the
+weights along a monotone subsequence, which Steele expects to satisfy
+$\tau(n,0)\sqrt n\to1$. No result about the wording before it was made precise
+is recorded.
 
 **Formulation.** Negative and zero terms can be dropped, so the sequence may
 be taken positive. A stronger finite form, from the same thread: $k^2$
 distinct positive reals with sum $1$ have a monotone subsequence of sum at
 least $1/k$.
 
-**Status.** The site labeled the problem SOLVED (LEAN): $c=1$. It credits the
-first proof of the lower bound $c\ge1$, in its stronger finite form, to Tidor,
-Wang and Yang [TWY16], and notes that it is implicit in Wagner [Wa17]. It also
-names the Lean proof of the finite form that the AI system Aristotle produced,
-posted by Alexeev, and Chan's second proof from the Erdős–Szekeres theorem. The
-upper bound $c\le1$ is Cambie's construction in the thread.
+**Status.** Bloom's catalog labeled the problem SOLVED (LEAN): $c=1$. It credits
+the first proof of the lower bound $c\ge1$, in its stronger finite form, to
+Tidor, Wang and Yang [TWY16], and notes that it is implicit in Wagner [Wa17]. It
+also names the Lean proof of the finite form that the AI system Aristotle
+produced, posted by Alexeev, and Chan's second proof from the Erdős–Szekeres
+theorem. The upper bound $c\le1$ is Cambie's construction in the thread.
 
 **Source.** [erdosproblems.com/1026](https://www.erdosproblems.com/1026),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1026,
@@ -95,7 +96,7 @@ https://www.erdosproblems.com/1026.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1026.lean),
-marked solved there as of its commit of 18 September 2026 and pointing, on its
+marked solved there at its commit of 18 September 2026 and pointing, on its
 weighted-variant statement, at a third-party Lean proof, linked from Alexeev's
 claim page, which this corpus has not built.
 
@@ -128,19 +129,20 @@ the curator credits the Lean proof of the $k^2$ statement that Aristotle
 produced and Alexeev posted, which with Cambie's construction gives $c=1$; the
 exact $c(n)$ for every $n$, added to the same file on 12 December 2025, is later
 than the curator's remark and rests on the Lean file and Tao's account alone, as
-the claim page records. The site's Lean qualification is that file, which the
-corpus has not built. The lower bound alone is the accepted partial claim
+the claim page records. The erdosproblems.com Lean qualification is that file,
+which the corpus has not built. The lower bound alone is the accepted partial
+claim
 [[problems/set_systems/E1026/claims/2016_08_14_tidor_wang_yang|Tidor, Wang and Yang's weighted Erdős–Szekeres bound]],
 whose page records its first proof. Cambie's construction and Chan's proof are
 thread posts and have no pages. Wagner's paper has none: it proves the weighting
 step only for chromatic numbers over a Gallai partition (its Claim 3.5), not the
-weighted Erdős–Szekeres bound, which the site calls implicit there. Steele's
-survey [St95], whose Section 12 reports the question without progress, is on the
-card
+weighted Erdős–Szekeres bound, which erdosproblems.com calls implicit there.
+Steele's survey [St95], whose Section 12 reports the question without progress,
+is on the card
 [[../library/set_systems/steele_1995_variations_monotone_subsequence_theme_erdos_szekeres/_index|Steele 1995]].
 Neither claim is refereed; the acceptance is the curator's. Search scope, with
-the sources as they stood on 2026-10-06: the site's page (last edited 8
-December 2025), its discussion thread (twenty-five comments) and proof-claim
+the sources as they stood on 2026-10-06: the erdosproblems.com page (last edited
+8 December 2025), its discussion thread (twenty-five comments) and proof-claim
 tab (no claim), the community database and formal-conjectures.
 <!-- BEGIN problem library links -->
 

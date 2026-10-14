@@ -24,15 +24,15 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Does every graph with chromatic number $\aleph_1$ contain an
 infinitely connected subgraph with chromatic number $\aleph_1$?
 
-**Status.** DISPROVED (LEAN). The Lean suffix is the site's catalog label. The
-site's commentary credits the counterexamples to Soukup and, in a simpler form,
-to Bowler and Pitz. The frontmatter standing is derived from the accepted claim
-pages
+**Status.** DISPROVED (LEAN). The Lean suffix is erdosproblems.com's catalog
+label. The erdosproblems.com commentary credits the counterexamples to Soukup
+and, in a simpler form, to Bowler and Pitz. The frontmatter standing is derived
+from the accepted claim pages
 [[problems/set_theory/E1067/claims/2014_09_09_soukup|Soukup's ZFC counterexample]]
 and
 [[problems/set_theory/E1067/claims/2024_02_08_bowler_pitz|Bowler and Pitz's elementary counterexample]].
-Each is accepted on its refereed publication and the site's credit. The Lean
-development the suffix refers to is recorded on the second page as a
+Each is accepted on its refereed publication and the erdosproblems.com credit.
+The Lean development the suffix refers to is recorded on the second page as a
 formalization link, not as `formalized` evidence. Komjáth's earlier consistency
 result has its own partial claim page,
 [[problems/set_theory/E1067/claims/2013_01_03_komjath|Komjáth's forced counterexample]].
@@ -63,11 +63,11 @@ with the answer false in the category `research solved`, names as its
 formal proof a development in an outside repository, recorded on the
 [[problems/set_theory/E1067/claims/2024_02_08_bowler_pitz|claim page]], and
 records the edge-connectivity variant, answered yes by Thomassen [Th17], as
-a second solved statement. The site's commentary says instead that
+a second solved statement. The erdosproblems.com commentary says instead that
 Thomassen constructed a counterexample to the edge-connectivity version.
-That is an error of the site: Theorem 2 of Thomassen's paper (Combinatorica
-37 (2017), 785--793) proves that every graph of uncountable chromatic number
-has a subgraph of uncountable chromatic number and infinite
+That is an error of erdosproblems.com: Theorem 2 of Thomassen's paper
+(Combinatorica 37 (2017), 785--793) proves that every graph of uncountable
+chromatic number has a subgraph of uncountable chromatic number and infinite
 edge-connectivity, and inside a graph of chromatic number $\aleph_1$ such a
 subgraph has chromatic number exactly $\aleph_1$.
 

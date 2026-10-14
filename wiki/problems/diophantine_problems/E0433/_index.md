@@ -37,9 +37,9 @@ g(k,n)\sim \frac{n^2}{k-1}?
 $$
 
 **Formulation.** The statement names no regime for the asymptotic, and the
-question depends on one. The site's commentary reads it, as Erdős and Graham
-presumably meant it, with $k$ fixed and $n\to\infty$, and the standing on this
-page concerns that reading. Dixmier's two-sided bounds, on the claim page,
+question depends on one. The erdosproblems.com commentary reads it, as Erdős and
+Graham presumably meant it, with $k$ fixed and $n\to\infty$, and the standing on
+this page concerns that reading. Dixmier's two-sided bounds, on the claim page,
 give the asymptotic for fixed $k$ and uniformly whenever $k=o(n)$, but the
 asymptotic fails when $k$ is comparable to $n$: for $k=n-1$ every set of that size contains $1$ or is $\{2,\ldots,n\}$, so
 $g(n-1,n)=1$, while
@@ -47,14 +47,14 @@ $n^2/(n-2)\sim n$; more generally, when $k/n\to\alpha$ with $1/\alpha$ not an
 integer, Dixmier's upper bound is $(\lceil1/\alpha\rceil-1+o(1))\,n$, which is
 below $n/\alpha$.
 
-**Status.** PROVED (LEAN), the site's label. The site's commentary credits
-Dixmier with the proof. The frontmatter standing is derived from the accepted
-claim page
+**Status.** PROVED (LEAN), the erdosproblems.com label. The erdosproblems.com
+commentary credits Dixmier with the proof. The frontmatter standing is derived
+from the accepted claim page
 [[problems/diophantine_problems/E0433/claims/1990_02_01_dixmier|Dixmier's bounds]],
-accepted on the site's credit and the refereed publication. The Lean part of the
-label refers to a forum-posted formalization of Dixmier's theorems. That
-formalization is recorded on the claim page, and this corpus has not built or
-audited it.
+accepted on the erdosproblems.com credit and the refereed publication. The Lean
+part of the label refers to a forum-posted formalization of Dixmier's theorems.
+That formalization is recorded on the claim page, and this corpus has not built
+or audited it.
 
 **Source.** [erdosproblems.com/433](https://www.erdosproblems.com/433), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #433,

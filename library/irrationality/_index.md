@@ -3,7 +3,7 @@ name: irrationality
 title: "Irrationality and Diophantine Approximation"
 desc: "Sources filed under Irrationality and Diophantine Approximation, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Irrationality and Diophantine Approximation
@@ -23,7 +23,7 @@ forces the sum of 1/(a_n a_{n+1}) to be irrational, and shows this is sharp.
 its totient specialization excludes Mahler equations but gives no
 arithmetic conclusion about the value at one half.
 
-[[irrationality/bloom_2026_erdos_problem_251_discussion/_index|bloom_2026_erdos_problem_251_discussion/]]: Web source for the catalog's Problem 251 page, discussion thread,
+[[irrationality/bloom_2026_erdos_problem_251_discussion/_index|bloom_2026_erdos_problem_251_discussion/]]: Web source for the erdosproblems.com Problem 251 page, discussion thread,
 proof-claims page and history as snapshotted on 2026-09-17, with Tao's
 gap-series reformulation proved and the 2026 claims recorded as their
 authors state them.
@@ -228,7 +228,7 @@ of omega(n)/t^n is irrational for every integer t at least 2.
 [[irrationality/ringer_2026_local_gap_statistics_telescoping_normality/_index|ringer_2026_local_gap_statistics_telescoping_normality/]]: Records a claimed, unreviewed 2026 manuscript asserting that Kuperberg's
 uniform prime-tuples conjecture implies normality, hence irrationality, of
 the dyadic prime series of problem 251, with the author's AI attribution,
-the site's partial proof claim and the author-run Lean report.
+erdosproblems.com's partial proof claim and the author-run Lean report.
 
 [[irrationality/schlagepuchta_2006_irrationality_number_theoretical_series/_index|schlagepuchta_2006_irrationality_number_theoretical_series/]]: Proves the series of divisor-power sums over factorials is irrational for
 every exponent under Schinzel's hypothesis H, and unconditionally for

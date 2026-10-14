@@ -27,17 +27,17 @@ monochromatic $k$-term arithmetic progression. Improve the bounds for $W(k)$ -
 for example, prove that $W(k)^{1/k}\to \infty$.
 
 **Formulation.** The request to improve the bounds is read against the
-bounds the site's commentary cites as the current records: Berlekamp's
-$W(p+1)\ge p2^p$ for primes $p$ [Be68], Gowers's tower upper bound [Go01]
-and Kozik and Shabanov's $W(k)\gg2^k$ [KoSh16]. The site credits them as
-the known bounds and labeled the problem OPEN. They are the baseline the
+bounds the erdosproblems.com commentary cites as the current records:
+Berlekamp's $W(p+1)\ge p2^p$ for primes $p$ [Be68], Gowers's tower upper bound
+[Go01] and Kozik and Shabanov's $W(k)\gg2^k$ [KoSh16]. erdosproblems.com credits
+them as the known bounds and labeled the problem OPEN. They are the baseline the
 request asks to beat, and they settle none of the questions the problem and
 its commentary pose. The formal-conjectures file linked under Formalization
 restates Berlekamp's and Gowers's bounds as solved variants
 (`erdos_138.variants.prime`, `erdos_138.variants.upper`) with no formal
 proof.
 
-**Status.** OPEN, the site's label (page last edited 2 June 2026).
+**Status.** OPEN, the erdosproblems.com label (page last edited 2 June 2026).
 
 **Source.** [erdosproblems.com/138](https://www.erdosproblems.com/138), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #138,
@@ -97,14 +97,14 @@ accepted as a partial claim on the refereed publication of the paper that
 reports it
 ([[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|claim page]];
 [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_138_difference|library page]]).
-Three further results on the questions the site's entry records are claimed on
-their own pages: Campos, Fox and Schildkraut's lower bound
+Three further results on the questions the erdosproblems.com entry records are
+claimed on their own pages: Campos, Fox and Schildkraut's lower bound
 $W(k)\ge(1-o(1))k2^{k-1}$, which also gives $W(k)/2^k\to\infty$
 ([[problems/additive_combinatorics/E0138/claims/2026_08_21_campos_fox_schildkraut|claim page]]);
 a Lean proof of $W(k)/2^k\to\infty$ in Meta's atlas-lean repository
 ([[problems/additive_combinatorics/E0138/claims/2026_08_28_meta|claim page]]);
-and the notes that Nat Sothanaphan linked from the site's thread on 2026-04-10,
-written with GPT-5.4 Thinking, which refine the difference bound to
+and the notes that Nat Sothanaphan linked from the erdosproblems.com thread on
+2026-04-10, written with GPT-5.4 Thinking, which refine the difference bound to
 $W_r(k+1)-W_r(k)\ge k+\min(k,F(r))+1$ for $r$ colors with an explicit
 $F(r)=\Theta(r\log\log r)$; at $r=2$ this is $W(k+1)-W(k)\ge k+1$
 ([[problems/additive_combinatorics/E0138/claims/2026_04_10_sothanaphan|claim page]]).

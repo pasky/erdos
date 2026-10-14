@@ -57,9 +57,10 @@ $n\le5$.
 
 - [[../wiki/problems/extremal_graph_theory/E0794/_index|Problem 794]]: a
   3-graph whose four-point sets span zero or two edges has no four vertices
-  spanning three edges, so it counts toward $m(n,3,4,3)$, the quantity of the
-  site commentary's reading. Theorem 2 shows that within this class nothing
-  beats $H_S$; the larger iterated construction behind the lower bound of
+  spanning three edges, so it counts toward $m(n,3,4,3)$, the quantity of
+  erdosproblems.com commentary's reading. Theorem 2 shows that within this class
+  nothing beats $H_S$; the larger iterated construction behind the lower bound
+  of
   [[extremal_graph_theory/frankl_1984_exact_result_graphs/theorem_3|Theorem 3]]
   leaves the class: a triple added inside $V_1$ together with a vertex of $V_2$
   spans exactly one edge (an observation of this page). The problem page names

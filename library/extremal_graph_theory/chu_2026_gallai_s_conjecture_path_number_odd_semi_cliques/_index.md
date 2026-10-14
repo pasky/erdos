@@ -203,16 +203,16 @@ independently reviewed.
 (printed p. 2, PDF p. 2), "Let $G$ be a graph on $n$ vertices. If the
 $E$-subgraph of $G$ is isomorphic to $K_m$ with $m\le15$, then
 $p(G)\le\lfloor\frac n2\rfloor+1$", is the class that page's table
-attributes to the paper from the site's account: the site states it for $n$
-odd, where the paper's own remark (p. 2) gives $\lceil n/2\rceil$, the
-conjecture's bound; the theorem is stated for every graph, connected or
-not, and for $n$ even its $\lfloor n/2\rfloor+1=n/2+1$ exceeds the
-conjecture's $n/2$ by one, so the conjecture is proved for this class only
-in the odd case, which is the case $m$ odd, since the number of odd-degree
-vertices is even. The paper states Gallai's conjecture as Conjecture 1.1
-(p. 1) in the site's form, $\lceil n/2\rceil$ paths for a connected graph.
-Theorem 1.7 (p. 2), "Let $G$ be a semi-clique on $n$ vertices. Then
-$p(G)\le\frac{4n+6}7$", bounds the path number of the odd semi-cliques of
+attributes to the paper from erdosproblems.com's account: erdosproblems.com
+states it for $n$ odd, where the paper's own remark (p. 2) gives
+$\lceil n/2\rceil$, the conjecture's bound; the theorem is stated for every
+graph, connected or not, and for $n$ even its $\lfloor n/2\rfloor+1=n/2+1$
+exceeds the conjecture's $n/2$ by one, so the conjecture is proved for this
+class only in the odd case, which is the case $m$ odd, since the number of
+odd-degree vertices is even. The paper states Gallai's conjecture as Conjecture
+1.1 (p. 1) in the erdosproblems.com form, $\lceil n/2\rceil$ paths for a
+connected graph. Theorem 1.7 (p. 2), "Let $G$ be a semi-clique on $n$ vertices.
+Then $p(G)\le\frac{4n+6}7$", bounds the path number of the odd semi-cliques of
 Bonamy and Perrett's
 [[extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/question_1_1|Question 1.1]],
 graphs that need more than $\lfloor n/2\rfloor$ paths and, by Conjecture

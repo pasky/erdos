@@ -37,7 +37,7 @@ $$
 R(C_4,S_n)\leq n+\sqrt{n}-c?
 $$
 
-**Formulation.** The site's wording of 2026-09-17 (page last edited 1
+**Formulation.** The erdosproblems.com wording of 2026-09-17 (page last edited 1
 February 2026). $S_n$ has $n$ edges; the sources write
 $f(n)=r(C_4,K_{1,n})$ or $R(C_4,K_{1,m})$ with the same parameter, and
 $R(C_4,K_{1,n})$ and $R(C_4,W_n)$, $W_n$ the wheel on $n$ vertices, are
@@ -129,7 +129,7 @@ https://www.erdosproblems.com/552, accessed 2026-09-17.
   (published text); result page
   [[../library/ramsey_theory/zhang_2017_polarity_graphs_ramsey_numbers_c_4_versus_stars/theorem_4|Theorem 4]].
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
-  graph theory. Quaestiones Math. 16 (1993), 333--350; the site cites
+  graph theory. Quaestiones Math. 16 (1993), 333--350; erdosproblems.com cites
   p. 345. Chapter V, problem 7, printed p. 345: the largest minimum degree
   $f(n)$ of a $C_4$-free graph on $n$ vertices, the question
   $f(n+1)\ge f(n)$, the easy $f(n)<\sqrt n+1$ and the question whether
@@ -152,8 +152,8 @@ https://www.erdosproblems.com/552, accessed 2026-09-17.
   $C_4$. Library home:
   [[../library/number_theory/erdos_1995_my_favourite_problems_number_theory_combinatorics/_index|erdos_1995_my_favourite_problems_number_theory_combinatorics]].
 - [Er96] Erdős, Paul, Some of my favourite problems on cycles and
-  colourings. Tatra Mt. Math. Publ. 9 (1996), 7--9. The site's source for
-  the form $R(C_4,S_n)\ge n+\sqrt n-O(1)$ of the question: item 5, printed
+  colourings. Tatra Mt. Math. Publ. 9 (1996), 7--9. The erdosproblems.com source
+  for the form $R(C_4,S_n)\ge n+\sqrt n-O(1)$ of the question: item 5, printed
   p. 8, writes $h(n)$ for the largest minimum degree of a $C_4$-free graph
   on $n$ vertices, recalls $h(n)=(1+o(1))\sqrt n$ (display (3)) and asks
   "$h(n)=n^{1/2}+O(1)$?" (display (6)), adding "Very likely (6) is too
@@ -167,37 +167,38 @@ of formal-conjectures (main, fetched 2026-09-17) declares two statements under
 `erdos_552.parts.i : ∀ (n : ℕ), SimpleGraph.graphRamsey (SimpleGraph.cycleGraph 4) (completeBipartiteGraph (Fin 1) (Fin n)) = answer(sorry)`
 and
 `erdos_552.parts.ii : answer(sorry) ↔ ∀ (c : ℝ), 0 < c → Set.Infinite {n : ℕ | (graphRamsey (cycleGraph 4) (completeBipartiteGraph (Fin 1) (Fin n)) : ℝ) ≤ n + Real.sqrt n - c}`
-(the module prefix is shortened in the second). The site marks the
+(the module prefix is shortened in the second). Bloom's catalog marks the
 statement as formalized, and the community database's record (statement
 formalized since 9 September 2026, status open, no formal proof) refers to
 this file; nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement above; OPEN,
-which the site qualifies as not resolvable by a finite computation; prize
-offered; last edited 1 February 2026. The site's commentary attributes the
-problem to Burr, Erdős, Faudree, Rousseau and Schelp [BEFRS89] and notes that
-Erdős often asked it in the equivalent form of a minimum-degree condition
-forcing a $C_4$ (Problem 85). It states the window $n+\sqrt n-6n^{11/40}\le
-R(C_4,S_n)\le n+\lceil\sqrt n\rceil+1$, crediting the lower bound to [BEFRS89],
-explaining that it depends on the gaps between consecutive primes and would
-sharpen to $n+\sqrt n-n^{o(1)}$ under Cramér's conjecture, and crediting the
-upper bound to Parsons [Pa75]. It records Erdős's prize for a proof or disproof
-of the second question, the [Er96] question whether $R(C_4,S_n)\ge n+\sqrt
-n-O(1)$ (a bound Erdős himself called probably too optimistic), and the further
-questions whether $f(n+1)=f(n)$ infinitely often and with density zero, and
-whether $f(n+1)\le f(n)+2$ for all $n$ (Problem 85 asks about an equivalent
-function). On exact values it lists Parsons's families $n=q^2+1$ and $n=q^2$ and
-says that their extensions, for which it refers to [Pa75], [WSZR15], [ZCC17] and
-[ZCC17b], all lie at $n=q^2\pm t$ for some $0\le t\le q$ (not so for Theorem 7
-of [ZCC17], whose new values at $n=40$ and $38$ lie at no such $n$), observes
-that every known value is $n+\lceil\sqrt n\rceil$ or one more, and records
-Zhang, Chen and Cheng's speculation [ZCC17] that this holds for all $n\ge2$,
-which would answer the displayed question in the negative. The one comment (27
-October 2025) points to Parsons's two families and the Wu et al. family; the
-site was updated in response. The proof-claim tab is empty. The community
-database record (fetched 2026-09-17) says open (last updated 31 August 2025).
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; OPEN, which erdosproblems.com qualifies as not resolvable by a finite
+computation; prize offered; last edited 1 February 2026. The erdosproblems.com
+commentary attributes the problem to Burr, Erdős, Faudree, Rousseau and Schelp
+[BEFRS89] and notes that Erdős often asked it in the equivalent form of a
+minimum-degree condition forcing a $C_4$ (Problem 85). It states the window
+$n+\sqrt n-6n^{11/40}\le R(C_4,S_n)\le n+\lceil\sqrt n\rceil+1$, crediting the
+lower bound to [BEFRS89], explaining that it depends on the gaps between
+consecutive primes and would sharpen to $n+\sqrt n-n^{o(1)}$ under Cramér's
+conjecture, and crediting the upper bound to Parsons [Pa75]. It records Erdős's
+prize for a proof or disproof of the second question, the [Er96] question
+whether $R(C_4,S_n)\ge n+\sqrt n-O(1)$ (a bound Erdős himself called probably
+too optimistic), and the further questions whether $f(n+1)=f(n)$ infinitely
+often and with density zero, and whether $f(n+1)\le f(n)+2$ for all $n$ (Problem
+85 asks about an equivalent function). On exact values it lists Parsons's
+families $n=q^2+1$ and $n=q^2$ and says that their extensions, for which it
+refers to [Pa75], [WSZR15], [ZCC17] and [ZCC17b], all lie at $n=q^2\pm t$ for
+some $0\le t\le q$ (not so for Theorem 7 of [ZCC17], whose new values at $n=40$
+and $38$ lie at no such $n$), observes that every known value is
+$n+\lceil\sqrt n\rceil$ or one more, and records Zhang, Chen and Cheng's
+speculation [ZCC17] that this holds for all $n\ge2$, which would answer the
+displayed question in the negative. The one comment (27 October 2025) points to
+Parsons's two families and the Wu et al. family; erdosproblems.com was updated
+in response. The proof-claim tab is empty. The community database record
+(fetched 2026-09-17) says open (last updated 31 August 2025).
 
 **Upper bound.** Parsons's
 [[../library/ramsey_theory/parsons_1975_ramsey_graphs_block_designs_i/theorem_1|Theorem 1]]
@@ -206,9 +207,9 @@ $f(q^2+1)\le q^2+q+2$ for all
 $q\ge1$, with equality for prime powers $q$. For integer $f$ the first bound
 is $n+\lceil\sqrt n\rceil+1$, the form in which Burr et al. quote it as
 [[../library/ramsey_theory/burr_1989_complete_bipartite_graph_tree_ramsey_numbers/lemma_1_3|Lemma 1.3]]
-("proved by Parsons", p. 81) and Wu et al. as Theorem 7(c); it is the
-site's upper bound. Parsons's proof (Lemma 1, pp. 34--35) counts pairs of
-vertices through common neighbors in a $C_4$-free graph and uses the
+("proved by Parsons", p. 81) and Wu et al. as Theorem 7(c); it is
+erdosproblems.com's upper bound. Parsons's proof (Lemma 1, pp. 34--35) counts
+pairs of vertices through common neighbors in a $C_4$-free graph and uses the
 Friendship Theorem for strictness.
 
 **Exact values.** Parsons's Theorem 1 and
@@ -255,7 +256,7 @@ $n+\lfloor\sqrt{n-1}\rfloor+2$, records $R(C_4,K_{1,24})=30$ and
 $R(C_4,K_{1,48})=56$ as the values new to its table of $6\le n\le50$, and
 says its Ramsey graphs for odd $t$ are not subgraphs of the polarity graph
 (one edge is added). Every value in hand with $n\ge2$ is
-$n+\lceil\sqrt n\rceil+\{0,1\}$, as the site says ($f(1)=4$).
+$n+\lceil\sqrt n\rceil+\{0,1\}$, as erdosproblems.com says ($f(1)=4$).
 
 **Lower bound and the window.** Burr et al.'s
 [[../library/ramsey_theory/burr_1989_complete_bipartite_graph_tree_ramsey_numbers/theorem_2|Theorem 2]]
@@ -265,7 +266,7 @@ $f(n)>n+\lfloor n^{1/2}-6n^{\alpha/2}\rfloor$ for all large $n$; the Remark
 says $(*)$ was known in 1989 for some $\alpha<11/20$, so that $f(n)$ "is
 determined to within $6n^{11/40}$". The proof deletes vertices at random
 from a polarity graph of order $p^2+p+1$, $p$ the least prime above
-$\sqrt n$, which is where the prime gap enters. The site and Wu et al.
+$\sqrt n$, which is where the prime gap enters. erdosproblems.com and Wu et al.
 (Section 1) state the bound unconditionally as $n+\sqrt n-6n^{11/40}$; that
 form is Theorem 2 with the 1989 remark's exponent read as established. The
 hypothesis $(*)$ is a theorem for exponents somewhat above $1/2$ by later
@@ -283,7 +284,7 @@ $[x-x^{0.525},x]$ contains prime numbers; its proof was read for its
 structure only and was not checked. This page records that sharpening
 as a lead and keeps the 1989 form. Under Cramér's conjecture
 $(*)$ holds for every $\alpha>0$ and the bound becomes $n+\sqrt n-n^{o(1)}$,
-as the site notes.
+as erdosproblems.com notes.
 
 **The displayed question.** Whether $f(n)\le n+\sqrt n-c$ for infinitely
 many $n$, for each $c>0$. The window leaves both answers open: the lower
@@ -323,7 +324,7 @@ claim page.
 determination of $f(n)$ for all $n$, a proof or disproof of the displayed
 question, or a value below $n+\sqrt n$.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database
   record.
 - arXiv: the abstract page of 2409.12770 (two versions, no journal
@@ -346,8 +347,8 @@ passages cited under References.
 
 **Remaining gaps.** (1) [ZCC17] and [ZCC17b] are cited at statement
 depth; their proofs were not read. The $q^2-t$ family of Parsons 1976 is
-known here only from its restatement in [ZCC17] and [ZCC17b] and from the
-site; that paper is not held.
+known here only from its restatement in [ZCC17] and [ZCC17b] and from
+erdosproblems.com; that paper is not held.
 (2) The four surveys are compiled only at the passages cited. [Er96],
 item 5 (p. 8), the source of the $n+\sqrt n-O(1)$ form, asks whether
 $h(n)=n^{1/2}+O(1)$ and calls this very likely too optimistic; [Er94b],
@@ -356,18 +357,16 @@ questions; none of the three proves anything there. [Er93], problem 7
 (p. 345), asks, for the largest minimum degree $f(n)$ of a $C_4$-free graph
 on $n$ vertices, whether $f(n+1)\ge f(n)$ and whether "for every $c$ there
 is an $n$ for which $f(n)<\sqrt n-c$", the minimum-degree form of Problem 85
-that the site's commentary calls equivalent; the survey states no result and
-offers no prize there. (3) Proof coverage is at statement
-level: claims checked for Parsons's Theorems 1--2, Burr et al.'s Theorem 1,
-Lemma 1.3 and Theorem 2, Wu et al.'s Theorem 3, Boza's Theorem 10 and Zhang,
-Chen and Cheng's Theorems 6--7 of [ZCC17] and Theorem 4 of [ZCC17b];
-Parsons's
-Lemma 1 was read for structure, the other proofs were not read, and Boza's
-computer checks were not rerun. Chen's Theorem 4 of [Ch97] is covered with
-its proof on its card. (4) The unconditional form of the lower bound
-rests on a prime-gap theorem cited at statement depth only; the sharpened
-exponent is not worked through here. (5) [Bo24]
-is a preprint.
+that the erdosproblems.com commentary calls equivalent; the survey states no
+result and offers no prize there. (3) Proof coverage is at statement level:
+claims checked for Parsons's Theorems 1--2, Burr et al.'s Theorem 1, Lemma 1.3
+and Theorem 2, Wu et al.'s Theorem 3, Boza's Theorem 10 and Zhang, Chen and
+Cheng's Theorems 6--7 of [ZCC17] and Theorem 4 of [ZCC17b]; Parsons's Lemma 1
+was read for structure, the other proofs were not read, and Boza's computer
+checks were not rerun. Chen's Theorem 4 of [Ch97] is covered with its proof on
+its card. (4) The unconditional form of the lower bound rests on a prime-gap
+theorem cited at statement depth only; the sharpened exponent is not worked
+through here. (5) [Bo24] is a preprint.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

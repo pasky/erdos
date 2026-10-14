@@ -663,14 +663,15 @@ page keeps its provisional standing: unless that standing is `open` with claim
 each is a finding. `--settled` is the release mode: it requires every such
 standing to rest on a claim page and every claim page to list its authors. The
 default mode only counts them, so a problem page that
-`scripts/build_problems.py` creates from a settled site label can land before
-its claim page is written. `erdos problem-claims` runs the same check
-standalone, and `erdos problem-claims --write` sets the derived values on every
-problem that has claim pages before checking; repeatable `--problem E<nnnn>`
-selections scope the write and the check alike. The leg reads frontmatter and
-the two labeled paragraphs only; it assesses no mathematics and awards no
-standing. The module `tools.core.problem_claims` is shared, repository-neutral
-code, so it knows no problem numbering, area list or site.
+`scripts/build_problems.py` creates from a settled erdosproblems.com label can
+land before its claim page is written. `erdos problem-claims` runs the same
+check standalone, and `erdos problem-claims --write` sets the derived values on
+every problem that has claim pages before checking; repeatable
+`--problem E<nnnn>` selections scope the write and the check alike. The leg
+reads frontmatter and the two labeled paragraphs only; it assesses no
+mathematics and awards no standing. The module `tools.core.problem_claims` is
+shared, repository-neutral code, so it knows no problem numbering, no area list
+and nothing of erdosproblems.com.
 
 #### Incoming-library scope
 

@@ -32,25 +32,26 @@ $\mathrm{ex}(n;Q_3)\gg n^{5/3}$, matching the upper bound $cn^{5/3}$ he had
 for it, and that conjecture is false: Erdős and Simonovits record it and
 refute it by their display (5), $\mathrm{ex}(n;Q_3)=O(n^{8/5})$ ([ErSi70], p.
 378, quoted under Current assessment). His later printed question, whether
-$8/5$ is the exponent for the cube, is open. The Statement is the site's
-wording as of 2026-09-18 (page last edited 18 January 2026).
-$\mathrm{ex}(n;Q_k)$ is the largest number of edges of a graph on $n$ vertices
-with no subgraph isomorphic to $Q_k$; the question is asked for each fixed $k$
-as $n\to\infty$, and the request to determine the behavior asks for the order
-of magnitude, the exponent first. $Q_2=C_4$ is
-[[problems/extremal_graph_theory/E0765/_index|Problem 765]]; the site's
-commentary concerns $k\ge3$ and $Q_3$ in particular, and Erdős's own printed
-forms of the question are narrower: whether $\mathrm{ex}(n;Q_3)\gg n^{8/5}$
-([Er81], Part III, item 2, display (2)), whether the bound $cn^{8/5}$ "is best
-possible" ([Er74c], p. 78; [Er75], Chapter 2). On the site's lower bound: the
-site writes $(\tfrac12+o(1))n^{3/2}\le\mathrm{ex}(n;Q_3)$ as proved in
-[ErSi70]; that paper proves the two-sided bound of order $n^{3/2}$ for the
-cube minus an edge (display (4)) and quotes $f(n;K(2,2))=(1+o(1))n^{3/2}/2$
-(display (2), attributed to Brown and to Erdős, Rényi and Sós), and since
-$C_4=K(2,2)$ is a subgraph of $Q_3$, every $C_4$-free graph is $Q_3$-free; the
-site's lower bound is this containment applied to the $C_4$ asymptotic of
-Problem 765, not a separate theorem of the paper, as Janzer and Sudakov also
-say (p. 1: it "follows from the observation that $Q_3$ contains a 4-cycle").
+$8/5$ is the exponent for the cube, is open. The Statement is the
+erdosproblems.com wording as accessed 2026-09-18 (page last edited 18 January
+2026). $\mathrm{ex}(n;Q_k)$ is the largest number of edges of a graph on $n$
+vertices with no subgraph isomorphic to $Q_k$; the question is asked for each
+fixed $k$ as $n\to\infty$, and the request to determine the behavior asks for
+the order of magnitude, the exponent first. $Q_2=C_4$ is
+[[problems/extremal_graph_theory/E0765/_index|Problem 765]]; the
+erdosproblems.com commentary concerns $k\ge3$ and $Q_3$ in particular, and
+Erdős's own printed forms of the question are narrower: whether
+$\mathrm{ex}(n;Q_3)\gg n^{8/5}$ ([Er81], Part III, item 2, display (2)), whether
+the bound $cn^{8/5}$ "is best possible" ([Er74c], p. 78; [Er75], Chapter 2). On
+erdosproblems.com's lower bound: erdosproblems.com writes
+$(\tfrac12+o(1))n^{3/2}\le\mathrm{ex}(n;Q_3)$ as proved in [ErSi70]; that paper
+proves the two-sided bound of order $n^{3/2}$ for the cube minus an edge
+(display (4)) and quotes $f(n;K(2,2))=(1+o(1))n^{3/2}/2$ (display (2),
+attributed to Brown and to Erdős, Rényi and Sós), and since $C_4=K(2,2)$ is a
+subgraph of $Q_3$, every $C_4$-free graph is $Q_3$-free; erdosproblems.com's
+lower bound is this containment applied to the $C_4$ asymptotic of Problem 765,
+not a separate theorem of the paper, as Janzer and Sudakov also say (p. 1: it
+"follows from the observation that $Q_3$ contains a 4-cycle").
 
 **Status.** Open. For the cube,
 $(\tfrac12+o(1))n^{3/2}\le\mathrm{ex}(n;Q_3)\le O(n^{8/5})$. The upper bound is
@@ -70,12 +71,12 @@ bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/576](https://www.erdosproblems.com/576),
 accessed 2026-09-18: the problem page (OPEN,
-the site's label for a problem that is open and admits no finite
+the erdosproblems.com label for a problem that is open and admits no finite
 computation; last edited 18 January 2026), its empty discussion thread and
 its empty proof-claim tab.
-The site cites [Er64c], [ErSi70, p. 378], [Er74c, p. 78], [Er75], [Er81] and
-[Er93, p. 334] as the problem's sources and [SuTo22] and [JaSu22] in its
-commentary; it points to Problem 1035 and lists the problem at number 52 of
+erdosproblems.com cites [Er64c], [ErSi70, p. 378], [Er74c, p. 78], [Er75],
+[Er81] and [Er93, p. 334] as the problem's sources and [SuTo22] and [JaSu22] in
+its commentary; it points to Problem 1035 and lists the problem at number 52 of
 its extremal graph theory collection. Cite as: T. F. Bloom, Erdős
 Problem #576, https://www.erdosproblems.com/576, accessed 2026-09-18.
 
@@ -107,8 +108,8 @@ Problem #576, https://www.erdosproblems.com/576, accessed 2026-09-18.
   Turán number $\mathrm{ex}(n;Q_k)$ of the hypercube or about $K_{d,d}$-free
   bipartite graphs (the hypercube appears only as a host graph in its
   concluding remarks, p. 15, after Conjecture 7.1, with reference [3]); the
-  bound the site attributes to this paper is cited here only as Theorem 1.2
-  of [JaSu22]. Library home:
+  bound erdosproblems.com attributes to this paper is cited here only as Theorem
+  1.2 of [JaSu22]. Library home:
   [[../library/extremal_graph_theory/sudakov_2022_extremal_number_tight_cycles/_index|sudakov_2022_extremal_number_tight_cycles]].
 - [Er74c] Erdős, Paul, Extremal problems on graphs and hypergraphs.
   Hypergraph Seminar, Lecture Notes in Math. 411 (1974), 75--84; display (7),
@@ -135,30 +136,30 @@ Problem #576, https://www.erdosproblems.com/576, accessed 2026-09-18.
   paged at
   [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p8|problem_p8]].
 - [Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in
-  graph theory. Quaestiones Math. 16 (1993), 333--350; the site cites
+  graph theory. Quaestiones Math. 16 (1993), 333--350; erdosproblems.com cites
   p. 334. Chapter I, display (3), $T(n;G)<cn^{8/5}$ for the cube, with the
   conjecture that the exponent is sharp, printed p. 334 (the passage is
   quoted under Erdős's statements). Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Ch97] Chung, F. R. K., Open problems of Paul Erdős in graph theory. J.
   Graph Theory 25 (1997), 3--36; Problem (36), p. 9 of the author's preprint
-  version. Not cited by the site. Library home:
+  version. Not cited by erdosproblems.com. Library home:
   [[../library/extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/_index|chung_1997_open_problems_paul_erdos_graph_theory]];
   paged at
   [[../library/extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/problem_36|problem_36]].
 
 **Formalization.** None. On 2026-09-18, no file `ErdosProblems/576.lean`
-existed in formal-conjectures at main; the site's page showed the statement as
-not formalized ("No (create one)"), and the community database
+existed in formal-conjectures at main; the erdosproblems.com page showed the
+statement as not formalized ("No (create one)"), and the community database
 (teorth/erdosproblems, `data/problems.yaml`) recorded the problem as open
 (last update 31 August 2025), not formalized, no formal proof.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN, last edited 18 January 2026, no comments, no proof claims. The
-site's commentary attributes to Erdős and Simonovits [ErSi70] the cube
-bounds, lower of order $n^{3/2}$ with constant $\tfrac12$ and upper
+erdosproblems.com commentary attributes to Erdős and Simonovits [ErSi70] the
+cube bounds, lower of order $n^{3/2}$ with constant $\tfrac12$ and upper
 $O(n^{8/5})$, together with the remark that Erdős's first guess had been
 order $n^{5/3}$, and the order $n^{3/2}$ for the cube minus an edge; it
 records that Erdős returned to the question of whether $n^{8/5}$ is the
@@ -200,8 +201,8 @@ $k$ on one side ([JaSu22], p. 2; the latter paper is carded under
 [[../library/extremal_graph_theory/janzer_2022_turan_number_hypercube/theorem_1_2|Theorem 1.2]]
 of [JaSu22], attributed to Sudakov and Tomon: for a $K_{d,d}$-free bipartite
 $H$ with maximum degree at most $d$ on one side, $\mathrm{ex}(n,H)=o(n^{2-1/d})$,
-whence $\mathrm{ex}(n,Q_d)=o(n^{2-1/d})$ for $d\ge3$, the site's [SuTo22]
-display; this is an attributed restatement: the arXiv v1 of the
+whence $\mathrm{ex}(n,Q_d)=o(n^{2-1/d})$ for $d\ge3$, erdosproblems.com's
+[SuTo22] display; this is an attributed restatement: the arXiv v1 of the
 Sudakov--Tomon paper contains no such statement, and the published IMRN
 version, which differs from it, was not consulted. The statement, with $t$ for
 $d$, is the result announced in the arXiv abstract of Sudakov and Tomon's
@@ -211,7 +212,7 @@ different paper from [SuTo22]; only its abstract was read.
 [[../library/extremal_graph_theory/janzer_2022_turan_number_hypercube/theorem_1_4|Theorem 1.4]]
 (p. 2): for any integer $d\ge3$,
 $\mathrm{ex}(n,Q_d)=O_d\bigl(n^{2-\frac1{d-1}+\frac1{(d-1)2^{d-1}}}\bigr)$,
-the site's [JaSu22] display, answering Question 1.3 (Liu). Acceptance
+erdosproblems.com's [JaSu22] display, answering Question 1.3 (Liu). Acceptance
 evidence: Forum of Mathematics, Sigma is refereed; arXiv v3 thanks "the two
 referees". Proof coverage: claims checked; the proof (Sections 2.1--2.3,
 pp. 3--11) is unverified. The other side (their p. 17): "for a general
@@ -247,7 +248,7 @@ of this conjecture", "Is it true that (2) $f(n;\mathcal G)>cn^{8/5}$, where in
 (2) $\mathcal G$ is the graph determined by the edges of a cube?", and on
 p. 7 "$f(n;\mathcal G)<c_1n^{8/5}$ is a theorem of Simonovits and myself";
 the prize attaches to (1), the general exponent conjecture, not to the cube
-question (2), and the site records no prize for this problem. [Er93],
+question (2), and erdosproblems.com records no prize for this problem. [Er93],
 Chapter I, display (3), p. 334: Erdős recalls that he and Simonovits (his
 [5]) proved more than twenty years earlier that for $G$ the graph of the
 three-dimensional cube, bipartite and $3$-regular with $8$ vertices and
@@ -256,15 +257,15 @@ conjectured that the exponent 8/5 in (3) is best possible and that
 $T(n;G)\,n^{8/5}\to c$ [sic], $0<c<\infty$ but we could not even prove
 $T(n;G)/n^{3/2}\to\infty$" (the exponent $-8/5$ is meant in the limit); the
 survey states only the cube and offers no prize for it. Erdős's printed
-question is thus the $Q_3$ case, whether $8/5$ is the exponent; the site's
-wording asks for every $k$.
+question is thus the $Q_3$ case, whether $8/5$ is the exponent; the
+erdosproblems.com wording asks for every $k$.
 
 **Search scope.** None of the routes below found a bound
 improving $O(n^{8/5})$ or $\Omega(n^{3/2})$ for the cube, a determination of
 the exponent for any $k\ge3$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
-  community database record; the formal-conjectures directory at main as of
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  community database record; the formal-conjectures directory at main on
   2026-09-18 (no file 576).
 - The primary sources: [ErSi70] pp. 377--379, [JaSu22] pp. 1--2 and 17,
   [SuTo22] (arXiv v1) searched throughout for the hypercube, with its
@@ -291,7 +292,7 @@ Simonovits's 1984 supersaturation paper for the cube, carded under Problem
 
 **Remaining gaps.** (1) The exponent of $\mathrm{ex}(n;Q_k)$ is unknown for
 every $k\ge3$; for the cube the gap $n^{3/2}$ to $n^{8/5}$ is unchanged since
-1970. (2) The site's [SuTo22] bound is cited only as an attributed
+1970. (2) erdosproblems.com's [SuTo22] bound is cited only as an attributed
 restatement in [JaSu22]; the IMRN text was not consulted, and of the Proc.
 Amer. Math. Soc. paper whose abstract announces the statement only the
 abstract was read. (3) [Er93] (p.
@@ -324,8 +325,8 @@ There was no Lean statement of the problem on 2026-09-18.
   and [Er81], Part III, item 2, display (2): the question in Erdős's words,
   for the cube.
 - [[../library/extremal_graph_theory/chung_1997_open_problems_paul_erdos_graph_theory/problem_36|Chung 1997, Problem (36)]]:
-  the question in the site's general form, with the 1997 bounds for $Q_3$,
-  unchanged.
+  the question in erdosproblems.com's general form, with the 1997 bounds for
+  $Q_3$, unchanged.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

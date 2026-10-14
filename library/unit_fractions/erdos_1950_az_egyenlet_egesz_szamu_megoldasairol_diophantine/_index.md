@@ -97,7 +97,7 @@ Erdős--Straus solution of Monthly problem E2232),
 [[../wiki/problems/unit_fractions/E0242/_index|#242]] (p. 195: the conjecture, made with
 Straus, that N(4,b) <= 3 for every b > 4, that is, 4/b is a sum of at most
 three distinct unit fractions, with Straus's verification for 4 < b < 5000;
-the site's source key [Er50c])
+the erdosproblems.com source key [Er50c])
 
 **Results.**
 

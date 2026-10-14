@@ -37,10 +37,10 @@ $$
 \liminf \frac{\lvert A\cap\{1,\ldots,N\}\rvert}{\log N}> 1?
 $$
 
-**Status.** Open, the site's label (OPEN; page last edited 23 January 2026),
-which attaches to the three questions together. The first two questions are open
-and the third is answered yes. The parts `existence` and `log` are unsettled, so
-the problem stays open.
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited 23 January
+2026), which attaches to the three questions together. The first two questions
+are open and the third is answered yes. The parts `existence` and `log` are
+unsettled, so the problem stays open.
 
 Erdős [Er54] constructed a set $A$ with
 $\lvert A\cap\{1,\ldots,N\}\rvert\ll(\log N)^2$ such that every large integer is

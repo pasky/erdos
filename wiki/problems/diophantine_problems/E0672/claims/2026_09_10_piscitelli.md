@@ -32,7 +32,7 @@ file, and the theorem reduces to `ap4_prod_ne_sq`, Euler's theorem in
 concrete form, which in turn rests on `no_four_squares_in_ap`, Fermat's
 theorem that no four squares form an arithmetic progression, proved by
 infinite descent from scratch. The repository's write-up says the proof was
-developed with Claude Code. The site credits the case to Euler, with no
+developed with Claude Code. erdosproblems.com credits the case to Euler, with no
 publication named; this page records the formal proof, an independent
 proof of that case. On 18 September 2026 the formal-conjectures statement
 of the variant `erdos_672.variants.euler` gained a `formal_proof` link to

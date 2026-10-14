@@ -60,7 +60,7 @@ license" and names no Creative Commons version or URL
 (https://www.impan.pl/en/publishing-house/journals-and-series/colloquium-mathematicum/all/49/1/104558/on-kemperman-s-inequality-2f-x-f-x-h-f-x-2h,
 read 2026-10-02), so the term is the Creative Commons Attribution license with
 its version unstated; the site footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the article.
+reserved." speaks for erdosproblems.com, not the article.
 
 The
 [publisher record](https://www.impan.pl/en/publishing-house/journals-and-series/colloquium-mathematicum/all/49/1/104558/on-kemperman-s-inequality-2f-x-f-x-h-f-x-2h)

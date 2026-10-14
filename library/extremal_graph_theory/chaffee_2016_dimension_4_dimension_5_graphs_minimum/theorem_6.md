@@ -65,6 +65,6 @@ and Tutte, *On the dimension of a graph*, Mathematika 12 (1965), 118--122
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1007/_index|Problem 1007]]: the site's answer
-  $9$; this is the refereed statement of it, with House's 2013 paper
-  the first proof as the introduction attests.
+- [[../wiki/problems/extremal_graph_theory/E1007/_index|Problem 1007]]:
+  erdosproblems.com's answer $9$; this is the refereed statement of it, with
+  House's 2013 paper the first proof as the introduction attests.

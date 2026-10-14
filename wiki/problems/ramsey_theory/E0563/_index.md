@@ -35,60 +35,62 @@ $$
 
 for some constant $c_\alpha$ depending only on $\alpha$.
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 18
-January 2026). If a coloring gives both colors more than an $\alpha$ share of
-the pairs on every set of at least $m$ vertices, it does so on every set of at
-least $m'$ vertices for each $m'\ge m$, so the admissible thresholds form an
-up-set and the smallest of them is the meaningful quantity. The endpoint
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 18 January 2026). If a coloring gives both colors more than an $\alpha$
+share of the pairs on every set of at least $m$ vertices, it does so on every
+set of at least $m'$ vertices for each $m'\ge m$, so the admissible thresholds
+form an up-set and the smallest of them is the meaningful quantity. The endpoint
 $\alpha=1/2$ is excluded because no set can have more than half of its pairs
 in each color. At $\alpha=0$ the condition says that no set of $m$ or more
 vertices is monochromatic, so $F(n,0)$ is the least $m$ with $R(m,m)>n$, the
-inverse of the diagonal Ramsey function, as the site's commentary says. The
-statement asks that $F(n,\alpha)/\log n$ converge to a positive constant for
-each fixed $\alpha$; the base of the logarithm changes $c_\alpha$ by a
-constant factor and nothing else.
+inverse of the diagonal Ramsey function, as the erdosproblems.com commentary
+says. The statement asks that $F(n,\alpha)/\log n$ converge to a positive
+constant for each fixed $\alpha$; the base of the logarithm changes $c_\alpha$
+by a constant factor and nothing else.
 
 Erdős's own wording (1990, printed p. 21) defines $F_k^{(r)}(n,\alpha)$, for
 splits of the $r$-tuples of an $n$-set into $k$ classes, as "the smallest
 integer for which it is possible" to make every class exceed the $\alpha$ share
 on every set of at least that many elements; states the two-sided bound (29) for
 $r=2$ "for every $0\le\alpha\le\frac1k$"; and asks in display (30) for
-$F_k^{(2)}(n,\alpha)=(c_k+o(1))\log n$. The site's problem is the case $k=2$.
-The printed range carries the endpoint $\alpha\le1/2$, which is impossible as
-just said; Erdős's next sentence, "$c_k'(\alpha)\to\infty$ as $\alpha\to1/k$",
-treats the endpoint as excluded, so the site's "$<1/2$" is the intended range.
-The site's discussion thread raised this endpoint on 17 January 2026 (a comment
-that credits the observation to ChatGPT), and the site's curator replied on 18
-January 2026, taking the printed $\le1/2$ for a misprint in [Er90b]; the
-printed text carries the misprint, and Erdős's next sentence makes it harmless.
-Erdős prints the constant of (30) as $c_k$ without showing a dependence on
-$\alpha$; the site's $c_\alpha$ makes the dependence explicit, and the bound
-(29) requires it. Conlon, Fox and Sudakov (2008, Section 6.2) restate the
-function as "the largest integer for which it is possible" to split; since the
-admissible thresholds form an up-set, "largest" gives no meaningful quantity, so
-this page follows the site's and Erdős's "smallest" and records the paper's
-wording as printed.
+$F_k^{(2)}(n,\alpha)=(c_k+o(1))\log n$. The erdosproblems.com problem is the
+case $k=2$. The printed range carries the endpoint $\alpha\le1/2$, which is
+impossible as just said; Erdős's next sentence, "$c_k'(\alpha)\to\infty$ as
+$\alpha\to1/k$", treats the endpoint as excluded, so erdosproblems.com's
+"$<1/2$" is the intended range. The erdosproblems.com discussion thread raised
+this endpoint on 17 January 2026 (a comment that credits the observation to
+ChatGPT), and the erdosproblems.com curator replied on 18 January 2026, taking
+the printed $\le1/2$ for a misprint in [Er90b]; the printed text carries the
+misprint, and Erdős's next sentence makes it harmless. Erdős prints the constant
+of (30) as $c_k$ without showing a dependence on $\alpha$; erdosproblems.com's
+$c_\alpha$ makes the dependence explicit, and the bound (29) requires it.
+Conlon, Fox and Sudakov (2008, Section 6.2) restate the function as "the largest
+integer for which it is possible" to split; since the admissible thresholds form
+an up-set, "largest" gives no meaningful quantity, so this page follows
+erdosproblems.com's and Erdős's "smallest" and records the paper's wording as
+printed.
 
-**Status.** Open, the site's label. No claim about the problem exists. The only
-known result is the two-sided bound
+**Status.** Open, the erdosproblems.com label. No claim about the problem
+exists. The only known result is the two-sided bound
 $c_\alpha'\log n<F(n,\alpha)<c_\alpha''\log n$ for $0\le\alpha<1/2$. Erdős
 asserted it without proof in 1990 ("The probability method easily gives",
 display (29)), and so did Conlon, Fox and Sudakov in 2008 ("It is easy to
-show"). The site's commentary quotes it as $F(n,\alpha)\asymp_\alpha\log n$. The
-search whose scope the Current assessment records found no source proving that
-$F(n,\alpha)/\log n$ converges, or determining $c_\alpha$ for any $\alpha$. An
-observation made here: $F(n,0)$ is the least $m$ with $R(m,m)>n$. So the case
-$\alpha=0$ of the statement, $F(n,0)\sim c_0\log n$, holds exactly when
-$\log R(k,k)\sim k/c_0$. That is, it holds when $\lim_{k\to\infty}R(k,k)^{1/k}$
-exists (Problem 77), with $c_0$ the reciprocal of the logarithm of that limit.
-So the problem contains the existence half of Problem 77 as its $\alpha=0$ case.
-This is a bounded negative finding, not a certificate of openness.
+show"). The erdosproblems.com commentary quotes it as
+$F(n,\alpha)\asymp_\alpha\log n$. The search whose scope the Current assessment
+records found no source proving that $F(n,\alpha)/\log n$ converges, or
+determining $c_\alpha$ for any $\alpha$. An observation made here: $F(n,0)$ is
+the least $m$ with $R(m,m)>n$. So the case $\alpha=0$ of the statement,
+$F(n,0)\sim c_0\log n$, holds exactly when $\log R(k,k)\sim k/c_0$. That is, it
+holds when $\lim_{k\to\infty}R(k,k)^{1/k}$ exists (Problem 77), with $c_0$ the
+reciprocal of the logarithm of that limit. So the problem contains the existence
+half of Problem 77 as its $\alpha=0$ case. This is a bounded negative finding,
+not a certificate of openness.
 
 **Source.** [erdosproblems.com/563](https://www.erdosproblems.com/563),
 accessed 2026-09-18: the problem page (OPEN, with the
-site's note that no finite computation can settle it; last edited 18 January
-2026; source key [Er90b, p. 21]), its two-comment discussion thread (17 and
-18 January 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
+erdosproblems.com note that no finite computation can settle it; last edited 18
+January 2026; source key [Er90b, p. 21]), its two-comment discussion thread (17
+and 18 January 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
 Problem #563, https://www.erdosproblems.com/563, accessed 2026-09-18.
 
 **References.**
@@ -113,24 +115,24 @@ under `category research open`, with proof `sorry`, where `F n α` is the
 least `m` for which some simple graph on `Fin n` (one color class) has, on
 every vertex set `X` with `m ≤ |X|`, strictly more than `α` times
 $\binom{|X|}2$ edges and strictly fewer than `1 - α` times $\binom{|X|}2$
-edges; that is the site's definition, the other color's share being the
-complement. The community database, read 2026-09-18, records the problem
+edges; that is the erdosproblems.com definition, the other color's share being
+the complement. The community database, read 2026-09-18, records the problem
 open (last changed 31 August 2025), the statement formalized since 9
-September 2026, and no formal proof; the site's formalized-statement
+September 2026, and no formal proof; the erdosproblems.com formalized-statement
 indicator read yes on 2026-09-18.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; OPEN, with the site's note that no finite computation can settle it;
-last edited 18 January 2026. The commentary asserts, as easy to show by the
-probabilistic method, that $F(n,\alpha)\asymp_\alpha\log n$ for every $0\le\alpha<1/2$;
-notes that at $\alpha=0$ the condition forbids a monochromatic clique on $m$
-vertices, so the classical Ramsey numbers return; points to Problem 161 for
-the hypergraph version; and lists the problem as number 39 of the Ramsey
-theory section of the site's graphs problem collection. The thread holds
-the two comments of 17 and 18 January 2026 on the endpoint $\alpha=1/2$
-described under Formulation; the proof-claim tab is empty.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it; last edited 18 January 2026. The commentary asserts, as easy to show
+by the probabilistic method, that $F(n,\alpha)\asymp_\alpha\log n$ for every
+$0\le\alpha<1/2$; notes that at $\alpha=0$ the condition forbids a monochromatic
+clique on $m$ vertices, so the classical Ramsey numbers return; points to
+Problem 161 for the hypergraph version; and lists the problem as number 39 of
+the Ramsey theory section of erdosproblems.com's graphs problem collection. The
+thread holds the two comments of 17 and 18 January 2026 on the endpoint
+$\alpha=1/2$ described under Formulation; the proof-claim tab is empty.
 
 **The origin.** Erdős's 1990 chapter, printed p. 21, page
 [[../library/ramsey_theory/erdos_1990_problems_results_graphs_hypergraphs_similarities_differences/problem_p21|problem_p21]]:
@@ -142,13 +144,13 @@ $c_k'(\alpha)\log n<F_k^{(2)}(n,\alpha)<c_k''(\alpha)\log n$, with
 "$c_k'(\alpha)\to\infty$ as $\alpha\to1/k$", and continues: "Thus again no great
 mysteries remain for $r=2$ though it would be nice to sharpen (29) and prove
 that" display (30), $F_k^{(2)}(n,\alpha)=(c_k+o(1))\log n$. The graph case is
-thus stated as a sharpening Erdős would like, without a conjecture word; the
-site's "Prove that" is its formulation. The chapter then turns to $r$-tuples
-with two classes (pp. 21--22): displays (31)--(32), the question whether
-$F_2^{(r)}(n,\alpha)$ changes continuously or in jumps as $\alpha$ grows from
-$0$ to $1/2$, and an offer for clearing it up; that is the site's Problem 161,
-the hypergraph generalization the commentary points to, and it is not this
-problem.
+thus stated as a sharpening Erdős would like, without a conjecture word;
+erdosproblems.com's "Prove that" is its formulation. The chapter then turns to
+$r$-tuples with two classes (pp. 21--22): displays (31)--(32), the question
+whether $F_2^{(r)}(n,\alpha)$ changes continuously or in jumps as $\alpha$ grows
+from $0$ to $1/2$, and an offer for clearing it up; that is erdosproblems.com's
+Problem 161, the hypergraph generalization the commentary points to, and it is
+not this problem.
 
 **What is known.** The two-sided logarithmic bound only. Erdős asserts (29) with
 the words "The probability method easily gives" and no argument; Conlon, Fox and
@@ -170,9 +172,9 @@ $\lim R(k,k)^{1/k}$ asked by Problem 77.
 **Search scope.** None of the routes below found a proof
 that $F(n,\alpha)/\log n$ converges, a value of $c_\alpha$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `563.lean` at the commit linked above; the community
-  database as of 2026-09-18.
+  database, read 2026-09-18.
 - arXiv: the abstract page of 0808.3760 (one version, no journal reference
   carried); the API queries `abs:Ramsey AND (abs:"both colours" OR abs:"both colors" OR abs:"each colour" OR abs:"each color") AND abs:"two-colouring"`
   (no records) and `abs:Ramsey AND abs:density AND abs:"every subset" AND abs:colouring`
@@ -198,10 +200,10 @@ authors' assertions. (2) The chapter does not name the earlier Erdős paper
 behind the passage, so that paper's form of the question is unknown. (3) [CFS10]
 is cited from its arXiv v1; the published text may differ. (4) The printed
 endpoint "$\le1/2$" is a misprint that Erdős's own next sentence excludes, as
-the Formulation records; the site's "$<1/2$" is the intended range. (5) The
-$\alpha=0$ case is the existence question of Problem 77; a resolution for every
-$\alpha\in[0,1/2)$ would settle it. (6) Problem 161, the chapter's hypergraph
-continuation, is not assessed here.
+the Formulation records; erdosproblems.com's "$<1/2$" is the intended range. (5)
+The $\alpha=0$ case is the existence question of Problem 77; a resolution for
+every $\alpha\in[0,1/2)$ would settle it. (6) Problem 161, the chapter's
+hypergraph continuation, is not assessed here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

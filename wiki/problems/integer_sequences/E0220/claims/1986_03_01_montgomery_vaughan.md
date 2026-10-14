@@ -4,8 +4,8 @@ title: Montgomery and Vaughan's bound on powers of totative gaps
 desc: |
   Montgomery and Vaughan bound the power sums of the gaps between consecutive
   integers below $n$ and coprime to $n$, and the squared case answers the
-  question yes. It is refereed (Annals of Mathematics, 1986) and credited by the
-  site.
+  question yes. It is refereed (Annals of Mathematics, 1986) and credited by
+  erdosproblems.com.
 authors:
 - H. L. Montgomery
 - R. C. Vaughan
@@ -45,13 +45,13 @@ the issue month, March 1986, as the Crossref record gives it; the day is
 not recorded, and the page name uses the first of the month.
 
 **Acceptance.** Refereed: the paper appeared in the Annals of Mathematics.
-Reviewed: Thomas Bloom, the site's curator, independent of the claimants,
-labeled the problem PROVED (LEAN), and the page was last edited 8 December 2025.
-The commentary attributes the positive answer to this paper and states the
-general $\gamma$ form. This was read from the dated snapshot of 2026-09-05, when
-the thread held three comments and the proof-claim tab was empty. Guy's
-collection, Section B40, records Erdős's conjecture and Erdős's offer for it. It
-also records that Montgomery and Vaughan won the prize
+Reviewed: Thomas Bloom, the erdosproblems.com curator, independent of the
+claimants, labeled the problem PROVED (LEAN), and the page was last edited 8
+December 2025. The commentary attributes the positive answer to this paper and
+states the general $\gamma$ form. This was read from the dated snapshot of
+2026-09-05, when the thread held three comments and the proof-claim tab was
+empty. Guy's collection, Section B40, records Erdős's conjecture and Erdős's
+offer for it. It also records that Montgomery and Vaughan won the prize
 ([[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|card]]).
 The paper is not held and was not read in this repository, and this page rests
 on no review of its own.
@@ -71,10 +71,10 @@ prints the theorem's axioms. formal-conjectures added its statement file
 pointer to that file at the same commit, and the community database
 records the statement formalized since 2026-09-19 and the formal status
 Lean as of that field's last update on 2026-08-24, without recording when that
-state was set, which is the site's LEAN suffix. The file was read
+state was set, which is erdosproblems.com's LEAN suffix. The file was read
 as text and neither built nor audited by the corpus, so it gives no
 `formalized` evidence: the registrations record that a Lean proof exists,
 not an examination of its statement's fidelity to the problem.
 
-**Scope.** Full. The site's thread discusses stronger asymptotic forms of
-the bound; they are not part of this claim.
+**Scope.** Full. The erdosproblems.com thread discusses stronger asymptotic
+forms of the bound; they are not part of this claim.

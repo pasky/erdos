@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 934, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0934/claims
@@ -26,10 +26,10 @@ $h_3(4)\ge71$ and $h_3(15)\ge3796$, refuting the 2022 formula for $h_3(d)$. It
 also shows $\liminf h_3(d)/d^3\ge\frac{253}{225}$, refuting the upper
 asymptotic at $t=3$.
 
-[[problems/extremal_graph_theory/E0934/claims/2026_07_29_korsky|2026_07_29_korsky]]: Korsky's partial proof claim on the site's tab, later a joint arXiv preprint
-with Cames van Batenburg, asserts $h_t(d)\ge(1-o(1))d^t$ as $d\to\infty$ for
-every $t\ge3$. The claim rests on a bipartite construction from complete flags
-and is unrefereed.
+[[problems/extremal_graph_theory/E0934/claims/2026_07_29_korsky|2026_07_29_korsky]]: Korsky's partial proof claim on the erdosproblems.com tab, later a joint arXiv
+preprint with Cames van Batenburg, asserts $h_t(d)\ge(1-o(1))d^t$ as
+$d\to\infty$ for every $t\ge3$. The claim rests on a bipartite construction
+from complete flags and is unrefereed.
 
 [[problems/extremal_graph_theory/E0934/claims/2026_08_17_bitterlemma|2026_08_17_bitterlemma]]: A thread post and Zenodo manuscript of 17 August 2026 by the Bitter Lemma
 project claim the exact value $h_3(4)=71$. The proof combines Kumar, Mohar and

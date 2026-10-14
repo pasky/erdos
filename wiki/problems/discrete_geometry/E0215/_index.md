@@ -52,12 +52,13 @@ The answer is yes, by one accepted full claim:
 construct such a set in ZFC, using the axiom of choice, with the extra property
 that no two of its points are at a distance whose square is an integer. The
 detailed proof is in the Journal of the American Mathematical Society and the
-announcement cited by the site in the Proceedings of the National Academy of
-Sciences; both are refereed and the site's curator credits the result. The
-frontmatter standing derives from this claim. The site's Lean qualification
-refers to a third-party Lean development that declares itself a formalization
-of the Jackson-Mauldin solution, linked from
-[the formal-conjectures entry](https://github.com/google-deepmind/formal-conjectures/blob/11a72f9b4ffeb8a92af67ea9fd22d7a880850db1/FormalConjectures/ErdosProblems/215.lean);
+announcement cited by erdosproblems.com in the Proceedings of the National
+Academy of Sciences; both are refereed and the erdosproblems.com curator credits
+the result. The frontmatter standing derives from this claim. The
+erdosproblems.com Lean qualification refers to a third-party Lean development
+that declares itself a formalization of the Jackson-Mauldin solution, linked
+from [the formal-conjectures
+entry](https://github.com/google-deepmind/formal-conjectures/blob/11a72f9b4ffeb8a92af67ea9fd22d7a880850db1/FormalConjectures/ErdosProblems/215.lean);
 this corpus has not built it, and
 [the formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/11a72f9b4ffeb8a92af67ea9fd22d7a880850db1/FormalConjectures/ErdosProblems/215.lean)
 itself states the problem without a proof.
@@ -65,7 +66,7 @@ itself states the problem without a proof.
 Whether a Lebesgue measurable such set exists is left open by the authors and
 is a variant, not the problem; no claim page records it.
 
-Status search: the site's page and its formal-conjectures entry,
+Status search: the erdosproblems.com page and its formal-conjectures entry,
 the publishers' records of the two papers, and the Jackson-Mauldin source card,
 which digests the authors' preprint of the announcement. No proof was checked
 here.

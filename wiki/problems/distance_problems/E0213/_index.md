@@ -39,9 +39,9 @@ points on a line, no four on a circle and all distances integers keeps all
 three properties, so a construction for $n$ points answers every smaller
 $n\ge4$ as well.
 
-**Status.** Open. This is the site's label (OPEN). Three claim pages are
-recorded: two accepted partial claims and one accepted conditional claim. None
-of them settles the question.
+**Status.** Open. This is the erdosproblems.com label (OPEN). Three claim pages
+are recorded: two accepted partial claims and one accepted conditional claim.
+None of them settles the question.
 [[problems/distance_problems/E0213/claims/1971_01_01_harborth|Harborth's five points]]
 and
 [[problems/distance_problems/E0213/claims/2007_09_29_kreisel_kurz|Kreisel and Kurz's seven points]]
@@ -56,7 +56,7 @@ in the plane with all distances integers lies on a line. Greenfeld, Iliopoulou
 and Peluse [GIP24] proved unconditionally, in their
 [[../library/distance_problems/greenfeld_2024_integer_distance_sets/corollary_1_3|Corollary 1.3]],
 that a set with the three properties inside $[-N,N]^2$ has $O((\log N)^{O(1)})$
-points. The site's remarks also point to
+points. The erdosproblems.com remarks also point to
 [[problems/distance_problems/E0130/_index|Problem 130]].
 
 **Source.** [erdosproblems.com/213](https://www.erdosproblems.com/213), accessed

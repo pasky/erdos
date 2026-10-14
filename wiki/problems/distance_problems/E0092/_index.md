@@ -28,9 +28,9 @@ $A$ equidistant from $x$.
 
 Is it true that $f(n)\leq n^{o(1)}$? Or even $f(n) < n^{O(1/\log\log n)}$?
 
-**Status.** Disproved. The site's export of 2026-09-04 labeled the problem
-"DISPROVED" (page last edited 21 May 2026). Its remarks say that the disproof of
-Problem 90 disproves this stronger form. See the
+**Status.** Disproved. The erdosproblems.com export of 2026-09-04 labeled the
+problem "DISPROVED" (page last edited 21 May 2026). Its remarks say that the
+disproof of Problem 90 disproves this stronger form. See the
 [[problems/distance_problems/E0092/claims/2026_05_20_openai|claim page]].
 
 **Source.** [erdosproblems.com/92](https://www.erdosproblems.com/92), accessed
@@ -57,9 +57,9 @@ https://www.erdosproblems.com/92.
 
 ## Current assessment
 
-**Disproved.** The site formulation above (page last edited 21 May 2026)
-asks whether $f(n)\le n^{o(1)}$, or even
-$f(n)<n^{O(1/\log\log n)}$. The answer to both is no: one accepted
+**Disproved.** The erdosproblems.com formulation above (page last edited 21
+May 2026) asks whether $f(n)\le n^{o(1)}$, or even $f(n)<n^{O(1/\log\log n)}$.
+The answer to both is no: one accepted
 [[problems/distance_problems/E0092/claims/2026_05_20_openai|claim page]]
 records OpenAI's report *Planar Point Sets with Many Unit Distances* (20 May
 2026), whose Theorem 1.1 gives $N$-point planar sets with at least

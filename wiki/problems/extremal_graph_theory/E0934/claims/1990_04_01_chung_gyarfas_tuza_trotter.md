@@ -46,9 +46,9 @@ the theorem or in two, while $C_5(D)$ has none; hence
 $$h_2(d)=\tfrac54d^2+1\ \text{for even }d,\qquad
 h_2(d)=\tfrac{5d^2-2d+1}4+1\ \text{for odd }d,$$
 the conjecture of Erdős and Nešetřil and of Bermond, Bond, Paoli and Peyrat
-that the site's commentary records, with equality $\frac54d^2+1$ for even
-$d$. The one-line step from the theorem to $h_2(d)$ is written on the problem
-page and on the result page and is the corpus's own; the paper states on
+that the erdosproblems.com commentary records, with equality $\frac54d^2+1$ for
+even $d$. The one-line step from the theorem to $h_2(d)$ is written on the
+problem page and on the result page and is the corpus's own; the paper states on
 p. 129 that it solves the extremal problem posed by Bermond et al. and by
 Nešetřil and Erdős.
 
@@ -61,10 +61,10 @@ general $t$.
 
 **Acceptance.** Refereed: Discrete Mathematics, volume 81, issue 2, issued April
 1990 according to the Crossref record. The issue carries no publication day, so
-this page is named by the first day of its month. The site's curator, Thomas F.
-Bloom, credits the proof of the $t=2$ conjecture to Chung, Gyárfás, Tuza and
-Trotter in the problem page's commentary. The label there is OPEN (page last
-edited 28 October 2025). Commentary on an open problem is not acceptance of the
-problem, so the credit is recorded but not listed as `reviewed`. The card
+this page is named by the first day of its month. The erdosproblems.com curator,
+Thomas F. Bloom, credits the proof of the $t=2$ conjecture to Chung, Gyárfás,
+Tuza and Trotter in the problem page's commentary. The label there is OPEN (page
+last edited 28 October 2025). Commentary on an open problem is not acceptance of
+the problem, so the credit is recorded but not listed as `reviewed`. The card
 records the proof of Theorem 4 as not read, and nothing is independently
 reviewed.

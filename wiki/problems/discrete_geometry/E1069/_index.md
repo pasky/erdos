@@ -36,38 +36,38 @@ $$
 \ll \frac{n^2}{k^3}.
 $$
 
-**Notes.** The site's wording (page last edited 2 October 2025) fails at $k=1$,
-which its range admits for every $n\ge1$: every line through one of the points
-is $1$-rich, so there are infinitely many $1$-rich lines and no bound $\ll n^2$
-holds. The failure is this page's own elementary check, and it is the only one:
-at $k=2$ each $2$-rich line is determined by two of the points, so there are at
-most $\binom n2<4\,n^2/2^3$ of them. The change inserts "$2\leq$" before
-"$k\leq n^{1/2}$"; the upper end is Erdős's print and stays. The defect is
-already in the poser's text: Erdős [Er87b, Section 2, p. 169] states the
+**Notes.** The erdosproblems.com wording (page last edited 2 October 2025) fails
+at $k=1$, which its range admits for every $n\ge1$: every line through one of
+the points is $1$-rich, so there are infinitely many $1$-rich lines and no bound
+$\ll n^2$ holds. The failure is this page's own elementary check, and it is the
+only one: at $k=2$ each $2$-rich line is determined by two of the points, so
+there are at most $\binom n2<4\,n^2/2^3$ of them. The change inserts "$2\leq$"
+before "$k\leq n^{1/2}$"; the upper end is Erdős's print and stays. The defect
+is already in the poser's text: Erdős [Er87b, Section 2, p. 169] states the
 conjecture of Croft, Purdy and Erdős "for $k\leq n^{1/2}$", with no lower end,
 and in the next sentence reports it "proved by Szemerédi and Trotter". Szemerédi
 and Trotter state their Theorem 2 for $k\leq\sqrt n$ (p. 382) and restate and
 prove it for $2\leq k\leq\sqrt n$ (p. 389), the form inserted here. That range
 is used because two sources corroborate it as the problem's form: Erdős's own
-report that the theorem settles the conjecture, and the site's curator, whose
-label SOLVED and commentary ("This is true, and was proved by Szemerédi and
-Trotter [SzTr83]") read the statement as the theorem proves it. The same range
-is also exactly the exclusion of the one value, $k=1$, at which no finite count
-is possible. The form was fixed from Erdős's report, the site's reading and the
-exclusion of $k=1$, not from the theorem's hypothesis range alone. No result
-concerns the site's wording alone.
+report that the theorem settles the conjecture, and the erdosproblems.com
+curator, whose label SOLVED and commentary ("This is true, and was proved by
+Szemerédi and Trotter [SzTr83]") read the statement as the theorem proves it.
+The same range is also exactly the exclusion of the one value, $k=1$, at which
+no finite count is possible. The form was fixed from Erdős's report,
+erdosproblems.com's reading and the exclusion of $k=1$, not from the theorem's
+hypothesis range alone. No result concerns the erdosproblems.com wording alone.
 
 **Formulation.** Erdős [Er87b, Section 2, p. 169] states the problem as a
 conjecture of Croft, Purdy and Erdős: if $n$ points in the plane are given,
 then for $k\leq n^{1/2}$ the number of distinct lines which contain at least
-$k$ of them is less than $cn^2/k^3$. The site writes "less than $cn^2/k^3$" as
-$\ll n^2/k^3$, with an absolute implied constant. Szemerédi and Trotter (p. 381)
-present their Theorem 2 as settling a conjecture of Erdős and Purdy. At
-$k=n^{1/2}$ the bound says that fewer than $cn^{1/2}$ lines contain at least
-$n^{1/2}$ of the points, which Erdős contrasts with a finite geometry, where
-$n=p^2+p+1$ points lie on $n$ lines of $p+1>\sqrt n$ points each.
+$k$ of them is less than $cn^2/k^3$. erdosproblems.com writes "less than
+$cn^2/k^3$" as $\ll n^2/k^3$, with an absolute implied constant. Szemerédi and
+Trotter (p. 381) present their Theorem 2 as settling a conjecture of Erdős and
+Purdy. At $k=n^{1/2}$ the bound says that fewer than $cn^{1/2}$ lines contain at
+least $n^{1/2}$ of the points, which Erdős contrasts with a finite geometry,
+where $n=p^2+p+1$ points lie on $n$ lines of $p+1>\sqrt n$ points each.
 
-**Status.** The site labeled the problem SOLVED and credits Szemerédi and
+**Status.** Bloom's catalog labeled the problem SOLVED and credits Szemerédi and
 Trotter (1983). The label and the commentary describe the modified Statement.
 **Proved**: Theorem 2 of Szemerédi and Trotter (Combinatorica 3 (1983),
 381--392, refereed) gives fewer than $c\,n^2/k^3$ lines with at least $k$ of the

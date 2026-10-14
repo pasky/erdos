@@ -28,7 +28,7 @@ $$
 \lvert x_{n+1}-x_n\rvert \ll 1?
 $$
 
-**Formulation.** The site's wording (page last edited 08 April 2026).
+**Formulation.** The erdosproblems.com wording (page last edited 08 April 2026).
 $|x_{n+1}-x_n|\ll1$ means that the steps
 are bounded by an absolute constant $C$: the question asks for an infinite
 walk along distinct Gaussian primes with steps of length at most $C$. A
@@ -44,8 +44,8 @@ steps by an integer $C$, the same condition. The statement prescribes no
 starting point; the computational "moats" around the origin (below)
 concern walks that start there.
 
-**Status.** Disproved. The site labeled the problem OPEN (page last edited 08
-April 2026; accessed 2026-09-18). The accepted claim is
+**Status.** Disproved. Bloom's catalog labeled the problem OPEN (page last
+edited 08 April 2026; accessed 2026-09-18). The accepted claim is
 [[problems/number_theory/E0952/claims/2026_09_26_openai|the 2026 OpenAI manuscript]].
 It answers the question negatively for every step bound and every starting
 point. Its Lean proof of exactly this statement was built and checked for axioms
@@ -53,9 +53,9 @@ by the corpus's verification. The curator's blog post
 [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
 (8 October 2026) lists the claim, as a claim and not an endorsement, and says
 that its proof has been formalized. The problem's standing is therefore solved
-with a negative answer, ahead of the site's label. The search whose scope the
-Current assessment records had found no proof, disproof or proof claim. Two
-arXiv preprints claiming a negative answer, by
+with a negative answer, ahead of the erdosproblems.com label. The search dated
+2026-09-18 UTC whose scope the Current assessment records had found no proof,
+disproof or proof claim. Two arXiv preprints claiming a negative answer, by
 [[problems/number_theory/E0952/claims/2019_08_27_das|Das (2019)]] and
 [[problems/number_theory/E0952/claims/2024_01_16_stumpenhusen|Stumpenhusen (2024)]],
 had been withdrawn by their authors, as their arXiv records state. Gethner and
@@ -68,11 +68,10 @@ negative". The random model of Vardi (1998; its library home is under Problem
 
 **Source.** [erdosproblems.com/952](https://www.erdosproblems.com/952),
 accessed 2026-09-18: the problem page (OPEN, with the
-site's note that no finite computation can settle it; last edited 08 April
-2026; source keys [Er77c] and [Er80, p. 114]), its five-comment
-discussion thread (5 December 2025) and its empty proof-claim tab. Cite as:
-T. F. Bloom, Erdős Problem #952, https://www.erdosproblems.com/952, accessed
-2026-09-18.
+erdosproblems.com note that no finite computation can settle it; last edited 08
+April 2026; source keys [Er77c] and [Er80, p. 114]), its five-comment discussion
+thread (5 December 2025) and its empty proof-claim tab. Cite as: T. F. Bloom,
+Erdős Problem #952, https://www.erdosproblems.com/952, accessed 2026-09-18.
 
 **References.**
 
@@ -82,8 +81,8 @@ T. F. Bloom, Erdős Problem #952, https://www.erdosproblems.com/952, accessed
   Library home:
   [[../library/integer_sequences/erdos_1977_problems_results_combinatorial_number_theory_iii/_index|erdos_1977_problems_results_combinatorial_number_theory_iii]].
 - [Er80] Erdős, P., A survey of problems in combinatorial number theory.
-  Ann. Discrete Math. 6 (1980), 89--115. Printed pp. 114--115; the site's
-  locator is p. 114, where the sentence begins. Library home:
+  Ann. Discrete Math. 6 (1980), 89--115. Printed pp. 114--115; the
+  erdosproblems.com locator is p. 114, where the sentence begins. Library home:
   [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]].
 - [JoRa70] Jordan, J. H. and Rabung, J. R., A conjecture of Paul Erdős
   concerning Gaussian primes. Math. Comp. 24 (1970), 221--223,
@@ -154,26 +153,26 @@ of formal-conjectures, at the commit the link pins (main, 2026-09-18),
 declares
 `erdos_952 : answer(sorry) ↔ ∃ (x : ℕ → GaussianInt) (C : ℤ), Function.Injective x ∧ ∀ n, Prime (x n) ∧ (x (n + 1) - x n).norm < C`
 under `category research open`, with proof `sorry`; the norm of a Gaussian
-integer is its squared modulus, so the bound is the site's $\ll1$. On
-2026-10-11 the catalog marked the statement solved: at
+integer is its squared modulus, so the bound is erdosproblems.com's $\ll1$. On
+2026-10-11 the formal-conjectures catalog marked the statement solved: at
 [that commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/952.lean)
 `erdos_952` has `answer(False)`, the category `research solved` and a
 `formal_proof` attribute linking the release's
 [`fullMain`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/GaussianMoat/Main.lean#L102),
-the declaration built here, at its pinned revision; the catalog's own proof
-stays `sorry`, and the commit's notes say that the step from the norm bound to
-the distance bound is not in the linked proof. The community database
-(teorth/erdosproblems, 2026-09-18) records the problem open (31 August 2025),
-the statement formalized since 21 November 2025, the comment "Gaussian moat
-problem" and no formal proof. The statement file was not built.
+the declaration built here, at its pinned revision; the formal-conjectures
+catalog's own proof stays `sorry`, and the commit's notes say that the step from
+the norm bound to the distance bound is not in the linked proof. The community
+database (teorth/erdosproblems, 2026-09-18) records the problem open (31 August
+2025), the statement formalized since 21 November 2025, the comment "Gaussian
+moat problem" and no formal proof. The statement file was not built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; OPEN; last edited 08 April 2026. The site's commentary identifies the
-problem as the Gaussian moat problem, says that it is not Erdős's own and
-was misattributed to him, quotes his 1977 recollection of hearing it from
-Motzkin (the passage below), and notes his 1980 expectation of a negative
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN; last edited 08 April 2026. The erdosproblems.com commentary
+identifies the problem as the Gaussian moat problem, says that it is not Erdős's
+own and was misattributed to him, quotes his 1977 recollection of hearing it
+from Motzkin (the passage below), and notes his 1980 expectation of a negative
 answer. The thread (5 December 2025) has five comments: one on [Ts05], which
 cites a general encyclopedia's summary of the computational moat of width
 $6$ separating the origin from infinity and remarks that the computations
@@ -209,8 +208,8 @@ the corpus's verification built the release's Lean declaration
 pinned by the release's comparator challenge, is exactly the question above
 with every real step bound, every starting point, and associates and axis
 primes included. No refereed publication or review independent of the release
-is recorded, and the site's label was unchanged. The statement audit and the
-links are on
+is recorded, and the erdosproblems.com label was unchanged. The statement audit
+and the links are on
 [[problems/number_theory/E0952/claims/2026_09_26_openai|the claim page]]; the
 manuscript's statements are on the library card cited in the References, with
 no step of their proofs checked here.
@@ -261,10 +260,10 @@ Integers on divisibility and unavoidable obstructions in Gaussian walks;
 no claimed resolution. All of this predates [OAI26], which proves the
 conjecture these sources state or model.
 
-**Search scope.** None of the routes below found a proof, disproof or proof
-claim; [OAI26] postdates the search.
+**Search scope (2026-09-18 UTC).** None of the routes below found a proof,
+disproof or proof claim; [OAI26] postdates the search.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database on
   2026-09-18.
 - The primary sources: [Er77c] p. 69 and [Er80] pp. 114--115.
@@ -284,7 +283,7 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. [JoRa70], [GWW98] and
 [Ts05] are known here by their records, and [Va98] by pp. 276--277.
 
 **Remaining gaps.** (1) The question is settled negatively by the accepted
-claim; the site's label was OPEN on 2026-09-18, and no refereed
+claim; the erdosproblems.com label was OPEN on 2026-09-18, and no refereed
 publication or review independent of the release is recorded. The bound $B_D$
 of [OAI26] is not explicit, so the size of the largest component for a given
 step length remains undetermined. (2) [JoRa70], [GWW98] and [Ts05] are known

@@ -65,8 +65,8 @@ sharp constant $\tfrac12$ is recorded on
 **Acceptance.** The paper is a refereed publication in the Journal of Graph
 Theory, which is the `refereed` evidence. It appeared in the issue of
 December 1984. The day is not recorded, and this page's date is the first of
-that month. The site's commentary credits the first question to the paper and
-says that only the second question remains. But the site labeled the problem
-OPEN, so no `reviewed` evidence is listed. This corpus has not checked the
-proof. The statement above rests on the publisher's abstract and on the two
-later papers' reports of the theorem.
+that month. The erdosproblems.com commentary credits the first question to the
+paper and says that only the second question remains. But Bloom's catalog
+labeled the problem OPEN, so no `reviewed` evidence is listed. This corpus has
+not checked the proof. The statement above rests on the publisher's abstract and
+on the two later papers' reports of the theorem.

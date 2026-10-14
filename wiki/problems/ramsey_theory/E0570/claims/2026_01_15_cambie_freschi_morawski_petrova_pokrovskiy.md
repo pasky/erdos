@@ -5,7 +5,7 @@ desc: |
   The 2026 preprint of Cambie, Freschi, Morawski, Petrova and Pokrovskiy proves
   the bound for odd cycle lengths $k\ge7$ once $m$ is large (Theorem 3). With
   the earlier cases it states the bound for every $k$, settling the question,
-  and it is accepted on the site curator's credit.
+  and it is accepted on the erdosproblems.com curator's credit.
 authors:
 - Stijn Cambie
 - Andrea Freschi
@@ -61,18 +61,18 @@ and [[problems/ramsey_theory/E0570/claims/1993_07_01_sidorenko|Sidorenko 1993]]
 [[problems/ramsey_theory/E0570/claims/1999_01_01_jayawardene|Jayawardene 1999]]
 ($k=5$); Theorem 3 supplies odd $k\ge7$ on its own.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-proved. In the commentary the curator credits each range of $k$ to the source
-named above, and the odd $k\ge7$ to this paper (its key [CFMPP26]; page last
-edited 16 January 2026, accessed 2026-09-08 for the problem page). No journal
-publication or acceptance of the preprint was found. The arXiv record listed v1
-as current on 2026-09-08 and carries no journal reference, so no `refereed`
-evidence is listed. The acceptance of the whole statement therefore rests on the
-curator's record together with the refereed partial claims it depends on. The
-weakest link is the $k=5$ case, whose thesis is unread here.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem proved. In the commentary the curator credits each range of $k$ to
+the source named above, and the odd $k\ge7$ to this paper (its key [CFMPP26];
+page last edited 16 January 2026, accessed 2026-09-08 for the problem page). No
+journal publication or acceptance of the preprint was found. The arXiv record
+listed v1 as current on 2026-09-08 and carries no journal reference, so no
+`refereed` evidence is listed. The acceptance of the whole statement therefore
+rests on the curator's record together with the refereed partial claims it
+depends on. The weakest link is the $k=5$ case, whose thesis is unread here.
 
-The first author also presented the result in a post on the site's blog,
-[Problem 570 and its
+The first author also presented the result in a post on the erdosproblems.com
+blog, [Problem 570 and its
 solution](https://www.erdosproblems.com/forum/thread/blog:3) (30 January 2026).
 The post outlines the proof: the induction, the sets $U_1$ and $\Pi$ around a
 vertex, the path lemma, Lemma 8, and Theorem 10. It also records that the case

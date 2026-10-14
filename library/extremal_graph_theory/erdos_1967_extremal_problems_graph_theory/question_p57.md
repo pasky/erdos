@@ -67,6 +67,6 @@ None; a question.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0916/_index|Problem 916]]: the problem's
-  question in the words of the site's key Er67b, with Dirac's theorem stated
-  for $n\ge4$ on the preceding page; the problem page records that the
-  site's wording carries no such floor.
+  question in the words of the erdosproblems.com key Er67b, with Dirac's theorem
+  stated for $n\ge4$ on the preceding page; the problem page records that the
+  erdosproblems.com wording carries no such floor.

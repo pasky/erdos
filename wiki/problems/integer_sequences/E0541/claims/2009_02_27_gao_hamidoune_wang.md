@@ -5,7 +5,7 @@ desc: |
   Theorem 1.1 of Gao, Hamidoune and Wang (J. Number Theory, 2010) shows that $n$
   integers in $[0,n-1]$ taking at least three values have two nonempty zero-sum
   subsequences modulo $n$ of distinct lengths. It is refereed and credited by
-  the site.
+  erdosproblems.com.
 authors:
 - W. Gao
 - Y. O. Hamidoune
@@ -62,19 +62,19 @@ structure only, and the journal text was not compared.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Number Theory. In
 the Crossref record (2026-10-07), the issue is dated June 2010. Reviewed: the
-site's curator, Thomas Bloom, who is independent of the authors, labeled the
-problem PROVED (LEAN). The commentary (page last edited 8 April 2026) credits
-this paper with the proof for every modulus, prime or not, and credits the
-large-prime case to Erdős and Szemerédi. On 2026-09-18 Semantic Scholar listed
-nineteen citing records, none of which disputes the theorem by its title.
-Nothing here is independently reviewed by this project.
+erdosproblems.com curator, Thomas Bloom, who is independent of the authors,
+labeled the problem PROVED (LEAN). The commentary (page last edited 8
+April 2026) credits this paper with the proof for every modulus, prime or not,
+and credits the large-prime case to Erdős and Szemerédi. On 2026-09-18 Semantic
+Scholar listed nineteen citing records, none of which disputes the theorem by
+its title. Nothing here is independently reviewed by this project.
 
 **Related claims.** The large-prime case for nonzero residues is the
 accepted partial claim
 [[problems/integer_sequences/E0541/claims/1974_02_14_erdos_szemeredi|Erdős and Szemerédi 1976]];
 Grynkiewicz's later proof for every finite abelian group is the accepted
 claim [[problems/integer_sequences/E0541/claims/2009_03_18_grynkiewicz|Grynkiewicz 2009]];
-the Lean proof the site's (LEAN) suffix refers to is the accepted claim
+the Lean proof erdosproblems.com's (LEAN) suffix refers to is the accepted claim
 [[problems/integer_sequences/E0541/claims/2025_12_31_alexeev|Alexeev's Lean proof of 2025]].
 
 **Depends on.** Nothing in this wiki: the theorem is proved within the

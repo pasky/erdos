@@ -92,5 +92,5 @@ of the same article, and Weil's bound, display (4), recorded on the
   problem, which asks about every translated interval $(n,n+p^c)$. The
   article states no translated-interval result. The problem page records
   the range $c>3/4$ for every translate through Browning and Haynes's
-  two-interval criterion, which the site and Browning and Haynes credit to
-  Heath-Brown.
+  two-interval criterion, which erdosproblems.com and Browning and Haynes credit
+  to Heath-Brown.

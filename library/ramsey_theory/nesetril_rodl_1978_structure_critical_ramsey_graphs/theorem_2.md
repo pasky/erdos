@@ -65,8 +65,8 @@ inside it to contain $x^*$ and to have more vertices than $H$.
 - [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]] asks for the
   size Ramsey number $\hat R(K_{n,n})$, the least number of edges of a graph
   whose every two-colouring of the edges has a monochromatic copy of
-  $K_{n,n}$. The site credits this paper, with Erdős, Faudree, Rousseau and
-  Schelp's 1978 paper, for the upper bound $\frac32n^32^n$. This theorem is
+  $K_{n,n}$. erdosproblems.com credits this paper, with Erdős, Faudree, Rousseau
+  and Schelp's 1978 paper, for the upper bound $\frac32n^32^n$. This theorem is
   the paper's nearest statement and it bounds nothing: $K_{n,n}$ with
   $n\ge2$ is 2.5-connected (deleting two adjacent vertices leaves
   $K_{n-1,n-1}$), so the theorem says that $K_{n,n}$ has infinitely many

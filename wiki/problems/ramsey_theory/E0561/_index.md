@@ -42,14 +42,14 @@ $$
 l_k=\max\{n_i+m_j-1 : i+j=k\}.
 $$
 
-**Formulation.** The site's wording as of 2026-09-17 (page last edited
-1 February 2026). $F_1$ is the vertex-disjoint union of
-the stars $K_{1,n_i}$ with $n_i$ edges each, and similarly $F_2$;
-$\hat R(F_1,F_2)$ is the least number of edges of a graph $H$ every red-blue
-coloring of whose edges has a red $F_1$ or a blue $F_2$ (the sources'
-$\hat r(F_1,F_2)$; the site's definition sentence gives the one-graph form).
-The statement is the conjecture of [BEFRS78] p. 194 up to notation. The
-upper bound $\hat R(F_1,F_2)\le\sum_{k=2}^{s+t}l_k$ is immediate, since
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
+edited 1 February 2026). $F_1$ is the vertex-disjoint union of the stars
+$K_{1,n_i}$ with $n_i$ edges each, and similarly $F_2$; $\hat R(F_1,F_2)$ is the
+least number of edges of a graph $H$ every red-blue coloring of whose edges has
+a red $F_1$ or a blue $F_2$ (the sources' $\hat r(F_1,F_2)$; the
+erdosproblems.com definition sentence gives the one-graph form). The statement
+is the conjecture of [BEFRS78] p. 194 up to notation. The upper bound
+$\hat R(F_1,F_2)\le\sum_{k=2}^{s+t}l_k$ is immediate, since
 $\bigcup_{k=2}^{s+t}K_{1,l_k}\to(F_1,F_2)$ ([DJKR25] p. 3), so the content is
 the lower bound. Stars with a single edge ($n_s=1$ or $m_t=1$) are allowed.
 
@@ -66,14 +66,14 @@ preprint claimed in its first version to "completely confirm" the conjecture. It
 withdrew the claim the next day, and its later versions treat only uniform star
 forests [FLN26]. It is recorded as a withdrawn claim on
 [[problems/ramsey_theory/E0561/claims/2026_06_03_fu_luo_ni|its claim page]]. Two
-partial proof claims on the site's claim tab (August and September 2026) both
-declare AI assistance. Each is recorded on a claim page below, and neither has
-acceptance evidence. This is a bounded negative finding from the search, not a
-certificate of openness.
+partial proof claims on erdosproblems.com's claim tab (August and
+September 2026) both declare AI assistance. Each is recorded on a claim page
+below, and neither has acceptance evidence. This is a bounded negative finding
+from the search dated 2026-09-17 UTC, not a certificate of openness.
 
 **Source.** [erdosproblems.com/561](https://www.erdosproblems.com/561),
-accessed 2026-09-17: the problem page (labeled OPEN, with the site's note
-that no finite computation can resolve it; last edited 01 February 2026;
+accessed 2026-09-17: the problem page (labeled OPEN, with the erdosproblems.com
+note that no finite computation can resolve it; last edited 01 February 2026;
 source key [BEFRS78]; commentary citing [GySc02] and [DJKR25]), its
 five-comment discussion thread and its proof-claim tab with two partial
 claims. Cite as: T. F. Bloom, Erdős Problem #561,
@@ -93,8 +93,8 @@ https://www.erdosproblems.com/561, accessed 2026-09-17.
   accepted 26 March 2001). Conjecture 1 and Theorem 1, p. 106; Theorem 2,
   p. 108, with its proof on pp. 108--109. Library home:
   [[../library/ramsey_theory/gyori_schelp_2002_two_edge_colorings_graphs_bounded_degree_both_colors/_index|gyori_schelp_2002_two_edge_colorings_graphs_bounded_degree_both_colors]].
-  Theorem 2 prints the condition with the strict inequality the site and
-  [DJKR25] Theorem 1.4 quote; [FLN26] p. 2 restates it with "$\ge$", which
+  Theorem 2 prints the condition with the strict inequality erdosproblems.com
+  and [DJKR25] Theorem 1.4 quote; [FLN26] p. 2 restates it with "$\ge$", which
   is not the paper's.
 - [DJKR25] Davoodi, A., Javadi, R., Kamranian, A. and Raeisi, G., On a
   conjecture of Erdős on size Ramsey number of star forests. Ars Math.
@@ -118,30 +118,31 @@ https://www.erdosproblems.com/561, accessed 2026-09-17.
 google-deepmind/formal-conjectures on 2026-09-17 (the full directory
 `FormalConjectures/ErdosProblems/` held none), and the community database
 (teorth/erdosproblems, read 2026-09-17) records the problem as open (last
-updated 31 August 2025), not formalized, with no formal proof. The site's
-"Formalised statement?" indicator reads "No".
+updated 31 August 2025), not formalized, with no formal proof.
+erdosproblems.com's "Formalised statement?" indicator reads "No".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
-above; status OPEN; last edited 1 February 2026. The site's commentary, in
-summary, credits the formula in the uniform case, all $n_i$ equal and all
-$m_i$ equal, to Burr, Erdős, Faudree, Rousseau and Schelp [BEFRS78]; under
-the condition $\binom{l_k}{2}>\sum_{k\leq i\leq s+t}l_i$ for every
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; status OPEN; last edited 1 February 2026. The erdosproblems.com
+commentary, in summary, credits the formula in the uniform case, all $n_i$ equal
+and all $m_i$ equal, to Burr, Erdős, Faudree, Rousseau and Schelp [BEFRS78];
+under the condition $\binom{l_k}{2}>\sum_{k\leq i\leq s+t}l_i$ for every
 $2\le k\le s+t$, to Győri and Schelp [GySc02]; and further special cases to
 Davoodi, Javadi, Kamranian and Raeisi [DJKR25], among them $s=1$, $s=2$ with
 $n_1=n_2$, all $n_i$ and $m_j$ odd, and all $n_i$ equal to one odd number
-with $m_1$ odd. The site lists the problem as number 30 of the Ramsey theory
-section of its graphs problem collection; one account carried both the
-site's working-on and looks-tractable reactions (accessed 2026-10-06). Of
-the five comments (31 January to 6 August 2026), the three of 4 June and
-6 August 2026 are recorded under leads below, together with the two proof
-claims, which also have their claim pages; the comment of 31 January 2026
+with $m_1$ odd. erdosproblems.com lists the problem as number 30 of the Ramsey
+theory section of its graphs problem collection; one account carried both
+erdosproblems.com's working-on and looks-tractable reactions (accessed
+2026-10-06). Of the five comments (31 January to 6 August 2026), the three of 4
+June and 6 August 2026 are recorded under leads below, together with the two
+proof claims, which also have their claim pages; the comment of 31 January 2026
 says that Davoodi, Javadi, Kamranian and Raeisi had partly resolved the
 conjecture, which is the content of [DJKR25] as recorded below, and the
-comment of 2 February 2026 reports that the site's link to [DJKR25] failed
-to load, which bears only on the site's citations. The community database
-record (read 2026-09-17) says open (31 August 2025) and not formalized.
+comment of 2 February 2026 reports that the erdosproblems.com link to [DJKR25]
+failed to load, which bears only on the erdosproblems.com citations. The
+community database record (read 2026-09-17) says open (31 August 2025) and not
+formalized.
 
 **Origin.** [BEFRS78], printed pp. 187, 188 and 194. Its
 [[../library/ramsey_theory/burr_1978_ramsey_minimal_graphs_multiple_copies/conjecture_p194|conjecture]]
@@ -204,11 +205,11 @@ Theorems 2.3--2.6 are recorded together as one accepted partial claim on
 [[problems/ramsey_theory/E0561/claims/2021_11_03_davoodi_javadi_kamranian_raeisi|its claim page]],
 dated by the paper's first posting, arXiv:2111.02065 (3 November 2021).
 
-The hypothesis $m_t\ge2$ of Theorems 2.3, 2.4 and 2.6, which the site's
-summary omits, excludes forests $F_2$ with a single-edge star; Theorem 2.5
-has no such restriction. The mechanism is Lemma 2.1 (p. 3): a graph with
-$\Delta(G)\le m+n-3$, or with $\Delta(G)\le m+n-2$ when $m$ and $n$ are both
-odd, has a coloring with no red $K_{1,n}$ and no blue $K_{1,m}$ (Vizing's
+The hypothesis $m_t\ge2$ of Theorems 2.3, 2.4 and 2.6, which the
+erdosproblems.com summary omits, excludes forests $F_2$ with a single-edge star;
+Theorem 2.5 has no such restriction. The mechanism is Lemma 2.1 (p. 3): a graph
+with $\Delta(G)\le m+n-3$, or with $\Delta(G)\le m+n-2$ when $m$ and $n$ are
+both odd, has a coloring with no red $K_{1,n}$ and no blue $K_{1,m}$ (Vizing's
 theorem; Petersen's $2$-factorization theorem for the odd case), so an
 arrowing graph has a vertex of large degree, which is deleted and the
 argument repeated; the parity hypotheses come from the lemma's sharpness
@@ -223,20 +224,20 @@ two-color conjecture as open (the abstract: "we determine the exact value
 - The preprint [FLN26]. Its first arXiv version (3 June 2026) says in its
   abstract that the 1978 conjecture "was confirmed for many cases but is still
   open", that Davoodi et al. "gave a similar conjecture in multicolors", and
-  "In this paper, we completely confirm these two conjectures." A site comment
-  of 4 June 2026 relayed the preprint's claim as a report; a second comment
-  the same day reported that ChatGPT claims several serious errors and gaps in
-  the argument and that the lead author had been informed. The second version
-  (4 June 2026, 05:54 UTC), retitled "Size Ramsey minimal graphs for star
-  forests", drops the claim from its abstract; the third (4 July 2026)
-  characterizes the size Ramsey minimal graphs for uniform star forests in any
-  number of colors
+  "In this paper, we completely confirm these two conjectures." An
+  erdosproblems.com comment of 4 June 2026 relayed the preprint's claim as a
+  report; a second comment the same day reported that ChatGPT claims several
+  serious errors and gaps in the argument and that the lead author had been
+  informed. The second version (4 June 2026, 05:54 UTC), retitled "Size Ramsey
+  minimal graphs for star forests", drops the claim from its abstract; the third
+  (4 July 2026) characterizes the size Ramsey minimal graphs for uniform star
+  forests in any number of colors
   ([[../library/ramsey_theory/fu_2026_size_ramsey_minimal_graphs_uniform_star_forests/theorem_1_5|Theorem 1.5]],
   adjacent to the problem) and says of the conjecture only that it "has no
   progress until 2025" after Győri and Schelp, when Davoodi et al. "confirmed
-  Conjecture 1.1 for several cases" (p. 2). The site's commentary does not
-  mention the preprint. Recorded as a claim withdrawn by its authors within a
-  day on
+  Conjecture 1.1 for several cases" (p. 2). The erdosproblems.com commentary
+  does not mention the preprint. Recorded as a claim withdrawn by its authors
+  within a day on
   [[problems/ramsey_theory/E0561/claims/2026_06_03_fu_luo_ni|its claim page]];
   it carries no weight for the status.
 - Proof-claim tab, partial claim submitted 2026-08-07 by the account rickyc,
@@ -264,15 +265,15 @@ two-color conjecture as open (the abstract: "we determine the exact value
   partial claim on
   [[problems/ramsey_theory/E0561/claims/2026_09_04_tienxion|its claim page]].
 
-The site's claim tab carries its standing notice that a listing there is no
-guarantee of correctness and that nobody associated with the site has
-examined the proof. Neither claim is carried as a bound here.
+erdosproblems.com's claim tab carries its standing notice that a listing there
+is no guarantee of correctness and that nobody associated with erdosproblems.com
+has examined the proof. Neither claim is carried as a bound here.
 
-**Search scope.** The status rests on these routes;
+**Search scope (2026-09-17 UTC).** The status rests on these routes;
 none found a proof of the formula for all star forests, a counterexample or
 an accepted claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the full directory listing of
   formal-conjectures (no file for this problem).
 - The primary sources, at the pages stated: [BEFRS78] pp. 187, 188 and 194;

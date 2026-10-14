@@ -70,5 +70,5 @@ in the Crossref record, 17 March 2004. Not reviewed: the paper reached the
 problem's thread through two comments of 2026-03-09. The first credits ChatGPT
 Deep Research with locating the paper and quotes the Corollary. The second gives
 the published reference. Comments on the thread are not curator credit. The
-site's commentary does not mention the paper, and the site labeled the problem
-OPEN. The proof is not checked in this corpus.
+erdosproblems.com commentary does not mention the paper, and Bloom's catalog
+labeled the problem OPEN. The proof is not checked in this corpus.

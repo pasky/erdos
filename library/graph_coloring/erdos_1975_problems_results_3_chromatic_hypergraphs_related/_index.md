@@ -65,7 +65,7 @@ degree question, whose exponential growth the k=2 case of Theorem 2 supplies
 Lovasz-Woodall bound r covering small r); problem 836 is the
 clique vertex-count and intersection questions of Theorem 8 and the r/log r
 remark; problem 21 is exactly the q(r) < cr question left open after Theorem
-10 (the site writes n for r).
+10 (erdosproblems.com writes n for r).
 
 Source: <https://users.renyi.hu/~p_erdos/1975-34.pdf>.
 

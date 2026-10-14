@@ -68,8 +68,8 @@ independent set of size at least n/log n.
 Source: <http://real.mtak.hu/110601/>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0615/_index|#615]]: the origin, the
-site's key EHSSS93. Problem 4 on printed p. 54 (PDF p. 24, page image),
-"Is it true that for some c > 0, RT(n, K_4, n/log n) < (1/8 - c) n^2?",
+erdosproblems.com key EHSSS93. Problem 4 on printed p. 54 (PDF p. 24, page
+image), "Is it true that for some c > 0, RT(n, K_4, n/log n) < (1/8 - c) n^2?",
 preceded by "Perhaps replacing o(n) by a slightly smaller functions, say by
 f(n) = n/log n one could get smaller upper bounds", is the problem's
 statement (page

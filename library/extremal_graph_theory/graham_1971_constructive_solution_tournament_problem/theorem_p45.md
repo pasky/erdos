@@ -99,7 +99,7 @@ Burgess's character-sum bound (the paper's reference [1]).
   is an explicit construction giving $f(k)\le p$ for any prime
   $p\equiv3\pmod4$ with $p>k^22^{2k-2}$, a threshold the authors call nearly
   the square of Erdős's bound (1), so it does not improve the estimate of
-  $f(k)$ (the site's thread says the same). The paper also prints, quoting
-  its reference [6] without proof, the lower bound $(k+2)2^{k-1}-1$ with no
-  restriction on $k$ and the values $f(2)=7$, $f(3)=19$, and it asserts
+  $f(k)$ (the erdosproblems.com thread says the same). The paper also prints,
+  quoting its reference [6] without proof, the lower bound $(k+2)2^{k-1}-1$ with
+  no restriction on $k$ and the values $f(2)=7$, $f(3)=19$, and it asserts
   without proof that $T_{67}$ has property $P_4$.

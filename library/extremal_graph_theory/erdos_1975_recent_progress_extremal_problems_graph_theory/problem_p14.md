@@ -24,19 +24,20 @@ nice generalization of Turán's theorem. The first interesting case is $r=4$
 and I could not settle this case."
 
 $G(n;e)$ is a graph with $n$ vertices and $e$ edges, and "the graph spanned by
-its star" is the subgraph induced on the neighborhood of $x_1$. In the catalog's
-notation $f_r(n)=\mathrm{ex}(n;K_r)+1$, so the hypothesis is a graph with
-exactly one more edge than the Turán number, where the site's statement reads
-"at least $\mathrm{ex}(n;K_r)$ edges" (an observation made here; besides the
-graphs with exactly $f_r(n)$ edges, the site's hypothesis admits those with
-exactly $\mathrm{ex}(n;K_r)$ edges, among them the Turán graph, which the site's
-commentary excepts, and those with more than $f_r(n)$ edges; the site's
-conclusion also asks only for $\mathrm{ex}(d;K_{r-1})$ edges in the
-neighborhood, one fewer than $f_{r-1}(d)$). The question asks for a vertex of
-degree $m>c_rn$ whose neighborhood contains at least $f_{r-1}(m)$ edges, hence a
-$K_{r-1}$, hence with $x_1$ a $K_r$; Erdős's "generalization of Turán's theorem"
-is this strengthening. It is a question, not a conjecture, and the paper offers
-nothing for $r=4$.
+its star" is the subgraph induced on the neighborhood of $x_1$. In the
+erdosproblems.com notation $f_r(n)=\mathrm{ex}(n;K_r)+1$, so the hypothesis is a
+graph with exactly one more edge than the Turán number, where the
+erdosproblems.com statement reads "at least $\mathrm{ex}(n;K_r)$ edges" (an
+observation made here; besides the graphs with exactly $f_r(n)$ edges,
+erdosproblems.com's hypothesis admits those with exactly $\mathrm{ex}(n;K_r)$
+edges, among them the Turán graph, which the erdosproblems.com commentary
+excepts, and those with more than $f_r(n)$ edges; erdosproblems.com's conclusion
+also asks only for $\mathrm{ex}(d;K_{r-1})$ edges in the neighborhood, one fewer
+than $f_{r-1}(d)$). The question asks for a vertex of degree $m>c_rn$ whose
+neighborhood contains at least $f_{r-1}(m)$ edges, hence a $K_{r-1}$, hence with
+$x_1$ a $K_r$; Erdős's "generalization of Turán's theorem" is this
+strengthening. It is a question, not a conjecture, and the paper offers nothing
+for $r=4$.
 
 **Source.** P. Erdős, *Some recent progress on extremal problems in graph
 theory*, Congr. Numer. XIV (1975), 3--14; Chapter 4, printed p. 14 = PDF
@@ -49,7 +50,8 @@ page image. A question; nothing to prove in the source.
 
 ## Proof pointer
 
-None in the source. The site's account credits Bollobás and Thomason (1981;
+None in the source. erdosproblems.com's account credits Bollobás and Thomason
+(1981;
 [[extremal_graph_theory/bollobas_thomason_1981_dense_neighbourhoods_turan_s_theorem/theorem_p111|theorem_p111]])
 and Bondy (1983;
 [[extremal_graph_theory/bondy_1983_large_dense_neighbourhoods_turan_s_theorem/theorem_2|theorem_2]]);
@@ -63,8 +65,8 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the site's [Er75]
-  source; the question in Erdős's 1975 words, with $f_r(n)$ edges (one more
-  than the Turán number) where the site writes "at least
-  $\mathrm{ex}(n;K_r)$", and the quoted sentence "If true this would be a
-  nice generalization of Turán's theorem".
+- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]:
+  erdosproblems.com's [Er75] source; the question in Erdős's 1975 words, with
+  $f_r(n)$ edges (one more than the Turán number) where erdosproblems.com writes
+  "at least $\mathrm{ex}(n;K_r)$", and the quoted sentence "If true this would
+  be a nice generalization of Turán's theorem".

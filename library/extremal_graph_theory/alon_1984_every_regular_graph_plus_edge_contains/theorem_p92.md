@@ -74,8 +74,8 @@ Borevich and Shafarevich, *Number Theory*, Chap. 1).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0715/_index|Problem 715]]: the site's [AFK84].
-  The theorem, which allows multiple edges, assumes one edge more than the
-  first question's $4$-regular graph, so it does not answer that question; the
-  Remark attests that the Berge--Sauer conjecture, the first question, "has
-  recently been proved [4]" by Tashkinov.
+- [[../wiki/problems/extremal_graph_theory/E0715/_index|Problem 715]]:
+  erdosproblems.com's [AFK84]. The theorem, which allows multiple edges, assumes
+  one edge more than the first question's $4$-regular graph, so it does not
+  answer that question; the Remark attests that the Berge--Sauer conjecture, the
+  first question, "has recently been proved [4]" by Tashkinov.

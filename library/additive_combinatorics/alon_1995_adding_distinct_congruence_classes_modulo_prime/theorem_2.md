@@ -59,8 +59,8 @@ Theorem 1 of the same paper (the polynomial method).
   inequality $|A\hat{+}A|\ge\min(2|A|-3,p)$ for every $A\subseteq\mathbb F_p$
   with $|A|\ge2$ (for $|A|\le1$ the left side is empty and the right side is
   at most $0$). The paper proves that inequality (p. 5), attributing the
-  theorem to Dias da Silva and Hamidoune; their paper, which the site names
-  as the source of the resolution, proves the general bound for sums of $m$
-  distinct elements as its
+  theorem to Dias da Silva and Hamidoune; their paper, which erdosproblems.com
+  names as the source of the resolution, proves the general bound for sums of
+  $m$ distinct elements as its
   [[additive_combinatorics/dias_da_silva_hamidoune_1994_cyclic_spaces_grassmann_derivatives_additive_theory/theorem_4_1|Theorem 4.1]],
   read there on the page image.

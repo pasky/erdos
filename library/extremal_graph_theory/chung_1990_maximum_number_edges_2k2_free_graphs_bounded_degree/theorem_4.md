@@ -72,12 +72,12 @@ held).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: the proof of the
-  "easier problem" the site's commentary records (more than $5D^2/4$ edges
-  force two strongly independent edges, for even $D$), the case of the
+  "easier problem" the erdosproblems.com commentary records (more than $5D^2/4$
+  edges force two strongly independent edges, for even $D$), the case of the
   strong clique bound in which the clique is the whole edge set (the general
   bound $\omega(L(G)^2)\le\frac54\Delta^2$ is open); the theorem also shows
   that $C_5(D)$ needs $5D^2/4$ colors, so the conjectured bound is sharp
   for even $D$.
 - [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: the exact value
-  $h_2(D)=f(D)+1$, the site's "$h_2(d)\le\frac54d^2+1$, with equality for
-  even $d$".
+  $h_2(D)=f(D)+1$, erdosproblems.com's "$h_2(d)\le\frac54d^2+1$, with equality
+  for even $d$".

@@ -82,13 +82,13 @@ proof is the one printed by Erdős. The library's Sun cards on covering
 multiplicity give exact-cover background without asserting this theorem,
 as their pages say.
 
-**Acceptance.** Reviewed: the site's curator (T. F. Bloom) labeled the problem
-proved and credits the theorem to Mirsky and Newman and, independently, to
-Davenport and Rado (the site's page as of 2026-10-07). The page's thread holds
-one comment, of 2026-02-02, and its proof-claim tab is empty. Erdős, who posed
-the question, printed the theorem as theirs with the proof in 1952. The theorem
-has been standard since. Erdős and Szemerédi's 1968 paper *On a problem of P.
-Erdős and S. Stein*, on the library's
+**Acceptance.** Reviewed: the erdosproblems.com curator (T. F. Bloom) labeled
+the problem proved and credits the theorem to Mirsky and Newman and,
+independently, to Davenport and Rado (the erdosproblems.com page, accessed
+2026-10-07). The page's thread holds one comment, of 2026-02-02, and its
+proof-claim tab is empty. Erdős, who posed the question, printed the theorem as
+theirs with the proof in 1952. The theorem has been standard since. Erdős and
+Szemerédi's 1968 paper *On a problem of P. Erdős and S. Stein*, on the library's
 [[../library/covering_systems/erdos_1968_problem_p_erdos_s_stein/_index|card]],
 cites it as known, and that paper's reference [2] cites the 1952 Mat. Lapok
 proof. Newman reproved and sharpened the theorem in 1971.
@@ -96,22 +96,22 @@ proof. Newman reproved and sharpened the theorem in 1971.
 Refereed: Erdős prints the theorem and its proof in his journal paper Mat. Lapok
 3 (1952), 122–128. Mirsky and Newman did not publish it themselves.
 
-Not listed as formalized: the site's label carried a Lean qualification. It
-rests on Wouter van Doorn's Lean 4 file of 2026-02-02 (Lean v4.24.0 with the
-Mathlib commit the file names). As the file's header and the thread post state,
-Aristotle, the Harmonic system, wrote its proof from an exposition of the
-Mirsky–Newman argument that ChatGPT produced at van Doorn's request. Boris
-Alexeev's lean-proofs repository carries it as `Erdos947.erdos_947` at the
-commit linked above, with informal authors ChatGPT and van Doorn and formal
-authors Aristotle and van Doorn. Formal-conjectures' `ErdosProblems/947.lean`
-was added 2026-09-19 with the category research solved. It links that theorem as
-the formal proof of its own statement but leaves its body a `sorry`. So the
-formal-conjectures file is a statement file, linked from the problem page, and
-not a formalization of this claim. The Lean file formalizes the classical
-theorem rather than a new proof, so it is a formalization link on this page and
-not a claim page of its own. Neither Lean file is among the Lean the corpus has
-built and audited, so no `formalized` is listed. The acceptance rests on the
-printed proof and the curator's credit.
+Not listed as formalized: the erdosproblems.com label carried a Lean
+qualification. It rests on Wouter van Doorn's Lean 4 file of 2026-02-02 (Lean
+v4.24.0 with the Mathlib commit the file names). As the file's header and the
+thread post state, Aristotle, the Harmonic system, wrote its proof from an
+exposition of the Mirsky–Newman argument that ChatGPT produced at van Doorn's
+request. Boris Alexeev's lean-proofs repository carries it as
+`Erdos947.erdos_947` at the commit linked above, with informal authors ChatGPT
+and van Doorn and formal authors Aristotle and van Doorn. Formal-conjectures'
+`ErdosProblems/947.lean` was added 2026-09-19 with the category research solved.
+It links that theorem as the formal proof of its own statement but leaves its
+body a `sorry`. So the formal-conjectures file is a statement file, linked from
+the problem page, and not a formalization of this claim. The Lean file
+formalizes the classical theorem rather than a new proof, so it is a
+formalization link on this page and not a claim page of its own. Neither Lean
+file is among the Lean the corpus has built and audited, so no `formalized` is
+listed. The acceptance rests on the printed proof and the curator's credit.
 
 **Not covered.** Nothing of the question itself. The quantitative
 strengthenings for disjoint covers with repeated moduli (the multiplicity

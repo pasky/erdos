@@ -157,8 +157,8 @@ $\delta\ge1$ under the stronger assumption that $G$ is 4-colourable"), and
 the abstract (p. 1082) records that the 1989 construction reaches
 $\frac{5n}{2\delta}-5$, so the bound is tight up to the additive constant.
 Conjecture 1 (pp. 1082--1083) restates the problem with the hypothesis
-$r,\delta\ge2$ that the site omits. The paper leaves the $K_5$-free case
-itself open, and its closing remark (p. 1089) sees no straightforward
+$r,\delta\ge2$ that erdosproblems.com omits. The paper leaves the $K_5$-free
+case itself open, and its closing remark (p. 1089) sees no straightforward
 extension of the method to $2k$-colorable graphs. The later papers filed as
 [[extremal_graph_theory/czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza/_index|czabarka_2021_counterexamples_conjecture_erdos_pach_pollack_tuza]]
 and

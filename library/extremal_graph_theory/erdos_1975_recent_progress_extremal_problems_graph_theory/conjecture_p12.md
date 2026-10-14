@@ -54,7 +54,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1078/_index|Problem 1078]]: the site's [Er75]
-  source; the conjecture in Erdős's 1975 words, with the threshold
-  $(r-\frac32)n$ and no $o(1)$ term, and the sentence on what could and could
-  not be proved at the time.
+- [[../wiki/problems/extremal_graph_theory/E1078/_index|Problem 1078]]:
+  erdosproblems.com's [Er75] source; the conjecture in Erdős's 1975 words, with
+  the threshold $(r-\frac32)n$ and no $o(1)$ term, and the sentence on what
+  could and could not be proved at the time.

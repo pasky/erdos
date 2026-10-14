@@ -94,8 +94,8 @@ papers' statements was not checked here.
 ## Bears on
 
 - [[../wiki/problems/graph_coloring/E0842/_index|Problem 842]]: the published affirmative
-  answer the site cites; $\chi(G)=3$ for every graph of the problem's class,
-  and $\chi_l(G)\le3$ by the same argument. Sachs's later elementary proof,
-  filed on
+  answer erdosproblems.com cites; $\chi(G)=3$ for every graph of the problem's
+  class, and $\chi_l(G)\le3$ by the same argument. Sachs's later elementary
+  proof, filed on
   [[graph_coloring/sachs_1993_elementary_proof_cycle_plus_triangles_theorem/main_theorem|its result page]],
   proves the same coloring statement by a different parity theorem.

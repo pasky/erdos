@@ -3,7 +3,7 @@ name: integer_sequences
 title: "Sequences and Densities of Integers"
 desc: "Sources filed under Sequences and Densities of Integers, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Sequences and Densities of Integers
@@ -37,10 +37,10 @@ subsets of {1,...,n} with no r-th power among their subset sums.
 [[integer_sequences/alon_1996_sure_monochromatic_subset_sums/_index|alon_1996_sure_monochromatic_subset_sums/]]: Determines up to logarithmic factors the least number of colors needed to
 color 1..n-1 with no monochromatic subset summing to n.
 
-[[integer_sequences/anon_2026_primes_logarithmic_block_product/_index|anon_2026_primes_logarithmic_block_product/]]: A four-page anonymous note, linked from the site's Problem 457 thread,
-constructing infinitely many n for which every prime up to 2.1 log n
+[[integer_sequences/anon_2026_primes_logarithmic_block_product/_index|anon_2026_primes_logarithmic_block_product/]]: A four-page anonymous note, linked from erdosproblems.com's Problem 457
+thread, constructing infinitely many n for which every prime up to 2.1 log n
 divides the product of the next floor(log n) integers; the first written
-form of the construction the site accepted for Problem 457.
+form of the construction erdosproblems.com accepted for Problem 457.
 
 [[integer_sequences/anon_2026_resolution_erdos_problem_38_sparse_dyadic_shift/_index|anon_2026_resolution_erdos_problem_38_sparse_dyadic_shift/]]: Digest of a six-page 2026 manuscript with no named author that constructs a
 sparse set, not an additive basis, giving every set of Schnirelmann density
@@ -126,8 +126,8 @@ have distinct products, answering a question of Erdos and Graham.
 one through n in which no member divides the product of two others has size
 pi(n) plus (27/2 + o(1)) n^(2/3)/(log n)^2, by tracking the constants in
 Erdős's 1938 factorization argument and packing linear prime triples; the
-author declares AI assistance and the site accepts it as the resolution of
-Problem 793.
+author declares AI assistance and erdosproblems.com accepts it as the
+resolution of Problem 793.
 
 [[integer_sequences/chojecki_2026_truncated_congruence_sieves_erdos_problem_25/_index|chojecki_2026_truncated_congruence_sieves_erdos_problem_25/]]: Proves natural density for summable and pairwise-coprime truncated
 congruence sieves, and reduces Erdős problem 25 to uniform harmonic control
@@ -485,8 +485,8 @@ summing to zero.
 [[integer_sequences/szemeredi_1976_problem_p_erdos/_index|szemeredi_1976_problem_p_erdos/]]: Szemerédi's 1976 proof of Erdős's conjecture that two sets of positive
 integers up to n whose pairwise products across the sets are all distinct
 have size product below C n^2/log n, with the constant C made explicit in
-terms of the Brun and Mertens constants; the paper the site names as the
-proof of Problem 490, with Diviš's r-set extension and the announcement of
+terms of the Brun and Mertens constants; the paper erdosproblems.com names as
+the proof of Problem 490, with Diviš's r-set extension and the announcement of
 the Erdős–Szemerédi bounded-representation theorem.
 
 [[integer_sequences/szemeredi_2005_long_arithmetic_progressions_sumsets_thresholds_bounds/_index|szemeredi_2005_long_arithmetic_progressions_sumsets_thresholds_bounds/]]: Locates the thresholds for the longest arithmetic progression in an l-fold

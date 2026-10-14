@@ -35,8 +35,8 @@ $$
 
 powerful (i.e. if $p\mid m$ then $p^2\mid m$) for only finitely many $n$?
 
-**Status.** Open, which is the site's label (OPEN). No claim settles the
-question. Both claim pages are conditional on the abc conjecture.
+**Status.** Open, which is the erdosproblems.com label (OPEN). No claim settles
+the question. Both claim pages are conditional on the abc conjecture.
 
 **Source.** [erdosproblems.com/936](https://www.erdosproblems.com/936), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #936,
@@ -54,8 +54,8 @@ https://www.erdosproblems.com/936.
 
 ## Current assessment
 
-Both questions are open unconditionally. The site credits two results under
-the abc conjecture, each recorded as a conditional claim that settles no
+Both questions are open unconditionally. erdosproblems.com credits two results
+under the abc conjecture, each recorded as a conditional claim that settles no
 standing. Cushing and Pascoe [CuPa16] prove, assuming abc, that only finitely
 many powerful numbers lie within a fixed distance of a factorial, which answers
 the second question
@@ -65,8 +65,8 @@ proves, assuming abc, that $k^n+r$ is powerful only finitely often for fixed
 coprime positive $k$ and $r$, which covers $2^n+1$
 ([[problems/diophantine_problems/E0936/claims/2020_05_15_crowdmath|claim page]]);
 the paper does not treat $2^n-1$, so even conditionally the first question is
-answered only for $2^n+1$, although the site credits the paper with the whole
-first question.
+answered only for $2^n+1$, although erdosproblems.com credits the paper with the
+whole first question.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

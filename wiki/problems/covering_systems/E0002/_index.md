@@ -27,14 +27,14 @@ large?
 **Statement (modified).** Can the smallest modulus of a covering system with
 distinct moduli be arbitrarily large?
 
-**Notes.** The site's wording drops the condition, assumed by the problem's
-sources, that the moduli are distinct; the literature uses the bare term both
-ways. If repeated moduli are allowed, the answer is trivially yes: for every
-$B$, the $M$ residue classes modulo any single $M>B$ cover the integers. This
-trivial cover is the corpus's own observation, and no result about the site's
-wording is recorded. The change inserts "with distinct moduli"; nothing else
-changes. The evidence is the literature's statement of the problem as Erdős's.
-Nielsen, *A covering system whose smallest modulus is 40*
+**Notes.** The erdosproblems.com wording drops the condition, assumed by the
+problem's sources, that the moduli are distinct; the literature uses the bare
+term both ways. If repeated moduli are allowed, the answer is trivially yes: for
+every $B$, the $M$ residue classes modulo any single $M>B$ cover the integers.
+This trivial cover is the corpus's own observation, and no result about the
+erdosproblems.com wording is recorded. The change inserts "with distinct
+moduli"; nothing else changes. The evidence is the literature's statement of the
+problem as Erdős's. Nielsen, *A covering system whose smallest modulus is 40*
 ([[../library/covering_systems/nielsen_2009_covering_system_smallest_modulus_40/_index|J.
 Number Theory 129 (2009)]], abstract, p. 1 of the author version), a
 construction that settles nothing: "Paul Erdős, in 1950, asked whether for each
@@ -49,14 +49,14 @@ moduli can be distinct and all arbitrarily large"; their §1 (printed p. 378)
 defines a covering system as any finite collection of arithmetic progressions
 that covers the integers, so in their usage the term alone does not carry
 distinctness. Hough and BBMST state the problem apart from their theorems'
-hypotheses, and the site's commentary, which credits Hough's bound $10^{16}$,
-the bound $616000$ and Owens's cover with minimum modulus $42$, fits only the
-distinct reading. Erdős's 1950 paper also prints the distinctness: its
+hypotheses, and the erdosproblems.com commentary, which credits Hough's bound
+$10^{16}$, the bound $616000$ and Owens's cover with minimum modulus $42$, fits
+only the distinct reading. Erdős's 1950 paper also prints the distinctness: its
 conjecture on p. 120 concerns systems of congruences $a_i\pmod{n_i}$ with
 $n_1<n_2<\cdots<n_k$ that cover every integer (result page
 [[../library/primes/erdos_1950_integers_form_related_problems/conjecture_p120|Erdős
-1950, p. 120]]). Whether the site's sources [Er55c] to [Er97e] print it is not
-recorded here.
+1950, p. 120]]). Whether the erdosproblems.com sources [Er55c] to [Er97e] print
+it is not recorded here.
 
 **Formulation.** A covering system with distinct moduli is a finite family of
 residue classes $a_i+m_i\mathbb Z$ with pairwise distinct moduli $m_i\ge2$ whose
@@ -68,20 +68,20 @@ $p_i>B$, and the infinite family $z_i\pmod{p_i}$ covers every integer; every
 source cited in the Notes defines a covering system as finite. No irredundancy
 condition is imposed on the finite covers in this question.
 
-**Status.** DISPROVED (LEAN), the site's label. Hough's published theorem gives
-an absolute upper bound for the minimum modulus. The later published BBMST bound
-gives $m_1<616000$, equivalently $m_1\le615999$. The literature search did not
-identify the largest achievable minimum modulus. The two proofs are recorded on
-their claim pages,
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. Hough's published
+theorem gives an absolute upper bound for the minimum modulus. The later
+published BBMST bound gives $m_1<616000$, equivalently $m_1\le615999$. The
+literature search did not identify the largest achievable minimum modulus. The
+two proofs are recorded on their claim pages,
 [[problems/covering_systems/E0002/claims/2013_07_02_hough|Hough]] and
 [[problems/covering_systems/E0002/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|Balister, Bollobás, Morris, Sahasrabudhe and Tiba]].
-Each is accepted on its refereed publication and the site's credit. Two refereed
-results on restricted classes are accepted partial claims.
+Each is accepted on its refereed publication and the erdosproblems.com credit.
+Two refereed results on restricted classes are accepted partial claims.
 [[problems/covering_systems/E0002/claims/2005_07_18_filaseta_ford_konyagin_pomerance_yu|Filaseta, Ford, Konyagin, Pomerance and Yu]]
 bound the minimum modulus when the reciprocal sum of the moduli is bounded.
 [[problems/covering_systems/E0002/claims/2022_11_15_cummings_filaseta_trifonov|Cummings, Filaseta and Trifonov]]
-bound it by $118$ when every modulus is squarefree. The site's Lean badge is
-qualified below.
+bound it by $118$ when every modulus is squarefree. The erdosproblems.com Lean
+badge is qualified below.
 
 
 **Source.** [erdosproblems.com/2](https://www.erdosproblems.com/2), accessed
@@ -104,24 +104,23 @@ https://www.erdosproblems.com/2.
   On the j-th smallest modulus of a covering system with distinct moduli.
   Int. J. Number Theory 20 (2024), 471–479.
 
-**Formalization.** The site's linked artifact is a catalog statement of the
-qualitative answer whose theorem body is `sorry`; the development
-behind the site's Lean label was a lean-proofs file formalizing the proof of
-Balister, Bollobás, Morris, Sahasrabudhe and Tiba, linked at a pinned commit
-on their claim page. See Formalization and verification scope below for the
-pinned revisions and public-build limits. This corpus has built neither
-file.
+**Formalization.** erdosproblems.com's linked artifact is a catalog statement of
+the qualitative answer whose theorem body is `sorry`; the development behind the
+erdosproblems.com Lean label was a lean-proofs file formalizing the proof of
+Balister, Bollobás, Morris, Sahasrabudhe and Tiba, linked at a pinned commit on
+their claim page. See Formalization and verification scope below for the pinned
+revisions and public-build limits. This corpus has built neither file.
 
 ## Current assessment
 
-The site's wording (page last edited 5 April 2026) asks whether the smallest
-modulus of a covering system can be arbitrarily large; for covering systems
-with distinct moduli, the Statement judged here, the answer is no. The status
-rests on Hough's accepted
-[Annals paper](https://doi.org/10.4007/annals.2015.181.1.6), not a site label.
-Its published version and actual arXiv v3 state $10^{16}$; v2 states
-$10^{18}$, and v1 gives an unspecified absolute bound. The abstract in the
-arXiv record's metadata gives $10^{18}$. The
+The erdosproblems.com wording (page last edited 5 April 2026) asks whether the
+smallest modulus of a covering system can be arbitrarily large; for covering
+systems with distinct moduli, the Statement judged here, the answer is no. The
+status rests on Hough's accepted [Annals
+paper](https://doi.org/10.4007/annals.2015.181.1.6), not an erdosproblems.com
+label. Its published version and actual arXiv v3 state $10^{16}$; v2 states
+$10^{18}$, and v1 gives an unspecified absolute bound. The abstract in the arXiv
+record's metadata gives $10^{18}$. The
 [[../library/covering_systems/hough_2015_solution_minimum_modulus_problem_covering_systems/_index|source digest]]
 distinguishes the four versions.
 
@@ -232,8 +231,8 @@ modulus equal to either prime. It does not resolve the odd-cover question
 
 ## Formalization and verification scope
 
-The site's formalization link points to a formal-conjectures statement. At
-the
+erdosproblems.com's formalization link points to a formal-conjectures statement.
+At the
 [revision](https://github.com/google-deepmind/formal-conjectures/blob/8323e878b83fcd7f4a448256069352a265460d75/FormalConjectures/ErdosProblems/2.lean)
 of 4 September 2026, the declaration `Erdos2.erdos_2` expresses the qualitative negative answer
 using `StrictCoveringSystem ℤ`, but its proof is a single `sorry`.
@@ -248,12 +247,12 @@ on 26 August 2026, explicitly describes a statement formalization. The
 successful [public build of the
 revision](https://github.com/google-deepmind/formal-conjectures/actions/runs/33881047217)
 on 4 September is compatible with the retained proof placeholder and does not
-establish a formal proof. On 5 September 2026 the site's label was DISPROVED
-(LEAN), but its linked artifact supports statement-only scope. The development
-behind the label is the file `src/latest/ErdosProblems/Erdos2.lean` in Boris
-Alexeev's lean-proofs repository, which declares itself a formalization of a
-solution to Problem 2 with Balister, Bollobás, Morris, Sahasrabudhe and Tiba
-as informal authors and Codex and GPT-5.6 Sol as formal authors, proves
+establish a formal proof. On 5 September 2026 the erdosproblems.com label was
+DISPROVED (LEAN), but its linked artifact supports statement-only scope. The
+development behind the label is the file `src/latest/ErdosProblems/Erdos2.lean`
+in Boris Alexeev's lean-proofs repository, which declares itself a formalization
+of a solution to Problem 2 with Balister, Bollobás, Morris, Sahasrabudhe and
+Tiba as informal authors and Codex and GPT-5.6 Sol as formal authors, proves
 `erdos_2` by the distortion sieve with the bound $616000$, and is linked at a
 pinned commit on
 [[problems/covering_systems/E0002/claims/2018_11_08_balister_bollobas_morris_sahasrabudhe_tiba|their claim page]];

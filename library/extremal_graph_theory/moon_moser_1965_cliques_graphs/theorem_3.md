@@ -103,8 +103,8 @@ layer of that page and paged on
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0927/_index|Problem 927]]: the lower half of
-  the bounds the site's commentary attributes to the paper, in the paper's
-  own form; Erdős's 1966 display (1) reproduces it exactly, and the 1969
+  the bounds the erdosproblems.com commentary attributes to the paper, in the
+  paper's own form; Erdős's 1966 display (1) reproduces it exactly, and the 1969
   and 1971 printings paraphrase it.
 - [[../wiki/problems/set_systems/E0775/_index|Problem 775]]: the graph case of the
   clique-sizes question that the problem asks for $3$-uniform hypergraphs;

@@ -63,15 +63,15 @@ Source: <https://arxiv.org/abs/0910.3926v2>.
 
 - [[../wiki/problems/additive_combinatorics/E0171/_index|#171]]: Theorem 1.4,
   with k = t and delta = epsilon, is the density Hales-Jewett theorem, which
-  the problem page records as the intended question behind the site's wording;
-  it answers that question yes, by a second proof after Furstenberg and
+  the problem page records as the intended question behind the erdosproblems.com
+  wording; it answers that question yes, by a second proof after Furstenberg and
   Katznelson's. Theorem 1.5 makes the threshold explicit for t = 3 and gives an
   Ackermann-type bound for t >= 4.
 - [[../wiki/problems/additive_combinatorics/E0185/_index|#185]]: the paper does
-  not discuss collinear points. The problem page records, as the site does,
-  that the question follows from the case k = 3 of the density Hales-Jewett
-  theorem, the three points of a combinatorial line in {0,1,2}^n being
-  collinear; Theorem 1.4 with k = 3 is that case, and the restatement of
+  not discuss collinear points. The problem page records, as erdosproblems.com
+  does, that the question follows from the case k = 3 of the density
+  Hales-Jewett theorem, the three points of a combinatorial line in {0,1,2}^n
+  being collinear; Theorem 1.4 with k = 3 is that case, and the restatement of
   Theorem 1.5 bounds the density of a line-free subset of [3]^n by
   O(1/sqrt(log* n)).
 

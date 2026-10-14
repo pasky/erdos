@@ -35,8 +35,8 @@ Academician S. L. Sobolev on 22 January 1976, received 7 January 1976
 Academy of Sciences, Novosibirsk. The English translation is Soviet Math.
 Dokl. 17 (1976), 760--764 (per Frieze's 2021 bibliography, as Problem 746's
 page records; not read for this card). This note announces the theorem. The
-site's key [Ko77] is the 1977 Russian paper, Diskret. Analiz 31 (1977),
-17--56, 90 (not held), which Korshunov's 1985 English paper, filed as
+erdosproblems.com key [Ko77] is the 1977 Russian paper, Diskret. Analiz 31
+(1977), 17--56, 90 (not held), which Korshunov's 1985 English paper, filed as
 [[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles]],
 says (p. 179) gave "a part of proof (for $k>6n\log n$)"; the 1985 paper
 gives a new proof of the theorem.
@@ -46,7 +46,7 @@ is the mathnet.ru copy of the printed note: four pages, printed
 pp. 529--532 = PDF pp. 1--4, with a text layer that locates passages and
 garbles the displays. Provenance: retrieved 2026-09-18T11:27:57Z from
 <https://www.mathnet.ru/php/getFT.phtml?jrnid=dan&paperid=40104&what=fullt&option_lang=eng>
-(HTTP 200, one request; the link in the site's discussion thread on
+(HTTP 200, one request; the link in the erdosproblems.com discussion thread on
 Problem 746); 645,873 bytes. No notice is printed on the four pages; the article
 page (https://www.mathnet.ru/eng/dan40104) carries only the site footer and
 names no license, and the site's Terms of Use
@@ -144,14 +144,14 @@ algorithm's unwritten justification and no corpus page uses them.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]:
 [[extremal_graph_theory/korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_1|Theorem 1]]
-(p. 529) is the announcement, without proof, of the site's [Ko77]
+(p. 529) is the announcement, without proof, of erdosproblems.com's [Ko77]
 theorem, the Hamiltonicity threshold
 $\tfrac12n(\ln n+\ln\ln n+\varphi(n))$; since
 $(\tfrac12+\varepsilon)n\log n$ has the form (1) with
 $\varphi(n)=2\varepsilon\ln n-\ln\ln n\to\infty$, the theorem gives
 the problem's statement, and the note attributes the question to Erdős
 and Rényi with the 1960 evolution paper as the Erdős--Rényi item in its
-reference list, not the site's [ErRe66].
+reference list, not erdosproblems.com's [ErRe66].
 [[extremal_graph_theory/korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_2|Theorem 2]]
 (p. 530), pancyclicity under the same condition (1), implies the
 sufficiency half of Theorem 1 and so also gives the statement, again

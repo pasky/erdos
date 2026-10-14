@@ -32,18 +32,18 @@ $$
 (where the maximum is restricted to those $n$ of the form $n=\phi(m)$ for some
 $m$.)
 
-**Status.** Solved. The site's label was SOLVED (LEAN). The status-defining
-source is a five-page note whose title page credits "GPT-5.5 PRO". The note
-gives the asymptotic $(e^\gamma+o(1))\log\log x$. Its
+**Status.** Solved. The erdosproblems.com label was SOLVED (LEAN). The
+status-defining source is a five-page note whose title page credits "GPT-5.5
+PRO". The note gives the asymptotic $(e^\gamma+o(1))\log\log x$. Its
 [[problems/arithmetic_functions/E0694/claims/2026_05_01_price|claim page]] is
-accepted on the site's documented acceptance. The curator restated the proof in
-the site's thread on 2026-05-02, and the site records the result as the
-problem's resolution. No refereed publication exists. There are two external
-Lean developments. One proves that asymptotic, for its own definition of the
-ratio, from Mertens' product theorem and Linnik's theorem declared as axioms.
-The other claims an unconditional proof through a module the corpus has not
-examined. This corpus has built neither, so they give no formalized evidence.
-See "Current assessment".
+accepted on erdosproblems.com's documented acceptance. The curator restated the
+proof in the erdosproblems.com thread on 2026-05-02, and erdosproblems.com
+records the result as the problem's resolution. No refereed publication exists.
+There are two external Lean developments. One proves that asymptotic, for its
+own definition of the ratio, from Mertens' product theorem and Linnik's theorem
+declared as axioms. The other claims an unconditional proof through a module the
+corpus has not examined. This corpus has built neither, so they give no
+formalized evidence. See "Current assessment".
 
 **Source.** [erdosproblems.com/694](https://www.erdosproblems.com/694), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #694,
@@ -58,16 +58,16 @@ https://www.erdosproblems.com/694.
   pp. 4--5. Library home:
   [[../library/arithmetic_functions/gpt_5_5_pro_2026_totient_fibre_extremes/_index|gpt_5_5_pro_2026_totient_fibre_extremes]].
 
-**Formalization.** The site's Lean qualification is a catalog label; see
-"Formalization and the Lean label" below for the Lean developments. The file
+**Formalization.** The erdosproblems.com Lean qualification is a catalog label;
+see "Formalization and the Lean label" below for the Lean developments. The file
 [`ErdosProblems/694.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/694.lean)
 of formal-conjectures, at the pinned commit, states
 `erdos_694 : ∀ᵉ (fmax : ℕ → ℕ) (fmin : ℕ → ℕ), (∀ n, (∃ m, Nat.totient m = n) → IsGreatest (Nat.totient ⁻¹' {n}) (fmax n)) → (∀ n, (∃ m, Nat.totient m = n) → IsLeast (Nat.totient ⁻¹' {n}) (fmin n)) → ∃ o : ℕ → ℝ, Tendsto o atTop (𝓝 0) ∧ ∀ᶠ x : ℕ in atTop, sSup { (fmax n : ℝ) / fmin n | (n : ℕ) (_ : n ≤ x) (_ : ∃ m, Nat.totient m = n) } = (exp eulerMascheroniConstant + o x) * log (log (x : ℝ))`
 under `category research solved` with a `sorry` body and no `formal_proof`
 attribute; its docstring attributes the proof of
 $\max_{n\le x}f_{\max}(n)/f_{\min}(n)=(e^\gamma+o(1))\log\log x$ to GPT-5.5
-Pro, prompted by Price, points to the site's thread for a summary, says
-that a Lean formalization of the reduction exists conditional on Mertens'
+Pro, prompted by Price, points to the erdosproblems.com thread for a summary,
+says that a Lean formalization of the reduction exists conditional on Mertens'
 product theorem and Linnik's theorem, linking the `Shashi456` file, and
 notes that the extrema are required only on nonempty fibres and the identity
 only for large $x$. Two variants:
@@ -78,8 +78,8 @@ developments, so they give no formalized evidence.
 
 ## Current assessment
 
-**The question (the site's formulation, accessed 2026-09-04).** The statement
-above, an "Investigate" question about
+**The question (the erdosproblems.com formulation, accessed 2026-09-04).** The
+statement above, an "Investigate" question about
 $\max_{n\le x}f_{\max}(n)/f_{\min}(n)$ over totient values $n$; SOLVED
 (LEAN). The note's abstract answers the question with an asymptotic formula;
 the `lean-proofs` development lists the thread's post 6202, the announcement
@@ -106,7 +106,7 @@ infinitely many totient values $N$ with $f_{\max}(N)/f_{\min}(N)\ge a/b$.
 The result page records the statements of Theorem 2.1, Lemma 1.1 and
 Proposition 3.1 and follows their proofs (pp. 2--5); no step is
 independently reviewed by this project.
-Acceptance evidence: the site's label, the
+Acceptance evidence: the erdosproblems.com label, the
 curator's thread post of 2026-05-02 restating the proof, a forum reviewer's
 standard check of the same day and the collection's docstring, recorded on
 the claim page; no refereed publication or arXiv version exists. Provenance,
@@ -115,8 +115,8 @@ credits "GPT-5.5 PRO" and names no person; the hosting repository's README
 says "Proof by Liam Price + GPT-5.5 Pro, May 2026"; the collection's
 docstring credits GPT-5.5 Pro and names Price as the prompter.
 
-**Formalization and the Lean label.** The site's Lean qualification is a
-catalog label. The collection's statement is a `sorry` body. Two external
+**Formalization and the Lean label.** The erdosproblems.com Lean qualification
+is a catalog label. The collection's statement is a `sorry` body. Two external
 developments exist, and a third repository carries versions of them; this
 corpus has built, kernel-checked or audited none of them, so they give no
 formalized evidence.
@@ -197,14 +197,14 @@ collection's form exists in either development.
 
 **Search scope (September 2026).** The note, its TeX source, the
 repository README and checker report, the two Lean developments with the six
-modules and the collection's statement file; the site's problem page and
-thread (2026-09-05); arXiv, Crossref, MathSciNet, zbMATH, Google Scholar and
+modules and the collection's statement file; the erdosproblems.com problem page
+and thread (2026-09-05); arXiv, Crossref, MathSciNet, zbMATH, Google Scholar and
 X not searched.
 
 **Remaining gaps.** (1) The status rests on a five-page note with no
 refereed publication, credited to an AI system by its title page; the only
-reviews are the site curator's restatement and a forum standard check,
-recorded on the claim page; a refereed version or an independent
+reviews are the erdosproblems.com curator's restatement and a forum standard
+check, recorded on the claim page; a refereed version or an independent
 whole-argument review would remove the qualification. (2) This corpus has
 built neither Lean development; the first declares two classical theorems as
 axioms, and the second's unconditional claim rests on a module the corpus

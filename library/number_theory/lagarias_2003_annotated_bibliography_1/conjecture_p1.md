@@ -24,7 +24,7 @@ of $C$ takes the value $1$.
 **$3x+1$ Conjecture** (p. 1, unnumbered), quoted from the abstract: "The
 $3x+1$ Conjecture asserts that each $m\ge1$ has some iterate
 $T^{(k)}(m)=1$." Section 1 restates it on p. 1 in the same terms for every
-$m\ge1$. The abstract adds that the conjecture remains unsolved, as of the
+$m\ge1$. The abstract adds that the conjecture remains unsolved, in the
 version read (dated January 1, 2011).
 
 **Source.** Jeffrey C. Lagarias, *The 3x+1 Problem: An Annotated

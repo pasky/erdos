@@ -34,10 +34,10 @@ grid built from a totally real number field of high degree. Their Corollary
 3(2) deduces that, for all large $n$, every subset of $P$ with at least
 $n^{1-\delta}$ points contains an isosceles triangle. The paper counts three
 equally spaced collinear points as a degenerate isosceles triangle, which
-matches the site's reading of the case $d=1$ as the three-term progression
-problem. Hence $P_2(n)\lesssim n^{1-\delta}$, so $P_2(n)<n^{1-c}$ for every
-$0<c<\delta$ and all large $n$. The paper says that this application confirms
-the conjecture of Erdős in [Er80, p. 110].
+matches erdosproblems.com's reading of the case $d=1$ as the three-term
+progression problem. Hence $P_2(n)\lesssim n^{1-\delta}$, so $P_2(n)<n^{1-c}$
+for every $0<c<\delta$ and all large $n$. The paper says that this application
+confirms the conjecture of Erdős in [Er80, p. 110].
 
 **Covers.** The particular question of
 [[problems/distance_problems/E1207/_index|Problem 1207]], whether
@@ -52,10 +52,10 @@ fields; that paper bears on
 [[problems/distance_problems/E0090/_index|Problem 90]].
 
 **Standing.** Claimed. The result is an arXiv preprint (v1 of 6 July 2026)
-with no journal publication and no Lean proof. The site's remarks, edited 7
-September 2026, credit the construction to Lee, Pohoata and Zhu, assisted by
-ChatGPT, and say that it answers the main question of Erdős; the site still
-labeled the problem OPEN, and commentary on an open problem is not acceptance.
-The paper's acknowledgment records that ChatGPT helped the first author find
-the related construction of a set in which every subset of at least
+with no journal publication and no Lean proof. The erdosproblems.com remarks,
+edited 7 September 2026, credit the construction to Lee, Pohoata and Zhu,
+assisted by ChatGPT, and say that it answers the main question of Erdős; Bloom's
+catalog still labeled the problem OPEN, and commentary on an open problem is not
+acceptance. The paper's acknowledgment records that ChatGPT helped the first
+author find the related construction of a set in which every subset of at least
 $n^{1/2-\delta}$ points determines a repeated distance.

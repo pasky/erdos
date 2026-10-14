@@ -42,8 +42,8 @@ $f$ is nondecreasing. The question of
 [[../library/analysis/laczkovich_1984_kemperman_s_inequality/_index|library card]],
 cites it as Kemperman's Problem 60 in Aequationes Math. 4 (1970), 248--249,
 and opens by recording that Kemperman proved the affirmative answer for
-measurable functions in the 1969 paper; the site's commentary records the
-same under [Ke69].
+measurable functions in the 1969 paper; the erdosproblems.com commentary records
+the same under [Ke69].
 
 **Covers.** The instances of Problem 1125 in which $f$ is Lebesgue
 measurable: for these the answer is yes, and the conclusion is
@@ -56,9 +56,9 @@ settles without any regularity assumption.
 
 **Acceptance.** Refereed: the paper appeared in the Transactions of the American
 Mathematical Society, volume 135 (1969). The page is dated by the year of
-publication, using the volume's nominal first day. The site's commentary credits
-the measurable case to Kemperman as [Ke69]. Its label, however, credits
-Laczkovich with the solution of the whole problem, so no `reviewed` evidence is
-listed for this partial claim. No Lean formalization checks this statement
-separately, so no `formalized` evidence is listed. The proof is not compiled in
-this wiki.
+publication, using the volume's nominal first day. The erdosproblems.com
+commentary credits the measurable case to Kemperman as [Ke69]. Its label,
+however, credits Laczkovich with the solution of the whole problem, so no
+`reviewed` evidence is listed for this partial claim. No Lean formalization
+checks this statement separately, so no `formalized` evidence is listed. The
+proof is not compiled in this wiki.

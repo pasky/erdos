@@ -48,13 +48,13 @@ minimum over $n$-element sets of positive integers, so $l(n)$ is $g(n)$
 restricted to sets of positive integers. The upper half therefore bounds
 $g(n)$ directly, $g(n)\le l(n)\ll e^{c\sqrt{\log n}}$ for every
 $c>\sqrt{8\log2}$, since the set the proof builds is a set of positive
-integers; the site displays it without the constant, as
-$g(n)\ll\exp(\sqrt{\log n})$, which read as the site words it, with
+integers; erdosproblems.com displays it without the constant, as
+$g(n)\ll\exp(\sqrt{\log n})$, which read as Bloom's catalog words it, with
 $c=1$, claims more than the Theorem; Sanders's Theorem 1.1 restates it as
 $M(A)=\exp(O(\sqrt{\log|A|}))$ for some set $A$ of each size
 ([[additive_combinatorics/sanders_2021_erdos_moser_sum_free_set_problem/theorem_1_1|Theorem 1.1]]).
 The lower half, $l(n)>2\log_3n-1$, transfers to real sets only through
-Choi's reduction of the real problem to the integers, which the site
+Choi's reduction of the real problem to the integers, which erdosproblems.com
 records and this paper does not print. The theorem's condition on $c$ is
 strict: the proof's display (2.1) gives $2^dr\ll(\log n)\cdot
 e^{\sqrt{8\log2\,\log n}}$, and the factor $\log n$ is absorbed by taking
@@ -138,8 +138,8 @@ bounds and for its printed proof of Klarner's $\log_2n$.
   upper bound the problem page cites from the paper,
   $g(n)\le l(n)\ll e^{c\sqrt{\log n}}$ for every $c>\sqrt{8\log2}$,
   Sanders's $\exp(O(\sqrt{\log|A|}))$ with the exponent made explicit (the
-  site's display, $\exp(\sqrt{\log n})$, drops the constant and, read as
-  the site words it, claims more than the Theorem); the lower half,
+  erdosproblems.com display, $\exp(\sqrt{\log n})$, drops the constant and, read
+  as Bloom's catalog words it, claims more than the Theorem); the lower half,
   $l(n)>2\log_3n-1$ over sets of positive integers, is the lower bound the
   problem page cites from the paper beside Sanders's restatement
   $M(A)>2\log_3|A|-1$; it reaches the problem's real-set $g(n)$ only

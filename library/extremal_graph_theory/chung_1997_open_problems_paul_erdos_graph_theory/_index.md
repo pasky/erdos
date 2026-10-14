@@ -30,9 +30,9 @@ one half.
 ***
 
 F. R. K. Chung, *Open problems of Paul Erdős in graph theory*, J. Graph
-Theory **25** (1997), 3--36. The year and pages are the site's entry as
-carried by [[../wiki/problems/ramsey_theory/E0609/_index|#609]]; the volume is the
-compilation's record.
+Theory **25** (1997), 3--36. The year and pages are the erdosproblems.com entry
+as carried by [[../wiki/problems/ramsey_theory/E0609/_index|#609]]; the volume
+is the compilation's record.
 
 The copy read for this card is a 45-page author preprint on letter paper with
 a text layer; its first-page footnote reads "To appear in Journal of Graph
@@ -73,7 +73,7 @@ by the acknowledgment and references (pp. 30--45).
   $m$ such that every partition of the edges of $K_{2^n+1}$ into $n$
   classes has a class containing an odd cycle of length at most $m$; the
   problem asks for $f(n)$ and whether it is bounded. This is the question
-  of #609, which the site words with $n$-colorings of the edges of
+  of #609, which Bloom's catalog words with $n$-colorings of the edges of
   $K_{2^n+1}$ in place of decompositions and asks to estimate $f(n)$.
 - Problem 73, preprint p. 19 (a prize problem): does some sequence
   $A$ of density $0$ admit a constant $c(A)$ and a threshold $n_0(A)$ such
@@ -124,11 +124,11 @@ attestation of the Lazebnik--Ustimenko--Woldar exponent (in the form
 $1+2/(3k-3)$) and the record that the cases $C_4$, $C_6$, $C_{10}$ were the
 only ones settled; named in the problem's discussion thread.
 [[../wiki/problems/extremal_graph_theory/E0576/_index|#576]], as the survey's Problem (36),
-preprint p. 9: the problem in the site's general form with the $Q_3$ bounds.
-[[../wiki/problems/extremal_graph_theory/E0578/_index|#578]], as the survey's Problem (80),
-preprint p. 21: the conjecture attributed to Erdős and Bollobás through the
-site's [Er90c], with the Alon--Füredi partial result; the survey predates the
-solving paper and does not attest it.
+preprint p. 9: the problem in erdosproblems.com's general form with the $Q_3$
+bounds. [[../wiki/problems/extremal_graph_theory/E0578/_index|#578]], as the
+survey's Problem (80), preprint p. 21: the conjecture attributed to Erdős and
+Bollobás through erdosproblems.com's [Er90c], with the Alon--Füredi partial
+result; the survey predates the solving paper and does not attest it.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

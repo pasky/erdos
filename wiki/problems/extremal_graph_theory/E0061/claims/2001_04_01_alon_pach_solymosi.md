@@ -58,6 +58,7 @@ for the base cases of the closure.
 
 **Acceptance.** The paper is a refereed publication in Combinatorica, which is
 the `refereed` evidence. It appeared in the issue of April 2001. The day is not
-recorded, and this page's date is the first of that month. The site's commentary
-credits the closure to the paper, but the site labeled the problem OPEN, so no
-`reviewed` evidence is listed. This corpus has not checked the proof.
+recorded, and this page's date is the first of that month. The erdosproblems.com
+commentary credits the closure to the paper, but Bloom's catalog labeled the
+problem OPEN, so no `reviewed` evidence is listed. This corpus has not checked
+the proof.

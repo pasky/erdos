@@ -23,11 +23,11 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Are there infinitely many $n$ such that the largest prime factor
 of $n$ is $<n^{1/2}$ and the largest prime factor of $n+1$ is $<(n+1)^{1/2}$?
 
-**Status.** PROVED (LEAN), the site's label. The site records Steinerberger's
-trivial construction $n=m^2-1$ with $m$ and $m+1$ composite. The
-formal-conjectures project links two Lean proofs of its statement. The site's
-curator suspects that the problem was misstated but offers no intended reading.
-The accepted claim is
+**Status.** PROVED (LEAN), the erdosproblems.com label. erdosproblems.com
+records Steinerberger's trivial construction $n=m^2-1$ with $m$ and $m+1$
+composite. The formal-conjectures project links two Lean proofs of its
+statement. The erdosproblems.com curator suspects that the problem was misstated
+but offers no intended reading. The accepted claim is
 [[problems/arithmetic_functions/E0370/claims/2025_10_17_steinerberger|Steinerberger's construction]].
 
 **Source.** [erdosproblems.com/370](https://www.erdosproblems.com/370), accessed
@@ -47,30 +47,30 @@ of formal-conjectures. This corpus has built and audited neither file.
 ## Current assessment
 
 **Proved by a trivial construction; the intended problem is unknown.** The
-site formulation above asks for infinitely many $n$ with $P(n)<n^{1/2}$ and
-$P(n+1)<(n+1)^{1/2}$, where $P$ is the largest prime factor; $n=m^2-1$ with
-$m$ and $m+1$ composite answers it, as the site records after Steinerberger,
-and two Lean proofs of the formal-conjectures statement are linked there.
-Erdős and Graham (p. 69) report Pomerance's observation that the system
-$P(n)>n^{e^{-1/2-\epsilon}}$, $P(n+1)>(n+1)^{e^{-1/2-\epsilon}}$ has solutions
-by density considerations, since integers with $P(n)>n^{e^{-1/2-\epsilon}}$
-have density $1-\rho(e^{1/2+\epsilon})>1/2$, where $\rho$ is the Dickman
-function. The site's paraphrase, which puts the exponent $1/\sqrt e-\epsilon$
-into the problem's own $<$ form, is mistaken: $n^{c}$-smooth integers have
-density $\rho(1/c)$, which exceeds $1/2$ only for $c>1/\sqrt e$, so the
-density argument for the $<$ form needs exponents above $1/\sqrt e$. The
-site's curator's remark that the problem was probably misstated is on the
-site; the nontrivial neighbors are Problems 369 and 928. No refereed source
-exists, and this corpus has built and audited neither Lean file. Sources
-checked on 2026-10-07: the site's page, its
-revision history (one revision, of 2025-10-20, with the remark present), the
-discussion thread (three comments, 2025-10-17 to 2025-12-21), the
+erdosproblems.com formulation above asks for infinitely many $n$ with
+$P(n)<n^{1/2}$ and $P(n+1)<(n+1)^{1/2}$, where $P$ is the largest prime factor;
+$n=m^2-1$ with $m$ and $m+1$ composite answers it, as erdosproblems.com records
+after Steinerberger, and two Lean proofs of the formal-conjectures statement are
+linked there. Erdős and Graham (p. 69) report Pomerance's observation that the
+system $P(n)>n^{e^{-1/2-\epsilon}}$, $P(n+1)>(n+1)^{e^{-1/2-\epsilon}}$ has
+solutions by density considerations, since integers with
+$P(n)>n^{e^{-1/2-\epsilon}}$ have density $1-\rho(e^{1/2+\epsilon})>1/2$, where
+$\rho$ is the Dickman function. erdosproblems.com's paraphrase, which puts the
+exponent $1/\sqrt e-\epsilon$ into the problem's own $<$ form, is mistaken:
+$n^{c}$-smooth integers have density $\rho(1/c)$, which exceeds $1/2$ only for
+$c>1/\sqrt e$, so the density argument for the $<$ form needs exponents above
+$1/\sqrt e$. The erdosproblems.com curator's remark that the problem was
+probably misstated is on erdosproblems.com; the nontrivial neighbors are
+Problems 369 and 928. No refereed source exists, and this corpus has built and
+audited neither Lean file. Sources checked on 2026-10-07: the erdosproblems.com
+page, its revision history (one revision, of 2025-10-20, with the remark
+present), the discussion thread (three comments, 2025-10-17 to 2025-12-21), the
 formal-conjectures statement file at its 2026-09-18 commit and both Lean files
-with their commit histories. The site lists no reference beyond Erdős, P. and
-Graham, R., Old and new problems and results in combinatorial number theory,
-Monographies de L'Enseignement Mathematique (1980), p. 69. The OpenAI
-release's manuscript on the joint Dickman law for consecutive integers does
-not name the problem; its library card
+with their commit histories. erdosproblems.com lists no reference beyond Erdős,
+P. and Graham, R., Old and new problems and results in combinatorial number
+theory, Monographies de L'Enseignement Mathematique (1980), p. 69. The OpenAI
+release's manuscript on the joint Dickman law for consecutive integers does not
+name the problem; its library card
 [[../library/arithmetic_functions/openai_2026_joint_dickman_law_consecutive_integers/_index|OpenAI 2026]]
 records, as a deduction made on the card and not in the manuscript, that its
 Theorem 1.1 at both exponents $1/2$ would give the problem's set positive

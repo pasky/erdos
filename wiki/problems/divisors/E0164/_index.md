@@ -51,13 +51,13 @@ https://www.erdosproblems.com/164.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04; the site's page was last edited
-2026-05-12) asks whether $\sum_{n\in A}1/(n\log n)$ over primitive sets $A$ is
-largest when $A$ is the set of primes. The answer is yes, and the standing
-derives from two accepted full claims:
+The erdosproblems.com formulation (accessed 2026-09-04; the erdosproblems.com
+page was last edited 2026-05-12) asks whether $\sum_{n\in A}1/(n\log n)$ over
+primitive sets $A$ is largest when $A$ is the set of primes. The answer is yes,
+and the standing derives from two accepted full claims:
 [[problems/divisors/E0164/claims/2022_02_04_lichtman|Lichtman 2022]], the
 first proof, refereed in Forum of Mathematics, Pi in 2023 and credited by
-the site's curator, and
+the erdosproblems.com curator, and
 [[problems/divisors/E0164/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|Alexeev and coauthors 2026]],
 a shorter proof by Markov chains with von Mangoldt weights, a preprint the
 curator credits as an alternative proof. Erdős proved in 1935 that the sum
@@ -67,17 +67,17 @@ second paper addresses the related problems
 [[problems/divisors/E1196/_index|Problem 1196]] and
 [[problems/divisors/E1217/_index|Problem 1217]].
 
-The site's label carried a Lean qualification: the formal-conjectures
+The erdosproblems.com label carried a Lean qualification: the formal-conjectures
 statement file names as its formal proof a Lean file in Boris Alexeev's
 repository, which formalizes a variant of the second proof and is linked from
 that claim page. The file is third-party Lean that this corpus has not built,
 so neither claim lists `formalized` evidence.
 
-Search scope: the site's problem page and thread, the community database
-(teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures statement
-file, the Lean repository named above, the arXiv records and the publisher's
-record of the journal version. On 2026-10-07 none of them held a further claim.
-Nothing remains open in the stated question.
+Search scope: the erdosproblems.com problem page and thread, the community
+database (teorth/erdosproblems, `data/problems.yaml`), the formal-conjectures
+statement file, the Lean repository named above, the arXiv records and the
+publisher's record of the journal version. On 2026-10-07 none of them held a
+further claim. Nothing remains open in the stated question.
 
 <!-- BEGIN problem library links -->
 

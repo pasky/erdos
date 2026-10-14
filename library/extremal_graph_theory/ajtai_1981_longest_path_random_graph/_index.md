@@ -115,7 +115,7 @@ reviewed.
 statement is Theorem 2 together with the Corollary: $\beta n$ edges,
 $\beta>1/2$, almost surely give a path of length $c(\beta)n$, and the
 constant can be taken arbitrarily close to $1$ for large $\beta$; p. 2
-attributes the conjecture to Erdős. The site's key AKS81, the
+attributes the conjecture to Erdős. The erdosproblems.com key AKS81, the
 status-defining source: Theorem 2 (printed p. 2 = PDF p. 3, page image),
 "The random (undirected) graph $G'_{n,\beta n}$ with $n$ vertices and
 $\beta n$ edges, $\beta>1/2$, almost surely contains a path of length $cn$,
@@ -126,9 +126,10 @@ $G_{n,p}$ belongs to Theorem 2), Remark 1 (Fernandez de la Vega's path of
 length $(1-2.21/d)n$) and Remark 2 (pp. 2--3) sandwiching $G'_{n,N}$
 between $G_{n,p_1}$ and $G_{n,p_2}$ (paged at
 [[extremal_graph_theory/ajtai_1981_longest_path_random_graph/theorem_2|theorem_2]]);
-the existence of a function $f$ with the two limits the site's wording asks
-for is deduced on the problem page. Theorem 1, the directed statement, bears
-on #900 only as an input to the proof of Theorem 2 (p. 12; paged at
+the existence of a function $f$ with the two limits the erdosproblems.com
+wording asks for is deduced on the problem page. Theorem 1, the directed
+statement, bears on #900 only as an input to the proof of Theorem 2 (p. 12;
+paged at
 [[extremal_graph_theory/ajtai_1981_longest_path_random_graph/theorem_1|theorem_1]]).
 
 No file of this source is held: no license on record permits its redistribution,

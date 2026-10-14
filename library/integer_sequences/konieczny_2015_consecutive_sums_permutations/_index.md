@@ -78,17 +78,17 @@ the journal page in parentheses: Proposition 1.1 (arXiv p. 2; journal pp.
 1.3 (arXiv p. 3; journal p. 416), the Hegyvári remark of Section 1.5 (arXiv p.
 3; journal pp. 416--417), Proposition 6.1 (arXiv p. 42; journal p. 471),
 Questions 3 and 4 (arXiv p. 44; journal p. 474). The paper attributes the
-question to Erdős's Manitoba proceedings paper of 1977 (its [Erd77]); the site's
-keys for Problem 34 are the Number Theory Day paper of 1977 (p. 71) and the 1980
-Erdős--Graham monograph (p. 58), and the site's thread of 19 October 2025 says
-the Manitoba paper does not contain the question. The arXiv record names arXiv's
-non-exclusive distribution license for the arXiv v5 text (arXiv:1504.07156),
-every other right reserved. No notice is printed on any of the 65 pages of the
-journal PDF, whose download URL is not recorded; the Crossref record for DOI
-10.4310/joc.2021.v12.n3.a3 (read 2026-10-02) names no license, and the
-publisher's pages (https://www.intlpress.com/ and https://link.intlpress.com/)
-answered HTTP 403 on 2026-10-02, so the publisher's terms could not be read; the
-term is unstated.
+question to Erdős's Manitoba proceedings paper of 1977 (its [Erd77]); the
+erdosproblems.com keys for Problem 34 are the Number Theory Day paper of 1977
+(p. 71) and the 1980 Erdős--Graham monograph (p. 58), and the erdosproblems.com
+thread of 19 October 2025 says the Manitoba paper does not contain the question.
+The arXiv record names arXiv's non-exclusive distribution license for the arXiv
+v5 text (arXiv:1504.07156), every other right reserved. No notice is printed on
+any of the 65 pages of the journal PDF, whose download URL is not recorded; the
+Crossref record for DOI 10.4310/joc.2021.v12.n3.a3 (read 2026-10-02) names no
+license, and the publisher's pages (https://www.intlpress.com/ and
+https://link.intlpress.com/) answered HTTP 403 on 2026-10-02, so the publisher's
+terms could not be read; the term is unstated.
 
 Read status: claims checked for Proposition 1.1, Theorem 1.2, Question 2,
 Theorem 1.3, the Hegyvári remark of Section 1.5 with its display (10),

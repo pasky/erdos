@@ -23,10 +23,10 @@ for the notation and the convention):
 **Theorem 2** (p. 10): "If $r_i=1$ for all $i$, then $b(a)\le4.374(a-1)$, for
 all $a\ge6$."
 
-In the site's convention ($b$ one less) this is $b(a)\le4.374(a-1)-1<4.374a$
-for $a\ge6$; the site's "$b(a)<4.374a$ for all $a>1$" also holds for
-$2\le a\le5$, where the site's $b(a)$ is $5,5,17,17$ (OEIS A375081;
-recomputed here).
+In the erdosproblems.com convention ($b$ one less) this is
+$b(a)\le4.374(a-1)-1<4.374a$ for $a\ge6$; erdosproblems.com's "$b(a)<4.374a$ for
+all $a>1$" also holds for $2\le a\le5$, where erdosproblems.com's $b(a)$ is
+$5,5,17,17$ (OEIS A375081; recomputed here).
 
 ## Proof pointer and sketch
 
@@ -42,8 +42,8 @@ closely with a valuation criterion (Lemma 5) and $2$-adic and $3$-adic
 computations, Lemma 6 supplying that $X_{a,b}$ is odd in the classical case.
 The author's site comment of 27 November 2025 notes that this $3$-adic
 method cannot go below $4a$ (for $a=\lfloor3^{k+1}/2\rfloor$ the least $b$
-it can produce is $2\cdot3^{k+1}-1>4a$ in the site's convention, the drop
-index $2\cdot3^{k+1}$ in the paper's).
+it can produce is $2\cdot3^{k+1}-1>4a$ in the erdosproblems.com convention, the
+drop index $2\cdot3^{k+1}$ in the paper's).
 
 ## Read depth
 

@@ -54,5 +54,6 @@ summand, is not covered; that case is the release's claim on its own pages.
 **Depends on.** Nothing in this wiki.
 
 **Standing.** Claimed: an arXiv preprint with no refereed version or outside
-review known to this corpus, not registered on the site's proof-claims tab or
-named in its commentary (read 2026-10-06); the site labeled the problem OPEN.
+review known to this corpus, not registered on the erdosproblems.com
+proof-claims tab or named in its commentary (read 2026-10-06); Bloom's catalog
+labeled the problem OPEN.

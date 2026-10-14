@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 169, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0169/claims
@@ -13,8 +13,8 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/additive_combinatorics/E0169/claims/1968_08_01_berlekamp|1968_08_01_berlekamp]]: Berlekamp's Galois-field two-coloring shows $W(p+1)>p\,2^p$ for prime $p$.
 With the trivial comparison to $\log W(k)$, this gives
-$f(k)\ge\bigl(\tfrac{\log2}{2}-o(1)\bigr)k$, the bound the site credits to
-him.
+$f(k)\ge\bigl(\tfrac{\log2}{2}-o(1)\bigr)k$, the bound erdosproblems.com
+credits to him.
 
 [[problems/additive_combinatorics/E0169/claims/1977_02_01_gerver|1977_02_01_gerver]]: Gerver proved that the largest reciprocal sum of a set with no $k$-term
 arithmetic progression is at least $(1-o(1))k\log k$. The author also proved
@@ -23,7 +23,7 @@ conjecture.
 
 [[problems/additive_combinatorics/E0169/claims/1984_07_01_wroblewski|1984_07_01_wroblewski]]: Wróblewski constructed an explicit set of integers with no three-term
 arithmetic progression and reciprocal sum above 3.00849. This is the record
-for $f(3)$ that the site credits.
+for $f(3)$ that erdosproblems.com credits.
 
 [[problems/additive_combinatorics/E0169/claims/2022_03_11_walker|2022_03_11_walker]]: In an arXiv preprint, Walker found a digit-restricted Kempner set with no
 four-term arithmetic progression and reciprocal sum 4.43975, and one with no

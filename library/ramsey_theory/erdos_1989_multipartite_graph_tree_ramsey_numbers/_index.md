@@ -50,7 +50,7 @@ Problem 550 locates the problem as "question (2) of [7, p. 153]", its [7]
 being this paper; the Rényi archive's index lists it as `1989-12.pdf`.
 Reference [8] of the paper is the authors' 1985 Combinatorica paper
 [[ramsey_theory/erdos_1985_multipartite_graph_sparse_graph_ramsey_numbers/_index|Multipartite graph--sparse graph Ramsey numbers]],
-the site's source key for the problem.
+the erdosproblems.com source key for the problem.
 
 The copy read for this card is
 the Rényi archive's OmniPage scan of the typeset proceedings pages: nine
@@ -171,13 +171,14 @@ independently reviewed.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0550/_index|#550]]: the problem is
 inequality (2) of p. 153
 ([[ramsey_theory/erdos_1989_multipartite_graph_tree_ramsey_numbers/question_p153|Question (2)]])
-verbatim, with the site's $R(T,G)$ for the paper's
+verbatim, with erdosproblems.com's $R(T,G)$ for the paper's
 $r(G,T_n)$ and $\chi(G)=k$ for the number of classes; the paper's
 quantifier is "for $n$ sufficiently large" with $m_1,\ldots,m_k$ fixed
 first. The display does not restate an order of the classes, but the
 paper's convention elsewhere lists them in nondecreasing order
 ($m_0\le m_1\le\cdots\le m_k$ on pp. 146--147, $1\le m_1\le\cdots\le m_k$ in
-Theorems 1 and 2, p. 149), as the site's $m_1\le\cdots\le m_k$ does. The
+Theorems 1 and 2, p. 149), as erdosproblems.com's $m_1\le\cdots\le m_k$ does.
+The
 [[ramsey_theory/erdos_1989_multipartite_graph_tree_ramsey_numbers/theorem_p147|Theorem]]
 (p. 147), whose upper bound is
 [[ramsey_theory/erdos_1989_multipartite_graph_tree_ramsey_numbers/theorem_1|Theorem 1]]

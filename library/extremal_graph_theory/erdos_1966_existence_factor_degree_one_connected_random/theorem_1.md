@@ -77,9 +77,9 @@ results on connectedness and isolated points (their [1]).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the perfect-matching
-  theorem the site's commentary cites ("who proved that almost surely such a
-  graph has a perfect matching (when $n$ is even)"). The paper states no
+  theorem the erdosproblems.com commentary cites ("who proved that almost surely
+  such a graph has a perfect matching (when $n$ is even)"). The paper states no
   conjecture about Hamiltonian cycles: all ten pages were read for one on the
   page images and none was found; the conjecture the problem asks about is
-  attributed to this paper by the site and to "Rényi and I" by Erdős's later
-  problem papers.
+  attributed to this paper by erdosproblems.com and to "Rényi and I" by Erdős's
+  later problem papers.

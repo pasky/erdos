@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 548, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0548/claims
@@ -22,7 +22,7 @@ contains every tree on $k+1$ vertices. It is accepted on Lean built here.
 
 [[problems/extremal_graph_theory/E0548/claims/2026_09_04_reed_stein|2026_09_04_reed_stein]]: A 2026 preprint of Reed and Stein proves that for every $\gamma>0$ there is
 $n_0$ such that the statement of Problem 548 holds for all $n\ge n_0$ and all
-$k\ge\gamma n$. The preprint is credited in the site's remarks.
+$k\ge\gamma n$. The preprint is credited in the erdosproblems.com remarks.
 
 [[problems/extremal_graph_theory/E0548/claims/2026_09_07_debiasio|2026_09_07_debiasio]]: Two papers by DeBiasio, written with GPT-6 Astra and formalized in Lean, prove
 Kalai's tight-tree conjecture for hypergraphs and the antidirected-tree

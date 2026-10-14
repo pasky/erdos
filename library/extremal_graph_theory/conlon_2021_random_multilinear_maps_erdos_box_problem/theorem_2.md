@@ -56,5 +56,5 @@ Same-paper construction; external premises at statement level.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1158/_index|Problem 1158]]: the source of the
-  best general lower bound held for the balanced two-vertex case (the site's
-  $r=2$), through Corollary 1.
+  best general lower bound held for the balanced two-vertex case
+  (erdosproblems.com's $r=2$), through Corollary 1.

@@ -53,9 +53,9 @@ The edition cited is the publisher's version of record at
 <https://doi.org/10.1007/BF02018403>; no preprint or repository version is
 known here. The paper's [5] is the Sárközy--Szemerédi paper filed as
 [[number_theory/sarkozi_1965_uber_ein_problem_von_erdos_und/_index|sarkozi_1965_uber_ein_problem_von_erdos_und]]
-(the paper spells the first author Sárközi, as the site's key does), its [1]
-is Erdős's 1945 note on the Littlewood--Offord lemma, its [2]--[4] are the
-Katona and Kleitman papers on that lemma, and its [11] is the author's 1975
+(the paper spells the first author Sárközi, as the erdosproblems.com key does),
+its [1] is Erdős's 1945 note on the Littlewood--Offord lemma, its [2]--[4] are
+the Katona and Kleitman papers on that lemma, and its [11] is the author's 1975
 Acta Arithmetica paper on additive arithmetic functions, whose method the
 proof follows.
 
@@ -255,7 +255,7 @@ was checked. Nothing here is independently reviewed.
 p. 198, PDF p. 2), "If in addition to the condition of Theorem 1 also
 $|\mathbf a_k-\mathbf a_{k'}|\ge1$ ($k\ne k'$), then
 $N\le c(\delta,d)2^nn^{-1-d/2}$", is the "more general multi-dimensional
-result" the site names, and the remark that follows it (p. 198) is the
+result" erdosproblems.com names, and the remark that follows it (p. 198) is the
 problem's second question in the paper's own words: "a conjecture of Erdős
 (oral communication), confirmed by Theorem 2: $N\le c2^nn^{-2}$ if
 $\mathbf a_k=(a_k,1)$, $|a_k-a_{k'}|\ge1$, i.e., if in the above result of

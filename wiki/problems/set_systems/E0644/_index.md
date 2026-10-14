@@ -53,14 +53,14 @@ https://www.erdosproblems.com/644.
 
 ## Current assessment
 
-The status above is the site's label. One claim page,
+The status above is the erdosproblems.com label. One claim page,
 [[problems/set_systems/E0644/claims/1992_01_01_erdos_fon_der_flaass_kostochka_tuza|the exact values of Erdős, Fon-Der-Flaass, Kostochka and Tuza]],
 records the refereed values $f(k,3)=2k$, $f(k,4)=\lceil3k/2\rceil$,
 $f(k,5)=\lceil5k/4\rceil$ and $f(k,6)=k$, an accepted partial claim that
 answers the second question yes for $r=3,4,5,6$ and covers neither the
 $r=7$ asymptotic nor the second question for $r\ge7$, so the derived standing
-is open; the site's commentary prints the two middle values with floors,
-which fail already for $k=3$.
+is open; the erdosproblems.com commentary prints the two middle values with
+floors, which fail already for $k=3$.
 
 For $r=7$ the bounds are those of Fon-Der-Flaass, Kostochka and Woodall,
 *Transversals in uniform hypergraphs with property (7,2)*, Discrete Math. 207

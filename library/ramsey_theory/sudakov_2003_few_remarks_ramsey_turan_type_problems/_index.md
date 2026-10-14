@@ -90,7 +90,7 @@ Erdős-Hajnal-Simonovits-Sós-Szemerédi question with ln n, and through the
 K_4 corollary of Theorem 3.1 (printed p. 103): partitioning K_4 into two
 edges gives RT(n, K_4, n e^{-omega(n) sqrt(ln n)}) = o(n^2), which the
 paper says "answers the second part of Problem 1.1" (the O(n^{1-eps})
-part) and which is the prior partial result the site records; the first
+part) and which is the prior partial result erdosproblems.com records; the first
 part, the n/ln n question, is left open there and was answered in the
 negative by Fox, Loh and Zhao in 2015.
 

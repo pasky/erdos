@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 250, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/irrationality/E0250/claims
@@ -33,8 +33,8 @@ irrational.
 is irrational at $q=1/p$, with irrationality measure at most
 $10\pi^2/(5\pi^2-24)$. At $q=1/2$ this number is $\sum_n\sigma(n)/2^n$.
 
-[[problems/irrationality/E0250/claims/2025_10_21_romanlelan|2025_10_21_romanlelan]]: A note linked in the site's thread claims that $\sum_n\sigma(n)q^n$ is
-transcendental for every algebraic $q$ with $0<|q|<1$. The curator showed the
-same day that the argument does not reach the series itself.
+[[problems/irrationality/E0250/claims/2025_10_21_romanlelan|2025_10_21_romanlelan]]: A note linked in the erdosproblems.com thread claims that $\sum_n\sigma(n)q^n$
+is transcendental for every algebraic $q$ with $0<|q|<1$. The curator showed
+the same day that the argument does not reach the series itself.
 
 ***

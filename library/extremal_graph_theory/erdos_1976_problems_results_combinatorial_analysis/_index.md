@@ -24,9 +24,9 @@ place of cn; the question behind Problem 184.
 
 P. Erdős, *Problems and results in combinatorial analysis*, in: Colloquio
 Internazionale sulle Teorie Combinatorie (Roma, 1973), Tomo II (1976),
-3--17; MR 0465878 (the site's reference text for the key). The
-site's reference key [Er76] for Problem 184 names this paper; the Rényi
-archive's index lists it as `1976-35.pdf`. It is the paper Erdős's 1975
+3--17; MR 0465878 (the erdosproblems.com reference text for the key). The
+erdosproblems.com reference key [Er76] for Problem 184 names this paper; the
+Rényi archive's index lists it as `1976-35.pdf`. It is the paper Erdős's 1975
 Aberdeen list (recorded at
 [[extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/_index|erdos_1976_problems_results_graph_theory_combinatorial_analysis]],
 p. 169) cites as "Problems and results of combinatorial analysis, Symposium
@@ -94,9 +94,9 @@ conjecture stated without proof, is paged at
 [[extremal_graph_theory/erdos_1976_problems_results_combinatorial_analysis/conjecture_p15|conjecture_p15]].
 The paper's other problems are not mapped here to the problem list.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0184/_index|#184]]: the site's
-key [Er76]. The p. 15 sentence is the Erdős--Gallai conjecture in the
-problem's form (a decomposition into $O(n)$ edge-disjoint cycles and
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0184/_index|#184]]: the
+erdosproblems.com key [Er76]. The p. 15 sentence is the Erdős--Gallai conjecture
+in the problem's form (a decomposition into $O(n)$ edge-disjoint cycles and
 edges), with the $cn\log n$ bound reported as the only proved bound, as in
 the 1966 and 1971 statements; the paper gives no lower-bound example and no
 constant, and settles nothing. Paged at

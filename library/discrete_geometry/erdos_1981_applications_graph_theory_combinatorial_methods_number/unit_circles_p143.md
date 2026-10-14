@@ -72,8 +72,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E0104/_index|Problem 104]]: the
-  site's statement, that the number of distinct unit circles through at
-  least three of $n$ points is $o(n^2)$, is the first half of conjecture
-  (7), $h(n)/n^2\to0$. The paper's upper bound $h(n)\le n(n-1)$ is of the
-  order the site's question asks to beat, and its lower bound
-  $h(n)>3n/2$ is far below it.
+  erdosproblems.com statement, that the number of distinct unit circles through
+  at least three of $n$ points is $o(n^2)$, is the first half of conjecture (7),
+  $h(n)/n^2\to0$. The paper's upper bound $h(n)\le n(n-1)$ is of the order the
+  erdosproblems.com question asks to beat, and its lower bound $h(n)>3n/2$ is
+  far below it.

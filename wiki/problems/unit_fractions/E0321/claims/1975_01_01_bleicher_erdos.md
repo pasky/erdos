@@ -40,7 +40,7 @@ $$
 R(N)\ \ge\ |\mathcal Q(N)|\ \ge\ Q_k(N)\ \ge\ \frac{N}{\log N}\prod_{j=3}^{k+1}\log_jN,
 $$
 
-which is the lower bound the site prints for
+which is the lower bound erdosproblems.com prints for
 [[problems/unit_fractions/E0321/_index|Problem 321]] with $k+1$ renamed $k$,
 and the one the 1980 monograph attributes to this paper. The paper itself uses
 the Lemma to prove $S(N)\ge2^{Q(N)}$ (pp. 39--42) and does not state the

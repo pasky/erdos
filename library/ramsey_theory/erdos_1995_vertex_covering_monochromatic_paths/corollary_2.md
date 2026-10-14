@@ -48,5 +48,6 @@ The
 - [[../wiki/problems/ramsey_theory/E0518/_index|Problem 518]]: the bound the problem asks
   to improve to $\sqrt n$
   ([[ramsey_theory/erdos_1995_vertex_covering_monochromatic_paths/problem_2|Problem 2]]),
-  quoted by the site as "Erdős and Gyárfás [ErGy95] proved that $2\sqrt n$
-  vertices suffice" (the site's "vertices" reads "paths" in the source).
+  quoted by erdosproblems.com as "Erdős and Gyárfás [ErGy95] proved that
+  $2\sqrt n$ vertices suffice" (erdosproblems.com's "vertices" reads "paths" in
+  the source).

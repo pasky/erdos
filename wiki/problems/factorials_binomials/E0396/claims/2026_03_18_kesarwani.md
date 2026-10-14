@@ -36,9 +36,9 @@ $$
 for $k=8,\ldots,11$ and $2394789405254721$ for $k=15$. They are the terms
 $a(8)$ to $a(11)$ and $a(15)$ of the OEIS entry A375077, whose extension
 lines credit them to Sharvil Kesarwani on 18 March 2026 and 14 July 2026.
-Kesarwani's posts in the site's discussion thread, from 25 March 2026 on,
-describe the optimizations of their search program, which a third party ran to
-find the $k=14$ term recorded on
+Kesarwani's posts in the erdosproblems.com discussion thread, from 25 March 2026
+on, describe the optimizations of their search program, which a third party ran
+to find the $k=14$ term recorded on
 [[problems/factorials_binomials/E0396/claims/2026_04_03_dehorty_kesarwani|the joint page]].
 A witness is checked through Kummer's theorem, as
 [[problems/factorials_binomials/E0396/claims/2024_07_29_stephan|Stephan's page]]
@@ -52,5 +52,5 @@ with the answer yes by an explicit witness.
 **Depends on.** No page of this wiki.
 
 **Standing.** The entry is an edited database record, not a refereed
-publication, and the site's commentary on a problem it labeled OPEN points to
-the entry without accepting a result. The claim stays claimed.
+publication, and the erdosproblems.com commentary on a problem it labeled OPEN
+points to the entry without accepting a result. The claim stays claimed.

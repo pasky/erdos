@@ -37,13 +37,13 @@ least 4; the statement of Problem 916 in Erdős's words.
 
 P. Erdős, *Extremal problems in graph theory*, A Seminar on Graph Theory,
 Holt, Rinehart and Winston, New York (1967), pp. 54--59; the Rényi archive's
-index lists it as item 1967-05 with "MR 36 #6311; Zbl 159,541". The site's
-reference text for its key Er67b, read on 2026-09-19, is "Erdős, Paul, Extremal
-problems in graph theory. A Seminar on Graph Theory (1967), 54-59. (MR 223263)".
-The copy's footnote on its first page says "Another article with the same title
-appeared in Theory of graphs and its applications, edited by M. Fiedler. Prague,
-1964, pp. 29--36. All results given without references are unpublished"; that
-1964 paper is a different text, filed as
+index lists it as item 1967-05 with "MR 36 #6311; Zbl 159,541". The
+erdosproblems.com reference text for its key Er67b, read on 2026-09-19, is
+"Erdős, Paul, Extremal problems in graph theory. A Seminar on Graph Theory
+(1967), 54-59. (MR 223263)". The copy's footnote on its first page says "Another
+article with the same title appeared in Theory of graphs and its applications,
+edited by M. Fiedler. Prague, 1964, pp. 29--36. All results given without
+references are unpublished"; that 1964 paper is a different text, filed as
 [[extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/_index|erdos_1964_extremal_problems_graph_theory]].
 The Rome 1966 survey filed as
 [[extremal_graph_theory/erdos_1967_recent_results_extremal_problems_graph_theory/_index|erdos_1967_recent_results_extremal_problems_graph_theory]]
@@ -163,28 +163,29 @@ line-disjoint paths", and its $m=3$ sentence "three linedisjoint paths",
 where the conjecture itself says "disjoint" without qualification; the
 problem page for Problem 915 records the two readings.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0914/_index|#914]]: the site's
-key Er67b; copy p. 3 (printed p. 56, page image) states, without naming an
-author, the conjecture that a graph with $rm$ points, each of degree at
-least $m(r-1)$, contains $mK_r$, and credits the case $r=2$ to Dirac's
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0914/_index|#914]]: the
+erdosproblems.com key Er67b; copy p. 3 (printed p. 56, page image) states,
+without naming an author, the conjecture that a graph with $rm$ points, each of
+degree at least $m(r-1)$, contains $mK_r$, and credits the case $r=2$ to Dirac's
 Hamiltonian theorem [3] and the case $r=3$ to Corrádi and Hajnal [2]; this
-is the problem's statement in Erdős's words, with the two cases the site
-names, quoted at
+is the problem's statement in Erdős's words, with the two cases
+erdosproblems.com names, quoted at
 [[extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/conjecture_p56|conjecture_p56]];
-[[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key Er67b, cited
-by the site with "p. 4"; copy pp. 3--4 (printed pp. 56--57, page images)
-state the conjecture that every graph $G\bigl(1+n(m-1);1+n\binom m2\bigr)$
-has two points joined by $m$ "disjoint" paths, give $K_1+nK_m$ as the graph
-showing that the bound would be sharp, and report Bollobás's proof of the
-case $m=4$ in the form that every $G(n;2n-1)$ has two points joined by four
-line-disjoint paths, again sharp; this is the problem's statement in
-Erdős's words, with the extremal example as printed, quoted at
+[[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the
+erdosproblems.com key Er67b, cited by erdosproblems.com with "p. 4"; copy pp.
+3--4 (printed pp. 56--57, page images) state the conjecture that every graph
+$G\bigl(1+n(m-1);1+n\binom m2\bigr)$ has two points joined by $m$ "disjoint"
+paths, give $K_1+nK_m$ as the graph showing that the bound would be sharp, and
+report Bollobás's proof of the case $m=4$ in the form that every $G(n;2n-1)$ has
+two points joined by four line-disjoint paths, again sharp; this is the
+problem's statement in Erdős's words, with the extremal example as printed,
+quoted at
 [[extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/conjecture_p57|conjecture_p57]];
-[[../wiki/problems/extremal_graph_theory/E0916/_index|#916]]: the site's key Er67b; copy
-p. 4 (printed p. 57, page image) asks whether every $G(n;2n-2)$ contains a
-cycle plus a further point adjacent to three of its points, and
-remarks that an affirmative answer would strengthen Dirac's theorem, since
-the configuration is a subgraph homeomorphic to $K_4$ in which the three
+[[../wiki/problems/extremal_graph_theory/E0916/_index|#916]]: the
+erdosproblems.com key Er67b; copy p. 4 (printed p. 57, page image) asks whether
+every $G(n;2n-2)$ contains a cycle plus a further point adjacent to three of its
+points, and remarks that an affirmative answer would strengthen Dirac's theorem,
+since the configuration is a subgraph homeomorphic to $K_4$ in which the three
 paths at one branch point are single lines; this is the problem's question
 in Erdős's words, with Dirac's result stated on copy p. 3 for $n\ge4$,
 quoted at
@@ -198,8 +199,8 @@ constant $c\le1/3$, such that every graph $G(2n;n^2+1)$ contains a line
 belonging to at least $[cn]$ triangles", where [7] is Erdős, Ill. J. Math.
 6 (1962) 122--127 (copy p. 5); Erdős's 1967 statement of the linear bound
 on the problem's book with the constant bounded by $1/3$, which for a graph
-on $2n$ vertices is the problem's $n/6$ in the site's normalization (an
-arithmetic remark made here), eight years before the 1975 statement the
+on $2n$ vertices is the problem's $n/6$ in the erdosproblems.com normalization
+(an arithmetic remark made here), eight years before the 1975 statement the
 problem page quotes; the paper gives no proof and names no coauthor for the
 bound on $c$;
 [[../wiki/problems/ramsey_theory/E0080/_index|#80]]: the same lemma sentence of copy

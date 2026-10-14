@@ -47,8 +47,9 @@ class number one, Proc. Japan Acad. Ser. A Math. Sci. 65 (1989), no. 4, 89–93,
 **The argument.** An even $n$ has $n-0$ prime only for $n=2$. If $n$ is odd
 and $n-2x^2$ is prime for every $x$ with $2x^2<n$, then $m=2n$ satisfies:
 $m-a^2$ is twice a prime for every even $a\ge0$ with $a^2\le m$ (the paper's
-own condition is $2x^2\le n$, which differs from the site's strict inequality
-only at $n=2$). For odd $n$ the residue of $m$ modulo $8$ splits the problem.
+own condition is $2x^2\le n$, which differs from erdosproblems.com's strict
+inequality only at $n=2$). For odd $n$ the residue of $m$ modulo $8$ splits the
+problem.
 
 - $n\equiv1\pmod 4$, so $m\equiv2\pmod 8$. Theorem 4.1 of the paper shows
   that such an $m$ is $x^2+1$ with $x$ prime, that $\mathbb{Z}[\sqrt m]$ has
@@ -65,17 +66,17 @@ The paper states the connection to this problem itself: after listing
 $5,7,13,31,61,181,199$ it concludes that "besides these numbers it could only
 exist one more number N with the afore-mentioned property" (Remark 2,
 p. 258). The $n\equiv3\pmod 4$ case is a remark with a sketched argument, not
-a numbered theorem with a written proof; the finiteness conclusion is what the
-site accepts.
+a numbered theorem with a written proof; the finiteness conclusion is what
+erdosproblems.com accepts.
 
 **Acceptance.** Refereed: Bull. Math. Soc. Sci. Math. Roumanie 53(101), no. 3
-(2010). Reviewed: the site's curator, Thomas Bloom, labeled the problem
-disproved. The curator credits Theorem 4.1 of Epure and Gica for the residue
-class $1\pmod 4$, and their remark with the Mollin–Williams result for the class
-$3\pmod 4$. The problem page was last edited 2026-01-26, and the community
-database records the disproved status from 2026-01-24. A forum comment of
-2026-01-24 brought the paper to the thread. No Lean formalization of the result
-is recorded, and this corpus has not independently verified the proof.
+(2010). Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the
+problem disproved. The curator credits Theorem 4.1 of Epure and Gica for the
+residue class $1\pmod 4$, and their remark with the Mollin–Williams result for
+the class $3\pmod 4$. The problem page was last edited 2026-01-26, and the
+community database records the disproved status from 2026-01-24. A forum comment
+of 2026-01-24 brought the paper to the thread. No Lean formalization of the
+result is recorded, and this corpus has not independently verified the proof.
 
 **Depends on.** No page of this wiki; the result rests on the two cited
 papers.

@@ -61,5 +61,5 @@ The definition of $A$ on p. 30, recorded with
 - [[../wiki/problems/diophantine_problems/E0933/_index|Problem 933]]: writing
   $n(n+1)=2^k3^lm$ with $(m,6)=1$, the problem's $2^k3^l$ is
   $A(n(n+1);2,3)$, so (16) is the problem's displayed question posed as an
-  expectation; the paper is the site's source for the problem. The easy fact
-  on p. 30 gives only a positive lower bound for the limsup.
+  expectation; the paper is the erdosproblems.com source for the problem. The
+  easy fact on p. 30 gives only a positive lower bound for the limsup.

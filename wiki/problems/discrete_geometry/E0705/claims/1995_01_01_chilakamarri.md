@@ -26,8 +26,8 @@ updated: 2026-10-07T20:00:46Z
 **Claim.** K. B. Chilakamarri, *A 4-chromatic unit-distance graph with no
 triangles*, Geombinatorics 4 (1995), no. 3, 64–76, constructs an infinite
 family of unit distance graphs in the plane with girth $4$ and chromatic
-number $4$, the smallest on $47$ vertices, as the site's commentary on
-[[problems/discrete_geometry/E0705/_index|Problem 705]] reports. If its point
+number $4$, the smallest on $47$ vertices, as the erdosproblems.com commentary
+on [[problems/discrete_geometry/E0705/_index|Problem 705]] reports. If its point
 sets have no unit distance besides the graphs' edges, no $k\le4$ makes every
 finite unit distance graph of girth at least $k$ $3$-colorable.
 

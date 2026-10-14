@@ -53,28 +53,29 @@ $$
 with absolute implied constants, derived from the known asymptotics for the
 maximum number of unit-distance pairs; in dimensions $2$ and $3$ only bounds
 are known, which the source card records. For $d=4$ this is
-$f_4(n)=\frac{1}{2}n^2+O(n)$, the bound the site states. The step to the
-question is one line: if every $x$ in an $n$-point set $A\subset\mathbb{R}^4$
-has at least $f(n)$ points of $A$ at some distance $r(x)$, then
-$n\,f(n)\leq e_r(A)\leq\frac{1}{2}n^2+O(n)$, so $f(n)\leq\frac{n}{2}+O(1)$.
-Avis, Erdős and Pach had shown $\frac{n}{2}+2\leq f(n)\leq(1+o(1))\frac{n}{2}$,
-so the two bounds together give $f(n)=\frac{n}{2}+O(1)$. The paper's Theorems
-B and C add, for $d\geq4$, a stability statement and, for $n$ large in terms
-of $d$, the extremal configurations: up to scaling, the Lenz constructions
-that maximize the number of unit-distance pairs, with $r$ constant and with
-exceptions in dimension $4$. The paper's
+$f_4(n)=\frac{1}{2}n^2+O(n)$, the bound erdosproblems.com states. The step to
+the question is one line: if every $x$ in an $n$-point set
+$A\subset\mathbb{R}^4$ has at least $f(n)$ points of $A$ at some distance
+$r(x)$, then $n\,f(n)\leq e_r(A)\leq\frac{1}{2}n^2+O(n)$, so
+$f(n)\leq\frac{n}{2}+O(1)$. Avis, Erdős and Pach had shown
+$\frac{n}{2}+2\leq f(n)\leq(1+o(1))\frac{n}{2}$, so the two bounds together give
+$f(n)=\frac{n}{2}+O(1)$. The paper's Theorems B and C add, for $d\geq4$, a
+stability statement and, for $n$ large in terms of $d$, the extremal
+configurations: up to scaling, the Lenz constructions that maximize the number
+of unit-distance pairs, with $r$ constant and with exceptions in dimension $4$.
+The paper's
 [[../library/distance_problems/swanepoel_2013_favorite_distances_high_dimensions/_index|source card]]
 and the
 [[../library/distance_problems/avis_1988_repeated_distances_space/_index|card of Avis, Erdős and Pach]]
 record the two results.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked the problem proved and
-credits Swanepoel's theorem for it. The site's export of 2026-09-04 labeled the
-problem PROVED. The community database, which follows the site's label, records
-the status proved (Lean) and links Ren's assembly, described below. The paper
-appeared as a chapter of an edited Springer volume. No evidence that the
-volume's chapters were refereed is recorded, so no `refereed` evidence is
-listed.
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, marked the problem
+proved and credits Swanepoel's theorem for it. The erdosproblems.com export of
+2026-09-04 labeled the problem PROVED. The community database, which follows the
+erdosproblems.com label, records the status proved (Lean) and links Ren's
+assembly, described below. The paper appeared as a chapter of an edited Springer
+volume. No evidence that the volume's chapters were refereed is recorded, so no
+`refereed` evidence is listed.
 
 **Formalization.** Boris Alexeev's repository of Lean proofs of Erdős problems
 holds a file, linked above at a pinned commit, whose header declares it a Lean

@@ -49,9 +49,9 @@ $g\ge2$; Case I of Stoll's Theorem 1.2 at $j=1$ is this family.
 **Acceptance.** Refereed: S. Rabinowitz and P. Gilbert, A nonlinear recurrence
 yielding binary digits, Math. Mag. 64 (1991), no. 3, 168--171. Stoll's 2006
 paper (Acta Arith. 125, p. 90) counts it among the partial results on the
-problem. The site's curator does not credit it, so no `reviewed` evidence is
-listed. Boris Alexeev's repository, linked above, holds a third-party Lean proof
-of the family. Its header names Rabinowitz and Gilbert among its informal
-authors and Codex and GPT-5.6 Sol as its formal authors. It was not built here,
-so no `formalized` evidence is listed. The page is dated to the June 1991 issue,
-which prints no fuller date.
+problem. The erdosproblems.com curator does not credit it, so no `reviewed`
+evidence is listed. Boris Alexeev's repository, linked above, holds a
+third-party Lean proof of the family. Its header names Rabinowitz and Gilbert
+among its informal authors and Codex and GPT-5.6 Sol as its formal authors. It
+was not built here, so no `formalized` evidence is listed. The page is dated to
+the June 1991 issue, which prints no fuller date.

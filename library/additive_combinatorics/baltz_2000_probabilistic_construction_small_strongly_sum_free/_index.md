@@ -64,18 +64,19 @@ The file's text layer carries no copyright or license line; IMPAN's issue
 listing offers the article "Free download under CC-BY license", no version named
 (https://www.impan.pl/en/publishing-house/journals-and-series/colloquium-mathematicum/all/86/2,
 read 2026-10-02), the article's own page not opened; the site footer "Copyright
-© 2026 by IMPAN. All rights reserved." speaks for the site, not the article.
+© 2026 by IMPAN. All rights reserved." speaks for erdosproblems.com, not the
+article.
 
 Source: <https://doi.org/10.4064/cm-86-2-171-176>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0788/_index|#788]]: Theorem 2
-(p. 173) is the site's $f(n)\ll(n\log n)^{2/3}$, the best held refereed upper
-bound, and p. 172 attests the greedy lower bound $\sqrt n$ and Choi's bound
-and conjecture; the intervals are half-open where the site's are open.
-[[../wiki/problems/additive_combinatorics/E0787/_index|#787]]: Corollary 3 (p. 174) refines
-Choi's $g(n)=O(n^{2/5+\varepsilon})$ to $O(n^{2/5}(\ln n)^{2/5})$ for the
-problem's $g(n)$, and p. 171 attests Choi's integer reduction and
-$g(n)\ge\ln n$; not a key of the site's page.
+(p. 173) is erdosproblems.com's $f(n)\ll(n\log n)^{2/3}$, the best held refereed
+upper bound, and p. 172 attests the greedy lower bound $\sqrt n$ and Choi's
+bound and conjecture; the intervals are half-open where erdosproblems.com's are
+open. [[../wiki/problems/additive_combinatorics/E0787/_index|#787]]: Corollary 3
+(p. 174) refines Choi's $g(n)=O(n^{2/5+\varepsilon})$ to
+$O(n^{2/5}(\ln n)^{2/5})$ for the problem's $g(n)$, and p. 171 attests Choi's
+integer reduction and $g(n)\ge\ln n$; not a key of the erdosproblems.com page.
 
 **Results.**
 

@@ -40,64 +40,66 @@ Is it true that for every infinite cardinal $\aleph$ there is a graph $G$ of
 which every finite subgraph is in $S$ and if the edges of $G$ are coloured with
 $\aleph$ many colours then there is a monochromatic triangle.
 
-**Notes.** The site's wording asks the question for every family $S$ that meets
-the hypothesis, and it fails at families that are not closed under subgraphs.
-Let $S$ consist of one complete graph for each $n$, of order large enough that
-every $n$-coloring of its edges has a monochromatic triangle. The hypothesis
-holds, but every graph on two or more vertices has a subgraph on two vertices
-with no edge, which is not complete and so not in $S$, and a graph on one vertex
-contains no triangle; so for no infinite cardinal does the graph asked for
-exist. The failure uses nothing about triangles or colorings. Kevin Barreto
-found it in the site's discussion thread on 5 January 2026
+**Notes.** The erdosproblems.com wording asks the question for every family $S$
+that meets the hypothesis, and it fails at families that are not closed under
+subgraphs. Let $S$ consist of one complete graph for each $n$, of order large
+enough that every $n$-coloring of its edges has a monochromatic triangle. The
+hypothesis holds, but every graph on two or more vertices has a subgraph on two
+vertices with no edge, which is not complete and so not in $S$, and a graph on
+one vertex contains no triangle; so for no infinite cardinal does the graph
+asked for exist. The failure uses nothing about triangles or colorings. Kevin
+Barreto found it in the erdosproblems.com discussion thread on 5 January 2026
 ([comment](https://www.erdosproblems.com/forum/thread/638#post-2779), with the
 family of complete graphs on the successive triangle Ramsey numbers), and the
-site's commentary records it. The change inserts "closed under taking subgraphs"
-after "a family of finite graphs", in the words of the site's commentary, which
-records Barreto's note that $S$ is presumably intended to be closed under taking
-subgraphs, or else a sparse family of complete graphs is a trivial
-counterexample; the site kept the label OPEN, which only the hereditary form
-fits. That is the only evidence for the change, and it is weak: it is the site's
-own, and no text of Erdős or of the literature independent of a claimant states
-the hereditary form. Erdős's item 9 of [Er97d] (pp. 83--84), which the site's
-wording follows nearly word for word, says only "a family of finite graphs" and
-is silent on closure, so the defect is already in Erdős's text. Barreto's
-counterexample answers the site's wording (every family $S$
-meeting the hypothesis), not the modified Statement (families closed under
-taking subgraphs), so it does not count toward the problem's standing; it is
-credited here and on
+erdosproblems.com commentary records it. The change inserts "closed under taking
+subgraphs" after "a family of finite graphs", in the words of the
+erdosproblems.com commentary, which records Barreto's note that $S$ is
+presumably intended to be closed under taking subgraphs, or else a sparse family
+of complete graphs is a trivial counterexample; erdosproblems.com kept the label
+OPEN, which only the hereditary form fits. That is the only evidence for the
+change, and it is weak: it is erdosproblems.com's own, and no text of Erdős or
+of the literature independent of a claimant states the hereditary form. Erdős's
+item 9 of [Er97d] (pp. 83--84), which the erdosproblems.com wording follows
+nearly word for word, says only "a family of finite graphs" and is silent on
+closure, so the defect is already in Erdős's text. Barreto's counterexample
+answers the erdosproblems.com wording (every family $S$ meeting the hypothesis),
+not the modified Statement (families closed under taking subgraphs), so it does
+not count toward the problem's standing; it is credited here and on
 [[problems/ramsey_theory/E0638/claims/2026_01_05_barreto|Barreto's claim page]],
 which is rejected.
 
-**Formulation.** The site's wording (page last edited 10 April 2026). "Every
-finite subgraph is in $S$" is read with subgraphs not necessarily induced, as
-the wording says. The site cites [Er97d] and quotes Erdős's own sentence from
-its item 9, "if the answer is affirmative many extensions and generalisations
-will be possible". Erdős's original wording is item 9 of [Er97d] (pp. 83--84),
-which the statement above follows nearly word for word. Its "$G(n)$" and
-"$G(m)$" are indexed by the number of colors, not by order (the paper's $G(n)$
-elsewhere is a graph of order $n$, but under that reading both the hypothesis
-and the conclusion of item 9 would be unsatisfiable: coloring the edge $uv$ of a
-graph on $n$ vertices by the highest binary digit in which $u$ and $v$ differ
-uses at most $n$ colors with every color class bipartite, and a graph on an
-infinite number $m$ of vertices has at most $m$ edges, which an injective
-$m$-coloring leaves without a monochromatic triangle), so the site's "a graph
-$G$" matches Erdős; and the item says nothing about closure of $S$ under
-subgraphs. An analog with induced subgraphs in place of subgraphs, with $S$
-closed under induced subgraphs, is a variant; the note [Sa26] claims the same
-negative answer for it (Main Theorem 1, p. 2; Proposition 18, p. 10).
+**Formulation.** The erdosproblems.com wording (page last edited 10 April 2026).
+"Every finite subgraph is in $S$" is read with subgraphs not necessarily
+induced, as the wording says. erdosproblems.com cites [Er97d] and quotes Erdős's
+own sentence from its item 9, "if the answer is affirmative many extensions and
+generalisations will be possible". Erdős's original wording is item 9 of [Er97d]
+(pp. 83--84), which the statement above follows nearly word for word. Its
+"$G(n)$" and "$G(m)$" are indexed by the number of colors, not by order (the
+paper's $G(n)$ elsewhere is a graph of order $n$, but under that reading both
+the hypothesis and the conclusion of item 9 would be unsatisfiable: coloring the
+edge $uv$ of a graph on $n$ vertices by the highest binary digit in which $u$
+and $v$ differ uses at most $n$ colors with every color class bipartite, and a
+graph on an infinite number $m$ of vertices has at most $m$ edges, which an
+injective $m$-coloring leaves without a monochromatic triangle), so
+erdosproblems.com's "a graph $G$" matches Erdős; and the item says nothing about
+closure of $S$ under subgraphs. An analog with induced subgraphs in place of
+subgraphs, with $S$ closed under induced subgraphs, is a variant; the note
+[Sa26] claims the same negative answer for it (Main Theorem 1, p. 2; Proposition
+18, p. 10).
 
-**Status.** The site showed OPEN, a label that fits the modified Statement and
-not the site's wording. A negative answer to the modified Statement is claimed
-in an unreviewed note. It is recorded at claimed on
+**Status.** erdosproblems.com showed OPEN, a label that fits the modified
+Statement and not the erdosproblems.com wording. A negative answer to the
+modified Statement is claimed in an unreviewed note. It is recorded at claimed
+on
 [[problems/ramsey_theory/E0638/claims/2026_04_26_saturnino|Saturnino's claim page]],
 and the frontmatter standing derives from the claim pages. The note [Sa26] runs
 to eleven pages and is dated 26 April 2026. It is hosted on a file-sharing site
-and was posted to the site's discussion thread. Its Main Theorem 1 constructs a
-class of finite graphs, closed under isomorphism and finite subgraphs, that
-contains for every $n$ a graph forcing a monochromatic triangle under $n$
-colors. The theorem also states that no graph whose finite subgraphs all lie in
-the class forces one under any infinite number of colors. The note is a
-forum-posted claim prepared with the help of Aristotle AI, an automated proof
+and was posted to the erdosproblems.com discussion thread. Its Main Theorem 1
+constructs a class of finite graphs, closed under isomorphism and finite
+subgraphs, that contains for every $n$ a graph forcing a monochromatic triangle
+under $n$ colors. The theorem also states that no graph whose finite subgraphs
+all lie in the class forces one under any infinite number of colors. The note is
+a forum-posted claim prepared with the help of Aristotle AI, an automated proof
 system. No refereed publication, arXiv record or independent review was found on
 2026-09-18. Its accompanying Lean project leaves the two combinatorial inputs
 unproved. No other source on the hereditary question was found in the search
@@ -105,26 +107,26 @@ whose scope the Current assessment records. This is a bounded negative finding,
 not a certificate of openness.
 
 **Source.** [erdosproblems.com/638](https://www.erdosproblems.com/638), accessed
-2026-09-18: the problem page (OPEN, with the site's note that no finite
-computation settles it; last edited 10 April 2026; source key [Er97d]), its
-eight-comment discussion thread (5 January to 27 April 2026) and its empty
+2026-09-18: the problem page (OPEN, with the erdosproblems.com note that no
+finite computation settles it; last edited 10 April 2026; source key [Er97d]),
+its eight-comment discussion thread (5 January to 27 April 2026) and its empty
 proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #638,
 https://www.erdosproblems.com/638, accessed 2026-09-18.
 
 **References.**
 
 - [Er97d] Erdős, Paul, Some recent problems and results in graph theory.
-  Discrete Math. 164 (1997), 81--85; item 9, pp. 83--84; the site's only
-  source key for this problem. Library home:
+  Discrete Math. 164 (1997), 81--85; item 9, pp. 83--84; erdosproblems.com's
+  only source key for this problem. Library home:
   [[../library/ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/_index|erdos_1997_some_recent_problems_results_graph_theory]]
   (the item is paged on
   [[../library/ramsey_theory/erdos_1997_some_recent_problems_results_graph_theory/problem_9|problem_9]]).
 - [Sa26] Saturnino, B., A counterexample to a hereditary triangle Ramsey
   compactness problem. An eleven-page note dated April 26, 2026, hosted at
   pdfhost.io; no arXiv identifier, DOI or journal. The version cited is the
-  revised version posted to the site's thread on 26 April 2026. Main Theorem
-  1 (p. 2), Theorem 2 (p. 3, the external input), Propositions 14 (p. 8) and
-  18 (p. 10). Library home:
+  revised version posted to the erdosproblems.com thread on 26 April 2026. Main
+  Theorem 1 (p. 2), Theorem 2 (p. 3, the external input), Propositions 14 (p. 8)
+  and 18 (p. 10). Library home:
   [[../library/ramsey_theory/saturnino_2026_counterexample_hereditary_triangle_ramsey_compactness_problem/_index|saturnino_2026_counterexample_hereditary_triangle_ramsey_compactness_problem]].
 - [NeRo84] Nešetřil, J. and Rödl, V., Sparse Ramsey graphs. Combinatorica 4
   (1984), 71--78. The note's only external input, cited by it in the
@@ -139,30 +141,32 @@ google-deepmind/formal-conjectures (main, fetched 2026-09-18; the directory
 [`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems)
 was listed in full, 673 entries), and the community database
 (teorth/erdosproblems, fetched 2026-09-18) records the problem open (last
-changed 31 August 2025), not formalized, with no formal proof. The site's
-indicator reads "No". The Lean project linked in the site's thread on 27 April
-2026 is an external, partial development (below), not fetched in the search.
+changed 31 August 2025), not formalized, with no formal proof. The
+erdosproblems.com indicator reads "No". The Lean project linked in the
+erdosproblems.com thread on 27 April 2026 is an external, partial development
+(below), not fetched in the search.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; OPEN; last edited 10
-April 2026. The commentary quotes Erdős's sentence on extensions and
-generalizations and records Barreto's remark about closure under subgraphs and
-the trivial counterexample. The thread, oldest first: 5 January 2026, the remark
-the commentary records (the trivial family named as the complete graphs of the
-successive triangle Ramsey numbers; the site tags the comment as addressed by an
-update of the page); 22 April 2026, a comment holding that the version with $S$
-closed under taking subgraphs is still false by a similar counterexample, that
-the right assumption seems to be closure under finite subgraphs, and that the
-problem is then wide open with a sizable literature, pointing to a survey and to
-[RRS17]; 26 April 2026, the note [Sa26] posted by its author, who says it was
-run through Aristotle AI; the same day, a reply reporting one minor mathematical
-issue from a standard check and noting that the problem's intended
-interpretation might still be unclear; the author's acknowledgment and a revised
-note the same evening, whose abstract and introduction now state the hereditary
-scope and which fixes the length convention for Berge cycles; 27 April 2026, a
-request for a formalization and the author's link to a Lean project (below). The
-proof-claim tab is empty. The community database record says open.
+**The question (erdosproblems.com formulation).** The statement above; OPEN;
+last edited 10 April 2026. The commentary quotes Erdős's sentence on extensions
+and generalizations and records Barreto's remark about closure under subgraphs
+and the trivial counterexample. The thread, oldest first: 5 January 2026, the
+remark the commentary records (the trivial family named as the complete graphs
+of the successive triangle Ramsey numbers; erdosproblems.com tags the comment as
+addressed by an update of the page); 22 April 2026, a comment holding that the
+version with $S$ closed under taking subgraphs is still false by a similar
+counterexample, that the right assumption seems to be closure under finite
+subgraphs, and that the problem is then wide open with a sizable literature,
+pointing to a survey and to [RRS17]; 26 April 2026, the note [Sa26] posted by
+its author, who says it was run through Aristotle AI; the same day, a reply
+reporting one minor mathematical issue from a standard check and noting that the
+problem's intended interpretation might still be unclear; the author's
+acknowledgment and a revised note the same evening, whose abstract and
+introduction now state the hereditary scope and which fixes the length
+convention for Berge cycles; 27 April 2026, a request for a formalization and
+the author's link to a Lean project (below). The proof-claim tab is empty. The
+community database record says open.
 
 **The correction.** The defect and the change are stated in the Notes.
 The 22 April 2026 comment holds that the question for families closed under
@@ -215,16 +219,17 @@ the ordinary-subgraph counterexample and leaves the finite avoidance
 principle and the block-sequence existence lemma as explicit `sorry`s, its
 initial draft produced with the same system. No refereed publication, arXiv
 version, independent mathematical review or complete formalization was found,
-and the site's label and commentary do not mention the note. Under the corpus's
-rules the note is a forum-posted, AI-assisted claim, recorded as a lead with
-this provenance; it does not set the answer to the modified Statement, which
-the site labeled OPEN. The poster's account name is not written on this page.
+and the erdosproblems.com label and commentary do not mention the note. Under
+the corpus's rules the note is a forum-posted, AI-assisted claim, recorded as a
+lead with this provenance; it does not set the answer to the modified Statement,
+which Bloom's catalog labeled OPEN. The poster's account name is not written on
+this page.
 
 **Search scope.** None of the routes below found a refereed or independently
 reviewed resolution of the hereditary question, a second source on it, or a
 citing paper of [Sa26].
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures listing at the pinned commit (no file); the community
   database.
 - The primary sources: [Sa26] (11 pp.); [Er97d] pp. 83--84.
@@ -239,12 +244,12 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X; the file-sharing page
 and the Lean repository named in the thread were not fetched. Not read:
 [NeRo84], the Girão--Hancock paper, [RRS17].
 
-**Remaining gaps.** (1) The correction rests only on the site's commentary
-and label; a text of Erdős or of the literature stating the hereditary form
-would strengthen it, and one stating another form would reopen it. (2) The
-modified Statement has one negative claim, unreviewed and AI-assisted, with an
-incomplete formalization; what would change its standing: an independent
-review or refereed publication of [Sa26], a second proof, or a
+**Remaining gaps.** (1) The correction rests only on the erdosproblems.com
+commentary and label; a text of Erdős or of the literature stating the
+hereditary form would strengthen it, and one stating another form would reopen
+it. (2) The modified Statement has one negative claim, unreviewed and
+AI-assisted, with an incomplete formalization; what would change its standing:
+an independent review or refereed publication of [Sa26], a second proof, or a
 counter-argument in the thread or the literature. (3) The original wording of
 item 9 of [Er97d] leaves the closure of $S$ under subgraphs unstated, so it
 neither supports nor excludes the correction. (4) The 22 April 2026 comment's

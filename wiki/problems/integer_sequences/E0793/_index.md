@@ -5,7 +5,7 @@ desc: |
   Asks whether the largest $A\subseteq\{1,\ldots,n\}$ in which no element
   divides the product of two others has size
   $\pi(n)+(C+o(1))n^{2/3}(\log n)^{-2}$. Chojecki's 2026 manuscript, accepted by
-  the site, proves this with $C=27/2$.
+  erdosproblems.com, proves this with $C=27/2$.
 tags:
 - Number theory
 status: solved
@@ -30,30 +30,30 @@ $$
 F(n)=\pi(n)+(C+o(1))n^{2/3}(\log n)^{-2}?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18T05:33Z (page
-last edited 14 July 2026). $\pi(n)$ is the number of primes up to
-$n$. The condition allows $b=c$: a member may not divide the square of
-another member either. This is the convention of Erdős's 1938 paper ("no
-member of them divides the product of any two other members") and of the
-resolving manuscript, which calls such sets "strongly 2-primitive" and
-notes that a more recent convention requires $b\ne c$; the two functions
-can differ, and the site's statement is the strong one. The primes up to
-$n$ form such a set, so $F(n)\ge\pi(n)$; the question is the second-order
-term. Erdős posed it in 1969 as display (2) of his Kalamazoo lecture,
-which asks for an absolute constant $c$ with
-$\max k=\Pi(x)+cx^{2/3}/(\log x)^2+o(x^{2/3}/(\log x)^2)$, adding "I have
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18T05:33Z
+(page last edited 14 July 2026). $\pi(n)$ is the number of primes up to $n$. The
+condition allows $b=c$: a member may not divide the square of another member
+either. This is the convention of Erdős's 1938 paper ("no member of them divides
+the product of any two other members") and of the resolving manuscript, which
+calls such sets "strongly 2-primitive" and notes that a more recent convention
+requires $b\ne c$; the two functions can differ, and the erdosproblems.com
+statement is the strong one. The primes up to $n$ form such a set, so
+$F(n)\ge\pi(n)$; the question is the second-order term. Erdős posed it in 1969
+as display (2) of his Kalamazoo lecture, which asks for an absolute constant $c$
+with $\max k=\Pi(x)+cx^{2/3}/(\log x)^2+o(x^{2/3}/(\log x)^2)$, adding "I have
 not been able to prove (2)" (printed p. 78), and again in 1970 as display
 (2) of his Chapel Hill lecture, "Probably ... for a certain $c$; but I
-could not prove (2)" (printed p. 136). The site's source keys are [Er69]
-and [Er70b].
+could not prove (2)" (printed p. 136). The erdosproblems.com source keys are
+[Er69] and [Er70b].
 
-**Status.** The site's label was PROVED (LEAN) (page last edited 14 July 2026).
-The standing derives from the claim page
+**Status.** The erdosproblems.com label was PROVED (LEAN) (page last edited 14
+July 2026). The standing derives from the claim page
 [[problems/integer_sequences/E0793/claims/2026_07_13_chojecki|Chojecki 2026]],
-an accepted full claim whose evidence is `reviewed`: the site's curator, Thomas
-Bloom, credits the result to the manuscript. The acceptance is the curator's and
-is distinct from refereeing. No refereed publication and no independent expert
-review of the manuscript was found, and an arXiv posting is not refereeing.
+an accepted full claim whose evidence is `reviewed`: the erdosproblems.com
+curator, Thomas Bloom, credits the result to the manuscript. The acceptance is
+the curator's and is distinct from refereeing. No refereed publication and no
+independent expert review of the manuscript was found on 2026-09-18 or on
+2026-10-02, and an arXiv posting is not refereeing.
 
 The status-defining source is Theorem 1.1 of a five-page manuscript by Przemek
 Chojecki, *The second term for strongly 2-primitive sets*. It is hosted at
@@ -64,8 +64,9 @@ constants in the four classes of Erdős's 1938 factorization argument. The lower
 bound packs a linear 3-uniform hypergraph of prime triples, built from proper
 edge-colorings between logarithmic bins of primes near $n^{1/3}$. The
 manuscript's byline footnote declares that "AI assistance was used in exploring
-the argument and in writing this text". The site's commentary attributes the
-proof to GPT 5.6 Sol prompted by the author. The classical two-sided bound
+the argument and in writing this text". The erdosproblems.com commentary
+attributes the proof to GPT 5.6 Sol prompted by the author. The classical
+two-sided bound
 $\pi(n)+c_1n^{2/3}/(\log n)^2\le F(n)\le\pi(n)+c_2n^{2/3}/(\log n)^2$ is Erdős's
 1938 theorem.
 
@@ -82,13 +83,13 @@ evaluating it. It is a pending full claim on
 
 **Source.** [erdosproblems.com/793](https://www.erdosproblems.com/793),
 accessed 2026-09-18T05:33Z: the problem page (labeled PROVED (LEAN), the
-site's label for a problem solved in the affirmative with a proof the site
-records as verified in Lean; last edited 14 July 2026; source keys [Er69],
-[Er70b]; commentary citing [Er38] and the manuscript), its thirteen-comment
-discussion thread (30 November 2025 to 15 July 2026) and its proof-claim tab
-with one proof claim, to which the site gives no kind (5 August 2026). Cite
-as: T. F. Bloom, Erdős Problem #793, https://www.erdosproblems.com/793,
-accessed 2026-09-18.
+erdosproblems.com label for a problem solved in the affirmative with a proof
+erdosproblems.com records as verified in Lean; last edited 14 July 2026; source
+keys [Er69], [Er70b]; commentary citing [Er38] and the manuscript), its
+thirteen-comment discussion thread (30 November 2025 to 15 July 2026) and its
+proof-claim tab with one proof claim, to which erdosproblems.com gives no kind
+(5 August 2026). Cite as: T. F. Bloom, Erdős Problem #793,
+https://www.erdosproblems.com/793, accessed 2026-09-18.
 
 **References.**
 
@@ -136,8 +137,8 @@ page's indicator on 2026-09-18 recorded no formalized statement. The file
 [`ErdosProblems/793.lean`](https://github.com/google-deepmind/formal-conjectures/blob/3de3b3ad5e9660d3b4b7a81b7568d4e599e5ee05/FormalConjectures/ErdosProblems/793.lean)
 was added at the commit linked (19 September 2026); it
 defines
-`Strongly2Primitive` as the site's condition and `F n` as the largest size
-of such a subset of `Finset.Icc 1 n`, declares
+`Strongly2Primitive` as erdosproblems.com's condition and `F n` as the largest
+size of such a subset of `Finset.Icc 1 n`, declares
 `erdos_793 : answer(True) ↔ ∃ c : ℝ, Tendsto (...) atTop (𝓝 c)` under
 `category research solved` with proof `sorry` and a docstring crediting the
 answer $c=27/2$ to GPT-5.6 Sol prompted by Chojecki, and declares the
@@ -157,17 +158,17 @@ database (teorth/erdosproblems, 2026-09-18) recorded the problem as
 proved with Lean, with `formal_status` Lean (both
 dated 31 August 2025 in its fields), the statement not formalized, and no
 formal-proof URL; its snapshot of 2026-10-06 records the statement as
-formalized since 19 September 2026 and names OEIS A399779. The site's
+formalized since 19 September 2026 and names OEIS A399779. erdosproblems.com's
 "(Lean)" suffix is a catalog label; the Lean development it refers to is
 the external file described under "Formalization and the Lean label"
 below, not built here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18T05:33Z).** The statement
-above; PROVED (LEAN), the site's phrase for a problem solved in the
-affirmative with a Lean-verified proof, last edited 14 July 2026. The
-commentary, in this page's words: Erdős [Er38] proved the two-sided bound
+**The question (erdosproblems.com formulation of 2026-09-18T05:33Z).** The
+statement above; PROVED (LEAN), the erdosproblems.com phrase for a problem
+solved in the affirmative with a Lean-verified proof, last edited 14 July 2026.
+The commentary, in this page's words: Erdős [Er38] proved the two-sided bound
 with constants $0<c_1\le c_2$; Erdős [Er69] gave a short proof of
 $F(n)\le\pi(n)+n^{2/3}$ by the tree argument (vertices the integers in
 $[1,n^{2/3}]$ and the primes in $(n^{2/3},n]$, edges the members of $A$
@@ -179,10 +180,10 @@ $F(n)=\pi(n)+(\tfrac{27}{2}+o(1))n^{2/3}/(\log n)^2$, with the manuscript
 linked; the generalization to sets in which no member divides the product
 of $r$ distinct others, with $2/3$ replaced by $2/(r+1)$, is referred to a
 thread comment; and Problem 425 is related. The thread,
-oldest first: a comment of 30 November 2025 (the account Woett, whom the
-site names as Wouter van Doorn) on the $k$-fold generalization (below) and
-the page numbers [Er69, p. 77], [Er70b, p. 136]; a comment of 26 February
-2026 (the account Adenwalla) filling a gap in the tree argument for
+oldest first: a comment of 30 November 2025 (the account Woett, whom
+erdosproblems.com names as Wouter van Doorn) on the $k$-fold generalization
+(below) and the page numbers [Er69, p. 77], [Er70b, p. 136]; a comment of 26
+February 2026 (the account Adenwalla) filling a gap in the tree argument for
 squares $p^2$ with $n^{2/3}<p^2\le n$, which give loops, and observing that
 a looped vertex is isolated, so the graph is a forest with fewer edges than
 vertices; a comment of 13 July 2026 (the account Przemek, the manuscript's
@@ -192,10 +193,10 @@ scale-separated prime triples packed by proper edge-colorings in the lower
 bound; a comment of 14 July 2026 (the account Woett) that the proof had
 been formalized without much trouble by an automated prover, with the file
 linked and the prime number theorem as the only added axiom; a comment of
-14 July 2026 (the account TFBloom, the site's curator) that the upper-bound
-proof is exactly Erdős's from [Er38] with its explicit constant tracked,
-that the lower bound is the same construction as in [Er38], reduced to a
-linear 3-uniform hypergraph $H$ on primes with
+14 July 2026 (the account TFBloom, the erdosproblems.com curator) that the
+upper-bound proof is exactly Erdős's from [Er38] with its explicit constant
+tracked, that the lower bound is the same construction as in [Er38], reduced to
+a linear 3-uniform hypergraph $H$ on primes with
 $|H|\ge|V(H)|+(27/2+o(1))n^{2/3}/(\log n)^2$, where Erdős used only the
 primes up to $n^{1/3}$, and asking why $27/2$ is natural; replies of 14 and
 15 July 2026 (the accounts Woett and WillSawin) that $27/2=9/2+9$ counts
@@ -204,7 +205,7 @@ $|\{p_2p_3:p_1\ge p_2\ge p_3\text{ prime},\ p_1p_2p_3\le n\}|$; a comment of
 15 July 2026 (the account Woett) citing Pach and Sándor's Theorem 7 for
 general $k$ and reporting that a model claimed the constants tend to $e^2$;
 and a pronoun exchange of the same day. The proof-claim tab holds one
-proof claim of 5 August 2026, to which the site gives no kind (below).
+proof claim of 5 August 2026, to which erdosproblems.com gives no kind (below).
 
 **The origin.** [Er69], printed p. 78, display (2), quoted under
 Formulation, following the two-sided bound
@@ -238,7 +239,7 @@ with exponent $2/(r+1)$ is stated in [Er69] without proof.
 ([[../library/integer_sequences/chojecki_2026_second_term_strongly_2_primitive_sets/theorem_1_1|result page]],
 p. 1, checked clause by clause): as $n\to\infty$,
 $F(n)=\pi(n)+(\tfrac{27}{2}+o(1))n^{2/3}/(\log n)^2$, with $F(n)$ defined by
-the site's condition. The proof (pp. 2--5) has two halves. Proposition
+erdosproblems.com's condition. The proof (pp. 2--5) has two halves. Proposition
 2.4: Lemma 2.1 (if every member of a strongly 2-primitive $A$ is a product
 of two members of $B$ then $|A|\le|B|$), Lemma 2.2 (the four classes
 $B_0=[1,n^{3/5}]$, $B_1$ the primes in $(n^{3/5},n]$,
@@ -260,7 +261,7 @@ $e^{-h}+\tfrac12e^{-2h}\to3/2$ as $h\to0$, give
 $|A|\ge\pi(n)+(27/2-o(1))S$. Read depth: claims checked for Theorem 1.1
 and the eight named statements; the proofs were read for their structure
 and not checked step by step; no step is independently reviewed here.
-Acceptance evidence: the label and commentary of the site's curator,
+Acceptance evidence: the label and commentary of the erdosproblems.com curator,
 Thomas Bloom (14 July 2026), and their thread comment that the argument is
 Erdős's 1938 argument with the constants tracked; no
 refereed publication and no written expert review were found (Crossref
@@ -268,10 +269,10 @@ bibliographic query for the title and the searches of the scope below); the
 manuscript appeared as arXiv:2607.15306v1 on 14 July 2026.
 Provenance, recorded not judged: the
 footnote "AI assistance was used in exploring the argument and in writing
-this text"; the site's attribution of the proof to GPT 5.6 Sol prompted by
-the author; the manuscript names one human author.
+this text"; the erdosproblems.com attribution of the proof to GPT 5.6 Sol
+prompted by the author; the manuscript names one human author.
 
-**Formalization and the Lean label.** The site's "(Lean)" suffix is a
+**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is a
 catalog label; the formal-conjectures collection, which had no file for
 the problem on 2026-09-18, has carried one since 19 September 2026
 (Formalization above). The development the thread names is
@@ -297,15 +298,15 @@ proves the theorem relative to that axiom. The port of this development
 that the formal-conjectures file names as its formal proof (Formalization
 above) replaces the axiom with the PrimeNumberTheoremAnd project's theorem;
 it was not built here. The community database recorded `formal_status`
-Lean and no formal-proof URL as of 2026-09-18, and records the statement
+Lean and no formal-proof URL on 2026-09-18, and records the statement
 as formalized since 19 September 2026
 in its snapshot of 2026-10-06.
 
 **Forum and AI-assisted items (leads with provenance, not status).**
 
-- Proof-claim tab, 5 August 2026 (the account Woett, whom the site names
-  as Wouter van Doorn): a proof claim, to which the site gives no kind,
-  declared as produced with GPT-5.5 Pro and Aristotle, recording that the
+- Proof-claim tab, 5 August 2026 (the account Woett, whom erdosproblems.com
+  names as Wouter van Doorn): a proof claim, to which erdosproblems.com gives no
+  kind, declared as produced with GPT-5.5 Pro and Aristotle, recording that the
   $k$-fold generalization $F_k(n)=\pi(n)+(c_k+o(1))n^{2/(k+1)}/(\log n)^2$,
   where $F_k(n)$ is the largest size of a set in which no member divides the
   product of $k$ other members, has been formalized with constants $c_k$
@@ -320,7 +321,7 @@ in its snapshot of 2026-10-06.
   with $S=n^{2/(k+1)}/(\log n)^2$ and $\Lambda_r$ a dyadic packing constant,
   for both the repeated-factor and the distinct-factor conventions, and
   `Lambda_limit` states $\Lambda_r\to e^2$; at $k=2$ the repeated-factor
-  case is the site's $F(n)$, so the file proves that the constant $C$
+  case is erdosproblems.com's $F(n)$, so the file proves that the constant $C$
   exists, without evaluating $\Lambda_3$. The file declares the prime
   number theorem and a hypergraph matching theorem of Delcourt and Postle
   as axioms and was not built here. The claim is recorded on
@@ -334,13 +335,13 @@ in its snapshot of 2026-10-06.
   suggests the upper-bound constant $(k+1)^3/(2(k-1))$ for general $k$ and
   doubts it is sharp. None of these papers is held; they are recorded from
   the thread and their Crossref and arXiv records.
-- OEIS: the site's page marks a sequence as possible and names none.
+- OEIS: the erdosproblems.com page marks a sequence as possible and names none.
 
 **Search scope.** The routes below, as they stood on 2026-09-18, showed no
 refereed or arXiv version of the manuscript, no independent review, no dispute
 of the argument and no second proof of the asymptotic.
 
-- The site: problem page, discussion thread and proof-claim tab as of
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
   that date; the formal-conjectures directory listing and full tree (no
   file for this problem); the community database.
 - The manuscript at its ulam.ai URL, in full; the Lean file at the
@@ -368,8 +369,8 @@ blueprint; the community database's snapshot of 2026-10-06.
 
 **Remaining gaps.** (1) The status rests on a manuscript with no refereed
 publication and no independent expert review, whose author declares AI
-assistance and whose proof the site attributes to GPT 5.6 Sol (its arXiv
-posting is not refereeing); a refereed version or an independent
+assistance and whose proof erdosproblems.com attributes to GPT 5.6 Sol (its
+arXiv posting is not refereeing); a refereed version or an independent
 whole-argument review would remove the qualification. (2) Neither Lean
 development is built or audited here: van Doorn's file takes the prime number
 theorem as an axiom, and the port that the formal-conjectures file names draws

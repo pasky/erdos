@@ -55,21 +55,21 @@ of
 after their Fact 1.1, says that Baumgartner proved in this chapter that
 $\mathrm{ZFC}+\mathrm{MA}_{\aleph_1}$ implies
 $\omega_1\omega\to(\omega_1\omega,n)^2$ for all natural numbers $n$. The
-catalog page for Problem 1171 and the deposit of
+erdosproblems.com page for Problem 1171 and the deposit of
 [[set_theory/gao_2026_finite_color_partition_relation_omega_1_squared/_index|Gao]]
 cite the chapter for the case $n=3$ only.
 
-**Relation to Problem 1171.** The chapter does not state the catalog relation
-$\omega_1^2\to(\omega_1\omega,3,\ldots,3)^2_{k+1}$. It follows from the §3
-theorem by an elementary step recorded on the
+**Relation to Problem 1171.** The chapter does not state the erdosproblems.com
+relation $\omega_1^2\to(\omega_1\omega,3,\ldots,3)^2_{k+1}$. It follows from the
+§3 theorem by an elementary step recorded on the
 [[set_theory/baumgartner_1989_remarks_partition_ordinals/main_theorem|result page]]:
 with $n$ the finite Ramsey number for triangles in $k$ colors, a
 $(k+1)$-coloring of $[\omega_1\omega]^2$ has a color-$0$ homogeneous set of
 type $\omega_1\omega$ or an $n$-element set colored from the other $k$ colors,
 hence a monochromatic triangle, and $\omega_1\omega$ is an initial segment of
 $\omega_1^2$. Since $\mathrm{MA}_{\aleph_1}$ is consistent relative to ZFC, the
-catalog relation holds in a model of ZFC for every finite $k$. That bridging
-step is author-recorded here and not independently reviewed; the color
+erdosproblems.com relation holds in a model of ZFC for every finite $k$. That
+bridging step is author-recorded here and not independently reviewed; the color
 reduction lemma of Gao's deposit is the only written form of it found.
 
 **Read status.** Unread: the chapter's text was not obtained. The consumed

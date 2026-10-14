@@ -27,15 +27,15 @@ Moreover, if $A$ is such that equality holds in (1), then
 $\liminf_{X\to\infty}F(A,X,2)/X^{1/2}=0$.
 
 The paper does not evaluate the constant. Computed here with two million
-terms and an integral tail estimate, it is $1.8600\ldots$. The site's form of
-the same constant, $\sum_{n\ge1}1/(n^{1/2}(n+1))$, agrees: writing
+terms and an integral tail estimate, it is $1.8600\ldots$. The erdosproblems.com
+form of the same constant, $\sum_{n\ge1}1/(n^{1/2}(n+1))$, agrees: writing
 $1/(n^{1/2}(n+1))=n^{1/2}(1/n-1/(n+1))$ and summing by parts,
 $\sum_{n=1}^{K}1/(n^{1/2}(n+1))=\sum_{k=1}^{K}(k^{1/2}-(k-1)^{1/2})/k-K^{1/2}/(K+1)$
 for every $K\ge1$ (an identity checked here symbolically and numerically for
 $K\le5000$), and $K^{1/2}/(K+1)\to0$. The paper's statement does not say that
-the constant is attained by some $A$; the site's sentence that the authors
-"showed that this constant is the best possible" was not found in the four
-pages read here.
+the constant is attained by some $A$; the erdosproblems.com sentence that the
+authors "showed that this constant is the best possible" was not found in the
+four pages read here.
 
 **Source.** P. Erdős and E. Szemerédi, *Megjegyzések az American
 Mathematical Monthly egy problémájához*, Mat. Lapok 28 (1980), no. 1--3,
@@ -73,5 +73,5 @@ None outside the paper.
 - [[../wiki/problems/integer_sequences/E0440/_index|Problem 440]]: $F(A,X,2)$ is the
   problem's $A(x)$, so Theorem I gives $A(x)\le(c+o(1))x^{1/2}$ with
   $c=1.8600\ldots$, answering the first question ("Is it true that
-  $A(x)\ll x^{1/2}$?") in the affirmative with the site's constant
+  $A(x)\ll x^{1/2}$?") in the affirmative with erdosproblems.com's constant
   $c\approx1.86$.

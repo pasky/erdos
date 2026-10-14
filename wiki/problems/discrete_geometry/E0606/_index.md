@@ -29,11 +29,11 @@ values of $f(n)$?
 $f(n)$ count the number of distinct lines determined by these points. What are
 the possible values of $f(n)$, for all sufficiently large $n$?
 
-**Notes.** The site's wording asks for the possible values of $f(n)$ for every
-$n$, as Grünbaum's question is stated in Erdős's 1972 paper (p. 23) and in
-Salamon and Erdős [ErSa88]. The site labeled the problem SOLVED and its
-commentary says "Solved (for all sufficiently large $n$) completely by Erdős
-and Salamon [ErSa88]; the full description is too complicated to be given
+**Notes.** The erdosproblems.com wording asks for the possible values of $f(n)$
+for every $n$, as Grünbaum's question is stated in Erdős's 1972 paper (p. 23)
+and in Salamon and Erdős [ErSa88]. Bloom's catalog labeled the problem SOLVED
+and its commentary says "Solved (for all sufficiently large $n$) completely by
+Erdős and Salamon [ErSa88]; the full description is too complicated to be given
 here". The curator's reading is the question for all sufficiently large $n$, and
 the modified Statement adds those words; nothing else changes. The evidence for
 the discrepancy is the paper itself.
@@ -49,15 +49,16 @@ $n\ge n^*$ band by band, with Erdős's 1972 theorem supplying the values above
 $c_1n^{3/2}$ and the paper fixing the best constant $c=1$ for the lower end of
 the continuum; the question for every $n$, as printed, is open for $n<n^*$, a
 threshold the paper does not compute, so no finite list of exceptional $n$ is
-on record. No result about the site's wording beyond these two papers is known
-here. [Er85], the site's source key, records Grünbaum's question of which values
-the number of lines can take, and reports without proof that every value above
-$cn^{3/2}$ occurs except $\binom n2-1$ and $\binom n2-3$ (pp. 2-3,
+on record. No result about the erdosproblems.com wording beyond these two papers
+is known here. [Er85], the erdosproblems.com source key, records Grünbaum's
+question of which values the number of lines can take, and reports without proof
+that every value above $cn^{3/2}$ occurs except $\binom n2-1$ and $\binom n2-3$
+(pp. 2-3,
 [[../library/distance_problems/erdos_1985_problems_results_combinatorial_geometry/theorem_p2_line_counts|source page]]).
 
-**Status.** Solved, in the site's label. The site's commentary qualifies the
-label as holding for all sufficiently large $n$, so the label describes the
-modified Statement. The accepted full claim
+**Status.** Solved, in the erdosproblems.com label. The erdosproblems.com
+commentary qualifies the label as holding for all sufficiently large $n$, so the
+label describes the modified Statement. The accepted full claim
 [[problems/discrete_geometry/E0606/claims/1988_06_01_salamon_erdos|Salamon–Erdős 1988]]
 determines the possible values for every $n\ge n^*$. This answers the modified
 Statement. The accepted partial claim

@@ -82,8 +82,8 @@ that every r-coloring of K_n must show on some copy of H. The proofs use the
 Erdős–Gallai bounds ex(n,P_k) <= ((k-2)/2) n and the cycle analog, taking a
 longest totally multicolored path and partitioning the remaining vertices
 (Lemma 1). For problem 1105 the paper supplies the first published proof of
-the path formula, in the range t >= 5 and n > ct^2 (the site's n >= ck^2),
-and records the cycle formula as unsettled in 1984.
+the path formula, in the range t >= 5 and n > ct^2 (erdosproblems.com's n >=
+ck^2), and records the cycle formula as unsettled in 1984.
 
 Source: <http://real.mtak.hu/110563/>.
 

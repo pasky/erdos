@@ -80,9 +80,9 @@ Harary's *Graph theory*) for the edge-cut decompositions the paper calls
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the case $m=6$
-  under the edge-disjoint reading, $\ell_6(n)=3n-2$ in the site's notation;
-  at the problem's parameters $n'$ copies with $1+5n'$ vertices this gives
-  $3(1+5n')-2=15n'+1=1+n'\binom62$, so the edge-disjoint form of the
+  under the edge-disjoint reading, $\ell_6(n)=3n-2$ in the erdosproblems.com
+  notation; at the problem's parameters $n'$ copies with $1+5n'$ vertices this
+  gives $3(1+5n')-2=15n'+1=1+n'\binom62$, so the edge-disjoint form of the
   conjecture holds at $m=6$ (an arithmetic check made here), which Mader's
   general theorem covers for every $m$
   ([[extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|Mader 1973, Satz 1]]).

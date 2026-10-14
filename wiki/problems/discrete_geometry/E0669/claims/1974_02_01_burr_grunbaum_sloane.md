@@ -38,8 +38,8 @@ triples are collinear, so $f_3(n)\ge n^2/6-O(n)$ in the notation of
 [[problems/discrete_geometry/E0669/_index|Problem 669]]. A line through at
 least three of the points contains at least three of the $\binom n2$ pairs,
 and no pair lies on two lines, so $F_3(n)\le n(n-1)/6$. Since
-$f_3(n)\le F_3(n)$, both $f_3(n)$ and $F_3(n)$ are $n^2/6-O(n)$, as the site
-credits to the paper, and
+$f_3(n)\le F_3(n)$, both $f_3(n)$ and $F_3(n)$ are $n^2/6-O(n)$, as
+erdosproblems.com credits to the paper, and
 
 $$
 \lim_{n\to\infty}\frac{f_3(n)}{n^2}=\lim_{n\to\infty}\frac{F_3(n)}{n^2}=\frac16.
@@ -50,6 +50,6 @@ $k\ge4$.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: the paper appeared in *Geometriae Dedicata*. The
-site labeled the problem OPEN, so its remark crediting the paper is not
+**Acceptance.** Refereed: the paper appeared in *Geometriae Dedicata*. Bloom's
+catalog labeled the problem OPEN, so its remark crediting the paper is not
 acceptance.

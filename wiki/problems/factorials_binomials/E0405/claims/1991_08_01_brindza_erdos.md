@@ -2,10 +2,10 @@
 name: problems/factorials_binomials/E0405/claims/1991_08_01_brindza_erdos
 title: Brindza and Erdős, an effective bound on every solution
 desc: |
-  In a refereed paper credited by the site's curator, Brindza and Erdős prove
-  that every solution of $(p-1)!+a^{p-1}=p^k$ has $p$, $a$ and $k$ below one
-  effectively computable absolute constant. So there are finitely many solutions
-  in all.
+  In a refereed paper credited by the erdosproblems.com curator, Brindza and
+  Erdős prove that every solution of $(p-1)!+a^{p-1}=p^k$ has $p$, $a$ and $k$
+  below one effectively computable absolute constant. So there are finitely many
+  solutions in all.
 authors:
 - B. Brindza
 - P. Erdös
@@ -74,10 +74,10 @@ file was added on 2026-08-17 and the link pins the last commit that touched it
 at its path. The file's text at that commit contains no `sorry`. This corpus has
 not built or audited the file, so the page lists no `formalized` evidence.
 
-**Acceptance.** The site's curator, T. F. Bloom, marked the problem proved and
-credits this paper for the finiteness. The page lists this as `reviewed`. The
-paper is B. Brindza and P. Erdős, On some diophantine problems involving powers
-and factorials, J. Austral. Math. Soc. Ser. A 51 (1991), no. 1, 1--7. It
-appeared in a refereed journal and is listed as `refereed`. The page is dated by
-the publisher's record, which gives August 1991 for the issue. The first day of
-that month stands in for the issue date.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, marked the problem
+proved and credits this paper for the finiteness. The page lists this as
+`reviewed`. The paper is B. Brindza and P. Erdős, On some diophantine problems
+involving powers and factorials, J. Austral. Math. Soc. Ser. A 51 (1991), no. 1,
+1--7. It appeared in a refereed journal and is listed as `refereed`. The page is
+dated by the publisher's record, which gives August 1991 for the issue. The
+first day of that month stands in for the issue date.

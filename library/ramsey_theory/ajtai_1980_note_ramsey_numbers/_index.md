@@ -43,7 +43,7 @@ the Math Institute, Reáltanoda u. 13--15, 1053 Budapest, Hungary (p. 354).
 The acknowledgment (p. 360) reads "We are indebted to Joel Spencer, who
 wrote this paper for us." Cited as [AKS80] on the problem pages. Its three
 references (p. 360) are the authors' own "A dense infinite Sidon sequence,
-to appear" (the paper's [1], the site's AKS81b, European J. Combin. 2
+to appear" (the paper's [1], erdosproblems.com's AKS81b, European J. Combin. 2
 (1981), 1--11, not held; the introduction says "A quite different proof of
 (1) is given in our paper [1]"); Erdős, Graph theory and probability, II,
 Canad. J. Math. 13 (1961), 346--352 (the paper's [2], the lower bound
@@ -268,13 +268,12 @@ $cx^2\ln\ln x/\ln x$, the removal of the $\ln\ln x$ factor that the
 problem's origins describe.
 [[../wiki/problems/ramsey_theory/E0553/_index|#553]]: Theorem 3 (p. 358) is the upper
 bound $r(K_3,K_m)=O(m^2/\log m)$ that the resolving paper cites for its
-$k=1$ base case, with Kim's lower bound; the site credits Shearer's sharper
-constant.
-[[../wiki/problems/ramsey_theory/E0925/_index|#925]]: the same Theorem 3 (p. 358), the
-$k=1$ input of the resolving paper's induction.
+$k=1$ base case, with Kim's lower bound; erdosproblems.com credits Shearer's
+sharper constant. [[../wiki/problems/ramsey_theory/E0925/_index|#925]]: the same
+Theorem 3 (p. 358), the $k=1$ input of the resolving paper's induction.
 [[../wiki/problems/ramsey_theory/E1182/_index|#1182]]: Theorem 3 (p. 358) is the bound
 $r(K_3,K_s)<cs^2/\log s$ on which the 1980 lower bound
-$f(n)>An^{3/2}(\log n)^{1/2}$ (the site's $f(n)$, their $g(n)$; their
+$f(n)>An^{3/2}(\log n)^{1/2}$ (erdosproblems.com's $f(n)$, their $g(n)$; their
 Theorem 2, p. 198) of Burr, Erdős, Faudree, Rousseau and Schelp rests; they
 cite the bound from the authors' Sidon-sequence paper (their [1], p. 203),
 which the note says proves it by a quite different method.
@@ -291,7 +290,7 @@ number $H(n)$ of a triangle-free graph on $n$ vertices, is the lower half
 of $c_1\sqrt{n\log n}\le H(n)\le c_2\sqrt n\log n$ that the 1992 paper
 quotes from this paper and from Erdős 1961.
 [[../wiki/problems/extremal_graph_theory/E0610/_index|#610]]: the same rewriting of
-Theorem 3 is the site's "$H(n)\gg\sqrt{n\log n}$", used on that page as
+Theorem 3 is erdosproblems.com's "$H(n)\gg\sqrt{n\log n}$", used on that page as
 context for the transfer from Problem 151.
 [[../wiki/problems/ramsey_theory/E0801/_index|#801]]: Theorem 2 (p. 355) is the
 Ajtai--Komlós--Szemerédi bound inside Alon's 1996 proof of the problem's
@@ -305,9 +304,9 @@ $R(4,k)\ll k^3/(\log k)^2$ against which the problem's statement was posed
 and which Mattheus and Verstraete's theorem meets up to the power of the
 logarithm.
 [[../wiki/problems/ramsey_theory/E0986/_index|#986]]: Theorem 6 (p. 359) is the upper
-bound $R(s,k)\ll_sk^{s-1}/(\log k)^{s-2}$ for every fixed $s\ge3$, in the
-site's letters, that the problem's lower bound matches up to the power of
-the logarithm; the paper's $c_k$ is $5000^k$.
+bound $R(s,k)\ll_sk^{s-1}/(\log k)^{s-2}$ for every fixed $s\ge3$, in
+erdosproblems.com's letters, that the problem's lower bound matches up to the
+power of the logarithm; the paper's $c_k$ is $5000^k$.
 
 **Results.**
 

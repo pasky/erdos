@@ -101,7 +101,7 @@ bounds for mu_3^S) were not checked. Nothing here is independently reviewed.
 - [[integer_sequences/tang_2025_harmonic_lcm_patterns_sunflower_free_capacity/corollary_1_7|Corollary 1.7]] (p. 3):
   (log N)^{log(1.551) - o(1)} <= f_3(N) << (log N)^{3/2^{2/3} - 1 + o(1)}.
 - Prior bounds (p. 2): Erdos proved f_k(N) <<_k log N/log log N; the paper
-  attributes to the problem's site comments the improvement
+  attributes to the problem's erdosproblems.com page comments the improvement
   f_k(N) <= log N exp(-Omega_k(log log N/log log log N)), and knows of no
   earlier lower bound of comparable strength.
 

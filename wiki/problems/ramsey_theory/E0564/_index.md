@@ -31,19 +31,19 @@ $$
 R_3(n) \geq 2^{2^{cn}}?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-17 (page last edited 18
-January 2026). $R_3(n)$ is the two-color Ramsey number of the complete
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-17 (page last
+edited 18 January 2026). $R_3(n)$ is the two-color Ramsey number of the complete
 $3$-uniform hypergraph on $n$ vertices; in [EHR65] it is $g(n,3)=f(n,n,3)$, the
 least $a$ with $a\to(n,n)^3$. The known upper bound has the same
 double-exponential shape (statement 16.3 of [EHR65] gives
 $R_3(n)\le2^{2^{4n-10}}$ for $n\ge3$), so a yes answer would fix $R_3(n)$ up to
-the constant in the top exponent. The site files the problem as a special case
-of [[problems/ramsey_theory/E0562/_index|Problem 562]], which asks the same
-question for every uniformity. The wording does not say for which $n$ the bound
-must hold. It is read as its source reads it, for $n\ge3$ ([EHR65] states its
-bounds for $2\le r\le b$), which agrees with the eventual reading up to the
-value of $c$; for $n=1,2$ the inequality fails for every $c>0$, since $R_3(1)=1$
-and $R_3(2)=2$.
+the constant in the top exponent. erdosproblems.com files the problem as a
+special case of [[problems/ramsey_theory/E0562/_index|Problem 562]], which asks
+the same question for every uniformity. The wording does not say for which $n$
+the bound must hold. It is read as its source reads it, for $n\ge3$ ([EHR65]
+states its bounds for $2\le r\le b$), which agrees with the eventual reading up
+to the value of $c$; for $n=1,2$ the inequality fails for every $c>0$, since
+$R_3(1)=1$ and $R_3(2)=2$.
 
 **Status.** Open. The search whose scope the Current assessment records found no
 proof, disproof, preprint or proof claim for the exact statement. The bounds in
@@ -53,11 +53,11 @@ proofs omitted. The double-exponential lower bound is known with four colors. A
 problem". This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/564](https://www.erdosproblems.com/564), accessed
-2026-09-17: the problem page (labeled OPEN, with the site's note that no finite
-computation can resolve it; prize offered; last edited 18 January 2026; source
-keys [EHR65], [Er81], [Er97c]), its empty discussion thread and its empty
-proof-claim tab. The site cites [EHMR84] in its commentary. Cite as: T. F.
-Bloom, Erdős Problem #564, https://www.erdosproblems.com/564, accessed
+2026-09-17: the problem page (labeled OPEN, with the erdosproblems.com note that
+no finite computation can resolve it; prize offered; last edited 18 January
+2026; source keys [EHR65], [Er81], [Er97c]), its empty discussion thread and its
+empty proof-claim tab. erdosproblems.com cites [EHMR84] in its commentary. Cite
+as: T. F. Bloom, Erdős Problem #564, https://www.erdosproblems.com/564, accessed
 2026-09-17.
 
 **References.**
@@ -83,8 +83,8 @@ Bloom, Erdős Problem #564, https://www.erdosproblems.com/564, accessed
   Soc. 53 (1947), 292--294. The source [EHR65] cites for 16.2 and, "without
   detailed proof", for the lower bound 16.4; not held; context.
 - [Er81] Erdős, P., On the combinatorial problems which I would most like to
-  see solved. Combinatorica 1 (1981), 25--42. Site source key; Part V,
-  pp. 9--10 of the Rényi archive's re-typeset copy, a problem of Hajnal, Rado
+  see solved. Combinatorica 1 (1981), 25--42. erdosproblems.com source key; Part
+  V, pp. 9--10 of the Rényi archive's re-typeset copy, a problem of Hajnal, Rado
   and Erdős posed as display (5) on p. 10: "Is it true that (5)
   $\log\log r(K^{(3)}(n),K^{(3)}(n))>cn$? In other words, does
   $r(K^{(3)}(n),K^{(3)}(n))$ tend to infinity like a double exponential. This
@@ -103,25 +103,25 @@ of formal-conjectures (main, fetched 2026-09-17) declares
 `erdos_564 : answer(sorry) ↔ ∃ c > (0 :
 ℝ), ∀ᶠ n : ℕ in atTop, (2 : ℝ) ^ (2 : ℝ) ^ (c * n) ≤ hypergraphRamsey 3 n` under
 `category research open`, with proof `sorry`. Its "for all sufficiently large
-$n$" reads the site's question asymptotically; since $R_3(n)\ge3$ for $n\ge3$,
-an eventual bound with constant $c$ extends to every $n\ge3$ with a smaller
-constant, so the eventual reading and the reading for every $n\ge3$ agree up to
-the value of $c$. The community database (teorth/erdosproblems, fetched
-2026-09-17) records the statement as formalized since 7 January 2026 and no
-formal proof. The corpus has not built or checked the file.
+$n$" reads the erdosproblems.com question asymptotically; since $R_3(n)\ge3$ for
+$n\ge3$, an eventual bound with constant $c$ extends to every $n\ge3$ with a
+smaller constant, so the eventual reading and the reading for every $n\ge3$
+agree up to the value of $c$. The community database (teorth/erdosproblems,
+fetched 2026-09-17) records the statement as formalized since 7 January 2026 and
+no formal proof. The corpus has not built or checked the file.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement above; status
-OPEN; prize offered; last edited 18 January 2026. The commentary files the
-problem as a special case of Problem 562, attributes it to Erdős, Hajnal and
-Rado [EHR65] together with their bounds $2^{cn^2}<R_3(n)<2^{2^n}$ for some
-$c>0$, credits Erdős, Hajnal, Máté and Rado [EHMR84] with a doubly exponential
-lower bound for the four-color problem, and lists the problem as number 37 of
-the Ramsey theory section of the graphs problem collection. There are no
-comments and no proof claims. The community database record (read 2026-09-17)
-says open (last updated 31 August 2025), a prize listed, statement formalized,
-no formal proof.
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; status OPEN; prize offered; last edited 18 January 2026. The commentary
+files the problem as a special case of Problem 562, attributes it to Erdős,
+Hajnal and Rado [EHR65] together with their bounds $2^{cn^2}<R_3(n)<2^{2^n}$ for
+some $c>0$, credits Erdős, Hajnal, Máté and Rado [EHMR84] with a doubly
+exponential lower bound for the four-color problem, and lists the problem as
+number 37 of the Ramsey theory section of the graphs problem collection. There
+are no comments and no proof claims. The community database record (read
+2026-09-17) says open (last updated 31 August 2025), a prize listed, statement
+formalized, no formal proof.
 
 **Origin and the 1965 bounds.** Section 16 of [EHR65] (printed pp. 139--140)
 treats the finite case. It defines $g(b,r)=f(b,b,r)$, so $R_3(n)=g(n,3)$, and
@@ -145,18 +145,19 @@ deduces from 16.2 that for $r\ge3$, $g(b,r)\ge2*2**2*(\tfrac12c^{r-3}b)$ with
 $r-1$ "factors", and closes: "This result approaches the conjecture (1) but a
 big gap still exists in the case $r=3$ between the conjecture and the
 established estimate. Since these results are obviously not final we omit the
-proofs." So the 1965 paper states both bounds the site attributes to it and
-proves neither in its text, and its two-color lower bound for uniformity $r$
-is a tower of height $r-1$, one short of the conjectured height $r$. The site
-writes the upper bound as $2^{2^{n}}$; the page follows the source's
-$2^{2^{4n-10}}$, the same double-exponential shape with a different constant.
-The site's form is the one Erdős printed in 1997 as display (4.3) of [Er97c]
-(printed p. 63): "Hajnal, Rado and I proved $2^{cn^2}<r_3(n,n)<2^{2^n}$. (4.3)
-We believe the upper bound is closer to the truth, although Hajnal and I have
-a result which seems to favor the lower bound", and, after the
-unbalanced-triples result, "Hajnal proved $r_3(n,n,n,n)>2^{c2^n}$ which very
-strongly favors the upper bound in (4.3)", the four-color bound the site
-attributes to [EHMR84], printed there without proof or reference.
+proofs." So the 1965 paper states both bounds erdosproblems.com attributes to it
+and proves neither in its text, and its two-color lower bound for uniformity $r$
+is a tower of height $r-1$, one short of the conjectured height $r$.
+erdosproblems.com writes the upper bound as $2^{2^{n}}$; the page follows the
+source's $2^{2^{4n-10}}$, the same double-exponential shape with a different
+constant. The erdosproblems.com form is the one Erdős printed in 1997 as display
+(4.3) of [Er97c] (printed p. 63): "Hajnal, Rado and I proved
+$2^{cn^2}<r_3(n,n)<2^{2^n}$. (4.3) We believe the upper bound is closer to the
+truth, although Hajnal and I have a result which seems to favor the lower
+bound", and, after the unbalanced-triples result, "Hajnal proved
+$r_3(n,n,n,n)>2^{c2^n}$ which very strongly favors the upper bound in (4.3)",
+the four-color bound erdosproblems.com attributes to [EHMR84], printed there
+without proof or reference.
 
 **The gap as of 2025.** The introduction of [BHS25] (p. 1 of arXiv v3; the
 paper is published in J. Combin. Theory Ser. B 179 (2026)) records the state
@@ -169,7 +170,7 @@ colors, the lower bound matches the upper bound up to the constant on top of
 the tower, and it is a major open problem to close the gap for two colors"
 ([[../library/ramsey_theory/bradac_2025_lower_bounds_ramsey_numbers_bounded_degree/remark_p1|remark, p. 1]]).
 For $k=3$ this is exactly $2^{\Omega(n^2)}\le R_3(n)\le2^{2^{O(n)}}$ with two
-colors and $2^{2^{\Omega(n)}}$ with four, the four-color bound the site
+colors and $2^{2^{\Omega(n)}}$ with four, the four-color bound erdosproblems.com
 attributes to [EHMR84] (not held). The paper's own result,
 [[../library/ramsey_theory/bradac_2025_lower_bounds_ramsey_numbers_bounded_degree/theorem_1_2|Theorem 1.2]]
 (p. 2), concerns bounded-degree hypergraphs and four colors and gives no bound
@@ -195,7 +196,7 @@ consistent with the two-color gap. None concerns $R_3(n)$.
 **Search scope.** The status rests on these routes;
 none found a proof, disproof or proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures file at the pinned commit.
 - The primary sources at the pages stated: [EHR65] printed pp. 93--94,
   139--140 and 195--196; [BHS25] pp. 1--2.
@@ -212,7 +213,7 @@ none found a proof, disproof or proof claim.
   and of Conlon--Fox--Sudakov 2010 (127 records, scanned by title; the
   2024--2026 items concern off-diagonal, multicolor, ordered and Erdős--Rogers
   variants). Its search endpoint answered HTTP 429 and was not used.
-- Two general web searches (nothing beyond the site's own page and the
+- Two general web searches (nothing beyond erdosproblems.com's own page and the
   off-diagonal $r_4(5,n)$ preprints).
 
 Not searched: MathSciNet, Google Scholar, X. Unread: [EHMR84], [ErRa52] and

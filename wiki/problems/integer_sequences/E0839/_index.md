@@ -31,7 +31,7 @@ $$
 \lim \frac{1}{\log x}\sum_{a_n<x}\frac{1}{a_n}=0?
 $$
 
-**Status.** Open. The site labeled the problem OPEN.
+**Status.** Open. Bloom's catalog labeled the problem OPEN.
 
 **Source.** [erdosproblems.com/839](https://www.erdosproblems.com/839), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #839,
@@ -40,8 +40,8 @@ https://www.erdosproblems.com/839.
 **References.**
 
 - [Fr93] R. Freud, Adding numbers - on a problem of P. Erdős. James Cook
-  Mathematical Notes (1993), 6199-6202 (the site's key; the issue prints the
-  title "Adding numbers").
+  Mathematical Notes (1993), 6199-6202 (the erdosproblems.com key; the issue
+  prints the title "Adding numbers").
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/839.lean).

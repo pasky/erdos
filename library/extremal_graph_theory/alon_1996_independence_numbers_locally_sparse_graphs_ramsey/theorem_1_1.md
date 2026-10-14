@@ -4,8 +4,8 @@ title: "Theorem 1.1: α(G) ≥ (c / log(r+1)) (n/t) log t when every vertex neig
 desc: |
   Alon's 1996 independence bound for graphs whose vertex neighborhoods are
   r-colorable, the conjectured Ajtai–Erdős–Komlós–Szemerédi order under a
-  hypothesis stronger than K_{r+2}-freeness; the partial result the site
-  records for Problem 802.
+  hypothesis stronger than K_{r+2}-freeness; the partial result
+  erdosproblems.com records for Problem 802.
 created: 2026-09-18T15:55:00Z
 updated: 2026-10-07T20:53:41Z
 ---
@@ -40,9 +40,9 @@ Random Structures and Algorithms (pp. 7--8).
 An observation made here on the indexing: an $s$-colorable graph contains no
 $K_{s+1}$, so $s$-colorable neighborhoods make $G$ $K_{s+2}$-free; the theorem
 with $s=r-2$ therefore covers a subclass of the $K_r$-free graphs of Problem
-802, with constant $c/\log(r-1)$, which is the site's hypothesis "chromatic
-number $\le r-2$" for that problem. The case $r=1$ (edgeless neighborhoods) is
-the triangle-free theorem of [1].
+802, with constant $c/\log(r-1)$, which is erdosproblems.com's hypothesis
+"chromatic number $\le r-2$" for that problem. The case $r=1$ (edgeless
+neighborhoods) is the triangle-free theorem of [1].
 
 **Source.** N. Alon, *Independence numbers of locally sparse graphs and a
 Ramsey type problem*, author's preprint (8 pages, paginated 1--8), Theorem
@@ -83,7 +83,7 @@ $\sum_{i\le r}\binom xi$ used in the proof of Lemma 2.2.
 
 - [[../wiki/problems/extremal_graph_theory/E0802/_index|Problem 802]]: the conjectured order
   $\frac{\log t}tn$ under the stronger hypothesis of $(r-2)$-colorable
-  neighborhoods, the partial result the site records; the introduction's
-  sentences attest the 1981 bound and conjecture and Shearer's 1995
-  improvement, which the problem page reads from Shearer's own Corollary 2,
+  neighborhoods, the partial result erdosproblems.com records; the
+  introduction's sentences attest the 1981 bound and conjecture and Shearer's
+  1995 improvement, which the problem page reads from Shearer's own Corollary 2,
   [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_2|corollary_2]].

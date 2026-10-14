@@ -4,7 +4,8 @@ title: Wigderson's infinitely many minimal non-Ramsey-size-linear graphs
 desc: |
   Wigderson's 2024 theorem, that infinitely many graphs are not Ramsey size
   linear while all their proper subgraphs are, answers Problem 79 yes. It is
-  refereed in European J. Combin. 128 (2025) and labeled PROVED by the site.
+  refereed in European J. Combin. 128 (2025) and labeled PROVED by
+  erdosproblems.com.
 authors:
 - Yuval Wigderson
 status: accepted
@@ -49,25 +50,25 @@ Open problem 5 asks for one, and that question is not the problem's.
 
 **Scope.** Full. The theorem is the problem page's modified Statement, which
 asks about graphs all of whose proper subgraphs are Ramsey size linear; the
-site's wording, which omits "proper", admits no graph at all, as the page's
-Notes record. The paper's edge-deletion minimality and the proper-subgraph
-minimality agree for graphs without isolated vertices, as the problem page
-checks.
+erdosproblems.com wording, which omits "proper", admits no graph at all, as the
+page's Notes record. The paper's edge-deletion minimality and the
+proper-subgraph minimality agree for graphs without isolated vertices, as the
+problem page checks.
 
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-PROVED and credits the paper with the proof in the problem's commentary. The
-commentary notes that the proof is not explicit and that no example beyond $K_4$
-is known. The thread and the proof-claim tab were empty on 2026-09-18. Refereed:
-the paper appeared in European J. Combin. 128 (2025), 104175, and its
-acknowledgments thank the anonymous referees. The text cited is arXiv v2 of 5
-May 2025. Proof coverage: the statement, Lemmas 2--4 and Open problem 5. The
-proof is not compiled in this corpus.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem PROVED and credits the paper with the proof in the problem's
+commentary. The commentary notes that the proof is not explicit and that no
+example beyond $K_4$ is known. The thread and the proof-claim tab were empty on
+2026-09-18. Refereed: the paper appeared in European J. Combin. 128 (2025),
+104175, and its acknowledgments thank the anonymous referees. The text cited is
+arXiv v2 of 5 May 2025. Proof coverage: the statement, Lemmas 2--4 and Open
+problem 5. The proof is not compiled in this corpus.
 
 **Postings.** arXiv:2409.05931, v1 of 9 September 2024 (the first posting,
 which dates this page) and v2 of 5 May 2025, the version cited; the journal
-article; the site's problem page, whose thread and proof-claim tab were
-empty on 2026-09-18. The formal-conjectures file for the problem is a
+article; the erdosproblems.com problem page, whose thread and proof-claim tab
+were empty on 2026-09-18. The formal-conjectures file for the problem is a
 statement with no proof and is not a formalization of this result.

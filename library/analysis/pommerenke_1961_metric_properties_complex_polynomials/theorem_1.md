@@ -81,7 +81,7 @@ capacity of a segment. Nothing else.
 - [[../wiki/problems/analysis/E0511/_index|Problem 511]]: the negative answer to the
   question whether $\{|f|<1\}$ has $O_c(1)$ components of diameter above
   $c>1$ independently of the degree; for every $c<4$ the count is
-  unbounded. The site's status "disproved" rests on this theorem, and the
-  2025 rediscovery
+  unbounded. The erdosproblems.com status "disproved" rests on this theorem, and
+  the 2025 rediscovery
   [[analysis/huang_2025_many_lemniscates_large_diameter/_index|Huang 2025]]
   says the problem had been solved by the author.

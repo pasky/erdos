@@ -228,8 +228,8 @@ in the sense of Bonamy and Perrett's
 [[extremal_graph_theory/bonamy_2019_gallai_s_path_decomposition_conjecture_graphs/question_1_1|Question 1.1]].
 Theorem I (printed p. 153, PDF p. 2), quoted above, $n/2+O(n^{3/4})$
 covering paths for every connected graph on $n$ vertices, is the covering bound
-the site records for the paper; the paths may share edges, so it does not
-bound the path number of the problem, and the paper's second Example
+erdosproblems.com records for the paper; the paths may share edges, so it does
+not bound the path number of the problem, and the paper's second Example
 (p. 153) shows why no such asymptotic statement can be proved for
 edge-disjoint paths short of the conjecture itself: one $m$-vertex
 counterexample yields connected graphs needing $n/2+n/(2m+1)$ paths. The

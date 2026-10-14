@@ -52,19 +52,19 @@ colors cannot be guaranteed in ZFC, by a consistency result of Shelah
 independently; Komjáth's refereed paper is the accepted claim
 [[problems/ramsey_theory/E0965/claims/2016_01_01_komjath|Komjáth 2016]].
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, adopted the
-manuscript in the problem's commentary as one of two independent ZFC disproofs
-and relabeled the problem DISPROVED (page last edited 16 January 2026, accessed
-2026-09-18). This followed the thread's comment of 2 January 2026, which pointed
-to the manuscript. The formal-conjectures statement file for the problem cites
-it in its docstring beside Komjáth's paper. That file cites a second copy on the
-first author's site (the github.io link above), which was not compared with the
-renyi.hu copy. Not refereed: the manuscript is unpublished. No journal or arXiv
-record was found on 2026-09-18 (Crossref bibliographic query, arXiv author and
-abstract queries, Semantic Scholar), and no independent review of it was found.
-The acceptance rests on the curator's adoption. Komjáth's refereed publication
-of the same theorem is the problem's other accepted claim, not evidence listed
-here.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, adopted
+the manuscript in the problem's commentary as one of two independent ZFC
+disproofs and relabeled the problem DISPROVED (page last edited 16 January 2026,
+accessed 2026-09-18). This followed the thread's comment of 2 January 2026,
+which pointed to the manuscript. The formal-conjectures statement file for the
+problem cites it in its docstring beside Komjáth's paper. That file cites a
+second copy on the first author's site (the github.io link above), which was not
+compared with the renyi.hu copy. Not refereed: the manuscript is unpublished. No
+journal or arXiv record was found on 2026-09-18 (Crossref bibliographic query,
+arXiv author and abstract queries, Semantic Scholar), and no independent review
+of it was found. The acceptance rests on the curator's adoption. Komjáth's
+refereed publication of the same theorem is the problem's other accepted claim,
+not evidence listed here.
 
 **Postings.** The copy on the first author's github.io site (the second
 link) is the one the formal-conjectures docstring cites and the one that

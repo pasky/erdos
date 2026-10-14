@@ -4,8 +4,8 @@ title: Van Doorn, Li and Tang's exact value of f(m)
 desc: |
   Theorem 2.1 of van Doorn, Li and Tang (arXiv, 2026) shows that the least
   number of distinct multiples of distinct members of an $m$-set in an interval
-  of length twice the largest member is $\min(m,\lceil2\sqrt m\rceil)$. The site
-  accepts this preprint.
+  of length twice the largest member is $\min(m,\lceil2\sqrt m\rceil)$.
+  erdosproblems.com accepts this preprint.
 authors:
 - Wouter van Doorn
 - Yanyang Li
@@ -52,7 +52,8 @@ updated: 2026-10-08T03:54:05Z
 
 ***
 
-**Submission note.** Posted to the site's forum by Quanyu Tang on 6 March 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Quanyu Tang on 6
+March 2026:
 
 > I think ChatGPT 5.4 Pro may have solved this problem! Together with my friends
 > Yixin He and Yanyang Li, we have written up a proof that $f(m)\ll m^{1/2}$, in
@@ -69,7 +70,7 @@ updated: 2026-10-08T03:54:05Z
 >
 > (The site has been updated to address this comment.)
 
-Posted to the site's forum by Quanyu Tang on 7 March 2026:
+Posted to the erdosproblems.com forum by Quanyu Tang on 7 March 2026:
 
 > My GPT just claimed to have a proof that $f(m) = \lceil 2\sqrt m \rceil$ for
 > $m\geq 4$, but I'm going to sleep now and don't have time to check it at the
@@ -108,28 +109,28 @@ Read depth: the definition, Theorem 2.1, Remark 2.2, Lemma 2.3, Theorems 3.1
 and 4.1 and the interval remark are checked against the paper; the proofs
 (Sections 3 and 4) are not.
 
-**Dating.** The result was first posted in the site's thread: the equality
-$f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ with a proof draft on 7 March 2026
-(the date this page is named by; the post and the draft, Tang's note on
+**Dating.** The result was first posted in the erdosproblems.com thread: the
+equality $f(m)=\lceil2\sqrt m\rceil$ for $m\ge4$ with a proof draft on 7 March
+2026 (the date this page is named by; the post and the draft, Tang's note on
 Problem 650 in Tang's repository, are linked above), after the upper bound
 $f(m)\le2\lceil\sqrt m\rceil$ on 6 March (a reproof of the Erdős–Selfridge
 bound, later improved to $f(m)\le\lceil2\sqrt m\rceil$ through
 $f(st)\le s+t$), whose write-up Tang posted with Yixin He and Yanyang Li (also
-linked above), matching the site's credit to GPT 5.4 Pro prompted by He, Li
-and Tang; the formalization of the equality followed on 8 March in van Doorn's
-post (linked above) and was extended to $\min(m,\lceil2\sqrt m\rceil)$; the
-paper was posted on 30 March. The paper's Section 5 and the thread record that
-the draft's lower bound argued, in one case, as if the next multiple after the
-largest multiple in one block had to lie in the other, which is false, and
+linked above), matching the erdosproblems.com credit to GPT 5.4 Pro prompted by
+He, Li and Tang; the formalization of the equality followed on 8 March in van
+Doorn's post (linked above) and was extended to $\min(m,\lceil2\sqrt m\rceil)$;
+the paper was posted on 30 March. The paper's Section 5 and the thread record
+that the draft's lower bound argued, in one case, as if the next multiple after
+the largest multiple in one block had to lie in the other, which is false, and
 that the formalization found a working variant of the injection, which the
 paper adopts. Tang's note on the gap, added to the same repository on 21 March
 2026, is linked above; both repository links are pinned to its commit of that
 day.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, who is independent
-of the authors, labeled the problem SOLVED (LEAN). The page was last edited 2
-April 2026. The commentary states the formula and cites the corrected paper. The
-`reviewed` evidence rests on that label and commentary.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, who is
+independent of the authors, labeled the problem SOLVED (LEAN). The page was last
+edited 2 April 2026. The commentary states the formula and cites the corrected
+paper. The `reviewed` evidence rests on that label and commentary.
 
 On 7 March 2026 Terence Tao and the curator reviewed an outline in the thread,
 and the curator reproduced the injection $a\mapsto(c_a,c_a+a)$ and the
@@ -155,9 +156,9 @@ built here either.
 Provenance, recorded but not judged: the paper declares that ChatGPT (GPT-5.4
 Pro) proposed its proof strategy. It also declares that Aristotle, Harmonic's
 automated theorem-proving system, made the argument rigorous and formally
-verified it, and that the exposition is human-written. The site's commentary
-credits the upper bound to GPT 5.4 Pro, prompted by He, Li and Tang, and the
-lower bound to GPT 5.4 Pro and Aristotle, before citing the paper.
+verified it, and that the exposition is human-written. The erdosproblems.com
+commentary credits the upper bound to GPT 5.4 Pro, prompted by He, Li and Tang,
+and the lower bound to GPT 5.4 Pro and Aristotle, before citing the paper.
 
 A refereed version or an independent review of the argument is the reopening
 condition for the preprint qualification. The claim value is `answered`. The

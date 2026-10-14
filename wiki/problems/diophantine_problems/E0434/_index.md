@@ -26,24 +26,26 @@ $\mathrm{gcd}(A)=1$) of size $\lvert A\rvert=k$ maximises the number of integers
 not representable as the sum of finitely many elements from $A$ (with
 repetitions allowed)? Is it $\{n,n-1,\ldots,n-k+1\}$?
 
-**Formulation.** The site's wording (page last edited 31 October 2025). Read
-literally, $k\leq n$ admits $k=1$, where $\mathrm{gcd}(A)=1$ leaves only
-$A=\{1\}$ and the proposed set $\{n\}$ is admissible only for $n=1$, so the
+**Formulation.** The erdosproblems.com wording (page last edited 31 October
+2025). Read literally, $k\leq n$ admits $k=1$, where $\mathrm{gcd}(A)=1$ leaves
+only $A=\{1\}$ and the proposed set $\{n\}$ is admissible only for $n=1$, so the
 second question fails trivially for $k=1<n$. Kiss restates Erdős and Graham's
 question as Theorem 1 under the hypothesis $1<n\le t$ (the paper's $n$ is the
 problem's $k$, its $t$ the problem's $n$), so the question concerns
-$2\le k\le n$; Kiss and the site's commentary read its first question as asking
-for a maximizing set, not for every maximizer, and the formal-conjectures
-statement reads it the same way (hypothesis $2\le k$, with a note on $k=1$). The
-claim pages and the derived frontmatter standing address that question, on which
-the maximizer is in general not unique (Kiss's Theorem 2).
+$2\le k\le n$; Kiss and the erdosproblems.com commentary read its first question
+as asking for a maximizing set, not for every maximizer, and the
+formal-conjectures statement reads it the same way (hypothesis $2\le k$, with a
+note on $k=1$). The claim pages and the derived frontmatter standing address
+that question, on which the maximizer is in general not unique (Kiss's Theorem
+2).
 
-**Status.** PROVED (LEAN), the site's label. The site's commentary credits Kiss
-with the proof. The frontmatter standing is derived from the accepted claim page
+**Status.** PROVED (LEAN), the erdosproblems.com label. The erdosproblems.com
+commentary credits Kiss with the proof. The frontmatter standing is derived from
+the accepted claim page
 [[problems/diophantine_problems/E0434/claims/2003_02_13_kiss|Kiss's theorem]],
-accepted on the site's credit and the journal publication. The Lean part of the
-label refers to a separate AI-assisted Lean proof that argues from Dixmier's
-theorem. It is recorded as the claimed page
+accepted on the erdosproblems.com credit and the journal publication. The Lean
+part of the label refers to a separate AI-assisted Lean proof that argues from
+Dixmier's theorem. It is recorded as the claimed page
 [[problems/diophantine_problems/E0434/claims/2026_02_24_joshuab|Lean proof through Dixmier's interval theorem]],
 and this corpus has not built or audited it.
 

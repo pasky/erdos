@@ -38,8 +38,8 @@ $$
 This is
 [[../library/unit_fractions/bleicher_1976_denominators_egyptian_fractions_ii/theorem_3|Theorem 3]]
 of the paper (p. 610), in the form of its introduction (p. 598) and of the
-site's page for [[problems/unit_fractions/E0320/_index|Problem 320]]. The
-proof splits $\{1,\ldots,N\}$ by the presence of a prime factor above
+erdosproblems.com page for [[problems/unit_fractions/E0320/_index|Problem 320]].
+The proof splits $\{1,\ldots,N\}$ by the presence of a prime factor above
 $N/\log N$ and recurses on $r$. The same paper's
 [[../library/unit_fractions/bleicher_1976_denominators_egyptian_fractions_ii/theorem_2|Theorem 2]]
 (p. 603) gives the lower bound

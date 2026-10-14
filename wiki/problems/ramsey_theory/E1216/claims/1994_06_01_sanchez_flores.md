@@ -41,11 +41,12 @@ and Parker's Corollary 2 gives only $\lfloor\log_2(16\cdot55/7)\rfloor=6$.
 Stearns's doubling step $R(k+1)\le2R(k)$ turns $R(7)\le55$ into
 $R(k)\le55\cdot2^{k-7}$ for $k\ge7$, that is
 $f(n)\ge\lfloor\log_2n-\log_2(55)\rfloor+7$ for $n\ge55$, the bound the
-site's commentary credits to this paper; it exceeds $\lfloor\log_2n\rfloor+1$
-for $n$ in $[55\cdot2^j,2^{j+6})$ for each $j\ge0$. The zbMATH review places
-$R(7)\le55$ in this 1994 paper, as the site does; Nagy's introduction, which
-attributes the bound in the form $F(n)\ge\lfloor\log_2(n/55)\rfloor+7$ to the
-1998 paper, is in error on this point.
+erdosproblems.com commentary credits to this paper; it exceeds
+$\lfloor\log_2n\rfloor+1$ for $n$ in $[55\cdot2^j,2^{j+6})$ for each $j\ge0$.
+The zbMATH review places $R(7)\le55$ in this 1994 paper, as erdosproblems.com
+does; Nagy's introduction, which attributes the bound in the form
+$F(n)\ge\lfloor\log_2(n/55)\rfloor+7$ to the 1998 paper, is in error on this
+point.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
@@ -53,9 +54,9 @@ attributes the bound in the form $F(n)\ge\lfloor\log_2(n/55)\rfloor+7$ to the
 (Graphs and Combinatorics 10, no. 2--4, June 1994, per Crossref); the day in
 the page name is a placeholder.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-DISPROVED. In the problem's commentary, the curator credits Sánchez-Flores
-[Sa94] with the bound $f(n)\ge\lfloor\log_2n-\log_2(55)\rfloor+7$ for $n\ge55$
-(page last edited 12 April 2026). The curator is independent of the author.
-Refereed: Graphs and Combinatorics 10 (1994), no. 2--4, 367--376. The proof is
-not checked in this corpus.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem DISPROVED. In the problem's commentary, the curator credits
+Sánchez-Flores [Sa94] with the bound $f(n)\ge\lfloor\log_2n-\log_2(55)\rfloor+7$
+for $n\ge55$ (page last edited 12 April 2026). The curator is independent of the
+author. Refereed: Graphs and Combinatorics 10 (1994), no. 2--4, 367--376. The
+proof is not checked in this corpus.

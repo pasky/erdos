@@ -31,10 +31,10 @@ https://www.erdosproblems.com/1065.
 
 - [Gu04] Guy, Richard K., Unsolved problems in number theory. 3rd ed., Problem
   Books in Mathematics, Springer, New York (2004), xviii+437 pp. Section B46
-  "The largest prime factor of $n$", printed p. 154, which the site's remark
-  names, states the question in terms of the largest prime factor $P(p-1)$ of
-  $p-1$: are there infinitely many primes $p$ with $(p-1)/P(p-1)=2^k$, or
-  $=2^k\cdot 3^l$? Library home:
+  "The largest prime factor of $n$", printed p. 154, which the erdosproblems.com
+  remark names, states the question in terms of the largest prime factor
+  $P(p-1)$ of $p-1$: are there infinitely many primes $p$ with
+  $(p-1)/P(p-1)=2^k$, or $=2^k\cdot 3^l$? Library home:
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 
 **Formalization.** Statement in

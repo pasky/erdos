@@ -25,9 +25,9 @@ updated: 2026-10-08T02:16:54Z
 on $n$ vertices with no $K_5$ and at least $\delta n^2$ edges then $G$ contains
 a set of $\gg_\delta n$ vertices containing no triangle.
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 27 January
-2026). A set of vertices "containing no triangle" is a vertex set spanning a
-triangle-free induced subgraph; the largest size of such a set is the
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited
+27 January 2026). A set of vertices "containing no triangle" is a vertex set
+spanning a triangle-free induced subgraph; the largest size of such a set is the
 $K_3$-independence number $\alpha_3(G)$ of the sources (Balogh and Lenz write
 $\alpha_t(G)$; the 1983 Erdős--Hajnal--Sós--Szemerédi paper writes
 $\alpha_r(G)$). The statement claims: for every $\delta>0$ there is
@@ -36,8 +36,8 @@ $\delta n^2$ edges has $\alpha_3(G)\ge c(\delta)n$ once $n$ is large. One
 $\delta$ for which this fails disproves it. The statement holds for every
 $\delta>1/12$ (Erdős, Hajnal, Simonovits, Sós and Szemerédi) and fails for every
 $\delta<1/12$ (Liu, Reiher, Sharifzadeh and Staden); the instance $\delta=1/12$
-is not settled by these bounds. The site's equivalent form is $\delta_3(5)=0$,
-where
+is not settled by these bounds. erdosproblems.com's equivalent form is
+$\delta_3(5)=0$, where
 
 $$
 \delta_3(5)=\lim_{\epsilon\to0}\lim_{n\to\infty}\frac{\mathrm{RT}_3(n,K_5,\epsilon n)}{n^2}
@@ -50,13 +50,13 @@ $\theta_3(K_5)=\delta_3(5)$; Liu, Reiher, Sharifzadeh and Staden's
 $\varrho_3(5)$ divides by $\binom n2$, so $\varrho_3(5)=2\delta_3(5)$ (an
 authored one-line conversion: $\binom n2=n^2/2+O(n)$). The thread reports
 that the origin paper's $\theta_p(K_q)$ is likewise $2\delta_p(q)$. The
-site's label, DISPROVED (LEAN), and the Lean proof behind its qualifier are
-explained under Formalization.
+erdosproblems.com label, DISPROVED (LEAN), and the Lean proof behind its
+qualifier are explained under Formalization.
 
-**Status.** DISPROVED (LEAN), the site's label on 2026-09-18 (page last edited
-27 January 2026). The status-defining source is Theorem 3 of Balogh and Lenz
-(Israel J. Math. 194 (2013), no. 1, 45--68, refereed; cited from the arXiv v2).
-For $t\ge2$ and $2\le\ell\le t$, with $u=\lceil t/2\rceil$, it gives
+**Status.** DISPROVED (LEAN), the erdosproblems.com label on 2026-09-18 (page
+last edited 27 January 2026). The status-defining source is Theorem 3 of Balogh
+and Lenz (Israel J. Math. 194 (2013), no. 1, 45--68, refereed; cited from the
+arXiv v2). For $t\ge2$ and $2\le\ell\le t$, with $u=\lceil t/2\rceil$, it gives
 $\theta_t(K_{t+\ell})\ge\frac12(1-\frac1\ell)2^{-u^2}$. At $t=3$, $\ell=2$ this
 is $\theta_3(K_5)\ge1/64$, the value the paper displays after its Problem 5. So
 $\delta_3(5)\ge1/64>0$. For every $\epsilon>0$ and all large $n$ there are
@@ -70,8 +70,8 @@ it. It is an accepted partial claim on
 The matching construction is Theorem 1.1 of Liu, Reiher, Sharifzadeh and Staden
 (Corollary 1.2 and Theorem 1.4: $\varrho_3(5)=1/6$; J. Eur. Math. Soc., Crossref
 record of 20 October 2025; cited from the arXiv v2 of 18 August 2025). The two
-disproofs are recorded as accepted full claims, refereed and credited by the
-site, on
+disproofs are recorded as accepted full claims, refereed and credited by
+erdosproblems.com, on
 [[problems/extremal_graph_theory/E0533/claims/2011_09_20_balogh_lenz|the Balogh–Lenz claim page]]
 and
 [[problems/extremal_graph_theory/E0533/claims/2021_03_18_liu_reiher_sharifzadeh_staden|the Liu–Reiher–Sharifzadeh–Staden claim page]].
@@ -81,13 +81,13 @@ not built it.
 
 **Source.** [erdosproblems.com/533](https://www.erdosproblems.com/533),
 accessed 2026-09-18: the problem page
-(DISPROVED (LEAN), with the site's note that the answer is negative and a
-proof has been checked in Lean; last edited 27 January 2026; source keys [Er91],
-[EHSSS94, p. 306]; commentary citing [ErRo62], [BaLe13], [LRSS21], Problems
-579 and 620 and the graphs problem collection), its six-comment discussion
-thread (10 September 2025 and 27 January 2026) and its empty proof-claim tab.
-Cite as: T. F. Bloom, Erdős Problem #533, https://www.erdosproblems.com/533,
-accessed 2026-09-18.
+(DISPROVED (LEAN), with the erdosproblems.com note that the answer is negative
+and a proof has been checked in Lean; last edited 27 January 2026; source keys
+[Er91], [EHSSS94, p. 306]; commentary citing [ErRo62], [BaLe13], [LRSS21],
+Problems 579 and 620 and the graphs problem collection), its six-comment
+discussion thread (10 September 2025 and 27 January 2026) and its empty
+proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #533,
+https://www.erdosproblems.com/533, accessed 2026-09-18.
 
 **References.**
 
@@ -118,23 +118,24 @@ accessed 2026-09-18.
   on Ramsey-Turán type problems. Combinatorica 3 (1983), no. 1, 69--81,
   doi:10.1007/BF02579342. Section 6, p. 80: the $K_3$-independence variant,
   the bound $\frac1{12}n^2(1+o(1))$ announced without proof, and the question
-  whether it is best possible. Not a site key for this problem. Library home:
+  whether it is best possible. Not an erdosproblems.com key for this problem.
+  Library home:
   [[../library/ramsey_theory/erdos_1983_more_results_ramsey_turan_type_problems/_index|erdos_1983_more_results_ramsey_turan_type_problems]]
   (a Rényi archive scan).
 - [EHSSS94] Erdős, P., Hajnal, A., Simonovits, M., Sós, V. T. and Szemerédi,
   E., Turán-Ramsey theorems and $K_p$-independence numbers. Combin. Probab.
   Comput. 3 (1994), no. 3, 297--325, doi:10.1017/S0963548300001218 (the
-  site's reference text of 2026-09-18; Crossref record; a reprint in
+  erdosproblems.com reference text of 2026-09-18; Crossref record; a reprint in
   Combinatorics, Geometry and Probability, Cambridge Univ. Press (1997),
-  253--282, doi:10.1017/CBO9780511662034.025, is also on record). The site
-  cites p. 306. Not held: one request to the DOI resolved to
+  253--282, doi:10.1017/CBO9780511662034.025, is also on record).
+  erdosproblems.com cites p. 306. Not held: one request to the DOI resolved to
   the publisher's abstract page ("Get access"), and no open copy was located.
   Its bounds are quoted on pp. 3--4 of [BaLe13] and pp. 2--3 of [LRSS21], and
   the thread cites its Theorem 2.11.
 - [Er91] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Graph theory, combinatorics, and applications,
-  Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406. Site source key; not held
-  (after the Rényi archive's 1989 cutoff).
+  Vol. 1 (Kalamazoo, MI, 1988) (1991), 397--406. erdosproblems.com source key;
+  not held (after the Rényi archive's 1989 cutoff).
 - [EHSSS93] Erdős, P., Hajnal, A., Simonovits, M., Sós, V. T. and Szemerédi,
   E., Turán-Ramsey theorems and simple asymptotically extremal structures.
   Combinatorica 13 (1993), 31--56. A source of Problem 615; a different
@@ -163,24 +164,24 @@ $p=3$, $\ell=1$; it is linked as a formalization on
 The community database (teorth/erdosproblems, 2026-09-18) records `status`
 "disproved (Lean)" as of its last update on 23 August 2026 (the informal status
 disproved, last updated 26 January 2026), `formal_status` Lean with no URL, and
-the statement as formalized, last updated 2 July 2026; the site's indicator
-reads "Formalised statement? Yes". The corpus has built and checked none of
-these files, so no `formalized` evidence is listed and no kernel credit is
-claimed.
+the statement as formalized, last updated 2 July 2026; the erdosproblems.com
+indicator reads "Formalised statement? Yes". The corpus has built and checked
+none of these files, so no `formalized` evidence is listed and no kernel credit
+is claimed.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; DISPROVED (LEAN); last edited 27 January 2026. The site's commentary
-restates the question as $\delta_3(5)=0$ in the Ramsey--Turán notation of the
-Formulation paragraph, attributes it to Erdős, Hajnal, Simonovits, Sós and
-Szemerédi, and lists their three results: $\delta_3(5)\le1/12$,
-$\delta_3(4)=0$, and $\delta_3(7)\ge1/4$. The last rests on an Erdős--Rogers
-graph [ErRo62] (see [620]), $K_4$-free on $n$ vertices and with a triangle
-inside each vertex set of size $n^{1-c}$ or more; the join of two disjoint
-copies is $K_7$-free on $2n$ vertices, has $n^2$ or more edges, and still has
-a triangle inside each vertex set of size $2n^{1-c}$ or more (the source is
-paged under "The Erdős--Rogers ingredient" below). The commentary then
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED (LEAN); last edited 27 January 2026. The erdosproblems.com
+commentary restates the question as $\delta_3(5)=0$ in the Ramsey--Turán
+notation of the Formulation paragraph, attributes it to Erdős, Hajnal,
+Simonovits, Sós and Szemerédi, and lists their three results:
+$\delta_3(5)\le1/12$, $\delta_3(4)=0$, and $\delta_3(7)\ge1/4$. The last rests
+on an Erdős--Rogers graph [ErRo62] (see [620]), $K_4$-free on $n$ vertices and
+with a triangle inside each vertex set of size $n^{1-c}$ or more; the join of
+two disjoint copies is $K_7$-free on $2n$ vertices, has $n^2$ or more edges, and
+still has a triangle inside each vertex set of size $2n^{1-c}$ or more (the
+source is paged under "The Erdős--Rogers ingredient" below). The commentary then
 attributes the disproof, the positivity of $\delta_3(5)$, to Balogh and Lenz
 [BaLe13], gives $1/12$ as the exact value of $\delta_3(5)$ with the matching
 lower bound from a construction of Liu, Reiher, Sharifzadeh and Staden
@@ -188,8 +189,8 @@ lower bound from a construction of Liu, Reiher, Sharifzadeh and Staden
 thread's six comments are written out below; the proof-claim tab is empty;
 the community database record says disproved (Lean).
 
-**Origin.** The site's source key is [EHSSS94, p. 306], not held. The question
-is older in the record:
+**Origin.** The erdosproblems.com source key is [EHSSS94, p. 306], not held. The
+question is older in the record:
 [[../library/ramsey_theory/erdos_1983_more_results_ramsey_turan_type_problems/problem_p80|Section 6, p. 80]]
 of [EHSS83] defines $\alpha_r(G)$ as "the size of the largest subset
 $A\subset V$ for which $G(A)$ does not contain a complete $K_r$ graph" and
@@ -219,20 +220,20 @@ $u=\lceil t/2\rceil$. Then
 $\theta_t(K_{t+\ell})\ge\frac12\left(1-\frac1\ell\right)2^{-u^2}$." Here
 $\theta_t(H)$ is
 $\lim_{\epsilon\to0}\lim_{n\to\infty}\mathrm{RT}_t(n,H,\epsilon n)/n^2$ (display
-(1), p. 2), the site's $\delta_3(5)$ when $t=3$, $H=K_5$. At $t=3$, $\ell=2$,
-$u=2$ the bound is $\frac12\cdot\frac12\cdot2^{-4}=\frac1{64}$, which p. 4
-displays as $\frac1{64}\le\theta_3(K_5)$ (with $\frac1{48}\le\theta_3(K_6)$,
-$\frac{16}{63}\le\theta_3(K_8)$, $\frac{12}{47}\le\theta_3(K_9)$) after
-optimizing
+(1), p. 2), erdosproblems.com's $\delta_3(5)$ when $t=3$, $H=K_5$. At $t=3$,
+$\ell=2$, $u=2$ the bound is $\frac12\cdot\frac12\cdot2^{-4}=\frac1{64}$, which
+p. 4 displays as $\frac1{64}\le\theta_3(K_5)$ (with
+$\frac1{48}\le\theta_3(K_6)$, $\frac{16}{63}\le\theta_3(K_8)$,
+$\frac{12}{47}\le\theta_3(K_9)$) after optimizing
 [[../library/extremal_graph_theory/balogh_2013_ramsey_turan_numbers_graphs_hypergraphs/corollary_4|Corollary 4]].
 The paper poses the question as Problem 2 (p. 3), "([5], [6], and [17, Problem
 17]) Determine if $\theta_3(K_5)>0$", notes that "for $t=3$, it is easy to
 observe that $\theta_3(K_4)=0$ and $\theta_3(K_7)>0$, motivating Problem 2", and
 calls the answer to Problems 1 and 2 its main result. The deduction to the
-site's statement (authored): $\theta_3(K_5)\ge1/64$ means that for every
-$\epsilon>0$ and every large $n$ there is a $K_5$-free graph $G$ on $n$ vertices
-with $\alpha_3(G)\le\epsilon n$ and at least $(1/64-o(1))n^2$ edges. Take
-$\delta=1/128$ and any $c>0$; with $\epsilon=c/2$ the graphs have at least
+erdosproblems.com statement (authored): $\theta_3(K_5)\ge1/64$ means that for
+every $\epsilon>0$ and every large $n$ there is a $K_5$-free graph $G$ on $n$
+vertices with $\alpha_3(G)\le\epsilon n$ and at least $(1/64-o(1))n^2$ edges.
+Take $\delta=1/128$ and any $c>0$; with $\epsilon=c/2$ the graphs have at least
 $\delta n^2$ edges for large $n$, and every set of $cn$ vertices spans a
 triangle, since $\alpha_3(G)\le cn/2<cn$. So no $c(1/128)$ exists and the
 statement is false. Acceptance evidence: Israel Journal of Mathematics is
@@ -264,7 +265,7 @@ $\varrho_3(5)=\frac16$", and
 [[../library/extremal_graph_theory/liu_2021_geometric_constructions_ramsey_turan_theory/theorem_1_4|Theorem 1.4]]
 (p. 5) gives $\varrho_3(3t+2)=\frac{5t-4}{5t+1}$ and
 $\varrho_4(4t+2)=\frac{7t-6}{7t+1}$, whose case $t=1$ is $\varrho_3(5)=1/6$
-again. With the normalization above, $\varrho_3(5)=1/6$ is the site's
+again. With the normalization above, $\varrho_3(5)=1/6$ is erdosproblems.com's
 $\delta_3(5)=1/12$. The paper's own account of the state before it (p. 3):
 "even the simplest subproblem of determining whether $\varrho_3(5)>0$ was
 only confirmed in 2011 by a breakthrough of Balogh and Lenz [5]", with
@@ -277,16 +278,16 @@ with the arXiv v2. Read depth: claims checked for the definition of
 $\varrho_p(q)$, Conjecture A, Theorems 1.1, 1.3, 1.4, 1.5, Corollary 1.2 and
 Problem C (pp. 2--6); the constructions (Sections 3--4) were not read.
 
-**The Erdős--Rogers ingredient.** The site's $\delta_3(7)\ge1/4$ paragraph
-uses the
+**The Erdős--Rogers ingredient.** erdosproblems.com's $\delta_3(7)\ge1/4$
+paragraph uses the
 [[../library/extremal_graph_theory/erdos_1962_construction_certain_graphs/theorem_section_3|Section 3 Theorem]]
 of [ErRo62] at $k=4$ (p. 704): for a sufficiently
 large integer $l$ there is a graph with fewer than $l^{1+c_4}$ vertices,
 containing no $K_4$, in which every $l$ vertices contain a triangle; the
-site's form, a triangle inside each vertex set of size $n^{1-c}$ or more, is
-this with $n\approx l^{1+c_4}$. Balogh and Lenz (p. 4) use the same theorem
-inside Corollary 4 ("Such a graph exists by the Erdős-Rogers Theorem [7]")
-and record that the origin paper proved
+erdosproblems.com form, a triangle inside each vertex set of size $n^{1-c}$ or
+more, is this with $n\approx l^{1+c_4}$. Balogh and Lenz (p. 4) use the same
+theorem inside Corollary 4 ("Such a graph exists by the Erdős-Rogers Theorem
+[7]") and record that the origin paper proved
 $\mathrm{RT}_3(n,K_7,o(n))=\frac14n^2+o(n^2)$. The theorem is the origin of
 [[problems/extremal_graph_theory/E0620/_index|Problem 620]].
 
@@ -298,27 +299,28 @@ account and date, from the discussion page of 2026-09-18:
   choice: if $G$ has $\gg n^2$ edges and no $K_6$, then some set of
   $n^{1-o(1)}$ vertices spans no triangle (the comment works with $n^{0.9}$
   and says $0.9$ can be any constant below $1$); the argument would give
-  the site's statement from a strong form of the Balog--Szemerédi--Gowers
-  lemma that Kostochka and Sudakov showed to be false. Not checked.
+  the erdosproblems.com statement from a strong form of the
+  Balog--Szemerédi--Gowers lemma that Kostochka and Sudakov showed to be false.
+  Not checked.
 - 27 January 2026, 01:34 (the account BorisAlexeev): reports that ChatGPT
   derives a negative answer from [LRSS21], Section 3 with $\ell=1$, $p=3$,
-  giving $\delta=\frac1{12}-o(1)$, against the site's then-stated positive
-  result for $\delta>\frac1{16}$; the comment had not looked further. The
-  site was updated after this comment.
+  giving $\delta=\frac1{12}-o(1)$, against erdosproblems.com's then-stated
+  positive result for $\delta>\frac1{16}$; the comment had not looked further.
+  erdosproblems.com was updated after this comment.
 - 27 January 2026, 04:09 (TerenceTao): reports that ChatGPT Pro takes the
   $1/16$ for a typo and holds that Erdős and his coauthors in fact proved the
   $1/12$ positive result, which Liu, Reiher, Sharifzadeh and Staden match at
   $1/12-o(1)$; the commenter's own inference is that [Er91] is presumably
-  the source of the $1/16$, and that the site should change it to $1/12$;
-  the graphs problem collection reports $1/12$.
+  the source of the $1/16$, and that erdosproblems.com should change it to
+  $1/12$; the graphs problem collection reports $1/12$.
 - 27 January 2026, 05:19 (the account Adenwalla): Theorem 2.11 of [EHSSS94]
   gives the $1/12$ positive result (take $p=3$, $l=2$); the confusion comes
   from a false factor $1/2$ in its Theorem 2.6; the least $\delta$ for the
   analogous $K_6$ statement is unknown, with $\frac18\le\delta\le\frac16$.
-- 27 January 2026, 07:23 (the site's curator): [LRSS21] resolves the
+- 27 January 2026, 07:23 (the erdosproblems.com curator): [LRSS21] resolves the
   question completely, while the bare positivity of $\delta$ seems to have
-  been proved earlier by Balogh and Lenz; the site was updated; the $1/16$
-  was a typo that had gone unnoticed.
+  been proved earlier by Balogh and Lenz; erdosproblems.com was updated; the
+  $1/16$ was a typo that had gone unnoticed.
 - 27 January 2026, 18:25 (Adenwalla): [EHSSS94] in fact show
   $\delta_3(7)=\frac14$ (Theorem 2.6(b), mentioned below Theorem 2.13); the
   paper defines $\theta_p(K_q)$ as $2\delta_p(q)$ and later forgets the
@@ -326,8 +328,8 @@ account and date, from the discussion page of 2026-09-18:
 
 ChatGPT's report and the [EHSSS94] locators are recorded as the thread
 gives them; the paper is not held, so the locators were not checked. The
-correction from $1/16$ to $1/12$ concerns the site's commentary, not the
-status.
+correction from $1/16$ to $1/12$ concerns the erdosproblems.com commentary, not
+the status.
 
 **The $K_6$ case (not the problem).** Whether
 $\mathrm{RT}_3(n,K_6,o(n))=o(n^2)$ was the open question of [EHSS83], p. 80;
@@ -352,8 +354,8 @@ value as this page does.
 **Search scope.** None of the routes below found a dispute
 of Theorem 3 or of $\varrho_3(5)=1/6$, or a later change.
 
-- The site: problem page, discussion thread and proof-claim tab on
-  2026-09-18; the site's reference text for [EHSSS94]; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
+  2026-09-18; the erdosproblems.com reference text for [EHSSS94]; the
   formal-conjectures file at the pinned commit; the community database on
   2026-09-18.
 - arXiv: the API records and abstract pages of 1109.4428 (v1 20 September
@@ -387,9 +389,9 @@ only: Theorem 3, Corollary 4, Theorems 1.1 and 1.4 and Corollary 1.2 are
 paged at claims checked; the constructions were not read or reviewed.
 (4) The journal texts of [BaLe13] and [LRSS21] were not compared with the
 arXiv preprints. (5) The thread's near-miss argument and ChatGPT's report
-are unchecked leads. (6) The Lean proof behind the site's LEAN qualifier,
-named by formal-conjectures since 18 September 2026 and absent from the
-commit at main on 2026-09-18, has not been built or audited by the corpus.
+are unchecked leads. (6) The Lean proof behind erdosproblems.com's LEAN
+qualifier, named by formal-conjectures since 18 September 2026 and absent from
+the commit at main on 2026-09-18, has not been built or audited by the corpus.
 
 ## Known results
 

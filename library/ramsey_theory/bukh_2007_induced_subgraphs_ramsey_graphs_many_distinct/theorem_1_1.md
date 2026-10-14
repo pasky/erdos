@@ -69,7 +69,7 @@ The Erdős--Szemerédi edge-density theorem for graphs with small $\hom(G)$
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0637/_index|Problem 637]]: the statement is the site's,
-  term for term (a linear-size induced subgraph with $\gg n^{1/2}$ distinct
-  degrees under the $\gg\log n$ homogeneous-set hypothesis), and the paper
-  names it the Erdős--Faudree--Sós conjecture.
+- [[../wiki/problems/ramsey_theory/E0637/_index|Problem 637]]: the statement is
+  erdosproblems.com's, term for term (a linear-size induced subgraph with
+  $\gg n^{1/2}$ distinct degrees under the $\gg\log n$ homogeneous-set
+  hypothesis), and the paper names it the Erdős--Faudree--Sós conjecture.

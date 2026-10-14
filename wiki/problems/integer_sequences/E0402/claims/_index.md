@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 402, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0402/claims
@@ -24,6 +24,6 @@ Huxley's prime-gap bound.
 [[problems/integer_sequences/E0402/claims/1996_01_01_balasubramanian_soundararajan|1996_01_01_balasubramanian_soundararajan]]: Balasubramanian and Soundararajan prove Graham's conjecture for every set of
 $N$ integers, so every finite set $A$ has two members $a,b$ with
 $\gcd(a,b)\le a/|A|$. The refereed paper appeared in Acta Arithmetica 75
-(1996), and the site credits it.
+(1996), and erdosproblems.com credits it.
 
 ***

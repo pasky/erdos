@@ -54,7 +54,7 @@ and some related questions, Amer. Math. Monthly 109 (2002), no. 6,
 
 - [[../wiki/problems/integer_sequences/E1074/_index|Problem 1074]]: the
   problem's second question asks whether $\lvert P\cap[1,x]\rvert/\pi(x)$
-  has a limit and what it is. With the site's $P$ equal to the paper's
+  has a limit and what it is. With erdosproblems.com's $P$ equal to the paper's
   $\mathcal P$, Problem A asks the first part; it does not ask for the
   value but guesses it from the table. The paper gives numerical data
   only.

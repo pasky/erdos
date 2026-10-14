@@ -26,7 +26,7 @@ at least k and mu_k edges has one too, both best possible.
 
 P. Erdős: Remarks on a paper of Pósa, Magyar Tud. Akad. Mat. Kutató Int.
 Közl. 7 (1962), 227--229 (received August 2, 1962). MR 32 #2348; Zentralblatt
-114,400. The site's reference key Er62e.
+114,400. The erdosproblems.com reference key Er62e.
 
 **Edition read.** The copy read for this card is the Rényi archive's
 scan `1962-17.pdf`: three pages, printed pp. 227--229 = PDF pp. 1--3 (printed
@@ -71,15 +71,15 @@ be for a given edge count to force a cycle through all but a given number of
 the n vertices; Ore's theorem is its Hamiltonian case, and the Theorem is a
 minimum-degree form of that case.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1012/_index|#1012]]: the site's key
-Er62e. The
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1012/_index|#1012]]: the
+erdosproblems.com key Er62e. The
 [[extremal_graph_theory/erdos_1962_remarks_paper_posa/theorem_p227|Theorem]]
-(p. 227) is the Hamiltonian case of the problem, k = 0 in the site's
-indexing, in a minimum-degree form, and Ore's theorem, the site's "f(0) = 1",
-is quoted on p. 227 with its sharpness; the paper does not state the C_{n-k}
-result for k >= 1 that the site's commentary derives from it (the
-derivation, from the site's discussion thread, is recorded on the problem
-page with its provenance).
+(p. 227) is the Hamiltonian case of the problem, k = 0 in the erdosproblems.com
+indexing, in a minimum-degree form, and Ore's theorem, erdosproblems.com's
+"f(0) = 1", is quoted on p. 227 with its sharpness; the paper does not state the
+C_{n-k} result for k >= 1 that the erdosproblems.com commentary derives from it
+(the derivation, from the erdosproblems.com discussion thread, is recorded on
+the problem page with its provenance).
 
 **Results.**
 

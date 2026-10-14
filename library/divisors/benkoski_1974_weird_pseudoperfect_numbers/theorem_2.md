@@ -58,8 +58,8 @@ None; elementary.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0876/_index|Problem 876]]: the English source
-  of the bound behind the site's reciprocal-sum question ("Erdős had proved
-  this is $<100$"); the constant is unspecified here, $103$ in the 1962
+  of the bound behind erdosproblems.com's reciprocal-sum question ("Erdős had
+  proved this is $<100$"); the constant is unspecified here, $103$ in the 1962
   paper and in Erdős's 1975 restatement, and $100$ in his 1977 restatement,
   where Sullivan's improvement to $4$ and conjecture of a maximum
   "only a little greater than $2$" are reported.

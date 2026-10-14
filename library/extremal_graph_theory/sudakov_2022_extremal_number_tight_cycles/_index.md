@@ -55,8 +55,8 @@ graphs; the hypercube appears only as a host graph in the concluding remarks
 in the hypercube), where a solution of that conjecture for r = 3 is said to
 improve the bound for subgraphs of {0,1}^n with no cycle of length 4k+2 for
 large k (the whole text layer was searched). The bound ex(n;Q_k) =
-o(n^{2-1/k}) that the site records for problem 576 under this paper's key is
-the consequence, for k >= 3, that Janzer and Sudakov draw from their
+o(n^{2-1/k}) that erdosproblems.com records for problem 576 under this paper's
+key is the consequence, for k >= 3, that Janzer and Sudakov draw from their
 Theorem 1.2 (ex(n,H) = o(n^{2-1/d}) for every K_{d,d}-free bipartite H with
 maximum degree at most d on one side), which they attribute to the IMRN version
 of this paper (their [26]); it is consumed there, on

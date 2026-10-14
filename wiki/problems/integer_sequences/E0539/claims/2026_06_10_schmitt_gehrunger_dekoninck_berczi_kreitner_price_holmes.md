@@ -4,8 +4,8 @@ title: The exponent of h(n) is one half
 desc: |
   Theorem A.1 of the July 2026 ProofCouncil preprint by Schmitt and six
   coauthors gives $h(n)\le n^{1/2}\exp(C\sqrt{\log n})$, so the exponent of
-  $h(n)$ is $1/2$. It appears in the site's commentary under the site's label
-  OPEN and is not refereed.
+  $h(n)$ is $1/2$. It appears in the erdosproblems.com commentary under the
+  erdosproblems.com label OPEN and is not refereed.
 authors:
 - Johannes Schmitt
 - Tim Gehrunger
@@ -70,15 +70,15 @@ size up to the factor $K$ while keeping $|D(S_K(F))|\le|D(F)|^2+2(K-1)|F-F|$
 $\alpha_s=2^{s+1}/(2^{s+2}-1)$ in dimension $3\cdot2^s-1$ (Propositions A.7
 and A.8), and lets $s$ grow with $n$. The lower bound comes from
 $|F-F|\ge2n-1$ (Lemma A.3) and $F-F\subseteq D(F)-D(F)$ (Proposition A.4).
-The site's curator's thread comment of 15 June 2026 gives the same
+The erdosproblems.com curator's thread comment of 15 June 2026 gives the same
 construction from $A_0=\{0\}$ by the recursion
 $A_{k+1}=\{(j,x+jM,y-jM):0\le j<K,\ x,y\in A_k\}$ with
 $|D_{k+1}|\le|D_k|^2+2K|A_k-A_k|$, choosing $K\asymp e^{\sqrt{\log n}}$ and
 $2^t\asymp\sqrt{\log n}$, and remarks that no two-dimensional strip is
 needed as a seed.
 
-**Submission note.** Posted to the site's forum by Tim Gehrunger on 10 June
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Tim Gehrunger on
+10 June 2026:
 
 > During the preliminary testing/evaluation of ProofCouncil, an LLM-agent system
 > developed for the second FirstProof challenge, we ran the system on several
@@ -121,15 +121,15 @@ formal-conjectures variants $h(n)=\Theta(n^{2/3})$ and $n^{2/3}\ll h(n)$ in
 the negative. The value is `proved`, not `answered`, because the result does
 not determine what the problem asks: the order of $h(n)$ within the factor
 $e^{O(\sqrt{\log n})}$ is not covered, which the authors record as open and
-which this page reads as what the site's "estimate" asks under its label
-OPEN; neither is whether $h(n)\asymp\sqrt n$,
-which the Lean development on
+which this page reads as what erdosproblems.com's "estimate" asks under its
+label OPEN; neither is whether $h(n)\asymp\sqrt n$, which the Lean development
+on
 [[problems/integer_sequences/E0539/claims/2026_09_05_kitamura|Kitamura's claim page]]
 answers in the negative without a paper.
 
-**Postings.** The result was announced in the site's thread on 10 June 2026 by
-an account of one of the authors, with the statement, the exponents $\alpha_s$
-and a pointer to the paper in the public GitHub repository
+**Postings.** The result was announced in the erdosproblems.com thread on 10
+June 2026 by an account of one of the authors, with the statement, the exponents
+$\alpha_s$ and a pointer to the paper in the public GitHub repository
 `eth-sri/proof-council`, which also holds the authors' Lean development; the
 announcement names GPT 5.5 Pro as the main driver of the system, and the thread
 post says the exact order is left open within a subexponential factor. The arXiv
@@ -161,19 +161,19 @@ resolution proofs were developed with assistance from OpenAI Codex.
 Neither repository was built, replayed or audited by this corpus, and no
 kernel credit is claimed.
 
-**Standing.** Claimed. The site's curator, Thomas Bloom, who is
+**Standing.** Claimed. The erdosproblems.com curator, Thomas Bloom, who is
 independent of the authors, adopted the bound into the problem's
 commentary on 15 June 2026, crediting ProofCouncil with
 $h(n)\le e^{O(\sqrt{\log n})}n^{1/2}$ and hence $h(n)=n^{1/2+o(1)}$, and
 wrote in the thread the same day that, seen after the fact, the idea is a
 natural one, giving Bloom's own simplified sketch of the construction; the
 label stayed OPEN, and the adoption of a bound into the commentary of a
-problem the site labeled OPEN is not an acceptance, so no `reviewed`
+problem Bloom's catalog labeled OPEN is not an acceptance, so no `reviewed`
 evidence is listed. The authors write (p. 11) that the exact asymptotic
 order of $h(n)$ remains open, and their announcement puts it within a
 subexponential factor; this page reads the label the same way, the
 question asking for an estimate. Not refereed: no journal version was found
-on 2026-09-18 or 2026-10-07 from the arXiv record and the site. Not
+on 2026-09-18 or 2026-10-07 from the arXiv record and erdosproblems.com. Not
 formalized in the sense of this corpus: the Lean developments cover Theorem
 A.1 except the bound $h(n)\le n^{1/2}\exp(C\sqrt{\log n})$, and this
 corpus has not built or audited them. Read depth: the statement of Theorem

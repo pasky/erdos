@@ -71,8 +71,9 @@ that Baumgartner and Hajnal proved $\omega_1^2\to(\omega_1\omega,3,3)^2$ in
 ZFC, the case $\kappa=\omega$ of the claim, which is the case the problem uses.
 The survey is refereed, and its author is not an author of the paper. The
 volume is a conference proceedings, and no evidence that its papers were
-refereed was found, so `refereed` is not listed. The site's commentary does not
-cite the paper. Nothing on this page is independently reviewed by this project.
+refereed was found, so `refereed` is not listed. The erdosproblems.com
+commentary does not cite the paper. Nothing on this page is independently
+reviewed by this project.
 
 **Attribution of $k=1$.** Komjáth attributes the case $k=1$, in the form
 $\omega_1^2\to(\omega_1\alpha,3)^2$ for every $\alpha<\omega_1$, to Erdős and

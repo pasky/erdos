@@ -2,10 +2,10 @@
 name: problems/set_theory/E1176/claims/2003_01_01_hajnal_komjath
 title: Hajnal and Komjáth's consistency of the simultaneous coloring property, as credited
 desc: |
-  The site credits Hajnal and Komjáth (Combinatorica, 2003) with the consistency
-  of the statement that every $\aleph_1$-chromatic graph has an edge coloring
-  with $\aleph_1$ colors in which every countable vertex partition has a class
-  with edges of all colors.
+  erdosproblems.com credits Hajnal and Komjáth (Combinatorica, 2003) with the
+  consistency of the statement that every $\aleph_1$-chromatic graph has an edge
+  coloring with $\aleph_1$ colors in which every countable vertex partition has
+  a class with edges of all colors.
 authors:
 - András Hajnal
 - Péter Komjáth
@@ -35,14 +35,14 @@ notation of Erdős, Galvin and Hajnal (1975, §6), this is the property
 $P(G,\aleph_1,\aleph_1)$, and the question is the case $\kappa=\aleph_1$ of
 their Problem 3, which asks whether $P(G,\kappa,\kappa)$ holds for every graph
 of chromatic number $\kappa\ge\aleph_0$. The abstract of the paper states the
-conjecture in the catalog's form, for a graph $X$ on a ground set $V$ with
-chromatic number $\aleph_1$, and announces several partial results, variants and
-consistency results concerning it. The booklet [Va99, 7.93], which is the
-problem's source, and the site's remark credit Hajnal and Komjáth with the
-consistency of the statement: it holds in some model of ZFC, so ZFC does not
-refute it, which the site labeled NOT DISPROVABLE. The scope and the model of
-the consistency theorem are stated below from a secondary source. The statement
-is not known to be a theorem of ZFC.
+conjecture in the erdosproblems.com form, for a graph $X$ on a ground set $V$
+with chromatic number $\aleph_1$, and announces several partial results,
+variants and consistency results concerning it. The booklet [Va99, 7.93], which
+is the problem's source, and the erdosproblems.com remark credit Hajnal and
+Komjáth with the consistency of the statement: it holds in some model of ZFC, so
+ZFC does not refute it, which Bloom's catalog labeled NOT DISPROVABLE. The scope
+and the model of the consistency theorem are stated below from a secondary
+source. The statement is not known to be a theorem of ZFC.
 
 **Covers.** One side of an independence result: the statement holds in a model
 of ZFC, so ZFC does not refute it. The other side, that ZFC does not prove the
@@ -55,14 +55,15 @@ consistency theorem come from a secondary source, Dániel T. Soukup's workshop
 handout *Open problems around uncountable graphs* (University of East Anglia,
 November 2015), on
 [[../library/set_theory/soukup_2015_open_problems_around_uncountable_graphs/_index|its source card]]:
-its Conjecture 6.1, attributed there to Erdős and Hajnal, is the catalog's
-conjecture for every graph of chromatic number $\aleph_1$ (an edge coloring
-$c:E\to\omega_1$ such that for every partition $V=\bigcup_{i<\omega}V_i$ some
-$V_i$ carries every color), and the handout records that it holds consistently,
-that adding a single Cohen real suffices, and that the result is the paper
-above. So the theorem covers every graph of chromatic number $\aleph_1$ and
-holds in the extension by one Cohen real. The booklet of 1999 credits the
-consistency before the paper's receipt, so the result predates its publication.
+its Conjecture 6.1, attributed there to Erdős and Hajnal, is the
+erdosproblems.com conjecture for every graph of chromatic number $\aleph_1$ (an
+edge coloring $c:E\to\omega_1$ such that for every partition
+$V=\bigcup_{i<\omega}V_i$ some $V_i$ carries every color), and the handout
+records that it holds consistently, that adding a single Cohen real suffices,
+and that the result is the paper above. So the theorem covers every graph of
+chromatic number $\aleph_1$ and holds in the extension by one Cohen real. The
+booklet of 1999 credits the consistency before the paper's receipt, so the
+result predates its publication.
 
 **Source.** András Hajnal and Péter Komjáth, *Some remarks on the simultaneous
 chromatic number*, Combinatorica 23 (2003), no. 1, 89--104; DOI

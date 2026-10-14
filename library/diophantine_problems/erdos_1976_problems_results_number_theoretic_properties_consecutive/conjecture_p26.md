@@ -68,6 +68,7 @@ Rankin's 1938 theorem [15], as cited; neither source is held here.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0929/_index|Problem 929]]: the site's cited
-  origin; the conjecture is the problem's displayed question and Rosser's
-  bound is the lower bound the site's commentary quotes.
+- [[../wiki/problems/integer_sequences/E0929/_index|Problem 929]]:
+  erdosproblems.com's cited origin; the conjecture is the problem's displayed
+  question and Rosser's bound is the lower bound the erdosproblems.com
+  commentary quotes.

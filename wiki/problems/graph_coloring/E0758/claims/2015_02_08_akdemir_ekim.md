@@ -37,15 +37,15 @@ when $n\le c_0(m)$, and prove $c_0(4)=12$ by a computer-assisted proof built
 on an efficient graph generation method. Hence $z(12)\le4$ and $z(13)\ge5$;
 with the lower bound $z(12)\ge4$ of Erdős and Gimbel this gives $z(12)=4$, and
 with $z(13)\le z(12)+1$ it gives $z(13)=5$. The remaining values of $z(n)$ for
-$n\le19$ follow, as the site's remark states, by short inductive arguments
-from $R(3,3)=6$ and $R(4,4)=18$. The paper treats the general defective
-version $c_k(m)$ and also establishes $c_1(3)=12$ and $c_2(2)=10$.
+$n\le19$ follow, as the erdosproblems.com remark states, by short inductive
+arguments from $R(3,3)=6$ and $R(4,4)=18$. The paper treats the general
+defective version $c_k(m)$ and also establishes $c_1(3)=12$ and $c_2(2)=10$.
 
 **Acceptance.** Refereed:
 [[../library/graph_coloring/akdemir_2015_advances_defective_parameters_graphs/_index|A. Akdemir and T. Ekim, Advances on defective parameters in graphs]],
 Discrete Optimization 16 (2015), 62–69. It was published online on 2015-02-08,
-the date this page carries, and appeared in the issue of May 2015. The site's
-curator does not cite the paper. The problem page credits
+the date this page carries, and appeared in the issue of May 2015. The
+erdosproblems.com curator does not cite the paper. The problem page credits
 [[problems/graph_coloring/E0758/claims/2024_09_15_mehta|Mehta's later computation]]
 of the same value by a different route, whose first archived record is dated
 2024-09-15. Demirci, Ekim and Yıldız (arXiv:2107.12031, 2021) cite the three

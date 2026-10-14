@@ -61,5 +61,6 @@ Same-paper Theorem 1(1) and its construction.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0613/_index|Problem 613]]: the explicit failure of the
-  statement at $n=5$, the instance the site's commentary names and the one
-  checked in the external Lean file that the formal-conjectures entry cites.
+  statement at $n=5$, the instance the erdosproblems.com commentary names and
+  the one checked in the external Lean file that the formal-conjectures entry
+  cites.

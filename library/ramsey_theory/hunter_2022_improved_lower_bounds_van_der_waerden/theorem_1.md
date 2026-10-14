@@ -19,14 +19,14 @@ every blue-red coloring of $[N]=\{1,\ldots,N\}$ contains a blue 3-term
 arithmetic progression or a red $k$-term arithmetic progression;
 $f(N)$ is the smallest $k$ such that $w(3,k)>N$, so that some coloring of
 $[N]$ has no blue 3-term progression and no red progression of length
-$f(N)$. (The site's Problem 721 exchanges the colors.)
+$f(N)$. (erdosproblems.com's Problem 721 exchanges the colors.)
 
 **Theorem 1** (p. 2). "For some absolute constants $C,c>0$ the following
 holds. We have $w(3,k)\ge k^{b(k)}$, where $b(k)=\frac{c\log k}{\log\log k}$.
 Equivalently, $f(N)\le e^{C(\log N)^{1/2}(\log\log N)^{1/2}}$."
 
-Since $k^{b(k)}=\exp(c(\log k)^2/\log\log k)$, this is the bound the site
-prints as Hunter's improvement of Green's.
+Since $k^{b(k)}=\exp(c(\log k)^2/\log\log k)$, this is the bound
+erdosproblems.com prints as Hunter's improvement of Green's.
 
 **Remark 1.1** (p. 2). "In the end of [6, Section 2], Green stated that it
 is reasonable to believe $w(3,k)\le k^{O(\log k)}$ or equivalently
@@ -78,5 +78,5 @@ of which this is a modification.
   the bound the problem page records for Hunter. It is superpolynomial, so it
   meets the problem's non-trivial lower-bound challenge, which Green's Theorem
   1.1 met first; it does not determine the order of magnitude. Footnote 1 is the
-  shape of the argument behind the site's upper bound $\exp(O((\log k)^9))$,
-  which the paper does not state.
+  shape of the argument behind erdosproblems.com's upper bound
+  $\exp(O((\log k)^9))$, which the paper does not state.

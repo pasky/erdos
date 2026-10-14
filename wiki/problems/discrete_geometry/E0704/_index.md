@@ -38,10 +38,10 @@ $$
 
 exist?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 10 April
-2026). Its proof-claims thread carried no claim when the site froze it on 6
-October 2026. The problem's three questions are listed as its parts. The
-accepted partial claims of
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 10
+April 2026). Its proof-claims thread carried no claim when erdosproblems.com
+froze it on 6 October 2026. The problem's three questions are listed as its
+parts. The accepted partial claims of
 [[problems/discrete_geometry/E0704/claims/1981_12_01_frankl_wilson|Frankl and Wilson]]
 and
 [[problems/discrete_geometry/E0704/claims/2000_04_30_raigorodskii|Raigorodskii]]
@@ -74,10 +74,10 @@ The question generalizes the chromatic number of the plane,
 [[problems/discrete_geometry/E0508/_index|Problem 508]], which is the case
 $n=2$: estimate $\chi(G_n)$ for the unit distance graph of $\mathbb R^n$,
 decide whether it grows exponentially in $n$, and decide whether
-$\chi(G_n)^{1/n}$ converges. The site's remarks (page last edited 10 April
-2026), in the corpus's words: Frankl and Wilson [FrWi81] proved exponential
-growth, $\chi(G_n)\ge(1+o(1))\,1.2^n$, which answers the second question
-yes; Raigorodskii [Ra00]
+$\chi(G_n)^{1/n}$ converges. The erdosproblems.com remarks (page last edited 10
+April 2026), in the corpus's words: Frankl and Wilson [FrWi81] proved
+exponential growth, $\chi(G_n)\ge(1+o(1))\,1.2^n$, which answers the second
+question yes; Raigorodskii [Ra00]
 ([[../library/discrete_geometry/raigorodskii_2000_chromatic_number_space/_index|card]])
 raised the base to $1.239\ldots$; tiling by cubes gives the trivial upper
 bound $(2+\sqrt n)^n$, which Larman and Rogers [LaRo72] improved to
@@ -125,9 +125,9 @@ claim page]]. It is a result about the plane alone, claims nothing about the
 growth of $\chi(G_n)$ in $n$, and so gets no claim page here; its transfer
 theorem between arbitrary and measurable colorings is stated for the plane.
 
-Search scope: the site's page and proof-claims thread, and the release of 23
-September 2026; no further literature search. A search of arXiv's new
-mathematics listings found Davies's preprint.
+Search scope: the erdosproblems.com page and proof-claims thread, and the
+release of 23 September 2026; no further literature search. A search of arXiv's
+new mathematics listings found Davies's preprint.
 
 <!-- BEGIN problem library links -->
 

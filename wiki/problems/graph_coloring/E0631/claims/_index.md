@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 631, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/graph_coloring/E0631/claims
@@ -13,11 +13,11 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/graph_coloring/E0631/claims/1993_09_01_voigt|1993_09_01_voigt]]: Voigt (Discrete Math. 1993) constructs a planar graph on $238$ vertices that
 is not $4$-choosable, so the bound $5$ is best possible. The claim is accepted
-on the refereed publication and the site's credit.
+on the refereed publication and the erdosproblems.com credit.
 
 [[problems/graph_coloring/E0631/claims/1994_09_01_thomassen|1994_09_01_thomassen]]: Thomassen (J. Combin. Theory Ser. B 1994) proves that every planar graph has
 list chromatic number at most $5$, answering the first question yes. The claim
-is accepted on the refereed publication and the site's credit.
+is accepted on the refereed publication and the erdosproblems.com credit.
 
 [[problems/graph_coloring/E0631/claims/1996_01_01_mirzakhani|1996_01_01_mirzakhani]]: Mirzakhani (Bull. Inst. Combin. Appl. 1996) gives a $3$-colorable planar graph
 on $63$ vertices that is not $4$-choosable, a smaller witness than Voigt's and
@@ -26,6 +26,7 @@ publication.
 
 [[problems/graph_coloring/E0631/claims/1996_11_01_gutner|1996_11_01_gutner]]: Theorem 1.7 of Gutner (Discrete Math. 1996) gives a planar graph on 75
 vertices that is not $4$-choosable. It is a smaller witness that $5$ is best
-possible, accepted on the refereed publication and the site's credit.
+possible, accepted on the refereed publication and the erdosproblems.com
+credit.
 
 ***

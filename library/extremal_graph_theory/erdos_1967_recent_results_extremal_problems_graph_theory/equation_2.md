@@ -29,7 +29,7 @@ $i$-th class has $p_i$ vertices. $f(n;\mathcal G_1,\ldots,\mathcal G_k)$ is
 the smallest integer such that every
 $\mathcal G(n;f(n;\mathcal G_1,\ldots,\mathcal G_k))$ contains at least one
 of $\mathcal G_1,\ldots,\mathcal G_k$ as a subgraph; for one graph,
-$f(n;\mathcal G)=\mathrm{ex}(n;\mathcal G)+1$ in the catalog's notation.
+$f(n;\mathcal G)=\mathrm{ex}(n;\mathcal G)+1$ in the erdosproblems.com notation.
 Turán's theorem is recalled as display (1): for every $r\ge3$,
 $f(n;K_r)=(1+o(1))\frac{n^2}2\bigl(1-\frac1{r-1}\bigr)$.
 

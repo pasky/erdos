@@ -68,11 +68,11 @@ degree Delta is at most 1.25 Delta^2, this paper held the record upper bound of
 Source: <https://arxiv.org/abs/2007.07874v3>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1.6
-(printed p. 4, page image), the site's "The best bound currently available
-is $1.772\Delta^2$", the last step of the refereed chain of upper bounds for
-large $\Delta$, with the page's $\varepsilon$-form of the chain ($0.001$,
-$0.070$, $0.165$, $0.228$) and its sentence that the conjecture "has only
-been established for graphs of maximum degree at most 3"; Conjecture 1.4
+(printed p. 4, page image), erdosproblems.com's "The best bound currently
+available is $1.772\Delta^2$", the last step of the refereed chain of upper
+bounds for large $\Delta$, with the page's $\varepsilon$-form of the chain
+($0.001$, $0.070$, $0.165$, $0.228$) and its sentence that the conjecture "has
+only been established for graphs of maximum degree at most 3"; Conjecture 1.4
 (p. 4), the exact question in a refereed text.
 
 **Results.**

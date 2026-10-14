@@ -4,15 +4,15 @@ desc: The 2 claim pages of Problem 613, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0613/claims
 
 [[problems/ramsey_theory/E0613/_index|..]]
 
-[[problems/ramsey_theory/E0613/claims/1981_01_01_faudree|1981_01_01_faudree]]: Faudree's result, credited by the site, [Er93] and Pikhurko, is that every
-graph on $2n+1$ vertices with the problem's edge count is the union of a
+[[problems/ramsey_theory/E0613/claims/1981_01_01_faudree|1981_01_01_faudree]]: Faudree's result, credited by erdosproblems.com, [Er93] and Pikhurko, is that
+every graph on $2n+1$ vertices with the problem's edge count is the union of a
 bipartite graph and a graph of maximum degree below $n$. It covers only this
 special case.
 

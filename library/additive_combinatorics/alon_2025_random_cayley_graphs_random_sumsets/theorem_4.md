@@ -4,7 +4,7 @@ title: "Theorem 4: the independence number of the random Cayley graph G(p) and C
 desc: |
   The Alon–Pham bound on the typical independence number of sparse random
   Cayley and Cayley sum graphs, the first improvement of the exponent 2 in
-  Alon's p^(-2) bound; the input the site's reduction uses for the
+  Alon's p^(-2) bound; the input erdosproblems.com's reduction uses for the
   n^(3/5+o(1)) bound of Problem 788.
 created: 2026-09-18T15:55:00Z
 updated: 2026-10-08T14:49:25Z
@@ -47,7 +47,8 @@ we obtain the first improvement in the exponent of $p$."
 (p. 3) applies Theorem 4 to Green's function, "the largest integer such that
 every subset of $\mathbb Z_n$ with size larger than $n-f(n)$ can be represented
 as a sumset $A+A$", giving $f(n)\le\tilde O(n^{3/5})$; that function is not the
-interval function of the site's Problem 788, which the paper does not mention.
+interval function of erdosproblems.com's Problem 788, which the paper does not
+mention.
 
 **Source.** N. Alon and H. T. Pham, *Random Cayley graphs and random
 sumsets*, arXiv:2509.02561v1 (2 September 2025; 19 pp.; the only arXiv
@@ -90,9 +91,9 @@ this page).
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0788/_index|Problem 788]]: the input the
-  site's commentary uses. The site's account: if a random Cayley graph with
-  probability $p$ has independence number $\ll p^{-c-o(1)}$ then
-  $f(n)\le n^{c/(c+1)+o(1)}$, so Theorem 4 gives $f(n)\le n^{3/5+o(1)}$ and
+  erdosproblems.com commentary uses. erdosproblems.com's account: if a random
+  Cayley graph with probability $p$ has independence number $\ll p^{-c-o(1)}$
+  then $f(n)\le n^{c/(c+1)+o(1)}$, so Theorem 4 gives $f(n)\le n^{3/5+o(1)}$ and
   Conjecture 2 would give $n^{1/2+o(1)}$; the reduction is a thread argument
-  adopted by the site, not a statement of this paper, and Theorem 5's
+  adopted by erdosproblems.com, not a statement of this paper, and Theorem 5's
   $f(n)$ is Green's non-sumset function, not the problem's.

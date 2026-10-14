@@ -60,8 +60,8 @@ $F^{(3)}(n,\alpha)\gg_\alpha\sqrt{\log n}$. The random coloring of the
 paper's remark, with $\epsilon=\alpha$, gives
 $F^{(3)}(n,\alpha)\ll_\alpha\sqrt{\log n}$, the upper bound that Erdős's
 display (31) [Er90b, p. 21] credits to Erdős and Spencer. Both bounds hold
-for every fixed $\alpha\in(0,1/2)$. The translation is the site's, whose
-commentary credits [CFS11] with the case $t=3$; the commentary prints both
+for every fixed $\alpha\in(0,1/2)$. The translation is erdosproblems.com's,
+whose commentary credits [CFS11] with the case $t=3$; the commentary prints both
 inequalities reversed, $\ll$ for this paper and $\gg$ for Erdős and
 Spencer.
 
@@ -77,7 +77,7 @@ order $\log\log n$ and order $\sqrt{\log n}$); and every $t\ge4$.
 
 **Acceptance.** Refereed: the paper is the publisher's version of record in
 Israel Journal of Mathematics, volume 181, issue 1. Not reviewed under the
-corpus's rule: the site's commentary credits [CFS11] with the case $t=3$, but
-the site labeled the problem OPEN. That commentary is therefore a credit on an
-open problem, not an acceptance that settles it. The proof was not independently
-reviewed by this corpus.
+corpus's rule: the erdosproblems.com commentary credits [CFS11] with the case
+$t=3$, but Bloom's catalog labeled the problem OPEN. That commentary is
+therefore a credit on an open problem, not an acceptance that settles it. The
+proof was not independently reviewed by this corpus.

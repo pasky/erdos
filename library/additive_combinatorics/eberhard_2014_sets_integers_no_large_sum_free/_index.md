@@ -77,12 +77,12 @@ inside any n-element set of integers: the answer is n/3 + o(n).
 Source: <https://arxiv.org/abs/1301.4579>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0792/_index|#792]]: Theorem 1.1
-(p. 2 of arXiv v3) is the site's upper bound
+(p. 2 of arXiv v3) is erdosproblems.com's upper bound
 $f(n)\le n/3+o(n)$, refereed. The paper says its stronger form with $x\ne y$
 "answers a further question asked in [Erd65]"; the problem page reads that
 question as Erdős's 1965 guess $f(n)=[(n+2)/2]$ for distinct summands, which
 the stronger form shows false for large $n$. The
-paper's $f(n)$ is over sets of $n$ nonzero integers, the site's over
+paper's $f(n)$ is over sets of $n$ nonzero integers, erdosproblems.com's over
 $A\subset\mathbb Z$; the difference is a shift by one in $n$ when $0\in A$.
 
 **Results.** Pages and labels are those of arXiv v3 (pp. 1--31).

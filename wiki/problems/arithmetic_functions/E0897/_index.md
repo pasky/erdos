@@ -40,8 +40,8 @@ $$
 \limsup_n \frac{f(n+1)}{f(n)}=\infty?
 $$
 
-**Status.** The site labeled the problem DISPROVED (LEAN) (page last edited 1
-April 2026). The counterexample is recorded on the claim page
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN) (page last
+edited 1 April 2026). The counterexample is recorded on the claim page
 [[problems/arithmetic_functions/E0897/claims/1981_01_01_wirsing|Wirsing 1981]].
 Its 2025 rediscovery, and the Lean formalization of that rediscovery, are
 recorded on

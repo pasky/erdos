@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 245, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0245/claims
@@ -12,7 +12,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/additive_combinatorics/E0245/_index|..]]
 
 [[problems/additive_combinatorics/E0245/claims/1973_01_01_freiman|1973_01_01_freiman]]: For an infinite set of natural numbers of density zero, the sumset is at least
-three times as large as the set, up to $o(1)$, along a sequence of $N$. The
-site records Freiman's 1973 monograph as the proof.
+three times as large as the set, up to $o(1)$, along a sequence of $N$.
+erdosproblems.com records Freiman's 1973 monograph as the proof.
 
 ***

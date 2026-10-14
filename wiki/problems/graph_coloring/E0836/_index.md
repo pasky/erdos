@@ -5,7 +5,7 @@ desc: |
   Asks whether an intersecting $r$-uniform hypergraph with chromatic number $3$
   must have $O(r^2)$ vertices, and whether two of its edges must meet in $\gg r$
   vertices. The answer to the first is no and the second is open; the page also
-  corrects the site's gloss of chromatic number $3$.
+  corrects the erdosproblems.com gloss of chromatic number $3$.
 tags:
 - Graph theory
 - Hypergraphs
@@ -41,21 +41,21 @@ Suppose any two edges of $G$ have a non-empty intersection. Must $G$ contain
 $O(r^2)$ many vertices? Must there be two edges which meet in $\gg r$ many
 vertices?
 
-**Notes.** The site's parenthetical gloss says only that $\chi(G)\leq3$; it
-does not express the preceding exact condition $\chi(G)=3$. Taken literally,
-the gloss makes both questions false: arbitrarily large stars are intersecting
-and $2$-colorable, and every two of their edges meet in exactly one vertex. The
-site's commentary on Alon's counterexample states that "its chromatic number is
-3", and Erdős and Lovász [ErLo75, Theorem 8 p. 613, construction (b) p. 620]
-work with exact chromatic number $3$ and count only points lying in edges. The
-modified Statement adds the missing "no such $2$-colouring" and the convention
-that every vertex lies in an edge; if isolated vertices were allowed, adjoining
-isolates would trivially falsify the first question even under the exact
-chromatic-number hypothesis.
+**Notes.** The erdosproblems.com parenthetical gloss says only that
+$\chi(G)\leq3$; it does not express the preceding exact condition $\chi(G)=3$.
+Taken literally, the gloss makes both questions false: arbitrarily large stars
+are intersecting and $2$-colorable, and every two of their edges meet in exactly
+one vertex. The erdosproblems.com commentary on Alon's counterexample states
+that "its chromatic number is 3", and Erdős and Lovász [ErLo75, Theorem 8 p.
+613, construction (b) p. 620] work with exact chromatic number $3$ and count
+only points lying in edges. The modified Statement adds the missing "no such
+$2$-colouring" and the convention that every vertex lies in an edge; if isolated
+vertices were allowed, adjoining isolates would trivially falsify the first
+question even under the exact chromatic-number hypothesis.
 
-**Status.** Labeled open on erdosproblems.com (label OPEN). The site credits a
-counterexample to the first question to Alon. The same construction gives the
-lower bound of Erdős and Lovász's Theorem 8, recorded on
+**Status.** Labeled open on erdosproblems.com (label OPEN). erdosproblems.com
+credits a counterexample to the first question to Alon. The same construction
+gives the lower bound of Erdős and Lovász's Theorem 8, recorded on
 [[problems/graph_coloring/E0836/claims/1975_01_01_erdos_lovasz|their claim page]].
 
 **Source.** [erdosproblems.com/836](https://www.erdosproblems.com/836), accessed
@@ -83,15 +83,15 @@ disproves the $O(r^2)$ proposal; this is the lower bound of their Theorem 8
 [[problems/graph_coloring/E0836/claims/1975_01_01_erdos_lovasz|their claim page]].
 The same source proves only the $r/\log r$ maximum-intersection lower bound
 below, which it credits to Shelah and the authors jointly. For the requested
-linear bound, a note that Liam Price posted in the site's thread on 27 April
-2026, produced with GPT-5.5 Pro, claims the answer yes: for exact
+linear bound, a note that Liam Price posted in the erdosproblems.com thread on
+27 April 2026, produced with GPT-5.5 Pro, claims the answer yes: for exact
 $\chi(G)=3$ some two edges meet in at least $\lfloor r/2\rfloor$ vertices.
 The note is unreviewed and recorded as a pending partial claim on
 [[problems/graph_coloring/E0836/claims/2026_04_27_price|its claim page]]; no
 accepted source proves or refutes the linear bound, so the second question
 stays open.
 
-**Evidence and search window.** Search scope: the site's problem,
+**Evidence and search window.** Search scope: the erdosproblems.com problem,
 discussion and proof-claim pages, the Erdős–Lovász paper, and the complete
 arXiv v2 of Bucić–Glock–Sudakov. The latter work was published in 2022; its
 journal version is not held, and the locators above follow the arXiv version.
@@ -105,7 +105,7 @@ invariant are verified at statement level only. No complete proof
 reconstruction or final mathematical review is claimed.
 
 **Remaining gaps.** A source-level resolution of the linear-intersection
-question remains missing. The site credits the matching construction to
+question remains missing. erdosproblems.com credits the matching construction to
 Alon; Erdős and Lovász published it in 1975 as their construction (b), which
 gives the lower bound of their Theorem 8. The 2026 GPT-5.5 Pro note stays a
 pending claim until a review or publication accepts it.

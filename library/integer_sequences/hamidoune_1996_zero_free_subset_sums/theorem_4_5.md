@@ -50,7 +50,7 @@ Section 4 lemmas.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0540/_index|Problem 540]]: the best general bound
-  in hand, the site's "Hamidoune and Zémor proved the bound
+  in hand, erdosproblems.com's "Hamidoune and Zémor proved the bound
   $(1+o(1))\sqrt{2N}$ for arbitrary abelian groups of order $N$"; it
   sharpens Szemerédi's unspecified constant to $\sqrt2$ up to a
   lower-order term.

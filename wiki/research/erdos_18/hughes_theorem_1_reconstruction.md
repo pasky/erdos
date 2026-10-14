@@ -28,7 +28,7 @@ images (pp. 1–4). The two ingredients are reconstructed on
 changes no status and assigns no tier. The argument imports the
 Berend–Harmse gap estimate through Corollary 3 (second-hand; see that page)
 and the elementary asymptotic $\sum_{j\le n}1/\log j\sim n/\log n$. As a
-bound on $h(n!)$ the theorem is superseded by the site-accepted
+bound on $h(n!)$ the theorem is superseded by the Conjectures.io-accepted
 $h(n!)<n^{o(1)}$ recorded on
 [[problems/divisors/E0018/_index|the Problem 18 page]]; its interest is the explicit
 constant of the greedy route.

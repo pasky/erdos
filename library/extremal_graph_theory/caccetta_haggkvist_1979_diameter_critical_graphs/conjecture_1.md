@@ -50,7 +50,7 @@ vertices of diameter $2$ in which deleting any edge increases the diameter
 has at most $n^2/4$ edges. That is the inequality of Conjecture 1 with
 $\nu=n$; the equality clause, that $K_{\lfloor n/2\rfloor,\lceil n/2\rceil}$
 is the only extremal graph, is asked by the paper and by Füredi's Conjecture
-1.1, not by the site's wording.
+1.1, not by the erdosproblems.com wording.
 
 **Source.** L. Caccetta and R. Häggkvist, *On diameter critical graphs*,
 Discrete Math. 28 (1979), 223--229, doi:10.1016/0012-365X(79)90129-8;
@@ -83,6 +83,6 @@ None; Murty's private communication (reference [2]) is the stated origin.
 
 - [[../wiki/problems/extremal_graph_theory/E0742/_index|Problem 742]]: the problem's
   statement as first printed, with the equality clause and the attribution to
-  Simon and Murty; the site's commentary points to this paper with "(see
-  [CaHa79])", and Erdős's 1981 reference [67] cites it as the printed home of
-  Murty's unpublished conjecture.
+  Simon and Murty; the erdosproblems.com commentary points to this paper with
+  "(see [CaHa79])", and Erdős's 1981 reference [67] cites it as the printed home
+  of Murty's unpublished conjecture.

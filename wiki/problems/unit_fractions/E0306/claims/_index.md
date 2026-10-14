@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 306, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/unit_fractions/E0306/claims
@@ -35,6 +35,7 @@ was frozen in August 2026 and published in October 2026.
 
 [[problems/unit_fractions/E0306/claims/2026_09_26_li|2026_09_26_li]]: Li's preprint of September 2026, with a Lean 4 formalization, asserts that
 every positive rational with squarefree denominator is a sum of distinct unit
-fractions with semiprime denominators. It is the site's one full proof claim.
+fractions with semiprime denominators. It is erdosproblems.com's one full
+proof claim.
 
 ***

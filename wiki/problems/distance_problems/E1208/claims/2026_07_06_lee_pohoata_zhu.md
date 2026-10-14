@@ -63,7 +63,7 @@ Litt, Sawin, Shankar, Tsimerman, Wang and Wood (arXiv:2605.20695, 2026), on
 towers of totally real fields.
 
 **Standing.** Claimed. The result is an arXiv preprint (version 1 of 6 July
-2026) with no journal publication and no Lean proof. The site's remarks (page
-last edited 7 September 2026) credit the bound $F_2(n)\ll n^{1/2-c}$ to this
-paper, but the site labeled the problem OPEN, and commentary on an open
-problem is not acceptance.
+2026) with no journal publication and no Lean proof. The erdosproblems.com
+remarks (page last edited 7 September 2026) credit the bound
+$F_2(n)\ll n^{1/2-c}$ to this paper, but Bloom's catalog labeled the problem
+OPEN, and commentary on an open problem is not acceptance.

@@ -57,6 +57,6 @@ approach cited to [16], [5], [3] and [14] (p. 2).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0149/_index|Problem 149]]: a preprint bound
-  on the bipartite variant of the site's conjecture, in the asymmetric form
-  of Brualdi and Quinn Massey, recorded with that qualification and without
+  on the bipartite variant of erdosproblems.com's conjecture, in the asymmetric
+  form of Brualdi and Quinn Massey, recorded with that qualification and without
   review here; it does not bear on the general $\frac54\Delta^2$ question.

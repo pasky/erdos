@@ -44,7 +44,7 @@ with logarithms to base $2$, in the letters of
 [[problems/ramsey_theory/E0551/_index|Problem 551]] (the paper writes
 $r(C_\ell,K_n)$). Since $C\log n/\log\log n<n$ for all $n$ beyond a
 threshold $n_0(C)$, the theorem proves the problem's identity for every
-$k\ge n$ once $n\ge n_0(C)$, which the site describes as the conjecture
+$k\ge n$ once $n\ge n_0(C)$, which erdosproblems.com describes as the conjecture
 for all large $n$ (the paper says: for large cycle length). The paper does
 not compute $C$ and
 remarks (p. 16) that a reasonable value, less than 20, should be obtainable
@@ -70,28 +70,28 @@ $n\le k\le\min\{4n+1,\lceil C\log n/\log\log n\rceil-1\}$, less those
 $n=8$ cases (for $n=8$ the lengths $16\le k\le33$ below the threshold
 remain). The extent of
 that set is unknown because $C$ is not explicit; this is the finite check
-that the site's label DECIDABLE refers to. A manuscript claiming to close
-it in full is recorded on the pending claim page
+that the erdosproblems.com label DECIDABLE refers to. A manuscript claiming to
+close it in full is recorded on the pending claim page
 [[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]].
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
 **Acceptance.** Refereed: Int. Math. Res. Not. IMRN 2021, no. 1, 275--300,
-doi:10.1093/imrn/rnz119, published online 10 July 2019. The site's reference
-gives the pages as 277--302. This publication is the `refereed` evidence. The
-paper was first posted as arXiv:1807.06376v1 on 17 July 2018, the date this page
-is named by, and that is the only arXiv version. The statement is cited from the
-arXiv preprint, and the journal text is not compared.
+doi:10.1093/imrn/rnz119, published online 10 July 2019. The erdosproblems.com
+reference gives the pages as 277--302. This publication is the `refereed`
+evidence. The paper was first posted as arXiv:1807.06376v1 on 17 July 2018, the
+date this page is named by, and that is the only arXiv version. The statement is
+cited from the arXiv preprint, and the journal text is not compared.
 
-The site's curator, T. F. Bloom, labeled the problem DECIDABLE. In the page's
-commentary the curator credits this paper with the identity for all
-$k\ge C\log n/\log\log n$, and so with the conjecture for every large $n$. The
-site defines DECIDABLE as resolved up to a finite check. Here a finite check of
-unknown extent remains, so the label settles neither the problem nor a declared
-part of it. The curator's credit is therefore not `reviewed` evidence, and the
-claim is accepted on the refereed publication alone. The one comment of the
-site's discussion thread (1 September 2025) describes the problem as reduced to
-a finitary question and still open.
+The erdosproblems.com curator, T. F. Bloom, labeled the problem DECIDABLE. In
+the page's commentary the curator credits this paper with the identity for all
+$k\ge C\log n/\log\log n$, and so with the conjecture for every large $n$.
+erdosproblems.com defines DECIDABLE as resolved up to a finite check. Here a
+finite check of unknown extent remains, so the label settles neither the problem
+nor a declared part of it. The curator's credit is therefore not `reviewed`
+evidence, and the claim is accepted on the refereed publication alone. The one
+comment of the erdosproblems.com discussion thread (1 September 2025) describes
+the problem as reduced to a finitary question and still open.
 
 **Read depth.** Theorem 1.1 (arXiv:1807.06376v1, p. 2) and the remark on
 the constant (p. 16) are checked clause by clause; the proof is not

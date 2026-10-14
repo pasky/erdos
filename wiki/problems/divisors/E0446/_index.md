@@ -28,9 +28,9 @@ divisible by some integer in $(n,2n)$. What is the growth rate of $\delta(n)$?
 If $\delta_1(n)$ is the density of integers which have exactly one divisor in
 $(n,2n)$ then is it true that $\delta_1(n)=o(\delta(n))$?
 
-**Status.** Solved. This is the site's label. Ford determined the order of
-$\delta(n)$ and answered the second question no, as the claim page below
-records.
+**Status.** Solved. This is the erdosproblems.com label. Ford determined the
+order of $\delta(n)$ and answered the second question no, as the claim page
+below records.
 
 **Source.** [erdosproblems.com/446](https://www.erdosproblems.com/446), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #446,
@@ -53,12 +53,12 @@ https://www.erdosproblems.com/446.
 
 ## Current assessment
 
-The question is the site's formulation, accessed 2026-09-04 and unchanged on
-2026-10-07, in two parts: the growth rate of $\delta(n)$, the density of
-integers with a divisor in $(n,2n)$, and whether $\delta_1(n)$, the density of
-those with exactly one such divisor, is $o(\delta(n))$. Both parts are settled
-by Ford [Fo08]: the first by the order of magnitude displayed on the claim page,
-the second in the negative.
+The question is the erdosproblems.com formulation, accessed 2026-09-04 and
+unchanged on 2026-10-07, in two parts: the growth rate of $\delta(n)$, the
+density of integers with a divisor in $(n,2n)$, and whether $\delta_1(n)$, the
+density of those with exactly one such divisor, is $o(\delta(n))$. Both parts
+are settled by Ford [Fo08]: the first by the order of magnitude displayed on the
+claim page, the second in the negative.
 
 The first part has a long history. Besicovitch [Be34] showed
 $\liminf\delta(n)=0$, which gives a primitive set of positive upper density;
@@ -72,7 +72,7 @@ match up to slowly varying factors
 and Ford [Fo08], Corollary 2, gave the exact order
 $\delta(n)\asymp(\log n)^{-\alpha}(\log\log n)^{-3/2}$
 ([[../library/divisors/ford_2008_distribution_integers_divisor_given_interval/_index|card]]).
-For the second part, the site records that Erdős raised it in his
+For the second part, erdosproblems.com records that Erdős raised it in his
 Oberwolfach problem collection, expecting $\delta_1(n)=o(\delta(n))$ while
 noting that Tenenbaum's results told against it. Ford's Theorem 4 and
 Corollary 7 give $\delta_r(n)\gg_r\delta(n)$ for every fixed $r\ge1$, where
@@ -88,7 +88,7 @@ divisor count itself is [[problems/divisors/E0448/_index|Problem 448]], and
 [[problems/divisors/E0693/_index|Problem 693]] ask related questions about
 divisors in short intervals. No formalization is recorded, and this
 repository has not checked Ford's proof independently; the account rests on
-the site page, Ford's paper and the cards above.
+the erdosproblems.com page, Ford's paper and the cards above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

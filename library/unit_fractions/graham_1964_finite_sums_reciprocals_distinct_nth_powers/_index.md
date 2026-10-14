@@ -51,10 +51,10 @@ Corollaries 1 and 2 specialize the criterion to distinct squares and distinct
 cubes; for squares the stated consequence, which a footnote (p. 85) says Erdos
 also obtained, unpublished, is an explicit two-interval condition involving
 pi^2/6. Erdos problem 282 asks whether greedy algorithms with restricted
-denominators terminate; the site's commentary quotes Corollary 1's criterion for
-square denominators and asks whether the greedy algorithm for squares
-terminates. The paper supplies the existence criterion only and does not treat
-the greedy algorithm.
+denominators terminate; the erdosproblems.com commentary quotes Corollary 1's
+criterion for square denominators and asks whether the greedy algorithm for
+squares terminates. The paper supplies the existence criterion only and does not
+treat the greedy algorithm.
 
 Source: <https://msp.org/pjm/1964/14-1/p10.xhtml>.
 
@@ -72,7 +72,8 @@ Journal of Mathematics. All rights reserved."
 (https://msp.org/pjm/1964/14-1/p10.xhtml, read 2026-10-02), every other right
 reserved.
 
-**Bears on.** [[../wiki/problems/unit_fractions/E0282/_index|#282]] (the site's [Gr64c]:
+**Bears on.** [[../wiki/problems/unit_fractions/E0282/_index|#282]]
+(erdosproblems.com's [Gr64c]:
 [[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/corollary_1|Corollary 1]] is the criterion x in [0, pi^2/6 - 1) or
 [1, pi^2/6) for sums of reciprocals of distinct squares that the commentary
 quotes, the case n = 2 of [[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/theorem_4|Theorem 4]]; these are existence

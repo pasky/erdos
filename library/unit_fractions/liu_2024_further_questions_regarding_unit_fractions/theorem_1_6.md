@@ -60,7 +60,7 @@ external prime-number estimates. The source reports on p. 3 that its
 authors knew of no earlier study of the question, and it
 proves both bounds itself; the upper bound is stated without proof on
 printed p. 35 of the Erdős–Graham monograph (as $k_1(n)<cn/\log n$), which
-the site cites for it.
+erdosproblems.com cites for it.
 
 ## Bears on
 

@@ -105,8 +105,8 @@ upper estimate (3.4) is Fejér's (Math. Z. **32** (1930), the paper's [7]).
 
 Theorem I concerns the derivative-data polynomials $\mathfrak{h}_{jn}$ and the
 scale $\log n/n$, not the Lebesgue function $\sum_j|l_{jn}(x)|$ of the
-catalog's interpolation problems, so it bears on none of them directly. The
-ordinary-Lagrange analogue is
+erdosproblems.com interpolation problems, so it bears on none of them directly.
+The ordinary-Lagrange analogue is
 [[polynomials/erdos_1961_extremal_problem_theory_interpolation/theorem_ii|Theorem II]],
 whose sketched proof follows this one; the
 [[polynomials/erdos_1961_extremal_problem_theory_interpolation/two_interpolation_layers|two-layer record]]

@@ -46,8 +46,8 @@ at least (n+2)/3 with such a chord, leaves a pancyclic graph.
 
 ***
 
-Sean Griffin, Minimal Pancyclicity. arXiv:1312.0274 (2013). The site's
-reference key Gr13.
+Sean Griffin, Minimal Pancyclicity. arXiv:1312.0274 (2013). The
+erdosproblems.com reference key Gr13.
 
 **Edition read.** The
 copy read for this card is arXiv:1312.0274v1
@@ -94,14 +94,14 @@ Corollary 3 gives a conditional alternative for an arc of length n/2 - 1. Table
 1, the lower bound and the monotonicity conjecture are the paper's content for
 problem 1016 on the minimum size of a pancyclic graph.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1016/_index|#1016]]: in the site's
-notation h(n) = m(n) - n.
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1016/_index|#1016]]: in
+the erdosproblems.com notation h(n) = m(n) - n.
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/table_1|Table 1]]
 gives h(n) for n <= 37, and
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/claim_1|Claim 1]]
-gives the proved lower bound h(n) >= log_2(n-1) - 1 (the site's "A proof of
-the above lower bound is provided by Griffin") and records Bondy's unproved
-upper bound log_2 n + H(n) + O(1), the site's log_* n form.
+gives the proved lower bound h(n) >= log_2(n-1) - 1 (erdosproblems.com's "A
+proof of the above lower bound is provided by Griffin") and records Bondy's
+unproved upper bound log_2 n + H(n) + O(1), erdosproblems.com's log_* n form.
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/corollary_1|Corollary 1]]
 is the cycle count behind that lower bound, and
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/theorem_3|Theorem 3]]

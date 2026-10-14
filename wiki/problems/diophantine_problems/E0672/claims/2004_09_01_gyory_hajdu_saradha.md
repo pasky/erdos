@@ -53,5 +53,6 @@ $\ell\ge2$. Not covered: every length $k\ge6$.
 (the case $k=5$, $\ell=2$).
 
 **Acceptance.** Refereed: Canadian Mathematical Bulletin 47 (2004), no. 3.
-The site's commentary credits the theorem, but the site labeled the problem
-VERIFIABLE, an open label, so the commentary is not `reviewed` evidence.
+The erdosproblems.com commentary credits the theorem, but Bloom's catalog
+labeled the problem VERIFIABLE, an open label, so the commentary is not
+`reviewed` evidence.

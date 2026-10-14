@@ -68,7 +68,7 @@ and is otherwise open; the first question is answered on
 **Depends on.** Nothing in this wiki; the hypothesis is stated above.
 
 **Acceptance.** Refereed: Mathematics of Computation 54 (1990), no. 189,
-377--394 (`refereed`). The site labeled the problem OPEN, so no curator
+377--394 (`refereed`). Bloom's catalog labeled the problem OPEN, so no curator
 acceptance is listed. The library holds no file of the paper. The statement is
 recorded from its card, and the corpus records no check of the proof.
 

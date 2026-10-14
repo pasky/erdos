@@ -38,7 +38,7 @@ with `Erdos18.practicalH n` the `Finset.sup` over `Finset.Icc 1 n` of the
 `sInf` of the sizes of divisor sets `D ⊆ n.divisors` with `m ∈ subsetSums D`
 (catalog file on `main`). The cast `↑(practicalH n.factorial)` is to the
 reals and `↑n ^ ε` is the real power; `∀ᶠ … in Filter.atTop` on `ℕ` is "for
-all sufficiently large `n`"; the `True ↔` prefix is the catalog's answer
+all sufficiently large `n`"; the `True ↔` prefix is formal-conjectures' answer
 marker filled affirmatively, so proving the iff proves the right side.
 
 ## How the file closes the target (structure only)
@@ -55,24 +55,25 @@ at every odd frequency (the auxiliary definitions `cyclicUniformNatSet` and
 `cyclicProductPow` were not read). `erdos18b_of_weighted_dyadic_mixing`
 (line 2580) derives the target from this property, `weighted_dyadic_mixing`
 (line 14011) proves the property, and `target` (line 14040) combines the
-two. The site's review states that the mixing premise is proved within the
+two. Conjectures.io's review states that the mixing premise is proved within the
 file and that "conditional intermediate lemmas are not residual assumptions
 of the final result."
 
 ## Dependencies
 
-The catalog's `Erdos18.practicalH` and `Erdos18.factorial_isPractical`
-(proved in the catalog file) and Mathlib through the trusted challenge
-environment; axiom closure within `propext`, `Quot.sound` and
-`Classical.choice` by the site's audit.
+The formal-conjectures catalog's `Erdos18.practicalH` and
+`Erdos18.factorial_isPractical` (proved in the formal-conjectures file) and
+Mathlib through the trusted challenge environment; axiom closure within
+`propext`, `Quot.sound` and `Classical.choice` by Conjectures.io's audit.
 
 ## Standing
 
 The bounty site's kernel check, review, certification and payment are reported,
 not counted; acceptance rests on this corpus's rebuild and kernel replay of the
-file on the repository's pinned toolchain. Not refereed; the site's reviewers
-ran no fresh replay. The site owner's post on the erdosproblems.com proof-claims
-tab of 27 September 2026 is explicitly not a verification.
+file on the repository's pinned toolchain. Not refereed; Conjectures.io's
+reviewers ran no fresh replay. erdosproblems.com owner's post on the
+erdosproblems.com proof-claims tab of 27 September 2026 is explicitly not a
+verification.
 
 ## Bears on
 

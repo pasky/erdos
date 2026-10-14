@@ -50,7 +50,7 @@ Ars Combinatoria 50 (1998), 303-308. The scan prints no notice beyond the stamp
 read 2026-10-02) links its "License" label to
 https://creativecommons.org/licenses/by/4.0/deed.en, the Creative Commons
 Attribution 4.0 license, and its footer "1970-2026 CP (Manitoba, Canada) unless
-otherwise stated" speaks for the site, not the paper.
+otherwise stated" speaks for erdosproblems.com, not the paper.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0127/_index|#127]]
 

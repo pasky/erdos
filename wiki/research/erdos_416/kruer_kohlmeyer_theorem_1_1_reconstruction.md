@@ -243,7 +243,7 @@ supply, in the write-up's own decomposition:
   established here.
 
 What this page establishes is therefore an implication: Proposition 4.1
-implies the doubling law. The antecedent's standing is the site's
+implies the doubling law. The antecedent's standing is erdosproblems.com's
 acceptance of the Lean file, recorded with its limits on the problem page
 and the card.
 

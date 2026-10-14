@@ -46,10 +46,10 @@ connected $E$ lies in some disc of radius $2$; the theorem answers it with
 the disc about the centroid of the zeros.
 
 **Covers.** Every monic $f$ whose open set $\{|f|<1\}$ is connected. The
-site's remark states the hypothesis for the set itself, the closed set
-$\{|f|\le1\}$, a weaker hypothesis that Theorem 3 does not state (the
-closed set is connected whenever the open set is, but not conversely); the
-closed case is proved in Pommerenke's 1961 paper, on
+erdosproblems.com remark states the hypothesis for the set itself, the closed
+set $\{|f|\le1\}$, a weaker hypothesis that Theorem 3 does not state (the closed
+set is connected whenever the open set is, but not conversely); the closed case
+is proved in Pommerenke's 1961 paper, on
 [[problems/polynomials/E0509/claims/1961_01_01_pommerenke|Pommerenke 1961]].
 The general question, every monic $f$, is untouched; the general bounds of
 Cartan ($2e$) and Pommerenke ($2.59$, [Po60] on the problem page) settle no
@@ -61,10 +61,10 @@ received January 15, 1959. The publisher's record dates the article to the
 year 1959 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the note appeared in the Michigan Mathematical
-Journal. The site's remarks credit the paper with the connected case, but the
-site labeled the problem OPEN. So the curator's label settles neither the
-problem nor a part of it, and no `reviewed` evidence is listed. Nothing here is
-independently reviewed by this project.
+Journal. The erdosproblems.com remarks credit the paper with the connected case,
+but Bloom's catalog labeled the problem OPEN. So the curator's label settles
+neither the problem nor a part of it, and no `reviewed` evidence is listed.
+Nothing here is independently reviewed by this project.
 
 **Depends on.** No page of this wiki. The proof rests on the cited paper and
 on a Pólya--Szegő problem (Aufgaben und Lehrsätze, Vol. 2, Section IV,

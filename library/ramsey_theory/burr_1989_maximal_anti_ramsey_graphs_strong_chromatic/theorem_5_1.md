@@ -76,7 +76,8 @@ $\mathrm{ex}(n,C_k)=t_2(n)$ for odd $k$ and large $n$.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0809/_index|Problem 809]]: the lower bound the site
-  quotes as $\chi_S(n,\lfloor n^2/4\rfloor+1,C_{2k+1})\gg_kn^2$; the
-  question whether $c=1/8$ works follows it on p. 270
+- [[../wiki/problems/ramsey_theory/E0809/_index|Problem 809]]: the lower bound
+  erdosproblems.com quotes as
+  $\chi_S(n,\lfloor n^2/4\rfloor+1,C_{2k+1})\gg_kn^2$; the question whether
+  $c=1/8$ works follows it on p. 270
   ([[ramsey_theory/burr_1989_maximal_anti_ramsey_graphs_strong_chromatic/conjecture_p270|conjecture_p270]]).

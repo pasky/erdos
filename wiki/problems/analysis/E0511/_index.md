@@ -31,9 +31,9 @@ $$
 has at most $O_c(1)$ many connected components of diameter $>c$ (where the
 implied constant is in particular independent of $n$)?
 
-**Status.** Disproved, the site's label. The accepted claims are
+**Status.** Disproved, the erdosproblems.com label. The accepted claims are
 [[problems/analysis/E0511/claims/1961_01_01_pommerenke|Pommerenke's Theorem 1 of 1961]],
-refereed and credited by the site's curator, and
+refereed and credited by the erdosproblems.com curator, and
 [[problems/analysis/E0511/claims/2025_09_15_huang|Huang's independent 2025 construction]].
 Huang's construction is an arXiv preprint that the curator credits as an
 independent proof.
@@ -74,15 +74,15 @@ $k$ components of diameter at least $l$, and Huang's 2025 construction
 [Hu25] rediscovers the result independently by a different method. Both are
 accepted claims,
 [[problems/analysis/E0511/claims/1961_01_01_pommerenke|Pommerenke 1961]] on
-refereed publication and the site's credit and
-[[problems/analysis/E0511/claims/2025_09_15_huang|Huang 2025]] on the site's
-credit alone, and either one refutes the question for every $1<c<4$: the
-components of diameter above $c$ cannot be bounded independently of the
-degree. The transfer from the closed sublevel sets of the sources to the
-site's open set is recorded on the claim pages.
+refereed publication and the erdosproblems.com credit and
+[[problems/analysis/E0511/claims/2025_09_15_huang|Huang 2025]] on the
+erdosproblems.com credit alone, and either one refutes the question for every
+$1<c<4$: the components of diameter above $c$ cannot be bounded independently of
+the degree. The transfer from the closed sublevel sets of the sources to
+erdosproblems.com's open set is recorded on the claim pages.
 
-**Search and coverage.** The standing rests on the site page and its
-commentary as accessed 2026-09-04 and on the two papers [Po61] and [Hu25];
+**Search and coverage.** The standing rests on the erdosproblems.com page and
+its commentary as accessed 2026-09-04 and on the two papers [Po61] and [Hu25];
 no wider literature search is recorded. The claim pages state both
 theorems as the papers print them; neither proof has been independently
 reviewed by this corpus, and the rescaling step that Pommerenke's proof

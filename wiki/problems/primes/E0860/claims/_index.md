@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 860, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/primes/E0860/claims
@@ -12,8 +12,8 @@ updated: 2026-10-11T22:24:14Z
 [[problems/primes/E0860/_index|..]]
 
 [[problems/primes/E0860/claims/1980_06_13_erdos_pomerance|1980_06_13_erdos_pomerance]]: Erdős and Pomerance (Indag. Math. 1980) prove
-$h(n)\ll n^{3/2}/(\log n)^{1/2}$, the upper bound that the site's commentary
-records. The result is refereed and partial.
+$h(n)\ll n^{3/2}/(\log n)^{1/2}$, the upper bound that the erdosproblems.com
+commentary records. The result is refereed and partial.
 
 [[problems/primes/E0860/claims/1980_06_13_erdos_selfridge|1980_06_13_erdos_selfridge]]: Erdős and Selfridge's lower bound $h(n)>(3-o(1))n$, by Brun's method, is
 recorded by Erdős and Pomerance (1980) and by Guy without a printed proof. The

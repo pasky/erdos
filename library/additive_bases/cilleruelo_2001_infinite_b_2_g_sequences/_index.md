@@ -73,7 +73,7 @@ question.
 [[../wiki/problems/integer_sequences/E0329/_index|#329]]: the problem asks for
 the largest limsup A(x)/x^(1/2) of a Sidon set (g = 1); Theorem 1
 concerns g >= 2, a wider class of sets, and gives no bound for Sidon sets. The
-problem's site lists the paper among its references.
+problem's erdosproblems.com page lists the paper among its references.
 
 **Results.**
 

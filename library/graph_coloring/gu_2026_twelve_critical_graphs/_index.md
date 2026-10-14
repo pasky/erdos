@@ -100,8 +100,8 @@ clause by clause on the v7 PDF. No proof was checked.
   record 22352283, version v3, publication date 5 September 2026: six physical
   pages, 328,666 bytes.
 
-The PDFs are not byte-identical. The checked site-linked record for problem 917
-is the historical v3 deposit; v7 is the later selected record. V3
+The PDFs are not byte-identical. The checked erdosproblems.com-linked record for
+problem 917 is the historical v3 deposit; v7 is the later selected record. V3
 uses edge-deletion criticality directly. V7 defines every-proper-subgraph
 criticality and states its equivalence to edge-deletion criticality for graphs
 without isolated vertices; it also adds formalization claims and further
@@ -112,10 +112,10 @@ both artifacts and the manual same-work decision.
 The PDF byline is `Qiyuan Gu`, while both Zenodo metadata records give the
 creator string `Gu, Qiyuan`. Those are ordinary orderings of the same
 bibliographic name and are both preserved. The checked problem submission is
-associated instead with the site account `Alex Gu`. An account label is not a
-mathematical-author assertion: this filing records the source-qualified names
-and does not claim that the account and the manuscript author are either the
-same or different people.
+associated instead with erdosproblems.com account `Alex Gu`. An account label is
+not a mathematical-author assertion: this filing records the source-qualified
+names and does not claim that the account and the manuscript author are either
+the same or different people.
 
 ## Lean and archive limits
 

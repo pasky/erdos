@@ -58,8 +58,8 @@ December 2025 and linked from Tang's thread posts of 9 and 10 December 2025; the
 note's repository describes it as a preliminary write-up superseded by the
 paper.
 
-**Submission note.** Posted to the site's forum by Quanyu Tang on 24 December
-2025:
+**Submission note.** Posted to the erdosproblems.com forum by Quanyu Tang on 24
+December 2025:
 
 > In joint work with Shengtong, we wrote a paper on this problem
 > (arXiv:2512.20055) and make precise its connection to [857]. Summary: Define
@@ -88,7 +88,7 @@ paper.
 1.4. Not covered: the value of the exponent of $f_k(N)$, which the bounds
 leave open for every $k$.
 
-**Standing.** Claimed: the paper has an arXiv record only. The site's
+**Standing.** Claimed: the paper has an arXiv record only. The erdosproblems.com
 commentary credits the bounds to Tang and Zhang on a problem it labeled OPEN;
 that credit is commentary, not acceptance.
 

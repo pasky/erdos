@@ -90,9 +90,9 @@ paragraph continues with f(n), the least length of a sequence 1 <= x_1 <
 ... <= n forced to contain a subset with reciprocal sum 1, and asks whether
 f(n)/n -> 0, "in other words" whether every sequence of positive lower
 density contains such a subset; that is the density question of problem
-298, which problem 47's delta log N threshold implies and which the site
-keys to this paper for problem 47 as well (its row below). The passage was
-read on the page image; no proof is given.
+298, which problem 47's delta log N threshold implies and which
+erdosproblems.com keys to this paper for problem 47 as well (its row below). The
+passage was read on the page image; no proof is given.
 
 For #13, printed p. 42 (PDF p. 9), the opening of Section 4, read on the page
 image: "Let $a_1<a_2<\cdots$ be a sequence of integers. It is said to have
@@ -110,8 +110,8 @@ the sum of exactly $r$ larger $a$'s." The finite bound is printed with a
 strict inequality, $k<[x/3]+1$, one less than the $[x/3]+1$ of the 1970
 paper. The general version is printed with $x/r$ and the example
 $x(1-1/r)\le a_i\le x$; for $r=2$ that example, $[x/2,x]$, does not have
-property $P$ (for $x=100$, $50\mid70+80$), and the site's reading of the
-passage, $|A|\le N/(r+1)+O(1)$ with $r$ summands, is the one for which the
+property $P$ (for $x=100$, $50\mid70+80$), and erdosproblems.com's reading of
+the passage, $|A|\le N/(r+1)+O(1)$ with $r$ summands, is the one for which the
 interval $(rN/(r+1),N]$ is an example; both forms are recorded as printed.
 Read status for this passage: claims checked on the page image.
 
@@ -125,8 +125,8 @@ $1\le x_1<x_2<\cdots<x_{f(n)}\le n$ is a sequence of integers then (30)
 $\sum_{i=1}^{f(n)}\varepsilon_i/x_i=1$, $\varepsilon_i=0$ or $1$ is always
 solvable. Is it true that $f(n)/n\to0$? In other words: Is it true that
 (30) is solvable in every sequence of positive lower density?" (the copy
-prints "prolem"); the site's [Er92c] source for the problem, which states
-the positive-density form and not the $\delta\log N$ threshold; the
+prints "prolem"); erdosproblems.com's [Er92c] source for the problem, which
+states the positive-density form and not the $\delta\log N$ threshold; the
 threshold implies it, since a set of positive lower density in
 $\{1,\ldots,N\}$ has reciprocal sum $\gg\log N$; no proof or bound is given;
 [[../wiki/problems/integer_sequences/E0013/_index|#13]]: Section 4, p. 42
@@ -143,7 +143,7 @@ question;
 [[../wiki/problems/integer_sequences/E0710/_index|#710]]: Section 1, p. 36 (PDF p. 3, page
 image): the definition of f(n;m) with the open interval (m, m+f(n;m)) and
 f(n)=f(n;n), the bounds (3), and the prize offer for an asymptotic
-formula, the offer the site converts to its prize;
+formula, the offer erdosproblems.com converts to its prize;
 [[../wiki/problems/integer_sequences/E0711/_index|#711]]: Section 1, p. 36 (PDF p. 3, page
 image): the proved bound (4), the conjecture (5) and the unproved (6), with
 a prize offered for each, the problem's two questions;

@@ -56,7 +56,7 @@ None.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1117/_index|Problem 1117]]: the same two
-  questions, which the site states for entire functions that are not
+  questions, which erdosproblems.com states for entire functions that are not
   monomials. As of 2018, Update 2.16 credits Herzog and Piranian with an
   affirmative answer to (a) and records (b) as unknown; the claim page
   [[../wiki/problems/analysis/E1117/claims/1968_01_01_herzog_piranian|Herzog and Piranian]]

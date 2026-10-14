@@ -31,7 +31,7 @@ received 12 September 2006, revised 16 April 2010, published online 19 May
 publisher's version of record at <https://doi.org/10.1007/s00373-010-0948-3>;
 no preprint or repository version is known here. The paper's [4] is Erdős,
 Some recent combinatorial problems, Technical Report, University of Bielefeld
-(1990), the report the site cites as [Er90c]; its [6] is Randerath,
+(1990), the report erdosproblems.com cites as [Er90c]; its [6] is Randerath,
 Schiermeyer and Wang, On quadrilaterals in a graph, Discrete Math. 203
 (1999), 229--237, and its [7] is Wang, On quadrilaterals in a graph, Discrete
 Math. 288 (2004), 149--166. None of the three is held.
@@ -202,9 +202,9 @@ length 4", is the problem's statement, with the paper's "disjoint" defined
 on p. 833 as having no common vertex, the problem's "vertex-disjoint". The
 theorem is stated with no lower bound on $k$ and no hypothesis the abstract
 omits. The introduction (p. 833) attributes the conjecture to "Erdős [4]",
-its reference 4 being the 1990 Bielefeld report the site cites as [Er90c],
-while the title and the abstract name it the Erdős--Faudree conjecture; the
-same page records the partial results that preceded it, $k-1$ disjoint
+its reference 4 being the 1990 Bielefeld report erdosproblems.com cites as
+[Er90c], while the title and the abstract name it the Erdős--Faudree conjecture;
+the same page records the partial results that preceded it, $k-1$ disjoint
 4-cycles plus a disjoint 4-vertex subgraph with at least four edges
 (Randerath, Schiermeyer and Wang 1999) and Theorem A (Wang 2004). The
 theorem was read on the page image at statement depth; the proof was read

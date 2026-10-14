@@ -74,15 +74,15 @@ Math. J. 10 (1963), 311--314), not held; otherwise self-contained.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E0492/_index|Problem 492]]: with $a_k=k$ this is the
-  decreasing-gap half of the site's "Davenport and LeVeque [DaLe63] proved
-  this under the assumption that $a_n-a_{n-1}$ is monotonic", for real
+  decreasing-gap half of erdosproblems.com's "Davenport and LeVeque [DaLe63]
+  proved this under the assumption that $a_n-a_{n-1}$ is monotonic", for real
   sequences $z_n\to\infty$ as in the problem's modified Statement. The
   theorem does not assume the problem's condition $a_{i+1}/a_i\to1$, which
   for the theorem's sequence reads $z_{n+1}/z_n\to1$; with decreasing gaps
   and $z_n\to\infty$ that condition holds automatically, since the gaps are
   bounded. The increasing half is LeVeque's 1953 result
   for every $x>0$, as the introduction recalls, which needs
-  $z_n/z_{n-1}\to1$. Under the site's wording, which takes the sequence in
-  the positive integers, the gaps are integers at least $1$, so decreasing
-  gaps are eventually constant and the theorem's decreasing case covers only
-  sequences that are eventually arithmetic progressions.
+  $z_n/z_{n-1}\to1$. Under the erdosproblems.com wording, which takes the
+  sequence in the positive integers, the gaps are integers at least $1$, so
+  decreasing gaps are eventually constant and the theorem's decreasing case
+  covers only sequences that are eventually arithmetic progressions.

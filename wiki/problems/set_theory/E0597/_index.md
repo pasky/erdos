@@ -49,13 +49,13 @@ adds that it may be necessary to restrict $G$ to finite order. Erdős gives
 Baumgartner's relation without proof, and no published proof of it is
 recorded; [[problems/set_theory/E0597/claims/2026_09_09_li|Li's claim]]
 takes it as a hypothesis. For finite $G$ the two forms coincide, since no
-finite graph contains $K_{\aleph_0,\aleph_0}$. The site states the problem
-with both excluded subgraphs, and that question sets the standing.
+finite graph contains $K_{\aleph_0,\aleph_0}$. erdosproblems.com states the
+problem with both excluded subgraphs, and that question sets the standing.
 
-**Status.** Open. The site labeled the problem OPEN and shows no verdict on its
-one proof claim. The site's proof-claims tab files that claim as a full claim.
-Its text answers only the first question, granted Baumgartner's unproved
-relation. Its claim page records it as a conditional claim.
+**Status.** Open. Bloom's catalog labeled the problem OPEN and shows no verdict
+on its one proof claim. The erdosproblems.com proof-claims tab files that claim
+as a full claim. Its text answers only the first question, granted Baumgartner's
+unproved relation. Its claim page records it as a conditional claim.
 
 **Source.** [erdosproblems.com/597](https://www.erdosproblems.com/597), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #597,
@@ -66,8 +66,8 @@ https://www.erdosproblems.com/597.
 ## Current assessment
 
 No assessment of the mathematics beyond the claim pages is recorded. The
-status above is the site's label. No literature search beyond the site and
-the sources named on the claim pages is recorded.
+status above is the erdosproblems.com label. No literature search beyond
+erdosproblems.com and the sources named on the claim pages is recorded.
 
 **Claims.** Four claim pages, none settling a question in full, so the
 derived standing is open. One accepted partial claim:
@@ -79,7 +79,7 @@ $K_3$ and for every graph on at most three vertices. Three pending claims.
 (1989) gives $\omega_1\omega\to(\omega_1\omega,n)^2$ for every finite $n$
 under $\mathrm{MA}_{\aleph_1}$, so the finite question holds for every
 finite $G$ in a model of ZFC and is not disprovable; the proceedings chapter
-carries no refereeing evidence and the site does not mention it, so the
+carries no refereeing evidence and erdosproblems.com does not mention it, so the
 claim stays `claimed`.
 [[problems/set_theory/E0597/claims/2026_09_09_li|Li's negative answer for a bipartite target on $\aleph_1$ vertices]]
 (2026-09-09, found with Proof Engine, GPT-5.6 and GPT-6 Astra, as the
@@ -106,11 +106,11 @@ question is not disprovable in ZFC, as
 [[problems/set_theory/E0597/claims/1989_01_01_baumgartner|Baumgartner's claim page]]
 records.
 
-The 2026 claims are pending, not accepted. The site labeled the problem OPEN
-(page last edited 23 January 2026) with no comments and one proof claim, and
-the community database lists it as open. The claim of Alex Chengyu Li, recorded on
-[[problems/set_theory/E0597/claims/2026_09_09_li|its claim page]], answers
-the first question negatively for a target of size $\aleph_1$ and leaves
+The 2026 claims are pending, not accepted. Bloom's catalog labeled the problem
+OPEN (page last edited 23 January 2026) with no comments and one proof claim,
+and the community database lists it as open. The claim of Alex Chengyu Li,
+recorded on [[problems/set_theory/E0597/claims/2026_09_09_li|its claim page]],
+answers the first question negatively for a target of size $\aleph_1$ and leaves
 countably infinite targets and the finite question untouched; the argument
 gives the negative answer in ZFC if Baumgartner's relation is a ZFC theorem,
 and as recorded it proves the implication; the page records the hypothesis,
@@ -123,7 +123,7 @@ $K_4$-free block graph (blocks $K_2$ or $K_3$), by closure of the relation
 under disjoint unions and one-point sums from the Erdős–Hajnal triangle
 case, reduces the finite question to the finite $2$-connected $K_4$-free
 graphs, and names $C_4$ and $K_4-e$ as the first open finite cases; it is
-unreviewed and not filed on the site.
+unreviewed and not filed on erdosproblems.com.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

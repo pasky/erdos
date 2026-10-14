@@ -86,8 +86,8 @@ problem's first question and refute its third question's formula for $k\geq6$,
 $k\not\equiv0\pmod3$; that standing rests on the claim page for Toft's 1970
 paper, not on this report. Theorems 1.1 and 1.2 are upper bounds on $f_k(n)$
 under the paper's proper-subgraph convention, which the problem page transfers
-to the site's edge-critical function; they decide none of the problem's three
-questions.
+to erdosproblems.com's edge-critical function; they decide none of the problem's
+three questions.
 
 **Results.**
 

@@ -4,7 +4,7 @@ title: "Theorem 3.5: ex(n,H) ≤ h^{1/2r} n^{2−1/4r} for bipartite r-degenerat
 desc: |
   The published general upper bound for the Turán number of an r-degenerate
   bipartite graph, with exponent 2 minus one over four r; the partial result
-  the site records on Problem 146.
+  erdosproblems.com records on Problem 146.
 created: 2026-09-18T06:10:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -75,8 +75,8 @@ statement.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0146/_index|Problem 146]]: the site's
-  "$\mathrm{ex}(n;H)\ll n^{2-1/4r}$" is this theorem; it is the best
-  general upper bound recorded here and leaves the conjectured exponent
+- [[../wiki/problems/extremal_graph_theory/E0146/_index|Problem 146]]:
+  erdosproblems.com's "$\mathrm{ex}(n;H)\ll n^{2-1/4r}$" is this theorem; it is
+  the best general upper bound recorded here and leaves the conjectured exponent
   $2-1/r$ open in general, while the conjecture itself is false for $r=2$
   (recorded on the problem page).

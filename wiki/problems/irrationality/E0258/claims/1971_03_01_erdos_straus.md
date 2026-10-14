@@ -55,7 +55,7 @@ irrationality for every sequence with $a_n\to\infty$, which
 answers. The paper's Theorem 2.26 proves the analogous irrationality for
 $\sigma(n)$ and $\varphi(n)$ in place of $d(n)$ for monotonic integer
 sequences with $a_n\ge n^{11/12}$ for large $n$, the subject of the further
-conjecture the site's remarks record. The source card
+conjecture the erdosproblems.com remarks record. The source card
 [[../library/irrationality/erdos_1971_number_theoretic_results/_index|erdos_1971_number_theoretic_results]]
 names the author-archive scan (the second `paper` link) as the copy read; no
 file is held.
@@ -69,9 +69,9 @@ $\log n$, which is the gap the problem's question concerns.
 
 **Acceptance.** Refereed: the Pacific Journal of Mathematics, volume 36, issue 3
 (March 1971), pp. 635--646. These data come from the Crossref record of the DOI.
-The site labeled the problem PROVED (LEAN) and credits Chojecki with the full
-answer. Its remark that Erdős and Straus proved the monotone case credits this
-paper with a part only, so no `reviewed` evidence is listed. The proofs are not
-checked here.
+Bloom's catalog labeled the problem PROVED (LEAN) and credits Chojecki with the
+full answer. Its remark that Erdős and Straus proved the monotone case credits
+this paper with a part only, so no `reviewed` evidence is listed. The proofs are
+not checked here.
 
 **Depends on.** Nothing in this wiki.

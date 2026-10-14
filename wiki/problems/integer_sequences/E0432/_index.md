@@ -21,9 +21,9 @@ updated: 2026-10-07T19:40:10Z
 **Statement.** Let $A,B\subseteq \mathbb{N}$ be two infinite sets. How dense can
 $A+B$ be if all elements of $A+B$ are pairwise relatively prime?
 
-**Status.** Open, the site's label (OPEN). A comment of 23 June 2026 on the
-site's discussion thread links Sungchul Lee's manuscript *On the Density of
-Pairwise Coprime Sumsets*
+**Status.** Open, the erdosproblems.com label (OPEN). A comment of 23 June 2026
+on the erdosproblems.com discussion thread links Sungchul Lee's manuscript *On
+the Density of Pairwise Coprime Sumsets*
 ([GitHub](https://github.com/lsngchl/Erdos432/blob/37d60fd8142f933f3a5679b072f78696b7d4e013/2026-06-23_Erdos432.pdf)).
 The author used OpenAI's GPT-5.5 Pro to explore proof strategies. Write
 $S(x)=|(A+B)\cap[1,x]|$. The manuscript proves $S(x)\le\pi(x)$ whenever the

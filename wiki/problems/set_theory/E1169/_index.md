@@ -27,14 +27,15 @@ $$
 \omega_1^2 \not\to (\omega_1^2, 3)^2?
 $$
 
-**Status.** Open. The site labeled the problem NOT DISPROVABLE and credits
-Hajnal's proof of the negative relation under the continuum hypothesis. There
-are later consistency results from a Suslin tree, from the stick principle, from
-$\mathfrak d=\aleph_1$ and in a model of a fragment of Martin's axiom. Together
-with Hajnal's result, they show that ZFC does not refute the relation. This is
-one side of an independence result. Whether ZFC proves the relation, that is,
-whether $\omega_1^2\to(\omega_1^2,3)^2$ is consistent, is open. This page
-departs from the site's label because one side alone leaves the question open.
+**Status.** Open. Bloom's catalog labeled the problem NOT DISPROVABLE and
+credits Hajnal's proof of the negative relation under the continuum hypothesis.
+There are later consistency results from a Suslin tree, from the stick
+principle, from $\mathfrak d=\aleph_1$ and in a model of a fragment of Martin's
+axiom. Together with Hajnal's result, they show that ZFC does not refute the
+relation. This is one side of an independence result. Whether ZFC proves the
+relation, that is, whether $\omega_1^2\to(\omega_1^2,3)^2$ is consistent, is
+open. This page departs from the erdosproblems.com label because one side alone
+leaves the question open.
 
 **Source.** [erdosproblems.com/1169](https://www.erdosproblems.com/1169),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1169,
@@ -54,7 +55,7 @@ https://www.erdosproblems.com/1169.
 
 ## Current assessment
 
-The statement above, as the site gives it, is the one whose standing is
+The statement above, as erdosproblems.com gives it, is the one whose standing is
 recorded. Its quantifier "for all finite $k<\omega$" binds nothing in the
 displayed relation; the booklet item [Va99, 7.85] asks the same question
 without it, and at $k=0$ a reading with $k$ triangle colors is the false
@@ -64,8 +65,8 @@ $\omega_1^2\not\to(\omega_1^2,3)^2$ from the continuum hypothesis, so ZFC
 does not refute the relation; the claim page
 [[problems/set_theory/E1169/claims/1971_01_01_hajnal|Hajnal 1971]] carries the
 statement, its source and the acceptance evidence, a refereed paper and the
-site's curator crediting it. Whether the relation is a theorem of ZFC, that
-is, whether $\omega_1^2\to(\omega_1^2,3)^2$ is consistent, is open:
+erdosproblems.com curator crediting it. Whether the relation is a theorem of
+ZFC, that is, whether $\omega_1^2\to(\omega_1^2,3)^2$ is consistent, is open:
 Komjáth's 2025 survey says so in its Problem 13 commentary
 ([[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|source card]]).
 The negative relation does not need CH. It follows from a Suslin tree
@@ -83,7 +84,7 @@ these results settles the same side, that ZFC does not refute the relation,
 so each claim page is partial and the problem is open: it would be settled as
 independent by a model of $\omega_1^2\to(\omega_1^2,3)^2$, and as proved by
 a proof of the negative relation in ZFC alone. No literature search beyond
-these sources and the site is recorded, and nothing on this page is
+these sources and erdosproblems.com is recorded, and nothing on this page is
 independently reviewed by this project.
 
 ## Known Results

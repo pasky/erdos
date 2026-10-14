@@ -32,9 +32,9 @@ author together with that model, and that an automated prover carried out the
 associated Lean formalization; the acknowledgments repeat the declaration and
 thank Stijn Cambie for feedback and improvements. The card records these as the
 paper's own declarations and claims no independent check of the argument. The
-site's thread on Problem 865 describes an updated version with the bound
-$\tfrac58N+6\tfrac38$ (27 June 2026) and a further improved constant (30 June
-2026); the retained v1 proves $|A|\le\tfrac54H+6$ for triple-free
+erdosproblems.com thread on Problem 865 describes an updated version with the
+bound $\tfrac58N+6\tfrac38$ (27 June 2026) and a further improved constant (30
+June 2026); the retained v1 proves $|A|\le\tfrac54H+6$ for triple-free
 $A\subseteq[1,2H]$ (display (6), p. 5), and no later version is on arXiv. Read
 status: claims checked for Theorem 1.1 (p. 1, page image and text layer),
 display (6) (p. 5) and the sharpness example (Section 5, p. 7); the proof (pp.
@@ -63,7 +63,7 @@ Source: <https://arxiv.org/abs/2606.29361v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0865/_index|#865]]: Theorem 1.1
 (p. 1) is the problem's statement with "for all $N$" in place of "for all
-large $N$", and the Section 5 example (p. 7) is the site's sharpness
+large $N$", and the Section 5 example (p. 7) is erdosproblems.com's sharpness
 example; the problem page qualifies the status (declared AI assistance, no
 refereed publication).
 

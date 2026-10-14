@@ -37,8 +37,8 @@ Academia Sinica, Taiwan, and Stein at the Departamento de Ingeniería
 Matemática y Centro de Modelamiento Matemático, Universidad de Chile (the
 footnotes on p. 1, which also record that parts of the work were conceived
 at the Simons Laufer Mathematical Sciences Institute in spring 2025). The
-site's key [ReSt26] on the pages of Problems 548 and 557. A preprint: a Crossref
-title query on 2026-10-07 returned no journal record.
+erdosproblems.com key [ReSt26] on the pages of Problems 548 and 557. A preprint:
+a Crossref title query on 2026-10-07 returned no journal record.
 
 The copy read for this card is
 [arXiv:2609.05417v2](https://arxiv.org/abs/2609.05417v2) (8 September 2026), 33

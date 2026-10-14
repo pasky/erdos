@@ -57,9 +57,9 @@ $F(N)/2^{c_1N}\to1$ or a polynomial prefactor.
 Egyptian fractions*, Discrete Analysis 2025:28, received 25 April 2024 and
 published 19 December 2025. Its printed DOI, 10.19086/da.154329, resolved on
 2026-10-07 to a different article, so the `paper` link is the journal's own page
-for the article. The site's curator, Thomas Bloom, marked the problem solved and
-credits this theorem, independently of the authors, as one of two proofs of the
-rate.
+for the article. The erdosproblems.com curator, Thomas Bloom, marked the problem
+solved and credits this theorem, independently of the authors, as one of two
+proofs of the rate.
 
 The
 [[../library/unit_fractions/conlon_2024_question_erdos_graham_egyptian_fractions/source_versions|version record]]

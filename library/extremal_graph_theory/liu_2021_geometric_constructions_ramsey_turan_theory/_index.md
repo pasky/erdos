@@ -43,7 +43,7 @@ arXiv:2103.10423v2 (18 August 2025; title page dated 19th August 2025), 27 pages
 with a text layer; v1 is of 18 March 2021. Page numbers here are the preprint's;
 the journal text is not held and was not compared. The paper's density rho_p(q)
 divides RT_p(n, K_q, epsilon n) by binom(n,2) (p. 2), so rho_3(5) = 1/6 is 1/12
-in the site's normalization by n^2. The arXiv record
+in the erdosproblems.com normalization by n^2. The arXiv record
 (https://arxiv.org/abs/2103.10423, read 2026-10-02) names the Creative Commons
 Attribution 4.0 license.
 
@@ -78,8 +78,8 @@ Source: <https://arxiv.org/abs/2103.10423>.
 p = 3, l = 1 and Corollary 1.2: rho_3(5) = 1/6, the exact threshold
 delta_3(5) = 1/12; Theorem 1.4 at t = 1 restates it),
 [[../wiki/problems/extremal_graph_theory/E0579/_index|#579]] (Problem C, p. 6: "Is
-RT_2(n, K_{2,2,2}, o(n)) = o(n^2)?", the site's question recorded as open in
-2025; the paper proves nothing about K_{2,2,2}).
+RT_2(n, K_{2,2,2}, o(n)) = o(n^2)?", the erdosproblems.com question recorded as
+open in 2025; the paper proves nothing about K_{2,2,2}).
 
 **Results.**
 

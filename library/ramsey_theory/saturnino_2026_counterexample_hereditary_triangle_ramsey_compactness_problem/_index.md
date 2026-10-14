@@ -39,21 +39,21 @@ problem. An eleven-page note dated April 26, 2026 (p. 1), hosted on the
 file-sharing site pdfhost.io; no arXiv identifier, DOI or journal.
 
 The copy read for this card is the revised version of the note, the one whose
-link the author posted to the site's Problem 638 discussion thread on the
-evening of 26 April 2026: its abstract (p. 1) states the hereditary scope ("the
-family of finite graphs is required to be closed under taking finite ordinary
-subgraphs") and Berge cycles are defined only for lengths $m\ge2$ (p. 3), the
-two changes the author announced in the thread. pdfTeX, eleven A4 pages with a
-complete text layer, on which the statements below were read; pp. 1--2 (date,
-abstract, Main Theorem 1) were checked on the rendered page images. Provenance:
-the repository's survey download set of September 2026, from the file-sharing
-page linked as the revised note in the site's Problem 638 thread at 20:08 on 26
-April 2026 (its address embeds the poster's account name and is not printed
-here); the download itself was not recorded; 265,185 bytes. No notice is printed
-on any of the note's eleven pages; no arXiv record exists for it (arXiv author
-query, read 2026-10-02), and the address of the file-sharing page it was
-obtained from is not recorded on this card, so no host's terms could be checked;
-the term is unstated.
+link the author posted to erdosproblems.com's Problem 638 discussion thread on
+the evening of 26 April 2026: its abstract (p. 1) states the hereditary scope
+("the family of finite graphs is required to be closed under taking finite
+ordinary subgraphs") and Berge cycles are defined only for lengths $m\ge2$ (p.
+3), the two changes the author announced in the thread. pdfTeX, eleven A4 pages
+with a complete text layer, on which the statements below were read; pp. 1--2
+(date, abstract, Main Theorem 1) were checked on the rendered page images.
+Provenance: the repository's survey download set of September 2026, from the
+file-sharing page linked as the revised note in erdosproblems.com's Problem 638
+thread at 20:08 on 26 April 2026 (its address embeds the poster's account name
+and is not printed here); the download itself was not recorded; 265,185 bytes.
+No notice is printed on any of the note's eleven pages; no arXiv record exists
+for it (arXiv author query, read 2026-10-02), and the address of the
+file-sharing page it was obtained from is not recorded on this card, so no
+host's terms could be checked; the term is unstated.
 
 Read status: claims checked for Main Theorem 1, Theorem 2 (the external
 input as stated), Definitions 3 and 6, Lemma 4, Proposition 5, Lemmas 7 and
@@ -93,10 +93,10 @@ triangle case of the Nešetřil--Rödl sparse copy-hypergraph Ramsey theorem
 (1984), 71--78), after which the construction is self-contained; Section 9
 (p. 11) says no claim is made beyond the triangle case.
 
-Provenance of the claim, as the site's Problem 638 discussion thread records
-it (26--27 April 2026): the author, posting under a pseudonymous account,
-submitted the note after running it through an automated proof system; a
-commenter reported that a standard check had found one minor mathematical
+Provenance of the claim, as erdosproblems.com's Problem 638 discussion thread
+records it (26--27 April 2026): the author, posting under a pseudonymous
+account, submitted the note after running it through an automated proof system;
+a commenter reported that a standard check had found one minor mathematical
 issue and that the problem's intended interpretation might still be unclear;
 the author revised the note (this version) and later linked a Lean project that,
 in the author's words, formalizes the compactness and diagonal part of the

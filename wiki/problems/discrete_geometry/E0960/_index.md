@@ -29,10 +29,10 @@ such that all $\binom{r}{2}$ many lines determined by $A'$ are ordinary.
 
 Is it true that $f_{r,k}(n)=o(n^2)$, or perhaps even $\ll n$?
 
-**Status.** Disproved. The site credits a construction of Alexeev, Putterman,
-Sawhney, Sellke and Valiant (April 2026) that gives $f_{r,k}(n)\geq n^2/12-O(n)$
-for every $r\geq3$ and $k\geq4$. The authors attribute its proof to an internal
-model at OpenAI. See the
+**Status.** Disproved. erdosproblems.com credits a construction of Alexeev,
+Putterman, Sawhney, Sellke and Valiant (April 2026) that gives
+$f_{r,k}(n)\geq n^2/12-O(n)$ for every $r\geq3$ and $k\geq4$. The authors
+attribute its proof to an internal model at OpenAI. See the
 [[problems/discrete_geometry/E0960/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|claim page]].
 
 **Source.** [erdosproblems.com/960](https://www.erdosproblems.com/960), accessed
@@ -52,7 +52,7 @@ https://www.erdosproblems.com/960.
 
 ## Current assessment
 
-**Disproved.** The site formulation above asks for the threshold
+**Disproved.** The erdosproblems.com formulation above asks for the threshold
 $f_{r,k}(n)$ of ordinary lines that forces, among $n$ points with no $k$ on a
 line, $r$ points all of whose connecting lines are ordinary, and whether
 $f_{r,k}(n)=o(n^2)$ or even $\ll n$, as Erdős hoped in [Er84] (p. 102). The
@@ -62,18 +62,19 @@ the accepted
 gives for every $n\geq72$ an $n$-point set with no four collinear, at least
 $n^2/12-10n/3$ ordinary lines and a bipartite ordinary-line graph, so no
 three points span only ordinary lines, which rules out every $r\geq3$. The
-site's curator credits the bound, which the paper attributes to an internal
-model at OpenAI, and that credit is the `reviewed` evidence; the paper is a
-preprint with no refereed version found on 2026-10-06, and no Lean proof is
+erdosproblems.com curator credits the bound, which the paper attributes to an
+internal model at OpenAI, and that credit is the `reviewed` evidence; the paper
+is a preprint with no refereed version found on 2026-10-06, and no Lean proof is
 recorded. The standing derives from that claim page. Known bounds: Turán's
 theorem gives $f_{r,k}(n)\leq(1-\tfrac1{r-1})\tfrac{n^2}2+1$, so the order of
 $f_{r,k}(n)$ is $n^2$ for every fixed $r\geq3$ and $k\geq4$ and only the
 constant is open; the parameters $k\leq3$ and $r=2$ are degenerate, as
-Section 2.1 of [APSSV26b] states. The site points to
+Section 2.1 of [APSSV26b] states. erdosproblems.com points to
 [[problems/discrete_geometry/E0209/_index|Problem 209]] as related. The
-search covered the site's problem page and discussion thread, the arXiv record
-of [APSSV26b] and [Er84] (Period. Math. Hungar. 15 (1984), p. 102, through its
-library card); on 2026-10-06 these held no other claimed result on the problem.
+search covered the erdosproblems.com problem page and discussion thread, the
+arXiv record of [APSSV26b] and [Er84] (Period. Math. Hungar. 15 (1984), p. 102,
+through its library card); on 2026-10-06 these held no other claimed result on
+the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

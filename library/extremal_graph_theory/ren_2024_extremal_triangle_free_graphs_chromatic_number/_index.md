@@ -70,10 +70,10 @@ and Theorem 1.5 with $d_2(G)$ and $H_n$ at
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2404.07486), every other right reserved.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1011/_index|#1011]]: the site's
-key RWWY24; Theorem 1.4 (p. 2) with the family $\mathcal G(n)$ gives
-$f_4(n)=\lfloor(n-3)^2/4\rfloor+6$ for $n\ge90$ (the paper's maximum plus
-one; the site prints the range $n\ge150$), and Theorem 1.2 (p. 1) with
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1011/_index|#1011]]: the
+erdosproblems.com key RWWY24; Theorem 1.4 (p. 2) with the family $\mathcal G(n)$
+gives $f_4(n)=\lfloor(n-3)^2/4\rfloor+6$ for $n\ge90$ (the paper's maximum plus
+one; erdosproblems.com prints the range $n\ge150$), and Theorem 1.2 (p. 1) with
 $H_0$ restates the Erdős--Gallai value for $r=3$; Theorem 1.5 (p. 3) bears
 only as the step of the proof of Theorem 1.4 that settles the case
 $d_2(G)\ge4$; paged at

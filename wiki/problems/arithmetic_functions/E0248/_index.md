@@ -28,12 +28,12 @@ $$
 
 (Here $\omega(n)$ is the number of distinct prime divisors of $n$.)
 
-**Status.** PROVED (LEAN), the site's label (page last edited 2026-04-17). The
-site's curator records the problem as resolved by Tao and Teräväinen [TaTe25].
-The curator also credits Lau [La26] with improving the bound to
-$\omega(n+k)\ll\log k$ for $k\ge2$. After the shift $n\mapsto n+1$, that bound
-alone answers the question as posed. The formal-conjectures project links a Lean
-proof of the full statement. The two accepted claims are
+**Status.** PROVED (LEAN), the erdosproblems.com label (page last edited
+2026-04-17). The erdosproblems.com curator records the problem as resolved by
+Tao and Teräväinen [TaTe25]. The curator also credits Lau [La26] with improving
+the bound to $\omega(n+k)\ll\log k$ for $k\ge2$. After the shift $n\mapsto n+1$,
+that bound alone answers the question as posed. The formal-conjectures project
+links a Lean proof of the full statement. The two accepted claims are
 [[problems/arithmetic_functions/E0248/claims/2025_12_01_tao_teravainen|Tao and Teräväinen 2025]]
 and [[problems/arithmetic_functions/E0248/claims/2026_04_16_lau|Lau 2026]].
 
@@ -62,18 +62,19 @@ corpus has built and audited neither file.
 
 ## Current assessment
 
-**Proved; two accepted full claims on the site's curator's record.** The site
-formulation above (page last edited 2026-04-17) asks for infinitely many $n$
-with $\omega(n+k)\ll k$ for all $k\ge1$. Tao and Teräväinen prove it with an
-absolute constant, and the site records the problem as resolved by them. Lau's
-$\Omega(n+k)\le C\log k$ for every $k\ge2$, which the site credits as an
-improvement, also settles the question by itself: for $n'=n+1$ and every
-$j\ge1$, $\omega(n'+j)\le\Omega(n+(j+1))\le C\log(j+1)\le Cj$. Neither preprint
-is known to be refereed, and the Lean development that formal-conjectures links
-as the formal proof has not been built or audited by this corpus, so both
-standings rest on the curator's documented acceptance. Erdős and Graham
-[ErGr80] had written that too little was known about sieves to handle the
-question. The site relates the problem to Problems 69, 679 and 826.
+**Proved; two accepted full claims on the erdosproblems.com curator's record.**
+The erdosproblems.com formulation above (page last edited 2026-04-17) asks for
+infinitely many $n$ with $\omega(n+k)\ll k$ for all $k\ge1$. Tao and Teräväinen
+prove it with an absolute constant, and erdosproblems.com records the problem as
+resolved by them. Lau's $\Omega(n+k)\le C\log k$ for every $k\ge2$, which
+erdosproblems.com credits as an improvement, also settles the question by
+itself: for $n'=n+1$ and every $j\ge1$,
+$\omega(n'+j)\le\Omega(n+(j+1))\le C\log(j+1)\le Cj$. Neither preprint is known
+to be refereed, and the Lean development that formal-conjectures links as the
+formal proof has not been built or audited by this corpus, so both standings
+rest on the curator's documented acceptance. Erdős and Graham [ErGr80] had
+written that too little was known about sieves to handle the question.
+erdosproblems.com relates the problem to Problems 69, 679 and 826.
 
 The discussion thread's one other proof-shaped post, of 2025-12-01, links a
 dated manuscript, John N. Dvorak's *A Probabilistic Sieve Framework for
@@ -89,10 +90,10 @@ density, about $\exp(-(\log\log N)^2)$, being swallowed by the tail's
 polynomial error term. The implication therefore decides nothing, and the
 post gets no claim page.
 
-Search scope: the site's page and discussion thread (six comments, 2025-10-19
-to 2026-04-17), the formal-conjectures statement file at its 2026-09-18 commit,
-the lean-proofs file and its commit history, and the arXiv records of both
-preprints.
+Search scope: the erdosproblems.com page and discussion thread (six comments,
+2025-10-19 to 2026-04-17), the formal-conjectures statement file at its
+2026-09-18 commit, the lean-proofs file and its commit history, and the arXiv
+records of both preprints.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -83,7 +83,7 @@ and Proposition 2.5 of the paper.
 
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: iterating (6) gives
   $f(k)=S(k)+1\ge c\cdot380^{k/5}$ with an absolute $c>0$, the source of the
-  lower bound the site displays in the stronger form
+  lower bound erdosproblems.com displays in the stronger form
   $(380)^{k/5}-O(1)\le f(k)$; the growth-rate form is
   [[ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur/corollary_2_9|Corollary 2.9]].
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: iterating (6) with

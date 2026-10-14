@@ -27,15 +27,15 @@ $x,y\in \{1,\ldots,n\}$ is contained in exactly one $A_i$).
 
 Is it true that if $t>n$ then $t\geq n+p$?
 
-**Formulation.** The site's parenthetical gives only the pair condition. A
-block design is read as Erdős, Fowler, Sós and Wilson define a 2-design
-[EFSW85, p. 131], with every block of at least two points. If empty or
+**Formulation.** The erdosproblems.com parenthetical gives only the pair
+condition. A block design is read as Erdős, Fowler, Sós and Wilson define a
+2-design [EFSW85, p. 131], with every block of at least two points. If empty or
 one-point blocks were allowed, the wording would fail trivially, since a
 projective plane of order $p$ plus one singleton block has $n+1$ blocks. The
 page's standing concerns the reading with blocks of at least two points.
 
-**Status.** Proved. The site labeled the problem PROVED (page last edited 24
-October 2025).
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (page last edited
+24 October 2025).
 
 **Source.** [erdosproblems.com/903](https://www.erdosproblems.com/903), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #903,
@@ -57,26 +57,26 @@ statement file is not a formalization of a result.
 
 ## Current assessment
 
-The question, in the site's formulation of 2026-09-04, is a conjecture of
-Erdős and Sós: a block design on $n=p^2+p+1$ points, $p$ a prime power, with
-more than $n$ blocks has at least $n+p$ of them. It is proved. The de
-Bruijn–Erdős theorem [dBEr48] gives $t\ge n$ for every such design with more
+The question, in the erdosproblems.com formulation of 2026-09-04, is a
+conjecture of Erdős and Sós: a block design on $n=p^2+p+1$ points, $p$ a prime
+power, with more than $n$ blocks has at least $n+p$ of them. It is proved. The
+de Bruijn–Erdős theorem [dBEr48] gives $t\ge n$ for every such design with more
 than one block, with equality for a projective plane of order $p$, and
 Theorem 2 of Erdős, Fowler, Sós and Wilson [EFSW85] excludes every block
 count strictly between $n$ and $n+p$, for every $v=p^2+p+1$ and not only for
 prime powers. The accepted claim page
 [[problems/set_systems/E0903/claims/1985_03_01_erdos_fowler_sos_wilson|Erdős, Fowler, Sós and Wilson 1985]]
 states the theorem, the construction attaining $n+p$, the two proofs and the
-acceptance evidence, a refereed journal paper credited by the site's curator.
-The same paper classifies the designs with exactly $n+p$ blocks (Theorem 3)
-and shows (Theorem 4) that every design on these points that is not a
-projective plane, a near pencil, or obtained from a projective plane by
+acceptance evidence, a refereed journal paper credited by the erdosproblems.com
+curator. The same paper classifies the designs with exactly $n+p$ blocks
+(Theorem 3) and shows (Theorem 4) that every design on these points that is not
+a projective plane, a near pencil, or obtained from a projective plane by
 breaking up one line has more than $p^2+(2+c)p$ blocks, with $c=0.147899$.
-The site's commentary asks, more generally,
+The erdosproblems.com commentary asks, more generally,
 which block counts a design on $n$ points can have, which the paper's Theorem
 1 answers for $v>v_0$ and all but an interval just above $n$.
 
-Search scope: the site's problem page and discussion thread and the
+Search scope: the erdosproblems.com problem page and discussion thread and the
 formal-conjectures statement file; on 2026-10-07 none of them showed a claim
 other than the paper's.
 <!-- BEGIN problem library links -->

@@ -37,7 +37,7 @@ nothing; the paper's results concern cliques and do not treat $K_{2,2,2}$.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0579/_index|Problem 579]]: the same question
-  in Ramsey--Turán notation (the site's statement says that
+  in Ramsey--Turán notation (the erdosproblems.com statement says that
   $\mathsf{RT}_2(n,K_{2,2,2},cn)<\delta n^2$ for some $c(\delta)$ and large
   $n$, for every $\delta>0$), recorded as open in 2025; the origin is the
   [[ramsey_theory/erdos_1983_more_results_ramsey_turan_type_problems/remark_p72|1983 remark]]

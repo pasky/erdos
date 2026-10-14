@@ -28,13 +28,14 @@ counted once, not one of its ten cyclically ordered vertex labelings. Every
 five-cycle in a triangle-free graph is induced, since any chord would create a
 triangle.
 
-**Status.** Proved. The site's label read "PROVED (LEAN)". The claim pages are
+**Status.** Proved. The erdosproblems.com label read "PROVED (LEAN)". The claim
+pages are
 [[problems/extremal_graph_theory/E0024/claims/2011_02_04_grzesik|Grzesik]] and
 [[problems/extremal_graph_theory/E0024/claims/2011_02_08_hatami_hladky_kral_norine_razborov|Hatami, Hladký, Král', Norine and Razborov]],
 both accepted on their refereed publications and the curator's credit. The 2026
 Lean proof declares itself a formalization of Grzesik's proof. It is recorded on
 that page as a formalization link and gives no `formalized` evidence. The Lean
-proof the site reports and its public scope are recorded below.
+proof erdosproblems.com reports and its public scope are recorded below.
 
 **Source.** [erdosproblems.com/24](https://www.erdosproblems.com/24), accessed
 2026-09-10 UTC. Cite as: T. F. Bloom, Erdős Problem #24,
@@ -72,17 +73,17 @@ Grzesik's
 and, independently, Hatami et al.'s
 [[../library/extremal_graph_theory/hatami_2013_number_pentagons_triangle_free_graphs/corollary_3_3|Corollary 3.3]]
 prove the stronger bound $(m/5)^5$ for every graph order $m$. Substituting
-$m=5n$ resolves the catalog question. Their refereed publications [Gr12]
-and [HHKNR13] support `proved`; this status does not depend on a new project
-proof or local formal verification.
+$m=5n$ resolves the erdosproblems.com question. Their refereed publications
+[Gr12] and [HHKNR13] support `proved`; this status does not depend on a new
+project proof or local formal verification.
 
-A bounded status search checked the catalog and its forum, the papers' arXiv
+A bounded status search checked Bloom's catalog and its forum, the papers' arXiv
 records, journal publication records, author publication pages, public
 formalization sources, and web-indexed announcements including X. It also
 located the later Lidický-Pfender resolution of the rounded arbitrary-order
 refinement, described below. The search found no dispute affecting the exact
-$5n$-vertex result. The catalog's broader remark about other odd cycle lengths
-is a separate question.
+$5n$-vertex result. erdosproblems.com's broader remark about other odd cycle
+lengths is a separate question.
 
 The flag-algebra coefficient calculations, the matrix checks and the
 uniqueness and stability proofs are not independently reviewed; the
@@ -134,7 +135,7 @@ large $m$ in
 On manuscript p. 11 the authors withdraw their original all-order argument
 for this rounded bound because of an uncorrected proof mistake. This
 qualification concerns the rounded refinement; their all-order bound
-$(m/5)^5$ and the catalog's $5n$ case remain proved.
+$(m/5)^5$ and erdosproblems.com's $5n$ case remain proved.
 
 The rounded question was subsequently settled by Bernard Lidický and
 Florian Pfender, *Pentagons in triangle-free graphs*, European J. Combin.
@@ -172,11 +173,11 @@ classification or rounded arbitrary-order maximum.
 The source includes a comment reporting the axioms `propext`, `Classical.choice`
 and `Quot.sound`; the development was not built or audited by this project, and
 no independent whole-statement fidelity audit is published. The formalization
-was announced in the site's forum on 2026-04-23; since it declares itself a
-formalization of Grzesik's proof, it is a formalization link on
+was announced in the erdosproblems.com forum on 2026-04-23; since it declares
+itself a formalization of Grzesik's proof, it is a formalization link on
 [[problems/extremal_graph_theory/E0024/claims/2011_02_04_grzesik|Grzesik's claim page]]
 and gives no `formalized` evidence; the community database records
-`formal_status` Lean since 2026-04-23 (as of 2026-10-06).
+`formal_status` Lean since 2026-04-23 (read 2026-10-06).
 
 <!-- BEGIN problem library links -->
 

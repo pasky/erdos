@@ -31,7 +31,7 @@ whose induced edges miss at least one color: the case $r=9$ of
 of Robert Sneiderman, *The nine-color case of an Erdős–Gyárfás
 balanced-coloring problem*, a 12-page preprint published as an asset of the
 release `fixed-r9-2026-07-21` of the author's repository on 2026-07-21 and
-posted to the site's proof-claim tab the same day; its digest is on
+posted to the erdosproblems.com proof-claim tab the same day; its digest is on
 [[../library/extremal_graph_theory/sneiderman_2026_nine_color_case_balanced_coloring/_index|its card]].
 Under the contrary hypothesis each color graph has independence number at most
 nine and, because the other eight colors partition its complement, an
@@ -93,5 +93,5 @@ referee, so it is no acceptance evidence; the same report is recorded on the
 name GPT-5.6 Sol for exploration, drafting and verification programs, and
 GPT-5 (Codex) for later source review, replay packaging and release checks;
 the repository's fixed-hash release replay (332 reconstructed terminal cases,
-50 CNFs, 50 LRAT proofs) is the author's own; the site's label was
+50 CNFs, 50 LRAT proofs) is the author's own; the erdosproblems.com label was
 FALSIFIABLE. A partial claim derives nothing for the problem's standing.

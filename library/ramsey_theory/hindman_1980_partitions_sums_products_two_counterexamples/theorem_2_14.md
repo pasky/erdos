@@ -80,8 +80,8 @@ $B=\{b_i:i\ge1\}$, an infinite set of two-term products, each a multilinear
 expression, so $B\in[J_t]^\omega$; a finite product of distinct $b_i$ is a
 product of $2r\ge2$ distinct $a_s$, and $b_i+b_j$ for $i\ne j$ is a sum of
 two products over disjoint index sets, so $FP(B)\cup PS(B)\subseteq J_t$,
-against the theorem. Hence the theorem disproves Problem 1198 as the site
-states it; the problem page records the derivation.
+against the theorem. Hence the theorem disproves Problem 1198 as
+erdosproblems.com states it; the problem page records the derivation.
 
 **Source.** N. Hindman, Partitions and sums and products---two
 counterexamples, J. Combinatorial Theory Ser. A 29 (1980), no. 1, 113--120,
@@ -144,11 +144,11 @@ page names it as the paper's finite-unions form).
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1198/_index|Problem 1198]]: the two-coloring result
-  the site's thread restates in its own notation, the printed statement
-  being equivalent to that restatement; with the substitution
+  the erdosproblems.com thread restates in its own notation, the printed
+  statement being equivalent to that restatement; with the substitution
   $b_i=a_{2i}a_{2i+1}$, made on the problem page, it disproves the problem
   from a source read at statement depth.
 - [[../wiki/problems/ramsey_theory/E0172/_index|Problem 172]]: the two-color refutation of
   the problem's infinite version, all finite sums and products of an
-  infinite set in one class; the site and the 1979 survey report the
+  infinite set in one class; erdosproblems.com and the 1979 survey report the
   seven-color statement of Theorem 2.15.

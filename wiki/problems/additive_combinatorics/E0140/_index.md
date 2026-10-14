@@ -26,35 +26,37 @@ updated: 2026-10-08T13:35:19Z
 $\{1,\ldots,N\}$ which does not contain a non-trivial $3$-term arithmetic
 progression. Prove that $r_3(N)\ll N/(\log N)^C$ for every $C>0$.
 
-**Status.** PROVED (LEAN). The site credits the proof to Kelley and Meka
-[KeMe23]. Their Theorem 1.1 gives $r_3(N)\le N\,2^{-c(\log N)^{\beta}}$ for an
-absolute $\beta>0$, which is below $N/(\log N)^C$ for every $C$. The claim page
+**Status.** PROVED (LEAN). erdosproblems.com credits the proof to Kelley and
+Meka [KeMe23]. Their Theorem 1.1 gives $r_3(N)\le N\,2^{-c(\log N)^{\beta}}$ for
+an absolute $\beta>0$, which is below $N/(\log N)^C$ for every $C$. The claim
+page
 [[problems/additive_combinatorics/E0140/claims/2023_02_10_kelley_meka|Kelley and Meka]]
-is accepted on the site's credit and on Bloom and Sisask's refereed exposition
-of the proof. The FOCS 2023 proceedings are not a journal, so the page lists no
-`refereed` evidence. The frontmatter standing derives from this claim. A second
-route is the September 2026 release preprint of OpenAI, with a Lean library two
-of whose declarations combine to prove the problem at $k=3$. It is accepted on
+is accepted on the erdosproblems.com credit and on Bloom and Sisask's refereed
+exposition of the proof. The FOCS 2023 proceedings are not a journal, so the
+page lists no `refereed` evidence. The frontmatter standing derives from this
+claim. A second route is the September 2026 release preprint of OpenAI, with a
+Lean library two of whose declarations combine to prove the problem at $k=3$. It
+is accepted on
 [[problems/additive_combinatorics/E0140/claims/2026_09_23_openai|its claim page]]
 on those declarations, which this corpus's verification built and axiom-checked.
 No comparator challenge pins them, and the preprint itself is unreviewed. The
-site's commentary adds that [ErGr80] and [Er81] conjecture the same bound for
-every $k$. No result before the release proves it for any $k\ge4$, and the
-release's theorem claims it. The same two Lean declarations give it at each
+erdosproblems.com commentary adds that [ErGr80] and [Er81] conjecture the same
+bound for every $k$. No result before the release proves it for any $k\ge4$, and
+the release's theorem claims it. The same two Lean declarations give it at each
 $k\ge4$ by the same combination, as its claim page records. The (Lean) suffix of
-the site's label traces to the community database's formal-status mark. It also
-traces to the Lean development in Boris Alexeev's lean-proofs repository that
-declares itself a formalization of Kelley and Meka's result, which is linked on
-their claim page and explained under Formalization. This corpus has not built or
-audited it.
+the erdosproblems.com label traces to the community database's formal-status
+mark. It also traces to the Lean development in Boris Alexeev's lean-proofs
+repository that declares itself a formalization of Kelley and Meka's result,
+which is linked on their claim page and explained under Formalization. This
+corpus has not built or audited it.
 
 **Source.** [erdosproblems.com/140](https://www.erdosproblems.com/140), accessed
 2026-10-07 (the page, last edited 20 December 2025, credits Kelley and Meka,
 cites [ErGr80, p. 11], [Er81], [Er97c] and [KeMe23], and shows no formalized
-statement; its discussion thread was empty, and the site's proof-claim
-listings of 2026-10-06 carried none for it); its proof-claim tab was empty.
-Cite as: T. F. Bloom,
-Erdős Problem #140, https://www.erdosproblems.com/140, accessed 2026-10-07.
+statement; its discussion thread was empty, and the erdosproblems.com
+proof-claim listings of 2026-10-06 carried none for it); its proof-claim tab was
+empty. Cite as: T. F. Bloom, Erdős Problem #140,
+https://www.erdosproblems.com/140, accessed 2026-10-07.
 
 **References.**
 
@@ -82,9 +84,9 @@ Erdős Problem #140, https://www.erdosproblems.com/140, accessed 2026-10-07.
 - [BlSi23a] Bloom, T. F. and Sisask, O., The Kelley--Meka bounds for sets
   free of three-term arithmetic progressions. Essential Number Theory 2
   (2023), no. 1, 15--44, doi:10.2140/ent.2023.2.15; arXiv:2302.07211 (14
-  February 2023). A refereed exposition of the proof; not held. The site's
-  bibliography does not cite it; its key [BlSi23] is the arXiv preprint
-  above.
+  February 2023). A refereed exposition of the proof; not held. The
+  erdosproblems.com bibliography does not cite it; its key [BlSi23] is the arXiv
+  preprint above.
 - [OAI26] OpenAI, Quasipolynomial Bounds for Arithmetic Progressions.
   OpenAI Math Release preprint, 23 September 2026 (family 159, with a Lean
   library); see the
@@ -92,16 +94,16 @@ Erdős Problem #140, https://www.erdosproblems.com/140, accessed 2026-10-07.
   Library home:
   [[../library/additive_combinatorics/openai_2026_quasipolynomial_bounds_arithmetic_progressions/_index|openai_2026_quasipolynomial_bounds_arithmetic_progressions]].
 
-**Formalization.** The site shows no formalized statement for this problem, and
-the community database (teorth/erdosproblems, 2026-10-07) lists
+**Formalization.** erdosproblems.com shows no formalized statement for this
+problem, and the community database (teorth/erdosproblems, 2026-10-07) lists
 `formal_status: Lean`, as of that field's last update on 2026-08-24, without
 dating when the state changed; by the database's schema the field records a
-formalized solution and is the source of the (Lean) suffix of the site's label,
-though the entry links no url or note; its separate `formalized: no` says that
-formal-conjectures holds no statement of the problem. The marker traces to the
-file `src/latest/ErdosProblems/Erdos140.lean` of Boris Alexeev's lean-proofs
-repository (added 2026-08-18, its header added 2026-08-23; pinned at the commit
-of 2026-09-15 on the
+formalized solution and is the source of the (Lean) suffix of the
+erdosproblems.com label, though the entry links no url or note; its separate
+`formalized: no` says that formal-conjectures holds no statement of the problem.
+The marker traces to the file `src/latest/ErdosProblems/Erdos140.lean` of Boris
+Alexeev's lean-proofs repository (added 2026-08-18, its header added 2026-08-23;
+pinned at the commit of 2026-09-15 on the
 [[problems/additive_combinatorics/E0140/claims/2023_02_10_kelley_meka|Kelley and Meka claim page]]),
 which declares itself a formalization of a solution to the problem with Kelley
 and Meka as informal authors and Codex and GPT-5.6 Sol as formal authors and

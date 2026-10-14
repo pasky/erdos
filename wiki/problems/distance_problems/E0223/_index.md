@@ -30,7 +30,7 @@ there exists some set of $n$ points $A\subseteq \mathbb{R}^d$, with diameter
 $1$, in which the distance 1 occurs between $f_d(n)$ many pairs of points in
 $A$. Estimate $f_d(n)$.
 
-**Status.** Solved. The site credits $f_2(n)=n$ for $n\ge3$ to Hopf and
+**Status.** Solved. erdosproblems.com credits $f_2(n)=n$ for $n\ge3$ to Hopf and
 Pannwitz, and $f_3(n)=2n-2$ for $n\ge4$ to Grünbaum, Heppes and Straszewicz,
 independently. For $d\ge4$ it credits the asymptotic
 $f_d(n)=(\frac{p-1}{2p}+o(1))n^2$ with $p=\lfloor d/2\rfloor$ to Erdős, and the

@@ -4,8 +4,8 @@ title: Pommerenke's lemniscate set with every projection above 2.386
 desc: |
   Pommerenke's 1961 example, a monic polynomial $f$ whose set $\{|f|\le1\}$ has
   projection of measure above $2.386$ onto every line, gives the negative answer
-  to the projection question. The paper is refereed and credited by the site's
-  curator.
+  to the projection question. The paper is refereed and credited by the
+  erdosproblems.com curator.
 authors:
 - Ch. Pommerenke
 status: accepted
@@ -51,21 +51,21 @@ received November 26, 1960. The publisher's record dates the article to the
 year 1961 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
-Journal. Reviewed: the site's curator, T. F. Bloom, labeled the problem
-disproved and credits the negative answer to this paper. Under its key [Po59],
-the commentary adds that the 1961 answer uses Pommerenke's previous work. The
-commentary answers a thread post of 12 October 2025. That post names the
-previous work as Pommerenke's *Über die Kapazität ebener Kontinuen*, Math. Ann.
-139 (1959), 64--75, which is the source of the five-armed star that the 1961
-paper uses on p. 103. The site's reference record resolves [Po59] to the 1959
-Michigan note listed on the problem page, which does not treat the projection
-question. The 1961 paper cites that note for Problem 10b (Theorem 2, p. 98) and
-for the width and diameter bounds of p. 109, not for the example of p. 103.
-Nothing here is independently reviewed by this project.
+Journal. Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled the
+problem disproved and credits the negative answer to this paper. Under its key
+[Po59], the commentary adds that the 1961 answer uses Pommerenke's previous
+work. The commentary answers a thread post of 12 October 2025. That post names
+the previous work as Pommerenke's *Über die Kapazität ebener Kontinuen*, Math.
+Ann. 139 (1959), 64--75, which is the source of the five-armed star that the
+1961 paper uses on p. 103. The erdosproblems.com reference record resolves
+[Po59] to the 1959 Michigan note listed on the problem page, which does not
+treat the projection question. The 1961 paper cites that note for Problem 10b
+(Theorem 2, p. 98) and for the width and diameter bounds of p. 109, not for the
+example of p. 103. Nothing here is independently reviewed by this project.
 
-**Lean.** The Lean qualifier of the site's label refers to a Lean disproof by
-a different construction, $z^{16}-1$, built and audited by this corpus and
-recorded as its own accepted claim on
+**Lean.** The Lean qualifier of the erdosproblems.com label refers to a Lean
+disproof by a different construction, $z^{16}-1$, built and audited by this
+corpus and recorded as its own accepted claim on
 [[problems/analysis/E1043/claims/2025_12_28_alexeev|Alexeev's page]]; no Lean
 development formalizes this paper's construction.
 

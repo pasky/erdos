@@ -80,8 +80,8 @@ The arXiv record names arXiv's non-exclusive distribution license
 bearing; Theorem 1 (p. 3) bounds the largest chromatic number of a
 triangle-free graph on $n$ vertices by $(2+o(1))\sqrt{n/\log n}$ and so
 bounds the range of $r$ for which the problem's $f_r(n)$ is a nontrivial
-question; the site's discussion thread derives from it the lower half of
-$g(r)\asymp r^2\log r$ for Simonovits's $g(r)$, a forum derivation recorded
+question; the erdosproblems.com discussion thread derives from it the lower half
+of $g(r)\asymp r^2\log r$ for Simonovits's $g(r)$, a forum derivation recorded
 on the problem page; paged at
 [[graph_coloring/davies_2022_ramsey_problem_triangle_free_graphs/theorem_1|theorem_1]].
 [[../wiki/problems/graph_coloring/E1104/_index|#1104]]: Theorem 1 (p. 3, text layer), its

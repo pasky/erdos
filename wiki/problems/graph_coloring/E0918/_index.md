@@ -32,11 +32,12 @@ Is there a graph with $\aleph_{\omega+1}$ vertices and chromatic number
 $\aleph_1$ such that every subgraph on $\aleph_\omega$ vertices has chromatic
 number $\leq\aleph_0$?
 
-**Status.** Open. The site labeled the problem OPEN. The first question (the
-part `q1`) is independent of ZFC + GCH, relative to a huge cardinal. Baumgartner
-1984 settles its not disprovable side, and Foreman and Laver 1988 settle its not
-provable side. The second question (the part `q2`) is open. Rinot 2015 settles
-its not disprovable side, and one side alone leaves the question open.
+**Status.** Open. Bloom's catalog labeled the problem OPEN. The first question
+(the part `q1`) is independent of ZFC + GCH, relative to a huge cardinal.
+Baumgartner 1984 settles its not disprovable side, and Foreman and Laver 1988
+settle its not provable side. The second question (the part `q2`) is open. Rinot
+2015 settles its not disprovable side, and one side alone leaves the question
+open.
 
 **Source.** [erdosproblems.com/918](https://www.erdosproblems.com/918), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #918,
@@ -57,11 +58,11 @@ https://www.erdosproblems.com/918.
 
 **Question.** Both questions ask for incompactness of the chromatic number:
 a graph whose chromatic number is uncountable although every subgraph on
-fewer vertices is countably chromatic. The site poses them as Erdős and
+fewer vertices is countably chromatic. Bloom's catalog poses them as Erdős and
 Hajnal do [ErHa68b], with subgraphs of chromatic number $\le\aleph_0$.
 Erdős's 1969 survey [Er69b] asks instead for subgraphs of chromatic number
-$=\aleph_0$; the site's commentary notes that, read for arbitrary rather
-than induced subgraphs, that version is trivially impossible, since an
+$=\aleph_0$; the erdosproblems.com commentary notes that, read for arbitrary
+rather than induced subgraphs, that version is trivially impossible, since an
 edgeless subgraph has chromatic number $1$.
 
 **First question.** It is independent of ZFC + GCH, relative to a huge
@@ -101,7 +102,7 @@ Foreman and Laver's page together settle the first question as independent,
 the one as not disprovable and the other as not provable. Rinot's page settles
 only the not disprovable side of the second question, and one side alone
 leaves that question open, so the problem is open. Neither question is
-answered in ZFC alone, and the site labeled the problem OPEN.
+answered in ZFC alone, and Bloom's catalog labeled the problem OPEN.
 
 ## Known Results
 

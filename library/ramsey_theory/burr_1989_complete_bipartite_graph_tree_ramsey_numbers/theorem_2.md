@@ -33,8 +33,8 @@ improvements in this value are being obtained rapidly. In any case, by Lemma
 The paper gives no citation for the prime-gap exponent.
 
 The hypothesis $(*)$ is explicit in the theorem; the unconditional form
-$n+\sqrt n-6n^{11/40}\le R(C_4,S_n)$ quoted by the site for Problem 552 and
-by Wu, Sun, Zhang and Radziszowski (2015) is the theorem with the remark's
+$n+\sqrt n-6n^{11/40}\le R(C_4,S_n)$ quoted by erdosproblems.com for Problem 552
+and by Wu, Sun, Zhang and Radziszowski (2015) is the theorem with the remark's
 $\alpha=11/20$ read as established.
 
 **Source.** S. Burr, P. Erdős, R. J. Faudree, C. C. Rousseau and R. H.
@@ -72,4 +72,4 @@ hypothesis $(*)$, which is an explicit assumption of the theorem.
   window for $R(C_4,S_n)$. It does not decide the displayed question, since
   it allows values below $n+\sqrt n$; with $\alpha$ arbitrarily small (as
   under Cramér's conjecture on prime gaps) it gives $n+\sqrt n-n^{o(1)}$, the
-  form the site's commentary mentions.
+  form the erdosproblems.com commentary mentions.

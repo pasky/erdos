@@ -26,9 +26,9 @@ $$
 Q(x)=\frac{6}{\pi^2}x+E(x).
 $$
 
-**Status.** Open. The site's label was OPEN. The page was last edited on
-2025-10-19, and its proof-claims tab was empty on 2026-10-06. No claim page is
-recorded.
+**Status.** Open. The erdosproblems.com label was OPEN. The page was last edited
+on 2025-10-19, and its proof-claims tab was empty on 2026-10-06. No claim page
+is recorded.
 
 **Source.** [erdosproblems.com/969](https://www.erdosproblems.com/969), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #969,
@@ -47,22 +47,23 @@ https://www.erdosproblems.com/969.
 
 ## Current assessment
 
-Site formulation (last edit 2025-10-19): determine the order of
+erdosproblems.com formulation (last edit 2025-10-19): determine the order of
 magnitude of $E(x)=Q(x)-\frac{6}{\pi^2}x$. The question was open
-on the site and no claim about it is on record. The site's summary of the
-literature leaves a gap between an omega result and the upper bounds. Evelyn
-and Linfoot [EvLi31] proved $E(x)=\Omega(x^{1/4})$: $|E(x)|\ge c\,x^{1/4}$
-for some $c>0$ and arbitrarily large $x$ (the site writes this as
-$E(x)\gg x^{1/4}$; $E(x)$ changes sign, so it is not a lower bound at every
-$x$), and $x^{1/4}$ is the expected true order. From above, no unconditional
-bound saves a power over the elementary $E(x)\ll x^{1/2}$, the prime number
-theorem giving $o(x^{1/2})$ and Walfisz [Wa63] only $x^{1/2}$ divided by a
-subpolynomial factor. The gap persists under the Riemann Hypothesis: that
-hypothesis gives $E(x)\ll x^{11/35+o(1)}$ (Liu [Li16]), the best conditional
-bound, and the site records that the true order of magnitude is unknown even
-assuming it; in the other direction, $E(x)\ll x^{1/4}$ would imply the
-Riemann Hypothesis. The literature is not compiled on this page, and no
-status search beyond the site record is recorded.
+on erdosproblems.com and no claim about it is on record. The erdosproblems.com
+summary of the literature leaves a gap between an omega result and the upper
+bounds. Evelyn and Linfoot [EvLi31] proved $E(x)=\Omega(x^{1/4})$:
+$|E(x)|\ge c\,x^{1/4}$ for some $c>0$ and arbitrarily large $x$
+(erdosproblems.com writes this as $E(x)\gg x^{1/4}$; $E(x)$ changes sign, so it
+is not a lower bound at every $x$), and $x^{1/4}$ is the expected true order.
+From above, no unconditional bound saves a power over the elementary
+$E(x)\ll x^{1/2}$, the prime number theorem giving $o(x^{1/2})$ and Walfisz
+[Wa63] only $x^{1/2}$ divided by a subpolynomial factor. The gap persists under
+the Riemann Hypothesis: that hypothesis gives $E(x)\ll x^{11/35+o(1)}$ (Liu
+[Li16]), the best conditional bound, and erdosproblems.com records that the true
+order of magnitude is unknown even assuming it; in the other direction,
+$E(x)\ll x^{1/4}$ would imply the Riemann Hypothesis. The literature is not
+compiled on this page, and no status search beyond the erdosproblems.com record
+is recorded.
 
 The OpenAI Math Release holds two manuscripts titled *The Quasi-Riemann
 Hypothesis*. The first (OpenAI, 2026-09-30, subtitled *A Zero-Free

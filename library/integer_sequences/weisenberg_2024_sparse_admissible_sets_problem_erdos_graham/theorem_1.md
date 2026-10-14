@@ -68,4 +68,4 @@ input. Nothing else beyond elementary congruences.
 
 - [[../wiki/problems/integer_sequences/E0429/_index|Problem 429]]: the statement answers
   the problem's question in the negative for every sparsity threshold; the
-  site's label DISPROVED (LEAN) rests on it.
+  erdosproblems.com label DISPROVED (LEAN) rests on it.

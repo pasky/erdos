@@ -183,24 +183,24 @@ theorems as printed, since $n-[\log n]-2[\log\log n]-4$ is below
 $n-\log n/\log2-\log\log n$ and $n-[\log n]$ is at least $n-\log n/\log2$.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0927/_index|#927]]: the key
-MoMo65 that the site's commentary cites (the problem's source keys are
-Er66b, Er71 and Er69b) and the origin of $g(n)$. Theorem 3 (printed p. 25, PDF
-p. 3), introduced by "When $n\ge26$, an improved bound is given by the
+MoMo65 that the erdosproblems.com commentary cites (the problem's source keys
+are Er66b, Er71 and Er69b) and the origin of $g(n)$. Theorem 3 (printed p. 25,
+PDF p. 3), introduced by "When $n\ge26$, an improved bound is given by the
 following result. (In what follows all logarithms are to the base two.)",
 reads $g(n)\ge n-[\log n]-2[\log\log n]-4$; Theorem 4 (printed p. 27, PDF
-p. 5) reads "If $n\ge4$, then $g(n)\le n-[\log n]$." The site's commentary
-quotes the lower bound in the 1969 form and the upper bound in the paper's
-form. Theorem 4 is the upper half of the site's estimate
+p. 5) reads "If $n\ge4$, then $g(n)\le n-[\log n]$." The erdosproblems.com
+commentary quotes the lower bound in the 1969 form and the upper bound in the
+paper's form. Theorem 4 is the upper half of erdosproblems.com's estimate
 $g(n)=n-\log_2n+O(1)$, whose lower half is Spencer's 1971 result; paged at
 [[extremal_graph_theory/moon_moser_1965_cliques_graphs/theorem_3|theorem_3]]
 and
 [[extremal_graph_theory/moon_moser_1965_cliques_graphs/theorem_4|theorem_4]].
-[[../wiki/problems/set_systems/E0775/_index|#775]]: the site's reference key for the graph
-case of the clique-sizes question that the problem asks for $3$-uniform
-hypergraphs. The paper defines cliques and $g(n)$ for graphs (p. 23) and
-proves Theorems 3 and 4; it has no hypergraph statement, and its concluding
-remarks (p. 28) say only that for bipartite graphs the authors "have been
-unable, however, to obtain good analogues to theorems 3 and 4."
+[[../wiki/problems/set_systems/E0775/_index|#775]]: the erdosproblems.com
+reference key for the graph case of the clique-sizes question that the problem
+asks for $3$-uniform hypergraphs. The paper defines cliques and $g(n)$ for
+graphs (p. 23) and proves Theorems 3 and 4; it has no hypergraph statement, and
+its concluding remarks (p. 28) say only that for bipartite graphs the authors
+"have been unable, however, to obtain good analogues to theorems 3 and 4."
 
 **Results.**
 

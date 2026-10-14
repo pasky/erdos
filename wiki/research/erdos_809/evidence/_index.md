@@ -45,8 +45,8 @@ write-up's author line, one broken citation in it and the README.
 The README's "to our knowledge" novelty sentence reflects the project's search
 of 24 September 2026 and is retained as written; Asad Shahab's independent proof
 claim, a proof of the seven-cycle case with a Lean development whose headline
-theorem covers every odd cycle $C_{2k+1}$ with $k\ge3$, was filed on the site
-first (proof claim 358, before the project's 367, both on 27 September 2026;
-preprint arXiv:2609.38286, 29 September 2026), and this corpus built that
-development at its pinned commit and audited its statement on 2026-10-08, as
-[[problems/ramsey_theory/E0809/_index|the problem page]] records.
+theorem covers every odd cycle $C_{2k+1}$ with $k\ge3$, was filed on
+erdosproblems.com first (proof claim 358, before the project's 367, both on 27
+September 2026; preprint arXiv:2609.38286, 29 September 2026), and this corpus
+built that development at its pinned commit and audited its statement on
+2026-10-08, as [[problems/ramsey_theory/E0809/_index|the problem page]] records.

@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 1153, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/polynomials/E1153/claims
@@ -18,8 +18,8 @@ paper is refereed.
 
 [[problems/polynomials/E1153/claims/2026_03_23_tao|2026_03_23_tao]]: Tao proves that on every fixed subinterval the maximum of the Lebesgue
 function of $n$ distinct nodes is at least $(2/\pi)\log n$ minus a constant,
-uniformly in the nodes. The result is credited by the site's curator and is
-unrefereed.
+uniformly in the nodes. The result is credited by the erdosproblems.com
+curator and is unrefereed.
 
 [[problems/polynomials/E1153/claims/2026_08_31_yang|2026_08_31_yang]]: A forum claim with a write-up and a Lean 4 development asserts another proof
 that on every fixed subinterval the Lebesgue function of $n$ distinct nodes

@@ -98,8 +98,8 @@ Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0649/_index|#649]]: listed in the
 problem's references; the note's own results concern pseudoprimes $n$ and
 $kn$ and pseudoprimes in residue classes, not the pattern $P(n)=p$,
-$P(n+1)=q$, and the divisor property attributed to it in the problem's site
-discussion was not found in it. Neither
+$P(n+1)=q$, and the divisor property attributed to it in the problem's
+erdosproblems.com discussion was not found in it. Neither
 [[arithmetic_functions/rotkiewicz_1964_nombres_naturels_n_k_pseudopremiers/theorem_1|Théorème 1]] (p. 816) nor
 [[arithmetic_functions/rotkiewicz_1964_nombres_naturels_n_k_pseudopremiers/theorem_2|Théorème 2]] (p. 816) bears on
 the problem.

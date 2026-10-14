@@ -51,7 +51,7 @@ integers has
 $\max(\lvert A+_GA\rvert,\lvert A\cdot_GA\rvert)\gg m^{3/2}n^{-7/4}$. The claim
 page is
 [[problems/additive_combinatorics/E0808/claims/2018_02_18_alon_ruzsa_solymosi|Alon, Ruzsa and Solymosi]],
-accepted on the refereed publication and the site's credit.
+accepted on the refereed publication and the erdosproblems.com credit.
 
 **Source.** [erdosproblems.com/808](https://www.erdosproblems.com/808), accessed
 2026-09-04 (label DISPROVED; no last-edited date; empty

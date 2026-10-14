@@ -39,9 +39,9 @@ An increasing sequence counted by the function $f(n)$ of
 if a block of two or more consecutive terms summed to a term, that block and
 the single term would be two equal sums of consecutive terms. Hence
 $f(n)\le(2/3-1/512)n+O(\log n)$, as a thread comment of 9 December 2025 and
-Lenthall-Cleary's eq. (1.2) observe. The site's commentary credits the bound,
-through [[problems/additive_combinatorics/E0867/_index|Problem 867]], to the
-unrestricted function $g(n)$, for sequences that need not increase; a
+Lenthall-Cleary's eq. (1.2) observe. The erdosproblems.com commentary credits
+the bound, through [[problems/additive_combinatorics/E0867/_index|Problem 867]],
+to the unrestricted function $g(n)$, for sequences that need not increase; a
 thread comment of 9 April 2026 disputes that application, and this page
 claims the bound only for $f(n)$.
 
@@ -49,8 +49,8 @@ claims the bound only for $f(n)$.
 does not answer whether $f(n)=o(n)$, the problem's question.
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above,
-in the SIAM Journal on Discrete Mathematics. The site labeled the problem OPEN,
-so its commentary credits the paper without settling the problem, and no
+in the SIAM Journal on Discrete Mathematics. Bloom's catalog labeled the problem
+OPEN, so its commentary credits the paper without settling the problem, and no
 `reviewed` evidence is listed. The publication record dates the issue to May
 1996 and gives no finer date, so the page is dated to the first day of that
 month.

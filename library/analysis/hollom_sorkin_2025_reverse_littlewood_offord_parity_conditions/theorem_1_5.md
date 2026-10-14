@@ -72,5 +72,5 @@ $n=4$ form a large family. It is consumed here at statement depth only.
 This page records no accepted proof coverage and no verification tier.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — the higher-dimensional
-parity variant of the catalog question, not its planar radius-$\sqrt2$
+parity variant of the erdosproblems.com question, not its planar radius-$\sqrt2$
 form.

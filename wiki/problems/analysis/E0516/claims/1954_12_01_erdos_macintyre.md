@@ -66,8 +66,8 @@ accepted full claim of Fuchs.
 **Depends on.** Nothing in this wiki: the argument is the paper's own.
 
 **Acceptance.** Refereed: the paper appeared in the Proceedings of the Edinburgh
-Mathematical Society, a refereed journal. The site labeled the problem PROVED
-(LEAN) and credits Fuchs with the solution. It records this paper's gap
+Mathematical Society, a refereed journal. Bloom's catalog labeled the problem
+PROVED (LEAN) and credits Fuchs with the solution. It records this paper's gap
 condition as an earlier result. The label settles the problem through Fuchs's
 paper, not this one, so the page lists no `reviewed` evidence.
 

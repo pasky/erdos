@@ -56,9 +56,9 @@ disclosure (p. 35) states that "ChatGPT 5.6 was used for proofreading
 the manuscript" and "suggested a core idea underlying the current shorter
 proof of Lemma 3.2", the author taking "full responsibility"; recorded
 as the source's own disclosure. Consumed here as context for Problem 354
-only; the paper's main results concern Erdős's 1961 conjecture (the
-site's Problem 254) and the Burr--Erdős--Graham--Li problem on mixed
-power sets (the site's Problem 124), and are not triaged here.
+only; the paper's main results concern Erdős's 1961 conjecture
+(erdosproblems.com's Problem 254) and the Burr--Erdős--Graham--Li problem on
+mixed power sets (erdosproblems.com's Problem 124), and are not triaged here.
 
 ## Overview
 

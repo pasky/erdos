@@ -72,6 +72,6 @@ Alspach's conjecture to Conjecture 1.2 for sets of size at most $k$.
   proposition answers the problem's question affirmatively for every prime
   $p$ and every size $t\le12$. Conjecture 1.2 with $n=p$ is that question,
   since $\mathbb Z_p=\mathbb F_p$ and, unlike Alspach's conjecture, it asks
-  only for distinct partial sums, the problem's condition. The site credits the
-  sizes $t\le12$ to this paper and its references. Nothing here concerns the
-  sizes $13\le t\le p-1$.
+  only for distinct partial sums, the problem's condition. erdosproblems.com
+  credits the sizes $t\le12$ to this paper and its references. Nothing here
+  concerns the sizes $13\le t\le p-1$.

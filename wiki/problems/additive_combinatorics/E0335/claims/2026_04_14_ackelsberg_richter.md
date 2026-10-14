@@ -51,8 +51,8 @@ case (2), the degenerate case, $B_1$ again covers
 $\mathbb N\setminus h\mathbb N$ up to density zero along the scale sequence,
 $B_0$ has density zero along it, and $A$ and $B$ are each invariant along it,
 up to density zero, under every shift by an element of $h\mathbb N$. The paper
-states that Theorem 1.4 resolves its Problem 1.5, the site's Problem 335,
-under the extra assumption that $B$ meets every residue class, and that the
+states that Theorem 1.4 resolves its Problem 1.5, erdosproblems.com's Problem
+335, under the extra assumption that $B$ meets every residue class, and that the
 pairs of case (2) refute Erdős and Graham's speculation that every such pair
 arises from a rotation construction; Propositions 15.1 and 15.2 construct
 pairs in case (2), in Proposition 15.1 with $B$ of density zero.
@@ -68,9 +68,9 @@ the theorem's hypothesis excludes.
 **Depends on.** No page of this wiki; the claim rests on the cited preprint.
 
 **Standing.** Claimed. The paper is a preprint: its arXiv record carries one
-version, of 2026-04-14, and no journal reference. The site's curator, T. F.
-Bloom, records in the problem page's commentary that the problem is
-partially resolved by this paper under the residue-class assumption, but the
-site labeled the problem OPEN (page last edited 2026-04-15), so the commentary
-is not acceptance and no `reviewed` evidence is listed. The proof is not
-checked here.
+version, of 2026-04-14, and no journal reference. The erdosproblems.com curator,
+T. F. Bloom, records in the problem page's commentary that the problem is
+partially resolved by this paper under the residue-class assumption, but Bloom's
+catalog labeled the problem OPEN (page last edited 2026-04-15), so the
+commentary is not acceptance and no `reviewed` evidence is listed. The proof is
+not checked here.

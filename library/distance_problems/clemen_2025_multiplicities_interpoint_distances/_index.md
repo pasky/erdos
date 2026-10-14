@@ -85,9 +85,9 @@ distances occurring at least 16n/9 times. Theorem 1.9 constructs, for large n
 and each 1 <= k <= log n, sets with a_k(X) - a_(k+1)(X) = Omega(n log n / k)
 and with the k distances of largest multiplicity prescribable, yielding
 Corollary 1.10, max (a_1(X) - a_2(X)) = Omega(n log n), the n log n bound that
-problem 959's site page credits; Problem 1.11 asks whether this can be improved
-to n^(1 + c/log log n), a bound Theorem 1.7 suggests but which the paper poses
-only as a question. The methods are convex layer decomposition with
+problem 959's erdosproblems.com page credits; Problem 1.11 asks whether this can
+be improved to n^(1 + c/log log n), a bound Theorem 1.7 suggests but which the
+paper poses only as a question. The methods are convex layer decomposition with
 Vesztergombi's results on the two largest distances, counting representations
 as sums of two squares in the integer grid, and an inductive translation
 construction after Erdős and Purdy. For problem 653 the paper was screened and

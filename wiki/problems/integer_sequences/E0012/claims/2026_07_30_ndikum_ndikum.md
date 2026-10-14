@@ -44,10 +44,10 @@ with one declared axiom, which they call oracle-verified and numerically checked
 over many configurations. The tab names the system as Libertas
 Superintelligence, described there as open-weight models with white-box
 reasoning, and the notes say it produced the discovery, the Lean verification
-and the write-up end to end. The eight-page write-up was sent to the site's
-curator and not posted; the public record of the claim on 2026-10-07 was the
-summary, the repository's listing and the two comments; apart from the declared
-axiom, shown false below, nothing in it has been checked.
+and the write-up end to end. The eight-page write-up was sent to the
+erdosproblems.com curator and not posted; the public record of the claim on
+2026-10-07 was the summary, the repository's listing and the two comments; apart
+from the declared axiom, shown false below, nothing in it has been checked.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Philip
 Ndikum, Serge Ndikum (account philipndikum) on 30 July 2026, giving "Libertas
@@ -84,8 +84,8 @@ Superintelligence © (open-weight models, white-box reasoning)" as the AI used:
 claim on
 [[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
 
-**Standing.** Rejected. The site's label was OPEN and its commentary, last
-edited 8 April 2026, does not mention the claim; the tab's notice says that
+**Standing.** Rejected. The erdosproblems.com label was OPEN and its commentary,
+last edited 8 April 2026, does not mention the claim; the tab's notice says that
 appearance there is no guarantee of correctness. Two comments of 30 July 2026:
 one asks for a summary of the block decomposition lemma's proof; the other
 points at the declared axiom `growth_ineq` and reports that GPT 5.6 Sol, which

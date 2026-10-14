@@ -75,14 +75,14 @@ Source: <https://arxiv.org/abs/1107.1920>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0717/_index|#717]]: Theorem 1.1
 (p. 2, page image), the problem's answer, $H(n)\le Cn^{1/2}/\log n$ for
-$n\ge2$ with $C=10^{120}$ sufficient, deduced from Theorem 1.2; the site's
-key FLS13;
+$n\ge2$ with $C=10^{120}$ sufficient, deduced from Theorem 1.2; the
+erdosproblems.com key FLS13;
 [[../wiki/problems/extremal_graph_theory/E0718/_index|#718]]: Theorem 3.1 (p. 4, page
 image), the Bollobás--Thomason and Komlós--Szemerédi theorem quoted with the
 constant $256$, every graph with $n$ vertices and at least $256t^2n$ edges
 containing a subdivision of $K_t$, the refereed statement of the problem's
 answer in this paper's words; the paper's reference [5] for it is the 1998
-European J. Combin. paper, not the site's key BoTh96.
+European J. Combin. paper, not the erdosproblems.com key BoTh96.
 
 **Results.**
 

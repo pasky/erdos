@@ -76,7 +76,7 @@ None beyond the definitions; the proof is self-contained.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0581/_index|Problem 581]]: none.
-  The site gives this paper as the problem's source, but the theorem
+  erdosproblems.com gives this paper as the problem's source, but the theorem
   concerns covering numbers of uniform hypergraphs and says nothing about
   triangle-free graphs or bipartite subgraphs; the paper does not mention
   the problem.

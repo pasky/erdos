@@ -28,9 +28,9 @@ from $A$ which intersect in three points, and each of these intersection points
 only intersects two lines from $A$?
 
 **Status.** DISPROVED (LEAN). An elementary arrangement of four lines already
-refutes the question as stated (see the Current assessment). The site credits
-Füredi and Palásti, and Escudero, whose arrangements together cover every
-$d\ge4$.
+refutes the question as stated (see the Current assessment). erdosproblems.com
+credits Füredi and Palásti, and Escudero, whose arrangements together cover
+every $d\ge4$.
 
 **Source.** [erdosproblems.com/209](https://www.erdosproblems.com/209), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #209,
@@ -39,11 +39,11 @@ https://www.erdosproblems.com/209.
 **References.**
 
 - [Er84] Erdős, P., Research problems. Period. Math. Hungar. 15 (1984), 101-103;
-  the site's first source key for the problem.
+  erdosproblems.com's first source key for the problem.
 - [ErPu95b] Erdős, P. and Purdy, G., Extremal problems in combinatorial
   geometry. Handbook of Combinatorics, Vol. 1, Elsevier (1995), 809-874, p. 818;
-  the site's second source key, and the reference Escudero gives for the
-  question.
+  erdosproblems.com's second source key, and the reference Escudero gives for
+  the question.
 - [Es16] Escudero, Juan García, Gallai triangles in configurations of lines in
   the projective plane. C. R. Math. Acad. Sci. Paris 354 (2016), no. 6, 551-554.
 - [FuPa84] Füredi, Z. and Palásti, I., Arrangements of lines with a large number
@@ -77,7 +77,7 @@ whose arrangements have no Gallai triangle for every $d\ge 4$ not divisible by
 $9$;
 [[problems/discrete_geometry/E0209/claims/2016_04_14_escudero|Escudero (2016)]]
 gives arrangements for every $d\ge 4$, adding the multiples of $9$. Both
-results are refereed, and the site's curator credits both.
+results are refereed, and the erdosproblems.com curator credits both.
 
 The question the two papers answer is the one the sources pose for each number
 of lines: whether, for every $d\ge 4$, some arrangement of $d$ lines with no
@@ -85,17 +85,17 @@ point on four of them has no Gallai triangle. Füredi and Palásti answer it for
 every $d\ge 4$ not divisible by $9$, and Escudero for every $d\ge 4$, so for
 every admissible $d$ an arrangement without a Gallai triangle exists. This
 per-$d$ formulation is a stronger variant: its positive answer refutes the
-Statement's question at every $d\ge 4$. The site's Lean qualification refers to
-a third-party Lean development of Escudero's construction, which the
+Statement's question at every $d\ge 4$. The erdosproblems.com Lean qualification
+refers to a third-party Lean development of Escudero's construction, which the
 `formal_proof` attribute of the [formal-conjectures
 file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/209.lean)
 cites; this corpus has not built it, and the formal-conjectures file itself
 states the problem without a proof.
 
-Status search: the site's page and its formal-conjectures entry,
+Status search: the erdosproblems.com page and its formal-conjectures entry,
 the publishers' records of the two papers, and the Escudero source card. The
-corpus records no check of either proof. Problem 960 on the site is listed as
-related.
+corpus records no check of either proof. Problem 960 on erdosproblems.com is
+listed as related.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

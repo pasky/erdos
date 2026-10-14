@@ -168,15 +168,15 @@ Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0560/_index|#560]]: Theorem 1 (printed
 p. 261, PDF p. 3), "For all $n\ge1$, $\hat r(K_{n,n})>\frac1{60}n^22^n$", is
-the site's lower bound with its constant $\frac1{60}$, proved from
+erdosproblems.com's lower bound with its constant $\frac1{60}$, proved from
 [[ramsey_theory/erdos_rousseau_1993_size_ramsey_number_complete_bipartite/lemma_1|Lemma 1]]
 (p. 260), which bears on the problem only as that input; the paper states it
-for all $n\ge1$, while the site's commentary attaches "which holds for
-$n\ge6$" to it. In the paper $n\ge6$ qualifies the upper bound: display (1)
+for all $n\ge1$, while the erdosproblems.com commentary attaches "which holds
+for $n\ge6$" to it. In the paper $n\ge6$ qualifies the upper bound: display (1)
 (printed p. 259, PDF p. 1), "In [1] it was noted that
 $\hat r(K_{n,n})<\frac32n^32^n$", follows from the criterion (2) with
 $a=\lfloor n^2/2\rfloor$ and $b=3n2^n$, for which "(2) holds for all
-$n\ge6$"; this is the site's upper bound with its constant $\frac32$,
+$n\ge6$"; this is erdosproblems.com's upper bound with its constant $\frac32$,
 credited by the paper to the 1978 paper
 [[ramsey_theory/erdos_1978_size_ramsey_number/_index|erdos_1978_size_ramsey_number]],
 whose

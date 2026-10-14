@@ -34,8 +34,8 @@ vertices on which some color does not appear: the case $r=6$ of
 [[../library/extremal_graph_theory/sneiderman_2026_six_color_case_balanced_coloring/theorem_1_1|Theorem 1.1]]
 of Robert Sneiderman, *The six-color case of an Erdős–Gyárfás
 balanced-coloring problem*, a 13-page preprint published in the author's
-repository on 2026-07-18 and posted to the site's proof-claim tab the same
-day; its digest is on
+repository on 2026-07-18 and posted to the erdosproblems.com proof-claim tab the
+same day; its digest is on
 [[../library/extremal_graph_theory/sneiderman_2026_six_color_case_balanced_coloring/_index|its card]].
 In a hypothetical balanced coloring each color graph is admissible (every
 seven vertices span at most $16$ of its edges) and has independence number at
@@ -79,10 +79,10 @@ that the statement shape is false at $r=2$. The corpus has not built it, so
 it gives no `formalized` evidence.
 
 **Standing.** Claimed. Unrefereed, and the proof-claim entry names GPT 5.6
-Sol as the system used; the site's label was FALSIFIABLE. The claim carries
-two comments by Nick Winter. The first (31 July 2026) reports a review by their
-GPT-5.6 Sol and Claude Fable 5 agents: every inference re-derived, the hand
-case classifications replaced by exhaustive enumeration, and the lemmas
+Sol as the system used; the erdosproblems.com label was FALSIFIABLE. The claim
+carries two comments by Nick Winter. The first (31 July 2026) reports a review
+by their GPT-5.6 Sol and Claude Fable 5 agents: every inference re-derived, the
+hand case classifications replaced by exhaustive enumeration, and the lemmas
 tested against the reviewers' own certified $31$-vertex graphs; its one
 flagged omission is the nonbipartiteness assertion at line 403 of the
 manuscript's source (`r6/main.tex`), stated without its one-line proof, and

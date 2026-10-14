@@ -91,11 +91,11 @@ These are compilation-supplied repairs, not an author-issued erratum.
 On 5 September 2026 the official Combinatorial Theory
 [Accepted Papers](https://escholarship.org/uc/combinatorial_theory/acceptedPapers)
 page indexed Natalie Behague and the exact title. The dated indexed result was
-independently reproduced. Direct raw retrieval returned the site's AWS WAF
-JavaScript challenge; no challenge was bypassed. The public journal inventory
-contained no exact-title or author item among its 264 deposited records, and
-the arXiv entry had no journal reference. The author's papers page, whose
-metadata was modified on 13 August 2026, still said “Submitted.”
+independently reproduced. Direct raw retrieval returned erdosproblems.com's AWS
+WAF JavaScript challenge; no challenge was bypassed. The public journal
+inventory contained no exact-title or author item among its 264 deposited
+records, and the arXiv entry had no journal reference. The author's papers page,
+whose metadata was modified on 13 August 2026, still said “Submitted.”
 
 The supported description is **accepted for publication, with no published
 journal article located**. The canonical attachment remains arXiv v3; no

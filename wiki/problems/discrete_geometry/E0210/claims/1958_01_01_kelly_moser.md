@@ -42,6 +42,6 @@ later determine for large $n$.
 
 The result is refereed: L. M. Kelly and W. O. J. Moser, On the number of
 ordinary lines determined by $n$ points, Canadian J. Math. 10 (1958), 210-219.
-The site's page credits this paper with the bound $3n/7$; its label, proved,
-rests on the later results, so the acceptance here stands on the refereed
-publication.
+The erdosproblems.com page credits this paper with the bound $3n/7$; its label,
+proved, rests on the later results, so the acceptance here stands on the
+refereed publication.

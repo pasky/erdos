@@ -5,7 +5,7 @@ desc: |
   Theorem 3 of Erdős and Gyárfás proves $f(n)\ge\frac56(n-1)$ for $n\ge4$,
   $f(n)\le n$ for odd $n$, and $f(n)\le n-1$ for infinitely many even $n$. This
   is the lower half of $f(n)\sim\frac56n$, refereed in Combinatorica and
-  credited by the site's curator.
+  credited by the erdosproblems.com curator.
 authors:
 - Paul Erdős
 - András Gyárfás
@@ -63,8 +63,8 @@ page]]).
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed publication in Combinatorica, cited with its venue
-above. Reviewed: the site's curator, Thomas Bloom, labeled the problem SOLVED
-and in the commentary credits the bounds $\frac56(n-1)<f(n)<n$ and $f(9)=8$ to
-Erdős and Gyárfás. Bloom took no part in the paper. Bennett, Cushman, Dudek and
-Prałat, and also Joos and Mubayi, each take the lower bound from this paper. No
-proof step was checked by this corpus.
+above. Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the
+problem SOLVED and in the commentary credits the bounds $\frac56(n-1)<f(n)<n$
+and $f(9)=8$ to Erdős and Gyárfás. Bloom took no part in the paper. Bennett,
+Cushman, Dudek and Prałat, and also Joos and Mubayi, each take the lower bound
+from this paper. No proof step was checked by this corpus.

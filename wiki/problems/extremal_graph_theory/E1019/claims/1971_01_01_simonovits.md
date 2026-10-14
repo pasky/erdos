@@ -57,11 +57,11 @@ which states the conjecture and adds that Simonovits has just proved it; the
 two references it attaches are Erdős's own papers of 1969 and 1964, so it
 names no text of Simonovits. This page's date comes from that report, its
 year, the day not being recorded. The one posting is a comment of 21
-November 2025 in the site's discussion thread, posted after correspondence
-with Simonovits and credited by the site to Cambie: a summary of the two
-statements above, a check that the join graphs contain no saturated planar
-subgraph on four or more vertices, and a proof of the companion statement by
-induction on $n$, deleting a vertex of minimum degree (at most
+November 2025 in the erdosproblems.com discussion thread, posted after
+correspondence with Simonovits and credited by erdosproblems.com to Cambie: a
+summary of the two statements above, a check that the join graphs contain no
+saturated planar subgraph on four or more vertices, and a proof of the companion
+statement by induction on $n$, deleting a vertex of minimum degree (at most
 $\lfloor\frac{n+1}2\rfloor$) and finding a $K_4$ or a $C_\ell+2K_1$ in four
 cases of its attachment, with a parenthetical strengthening to five or more
 vertices except when $4\nmid n$, where one more edge is needed. The comment
@@ -69,7 +69,7 @@ is not checked here. Earlier comments in the thread (18 October 2025) read a
 1975 paper of Simonovits from a shared copy and judged that it reduces the
 question for large subgraphs to an auxiliary problem it leaves open, so that
 it does not settle the statement as posed; that paper is not identified by
-title on the site and not held.
+title on erdosproblems.com and not held.
 
 **Depends on.** Nothing in this wiki; the forum proof is self-contained and
 Erdős's partial result (Satz 1 of 1969, a saturated planar subgraph on more
@@ -102,14 +102,15 @@ database records formal status Lean since 16 September 2026 through this
 submission.
 
 **Acceptance.** The `reviewed` evidence is documented acceptance by a named
-expert and by the site's curator. Erdős stated in a published proceedings volume
-(Academic Press 1971) that Simonovits had proved the conjecture. The thread of
-October 2025 concluded that the problem should be reopened, because the 1975
-paper does not prove it. After that, the site's curator, Thomas Bloom, who took
-no part in the result, marked the comment of 21 November 2025 as addressed and
-labeled the problem PROVED. The community database's file history changes it to
-proved in a commit of that day. The curator attributes the result to the thesis,
-with the proof given in the comments.
+expert and by the erdosproblems.com curator. Erdős stated in a published
+proceedings volume (Academic Press 1971) that Simonovits had proved the
+conjecture. The thread of October 2025 concluded that the problem should be
+reopened, because the 1975 paper does not prove it. After that, the
+erdosproblems.com curator, Thomas Bloom, who took no part in the result, marked
+the comment of 21 November 2025 as addressed and labeled the problem PROVED. The
+community database's file history changes it to proved in a commit of that day.
+The curator attributes the result to the thesis, with the proof given in the
+comments.
 
 No publication of the theorem exists, so `refereed` is not listed. No text of
 the thesis is available. The statement is known here through Erdős's one

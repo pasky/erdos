@@ -27,11 +27,11 @@ $$
 \prod_{0\leq i\leq k}(n-i) \mid \binom{2n}{n}?
 $$
 
-**Status.** Open. The site labeled the problem OPEN. The standing in the
-frontmatter derives from the claim pages. The site's commentary points to the
-OEIS entry A375077 for the least $n$ of each $k$. The entry's sixteen terms
-settle the instances $1\le k\le16$ with the answer yes. They are pending partial
-claims on the pages of their contributors:
+**Status.** Open. Bloom's catalog labeled the problem OPEN. The standing in the
+frontmatter derives from the claim pages. The erdosproblems.com commentary
+points to the OEIS entry A375077 for the least $n$ of each $k$. The entry's
+sixteen terms settle the instances $1\le k\le16$ with the answer yes. They are
+pending partial claims on the pages of their contributors:
 [[problems/factorials_binomials/E0396/claims/2024_07_29_stephan|Stephan 2024]]
 ($k\le4$), [[problems/factorials_binomials/E0396/claims/2024_08_01_wu|Wu 2024]]
 ($k=5$),
@@ -58,8 +58,8 @@ https://www.erdosproblems.com/396.
 
 ## Current assessment
 
-The question, as the site states it: is it true that for every $k$ some $n$
-has $n(n-1)\cdots(n-k)$ dividing $\binom{2n}{n}$? It is open. The instance
+The question, as erdosproblems.com states it: is it true that for every $k$ some
+$n$ has $n(n-1)\cdots(n-k)$ dividing $\binom{2n}{n}$? It is open. The instance
 $k=0$ is trivial, since $n=1$ divides $\binom21=2$. Explicit witnesses settle
 $1\le k\le16$ with the answer yes: the OEIS entry A375077 lists the least $n$
 for each of these $k$, from $2$ for $k=1$ to $20021368432952099$ for $k=16$,
@@ -71,8 +71,8 @@ the terms for $k\le13$ is certified by an exhaustive search in Dehorty's
 repository, whose completeness rests on a barrier theorem proved in Lean 4
 that this corpus has not built, and the problem asks only for existence, so
 minimality is context. The entry lists no term for $k\ge17$ (accessed
-2026-10-07), and the site's thread records that the terms grow by roughly an
-order of magnitude per step.
+2026-10-07), and the erdosproblems.com thread records that the terms grow by
+roughly an order of magnitude per step.
 
 Pomerance's results in [Po14] settle no further instance. Theorem 3 of that
 paper gives, for each $k\ge0$, infinitely many $n$ with $n-k\mid\binom{2n}{n}$,

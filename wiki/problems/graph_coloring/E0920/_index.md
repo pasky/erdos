@@ -36,12 +36,13 @@ $$
 
 for some constant $c_k>0$?
 
-**Status.** SOLVED is the site's label (page last edited 25 July 2026). That
-label records only that the problem is answered. The derived standing is proved,
-because the question asks whether the bound holds and both accepted claims below
-prove that it does. The answer is yes for every $k\ge4$. The site credits the
-case $k=4$ to Mattheus and Verstraete's bound on $r(4,t)$, and the cases $k\ge5$
-to Bradač's off-diagonal Ramsey bound. The claim pages
+**Status.** SOLVED is the erdosproblems.com label (page last edited 25 July
+2026). That label records only that the problem is answered. The derived
+standing is proved, because the question asks whether the bound holds and both
+accepted claims below prove that it does. The answer is yes for every $k\ge4$.
+erdosproblems.com credits the case $k=4$ to Mattheus and Verstraete's bound on
+$r(4,t)$, and the cases $k\ge5$ to Bradač's off-diagonal Ramsey bound. The claim
+pages
 [[problems/graph_coloring/E0920/claims/2023_06_06_mattheus_verstraete|Mattheus–Verstraete 2023]]
 and [[problems/graph_coloring/E0920/claims/2026_06_16_bradac|Bradač 2026]]
 record the two results, each accepted for its range. The two parts of the
@@ -55,16 +56,16 @@ https://www.erdosproblems.com/920.
 
 - [Br26] Bradač, D., Off-diagonal Ramsey numbers. arXiv:2605.28793 (2026);
   the first version, of 27 May 2026, carried the title "Nearly tight
-  exponents for off-diagonal Ramsey numbers", which the site's reference
-  uses; the third version, of 16 June 2026, is the version cited.
+  exponents for off-diagonal Ramsey numbers", which the erdosproblems.com
+  reference uses; the third version, of 16 June 2026, is the version cited.
 - [GrYa68] Graver, Jack E. and Yackel, James, Some graph theoretic results
   associated with Ramsey's theorem. J. Combinatorial Theory 4 (1968),
   125--175; the Corollary to Proposition 9, printed p. 156:
   $R(x,y)\le By^{x-1}\log\log y/\log y$ for $x\ge3$, where the paper's
   $R(x,y)$ is the largest order of a graph with no $K_x$ and no $y$
   independent vertices, one less than the usual Ramsey number. The paper
-  prints no chromatic-number statement; the site's display is the form
-  Erdős's 1969 survey gives it, and the library card records the
+  prints no chromatic-number statement; the erdosproblems.com display is the
+  form Erdős's 1969 survey gives it, and the library card records the
   translation to $f_k(n)$ with a filing observation on the exponent of the
   logarithmic factor for $k\ge4$. Library home:
   [[../library/graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/corollary_p156|Corollary]].
@@ -79,44 +80,46 @@ solution at
 
 ## Current assessment
 
-**Question and answer.** The site formulation asks whether, for every fixed
-$k\ge4$, there is $c_k>0$ with $f_k(n)\gg n^{1-1/(k-1)}/(\log n)^{c_k}$.
-The answer is yes for every $k\ge4$, with $c_k=(2k-4)/(k-1)$, by one
-elementary transfer applied to two Ramsey lower bounds: a graph on $n$
-vertices with no $K_k$ and no independent set of $t$ vertices has chromatic
-number at least $n/(t-1)$, since its color classes are independent, and such
-a graph exists whenever $r(k,t)>n$. Mattheus and Verstraete's
-$r(4,t)\gg t^3/(\log t)^4$ gives the case $k=4$; Bradač's
+**Question and answer.** The erdosproblems.com formulation asks whether, for
+every fixed $k\ge4$, there is $c_k>0$ with
+$f_k(n)\gg n^{1-1/(k-1)}/(\log n)^{c_k}$. The answer is yes for every $k\ge4$,
+with $c_k=(2k-4)/(k-1)$, by one elementary transfer applied to two Ramsey lower
+bounds: a graph on $n$ vertices with no $K_k$ and no independent set of $t$
+vertices has chromatic number at least $n/(t-1)$, since its color classes are
+independent, and such a graph exists whenever $r(k,t)>n$. Mattheus and
+Verstraete's $r(4,t)\gg t^3/(\log t)^4$ gives the case $k=4$; Bradač's
 $r(k,t)\gg_k t^{k-1}/(\log t)^{2k-4}$, stated for every $k\ge3$, gives
 every $k\ge5$ and reproduces the case $k=4$.
 
 **Standing.** Two accepted claim pages cover the question between them:
 [[problems/graph_coloring/E0920/claims/2023_06_06_mattheus_verstraete|Mattheus–Verstraete 2023]]
-(refereed in the Annals of Mathematics; the site credits it for $k=4$) and
-[[problems/graph_coloring/E0920/claims/2026_06_16_bradac|Bradač 2026]] (an arXiv
-preprint; the site credits it for $k\ge5$). Each is partial, as the site's own
-split credits it. The problem lists its two parts, $k=4$ and $k\ge5$, and each
-accepted claim names the part it settles, so the problem's standing derives as
-proved from the two together. Two notes posted on the site's proof-claims page
-in July 2026, by Miroslav Lžičař and by Moses Lua, derive the inequality for
-every $k\ge4$ from Bradač's theorem with the explicit exponent; both present the
-inequality as a corollary of Bradač's theorem and claim nothing about the Ramsey
-construction itself, so they are recorded on Bradač's claim page as later claims
-of the same result rather than as claims of their own. Lua's Lean file
-formalizes the transfer with the Ramsey bound as a hypothesis, which this corpus
-has not built. Boris Alexeev's `lean-proofs` repository holds an unconditional
-Lean proof of the answer, with Codex and GPT-5.6 Sol as formal authors and
-Bradač, Mattheus and Verstraëte as informal authors; the formal-conjectures
-catalog
-([920.lean at its commit of 18 September 2026](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
+(refereed in the Annals of Mathematics; erdosproblems.com credits it for $k=4$)
+and [[problems/graph_coloring/E0920/claims/2026_06_16_bradac|Bradač 2026]] (an
+arXiv preprint; erdosproblems.com credits it for $k\ge5$). Each is partial, as
+erdosproblems.com's own split credits it. The problem lists its two parts, $k=4$
+and $k\ge5$, and each accepted claim names the part it settles, so the problem's
+standing derives as proved from the two together. Two notes posted on the
+erdosproblems.com proof-claims page in July 2026, by Miroslav Lžičař and by
+Moses Lua, derive the inequality for every $k\ge4$ from Bradač's theorem with
+the explicit exponent; both present the inequality as a corollary of Bradač's
+theorem and claim nothing about the Ramsey construction itself, so they are
+recorded on Bradač's claim page as later claims of the same result rather than
+as claims of their own. Lua's Lean file formalizes the transfer with the Ramsey
+bound as a hypothesis, which this corpus has not built. Boris Alexeev's
+`lean-proofs` repository holds an unconditional Lean proof of the answer, with
+Codex and GPT-5.6 Sol as formal authors and Bradač, Mattheus and Verstraëte as
+informal authors; the formal-conjectures catalog ([920.lean at its commit of 18
+September
+2026](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
 cites it as the formal proof of its statement, but this corpus has not built it,
 so it gives no `formalized` evidence.
 
-**Evidence and search scope.** The site's proof-claims page. Read on
-2026-10-07: the site's problem page and discussion thread; the arXiv records of
-both papers and the Annals record of Mattheus and Verstraete's; the two GitHub
-repositories behind the forum notes; the formal-conjectures statement file
-([920.lean at its commit of 18 September 2026](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
+**Evidence and search scope.** The erdosproblems.com proof-claims page. Read on
+2026-10-07: the erdosproblems.com problem page and discussion thread; the arXiv
+records of both papers and the Annals record of Mattheus and Verstraete's; the
+two GitHub repositories behind the forum notes; the formal-conjectures statement
+file ([920.lean at its commit of 18 September
+2026](https://github.com/google-deepmind/formal-conjectures/blob/17d2cec2f5bec8eede237a146ac893375daf4faf/FormalConjectures/ErdosProblems/920.lean))
 and the Lean file in Boris Alexeev's repository that it cites. Neither proof of
 the two Ramsey theorems is reviewed in this corpus. No wider literature search
 is recorded.
@@ -133,7 +136,7 @@ f_k(n)\gg_k\frac{n^{1-\frac{1}{k-1}}}{(\log n)^{\frac{2k-4}{k-1}}},
 $$
 
 which at $k=4$ is $n^{2/3}/(\log n)^{4/3}$, the consequence of Mattheus and
-Verstraete's bound that the site displays. The polynomial exponent
+Verstraete's bound that erdosproblems.com displays. The polynomial exponent
 $1-1/(k-1)$ matches Graver and Yackel's upper bound [GrYa68], so what remains
 is the power of the logarithm.
 
@@ -143,7 +146,7 @@ is the power of the logarithm.
   translated on its
   [[../library/graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/corollary_p156|library card]]
   by removing largest independent sets in turn, gives
-  $f_k(n)\ll n^{1-1/(k-1)}(\log\log n/\log n)^{1/(k-1)}$. The site's
+  $f_k(n)\ll n^{1-1/(k-1)}(\log\log n/\log n)^{1/(k-1)}$. The erdosproblems.com
   display, Erdős's 1969 form (4) read with the slash its print omits, puts
   the exponent $1-1/(k-1)$ on the logarithmic factor. The two agree at
   $k=3$; for $k\ge4$ the display is stronger than the corollary yields.
@@ -153,7 +156,7 @@ is the power of the logarithm.
 - $k\ge5$:
   [[problems/graph_coloring/E0920/claims/2026_06_16_bradac|Bradač 2026]],
   $f_k(n)\gg_k n^{1-1/(k-1)}/(\log n)^{(2k-4)/(k-1)}$.
-- $k=3$ is not part of the question; the site reports
+- $k=3$ is not part of the question; erdosproblems.com reports
   $f_3(n)\asymp(n/\log n)^{1/2}$ and refers to
   [[problems/graph_coloring/E1104/_index|Problem 1104]] and
   [[problems/graph_coloring/E1013/_index|Problem 1013]].

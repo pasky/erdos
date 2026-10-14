@@ -53,7 +53,7 @@ $840$.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: the
-  verification of all $n\le10^{18}$ that the site's commentary cites,
+  verification of all $n\le10^{18}$ that the erdosproblems.com commentary cites,
   recorded as a pending partial claim
   ([[../wiki/problems/unit_fractions/E0242/claims/2025_08_29_mihnea_dumitru|Mihnea and Dumitru 2025]]);
   the paper checks primes, and composite $n\le10^{18}$ follow from their

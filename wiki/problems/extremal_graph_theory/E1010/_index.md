@@ -24,7 +24,7 @@ updated: 2026-10-08T02:55:41Z
 **Statement.** Let $t<\lfloor n/2\rfloor$. Does every graph on $n$ vertices with
 $\lfloor n^2/4\rfloor+t$ edges contain at least $t\lfloor n/2\rfloor$ triangles?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
 carries no last-edited date). The range $t<\lfloor n/2\rfloor$ is exactly
 Erdős's 1962 conjecture as printed ([Er62d], p. 122: "Further I
 conjectured that for $t<[n/2]$ every $G^{(n)}_{f(n)+t}$ contains at least
@@ -34,11 +34,12 @@ $u$ edges). For even $n$ the range is sharp: the paper's graph with
 $f(n)+n/2$ edges has $m^2-1<m\cdot m$ triangles when $n=2m>4$, so the
 conclusion fails at $t=n/2$. For odd $n=2m+1$ Erdős suggests ("perhaps")
 that the bound may hold up to $t\le2m-2$ and gives a graph showing failure
-at $t=2m-1$ for $n\ge9$; that wider range is not the site's question.
+at $t=2m-1$ for $n\ge9$; that wider range is not the erdosproblems.com question.
 Lovász and Simonovits state the settled conjecture with $[n^2/4]+k$ edges
 and $k<n/2$ (abstract) and, in Theorem 4, with $k<[n/(p-1)]$ at $p=3$, which
-is the site's range. The question is a yes-or-no question for every $n$; the
-label PROVED is the site's label for an affirmative resolution.
+is erdosproblems.com's range. The question is a yes-or-no question for every
+$n$; the label PROVED is the erdosproblems.com label for an affirmative
+resolution.
 
 **Status.** Proved. The status-defining text read is Lovász and Simonovits's
 1983 sequel [LoSi83], a chapter in the Turán memorial volume (Birkhäuser 1983;
@@ -49,23 +50,23 @@ contains at least $k[n/2]$ triangles if $k<n/2$". Its
 (p. 463) gives, for $p=3$ and $k<[n/2]$, that "one possible graph with $n$
 points and $E$ edges, containing the least number of $K_p$'s is obtained by
 adding $k$ edges to a largest class of $T^{n,d}$". Such a graph has exactly
-$k\lfloor n/2\rfloor$ triangles, which is the site's bound. This is a one-line
-count made on this page: each added edge lies in one triangle with each vertex
-of the other class, and the added edges form no triangle.
+$k\lfloor n/2\rfloor$ triangles, which is erdosproblems.com's bound. This is a
+one-line count made on this page: each added edge lies in one triangle with each
+vertex of the other class, and the added edges form no triangle.
 
 Two qualifications are recorded. First, the chapter has a standing convention
 (p. 461, "The numbers $p$ and $d$ will be considered fixed and $n$ large
 relative to them"), and the derivation of Theorem 4 on p. 463 has the step "if
 $n$ is sufficiently large". So the printed theorem carries an unstated largeness
 assumption and no explicit threshold. Second, the chapter itself (p. 460)
-attributes the $p=3$ case to the 1976 Aberdeen paper [LoSi76], the site's
-source. That paper is not held (the second author's page copy was unavailable on
-2026-09-18).
+attributes the $p=3$ case to the 1976 Aberdeen paper [LoSi76], the
+erdosproblems.com source. That paper is not held (the second author's page copy
+was unavailable on 2026-09-18).
 
-The site's second source, Nikiforov and Khadzhiivanov's 1981 note [NiKh81], is
-not held, and no online record of it was found. Erdős's own paper [Er62d] proves
-the bound for $t<c_1n/2$ and records Rademacher's case $t=1$ for even $n$. Its
-theorem is an accepted partial claim,
+erdosproblems.com's second source, Nikiforov and Khadzhiivanov's 1981 note
+[NiKh81], is not held, and no online record of it was found. Erdős's own paper
+[Er62d] proves the bound for $t<c_1n/2$ and records Rademacher's case $t=1$ for
+even $n$. Its theorem is an accepted partial claim,
 [[problems/extremal_graph_theory/E1010/claims/1962_03_01_erdos|Erdős 1962]].
 
 The claim pages
@@ -83,11 +84,11 @@ no author and has not been built or audited in this corpus.
 
 **Source.** [erdosproblems.com/1010](https://www.erdosproblems.com/1010),
 accessed 2026-09-18: the problem page
-(PROVED, the site's label for an affirmative resolution; no last-edited date;
-source key [Er62d], with [LoSi76] and [NiKh81] cited in the commentary), its
-one-comment discussion thread (8 March 2026) and its empty proof-claim tab.
-Cite as: T. F. Bloom, Erdős Problem #1010, https://www.erdosproblems.com/1010,
-accessed 2026-09-18.
+(PROVED, the erdosproblems.com label for an affirmative resolution; no
+last-edited date; source key [Er62d], with [LoSi76] and [NiKh81] cited in the
+commentary), its one-comment discussion thread (8 March 2026) and its empty
+proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #1010,
+https://www.erdosproblems.com/1010, accessed 2026-09-18.
 
 **References.**
 
@@ -102,25 +103,25 @@ accessed 2026-09-18.
 - [LoSi83] Lovász, L. and Simonovits, M., On the number of complete
   subgraphs of a graph II. Studies in Pure Mathematics: To the Memory of
   Paul Turán, Birkhäuser, Basel (1983), 459--495,
-  doi:10.1007/978-3-0348-5438-2_41 (Crossref record, accessed 2026-09-18). Not a
-  site key; named in the discussion thread. The abstract, p. 459; Theorem
-  A and Problem 3, p. 460; Theorem 3, p. 462; Theorem 4, p. 463. Library
-  home:
+  doi:10.1007/978-3-0348-5438-2_41 (Crossref record, accessed 2026-09-18). Not
+  an erdosproblems.com key; named in the discussion thread. The abstract, p.
+  459; Theorem A and Problem 3, p. 460; Theorem 3, p. 462; Theorem 4, p. 463.
+  Library home:
   [[../library/extremal_graph_theory/lovasz_1983_number_complete_subgraphs_graph_ii/_index|lovasz_1983_number_complete_subgraphs_graph_ii]]
   (the scan on the second author's page); paged at
   [[../library/extremal_graph_theory/lovasz_1983_number_complete_subgraphs_graph_ii/theorem_4|theorem_4]].
 - [LoSi76] Lovász, L. and Simonovits, M., On the number of complete
   subgraphs of a graph. Proc. Fifth British Combinatorial Conference (Univ.
   Aberdeen, 1975), Congressus Numerantium XV, Utilitas Math. (1976),
-  431--441 (the site's reference text; [LoSi83] cites it as pp. 431--442).
-  Not held: the second author's page copy was unavailable on 2026-09-18,
-  and no Crossref record exists. Its content is attested by [LoSi83],
-  p. 460: "For $p=3$ the proof of this was given in [5]."
+  431--441 (the erdosproblems.com reference text; [LoSi83] cites it as pp.
+  431--442). Not held: the second author's page copy was unavailable on
+  2026-09-18, and no Crossref record exists. Its content is attested by
+  [LoSi83], p. 460: "For $p=3$ the proof of this was given in [5]."
 - [NiKh81] Nikiforov, V. S. and Khadzhiivanov, N. G., Solution of the
   problem of P. Erdős on the number of triangles in graphs with $n$ vertices
   and $[n^2/4]+l$ edges. C. R. Acad. Bulgare Sci. 34 (1981), 969--970. Not
   held: no online record was found (a Crossref bibliographic query of
-  2026-09-18 returned nothing relevant). Known only through the site.
+  2026-09-18 returned nothing relevant). Known only through erdosproblems.com.
 
 **Formalization.** The file
 [`ErdosProblems/1010.lean`](https://github.com/google-deepmind/formal-conjectures/blob/b39397f78fe3946ed82fe77070e12df4c059b6f9/FormalConjectures/ErdosProblems/1010.lean)
@@ -138,22 +139,22 @@ $n$, by its own argument, and names no informal author, so it is an
 independent proof with its own pending claim page,
 [[problems/extremal_graph_theory/E1010/claims/2026_08_26_alexeev|2026_08_26_alexeev]],
 which describes the development; it has not been built or audited in this
-corpus. The site's indicator says a formalized statement exists (accessed
-2026-10-07), and the community database (accessed 2026-10-06) lists the
-problem as proved as of its last update, 10 September 2025, the statement
+corpus. The erdosproblems.com indicator says a formalized statement exists
+(accessed 2026-10-07), and the community database (accessed 2026-10-06) lists
+the problem as proved as of its last update, 10 September 2025, the statement
 formalized since 20 September 2026 and no formal proof.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; PROVED; no last-edited date. The commentary, in this page's words,
-records three things: Rademacher's case $t=1$, that $\lfloor n^2/4\rfloor+1$
-edges force $\lfloor n/2\rfloor$ triangles; Erdős's theorem of [Er62d], the
-bound $t\lfloor n/2\rfloor$ for all $t<cn$ with some constant $c>0$; and the
-verdict that the conjecture holds, with two independent proofs, by Lovász
-and Simonovits [LoSi76] and by Nikiforov and Khadzhiivanov [NiKh81]. The
-discussion thread has one comment (20:41 on 8 March 2026, the account
-Alfaiz), which holds that the problem was settled in the 1983 sequel
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; PROVED; no last-edited date. The commentary, in this page's
+words, records three things: Rademacher's case $t=1$, that
+$\lfloor n^2/4\rfloor+1$ edges force $\lfloor n/2\rfloor$ triangles; Erdős's
+theorem of [Er62d], the bound $t\lfloor n/2\rfloor$ for all $t<cn$ with some
+constant $c>0$; and the verdict that the conjecture holds, with two independent
+proofs, by Lovász and Simonovits [LoSi76] and by Nikiforov and Khadzhiivanov
+[NiKh81]. The discussion thread has one comment (20:41 on 8 March 2026, the
+account Alfaiz), which holds that the problem was settled in the 1983 sequel
 [LoSi83] rather than in [LoSi76]. The proof-claim tab is empty. The
 community database record says proved.
 
@@ -224,19 +225,19 @@ $T^{n,p-1}$, yet Theorem A and Theorem 4 write the edge count as $m(n,p-1)+k$;
 for $p=3$ the abstract's "$[n^2/4]+k$" fixes the intended reading (the complete
 bipartite Turán graph plus $k$ edges). Second, the range: the abstract says
 $k<n/2$ and Theorem 4 says $k<[n/(p-1)]=[n/2]$; the two agree for even $n$ and
-the theorem's form is the site's. For $p=3$ an extremal graph of Theorem 4 has
-$k\lfloor n/2\rfloor$ triangles (the count made above), so every graph with
-$\lfloor n^2/4\rfloor+k$ edges and $k<\lfloor n/2\rfloor$ has at least that
-many, which is the statement, subject to the chapter's large-$n$ convention.
-Acceptance evidence: the curator's credit (the `reviewed` evidence); the
-chapter's publication in an edited memorial volume by Birkhäuser (1983) carries
-no visible referee record, so it is not `refereed`, and the community database
-mirrors the site. The thread's remark that the problem was settled in the 1983
-sequel rather than in [LoSi76] is a forum remark with provenance; the 1983
-chapter's own sentence attributes the $p=3$ case to the 1976 paper, and without
-the 1976 text the point is left open.
+the theorem's form is erdosproblems.com's. For $p=3$ an extremal graph of
+Theorem 4 has $k\lfloor n/2\rfloor$ triangles (the count made above), so every
+graph with $\lfloor n^2/4\rfloor+k$ edges and $k<\lfloor n/2\rfloor$ has at
+least that many, which is the statement, subject to the chapter's large-$n$
+convention. Acceptance evidence: the curator's credit (the `reviewed` evidence);
+the chapter's publication in an edited memorial volume by Birkhäuser (1983)
+carries no visible referee record, so it is not `refereed`, and the community
+database mirrors erdosproblems.com. The thread's remark that the problem was
+settled in the 1983 sequel rather than in [LoSi76] is a forum remark with
+provenance; the 1983 chapter's own sentence attributes the $p=3$ case to the
+1976 paper, and without the 1976 text the point is left open.
 
-**The other sources.** [NiKh81] is known only through the site. A
+**The other sources.** [NiKh81] is known only through erdosproblems.com. A
 thirteen-page paper once associated with this problem is N. Khadzhiivanov,
 "On the maximal number of triangles with a common edge" (in Russian, with
 an English abstract), Annuaire Univ. Sofia Fac. Math. Inform. 82 (1988),
@@ -254,7 +255,7 @@ arXiv:2311.18753); they are recorded as leads by identifier only.
 **Search scope.** None of the routes below found a text
 of [LoSi76] or [NiKh81], a dispute of the theorem, or a change of status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing of 2026-09-18 (no file
   1010 on that date; the file of 20 September 2026 is recorded under
   Formalization); the community database (read 2026-09-18 and 2026-10-06).
@@ -274,15 +275,15 @@ of [LoSi76] or [NiKh81], a dispute of the theorem, or a change of status.
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [LoSi76],
 [NiKh81], the later papers named above.
 
-**Remaining gaps.** (1) [LoSi76], the site's source, is not held; its content
-is attested by the 1983 chapter's sentence and the site. The second author's
-page copy was unavailable on 2026-09-18; reopening condition: a copy. (2)
-[NiKh81] is not held and has no located record; reopening condition: a copy.
-(3) The 1983 statement is read under the chapter's large-$n$ convention with
-no explicit threshold, so the site's question for small $n$ rests on the
-site's account; Erdős's paper covers $t\le3$ for $n>2t$ and checks $n=5,7$. A
-pending Lean proof for every $n$, with no largeness assumption, exists (the
-claim page
+**Remaining gaps.** (1) [LoSi76], the erdosproblems.com source, is not held; its
+content is attested by the 1983 chapter's sentence and erdosproblems.com. The
+second author's page copy was unavailable on 2026-09-18; reopening condition: a
+copy. (2) [NiKh81] is not held and has no located record; reopening condition: a
+copy. (3) The 1983 statement is read under the chapter's large-$n$ convention
+with no explicit threshold, so the erdosproblems.com question for small $n$
+rests on erdosproblems.com's account; Erdős's paper covers $t\le3$ for $n>2t$
+and checks $n=5,7$. A pending Lean proof for every $n$, with no largeness
+assumption, exists (the claim page
 [[problems/extremal_graph_theory/E1010/claims/2026_08_26_alexeev|2026_08_26_alexeev]]);
 it has not been built in this corpus, so it closes this gap only when built
 and audited. (4) Proof coverage is statements only: Theorem 4's derivation
@@ -309,7 +310,7 @@ from the library links and records no progress.
   for $k<[n/(p-1)]$ and, at $p=3$, the full conjecture $k\lfloor n/2\rfloor$
   triangles for $k<\lfloor n/2\rfloor$, under the chapter's large-$n$
   convention; the $p=3$ case attributed by the chapter to [LoSi76].
-- [NiKh81] (not held): the independent proof the site records.
+- [NiKh81] (not held): the independent proof erdosproblems.com records.
 - The Lean development of 2026 in Alexeev's repository, proving the
   statement for every $n$ (a pending claim,
   [[problems/extremal_graph_theory/E1010/claims/2026_08_26_alexeev|claim page]];

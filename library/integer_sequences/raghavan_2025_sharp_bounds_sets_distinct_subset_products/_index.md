@@ -48,8 +48,8 @@ claims checked for Theorems 1.3, 1.4, 1.5 and 1.6, Example 1.1 and Question
 outlines of the proofs of Theorem 2.7 (p. 11) and Theorem 1.6 (pp. 12--13) were
 read on the page images; the proofs (Sections 2--4 for Theorems 1.3 and 1.5,
 Section 5 for Theorems 1.4 and 1.6) were not checked. Theorem 1.3's error term
-is O(N^{5/12}); the site's commentary on Problem 795 prints the weaker
-O(n^{5/12+o(1)}).
+is O(N^{5/12}); the erdosproblems.com commentary on Problem 795 prints the
+weaker O(n^{5/12+o(1)}).
 
 Let f(N) be the largest size of a subset of [N] whose subsets all have distinct
 products. Erdos proved f(N) <= pi(N) + O(pi(N^{1/2})) and asked whether the

@@ -51,5 +51,5 @@ is not held).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]: the site's
-  $d(3,3)\le8$; with Theorem 1 it gives Corollary 3.
+- [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]:
+  erdosproblems.com's $d(3,3)\le8$; with Theorem 1 it gives Corollary 3.

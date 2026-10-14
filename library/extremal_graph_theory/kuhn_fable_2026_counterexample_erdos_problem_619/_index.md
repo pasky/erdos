@@ -5,15 +5,15 @@ desc: |
   augmentation number is n-o(n), disproving Erdős Problem 619.
 license: unstated
 created: 2026-09-05T03:30:15Z
-updated: 2026-10-08T01:50:18Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/kuhn_fable_2026_counterexample_erdos_problem_619
 
 [[extremal_graph_theory/_index|..]]
 
-[[extremal_graph_theory/kuhn_fable_2026_counterexample_erdos_problem_619/kuhn_fable_2026_counterexample_erdos_problem_619|kuhn_fable_2026_counterexample_erdos_problem_619]]: Identifies the accepted site discussion and immutable Lean proof artifacts
-for the negative resolution of Problem 619.
+[[extremal_graph_theory/kuhn_fable_2026_counterexample_erdos_problem_619/kuhn_fable_2026_counterexample_erdos_problem_619|kuhn_fable_2026_counterexample_erdos_problem_619]]: Identifies the accepted erdosproblems.com discussion and immutable Lean proof
+artifacts for the negative resolution of Problem 619.
 
 [[extremal_graph_theory/kuhn_fable_2026_counterexample_erdos_problem_619/lemma_1|lemma_1]]: Shows that diameter four forces roots from distinct core-free pendant
 components to lie within two steps.
@@ -36,18 +36,19 @@ added edge.
 ***
 
 Claude Fable 5 and Nikolas Kuhn, *Erdős Problem 619 Lean Formalization*
-(2026), accepted site discussion and pinned GitHub proof repository. The
-immutable source record is
+(2026), accepted erdosproblems.com discussion and pinned GitHub proof
+repository. The immutable source record is
 [[extremal_graph_theory/kuhn_fable_2026_counterexample_erdos_problem_619/kuhn_fable_2026_counterexample_erdos_problem_619|here]].
 
-No PDF exists for this source: it is a site discussion and a pinned Lean
-repository, and the source record page linked above gives their URLs.
+No PDF exists for this source: it is an erdosproblems.com discussion and a
+pinned Lean repository, and the source record page linked above gives their
+URLs.
 
 For a connected triangle-free graph $G$, let $h_r(G)$ be the least number of
 edges that must be added to obtain a triangle-free supergraph on the same
-vertex set and of diameter at most $r$. The site credits Fable, prompted by
-Kuhn, with the negative answer, and Kuhn's thread comment sketches the
-construction. The pinned Lean proof gives, for every $0<\eta<1$ and every
+vertex set and of diameter at most $r$. erdosproblems.com credits Fable,
+prompted by Kuhn, with the negative answer, and Kuhn's thread comment sketches
+the construction. The pinned Lean proof gives, for every $0<\eta<1$ and every
 sufficiently large $n$, a connected triangle-free $n$-vertex graph satisfying
 
 $$

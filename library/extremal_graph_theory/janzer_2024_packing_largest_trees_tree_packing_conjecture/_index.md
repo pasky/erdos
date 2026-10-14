@@ -51,8 +51,8 @@ approximate version of the conjecture without a degree bound. The
 introduction (p. 1) attributes the verification of the conjecture for n <= 9
 to Fishburn's paper in J. Graph Theory 7 (1983) 369--383 (its reference [8],
 "Extending a result of Straight"), a different paper from the J. Combin.
-Theory Ser. A note the site's reference list gives for the same fact; it
-also records Bollobás's 1983 greedy packing of the smallest floor(n/sqrt 2)
+Theory Ser. A note the erdosproblems.com reference list gives for the same fact;
+it also records Bollobás's 1983 greedy packing of the smallest floor(n/sqrt 2)
 trees and Bollobás's observation that the smallest floor(sqrt 3 n/2) trees
 pack if the Erdős--Sós conjecture holds (as printed; read here as (sqrt 3/2) n).
 
@@ -70,7 +70,7 @@ family pack edge-disjointly into K_n, for every n and with no degree condition,
 a partial result that says nothing about the other trees; Conjecture 1.1 (p. 1)
 is the problem's question as the paper poses it, indexing the trees from T_1 and
 asking for a packing, which is equivalent to the problem's edge-disjoint union
-because the edge counts sum to n choose 2; the site's key JaMo24.
+because the edge counts sum to n choose 2; the erdosproblems.com key JaMo24.
 
 **Results.**
 

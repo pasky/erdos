@@ -90,7 +90,7 @@ and the lemmas of Section 3 (pp. 1127--1135).
 
 - [[../wiki/problems/primes/E0015/_index|Problem 15]]: the theorem says nothing
   about the convergence of $\sum(-1)^nn/p_n$, the problem's question. The
-  problem page records, as a site remark the site credits to Weisenberg, that
-  the companion series $\sum(-1)^n/(p_{n+1}-p_n)$ diverges; (1.5) gives this,
-  since infinitely many of its terms have absolute value greater than
-  $1/(7\times10^7)$, so its terms do not tend to $0$.
+  problem page records, as an erdosproblems.com remark erdosproblems.com credits
+  to Weisenberg, that the companion series $\sum(-1)^n/(p_{n+1}-p_n)$ diverges;
+  (1.5) gives this, since infinitely many of its terms have absolute value
+  greater than $1/(7\times10^7)$, so its terms do not tend to $0$.

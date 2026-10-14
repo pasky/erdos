@@ -59,18 +59,18 @@ P. Erdős and P. Fishburn, Distinct distances in finite planar sets, Discrete
 Mathematics 175 (1997), 97–132, who credit it to Heiko Harborth; it is the
 subject of P. C. Fishburn, A remarkable eight-point planar configuration,
 Discrete Mathematics 252 (2002), 103–122, which studies its distance
-structure in detail. The site's remarks give the same account and credit
-Harborth. The claimant slug names the paper that published the construction;
-the construction itself is Harborth's.
+structure in detail. The erdosproblems.com remarks give the same account and
+credit Harborth. The claimant slug names the paper that published the
+construction; the construction itself is Harborth's.
 
 **Acceptance.** Refereed: both papers are journal publications in Discrete
-Mathematics, cited above with their volumes and pages. Not reviewed: the site's
-label for the problem is FALSIFIABLE, which settles neither question, so the
-curator's remark crediting the configuration is not an acceptance of the problem
-or of its part. Two later independent findings of the same answer are disclosed
-here. The first is Xichuan's forty-two-point example on the site's thread (19
-December 2025), which gets no page because it is a forum post. The second is the
-eight-point Lean proof found by a DeepMind prover agent (25 February 2026). It
-constructs this same configuration and has
+Mathematics, cited above with their volumes and pages. Not reviewed: the
+erdosproblems.com label for the problem is FALSIFIABLE, which settles neither
+question, so the curator's remark crediting the configuration is not an
+acceptance of the problem or of its part. Two later independent findings of the
+same answer are disclosed here. The first is Xichuan's forty-two-point example
+on the erdosproblems.com thread (19 December 2025), which gets no page because
+it is a forum post. The second is the eight-point Lean proof found by a DeepMind
+prover agent (25 February 2026). It constructs this same configuration and has
 [[problems/distance_problems/E1082/claims/2026_02_25_deepmind|its own claim
 page]].

@@ -2,8 +2,8 @@
 name: extremal_graph_theory/kuhn_fable_2026_counterexample_erdos_problem_619/kuhn_fable_2026_counterexample_erdos_problem_619
 title: Pinned source record for the Problem 619 counterexample
 desc: |
-  Identifies the accepted site discussion and immutable Lean proof artifacts
-  for the negative resolution of Problem 619.
+  Identifies the accepted erdosproblems.com discussion and immutable Lean proof
+  artifacts for the negative resolution of Problem 619.
 created: 2026-09-05T03:30:15Z
 updated: 2026-10-07T20:53:40Z
 ---
@@ -23,9 +23,9 @@ This source has no paper or standalone PDF. Its public artifacts are:
   [Erdős Problem #619](https://www.erdosproblems.com/619), supplied snapshot
   accessed 5 September 2026 and last edited 15 June 2026.
 
-The site credits the disproof to Claude Fable 5, prompted by Kuhn. Kuhn's
-thread comment of 14 June 2026 credits the Lean formalization to Codex with
-GPT 5.5 following Fable's close guidance. Kuhn's commit is the immutable
+erdosproblems.com credits the disproof to Claude Fable 5, prompted by Kuhn.
+Kuhn's thread comment of 14 June 2026 credits the Lean formalization to Codex
+with GPT 5.5 following Fable's close guidance. Kuhn's commit is the immutable
 version linked by the current FormalConjectures `formal_proof` metadata.
 
 The retrieved files were checked by exact hash; they are:

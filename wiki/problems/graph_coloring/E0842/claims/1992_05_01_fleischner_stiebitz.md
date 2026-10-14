@@ -4,8 +4,8 @@ title: Fleischner and Stiebitz's cycle-plus-triangles theorem
 desc: |
   Theorem 1.1 of Fleischner and Stiebitz's 1992 paper shows that a $4$-regular
   graph on $3n$ vertices that decomposes into a Hamiltonian circuit and $n$
-  disjoint triangles has chromatic number 3. It is refereed and credited by the
-  site as the solution.
+  disjoint triangles has chromatic number 3. It is refereed and credited by
+  erdosproblems.com as the solution.
 authors:
 - H. Fleischner
 - M. Stiebitz
@@ -52,9 +52,10 @@ independence number $n$.
 **Acceptance.** Published in Discrete Mathematics **101** (1992), 39–48,
 received 12 November 1991
 ([[../library/graph_coloring/fleischner_stiebitz_1992_solution_colouring_problem_erdos/_index|source card]]).
-The site's curator, Thomas Bloom, marked the problem proved and names this paper
-as the proof, as the site's problem page (accessed 2026-09-07) records. Sachs's
-later elementary proof of the same theorem has its own claim page,
+The erdosproblems.com curator, Thomas Bloom, marked the problem proved and names
+this paper as the proof, as the erdosproblems.com problem page (accessed
+2026-09-07) records. Sachs's later elementary proof of the same theorem has its
+own claim page,
 [[problems/graph_coloring/E0842/claims/1993_01_01_sachs|Sachs 1993]]. This
 corpus checked the statement of Theorem 1.1 and followed the reduction to
 Theorem 2.1 for structure. It has not reviewed the proof.

@@ -105,7 +105,7 @@ image): "it is not known whether $g(n;7,4)=o(n^2)$", where $g(n;k,l)$ is
 the maximum number of triples on $[n]$ with no $k$ points spanning $l$
 triples and distinct triples sharing at most one element; the case $r=3$,
 $e=4$ of the problem's conjecture, $d_3(4)=7$, in its linear form, still
-open, and the passage through which the site's Problem 810 links this
+open, and the passage through which erdosproblems.com's Problem 810 links this
 problem.
 
 **Results.**

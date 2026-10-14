@@ -51,4 +51,4 @@ Elementary counting.
 
 - [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]]: an upper bound valid on the
   diagonal, $\hat r(K_{n,n})\le4en^32^n$, of the same order $n^32^n$ as the
-  1978 bound and the site's $\frac32n^32^n$.
+  1978 bound and erdosproblems.com's $\frac32n^32^n$.

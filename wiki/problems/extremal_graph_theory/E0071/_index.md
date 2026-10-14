@@ -28,10 +28,10 @@ graph with average degree at least $c$ contains a cycle whose length is in $P$?
 
 **Status.** PROVED (LEAN). The claim page is
 [[problems/extremal_graph_theory/E0071/claims/1977_03_01_bollobas|Bollobás]],
-accepted on the refereed publication and the site's credit, and the frontmatter
-standing is derived from it. The site's suffix is a catalog label explained
-under Formalization. The Current assessment explains how the printed theorem
-reaches the site's question.
+accepted on the refereed publication and the erdosproblems.com credit, and the
+frontmatter standing is derived from it. The erdosproblems.com suffix is a
+catalog label explained under Formalization. The Current assessment explains how
+the printed theorem reaches the erdosproblems.com question.
 
 **Source.** [erdosproblems.com/71](https://www.erdosproblems.com/71), accessed
 2026-10-07 (problem page; discussion thread with four posts, on the
@@ -45,7 +45,7 @@ https://www.erdosproblems.com/71, accessed 2026-10-07.
   no. 1, 97-98, doi:10.1112/blms/9.1.97 (received 24 March 1976, revised
   9 July 1976; Crossref record, accessed 2026-10-07). Not held; the
   publisher's online copy omits the second page, and a scan of both pages is
-  linked from the site's forum thread.
+  linked from the erdosproblems.com forum thread.
 - [Er82e] Erdős, Paul, Some of my favourite problems which recently have been
   solved. Proceedings of the International Mathematical Conference (Singapore,
   1981), North-Holland Math. Stud. 74, North-Holland (1982), 59-79. Chapter
@@ -53,15 +53,16 @@ https://www.erdosproblems.com/71, accessed 2026-10-07.
   Library home:
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 
-**Formalization.** The site's (Lean) suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's (Lean) suffix is a catalog label. The
+file
 [`ErdosProblems/71.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/71.lean)
 of formal-conjectures, at its commit of 2026-09-18, the latest on 2026-10-07,
 states `erdos_71` with the progression as a set `P.IsAPOfLength ⊤` having an
 even member, the average degree as `SimpleGraph.averageDegree` and the cycle as
 a cycle walk with length in `P`, under `category research solved` with proof
 `sorry`, and its `formal_proof` attribute names `problems/71/Erdos71.lean` of
-Jayyhk/erdos-lean, the proof posted to the site's forum on 2026-05-24 and
-pinned, at its commit of 2026-08-05, as the formalization link of the
+Jayyhk/erdos-lean, the proof posted to the erdosproblems.com forum on 2026-05-24
+and pinned, at its commit of 2026-08-05, as the formalization link of the
 [[problems/extremal_graph_theory/E0071/claims/1977_03_01_bollobas|Bollobás claim page]].
 The community database (teorth/erdosproblems, 2026-10-06) lists the status
 proved (Lean) in its record last updated 2026-06-07. This corpus has not built
@@ -69,14 +70,14 @@ or checked the proof and claims no kernel credit.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-10-07).** The statement above.
-The site's last label was PROVED (LEAN). The formal-conjectures docstring says
-Erdős credits the conjecture to himself and Burr in [Er82e], that Bollobás
-[Bo77] proved it, and that the best dependence of $c(P)$ is unknown. The
-discussion thread has four posts: one of 2026-05-24 announcing the Lean
-formalization, and three of February 2026 noting that the publisher's online
-copy of [Bo77] shows only its first page and supplying a scan of both pages. The
-proof-claim tab was empty.
+**The question (erdosproblems.com formulation, accessed 2026-10-07).** The
+statement above. erdosproblems.com's last label was PROVED (LEAN). The
+formal-conjectures docstring says Erdős credits the conjecture to himself and
+Burr in [Er82e], that Bollobás [Bo77] proved it, and that the best dependence of
+$c(P)$ is unknown. The discussion thread has four posts: one of 2026-05-24
+announcing the Lean formalization, and three of February 2026 noting that the
+publisher's online copy of [Bo77] shows only its first page and supplying a scan
+of both pages. The proof-claim tab was empty.
 
 **Status support.** [Bo77], in the scan of both pages linked from the thread.
 The conjecture the note proves (p. 97): for every odd $k$ there is $c_k$ such
@@ -93,21 +94,21 @@ length $l$ modulo $k$ for every $l$; the proof closes two of the $k+1$ fan paths
 with a segment of $P$ of length divisible by $k$, giving length $2s$ modulo $k$
 for each $1\le s\le k$. For a progression $\{a+md\}$ with $d$ odd this places
 the length in the residue of $a$ but not above $a$; a cycle in the progression
-needs a fan with $2s\equiv a$ modulo $d$ and $2s\ge a$. The site's question also
-covers an even difference $d$ with an even first term $a$, which the printed
-theorem does not state; the same fan with $s=a/2$ gives a cycle of length $a$
-plus a multiple of $d$. Both are the reductions the Lean proof carries out in
-its lemma `erdos_71_of_edge_density` (for $d=1$ it takes a long cycle instead of
-a fan; its opening roadmap says only that Theorem 2 is used directly for odd
-$d$), which this corpus checked for the residue count only, and the note's
-closing paragraph explains why odd residues modulo an even $k$ have no linear
-bound (the bipartite graphs). Acceptance evidence: the Bulletin is refereed
-(Crossref: 9 (1977), no. 1, 97--98), the site credits the paper, and Erdős's
-1982 survey (card above, p. 71) reports the Burr--Erdős conjecture itself, for
-odd $k$ and every residue $\ell$, as proved by Bollobás with a constant he
-writes as $k(k+1)2^k$. Read depth: the conjecture paragraph, the three theorems
-and the closing paragraph are checked as statements, and the proofs only for the
-residue count.
+needs a fan with $2s\equiv a$ modulo $d$ and $2s\ge a$. The erdosproblems.com
+question also covers an even difference $d$ with an even first term $a$, which
+the printed theorem does not state; the same fan with $s=a/2$ gives a cycle of
+length $a$ plus a multiple of $d$. Both are the reductions the Lean proof
+carries out in its lemma `erdos_71_of_edge_density` (for $d=1$ it takes a long
+cycle instead of a fan; its opening roadmap says only that Theorem 2 is used
+directly for odd $d$), which this corpus checked for the residue count only, and
+the note's closing paragraph explains why odd residues modulo an even $k$ have
+no linear bound (the bipartite graphs). Acceptance evidence: the Bulletin is
+refereed (Crossref: 9 (1977), no. 1, 97--98), erdosproblems.com credits the
+paper, and Erdős's 1982 survey (card above, p. 71) reports the Burr--Erdős
+conjecture itself, for odd $k$ and every residue $\ell$, as proved by Bollobás
+with a constant he writes as $k(k+1)2^k$. Read depth: the conjecture paragraph,
+the three theorems and the closing paragraph are checked as statements, and the
+proofs only for the residue count.
 
 **The Lean label.** As recorded under Formalization: a statement-only
 formal-conjectures file whose `formal_proof` attribute names the erdos-lean
@@ -116,9 +117,9 @@ formalization link on the argument's claim page and not a claim of its own; this
 corpus has not built or audited it, and no outside review of its statement is
 published. It adds no acceptance evidence to the refereed one.
 
-**Search scope.** The site's problem page, thread and proof-claim tab; the
-community database (2026-10-06); the formal-conjectures file at `main`; the
-erdos-lean catalog entry, file header, closing lines and history for Problem
+**Search scope.** The erdosproblems.com problem page, thread and proof-claim
+tab; the community database (2026-10-06); the formal-conjectures file at `main`;
+the erdos-lean catalog entry, file header, closing lines and history for Problem
 71; the Crossref record of [Bo77]; the scan of [Bo77] linked from the thread;
 the library digest of [Er82e]. Not searched: MathSciNet, zbMATH, Google
 Scholar, X; the later literature on the best constant $c(P)$ was not surveyed.
@@ -130,7 +131,7 @@ difference, rest on the extensions of Bollobás's argument described above, whic
 the printed theorem does not state; this corpus checked them at the
 residue-count level only. (3) Proof coverage is otherwise statements only. (4)
 This corpus has not built or audited the Lean proof. (5) The best dependence of
-$c(P)$ on $P$ is not the site's question and was not surveyed.
+$c(P)$ on $P$ is not the erdosproblems.com question and was not surveyed.
 
 ## Known results
 

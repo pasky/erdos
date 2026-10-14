@@ -32,10 +32,10 @@ $$
 
 exist?
 
-**Status.** Open, as the site labeled it. The page was last edited 8
-February 2026. The site's commentary records Erdős's bounds and the conditional
-theorem and improved constant of Araujo, Filipe and Miyazaki. The Current
-assessment records them together with the conditional claim page
+**Status.** Open, as Bloom's catalog labeled it. The page was last edited 8
+February 2026. The erdosproblems.com commentary records Erdős's bounds and the
+conditional theorem and improved constant of Araujo, Filipe and Miyazaki. The
+Current assessment records them together with the conditional claim page
 [[problems/graph_coloring/E0627/claims/2025_12_18_araujo_filipe_miyazaki|Araujo,
 Filipe and Miyazaki's conditional limit]].
 
@@ -58,8 +58,9 @@ https://www.erdosproblems.com/627.
 
 ## Current assessment
 
-The target is the site's formulation (accessed 2026-09-04; page last edited 8
-February 2026), standing open: no result decides whether the limit exists.
+The target is the erdosproblems.com formulation (accessed 2026-09-04; page last
+edited 8 February 2026), standing open: no result decides whether the limit
+exists.
 
 **Known results.** Tutte and Zykov showed that for every $k$ there is a graph
 with $\omega(G)=2$ and $\chi(G)=k$, and Erdős (1961) gave graphs on $n$ vertices
@@ -88,9 +89,9 @@ existence of $\ell=\lim\log_2R(k,k)/k$, the limit of
 $\ell^2$. Both hypotheses are unproved, so the claim derives nothing for the
 standing.
 
-**Search scope.** The site's page and its discussion thread, whose one post
-(19 December 2025) points to the note; and, as they stood on 2026-10-07, the
-community database (teorth/erdosproblems: open, not formalized),
+**Search scope.** The erdosproblems.com page and its discussion thread, whose
+one post (19 December 2025) points to the note; and, as they stood on
+2026-10-07, the community database (teorth/erdosproblems: open, not formalized),
 formal-conjectures (no file for the problem), the arXiv record of the note (v1
 of 18 December 2025, v2 of 4 February 2026, no journal reference) and Crossref
 (no journal version of the note).

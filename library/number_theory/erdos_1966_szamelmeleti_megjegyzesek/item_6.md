@@ -32,9 +32,9 @@ then $B(m)/m<\varepsilon/2$. The item cites Erdős, *Note on sequences of
 integers no one of which is divisible by any other*, J. London Math. Soc. 10
 (1935), 126--128.
 
-So the 1966 paper defines $B$ as the count of multiples ($a\mid b$), the
-site's reading of Problem 488; the 1961 problem paper prints the count of
-non-multiples at its item (I.27.1) (printed p. 236; filed as
+So the 1966 paper defines $B$ as the count of multiples ($a\mid b$),
+erdosproblems.com's reading of Problem 488; the 1961 problem paper prints the
+count of non-multiples at its item (I.27.1) (printed p. 236; filed as
 [[number_theory/erdos_1961_unsolved_problems/_index|erdos_1961_unsolved_problems]]).
 
 **Source.** P. Erdős, *Számelméleti megjegyzések, V. Extremális problémák a
@@ -62,5 +62,5 @@ None (a question).
 
 - [[../wiki/problems/integer_sequences/E0488/_index|Problem 488]]: the problem's
   statement in the 1966 wording with $B$ the count of multiples, and the
-  sharpness example the site's page records; the 1961 paper's item prints
-  the opposite divisibility condition.
+  sharpness example the erdosproblems.com page records; the 1961 paper's item
+  prints the opposite divisibility condition.

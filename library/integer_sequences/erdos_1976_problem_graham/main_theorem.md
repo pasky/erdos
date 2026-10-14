@@ -78,6 +78,6 @@ all at statement level.
   theorem is the problem's statement for every prime $p>p_0$, with the
   $a_i$ restricted to nonzero residues. It says nothing about the primes
   $p\le p_0$ or about sequences containing the residue $0$, which the
-  site's wording admits. The case of every modulus, $0$ admitted, is Gao,
-  Hamidoune and Wang's
+  erdosproblems.com wording admits. The case of every modulus, $0$ admitted, is
+  Gao, Hamidoune and Wang's
   [[integer_sequences/gao_2010_distinct_length_modular_zero_sum_subsequences_graham_conjecture/theorem_1_1|Theorem 1.1]].

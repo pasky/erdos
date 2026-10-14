@@ -29,8 +29,8 @@ What is the minimum growth rate of $f(z)$?
 If $E(c)$ has finite measure then must there exist $c'<c$ such that $E(c')$ has
 finite measure?
 
-**Status.** Labeled solved on the site. The standing is solved, answered.
-Gol'dberg's 1979 paper answers both questions
+**Status.** Labeled solved on erdosproblems.com. The standing is solved,
+answered. Gol'dberg's 1979 paper answers both questions
 ([[problems/analysis/E1118/claims/1979_01_01_goldberg|Gol'dberg's claim page]]).
 The minimal growth is Hayman's conjectured bound,
 $\int^\infty r\,dr/\log\log M(r)<\infty$, which the paper proves and shows best
@@ -40,8 +40,8 @@ sharpness
 ([[problems/analysis/E1118/claims/1977_01_01_camera|Camera's claim page]]).
 Hayman and Lingham's survey of Hayman's problems
 ([[../library/polynomials/hayman_lingham_2018_research_problems_function_theory/_index|library card]],
-Update 2.40) credits Hansen's 1977 paper with another proof, which the site does
-not mention
+Update 2.40) credits Hansen's 1977 paper with another proof, which
+erdosproblems.com does not mention
 ([[problems/analysis/E1118/claims/1977_12_01_hansen|Hansen's claim page]]).
 
 **Source.** [erdosproblems.com/1118](https://www.erdosproblems.com/1118),

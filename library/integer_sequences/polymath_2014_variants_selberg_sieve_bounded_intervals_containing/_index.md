@@ -7,7 +7,7 @@ desc: |
   narrowest admissible k-tuple.
 license: CC-BY-4.0
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T14:36:14Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # integer_sequences/polymath_2014_variants_selberg_sieve_bounded_intervals_containing
@@ -16,7 +16,7 @@ updated: 2026-10-08T14:36:14Z
 
 [[integer_sequences/polymath_2014_variants_selberg_sieve_bounded_intervals_containing/inequality_150|inequality_150]]: The Hensley–Richards sieve bound on the diameter of the narrowest
 admissible k-tuple, improving the Eratosthenes bound (149) by log 2 times
-k; the second-order term the site records for Problem 1204.
+k; the second-order term erdosproblems.com records for Problem 1204.
 
 [[integer_sequences/polymath_2014_variants_selberg_sieve_bounded_intervals_containing/theorem_17|theorem_17]]: Exact values H(3) = 6, H(50) = 246, H(51) = 252, H(54) = 270, seven
 explicit upper bounds for k from 5,511 to 3,473,955,908, and
@@ -61,8 +61,8 @@ The
 [folder-name PDF](polymath_2014_variants_selberg_sieve_bounded_intervals_containing.pdf)
 is the journal version (83 pages, Distiller, complete text layer, page
 headers "Page $n$ of 83"). Its section headings carry no numbers, so a
-reference to "Section 10" of the paper, as on the site's Problem 1204 page,
-is read here as the section "Narrow admissible tuples" (pp. 76--81), which
+reference to "Section 10" of the paper, as on erdosproblems.com's Problem 1204
+page, is read here as the section "Narrow admissible tuples" (pp. 76--81), which
 is where the material on the diameter of admissible tuples lives.
 
 Read status: claims checked, in the text layer, for the two-sided bound on
@@ -191,7 +191,7 @@ improves the second-order term by $(\log2)k$. The paper also records the
 lower bound $A(k)\ge(\frac12+o(1))k\log k$ without proving it here and
 conjectures $\lfloor k\log k+k\rfloor$ as an upper bound for large $k$.
 None of this decides whether $A(k)\sim k\log k$, and nothing in the
-paper concerns $B(k)$. The site cites the paper for the lower bound's
+paper concerns $B(k)$. erdosproblems.com cites the paper for the lower bound's
 rediscovery and for the Hensley--Richards second-order term.
 
 **Results.**

@@ -6,7 +6,7 @@ desc: |
   reals.
 license: LicenseRef-CC-BY
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-07T20:53:40Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # number_theory/stoll_2006_problem_erdos_graham_concerning_digits
@@ -30,7 +30,7 @@ g at least 2 and every integer triple (m, l, k) in six explicitly described
 cones with (g-1) dividing (k-1)l, the recurrence u_1 = m, u_{n+1} = floor(a
 (u_n + eps)) on odd steps and floor(b(u_n + l/(g-1))) on even steps has
 second differences u_{2n+1} - g u_{2n-1} equal to the base-g digits of w;
-the family behind the site's SOLVED label for Problem 482.
+the family behind erdosproblems.com's SOLVED label for Problem 482.
 
 [[number_theory/stoll_2006_problem_erdos_graham_concerning_digits/theorem_3_3|theorem_3_3]]: Stoll's two 2006 binary-digit families: for every positive real w and
 integer triples (m, l, k) with m outside {-1, 0}, k >= 0 and l in a range
@@ -43,7 +43,7 @@ eps = 1/2, (m, l, k) = (1, 0, 0) is the Graham-Pollak recurrence.
 
 Thomas Stoll, *On a problem of Erdős and Graham concerning digits*, Acta
 Arith. **125** (2006), no. 1, 89--100. Received 16 March 2006 (the date
-printed on p. 100). The site's key St06.
+printed on p. 100). The erdosproblems.com key St06.
 
 The retained
 [folder-name PDF](stoll_2006_problem_erdos_graham_concerning_digits.pdf) is
@@ -127,18 +127,18 @@ proofs in the text layer). Fact 1, Theorem 3.1, Theorems 3.3--3.4 and
 Corollary 3.5 are compiled as statements with proof pointers; no step of
 the proofs was checked and nothing here is independently reviewed. The
 paper's own locator for the Erdős--Graham passage, printed p. 96 of the 1980
-monograph, is what the site's source key for Problem 482 also gives.
+monograph, is what the erdosproblems.com source key for Problem 482 also gives.
 
 **Bears on.** [[../wiki/problems/number_theory/E0482/_index|#482]], as the second Stoll
-paper behind the site's SOLVED label: Fact 1 restates the Graham--Pollak
-identity of the problem's first paragraph, Theorem 3.1 gives, for every
-$w>0$ and every base $g\ge2$, infinitely many recurrences of the same shape
-whose second differences are the base-$g$ digits of $w$, Theorem 3.3
+paper behind erdosproblems.com's SOLVED label: Fact 1 restates the
+Graham--Pollak identity of the problem's first paragraph, Theorem 3.1 gives, for
+every $w>0$ and every base $g\ge2$, infinitely many recurrences of the same
+shape whose second differences are the base-$g$ digits of $w$, Theorem 3.3
 recovers the original recurrence as one member of a binary family, and
 Corollary 3.5 identifies the number whose binary digits the original
 recurrence with $u_1=m$ produces for every integer $m\notin\{-1,0\}$; the
 paper does not classify every recurrence with this property, which is what
-the site's "open-ended" qualification records.
+erdosproblems.com's "open-ended" qualification records.
 
 **Results.**
 

@@ -74,7 +74,7 @@ $\mathcal A\subset[1,N]$ has $\operatorname{Card}\mathcal A\le2\sqrt{N+1/4}-1$,
 and the block $\{N-k+1,\ldots,N\}$ is admissible exactly when
 $k\le2\sqrt{N+1/4}-1$, so the problem's $k(N)$ equals
 $\lfloor2\sqrt{N+1/4}-1\rfloor$ for large $N$ and $k(N)\sim2N^{1/2}$; the
-uniqueness remark for $N=n^2$, $n^2+n$ is the site's "in some cases".
+uniqueness remark for $N=n^2$, $n^2+n$ is erdosproblems.com's "in some cases".
 [[../wiki/problems/additive_combinatorics/E0875/_index|#875]]: Theorem 1 applied to the
 initial segments of an infinite admissible set bounds its counting
 function by $2\sqrt{x+1/4}-1$ for $x\ge N_0$, so its gaps cannot satisfy
@@ -84,7 +84,7 @@ page).
 page image: the attribution of the admissibility notion to Erdős (1962)
 and of the name to Straus (1966), and Straus's bound
 $|\mathcal A|\le(4/\sqrt3+o(1))\sqrt N$ for admissible subsets of $[1,N]$,
-an attestation of the site's "Straus [St66] proved $h(n)\ll n^{1/2}$".
+an attestation of erdosproblems.com's "Straus [St66] proved $h(n)\ll n^{1/2}$".
 [[../wiki/problems/integer_sequences/E0357/_index|#357]]: Straus's block computation,
 printed p. 141 (PDF p. 2), gives the problem's
 $f(n)\ge\lfloor\sqrt{4n+1}-1\rfloor$; admissibility is stronger than the

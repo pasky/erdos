@@ -42,9 +42,10 @@ $$
 Determine $h(n)$ - in particular, prove that there exists a constant $c>0$ such
 that $h(n)>n^{1+c}$ for all large $n$.
 
-**Status.** Open. The site labeled the problem OPEN. Two pending claims of the
-order $n^{4/3}$, Valtr's announcement of 2005 and Chojecki's note of 2026, are
-recorded on their claim pages. The Current assessment lists those pages.
+**Status.** Open. Bloom's catalog labeled the problem OPEN. Two pending claims
+of the order $n^{4/3}$, Valtr's announcement of 2005 and Chojecki's note of
+2026, are recorded on their claim pages. The Current assessment lists those
+pages.
 
 **Source.** [erdosproblems.com/956](https://www.erdosproblems.com/956), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #956,
@@ -66,8 +67,8 @@ neither has been built here.
 accepted partial
 [[problems/distance_problems/E0956/claims/1990_09_01_erdos_pach|claim page]].
 For the lower bound, a single point is a compact convex set, so $h(n)$ is at
-least the largest number of unit distances among $n$ planar points, as the
-site remarks; with the accepted
+least the largest number of unit distances among $n$ planar points, as
+erdosproblems.com remarks; with the accepted
 [[problems/distance_problems/E0090/claims/2026_05_20_openai|claim]] on
 [[problems/distance_problems/E0090/_index|Problem 90]] this gives
 $h(n)\geq n^{1+\delta}$ for a fixed $\delta>0$ and infinitely many $n$ (a
@@ -82,7 +83,8 @@ hence $h(n)=\Theta(n^{4/3})$, recorded on
 together with Aristotle's partial Lean file and Linmiao Xu's Lean
 development of lower bounds, registered in the Palomar registry on 4 October
 2026. Neither claim is refereed or independently reviewed, so the standing
-is a pending full claim. Search scope: the site's problem page and discussion
-thread, the Oberwolfach report, the claimant's note and Lean file, the Lean
-repository and registry record, and the formal-conjectures catalog; no forum
-proof claim named the problem, and on 2026-10-07 no release item or lead did.
+is a pending full claim. Search scope: the erdosproblems.com problem page and
+discussion thread, the Oberwolfach report, the claimant's note and Lean file,
+the Lean repository and registry record, and the formal-conjectures catalog; no
+forum proof claim named the problem, and on 2026-10-07 no release item or lead
+did.

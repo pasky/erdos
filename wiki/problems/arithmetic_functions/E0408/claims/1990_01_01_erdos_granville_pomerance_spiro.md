@@ -68,9 +68,9 @@ question, the largest prime factor of $\phi_k(n)$ for $k=\log\log n$.
 
 **Standing.** Claimed. The chapter appears in a conference proceedings
 volume for which no evidence of refereeing is recorded, so `refereed` is not
-listed. The site's commentary credits the paper with the conditional yes to
-the first two questions, but the site labeled the problem OPEN, so that
-commentary is not acceptance and no `reviewed` evidence is listed. Guy's
+listed. The erdosproblems.com commentary credits the paper with the conditional
+yes to the first two questions, but Bloom's catalog labeled the problem OPEN, so
+that commentary is not acceptance and no `reviewed` evidence is listed. Guy's
 B41 records the result as proved under the Elliott--Halberstam conjecture.
 The source card
 [[../library/arithmetic_functions/erdos_1990_normal_behavior_iterates_arithmetic_functions/_index|erdos_1990_normal_behavior_iterates_arithmetic_functions]]

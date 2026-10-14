@@ -78,14 +78,14 @@ rho'. The proof is the Vinogradov method: sieving
 the primes into bilinear pieces, divisor-sum lemmas (Lemmas 1 and 2, the
 latter credited to Mardzhanishvili), and a mean-value estimate for multiple
 exponential-sum integrals (Lemma 3), followed by a counting argument for the
-number of boxes of coefficient vectors. For problem 972 the site's commentary
-cites the paper for the uniform distribution of {p alpha}, alpha irrational,
-as Erdős's 1965 lecture does; the four theorems as read here require a
-polynomial phase a_n x^n + ... + a_1 x in which some coefficient a_s with
-2 <= s <= n has a rational approximation of the kind above, or a smooth phase
-with derivative conditions, and do not state the linear case, which belongs
-to Vinogradov's earlier work (the paper's references are his Doklady notes of
-1946 and 1947 and his 1947 book on the method of trigonometric sums).
+number of boxes of coefficient vectors. For problem 972 the erdosproblems.com
+commentary cites the paper for the uniform distribution of {p alpha}, alpha
+irrational, as Erdős's 1965 lecture does; the four theorems as read here require
+a polynomial phase a_n x^n + ... + a_1 x in which some coefficient a_s with 2 <=
+s <= n has a rational approximation of the kind above, or a smooth phase with
+derivative conditions, and do not state the linear case, which belongs to
+Vinogradov's earlier work (the paper's references are his Doklady notes of 1946
+and 1947 and his 1947 book on the method of trigonometric sums).
 
 Source: <https://www.mathnet.ru/eng/im3028>.
 
@@ -107,11 +107,12 @@ that reproduction or republication "requires written permission of the copyright
 holder" (https://www.mathnet.ru/php/agreement.phtml?option_lang=eng, read
 2026-10-02), every other right reserved.
 
-**Bears on.** [[../wiki/problems/number_theory/E0972/_index|#972]] (the site's
-[Vi48] key, and Erdős's 1965 lecture, for the uniform distribution of {p alpha},
-alpha irrational, from which the problem page derives the one-prime statement;
-Theorems 1-4 as read here do not state the linear case, a source-identity remark
-recorded on the problem page, and none addresses the two-prime question;
+**Bears on.** [[../wiki/problems/number_theory/E0972/_index|#972]]
+(erdosproblems.com's [Vi48] key, and Erdős's 1965 lecture, for the uniform
+distribution of {p alpha}, alpha irrational, from which the problem page derives
+the one-prime statement; Theorems 1-4 as read here do not state the linear case,
+a source-identity remark recorded on the problem page, and none addresses the
+two-prime question;
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_1|theorem_1]],
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_2|theorem_2]],
 [[number_theory/vinogradov_1948_estimate_trigonometric_sums_prime_numbers/theorem_3|theorem_3]],

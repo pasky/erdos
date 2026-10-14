@@ -25,23 +25,22 @@ updated: 2026-10-08T02:16:54Z
 exist distinct $a,b,c\in A$ such that $[a,b]=c$ (where $[a,b]$ is the least
 common multiple of $a$ and $b$)?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-18 January 2026). "Positive density" is read as positive
-lower asymptotic density, the reading of Erdős's 1965 statement of the
-conjecture, which is for a sequence "of positive lower density" (his 1961
-problem says "a sequence of positive density"), and of the Lean development,
-whose hypothesis is `lowerDensity A > 0`. The formal-conjectures statement
-has the stronger hypothesis: its `HasPosDensity` requires the natural
-density of $A$ to exist and be positive, so the lower-density theorem
-implies the formal-conjectures form. The three members must be distinct, so a chain
-$a\mid b\mid c$ does not qualify by itself ($[a,b]=b$). Erdős asked for
-infinitely many such triples; one triple in every set of positive density
-gives infinitely many by removing finitely many members, which does not
-change the density.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 18 January 2026). "Positive density" is read as positive lower asymptotic
+density, the reading of Erdős's 1965 statement of the conjecture, which is for a
+sequence "of positive lower density" (his 1961 problem says "a sequence of
+positive density"), and of the Lean development, whose hypothesis is
+`lowerDensity A > 0`. The formal-conjectures statement has the stronger
+hypothesis: its `HasPosDensity` requires the natural density of $A$ to exist and
+be positive, so the lower-density theorem implies the formal-conjectures form.
+The three members must be distinct, so a chain $a\mid b\mid c$ does not qualify
+by itself ($[a,b]=b$). Erdős asked for infinitely many such triples; one triple
+in every set of positive density gives infinitely many by removing finitely many
+members, which does not change the density.
 
-**Status.** The site's label was PROVED (LEAN). The site's commentary attributes
-the result to Kleitman's solution of Problem 447, the union-free bound [Kl71].
-The claim pages are
+**Status.** The erdosproblems.com label was PROVED (LEAN). The erdosproblems.com
+commentary attributes the result to Kleitman's solution of Problem 447, the
+union-free bound [Kl71]. The claim pages are
 [[problems/integer_sequences/E0487/claims/1971_01_01_kleitman|Kleitman]] and
 [[problems/integer_sequences/E0487/claims/1965_01_01_erdos|Erdős's 1965 claim]].
 Kleitman's claim is accepted on the curator's acceptance, with the theorem
@@ -52,22 +51,22 @@ claim is recorded as claimed. It is Erdős's published statement that the
 conjecture is proved, resting on the unpublished bound of Sárközy and Szemerédi
 that he reported. Kleitman's paper (Proc. Sympos. Pure Math. XIX, 1971,
 153--155) is not held, and no open route to it was found. The status therefore
-rests on the site's attribution, Erdős's 1965 attestation and a Lean development
-neither built nor audited here, not on the status-defining paper. A copy of
-Kleitman 1971 is the reopening condition for this qualification.
+rests on the erdosproblems.com attribution, Erdős's 1965 attestation and a Lean
+development neither built nor audited here, not on the status-defining paper. A
+copy of Kleitman 1971 is the reopening condition for this qualification.
 
 Kleitman's theorem, $|\mathcal F|<(1+o(1))\binom{n}{\lfloor n/2\rfloor}$ for
-union-free families of subsets of $[n]$, is taken here from the site's Problem
-447 page. The reduction from lcm triples in a dense set to union-free families
-is Erdős's own. His 1965 survey states the conjecture and says it "would follow
-from" the bound $f(n)=o(2^n)$ for union-free families. It reports that Sárközy
-and Szemerédi had proved that bound (unpublished) and concludes "Thus the above
-conjecture about triples is now proved" (printed pp. 228--229). The site's
-thread describes the implication as taking real work. The Lean development
-carries it out through a reduction to odd integers of positive upper logarithmic
-density. The Davenport--Erdős chain theorem (1936) is context. The "(LEAN)"
-suffix of the label is explained under Formalization and the Lean label below,
-and no local kernel credit is claimed.
+union-free families of subsets of $[n]$, is taken here from erdosproblems.com's
+Problem 447 page. The reduction from lcm triples in a dense set to union-free
+families is Erdős's own. His 1965 survey states the conjecture and says it
+"would follow from" the bound $f(n)=o(2^n)$ for union-free families. It reports
+that Sárközy and Szemerédi had proved that bound (unpublished) and concludes
+"Thus the above conjecture about triples is now proved" (printed pp. 228--229).
+The erdosproblems.com thread describes the implication as taking real work. The
+Lean development carries it out through a reduction to odd integers of positive
+upper logarithmic density. The Davenport--Erdős chain theorem (1936) is context.
+The "(LEAN)" suffix of the label is explained under Formalization and the Lean
+label below, and no local kernel credit is claimed.
 
 **Source.** [erdosproblems.com/487](https://www.erdosproblems.com/487),
 accessed 2026-09-18: the problem page (PROVED
@@ -86,7 +85,7 @@ https://www.erdosproblems.com/487, accessed 2026-09-18.
   California, Los Angeles, 1968), Amer. Math. Soc. (1971), 153--155, DOI
   10.1090/pspum/019/0317947 (Crossref record accessed 2026-09-18). Not held:
   the volume is sold by the publisher and no open copy was found; no request
-  was made. Quoted second-hand from the site's Problem 447 page.
+  was made. Quoted second-hand from erdosproblems.com's Problem 447 page.
 - [Er65b] Erdős, Paul, Some recent advances and current problems in number
   theory. Lectures on Modern Mathematics, Vol. III, Wiley (1965), 196--244;
   the lcm-triple passage with display (69), printed pp. 228--229. Library
@@ -104,7 +103,7 @@ https://www.erdosproblems.com/487, accessed 2026-09-18.
   result page
   [[../library/integer_sequences/davenport_1936_sequences_positive_integers/theorem_2|Theorem 2]].
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label; see
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label; see
 "Formalization and the Lean label" below for what it refers to. The file
 [`ErdosProblems/487.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/487.lean)
 of formal-conjectures, pinned to the head of main on 2026-09-18, declares
@@ -113,15 +112,15 @@ under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `src/v4.29.1/ErdosProblems/Erdos487.lean` of
 `plby/lean-proofs` at the commit of 2026-06-30 that the Kleitman page's
 link pins; its docstring repeats the
-site's commentary. The community database (pinned copy of 2026-09-18) lists
-the problem as "proved (Lean)" as of its last update on 16 February 2026,
+erdosproblems.com commentary. The community database (pinned copy of 2026-09-18)
+lists the problem as "proved (Lean)" as of its last update on 16 February 2026,
 the statement formalized since 3 August 2026, `formal_status` Lean and no
-formal-proof URL. The site's indicator reads "Formalised statement? Yes".
-Nothing was built or kernel-checked here.
+formal-proof URL. The erdosproblems.com indicator reads "Formalised statement?
+Yes". Nothing was built or kernel-checked here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED (LEAN), last edited 18 January 2026; source keys [Er61,
 p. 236] and [Er65b, p. 228]. The commentary records two things: the
 Davenport--Erdős theorem [DaEr36], that a set $A$ of positive upper
@@ -158,7 +157,7 @@ conjecture about triples is now proved." The reduction is asserted, not
 carried out, on the page.
 
 **Status support.** The status-defining theorem is Kleitman's union-free
-bound, which the site's Problem 447 page states as
+bound, which erdosproblems.com's Problem 447 page states as
 $|\mathcal F|<(1+o(1))\binom{n}{\lfloor n/2\rfloor}$ for families
 $\mathcal F$ of subsets of $[n]$ with no $A\cup B=C$ among distinct
 members, credited to Kleitman [Kl71]; that page also notes Erdős's 1965
@@ -166,15 +165,14 @@ report of the unpublished Sárközy--Szemerédi bound $o(2^n)$, and that the
 weaker estimate is already enough for the present statement, infinitely many
 distinct $a,b,c\in A$ with $[a,b]=c$ in every set $A$ of positive density.
 Kleitman's
-paper is not held here, so its statement rests on the site's account; the
-paper appeared in an AMS proceedings volume (Crossref record), which
-attests publication and not refereeing, and the acceptance on record is
-the site's attribution. The implication from
-the union-free bound to the lcm triples is attested three ways and derived
-nowhere in this compilation: by Erdős (1965, as quoted), by the site
-(Problems 447 and 487) and by the Lean development, whose header
-summary describes the route it formalizes: pass to a class
-$B_t=\{a/2^t:a\in A,\ v_2(a)=t\}$ of odd integers with positive upper
+paper is not held here, so its statement rests on erdosproblems.com's account;
+the paper appeared in an AMS proceedings volume (Crossref record), which attests
+publication and not refereeing, and the acceptance on record is the
+erdosproblems.com attribution. The implication from the union-free bound to the
+lcm triples is attested three ways and derived nowhere in this compilation: by
+Erdős (1965, as quoted), by erdosproblems.com (Problems 447 and 487) and by the
+Lean development, whose header summary describes the route it formalizes: pass
+to a class $B_t=\{a/2^t:a\in A,\ v_2(a)=t\}$ of odd integers with positive upper
 logarithmic density; bound, for an lcm-triple-free set, a counting
 quantity $I(N)$ by $o(N\log N)$ through Kleitman's bound; show that
 positive upper logarithmic density forces $I(N)\gg N\log N$ along a
@@ -191,10 +189,10 @@ in the proceedings volume (not held), Erdős's 1965 statement that the
 conjecture follows from the union-free bound and "is now proved", the
 curator's acceptance, and the Lean development. The origins and the
 Davenport--Erdős theorem are quoted from the printed sources; Kleitman's
-theorem rests on the site's account, and the reduction on the
+theorem rests on erdosproblems.com's account, and the reduction on the
 attestations above and the Lean file's summary.
 
-**Formalization and the Lean label.** The site's "(LEAN)" suffix is a
+**Formalization and the Lean label.** erdosproblems.com's "(LEAN)" suffix is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos487.lean` in `plby/lean-proofs` at the
@@ -220,9 +218,9 @@ no formal-proof URL.
 **Search scope.** None of the routes below found an open
 copy of [Kl71], a second published proof of the implication, or a dispute.
 
-- The site: problem page, discussion thread and proof-claim tab; the
-  site's Problem 447 page as of 2026-09-04 (for Kleitman's statement);
-  formal-conjectures `487.lean` at the pinned commit; the community
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
+  erdosproblems.com's Problem 447 page, accessed 2026-09-04 (for Kleitman's
+  statement); formal-conjectures `487.lean` at the pinned commit; the community
   database (pinned copy of 2026-09-18).
 - The two Lean files at the commits Kleitman's page pins.
 - arXiv: the API query `abs:"least common multiple" AND abs:"positive density"`
@@ -235,16 +233,16 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Kl71]; the
 unpublished Sárközy--Szemerédi argument Erdős reports.
 
 **Remaining gaps.** (1) The status-defining paper [Kl71] is not held; its
-theorem is quoted from the site, and the label rested on the site's
-attribution, Erdős's 1965 attestation and the Lean development; reopening
-condition: a copy of [Kl71]. (2) The reduction from union-free families to
-lcm triples is attested and formalized externally but not derived or
-reviewed here; the Lean file is neither built nor audited here. (3) The
-standing is derived from the claim pages linked under Status, through
+theorem is quoted from erdosproblems.com, and the label rested on the
+erdosproblems.com attribution, Erdős's 1965 attestation and the Lean
+development; reopening condition: a copy of [Kl71]. (2) The reduction from
+union-free families to lcm triples is attested and formalized externally but not
+derived or reviewed here; the Lean file is neither built nor audited here. (3)
+The standing is derived from the claim pages linked under Status, through
 Kleitman's page, which carries the Lean development as a formalization link;
 the development declares itself a formalization of Kleitman's result, so it
-has no page of its own, and the site's label and the community database
-record are its only acceptance on record.
+has no page of its own, and the erdosproblems.com label and the community
+database record are its only acceptance on record.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -27,22 +27,21 @@ $f(c)\to 0$ as $c\to 1/2$ and $f(c)\to 1$ as $c\to \infty$ and every random
 graph with $n$ vertices and $cn$ edges has (with high probability) a path of
 length at least $f(c)n$.
 
-**Formulation.** The site's wording as of 2026-09-19 (page last edited
-7 March 2026). The model is the uniform random graph with
-$n$ labeled vertices and $cn$ edges (Ajtai, Komlós and Szemerédi's
-$G'_{n,N}$ with $N=cn$), $c>1/2$ fixed and $n\to\infty$; "with high
-probability" means with probability tending to $1$, and the length of a path
-is its number of edges. The statement asks for the existence of some $f$
-with the two limits, not for a particular function: since a path of length
-at least $g(c)n$ is also one of length at least $f(c)n$ whenever $f\le g$,
-the content is that for every $c>1/2$ some positive fraction of $n$ is
-almost surely reached and that the fraction can be taken as close to $1$ as
-desired for large $c$, the first limit being arranged by taking $f$ small
-near $1/2$ (a remark of this page). At $c=1/2$ itself the longest path has
-length $O(\sqrt{n\log n})$ (the paper's paragraph B), so no positive fraction
-is reached there. The site's wording follows Erdős's 1982 statement of the
-conjecture (p. 69, below); his 1975 statement asks a stronger question, an
-asymptotic $(1+o(1))f(C)n$ for the longest cycle.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-19 (page last
+edited 7 March 2026). The model is the uniform random graph with $n$ labeled
+vertices and $cn$ edges (Ajtai, Komlós and Szemerédi's $G'_{n,N}$ with $N=cn$),
+$c>1/2$ fixed and $n\to\infty$; "with high probability" means with probability
+tending to $1$, and the length of a path is its number of edges. The statement
+asks for the existence of some $f$ with the two limits, not for a particular
+function: since a path of length at least $g(c)n$ is also one of length at least
+$f(c)n$ whenever $f\le g$, the content is that for every $c>1/2$ some positive
+fraction of $n$ is almost surely reached and that the fraction can be taken as
+close to $1$ as desired for large $c$, the first limit being arranged by taking
+$f$ small near $1/2$ (a remark of this page). At $c=1/2$ itself the longest path
+has length $O(\sqrt{n\log n})$ (the paper's paragraph B), so no positive
+fraction is reached there. The erdosproblems.com wording follows Erdős's 1982
+statement of the conjecture (p. 69, below); his 1975 statement asks a stronger
+question, an asymptotic $(1+o(1))f(C)n$ for the longest cycle.
 
 **Status.** Proved. The result and its acceptance evidence are recorded on the
 claim page
@@ -61,9 +60,9 @@ statements by the deduction written under Status support. That deduction is this
 page's own, not the paper's, and the paper defines no single $f$. The acceptance
 evidence is the refereed publication, Erdős's own report of the proof in his
 1982 collection ("All these conjectures were proved by Ajtai, Komlós and
-Szemerédi"), the site and the community database. Read depth: the claims were
-checked for Theorem 2, the Exponential rate, the Corollary and Remarks 1 and 2.
-The proofs (pp. 4--12) were not read.
+Szemerédi"), erdosproblems.com and the community database. Read depth: the
+claims were checked for Theorem 2, the Exponential rate, the Corollary and
+Remarks 1 and 2. The proofs (pp. 4--12) were not read.
 
 **Source.** [erdosproblems.com/900](https://www.erdosproblems.com/900),
 accessed 2026-09-19: the problem page (PROVED, recording an affirmative
@@ -96,8 +95,8 @@ Problem #900, https://www.erdosproblems.com/900, accessed 2026-09-19.
 - [Er75] Erdős, P., Problems and results on finite and infinite graphs.
   Recent advances in graph theory (Proc. Second Czechoslovak Sympos.,
   Prague, 1974), Academia, Prague (1975), 183--192; Section VII, printed
-  p. 188. Not a site key; [AKS81]'s reference [4] for the conjecture. Library
-  home:
+  p. 188. Not an erdosproblems.com key; [AKS81]'s reference [4] for the
+  conjecture. Library home:
   [[../library/ramsey_theory/erdos_1975_problems_results_finite_infinite_graphs/_index|erdos_1975_problems_results_finite_infinite_graphs]],
   whose read status and Bears on row for this problem record the passage at
   claims checked.
@@ -115,18 +114,18 @@ Problem #900, https://www.erdosproblems.com/900, accessed 2026-09-19.
 existed in formal-conjectures on 2026-09-19 (the
 [directory](https://github.com/google-deepmind/formal-conjectures/tree/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems)
 `FormalConjectures/ErdosProblems/`, 682 entries, at the linked revision); the
-site's page shows "Formalised statement? No (create one)"; the community
-database (teorth/erdosproblems, `data/problems.yaml`, 2026-09-19) records the
-problem proved (last update 31 August 2025), unformalized, with no formalized
-statement and no formal-proof field. A Lean development that declares itself
-a formalization of the Ajtai--Komlós--Szemerédi theorem, in Boris Alexeev's
-repository `plby/lean-proofs`, is a formalization link on the claim page and
-is described under Leads; no build or audit of it is recorded, so it gives
-no `formalized` evidence.
+erdosproblems.com page shows "Formalised statement? No (create one)"; the
+community database (teorth/erdosproblems, `data/problems.yaml`, 2026-09-19)
+records the problem proved (last update 31 August 2025), unformalized, with no
+formalized statement and no formal-proof field. A Lean development that declares
+itself a formalization of the Ajtai--Komlós--Szemerédi theorem, in Boris
+Alexeev's repository `plby/lean-proofs`, is a formalization link on the claim
+page and is described under Leads; no build or audit of it is recorded, so it
+gives no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
 above; PROVED; last edited 7 March 2026. The commentary credits the proof
 to [AKS81] and remarks, as a curiosity, on the 1978 passage in which Erdős
 reports that Szemerédi did not believe the conjecture and expected the
@@ -178,7 +177,7 @@ $(1-2.21/d)n$ in $G_{n,p}$ with $p=1-e^{-d/n}$, "i.e. our Theorem 2 for
 $\beta>1.105$", with a longer path than the paper's for larger $\beta$; it
 gives the second limit directly for that model. Acceptance evidence:
 Combinatorica is refereed (Crossref: volume 1, issue 1, March 1981); Erdős
-reports the proof himself in 1982; the site and the community database
+reports the proof himself in 1982; erdosproblems.com and the community database
 agree. Read depth: claims checked for the statements named; the proofs
 (Section 1, a branching-process argument for the directed case; Section 2,
 the shrinking method for the undirected case) were not read.
@@ -191,15 +190,15 @@ true: "There is a function $f(C)$ so that with probability tending to 1 the
 longest circuit of $G(n;Cn)$ has size $(1+o(1))f(C)n$, $f(C)\to1$ as
 $C\to\infty$." He adds that $f(\tfrac12)=0$ and $f(C)<1$ both follow from
 his results with Rényi, and asks whether $f$ is continuous and strictly
-increasing for $C\ge\tfrac12$. This asks more than the site's statement: an asymptotic for the longest cycle,
-with a single function $f(C)$, of which the paper proves the existence of a
-positive linear lower bound (its Remark 3 gives cycles of length $cn$ as
-well). [Er78], Section 3, printed p. 32: "It is true
-that almost all graphs $G(n;[Cn])$ contain a path of length $>cn^2$ [sic]", where
-almost all means all but $o\bigl(\binom{\binom n2}{Cn}\bigr)$ of them and
-where the print's exponent on $cn$ cannot be meant (a path in a graph on $n$
-vertices has fewer than $n$ edges; the site's quotation omits it). The
-sentence is printed as an assertion, but its context reads it as a
+increasing for $C\ge\tfrac12$. This asks more than the erdosproblems.com
+statement: an asymptotic for the longest cycle, with a single function $f(C)$,
+of which the paper proves the existence of a positive linear lower bound (its
+Remark 3 gives cycles of length $cn$ as well). [Er78], Section 3, printed p. 32:
+"It is true that almost all graphs $G(n;[Cn])$ contain a path of length $>cn^2$
+[sic]", where almost all means all but $o\bigl(\binom{\binom n2}{Cn}\bigr)$ of
+them and where the print's exponent on $cn$ cannot be meant (a path in a graph
+on $n$ vertices has fewer than $n$ edges; erdosproblems.com's quotation omits
+it). The sentence is printed as an assertion, but its context reads it as a
 conjecture: Erdős writes that he conjectured this and believed that $c$
 tends to $1$ as $C$ tends to infinity, that "Szemerédi disagrees; he
 believes that for every $C$ the longest path is almost surely $o(n)$", and
@@ -208,9 +207,9 @@ conjectured that for every $\frac12<c<\infty$ there is a function $f(c)$ so
 that every random graph $G(n;cn)$ contains a path of length at least $f(c)n$
 where $f(c)\to0$ as $c\to\frac12$ and $f(c)\to1$ as $c\to\infty$. All these
 conjectures were proved by Ajtai, Komlós and Szemerédi", followed by the
-reference to [AKS81]; this is the site's wording, and the 1978 passage's
-"Szemerédi disagrees" is the disagreement the site's commentary calls
-curious, resolved in Erdős's favor by Szemerédi's own paper.
+reference to [AKS81]; this is the erdosproblems.com wording, and the 1978
+passage's "Szemerédi disagrees" is the disagreement the erdosproblems.com
+commentary calls curious, resolved in Erdős's favor by Szemerédi's own paper.
 
 **Leads (not status).** A Lean development for the problem exists in Boris
 Alexeev's repository `plby/lean-proofs` at its commit of 15 September 2026
@@ -222,7 +221,7 @@ formal authors (the file's own credits, recorded as its provenance); the
 docstring says "Ajtai--Komlós--Szemerédi's theorem that every supercritical
 uniform random graph has, with high probability, a path of positive linear
 length", with `Density` the reals above $1/2$ and a filter at the excluded
-endpoint; the file carries `#print axioms Erdos900.erdos_900`. The catalog
+endpoint; the file carries `#print axioms Erdos900.erdos_900`. Bloom's catalog
 does not cite this development; it is a formalization link on the claim page,
 nothing was built, and no `formalized` evidence is claimed. Semantic Scholar's
 list of papers citing [AKS81] (128 records, titles only) includes 2021--2025
@@ -233,7 +232,7 @@ statement of this problem.
 **Search scope.** None of the routes below found a dispute of the theorem or
 a change of status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree at the linked revision (no file
   900); the community database entry; the external Lean file's header and
   notes file at the repository's commit of 15 September 2026 (GitHub).
@@ -266,8 +265,8 @@ formalization link on the claim page and no `formalized` evidence.
   $p=1-e^{-d/n}$ (not held).
 - [Er75], p. 188, [Er78], p. 32, and [Er82e], p. 69: the conjecture in
   Erdős's words, in the 1975 form for the longest cycle with an asymptotic,
-  in the 1978 form with Szemerédi's disagreement, and in the 1982 form the
-  site uses, with Erdős's report of the proof.
+  in the 1978 form with Szemerédi's disagreement, and in the 1982 form
+  erdosproblems.com uses, with Erdős's report of the proof.
 - The external Lean development at its commit of 15 September 2026
   (not built; a formalization link on the claim page, not evidence).
 <!-- BEGIN problem library links -->

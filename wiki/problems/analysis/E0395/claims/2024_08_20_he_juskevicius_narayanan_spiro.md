@@ -4,8 +4,8 @@ title: "He, Juškevičius, Narayanan and Spiro: the radius root two bound"
 desc: |
   He, Juškevičius, Narayanan and Spiro prove that a random signed sum of $n$
   planar unit vectors has norm at most $\sqrt2$ with probability at least $c/n$,
-  the exact question. The result is an arXiv preprint, credited by the site's
-  curator and not refereed.
+  the exact question. The result is an arXiv preprint, credited by the
+  erdosproblems.com curator and not refereed.
 authors:
 - Xiaoyu He
 - Tomas Juškevičius
@@ -52,10 +52,10 @@ resting on a pairing argument and planar geometry; the paper notes (p. 2)
 that the statement is also the planar case of a 1983 theorem of Beck, which
 has [[problems/analysis/E0395/claims/1983_03_01_beck|its own claim page]].
 
-**Acceptance.** The site's curator, Thomas Bloom, labeled the problem proved and
-credits the affirmative solution to this paper. That curator credit is the
-`reviewed` evidence. The two later papers on the problem page, Hollom, Portier
-and Souza (2025) and Hollom and Sorkin (2025), treat the radius-$\sqrt2$
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, labeled the problem
+proved and credits the affirmative solution to this paper. That curator credit
+is the `reviewed` evidence. The two later papers on the problem page, Hollom,
+Portier and Souza (2025) and Hollom and Sorkin (2025), treat the radius-$\sqrt2$
 question as settled and build on it. The paper has not been identified in a
 journal. An author build of 20 August 2026 carries the same text under the
 listing label "Submitted", so no `refereed` evidence is listed. The corpus's own

@@ -22,13 +22,13 @@ when $r=2$ follows from Dirac's result [3] on hamiltonian cycles; Corrádi
 and Hajnal [2] proved it when $r=3$."
 
 Here $mK_r$ is the graph of $m$ vertex-disjoint copies of $K_r$, so the
-conjecture is the site's statement of Problem 914: every graph with $rm$
-vertices and minimum degree at least $m(r-1)$ contains $m$ vertex-disjoint
+conjecture is the erdosproblems.com statement of Problem 914: every graph with
+$rm$ vertices and minimum degree at least $m(r-1)$ contains $m$ vertex-disjoint
 copies of $K_r$. The paper does not name the conjecture's author; the
 footnote on copy p. 1 marks every result stated without a reference as
-unpublished, and the site and Kierstead, Kostochka, Mydlarz and Szemerédi
-(2010, p. 217) attribute the conjecture to Erdős. The references are [3] G. A.
-Dirac, Some theorems on abstract graphs, Proc. London Math. Soc. (3) 2
+unpublished, and erdosproblems.com and Kierstead, Kostochka, Mydlarz and
+Szemerédi (2010, p. 217) attribute the conjecture to Erdős. The references are
+[3] G. A. Dirac, Some theorems on abstract graphs, Proc. London Math. Soc. (3) 2
 (1952) 69--81, and [2] K. Corrádi and A. Hajnal, On the maximal number of
 independent circuits in a graph, Acta Math. Acad. Sci. Hung. 14 (1963)
 423--439 (copy p. 5).
@@ -58,6 +58,6 @@ None; a statement of the conjecture with its known cases.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0914/_index|Problem 914]]: the problem's
-  statement in the words of the site's key Er67b, with the cases $r=2$
-  (Dirac) and $r=3$ (Corrádi--Hajnal) the site's commentary repeats; the
-  cases $r\ge4$ are the Hajnal--Szemerédi theorem.
+  statement in the words of the erdosproblems.com key Er67b, with the cases
+  $r=2$ (Dirac) and $r=3$ (Corrádi--Hajnal) the erdosproblems.com commentary
+  repeats; the cases $r\ge4$ are the Hajnal--Szemerédi theorem.

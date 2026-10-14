@@ -5,7 +5,7 @@ desc: |
   Brouwer, Dejter and Thomassen give an explicit four-coloring of the $n$-cube's
   edges with no monochromatic four- or six-cycle, so a color class with at least
   a quarter of the edges avoids $C_6$ and the statement fails for every
-  $\epsilon\le1/4$. The paper is refereed and credited by the site.
+  $\epsilon\le1/4$. The paper is refereed and credited by erdosproblems.com.
 authors:
 - A.E. Brouwer
 - I.J. Dejter
@@ -68,9 +68,9 @@ property.
 
 **Acceptance.** Refereed: the Journal of Algebraic Combinatorics is a refereed
 journal, and the paper is its version of record. Reviewed: T. F. Bloom, the
-site's curator, labeled the problem DISPROVED (LEAN) and answers the question
-with no (snapshot of 2026-09-05). Bloom credits this paper with the four-part
-partition, together with Chung's paper, which is recorded on
+erdosproblems.com curator, labeled the problem DISPROVED (LEAN) and answers the
+question with no (snapshot of 2026-09-05). Bloom credits this paper with the
+four-part partition, together with Chung's paper, which is recorded on
 [[problems/extremal_graph_theory/E0666/claims/1992_07_01_chung|its own claim page]].
 Bloom took no part in the paper.
 
@@ -84,11 +84,11 @@ Hamming distance one, by defining four edge classes from two parities of the
 lower endpoint's coordinates below and above the edge's direction, proving
 that they partition the edges and that none contains a six-cycle, and
 closing by pigeonhole at $\epsilon=1/4$. Alexeev reported the formalization
-in a comment of 6 February 2026 on the site's thread, linking the
+in a comment of 6 February 2026 on the erdosproblems.com thread, linking the
 repository's record page, which offers the file for five Mathlib versions;
-the site's Lean qualification refers to it. The file contains no `sorry`, and a
-trailing comment reports the axioms `propext`, `Classical.choice` and
-`Quot.sound`, which is the file's own report. The corpus has not built or
+the erdosproblems.com Lean qualification refers to it. The file contains no
+`sorry`, and a trailing comment reports the axioms `propext`, `Classical.choice`
+and `Quot.sound`, which is the file's own report. The corpus has not built or
 audited it, so it supplies no `formalized` evidence and is not evidence for this
 page. The formal-conjectures statement `erdos_666`, tagged `research solved`,
 names a copy of this file in the `lean-proofs` repository as its formal proof;

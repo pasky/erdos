@@ -106,7 +106,7 @@ J. Bolyai 37 (1984), p. 888) is the target, not an input, and is not held.
 
 - [[../wiki/problems/extremal_graph_theory/E0167/_index|Problem 167]]: the refereed general
   bound $\tau(G)\le\frac{66}{23}\nu(G)$ toward Tuza's conjecture
-  $\tau(G)\le2\nu(G)$, the site's "$\le(3-\frac3{23}+o(1))k$" without the
-  $o(1)$; the closing remark is the $(1+\sqrt{481})/8$ that the 2026
+  $\tau(G)\le2\nu(G)$, erdosproblems.com's "$\le(3-\frac3{23}+o(1))k$" without
+  the $o(1)$; the closing remark is the $(1+\sqrt{481})/8$ that the 2026
   preprint of Yi attributes to the paper with the proof omitted. The theorem
   does not settle the conjecture.

@@ -29,10 +29,10 @@ $$
 
 with $x,y,n\in \mathbb{N}$, with $xy>1$ and $k>2$?
 
-**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN)
-(page last edited 30 September 2025). The standing in the frontmatter derives
-from the claim pages. The site credits Jonas Barfield with the solution
-$10!=48^4-36^4$, recorded on
+**Status.** DISPROVED (LEAN). Bloom's catalog labeled the problem DISPROVED
+(LEAN) (page last edited 30 September 2025). The standing in the frontmatter
+derives from the claim pages. erdosproblems.com credits Jonas Barfield with the
+solution $10!=48^4-36^4$, recorded on
 [[problems/factorials_binomials/E0399/claims/2025_04_07_barfield|its claim page]].
 The Lean qualifier refers to the formal-conjectures file, which checks the
 witness by `decide`. This corpus has not built that file. There is no refereed
@@ -40,9 +40,10 @@ write-up.
 
 **Source.** [erdosproblems.com/399](https://www.erdosproblems.com/399), accessed
 2026-09-04 and, with its empty discussion thread, the community database and
-the formal-conjectures file, 2026-10-07; its proof-claims list was empty. The
-site cites the problem from p. 77 of Erdős and Graham's 1980 problem book. Cite
-as: T. F. Bloom, Erdős Problem #399, https://www.erdosproblems.com/399.
+the formal-conjectures file, 2026-10-07; its proof-claims list was empty.
+erdosproblems.com cites the problem from p. 77 of Erdős and Graham's 1980
+problem book. Cite as: T. F. Bloom, Erdős Problem #399,
+https://www.erdosproblems.com/399.
 
 **References.**
 
@@ -81,16 +82,16 @@ This corpus has not built it.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 30 September 2025): is a
-factorial never a sum or difference of two $k$th powers with $k>2$, apart from
-the trivial cases with $xy=1$? The answer is no.
+The question, as erdosproblems.com states it (page last edited 30 September
+2025): is a factorial never a sum or difference of two $k$th powers with $k>2$,
+apart from the trivial cases with $xy=1$? The answer is no.
 
 The resolution. $10!=48^4-36^4$, found by Jonas Barfield; the witness is
 checked by hand on the
 [[problems/factorials_binomials/E0399/claims/2025_04_07_barfield|claim page]],
-which also records the acceptance: the site's curator credits the solution,
-the community database records the problem as disproved with a Lean proof,
-and the formal-conjectures file checks the witness. There is no refereed
+which also records the acceptance: the erdosproblems.com curator credits the
+solution, the community database records the problem as disproved with a Lean
+proof, and the formal-conjectures file checks the witness. There is no refereed
 write-up and no Lean file is built here. The bases $48$ and $36$ share the
 factor $12$; the solution lies exactly in the case the earlier results do not
 reach.
@@ -101,11 +102,11 @@ $p\ge3$ is not a power of $2$, and handled differences with $p=8$ and so with
 every $p=2^\alpha$, $\alpha\ge3$; for $p=4$ they excluded coprime differences
 only for sufficiently large $n$ (Satz 3, p. 254), with the prime number theorem
 for the progressions modulo $4$, and sums of even powers fall to their
-two-squares argument. The site records their theorem as the coprime case with
-$k\ne4$;
+two-squares argument. erdosproblems.com records their theorem as the coprime
+case with $k\ne4$;
 [[problems/factorials_binomials/E0399/claims/1937_01_01_erdos_oblath|their claim page]]
 states what the paper proves. Pollack and Shapiro [PoSh73] are credited with the
-remaining case, in two accounts that differ. The site, followed by the
+remaining case, in two accounts that differ. erdosproblems.com, followed by the
 formal-conjectures variant `pollack_shapiro`, says they showed that $n!=x^4-1$
 has no solution. Erdős and Graham [ErGr80], the problem's source (p. 77), write
 that Erdős and Obláth settled $n!=x^k\pm y^k$ with $(x,y)=1$ and $k>2$ for
@@ -114,31 +115,31 @@ $k=4$, which would close the coprime case for every $k>2$; the paper's title,
 the next to last case of a factorial Diophantine equation, does not decide
 between the two readings. [PoSh73] is not held in the library, so which
 statement it proves is unconfirmed; the wider statement is recorded as the
-monograph's report and the narrower one as the site's, on
+monograph's report and the narrower one as erdosproblems.com's, on
 [[problems/factorials_binomials/E0399/claims/1973_05_01_pollack_shapiro|their claim page]].
-The site adds two observations. Erdős and Obláth noted that, by the theorem of
-Breusch [Br32] that consecutive primes $q_i<q_{i+1}$ congruent to $3$ modulo $4$
-satisfy $q_{i+1}<2q_i$ beyond $q_1=3$, together with Fermat's two-squares
-theorem, $6!=12^2+24^2$ is the only solution of $n!=x^2+y^2$ with $xy>1$ (the
-condition excludes the trivial $2!=1^2+1^2$). Stijn Cambie observed that the sum
-$x^4+y^4$ of two coprime fourth powers, not both equal to $1$, is $1$ or $2$
-modulo $8$ while $n!$ is divisible by $8$ for $n\ge4$, so $n!=x^4+y^4$ has no
-coprime solution with $xy>1$. Apart from sums of even powers, which the
-two-squares classification excludes coprime or not, none of these results
-constrains the non-coprime case with $k>2$, which is where the solution lives.
-The Erdős–Obláth and Pollack–Shapiro theorems are refereed partial results and
-Cambie's observation a pending one, each on its claim page; the two-squares
-classification concerns $k=2$, outside the problem, and has no page. Guy [Gu04]
-records the Erdős–Obláth theorem in section D25 and the two-squares remark under
-D2.
+erdosproblems.com adds two observations. Erdős and Obláth noted that, by the
+theorem of Breusch [Br32] that consecutive primes $q_i<q_{i+1}$ congruent to $3$
+modulo $4$ satisfy $q_{i+1}<2q_i$ beyond $q_1=3$, together with Fermat's
+two-squares theorem, $6!=12^2+24^2$ is the only solution of $n!=x^2+y^2$ with
+$xy>1$ (the condition excludes the trivial $2!=1^2+1^2$). Stijn Cambie observed
+that the sum $x^4+y^4$ of two coprime fourth powers, not both equal to $1$, is
+$1$ or $2$ modulo $8$ while $n!$ is divisible by $8$ for $n\ge4$, so
+$n!=x^4+y^4$ has no coprime solution with $xy>1$. Apart from sums of even
+powers, which the two-squares classification excludes coprime or not, none of
+these results constrains the non-coprime case with $k>2$, which is where the
+solution lives. The Erdős–Obláth and Pollack–Shapiro theorems are refereed
+partial results and Cambie's observation a pending one, each on its claim page;
+the two-squares classification concerns $k=2$, outside the problem, and has no
+page. Guy [Gu04] records the Erdős–Obláth theorem in section D25 and the
+two-squares remark under D2.
 
-Search scope: the site's problem page, its discussion thread (empty on
-2026-10-07) and proof-claims list (empty), the community database and the
+Search scope: the erdosproblems.com problem page, its discussion thread (empty
+on 2026-10-07) and proof-claims list (empty), the community database and the
 formal-conjectures file; the library's card for [ErOb37] for the coprime
 results, and the monograph [ErGr80] at p. 77 for the source's account of them.
 The exact date on which Barfield's solution was found or first posted is not
-recorded; the site's page carried it by 7 April 2025, the date of the earliest
-archived copy that does.
+recorded; the erdosproblems.com page carried it by 7 April 2025, the date of the
+earliest archived copy that does.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

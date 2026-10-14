@@ -6,7 +6,7 @@ desc: |
   (1, 2) whose ordered finite sums of distinct powers have gaps tending to 0,
   and whether every q sufficiently close to 1 has this property; the
   question of Problem 1096 in its authors' words, one year before the
-  problem session the site names.
+  problem session erdosproblems.com names.
 created: 2026-09-18T16:15:00Z
 updated: 2026-10-08T15:19:54Z
 ---
@@ -25,10 +25,10 @@ $1$ has this property?"
 
 The second sentence is the question of Problem 1096 (whether there is
 $\epsilon>0$ such that $x_{k+1}-x_k\to0$ for every $1<q<1+\epsilon$), with
-the problem's $x_k$ equal to the paper's $y_k$. The site's other source for
-the problem is the 1991 problem session of Great Western Number Theory (not
-held), where the site says Erdős and Joó posed it and speculated that the
-threshold may be the smallest Pisot number $q_0\approx1.3247$; that
+the problem's $x_k$ equal to the paper's $y_k$. erdosproblems.com's other source
+for the problem is the 1991 problem session of Great Western Number Theory (not
+held), where erdosproblems.com says Erdős and Joó posed it and speculated that
+the threshold may be the smallest Pisot number $q_0\approx1.3247$; that
 speculation is not printed here. Theorem 4 d) of the same paper shows the
 first sentence's set is not all of $(1,A)$, $A=(1+\sqrt5)/2$, and Remark 2
 that it contains every $2^{1/m}$, $m\ge2$.
@@ -47,7 +47,7 @@ question, not a theorem; nothing to verify.
 ## Proof pointer
 
 None (an open problem as posed). Its second sentence was answered
-affirmatively by Erdős and Komornik's 1998 paper (the site's ErKo98,
+affirmatively by Erdős and Komornik's 1998 paper (erdosproblems.com's ErKo98,
 filed as
 [[number_theory/erdos_komornik_1998_developments_non_integer_bases/theorem_iv|theorem_iv]])
 and, with an explicit threshold, by Feng's Theorem 1.4
@@ -65,6 +65,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E1096/_index|Problem 1096]]: the problem's question in
-  the authors' own words, printed in 1990; the site's source key EJK90 for
-  the problem and its source for the gap bound and the Pisot obstruction
-  (Theorem 4).
+  the authors' own words, printed in 1990; the erdosproblems.com source key
+  EJK90 for the problem and its source for the gap bound and the Pisot
+  obstruction (Theorem 4).

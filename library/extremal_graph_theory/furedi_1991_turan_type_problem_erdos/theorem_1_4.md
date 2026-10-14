@@ -72,7 +72,7 @@ x\longleftrightarrow x_0,
 $$
 
 Here $z_{\{i,j\}}$ denotes the separate auxiliary vertex assigned to each
-unordered pair, with no other edges beyond those in the definition. The
+unordered pair, with no other edges beyond those in the definition. Bloom's
 catalog writes $z_i$ while referring to a pair $y_i,y_j$; this notation is
 ambiguous without the distinct-pair interpretation. The source statement
 supports the precise graph just specified, not arbitrary additional edges or

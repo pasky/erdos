@@ -4,7 +4,8 @@ title: Liu and Sawhney's bounded-denominator subsums
 desc: |
   Liu and Sawhney's Proposition 1.4: every dense subset of $\{1,\ldots,N\}$ has
   a subset whose reciprocal sum is a rational with denominator bounded in terms
-  of the density. It is refereed in IMRN and credited by the site's curator.
+  of the density. It is refereed in IMRN and credited by the erdosproblems.com
+  curator.
 authors:
 - Yang P. Liu
 - Mehtaab Sawhney
@@ -49,21 +50,21 @@ reduction recorded on the problem page. The paper remarks (p. 3) that a
 direct application of Bloom's
 [[../library/unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/proposition_1|Proposition 1]]
 with standard estimates already gives $t=O_\alpha(1)$, which is the
-qualitative answer the site attributes to Bloom's density theorem through
-this observation, while the range of $\alpha$ and the bound $\exp(C/\alpha)$
-need the paper's own methods; the dependence on $\alpha$ is sharp up to the
-constant, since the integers in $[N/2,N]$ with all prime factors above
-$\exp(1/\alpha)$ have density $\gg\alpha$, reciprocal sum below $1$, and no
-nontrivial subsum with denominator below $\exp(1/\alpha)$.
+qualitative answer erdosproblems.com attributes to Bloom's density theorem
+through this observation, while the range of $\alpha$ and the bound
+$\exp(C/\alpha)$ need the paper's own methods; the dependence on $\alpha$ is
+sharp up to the constant, since the integers in $[N/2,N]$ with all prime factors
+above $\exp(1/\alpha)$ have density $\gg\alpha$, reciprocal sum below $1$, and
+no nontrivial subsum with denominator below $\exp(1/\alpha)$.
 
 **Acceptance.** Refereed: the paper is published in International Mathematics
 Research Notices 2026, no. 2, rnaf382 (published online 14 January 2026; DOI
-10.1093/imrn/rnaf382). Reviewed: the site's curator, T. F. Bloom, marked the
-problem proved and credits the answer to Liu and Sawhney's observation and their
-precise version. Bloom is not an author of their paper, so the credit is
-independent of the claimants. Bloom's density theorem is the input that their
-remark applies. arXiv v1 (10 April 2024) is the only arXiv version. Its result
-page records the proof (p. 21) as a pointer and sketch, with four parameter
-questions to be compared against the published text. The corpus has not verified
-the proof. The acceptance rests on the refereed publication and the curator's
-credit.
+10.1093/imrn/rnaf382). Reviewed: the erdosproblems.com curator, T. F. Bloom,
+marked the problem proved and credits the answer to Liu and Sawhney's
+observation and their precise version. Bloom is not an author of their paper, so
+the credit is independent of the claimants. Bloom's density theorem is the input
+that their remark applies. arXiv v1 (10 April 2024) is the only arXiv version.
+Its result page records the proof (p. 21) as a pointer and sketch, with four
+parameter questions to be compared against the published text. The corpus has
+not verified the proof. The acceptance rests on the refereed publication and the
+curator's credit.

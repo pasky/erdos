@@ -75,8 +75,8 @@ those of the arXiv:1409.8141v1 preprint named on the
 
 ## Bears on
 
-- [[../wiki/problems/divisors/E0872/_index|Problem 872]]: the site's remarks
-  on the problem cite this bound, $(\frac{26}{121}+o(1))n^2$, for the graph
-  game of which the problem's divisibility game is a number-theoretic
+- [[../wiki/problems/divisors/E0872/_index|Problem 872]]: the erdosproblems.com
+  remarks on the problem cite this bound, $(\frac{26}{121}+o(1))n^2$, for the
+  graph game of which the problem's divisibility game is a number-theoretic
   analogue. The theorem says nothing about the divisibility game and
   decides neither of the problem's questions.

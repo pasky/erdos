@@ -75,8 +75,8 @@ display (4) for $t_r(n)$, and Turán's theorem.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1033/_index|Problem 1033]]: the stability
-  bound the site's commentary quotes ("Bollobás and Nikiforov proved that,
-  for every $\epsilon>0$, there exists $\delta>0$ such that if
+  bound the erdosproblems.com commentary quotes ("Bollobás and Nikiforov proved
+  that, for every $\epsilon>0$, there exists $\delta>0$ such that if
   $m>t_r(n)-\delta n^2$ then $\Delta_r(n,m)\ge(1-\epsilon)2rm/n$"), read
   here with the theorem's strict inequality and the condition $n>n_0$; at
   $r=3$ it concerns edge counts within $\delta n^2$ of $n^2/3$, not the

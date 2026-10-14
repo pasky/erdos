@@ -84,10 +84,10 @@ Source: <https://arxiv.org/abs/2501.10203v1>.
 Theorem 1.2 (p. 3) gives, for each fixed $c\in(0,1/68)$, $g(n)\ge(\log n)^{1+c}$
 for all large $n$ (through Choi's reduction from real sets to integer sets,
 footnote 1), a lower bound of the same shape as Sanders's with an explicit
-range for $c$. The site displays it as $(\log n)^{1+1/68+o(1)}\ll g(n)$; the
-theorem's range gives the exponent $1+1/68-o(1)$. Theorem 1.1, Theorem 3.1 and
-Proposition 4.1 are the steps from which the paper obtains it and state no
-bound for the problem themselves.
+range for $c$. erdosproblems.com displays it as
+$(\log n)^{1+1/68+o(1)}\ll g(n)$; the theorem's range gives the exponent
+$1+1/68-o(1)$. Theorem 1.1, Theorem 3.1 and Proposition 4.1 are the steps from
+which the paper obtains it and state no bound for the problem themselves.
 
 **Results.**
 

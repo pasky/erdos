@@ -29,13 +29,13 @@ function.
 
 Is it true that $h(x)>x^{2-o(1)}$?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 28
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 28
 September 2025). Pollack and Pomerance [PoPo16] proved $h(x)>x^{1.4}$ for all
 large $x$, which gives $h(x)/x\to\infty$. Erdős [Er74b, p. 202] had sketched
 only $\limsup h(x)/x=\infty$. He wrote that the proof of $h(x)/x\to\infty$ "can
 be produced with a little more trouble".
 
-A partial result is claimed on the site's [proof-claims
+A partial result is claimed on erdosproblems.com's [proof-claims
 tab](https://www.erdosproblems.com/forum/thread/824/proof-claims#proof-claim-232).
 The claim is by Cam, using GPT 5.6 high, and was submitted 2026-08-28. The
 [write-up](https://github.com/LeanMeanBean/Erdos-824/blob/fbf066d640a1/erdos_824_partial_proof_13_8.pdf)
@@ -43,8 +43,8 @@ claims $h(x)>x^{\gamma}$ for every fixed $\gamma<13/8$ and all large $x$, with
 squarefree pairs. It follows the scheme of [PoPo16], with Pascadi's level $5/8$
 of distribution for primes in place of Baker and Harman's count of smooth
 shifted primes. A bound below exponent $2$ settles no instance of the question,
-so the claim has no claim page. The proof-claims thread had no comments when the
-site froze it on 6 October 2026.
+so the claim has no claim page. The proof-claims thread had no comments when
+erdosproblems.com froze it on 6 October 2026.
 
 A conditional answer yes is claimed by Shisheng Li and Zhong Zhuang in a draft
 first posted on 7 October 2026 and registered, in its version of 11 October,

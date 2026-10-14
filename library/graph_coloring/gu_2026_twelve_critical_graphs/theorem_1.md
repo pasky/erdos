@@ -17,7 +17,7 @@ Conventions (v7, p. 1). Graphs are finite and simple. A graph is
 $k$-critical if its chromatic number is $k$ and every proper subgraph is
 $(k-1)$-colorable; the paper notes that for graphs without isolated vertices
 this is the same as asking that deleting any edge lowers the chromatic
-number, the convention of the problem site. $e(G)=|E(G)|$, and $f_k(n)$ is the
+number, the convention of erdosproblems.com. $e(G)=|E(G)|$, and $f_k(n)$ is the
 largest edge count of a $k$-critical graph on $n$ vertices under the
 edge-deletion convention.
 

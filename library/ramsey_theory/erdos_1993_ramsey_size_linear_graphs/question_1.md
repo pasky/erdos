@@ -60,8 +60,8 @@ None (a question).
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0566/_index|Problem 566]]: the problem's statement in
-  its original source, up to the site's rewording of "$q(S)\le2p(S)-3$" as
-  "at most $2k-3$ edges" on $k$ vertices.
+  its original source, up to erdosproblems.com's rewording of "$q(S)\le2p(S)-3$"
+  as "at most $2k-3$ edges" on $k$ vertices.
 - [[../wiki/problems/ramsey_theory/E0567/_index|Problem 567]]: a yes would make the three
   graphs of Question 2 Ramsey size linear; the problem is the paper's
   subquestion for its minimal test cases.

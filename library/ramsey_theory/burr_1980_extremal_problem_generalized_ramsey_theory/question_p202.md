@@ -21,10 +21,10 @@ answered: "Does $f(n)/n\to\infty$ as $n\to\infty$?"
 
 Here $f(n)$ is the paper's all-graphs function, the largest $q$ such that
 every connected graph of order $n$ and size $q$ satisfies $r(K_3,G)=2n-1$
-(printed p. 193), which is the site's $F(n)$ in Problem 1182. Theorem 1 of
-the paper brackets it between $(17n+1)/15$ and $(27/4+\varepsilon)n(\log n)^2$,
-so the question is whether $f(n)$ eventually exceeds every constant
-multiple of $n$.
+(printed p. 193), which is erdosproblems.com's $F(n)$ in Problem 1182. Theorem 1
+of the paper brackets it between $(17n+1)/15$ and
+$(27/4+\varepsilon)n(\log n)^2$, so the question is whether $f(n)$ eventually
+exceeds every constant multiple of $n$.
 
 **Source.** S. A. Burr, P. Erdős, R. J. Faudree, C. C. Rousseau and R. H.
 Schelp, An extremal problem in generalized Ramsey theory, Ars Combin. 10
@@ -48,7 +48,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: the site's closing
-  question "is it true that $F(n)/n\to\infty$?" in the authors' words;
-  Erdős had already written in 1978 that it "seems certain" that
-  $F(n)/n\to\infty$ (the Er78 card, printed p. 34).
+- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]:
+  erdosproblems.com's closing question "is it true that $F(n)/n\to\infty$?" in
+  the authors' words; Erdős had already written in 1978 that it "seems certain"
+  that $F(n)/n\to\infty$ (the Er78 card, printed p. 34).

@@ -34,8 +34,8 @@ $$
 
 be?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited
-27 December 2025). $A(x)$ counts the indices $i$ with
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 27 December 2025). $A(x)$ counts the indices $i$ with
 $\mathrm{lcm}(a_i,a_{i+1})\le x$; for $A=\mathbb N$ it counts the $n$ with
 $n(n+1)\le x$, so $A(x)/x^{1/2}\to1$. The source paper writes this count as
 $F(A,X,2)$ inside a family $F(A,X,i)$ counting blocks of $i$ consecutive
@@ -47,9 +47,10 @@ the number of indices $i$ for which $\mathrm{lcm}(a_i,a_{i+1})\le x$. It
 seems likely that $A(x)=O(x^{1/2})$. It is easy to give a sequence with
 $\limsup A(x)/x^{1/2}=c$. How large can $\liminf A(x)/x^{1/2}$ be (see
 [Er-Sz (xx)a])?", the "(xx)" being the monograph's placeholder for the then
-unpublished 1980 paper. The site's label SOLVED, which the site (read
-2026-09-18) defines as a resolution other than a proof or a disproof, covers the
-two answers: yes to the first question, and the value $1$ for the second.
+unpublished 1980 paper. The erdosproblems.com label SOLVED, which
+erdosproblems.com (read 2026-09-18) defines as a resolution other than a proof
+or a disproof, covers the two answers: yes to the first question, and the value
+$1$ for the second.
 
 **Status.** Solved. Both questions are answered in Erdős and Szemerédi's 1980
 paper (Mat. Lapok 28, 121--124, in Hungarian). Mat. Lapok is the refereed
@@ -64,9 +65,9 @@ series equal to $1.1840\ldots$) and does not close as printed. The theorem is
 true, by the authored averaging proof under Current assessment. That proof is a
 note of this corpus and not acceptance evidence. Claim page:
 [[problems/integer_sequences/E0440/claims/1980_01_01_erdos_szemeredi|Erdős and Szemerédi 1980]]
-(accepted; refereed, and credited by the site's curator). The claim page also
-links the public Lean file of August 2026 that declares itself a formalization
-of their result (not built or audited in this corpus).
+(accepted; refereed, and credited by the erdosproblems.com curator). The claim
+page also links the public Lean file of August 2026 that declares itself a
+formalization of their result (not built or audited in this corpus).
 
 **Source.** [erdosproblems.com/440](https://www.erdosproblems.com/440),
 accessed 2026-09-18: the problem page (SOLVED; last
@@ -91,8 +92,8 @@ commentary), its eight-comment discussion thread (26 October and 27 December
   A two-page note in the author's GitHub repository of mathematical shorts,
   [Woett/Mathematical-shorts](https://github.com/Woett/Mathematical-shorts/blob/main/Sequences%20with%20bounded%20lcm%20for%20consecutive%20elements.pdf)
   (the file last changed 12 August 2025, at the repository head of
-  2026-09-18), linked from the site's commentary. A lead, not a source of
-  the status.
+  2026-09-18), linked from the erdosproblems.com commentary. A lead, not a
+  source of the status.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/fdb21ddb61a6584f86bb91d1d3efd967627b21c0/FormalConjectures/ErdosProblems/440.lean),
@@ -115,14 +116,14 @@ sequence, every normalized liminf is at most one, and one is attained by the
 positive integers. Its header calls the file a formalization of a solution to
 the problem and names Erdős and Szemerédi as informal authors and Codex and
 GPT-5.6 Sol as formal authors; it contains no `sorry` and no `axiom`. Nothing
-was built or audited in this corpus, the site did not label the problem Lean,
-and no kernel credit is claimed. Because the file declares itself a
+was built or audited in this corpus, erdosproblems.com did not label the problem
+Lean, and no kernel credit is claimed. Because the file declares itself a
 formalization of Erdős and Szemerédi's result, it is recorded as a formalization
 link on their claim page and has no page of its own.
 
 ## Current assessment
 
-**The question (site formulation as of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation).** The statement
 above; SOLVED, last edited 27 December 2025; source key [ErGr80, p. 87]. The
 commentary: taking $A=\mathbb N$ shows $\liminf A(x)/x^{1/2}=1$ is possible,
 and [ErSz80] gives the bound $\liminf A(x)/x^{1/2}\le1$ for every $A$; Tao's
@@ -133,14 +134,14 @@ authors showed the constant to be optimal; and [ErSz80] holds
 more related results, for $\mathrm{lcm}(a_i,a_{i+1},\ldots,a_{i+k})$. The
 thread: a question of 26 October 2025 whether the liminf bound holds for
 every $A$, in
-which case $A=\mathbb N$ solves the problem, and the site author's answer of
-27 December 2025 that, going by a machine translation, it does; Tao's
+which case $A=\mathbb N$ solves the problem, and erdosproblems.com author's
+answer of 27 December 2025 that, going by a machine translation, it does; Tao's
 argument for $A(x)\ll x^{1/2}$ (26 October 2025); van Doorn's note on the
-finite version with the constant $1.86$ and the exchange in which the site's
-author locates the same constant in [ErSz80] (first read as $\approx1.76$
-and corrected to $1.86$ by the rearrangement below), reads the paper as also
-proving $\liminf\le1$, and is unsure whether it claims the constant is best
-possible. The proof-claim tab is empty.
+finite version with the constant $1.86$ and the exchange in which
+erdosproblems.com's author locates the same constant in [ErSz80] (first read as
+$\approx1.76$ and corrected to $1.86$ by the rearrangement below), reads the
+paper as also proving $\liminf\le1$, and is unsure whether it claims the
+constant is best possible. The proof-claim tab is empty.
 
 **The origin.** Printed p. 87 of the monograph, quoted under Formulation;
 the same page states the finite neighbor, the largest set with pairwise
@@ -167,12 +168,11 @@ suitable $A$ has $F(A,X,i)>X^{1/i+\alpha_i}$, so the Monthly bound is false
 for $i>4$; the paper adds the $i=3$ bounds
 $F(A,X,3)<c_0X^{1/3}\log X$ for all $A$ and $F(A,X,3)>c_1X^{1/3}\log X$
 infinitely often for suitable $A$ (pp. 121--122 and 124). These are the
-related results the site's commentary mentions and are not part of the
-problem. Read depth:
-claims checked for the three statements; the proof of Theorem I (pp.
-122--123) was read for its structure and not checked step by step, and the
-proof of Theorem II (p. 123) was read to its final display, where the error
-recorded below was found.
+related results the erdosproblems.com commentary mentions and are not part of
+the problem. Read depth: claims checked for the three statements; the proof of
+Theorem I (pp. 122--123) was read for its structure and not checked step by
+step, and the proof of Theorem II (p. 123) was read to its final display, where
+the error recorded below was found.
 
 **Theorem II: the printed proof and an authored repair.** The proof of
 Theorem II on printed p. 123 ends by asserting that
@@ -224,7 +224,7 @@ every interval $[T,TM]$ with $T\ge2^{16}/M$ contains an $X$ with
 $F(A,X,2)<(1+\epsilon)\sqrt X$, and $\liminf F(A,X,2)/X^{1/2}\le1$.
 
 **The constant, reconciled (an authored one-line summation by parts).** The
-paper's $\sum_{k\ge1}(k^{1/2}-(k-1)^{1/2})/k$ and the site's
+paper's $\sum_{k\ge1}(k^{1/2}-(k-1)^{1/2})/k$ and erdosproblems.com's
 $\sum_{n\ge1}1/(n^{1/2}(n+1))$ are the same number. Since
 $1/(n^{1/2}(n+1))=n^{1/2}(1/n-1/(n+1))$,
 
@@ -238,15 +238,12 @@ and $K^{1/2}/(K+1)\to0$. Both series were summed for this corpus to two
 million terms
 with an integral estimate of the tail: $c=1.8600\ldots$ (the partial sums
 agree to all printed digits for $K\le5000$). Van Doorn's thread comment
-gives the same rearrangement. The site's sentence that Erdős and Szemerédi
-showed the constant to be optimal is not confirmed by the
-paper: Theorem I says only that equality would force the
-liminf to
-zero, and the paper exhibits no sequence attaining the constant; the thread
-records the same uncertainty. Attainment is asserted by the external Lean
-file described under Formalization, which was not built in this corpus and is
-linked
-from the
+gives the same rearrangement. The erdosproblems.com sentence that Erdős and
+Szemerédi showed the constant to be optimal is not confirmed by the paper:
+Theorem I says only that equality would force the liminf to zero, and the paper
+exhibits no sequence attaining the constant; the thread records the same
+uncertainty. Attainment is asserted by the external Lean file described under
+Formalization, which was not built in this corpus and is linked from the
 [[problems/integer_sequences/E0440/claims/1980_01_01_erdos_szemeredi|accepted claim page]]
 as a self-declared formalization, and by van Doorn's recollection in the
 thread.
@@ -267,7 +264,7 @@ covers both.
 **Search scope.** None of the routes below found a source
 contradicting the two answers or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab on
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
   2026-09-18; the full directory listing and tree of formal-conjectures on
   its main branch (no file for this problem on that date); the community
   database entry.
@@ -295,11 +292,12 @@ step asserts $\gamma<1$ where $\gamma=1.1840\ldots$); the averaging proof above
 is an authored note of this corpus and not evidence, and the accepted standing
 rests on the refereed publication and the curator's credit, with the flaw
 disclosed. (2) Whether the constant of Theorem I is attained by some sequence is
-not settled by the paper; the site's sentence is recorded as the site's. (3) The
-general Monthly problem is not this problem. At $i=3$ the paper records (pp.
-121--122, arguments on p. 124) that $F(A,X,3)<c_0X^{1/3}\log X$ for every $A$,
-and that some $A$ has $F(A,X,3)>c_1X^{1/3}\log X$ for infinitely many $X$. So
-the Monthly bound fails at $i=3$ too. The paper leaves open whether some $A$ has
+not settled by the paper; the erdosproblems.com sentence is recorded as
+erdosproblems.com's. (3) The general Monthly problem is not this problem. At
+$i=3$ the paper records (pp. 121--122, arguments on p. 124) that
+$F(A,X,3)<c_0X^{1/3}\log X$ for every $A$, and that some $A$ has
+$F(A,X,3)>c_1X^{1/3}\log X$ for infinitely many $X$. So the Monthly bound fails
+at $i=3$ too. The paper leaves open whether some $A$ has
 $F(A,X,3)>c_2X^{1/3}\log X$ for every $X$. At $i=4$ the authors expect
 $F(A,X,4)>X^{1/4+\alpha_4}$ for some $A$ but give no proof.
 <!-- BEGIN problem library links -->

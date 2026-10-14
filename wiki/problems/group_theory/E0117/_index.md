@@ -27,10 +27,11 @@ be covered by at most $h(n)$ many Abelian subgroups.
 
 Estimate $h(n)$ as well as possible.
 
-**Status.** Labeled open on the site (label OPEN; page last edited 23 January
-2026). The site's proof-claims tab carries one full proof claim, submitted 18
-August 2026 by Guillaume Lecomte. It claims that $\log_2 h(n)=n/2+o(n)$, so
-$h(n)^{1/n}\to\sqrt{2}$. It is recorded as a pending claim on
+**Status.** Labeled open on erdosproblems.com (label OPEN; page last edited 23
+January 2026). The erdosproblems.com proof-claims tab carries one full proof
+claim, submitted 18 August 2026 by Guillaume Lecomte. It claims that
+$\log_2 h(n)=n/2+o(n)$, so $h(n)^{1/n}\to\sqrt{2}$. It is recorded as a pending
+claim on
 [[problems/group_theory/E0117/claims/2026_08_18_lecomte|its claim page]].
 
 **Source.** [erdosproblems.com/117](https://www.erdosproblems.com/117), accessed
@@ -49,13 +50,13 @@ https://www.erdosproblems.com/117.
 
 ## Current assessment
 
-The site's formulation asks to estimate $h(n)$, the least number such that
-every group in which any $n+1$ elements include two distinct commuting ones is
-a union of at most $h(n)$ Abelian subgroups. The known bounds are exponential:
-Pyber [Py87] proved $c_1^n<h(n)<c_2^n$ for absolute constants $c_2>c_1>1$,
-the upper bound through the theorem that a finite group with at most $n$
-pairwise non-commuting elements has center of index at most $c^n$, and the
-lower bound, which Erdős [Er97f] attributes to Isaacs, from extraspecial
+The erdosproblems.com formulation asks to estimate $h(n)$, the least number such
+that every group in which any $n+1$ elements include two distinct commuting ones
+is a union of at most $h(n)$ Abelian subgroups. The known bounds are
+exponential: Pyber [Py87] proved $c_1^n<h(n)<c_2^n$ for absolute constants
+$c_2>c_1>1$, the upper bound through the theorem that a finite group with at
+most $n$ pairwise non-commuting elements has center of index at most $c^n$, and
+the lower bound, which Erdős [Er97f] attributes to Isaacs, from extraspecial
 $2$-groups; the library card is
 [[../library/group_theory/pyber_1987_number_pairwise_non_commuting_elements_index/_index|Pyber 1987]].
 The base of the exponential was left open there.
@@ -69,8 +70,9 @@ centralizer of the derived subgroup. It is unreviewed and unpublished, so the
 derived standing is claimed, with claim value answered since the problem asks
 for an estimate. Should the claim be accepted, the question would be answered at
 the level of the exponential rate; the error term would remain a further
-estimate. The search behind this account covered the site's page, its discussion
-thread, Zenodo and arXiv on 2026-10-07, and the site's proof-claims thread.
+estimate. The search behind this account covered the erdosproblems.com page, its
+discussion thread, Zenodo and arXiv on 2026-10-07, and the erdosproblems.com
+proof-claims thread.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

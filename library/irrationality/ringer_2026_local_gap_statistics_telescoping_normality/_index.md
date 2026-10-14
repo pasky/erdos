@@ -5,7 +5,7 @@ desc: |
   Records a claimed, unreviewed 2026 manuscript asserting that Kuperberg's
   uniform prime-tuples conjecture implies normality, hence irrationality, of
   the dyadic prime series of problem 251, with the author's AI attribution,
-  the site's partial proof claim and the author-run Lean report.
+  erdosproblems.com's partial proof claim and the author-run Lean report.
 license: CC-BY-4.0
 created: 2026-09-17T07:45:00Z
 updated: 2026-10-08T01:29:58Z
@@ -59,12 +59,12 @@ Commons Attribution 4.0 license.
 [[../wiki/problems/irrationality/E0251/_index|Problem 251]]: under a uniform
 Hardy–Littlewood hypothesis the series $\sum_{n\ge1}p_n2^{-n}$ is normal to
 base $2$, hence irrational. It is the problem's single registered proof
-claim on the catalog site, submitted 2026-09-13 16:24:50 as "A partial proof
+claim on erdosproblems.com, submitted 2026-09-13 16:24:50 as "A partial proof
 claimed by Stefan Ringer (using GPT 6 Astra, Fable 5.1)", whose summary
 opens "Conditional claim: Under Kuperberg's uniform Hardy–Littlewood
 conjecture, for each fixed integer $B\ge2$, $\sum_{n\ge1}p_nB^{-n}$ is
 normal to base $B$" and whose notes say the work "would still benefit from
-a proper digestion"; the site displays its standard disclaimer that
+a proper digestion"; erdosproblems.com displays its standard disclaimer that
 appearance is no guarantee of correctness. The "partial" label matches the
 paper's own scope: it claims an implication from an unproved conjecture,
 and the repository README says "The original prime-series problem remains

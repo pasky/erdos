@@ -59,4 +59,4 @@ Proposition 1 (p. 42).
 - [[../wiki/problems/ramsey_theory/E0552/_index|Problem 552]]: the counting
   argument that proves the upper bound $R(C_4,S_n)\le n+\sqrt{n-1}+2$ of
   Theorem 1, whose integer form $n+\lceil\sqrt n\rceil+1$ is the upper end of
-  the site's window.
+  erdosproblems.com's window.

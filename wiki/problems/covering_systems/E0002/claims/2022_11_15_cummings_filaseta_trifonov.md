@@ -56,6 +56,6 @@ attainable squarefree minimum modulus is not identified.
 
 **Acceptance.** Refereed: Acta Mathematica Hungarica 175 (2025), 1--25,
 doi:10.1007/s10474-024-01496-x. The arXiv v1 of 2022-11-15 names this page. Not
-reviewed: the site's page for the problem does not cite the paper. Not
-formalized: no Lean proof of the theorem is recorded. The proof is not checked
-in this corpus, and the library has no card for the paper.
+reviewed: the erdosproblems.com page for the problem does not cite the paper.
+Not formalized: no Lean proof of the theorem is recorded. The proof is not
+checked in this corpus, and the library has no card for the paper.

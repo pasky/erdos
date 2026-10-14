@@ -67,7 +67,7 @@ here.
 - [[../wiki/problems/ramsey_theory/E0172/_index|Problem 172]]: a claimed finite form
   of the problem's conclusion, asserting for each $r$ and $m$ a finite
   threshold $N$ beyond which every $r$-coloring of $[N]$ already contains the
-  configuration; the problem page quotes the site's remark that the problem
-  "cannot be resolved with a finite computation", and this corollary supplies
-  existence of $N$ without any estimate. It rests on Theorem 1.1, unverified
-  here; the page's status rests on acceptance evidence.
+  configuration; the problem page quotes the erdosproblems.com remark that the
+  problem "cannot be resolved with a finite computation", and this corollary
+  supplies existence of $N$ without any estimate. It rests on Theorem 1.1,
+  unverified here; the page's status rests on acceptance evidence.

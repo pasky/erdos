@@ -24,14 +24,14 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Let $f(u)$ be the largest $v$ such that no $m\in (u,v)$ is
 composed entirely of primes dividing $uv$. Estimate $f(u)$.
 
-**Status.** SOLVED (LEAN), the site's label. The curator credits Stijn Cambie's
-observations as settling the natural readings of an estimate question whose
-intended precision the site calls unclear. The observations are that $f$ attains
-each of its trivial bounds $u+2$ and $u^2$ infinitely often, while
-$f(n)=(1+o(1))n$ for almost all $n$. The curator also records Lean proofs of
-these statements outside this corpus. All of this is on the
-[[problems/primes/E0459/claims/2025_09_13_cambie|claim page]]. The Lean proofs
-are not built here.
+**Status.** SOLVED (LEAN), the erdosproblems.com label. The curator credits
+Stijn Cambie's observations as settling the natural readings of an estimate
+question whose intended precision erdosproblems.com calls unclear. The
+observations are that $f$ attains each of its trivial bounds $u+2$ and $u^2$
+infinitely often, while $f(n)=(1+o(1))n$ for almost all $n$. The curator also
+records Lean proofs of these statements outside this corpus. All of this is on
+the [[problems/primes/E0459/claims/2025_09_13_cambie|claim page]]. The Lean
+proofs are not built here.
 
 **Source.** [erdosproblems.com/459](https://www.erdosproblems.com/459), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #459,

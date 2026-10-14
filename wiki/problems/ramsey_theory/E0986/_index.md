@@ -29,23 +29,24 @@ $$
 
 for some constant $c=c(s)>0$.
 
-**Formulation.** The site's wording (page last edited 21 June 2026). $R(s,k)$ is
-the least $n$ such that every graph on $n$ vertices has a clique of size $s$ or
-an independent set of size $k$; the sources write $r(s,k)$. For each fixed
-$s\ge3$ the statement asks for a lower bound $R(s,k)\ge c'k^{s-1}/(\log k)^{c}$
-for all large $k$, with $c$ and $c'$ depending on $s$. It matches the upper
-bound $R(s,k)=O(k^{s-1}/(\log k)^{s-2})$ up to the power of the logarithm, so a
-proof determines $R(s,k)$ for fixed $s$ up to a polylogarithmic factor.
+**Formulation.** The erdosproblems.com wording (page last edited 21 June 2026).
+$R(s,k)$ is the least $n$ such that every graph on $n$ vertices has a clique of
+size $s$ or an independent set of size $k$; the sources write $r(s,k)$. For each
+fixed $s\ge3$ the statement asks for a lower bound
+$R(s,k)\ge c'k^{s-1}/(\log k)^{c}$ for all large $k$, with $c$ and $c'$
+depending on $s$. It matches the upper bound $R(s,k)=O(k^{s-1}/(\log k)^{s-2})$
+up to the power of the logarithm, so a proof determines $R(s,k)$ for fixed $s$
+up to a polylogarithmic factor.
 
-**Status.** PROVED, the site's label (page last edited 21 June 2026). Bradač's
-Theorem 1.1 (arXiv:2605.28793v3, 16 June 2026) states that for any $s\ge3$ there
-is $c_s>0$ with $r(s,k)\ge c_sk^{s-1}/(\log k)^{2s-4}$ for all $k\ge2$. So
-$c(s)=2s-4$ works. The status-defining source is this arXiv preprint. The site's
-curator, Thomas Bloom, accepted it: the site labeled the problem PROVED and
-credits the lower bound to this paper as the resolution. No journal acceptance,
-other expert review or checked formalization of the paper was found. The paper
-credits the step that raised the exponent from $s-2$ to $s-1$ to an internal
-model at OpenAI.
+**Status.** PROVED, the erdosproblems.com label (page last edited 21 June 2026).
+Bradač's Theorem 1.1 (arXiv:2605.28793v3, 16 June 2026) states that for any
+$s\ge3$ there is $c_s>0$ with $r(s,k)\ge c_sk^{s-1}/(\log k)^{2s-4}$ for all
+$k\ge2$. So $c(s)=2s-4$ works. The status-defining source is this arXiv
+preprint. The erdosproblems.com curator, Thomas Bloom, accepted it: Bloom's
+catalog labeled the problem PROVED and credits the lower bound to this paper as
+the resolution. No journal acceptance, other expert review or checked
+formalization of the paper was found. The paper credits the step that raised the
+exponent from $s-2$ to $s-1$ to an internal model at OpenAI.
 
 The frontmatter standing is derived from the claim pages. Bradač's result is an
 accepted full claim
@@ -77,9 +78,9 @@ https://www.erdosproblems.com/986, accessed 2026-09-17.
 
 - [Br26] Bradač, D., Off-diagonal Ramsey numbers. arXiv:2605.28793 (v1 27
   May 2026, titled "Nearly tight exponents for off-diagonal Ramsey numbers",
-  the title the site's reference carries; v2 11 June 2026; v3 16 June 2026,
-  19 pages). Preprint. Theorem 1.1, p. 2; the AI declaration,
-  p. 4. Library home:
+  the title the erdosproblems.com reference carries; v2 11 June 2026; v3 16 June
+  2026, 19 pages). Preprint. Theorem 1.1, p. 2; the AI declaration, p. 4.
+  Library home:
   [[../library/ramsey_theory/bradac_2026_off_diagonal_ramsey_numbers/_index|bradac_2026_off_diagonal_ramsey_numbers]].
 - [MaVe23] Mattheus, S. and Verstraete, J., The asymptotics of $r(4,t)$.
   arXiv:2306.04007 (v5 20 February 2024); Ann. of Math. (2) 199
@@ -112,7 +113,7 @@ https://www.erdosproblems.com/986, accessed 2026-09-17.
 - [Sp77] Spencer, J., Asymptotic lower bounds for Ramsey functions.
   Discrete Math. 20 (1977), no. 1, 69--76, DOI 10.1016/0012-365X(77)90044-9.
   Theorem 2.1, printed p. 72 (PDF p. 4 of the publisher's open-archive
-  scan), and Theorem 2.2, printed p. 74 (PDF p. 6); the site credits it
+  scan), and Theorem 2.2, printed p. 74 (PDF p. 6); erdosproblems.com credits it
   with the case $s=3$. Library home:
   [[../library/ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/_index|spencer_1977_asymptotic_lower_bounds_ramsey_functions]];
   paged at
@@ -120,12 +121,12 @@ https://www.erdosproblems.com/986, accessed 2026-09-17.
   and
   [[../library/ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_2_2|theorem_2_2]].
 - [ChGr98] Chung, F. and Graham, R., Erdős on Graphs. His legacy of
-  unsolved problems. A K Peters (1998); the site's reference for the 1947
-  attribution of the conjecture.
+  unsolved problems. A K Peters (1998); the erdosproblems.com reference for the
+  1947 attribution of the conjecture.
 - [Er90b] Erdős, P., Problems and results on graphs and hypergraphs:
   similarities and differences. Mathematics of Ramsey theory (1990),
-  12--28; the site cites p. 18 and says the reference covers only $s=3,4$.
-  Library home:
+  12--28; erdosproblems.com cites p. 18 and says the reference covers only
+  $s=3,4$. Library home:
   [[../library/ramsey_theory/erdos_1990_problems_results_graphs_hypergraphs_similarities_differences/_index|erdos_1990_problems_results_graphs_hypergraphs_similarities_differences]]
   (p. 18: displays (13) and (14) state the cases $s=3$ and $s=4$ only).
 
@@ -146,9 +147,9 @@ linked from
 beside the two Trellis repositories. The community database (fetched 2026-09-17)
 lists the problem as proved, as of its entry's last update on 21 June 2026,
 lists the statement as formalized with the date 9 September 2026, and records no
-formal proof or formal-proof URL. The site's status label carried no Lean
-suffix. None of these files was built or audited here. The OpenAI release's two
-Lean declarations for its $s\ge5$ claim, built and audited by the corpus's
+formal proof or formal-proof URL. The erdosproblems.com status label carried no
+Lean suffix. None of these files was built or audited here. The OpenAI release's
+two Lean declarations for its $s\ge5$ claim, built and audited by the corpus's
 verification, are recorded on
 [[problems/ramsey_theory/E0986/claims/2026_09_24_openai|that claim's page]];
 they certify the sharp exponent for every fixed $s\ge5$ and nothing for $s=3$ or
@@ -156,28 +157,30 @@ $s=4$.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-17).** The statement above;
-PROVED, which the site glosses as answered yes, last edited 21 June 2026. The
-commentary, in this page's words: the site takes the general conjecture from
-Chung and Graham [ChGr98], who date it to Erdős in 1947; Spencer [Sp77] settled
-$s=3$ and Mattheus and Verstraete [MaVe23] settled $s=4$; for $s\ge5$ the best
-bounds are $k^{s-1}/(\log k)^{2s-4}\ll_sR(s,k)\ll_sk^{s-1}/(\log k)^{s-2}$ (the
-site writes $\ll_k$ on the lower bound; the constant depends on $s$, as Bradač's
-$c_s$ shows), the lower bound Bradač's [Br26], which the site counts as the
-resolution of the problem, improving Bohman and Keevash [BoKe10], with a
-parenthetical note that an earlier version of the paper had reached only the
-exponent $s-2$ and that an internal model at OpenAI supplied the step to $s-1$;
-the upper bound is Ajtai, Komlós and Szemerédi's [AKS80], its constant improved
-to $1+o(1)$ by Li, Rousseau and Zang [LRZ01]; the cases $s=3$ and $s=4$ are
-Problems 165 and 166; Problem 920 is related; [Er90b] covers only $s=3,4$, and
-the site names [ChGr98] as its best reference for the general conjecture. The
-thread: a comment of 28 May 2026 announcing the improvement of the lower bound;
-one of 10 June 2026 linking a Lean formalization (below); two of 12 June 2026
-relaying the author's arXiv comment that a forthcoming version would reach the
-optimal exponent $s-1$; one of 17 June 2026 reporting that the updated arXiv
-version v3 resolves the problem (the site was then updated); one of 22 June 2026
-on a typo. The proof-claim tab is empty. The claim pages beside this page record
-Bradač's result
+**The question (erdosproblems.com formulation, accessed 2026-09-17).** The
+statement above; PROVED, which erdosproblems.com glosses as answered yes, last
+edited 21 June 2026. The commentary, in this page's words: erdosproblems.com
+takes the general conjecture from Chung and Graham [ChGr98], who date it to
+Erdős in 1947; Spencer [Sp77] settled $s=3$ and Mattheus and Verstraete [MaVe23]
+settled $s=4$; for $s\ge5$ the best bounds are
+$k^{s-1}/(\log k)^{2s-4}\ll_sR(s,k)\ll_sk^{s-1}/(\log k)^{s-2}$
+(erdosproblems.com writes $\ll_k$ on the lower bound; the constant depends on
+$s$, as Bradač's $c_s$ shows), the lower bound Bradač's [Br26], which
+erdosproblems.com counts as the resolution of the problem, improving Bohman and
+Keevash [BoKe10], with a parenthetical note that an earlier version of the paper
+had reached only the exponent $s-2$ and that an internal model at OpenAI
+supplied the step to $s-1$; the upper bound is Ajtai, Komlós and Szemerédi's
+[AKS80], its constant improved to $1+o(1)$ by Li, Rousseau and Zang [LRZ01]; the
+cases $s=3$ and $s=4$ are Problems 165 and 166; Problem 920 is related; [Er90b]
+covers only $s=3,4$, and erdosproblems.com names [ChGr98] as its best reference
+for the general conjecture. The thread: a comment of 28 May 2026 announcing the
+improvement of the lower bound; one of 10 June 2026 linking a Lean formalization
+(below); two of 12 June 2026 relaying the author's arXiv comment that a
+forthcoming version would reach the optimal exponent $s-1$; one of 17 June 2026
+reporting that the updated arXiv version v3 resolves the problem
+(erdosproblems.com was then updated); one of 22 June 2026 on a typo. The
+proof-claim tab is empty. The claim pages beside this page record Bradač's
+result
 ([[problems/ramsey_theory/E0986/claims/2026_06_16_bradac|accepted, full]]),
 Spencer's case $s=3$
 ([[problems/ramsey_theory/E0986/claims/1977_01_01_spencer|accepted, partial]]),
@@ -198,17 +201,18 @@ $r(s,k)\ge\Omega(k^{s-2}/(\log k)^{2s-6})$, which does not resolve the problem;
 v3 (16 June 2026, titled "Off-diagonal Ramsey numbers") carries the statement
 above, with the arXiv comment "The new version achieves the tight exponent
 $r(s,k)\ge k^{s-1+o(1)}$ compared to the previous $r(s,k)\ge k^{s-2+o(1)}$"; the
-site's reference [Br26] pairs the v1 title with the arXiv identifier. Acceptance
-evidence: the site's curator, Thomas Bloom, labeled the problem PROVED (page
-last edited 21 June 2026) and credits the paper with the resolution, which the
-claim page records as `reviewed`. No journal record existed under either title
-(publisher bibliographic queries, 2026-09-17); Semantic Scholar lists three
-citing records (a 2026 paper on Erdős--Rogers problems, a paper on pathwidth and
-the paper of an autoformalization system), none a review or refutation. Read
-depth: claims checked for Theorem 1.1, the displays (1)--(2) and the declaration
-on p. 4; the proof (Subsection 2.5, pp. 10--13, a product of polarity graphs of
-projective spaces with container counting of independent sets and random vertex
-sampling, per the introduction) is not checked.
+erdosproblems.com reference [Br26] pairs the v1 title with the arXiv identifier.
+Acceptance evidence: the erdosproblems.com curator, Thomas Bloom, labeled the
+problem PROVED (page last edited 21 June 2026) and credits the paper with the
+resolution, which the claim page records as `reviewed`. No journal record
+existed under either title (publisher bibliographic queries, 2026-09-17);
+Semantic Scholar lists three citing records (a 2026 paper on Erdős--Rogers
+problems, a paper on pathwidth and the paper of an autoformalization system),
+none a review or refutation. Read depth: claims checked for Theorem 1.1, the
+displays (1)--(2) and the declaration on p. 4; the proof (Subsection 2.5, pp.
+10--13, a product of polarity graphs of projective spaces with container
+counting of independent sets and random vertex sampling, per the introduction)
+is not checked.
 
 **Provenance of the resolving step (recorded, not judged).** The paper
 states on p. 2 that "The final improvement to obtain Theorem 1.1 was made by
@@ -226,8 +230,8 @@ $r(s,k)\le\binom{k+s-2}{s-1}=O(k^{s-1})$ is Erdős and Szekeres's
 (p. 466); [AKS80]'s
 [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_6|Theorem 6]]
 (printed p. 359) improved it to $R(k,x)\le(5000)^kx^{k-1}/(\ln x)^{k-2}$ for
-every fixed $k\ge2$ and $x$ large depending on $k$, in the site's letters
-$R(s,k)\le5000^sk^{s-1}/(\ln k)^{s-2}$, by induction on $s$ from the
+every fixed $k\ge2$ and $x$ large depending on $k$, in erdosproblems.com's
+letters $R(s,k)\le5000^sk^{s-1}/(\ln k)^{s-2}$, by induction on $s$ from the
 triangle-free case, and [LRZ01] to $(1+o(1))k^{s-1}/(\log k)^{s-2}$: its
 [[../library/ramsey_theory/li_rousseau_zang_2001_asymptotic_upper_bounds_ramsey_functions/theorem_2|Theorem 2]]
 (printed p. 124) gives $r(K_k+\bar K_l,K_n)\le(l+o(1))n^k/(\log n)^{k-1}$ for
@@ -240,14 +244,14 @@ list. Lower bounds before 2026: Spencer's local-lemma bound,
 [[../library/ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_2_2|Theorem 2.2]]
 of [Sp77] (printed p. 74): "Fix $k\ge3$. There exists a constant $c$ so that
 $R(k,t)\ge c(t/\ln t)^\beta[1-o(1)]$, $\beta=[\binom k2-1]/(k-2)$", and
-$\beta=(k+1)/2$ by an elementary rewriting, so in the site's letters
+$\beta=(k+1)/2$ by an elementary rewriting, so in erdosproblems.com's letters
 $R(s,k)\gg(k/\log k)^{(s+1)/2}$, the form Bradač (p. 2) and Bohman and Keevash
 (arXiv v1, p. 4) quote, which Mattheus--Verstraete do not print; the paper
 sketches its proof and prints no constant; Bohman and Keevash's
 [[../library/ramsey_theory/bohman_2010_early_evolution_free_process/theorem_1_2|Theorem 1.2]]
 (arXiv v1, p. 4), $R(s,t)=\Omega(t^{(s+1)/2}(\log t)^{1/(s-2)-(s+1)/2})$ for
 fixed $s\ge5$, from the $K_s$-free process, in Inventiones Mathematicae 181
-(2010); the case $s=3$, credited by the site to [Sp77], whose
+(2010); the case $s=3$, credited by erdosproblems.com to [Sp77], whose
 [[../library/ramsey_theory/spencer_1977_asymptotic_lower_bounds_ramsey_functions/theorem_2_1|Theorem 2.1]]
 (printed p. 72) states "$R(3,t)\ge(c-o(1))(t/\ln t)^2$, $c=1/27$", the statement
 at $s=3$ with $c(3)=2$, and adds "This result is originally due to Erdos [2]
@@ -320,7 +324,7 @@ so they add no evidence kind. The Google Drive draft mentioned in a comment of
 refereed version of [Br26], an independent review, a dispute, or a later
 improvement of the logarithmic exponent.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database.
 - arXiv: the abstract pages of 2605.28793 (three versions; the v1 page for
   the original title), 0908.0429 (one version; related DOI to Inventiones)
@@ -346,23 +350,24 @@ comparator challenge files and the headers of the solution modules, and
 `formalization.yaml`. Not covered: the manuscripts' proofs, the Lean bodies.
 
 **Remaining gaps.** (1) The status rests on an unrefereed arXiv preprint whose
-resolving step is credited to an AI model, accepted on the site curator's review
-alone; a refereed version, another expert's review or a checked formalization
-would strengthen it; the statement itself is also covered, independently of that
-preprint, by the refereed cases $s=3$ and $s=4$ and the formally verified
-release claim for $s\ge5$. (2) Bradač's proof is not compiled or reviewed here,
-and the release's two manuscripts for $s\ge5$ are read at statement depth only,
-their result resting on its formalization; the Bohman--Keevash and
-Mattheus--Verstraete theorems are recorded as statements. (3) The upper bound's
-Theorem 6 of [AKS80], its constant $1+o(1)$ in Theorem 2 of [LRZ01] and the
-earlier lower bounds of [Sp77] (Theorems 2.1 and 2.2, the latter proved by a
-sketch with no explicit constant) are recorded at statement depth only; the 1947
-attribution rests on Bradač's "appears to have been made by Erdős in 1947", the
-site's citation of [ChGr98], and [LRZ01]'s "conjectured in 1947" (p. 127), which
-cites Chung's 1997 problem list rather than a 1947 paper. (4) The
-autoformalization claim is unverified. The release's Lean coverage of its
-$s\ge5$ claim, which its own catalog omits, is built and audited by the corpus's
-verification; the manuscripts themselves have no outside review.
+resolving step is credited to an AI model, accepted on the erdosproblems.com
+curator's review alone; a refereed version, another expert's review or a checked
+formalization would strengthen it; the statement itself is also covered,
+independently of that preprint, by the refereed cases $s=3$ and $s=4$ and the
+formally verified release claim for $s\ge5$. (2) Bradač's proof is not compiled
+or reviewed here, and the release's two manuscripts for $s\ge5$ are read at
+statement depth only, their result resting on its formalization; the
+Bohman--Keevash and Mattheus--Verstraete theorems are recorded as statements.
+(3) The upper bound's Theorem 6 of [AKS80], its constant $1+o(1)$ in Theorem 2
+of [LRZ01] and the earlier lower bounds of [Sp77] (Theorems 2.1 and 2.2, the
+latter proved by a sketch with no explicit constant) are recorded at statement
+depth only; the 1947 attribution rests on Bradač's "appears to have been made by
+Erdős in 1947", the erdosproblems.com citation of [ChGr98], and [LRZ01]'s
+"conjectured in 1947" (p. 127), which cites Chung's 1997 problem list rather
+than a 1947 paper. (4) The autoformalization claim is unverified. The release's
+Lean coverage of its $s\ge5$ claim, which its own catalog omits, is built and
+audited by the corpus's verification; the manuscripts themselves have no outside
+review.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

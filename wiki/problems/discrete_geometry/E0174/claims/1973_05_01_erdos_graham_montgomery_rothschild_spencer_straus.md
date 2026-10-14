@@ -32,7 +32,8 @@ updated: 2026-10-07T22:51:53Z
 
 **Claim.** P. Erdős, R. L. Graham, P. Montgomery, B. L. Rothschild, J. Spencer
 and E. G. Straus, *Euclidean Ramsey Theorems. I*, J. Combin. Theory Ser. A 14
-(1973), no. 3, 341--363, cited as [EGMRSS73] in the site's commentary on Problem
+(1973), no. 3, 341--363, cited as [EGMRSS73] in the erdosproblems.com commentary
+on Problem
 174. Theorem 13 (pp. 349--350) states that if a finite configuration $K$ is not
 spherical, there is an integer $r$ depending only on $K$ such that every
 $\mathbb R^N$ has an $r$-coloring with no monochromatic congruent copy of $K$;
@@ -71,8 +72,8 @@ whose criterion refines the sphere condition proved here.
 **Acceptance.** Refereed: the paper is a journal publication in the Journal of
 Combinatorial Theory, Series A, volume 14, issue 3 (May 1973). This is the
 `refereed` evidence. The issue carries no day, so this page is dated to the
-first day of that month. In the problem's commentary the site's curator credits
-both results to [EGMRSS73]. The site labeled the problem OPEN, however, so that
-credit is not `reviewed` evidence. The library's complete reconstructions of
-Theorems 13 and 20 are the corpus's own reading. They are not an independent
-review.
+first day of that month. In the problem's commentary the erdosproblems.com
+curator credits both results to [EGMRSS73]. Bloom's catalog labeled the problem
+OPEN, however, so that credit is not `reviewed` evidence. The library's complete
+reconstructions of Theorems 13 and 20 are the corpus's own reading. They are not
+an independent review.

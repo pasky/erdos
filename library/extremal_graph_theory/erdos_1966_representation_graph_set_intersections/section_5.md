@@ -83,7 +83,8 @@ None.
 
 - [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]]: the first printed
   statement of the conjecture, the lower bound $\liminf f(n)/n\ge4/3$ from
-  $K_{3,n-3}$ (the site's "$(1+c)n$" from the same graph), and the asserted
-  $O(n\log n)$ bound the site credits to Section 5. The covering question
-  (circuits not required to be edge-disjoint, at most $n-1$) is the adjacent
-  problem later proved by Pyber (1985), not the decomposition problem.
+  $K_{3,n-3}$ (erdosproblems.com's "$(1+c)n$" from the same graph), and the
+  asserted $O(n\log n)$ bound erdosproblems.com credits to Section 5. The
+  covering question (circuits not required to be edge-disjoint, at most $n-1$)
+  is the adjacent problem later proved by Pyber (1985), not the decomposition
+  problem.

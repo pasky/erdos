@@ -53,8 +53,8 @@ license", a Creative Commons Attribution license with no version named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/131/4,
 read 2026-10-02), and that named license on the publisher's page decides over
 the printed line; the site footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the article. For the arXiv v2 PDF, the arXiv record
-carries no license field, so arXiv's assumed license applies
+reserved." speaks for erdosproblems.com, not the article. For the arXiv v2 PDF,
+the arXiv record carries no license field, so arXiv's assumed license applies
 (arXiv:math/0411144), every other right reserved.
 
 ## Located results

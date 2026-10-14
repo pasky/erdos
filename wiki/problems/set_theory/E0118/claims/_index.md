@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 118, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_theory/E0118/claims
@@ -22,6 +22,7 @@ ordinal with $\alpha\not\to(\alpha,6)^2$. The paper is not held here.
 
 [[problems/set_theory/E0118/claims/2000_09_01_larson|2000_09_01_larson]]: Larson (J. Symbolic Logic, 2000) proved
 $\omega^{\omega^2}\not\to(\omega^{\omega^2},5)^2$, which sharpens the
-counterexample of Schipperus and Darby. The site's curator credits the result.
+counterexample of Schipperus and Darby. The erdosproblems.com curator credits
+the result.
 
 ***

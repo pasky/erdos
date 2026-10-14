@@ -57,8 +57,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/graph_coloring/E0074/_index|Problem 74]]: the question is
-  this problem's, with chromatic number $\aleph_0$ where the site says infinite
-  chromatic number. The paper records no answer.
+  this problem's, with chromatic number $\aleph_0$ where erdosproblems.com says
+  infinite chromatic number. The paper records no answer.
 - [[../wiki/problems/set_theory/E0111/_index|Problem 111]]: the conjecture
   $h(n)/n\to\infty$ for graphs of chromatic number $\aleph_1$ is this
   problem's second question. The paper records only the remark that

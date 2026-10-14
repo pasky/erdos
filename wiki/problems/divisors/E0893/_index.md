@@ -30,19 +30,20 @@ $$
 Does $f(2n)/f(n)$ tend to a limit?
 
 **Formulation.** The question whether $f(2n)/f(n)$ tends to a limit is read, as
-the site and Kovač and Luca read it, as allowing the limit $+\infty$. After
-Kovač and Luca proved the ratios unbounded, the site kept the problem OPEN, and
-they describe what remains as deciding whether $f(2n)/f(n)\to\infty$ or the
-ratio has no limit. The
-[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/893.lean),
+erdosproblems.com and Kovač and Luca read it, as allowing the limit $+\infty$.
+After Kovač and Luca proved the ratios unbounded, erdosproblems.com kept the
+problem OPEN, and they describe what remains as deciding whether
+$f(2n)/f(n)\to\infty$ or the ratio has no limit. The [formal-conjectures
+statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/893.lean),
 as last changed on 18 September 2026, likewise asks whether the ratio tends to
 infinity. Read as asking for a finite limit, a variant this page sets aside,
 the question is answered no by their Theorem 1.
 
-**Status.** The site labeled the problem OPEN. Kovač and Luca's unboundedness
-theorem rules out every finite limit, which answers the finite-limit variant
-that the Formulation sets aside and leaves the question open. Divergence to
-infinity is proved only under unproven conjectures. That result is on
+**Status.** Bloom's catalog labeled the problem OPEN. Kovač and Luca's
+unboundedness theorem rules out every finite limit, which answers the
+finite-limit variant that the Formulation sets aside and leaves the question
+open. Divergence to infinity is proved only under unproven conjectures. That
+result is on
 [[problems/divisors/E0893/claims/2025_06_05_kovac_luca_conditional|their conditional page]].
 
 **Source.** [erdosproblems.com/893](https://www.erdosproblems.com/893), accessed
@@ -62,7 +63,7 @@ https://www.erdosproblems.com/893.
 
 ## Current assessment
 
-The site labeled the problem OPEN. Under the formulation above, the open
+Bloom's catalog labeled the problem OPEN. Under the formulation above, the open
 question is whether $f(2n)/f(n)\to\infty$. Kovač and Luca
 ([[../library/divisors/kovac_2025_number_divisors_mersenne_numbers/_index|card]])
 prove the ratios unbounded
@@ -71,7 +72,7 @@ refereed in Experimental Mathematics), which rules out every finite limit. That
 answers no to the finite-limit variant, which the Formulation sets aside, and
 does not settle the question as read here: unboundedness leaves both
 $f(2n)/f(n)\to\infty$, a yes, and no limit at all, a no. The theorem was not
-submitted to the site as a claim, so it has no claim page. They also
+submitted to erdosproblems.com as a claim, so it has no claim page. They also
 derive $f(2n)/f(n)\to\infty$ from either of two unproven conjectures
 ([[problems/divisors/E0893/claims/2025_06_05_kovac_luca_conditional|conditional claim page]]),
 and their computations support divergence. Erdős [Er98] expected no simple

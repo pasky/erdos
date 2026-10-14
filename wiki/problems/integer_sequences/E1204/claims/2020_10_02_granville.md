@@ -56,7 +56,7 @@ nothing; the Siegel zeros it assumes are believed not to exist, and the
 OpenAI release's family 003 manuscripts, which are unreviewed, claim
 results that exclude them.
 
-**Acceptance.** Refereed: Acta Arithmetica 205 (2022). The site does not
-cite the paper.
+**Acceptance.** Refereed: Acta Arithmetica 205 (2022). erdosproblems.com does
+not cite the paper.
 
 **Depends on.** No page of this wiki.

@@ -87,7 +87,8 @@ the upper bound; the Fibonacci identities of pp. 184--185.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0480/_index|Problem 480]]: the site's commentary
-  says the authors "also prove that this constant is best possible"; this
-  is that statement, and the site's discussion thread describes the same
-  construction (the digits $e_k(n)$ with the 0-between-two-2s rule).
+- [[../wiki/problems/number_theory/E0480/_index|Problem 480]]: the
+  erdosproblems.com commentary says the authors "also prove that this constant
+  is best possible"; this is that statement, and the erdosproblems.com
+  discussion thread describes the same construction (the digits $e_k(n)$ with
+  the 0-between-two-2s rule).

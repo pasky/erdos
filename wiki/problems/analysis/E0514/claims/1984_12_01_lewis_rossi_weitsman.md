@@ -95,8 +95,8 @@ the specialization to $u=\log\lvert f\rvert$ and the length bound are
 immediate.
 
 **Acceptance.** Refereed: the paper appeared in Arkiv för Matematik, a refereed
-journal. The site labeled the problem OPEN and credits Boas, unpublished, with
-the first question. It does not credit this paper, so the page lists no
+journal. Bloom's catalog labeled the problem OPEN and credits Boas, unpublished,
+with the first question. It does not credit this paper, so the page lists no
 `reviewed` evidence.
 
 **Dating.** The page is dated by the issue month in the publisher's record

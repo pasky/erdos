@@ -27,9 +27,9 @@ J. Spencer, *Restricted Ramsey configurations*, J. Combinatorial Theory Ser. A
 publisher's record, read 2026-09-18, dates the issue November 1975). The
 author's affiliation is the Department of Mathematics, Massachusetts Institute
 of Technology; "Communicated by the Managing Editors"; supported in part by the
-Office of Naval Research. The site's Problem 966 has no key for the paper:
-Erdős reported its result in 1975 as "Spencer has recently shown that such a
-sequence exists" without a reference, and this is that paper.
+Office of Naval Research. erdosproblems.com's Problem 966 has no key for the
+paper: Erdős reported its result in 1975 as "Spencer has recently shown that
+such a sequence exists" without a reference, and this is that paper.
 
 **Edition read.** The copy read for this card is an interlibrary-loan scan of
 seven pages. PDF pp. 1--2 are a two-page library

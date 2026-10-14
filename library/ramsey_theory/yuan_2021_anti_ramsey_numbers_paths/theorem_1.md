@@ -86,7 +86,7 @@ in the paper.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1105/_index|Problem 1105]]: the status-defining result
-  for the path half of the problem, in a preprint the site accepts; the
+  for the path half of the problem, in a preprint erdosproblems.com accepts; the
   earlier ranges are
   [[ramsey_theory/simonovits_1984_restricted_colourings_k_n/theorem_b|Simonovits–Sós Theorem B]]
   and the announced

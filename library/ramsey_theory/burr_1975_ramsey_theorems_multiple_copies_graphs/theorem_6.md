@@ -82,7 +82,7 @@ Ramsey's theorem (the finiteness of $r(k,k)$, $r(k,k-1)$ and $r(u,u)$).
 - [[../wiki/problems/ramsey_theory/E1015/_index|Problem 1015]]: the problem asks to
   estimate the leftover $f(t)$, which Section 5 defines as $f(n,k)$, and
   Theorem 6 gives its exact value for fixed $k$ and all sufficiently large
-  $n$; the paper does not state the problem's closing questions. The site
-  prints "$f(t)=R(t,t-1)+x(t,n)$ where $0\le x(t,n)<t$ is such that
-  $n+1\equiv R(t,t-1)+x\pmod t$"; the paper's formula is one less,
+  $n$; the paper does not state the problem's closing questions.
+  erdosproblems.com prints "$f(t)=R(t,t-1)+x(t,n)$ where $0\le x(t,n)<t$ is such
+  that $n+1\equiv R(t,t-1)+x\pmod t$"; the paper's formula is one less,
   $r(k,k-1)-1+x$ with the same remainder $x\equiv n+1-r(k,k-1)\pmod k$.

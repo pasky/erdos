@@ -69,17 +69,17 @@ positive integers asymptotic to alpha^{2^n} has irrational reciprocal sum
 pseudo-greedy expansion (pp. 3 and 7-9) holds (Theorem 16, p. 10), and gives a
 heuristic argument for that conjecture (Remark 17, p. 11). The method is a
 rigidity argument on greedy-type approximations of the reciprocal sum. For
-problem 282 it is the 2025 paper Vjekoslav Kovac's site comment cited for the
-connection between irrationality and greedy-type approximation; Section 2 (p. 7)
-defines the odd greedy expansion (the smallest odd denominator not below the
-reciprocal of the remainder) and records: "It is an open problem whether the odd
-greedy expansion of a positive rational number with odd denominator terminates
-in finite steps", citing Guy's problem book, and p. 9 notes that Conjecture 6
-"resembles the termination problem of the odd greedy expansion". Read status:
-claims checked. Theorem 1, Corollaries 2 and 3, Theorem 4, Question 5,
-Conjecture 6, Theorem 16 and the odd-greedy passages were read clause by
-clause on the page images (pp. 2-3, 7, 9 and 10), and the statements of
-Definitions 7 and 9, Proposition 19, Corollary 20 and Remarks 17, 21 and 22
+problem 282 it is the 2025 paper Vjekoslav Kovac's erdosproblems.com comment
+cited for the connection between irrationality and greedy-type approximation;
+Section 2 (p. 7) defines the odd greedy expansion (the smallest odd denominator
+not below the reciprocal of the remainder) and records: "It is an open problem
+whether the odd greedy expansion of a positive rational number with odd
+denominator terminates in finite steps", citing Guy's problem book, and p. 9
+notes that Conjecture 6 "resembles the termination problem of the odd greedy
+expansion". Read status: claims checked. Theorem 1, Corollaries 2 and 3, Theorem
+4, Question 5, Conjecture 6, Theorem 16 and the odd-greedy passages were read
+clause by clause on the page images (pp. 2-3, 7, 9 and 10), and the statements
+of Definitions 7 and 9, Proposition 19, Corollary 20 and Remarks 17, 21 and 22
 on pp. 7-8 and 11-13; no proof was checked. Each result page records its own
 read depth.
 

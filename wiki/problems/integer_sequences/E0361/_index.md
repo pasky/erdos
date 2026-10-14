@@ -28,22 +28,23 @@ of a subset of $A$? Does this depend on $n$ in an irregular way?
 **Formulation.** The source, Erdős and Graham (1980, p. 59), asks how many
 integers less than $n/k$, for fixed $k$ and large $n$, can be chosen with $n$
 not a sum of a subset of them, and whether this depends on $n$ "in an
-irregular way". The site's set $\{1,\ldots,\lfloor cn\rfloor\}$ with real $c>0$
-extends $c=1/k$, up to the endpoint $n/k$. Neither source defines irregular.
-This page and its claims read the second question as asking whether
+irregular way". erdosproblems.com's set $\{1,\ldots,\lfloor cn\rfloor\}$ with
+real $c>0$ extends $c=1/k$, up to the endpoint $n/k$. Neither source defines
+irregular. This page and its claims read the second question as asking whether
 $f_c(n)/n$ fails to converge, the reading Beyer de Ryke's note states as its
 interpretation.
 
-**Status.** Open. The site's label was OPEN (page last edited 17 October 2025);
-its thread was accessed 2026-10-07. Write $f_c(n)$ for the largest
-size. Alon's refereed Corollary 2.6 of 1987 gives $f_{1/2}(n)=(1/6+o(1))n$ along
-even $n$ ([[problems/integer_sequences/E0361/claims/1986_09_08_alon|claim
-page]]). Three partial claims of 2026 are pending. The first is a proof claim
-filed as full by Principia Math on 23 July 2026, using GPT 5.6 and Opus 4.8, as
-the proof-claims tab names them. Its theorem says that $f_c(n)/n$ does not
-converge for $0<c<1$ and that $f_c(n)=\lfloor cn\rfloor-\lceil n/2\rceil$ for
-$c\ge1$. Its thread records, with the claimant's agreement, that it answers the
-second question and not the first
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 17
+October 2025); its thread was accessed 2026-10-07. Write $f_c(n)$ for the
+largest size. Alon's refereed Corollary 2.6 of 1987 gives
+$f_{1/2}(n)=(1/6+o(1))n$ along even $n$
+([[problems/integer_sequences/E0361/claims/1986_09_08_alon|claim page]]). Three
+partial claims of 2026 are pending. The first is a proof claim filed as full by
+Principia Math on 23 July 2026, using GPT 5.6 and Opus 4.8, as the proof-claims
+tab names them. Its theorem says that $f_c(n)/n$ does not converge for $0<c<1$
+and that $f_c(n)=\lfloor cn\rfloor-\lceil n/2\rceil$ for $c\ge1$. Its thread
+records, with the claimant's agreement, that it answers the second question and
+not the first
 ([[problems/integer_sequences/E0361/claims/2026_07_23_principia_math|claim
 page]]). The second is Beyer de Ryke's note of 25 July 2026 in the same thread.
 It proves the same non-convergence with explicit limits along arithmetic
@@ -73,8 +74,8 @@ largest set, is determined exactly by the claims only for $c\ge1$, and
 asymptotically along some arithmetic subsequences of $n$ for $0<c<1$ (Alon's
 Corollary 2.6 at $c=1/2$, Beyer de Ryke's limits and Principia Math's second
 claim); no claim determines $f_c(n)$ for every $n$ when $0<c<1$. Search scope:
-the site's page, its discussion thread and its proof-claims tab with the
-comments under the claim, the claimant's repository, the note linked in the
+the erdosproblems.com page, its discussion thread and its proof-claims tab with
+the comments under the claim, the claimant's repository, the note linked in the
 thread and the papers these cite.
 
 ## Known Results
@@ -108,10 +109,10 @@ integer not dividing $s$, and $0<x\le1$, every $A\subseteq\{1,\ldots,\lfloor
 xT\rfloor\}$ with $|A|>(x/q+\varepsilon)T$ has a subset summing to $sT$ once $T$
 is large, so that $f_c(n)=(c/q+o(1))n$ along $n=sT$ with $q\nmid n$ for
 $0<c\le1/s$; its Lean theorem `basile71_unconditional` states the case $s=2$,
-$1/3<c<1/2$, neither built nor audited here. The site's discussion thread
-(October 2025) records computed values at $c=3/4$ for $100\le n\le104$
+$1/3<c<1/2$, neither built nor audited here. The erdosproblems.com discussion
+thread (October 2025) records computed values at $c=3/4$ for $100\le n\le104$
 ($34,37,32,38,35$), the trivial value $(c-1/2)n$ for $c\ge1$, and candidate
 extremal constructions from the multiples of the least prime power not dividing
 $n$ and from intervals $[n/(k+1),n/k]$, which already show that the extremal set
 depends on the arithmetic of $n$. None of the three 2026 claims has a refereed
-version, site acceptance or independent review.
+version, erdosproblems.com acceptance or independent review.

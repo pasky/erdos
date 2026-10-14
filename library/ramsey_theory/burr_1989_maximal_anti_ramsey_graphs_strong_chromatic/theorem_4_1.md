@@ -27,8 +27,8 @@ c_1n\le\chi_S(n,e,C_5)\le\lfloor n/2\rfloor+3."
 $$
 
 Both inequalities are printed non-strict. $t_2(n)=\lfloor n^2/4\rfloor$ is
-the Turán number, so $e$ is the site's $\lfloor n^2/4\rfloor+1$. The section
-continues with Theorem 4.2 ($n$ large, $e=t_2(n)+x$,
+the Turán number, so $e$ is erdosproblems.com's $\lfloor n^2/4\rfloor+1$. The
+section continues with Theorem 4.2 ($n$ large, $e=t_2(n)+x$,
 $y=\lceil(\sqrt{8x+1}+1)/2\rceil$: $\chi_S(n,e,C_5)\le(y+1)\lfloor
 n/2\rfloor+x$, so $\chi_S(n,t_2(n)+cn,C_5)=O(n^{3/2})$), Theorem 4.3
 ($e=t_2(n)+\epsilon n^2$: $\chi_S(n,e,C_5)>cn$ for any fixed $c$ once $n$ is
@@ -67,8 +67,8 @@ Lemma 2.3 of the same paper (not read here).
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0809/_index|Problem 809]]: the $C_5$ case that the
-  site contrasts with the longer odd cycles; the site's exact value
-  $\lfloor n/2\rfloor+3$ "as reported in [BEGS89]" is this theorem's upper
-  bound together with the paper's attribution of its sharpness to Erdős and
-  Simonovits, "to appear".
+- [[../wiki/problems/ramsey_theory/E0809/_index|Problem 809]]: the $C_5$ case
+  that erdosproblems.com contrasts with the longer odd cycles;
+  erdosproblems.com's exact value $\lfloor n/2\rfloor+3$ "as reported in
+  [BEGS89]" is this theorem's upper bound together with the paper's attribution
+  of its sharpness to Erdős and Simonovits, "to appear".

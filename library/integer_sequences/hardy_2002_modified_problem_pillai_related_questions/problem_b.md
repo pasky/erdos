@@ -58,6 +58,6 @@ and some related questions, Amer. Math. Monthly 109 (2002), no. 6,
 
 - [[../wiki/problems/integer_sequences/E1074/_index|Problem 1074]]: the
   problem's first question, whether $\lvert S\cap[1,x]\rvert/x$ has a
-  limit and what it is, is Problem B with the site's $S$ equal to the
+  limit and what it is, is Problem B with erdosproblems.com's $S$ equal to the
   paper's $\mathcal S$. The paper poses it, conjectures the value $1$ and
   proves nothing about it.

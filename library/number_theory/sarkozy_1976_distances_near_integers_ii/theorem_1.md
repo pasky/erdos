@@ -79,9 +79,9 @@ otherwise self-contained.
 - [[../wiki/problems/number_theory/E0466/_index|Problem 466]]: the problem asks for some
   $\delta>0$ with $N(X,\delta)\to\infty$; Theorem 1 gives
   $N(X,\delta)>X^{1/2-\delta^{1/7}}\to\infty$ for every
-  $\delta\le1/(6\cdot8^4)$, the site's "$N(X,\delta)>X^{1/2-\delta^{1/7}}$"
-  for all sufficiently small $\delta$; the paper reports Graham's earlier
-  $N(X,1/10)>\frac1{10}\log X$ on pp. 105--106.
+  $\delta\le1/(6\cdot8^4)$, erdosproblems.com's
+  "$N(X,\delta)>X^{1/2-\delta^{1/7}}$" for all sufficiently small $\delta$; the
+  paper reports Graham's earlier $N(X,1/10)>\frac1{10}\log X$ on pp. 105--106.
 - [[../wiki/problems/number_theory/E0465/_index|Problem 465]]: with Konyagin's
   $N(X,\delta)<C(\delta)X^{1/2}$ the exponent $1/2$ is the truth for small
   $\delta$ up to the $\delta^{1/7}$ and the constant.

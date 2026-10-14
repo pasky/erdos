@@ -20,7 +20,7 @@ contains a $d$-regular subgraph $G^m$, $e(G^m)>\varepsilon m\log m$ where $m$
 tends to infinity together with $n$?" Here $G^n$ is a graph of $n$ vertices,
 $e(G)$ its number of edges, $[x]$ the integer part, and "$d$-regular" is the
 paper's Definition 1 (pp. 379--380): the maximum valency is at most $d$ times
-the minimum valency (the catalog's $D$-balanced). The constants $d$ and
+the minimum valency (erdosproblems.com's $D$-balanced). The constants $d$ and
 $\varepsilon$ are not quantified in the sentence; the later restatements
 read them as absolute. The first open problem, on graphs with $n^{1+\alpha}$
 edges, is paged at
@@ -37,9 +37,9 @@ Janzer and Sudakov (Forum Math. Pi 11 (2023), p. 11) write "whether there
 exist absolute constants $\varepsilon,K>0$ such that any $n$-vertex graph
 with at least $n\log n$ edges contains a $K$-almost-regular subgraph with $m$
 vertices and at least $\varepsilon m\log m$ edges, where $m\to\infty$ as
-$n\to\infty$". The site's Problem 803 follows Alon's form. An elementary
-remark made here: asking for at least $n\log n$ edges and asking for exactly
-$[n\log n]$ edges give the same question, since a graph with more edges
+$n\to\infty$". erdosproblems.com's Problem 803 follows Alon's form. An
+elementary remark made here: asking for at least $n\log n$ edges and asking for
+exactly $[n\log n]$ edges give the same question, since a graph with more edges
 contains a subgraph with exactly $[n\log n]$ of them on the same vertex set.
 
 **Source.** P. Erdős and M. Simonovits, *Some extremal problems in graph
@@ -73,5 +73,6 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0803/_index|Problem 803]]: the origin; the
-  site's statement follows Alon's restatement with a fixed $m$ and absolute
-  implied constants, where the paper lets $m$ tend to infinity with $n$.
+  erdosproblems.com statement follows Alon's restatement with a fixed $m$ and
+  absolute implied constants, where the paper lets $m$ tend to infinity with
+  $n$.

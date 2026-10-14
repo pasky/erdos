@@ -31,11 +31,12 @@ $$
 
 many edges contains a $C_6$?
 
-**Status.** DISPROVED (LEAN), the site's label. The site answers the question
-with no. It credits Chung [Ch92] and Brouwer, Dejter and Thomassen [BDT93] with
-an edge-partition of $Q_n$ into four subgraphs, none containing a $C_6$, so a
-class with a quarter of the edges avoids $C_6$. Each paper is recorded as an
-accepted claim, on the basis of the refereed venue and the site's acceptance, on
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. erdosproblems.com
+answers the question with no. It credits Chung [Ch92] and Brouwer, Dejter and
+Thomassen [BDT93] with an edge-partition of $Q_n$ into four subgraphs, none
+containing a $C_6$, so a class with a quarter of the edges avoids $C_6$. Each
+paper is recorded as an accepted claim, on the basis of the refereed venue and
+erdosproblems.com's acceptance, on
 [[problems/extremal_graph_theory/E0666/claims/1992_07_01_chung|Chung's claim page]]
 and
 [[problems/extremal_graph_theory/E0666/claims/1993_03_01_brouwer_dejter_thomassen|the Brouwer--Dejter--Thomassen claim page]].
@@ -61,8 +62,8 @@ https://www.erdosproblems.com/666.
 repository, with Aristotle and Alexeev as its formal authors, proves the
 negation of the statement from the four-part partition and names Chung and
 Brouwer, Dejter and Thomassen as its informal authors; Alexeev reported it on
-the site's thread on 6 February 2026. It is a formalization link on both
-claim pages; the corpus has not built or audited it, so it gives no
+the erdosproblems.com thread on 6 February 2026. It is a formalization link on
+both claim pages; the corpus has not built or audited it, so it gives no
 `formalized` evidence. The
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/666.lean),
 tagged `research solved`, names the `lean-proofs` development as its formal

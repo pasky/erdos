@@ -2,10 +2,10 @@
 name: problems/extremal_graph_theory/E0580/claims/2026_07_14_zeraoulia
 title: Zeraoulia's certified SAT verification of the vertex form for n at most 19
 desc: |
-  On the site's proof-claim tab, with a Zenodo archive, Rafik Zeraoulia claims a
-  computer-assisted verification that the site's vertex formulation holds for
-  every $n\le19$. The claim is unreviewed, was reclassified as partial by a
-  moderator, and says nothing about $n\ge20$.
+  On the erdosproblems.com proof-claim tab, with a Zenodo archive, Rafik
+  Zeraoulia claims a computer-assisted verification that erdosproblems.com's
+  vertex formulation holds for every $n\le19$. The claim is unreviewed, was
+  reclassified as partial by a moderator, and says nothing about $n\ge20$.
 authors:
 - Rafik Zeraoulia
 status: claimed
@@ -31,9 +31,10 @@ updated: 2026-10-08T02:31:50Z
 
 ***
 
-**Claim.** Rafik Zeraoulia (the site account Zeraoulia Rafik) submitted a proof
-claim on the site's proof-claim tab on 14 July 2026 (the claim's date),
-asserting a computer-assisted verification of the site's vertex formulation of
+**Claim.** Rafik Zeraoulia (erdosproblems.com account Zeraoulia Rafik) submitted
+a proof claim on the erdosproblems.com proof-claim tab on 14 July 2026 (the
+claim's date), asserting a computer-assisted verification of erdosproblems.com's
+vertex formulation of
 [[problems/extremal_graph_theory/E0580/_index|Problem 580]] for every $n\le19$:
 every graph on $n\le19$ vertices in which at least $n/2$ vertices have degree at
 least $n/2$ contains every tree on at most $n/2$ vertices. The argument, as the
@@ -72,10 +73,10 @@ Thinking" as the AI used:
 > The case $n=19$ follows by deleting one high-degree vertex. This does not
 > cover the stronger classical edge formulation.
 
-**Covers.** The site's vertex formulation for every $n\le19$, and nothing
-else: the claimant states that the check does not cover the edge formulation
-(every tree with at most $\lfloor n/2\rfloor$ edges, Zhao's Conjecture
-1.3), and it says nothing about any $n\ge20$. Zhao's theorem, on
+**Covers.** erdosproblems.com's vertex formulation for every $n\le19$, and
+nothing else: the claimant states that the check does not cover the edge
+formulation (every tree with at most $\lfloor n/2\rfloor$ edges, Zhao's
+Conjecture 1.3), and it says nothing about any $n\ge20$. Zhao's theorem, on
 [[problems/extremal_graph_theory/E0580/claims/2011_02_04_zhao|its claim page]],
 settles every $n\ge n_0$ for an unstated $n_0$; if this claim is correct
 it closes $n\le19$ of the finite remainder and leaves $20\le n<n_0$
@@ -86,7 +87,7 @@ results for small trees and on SAT certificates, none of which is recorded
 here.
 
 **Standing.** Claimed: the result is a proof-claim tab submission with a
-Zenodo archive and an announced manuscript, neither refereed; the site
+Zenodo archive and an announced manuscript, neither refereed; erdosproblems.com
 states that a listing on the tab is no guarantee of correctness and that
-nobody associated with the site has examined it, and no named
+nobody associated with erdosproblems.com has examined it, and no named
 mathematician's acceptance is recorded.

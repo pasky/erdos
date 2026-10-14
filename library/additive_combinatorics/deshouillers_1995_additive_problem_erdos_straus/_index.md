@@ -211,8 +211,8 @@ $(2+o(1))\sqrt N$ bound for the problem's $k(N)$, with the constant $2$
 best possible by Straus's block (p. 34: an admissible
 $\mathcal A\subset[1,N]$ with $|\mathcal A|=\lfloor2\sqrt N-1\rfloor$
 exists); it gives $k(N)=2N^{1/2}+O(N^{5/12})$, hence $k(N)\sim2N^{1/2}$,
-the affirmative answer to the site's asymptotic question, before the exact
-bound $k(N)\le2\sqrt{N+1/4}-1$ for large $N$ of the 1999 paper. Theorem 2
+the affirmative answer to erdosproblems.com's asymptotic question, before the
+exact bound $k(N)\le2\sqrt{N+1/4}-1$ for large $N$ of the 1999 paper. Theorem 2
 (p. 34, PDF p. 2, page image) is the structure theorem quoted as Theorem 2
 of the 1999 paper, on which its Theorem 1, the problem's status-defining
 result, rests. [[../wiki/problems/additive_combinatorics/E0875/_index|#875]]: Theorem 1

@@ -88,8 +88,8 @@ the number of solutions of $x^2-y^2=k$, both cited by the paper as known.
 - [[../wiki/problems/additive_bases/E0333/_index|Problem 333]]: the paper
   proves the bound for the first $n$ squares, a finite set; it says on
   p. 420 that results for infinite sets generally follow from finite ones
-  by condensation but does not carry this out for the squares. The site's
-  commentary, as the problem's
+  by condensation but does not carry this out for the squares. The
+  erdosproblems.com commentary, as the problem's
   [[../wiki/problems/additive_bases/E0333/claims/1977_11_01_erdos_newman|claim page]]
   records, credits the paper with a basis of the squares whose counting
   function is $o(N^{1/2})$, the case the problem generalizes. The bound

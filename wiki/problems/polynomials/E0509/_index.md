@@ -31,10 +31,10 @@ $$
 
 be covered by a set of circles the sum of whose radii is $\leq 2$?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited
 2025-12-29). Two accepted partial claims, both Pommerenke's, answer yes in the
-connected case, which the site's remarks credit to him. His 1959 theorem covers
-every monic $f$ whose open set $\{|f|<1\}$ is connected
+connected case, which the erdosproblems.com remarks credit to him. His 1959
+theorem covers every monic $f$ whose open set $\{|f|<1\}$ is connected
 ([[problems/polynomials/E0509/claims/1959_01_01_pommerenke|Pommerenke 1959]]).
 His 1961 paper covers every monic $f$ whose closed set $\{|f|\le1\}$ is
 connected
@@ -59,11 +59,12 @@ https://www.erdosproblems.com/509.
   Theorem 3, printed p. 222: "Let $\zeta=(z_1+\cdots+z_n)/n$, where
   $z_1,\cdots,z_n$ are the zeros of $f(z)$. If $E$ is connected, then $C$ is
   contained in the circle $|z-\zeta|<2$", $C$ the lemniscate $|f(z)|=1$ and
-  $E=\{|f(z)|<1\}$; this is the result behind the site's remark that the
-  constant $2$ can be reached when the set is connected: one disc of radius
-  $2$ covers $\{|f(z)|\le1\}$ when the open set $E$ is connected (the site's
-  remark names the closed set, a weaker condition that Pommerenke 1961 covers
-  in the proof of Theorem 10(b), p. 107); the accepted partial claim on
+  $E=\{|f(z)|<1\}$; this is the result behind the erdosproblems.com remark that
+  the constant $2$ can be reached when the set is connected: one disc of radius
+  $2$ covers $\{|f(z)|\le1\}$ when the open set $E$ is connected (the
+  erdosproblems.com remark names the closed set, a weaker condition that
+  Pommerenke 1961 covers in the proof of Theorem 10(b), p. 107); the accepted
+  partial claim on
   [[problems/polynomials/E0509/claims/1959_01_01_pommerenke|Pommerenke 1959]].
   The paper does not treat the general case of this page's question. Library
   home:
@@ -79,8 +80,8 @@ https://www.erdosproblems.com/509.
   $10.36\operatorname{cap}E$ enclose $E$. The introduction (p. 143) applies
   it to the set where a monic polynomial of degree $n$ has modulus at most
   $r^n$, whose capacity is $r$, as a sharpening of the Boutroux--Cartan
-  lemma. The site's commentary credits the bound $2.59$ to Pommerenke under
-  its key [Po61], which its reference record resolves to the 1961 paper
+  lemma. The erdosproblems.com commentary credits the bound $2.59$ to Pommerenke
+  under its key [Po61], which its reference record resolves to the 1961 paper
   below. That paper cites this one as its [12], for the length bound in its
   Theorem 7, and none of its numbered statements gives the covering bound.
 - [Po61] Pommerenke, Ch., On metric properties of complex polynomials. Michigan
@@ -103,33 +104,33 @@ at that commit the file states the question and three solved variants
 The general question is open. The known general bounds settle no instance
 of it: Cartan's lemma covers $\{|f|\le1\}$ by discs whose radii sum to
 $2e$, and Pommerenke [Po60] lowers that constant to $2.59$ (Satz 3, as
-Eremenko and Hayman (1999) also cite it; the site cites [Po61]; see
+Eremenko and Hayman (1999) also cite it; erdosproblems.com cites [Po61]; see
 References), while the question asks for the sum $2$. Pommerenke [Po59]
 proves that when the open set $\{|f|<1\}$ is connected, the lemniscate
 $|f|=1$ lies in the open disc of radius $2$ about the centroid of the zeros,
 so one disc of radius $2$ covers $\{|f|\le1\}$; that answers yes for every
 monic $f$ with connected $\{|f|<1\}$ and is the accepted partial claim on
 [[problems/polynomials/E0509/claims/1959_01_01_pommerenke|Pommerenke 1959]].
-Pommerenke [Po61] extends it to the case the site's remark names: when the
-closed set $\{|f|\le1\}$ is connected, it lies in the closed disc of radius
-$2$ about the centroid (proof of Theorem 10(b), p. 107), the accepted
+Pommerenke [Po61] extends it to the case the erdosproblems.com remark names:
+when the closed set $\{|f|\le1\}$ is connected, it lies in the closed disc of
+radius $2$ about the centroid (proof of Theorem 10(b), p. 107), the accepted
 partial claim on
 [[problems/polynomials/E0509/claims/1961_01_01_pommerenke|Pommerenke 1961]].
 Both are refereed in the Michigan Mathematical Journal and credited by the
-site's remarks, which label the problem OPEN. The pending partial claim on
-[[problems/polynomials/E0509/claims/2026_07_19_hong|Hong 2026]] asserts the
-answer yes for degrees two to four, with a write-up behind a sign-in and no
+erdosproblems.com remarks, which label the problem OPEN. The pending partial
+claim on [[problems/polynomials/E0509/claims/2026_07_19_hong|Hong 2026]] asserts
+the answer yes for degrees two to four, with a write-up behind a sign-in and no
 review. Erdős asked the higher-dimensional generalization as Problem 4.23 of
-[Ha74]. Search scope: the site's problem page (2026-10-07) and
+[Ha74]. Search scope: the erdosproblems.com problem page (2026-10-07) and
 proof-claims tab, the formal-conjectures statement file, and the two Pommerenke
 papers filed in the library; no other literature search is recorded.
 
 ## Known Results
 
 - Cartan's lemma: $\{|f|\le1\}$ is covered by discs whose radii sum to
-  $2e$; Pommerenke [Po60] improves the constant to $2.59$ (Satz 3; the site
-  cites [Po61], which contains no such bound). Neither reaches $2$, so
-  neither settles an instance of the question.
+  $2e$; Pommerenke [Po60] improves the constant to $2.59$ (Satz 3;
+  erdosproblems.com cites [Po61], which contains no such bound). Neither reaches
+  $2$, so neither settles an instance of the question.
 - [Po59], Theorem 3: when $\{|f|<1\}$ is connected, one disc of radius $2$
   about the centroid of the zeros covers $\{|f|\le1\}$; accepted partial
   claim on

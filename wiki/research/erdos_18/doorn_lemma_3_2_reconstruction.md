@@ -27,7 +27,7 @@ bound of
 (abstract and Section 1, physical p. 1; Section 2, p. 2) and does not
 say which step of that argument this lemma replaces; the description of
 the Price claim's analytic input as an exponential-sum theorem comes from
-the site comment recorded on the Price card, not from the note.
+the erdosproblems.com comment recorded on the Price card, not from the note.
 
 **Standing.** Author-recorded reconstruction of a *claimed* result (see
 [[research/erdos_18/doorn_lemma_3_1_reconstruction|the Lemma 3.1 page]] for

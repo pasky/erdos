@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 220, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0220/claims
@@ -13,7 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/integer_sequences/E0220/claims/1986_03_01_montgomery_vaughan|1986_03_01_montgomery_vaughan]]: Montgomery and Vaughan bound the power sums of the gaps between consecutive
 integers below $n$ and coprime to $n$, and the squared case answers the
-question yes. It is refereed (Annals of Mathematics, 1986) and credited by the
-site.
+question yes. It is refereed (Annals of Mathematics, 1986) and credited by
+erdosproblems.com.
 
 ***

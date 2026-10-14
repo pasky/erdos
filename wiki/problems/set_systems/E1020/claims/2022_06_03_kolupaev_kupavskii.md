@@ -49,7 +49,7 @@ Erdős matching conjecture for almost perfect matchings, Discrete Math. 346
 [[../library/set_systems/kolupaev_2023_erdos_matching_conjecture_almost_perfect_matchings/_index|Erdős matching conjecture for almost perfect matchings]].
 
 **Covers.** The range $r\ge5$, $k-1>101r^3$ and $rk\le n<k(r+1/(100r))$.
-The site records the hypothesis as $k>101r^3$. The window replaces the
+erdosproblems.com records the hypothesis as $k>101r^3$. The window replaces the
 exponentially narrow one of
 [[problems/set_systems/E1020/claims/2017_10_01_frankl|Frankl 2017]] at the
 cost of the lower bound on $k$.
@@ -58,7 +58,7 @@ cost of the lower bound on $k$.
 
 **Acceptance.** Refereed: the paper appeared in Discrete Mathematics 346 (2023),
 no. 4, Paper No. 113304. It was first posted as arXiv:2206.01526 on 2022-06-03.
-The site's commentary credits the range to the paper as [KoKu23]. The site
-labeled the problem FALSIFIABLE, which is an open label, so this commentary is
-not acceptance and no `reviewed` is listed. Nothing here rests on this project's
-own review.
+The erdosproblems.com commentary credits the range to the paper as [KoKu23].
+Bloom's catalog labeled the problem FALSIFIABLE, which is an open label, so this
+commentary is not acceptance and no `reviewed` is listed. Nothing here rests on
+this project's own review.

@@ -29,11 +29,11 @@ contains at least $F_k(p_1,\ldots,p_u)$ multiples of at least one of the $p_i$.
 Estimate $F_k(p_1,\ldots,p_u)$, particularly in the range $k=\alpha p_u$ for
 constant $\alpha>2$.
 
-**Status.** Open. The site labeled the problem OPEN and notes that no finite
-computation can resolve it. Its commentary reports from [Va99] that Erdős and
-Selfridge found the exact bound for $2<\alpha<3$ and that very little is known
-for $\alpha>3$. It gives no reference for the first of these. The reference is
-Theorem 1 of Section 6 of [Er78], recorded as the partial claim
+**Status.** Open. Bloom's catalog labeled the problem OPEN and notes that no
+finite computation can resolve it. Its commentary reports from [Va99] that Erdős
+and Selfridge found the exact bound for $2<\alpha<3$ and that very little is
+known for $\alpha>3$. It gives no reference for the first of these. The
+reference is Theorem 1 of Section 6 of [Er78], recorded as the partial claim
 [[problems/primes/E1143/claims/1978_01_01_erdos_selfridge|Erdős and Selfridge 1978]].
 Nothing is claimed for $\alpha\ge3$.
 
@@ -45,28 +45,29 @@ https://www.erdosproblems.com/1143.
 
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999);
-  the site cites item 1.8.
+  erdosproblems.com cites item 1.8.
 - [Er78] Erdős, P., Problems and results in combinatorial analysis and
   combinatorial number theory. Proceedings of the Ninth Southeastern
   Conference on Combinatorics, Graph Theory, and Computing (Boca Raton,
   1978), Congressus Numerantium XXI, Utilitas Math., Winnipeg (1978), 29--40;
-  Section 6, Theorem 1, pp. 35--37. Not cited by the site. Rényi archive
-  copy: https://users.renyi.hu/~p_erdos/1978-36.pdf. Library home:
+  Section 6, Theorem 1, pp. 35--37. Not cited by erdosproblems.com. Rényi
+  archive copy: https://users.renyi.hu/~p_erdos/1978-36.pdf. Library home:
   [[../library/extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/_index|erdos_1978_problems_results_combinatorial_analysis_combinatorial_number]].
 - [Er86c] Erdős, P., Some problems on number theory. Analytic and elementary
   number theory (Marseille, 1983), Publ. Math. Orsay 86-1 (1986), 53--67;
   pp. 60--62 restate the theorem of [Er78] with its proof, and p. 62 adds a
-  weaker bound for intervals of length at least $3p_u$. Not cited by the
-  site on this problem. Rényi archive copy:
+  weaker bound for intervals of length at least $3p_u$. Not cited by
+  erdosproblems.com on this problem. Rényi archive copy:
   https://users.renyi.hu/~p_erdos/1986-15.pdf. Library home:
   [[../library/integer_sequences/erdos_1986_problems_number_theory/_index|erdos_1986_problems_number_theory]].
 - [Ru95] Ruzsa, I. Z., Few multiples of many primes. Studia Sci. Math.
-  Hungar. 30 (1995), 123--125. Not cited by the site. Library home:
+  Hungar. 30 (1995), 123--125. Not cited by erdosproblems.com. Library home:
   [[../library/primes/ruzsa_1995_few_multiples_many_primes/_index|ruzsa_1995_few_multiples_many_primes]].
 - [GrRu17] Green, B. and Ruzsa, I. Z., On the arithmetic Kakeya conjecture
   of Katz and Tao. Period. Math. Hungar. 78 (2019), no. 2, 135--151,
   doi:10.1007/s10998-018-0270-z; arXiv:1712.02108 (2017), whose labels and
-  pages are cited; Proposition 4.1. Not cited by the site. Library home:
+  pages are cited; Proposition 4.1. Not cited by erdosproblems.com. Library
+  home:
   [[../library/primes/green_2017_arithmetic_kakeya_conjecture_katz_tao/_index|green_2017_arithmetic_kakeya_conjecture_katz_tao]].
 
 **Formalization.** None recorded. The community database recorded no
@@ -74,18 +75,18 @@ formalized statement on 2026-10-06.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-04; page last edited 23
-January 2026).** The statement above, labeled OPEN. $F_k(p_1,\ldots,p_u)$
-counts integers divisible by at least one of the primes, each integer once,
-which is how Theorem 1 of [Er78] counts ("distinct multiples of the
-$p$'s"); a thread comment of 2026-02-10 asked whether the count is instead
-taken for a single prime, and the statement's wording and Erdős's theorem
-both give the first reading. The site's commentary reports from [Va99] that
-Erdős and Selfridge found the exact bound for $2<\alpha<3$ and that very
-little is known for $\alpha>3$, without a reference; the curator wrote in
-the thread on 2026-04-29 that [GrRu17] cites the Erdős--Selfridge work and
-that the site would be updated. The site's reference list carries only
-[Va99] (2026-10-06).
+**The question (erdosproblems.com formulation accessed 2026-09-04; page last
+edited 23 January 2026).** The statement above, labeled OPEN.
+$F_k(p_1,\ldots,p_u)$ counts integers divisible by at least one of the primes,
+each integer once, which is how Theorem 1 of [Er78] counts ("distinct multiples
+of the $p$'s"); a thread comment of 2026-02-10 asked whether the count is
+instead taken for a single prime, and the statement's wording and Erdős's
+theorem both give the first reading. The erdosproblems.com commentary reports
+from [Va99] that Erdős and Selfridge found the exact bound for $2<\alpha<3$ and
+that very little is known for $\alpha>3$, without a reference; the curator wrote
+in the thread on 2026-04-29 that [GrRu17] cites the Erdős--Selfridge work and
+that erdosproblems.com would be updated. The erdosproblems.com reference list
+carries only [Va99] (2026-10-06).
 
 **Progress.** For $2<\alpha<3$ the question is answered when $u$ is a
 perfect square: Theorem 1 of Section 6 of [Er78], the claim page
@@ -121,11 +122,11 @@ lower bound $F_{\lfloor\alpha p_u\rfloor}(p_1,\ldots,p_u)\gg u^{6/11}$
 for $\alpha\ge3$. It has no claim page: it settles no instance of $F$, and
 the thread, and then the curator, identified its connection as one of the
 equivalences of Proposition 4.1 of [GrRu17]. The thread carries no proof
-claim and the site's proof-claim tab is empty (2026-10-06).
+claim and the erdosproblems.com proof-claim tab is empty (2026-10-06).
 
-**Search scope.** The site's problem page, proof-claim tab and community
-database record (2026-10-06) and the discussion thread (2026-10-07); the
-Rényi archive copies of [Er78] (pp. 35--37) and [Er86c] (pp. 59--61); the
+**Search scope.** The erdosproblems.com problem page, proof-claim tab and
+community database record (2026-10-06) and the discussion thread (2026-10-07);
+the Rényi archive copies of [Er78] (pp. 35--37) and [Er86c] (pp. 59--61); the
 library cards of [Ru95] and [GrRu17]. Not searched: MathSciNet, zbMATH,
 Google Scholar, arXiv beyond [GrRu17], X. No proof is checked here, and
 nothing on this page is independently reviewed.

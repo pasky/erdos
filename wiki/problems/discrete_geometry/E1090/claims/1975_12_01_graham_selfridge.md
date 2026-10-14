@@ -45,14 +45,15 @@ whose construction gives the case $k=3$ as well.
 
 **Claimant.** The result is Graham and Selfridge's; its only record is Erdős's
 report in Ann. Mat. Pura Appl. (4) 103 (1975), 99--108, an issue dated December
-1975 with no day, so the page is dated to the publication month. The site's
-commentary (page last edited 2025-10-19) and the formal-conjectures
-[statement file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1090.lean)
+1975 with no day, so the page is dated to the publication month. The
+erdosproblems.com commentary (page last edited 2025-10-19) and the
+formal-conjectures [statement
+file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1090.lean)
 repeat the report in one sentence each and add nothing to it.
 
 **Acceptance.** None recorded. Erdős's report is the poser's word that the case
 was answered, with no argument to examine. This page does not count it as
-acceptance evidence. Thomas Bloom, the site's curator, labeled the problem
-proved for Hunter's construction, which settles every $k$. That label credited
-nothing to this case. There is no refereed proof and no formalization of the
-Graham and Selfridge argument, so the claim stays `claimed`.
+acceptance evidence. Thomas Bloom, the erdosproblems.com curator, labeled the
+problem proved for Hunter's construction, which settles every $k$. That label
+credited nothing to this case. There is no refereed proof and no formalization
+of the Graham and Selfridge argument, so the claim stays `claimed`.

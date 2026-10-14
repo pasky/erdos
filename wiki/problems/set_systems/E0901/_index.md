@@ -24,7 +24,7 @@ updated: 2026-10-14T00:16:44Z
 **Statement.** Let $m(n)$ be minimal such that there is an $n$-uniform
 hypergraph with $m(n)$ edges which is $3$-chromatic. Estimate $m(n)$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 28
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 28
 December 2025). Its note says that no finite computation can settle it.
 
 **Source.** [erdosproblems.com/901](https://www.erdosproblems.com/901), accessed
@@ -53,14 +53,14 @@ https://www.erdosproblems.com/901.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 28 December 2025).** The
-statement above; OPEN, with the site's note that no finite computation can
-settle it. $m(n)$ is the least number of edges of an $n$-uniform hypergraph
-without property B, that is, with no set that meets every edge and contains
-none; the site's header sources are [ErLo75, p. 610] and Erdős's 1982
-survey, and its commentary credits six papers, each recorded on an accepted
-partial claim page below. The problem asks for an estimate, so no claim
-page is a full claim and the derived standing is open.
+**The question (erdosproblems.com formulation, page last edited 28 December
+2025).** The statement above; OPEN, with the erdosproblems.com note that no
+finite computation can settle it. $m(n)$ is the least number of edges of an
+$n$-uniform hypergraph without property B, that is, with no set that meets every
+edge and contains none; the erdosproblems.com header sources are [ErLo75, p.
+610] and Erdős's 1982 survey, and its commentary credits six papers, each
+recorded on an accepted partial claim page below. The problem asks for an
+estimate, so no claim page is a full claim and the derived standing is open.
 
 **Bounds.** The best bounds on record are
 
@@ -96,13 +96,13 @@ page.
 **Small values.** $m(2)=3$ (a triangle) and $m(3)=7$ (the Fano plane) are
 recorded in Erdős's 1963 paper, and $m(4)=23$ is Östergård's
 [[problems/set_systems/E0901/claims/2014_01_01_ostergard|computer-assisted determination of 2014]],
-which the site lists without a source. No value with $n\ge5$ is known.
+which erdosproblems.com lists without a source. No value with $n\ge5$ is known.
 
-Search scope, with the sources as they stood on 2026-10-06: the site's problem
-page (OPEN, last edited 28 December 2025, no proof claims) and its one-comment
-discussion thread (21 December 2025, pointing to [ErLo75]); the community
-database lists the problem as open and unformalized as of its last update; the
-formal-conjectures statement file is linked above.
+Search scope, with the sources as they stood on 2026-10-06: the
+erdosproblems.com problem page (OPEN, last edited 28 December 2025, no proof
+claims) and its one-comment discussion thread (21 December 2025, pointing to
+[ErLo75]); the community database lists the problem as open and unformalized as
+of its last update; the formal-conjectures statement file is linked above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

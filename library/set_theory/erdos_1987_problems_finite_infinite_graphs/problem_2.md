@@ -40,6 +40,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/set_theory/E0118/_index|Problem 118]]: the question is
-  this problem's, which the site states for every $n\ge3$ and for $\alpha$ a
-  cardinal, ordinal or order type; the print leaves $\alpha$ and $n$
+  this problem's, which erdosproblems.com states for every $n\ge3$ and for
+  $\alpha$ a cardinal, ordinal or order type; the print leaves $\alpha$ and $n$
   unqualified. The paper poses it and records no result on it.

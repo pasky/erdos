@@ -46,12 +46,12 @@ $$
 Statement, asks whether every $2$-coloring of the edges of $K_n$ leaves at
 most $n^2/4$ edges in no monochromatic triangle for large $n$, the form in
 which Erdős stated the bound. The theorem proves it: the maximum is
-$\lfloor n^2/4\rfloor\le n^2/4$ for every $n\ge7$. The site's label
+$\lfloor n^2/4\rfloor\le n^2/4$ for every $n\ge7$. The erdosproblems.com label
 PROVED (LEAN), the earlier unpublished large-$n$ result of Erdős, Rousseau
 and Schelp and Alon's deduction from Pyber's clique-covering theorem all
 concern the same statement, as the problem page records. The theorem's
-small values also refute the site's wording, which drops "for large $n$",
-at $n=3,4,5,6$ ($3$, $6$, $10$ and $10$ edges against $9/4$, $4$, $25/4$
+small values also refute the erdosproblems.com wording, which drops "for large
+$n$", at $n=3,4,5,6$ ($3$, $6$, $10$ and $10$ edges against $9/4$, $4$, $25/4$
 and $9$); the problem page's Notes credit that refutation, which counts for
 nothing. The theorem is paged at
 [[../library/ramsey_theory/keevash_2004_number_edges_not_covered_monochromatic_copies/theorem_1_1|Theorem 1.1]]
@@ -83,16 +83,16 @@ line, so the first posting was in 2003 and not in the issue month, January
 "available online" day could not be retrieved, so the paper link carries no
 date. The paper was received on 9 May 2002.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-PROVED (LEAN), a label that describes the modified Statement (page accessed
-2026-09-18). In the problem's commentary, the curator credits the complete
-solution of the problem to Keevash and Sudakov's theorem, with the same three
-small values. The thread's one comment concerns the formalization below, and the
-proof-claim tab is empty. Refereed: J. Combin. Theory Ser. B 90 (2004), no. 1,
-41--53. The acknowledgments credit Thomason and Scott with catching a mistake in
-an earlier draft, so the journal version is the one used. On 2026-09-18
-Semantic Scholar listed ten citing records, none of them, by its title, a
-dispute or correction.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem PROVED (LEAN), a label that describes the modified Statement (page
+accessed 2026-09-18). In the problem's commentary, the curator credits the
+complete solution of the problem to Keevash and Sudakov's theorem, with the same
+three small values. The thread's one comment concerns the formalization below,
+and the proof-claim tab is empty. Refereed: J. Combin. Theory Ser. B 90 (2004),
+no. 1, 41--53. The acknowledgments credit Thomason and Scott with catching a
+mistake in an earlier draft, so the journal version is the one used. On
+2026-09-18 Semantic Scholar listed ten citing records, none of them, by its
+title, a dispute or correction.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos639.lean` of
 Boris Alexeev's repository `plby/lean-proofs`, linked above at the commit of
@@ -113,12 +113,13 @@ for every finite vertex type `V` with at least $10$ vertices, that is,
 Proposition 2.1 of the paper: the bound for $n\ge10$, which gives the
 modified Statement's bound for all sufficiently large $n$. It formalizes
 neither the exact values for $n\le9$ nor the small-$n$ failures of the
-site's wording. Two of its lemmas are marked as proved by Aristotle, and its
-closing comment records `#print axioms erdos639` as `propext`,
+erdosproblems.com wording. Two of its lemmas are marked as proved by Aristotle,
+and its closing comment records `#print axioms erdos639` as `propext`,
 `Classical.choice` and `Quot.sound`. The file at the pinned commit (20,240
 bytes) contains no `sorry` and no `axiom` line; nothing was built or audited
 here and no statement-fidelity audit exists, so the file is a link and not
-`formalized` evidence. It is the artifact behind the site's (Lean) suffix.
+`formalized` evidence. It is the artifact behind erdosproblems.com's (Lean)
+suffix.
 
 **Read depth.** Claims checked: Theorem 1.1, the paragraph before it, the
 small-$n$ paragraph and Proposition 2.1, printed pp. 42--44. The proof of

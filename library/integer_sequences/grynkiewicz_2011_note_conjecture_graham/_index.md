@@ -24,8 +24,8 @@ theorem lists.
 
 D. J. Grynkiewicz, *Note on a conjecture of Graham*, European J. Combin.
 **32** (2011), no. 8, 1336--1344, doi:10.1016/j.ejc.2011.06.004;
-arXiv:0903.3200. The site's page for Problem 541 did not cite this paper
-when read on 2026-10-07; a comment of 14 April 2026 in the problem's
+arXiv:0903.3200. The erdosproblems.com page for Problem 541 did not cite this
+paper when read on 2026-10-07; a comment of 14 April 2026 in the problem's
 discussion thread cites it as [Gr11], linking the journal article, and
 calls it an easy proof of the
 Erdős--Szemerédi theorem from the Cauchy--Davenport theorem and the

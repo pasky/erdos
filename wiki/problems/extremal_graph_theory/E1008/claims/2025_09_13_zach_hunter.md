@@ -41,11 +41,11 @@ updated: 2026-10-08T00:36:27Z
 [[problems/extremal_graph_theory/E1008/_index|Problem 1008]] is yes, with
 $c=\tfrac12$: every graph $G$ with $m$ edges contains a $C_4$-free subgraph
 with at least $\tfrac12m^{2/3}$ edges. The source of the claim is a post in
-the site's discussion thread, not a manuscript: the argument was posted to
-the forum on 13 September 2025 by the account zach hunter (the site's
-commentary writes Hunter) and, as this page reads it, runs as follows: $G$
-has at most $\binom m2$ four-cycles, since each $4$-cycle contains two
-matchings of size two, each such matching lies in at most two $4$-cycles,
+the erdosproblems.com discussion thread, not a manuscript: the argument was
+posted to the forum on 13 September 2025 by the account zach hunter (the
+erdosproblems.com commentary writes Hunter) and, as this page reads it, runs as
+follows: $G$ has at most $\binom m2$ four-cycles, since each $4$-cycle contains
+two matchings of size two, each such matching lies in at most two $4$-cycles,
 and there are at most $\binom m2$ matchings of size two; keep each edge
 independently with
 probability $p=m^{-1/3}$ and delete one edge from every surviving
@@ -57,8 +57,8 @@ deletion argument of Conlon, Fox and Sudakov's Theorem 2.1
 with the four-cycle count sharpened from $2m^2$ to $\binom m2$, and its
 constant is the one the Lean development described below states.
 
-**Submission note.** Posted to the site's forum by Zach Hunter on 13 September
-2025:
+**Submission note.** Posted to the erdosproblems.com forum by Zach Hunter on 13
+September 2025:
 
 > here is a proof:
 >
@@ -80,24 +80,24 @@ constant is the one the Lean development described below states.
 >
 > (The site has been updated to address this comment.)
 
-**Acceptance.** The site's curator, Thomas Bloom, replied in the thread on 14
-September 2025. The reply approved the argument as clean and said the page would
-be updated. The site's commentary credits Hunter's post with a simple proof
-(page last edited 27 December 2025). A typo in the sampling probability was
-reported and corrected on 18 October 2025. The `reviewed` evidence is this
-documented acceptance by the curator, who took no part in the proof. There is no
-publication. This project followed the argument as written, which is not an
-independent review. The problem's standing also rests on the refereed claim of
-Conlon, Fox and Sudakov
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, replied in the
+thread on 14 September 2025. The reply approved the argument as clean and said
+the page would be updated. The erdosproblems.com commentary credits Hunter's
+post with a simple proof (page last edited 27 December 2025). A typo in the
+sampling probability was reported and corrected on 18 October 2025. The
+`reviewed` evidence is this documented acceptance by the curator, who took no
+part in the proof. There is no publication. This project followed the argument
+as written, which is not an independent review. The problem's standing also
+rests on the refereed claim of Conlon, Fox and Sudakov
 ([[problems/extremal_graph_theory/E1008/claims/2014_01_27_conlon_fox_sudakov|their claim page]]).
 
 **Formalization.** The file `src/v4.29.1/ErdosProblems/Erdos1008.lean` of
 Boris Alexeev's repository plby/lean-proofs (Lean v4.29.1 with Mathlib
 v4.29.1, `import Mathlib` its only import; 673 lines at the pinned commit of
-2026-09-15, linked above), announced in the site's forum on 17 January 2026,
-declares itself a formalization of this result: its header names Conlon, Fox
-and Sudakov, Hunter and ChatGPT as informal authors and the automated prover
-Aristotle and Alexeev as formal authors. Its final theorem
+2026-09-15, linked above), announced in the erdosproblems.com forum on 17
+January 2026, declares itself a formalization of this result: its header names
+Conlon, Fox and Sudakov, Hunter and ChatGPT as informal authors and the
+automated prover Aristotle and Alexeev as formal authors. Its final theorem
 `exists_C4_free_subgraph_with_many_edges` states that every finite simple
 graph $G$ has a set $S'\subseteq E(G)$ no four of whose edges form a
 $4$-cycle (the file's own `is_C4`) with $|S'|\ge\tfrac12|E(G)|^{2/3}$; a

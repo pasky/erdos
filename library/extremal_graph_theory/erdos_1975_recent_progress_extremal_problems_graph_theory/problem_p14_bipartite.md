@@ -45,8 +45,8 @@ in the source.
 
 ## Proof pointer
 
-None in the source. The site's account credits de Caen and Székely (1992,
-not held) with a negative answer; see the problem page.
+None in the source. erdosproblems.com's account credits de Caen and Székely
+(1992, not held) with a negative answer; see the problem page.
 
 ## Dependencies
 
@@ -54,7 +54,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1080/_index|Problem 1080]]: the site's [Er75]
-  source; the question in Erdős's 1975 words with the classes of sizes
-  $[n^{2/3}]$ and $n-[n^{2/3}]$, the form the site's statement follows, and
-  the $C_8$ remark as printed.
+- [[../wiki/problems/extremal_graph_theory/E1080/_index|Problem 1080]]:
+  erdosproblems.com's [Er75] source; the question in Erdős's 1975 words with the
+  classes of sizes $[n^{2/3}]$ and $n-[n^{2/3}]$, the form the erdosproblems.com
+  statement follows, and the $C_8$ remark as printed.

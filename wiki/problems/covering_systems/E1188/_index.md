@@ -30,24 +30,24 @@ covering system is one such that no proper subset forms a covering system.
 Let $F(x)$ count the number of minimal distinct covering systems with all moduli
 in $[1,x]$. Estimate $F(x)$.
 
-**Formulation.** The site's question departs from Erdős's. The 1980 survey
-[Er80], printed p. 95, asks for the largest number $j_x$ of covering
+**Formulation.** The erdosproblems.com question departs from Erdős's. The 1980
+survey [Er80], printed p. 95, asks for the largest number $j_x$ of covering
 systems whose moduli are all distinct across the systems and below $x$, and
 Erdős writes that he expects $j_x$ to tend to infinity very slowly; Hough's
 theorem [Ho15], that the least modulus of a covering system with distinct
 moduli is bounded, makes $j_x$ bounded, a negative answer to that
 expectation. A comment of 2026-04-17 by van Doorn on the discussion thread
-pointed this out, the curator agreed, and the site kept its reworded
+pointed this out, the curator agreed, and erdosproblems.com kept its reworded
 question about $F(x)$, whose commentary says that Erdős asked it without the
-minimality assumption. The standing below concerns the site's $F(x)$.
+minimality assumption. The standing below concerns erdosproblems.com's $F(x)$.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 17 April
-2026, as of 2026-10-06). The standing is claimed through a pending full claim,
-described below. The site's commentary records that $F(x)\to\infty$. It gives
-the elementary bound $F(x)\gg\log x$ from van Doorn's comment, the lower bound
-$F(x)\ge\exp((\log x)^{3-o(1)})$ from the construction of Balister, Bollobás,
-Morris, Sahasrabudhe and Tiba, and the trivial upper bound
-$F(x)\le\exp(O(x\log x))$. The lower bound is an accepted partial claim on
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 17
+April 2026, accessed 2026-10-06). The standing is claimed through a pending full
+claim, described below. The erdosproblems.com commentary records that
+$F(x)\to\infty$. It gives the elementary bound $F(x)\gg\log x$ from van Doorn's
+comment, the lower bound $F(x)\ge\exp((\log x)^{3-o(1)})$ from the construction
+of Balister, Bollobás, Morris, Sahasrabudhe and Tiba, and the trivial upper
+bound $F(x)\le\exp(O(x\log x))$. The lower bound is an accepted partial claim on
 [[problems/covering_systems/E1188/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|its claim page]].
 
 The proof-claims tab carries one full claim, recorded without adoption on
@@ -56,11 +56,11 @@ It asserts that $\log\log F(x)/\log x\to1$, that is $F(x)=\exp(x^{1+o(1)})$,
 which places $F$ near the trivial upper bound. It comes with a Lean 4 proof in a
 downloadable bundle, produced by the Star Fleet Math system running GPT 5.6 in a
 custom harness. The claim was accepted in Star Fleet Math's listing on
-2026-07-12 and submitted to the site on 2026-07-15 by Colin Snyder. This corpus
-has not built the Lean bundle, and no outside review is recorded.
+2026-07-12 and submitted to erdosproblems.com on 2026-07-15 by Colin Snyder.
+This corpus has not built the Lean bundle, and no outside review is recorded.
 
 **Source.** [erdosproblems.com/1188](https://www.erdosproblems.com/1188)
-with its discussion thread (as of 2026-10-06: six comments in the discussion
+with its discussion thread (accessed 2026-10-06: six comments in the discussion
 thread, one proof claim). Cite as:
 T. F. Bloom, Erdős Problem #1188, https://www.erdosproblems.com/1188.
 
@@ -88,17 +88,17 @@ gives no formalized evidence and the problem stays claimed.
 
 ## Current assessment
 
-**Open on the site; a pending claim fixes the scale of $\log\log F$.** The
-refereed lower bound $F(x)\ge\exp((\log x)^{3-o(1)})$, derived on the site
-from the construction of Balister, Bollobás, Morris, Sahasrabudhe and Tiba,
-is an accepted partial claim on
+**Open on erdosproblems.com; a pending claim fixes the scale of $\log\log F$.**
+The refereed lower bound $F(x)\ge\exp((\log x)^{3-o(1)})$, derived on
+erdosproblems.com from the construction of Balister, Bollobás, Morris,
+Sahasrabudhe and Tiba, is an accepted partial claim on
 [[problems/covering_systems/E1188/claims/2019_04_09_balister_bollobas_morris_sahasrabudhe_tiba|its claim page]].
 Snyder's claim that $F(x)=\exp(x^{1+o(1)})$ is pending on
 [[problems/covering_systems/E1188/claims/2026_07_12_snyder|its claim page]].
-Hough's theorem [Ho15] gets no claim page here: the site gives no derivation
-of $F(x)\to\infty$ from the minimum-modulus theorem, the curator called that
-theorem more than is needed in the discussion thread, and van Doorn's
-elementary bound $F(x)\ge\lfloor\log_{12}x\rfloor$ on the thread already
+Hough's theorem [Ho15] gets no claim page here: erdosproblems.com gives no
+derivation of $F(x)\to\infty$ from the minimum-modulus theorem, the curator
+called that theorem more than is needed in the discussion thread, and van
+Doorn's elementary bound $F(x)\ge\lfloor\log_{12}x\rfloor$ on the thread already
 gives $F(x)\to\infty$. No release item or lead names the problem.
 <!-- BEGIN problem library links -->
 

@@ -73,7 +73,7 @@ positive part sizes. When $b=2a$, the value is $2a^{4/3}+O(a)$ for
 infinitely many $a$, and $2a^{4/3}+o(a^{4/3})$ as $a\to\infty$ through
 all positive integers. Section 2's bipartite construction on p. 3 has total
 order $N=3a$, avoids $C_5$ as well as $C_6$, and yields leading coefficient
-$2/3^{4/3}>2^{-4/3}$. The resulting disproof of the catalog's $k=3$
+$2/3^{4/3}>2^{-4/3}$. The resulting disproof of erdosproblems.com's $k=3$
 formula $(N/2)^{4/3}$ is a deduction by this compilation. Theorem 1.1's
 nonbipartite construction does not assert $C_5$-freeness, so its larger
 coefficient is not the lower bound used for the two-cycle catalog question.

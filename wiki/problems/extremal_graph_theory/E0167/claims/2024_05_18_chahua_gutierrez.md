@@ -68,7 +68,7 @@ theorems.
 
 **Acceptance.** Refereed: Discrete Appl. Math. 377 (2025), 225--233, per
 its Crossref record. The page numbers cited are those of arXiv v1, not
-compared with the journal text. The site does not cite the paper.
+compared with the journal text. erdosproblems.com does not cite the paper.
 
 **Read depth.** Claims checked: the three statements and the derivation of
 Corollary 13 from Theorem 12; the proofs of Theorems 5 and 15 are not

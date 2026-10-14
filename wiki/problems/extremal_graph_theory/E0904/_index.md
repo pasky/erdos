@@ -4,8 +4,8 @@ title: Problem 904
 desc: |
   Asks whether, for $n\ge r$, every graph with $n$ vertices and $m\ge t_r(n)$
   edges, $t_r(n)$ the Turán number for $K_{r+1}$, has an $r$-clique with degree
-  sum at least $2rm/n$. Proved by Bollobás and Nikiforov in 2005; the site's
-  wording, with no range, fails below $r$ vertices.
+  sum at least $2rm/n$. Proved by Bollobás and Nikiforov in 2005; the
+  erdosproblems.com wording, with no range, fails below $r$ vertices.
 tags:
 - Graph theory
 status: solved
@@ -42,11 +42,11 @@ $$
 d(x_1)+\cdots+d(x_r)\geq \frac{2rm}{n}.
 $$
 
-**Notes.** The site's wording leaves $n$ free and fails whenever $n<r$. For
-$n\le r$ no graph on $n$ vertices contains $K_{r+1}$, so $t_r(n)=\binom n2$
-and the only graph with $n$ vertices and $m\ge t_r(n)$ edges is $K_n$; for
-$n<r$ it has no clique on $r$ vertices, so the hypothesis is met and the
-conclusion fails. The smallest failing instance is $r=2$, $n=1$ ($K_1$,
+**Notes.** The erdosproblems.com wording leaves $n$ free and fails whenever
+$n<r$. For $n\le r$ no graph on $n$ vertices contains $K_{r+1}$, so
+$t_r(n)=\binom n2$ and the only graph with $n$ vertices and $m\ge t_r(n)$ edges
+is $K_n$; for $n<r$ it has no clique on $r$ vertices, so the hypothesis is met
+and the conclusion fails. The smallest failing instance is $r=2$, $n=1$ ($K_1$,
 $m=0\ge t_2(1)=0$, no edge); the first that asks for a triangle is $r=3$,
 $n=2$ ($K_2$, $m=1\ge t_3(2)=1$, no triangle). The change inserts "$\geq r$"
 after "a graph with $n$", which excludes exactly the sizes at which no graph
@@ -57,47 +57,48 @@ $r=3$, in [Er75], printed p. 13, assumes $e\ge n^2/3$, which excludes $n<3$
 by itself ($n=1$ needs $e\ge1/3$ and $n=2$ needs $e\ge4/3$, both above
 $\binom n2$). The hypothesis $n\ge r$ of Theorems 1 and 2 of [BoNi05] is a
 theorem's range and is not the evidence, and the formal-conjectures
-statement, which quantifies over $1\le r\le n$, counts with the site. The
-defect is not in Erdős's 1975 words: it comes with the hypothesis
+statement, which quantifies over $1\le r\le n$, counts with erdosproblems.com.
+The defect is not in Erdős's 1975 words: it comes with the hypothesis
 $m\ge t_r(n)$ in place of his $e\ge n^2/3$, a form the introduction of
 [BoNi05] (p. 2) already prints with no range on $n$ (its display (2) fails
 for $2\le n<r$, where $\Delta_r(n,m)=0$ by its convention); whether the 1975
 Aberdeen collection [BoEr75], where [BoNi05] places the conjecture for every
 $r$, restricts $n$ is unknown, since that collection is unread.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 3
-April 2026, when, as the thread records, the page's former content moved to
-Problem 1033 and this page received a further generalization of the original
-question). $t_r(n)$ is the number of edges of the Turán graph $T_r(n)$, the
-complete $r$-partite graph on $n$ vertices with classes as equal as possible;
-$d(x)$ is the degree. In the notation of the status-defining paper,
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 3 April 2026, when, as the thread records, the page's former content
+moved to Problem 1033 and this page received a further generalization of the
+original question). $t_r(n)$ is the number of edges of the Turán graph $T_r(n)$,
+the complete $r$-partite graph on $n$ vertices with classes as equal as
+possible; $d(x)$ is the degree. In the notation of the status-defining paper,
 $\Delta_r(G)$ is the largest degree sum of an $r$-clique of $G$ and
 $\Delta_r(n,m)$ its minimum over graphs with $n$ vertices and $m$ edges, and
 the modified Statement reads $\Delta_r(n,m)\ge2rm/n$ for $n\ge r$ and
 $m\ge t_r(n)$. For regular graphs the conclusion is trivial, every vertex
 having degree $2m/n$, once an $r$-clique exists; the content is the
 non-regular case. Erdős's 1975 survey states only the case $r=3$, under
-$e\ge n^2/3$ in place of $m\ge t_3(n)$ (the site's commentary notes the
-difference; $t_3(n)=\lfloor n^2/3\rfloor$, so the two hypotheses differ by at
-most one edge). The site's label PROVED (LEAN) carries a catalog suffix
-explained under Formalization.
+$e\ge n^2/3$ in place of $m\ge t_3(n)$ (the erdosproblems.com commentary notes
+the difference; $t_3(n)=\lfloor n^2/3\rfloor$, so the two hypotheses differ by
+at most one edge). The erdosproblems.com label PROVED (LEAN) carries a catalog
+suffix explained under Formalization.
 
-**Status.** The site showed PROVED (LEAN). The label describes the modified
-Statement, the form the sources prove. Its Lean qualification is a catalog
-suffix explained under Formalization. The modified Statement holds by Theorem 2
-of [BoNi05] with its display (13), for every $r\ge2$ and $n\ge r$. This is
-recorded as the accepted full claim
+**Status.** erdosproblems.com showed PROVED (LEAN). The label describes the
+modified Statement, the form the sources prove. Its Lean qualification is a
+catalog suffix explained under Formalization. The modified Statement holds by
+Theorem 2 of [BoNi05] with its display (13), for every $r\ge2$ and $n\ge r$.
+This is recorded as the accepted full claim
 [[problems/extremal_graph_theory/E0904/claims/2004_10_08_bollobas_nikiforov|Bollobás--Nikiforov]],
-accepted on the refereed publication and the site's credit, and the frontmatter
-standing derives from it. The earlier ranges are accepted partial claims.
+accepted on the refereed publication and the erdosproblems.com credit, and the
+frontmatter standing derives from it. The earlier ranges are accepted partial
+claims.
 [[problems/extremal_graph_theory/E0904/claims/1978_01_01_edwards|Edwards]]
 covers $2\le r\le8$ and $n\ge r^2$, and every $r$ under $m>(r-1)n^2/2r$.
 [[problems/extremal_graph_theory/E0904/claims/1992_09_01_faudree|Faudree]]
-covers every $r\ge2$ and $n>r^2(r-1)/4$. The Lean proof behind the site's suffix
-declares itself a formalization of the Bollobás--Nikiforov paper. It is by
-Parcly Taxel with the AI system Aristotle, and it is a formalization link on
-that claim page. No build or audit of it is recorded, so it gives no
-`formalized` evidence.
+covers every $r\ge2$ and $n>r^2(r-1)/4$. The Lean proof behind the
+erdosproblems.com suffix declares itself a formalization of the
+Bollobás--Nikiforov paper. It is by Parcly Taxel with the AI system Aristotle,
+and it is a formalization link on that claim page. No build or audit of it is
+recorded, so it gives no `formalized` evidence.
 
 **Source.** [erdosproblems.com/904](https://www.erdosproblems.com/904),
 accessed 2026-09-18: the problem page (PROVED (LEAN), recording an affirmative
@@ -125,14 +126,14 @@ accessed 2026-09-18.
   degrees. Combinatorics (Proc. Fifth Hungarian Colloq., Keszthely, 1976),
   Vol. I, Colloq. Math. Soc. János Bolyai 18, North-Holland (1978), 293--306
   (the venue and pages as [BoNi05]'s reference [4] and the volume's contents
-  pages give them; the site's reference text gives "(1978), 293-306" with no
-  venue, and Erdős's 1982 paper cites it with the page "293"). Print only;
-  unread.
+  pages give them; the erdosproblems.com reference text gives "(1978), 293-306"
+  with no venue, and Erdős's 1982 paper cites it with the page "293"). Print
+  only; unread.
 - [Ed77] Edwards, C. S., The largest vertex degree sum for a triangle in a
   graph. Bull. London Math. Soc. 9 (1977), no. 2, 203--208,
-  doi:10.1112/blms/9.2.203. Not a site key; [BoNi05]'s reference [3], and the
-  Erdős--Laskar note's reference [7], which states a weaker form of its
-  theorem (below). Unread.
+  doi:10.1112/blms/9.2.203. Not an erdosproblems.com key; [BoNi05]'s reference
+  [3], and the Erdős--Laskar note's reference [7], which states a weaker form of
+  its theorem (below). Unread.
 - [Fa92] Faudree, Ralph J., Complete subgraphs with large degree sums. J.
   Graph Theory 16 (1992), no. 4, 327--334, doi:10.1002/jgt.3190160406 (the
   Crossref record carries the publisher's abstract). Unread.
@@ -141,22 +142,23 @@ accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|erdos_1975_recent_progress_extremal_problems_graph_theory]];
   the passage is paged at
   [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p13|conjecture_p13]].
-- [BoEr75] The site's source key, rendered on the page beside [Er75, p.13];
-  the site's export carries no reference text for it. [BoNi05]'s reference [2]
-  (p. 10) identifies the conjecture's source as B. Bollobás and P. Erdős,
-  Unsolved problems, Proc. Fifth Brit. Comb. Conf. (Univ. Aberdeen, Aberdeen,
-  1975), Winnipeg, Util. Math. Publ., 678--680, a volume published as Congr.
-  Numer. XV, Utilitas Math., Winnipeg (1976), as the card of Erdős's paper in
-  the same proceedings records
+- [BoEr75] The erdosproblems.com source key, rendered on the page beside [Er75,
+  p.13]; the erdosproblems.com export carries no reference text for it.
+  [BoNi05]'s reference [2] (p. 10) identifies the conjecture's source as B.
+  Bollobás and P. Erdős, Unsolved problems, Proc. Fifth Brit. Comb. Conf. (Univ.
+  Aberdeen, Aberdeen, 1975), Winnipeg, Util. Math. Publ., 678--680, a volume
+  published as Congr. Numer. XV, Utilitas Math., Winnipeg (1976), as the card of
+  Erdős's paper in the same proceedings records
   ([[../library/extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/_index|erdos_1976_problems_results_graph_theory_combinatorial_analysis]]),
   and the formal-conjectures file's docstring prints the key with the same
   title and pages. Unread.
 - [ErLa85] Erdős, P. and Laskar, R., A note on the size of a chordal subgraph.
-  Congr. Numer. 48 (1985), 81--86; p. 82, the attestation of [Ed77]. Not a
-  site key for this problem. Library home:
+  Congr. Numer. 48 (1985), 81--86; p. 82, the attestation of [Ed77]. Not an
+  erdosproblems.com key for this problem. Library home:
   [[../library/extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/_index|erdos_1985_note_size_chordal_subgraph]].
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
+file
 [`ErdosProblems/904.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/904.lean)
 of formal-conjectures, at the commit linked, declares
 `erdos_904 : answer(True) ↔ ∀ (V : Type*) [Fintype V] (G : SimpleGraph V) [DecidableRel G.Adj] (r : ℕ) (hr : r ∈ Set.Icc 1 (n V)) (hm : turanNumber (n V) r ≤ #G.edgeFinset), ∃ s, G.IsNClique r s ∧ 2 * r * #G.edgeFinset ≤ n V * ∑ v ∈ s, G.degree v`
@@ -166,16 +168,17 @@ under `category research solved, AMS 5`, with proof `sorry` and a
 `plby/lean-proofs` on its `main` branch (unpinned). Its `turanNumber n r` is
 the edge count of Mathlib's `turanGraph n r`, the inequality is cleared of the
 denominator $n$, and the quantifier `r ∈ Set.Icc 1 (n V)` restricts to
-$1\le r\le n$ (the file's choice, wider than the site's $r\ge2$ in one
+$1\le r\le n$ (the file's choice, wider than erdosproblems.com's $r\ge2$ in one
 direction and carrying the modified Statement's $n\ge r$ in the other). The
 external file, at the repository's commit of 15 September 2026 that the claim
 page's link pins, has 766 lines, is headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports four Mathlib modules,
 names Bollobás and Nikiforov as informal authors and the AI system Aristotle
-and Parcly Taxel as formal authors, and links the site's thread post of 18
-April 2026 and the gist first holding the file. It defines Faudree's greedy
-sequences (`IsPSequence`) and proves, in lemmas named for the paper's displays
-(`equation_8`, `equation_11`, `equation_12`, `equation_16`), the final theorem
+and Parcly Taxel as formal authors, and links the erdosproblems.com thread post
+of 18 April 2026 and the gist first holding the file. It defines Faudree's
+greedy sequences (`IsPSequence`) and proves, in lemmas named for the paper's
+displays (`equation_8`, `equation_11`, `equation_12`, `equation_16`), the final
+theorem
 `erdos904 : ∃ s, G.IsNClique r s ∧ 2 * r * #G.edgeFinset ≤ n V * ∑ v ∈ s, G.degree v`
 (line 741) under the same hypotheses `hr`, `hm` as the collection's statement,
 whose conclusion it is; a closing comment records `#print axioms` as
@@ -189,31 +192,31 @@ no build, audit or kernel check of it is recorded, so it gives no `formalized`
 evidence. The community database (`data/problems.yaml`, accessed 2026-09-18)
 lists `status` "proved (Lean)" as of its last update on 18 April 2026,
 `formal_status` Lean with no URL, the statement formalized since 26 June 2026
-and no formal-proof field; the site's indicator reads "Formalised statement?
-Yes".
+and no formal-proof field; the erdosproblems.com indicator reads "Formalised
+statement? Yes".
 
 ## Current assessment
 
-**The question (site wording accessed 2026-09-18).** The site's statement
-above, which fails for $n<r$, and the modified Statement below it (Notes);
-the site showed PROVED (LEAN), the label of the modified Statement; last
-edited 3 April 2026. The commentary attributes the conjecture to Bollobás and
-Erdős, mentions the name balanced clique for an $r$-clique whose average
-degree is at least the graph's, says that [Er75] conjectured only the case
-$r=3$ under the hypothesis $m\ge n^2/3$, credits Edwards [Ed78] with the range
-$2\le r\le8$ under $n\ge r^2$ and Faudree [Fa92] with every $r\ge2$ under
-$n>r^2(r-1)/4$, credits the full conjecture to Bollobás and Nikiforov
-[BoNi05], and points to Problem 1033 for the regime $m>t_{r-1}(n)$. The
-thread: a comment of 3 April 2026 by Parcly Taxel that the Edwards paper could
-not be accessed and that the best accessible lower bound was Fan's $21n/16$ (a
-remark about the former content of the page, now Problem 1033); the reply of
-the site's curator, Thomas Bloom, the same day that the page duplicated
-Problem 1033 and was being revised into the present generalization; and the
-exchange of 18 April 2026 in which Parcly Taxel reports a formalization made
-with help from the AI system Aristotle, the curator asks which solution was
-formalized, and the answer is the Bollobás--Nikiforov paper. The proof-claim
-tab is empty. The community database lists proved (Lean) as of its last update
-on 18 April 2026.
+**The question (erdosproblems.com wording accessed 2026-09-18).** The
+erdosproblems.com statement above, which fails for $n<r$, and the modified
+Statement below it (Notes); erdosproblems.com showed PROVED (LEAN), the label of
+the modified Statement; last edited 3 April 2026. The commentary attributes the
+conjecture to Bollobás and Erdős, mentions the name balanced clique for an
+$r$-clique whose average degree is at least the graph's, says that [Er75]
+conjectured only the case $r=3$ under the hypothesis $m\ge n^2/3$, credits
+Edwards [Ed78] with the range $2\le r\le8$ under $n\ge r^2$ and Faudree [Fa92]
+with every $r\ge2$ under $n>r^2(r-1)/4$, credits the full conjecture to Bollobás
+and Nikiforov [BoNi05], and points to Problem 1033 for the regime
+$m>t_{r-1}(n)$. The thread: a comment of 3 April 2026 by Parcly Taxel that the
+Edwards paper could not be accessed and that the best accessible lower bound was
+Fan's $21n/16$ (a remark about the former content of the page, now Problem
+1033); the reply of the erdosproblems.com curator, Thomas Bloom, the same day
+that the page duplicated Problem 1033 and was being revised into the present
+generalization; and the exchange of 18 April 2026 in which Parcly Taxel reports
+a formalization made with help from the AI system Aristotle, the curator asks
+which solution was formalized, and the answer is the Bollobás--Nikiforov paper.
+The proof-claim tab is empty. The community database lists proved (Lean) as of
+its last update on 18 April 2026.
 
 **Status support.**
 [[../library/extremal_graph_theory/bollobas_2005_sum_degrees_cliques/theorem_2|Theorem 2]]
@@ -233,10 +236,10 @@ modified Statement in full.
 bound from a graph whose degrees differ by at most one, so the conjectured
 bound is within $r$ of the truth. Acceptance evidence: the Electronic Journal
 of Combinatorics is refereed and open access, the article was published on 7
-November 2005 (DOI 10.37236/1988), and the site and the community database
-record the result. The arXiv v1 of October 2004 has not been compared with the
-journal text, whose abstract agrees with the preprint's except that it omits
-the preprint's closing sentence on edge weights, a generalization the
+November 2005 (DOI 10.37236/1988), and erdosproblems.com and the community
+database record the result. The arXiv v1 of October 2004 has not been compared
+with the journal text, whose abstract agrees with the preprint's except that it
+omits the preprint's closing sentence on edge weights, a generalization the
 preprint's text does not contain. Proof coverage: the statements of Theorems
 1, 2 and 3 and Corollary 1 are checked; the proof of Theorem 2 (pp. 6--7,
 through Theorem 1(iii), an edge count over the sets of common neighbors and
@@ -282,9 +285,9 @@ triangle $\{x_1,x_2,x_3\}$ with (1) $v(x_1)+v(x_2)+v(x_3)\ge\frac{6e}n\ge2n$."
 Erdős adds that (1) fails for $e<n^2/3$, that every $G(n;e)$ has an edge whose
 two degrees sum to at least $4e/n$ (his display (2)) by a simple averaging
 argument, and that the same method seems unable to prove (1). Only $r=3$
-appears in the survey; the site's second key [BoEr75] is the Aberdeen 1975
-problem collection, identified through [BoNi05]'s reference [2] and the formal
-file's docstring and unread; that collection is where [BoNi05] places the
+appears in the survey; erdosproblems.com's second key [BoEr75] is the Aberdeen
+1975 problem collection, identified through [BoNi05]'s reference [2] and the
+formal file's docstring and unread; that collection is where [BoNi05] places the
 conjecture for every $r$. The 1982 collection [Er82e], p. 71, says of the
 triangle case with $m>n^2/4$ and the bound $3n/2$ that "we formulated a more
 general conjecture (for $k(r)$ instead of $k(3)$). Edwards proved (1) and he
@@ -298,7 +301,7 @@ paper it cites and the ranges attested for Edwards concern this problem.
 **Search scope.** None of the routes below found a dispute of
 the theorem, a retraction, or a change of status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the external Lean file at the
   repository's commit of 15 September 2026 and the repository's notes file
   (GitHub, raw text); the community database record.
@@ -339,11 +342,11 @@ build of it is recorded.
   theorem.
   [[../library/extremal_graph_theory/bollobas_2005_sum_degrees_cliques/corollary_1|Corollary 1]]:
   $2rm/n\le\Delta_r(n,m)<2rm/n+r$.
-- [Ed78] (1978, unread): $2\le r\le8$ and $n\ge r^2$, per [BoNi05] and the
-  site; [Ed77] and [Ed78] (unread): every $r$ under $m>(r-1)n^2/2r$, the $r=3$
-  case under $m>n^2/3$, per [BoNi05]'s introduction; [ErLa85] attests only the
-  weaker triangle with degree sum at least $2n$ under $m\ge n^2/3$. The claim
-  page
+- [Ed78] (1978, unread): $2\le r\le8$ and $n\ge r^2$, per [BoNi05] and
+  erdosproblems.com; [Ed77] and [Ed78] (unread): every $r$ under
+  $m>(r-1)n^2/2r$, the $r=3$ case under $m>n^2/3$, per [BoNi05]'s introduction;
+  [ErLa85] attests only the weaker triangle with degree sum at least $2n$ under
+  $m\ge n^2/3$. The claim page
   [[problems/extremal_graph_theory/E0904/claims/1978_01_01_edwards|Edwards]].
 - [Fa92] (1992, refereed, unread): every $r\ge2$ and $n>r^2(r-1)/4$, per
   [BoNi05] and the publisher's abstract. The claim page

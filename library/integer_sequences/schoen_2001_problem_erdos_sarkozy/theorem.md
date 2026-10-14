@@ -125,12 +125,12 @@ credited to it on p. 192.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0012/_index|Problem 12]]: the first upper bound in
-  the conjectured shape, for pairwise coprime sets only, reported by the
-  site as $|A\cap\{1,\ldots,N\}|\ll N^{2/3}$ for infinitely many $N$ when
-  all elements of $A$ are pairwise coprime; sharpened in the same case by
-  [[integer_sequences/baier_2004_6/theorem|Baier's Theorem]] to
+  the conjectured shape, for pairwise coprime sets only, reported by
+  erdosproblems.com as $|A\cap\{1,\ldots,N\}|\ll N^{2/3}$ for infinitely many
+  $N$ when all elements of $A$ are pairwise coprime; sharpened in the same case
+  by [[integer_sequences/baier_2004_6/theorem|Baier's Theorem]] to
   $(3+\varepsilon)N^{2/3}/\log N$. It says nothing about general sets with
-  property P, for which the 2026 constructions credited by the site's
+  property P, for which the 2026 constructions credited by the erdosproblems.com
   commentary claim counting functions as large as
   $N/(\log N)^{O(\log\log\log N)}$, a claim recorded as pending on
   [[../wiki/problems/integer_sequences/E0012/claims/2026_04_03_deepmind|its claim page]].

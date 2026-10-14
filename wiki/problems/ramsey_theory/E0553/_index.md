@@ -33,13 +33,13 @@ $$
 
 as $n\to \infty$.
 
-**Formulation.** The site's wording (the page shows no last-edited date).
-$R(3,3,n)$ is the multicolor Ramsey number $r(K_3,K_3,K_n)$ and $R(3,n)$ the
-classical $r(K_3,K_n)$; the resolving paper writes $r_k(K_3;K_m)$ for $k$
+**Formulation.** The erdosproblems.com wording (the page shows no last-edited
+date). $R(3,3,n)$ is the multicolor Ramsey number $r(K_3,K_3,K_n)$ and $R(3,n)$
+the classical $r(K_3,K_n)$; the resolving paper writes $r_k(K_3;K_m)$ for $k$
 triangles against $K_m$, so $R(3,3,n)=r_2(K_3;K_n)$ and $R(3,n)=r_1(K_3;K_n)$,
-with the site's $n$ the paper's $m$. Both numbers are finite by Ramsey's
-theorem, and the question asks only that the ratio be unbounded, not for its
-rate.
+with erdosproblems.com's $n$ the paper's $m$. Both numbers are finite by
+Ramsey's theorem, and the question asks only that the ratio be unbounded, not
+for its rate.
 
 **Status.** Proved. The status-defining source is Theorem 3.2 of Alon and Rödl,
 Combinatorica 25 (2005), 125--141 (refereed). It gives
@@ -49,20 +49,20 @@ and Kim value $r(K_3,K_m)=\Theta(m^2/\log m)$, cited in the proof. Its case
 $k=2$ against its case $k=1$ gives
 $R(3,3,n)/R(3,n)\ge\Omega(n/(\log n)^{3+\delta})$ for every $\delta>0$, so the
 ratio tends to infinity. The paper states Conjecture 1.1 in the problem's words
-and says it is solved "in a strong form". The site's commentary records the same
-resolution. The claim page
+and says it is solved "in a strong form". The erdosproblems.com commentary
+records the same resolution. The claim page
 [[problems/ramsey_theory/E0553/claims/2005_03_01_alon_rodl|Alon and Rödl 2005]]
 records the theorem, its publication and the acceptance evidence, which is the
 curator's credit and the refereed venue. The frontmatter standing is derived
 from it.
 
 **Source.** [erdosproblems.com/553](https://www.erdosproblems.com/553),
-accessed 2026-09-17: the problem page (PROVED, the label the site gives a
-problem solved in the affirmative; source key [ErSo80]; no last-edited date
-shown), its empty discussion thread and its empty proof-claim tab. The site
-cites [AlRo05] and [Sh83] in its commentary and links OEIS A000791. Cite as:
-T. F. Bloom, Erdős Problem #553, https://www.erdosproblems.com/553, accessed
-2026-09-17.
+accessed 2026-09-17: the problem page (PROVED, the label erdosproblems.com gives
+a problem solved in the affirmative; source key [ErSo80]; no last-edited date
+shown), its empty discussion thread and its empty proof-claim tab.
+erdosproblems.com cites [AlRo05] and [Sh83] in its commentary and links OEIS
+A000791. Cite as: T. F. Bloom, Erdős Problem #553,
+https://www.erdosproblems.com/553, accessed 2026-09-17.
 
 **References.**
 
@@ -75,11 +75,11 @@ T. F. Bloom, Erdős Problem #553, https://www.erdosproblems.com/553, accessed
 - [ErSo80] Erdős, P. and Sós, V. T., Problems and results on Ramsey--Turán
   type theorems. Proceedings of the West Coast Conference on Combinatorics,
   Graph Theory and Computing (Arcata, 1979), Congressus Numerantium XXVI
-  (1980), 17--23. The site's source and [AlRo05]'s reference [15]; not
-  held.
+  (1980), 17--23. The erdosproblems.com source and [AlRo05]'s reference [15];
+  not held.
 - [Sh83] Shearer, J. B., A note on the independence number of triangle-free
   graphs. Discrete Math. 46 (1983), no. 1, 83--87,
-  doi:10.1016/0012-365X(83)90273-X. The site's source for
+  doi:10.1016/0012-365X(83)90273-X. The erdosproblems.com source for
   $R(3,n)\ll n^2/\log n$: Theorem 1, printed p. 83, the independence bound
   $\alpha\ge n(d\ln d-d+1)/(d-1)^2$ for triangle-free graphs of average
   degree $d$, from which $R(3,n)\le(1+o(1))n^2/\log n$ follows by the
@@ -121,22 +121,21 @@ T. F. Bloom, Erdős Problem #553, https://www.erdosproblems.com/553, accessed
 **Formalization.** A Lean proof of the solution in Boris Alexeev's repository,
 naming Alon and Rödl as informal authors, is linked on the claim page; this
 corpus has not built it. No file `ErdosProblems/553.lean` exists in
-formal-conjectures (main, read 2026-09-17); the site's page records no
-formalized statement, and the community database (teorth/erdosproblems, read
+formal-conjectures (main, read 2026-09-17); the erdosproblems.com page records
+no formalized statement, and the community database (teorth/erdosproblems, read
 2026-09-17) records the problem as proved and unformalized, with no formal-proof
 URL.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-17).** The statement
-above; status PROVED, the site's label for a problem solved in the
-affirmative; source key [ErSo80]. The commentary attributes the problem to
-Erdős and Sós and credits its solution to Alon and Rödl [AlRo05], adding
-that their work locates $R(3,3,n)$ at $n^3$ times a power of $\log n$; for
-comparison it recalls that Shearer [Sh83] showed $R(3,n)\ll n^2/\log n$. It
-places the problem as #22 in the Ramsey Theory section of the graphs
-collection and points to [925].
-There are no comments and no proof claims; the page links OEIS A000791
+**The question (erdosproblems.com formulation, accessed 2026-09-17).** The
+statement above; status PROVED, the erdosproblems.com label for a problem solved
+in the affirmative; source key [ErSo80]. The commentary attributes the problem
+to Erdős and Sós and credits its solution to Alon and Rödl [AlRo05], adding that
+their work locates $R(3,3,n)$ at $n^3$ times a power of $\log n$; for comparison
+it recalls that Shearer [Sh83] showed $R(3,n)\ll n^2/\log n$. It places the
+problem as #22 in the Ramsey Theory section of the graphs collection and points
+to [925]. There are no comments and no proof claims; the page links OEIS A000791
 (the values of $R(3,n)$). The community database record says proved (last
 updated 31 August 2025), not formalized.
 
@@ -180,7 +179,7 @@ upper bound is [AKS80]'s
 (printed p. 358, $R(3,x)<100x^2/\ln x$, with a four-sentence proof) and the
 lower bound [Ki95]'s
 [[../library/ramsey_theory/kim_1995_ramsey_number_has_order_magnitude/theorem_1_1|Theorem 1.1]];
-the site credits the upper bound to [Sh83], whose
+erdosproblems.com credits the upper bound to [Sh83], whose
 [[../library/ramsey_theory/shearer_1983_note_independence_number_triangle_free_graphs/theorem_1|Theorem 1]]
 (p. 83) sharpens the constant of [AKS80]'s
 [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_2|Theorem 2]]
@@ -191,21 +190,21 @@ gives $R(3,n)\le(1+o(1))n^2/\log n$ by the elementary step on its result
 page.
 
 **Best known bounds, not status.** From [AlRo05] with Sudakov's remark,
-$\Omega(n^3/(\log n)^{4+\delta})\le R(3,3,n)\le O(n^3/(\log n)^2)$; the
-site's $n^3(\log n)^{O(1)}$ is this up to the exponent. The abstract of
-[HeWi20] states, for fixed $s_1,\ldots,s_k\ge3$ with
-$S=\sum(s_i-2)$ and under the existence of weakly optimal $K_{s_i}$-free
-pseudorandom graphs, $\Omega(t^{S+1}/\log^{2S}t)\le r(s_1,\ldots,s_k,t)\le O(t^{S+1}/\log^St)$,
-and presents this as generalizing the Alon--Rödl case $s_1=\cdots=s_k=3$;
-for two triangles ($S=2$) that reads $\Omega(n^3/\log^4n)\le R(3,3,n)\le O(n^3/\log^2n)$,
-the same polylogarithmic gap. Only the paper's abstract is cited, and the
-exact power of $\log n$ in $R(3,3,n)$ is open in the sources searched; it
-is not the problem's question.
+$\Omega(n^3/(\log n)^{4+\delta})\le R(3,3,n)\le O(n^3/(\log n)^2)$;
+erdosproblems.com's $n^3(\log n)^{O(1)}$ is this up to the exponent. The
+abstract of [HeWi20] states, for fixed $s_1,\ldots,s_k\ge3$ with $S=\sum(s_i-2)$
+and under the existence of weakly optimal $K_{s_i}$-free pseudorandom graphs,
+$\Omega(t^{S+1}/\log^{2S}t)\le r(s_1,\ldots,s_k,t)\le O(t^{S+1}/\log^St)$, and
+presents this as generalizing the Alon--Rödl case $s_1=\cdots=s_k=3$; for two
+triangles ($S=2$) that reads
+$\Omega(n^3/\log^4n)\le R(3,3,n)\le O(n^3/\log^2n)$, the same polylogarithmic
+gap. Only the paper's abstract is cited, and the exact power of $\log n$ in
+$R(3,3,n)$ is open in the sources searched; it is not the problem's question.
 
 **Search scope.** None of the routes below found a
 dispute, a retraction or a sharper determination of $R(3,3,n)$.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures directory on main (no
   file 553).
 - The primary source: [AlRo05] pp. 1--3, 6, 7 and 13--15 of the authors'
@@ -231,12 +230,12 @@ paged at claims checked with its proof followed for structure, and nothing
 is independently reviewed; the problem's proof to compile is Theorem 3.2
 with Theorem 2.1 and Lemma 3.1 of [AlRo05]. (2) The $k=1$ base case rests
 on [AKS80] and [Ki95], cited in the paper; [AKS80]'s Theorem 3 and [Ki95]'s
-Theorem 1.1 are paged at statement depth on their result pages; the site's
-attribution to [Sh83] names a sharper constant, paged at statement depth on
-its result page, and the Shearer paper the proof uses, [Sh95], has its
-Corollary 1 paged at statement depth (its one-paragraph proof followed, the
-proof of the theorem it reduces to followed for structure only). (3) The
-journal text of [AlRo05] has not been compared with the authors' final
+Theorem 1.1 are paged at statement depth on their result pages; the
+erdosproblems.com attribution to [Sh83] names a sharper constant, paged at
+statement depth on its result page, and the Shearer paper the proof uses,
+[Sh95], has its Corollary 1 paged at statement depth (its one-paragraph proof
+followed, the proof of the theorem it reduces to followed for structure only).
+(3) The journal text of [AlRo05] has not been compared with the authors' final
 manuscript.
 <!-- BEGIN problem library links -->
 

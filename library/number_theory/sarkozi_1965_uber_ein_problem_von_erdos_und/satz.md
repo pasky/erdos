@@ -81,5 +81,5 @@ Sperner's theorem (the paper's [2]); the Lemma modifies a theorem of Katona
 - [[../wiki/problems/number_theory/E0362/_index|Problem 362]]: the status-defining source
   of the first question, $\#\{S\subseteq A:\sum S=t\}\ll2^N/N^{3/2}$ for
   $|A|=N$, with an absolute implied constant; the introduction's report of
-  the Erdős--Moser bound is the site's "with an additional factor of
+  the Erdős--Moser bound is erdosproblems.com's "with an additional factor of
   $(\log n)^{3/2}$".

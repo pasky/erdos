@@ -30,21 +30,21 @@ $$
 
 for all large $N$?
 
-**Formulation.** The site leaves it ambiguous whether $0\in\mathbb{N}$. $B$ is
-read as a set of natural numbers, as the thread and the formal-conjectures
-statement read it. If $B$ could be any set of integers, the answer would be
-trivially yes, since the partners needed can be placed among the negative
-integers, which the count ignores. If $\mathbb{N}$ is the positive integers, the
-site's wording fails trivially: $A=\{1\}$ has density zero and $1\notin B+B$ for
-every set $B$ of positive integers, so the answer is no. With $0$ allowed in $A$
-and $B$, the reading of the thread and of formal-conjectures, the answer is
-still no, by Theorem 2 of Erdős and Newman as their claim page derives. Both
-readings give the negative answer recorded here.
+**Formulation.** erdosproblems.com leaves it ambiguous whether $0\in\mathbb{N}$.
+$B$ is read as a set of natural numbers, as the thread and the
+formal-conjectures statement read it. If $B$ could be any set of integers, the
+answer would be trivially yes, since the partners needed can be placed among the
+negative integers, which the count ignores. If $\mathbb{N}$ is the positive
+integers, the erdosproblems.com wording fails trivially: $A=\{1\}$ has density
+zero and $1\notin B+B$ for every set $B$ of positive integers, so the answer is
+no. With $0$ allowed in $A$ and $B$, the reading of the thread and of
+formal-conjectures, the answer is still no, by Theorem 2 of Erdős and Newman as
+their claim page derives. Both readings give the negative answer recorded here.
 
-**Status.** The site labeled the problem disproved, with a Lean qualifier (page
-last edited 2025-12-27). The negative answer follows from Theorem 2 of [ErNe77],
-which Erdős and Graham appear to have overlooked. A separate direct construction
-has a Lean 4 proof. Both are accepted claims.
+**Status.** Bloom's catalog labeled the problem disproved, with a Lean qualifier
+(page last edited 2025-12-27). The negative answer follows from Theorem 2 of
+[ErNe77], which Erdős and Graham appear to have overlooked. A separate direct
+construction has a Lean 4 proof. Both are accepted claims.
 [[problems/additive_bases/E0333/claims/1977_11_01_erdos_newman|Erdős and Newman 1977]]
 rests on the curator's acceptance and the journal publication. The Lean-backed
 construction,
@@ -71,27 +71,28 @@ records the build.
 ## Current assessment
 
 **Disproved by a refereed theorem of 1977, identified in December 2025, and by a
-Lean-checked construction.** The site's formulation above (page last edited
-2025-12-27) asks whether every set $A$ of density zero lies in $B+B$ for some
-$B$ with counting function $o(N^{1/2})$. The answer is no:
+Lean-checked construction.** The erdosproblems.com formulation above (page last
+edited 2025-12-27) asks whether every set $A$ of density zero lies in $B+B$ for
+some $B$ with counting function $o(N^{1/2})$. The answer is no:
 [[../library/additive_bases/erdos_1977_bases_sets_integers/theorem_2|Theorem 2]]
 of Erdős and Newman (1977) shows that most sets of $n$ non-negative integers
 with largest element $N$ need a basis of more than $\min(n/\log N,N^{1/2}/2)$
 elements, and applying it block by block along a dyadic sequence gives a
 density-zero $A$ whose every basis $B$ has
 $\lvert B\cap\{1,\ldots,N\}\rvert\gg N^{1/2}$ infinitely often; their claim page
-records the deduction, the site curator's acceptance of 2025-12-25 and the
-identifying team's account in the 2026 preprint of Feng and coauthors. The same
-thread carries a direct construction attributed to GPT-5.2 Pro with a Lean 4
-proof at a pinned commit (formal authors Claude Opus 4.5, Liam Price and Kevin
-Barreto), which the
-[formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/333.lean)
-names as the formal proof and which gives the site's label its Lean qualifier;
-this corpus built a later revision of the file, with the same main statement,
-checked its axioms and audited its statement, and the claim is accepted on that
-formalized evidence. This project has not reviewed the proof of Theorem 2.
+records the deduction, the erdosproblems.com curator's acceptance of 2025-12-25
+and the identifying team's account in the 2026 preprint of Feng and coauthors.
+The same thread carries a direct construction attributed to GPT-5.2 Pro with a
+Lean 4 proof at a pinned commit (formal authors Claude Opus 4.5, Liam Price and
+Kevin Barreto), which the [formal-conjectures statement
+file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/333.lean)
+names as the formal proof and which gives the erdosproblems.com label its Lean
+qualifier; this corpus built a later revision of the file, with the same main
+statement, checked its axioms and audited its statement, and the claim is
+accepted on that formalized evidence. This project has not reviewed the proof of
+Theorem 2.
 
-**Unassessed.** The account rests on the site's page and thread, the
+**Unassessed.** The account rests on the erdosproblems.com page and thread, the
 formal-conjectures statement file, the Lean development as built and audited,
 the Erdős--Newman source card, with Theorem 2 taken as a statement, and the
 Feng et al. preprint's classification through its source card. The proof of
@@ -101,9 +102,9 @@ no literature beyond these sources is assessed.
 ## Known Results
 
 Erdős and Newman [ErNe77] proved (p. 423) that the first $n$ squares have a
-basis of at most $n/(\log n)^{M}$ elements for every fixed $M$; the site's
-remark credits them with the positive case for the squares, a basis with
-counting function $o(N^{1/2})$. Their
+basis of at most $n/(\log n)^{M}$ elements for every fixed $M$; the
+erdosproblems.com remark credits them with the positive case for the squares, a
+basis with counting function $o(N^{1/2})$. Their
 [[../library/additive_bases/erdos_1977_bases_sets_integers/theorem_2|Theorem 2]],
 that most sets of $n$ non-negative integers with largest element $N$ need a
 basis of more than $\min(n/\log N,N^{1/2}/2)$ elements, gives the negative

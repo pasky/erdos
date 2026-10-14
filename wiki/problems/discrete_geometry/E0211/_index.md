@@ -59,16 +59,16 @@ proves it directly, and the incidence theorems of
 [[problems/discrete_geometry/E0211/claims/1983_09_01_szemeredi_trotter|Szemerédi and Trotter]]
 imply it, as Erdős records in his 1984 problem note (card
 [[../library/discrete_geometry/erdos_1984_research_problems/_index|erdos_1984_research_problems]]).
-Both papers are refereed and the site's curator credits both. The frontmatter
-standing derives from these two claims, which agree.
+Both papers are refereed and the erdosproblems.com curator credits both. The
+frontmatter standing derives from these two claims, which agree.
 
 The constant is not settled. In the 1984 note Erdős writes that Beck's value of
 $c$ seems too small and suggests conjecturing $c=1/6$, that is, at least $kn/6$
-lines (the site writes $(1+o(1))kn/6$), adding that this may be too optimistic
-and that a counterexample should be sought first. The constant $1/6$ would be
-best possible: there are sets of $n$ points with no four on a line and about
-$n^2/6$ lines through exactly three points, by the cubic-curve constructions of
-Burr, Grünbaum and Sloane (card
+lines (erdosproblems.com writes $(1+o(1))kn/6$), adding that this may be too
+optimistic and that a counterexample should be sought first. The constant $1/6$
+would be best possible: there are sets of $n$ points with no four on a line and
+about $n^2/6$ lines through exactly three points, by the cubic-curve
+constructions of Burr, Grünbaum and Sloane (card
 [[../library/discrete_geometry/burr_1974_orchard_problem/_index|burr_1974_orchard_problem]])
 and of Füredi and Palásti. That sharper question is a variant, not the problem,
 and no claim page records it.

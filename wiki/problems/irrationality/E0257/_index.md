@@ -28,10 +28,10 @@ $$
 
 irrational?
 
-**Status.** Open, the site's label (OPEN; page last edited 2026-04-15). No claim
-settles the question for every infinite support, so the frontmatter standing,
-`open`/`none`, follows. Accepted partial claim pages record the classes of
-supports that are settled.
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited
+2026-04-15). No claim settles the question for every infinite support, so the
+frontmatter standing, `open`/`none`, follows. Accepted partial claim pages
+record the classes of supports that are settled.
 [[problems/irrationality/E0257/claims/1948_07_08_erdos|Erdős's 1948 theorem]]
 covers $A=\mathbb N$ and its sets of multiples.
 [[problems/irrationality/E0257/claims/1965_12_13_erdos|Erdős's 1968 theorem]]
@@ -68,11 +68,11 @@ https://www.erdosproblems.com/257.
 
 ## Current assessment
 
-The question for arbitrary infinite supports is open: the site labeled Problem
-257 OPEN (page last edited 2026-04-15), and no result or claim settles it. The
-settled classes of supports, each with its claim page or its recorded reason,
-are these. $A=\mathbb N$ and its sets of multiples $d\mathbb N$: Erdős's 1948
-theorem at the bases $2$ and $2^d$, the accepted partial claim on
+The question for arbitrary infinite supports is open: Bloom's catalog labeled
+Problem 257 OPEN (page last edited 2026-04-15), and no result or claim settles
+it. The settled classes of supports, each with its claim page or its recorded
+reason, are these. $A=\mathbb N$ and its sets of multiples $d\mathbb N$: Erdős's
+1948 theorem at the bases $2$ and $2^d$, the accepted partial claim on
 [[problems/irrationality/E0257/claims/1948_07_08_erdos|its claim page]].
 Every pairwise coprime $A$ with $\sum_{a\in A}1/a<\infty$, at every integer
 base: Erdős's 1968 theorem, accepted on
@@ -82,8 +82,8 @@ coprime, polynomially bounded sequence $E$, the squarefree integers and the
 integers coprime to a fixed modulus among them: Duverney and Tachiya's
 Corollary 1.2 of 2019, accepted on
 [[problems/irrationality/E0257/claims/2019_08_14_duverney_tachiya|its claim page]].
-The primes: Theorem 1.3 of Tao and Teräväinen's preprint, which the site's
-curator accepts through Problem 69 and which is accepted on
+The primes: Theorem 1.3 of Tao and Teräväinen's preprint, which the
+erdosproblems.com curator accepts through Problem 69 and which is accepted on
 [[problems/irrationality/E0257/claims/2025_12_01_tao_teravainen|its claim page]];
 the paper only sketches the prime powers. Every $A$ with
 $\sum_{a\in A}1/a<\infty$, at every integer base: Theorem 1.1 of Cook's note
@@ -98,27 +98,27 @@ proves $\sum_{n\ge1}1/(q^n+r)$ irrational for every integer $|q|>1$ and
 nonzero rational $r\ne-q^n$; the card's specialization, $q=2^d$ and
 $r=-2^{-a}$, gives every single arithmetic progression $\{a+dk:k\ge0\}$ and
 every cofinite set. Tachiya's Theorem 1 (Tokyo J. Math. 27 (2004), no. 1,
-DOI 10.3836/tjm/1244208475), raised in the site's thread on 2025-09-05,
-proves $\sum_{n\ge1}a_n/(1-q^n)$ irrational for every integer $q\ge2$ and
-every period-two integer sequence $a_n$ not identically zero; the thread's
-specialization gives the even and the odd integers, which the thread notes
-already follow from Erdős's and Borwein's theorems. The formal-conjectures
+DOI 10.3836/tjm/1244208475), raised in the erdosproblems.com thread on
+2025-09-05, proves $\sum_{n\ge1}a_n/(1-q^n)$ irrational for every integer
+$q\ge2$ and every period-two integer sequence $a_n$ not identically zero; the
+thread's specialization gives the even and the odd integers, which the thread
+notes already follow from Erdős's and Borwein's theorems. The formal-conjectures
 catalog has tagged its variant for $A=\mathbb N$, `erdos_257.variants.tsum_top`,
 research solved with a formal proof link since 2026-09-23, while its main
 statement stays research open; the link is recorded on the 1948 claim page.
 
-A variant the site discusses settles no instance of the problem. Erdős
+A variant erdosproblems.com discusses settles no instance of the problem. Erdős
 speculated in 1988 that $\sum_{n\in A}1/(2^n-t_n)$ is irrational for every
 infinite $A$ and every bounded integer sequence $t_n$. This is false: Kovač
 and Tao (Acta Math. Hungar. 175 (2025), 572--608, Theorem 2.5;
 [[../library/irrationality/kovac_2024_several_irrationality_problems_ahmes_series/_index|card]])
 disprove it for nonzero $|t_n|<C$ already at $A=\mathbb N$, and Kovač's
 thread comment of 2025-10-30 sketches a choice with $1\le t_n\le6$ over
-$A=\{n\ge100\}$ for which the sum is rational. Search scope: the site's page and
-remarks (2026-09-04), its discussion thread (posts through 2026-09-11), the
-arXiv record of Tao and Teräväinen's preprint (2026-09-06) and the
-formal-conjectures file at its commit of 2026-09-23; no wider literature search
-is recorded, and no proof is checked here.
+$A=\{n\ge100\}$ for which the sum is rational. Search scope: the
+erdosproblems.com page and remarks (2026-09-04), its discussion thread (posts
+through 2026-09-11), the arXiv record of Tao and Teräväinen's preprint
+(2026-09-06) and the formal-conjectures file at its commit of 2026-09-23; no
+wider literature search is recorded, and no proof is checked here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

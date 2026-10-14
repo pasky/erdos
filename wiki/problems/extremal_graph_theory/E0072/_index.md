@@ -30,8 +30,8 @@ degree $\geq c$ contains a cycle whose length is in $A$?
 [[problems/extremal_graph_theory/E0072/claims/2005_03_21_verstraete|Verstraëte]]
 and
 [[problems/extremal_graph_theory/E0072/claims/2020_10_29_liu_montgomery|Liu and Montgomery]],
-both accepted on refereed publication and the site's credit; the frontmatter
-standing is derived from them.
+both accepted on refereed publication and the erdosproblems.com credit; the
+frontmatter standing is derived from them.
 
 **Source.** [erdosproblems.com/72](https://www.erdosproblems.com/72), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #72,

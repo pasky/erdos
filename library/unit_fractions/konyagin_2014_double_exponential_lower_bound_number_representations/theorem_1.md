@@ -112,7 +112,7 @@ corrected identity whose two additional denominators are
 $(2^{2\cdot3^{k-1}}-1)(2^{3^k}+2^{3^k\mp m})$ and are divisible by $2^m+1$,
 and said that Lemma 1 should assume $m$ odd (consistent with the
 counterexample above), the main result standing.
-These are forum comments, which the site does not verify; no erratum or
+These are forum comments, which erdosproblems.com does not verify; no erratum or
 correction appears in the MathNet, Crossref or Springer records of either
 version as checked on 2026-09-17, and the corrected argument has not been
 checked here. The theorem is therefore recorded with its printed statement
@@ -130,4 +130,5 @@ defective steps identified; no rewritten proof, no repair and no
 independent review exist here.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0148/_index|#148]] (the lower bound in
-the site's commentary; the exact-$k$ count matches the problem's $F(k)$).
+the erdosproblems.com commentary; the exact-$k$ count matches the problem's
+$F(k)$).

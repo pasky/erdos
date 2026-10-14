@@ -3,7 +3,7 @@ name: set_theory
 title: "Set Theory and Infinite Combinatorics"
 desc: "Sources filed under Set Theory and Infinite Combinatorics, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:25:18Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Set Theory and Infinite Combinatorics
@@ -90,8 +90,8 @@ cubed, answering a question of Specker on pinning maps.
 [[set_theory/gao_2026_finite_color_partition_relation_omega_1_squared/_index|gao_2026_finite_color_partition_relation_omega_1_squared/]]: Unrefereed, AI-assisted Zenodo deposit proving that Martin's axiom for
 aleph_1 dense sets implies the exact relation of Problem 1171 for every
 finite k, by a color-reduction lemma applied to Baumgartner's relation
-omega_1 omega -> (omega_1 omega, 3)^2; the site's partial proof claim, since
-withdrawn, that prompted its not-disprovable label.
+omega_1 omega -> (omega_1 omega, 3)^2; erdosproblems.com's partial proof
+claim, since withdrawn, that prompted its not-disprovable label.
 
 [[set_theory/garti_2019_first_omitting_cardinal_magidority/_index|garti_2019_first_omitting_cardinal_magidority/]]: Shows the first omitting cardinal for Magidority can be the successor of a
 supercompact cardinal, with related consistency results for singular

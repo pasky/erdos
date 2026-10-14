@@ -67,8 +67,8 @@ $s_n=u_n+1$ ($s_0,s_1,s_2,\ldots=2,3,7,43,\ldots$), which is the constant
 the 1980 Erdős--Graham monograph (printed p. 32) and the erdosproblems.com
 commentary call $c_0$. In terms of $E$ the corollary reads
 $F(k)<E^{(4/5+2\varepsilon)2^{k-1}}=E^{(2/5+\varepsilon)2^k}$.
-The site's commentary writes the upper bound as $c_0^{(1/5+o(1))2^k}$ with
-$c_0=1.26408\ldots$; that pairs this corollary's exponent with the other
+The erdosproblems.com commentary writes the upper bound as $c_0^{(1/5+o(1))2^k}$
+with $c_0=1.26408\ldots$; that pairs this corollary's exponent with the other
 normalization of the constant and so states a bound smaller than the one the
 source prints. The page for Problem 148 records the bound in the source's
 form.

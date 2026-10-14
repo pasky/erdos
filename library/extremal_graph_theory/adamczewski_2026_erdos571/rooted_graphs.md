@@ -73,10 +73,11 @@ an all-root edge would satisfy the printed model conditions vacuously for
 every $(a,b)$ and would not support the subsequent lower-bound argument.
 
 `RootedPowers.graph`, `layer`, `inclusion`, and `graph_bipartite`, lines
-3336–3428, supply the power definitions and facts. Bloom's preliminary site
-sketch calls roots independent; that restriction is absent from the formal
-source and is incompatible with the later suspension's root-root edges.
-See the [[extremal_graph_theory/adamczewski_2026_erdos571/_index|source
-record]] for the version and evidence distinctions.
+3336–3428, supply the power definitions and facts. Bloom's preliminary
+erdosproblems.com sketch calls roots independent; that restriction is absent
+from the formal source and is incompatible with the later suspension's root-root
+edges. See the
+[[extremal_graph_theory/adamczewski_2026_erdos571/_index|source record]] for the
+version and evidence distinctions.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0571/_index|#571]].

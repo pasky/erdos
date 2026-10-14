@@ -63,6 +63,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0905/_index|Problem 905]]: the site's [Er75]
-  source; the problem in Erdős's 1975 words, with $c\le\frac16$ observed and
-  $c=\frac16$ undecided, and the print's "$c=\frac n6$" recorded as a slip.
+- [[../wiki/problems/extremal_graph_theory/E0905/_index|Problem 905]]:
+  erdosproblems.com's [Er75] source; the problem in Erdős's 1975 words, with
+  $c\le\frac16$ observed and $c=\frac16$ undecided, and the print's
+  "$c=\frac n6$" recorded as a slip.

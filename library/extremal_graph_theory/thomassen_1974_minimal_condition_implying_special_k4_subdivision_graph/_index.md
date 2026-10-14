@@ -186,11 +186,11 @@ as statements read on the page images; the proof of the Theorem was read for
 structure on the page images and its seven steps followed as printed, none
 checked. Nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0916/_index|#916]]: the site's key
-Th74. The Introduction (p. 210, page image) states the problem as Erdős's
-suggested extension of Dirac's theorem and makes proving it the paper's
-purpose: "Every graph with $n$ vertices and $\ge2n-2$ edges contains a cycle
-and a vertex not belonging to the cycle and joined by edges to at least
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0916/_index|#916]]: the
+erdosproblems.com key Th74. The Introduction (p. 210, page image) states the
+problem as Erdős's suggested extension of Dirac's theorem and makes proving it
+the paper's purpose: "Every graph with $n$ vertices and $\ge2n-2$ edges contains
+a cycle and a vertex not belonging to the cycle and joined by edges to at least
 three vertices of the cycle." The Theorem (p. 212, PDF p. 3) states:
 "If $G$
 is a graph with $n(G)\ge3$ and $e(G)\ge2n(G)-3$ then either $G$ has
@@ -205,8 +205,9 @@ lowered. The hypothesis $n(G)\ge3$ is absent from the second-hand
 restatements the problem page cites; at
 $n=3$ no simple graph has $2n-2=4$ edges, so the theorem answers the
 problem's question yes for every $n\ge3$ and says nothing about $n=1$ and
-$n=2$, which its hypothesis excludes. The paper's "$\ge2n-2$ edges" is the
-site's "$2n-2$ edges", the property being monotone in the edge set. The
+$n=2$, which its hypothesis excludes. The paper's "$\ge2n-2$ edges" is
+erdosproblems.com's "$2n-2$ edges", the property being monotone in the edge set.
+The
 [[extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/corollary|Corollary]]
 (p. 215) reproves Dirac's theorem, the problem page's [Di60],
 from the Theorem for $n\ge3$: $2n-3$ edges without a subdivision of $K_4$

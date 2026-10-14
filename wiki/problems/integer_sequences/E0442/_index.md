@@ -34,39 +34,40 @@ $$
 \left(\sum_{n\in A\cap [1,x)}\frac{1}{n}\right)^{-2} \sum_{\substack{a,b\in A\cap (1,x]\\ a<b}}\frac{1}{\mathrm{lcm}(a,b)}\to \infty?
 $$
 
-**Formulation.** The site's wording on 2026-09-18 (page last edited 27 September
-2025). The hypothesis sums over $A\cap[1,x)$, the conclusion's inner sum over
-pairs $a<b$ in $A\cap(1,x]$ and its normalizing sum over $A\cap[1,x)$; the
-monograph's display (printed p. 88) has the same ranges, "$a_i<x$" and
-"$1<a_i<a_j\le x$". Tao's paper sums over $n\le x$ and over ordered pairs
-$n,m\le x$ including the diagonal, and writes $\mathrm{Log}_2x$ for
-$\max(\log\max(\log x,1),1)$; the conventions are reconciled below and change
-nothing in the answer. The threshold $\log\log x$ was likely motivated by the
-primes, for which both quantities are of order $1$ by Mertens' theorem, as Tao
-suggests (p. 2), and the question asks whether every set much denser than the
-primes, in this logarithmic sense, has large pairwise greatest common divisors
-on average.
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (page last edited
+27 September 2025). The hypothesis sums over $A\cap[1,x)$, the conclusion's
+inner sum over pairs $a<b$ in $A\cap(1,x]$ and its normalizing sum over
+$A\cap[1,x)$; the monograph's display (printed p. 88) has the same ranges,
+"$a_i<x$" and "$1<a_i<a_j\le x$". Tao's paper sums over $n\le x$ and over
+ordered pairs $n,m\le x$ including the diagonal, and writes $\mathrm{Log}_2x$
+for $\max(\log\max(\log x,1),1)$; the conventions are reconciled below and
+change nothing in the answer. The threshold $\log\log x$ was likely motivated by
+the primes, for which both quantities are of order $1$ by Mertens' theorem, as
+Tao suggests (p. 2), and the question asks whether every set much denser than
+the primes, in this logarithmic sense, has large pairwise greatest common
+divisors on average.
 
-**Status.** Disproved. The site's label was DISPROVED (LEAN). The suffix is a
-catalog label explained under Formalization, and no local kernel credit is
-claimed. Tao's Theorem 1 (Integers 24 (2024), paper A100; arXiv:2407.04226, v5)
-constructs, for every $C_0>0$, a set $A$ with
+**Status.** Disproved. The erdosproblems.com label was DISPROVED (LEAN). The
+suffix is a catalog label explained under Formalization, and no local kernel
+credit is claimed. Tao's Theorem 1 (Integers 24 (2024), paper A100;
+arXiv:2407.04226, v5) constructs, for every $C_0>0$, a set $A$ with
 $\sum_{n\in A,\,n\le x}1/n=\exp((C_0/2+o(1))(\log\log x)^{1/2}\log\log\log x)$
 and
 $\sum_{n,m\in A;\,n,m\le x}1/\mathrm{lcm}(n,m)\ll_{C_0}(\sum_{n\in A,\,n\le x}1/n)^2$.
 The first quantity grows faster than $\log\log x$, so the hypothesis holds and
 the conclusion fails. Theorem 1's growth rate is optimal up to $C_0$, which the
-site's commentary records as the best possible result. The paper's introduction
-(p. 4) also records an elementary counterexample: the squarefree numbers with
-exactly $k\ge2$ prime factors, implicit in earlier work of Bergelson and
-Richter. The paper is published in a refereed journal. arXiv v5 postdates the
-journal version and was not compared with it. The claim page is
+erdosproblems.com commentary records as the best possible result. The paper's
+introduction (p. 4) also records an elementary counterexample: the squarefree
+numbers with exactly $k\ge2$ prime factors, implicit in earlier work of
+Bergelson and Richter. The paper is published in a refereed journal. arXiv v5
+postdates the journal version and was not compared with it. The claim page is
 [[problems/integer_sequences/E0442/claims/2024_07_05_tao|Tao's theorem]]
-(accepted; refereed, and credited by the site's curator for its label).
+(accepted; refereed, and credited by the erdosproblems.com curator for its
+label).
 
 **Source.** [erdosproblems.com/442](https://www.erdosproblems.com/442),
 accessed 2026-09-18: the problem page (DISPROVED
-(LEAN), which the site glosses as solved in the negative with the proof
+(LEAN), which erdosproblems.com glosses as solved in the negative with the proof
 verified in Lean; last edited 27 September 2025; source key [ErGr80,
 p. 88], with [Ta24b] in the commentary), its empty discussion thread and its
 empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #442,
@@ -124,7 +125,7 @@ a catalog label.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; DISPROVED (LEAN), last edited 27 September 2025; source key [ErGr80,
 p. 88]. The commentary attributes the disproof to Tao [Ta24b]: a set
 $A\subset\mathbb N$ with
@@ -139,7 +140,7 @@ tab are empty.
 "Is it true that if $a_1<a_2<\ldots$ is a sequence of integers
 satisfying $\frac{1}{\log\log x}\sum_{a_i<x}\frac{1}{a_i}\to\infty$ then
 $\bigl(\sum_{a_i<x}\frac1{a_i}\bigr)^{-2}\sum_{1<a_i<a_j\le x}\frac{1}{\mathrm{lcm}(a_i,a_j)}\to\infty$?"
-The site's statement is this display with $A$ for the sequence.
+The erdosproblems.com statement is this display with $A$ for the sequence.
 
 **The status-defining source.**
 [[../library/integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/theorem_1|Theorem 1]]
@@ -153,16 +154,16 @@ $$
 $$
 
 as $x\to\infty$, and "Up to the choice of constant $C_0$, the growth rate in
-(11) is otherwise optimal for sets that obey (12)". The site's display is the
-case $C_0=1$. The paper reformulates the conclusion as
+(11) is otherwise optimal for sets that obey (12)". The erdosproblems.com
+display is the case $C_0=1$. The paper reformulates the conclusion as
 $\mathbb E\gcd(\mathbf n,\mathbf m)\to\infty$ for two independent elements drawn
 with logarithmic weights (displays (4)--(8), pp. 2--3) and builds the set from
 squarefree numbers with a controlled number of prime factors across the scales
 $x_k=\exp\exp(k^2/C_0^2)$ (p. 5). Acceptance: the paper appeared in Integers 24
 (2024) as paper A100, a refereed journal (the volume listing accessed
-2026-09-18); the site accepts it. Read depth: claims checked for Theorem 1 and
-the p. 4 remark; the proof of Theorem 1 and the appendix's proof were not read.
-The simplest disproof is the paper's
+2026-09-18); erdosproblems.com accepts it. Read depth: claims checked for
+Theorem 1 and the p. 4 remark; the proof of Theorem 1 and the appendix's proof
+were not read. The simplest disproof is the paper's
 [[../library/integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/remark_p4|remark on p. 4]]:
 for the squarefree numbers with exactly $k$ prime factors, a standard
 calculation from Mertens' theorem gives
@@ -172,27 +173,27 @@ attributes the observation, implicitly, to Bergelson and Richter. The
 calculation is asserted with a pointer to the paper's Lemma 1 and was not
 reproduced here.
 
-**From the paper's conventions to the site's (an authored note).** Write
-$S(x)=\sum_{n\in A,\,n\le x}1/n$ and $S^-(x)=\sum_{n\in A\cap[1,x)}1/n$, so
-$S^-(x)\le S(x)\le S^-(x)+1/x$. For Tao's set, $S(x)\to\infty$ faster than
+**From the paper's conventions to erdosproblems.com's (an authored note).**
+Write $S(x)=\sum_{n\in A,\,n\le x}1/n$ and $S^-(x)=\sum_{n\in A\cap[1,x)}1/n$,
+so $S^-(x)\le S(x)\le S^-(x)+1/x$. For Tao's set, $S(x)\to\infty$ faster than
 $\log\log x$ (for large $x$ the paper's $\mathrm{Log}_2x$ is $\log\log x$),
-hence $S^-(x)/\log\log x\to\infty$ and the site's hypothesis holds. The
-site's inner sum runs over $a<b$ in $A\cap(1,x]$; each such pair is one of
-the two ordered off-diagonal pairs $(n,m)$ with $n,m\le x$ and
+hence $S^-(x)/\log\log x\to\infty$ and erdosproblems.com's hypothesis holds.
+erdosproblems.com's inner sum runs over $a<b$ in $A\cap(1,x]$; each such pair is
+one of the two ordered off-diagonal pairs $(n,m)$ with $n,m\le x$ and
 $\mathrm{lcm}$ symmetric, and dropping the pairs with $a=1$ only lowers the
 sum, so it is at most half of Tao's ordered sum, which is at most
-$C\,S(x)^2$ by (12). Therefore the site's ratio is at most
+$C\,S(x)^2$ by (12). Therefore erdosproblems.com's ratio is at most
 $\tfrac C2\,S(x)^2/S^-(x)^2\le\tfrac C2\,(1+1/(xS^-(x)))^2$, which is
-bounded. So Tao's set satisfies the site's hypothesis and violates the
-site's conclusion: the answer is no. The factor $2$ and the diagonal, which
-contributes $\sum_{n\in A,n\le x}1/n=S(x)=o(S(x)^2)$ to Tao's sum, change
-nothing.
+bounded. So Tao's set satisfies erdosproblems.com's hypothesis and violates
+erdosproblems.com's conclusion: the answer is no. The factor $2$ and the
+diagonal, which contributes $\sum_{n\in A,n\le x}1/n=S(x)=o(S(x)^2)$ to Tao's
+sum, change nothing.
 
 **Search scope.** None of the routes below found a dispute
 of the disproof, a sharpening of the threshold beyond the dependence on
 $C_0$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `442.lean` at the pinned commit; the community
   database entry.
 - arXiv: the abstract page of 2407.04226 (five versions, v1 5 July 2024 to

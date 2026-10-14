@@ -69,6 +69,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0572/_index|Problem 572]]: the 1974 record of
-  the cases $k=2,3,5$ in which the asked lower bound holds, the sentence the
-  site's "Benson has proved this conjecture for $k=3$ and $k=5$" corresponds
-  to, and the statement of the general conjecture.
+  the cases $k=2,3,5$ in which the asked lower bound holds, the sentence
+  erdosproblems.com's "Benson has proved this conjecture for $k=3$ and $k=5$"
+  corresponds to, and the statement of the general conjecture.

@@ -56,7 +56,7 @@ None.
 - [[../wiki/problems/set_theory/E0602/_index|Problem 602]]: the first problem
   is this problem's question. The paper records no result on it.
 - [[../wiki/problems/set_theory/E0603/_index|Problem 603]]: the second problem
-  is Erdős's yes-or-no form of this problem, which the site recasts as finding
-  the least number of colors that always suffices. The paper records
+  is Erdős's yes-or-no form of this problem, which erdosproblems.com recasts as
+  finding the least number of colors that always suffices. The paper records
   Komjáth's bound for the variant with $|A_i\cap A_j|\ne1$ and no result on the
   question itself.

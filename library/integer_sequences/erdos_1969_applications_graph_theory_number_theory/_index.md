@@ -74,11 +74,11 @@ to n forcing r of them with equal pairwise gcds, whose lower bound would give
 the correct order of magnitude given the Erdős-Rado sunflower-type conjecture.
 The final section poses the finite questions on sequences with distinct
 multiplicative representations, asking whether max k = n + o(n) and whether kq <
-c n^2 / log n for two sequences with distinct products a_i b_j. The site cites
-the paper as a source of problems 490, 535, 714, 793, 794, 795, 796 and 951: for
-these divisibility, gcd and distinct-product bounds and questions, for Erdős's
-guess that the graph exponent eps_{k,2} = 1/k is best possible, and for Erdős's
-own 3-graph conjecture on p. 81.
+c n^2 / log n for two sequences with distinct products a_i b_j.
+erdosproblems.com cites the paper as a source of problems 490, 535, 714, 793,
+794, 795, 796 and 951: for these divisibility, gcd and distinct-product bounds
+and questions, for Erdős's guess that the graph exponent eps_{k,2} = 1/k is best
+possible, and for Erdős's own 3-graph conjecture on p. 81.
 
 The copy read for this card is the six-page file from the Rényi
 Institute's Erdős archive (printed pp. 77--82 are PDF pp. 1--6; its text
@@ -119,15 +119,15 @@ $kq<cn^2/\log n$.
 (PDF p. 5), the bounds on $f(r,n)$ and the sunflower conjecture.
 [[../wiki/problems/extremal_graph_theory/E0794/_index|#794]]: the conjecture on printed
 p. 81 (PDF p. 5), "Every $G_3(3n;n^3+1)$ contains either a $G_3(4;3)$ or a
-$G_3(5;7)$", the site's [Er69, p. 81] source, preceded on p. 80 by Turán's
-$f(2n,3,5)=n^2(n-1)+1$ and the limit $\delta_{r,s}$
+$G_3(5;7)$", erdosproblems.com's [Er69, p. 81] source, preceded on p. 80 by
+Turán's $f(2n,3,5)=n^2(n-1)+1$ and the limit $\delta_{r,s}$
 ([[integer_sequences/erdos_1969_applications_graph_theory_number_theory/conjecture_p81|conjecture_p81]]).
 [[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]: the lemma paragraph on
 printed p. 80 (PDF p. 4), where, after Kővári, Sós and Turán's bound (printed
 $\varepsilon_{k,r}\ge1/k$; their theorem is the graph case), Erdős writes "In
 fact probably $\varepsilon_{k,2}=1/k$ is the best value for
 $\varepsilon_{k,2}$", with Brown's result for $k=3$ and the cases $k>3$ open:
-the exponent form of the problem's question; the site's key [Er69].
+the exponent form of the problem's question; the erdosproblems.com key [Er69].
 [[../wiki/problems/additive_bases/E0425/_index|#425]]: inequality (4), printed p. 78 (PDF
 p. 2, page image), for sequences up to $x$ with all products $a_ia_j$
 distinct, $\pi(x)+c_4x^{3/4}/(\log x)^{3/2}<\max k<\pi(x)+c_3x^{3/4}/(\log x)^{3/2}$,
@@ -145,7 +145,7 @@ least one. Is it true that $\max k=\Pi(n)$?" (the range $a_k\le n$ is
 implicit, as in the paper's preceding problems), the finite form of the
 problem's question that Erdős's 1980 survey recalls in a footnote; display
 (6) on p. 79 (PDF p. 3) is the integer subset-product bound, a different
-finite question kept separate on the problem page; the site's key
+finite question kept separate on the problem page; the erdosproblems.com key
 [Er69, p. 82].
 
 **Results.**

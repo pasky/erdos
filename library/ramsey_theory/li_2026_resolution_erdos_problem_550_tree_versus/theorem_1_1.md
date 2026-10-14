@@ -79,12 +79,13 @@ The acknowledgments (p. 20) declare that OpenAI's ChatGPT was used "for
 ideation, formulation, proof exploration and refinement, narrowing the search
 space, programming, LaTeX formatting and other forms of orchestration", the
 author taking "full responsibility for the accuracy of the final contents". The
-author's proof claim on the problem's site (submitted 17 July 2026) links the
-paper and a Lean repository. These are recorded as the source's own provenance;
-nothing was checked or built here.
+author's proof claim on the problem's erdosproblems.com page (submitted 17
+July 2026) links the paper and a Lean repository. These are recorded as the
+source's own provenance; nothing was checked or built here.
 
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0550/_index|Problem 550]]: the claim states the
   problem's inequality for fixed part sizes and all sufficiently large trees;
-  the page keeps the site's label and records the claim-versus-label tension.
+  the page keeps the erdosproblems.com label and records the claim-versus-label
+  tension.

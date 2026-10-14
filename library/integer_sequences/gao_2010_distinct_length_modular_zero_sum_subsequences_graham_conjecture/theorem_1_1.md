@@ -63,5 +63,6 @@ Chen; Yuan), taken at statement level.
   with $n=p$, if all nonempty zero-sum subsets of the indices of
   $a_1,\ldots,a_p$ have the same size then the sequence takes at most two
   distinct values; the residue $0$ is admitted (the interval is $[0,p-1]$)
-  and the statement holds for every modulus, so it covers the site's
-  wording exactly and the composite case the site's commentary mentions.
+  and the statement holds for every modulus, so it covers the erdosproblems.com
+  wording exactly and the composite case the erdosproblems.com commentary
+  mentions.

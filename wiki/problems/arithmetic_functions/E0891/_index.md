@@ -27,10 +27,10 @@ $[n,n+p_1\cdots p_k)$ with $>k$ many prime factors?
 asks for an $m$ in the interval with $\omega(m)>k$. This is how the source
 reads it.
 [[../library/arithmetic_functions/erdos_1967_problems_prime_factors_consecutive_integers/_index|Erdős and Selfridge]]
-count distinct prime factors, and the site's remark that even the case $k=2$
-is unknown requires it. Counted with multiplicity the question would be
-trivial: for $n>2^k$ the interval, of length $p_1\cdots p_k\ge2^k$, contains a
-multiple $2^km$ of $2^k$ with $m\ge2$, which has more than $k$ prime factors
+count distinct prime factors, and the erdosproblems.com remark that even the
+case $k=2$ is unknown requires it. Counted with multiplicity the question would
+be trivial: for $n>2^k$ the interval, of length $p_1\cdots p_k\ge2^k$, contains
+a multiple $2^km$ of $2^k$ with $m\ge2$, which has more than $k$ prime factors
 counted with multiplicity.
 
 **Status.** Open.

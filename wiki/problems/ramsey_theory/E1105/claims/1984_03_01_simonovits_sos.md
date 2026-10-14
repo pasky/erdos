@@ -37,7 +37,7 @@ f(n,P_{2t+3+\epsilon_0})=tn-\binom{t+1}{2}+1+\epsilon_0,
 $$
 
 where $f(n,G)$ is the largest number of colors in an edge-coloring of $K_n$
-with no totally multicolored (rainbow) copy of $G$, the site's
+with no totally multicolored (rainbow) copy of $G$, erdosproblems.com's
 $\mathrm{AR}(n,G)$; the theorem also describes the extremal coloring. With
 $k=2t+3+\epsilon_0$ and $\ell=\lfloor(k-1)/2\rfloor=t+1$ the right side is
 $\binom{\ell-1}2+(\ell-1)(n-\ell+1)+\epsilon$ with $\epsilon=\epsilon_0+1$,
@@ -57,12 +57,12 @@ the full path formula for $n\ge k\ge5$ is
 **Depends on.** Nothing in this wiki; the result is the paper's own
 theorem.
 
-**Acceptance.** The site's commentary credits the paper with a published proof
-of the path formula for $n\ge ck^2$. But the site's PROVED label rested on the
-claims that settle the two parts, so that credit is not listed as review of this
-partial claim. Refereed: Combinatorica 4 (1984), no. 1, 101--110. Its Crossref
-record dates the issue March 1984 without a day, so the page's day is a
-placeholder.
+**Acceptance.** The erdosproblems.com commentary credits the paper with a
+published proof of the path formula for $n\ge ck^2$. But erdosproblems.com's
+PROVED label rested on the claims that settle the two parts, so that credit is
+not listed as review of this partial claim. Refereed: Combinatorica 4 (1984),
+no. 1, 101--110. Its Crossref record dates the issue March 1984 without a day,
+so the page's day is a placeholder.
 
 **Read depth.** Theorem B and Remark 1 are checked clause by clause; the
 proof is not checked. Nothing here is independent review.

@@ -36,8 +36,8 @@ Thomassé for antidirected trees in digraphs.
 
 **Claimant and postings.** Bryce Frederickson, *Erdős-Sós via random cyclic
 orderings*, arXiv:2609.21159, v1 18 September 2026, the date this page is
-named by. A comment of 21 September 2026 in the site's discussion lists it.
-The argument rests on the proof recorded on
+named by. A comment of 21 September 2026 in the erdosproblems.com discussion
+lists it. The argument rests on the proof recorded on
 [[problems/extremal_graph_theory/E0548/claims/2026_09_03_adamczewski|Adamczewski 2026]],
 whose Reviewed account cites this paper.
 

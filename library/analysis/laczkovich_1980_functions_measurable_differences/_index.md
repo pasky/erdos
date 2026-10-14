@@ -61,7 +61,7 @@ as proving the continuous-summand wording.
 **Bears on.** [[../wiki/problems/analysis/E0908/_index|#908]]:
 [[analysis/laczkovich_1980_functions_measurable_differences/theorem_3|Theorem 3]]
 answers the modified Statement, with a measurable summand, in the
-affirmative; it gives no continuous summand, the site's wording.
+affirmative; it gives no continuous summand, the erdosproblems.com wording.
 
 **Results.** Page numbers are the printed ones (pp. 217--235).
 

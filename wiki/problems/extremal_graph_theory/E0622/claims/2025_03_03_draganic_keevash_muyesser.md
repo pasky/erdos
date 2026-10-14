@@ -5,7 +5,7 @@ desc: |
   Draganić, Keevash and Müyesser prove that every $(n+1)$-regular graph on $2n$
   vertices has at least $c\,2^{2n}$ vertex subsets spanned by a cycle, and in
   fact at least $(\tfrac12-o(1))2^{2n}$. The paper appeared, refereed, in IMRN
-  2025 and is credited by the site's curator.
+  2025 and is credited by the erdosproblems.com curator.
 authors:
 - Nemanja Draganić
 - Peter Keevash
@@ -62,8 +62,8 @@ its finer proof.
 **Acceptance.** Refereed: International Mathematics Research Notices is a
 refereed journal, and the paper is its version of record. It was received 19
 March 2025, accepted 27 June 2025 and published online 22 July 2025. Reviewed:
-T. F. Bloom, the site's curator, labeled the problem PROVED, credits the
-resolution to this paper and states its asymptotic bound in the commentary
+T. F. Bloom, the erdosproblems.com curator, labeled the problem PROVED, credits
+the resolution to this paper and states its asymptotic bound in the commentary
 (snapshot of 2026-09-05). Bloom took no part in the paper. The one comment in
 the thread concerns a broken reference link, and the proof-claims tab is empty.
 The corpus's rewritten proofs on the result pages are author-recorded

@@ -59,7 +59,7 @@ Theorem 2 of the same paper.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1158/_index|Problem 1158]]: in the site's
-  letters ($t$ the uniformity, $r=2$ vertices per class) this is
-  $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/\lceil(2^t-1)/t\rceil})$, the best
-  general lower bound held against the asked exponent $t-2^{1-t}$.
+- [[../wiki/problems/extremal_graph_theory/E1158/_index|Problem 1158]]: in
+  erdosproblems.com's letters ($t$ the uniformity, $r=2$ vertices per class)
+  this is $\mathrm{ex}_t(n,K_t(2))=\Omega(n^{t-1/\lceil(2^t-1)/t\rceil})$, the
+  best general lower bound held against the asked exponent $t-2^{1-t}$.

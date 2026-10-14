@@ -38,9 +38,9 @@ $$
 
 **Status.** DISPROVED (LEAN). The standing derives from
 [[problems/analysis/E0990/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the claim page]].
-The site credits the construction in [APSSV26b]. Its authors attribute the proof
-to an internal OpenAI model. The site's Lean marker refers to third-party
-formalizations, which this corpus has not built.
+erdosproblems.com credits the construction in [APSSV26b]. Its authors attribute
+the proof to an internal OpenAI model. The erdosproblems.com Lean marker refers
+to third-party formalizations, which this corpus has not built.
 
 **Source.** [erdosproblems.com/990](https://www.erdosproblems.com/990), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #990,
@@ -62,19 +62,20 @@ read on 2026-10-07 at its revision of 18 September 2026: `erdos_990` states the
 question with the answer False, tagged research solved and proved there by
 `sorry`, and its `formal_proof` attribute points to the Erdos990.lean file of
 Boris Alexeev's `lean-proofs` repository; that proof and a second one from the
-site's thread are `formalization` links on the claim page. No local Lean build
-has been performed.
+erdosproblems.com thread are `formalization` links on the claim page. No local
+Lean build has been performed.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks for a discrepancy bound of
-order $(n\log M)^{1/2}$ with $n$ the number of nonzero coefficients. Erdős and
-Turán [ErTu50] proved the bound with the degree $d$ in place of $n$, and Hayman
-[Ha72b] proved that the deviation is at most $n-1$, which $(x^p-1)^{n-1}$ shows
-is sharp, at the cost of a very large $M$. The question is answered negatively
-by Theorem 5.1 of [APSSV26b]: for every $n\ge 3$ (the paper's $n=N+2$ with
-$N\ge1$) there is a polynomial with $n$ nonzero coefficients, $M<3$ and a
-positive real root of multiplicity $n-1$, so a short arc of arguments at $0$ has discrepancy of order $n$ while
+The erdosproblems.com formulation (accessed 2026-09-04) asks for a discrepancy
+bound of order $(n\log M)^{1/2}$ with $n$ the number of nonzero coefficients.
+Erdős and Turán [ErTu50] proved the bound with the degree $d$ in place of $n$,
+and Hayman [Ha72b] proved that the deviation is at most $n-1$, which
+$(x^p-1)^{n-1}$ shows is sharp, at the cost of a very large $M$. The question is
+answered negatively by Theorem 5.1 of [APSSV26b]: for every $n\ge 3$ (the
+paper's $n=N+2$ with $N\ge1$) there is a polynomial with $n$ nonzero
+coefficients, $M<3$ and a positive real root of multiplicity $n-1$, so a short
+arc of arguments at $0$ has discrepancy of order $n$ while
 $(n\log M)^{1/2}\ll n^{1/2}$. The authors attribute the proof to an internal
 OpenAI model. The accepted claim is recorded on
 [[problems/analysis/E0990/claims/2026_04_08_alexeev_putterman_sawhney_sellke_valiant|the
@@ -84,7 +85,8 @@ page links were not built here.
 
 The thread holds an exposition of the construction and an earlier comment that
 the problem appeared open in October 2025; neither is a claim, so neither has a
-page. The search scope is the site page, its thread and the arXiv record.
+page. The search scope is the erdosproblems.com page, its thread and the arXiv
+record.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

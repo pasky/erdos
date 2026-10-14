@@ -34,8 +34,8 @@ for $\gg \phi(d)$ many values of $a$?
 **Status.** Labeled OPEN on erdosproblems.com. Two full proof claims are
 pending. This page records the claims without adopting them.
 
-The site's proof-claims tab carries one entry, KyungMin Han's candidate proof of
-25 July 2026, made with GPT 5.6 Pro
+The erdosproblems.com proof-claims tab carries one entry, KyungMin Han's
+candidate proof of 25 July 2026, made with GPT 5.6 Pro
 ([[problems/integer_sequences/E0971/claims/2026_07_25_han|claim page]]). It
 claims that a positive proportion of reduced classes have least prime beyond
 $(1+c)\phi(d)\log d$ for all large $d$, using a second- and third-moment count
@@ -49,12 +49,12 @@ formal-conjectures statement of the problem along a related route
 author's account, it was found with GPT-6 and formalized with Claude, and it has
 no `sorry` and uses the standard three axioms. This corpus has not built or
 audited it. The tab's disclaimer says that a listing does not mean anyone
-associated with the site has examined the proof. No review of either proof is
-recorded beyond Li's check of one step of Han's argument, which is recorded on
-Han's claim page.
+associated with erdosproblems.com has examined the proof. No review of either
+proof is recorded beyond Li's check of one step of Han's argument, which is
+recorded on Han's claim page.
 
-The site's commentary credits Erdős [Er49c] with the assertion along an infinite
-sequence of moduli
+The erdosproblems.com commentary credits Erdős [Er49c] with the assertion along
+an infinite sequence of moduli
 ([[problems/integer_sequences/E0971/claims/1949_01_01_erdos|claim page]],
 accepted, partial). The discussion thread holds no proof. A comment of 31
 January 2026 derives the answer yes from a uniform prime-tuple hypothesis, by a

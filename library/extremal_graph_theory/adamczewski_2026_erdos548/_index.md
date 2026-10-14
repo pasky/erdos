@@ -47,13 +47,13 @@ exposition generated from the GPT-6 Astra formal proof and supplied by Thomas
 F. Bloom. Tom Adamczewski maintains the original proof repository, published
 as part of the FrontierMath Erdős work with Bloom. The source slug identifies
 the repository maintainer; it does not attribute the mathematical proof to
-Adamczewski. The site credits the proof to GPT-6 Astra.
+Adamczewski. erdosproblems.com credits the proof to GPT-6 Astra.
 
 **Canonical source.** The
 five-page PDF was downloaded 2026-09-05 from
-[the site's proof link](https://www.erdosproblems.com/static/548copy.pdf). All
-five pages were inspected. It is a preliminary exposition, not a refereed
-publication. Bloom's
+[erdosproblems.com's proof
+link](https://www.erdosproblems.com/static/548copy.pdf). All five pages were
+inspected. It is a preliminary exposition, not a refereed publication. Bloom's
 [proof-claim note](https://www.erdosproblems.com/forum/thread/548/proof-claims),
 submitted 2026-09-03, describes this PDF and Bloom's own informal exposition as
 placeholders pending a proper writeup and assessment of the ideas' relation to
@@ -94,7 +94,7 @@ The original six-page written proof chain is:
   the sharp tree-free edge bound and the precise endpoint comparison.
 - [[extremal_graph_theory/adamczewski_2026_erdos548/tree_ramsey_corollary|Tree
   Ramsey corollary]]: the consequences for #547 and #557, including the
-  parity improvement recorded in the site's discussions.
+  parity improvement recorded in the erdosproblems.com discussions.
 
 Two further supplied results use the sharp tree-free edge bound at its
 recorded standing. They have their own premise-relative whole-unit review
@@ -134,16 +134,16 @@ unproved statement surface; `Solution.lean` imports the proved resolution. A
 `sorry` in the challenge file is therefore not evidence of a gap in the
 resolution.
 
-The compared theorem uses the site's literal hypothesis $e(G)\geq(k-1)n/2+1$.
-The internal `tree_free_edge_bound` proves the sharper classical inequality
-needed when $(k-1)n$ is odd. The natural-language reconstruction above includes
-that sharper conclusion explicitly. All six written proof pages, including the
-Ramsey corollary, have passed independent mathematical review for this corpus:
-the [fresh proof-chain review](evidence/verify/proof_chain_review_fresh.md) of
-the six pages as they stood on 2026-09-18T07:24:04Z returned refutation-failed
-on 2026-09-18, and its [distinct
-grade](evidence/verify/proof_chain_review_grade_fresh.md) records PASS for the
-report contract and PASS for independence. The earlier [proof-chain
+The compared theorem uses erdosproblems.com's literal hypothesis
+$e(G)\geq(k-1)n/2+1$. The internal `tree_free_edge_bound` proves the sharper
+classical inequality needed when $(k-1)n$ is odd. The natural-language
+reconstruction above includes that sharper conclusion explicitly. All six
+written proof pages, including the Ramsey corollary, have passed independent
+mathematical review for this corpus: the [fresh proof-chain
+review](evidence/verify/proof_chain_review_fresh.md) of the six pages as they
+stood on 2026-09-18T07:24:04Z returned refutation-failed on 2026-09-18, and its
+[distinct grade](evidence/verify/proof_chain_review_grade_fresh.md) records PASS
+for the report contract and PASS for independence. The earlier [proof-chain
 review](evidence/verify/proof_chain_review.md) of 2026-09-05 is retained with
 its `lemma_1.md` repair, but its acceptance is void for material exposure:
 its reviewed bytes as they stood at 2026-09-10T05:35:49Z, this card and the
@@ -167,7 +167,7 @@ verification or external refereeing is claimed.
 
 ## Source differences and remaining coverage
 
-The site's informal sketch, accessed 2026-09-05, has slips that the PDF
+erdosproblems.com's informal sketch, accessed 2026-09-05, has slips that the PDF
 avoids: its tree-free reduction has the opposite containment wording, its
 fixed-root gluing display omits the zero-cut allowance, and its leaf-move
 description writes the reversal at the earlier cut. The compiled proof

@@ -28,31 +28,31 @@ $\epsilon t^N$ then $A$ must contain a combinatorial line $P$ (a set
 $P=\{p_1,\ldots,p_t\}$ where for each coordinate $1\leq j\leq t$ the $j$th
 coordinate of $p_i$ is either $i$ or constant).
 
-**Formulation.** The site's wording has two defects. A point of $[t]^N$ has
-$N$ coordinates, so the coordinate index runs over $1\le j\le N$, not
-$1\le j\le t$; and the literal text does not require any coordinate to vary
+**Formulation.** The erdosproblems.com wording has two defects. A point of
+$[t]^N$ has $N$ coordinates, so the coordinate index runs over $1\le j\le N$,
+not $1\le j\le t$; and the literal text does not require any coordinate to vary
 with $i$, so a single point would count as a line and the question would be
 trivial for nonempty $A$. The intended question is the density Hales--Jewett
 theorem, in which a combinatorial line has at least one coordinate equal to
 $i$ on $p_i$ (as Mathlib's `Combinatorics.Line`, used by the formal-conjectures
 statement, requires), and the claim pages answer that question.
 
-**Status.** PROVED (LEAN), the site's label. The answer is yes, by the density
-Hales--Jewett theorem of Furstenberg and Katznelson
+**Status.** PROVED (LEAN), the erdosproblems.com label. The answer is yes, by
+the density Hales--Jewett theorem of Furstenberg and Katznelson
 ([[problems/additive_combinatorics/E0171/claims/1991_12_01_furstenberg_katznelson|claim page]]).
 The Polymath project reproved the theorem with explicit bounds
 ([[problems/additive_combinatorics/E0171/claims/2009_10_20_polymath|claim page]]).
 Dodos, Kanellopoulos and Tyros reproved it again by a shorter density-increment
 argument
 ([[problems/additive_combinatorics/E0171/claims/2012_09_22_dodos_kanellopoulos_tyros|claim page]]).
-The first two claims are accepted on their refereed publication and the site's
-adoption, and the third on its refereed publication alone. None rests on any
-review by this project. The site's Lean marker traces to the community
-database's Lean record. It also traces to the Lean development in Boris
-Alexeev's lean-proofs repository that declares itself a formalization of the
-Dodos--Kanellopoulos--Tyros proof, which is linked on their claim page. This
-corpus has not built or audited it, so no claim lists `formalized` evidence (see
-Formalization).
+The first two claims are accepted on their refereed publication and
+erdosproblems.com's adoption, and the third on its refereed publication alone.
+None rests on any review by this project. The erdosproblems.com Lean marker
+traces to the community database's Lean record. It also traces to the Lean
+development in Boris Alexeev's lean-proofs repository that declares itself a
+formalization of the Dodos--Kanellopoulos--Tyros proof, which is linked on their
+claim page. This corpus has not built or audited it, so no claim lists
+`formalized` evidence (see Formalization).
 
 **Source.** [erdosproblems.com/171](https://www.erdosproblems.com/171), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #171,

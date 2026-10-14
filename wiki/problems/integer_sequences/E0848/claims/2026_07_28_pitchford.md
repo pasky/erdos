@@ -71,24 +71,24 @@ reported by the repository's own history, and the problem selection,
 research direction, mediation, repository maintenance and publication as
 Pitchford's. The human publisher is the claimant of this page, with the
 system named as the record names it. The repository's progress bundle is
-dated 27 July 2026, and its README records the site's problem page as accessed
-on 28 July 2026; the Zenodo publication of that day is the first posting found.
-The result predates the release of
+dated 27 July 2026, and its README records the erdosproblems.com problem page as
+accessed on 28 July 2026; the Zenodo publication of that day is the first
+posting found. The result predates the release of
 [[problems/integer_sequences/E0848/claims/2026_07_30_li|Li's full claim]]
 of 30 July 2026, which reaches the same value by a different route.
 
-**Acceptance.** None on record. The result was not submitted to the site's
-proof-claim tab. It reached the site through a forum comment of 19 August 2026
-on Li's claim (linked above). The comment's writer reports recomputing the
-envelopes' constants exactly, replaying the per-interval checks with ablation
-controls, and finding the coverage of the ranges gapless. The writer concludes
-that two independent methods agree on the value. The site's label was DECIDABLE
-for Sawhney's result (page last edited 6 December 2025, before this result), and
-the curator has not acted on it. No referee or named expert has examined it, and
-nothing was downloaded, replayed or audited here. A forum comment is neither a
-named reviewer nor a referee, so no evidence is listed. The claim stays
-`claimed`, and the problem's standing is claimed, proved, through this page and
-Li's agreeing full claim.
+**Acceptance.** None on record. The result was not submitted to the
+erdosproblems.com proof-claim tab. It reached erdosproblems.com through a forum
+comment of 19 August 2026 on Li's claim (linked above). The comment's writer
+reports recomputing the envelopes' constants exactly, replaying the per-interval
+checks with ablation controls, and finding the coverage of the ranges gapless.
+The writer concludes that two independent methods agree on the value. The
+erdosproblems.com label was DECIDABLE for Sawhney's result (page last edited 6
+December 2025, before this result), and the curator has not acted on it. No
+referee or named expert has examined it, and nothing was downloaded, replayed or
+audited here. A forum comment is neither a named reviewer nor a referee, so no
+evidence is listed. The claim stays `claimed`, and the problem's standing is
+claimed, proved, through this page and Li's agreeing full claim.
 
 **Depends on.**
 [[problems/integer_sequences/E0848/claims/2026_03_23_sothanaphan|Sothanaphan 2026]]

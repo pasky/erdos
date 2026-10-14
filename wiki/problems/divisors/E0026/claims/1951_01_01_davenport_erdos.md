@@ -2,10 +2,10 @@
 name: problems/divisors/E0026/claims/1951_01_01_davenport_erdos
 title: Davenport and Erdős, Behrend sets have divergent reciprocal sums
 desc: |
-  Davenport and Erdős showed, in a result the site credits, that the multiples
-  of a sequence with convergent reciprocal sum have a density, the limit over
-  its finite stages. That limit is below one, so every shift of such a set
-  fails.
+  Davenport and Erdős showed, in a result erdosproblems.com credits, that the
+  multiples of a sequence with convergent reciprocal sum have a density, the
+  limit over its finite stages. That limit is below one, so every shift of such
+  a set fails.
 authors:
 - H. Davenport
 - P. Erdös
@@ -58,24 +58,25 @@ set of integers $\geq 2$ has a divergent reciprocal sum. If $A$ is infinite
 with $\sum_{a\in A}1/a<\infty$, then for every $k\geq 1$ the set $A+k$ has
 every element at least $2$ and a convergent reciprocal sum as well, so no
 $A+k$ is Behrend. Any such $A$, the powers of two for instance, answers the
-question in the negative for every shift. The site's commentary credits
-Davenport and Erdős, with Tenenbaum's survey as a second reference, for the
-divergence of the reciprocal sum of every Behrend sequence, draws this
+question in the negative for every shift. The erdosproblems.com commentary
+credits Davenport and Erdős, with Tenenbaum's survey as a second reference, for
+the divergence of the reciprocal sum of every Behrend sequence, draws this
 consequence and notes that the theorem is forty years older than the question,
 which Erdős and Tenenbaum asked. An explicit construction with the same effect,
-and the formalization the site records, is on the claim page
+and the formalization erdosproblems.com records, is on the claim page
 [[problems/divisors/E0026/claims/1995_01_01_ruzsa|Ruzsa's counterexample]].
 
-**Acceptance.** The site's curator, T. F. Bloom, marked the problem disproved
-and credits the Davenport--Erdős theorem for the negative answer. The page lists
-this as `reviewed`. The paper is H. Davenport and P. Erdős, On sequences of
-positive integers, J. Indian Math. Soc. (N.S.) 15 (1951), 19--24. It appeared in
-a refereed journal and is listed as `refereed`. The site's label carried a Lean
-qualification. The Lean file it refers to formalizes Ruzsa's construction as its
-own statement. For the formal-conjectures variant, the file proves the
-convergent-sum disproof for the set $\{2^{2^n}\}$ by a direct union bound on the
-densities of the multiples, not through this theorem. This corpus has not built
-it, so no `formalized` evidence is listed. The page is dated by the publication
-year alone, because the paper's record gives no month and no DOI. The first day
-of 1951 stands in for the issue date. The paper's own "Received January 31,
-1951" line shows that this stand-in precedes the issue date.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, marked the problem
+disproved and credits the Davenport--Erdős theorem for the negative answer. The
+page lists this as `reviewed`. The paper is H. Davenport and P. Erdős, On
+sequences of positive integers, J. Indian Math. Soc. (N.S.) 15 (1951), 19--24.
+It appeared in a refereed journal and is listed as `refereed`. The
+erdosproblems.com label carried a Lean qualification. The Lean file it refers to
+formalizes Ruzsa's construction as its own statement. For the formal-conjectures
+variant, the file proves the convergent-sum disproof for the set $\{2^{2^n}\}$
+by a direct union bound on the densities of the multiples, not through this
+theorem. This corpus has not built it, so no `formalized` evidence is listed.
+The page is dated by the publication year alone, because the paper's record
+gives no month and no DOI. The first day of 1951 stands in for the issue date.
+The paper's own "Received January 31, 1951" line shows that this stand-in
+precedes the issue date.

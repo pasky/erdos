@@ -24,7 +24,7 @@ $$
 $$
 
 Taking the supremum over sequences, $\lambda_r\le\frac{r}{r+1}/\log(1+1/r)$,
-the bound the site quotes. For $r=1$ it gives $\lambda_1\le1/\log4$,
+the bound erdosproblems.com quotes. For $r=1$ it gives $\lambda_1\le1/\log4$,
 attained by the Section 2 sequence. Footnote 2 (p. 15) credits van
 Aardenne-Ehrenfest with an independent discovery of the Section 4 proof.
 
@@ -79,11 +79,11 @@ so the bound reads $r-\lambda_r\ge\tfrac12-\tfrac5{12r}+O(r^{-2})$, that
 is, $r(1-\lambda_r/r)\ge\tfrac12+o(1)$. This is the form in which the
 second expression of the
 [[analysis/debruijn_erdos_1949_sequences_points_circle/conjecture_p17|Section 6 conjecture]]
-is a nontrivial question. Read as the site words it, without the normalization,
-the second expression tends to $-\infty$: a sum of $r$ consecutive intervals
-is at least $r$ times the smallest interval, so $nm_n^r(a)\ge r\,nm_n^1(a)$
-for every $n$, hence $\lambda_r(a)\ge r\lambda_1(a)$ and
-$\lambda_r\ge r\lambda_1=r/\log4>1$ for $r\ge2$ (an authored one-line
+is a nontrivial question. Read as Bloom's catalog words it, without the
+normalization, the second expression tends to $-\infty$: a sum of $r$
+consecutive intervals is at least $r$ times the smallest interval, so
+$nm_n^r(a)\ge r\,nm_n^1(a)$ for every $n$, hence $\lambda_r(a)\ge r\lambda_1(a)$
+and $\lambda_r\ge r\lambda_1=r/\log4>1$ for $r\ge2$ (an authored one-line
 remark, checked here).
 
 ## Dependencies
@@ -93,7 +93,7 @@ None beyond the Section 1 definitions.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the second of the
-  three bounds the site quotes. The literal second expression $r(1-\lambda_r)$
-  of the problem tends to $-\infty$ rather than to $+\infty$ by the remark
-  above, $\lambda_r\ge r\lambda_1=r/\log4$, not by (4.3), which bounds
-  $\lambda_r$ only from above.
+  three bounds erdosproblems.com quotes. The literal second expression
+  $r(1-\lambda_r)$ of the problem tends to $-\infty$ rather than to $+\infty$ by
+  the remark above, $\lambda_r\ge r\lambda_1=r/\log4$, not by (4.3), which
+  bounds $\lambda_r$ only from above.

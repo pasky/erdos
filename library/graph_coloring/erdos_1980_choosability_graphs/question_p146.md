@@ -48,6 +48,6 @@ Winnipeg, 1980, pp. 125--157; the edition read is named on the
 ## Bears on
 
 - [[../wiki/problems/graph_coloring/E0753/_index|Problem 753]]: the question
-  is the problem's question, posed here with $\xi$ for the site's $c$. The
-  paper poses it and proves nothing either way; the problem page records the
+  is the problem's question, posed here with $\xi$ for erdosproblems.com's $c$.
+  The paper poses it and proves nothing either way; the problem page records the
   later answer.

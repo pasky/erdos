@@ -88,8 +88,8 @@ circulation of the argument in June 2026 and independence from
 Moore; that chronology is an author's account, not an independently
 established priority determination.
 
-The primary-source search found an arXiv preprint, with no journal acceptance
-or formal proof certification in that bounded search.
+The primary-source search on 5 September 2026 found an arXiv preprint, with no
+journal acceptance or formal proof certification in that bounded search.
 [Pálvölgyi's arXiv:2608.10865v2, p. 24](https://arxiv.org/pdf/2608.10865v2#page=24)
 cites Moore and Mirabi for this closure result. That citation is evidence of
 uptake, not an independent proof check. Moore's p. 5 acknowledges using ChatGPT

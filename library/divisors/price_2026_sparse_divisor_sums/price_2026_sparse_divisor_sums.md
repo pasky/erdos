@@ -2,7 +2,7 @@
 name: divisors/price_2026_sparse_divisor_sums/price_2026_sparse_divisor_sums
 title: Source record for the Price proof claim on Problem 18
 desc: |
-  Records the site claim, its four comments, the Overleaf links and the
+  Records erdosproblems.com claim, its four comments, the Overleaf links and the
   third-party Lean certification of the claim's elementary layer.
 created: 2026-09-28T03:05:00Z
 updated: 2026-10-07T20:33:22Z
@@ -14,21 +14,21 @@ updated: 2026-10-07T20:33:22Z
 Problem 18 linking an Overleaf document; no PDF is held and the document is
 unread here.
 
-**The claim** (site claim id 131, read 2026-09-27 at
+**The claim** (erdosproblems.com claim id 131, read 2026-09-27 at
 <https://www.erdosproblems.com/forum/thread/18/proof-claims>). "A partial
 proof claimed by Liam Price (using GPT 5.6 Sol Pro)." Summary as posted:
 "GPT-5.6 Sol Pro proves that $h(n)\ll(\log\log n)^2$ for infinitely many
 practical numbers $n$, thereby answering affirmatively the question whether
 $h(n)<(\log\log n)^{O(1)}$ for infinitely many practical $n$." Submitted
-2026-07-24 14:55:15 (site clock). The site's disclaimer applies: appearing on
-the tab "is no guarantee of proof correctness, and does not mean that anyone
-associated with this site has examined any part of the proof." Later the tab
-headed the same claim "A proof claimed by Liam Price (using GPT 5.6 Sol Pro),"
-without the word partial; summary, submission time and the four comments were
-unchanged.
+2026-07-24 14:55:15 (erdosproblems.com clock). The erdosproblems.com disclaimer
+applies: appearing on the tab "is no guarantee of proof correctness, and does
+not mean that anyone associated with this site has examined any part of the
+proof." Later the tab headed the same claim "A proof claimed by Liam Price
+(using GPT 5.6 Sol Pro)," without the word partial; summary, submission time and
+the four comments were unchanged.
 
-**Links.** The site's "External link to proof" is the Overleaf read link
-<https://www.overleaf.com/read/gznxyqymngbm#683145>; the van Doorn note's
+**Links.** erdosproblems.com's "External link to proof" is the Overleaf read
+link <https://www.overleaf.com/read/gznxyqymngbm#683145>; the van Doorn note's
 reference [7] gives the project link
 <https://www.overleaf.com/project/6a6209b061d71464999ab0e6>. A `curl` of the
 read link on 2026-09-27 returned HTTP 200 with the Overleaf application shell
@@ -78,8 +78,8 @@ metadata, README, lakefile, toolchain, script and commit list read
 proof); it answers only the first of the problem's three questions, the
 one carrying the \$250 prize; the analytic layer (the
 Bourgain input) is certified by nobody; no refereed publication, not on
-arXiv (an author search on 2026-09-27 found two unrelated papers); the site
-showed OPEN. The van Doorn note of 16 September 2026, filed as
+arXiv (an author search on 2026-09-27 found two unrelated papers);
+erdosproblems.com showed OPEN. The van Doorn note of 16 September 2026, filed as
 [[divisors/doorn_2026_practical_numbers_egyptian_fractions/_index|doorn_2026_practical_numbers_egyptian_fractions]],
 presents an elementary, explicit version of the same bound and cites this
 claim as its origin.

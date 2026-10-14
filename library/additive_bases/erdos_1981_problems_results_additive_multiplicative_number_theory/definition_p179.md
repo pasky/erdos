@@ -5,7 +5,7 @@ desc: |
   Erdős's 1981 definitions of the properties P, P-bar, P_∞ and Q of an
   infinite sequence A, according to how many translates n + a_i are
   squarefree, with his remarks that such sequences must probably increase
-  fast and that he has no results on the rate; the site's source for
+  fast and that he has no results on the rate; the erdosproblems.com source for
   Problem 1102.
 created: 2026-10-08T15:50:52Z
 updated: 2026-10-08T15:50:52Z
@@ -63,9 +63,9 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E1102/_index|Problem 1102]]: the site's
-  [Er81h] source. The problem's properties P and Q are the paper's, and its
-  question how fast sequences with property P or Q must increase answers to
-  Erdős's remarks that he has no results on the rate. The problem page's
-  modified Statement rests on the definition of Q printed here, whose condition
-  ranges over the terms of $A$ below $n$.
+- [[../wiki/problems/integer_sequences/E1102/_index|Problem 1102]]:
+  erdosproblems.com's [Er81h] source. The problem's properties P and Q are the
+  paper's, and its question how fast sequences with property P or Q must
+  increase answers to Erdős's remarks that he has no results on the rate. The
+  problem page's modified Statement rests on the definition of Q printed here,
+  whose condition ranges over the terms of $A$ below $n$.

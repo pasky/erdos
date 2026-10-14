@@ -78,6 +78,6 @@ computation per the paper (p. 15). Nothing checked here.
 - [[../wiki/problems/additive_bases/E0354/_index|Problem 354]]: an outstanding claim for
   the first question, stronger than it (strong completeness of the value
   set implies the indexed statement); it changes no status, the first
-  question having a site-accepted Lean answer (record `815c1d5f`, 11
+  question having a Conjectures.io-accepted Lean answer (record `815c1d5f`, 11
   September 2026) that precedes this manuscript, and this claim having no
   acceptance evidence on 2026-09-28.

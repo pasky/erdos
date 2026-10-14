@@ -30,23 +30,23 @@ $$
 
 many vertices?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited
-26 October 2025). The question is for each fixed $r\ge3$: is
-there a constant $c_r>0$ such that every $K_r$-free graph on $n$ vertices with
-average degree $t$ has an independent set of at least $c_r\frac{\log t}tn$
-vertices (for $t\ge2$, say, so that $\log t>0$; the origin sets
-$\log x=\max\{1,\ln x\}$, and the base of the logarithm changes only the
-constant). It is display (3) of [AEKS81], printed p. 314, in the paper's
-notation: with $f(n,t,p)$ the least independence number over the $K_p$-free
-graphs on $n$ vertices with average degree $t$, "It is possible that for every
-fixed $p$ we have (3) $f(n,t,p)>c_p(n/t)\log t$", with $p$ the site's $r$
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 26 October 2025). The question is for each fixed $r\ge3$: is there a
+constant $c_r>0$ such that every $K_r$-free graph on $n$ vertices with average
+degree $t$ has an independent set of at least $c_r\frac{\log t}tn$ vertices (for
+$t\ge2$, say, so that $\log t>0$; the origin sets $\log x=\max\{1,\ln x\}$, and
+the base of the logarithm changes only the constant). It is display (3) of
+[AEKS81], printed p. 314, in the paper's notation: with $f(n,t,p)$ the least
+independence number over the $K_p$-free graphs on $n$ vertices with average
+degree $t$, "It is possible that for every fixed $p$ we have (3)
+$f(n,t,p)>c_p(n/t)\log t$", with $p$ erdosproblems.com's $r$
 ([[../library/extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/conjecture_3|result page]]).
 The case $r=3$ is the theorem of Ajtai, Komlós and Szemerédi, and the paper
 says the question is undecided already at $p=4$. The paper states that the
 $r=3$ bound "is best possible up to constant multiple".
 
-**Status.** Proved. The site's label was OPEN on 2026-10-06, with the remark
-that the problem cannot be resolved by a finite computation, and its
+**Status.** Proved. The erdosproblems.com label was OPEN on 2026-10-06, with the
+remark that the problem cannot be resolved by a finite computation, and its
 proof-claims tab was empty. The question is settled by one accepted full claim,
 on
 [[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|its claim page]].
@@ -78,11 +78,12 @@ claim at any $r\ge4$. The release postdates it.
 
 **Source.** [erdosproblems.com/802](https://www.erdosproblems.com/802),
 accessed 2026-09-18: the problem page (OPEN,
-with the site's remark that no finite computation can resolve it; last edited
-26 October 2025; source key [AEKS81]; commentary citing [AKS80], [Al96b] and
-[Sh95]; additional thanks credited to Quanyu Tang), its one-comment discussion
-thread (26 October 2025) and its empty proof-claim tab. Cite as: T. F. Bloom,
-Erdős Problem #802, https://www.erdosproblems.com/802, accessed 2026-09-18.
+with the erdosproblems.com remark that no finite computation can resolve it;
+last edited 26 October 2025; source key [AEKS81]; commentary citing [AKS80],
+[Al96b] and [Sh95]; additional thanks credited to Quanyu Tang), its one-comment
+discussion thread (26 October 2025) and its empty proof-claim tab. Cite as: T.
+F. Bloom, Erdős Problem #802, https://www.erdosproblems.com/802, accessed
+2026-09-18.
 
 **References.**
 
@@ -153,10 +154,10 @@ verification built it from the pinned revision with the axioms `propext`,
 statement-fidelity audit is recorded on the claim page. Nothing else:
 google-deepmind/formal-conjectures had no file `ErdosProblems/802.lean` on
 2026-09-18 (neither the directory `FormalConjectures/ErdosProblems/` nor its
-recursive tree had one) or on 2026-10-07; the site's page shows no formalized
-statement; the community database (teorth/erdosproblems, `data/problems.yaml`,
-read 2026-09-18) records the problem open (last update 31 August 2025),
-unformalized, with no formal proof.
+recursive tree had one) or on 2026-10-07; the erdosproblems.com page shows no
+formalized statement; the community database (teorth/erdosproblems,
+`data/problems.yaml`, read 2026-09-18) records the problem open (last update 31
+August 2025), unformalized, with no formal proof.
 
 ## Current assessment
 
@@ -186,17 +187,17 @@ of [AKS80], an accepted partial claim on
 Everything below this paragraph dates from the search and
 describes the state before the release, which postdates it.
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN; last edited 26 October 2025. The site's commentary attributes
-the conjecture to [AEKS81], records that paper's bound
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN; last edited 26 October 2025. The erdosproblems.com
+commentary attributes the conjecture to [AEKS81], records that paper's bound
 $\gg_r\frac{\log\log(t+1)}tn$ and Shearer's improvement [Sh95] to
 $\gg_r\frac{\log t}{\log\log(t+1)\,t}n$, credits [AKS80] with the case
 $r=3$, and describes Alon's theorem [Al96b] as the conjectured bound under
 the stronger hypothesis that every vertex neighborhood induces a graph of
 chromatic number at most $r-2$. The thread's one comment (08:03 on 26 October
 2025) is a typo report on the statement's wording,
-which the site addressed. The proof-claim tab is empty. The community database
-record says open.
+which erdosproblems.com addressed. The proof-claim tab is empty. The community
+database record says open.
 
 **The origin.** [AEKS81], p. 314, opens with Turán's bound (1) $\alpha\ge n/(t+1)$ and the graph that
 attains it, then observes that this extremal graph is rigid: a graph that is
@@ -216,22 +217,23 @@ theorem, which they expect can be widened, and the conjecture itself: they
 paper's $\log x$ is $\max\{1,\ln x\}$ and its $t=2e/n$ is tacitly at least
 $1$ (p. 313).
 
-**What is proved.** In the site's indexing ($K_r$-free; the paper's $p$ is
-$r$), with $t$ the average degree:
+**What is proved.** In the erdosproblems.com indexing ($K_r$-free; the paper's
+$p$ is $r$), with $t$ the average degree:
 
 - [[../library/extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/theorem_2|Theorem 2]]
   of [AEKS81] (p. 314): there is an absolute constant $c_1$ such
   that (4) $f(n,t,p)>c_1(n/t)\log A$, where $A=(\log t)/p$; so for fixed $r$
-  every $K_r$-free graph has $\alpha(G)\gg_r\frac{\log\log t}tn$, the site's
-  first display. The paper notes that this improves on Turán's bound "as long
-  as $p=o(\log t)$" and gives no new information for $p>\log t$. Proof:
-  Sections 2--4 (pp. 315--317), by induction on $n$ through the sharper
-  Theorem 1$'$ and a sparse-subgraph lemma; proof coverage: statement only.
+  every $K_r$-free graph has $\alpha(G)\gg_r\frac{\log\log t}tn$,
+  erdosproblems.com's first display. The paper notes that this improves on
+  Turán's bound "as long as $p=o(\log t)$" and gives no new information for
+  $p>\log t$. Proof: Sections 2--4 (pp. 315--317), by induction on $n$ through
+  the sharper Theorem 1$'$ and a sparse-subgraph lemma; proof coverage:
+  statement only.
 - [[../library/extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_2|Corollary 2]]
   of [Sh95] (p. 271): a graph on $n$ points with average degree
   $d$ and no $K_r$, $r\ge4$, has $\alpha\ge c'(r)\,n\ln d/(d\ln\ln d)$ for
   large $d$; the constant is not explicit, no threshold for $d$ is given,
-  and the paper keeps only leading-order terms. In the site's letters
+  and the paper keeps only leading-order terms. In erdosproblems.com's letters
   ($d=t$) this is the second display, $\gg_r\frac nt\cdot\frac{\log
   t}{\log\log t}$, the best bound the search found for
   $K_r$-free graphs with $r\ge4$ and the best in the refereed record;
@@ -289,7 +291,7 @@ $r$), with $t$ the average degree:
   of [Al96b] (p. 2): if $G$ has $n$ vertices, average degree
   $t\ge1$, and the induced subgraph on the neighborhood of every vertex is
   $r$-colorable, then $\alpha(G)\ge\frac c{\log(r+1)}\frac nt\log t$ for an
-  absolute constant $c>0$ (logarithms to the base $2$). The site's
+  absolute constant $c>0$ (logarithms to the base $2$). The erdosproblems.com
   commentary describes it as the conjectured bound under the hypothesis that
   each neighborhood has chromatic number at most $r-2$. Alon's own gloss
   (p. 1) reads: "Note that a $K_{r+1}$-free graph is a graph in which the
@@ -328,9 +330,9 @@ disproof, preprint or proof claim for the statement at any $r\ge4$, or a
 bound better than Shearer's; the release manuscript of 25 September 2026
 postdates the search.
 
-- The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures directory listing and tree as of 2026-09-18 (no file
-  802); the community database as of 2026-09-18.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  formal-conjectures directory listing and tree, read 2026-09-18 (no file
+  802); the community database, read 2026-09-18.
 - The primary sources: [AEKS81] pp. 313--315 and p. 317 (the references);
   [Al96b] pp. 1--2 and p. 8 (the references).
 - Crossref: bibliographic queries for [AEKS81] (top record DOI

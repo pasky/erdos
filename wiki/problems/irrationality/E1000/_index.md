@@ -40,23 +40,24 @@ $$
 \lim_{N\to \infty}\frac{1}{N}\sum_{k\leq N}\frac{\phi_A(k)}{n_k}=0?
 $$
 
-**Formulation.** The site's definition counts the $m$ whose fraction $m/n_k$
-in lowest terms has denominator $n_k/(m,n_k)$ different from every earlier
-$n_j$. Erdős [Er64b, p. 59], following Cassels, counts instead the
+**Formulation.** The erdosproblems.com definition counts the $m$ whose fraction
+$m/n_k$ in lowest terms has denominator $n_k/(m,n_k)$ different from every
+earlier $n_j$. Erdős [Er64b, p. 59], following Cassels, counts instead the
 $1\le a\le n_k$ with $a/n_k\neq b/n_j$ for every $j<k$ and every integer $b$,
 that is, those whose reduced denominator divides no earlier $n_j$; the
 formal-conjectures statement was corrected to this count on 2026-09-13. The
 counts differ materially: for $n_k=4k+2$ the lower limit of $\phi_A(k)/n_k$
-is $0$ under the source's count and $1/2$ under the site's. The site's count
-is never smaller than the source's, so the site's question asks for more, and
-a sequence answering it also answers the source's question. The page's
-standing concerns the site's wording; the results of Cassels and Erdős below
-are stated in the source's count.
+is $0$ under the source's count and $1/2$ under erdosproblems.com's.
+erdosproblems.com's count is never smaller than the source's, so the
+erdosproblems.com question asks for more, and a sequence answering it also
+answers the source's question. The page's standing concerns the
+erdosproblems.com wording; the results of Cassels and Erdős below are stated in
+the source's count.
 
-**Status.** Proved. The site labeled the problem PROVED (LEAN) and credits
-Haight's thesis [Ha]. The site was accessed 2026-09-04, and the page was last
-edited 2025-12-05. The Lean qualifier refers to a third-party formalization
-linked on the
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (LEAN) and
+credits Haight's thesis [Ha]. erdosproblems.com was accessed 2026-09-04, and the
+page was last edited 2025-12-05. The Lean qualifier refers to a third-party
+formalization linked on the
 [[problems/irrationality/E1000/claims/1971_02_01_haight|Haight claim page]].
 That formalization was not built or audited here.
 
@@ -72,7 +73,7 @@ https://www.erdosproblems.com/1000.
   Compositio Math. (1964), 52-65.
 - [Ha] Haight, John Andrew, Metric Diophantine Approximation and Related
   Topics. PhD thesis, University of London, Westfield College, February 1971
-  (the title page's date; the catalog's entry [Ha] gives no year).
+  (the title page's date; the erdosproblems.com entry [Ha] gives no year).
   [ProQuest record](https://www.proquest.com/docview/2006885858?pq-origsite=primo).
 
 **Formalization.** Statement in
@@ -86,17 +87,17 @@ not been built or audited here.
 
 ## Current assessment
 
-The site recorded Problem 1000 as proved (accessed 2026-09-04); it credits
-Cassels with the zero lower limit and Haight with the solution. Haight's
+erdosproblems.com recorded Problem 1000 as proved (accessed 2026-09-04); it
+credits Cassels with the zero lower limit and Haight with the solution. Haight's
 thesis has no library card. No literature search beyond those sources and no
 independent assessment of proof coverage are recorded. The
 [[problems/irrationality/E1000/claims/1971_02_01_haight|Haight claim page]]
-carries the site's acceptance as its evidence and the Lean development as a
-link; the frontmatter standing follows from it.
+carries erdosproblems.com's acceptance as its evidence and the Lean development
+as a link; the frontmatter standing follows from it.
 
 ## Progress
 
-The site's entry attributes a zero-liminf example to
+The erdosproblems.com entry attributes a zero-liminf example to
 [[../library/irrationality/cassels_1950_some_metrical_theorems_diophantine_approximation_i/_index|Cassels's 1950 paper]]
 and the full limit-zero construction to Haight's thesis.
 
@@ -110,7 +111,7 @@ and the full limit-zero construction to Haight's thesis.
   reports it [Er64b, p. 60], Cassels showed that this lower limit is positive
   exactly when divergence of $\sum_k f(n_k)/n_k$ forces, for almost all
   $\alpha$, infinitely many $k$ with $|\alpha-m_k/n_k|<f(n_k)/n_k^2$ (the
-  site's remark prints the sum as $\sum_k f(n_k)/k$).
+  erdosproblems.com remark prints the sum as $\sum_k f(n_k)/k$).
 - Erdős [Er64b] (card
   [[../library/discrepancy/erdos_1964_problems_results_diophantine_approximations/_index|erdos_1964]])
   expected that no sequence has limit zero. He proved that $\phi_A(k)/n_k$

@@ -41,49 +41,50 @@ $$
 f(n;r,k)=\max\left(\binom{rk-1}{r}, \binom{n}{r}-\binom{n-k+1}{r}\right).
 $$
 
-**Notes.** The site's wording fails in two ways. It never says what $n$ counts,
-and with no bound on the number of vertices the maximum does not exist for
-$k\ge2$: the $r$-sets through one fixed vertex of an arbitrarily large set have
-no two disjoint members. The site's commentary calls the conjecture trivially
-true for $n<kr$. The change inserts the words "on $n$ vertices" in the
-definition and "and $n\geq kr$" after "For all $r\geq 3$"; nothing else changes.
-The evidence is the poser's own words. Erdős's paper [Er65d] defines $f(n;r,k)$
-through $r$-graphs of $n$ vertices (p. 93), states the case $k=2$, the
-Erdős–Ko–Rado theorem, for $n\ge2r$, adds that the case $n<2r$ is trivial since
-then no two $r$-tuples are independent, and says on p. 95 that this theorem
-proves the conjecture for $k=2$. Bollobás, Daykin and Erdős [BDE76], p. 26,
-restate the conjecture of [Er65d] for "an $r$-graph with $n \geq (k+1)r$
-vertices", where their $k+1$ is the problem's $k$, so the range is $n\ge kr$.
-The literature states the same range: [KoKu23] Conjecture 1.1 (arXiv:2206.01526,
-p. 1) assumes $n\ge(s+1)k$, with uniformity $k$ and matching number $s$, which
-is $n\ge kr$ in the problem's notation. The missing vertex count is the site's
-slip. The missing range is already in the poser's text: [Er65d] display (9), p.
-95, prints the conjectured value with no range on $n$, and the site reproduces
-it. The form rests on these sources alone, not on which results settle it. No
-result concerns the site's wording alone: each claim page settles a range of the
-modified Statement. The problem's standing judges the modified Statement.
+**Notes.** The erdosproblems.com wording fails in two ways. It never says what
+$n$ counts, and with no bound on the number of vertices the maximum does not
+exist for $k\ge2$: the $r$-sets through one fixed vertex of an arbitrarily large
+set have no two disjoint members. The erdosproblems.com commentary calls the
+conjecture trivially true for $n<kr$. The change inserts the words "on $n$
+vertices" in the definition and "and $n\geq kr$" after "For all $r\geq 3$";
+nothing else changes. The evidence is the poser's own words. Erdős's paper
+[Er65d] defines $f(n;r,k)$ through $r$-graphs of $n$ vertices (p. 93), states
+the case $k=2$, the Erdős–Ko–Rado theorem, for $n\ge2r$, adds that the case
+$n<2r$ is trivial since then no two $r$-tuples are independent, and says on p.
+95 that this theorem proves the conjecture for $k=2$. Bollobás, Daykin and Erdős
+[BDE76], p. 26, restate the conjecture of [Er65d] for "an $r$-graph with
+$n \geq (k+1)r$ vertices", where their $k+1$ is the problem's $k$, so the range
+is $n\ge kr$. The literature states the same range: [KoKu23] Conjecture 1.1
+(arXiv:2206.01526, p. 1) assumes $n\ge(s+1)k$, with uniformity $k$ and matching
+number $s$, which is $n\ge kr$ in the problem's notation. The missing vertex
+count is erdosproblems.com's slip. The missing range is already in the poser's
+text: [Er65d] display (9), p. 95, prints the conjectured value with no range on
+$n$, and erdosproblems.com reproduces it. The form rests on these sources alone,
+not on which results settle it. No result concerns the erdosproblems.com wording
+alone: each claim page settles a range of the modified Statement. The problem's
+standing judges the modified Statement.
 
 **Formulation.** The sources state the problem in two equivalent ways. Erdős
 [Er65d] writes $f(n;r,k)$ for the least number of edges that forces $k$
-independent edges in an $r$-graph on $n$ vertices, so his display (9) is the
-site's equality plus one. The later literature states the conjecture as the
-upper bound $|\mathcal F|\le\max(\cdots)$ for a family $\mathcal F$ of
-$r$-subsets of an $n$-set with matching number at most $s=k-1$, usually with the
-uniformity written $k$. For $n\ge kr$ the upper bound and the equality are the
-same statement, since the two families of the site's commentary attain the right
-side; read as the upper bound for every $n$, the conjecture is again the
-modified Statement, since the values $n<kr$ are trivial. The formal-conjectures
-statement, as the Formalization paragraph records, assumes $0<k$ and
-$rk-1\le n$, which adds only the instance $n=rk-1$.
+independent edges in an $r$-graph on $n$ vertices, so his display (9) is
+erdosproblems.com's equality plus one. The later literature states the
+conjecture as the upper bound $|\mathcal F|\le\max(\cdots)$ for a family
+$\mathcal F$ of $r$-subsets of an $n$-set with matching number at most $s=k-1$,
+usually with the uniformity written $k$. For $n\ge kr$ the upper bound and the
+equality are the same statement, since the two families of the erdosproblems.com
+commentary attain the right side; read as the upper bound for every $n$, the
+conjecture is again the modified Statement, since the values $n<kr$ are trivial.
+The formal-conjectures statement, as the Formalization paragraph records,
+assumes $0<k$ and $rk-1\le n$, which adds only the instance $n=rk-1$.
 
-**Status.** The site labeled the problem FALSIFIABLE, an open label (page last
-edited 28 December 2025). The site's commentary calls this the Erdős matching
-conjecture. It records the Erdős–Gallai theorem for $r=2$ [ErGa59]. Its
-parenthesis ties the Erdős–Ko–Rado theorem to $r=2$ as well, but that theorem
-gives the case $k=2$ for every $r$. The commentary notes that two examples show
-the conjectured value cannot be raised: all $r$-sets of an $(rk-1)$-set, and all
-$r$-sets meeting a fixed $(k-1)$-set. It notes that the second term dominates
-once $n\ge(r+1)k$. It also records Frankl's bound
+**Status.** Bloom's catalog labeled the problem FALSIFIABLE, an open label (page
+last edited 28 December 2025). The erdosproblems.com commentary calls this the
+Erdős matching conjecture. It records the Erdős–Gallai theorem for $r=2$
+[ErGa59]. Its parenthesis ties the Erdős–Ko–Rado theorem to $r=2$ as well, but
+that theorem gives the case $k=2$ for every $r$. The commentary notes that two
+examples show the conjectured value cannot be raised: all $r$-sets of an
+$(rk-1)$-set, and all $r$-sets meeting a fixed $(k-1)$-set. It notes that the
+second term dominates once $n\ge(r+1)k$. It also records Frankl's bound
 $f(n;r,k)\le(k-1)\binom{n-1}{r-1}$ [Fr87].
 
 The commentary lists the ranges in which the conjecture is known. For small $n$,
@@ -145,13 +146,13 @@ problem as formalized since 7 September 2026.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) displays the value of $f(n;r,k)$
-for every $r\ge3$ with no restriction on $n$; the standing judges the modified
-Statement above, the conjecture for $n\ge kr$. The site's label FALSIFIABLE
-records that a counterexample would be a finite object, an $r$-uniform
-hypergraph on $n$ vertices with no $k$ pairwise disjoint edges and more edges
-than the conjectured maximum, whose checking is a finite computation; that is a
-note on an open problem, not a claim.
+The erdosproblems.com formulation (accessed 2026-09-04) displays the value of
+$f(n;r,k)$ for every $r\ge3$ with no restriction on $n$; the standing judges the
+modified Statement above, the conjecture for $n\ge kr$. The erdosproblems.com
+label FALSIFIABLE records that a counterexample would be a finite object, an
+$r$-uniform hypergraph on $n$ vertices with no $k$ pairwise disjoint edges and
+more edges than the conjectured maximum, whose checking is a finite computation;
+that is a note on an open problem, not a claim.
 
 The conjecture is proved in ranges, each a refereed result and an accepted
 partial claim; every range below is stated in the problem's notation, $r$
@@ -163,11 +164,11 @@ since a family with no two disjoint edges is intersecting. For small $n$: the
 case $n=rk$
 ([[problems/set_systems/E1020/claims/1968_09_01_kleitman|Kleitman 1968]]);
 $k-1>r$ and $rk\le n<k(r+1/(2r^{2r+1}))$
-([[problems/set_systems/E1020/claims/2017_10_01_frankl|Frankl 2017]]; the
-site drops the hypothesis on $k$ and prints $\le$); and $r\ge5$,
+([[problems/set_systems/E1020/claims/2017_10_01_frankl|Frankl 2017]];
+erdosproblems.com drops the hypothesis on $k$ and prints $\le$); and $r\ge5$,
 $k-1>101r^3$ and $rk\le n<k(r+1/(100r))$
 ([[problems/set_systems/E1020/claims/2022_06_03_kolupaev_kupavskii|Kolupaev and Kupavskii 2023]];
-the site prints $k>101r^3$). For large $n$: $n\ge c_rk$ with $c_r$
+erdosproblems.com prints $k>101r^3$). For large $n$: $n\ge c_rk$ with $c_r$
 unspecified ([[problems/set_systems/E1020/claims/1965_01_01_erdos|Erdős
 1965]]); $n>2r^3(k-1)$
 ([[problems/set_systems/E1020/claims/1976_01_01_bollobas_daykin_erdos|Bollobás, Daykin and Erdős 1976]]);
@@ -185,17 +186,17 @@ $n$ large and every $k$
 ([[problems/set_systems/E1020/claims/2012_02_19_luczak_mieczkowska|Łuczak and Mieczkowska 2014]]);
 and every $n$ ([[problems/set_systems/E1020/claims/2012_05_30_frankl|Frankl
 2017]], Discrete Appl. Math.), so the case $r=3$ is settled in full and
-[LuMi14] is its large-$n$ predecessor. The site's list omits [Fr13], [Fr17b]
-and [FrKu22]. Two of the site's citations have no page: the Erdős–Gallai
-theorem [ErGa59] is the case $r=2$, outside the problem's $r\ge3$; and
-[Fr87], which the site credits with Frankl's bound
+[LuMi14] is its large-$n$ predecessor. The erdosproblems.com list omits [Fr13],
+[Fr17b] and [FrKu22]. Two of the erdosproblems.com citations have no page: the
+Erdős–Gallai theorem [ErGa59] is the case $r=2$, outside the problem's $r\ge3$;
+and [Fr87], which erdosproblems.com credits with Frankl's bound
 $f(n;r,k)\le(k-1)\binom{n-1}{r-1}$ and the Frankl–Füredi range
 $n>100k^2r$, is a survey chapter in Surveys in Combinatorics 1987, not a
 refereed journal paper and not a manuscript posted on the thread, so the
-bound and the range are recorded here as the site credits them.
+bound and the range are recorded here as erdosproblems.com credits them.
 
 Five claims from 2026 are pending or withdrawn, none refereed and none
-mentioned by the site's label or commentary.
+mentioned by the erdosproblems.com label or commentary.
 [[problems/set_systems/E1020/claims/2026_02_01_mishra|Mishra 2026]] claimed
 the full conjecture in a preprint of 1 February 2026; a reader located an
 error in its Lemma 4 on the thread and the author withdrew it on 1 June 2026
@@ -207,7 +208,7 @@ claim $r=4$ for $n\ge5(k-1)$ with $n$ large;
 claim $r=4$ for $k\ge6005$ and $n\ge4k$ by a finite-board method; and
 [[problems/set_systems/E1020/claims/2026_08_19_cao_liu_zhang|Cao, Liu and Zhang 2026]]
 claim every fixed uniformity $r$ for $k-1\ge s_0(r)$ and $n\ge(r+1)(k-1)$.
-The site's proof-claims tab carries one partial claim,
+The erdosproblems.com proof-claims tab carries one partial claim,
 [[problems/set_systems/E1020/claims/2026_09_13_babanskyy|Babanskyy 2026]]
 (13 September 2026), claiming the case $r=4$ for every $k\ge2$ and
 $n\ge4k$ by developing the finite-board method; on 2026-10-06 the

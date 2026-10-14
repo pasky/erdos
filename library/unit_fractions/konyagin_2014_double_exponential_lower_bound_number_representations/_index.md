@@ -31,7 +31,8 @@ no. 1--2, 277--281.
 The copy read for this card is the five-page Russian original, a short
 communication in Mat. Zametki **95** (2014), no. 2, 312--316,
 [doi:10.4213/mzm10417](https://doi.org/10.4213/mzm10417). The English
-translation the site cites, Math. Notes **95** (2014), no. 1--2, 277--281,
+translation erdosproblems.com cites, Math. Notes **95** (2014), no. 1--2,
+277--281,
 [doi:10.1134/S0001434614010295](https://doi.org/10.1134/S0001434614010295),
 published online 28 February 2014, was not obtained and its labels were not
 compared (MathNet lists the translation's pages as 280--284). Read status:
@@ -40,11 +41,10 @@ clause by clause on the PDF pages (claims checked); the proofs on pp.
 313--315 were read for structure. Two steps of the printed proof of Theorem
 1 fail: the displayed identity before its equation (4) is false, and the
 second inequality of Lemma 1 is false for m = 4; the Theorem 1 page
-records both, with the correction reported on the site. Nothing has been
-independently reviewed. The copy read prints
-"© С. В. Конягин, 2014" (S. V. Konyagin) at the foot of its first page
-(printed p. 312, read on the page image) and no license wording on its five
-pages; the Math-Net.Ru Terms of Use
+records both, with the correction reported on erdosproblems.com. Nothing has
+been independently reviewed. The copy read prints "© С. В. Конягин, 2014" (S. V.
+Konyagin) at the foot of its first page (printed p. 312, read on the page image)
+and no license wording on its five pages; the Math-Net.Ru Terms of Use
 (https://www.mathnet.ru/php/agreement.phtml?option_lang=eng, read 2026-10-02)
 state "All materials published on this website including full-text articles,
 abstracts and author indexes are fully copyrighted by Steklov Mathematical

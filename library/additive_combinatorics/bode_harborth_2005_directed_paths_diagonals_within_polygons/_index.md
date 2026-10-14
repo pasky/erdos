@@ -176,7 +176,7 @@ here is independently reviewed.
   state it: a subset $A\subseteq\mathbb Z_n\setminus\{0\}$
   with nonzero sum has an ordering with pairwise distinct partial sums
   $s_0,\ldots,s_k$, that is, distinct and nonzero proper partial sums. The
-  site's statement for Problem 475 (Graham's) asks only that
+  erdosproblems.com statement for Problem 475 (Graham's) asks only that
   $s_1,\ldots,s_t$ be distinct, allows $s_t=0$ and puts no condition on the
   sum. For $n=p$ an odd prime, Theorem 2 gives every $(p-2)$-subset of
   $\mathbb Z_p\setminus\{0\}$ (its sum is $-x\ne0$, $x$ the missing element)
@@ -193,8 +193,8 @@ here is independently reviewed.
   once, its $n-1$ vertices are distinct and it returns to its start, so its
   partial sums $s_1,\ldots,s_{n-1}$ are pairwise distinct with $s_{n-1}=0$;
   for $n=p$ this is a valid ordering of the whole of $\mathbb Z_p\setminus\{0\}$
-  in the site's sense, the case $t=p-1$ that the site and Erdős attribute
-  to Graham.
+  in erdosproblems.com's sense, the case $t=p-1$ that erdosproblems.com and
+  Erdős attribute to Graham.
 
 ## Compiled scope
 
@@ -213,19 +213,19 @@ detail. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]: Theorem 2
 (printed p. 4, PDF p. 2), "Conjecture 1 is true for $t=n-2$", is the source
-of the size $p-2$ in the site's range $p-3\le t\le p-1$, which Hicks, Ollis
-and Schmitt's
+of the size $p-2$ in erdosproblems.com's range $p-3\le t\le p-1$, which Hicks,
+Ollis and Schmitt's
 [[additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/theorem_4_6|Theorem 4.6]]
 completes with the size $p-3$ and the implication of Archdeacon, Dinitz,
-Mattern and Stinson (not held) carries to the site's statement, except for
-the $(p-3)$-sets of sum $0$, which Alspach's conjecture leaves out (Hicks,
-Ollis and Schmitt set them aside, their p. 16). Theorem 1 (p. 4),
+Mattern and Stinson (not held) carries to the erdosproblems.com statement,
+except for the $(p-3)$-sets of sum $0$, which Alspach's conjecture leaves out
+(Hicks, Ollis and Schmitt set them aside, their p. 16). Theorem 1 (p. 4),
 "Conjecture 1 is true for $t=n-1$", is the paper's size $n-1$, and its
 proof says in which cases it has content:
 "$\binom n2$, which is $\not\equiv0\pmod n$ only for $n$ even", so for
-every odd prime the theorem is vacuous and the site's case $t=p-1$ remains
-Graham's, which the paper does not state; the reading recorded above, that
-the odd-$n$ cycle of Theorem 2's proof is such an ordering, is made here.
+every odd prime the theorem is vacuous and erdosproblems.com's case $t=p-1$
+remains Graham's, which the paper does not state; the reading recorded above,
+that the odd-$n$ cycle of Theorem 2's proof is such an ordering, is made here.
 The paper's own checks ($t\le5$; $n\le16$ by computer, p. 4) are
 superseded for the problem by Costa and Pellegrini's
 [[additive_combinatorics/costa_2020_new_results_about_conjecture_brian_alspach/proposition_4_2|Proposition 4.2]].

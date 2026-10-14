@@ -228,12 +228,12 @@ independently reviewed.
   [[extremal_graph_theory/bondy_1971_large_cycles_graphs/conjecture_1|conjecture_1]].
 - Translation to Problem 1012's letters. With $r=k+1$, the cycle length
   $n-r+1$ is $n-k$, the range $r\le\frac12(n-1)$ is $n\ge2k+3$, and
-  $g(k+1,n)=\frac12\{n^2-(2k+3)n+2k^2+6k+6\}
-  =\binom{n-k-1}2+\binom{k+2}2+1$, the site's edge count (followed here:
-  both sides expand to the same quadratic). Theorem 2 is the case $r=2$
-  ($k=1$) of Conjecture 1 without a range on $n$, and the graph of complete
-  blocks of orders $n-2$ and $3$ is the problem's sharpness graph at $k=1$.
-  The range $n\ge\frac12(r^2+5r+4)$ becomes $n\ge\frac12(k+2)(k+5)$.
+  $g(k+1,n)=\frac12\{n^2-(2k+3)n+2k^2+6k+6\} =\binom{n-k-1}2+\binom{k+2}2+1$,
+  erdosproblems.com's edge count (followed here: both sides expand to the same
+  quadratic). Theorem 2 is the case $r=2$ ($k=1$) of Conjecture 1 without a
+  range on $n$, and the graph of complete blocks of orders $n-2$ and $3$ is the
+  problem's sharpness graph at $k=1$. The range $n\ge\frac12(r^2+5r+4)$ becomes
+  $n\ge\frac12(k+2)(k+5)$.
 - Filing observations, not review verdicts. (1) Theorem 2 is printed without
   a range for $n$; for $n\le3$ its hypothesis cannot be met by a graph
   without loops or multiple edges ($\frac12(n^2-5n+14)$ exceeds
@@ -273,7 +273,7 @@ read on the page images with their proofs read at the depth stated in the
 read status. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1012/_index|#1012]]: Theorem 2
-(printed p. 125, PDF p. 5) is the site's "$f(1)=1$" in the paper's own
+(printed p. 125, PDF p. 5) is erdosproblems.com's "$f(1)=1$" in the paper's own
 words: "Let $G$ have order $n$ and size at least $\frac12(n^2-5n+14)$. Then
 $G$ has a cycle of length $n-1$", and $\frac12(n^2-5n+14)
 =\binom{n-2}2+\binom32+1$ is the problem's edge count at $k=1$; the theorem
@@ -286,14 +286,15 @@ whose proceedings carry
 and its sharpness graph, complete blocks of orders $n-2$ and $3$, is the
 problem's sharpness graph at $k=1$. Conjecture 1 (p. 126), $f(r,n)=g(r,n)$
 for $r\le\frac12(n-1)$, is the problem's question in the letters $r=k+1$:
-$g(k+1,n)$ is the site's count, and the range is $n\ge2k+3$, the range of
-Woodall's theorem; so the paper, which prints Erdős's count in the site's
-form, supports the site's reading of the misprinted count of item 4. The
-sentence of p. 128 that Conjecture 1 "holds for all $n\ge\frac12(r^2+5r+4)$"
-is, in the problem's letters, $f(k)\le\frac12(k+2)(k+5)$, an explicit
-estimate of Erdős's $n_0(k)$; it rests on a bound for Conjecture 2
-that the paper asserts "we can prove" without a written proof, together with
-the proved equivalence of the two conjectures (Corollary 3.2, p. 131).
+$g(k+1,n)$ is erdosproblems.com's count, and the range is $n\ge2k+3$, the range
+of Woodall's theorem; so the paper, which prints Erdős's count in the
+erdosproblems.com form, supports erdosproblems.com's reading of the misprinted
+count of item 4. The sentence of p. 128 that Conjecture 1 "holds for all
+$n\ge\frac12(r^2+5r+4)$" is, in the problem's letters,
+$f(k)\le\frac12(k+2)(k+5)$, an explicit estimate of Erdős's $n_0(k)$; it rests
+on a bound for Conjecture 2 that the paper asserts "we can prove" without a
+written proof, together with the proved equivalence of the two conjectures
+(Corollary 3.2, p. 131).
 [[extremal_graph_theory/li_2023_stability_woodall_theorem_spectral_conditions_large_cycles/_index|Li and Ning 2023]]
 (p. 2) credit the paper with "some partial result" on Erdős's question
 without saying which, and the closing note (pp. 131--132) points to

@@ -46,7 +46,7 @@ $$
 
 as $k\to\infty$?
 
-**Notes.** The site's wording does not give the length of the rainbow
+**Notes.** The erdosproblems.com wording does not give the length of the rainbow
 progression. Any two integers form an arithmetic progression, so with
 progressions of two terms every coloring of $\{1,\ldots,k\}$ has a
 monochromatic $k$-term progression (one color) or a rainbow two-term one (two
@@ -60,22 +60,23 @@ printed p. 333
 define $H(n)$ by requiring that "there is always an $n$-term arithmetic
 progression all of whose terms either belong to one class or all different
 classes", and add that showing $H(n)^{1/n}/n\to\infty$ might be much harder;
-the site's wording renders that passage with $k$ for $n$. Bae (Section 2.1)
-and Fox and Hunter (Section 1.1) define $H(k)$ the same way. The omission is
-the site's. No result about the readings with a shorter rainbow progression is
-recorded.
+the erdosproblems.com wording renders that passage with $k$ for $n$. Bae
+(Section 2.1) and Fox and Hunter (Section 1.1) define $H(k)$ the same way. The
+omission is erdosproblems.com's. No result about the readings with a shorter
+rainbow progression is recorded.
 
-**Status.** The site showed SOLVED (page last edited 2 June 2026), a label that
-describes the modified Statement. The modified Statement is **proved**, by each
-of two independent 2026 preprints that the site's commentary credits. Bae proves
-$H(k)\ge k^{(2-o(1))k}$, so $H(k)^{1/k}/k\to\infty$
+**Status.** erdosproblems.com showed SOLVED (page last edited 2 June 2026), a
+label that describes the modified Statement. The modified Statement is
+**proved**, by each of two independent 2026 preprints that the erdosproblems.com
+commentary credits. Bae proves $H(k)\ge k^{(2-o(1))k}$, so
+$H(k)^{1/k}/k\to\infty$
 ([[problems/additive_combinatorics/E0190/claims/2026_04_22_bae|claim page]]).
 Fox and Hunter prove the stronger $H(k)\ge k^{(1-o(1))k\log k}$
 ([[problems/additive_combinatorics/E0190/claims/2026_06_01_fox_hunter|claim
-page]]). The acceptance evidence comes from the site's curator, T. F. Bloom,
-whose commentary credits both results. Fox and Hunter's preprint credits Bae's
-earlier independent resolution, and Bae acknowledged their stronger bound in a
-discussion-thread post of 2026-09-14. Neither preprint is refereed, and no
+page]]). The acceptance evidence comes from the erdosproblems.com curator, T. F.
+Bloom, whose commentary credits both results. Fox and Hunter's preprint credits
+Bae's earlier independent resolution, and Bae acknowledged their stronger bound
+in a discussion-thread post of 2026-09-14. Neither preprint is refereed, and no
 formal proof of the statement has been audited here. The community database
 lists the problem as solved (Lean) as of its last update of 2026-09-15, through
 Bae's repository (see Formalization). The request to estimate $H(k)$ is
@@ -121,11 +122,11 @@ the existence of $H(k)$, which Erdős and Graham derived from Szemerédi's
 theorem.
 
 Neither preprint has a refereed version and neither proof
-is disputed. The one proof claim on the site's proof-claims page, Bae's own
-of 2026-09-15, asserts the result of Bae's preprint and so is a discussion
-link on its claim page rather than a second claim. The commentary's sentence
-on Hunter's recurrence states, as written, only $H(k)^{1/k}\to\infty$; this
-page reads it as $H(k)^{1/k}/k\to\infty$, since the easy statement follows
+is disputed. The one proof claim on the erdosproblems.com proof-claims page,
+Bae's own of 2026-09-15, asserts the result of Bae's preprint and so is a
+discussion link on its claim page rather than a second claim. The commentary's
+sentence on Hunter's recurrence states, as written, only $H(k)^{1/k}\to\infty$;
+this page reads it as $H(k)^{1/k}/k\to\infty$, since the easy statement follows
 from the local lemma alone. Bae's discussion-thread post of 2026-09-14
 disputes that attribution, not any proof: it asks that its author's note be
 recorded as the first posted proof of the divergence and that the observation be
@@ -163,8 +164,8 @@ $r\ge(\log k)^{3/\varepsilon}$ and $k$ is large, which at $r=k-1$ gives
 $H(k)\ge k^{(1-o(1))k\log k}$; they also note that a product coloring
 together with either their three-color bound or the construction of
 [[../library/additive_combinatorics/hunter_2025_lower_bounds_multicolor_van_der_waerden/_index|Hunter
-2025]] already gives $H(k)=k^{\omega(k)}$, the remark the site's commentary
-credits to Hunter's recurrence, where it states the weaker
+2025]] already gives $H(k)=k^{\omega(k)}$, the remark the erdosproblems.com
+commentary credits to Hunter's recurrence, where it states the weaker
 $H(k)^{1/k}\to\infty$. The proofs are not compiled here beyond these
 statements.
 <!-- BEGIN problem library links -->

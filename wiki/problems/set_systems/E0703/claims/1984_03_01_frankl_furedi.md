@@ -52,12 +52,12 @@ settle.
 
 **Acceptance.** Refereed: J. Combin. Theory Ser. A **36** (1984), no. 2,
 230–236. The issue is dated March 1984, and the page is dated to the first day
-of that month. In the problem's commentary, the site's curator records the
-theorem with its two extremal families and credits it to Frankl and Füredi
-[FrFu84b]. But the site's PROVED label rested on the Frankl–Rödl answer to the
-second question. So that remark is context and not acceptance evidence, and the
-page lists no `reviewed`. The library card records the paper's results. No proof
-review is recorded.
+of that month. In the problem's commentary, the erdosproblems.com curator
+records the theorem with its two extremal families and credits it to Frankl and
+Füredi [FrFu84b]. But erdosproblems.com's PROVED label rested on the Frankl–Rödl
+answer to the second question. So that remark is context and not acceptance
+evidence, and the page lists no `reviewed`. The library card records the paper's
+results. No proof review is recorded.
 
 **Formalization.** Collin Yuanjie Ren's submission jsp-000573-cyr in their
 awards repository, committed 2026-09-16 and linked above at that commit,

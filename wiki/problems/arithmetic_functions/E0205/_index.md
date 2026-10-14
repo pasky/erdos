@@ -26,14 +26,14 @@ $2^k+m$ for some $k\geq 0$, where $\Omega(m)<\log\log m$? (Here $\Omega(m)$ is
 the number of prime divisors of $m$ counted with multiplicity.) What about
 $<\epsilon \log\log m$? Or some more slowly growing function?
 
-**Status.** The site labeled the problem DISPROVED (LEAN). The answer to the
-first question is no. The site credits this answer to Barreto and Leeham, and
-credits the quantified form to Tao and Alexeev. The site leaves open whether
-arbitrarily large odd counterexamples exist. The label's Lean suffix refers to
-community Lean files that this corpus has not built. The two informal write-ups
-are unrefereed. The claim pages are
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN). The answer to
+the first question is no. erdosproblems.com credits this answer to Barreto and
+Leeham, and credits the quantified form to Tao and Alexeev. erdosproblems.com
+leaves open whether arbitrarily large odd counterexamples exist. The label's
+Lean suffix refers to community Lean files that this corpus has not built. The
+two informal write-ups are unrefereed. The claim pages are
 [[problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham|Barreto–Leeham 2026]],
-the negative answer the site credits, and
+the negative answer erdosproblems.com credits, and
 [[problems/arithmetic_functions/E0205/claims/2026_01_11_tao_alexeev|Tao–Alexeev 2026]],
 the quantified bound the linked Lean files prove. See "Current assessment" for
 the evidence.
@@ -49,9 +49,9 @@ https://www.erdosproblems.com/205.
 - [Ro34] Romanoff, N. P., Über einige Sätze der additiven Zahlentheorie. Math.
   Ann. (1934), 668-678.
 
-**Formalization.** The Lean suffix of the site's label was a catalog label;
-see "Formalization and the Lean label" below for what the files state. The
-file
+**Formalization.** The Lean suffix of the erdosproblems.com label was a catalog
+label; see "Formalization and the Lean label" below for what the files state.
+The file
 [`ErdosProblems/205.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/205.lean)
 of formal-conjectures (pinned at its commit of 2026-09-18, 4,190 bytes)
 defines
@@ -66,35 +66,36 @@ built or kernel-checked by this corpus.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-04).** The statement above, three
-clauses: whether every large $n$ is $2^k+m$ with $\Omega(m)<\log\log m$; with
-$\Omega(m)<\epsilon\log\log m$; with $\Omega(m)<f(m)$ for some more slowly
-growing $f$. DISPROVED (LEAN). The collection's docstrings repeat the site's
-commentary: the negative answer is credited to Barreto and Leeham, working with
-ChatGPT and Aristotle, and its quantified form to Tao and Alexeev in the site's
-comments, namely that infinitely many $n$ have
-$\Omega(n-2^k)\gg(\log n/\log\log n)^{1/2}$ for every $k$ with $2^k<n$. The
-thread's comments of 2026-01-11 carry the construction, Tao's proposed
-square-root bound and Alexeev's Lean formalization; the problem page's
-proof-claims thread was empty.
+**The question (erdosproblems.com formulation of 2026-09-04).** The statement
+above, three clauses: whether every large $n$ is $2^k+m$ with
+$\Omega(m)<\log\log m$; with $\Omega(m)<\epsilon\log\log m$; with
+$\Omega(m)<f(m)$ for some more slowly growing $f$. DISPROVED (LEAN). The
+collection's docstrings repeat the erdosproblems.com commentary: the negative
+answer is credited to Barreto and Leeham, working with ChatGPT and Aristotle,
+and its quantified form to Tao and Alexeev in the erdosproblems.com comments,
+namely that infinitely many $n$ have $\Omega(n-2^k)\gg(\log n/\log\log n)^{1/2}$
+for every $k$ with $2^k<n$. The thread's comments of 2026-01-11 carry the
+construction, Tao's proposed square-root bound and Alexeev's Lean formalization;
+the problem page's proof-claims thread was empty.
 
 **Standing and evidence.** Both claim pages are accepted on `reviewed`
 evidence alone, and the derived standing is solved, disproved.
 [[problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham|Barreto–Leeham 2026]]
-rests on the site curator's credit and on Terence Tao's acceptance in the
-discussion thread on 2026-01-11, where they listed the construction as a full
-AI solution in the community database's AI-contributions wiki;
+rests on the erdosproblems.com curator's credit and on Terence Tao's acceptance
+in the discussion thread on 2026-01-11, where they listed the construction as a
+full AI solution in the community database's AI-contributions wiki;
 [[problems/arithmetic_functions/E0205/claims/2026_01_11_tao_alexeev|Tao–Alexeev 2026]]
-rests on the site curator's credit and on Nat Sothanaphan's thread comment
-of the same day that they had checked by hand their human-readable version of
-the quantified Lean proof. Two informal write-ups exist, both posted on
-2026-01-11: Liam Price's Overleaf write-up of the construction, which the
+rests on the erdosproblems.com curator's credit and on Nat Sothanaphan's thread
+comment of the same day that they had checked by hand their human-readable
+version of the quantified Lean proof. Two informal write-ups exist, both posted
+on 2026-01-11: Liam Price's Overleaf write-up of the construction, which the
 author describes as ChatGPT's output, and Sothanaphan's de-formalization of the
 quantified proof; neither is refereed and no library card digests either.
 No refereed account exists and no Lean file was built by this corpus.
 
 **What the linked formal files prove.** The Aristotle session that Liam Price
-posted in the site's thread on 2026-01-11 (the `formalization` link of
+posted in the erdosproblems.com thread on 2026-01-11 (the `formalization` link
+of
 [[problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham|Barreto–Leeham 2026]];
 Lean v4.24.0, importing only Mathlib, with no `sorry` and no `axiom`, two steps
 closed by the `exact?` search tactic) proves `infinitely_many_counterexamples`:
@@ -104,7 +105,7 @@ input is a bound on the $n$-th prime from Bertrand's postulate. The later files
 prove the quantified variant, not the three clauses directly. The
 `plby/lean-proofs` file
 [`src/latest/ErdosProblems/Erdos205.lean`](https://github.com/plby/lean-proofs/blob/cecc3fc4b7725db36692f0eca3c24712a481cfba/src/latest/ErdosProblems/Erdos205.lean)
-(37,344 bytes, 884 lines, as of its commit of 2026-08-24): header
+(37,344 bytes, 884 lines, at its commit of 2026-08-24): header
 `leanprover/lean4:v4.33.0 mathlib v4.33.0`, naming Wouter van Doorn,
 Terence Tao, Boris Alexeev and ChatGPT as informal authors and ChatGPT,
 Aristotle and Boris Alexeev as formal authors; imports Mathlib and
@@ -138,16 +139,16 @@ the collection's file asserts by marking all three parts `answer(False)`. For
 the second and third clauses this deduction is this page's reading of the
 statements; no linked file writes it, and the collection's three parts have
 `sorry` bodies. The constructed $n$ are multiples of $2^E$, so the files say
-nothing about odd $n$; the collection's file, like the site, leaves open whether
-arbitrarily large odd counterexamples exist.
+nothing about odd $n$; the collection's file, like erdosproblems.com, leaves
+open whether arbitrarily large odd counterexamples exist.
 
 Strict versus inclusive boundary. The collection's variant quantifies over
 `k` with `2 ^ k < n`; the community theorem over `k` with `2 ^ k ≤ n`. The
 two differ only when $n$ is a power of two, where `Omega (n - 2 ^ k)` is
 `Omega 0 = 0`, so the community statement is the stronger one and entails
 the collection's; the community file proves `n_E` is not a power of two
-(`n_E_not_pow_two`, line 368, from `n_E ≡ 0 [MOD 3]`). The site's statement
-writes no range for $k$ beyond $k\ge0$.
+(`n_E_not_pow_two`, line 368, from `n_E ≡ 0 [MOD 3]`). The erdosproblems.com
+statement writes no range for $k$ beyond $k\ge0$.
 
 Conditional to unconditional. The construction's prime-counting input is
 the asymptotic `nth_prime_asymp` for the $n$-th prime. Its trust boundary
@@ -169,7 +170,7 @@ as conditional on `nth_prime_asymp`; this is the copy the collection's
 `src/latest` copy above imports the same module and drops the conditional
 line. The later
 [`Jayyhk/erdos-lean` file](https://github.com/Jayyhk/erdos-lean/blob/2492e83e1ce4afff3f1ced3493a617334659ca78/problems/205/Erdos205.lean)
-(268,326 bytes, 5,316 lines, as of its commit of 2026-08-31) vendors a
+(268,326 bytes, 5,316 lines, at its commit of 2026-08-31) vendors a
 proof of `nth_prime_asymp` from that project ("NthPrimeAsymp vendored
 proof", `lemma nth_prime_asymp` at line 4805) and its
 `#print axioms erdos_205` comment lists `propext`, `Classical.choice`,
@@ -193,11 +194,11 @@ named above as the files name them.
 **Prior literature.** [Er80] and [Ro34] are the page's sources; Romanoff
 1934 has a library card, and neither paper's text bears on the disproof.
 
-**Formalization and the Lean label.** The Lean suffix of the site's label was a
-catalog label. The Aristotle session linked from the Barreto–Leeham page proves
-the negation of the first clause from Mathlib alone, and the four community
-files prove the quantified variant. The collection's three parts are `sorry`
-statements marked solved; its variant is a `sorry` statement whose
+**Formalization and the Lean label.** The Lean suffix of the erdosproblems.com
+label was a catalog label. The Aristotle session linked from the Barreto–Leeham
+page proves the negation of the first clause from Mathlib alone, and the four
+community files prove the quantified variant. The collection's three parts are
+`sorry` statements marked solved; its variant is a `sorry` statement whose
 `formal_proof` attribute names the `v4.29.1` community copy, whose header still
 says "Conditional on: nth_prime_asymp" although its imports and axiom comment
 match the `src/latest` copy; the `src/latest` copy proves the bound through an
@@ -207,10 +208,10 @@ files' own comments.
 
 **Search scope.** The Aristotle session of 2026-01-11, the four community Lean
 files, the collection's statement file at its pinned commit and the Jayyhk
-README, as of September and October 2026; the site's problem page, its
-discussion thread, its empty proof-claims thread and the commit history of the
-`plby/lean-proofs` file, as of 2026-10-07. arXiv, Crossref, MathSciNet, zbMATH,
-Google Scholar and X were not searched.
+README, read in September and October 2026; the erdosproblems.com problem page,
+its discussion thread, its empty proof-claims thread and the commit history of
+the `plby/lean-proofs` file, read 2026-10-07. arXiv, Crossref, MathSciNet,
+zbMATH, Google Scholar and X were not searched.
 
 **Remaining gaps.** (1) Two informal write-ups exist, Price's Overleaf write-up
 (ChatGPT's output) and Sothanaphan's de-formalization, neither refereed nor
@@ -223,10 +224,11 @@ counterexamples are open in the collection's file; the label DISPROVED covers
 the question as asked (all large $n$). (4) The quantified variant's
 prime-counting input depends on an external Lean project whose theorem is
 uninspected; the session's negation of the first clause needs only Bertrand's
-postulate, which Mathlib proves. (5) The acceptance evidence is the site
-curator's credit of both results, Tao's thread acceptance of the construction on
-2026-01-11 and Sothanaphan's hand check of the same day; no refereed account or
-build exists, so both pages are `accepted` on `reviewed` evidence alone.
+postulate, which Mathlib proves. (5) The acceptance evidence is the
+erdosproblems.com curator's credit of both results, Tao's thread acceptance of
+the construction on 2026-01-11 and Sothanaphan's hand check of the same day; no
+refereed account or build exists, so both pages are `accepted` on `reviewed`
+evidence alone.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -73,9 +73,9 @@ construction of Section 5 were read for structure and not checked.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0573/_index|#573]]: (1.3) and (1.5),
 the count of 1's in an n by n matrix forcing a 2 by 2 minor of 1's, that is,
 the bipartite C_4-free bound (1+o(1)) n^{3/2} for n+n vertices, which is
-(N/2)^{3/2} in the total order N; the site's sentence about "C_4 or an odd
-cycle of any length" paraphrases this bipartite count, and the paper does not
-state it in that form; the graph application is (3.1)
+(N/2)^{3/2} in the total order N; the erdosproblems.com sentence about "C_4 or
+an odd cycle of any length" paraphrases this bipartite count, and the paper does
+not state it in that form; the graph application is (3.1)
 ([[extremal_graph_theory/kovari_1954_problem_k/inequality_1_5|inequality_1_5]]);
 [[../wiki/problems/extremal_graph_theory/E0714/_index|#714]]
 

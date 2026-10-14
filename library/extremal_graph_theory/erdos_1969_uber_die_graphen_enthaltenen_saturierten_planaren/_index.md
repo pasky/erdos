@@ -74,8 +74,8 @@ edges among one side, shows Satz 2 is sharp up to the constant. The paper is the
 source for problem 1019 on how many edges force a saturated planar subgraph on
 more than three vertices.
 
-Source: <https://users.renyi.hu/~p_erdos/1969-16.pdf>. The site's reference
-key Er69c.
+Source: <https://users.renyi.hu/~p_erdos/1969-16.pdf>. The erdosproblems.com
+reference key Er69c.
 
 The copy read for this card is the Rényi archive's scan `1969-16.pdf`: five
 pages, an image scan of the journal article with the printed pages 13--17
@@ -98,7 +98,7 @@ clause by clause on the page images, with the remarks after each; Satz 4 and
 Satz 5 have no proof in the paper, and the sketch for Satz 3 was read for
 structure only. The digest paragraph above agrees with the print for Satz 1,
 Satz 2, Lemma 1 and the sharpness construction; it omits pp. 16--17, which state
-the exact question of the catalog's Problem 1019: the paper constructs a
+the exact question of erdosproblems.com's Problem 1019: the paper constructs a
 $G(n;[n^2/4]+[(n-1)/2])$ with no saturated planar subgraph on more than three
 vertices and asks whether every $G(n;[n^2/4]+[(n+1)/2])$ contains one, two years
 before the 1971 problem list restated the question.
@@ -141,8 +141,8 @@ before the 1971 problem list restated the question.
   without proof, sharp in the sense that $\delta(\varepsilon,m)\to0$ as
   $m\to\infty$ for every $\varepsilon<\tfrac14$, provable "mit den
   Methoden von [5]" ([5] is Erdős, *On extremal problems of graphs and
-  generalized graphs*, Israel J. Math. 2 (1964), 183--190, the site's key
-  Er64f; the paper's reference list spells the title with an s); the
+  generalized graphs*, Israel J. Math. 2 (1964), 183--190, the erdosproblems.com
+  key Er64f; the paper's reference list spells the title with an s); the
   reference list [1]--[7].
 
 ## Compiled scope
@@ -152,16 +152,17 @@ All five pages were read on the page images; the statements of Satz 1, 2,
 and the proofs were read for structure only. Nothing here is independently
 reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1019/_index|#1019]]: the site's
-key Er69c. Satz 1 (p. 13, page image) is the site's "every graph with $n$
-vertices and $\lfloor n^2/4\rfloor+k$ edges contains a saturated planar
-graph on $\gg k/n$ vertices, answering a question of Dirac", the paper's
-partial result, whose unspecified $c_1$ does not settle the problem's
-threshold; pp. 16--17 (page images) construct the site's example with
-$\lfloor n^2/4\rfloor+\lfloor\frac{n-1}2\rfloor$ edges and state the site's
-question for $\lfloor n^2/4\rfloor+\lfloor\frac{n+1}2\rfloor$ edges as a
-"Vielleicht", the origin of the problem, restated in the 1971 list's item
-13 ([[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_13|item_13]]).
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1019/_index|#1019]]: the
+erdosproblems.com key Er69c. Satz 1 (p. 13, page image) is erdosproblems.com's
+"every graph with $n$ vertices and $\lfloor n^2/4\rfloor+k$ edges contains a
+saturated planar graph on $\gg k/n$ vertices, answering a question of Dirac",
+the paper's partial result, whose unspecified $c_1$ does not settle the
+problem's threshold; pp. 16--17 (page images) construct the erdosproblems.com
+example with $\lfloor n^2/4\rfloor+\lfloor\frac{n-1}2\rfloor$ edges and state
+the erdosproblems.com question for
+$\lfloor n^2/4\rfloor+\lfloor\frac{n+1}2\rfloor$ edges as a "Vielleicht", the
+origin of the problem, restated in the 1971 list's item 13
+([[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_13|item_13]]).
 Satz 2 (p. 14) is the route to Satz 1 and likewise leaves its constant
 $c_k'$ unspecified;
 Satz 3, Satz 4 and Satz 5 (pp. 16--17) need an excess over $[n^2/4]$ of

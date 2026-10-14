@@ -5,7 +5,7 @@ desc: |
   Herzog and Piranian construct a non-monomial entire function whose number of
   maximum modulus points on the circle of radius $r$ is unbounded as $r$ grows.
   This answers the first question of Problem 1117 affirmatively and is credited
-  by the site.
+  by erdosproblems.com.
 authors:
 - F. Herzog
 - G. Piranian
@@ -29,7 +29,7 @@ Herzog and Piranian answer the first question of
 [[problems/analysis/E1117/_index|Problem 1117]] affirmatively: there is an
 entire function $f$, not a monomial, for which the number $\nu(r)$ of points
 on $|z|=r$ where $|f|$ attains its maximum modulus satisfies
-$\limsup_{r\to\infty}\nu(r)=\infty$. The statement follows the site's
+$\limsup_{r\to\infty}\nu(r)=\infty$. The statement follows the erdosproblems.com
 commentary and Hayman and Lingham's survey of Hayman's problems, which records
 it as Update 2.16.
 
@@ -38,12 +38,12 @@ The second question, whether $\liminf\nu(r)=\infty$ is possible, is outside
 this claim; a pending negative answer to it is recorded on
 [[problems/analysis/E1117/claims/2026_09_05_gu|Gu's page]].
 
-**Standing.** The site's curator, Thomas F. Bloom, credits Herzog and
+**Standing.** The erdosproblems.com curator, Thomas F. Bloom, credits Herzog and
 Piranian in the problem's commentary with the affirmative answer to the first
 question, and Hayman and Lingham's survey of Hayman's problems
 ([[../library/polynomials/hayman_lingham_2018_research_problems_function_theory/_index|library
-card]], Update 2.16) records the same. The site labeled the problem OPEN, so
-the commentary is not an acceptance of the problem or of a part. The paper is
+card]], Update 2.16) records the same. Bloom's catalog labeled the problem OPEN,
+so the commentary is not an acceptance of the problem or of a part. The paper is
 F. Herzog and G. Piranian, *The counting function for points of maximum
 modulus*, in Entire Functions and Related Parts of Analysis, Proc. Sympos.
 Pure Math. 11, Amer. Math. Soc. (1968), 240--243. This is a symposium volume,

@@ -4,8 +4,8 @@ title: Erdős and Freud's lower bound 3/8 for the sumset density
 desc: |
   Proposition 1 of Erdős and Freud (J. Number Theory 1991) gives a set of about
   $\sqrt N$ integers up to $N$ with $(3/8-o(1))N$ distinct sums up to $N$, the
-  lower bound $f(N)\ge(3/8-o(1))N$. The paper is refereed and the site credits
-  it.
+  lower bound $f(N)\ge(3/8-o(1))N$. The paper is refereed and erdosproblems.com
+  credits it.
 authors:
 - P. Erdős
 - R. Freud
@@ -56,7 +56,7 @@ upper bound is the count $\binom{k+1}2$ of all formal sums. Remark 2
 representation are counted, and p. 204 states that any improvement of the
 upper bound is equivalent to lowering the coefficient $2$ in the trivial
 quasi-Sidon bound $k\le(2+o(1))n^{1/2}$ below $\sqrt2$, the connection to
-[[problems/additive_bases/E0840/_index|Problem 840]] that the site's
+[[problems/additive_bases/E0840/_index|Problem 840]] that the erdosproblems.com
 commentary records.
 
 **Covers.** The lower bound $f(N)\ge(\tfrac38-o(1))N$. The upper bound
@@ -71,8 +71,8 @@ sets of about $m^{1/2}$ elements in $[1,m]$ and nothing else.
 
 **Acceptance.** Refereed: the paper is the publisher's version of record in the
 Journal of Number Theory. The Crossref record gives the issue month, June 1991,
-and no day, so this page is dated by the first day of its year. The site's
-curator, Thomas F. Bloom, credits the bounds to Erdős and Freud in the problem
-page's commentary, with the label OPEN. The problem is not marked settled there,
-so the credit is recorded here and is not listed as `reviewed`. No independent
-review is recorded.
+and no day, so this page is dated by the first day of its year. The
+erdosproblems.com curator, Thomas F. Bloom, credits the bounds to Erdős and
+Freud in the problem page's commentary, with the label OPEN. The problem is not
+marked settled there, so the credit is recorded here and is not listed as
+`reviewed`. No independent review is recorded.

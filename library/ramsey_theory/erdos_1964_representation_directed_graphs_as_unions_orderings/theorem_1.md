@@ -61,9 +61,9 @@ held), whose proof the page reproduces.
 
 - [[../wiki/problems/ramsey_theory/E1216/_index|Problem 1216]]: the origin's bounds; the
   lower bound is the conjectured value of the problem, the upper bound
-  $2[\log_2n]+1$ the paper's own contribution. The site's commentary
+  $2[\log_2n]+1$ the paper's own contribution. The erdosproblems.com commentary
   credits the upper bound to Erdős and Moser; the maintainer's comment of
-  12 April 2026 in the site's discussion thread phrases their proof
+  12 April 2026 in the erdosproblems.com discussion thread phrases their proof
   probabilistically.
 - [[../wiki/problems/ramsey_theory/E0112/_index|Problem 112]]: the tournament column,
   $k(2,m)\le2^{m-1}$ and $k(2,m)\ge2^{(m-1)/2}$ in that problem's letters.

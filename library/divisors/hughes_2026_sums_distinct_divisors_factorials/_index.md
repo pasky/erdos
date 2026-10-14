@@ -53,8 +53,8 @@ the preprint and were not read.
 **Bears on.** [[../wiki/problems/divisors/E0018/_index|Problem 18]]: the third question asks
 whether $h(n!)<(\log n)^{O(1)}$; Theorem 1 is the best explicit bound of the
 elementary greedy route and Remark 6 the lower bound $(\log n)^2$, but as a
-bound on $h(n!)$ Theorem 1 is superseded by the site-accepted $n^{o(1)}$ proof
-filed as
+bound on $h(n!)$ Theorem 1 is superseded by the Conjectures.io-accepted
+$n^{o(1)}$ proof filed as
 [[divisors/jenw1n_2026_lean_proof_erdos_problem_18b/_index|the JenW1N record]].
 
 ## Overview

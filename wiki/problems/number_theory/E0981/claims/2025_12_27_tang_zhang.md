@@ -2,8 +2,8 @@
 name: problems/number_theory/E0981/claims/2025_12_27_tang_zhang
 title: Tang and Zhang's asymptotic for the first-passage threshold
 desc: |
-  Answers a variant (the site's earlier first-passage threshold), not the
-  Statement (the eventual-time threshold), so it does not count toward the
+  Answers a variant (erdosproblems.com's earlier first-passage threshold), not
+  the Statement (the eventual-time threshold), so it does not count toward the
   problem's standing. Quanyu Tang and Hao Zhang's preprint proves
   $\sum_{p\le x}f_\epsilon(p)\sim c_\epsilon x/\log x$ for
   $f_\epsilon(p)=\min\{\ell:S_\ell(p)<\epsilon\ell\}$.
@@ -42,13 +42,13 @@ $S_\ell(p)=\sum_{n\le\ell}(n/p)$ and the first-passage time
 $f_\epsilon(p)=\min\{\ell\ge1:S_\ell(p)<\epsilon\ell\}$, there is a constant
 $c_\epsilon\in(0,\infty)$ with
 $\sum_{p\le x}f_\epsilon(p)\sim c_\epsilon x/\log x$. The post presents the
-paper as resolving the formulation then stated on the site, and records that
-Erdős's original display (80) is the eventual-time problem, which Elliott's
+paper as resolving the formulation then stated on erdosproblems.com, and records
+that Erdős's original display (80) is the eventual-time problem, which Elliott's
 1969 paper resolves, and that the eventual-time asymptotic does not imply the
 first-passage one.
 
-**Submission note.** Posted to the site's forum by Quanyu Tang on 27 December
-2025:
+**Submission note.** Posted to the erdosproblems.com forum by Quanyu Tang on 27
+December 2025:
 
 > In joint work with Hao, we wrote a paper resolving the formulation currently
 > stated on this page (the “first-passage time” version), proving that
@@ -101,10 +101,10 @@ first-passage one.
 >    establishes the claimed asymptotic.
 
 **Why it is rejected.** It answers a variant, not the Statement. When the post
-was made, the site's page defined $f_\epsilon(p)$ as the first-passage time
-$\min\{m:S_m(p)<\epsilon m\}$; the site corrected the page the same day to
-Erdős's eventual-time threshold, the least $m$ with $S_N(p)<\epsilon N$ for
-every $N\ge m$, which is the Statement of
+was made, the erdosproblems.com page defined $f_\epsilon(p)$ as the
+first-passage time $\min\{m:S_m(p)<\epsilon m\}$; erdosproblems.com corrected
+the page the same day to Erdős's eventual-time threshold, the least $m$ with
+$S_N(p)<\epsilon N$ for every $N\ge m$, which is the Statement of
 [[problems/number_theory/E0981/_index|Problem 981]]. The first-passage time
 is at most the eventual-time threshold for each $p$, but, as the paper itself
 notes, an asymptotic for the sum of one does not by itself give an asymptotic
@@ -114,8 +114,8 @@ settle this problem; the value `proved` is its answer to that variant.
 **Standing.** Rejected, as answering a variant. The preprint is unrefereed;
 Terence Tao replied the same day that ChatGPT Pro, through which he had run
 the paper, raised a fixable issue with the odd-primes convention and no major
-concern, which is a thread comment, not a review. The site's commentary
-credits the variant to the paper. This corpus has checked Theorem 1.2's
-statement clause by clause and not its proof.
+concern, which is a thread comment, not a review. The erdosproblems.com
+commentary credits the variant to the paper. This corpus has checked Theorem
+1.2's statement clause by clause and not its proof.
 
 **Depends on.** No page of this wiki.

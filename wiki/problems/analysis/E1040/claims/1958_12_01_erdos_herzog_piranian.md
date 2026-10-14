@@ -43,7 +43,8 @@ gives a rate for the segment $[-2,2]$.
 closed disc of radius at least $1$; nothing about other sets or about the first
 question.
 
-**Refereed.** J. Analyse Math. 6 (1958), 125-148. The site's commentary credits
-the result on a problem it labeled OPEN, which is not acceptance.
+**Refereed.** J. Analyse Math. 6 (1958), 125-148. The erdosproblems.com
+commentary credits the result on a problem it labeled OPEN, which is not
+acceptance.
 
 **Depends on.** Nothing in this wiki.

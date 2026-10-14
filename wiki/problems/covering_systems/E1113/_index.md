@@ -44,12 +44,13 @@ https://www.erdosproblems.com/1113.
   doi:10.1007/978-0-387-26677-0. Section B21 "$k\cdot2^n+1$ composite for
   all $n$", pp. 119--121, gives Sierpiński's covering-congruence
   construction, Selfridge's $78557$ and Stanton's covering sets for
-  $k\cdot2^n-1$, and does not state the question; the site's commentary
-  locates its precise formulation in Guy's problem F13. Section F13 "Covering
-  systems of congruences" (from p. 382) records on p. 384 Erdős's conjecture
-  that every sequence $d\cdot2^k+1$ ($k=1,2,\dots$), $d$ fixed and odd, that
-  contains no primes can be obtained from covering congruences, equivalently
-  that the least prime factors of its terms are bounded. Library home:
+  $k\cdot2^n-1$, and does not state the question; the erdosproblems.com
+  commentary locates its precise formulation in Guy's problem F13. Section F13
+  "Covering systems of congruences" (from p. 382) records on p. 384 Erdős's
+  conjecture that every sequence $d\cdot2^k+1$ ($k=1,2,\dots$), $d$ fixed and
+  odd, that contains no primes can be obtained from covering congruences,
+  equivalently that the least prime factors of its terms are bounded. Library
+  home:
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 - [Iz95] Izotov, Anatoly S., A note on Sierpiński numbers. Fibonacci Quart.
   (1995), 206-207.

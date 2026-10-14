@@ -39,8 +39,8 @@ for $n\leq 3$, and the second gives a degree-six polynomial whose shortest
 escape is longer than $1$, so $S(6)>1$. The first degree with a blocked radius
 therefore lies between $4$ and $6$; the preprint leaves its exact value open.
 
-**Submission note.** Posted to the site's forum by Venkata Siddharth Pendyala on
-18 June 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Venkata Siddharth
+Pendyala on 18 June 2026:
 
 > I have proved Erdős’s conjecture for this problem that the extremal shortest
 > path length tends to infinity with $n$, but not too fast. More precisely, if
@@ -77,6 +77,6 @@ and the strict inequality $S(6)>1$. It says nothing about the growth of $S(n)$.
 
 **Standing.** A single-author preprint, not refereed and with no outside review,
 announced in the problem's thread on 2026-06-18 together with the author's arXiv
-preprint on the bounds. The site labeled the problem OPEN.
+preprint on the bounds. Bloom's catalog labeled the problem OPEN.
 
 **Depends on.** No page of this wiki.

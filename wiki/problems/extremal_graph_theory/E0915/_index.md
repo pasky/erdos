@@ -4,7 +4,7 @@ title: Problem 915
 desc: |
   Asks whether a graph with $1+n(m-1)$ vertices and $1+n\binom{m}{2}$ edges has
   two vertices joined by $m$ disjoint paths. False for $m\ge5$ if the paths are
-  vertex-disjoint, true for every $m$ if they are edge-disjoint; the site
+  vertex-disjoint, true for every $m$ if they are edge-disjoint; Bloom's catalog
   labeled it solved.
 tags:
 - Graph theory
@@ -25,47 +25,47 @@ updated: 2026-10-08T18:27:34Z
 **Statement.** Let $G$ be a graph with $1+n(m-1)$ vertices and $1+n\binom{m}{2}$
 edges. Must $G$ contain two points which are connected by $m$ disjoint paths?
 
-**Formulation.** The site's wording (page last edited 8 December 2025). The
-parameters are $m\ge2$ and $n\ge1$: for $m=1$ no simple graph has one vertex
-and one edge, and for $n=1$ the hypothesis asks for $1+\binom m2$ edges on $m$
-vertices, more than a simple graph has, so that case is vacuous. "Disjoint
-paths" is ambiguous, as the site's commentary says: internally vertex-disjoint
-paths, whose threshold the site writes $k_m(n)$ (the least number of edges
-forcing two vertices joined by $m$ such paths in a graph on $n$ vertices), or
-edge-disjoint paths, with threshold $\ell_m(n)\le k_m(n)$. The conjecture is
-$k_m(1+(m-1)n)=1+\binom m2n$, or the same for $\ell_m$. Its extremal example is
-$K_1+nK_{m-1}$, $n$ copies of $K_m$ sharing one vertex: it has $1+n(m-1)$
-vertices and $n\binom m2$ edges, one short of the hypothesis, and under either
-reading no two of its vertices are joined by $m$ disjoint paths (a check
-written on
+**Formulation.** The erdosproblems.com wording (page last edited 8 December
+2025). The parameters are $m\ge2$ and $n\ge1$: for $m=1$ no simple graph has one
+vertex and one edge, and for $n=1$ the hypothesis asks for $1+\binom m2$ edges
+on $m$ vertices, more than a simple graph has, so that case is vacuous.
+"Disjoint paths" is ambiguous, as the erdosproblems.com commentary says:
+internally vertex-disjoint paths, whose threshold erdosproblems.com writes
+$k_m(n)$ (the least number of edges forcing two vertices joined by $m$ such
+paths in a graph on $n$ vertices), or edge-disjoint paths, with threshold
+$\ell_m(n)\le k_m(n)$. The conjecture is $k_m(1+(m-1)n)=1+\binom m2n$, or the
+same for $\ell_m$. Its extremal example is $K_1+nK_{m-1}$, $n$ copies of $K_m$
+sharing one vertex: it has $1+n(m-1)$ vertices and $n\binom m2$ edges, one short
+of the hypothesis, and under either reading no two of its vertices are joined by
+$m$ disjoint paths (a check written on
 [[../library/extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/conjecture_p57|the origin's result page]]).
-The 1967 copy prints the example as $K_1+nK_m$, a misprint the site's thread
-recorded on 11 October 2025 when it corrected the page's vertex count to
+The 1967 copy prints the example as $K_1+nK_m$, a misprint the erdosproblems.com
+thread recorded on 11 October 2025 when it corrected the page's vertex count to
 $1+n(m-1)$ from the copy's p. 4; the 1962 paper's example for $m=4$, $n$
 tetrahedra sharing a point, is $K_1+nK_3$, the $K_1+nK_{m-1}$ form. Erdős's
 1967 sentences on the known cases say "linedisjoint" ($m=3$) and
 "line-disjoint" ($m=4$), while the conjecture's own sentence says "disjoint".
-The source of the conjecture reads the word as internally disjoint. The site
-attributes the conjecture to [BoEr62], which poses the question for paths with
-no common point other than their ends ($k_r(n)$, p. 143); its guess
-$k_4(3n+1)=6n+1$ (p. 144) is the conjecture's case $m=4$ under that reading.
-Leonard's 1973 note attributes the conjecture to [BoEr62] and [Er67b,
-pp. 57--58] and glosses "disjoint" as having no points in common save the
-endpoints (p. 283), and Sørensen and Thomassen state it for $k$-rails
-(pp. 143--144). The page reads the wording that way, and the edge-disjoint
-reading is a variant. The site's label SOLVED is the one it uses for a problem
+The source of the conjecture reads the word as internally disjoint.
+erdosproblems.com attributes the conjecture to [BoEr62], which poses the
+question for paths with no common point other than their ends ($k_r(n)$, p.
+143); its guess $k_4(3n+1)=6n+1$ (p. 144) is the conjecture's case $m=4$ under
+that reading. Leonard's 1973 note attributes the conjecture to [BoEr62] and
+[Er67b, pp. 57--58] and glosses "disjoint" as having no points in common save
+the endpoints (p. 283), and Sørensen and Thomassen state it for $k$-rails (pp.
+143--144). The page reads the wording that way, and the edge-disjoint reading is
+a variant. The erdosproblems.com label SOLVED is the one it uses for a problem
 resolved otherwise than by a proof or a disproof.
 
-**Status.** SOLVED. This is the site's label, and it attaches to one reading of
-the ambiguous wording. Under the vertex-disjoint reading the answer is no for
-every $m\ge5$. Under the edge-disjoint reading the answer is yes for every
-$m\ge2$. The site's curator wrote in the thread (28 October 2025) that the
-question as stated had been disproved for every $m\ge5$, and that the problem
-was therefore marked solved. The day before, the curator had written of leaning
-toward leaving it open, since calling a false statement solved seemed against
-the spirit of the question. The site's label is read as attached to one reading
-of an ambiguous wording, not as a defective one, since each reading is a
-meaningful question with a settled answer.
+**Status.** SOLVED. This is the erdosproblems.com label, and it attaches to one
+reading of the ambiguous wording. Under the vertex-disjoint reading the answer
+is no for every $m\ge5$. Under the edge-disjoint reading the answer is yes for
+every $m\ge2$. The erdosproblems.com curator wrote in the thread (28
+October 2025) that the question as stated had been disproved for every $m\ge5$,
+and that the problem was therefore marked solved. The day before, the curator
+had written of leaning toward leaving it open, since calling a false statement
+solved seemed against the spirit of the question. The erdosproblems.com label is
+read as attached to one reading of an ambiguous wording, not as a defective one,
+since each reading is a meaningful question with a settled answer.
 
 The standing derived from the claim pages departs from that label. It is
 `disproved`, not a bare answer, because the page reads the wording as
@@ -85,7 +85,8 @@ records the exact $k_5(n)$ and the disproof for every $m\ge5$.
 [[problems/extremal_graph_theory/E0915/claims/1973_09_01_mader|Mader]] records
 the examples for every $m\ge5$, and the edge-disjoint variant proved with its
 exact threshold. Each of these three is an accepted full disproof on the
-refereed publication and the site's acceptance. The accepted partial claims of
+refereed publication and erdosproblems.com's acceptance. The accepted partial
+claims of
 [[problems/extremal_graph_theory/E0915/claims/1960_01_01_bartfai|Bártfai]]
 ($m=3$) and
 [[problems/extremal_graph_theory/E0915/claims/1966_01_01_bollobas|Bollobás]]
@@ -105,17 +106,17 @@ points and $141$ edges and no two points joined by five internally disjoint
 paths (pp. 281--282). For every integer $s$, Leonard also gives graphs with $n$
 points and more than $[5n/2]+s$ edges and no such pair (pp. 282--283). The other
 vertex-disjoint text is Mader's $k_m(n)>\frac m2n+C$ for $m\ge6$ ([Ma73], Math.
-Z. 131 (1973), 223--231). In the site's letters, the examples of pp. 228--229
-are graphs on $N$ vertices with no two vertices joined by $m$ internally
-disjoint paths. They have $\frac m2(N-1)+j(\frac m2-2)$ edges for odd $m\ge5$,
-or $\frac m2(N-1)+j(m-5)$ edges for even $m\ge6$, where $j$ is the number of cut
-cliques. So no constant $C$ makes $\frac m2N+C$ edges force such a pair. Both
-papers are reported as citations in [SoTh74]'s introduction (p. 143).
+Z. 131 (1973), 223--231). In erdosproblems.com's letters, the examples of pp.
+228--229 are graphs on $N$ vertices with no two vertices joined by $m$
+internally disjoint paths. They have $\frac m2(N-1)+j(\frac m2-2)$ edges for odd
+$m\ge5$, or $\frac m2(N-1)+j(m-5)$ edges for even $m\ge6$, where $j$ is the
+number of cut cliques. So no constant $C$ makes $\frac m2N+C$ edges force such a
+pair. Both papers are reported as citations in [SoTh74]'s introduction (p. 143).
 
 The edge-disjoint reading's status-defining text is Satz 1 of [Ma73] (p. 223)
 with its Korollar (p. 226). It gives $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$
-for every $m\ge2$, as the site and the thread's reading of the German original
-state it.
+for every $m\ge2$, as erdosproblems.com and the thread's reading of the German
+original state it.
 
 The primary texts establish the following. The case $m=3$ is true under either
 reading: Bártfai 1960 and Bollobás and Erdős 1962 give $k_3(2n+1)=3n+1$, the
@@ -139,7 +140,7 @@ accessed 2026-09-19.
 **References.**
 
 - [Er67b] Erdős, P., Extremal problems in graph theory. A Seminar on Graph
-  Theory, Holt, Rinehart and Winston, New York (1967), 54--59; the site
+  Theory, Holt, Rinehart and Winston, New York (1967), 54--59; erdosproblems.com
   cites "p. 4", the copy's page. The conjecture, its extremal example as
   printed and Bollobás's $m=4$ result, printed pp. 56--57 = pp. 3--4 of the
   re-typeset archive copy. Library home:
@@ -156,15 +157,15 @@ accessed 2026-09-19.
   [[../library/extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/theorem_p144|theorem_p144]]
   and
   [[../library/extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/conjecture_p144|conjecture_p144]].
-- [Ba60] Bártfai, P., Solution of a problem posed by P. Erdős (the site's
-  title; the solution of Problem 10 of the 1959 Schweitzer competition, in
-  Hungarian). Mat. Lapok 11 (1960), 175--176. Library home:
+- [Ba60] Bártfai, P., Solution of a problem posed by P. Erdős (the
+  erdosproblems.com title; the solution of Problem 10 of the 1959 Schweitzer
+  competition, in Hungarian). Mat. Lapok 11 (1960), 175--176. Library home:
   [[../library/extremal_graph_theory/bartfai_1960_solution_problem_posed_erdos/_index|bartfai_1960_solution_problem_posed_erdos]]
   (read in the 404-page volume scan, pp. 177--178); paged at
   [[../library/extremal_graph_theory/bartfai_1960_solution_problem_posed_erdos/solution_p175|solution_p175]].
 - [Bo66] Bollobás, B., On graphs with at most three independent paths
   connecting any two vertices. Studia Sci. Math. Hungar. 1 (1966), 137--140.
-  The case $m=4$, $k_4(n)=2n-1$, per the site and [Er67b]. Not held; no
+  The case $m=4$, $k_4(n)=2n-1$, per erdosproblems.com and [Er67b]. Not held; no
   online copy known, and a thread post of 27 October 2025 reports the paper
   as hard to find.
 - [Le72] Leonard, John L., On graphs with at most four line-disjoint paths
@@ -216,8 +217,8 @@ accessed 2026-09-19.
 - [SoTh74] Sørensen, Bo Aagaard and Thomassen, Carsten, On $k$-rails in
   graphs. J. Combinatorial Theory Ser. B 17 (1974), no. 2, 143--159,
   doi:10.1016/0095-8956(74)90082-3 (Crossref record accessed 2026-09-19). The
-  definition of a $k$-rail and of $f_k(n)$, the site's $k_m(n)$, with the
-  conjecture and the reports on Bollobás, Leonard and Mader, pp. 143--144;
+  definition of a $k$-rail and of $f_k(n)$, erdosproblems.com's $k_m(n)$, with
+  the conjecture and the reports on Bollobás, Leonard and Mader, pp. 143--144;
   Theorem 3, the bound $\frac52(n-1)$ for 3-connected graphs, p. 149, with
   its sharpness Remark, p. 154; Corollary 2, the general lower bound,
   p. 156; Theorem 4, $f_5(n)=[\frac83n]-3$ for $n\ge6$, $n\ne7$, $n\ne12$,
@@ -247,34 +248,34 @@ over the same parameters, carries `answer(True)` and no proof link. The
 community database (teorth/erdosproblems, `data/problems.yaml`, accessed
 2026-10-07) records the problem solved (last update 28 October 2025), the
 statement formalized since 2026-09-19 and `formal_status` unformalized; the
-site's indicator reads "Formalised statement? Yes" and links the file. This
-project has not built the external proof, so no `formalized` evidence is
-listed.
+erdosproblems.com indicator reads "Formalised statement? Yes" and links the
+file. This project has not built the external proof, so no `formalized` evidence
+is listed.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement above; SOLVED;
-last edited 8 December 2025. The commentary, in this page's words, attributes
-the conjecture to Bollobás and Erdős [BoEr62], gives the example of $n$ copies
-of $K_m$ sharing a single vertex, notes that the wording does not say whether
-the paths are edge-disjoint or internally vertex-disjoint and that the example
-works under either reading, defines $k_m(n)$ and $\ell_m(n)$, and summarizes
-the literature: $k_2(n)=n$; Bártfai [Ba60], $k_3(2n)=3n-1$ and
-$k_3(2n+1)=3n+1$; Bollobás [Bo66], $k_4(n)=2n-1$; Leonard [Le73], the disproof
-at $m=5$ by a graph with $57$ vertices and $141$ edges and
-$k_5(n)>(\frac52+c)n-O(1)$ for some $c>0$, with the site's own remark that
-Leonard's paper seems to allow $c=\frac3{80}$; Sørensen and Thomassen [SoTh74],
-$k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$, the conjectured bound for
-$3$-connected graphs, and $k_m(n)>\frac{m(m-1)-2}{2m-3}(n-m)$ for infinitely
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
+above; SOLVED; last edited 8 December 2025. The commentary, in this page's
+words, attributes the conjecture to Bollobás and Erdős [BoEr62], gives the
+example of $n$ copies of $K_m$ sharing a single vertex, notes that the wording
+does not say whether the paths are edge-disjoint or internally vertex-disjoint
+and that the example works under either reading, defines $k_m(n)$ and
+$\ell_m(n)$, and summarizes the literature: $k_2(n)=n$; Bártfai [Ba60],
+$k_3(2n)=3n-1$ and $k_3(2n+1)=3n+1$; Bollobás [Bo66], $k_4(n)=2n-1$; Leonard
+[Le73], the disproof at $m=5$ by a graph with $57$ vertices and $141$ edges and
+$k_5(n)>(\frac52+c)n-O(1)$ for some $c>0$, with erdosproblems.com's own remark
+that Leonard's paper seems to allow $c=\frac3{80}$; Sørensen and Thomassen
+[SoTh74], $k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$, the conjectured bound
+for $3$-connected graphs, and $k_m(n)>\frac{m(m-1)-2}{2m-3}(n-m)$ for infinitely
 many $n$ for every fixed $m\ge2$; Mader [Ma73], the disproof in general, for
 all $m\ge6$ and any $C>0$ some $n$ has $k_m(n)>\frac m2n+C$; and for $\ell_m$:
 Leonard [Le72], $\ell_m(n)=k_m(n)$ for $2\le m\le4$, $\ell_5(2n)=5n-2$,
 $\ell_5(2n+1)=5n+1$; Leonard [Le73b], $\ell_6(n)=3n-2$; Mader [Ma73], more than
 $\frac m2(n-1)-\frac12(e_0(G)+\cdots+e_{m-2}(G))$ edges force two vertices
 joined by $m$ edge-disjoint paths, where $e_r(G)$ counts the vertices of degree
-at most $r$, which the site reads as confirming the conjecture in a stronger
-form, and $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$ for all $m\ge2$. The thread
-(sixteen comments, 10--28 October 2025) is recorded under Leads; the
+at most $r$, which erdosproblems.com reads as confirming the conjecture in a
+stronger form, and $\ell_m(n)=\lfloor\frac m2(n-1)+1\rfloor$ for all $m\ge2$.
+The thread (sixteen comments, 10--28 October 2025) is recorded under Leads; the
 proof-claim tab is empty; the community database lists solved as of its last
 update of 28 October 2025.
 
@@ -288,8 +289,8 @@ update of 28 October 2025.
   (pp. 175--176), whose theta subgraph is two points joined by
   three internally disjoint paths, and matched by $n$ triangles sharing a
   vertex; at the problem's parameters this is $k_3(1+2n)=1+3n$. True at
-  $m=4$ per the site and [Er67b] ("Bollobás proved this for $m=4$"; [Bo66],
-  not held; [Le72], p. 242, restates $k_4(n)=2n-1$ with the citation to
+  $m=4$ per erdosproblems.com and [Er67b] ("Bollobás proved this for $m=4$";
+  [Bo66], not held; [Le72], p. 242, restates $k_4(n)=2n-1$ with the citation to
   [Bo66], and [Le73], p. 281, reports "This was verified for the case $m=4$
   by Bollobás [1]"). False for every $m\ge5$:
   [[../library/extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/theorem_4|Sørensen and Thomassen's Theorem 4]]
@@ -297,7 +298,7 @@ update of 28 October 2025.
   $n\ge6$, $n\ne7$, $n\ne12$, from which
   $k_5(1+4n)=\lfloor\frac83(4n+1)\rfloor-3$ equals $1+10n$ at $n=2,3$ and
   exceeds it for $n\ge4$ (at $n=4$: $k_5(17)=42>41$; at $n=14$:
-  $k_5(57)=149>141$, consistent with the site's $57$-vertex, $141$-edge
+  $k_5(57)=149>141$, consistent with erdosproblems.com's $57$-vertex, $141$-edge
   counterexample; computed from the printed formula, authored), and
   [[../library/extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/corollary_2|their Corollary 2(a)]]
   (p. 156), $k_m(n)>\frac{m(m-1)-2}{2m-3}(n-m)$ for infinitely
@@ -324,21 +325,21 @@ update of 28 October 2025.
   $\frac n2(e(\bar G)-1)+m(\frac n2-2)$ edges for odd $n\ge5$, or
   $+m(n-5)$ for even $n\ge6$, and no two vertices joined by $n$ internally
   disjoint paths, so that "keine Konstante $c_n$" exists with
-  $\kappa(G)\ge\frac n2e(G)+c_n$ forcing such a pair; in the site's
+  $\kappa(G)\ge\frac n2e(G)+c_n$ forcing such a pair; in erdosproblems.com's
   letters, $k_m(n)>\frac m2n+C$ for some $n$, for every $C$, which
-  contradicts $k_m(n)=\frac m2n+O(1)$. The site and [SoTh74] (p. 143)
+  contradicts $k_m(n)=\frac m2n+O(1)$. erdosproblems.com and [SoTh74] (p. 143)
   report the bound for $m\ge6$; the printed range includes $m=5$ (a filing
   observation on the library card). [Bo66] is not held.
 - Edge-disjoint reading ($\ell_m$). True for every $m\ge2$:
   [[../library/extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|Satz 1 of Mader]]
   ([Ma73], p. 223), "Jeder endliche Graph $G$ mit
   $\kappa(G)>\frac n2(e(G)-1)-\frac12\sigma_n(G)$ und $e(G)\ge n$ enthält
-  zwei Ecken $x$ und $y$ mit $\lambda(x,y;G)\ge n$", in the site's letters
-  a graph on $n\ge m$ vertices with more than
+  zwei Ecken $x$ und $y$ mit $\lambda(x,y;G)\ge n$", in erdosproblems.com's
+  letters a graph on $n\ge m$ vertices with more than
   $\frac m2(n-1)-\frac12\sigma_m(G)$ edges,
   $\sigma_m(G)=e_0(G)+\cdots+e_{m-2}(G)$ with $e_r(G)$ the number of
   vertices of degree at most $r$, has two vertices joined by $m$
-  edge-disjoint paths, as the site and the thread state it; and
+  edge-disjoint paths, as erdosproblems.com and the thread state it; and
   [[../library/extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/korollar|its Korollar]]
   (p. 226), more than $\frac m2(n-1)$ edges force such a pair
   and for every $n\ge m\ge2$ a graph on $n$ vertices with
@@ -368,14 +369,14 @@ update of 28 October 2025.
 
 Acceptance evidence for both readings: refereed journal papers of 1973 and
 1974 (Periodica Mathematica Hungarica, Mathematische Zeitschrift, Journal of
-Combinatorial Theory; Crossref records), attested by the site and
+Combinatorial Theory; Crossref records), attested by erdosproblems.com and
 by a thread reading of the German original; the primary texts cover $m=3$, the
 vertex-disjoint disproof for every $m\ge5$ with the exact $k_5(n)$
 ([SoTh74]), at $m=5$ by Leonard's counterexample ([Le73]) and for every
 $m\ge5$ by Mader's examples ([Ma73]), and the edge-disjoint threshold for
 every $m\ge2$ ([Ma73]) with the earlier $m=5$ and $m=6$ ([Le72], [Le73b]).
-The site's label rested on the vertex-disjoint disproof, which rests on the
-primary texts.
+The erdosproblems.com label rested on the vertex-disjoint disproof, which rests
+on the primary texts.
 
 **The origin.** [Er67b], printed pp. 56--57 = copy pp. 3--4
 ([[../library/extremal_graph_theory/erdos_1967_extremal_problems_graph_theory/conjecture_p57|conjecture_p57]]).
@@ -394,8 +395,8 @@ attributed to Erdős and Gallai), proves $k_3(n)=f(n)$ and guesses
 $k_4(3n+1)=6n+1$
 ([[../library/extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/conjecture_p144|conjecture_p144]]);
 it does not state the conjecture for general $m$, which is first printed in
-the 1967 copy. The site's key [BoEr62] thus attaches to the $k_3$ theorem
-and the $k_4$ guess, and [Er67b] to the general conjecture.
+the 1967 copy. The erdosproblems.com key [BoEr62] thus attaches to the $k_3$
+theorem and the $k_4$ guess, and [Er67b] to the general conjecture.
 
 **Leads (thread and external artifacts; not status).**
 
@@ -456,10 +457,10 @@ and the $k_4$ guess, and [Er67b] to the general conjecture.
 [Le73], [Ma73] or [SoTh74], a dispute of their theorems, or a change of
 status.
 
-- The site: problem page, discussion thread (all sixteen posts) and
-  proof-claim tab; the site's reference text for [Er67b]; the
-  formal-conjectures directory and tree as of 2026-09-19 (no file 915
-  then); the community database entry as of 2026-09-19; the external Lean
+- erdosproblems.com: problem page, discussion thread (all sixteen posts) and
+  proof-claim tab; the erdosproblems.com reference text for [Er67b]; the
+  formal-conjectures directory and tree, read 2026-09-19 (no file 915
+  then); the community database entry, read 2026-09-19; the external Lean
   file's header and notes file at the repository's head of 15 September
   2026.
 - Crossref: the records of doi:10.1007/BF02018594 ([Le73]),
@@ -493,14 +494,13 @@ $\bar\mu(\bar G)<n$, for which no argument is printed. The
 value $k_5(12)=28$ is stated in [SoTh74] without proof (p. 158), and
 [SoTh74]'s Lemma 5, behind Corollary 2, is printed without proof. (2)
 $k_m(n)$ for $m\ge6$ is
-unknown beyond the bounds quoted, as the site's curator notes; the constant
-$c=\frac3{80}$ is the site's own reading of [Le73], which prints no
-constant; its graphs $F_6$ at
-$j=2$ have $n=316k+4$ points and $\frac52n+\frac3{79}(n-4)+2$ edges (an
-arithmetic note made on the library page), consistent with the remark. (3)
-Proof coverage: statements only; the
+unknown beyond the bounds quoted, as the erdosproblems.com curator notes; the
+constant $c=\frac3{80}$ is erdosproblems.com's own reading of [Le73], which
+prints no constant; its graphs $F_6$ at $j=2$ have $n=316k+4$ points and
+$\frac52n+\frac3{79}(n-4)+2$ edges (an arithmetic note made on the library
+page), consistent with the remark. (3) Proof coverage: statements only; the
 theorems for $m=3$, $\ell_5$ and $\ell_6$ are at claims checked with their
-proofs read for structure. (4) The site's label was attached to one
+proofs read for structure. (4) The erdosproblems.com label was attached to one
 reading of the ambiguous wording, and the derived standing records the
 outcome under that reading. (5) The collection's Lean statement takes the
 vertex-disjoint reading and names the external proof as its formal proof;
@@ -515,8 +515,8 @@ this project has not built that proof (Formalization).
   reading
   ([[problems/extremal_graph_theory/E0915/claims/1960_01_01_bartfai|claim page]]).
 - [[../library/extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/conjecture_p144|Bollobás--Erdős 1962]]:
-  the guess $k_4(3n+1)=6n+1$; [Bo66] (not held): $k_4(n)=2n-1$, per the site,
-  [Er67b] and [Le73], p. 281
+  the guess $k_4(3n+1)=6n+1$; [Bo66] (not held): $k_4(n)=2n-1$, per
+  erdosproblems.com, [Er67b] and [Le73], p. 281
   ([[problems/extremal_graph_theory/E0915/claims/1966_01_01_bollobas|claim page]]).
 - [[../library/extremal_graph_theory/sorensen_thomassen_1974_k_rails_graphs/theorem_4|Sørensen--Thomassen 1974, Theorem 4]]:
   $k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge6$, $n\ne7$, $n\ne12$,
@@ -539,8 +539,8 @@ this project has not built that proof (Formalization).
   for odd $m\ge5$ and even $m\ge6$, graphs with
   $\frac m2(n-1)+j(\frac m2-2)$, or $+j(m-5)$, edges on $n$ vertices and no
   two vertices joined by $m$ internally disjoint paths, $j$ the number of
-  cut cliques, so $k_m(n)>\frac m2n+C$ for some $n$, for every $C$; the
-  site's and [SoTh74]'s (p. 143) report for $m\ge6$.
+  cut cliques, so $k_m(n)>\frac m2n+C$ for some $n$, for every $C$;
+  erdosproblems.com's and [SoTh74]'s (p. 143) report for $m\ge6$.
 - [[../library/extremal_graph_theory/mader_1973_ein_extremalproblem_des_zusammenhangs_von_graphen/satz_1|Mader 1973, Satz 1]]:
   a graph on $n\ge m$ vertices with more than
   $\frac m2(n-1)-\frac12(e_0(G)+\cdots+e_{m-2}(G))$ edges has two vertices

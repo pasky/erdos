@@ -42,8 +42,8 @@ for an absolute constant $c>0$: a transcendental entire function whose limit
 inferior exceeds $4/7\approx0.57143$, and an upper bound for every
 transcendental entire function that improves the bound $2/\pi$ obtained from an
 argument of Clunie reported by Gray and Shah in 1963. The constant $c$ is left
-unspecified in the site's account of the paper, which the statement above
-follows.
+unspecified in erdosproblems.com's account of the paper, which the statement
+above follows.
 
 **Covers.** The two bounds only: $B>4/7$ and $B\le2/\pi-c$ for some
 absolute $c>0$. The value of $B$ is not determined, and the pending claim
@@ -52,10 +52,10 @@ pages of the folder assert larger lower bounds.
 **Depends on.** Nothing in this wiki: the argument is the paper's own.
 
 **Acceptance.** Refereed: the paper appeared in the Journal d'Analyse
-Mathématique, a refereed journal. The site's commentary credits the two bounds
-to the paper, but the site labeled the problem OPEN, so that credit is not
-acceptance of the problem and the page lists no `reviewed` evidence. Three later
-lower bounds supersede $4/7$, all pending:
+Mathématique, a refereed journal. The erdosproblems.com commentary credits the
+two bounds to the paper, but Bloom's catalog labeled the problem OPEN, so that
+credit is not acceptance of the problem and the page lists no `reviewed`
+evidence. Three later lower bounds supersede $4/7$, all pending:
 [[problems/analysis/E0513/claims/2026_02_12_he_tang|He and Tang's certified
 lower bound]],
 [[problems/analysis/E0513/claims/2026_02_27_sothanaphan|Sothanaphan's certified

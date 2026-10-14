@@ -39,14 +39,14 @@ has the equal-summand solution $x=y=f(z_0)/2$. The word non-constant is
 needed with it: a constant $f\equiv2m$ has colorings with no two distinct
 integers of one color summing to $2m$ (color $n$ by the sign of $n-m$). The
 publisher's abstract states the theorem without the clause $x\ne y$ and
-without the word non-constant, which the site's commentary supplies;
+without the word non-constant, which the erdosproblems.com commentary supplies;
 Sanders's refereed 2020 note restates it for the squares with distinct $x$,
 $y$ in the finite form on $\{1,\ldots,N\}$, which implies the infinite
-one, and for a general $f$, including $z^k$, the clause rests on the site's
-account and on the paper's title, which announces a count of monochromatic
-solutions from which nontrivial ones follow. The partial result before it,
-Theorem 3 of Erdős, Sárközy and Sós (1989) for at most three colors, has its
-own page,
+one, and for a general $f$, including $z^k$, the clause rests on
+erdosproblems.com's account and on the paper's title, which announces a count of
+monochromatic solutions from which nontrivial ones follow. The partial result
+before it, Theorem 3 of Erdős, Sárközy and Sós (1989) for at most three colors,
+has its own page,
 [[problems/ramsey_theory/E0439/claims/1989_01_01_erdos_sarkozy_sos|Erdős, Sárközy and Sós 1989]].
 
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
@@ -63,8 +63,8 @@ These papers are filed as
 [[../library/ramsey_theory/sanders_2020_monochromatic_solutions_x_minus_y_z_squared/_index|Sanders 2020]]
 and
 [[../library/ramsey_theory/green_2019_monochromatic_solutions_x_plus_y_z_squared/_index|Green and Lindqvist 2019]].
-Reviewed: the site's curator, T. F. Bloom, labeled the problem PROVED and
-credits the theorem in the problem's commentary, in the general form with a
+Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled the problem PROVED
+and credits the theorem in the problem's commentary, in the general form with a
 non-constant $f$ (page last edited 7 April 2026). The thread and proof-claim tab
 are empty. None of the 23 citing papers that Semantic Scholar listed on
 2026-09-18 disputes the theorem.
@@ -72,4 +72,4 @@ are empty. None of the 23 citing papers that Semantic Scholar listed on
 **Sources of the statement.** The paper is closed access and not held, so
 its theorem is cited here through the publisher's abstract, the introduction
 of Sanders's note and the remark of Green and Lindqvist; the $k$th-power
-clause rests on the abstract's general $f$ and the site's commentary.
+clause rests on the abstract's general $f$ and the erdosproblems.com commentary.

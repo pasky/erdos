@@ -4,8 +4,8 @@ title: "Theorem 2: ω_α l(m,n) → (m, ω_α n)^2 for every α, with l_α(m,n) 
 desc: |
   Erdős and Rado's 1967 extension of the finite-index partition relation to
   every initial ordinal ω_α, with the explicit bound on the least index that
-  the site quotes as the Erdős–Rado upper bound for k(n,m), and the matching
-  negative relation below the threshold.
+  erdosproblems.com quotes as the Erdős–Rado upper bound for k(n,m), and the
+  matching negative relation below the threshold.
 created: 2026-09-18T11:20:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -81,9 +81,9 @@ the 1956 paper's Theorem 44.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0112/_index|Problem 112]]: relation (3) at $\alpha=0$
-  is the bound $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$ that the site's
-  commentary attributes to this paper, in the letters of the site; Remark
-  (i) is the conjecture that the index does not depend on $\alpha$,
+  is the bound $k(n,m)\le(2^{m-1}(n-1)^m+n-2)/(2n-3)$ that the erdosproblems.com
+  commentary attributes to this paper, in the letters of erdosproblems.com;
+  Remark (i) is the conjecture that the index does not depend on $\alpha$,
   settled by Baumgartner in 1974
   ([[ramsey_theory/baumgartner_1974_improvement_partition_theorem_erdos_rado/main_theorem|main_theorem]]
   of his note, p. 135; Ihringer, Rajendraprasad and Weinert restate it as

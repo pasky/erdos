@@ -53,7 +53,7 @@ $c\log N\log\log\log N/\log\log N$, which tends to infinity with $N$, so
 for every $B$ there is $N_B$ such that no covering system with distinct
 moduli all greater than $N_B$ has reciprocal sum at most $B$. The paper
 presents this as progress on the question of
-[[problems/covering_systems/E0002/_index|Problem 2]], and the site's
+[[problems/covering_systems/E0002/_index|Problem 2]], and the erdosproblems.com
 commentary names it as the work Hough built on.
 
 **Covers.** The case of [[problems/covering_systems/E0002/_index|Problem 2]]
@@ -71,7 +71,7 @@ with the bound $616000$ on
 **Acceptance.** Refereed: Journal of the American Mathematical Society 20
 (2007), no. 2, 495--517, doi:10.1090/S0894-0347-06-00549-2, published online
 2006-09-19. The arXiv preprint math/0507374 of 2005-07-18 names this page. Not
-reviewed: the site's curator credits the answer to Hough and names this paper
-only as the groundwork of Hough's proof. Not formalized: no Lean proof of
-Theorem A is recorded. The library card records the statement, and the proof
-is not compiled in this corpus.
+reviewed: the erdosproblems.com curator credits the answer to Hough and names
+this paper only as the groundwork of Hough's proof. Not formalized: no Lean
+proof of Theorem A is recorded. The library card records the statement, and the
+proof is not compiled in this corpus.

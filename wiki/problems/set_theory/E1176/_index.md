@@ -27,13 +27,14 @@ that there is a colouring of the edges with $\aleph_1$ many colours such that,
 in any countable colouring of the vertices, there exists a vertex colour
 containing all edge colours?
 
-**Status.** Open. The site labeled the problem NOT DISPROVABLE, and its remark
-credits Hajnal and Komjáth with the consistency. The accepted partial claim
+**Status.** Open. Bloom's catalog labeled the problem NOT DISPROVABLE, and its
+remark credits Hajnal and Komjáth with the consistency. The accepted partial
+claim
 [[problems/set_theory/E1176/claims/2003_01_01_hajnal_komjath|Hajnal and Komjáth's consistency result]]
 shows that the statement holds in a model of ZFC, so ZFC does not refute it.
 This is one side of an independence result. Whether ZFC proves the statement is
-open. The page departs from the site's label because one side alone leaves the
-question open.
+open. The page departs from the erdosproblems.com label because one side alone
+leaves the question open.
 
 **Source.** [erdosproblems.com/1176](https://www.erdosproblems.com/1176),
 accessed 2026-09-04: the problem page (NOT DISPROVABLE; a problem of Erdős,
@@ -56,7 +57,7 @@ Bloom, Erdős Problem #1176, https://www.erdosproblems.com/1176.
 - [So15] Soukup, Dániel T., Open problems around uncountable graphs.
   Workshop handout, Independence Results in Mathematics and Challenges in
   Iterated Forcing, University of East Anglia, November 2015; §6,
-  Conjecture 6.1, which states the conjecture in the catalog's form
+  Conjecture 6.1, which states the conjecture in the erdosproblems.com form
   (attributed there to Erdős and Hajnal) and records that it holds
   consistently, adding a single Cohen real sufficing, citing [HaKo03]. A
   secondary source. Library home:
@@ -75,31 +76,32 @@ proof.
 
 ## Current assessment
 
-The site formulation asks whether every graph of chromatic number $\aleph_1$ has
-an edge coloring with $\aleph_1$ colors such that any partition of the vertices
-into countably many classes has a class containing an edge of every color. It is
-the case $\kappa=\aleph_1$ of Problem 3 in §6 of [ErGaHa75], the property
-$P(G,\kappa,\kappa)$ for every graph of chromatic number $\kappa$, where
-$P(\mathcal S,\lambda,\kappa)$ (their Definition 6.2) says that the edges can be
-split into $\lambda$ classes so that every partition of the vertices into fewer
-than $\kappa$ classes has a class containing an edge of every edge class. The
-site's label, NOT DISPROVABLE, records the consistency of the statement,
-credited to Hajnal and Komjáth by the site and by the problem's source [Va99];
-the written source is [HaKo03], whose abstract states the conjecture in the
-catalog's form and announces partial results, variants and consistency results
-concerning it. The scope and the model of the consistency theorem are recorded
-from the secondary source [So15], a workshop handout whose Conjecture 6.1 is the
-catalog's conjecture for every graph of chromatic number $\aleph_1$ and which
-records that it holds consistently, that adding a single Cohen real suffices,
-and that the result is [HaKo03]. The claim page is accepted on the refereed
-publication and the curator's label and credit, with scope partial: it shows
-that ZFC does not refute the statement, one side of an independence result.
-Whether the statement is a theorem of ZFC is open, so the problem is open, and
-the page departs from the site's label because one side alone leaves the
-question open. Search scope: the site's problem page, discussion thread and
-proof-claims tab; the community database's entry 1176; the formal-conjectures
-file; the publisher's record of [HaKo03]; §6 of [So15]; §6 of [ErGaHa75];
-item 7.93 of [Va99]. Not searched: arXiv, zbMATH, MathSciNet and X.
+The erdosproblems.com formulation asks whether every graph of chromatic number
+$\aleph_1$ has an edge coloring with $\aleph_1$ colors such that any partition
+of the vertices into countably many classes has a class containing an edge of
+every color. It is the case $\kappa=\aleph_1$ of Problem 3 in §6 of [ErGaHa75],
+the property $P(G,\kappa,\kappa)$ for every graph of chromatic number $\kappa$,
+where $P(\mathcal S,\lambda,\kappa)$ (their Definition 6.2) says that the edges
+can be split into $\lambda$ classes so that every partition of the vertices into
+fewer than $\kappa$ classes has a class containing an edge of every edge class.
+The erdosproblems.com label, NOT DISPROVABLE, records the consistency of the
+statement, credited to Hajnal and Komjáth by erdosproblems.com and by the
+problem's source [Va99]; the written source is [HaKo03], whose abstract states
+the conjecture in the erdosproblems.com form and announces partial results,
+variants and consistency results concerning it. The scope and the model of the
+consistency theorem are recorded from the secondary source [So15], a workshop
+handout whose Conjecture 6.1 is the erdosproblems.com conjecture for every graph
+of chromatic number $\aleph_1$ and which records that it holds consistently,
+that adding a single Cohen real suffices, and that the result is [HaKo03]. The
+claim page is accepted on the refereed publication and the curator's label and
+credit, with scope partial: it shows that ZFC does not refute the statement, one
+side of an independence result. Whether the statement is a theorem of ZFC is
+open, so the problem is open, and the page departs from the erdosproblems.com
+label because one side alone leaves the question open. Search scope: the
+erdosproblems.com problem page, discussion thread and proof-claims tab; the
+community database's entry 1176; the formal-conjectures file; the publisher's
+record of [HaKo03]; §6 of [So15]; §6 of [ErGaHa75]; item 7.93 of [Va99]. Not
+searched: arXiv, zbMATH, MathSciNet and X.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

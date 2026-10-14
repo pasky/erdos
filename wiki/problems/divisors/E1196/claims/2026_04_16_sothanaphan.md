@@ -74,8 +74,8 @@ furnishes is $\gamma$. The thread post of 21 April 2026 notes that this is
 the same secondary term as the original argument's. No independent check of
 the proofs is recorded.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 16 April
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+16 April 2026:
 
 > Here are the notes proving, for $A \subset [x, \infty)$,
 > $$
@@ -85,7 +85,7 @@ the proofs is recorded.
 >
 > There's nothing particularly exciting here, but it seems worth written down.
 
-Posted to the site's forum by Nat Sothanaphan on 20 April 2026:
+Posted to the erdosproblems.com forum by Nat Sothanaphan on 20 April 2026:
 
 > Thanks for this reformulation!
 >
@@ -94,7 +94,7 @@ Posted to the site's forum by Nat Sothanaphan on 20 April 2026:
 >
 > Here are the notes.
 
-Posted to the site's forum by Nat Sothanaphan on 21 April 2026:
+Posted to the erdosproblems.com forum by Nat Sothanaphan on 21 April 2026:
 
 > Optimizing the resummation variant gives the bound
 > $$
@@ -118,8 +118,8 @@ Shah, Tang and Tao (arXiv:2605.00301v1), whose card is
 credits the sharper bound to Nat Sothanaphan, using GPT, as an analysis of a
 variant of the paper's argument, and its footnote links the note of 21 April
 2026; the paper's Remark 4.2 gives Tao's alternate Markov chain proof with the
-weaker constant $2\gamma$. The site's curator labeled the problem proved,
-credits the solution to GPT-5.4 Pro prompted by Price, and points to the
+weaker constant $2\gamma$. The erdosproblems.com curator labeled the problem
+proved, credits the solution to GPT-5.4 Pro prompted by Price, and points to the
 comment section for further refinements without crediting them to anyone, so
 no reviewer is named for this claim and it stays claimed.
 

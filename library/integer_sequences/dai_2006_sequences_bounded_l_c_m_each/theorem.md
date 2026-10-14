@@ -46,6 +46,6 @@ Brun's pure sieve; Rosser--Schoenfeld 1962 (the paper's [8], [9]).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0441/_index|Problem 441]]: the quantitative form of
-  the first answer, $g(N)\le(9N/8)^{1/2}+O((N/\log N)^{1/2}\log\log N)$ as the
-  site quotes it, with the explicit constant $45$ and the lower bound
-  $g(N)\ge(9N/8)^{1/2}-2$.
+  the first answer, $g(N)\le(9N/8)^{1/2}+O((N/\log N)^{1/2}\log\log N)$ as
+  erdosproblems.com quotes it, with the explicit constant $45$ and the lower
+  bound $g(N)\ge(9N/8)^{1/2}-2$.

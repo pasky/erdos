@@ -49,7 +49,7 @@ issue listing offers the article "Free download under CC-BY license", no
 version named
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/34/1,
 read 2026-10-02); the site footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the article.
+reserved." speaks for erdosproblems.com, not the article.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0195/_index|#195]],
 [[../wiki/problems/additive_combinatorics/E0196/_index|#196]]

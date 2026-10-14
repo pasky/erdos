@@ -72,10 +72,11 @@ paper.
 first day of the publication year. Reviewed: erdosproblems.com labeled the
 problem PROVED and credits the density-one statement, with the margin $o(n)$, to
 this paper as [LuPo02] (page last edited 2025-10-06). The corpus counts this as
-documented independent acceptance of this part by the site's curator, T. F.
-Bloom (erdosproblems.com). The site's commentary also describes the density
-remark as proved, which the paper does not support. The community database lists
-the problem proved, with its statement formalized and no formal proof.
+documented independent acceptance of this part by the erdosproblems.com curator,
+T. F. Bloom (erdosproblems.com). The erdosproblems.com commentary also describes
+the density remark as proved, which the paper does not support. The community
+database lists the problem proved, with its statement formalized and no formal
+proof.
 
 Formalization: the Lean file in Boris Alexeev's lean-proofs repository, linked
 above at its pinned commit, declares itself a formalization of Luca and
@@ -84,5 +85,5 @@ proves the density-one statement `erdos_1064` without `sorry`, together with the
 infinitude variant and the margin variant of the formal-conjectures file. The
 corpus has not built or audited it, and no Lean that the corpus built and
 audited checks the statement. So the evidence lists no `formalized` kind. The
-proof is not compiled in this wiki. The standing rests on the refereeing and the
-site's acceptance.
+proof is not compiled in this wiki. The standing rests on the refereeing and
+erdosproblems.com's acceptance.

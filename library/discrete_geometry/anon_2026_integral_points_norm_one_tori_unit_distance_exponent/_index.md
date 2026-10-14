@@ -35,7 +35,7 @@ records the absence of an author line, not an author's choice. No notice is
 printed; the hosting organization's legal page (https://www.anthropic.com/legal,
 read 2026-10-02) links privacy, acceptable-use, terms-of-service and
 supported-countries policies, none of which states ownership or licensing of
-documents published on the site; the term is unstated.
+documents published on erdosproblems.com; the term is unstated.
 
 The source credits no person and no AI system. The survey download set of
 September 2026 filed the file under a name attributing it to a model of the

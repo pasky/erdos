@@ -31,10 +31,10 @@ if $p_n$ is a sequence of polynomials, with degrees $\deg p_n<(1+\epsilon(n))n$,
 such that $p_n(x_{kn})=f(x_{kn})$ for all $1\leq k\leq n$, then $p_n(x)\not\to
 f(x)$ for almost all $x\in [-1,1]$?
 
-**Status.** OPEN, the site's label (page last edited 23 January 2026; the
-problem page and its proof-claims tab accessed 2026-10-06). The derived standing
-departs from this label: the problem is claimed as proved, because the tab
-carries one pending full proof claim. The claim is by Qiyuan Gu, submitted
+**Status.** OPEN, the erdosproblems.com label (page last edited 23 January 2026;
+the problem page and its proof-claims tab accessed 2026-10-06). The derived
+standing departs from this label: the problem is claimed as proved, because the
+tab carries one pending full proof claim. The claim is by Qiyuan Gu, submitted
 2026-09-04 with a Zenodo write-up. As the tab discloses, the write-up was
 drafted using GPT 6 Astra, running on top of GPT 5.6 Sol and Claude Fable 5.1.
 It claims to answer the question yes in a stronger form: for any array and any
@@ -44,10 +44,10 @@ $\limsup_n\lvert p_n(x)\rvert=\infty$ at almost every $x$. The claim is
 recorded, unadopted, on
 [[problems/polynomials/E1152/claims/2026_09_04_gu|its claim page]]. It stays
 pending since no outside review or refereed publication of it is known. For a
-fixed $\epsilon>0$ the opposite holds for suitable arrays. As the site's
-commentary records, Erdős, Kroó and Szabados [EKS89] give arrays for which every
-continuous $f$ has interpolants of degree below $(1+\epsilon)n$ converging
-uniformly.
+fixed $\epsilon>0$ the opposite holds for suitable arrays. As the
+erdosproblems.com commentary records, Erdős, Kroó and Szabados [EKS89] give
+arrays for which every continuous $f$ has interpolants of degree below
+$(1+\epsilon)n$ converging uniformly.
 
 **Source.** [erdosproblems.com/1152](https://www.erdosproblems.com/1152),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1152,
@@ -59,10 +59,10 @@ https://www.erdosproblems.com/1152.
   polynomials. J. Approx. Theory 58(2) (1989), 232-241.
 
 **Formalization.** No formal-conjectures statement file exists for the problem,
-and the site's page reports no formalized statement. The claimant's Zenodo
-record carries a partial Lean 4 formalization that takes Remez's inequality
-and the remaining analytic estimates as hypotheses. It is linked from the
-claim page and is not built or audited in this repository.
+and the erdosproblems.com page reports no formalized statement. The claimant's
+Zenodo record carries a partial Lean 4 formalization that takes Remez's
+inequality and the remaining analytic estimates as hypotheses. It is linked from
+the claim page and is not built or audited in this repository.
 
 ## Progress
 

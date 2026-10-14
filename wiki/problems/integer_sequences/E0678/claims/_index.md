@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 678, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0678/claims
@@ -13,7 +13,7 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/integer_sequences/E0678/claims/2024_10_11_cambie|2024_10_11_cambie]]: Cambie's Theorem 1 gives, for every constant $C$ and every large $k$, a block
 of $k$ consecutive integers whose least common multiple exceeds $C$ times that
-of a later block of $k+1$. It is an arXiv preprint accepted by the site's
-curator.
+of a later block of $k+1$. It is an arXiv preprint accepted by the
+erdosproblems.com curator.
 
 ***

@@ -79,7 +79,7 @@ Three results are consumed here.
   partial sums $S_j$ satisfy $S_j-b_{j+1}\to\infty$, then for all large
   $N$ every integer in $[T,S_N-T]$ is a sum of distinct terms among
   $b_1,\ldots,b_N$. The paper says this answers Problem 348, and notes
-  that the site's discussion records van Doorn's exclusion of $m\ge2$
+  that the erdosproblems.com discussion records van Doorn's exclusion of $m\ge2$
   under the stronger requirement that every positive integer be
   represented.
 - Theorem 9 (p. 11): the Salem number $\gamma$ with minimal polynomial

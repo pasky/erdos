@@ -30,10 +30,10 @@ which are maximal with respect to this property?
 Is there a region $R$ with a maximal set of disjoint unit line segments that is
 countably infinite?
 
-**Status.** PROVED (LEAN), in the site's label. Danzer answered the first
-question yes at the 1985 Siófok meeting, as Erdős reports. Boris Alexeev
-answered the second in the site's comments (January 2026), with the unit square
-as the region. See the claim pages of
+**Status.** PROVED (LEAN), in the erdosproblems.com label. Danzer answered the
+first question yes at the 1985 Siófok meeting, as Erdős reports. Boris Alexeev
+answered the second in the erdosproblems.com comments (January 2026), with the
+unit square as the region. See the claim pages of
 [[problems/discrete_geometry/E1071/claims/1987_01_01_danzer|Danzer]] and
 [[problems/discrete_geometry/E1071/claims/2026_01_25_alexeev|Alexeev]].
 

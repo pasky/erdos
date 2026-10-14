@@ -3,7 +3,7 @@ name: divisors
 title: "Divisors and Multiples"
 desc: "Sources filed under Divisors and Multiples, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:10:24Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Divisors and Multiples
@@ -133,7 +133,7 @@ divisor-gap estimate.
 
 [[divisors/jenw1n_2026_lean_proof_erdos_problem_18b/_index|jenw1n_2026_lean_proof_erdos_problem_18b/]]: Records the Conjectures.io-accepted Lean proof that for every positive
 epsilon h(n!) is below n^epsilon for all large n, the second question of
-Problem 18: site-kernel verified, review approved and certified in
+Problem 18: Conjectures.io-kernel verified, review approved and certified in
 September 2026, not refereed, and rebuilt and kernel-replayed here.
 
 [[divisors/koukoulopoulos_2025_erdos_s_integer_dilation_approximation_problem/_index|koukoulopoulos_2025_erdos_s_integer_dilation_approximation_problem/]]: Resolves Erdos's 1948 integer dilation approximation problem for discrete

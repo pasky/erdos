@@ -45,5 +45,5 @@ $\Pi(x)+\Pi(x^{1/2})$ terms.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0795/_index|Problem 795]]: the problem's
-  statement is this display with $g(n)$ for $\max k$ (the site prints the
-  little-$o$ term with an undefined $x$, that is, this display's variable).
+  statement is this display with $g(n)$ for $\max k$ (erdosproblems.com prints
+  the little-$o$ term with an undefined $x$, that is, this display's variable).

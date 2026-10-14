@@ -96,5 +96,5 @@ the count of primes up to $p^\beta$ behind display (1).
   summands allowed as on the problem page; for $\epsilon>1$ the problem
   page records the reduction to $\epsilon=1$ as an authored remark. The
   introduction attributes the first affirmative answer to Shparlinski (Arch.
-  Math. 78 (2002), 445--448), which the site records with
+  Math. 78 (2002), 445--448), which erdosproblems.com records with
   $C_\epsilon\ll\epsilon^{-3}$.

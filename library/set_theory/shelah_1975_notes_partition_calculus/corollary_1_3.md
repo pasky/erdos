@@ -18,8 +18,8 @@ for cardinals $\lambda,\mu_0,\mu_1$ the relation $\lambda\to(\mu_0,\mu_1)^2$
 holds when every two-coloring of the pairs from a set of size $\lambda$ has a
 subset of size $\mu_0$ all of whose pairs have the first color or a subset of
 size $\mu_1$ all of whose pairs have the second; $\lambda\to(\mu)^2_2$ is the
-case $\mu_0=\mu_1=\mu$, and the catalog's $(\aleph_\omega)^2$ omits the color
-count two.
+case $\mu_0=\mu_1=\mu$, and erdosproblems.com's $(\aleph_\omega)^2$ omits the
+color count two.
 
 **Corollary 1.3** (printed p. 1260). Let $(n(k))_{k<\omega}$ be a sequence of
 natural numbers with
@@ -36,10 +36,10 @@ $2^{\aleph_{n(k)}}$ and calls Problem 3 of the Erdős--Hajnal list "the only
 open case (for infinite cardinals) of $\lambda\to(\mu)^2_2$"; the Remark after
 the corollary records that it answers that problem.
 
-**Relation to the catalog's sum.** Problem 1219 sums over the subsequence,
-$\sum_k 2^{\aleph_{n_k}}$, while the corollary sums over all $n<\omega$. The
-two are the same cardinal: a countable sum of infinite cardinals is
-$\aleph_0$ times its supremum, which is the supremum, and because
+**Relation to the erdosproblems.com sum.** Problem 1219 sums over the
+subsequence, $\sum_k 2^{\aleph_{n_k}}$, while the corollary sums over all
+$n<\omega$. The two are the same cardinal: a countable sum of infinite cardinals
+is $\aleph_0$ times its supremum, which is the supremum, and because
 $n\mapsto 2^{\aleph_n}$ is nondecreasing and $(n_k)$ is cofinal in $\omega$,
 $\sup_n 2^{\aleph_n}=\sup_k 2^{\aleph_{n_k}}$. This identification is made
 here, not in the paper.
@@ -76,7 +76,7 @@ infinite terms absorb. Theorem 1.2 then gives $\chi\to(\aleph_\omega)^2_2$,
 which is $\chi\to(\aleph_\omega,\aleph_\omega)^2$, and its parenthetical form
 gives $\chi\to(\aleph_\omega,\aleph_\omega,\omega)^2$. This specialization, the
 proof of Theorem 1.2 it invokes, and the identification of the sum over all
-$n$ with the catalog's sum over the subsequence are written out,
+$n$ with the erdosproblems.com sum over the subsequence are written out,
 author-recorded, in
 [[../wiki/research/erdos_1219/corollary_1_3_reconstruction|the reconstruction of Corollary 1.3]];
 that page is not an independent review and changes no standing here.
@@ -93,8 +93,8 @@ theorem in the role of $\kappa\to(\kappa)^2_2$.
 ## Bears on
 
 - [[../wiki/problems/set_theory/E1219/_index|Problem 1219]]: the exact relation asked, two
-  colors, under the catalog's hypotheses; the sum over all $n$ equals the
-  catalog's sum over the subsequence, as explained above. The stronger
-  three-dimensional relation of
+  colors, under the erdosproblems.com hypotheses; the sum over all $n$ equals
+  the erdosproblems.com sum over the subsequence, as explained above. The
+  stronger three-dimensional relation of
   [[set_theory/shelah_1975_notes_partition_calculus/conjecture_1a|Conjecture 1A]]
   is a separate question.

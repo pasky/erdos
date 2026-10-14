@@ -30,12 +30,12 @@ estimate $n_0(k)$ [6]."
 
 Reference [6] (p. 108) is Erdős's 1962 *Remarks on a paper of Pósa*
 (Publ. Math. Inst. Hung. Acad. Sci. 7), listed with the pages 391--412;
-the site's reference text for that paper and the library's card
+the erdosproblems.com reference text for that paper and the library's card
 ([[extremal_graph_theory/erdos_1962_remarks_paper_posa/_index|erdos_1962_remarks_paper_posa]])
 give the pages 227--229, so the list's page numbers are a misprint. The
 paper does not say who "We" are.
 
-A note on the indices, made here for the consumers: the catalog's Problem
+A note on the indices, made here for the consumers: erdosproblems.com's Problem
 1012 writes the threshold for a cycle on $n-k$ vertices as
 $\binom{n-k-1}2+\binom{k+2}2+1$, which is Erdős's display with $k+1$ in place
 of $k$; Erdős's display with $k=1$ is the Hamiltonicity count
@@ -45,7 +45,7 @@ asserts. The graph made of a $K_{n-k}$ and a $K_{k+1}$ sharing one vertex
 has $\binom{n-k}2+\binom{k+1}2$ edges and contains a $C_{n-k}$, so it does
 not witness the printed "best possible" for $C_{n-k}$; a $K_{n-k-1}$ and a
 $K_{k+2}$ sharing one vertex, with $\binom{n-k-1}2+\binom{k+2}2$ edges and
-no $C_{n-k}$, witnesses the catalog's form. The display is recorded as
+no $C_{n-k}$, witnesses the erdosproblems.com form. The display is recorded as
 printed; which convention Erdős intended is not decided here.
 
 **Source.** P. Erdős, *Some unsolved problems in graph theory and
@@ -62,7 +62,7 @@ $C_{n-k}$ theorem is cited to [6].
 
 ## Proof pointer
 
-None in the paper; [6] is the pointer for the $C_{n-k}$ theorem. The catalog
+None in the paper; [6] is the pointer for the $C_{n-k}$ theorem. Bloom's catalog
 records Ore's 1961 theorem, which is the item's first sentence, and the later
 exact results of Bondy (1971) and Woodall (1972) on its Problem 1012 page.
 
@@ -72,6 +72,6 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the site's source
-  passage ([Er71, p. 98]); the site's $f(k)$ is Erdős's $n_0(k)$, in the
-  index convention recorded above.
+- [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the
+  erdosproblems.com source passage ([Er71, p. 98]); erdosproblems.com's $f(k)$
+  is Erdős's $n_0(k)$, in the index convention recorded above.

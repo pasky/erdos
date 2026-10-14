@@ -57,7 +57,7 @@ on pp. 7 and 20).
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0565/_index|Problem 565]]: an explicit
-  host for the bound $R^*(G)<2^{O(n(\log n)^2)}$, which the site's
+  host for the bound $R^*(G)<2^{O(n(\log n)^2)}$, which the erdosproblems.com
   commentary credits to Fox and Sudakov as a second and more explicit proof
   of that bound; its exponent exceeds the problem's $O(n)$ by a factor
   $(\log n)^2$, and the problem page records it as history.

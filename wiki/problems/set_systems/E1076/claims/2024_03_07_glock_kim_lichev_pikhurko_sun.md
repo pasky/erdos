@@ -1,11 +1,11 @@
 ---
 name: problems/set_systems/E1076/claims/2024_03_07_glock_kim_lichev_pikhurko_sun
-title: The (7,5), (8,6) and (9,7) limits refute the site's wording at k = 7, 8, 9
+title: The (7,5), (8,6) and (9,7) limits refute the erdosproblems.com wording at k = 7, 8, 9
 desc: |
-  Correct, but answers the site's wording (the single families $F_7$, $F_8$ and
-  $F_9$), not the modified Statement (the cumulative family), so it does not
-  count toward the problem's standing. The $(7,5)$, $(8,6)$ and $(9,7)$ limits
-  are $1/5$, $61/330$ and $1/5$, not $1/6$, refereed in Canad. J. Math.
+  Correct, but answers the erdosproblems.com wording (the single families $F_7$,
+  $F_8$ and $F_9$), not the modified Statement (the cumulative family), so it
+  does not count toward the problem's standing. The $(7,5)$, $(8,6)$ and $(9,7)$
+  limits are $1/5$, $61/330$ and $1/5$, not $1/6$, refereed in Canad. J. Math.
 authors:
 - Stefan Glock
 - Jaehoon Kim
@@ -35,7 +35,7 @@ updated: 2026-10-08T03:43:48Z
 $r$-uniform hypergraph on $n$ vertices containing no $k$ edges on at most $s$
 vertices, the paper's notation. Unlike the function of Brown, Erdős and Sós,
 which is the least number of edges forcing such a configuration, it is a
-maximum, so the site's extremal number is
+maximum, so erdosproblems.com's extremal number is
 $\mathrm{ex}_3(n,\mathcal F_k)=f^{(3)}(n;k,k-2)$. Theorems 1.1 and 1.2 of
 Glock, Kim, Lichev, Pikhurko and Sun state that for every $r\ge3$ the limits
 of $n^{-2}f^{(r)}(n;5r-8,5)$ and of $n^{-2}f^{(r)}(n;7r-12,7)$ both equal
@@ -51,19 +51,19 @@ $$
 
 and none of these is $(1/6+o(1))n^2$, since $1/6=55/330$: the displayed
 asymptotic fails at $k=7$, $8$ and $9$ with $\mathcal F_k$ the single family
-the site's wording defines, so the site's wording, an assertion about every
-$k\ge5$, is false. The transfer from the theorems to the site's wording is the
-identification of the forbidden families: a $3$-graph contains a member of
-$\mathcal F_k$ exactly when some $k-2$ of its edges span at most $k$ vertices.
-The earlier refutations at $k=5$ and $k=6$ are on
-[[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]] and
+the erdosproblems.com wording defines, so the erdosproblems.com wording, an
+assertion about every $k\ge5$, is false. The transfer from the theorems to the
+erdosproblems.com wording is the identification of the forbidden families: a
+$3$-graph contains a member of $\mathcal F_k$ exactly when some $k-2$ of its
+edges span at most $k$ vertices. The earlier refutations at $k=5$ and $k=6$ are
+on [[problems/set_systems/E1076/claims/2018_09_06_glock|Glock's page]] and
 [[problems/set_systems/E1076/claims/2022_09_28_glock_joos_kim_kuhn_lichev_pikhurko|the (6,4) page]],
 and a refutation at $k=10$ is on
 [[problems/set_systems/E1076/claims/2025_06_02_pikhurko_sun|the (10,8) page]].
 
-**Why it is rejected.** The results are correct, but they answer the site's
-wording, the single families $\mathcal F_7$, $\mathcal F_8$ and
-$\mathcal F_9$, not the modified Statement of
+**Why it is rejected.** The results are correct, but they answer the
+erdosproblems.com wording, the single families $\mathcal F_7$, $\mathcal F_8$
+and $\mathcal F_9$, not the modified Statement of
 [[problems/set_systems/E1076/_index|Problem 1076]], whose family is
 cumulative: under the modified Statement a $3$-graph avoiding
 $\mathcal F_4\cup\dots\cup\mathcal F_k$ is linear, so the theorems say nothing
@@ -78,6 +78,6 @@ cases $k=5,6,7$ of Brown, Erdős and Sós's conjecture that the limit of
 $f^{(3)}(n;k+2,k)/n^2$ exists. The cases $k=2$ (Brown, Erdős and Sós), $k=3$
 (Glock) and $k=4$ (Glock, Joos, Kim, Kühn, Lichev and Pikhurko) came before
 them. Delcourt and Postle had already proved the existence of the limit for
-every $k$. The site does not cite the paper on this problem, and its curator
-makes no statement about it. The proof is unreviewed, and no formalization is
-known.
+every $k$. erdosproblems.com does not cite the paper on this problem, and its
+curator makes no statement about it. The proof is unreviewed, and no
+formalization is known.

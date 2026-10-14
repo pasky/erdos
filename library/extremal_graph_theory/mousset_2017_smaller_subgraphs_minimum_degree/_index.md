@@ -26,11 +26,11 @@ the base-2 logarithm of n vertices.
 Mousset, Frank and Noever, Andreas and Škorić, Nemanja, Smaller subgraphs
 of minimum degree $k$. Electron. J. Combin. 24 (2017), no. 4, Paper 4.9,
 8 pp., doi:10.37236/7167 (published 6 October 2017; Crossref record read on
-2026-09-18; the site's reference text gives "Electron. J. Combin. (2017),
-Paper No. 4.9, 8"). Preprint arXiv:1703.00273 (v1, 1 March 2017). The arXiv
-record names arXiv's non-exclusive distribution license (arXiv:1703.00273),
-every other right reserved. The journal PDF prints no license; the journal's
-copyright notice
+2026-09-18; the erdosproblems.com reference text gives "Electron. J. Combin.
+(2017), Paper No. 4.9, 8"). Preprint arXiv:1703.00273 (v1, 1 March 2017). The
+arXiv record names arXiv's non-exclusive distribution license
+(arXiv:1703.00273), every other right reserved. The journal PDF prints no
+license; the journal's copyright notice
 (<https://www.combinatorics.org/ojs/index.php/eljc/about/submissions>, read
 2026-10-07) leaves copyright with its owner (usually the authors), who grants
 the journal a "worldwide, irrevocable, royalty free license to publish or
@@ -131,7 +131,7 @@ Faudree, Rousseau and Schelp is not held; its Theorem 1 (Theorem 1.2 here)
 and Lemma 4 (Lemma 2.1 here) appear here as this paper quotes them.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0814/_index|#814]]: Theorem 1.3 is
-the bound before Sauermann's theorem, the site's "$n-c_kn/\log n$"; the
+the bound before Sauermann's theorem, erdosproblems.com's "$n-c_kn/\log n$"; the
 page's threshold is $t_k(n)+1$ and its conjecture is Conjecture 1.1 with
 "induced subgraph", which changes nothing since the induced subgraph on the
 same vertex set has degrees at least as large, and with $n\ge k-1$, which

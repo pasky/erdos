@@ -6,7 +6,7 @@ desc: |
   and edge counts, cycles and girth, degree and subgraph-counting conditions,
   planarity, and structural questions such as the Erdos-Hajnal conjecture.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T12:25:21Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -107,7 +107,7 @@ least $5$ colors.
 [[problems/extremal_graph_theory/E0146/_index|E0146/]]: Asks whether every
 bipartite $r$-degenerate graph $H$ has $\mathrm{ex}(n;H)\ll n^{2-1/r}$;
 disproved at $r=2$ by Theorem 1.2 of Chapter 10 of OpenAI's 2026 report, which
-the site's curator credits.
+the erdosproblems.com curator credits.
 
 [[problems/extremal_graph_theory/E0147/_index|E0147/]]: Asks whether every
 bipartite graph $H$ of minimum degree $r$ has $\mathrm{ex}(n;H)\gg
@@ -133,8 +133,8 @@ $n-c\sqrt{n\log n}$ asymptotically.
 
 [[problems/extremal_graph_theory/E0167/_index|E0167/]]: Asks whether a graph
 with at most $k$ edge-disjoint triangles can be made triangle-free by deleting
-at most $2k$ edges (Tuza's conjecture). It is open, the site's label was
-falsifiable, and Haxell's $66/23$ is the best refereed constant.
+at most $2k$ edges (Tuza's conjecture). It is open, the erdosproblems.com label
+was falsifiable, and Haxell's $66/23$ is the best refereed constant.
 
 [[problems/extremal_graph_theory/E0180/_index|E0180/]]: Asks whether every
 finite family $\mathcal{F}$ of forbidden graphs has a member $G$ whose extremal
@@ -166,8 +166,8 @@ $\delta n^2$ edges has a set of $\gg_\delta n$ vertices spanning no triangle.
 [[problems/extremal_graph_theory/E0548/_index|E0548/]]: Asks whether every graph
 on $n\ge k+1$ vertices with at least $\frac{k-1}{2}n+1$ edges contains every
 tree on $k+1$ vertices. The Erdős–Sós tree edge bound is proved, and the page
-records the precise relation between its sharp threshold and the site's
-statement.
+records the precise relation between its sharp threshold and the
+erdosproblems.com statement.
 
 [[problems/extremal_graph_theory/E0571/_index|E0571/]]: Asks for a bipartite
 graph $G$ with $\mathrm{ex}(n;G)\asymp n^{\alpha}$ for each rational
@@ -249,10 +249,10 @@ on $n$ vertices with more than $n^2/4$ edges has at least $2n^2/9$ edges that
 lie in a $C_5$.
 
 [[problems/extremal_graph_theory/E0610/_index|E0610/]]: Asks for estimates of
-the clique transversal number of an $n$-vertex graph. Proved under the site's
-PROVED (LEAN) label, with the answer $n-\Theta(\sqrt{n\log n})$: the
-Joret–Micek–Reed–Smid clique-coloring bound gives the upper bound and Kim's
-triangle-free graphs the lower bound.
+the clique transversal number of an $n$-vertex graph. Proved under
+erdosproblems.com's PROVED (LEAN) label, with the answer $n-\Theta(\sqrt{n\log
+n})$: the Joret–Micek–Reed–Smid clique-coloring bound gives the upper bound and
+Kim's triangle-free graphs the lower bound.
 
 [[problems/extremal_graph_theory/E0611/_index|E0611/]]: Asks whether cliques of
 at least $cn$ vertices force a sublinear clique transversal $\tau$, and which
@@ -281,8 +281,8 @@ induced $K_{r+1}$ misses a color.
 [[problems/extremal_graph_theory/E0618/_index|E0618/]]: Asks whether every
 triangle-free graph with maximum degree $o(n^{1/2})$ can be given diameter $2$,
 still triangle-free, by adding $o(n^2)$ edges; proved by Alon. The page also
-records the catalog's notation and diameter qualifications and the earlier
-bounded-degree results.
+records the erdosproblems.com notation and diameter qualifications and the
+earlier bounded-degree results.
 
 [[problems/extremal_graph_theory/E0619/_index|E0619/]]: Asks whether there is a
 constant $c>0$ such that every connected triangle-free graph on $n$ vertices can
@@ -355,8 +355,8 @@ and one arXiv proof claim was withdrawn.
 
 [[problems/extremal_graph_theory/E0745/_index|E0745/]]: Asks for the size of the
 second largest component of the random graph on $n$ vertices with edge
-probability $1/n$. Aldous (1997) gives order $n^{2/3}$, while the site credits
-Komlós, Sulyok and Szemerédi's supercritical $\log n$ bound.
+probability $1/n$. Aldous (1997) gives order $n^{2/3}$, while erdosproblems.com
+credits Komlós, Sulyok and Szemerédi's supercritical $\log n$ bound.
 
 [[problems/extremal_graph_theory/E0746/_index|E0746/]]: Asks whether a uniform
 random graph on $n$ vertices with at least $(\tfrac12+\epsilon)n\log n$ edges is
@@ -457,8 +457,8 @@ differ by a factor of order $n$, and exact values are known only up to $n=3$.
 [[problems/extremal_graph_theory/E0904/_index|E0904/]]: Asks whether, for $n\ge
 r$, every graph with $n$ vertices and $m\ge t_r(n)$ edges, $t_r(n)$ the Turán
 number for $K_{r+1}$, has an $r$-clique with degree sum at least $2rm/n$. Proved
-by Bollobás and Nikiforov in 2005; the site's wording, with no range, fails
-below $r$ vertices.
+by Bollobás and Nikiforov in 2005; the erdosproblems.com wording, with no range,
+fails below $r$ vertices.
 
 [[problems/extremal_graph_theory/E0905/_index|E0905/]]: Asks whether every graph
 on $n$ vertices with more than $n^2/4$ edges has an edge in at least $n/6$
@@ -473,12 +473,12 @@ copies of $K_r$. This is Erdős's conjecture, proved by Hajnal and Szemerédi in
 [[problems/extremal_graph_theory/E0915/_index|E0915/]]: Asks whether a graph
 with $1+n(m-1)$ vertices and $1+n\binom{m}{2}$ edges has two vertices joined by
 $m$ disjoint paths. False for $m\ge5$ if the paths are vertex-disjoint, true for
-every $m$ if they are edge-disjoint; the site labeled it solved.
+every $m$ if they are edge-disjoint; Bloom's catalog labeled it solved.
 
 [[problems/extremal_graph_theory/E0916/_index|E0916/]]: Asks whether, for
 $n\ge4$, every graph with $n$ vertices and $2n-2$ edges has a cycle and another
 vertex adjacent to three of its vertices. Proved by Thomassen in 1974; the
-site's wording, with no range, fails at $n=1$.
+erdosproblems.com wording, with no range, fails at $n=1$.
 
 [[problems/extremal_graph_theory/E0926/_index|E0926/]]: Asks whether an
 $n$-vertex graph avoiding $H_k$ has $\ll_k n^{3/2}$ edges, where $H_k$ is a
@@ -556,7 +556,7 @@ non-planar subgraph of bounded size. Answered yes by Kostochka and Pyber in
 [[problems/extremal_graph_theory/E1019/_index|E1019/]]: Asks whether every graph
 on $n$ vertices with $\lfloor n^2/4\rfloor+\lfloor\frac{n+1}{2}\rfloor$ edges
 contains a saturated planar subgraph on more than $3$ vertices. Proved by
-Simonovits in a PhD thesis, as attested by Erdős and the site.
+Simonovits in a PhD thesis, as attested by Erdős and erdosproblems.com.
 
 [[problems/extremal_graph_theory/E1021/_index|E1021/]]: Asks whether, for every
 $k\ge3$, $\mathrm{ex}(n,G_k)\ll n^{3/2-c_k}$ for some $c_k>0$, where $G_k$ is
@@ -600,8 +600,8 @@ an independent set of size $g$.
 [[problems/extremal_graph_theory/E1077/_index|E1077/]]: Asks whether every graph
 on $n$ vertices with $n^{1+\alpha}$ edges has an almost-regular subgraph on
 $m>n^{1-\alpha}$ vertices with at least $\epsilon m^{1+\alpha}$ edges. It is
-false as written; on the site's account of a 2025 preprint, $n^\alpha$ is the
-right size.
+false as written; on erdosproblems.com's account of a 2025 preprint, $n^\alpha$
+is the right size.
 
 [[problems/extremal_graph_theory/E1078/_index|E1078/]]: Asks whether an
 $r$-partite graph with $n$ vertices in each part and minimum degree at least
@@ -617,8 +617,8 @@ strengthened by Bondy in 1983.
 [[problems/extremal_graph_theory/E1080/_index|E1080/]]: Asks whether some $c>0$
 makes every bipartite graph on $n$ vertices with a part of $\lfloor
 n^{2/3}\rfloor$ vertices and at least $cn$ edges contain a $C_6$. Disproved by
-the superlinear $C_6$-free constructions the site credits, whose papers are not
-held.
+the superlinear $C_6$-free constructions erdosproblems.com credits, whose papers
+are not held.
 
 [[problems/extremal_graph_theory/E1111/_index|E1111/]]: Asks whether bounded
 clique number and large chromatic number force two anticomplete vertex sets,
@@ -649,5 +649,5 @@ Turan-type extremal problems for graphs and hypergraphs, forbidden subgraphs and
 edge counts, cycles and girth, degree and subgraph-counting conditions,
 planarity, and structural questions such as the Erdos-Hajnal conjecture.
 
-Site tags routed here: combinatorics, cycles, graph theory, hypergraphs, number
-theory, planar graphs, turan number.
+erdosproblems.com tags routed here: combinatorics, cycles, graph theory,
+hypergraphs, number theory, planar graphs, turan number.

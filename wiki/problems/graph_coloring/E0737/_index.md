@@ -25,12 +25,12 @@ updated: 2026-10-08T01:29:59Z
 exist an edge $e$ such that, for all large $n$, $G$ contains a cycle of length
 $n$ containing $e$?
 
-**Status.** Proved. The site labeled the problem PROVED and credits Thomassen
-[Th83]. Its theorem gives, in any graph of uncountable chromatic number, an edge
-lying on a cycle of every sufficiently large length. The site attributes the
-question to Erdős, Hajnal and Shelah [EHS74]. They proved that such a graph
-contains odd cycles of every sufficiently large length. That result is
-[[problems/set_theory/E0594/_index|Problem 594]].
+**Status.** Proved. Bloom's catalog labeled the problem PROVED and credits
+Thomassen [Th83]. Its theorem gives, in any graph of uncountable chromatic
+number, an edge lying on a cycle of every sufficiently large length.
+erdosproblems.com attributes the question to Erdős, Hajnal and Shelah [EHS74].
+They proved that such a graph contains odd cycles of every sufficiently large
+length. That result is [[problems/set_theory/E0594/_index|Problem 594]].
 
 **Source.** [erdosproblems.com/737](https://www.erdosproblems.com/737), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #737,
@@ -48,10 +48,10 @@ https://www.erdosproblems.com/737.
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether a
-graph of chromatic number $\aleph_1$ has an edge $e$ lying on a cycle of length
-$n$ for every sufficiently large $n$. The standing is `solved`, `proved`,
-through
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether a graph of chromatic number $\aleph_1$ has an edge $e$ lying on a cycle
+of length $n$ for every sufficiently large $n$. The standing is `solved`,
+`proved`, through
 [[problems/graph_coloring/E0737/claims/1983_03_01_thomassen|Thomassen's theorem]]
 (Combinatorica 3 (1983)): a graph of uncountable chromatic number has an edge on
 cycles of every sufficiently large length, which answers the question yes. Erdős
@@ -61,19 +61,19 @@ as the simplest of the questions left open by his paper with Hajnal and Shelah
 ([[../library/graph_coloring/erdos_1974_general_properties_chromatic_numbers/_index|card]]),
 whose Theorem 3 gives, without a common edge, odd cycles of every sufficiently
 large length in any graph of uncountable chromatic number
-([[problems/set_theory/E0594/_index|Problem 594]]); the site attributes the
-question to that paper, whose text poses no such problem. Komjáth's 2025 survey
-of the Erdős–Hajnal problem list
+([[problems/set_theory/E0594/_index|Problem 594]]); erdosproblems.com attributes
+the question to that paper, whose text poses no such problem. Komjáth's 2025
+survey of the Erdős–Hajnal problem list
 ([[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|card]])
 records the weaker statement as its Problem 46, proved independently by Erdős,
 Hajnal and Shelah and by Thomassen.
 
-Search scope: the site's problem page and discussion thread (one comment, of
-30 September 2025, supplying the Thomassen reference), the Crossref record of
-Thomassen's paper, and the papers of Erdős (1981), of Erdős, Hajnal and
-Shelah, and of Komjáth (2025). Thomassen's paper is not held in the library;
-its statement follows the site's record and the paper's title. The community
-database records no formalization.
+Search scope: the erdosproblems.com problem page and discussion thread (one
+comment, of 30 September 2025, supplying the Thomassen reference), the Crossref
+record of Thomassen's paper, and the papers of Erdős (1981), of Erdős, Hajnal
+and Shelah, and of Komjáth (2025). Thomassen's paper is not held in the library;
+its statement follows the erdosproblems.com record and the paper's title. The
+community database records no formalization.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

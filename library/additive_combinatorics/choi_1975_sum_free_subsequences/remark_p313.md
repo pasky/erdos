@@ -5,7 +5,7 @@ desc: |
   The closing remark of Choi, Komlós and Szemerédi: iterating their
   lower-bound process would give f(n) > sqrt(n) w^k / k!, a proof they omit,
   and it is conceivable that f(n) > n^(1-epsilon) for every epsilon and all
-  large n, the sentence the site renders as the authors' conjecture.
+  large n, the sentence erdosproblems.com renders as the authors' conjecture.
 created: 2026-10-08T14:54:07Z
 updated: 2026-10-08T14:54:07Z
 ---
@@ -57,7 +57,7 @@ The lower-bound argument of the
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0790/_index|Problem 790]]: the
-  last sentence is what the site's commentary renders as the authors'
+  last sentence is what the erdosproblems.com commentary renders as the authors'
   "conjecture that $l(n)\geq n^{1-o(1)}$", the paper's $f(n)$ being the
   problem's $l(n)$. If true it would answer the problem's second displayed
   question, whether $l(n)<n^{1-c}$ for some $c>0$, in the negative. The

@@ -81,10 +81,10 @@ elements, and the one for $27$ is misprinted as given (the multiset and its
 negative have different element sums, so their triple sums cannot agree);
 for sets of distinct numbers, which the problem concerns, the two
 exceptions rest on the credit to Fomin and Izhboldin (1994) in the
-formal-conjectures statement file linked above. The site's commentary
+formal-conjectures statement file linked above. The erdosproblems.com commentary
 states the $k=3$ case for all $|A|>6$, without the two exceptions. Theorem
-3, the failure at $|A|=2k$, answers only the site's wording, which the
-modified Statement replaces.
+3, the failure at $|A|=2k$, answers only the erdosproblems.com wording, which
+the modified Statement replaces.
 
 **Depends on.** Nothing in this wiki.
 
@@ -93,13 +93,13 @@ no. 4, 847--856. The paper was received 16 May 1958 and issued December 1958.
 December 1958 is the Crossref record's date and the date of this page; the
 article's cover prints June 1958.
 
-No `reviewed` evidence is listed. The site's curator (T. F. Bloom) mentions
-Selfridge and Straus's cases in the problem page's commentary, without the $27$
-and $486$ caveat (erdosproblems.com/494, page last edited 14 October 2025). But
-the site's PROVED label settles the problem by crediting Gordon, Fraenkel and
-Straus, whose 1962 paper builds on this one and shares an author with it. The
-formal-conjectures statement file states the cases as solved variants, with the
-caveat and with `sorry` bodies.
+No `reviewed` evidence is listed. The erdosproblems.com curator (T. F. Bloom)
+mentions Selfridge and Straus's cases in the problem page's commentary, without
+the $27$ and $486$ caveat (erdosproblems.com/494, page last edited 14 October
+2025). But erdosproblems.com's PROVED label settles the problem by crediting
+Gordon, Fraenkel and Straus, whose 1962 paper builds on this one and shares an
+author with it. The formal-conjectures statement file states the cases as solved
+variants, with the caveat and with `sorry` bodies.
 
 Two Lean developments formalize parts of the result and are linked above.
 Neither was built by this corpus, so no `formalized` evidence is listed. Collin
@@ -119,5 +119,5 @@ The development `Erdos494.lean` in Boris Alexeev's repository was added
 2026-08-16, with Codex and GPT-5.6 Sol as formal authors ([file at a pinned
 commit](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos494.lean)).
 It also proves the $|A|=2k$ case of Theorem 3, as the formal-conjectures variant
-`card_eq_2k`. It concerns the site's wording only and is credited on the problem
-page.
+`card_eq_2k`. It concerns the erdosproblems.com wording only and is credited on
+the problem page.

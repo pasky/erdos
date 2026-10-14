@@ -45,10 +45,10 @@ $$
 \sqrt n\le f(n)\ll(n\log n)^{2/3}.
 $$
 
-The paper uses the half-open intervals $[2n,4n)$ and $[n,2n)$ where the
-site uses open ones; the two conventions differ by at most one element in
-each interval, as the problem page's Formulation records, so the asymptotic
-upper bound transfers unchanged and the lower bound up to an additive
+The paper uses the half-open intervals $[2n,4n)$ and $[n,2n)$ where
+erdosproblems.com uses open ones; the two conventions differ by at most one
+element in each interval, as the problem page's Formulation records, so the
+asymptotic upper bound transfers unchanged and the lower bound up to an additive
 constant. The proof of Theorem 2 takes a random $S\subseteq[2n,4n)$ of
 density $((\ln^2n)/n)^{1/3}$, shows that it meets the pairwise sums of every
 Sidon subset of $[n,2n)$ of size $\lceil2(n\ln n)^{1/3}\rceil$, and
@@ -62,8 +62,8 @@ result page
 **Covers.** The upper bound $f(n)\ll(n\log n)^{2/3}$, which improves
 [[problems/additive_combinatorics/E0788/claims/1971_12_01_choi|Choi's]]
 $n^{3/4}$, and the lower bound $f(n)\ge\sqrt n$ in the paper's half-open
-convention. Not covered: Choi's conjecture $f(n)\le n^{1/2+o(1)}$, the
-site's $n^{3/5+o(1)}$ route and the order of growth of $f(n)$.
+convention. Not covered: Choi's conjecture $f(n)\le n^{1/2+o(1)}$,
+erdosproblems.com's $n^{3/5+o(1)}$ route and the order of growth of $f(n)$.
 
 **Depends on.** No page of this wiki; Lemma 1 is the published theorem of
 Komlós, Sulyok and Szemerédi (Acta Math. Acad. Sci. Hungar. 26 (1975),
@@ -72,7 +72,7 @@ Komlós, Sulyok and Szemerédi (Acta Math. Acad. Sci. Hungar. 26 (1975),
 **Acceptance.** Refereed: the paper is the publisher's version of record in
 Colloquium Mathematicum. It was received 4 May 1999 and revised 1 December 1999.
 The Crossref record gives the year 2000 only, so this page is named by its first
-day. The site's curator, Thomas F. Bloom, credits the bound
+day. The erdosproblems.com curator, Thomas F. Bloom, credits the bound
 $f(n)\ll(n\log n)^{2/3}$ to Baltz, Schoen and Srivastav in the problem page's
 commentary (label OPEN, page last edited 26 January 2026). The problem is not
 marked settled there, so the credit is recorded here and is not listed as

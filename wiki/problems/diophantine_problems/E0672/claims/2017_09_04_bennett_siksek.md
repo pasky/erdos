@@ -54,6 +54,6 @@ smaller exponents, and lengths below $k_0$.
 
 **Acceptance.** Refereed: Annals of Mathematics (2) 191 (2020), no. 2. The
 Crossref record dates the issue to March 2020. The page is named by the arXiv
-posting of 4 September 2017. The site's commentary credits the theorem, but the
-site labeled the problem VERIFIABLE, an open label, so the commentary is not
-`reviewed` evidence.
+posting of 4 September 2017. The erdosproblems.com commentary credits the
+theorem, but Bloom's catalog labeled the problem VERIFIABLE, an open label, so
+the commentary is not `reviewed` evidence.

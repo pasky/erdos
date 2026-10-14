@@ -31,12 +31,13 @@ $$
 f^{(k_n)}(z) = 0\textrm{ for all }z\in S_n?
 $$
 
-**Status.** PROVED (LEAN). The site credits Barth and Schneider [BaSc72] with
-the affirmative answer. The claim page
+**Status.** PROVED (LEAN). erdosproblems.com credits Barth and Schneider
+[BaSc72] with the affirmative answer. The claim page
 [[problems/analysis/E0229/claims/1972_03_01_barth_schneider|Barth and Schneider
-1972]] records it, accepted on its refereed publication and the site's credit.
-The site's Lean qualification refers to Boris Alexeev's formalization of that
-solution. The formalization is linked from the claim page and is not built here.
+1972]] records it, accepted on its refereed publication and the
+erdosproblems.com credit. The erdosproblems.com Lean qualification refers to
+Boris Alexeev's formalization of that solution. The formalization is linked from
+the claim page and is not built here.
 
 **Source.** [erdosproblems.com/229](https://www.erdosproblems.com/229), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #229,
@@ -59,12 +60,13 @@ has not built it.
 
 ## Current assessment
 
-The site's formulation of 2026-09-04 asks, for a sequence of sets $S_n$ of
-complex numbers without finite limit points, for one transcendental entire
-function with, for each $n$, some derivative vanishing on all of $S_n$. Barth
-and Schneider's 1972 paper constructs such a function, with every derivative
-order positive, so the question is answered yes. The standing rests on the
-refereed paper and the site's credit, as the claim page records. The paper is
-not held in the library, so no proof is compiled or reviewed here, and the
-Lean development the site's label refers to has not been built or audited by
-this project. No status search beyond the site is recorded.
+The erdosproblems.com formulation of 2026-09-04 asks, for a sequence of sets
+$S_n$ of complex numbers without finite limit points, for one transcendental
+entire function with, for each $n$, some derivative vanishing on all of $S_n$.
+Barth and Schneider's 1972 paper constructs such a function, with every
+derivative order positive, so the question is answered yes. The standing rests
+on the refereed paper and the erdosproblems.com credit, as the claim page
+records. The paper is not held in the library, so no proof is compiled or
+reviewed here, and the Lean development the erdosproblems.com label refers to
+has not been built or audited by this project. No status search beyond
+erdosproblems.com is recorded.

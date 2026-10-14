@@ -5,8 +5,8 @@ desc: |
   The Erdős–Gallai–Tuza construction, by iterated substitution of a
   triangle-free graph with small independence number, of graphs on n
   vertices all of whose cliques have at least n^{c/log log n} vertices while
-  the clique-transversal number is still n − o(n); the source of the site's
-  lower bound k_c(n) ≥ n^{c'/log log n} on Problem 611.
+  the clique-transversal number is still n − o(n); the source of
+  erdosproblems.com's lower bound k_c(n) ≥ n^{c'/log log n} on Problem 611.
 created: 2026-09-19T07:40:00Z
 updated: 2026-10-07T20:53:41Z
 ---
@@ -70,7 +70,7 @@ $O(\sqrt k\log k)$ (reference [6]).
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0611/_index|Problem 611]]: the source of the
-  site's "$k_c(n)\ge n^{c'/\log\log n}$ for some $c'>0$": cliques of size
-  $n^{c/\log\log n}$ do not force $\tau(G)<(1-c)n$, since these graphs have
-  $\tau_C(G)\ge n-o(n)$.
+- [[../wiki/problems/extremal_graph_theory/E0611/_index|Problem 611]]: the
+  source of erdosproblems.com's "$k_c(n)\ge n^{c'/\log\log n}$ for some $c'>0$":
+  cliques of size $n^{c/\log\log n}$ do not force $\tau(G)<(1-c)n$, since these
+  graphs have $\tau_C(G)\ge n-o(n)$.

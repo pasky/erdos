@@ -82,5 +82,5 @@ cites this $9/7$ bound as the lower bound against which its $4/3$ upper bound
 stands.
 
 **Acceptance.** None documented. The note is not on arXiv and has no journal
-record. The site labeled the problem OPEN, and its page does not credit the
-result. No outside review is known. The claim is therefore claimed.
+record. Bloom's catalog labeled the problem OPEN, and its page does not credit
+the result. No outside review is known. The claim is therefore claimed.

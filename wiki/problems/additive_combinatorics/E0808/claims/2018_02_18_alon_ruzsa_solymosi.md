@@ -4,8 +4,8 @@ title: Alon, Ruzsa and Solymosi refute the graph sum-product conjecture
 desc: |
   Alon, Ruzsa and Solymosi (Publ. Mat. 2020) construct, for every $c\in(0,1)$,
   sets of $n$ integers with graphs of order $n^{1+c}$ edges along which the sums
-  and products number at most $n^{1+c-\delta}$. The paper is refereed and the
-  site credits it.
+  and products number at most $n^{1+c-\delta}$. The paper is refereed and
+  erdosproblems.com credits it.
 authors:
 - Noga Alon
 - Imre Ruzsa
@@ -56,13 +56,13 @@ below $|A|^{1+c'-\varepsilon}$ (an adjustment made here; the paper states
 that the theorem contradicts the conjecture, its Conjecture 2). Theorem 3 is the
 explicit case: a set of $m$ integers and a graph with
 $\Omega(m^{5/3}/\log^{1/3}m)$ edges along which sums and products together
-number $O((m\log m)^{4/3})$, the site's quantitative form. The constructions
-use rationals $uw/v$ with size and least-prime-factor conditions, joined so
-that products along the edges are small integers and sums share
+number $O((m\log m)^{4/3})$, erdosproblems.com's quantitative form. The
+constructions use rationals $uw/v$ with size and least-prime-factor conditions,
+joined so that products along the edges are small integers and sums share
 denominators, then cleared of denominators. The same paper proves the
-positive bound $\max(\lvert A+_GA\rvert,\lvert A\cdot_GA\rvert)\gg
-m^{3/2}n^{-7/4}$ for a graph with $m$ edges, which the site records. Library
-home
+positive bound
+$\max(\lvert A+_GA\rvert,\lvert A\cdot_GA\rvert)\gg m^{3/2}n^{-7/4}$ for a graph
+with $m$ edges, which erdosproblems.com records. Library home
 [[../library/additive_combinatorics/alon_2020_sums_products_ratios_along_edges_graph/_index|alon_2020_sums_products_ratios_along_edges_graph]]
 (Theorems 3 and 4 read at statement depth, the constructions not checked
 in this corpus).
@@ -73,9 +73,9 @@ in this corpus).
 doi:10.5565/publmat6412006 (Crossref record). The arXiv preprint 1802.06405 was
 submitted 18 February 2018, which names this page.
 
-Reviewed: the site's curator, Thomas Bloom, credits the disproof to Alon, Ruzsa
-and Solymosi in the problem page's commentary and labeled the problem DISPROVED
-(no last-edited date). The problem's discussion thread
-and proof-claim tab were empty. The community database lists the problem as
+Reviewed: the erdosproblems.com curator, Thomas Bloom, credits the disproof to
+Alon, Ruzsa and Solymosi in the problem page's commentary and labeled the
+problem DISPROVED (no last-edited date). The problem's discussion thread and
+proof-claim tab were empty. The community database lists the problem as
 disproved, with its entry last updated on 2025-08-31. Nothing here rests on a
 review by this project.

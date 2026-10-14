@@ -37,17 +37,17 @@ concern a sufficient condition for pancyclicity, not the minimum size.
 
 **In the problem's notation.** A pancyclic graph on $n$ vertices is a
 Hamiltonian cycle with chords, so with $h(n)=p(n)-n$ the least number of
-chords (the site's $h(n)$, and Griffin's $m(n)=p(n)$), the claim reads
+chords (erdosproblems.com's $h(n)$, and Griffin's $m(n)=p(n)$), the claim reads
 
 $$
 \log_2(n-1)-1\ \le\ h(n)\ \le\ \log_2n+H(n)+O(1)\qquad(n\ge3),
 $$
 
 where $H(n)$ is the number of times $\log_2$ must be applied to $n$ to
-bring it below $2$, an iterated logarithm that differs from the site's
+bring it below $2$, an iterated logarithm that differs from erdosproblems.com's
 $\log_*n$ and from Erdős's $L(n)$ by $O(1)$. These are the two bounds the
-site's commentary on Problem 1016 attributes to the paper, written there
-with $\log_*n$ in place of $H(n)$, and the two inequalities of
+erdosproblems.com commentary on Problem 1016 attributes to the paper, written
+there with $\log_*n$ in place of $H(n)$, and the two inequalities of
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/claim_1|Griffin 2013, Claim 1]],
 which restates them with $m(n)$ in place of $p(n)$. Filing observations, not
 review verdicts: both inequality signs are non-strict on the page image,
@@ -82,9 +82,9 @@ the Second Louisiana Conference on Combinatorics, Graph Theory and Computing
 bound is proved in three lines in
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/claim_1|Griffin 2013, Claim 1]],
 from Shi's bound $2^{k+1}-1$ on the number of cycles of a Hamiltonian graph
-with $k$ chords. For the upper bound the site attributes the first published
-proof to Chapter 4 of George, Khodkar and Wallis, *Pancyclic and bipancyclic
-graphs* (SpringerBriefs, 2016), filed at
+with $k$ chords. For the upper bound erdosproblems.com attributes the first
+published proof to Chapter 4 of George, Khodkar and Wallis, *Pancyclic and
+bipancyclic graphs* (SpringerBriefs, 2016), filed at
 [[extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/_index|george_khodkar_wallis_2016_minimal_pancyclicity]];
 that chapter prints no logarithmic bound.
 
@@ -96,10 +96,10 @@ None stated. The claim rests on nothing printed in the paper.
 
 - [[../wiki/problems/extremal_graph_theory/E1016/_index|Problem 1016]]: the origin of the
   problem's window $\log_2(n-1)-1\le h(n)\le\log_2n+\log_*n+O(1)$, in
-  Bondy's own words; the site's "A problem of Bondy [Bo71], who claimed a
-  proof (without details)" is this passage. The upper bound has no proof in
+  Bondy's own words; erdosproblems.com's "A problem of Bondy [Bo71], who claimed
+  a proof (without details)" is this passage. The upper bound has no proof in
   the paper, and no source filed in the library proves it in this form: the
-  chapter the site credits with its first published proof,
+  chapter erdosproblems.com credits with its first published proof,
   [[extremal_graph_theory/george_khodkar_wallis_2016_minimal_pancyclicity/theorem_19|George, Khodkar and Wallis 2016, Theorems 18 and 19]],
   prints no bound of the form $\log_2n+\log_*n+O(1)$. The question whether
   the lower bound can be raised to $\log_2n+\log_*n-O(1)$ is not touched by

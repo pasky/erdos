@@ -2,9 +2,10 @@
 name: problems/integer_sequences/E0455/claims/2026_10_06_satorunet
 title: Lower bound 0.92 for the normalized convex prime sequence
 desc: |
-  A write-up posted to the site's proof-claims tab on 6 October 2026 claims
-  $\liminf q_n/n^2\ge0.9200$ by a computer-certified residue argument, with
-  constraints on a counterexample. It leaves the limit question itself open.
+  A write-up posted to the erdosproblems.com proof-claims tab on 6 October 2026
+  claims $\liminf q_n/n^2\ge0.9200$ by a computer-certified residue argument,
+  with constraints on a counterexample. It leaves the limit question itself
+  open.
 authors: []
 status: claimed
 claim: proved
@@ -96,16 +97,16 @@ https://github.com/the-omega-institute/trureturing/issues/9775, which the
 problem page records without pages of their own. The certified computation
 was not reproduced here.
 
-**Claimant.** The site user satorunet; the write-up states that everything on
-the page was produced by AI systems, which the proof-claims tab names as
-Claude Opus 5.5 and Claude Fable 5.1 (Anthropic) and GPT-6-Astra via Codex
-(OpenAI), cross-checked between them with independent recomputation of the
+**Claimant.** erdosproblems.com user satorunet; the write-up states that
+everything on the page was produced by AI systems, which the proof-claims tab
+names as Claude Opus 5.5 and Claude Fable 5.1 (Anthropic) and GPT-6-Astra via
+Codex (OpenAI), cross-checked between them with independent recomputation of the
 certificates, and not refereed by a human expert, and asks that it be treated
 as a claim to be checked. The claim replaces one of 5 October 2026 by the same
 user whose headline bound was Lin's $0.8642$, withdrawn once Lin's prior work
 was found; the claim's notes of 6 October 2026 report a computation with the
 prime $23$ in progress.
 
-**Standing.** Claimed. The site's label was OPEN (page last edited 7 October
-2025; proof-claims thread accessed 2026-10-06), the claim's thread had no
-comments, and nothing outside the write-up records acceptance.
+**Standing.** Claimed. The erdosproblems.com label was OPEN (page last edited 7
+October 2025; proof-claims thread accessed 2026-10-06), the claim's thread had
+no comments, and nothing outside the write-up records acceptance.

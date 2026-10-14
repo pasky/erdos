@@ -55,11 +55,11 @@ $s$ chosen points of the removed class, and Proposition 2.5 checks that no
 four points of $A$ are collinear and that the ordinary-line graph stays
 bipartite. Together with
 the upper bound $f_{r,k}(n)\leq(1-\tfrac1{r-1})\tfrac{n^2}2+1$ from Turán's
-theorem, which the site's commentary records, the threshold is of order $n^2$
-for every fixed $r\geq3$ and $k\geq4$; its exact value is not determined.
-The remaining parameters are degenerate, as Section 2.1 of the paper states:
-for $k=2$ no valid set exists, for $k=3$ every line determined by the set is
-ordinary and the graph is complete, and for $r=2$ with $k\geq4$ the
+theorem, which the erdosproblems.com commentary records, the threshold is of
+order $n^2$ for every fixed $r\geq3$ and $k\geq4$; its exact value is not
+determined. The remaining parameters are degenerate, as Section 2.1 of the paper
+states: for $k=2$ no valid set exists, for $k=3$ every line determined by the
+set is ordinary and the graph is complete, and for $r=2$ with $k\geq4$ the
 Sylvester-Gallai theorem supplies an ordinary line and so the pair. The
 problem's discussion notes that the lines spanned
 by the $r$ points must be ordinary with respect to the whole set, which is how
@@ -69,19 +69,19 @@ the theorem reads the question.
 Mehtaab Sawhney, Mark Sellke and Gregory Valiant, Short proofs in
 combinatorics, probability and number theory II, arXiv:2604.06609, posted on
 2026-04-08. The paper states that each of its proofs is due to an internal
-model at OpenAI; the site credits the bound to that model through the paper.
-Erdős posed the question in his 1984 research-problem note
+model at OpenAI; erdosproblems.com credits the bound to that model through the
+paper. Erdős posed the question in his 1984 research-problem note
 ([[../library/discrete_geometry/erdos_1984_research_problems/_index|card]],
 p. 102), where he conjectured the $o(n^2)$ bound and suggested a linear one.
 
-**Acceptance.** Thomas Bloom, the site's curator, marked the problem disproved
-and credits this bound on the problem's page at erdosproblems.com. The page was
-last edited 2026-04-09, and its label and credit showed on 2026-10-06. That
-credit is the `reviewed` evidence. The paper is a preprint, and no refereed
+**Acceptance.** Thomas Bloom, the erdosproblems.com curator, marked the problem
+disproved and credits this bound on the problem's page at erdosproblems.com. The
+page was last edited 2026-04-09, and its label and credit showed on 2026-10-06.
+That credit is the `reviewed` evidence. The paper is a preprint, and no refereed
 version was found on 2026-10-06. No Lean proof is recorded. The claim is
 therefore neither `refereed` nor `formalized`.
 
 **What remains.** The order of $f_{r,k}(n)$ is settled at $n^2$ for
 $r\geq3$ and $k\geq4$, between $n^2/12-O(n)$ and
-$(1-\tfrac1{r-1})\tfrac{n^2}2+1$; the constant is open. The site points to
-[[problems/discrete_geometry/E0209/_index|Problem 209]] as related.
+$(1-\tfrac1{r-1})\tfrac{n^2}2+1$; the constant is open. erdosproblems.com points
+to [[problems/discrete_geometry/E0209/_index|Problem 209]] as related.

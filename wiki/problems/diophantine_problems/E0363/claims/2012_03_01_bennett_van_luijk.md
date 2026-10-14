@@ -54,9 +54,9 @@ $D$ times a square, and induct on $r$. The authors note that their techniques
 appear unlikely to work for blocks of length six or more.
 
 **Acceptance.** The result appeared in a refereed journal in 2012, which is the
-`refereed` evidence. The site's curator, Thomas Bloom, credits Bennett and Van
-Luijk in the problem's commentary with the blocks-of-five families for every
-$n\geq 5$. That curator credit is the `reviewed` evidence. The disproofs with
-blocks of four are
+`refereed` evidence. The erdosproblems.com curator, Thomas Bloom, credits
+Bennett and Van Luijk in the problem's commentary with the blocks-of-five
+families for every $n\geq 5$. That curator credit is the `reviewed` evidence.
+The disproofs with blocks of four are
 [[problems/diophantine_problems/E0363/claims/2005_01_01_ulas|Ulas's]] and
 [[problems/diophantine_problems/E0363/claims/2007_01_01_bauer_bennett|Bauer and Bennett's]].

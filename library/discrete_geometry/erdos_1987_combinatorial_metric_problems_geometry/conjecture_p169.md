@@ -54,8 +54,7 @@ proof; Sah's construction in the proceedings of the same meeting.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E1069/_index|Problem 1069]]: the
-  conjecture is the site's statement, with "less than $cn^2/k^3$" written
-  as $\ll n^2/k^3$, and with the print's range $k\le n^{1/2}$ that has no
-  lower end; the problem page records the corrected range
-  $2\le k\le n^{1/2}$ and the proof by Szemerédi and Trotter that Erdős
-  reports here.
+  conjecture is the erdosproblems.com statement, with "less than $cn^2/k^3$"
+  written as $\ll n^2/k^3$, and with the print's range $k\le n^{1/2}$ that has
+  no lower end; the problem page records the corrected range $2\le k\le n^{1/2}$
+  and the proof by Szemerédi and Trotter that Erdős reports here.

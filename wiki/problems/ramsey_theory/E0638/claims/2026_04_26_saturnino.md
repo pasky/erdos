@@ -2,10 +2,10 @@
 name: problems/ramsey_theory/E0638/claims/2026_04_26_saturnino
 title: Saturnino's hereditary counterexample, a forum-posted note
 desc: |
-  Main Theorem 1 of Saturnino's AI-assisted note, posted to the site's thread on
-  26 April 2026, states that some hereditary class of finite graphs forces
-  monochromatic triangles for every finite number of colors but for no infinite
-  cardinal.
+  Main Theorem 1 of Saturnino's AI-assisted note, posted to the
+  erdosproblems.com thread on 26 April 2026, states that some hereditary class
+  of finite graphs forces monochromatic triangles for every finite number of
+  colors but for no infinite cardinal.
 authors:
 - Brian Saturnino
 status: claimed
@@ -35,8 +35,8 @@ $\kappa$ is there a graph $G$, all of whose finite subgraphs lie in
 $S_{\mathrm{ord}}$, that forces a monochromatic triangle under every
 coloring with $\kappa$ colors; and there is a class $S_{\mathrm{ind}}$ with
 the same two properties for induced subgraphs. This is Main Theorem 1 of
-Saturnino's note, in the revised version posted to the site's thread on the
-evening of 26 April 2026, which the library's
+Saturnino's note, in the revised version posted to the erdosproblems.com thread
+on the evening of 26 April 2026, which the library's
 [[../library/ramsey_theory/saturnino_2026_counterexample_hereditary_triangle_ramsey_compactness_problem/_index|source card]]
 pages. The route, as the card records it: a graph forces a monochromatic
 triangle under $\kappa$ colors exactly when its triangle hypergraph has
@@ -49,8 +49,8 @@ whose finite subgraphs all lie in the class has a triangle hypergraph of
 finite chromatic number, by the de Bruijn--Erdős compactness lemma or by
 finiteness.
 
-**Submission note.** Posted to the site's forum by Brian Saturnino (account
-InfiniteInsights) on 26 April 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Brian Saturnino
+(account InfiniteInsights) on 26 April 2026:
 
 > Hello, I would like to submit a potential solution to the problem.
 > https://pdfhost.io/v/kQ6nBNKNY8_Erdos_Problem_638 I have tried to get it
@@ -65,8 +65,8 @@ class $S_{\mathrm{ind}}$ answers the induced-subgraph variant, which the
 problem page records in its Formulation and does not count.
 
 **Standing.** Claimed. The note is a forum posting: its author, under a
-pseudonymous account, posted it to the site's thread on 26 April 2026 after
-running it through Aristotle AI, an automated proof system; a commenter
+pseudonymous account, posted it to the erdosproblems.com thread on 26 April 2026
+after running it through Aristotle AI, an automated proof system; a commenter
 reported the same day that a standard check had found one minor mathematical
 issue and that the problem's intended interpretation might still be unclear;
 the author revised the note that evening, stating the hereditary scope in
@@ -76,7 +76,7 @@ compactness and diagonal part of the ordinary-subgraph counterexample and
 leaves the finite avoidance principle and the block-sequence existence lemma
 as explicit `sorry`s, its initial draft produced with the same system. No
 refereed publication, arXiv version, independent mathematical review or
-complete formalization was found on 2026-09-18, the site's label and
+complete formalization was found on 2026-09-18, the erdosproblems.com label and
 commentary do not mention the note, and its proof-claim tab is empty, so no
 evidence kind is listed. The source card checks the note's statements and
 not its proofs; nothing is independently reviewed. What would change the
@@ -84,8 +84,8 @@ standing: an independent review or refereed publication of the note, a
 complete formalization, a second proof, or a counter-argument in the thread
 or the literature.
 
-**Postings.** The site's discussion thread: the note's first version on 26
-April 2026 (the first posting, which dates this page), the revised version
+**Postings.** The erdosproblems.com discussion thread: the note's first version
+on 26 April 2026 (the first posting, which dates this page), the revised version
 the same evening, the version the source card cites, and the Lean project
 link on 27 April 2026. The Lean project is the GitHub repository linked
 above, pinned to its last commit of 27 April 2026 (its four commits all date

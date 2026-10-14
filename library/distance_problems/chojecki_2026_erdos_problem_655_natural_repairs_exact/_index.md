@@ -2,8 +2,8 @@
 name: distance_problems/chojecki_2026_erdos_problem_655_natural_repairs_exact
 desc: |
   Shows the regular n-gon is exactly extremal under the local circle condition
-  of Erdős problem 655, so the site's wording, and every repair that still
-  admits the regular n-gon, is false.
+  of Erdős problem 655, so the erdosproblems.com wording, and every repair that
+  still admits the regular n-gon, is false.
 license: reserved
 created: 2026-09-04T09:21:15Z
 updated: 2026-10-08T17:41:31Z
@@ -54,9 +54,9 @@ the points. Corollary 3.2 and Remark 3.3 (p. 4) give the same minima over the
 sets in $\mathcal A_2$ of any family that contains the regular $n$-gon: a repair
 that adds to $\mathcal A_2$ only "no three collinear" or only "convex position"
 still admits the regular $n$-gon, so it cannot force the $(1+c)n/2$ distances
-the site's statement asks for. The proofs are a pigeonhole lower bound
-(Lemma 2.1, p. 2: $d_X(x)\ge\lceil (n-1)/m\rceil$ for $X\in\mathcal A_m$) and
-the chord lengths $2\sin(\pi m/n)$ of the regular polygon; Remark 2.2 (p. 3)
+the erdosproblems.com statement asks for. The proofs are a pigeonhole lower
+bound (Lemma 2.1, p. 2: $d_X(x)\ge\lceil (n-1)/m\rceil$ for $X\in\mathcal A_m$)
+and the chord lengths $2\sin(\pi m/n)$ of the regular polygon; Remark 2.2 (p. 3)
 notes that sets with no four points cocircular lie in $\mathcal A_3$, which
 gives the trivial $\lceil (n-1)/3\rceil$ bound.
 
@@ -84,17 +84,16 @@ Source: <https://www.ulam.ai/research/erdos655-overview.pdf>.
 **Bears on.** [[../wiki/problems/distance_problems/E0655/_index|#655]]:
 Theorem 3.1 (p. 3) shows that under the problem's hypothesis the least number of
 distinct distances is exactly $\lfloor n/2\rfloor$ for every $n\ge1$, so the
-statement as the site prints it is false, and Corollary 3.2 with Remark 3.3
-(p. 4) shows the same when only no three collinear or only convex position is
-added. The note lists as open the version with no four points cocircular added
-and the pinned count in place of $D(X)$, which it calls the most faithful repair
-(pp. 8--9). [[../wiki/problems/distance_problems/E0654/_index|#654]]: Remark 2.2
-(p. 3) gives the trivial bound $f(n)\ge\lceil (n-1)/3\rceil$ for sets with no
-four points cocircular; the note proves nothing beyond it. It records as open
-the improvement to $(1+c)n/3$ for sets in general position, which also have no
-three points on a line, and says the #654 page records the same question
-(p. 8).
-[[../wiki/problems/distance_problems/E0098/_index|#98]]: Remark 2.2 gives
+statement as erdosproblems.com prints it is false, and Corollary 3.2 with Remark
+3.3 (p. 4) shows the same when only no three collinear or only convex position
+is added. The note lists as open the version with no four points cocircular
+added and the pinned count in place of $D(X)$, which it calls the most faithful
+repair (pp. 8--9). [[../wiki/problems/distance_problems/E0654/_index|#654]]:
+Remark 2.2 (p. 3) gives the trivial bound $f(n)\ge\lceil (n-1)/3\rceil$ for sets
+with no four points cocircular; the note proves nothing beyond it. It records as
+open the improvement to $(1+c)n/3$ for sets in general position, which also have
+no three points on a line, and says the #654 page records the same question (p.
+8). [[../wiki/problems/distance_problems/E0098/_index|#98]]: Remark 2.2 gives
 $h(n)\ge\lceil (n-1)/3\rceil$ for sets in general position (p. 7); the note
 records whether $h(n)/n\to\infty$ as open (p. 8).
 [[../wiki/problems/distance_problems/E1082/_index|#1082]]: Proposition 5.1

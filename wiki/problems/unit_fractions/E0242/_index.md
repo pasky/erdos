@@ -28,9 +28,9 @@ $$
 \frac{4}{n} = \frac{1}{x}+\frac{1}{y}+\frac{1}{z}.
 $$
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 7 May
-2026). This is the Erdős--Straus conjecture. The literature usually states it
-for positive integers $x,y,z$ that need not be distinct and for $n\ge2$; the
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited 7
+May 2026). This is the Erdős--Straus conjecture. The literature usually states
+it for positive integers $x,y,z$ that need not be distinct and for $n\ge2$; the
 two forms agree for $n>2$. The survey [BlEl22] (p. 237) records Takenouchi's
 observation that a sum of $k$ unit fractions with repeated terms is also a sum
 of $k$ distinct unit fractions: a repeated term is replaced through
@@ -41,29 +41,29 @@ fewer than three terms is first split by $1/y=1/(y+1)+1/(y(y+1))$. The one
 sum the substitutions leave fixed, $\frac12+\frac12=1$, is the case $n=4$,
 where $1=\frac12+\frac13+\frac16$. The case $n=2$ is excluded because
 $4/2=2$ exceeds $1+1/2+1/3$. It suffices to prove the statement for prime
-$n$, since a solution for $p$ scales to one for every multiple of $p$ (site
-commentary; [ElTa13], p. 3). The earliest statement in the library is
-Erdős's 1950 paper
+$n$, since a solution for $p$ scales to one for every multiple of $p$
+(erdosproblems.com commentary; [ElTa13], p. 3). The earliest statement in the
+library is Erdős's 1950 paper
 ([[../library/unit_fractions/erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine/conjecture_p195|p. 195]]):
 together with Straus he conjectures that $4/b$ is a sum of at most three
 distinct unit fractions for every $b>4$, and Straus had verified this for
 $4<b<5000$.
 
-**Status.** Labeled falsifiable on the site: the label was FALSIFIABLE (page
-last edited 7 May 2026, accessed 2026-09-18). The site explained this label as
-open but refutable by one finite counterexample. The standing derived from the
-claim pages is claimed, claim proved. Three dated manuscripts claim the whole
-conjecture: Alomari's preprint of February 2023
+**Status.** Labeled falsifiable on erdosproblems.com: the label was FALSIFIABLE
+(page last edited 7 May 2026, accessed 2026-09-18). erdosproblems.com explained
+this label as open but refutable by one finite counterexample. The standing
+derived from the claim pages is claimed, claim proved. Three dated manuscripts
+claim the whole conjecture: Alomari's preprint of February 2023
 ([[problems/unit_fractions/E0242/claims/2023_02_06_alomari|Alomari 2023]]),
 Dyachenko's arXiv preprint of 7 November 2025
 ([[problems/unit_fractions/E0242/claims/2025_11_07_dyachenko|Dyachenko 2025]])
 and Bradford's arXiv preprint of 12 February 2026
 ([[problems/unit_fractions/E0242/claims/2026_02_12_bradford|Bradford 2026]]).
-None of them is refereed, accepted by anyone or submitted to the site's
-proof-claim tab, and all are pending. The one claim on the tab is Brian Akaka's
-AI-assisted lower bound of September 2026 on the number of solutions for almost
-all primes. It settles the conjecture for no $n$ and has no claim page (see
-Forum and AI-assisted items).
+None of them is refereed, accepted by anyone or submitted to the
+erdosproblems.com proof-claim tab, and all are pending. The one claim on the tab
+is Brian Akaka's AI-assisted lower bound of September 2026 on the number of
+solutions for almost all primes. It settles the conjecture for no $n$ and has no
+claim page (see Forum and AI-assisted items).
 
 Two refereed partial results settle infinitely many $n$ and are accepted partial
 claims. They are Obláth's case where $n+1$ has a prime factor $\equiv3\pmod4$
@@ -78,31 +78,31 @@ obstruction results settle no $n$. No proof and no counterexample was found in
 the search whose scope the Current assessment records.
 
 **Source.** [erdosproblems.com/242](https://www.erdosproblems.com/242),
-accessed 2026-09-18: the problem page (FALSIFIABLE, explained by the site as
-open but refutable by a finite counterexample; last edited 7 May 2026; source
-keys [Er50c], [Er61], [Er79], [ErGr80], [Va99, 1.13]; additional thanks to
-Alfaiz and Bryce Orloski), its discussion thread (18 comments shown, 9 August
-2025 to 13 February 2026; four further replies under a "Show 4 more comments"
-control are not recorded here) and its proof-claim tab with one partial claim
-(submitted 16 September 2026). Cite as: T. F. Bloom, Erdős Problem #242,
-https://www.erdosproblems.com/242, accessed 2026-09-18.
+accessed 2026-09-18: the problem page (FALSIFIABLE, explained by
+erdosproblems.com as open but refutable by a finite counterexample; last edited
+7 May 2026; source keys [Er50c], [Er61], [Er79], [ErGr80], [Va99, 1.13];
+additional thanks to Alfaiz and Bryce Orloski), its discussion thread (18
+comments shown, 9 August 2025 to 13 February 2026; four further replies under a
+"Show 4 more comments" control are not recorded here) and its proof-claim tab
+with one partial claim (submitted 16 September 2026). Cite as: T. F. Bloom,
+Erdős Problem #242, https://www.erdosproblems.com/242, accessed 2026-09-18.
 
 **References.**
 
 - [Er50c] Erdős, P., Az $1/x_1+\cdots+1/x_n=a/b$ egyenlet egész számú
   megoldásairól. Mat. Lapok 1 (1950), 192--210; the conjecture on printed
-  p. 195, the English summary on p. 210. The site's source line carries the
-  key; its reference list on the page omits it. Library home:
+  p. 195, the English summary on p. 210. The erdosproblems.com source line
+  carries the key; its reference list on the page omits it. Library home:
   [[../library/unit_fractions/erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine/_index|erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine]].
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
-  28, Université de Genève (1980), p. 44 (the site gives no page).
+  28, Université de Genève (1980), p. 44 (erdosproblems.com gives no page).
   Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Er61] Erdős, P., Some unsolved problems. Magyar Tud. Akad. Mat. Kutató
   Int. Közl. 6 (1961), 221--254, and [Er79] Erdős, P., Some unconventional
-  problems in number theory. Math. Mag. 52 (1979), 67--70: the site's source
-  keys; not held.
+  problems in number theory. Math. Mag. 52 (1979), 67--70: the erdosproblems.com
+  source keys; not held.
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999),
   item 1.13, printed pp. 2--3: "(Erdős, Straus) Prove that for every $n>1$
@@ -178,7 +178,7 @@ A075245--A075248 and A287116. The file was not built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; FALSIFIABLE; last edited 7 May 2026. The commentary names the
 conjecture and traces its first appearance in print to Obláth's paper [Ob50],
 submitted in 1948, where it is attributed to Erdős; notes that the greedy
@@ -233,7 +233,7 @@ Erdős, asked in 1996, said $4$ is "the first interesting case".
   two explicit identities, necessity by a gcd argument) is recorded in outline
   only, not verified here. The survey also lists the classes modulo $840$ not
   covered by the simplest identities as $1,49,121,169,289,361$ (p. 239), where
-  the site, [MiDu25] (p. 2) and the thread's quotation of Mordell give
+  erdosproblems.com, [MiDu25] (p. 2) and the thread's quotation of Mordell give
   $1,121,169,289,361,529$; $49$ is a multiple of $7$ and
   $4/(7k)=1/(2k)+1/(14k)$, so the survey's list has a misprint; Mordell's own
   list ([Mo69], not held) remains second-hand, and [Te71] (p. 213) prints the
@@ -290,8 +290,8 @@ Erdős, asked in 1996, said $4$ is "the first interesting case".
   unit fractions is recorded as the survey's restatement
   ([[../library/unit_fractions/bloom_2022_egyptian_fractions/theorem_3|Theorem 3]],
   p. 240). Obláth's almost-all result and Mordell's classes are second-hand:
-  the site's commentary, [PoWe25] pp. 1--2 ("An early result of Obláth [11] is
-  that $n$ has this property if $n+1$ is divisible by a prime
+  the erdosproblems.com commentary, [PoWe25] pp. 1--2 ("An early result of
+  Obláth [11] is that $n$ has this property if $n+1$ is divisible by a prime
   $p\equiv3\pmod4$. This implies that asymptotically all $n$ have the
   Erdős--Straus property") and [ElTa13] p. 4. Obláth's result appeared in a
   journal and is an accepted partial claim,
@@ -319,8 +319,8 @@ Erdős, asked in 1996, said $4$ is "the first interesting case".
   is an accepted partial claim,
   [[problems/unit_fractions/E0242/claims/1970_09_23_terzi|Terzi 1971]]; the
   classes are not closed under multiplication, so a composite $n$ outside them
-  may have all its prime factors inside them, and the site's reading, every
-  $n$ outside the classes, says more than the paper.
+  may have all its prime factors inside them, and erdosproblems.com's reading,
+  every $n$ outside the classes, says more than the paper.
 - *Counting solutions.* With $f(n)$ the number of positive triples
   (repetition and order allowed),
   [[../library/unit_fractions/elsholtz_2013_counting_number_solutions_erdos_straus/theorem_1_1|Theorem 1.1 of Elsholtz and Tao]]
@@ -363,9 +363,9 @@ distinct-ordered count by bounded factors. OEIS A073101 (accessed 2026-09-18)
 counts solutions with $0<x<y<z$ and begins $0,0,1,1,2,5,5,6,4,9$, consistent
 with the statement's $n>2$.
 
-**Forum and AI-assisted items (leads with provenance, not status).** The
-site states on the page that it does not verify the comments or claims
-that appear there.
+**Forum and AI-assisted items (leads with provenance, not status).**
+erdosproblems.com states on the page that it does not verify the comments or
+claims that appear there.
 
 - Proof-claim tab: one partial claim, Brian Akaka's AI-assisted lower bound
   of at least $c(\log p)^3$ Type II solutions (solutions $x<y<z$ with
@@ -413,7 +413,7 @@ that appear there.
   (repository `leochlon/erdstrau`) claiming sorry-free proofs for several
   residue classes modulo $420$ and $840$ and a reduction of the conjecture
   to one construction; another commenter links its file for the class
-  $529\pmod{840}$ and the site's owner concludes that the file proves
+  $529\pmod{840}$ and the erdosproblems.com owner concludes that the file proves
   nothing, being a finite check with an appeal to periodicity, while noting
   that a genuine formalization of the known congruence cases would be
   valuable.
@@ -426,13 +426,14 @@ that appear there.
   [[problems/unit_fractions/E0242/claims/2023_02_06_alomari|Alomari 2023]], and
   which a reply calls very mistaken; B. Ghermoul's arXiv:2508.07367 (10
   August 2025), which claims an almost complete proof of Sierpiński's conjecture
-  on $5/a$, not this problem; the commenter strongly doubts both, and the site's
-  owner adds that many purported proofs of the conjecture have appeared over the
-  years, none of which the site's owner found credible; Li Delang's bound
-  $cN/(\log N)^k$ for the number of exceptions (a 1981 J. Number Theory paper,
-  not held); the Vaughan and Pomerance--Weingartner papers; Mordell's residues
-  as squares. Discussion, 1 February 2026: the site's owner notes that the case
-  of almost all prime denominators follows from Vaughan's result.
+  on $5/a$, not this problem; the commenter strongly doubts both, and the
+  erdosproblems.com owner adds that many purported proofs of the conjecture have
+  appeared over the years, none of which the erdosproblems.com owner found
+  credible; Li Delang's bound $cN/(\log N)^k$ for the number of exceptions (a
+  1981 J. Number Theory paper, not held); the Vaughan and Pomerance--Weingartner
+  papers; Mordell's residues as squares. Discussion, 1 February 2026: the
+  erdosproblems.com owner notes that the case of almost all prime denominators
+  follows from Vaughan's result.
 - arXiv leads (abstracts only, API search for "Erdős--Straus" in
   abstracts, 30 records): 2026 preprints on the conjecture by Jiang
   (2609.09204, counting Type I and II solutions, "We do not address the
@@ -466,8 +467,8 @@ that appear there.
 **Search scope.** The status rests on these routes;
 none found a proof, a counterexample or an accepted resolution.
 
-- The site: problem page, discussion thread, proof-claim tab; the community
-  database record; formal-conjectures `242.lean` at the pinned commit.
+- erdosproblems.com: problem page, discussion thread, proof-claim tab; the
+  community database record; formal-conjectures `242.lean` at the pinned commit.
 - The primary sources, at statement level: [Er50c] (pp. 195 and 210),
   [ErGr80] (p. 44), [BlEl22] (pp. 239--240), [BrLo20] (pp. 1--3), [ElTa13]
   (pp. 2--7), [ElPl20] (pp. 2--4), [MiDu25] (pp. 1--3), [PoWe25]

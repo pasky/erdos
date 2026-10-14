@@ -21,9 +21,9 @@ its conjecture (1) on p. 97, $\max A(x)=[\tfrac13x]+1$ for finite sets with
 property P, is attained by the $[\tfrac13x]+1$ largest integers not
 exceeding $x$ (p. 98), and that set violates the condition as soon as the
 two larger terms may coincide (for $x=3n$ it contains $2n$ and $3n$ with
-$2n\mid3n+3n$). The site's Problem 12 follows this reading ("no distinct
-$a,b,c\in A$"); the finite Problem 13 and Bedert's theorem use the reading
-in which the two larger terms may coincide.
+$2n\mid3n+3n$). erdosproblems.com's Problem 12 follows this reading ("no
+distinct $a,b,c\in A$"); the finite Problem 13 and Bedert's theorem use the
+reading in which the two larger terms may coincide.
 
 **Source.** P. Erdős and A. Sárközi, *On the divisibility properties of
 sequences of integers*, Proc. London Math. Soc. (3) 21 (1970), 97--101;
@@ -61,7 +61,8 @@ None outside the paper.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0012/_index|Problem 12]]: the first result on the
-  infinite question, quoted by the site as "who proved that $A$ must have
-  density $0$"; the best-possible remark is the site's "essentially best
-  possible" construction. The paper's conjectures on the same page are on
-  the [[integer_sequences/erdos_1970_divisibility_properties_sequences_integers/conjecture_p98|conjecture page]].
+  infinite question, quoted by erdosproblems.com as "who proved that $A$ must
+  have density $0$"; the best-possible remark is erdosproblems.com's
+  "essentially best possible" construction. The paper's conjectures on the same
+  page are on the
+  [[integer_sequences/erdos_1970_divisibility_properties_sequences_integers/conjecture_p98|conjecture page]].

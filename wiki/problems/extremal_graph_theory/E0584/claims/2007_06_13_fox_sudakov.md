@@ -54,6 +54,6 @@ clause, so the question whether some $c>0$ makes both clauses hold stays open.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: the paper is a publication in the Journal of
-Combinatorial Theory, Series B. The site's commentary credits the paper with
-the second statement for $\delta>n^{-1/5}$ while labeling the problem OPEN,
-which is commentary on an open problem and not reviewed evidence.
+Combinatorial Theory, Series B. The erdosproblems.com commentary credits the
+paper with the second statement for $\delta>n^{-1/5}$ while labeling the problem
+OPEN, which is commentary on an open problem and not reviewed evidence.

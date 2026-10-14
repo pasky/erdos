@@ -68,9 +68,9 @@ path on at least n^{s/r} vertices whose edges use at most s colors. This
 answers Loh's question in part, for colorings without rainbow triangles.
 
 The paper does not mention problem 1026, the largest sum of a monotone
-subsequence. The site calls the weighted Erdos-Szekeres bound implicit in it.
-The paper's nearest step is Claim 3.5 (p. 5), in the proof of Theorem 3.1:
-over a Gallai partition, the product of the chromatic numbers of two
+subsequence. erdosproblems.com calls the weighted Erdos-Szekeres bound implicit
+in it. The paper's nearest step is Claim 3.5 (p. 5), in the proof of Theorem
+3.1: over a Gallai partition, the product of the chromatic numbers of two
 few-colored subgraphs is at least a sum over the parts of the products of the
 parts' chromatic numbers. That is the shape of the weighting step in the
 weighted Erdos-Szekeres theorem of Tidor, Wang and Yang, but the paper proves
@@ -80,8 +80,8 @@ Source: <https://arxiv.org/abs/1612.00471v1>.
 
 **Bears on.**
 
-- [[../wiki/problems/set_systems/E1026/_index|#1026]]: the site calls the
-  weighted Erdos-Szekeres bound implicit in this paper. The paper proves its
+- [[../wiki/problems/set_systems/E1026/_index|#1026]]: erdosproblems.com calls
+  the weighted Erdos-Szekeres bound implicit in this paper. The paper proves its
   weighting step only for chromatic numbers over a Gallai partition
   (Claim 3.5, p. 5) and its Erdos-Szekeres generalization only for path lengths
   (Theorem 1.6, p. 3); it states no bound on the sum of a monotone

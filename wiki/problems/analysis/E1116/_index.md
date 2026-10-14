@@ -29,8 +29,8 @@ $$
 \limsup_{r\to \infty}\frac{n(r,a)}{n(r,b)}=\infty?
 $$
 
-**Formulation.** The site's wording follows Problem 1.25 of Hayman's 1974
-list. That problem asks for a meromorphic function with
+**Formulation.** The erdosproblems.com wording follows Problem 1.25 of Hayman's
+1974 list. That problem asks for a meromorphic function with
 $\limsup_{r\to\infty}n(r,a)/n(r,b)=\infty$ and
 $\liminf_{r\to\infty}n(r,a)/n(r,b)=0$ for every pair of distinct values,
 noting that either condition for all pairs implies the other. It adds that the
@@ -40,10 +40,10 @@ target. It takes the entire question, with finite $a\ne b$, as a variant; an
 entire $f$ has $n(r,\infty)=0$. Toppila's Theorem 2 answers the target, and
 Toppila's Theorem 3 and Gol'dberg's theorem answer the variant.
 
-**Status.** Labeled SOLVED on the site. The answer is yes. The derived standing
-is solved, proved rather than answered, because the question asks whether such a
-function exists and Toppila's accepted full claim proves that one does.
-Toppila's 1976 Theorems 2 and 3 give a meromorphic function and an entire
+**Status.** Labeled SOLVED on erdosproblems.com. The answer is yes. The derived
+standing is solved, proved rather than answered, because the question asks
+whether such a function exists and Toppila's accepted full claim proves that one
+does. Toppila's 1976 Theorems 2 and 3 give a meromorphic function and an entire
 function with $\limsup_{r\to\infty}n(r,a)/n(r,b)=\infty$ for every pair of
 distinct values, with finite values in the entire case
 ([[problems/analysis/E1116/claims/1976_01_01_toppila|Toppila's claim page]]).
@@ -52,7 +52,7 @@ limit infinite and the lower limit zero for every pair of distinct complex
 values
 ([[../library/analysis/goldberg_1978_counting_functions_sequences_points_entire_functions/theorem|Theorem]]),
 which answers the entire-function variant that the Formulation sets aside; it
-was not submitted to the site as a claim, so it has no claim page.
+was not submitted to erdosproblems.com as a claim, so it has no claim page.
 
 **Source.** [erdosproblems.com/1116](https://www.erdosproblems.com/1116),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1116,

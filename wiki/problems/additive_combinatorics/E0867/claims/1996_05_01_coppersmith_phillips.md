@@ -53,10 +53,9 @@ prints no count of the removed boundary elements. The same paper's
 bounds every such set by $\tfrac23N-\lfloor N/512\rfloor+3\log_4N-\tfrac12$
 members, so the maximal density lies in
 $[\tfrac{13}{24},\tfrac23-\tfrac1{512}]$; its exact value is the paper's
-Open Question 1 and is not the site's question. Freud's note reports the
-paper's upper bound as
-$\tfrac23-\tfrac1{3584}$, a figure the published paper does not print. Both
-theorems are stated as the
+Open Question 1 and is not the erdosproblems.com question. Freud's note reports
+the paper's upper bound as $\tfrac23-\tfrac1{3584}$, a figure the published
+paper does not print. Both theorems are stated as the
 [[../library/additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/_index|source card]]
 records them; the proof of Theorem 2.1 is followed but not independently
 checked.
@@ -69,9 +68,9 @@ the paper's own.
 173--177, doi:10.1137/S0895480193244139. The paper was received in February
 1993, accepted in revised form in April 1995, and appeared in the May 1996 issue
 (Crossref record, 2026-10-07). The page's day is filled to the first of the
-month. Reviewed: the site's curator, Thomas Bloom, credits [CoPh96] with the
-best known bounds on the maximal size of such a set. The thread comment of
-2025-09-02 that led to the disproved label cited the paper, by its DOI, for the
-better lower bound $\tfrac{13}{24}$ and the upper bound $\tfrac23-\tfrac1{512}$.
-The site's label and its Lean qualifier rest on Freud's construction, which is
-recorded on its own claim page.
+month. Reviewed: the erdosproblems.com curator, Thomas Bloom, credits [CoPh96]
+with the best known bounds on the maximal size of such a set. The thread comment
+of 2025-09-02 that led to the disproved label cited the paper, by its DOI, for
+the better lower bound $\tfrac{13}{24}$ and the upper bound
+$\tfrac23-\tfrac1{512}$. The erdosproblems.com label and its Lean qualifier rest
+on Freud's construction, which is recorded on its own claim page.

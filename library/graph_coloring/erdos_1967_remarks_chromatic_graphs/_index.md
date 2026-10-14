@@ -20,7 +20,7 @@ layer carries no copyright or license line; the publisher's record
 (https://www.impan.pl/get/doi/10.4064/cm-16-1-253-256, read 2026-10-02) labels
 the download "Free download under CC-BY license", a Creative Commons Attribution
 license with no version named; the site footer "Copyright © 2026 by IMPAN. All
-rights reserved." speaks for the site, not the article.
+rights reserved." speaks for erdosproblems.com, not the article.
 
 Erdős studies how large the ratio H(G)/K(G) of chromatic number to clique number
 can be for a graph on n vertices. The theorem proves the lower bound

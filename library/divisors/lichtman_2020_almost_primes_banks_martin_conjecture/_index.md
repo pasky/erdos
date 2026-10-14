@@ -66,8 +66,8 @@ Nothing here is independently reviewed.
 not state the problem. Its
 [[divisors/lichtman_2020_almost_primes_banks_martin_conjecture/theorem_2_2|Theorem 2.2]] gives primitive sets N_k, with least element
 2^k, whose sums f(N_k) tend to 1, the lower-bound example the problem's page
-reports from the site's commentary; the paper proves nothing about the upper
-bound the problem asks for.
+reports from the erdosproblems.com commentary; the paper proves nothing about
+the upper bound the problem asks for.
 
 **Results.**
 

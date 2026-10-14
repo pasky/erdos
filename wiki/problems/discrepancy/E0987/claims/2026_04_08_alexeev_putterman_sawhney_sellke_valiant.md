@@ -5,7 +5,7 @@ desc: |
   Alexeev, Putterman, Sawhney, Sellke and Valiant's 2026 theorem, due to an
   internal OpenAI model, says that some sequence has
   $A_k\ll\sqrt{k\log 2k}=o(k)$ for all $k$. It answers the second question and
-  is accepted by the site's curator.
+  is accepted by the erdosproblems.com curator.
 authors:
 - Boris Alexeev
 - Moe Putterman
@@ -102,11 +102,12 @@ the preprint and derives `erdos_987.parts.ii` from it. It also proves
 Tao's formalization. It is not built or audited here, so it adds no evidence
 kind.
 
-**Acceptance.** Reviewed: a thread comment of 2026-04-09 noted that the site
-still listed the second question as open. The site's curator, Thomas Bloom,
-changed the problem's status to proved the same day. In the commentary the
-curator credits the result to an internal OpenAI model through this preprint.
-The community database lists the problem's informal status as proved. Tao
-posted a detailed exposition of the construction in the thread that day. Not
-refereed: the preprint has one arXiv version, and no journal publication is
-recorded. Not formalized: no Lean checked in this corpus proves the theorem.
+**Acceptance.** Reviewed: a thread comment of 2026-04-09 noted that
+erdosproblems.com still listed the second question as open. The
+erdosproblems.com curator, Thomas Bloom, changed the problem's status to proved
+the same day. In the commentary the curator credits the result to an internal
+OpenAI model through this preprint. The community database lists the problem's
+informal status as proved. Tao posted a detailed exposition of the construction
+in the thread that day. Not refereed: the preprint has one arXiv version, and no
+journal publication is recorded. Not formalized: no Lean checked in this corpus
+proves the theorem.

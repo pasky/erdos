@@ -34,29 +34,29 @@ $$
 \max_{x\in [-1,1]}\lvert P(x)\rvert >C.
 $$
 
-**Status.** The site labeled the problem OPEN (page last edited 31 December
-2025; proof-claims tab accessed 2026-10-06). This page records the claims below
-without adopting them, and the standing in the frontmatter follows from them.
-Two manuscripts claim the assertion in full, and neither is reviewed or
-refereed.
+**Status.** Bloom's catalog labeled the problem OPEN (page last edited 31
+December 2025; proof-claims tab accessed 2026-10-06). This page records the
+claims below without adopting them, and the standing in the frontmatter follows
+from them. Two manuscripts claim the assertion in full, and neither is reviewed
+or refereed.
 
-The first is a note posted in the site's thread by Przemek Chojecki on 29
-April 2026. It was produced with GPT-5.5 Pro, as Chojecki wrote there, and is
-hosted at ulam.ai. It derives a finite obstruction from Beurling's
+The first is a note posted in the erdosproblems.com thread by Przemek Chojecki
+on 29 April 2026. It was produced with GPT-5.5 Pro, as Chojecki wrote there, and
+is hosted at ulam.ai. It derives a finite obstruction from Beurling's
 interpolation-density theorem for the Bernstein space and plants it on short
 blocks of nodes ([[problems/polynomials/E1133/claims/2026_04_29_chojecki|claim
-page]]). The second is the manuscript of Jia-Qi Yang, submitted to the site's
-proof-claims tab on 2026-09-13 (using GPT-6, as the tab writes it). It claims to
-prove the obstruction for sign data at any pointwise tolerance, with $\epsilon$
-of optimal exponential order in $C$. It also claims the sharp coefficient
-$\pi/2$ on Chebyshev–Lobatto grids
+page]]). The second is the manuscript of Jia-Qi Yang, submitted to the
+erdosproblems.com proof-claims tab on 2026-09-13 (using GPT-6, as the tab writes
+it). It claims to prove the obstruction for sign data at any pointwise
+tolerance, with $\epsilon$ of optimal exponential order in $C$. It also claims
+the sharp coefficient $\pi/2$ on Chebyshev–Lobatto grids
 ([[problems/polynomials/E1133/claims/2026_09_13_yang|claim page]]).
 
-The site's commentary credits Erdős with a weaker statement. He gives it as
-Theorem 4 of [Er67, p. 72] and says he had stated it without proof in an earlier
-paper. It says that for every $C>0$ there is $\epsilon>0$ such that, for large
-$n$ and any $m=\lfloor(1+\epsilon)n\rfloor$ nodes in $[-1,1]$, some polynomial
-$P$ of degree $n$ has $\lvert P(x_i)\rvert\le1$ at every node and
+The erdosproblems.com commentary credits Erdős with a weaker statement. He gives
+it as Theorem 4 of [Er67, p. 72] and says he had stated it without proof in an
+earlier paper. It says that for every $C>0$ there is $\epsilon>0$ such that, for
+large $n$ and any $m=\lfloor(1+\epsilon)n\rfloor$ nodes in $[-1,1]$, some
+polynomial $P$ of degree $n$ has $\lvert P(x_i)\rvert\le1$ at every node and
 $\max\lvert P\rvert>C$. The assertion of the problem would imply it. Erdős
 remarks in [Er67] that he could not prove the assertion even for $m=n$.
 
@@ -82,11 +82,11 @@ as formalized since 2026-06-08 and the problem as unformalized otherwise.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 31 December 2025).** For
-every $C>0$ there is $\epsilon>0$ such that, for all large $n$ and every $n$
-nodes in $[-1,1]$, some labels in $[-1,1]$ force every polynomial of degree
-below $(1+\epsilon)n$ that matches at least $(1-\epsilon)n$ of them to
-exceed $C$ in absolute value somewhere on $[-1,1]$. OPEN. The site's
+**The question (erdosproblems.com formulation, page last edited 31 December
+2025).** For every $C>0$ there is $\epsilon>0$ such that, for all large $n$ and
+every $n$ nodes in $[-1,1]$, some labels in $[-1,1]$ force every polynomial of
+degree below $(1+\epsilon)n$ that matches at least $(1-\epsilon)n$ of them to
+exceed $C$ in absolute value somewhere on $[-1,1]$. OPEN. The erdosproblems.com
 commentary credits Erdős with the weaker statement, Theorem 4 of [Er67, p.
 72], which he says he had stated without proof in an earlier paper, with
 $m=\lfloor(1+\epsilon)n\rfloor$ nodes and a polynomial of degree $n$ bounded
@@ -97,12 +97,12 @@ $C$.
 **Pending claims.** Two full claims, neither reviewed nor refereed, and
 neither adopted.
 [[problems/polynomials/E1133/claims/2026_04_29_chojecki|Chojecki 2026]]: a
-note posted in the site's thread on 29 April 2026, produced with GPT-5.5 Pro
-as the poster wrote, which derives from Beurling's interpolation-density
-theorem for the Bernstein space a finite forbidden label pattern on short
-blocks of nodes and plants it on more than $\epsilon n$ blocks after the
-substitution $x=\cos\theta$; it gives no rate for $\epsilon$ in $C$, and a
-same-day reply reporting a tool-assisted check is not a review.
+note posted in the erdosproblems.com thread on 29 April 2026, produced with
+GPT-5.5 Pro as the poster wrote, which derives from Beurling's
+interpolation-density theorem for the Bernstein space a finite forbidden label
+pattern on short blocks of nodes and plants it on more than $\epsilon n$ blocks
+after the substitution $x=\cos\theta$; it gives no rate for $\epsilon$ in $C$,
+and a same-day reply reporting a tool-assisted check is not a review.
 [[problems/polynomials/E1133/claims/2026_09_13_yang|Yang 2026]]: a
 manuscript submitted to the proof-claims tab on 2026-09-13, using GPT-6 as
 the tab discloses, and posted the same day as arXiv:2609.14769, which claims
@@ -117,14 +117,14 @@ derived standing is `claimed` with the claim value `proved`. Neither proof
 is compiled or reviewed in this wiki.
 
 **Formalization.** The formal-conjectures file linked above states the problem
-and a weaker variant without proofs and names no formal proof. The catalog's
-commit of 8 October 2026 changes the statement's category from research open
-to research solved and its answer from `sorry` to `True`, citing Theorem 2.1
-of Yang's arXiv preprint; this is a catalog label change, not a formal proof,
-a review or an acceptance, and Yang's claim stays `claimed`. No Lean
-development of either claim is known.
+and a weaker variant without proofs and names no formal proof. The
+formal-conjectures commit of 8 October 2026 changes the statement's category
+from research open to research solved and its answer from `sorry` to `True`,
+citing Theorem 2.1 of Yang's arXiv preprint; this is a catalog label change, not
+a formal proof, a review or an acceptance, and Yang's claim stays `claimed`. No
+Lean development of either claim is known.
 
-**Search scope.** The site's problem page, its thread (three posts by
+**Search scope.** The erdosproblems.com problem page, its thread (three posts by
 2026-10-07, of 29 April and 13 September 2026), and its proof-claims tab with
 Yang's claim; the community database at teorth/erdosproblems; the
 formal-conjectures file at the pinned commit; the note at ulam.ai through

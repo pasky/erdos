@@ -29,7 +29,7 @@ $$
 a_1p_1=a_2p_2=a_3p_3?
 $$
 
-**Formulation.** The site's wording of 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (the page shows no
 last-edited date). The three primes are distinct, which
 forces the three $a_i$ to be distinct (if $a_1=a_2$ then $p_1=p_2$). The
 question asks whether, for every $\epsilon>0$, every set of at least
@@ -39,33 +39,32 @@ $\epsilon$ without a triple, for infinitely many $N$, answers it in the
 negative. In Erdős's 1973 wording the question is whether for $k>cn$ there
 is always an $m$ with at least three solutions of $pa_i=m$, $p$ prime,
 $a_i\in A$; he notes that a positive answer would give three $a$'s with
-pairwise the same least common multiple, the question of Problem 536. The
-site cites [Er73] as its only source.
+pairwise the same least common multiple, the question of Problem 536.
+erdosproblems.com cites [Er73] as its only source.
 
-**Status.** The site's label was DISPROVED (LEAN). The standing derives from the
-claim page
+**Status.** The erdosproblems.com label was DISPROVED (LEAN). The standing
+derives from the claim page
 [[problems/integer_sequences/E0537/claims/1973_01_01_ruzsa|Ruzsa's construction]],
-accepted on the site's acceptance of the construction, so the problem is solved,
-disproved. The status-defining source is Erdős's 1973 survey, printed p. 124,
-which reports a construction of I. Ruzsa. The squarefree integers
+accepted on erdosproblems.com's acceptance of the construction, so the problem
+is solved, disproved. The status-defining source is Erdős's 1973 survey, printed
+p. 124, which reports a construction of I. Ruzsa. The squarefree integers
 $q_1\cdots q_r$ whose prime factors satisfy $q_{i+1}>2q_i$ have positive
 density. For their intersection with $(n/2,n)$, the equation $pa_i=m$ has at
-most two solutions for every $m$. The site's commentary reproduces the two-line
-argument, checked here. The 1973 chapter is a contribution to an edited
-proceedings volume, and no record found documents its refereeing. So the chapter
-is the source, not acceptance evidence. The external Lean formalization,
+most two solutions for every $m$. The erdosproblems.com commentary reproduces
+the two-line argument, checked here. The 1973 chapter is a contribution to an
+edited proceedings volume, and no record found documents its refereeing. So the
+chapter is the source, not acceptance evidence. The external Lean formalization,
 inspected statically at a pinned revision (below), is recorded on the claim page
-and is not acceptance evidence. No dispute was found. The (LEAN) suffix is a
-catalog label. Nothing was built or kernel-checked here.
+and is not acceptance evidence. No dispute was found on 2026-09-18. The (LEAN)
+suffix is a catalog label. Nothing was built or kernel-checked here.
 
 **Source.** [erdosproblems.com/537](https://www.erdosproblems.com/537),
-accessed 2026-09-18: the problem page (DISPROVED (LEAN), the site's label
-for a negative answer whose proof has been verified in Lean; no last-edited
-date shown; source key [Er73]; commentary citing
-Problem 536; a thanks line naming one contributor), its three-comment
-discussion thread (7 February 2026) and its empty proof-claim tab. Cite as:
-T. F. Bloom, Erdős Problem #537, https://www.erdosproblems.com/537, accessed
-2026-09-18.
+accessed 2026-09-18: the problem page (DISPROVED (LEAN), the erdosproblems.com
+label for a negative answer whose proof has been verified in Lean; no
+last-edited date shown; source key [Er73]; commentary citing Problem 536; a
+thanks line naming one contributor), its three-comment discussion thread (7
+February 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
+Problem #537, https://www.erdosproblems.com/537, accessed 2026-09-18.
 
 **References.**
 
@@ -81,23 +80,23 @@ T. F. Bloom, Erdős Problem #537, https://www.erdosproblems.com/537, accessed
   [`src/v4.29.1/ErdosProblems/Erdos537.lean`](https://github.com/plby/lean-proofs/blob/1d7b3f00780b85ed0462e79a1cd5650ee9055655/src/v4.29.1/ErdosProblems/Erdos537.lean)
   (30 June 2026); not a library source.
 
-**Formalization.** The site's (LEAN) suffix is a catalog label; see
+**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label; see
 "Formalization and the Lean label" below for what was inspected. The file
 [`ErdosProblems/537.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/537.lean)
 of formal-conjectures (main on 2026-09-18) declares
 `erdos_537 : answer(False) ↔ ∀ ε : ℝ, 0 < ε → ∀ᶠ N : ℕ in atTop, ∀ A ⊆ Finset.Icc 1 N, (A.card : ℝ) ≥ ε * N → ∃ a₁ ∈ A, ∃ a₂ ∈ A, ∃ a₃ ∈ A, ∃ p₁ p₂ p₃ : ℕ, p₁.Prime ∧ p₂.Prime ∧ p₃.Prime ∧ p₁ ≠ p₂ ∧ p₁ ≠ p₃ ∧ p₂ ≠ p₃ ∧ a₁ * p₁ = a₂ * p₂ ∧ a₂ * p₂ = a₃ * p₃`
 under `category research solved`, with proof `sorry` and a `formal_proof`
 attribute naming the external file above; its docstring reproduces the
-site's commentary. The community database (fetched 2026-09-18) records
-the problem disproved with Lean since 6 February 2026, `formal_status` Lean
-since the same date, the statement formalized since 3 August 2026 and no
-formal-proof URL. The site's page marks the
+erdosproblems.com commentary. The community database (fetched 2026-09-18)
+records the problem disproved with Lean since 6 February 2026, `formal_status`
+Lean since the same date, the statement formalized since 3 August 2026 and no
+formal-proof URL. The erdosproblems.com page marks the
 statement as formalized. Nothing was built or kernel-checked here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; DISPROVED (LEAN), the site's label for a negative answer whose
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED (LEAN), the erdosproblems.com label for a negative answer whose
 proof has been verified in Lean; no last-edited date. The commentary,
 paraphrased here: it notes that a yes answer would settle Problem 536, and
 it presents Ruzsa's construction, as Erdős reports it, as the disproof,
@@ -137,17 +136,17 @@ $p_2$ and $p_3$ divide $m$ and differ from $p_1$, both divide $a_1$; being
 distinct prime factors of a number of the form (4.4), with $p_2<p_3$ say,
 they satisfy $p_3>2p_2$ (the chain condition composes along the sorted
 prime factors). But $p_2a_2=p_3a_3$ gives $p_3/p_2=a_2/a_3\in(1,2)$ because
-$N/2<a_3<a_2<N$; a contradiction. This is the site's argument and the
+$N/2<a_3<a_2<N$; a contradiction. This is erdosproblems.com's argument and the
 contradiction step was checked here; it is elementary. The positive density
 of the set (4.4) is asserted by Erdős ("it is easy to see") and is proved in
 the Lean development below from Chebyshev's bound. Read depth: claims
 checked for the passage; the argument is a two-step
-deduction recorded above, not a proof reconstruction of a paper. The site's
-answer to Problem 536 remains open: Ruzsa's set has at most two solutions of
-$pa=m$, so it excludes triples with equal pairwise least common multiples of
-that special shape only.
+deduction recorded above, not a proof reconstruction of a paper.
+erdosproblems.com's answer to Problem 536 remains open: Ruzsa's set has at most
+two solutions of $pa=m$, so it excludes triples with equal pairwise least common
+multiples of that special shape only.
 
-**Formalization and the Lean label.** The site's (LEAN) suffix is a
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
 catalog label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos537.lean` in `plby/lean-proofs` at its
@@ -174,11 +173,11 @@ independently audited here, no bridging statement exists, and no local
 kernel credit is claimed. The community database records
 `formal_status` Lean and no formal-proof URL.
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 dispute of the construction, a published account by Ruzsa, or a second
 source.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database
   record.
 - GitHub API: the pinned revision of `plby/lean-proofs` (its date) and
@@ -190,7 +189,7 @@ source.
 - The primary source at the page cited: [Er73] printed p. 124.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: no paper by
-Ruzsa on the construction is cited by the site or by [Er73]; the
+Ruzsa on the construction is cited by erdosproblems.com or by [Er73]; the
 construction is known here only through Erdős's report.
 
 **Remaining gaps.** (1) The status rests on Erdős's published report of an

@@ -43,7 +43,7 @@ edges whose every triangle has degree sum at most $1.463878\,n$, below
 $2(\sqrt3-1)n\approx1.46410\,n$. The publication is the write-up *Optimized
 density argument for Erdős 1033*, three pages, author line Wouter CvB,
 dated 27 July 2026, hosted on the author's GitHub Pages site and linked
-from the author's thread comment of the same day. The site's public
+from the author's thread comment of the same day. The GitHub Pages site's public
 repository holds four uploads of the file, from 27 July 2026 (14:21 UTC) to
 28 July 2026 (02:38 UTC); the version described here is the last, which is
 the file served on 2026-10-07 and the first `preprint` link, pinned to its
@@ -77,9 +77,10 @@ butterfly graph. The write-up adds that blow-ups of several other graphs,
 among them every graph on at most $8$ vertices, gave nothing better (the
 thread comment says every connected graph on at most $7$ vertices). The
 write-up credits the butterfly blow-up itself, with the bound $1.46393$, to
-the account rickyc and ChatGPT on the site's thread.
+the account rickyc and ChatGPT on the erdosproblems.com thread.
 
-**Submission note.** Posted to the site's forum by Wouter CvB on 27 July 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Wouter CvB on 27
+July 2026:
 
 > Hi, the densities in your nice construction, a blow-up of the butterfly graph,
 > can be slightly optimized. With further AI assistance to work out the details,
@@ -113,11 +114,11 @@ the posts and the write-up name them; no chat transcript is cited.
 
 **Standing.** Claimed. Neither the write-up's sketch nor the thread's
 constructions were checked here, and on 2026-09-18 the routes in the problem
-page's search scope showed no paper or preprint beyond the write-up; the site
-had not adopted the claim (its statement and commentary are unchanged since 3
-April 2026, and its proof-claim tab is empty), and the community database
-records the problem as open. The thread's separate reports of 1 and 7 August
-2026 (the account RealBelgian) that Fan's lower bound improves by flag algebra
-to about $1.45016$ and then to about $1.4525$, with a note to follow, are an
-improvement of a bound, not an answer to either question, and are recorded on
-the problem page as a lead.
+page's search scope showed no paper or preprint beyond the write-up;
+erdosproblems.com had not adopted the claim (its statement and commentary are
+unchanged since 3 April 2026, and its proof-claim tab is empty), and the
+community database records the problem as open. The thread's separate reports of
+1 and 7 August 2026 (the account RealBelgian) that Fan's lower bound improves by
+flag algebra to about $1.45016$ and then to about $1.4525$, with a note to
+follow, are an improvement of a bound, not an answer to either question, and are
+recorded on the problem page as a lead.

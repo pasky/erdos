@@ -59,16 +59,16 @@ least 2.
 
 Source: <http://math.colgate.edu/~integers/vol26.html>.
 
-**Bears on.** [[../wiki/problems/integer_sequences/E0709/_index|#709]]: the site's
-commentary deduces the lower bound f(n) >> log n / log log n for that problem
-from Theorem 1, and a comment of 15 March 2026 in the problem's discussion
-thread obtains it by restricting to the set {2, ..., n+1}; the deduction is the
-site's;
+**Bears on.** [[../wiki/problems/integer_sequences/E0709/_index|#709]]: the
+erdosproblems.com commentary deduces the lower bound f(n) >> log n / log log n
+for that problem from Theorem 1, and a comment of 15 March 2026 in the problem's
+discussion thread obtains it by restricting to the set {2, ..., n+1}; the
+deduction is erdosproblems.com's;
 [[../wiki/problems/integer_sequences/E0711/_index|#711]]: Theorem 1 (p. 1) answers the
 problem's second question, max_m (f(n,m) - f(n,n)) -> infinity, in
-quantitative form; the site's f(n,m) uses the open interval (m, m+f(n,m)),
-one more than the paper's half-open convention, and the difference is the
-same in both.
+quantitative form; erdosproblems.com's f(n,m) uses the open interval (m,
+m+f(n,m)), one more than the paper's half-open convention, and the difference is
+the same in both.
 
 **Results.**
 

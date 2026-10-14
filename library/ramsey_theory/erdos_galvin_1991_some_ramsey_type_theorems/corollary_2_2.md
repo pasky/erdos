@@ -58,4 +58,5 @@ gives the corollary with $c=c(r,k+1)$.
   The case $r=2$ (two colors among $k$ on a set with at least $c\log n$
   points below $n$ for infinitely many $n$) is the input to
   [[ramsey_theory/erdos_galvin_1991_some_ramsey_type_theorems/theorem_4_3|Theorem 4.3]],
-  the interval-sums result the site quotes, as the problem page records.
+  the interval-sums result erdosproblems.com quotes, as the problem page
+  records.

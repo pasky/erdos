@@ -16,7 +16,7 @@ updated: 2026-10-08T01:29:58Z
 
 P. 3, Section 3 ("Further directions"). There the note quotes the following
 passage of Erdős from the problem's original source, its reference
-[2, p. 344] (the site's [Er93]):
+[2, p. 344] (erdosproblems.com's [Er93]):
 
 "In a forthcoming paper of Faudree and myself, the following stronger
 conjecture is stated: In every $G(n;\lfloor n^2/4\rfloor+1)$ there is a
@@ -46,7 +46,7 @@ The quotation is given as the note prints it. Compared with the page image of
 [Er93], Chapter V, problem 4, p. 344 (the copy named on
 [[extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|its card]]),
 the wording is Erdős's, including "at least $\frac n2$ and other vertices"
-and "$t>\frac n2-o(1)$", which the site renders as $t>(\frac12-o(1))n$.
+and "$t>\frac n2-o(1)$", which erdosproblems.com renders as $t>(\frac12-o(1))n$.
 Apart from commas, the note writes $\lfloor n^2/4\rfloor$ for Erdős's
 $[\frac{n^2}4]$, adds the word "with" before $t$, and omits the passage's
 last sentence, that the answer may differ when $G$ has no $K_4$. The
@@ -58,7 +58,7 @@ on p. 344 and which the "book of size $n/6$" sentence invokes.
 <http://staff.ustc.edu.cn/~jiema/Erdos-1034.pdf> (PDF metadata 21 October
 2025); Section 3 on p. 3, read on the page image; the note's reference [2] is
 P. Erdős, Some of my favorite solved and unsolved problems in graph theory,
-Quaestiones Math. (1993), 333--350, the site's Er93. The edition is
+Quaestiones Math. (1993), 333--350, erdosproblems.com's Er93. The edition is
 identified in the
 [[extremal_graph_theory/ma_2025_erdos_problem_1034/_index|source digest]].
 
@@ -89,7 +89,7 @@ of the note; the book theorem for graphs with more than $n^2/4$ edges
 
 - [[../wiki/problems/extremal_graph_theory/E1034/_index|Problem 1034]]: the note's
   quotation of the origin [Er93, p. 344], which is read first-hand on its own
-  card, with the site's quotation "perhaps this conjecture is a bit too
+  card, with erdosproblems.com's quotation "perhaps this conjecture is a bit too
   optimistic", the definition of the general threshold $h(n)$ and its
   recorded bounds, with the limit $h(n)/n$ open.
 - [[../wiki/problems/extremal_graph_theory/E0905/_index|Problem 905]]: the lower bound

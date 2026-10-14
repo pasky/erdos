@@ -31,16 +31,17 @@ $$
 
 such that $a_1!a_2! \mid n!2^n3^n\cdots p_r^n$?
 
-**Formulation.** The source [ErGr80] leaves the quantifier on $n$ open; the site
-reads the problem as asking for infinitely many $n$, by comparison with Problems
-728 and 729, and that reading is the statement above and the target of the
-standing. The reading with all sufficiently large $n$ is a variant this page
-sets aside, claimed false in the thread; see the Current assessment.
+**Formulation.** The source [ErGr80] leaves the quantifier on $n$ open;
+erdosproblems.com reads the problem as asking for infinitely many $n$, by
+comparison with Problems 728 and 729, and that reading is the statement above
+and the target of the standing. The reading with all sufficiently large $n$ is a
+variant this page sets aside, claimed false in the thread; see the Current
+assessment.
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
-edited 12 January 2026). The standing in the frontmatter derives from the claim
-pages. The site credits a proof by Barreto and Leeham, working with ChatGPT,
-recorded on
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN)
+(page last edited 12 January 2026). The standing in the frontmatter derives from
+the claim pages. erdosproblems.com credits a proof by Barreto and Leeham,
+working with ChatGPT, recorded on
 [[problems/factorials_binomials/E0401/claims/2026_01_11_barreto_price|its claim page]].
 The Lean qualifier refers to the Aristotle-generated formalization of that proof
 in Boris Alexeev's repository, which this corpus has not built. A second route
@@ -53,7 +54,7 @@ poster's write-up of Problem 728. There is no refereed write-up.
 **Source.** [erdosproblems.com/401](https://www.erdosproblems.com/401), accessed
 2026-09-04 and, with its discussion thread, the community database, the
 formal-conjectures statement file and the two Lean files, 2026-10-07; its
-proof-claims list was empty. The site cites the problem from
+proof-claims list was empty. erdosproblems.com cites the problem from
 p. 78 of Erdős and Graham's 1980 problem book. Cite as: T. F. Bloom, Erdős
 Problem #401, https://www.erdosproblems.com/401.
 
@@ -79,9 +80,9 @@ This corpus has built neither.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 12 January 2026): with
-$P_r$ the product of the first $r$ primes, is there $f(r)\to\infty$ such that
-infinitely many $n$ admit $a_1,a_2$ with $a_1+a_2>n+f(r)\log n$ and
+The question, as erdosproblems.com states it (page last edited 12 January 2026):
+with $P_r$ the product of the first $r$ primes, is there $f(r)\to\infty$ such
+that infinitely many $n$ admit $a_1,a_2$ with $a_1+a_2>n+f(r)\log n$ and
 $a_1!a_2!\mid n!P_r^n$? The answer is yes.
 
 The two readings. Erdős and Graham wrote the problem without fixing whether the
@@ -89,10 +90,10 @@ inequality should hold for infinitely many $n$ or for all large $n$. Nat
 Sothanaphan claimed in the thread (10 January 2026, with ChatGPT) that it fails
 for all large $n$: for $r\ge2$ and $n=p_{r+1}^k-1$ the divisibility forces
 $a_1+a_2\le n+2p_{r+1}$, so no $f(r)\to\infty$ can work there. The argument is
-unreviewed and not checked here. The site's curator confirmed in the thread (11
-January 2026) that the reading with infinitely many $n$ is the intended one, and
-the formal-conjectures statement encodes it. The claimed refutation of the other
-reading answers a variant, and
+unreviewed and not checked here. The erdosproblems.com curator confirmed in the
+thread (11 January 2026) that the reading with infinitely many $n$ is the
+intended one, and the formal-conjectures statement encodes it. The claimed
+refutation of the other reading answers a variant, and
 [[problems/factorials_binomials/E0401/claims/2026_01_10_sothanaphan|its claim page]]
 records it as rejected.
 
@@ -104,11 +105,11 @@ carries; the explicit $f(r)$ of the Lean file grows like $p_{r+1}/\log
 p_{r+1}$. The
 [[problems/factorials_binomials/E0401/claims/2026_01_11_barreto_price|claim page]]
 records the construction, the two Lean files at pinned commits and the
-acceptance: the site's curator credits the proof and the community database
-records the problem as proved with a Lean proof (last updated 11 January
-2026); there is no refereed write-up, and no Lean file is built here. The same
-day Sothanaphan reported in the thread that ChatGPT had noticed that the
-Problem 729 construction implies this problem, and posted the deduction with
+acceptance: the erdosproblems.com curator credits the proof and the community
+database records the problem as proved with a Lean proof (last updated 11
+January 2026); there is no refereed write-up, and no Lean file is built here.
+The same day Sothanaphan reported in the thread that ChatGPT had noticed that
+the Problem 729 construction implies this problem, and posted the deduction with
 their own check of it; the appendix of the write-up [So26] of the Problem 728
 proof derives both from a density-one theorem about valuations of binomial
 coefficients; that route is sketched rather than proved in full and no reviewer
@@ -120,12 +121,12 @@ Theorem 2, concerns
 [[problems/factorials_binomials/E0400/_index|Problem 400]] and is not a result
 on this problem.
 
-Search scope: the site's problem page, its discussion thread and proof-claims
-list, the community database, the formal-conjectures statement file and the
-two Lean files in Alexeev's repository, and the library's card and digest for
-[So26] for the appendix. The site listed no proof claim for the problem.
-[[problems/factorials_binomials/E0729/_index|Problem 729]] is the less precise
-form of this question, and
+Search scope: the erdosproblems.com problem page, its discussion thread and
+proof-claims list, the community database, the formal-conjectures statement file
+and the two Lean files in Alexeev's repository, and the library's card and
+digest for [So26] for the appendix. erdosproblems.com listed no proof claim for
+the problem. [[problems/factorials_binomials/E0729/_index|Problem 729]] is the
+less precise form of this question, and
 [[problems/factorials_binomials/E0728/_index|Problem 728]] the two-factorial
 divisibility it extends.
 <!-- BEGIN problem library links -->

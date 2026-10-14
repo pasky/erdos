@@ -55,7 +55,7 @@ $\lambda_i(t)\ge\lambda^*=\lambda_i(t^*)$ for every $i$ equals $t^*$ by
 Theorem 2. The first question follows: $\lambda^*$ is at most the Lebesgue
 constant of the Chebyshev nodes rescaled to span $[-1,1]$, which is at most
 that of the Chebyshev nodes themselves, $(2/\pi)\log n+O(1)$ by the
-classical computation that the site states on
+classical computation that erdosproblems.com states on
 [[problems/polynomials/E1129/_index|Problem 1129]] and that Erdős [Er47]
 calls simple; so $\Upsilon\le\lambda^*\le(2/\pi)\log n+O(1)$, and the
 answer is yes. The paper itself does not estimate $\lambda^*$ in terms of
@@ -63,12 +63,12 @@ $n$. The source card is
 [[../library/polynomials/deboor_1978_conjectures_bernstein_erdos_optimal_nodes_polynomial_interpolation/_index|de Boor and Pinkus 1978]].
 The problem pairs a yes-or-no question, answered yes, with a request to
 describe the maximizing choice, which has neither a proved nor a disproved
-shape, so the claim value is `answered`; the site's label PROVED is recorded
-on the problem page.
+shape, so the claim value is `answered`; the erdosproblems.com label PROVED is
+recorded on the problem page.
 
-**Convention.** The site's statement lets the nodes range over $[-1,1]$ and
-counts $n+1$ pieces, the gaps between consecutive nodes and the two end
-pieces between $x_0=-1$, $x_{n+1}=1$ and the extreme nodes, which is how
+**Convention.** The erdosproblems.com statement lets the nodes range over
+$[-1,1]$ and counts $n+1$ pieces, the gaps between consecutive nodes and the two
+end pieces between $x_0=-1$, $x_{n+1}=1$ and the extreme nodes, which is how
 Erdős [Er47] posed the question with his bound $\Upsilon<\sqrt n$ and his
 remark that the maximum is probably attained when all $n+1$ piece maxima are
 equal. The bound $\Upsilon\ll\log n$ holds in that convention as well: the
@@ -78,7 +78,7 @@ $[-1,1]$, to which Theorem 2 applies, and $\Upsilon$ is at most the least
 of those interior gap maxima (an elementary observation recorded on this
 page, not taken from the paper and not independently reviewed). The
 characterization of the maximizers is proved in the paper's convention; for
-a system containing both endpoints the two end pieces of the site's
+a system containing both endpoints the two end pieces of the erdosproblems.com
 statement are points, so such a system has $\Upsilon=1$ there, while an
 affine shrink of $t^*$ whose two end-piece maxima exceed $\lambda^*$ keeps
 $\Upsilon=\lambda^*$, so the equal-maxima characterization fails for free
@@ -88,9 +88,9 @@ and GPT-5.6 Sol as formal authors, declares itself a formalization of the
 literal free-node formulation and proves this for three nodes: its theorem
 `upsilon_three_le` gives $\Upsilon\le5/4$ for every three free nodes, and
 `not_erdos_1130` exhibits the maximizer $(-1/2,0,1/2)$, with $\Upsilon=5/4$
-and piece maxima $7,5/4,5/4,7$, which are not all equal. In the site's
-convention the maximizers are exactly the affine images of $t^*$ inside
-$[-1,1]$ whose two end-piece maxima are at least $\lambda^*$. If
+and piece maxima $7,5/4,5/4,7$, which are not all equal. In the
+erdosproblems.com convention the maximizers are exactly the affine images of
+$t^*$ inside $[-1,1]$ whose two end-piece maxima are at least $\lambda^*$. If
 $\Upsilon(s)=\lambda^*$, every gap maximum of the rescaled system is at least
 $\lambda^*=\lambda_i(t^*)$. Theorem 2 then makes the rescaled system $t^*$,
 and both end pieces reach $\lambda^*$; conversely, such images have
@@ -104,11 +104,12 @@ taken from the paper, and not independently reviewed.
 289–303, received 1977-04-01. The publisher's record places it in the issue
 dated December 1978, which dates this page.
 
-Reviewed: the site's curator, Thomas F. Bloom, labeled the problem proved. The
-commentary records that de Boor and Pinkus proved the characterization Erdős
-conjectured. It also records that the bound $(2/\pi)\log n+O(1)$ for $\Upsilon$
-then follows from the estimates recorded on Problem 1129
-(erdosproblems.com/1130, last edited 2026-01-17, accessed 2026-09-04).
+Reviewed: the erdosproblems.com curator, Thomas F. Bloom, labeled the problem
+proved. The commentary records that de Boor and Pinkus proved the
+characterization Erdős conjectured. It also records that the bound
+$(2/\pi)\log n+O(1)$ for $\Upsilon$ then follows from the estimates recorded on
+Problem 1129 (erdosproblems.com/1130, last edited 2026-01-17, accessed
+2026-09-04).
 
 The theorem statements are taken from the paper itself. Its proofs are known
 here in outline only and are not compiled in this wiki.

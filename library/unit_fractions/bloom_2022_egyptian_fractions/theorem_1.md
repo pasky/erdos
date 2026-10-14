@@ -62,7 +62,7 @@ The survey's convention (pp. 237--238) is that solutions of (1) are
 counted with $x_1<\cdots<x_k$; a representation with repeated denominators
 can be turned into one with the same number of distinct denominators
 (Takenouchi, the survey's [43]), so the conjecture's "positive integers" and
-the site's "distinct $1\le x<y<z$" are the same question.
+erdosproblems.com's "distinct $1\le x<y<z$" are the same question.
 
 ## Dependencies
 
@@ -71,7 +71,7 @@ the survey (Nakayama, Rosati, Mordell are cited for similar statements).
 
 ## Bears on
 
-- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: the site's stated
-  equivalence ("see Theorem 1 of [BlEl22]"); the congruence classes are also
-  the basis of the finite verifications and of the sieve bounds on the
-  exceptional set.
+- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]:
+  erdosproblems.com's stated equivalence ("see Theorem 1 of [BlEl22]"); the
+  congruence classes are also the basis of the finite verifications and of the
+  sieve bounds on the exceptional set.

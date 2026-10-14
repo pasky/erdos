@@ -52,10 +52,10 @@ for a finite graph of minimum degree at least three alone, with no
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether a
-graph of chromatic number four can have every two consecutive cycle lengths far
-apart, and whether it can when the girth is large. The standing is `solved`,
-`disproved`, through
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether a graph of chromatic number four can have every two consecutive cycle
+lengths far apart, and whether it can when the girth is large. The standing is
+`solved`, `disproved`, through
 [[problems/graph_coloring/E0751/claims/1998_01_01_bondy_vince|Bondy and Vince's two close cycle lengths]]:
 every simple graph other than $K_1$ and $K_2$ with at most two vertices of
 degree below three has two cycles whose lengths differ by one or two
@@ -65,13 +65,13 @@ three: by the de Bruijn–Erdős theorem it has a finite subgraph that is not
 $3$-colorable, that subgraph is not $2$-degenerate, so it contains a finite
 subgraph of minimum degree at least three. Applying the theorem to that finite
 subgraph gives $\min(m_{i+1}-m_i)\le2$ whatever the girth. The reduction from
-chromatic number to minimum degree is not in the paper. The site's curator
-labeled the problem DISPROVED (LEAN) and credits Bondy and Vince; the Lean
-qualification refers to a third-party development posted on the discussion
+chromatic number to minimum degree is not in the paper. The erdosproblems.com
+curator labeled the problem DISPROVED (LEAN) and credits Bondy and Vince; the
+Lean qualification refers to a third-party development posted on the discussion
 thread in January 2026, not among the corpus's audited builds.
 
-Search scope: the site's problem page and discussion thread, the Crossref
-record of the paper, the paper's statements, the formal-conjectures
+Search scope: the erdosproblems.com problem page and discussion thread, the
+Crossref record of the paper, the paper's statements, the formal-conjectures
 statement file, the third-party Lean repository at its linked commit, and the
 lean-proofs and erdos-lean catalogs.
 <!-- BEGIN problem library links -->

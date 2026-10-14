@@ -43,8 +43,9 @@ of $K_s$, for a constant $C(s)$; the matching lower bound is deduced from the
 theorem of Joret, Micek, Reed and Smid on the clique chromatic number
 (Electron. J. Combin. 28 (2021), P3.51, the source of Problem 610's
 resolution). The abstract's $f_{s,s+1}$ is the function defined through
-induced subgraphs, as on the problem page. The site's discussion thread
-carries a comment of 7 September 2026 reporting the preprint as a solution.
+induced subgraphs, as on the problem page. The erdosproblems.com discussion
+thread carries a comment of 7 September 2026 reporting the preprint as a
+solution.
 
 **Depends on.**
 [[problems/extremal_graph_theory/E0610/claims/2020_06_19_joret_micek_reed_smid|the Joret–Micek–Reed–Smid theorem]]
@@ -70,7 +71,7 @@ new part of the claim is the upper bound.
 reference on the arXiv record on 2026-10-07 and no Crossref record on
 2026-09-18) and is not held in the library, the abstract being the source of
 this page's account; no written review or documented acceptance is known,
-and the site labeled the problem OPEN (accessed 2026-09-18) and its page
+and Bloom's catalog labeled the problem OPEN (accessed 2026-09-18) and its page
 carried no note on the comment. A refereed version or a documented
 independent acceptance would move the claim to accepted; until then the
 problem's standing is claimed through this page, and its refereed bounds

@@ -37,8 +37,8 @@ $$
 \frac{m-1}{2^{m-1}}=\sum_{k=m}^{m+M-2}\frac{k}{2^k}.
 $$
 
-Writing $n=m-1$ and renaming $M-1$ as $m$ gives the site's form: for every
-positive integer $m$ and $n=2^{m+1}-m-2$,
+Writing $n=m-1$ and renaming $M-1$ as $m$ gives the erdosproblems.com form: for
+every positive integer $m$ and $n=2^{m+1}-m-2$,
 
 $$
 \frac{n}{2^n}=\sum_{n<k\le n+m}\frac{k}{2^k}.
@@ -50,8 +50,8 @@ $n$ have the property asked in the first question of
 to that question is yes. The paper's derivation also shows that no other
 identity $(c-1)/2^{c-1}=\sum_{k=c}^{c+d}k/2^k$ holds. Erdős [Er88c, p. 104]
 records an earlier proof of the same statement, communicated to him by
-Cusick in June 1987 and not reproduced; the site's remarks note Cusick's
-unpublished proof and give Borwein and Loring's identity as the proof.
+Cusick in June 1987 and not reproduced; the erdosproblems.com remarks note
+Cusick's unpublished proof and give Borwein and Loring's identity as the proof.
 
 **Covers.** The first question (the part `infinitely_many`): infinitely many
 $n$ have the property, answered yes. Not covered: whether every $n$ has it,
@@ -66,11 +66,12 @@ settling it, as the problem page records.
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.
 
 **Acceptance.** Refereed: Mathematics of Computation 54 (1990), no. 189,
-377--394, received 8 December 1988 (`refereed`). The site's curator gives the
-identity in the problem's remarks. The site labeled the problem OPEN, however,
-so the remark is not acceptance of the problem, and the page lists no `reviewed`
-evidence. The library holds no file of the paper. The statement is recorded from
-its card, and the corpus records no check of the proof.
+377--394, received 8 December 1988 (`refereed`). The erdosproblems.com curator
+gives the identity in the problem's remarks. Bloom's catalog labeled the problem
+OPEN, however, so the remark is not acceptance of the problem, and the page
+lists no `reviewed` evidence. The library holds no file of the paper. The
+statement is recorded from its card, and the corpus records no check of the
+proof.
 
 **Dating.** The page is dated by the issue month in the publisher's record,
 January 1990; the day is a placeholder.

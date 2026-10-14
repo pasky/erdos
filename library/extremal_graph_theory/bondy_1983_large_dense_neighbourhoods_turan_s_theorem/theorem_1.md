@@ -18,9 +18,9 @@ updated: 2026-10-08T01:29:58Z
 Notation (printed p. 109): $T_r(n)$ is "the complete $r$-partite graph on $n$
 vertices in which each colour class has $\lfloor n/r\rfloor$ or
 $\lceil n/r\rceil$ vertices", and $t_r(n)$ is the number of edges in
-$T_r(n)$; in the catalog's notation $t_r(n)=\mathrm{ex}(n;K_{r+1})$. The note
-introduces the theorem as "A strengthening of Turán's theorem, conjectured by
-Erdős [3], and proved independently by Bollobás and Thomason [1] and Erdős
+$T_r(n)$; in the erdosproblems.com notation $t_r(n)=\mathrm{ex}(n;K_{r+1})$. The
+note introduces the theorem as "A strengthening of Turán's theorem, conjectured
+by Erdős [3], and proved independently by Bollobás and Thomason [1] and Erdős
 and Sós [4], can be stated as".
 
 **Theorem 1** (printed p. 109). "Let $G$ be a simple graph on $n$ vertices
@@ -83,10 +83,11 @@ given) for the theorem.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the theorem the
-  site attributes to [BoTh81], in a refereed source's words; in the
-  problem's letters the hypothesis is at least $\mathrm{ex}(n;K_r)$ edges
-  with the Turán graph excepted, the conclusion is more than
-  $\mathrm{ex}(m;K_{r-1})$ edges, and by the bound (1) the constant $c_r$ of
-  Erdős's question can be taken as $1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$. The
-  1981 paper, filed in the library, states the same theorem.
+- [[../wiki/problems/extremal_graph_theory/E1079/_index|Problem 1079]]: the
+  theorem erdosproblems.com attributes to [BoTh81], in a refereed source's
+  words; in the problem's letters the hypothesis is at least
+  $\mathrm{ex}(n;K_r)$ edges with the Turán graph excepted, the conclusion is
+  more than $\mathrm{ex}(m;K_{r-1})$ edges, and by the bound (1) the constant
+  $c_r$ of Erdős's question can be taken as
+  $1-\frac1{r-1}-\frac1{1+\sqrt{r-1}}$. The 1981 paper, filed in the library,
+  states the same theorem.

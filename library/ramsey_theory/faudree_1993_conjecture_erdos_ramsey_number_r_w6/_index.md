@@ -29,9 +29,9 @@ R. J. Faudree and B. D. McKay, *A Conjecture of Erdős / the Ramsey Number
 $r(W_6)$*, Journal of Combinatorial Mathematics and Combinatorial Computing 13
 (1993), 23--31. The title is as printed on the authors' reprint, which sets it
 in two lines (the slash marks the break) with no punctuation or word between
-them; Erdős's 1995 bibliography and the site cite the paper as "A conjecture of
-Erdős and the Ramsey number $r(W_6)$". A Crossref bibliographic query found no
-record for the article (2026-09-18).
+them; Erdős's 1995 bibliography and erdosproblems.com cite the paper as "A
+conjecture of Erdős and the Ramsey number $r(W_6)$". A Crossref bibliographic
+query found no record for the article (2026-09-18).
 
 The copy read for this card is the authors' 10-page reprint
 (users.cecs.anu.edu.au/~bdm/papers/wheels.pdf), paginated 1--10 with the line
@@ -106,7 +106,7 @@ Nothing here is independently reviewed.
 Source: <https://users.cecs.anu.edu.au/~bdm/papers/wheels.pdf>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0087/_index|#87]]: Theorem 1 refutes the
-unweakened conjecture $r(G)\ge r(K_k)$ at $k=4$, the fact the site
+unweakened conjecture $r(G)\ge r(K_k)$ at $k=4$, the fact erdosproblems.com
 records; it says nothing about the two weakened questions the page asks.
 Theorems 2 and 3 bear on no problem page.
 

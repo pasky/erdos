@@ -61,7 +61,7 @@ $\delta=1/4-\theta-0.0001$ gives more than $6.0001r$, and the integers
 failing $\omega(n)\sim\Omega(n)\sim\log\log n$ contribute $o(r)$. The
 numerical evaluation was not repeated here.
 
-## Consequences for the catalog problems
+## Consequences for the erdosproblems.com problems
 
 Both deductions below are elementary specializations written here for the
 problem pages; they carry no independent review.
@@ -79,11 +79,11 @@ problem pages; they carry no independent review.
   Corollary gives a monochromatic $D'\subseteq[2,M]\subseteq D$ with
   $\sum_{d\in D'}1/d=1$. By the prime number theorem in the form
   $\log\operatorname{lcm}\{1,\ldots,M\}=(1+o(1))M$, this $n_k$ is at most
-  $\exp((1+o(1))b^k)$, the doubly exponential bound the site's commentary
-  records.
+  $\exp((1+o(1))b^k)$, the doubly exponential bound the erdosproblems.com
+  commentary records.
 
-The site's commentary on Problem 46 adds that there are infinitely many
-pairwise disjoint monochromatic solutions; the paper does not state this.
+The erdosproblems.com commentary on Problem 46 adds that there are infinitely
+many pairwise disjoint monochromatic solutions; the paper does not state this.
 The Corollary alone gives it: give each element of the solutions found so
 far its own new color and apply the Corollary with the larger number of
 colors. A one-element class has no subset with reciprocal sum one, so the

@@ -43,6 +43,7 @@ with six further values.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Colloq. Math. 86 (2000), 37–41. The site's
+**Acceptance.** Refereed: Colloq. Math. 86 (2000), 37–41. The erdosproblems.com
 discussion thread links the paper (comment of 21 November 2025), but the
-site's commentary does not credit it, so no reviewed evidence is listed.
+erdosproblems.com commentary does not credit it, so no reviewed evidence is
+listed.

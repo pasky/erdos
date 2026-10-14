@@ -60,16 +60,16 @@ as Theorem 4.
 and
 [[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/theorem_a|Theorem A]].
 Theorem A rests on the author's *On finite sums of unit fractions* (Proc.
-London Math. Soc., the paper's [2], "to appear"; the site's [Gr64b], not
-held here) and on the results of Sprague and of Roth and Szekeres that
-every sufficiently large integer is a sum of distinct $n$th powers (the
-paper's [8] and [7]).
+London Math. Soc., the paper's [2], "to appear"; erdosproblems.com's [Gr64b],
+not held here) and on the results of Sprague and of Roth and Szekeres that every
+sufficiently large integer is a sum of distinct $n$th powers (the paper's [8]
+and [7]).
 
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0282/_index|Problem 282]]: the criterion behind the
-  site's statement that $x$ is a sum of distinct unit fractions with square
-  denominators exactly when $x\in[0,\pi^2/6-1)\cup[1,\pi^2/6)$
+  erdosproblems.com statement that $x$ is a sum of distinct unit fractions with
+  square denominators exactly when $x\in[0,\pi^2/6-1)\cup[1,\pi^2/6)$
   ([[unit_fractions/graham_1964_finite_sums_reciprocals_distinct_nth_powers/corollary_1|Corollary 1]]);
   the theorem concerns existence and says nothing about the greedy
   algorithm.

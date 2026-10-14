@@ -65,9 +65,9 @@ Solymosi's.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0034/_index|Problem 34]]: the site's
-  $g(n)=\min_\pi S(\pi)\gg n^{3/2}$ and its two expectations, "it may be true
-  that $g(n)\ge n^{2-o(1)}$, or even $g(n)\gg S(\iota)$", are Questions 3
-  and 4; the problem page records an unreviewed 2026 proof claim on the
-  site's tab that asserts a construction with $g(n)=O(n^{\log_635})$ along a
-  sequence.
+- [[../wiki/problems/number_theory/E0034/_index|Problem 34]]:
+  erdosproblems.com's $g(n)=\min_\pi S(\pi)\gg n^{3/2}$ and its two
+  expectations, "it may be true that $g(n)\ge n^{2-o(1)}$, or even
+  $g(n)\gg S(\iota)$", are Questions 3 and 4; the problem page records an
+  unreviewed 2026 proof claim on the erdosproblems.com tab that asserts a
+  construction with $g(n)=O(n^{\log_635})$ along a sequence.

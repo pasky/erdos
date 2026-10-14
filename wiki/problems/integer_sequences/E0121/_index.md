@@ -27,16 +27,16 @@ updated: 2026-10-08T00:44:25Z
 \{1,\ldots,N\}$ such that the product of no $k$ many distinct elements of $A$ is
 a square. Is $F_5(N)=(1-o(1))N$? More generally, is $F_{2k+1}(N)=(1-o(1))N$?
 
-**Status.** Labeled disproved on the site (label DISPROVED (LEAN); page last
-edited 17 October 2025). Tao's Theorem 1.2 (2024) gives, for every $k\geq 4$, a
-constant $c_k>0$ with $F_k(N)\leq(1-c_k+o(1))N$. So neither $F_5(N)$ nor
-$F_{2k+1}(N)$ for any $k\ge2$ is $(1-o(1))N$. The paper appeared in Acta Math.
-Hungar. 175 (2025). Thomas Bloom, the site's curator, attributes the negative
-answer to it. The claim page
+**Status.** Labeled disproved on erdosproblems.com (label DISPROVED (LEAN); page
+last edited 17 October 2025). Tao's Theorem 1.2 (2024) gives, for every
+$k\geq 4$, a constant $c_k>0$ with $F_k(N)\leq(1-c_k+o(1))N$. So neither
+$F_5(N)$ nor $F_{2k+1}(N)$ for any $k\ge2$ is $(1-o(1))N$. The paper appeared in
+Acta Math. Hungar. 175 (2025). Thomas Bloom, the erdosproblems.com curator,
+attributes the negative answer to it. The claim page
 [[problems/integer_sequences/E0121/claims/2024_05_19_tao|Tao 2024]] records the
-acceptance. The site's (LEAN) suffix is a catalog label. The outside Lean proof
-it refers to is linked from the claim page and described under Formalization.
-This corpus has not built that proof.
+acceptance. erdosproblems.com's (LEAN) suffix is a catalog label. The outside
+Lean proof it refers to is linked from the claim page and described under
+Formalization. This corpus has not built that proof.
 
 **Source.** [erdosproblems.com/121](https://www.erdosproblems.com/121), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #121,
@@ -94,12 +94,12 @@ recorded on
 ## Known Results
 
 - Erdős [Er38] proved $F_4(N)=o(N)$: a subset of $\{1,\ldots,N\}$ with
-  $\gg N$ elements has a non-trivial solution to $ab=cd$, as the site's
-  commentary records; the 1938 paper's multiplicative machinery is digested
-  on its library card.
+  $\gg N$ elements has a non-trivial solution to $ab=cd$, as the
+  erdosproblems.com commentary records; the 1938 paper's multiplicative
+  machinery is digested on its library card.
 - Erdős, Sárközy and Sós [ESS95] proved $F_2(N)=(6/\pi^2+o(1))N$ and
   $F_3(N)=(1-o(1))N$ and established the asymptotics of $F_k(N)$ for every
-  even $k\ge4$, in particular $F_k(N)\asymp N/\log N$, as the site's
+  even $k\ge4$, in particular $F_k(N)\asymp N/\log N$, as the erdosproblems.com
   commentary records; the paper is not held.
 - For $F(N)$, the largest size of a subset of $\{1,\ldots,N\}$ with no
   odd number of elements multiplying to a square, a question Erdős, Hall

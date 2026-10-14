@@ -51,7 +51,7 @@ themselves unknown.
 
 **Acceptance.** Refereed: Canad. J. Math. **18** (1966), 106–112, Theorem 4 on
 p. 108, as the library result page records. The publication record gives only
-the year, so the page is dated to the first day of that year. The site's
-commentary credits no result on the problem and labeled it OPEN, so the page
-lists no `reviewed` evidence. This partial claim does not change the standing of
-the problem.
+the year, so the page is dated to the first day of that year. The
+erdosproblems.com commentary credits no result on the problem and labeled it
+OPEN, so the page lists no `reviewed` evidence. This partial claim does not
+change the standing of the problem.

@@ -72,14 +72,14 @@ independent proof of
 gives the same order.
 
 **Acceptance.** The paper is a refereed publication in Combinatorica (volume 33,
-issue 2, April 2013, online 14 June 2013, per the Crossref record). The site's
-curator, Thomas Bloom, marked the problem proved and credits the paper. The
-search found twelve records of citing literature, and none of them disputes the
-result. The reading covered the statements of Theorems 1.1, 1.2 and 3.1 in arXiv
-v3, and the one-page deduction of Theorem 1.1 from Theorem 1.2 for its
-structure. The proof of Theorem 1.2 (pp. 4--12) was not read, and the journal
-text was not compared with the preprint. The acceptance recorded here rests on
-the publication and the curator's credit, not on a local review.
+issue 2, April 2013, online 14 June 2013, per the Crossref record). The
+erdosproblems.com curator, Thomas Bloom, marked the problem proved and credits
+the paper. The search found twelve records of citing literature, and none of
+them disputes the result. The reading covered the statements of Theorems 1.1,
+1.2 and 3.1 in arXiv v3, and the one-page deduction of Theorem 1.1 from Theorem
+1.2 for its structure. The proof of Theorem 1.2 (pp. 4--12) was not read, and
+the journal text was not compared with the preprint. The acceptance recorded
+here rests on the publication and the curator's credit, not on a local review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos717.lean` of Boris
 Alexeev's repository plby/lean-proofs (pinned at its commit of 15 September
@@ -91,6 +91,6 @@ clique-subdivision structure with distinct branch vertices and paths whose
 interiors are pairwise disjoint and avoid the branch vertices, and it closes
 with `#print axioms Erdos717.erdos_717`; the file contains no `sorry`. This
 project read only its header and the note and has not built, replayed or
-audited the file; the site and the community database do not cite it, and no
-outside examination of it is published, so the page lists no `formalized`
+audited the file; erdosproblems.com and the community database do not cite it,
+and no outside examination of it is published, so the page lists no `formalized`
 evidence.

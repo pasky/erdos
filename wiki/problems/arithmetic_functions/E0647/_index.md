@@ -27,8 +27,8 @@ $$
 \max_{m<n}(m+\tau(m))\leq n+2?
 $$
 
-**Status.** Verifiable (the site's label, VERIFIABLE; page last edited 07
-April 2026).
+**Status.** Verifiable (the erdosproblems.com label, VERIFIABLE; page last
+edited 07 April 2026).
 
 **Source.** [erdosproblems.com/647](https://www.erdosproblems.com/647), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #647,
@@ -48,23 +48,24 @@ https://www.erdosproblems.com/647.
 
 ## Current assessment
 
-The site labeled the problem verifiable: a positive answer is witnessed by one
-integer $n>24$ together with the finite check of $m+\tau(m)\leq n+2$ for every
-$m<n$, so a solution could be confirmed by computation, whereas a negative
-answer would need a proof. The problem is Erdős and Selfridge's. The site's
-remarks (page last edited 07 April 2026) record that the inequality holds for
-$n=24$; that $n+2$ cannot be lowered, since
+Bloom's catalog labeled the problem verifiable: a positive answer is witnessed
+by one integer $n>24$ together with the finite check of $m+\tau(m)\leq n+2$ for
+every $m<n$, so a solution could be confirmed by computation, whereas a negative
+answer would need a proof. The problem is Erdős and Selfridge's. The
+erdosproblems.com remarks (page last edited 07 April 2026) record that the
+inequality holds for $n=24$; that $n+2$ cannot be lowered, since
 $\max(\tau(n-1)+n-1,\tau(n-2)+n-2)\geq n+2$ for every $n\ge7$; that Erdős [Er79]
 found it extremely doubtful that infinitely many such $n$ exist and suggested
 that $\max_{m<n}(\tau(m)+m-n)\to\infty$; that Erdős [Er79d] wrote that it seems
 certain, though hopeless with the methods of the time, that for every $k$
 infinitely many $n$ satisfy $\max_{n-k<m<n}(m+\tau(m))\leq n+2$, a statement
 that follows from Schinzel's Hypothesis H; and that Erdős [Er92e] offered a
-prize for an example, the prize the site shows. Tao's comment on the thread
-(2025-10-02), repeated in the remarks, places the problem among its neighbors:
-since $\tau(m)$ behaves like $2^{\omega(m)}$, it is similar to, though slightly
-weaker than, the first part of Problem 679 and much stronger than Problems 413
-and 248. The formal-conjectures file, at its revision of 2026-09-18
+prize for an example, the prize erdosproblems.com shows. Tao's comment on the
+thread (2025-10-02), repeated in the remarks, places the problem among its
+neighbors: since $\tau(m)$ behaves like $2^{\omega(m)}$, it is similar to,
+though slightly weaker than, the first part of Problem 679 and much stronger
+than Problems 413 and 248. The formal-conjectures file, at its revision of
+2026-09-18
 ([pinned](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/647.lean)),
 states the question and Erdős's two variants as open and proves the case $n=24$
 by decision as `erdos_647.variants.twenty_four`.
@@ -119,11 +120,11 @@ A finite exclusion, however checked, leaves the existence question open, and
 the thread records no further proof attempt. Beyond these results the
 mathematics of the problem is unassessed in this wiki.
 
-Search scope: the site's problem page and remarks, its discussion thread (18
-comments on 2026-10-07) and its empty proof-claims tab, the
-community database entry, the formal-conjectures file, the Zenodo records
-and repositories linked from the thread, and the arXiv record of Mian and
-Siddique. MathSciNet and zbMATH were not searched and X was not used.
+Search scope: the erdosproblems.com problem page and remarks, its discussion
+thread (18 comments on 2026-10-07) and its empty proof-claims tab, the community
+database entry, the formal-conjectures file, the Zenodo records and repositories
+linked from the thread, and the arXiv record of Mian and Siddique. MathSciNet
+and zbMATH were not searched and X was not used.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

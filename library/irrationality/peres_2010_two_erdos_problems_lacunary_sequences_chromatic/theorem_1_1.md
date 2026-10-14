@@ -88,7 +88,7 @@ Spencer's book).
 
 - [[../wiki/problems/ramsey_theory/E0894/_index|Problem 894]]: the status-defining
   theorem; its second sentence, restricted from $\mathbb Z$ to $\mathbb N$,
-  is the finite coloring the problem asks for, with the site's bound
+  is the finite coloring the problem asks for, with erdosproblems.com's bound
   $\ll\epsilon^{-1}\log(1/\epsilon)$ on the number of colors.
 - [[../wiki/problems/number_theory/E0464/_index|Problem 464]]: (1.2) is the best known
   separation for the modified Statement (fractional parts not dense

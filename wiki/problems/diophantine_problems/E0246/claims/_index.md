@@ -4,7 +4,7 @@ desc: The 7 claim pages of Problem 246, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/diophantine_problems/E0246/claims
@@ -13,7 +13,8 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/diophantine_problems/E0246/claims/1959_10_01_birch|1959_10_01_birch]]: Birch proves that for coprime $a$ and $b$ every large integer is a sum of
 distinct numbers of the form $a^kb^l$. The result, refereed in 1959 and
-credited by the site's curator, was later formalized in Lean by others.
+credited by the erdosproblems.com curator, was later formalized in Lean by
+others.
 
 [[problems/diophantine_problems/E0246/claims/1960_01_01_cassels|1960_01_01_cassels]]: Cassels's 1960 Theorem I is a circle-method criterion under which every large
 integer is a sum of distinct elements of a set. The completeness of the

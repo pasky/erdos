@@ -66,5 +66,5 @@ Claims 4.5--4.6 of the same paper.
 - [[../wiki/problems/extremal_graph_theory/E0815/_index|Problem 815]]: under the literal
   non-induced 1988 definition the conjecture holds in the strongest form, so
   the disproof (Theorem 1.2) is a statement about the induced class, which is
-  the site's definition and, on this paper's reading of the 1988 paper
-  (p. 3), the one that paper intends.
+  the erdosproblems.com definition and, on this paper's reading of the 1988
+  paper (p. 3), the one that paper intends.

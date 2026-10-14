@@ -67,4 +67,4 @@ The corpus records the measurable case as Laczkovich's Theorem 3; see
   equivalent, since a difference with a negative shift is minus a translate
   of one with a positive shift. The problem
   page cites this page of the paper, printed p. 195, for the word
-  "measurable" against the continuous summand of the site's wording.
+  "measurable" against the continuous summand of the erdosproblems.com wording.

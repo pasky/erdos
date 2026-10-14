@@ -42,16 +42,16 @@ argument for the conjecture and none for Straus's verification.
 
 ## Relation to Problem 242
 
-The site's formulation asks for exactly three distinct denominators
+The erdosproblems.com formulation asks for exactly three distinct denominators
 $1\le x<y<z$ with $4/n=1/x+1/y+1/z$ for every $n>2$. Since $N(a,b)$ is
-defined for $0<a<b$, the 1950 statement covers $b>4$; the site's cases
+defined for $0<a<b$, the 1950 statement covers $b>4$; erdosproblems.com's cases
 $n=3$ and $n=4$ are $4/3=1+1/4+1/12$ and $4/4=1/2+1/3+1/6$ (checked here).
 "At most three" and "exactly three" agree for $b>4$: a representation with
 one or two distinct terms becomes one with three distinct terms by
 splitting the term with the largest denominator by
 $1/y=1/(y+1)+1/(y(y+1))$, once or twice (checked here; an elementary
-remark, not the paper's). The site cites the paper as [Er50c] and dates the
-conjecture's first appearance in print to Obláth's paper, submitted in 1948;
+remark, not the paper's). erdosproblems.com cites the paper as [Er50c] and dates
+the conjecture's first appearance in print to Obláth's paper, submitted in 1948;
 the 1950 paper's own text credits the conjecture to Erdős and Straus jointly
 and reports Straus's finite check.
 

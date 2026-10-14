@@ -43,11 +43,11 @@ Does $A$ have positive lower density?
 negative in 1972 without publishing. Lagarias's Theorem 6 ([La16], refereed) is
 the published reconstruction. It gives
 $|A\cap[1,T]|\le C(\epsilon)T^{\tau_1+\epsilon}$ with $\tau_1\approx0.900526<1$,
-so $A$ has density zero. The site's curator, Thomas Bloom, records this as the
-resolution. The claim page
+so $A$ has density zero. The erdosproblems.com curator, Thomas Bloom, records
+this as the resolution. The claim page
 [[problems/integer_sequences/E1134/claims/2016_09_28_lagarias|Lagarias 2016]]
-records the acceptance. The site's (LEAN) suffix is its catalog label. The
-outside Lean files it rests on are described under Formalization and on the
+records the acceptance. erdosproblems.com's (LEAN) suffix is its catalog label.
+The outside Lean files it rests on are described under Formalization and on the
 claim pages. This corpus has built none of them.
 
 **Source.** [erdosproblems.com/1134](https://www.erdosproblems.com/1134),
@@ -112,8 +112,8 @@ variant whose `formal_proof` points at the copy's `Dirichlet.lean` module.
 It states Klarner's variant as open. It is a statement file, not a proof.
 Lagarias's claim page also records the thread's second post (20 September
 2026), a Lean proof claimed for the Klarner variant with generators $2x$,
-$3x+2$, $6x+3$, not the site's statement. The corpus has built none of these
-files.
+$3x+2$, $6x+3$, not the erdosproblems.com statement. The corpus has built none
+of these files.
 
 ## Progress
 

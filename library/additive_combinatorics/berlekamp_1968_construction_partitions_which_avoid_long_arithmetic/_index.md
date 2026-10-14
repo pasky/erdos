@@ -64,8 +64,9 @@ Section 3 (pp. 413-414) was not recomputed.
 
 - [[../wiki/problems/additive_combinatorics/E0138/_index|#138]]:
   [[additive_combinatorics/berlekamp_1968_construction_partitions_which_avoid_long_arithmetic/theorem_2|Theorem 2]] gives $W(p+1)>p\,2^p$ for prime $p$ in the
-  problem's notation, one of the bounds the site's commentary cites as the
-  record the problem asks to improve; it does not show $W(k)^{1/k}\to\infty$.
+  problem's notation, one of the bounds the erdosproblems.com commentary cites
+  as the record the problem asks to improve; it does not show
+  $W(k)^{1/k}\to\infty$.
 - [[../wiki/problems/additive_combinatorics/E0169/_index|#169]]: through the
   elementary comparison $f(k)\ge\frac12\log W(k)$, Theorem 2 gives the linear
   lower bound $f(k)\ge(\frac{\log2}{2}-o(1))k$ recorded on that problem's

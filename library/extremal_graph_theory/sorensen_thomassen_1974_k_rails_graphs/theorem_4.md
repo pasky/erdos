@@ -33,19 +33,19 @@ $f_5(7)=16$. We state without proof that $f_5(12)=28$. So for $6\le n\le13$,
 $f_5(n)=[\frac52(n-1)]+1$." The proof also records $f_5(13)=31$,
 $f_5(14)=34$ and $f_5(15)=37$, and p. 155 records $f_5(6)=13$.
 
-**In the problem's notation.** $f_5(n)$ is the site's $k_5(n)$, the least
-number of edges forcing two vertices joined by five internally
+**In the problem's notation.** $f_5(n)$ is erdosproblems.com's $k_5(n)$, the
+least number of edges forcing two vertices joined by five internally
 vertex-disjoint paths in a graph on $n$ vertices, so
-$k_5(n)=\lfloor\frac83n\rfloor-3$ for all $n\ge13$, the site's statement,
-and also for $6\le n\le11$, $n\ne7$; $k_5(7)=16$ and $k_5(12)=28$. At the
-conjecture's parameters, $4p+1$ vertices and $10p+1$ edges (the paper's
+$k_5(n)=\lfloor\frac83n\rfloor-3$ for all $n\ge13$, the erdosproblems.com
+statement, and also for $6\le n\le11$, $n\ne7$; $k_5(7)=16$ and $k_5(12)=28$. At
+the conjecture's parameters, $4p+1$ vertices and $10p+1$ edges (the paper's
 $p(k-1)+1$ and $\frac12(k-1)kp+1$ at $k=5$), the theorem gives
 $k_5(9)=21$ and $k_5(13)=31$, the conjectured values, and
 $k_5(17)=42>41$, $k_5(21)=53>51$, and in general
 $\lfloor\frac83(4p+1)\rfloor-3>10p+1$ for every $p\ge4$ (an arithmetic
 check made here: the left side is at least $\frac{32p-3}3$, which exceeds
 $10p+1$ when $2p>6$). $k_5(57)=149$ exceeds the $141$ edges of the
-counterexample the site attributes to Leonard [6].
+counterexample erdosproblems.com attributes to Leonard [6].
 
 **Source.** B. A. Sørensen and C. Thomassen, On $k$-rails in graphs,
 J. Combinatorial Theory (B) 17 (1974), 143--159; Theorem 4 with its proof and
@@ -95,9 +95,9 @@ terminology; none held.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the site's
-  "$k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$", and the exact
-  vertex-disjoint threshold at $m=5$ for every $n\ge6$. At the problem's
+- [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]:
+  erdosproblems.com's "$k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$", and the
+  exact vertex-disjoint threshold at $m=5$ for every $n\ge6$. At the problem's
   parameters it exceeds the conjectured $1+10p$ for every $p\ge4$, so the
   vertex-disjoint reading of the conjecture is false at $m=5$ by this
   text; the disproof for every $m\ge5$ is

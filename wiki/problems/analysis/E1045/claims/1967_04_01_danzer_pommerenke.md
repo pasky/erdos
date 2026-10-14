@@ -53,4 +53,4 @@ the regular-polygon question for odd $n\ge5$.
 
 **Acceptance.** Refereed: Monatshefte für Mathematik 71 (1967), 100--113. The
 publisher's record dates the issue April 1967, and the page name uses the first
-day of that month. The site labeled the problem OPEN.
+day of that month. Bloom's catalog labeled the problem OPEN.

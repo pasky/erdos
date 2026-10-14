@@ -28,8 +28,8 @@ The constant $c_1$ is not specified in the paper: the proof takes $c_1>6$
 for $u>k^{3/2}$ and $c_1$ sufficiently large for $u\le k^{3/2}$, where the
 gap constant of the Hoheisel--Ingham bound enters. Erdős's 1976 survey
 (Publ. Math. Debrecen 23, printed p. 271) restates the result as
-$f(k)<3k/\log k$, citing this paper; the site's Problem 961 page prints that
-form and attributes it to this paper.
+$f(k)<3k/\log k$, citing this paper; erdosproblems.com's Problem 961 page prints
+that form and attributes it to this paper.
 
 **Source.** P. Erdős, *On consecutive integers*, Nieuw Arch. Wisk. (3) 3
 (1955), 124--128; the five-page scan (printed pp. 124--128 = PDF

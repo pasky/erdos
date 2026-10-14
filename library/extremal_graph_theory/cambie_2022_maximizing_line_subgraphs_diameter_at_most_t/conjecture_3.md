@@ -42,8 +42,8 @@ paper not fetched), states that $\lim_{d\to\infty}n_k(d)/d^k=1$ for every
 fixed $k$, proving Bollobás's conjecture, and that "for every fixed
 $\ell\ge2$" there are "graphs of maximum degree at most $d$ and line-graph
 diameter at most $\ell$ with $(1+o(1))d^\ell$ edges", which would give this
-conjecture for every $t\ge2$. The site's proof-claim tab of 29 July 2026
-carries a partial claim of the same statement for $t>2$. Both unrefereed.
+conjecture for every $t\ge2$. The erdosproblems.com proof-claim tab of 29 July
+2026 carries a partial claim of the same statement for $t>2$. Both unrefereed.
 
 **Source.** S. Cambie, W. Cames van Batenburg, R. de Joannis de Verclos and
 R. J. Kang, *Maximizing line subgraphs of diameter at most $t$*, SIAM J.
@@ -66,6 +66,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: the site's
-  "$h_t(d)\ge(1-o(1))d^t$ for infinitely many $d$" conjecture, the lower
-  half of the asymptotic question, with the 2026 claims recorded as leads.
+- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]:
+  erdosproblems.com's "$h_t(d)\ge(1-o(1))d^t$ for infinitely many $d$"
+  conjecture, the lower half of the asymptotic question, with the 2026 claims
+  recorded as leads.

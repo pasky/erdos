@@ -56,7 +56,7 @@ None stated in the theorem.
 
 - [[../wiki/problems/integer_sequences/E0539/_index|Problem 539]]: sets of integers built
   from two fixed primes give at least $(m/2)^{2/3}$ ratios $a/\gcd(a,b)$,
-  and the Freiman–Lev sets show that $h(m)\lesssim(3/2)(2m)^{2/3}$, the
-  site's $h(n)\ll n^{2/3}$ credited to Freiman and Lev. The thread's
-  fixed-prime exponents $3/5$ and $6/11$ for three and four primes are
+  and the Freiman–Lev sets show that $h(m)\lesssim(3/2)(2m)^{2/3}$,
+  erdosproblems.com's $h(n)\ll n^{2/3}$ credited to Freiman and Lev. The
+  thread's fixed-prime exponents $3/5$ and $6/11$ for three and four primes are
   Holzman, Lev and Pinchasi's (2008), not this paper's.

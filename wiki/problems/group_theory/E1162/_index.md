@@ -32,14 +32,14 @@ The second does not say what would count. The problem is Erdős and Turán's, an
 the statistical theorems of their program on symmetric groups are limit laws,
 such as their law for the order of a random permutation; the second question is
 read in that sense, as asking for a limit law for the order of a uniformly
-random subgroup of $S_n$. Read as the site words it, any statistical statement
-about the orders would answer it yes, among them Roney-Dougal and Tracey's
-Theorem 6 (below), an unrefereed preprint result that would make the question
-claimed.
+random subgroup of $S_n$. Read as Bloom's catalog words it, any statistical
+statement about the orders would answer it yes, among them Roney-Dougal and
+Tracey's Theorem 6 (below), an unrefereed preprint result that would make the
+question claimed.
 
-**Status.** Open, the site's label (page last edited 2026-01-23). The site's
-proof-claims tab carries one proof claim. Amir Sarid submitted it on 2026-10-01
-as a full proof, and it is pending on
+**Status.** Open, the erdosproblems.com label (page last edited 2026-01-23). The
+erdosproblems.com proof-claims tab carries one proof claim. Amir Sarid submitted
+it on 2026-10-01 as a full proof, and it is pending on
 [[problems/group_theory/E1162/claims/2026_10_01_sarid|its claim page]]. It gives
 a formula for the number of subgroups of $S_n$ whose relative error decays
 exponentially in $n$. It answers the first question but not the question on
@@ -60,15 +60,16 @@ https://www.erdosproblems.com/1162.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04), a problem of Erdős and Turán, asks
-for an asymptotic formula for the number $f(n)$ of subgroups of $S_n$ and
-whether there is a statistical theorem on their orders. The site's remarks
-record two results: Pyber [Py93] proved $\log f(n)\asymp n^2$, and Roney-Dougal
-and Tracey [RoTr25] proved $\log f(n)=(1/16+o(1))n^2$. The site prints $\log$
-there, but the paper's logarithms are to base $2$: its abstract states that
-$S_n$ has $2^{n^2/16+o(n^2)}$ subgroups, that is
-$\log_2 f(n)=(1/16+o(1))n^2$, confirming Pyber's 1993 conjecture; with the
-natural logarithm the constant would be $(\log2)/16$. The library card is
+The erdosproblems.com formulation (accessed 2026-09-04), a problem of Erdős and
+Turán, asks for an asymptotic formula for the number $f(n)$ of subgroups of
+$S_n$ and whether there is a statistical theorem on their orders. The
+erdosproblems.com remarks record two results: Pyber [Py93] proved
+$\log f(n)\asymp n^2$, and Roney-Dougal and Tracey [RoTr25] proved
+$\log f(n)=(1/16+o(1))n^2$. erdosproblems.com prints $\log$ there, but the
+paper's logarithms are to base $2$: its abstract states that $S_n$ has
+$2^{n^2/16+o(n^2)}$ subgroups, that is $\log_2 f(n)=(1/16+o(1))n^2$, confirming
+Pyber's 1993 conjecture; with the natural logarithm the constant would be
+$(\log2)/16$. The library card is
 [[../library/group_theory/roneydougal_2025_subgroups_symmetric_groups_enumeration_asymptotic_properties/_index|Roney-Dougal and Tracey 2025]].
 Neither gives an asymptotic formula for $f(n)$ itself. On the second question
 the same paper proves statistical theorems on a uniformly random subgroup of
@@ -91,7 +92,7 @@ proof, but it answers only the first question, so its page settles the
 formula question alone; the question on the orders of the subgroups has no
 claim, and the derived standing is open.
 
-Search scope: the site's problem page, its proof-claims tab and the
+Search scope: the erdosproblems.com problem page, its proof-claims tab and the
 claimant's repository, and the preprint of Roney-Dougal and Tracey.
 <!-- BEGIN problem library links -->
 

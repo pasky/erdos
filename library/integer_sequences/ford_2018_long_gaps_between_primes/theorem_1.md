@@ -75,11 +75,11 @@ External premises are taken at statement level.
   consequence of the covering bound (1.2); the paper's introduction (p. 4)
   is also the second-hand source for Iwaniec's upper bound $Y(x)\ll x^2$
   and for the Maier--Pomerance conjecture.
-- [[../wiki/problems/integer_sequences/E0929/_index|Problem 929]]: the site cites this
-  theorem's paper for its upper bound $S(k)\ll k\log_3k/(\log_2k\log_4k)$.
-  Inverting (1.2) gives the stronger $S(k)\ll k\log_2k/(\log k\log_3k)$,
-  which implies the site's bound; the problem page records that the site's
-  bound is not that inversion.
+- [[../wiki/problems/integer_sequences/E0929/_index|Problem 929]]:
+  erdosproblems.com cites this theorem's paper for its upper bound
+  $S(k)\ll k\log_3k/(\log_2k\log_4k)$. Inverting (1.2) gives the stronger
+  $S(k)\ll k\log_2k/(\log k\log_3k)$, which implies erdosproblems.com's bound;
+  the problem page records that erdosproblems.com's bound is not that inversion.
 - [[../wiki/problems/primes/E0004/_index|Problem 4]]: the theorem's gap
   $\gg\log X\log_2X\log_4X/\log_3X$ below $X$ exceeds the problem's
   $C\log n\log_2n\log_4n/(\log_3n)^2$ for every $C$, with a factor

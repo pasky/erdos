@@ -28,11 +28,12 @@ $$
 
 when $n=4,5,7$?
 
-**Status.** The site's label was FALSIFIABLE, an open problem. A further
-solution would be a finite witness: one more $n$ with $n!+1$ a perfect square. A
-proof that none exists has no such check. The derived standing departs from the
-label. It is claimed, proved, because Maiti's pending full claim asserts a
-proof. No full claim is accepted. The site's problem page (last edited 1 April
+**Status.** The erdosproblems.com label was FALSIFIABLE, an open problem. A
+further solution would be a finite witness: one more $n$ with $n!+1$ a perfect
+square. A proof that none exists has no such check. The derived standing departs
+from the label. It is claimed, proved, because Maiti's pending full claim
+asserts a proof. No full claim is accepted. The erdosproblems.com problem page
+(last edited 1 April
 2026) records no proof and lists no proof claim, but its discussion thread
 carries one. This is Ahmad Sabihi's manuscript claiming a short elementary
 proof, brought there on 19 October 2025. Stijn Cambie exhibited an error in it,
@@ -50,7 +51,7 @@ accepted partial claim on
 
 **Source.** [erdosproblems.com/398](https://www.erdosproblems.com/398), accessed
 2026-09-04 and, with its discussion thread (ten comments), 2026-10-07; its
-proof-claims list was empty. The site cites the problem from p. 77 of
+proof-claims list was empty. erdosproblems.com cites the problem from p. 77 of
 Erdős and Graham's 1980 problem book. Cite as: T. F. Bloom, Erdős Problem #398,
 https://www.erdosproblems.com/398.
 
@@ -74,33 +75,33 @@ https://www.erdosproblems.com/398.
 
 ## Current assessment
 
-**The question.** The site's formulation (accessed 2026-09-04) asks whether
-$n=4,5,7$ give the only solutions of $n!=x^2-1$, the Brocard–Ramanujan
+**The question.** The erdosproblems.com formulation (accessed 2026-09-04) asks
+whether $n=4,5,7$ give the only solutions of $n!=x^2-1$, the Brocard–Ramanujan
 equation; the three known solutions are $4!+1=5^2$, $5!+1=11^2$ and
-$7!+1=71^2$. The site labeled the problem falsifiable, which is a note on the
-shape of the question and not a claim: a counterexample is a single further
+$7!+1=71^2$. Bloom's catalog labeled the problem falsifiable, which is a note on
+the shape of the question and not a claim: a counterexample is a single further
 $n$ with $n!+1$ a square, settled by one computation, whereas the expected
 answer yes needs an argument. The frontmatter standing derives from the
 claim pages; Maiti's is pending, Naciri's an accepted partial claim, Sabihi's
 rejected and Cerdá's withdrawn.
 
-**What is known, from the site's remarks and the sources.** Erdős and Graham
-[ErGr80] call the conjecture old, almost certainly true and, at the time,
+**What is known, from the erdosproblems.com remarks and the sources.** Erdős and
+Graham [ErGr80] call the conjecture old, almost certainly true and, at the time,
 intractable (p. 77). Overholt [Ov93] showed that a weak form of the abc
-conjecture implies that the equation has only finitely many solutions. The site
-reports, citing the OEIS, that no further solution exists below $10^9$; the
-computations have gone further. Matson [Ma17] reports a search by Legendre
-symbols against forty large test primes, in the manner of Berndt and Galway,
-that excludes every $7<n\le10^{12}$, and the OEIS entry A146968 records, citing
-a 2020 program of Andrew Epstein and Jacob Glickman, that no further solution
-exists with $n\le10^{15}$; that last bound is the program's report as the OEIS
-and the site's thread (comment of 18 April 2026) relay it, and no write-up of it
-is held here. Naciri [Na25] proves finiteness under side conditions on the
-cofactors of $n!=(x-1)(x+1)$: for each $k\ge2$ only finitely many solutions have
-$x+1$ or $x-1$ $k$-free, with the three known pairs the only possible solutions
-when $k=7$; and for each $l\ge2$ only finitely many have $x\pm1$ with fewer than
-$l$ prime divisors, with $(n,x)=(4,5)$ the only possible solution when $x\pm1$
-is a prime power; the card
+conjecture implies that the equation has only finitely many solutions.
+erdosproblems.com reports, citing the OEIS, that no further solution exists
+below $10^9$; the computations have gone further. Matson [Ma17] reports a search
+by Legendre symbols against forty large test primes, in the manner of Berndt and
+Galway, that excludes every $7<n\le10^{12}$, and the OEIS entry A146968 records,
+citing a 2020 program of Andrew Epstein and Jacob Glickman, that no further
+solution exists with $n\le10^{15}$; that last bound is the program's report as
+the OEIS and the erdosproblems.com thread (comment of 18 April 2026) relay it,
+and no write-up of it is held here. Naciri [Na25] proves finiteness under side
+conditions on the cofactors of $n!=(x-1)(x+1)$: for each $k\ge2$ only finitely
+many solutions have $x+1$ or $x-1$ $k$-free, with the three known pairs the only
+possible solutions when $k=7$; and for each $l\ge2$ only finitely many have
+$x\pm1$ with fewer than $l$ prime divisors, with $(n,x)=(4,5)$ the only possible
+solution when $x\pm1$ is a prime power; the card
 [[../library/factorials_binomials/naciri_2025_brocard_ramanujan_equation_free_integers_prime/_index|naciri_2025_brocard_ramanujan_equation_free_integers_prime]]
 records the statements from the paper. None of these settles the question;
 Naciri's theorem settles it for the two subfamilies and is an accepted partial
@@ -109,13 +110,14 @@ claim on
 
 **Claims.** Three manuscripts claim the conjecture, and none has been accepted
 by anyone. Ahmad Sabihi's manuscript, posted on ResearchGate as publication
-313677604 in February 2017 and brought to the site's thread on 19 October 2025,
-claims a short elementary proof and a generalization; the curator replied the
-same day that it is unpublished and that a proof by elementary case analysis is
-unlikely, and Stijn Cambie reported on 17 November 2025 a concrete error (at the
-top of its p. 14 the argument fails when the auxiliary quantity $A$ is itself
-prime, with $n=32$, $A=17$ as an example) and an equation (4.28) with far more
-solutions than the argument allows; the claim is recorded as rejected on
+313677604 in February 2017 and brought to the erdosproblems.com thread on 19
+October 2025, claims a short elementary proof and a generalization; the curator
+replied the same day that it is unpublished and that a proof by elementary case
+analysis is unlikely, and Stijn Cambie reported on 17 November 2025 a concrete
+error (at the top of its p. 14 the argument fails when the auxiliary quantity
+$A$ is itself prime, with $n=32$, $A=17$ as an example) and an equation (4.28)
+with far more solutions than the argument allows; the claim is recorded as
+rejected on
 [[problems/factorials_binomials/E0398/claims/2017_02_14_sabihi|its page]].
 Salvador Cerdá's arXiv manuscript (arXiv:1504.06694, first posted 25 April 2015)
 was withdrawn by its author twice, the last time on 2 March 2016 with the
@@ -129,16 +131,16 @@ further solution because, in its words, the growth of $k$ is regular while that
 of $\epsilon$ is uncertain and cannot match it. Version 1 claimed only that the
 solutions are finite in number, which version 2 keeps as its Theorem 2.5. The
 argument offered for Theorem 2.15 is a comparison of growth rates without an
-estimate; the manuscript was never posted to the site and no review of it is
-known. It is a pending claim on
+estimate; the manuscript was never posted to erdosproblems.com and no review of
+it is known. It is a pending claim on
 [[problems/factorials_binomials/E0398/claims/2026_02_05_maiti|its page]].
 
 **Unassessed.** Search scope: erdosproblems.com with its discussion thread and
 proof-claims list, the OEIS entry A146968 and the sources named above. [Ov93]
 is not held in the library, and the $10^{15}$ bound rests on the OEIS entry's
 report of a program, not on a write-up. The formal-conjectures file is a
-statement of the problem, not a proof. The site's proof-claims list was empty,
-and the one claim in its discussion thread is recorded above.
+statement of the problem, not a proof. The erdosproblems.com proof-claims list
+was empty, and the one claim in its discussion thread is recorded above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -11,7 +11,7 @@ desc: |
   B y^{x-1} log log y / log y for x at least 3.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-07T20:53:41Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem
@@ -29,7 +29,7 @@ Erdős, Faudree and Schelp.
 B y^{x-1} log log y / log y for x at least 3, in the paper's convention in
 which R(x,y) is the largest order of a graph with no K_x and no y
 independent points, by induction on x from Proposition 9; the Ramsey
-statement behind the site's chromatic-number bound on Problem 920.
+statement behind erdosproblems.com's chromatic-number bound on Problem 920.
 
 [[graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/proposition_9|proposition_9]]: Graver and Yackel's Proposition 9: R(3,y) at most B y^2 log log y / log y,
 the largest order of a triangle-free graph with no y independent points,
@@ -248,9 +248,9 @@ not stated in the paper:
   bound for $n/2$, $n/4$, $\ldots$ sums to a geometric series since
   $1-1/(x-1)>0$, and the last $n_x$ points take at most $n_x$ colors. So
   $\chi(G)\ll n^{1-1/(x-1)}(\log\log n/\log n)^{1/(x-1)}$. For $x=3$ this
-  is $\chi(G)\ll(n\log\log n/\log n)^{1/2}$, the site's bound on Problem
-  920 at $k=3$ and Erdős's (4) at $l=3$. A filing observation, not a
-  review verdict: for $l\ge4$ Erdős's (4), and the site's display
+  is $\chi(G)\ll(n\log\log n/\log n)^{1/2}$, erdosproblems.com's bound on
+  Problem 920 at $k=3$ and Erdős's (4) at $l=3$. A filing observation, not a
+  review verdict: for $l\ge4$ Erdős's (4), and the erdosproblems.com display
   $f_k(n)\ll(n\log\log n/\log n)^{1-1/(k-1)}$ for Problem 920, put the
   exponent $(l-2)/(l-1)$ on the logarithmic factor, where this derivation
   from the Corollary gives $1/(l-1)$; the two agree for $l=3$ and the form
@@ -260,11 +260,11 @@ not stated in the paper:
   (p. 157) bounds the valences of the preferred independent set by the
   case $x-1$ and does not iterate the counting of Proposition 9, so the
   stronger exponent is not what the paper proves. The compiler of Problem
-  920 decides how to record the site's display.
+  920 decides how to record the erdosproblems.com display.
 - Order of a triangle-free $k$-chromatic graph. If $G$ is triangle-free on
   $n$ points with $\chi(G)=k$, the $x=3$ case gives
   $k\ll(n\log\log n/\log n)^{1/2}$, so $n\gg k^2\log n/\log\log n\ge
-  k^2\log k/\log\log k$ (as $n\ge k$), the site's
+  k^2\log k/\log\log k$ (as $n\ge k$), erdosproblems.com's
   $h_3(k)\gg k^2\log k/\log\log k$ on Problem 1013.
 - Consecutive Ramsey numbers. Corollary 4 applied to a $(3,y)$-graph on
   $R(3,y)$ points (which has a point of some valence $v\ge0$) gives a
@@ -288,25 +288,24 @@ of the paper. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/graph_coloring/E0920/_index|#920]]: the Corollary to
 Proposition 9 (printed p. 156, PDF p. 32), "$R(x,y)\le By^{x-1}\log\log
 y/\log y$", for $x\ge3$ by the introduction (p. 126), is the paper's
-statement behind the site's "Graver and Yackel [GrYa68] proved
+statement behind erdosproblems.com's "Graver and Yackel [GrYa68] proved
 $f_k(n)\ll(n\log\log n/\log n)^{1-1/(k-1)}$"; the translation to the
 largest chromatic number of a $K_k$-free graph on $n$ vertices is made
-above, agrees with the site's display for $k=3$, and for $k\ge4$ yields the
-exponent $1/(k-1)$ on the logarithmic factor where the site prints
-$1-1/(k-1)$. The page's solved status rests on the lower bounds of other
+above, agrees with the erdosproblems.com display for $k=3$, and for $k\ge4$
+yields the exponent $1/(k-1)$ on the logarithmic factor where erdosproblems.com
+prints $1-1/(k-1)$. The page's solved status rests on the lower bounds of other
 papers and is unchanged.
 [[../wiki/problems/graph_coloring/E1013/_index|#1013]]: Proposition 9 (printed p. 154,
-PDF p. 30), "There exists a constant $B$ so that $R(3,y)\le By^2\log\log
-y/\log y$", is the source of the site's "Graver and Yackel [GrYa68] proved
-$h_3(k)\gg k^2\log k/\log\log k$" through the translation above; the page's
-open status is unchanged, and the site's sharper bounds for $h_3(k)$ come
-from Problem 1104.
-[[../wiki/problems/ramsey_theory/E0165/_index|#165]]: Proposition 9 (p. 154) is the 1968
-upper bound $R(3,k)\ll k^2\log\log k/\log k$ that the page's origins
-attribute to Graver and Yackel and that Ajtai, Komlós and Szemerédi's
-Theorem 3 of 1980 improved by removing the $\log\log k$ factor; p. 154
-recalls Erdős's 1961 lower bound $Cy^2/(\log y)^2$ as the best known. The
-status is unchanged.
+PDF p. 30), "There exists a constant $B$ so that
+$R(3,y)\le By^2\log\log y/\log y$", is the source of erdosproblems.com's "Graver
+and Yackel [GrYa68] proved $h_3(k)\gg k^2\log k/\log\log k$" through the
+translation above; the page's open status is unchanged, and erdosproblems.com's
+sharper bounds for $h_3(k)$ come from Problem 1104.
+[[../wiki/problems/ramsey_theory/E0165/_index|#165]]: Proposition 9 (p. 154) is
+the 1968 upper bound $R(3,k)\ll k^2\log\log k/\log k$ that the page's origins
+attribute to Graver and Yackel and that Ajtai, Komlós and Szemerédi's Theorem 3
+of 1980 improved by removing the $\log\log k$ factor; p. 154 recalls Erdős's
+1961 lower bound $Cy^2/(\log y)^2$ as the best known. The status is unchanged.
 [[../wiki/problems/ramsey_theory/E0544/_index|#544]]: Corollary 4 (printed p. 149, PDF
 p. 25), "If there exists a $(3,y)$-graph on $n$ points with $e$ edges and
 with a point of valence $v$, then there exists a $(3,y+1)$-graph on $(n+3)$

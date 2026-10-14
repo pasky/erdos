@@ -34,9 +34,9 @@ with $a_i\in B$ all distinct.
 Estimate $l(n)$. In particular, is it true that $l(n)n^{-1/2}\to \infty$? Is it
 true that $l(n)< n^{1-c}$ for some $c>0$?
 
-**Formulation.** The site's wording as of 2026-09-18 (page last edited 23
-January 2026). "Sum-free" here means that no element of $B$ is the sum of two
-or more other elements of $B$ (with $r=2$ the relation $a_1=a_2$ has no
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 23 January 2026). "Sum-free" here means that no element of $B$ is the sum
+of two or more other elements of $B$ (with $r=2$ the relation $a_1=a_2$ has no
 solution in distinct elements, so the condition bites for $r\ge3$); this is
 the condition of Choi, Komlós and Szemerédi ("no integer in it is the sum of
 distinct integers of the same subsequence", p. 307) and of Erdős's $g(n)$ of
@@ -45,10 +45,10 @@ $l(n)$ of 1973 ("no $a_{i_j}$ is the distinct sum of other $a_{i_r}$'s",
 printed p. 130). It is stronger than the two-term condition of
 [[problems/additive_combinatorics/E0792/_index|Problem 792]], so $l(n)$ is at
 most that problem's function in its distinct-summand form and the two-term
-results do not transfer here. The site and the 1975 paper state the question
-for integers; Erdős stated it for real numbers. Integer sets are real sets, so
-the real-set minimum is at most $l(n)$, and Erdős's rotation proof of the
-first lower bound works for reals; whether the two functions agree is not
+results do not transfer here. erdosproblems.com and the 1975 paper state the
+question for integers; Erdős stated it for real numbers. Integer sets are real
+sets, so the real-set minimum is at most $l(n)$, and Erdős's rotation proof of
+the first lower bound works for reals; whether the two functions agree is not
 asserted here. The second displayed question is read for all sufficiently
 large $n$, the reading of Erdős's 1973 sentence "Probably $l(n)<n^{1-c}$ holds
 for some $c>0$" and of the commentary's bounds, all stated with $\ll$: since
@@ -59,15 +59,15 @@ convention on an estimate question and not a defect of the wording (an
 observation made on this page). The booklet of 1999 asks instead whether a
 subset of linear size is always possible (item 1.22 b)), which Choi's 1973
 bound $l(n)\ll n(\log\log n)^{-1/2}$ had already answered in the negative, and
-the 1975 upper bound answers again. The site's source keys are [Er65, p. 188],
-[Er73, p. 130] and [Va99, 1.22].
+the 1975 upper bound answers again. The erdosproblems.com source keys are [Er65,
+p. 188], [Er73, p. 130] and [Va99, 1.22].
 
-**Status.** Open, the site's label. The label was OPEN on 2026-09-18 and on
-2026-10-06. A full proof claim on the site's tab (13 September 2026), declaring
-the use of GPT Astra, claims $l(n)\gg n/(\log n)^2$. It is recorded as a pending
-claim on
+**Status.** Open, the erdosproblems.com label. The label was OPEN on 2026-09-18
+and on 2026-10-06. A full proof claim on the erdosproblems.com tab (13 September
+2026), declaring the use of GPT Astra, claims $l(n)\gg n/(\log n)^2$. It is
+recorded as a pending claim on
 [[problems/additive_combinatorics/E0790/claims/2026_09_13_korsky|its claim page]].
-The site's commentary does not mention the claim.
+The erdosproblems.com commentary does not mention the claim.
 
 The bounds in hand come from the Theorem of Choi, Komlós and Szemerédi (Trans.
 Amer. Math. Soc. 212 (1975), refereed), an accepted partial claim on
@@ -75,26 +75,27 @@ Amer. Math. Soc. 212 (1975), refereed), an accepted partial claim on
 $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$. These answer the first
 displayed question affirmatively and leave the second open. The paper's closing
 remark that it is "conceivable that $f(n)>n^{1-\epsilon}$ for every $\epsilon$"
-(p. 313) is the conjecture $l(n)\ge n^{1-o(1)}$ that the site attributes to the
-authors. The earlier lower bounds are Erdős's $l(n)\ge(n/2)^{1/2}$ (1965,
-inequality (30)) and Choi's improvement (Proc. Amer. Math. Soc. 39 (1973),
-refereed, not held). Choi's improvement is an accepted partial claim on
+(p. 313) is the conjecture $l(n)\ge n^{1-o(1)}$ that erdosproblems.com
+attributes to the authors. The earlier lower bounds are Erdős's
+$l(n)\ge(n/2)^{1/2}$ (1965, inequality (30)) and Choi's improvement (Proc. Amer.
+Math. Soc. 39 (1973), refereed, not held). Choi's improvement is an accepted
+partial claim on
 [[problems/additive_combinatorics/E0790/claims/1973_06_01_choi|its claim page]].
-Following Erdős 1973, the site writes Choi's bound as $(1+c)n^{1/2}$, while the
-zbMATH review of the paper gives $\frac{35}{36}n^{1/2}$. Erdős's 1965 claim that
-$l(n)=o(n)$ was withdrawn in 1973. In that year Choi proved
+Following Erdős 1973, erdosproblems.com writes Choi's bound as $(1+c)n^{1/2}$,
+while the zbMATH review of the paper gives $\frac{35}{36}n^{1/2}$. Erdős's 1965
+claim that $l(n)=o(n)$ was withdrawn in 1973. In that year Choi proved
 $l(n)\ll n(\log\log n)^{-1/2}$ (Proc. Amer. Math. Soc. 41 (1973), 415--418).
 Inequality (30) and this second 1973 paper have no claim pages. Inequality (30)
 appeared in a proceedings volume with only a sketch of its proof and is
-superseded by Choi's refereed bound. The site does not credit the second paper,
-whose bound the 1975 Theorem supersedes. The search whose scope the Current
-assessment records found no refereed improvement of either bound. This is a
-bounded negative finding, not a certificate of openness.
+superseded by Choi's refereed bound. erdosproblems.com does not credit the
+second paper, whose bound the 1975 Theorem supersedes. The search whose scope
+the Current assessment records found no refereed improvement of either bound.
+This is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/790](https://www.erdosproblems.com/790),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can resolve it; last edited 23 January 2026; source keys
-[Er65, p.188], [Er73, p.130], [Va99, 1.22]; commentary citing [CKS75] and
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can resolve it; last edited 23 January 2026; source
+keys [Er65, p.188], [Er73, p.130], [Va99, 1.22]; commentary citing [CKS75] and
 Problem 876; a thanks line naming one contributor; indicators "Formalised
 statement? No" and the OEIS indicator "Possible"), its one-comment discussion
 thread (30 October 2025) and its proof-claim tab with one full claim (13
@@ -147,7 +148,7 @@ https://www.erdosproblems.com/790, accessed 2026-09-18.
 
 **Formalization.** None in formal-conjectures: google-deepmind/formal-conjectures
 had no file `ErdosProblems/790.lean` on 2026-09-18, nor on 2026-10-07, and
-the site's indicator read "Formalised statement? No (create one)" on
+the erdosproblems.com indicator read "Formalised statement? No (create one)" on
 2026-09-18 and on 2026-10-06. The community database (teorth/erdosproblems)
 recorded, on 2026-09-18, the problem open (last update 31 August 2025), the
 statement not formalized and an OEIS entry marked "possible". The
@@ -156,18 +157,19 @@ third-party Lean formalization of the tab's claim is described under "The
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; OPEN,
-with the site's note that no finite computation can resolve it; last edited 23
-January 2026. The commentary records Erdős's $l(n)\ge(n/2)^{1/2}$ and Choi's
-improvement, which it writes as $l(n)>(1+c)n^{1/2}$ (the zbMATH review of
-[Ch73] gives the constant $35/36$); notes that Erdős believed he could prove
-$l(n)=o(n)$, asserting it in [Er65] and reporting in [Er73] that he could no
-longer reconstruct the proof; states the bounds $(n\log n/\log\log n)^{1/2}\ll
-l(n)\ll n/\log n$ of Choi, Komlós and Szemerédi [CKS75] and their conjecture
-$l(n)\ge n^{1-o(1)}$; and cross-references Problem 876. The thread has one
-comment (30 October 2025), a literature addition pointing to [CKS75], after
-which the site was updated. The proof-claim tab holds one full claim (below).
-The community database record says open.
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+resolve it; last edited 23 January 2026. The commentary records Erdős's
+$l(n)\ge(n/2)^{1/2}$ and Choi's improvement, which it writes as
+$l(n)>(1+c)n^{1/2}$ (the zbMATH review of [Ch73] gives the constant $35/36$);
+notes that Erdős believed he could prove $l(n)=o(n)$, asserting it in [Er65] and
+reporting in [Er73] that he could no longer reconstruct the proof; states the
+bounds $(n\log n/\log\log n)^{1/2}\ll l(n)\ll n/\log n$ of Choi, Komlós and
+Szemerédi [CKS75] and their conjecture $l(n)\ge n^{1-o(1)}$; and
+cross-references Problem 876. The thread has one comment (30 October 2025), a
+literature addition pointing to [CKS75], after which erdosproblems.com was
+updated. The proof-claim tab holds one full claim (below). The community
+database record says open.
 [[problems/additive_combinatorics/E0876/_index|Problem 876]] is the
 infinite-sequence form.
 
@@ -182,18 +184,19 @@ by the method of its Theorem 2, the displays "(30) $g(n)\ge\sqrt{(n/2)}$ and
 which $a_r\alpha\pmod1$ lies between $1/\sqrt{2n}$ and $\sqrt{2/n}$, calls both
 displays probably far from best possible, and claims that complicated arguments
 give $g(n)=o(n)$, adding that probably $g(n)<n^{1-c_9}$ for some $c_9>0$. The
-printed (30) is $\sqrt{n/2}$, the site's $(n/2)^{1/2}$. [Er73], printed p. 130,
-restates the definition for real numbers with "no $a_{i_j}$ is the distinct sum
-of other $a_{i_r}$'s", recalls Erdős's $l(n)\ge\sqrt{n/2}$ and Choi's
-improvement to $l(n)>(1+c)\sqrt n$ (a constant above $1$ that the zbMATH review
-of [Ch73] does not match: it gives $35/36$), expects $l(n)/\sqrt n\to\infty$
-while noting that Choi's method does not even seem to give $l(n)>2\sqrt n$,
-withdraws the claim $l(n)=o(n)$ for want of a reconstructible proof, and closes
-with "Probably $l(n)<n^{1-c}$ holds for some $c>0$." The Additions to the 1965
-paper (printed p. 190, a later layer) list Choi's papers of 1973. [Va99], item
-1.22 b): "Avoid $b_2$ [sic] $=b_2+b_3+\dots+b_m$ for any number of distinct
-$b_i\in B$. Is $k>cn$ always possible?" (the first symbol is evidently $b_1$).
-The three passages prove nothing beyond the sketch of (30).
+printed (30) is $\sqrt{n/2}$, erdosproblems.com's $(n/2)^{1/2}$. [Er73], printed
+p. 130, restates the definition for real numbers with "no $a_{i_j}$ is the
+distinct sum of other $a_{i_r}$'s", recalls Erdős's $l(n)\ge\sqrt{n/2}$ and
+Choi's improvement to $l(n)>(1+c)\sqrt n$ (a constant above $1$ that the zbMATH
+review of [Ch73] does not match: it gives $35/36$), expects
+$l(n)/\sqrt n\to\infty$ while noting that Choi's method does not even seem to
+give $l(n)>2\sqrt n$, withdraws the claim $l(n)=o(n)$ for want of a
+reconstructible proof, and closes with "Probably $l(n)<n^{1-c}$ holds for some
+$c>0$." The Additions to the 1965 paper (printed p. 190, a later layer) list
+Choi's papers of 1973. [Va99], item 1.22 b): "Avoid $b_2$ [sic]
+$=b_2+b_3+\dots+b_m$ for any number of distinct $b_i\in B$. Is $k>cn$ always
+possible?" (the first symbol is evidently $b_1$). The three passages prove
+nothing beyond the sketch of (30).
 
 **The bounds in hand.** The
 [[../library/additive_combinatorics/choi_1975_sum_free_subsequences/theorem|Theorem]]
@@ -202,15 +205,15 @@ every sequence of $n$ distinct integers has a sum-free subsequence consisting of
 $f(n)$ integers", a subsequence being sum-free "if no integer in it is the sum
 of distinct integers of the same subsequence"; "THEOREM. We have (1.1)
 $(n\log n/\log\log n)^{1/2}\ll f(n)\ll n(\log n)^{-1}$." The paper's $f(n)$ is
-the site's $l(n)$. The upper bound (Section 2, pp. 307--310) is the explicit set
-$A=A_0\cup\dots\cup A_{s+1}$ with $A_i=2^i[t,2t)$ for $i\le s$, $A_{s+1}$ any
-$n-t(s+1)$ further integers and $t=[n(\log n/3)^{-1}]$, shown by a lemma on
-sequences with few distinct pairwise sums to have no sum-free subsequence larger
-than a constant times $n(\log n)^{-1}$ (display (2.4)); the lower bound (Section
-3, pp. 310--313) extracts subsequences with monotone gaps and proves a
-Proposition P by induction on blocks. The closing remark (p. 313) says that
-iterating the lower-bound process gives $f(n)>\sqrt n\,w^2/2$, and after $k$
-iterations $f(n)>\sqrt n\,w^k/k!$, which reaches $n^{1/2+\epsilon}$, a
+erdosproblems.com's $l(n)$. The upper bound (Section 2, pp. 307--310) is the
+explicit set $A=A_0\cup\dots\cup A_{s+1}$ with $A_i=2^i[t,2t)$ for $i\le s$,
+$A_{s+1}$ any $n-t(s+1)$ further integers and $t=[n(\log n/3)^{-1}]$, shown by a
+lemma on sequences with few distinct pairwise sums to have no sum-free
+subsequence larger than a constant times $n(\log n)^{-1}$ (display (2.4)); the
+lower bound (Section 3, pp. 310--313) extracts subsequences with monotone gaps
+and proves a Proposition P by induction on blocks. The closing remark (p. 313)
+says that iterating the lower-bound process gives $f(n)>\sqrt n\,w^2/2$, and
+after $k$ iterations $f(n)>\sqrt n\,w^k/k!$, which reaches $n^{1/2+\epsilon}$, a
 computation the authors omit as messy; it ends: "It is conceivable that
 $f(n)>n^{1-\epsilon}$ for every $\epsilon$ and $n\ge n_0(\epsilon)$." The paper
 thus answers the first displayed question ($l(n)n^{-1/2}\to\infty$), leaves the
@@ -240,18 +243,18 @@ claim thread carries a third-party Lean formalization of the claim
 (2026-10-05), whose two authors state that the mathematics is entirely the
 claimant's, that the development was produced with the assistance of Claude
 (Anthropic), and that it is sorry-free with standard axioms only; this
-corpus has not built or audited it, so it gives no `formalized` evidence; the site's label and commentary do not adopt the
-claim. If accepted, it would answer the second
-displayed question in the negative ($l(n)\ge n^{1-o(1)}$ contradicts
-$l(n)<n^{1-c}$); on 2026-10-06 the site's label was OPEN, its commentary
-did not mention the claim, and no acceptance was on record.
+corpus has not built or audited it, so it gives no `formalized` evidence; the
+erdosproblems.com label and commentary do not adopt the claim. If accepted, it
+would answer the second displayed question in the negative ($l(n)\ge n^{1-o(1)}$
+contradicts $l(n)<n^{1-c}$); on 2026-10-06 the erdosproblems.com label was OPEN,
+its commentary did not mention the claim, and no acceptance was on record.
 
 **Search scope.** None of the routes below found a
 refereed improvement of either bound of [CKS75], a review of the tab's
 claim, or a second source for Choi's $(1+c)n^{1/2}$ in that form.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-18; the formal-conjectures directory listing (no file); the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures directory listing (no file); the
   community database record.
 - arXiv: the API queries `abs:"sum-free" AND abs:subsequence` sorted by
   date (nine records, titles read; all concern zero-sum invariants,

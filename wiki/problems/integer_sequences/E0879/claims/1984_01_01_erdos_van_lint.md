@@ -4,7 +4,7 @@ title: An optimal coprime set eventually contains a non-prime-power
 desc: |
   Erdős states in 1984, without proof, that for large $n$ an optimal admissible
   set must contain an element that is not a prime power, which is the second
-  question at $k=2$. The site credits the result to Erdős and van Lint.
+  question at $k=2$. erdosproblems.com credits the result to Erdős and van Lint.
 authors:
 - P. Erdős
 status: claimed
@@ -30,15 +30,15 @@ his joint result with van Lint on $G(n)$, that the case $r=1$ is easy: for
 large $n$ an optimal set contains an element that is not a prime power. He
 adds that a simple computation, which he did not carry out, would find the
 largest $n$ for which every element of an optimal set is a prime power. No
-proof is given. The site credits the result to Erdős and van Lint. In the
-notation of [[problems/integer_sequences/E0879/_index|Problem 879]] this is
+proof is given. erdosproblems.com credits the result to Erdős and van Lint. In
+the notation of [[problems/integer_sequences/E0879/_index|Problem 879]] this is
 the second question at $k=2$.
 
 **Covers.** The second question at $k=2$ only.
 
 **Standing.** Claimed: the result is stated without proof, and the volume is a
 society's commemoration volume, not a journal, so it is not listed as
-refereed. The site's credit on a problem it labeled OPEN is commentary, not
-acceptance.
+refereed. The erdosproblems.com credit on a problem it labeled OPEN is
+commentary, not acceptance.
 
 **Depends on.** No page of this wiki.

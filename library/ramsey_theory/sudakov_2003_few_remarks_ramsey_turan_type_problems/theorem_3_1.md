@@ -47,8 +47,8 @@ The $K_4$ corollary concerns independence numbers $ne^{-\omega(n)\sqrt{\ln n}}$,
 which are far below $n/\ln n=ne^{-\ln\ln n}$ (since $\ln\ln n=o(\sqrt{\ln
 n})$); it says nothing about the first part of Problem 1.1, the $n/\ln n$
 question of Erdős problem 615, and the paper itself assigns it to the
-"second part" (the $O(n^{1-\varepsilon})$ question). The site's Problem 615
-records it as "$\mathrm{rt}(n;4,ne^{-f(n)})=o(n^2)$ whenever
+"second part" (the $O(n^{1-\varepsilon})$ question). erdosproblems.com's Problem
+615 records it as "$\mathrm{rt}(n;4,ne^{-f(n)})=o(n^2)$ whenever
 $f(n)/\sqrt{\log n}\to\infty$", the same statement with $f=\omega\sqrt{\ln n}$.
 
 **Source.** B. Sudakov, *A few remarks on Ramsey--Turán-type problems*,
@@ -87,7 +87,7 @@ $k$ vertices.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0615/_index|Problem 615]]: the $K_4$
-  corollary is the prior partial result the site credits to Sudakov
+  corollary is the prior partial result erdosproblems.com credits to Sudakov
   [Su03]; it bounds the
   regime of much smaller independence numbers and does not answer the
   $n/\ln n$ question, which

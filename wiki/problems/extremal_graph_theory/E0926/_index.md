@@ -42,35 +42,37 @@ $x,y_1,\ldots,y_k,z_1,\ldots,z_{\binom{k}{2}}$, where $x$ is adjacent to all
 $y_i$ and each pair of $y_i,y_j$ is adjacent to a unique $z$, a different $z$
 for each pair, and $H_k$ has no other edges.
 
-**Notes.** The site writes "each pair of $y_i,y_j$ is adjacent to a unique
-$z_i$", an index that does not say on its face whether different pairs may share
-a $z$. The sources fix one vertex for each pair. Erdős's source [Er71] (item 15,
-pp. 103--104) defines the graph, there called $G_k$, as a vertex $x$ joined to
-$y_1,\ldots,y_k$ with each pair of the $y$'s joined to its own vertex $z$ (see
-the
+**Notes.** erdosproblems.com writes "each pair of $y_i,y_j$ is adjacent to a
+unique $z_i$", an index that does not say on its face whether different pairs
+may share a $z$. The sources fix one vertex for each pair. Erdős's source [Er71]
+(item 15, pp. 103--104) defines the graph, there called $G_k$, as a vertex $x$
+joined to $y_1,\ldots,y_k$ with each pair of the $y$'s joined to its own vertex
+$z$ (see the
 [[../library/extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|source card]]).
 Füredi's paper on this question [Fu91] (printed p. 76) defines the same graph
 $L^k$, the lowest three levels of the Boolean lattice, with one vertex $x_{ij}$
 for each pair $1\leq i<j\leq k$ joined to exactly $y_i$ and $y_j$, and the
-site's commentary credits that theorem with the answer. The site's own vertex
-list, with $\binom{k}{2}$ vertices $z$, has one for each pair. The modified
-Statement takes this reading: the vertex $z_{\{i,j\}}$ of the pair $\{i,j\}$,
-with edges $xy_i$, $y_iz_{\{i,j\}}$ and $y_jz_{\{i,j\}}$ and no others. The
-formal-conjectures statement (see Formalization) uses the same graph.
+erdosproblems.com commentary credits that theorem with the answer.
+erdosproblems.com's own vertex list, with $\binom{k}{2}$ vertices $z$, has one
+for each pair. The modified Statement takes this reading: the vertex
+$z_{\{i,j\}}$ of the pair $\{i,j\}$, with edges $xy_i$, $y_iz_{\{i,j\}}$ and
+$y_jz_{\{i,j\}}$ and no others. The formal-conjectures statement (see
+Formalization) uses the same graph.
 
-**Status.** The site labeled the problem PROVED. The status-defining source is
-Theorem 1.4 of Füredi ([Fu91], Combinatorica 11 (1991), 75--79, refereed). It
-bounds $\mathrm{ex}(n;L^{k,s})$ by an explicit multiple of $n^{3/2}$ for every
-$k\ge2$ and $s\ge1$. At $s=1$ the graph is the problem's $H_k$ of the modified
-Statement. The frontmatter is derived from two claim pages.
-[[problems/extremal_graph_theory/E0926/claims/1991_03_01_furedi|Füredi]] is
-accepted on the refereed publication and the acceptance of the site's curator,
-Thomas Bloom. The discussion link is the site's page that showed the label.
+**Status.** Bloom's catalog labeled the problem PROVED. The status-defining
+source is Theorem 1.4 of Füredi ([Fu91], Combinatorica 11 (1991), 75--79,
+refereed). It bounds $\mathrm{ex}(n;L^{k,s})$ by an explicit multiple of
+$n^{3/2}$ for every $k\ge2$ and $s\ge1$. At $s=1$ the graph is the problem's
+$H_k$ of the modified Statement. The frontmatter is derived from two claim
+pages. [[problems/extremal_graph_theory/E0926/claims/1991_03_01_furedi|Füredi]]
+is accepted on the refereed publication and the acceptance of the
+erdosproblems.com curator, Thomas Bloom. The discussion link is the
+erdosproblems.com page that showed the label.
 [[problems/extremal_graph_theory/E0926/claims/2003_11_01_alon_krivelevich_sudakov|Alon, Krivelevich and Sudakov]]
 records Theorem 6.1 of [AKS03] (Combin. Probab. Comput. 12 (2003), refereed), a
 second proof with the sharper bound $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. It is
-accepted on the refereed publication alone. The site's entry thanks Noga Alon,
-so the curator's credit is not listed as independent review.
+accepted on the refereed publication alone. The erdosproblems.com entry thanks
+Noga Alon, so the curator's credit is not listed as independent review.
 
 **Source.** [erdosproblems.com/926](https://www.erdosproblems.com/926), accessed
 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #926,
@@ -110,12 +112,12 @@ statement file also states the variant `erdos_926.variants.aks`, the bound
 $\mathrm{ex}(n;H_k)\le Ckn^{3/2}$ with an absolute constant $C$, with no proof
 link. The community database (teorth/erdosproblems, `data/problems.yaml`,
 accessed 2026-10-07) records the statement formalized since 2026-09-20, with
-`formal_status` unformalized, and the site's indicator reads "Formalised
-statement? Yes".
+`formal_status` unformalized, and the erdosproblems.com indicator reads
+"Formalised statement? Yes".
 
 ## Current assessment
 
-**The question (site formulation).** The statement above;
+**The question (erdosproblems.com formulation).** The statement above;
 PROVED; last edited 5 October 2025; source keys [Er69b], [Er71, p. 103],
 [Er74c, p. 79], [Er93, p. 334]. The commentary, in this page's words: the
 lower bound of order $n^{3/2}$ is trivial, since $H_k$ contains a 4-cycle for
@@ -131,9 +133,9 @@ Füredi's strict inequality and the definition of the graphs are on printed
 pp. 75--76, and the proof, through the set-system Lemma 1.5, on pp. 76--77.
 No step of the proof is checked in this corpus, and no Lean proof of the
 problem has been built or audited here; the standing rests on the refereed
-publication and the site's acceptance.
+publication and erdosproblems.com's acceptance.
 
-The catalog also credits Alon, Krivelevich and Sudakov [AKS03] with the
+Bloom's catalog also credits Alon, Krivelevich and Sudakov [AKS03] with the
 sharper dependence $\mathrm{ex}(n;H_k)\ll kn^{3/2}$. That is Theorem 6.1 of
 their paper (Section 6, pp. 491--493),
 $\mathrm{ex}(2n;L_t^{k,s})\le2^{1+1/t}(s+1)^{1/t}kn^{2-1/t}$, whose
@@ -142,7 +144,7 @@ $\mathrm{ex}(2n;H_k)\le4kn^{3/2}$, a second proof of the answer yes with its
 own claim page. The bound below is Füredi's and is not the best known
 dependence on $k$.
 
-**Search scope.** A bounded search beyond the catalog
+**Search scope (2026-09-09 UTC).** A bounded search beyond Bloom's catalog
 checked the [publisher's record](https://doi.org/10.1007/BF01375476) and
 queries for the paper title with correction/erratum terms, Problem 926 with
 2026 terms, and arXiv and X announcements using the problem number and

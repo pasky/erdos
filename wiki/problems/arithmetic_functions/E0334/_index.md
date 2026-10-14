@@ -35,18 +35,19 @@ p. 70, asks the same with $n^\epsilon$ for every $\epsilon>0$, and [Er82d],
 p. 55, item 4, asks it in the equivalent form that the least integer not a
 sum $a+b$ with no prime factor of $ab$ above $n$ exceeds $n^k$ for every $k$
 and $n>n_0(k)$. In the notation of the Statement, the question is whether
-$f(n)\le n^{o(1)}$, which the site expects and no source settles. The site
-records Erdős's original question as whether even $f(n)\le n^{1/3}$, the case
-$\alpha=3$; Balog's bound $f(n)\ll_\epsilon n^{4/(9\sqrt e)+\epsilon}$, with
-$4/(9\sqrt e)=0.2695\ldots<1/3$, answers that case yes. The site asks instead
-for the best function $f$, and that question sets the standing.
+$f(n)\le n^{o(1)}$, which erdosproblems.com expects and no source settles.
+erdosproblems.com records Erdős's original question as whether even
+$f(n)\le n^{1/3}$, the case $\alpha=3$; Balog's bound
+$f(n)\ll_\epsilon n^{4/(9\sqrt e)+\epsilon}$, with
+$4/(9\sqrt e)=0.2695\ldots<1/3$, answers that case yes. erdosproblems.com asks
+instead for the best function $f$, and that question sets the standing.
 
-**Status.** Open, the site's label (OPEN; page last edited 2026-04-03). The site
-records Erdős's original question as the case whether $f(n)\le n^{1/3}$. Balog
-[Ba89] answers this case yes. The result is recorded as the accepted partial
-claim [[problems/arithmetic_functions/E0334/claims/1989_09_01_balog|Balog's
-bound with exponent $4/(9\sqrt e)$]]. The best function $f$ is not determined,
-so the problem stays open.
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited
+2026-04-03). erdosproblems.com records Erdős's original question as the case
+whether $f(n)\le n^{1/3}$. Balog [Ba89] answers this case yes. The result is
+recorded as the accepted partial claim
+[[problems/arithmetic_functions/E0334/claims/1989_09_01_balog|Balog's bound with exponent $4/(9\sqrt e)$]].
+The best function $f$ is not determined, so the problem stays open.
 
 **Source.** [erdosproblems.com/334](https://www.erdosproblems.com/334), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #334,
@@ -72,16 +73,17 @@ https://www.erdosproblems.com/334.
 
 ## Current assessment
 
-The site's formulation above asks for the best function $f$ such that every
-$n$ is a sum of two $f(n)$-smooth integers. The one credited result is
+The erdosproblems.com formulation above asks for the best function $f$ such that
+every $n$ is a sum of two $f(n)$-smooth integers. The one credited result is
 Balog's theorem that $f(n)\ll_\epsilon n^{4/(9\sqrt e)+\epsilon}$ for every
 $\epsilon>0$, where $4/(9\sqrt e)=0.2695\ldots$, recorded at
 [[problems/arithmetic_functions/E0334/claims/1989_09_01_balog|Balog's bound
 with exponent $4/(9\sqrt e)$]] as an accepted partial claim on its refereed
 publication; it answers yes the question whether $f(n)\le n^{1/3}$, which
-the site records as Erdős's original form of the problem, and the site
-expects $f(n)\le n^{o(1)}$. The site also points to Problem 59 of Green's
-open problems list. No result determines $f$, so the problem stays open.
+erdosproblems.com records as Erdős's original form of the problem, and
+erdosproblems.com expects $f(n)\le n^{o(1)}$. erdosproblems.com also points to
+Problem 59 of Green's open problems list. No result determines $f$, so the
+problem stays open.
 
 The thread's two comments settle nothing and are not claims. A comment of
 2025-11-19 by the user Woett reports that a literature search made with
@@ -95,7 +97,7 @@ $1/(4\sqrt e)+\epsilon$. A comment of 2026-03-03 by the user my99n links
 the OEIS entry A062241 for the problem and a note, written with AI
 assistance, bounding that sequence by A045535, which is easier to compute.
 
-**Search scope.** The account above rests on the site's problem
+**Search scope.** The account above rests on the erdosproblems.com problem
 page and forum thread, on Erdős's statements of the question in [Er76e],
 [Er82d] and [ErGr80], and on the publisher's record of Balog's paper. Balog's
 proof is not checked here, and no literature search beyond these sources is

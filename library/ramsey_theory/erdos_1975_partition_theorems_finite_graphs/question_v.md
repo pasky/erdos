@@ -29,7 +29,7 @@ $$
 The display combines the limit symbol with an arrow, as printed. Here
 $r(G;k)$ is the least order forcing a monochromatic $G$ in every
 $k$-coloring (p. 515), so $r(C_3;k)$ is the $k$-color Ramsey number of the
-triangle and the question is Problem 554 with the site's notation
+triangle and the question is Problem 554 with the erdosproblems.com notation
 $R_k(C_{2n+1})/R_k(K_3)$. The paper's earlier remark, after the proof of
 Theorem 8 on p. 525, reads: "It is probably true that
 $\lim_{k\to\infty}r(C_{2n+1};k)/r(C_3;k)=0$ for $n\ge2$, but this is not

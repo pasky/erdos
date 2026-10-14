@@ -56,8 +56,8 @@ in a set of positive density (the paper's reference [4]).
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0865/_index|Problem 865]]: with the site's
-  $f_k(N)$ (the least size of $A\subseteq\{1,\ldots,N\}$ forcing $k$
-  distinct members with all pairwise sums in $A$) the theorem gives
+- [[../wiki/problems/additive_combinatorics/E0865/_index|Problem 865]]: with
+  erdosproblems.com's $f_k(N)$ (the least size of $A\subseteq\{1,\ldots,N\}$
+  forcing $k$ distinct members with all pairwise sums in $A$) the theorem gives
   $f_k(N)\le(\tfrac23+\varepsilon)N$ for large $N$; Theorem 8 sharpens it
-  to $\tfrac23-\varepsilon_k$, which is what the site quotes.
+  to $\tfrac23-\varepsilon_k$, which is what erdosproblems.com quotes.

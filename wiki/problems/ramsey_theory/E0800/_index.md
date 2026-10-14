@@ -34,14 +34,14 @@ where the implied constant is absolute.
 least $N$ such that every red-blue coloring of the edges of $K_N$ contains a
 monochromatic, not necessarily induced, copy of $G$.
 
-**Status.** The site labeled the problem PROVED, and its curator credits Alon
-[Al94]. The proof is Alon's
+**Status.** Bloom's catalog labeled the problem PROVED, and its curator credits
+Alon [Al94]. The proof is Alon's
 [[../library/ramsey_theory/alon_1994_subdivided_graphs_have_linear_ramsey_numbers/proposition_1_3|Proposition 1.3]],
 which gives the absolute bound $R(G)\leq12n$ for this exact class. This is a
 published-source assessment, distinct from independent acceptance of a local
 proof reconstruction. The frontmatter standing is derived from the claim pages.
-Alon's theorem is an accepted full claim on the site curator's acceptance and
-its refereed publication
+Alon's theorem is an accepted full claim on the erdosproblems.com curator's
+acceptance and its refereed publication
 ([[problems/ramsey_theory/E0800/claims/1994_07_01_alon|claim page]]). The later
 $6n$ bound of Li, Rousseau and Šoltés is a second accepted full claim on its
 refereed publication
@@ -106,8 +106,8 @@ constant remain outside this account's proof coverage.
 
 ## Progress
 
-The site attributes the problem to Burr and Erdős [BuEr75] and records it as a
-special case of [[problems/ramsey_theory/E0163/_index|Problem 163]], the
+erdosproblems.com attributes the problem to Burr and Erdős [BuEr75] and records
+it as a special case of [[problems/ramsey_theory/E0163/_index|Problem 163]], the
 Burr--Erdős conjecture, which Lee's theorem settles (Ann. of Math. 185 (2017);
 accepted on
 [[problems/ramsey_theory/E0163/claims/2015_05_18_lee|its claim page under Problem 163]],

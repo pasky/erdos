@@ -3,8 +3,8 @@ name: problems/irrationality/E0496
 title: Problem 496
 desc: |
   Asks whether, for every irrational $\alpha>0$ and $\epsilon>0$, some positive
-  integers $x,y,z$ satisfy $|x^2+y^2-z^2\alpha|<\epsilon$. The site's wording,
-  over every irrational $\alpha$, fails for negative $\alpha$.
+  integers $x,y,z$ satisfy $|x^2+y^2-z^2\alpha|<\epsilon$. The erdosproblems.com
+  wording, over every irrational $\alpha$, fails for negative $\alpha$.
 tags:
 - Number theory
 - Diophantine approximation
@@ -36,35 +36,36 @@ $$
 \lvert x^2+y^2-z^2\alpha\rvert <\epsilon?
 $$
 
-**Notes.** The site's wording fails at every negative irrational $\alpha$: for
-positive integers $x,y,z$ the quantity is $x^2+y^2+|\alpha|z^2\ge2+|\alpha|$,
-so $\alpha=-\sqrt2$ and $\epsilon=1$ admit no triple. The failure covers half
-the parameter's domain, so it is a failure of setting, not of range. The
-change replaces "$\alpha\in\mathbb{R}$" by "$\alpha>0$"; nothing else changes.
-The evidence is the setting the site names: its commentary calls the problem
-originally a conjecture of Oppenheim and credits the proof to Margulis [Ma89],
-and Margulis states and proves the conjecture for real nondegenerate indefinite
-quadratic forms in at least three variables (Banach Center Publ. 23 (1989), p.
-399, §1 and Theorem 1; §1 calls it Davenport's conjecture, and its footnote 1
-credits the case of at least five variables to Oppenheim, Ann. of Math. 32
-(1931), 271--288). The form $x^2+y^2-\alpha z^2$ is indefinite exactly when
-$\alpha>0$ and positive definite when $\alpha<0$, so the modified Statement
-is the ternary case of that conjecture with the coordinates made positive; the
-form follows from the setting, not from the result that settles it. The site's
+**Notes.** The erdosproblems.com wording fails at every negative irrational
+$\alpha$: for positive integers $x,y,z$ the quantity is
+$x^2+y^2+|\alpha|z^2\ge2+|\alpha|$, so $\alpha=-\sqrt2$ and $\epsilon=1$ admit
+no triple. The failure covers half the parameter's domain, so it is a failure of
+setting, not of range. The change replaces "$\alpha\in\mathbb{R}$" by
+"$\alpha>0$"; nothing else changes. The evidence is the setting
+erdosproblems.com names: its commentary calls the problem originally a
+conjecture of Oppenheim and credits the proof to Margulis [Ma89], and Margulis
+states and proves the conjecture for real nondegenerate indefinite quadratic
+forms in at least three variables (Banach Center Publ. 23 (1989), p. 399, §1 and
+Theorem 1; §1 calls it Davenport's conjecture, and its footnote 1 credits the
+case of at least five variables to Oppenheim, Ann. of Math. 32 (1931),
+271--288). The form $x^2+y^2-\alpha z^2$ is indefinite exactly when $\alpha>0$
+and positive definite when $\alpha<0$, so the modified Statement is the ternary
+case of that conjecture with the coordinates made positive; the form follows
+from the setting, not from the result that settles it. The erdosproblems.com
 credit to Oppenheim and Margulis corroborates Margulis's statement of the
 conjecture. The correction does not rest on Oppenheim's 1931 paper or on the
-Oslo chapter the site cites as [Ma89]. The sign is already unstated in Erdős's
-question of 1961 (p. 239), which asks about every irrational $\alpha$ in
-integers with no positivity or nonzero condition; there the zero triple
-answers the negative case trivially, and the site's requirement of positive
-integers turns that case into a failure. One result answers the site's wording
-(every irrational $\alpha$), not the modified Statement ($\alpha>0$), so it
-does not count toward the problem's standing. A Lean development
-`Erdos496.lean` in Boris Alexeev's repository, added on 2026-08-21 with Codex
-and GPT-5.6 Sol as formal authors ([file at a pinned
+Oslo chapter erdosproblems.com cites as [Ma89]. The sign is already unstated in
+Erdős's question of 1961 (p. 239), which asks about every irrational $\alpha$ in
+integers with no positivity or nonzero condition; there the zero triple answers
+the negative case trivially, and erdosproblems.com's requirement of positive
+integers turns that case into a failure. One result answers the
+erdosproblems.com wording (every irrational $\alpha$), not the modified
+Statement ($\alpha>0$), so it does not count toward the problem's standing. A
+Lean development `Erdos496.lean` in Boris Alexeev's repository, added on
+2026-08-21 with Codex and GPT-5.6 Sol as formal authors ([file at a pinned
 commit](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos496.lean)),
-proves the negation of the site's wording at $\alpha=-\sqrt2$, $\epsilon=1$
-(`not_erdos_496`); it is recorded as
+proves the negation of the erdosproblems.com wording at $\alpha=-\sqrt2$,
+$\epsilon=1$ (`not_erdos_496`); it is recorded as
 [[problems/irrationality/E0496/claims/2026_08_21_alexeev|a rejected claim page]].
 The page's standing judges the modified Statement.
 
@@ -74,24 +75,25 @@ $|(x^2+y^2)\alpha-z^2|<\epsilon$ and $|x^2+y^2-z^2\alpha|<\epsilon$ are
 solvable in integers, and says that the case $\alpha=\sqrt2$ was undecided;
 he prints neither $\alpha>0$, nor positivity of the coordinates, nor a
 nonzero condition. Without a nonzero condition the zero triple satisfies both
-inequalities for every $\alpha$. The site's statement keeps only the second
-inequality and requires all three integers to be positive.
+inequalities for every $\alpha$. The erdosproblems.com statement keeps only the
+second inequality and requires all three integers to be positive.
 
 For positive irrational $\alpha$ the positive-integer assertion follows from
 [[../library/irrationality/margulis_1989_indefinite_quadratic_forms_unipotent_flows/theorem_1_e0496_companion|Margulis's
 Theorem 1 and the complete coordinate transfer]]. The source theorem gives a
 nonzero integer vector; the companion checks every hypothesis and supplies the
-positive-coordinate step. The site's [Ma89] is Margulis's Oslo chapter; the
-Banach Center paper cited here is a distinct 1989 paper by the same author
-that states and proves the theorem the site credits.
+positive-coordinate step. erdosproblems.com's [Ma89] is Margulis's Oslo chapter;
+the Banach Center paper cited here is a distinct 1989 paper by the same author
+that states and proves the theorem erdosproblems.com credits.
 
-**Status.** The site, accessed 2026-09-04, labeled the problem
+**Status.** erdosproblems.com, accessed 2026-09-04, labeled the problem
 PROVED and credits the proof to Margulis [Ma89]. That label describes the
 modified Statement, which Margulis's theorem settles. The result is recorded as
 [[problems/irrationality/E0496/claims/1989_01_01_margulis|an accepted full claim]],
-with the site's curator as reviewer. Alexeev's Lean disproof of the site's
-wording is [[problems/irrationality/E0496/claims/2026_08_21_alexeev|rejected]],
-since it answers the site's wording, not the modified Statement.
+with the erdosproblems.com curator as reviewer. Alexeev's Lean disproof of the
+erdosproblems.com wording is
+[[problems/irrationality/E0496/claims/2026_08_21_alexeev|rejected]], since it
+answers the erdosproblems.com wording, not the modified Statement.
 
 **Source.** [erdosproblems.com/496](https://www.erdosproblems.com/496), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #496,
@@ -108,11 +110,11 @@ https://www.erdosproblems.com/496.
 - [Ma89 BCP] Margulis, G. A., Indefinite quadratic forms and unipotent flows on homogeneous spaces. Banach Center Publications 23 (1989), 399–409, Theorem 1, p. 399. [DOI](https://doi.org/10.4064/-23-1-399-409).
 
 **Formalization.** The Lean development `Erdos496.lean` in Alexeev's repository
-(2026-08-21; Codex and GPT-5.6 Sol) refutes the site's wording and proves the
-positive-parameter transfer from the Oppenheim–Margulis theorem taken as a
-hypothesis; it is linked at a pinned commit from the two claim pages above. This
-corpus's verification built it at that commit, with only the standard axioms
-behind both theorems and both statements matching the file's comparator
+(2026-08-21; Codex and GPT-5.6 Sol) refutes the erdosproblems.com wording and
+proves the positive-parameter transfer from the Oppenheim–Margulis theorem taken
+as a hypothesis; it is linked at a pinned commit from the two claim pages above.
+This corpus's verification built it at that commit, with only the standard
+axioms behind both theorems and both statements matching the file's comparator
 challenge. The hypothesis is the whole depth of the modified Statement and is
 unformalized, so the build formalizes neither Margulis's claim nor the modified
 Statement.
@@ -120,24 +122,26 @@ Statement.
 ## Current assessment
 
 The modified Statement, for positive irrational $\alpha$, is true by
-Margulis's theorem and the completed coordinate transfer. The site's wording
-fails at every negative irrational $\alpha$, as the Notes record.
+Margulis's theorem and the completed coordinate transfer. The erdosproblems.com
+wording fails at every negative irrational $\alpha$, as the Notes record.
 
 Full reconstruction of the Margulis dynamical proof remains separate from the
 completed transfer. No formal verification is claimed.
 
 The standing follows from the claim pages: Margulis's theorem is an accepted
-full claim, with the site's curator as reviewer, so the problem's status is
-solved with claim proved. Alexeev's Lean disproof of the site's wording is
-rejected and does not enter the derivation. The site (accessed 2026-10-07) and
-the community database record no formalization for the problem; the database
-records no proof claim, and the site's proof-claims tab listed none. The Lean
-development in Alexeev's repository, which neither mentions, is recorded under
-Formalization above.
+full claim, with the erdosproblems.com curator as reviewer, so the problem's
+status is solved with claim proved. Alexeev's Lean disproof of the
+erdosproblems.com wording is rejected and does not enter the derivation.
+erdosproblems.com (accessed 2026-10-07) and the community database record no
+formalization for the problem; the database records no proof claim, and the
+erdosproblems.com proof-claims tab listed none. The Lean development in
+Alexeev's repository, which neither mentions, is recorded under Formalization
+above.
 
 ## Known Results
 
-- [[../library/number_theory/erdos_1961_unsolved_problems/conjecture_p239|Er61, p. 239 and formulations]]: the printed variants and their relation to the site's wording.
+- [[../library/number_theory/erdos_1961_unsolved_problems/conjecture_p239|Er61, p. 239 and formulations]]:
+  the printed variants and their relation to the erdosproblems.com wording.
 - [[../library/irrationality/margulis_1989_indefinite_quadratic_forms_unipotent_flows/theorem_1_e0496_companion|Ma89 BCP, Theorem 1, p. 399]]: exact external theorem and complete deduction for positive $\alpha$ with all variables positive.
 
 The Davenport–Heilbronn five-variable reference is retained as inherited context; it is not used as a ternary theorem.

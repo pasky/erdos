@@ -48,6 +48,6 @@ $\log\log x$.
 
 **Acceptance.** Refereed: the paper appeared in the Duke Mathematical Journal,
 volume 135 (2006). Its Crossref record gives the online publication date as 1
-November 2006. Not reviewed: the site's curator credits Odoni with the disproof
-and cites this paper for the sharpest estimate of $A(x)$. That is not a credit
-for the disproof.
+November 2006. Not reviewed: the erdosproblems.com curator credits Odoni with
+the disproof and cites this paper for the sharpest estimate of $A(x)$. That is
+not a credit for the disproof.

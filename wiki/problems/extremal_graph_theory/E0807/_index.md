@@ -35,26 +35,26 @@ $$
 
 almost surely?
 
-**Formulation.** The site's wording as of 2026-09-18 (the page carries no
-last-edited date). $\tau(G)$ is the $\tau(G)$ of [KRW88] and [Al15] and the
-$bc(G)$ of [ABH17]: "the minimum number of pairwise edge disjoint complete
-bipartite subgraphs of $G$ so that each edge of $G$ belongs to exactly one of
-them" ([Al15], p. 1). The random graph is $G(n,1/2)$, and "almost surely" is
-read as the sources' "with high probability", that is, with probability tending
-to $1$ as $n\to\infty$ (for each $n$ the probability space is finite). Every
-graph satisfies $\tau(G)\le n-\alpha(G)$: the edges can be partitioned into
-stars centered at the vertices outside a maximum independent set ([KRW88], p.
-638; [Al15], p. 1), so the question is whether this bound is typically attained.
-The conjecture is Erdős's, as [KRW88] records it (p. 638): "Restricting
-$\mathbf F$ to stars gives the bound $\tau(G)\le n-\alpha(G)$ for a graph $G$ on
-$n$ vertices; Erdős conjectured that $\tau(G)=n-\alpha(G)$ for almost all
-graphs" (no reference is given there); [Al15] (p. 1) writes "Erdős conjectured
-(see [8]) that for almost every graph $G$ equality holds, i.e., that for the
-random graph $G(n,0.5)$, $\tau(G)=n-\alpha(G)$ with high probability", [8] being
-[KRW88].
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+carries no last-edited date). $\tau(G)$ is the $\tau(G)$ of [KRW88] and [Al15]
+and the $bc(G)$ of [ABH17]: "the minimum number of pairwise edge disjoint
+complete bipartite subgraphs of $G$ so that each edge of $G$ belongs to exactly
+one of them" ([Al15], p. 1). The random graph is $G(n,1/2)$, and "almost surely"
+is read as the sources' "with high probability", that is, with probability
+tending to $1$ as $n\to\infty$ (for each $n$ the probability space is finite).
+Every graph satisfies $\tau(G)\le n-\alpha(G)$: the edges can be partitioned
+into stars centered at the vertices outside a maximum independent set ([KRW88],
+p. 638; [Al15], p. 1), so the question is whether this bound is typically
+attained. The conjecture is Erdős's, as [KRW88] records it (p. 638):
+"Restricting $\mathbf F$ to stars gives the bound $\tau(G)\le n-\alpha(G)$ for a
+graph $G$ on $n$ vertices; Erdős conjectured that $\tau(G)=n-\alpha(G)$ for
+almost all graphs" (no reference is given there); [Al15] (p. 1) writes "Erdős
+conjectured (see [8]) that for almost every graph $G$ equality holds, i.e., that
+for the random graph $G(n,0.5)$, $\tau(G)=n-\alpha(G)$ with high probability",
+[8] being [KRW88].
 
-**Status.** Disproved. The site labeled the problem DISPROVED. The two results
-below and their acceptance evidence are recorded on the claim pages
+**Status.** Disproved. Bloom's catalog labeled the problem DISPROVED. The two
+results below and their acceptance evidence are recorded on the claim pages
 [[problems/extremal_graph_theory/E0807/claims/2014_02_26_alon|Alon's Theorem 1.1]]
 and
 [[problems/extremal_graph_theory/E0807/claims/2014_09_22_alon_bohman_huang|Alon, Bohman and Huang's Theorem 1.1]],
@@ -83,12 +83,11 @@ this bound and Chung and Peng's $n-o((\log n)^{3+\varepsilon})$ (second-hand).
 
 **Source.** [erdosproblems.com/807](https://www.erdosproblems.com/807),
 accessed 2026-09-18T15:02Z: the problem page
-(DISPROVED, with the site's remark that the answer is negative; no last-edited
-date; source key [KRW88]; commentary citing [Al15] and [ABH17]; additional
-thanks credited to Noga Alon), its empty discussion thread and its empty
-proof-claim tab.
-Cite as: T. F. Bloom, Erdős Problem #807, https://www.erdosproblems.com/807,
-accessed 2026-09-18.
+(DISPROVED, with the erdosproblems.com remark that the answer is negative; no
+last-edited date; source key [KRW88]; commentary citing [Al15] and [ABH17];
+additional thanks credited to Noga Alon), its empty discussion thread and its
+empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #807,
+https://www.erdosproblems.com/807, accessed 2026-09-18.
 
 **References.**
 
@@ -113,9 +112,10 @@ accessed 2026-09-18.
 - [KRW88] Kratzke, T., Reznick, B. and West, D., Eigensharp graphs:
   decomposition into complete bipartite subgraphs. Trans. Amer. Math. Soc. 308
   (1988), no. 2, 637--653, doi:10.1090/S0002-9947-1988-0929670-5 (received
-  26 January 1987, as its Crossref record gives it; the site's reference text
-  gives "(1988), 637--653" with no volume). The definition of $\tau(G)$,
-  p. 637; the star bound and Erdős's conjecture, p. 638. Library home:
+  26 January 1987, as its Crossref record gives it; the erdosproblems.com
+  reference text gives "(1988), 637--653" with no volume). The definition of
+  $\tau(G)$, p. 637; the star bound and Erdős's conjecture, p. 638. Library
+  home:
   [[../library/extremal_graph_theory/kratzke_1988_eigensharp_graphs_decomposition_complete_bipartite/_index|kratzke_1988_eigensharp_graphs_decomposition_complete_bipartite]]
   (the AMS back file); paged at
   [[../library/extremal_graph_theory/kratzke_1988_eigensharp_graphs_decomposition_complete_bipartite/conjecture_p638|conjecture_p638]].
@@ -132,7 +132,7 @@ accessed 2026-09-18.
 
 **Formalization.** None in the catalogs. google-deepmind/formal-conjectures
 has no file `ErdosProblems/807.lean` (on 2026-09-18 and on 2026-10-07); the
-site's indicator reads "Formalised statement? No" (2026-10-07); the
+erdosproblems.com indicator reads "Formalised statement? No" (2026-10-07); the
 community database (teorth/erdosproblems, `data/problems.yaml`) lists the
 problem disproved as of its entry's last update of 31 August 2025,
 unformalized, with no formalized statement and no formal proof. A Lean
@@ -144,12 +144,12 @@ the corpus has not built or audited it, so it gives no formalized evidence.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; DISPROVED; no
-last-edited date. The commentary credits [Al15] with showing the statement
-false, with the bound $\tau(G)\le n-\alpha(G)-1$ almost surely, and [ABH17] with
-the stronger bound $\tau(G)\le n-(1+c)\alpha(G)$ almost surely for an absolute
-constant $c>0$. The discussion thread and the proof-claim tab are empty. The
-community database record says disproved.
+**The question (erdosproblems.com formulation).** The statement above;
+DISPROVED; no last-edited date. The commentary credits [Al15] with showing the
+statement false, with the bound $\tau(G)\le n-\alpha(G)-1$ almost surely, and
+[ABH17] with the stronger bound $\tau(G)\le n-(1+c)\alpha(G)$ almost surely for
+an absolute constant $c>0$. The discussion thread and the proof-claim tab are
+empty. The community database record says disproved.
 
 **The origin.** [KRW88], printed pp. 637--638: the abstract defines $\tau(G)$ as
 "the minimum number of complete bipartite subgraphs needed to partition the
@@ -166,10 +166,10 @@ for almost all graphs." The paper gives no reference for the conjecture and does
 not return to it; the next paragraph notes that $\tau(G)=n-\alpha(G)$ for every
 graph without $4$-cycles, whose only complete bipartite subgraphs are stars. The
 paper's subject is the eigenvalue lower bound $\tau(G)\ge r(G)$ and the graphs
-attaining it. The site's key for the problem is this paper, with the reference
-text "Kratzke, Thomas and Reznick, Bruce and West, Douglas, Eigensharp graphs:
-decomposition into complete bipartite subgraphs. Trans. Amer. Math. Soc. (1988),
-637-653."
+attaining it. The erdosproblems.com key for the problem is this paper, with the
+reference text "Kratzke, Thomas and Reznick, Bruce and West, Douglas, Eigensharp
+graphs: decomposition into complete bipartite subgraphs. Trans. Amer. Math. Soc.
+(1988), 637-653."
 
 **The disproof.**
 [[../library/extremal_graph_theory/alon_2015_bipartite_decomposition_random_graphs/theorem_1_1|Theorem 1.1]]
@@ -243,15 +243,15 @@ $\tau(G(n,p))=n-\alpha(G)$ whp ([Al15], p. 13; [ABH17], p. 6); [Al15]'s Theorem
 abstract of [BoHo22] claims that the equality holds whp for constant $p$ below a
 threshold $p_0\approx0.312$ and that
 $bp(G_{n,p})=n-(1+\Theta(1))\alpha(G_{n,p})$ whp for $p_0<p<1/2$; a lead, known
-from its abstract, on a variant the site does not ask.
+from its abstract, on a variant erdosproblems.com does not ask.
 
 **Search scope.** None of the routes below found a source restoring the
 equality, a dispute of the two theorems, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-18; the site's reference text for [KRW88]; the formal-conjectures
-  directory listing and tree as of that day (no file 807); the community
-  database as of that day.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the erdosproblems.com reference text for [KRW88]; the
+  formal-conjectures directory listing and tree on that day (no file 807); the
+  community database on that day.
 - The primary sources, at the pages cited: [Al15] pp. 1--2 and 13--14;
   [ABH17] pp. 1--2 and 6--8; [KRW88] printed pp. 637--638 and p. 653 (the
   references).

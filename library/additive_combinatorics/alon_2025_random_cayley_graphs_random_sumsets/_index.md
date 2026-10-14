@@ -5,7 +5,7 @@ desc: |
   short list, improving bounds for random Cayley graphs and non-sumsets.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T14:54:07Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # additive_combinatorics/alon_2025_random_cayley_graphs_random_sumsets
@@ -14,12 +14,12 @@ updated: 2026-10-08T14:54:07Z
 
 [[additive_combinatorics/alon_2025_random_cayley_graphs_random_sumsets/conjecture_2|conjecture_2]]: The conjecture, attributed to Alon's earlier work and restated by Alon and
 Pham, that random Cayley graphs G(p) have independence number O~(1/p) whp,
-as random regular graphs of the same degree do; the site's account says it
-would give the conjectured n^(1/2+o(1)) of Problem 788.
+as random regular graphs of the same degree do; erdosproblems.com's account
+says it would give the conjectured n^(1/2+o(1)) of Problem 788.
 
 [[additive_combinatorics/alon_2025_random_cayley_graphs_random_sumsets/theorem_4|theorem_4]]: The Alon–Pham bound on the typical independence number of sparse random
 Cayley and Cayley sum graphs, the first improvement of the exponent 2 in
-Alon's p^(-2) bound; the input the site's reduction uses for the
+Alon's p^(-2) bound; the input erdosproblems.com's reduction uses for the
 n^(3/5+o(1)) bound of Problem 788.
 
 [[additive_combinatorics/alon_2025_random_cayley_graphs_random_sumsets/theorem_5|theorem_5]]: The Alon–Pham upper bound O~(n^(3/5)) for Green's largest f(n) such that
@@ -65,9 +65,9 @@ contains one of them whenever $|A|\ge\delta n$. Theorem 8 (p. 5) shows that
 for a random subset $A$ of $\mathbb Z_p$, $p$ a large prime, of density
 $1/\sqrt p$, the longest arithmetic progression in $A+A$ has length
 $\Theta(\log p)$ whp. For Erdős problem 788 the relevant result is Theorem 4,
-the independence number: the site's commentary combines a reduction sketched
-in the problem's discussion thread (a random $B$ whose Cayley sum graph on
-the interval has independence number $\ll p^{-c-o(1)}$ gives
+the independence number: the erdosproblems.com commentary combines a reduction
+sketched in the problem's discussion thread (a random $B$ whose Cayley sum graph
+on the interval has independence number $\ll p^{-c-o(1)}$ gives
 $f(n)\le n^{c/(c+1)+o(1)}$) with Theorem 4 to obtain $f(n)\le n^{3/5+o(1)}$,
 and Conjecture 2 ($\tilde O(p^{-1})$, p. 2, stated for $G(p)$) would give the
 conjectured $n^{1/2+o(1)}$. Theorem 5 concerns a different function also
@@ -90,10 +90,10 @@ Source: <https://arxiv.org/abs/2509.02561v1>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0788/_index|#788]]:
 Theorem 4 (p. 3), the independence number $\tilde O(p^{-3/2})$ of the random
-Cayley and Cayley sum graphs, is the input of the site's reduction giving
-$f(n)\le n^{3/5+o(1)}$; Conjecture 2 (p. 2) is the input from which the
-site's account says the conjectured $n^{1/2+o(1)}$ would follow. The
-reduction is the thread's, not a statement of this paper, which does not
+Cayley and Cayley sum graphs, is the input of erdosproblems.com's reduction
+giving $f(n)\le n^{3/5+o(1)}$; Conjecture 2 (p. 2) is the input from which
+erdosproblems.com's account says the conjectured $n^{1/2+o(1)}$ would follow.
+The reduction is the thread's, not a statement of this paper, which does not
 mention the problem; Theorem 5's function is not the problem's.
 
 **Results.** Labels and pages are those of v1.

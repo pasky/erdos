@@ -29,12 +29,12 @@ $$
 \liminf_{N\to\infty}\frac{\lvert A\cap \{1,\ldots,N\}\rvert}{N^{1/2}}=0?
 $$
 
-**Status.** Open, in the site's label. The accepted partial claim
+**Status.** Open, in the erdosproblems.com label. The accepted partial claim
 [[problems/additive_bases/E0158/claims/1955_01_01_erdos|Erdős's theorem for Sidon sets]]
 answers the question yes for sets in which each integer has at most one
-representation, as the site's remark records. No claim covers sets in which some
-integer has two. No proof claim on the site, no release item and no other
-claimed resolution names the problem.
+representation, as the erdosproblems.com remark records. No claim covers sets in
+which some integer has two. No proof claim on erdosproblems.com, no release item
+and no other claimed resolution names the problem.
 
 **Source.** [erdosproblems.com/158](https://www.erdosproblems.com/158), accessed
 2026-09-10. Cite as: T. F. Bloom, Erdős Problem #158,
@@ -45,12 +45,12 @@ https://www.erdosproblems.com/158.
 
 ## Current assessment
 
-The site's formulation reads "there are most [sic] $2$ solutions", omitting
-"at"; the question concerns the intended "at most" reading. It asks about
-one fixed infinite set with at most two unordered representations of each
+The erdosproblems.com formulation reads "there are most [sic] $2$ solutions",
+omitting "at"; the question concerns the intended "at most" reading. It asks
+about one fixed infinite set with at most two unordered representations of each
 integer, counting a diagonal once. A counterexample needs $A(N)\ge c\sqrt N$
 for some $c>0$ and every sufficiently large $N$, not just along a
-subsequence. The site labeled the problem open (2026-09-10), in agreement
+subsequence. Bloom's catalog labeled the problem open (2026-09-10), in agreement
 with the fixed-$g$ liminf conjecture stated in
 [[../library/additive_bases/pliego_2024_erdos_turan_conjecture_growth_b_2/_index|Pliego's manuscript]],
 arXiv:2405.04154v1 (7 May 2024), p. 2, equation (1.4). Erdős's theorem that

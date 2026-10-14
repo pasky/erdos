@@ -30,19 +30,18 @@ whose induced edges miss a color: the case $r=5$ of
 [[problems/extremal_graph_theory/E0617/_index|Problem 617]]. The write-up is
 the file `erdos617_computer_assisted_proof.md` of the repository
 sprite143/erdos617-r5-computer-proof (first commit 2026-07-21, pinned at its
-commit of 2026-07-26), posted to the site's proof-claim tab on 2026-07-21 by
-Conner Silverstein, whose entry names Claude Fable 5 and Chatgpt Sol 5.6 as
-the systems used throughout. In a hypothetical
-balanced coloring each color graph on $26$ vertices has independence number
-at most five and at most eleven edges on every six vertices. The main lemma
-says that every graph with these two properties has at least $66$ edges; it
-is proved by an induction through the orders $11$, $16$, $21$ and $26$ (a
-minimum-degree vertex, its neighborhood and the remaining non-neighbors,
-with double counting of the hereditary conditions), using degree counting,
-results on color-critical graphs, and twelve finite computations for the
-exceptional cases, each a formula shown unsatisfiable with a DRAT proof
-checked by `drat-trim`. Five color classes would then need $5\cdot66=330$
-edges, but $K_{26}$ has $325$.
+commit of 2026-07-26), posted to the erdosproblems.com proof-claim tab on
+2026-07-21 by Conner Silverstein, whose entry names Claude Fable 5 and Chatgpt
+Sol 5.6 as the systems used throughout. In a hypothetical balanced coloring each
+color graph on $26$ vertices has independence number at most five and at most
+eleven edges on every six vertices. The main lemma says that every graph with
+these two properties has at least $66$ edges; it is proved by an induction
+through the orders $11$, $16$, $21$ and $26$ (a minimum-degree vertex, its
+neighborhood and the remaining non-neighbors, with double counting of the
+hereditary conditions), using degree counting, results on color-critical graphs,
+and twelve finite computations for the exceptional cases, each a formula shown
+unsatisfiable with a DRAT proof checked by `drat-trim`. Five color classes would
+then need $5\cdot66=330$ edges, but $K_{26}$ has $325$.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Conner
 Silverstein (account Sprite144) on 21 July 2026, giving "Claude Fable 5 -
@@ -74,8 +73,8 @@ Chatgpt Sol 5.6" as the AI used:
 **Depends on.** Nothing in this wiki.
 
 **Standing.** Claimed. The write-up says it is new and not peer reviewed; the
-site's label was FALSIFIABLE. The claim carries three comments. Marco Del Pin
-(23 July 2026; also issue 1 of the repository) reports an independent,
+erdosproblems.com label was FALSIFIABLE. The claim carries three comments. Marco
+Del Pin (23 July 2026; also issue 1 of the repository) reports an independent,
 AI-assisted verification with human review of the method and results: the
 checkers rebuilt from source, the ten $16$-vertex instances regenerated and
 the two $11$-vertex pairs re-checked ($12/12$ verified, all CNFs

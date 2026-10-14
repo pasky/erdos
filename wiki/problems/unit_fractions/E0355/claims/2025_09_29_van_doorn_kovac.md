@@ -76,10 +76,10 @@ arbitrarily close to $2$, and the announcement of the paper on 14 September
 
 **Acceptance.** The paper is published in Acta Arithmetica, a refereed journal,
 and its acknowledgments thank an anonymous referee. That is the `refereed`
-evidence. The site's curator, Thomas Bloom, credits the result to van Doorn and
-Kovač in the commentary of the problem page. The problem page carried the label
-PROVED (LEAN) and was last edited 18 November 2025. The curator is independent
-of the authors, and that credit is the `reviewed` evidence.
+evidence. The erdosproblems.com curator, Thomas Bloom, credits the result to van
+Doorn and Kovač in the commentary of the problem page. The problem page carried
+the label PROVED (LEAN) and was last edited 18 November 2025. The curator is
+independent of the authors, and that credit is the `reviewed` evidence.
 
 **Formalization link.** The linked Lean file, in van Doorn's repository at the
 commit of 1 June 2026 that last changed it, describes itself as a
@@ -94,7 +94,7 @@ $\lambda=1.01$, given to Gemini3 (as the thread names it) to make it easier to
 formalize and then formalized by Aristotle, later extended with Aristotle to
 versions of the paper's Theorems 1--3 and 12. It is the authors' own
 formalization and therefore a link on this page; it was not built or audited
-here, so it gives no `formalized` evidence, and the Lean suffix of the site's
-label PROVED (LEAN) is the catalog's label. The formal-conjectures statement
-file, whose `formal_proof` attribute points to the repository's unpinned
-`main` branch, is a statement and is not linked.
+here, so it gives no `formalized` evidence, and the Lean suffix of the
+erdosproblems.com label PROVED (LEAN) is the erdosproblems.com label. The
+formal-conjectures statement file, whose `formal_proof` attribute points to the
+repository's unpinned `main` branch, is a statement and is not linked.

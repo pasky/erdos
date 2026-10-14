@@ -33,15 +33,15 @@ following" (Lemma 3 follows).
 Here $e$ is the number of edges of a graph on $n$ vertices and
 $\hat t=\max\{t[u,v]:[u,v]\in E\}$ the largest number of triangles on one
 edge (p. 39, display (9)). The references (p. 49): [2] is the author's note
-with Nikiforov, Dokl. BAN 32 (1979), no. 10, 1315--1318, the site's KhNi79;
-[4] is P. Erdős, On a theorem of Rademacher--Turán, Illinois J. Math. 6
+with Nikiforov, Dokl. BAN 32 (1979), no. 10, 1315--1318, erdosproblems.com's
+KhNi79; [4] is P. Erdős, On a theorem of Rademacher--Turán, Illinois J. Math. 6
 (1962), 122--127 (held as
 [[extremal_graph_theory/erdos_1962_theorem_rademacher_turan/_index|erdos_1962_theorem_rademacher_turan]];
 the sentences attributed to it were not checked there); [5] is P. Erdős, On
 the number of complete subgraphs and circuits contained in graphs, Časopis
 pěst. mat. 94 (1969), 290--296 (not held); [6] is B. Bollobás and P. Erdős,
 Unsolved problems, Proc. Fifth British Combinatorial Conf. 1975, Congr.
-Numer. XV (1976) (not held). The problem as displayed is the site's
+Numer. XV (1976) (not held). The problem as displayed is the erdosproblems.com
 statement of Problem 905 in the paper's notation; the paper's own proof of
 it is
 [[extremal_graph_theory/khadzhiivanov_1988_maximal_number_triangles_common_edge/corollary_3|Corollary 3]]
@@ -72,8 +72,8 @@ None; a statement of the problem and its history.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0905/_index|Problem 905]]: the problem in the
-  exact form the site asks, its history as the author gives it (Erdős's
+  exact form erdosproblems.com asks, its history as the author gives it (Erdős's
   linear bound and the constant $30^{-18}$, the conjecture with $O(1)$ in
   Erdős's 1962 and 1969 papers, the precise form in the 1975 Aberdeen
   collection), and the attribution of the complete solution to the 1979
-  note with Nikiforov, the site's KhNi79.
+  note with Nikiforov, erdosproblems.com's KhNi79.

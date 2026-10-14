@@ -27,7 +27,7 @@ updated: 2026-10-08T14:06:00Z
 there exist $\sqrt{n}$ monochromatic paths, all of the same colour, which cover
 all vertices?
 
-**Formulation.** The site's wording on 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (the page shows no
 last-edited date). The paths may share vertices, and a single vertex counts as
 a path: Erdős and Gyárfás's $2\sqrt n$ bound is proved by taking each vertex
 their theorem leaves uncovered as a path of a single vertex, and the resolving
@@ -36,46 +36,45 @@ defines paths of length zero (Section 2). The number of paths is an integer,
 so "$\sqrt n$ paths" means at most $\lfloor\sqrt n\rfloor$ paths, and the
 construction below shows $\lfloor\sqrt n\rfloor$ are needed. The question is
 Problem 2 of Erdős and Gyárfás (1995), "Is Cor. 2 true with $\sqrt n$ instead
-of $2\sqrt n$?", where Corollary 2 is their $2\sqrt n$ bound; the site's
-commentary counts $2\sqrt n$ vertices where the source counts paths. Two
-monochromatic paths of possibly different colors always cover the vertex set
-(Gerencsér and Gyárfás, 1967), which is why the same-color requirement is the
-point of the problem.
+of $2\sqrt n$?", where Corollary 2 is their $2\sqrt n$ bound; the
+erdosproblems.com commentary counts $2\sqrt n$ vertices where the source counts
+paths. Two monochromatic paths of possibly different colors always cover the
+vertex set (Gerencsér and Gyárfás, 1967), which is why the same-color
+requirement is the point of the problem.
 
-**Status.** The site labeled the problem PROVED, and its curator credits
+**Status.** Bloom's catalog labeled the problem PROVED, and its curator credits
 Pokrovskiy, Versteegen and Williams with the affirmative answer. Here the
 problem stands as claimed, through the pending full claim of Chen and Chen
-described below. The site's label rested on the large-$n$ theorem, which is read
-here as settling the question for large $n$ only. The credited result is Theorem
-1.3 of the paper of Pokrovskiy, Versteegen and Williams (J. Combin. Theory Ser.
-B 176 (2026), 551--560, refereed; the statement here follows arXiv v2 of 7
-October 2025). It states the conclusion for all $n>20^{40}$. For $n\le20^{40}$
-the paper proves only its Proposition 3.4 (p. 7): fewer than $\sqrt n+20^4$
-monochromatic paths of one color always suffice. Its remark that $\sqrt n+10$
-paths suffice for every $n$ is announced "with some additional technical
-effort", not proved. The statement for every $n\ge1$ is claimed in an unrefereed
-2026 preprint of Chen and Chen. This preprint is the one entry of the site's
-proof-claims tab, and the site had not adopted it. Two claim pages record the
-results, their postings and their acceptance evidence, and the frontmatter
-standing derives from them.
+described below. The erdosproblems.com label rested on the large-$n$ theorem,
+which is read here as settling the question for large $n$ only. The credited
+result is Theorem 1.3 of the paper of Pokrovskiy, Versteegen and Williams (J.
+Combin. Theory Ser. B 176 (2026), 551--560, refereed; the statement here follows
+arXiv v2 of 7 October 2025). It states the conclusion for all $n>20^{40}$. For
+$n\le20^{40}$ the paper proves only its Proposition 3.4 (p. 7): fewer than
+$\sqrt n+20^4$ monochromatic paths of one color always suffice. Its remark that
+$\sqrt n+10$ paths suffice for every $n$ is announced "with some additional
+technical effort", not proved. The statement for every $n\ge1$ is claimed in an
+unrefereed 2026 preprint of Chen and Chen. This preprint is the one entry of the
+erdosproblems.com proof-claims tab, and erdosproblems.com had not adopted it.
+Two claim pages record the results, their postings and their acceptance
+evidence, and the frontmatter standing derives from them.
 [[problems/ramsey_theory/E0518/claims/2024_09_05_pokrovskiy_versteegen_williams|Pokrovskiy, Versteegen and Williams 2024]]
-is accepted on the site's credit and the refereed publication, as a partial
-claim for every $n>20^{40}$.
+is accepted on the erdosproblems.com credit and the refereed publication, as a
+partial claim for every $n>20^{40}$.
 [[problems/ramsey_theory/E0518/claims/2026_07_24_chen_chen|Chen and Chen 2026]]
 is claimed, for the statement for every $n$. No review of the proof is recorded.
 
 **Source.** [erdosproblems.com/518](https://www.erdosproblems.com/518),
-accessed 2026-09-18: the problem page (labeled PROVED, with the site's
-note that the question is answered in the affirmative; no last-edited
-date shown; source key [ErGy95]; commentary
-citing [GeGy67] and [PVW24]; the formalization indicator answering no), its
-discussion thread (two comments of 29 July 2026, one deleted and
-one about where to submit a proof claim; nothing mathematical) and its
-proof-claims tab, which lists one claim: a full proof credited to Chen and
-Chen, submitted 2026-07-29 with a link to their arXiv preprint and no
-comments, whose summary says that the preprint excludes counterexamples at
-the small values of $n$ left open and so settles the question for every
-$n$. Cite as: T. F. Bloom, Erdős Problem #518,
+accessed 2026-09-18: the problem page (labeled PROVED, with the
+erdosproblems.com note that the question is answered in the affirmative; no
+last-edited date shown; source key [ErGy95]; commentary citing [GeGy67] and
+[PVW24]; the formalization indicator answering no), its discussion thread (two
+comments of 29 July 2026, one deleted and one about where to submit a proof
+claim; nothing mathematical) and its proof-claims tab, which lists one claim: a
+full proof credited to Chen and Chen, submitted 2026-07-29 with a link to their
+arXiv preprint and no comments, whose summary says that the preprint excludes
+counterexamples at the small values of $n$ left open and so settles the question
+for every $n$. Cite as: T. F. Bloom, Erdős Problem #518,
 https://www.erdosproblems.com/518, accessed 2026-09-18.
 
 **References.**
@@ -119,14 +118,14 @@ https://www.erdosproblems.com/518, accessed 2026-09-18.
 **Formalization.** None. No file for this problem exists in
 [google-deepmind/formal-conjectures](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems)
 (main, fetched 2026-09-18T10:41Z; the directory
-`FormalConjectures/ErdosProblems/` listed in full, 673 entries), the site's
-indicator shows no formalized statement, and the community database (fetched
-2026-09-18) lists the problem as proved and not formalized, with no formal
-proof, as of its last update on 31 August 2025.
+`FormalConjectures/ErdosProblems/` listed in full, 673 entries), the
+erdosproblems.com indicator shows no formalized statement, and the community
+database (fetched 2026-09-18) lists the problem as proved and not formalized,
+with no formal proof, as of its last update on 31 August 2025.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED; no last-edited date shown. The commentary attributes the
 problem to Erdős and Gyárfás, credits [GeGy67] with the two-path cover when
 the two paths may differ in color, credits [ErGy95] with the $2\sqrt n$
@@ -139,8 +138,8 @@ described under Source.
 can be easily proved." The footnote's sketch takes a vertex $P$ and two paths,
 one in $G$ and one in $\bar G$, that meet only at $P$, and asserts that a pair
 of largest total length, over all choices of $P$ and of the pair, covers every
-vertex: this is the two-path cover the site and [PVW24] (Theorem 1.1) attribute
-to the paper; its Theorem 1 (p. 168) is the path Ramsey number
+vertex: this is the two-path cover erdosproblems.com and [PVW24] (Theorem 1.1)
+attribute to the paper; its Theorem 1 (p. 168) is the path Ramsey number
 $g(k,l)=k+\lfloor(l+1)/2\rfloor$ for $k\ge l$, whose diagonal case is the
 monochromatic path on $\lfloor2n/3\rfloor+1$ vertices that [ErGy95] reproves as
 Corollary 1. [ErGy95]: the
@@ -195,15 +194,15 @@ red--blue edge-colored $K_n$ can be covered by at most $\sqrt n$ monochromatic
 paths, all of the same color", by a minimal counterexample argument (Section
 3, pp. 3--13; no review of it is recorded). Provenance: arXiv v1 of 24 July
 2026, the only version on 2026-09-18, with no journal reference; submitted to
-the site's proof-claims tab on 2026-07-29 by a site user, with no comments;
-the site's label and commentary do not mention it; no citing paper was found
-in the search recorded below. An author's proof claim in an unrefereed
-preprint, with no documented acceptance and no independent review: the claim
-page
+the erdosproblems.com proof-claims tab on 2026-07-29 by an erdosproblems.com
+user, with no comments; the erdosproblems.com label and commentary do not
+mention it; no citing paper was found in the search recorded below. An author's
+proof claim in an unrefereed preprint, with no documented acceptance and no
+independent review: the claim page
 [[problems/ramsey_theory/E0518/claims/2026_07_24_chen_chen|Chen and Chen 2026]]
 records it as claimed; the problem's standing is claimed through it, while the
-accepted partial claim (every $n>20^{40}$) and the site's label do not rest on
-it. If it is accepted, the large-$n$ qualification above falls away.
+accepted partial claim (every $n>20^{40}$) and the erdosproblems.com label do
+not rest on it. If it is accepted, the large-$n$ qualification above falls away.
 
 **Adjacent results (abstracts only).** [LTY26] claims the cycle analog,
 $\lceil\sqrt n\rceil$ monochromatic cycles of one color covering the vertex
@@ -219,7 +218,7 @@ statement.
 refereed proof for $n\le20^{40}$, a dispute of Theorem 1.3, or an
 acceptance of [ChCh26].
 
-- The site: problem page, discussion thread and proof-claims tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claims tab; the
   formal-conjectures directory listing at the pinned commit (no file); the
   community database record.
 - arXiv: the API records of 2409.03623 (two versions, no journal

@@ -5,7 +5,7 @@ desc: |
   Theorem 2 of Erdős and Lovász's 1975 paper shows that a $3$-chromatic
   $r$-uniform hypergraph has a vertex in more than $2^{r-1}/(4r)$ edges, a bound
   exponential in $r$ that answers the question. It is published and credited by
-  the site as the solution.
+  erdosproblems.com as the solution.
 authors:
 - P. Erdős
 - L. Lovász
@@ -49,10 +49,11 @@ Bolyai **10**, North-Holland, Amsterdam, 1975, 609–627, Mathematical Reviews M
 52 #2938
 ([[../library/graph_coloring/erdos_1975_problems_results_3_chromatic_hypergraphs_related/_index|source card]]).
 The venue is an edited proceedings volume, not a journal, so the page lists no
-refereed evidence. The site's curator, Thomas Bloom, marked the problem proved
-and named this paper as the solution, citing the bound $2^{r-1}/(4r)$ (site
-page accessed 2026-09-07). This corpus checked the theorem's statement and the
-specialization to $q=2$. It has not reconstructed or reviewed the proof.
+refereed evidence. The erdosproblems.com curator, Thomas Bloom, marked the
+problem proved and named this paper as the solution, citing the bound
+$2^{r-1}/(4r)$ (erdosproblems.com page accessed 2026-09-07). This corpus checked
+the theorem's statement and the specialization to $q=2$. It has not
+reconstructed or reviewed the proof.
 
 **Formalization.** The Lean file among the links, in Boris Alexeev's repository
 `lean-proofs`, declares itself a formalization of a solution to Problem 833,

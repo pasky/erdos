@@ -6,7 +6,7 @@ desc: |
   and series, and the few purely probabilistic and topological problems that
   carry no subject co-tag.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-12T00:09:36Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # Analysis
@@ -50,8 +50,8 @@ $1$.
 
 [[problems/analysis/E0510/_index|E0510/]]: Asks whether every set $A$ of $N$
 positive integers has some $\theta$ with $\sum_{n\in A}\cos(n\theta)<-cN^{1/2}$,
-for an absolute constant $c>0$. The site's wording, over all integers, fails for
-sets containing $0$.
+for an absolute constant $c>0$. The erdosproblems.com wording, over all
+integers, fails for sets containing $0$.
 
 [[problems/analysis/E0511/_index|E0511/]]: Asks whether, for each $c>1$, the set
 where a monic polynomial has modulus below $1$ has $O_c(1)$ connected components
@@ -109,7 +109,7 @@ function and an additive one.
 [[problems/analysis/E0908/_index|E0908/]]: Asks whether a real function $f$ with
 every difference $f(x+h)-f(x)$ measurable is the sum of a measurable function,
 an additive function and a function $r$ with $r(x+h)=r(x)$ for each $h$ and
-almost all $x$. The site's wording asks for a continuous first term.
+almost all $x$. The erdosproblems.com wording asks for a continuous first term.
 
 [[problems/analysis/E0909/_index|E0909/]]: Asks whether, for each $n\geq 2$,
 there is a space $S$ of dimension $n$ whose square $S^2$ also has dimension $n$.
@@ -219,9 +219,9 @@ cannot refute the existence.
 
 [[problems/analysis/E1164/_index|E1164/]]: Asks whether $\log
 R_n\asymp\sqrt{\log n}$ in probability, where $R_n$ is the radius of the largest
-origin-centered disc a planar simple random walk covers within $n$ steps. The
-site's "almost every" wording is corrected, and the result is proved by Révész
-and by Dembo–Peres–Rosen–Zeitouni.
+origin-centered disc a planar simple random walk covers within $n$ steps.
+erdosproblems.com's "almost every" wording is corrected, and the result is
+proved by Révész and by Dembo–Peres–Rosen–Zeitouni.
 
 [[problems/analysis/E1165/_index|E1165/]]: Asks, for each integer $r\ge3$, for
 the probability that a planar simple random walk has exactly $r$ sites tied for
@@ -256,5 +256,5 @@ Entire and complex functions, real functions and measure, exponential sums and
 series, and the few purely probabilistic and topological problems that carry no
 subject co-tag.
 
-Site tags routed here: analysis, combinatorics, iterated functions, number
-theory, probability, topology.
+erdosproblems.com tags routed here: analysis, combinatorics, iterated functions,
+number theory, probability, topology.

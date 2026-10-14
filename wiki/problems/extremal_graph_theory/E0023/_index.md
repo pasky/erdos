@@ -23,9 +23,9 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** Can every triangle-free graph on $5n$ vertices be made bipartite
 by deleting at most $n^2$ edges?
 
-**Status.** Falsifiable. The site's label is a note on an open problem (Current
-assessment), not a claim. The frontmatter standing derives from the one claim
-page under `claims/`, Ferudun's finite-range claim
+**Status.** Falsifiable. The erdosproblems.com label is a note on an open
+problem (Current assessment), not a claim. The frontmatter standing derives from
+the one claim page under `claims/`, Ferudun's finite-range claim
 ([[problems/extremal_graph_theory/E0023/claims/2026_06_26_ferudun|claim page]]).
 That claim is partial and settles nothing for all $n$.
 
@@ -55,8 +55,8 @@ target is $D_2(G)\leq N^2/25$. The
 gives, for sufficiently large $n$, both the weaker general bound
 $D_2(G)\leq(50/47)n^2$ and the target $n^2$ bound in two specified
 edge-density ranges.
-These conclusions do not resolve the universal question. The site's label
-falsifiable records that a counterexample would be a finite graph, whose
+These conclusions do not resolve the universal question. The erdosproblems.com
+label falsifiable records that a counterexample would be a finite graph, whose
 triangle-freeness and failure of every cut to leave at most $n^2$ uncut
 edges can be checked by finite enumeration; no counterexample is known, and
 the label asserts nothing about the answer. No counterexample or proof for
@@ -65,9 +65,9 @@ all $n$ is established.
 A primary-source search covered the [2021 arXiv
 record](https://arxiv.org/abs/2103.14179v1), publication records, later arXiv
 work and research announcements, including X. It found no proof of the full
-conjecture and no counterexample, and the site's page carried no proof claim on
-2026-10-06. A bounded search does not establish openness, priority or the
-absence of unindexed work.
+conjecture and no counterexample, and the erdosproblems.com page carried no
+proof claim on 2026-10-06. A bounded search does not establish openness,
+priority or the absence of unindexed work.
 
 Alper Ferudun's
 [arXiv:2606.28041v1](https://arxiv.org/abs/2606.28041v1), submitted 26 June
@@ -88,8 +88,8 @@ pending partial claim on
 
 Three smaller results bear on the question and have no claim page, for the
 reasons given. (1) OEIS A389646 (Elijah Beregovsky, 9 October 2025), linked
-from the site's external-database panel, gives the maximum number of edge
-deletions over triangle-free graphs on $N$ vertices for every $N\le23$, by
+from erdosproblems.com's external-database panel, gives the maximum number of
+edge deletions over triangle-free graphs on $N$ vertices for every $N\le23$, by
 direct enumeration: $a(5)=1$, $a(10)=4$, $a(15)=9$ and $a(20)=16$, so the
 question's answer is yes for $n\le4$. A data entry is not a dated
 manuscript, and its range lies inside Ferudun's claim, which cites the
@@ -114,7 +114,7 @@ The formal-conjectures file for the problem
 ([`ErdosProblems/23.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/23.lean)
 at its commit of 2026-10-06) states `erdos_23` under
 `category research open` with no `formal_proof` attribute; the community
-database (teorth/erdosproblems, as of 2026-10-06) records the statement
+database (teorth/erdosproblems, read 2026-10-06) records the statement
 formalized since 2026-02-17 and `formal_status` unformalized.
 
 ## Known Results

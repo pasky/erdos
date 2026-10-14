@@ -3,7 +3,7 @@ name: problems/extremal_graph_theory/E0610
 title: Problem 610
 desc: |
   Asks for estimates of the clique transversal number of an $n$-vertex graph.
-  Proved under the site's PROVED (LEAN) label, with the answer
+  Proved under erdosproblems.com's PROVED (LEAN) label, with the answer
   $n-\Theta(\sqrt{n\log n})$: the Joret–Micek–Reed–Smid clique-coloring bound
   gives the upper bound and Kim's triangle-free graphs the lower bound.
 tags:
@@ -40,29 +40,28 @@ $$
 
 for some absolute constant $c>0$?
 
-**Formulation.** The site's wording as accessed 2026-09-19 (page last edited 28
-May 2026). The definition is the 1992 paper's: a clique
-is an inclusion-maximal complete subgraph with at least two vertices, so
-isolated vertices are not cliques (p. 279), and $\tau(G)$ is its
-$\tau_C(G)$. The page-level question is the estimate; the two "in particular"
-questions are yes-or-no questions about all graphs on $n$ vertices, that is
-about $T(n)=\max\{\tau(G):|V(G)|=n\}$: is $T(n)\le n-\omega(n)\sqrt n$ for
-some $\omega(n)\to\infty$, and is $T(n)\le n-c\sqrt{n\log n}$ for some
-absolute $c>0$ (for all large $n$)? The first is the 1992 authors'
-expectation on p. 280 ("we expect that $\tau_C(G)\le n-f(n)\sqrt n$ holds for
-some function $f(n)$ tending to infinity with $n$"); the second names the
-order the lower bound allows, since a triangle-free graph has
-$\tau(G)=n-\alpha(G)$ (Lemma 1(b)) and Kim's graphs have
-$\alpha(G)\le9\sqrt{n\log n}$, so $T(n)\ge n-9\sqrt{n\log n}$ for large $n$.
-The site's label PROVED (LEAN) carries a catalog suffix explained under
-Formalization.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-19 (page last
+edited 28 May 2026). The definition is the 1992 paper's: a clique is an
+inclusion-maximal complete subgraph with at least two vertices, so isolated
+vertices are not cliques (p. 279), and $\tau(G)$ is its $\tau_C(G)$. The
+page-level question is the estimate; the two "in particular" questions are
+yes-or-no questions about all graphs on $n$ vertices, that is about
+$T(n)=\max\{\tau(G):|V(G)|=n\}$: is $T(n)\le n-\omega(n)\sqrt n$ for some
+$\omega(n)\to\infty$, and is $T(n)\le n-c\sqrt{n\log n}$ for some absolute $c>0$
+(for all large $n$)? The first is the 1992 authors' expectation on p. 280 ("we
+expect that $\tau_C(G)\le n-f(n)\sqrt n$ holds for some function $f(n)$ tending
+to infinity with $n$"); the second names the order the lower bound allows, since
+a triangle-free graph has $\tau(G)=n-\alpha(G)$ (Lemma 1(b)) and Kim's graphs
+have $\alpha(G)\le9\sqrt{n\log n}$, so $T(n)\ge n-9\sqrt{n\log n}$ for large
+$n$. The erdosproblems.com label PROVED (LEAN) carries a catalog suffix
+explained under Formalization.
 
-**Status.** PROVED (LEAN), the site's label, whose suffix is a catalog label
-explained under Formalization. Both displayed questions are proved:
-$T(n)=n-\Theta(\sqrt{n\log n})$. The status-defining source is Corollary 2 of
-Joret, Micek, Reed and Smid (Electron. J. Combin. 28 (2021), P3.51, refereed and
-open access). The result and its acceptance evidence are recorded on the claim
-page
+**Status.** PROVED (LEAN), the erdosproblems.com label, whose suffix is a
+catalog label explained under Formalization. Both displayed questions are
+proved: $T(n)=n-\Theta(\sqrt{n\log n})$. The status-defining source is Corollary
+2 of Joret, Micek, Reed and Smid (Electron. J. Combin. 28 (2021), P3.51,
+refereed and open access). The result and its acceptance evidence are recorded
+on the claim page
 [[problems/extremal_graph_theory/E0610/claims/2020_06_19_joret_micek_reed_smid|Joret--Micek--Reed--Smid]],
 from which the frontmatter is derived. The corollary says that every $n$-vertex
 graph has clique chromatic number $O(\sqrt{n/\log n})$, that is, a coloring with
@@ -76,14 +75,14 @@ Theorem 1.1 (1995, refereed) with the 1992 paper's Lemma 1(b). The 1992 paper's
 own bound is its Theorem 1, $\tau(G)\le n-\sqrt{2n}+\frac32$.
 
 The frontmatter keeps `proved` on the refereed theorem with three
-qualifications, each written out in the Current assessment. First, the site's
-"(LEAN)" suffix attaches to a company-hosted Lean file that declares the two
-theorems it uses (the 2021 corollary and Kim's theorem) with `sorry`. So the
-file is a kernel-checkable derivation of the statement from unproved inputs, not
-a kernel-checked proof of the statement. Second, the resolution reached the site
-through an unrefereed four-page note that a thread post credits to GPT-5.4 Pro,
-while the theorem it rests on is refereed. The note and the file are the pending
-claim on
+qualifications, each written out in the Current assessment. First,
+erdosproblems.com's "(LEAN)" suffix attaches to a company-hosted Lean file that
+declares the two theorems it uses (the 2021 corollary and Kim's theorem) with
+`sorry`. So the file is a kernel-checkable derivation of the statement from
+unproved inputs, not a kernel-checked proof of the statement. Second, the
+resolution reached erdosproblems.com through an unrefereed four-page note that a
+thread post credits to GPT-5.4 Pro, while the theorem it rests on is refereed.
+The note and the file are the pending claim on
 [[problems/extremal_graph_theory/E0610/claims/2026_04_21_przemek_chojecki|its own claim page]].
 Third, a thread post of 26 August 2026 reports that GPT-5.6 Sol claims a gap in
 the proof of Theorem 1 of the 2021 paper, from which Corollary 2 is derived. The
@@ -92,8 +91,8 @@ the thread it is unanswered beyond a note that the authors were contacted.
 
 **Source.** [erdosproblems.com/610](https://www.erdosproblems.com/610),
 accessed 2026-09-19: the problem page (PROVED
-(LEAN), the site's label for a positive answer whose proof was verified in
-Lean; last edited 28 May 2026; source keys [EGT92], [Er94], [Er99];
+(LEAN), the erdosproblems.com label for a positive answer whose proof was
+verified in Lean; last edited 28 May 2026; source keys [EGT92], [Er94], [Er99];
 commentary citing [Ki95], [AKS80], [JMRS21], Problems 165, 151 and 611 and
 two entries of the graphs problem collection, and thanks to Stijn Cambie and
 Przemek Chojecki), its eight-comment discussion thread (21 April
@@ -133,23 +132,23 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
 - [AKS80] Ajtai, M., Komlós, J. and Szemerédi, E., A note on Ramsey numbers.
   J. Combin. Theory Ser. A 29 (1980), no. 3, 354--360, DOI
   10.1016/0097-3165(80)90030-8. Theorem 3, p. 358: $R(3,x)<100x^2/\ln x$, from
-  which the site's bound $H(n)\gg\sqrt{n\log n}$ follows by the elementary step
-  recorded on its result page (the paper prints no bound on $H(n)$); used
-  here as context only. Library home:
+  which erdosproblems.com's bound $H(n)\gg\sqrt{n\log n}$ follows by the
+  elementary step recorded on its result page (the paper prints no bound on
+  $H(n)$); used here as context only. Library home:
   [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/_index|ajtai_1980_note_ramsey_numbers]];
   paged at
   [[../library/ramsey_theory/ajtai_1980_note_ramsey_numbers/theorem_3|theorem_3]].
 - [Er94] Erdős, P., Problems and results on set systems and hypergraphs.
   Extremal problems for finite sets (Visegrád, 1991), Bolyai Soc. Math. Stud.
-  3, János Bolyai Math. Soc., Budapest (1994), 217--227 (the site's reference
-  text at `/bibs/Er94`, read 2026-09-19, gives "(1994),
-  217-227. (MR 1319165)"; the volume and publisher from the graphs problem
-  collection's bibliography). Not held: a 1994 volume chapter after the Rényi
-  archive's cutoff (on 2026-09-19 the archive's index listed no paper
-  after 1989), with no open copy identified. The graphs problem collection's
-  page "CliqueTransversalUpperBound" (read 2026-09-19) attributes to it the
-  question "Is it true that $\tau(G)<n-g(n)\sqrt n$ and $g(n)\to\infty$ as
-  $n\to\infty$?" (its notation), the first question here.
+  3, János Bolyai Math. Soc., Budapest (1994), 217--227 (the erdosproblems.com
+  reference text at `/bibs/Er94`, read 2026-09-19, gives "(1994), 217-227. (MR
+  1319165)"; the volume and publisher from the graphs problem collection's
+  bibliography). Not held: a 1994 volume chapter after the Rényi archive's
+  cutoff (on 2026-09-19 the archive's index listed no paper after 1989), with no
+  open copy identified. The graphs problem collection's page
+  "CliqueTransversalUpperBound" (read 2026-09-19) attributes to it the question
+  "Is it true that $\tau(G)<n-g(n)\sqrt n$ and $g(n)\to\infty$ as $n\to\infty$?"
+  (its notation), the first question here.
 - [Er99] Erdős, P., A selection of problems and results in combinatorics.
   Combin. Probab. Comput. 8 (1999), 1--6. Not held; no open copy identified.
 - [Note26] *A note on the clique-transversal number*, a four-page note dated
@@ -174,8 +173,8 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
   Erdős--Rogers function. arXiv:2607.16118v1 (17 July 2026); named in the
   thread for the same reason; also a lead on Problem 620. Not held.
 
-**Formalization.** The suffix of the site's label PROVED (LEAN) is a catalog
-label with no file in the collection: formal-conjectures has no file
+**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is a
+catalog label with no file in the collection: formal-conjectures has no file
 `ErdosProblems/610.lean` (main, 2026-09-19); the page records no formalized
 statement; the community database (teorth/erdosproblems, `data/problems.yaml`)
 lists `status` "proved (Lean)" as of its record's last update of 7 June 2026,
@@ -201,10 +200,10 @@ claims no credit from it.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement
-above; PROVED (LEAN), the site's label for a positive answer whose proof was
-verified in Lean; last edited 28 May 2026. The commentary, in the corpus's
-words: the problem is attributed to Erdős, Gallai and Tuza [EGT92], who
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
+above; PROVED (LEAN), the erdosproblems.com label for a positive answer whose
+proof was verified in Lean; last edited 28 May 2026. The commentary, in the
+corpus's words: the problem is attributed to Erdős, Gallai and Tuza [EGT92], who
 proved $\tau(G)\le n-\sqrt{2n}+O(1)$; this would be best possible, because
 Kim's lower bound for $R(3,k)$ [Ki95] gives triangle-free graphs whose
 independent sets all have size $O(\sqrt{n\log n})$ (the commentary points to
@@ -232,10 +231,10 @@ positive constants $c_1$ and $c_2$---see [2] and [6], respectively. For this
 reason we expect that $\tau_C(G)\le n-f(n)\sqrt n$ holds for some function
 $f(n)$ tending to infinity with $n$. Instead, we can only prove
 $\tau_C(G)\le n-\sqrt{2n}+c$ for a small constant $c$, see Theorems 1 and 3."
-The first displayed question is this expectation. The site's keys [Er94] and
-[Er99] are not held; the graphs problem collection attributes the first
-question to [Er94] in the form "Is it true that $\tau(G)<n-g(n)\sqrt n$ and
-$g(n)\to\infty$ as $n\to\infty$?".
+The first displayed question is this expectation. The erdosproblems.com keys
+[Er94] and [Er99] are not held; the graphs problem collection attributes the
+first question to [Er94] in the form "Is it true that $\tau(G)<n-g(n)\sqrt n$
+and $g(n)\to\infty$ as $n\to\infty$?".
 
 **Status-defining source.**
 [[../library/extremal_graph_theory/joret_2021_tight_bounds_clique_chromatic_number/corollary_2|Corollary 2]]
@@ -270,11 +269,11 @@ and $\tau(G)\le n-\lceil n/q\rceil$. By Corollary 2 there are $A$ and $n_0$
 with $q\le A\sqrt{n/\log n}$ for $n\ge n_0$, so
 $\tau(G)\le n-\frac1A\sqrt{n\log n}$: the second question has the answer yes
 with any $c<1/A$ for all large $n$, and the first with
-$\omega(n)=c\sqrt{\log n}$. This is the step the site's commentary states, the
-union of every color class but the largest, and Lemma 2 of the note; it is
-written here independently, is
-elementary, and carries no independent review. The constant $A$ is not
-explicit in [JMRS21], so no value of $c$ is recorded.
+$\omega(n)=c\sqrt{\log n}$. This is the step the erdosproblems.com commentary
+states, the union of every color class but the largest, and Lemma 2 of the note;
+it is written here independently, is elementary, and carries no independent
+review. The constant $A$ is not explicit in [JMRS21], so no value of $c$ is
+recorded.
 
 **The lower bound.**
 [[../library/ramsey_theory/kim_1995_ramsey_number_has_order_magnitude/theorem_1_1|Kim's Theorem 1.1]]
@@ -283,14 +282,15 @@ large $n$ has a triangle-free graph on $n$ vertices with independence number
 at most $9\sqrt{n\log n}$. In a triangle-free graph the cliques are the
 edges and a clique transversal is a vertex cover, so $\tau(G)=n-\alpha(G)$
 (Lemma 1(b) of [EGT92], p. 282); hence $T(n)\ge n-9\sqrt{n\log n}$ for large
-$n$, and $T(n)=n-\Theta(\sqrt{n\log n})$. This is the sharpness the site's
-commentary asserts. The 1992 paper's own results are
+$n$, and $T(n)=n-\Theta(\sqrt{n\log n})$. This is the sharpness the
+erdosproblems.com commentary asserts. The 1992 paper's own results are
 [[../library/extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/theorem_1|Theorem 1]],
 $\tau(G)\le n-\sqrt{2n}+\frac32$ (p. 283;
-the site's "$+O(1)$"), and Theorem 3, $n-\sqrt{2n}+\sqrt2$ by a linear-time
-algorithm (p. 285). The exact conjecture $\tau(G)\le n-r(n)$ (Problem 1,
-which the site records as the authors' speculation) is [[problems/extremal_graph_theory/E0151/_index|Problem 151]]
-and stays open: the transfer gives the order of $r(n)$, not its constant.
+erdosproblems.com's "$+O(1)$"), and Theorem 3, $n-\sqrt{2n}+\sqrt2$ by a
+linear-time algorithm (p. 285). The exact conjecture $\tau(G)\le n-r(n)$
+(Problem 1, which erdosproblems.com records as the authors' speculation) is
+[[problems/extremal_graph_theory/E0151/_index|Problem 151]] and stays open: the
+transfer gives the order of $r(n)$, not its constant.
 
 **The label and its artifact.** The "(LEAN)" suffix rests on the ulam.ai
 file described under Formalization, which proves the statement from
@@ -299,33 +299,33 @@ the same: a post of 18 May 2026 observes that the Lean formalization does
 little, since it essentially assumes what it needs to prove, and that the
 proofs in [JMRS21] adapt those of Molloy's paper (linking arXiv:1701.09133),
 where a proper formalization should start; a post of 17 July 2026 by the
-same account says that for this reason the site should not call the problem
-proved in Lean. The label was the site's on 2026-09-19; the frontmatter's
-`proved` rests on the refereed theorem, and the suffix is recorded as the
-site's.
+same account says that for this reason erdosproblems.com should not call the
+problem proved in Lean. The label was erdosproblems.com's on 2026-09-19; the
+frontmatter's `proved` rests on the refereed theorem, and the suffix is recorded
+as erdosproblems.com's.
 
 **The resolution's route (leads with provenance, not status).** The thread,
 oldest first. A post of 21 April 2026 by Przemek Chojecki says that the problem
 is settled by the recent results of Joret, Micek, Reed and Smid, links a short
 note it credits to GPT-5.4 Pro and a Lean formalization it credits to
 Aristotle, with external references treated as sorries, and states the result
-as $T(n)=n-\Theta(\sqrt{n\log n})$ with $T(n):=\max\{\tau(G):|V(G)|=n\}$; the
-site was updated after it (the note and the file are [Note26] and the artifact
-above; the names are the post's attributions). A post of 22 April 2026
-congratulates the poster and reports that a standard check found no issues and
-that the Lean matches the paper (its link for the check is a chat transcript,
-not cited here). A post of 18 May 2026 says that the inequality $\tau(G)\le
-n-c\sqrt{n\log n}$ for some $c>0$ is immediate from the abstract of [JMRS21],
-that the note gives the details in its section 2, that the absence of the
-remark from [JMRS21] suggests the problem was little known, and that the credit
-for solving the problem belongs to the four authors. The note itself ([Note26])
-states Theorem 1, $T(n)=n-\Theta(\sqrt{n\log n})$,
-proves Lemma 2 (the transfer) and Lemma 5 (the triangle-free equality), quotes
-[JMRS21] and [Ki95] as its Theorems 3 and 6 without proof, and closes with
-Remark 8 that "The argument above does not settle" the Erdős--Gallai--Tuza
-conjecture $\tau(G)\le n-f(n)$. The standing rests on [JMRS21] and [Ki95]
-directly, with the transfer written above; the note is the route by which the
-site adopted the answer.
+as $T(n)=n-\Theta(\sqrt{n\log n})$ with $T(n):=\max\{\tau(G):|V(G)|=n\}$;
+erdosproblems.com was updated after it (the note and the file are [Note26] and
+the artifact above; the names are the post's attributions). A post of 22 April
+2026 congratulates the poster and reports that a standard check found no issues
+and that the Lean matches the paper (its link for the check is a chat
+transcript, not cited here). A post of 18 May 2026 says that the inequality
+$\tau(G)\le n-c\sqrt{n\log n}$ for some $c>0$ is immediate from the abstract of
+[JMRS21], that the note gives the details in its section 2, that the absence of
+the remark from [JMRS21] suggests the problem was little known, and that the
+credit for solving the problem belongs to the four authors. The note itself
+([Note26]) states Theorem 1, $T(n)=n-\Theta(\sqrt{n\log n})$, proves Lemma 2
+(the transfer) and Lemma 5 (the triangle-free equality), quotes [JMRS21] and
+[Ki95] as its Theorems 3 and 6 without proof, and closes with Remark 8 that "The
+argument above does not settle" the Erdős--Gallai--Tuza conjecture
+$\tau(G)\le n-f(n)$. The standing rests on [JMRS21] and [Ki95] directly, with
+the transfer written above; the note is the route by which erdosproblems.com
+adopted the answer.
 
 **The disputed input (a lead with provenance, not status).** A post of 26
 August 2026 reports that GPT-5.6 Sol claims a gap in the proof of Theorem 1
@@ -342,16 +342,16 @@ to [JMRS21] appears in the Crossref record, and the two papers named as
 affected are not held. If a gap were confirmed and not repaired, Corollary 2
 would lose its proof and with it the problem's standing, since no other
 source for $\chi_c(G)=O(\sqrt{n/\log n})$ was found. On 2026-09-19 the
-site's label and commentary had been unchanged since 28 May 2026.
+erdosproblems.com label and commentary had been unchanged since 28 May 2026.
 
 **Search scope.** None of the routes below found a
 correction or retraction of [JMRS21], a published response to the gap claim,
-a second proof of the corollary, or a change of the site's label.
+a second proof of the corollary, or a change of the erdosproblems.com label.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-19; the formal-conjectures repository (main, 2026-09-19; no file
-  610); the
-  community database; the site's reference text for [Er94] (`/bibs/Er94`).
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-19; the formal-conjectures repository (main, 2026-09-19; no
+  file 610); the community database; the erdosproblems.com reference text for
+  [Er94] (`/bibs/Er94`).
 - [JMRS21]: the journal's open-access edition at doi:10.37236/9659; the
   Crossref record of
   doi:10.37236/9659 (no update or correction listed; two citations); OpenAlex
@@ -381,7 +381,7 @@ retraction of [JMRS21], or a written argument for the gap, after which the
 status is re-assessed (a second proof of $\chi_c(G)=O(\sqrt{n/\log n})$ would
 also settle it). (2) The "(LEAN)" label's artifact leaves both inputs
 unproved, and the corpus holds no build of it. (3) [Er94] and [Er99], two of
-the site's three
+erdosproblems.com's three
 source keys, are not held (no open copy identified), so the problem's
 statement in Erdős's own words is known only through the graphs problem
 collection's rendering; [AKS80]'s Theorem 3 is recorded at statement depth

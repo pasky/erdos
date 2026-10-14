@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 1044, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/analysis/E1044/claims
@@ -12,8 +12,8 @@ updated: 2026-10-11T22:24:14Z
 [[problems/analysis/E1044/_index|..]]
 
 [[problems/analysis/E1044/claims/2026_01_05_tang|2026_01_05_tang]]: Quanyu Tang's 2026 note proves that the infimum of the largest boundary length
-of a component is $2$. It is credited by the site's curator, read by Tao, and
-formalized in Lean by Luccioli with Aristotle, but the Lean proof is not built
-here.
+of a component is $2$. It is credited by the erdosproblems.com curator, read
+by Tao, and formalized in Lean by Luccioli with Aristotle, but the Lean proof
+is not built here.
 
 ***

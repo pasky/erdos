@@ -34,9 +34,9 @@ algorithm for equitable coloring*, Combinatorica **30** (2010), no. 2,
 [10.1007/s00493-010-2483-5](https://doi.org/10.1007/s00493-010-2483-5)
 (the Crossref record, read 2026-09-19, gives issue 2, March 2010, published
 online 17 September 2010); received 5 February 2008; MSC 05C15, 05C85. Not
-a site key: the site's source key for Problem 914 is Er67b, and its
-commentary cites CoHa63, HaSz70 and KiKo08; the two proofs, the 1970
-Hajnal--Szemerédi proof (HaSz70) and the 2008 short proof of Kierstead and
+an erdosproblems.com key: the erdosproblems.com source key for Problem 914 is
+Er67b, and its commentary cites CoHa63, HaSz70 and KiKo08; the two proofs, the
+1970 Hajnal--Szemerédi proof (HaSz70) and the 2008 short proof of Kierstead and
 Kostochka (KiKo08), are not held; this paper is the refereed text read for
 this card, which states the theorem and proves it again.
 
@@ -116,9 +116,9 @@ reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0914/_index|#914]]: Theorem 1
 (p. 217) is the equitable-coloring form of the problem's statement, which
-the site's commentary calls equivalent; for $m\ge2$ (at $m=1$ the graph is
-$K_r$ itself), with $r$ replaced by $m-1$ and applied to the complement of
-a graph on $rm$ vertices with minimum degree at least $m(r-1)$, whose
+the erdosproblems.com commentary calls equivalent; for $m\ge2$ (at $m=1$ the
+graph is $K_r$ itself), with $r$ replaced by $m-1$ and applied to the complement
+of a graph on $rm$ vertices with minimum degree at least $m(r-1)$, whose
 complement has maximum degree at most $m-1$, the $m$ color classes have
 exactly $r$ vertices each and are the $m$ disjoint copies of $K_r$ (the
 one-line transfer is written on the problem page and on the result page);

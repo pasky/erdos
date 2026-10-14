@@ -48,12 +48,12 @@ $$
 where $f(n,e,H)$ is the least number of colors in an edge-coloring of some
 $n$-vertex graph with at least $e$ edges in which every copy of $H$ is
 rainbow. At $e=\lfloor n^2/4\rfloor+1$ the square-root term is at most $n/2$,
-so the theorem gives $n^2/8+o(n^2)$, and the paper's $f$ agrees with the
-site's $\chi_S$, defined with exactly $e$ edges, because deleting edges keeps
-every remaining copy rainbow and adds no color (two one-line readings made on
-the problem page). The upper bound is the two-clique coloring that Burr,
-Erdős, Graham and Sós already observed; the lower bound, display (1) of the
-paper, is its new content.
+so the theorem gives $n^2/8+o(n^2)$, and the paper's $f$ agrees with
+erdosproblems.com's $\chi_S$, defined with exactly $e$ edges, because deleting
+edges keeps every remaining copy rainbow and adds no color (two one-line
+readings made on the problem page). The upper bound is the two-clique coloring
+that Burr, Erdős, Graham and Sós already observed; the lower bound, display (1)
+of the paper, is its new content.
 
 **Covers.** Every $k\ge4$, the cycles $C_9,C_{11},\ldots$; the paper states its
 Conjecture 1.1 for all $k\ge3$ and proves it for $k\ge4$. The seven-cycle,
@@ -75,14 +75,14 @@ and `Quot.sound` only. L17's audited statement contains every $k\ge4$ instance
 this page covers. The same development proves the full-range formula, but only
 its consequence at $e=\lfloor n^2/4\rfloor+1$ lies inside the audited statement.
 
-The site's curator credits the paper in the problem's commentary, which was
-updated after a thread comment of 20 March 2026 (read 2026-09-18 and unchanged
-as of 2026-10-07). The site labeled the problem OPEN, so that credit is not
-acceptance. The site's proof-claim tab did not carry the paper on 2026-10-05.
-The paper is an arXiv preprint with one version (19 March 2026). No journal
-record was found on 2026-09-18, so no refereeing is listed. This corpus checked
-the definition, the statement, display (1) and the Section 2 sketch clause by
-clause, and did not read the proof.
+The erdosproblems.com curator credits the paper in the problem's commentary,
+which was updated after a thread comment of 20 March 2026 (read 2026-09-18 and
+unchanged on 2026-10-07). Bloom's catalog labeled the problem OPEN, so that
+credit is not acceptance. The erdosproblems.com proof-claim tab did not carry
+the paper on 2026-10-05. The paper is an arXiv preprint with one version (19
+March 2026). No journal record was found on 2026-09-18, so no refereeing is
+listed. This corpus checked the definition, the statement, display (1) and the
+Section 2 sketch clause by clause, and did not read the proof.
 
 Two Lean developments declare a formalization of the theorem and are linked
 above as such. The first is the $k\ge4$ branch of L17, which also gives

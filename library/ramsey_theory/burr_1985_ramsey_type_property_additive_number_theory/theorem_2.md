@@ -55,16 +55,15 @@ None outside the paper.
 
 - [[../wiki/problems/ramsey_theory/E0054/_index|Problem 54]]: the first of the two bounds
   the problem asks to improve, Theorem 2 on printed p. 5 (PDF p. 1), page
-  image, with the growth form Theorem 2a on p. 6 (PDF p. 2). The site's
+  image, with the growth form Theorem 2a on p. 6 (PDF p. 2). erdosproblems.com's
   "there exists a constant $c>0$ such that it cannot be true that
   $|A\cap\{1,\ldots,N\}|\le c(\log N)^2$ for all large $N$" is the
   counting form of Theorem 2a, which the paper states without proof, and is
   stronger than Theorem 2: about $\lg x$ windows sum the bound
   $A(x)-A(x/2)<\varepsilon\lg x$ to $A(x)\ll\varepsilon\lg^2x$, so, for
-  suitable constants, every sequence Theorem 2 excludes meets the site's
-  counting bound, but not conversely; the
-  problem's "Ramsey $2$-complete" is the paper's Ramsey-complete for two
-  classes.
+  suitable constants, every sequence Theorem 2 excludes meets
+  erdosproblems.com's counting bound, but not conversely; the problem's "Ramsey
+  $2$-complete" is the paper's Ramsey-complete for two classes.
 - [[../wiki/problems/ramsey_theory/E0055/_index|Problem 55]]: the two-class lower bound. It
   transfers to $r\ge3$ classes directly, since a sequence that is Ramsey
   complete for $r$ classes is Ramsey complete for two (refine any two-class

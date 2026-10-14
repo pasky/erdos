@@ -31,25 +31,24 @@ $$
 h(k) \ll k^2?
 $$
 
-**Formulation.** The site's wording (the page shows no last-edited date).
-Jacobsthal's function of an integer $n$ is the least $m$ such that any $m$
-consecutive integers contain one coprime to $n$ (OEIS A048669; [FGKMT18]
-p. 4 defines the same $j(n)$ as "the maximal gap between integers coprime to
-$n$"); it depends only on the distinct prime factors of $n$, and "at most
-$k$ prime factors" is read as at most $k$ distinct prime factors, the
-reading of Erdős's 1965 text ($\nu(n)$ "the number of distinct prime
-factors") and of the formal-conjectures file. So
-$h(k)=\max\{j(n):\omega(n)\le k\}$. Erdős's 1965 lecture writes
-$\max g(n)=C(r)+1$ over $\nu(n)\le r$, so his $C(r)$ is $h(r)-1$, a shift
-that does not affect orders of magnitude. For the product $P(x)$ of the
+**Formulation.** The erdosproblems.com wording (the page shows no last-edited
+date). Jacobsthal's function of an integer $n$ is the least $m$ such that any
+$m$ consecutive integers contain one coprime to $n$ (OEIS A048669; [FGKMT18] p.
+4 defines the same $j(n)$ as "the maximal gap between integers coprime to $n$");
+it depends only on the distinct prime factors of $n$, and "at most $k$ prime
+factors" is read as at most $k$ distinct prime factors, the reading of Erdős's
+1965 text ($\nu(n)$ "the number of distinct prime factors") and of the
+formal-conjectures file. So $h(k)=\max\{j(n):\omega(n)\le k\}$. Erdős's 1965
+lecture writes $\max g(n)=C(r)+1$ over $\nu(n)\le r$, so his $C(r)$ is $h(r)-1$,
+a shift that does not affect orders of magnitude. For the product $P(x)$ of the
 primes up to $x$, which has $\pi(x)$ prime factors, $j(P(x))=Y(x)+1$ with
 $Y$ the covering function of Problem 687 ([FGKMT18] display (1.3)); hence
 $h(\pi(x))\ge Y(x)+1$, an identity of one line made here and named as such
 below. The displayed question is Jacobsthal's conjecture as Erdős reports it
 in 1965 (display (30)). Two questions: the order of magnitude, to which the
 label OPEN attaches and which stays open, and the displayed $h(k)\ll k^2$,
-answered yes by the accepted partial claim recorded under Status (the site's
-OPEN label predates the release that settled it).
+answered yes by the accepted partial claim recorded under Status
+(erdosproblems.com's OPEN label predates the release that settled it).
 
 **Status.** Open. The label attaches to the order of magnitude, which stays open
 between the lower bounds below and the accepted quadratic bound. The displayed
@@ -70,8 +69,9 @@ that its proof has been formalized. The manuscript has no refereed version and
 no outside review known here. Jacobsthal's conjecture $h(k)\ll k^2$ was already
 "hopeless at present" for Erdős in 1965.
 
-The search, whose scope the Current assessment records, found the following
-bounds. The refereed upper bound is $h(k)\ll(k\log k)^2$ (the claim page
+The search dated 2026-09-18 UTC, whose scope the Current assessment records,
+found the following bounds. The refereed upper bound is $h(k)\ll(k\log k)^2$
+(the claim page
 [[problems/integer_sequences/E0970/claims/1978_01_01_iwaniec|Iwaniec 1978]],
 accepted, partial). It is the Corollary of [Iw78], p. 226: $C(r)\ll r^2\log^2r$
 for the longest run of consecutive integers each divisible by one of $r$
@@ -88,17 +88,17 @@ from the same identity applied to the covering theorem
 $Y(x)\gg x\log x/\log_3x$, accepted, not refereed, on
 [[problems/primes/E0004/claims/2026_08_26_dottedcalculator|its claim page on Problem 4]].
 
-The site's commentary prints the best lower bound as
+The erdosproblems.com commentary prints the best lower bound as
 $h(k)\gg k\log k\log_3k/(\log_2k)^2$ and attributes it to [FGKMT18]. That
 display is weaker than both source-supported bounds: by a factor of $\log k$
 against (29), and by $\log k\cdot\log_2k$ against the derived bound. It is
-recorded here as the site's, and the discrepancy is noted as a
-site-versus-source matter. It does not affect the label. The search's result is
-a bounded negative finding, not a certificate of openness.
+recorded here as erdosproblems.com's, and the discrepancy is noted as an
+erdosproblems.com-versus-source matter. It does not affect the label. The
+search's result is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/970](https://www.erdosproblems.com/970),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that the
-problem cannot be settled by a finite computation; no last-edited date;
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that the problem cannot be settled by a finite computation; no last-edited date;
 source key [Er65b]; commentary citing [Iw78], [FGKMT18] and Problem 687;
 indicators showing a formalized statement and OEIS A048669), its empty
 discussion thread and its empty proof-claim tab. The indicator showed no
@@ -164,12 +164,12 @@ of formal-conjectures at the linked commit (the head of `main` on 2026-09-18)
 defines
 `IsJacobsthalBound (k m : ℕ) : Prop := ∀ n : ℕ, 0 < n → n.primeFactors.card ≤ k → ∀ a : ℤ, ∃ i : ℕ, i < m ∧ (a + i).natAbs.Coprime n`
 and `jacobsthalFunction (k : ℕ) : ℕ := sInf {m : ℕ | IsJacobsthalBound k m}`,
-the site's $h(k)$ with distinct prime factors, and declares
+erdosproblems.com's $h(k)$ with distinct prime factors, and declares
 `erdos_970 : answer(sorry) ↔ ∃ C > (0 : ℝ), ∀ k : ℕ, 0 < k → (jacobsthalFunction k : ℝ) ≤ C * k ^ 2`
 under `category research open`, with proof `sorry` and no `formal_proof`
-attribute; its header cites [FGKMT18] and [Iw78]. On 2026-10-11 the catalog
-changed the file
-([`970.lean` at that commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/970.lean)):
+attribute; its header cites [FGKMT18] and [Iw78]. On 2026-10-11 the
+formal-conjectures catalog changed the file ([`970.lean` at that
+commit](https://github.com/google-deepmind/formal-conjectures/blob/3dfd999dfe5a3a1c739d362d3189daf9e08d9fa8/FormalConjectures/ErdosProblems/970.lean)):
 there `erdos_970` has `answer(True)`, the category `research solved` and a
 `formal_proof` attribute linking the release's
 [`erdos_970_quadratic`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/Jacobsthal/Conclusions/QuadraticBound.lean#L13)
@@ -188,9 +188,9 @@ OEIS A048669. The formal-conjectures file was not built here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; OPEN, with the site's note that the problem cannot be settled by a
-finite computation; no last-edited date. The commentary attributes the
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that the problem cannot be settled
+by a finite computation; no last-edited date. The commentary attributes the
 conjecture $h(k)\ll k^2$ to Jacobsthal, credits Iwaniec [Iw78] with
 $h(k)\ll(k\log k)^2$, gives $h(k)\gg k\log k\log_3k/(\log_2k)^2$ as the
 best lower bound known, due to [FGKMT18], and calls $h$ a more general form
@@ -276,7 +276,7 @@ $$
 This is an authored one-line derivation, not a statement of the paper; OEIS
 A048670's comment of 2018 records the same form ("$j(x\#)\gg x\log x\log\log
 \log x/\log\log x$ and hence $a(n)\gg n\log^2n\log\log\log n/\log\log n$").
-The site's displayed bound, $h(k)\gg k\log k\log_3k/(\log_2k)^2$, is
+erdosproblems.com's displayed bound, $h(k)\gg k\log k\log_3k/(\log_2k)^2$, is
 Rankin's bound for $Y(x)$, as [FGKMT18] p. 4 states it, with $x$ replaced
 by $k$, or equivalently Erdős's (29) with one logarithm dropped; it is
 implied by both source-supported bounds and is not what either source gives
@@ -284,8 +284,8 @@ for $h(k)$. (c) The covering theorem $Y(x)\ge c_0x\log x/\log_3x$ for large
 $x$, of the AI-written manuscript posted by the forum user DottedCalculator,
 is accepted, not refereed, on
 [[problems/primes/E0004/claims/2026_08_26_dottedcalculator|its claim page on Problem 4]]
-on the site curator's credit. The identity of (b), with $x=p_k\sim k\log k$,
-gives
+on the erdosproblems.com curator's credit. The identity of (b), with
+$x=p_k\sim k\log k$, gives
 
 $$
 h(k)\ \ge\ j(P(p_k))\ \gg\ \frac{p_k\log p_k}{\log_3p_k}
@@ -308,12 +308,13 @@ $h(k)\ll k^2/(\log\log 3k)^2$ is not accepted here; the best refereed upper
 bound remains Iwaniec's $(k\log k)^2$. OEIS A048670 lists $j(P(p_n))$ for
 $n\le64$, the values $h(k)$ would have to exceed.
 
-**Search scope.** Apart from the release behind the accepted partial claim
-above, which the routes below do not cover, none of them found an upper bound
-below $(k\log k)^2$, a lower bound beyond those above, or a proof claim.
+**Search scope (2026-09-18 UTC).** Apart from the release behind the accepted
+partial claim above, which the routes below do not cover, none of them found an
+upper bound below $(k\log k)^2$, a lower bound beyond those above, or a proof
+claim.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-18; formal-conjectures `970.lean` at the pinned commit; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; formal-conjectures `970.lean` at the pinned commit; the
   community database.
 - arXiv: the API queries `all:Jacobsthal` (40 newest records; the only ones
   on the function are a 2023 polynomial analog and Jacobsthal-number
@@ -343,16 +344,17 @@ accepted bound $h(k)\le Ck^2$ rests on the Lean kernel, Mathlib and the
 statement audit recorded on the claim page; the manuscript's claimed saving by
 $(\log\log 3k)^2$ rests on its prose proof, read for structure only, and on a
 release declaration whose axioms were checked here but which is not accepted;
-no outside review or refereed version exists. (2) The site's displayed lower
-bound is weaker than the source-supported bounds by a factor of $\log k$
-against (29) and $\log k\cdot\log_2k$ against the derived bound; recorded as a
-site-versus-source note, not resolved with the site. (3) Neither side of
-Erdős's (29) is proved in the lecture, and the [FGKMT18] proof was not read;
-the best refereed lower bound rests on that paper's refereed statement and a
-one-line identity, and the best lower bound on the same identity and the
-covering theorem accepted on Problem 4 on the site curator's credit, which has
-no refereed version and whose manuscript is not checked here. (4)
-Jacobsthal's original papers and Erdős's 1962 paper are not held.
+no outside review or refereed version exists. (2) erdosproblems.com's displayed
+lower bound is weaker than the source-supported bounds by a factor of $\log k$
+against (29) and $\log k\cdot\log_2k$ against the derived bound; recorded as an
+erdosproblems.com-versus-source note, not resolved with erdosproblems.com. (3)
+Neither side of Erdős's (29) is proved in the lecture, and the [FGKMT18] proof
+was not read; the best refereed lower bound rests on that paper's refereed
+statement and a one-line identity, and the best lower bound on the same identity
+and the covering theorem accepted on Problem 4 on the erdosproblems.com
+curator's credit, which has no refereed version and whose manuscript is not
+checked here. (4) Jacobsthal's original papers and Erdős's 1962 paper are not
+held.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

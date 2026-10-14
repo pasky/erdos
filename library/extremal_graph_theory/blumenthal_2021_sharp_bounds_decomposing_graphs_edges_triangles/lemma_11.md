@@ -18,8 +18,8 @@ Volec, *Sharp bounds for decomposing graphs into edges and triangles*,
 Combin. Probab. Comput. **30** (2021), no. 2, 271--287,
 doi:10.1017/S0963548320000358, read in the arXiv version named on the
 [[extremal_graph_theory/blumenthal_2021_sharp_bounds_decomposing_graphs_edges_triangles/_index|source card]].
-The journal's numbering was not read; a comment on the site's thread for
-Problem 1009 cites the same passage as the proof of Lemma 3.3, evidently the
+The journal's numbering was not read; a comment on the erdosproblems.com thread
+for Problem 1009 cites the same passage as the proof of Lemma 3.3, evidently the
 journal's numbering.
 
 ## Statement
@@ -54,12 +54,11 @@ gives no proof of Győri's theorem.
 
 The restatement says more than the first sentence read with a fixed implied
 constant $C$: it lets the coefficient of $k^2/n^2$ be any $\varepsilon>0$
-once $k/n^2$ is small enough, and a comment on the site's thread doubts it.
-The lemma does not need the stronger form: with $Ck^2/n^2$ in place of
-$\varepsilon k^2/n^2$ the bound below still gives
-$\pi_3(G)\le2t_2(n)$, with equality only when $k=0$, once $\delta$ is
-small enough for the first sentence to apply and $3C\delta<1$ (an
-observation of this page).
+once $k/n^2$ is small enough, and a comment on the erdosproblems.com thread
+doubts it. The lemma does not need the stronger form: with $Ck^2/n^2$ in place
+of $\varepsilon k^2/n^2$ the bound below still gives $\pi_3(G)\le2t_2(n)$, with
+equality only when $k=0$, once $\delta$ is small enough for the first sentence
+to apply and $3C\delta<1$ (an observation of this page).
 
 **Read depth.** Claims checked: the statement, the definition of closeness
 and the proof (pp. 8--9) were read clause by clause on the page images, and
@@ -94,8 +93,8 @@ paper; Mantel's theorem with its equality case.
 - [[../wiki/problems/extremal_graph_theory/E1009/_index|Problem 1009]]: the
   lemma itself is about $\pi_3$ and does not bear on the problem. Its proof
   quotes Győri's 1988 theorem, in a paper later published in a refereed
-  journal and read here in its arXiv version; this is the result the
-  site credits for the problem: $k-O(k^2/n^2)$ edge-disjoint triangles in
-  every $n$-vertex graph with $t_2(n)+k$ edges, $k=o(n^2)$, $n\to\infty$.
-  The quotation attests what the theorem says; it does not prove it, and it
-  gives neither the implied constant nor the range of $n$.
+  journal and read here in its arXiv version; this is the result
+  erdosproblems.com credits for the problem: $k-O(k^2/n^2)$ edge-disjoint
+  triangles in every $n$-vertex graph with $t_2(n)+k$ edges, $k=o(n^2)$,
+  $n\to\infty$. The quotation attests what the theorem says; it does not prove
+  it, and it gives neither the implied constant nor the range of $n$.

@@ -38,11 +38,11 @@ $$
 
 where the maximum is taken over all $A$ of size $n$.
 
-**Status.** Open. The site's label was OPEN on 2026-10-06. Its page credits no
-result beyond the $n\log n$ bound of [CDL25], which is on the
+**Status.** Open. The erdosproblems.com label was OPEN on 2026-10-06. Its page
+credits no result beyond the $n\log n$ bound of [CDL25], which is on the
 [[problems/distance_problems/E0959/claims/2025_05_07_clemen_dumitrescu_liu|Clemen--Dumitrescu--Liu claim page]].
-The proof-claims tab carries two partial claims, and the site has adopted
-neither. Colin Snyder's claim of 2026-07-15 is a lower bound of order
+The proof-claims tab carries two partial claims, and erdosproblems.com has
+adopted neither. Colin Snyder's claim of 2026-07-15 is a lower bound of order
 $n^{1+c/\log\log n}$ on the largest gap, with a Lean 4 archive. It is on the
 [[problems/distance_problems/E0959/claims/2026_07_15_snyder|Snyder claim page]].
 Theofil Xeff's claim of 2026-07-21 is a lower bound of order $n^{1+c}$ for an
@@ -59,14 +59,15 @@ https://www.erdosproblems.com/959.
   distances. arXiv:2505.04283 (2025). Acta Math. Hungar. 177 (2025), 231-245.
 - [Er84d] Erdős, P., Extremal problems in number theory, combinatorics and
   geometry. Proceedings of the International Congress of Mathematicians
-  (Warsaw, 1983), Vol. 1 (1984), 51-70. The site's source for the problem.
+  (Warsaw, 1983), Vol. 1 (1984), 51-70. The erdosproblems.com source for the
+  problem.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/959.lean).
 
 ## Current assessment
 
-**Open.** The site formulation above asks for the order of
+**Open.** The erdosproblems.com formulation above asks for the order of
 $M(n)=\max_{|A|=n}(f(d_1)-f(d_2))$, the largest possible gap between the two
 highest distance multiplicities of an $n$-point planar set. Clemen, Dumitrescu
 and Liu [CDL25] prove $M(n)=\Omega(n\log n)$ (Corollary 1.10, from their
@@ -89,8 +90,8 @@ of 2026-07-21
 is the bound $M(n)\geq n^{1+c}$ for an absolute $c>0$, by tuning the point
 set behind OpenAI's fixed-power lower bound for unit distances
 ([[problems/distance_problems/E0090/_index|Problem 90]]). Neither claim is
-credited by the site, refereed or formalized in this corpus, so both stay
-claimed and the problem's standing is open. The open question is the order
+credited by erdosproblems.com, refereed or formalized in this corpus, so both
+stay claimed and the problem's standing is open. The open question is the order
 of $M(n)$. Trivially $M(n)\leq f(d_1)\leq u(n)$, where $u(n)$ is the maximum
 number of unit distances among $n$ points (a remark of this page). The bound
 $u(n)=O(n^{4/3})$ of Spencer, Szemerédi and Trotter, which [CDL25] recalls, is
@@ -99,10 +100,10 @@ formalized on
 [[problems/distance_problems/E1085/claims/2026_09_23_openai|Problem 1085's claim page]]:
 $u(n)\leq Cn^{\beta}$ for every $n$, with absolute constants $C$ and
 $\beta<4/3$. So $M(n)\leq Cn^{\beta}$, the best upper bound recorded here, and
-no claim on this problem asserts a better one. Search scope: the site's problem
-page, discussion thread and proof-claims tab, the arXiv and publisher records
-of [CDL25], the formal-conjectures file and the hosted Lean file; on 2026-10-06
-no release item or lead named the problem.
+no claim on this problem asserts a better one. Search scope: the
+erdosproblems.com problem page, discussion thread and proof-claims tab, the
+arXiv and publisher records of [CDL25], the formal-conjectures file and the
+hosted Lean file; on 2026-10-06 no release item or lead named the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

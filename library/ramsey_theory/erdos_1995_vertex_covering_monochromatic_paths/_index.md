@@ -84,11 +84,12 @@ color can always cover the vertex set of a two-colored K_n.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0518/_index|#518]]: Problem 2 (printed
 p. 10 = PDF p. 4, page image) is the problem's origin; Corollary 2 (p. 10) is
-the 2√n bound the site quotes ("2√n vertices suffice" on the site reads
-"paths" in the source); the Theorem (p. 8) is the covering result behind it,
-and Corollary 1 (p. 9) is where the Theorem's induction on l starts.
-The paper's reference [2] is the site's key GeGy67, Gerencsér and Gyárfás,
-Ann. Univ. Sci. Budapest. Eötvös Sect. Math. 10 (1967), 167--170.
+the 2√n bound erdosproblems.com quotes ("2√n vertices suffice" on
+erdosproblems.com reads "paths" in the source); the Theorem (p. 8) is the
+covering result behind it, and Corollary 1 (p. 9) is where the Theorem's
+induction on l starts. The paper's reference [2] is the erdosproblems.com key
+GeGy67, Gerencsér and Gyárfás, Ann. Univ. Sci. Budapest. Eötvös Sect. Math. 10
+(1967), 167--170.
 
 **Results.**
 

@@ -74,7 +74,7 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0490/_index|Problem 490]]: (1) is the problem's
-  statement with $N$ for $n$; (2) is the limit question the site's
+  statement with $N$ for $n$; (2) is the limit question the erdosproblems.com
   commentary quotes ("Erdős goes on to ask whether ... exists ... and to
   determine its value"); (3) is context. In (2) the maximum over $A$ and
   $B$ is implicit in the text.

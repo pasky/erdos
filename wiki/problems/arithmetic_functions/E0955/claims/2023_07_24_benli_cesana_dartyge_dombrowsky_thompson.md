@@ -48,5 +48,5 @@ the general assertion stay open here (base $2$ is
 
 **Acceptance.** Claimed. The paper appeared in a collected volume of the
 Association for Women in Mathematics series. No record of the volume's
-refereeing is on file, so `refereed` is not listed. The site does not credit the
-paper.
+refereeing is on file, so `refereed` is not listed. erdosproblems.com does not
+credit the paper.

@@ -72,8 +72,8 @@ Turán bounds into Ramsey upper bounds. It records (second-hand) the bounds
 $ck^3/\log^3k\le R_k(K_{3,3})\le(2+o(1))k^3$ of Chung, Graham and Spencer
 and says that Chung, Erdős and Graham raised the problem of estimating
 these numbers, citing the 1975 Chung--Graham paper, the 1998 problem book
-and Erdős's 1981 Calcutta survey (the site's source key for the problem; the
-pages of it that were read do not state the question).
+and Erdős's 1981 Calcutta survey (the erdosproblems.com source key for the
+problem; the pages of it that were read do not state the question).
 [[ramsey_theory/alon_1999_norm_graphs_variations_applications/theorem_3|Theorem 3]]
 (p. 6) proves $R_k(K_{3,3})=(1+o(1))k^3$ by an almost complete coloring
 whose color classes are $K_{3,3}$-free variants of $H(q,3)$, and

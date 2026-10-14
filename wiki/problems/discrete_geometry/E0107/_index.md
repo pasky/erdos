@@ -45,11 +45,11 @@ https://www.erdosproblems.com/107.
 - [ErSz60] Erdős, P. and Szekeres, G., On some extremum problems in elementary
   geometry. Ann. Univ. Sci. Budapest. Eötvös Sect. Math. (1960/61), 53-62.
 - [Gr04] Green, Ben, The Cameron-Erdős conjecture. Bull. London Math. Soc.
-  (2004), 769-778. The site's commentary cites [Gr04] for Graham's offer of
-  a prize for a proof, but the site's reference record resolves the key to this
-  paper of Green on sum-free sets, the entry it shares with Problem 748, which
-  does not concern this problem; the publication of Graham that the commentary
-  describes is not identified on this page.
+  (2004), 769-778. The erdosproblems.com commentary cites [Gr04] for Graham's
+  offer of a prize for a proof, but the erdosproblems.com reference record
+  resolves the key to this paper of Green on sum-free sets, the entry it shares
+  with Problem 748, which does not concern this problem; the publication of
+  Graham that the commentary describes is not identified on this page.
 - [HMPT20] Holmsen, Andreas F. and Mojarrad, Hossein Nassajian and Pach, János
   and Tardos, Gábor, Two extensions of the Erdős-Szekeres problem. J. Eur. Math.
   Soc. (JEMS) (2020), 3981-3995.
@@ -57,39 +57,39 @@ https://www.erdosproblems.com/107.
   Math. Soc. (2017), 1047-1053.
 - [SzPe06] Szekeres, George and Peters, Lindsay, Computer solution to the
   17-point Erdős-Szekeres problem. ANZIAM J. 48 (2006), 151-164. Not among
-  the site's references.
+  the erdosproblems.com references.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/107.lean).
 
 ## Current assessment
 
-The site labeled the problem falsifiable; the label is the site's, not a
-standing from this project. The lower bound $2^{n-2}+1\le f(n)$ is the
-Erdős–Szekeres construction [ErSz60], so the equality can fail only in one way:
-a counterexample would be a finite set of $2^{n-2}+1$ points, no three on a
-line, with no convex $n$-gon among them. Whether a given finite point set
-contains a convex $n$-gon is a finite check, so a counterexample could be
-verified in finitely many steps, while no finite computation is known to
-confirm the conjecture for every $n$. Three claim pages record the refereed
-results that settle parts of the conjecture: the
+Bloom's catalog labeled the problem falsifiable; the label is
+erdosproblems.com's, not a standing from this project. The lower bound
+$2^{n-2}+1\le f(n)$ is the Erdős–Szekeres construction [ErSz60], so the equality
+can fail only in one way: a counterexample would be a finite set of $2^{n-2}+1$
+points, no three on a line, with no convex $n$-gon among them. Whether a given
+finite point set contains a convex $n$-gon is a finite check, so a
+counterexample could be verified in finitely many steps, while no finite
+computation is known to confirm the conjecture for every $n$. Three claim pages
+record the refereed results that settle parts of the conjecture: the
 [[problems/discrete_geometry/E0107/claims/1960_01_01_erdos_szekeres|Erdős--Szekeres construction]]
 [ErSz60] gives the lower bound $f(n)\ge2^{n-2}+1$ for every $n$, so only the
 upper bound is open;
 [[problems/discrete_geometry/E0107/claims/1935_01_01_erdos_szekeres|Klein's proposition]],
 published in [ErSz35], gives $f(4)=5$; and
 [[problems/discrete_geometry/E0107/claims/2006_10_01_szekeres_peters|Szekeres and Peters]]
-[SzPe06] give $f(6)=17$ by computer. The instance $n=5$, $f(5)=9$, which the
-site credits to Makai and Turán without a reference, has no claim page:
-[ErSz35] attributes the value to Makai and prints no proof, and the first
+[SzPe06] give $f(6)=17$ by computer. The instance $n=5$, $f(5)=9$, which
+erdosproblems.com credits to Makai and Turán without a reference, has no claim
+page: [ErSz35] attributes the value to Makai and prints no proof, and the first
 published proof, by Kalbfleisch, Kalbfleisch and Stanton (Proc. Louisiana
 Conf. Combinatorics, Graph Theory and Computing, 1970, 180--188), is in a
 proceedings volume with no record that it was refereed. The upper bounds
 $f(n)\le\binom{2n-4}{n-2}+1$ [ErSz35], $f(n)\le 2^{(1+o(1))n}$ of Suk [Su17]
 and $f(n)\le 2^{n+O(\sqrt{n\log n})}$ of Holmsen, Mojarrad, Pach and Tardos
 [HMPT20] exceed $2^{n-2}+1$ for every $n\ge5$, so each settles no instance and
-none is a claim. The site's page records $f(4)=5$ (Klein), $f(5)=9$ (Makai
-and Turán) and the bounds above.
+none is a claim. The erdosproblems.com page records $f(4)=5$ (Klein), $f(5)=9$
+(Makai and Turán) and the bounds above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

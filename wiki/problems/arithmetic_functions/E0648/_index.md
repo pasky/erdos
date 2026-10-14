@@ -29,12 +29,12 @@ $$
 
 where $P(m)$ is the greatest prime factor of $m$. Estimate $g(n)$.
 
-**Status.** Solved. The site's label was SOLVED (LEAN). Cambie's 2025 paper
-gives the order of growth; see
+**Status.** Solved. The erdosproblems.com label was SOLVED (LEAN). Cambie's 2025
+paper gives the order of growth; see
 [[problems/arithmetic_functions/E0648/claims/2025_03_13_cambie|the claim page]].
-The site's Lean label follows the formalization of Cambie's proof announced in
-the site's thread on 2026-02-04. This corpus has not built or audited that
-Lean 4 development, so it gives no formalized evidence.
+The erdosproblems.com Lean label follows the formalization of Cambie's proof
+announced in the erdosproblems.com thread on 2026-02-04. This corpus has not
+built or audited that Lean 4 development, so it gives no formalized evidence.
 
 **Source.** [erdosproblems.com/648](https://www.erdosproblems.com/648), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #648,
@@ -56,9 +56,9 @@ formalized evidence.
 
 ## Current assessment
 
-**The question (the site's formulation, accessed 2026-09-04).** Estimate
-$g(n)$, the length of the longest chain $2\le a_1<\dots<a_t<n$ along which
-the greatest prime factor strictly decreases; SOLVED (LEAN).
+**The question (the erdosproblems.com formulation, accessed 2026-09-04).**
+Estimate $g(n)$, the length of the longest chain $2\le a_1<\dots<a_t<n$ along
+which the greatest prime factor strictly decreases; SOLVED (LEAN).
 
 **Standing.** Cambie's theorem, $g(n)\asymp(n/\log n)^{1/2}$ with the
 constant confined to $[2,2\sqrt2]$, is the problem's one claim, accepted on
@@ -75,7 +75,7 @@ digests the paper, no proof step is transcribed or independently reviewed by
 this project, and the Lean development linked on the claim page is not built
 or audited by this corpus.
 
-**Status search.** The site's page and thread, the arXiv record
+**Status search.** The erdosproblems.com page and thread, the arXiv record
 and the Crossref record of the journal version; no other database searched.
 <!-- BEGIN problem library links -->
 

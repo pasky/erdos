@@ -44,8 +44,8 @@ its title and text. The printed pages carry the page numbers and running
 heads only; the volume, issue and year are the publisher's record. Its four
 references (p. 225): [1] P. Erdös, F. Herzog and G. Piranian, Metric
 properties of polynomials, J. Analyse Math. 6 (1958), printed as 123--148
-where the site and the library's card give 125--148, the origin paper filed
-as
+where erdosproblems.com and the library's card give 125--148, the origin paper
+filed as
 [[polynomials/erdos_1958_metric_properties_polynomials/_index|erdos_1958_metric_properties_polynomials]];
 [2] G. Faber, Über Tschebyscheffsche Polynome, J. Reine Angew. Math. 150
 (1920), 79--106; [3] G. Pólya, Beitrag zur Verallgemeinerung des
@@ -193,9 +193,9 @@ $z\in C$ has $|z-z_0|<2$, answers the second part of Problem 10 of the
 1958 paper in the negative. The first part of that problem, whether some
 line receives a projection of $\overline E$ of measure at most $2$, is the
 problem's
-question, and this paper does not treat it; the site attributes its negative
-answer to Pommerenke's 1961 paper "using his previous work" here. That paper
-is filed as
+question, and this paper does not treat it; erdosproblems.com attributes its
+negative answer to Pommerenke's 1961 paper "using his previous work" here. That
+paper is filed as
 [[analysis/pommerenke_1961_metric_properties_complex_polynomials/_index|pommerenke_1961_metric_properties_complex_polynomials]],
 whose card places the projection example in an unnumbered passage on p. 103,
 after the proof of Theorem 6 (p. 102), with the result page
@@ -207,29 +207,28 @@ centroid $\zeta$ of the zeros whenever $E$ is connected, is the
 affirmative answer to the problem's exact question,
 with the center at the centroid of the zeros as the 1958 Problem 14 asked;
 the paper introduces it as establishing "the conjecture in Problem 14". The
-Remarks (pp. 224--225) give the width example the site's commentary reports,
-$\sup b\ge\sqrt3\,2^{1/3}>2.18$ for the class with $E$ connected, "whereas
-Erdös, Herzog and Piranian [1, Problem 15] conjectured that $b\le2$ in all
-cases"; Theorem 4 (p. 223) bounds the diameter and width of a connected $E$
-by $2\le d<4$, $b^2\le32/3$ and $b^2+d^2\le64/3$. The site's DISPROVED label
-on the problem sits beside a commentary that reports the width conjecture
+Remarks (pp. 224--225) give the width example the erdosproblems.com commentary
+reports, $\sup b\ge\sqrt3\,2^{1/3}>2.18$ for the class with $E$ connected,
+"whereas Erdös, Herzog and Piranian [1, Problem 15] conjectured that $b\le2$ in
+all cases"; Theorem 4 (p. 223) bounds the diameter and width of a connected $E$
+by $2\le d<4$, $b^2\le32/3$ and $b^2+d^2\le64/3$. erdosproblems.com's DISPROVED
+label on the problem sits beside a commentary that reports the width conjecture
 false and the stated question answered yes, both from this paper; which
 statement the label attaches to is not decided here.
-[[../wiki/problems/polynomials/E0509/_index|#509]]: Theorem 3 (p. 222) is the site's "$2$
-is achievable if the set is connected": when $E=\{|f|<1\}$ is connected, $C$
-and with it $E$, whose boundary lies on $C$, lie in the open disc of radius
-$2$ about the centroid, so the set $\{|f|\le1\}=E\cup C$ is covered by one
-disc of radius $2$. The theorem's hypothesis is that the open set $E$ is
-connected; the site's phrase names the closed set. The paper does not treat
-the general case of the problem's question.
-[[../wiki/problems/polynomials/E0114/_index|#114]]: Theorem 2 (p. 222), quoted
-above, length at least $2\pi$ for $C$ when $E$ is connected, with equality
-only for $f(z)=z^n$, is the site's remark that the 1958 paper's question
-on the least length of a connected lemniscate "was proved by Pommerenke
-[Po59]"; it
-answers the second question of the 1958 Problem 12. The problem's question,
-the first question of Problem 12, whether $z^n-1$ maximizes the length, is
-not treated in this paper.
+[[../wiki/problems/polynomials/E0509/_index|#509]]: Theorem 3 (p. 222) is
+erdosproblems.com's "$2$ is achievable if the set is connected": when
+$E=\{|f|<1\}$ is connected, $C$ and with it $E$, whose boundary lies on $C$, lie
+in the open disc of radius $2$ about the centroid, so the set
+$\{|f|\le1\}=E\cup C$ is covered by one disc of radius $2$. The theorem's
+hypothesis is that the open set $E$ is connected; the erdosproblems.com phrase
+names the closed set. The paper does not treat the general case of the problem's
+question. [[../wiki/problems/polynomials/E0114/_index|#114]]: Theorem 2 (p.
+222), quoted above, length at least $2\pi$ for $C$ when $E$ is connected, with
+equality only for $f(z)=z^n$, is the erdosproblems.com remark that the 1958
+paper's question on the least length of a connected lemniscate "was proved by
+Pommerenke [Po59]"; it answers the second question of the 1958 Problem 12. The
+problem's question, the first question of Problem 12, whether $z^n-1$ maximizes
+the length, is not treated in this paper.
 
 **Results.**
 

@@ -29,25 +29,26 @@ $\lvert A_i\cap A_j\rvert\leq 1$ for all $i\neq j$.
 Must there exist some set $B$ such that $B\cap A_i\neq \emptyset$ and $\lvert
 B\cap A_i\rvert \ll_c 1$ for all $i$?
 
-**Status.** Labeled disproved on the site (label DISPROVED; page last edited 27
-January 2026). The standing rests on
+**Status.** Labeled disproved on erdosproblems.com (label DISPROVED; page last
+edited 27 January 2026). The standing rests on
 [[problems/set_systems/E0664/claims/2024_08_03_alon|Alon's construction]],
-accepted on the curator's credit. The site reports that Alon answered the
-question no. For a large prime power $q$ and $n=m=q^2+q+1$, the construction
+accepted on the curator's credit. erdosproblems.com reports that Alon answered
+the question no. For a large prime power $q$ and $n=m=q^2+q+1$, the construction
 takes each set to be a random half of a line of a projective plane of order $q$.
 This gives sets with $|A_i|\ge\tfrac25\sqrt n$ and pairwise intersections of
 size at most $1$ such that every $B$ meeting all of them meets some $A_j$ in
 $\gg\log n$ points. The note was published in 2026 as Section 4 of Alon's
 chapter *Problems and Results in Extremal Combinatorics–V*
 ([[../library/extremal_graph_theory/alon_2026_problems_results_extremal_combinatorics_v/_index|card]]),
-in a proceedings volume. The site also remarks that a positive answer would give
-every finite geometry a blocking set meeting each line in a bounded number of
-points. Erdős's formulation in [Er81] asks instead about pairwise balanced block
-designs. There every pair of points lies in exactly one $A_i$, and the size
-condition $|A_i|>c\sqrt n$ is kept for every $c>0$, with no restriction $c<1$.
-This block-design version of [Er81] remains open, and Alon conjectures a
-negative answer there too. [[problems/set_systems/E1159/_index|Problem 1159]]
-asks the projective-plane case.
+in a proceedings volume. erdosproblems.com also remarks that a positive answer
+would give every finite geometry a blocking set meeting each line in a bounded
+number of points. Erdős's formulation in [Er81] asks instead about pairwise
+balanced block designs. There every pair of points lies in exactly one $A_i$,
+and the size condition $|A_i|>c\sqrt n$ is kept for every $c>0$, with no
+restriction $c<1$. This block-design version of [Er81] remains open, and Alon
+conjectures a negative answer there too.
+[[problems/set_systems/E1159/_index|Problem 1159]] asks the projective-plane
+case.
 
 **Source.** [erdosproblems.com/664](https://www.erdosproblems.com/664), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #664,
@@ -77,8 +78,8 @@ left open in the statement file.
 
 ## Current assessment
 
-The site's formulation (page last edited 27 January 2026) asks whether, for
-every fixed $c<1$, a family of subsets of $\{1,\dots,n\}$ with
+The erdosproblems.com formulation (page last edited 27 January 2026) asks
+whether, for every fixed $c<1$, a family of subsets of $\{1,\dots,n\}$ with
 $|A_i|>c\sqrt n$ and pairwise intersections of size at most $1$ has a set
 $B$ meeting every member in at least one and at most $O_c(1)$ points. This
 is the version of [Er97f], which Alon's note cites for its Problem 1.1; the
@@ -108,8 +109,8 @@ admit a blocking set meeting every line in a bounded number of points is
 [[problems/set_systems/E1159/_index|Problem 1159]], which is open.
 
 Search scope, with the changing sources as they stood on 2026-10-07: the
-site's page and discussion thread (one comment of 26 January 2026 on the
-cross-reference to Problem 1159, no proof claims), the community database
+erdosproblems.com page and discussion thread (one comment of 26 January 2026 on
+the cross-reference to Problem 1159, no proof claims), the community database
 (teorth/erdosproblems, formalized statement recorded), the formal-conjectures
 statement file, the lean-proofs collection, Alon's publication list and the
 library card of the 2026 chapter. None of them showed another claim on the

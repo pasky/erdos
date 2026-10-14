@@ -29,8 +29,8 @@ $$
 
 for any graph $H$ on $m$ edges without isolated vertices?
 
-**Status.** The site labeled the problem OPEN. The pending claim gives the exact
-answer $c_k=2k+1$ for every $k\geq1$, by
+**Status.** Bloom's catalog labeled the problem OPEN. The pending claim gives
+the exact answer $c_k=2k+1$ for every $k\geq1$, by
 [[../library/ramsey_theory/cambie_2026_general_bound_r_c_k_h/theorem_3|Cambie--Freschi Theorem 3]]
 and the one-edge endpoint described below. The preprint claims the needed upper
 bound, but specific unverified proof concerns remain unresolved, and acceptance
@@ -109,16 +109,17 @@ records the result second-hand on
 
 The selected source is the seven-page arXiv:2606.11174v1 preprint, submitted
 9 June 2026. Its arXiv record listed only v1 on 9 September 2026 and on
-7 October 2026. The site's page, as of 9 September 2026, labeled the
-problem OPEN with a last-edit date of 18 January 2026, but
-[the author's 10 June comment](https://www.erdosproblems.com/forum/thread/569#post-6917)
-links the preprint as a solution. A later
-[full-proof claim](https://www.erdosproblems.com/forum/thread/569/proof-claims#proof-claim-139)
-links the same paper; that listing expressly does not certify that the site
-has examined the proof. Both postings and the dispute below are recorded on
+7 October 2026. The erdosproblems.com page, accessed 9 September 2026, labeled
+the problem OPEN with a last-edit date of 18 January 2026, but [the author's 10
+June comment](https://www.erdosproblems.com/forum/thread/569#post-6917) links
+the preprint as a solution. A later [full-proof
+claim](https://www.erdosproblems.com/forum/thread/569/proof-claims#proof-claim-139)
+links the same paper; that listing expressly does not certify that
+erdosproblems.com has examined the proof. Both postings and the dispute below
+are recorded on
 [[problems/ramsey_theory/E0569/claims/2026_06_09_cambie_freschi|the claim page]]. The community database's
 [entry](https://github.com/teorth/erdosproblems/blob/5308c57c700559416b9f205df274b136784203e7/data/problems.yaml#L9320-L9334),
-as of the same day, likewise carried the label open.
+on the same day, likewise carried the label open.
 The standing here is derived as `claimed` from the pending full claim on the
 claim page, which the unresolved dispute and unestablished acceptance
 described below leave unaccepted. This does not give either imported label
@@ -136,7 +137,7 @@ arXiv version. This is an outstanding unverified concern, not evidence of either
 acceptance or refutation of the theorem. No response or repair had appeared
 by 7 October 2026.
 
-The searches covered the site's problem, discussion and
+The searches covered the erdosproblems.com problem, discussion and
 proof-claim pages, the arXiv record and v1 PDF, and the community database's
 entry. Exact-title web and OpenAlex searches located the
 arXiv preprint but no journal version; Crossref returned no exact-title

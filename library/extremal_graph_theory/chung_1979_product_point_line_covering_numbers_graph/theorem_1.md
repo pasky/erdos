@@ -94,7 +94,7 @@ Harary's Graph Theory (its reference [3]).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0581/_index|Problem 581]]: none.
-  The site gives this paper as the problem's source, but the theorem
+  erdosproblems.com gives this paper as the problem's source, but the theorem
   concerns $\alpha_0(G)\alpha_1(G)$ and says nothing about triangle-free
   graphs, bipartite subgraphs or a function of the number of edges, which
   the problem asks about; the paper does not mention the problem.

@@ -28,13 +28,13 @@ $A_1,\ldots,A_t\subseteq \{1,\ldots,N\}$ with $A_i\cap A_j$ a non-empty
 arithmetic progression for all $i\neq j$?
 
 **Formulation.** The sets $A_1,\ldots,A_t$ are read as distinct, as Erdős and
-Graham, Simonovits and Sós, Szabó, Yang and the catalog's statement count them.
-Read as the site words it, the question allows repeats, and then no largest $t$
-exists (take every $A_i=\{1\}$).
+Graham, Simonovits and Sós, Szabó, Yang and the formal-conjectures statement
+count them. Read as Bloom's catalog words it, the question allows repeats, and
+then no largest $t$ exists (take every $A_i=\{1\}$).
 
-**Status.** Open, the site's label. The exact maximum $t(N)$ is not known for
-general $N$. The refereed bounds are recorded as accepted partial claims on the
-claim pages of
+**Status.** Open, the erdosproblems.com label. The exact maximum $t(N)$ is not
+known for general $N$. The refereed bounds are recorded as accepted partial
+claims on the claim pages of
 [[problems/additive_combinatorics/E0272/claims/1981_12_01_simonovits_sos|Simonovits and Sós]]
 and [[problems/additive_combinatorics/E0272/claims/1999_07_01_szabo|Szabó]].
 Yang's reported exact values for $3\leq N\leq12$ are recorded as a claimed
@@ -43,15 +43,15 @@ partial claim on
 Szabó's linear-error question asks whether $t(N)=N^2/2+O(N)$. It is the second
 of the two questions in Section 6 of the 1999 paper. It has an affirmative Lean
 proof, which the bounty site Conjectures.io verified on 9 September 2026 and
-approved on 11 September 2026. That proof settles a variant, not the catalog
-question. It is recorded as an accepted partial claim on
+approved on 11 September 2026. That proof settles a variant, not the
+erdosproblems.com question. It is recorded as an accepted partial claim on
 [[problems/additive_combinatorics/E0272/claims/2026_09_09_jenw1n|its claim page]]
 (see Current assessment).
 
 **Source.** [erdosproblems.com/272](https://www.erdosproblems.com/272), accessed
-2026-09-04; on 2026-09-28 the page showed the label OPEN, which the site
-explains as not settled by any finite computation, no proof expositions, seven
-comments and no proof claims. The Conjectures.io record
+2026-09-04; on 2026-09-28 the page showed the label OPEN, which
+erdosproblems.com explains as not settled by any finite computation, no proof
+expositions, seven comments and no proof claims. The Conjectures.io record
 [conjectures.io/results/c3277f4a-d573-42a9-bfca-e45fb2cb39ff](https://conjectures.io/results/c3277f4a-d573-42a9-bfca-e45fb2cb39ff)
 showed on the same date: Lean Verified 9 September 2026; Approved in review
 11 September 2026; Certified 14 September 2026; Reward Paid. Cite as: T. F.
@@ -72,22 +72,23 @@ Bloom, Erdős Problem #272, https://www.erdosproblems.com/272.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/272.lean)
 pinned to the main-branch commit of 2026-09-18, after the restatement of
-2026-09-12. The catalog headline `Erdos272.erdos_272` asks for the exact value
-of `maxArithInterCard N` for every $N\geq1$ with an open answer (restated to the
-exact maximum on 2026-09-12, PR #5807) and is `research open`; its variant
-`Erdos272.erdos_272.variants.szabo_strong`, `(fun N ↦ (maxArithInterCard N - N ^
-2 / 2 : ℝ)) =O[atTop] fun N : ℕ ↦ (N : ℝ)`, is the statement the Conjectures.io
-proof establishes, which the catalog's default branch labeled `research open` on
-2026-09-27.
+2026-09-12. The formal-conjectures headline `Erdos272.erdos_272` asks for the
+exact value of `maxArithInterCard N` for every $N\geq1$ with an open answer
+(restated to the exact maximum on 2026-09-12, PR #5807) and is `research open`;
+its variant `Erdos272.erdos_272.variants.szabo_strong`,
+`(fun N ↦ (maxArithInterCard N - N ^ 2 / 2 : ℝ)) =O[atTop] fun N : ℕ ↦ (N : ℝ)`,
+is the statement the Conjectures.io proof establishes, which the
+formal-conjectures default branch labeled `research open` on 2026-09-27.
 
 ## Current assessment
 
-The site formulation asks for the exact largest $t=t(N)$ for each $N\geq1$;
-on 2026-09-28 the page showed the label OPEN, which the site explains as not
-settled by any finite computation, seven comments from August and September
-2025 (among them the computations of $t(N)$ for $N\leq9$ described under
-Progress) and no proof claim. No source determines $t(N)$ for general $N$, so
-the site's label was open and every claim page of the problem is partial.
+The erdosproblems.com formulation asks for the exact largest $t=t(N)$ for each
+$N\geq1$; on 2026-09-28 the page showed the label OPEN, which erdosproblems.com
+explains as not settled by any finite computation, seven comments from August
+and September 2025 (among them the computations of $t(N)$ for $N\leq9$ described
+under Progress) and no proof claim. No source determines $t(N)$ for general $N$,
+so the erdosproblems.com label was open and every claim page of the problem is
+partial.
 
 Best known progress. [Sz99] gives $t(N)=N^2/2+O(N^{5/3}(\log N)^3)$ and
 $t(N)\geq\binom N2+\lfloor(N-1)/4\rfloor+1$. Yang (arXiv:2607.23004,
@@ -107,21 +108,22 @@ claim page
 proves $t(N)=N^2/2+O(N)$, the affirmative answer to Szabó's linear-error
 question, the second of the two questions in Section 6 of the 1999 paper.
 
-The formal statement it verified is the catalog's
+The formal statement it verified is the formal-conjectures catalog's
 `Erdos272.erdos_272.variants.szabo_strong`
-(`FormalConjectures/ErdosProblems/272.lean` at the catalog commit the bounty
-task pinned): with `IsArithInterSet N A` requiring
+(`FormalConjectures/ErdosProblems/272.lean` at the formal-conjectures commit the
+bounty task pinned): with `IsArithInterSet N A` requiring
 $A\subseteq\mathcal P(\{1,\ldots,N\})$ and every pair of distinct members to
-intersect in a set that `IsAPOfLength l` for some $l>0$ (the catalog's shared
-definition: exactly $l$ elements of the form $a+nd$, $n<l$, so nonempty, with
-one- and two-element sets counted as progressions, as the site's own
-$\binom N2+1$ example presumes), and `maxArithInterCard N` the attained
-supremum of $|A|$, the statement is $t(N)-N^2/2=O(N)$ read clause for clause.
-This is a variant of the catalog question: it improves Szabó's error term to
-linear but gives neither the exact value nor the kernel conjecture; the
-bounty site's review note itself says that the approval concerns only the
-unrestricted linear-error asymptotic and asserts neither an exact extremal
-formula nor that every extremal family has a common element.
+intersect in a set that `IsAPOfLength l` for some $l>0$ (the formal-conjectures
+catalog's shared definition: exactly $l$ elements of the form $a+nd$, $n<l$, so
+nonempty, with one- and two-element sets counted as progressions, as
+erdosproblems.com's own $\binom N2+1$ example presumes), and
+`maxArithInterCard N` the attained supremum of $|A|$, the statement is
+$t(N)-N^2/2=O(N)$ read clause for clause. This is a variant of the
+erdosproblems.com question: it improves Szabó's error term to linear but gives
+neither the exact value nor the kernel conjecture; the bounty site's review note
+itself says that the approval concerns only the unrestricted linear-error
+asymptotic and asserts neither an exact extremal formula nor that every extremal
+family has a common element.
 
 The accepted file proves
 `theorem target : fcTypeOfName% "Erdos272.erdos_272.variants.szabo_strong"`
@@ -140,7 +142,8 @@ rests on one kernel implementation, and the review describes itself as a
 decision on eligibility that does not vouch for originality; on 2026-09-27 there
 was no refereed publication, no write-up, no erdosproblems.com acceptance and no
 formal-conjectures catalog agreement (the erdosproblems.com forum carried no
-proof claim, and the catalog labeled the variant `research open`).
+proof claim, and the formal-conjectures catalog labeled the variant
+`research open`).
 
 Acceptance rests on this corpus's rebuild of the proof file, unchanged, on the
 repository's pinned toolchain (Lean v4.34.1), its kernel replay of everything
@@ -150,14 +153,14 @@ file's target, header and the reduction chain named above agree with
 Conjectures.io's statement; the 12,791-line file contains no `sorry`, `axiom`,
 `native_decide`, `unsafe`, `implemented_by`, `extern`, `partial`, `opaque`,
 `set_option` or `import`; its header declares no author and no AI system, and
-one comment says a lemma comes "from the third supplied proof". The catalog
-commit the bounty task pinned was not reachable in the catalog's repository on
-2026-09-27; the default branch's `szabo_strong` statement is identical, and the
-replay reproduced the pinned commit, which the site builds from a public catalog
-commit and an audit patch.
+one comment says a lemma comes "from the third supplied proof". The
+formal-conjectures commit the bounty task pinned was not reachable in the
+catalog's repository on 2026-09-27; the default branch's `szabo_strong`
+statement is identical, and the replay reproduced the pinned commit, which
+Conjectures.io builds from a public catalog commit and an audit patch.
 
-Search scope: erdosproblems.com (the page, its discussion thread and its
-proof-claims thread), the community database,
+Search scope, 2026-09-27 and 2026-09-28: erdosproblems.com (the page, its
+discussion thread and its proof-claims thread), the community database,
 conjectures.io (results listing, the record, its solution page and Lean
 download, the problem page and the papers directory), the conjectures-io task
 and contribution repositories, the formal-conjectures catalog (`272.lean`, its
@@ -177,15 +180,15 @@ it.
 The asymptotic $t(N)=(1/2+o(1))N^2$ is Szabó's, with error
 $O(N^{5/3}(\log N)^3)$ [Sz99]; the Conjectures.io-accepted Lean proof of 2026
 sharpens the error to $O(N)$, which Szabó had asked for. The exact value is
-reported only for $3\leq N\leq12$: computations posted on the site's
-discussion thread in August 2025 by Stijn Cambie (user StijnC, whom the site's
-commentary thanks) gave $t(N)=4,7,12,17,23,30,39$ for $3\leq N\leq9$ and the
-formula $\binom N2+\lceil N/4\rceil$, verified for $N\leq9$ and, under the
-assumption that an extremal family contains a singleton, for $10\leq N\leq14$;
-Yang's unrefereed preprint of 2026 reports the same values and adds
-$N=10,11,12$ (code unavailable). In that range $t(N)$ equals Szabó's lower
-bound $\binom N2+1+\lfloor(N-1)/4\rfloor$; Yang proves that bound exact for
-families with a common element and conjectures it for every $N$, which would
+reported only for $3\leq N\leq12$: computations posted on the erdosproblems.com
+discussion thread in August 2025 by Stijn Cambie (user StijnC, whom the
+erdosproblems.com commentary thanks) gave $t(N)=4,7,12,17,23,30,39$ for
+$3\leq N\leq9$ and the formula $\binom N2+\lceil N/4\rceil$, verified for
+$N\leq9$ and, under the assumption that an extremal family contains a singleton,
+for $10\leq N\leq14$; Yang's unrefereed preprint of 2026 reports the same values
+and adds $N=10,11,12$ (code unavailable). In that range $t(N)$ equals Szabó's
+lower bound $\binom N2+1+\lfloor(N-1)/4\rfloor$; Yang proves that bound exact
+for families with a common element and conjectures it for every $N$, which would
 follow from Szabó's kernel conjecture. Neither is settled. The thread
 computations have no claim page, since they are thread posts and not a dated
 manuscript; Yang's are recorded on
@@ -221,9 +224,8 @@ manuscript; Yang's are recorded on
   [[problems/additive_combinatorics/E0272/claims/2026_07_25_yang|Yang 2026]]):
   $t(N)=4,7,12,17,23,30,39,48,58,69$ for $N=3,\ldots,12$ by exhaustive
   computation (code unavailable; the values for $N\leq9$ had been posted on the
-  site's discussion thread in August 2025), so Szabó's bound is exact there;
-  Theorem
-  1.4: every family with a common element has at most
+  erdosproblems.com discussion thread in August 2025), so Szabó's bound is exact
+  there; Theorem 1.4: every family with a common element has at most
   $\binom N2+1+\lfloor(N-1)/4\rfloor$ members; Conjecture 1.3: equality for
   every $N$; Section 7: structural constraints on a putative non-starred
   extremal family.

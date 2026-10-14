@@ -59,24 +59,24 @@ the number of a_k <= N), which #158 asks when at most two representations a + b
 = n, a <= b, are allowed; the paper adds that its methods do not seem to help
 there, since some sequence with a_k < ck^2 has limsup (1/n) Σ_{k=1}^{n} f(k)^2 <
 ∞. Pliego (arXiv:2405.04154v1, p. 2) cites this paper for that liminf
-conjecture; the site's page for #158 (read 2026-10-07) cites only Erdős, Sárközy
-and Sós 1994 ([ESS94]), whose Problem 9 (pp. 346--347) poses the B_2[2] case
-without citing this paper. What this paper proves is the Erdos-Fuchs obstruction
-for the cumulative representation function, not any resolution of the B_2[2]
-liminf question. The copy read for this card is a scan of the Cornell/Air Force
-technical-report printing whose OCR text layer garbles the formulas but whose
-page images are legible, the Lemma and the proofs of Theorems 1 and 2 (printed
-pp. -3- to -8-, PDF pp. 9--19) included; the proofs were not checked for this
-card. That 22-page scan opens with the report's bibliographical control sheet
-(dated August 1954, "Pages: 9") and a title page; the paper's first text page is
-PDF p. 5, read on the page image (claims checked for the statement of Theorem 1
-and the opening paragraph; the journal pagination 67--73 was not compared): "In
-a previous [2] paper Erdős-Turán conjectured that r(n) - cn = O(1) cannot hold.
-In the present paper we prove THEOREM 1. If c > 0, then r(n) = cn + o(n^{1/4}
-log^{-1/2-ε} n) (ε > 0) (1) cannot hold." The remarks of that page, the counting
-conventions and Theorem 2 on printed p. -2- and the Lemma on printed p. -3- were
-also checked clause by clause on the page images (claims checked), and the
-proofs were read there without a step-by-step check.
+conjecture; the erdosproblems.com page for #158 (read 2026-10-07) cites only
+Erdős, Sárközy and Sós 1994 ([ESS94]), whose Problem 9 (pp. 346--347) poses the
+B_2[2] case without citing this paper. What this paper proves is the Erdos-Fuchs
+obstruction for the cumulative representation function, not any resolution of
+the B_2[2] liminf question. The copy read for this card is a scan of the
+Cornell/Air Force technical-report printing whose OCR text layer garbles the
+formulas but whose page images are legible, the Lemma and the proofs of Theorems
+1 and 2 (printed pp. -3- to -8-, PDF pp. 9--19) included; the proofs were not
+checked for this card. That 22-page scan opens with the report's bibliographical
+control sheet (dated August 1954, "Pages: 9") and a title page; the paper's
+first text page is PDF p. 5, read on the page image (claims checked for the
+statement of Theorem 1 and the opening paragraph; the journal pagination 67--73
+was not compared): "In a previous [2] paper Erdős-Turán conjectured that r(n) -
+cn = O(1) cannot hold. In the present paper we prove THEOREM 1. If c > 0, then
+r(n) = cn + o(n^{1/4} log^{-1/2-ε} n) (ε > 0) (1) cannot hold." The remarks of
+that page, the counting conventions and Theorem 2 on printed p. -2- and the
+Lemma on printed p. -3- were also checked clause by clause on the page images
+(claims checked), and the proofs were read there without a step-by-step check.
 
 Source: <https://doi.org/10.1112/jlms/s1-31.1.67>. The copy read for this card is the Cornell
 University and USAF Office of Scientific Research technical report (Report No.
@@ -94,7 +94,7 @@ paper names as its target. The problem's sum of 1_A * 1_A counts ordered
 pairs, the paper's convention (I), for which the theorem is stated (printed
 p. -2-); an A containing 0 is covered by the paper's remark that the theorem
 holds for non-negative sequences, and a finite A gives an eventually
-constant sum. This is the site's [ErFu56] source.
+constant sum. This is erdosproblems.com's [ErFu56] source.
 [[../wiki/problems/additive_bases/E0158/_index|#158]]: the
 conjecture on printed p. -2- (PDF p. 7) that a_k < ck^2 for all k forces
 limsup f(n) = ∞ says, in contrapositive form, that every infinite sequence
@@ -103,8 +103,9 @@ two representations; Pliego (arXiv:2405.04154v1, p. 2) cites this paper for
 that liminf form. The paper states this as a conjecture and proves nothing
 about it; Theorem 1 constrains the cumulative count r(n) and
 [[additive_bases/erdos_1956_problem_additive_number_theory/theorem_2|Theorem 2]]
-the mean square of f(k) - c, and neither decides the question; the site's
-page for the problem (read 2026-10-07) cites only [ESS94], not this paper.
+the mean square of f(k) - c, and neither decides the question; the
+erdosproblems.com page for the problem (read 2026-10-07) cites only [ESS94], not
+this paper.
 
 **Results.**
 

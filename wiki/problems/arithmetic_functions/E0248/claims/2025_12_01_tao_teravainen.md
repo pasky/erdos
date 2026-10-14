@@ -4,7 +4,8 @@ title: Tao and Teräväinen prove the linear bound
 desc: |
   Tao and Teräväinen prove that for some absolute $C$ infinitely many $n$
   satisfy $\omega(n+k)\le Ck$ for every $k\ge1$, which answers the question yes.
-  The site's curator records the problem as resolved by this preprint.
+  The erdosproblems.com curator records the problem as resolved by this
+  preprint.
 authors:
 - Terence Tao
 - Joni Teräväinen
@@ -48,11 +49,12 @@ authors' forum announcement of 2025-12-01 explains that the shifts
 $k=o(\log\log n)$ carry the difficulty. The source card is
 [[../library/arithmetic_functions/tao_2025_quantitative_correlations_problems_prime_factors_consecutive/_index|Tao and Teräväinen 2025]].
 
-**Acceptance.** The site's curator, Thomas F. Bloom, records in the problem's
-commentary (page last edited 2026-04-17) that the problem has been resolved by
-this result, and labeled the problem proved. That documented acceptance is the
-`reviewed` evidence. The preprint (arXiv:2512.01739, v1 of 2025-12-01, v2 of
-2026-04-25) has no journal publication on record, so `refereed` is not listed.
+**Acceptance.** The erdosproblems.com curator, Thomas F. Bloom, records in the
+problem's commentary (page last edited 2026-04-17) that the problem has been
+resolved by this result, and labeled the problem proved. That documented
+acceptance is the `reviewed` evidence. The preprint (arXiv:2512.01739, v1 of
+2025-12-01, v2 of 2026-04-25) has no journal publication on record, so
+`refereed` is not listed.
 
 A Lean 4 development in the lean-proofs repository (file first published
 2026-08-23) declares itself a formalization of a solution to the problem, with
@@ -62,13 +64,13 @@ Codex and GPT-5.6 Sol and the repository to Boris Alexeev. The header also says
 that the file implements the Tao–Teräväinen weighted-sieve argument directly for
 $\omega$. The formal-conjectures project links that file as the formal proof of
 its statement `erdos_248` (category research solved). This is the Lean that the
-site's label refers to. The statement file is linked above as a record, since it
-holds no proof. This corpus has not built the development, printed its axioms or
-audited its statement, so `formalized` is not listed.
+erdosproblems.com label refers to. The statement file is linked above as a
+record, since it holds no proof. This corpus has not built the development,
+printed its axioms or audited its statement, so `formalized` is not listed.
 
 **Later strengthening.** Lau (arXiv:2604.15042, 2026-04-16) proves that for
 some absolute $C$ infinitely many $n$ have $\Omega(n+k)\le C\log k$ for every
-$k\ge2$, which the site records as an improvement of this bound; see
+$k\ge2$, which erdosproblems.com records as an improvement of this bound; see
 [[../library/arithmetic_functions/lau_2026_number_prime_factors_consecutive_integers/_index|Lau 2026]].
 It refines the method of this claim, and after the shift $n\mapsto n+1$ it
 implies the problem's statement by itself, since

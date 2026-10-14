@@ -40,10 +40,10 @@ $\ll(e^{C_0^2}-1+o(1))\bigl(\sum_{n\in A:\,n\le x}1/n\bigr)^2$; that factor
 is the right side of the defect bound (21) of Theorem 2(i) (p. 6),
 $\mathbb E\gcd(\mathbf n,\mathbf m)-1\ll\exp(C_0^2)-1+o(1)$.
 
-The sum in (12) runs over ordered pairs including the diagonal. In the site's
-statement the sum runs over $a<b$ in $A\cap(1,x]$ and the normalizing sum over
-$A\cap[1,x)$; the conversion is written on the problem page and changes
-nothing in the truth of the negative answer.
+The sum in (12) runs over ordered pairs including the diagonal. In the
+erdosproblems.com statement the sum runs over $a<b$ in $A\cap(1,x]$ and the
+normalizing sum over $A\cap[1,x)$; the conversion is written on the problem page
+and changes nothing in the truth of the negative answer.
 
 **Source.** Terence Tao, *Dense sets of natural numbers with unusually large
 least common multiples*, arXiv:2407.04226v5 (11 November 2025, 20 pp.; the copy
@@ -85,9 +85,9 @@ paper's Lemma 1.
   page names it the status-defining source. Since
   $\exp((C_0/2+o(1))\mathrm{Log}_2^{1/2}x\,\mathrm{Log}_3x)/\log\log x\to\infty$,
   the set satisfies the hypothesis and violates the conclusion, so the answer is
-  no; the site's display is the case $C_0=1$. The optimality sentence is what
-  the site's commentary records as the best possible result; its converse half
-  is
+  no; the erdosproblems.com display is the case $C_0=1$. The optimality sentence
+  is what the erdosproblems.com commentary records as the best possible result;
+  its converse half is
   [[integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/theorem_2|Theorem 2]](ii),
   sharpened to the matching constant by
   [[integer_sequences/tao_2024_dense_sets_natural_numbers_unusually_large/theorem_3|Theorem 3]].

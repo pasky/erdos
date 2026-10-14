@@ -2,10 +2,10 @@
 name: problems/unit_fractions/E0319/claims/2025_09_15_adenwalla
 title: "Adenwalla: a lower bound of (1 - 1/e + o(1))N from Croot's theorem"
 desc: |
-  A construction credited to Sarosh Adenwalla in the site's commentary, by which
-  the largest minimal signed zero-sum relation among the reciprocals of
-  $1,\ldots,N$ has size at least $(1-1/e+o(1))N$. It rests on site commentary
-  only and is pending.
+  A construction credited to Sarosh Adenwalla in the erdosproblems.com
+  commentary, by which the largest minimal signed zero-sum relation among the
+  reciprocals of $1,\ldots,N$ has size at least $(1-1/e+o(1))N$. It rests on
+  erdosproblems.com commentary only and is pending.
 authors:
 - Sarosh Adenwalla
 status: claimed
@@ -27,8 +27,8 @@ updated: 2026-10-07T22:51:54Z
 **Claim.** Let $c(N)$ be the largest size of a set $A\subseteq\{1,\ldots,N\}$
 carrying signs $\delta:A\to\{-1,1\}$ whose signed reciprocals sum to zero
 while no nonempty proper subset of $A$ sums to zero, as
-[[problems/unit_fractions/E0319/_index|Problem 319]] defines it. The site's
-commentary credits Sarosh Adenwalla with the observation that
+[[problems/unit_fractions/E0319/_index|Problem 319]] defines it. The
+erdosproblems.com commentary credits Sarosh Adenwalla with the observation that
 
 $$
 c(N)\ge\Bigl(1-\frac1e+o(1)\Bigr)N
@@ -54,16 +54,16 @@ but it does not determine the asymptotic of $c(N)$: the limit of $c(N)/N$,
 if it exists, is left anywhere in $[1-\frac1e,1]$. The claim's value is
 proved because the result proves a bound.
 
-**Standing.** Claimed. The result exists only as the site's commentary: no
-written source by Adenwalla states it, and it has no arXiv version, no
-journal record, no formalization and no independent review. The commentary
-credits it to Adenwalla, but the site labeled the problem OPEN (no
-last-edited stamp) and lists no parts, so the credit is
-not an acceptance and no `reviewed` evidence is listed. Croot's theorem
-itself is refereed, but the deduction is not published. The claim is dated
-by the earliest archived copy of the site's page that carries the remark,
-that of 15 September 2025 (the second link); the archived copy of 19 June
-2024 carries the problem without commentary. The pending
+**Standing.** Claimed. The result exists only as the erdosproblems.com
+commentary: no written source by Adenwalla states it, and it has no arXiv
+version, no journal record, no formalization and no independent review. The
+commentary credits it to Adenwalla, but Bloom's catalog labeled the problem OPEN
+(no last-edited stamp) and lists no parts, so the credit is not an acceptance
+and no `reviewed` evidence is listed. Croot's theorem itself is refereed, but
+the deduction is not published. The claim is dated by the earliest archived copy
+of the erdosproblems.com page that carries the remark, that of 15 September 2025
+(the second link); the archived copy of 19 June 2024 carries the problem without
+commentary. The pending
 [[problems/unit_fractions/E0319/claims/2026_07_16_popular_12345|density-one claim of 16 July 2026]]
 would lift this bound to $c(N)\ge N-o(N)$.
 

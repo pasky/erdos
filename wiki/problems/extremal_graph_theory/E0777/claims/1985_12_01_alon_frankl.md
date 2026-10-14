@@ -50,19 +50,19 @@ at most $d$ elements of $X_1$ form a family of size of order $n^d2^{n/2}$ in
 which at least a $2^{-2d-1}$ fraction of the pairs are comparable.
 
 **Covers.** The second and third questions of
-[[problems/extremal_graph_theory/E0777/_index|Problem 777]], as the site's
-commentary reads them. The third has the answer yes: given $\epsilon>0$, let
-$\delta>0$ satisfy $2^{1+2\delta}=2+\epsilon$; a family with
+[[problems/extremal_graph_theory/E0777/_index|Problem 777]], as the
+erdosproblems.com commentary reads them. The third has the answer yes: given
+$\epsilon>0$, let $\delta>0$ satisfy $2^{1+2\delta}=2+\epsilon$; a family with
 $m\ge(2+\epsilon)^{n/2}=2^{(1/2+\delta)n}$ sets has fewer than
 $4m^{2-\delta^2/2}$ comparable pairs, which is below $m^{2-\delta'}$ for any
 fixed $\delta'<\delta^2/2$ once $m$ is large, so more than $m^{2-\delta'}$
 edges forces $m<(2+\epsilon)^{n/2}$. The second has the answer no: Example
 6.1 with $d=1$ is a family with $m\gg n2^{n/2}$ sets and at least
 $2^{-3}\binom m2$ edges, so a positive fraction of comparable pairs does not
-force $m\ll_c2^{n/2}$ (the site states the same family with the constant
-$2^{-5}$; the constant does not affect the answer). The paper does not state
-the first question; the site credits that answer to Alon, Das, Glebov and
-Sudakov, whose
+force $m\ll_c2^{n/2}$ (erdosproblems.com states the same family with the
+constant $2^{-5}$; the constant does not affect the answer). The paper does not
+state the first question; erdosproblems.com credits that answer to Alon, Das,
+Glebov and Sudakov, whose
 [[problems/extremal_graph_theory/E0777/claims/2014_11_15_alon_das_glebov_sudakov|page]]
 settles it.
 
@@ -70,9 +70,9 @@ settles it.
 [[../library/extremal_graph_theory/alon_1985_maximum_number_disjoint_pairs_family_subsets/_index|source card]]
 (the card carries no digest). Proof coverage: Theorem 1.4, the Section 2
 bound and Example 6.1 at statement depth; the two deductions under Covers
-are this page's own reading of the site's attribution. The size of Example
-6.1 is of order $n^d2^{n/2}$, as the paper's own asymptotics and Alon, Das,
-Glebov and Sudakov's restatement give it.
+are this page's own reading of the erdosproblems.com attribution. The size of
+Example 6.1 is of order $n^d2^{n/2}$, as the paper's own asymptotics and Alon,
+Das, Glebov and Sudakov's restatement give it.
 
 **The formalization.** The file `src/latest/ErdosProblems/Erdos777.lean` of
 Boris Alexeev's lean-proofs repository (plby/lean-proofs), linked above at
@@ -87,8 +87,8 @@ built or audited the file, so `formalized` is not listed.
 
 **Acceptance.** Refereed: Graphs and Combinatorics, volume 1 (1985), 13--21. The
 Crossref record dates the issue December 1985, and the page name uses the first
-day of that month. Reviewed: the site's curator, T. F. Bloom, credits the paper
-in the problem's commentary with the negative answer to the second question and
-the affirmative answer to the third (erdosproblems.com/777, accessed
-2026-10-07). Alon, Das, Glebov and Sudakov restate Theorem 1.4 as their Theorem
-1.1, and the construction in their Section 2.
+day of that month. Reviewed: the erdosproblems.com curator, T. F. Bloom, credits
+the paper in the problem's commentary with the negative answer to the second
+question and the affirmative answer to the third (erdosproblems.com/777,
+accessed 2026-10-07). Alon, Das, Glebov and Sudakov restate Theorem 1.4 as their
+Theorem 1.1, and the construction in their Section 2.

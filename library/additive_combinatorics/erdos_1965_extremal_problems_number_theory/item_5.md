@@ -28,13 +28,14 @@ obtain any non-trivial upper bound for $k(n)$."
 
 The printed display has no parentheses around $(\log n)^{1/2-\epsilon}$; its
 natural reading, $k(n)>\exp\bigl((\log n)^{1/2-\epsilon}\bigr)$, is the one
-the site's Problem 962 page prints as $\log k(n)\ge(\log n)^{1/2-o(1)}$.
+erdosproblems.com's Problem 962 page prints as
+$\log k(n)\ge(\log n)^{1/2-o(1)}$.
 
 **Source.** P. Erdős, *Extremal problems in number theory*, Proc. Sympos. Pure
 Math. VIII (Theory of Numbers), Amer. Math. Soc. (1965), 181--189, DOI
 10.1090/pspum/008/0174539 (Crossref record read 2026-09-18); printed p. 183 (PDF
-p. 3 of the eleven-page scan read for this page), read on the page image; a site
-key for Problem 962.
+p. 3 of the eleven-page scan read for this page), read on the page image; an
+erdosproblems.com key for Problem 962.
 
 **Read depth.** Claims checked: the passage was read clause by clause on
 the page image. The lower bound is asserted as "not hard to prove" without
@@ -58,4 +59,5 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0962/_index|Problem 962]]: the problem's
-  definition of $k(n)$ and its first lower bound, as the site quotes them.
+  definition of $k(n)$ and its first lower bound, as erdosproblems.com quotes
+  them.

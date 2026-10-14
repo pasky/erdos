@@ -83,5 +83,6 @@ Nordhaus--Stewart identity (15) (reference [8], reproved on pp. 40--41).
 - [[../wiki/problems/extremal_graph_theory/E0905/_index|Problem 905]]: the statement with a
   surplus (strict inequality $\hat t>n/6$), proved in this paper from its
   Theorem 1 and presented as a consequence of the 1979 solution with
-  Nikiforov, the site's KhNi79; Corollary 5's exact minimum $\lceil n/6\rceil$
-  and the graph of figure 8 show the bound $n/6$ cannot be raised.
+  Nikiforov, erdosproblems.com's KhNi79; Corollary 5's exact minimum
+  $\lceil n/6\rceil$ and the graph of figure 8 show the bound $n/6$ cannot be
+  raised.

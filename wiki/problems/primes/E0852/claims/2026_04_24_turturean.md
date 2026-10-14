@@ -67,8 +67,8 @@ corrects $C_*$ from its twelfth significant digit to $0.0752403861783092\ldots$,
 a floating-point slip that the post says leaves the argument unchanged. The
 write-up is a live document that may change.
 
-**Submission note.** Posted to the site's forum by David Turturean on 24 April
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by David Turturean on
+24 April 2026:
 
 > I am able to corroborate the findings, using a slightly different route. The
 > writeup of what I have so far is at this Overleaf link.
@@ -144,9 +144,9 @@ $h(x)=o(\log x)$ rests on an unproved hypothesis and settles nothing.
 sieve and Gallagher's mean-value estimate for singular series.
 
 **Standing.** Claimed. The write-up is unrefereed and lives in a live Overleaf
-project; the site's label was OPEN, its commentary records only that Brun's
-sieve gives $h(x)\to\infty$, and its proof-claims tab lists nothing for the
-problem, so the curator records no acceptance. A reply on the thread the same
-day reports that a check found two minor issues, without naming them or saying
-which of the two write-ups it checked. No independent review of the argument is
-recorded.
+project; the erdosproblems.com label was OPEN, its commentary records only that
+Brun's sieve gives $h(x)\to\infty$, and its proof-claims tab lists nothing for
+the problem, so the curator records no acceptance. A reply on the thread the
+same day reports that a check found two minor issues, without naming them or
+saying which of the two write-ups it checked. No independent review of the
+argument is recorded.

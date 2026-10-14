@@ -37,7 +37,8 @@ $$
 D(P)\ge P\lceil\log_2P\rceil,
 $$
 
-with $\log_2$ the base-2 logarithm, which is the site's $D(p)\gg p\log p$.
+with $\log_2$ the base-2 logarithm, which is erdosproblems.com's
+$D(p)\gg p\log p$.
 [[../library/unit_fractions/bleicher_1976_denominators_egyptian_fractions/theorem_2|Theorem 2]]
 (p. 162): there is a constant $K$ with $D(N)\le KN(\ln N)^3$ for every
 $N\ge2$. The zbMATH review (Zbl 0328.10010) gives the same two statements.
@@ -56,7 +57,7 @@ do not reach $1+o(1)$; Yokota's theorem
 ([[problems/unit_fractions/E0305/claims/1988_10_01_yokota|its claim page]])
 does.
 
-**Attribution.** The site's commentary credits the bound
+**Attribution.** The erdosproblems.com commentary credits the bound
 $D(b)\ll b(\log b)^2$ to this paper under its key [BlEr76]; the exponent-2
 bound is Theorem 1 of the sequel in the Illinois Journal of Mathematics,
 and this paper prints exponent $3$. The problem page records the
@@ -65,6 +66,6 @@ collision.
 **Acceptance.** Refereed: M. N. Bleicher and P. Erdős, Denominators of Egyptian
 fractions, J. Number Theory 8 (1976), no. 2, 157--168. The publisher's record
 dates the issue May 1976 and gives no day, so this page is dated the first of
-that month. The site's PROVED label credited Yokota's paper, not this one, so no
-`reviewed` evidence is listed. This claim is partial: it settles the lower half
-of the estimate, not the question.
+that month. erdosproblems.com's PROVED label credited Yokota's paper, not this
+one, so no `reviewed` evidence is listed. This claim is partial: it settles the
+lower half of the estimate, not the question.

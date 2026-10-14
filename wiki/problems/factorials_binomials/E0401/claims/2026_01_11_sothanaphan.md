@@ -29,8 +29,8 @@ updated: 2026-10-08T03:54:06Z
 
 **Claim.** The answer to
 [[problems/factorials_binomials/E0401/_index|Problem 401]] is yes, by a second
-route. Nat Sothanaphan reported in the site's discussion thread on 11 January
-2026 that ChatGPT had noticed that the construction solving
+route. Nat Sothanaphan reported in the erdosproblems.com discussion thread on 11
+January 2026 that ChatGPT had noticed that the construction solving
 [[problems/factorials_binomials/E0729/_index|Problem 729]] also solves this
 problem; the claimant posted the deduction with their own check of it, and their write-up of the Lean proof of
 [[problems/factorials_binomials/E0728/_index|Problem 728]], *Resolution of
@@ -60,8 +60,9 @@ the small primes are absorbed, so that $f(r)\to\infty$.
 **Standing.** The claim is `claimed`. The appendix proves Theorem 2 only in
 outline, by pointing to the lemmas of the main proof and saying which
 parameter must change, and the deduction for this problem is a paragraph; no
-outside reviewer has accepted this route, the paper is not refereed, and the
-site credits the problem to Barreto and Leeham, whose proof is recorded on
+outside reviewer has accepted this route, the paper is not refereed, and
+erdosproblems.com credits the problem to Barreto and Leeham, whose proof is
+recorded on
 [[problems/factorials_binomials/E0401/claims/2026_01_11_barreto_price|their page]].
 The paper itself says the two problems were solved first by the other route
 and that the connection to its argument was noticed afterwards. The write-up

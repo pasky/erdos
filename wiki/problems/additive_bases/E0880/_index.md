@@ -26,25 +26,25 @@ $B=\{b_1<b_2<\cdots\}$ be the set of integers which are the sum of $k$ or fewer
 distinct $a\in A$. Is it true that $b_{n+1}-b_n=O(1)$? (Where the implied
 constant may depend on both $A$ and $k$.)
 
-**Status.** The site labeled the problem PROVED, but the page departs from that
-label: the Statement is disproved. PROVED, the site's "solved in the
-affirmative", contradicts both the theorem in print and the site's own
-commentary. No source offers a reading of the question under which the answer is
-yes. The accepted full claim is
+**Status.** Bloom's catalog labeled the problem PROVED, but the page departs
+from that label: the Statement is disproved. PROVED, erdosproblems.com's "solved
+in the affirmative", contradicts both the theorem in print and
+erdosproblems.com's own commentary. No source offers a reading of the question
+under which the answer is yes. The accepted full claim is
 [[problems/additive_bases/E0880/claims/2007_09_01_hegyvari_hennecart_plagne|Hegyvári, Hennecart and Plagne]].
-The site's commentary records their answer [HHP07]: yes for $k=2$, with
-$b_{n+1}-b_n\le2$ for all large $n$, and no for every $k\ge3$. The Statement
-asks whether the gaps are bounded for every basis of every order $k$. Erdős's
-own wording, quoted in the introduction of [HHP07] from [Er98], asks the same
-for general $k$ ("Is it true that $\limsup(b_{i+1}-b_i)<\infty$ ... The bound
-may of course depend on $k$ and on the sequence"). For each $h\ge3$, Theorem
-1(ii) of [HHP07] gives a set $A$ with $h(\{0\}\cup A)$ containing all large
-integers. This is a basis of order $h$ in the problem's sense, and its sums of
-$h$ or fewer distinct elements have unbounded gaps. The authors describe the
-result as "a negative answer to a question by Burr and Erdős" and "an explicit
-counterexample to the Erdős-Burr conjecture". So the Statement is disproved. The
-case $k=2$, where Theorem 1(i) gives $b_{n+1}-b_n\le2$ for all large $n$, is the
-part of the question that holds.
+The erdosproblems.com commentary records their answer [HHP07]: yes for $k=2$,
+with $b_{n+1}-b_n\le2$ for all large $n$, and no for every $k\ge3$. The
+Statement asks whether the gaps are bounded for every basis of every order $k$.
+Erdős's own wording, quoted in the introduction of [HHP07] from [Er98], asks the
+same for general $k$ ("Is it true that $\limsup(b_{i+1}-b_i)<\infty$ ... The
+bound may of course depend on $k$ and on the sequence"). For each $h\ge3$,
+Theorem 1(ii) of [HHP07] gives a set $A$ with $h(\{0\}\cup A)$ containing all
+large integers. This is a basis of order $h$ in the problem's sense, and its
+sums of $h$ or fewer distinct elements have unbounded gaps. The authors describe
+the result as "a negative answer to a question by Burr and Erdős" and "an
+explicit counterexample to the Erdős-Burr conjecture". So the Statement is
+disproved. The case $k=2$, where Theorem 1(i) gives $b_{n+1}-b_n\le2$ for all
+large $n$, is the part of the question that holds.
 
 **Source.** [erdosproblems.com/880](https://www.erdosproblems.com/880), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #880,
@@ -59,9 +59,9 @@ https://www.erdosproblems.com/880.
   question by Burr and Erdős on restricted addition, and related results.
   Combin. Probab. Comput. 16 (2007), no. 5, 747--756.
 
-**Formalization.** The site shows no formal statement, and the community
-database at teorth/erdosproblems lists the problem as not formalized. A
-third-party Lean formalization of Hegyvári, Hennecart and Plagne's theorem,
+**Formalization.** erdosproblems.com shows no formal statement, and the
+community database at teorth/erdosproblems lists the problem as not formalized.
+A third-party Lean formalization of Hegyvári, Hennecart and Plagne's theorem,
 `not_erdos_880` in Boris Alexeev's repository, not built or audited here, is
 linked at a pinned commit on
 [[problems/additive_bases/E0880/claims/2007_09_01_hegyvari_hennecart_plagne|the claim page]].

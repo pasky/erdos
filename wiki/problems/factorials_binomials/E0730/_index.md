@@ -27,19 +27,19 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Are there infinitely many pairs of integers $n\neq m$ such that
 $\binom{2n}{n}$ and $\binom{2m}{m}$ have the same set of prime divisors?
 
-**Status.** Solved. The site labeled the problem SOLVED (page last edited 1
-September 2026). The standing in the frontmatter derives from the claim page.
+**Status.** Solved. Bloom's catalog labeled the problem SOLVED (page last edited
+1 September 2026). The standing in the frontmatter derives from the claim page.
 The question is a yes-or-no question answered yes, so the claim value is
 `proved`.
 
-The site credits GPT Pro, prompted by Price, for a proof that infinitely many
-$n$ have $\binom{2n}{n}$ and $\binom{2n+2}{n+1}$ with the same prime divisors.
-For all large $x$, at least a constant times $x^{1/2}$ of these $n$ lie below
-$x$. The result is recorded on the claim page
+erdosproblems.com credits GPT Pro, prompted by Price, for a proof that
+infinitely many $n$ have $\binom{2n}{n}$ and $\binom{2n+2}{n+1}$ with the same
+prime divisors. For all large $x$, at least a constant times $x^{1/2}$ of these
+$n$ lie below $x$. The result is recorded on the claim page
 [[problems/factorials_binomials/E0730/claims/2026_06_24_price|Price 2026]]. The
-site's proof-claim entry states that the proof has been accepted as correct. A
-third-party Lean formalization of the argument is registered with the Palomar
-registry and copied into Boris Alexeev's repository of formalized Erdős
+erdosproblems.com proof-claim entry states that the proof has been accepted as
+correct. A third-party Lean formalization of the argument is registered with the
+Palomar registry and copied into Boris Alexeev's repository of formalized Erdős
 problems. This corpus has built neither, and nothing is refereed.
 
 **Source.** [erdosproblems.com/730](https://www.erdosproblems.com/730), accessed
@@ -55,8 +55,8 @@ Bloom, Erdős Problem #730, https://www.erdosproblems.com/730.
   [[../library/factorials_binomials/erdos_1975_prime_factors/_index|erdos_1975_prime_factors]].
 
 **Formalization.** Statement in
-[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/29a95baef275ca85c144c248cb1d151803ecbeb1/FormalConjectures/ErdosProblems/730.lean)
-(as of 2026-10-07), tagged solved, with the pair set written as pairs $n<m$;
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/29a95baef275ca85c144c248cb1d151803ecbeb1/FormalConjectures/ErdosProblems/730.lean),
+  tagged solved, with the pair set written as pairs $n<m$;
 it names as the problem's formal proof Will Blair's Lean development, which
 the Palomar registry verified against that statement on 2026-08-22, and it
 records the pairs $(87,88)$ and $(607,608)$ and the non-consecutive pair
@@ -65,15 +65,15 @@ commits, from the claim page. This corpus has not built it.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 1 September 2026): are
-there infinitely many pairs $n\ne m$ such that $\binom{2n}{n}$ and
+The question, as erdosproblems.com states it (page last edited 1 September
+2026): are there infinitely many pairs $n\ne m$ such that $\binom{2n}{n}$ and
 $\binom{2m}{m}$ have the same set of prime divisors? It comes from the
 concluding remarks of [EGRS75], whose authors were sure the answer is yes,
 gave the examples $\binom{174}{87},\binom{176}{88}$ and
 $\binom{1214}{607},\binom{1216}{608}$, that is the consecutive pairs
 $(87,88)$ and $(607,608)$, and had no proof. The answer is yes.
 
-Examples and data. The site records the consecutive pairs $(87,88)$ and
+Examples and data. erdosproblems.com records the consecutive pairs $(87,88)$ and
 $(607,608)$, the OEIS sequence A129515 of those $n$ for which some larger $m$
 works, and the triple $(10003,10004,10005)$ whose three central binomial
 coefficients share one set of prime divisors; the pair $(10003,10005)$, found
@@ -103,8 +103,8 @@ question the thread raises and nothing settles.
 
 Proof. The accepted claim page
 [[problems/factorials_binomials/E0730/claims/2026_06_24_price|Price 2026]]
-records the result the site credits: an argument of the AI system GPT Pro,
-posted by Liam Price to the thread on 2026-06-24 and submitted as the
+records the result erdosproblems.com credits: an argument of the AI system GPT
+Pro, posted by Liam Price to the thread on 2026-06-24 and submitted as the
 problem's proof claim on 2026-07-15, proving that infinitely many consecutive
 pairs $(n,n+1)$ work, with at least a constant times $x^{1/2}$ such $n$ below
 $x$ for all large $x$. Kummer's theorem turns the entry or exit of a prime
@@ -119,15 +119,16 @@ and Claude Code and registered with the Palomar registry on 2026-08-22, proves
 the pair set infinite by way of a positive lower density for the family; its
 record says it reconstructs the analytic sections from the public summary and
 a route mapping posted by another forum user, and that no independent human
-review of the mathematics was performed. The site's acceptance of the proof
-claim is the independent review on record.
+review of the mathematics was performed. erdosproblems.com's acceptance of the
+proof claim is the independent review on record.
 
-Search scope, with the sources as they stood on 2026-10-07: the site's problem
-page, its discussion thread (7 comments), its proof-claims page (one claim,
-accepted), the community database, the formal-conjectures file, the Palomar
-registry record and the two Lean repositories. The community database's row
-records the status solved (last update 2025-08-31) and the formal status
-unformalized, which the claim page notes.
+Search scope, with the sources as they stood on 2026-10-07: the
+erdosproblems.com problem page, its discussion thread (7 comments), its
+proof-claims page (one claim, accepted), the community database, the
+formal-conjectures file, the Palomar registry record and the two Lean
+repositories. The community database's row records the status solved (last
+update 2025-08-31) and the formal status unformalized, which the claim page
+notes.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

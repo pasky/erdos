@@ -36,14 +36,14 @@ $$
 
 almost surely?
 
-**Status.** OPEN (LEAN), the site's label as of 2026-10-06 (page last edited 06
-December 2025). The site derives this label from the community database. On
-2026-09-26 the database recorded a Lean formalization of a claimed proof (pull
-request 448 of teorth/erdosproblems, merged that day). That record sets the
-formal status to Lean and leaves the informal status open until a human reader
-has digested the proof. So a machine-checked proof is recorded, and no human
-review has accepted it. The site's remarks cite Yakir's in-probability result
-[Ya21] as the progress.
+**Status.** OPEN (LEAN), the erdosproblems.com label on 2026-10-06 (page last
+edited 06 December 2025). erdosproblems.com derives this label from the
+community database. On 2026-09-26 the database recorded a Lean formalization of
+a claimed proof (pull request 448 of teorth/erdosproblems, merged that day).
+That record sets the formal status to Lean and leaves the informal status open
+until a human reader has digested the proof. So a machine-checked proof is
+recorded, and no human review has accepted it. The erdosproblems.com remarks
+cite Yakir's in-probability result [Ya21] as the progress.
 
 The derived standing is `claimed`/`proved`. Five pending full claims, none
 accepted, assert that $R_n/(n/2)\to1$ almost surely for $\{-1,1\}$ coefficients.
@@ -56,9 +56,9 @@ Snyder of Star Fleet Math and hosted in the lean-proofs repository on 2026-07-23
 two are the Lean-backed claims of September 2026.
 [[problems/polynomials/E0522/claims/2026_09_25_kawada|Kawada 2026]] is the
 formalization the database recorded, with a Zenodo preprint and a revised
-arXiv version, and it is the one claim on the site's proof-claims tab.
-[[problems/polynomials/E0522/claims/2026_09_25_kitamura|Kitamura 2026]] is a
-Lean proof of both coefficient readings, linked by formal-conjectures. None is
+arXiv version, and it is the one claim on the erdosproblems.com proof-claims
+tab. [[problems/polynomials/E0522/claims/2026_09_25_kitamura|Kitamura 2026]] is
+a Lean proof of both coefficient readings, linked by formal-conjectures. None is
 refereed, independently reviewed, or built or audited here.
 
 **Source.** [erdosproblems.com/522](https://www.erdosproblems.com/522), accessed
@@ -81,17 +81,17 @@ https://www.erdosproblems.com/522.
 `{0,1}` variant have been tagged `research solved`
 since 2026-09-28 (pull request 6608), linking Kitamura's Lean proof of both
 statements and, since 2026-09-29, two revisions of Kawada's repository; the
-catalog links, it does not referee. The two developments are recorded at
-their pinned revisions on the Kitamura and Kawada claim pages. Nothing was
-built or fidelity-audited here.
+formal-conjectures catalog links, it does not referee. The two developments are
+recorded at their pinned revisions on the Kitamura and Kawada claim pages.
+Nothing was built or fidelity-audited here.
 
 ## Current assessment
 
-The question, as the site states it, asks whether the number $R_n$ of roots
-of the degree-$n$ partial polynomial in the closed unit disk satisfies
+The question, as erdosproblems.com states it, asks whether the number $R_n$ of
+roots of the degree-$n$ partial polynomial in the closed unit disk satisfies
 $R_n/(n/2)\to1$ almost surely, for one infinite sequence of independent
-uniform signs; the site records the same ambiguity between $\{-1,1\}$ and
-$\{0,1\}$ coefficients as for Problem 521, and the thread's reading of
+uniform signs; erdosproblems.com records the same ambiguity between $\{-1,1\}$
+and $\{0,1\}$ coefficients as for Problem 521, and the thread's reading of
 [Er61, p. 252] is that Erdős asked for the strong law, with the
 in-probability form as a separate weaker question. Yakir [Ya21] proved the
 weaker form, $R_n=n/2+O(n^{9/10})$ with probability tending to one. The
@@ -110,21 +110,21 @@ ones by logarithmic integrability instead and derives the answer from a
 tail bound at each fixed degree, proved through the argument principle,
 with the rate $O(n^{3/4}\sqrt{\log n})$; and Kitamura's Lean development
 (September 2026, AI-assisted), with an AI-generated proof outline in its README
-and no manuscript, which proves the catalog's statements for both coefficient
-readings and so also settles the $\{0,1\}$ reading. The fifth is a Lean
-development credited to Colin Snyder of Star Fleet Math, hosted in the
+and no manuscript, which proves the formal-conjectures statements for both
+coefficient readings and so also settles the $\{0,1\}$ reading. The fifth is a
+Lean development credited to Colin Snyder of Star Fleet Math, hosted in the
 lean-proofs repository on 2026-07-23 with no write-up and announced nowhere on
-the site, whose final theorem is derived from a moment bound for radial cosine
-sums and whose route this wiki does not trace beyond its section names. Letwin
-announced on the thread in April 2026 a more general paper that would imply the
-problem, and mentioned a separate paper of Michelen and Yakir; neither has
-appeared. No claim has been checked by a named reader on the thread beyond the
-aborted check of Chojecki's first note, no refereed version exists, and this
+erdosproblems.com, whose final theorem is derived from a moment bound for radial
+cosine sums and whose route this wiki does not trace beyond its section names.
+Letwin announced on the thread in April 2026 a more general paper that would
+imply the problem, and mentioned a separate paper of Michelen and Yakir; neither
+has appeared. No claim has been checked by a named reader on the thread beyond
+the aborted check of Chojecki's first note, no refereed version exists, and this
 wiki has not checked any of the proofs.
 
-Search scope: the site's problem page as exported (last edited 06 December
-2025), its discussion thread (25 comments, read 2026-10-07) and proof-claims
-tab, the community database entry (open, formal status Lean,
+Search scope: the erdosproblems.com problem page as exported (last edited 06
+December 2025), its discussion thread (25 comments, read 2026-10-07) and
+proof-claims tab, the community database entry (open, formal status Lean,
 2026-09-26), the formal-conjectures file and the two pull requests that
 tagged it, the GitHub repositories and notes linked from the thread, the
 lean-proofs repository's index, arXiv author searches for Letwin, Michelen
@@ -157,7 +157,7 @@ searched and X was not used.
   $\nu_n(1)=n/2+O(n^{3/4}\sqrt{\log n})$ for signs) and
   [[problems/polynomials/E0522/claims/2026_09_25_kitamura|Kitamura 2026]] (a
   Lean proof, which also proves the $\{0,1\}$ reading).
-- Earlier postings: the site's remarks and the thread record no other
+- Earlier postings: the erdosproblems.com remarks and the thread record no other
   result on the almost-sure question before April 2026.
 
 <!-- BEGIN problem library links -->

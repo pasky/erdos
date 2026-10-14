@@ -3,9 +3,9 @@ name: problems/number_theory/E1005/claims/2026_07_04_cipollini
 title: Cipollini's asymptotic f(n) = (1/4 + o(1)) n
 desc: |
   Cipollini's 2026 preprint, with declared AI assistance, proves the lower bound
-  $(\frac14-o(1))n$ and so the asymptotic with $c=1/4$. It is the site's
-  resolution and is unrefereed, and three outside Lean developments were not
-  built here.
+  $(\frac14-o(1))n$ and so the asymptotic with $c=1/4$. It is
+  erdosproblems.com's resolution and is unrefereed, and three outside Lean
+  developments were not built here.
 authors:
 - Ricky Cipollini
 status: accepted
@@ -79,13 +79,13 @@ contribution statement (p. 16) says that the manuscript was written by GPT-5.5
 Pro, that the findings and proof strategy are due to the author together with
 GPT-5.5 Thinking, and thanks Aristotle and van Doorn for the Lean 4
 formalization; the proof-claim entry names GPT 5.5 Thinking and GPT 5.5 Pro, the
-latter for the write-up, the thread post names GPT-5.5 Thinking, and the site's
-commentary credits the result to Cipollini and GPT 5.5. The claim was first
-posted in the problem's thread on 4 July 2026, the date this page is named by,
-with a link to an editable online document (not a citable source) and to the
-first Lean development below; it was filed on the proof-claims tab on 14 July
-2026, and the preprint was posted to arXiv on 25 July 2026, the link a moderator
-added to the tab entry.
+latter for the write-up, the thread post names GPT-5.5 Thinking, and the
+erdosproblems.com commentary credits the result to Cipollini and GPT 5.5. The
+claim was first posted in the problem's thread on 4 July 2026, the date this
+page is named by, with a link to an editable online document (not a citable
+source) and to the first Lean development below; it was filed on the
+proof-claims tab on 14 July 2026, and the preprint was posted to arXiv on 25
+July 2026, the link a moderator added to the tab entry.
 
 **Lean.** Three outside developments declare themselves formalizations of
 this theorem, for the intervening-count convention, and attribute the
@@ -109,18 +109,18 @@ bridge from their `fVal` to the problem's $f(n)$ is the Formulation
 paragraph's remark. The upper bound is reproved in the paper, so the
 theorem does not rest on
 [[problems/number_theory/E1005/claims/2025_08_28_van_doorn|van Doorn's page]],
-with which the site's account pairs it.
+with which erdosproblems.com's account pairs it.
 
-**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
-problem solved and, in the problem's commentary, credits this preprint with the
-lower bound that gives $f(n)=(\frac14+o(1))n$ (the page was last edited 1
-September 2026). The curator neither wrote nor submitted the result. Not
-refereed: arXiv:2607.23302v1 is the only version. No journal record (Crossref,
-2026-09-18) and no written independent expert review were found. Semantic
-Scholar lists one citing record, the Wang--Xie--Zhao preprint. Read depth: the
-statement, the reduction and the lemma statements were checked. The lower-bound
-argument (pp. 3--14) was read for structure, and no step of it was checked.
-Nothing here is independently reviewed by this project.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas F. Bloom,
+labeled the problem solved and, in the problem's commentary, credits this
+preprint with the lower bound that gives $f(n)=(\frac14+o(1))n$ (the page was
+last edited 1 September 2026). The curator neither wrote nor submitted the
+result. Not refereed: arXiv:2607.23302v1 is the only version. No journal record
+(Crossref, 2026-09-18) and no written independent expert review were found.
+Semantic Scholar lists one citing record, the Wang--Xie--Zhao preprint. Read
+depth: the statement, the reduction and the lemma statements were checked. The
+lower-bound argument (pp. 3--14) was read for structure, and no step of it was
+checked. Nothing here is independently reviewed by this project.
 
 **Depends on.** Nothing on the wiki; the theorem, both bounds included, is
 proved in the preprint linked above.

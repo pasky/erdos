@@ -32,12 +32,12 @@ $|A|>\frac13n$", where sum-free means $(A+A)\cap A=\emptyset$, $a=b$
 included (p. 13), the convention of
 [[problems/additive_combinatorics/E0792/_index|Problem 792]]. Since $|A|$ is
 an integer, $|A|\ge(n+1)/3$. Proposition 1.2 (p. 14) extends the bound to
-sequences of nonzero integers. The site's $f(n)$ is also taken over sets
-containing $0$ and negative integers; $0$ lies in no sum-free set, so for a
+sequences of nonzero integers. erdosproblems.com's $f(n)$ is also taken over
+sets containing $0$ and negative integers; $0$ lies in no sum-free set, so for a
 set of $n$ integers containing $0$ the bound applies to its $n-1$ nonzero
 elements and gives more than $(n-1)/3$, that is at least $n/3$. Hence
-$f(n)\ge n/3$ for every $n\ge2$ on the site's domain, while $A=\{0\}$ gives
-$f(1)=0$. The proof (p. 15) multiplies the elements by a random residue
+$f(n)\ge n/3$ for every $n\ge2$ on erdosproblems.com's domain, while $A=\{0\}$
+gives $f(1)=0$. The proof (p. 15) multiplies the elements by a random residue
 modulo a prime $p=3k+2$ and keeps those landing in the sum-free interval
 $\{k+1,\dots,2k+1\}$, each with probability above $1/3$.
 
@@ -51,8 +51,8 @@ covered: the second-order term and the upper bound.
 
 **Standing.** Claimed. The paper is a chapter in a tribute volume, and no
 evidence that the volume was refereed is on record, so `refereed` is not
-listed. The site's curator, Thomas F. Bloom, credits the improvement to
-$(n+1)/3$ to Alon and Kleitman in the problem page's commentary (label OPEN),
+listed. The erdosproblems.com curator, Thomas F. Bloom, credits the improvement
+to $(n+1)/3$ to Alon and Kleitman in the problem page's commentary (label OPEN),
 so the credit is not listed as `reviewed`. On sets of positive integers the
 bound is improved by the refereed
 [[problems/additive_combinatorics/E0792/claims/1997_12_01_bourgain|Bourgain's Proposition 1.3]],

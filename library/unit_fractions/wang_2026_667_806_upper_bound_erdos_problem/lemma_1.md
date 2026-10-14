@@ -43,7 +43,7 @@ Unit-Fraction-Free Sets*, unpublished manuscript dated May 27, 2026 on its
 title page, posted on ResearchGate (2026), identified on the
 [[unit_fractions/wang_2026_667_806_upper_bound_erdos_problem/_index|source card]]:
 Lemma 1 and the definition of $\mathcal H(D)$ on p. 2, in Section 2
-(pp. 2--3). An unrefereed manuscript, which the site's Problem 301
+(pp. 2--3). An unrefereed manuscript, which erdosproblems.com's Problem 301
 discussion thread describes as AI-generated.
 
 **Read depth.** Claims checked: the statement and the definitions it uses

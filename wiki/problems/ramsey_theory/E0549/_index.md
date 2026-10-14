@@ -28,17 +28,17 @@ $$
 R(T)=4k-1.
 $$
 
-**Formulation.** The site's wording of 2026-09-17 (page last edited 28
-December 2025). The statement asserts the equality for
-every tree $T$ on $3k$ vertices whose bipartition classes have sizes $k$ and
-$2k$, and for every $k$; a single such tree with $R(T)\ne4k-1$ disproves it.
-The lower bound $R(T)\ge4k-1$ holds for every such tree (Burr's two colorings,
-below), so the content is the upper bound. The origin is a question, not a
-conjecture: Erdős, Faudree, Rousseau and Schelp (1982, p. 292) ask whether
-$r(T_n)=\lceil4n/3-1\rceil$ for every tree with parts $n/3$ and $2n/3$; with
-$n=3k$ this is the displayed equality. It is the case $t_1=2t_2$ of Burr's
-1974 conjecture $R(T)=\max\{2t_1,t_1+2t_2\}-1$ for classes $t_1\ge t_2$
-(see [[problems/ramsey_theory/E0547/_index|Problem 547]]); [GHK79] (p. 254) states
+**Formulation.** The erdosproblems.com wording of 2026-09-17 (page last edited
+28 December 2025). The statement asserts the equality for every tree $T$ on $3k$
+vertices whose bipartition classes have sizes $k$ and $2k$, and for every $k$; a
+single such tree with $R(T)\ne4k-1$ disproves it. The lower bound $R(T)\ge4k-1$
+holds for every such tree (Burr's two colorings, below), so the content is the
+upper bound. The origin is a question, not a conjecture: Erdős, Faudree,
+Rousseau and Schelp (1982, p. 292) ask whether $r(T_n)=\lceil4n/3-1\rceil$ for
+every tree with parts $n/3$ and $2n/3$; with $n=3k$ this is the displayed
+equality. It is the case $t_1=2t_2$ of Burr's 1974 conjecture
+$R(T)=\max\{2t_1,t_1+2t_2\}-1$ for classes $t_1\ge t_2$ (see
+[[problems/ramsey_theory/E0547/_index|Problem 547]]); [GHK79] (p. 254) states
 that conjecture in Burr's terms and says its Lemma 2.4 disproves it.
 
 *Notation for double stars, fixed once here.* The counterexamples are double
@@ -55,9 +55,9 @@ $Q_{k,\ell}$ here. Dubó and Stein's $S(2m,m)$ has classes $2m+1$ and $m+1$
 and is not of the exact $1:2$ ratio; their Theorem 2 covers $S(2k-1,k-1)$
 directly (below).
 
-**Status.** Disproved, the site's label (page last edited 28 December 2025). The
-site's curator, T. F. Bloom, credits the result to Norin, Sun and Zhao. The
-claim page
+**Status.** Disproved, the erdosproblems.com label (page last edited 28 December
+2025). The erdosproblems.com curator, T. F. Bloom, credits the result to Norin,
+Sun and Zhao. The claim page
 [[problems/ramsey_theory/E0549/claims/2016_05_11_norin_sun_zhao|Norin, Sun and Zhao 2016]]
 records the disproof, its posting and the acceptance evidence. The frontmatter
 standing is derived from the claim pages. For $T=S(2k-1,k-1)$, Norin, Sun and
@@ -65,9 +65,10 @@ Zhao's Theorem 1.3 gives $R(T)\ge4.2k-o(k)$, so $R(T)>4k-1$ for all large $k$.
 The paper says this answers the 1982 question in the negative. The
 status-defining source is an arXiv preprint (1605.03612v1, 2016). Its lower
 bound is restated and relied on in refereed papers (Dubó and Stein, Discrete
-Math. 348 (2025)), and the site accepted it. Independently, the refereed Theorem
-2.1 of [GHK79] (1979) gives $R(S(2k-1,k-1))\ge4k$ for every $k\ge4$ by an
-explicit coloring of $K_{4k-1}$. So the equality fails at every $k\ge4$
+Math. 348 (2025)), and erdosproblems.com accepted it. Independently, the
+refereed Theorem 2.1 of [GHK79] (1979) gives $R(S(2k-1,k-1))\ge4k$ for every
+$k\ge4$ by an explicit coloring of $K_{4k-1}$. So the equality fails at every
+$k\ge4$
 ([[problems/ramsey_theory/E0549/claims/1979_01_01_grossman_harary_klawe|claim page]]).
 The equality does hold for two families with classes $k$ and $2k$. These are the
 brooms $B_{k,2k}$ and Burr and Erdős's trees made of a path on four vertices
@@ -80,12 +81,12 @@ most $3ck$ for a small absolute $c>0$. Each of these has a partial claim page
 
 **Source.** [erdosproblems.com/549](https://www.erdosproblems.com/549),
 accessed 2026-09-17: the problem page (DISPROVED,
-the label the site gives a question answered no; last edited 28 December
-2025; source key
-[EFRS82]), its one-comment discussion thread (29 October 2025) and its empty
-proof-claim tab. The site cites [Bu74], [NSZ16], [DuSt24], [MPY25] and
-[BuEr76] in its commentary and points to Problem 547. Cite as: T. F. Bloom,
-Erdős Problem #549, https://www.erdosproblems.com/549, accessed 2026-09-17.
+the label erdosproblems.com gives a question answered no; last edited 28
+December 2025; source key [EFRS82]), its one-comment discussion thread (29
+October 2025) and its empty proof-claim tab. erdosproblems.com cites [Bu74],
+[NSZ16], [DuSt24], [MPY25] and [BuEr76] in its commentary and points to
+Problem 547. Cite as: T. F. Bloom, Erdős Problem #549,
+https://www.erdosproblems.com/549, accessed 2026-09-17.
 
 **References.**
 
@@ -118,7 +119,7 @@ Erdős Problem #549, https://www.erdosproblems.com/549, accessed 2026-09-17.
   and combinatorics (Proc. Capital Conf., George Washington Univ., 1973),
   Lecture Notes in Math. 406, Springer (1974), 52--75. Not held; the source of
   the two colorings and of the exact conjecture, quoted here from [NSZ16] p. 2
-  and [MPY25] p. 2.
+  and [MPY25] p. 2. No open copy was found on 2026-09-17.
 - [GHK79] Grossman, J. W., Harary, F. and Klawe, M., Generalized Ramsey theory
   for graphs, X: double stars. Discrete Math. 28 (1979), no. 3, 247--254.
   Theorem 2.1 and Lemmas 2.2--2.4, pp. 248--249; Theorems 3.1--3.3,
@@ -132,7 +133,7 @@ of formal-conjectures (main, fetched 2026-09-17) declares
 `erdos_549 : answer(False) ↔ ∀ (k : ℕ) (hk : 2 ≤ k) (T : SimpleGraph (Fin k ⊕ Fin (2 * k))), T.IsTree → (∀ x₁ x₂, ¬ T.Adj (Sum.inl x₁) (Sum.inl x₂)) → (∀ y₁ y₂, ¬ T.Adj (Sum.inr y₁) (Sum.inr y₂)) → SimpleGraph.diagonalGraphRamsey T = 4 * k - 1`
 under `category research solved`, with proof `sorry`: the universal statement
 over all $k\ge2$ and all trees with the given bipartition, whose negation is
-the disproof. The site shows the statement as formalized; the community
+the disproof. erdosproblems.com shows the statement as formalized; the community
 database (accessed 2026-09-17) records it formalized since 9 September 2026,
 disproved, with no formal proof. A Lean disproof at $k=16$ in Boris
 Alexeev's repository, naming Norin, Sun and Zhao as informal authors, is
@@ -141,7 +142,7 @@ built or checked here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
 above; DISPROVED; last edited 28 December 2025. The commentary places the
 statement inside Burr's conjecture [Bu74] (see [547]), derives the lower
 bound $R(T)\ge4k-1$ from [EFRS82], and records the disproof: by [NSZ16],
@@ -157,8 +158,8 @@ broom made of a star on $k+1$ vertices and a path on $2k$ vertices; and
 $2k-1$ vertices at its ends. The problem is #15 in the Ramsey Theory
 section of the graphs collection. The one comment (the account
 LouisD, 29 October 2025) supplied the two families and the Burr 1974
-attribution, and the site was updated from it. The community database record
-says disproved (last updated 31 August 2025).
+attribution, and erdosproblems.com was updated from it. The community database
+record says disproved (last updated 31 August 2025).
 
 **The lower bound.**
 [[../library/ramsey_theory/erdos_1982_ramsey_numbers_brooms/lower_bound_p285|EFRS82, p. 285]]:
@@ -190,8 +191,8 @@ restated and used in the refereed [DuSt24] (pp. 2--3: "the results from [8]
 yield that $R(S(2m,m))\ge4.2m+o(m)$") and the paper is cited by three further
 Discrete Mathematics papers on double stars (2022, 2024, 2026) in its
 citation list; [MPY25] (p. 2) calls the 1982 statement "strongly disproved"
-by it; the site accepted the disproof. The disproof is asymptotic: it shows
-$R(T)>4k-1$ for all sufficiently large $k$ and names no explicit $k$.
+by it; erdosproblems.com accepted the disproof. The disproof is asymptotic: it
+shows $R(T)>4k-1$ for all sufficiently large $k$ and names no explicit $k$.
 
 **The 1979 lower bound (explicit, refereed).**
 [[../library/ramsey_theory/grossman_1979_generalized_ramsey_theory_graphs_x_double_stars/theorem_2_1|GHK79, Theorem 2.1]]
@@ -228,8 +229,8 @@ pairs of the paper's table (p. 6; proved invalid by a flag algebra
 computation, Theorem 3.3), attained by the fifth pair $(0.525,0.2883)$ as
 $3/0.7117=4.21526\ldots$ (an arithmetic check made here; Dubó and Stein report
 the same reading on their p. 3; the paper prints no number). For
-$T=S(2k-1,k-1)$ this gives $R(T)\le(4.21526+o(1))k$, the site's upper bound.
-The elementary bound:
+$T=S(2k-1,k-1)$ this gives $R(T)\le(4.21526+o(1))k$, erdosproblems.com's upper
+bound. The elementary bound:
 [[../library/ramsey_theory/dubo_2024_ramsey_number_double_star/corollary_3|DuSt24, Corollary 3]]
 (p. 3) is $R(S(2m,m))\le\lceil4.27492m\rceil+1$, for the double
 star with classes $2m+1$ and $m+1$; their Theorem 2 applies to $S(m_1,m_2)$
@@ -238,8 +239,8 @@ gives
 $R(T)\le\bigl\lceil\sqrt{2(2k-1)^2+\bigl(\tfrac{5k-3}2\bigr)^2}+\tfrac{k-1}2\bigr\rceil+1=\bigl(\tfrac{1+\sqrt{57}}2+o(1)\bigr)k$,
 the same constant $\frac{1+\sqrt{57}}2=4.27491\ldots$ (printed rounded up as
 $4.27492$; a specialization made here, unreviewed;
-the site states the corollary's form for this tree). Acceptance: Discrete
-Mathematics 348 (2025), 114227 (Crossref; refereed); the text cited is
+erdosproblems.com states the corollary's form for this tree). Acceptance:
+Discrete Mathematics 348 (2025), 114227 (Crossref; refereed); the text cited is
 arXiv v2, not compared with the published text.
 
 **The positive cases.** (1)
@@ -252,8 +253,8 @@ $B_{k,2k}$ has parts $k$ and $2k$ and $r=4k-1$. (2)
 (p. 252): $r(Q_{k,\ell})=\max(2k-1,k+2\ell-1)$ for $k\ge\ell\ge2$, where
 $Q_{k,\ell}$ (their $S_{k,\ell}$) is $P_4$ with $K_{1,k-2}$ and $K_{1,\ell-2}$
 appended at its ends; $Q_{2k,k}$ has parts $2k$ and $k$ and $r=4k-1$, the
-site's description ([EFRS82] p. 284 credits the result to this paper). The
-same paper's
+erdosproblems.com description ([EFRS82] p. 284 credits the result to this
+paper). The same paper's
 [[../library/ramsey_theory/burr_1976_extremal_ramsey_theory_graphs/theorem_4_1|Theorem 4.1]]
 shows that $4k-1$ is the least Ramsey number over all connected bipartite
 graphs with parts $2k$ and $k$, so the problem asks whether the minimum is
@@ -272,7 +273,7 @@ positive results have the partial claim pages linked from the Status.
 **Successor questions and leads (not status).** [NSZ16] poses
 [[../library/ramsey_theory/norin_2016_asymptotics_ramsey_numbers_double_stars/question_5_1|Question 5.1]]
 (p. 11), "Is $r(S(2m,m))=4.2m+o(m)$?", after saying they "do not attempt to
-conjecture" the tightness of their constructions; what the site's
+conjecture" the tightness of their constructions; what the erdosproblems.com
 commentary describes as their conjecture that $R(T)=(4.2+o(1))k$ is this
 question. Their
 [[../library/ramsey_theory/norin_2016_asymptotics_ramsey_numbers_double_stars/question_5_2|Question 5.2]]
@@ -287,7 +288,7 @@ boundary case $t_2=2t_1$ is this problem's ratio. It stays a lead without a
 claim page: only its abstract is held, so its theorem is not stated from
 the paper, and the problem is settled by the claims above.
 
-**Search scope.** The problem, discussion and proof-claim
+**Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the pinned
 commit; the arXiv listings of 1605.03612 (one version, no journal reference),
 2401.01274 (two versions) and 2509.07934 (one version); Crossref bibliographic

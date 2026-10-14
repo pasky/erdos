@@ -54,13 +54,13 @@ A$, so part (i) gives $b_{n+1}-b_n\le2$ for all large $n$ when $k=2$, and part
 claim value is `disproved`: the question asks whether the gaps are bounded
 for every basis $A$ of every order $k$, and part (ii) refutes that for each
 $k\ge3$; the case $k=2$, where the assertion holds, is the part of the
-question that survives. The site labeled the problem PROVED, although its
+question that survives. Bloom's catalog labeled the problem PROVED, although its
 remarks report the answer no for every $k\ge3$; the claim value follows the
 question as stated, which asks about every order $k$.
 
-**Argument.** The case $k=2$ is the parity observation the site's remarks also
-make: an odd element of $A+A$ is a sum of two distinct elements, so when every
-large integer lies in $A\cup(A+A)$, every large odd integer lies in
+**Argument.** The case $k=2$ is the parity observation the erdosproblems.com
+remarks also make: an odd element of $A+A$ is a sum of two distinct elements, so
+when every large integer lies in $A\cup(A+A)$, every large odd integer lies in
 $A\cup 2\times A$, the problem's $B$, whose gaps are therefore at most $2$
 (when $A+A$ alone contains every large integer, $2\times A$ itself contains
 every large odd integer). For $h\ge3$ the paper gives an explicit set: with

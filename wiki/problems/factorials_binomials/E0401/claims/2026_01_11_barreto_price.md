@@ -46,16 +46,16 @@ a_1+a_2>n+\omega(r)\log n
 a_1!\,a_2!\mid n!\,P_r^{\,n}.
 $$
 
-The site's commentary credits the proof to Barreto and Leeham, working with
-ChatGPT; the thread shows the co-author posting under the name Liam Price, and
-the later Lean file `Erdos401.lean` names GPT-5.2 Pro, Kevin Barreto and Liam
-Price as the informal authors and Aristotle, Barreto and Boris Alexeev as the
-formal authors, while the header of the first file, `Erdos401b.lean`,
+The erdosproblems.com commentary credits the proof to Barreto and Leeham,
+working with ChatGPT; the thread shows the co-author posting under the name Liam
+Price, and the later Lean file `Erdos401.lean` names GPT-5.2 Pro, Kevin Barreto
+and Liam Price as the informal authors and Aristotle, Barreto and Boris Alexeev
+as the formal authors, while the header of the first file, `Erdos401b.lean`,
 describes it as a proof of Theorem 1 of the manuscript *Factorial divisibility
 with bounded primes beyond the logarithmic barrier: an infinitely-many $n$
 result of Erdős type*, linked above. The
-result was announced in the site's discussion thread on 11 January 2026, the
-day the first Lean file was committed.
+result was announced in the erdosproblems.com discussion thread on 11 January
+2026, the day the first Lean file was committed.
 
 **The construction.** As the Lean development lays it out, the examples are
 $n=2m$, $a_1=m+k$ and $a_2=m$ with $k$ of order $c\log M$ for $m$ in a range
@@ -69,16 +69,16 @@ about carries in base-$p$ addition, which a counting argument shows holds for
 some $m$ in every long enough range. The construction is the one the same
 authors used for
 [[problems/factorials_binomials/E0729/_index|Problem 729]], the less precise
-form of this question, as the site remarks.
+form of this question, as erdosproblems.com remarks.
 
-**Formulation.** The source [ErGr80] does not fix the quantifier on $n$. The
-site reads the problem as asking for infinitely many $n$, by comparison with
-Problems 728 and 729, and this page proves that reading. The reading with
-"all large $n$" is false, as Nat Sothanaphan showed in the thread on 10
-January 2026 with ChatGPT: for $r\ge2$ and $n=p_{r+1}^k-1$ the divisibility
-forces $a_1+a_2\le n+2p_{r+1}$. That refutation concerns a variant the site
-rejected as the intended statement, and it is recorded on the problem page, not
-as a claim.
+**Formulation.** The source [ErGr80] does not fix the quantifier on $n$.
+erdosproblems.com reads the problem as asking for infinitely many $n$, by
+comparison with Problems 728 and 729, and this page proves that reading. The
+reading with "all large $n$" is false, as Nat Sothanaphan showed in the thread
+on 10 January 2026 with ChatGPT: for $r\ge2$ and $n=p_{r+1}^k-1$ the
+divisibility forces $a_1+a_2\le n+2p_{r+1}$. That refutation concerns a variant
+erdosproblems.com rejected as the intended statement, and it is recorded on the
+problem page, not as a claim.
 
 **Formalization.** `Erdos401b.lean` in Boris Alexeev's repository of Lean
 proofs, first committed on 11 January 2026 and linked above at that commit,
@@ -92,11 +92,11 @@ either file, so neither is listed as evidence.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, marked the problem proved,
-credits Barreto and Leeham on the problem page (last edited 12 January 2026) and
-records the formalization in the site's label. The community database records
-the problem as proved with a Lean proof (last updated 11 January 2026). There is
-no refereed write-up, and the acceptance rests on the curator's documented
-review. Sothanaphan's later deduction of the same answer from their write-up of
-Problem 728 has
+**Acceptance.** Thomas Bloom, the erdosproblems.com curator, marked the problem
+proved, credits Barreto and Leeham on the problem page (last edited 12
+January 2026) and records the formalization in the erdosproblems.com label. The
+community database records the problem as proved with a Lean proof (last updated
+11 January 2026). There is no refereed write-up, and the acceptance rests on the
+curator's documented review. Sothanaphan's later deduction of the same answer
+from their write-up of Problem 728 has
 [[problems/factorials_binomials/E0401/claims/2026_01_11_sothanaphan|its own page]].

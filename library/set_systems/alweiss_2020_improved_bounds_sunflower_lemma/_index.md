@@ -5,7 +5,7 @@ desc: |
   and proves a sharp version for robust sunflowers.
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # set_systems/alweiss_2020_improved_bounds_sunflower_lemma
@@ -16,7 +16,7 @@ updated: 2026-10-08T14:30:02Z
 that their robust-sunflower bound is sharp up to the o(1) in the exponent.
 
 [[set_systems/alweiss_2020_improved_bounds_sunflower_lemma/theorem_1_4|theorem_1_4]]: The main sunflower theorem of Alweiss, Lovett, Wu and Zhang, the input of
-the site's subpolynomial upper bound for the equal-gcd problem.
+erdosproblems.com's subpolynomial upper bound for the equal-gcd problem.
 
 [[set_systems/alweiss_2020_improved_bounds_sunflower_lemma/theorem_1_9|theorem_1_9]]: The robust-sunflower theorem of Alweiss, Lovett, Wu and Zhang, from which
 their sunflower bound follows with alpha = beta = 1/r.
@@ -95,8 +95,8 @@ $\lceil(Ck^3\log n\log\log n)^n\rceil$, that is $(\log n)^{n(1+o(1))}$ for
 fixed $k$, not the $c_k^n$ the problem asks for; Theorems 1.9 and 2.5 are
 its inputs.
 [[../wiki/problems/integer_sequences/E0535/_index|#535]]: Theorem 1.4 is the
-input of the site's derivation of $f_r(N)\le N^{o(1)}$, which the corpus has
-not checked; the paper does not discuss the problem.
+input of erdosproblems.com's derivation of $f_r(N)\le N^{o(1)}$, which the
+corpus has not checked; the paper does not discuss the problem.
 [[../wiki/problems/set_systems/E0857/_index|#857]]: Theorem 4.1 (p. 13), with
 $k=r\ge3$, gives $m(n,k)\le\lceil2^{n(1-c(k)/\log n)}\rceil$, an upper bound
 only, derived in the paper by citing the Erdős–Szemerédi argument.

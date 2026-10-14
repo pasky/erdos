@@ -69,7 +69,7 @@ Within the paper:
 
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: in the
   problem's notation the lemma gives $k_5(n)\le\lfloor\frac83n\rfloor-3$ for
-  $n\ge6$, $n\ne7$, the upper bound in the site's
+  $n\ge6$, $n\ne7$, the upper bound in erdosproblems.com's
   "$k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$"; the matching lower bound
   comes from Corollary 2(b), the Remark after Theorem 3 and Lemma 4
   (p. 154), combined in

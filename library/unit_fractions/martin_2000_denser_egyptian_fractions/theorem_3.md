@@ -78,9 +78,9 @@ Same-paper Proposition 5 (through Lemma 18) and Lemmas 19--20.
 
 ## Bears on
 
-- [[../wiki/problems/unit_fractions/E0292/_index|Problem 292]]: the site's "Explore $A$"
-  invites finer questions. The analogue for the second-largest and later
-  denominators is not posed in the 1980 monograph; the paper says it is
-  mentioned in Guy's Unsolved problems in number theory (p. 3). Theorem 3
-  answers it for representations of $1$ up to finitely many exceptions,
-  while the density question itself is Theorem 4.
+- [[../wiki/problems/unit_fractions/E0292/_index|Problem 292]]:
+  erdosproblems.com's "Explore $A$" invites finer questions. The analogue for
+  the second-largest and later denominators is not posed in the 1980 monograph;
+  the paper says it is mentioned in Guy's Unsolved problems in number theory (p.
+  3). Theorem 3 answers it for representations of $1$ up to finitely many
+  exceptions, while the density question itself is Theorem 4.

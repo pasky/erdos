@@ -37,7 +37,7 @@ $A$ has density $1$. The lower bound holds because tiny
 multiples of prime powers lie in $\mathcal L_1(r)$; the upper bound reflects
 the paper's finding that "all elements of $\mathcal L_1(r)$ are of this
 form (the only ambiguity being the exact meaning of 'tiny')" (p. 4), which
-is the site's "essentially complete description of $B$".
+is erdosproblems.com's "essentially complete description of $B$".
 
 After the proof (p. 25) the paper records that the argument gives the
 explicit constants

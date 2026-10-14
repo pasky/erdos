@@ -75,8 +75,8 @@ $\varepsilon$. Not covered: the estimate of $f(N)$ beyond that, in
 particular the asymptotic constant.
 
 **Standing.** Claimed. The claimant is the human submitter, Donald Della
-Pietra, who filed the claim as partial on the site's proof-claim tab on 30
-July 2026 naming the system GPT 5.6 Sol; the manuscript's Section 8 (p. 9)
+Pietra, who filed the claim as partial on the erdosproblems.com proof-claim tab
+on 30 July 2026 naming the system GPT 5.6 Sol; the manuscript's Section 8 (p. 9)
 says that AI systems gave substantial assistance and that the mathematical
 claim is unrefereed. The manuscript is the ten-page PDF in the claimant's
 repository, linked above at the repository's head commit of 30 July 2026; it
@@ -97,9 +97,8 @@ Two comments stand under the claim: one reports that a GPT review found no
 fatal issue but asked for Proposition 4.1 to be expanded, and one remarks that
 Sawin's recent framework for
 [[problems/unit_fractions/E0327/_index|Problem 327]] is what makes the
-argument possible; neither is an acceptance. The site's label was OPEN (page
-last edited 16 January 2026), and the tab's standing notice
-says that listing a claim implies no examination. The lower bound is the input
-of
+argument possible; neither is an acceptance. The erdosproblems.com label was
+OPEN (page last edited 16 January 2026), and the tab's standing notice says that
+listing a claim implies no examination. The lower bound is the input of
 [[problems/unit_fractions/E0302/claims/2026_08_16_khanukov|Khanukov's claim]]
 on Problem 302.

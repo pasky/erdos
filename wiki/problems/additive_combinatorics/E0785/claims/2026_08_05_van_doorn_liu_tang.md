@@ -75,8 +75,8 @@ Sol" as the AI used:
 > that contradict $(1)$. Notes: Boning Liu, Quanyu Tang and I are working on a
 > human-generated version of the proof.
 
-**Postings.** The proof claim on the site, submitted 2026-08-05 by van Doorn
-(the forum user Woett) and credited to Wouter van Doorn, Boning Liu and
+**Postings.** The proof claim on erdosproblems.com, submitted 2026-08-05 by van
+Doorn (the forum user Woett) and credited to Wouter van Doorn, Boning Liu and
 Quanyu Tang using GPT-5.6 Sol, with the note that the three are preparing a
 human-written version; it had no comments. The repository holds the note, which
 its readme describes as written by ChatGPT, and a Lean module produced by
@@ -92,9 +92,9 @@ gives no `formalized` evidence.
 
 **Depends on.** Nothing in this wiki.
 
-**Standing.** Claimed: no referee, no curator acceptance (the site's
+**Standing.** Claimed: no referee, no curator acceptance (the erdosproblems.com
 commentary records Chen's $3/2$ as a conjecture; page last edited 7 March
 2026) and no outside review is recorded; the formal-conjectures
 catalog's variant `erdos_785.variants.chen_conjecture` remained in its open
-category on 2026-10-07. The site's label PROVED (LEAN) rests on the
+category on 2026-10-07. The erdosproblems.com label PROVED (LEAN) rests on the
 earlier claims, not on this one.

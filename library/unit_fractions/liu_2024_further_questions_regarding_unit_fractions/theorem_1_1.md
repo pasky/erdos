@@ -33,7 +33,7 @@ This improves the threshold in
 [[unit_fractions/bloom_2021_density_conjecture_about_unit_fractions/theorem_3|Bloom's Theorem 3]].
 Equivalently, the largest reciprocal mass of a subset of $[1,N]$
 without a unit subsum is at most $(\log N)^{4/5+o(1)}$.
-Literature searches found no later
+Literature searches through 2026-09-05 and 2026-09-17 found no later
 improvement of this particular exact-sum threshold; this is a bounded search
 claim. For fixed $\delta>0$ the threshold is below $\delta\log N$ for
 large $N$, so the theorem answers

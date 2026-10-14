@@ -76,8 +76,8 @@ embedding tool Theorem 16; the definitions above.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]: the disproof. The
-  site's $\delta_3(5)$ is $\theta_3(K_5)$ (both divide by $n^2$), so
-  $\delta_3(5)\ge1/64>0$: for every $\epsilon>0$ and all large $n$ there are
-  $K_5$-free graphs on $n$ vertices with $\alpha_3\le\epsilon n$ and at least
-  $(1/64-o(1))n^2$ edges, and the statement fails at $\delta=1/128$.
+- [[../wiki/problems/extremal_graph_theory/E0533/_index|Problem 533]]: the
+  disproof. erdosproblems.com's $\delta_3(5)$ is $\theta_3(K_5)$ (both divide by
+  $n^2$), so $\delta_3(5)\ge1/64>0$: for every $\epsilon>0$ and all large $n$
+  there are $K_5$-free graphs on $n$ vertices with $\alpha_3\le\epsilon n$ and
+  at least $(1/64-o(1))n^2$ edges, and the statement fails at $\delta=1/128$.

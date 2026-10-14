@@ -54,10 +54,10 @@ For $r=k=2$ the definition gives the largest $N$ with a two-coloring of
 $K_N$ in which every $n$ vertices span an edge of each color, that is, no
 monochromatic $K_n$, so $f_2^{(2)}(n)=R(n,n)-1$, as the sentence says. In
 general $f_k^{(r)}(n)+1$ is the least $N$ such that every $r$-coloring of
-$K_N$ has an $n$-set missing $K_k$ in some color, the site's $R(n;k,r)$; so
-(1) is the site's "proved the existence of some $C>1$ such that
-$R(n;3,r)>C^{\sqrt n}$", (2) is the site's displayed statement
-$R(n;3,r)<C^{\sqrt n}$, and (3) is the site's
+$K_N$ has an $n$-set missing $K_k$ in some color, erdosproblems.com's
+$R(n;k,r)$; so (1) is erdosproblems.com's "proved the existence of some $C>1$
+such that $R(n;3,r)>C^{\sqrt n}$", (2) is erdosproblems.com's displayed
+statement $R(n;3,r)<C^{\sqrt n}$, and (3) is erdosproblems.com's
 $C_1^{n^{1/k-1}}<R(n;k,r)<C_2^{n^{1/k-1}}$. The problem page's
 random-coloring argument gives $f_3^{(2)}(n)\ge C^n$ for an absolute $C>1$,
 so (2) is false as printed and (1) is true but far from the truth; the
@@ -89,8 +89,8 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0129/_index|Problem 129]]: the origin passage. The
-  site's statement, lower bound and expectation transcribe (2), (1) and
-  (3) faithfully into the $R(n;k,r)=f_k^{(r)}(n)+1$ notation, so the
-  ambiguity the site records lies in what Erdős intended, not in what the
-  site read; the page's disproof of the site's wording applies to (2) as
-  printed.
+  erdosproblems.com statement, lower bound and expectation transcribe (2), (1)
+  and (3) faithfully into the $R(n;k,r)=f_k^{(r)}(n)+1$ notation, so the
+  ambiguity erdosproblems.com records lies in what Erdős intended, not in what
+  erdosproblems.com read; the page's disproof of the erdosproblems.com wording
+  applies to (2) as printed.

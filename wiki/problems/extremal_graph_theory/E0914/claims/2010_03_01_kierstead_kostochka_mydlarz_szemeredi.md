@@ -50,6 +50,6 @@ from scratch, and the elementary transfer to the clique form is written on
 the problem page.
 
 **Acceptance.** Refereed publication in Combinatorica, cited with its venue
-above. The site does not cite this paper. It is the text on which this corpus
-rests the theorem. Read depth: claims checked for Theorem 1. The proof of
+above. erdosproblems.com does not cite this paper. It is the text on which this
+corpus rests the theorem. Read depth: claims checked for Theorem 1. The proof of
 Section 2 was read for structure only, with no step checked.

@@ -60,7 +60,7 @@ The upper bound in (2.2), through its proof.
 ## Bears on
 
 - [[../wiki/problems/additive_bases/E0864/_index|Problem 864]]: not one of the
-  site's sources. A coincidence $a-b=c-d$ between distinct pairs gives the
-  repeated sum $a+d=b+c$, so the theorem forces many repeated sums in any set
-  of $[(1+c)n^{1/2}]$ integers up to $n$. The paper does not apply it to
+  erdosproblems.com sources. A coincidence $a-b=c-d$ between distinct pairs
+  gives the repeated sum $a+d=b+c$, so the theorem forces many repeated sums in
+  any set of $[(1+c)n^{1/2}]$ integers up to $n$. The paper does not apply it to
   sets with a single repeated sum, and it gives no bound for Problem 864.

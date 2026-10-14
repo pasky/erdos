@@ -36,22 +36,23 @@ $$
 \Lambda(x_1,\ldots,x_n)=\max_{x\in [-1,1]} \sum_k \lvert l_k(x)\rvert.
 $$
 
-**Formulation.** The site's question takes the nodes anywhere in $[-1,1]$, as
-Erdős does [Er67, p. 66]. He conjectured that the minimizing set is the one
-whose $n+1$ local maxima, with $x_0=-1$ and $x_{n+1}=1$, are all equal. De Boor
-and Pinkus [dBPi78] prove the canonical version, for systems containing both
-endpoints: exactly one such system has an equioscillating Lebesgue function,
-and it alone minimizes the Lebesgue constant among them. The minimal value
-$\lambda^*$ is the same for free and canonical nodes.
+**Formulation.** The erdosproblems.com question takes the nodes anywhere in
+$[-1,1]$, as Erdős does [Er67, p. 66]. He conjectured that the minimizing set is
+the one whose $n+1$ local maxima, with $x_0=-1$ and $x_{n+1}=1$, are all equal.
+De Boor and Pinkus [dBPi78] prove the canonical version, for systems containing
+both endpoints: exactly one such system has an equioscillating Lebesgue
+function, and it alone minimizes the Lebesgue constant among them. The minimal
+value $\lambda^*$ is the same for free and canonical nodes.
 
-**Status.** The site labeled the problem PROVED (page last edited 23 January
-2026, label accessed 2026-09-04). The community database at teorth/erdosproblems
-lists its status as proved (Lean) as of its last update on 2026-09-16. It points
-to a third-party Lean development described below. The question asks for a
-description, so the derived claim value is `answered`. The site credits the
-characterization of the minimizing nodes to de Boor and Pinkus [dBPi78], after
-Kilgore and Cheney [KiCh76] and Kilgore [Ki77]. It credits the four-node optimum
-to Rack and Vajda [RaVa15]. The accepted claim pages are
+**Status.** Bloom's catalog labeled the problem PROVED (page last edited 23
+January 2026, label accessed 2026-09-04). The community database at
+teorth/erdosproblems lists its status as proved (Lean) as of its last update on
+2026-09-16. It points to a third-party Lean development described below. The
+question asks for a description, so the derived claim value is `answered`.
+erdosproblems.com credits the characterization of the minimizing nodes to de
+Boor and Pinkus [dBPi78], after Kilgore and Cheney [KiCh76] and Kilgore [Ki77].
+It credits the four-node optimum to Rack and Vajda [RaVa15]. The accepted claim
+pages are
 [[problems/polynomials/E1129/claims/1978_12_01_deboor_pinkus|de Boor and Pinkus 1978]],
 which records the paper's convention that the endpoints are nodes,
 [[problems/polynomials/E1129/claims/1978_12_01_kilgore|Kilgore 1978]], an
@@ -94,45 +95,45 @@ https://www.erdosproblems.com/1129.
   J. Approx. Theory (1978), 289-303.
 
 **Formalization.** On 2026-10-07 no formal-conjectures statement file existed
-for the problem, and the site's page reported no formalized statement. Two
-third-party Lean 4 developments concern the problem, both naming de Boor and
-Pinkus as their mathematical source and both linked at their pinned commits from
-the claim page for de Boor and Pinkus 1978: a file in the lean-proofs repository
-proving that three free nodes have minimal Lebesgue constant $5/4$ with two
-distinct minimizers, and Collin Yuanjie Ren's JSP-000936 development proving the
-free-node characterization of the minimizers, which the community database lists
-as the problem's Lean formalization as of its last update on 2026-09-16. Neither
-is built or audited in this repository.
+for the problem, and the erdosproblems.com page reported no formalized
+statement. Two third-party Lean 4 developments concern the problem, both naming
+de Boor and Pinkus as their mathematical source and both linked at their pinned
+commits from the claim page for de Boor and Pinkus 1978: a file in the
+lean-proofs repository proving that three free nodes have minimal Lebesgue
+constant $5/4$ with two distinct minimizers, and Collin Yuanjie Ren's JSP-000936
+development proving the free-node characterization of the minimizers, which the
+community database lists as the problem's Lean formalization as of its last
+update on 2026-09-16. Neither is built or audited in this repository.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 23 January 2026).** For
-nodes $x_1,\ldots,x_n$ ranging over all of $[-1,1]$, describe the choice
-that minimizes the Lebesgue constant
-$\Lambda(x_1,\ldots,x_n)=\max_{[-1,1]}\sum_k|l_k(x)|$. PROVED. The site's
-commentary states the conjectured characterization of Erdős and Bernstein,
-that the gap maxima $\lambda_i$ of the Lebesgue function are all equal for
-$0\le i\le n$ with the auxiliary points $x_0=-1$ and $x_{n+1}=1$, and
+**The question (erdosproblems.com formulation, page last edited 23 January
+2026).** For nodes $x_1,\ldots,x_n$ ranging over all of $[-1,1]$, describe the
+choice that minimizes the Lebesgue constant
+$\Lambda(x_1,\ldots,x_n)=\max_{[-1,1]}\sum_k|l_k(x)|$. PROVED. The
+erdosproblems.com commentary states the conjectured characterization of Erdős
+and Bernstein, that the gap maxima $\lambda_i$ of the Lebesgue function are all
+equal for $0\le i\le n$ with the auxiliary points $x_0=-1$ and $x_{n+1}=1$, and
 records that de Boor and Pinkus proved that there exists a unique minimizing
 choice. That wording is defective as a statement about free nodes. The
 theorem of de Boor and Pinkus concerns canonical systems, those with
 $x_1=-1$ and $x_n=1$, and the two end pieces $[x_0,x_1]$ and $[x_n,x_{n+1}]$
-of the site's condition are then points, on which the Lebesgue function is
-$1$, strictly below the common interior maximum $\lambda^*$ for $n\ge3$; the
-site's own second paragraph gives the uniqueness for canonical systems. For
-$n\ge3$ free nodes do not have a unique minimizer (Luttmann and Rivlin, Some
-numerical experiments in the theory of polynomial interpolation, IBM J. Res.
-Develop. 9 (1965), 187–191, Theorem 2, as Rack and Vajda cite it; Rack and
-Vajda [RaVa15], Theorem 2.5). Take any $[\alpha,\beta]\supseteq[-1,1]$ at
-whose endpoints the Lebesgue function of the optimal canonical system is at
+of erdosproblems.com's condition are then points, on which the Lebesgue function
+is $1$, strictly below the common interior maximum $\lambda^*$ for $n\ge3$;
+erdosproblems.com's own second paragraph gives the uniqueness for canonical
+systems. For $n\ge3$ free nodes do not have a unique minimizer (Luttmann and
+Rivlin, Some numerical experiments in the theory of polynomial interpolation,
+IBM J. Res. Develop. 9 (1965), 187–191, Theorem 2, as Rack and Vajda cite it;
+Rack and Vajda [RaVa15], Theorem 2.5). Take any $[\alpha,\beta]\supseteq[-1,1]$
+at whose endpoints the Lebesgue function of the optimal canonical system is at
 most $\lambda^*$. The image of that system under the affine map of
 $[\alpha,\beta]$ onto $[-1,1]$ keeps the interior maxima and adds end pieces
 on which the Lebesgue function stays at most $\lambda^*$. The target of this
-page's standing is the site's question as worded, with free nodes. Its answer,
-for $n\ge2$: the minimizers are exactly the systems whose interior gap maxima
-are all equal and whose Lebesgue function at $-1$ and at $1$ is at most that
-common value, that is, the affine images just described. Exactly one of them
-has all $n+1$ maxima equal: the one with both end values equal to
+page's standing is the erdosproblems.com question as worded, with free nodes.
+Its answer, for $n\ge2$: the minimizers are exactly the systems whose interior
+gap maxima are all equal and whose Lebesgue function at $-1$ and at $1$ is at
+most that common value, that is, the affine images just described. Exactly one
+of them has all $n+1$ maxima equal: the one with both end values equal to
 $\lambda^*$. This follows from the canonical theorem of de Boor and Pinkus by
 the affine argument of Rack and Vajda, in two parts. The proof of their
 Theorem 2.5 shows that every such image is optimal. The proof of their Theorem
@@ -143,21 +144,21 @@ optimum and holds for every $n$.
 **Standing.** Two accepted full claims, each refereed in Journal of
 Approximation Theory 24 (1978), no. 4, and one accepted partial claim:
 [[problems/polynomials/E1129/claims/1978_12_01_deboor_pinkus|de Boor and Pinkus 1978]],
-pp. 289–303, credited by the site's curator, proves the uniqueness of the
-equioscillating canonical system and that it has a strictly smaller Lebesgue
+pp. 289–303, credited by the erdosproblems.com curator, proves the uniqueness of
+the equioscillating canonical system and that it has a strictly smaller Lebesgue
 constant than every other canonical system; and
 [[problems/polynomials/E1129/claims/1978_12_01_kilgore|Kilgore 1978]], pp.
 273–288, proves Bernstein's conjecture by a different argument, as de Boor and
 Pinkus's note added in proof records; and
 [[problems/polynomials/E1129/claims/2015_06_01_rack_vajda|Rack and Vajda 2015]],
 refereed in Studia Universitatis Babeş-Bolyai Mathematica 60 (2015), no. 2, pp.
-151–171, and credited by the site's curator, describes every four-node minimizer
-and proves that free-node minimizers are not unique for $n\ge3$. The question
-asks for a description, so the derived claim value is `answered`. The theorem
-statements of de Boor and Pinkus are checked against the paper, not their proofs
-in detail; the account of Kilgore's paper follows its bibliographic record and
-de Boor and Pinkus's note added in proof; neither proof is compiled in this
-wiki.
+151–171, and credited by the erdosproblems.com curator, describes every
+four-node minimizer and proves that free-node minimizers are not unique for
+$n\ge3$. The question asks for a description, so the derived claim value is
+`answered`. The theorem statements of de Boor and Pinkus are checked against the
+paper, not their proofs in detail; the account of Kilgore's paper follows its
+bibliographic record and de Boor and Pinkus's note added in proof; neither proof
+is compiled in this wiki.
 
 **Earlier steps.** Kilgore and Cheney [KiCh76] proved that an
 equioscillating canonical system exists, and Kilgore [Ki77] announced that a
@@ -179,12 +180,12 @@ instance of the description the problem asks for. The optimal canonical system
 is known explicitly only for $n\le4$: $-1,1$ for $n=2$ (with $\Lambda=1$),
 $-1,0,1$ for $n=3$ (with $\Lambda=5/4$, the minimum Bernstein [Be31, p. 1027]
 found with the free nodes $0,\pm2\sqrt2/3$, an affine shrink of $-1,0,1$) and
-$-1,-t,t,1$ for $n=4$ with an explicit algebraic $t\approx0.4177$, which the
-site credits to Rack and Vajda [RaVa15] and which their Section 3 recalls from
-Rack (Int. J. Math. Educ. Sci. Technol. 15 (1984), 355–357, and Springer Proc.
-Math. Stat. 41 (2013), 117–120). Bernstein's footnote carries no claim page: it
-gives the three-node minimum and one minimizing system, not a description of
-all three-node minimizers.
+$-1,-t,t,1$ for $n=4$ with an explicit algebraic $t\approx0.4177$, which
+erdosproblems.com credits to Rack and Vajda [RaVa15] and which their Section 3
+recalls from Rack (Int. J. Math. Educ. Sci. Technol. 15 (1984), 355–357, and
+Springer Proc. Math. Stat. 41 (2013), 117–120). Bernstein's footnote carries no
+claim page: it gives the three-node minimum and one minimizing system, not a
+description of all three-node minimizers.
 
 **Adjacent variant.** Erdős [Er67] suggested the variant with nodes on the
 unit circle, minimizing $\max_{|z|=1}\sum_k|l_k(z)|$, and expected the
@@ -212,7 +213,7 @@ these free-node facts are Luttmann and Rivlin's Theorem 2 and Rack and Vajda
 at their pinned commits from the claim page for de Boor and Pinkus 1978. Neither
 is built or audited in this repository, so no `formalized` evidence is listed.
 
-**Search scope.** The site's problem page and its proof-claims
+**Search scope.** The erdosproblems.com problem page and its proof-claims
 tab, which carries no claim; the community database at teorth/erdosproblems;
 the formal-conjectures tree; the lean-proofs file and Ren's README at their
 pinned commits; de Boor and Pinkus 1978 and the publisher's record of

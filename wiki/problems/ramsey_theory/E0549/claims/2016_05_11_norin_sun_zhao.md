@@ -67,10 +67,10 @@ bound and relies on it. Its introduction (pp. 2--3 of arXiv v2) records that the
 results of this preprint give $R(S(2m,m))\ge4.2m+o(m)$, and it builds its own
 upper bound around that value. Montgomery, Pavez-Signé and Yan's 2025 preprint
 on Ramsey numbers of trees says the 1982 statement is "strongly disproved" by
-this paper (p. 2). The site's curator, T. F. Bloom, labeled the problem
-DISPROVED and credits the disproof to the paper in the problem's commentary
-(page last edited 28 December 2025, read 2026-09-17). This credit is independent
-of the authors.
+this paper (p. 2). The erdosproblems.com curator, T. F. Bloom, labeled the
+problem DISPROVED and credits the disproof to the paper in the problem's
+commentary (page last edited 28 December 2025, read 2026-09-17). This credit is
+independent of the authors.
 
 Not refereed: the paper is an arXiv preprint. Version 1, of 11 May 2016, is the
 only version and gives this page its date. No journal version was found on

@@ -4,8 +4,8 @@ title: The order of magnitude of log S(N)
 desc: |
   Young, Zhu and Luo's AI-assisted proof that $\log S(N)$ has the order of
   $\frac{N}{\log N}\prod_{j=3}^{k}\log_jN$, with $\log_kN$ the last iterated
-  logarithm exceeding $1$, matching the refereed lower bound. The site accepts
-  it.
+  logarithm exceeding $1$, matching the refereed lower bound. erdosproblems.com
+  accepts it.
 authors:
 - Keheng Zhu
 - Yanping Luo
@@ -53,16 +53,16 @@ primes; this is the strategy of Bleicher and Erdős's 1976 Theorem 3, whose
 iteration lost a factor $\log_rN$. The lower bound is the refereed
 [[../library/unit_fractions/bettin_2025_lower_bound_number_egyptian_fractions/theorem_1|Theorem 1]]
 of Bettin, Grenié, Molteni and Sanna. The claim determines the order of
-magnitude of $\log S(N)$ and, as its own notes say, no asymptotic formula; the
-site reads this as the resolution of "Estimate $S(N)$", the question of
-[[problems/unit_fractions/E0320/_index|Problem 320]], and this page follows
-that reading. The same manuscript's consequence for the companion problem has
-its own page,
+magnitude of $\log S(N)$ and, as its own notes say, no asymptotic formula;
+erdosproblems.com reads this as the resolution of "Estimate $S(N)$", the
+question of [[problems/unit_fractions/E0320/_index|Problem 320]], and this page
+follows that reading. The same manuscript's consequence for the companion
+problem has its own page,
 [[problems/unit_fractions/E0321/claims/2026_07_15_young_zhu_luo|the order of magnitude of R(N)]].
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by RayYoung,
 Keheng Zhu, Yanping Luo (account RayYoung) on 15 July 2026, giving "GPT 5.6 Sol
-Pro" as the AI used, which the site marks as accepted as correct:
+Pro" as the AI used, which Bloom's catalog marks as accepted as correct:
 
 > We prove that\[\log S(N)\asymp \frac{N}{\log
 > N}\prod_{j=3}^{\kappa(N)}\log_jN.\]The upper bound comes from decomposing the
@@ -84,14 +84,14 @@ Pro" as the AI used, which the site marks as accepted as correct:
 [[problems/unit_fractions/E0320/claims/2025_09_12_bettin_grenie_molteni_sanna|Bettin, Grenié, Molteni and Sanna's refereed lower bound]]
 supplies the lower half of the order of magnitude.
 
-**Provenance.** The claim was submitted to the site's proof-claim tab on
-15 July 2026 by the account RayYoung for RayYoung, Keheng Zhu and Yanping
+**Provenance.** The claim was submitted to the erdosproblems.com proof-claim tab
+on 15 July 2026 by the account RayYoung for RayYoung, Keheng Zhu and Yanping
 Luo. The tab names the AI system GPT 5.6 Sol Pro, and the notes say that the
 result was obtained with generative AI, particularly during the exploratory
 stage, and that the authors reorganized and rewrote the proof for
 readability, structure, attribution and transparency. The manuscript sits
 behind an Overleaf read link, which served no document to a request on
-2026-09-18. The site
+2026-09-18. erdosproblems.com
 maintainer's exposition of 1 September 2026 on the problem page is the
 readable account: with $s(x)=\log S(x)$, the decomposition gives
 $s(x)\ll x/\log x+\sum_{x/\log x<p\le x}s(x/p)$, the prime number theorem
@@ -115,16 +115,17 @@ estimate remain cited inputs. The file contains no theorem about the order of
 $\log S(N)$ and has not been built by this corpus, so it is a link on the
 claimants' page and no `formalized` evidence.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked the claim on the tab as
-accepted by the site as correct. On 16 July 2026 the curator marked the problem
-resolved, with a thread comment saying that the order of magnitude of
-$\log S(N)$ is now known and that finer questions such as an asymptotic remain
-open. The curator also wrote the exposition of 1 September 2026 on the problem
-page. The curator is independent of the claimants, and that acceptance is the
-`reviewed` evidence. No refereed publication and no independent review of the
-claim were found on 2026-09-18. There were eight comments under the claim. Among
-them, the curator's comment of 16 July 2026 says that the proof is correct and
-sketches the argument. A later full claim on the same problem,
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, marked the claim on
+the tab as accepted by erdosproblems.com as correct. On 16 July 2026 the curator
+marked the problem resolved, with a thread comment saying that the order of
+magnitude of $\log S(N)$ is now known and that finer questions such as an
+asymptotic remain open. The curator also wrote the exposition of 1 September
+2026 on the problem page. The curator is independent of the claimants, and that
+acceptance is the `reviewed` evidence. No refereed publication and no
+independent review of the claim were found on 2026-09-18. There were eight
+comments under the claim. Among them, the curator's comment of 16 July 2026 says
+that the proof is correct and sketches the argument. A later full claim on the
+same problem,
 [[problems/unit_fractions/E0320/claims/2026_07_22_kominers_neu|Kominers and Neu's asymptotic]],
 asserts a stronger statement. It reports that its authors have not verified this
 one.

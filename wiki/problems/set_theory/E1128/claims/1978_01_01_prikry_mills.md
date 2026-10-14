@@ -59,7 +59,7 @@ cubes of size $\aleph_1$.
 
 **Source.** The result is unpublished. Komjáth's survey cites it as C. Mills
 and K. Prikry, Some recent results about partitions of $\omega_1$,
-unpublished, and the site dates it to 1978; the year is the only date
+unpublished, and erdosproblems.com dates it to 1978; the year is the only date
 recorded, so this page's date is the first day of that year. Its two
 published reports are the `record` links: S. Todorčević, Some partitions of
 three-dimensional combinatorial cubes, J. Combin. Theory Ser. A 68 (1994),

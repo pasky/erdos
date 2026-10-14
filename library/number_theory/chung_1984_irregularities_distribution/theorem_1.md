@@ -35,8 +35,8 @@ $F_1=1$ and $F_{n+2}=F_{n+1}+F_n$, $n\ge0$.*"
 The chapter adds: "The bound (2) is best possible, as shown by the next
 result", Theorem 2. On p. 211 the theorem is restated as (34) with the
 same constant. The numerical value $\alpha=0.39441967\ldots$ is the
-chapter's; $1/\alpha=1+\sum_{k\ge1}F_{2k}^{-1}=2.535\ldots$ is the site's
-$c$ and the 1980 monograph's $\alpha_0$.
+chapter's; $1/\alpha=1+\sum_{k\ge1}F_{2k}^{-1}=2.535\ldots$ is
+erdosproblems.com's $c$ and the 1980 monograph's $\alpha_0$.
 
 **Source.** F. R. K. Chung and R. L. Graham, *On irregularities of
 distribution*, Finite and Infinite Sets (Eger, 1981), Colloq. Math. Soc.

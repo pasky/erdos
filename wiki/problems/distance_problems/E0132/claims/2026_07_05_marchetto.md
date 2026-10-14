@@ -91,5 +91,5 @@ was found independently and assigns priority for them to this note and, for
 $n=7$, to Zeraoulia; that is a dated uptake, not a review.
 
 **Acceptance.** None documented. The note is not on arXiv and has no journal
-record. The site labeled the problem OPEN, and its page does not credit the
-result. No outside review is known. The claim is therefore claimed.
+record. Bloom's catalog labeled the problem OPEN, and its page does not credit
+the result. No outside review is known. The claim is therefore claimed.

@@ -28,8 +28,8 @@ $$
 d(A+B)=d(A)+d(B).
 $$
 
-**Status.** Open, the site's label (OPEN; page last edited 2026-04-15). One
-partial claim is recorded:
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited
+2026-04-15). One partial claim is recorded:
 [[problems/additive_combinatorics/E0335/claims/2026_04_14_ackelsberg_richter|Ackelsberg and Richter's inverse theorem]],
 a preprint of 2026-04-14. Its Theorem 1.4 characterizes the pairs in which one
 of the sets meets every residue class. The characterization without that
@@ -49,30 +49,32 @@ https://www.erdosproblems.com/335.
 
 ## Current assessment
 
-The site's formulation above asks for the pairs $A,B\subseteq\mathbb N$ of
-positive density with $d(A+B)=d(A)+d(B)$. The site's commentary, in the
-corpus's words: equality holds when there is a $\theta>0$ and sets
-$X_A,X_B\subseteq\mathbb R/\mathbb Z$ with $\mu(X_A+X_B)=\mu(X_A)+\mu(X_B)$
-such that $A$ and $B$ are the positive integers $n$ whose fractional parts
-$\{n\theta\}$ fall in $X_A$ and $X_B$, and the site asks whether every pair
-arises in a similar way from other groups. The site credits Ackelsberg and
-Richter [AcRi26] with a partial resolution under the assumption that one of
-the sets meets every residue class, recorded at
+The erdosproblems.com formulation above asks for the pairs
+$A,B\subseteq\mathbb N$ of positive density with $d(A+B)=d(A)+d(B)$. The
+erdosproblems.com commentary, in the corpus's words: equality holds when there
+is a $\theta>0$ and sets $X_A,X_B\subseteq\mathbb R/\mathbb Z$ with
+$\mu(X_A+X_B)=\mu(X_A)+\mu(X_B)$ such that $A$ and $B$ are the positive integers
+$n$ whose fractional parts $\{n\theta\}$ fall in $X_A$ and $X_B$, and
+erdosproblems.com asks whether every pair arises in a similar way from other
+groups. erdosproblems.com credits Ackelsberg and Richter [AcRi26] with a partial
+resolution under the assumption that one of the sets meets every residue class,
+recorded at
 [[problems/additive_combinatorics/E0335/claims/2026_04_14_ackelsberg_richter|Ackelsberg
 and Richter's inverse theorem]]: for $d(A)>0$, $d(A)+d(B)<1$ and $B$ meeting
 every residue class, either both sets come, up to density zero, from a
 rotation on a subsemigroup $h\mathbb N$ (lifts of parallel Bohr intervals),
 or $A$ lies in one residue class modulo some $h$ and $B$ covers almost all of
-the other classes, the paper's degenerate case. The site also records that a
-full characterization without that assumption looks hopeless, since a random
-subset $A$ of the even numbers of density $1/4$ has $d(A+A)=1/2$; the paper's
-Example 1.6 is this example. The claim is a preprint without outside review,
-so it stays `claimed`, and as a partial claim it leaves the problem open.
+the other classes, the paper's degenerate case. erdosproblems.com also records
+that a full characterization without that assumption looks hopeless, since a
+random subset $A$ of the even numbers of density $1/4$ has $d(A+A)=1/2$; the
+paper's Example 1.6 is this example. The claim is a preprint without outside
+review, so it stays `claimed`, and as a partial claim it leaves the problem
+open.
 
-**Search scope.** The account above rests on the site's problem page, the
-arXiv record of the paper (version of 2026-04-14) and the library card of that
-version. The proof is not checked
-here, and no literature search beyond these sources is recorded.
+**Search scope.** The account above rests on the erdosproblems.com problem page,
+the arXiv record of the paper (version of 2026-04-14) and the library card of
+that version. The proof is not checked here, and no literature search beyond
+these sources is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

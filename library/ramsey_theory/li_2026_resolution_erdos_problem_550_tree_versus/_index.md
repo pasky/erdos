@@ -102,8 +102,8 @@ independently reviewed.
 **Bears on.** [[../wiki/problems/ramsey_theory/E0550/_index|#550]]: Theorem 1.1 states the
 problem's inequality (with $\chi(K_{m_1,\dots,m_k})=k$) for fixed part sizes
 and all sufficiently large trees; it is an unrefereed claim, and the page
-keeps the site's label. Theorems 3.2 and 5.2 bear on the problem only as
-steps of the claimed proof of Theorem 1.1.
+keeps the erdosproblems.com label. Theorems 3.2 and 5.2 bear on the problem only
+as steps of the claimed proof of Theorem 1.1.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -5,7 +5,7 @@ desc: |
   Erdős's 1981 question whether for every α > 1 there are a constant C_α and
   infinitely many n with h_α(n) = Σ (d_{i+1}/d_i − 1)^α < C_α over the
   consecutive divisors of n, with the related question (1.2) on
-  Σ d_{i+1}/d_i − τ(n) − log n; the site's source for Problem 1099.
+  Σ d_{i+1}/d_i − τ(n) − log n; the erdosproblems.com source for Problem 1099.
 created: 2026-10-08T15:50:52Z
 updated: 2026-10-08T15:50:52Z
 ---
@@ -60,8 +60,9 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/divisors/E1099/_index|Problem 1099]]: the site's [Er81h]
-  source. The problem asks whether $\liminf_{n\to\infty}h_\alpha(n)\ll_\alpha1$
-  for $\alpha>1$, with the same $h_\alpha$; that is (1.1)'s question whether
-  $h_\alpha(n)<C_\alpha$ holds for infinitely many $n$. The page records the
-  question only; the answers are on the problem's claim pages.
+- [[../wiki/problems/divisors/E1099/_index|Problem 1099]]: erdosproblems.com's
+  [Er81h] source. The problem asks whether
+  $\liminf_{n\to\infty}h_\alpha(n)\ll_\alpha1$ for $\alpha>1$, with the same
+  $h_\alpha$; that is (1.1)'s question whether $h_\alpha(n)<C_\alpha$ holds for
+  infinitely many $n$. The page records the question only; the answers are on
+  the problem's claim pages.

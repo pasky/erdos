@@ -77,8 +77,8 @@ The 1978 paper's Section 8, as attested; the pigeonhole principle.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]]: the site's upper bound
-  $\hat R(K_{n,n})<\frac32n^32^n$ with its constant, which the site credits
-  to the 1978 paper and to Nešetřil and Rödl; the paper's qualification
-  $n\ge6$ belongs to this bound, not to the lower bound where the site's
-  commentary places it.
+- [[../wiki/problems/ramsey_theory/E0560/_index|Problem 560]]:
+  erdosproblems.com's upper bound $\hat R(K_{n,n})<\frac32n^32^n$ with its
+  constant, which erdosproblems.com credits to the 1978 paper and to Nešetřil
+  and Rödl; the paper's qualification $n\ge6$ belongs to this bound, not to the
+  lower bound where the erdosproblems.com commentary places it.

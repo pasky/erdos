@@ -32,21 +32,21 @@ $$
 
 Or perhaps even $\ll_k n^2$?
 
-**Status.** Open, in the site's label (OPEN; page last edited 23 March 2026).
-The label attaches to the pair of questions. The frontmatter lists them as the
-parts `weak_bound` (the bound $n^{2+o(1)}$) and `strong_bound` (the bound
-$\ll_k n^2$).
+**Status.** Open, in the erdosproblems.com label (OPEN; page last edited 23
+March 2026). The label attaches to the pair of questions. The frontmatter lists
+them as the parts `weak_bound` (the bound $n^{2+o(1)}$) and `strong_bound` (the
+bound $\ll_k n^2$).
 
 The second question is answered no. For $k\le2$ the bound is trivial. For every
 $k\ge3$ the product exceeds $c\,n^2\log n$ infinitely often. This follows from a
 Pell-equation construction of van Doorn, which Tao completed with Gemini
-Deepthink in the problem's thread on 2025-11-20, and which the site's commentary
-credits. The corpus records it as the pending partial claim
+Deepthink in the problem's thread on 2025-11-20, and which the erdosproblems.com
+commentary credits. The corpus records it as the pending partial claim
 [[problems/arithmetic_functions/E0367/claims/2025_11_20_van_doorn|van Doorn 2025]].
 It records Hughes's sharpening of the rate as
 [[problems/arithmetic_functions/E0367/claims/2026_06_10_hughes|Hughes 2026]].
-Both are `claimed`, since the site labeled the problem OPEN and neither has a
-refereed publication or Lean the corpus built.
+Both are `claimed`, since Bloom's catalog labeled the problem OPEN and neither
+has a refereed publication or Lean the corpus built.
 
 The first question is open unconditionally. Hughes's conditional yes, under a
 consequence of the abc conjecture, is
@@ -62,9 +62,9 @@ the Current assessment describes the file at a pinned commit.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 23 March 2026), has two
-parts, the bound $\prod_{n\le m<n+k}B_2(m)\ll n^{2+o(1)}$ for every fixed
-$k$ and the sharper $\ll_k n^2$.
+The question, as erdosproblems.com states it (page last edited 23 March 2026),
+has two parts, the bound $\prod_{n\le m<n+k}B_2(m)\ll n^{2+o(1)}$ for every
+fixed $k$ and the sharper $\ll_k n^2$.
 
 The second part is answered no. For $k\le2$ the product is at most
 $n(n+1)\le2n^2$, since $B_2(m)\le m$. For $k\ge3$ it fails: with $(x_j,y_j)$
@@ -87,7 +87,7 @@ The first part is open. Hughes's repository proves, under the
 Granville–Langevin radical lower bound for $\prod_{i<k}(x+i)$ (a consequence
 of the abc conjecture, stated as an explicit hypothesis), that the product
 is $\ll_{k,\varepsilon}n^{2+\varepsilon}$ for every $k$; that is a
-conditional claim and decides nothing unconditionally. The site's
+conditional claim and decides nothing unconditionally. The erdosproblems.com
 commentary records that the problem is equivalent, up to constants, to
 [[problems/diophantine_problems/E0935/_index|Problem 935]], which asks the
 same questions for the powerful part of $n(n+1)\cdots(n+\ell)$; the
@@ -95,8 +95,8 @@ constructions there are the same, and the library's card on the Gemini case
 study (linked below) records van Doorn's construction only as provenance
 context for that problem.
 
-The site's commentary also asks about the $r$-full parts $B_r$ for $r\ge3$:
-whether, for fixed $r,k\ge2$ and $\varepsilon>0$, the ratio of
+The erdosproblems.com commentary also asks about the $r$-full parts $B_r$ for
+$r\ge3$: whether, for fixed $r,k\ge2$ and $\varepsilon>0$, the ratio of
 $\prod_{n\le m<n+k}B_r(m)$ to $n^{1+\varepsilon}$ has infinite limit
 superior. As printed, with every $\varepsilon>0$, this is false, since
 $B_r(m)\mid m$ bounds the product by about $n^k$. The intended reading, with
@@ -119,11 +119,11 @@ with the answer False, research solved; its variants `k_le_two` and
 solved, and `higher_full_parts` states the $B_r$ question in the intended
 reading as open, all without proof. The corpus has not built it.
 
-Search scope: the site's problem page as exported (last edited 23 March 2026),
-its thread as of 2026-10-07 (the posts of 2025-11-20, 2025-11-22 and
-2026-06-10), the formal-conjectures file, the lean-proofs file and Hughes's
-repository with its README; no submitted forum proof claim and no OpenAI release
-item names this problem. An arXiv search found no posting of
+Search scope: the erdosproblems.com problem page as exported (last edited 23
+March 2026), its thread, accessed 2026-10-07 (the posts of 2025-11-20,
+2025-11-22 and 2026-06-10), the formal-conjectures file, the lean-proofs file
+and Hughes's repository with its README; no submitted forum proof claim and no
+OpenAI release item names this problem. An arXiv search found no posting of
 Hughes's paper and no other literature on the exact question.
 <!-- BEGIN problem library links -->
 

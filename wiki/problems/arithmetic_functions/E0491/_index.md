@@ -29,7 +29,7 @@ $$
 f(n)=c'\log n+O(1)?
 $$
 
-**Status.** Proved. The site labeled the problem PROVED (page last edited
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (page last edited
 2026-04-01) and credits Wirsing [Wi70], whose theorem answers the question yes.
 The accepted full claim is on
 [[problems/arithmetic_functions/E0491/claims/1970_01_01_wirsing|the claim page]].
@@ -59,8 +59,8 @@ $f(n)=c\log n$ under either of two stronger hypotheses, that
 $f(n+1)-f(n)\to0$ or that $f$ is nondecreasing, an accepted partial claim on
 [[problems/arithmetic_functions/E0491/claims/1945_02_24_erdos|its claim page]].
 Wirsing [Wi70] proved the full statement: bounded consecutive differences force
-$f(n)=c'\log n+O(1)$ for some constant $c'$. The site's curator records the
-problem as proved by Wirsing, which is the acceptance evidence on
+$f(n)=c'\log n+O(1)$ for some constant $c'$. The erdosproblems.com curator
+records the problem as proved by Wirsing, which is the acceptance evidence on
 [[problems/arithmetic_functions/E0491/claims/1970_01_01_wirsing|the claim page]];
 the paper appeared in a proceedings volume, so no `refereed` evidence is listed.
 A Lean 4 development in Boris Alexeev's lean-proofs repository proves the

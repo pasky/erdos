@@ -45,5 +45,5 @@ $0<\epsilon<1/4$.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Acta Arithmetica (the paper thanks its referee). The
-site labeled the problem OPEN, so its commentary is not acceptance.
+**Acceptance.** Refereed: Acta Arithmetica (the paper thanks its referee).
+Bloom's catalog labeled the problem OPEN, so its commentary is not acceptance.

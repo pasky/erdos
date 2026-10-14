@@ -50,6 +50,6 @@ Neither question of the problem is answered; both bounds are improved by
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Acta Math. Hungar. 50 (1987), no. 1--2, 117--122. The
-site labeled the problem OPEN, so its commentary crediting the bounds is not
-`reviewed` evidence. The proof is not checked in this corpus.
+**Acceptance.** Refereed: Acta Math. Hungar. 50 (1987), no. 1--2, 117--122.
+Bloom's catalog labeled the problem OPEN, so its commentary crediting the bounds
+is not `reviewed` evidence. The proof is not checked in this corpus.

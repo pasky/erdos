@@ -71,11 +71,12 @@ this claim, not as an independent result. Its theorem `not_erdos_34` negates a
 statement textually matching the collection's; the file contains no `sorry` and
 no `axiom` command at the pinned commit. This project has not built the file or
 audited its statement against the problem, so it supplies no `formalized`
-evidence; the site's label DISPROVED (LEAN) refers to this development.
+evidence; the erdosproblems.com label DISPROVED (LEAN) refers to this
+development.
 
 **Acceptance.** The paper is refereed: J. Konieczny, *On consecutive sums in
 permutations*, J. Combinatorics 12, no. 3 (2021), 413--477. The statements cited
-here agree word for word with the arXiv text. The site's curator, Thomas F.
-Bloom, marked Problem 34 disproved and credits this paper with the explicit
-permutation and the random-permutation asymptotic. The page is dated by the
-arXiv posting of 27 April 2015.
+here agree word for word with the arXiv text. The erdosproblems.com curator,
+Thomas F. Bloom, marked Problem 34 disproved and credits this paper with the
+explicit permutation and the random-permutation asymptotic. The page is dated by
+the arXiv posting of 27 April 2015.

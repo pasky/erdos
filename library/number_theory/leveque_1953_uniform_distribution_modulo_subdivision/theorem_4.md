@@ -92,14 +92,14 @@ comparison remarks of §3.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0492/_index|Problem 492]]: the site's "A problem due
-  to Le Veque [LV53], who proved it in some special cases" refers to this
-  paper. For the problem's sequences the relevant special cases are the two
-  above: the Section 4 opening sentence (gaps increasing to infinity with
-  $z_{n-1}\sim z_n$: uniform distribution for every $\theta>0$, hence for
-  almost all) and Theorem 4 (gaps decreasing to zero like $O(1/x)$, for
-  almost all $\theta$). The problem's sequences are sets of positive
-  integers, whose gaps are at least $1$, so Theorem 4's hypothesis
+- [[../wiki/problems/number_theory/E0492/_index|Problem 492]]:
+  erdosproblems.com's "A problem due to Le Veque [LV53], who proved it in some
+  special cases" refers to this paper. For the problem's sequences the relevant
+  special cases are the two above: the Section 4 opening sentence (gaps
+  increasing to infinity with $z_{n-1}\sim z_n$: uniform distribution for every
+  $\theta>0$, hence for almost all) and Theorem 4 (gaps decreasing to zero like
+  $O(1/x)$, for almost all $\theta$). The problem's sequences are sets of
+  positive integers, whose gaps are at least $1$, so Theorem 4's hypothesis
   $\delta(x)\searrow0$ cannot hold for them (an authored remark); the
   decreasing-gap case without the $O(1/x)$ restriction is the theorem of
   Davenport and LeVeque,

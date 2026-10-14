@@ -52,8 +52,8 @@ I do not pursue this subject any further."
 
 Observations made here about the printed text. The hypothesis is that every
 $m$-set of vertices contains an edge, that is $\alpha(G)<m$, the hypothesis
-of Alon's Theorem 1.2 with $m=\lfloor\sqrt n\rfloor$; the site's Problem 801
-writes "no independent set on $>n^{1/2}$ vertices", which admits
+of Alon's Theorem 1.2 with $m=\lfloor\sqrt n\rfloor$; erdosproblems.com's
+Problem 801 writes "no independent set on $>n^{1/2}$ vertices", which admits
 $\alpha(G)=\lfloor\sqrt n\rfloor$ (the one-unit boundary the problem page
 records). The first sentence prints the range as $m<n(1-\varepsilon)$ with
 no raised exponent, where the same page raises the $1/2$ of $n^{1/2}$, and
@@ -62,7 +62,8 @@ $m<n^{1-\varepsilon}$ (for $m>n/2$ a perfect matching is admissible and no
 $m$-set spans more than $m/2$ of its edges, so the upper bound in (1) is far
 from sharp there), and it is not repeated in the question. "Best possible"
 for the upper bound in (1) at $m=[n^{1/2}]$ means $f(n;[n^{1/2}])>cm\log n$,
-which for that $m$ is the $\gg n^{1/2}\log n$ of the site's statement.
+which for that $m$ is the $\gg n^{1/2}\log n$ of the erdosproblems.com
+statement.
 
 **Source.** P. Erdős, *Some old and new problems in various branches of
 combinatorics*, Congressus Numerantium 23 (1979), 19--37; the typescript page
@@ -95,4 +96,4 @@ None stated.
   $m=[n^{1/2}]$ is the problem's statement, "best possible" spelled out as
   $\gg n^{1/2}\log n$ edges; the problem page quotes this passage as the
   origin and records the one-unit difference between "every set of $m$
-  vertices contains an edge" and the site's hypothesis.
+  vertices contains an edge" and erdosproblems.com's hypothesis.

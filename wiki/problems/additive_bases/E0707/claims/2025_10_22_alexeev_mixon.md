@@ -68,14 +68,14 @@ which lacks version 2's toolchain header and closing axiom line, in Alexeev's
 repository of formalized Erdős problems on 2025-11-27 (the second
 `formalization` link, pinned). Section 8 asks for the smallest size $s$ of a
 Sidon set that extends to no perfect difference set and shows only
-$3\leq s\leq 5$. The site's problem page records a MathOverflow argument of
-Sawin that every Sidon set of size $3$ extends; its remarks (last edited
-2025-10-26) record size $4$ as open.
+$3\leq s\leq 5$. The erdosproblems.com problem page records a MathOverflow
+argument of Sawin that every Sidon set of size $3$ extends; its remarks (last
+edited 2025-10-26) record size $4$ as open.
 
-**Acceptance.** The site's curator, T. F. Bloom, records the disproof under the
-label DISPROVED (LEAN) on the problem page, which was last edited 2025-10-26.
-This is the `reviewed` evidence named here. The paper is refereed: Proc. Natl.
-Acad. Sci. USA 123 (2026), no. 21, e2531760123. This corpus has not built the
-Lean file or audited its statements, so `formalized` is not listed.
+**Acceptance.** The erdosproblems.com curator, T. F. Bloom, records the disproof
+under the label DISPROVED (LEAN) on the problem page, which was last edited
+2025-10-26. This is the `reviewed` evidence named here. The paper is refereed:
+Proc. Natl. Acad. Sci. USA 123 (2026), no. 21, e2531760123. This corpus has not
+built the Lean file or audited its statements, so `formalized` is not listed.
 
 **Depends on.** Nothing beyond the cited paper.

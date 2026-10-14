@@ -41,9 +41,9 @@ $\lim_{n\to\infty}(1/n)f_k(n)=\frac12k$." An arithmetic check made here:
 $\frac{k(k-1)-2}{2k-3}-\frac k2=\frac{k-4}{2(2k-3)}$, positive for $k\ge5$
 (at $k=5$ the slope is $\frac{18}7$), so the corollary gives
 $\limsup(1/n)f_k(n)>\frac12k$ and contradicts the limit the conjecture
-implies. The site's summary states the bound "for every fixed $m\ge2$";
-the corollary is printed for $k\ge5$, and for $k\le4$ its slope is at most
-$\frac k2$, so it would add nothing there.
+implies. The erdosproblems.com summary states the bound "for every fixed
+$m\ge2$"; the corollary is printed for $k\ge5$, and for $k\le4$ its slope is at
+most $\frac k2$, so it would add nothing there.
 
 **Source.** B. A. Sørensen and C. Thomassen, On $k$-rails in graphs,
 J. Combinatorial Theory (B) 17 (1974), 143--159; Corollary 2 and Figure 2 on
@@ -85,9 +85,9 @@ Within the paper: Lemma 5 (p. 155), unproved in print. No outside result.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the site's
-  "$k_m(n)>\frac{m(m-1)-2}{2m-3}(n-m)$ for infinitely many $n$", and the
-  paper's own disproof of the vertex-disjoint conjecture for every
+- [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]:
+  erdosproblems.com's "$k_m(n)>\frac{m(m-1)-2}{2m-3}(n-m)$ for infinitely many
+  $n$", and the paper's own disproof of the vertex-disjoint conjecture for every
   $m\ge5$, independent of Leonard's counterexample at $m=5$ ([Le73], filed
   as
   [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/_index|leonard_1973_conjecture_bollobas_erdos]];

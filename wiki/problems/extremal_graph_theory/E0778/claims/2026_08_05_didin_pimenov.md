@@ -64,8 +64,8 @@ constants compare as $27>25$. The paper's provenance section says that
 OpenAI GPT-5.6 Pro generated the main result, the winning strategy and the
 proof, that the first author directed successive simplifications and
 prepared the manuscript, and that the second author independently checked
-the final proof; the site's claim entry names the system as ChatGpt 5.6 sol
-pro, in that spelling. The first author's thread comments add that the
+the final proof; erdosproblems.com's claim entry names the system as ChatGpt 5.6
+sol pro, in that spelling. The first author's thread comments add that the
 potential mechanism was transferred from Theorem 1.4 of Mao, Wei and Yang on
 biased discrepancy games (arXiv:2606.13309, not held). This settles the
 second question of [[problems/extremal_graph_theory/E0778/_index|Problem 778]]
@@ -87,8 +87,8 @@ listed.
 **Covers.** The second question, for every sufficiently large $n$: the paper
 proves the existence of a threshold without naming it, and the formalization
 names $3^{158}$. Not covered: the second question for $4\le n<3^{158}$, where
-the site asks for every $n>3$; the first question (the unbiased game, where
-Erdős expected Bob to win for every $n\ge3$); and the third question (the
+erdosproblems.com asks for every $n>3$; the first question (the unbiased game,
+where Erdős expected Bob to win for every $n\ge3$); and the third question (the
 maximum-degree game). For comparison, Malekshahian and Spiro
 ([[../library/extremal_graph_theory/malekshahian_2026_clique_building_game_erdos/_index|card]])
 proved the biased game for large bias and Cambie and Provoost
@@ -112,5 +112,5 @@ bias. That comment gave the bias 15 of Malekshahian and Spiro's first arXiv
 version. Their second version (Theorem 3, Corollary 14) proves the bias $1:4$
 that the introduction states. This is a named expert's documented review, not a
 referee's report. The preprint is unpublished, so `refereed` is not listed. The
-site's label was OPEN on 2026-10-06, and a partial claim does not change it.
-Nothing on this page is this project's own review.
+erdosproblems.com label was OPEN on 2026-10-06, and a partial claim does not
+change it. Nothing on this page is this project's own review.

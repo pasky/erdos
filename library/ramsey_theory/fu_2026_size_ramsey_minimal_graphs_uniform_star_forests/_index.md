@@ -79,8 +79,8 @@ pp. 1--3); the proofs (Sections 2--3) were not read.
   $a=\sum_sa_s$ and $b=\sum_sb_s-t+1$, plus the two exceptional families of
   cases (1) and (2); Remark 1.6 notes that $t=2$ recovers Theorem 1.3.
 - The Győri--Schelp condition is restated on p. 2 with "$\ge$"
-  ($\binom{\ell_i}2\ge\sum_{k=i}^{s+t}\ell_k$), where Davoodi et al. and the
-  site print a strict inequality; the primary source is not held.
+  ($\binom{\ell_i}2\ge\sum_{k=i}^{s+t}\ell_k$), where Davoodi et al. and
+  erdosproblems.com print a strict inequality; the primary source is not held.
 
 ## Compiled scope
 

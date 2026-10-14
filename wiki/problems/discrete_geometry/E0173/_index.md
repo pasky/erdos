@@ -24,12 +24,13 @@ updated: 2026-10-08T18:26:56Z
 **Statement.** In any $2$-colouring of $\mathbb{R}^2$, for all but at most one
 triangle $T$, there is a monochromatic congruent copy of $T$.
 
-**Status.** Open. This is the site's label (page last edited 16 October 2025).
-No result settles the question. No full claim exists, and the standing derives
-from the claim pages. Three results decide the question for particular triangles
-and are recorded as partial claims. Shader's refereed theorem of 1976 shows that
-every right triangle, and every triangle of two further one-parameter families,
-has a monochromatic congruent copy in every two-coloring of the plane. It is on
+**Status.** Open. This is the erdosproblems.com label (page last edited 16
+October 2025). No result settles the question. No full claim exists, and the
+standing derives from the claim pages. Three results decide the question for
+particular triangles and are recorded as partial claims. Shader's refereed
+theorem of 1976 shows that every right triangle, and every triangle of two
+further one-parameter families, has a monochromatic congruent copy in every
+two-coloring of the plane. It is on
 [[problems/discrete_geometry/E0173/claims/1976_05_01_shader|Shader 1976]],
 accepted on the refereed publication alone. The 1975 colloquium paper of Erdős,
 Graham, Montgomery, Rothschild, Spencer and Straus gives further triangle
@@ -55,21 +56,21 @@ https://www.erdosproblems.com/173.
 
 ## Current assessment
 
-**The question (site formulation, page last edited 16 October 2025).** The
-statement above; OPEN. The commentary, in this page's words: some colorings
-force one equilateral triangle to be excluded, the coloring of the plane by
-alternating strips being the example, and Shader [Sh76] proved the statement for
-any single right triangle. The 1975 colloquium paper of Erdős, Graham,
-Montgomery, Rothschild, Spencer and Straus poses the question as its Conjecture
-3, that every non-equilateral triangle has a monochromatic congruent copy in
-every two-coloring of the plane, and shows by its Theorem 1 that a coloring
-misses a triangle with sides $a$, $b$, $c$ exactly when it misses the
+**The question (erdosproblems.com formulation, page last edited 16 October
+2025).** The statement above; OPEN. The commentary, in this page's words: some
+colorings force one equilateral triangle to be excluded, the coloring of the
+plane by alternating strips being the example, and Shader [Sh76] proved the
+statement for any single right triangle. The 1975 colloquium paper of Erdős,
+Graham, Montgomery, Rothschild, Spencer and Straus poses the question as its
+Conjecture 3, that every non-equilateral triangle has a monochromatic congruent
+copy in every two-coloring of the plane, and shows by its Theorem 1 that a
+coloring misses a triangle with sides $a$, $b$, $c$ exactly when it misses the
 equilateral triangles of all three side lengths; so the question is whether a
 two-coloring of the plane can miss equilateral triangles of two different sides.
-The discussion on the site held one comment (15 February 2026) citing that
-paper, Graham's 2017 survey of Euclidean Ramsey theory, Currier, Moore and Yip's
-2024 paper and the 2025 computational paper of Mundinger and coauthors, and the
-proof-claim tab was empty on 6 October 2026.
+The discussion on erdosproblems.com held one comment (15 February 2026) citing
+that paper, Graham's 2017 survey of Euclidean Ramsey theory, Currier, Moore and
+Yip's 2024 paper and the 2025 computational paper of Mundinger and coauthors,
+and the proof-claim tab was empty on 6 October 2026.
 
 **Settled triangles.** The three claim pages named under Status record the
 triangles for which the question is decided: Shader's right triangles, the

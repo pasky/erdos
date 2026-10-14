@@ -116,7 +116,7 @@ $g(n)\ge n-\log n-H(n)-O(1)$, is the bound this one supersedes.
 - [[../wiki/problems/extremal_graph_theory/E0927/_index|Problem 927]]: the disproof. The
   conjectured $g(n)=n-\log_2n-\log_*(n)+O(1)$ would make $(n-\log_2n)-g(n)$
   unbounded, and this bound keeps it at most $4$ as printed, and at most $5$
-  by the construction's counts, for every $N>33000$. The site's
+  by the construction's counts, for every $N>33000$. erdosproblems.com's
   "$g(n)>n-\log_2n-O(1)$" and the note added in proof of Erdős's 1971 list
   ("Spencer proved $f(n)>n-\frac{\log n}{\log2}-c$", paged at
   [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_10|item_10]])

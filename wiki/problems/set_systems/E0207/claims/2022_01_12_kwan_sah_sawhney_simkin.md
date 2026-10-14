@@ -65,9 +65,9 @@ survey of previous work states.
 
 **Acceptance.** Refereed: Ann. of Math. (2) **200** (2024), no. 3, 1059–1156.
 The paper was first posted as arXiv:2201.04554 on 2022-01-12. Reviewed: Thomas
-Bloom, the site's curator, marked the problem proved and credits the proof to
-Kwan, Sah, Sawhney and Simkin [KSSS22b]. The formal-conjectures catalog states
-the problem in a file added 2026-10-07, whose proof is left as `sorry`. No Lean
-proof of the theorem is recorded, so the page lists no `formalized` evidence.
-The library card summarizes the paper's statements from its text and does not
-verify the proof. That reading is not acceptance evidence.
+Bloom, the erdosproblems.com curator, marked the problem proved and credits the
+proof to Kwan, Sah, Sawhney and Simkin [KSSS22b]. The formal-conjectures catalog
+states the problem in a file added 2026-10-07, whose proof is left as `sorry`.
+No Lean proof of the theorem is recorded, so the page lists no `formalized`
+evidence. The library card summarizes the paper's statements from its text and
+does not verify the proof. That reading is not acceptance evidence.

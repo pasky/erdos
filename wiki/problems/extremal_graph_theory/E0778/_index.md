@@ -35,9 +35,9 @@ Alice's, then does Bob have a winning strategy for $n>3$?
 Finally, consider the game when Alice wins if the maximum degree of the red
 subgraph is larger than the maximum degree of the blue subgraph. Who wins?
 
-**Status.** Open. The site's label was OPEN on 2026-10-06. Two claims are
-recorded, and the frontmatter standing is derived from the claim pages. Didin
-and Pimenov's potential argument, on
+**Status.** Open. The erdosproblems.com label was OPEN on 2026-10-06. Two claims
+are recorded, and the frontmatter standing is derived from the claim pages.
+Didin and Pimenov's potential argument, on
 [[problems/extremal_graph_theory/E0778/claims/2026_08_05_didin_pimenov|its claim page]],
 proves that the two-edge player wins the $(1:2)$-biased game of the second
 question for every sufficiently large $n$. Its Lean development names the

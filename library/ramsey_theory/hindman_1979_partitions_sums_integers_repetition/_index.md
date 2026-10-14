@@ -266,8 +266,8 @@ sequence in $N$. There is an admissible partition $\{A_i\}_{i<3}$ of $N$
 such that $A_0$ is $f$-small and such that there are no $i<3$ and no
 sequence $\langle x_n\rangle_{n<\omega}$ of distinct members of $N$ with
 $x_m+x_n\in A_i$ whenever $\{m,n\}\subseteq\omega$", is the three-cell
-partition behind the site's "Hindman [Hi79] has shown that this is false
-for $3$-colourings": the pairs include $m=n$, so the excluded sets are
+partition behind erdosproblems.com's "Hindman [Hi79] has shown that this is
+false for $3$-colourings": the pairs include $m=n$, so the excluded sets are
 $A+A$ with the doubles for an infinite set $A$, the problem's pattern, and
 the introduction draws the conclusion for every $r\ge3$ (p. 19). Corollary
 2.10 (p. 27 = PDF p. 9), "Let $\{A_i\}_{i<2}$ be an admissible partition of

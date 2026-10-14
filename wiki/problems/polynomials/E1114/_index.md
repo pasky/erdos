@@ -35,30 +35,31 @@ arithmetic progression.
 The differences between consecutive zeros of $f'(x)$, beginning from the
 midpoint of $(a_0,a_n)$ towards the endpoints, are monotonically increasing.
 
-**Notes.** The site's wording fails for every $n$: a polynomial of degree
-$n$ has at most $n$ zeros, so none has the $n+1$ distinct roots
+**Notes.** The erdosproblems.com wording fails for every $n$: a polynomial of
+degree $n$ has at most $n$ zeros, so none has the $n+1$ distinct roots
 $a_0<\cdots<a_n$ and the statement holds only vacuously; and the index $m$
 in $(a_0,a_m)$ is never introduced. The change replaces "degree $n$" with
 "degree $n+1$" and "$(a_0,a_m)$" with "$(a_0,a_n)$"; nothing else changes.
-The site prints no source for the conjecture. Bálint [Ba60b] states it as
-Erdős's in his opening paragraph (p. 33), apart from his proof, for
+erdosproblems.com prints no source for the conjecture. Bálint [Ba60b] states it
+as Erdős's in his opening paragraph (p. 33), apart from his proof, for
 $q(y)=\prod_{m=0}^n(y-a_m)$, a polynomial of degree $n+1$ with
 $a_m-a_{m-1}=d$ for $m=1,\ldots,n$, and the midpoint $(a_0+a_n)/2$ of the
 interval $(a_0,a_n)$; his Russian summary (p. 39) states the same. His
 English summary (p. 40) writes that midpoint as $(a_0+a_m)/2$ of
-$(a_0,a_m)$, reusing the product's index, the form the site's stray index
-follows. Lorch [Lo76] (p. 293), independent of Bálint's proof, states
+$(a_0,a_m)$, reusing the product's index, the form erdosproblems.com's stray
+index follows. Lorch [Lo76] (p. 293), independent of Bálint's proof, states
 Erdős's conjecture for an arbitrary polynomial with simple, equally spaced,
 real zeros and measures the gaps outward from the center of symmetry of its
 zeros, so the degree equals the number of zeros and the interval runs from
 the first zero to the last. The failure is not a boundary failure, since it
 holds at every $n$; the change rests on the setting these sources state. No
-text of Erdős's on the question is known, and the site's commentary records
-that Bálint gives none; the degree slip is the site's, and the stray index
-follows Bálint's English summary. No result concerns the site's wording.
+text of Erdős's on the question is known, and the erdosproblems.com commentary
+records that Bálint gives none; the degree slip is erdosproblems.com's, and the
+stray index follows Bálint's English summary. No result concerns the
+erdosproblems.com wording.
 
-**Status.** Proved. The site's label was PROVED. Bálint proved the modified
-Statement in 1960, in Matematikai Lapok, and the accepted claim page is
+**Status.** Proved. The erdosproblems.com label was PROVED. Bálint proved the
+modified Statement in 1960, in Matematikai Lapok, and the accepted claim page is
 [[problems/polynomials/E1114/claims/1960_01_01_balint|Bálint 1960]]. Lorch gave
 generalizations in 1976. No Lean proof that the corpus built and audited checks
 the statement.
@@ -80,23 +81,23 @@ commit and records the corpus's coverage of it.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-04).** That for a
-real polynomial whose zeros $a_0<\cdots<a_n$ are real and form an arithmetic
+**The question (erdosproblems.com formulation, accessed 2026-09-04).** That for
+a real polynomial whose zeros $a_0<\cdots<a_n$ are real and form an arithmetic
 progression, the gaps between consecutive zeros of the derivative increase
 from the midpoint of the zeros toward either endpoint. PROVED. The modified
 Statement gives the degree as $n+1$ and the interval as $(a_0,a_n)$, as
 Bálint states the conjecture (Notes above), and Bálint proves it. The
 derivative has one simple zero in each gap between consecutive zeros by
-Rolle's theorem, as the site's commentary (page last edited 2025-12-29)
-notes, and the commentary records that Bálint gives no source for the
-conjecture, presumably Erdős in personal communication.
+Rolle's theorem, as the erdosproblems.com commentary (page last edited
+2025-12-29) notes, and the commentary records that Bálint gives no source for
+the conjecture, presumably Erdős in personal communication.
 
 **Standing.** One accepted full claim,
 [[problems/polynomials/E1114/claims/1960_01_01_balint|Bálint 1960]],
-published in Matematikai Lapok 11 (1960), 33–40, credited by the site's
-curator and cited by Lorch [Lo76] as the verification of Erdős's conjecture.
-The theorem statement and the shape of the proof were checked against the
-paper; the proof is not compiled in this wiki.
+published in Matematikai Lapok 11 (1960), 33–40, credited by the
+erdosproblems.com curator and cited by Lorch [Lo76] as the verification of
+Erdős's conjecture. The theorem statement and the shape of the proof were
+checked against the paper; the proof is not compiled in this wiki.
 
 **Lorch's generalizations.** Lorch [Lo76]
 ([[../library/polynomials/lorch_1976_monotonicity_properties_polynomials_equally_spaced_zeros/_index|card]])
@@ -111,19 +112,19 @@ reprove the monotonicity theorem itself, so the paper carries no claim page.
 Whether the convergence of the gaps is monotone in the degree is left open
 there.
 
-**Formalization.** The site labeled the problem PROVED, not PROVED (LEAN),
-and on 2026-10-07 no formal-conjectures statement file existed for the problem.
-A Lean 4 file in Boris Alexeev's lean-proofs repository declares itself a
-formalization of Bálint's solution and proves the gap monotonicity for a
+**Formalization.** Bloom's catalog labeled the problem PROVED, not PROVED
+(LEAN), and on 2026-10-07 no formal-conjectures statement file existed for the
+problem. A Lean 4 file in Boris Alexeev's lean-proofs repository declares itself
+a formalization of Bálint's solution and proves the gap monotonicity for a
 polynomial of degree $N+1$ with $N+1$ zeros in arithmetic progression, the
 modified Statement; the claim page links it at its pinned commit. The
 corpus has not built or audited it, so no `formalized` evidence is listed.
 
-**Search scope and coverage.** Search scope: the site's problem page and its
-thread (empty on 2026-10-07), the formal-conjectures tree and the lean-proofs
-file. Coverage: the statements of Bálint 1960 and Lorch 1976, Bálint's
-English summary and Lorch's account of Bálint's result were checked against
-the papers; the proofs are not compiled in this wiki.
+**Search scope and coverage.** Search scope: the erdosproblems.com problem page
+and its thread (empty on 2026-10-07), the formal-conjectures tree and the
+lean-proofs file. Coverage: the statements of Bálint 1960 and Lorch 1976,
+Bálint's English summary and Lorch's account of Bálint's result were checked
+against the papers; the proofs are not compiled in this wiki.
 
 ## Progress
 

@@ -25,10 +25,10 @@ problem-page (problem_20260917.html.gz, not held),
 discussion (discussion_20260917.html.gz, not held),
 proof-claims (proof_claims_20260917.html.gz, not held) and
 history (history_20260917.html.gz, not held) snapshots. Their URLs and retrieval
-times are in [the source snapshot](web_source_snapshot.json). The site inserts
-per-request tokens, so byte hashes of two fetches never agree; the visible
-text is what was compared. These are source attachments; web scripts were
-not executed as part of this compilation.
+times are in [the source snapshot](web_source_snapshot.json). erdosproblems.com
+inserts per-request tokens, so byte hashes of two fetches never agree; the
+visible text is what was compared. These are source attachments; web scripts
+were not executed as part of this compilation.
 
 ## The page
 
@@ -52,7 +52,7 @@ of this repository records the qualifications of this commentary (the
 1958 paper proves $k=1$ only; the 1988 wording is weaker than
 "conjectures").
 
-## The discussion (nine comments, site clock)
+## The discussion (nine comments, erdosproblems.com clock)
 
 1. **TerenceTao, 17:17 on 07 Oct 2025.** "By summation by parts, this is
    equivalent to the irrationality of $\sum_n\frac{p_{n+1}-p_n}{2^n}$. It
@@ -66,7 +66,7 @@ of this repository records the qualifications of this commentary (the
    on
    [[irrationality/bloom_2026_erdos_problem_251_discussion/reformulation_gap_series|reformulation_gap_series]].
 2. **Alfaiz, 03:28 on 15 Apr 2026.** Points to Schlage-Puchta's paper
-   ([ScPu11] on the site; Acta Arith. 126 (2007); the card
+   ([ScPu11] on erdosproblems.com; Acta Arith. 126 (2007); the card
    [[irrationality/schlagepuchta_2011_irrationality_number_theoretical_series/_index|schlagepuchta_2011_irrationality_number_theoretical_series]])
    as "related to this problem. (See Theorem 2)."
 3. **Vjeko_Kovac, 11:13 on 15 Apr 2026.** "The last conjecture below the

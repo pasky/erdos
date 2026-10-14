@@ -96,11 +96,11 @@ of $h_2(n)=f(n)$ (pp. 145--148 and 149--151) were not read. Paged at
 and
 [[extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/question_p144|question_p144]].
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key
-BoEr62; printed pp. 143--144 (PDF pp. 1--2, page images): $k_r(n)$ is
-defined as the least number of lines forcing two points $x_1,x_2$ joined by
-$r$ paths with no common point other than $x_1$ and $x_2$, a question the
-paper attributes to Erdős and Gallai, and the theorem $k_3(n)=f(n)$, with
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the
+erdosproblems.com key BoEr62; printed pp. 143--144 (PDF pp. 1--2, page images):
+$k_r(n)$ is defined as the least number of lines forcing two points $x_1,x_2$
+joined by $r$ paths with no common point other than $x_1$ and $x_2$, a question
+the paper attributes to Erdős and Gallai, and the theorem $k_3(n)=f(n)$, with
 $f(2n)=3n-1$ and $f(2n+1)=3n+1$, is derived from Bártfai's proof (paged at
 [[extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/theorem_p144|theorem_p144]]);
 p. 144: the authors could not determine $k_r(n)$ for $r>3$ and suggest that
@@ -108,14 +108,14 @@ perhaps $k_4(3n+1)=6n+1$, with $n$ tetrahedra sharing a single point showing
 $k_4(3n+1)>6n$ (paged at
 [[extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/conjecture_p144|conjecture_p144]]),
 the extremal graph $K_1+nK_3$ of the problem's form at $m=4$;
-[[../wiki/problems/extremal_graph_theory/E0916/_index|#916]]: not a site key; printed
-pp. 144--145 (PDF pp. 2--3, page images): the question of the least
-$h_3(n)$ such that every graph with $n$ points and $h_3(n)$ lines contains
-a cycle $K$ and a point $x_0$ off it sending at least three lines to points
-of $K$, which the paper calls again a special complete topological
-quadrilateral, with the remark that $h_3(n)$ cannot yet be determined and
-that $h_3(n)=2n-2$ is not excluded, the problem's question five years before
-the 1967 seminar paper (paged at
+[[../wiki/problems/extremal_graph_theory/E0916/_index|#916]]: not an
+erdosproblems.com key; printed pp. 144--145 (PDF pp. 2--3, page images): the
+question of the least $h_3(n)$ such that every graph with $n$ points and
+$h_3(n)$ lines contains a cycle $K$ and a point $x_0$ off it sending at least
+three lines to points of $K$, which the paper calls again a special complete
+topological quadrilateral, with the remark that $h_3(n)$ cannot yet be
+determined and that $h_3(n)=2n-2$ is not excluded, the problem's question five
+years before the 1967 seminar paper (paged at
 [[extremal_graph_theory/bollobas_1962_grafelmeleti_szelsoertekekre_vonatkozo_problemakrol_extremal_problems/question_p144|question_p144]]).
 
 **Results.**

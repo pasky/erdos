@@ -25,8 +25,8 @@ updated: 2026-10-08T01:29:59Z
 $G$ has chromatic number $\geq f(k)$ then $G$ contains a triangle-free subgraph
 with chromatic number $\geq k$?
 
-**Status.** Labeled PROVED (LEAN) on erdosproblems.com. The site's commentary
-credits Rödl [Ro77] with the proof
+**Status.** Labeled PROVED (LEAN) on erdosproblems.com. The erdosproblems.com
+commentary credits Rödl [Ro77] with the proof
 ([[problems/graph_coloring/E0923/claims/1977_06_01_rodl|claim page]]). The Lean
 qualifier refers to Parcly Taxel's Aristotle-assisted formalization of Rödl's
 theorem, posted in the problem's thread on 20 April 2026. The formal-conjectures
@@ -50,18 +50,18 @@ to the Lean proof the claim page links.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks whether for every $k$ there
-is $f(k)$ such that every graph of chromatic number at least $f(k)$ contains a
-triangle-free subgraph of chromatic number at least $k$. The answer is yes:
-Rödl [Ro77] proved it in a refereed paper, and the site's curator credits that
-proof, so the one claim page is accepted on `reviewed` and `refereed` evidence
-and the frontmatter derives from it. The Lean formalizations of Rödl's theorem
-posted by Parcly Taxel on 20 and 21 April 2026, and the copy in Boris Alexeev's
-repository that the catalog cites, are links on the claim page; this corpus has
-not built any of them, so no `formalized` evidence is listed. The paper is not
-held in the library, and no proof coverage beyond the Crossref record of its
-statement is assessed. As of 2026-10-07 the problem's thread records no other
-claim.
+The erdosproblems.com formulation (accessed 2026-09-04) asks whether for every
+$k$ there is $f(k)$ such that every graph of chromatic number at least $f(k)$
+contains a triangle-free subgraph of chromatic number at least $k$. The answer
+is yes: Rödl [Ro77] proved it in a refereed paper, and the erdosproblems.com
+curator credits that proof, so the one claim page is accepted on `reviewed` and
+`refereed` evidence and the frontmatter derives from it. The Lean formalizations
+of Rödl's theorem posted by Parcly Taxel on 20 and 21 April 2026, and the copy
+in Boris Alexeev's repository that the formal-conjectures catalog cites, are
+links on the claim page; this corpus has not built any of them, so no
+`formalized` evidence is listed. The paper is not held in the library, and no
+proof coverage beyond the Crossref record of its statement is assessed. On
+2026-10-07 the problem's thread recorded no other claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

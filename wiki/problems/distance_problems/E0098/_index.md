@@ -24,9 +24,9 @@ updated: 2026-10-08T18:26:20Z
 three on a line and no four on a circle, determine at least $h(n)$ distinct
 distances. Does $h(n)/n\to \infty$?
 
-**Status.** Open. The site labeled the problem OPEN (snapshot of 5 September
-2026). No result about the problem has been claimed, so it has no claim page and
-the frontmatter standing is open.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (snapshot of 5
+September 2026). No result about the problem has been claimed, so it has no
+claim page and the frontmatter standing is open.
 
 **Source.** [erdosproblems.com/98](https://www.erdosproblems.com/98), snapshot
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #98,
@@ -63,20 +63,20 @@ https://www.erdosproblems.com/98.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-05).** The statement above:
-whether the fewest distinct distances $h(n)$ determined by $n$ points in the
-plane with no three on a line and no four on a circle satisfies
-$h(n)/n\to\infty$. The site reports that Erdős could not prove $h(n)\geq n$
-and records the upper constructions of Pach and of Erdős, Füredi, Pach and
-Ruzsa [EFPR93]. The site labeled the problem OPEN, its proof-claims tab
-carries no claim, and no forum claim, release manuscript or lead names the
-problem, so it has no claim page.
+**The question (erdosproblems.com formulation accessed 2026-09-05).** The
+statement above: whether the fewest distinct distances $h(n)$ determined by $n$
+points in the plane with no three on a line and no four on a circle satisfies
+$h(n)/n\to\infty$. erdosproblems.com reports that Erdős could not prove
+$h(n)\geq n$ and records the upper constructions of Pach and of Erdős, Füredi,
+Pach and Ruzsa [EFPR93]. Bloom's catalog labeled the problem OPEN, its
+proof-claims tab carries no claim, and no forum claim, release manuscript or
+lead names the problem, so it has no claim page.
 
 **Known results.** The best upper bound known here is that of Erdős, Füredi,
 Pach and Ruzsa [EFPR93], $h(n)<n\exp(c\sqrt{\log n})$ for some $c>0$, as the
-site's remarks report it; it improved Pach's $h(n)<n^{\log_23}$, also reported
-there. [Du08] (p. 2) records the same bound, as $n2^{c\sqrt{\log n}}$, for
-sets with the problem's two exclusions, and credits $O(n^{\log3/\log2})$ to
+erdosproblems.com remarks report it; it improved Pach's $h(n)<n^{\log_23}$, also
+reported there. [Du08] (p. 2) records the same bound, as $n2^{c\sqrt{\log n}}$,
+for sets with the problem's two exclusions, and credits $O(n^{\log3/\log2})$ to
 Erdős, Hickerson and Pach; the EFPR paper itself is not compiled here. The
 constructions of [Du08] and [Ta24] in Progress below are much weaker,
 $h(n)=O(n^2/\sqrt{\log n})$, because they exclude more: no parallelogram
@@ -95,17 +95,17 @@ holds for every planar set but is weaker here. Neither bound decides whether
 $h(n)/n\to\infty$, and an upper construction does not by itself certify that
 the problem is open.
 
-**Search scope.** The site's problem page (snapshot of 2026-09-05) and the
-library cards of [Du08], [Ta24], [GGK25], [GuKa15] and [Sh14]; no literature
-search beyond the site's references and those cards was made. The compiled
-results are statement and transfer records: no source proof was checked in
-full, and no acceptance review or formal verification is claimed.
+**Search scope.** The erdosproblems.com problem page (snapshot of 2026-09-05)
+and the library cards of [Du08], [Ta24], [GGK25], [GuKa15] and [Sh14]; no
+literature search beyond the erdosproblems.com references and those cards was
+made. The compiled results are statement and transfer records: no source proof
+was checked in full, and no acceptance review or formal verification is claimed.
 
 ## Progress
 
-The site reports that Erdős could not prove $h(n)\geq n$, and reports upper
-constructions of Pach and of Erdős--Füredi--Pach--Ruzsa [EFPR93]; the EFPR
-paper is cited from the site's reference list, and its theorem is not
+erdosproblems.com reports that Erdős could not prove $h(n)\geq n$, and reports
+upper constructions of Pach and of Erdős--Füredi--Pach--Ruzsa [EFPR93]; the EFPR
+paper is cited from the erdosproblems.com reference list, and its theorem is not
 compiled here.
 
 Dumitrescu [Du08] defines general position to mean no three collinear and no

@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 1150, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/polynomials/E1150/claims
@@ -17,7 +17,8 @@ The claim was rejected after the accepted disproof.
 
 [[problems/polynomials/E1150/claims/2025_04_30_el_abdalaoui|2025_04_30_el_abdalaoui]]: A 2025 preprint claims that $\pm1$ polynomials are never $L^\alpha$-flat for
 even $\alpha>2$, which would give the universal gap asked for. The claim was
-rejected after objections in the site's thread and the accepted disproof.
+rejected after objections in the erdosproblems.com thread and the accepted
+disproof.
 
 [[problems/polynomials/E1150/claims/2025_09_04_el_abdalaoui|2025_09_04_el_abdalaoui]]: A September 2025 preprint claims that $\pm1$ polynomials are not
 $L^\alpha$-flat for any $\alpha>0$, so their maximum modulus exceeds

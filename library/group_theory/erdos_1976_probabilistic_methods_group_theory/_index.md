@@ -84,9 +84,9 @@ $1$, and $\eta>0$ fixed, for almost all choices of $g_1,\ldots,g_k$ from a
 finite abelian group of order $n$, $(1-\eta)2^k/n<R(g)<(1+\eta)2^k/n$ for
 every $g$, provided $k\ge(\log n/\log2)(1+O(\log\log\log n/\log\log n))$;
 the problem's question whether $g_\epsilon(N)=(1+o_\epsilon(1))\log_2N$,
-the site's key [ErHa76]; the paper chooses the $k$ elements independently
-with repetition allowed (pp. 173 and 177) where the problem takes a
-uniformly random $k$-element subset.
+the erdosproblems.com key [ErHa76]; the paper chooses the $k$ elements
+independently with repetition allowed (pp. 173 and 177) where the problem takes
+a uniformly random $k$-element subset.
 
 Read status: claims checked for the Theorem (p. 174), its comparison with
 the Erdős--Rényi condition (p. 174) and Lemma 1 (pp. 174--175), read clause

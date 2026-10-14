@@ -54,9 +54,9 @@ question as posed stays open.
 **Depends on.** Nothing in this wiki; the proofs are self-contained.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
-Theory, Series B. The site's commentary credits both edge ranges to the paper
-but labeled the problem FALSIFIABLE, which settles nothing, so that credit is
-not listed as `reviewed`.
+Theory, Series B. The erdosproblems.com commentary credits both edge ranges to
+the paper but labeled the problem FALSIFIABLE, which settles nothing, so that
+credit is not listed as `reviewed`.
 
 **Dating.** The article prints that it was available online on 5 January
 2006, the page's date; the print issue is dated July 2006.

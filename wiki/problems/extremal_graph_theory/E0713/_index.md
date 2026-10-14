@@ -42,8 +42,8 @@ $$
 
 Must $\alpha$ be rational?
 
-**Notes.** The site's wording admits every bipartite graph, and its first
-question fails at the smallest ones. A graph $G$ with one edge, $K_2$
+**Notes.** The erdosproblems.com wording admits every bipartite graph, and its
+first question fails at the smallest ones. A graph $G$ with one edge, $K_2$
 together with any isolated vertices, has $\mathrm{ex}(n;G)=0$ for
 $n\ge|V(G)|$, since copies need not be induced and a host avoiding $G$ then
 has no edges; so for every $\alpha\in[1,2)$ and $c>0$ the ratio
@@ -67,7 +67,7 @@ own statement of the conjecture with Simonovits ([Er67d], p. 119, display
 does not fail at the graphs with one edge: it is written for the least
 number $f(n;G)$ of edges that forces $G$, which is $\mathrm{ex}(n;G)+1$, with
 $\lim f(n;G)/n^\alpha=c>0$ for some $0\le\alpha<2$, and a graph with one edge
-has $f(n;G)=1$ for large $n$. The failure there comes from the site's
+has $f(n;G)=1$ for large $n$. The failure there comes from erdosproblems.com's
 restatement in terms of $\mathrm{ex}$ with $\alpha\in[1,2)$. The
 formal-conjectures statement file adopts the same two-edge condition.
 
@@ -84,17 +84,18 @@ completely to the same color class of the graph $D(k,3)$ of two vertices
 linked by $k$ paths of length $3$, the exponents of their lower and upper
 bounds for $f(n;E(t,k,3))$ converge, as $k\to\infty$, to $2-\frac2{2t+3}$,
 which is of neither shape, "therefore (7) does not always hold". The existence
-of the limit, the first question of the Statement, was left open there. The
-site also records that Erdős sometimes asked the weaker question with
-$\mathrm{ex}(n;G)\asymp n^\alpha$ in place of the asymptotic formula; no proof
-or disproof of that variant for every bipartite graph is compiled on this
+of the limit, the first question of the Statement, was left open there.
+erdosproblems.com also records that Erdős sometimes asked the weaker question
+with $\mathrm{ex}(n;G)\asymp n^\alpha$ in place of the asymptotic formula; no
+proof or disproof of that variant for every bipartite graph is compiled on this
 page.
 
-**Status.** Open. The site labeled the problem OPEN, with a prize (snapshot
-accessed 2026-09-04). This label describes the modified Statement. Neither
-question of the modified Statement has a claim page, so the frontmatter
-standing derived from the claim pages is open with no claim. The site's wording
-fails at graphs with at most one edge, as the Notes record.
+**Status.** Open. Bloom's catalog labeled the problem OPEN, with a prize
+(snapshot accessed 2026-09-04). This label describes the modified Statement.
+Neither question of the modified Statement has a claim page, so the frontmatter
+standing derived from the claim pages is open with no claim. The
+erdosproblems.com wording fails at graphs with at most one edge, as the Notes
+record.
 
 **Source.** [erdosproblems.com/713](https://www.erdosproblems.com/713), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #713,
@@ -170,8 +171,8 @@ development; its Theorem 1.1 is on p. 1.
 
 The source unit records Bloom's proof claim of 3 September 2026, which called
 that exposition and Bloom's own informal exposition placeholders until a
-proper writeup is prepared, and it records that the site labeled Problem 571
-proved, with the proof checked in Lean, and that the public build and
+proper writeup is prepared, and it records that Bloom's catalog labeled Problem
+571 proved, with the proof checked in Lean, and that the public build and
 Comparator checks succeeded. These document named acceptance and public
 checks, not independent refereeing or a build reproduced by this corpus. This
 page makes no further claim about expert review of that result.

@@ -36,9 +36,9 @@ bound (7), $RT(n,K_4,o(n))\le\frac{n^2}8+o(n^2)$, and the Bollobás--Erdős
 construction (8), $RT(n,K_4,o(n))\ge\frac{n^2}8-o(n^2)$, "It came as a
 surprise — when Bollobás and Erdős proved — that (7) is sharp". Problem 4
 asks whether the sharpness survives when the independence number is held
-to $n/\log n$ rather than $o(n)$. It is the site's Problem 615 word for
-word up to notation (the site writes $\ge(1/8-c)n^2$ edges forcing a $K_4$
-or an independent set of at least $n/\log n$ vertices).
+to $n/\log n$ rather than $o(n)$. It is erdosproblems.com's Problem 615 word for
+word up to notation (erdosproblems.com writes $\ge(1/8-c)n^2$ edges forcing a
+$K_4$ or an independent set of at least $n/\log n$ vertices).
 
 **Source.** P. Erdős, A. Hajnal, M. Simonovits, V. T. Sós and E.
 Szemerédi, *Turán-Ramsey theorems and simple asymptotically extremal
@@ -66,5 +66,6 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0615/_index|Problem 615]]: the origin (the site's
-  key EHSSS93); the problem's statement in the paper's own words.
+- [[../wiki/problems/ramsey_theory/E0615/_index|Problem 615]]: the origin (the
+  erdosproblems.com key EHSSS93); the problem's statement in the paper's own
+  words.

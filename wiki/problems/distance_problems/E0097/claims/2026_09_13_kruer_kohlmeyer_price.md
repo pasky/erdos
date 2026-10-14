@@ -34,13 +34,13 @@ updated: 2026-10-08T03:53:39Z
 is no. Liam Kruer, Jensen Kohlmeyer and Liam Price, *Unit distances in convex
 polygons*, manuscript with a Lean 4 file, published in a GitHub repository on
 13 September 2026 and submitted the same day as a full proof claim on the
-site's proof-claims tab; the tab records the result as obtained using GPT 6
-Astra. For a finite planar set $P$ in strictly convex position, every point
-a vertex of the convex hull, write $u(P)$ for the number of unordered pairs
-at distance one and $\delta_1(P)$ for the least number of points at distance
-one from a point of $P$. Theorem 1.1 states that there are absolute constants
-$C$ and $n_0$ such that for every $n\ge n_0$ and every $0<\eta<1/2$ there is
-an $n$-point set $P$ in strictly convex position with
+erdosproblems.com proof-claims tab; the tab records the result as obtained using
+GPT 6 Astra. For a finite planar set $P$ in strictly convex position, every
+point a vertex of the convex hull, write $u(P)$ for the number of unordered
+pairs at distance one and $\delta_1(P)$ for the least number of points at
+distance one from a point of $P$. Theorem 1.1 states that there are absolute
+constants $C$ and $n_0$ such that for every $n\ge n_0$ and every $0<\eta<1/2$
+there is an $n$-point set $P$ in strictly convex position with
 
 $$
 \min\Bigl\{\delta_1(P),\frac{u(P)}n\Bigr\}
@@ -65,9 +65,9 @@ deletion and unions of slightly rotated copies. The same theorem gives
 $u(P)=\Omega(n\log\log n)$ in convex position, the manuscript's answer to
 [[problems/distance_problems/E0096/_index|Problem 96]], and refutes the
 general form of this problem, that some fixed $k$ works for every convex
-polygon; the site's page remarks that Erdős in 1975 [Er75f] credited Danzer
-with a disproof of that form for every constant, a claim he did not repeat,
-and the manuscript does not mention Danzer.
+polygon; the erdosproblems.com page remarks that Erdős in 1975 [Er75f] credited
+Danzer with a disproof of that form for every constant, a claim he did not
+repeat, and the manuscript does not mention Danzer.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Liam Kruer,
 Jensen Kohlmeyer and Liam Price (account Leeham) on 13 September 2026, giving
@@ -112,24 +112,25 @@ build on 13 September 2026. The corpus has not built the file and has not
 compared its statements with the question, so no `formalized` evidence is
 listed.
 
-**Standing.** The manuscript is unpublished and unrefereed. The site's export of
-2026-09-04 records the label "FALSIFIABLE", and its page was last edited on 27
-October 2025; of the three comments on the entry, one of 14 September 2026 is
-the site's curator's, saying that Bloom has thought much about the problem, had
-worked at proving a linear bound for Problem 96, and looks forward to reading
-the proof, which is not an acceptance; the others are a congratulation and the
-authors' new address. No outside review is recorded. The claim is therefore
-claimed, and the problem's standing is claimed through it. The separate disproof
-of Problem 96 by two of the authors, a Lean proof certified by the bounty site
-Conjectures.io on 14 September 2026, is on
+**Standing.** The manuscript is unpublished and unrefereed. The
+erdosproblems.com export of 2026-09-04 records the label "FALSIFIABLE", and its
+page was last edited on 27 October 2025; of the three comments on the entry, one
+of 14 September 2026 is the erdosproblems.com curator's, saying that Bloom has
+thought much about the problem, had worked at proving a linear bound for Problem
+96, and looks forward to reading the proof, which is not an acceptance; the
+others are a congratulation and the authors' new address. No outside review is
+recorded. The claim is therefore claimed, and the problem's standing is claimed
+through it. The separate disproof of Problem 96 by two of the authors, a Lean
+proof certified by the bounty site Conjectures.io on 14 September 2026, is on
 [[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|its own claim page]].
 That result also yields a counterexample to this problem: with $d=13$ it gives a
 set in strictly convex position with more than three unit pairs per point, and
 deleting points with at most three others at distance one leaves a nonempty set
 in strictly convex position in which every point has at least four, as the
-site's remarks on Problems 96 and 97 anticipate and as this manuscript's Lemma
-4.1 and Remark 4.5 state in general. Kruer and Kohlmeyer's explanation does not
-state the consequence, so the project claims it as its own, pending review, on
+erdosproblems.com remarks on Problems 96 and 97 anticipate and as this
+manuscript's Lemma 4.1 and Remark 4.5 state in general. Kruer and Kohlmeyer's
+explanation does not state the consequence, so the project claims it as its own,
+pending review, on
 [[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]].
 The manuscript's answer to Problem 96 has
 [[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|its own claim page]]

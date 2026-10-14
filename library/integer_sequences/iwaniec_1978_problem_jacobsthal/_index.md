@@ -9,7 +9,7 @@ desc: |
   case, Y(x) = O(x^2), follows at r = pi(x).
 license: unstated
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-07T20:23:45Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # integer_sequences/iwaniec_1978_problem_jacobsthal
@@ -17,7 +17,7 @@ updated: 2026-10-07T20:23:45Z
 [[integer_sequences/_index|..]]
 
 [[integer_sequences/iwaniec_1978_problem_jacobsthal/corollary|corollary]]: Iwaniec's bound C(r) ≪ r^2 log^2 r for the maximal run of consecutive
-integers each divisible by one of r arbitrary primes, the site's
+integers each divisible by one of r arbitrary primes, erdosproblems.com's
 h(k) ≪ (k log k)^2 for Problem 970, with its primorial case Y(x) ≪ x^2 for
 Problem 687 and the inverse S(k) ≫ k^{1/2} for Problem 929.
 
@@ -163,25 +163,25 @@ follows from (p. 226), read on the page image and paged on
 and
 [[integer_sequences/iwaniec_1978_problem_jacobsthal/theorem|theorem]].
 The paper states its results for $C(r)$ and $C_0(r)$; the translations to
-the site's $h(k)$, $Y(x)$ and $S(k)$ are authored one-line steps recorded on
-the corollary page and named as such. Lemma 1 and the proof of the Theorem
-were read for structure only, Lemma 2 is quoted by the paper from its [3]
-without proof, and nothing here is independently reviewed.
+erdosproblems.com's $h(k)$, $Y(x)$ and $S(k)$ are authored one-line steps
+recorded on the corollary page and named as such. Lemma 1 and the proof of the
+Theorem were read for structure only, Lemma 2 is quoted by the paper from its
+[3] without proof, and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0970/_index|#970]]: the Corollary
-(printed p. 226, PDF p. 2), "We have $C(r)\ll r^2\log^2r$", is the site's
-"Iwaniec [Iw78] proved $h(k)\ll(k\log k)^2$": the paper's $C(r)$, the
-longest run of consecutive integers each divisible by one of $r$ arbitrary
-primes (p. 225), is $h(r)-1$ for the problem's $h$, and is the $C(r)$ of
-Erdős's 1965 lecture. The Theorem (p. 226) gives the bound with the
-explicit factor $\prod_{i\le r}(1-1/q_i)^{-1}r^2\log r$. Page 226 also
-records Jacobsthal's two questions, whether $C(r)=C_0(r)$ and whether
-$C(r)\ll r^2$, the second being the problem's displayed question, and
-p. 225 records that the sieve method cannot bring the exponent 2 down.
+(printed p. 226, PDF p. 2), "We have $C(r)\ll r^2\log^2r$", is
+erdosproblems.com's "Iwaniec [Iw78] proved $h(k)\ll(k\log k)^2$": the paper's
+$C(r)$, the longest run of consecutive integers each divisible by one of $r$
+arbitrary primes (p. 225), is $h(r)-1$ for the problem's $h$, and is the $C(r)$
+of Erdős's 1965 lecture. The Theorem (p. 226) gives the bound with the explicit
+factor $\prod_{i\le r}(1-1/q_i)^{-1}r^2\log r$. Page 226 also records
+Jacobsthal's two questions, whether $C(r)=C_0(r)$ and whether $C(r)\ll r^2$, the
+second being the problem's displayed question, and p. 225 records that the sieve
+method cannot bring the exponent 2 down.
 [[../wiki/problems/integer_sequences/E0687/_index|#687]]: the Corollary at $r=\pi(x)$
 gives $Y(x)\le C(\pi(x))\ll\pi(x)^2\log^2\pi(x)\ll x^2$, the upper bound
-the site and [FGKMT18] p. 4 attribute to the paper; the primorial function
-$C_0(r)$ of p. 226 is $Y(p_r)$, and the paper credits (1),
+erdosproblems.com and [FGKMT18] p. 4 attribute to the paper; the primorial
+function $C_0(r)$ of p. 226 is $Y(p_r)$, and the paper credits (1),
 $C_0(r)\ll r^2\log^2r$, to the author's 1971 paper [3] and proves it here
 for arbitrary primes. [[../wiki/problems/integer_sequences/E0929/_index|#929]]: the same
 $Y(x)\ll x^2$ inverts to $S(k)\gg k^{1/2}$, Erdős's "$B(n)>c\sqrt n$" of

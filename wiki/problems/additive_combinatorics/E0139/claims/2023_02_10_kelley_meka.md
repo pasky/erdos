@@ -63,8 +63,8 @@ bounds for sets free of three-term arithmetic progressions*, Essential Number
 Theory 2 (2023), no. 1, 15--44, doi:10.2140/ent.2023.2.15. They then sharpened
 the exponent to $1/9$ in arXiv:2309.02353, which has
 [[problems/additive_combinatorics/E0139/claims/2023_09_05_bloom_sisask|its own claim page]].
-The site's curator labeled the problem proved on Szemerédi's theorem. The
-commentary cites this paper only as the best known bound for $k=3$, which
+The erdosproblems.com curator labeled the problem proved on Szemerédi's theorem.
+The commentary cites this paper only as the best known bound for $k=3$, which
 credits the bound and not a settlement of this problem. The curator's acceptance
 of the same theorem as the proof of Problem 140 is recorded on that problem's
 claim page.

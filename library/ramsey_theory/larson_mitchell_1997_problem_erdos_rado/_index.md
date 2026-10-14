@@ -11,7 +11,7 @@ desc: |
   its dependence on m.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T14:56:45Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/larson_mitchell_1997_problem_erdos_rado
@@ -27,7 +27,7 @@ Problem 112, a bound on k(n,m).
 [[ramsey_theory/larson_mitchell_1997_problem_erdos_rado/lemma_4_2|lemma_4_2]]: Larson and Mitchell's quadratic upper bound r(K_n^*, L_3) ≤ n^2 for
 n > 1, by induction from the recurrence r(K_{n+1}^*, L_3) ≤ 2n +
 r(K_n^*, L_3) + 1 of Lemma 4.1; in the letters of Problem 112,
-k(n,3) ≤ n^2, the bound the site attributes to the paper.
+k(n,3) ≤ n^2, the bound erdosproblems.com attributes to the paper.
 
 [[ramsey_theory/larson_mitchell_1997_problem_erdos_rado/lemma_4_4|lemma_4_4]]: Larson and Mitchell's cubic upper bound r(K_n^*, L_4) ≤ 2n^3/3 + n^2 +
 4n/3 − 4 for n ≥ 2, by induction on n from r(K_2^*, L_4) = 8 through the
@@ -263,24 +263,23 @@ $r(K_n^*,L_m)$ is that problem's $k(n,m)$, in the same convention (a
 digraph is an arbitrary set of arcs, an independent set has "no arcs in
 either direction", and the transitive tournament is included as a
 subgraph; Question 1.2, p. 246). Lemma 4.2 (p. 248), "For all $n>1$,
-$r(K_n^*,L_3)\le n^2$", is the bound the site's commentary attributes to
-the paper, $k(n,3)\le n^2$, which Ihringer, Rajendraprasad and Weinert
+$r(K_n^*,L_3)\le n^2$", is the bound the erdosproblems.com commentary attributes
+to the paper, $k(n,3)\le n^2$, which Ihringer, Rajendraprasad and Weinert
 restate as their Lemma 2.4; that paper's Proposition 3.4
 sharpens it to $n^2-n+3$. Proposition 3.1 (p. 248), "$r(K_4^*,L_3)>13$",
 with the corollary $r(K_4^*,L_3)\le16$ of Lemma 4.2, is the bracket
 $14\le k(4,3)\le16$ that the table of p. 247 prints as "$14-16$", closed at
-$k(4,3)=15$ by Theorem 1.1 of the 2021 paper. Lemma 4.13 (p. 251) is the
-site's "improved the dependence on $m$": a bound polynomial in $n$ of
-degree $m-1$ with leading coefficient $2^{m-2}/(m-1)!$, against
-$2^{m-2}$ for Theorem 2.7's Erdős--Rado bound, and of order
-$2^{m-5}\cdot17\,m^{n-2}/(n-2)!$ in $m$, against the order
-$2^{m-1}(n-1)^m/(2n-3)$ of the Erdős--Rado bound. Lemma 4.4 (p. 249),
-"For all $n\ge2$, $r(K_n^*,L_4)\le2n^3/3+n^2+4n/3-4$", is the bound
-$k(n,4)\le2n^3/3+n^2+4n/3-4$ for $n\ge2$, the case $m=4$ worked out
+$k(4,3)=15$ by Theorem 1.1 of the 2021 paper. Lemma 4.13 (p. 251) is
+erdosproblems.com's "improved the dependence on $m$": a bound polynomial in $n$
+of degree $m-1$ with leading coefficient $2^{m-2}/(m-1)!$, against $2^{m-2}$ for
+Theorem 2.7's Erdős--Rado bound, and of order $2^{m-5}\cdot17\,m^{n-2}/(n-2)!$
+in $m$, against the order $2^{m-1}(n-1)^m/(2n-3)$ of the Erdős--Rado bound.
+Lemma 4.4 (p. 249), "For all $n\ge2$, $r(K_n^*,L_4)\le2n^3/3+n^2+4n/3-4$", is
+the bound $k(n,4)\le2n^3/3+n^2+4n/3-4$ for $n\ge2$, the case $m=4$ worked out
 before the general lemma. Theorem 2.4 (p. 247),
 quoted from Harary and Hell, "$R(n,m)\le r(K_n^*,L_m)\le R(n,2^{m-1})$"
 for $m,n\ge2$, is a printed source for the lower bound
-$k(n,m)\ge R(n,m)$, which the site states as part of an observation it
+$k(n,m)\ge R(n,m)$, which erdosproblems.com states as part of an observation it
 credits to Zach Hunter.
 The paper determines no new value of $k(n,m)$ and does not settle the
 problem; the page's status is unchanged.

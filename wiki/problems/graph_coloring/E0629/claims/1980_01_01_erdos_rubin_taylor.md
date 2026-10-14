@@ -41,9 +41,9 @@ core, while $K_{2,4}$ does not.
 
 **Covers.** The instance $k=2$ of the question, $n(2)=6$ (and the trivial
 $n(1)=2$). The bounds $2^{k-1}<n(k)<k^2 2^{k+2}$ and $m(k)\le n(k)\le2m(k)$,
-in the site's notation $m(k)$ for $M_k$, bound $n(k)$ without determining it;
-the gap $12\le n(3)\le14$ was closed by Hanson, MacGillivray and Toft,
-recorded on
+in the erdosproblems.com notation $m(k)$ for $M_k$, bound $n(k)$ without
+determining it; the gap $12\le n(3)\le14$ was closed by Hanson, MacGillivray and
+Toft, recorded on
 [[problems/graph_coloring/E0629/claims/1996_01_01_hanson_macgillivray_toft|their claim page]].
 
 **The result.** P. Erdős, A. L. Rubin and H. Taylor, *Choosability in
@@ -57,7 +57,7 @@ records the theorem and Rubin's characterization.
 **Standing.** The claim is `claimed`. The venue is a conference proceedings
 volume with no evidence on record that it was refereed, so no `refereed`
 evidence is listed. The curator of erdosproblems.com, Thomas Bloom, credits
-$n(2)=6$ to this paper in the problem's remarks, but the site labeled the
+$n(2)=6$ to this paper in the problem's remarks, but Bloom's catalog labeled the
 problem OPEN, so that remark is not acceptance of this partial claim. Hanson,
 MacGillivray and Toft recall $n(2)=6=2m(2)$ as a known value (p. 184 of their
 paper), which corroborates the claim without being a review of it.

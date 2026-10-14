@@ -56,10 +56,10 @@ $t\in\{1,2,3,4,6\}$ and, in Theorem 10's form, exactly sharp for
 $t\in\{2,3,4,6\}$, by the incidence graphs of generalized polygons; and
 [[../library/extremal_graph_theory/cambie_2022_maximizing_line_subgraphs_diameter_at_most_t/proposition_5|Proposition 5]],
 $h_t(d)\ge0.629^td^t$ for all $t\ge t_0$ and infinitely many $d$, from
-Canale and Gómez's degree--diameter graphs. The paper's $h_t(\Delta)$ is the
-site's $h_t(d)$, read with the same convention (p. 1). The same paper's
-Conjectures 1, 3 and 4 are not claims: Conjecture 1 and the $t=3$ case of
-Conjecture 4 are refuted by the preprint of Kumar, Mohar and Pragada
+Canale and Gómez's degree--diameter graphs. The paper's $h_t(\Delta)$ is
+erdosproblems.com's $h_t(d)$, read with the same convention (p. 1). The same
+paper's Conjectures 1, 3 and 4 are not claims: Conjecture 1 and the $t=3$ case
+of Conjecture 4 are refuted by the preprint of Kumar, Mohar and Pragada
 ([[problems/extremal_graph_theory/E0934/claims/2026_07_02_kumar_mohar_pragada|its claim page]]),
 and Conjecture 3 is claimed by Cames van Batenburg and Korsky
 ([[problems/extremal_graph_theory/E0934/claims/2026_07_29_korsky|its claim page]]).
@@ -79,10 +79,10 @@ the library.
 2, published online 11 April 2022 according to the Crossref record. The page is
 named by the claim's first posting, arXiv:2103.11898v1 of 22 March 2021, whose
 abstract announces the same results. The accepted version, arXiv:2103.11898v2 of
-10 December 2021, is the one held in the library. The site's curator, Thomas F.
-Bloom, records $h_3(3)=23$, the $0.629^td^t$ lower bound and the $\frac32d^t+1$
-upper bound in the problem page's commentary. The label there is OPEN (page last
-edited 28 October 2025), and the page thanks a coauthor of the paper. Commentary
-on an open problem is not acceptance of the problem, so the credit is recorded
-but not listed as `reviewed`. No independent review of the four results is
-recorded.
+10 December 2021, is the one held in the library. The erdosproblems.com curator,
+Thomas F. Bloom, records $h_3(3)=23$, the $0.629^td^t$ lower bound and the
+$\frac32d^t+1$ upper bound in the problem page's commentary. The label there is
+OPEN (page last edited 28 October 2025), and the page thanks a coauthor of the
+paper. Commentary on an open problem is not acceptance of the problem, so the
+credit is recorded but not listed as `reviewed`. No independent review of the
+four results is recorded.

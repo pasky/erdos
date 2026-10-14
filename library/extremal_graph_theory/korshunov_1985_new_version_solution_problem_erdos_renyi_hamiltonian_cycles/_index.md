@@ -42,11 +42,12 @@ Mathematics Studies 118, which the series also numbers Annals of Discrete
 Mathematics 28; MathSciNet (MR 860592) cites the Studies number and the PDF
 prints only the Annals header. DOI 10.1016/S0304-0208(08)73618-1 (the file's
 metadata title; not printed on the page). The problem page cites the paper
-in its entry for the site's key [Ko77], whose citation is the Russian paper
-Diskret. Analiz Vyp. 31 (1977), 17--56, 90; the site's own entry for [Ko77]
-(read 2026-10-07) cited that Russian paper alone (MR 543833); the paper's own
-reference 12 gives that Russian paper as "Metody Diskret. Analiz. 31 (1977)
-17--56 (in Russian)" and its reference 11 is the 1976 announcement filed as
+in its entry for the erdosproblems.com key [Ko77], whose citation is the Russian
+paper Diskret. Analiz Vyp. 31 (1977), 17--56, 90; erdosproblems.com's own entry
+for [Ko77] (read 2026-10-07) cited that Russian paper alone (MR 543833); the
+paper's own reference 12 gives that Russian paper as "Metody Diskret. Analiz. 31
+(1977) 17--56 (in Russian)" and its reference 11 is the 1976 announcement filed
+as
 [[extremal_graph_theory/korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles]].
 Its reference 4 is the 1960 evolution paper
 [[extremal_graph_theory/erdos_1960_evolution_random_graphs/_index|erdos_1960_evolution_random_graphs]],
@@ -226,22 +227,22 @@ read for structure only, and the comment is the author's account of the
 literature. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: Theorem 1
-(printed p. 171, PDF p. 1) is the theorem the site attributes to [Ko77],
-read here as printed by its author in English (quoted in full under
+(printed p. 171, PDF p. 1) is the theorem erdosproblems.com attributes to
+[Ko77], read here as printed by its author in English (quoted in full under
 Contents): almost every graph from $\mathscr G(n,k)$ is Hamiltonian if and
 only if $k=\tfrac12n(\log n+\log\log n+\varphi(n))$ with
 $\varphi(n)\to\infty$ and $\varphi(n)\le n-1-\log n-\log\log n$; with
-$\varphi(n)=2w(n)$ it is the site's "$\frac12n\log n+\frac12n\log\log n+w(n)n$
-edges suffices", and since $(\tfrac12+\epsilon)n\log n$ exceeds
-$\tfrac12n(\log n+\log\log n)+\omega n$ for every fixed $\omega$ once $n$ is
-large, the problem's statement follows. The paper states the problem from
-the 1960 evolution paper (its [4]), as the 1976 announcement does, not from
-the site's [ErRe66]; its necessity rests on the 1961 Erdős--Rényi paper
-(its [5]); and its comment (p. 179) says the 1977 Russian paper gave "a part
-of proof (for $k>6n\log n$)" and that Komlós and Szemerédi solved the
-problem independently in [9], the site's [KoSz83]. The problem page reads the
-theorem on the page image at statement depth; the proof was read for
-structure only, and the 1977 Russian text remains not held.
+$\varphi(n)=2w(n)$ it is erdosproblems.com's
+"$\frac12n\log n+\frac12n\log\log n+w(n)n$ edges suffices", and since
+$(\tfrac12+\epsilon)n\log n$ exceeds $\tfrac12n(\log n+\log\log n)+\omega n$ for
+every fixed $\omega$ once $n$ is large, the problem's statement follows. The
+paper states the problem from the 1960 evolution paper (its [4]), as the 1976
+announcement does, not from erdosproblems.com's [ErRe66]; its necessity rests on
+the 1961 Erdős--Rényi paper (its [5]); and its comment (p. 179) says the 1977
+Russian paper gave "a part of proof (for $k>6n\log n$)" and that Komlós and
+Szemerédi solved the problem independently in [9], erdosproblems.com's [KoSz83].
+The problem page reads the theorem on the page image at statement depth; the
+proof was read for structure only, and the 1977 Russian text remains not held.
 [[extremal_graph_theory/korshunov_1985_new_version_solution_problem_erdos_renyi_hamiltonian_cycles/theorem_2|Theorem 2]]
 (printed p. 172) bears on #746 only through Theorem 1: it is the
 binomial-model statement from which the paper derives Theorem 1's

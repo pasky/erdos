@@ -37,25 +37,25 @@ not necessarily minimal: "It was asked by Erdős whether there is an infinite
 sequence $\{a_k\}$ for which $n=a_i+a_j$ is solvable for every $n$ and which
 satisfies $a_k/k^2\to c$" [ErGr80, p. 47]. The answer to that question is
 yes: Cassels [Ca57] gave such a basis, with $a_k=ck^2+O(k)$, as [ErGr80],
-p. 47, and the site's commentary record. Erdős and Graham add that "there is
-a small amount of 'cheating' going on here", since Cassels starts from a
-basis $\{b_k\}$ for which $\limsup b_k/k^2$ differs from $\liminf b_k/k^2$
-and then adds new terms. They call the minimal-basis question of the
-Statement "the 'correct' way of formulating the question" and conjecture
-that the answer is no [ErGr80, pp. 47–48]. They also give "another way of
-stating the problem" [ErGr80, p. 48]: does every basis of order $2$ have a
-subset $\{a_k\}$ which is also a basis and for which $\lim a_k/k^2$ does
-not exist? The site's earlier wording asked that question. A note posted on
-the thread on 2026-04-16, which the poster attributes to GPT-5.4, answered it
-no: the note's basis is the set of positive integers whose ternary digits are
-all $0$ or $1$, and in it every sub-basis has $b_k/k^2\to0$. The site then
-rewrote the problem as the present question, which the note does not
-address, so the note answers a variant, and
+p. 47, and the erdosproblems.com commentary record. Erdős and Graham add that
+"there is a small amount of 'cheating' going on here", since Cassels starts from
+a basis $\{b_k\}$ for which $\limsup b_k/k^2$ differs from $\liminf b_k/k^2$ and
+then adds new terms. They call the minimal-basis question of the Statement "the
+'correct' way of formulating the question" and conjecture that the answer is no
+[ErGr80, pp. 47–48]. They also give "another way of stating the problem"
+[ErGr80, p. 48]: does every basis of order $2$ have a subset $\{a_k\}$ which is
+also a basis and for which $\lim a_k/k^2$ does not exist? erdosproblems.com's
+earlier wording asked that question. A note posted on the thread on 2026-04-16,
+which the poster attributes to GPT-5.4, answered it no: the note's basis is the
+set of positive integers whose ternary digits are all $0$ or $1$, and in it
+every sub-basis has $b_k/k^2\to0$. erdosproblems.com then rewrote the problem as
+the present question, which the note does not address, so the note answers a
+variant, and
 [[problems/additive_bases/E0326/claims/2026_04_16_chojecki|its claim page]]
 records it as rejected.
 
-**Status.** Claimed. The site's label was OPEN (page last edited 2026-04-17).
-The standing derives from one pending full claim,
+**Status.** Claimed. The erdosproblems.com label was OPEN (page last edited
+2026-04-17). The standing derives from one pending full claim,
 [[problems/additive_bases/E0326/claims/2026_05_20_bhalla|Bhalla's minimal basis with $a_k\sim ck^2$]].
 It is a manuscript of 2026-05-20, with a Lean formalization posted on
 2026-06-14. The formalization is not built or audited in this corpus.

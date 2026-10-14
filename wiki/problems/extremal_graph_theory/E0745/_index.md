@@ -4,8 +4,8 @@ title: Problem 745
 desc: |
   Asks for the size of the second largest component of the random graph on $n$
   vertices with edge probability $1/n$. Aldous (1997) gives order $n^{2/3}$,
-  while the site credits Komlós, Sulyok and Szemerédi's supercritical $\log n$
-  bound.
+  while erdosproblems.com credits Komlós, Sulyok and Szemerédi's supercritical
+  $\log n$ bound.
 tags:
 - Graph theory
 status: solved
@@ -26,43 +26,43 @@ updated: 2026-10-14T01:01:57Z
 graph on $n$ vertices, where each edge is included independently with
 probability $1/n$.
 
-**Formulation.** The site's wording, accessed 2026-09-19 (the page shows no
-last-edited date). The model is the binomial random graph $G(n,p)$ with $p=1/n$,
-that is, $p=\lambda/n$ with $\lambda=1$: the critical value, at which Erdős and
-Rényi found the "singularity" of the largest component's size. The wording is a
-request ("Describe the size") and asserts nothing, so it has no truth value to
-which a status can attach; the site's label attaches to Erdős's expectation,
-quoted in the commentary and, from his own paper, under the Current assessment,
-that the second largest component is "not much larger than $\log n$". Erdős's
-paper poses the question for the uniform random graph $\mathcal G(n;k)$ with $k$
-edges as a function of $k$, with the singularity at $k=n/2$; the site's $p=1/n$
-(mean $\binom n2/n\approx n/2$ edges) is the same critical point. The size of a
-component is its number of vertices.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-19 (the page
+shows no last-edited date). The model is the binomial random graph $G(n,p)$ with
+$p=1/n$, that is, $p=\lambda/n$ with $\lambda=1$: the critical value, at which
+Erdős and Rényi found the "singularity" of the largest component's size. The
+wording is a request ("Describe the size") and asserts nothing, so it has no
+truth value to which a status can attach; the erdosproblems.com label attaches
+to Erdős's expectation, quoted in the commentary and, from his own paper, under
+the Current assessment, that the second largest component is "not much larger
+than $\log n$". Erdős's paper poses the question for the uniform random graph
+$\mathcal G(n;k)$ with $k$ edges as a function of $k$, with the singularity at
+$k=n/2$; erdosproblems.com's $p=1/n$ (mean $\binom n2/n\approx n/2$ edges) is
+the same critical point. The size of a component is its number of vertices.
 
-**Status.** PROVED is the site's label. It credits Komlós, Sulyok and
+**Status.** PROVED is the erdosproblems.com label. It credits Komlós, Sulyok and
 Szemerédi's 1980 paper [KSS80] (Studia Sci. Math. Hungar. 15 (1980), 391--395)
 with proving Erdős's expectation that the second largest component has size
 $\ll\log n$ almost surely. The frontmatter standing is derived from the claim
 pages and differs from the label. The theorem of [KSS80] is correct, but it
-answers a variant, the supercritical case $\lambda>1$ that the site's label
-credited, not the Statement ($p=1/n$), so it settles no instance of the problem
-and does not count toward its standing. It is a theorem of the literature, never
-submitted to the site as a claim, so it has no claim page. The accepted full
-claim is
+answers a variant, the supercritical case $\lambda>1$ that the erdosproblems.com
+label credited, not the Statement ($p=1/n$), so it settles no instance of the
+problem and does not count toward its standing. It is a theorem of the
+literature, never submitted to erdosproblems.com as a claim, so it has no claim
+page. The accepted full claim is
 [[problems/extremal_graph_theory/E0745/claims/1997_04_01_aldous|Aldous 1997]],
 refereed. It describes what the problem asks for, so the claim's value is
 solved.
 
 The paper [KSS80] is not held, and the routes tried are recorded below. Its
-theorem is known second-hand, from the site's commentary, from a thread comment
-of 25 August 2026, and from the docstring of an external Lean file. The thread
-comment says that [KSS80] assumes $\lambda>1$ strictly. The docstring describes
-"the KSS logarithmic upper bound" as holding "for each fixed supercritical
-parameter". The theorem says that for every fixed $\lambda>1$ the second largest
-component of $G(n,\lambda/n)$ has $O(\log n)$ vertices with high probability.
-Erdős himself attests the resolution in the added-in-proof sentence of his 1981
-paper ("These questions were cleared up by Komlós and Szemerédi", [Er81], Part
-VIII, copy p. 16).
+theorem is known second-hand, from the erdosproblems.com commentary, from a
+thread comment of 25 August 2026, and from the docstring of an external Lean
+file. The thread comment says that [KSS80] assumes $\lambda>1$ strictly. The
+docstring describes "the KSS logarithmic upper bound" as holding "for each fixed
+supercritical parameter". The theorem says that for every fixed $\lambda>1$ the
+second largest component of $G(n,\lambda/n)$ has $O(\log n)$ vertices with high
+probability. Erdős himself attests the resolution in the added-in-proof sentence
+of his 1981 paper ("These questions were cleared up by Komlós and Szemerédi",
+[Er81], Part VIII, copy p. 16).
 
 The problem fixes $p=1/n$, that is $\lambda=1$. There the theorem says nothing.
 At this parameter the second largest component is not of order $\log n$ but of
@@ -85,13 +85,13 @@ also gives the logarithmic order with its coefficient for every fixed
 $\lambda\ne1$. Jingxuan Ding's
 [[problems/extremal_graph_theory/E0745/claims/2026_10_04_ding|Ding 2026]] is a
 five-regime atlas of the sparse evolution of the uniform model $G(n,M)$. This
-corpus has built neither, and the search recorded below found the site's label
-unchanged. Whether the label can stand at the literal parameter is a question of
-the catalog's labeling that this page records. The two parameters are stated
-side by side below.
+corpus has built neither, and the search recorded below found the
+erdosproblems.com label unchanged. Whether the label can stand at the literal
+parameter is a question of the erdosproblems.com labeling that this page
+records. The two parameters are stated side by side below.
 
 **Source.** [erdosproblems.com/745](https://www.erdosproblems.com/745), accessed
-2026-09-19: the problem page (PROVED, glossed by the site as solved
+2026-09-19: the problem page (PROVED, glossed by erdosproblems.com as solved
 affirmatively; no last-edited date shown; source key [Er81]; commentary citing
 [KSS80]; "Formalised statement? No"), its discussion thread, with comments of 25
 August 2026 and 4 October 2026, and its empty proof-claim tab. Cite as: T. F.
@@ -151,15 +151,14 @@ Bloom, Erdős Problem #745, https://www.erdosproblems.com/745, accessed
   Corollary 2 is paged on the claim page
   [[problems/extremal_graph_theory/E0745/claims/1997_04_01_aldous|Aldous 1997]].
 
-**Formalization.** None in the catalog. No file `ErdosProblems/745.lean` exists
-in formal-conjectures as of 2026-09-19, neither in the directory
-`FormalConjectures/ErdosProblems/` nor elsewhere in the tree; the site's page
-shows "Formalised statement? No (create one)"; the community database
-(teorth/erdosproblems, `data/problems.yaml` as of 2026-09-19) records the
-problem proved (last update 31 August 2025), unformalized, with no formalized
-statement.
-The two Lean developments the thread links are independent proof claims
-with their own claim pages,
+**Formalization.** None in the formal-conjectures catalog. No file
+`ErdosProblems/745.lean` existed in formal-conjectures on 2026-09-19, neither
+in the directory `FormalConjectures/ErdosProblems/` nor elsewhere in the tree;
+the erdosproblems.com page shows "Formalised statement? No (create one)"; the
+community database (teorth/erdosproblems, `data/problems.yaml`, read 2026-09-19)
+records the problem proved (last update 31 August 2025), unformalized, with no
+formalized statement. The two Lean developments the thread links are independent
+proof claims with their own claim pages,
 [[problems/extremal_graph_theory/E0745/claims/2026_08_25_alexeev|Alexeev 2026]]
 and
 [[problems/extremal_graph_theory/E0745/claims/2026_10_04_ding|Ding 2026]],
@@ -168,16 +167,15 @@ both are described under the Current assessment.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-19).** The statement
-above; PROVED, glossed by the site as solved affirmatively; no last-edited
-date. The commentary, in this page's words, says that Erdős expected the
-second largest component to have size $\ll\log n$ almost surely, and
-credits [KSS80] with proving it. The thread's
-first comment (Boris Alexeev, 25 August 2026) suggests that the label should
-read disproved and reports a formalized result:
-with each edge included with probability $\lambda/n$ for a fixed
-$\lambda>0$, the second largest component $L_2$ has order $\log n$ with high
-probability whenever $\lambda\ne1$, with
+**The question (erdosproblems.com formulation accessed 2026-09-19).** The
+statement above; PROVED, glossed by erdosproblems.com as solved affirmatively;
+no last-edited date. The commentary, in this page's words, says that Erdős
+expected the second largest component to have size $\ll\log n$ almost surely,
+and credits [KSS80] with proving it. The thread's first comment (Boris Alexeev,
+25 August 2026) suggests that the label should read disproved and reports a
+formalized result: with each edge included with probability $\lambda/n$ for a
+fixed $\lambda>0$, the second largest component $L_2$ has order $\log n$ with
+high probability whenever $\lambda\ne1$, with
 $L_2/\log n\to(\lambda-1-\log\lambda)^{-1}$ in probability, while at
 $\lambda=1$, the parameter of the problem text,
 $L_2=\Theta_{\mathbb P}(n^{2/3})$; the comment adds that [KSS80] assumes
@@ -212,14 +210,14 @@ posed right after the singularity at $k=n/2$; Erdős's expectation, "never be
 large, perhaps not much larger than $\log n$", is stated for the process,
 not for one value of $k$; and the added-in-proof sentence is Erdős's own
 attestation that the question was settled (naming two of the three authors
-of [KSS80]). The site fixes the parameter at the singularity itself.
+of [KSS80]). erdosproblems.com fixes the parameter at the singularity itself.
 
-**The two parameters.** For fixed $\lambda>1$, the site's account and the
-thread agree that the second largest component of $G(n,\lambda/n)$ has order
+**The two parameters.** For fixed $\lambda>1$, erdosproblems.com's account and
+the thread agree that the second largest component of $G(n,\lambda/n)$ has order
 $\log n$ with high probability; this is what [KSS80] proves, per the thread's
 reading of it and the Lean docstring below. Erdős's expectation is stated for
 the whole process; it holds there and fails at $\lambda=1$. At $\lambda=1$,
-the literal parameter of the site's statement,
+the literal parameter of the erdosproblems.com statement,
 the thread's formalization gives $L_2=\Theta_{\mathbb P}(n^{2/3})$, far above
 $\log n$ and above Erdős's "certainly $o(n^\varepsilon)$" for small
 $\varepsilon$. [KSS80] is not held, so the first theorem is second-hand.
@@ -236,11 +234,10 @@ scaled component sizes at $p=1/n$ and so $L_2=\Theta_{\mathbb P}(n^{2/3})$.
 The description the wording asks for comes in two parts: order $\log n$ for
 fixed $\lambda>1$ (and, per the thread, for fixed $\lambda<1$ as well, with
 the same leading coefficient), and order $n^{2/3}$ at $\lambda=1$. The label
-PROVED attaches to the first; the site's own wording sits at the second,
-which [Al97] answers. This is a tension between the label and
-the parameter, not a defect of the wording (a request asserts nothing); the
-two parameters are stated side by side, and the frontmatter follows the
-claim pages.
+PROVED attaches to the first; erdosproblems.com's own wording sits at the
+second, which [Al97] answers. This is a tension between the label and the
+parameter, not a defect of the wording (a request asserts nothing); the two
+parameters are stated side by side, and the frontmatter follows the claim pages.
 
 **The external Lean development (its own claim page).** The
 thread links `src/latest/ComparatorChallenges/ErdosProblems/Erdos745.lean`
@@ -277,8 +274,8 @@ and has its own claim page,
 [[problems/extremal_graph_theory/E0745/claims/2026_08_25_alexeev|Alexeev 2026]],
 pending and without evidence; its supercritical theorem describes itself as
 the corrected [KSS80] bound, and its critical theorem answers the question
-at the asked parameter. The site's page and the community database do not
-cite this development.
+at the asked parameter. The erdosproblems.com page and the community database do
+not cite this development.
 
 **The second Lean development (its own claim page).** The
 thread's second comment links the folder `erdos-problems/erdos745` of the
@@ -308,15 +305,15 @@ says the proofs were produced by AI agents through the MathMiner framework
 with GPT-5.6 Sol as the primary model. The statement is for the uniform
 model, while the problem fixes $G(n,1/n)$, whose edge count sits in the
 critical regime; the passage between the models is not in the development.
-This corpus has not built, audited or kernel-checked it, and the site's
-page and the community database do not cite it.
+This corpus has not built, audited or kernel-checked it, and the
+erdosproblems.com page and the community database do not cite it.
 
 **Search scope.** None of the routes below found a readable
-copy of [KSS80] or a change of the site's label.
+copy of [KSS80] or a change of the erdosproblems.com label.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree (no file 745); the community
-  database entry as of 2026-09-19.
+  database entry, read 2026-09-19.
 - Bibliographic records: a Crossref bibliographic query for [KSS80] (no
   record; the nearest hits are other Komlós--Szemerédi papers); zbMATH Open
   (the record above, without review text); an OpenAlex search (no result).
@@ -327,7 +324,7 @@ copy of [KSS80] or a change of the site's label.
   and spatial random graph papers; none on this question).
 - The primary source at the page cited: [Er81] copy p. 16.
 - `plby/lean-proofs` through the GitHub API: the head commit, the directory
-  listings and the header of `Erdos745.lean` (as of 2026-09-19).
+  listings and the header of `Erdos745.lean` (read 2026-09-19).
 - [ErRe60] from the Rényi archive, at the pages its reference
   entry cites.
 
@@ -335,30 +332,30 @@ Not searched: MathSciNet, Google Scholar, X. Not held: [KSS80], the
 critical-window papers.
 
 **Remaining gaps.** (1) [KSS80] is not held: its theorem, its hypothesis
-$\lambda>1$ and its constant are second-hand from the site, the thread and the
-Lean docstring. Route tried: the ResearchGate page (HTTP 403); no open archive
-exists for the journal. Reopening condition: the paper read at its theorem,
-after which the theorem is paged. (2) The parameter tension is recorded: PROVED
-attaches to the expectation for $\lambda>1$, while the wording fixes
-$\lambda=1$, where the second component has order $n^{2/3}$; the frontmatter
-follows the claim pages, with [KSS80] answering the variant $\lambda>1$ and
-settling no instance, [Al97] the accepted full claim and the developments of
-Alexeev and Ding pending full claims, and the label is the catalog's to change.
-(3) The critical-window description rests on [Al97], stated from the zbMATH
-review (Zbl 0877.60010) and the restatement in Addario-Berry, Broutin and
-Goldschmidt (arXiv:0903.4730, Theorem 1), with its corollary number as later
-papers cite it; reopening condition: the paper read at Corollary 2, after which
-the statement is checked against the print. (4) The two Lean developments are
-described from their text and not built by this corpus; there is no Lean
-statement of the problem in the catalog.
+$\lambda>1$ and its constant are second-hand from erdosproblems.com, the thread
+and the Lean docstring. Route tried: the ResearchGate page (HTTP 403); no open
+archive exists for the journal. Reopening condition: the paper read at its
+theorem, after which the theorem is paged. (2) The parameter tension is
+recorded: PROVED attaches to the expectation for $\lambda>1$, while the wording
+fixes $\lambda=1$, where the second component has order $n^{2/3}$; the
+frontmatter follows the claim pages, with [KSS80] answering the variant
+$\lambda>1$ and settling no instance, [Al97] the accepted full claim and the
+developments of Alexeev and Ding pending full claims, and the label is for
+Bloom's catalog to change. (3) The critical-window description rests on [Al97],
+stated from the zbMATH review (Zbl 0877.60010) and the restatement in
+Addario-Berry, Broutin and Goldschmidt (arXiv:0903.4730, Theorem 1), with its
+corollary number as later papers cite it; reopening condition: the paper read at
+Corollary 2, after which the statement is checked against the print. (4) The two
+Lean developments are described from their text and not built by this corpus;
+there is no Lean statement of the problem in the formal-conjectures catalog.
 
 ## Known results
 
-- [KSS80] (1980, not held; per the site, the thread and the Lean docstring):
-  for fixed $\lambda>1$, the second largest component of $G(n,\lambda/n)$
-  has $O(\log n)$ vertices with high probability; Erdős's expectation in the
-  supercritical range. It answers that variant, not the Statement's
-  $\lambda=1$, and the site's label PROVED credits it.
+- [KSS80] (1980, not held; per erdosproblems.com, the thread and the Lean
+  docstring): for fixed $\lambda>1$, the second largest component of
+  $G(n,\lambda/n)$ has $O(\log n)$ vertices with high probability; Erdős's
+  expectation in the supercritical range. It answers that variant, not the
+  Statement's $\lambda=1$, and the erdosproblems.com label PROVED credits it.
 - [Al97] (1997, refereed; its claim page): for fixed $t$, the component sizes
   of $G(n,1/n+tn^{-4/3})$, scaled by $n^{-2/3}$, converge in distribution in
   $\ell^2$ to the ordered excursion lengths of $W(s)+ts-s^2/2$ above its

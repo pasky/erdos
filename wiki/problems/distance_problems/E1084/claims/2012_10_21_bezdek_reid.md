@@ -57,6 +57,7 @@ $d\ge3$.
 
 **Acceptance.** Refereed: K. Bezdek and S. Reid, Contact graphs of unit sphere
 packings revisited, Journal of Geometry 104 (2013), no. 1, 57–83. The preprint
-is arXiv:1210.5756. The site's remarks credit the bound to this paper, but the
-site labeled the problem OPEN, so the remark is not `reviewed` evidence. The
-page is dated by the preprint's first arXiv version, of 21 October 2012.
+is arXiv:1210.5756. The erdosproblems.com remarks credit the bound to this
+paper, but Bloom's catalog labeled the problem OPEN, so the remark is not
+`reviewed` evidence. The page is dated by the preprint's first arXiv version, of
+21 October 2012.

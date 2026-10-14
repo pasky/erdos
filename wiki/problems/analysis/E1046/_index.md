@@ -28,12 +28,12 @@ $$
 
 If $E$ is connected then is $E$ contained in a disc of radius $2$?
 
-**Status.** The site labeled the problem DISPROVED, but its commentary answers
-the stated question yes. The page departs from the site's label here. DISPROVED,
-the site's "solved in the negative", contradicts Pommerenke's theorem in print
-and the site's own commentary. In addition, the formal-conjectures statement for
-the problem is tagged solved, with its proof attribute pointing to a Lean proof
-of the affirmative.
+**Status.** Bloom's catalog labeled the problem DISPROVED, but its commentary
+answers the stated question yes. The page departs from the erdosproblems.com
+label here. DISPROVED, erdosproblems.com's "solved in the negative", contradicts
+Pommerenke's theorem in print and erdosproblems.com's own commentary. In
+addition, the formal-conjectures statement for the problem is tagged solved,
+with its proof attribute pointing to a Lean proof of the affirmative.
 
 The commentary says: "The answer is yes, and in fact the centre of this disc can
 be taken to be $\frac{z_1+\cdots+z_n}{n}$, where the $z_i$ are the roots of $f$,
@@ -49,8 +49,9 @@ page]], accepted, full, refereed).
 The only refutation the commentary reports is of a different conjecture from the
 same passage of [EHP58]. That is Problem 15, the conjecture that the width of a
 connected $\{|f|\le1\}$ is at most $2$. The Remarks of the same paper (pp.
-224--225) give $\sup b\ge\sqrt3\,2^{1/3}>2.18$. The site's label fits that
-conjecture, not the Statement, and the commentary names nothing else as false.
+224--225) give $\sup b\ge\sqrt3\,2^{1/3}>2.18$. The erdosproblems.com label fits
+that conjecture, not the Statement, and the commentary names nothing else as
+false.
 
 **Source.** [erdosproblems.com/1046](https://www.erdosproblems.com/1046),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1046,
@@ -68,14 +69,14 @@ https://www.erdosproblems.com/1046.
   $|z-\zeta|<2$", $C$ the lemniscate $|f(z)|=1$; the paper introduces it as
   establishing "the conjecture in Problem 14" of [EHP58], the question
   stated above, so the stated question is answered yes with the center at
-  the centroid of the zeros, as the site's commentary says. Theorem 4,
-  p. 223, gives $2\le d<4$, $b^2\le32/3$ and $b^2+d^2\le64/3$ for the
+  the centroid of the zeros, as the erdosproblems.com commentary says. Theorem
+  4, p. 223, gives $2\le d<4$, $b^2\le32/3$ and $b^2+d^2\le64/3$ for the
   diameter $d$ and width $b$ of a connected $E$, and the Remarks,
-  pp. 224--225, give the width example the site's commentary reports,
+  pp. 224--225, give the width example the erdosproblems.com commentary reports,
   $\sup b\ge\sqrt3\,2^{1/3}>2.18$ for the class with $E$ connected, "whereas
   Erdös, Herzog and Piranian [1, Problem 15] conjectured that $b\le2$ in all
-  cases". The site's DISPROVED label sits beside both statements and names
-  neither; the Status sentence above attaches the standing to the stated
+  cases". erdosproblems.com's DISPROVED label sits beside both statements and
+  names neither; the Status sentence above attaches the standing to the stated
   question. Library home:
   [[../library/analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/_index|pommerenke_1959_some_problems_erdos_herzog_piranian]]
   and its

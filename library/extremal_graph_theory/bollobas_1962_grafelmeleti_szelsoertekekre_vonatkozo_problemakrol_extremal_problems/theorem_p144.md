@@ -33,9 +33,9 @@ of the last triangle gives a $G^{(2n)}_{3n-2}$, that is a
 $G^{(2n)}_{f(2n)-1}$, with the same property, and this completes the proof of
 $k_3(n)=f(n)$.
 
-In the site's notation for Problem 915 this is $k_3(2n+1)=3n+1$ and
-$k_3(2n)=3n-1$, the values the site's commentary credits to Bártfai; the
-paths are internally vertex-disjoint by the paper's definition.
+In the erdosproblems.com notation for Problem 915 this is $k_3(2n+1)=3n+1$ and
+$k_3(2n)=3n-1$, the values the erdosproblems.com commentary credits to Bártfai;
+the paths are internally vertex-disjoint by the paper's definition.
 
 **Source.** B. Bollobás and P. Erdős, *Gráfelméleti szélső értékekre
 vonatkozó problémákról* (On extremal problems in graph theory), Mat. Lapok
@@ -67,5 +67,6 @@ for the existence of the three paths.
 
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the case $m=3$,
   true at the problem's exact parameters ($1+2n$ vertices, $1+3n$ edges),
-  with the exact values of $k_3$ for both parities; the source of the
-  site's "Bártfai [Ba60] proved that $k_3(2n)=3n-1$ and $k_3(2n+1)=3n+1$".
+  with the exact values of $k_3$ for both parities; the source of
+  erdosproblems.com's "Bártfai [Ba60] proved that $k_3(2n)=3n-1$ and
+  $k_3(2n+1)=3n+1$".

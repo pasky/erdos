@@ -40,12 +40,12 @@ $$
 where $f$ ranges over all functions $f:\{1,\ldots,n\}^2\to \{-1,1\}$. Estimate
 $H(n)$.
 
-**Notes.** The site's annotation $f:X^2\to\{-1,1\}$ reuses the subset $X$ over
-which the maximum is taken, so it fixes no single domain for $f$, and its sum
-over $x\neq y$ counts each pair twice, once in each order. Read with the domain
-$\{1,\ldots,n\}^2$ and independent signs on the two orders, the minimax is $0$
-for every $n$: taking $f(x,y)=1$ for $x<y$ and $f(x,y)=-1$ for $x>y$ makes
-every sum vanish. The sources fix the reading. Erdős [Er63d] gives each
+**Notes.** erdosproblems.com's annotation $f:X^2\to\{-1,1\}$ reuses the subset
+$X$ over which the maximum is taken, so it fixes no single domain for $f$, and
+its sum over $x\neq y$ counts each pair twice, once in each order. Read with the
+domain $\{1,\ldots,n\}^2$ and independent signs on the two orders, the minimax
+is $0$ for every $n$: taking $f(x,y)=1$ for $x<y$ and $f(x,y)=-1$ for $x>y$
+makes every sum vanish. The sources fix the reading. Erdős [Er63d] gives each
 unordered edge of the complete graph one sign (printed p.30) and defines
 $H(n)$ as the least possible largest absolute sum over induced complete
 subgraphs (printed p.31), and Erdős and Spencer [ErSp71] define $H_2(n)$ the
@@ -56,19 +56,20 @@ Requiring $f(x,y)=f(y,x)$ and keeping the sum over $x\neq y$ gives $2H(n)$
 instead. Both elementary deductions are in
 [[../library/discrepancy/erdos_1971_imbalances_colorations/edge_normalization|Unordered edges and ordered-pair variants]].
 Under the modified Statement, Erdős and Spencer's Theorem (5) gives
-$H(n)=\Theta(n^{3/2})$; under the site's wording read on ordered pairs, the
-answer is the value $0$.
+$H(n)=\Theta(n^{3/2})$; under the erdosproblems.com wording read on ordered
+pairs, the answer is the value $0$.
 
 **Status.** Labeled SOLVED (LEAN) on erdosproblems.com, with a formulation
 qualification. This is the label as it stood on 2026-09-04. Its Lean marker
-refers to the formalization reported in the forum and recorded below. The site's
-statement above is preserved verbatim as it stood on 2026-09-04. Its annotation
-$f:X^2\to\{-1,1\}$ reuses the subset $X$ over which the maximum is taken, so it
-does not fix a single domain for $f$. If the domain is read as $[n]^2$, with
-arbitrary signs on ordered pairs, the resulting minimax is identically zero. The
-classical unordered-edge question has order $n^{3/2}$ for sufficiently large
-$n$. The site's label, solved, does not identify these two quantities or assert
-an exact finite-$n$ formula or leading constant for the latter.
+refers to the formalization reported in the forum and recorded below. The
+erdosproblems.com statement above is preserved verbatim as it stood on
+2026-09-04. Its annotation $f:X^2\to\{-1,1\}$ reuses the subset $X$ over which
+the maximum is taken, so it does not fix a single domain for $f$. If the domain
+is read as $[n]^2$, with arbitrary signs on ordered pairs, the resulting minimax
+is identically zero. The classical unordered-edge question has order $n^{3/2}$
+for sufficiently large $n$. The erdosproblems.com label, solved, does not
+identify these two quantities or assert an exact finite-$n$ formula or leading
+constant for the latter.
 
 **Source.** T. F. Bloom, [Erdős Problem #1028](https://www.erdosproblems.com/1028),
 accessed 2026-09-06 (problem page, discussion thread and proof-claims tab).
@@ -103,12 +104,12 @@ submitted 28 December 2024, Section 6, pp.24--26, gives contextual
 weighted-graph results. Its p.25 restatement of the unweighted order cites
 Erdős--Spencer; Theorems 6--7 on p.26 use one weight and sign per unordered
 edge. It is neither a new status basis nor a proof of the problem's question.
-A literature search found no exact leading constant or exact finite-$n$
-refinement; this does not establish that no refinement exists.
+A literature search through 2026-09-06 found no exact leading constant or exact
+finite-$n$ refinement; this does not establish that no refinement exists.
 
 **Claims.** The settling result is recorded on the claim page
 [[problems/discrepancy/E1028/claims/1971_01_01_erdos_spencer|Erdős and Spencer, Theorem (5)]],
-accepted on its refereed publication in *Networks* and on the site's
+accepted on its refereed publication in *Networks* and on the erdosproblems.com
 credit, from which the standing in the frontmatter is derived. The Lean
 proof reported in the forum declares itself a formalization of a solution
 to the problem: its v4.24.0 header says that the original proof was found
@@ -139,7 +140,8 @@ $f(x,y)=f(y,x)$ makes the ordered-pair minimax exactly $2H(n)$;
 summing only over $x<y$ gives $H(n)$. The complete elementary arguments are
 in [[../library/discrepancy/erdos_1971_imbalances_colorations/edge_normalization|Unordered edges and ordered-pair variants]].
 The published theorem and the formal artifacts below concern the edge
-quantity of the modified Statement, not the site's formula as written.
+quantity of the modified Statement, not the erdosproblems.com formula as
+written.
 
 ## Known Results
 
@@ -197,8 +199,8 @@ that the original proof was found by Erdős and Spencer and that a proof of
 ChatGPT's choice was auto-formalized by Aristotle (from Harmonic), which
 also wrote the final theorem statement, and lists no authors otherwise.
 This is a public report; the linked build was not run by this corpus. The
-site's proof-claims tab lists no submitted claim, which neither negates the
-discussion post nor determines acceptance.
+erdosproblems.com proof-claims tab lists no submitted claim, which neither
+negates the discussion post nor determines acceptance.
 
 The
 [v4.29.1 source in Alexeev's repository](https://github.com/plby/lean-proofs/blob/f2462b2803ffb68bc22653db85065b7166b91283/src/v4.29.1/ErdosProblems/Erdos1028.lean)

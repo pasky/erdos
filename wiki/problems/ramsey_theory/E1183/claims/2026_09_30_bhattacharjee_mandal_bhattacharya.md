@@ -110,14 +110,14 @@ the repository's file listing and README, not on any Lean file or page of
 the paper; nothing was built or kernel-checked, and no statement-fidelity
 review exists, so no evidence kind is listed. The README's credits and the
 Zenodo descriptions say that Claude (Anthropic) assisted with the coding,
-and the site's tab lists the claim as made using Claude Code; that is
+and the erdosproblems.com tab lists the claim as made using Claude Code; that is
 provenance only. The paper's license is stated as CC BY 4.0 in the README
 and on the Zenodo record. The earlier partial claim
 [[problems/ramsey_theory/E1183/claims/2026_03_18_chojecki|Chojecki 2026]]
 covers the subexponential half by a similar random-coloring argument; this
-claim does not rest on it. The preprint was posted in the site's thread on 5
-October 2026 by a reader as partial progress and listed on the tab the same
-day; the tab says a listing there does not mean the site has examined the
-proof. The claim has no comments, and the site's label (OPEN) and commentary
-are unchanged; the claim is accepted neither by the site nor by a named
-mathematician.
+claim does not rest on it. The preprint was posted in the erdosproblems.com
+thread on 5 October 2026 by a reader as partial progress and listed on the tab
+the same day; the tab says a listing there does not mean erdosproblems.com has
+examined the proof. The claim has no comments, and the erdosproblems.com label
+(OPEN) and commentary are unchanged; the claim is accepted neither by
+erdosproblems.com nor by a named mathematician.

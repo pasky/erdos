@@ -57,5 +57,5 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: the earliest printed
-  form of the cube question (the site's [Er64c]); it poses the problem for
-  $Q_3$ and names the higher cubes, with no bound for $Q_3$ itself.
+  form of the cube question (erdosproblems.com's [Er64c]); it poses the problem
+  for $Q_3$ and names the higher cubes, with no bound for $Q_3$ itself.

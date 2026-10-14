@@ -124,7 +124,7 @@ classes never represented are the output. No further argument is printed.
 Rosati's necessary and sufficient condition (2)--(3) for primes $n>3$
 (Boll. Un. Mat. Ital. (3) 9 (1954), the paper's [3]; not held), and, for
 the six classes modulo $840$, Yamamoto's 1965 paper (the paper's [5]; not
-held). The problem page records the same six classes from the site's
+held). The problem page records the same six classes from the erdosproblems.com
 commentary, from the 2025 verification report and from the discussion
 thread under Mordell's name; the survey of Bloom and Elsholtz prints the
 list with $49$ in place of $529$ (p. 239, in the text before its
@@ -134,8 +134,8 @@ which the problem page reads as a misprint.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: the partial result the
-  site's commentary attributes to Terzi, "all $n$ outside $198$ bad classes
-  modulo $120120$"; for a prime coprime to $120120$ outside the $198$
+  erdosproblems.com commentary attributes to Terzi, "all $n$ outside $198$ bad
+  classes modulo $120120$"; for a prime coprime to $120120$ outside the $198$
   classes, (2) or (3) holds and $4/n$ is a sum of three unit fractions,
   which the page's Formulation converts into three distinct terms. The
   page's list of Mordell's six classes modulo $840$ is printed here

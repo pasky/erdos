@@ -44,10 +44,10 @@ p. 1212 from the paper's Ramsey dichotomy for the Builder--Architect game
 to Williams's *Combinatorial Set Theory*); Theorem 29 is proved as Theorems
 31--33 (pp. 1214--1215) by colorings that record a pattern of interlacing.
 The paper is R. Schipperus, *Countable partition ordinals*, Ann. Pure Appl.
-Logic 161 (2010), 1195--1215, DOI 10.1016/j.apal.2009.12.007, the site's
-[Sc10], received 9 May 2007, accepted 26 December 2009 and available online
-13 May 2010 (p. 1195), the date the page name carries. It is paged on the
-library's
+Logic 161 (2010), 1195--1215, DOI 10.1016/j.apal.2009.12.007,
+erdosproblems.com's [Sc10], received 9 May 2007, accepted 26 December 2009 and
+available online 13 May 2010 (p. 1195), the date the page name carries. It is
+paged on the library's
 [[../library/set_theory/schipperus_2010_countable_partition_ordinals/_index|source card]].
 
 **Covers.** The exponents $\beta=\omega^\gamma$ with $\gamma$ the sum of one
@@ -61,9 +61,9 @@ and the relation with $3$ is undecided.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Annals of Pure and Applied
-Logic, volume 161. The site labeled the problem OPEN. Its commentary credits
-Schipperus, but credit on an open problem is not an acceptance, so no `reviewed`
-evidence is listed.
+Logic, volume 161. Bloom's catalog labeled the problem OPEN. Its commentary
+credits Schipperus, but credit on an open problem is not an acceptance, so no
+`reviewed` evidence is listed.
 
 **Read depth.** The statements of Theorems 28 and 29 and the one-paragraph
 proof of Theorem 28 are checked; the sections that the proof of Theorem 28

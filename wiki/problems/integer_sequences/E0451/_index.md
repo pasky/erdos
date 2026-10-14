@@ -25,47 +25,49 @@ updated: 2026-10-08T18:26:33Z
 **Statement.** Estimate $n_k$, the smallest integer $>2k$ such that
 $\prod_{1\leq i\leq k}(n_k-i)$ has no prime factor in $(k,2k)$.
 
-**Formulation.** The site's wording on 2026-09-18 (page last edited 21 June
-2026). The product runs over the $k$ integers
-$n_k-k,\ldots,n_k-1$ preceding $n_k$; the condition $n_k>2k$ places that
-block above $k$, without which $n_k=k+1$ would work trivially (the product
-$k!$ has no prime factor in $(k,2k)$). The 1980 monograph's sentence (below)
-omits the condition, and the site's and the 2026 paper's wording supply it.
-Erdős's 1979 paper asks the same question in a shifted form, for the
-smallest $m_n\ge n$ such that $\prod_{1\le i\le n}(m_n+i)$ has no prime
-factor $p$ with $n<p<2n$: both ask for the least start $s>k$ of a block of
-$k$ consecutive integers with no prime factor in $(k,2k)$, the site's $n_k$
-being $s+k$ and the 1979 $m_k$ being $s-1$, so $n_k=m_k+k+1$ (a substitution
-made here). The site's source keys are [Er79d, p. 78] and [ErGr80, p. 89];
-its commentary cites [vDTa26] and points to Problem 1095.
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (page last edited
+21 June 2026). The product runs over the $k$ integers $n_k-k,\ldots,n_k-1$
+preceding $n_k$; the condition $n_k>2k$ places that block above $k$, without
+which $n_k=k+1$ would work trivially (the product $k!$ has no prime factor in
+$(k,2k)$). The 1980 monograph's sentence (below) omits the condition, and
+erdosproblems.com's and the 2026 paper's wording supply it. Erdős's 1979 paper
+asks the same question in a shifted form, for the smallest $m_n\ge n$ such that
+$\prod_{1\le i\le n}(m_n+i)$ has no prime factor $p$ with $n<p<2n$: both ask for
+the least start $s>k$ of a block of $k$ consecutive integers with no prime
+factor in $(k,2k)$, erdosproblems.com's $n_k$ being $s+k$ and the 1979 $m_k$
+being $s-1$, so $n_k=m_k+k+1$ (a substitution made here). The erdosproblems.com
+source keys are [Er79d, p. 78] and [ErGr80, p. 89]; its commentary cites
+[vDTa26] and points to Problem 1095.
 
 **Status.** Open. The estimate is not settled. The best lower bound claimed is
 $n_k>\exp(\log^2k/(20\log\log k))$ for all sufficiently large $k$. It is Theorem
 1.1 of van Doorn and Tang (arXiv:2606.19863v1, 18 June 2026), a preprint with
-no journal record found on 2026-09-18, taken into the site's commentary on 21
-June 2026. It would confirm Erdős's expectation that $n_k$ grows faster than
-every power of $k$. It is recorded as a claimed partial claim on
+no journal record found on 2026-09-18, taken into the erdosproblems.com
+commentary on 21 June 2026. It would confirm Erdős's expectation that $n_k$
+grows faster than every power of $k$. It is recorded as a claimed partial claim
+on
 [[problems/integer_sequences/E0451/claims/2026_06_18_van_doorn_tang|the van Doorn--Tang claim page]],
-since the site's commentary on a problem it labeled OPEN is no acceptance. The
-best upper bound is the elementary $n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$. Erdős
-expected $n_k<e^{\epsilon k}$ for every $\epsilon>0$. A heuristic in the thread
-and the paper puts the truth at $\exp(\Theta(k/\log k))$. Before 2026 the only
-lower bound was the monograph's unproved sentence "We can prove $n_k>k^{1+c}$".
-The preprint's declaration credits the idea of its argument to ChatGPT 5.5 Pro
-and its Lean formalization to Aristotle, Harmonic's automated prover. This
-provenance is recorded below and does not change the standing of the bound,
-which is progress on an open question, not its resolution. No source narrowing
-the gap further was found in the search whose scope the Current assessment
-records. This is a bounded negative finding, not a certificate of openness.
+since the erdosproblems.com commentary on a problem it labeled OPEN is no
+acceptance. The best upper bound is the elementary
+$n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$. Erdős expected $n_k<e^{\epsilon k}$ for
+every $\epsilon>0$. A heuristic in the thread and the paper puts the truth at
+$\exp(\Theta(k/\log k))$. Before 2026 the only lower bound was the monograph's
+unproved sentence "We can prove $n_k>k^{1+c}$". The preprint's declaration
+credits the idea of its argument to ChatGPT 5.5 Pro and its Lean formalization
+to Aristotle, Harmonic's automated prover. This provenance is recorded below and
+does not change the standing of the bound, which is progress on an open
+question, not its resolution. No source narrowing the gap further was found in
+the search whose scope the Current assessment records. This is a bounded
+negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/451](https://www.erdosproblems.com/451),
 accessed 2026-09-18: the problem page (OPEN, with the
-site's note that the problem cannot be settled by a finite computation; last
-edited 21 June 2026; source keys [Er79d, p. 78], [ErGr80, p. 89]; commentary
-citing [vDTa26] and Problem 1095; a thanks line naming Adenwalla and van
-Doorn), its six-comment discussion thread (2 October 2025 to 19 June 2026) and
-its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #451,
-https://www.erdosproblems.com/451, accessed 2026-09-18.
+erdosproblems.com note that the problem cannot be settled by a finite
+computation; last edited 21 June 2026; source keys [Er79d, p. 78], [ErGr80, p.
+89]; commentary citing [vDTa26] and Problem 1095; a thanks line naming Adenwalla
+and van Doorn), its six-comment discussion thread (2 October 2025 to 19
+June 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
+#451, https://www.erdosproblems.com/451, accessed 2026-09-18.
 
 **References.**
 
@@ -110,11 +112,11 @@ artifacts" below; nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-OPEN and, by the site's note, not settled by any finite computation, last
-edited 21 June 2026. The commentary, in this page's words: it quotes the
-monograph's sentence that $n_k>k^{1+c}$ is provable and that much more is
-surely true; it reports Erdős's 1979 expectation that $n_k$ stays below
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN and, by the erdosproblems.com note, not settled by any finite
+computation, last edited 21 June 2026. The commentary, in this page's words: it
+quotes the monograph's sentence that $n_k>k^{1+c}$ is provable and that much
+more is surely true; it reports Erdős's 1979 expectation that $n_k$ stays below
 $e^{o(k)}$ yet exceeds every fixed power $k^d$; it credits Adenwalla with the
 easy upper bound $n_k\le\prod_{k<p<2k}p=e^{O(k)}$; and it records that van
 Doorn and Tang [vDTa26], by an argument it attributes to GPT 5.5 Pro and to
@@ -124,19 +126,19 @@ Tang), a heuristic: the density of admissible $n$ is
 $D_k=\prod_{k<p<2k}(1-k/p)$ with $\log(1/D_k)=(\log4+o(1))k/\log k$, and $\log
 n_k\le(\log4)k/\log k$ for $k\le50$, with a note in a GitHub repository; 2
 November 2025 (the account Giorgos Kalogeropoulos), the OEIS entry A386620 is
-published (the site was updated); 26 April 2026 (Quanyu Tang), a note produced
-by GPT 5.5 Pro after many prompting rounds claiming $n_k>\exp(c(\log
-k)^2/\log\log k)$, which the poster said had passed several AI-based checks,
-posted with a request for independent checks; 27 April 2026 (the account Nat
-Sothanaphan), a routine model check, reported in a shared transcript not cited
-here, found no issue; 19 June 2026 (the account Woett, whom the site names as
-Wouter van Doorn), the arXiv paper, presented as the authors' human-written
-version of the AI-generated note, with the parameter $\theta=21/40$, the bound
-(2) $n_k>\exp(\log^2k/(20\log\log k))$, a Lean formalization self-contained
-apart from the Baker--Harman--Pintz input, the connection to Konyagin's
-theorem and Problem 1095, and credit to the model for the bound (the site was
-updated); 19 June 2026 (Nat Sothanaphan), congratulations. The proof-claim tab
-is empty.
+published (erdosproblems.com was updated); 26 April 2026 (Quanyu Tang), a note
+produced by GPT 5.5 Pro after many prompting rounds claiming
+$n_k>\exp(c(\log k)^2/\log\log k)$, which the poster said had passed several
+AI-based checks, posted with a request for independent checks; 27 April 2026
+(the account Nat Sothanaphan), a routine model check, reported in a shared
+transcript not cited here, found no issue; 19 June 2026 (the account Woett, whom
+erdosproblems.com names as Wouter van Doorn), the arXiv paper, presented as the
+authors' human-written version of the AI-generated note, with the parameter
+$\theta=21/40$, the bound (2) $n_k>\exp(\log^2k/(20\log\log k))$, a Lean
+formalization self-contained apart from the Baker--Harman--Pintz input, the
+connection to Konyagin's theorem and Problem 1095, and credit to the model for
+the bound (erdosproblems.com was updated); 19 June 2026 (Nat Sothanaphan),
+congratulations. The proof-claim tab is empty.
 
 **The origins.** [ErGr80], printed p. 89: "Let $n_k$ denote the smallest integer
 for which $\prod_{i=1}^k(n_k-i)$ has no prime factor in $(k,2k)$. We can prove
@@ -148,8 +150,8 @@ of the smallest integer $m_n\ge n$ for which $\prod_{1\le i\le n}(m_n+i)$ has no
 prime factor $p$ satisfying $n<p<2n$. I would expect that $m_n>n^k$ for every
 $k$ if $n>n_0(k)$, but that $m_n<e^{\varepsilon n}$ for every $\varepsilon>0$ if
 $n>n_1(\varepsilon)$. However, I could prove nothing non-trivial." The 2026
-paper quotes the passage in the site's notation, with the footnote "Notation
-slightly altered to match notation in [7]" (the monograph).
+paper quotes the passage in the erdosproblems.com notation, with the footnote
+"Notation slightly altered to match notation in [7]" (the monograph).
 
 **The 2026 lower bound.**
 [[../library/integer_sequences/doorn_2026_consecutive_integers_free_certain_prime_factors/theorem_1_1|Theorem 1.1 of [vDTa26]]]
@@ -167,28 +169,29 @@ the paper bounds the number of $m$ in that interval with $\|n/m\|<k^{\theta-1}$
 in the other three, the last two through a Konyagin-type inequality (Theorem
 4.1, p. 3). Read depth: claims checked for Theorem 1.1 and Theorem 4.1; the
 proof was read for its structure and not checked step by step; no step is
-independently reviewed here. Acceptance evidence: the site's commentary (21 June
-2026); on 2026-09-18 the arXiv listing showed one version and no journal
-reference, Crossref had no record, and the Semantic Scholar citation list of the
-preprint was empty, so the bound carries the preprint qualification: an
-author-recorded theorem taken into the site's commentary, without refereed
-publication or independent review found; the site labeled the problem OPEN, so
-the commentary is no acceptance. It is recorded as a claimed partial claim on
+independently reviewed here. Acceptance evidence: the erdosproblems.com
+commentary (21 June 2026); on 2026-09-18 the arXiv listing showed one version
+and no journal reference, Crossref had no record, and the Semantic Scholar
+citation list of the preprint was empty, so the bound carries the preprint
+qualification: an author-recorded theorem taken into the erdosproblems.com
+commentary, without refereed publication or independent review found; Bloom's
+catalog labeled the problem OPEN, so the commentary is no acceptance. It is
+recorded as a claimed partial claim on
 [[problems/integer_sequences/E0451/claims/2026_06_18_van_doorn_tang|the van Doorn--Tang claim page]].
 Provenance, recorded not judged: the paper's declaration of AI usage (p. 2) says
 the text is "completely human-written", that the core idea of applying
 Konyagin's argument was conceived by ChatGPT 5.5 Pro, whose original write-up
 the authors keep in a public repository "for transparency's sake", and that Lean
 formalizations of all theorems, self-contained apart from [BHP01], were produced
-by Aristotle, Harmonic's automated theorem prover; the site's commentary
-attributes the argument to GPT 5.5 Pro and to Tang.
+by Aristotle, Harmonic's automated theorem prover; the erdosproblems.com
+commentary attributes the argument to GPT 5.5 Pro and to Tang.
 
 **The upper bound and the expected size.** If $n\equiv0$ modulo every prime
 $p\in(k,2k)$ then $n-i\equiv-i\not\equiv0\pmod p$ for $1\le i\le k$, so
 $n=\prod_{k<p<2k}p$ is admissible once it exceeds $2k$, giving
-$n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$ by the prime number theorem (the
-site's easy upper bound, credited to Adenwalla; stated on p. 1 of the
-paper; the one-line verification is made here). Erdős expected
+$n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$ by the prime number theorem
+(erdosproblems.com's easy upper bound, credited to Adenwalla; stated on p. 1 of
+the paper; the one-line verification is made here). Erdős expected
 $n_k<e^{\varepsilon k}$ for every $\varepsilon>0$, which is open. The
 heuristic of the thread's first comment and of the paper's introduction,
 $n_k\asymp D_k^{-1}$ with $\log(1/D_k)=(\log4+o(1))k/\log k$, suggests
@@ -232,7 +235,7 @@ theorem statement from its TeX source is recorded here.
 version of [vDTa26], an independent review, a dispute, or a bound
 narrowing the gap.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing and tree at the head of main on
   2026-09-18 (no file); the community database that day.
 - arXiv: the abstract page and API record of 2606.19863 (v1 only, 18 June

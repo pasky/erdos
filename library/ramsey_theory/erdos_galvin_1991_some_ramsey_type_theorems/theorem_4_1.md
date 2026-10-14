@@ -82,11 +82,11 @@ on partial sums modulo $2^s$).
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0948/_index|Problem 948]]: the site's commentary
-  reports Galvin's coloring as the reason "the answer to this question is no
-  when $k=2$"; this is its printed statement and proof. In the site's terms,
-  for every $f$ the two-coloring built from $\varphi=f$ admits no sequence
-  with monochromatic finite sums, or even monochromatic sums over intervals
-  of indices, that has $a_n<f(n)$ for any $n$. The 2026 argument for every
-  number of colors, recorded on the problem page, uses a different
-  coloring.
+- [[../wiki/problems/ramsey_theory/E0948/_index|Problem 948]]: the
+  erdosproblems.com commentary reports Galvin's coloring as the reason "the
+  answer to this question is no when $k=2$"; this is its printed statement and
+  proof. In erdosproblems.com's terms, for every $f$ the two-coloring built from
+  $\varphi=f$ admits no sequence with monochromatic finite sums, or even
+  monochromatic sums over intervals of indices, that has $a_n<f(n)$ for any $n$.
+  The 2026 argument for every number of colors, recorded on the problem page,
+  uses a different coloring.

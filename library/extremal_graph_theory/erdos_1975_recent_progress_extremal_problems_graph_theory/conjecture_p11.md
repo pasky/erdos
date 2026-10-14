@@ -52,12 +52,12 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0715/_index|Problem 715]]: the site's [Er75]
-  source; the conjecture for $4$-regular graphs in Erdős's 1975 words,
-  attributed to Sauer and Berge, and Chvátal's general form for every graph
-  of minimum valency at least $4$, which is not the problem's second
-  question: the site asks for an $r$ such that every $r$-regular graph
-  contains a $3$-regular subgraph, and Chvátal's form would answer it with
+- [[../wiki/problems/extremal_graph_theory/E0715/_index|Problem 715]]:
+  erdosproblems.com's [Er75] source; the conjecture for $4$-regular graphs in
+  Erdős's 1975 words, attributed to Sauer and Berge, and Chvátal's general form
+  for every graph of minimum valency at least $4$, which is not the problem's
+  second question: erdosproblems.com asks for an $r$ such that every $r$-regular
+  graph contains a $3$-regular subgraph, and Chvátal's form would answer it with
   $r=4$.
 - [[../wiki/problems/extremal_graph_theory/E0182/_index|Problem 182]]: the same Section 3
   as the problem's origin statement on

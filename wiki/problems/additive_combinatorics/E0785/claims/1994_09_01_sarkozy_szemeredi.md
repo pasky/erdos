@@ -5,7 +5,7 @@ desc: |
   Sárközy and Szemerédi (Acta Math. Hungar. 1994) prove that infinite additive
   complements with $A(x)B(x)\sim x$ have $A(x)B(x)-x\to\infty$, and that this
   excess is not even $o(A(x))$. The claim is accepted, refereed and credited by
-  the site.
+  erdosproblems.com.
 authors:
 - A. Sárközy
 - E. Szemerédi
@@ -34,8 +34,8 @@ $A,B\subseteq\mathbb N$ are infinite, $A+B$ contains every large integer and
 $A(x)B(x)\sim x$, then $A(x)B(x)-x\to\infty$. The claimed result is the theorem
 of A. Sárközy and E. Szemerédi, *On a problem in additive number theory*, which
 proves more: under these hypotheses the excess $A(x)B(x)-x$ cannot be $o(A(x))$.
-The library holds no copy; the theorem follows the site's commentary and Ruzsa's
-introduction (library home of Ruzsa's paper,
+The library holds no copy; the theorem follows the erdosproblems.com commentary
+and Ruzsa's introduction (library home of Ruzsa's paper,
 [[../library/additive_combinatorics/ruzsa_2017_exact_additive_complements/_index|ruzsa_2017_exact_additive_complements]],
 whose introduction also records that the result was announced in the 1966
 edition of Halberstam and Roth's *Sequences*). Erdős and Danzer conjectured the
@@ -59,9 +59,9 @@ later results with their own pages, not part of this claim.
 doi:10.1007/BF01874252. The Crossref record dates the issue to September 1994,
 and this page's name fills that to the first of the month.
 
-Reviewed: the site's curator, Thomas Bloom, credits the affirmative answer to
-Sárközy and Szemerédi in the problem page's commentary. The curator labeled the
-problem PROVED (LEAN) on the page, last edited 7 March 2026. The
+Reviewed: the erdosproblems.com curator, Thomas Bloom, credits the affirmative
+answer to Sárközy and Szemerédi in the problem page's commentary. The curator
+labeled the problem PROVED (LEAN) on the page, last edited 7 March 2026. The
 formal-conjectures catalog's statement file for the problem names Sárközy and
 Szemerédi as the source of the proof. The community database lists the problem
 as proved as of its last update on 2026-03-06. Nothing here rests on a review by

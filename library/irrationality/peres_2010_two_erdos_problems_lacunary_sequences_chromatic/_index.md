@@ -25,7 +25,7 @@ the logarithm.
 Peres, Yuval and Schlag, Wilhelm, Two Erdős problems on lacunary sequences:
 chromatic number and Diophantine approximation. Bull. Lond. Math. Soc. **42**
 (2010), no. 2, 295--300; DOI 10.1112/blms/bdp126 (Crossref record, issued
-April 2010, read 2026-09-18). The site's key PeSc10.
+April 2010, read 2026-09-18). The erdosproblems.com key PeSc10.
 
 The copy read for this card
 is arXiv:0706.0223v1 (1 June 2007), the only arXiv version (abstract page read
@@ -106,8 +106,8 @@ checked; Section 4 was read for its stated consequences.
 The whole preprint was read. Theorem 1.1 is compiled as a statement with a
 proof pointer; the reduction, the sharpness example and the $4^K$ argument
 are short and were read in full; no step is independently reviewed. The
-paper colors $\mathbb Z$ where the site's Problem 894 colors $\mathbb N$, a
-restriction that preserves the property.
+paper colors $\mathbb Z$ where erdosproblems.com's Problem 894 colors
+$\mathbb N$, a restriction that preserves the property.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0894/_index|#894]], whose question is
 Problem A on $\mathbb N$: Theorem 1.1 with the reduction proves the finite
@@ -119,7 +119,7 @@ whose modified Statement is Problem B with the multiplier required to be
 irrational (Problem B, p. 1, asks only for $\theta\in(0,1)$): Theorem 1.1 gives
 the separation
 $\inf_j\|\theta n_j\|>c\epsilon|\log\epsilon|^{-1}$ for $0<\epsilon<1/4$
-(the site's best bound), with $\theta\in(0,1)$ and no irrationality
+(erdosproblems.com's best bound), with $\theta\in(0,1)$ and no irrationality
 asserted; p. 2 attests the original solutions of de Mathan and Pollington
 and the intermediate bounds of Katznelson and of Akhunzhanov and
 Moshchevitin.

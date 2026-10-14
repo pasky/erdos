@@ -4,8 +4,8 @@ title: An affirmative answer for two colors, claimed in a 2026 preprint
 desc: |
   The preprint of Huang, Lian, Shao, Xiao, Xu and Zhang claims that every
   two-coloring of the natural numbers has an infinite set $B$ with $B+B$,
-  doubles included, in one color, which is the site's statement. The claim is
-  unreviewed and pending.
+  doubles included, in one color, which is the erdosproblems.com statement. The
+  claim is unreviewed and pending.
 authors:
 - Wen Huang
 - Zhengxing Lian
@@ -71,15 +71,15 @@ exact finite-color threshold" in the preprint's phrase (p. 2).
 (accepted), for Corollary 2.10, which the proof applies; the proof's Section 2
 preliminaries draw on further references.
 
-**Standing.** Claimed, not accepted. As of 2026-09-18 the preprint had no
+**Standing.** Claimed, not accepted. On 2026-09-18 the preprint had no
 journal version (a Crossref bibliographic query for its title found no record),
 no citing paper (the Semantic Scholar citation list for the arXiv identifier was
-empty), no independent review found, and no adoption by the site: the site's
-label was OPEN on 2026-09-18, seven weeks after the thread comment of 1 August
-2026 that reported the preprint, and the comment had no reply; the community
-database of 9 September 2026 records the problem open, and the
-formal-conjectures statement (linked above at a pinned commit) is
+empty), no independent review found, and no adoption by erdosproblems.com: the
+erdosproblems.com label was OPEN on 2026-09-18, seven weeks after the thread
+comment of 1 August 2026 that reported the preprint, and the comment had no
+reply; the community database of 9 September 2026 records the problem open, and
+the formal-conjectures statement (linked above at a pinned commit) is
 `research open` with no formal proof. No step of the proof has been checked for
-this corpus. A refereed publication, the site's acceptance, or a documented
-independent review would move this page to `accepted`; the problem's standing
-follows by derivation.
+this corpus. A refereed publication, erdosproblems.com's acceptance, or a
+documented independent review would move this page to `accepted`; the problem's
+standing follows by derivation.

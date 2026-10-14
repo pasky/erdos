@@ -33,8 +33,8 @@ updated: 2026-10-07T21:55:30Z
 Erdős, Herzog and Piranian (Section 6): if all the zeros of $f$ lie in the
 open disc $D_r=\{|z|<r\}$, $r<2$, does the set $E(f)=\{z:|f(z)|<1\}$ have
 a component of diameter greater than $2-r$? The closed-disc hypothesis
-$|z|\le r$ of the site's statement is Pommerenke's restatement (p. 98),
-which also takes $E=\{|f(z)|\le1\}$ closed and asks for a component of
+$|z|\le r$ of the erdosproblems.com statement is Pommerenke's restatement (p.
+98), which also takes $E=\{|f(z)|\le1\}$ closed and asks for a component of
 diameter at least $2-r$. Pommerenke's unnumbered passage on p. 98, as
 printed: "The answer is negative for $r>1$. To show this, let
 $f(z)=z^n-r^n$ ($r>1$). Then the set $E=\{|z^n-r^n|\le1\}$ has $n$
@@ -72,9 +72,9 @@ received November 26, 1960. The publisher's record dates the article to the
 year 1961 alone, and the page is named by the record's date.
 
 **Acceptance.** Refereed: the paper appeared in the Michigan Mathematical
-Journal. Reviewed: the site's curator, T. F. Bloom, labeled the problem
-disproved and credits the negative answer for $r>1$ to this example, with
-its $n$ components whose diameter tends to $0$, and records the three
+Journal. Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled the
+problem disproved and credits the negative answer for $r>1$ to this example,
+with its $n$ components whose diameter tends to $0$, and records the three
 bounds of Theorem 3 as the affirmative answer for $0<r\le1$. Nothing here
 is independently reviewed by this project.
 
@@ -90,8 +90,8 @@ $2-r\le\operatorname{diam}$. The author's thread post explains the change
 from the strict inequality: with the strict form and $r=0$ allowed, the
 polynomial $z^2$, whose sublevel set is the unit disc of diameter exactly
 $2$, is already a counterexample. Refuting the non-strict form refutes the
-strict one. The qualifier of the site's label DISPROVED (LEAN) and the
-`formal_proof` attribute of the formal-conjectures statement file refer to
+strict one. The qualifier of the erdosproblems.com label DISPROVED (LEAN) and
+the `formal_proof` attribute of the formal-conjectures statement file refer to
 this development. This
 corpus has not built or audited it, so no `formalized` evidence is listed.
 Aristotle's separate disproof from the problem statement alone, with

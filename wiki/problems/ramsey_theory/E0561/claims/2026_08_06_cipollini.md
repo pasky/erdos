@@ -69,17 +69,17 @@ formula for all star forests is not claimed.
 **Depends on.** Nothing in this wiki; the argument is the author's own.
 
 **Standing.** Claimed. The claimant, Ricky Cipollini, posting as rickyc,
-placed the argument as a comment of 6 August 2026 in the site's discussion
-thread, the date the page is named by, and submitted it as a partial proof
-claim on 7 August 2026 with the manuscript linked from the claim tab. The tab
-names Qwen 3.8 Max as the AI system used in the mathematics, and the
+placed the argument as a comment of 6 August 2026 in the erdosproblems.com
+discussion thread, the date the page is named by, and submitted it as a partial
+proof claim on 7 August 2026 with the manuscript linked from the claim tab. The
+tab names Qwen 3.8 Max as the AI system used in the mathematics, and the
 claimant's notes say that the claimant wrote the three-page note and used
 GPT-5.6 Sol only for typesetting help and light editing. The claim page states
 the bound from the comment's three-page argument, which was not checked; the
 linked manuscript is not its basis, and no evidence kind is listed. The claim
-had no comments on the tab (2026-10-06); the site's label was OPEN and its
-commentary does not mention the claim (page last edited 1 February 2026); no
-arXiv version, journal record or independent review was found. The later
-partial claim
+had no comments on the tab (2026-10-06); the erdosproblems.com label was OPEN
+and its commentary does not mention the claim (page last edited 1 February
+2026); no arXiv version, journal record or independent review was found. The
+later partial claim
 [[problems/ramsey_theory/E0561/claims/2026_09_04_tienxion|tienxion 2026]]
 credits its framework to this author and reproves the deletion lemma.

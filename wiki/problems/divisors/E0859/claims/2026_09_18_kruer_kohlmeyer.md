@@ -61,9 +61,9 @@ over one period.
 **The formal statement.** The Lean file proves the negation of the
 formal-conjectures statement `Erdos859.erdos_859`
 ([`FormalConjectures/ErdosProblems/859.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/859.lean)
-at the catalog's commit of 18 September 2026; the record pins a catalog commit
-that the public repository does not contain, and the statement it displays is
-the one in this file):
+at the formal-conjectures commit of 18 September 2026; the record pins a catalog
+commit that the public repository does not contain, and the statement it
+displays is the one in this file):
 
 ```lean
 ∃ c₁ > 0, ∃ c₂ > 0, ∃ d, (∀ t > 0, (Erdos859.DivisorSumSet t).HasDensity (d t)) ∧
@@ -75,12 +75,12 @@ of $n$ summing to $t$, `HasDensity` is the natural density (the limit of the
 proportion of members below $N$), the existential over `d` with the density
 conjunct packages "let $d_t$ be the density" (the natural density is unique when
 it exists), and `Real.log ↑t ^ c₂` is $(\log t)^{c_2}$ with a real exponent, so
-the formal statement is the site's wording clause for clause and its negation is
-the disproof. The file proves the density conjunct rather than exploiting it,
-identifies any `d` satisfying it with the density by uniqueness of limits, and
-reaches the contradiction through an elementary lemma excluding
+the formal statement is the erdosproblems.com wording clause for clause and its
+negation is the disproof. The file proves the density conjunct rather than
+exploiting it, identifies any `d` satisfying it with the density by uniqueness
+of limits, and reaches the contradiction through an elementary lemma excluding
 $d\sim c/(\log t)^{p}$ for every $c>0$ and real $p$. The record's solution page
-(second link) holds the file, as of 2026-09-22, as its single source block:
+(second link) holds the file, read 2026-09-22, as its single source block:
 36,197 lines and 1,721,167 bytes, with no import statement, inlining a
 Mertens-type prime reciprocal estimate adapted from the Apache-2.0 Lean project
 PrimeNumberTheoremAnd, whose license it reproduces. This corpus rebuilt and
@@ -92,24 +92,25 @@ Liam Kruer and Jensen Kohlmeyer, follows their manuscript "Divisor sums and a
 counterexample to Erdős problem 859" (dated 18 September 2026, 27 pages, not
 public), and says it was prepared with Codex assistance from that manuscript
 and the accepted Lean submission; the Lean file's header names no author and
-declares no AI system, and the site's forum entry gives the system as
+declares no AI system, and the erdosproblems.com forum entry gives the system as
 unknown, so which AI system, if any, generated the proof is not disclosed.
 
 **Acceptance.** Formalized. This corpus's verification rebuilt the record's
 solution file on the repository's pinned toolchain, `leanprover/lean4:v4.34.1`
 with Mathlib at the revision `lean/lake-manifest.json` pins, after proof-only
-changes for lemmas that Mathlib renamed or removed since the site's toolchain;
-the target's statement is unchanged. The kernel replayed, from an empty
-environment, every declaration the target `Bounty.target` depends on, Lean core,
-Mathlib and formal-conjectures included, and accepted them all. The target's
-axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and
-every definition its statement reaches, are identical to the formal-conjectures
-statement of the site's task, at the catalog commit the task pins, which the
-site builds from a public catalog commit and an audit patch and the replay
-reproduced exactly. **The formal statement.** above reads that statement as the
-site's wording clause by clause; the replayed closure contains both estimates
-and the proof that every density $d_t$ exists, so the negation is not vacuous.
-Acceptance rests on this replay and that check.
+changes for lemmas that Mathlib renamed or removed since Conjectures.io's
+toolchain; the target's statement is unchanged. The kernel replayed, from an
+empty environment, every declaration the target `Bounty.target` depends on, Lean
+core, Mathlib and formal-conjectures included, and accepted them all. The
+target's axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its
+type, and every definition its statement reaches, are identical to the
+formal-conjectures statement of Conjectures.io's task, at the formal-conjectures
+commit the task pins, which Conjectures.io builds from a public catalog commit
+and an audit patch and the replay reproduced exactly. **The formal statement.**
+above reads that statement as the erdosproblems.com wording clause by clause;
+the replayed closure contains both estimates and the proof that every density
+$d_t$ exists, so the negation is not vacuous. Acceptance rests on this replay
+and that check.
 
 The certification by the bounty site Conjectures.io is reported, not counted.
 Its Lean kernel verified the proof on 18 September 2026 under Lean 4.33.1 with

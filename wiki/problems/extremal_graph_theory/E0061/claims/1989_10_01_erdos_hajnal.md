@@ -39,9 +39,9 @@ proved the conjecture for all graphs with at most four vertices, and
 Chudnovsky and Safra's bull-free paper (Section 1) reports the conjecture as
 known for $|V(H)|\le4$ and for the graphs obtained from these by certain
 operations. The same paper proves, for every $H$, a clique or independent set
-of size at least $\exp(c_H\sqrt{\log n})$, the bound the site's commentary
-credits to it; that bound settles no instance of the question and is recorded
-on the problem page.
+of size at least $\exp(c_H\sqrt{\log n})$, the bound the erdosproblems.com
+commentary credits to it; that bound settles no instance of the question and is
+recorded on the problem page.
 
 **Covers.** Every $H$ with at most four vertices: the instances of the
 question for those $H$. The problem stays open, since the conjecture is a
@@ -52,6 +52,6 @@ statement about every $H$.
 **Acceptance.** The paper is a refereed publication in Discrete Applied
 Mathematics, which is the `refereed` evidence. It appeared in the issue of
 October 1989. The day is not recorded, and this page's date is the first of that
-month. The site's commentary credits the cases to the paper, but the site
-labeled the problem OPEN, so no `reviewed` evidence is listed. This corpus has
-not checked the proof.
+month. The erdosproblems.com commentary credits the cases to the paper, but
+Bloom's catalog labeled the problem OPEN, so no `reviewed` evidence is listed.
+This corpus has not checked the proof.

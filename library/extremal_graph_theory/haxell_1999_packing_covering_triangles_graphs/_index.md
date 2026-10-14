@@ -200,7 +200,7 @@ without a printed proof. Nothing here is independently reviewed.
 (printed p. 254, PDF p. 4), "We have $\tau(G)\le(3-\varepsilon)\nu$, where
 $\varepsilon\ge3/23$", that is $\tau(G)\le\frac{66}{23}\nu(G)$ for every
 graph $G$, is the refereed general bound toward Tuza's conjecture
-$\tau(G)\le2\nu(G)$; the site's commentary writes it as
+$\tau(G)\le2\nu(G)$; the erdosproblems.com commentary writes it as
 "$\le(3-\frac3{23}+o(1))k$", and the paper's bound carries no $o(1)$ term.
 Page 251 states the trivial bounds $\nu(G)\le\tau(G)\le3\nu(G)$, the
 tightness of $2$ for $K^4$ and $K^5$, and Tuza's 1981 conjecture with its

@@ -57,5 +57,5 @@ large $m$) settles no instance and stays on the problem page.
 Theorem 3.6.
 
 **Acceptance.** Refereed: Combin. Probab. Comput. 12 (2003), no. 5--6,
-477--494. Not reviewed: the site's PROVED label credited Sudakov's theorem, and
-the commentary's mention of this paper is not a review of it.
+477--494. Not reviewed: erdosproblems.com's PROVED label credited Sudakov's
+theorem, and the commentary's mention of this paper is not a review of it.

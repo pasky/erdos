@@ -53,7 +53,7 @@ graph $X$ with no $K_{\aleph_1}$, since $K_{\aleph_1}\not\le K_{\aleph_0}$,
 every countable edge coloring of which has a monochromatic $K_{\aleph_0}$. So
 ZFC does not refute the existence of such a graph, relative to the
 consistency of the large cardinals used: the second question is not
-disprovable in the site's sense.
+disprovable in erdosproblems.com's sense.
 
 **Covers.** The second question of Problem 1174 (the part
 `k_aleph1_free_graph`), as a consistency statement relative to a proper class

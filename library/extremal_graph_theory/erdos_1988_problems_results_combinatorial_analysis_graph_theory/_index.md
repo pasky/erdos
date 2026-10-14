@@ -109,33 +109,32 @@ the regime $c=c_n\to0$.
 Source: <https://users.renyi.hu/~p_erdos/1988-27.pdf>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0077/_index|#77]]: Section 4, p. 83, the
-site's key with its page; displays (1)--(2) and the three offers, with the
-guess "perhaps $c=2$?".
+erdosproblems.com key with its page; displays (1)--(2) and the three offers,
+with the guess "perhaps $c=2$?".
 [[../wiki/problems/ramsey_theory/E0078/_index|#78]]: p. 83, Frankl's constructive bound and
 the offer of a prize for a constructive proof of $r(n,n)>(1+c)^n$, the
-site's prize.
+erdosproblems.com prize.
 [[../wiki/problems/ramsey_theory/E0544/_index|#544]]: p. 84, display (7), the Erdős--Sós
 questions $(r(3,n+1)-r(3,n))/n\to0$ and $r(3,n+1)-r(3,n)\to\infty$, Erdős's
-own statement of the problem in this paper (the site keys the 1981 and
+own statement of the problem in this paper (erdosproblems.com keys the 1981 and
 1993 papers).
 [[../wiki/problems/ramsey_theory/E0812/_index|#812]]: pp. 83--84, display (5)
 $r(n+1,n)-r(n,n)>cn^2$? and the heuristic (6)
 $\lim r(n+1,n)/r(n,n)=C^{1/2}$, the off-diagonal step versions of that
-page's two questions (whose site key, the 1991 paper, is not held).
+page's two questions (whose erdosproblems.com key, the 1991 paper, is not held).
 [[../wiki/problems/ramsey_theory/E0080/_index|#80]]: Section 10, printed pp. 90--91 = PDF
 pp. 10--11, page images: Erdős's 1988 statement of the Erdős--Rothschild
 book problem in the form $h(n;c)$, with Szemerédi's $h(n;c)\to\infty$,
 Alon's $c'n^{1/2}$ for small $c$, the linear bound for $c>1/4$ and its
 strengthening to $e>n^2/4-cn$ with an outlined proof; a further origin of
-the problem, which the site's thread names and the site's key list does
-not.
-[[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Section 1,
-printed p. 81 = PDF p. 1, page image. Erdős opens with "two recent problems of
-Nesetril and myself". The first asks whether a graph in which every vertex has
-degree at most $n$ and which has more than $5n^2/4$ edges must contain two
-strongly independent edges, two vertex-disjoint edges such that the subgraph
-induced by their four endpoints has no other edge; he reports that this was
-proved by Fan Chung and Trotter and, independently and at the same time, by
+the problem, which the erdosproblems.com thread names and the erdosproblems.com
+key list does not. [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]:
+Section 1, printed p. 81 = PDF p. 1, page image. Erdős opens with "two recent
+problems of Nesetril and myself". The first asks whether a graph in which every
+vertex has degree at most $n$ and which has more than $5n^2/4$ edges must
+contain two strongly independent edges, two vertex-disjoint edges such that the
+subgraph induced by their four endpoints has no other edge; he reports that this
+was proved by Fan Chung and Trotter and, independently and at the same time, by
 Gyárfás and Tuza, with "quite complicated" proofs, and that the bound is easily
 seen to be best possible. He then adds, still under the first problem, the
 problem page's question, "the following much more difficult and interesting
@@ -144,7 +143,7 @@ exceeding $n$. Is it then true that $G$ is the union of at most $5n^2/4$ sets of
 strongly independent edges?" Should the conjecture fail, he asks for the
 smallest $f(n)$ such that every graph of maximum degree at most $n$ is the union
 of $f(n)$ sets of strongly independent edges, noting that $f(n)<2n^2$ is easy.
-The site's key Er88 and Erdős's own statement of the problem.
+The erdosproblems.com key Er88 and Erdős's own statement of the problem.
 [[../wiki/problems/extremal_graph_theory/E0150/_index|#150]]: Section 1,
 printed p. 81 = PDF p. 1, page image, the second Erdős--Nesetril problem. In
 a graph $G(n)$ on the vertices $x_1,\dots,x_n$, a set of vertices is a
@@ -153,14 +152,14 @@ of it does, and "Denote by $c(n)$ the maximal number of minimal cuts a $G(n)$
 can have." Erdős records Seymour's observation $c(3m+2)\ge3^m$, witnessed by
 two vertices $x$, $y$ joined by $m$ independent paths of length $4$, and
 closes with "Perhaps $c(3m+2)=3^m$", adding that they could not even prove
-$c(n)^{1/n}\to\alpha<2$. The site's key, the origin of the question and of
-the guess $c(3m+2)=3^m$ the site records as answered in the negative.
-[[../wiki/problems/extremal_graph_theory/E0182/_index|#182]]: Section 6,
-printed p. 85 = PDF p. 5, page image, paged at
+$c(n)^{1/n}\to\alpha<2$. The erdosproblems.com key, the origin of the question
+and of the guess $c(3m+2)=3^m$ erdosproblems.com records as answered in the
+negative. [[../wiki/problems/extremal_graph_theory/E0182/_index|#182]]: Section
+6, printed p. 85 = PDF p. 5, page image, paged at
 [[extremal_graph_theory/erdos_1988_problems_results_combinatorial_analysis_graph_theory/problem_p85|problem_p85]]:
 the Erdős--Sauer function $f_k(n)$ for general $k$, with Pyber's
 $f_k(n)<c_2k^2n\log n$ and the Pyber--Rödl--Szemerédi $cn\log\log n<f_3(n)$;
-not a site key.
+not an erdosproblems.com key.
 [[../wiki/problems/extremal_graph_theory/E0151/_index|#151]]: Section 3,
 printed p. 82 = PDF p. 2, page image. Erdős writes that he and Gallai
 recently posed the problem, with $h(n)$ "the smallest integer so that every
@@ -177,8 +176,8 @@ wrongheaded", not even for graphs without a $K(4)$, where only the triangles
 and the edges in no triangle need representing; and he records a further
 conjecture of Gallai, since proved by Aigner, Andreae and Tuza: a chordal
 graph on $n$ vertices (each cycle longer than a triangle has a chord) has a
-set of $[\frac12n]$ vertices meeting every clique. The site's key and Erdős's
-statement of the Erdős--Gallai question.
+set of $[\frac12n]$ vertices meeting every clique. The erdosproblems.com key and
+Erdős's statement of the Erdős--Gallai question.
 [[../wiki/problems/extremal_graph_theory/E0934/_index|#934]]: Section 1,
 printed p. 81 = PDF p. 1, page image. Erdős suggests determining "the
 smallest integer $h_r(n)$ so that every $G$ of $h_r(n)$ edges each vertex of
@@ -186,10 +185,10 @@ which has degree $\le n$ contains two edges so that the shortest path joining
 these edges has length $\ge r$", writes that "The order of magnitude of
 $h_r(n)$ is easily seen to be $n^{r+1}$" while the exact value is unknown,
 and adds that the problem is interesting only if $h_r(n)$ has a nice closed
-form. The site's key and the sentence it quotes (with $h_t(d)$ for $h_r(n)$);
-the printed order of magnitude $n^{r+1}$ is one power above the $\Theta(n^r)$
-of the later literature in its normalization, recorded as printed on the
-problem page.
+form. The erdosproblems.com key and the sentence it quotes (with $h_t(d)$ for
+$h_r(n)$); the printed order of magnitude $n^{r+1}$ is one power above the
+$\Theta(n^r)$ of the later literature in its normalization, recorded as printed
+on the problem page.
 [[../wiki/problems/extremal_graph_theory/E0167/_index|#167]]: Section 10,
 printed p. 90 = PDF p. 10, page image, paged at
 [[extremal_graph_theory/erdos_1988_problems_results_combinatorial_analysis_graph_theory/problem_p90|problem_p90]]:
@@ -197,7 +196,7 @@ Tuza's problem in Erdős's words, "Let $\mathscr G$ be a graph and $k$ the
 largest integer for which $G$ has $k$ edge disjoint triangles. Is it then
 true that $G$ can be made triangle free by the omission of at most $2k$
 edges?", with $K(4)$ and $K(5)$ showing that $2k$ would be best possible; the
-site's key.
+erdosproblems.com key.
 
 **Results.**
 

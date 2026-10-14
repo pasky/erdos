@@ -2,9 +2,9 @@
 name: extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_3
 title: "Problem 3 (p. 281): how large triangle-free induced subgraphs does a K_4-free graph on n vertices contain?"
 desc: |
-  The Erdős–Rogers question in the words the site uses, posed concerning the
-  particular case of the paper's clique-transversal Problem 1 for sparse
-  graphs, K_4-free ones for instance, with the trivial bound from the
+  The Erdős–Rogers question in the words erdosproblems.com uses, posed
+  concerning the particular case of the paper's clique-transversal Problem 1 for
+  sparse graphs, K_4-free ones for instance, with the trivial bound from the
   Erdős–Szekeres theorem.
 created: 2026-09-18T06:05:00Z
 updated: 2026-10-07T20:23:45Z
@@ -43,7 +43,7 @@ cite Erdős and Rogers (1962) for it.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the site's second
-  source key and the source of the site's wording ("how large a
-  triangle-free induced subgraph must $G$ contain?"); the paper connects the
-  question to clique transversals of $K_4$-free graphs.
+- [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]:
+  erdosproblems.com's second source key and the source of the erdosproblems.com
+  wording ("how large a triangle-free induced subgraph must $G$ contain?"); the
+  paper connects the question to clique transversals of $K_4$-free graphs.

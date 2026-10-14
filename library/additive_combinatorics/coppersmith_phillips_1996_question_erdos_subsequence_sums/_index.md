@@ -117,8 +117,8 @@ here is independently reviewed.
   $2i$, so the two layers together hold at most
   $1+\lfloor n/2^{2i}\rfloor-\lfloor n/2^{2i+1}\rfloor\le3/2+n/2^{2i+1}$
   elements, summed over $0\le i\le\lfloor\log_4n\rfloor$. This is the
-  layer argument the problem page's site commentary credits to Sarosh
-  Adenwalla. The paper remarks that the constant $2/3$ of Lemma 1.1
+  layer argument the problem page's erdosproblems.com commentary credits to
+  Sarosh Adenwalla. The paper remarks that the constant $2/3$ of Lemma 1.1
   cannot be lowered when only the properties $S_i$ with $i$ even are
   required, the integers not divisible by $3$ being such a sequence, the
   counterpart of
@@ -212,35 +212,34 @@ independently reviewed.
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0867/_index|#867]]: Theorem 2.1
 (printed p. 174, PDF p. 2), "For any $n$ there is a sequence of
 $13n/24-O(1)$ integers in $[1,n]$, none of which is the sum of a
-consecutive subsequence", is the refereed lower bound the site records as
-$\tfrac{13}{24}N-O(1)\le|A|$; since $13n/24-O(1)-n/2=n/24-O(1)\to\infty$,
-it is itself a disproof of the problem's $|A|\le N/2+O(1)$, alongside
+consecutive subsequence", is the refereed lower bound erdosproblems.com records
+as $\tfrac{13}{24}N-O(1)\le|A|$; since $13n/24-O(1)-n/2=n/24-O(1)\to\infty$, it
+is itself a disproof of the problem's $|A|\le N/2+O(1)$, alongside
 [[additive_combinatorics/freud_1993_adding_numbers_problem_p/construction_p6199|Freud's construction]]
 of density $19/36$, which the paper cites as its [1] and builds on.
 Theorem 3.7 (printed p. 177, PDF p. 5), "A sequence of integers in $[1,n]$
 satisfying $S_2$, $S_3$, and $S_4$ contains at most
-$2n/3-\lfloor n/512\rfloor+3\log_4n-1/2$ elements", is the source of the
-site's upper bound $(\tfrac23-\tfrac1{512})N+\log N$: it gives the density
-$\tfrac23-\tfrac1{512}$ with an error of order $\log N$, while the site's
-form read literally is smaller than the printed bound for every $N\ge2$
-($3\log_4N-\tfrac12$ exceeds the natural logarithm $\log N$ from $N=2$ on); its hypotheses
-(no sum of $2$, $3$ or $4$ adjacent elements is an element) are weaker
-than the problem's condition, so it applies to every set the problem
-admits. The published figure is $1/512$; the paper nowhere
-prints the $1/3584$ that
+$2n/3-\lfloor n/512\rfloor+3\log_4n-1/2$ elements", is the source of
+erdosproblems.com's upper bound $(\tfrac23-\tfrac1{512})N+\log N$: it gives the
+density $\tfrac23-\tfrac1{512}$ with an error of order $\log N$, while the
+erdosproblems.com form read literally is smaller than the printed bound for
+every $N\ge2$ ($3\log_4N-\tfrac12$ exceeds the natural logarithm $\log N$ from
+$N=2$ on); its hypotheses (no sum of $2$, $3$ or $4$ adjacent elements is an
+element) are weaker than the problem's condition, so it applies to every set the
+problem admits. The published figure is $1/512$; the paper nowhere prints the
+$1/3584$ that
 [[additive_combinatorics/freud_1993_adding_numbers_problem_p/upper_bound_p6201|Freud's note]]
-reports for the pair's upper bound, which settles the site-versus-source
-difference the problem page recorded in favor of the site's figure.
-Lemma 1.1 (p. 173), "A sequence of integers in $[1,n]$ satisfying $S_2$
-contains at most $2n/3+3/2(\log_4n+1)$ elements", is the layer argument
-for the upper bound $(\tfrac23+o(1))N$ the site credits to Adenwalla,
-with an explicit error term; it bounds the problem's sets from above and
-does not decide the problem. The
-abstract restates Erdős's question as "if $m>n/2+1$ is possible", and § 1
-(p. 173) cites for it a Western Number Theory Problems entry ([2]) rather
-than the problem page's [Er92c]. Open Question 1 (p. 177) leaves the exact
-value of $\liminf m(n)/n$ open between $13/24$ and $2/3-1/512$, which is
-not the site's question.
+reports for the pair's upper bound, which settles the
+erdosproblems.com-versus-source difference the problem page recorded in favor of
+the erdosproblems.com figure. Lemma 1.1 (p. 173), "A sequence of integers in
+$[1,n]$ satisfying $S_2$ contains at most $2n/3+3/2(\log_4n+1)$ elements", is
+the layer argument for the upper bound $(\tfrac23+o(1))N$ erdosproblems.com
+credits to Adenwalla, with an explicit error term; it bounds the problem's sets
+from above and does not decide the problem. The abstract restates Erdős's
+question as "if $m>n/2+1$ is possible", and § 1 (p. 173) cites for it a Western
+Number Theory Problems entry ([2]) rather than the problem page's [Er92c]. Open
+Question 1 (p. 177) leaves the exact value of $\liminf m(n)/n$ open between
+$13/24$ and $2/3-1/512$, which is not the erdosproblems.com question.
 
 **Results.**
 

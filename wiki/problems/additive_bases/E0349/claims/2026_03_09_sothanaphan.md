@@ -24,7 +24,7 @@ updated: 2026-10-08T00:36:27Z
 
 ***
 
-**Claim.** A note posted in the site's thread on 2026-03-09 by Nat
+**Claim.** A note posted in the erdosproblems.com thread on 2026-03-09 by Nat
 Sothanaphan, who writes that GPT-5.2 Thinking produced it, extends van Doorn's
 results on the completeness of $(\lfloor t\alpha^n\rfloor)_{n\ge1}$
 ([[problems/additive_bases/E0349/claims/2025_09_08_van_doorn|van Doorn's claim page]])
@@ -42,8 +42,8 @@ $\alpha\in[1.55,1.60]$, $t\in[1,1.15]$ was already covered by Proposition 5 of
 van Doorn's paper, to mark that row as known. The `preprint` link is the Drive
 copy the thread links.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 9 March
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+9 March 2026:
 
 > GPT-5.2 Thinking has extended Woett's results a little bit in this note (edit:
 > now this is the updated version). Specifically, the infinite-area result is
@@ -59,11 +59,11 @@ settles no pair outside them and does not bear on the conjectured completeness
 for all $t>0$ below the golden ratio.
 
 **Standing.** Claimed: a note on a file-sharing service, not refereed, with no
-site mention and no review beyond van Doorn's thread reply, which called the
-sharpening marginal, noted that van Doorn's own code certifies larger regions in
-seconds, and thanked the poster, saying that van Doorn's computations seemed to
-have been independently verified. The system named is GPT-5.2 Thinking, as the
-poster names it.
+erdosproblems.com mention and no review beyond van Doorn's thread reply, which
+called the sharpening marginal, noted that van Doorn's own code certifies larger
+regions in seconds, and thanked the poster, saying that van Doorn's computations
+seemed to have been independently verified. The system named is GPT-5.2
+Thinking, as the poster names it.
 
 **Depends on.**
 [[problems/additive_bases/E0349/claims/2025_09_08_van_doorn|Van Doorn's claim page]],

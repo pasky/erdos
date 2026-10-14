@@ -110,8 +110,8 @@ Turán's theorem (the value $t_{p-1}(r)$).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1078/_index|Problem 1078]]: the lower bounds
-  that the site describes as showing $r-\frac32$ "best possible" (as stated
-  on p. 98 they give $c_r\ge r-\frac32-\frac1{2(r-2)}$ for $r>4$, and the
+  that erdosproblems.com describes as showing $r-\frac32$ "best possible" (as
+  stated on p. 98 they give $c_r\ge r-\frac32-\frac1{2(r-2)}$ for $r>4$, and the
   printed construction $c_r\ge r-\frac32-\frac1{r-2}$; either bound tends to
   $r-\frac32$ from below) and the 1975 upper bound; the problem page records
   that Haxell and Szabó's theorem gives $c_r$ exactly, equal to the bound

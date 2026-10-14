@@ -31,14 +31,14 @@ Can the $a_k$ be explicitly determined? How fast do they grow?
 **Formulation.** The notation $a_0<a_1<\cdots$ makes the sequence increasing, so
 $a_{k+1}$ is read as the least integer greater than $a_k$ for which
 $\{a_0,\ldots,a_{k+1}\}$ contains no three-term arithmetic progression, as
-[OdSt78] defines it. Read as the site words it, the rule can pick a repeated
-term or one below $a_k$: for $n=1$ it gives $a_2=1$.
+[OdSt78] defines it. Read as Bloom's catalog words it, the rule can pick a
+repeated term or one below $a_k$: for $n=1$ it gives $a_2=1$.
 
-**Status.** Open, the site's label (OPEN; page last edited 20 January 2026). The
-site's commentary credits Odlyzko and Stanley [OdSt78] with explicit
-descriptions of $A(3^m)$ and $A(2\cdot3^m)$ for every $m\ge0$. These answer both
-questions for those $n$. The memorandum states them without proof, and they are
-recorded as a claimed partial claim on
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited 20 January
+2026). The erdosproblems.com commentary credits Odlyzko and Stanley [OdSt78]
+with explicit descriptions of $A(3^m)$ and $A(2\cdot3^m)$ for every $m\ge0$.
+These answer both questions for those $n$. The memorandum states them without
+proof, and they are recorded as a claimed partial claim on
 [[problems/additive_combinatorics/E0271/claims/1978_01_01_odlyzko_stanley|its claim page]].
 Rolnick proved them for $m\ge1$, with growth of order $k^{\log_23}$, in a
 refereed paper. This is recorded as an accepted partial claim on
@@ -67,14 +67,14 @@ https://www.erdosproblems.com/271.
 
 ## Current assessment
 
-The site formulation asks, for the greedy sequence $A(n)$ with $a_0=0$ and
-$a_1=n$, whether the $a_k$ can be explicitly determined and how fast they grow;
-the Formulation above records the increasing reading of the greedy rule, which
-is the one every source uses, and the standing answers the site's wording in
-that reading. The site labeled the problem OPEN (page last edited 20
-January 2026). Sequences that start from a finite progression-free set and
-continue greedily are called Stanley sequences, and $A(n)$ is the Stanley
-sequence $S(0,n)$.
+The erdosproblems.com formulation asks, for the greedy sequence $A(n)$ with
+$a_0=0$ and $a_1=n$, whether the $a_k$ can be explicitly determined and how fast
+they grow; the Formulation above records the increasing reading of the greedy
+rule, which is the one every source uses, and the standing answers the
+erdosproblems.com wording in that reading. Bloom's catalog labeled the problem
+OPEN (page last edited 20 January 2026). Sequences that start from a finite
+progression-free set and continue greedily are called Stanley sequences, and
+$A(n)$ is the Stanley sequence $S(0,n)$.
 
 Regular values. For $n=3^m$ and $n=2\cdot3^m$ the members of $A(n)$ are
 described by their ternary digits, and $a_k$ is of order $k^{\log_23}$,
@@ -89,7 +89,7 @@ claim page
 whose Theorem 1.2 covers these sequences as the simplest members of a class
 of independent Stanley sequences and whose Corollary 2.9 gives every regular
 Stanley sequence growth of order $k^{\log_23}$. The case $n=1$ is the
-sequence of integers with no digit $2$ in base $3$, as the site notes.
+sequence of integers with no digit $2$ in base $3$, as erdosproblems.com notes.
 
 Irregular values. For every other $n$ no explicit description is known.
 Odlyzko and Stanley conjectured that each such sequence grows like
@@ -103,20 +103,19 @@ Bounds for every $n$. Moy [Mo11]
 ([[../library/additive_combinatorics/moy_2011_growth_counting_function_stanley_sequences/_index|card]])
 proved that every Stanley sequence has counting function at least
 $(\sqrt2-\epsilon)\sqrt x$ for large $x$, so $a_k\le(1/2+\epsilon)k^2$ for
-all large $k$; the site's commentary adds that comments on its thread sharpen
-the argument to the explicit bound $a_k\le(k-1)(k+2)/2+n$ for every $k\ge0$.
-These bounds fix no sequence's growth, so they settle no instance and have no
-claim page; the thread comments are not a dated manuscript.
+all large $k$; the erdosproblems.com commentary adds that comments on its thread
+sharpen the argument to the explicit bound $a_k\le(k-1)(k+2)/2+n$ for every
+$k\ge0$. These bounds fix no sequence's growth, so they settle no instance and
+have no claim page; the thread comments are not a dated manuscript.
 
-Search scope: the site's page and commentary (last edited 20 January 2026), the
-community database (which recorded the problem as unformalized, with the OEIS
-entry A005487, on 2026-10-07), the formal-conjectures catalog (no statement
-file for the problem on that date) and the arXiv and Crossref records of
-Rolnick's paper.
-No proof claim is recorded for the problem. Remaining gaps: an explicit
-description or the growth rate of $A(n)$ for any $n$ other than $3^m$ and
-$2\cdot3^m$, and a proof of the conjectured $k^2/\log k$ growth for any
-sequence; no proof has been compiled or independently reviewed by this
+Search scope: the erdosproblems.com page and commentary (last edited 20 January
+2026), the community database (which recorded the problem as unformalized, with
+the OEIS entry A005487, on 2026-10-07), the formal-conjectures catalog (no
+statement file for the problem on that date) and the arXiv and Crossref records
+of Rolnick's paper. No proof claim is recorded for the problem. Remaining gaps:
+an explicit description or the growth rate of $A(n)$ for any $n$ other than
+$3^m$ and $2\cdot3^m$, and a proof of the conjectured $k^2/\log k$ growth for
+any sequence; no proof has been compiled or independently reviewed by this
 corpus.
 <!-- BEGIN problem library links -->
 

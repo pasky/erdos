@@ -240,11 +240,11 @@ $\alpha=\{A_i\}_{i=1}^a$. There exist $i$ in $\{1,2,\ldots,a\}$ and a
 sequence $\langle x_m\rangle_{m=1}^\infty$ such that
 $FS(\langle x_m\rangle_{m=1}^\infty)\subseteq A_i$", is the theorem behind
 the problem's label, in the problem's own positive integers; with $a=2$ it
-is the site's statement, the sequence made strictly increasing by
+is the erdosproblems.com statement, the sequence made strictly increasing by
 [[ramsey_theory/hindman_1974_finite_sums_sequences_within_cells_partition_n/lemma_2_2|Lemma 2.2]]
 (p. 2) so that its terms are the infinite set the problem asks for,
 and the abstract states the two-class case in the words of the Graham and
-Rothschild conjecture (p. 1). The site's remark that the result holds
+Rothschild conjecture (p. 1). The erdosproblems.com remark that the result holds
 however many colors are used is the theorem's $a$. This is the original
 proof the problem page compiled through Baumgartner's note before the
 paper itself was read.

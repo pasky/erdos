@@ -47,7 +47,7 @@ $$
 
 that is, every graph on the ordinal $\omega_1^2$ has an independent set of
 order type $\omega_1\omega$ or contains a triangle. This is the relation
-the site's commentary credits to Erdős and Hajnal, and the one Erdős
+the erdosproblems.com commentary credits to Erdős and Hajnal, and the one Erdős
 records under Problem 3 of
 [[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/_index|Erdős 1987]]
 (printed p. 223) as proved by Hajnal and himself, adding that they could
@@ -70,7 +70,7 @@ Theorem 5 by induction on $t$; nothing on this page is independently
 reviewed by this project.
 
 **Acceptance.** Refereed: a journal paper in Periodica Mathematica Hungarica.
-The site labeled Problem 597 OPEN. So the curator's commentary crediting the
-relation is not acceptance of a claim, and `reviewed` is not listed.
+Bloom's catalog labeled Problem 597 OPEN. So the curator's commentary crediting
+the relation is not acceptance of a claim, and `reviewed` is not listed.
 [[problems/set_theory/E0597/claims/2026_07_27_white|White's report]] uses the
 relation as the base case of its block-graph theorem.

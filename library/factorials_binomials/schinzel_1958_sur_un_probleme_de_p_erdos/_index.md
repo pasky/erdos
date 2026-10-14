@@ -22,8 +22,8 @@ under CC-BY license", as it marks every article in the listing, a Creative
 Commons Attribution license with no version or URL named
 (https://www.impan.pl/en/publishing-house/journals-and-series/colloquium-mathematicum/all/5,
 read 2026-10-02; the article's own page was not opened); the site footer
-"Copyright © 2026 by IMPAN. All rights reserved." speaks for the site, not the
-article.
+"Copyright © 2026 by IMPAN. All rights reserved." speaks for erdosproblems.com,
+not the article.
 
 Schinzel studies the proposition H_{k,n}: there is an integer i with 0 <= i < k
 such that n-i divides the binomial coefficient (n choose k). Erdos had asked

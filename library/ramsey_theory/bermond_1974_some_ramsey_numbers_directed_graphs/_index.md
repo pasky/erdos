@@ -217,9 +217,9 @@ structure only. Nothing here is independently reviewed.
   of $S$, that is, when $S$ is independent in $U_1$. So $R(TT_m,K_p^*)$ is
   the least $n$ such that every directed graph on $n$ vertices contains a
   transitive tournament of size $m$ as a subgraph or an independent set of
-  size $p$: exactly the site's $k(p,m)$, in Erdős and Rado's binary-relation
-  convention that the problem page records under Formulation. Hence
-  Proposition 2.5 is $k(3,3)=9$; Proposition 2.4 is the tournament column
+  size $p$: exactly erdosproblems.com's $k(p,m)$, in Erdős and Rado's
+  binary-relation convention that the problem page records under Formulation.
+  Hence Proposition 2.5 is $k(3,3)=9$; Proposition 2.4 is the tournament column
   $k(2,m)=\nu(m)$, with the listed values $k(2,m)=2,4,8,14,28$ for
   $m=2,\ldots,6$; Lemma 2.1 with Proposition 2.4 is Stearns's
   $k(2,m)\le2^{m-1}$; and Theorem 2.2 at $k=2$ reads
@@ -270,8 +270,8 @@ $R(\vec P_{m-1},K_n^*)=(m-1)(n-1)+1$ for $m,n\ge2$, which concerns only the
 directed-path variant that the problem page records as a different
 function: the largest order of a directed graph with no directed path on
 $m$ vertices and no $n$ independent vertices is $(m-1)(n-1)$, the figure
-the page reports from the site; the page does not cite this paper for it.
-Paged on
+the page reports from erdosproblems.com; the page does not cite this paper for
+it. Paged on
 [[ramsey_theory/bermond_1974_some_ramsey_numbers_directed_graphs/theorem_3_5|theorem_3_5]].
 
 **Results.**

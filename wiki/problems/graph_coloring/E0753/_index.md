@@ -53,22 +53,23 @@ Alon's paper, are linked from the claim page; the corpus did not build them.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks whether some constant $c>0$
-makes $\chi_L(G)+\chi_L(G^c)>n^{1/2+c}$ hold for every graph $G$ on $n$
-vertices. The answer is no:
+The erdosproblems.com formulation (accessed 2026-09-04) asks whether some
+constant $c>0$ makes $\chi_L(G)+\chi_L(G^c)>n^{1/2+c}$ hold for every graph $G$
+on $n$ vertices. The answer is no:
 [[problems/graph_coloring/E0753/claims/1992_06_01_alon|Alon 1992]] gives, for
 every $n$, an $n$-vertex graph with $\chi_L(G)+\chi_L(G^c)=O((n\log n)^{1/2})$,
-refereed in Combin. Probab. Comput. and credited by the site's curator; the
-problem's standing derives from that accepted claim. The order of magnitude of
-the smallest possible $\chi_L(G)+\chi_L(G^c)$ is not part of the question and
-is not assessed here.
+refereed in Combin. Probab. Comput. and credited by the erdosproblems.com
+curator; the problem's standing derives from that accepted claim. The order of
+magnitude of the smallest possible $\chi_L(G)+\chi_L(G^c)$ is not part of the
+question and is not assessed here.
 
-Search scope: the site's page and discussion thread, the community database
-(teorth/erdosproblems), the formal-conjectures statement file, the lean-proofs
-and erdos-lean catalogs, and Crossref; on 2026-10-07 none of them showed
-another claim on the problem. Three copies of Del Vecchio's Lean proof of the
-negative answer, which follows Alon's paper, are linked from the claim page;
-the corpus did not build them, and the site's Lean qualifier rests on them.
+Search scope: the erdosproblems.com page and discussion thread, the community
+database (teorth/erdosproblems), the formal-conjectures statement file, the
+lean-proofs and erdos-lean catalogs, and Crossref; on 2026-10-07 none of them
+showed another claim on the problem. Three copies of Del Vecchio's Lean proof of
+the negative answer, which follows Alon's paper, are linked from the claim page;
+the corpus did not build them, and the erdosproblems.com Lean qualifier rests on
+them.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

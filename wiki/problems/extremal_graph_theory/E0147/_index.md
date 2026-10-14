@@ -29,15 +29,16 @@ $$
 \mathrm{ex}(n;H) \gg n^{2-\frac{1}{r-1}+\epsilon}.
 $$
 
-**Status.** DISPROVED (LEAN). The site's commentary (page last edited 18 January
+**Status.** DISPROVED (LEAN). The erdosproblems.com commentary (page last edited
+18 January
 2026) credits Janzer's rainbow Turán paper [Ja23] with the disproof for even
 $r\ge4$, and the author's later paper [Ja23b] with the case $r=3$. Both are
 refereed. Each is recorded as an accepted claim, on
 [[problems/extremal_graph_theory/E0147/claims/2020_06_01_janzer|the blow-up page]]
 and
 [[problems/extremal_graph_theory/E0147/claims/2021_09_13_janzer|the 3-regular page]].
-The external Lean proof that the site's label refers to is linked, unverified,
-under Formalization below.
+The external Lean proof that the erdosproblems.com label refers to is linked,
+unverified, under Formalization below.
 
 **Source.** [erdosproblems.com/147](https://www.erdosproblems.com/147), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #147,
@@ -71,13 +72,13 @@ $0<\eta<1/6$ gives $r=3$ counterexamples with upper exponents incompatible
 with the proposed lower bound. The linked result records the exponent
 comparison and same-paper dependency chain, with external inputs separate.
 This page records neither a dated broader status search nor independent
-proof-review coverage. The site's label DISPROVED (LEAN) refers to an
+proof-review coverage. The erdosproblems.com label DISPROVED (LEAN) refers to an
 external, unverified Lean proof that refutes the statement through the
 minimum-degree-$4$ witness $C_{12}[2]$, linked above; [Ja23] is credited by
-the site with the even case $r\ge4$ and has its own claim page, but it
+erdosproblems.com with the even case $r\ge4$ and has its own claim page, but it
 remains outside the direct-proof compilation, which rests on [Ja23b] alone. The two
 claim pages carry the acceptance evidence (refereed publication and the
-site's credit) from which the frontmatter standing is derived.
+erdosproblems.com credit) from which the frontmatter standing is derived.
 
 ## Progress
 

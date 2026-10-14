@@ -82,15 +82,15 @@ Source: <https://arxiv.org/abs/1804.03356>.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0787/_index|#787]]: Theorem 1.2
 (p. 2 of arXiv v3) proves, for finite sets of integers, the lower bound
-$(\log n)^{1+c}\ll g(n)$ that the site attributes to this paper, reaching
-the site's real-set $g(n)$ through Choi's reduction to integer sets as the
-problem page records; Proposition 2.7 (p. 6) is the input from which the
-paper deduces it, and Proposition 2.1 (p. 2) the Sudakov-Szemerédi-Vu
+$(\log n)^{1+c}\ll g(n)$ that erdosproblems.com attributes to this paper,
+reaching erdosproblems.com's real-set $g(n)$ through Choi's reduction to integer
+sets as the problem page records; Proposition 2.7 (p. 6) is the input from which
+the paper deduces it, and Proposition 2.1 (p. 2) the Sudakov-Szemerédi-Vu
 dichotomy it quantifies. Theorem 1.1 (p. 1) is Ruzsa's upper
 bound $\exp(O(\sqrt{\log n}))$, quoted from Ruzsa's 2005 paper, filed as
 [[additive_combinatorics/ruzsa_2005_sum_avoiding_subsets/_index|ruzsa_2005_sum_avoiding_subsets]];
-the site displays it without the constant, as
-$g(n)\ll\exp(\sqrt{\log n})$, which read as the site words it claims
+erdosproblems.com displays it without the constant, as
+$g(n)\ll\exp(\sqrt{\log n})$, which read as Bloom's catalog words it claims
 more than Ruzsa's Theorem (proved for
 $e^{c\sqrt{\log n}}$ with $c>\sqrt{8\log2}$).
 

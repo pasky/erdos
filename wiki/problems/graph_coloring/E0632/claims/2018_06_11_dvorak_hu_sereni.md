@@ -4,7 +4,8 @@ title: Dvořák, Hu and Sereni disprove the (am,bm)-choosability conjecture
 desc: |
   Theorem 2 of Dvořák, Hu and Sereni (Advances in Combinatorics 2019) gives a
   graph that is $4$-choosable but not $(8,2)$-choosable, a counterexample at
-  $m=2$. It is accepted on the refereed publication and the site's credit.
+  $m=2$. It is accepted on the refereed publication and the erdosproblems.com
+  credit.
 authors:
 - Zdeněk Dvořák
 - Xiaolan Hu
@@ -53,10 +54,10 @@ prints it; no independent check of the gadget lemmas or the proof is recorded.
 **Acceptance.** Refereed publication: Advances in Combinatorics 2019, Paper No.
 5, 9 pp., doi:10.19086/aic.10811. The paper was received on 11 June 2018 and
 published on 30 October 2019. The preprint is arXiv:1806.03880, first posted on
-11 June 2018, which is the date of this page. The site's curator, T. F. Bloom,
-labeled the problem disproved and credits [DHS19] with the construction. The
-page lists this credit as `reviewed`. The question is from Erdős, Rubin and
-Taylor, who printed it as an open question in
+11 June 2018, which is the date of this page. The erdosproblems.com curator, T.
+F. Bloom, labeled the problem disproved and credits [DHS19] with the
+construction. The page lists this credit as `reviewed`. The question is from
+Erdős, Rubin and Taylor, who printed it as an open question in
 [[../library/graph_coloring/erdos_1980_choosability_graphs/_index|Choosability in graphs]]
 (1980).
 
@@ -67,5 +68,5 @@ formal authors. It builds the paper's $37$-vertex gadget and the uniformization
 by a root $K_4$, and its theorem `not_erdos_632` refutes the conjecture stated
 for finite simple graphs with $1\le b\le a$ and $m\ge1$ through the
 $(4,1)$-choosable, not $(8,2)$-choosable graph. This corpus has not built or
-audited it, so the page lists no `formalized` evidence; the site records no
-formalized statement.
+audited it, so the page lists no `formalized` evidence; erdosproblems.com
+records no formalized statement.

@@ -40,7 +40,7 @@ every $\ell\ge F_\varepsilon(p)$ (Conjecture 1.1, p. 1; "proved by Elliott
 (1.1) forces $S_{F_\varepsilon(p)}(p)<\varepsilon F_\varepsilon(p)$. However,
 an asymptotic formula for $\sum_{p\le x}F_\varepsilon(p)$ does not by itself
 imply the corresponding asymptotic for $\sum_{p\le x}f_\varepsilon(p)$"
-(p. 2). Footnote 1 (p. 1) records that an earlier version of the site's
+(p. 2). Footnote 1 (p. 1) records that an earlier version of erdosproblems.com's
 Problem 981 page stated the first-passage threshold in place of Erdős's
 eventual-time one, and that the paper "studies and resolves that earlier
 first-passage formulation".
@@ -98,10 +98,10 @@ Bretèche, Kurlberg and Shparlinski in Remark 2.4).
 ## Bears on
 
 - [[../wiki/problems/number_theory/E0981/_index|Problem 981]]: the first-passage variant
-  of the problem's eventual-time question, which the site's page stated in
-  error before 27 December 2025 and now records in its commentary as proved
-  by Tang and Zhang; the theorem does not imply Erdős's (80), whose proof
-  the site and this paper attribute to Elliott (1969), the paper's [4].
+  of the problem's eventual-time question, which the erdosproblems.com page
+  stated in error before 27 December 2025 and now records in its commentary as
+  proved by Tang and Zhang; the theorem does not imply Erdős's (80), whose proof
+  erdosproblems.com and this paper attribute to Elliott (1969), the paper's [4].
   Elliott's paper is filed as
   [[number_theory/elliott_1969_conjecture_erdos_concerning_character_sums/_index|elliott_1969_conjecture_erdos_concerning_character_sums]];
   its Theorem, for the two-sided eventual-time threshold $g(\epsilon,p)$,

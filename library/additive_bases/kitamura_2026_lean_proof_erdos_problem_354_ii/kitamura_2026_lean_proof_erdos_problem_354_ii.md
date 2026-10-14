@@ -3,7 +3,7 @@ name: additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/kitamura_2026
 title: Source record for Kitamura's Lean proof of Problem 354(ii)
 desc: |
   Repository identity, commit and files, the author's own verification and
-  AI-assistance statements, and the public records as of 2026-09-28.
+  AI-assistance statements, and the public records, read 2026-09-28.
 created: 2026-09-28T03:20:00Z
 updated: 2026-10-07T20:53:39Z
 ---
@@ -54,18 +54,18 @@ generated)". These are the author's statements, quoted as stated.
   opened 2026-09-24T15:41:47Z, labels `misformalization`, `ai-audit`,
   titled "ErdosProblems/354: `erdos_354.parts.ii` quantifies γ
   existentially, so it is provable with γ = φ rather than asking the
-  variable-base question"; open. The catalog's `main` keeps
+  variable-base question"; open. The formal-conjectures catalog's `main` keeps
   `erdos_354.parts.ii` `research open` with `answer(sorry)`.
 - erdosproblems.com/354: OPEN, last edited 1 December 2025; the thread's
   latest comment (13:09 on 5 September 2026) is the author's
   announcement, with links to the PR, the repository and the web editor,
-  and the two concerns quoted on the card; the site's commentary does not
-  mention the proof.
+  and the two concerns quoted on the card; the erdosproblems.com commentary does
+  not mention the proof.
 - The bounty site Conjectures.io lists no part (ii) task; its review of
   the part (i) record (15 September 2026) cites this repository as "The
   recent formalization of part (ii)", which "uses a base below 2 and does
   not prove part (i)".
 
-**Acceptance.** None documented: no maintainer merge, no site relabeling,
-no review, no refereed source. The catalog's own audit issue disputes the
-formal statement the proof establishes.
+**Acceptance.** None documented: no maintainer merge, no erdosproblems.com
+relabeling, no review, no refereed source. The formal-conjectures catalog's own
+audit issue disputes the formal statement the proof establishes.

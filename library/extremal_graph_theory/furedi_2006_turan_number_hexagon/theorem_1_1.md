@@ -45,7 +45,7 @@ refutes its $k=3$ case. This is different from
 [[../wiki/problems/extremal_graph_theory/E0574/_index|Problem 574]], which forbids both
 $C_{2k-1}$ and $C_{2k}$ and asks for coefficient $2^{-(1+1/k)}$.
 The theorem here does not assert that its nonbipartite construction avoids
-$C_5$. The direct $k=3$ disproof of the catalog formula uses the
+$C_5$. The direct $k=3$ disproof of the erdosproblems.com formula uses the
 bipartite lower construction in
 [[extremal_graph_theory/furedi_2006_turan_number_hexagon/theorem_1_2|Theorem 1.2]].
 

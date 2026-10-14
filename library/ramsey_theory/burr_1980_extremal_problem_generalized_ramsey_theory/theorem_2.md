@@ -3,7 +3,7 @@ name: ramsey_theory/burr_1980_extremal_problem_generalized_ramsey_theory/theorem
 title: "Theorem 2: A n^{3/2} (log n)^{1/2} < g(n) < B n^{5/3} (log n)^{2/3} for large n"
 desc: |
   The 1980 bounds on the largest size of a 3-good connected graph of order
-  n, which in the site's letters bound f(n) of Problem 1182 between the
+  n, which in erdosproblems.com's letters bound f(n) of Problem 1182 between the
   orders n^{3/2} and n^{5/3} up to logarithms.
 created: 2026-09-18T11:20:00Z
 updated: 2026-10-08T15:18:08Z
@@ -16,7 +16,7 @@ updated: 2026-10-08T15:18:08Z
 Here $g(n)=g(3,n)$ is the largest integer $q$ for which there exists a
 connected graph of order $n$ and size $q$ that is $3$-good, that is,
 satisfies $r(K_3,G)=2n-1$ (printed p. 193). In the letters of Problem 1182
-this is the site's $f(n)$.
+this is erdosproblems.com's $f(n)$.
 
 **Theorem 2** (p. 198). "There exist positive constants $A$ and $B$ such that
 
@@ -66,11 +66,12 @@ printed p. 73 (PDF p. 5), both located on the text layer and paged on
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in the site's letters,
+- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in
+  erdosproblems.com's letters,
   $An^{3/2}(\log n)^{1/2}<f(n)<Bn^{5/3}(\log n)^{2/3}$ for positive
-  constants $A,B$ and all sufficiently large $n$, the bounds the site's
-  commentary quotes with $\ll$. The exponents $3/2$ and $5/3$ do not match;
-  the upper bound is improved to $O(n^{3/2}\log n)$ by a deduction from
-  Sudakov's 2007
+  constants $A,B$ and all sufficiently large $n$, the bounds the
+  erdosproblems.com commentary quotes with $\ll$. The exponents $3/2$ and $5/3$
+  do not match; the upper bound is improved to $O(n^{3/2}\log n)$ by a deduction
+  from Sudakov's 2007
   [[ramsey_theory/sudakov_2007_ramsey_numbers_size_graphs/theorem_lower_bound|lower bound]]
   on $r(K_s,G)$, as the problem page records.

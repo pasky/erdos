@@ -33,11 +33,12 @@ $$
 as $f\in \mathbb{R}[x]$ ranges over all non-constant monic polynomials, all of
 whose roots are real and in the interval $[-1,1]$.
 
-**Status.** Open. The site's label was unchanged (OPEN; page last edited 11
-January 2026). The site's proof-claims tab carries three full proof claims, each
-with AI systems named on the tab. They are by Shouqiao Wang (14 July 2026), by
-Tamás Darvas, Binghui Peng and Runzhou Tao (15 July 2026), and by Cristian
-Budala (24 August 2026). All three give the same infimum. The pending claims are
+**Status.** Open. The erdosproblems.com label was unchanged (OPEN; page last
+edited 11 January 2026). The erdosproblems.com proof-claims tab carries three
+full proof claims, each with AI systems named on the tab. They are by Shouqiao
+Wang (14 July 2026), by Tamás Darvas, Binghui Peng and Runzhou Tao (15 July
+2026), and by Cristian Budala (24 August 2026). All three give the same infimum.
+The pending claims are
 [[problems/analysis/E1038/claims/2026_07_14_wang|Wang's page]],
 [[problems/analysis/E1038/claims/2026_07_15_darvas_peng_tao|the page of Darvas,
 Peng and Tao]] and [[problems/analysis/E1038/claims/2026_08_24_budala|Budala's
@@ -66,8 +67,8 @@ https://www.erdosproblems.com/1038.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks for the infimum and the
-supremum of the measure of $E_f=\{x\in\mathbb R:|f(x)|<1\}$ over nonconstant
+The erdosproblems.com formulation (accessed 2026-09-04) asks for the infimum and
+the supremum of the measure of $E_f=\{x\in\mathbb R:|f(x)|<1\}$ over nonconstant
 monic real polynomials with all roots in $[-1,1]$. The supremum is $2\sqrt2$,
 attained by $(x^2-1)^m$: Erdős, Herzog and Piranian [EHP58] proved that bound
 when every root is $\pm1$ and conjectured it in general; Elbert proved the
@@ -77,34 +78,35 @@ accepted partial claim on
 Tao's note *Sublevel sets of logarithmic potentials*, dated 20 December 2025,
 gives the elementary proof through logarithmic potentials that Erdős had asked
 for, the pending partial claim on
-[[problems/analysis/E1038/claims/2025_12_21_tao|Tao's page]]; the site's
-commentary records the value as known. For the infimum the commentary (last
-edited 11 January 2026) records thread bounds between $2^{4/3}-1\approx1.519$
-and about $1.835$, the upper value being the one-cut candidate of Tao's notes,
-which also supplied the structural reductions the claimants start from; the
-thread's certified lower bounds had reached $1.814$ by June 2026, as the
-manuscript of Darvas, Peng and Tao traces. Three AI-assisted manuscripts then
-claim the exact value $L=1.834430475762661\ldots$ by three different lower-bound
-arguments, and two of them, Wang's and Budala's, also claim that no polynomial
-attains it: Wang's component atomization and circle rearrangement with
-interval-arithmetic certificates and an author-run Lean project, the
-dual-measure argument of Darvas, Peng and Tao, and Budala's quantile-adjoint
-comparison with explicit near-minimizers. They are recorded as pending full
-claims on [[problems/analysis/E1038/claims/2026_07_14_wang|Wang's page]],
+[[problems/analysis/E1038/claims/2025_12_21_tao|Tao's page]]; the
+erdosproblems.com commentary records the value as known. For the infimum the
+commentary (last edited 11 January 2026) records thread bounds between
+$2^{4/3}-1\approx1.519$ and about $1.835$, the upper value being the one-cut
+candidate of Tao's notes, which also supplied the structural reductions the
+claimants start from; the thread's certified lower bounds had reached $1.814$ by
+June 2026, as the manuscript of Darvas, Peng and Tao traces. Three AI-assisted
+manuscripts then claim the exact value $L=1.834430475762661\ldots$ by three
+different lower-bound arguments, and two of them, Wang's and Budala's, also
+claim that no polynomial attains it: Wang's component atomization and circle
+rearrangement with interval-arithmetic certificates and an author-run Lean
+project, the dual-measure argument of Darvas, Peng and Tao, and Budala's
+quantile-adjoint comparison with explicit near-minimizers. They are recorded as
+pending full claims on
+[[problems/analysis/E1038/claims/2026_07_14_wang|Wang's page]],
 [[problems/analysis/E1038/claims/2026_07_15_darvas_peng_tao|the page of Darvas,
 Peng and Tao]] and [[problems/analysis/E1038/claims/2026_08_24_budala|Budala's
 page]]; they agree on the value, so the frontmatter derives one pending outcome,
 `answered`, for this determine-the-values question, whose two parts, the infimum
-and the supremum, the page lists. None is refereed, the site has credited none,
-and the corpus has neither built the Lean project nor checked the proofs; the
-objection raised in the comments on Wang's claim to the citations of its first
-version, and the claimant's response, are recorded on Wang's page.
+and the supremum, the page lists. None is refereed, erdosproblems.com has
+credited none, and the corpus has neither built the Lean project nor checked the
+proofs; the objection raised in the comments on Wang's claim to the citations of
+its first version, and the claimant's response, are recorded on Wang's page.
 
 Pommerenke's theorem [Po61] concerns the variant with roots in $[-2,2]$, where
 the infimum is $0$, and does not bear on the standing. The search scope is the
-site page, its proof-claims tab and the comments on the three claims, the three
-manuscripts at their pinned revisions, Wang's library card and Tao's three
-notes; no wider literature search is recorded.
+erdosproblems.com page, its proof-claims tab and the comments on the three
+claims, the three manuscripts at their pinned revisions, Wang's library card and
+Tao's three notes; no wider literature search is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

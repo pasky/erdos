@@ -23,8 +23,8 @@ of Problem 915 at its exact parameters.
 
 ***
 
-P. Bártfai, Solution of a problem posed by P. Erdős (the site's title for the
-solution printed under the heading "10. feladat"). Mat. Lapok 11 (1960),
+P. Bártfai, Solution of a problem posed by P. Erdős (the erdosproblems.com title
+for the solution printed under the heading "10. feladat"). Mat. Lapok 11 (1960),
 175-176.
 
 The pages read for this card are printed pp. 175-176, physical pp. 177-178 of
@@ -70,11 +70,11 @@ solution ("A fenti megoldás a Bártfai Páltól származó megoldás átfogalma
 and names seven further solvers. Paged at
 [[extremal_graph_theory/bartfai_1960_solution_problem_posed_erdos/solution_p175|solution_p175]].
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key
-Ba60; printed pp. 175--176 (page images), the solution of Problem 10 of the
-1959 Schweitzer competition: every loopless graph with $2n+1$ points and
-$3n+k$ lines, $k\ge1$, contains a self-avoiding closed line with an even
-number of lines, and the graph of $n$ triangles (Fig. 4) shows that $3n$
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the
+erdosproblems.com key Ba60; printed pp. 175--176 (page images), the solution of
+Problem 10 of the 1959 Schweitzer competition: every loopless graph with $2n+1$
+points and $3n+k$ lines, $k\ge1$, contains a self-avoiding closed line with an
+even number of lines, and the graph of $n$ triangles (Fig. 4) shows that $3n$
 lines do not suffice. Once parallel lines (which already form an even closed
 line) are set aside, the proof takes a maximal acyclic edge set $\Omega$,
 closes a circuit through each of the at least $n+k$ lines outside it, and

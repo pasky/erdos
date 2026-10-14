@@ -25,8 +25,8 @@ updated: 2026-10-08T00:44:25Z
 $P\in \mathbb{Q}[x]$ ranges over all polynomials with exactly $k$ non-zero
 terms. Is it true that $f(k)\to\infty$ as $k\to \infty$?
 
-**Status.** Proved. The site labeled the problem PROVED. The answer is yes.
-Schinzel proved in 1987 that $f(k)>\log\log k/\log2$. Schinzel and Zannier
+**Status.** Proved. Bloom's catalog labeled the problem PROVED. The answer is
+yes. Schinzel proved in 1987 that $f(k)>\log\log k/\log2$. Schinzel and Zannier
 sharpened this in 2009 to $f(k)\gg\log k$. Both results are refereed, and the
 accepted claim pages are
 [[problems/polynomials/E0485/claims/1987_01_01_schinzel|Schinzel 1987]] and
@@ -58,12 +58,12 @@ for Schinzel 1987 links that proof at its pinned commit.
 
 ## Current assessment
 
-**The question (site formulation, 2026-09-04).** Whether the least number
-$f(k)$ of nonzero terms in the square of a rational polynomial with exactly
-$k$ nonzero terms tends to infinity with $k$. PROVED. The problem is Problem
-4.4 of Hayman's collection [Ha74], attributed to Erdős; the site's
-commentary (page last edited 2026-04-08) records that Rényi and Rédei first
-studied the question, that Erdős [Er49b] proved the upper bound
+**The question (erdosproblems.com formulation, 2026-09-04).** Whether the least
+number $f(k)$ of nonzero terms in the square of a rational polynomial with
+exactly $k$ nonzero terms tends to infinity with $k$. PROVED. The problem is
+Problem 4.4 of Hayman's collection [Ha74], attributed to Erdős; the
+erdosproblems.com commentary (page last edited 2026-04-08) records that Rényi
+and Rédei first studied the question, that Erdős [Er49b] proved the upper bound
 $f(k)<k^{1-c}$ for some $c>0$, that the conjecture $f(k)\to\infty$ is due
 to Erdős and Rényi, and that Schinzel [Sc87] solved it.
 
@@ -85,20 +85,20 @@ $Q(29)\le28$ and submultiplicativity; since Rényi's example has rational
 coefficients, the paper's closing remark (p. 65) gives $f(k)\le c_2k^{1-c_1}$
 as well. Schinzel and Zannier quote Verdenius's sharper upper bound
 $t\ll T^{\log8/\log13}$ along a sequence of polynomials, and a comment of
-2026-02-01 on the site's thread records Verdenius's exponents for real and for
-integer polynomials as the best known. The gap between $\log k$ and a power of
-$k$ is open and is not part of the problem's question.
+2026-02-01 on the erdosproblems.com thread records Verdenius's exponents for
+real and for integer polynomials as the best known. The gap between $\log k$ and
+a power of $k$ is open and is not part of the problem's question.
 
-**Formalization.** The site's label carried no Lean qualification. The
-problem's statement is formalized in formal-conjectures, whose file leaves
+**Formalization.** The erdosproblems.com label carried no Lean qualification.
+The problem's statement is formalized in formal-conjectures, whose file leaves
 its theorem unproved and points to a Lean 4 file in the lean-proofs
 repository that declares itself a formalization of Schinzel's solution and
 proves that the minimum tends to infinity; the claim page links it at its
 pinned commit. Nothing was built or audited here, and no `formalized`
 evidence is claimed.
 
-**Search scope.** The site's page and thread, the formal-conjectures file and
-the lean-proofs file; statements and dates from the papers (Erdős 1949,
+**Search scope.** The erdosproblems.com page and thread, the formal-conjectures
+file and the lean-proofs file; statements and dates from the papers (Erdős 1949,
 Theorem; Schinzel 1987, Theorem 1; Schinzel and Zannier 2009, Theorem 1).
 
 ## Progress

@@ -69,10 +69,10 @@ does not identify the minimizer.
 recorded on its library digest.
 
 **Acceptance.** Refereed: the paper is a publication in the Journal of the
-American Mathematical Society (published online 2023-03-31). The site's
-commentary credits the paper with the asymptotically sharp bound while labeling
-the problem OPEN. So the commentary is not listed as reviewed evidence. The
-corpus's
+American Mathematical Society (published online 2023-03-31). The
+erdosproblems.com commentary credits the paper with the asymptotically sharp
+bound while labeling the problem OPEN. So the commentary is not listed as
+reviewed evidence. The corpus's
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/_index|source card]]
 reconstructs the proof from the arXiv v2 manuscript. That reconstruction is
 incomplete at

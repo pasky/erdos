@@ -85,9 +85,9 @@ for structure; Sections 2-4 not read. Nothing here is independently
 reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1157/_index|#1157]]: for $r=3$ and
-$k=s+\lfloor\log_2s\rfloor+38$ vertices (the site's letters), the family
-$\mathcal F$ has $\mathrm{ex}_3(n,\mathcal F)=O(n^{2-\varepsilon})$, the first
-power saving near the Sárközy-Selkow threshold; the Brown-Erdős-Sós
+$k=s+\lfloor\log_2s\rfloor+38$ vertices (erdosproblems.com's letters), the
+family $\mathcal F$ has $\mathrm{ex}_3(n,\mathcal F)=O(n^{2-\varepsilon})$, the
+first power saving near the Sárközy-Selkow threshold; the Brown-Erdős-Sós
 conjecture itself ($k=s+3$) stays open for every $s\ge4$ per the paper's
 own account. [[../wiki/problems/set_systems/E0716/_index|#716]]: p. 2 (text layer), the
 "(6, 3)-theorem" of Ruzsa and Szemerédi, $f(n,6,3)=o(n^2)$, recorded as the
@@ -99,5 +99,5 @@ bound $d_3(e)\le e+3$ in the problem's conjecture $d_3(e)=e+3$ is
 Conjecture 1.1 (p. 2); Theorem 1.2 (Sárközy--Selkow, p. 2) gives
 $d_3(e)\le e+\lfloor\log_2e\rfloor+2$ and Theorem 1.3 (p. 3) the same with
 $38$ in place of $2$ and a power saving;
-the paper treats $3$-uniform hypergraphs only. The site's page #1076
+the paper treats $3$-uniform hypergraphs only. The erdosproblems.com page #1076
 ($k-2$ edges on $k$ vertices) is not addressed in the pages read.

@@ -31,8 +31,8 @@ $$
 F(n) \leq \exp(O(\sqrt{n}))?
 $$
 
-**Status.** Proved, by Szemerédi and Trotter [SzTr83], whom the site credits.
-The accepted claim is
+**Status.** Proved, by Szemerédi and Trotter [SzTr83], whom erdosproblems.com
+credits. The accepted claim is
 [[problems/discrete_geometry/E0607/claims/1983_09_01_szemeredi_trotter|Szemerédi–Trotter 1983]].
 
 **Source.** [erdosproblems.com/607](https://www.erdosproblems.com/607), accessed

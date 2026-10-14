@@ -26,20 +26,20 @@ by more than one cosets of different sizes? (i.e. each element is contained in
 exactly one of the cosets)
 
 **Formulation.** An exact covering here is a partition of $G$ into finitely
-many left cosets, as in the Herzog–Schönheim conjecture that the site's
-commentary states. "Different sizes" means pairwise different sizes. Read as
-"not all the same size", the question is trivially yes: in $\mathbb Z/4$, the
-coset $\{0,2\}$ and the singletons $\{1\}$ and $\{3\}$ form such a
-partition. Erdős asked the question for abelian groups in [Er77c] and
-[ErGr80], as the site's commentary records. He asked it for finite groups
-that need not be abelian in [Er97c] (P. Erdős, Some of my favorite problems
-and results, The Mathematics of Paul Erdős I (1997), 47–67, p. 53), as the
-site's commentary said before an edit in late October 2025
+many left cosets, as in the Herzog–Schönheim conjecture that the
+erdosproblems.com commentary states. "Different sizes" means pairwise different
+sizes. Read as "not all the same size", the question is trivially yes: in
+$\mathbb Z/4$, the coset $\{0,2\}$ and the singletons $\{1\}$ and $\{3\}$ form
+such a partition. Erdős asked the question for abelian groups in [Er77c] and
+[ErGr80], as the erdosproblems.com commentary records. He asked it for finite
+groups that need not be abelian in [Er97c] (P. Erdős, Some of my favorite
+problems and results, The Mathematics of Paul Erdős I (1997), 47–67, p. 53), as
+the erdosproblems.com commentary said before an edit in late October 2025
 ([history](https://www.erdosproblems.com/history/274)). That edit followed a
 forum comment of 2025-10-07 noting that the abelian case is settled, and it
-dropped the word abelian. The site's statement now concerns every group, and
-the page's standing concerns that statement. In a partition of a group into
-finitely many cosets, every subgroup has finite index
+dropped the word abelian. The erdosproblems.com statement now concerns every
+group, and the page's standing concerns that statement. In a partition of a
+group into finitely many cosets, every subgroup has finite index
 ([[../library/group_theory/korec_znam_1977_disjoint_covering_groups_cosets/_index|Korec and Znám, Theorem 1]]).
 In an infinite group all the cosets therefore have the cardinality of the
 group, so read with sizes, the answer there is no. For a finite group,
@@ -96,8 +96,8 @@ proved that no counterexample can use at most seven cells
 An
 [[../library/group_theory/itabe_2026_herzog_schonheim_conjecture_coset_partitions_at_most_seventeen_cells/_index|unreviewed computer-assisted proof candidate by Itabe]]
 claims the stronger bound of seventeen cells: every counterexample would need
-at least eighteen. It is the site's one proof claim, submitted 2026-08-17, and
-is recorded as claimed on
+at least eighteen. It is erdosproblems.com's one proof claim, submitted
+2026-08-17, and is recorded as claimed on
 [[problems/covering_systems/E0274/claims/2026_08_17_itabe|its claim page]].
 Its exact release includes a complete Lean 4
 formalization, but neither the mathematical proof nor the formalization has
@@ -115,7 +115,7 @@ and Garonzi and Margolis's preprint for simple and symmetric groups
 ([[../library/group_theory/garonzi_margolis_2025_herzog_schonheim_conjecture_simple_symmetric_groups/_index|arXiv:2509.25118]]).
 They are cited through their library cards.
 
-On 2026-10-05 the site showed OPEN (last edited 31 October 2025) with
+On 2026-10-05 erdosproblems.com showed OPEN (last edited 31 October 2025) with
 Itabe's partial claim as its one proof claim; the community database says
 open;
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/274.lean)
@@ -127,9 +127,9 @@ conjectures.io keeps a live bounty whose one partial contribution of 19
 September 2026 says the general conjecture remains open, and it has no claim
 page because it asserts no new result. A machine-checked, unrefereed partial
 result is the Palomar registry entry `PALOMAR-2026-10-02-000004` (registered
-2 October 2026), Murali Menon's Lean 4 proof of the catalog's statement with
-the hypothesis that $G$ is solvable added, finite or infinite $G$, developed
-with Claude and OpenAI Codex models; it is recorded as claimed on
+2 October 2026), Murali Menon's Lean 4 proof of the formal-conjectures statement
+with the hypothesis that $G$ is solvable added, finite or infinite $G$,
+developed with Claude and OpenAI Codex models; it is recorded as claimed on
 [[problems/covering_systems/E0274/claims/2026_10_02_menon|its claim page]].
 Its only review is automated, no human expert has reviewed it, its informal
 write-up is not public, and the only earlier solvable-case claim

@@ -30,8 +30,9 @@ Zhen Liu and Qinghou Zeng, *A complement of the Erdős-Hajnal problem on
 paths with equal-degree endpoints*, arXiv:2505.00523v2 [math.CO], 4 August
 2025 (v1 1 May 2025), 14 pages. A preprint: Crossref and Semantic Scholar
 queries on 2026-09-18, recorded on Problem 816's page, returned no journal
-record, and it is not cited by the site. Not a source key of the site; Problem
-816's page cites it as [LiZe25]. The theorem it extends is filed as
+record, and it is not cited by erdosproblems.com. Not a source key of
+erdosproblems.com; Problem 816's page cites it as [LiZe25]. The theorem it
+extends is filed as
 [[extremal_graph_theory/chen_2025_problem_erdos_hajnal_paths_equal_degree/_index|chen_2025_problem_erdos_hajnal_paths_equal_degree]].
 
 **Edition read.** The copy read for this card is the arXiv copy of v2:
@@ -57,11 +58,11 @@ only and not checked. Result pages:
   (Problems and results in combinatorial analysis and combinatorial number
   theory, Graph theory, combinatorics, and applications, Vol. 1 (Kalamazoo,
   1988), 1991, 397--406) and, in the text, to "Erdős and Hajnal" in 1991,
-  with a pointer to the site's Problem 816 (their [1]): "Is it true that
-  every $(2n+1)$-vertex graph with $n^2+n+1$ edges contains two vertices
-  of the same degree that are joined by a path of length three?" "The bound
-  on the number of edges would be sharp if true, as shown by the complete
-  bipartite graph $K_{n,n+1}$."
+  with a pointer to erdosproblems.com's Problem 816 (their [1]): "Is it true
+  that every $(2n+1)$-vertex graph with $n^2+n+1$ edges contains two vertices of
+  the same degree that are joined by a path of length three?" "The bound on the
+  number of edges would be sharp if true, as shown by the complete bipartite
+  graph $K_{n,n+1}$."
 - Theorem 1.2 (Chen and Ma, their [2], arXiv:2503.19569), p. 1: for
   $n\ge600$, the unique $(2n+1)$-vertex graph with at least $n^2+n$ edges
   and no two equal-degree vertices joined by a path of length three is
@@ -96,8 +97,8 @@ record found; its results are recorded with that qualification.
 (p. 1 = PDF p. 1, page image) states the modified Statement's answer for
 every $n\ge2$, in the strong form that $K_{n,n+1}$ is the unique extremal
 graph, covering the range $2\le n\le599$ left by Chen and Ma's Theorem 2
-(quoted here as Theorem 1.2); Problem 1.1 poses the site's question, with
-exactly $n^2+n+1$ edges, in different words and traces it to the Kalamazoo
+(quoted here as Theorem 1.2); Problem 1.1 poses the erdosproblems.com question,
+with exactly $n^2+n+1$ edges, in different words and traces it to the Kalamazoo
 paper; a preprint result whose proof was not checked here, recorded with that
 qualification. The paper says nothing about $n=1$, where the page's
 literal-wording check lives.

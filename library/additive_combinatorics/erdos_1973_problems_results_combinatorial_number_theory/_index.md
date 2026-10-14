@@ -87,9 +87,9 @@ Company, 1973" at the head of p. 117, every other right reserved.
   second otherwise; the bound follows easily, he says, from the well-known
   inequality $|\alpha-p/q|>c_1/q^2$. He could not prove $f(d)<\varepsilon d$
   for small $\varepsilon$ and had no lower bound at all, beyond
-  $f(d)\to\infty$, which van der Waerden's theorem gives. The site's account
-  writes the coloring with $\sqrt2$; Erdős says "a quadratic irrationality,
-  say $\sqrt5$".
+  $f(d)\to\infty$, which van der Waerden's theorem gives. erdosproblems.com's
+  account writes the coloring with $\sqrt2$; Erdős says "a quadratic
+  irrationality, say $\sqrt5$".
 - Printed p. 122 (PDF p. 6), Section 2, for
   [[../wiki/problems/ramsey_theory/E0532/_index|#532]]: after the Sanders–Folkman finite
   sums theorem (for every $n$ there is a $g(n)$ such that any two-coloring
@@ -174,8 +174,9 @@ Company, 1973" at the head of p. 117, every other right reserved.
   the sums $a_{i_1}+\cdots+a_{i_r}$, $1\le r\le k$ are $\equiv\pmod p$?" Erdős
   adds that Graham proved the case $k=p-1$ and that the general case was open.
   The display is printed with "$\equiv\pmod p$" and no right-hand side, the
-  sense being that no two of the partial sums are congruent; the question is the
-  site's Problem 475 in its residue form. Claims checked; no proof is given.
+  sense being that no two of the partial sums are congruent; the question is
+  erdosproblems.com's Problem 475 in its residue form. Claims checked; no proof
+  is given.
 - Printed p. 126 (PDF p. 10), Graham's first problem, for
   [[../wiki/problems/integer_sequences/E0541/_index|#541]]: the first of two problems
   of Graham that Erdős records: "Let $a_1,\ldots,a_p$ be $p$ not
@@ -232,8 +233,9 @@ Company, 1973" at the head of p. 117, every other right reserved.
   proof of $g(n)>(1+\varepsilon)\sqrt{2n}$ for some $\varepsilon>0$, Moser's
   improvement with a still very small $\varepsilon$, and Rohrbach's conjecture
   $g(n)=2\sqrt n+\mathrm o(1)$ (as printed), which Erdős calls far out of reach.
-  The basis contains $0$ and the range is $0\le m\le n$, so $g(n)$ is the site's
-  inverse function of the maximal range. Claims checked; no proof is given.
+  The basis contains $0$ and the range is $0\le m\le n$, so $g(n)$ is
+  erdosproblems.com's inverse function of the maximal range. Claims checked; no
+  proof is given.
 - Printed p. 131 (PDF p. 15), Section 10, display (10.4), for
   [[../wiki/problems/integer_sequences/E0490/_index|#490]]: a conjecture Erdős calls an
   old one of his: "Let $1\le a_1<\cdots<a_k\le x$,
@@ -246,8 +248,8 @@ Company, 1973" at the head of p. 117, every other right reserved.
   for distinct subset products $\prod a_i^{\varepsilon_i}$, the bound
   $\max k\le\pi(x)+cx^{1/2}/\log x$ and the guess
   $\max k=\pi(x)+\pi(\sqrt x)+o(x^{1/2}/\log x)$, the bound and conjecture
-  of Problem 795, for which the site does not key this chapter; the passage
-  is quoted under Bears on below.
+  of Problem 795, for which erdosproblems.com does not key this chapter; the
+  passage is quoted under Bears on below.
 - Printed pp. 132--133 (PDF pp. 16--17), the close of Section 11, for
   [[../wiki/problems/integer_sequences/E0012/_index|#12]]: for an infinite sequence of
   integers in which no term divides the sum of two larger terms, Erdős
@@ -323,7 +325,7 @@ the products $\prod_{i=1}^ka_i^{\varepsilon_i}$, $\varepsilon_i=0$ or $1$,
 are distinct. Then $\max k\le\pi(x)+c\frac{x^{1/2}}{\log x}$; perhaps
 $\max k=\pi(x)+\pi(\sqrt x)+o\bigl(\frac{x^{1/2}}{\log x}\bigr)$", the
 problem's bound and conjecture in Erdős's words, unnumbered and without a
-proof or reference; not a site key for the problem)
+proof or reference; not an erdosproblems.com key for the problem)
 
 **Results.**
 

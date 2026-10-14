@@ -5,7 +5,7 @@ desc: |
   Erdős's 1981 remark that an infinite sequence with every a_i + a_j,
   i ≤ j, squarefree exists and can be taken to grow exponentially, with his
   question whether it must grow so fast and his expectation that no such
-  sequence has polynomial growth; the site's source for Problem 1103.
+  sequence has polynomial growth; the erdosproblems.com source for Problem 1103.
 created: 2026-10-08T15:50:52Z
 updated: 2026-10-08T15:50:52Z
 ---
@@ -40,9 +40,9 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E1103/_index|Problem 1103]]: the
-  site's [Er81h] source. The problem asks how fast an infinite $A$ with every
-  element of $A+A$ squarefree must grow; the paper's condition includes the
-  doubles $2a_i$ ($i\le j$), its exponential example is an upper bound for
-  the least growth, and its expectation that polynomial growth is impossible
-  is a guess, not a result.
+- [[../wiki/problems/integer_sequences/E1103/_index|Problem 1103]]:
+  erdosproblems.com's [Er81h] source. The problem asks how fast an infinite $A$
+  with every element of $A+A$ squarefree must grow; the paper's condition
+  includes the doubles $2a_i$ ($i\le j$), its exponential example is an upper
+  bound for the least growth, and its expectation that polynomial growth is
+  impossible is a guess, not a result.

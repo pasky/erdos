@@ -27,19 +27,20 @@ updated: 2026-10-08T14:17:37Z
 infinite chromatic number such that every finite subgraph on $n$ vertices can be
 made bipartite by deleting at most $f(n)$ edges?
 
-**Status.** DISPROVED (LEAN), the site's label. The site credits a negative
-answer found by GPT-6 Astra: a divergent edge-deletion budget forces
-three-colorability. The corpus accepts the claim,
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. erdosproblems.com
+credits a negative answer found by GPT-6 Astra: a divergent edge-deletion budget
+forces three-colorability. The corpus accepts the claim,
 [[problems/graph_coloring/E0074/claims/2026_09_03_adamczewski|a slow edge-deletion budget forces three colors]],
 on formalized evidence. The pinned Lean development was built here, and its
 compared statement was audited against the Statement above. So the problem
 stands solved and disproved. That evidence certifies the disproof and not the
-three-color strengthening. The site's acceptance, the preliminary expositions,
-and the scope of the reconstructed proof are distinguished below. Rödl's
-positive answer for the budgets $f(n)=\epsilon n$ is a partial claim,
+three-color strengthening. erdosproblems.com's acceptance, the preliminary
+expositions, and the scope of the reconstructed proof are distinguished below.
+Rödl's positive answer for the budgets $f(n)=\epsilon n$ is a partial claim,
 [[problems/graph_coloring/E0074/claims/1982_12_01_rodl|nearly bipartite graphs of infinite chromatic number]].
-On 2026-09-05 the site listed the variant $f(n)=\sqrt n$ as an open subquestion.
-The site notes that Erdős offered more for a proof than for a counterexample.
+On 2026-09-05 erdosproblems.com listed the variant $f(n)=\sqrt n$ as an open
+subquestion. erdosproblems.com notes that Erdős offered more for a proof than
+for a counterexample.
 
 **Source.** [erdosproblems.com/74](https://www.erdosproblems.com/74), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #74,
@@ -66,35 +67,35 @@ comparison module, and public CI evidence are identified in the
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-05) asks, for every $f$ tending to
-infinity, for a graph of infinite chromatic number every $n$-vertex subgraph
-of which becomes bipartite after deleting at most $f(n)$ edges. The site
-accepts the headline formal resolution, a negative answer, while Bloom and
-the benchmark report describe the informal understanding and relationship to
-prior work as preliminary.
+The erdosproblems.com formulation (accessed 2026-09-05) asks, for every $f$
+tending to infinity, for a graph of infinite chromatic number every $n$-vertex
+subgraph of which becomes bipartite after deleting at most $f(n)$ edges.
+erdosproblems.com accepts the headline formal resolution, a negative answer,
+while Bloom and the benchmark report describe the informal understanding and
+relationship to prior work as preliminary.
 
 **Claims.** Two claim pages. The full claim is accepted. Its claimant is Tom
 Adamczewski, whose repository publishes the Lean development and who co-wrote
-the FrontierMath Erdős paper (arXiv:2609.25050) that records the result. The
-site's proof claim of 2026-09-03 was submitted by the curator, a co-author of
-that paper, so the site's acceptance is not independent of the claimant and is
-not `reviewed` evidence, and there is no refereed publication; the Lean
-development was built here at its pinned commit, its axioms found to be the
-three standard ones, the compared declaration's fingerprint matched to the
-challenge and its statement audited clause by clause against the Statement
-above, which is `formalized` evidence. The problem's standing is therefore
-solved, with the claim a disproof; the formal evidence certifies the
-disproof, finite chromatic number, and not the three-color strengthening,
-which the compared primary module does not state. The partial claim is
-Rödl's 1982 theorem, credited by the site, that the answer is yes for
-$f(n)=\epsilon n$ with any fixed $\epsilon>0$; its page is pending, because
-the paper is not held and the statement rests on the site's attribution, which
-no publisher record states.
+the FrontierMath Erdős paper (arXiv:2609.25050) that records the result.
+erdosproblems.com's proof claim of 2026-09-03 was submitted by the curator, a
+co-author of that paper, so erdosproblems.com's acceptance is not independent of
+the claimant and is not `reviewed` evidence, and there is no refereed
+publication; the Lean development was built here at its pinned commit, its
+axioms found to be the three standard ones, the compared declaration's
+fingerprint matched to the challenge and its statement audited clause by clause
+against the Statement above, which is `formalized` evidence. The problem's
+standing is therefore solved, with the claim a disproof; the formal evidence
+certifies the disproof, finite chromatic number, and not the three-color
+strengthening, which the compared primary module does not state. The partial
+claim is Rödl's 1982 theorem, credited by erdosproblems.com, that the answer is
+yes for $f(n)=\epsilon n$ with any fixed $\epsilon>0$; its page is pending,
+because the paper is not held and the statement rests on the erdosproblems.com
+attribution, which no publisher record states.
 
-Search scope: the site's problem page, discussion thread, proof exposition and
-proof claim (thread and claim without comments on 2026-09-05); the pinned proof
-repository; the FrontierMath Erdős benchmark report; and the original
-publisher and author-archive records of the two references.
+Search scope: the erdosproblems.com problem page, discussion thread, proof
+exposition and proof claim (thread and claim without comments on 2026-09-05);
+the pinned proof repository; the FrontierMath Erdős benchmark report; and the
+original publisher and author-archive records of the two references.
 
 The full proof chain for the PDF route is recorded, with its exact
 quantifiers, finite/infinite distinction, and quantitative supplement.
@@ -105,8 +106,8 @@ mathematical refereeing, which has not occurred.
 
 ## Progress
 
-The site attributes the 2026 disproof to GPT-6 Astra in the FrontierMath
-Erdős benchmark. Bloom's proof claim of 2026-09-03 supplies a PDF
+erdosproblems.com attributes the 2026 disproof to GPT-6 Astra in the
+FrontierMath Erdős benchmark. Bloom's proof claim of 2026-09-03 supplies a PDF
 exposition that GPT generated from the Lean proof at the claimant's request, and
 the claimant's own preliminary sketch. The
 [[../library/graph_coloring/adamczewski_2026_erdos74/theorem_1_1|complete reconstructed argument]]
@@ -127,14 +128,14 @@ record those reusable steps. The final passage to infinite graphs uses
 
 The original source is
 [[../library/graph_coloring/erdos_1982_almost_bipartite_large_chromatic_graphs/_index|Erdős–Hajnal–Szemerédi (1982)]].
-The site credits Rödl [Ro82] with the positive result for $f(n)=\epsilon n$
-for every fixed $\epsilon>0$, by a graph of chromatic number $\aleph_0$, and
-with the analogous assertion for hypergraphs; the graph result is the partial
-claim page named under **Status.**, and the hypergraph result is a variant of
-the question, not an instance of it, so it has no page. The paper is not held
-and its proofs are not compiled. The site listed the budget $\sqrt n$ as an
-open subquestion on 2026-09-05, beside the negative answer to the universal
-conjecture.
+erdosproblems.com credits Rödl [Ro82] with the positive result for
+$f(n)=\epsilon n$ for every fixed $\epsilon>0$, by a graph of chromatic number
+$\aleph_0$, and with the analogous assertion for hypergraphs; the graph result
+is the partial claim page named under **Status.**, and the hypergraph result is
+a variant of the question, not an instance of it, so it has no page. The paper
+is not held and its proofs are not compiled. erdosproblems.com listed the budget
+$\sqrt n$ as an open subquestion on 2026-09-05, beside the negative answer to
+the universal conjecture.
 
 The version with vertex deletions is
 [[problems/graph_coloring/E0750/_index|Problem 750]]. Requiring uncountable

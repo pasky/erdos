@@ -64,7 +64,8 @@ a permutation group, and Conjecture 4.2, that the splitting fields of f_{n_1}
 and f_{n_2} meet only in Q for n_1 != n_2 (with f_n(t) = t(t+1)...(t+n-1) - 1,
 the polynomials of Section 3), would with it, the paper says, imply Erdős's
 distinctness conjecture on average over primes; the paper proves neither the
-conjecture nor that consequence. The paper is one of the references the site lists for Problem 478.
+conjecture nor that consequence. The paper is one of the references
+erdosproblems.com lists for Problem 478.
 
 Source: <https://arxiv.org/abs/1505.01198v1>.
 

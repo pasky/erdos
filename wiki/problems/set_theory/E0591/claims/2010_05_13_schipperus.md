@@ -57,7 +57,7 @@ and its
 [[../library/set_theory/schipperus_2010_countable_partition_ordinals/theorem_28|theorem page]];
 Sections 2–10 are followed for structure only and nothing is independently
 reviewed. The paper states (p. 1197) that Darby independently proved the
-case $\beta=2$, and the site credits Darby beside Schipperus without a
+case $\beta=2$, and erdosproblems.com credits Darby beside Schipperus without a
 reference; no publication of Darby's proof is held or cited by either, so
 Darby's proof is disclosed here and has no page of its own.
 
@@ -69,5 +69,5 @@ commentary. The curator is independent of the author.
 **Formalization.** The
 [formal-conjectures statement file](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/591.lean)
 (2026-10-07) marks its statement `erdos_591` research solved with
-`answer(True)` and no formal-proof link, and the site's label carried no
-Lean tag; no formalization of the proof is recorded.
+`answer(True)` and no formal-proof link, and the erdosproblems.com label carried
+no Lean tag; no formalization of the proof is recorded.

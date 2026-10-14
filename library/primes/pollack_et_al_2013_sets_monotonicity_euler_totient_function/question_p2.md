@@ -67,8 +67,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/primes/E0049/_index|Problem 49]]: Question 1 is the finer form of
-  the weak variant that Erdős further asks about in the site's [Er95c]; its
-  status is distinct from the catalog's strict question, whose first clause
-  (are the primes a largest strict example) no located source addresses.
+  the weak variant that Erdős further asks about in erdosproblems.com's [Er95c];
+  its status is distinct from erdosproblems.com's strict question, whose first
+  clause (are the primes a largest strict example) no located source addresses.
   The two questions are background for the problem page's weak-variant
   account, not resolutions of the strict question.

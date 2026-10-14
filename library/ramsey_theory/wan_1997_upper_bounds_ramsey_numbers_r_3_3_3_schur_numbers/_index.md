@@ -10,7 +10,7 @@ desc: |
   Chen's e - 1/6.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-07T19:30:53Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers
@@ -19,12 +19,12 @@ updated: 2026-10-07T19:30:53Z
 
 [[ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/theorem_2_4|theorem_2_4]]: Wan's upper bound on the n-color Ramsey number of the triangle, r_n at most
 n!(e - 1/e + 3)/2 + 1 for n at least 4, proved from Folkman's r_4 at most 65
-by a parity refinement of the Greenwood–Gleason recursion; the bound the
-site credits to Wan between Whitehead's and Xu, Xie and Chen's.
+by a parity refinement of the Greenwood–Gleason recursion; the bound
+erdosproblems.com credits to Wan between Whitehead's and Xu, Xie and Chen's.
 
 [[ramsey_theory/wan_1997_upper_bounds_ramsey_numbers_r_3_3_3_schur_numbers/theorem_3_2|theorem_3_2]]: Wan's upper bound on the least N forcing a monochromatic solution of
-x + y = z in every n-coloring of {1,...,N}, the site's f(n): for even n at
-least 6, f(n) is less than n!(e - 1/e + 3)/2 - n + 2, by a difference
+x + y = z in every n-coloring of {1,...,N}, erdosproblems.com's f(n): for even
+n at least 6, f(n) is less than n!(e - 1/e + 3)/2 - n + 2, by a difference
 coloring and the parity refinement.
 
 ***
@@ -80,9 +80,9 @@ $n\le8$ were recomputed here. Nothing here is independently reviewed.
 - Abstract and § 1, Introduction (pp. 119--120, page images). $r_n$ denotes
   $R(3,3,\ldots,3)$ with $n$ threes, the least $p$ such that every
   $n$-coloring of the edges of $K_p$ contains a monochromatic triangle; it
-  is the site's $R(3;n)$ and Eliahou's $R_n(3)$. The paper recalls the bound
-  of Greenwood and Gleason [9], $r_n\le n!\sum_{k=0}^n1/k!+1\le n!e+1$, and
-  the improvement $r_n<n!(e-1/24)+1$, credited to Whitehead [13] (the 1971
+  is erdosproblems.com's $R(3;n)$ and Eliahou's $R_n(3)$. The paper recalls the
+  bound of Greenwood and Gleason [9], $r_n\le n!\sum_{k=0}^n1/k!+1\le n!e+1$,
+  and the improvement $r_n<n!(e-1/24)+1$, credited to Whitehead [13] (the 1971
   note in Discrete Math. 1, with "see [6]" for Fredricksen's 1975
   proceedings paper) and resting on Folkman's [5] bound $r_4\le65$. The
   paper's aim, in its words (p. 120): the original techniques "can be
@@ -121,22 +121,21 @@ $n\le8$ were recomputed here. Nothing here is independently reviewed.
 - § 3, An application to Schur numbers (p. 121, page image). The paper's
   Schur number $S_n$ is the least $N$ such that every $n$-coloring $\Delta$
   of $\{1,\ldots,N\}$ has $x$ and $y$ with $\Delta(x)=\Delta(y)=\Delta(x+y)$,
-  with $x=y$ not excluded: the site's $f(n)$ of Problem 483 and one more
-  than the literature's $S(n)$. The paper prints $S_1=2$, $S_2=5$, $S_3=14$,
-  $S_4=45$ and $S_5\ge158$ (its [2], [6], [7]), recalls Schur's $S_n\le n!e$
-  from [11] and the standard $S_n\le r_n-1$ (cf. [8]), "the lowest known
-  upper bound" at the time, and points to [10] for discussion and [1] for a
-  lower bound. Lemma 3.1: an even $r_{n-1}$ gives $S_n\le n(r_{n-1}-2)+2$;
-  the proof sets $N=n(r_{n-1}-2)+2$, colors the edges of the complete graph
-  on $\{1,\ldots,N+1\}$ by $\Delta^*(\{u,v\})=\Delta(|u-v|)$ (the display
-  prints $K_{n+1}$ where the argument needs $N+1$ vertices), finds by
-  pigeonhole $r_{n-1}/2$ numbers $x_j\le N/2$ of one color $i$, and looks at
-  the complete subgraph on the $r_{n-1}$ vertices $m\pm x_j$ with
-  $m=N/2+1$: either it has an $i$-colored edge, which with $m$ closes an
-  $i$-colored triangle, or it is $(n-1)$-colored on $r_{n-1}$ vertices; a
-  monochromatic triangle $a>b>c$ gives $x=a-b$, $y=b-c$ with
-  $\Delta(x)=\Delta(y)=\Delta(x+y)$ (the last display drops the $\Delta$
-  before $(x+y)$). Theorem 3.2 bounds $S_n$ strictly by
+  with $x=y$ not excluded: erdosproblems.com's $f(n)$ of Problem 483 and one
+  more than the literature's $S(n)$. The paper prints $S_1=2$, $S_2=5$,
+  $S_3=14$, $S_4=45$ and $S_5\ge158$ (its [2], [6], [7]), recalls Schur's
+  $S_n\le n!e$ from [11] and the standard $S_n\le r_n-1$ (cf. [8]), "the lowest
+  known upper bound" at the time, and points to [10] for discussion and [1] for
+  a lower bound. Lemma 3.1: an even $r_{n-1}$ gives $S_n\le n(r_{n-1}-2)+2$; the
+  proof sets $N=n(r_{n-1}-2)+2$, colors the edges of the complete graph on
+  $\{1,\ldots,N+1\}$ by $\Delta^*(\{u,v\})=\Delta(|u-v|)$ (the display prints
+  $K_{n+1}$ where the argument needs $N+1$ vertices), finds by pigeonhole
+  $r_{n-1}/2$ numbers $x_j\le N/2$ of one color $i$, and looks at the complete
+  subgraph on the $r_{n-1}$ vertices $m\pm x_j$ with $m=N/2+1$: either it has an
+  $i$-colored edge, which with $m$ closes an $i$-colored triangle, or it is
+  $(n-1)$-colored on $r_{n-1}$ vertices; a monochromatic triangle $a>b>c$ gives
+  $x=a-b$, $y=b-c$ with $\Delta(x)=\Delta(y)=\Delta(x+y)$ (the last display
+  drops the $\Delta$ before $(x+y)$). Theorem 3.2 bounds $S_n$ strictly by
   $n!\,(e-e^{-1}+3)/2-n+2$ for even $n\ge6$, from Lemma 2.3 at $n-1$, the
   parity of $A_{n-1}-(n-1)!B_{n-1}+1$ for even $n$, and Lemma 3.1 applied to
   that even bound (the same generalized use as observation (a)). Paged on
@@ -157,21 +156,20 @@ above; none is independently reviewed, and the finite input $r_4\le65$
 it.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0483/_index|#483]]: Theorem 2.4 (p. 121),
-$r_n\le n!(e-e^{-1}+3)/2+1$ for $n\ge4$, is the bound the site credits to
-Wan in the chain from Whitehead's $e-1/24$ to Xu, Xie and Chen's $e-1/6$, as
+$r_n\le n!(e-e^{-1}+3)/2+1$ for $n\ge4$, is the bound erdosproblems.com credits
+to Wan in the chain from Whitehead's $e-1/24$ to Xu, Xie and Chen's $e-1/6$, as
 does Eliahou's introduction; with the paper's own $S_n\le r_n-1$ (p. 121) it
 gives $f(k)<k!(e-e^{-1}+3)/2$ for $k\ge4$, and Theorem 3.2 (p. 121) gives
-$f(k)<k!(e-e^{-1}+3)/2-k+2$ for even $k\ge6$, both directly in the site's
-convention, since the paper's $S_n$ is the least forcing number with the printed
-values $S_1=2$, $S_2=5$, $S_3=14$, $S_4=45$. Both bounds are weaker than the
-held $(e-1/6)k!$ for every $k\ge4$, so they change no bound on the page and
-settle nothing it leaves open. The paper credits the $e-1/24$ bound to
-Whitehead's 1971 note (its [13]), as Eliahou does; the site's [Wh73] is its
-[14].
-[[../wiki/problems/ramsey_theory/E0183/_index|#183]]: Theorem 2.4 (p. 121) is an upper
-bound on the problem's $R(3;k)$ for $k\ge4$, factorial like every bound in
-the chain and superseded by the $(e-1/6)k!+1$ held in Eliahou's Corollary
-2; it says nothing about $\lim R(3;k)^{1/k}$.
+$f(k)<k!(e-e^{-1}+3)/2-k+2$ for even $k\ge6$, both directly in the
+erdosproblems.com convention, since the paper's $S_n$ is the least forcing
+number with the printed values $S_1=2$, $S_2=5$, $S_3=14$, $S_4=45$. Both bounds
+are weaker than the held $(e-1/6)k!$ for every $k\ge4$, so they change no bound
+on the page and settle nothing it leaves open. The paper credits the $e-1/24$
+bound to Whitehead's 1971 note (its [13]), as Eliahou does; erdosproblems.com's
+[Wh73] is its [14]. [[../wiki/problems/ramsey_theory/E0183/_index|#183]]:
+Theorem 2.4 (p. 121) is an upper bound on the problem's $R(3;k)$ for $k\ge4$,
+factorial like every bound in the chain and superseded by the $(e-1/6)k!+1$ held
+in Eliahou's Corollary 2; it says nothing about $\lim R(3;k)^{1/k}$.
 
 **Results.**
 

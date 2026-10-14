@@ -44,6 +44,6 @@ None.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E1090/_index|Problem 1090]]: the
-  question is the problem's, which the site states for finite sets and
+  question is the problem's, which erdosproblems.com states for finite sets and
   $k\ge3$. The survey's report is the Graham-Selfridge case $k=3$, without
   construction or reference, and it records the cases $k>3$ as open in 1975.

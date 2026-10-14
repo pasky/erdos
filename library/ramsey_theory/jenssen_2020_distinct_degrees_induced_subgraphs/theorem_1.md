@@ -25,9 +25,9 @@ Then $f(G)=\Omega_C(N^{2/3})$."
 
 The definition of $f(G)$ carries no requirement on the number of vertices of
 the induced subgraph, so Theorem 1 says nothing about induced subgraphs on a
-constant fraction of the vertices; the site's Problem 637 asks for those, and
-Bukh and Sudakov's Theorem 1.1 supplies them with $\Omega_C(N^{1/2})$ distinct
-degrees. The paper (p. 2) states the tightness of the exponent $2/3$ as
+constant fraction of the vertices; erdosproblems.com's Problem 637 asks for
+those, and Bukh and Sudakov's Theorem 1.1 supplies them with $\Omega_C(N^{1/2})$
+distinct degrees. The paper (p. 2) states the tightness of the exponent $2/3$ as
 follows: Bukh and Sudakov showed that $f(G_{N,1/2})=O(N^{2/3})$ with high
 probability, and "An unpublished result of Conlon, Morris, Samotij and Saxton
 [4] shows that whp $f(G_{N,1/2})=\Omega(N^{2/3})$, so this in fact gives the
@@ -87,6 +87,6 @@ Conlon--Morris--Samotij--Saxton manuscript for neither.
 
 - [[../wiki/problems/ramsey_theory/E0637/_index|Problem 637]]: a strengthening of the
   distinct-degree count from $N^{1/2}$ to $N^{2/3}$ for an induced subgraph
-  of unrestricted size; not the site's statement, which fixes a linear-size
-  induced subgraph, and so a different quantity from the one the problem
-  bounds.
+  of unrestricted size; not the erdosproblems.com statement, which fixes a
+  linear-size induced subgraph, and so a different quantity from the one the
+  problem bounds.

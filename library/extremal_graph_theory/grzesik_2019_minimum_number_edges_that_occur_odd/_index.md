@@ -117,8 +117,8 @@ p. 31; its results are reported through this paper.
 Appendix A directs readers to the authors'
 [supplementary page](https://honza.ucw.cz/proj/EdgesInCycles/)
 for the certificate verification associated with Propositions 3.2 and 4.2.
-Viewed on 2026-09-09, the site instead labels its matrices and Sage scripts
-as supporting Claims A.1 and B.1. Those labels have not been reconciled
+Viewed on 2026-09-09, erdosproblems.com instead labels its matrices and Sage
+scripts as supporting Claims A.1 and B.1. Those labels have not been reconciled
 with the v3 manuscript's numbering. The linked archive and scripts
 were not acquired, inspected or replayed, and no Lean verification was
 performed.

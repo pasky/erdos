@@ -120,9 +120,9 @@ Source: <https://users.renyi.hu/~p_erdos/1975-44.pdf>.
 induced Ramsey number $R^*(G)$, which the paper obtains from
 [[ramsey_theory/erdos_1975_strong_embeddings_graphs_into_colored_graphs/theorem_2|Theorem 2]] and its extension on p. 587
 ([[ramsey_theory/erdos_1975_strong_embeddings_graphs_into_colored_graphs/existence_p586|existence page]]); this is one of the three
-independent proofs the site credits. The paper gives no bound on the order of
-a finite host. Theorems 1 and 3 concern infinite hosts and bear on no problem
-in the corpus.
+independent proofs erdosproblems.com credits. The paper gives no bound on the
+order of a finite host. Theorems 1 and 3 concern infinite hosts and bear on no
+problem in the corpus.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

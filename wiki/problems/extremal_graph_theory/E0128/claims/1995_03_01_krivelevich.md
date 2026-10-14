@@ -52,10 +52,10 @@ and regular graphs of smaller degree; the question as posed stays open.
 **Depends on.** Nothing in this wiki; the proof is self-contained.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
-Theory, Series B. The site's commentary credits Krivelevich with the constant
-$1/36$ and with a misstated form of Theorem 4, but not with Theorem 3. The site
-labeled the problem FALSIFIABLE, which settles nothing, so no `reviewed`
-evidence is listed.
+Theory, Series B. The erdosproblems.com commentary credits Krivelevich with the
+constant $1/36$ and with a misstated form of Theorem 4, but not with Theorem 3.
+Bloom's catalog labeled the problem FALSIFIABLE, which settles nothing, so no
+`reviewed` evidence is listed.
 
 **Dating.** The publisher's record dates the issue March 1995 and gives no
 day, so the day is a placeholder.

@@ -64,9 +64,9 @@ bipartite subgraph with at least $n/2$ of them; no other source.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E0846/_index|Problem 846]]: the theorem
-  answers the question no. The paper calls post 4447 of the site's thread its
-  original communication of the result and notes that an internal model at
-  OpenAI found it independently and that it also follows from a projection
-  argument of Reiher, Rödl and Sales (p. 42). The result is recorded on the
-  claim page
+  answers the question no. The paper calls post 4447 of the erdosproblems.com
+  thread its original communication of the result and notes that an internal
+  model at OpenAI found it independently and that it also follows from a
+  projection argument of Reiher, Rödl and Sales (p. 42). The result is recorded
+  on the claim page
   [[../wiki/problems/discrete_geometry/E0846/claims/2026_02_25_deepmind|Google DeepMind 2026]].

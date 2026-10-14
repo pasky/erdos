@@ -5,7 +5,7 @@ desc: |
   Sarosh Adenwalla's 2025 arXiv paper proves that no integer $n$ has a covering
   system of residue classes, one for each divisor of $n$ above one, in which any
   two overlapping classes have coprime moduli. It is accepted on the refereed
-  paper and the site's credit.
+  paper and the erdosproblems.com credit.
 authors:
 - Sarosh Adenwalla
 status: accepted
@@ -41,14 +41,13 @@ is no. Call a system of congruences coprime-disjoint when any two distinct
 congruences in it that share a solution have coprime moduli. No integer $n$
 admits residue classes $a_d\pmod d$, one for each divisor $d>1$ of $n$, that
 cover every integer and form a coprime-disjoint system. Erdős and Graham
-asked the question in 1980 and expected this answer; the site's commentary
-records that the density of such $n$ was already known to be zero. The
-paper is S. Adenwalla, *A Question of Erdős and Graham on Covering
-Systems*, INTEGERS 26 (2026), #A52 (received 22 May 2025, accepted 31 March
-2026, published 1 May 2026; also arXiv:2501.15170, first posted 2025-01-25,
-the page name's date). It also gives a necessary condition for the divisors
-of $n$ above one to carry a coprime-disjoint system at all, without the
-covering requirement
+asked the question in 1980 and expected this answer; the erdosproblems.com
+commentary records that the density of such $n$ was already known to be zero.
+The paper is S. Adenwalla, *A Question of Erdős and Graham on Covering Systems*,
+INTEGERS 26 (2026), #A52 (received 22 May 2025, accepted 31 March 2026,
+published 1 May 2026; also arXiv:2501.15170, first posted 2025-01-25, the page
+name's date). It also gives a necessary condition for the divisors of $n$ above
+one to carry a coprime-disjoint system at all, without the covering requirement
 (its Lemma 3.1: if $p$ is the least prime factor of $n$, then $n/p$ has fewer
 than $p$ distinct prime factors), shows that the condition is also sufficient
 for $n=p^k$ and for $n=qp^k$ (Propositions 4.1 and 4.2), conjectures the
@@ -67,19 +66,19 @@ keeps the arXiv labels (Lemma 3.1, Theorem 3.2, Propositions 4.1 and 4.2,
 Conjecture 5.1). The arXiv version was first posted 2025-01-25 and revised to a
 third version of ten pages on 2025-12-03.
 
-Reviewed: the site's curator, Thomas F. Bloom, credits Adenwalla with the proof
-that no such $n$ exist and thanks Adenwalla on the problem page (page last
-edited 2025-12-28, accessed 2026-10-07). Bloom labeled the problem disproved
-with a Lean qualification. Bloom is independent of the author.
+Reviewed: the erdosproblems.com curator, Thomas F. Bloom, credits Adenwalla with
+the proof that no such $n$ exist and thanks Adenwalla on the problem page (page
+last edited 2025-12-28, accessed 2026-10-07). Bloom labeled the problem
+disproved with a Lean qualification. Bloom is independent of the author.
 Formal-conjectures tags its statement of the problem `research solved` and
-points to the Lean proof linked above (the catalog revision of 2026-10-06,
-linked as a record).
+points to the Lean proof linked above (the formal-conjectures revision of
+2026-10-06, linked as a record).
 
 Not counted as `formalized`: the linked Lean 4 file uses Lean `v4.24.0`, with
 its Mathlib commit stated in the header. It was committed 2026-03-15 and
-announced on the site's discussion thread the same day. Its header states that
-the formalization of Adenwalla's proof was produced by Aristotle, Harmonic's
-system. So it is a formalization of this claimant's result and not an
+announced on the erdosproblems.com discussion thread the same day. Its header
+states that the formalization of Adenwalla's proof was produced by Aristotle,
+Harmonic's system. So it is a formalization of this claimant's result and not an
 independent proof. Its main theorem `T1` proves that no $n$ is coprime-disjoint
 covering, with overlap defined as a common solution of two congruences. The file
 closes with `erdos_204`, a restatement under the formal-conjectures wording

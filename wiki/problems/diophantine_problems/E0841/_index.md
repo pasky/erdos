@@ -26,19 +26,19 @@ updated: 2026-10-08T17:47:46Z
 subset whose product with $n$ is a square number (and let $t_n=0$ if $n$ is
 itself square). Estimate $t_n$.
 
-**Formulation.** Erdős originally asked, as the site's commentary records,
-whether the integers $n$ with $t_n\ge n^{1-o(1)}$ have density zero. The answer
-is yes. By the bound of Granville and Selfridge on
+**Formulation.** Erdős originally asked, as the erdosproblems.com commentary
+records, whether the integers $n$ with $t_n\ge n^{1-o(1)}$ have density zero.
+The answer is yes. By the bound of Granville and Selfridge on
 [[problems/diophantine_problems/E0841/claims/2001_01_15_granville_selfridge|their claim page]],
 $t_n=P(n)$ when $P(n)>\sqrt{2n}+1$ and $t_n\le3\sqrt{n/2}+1$ otherwise, where
 $P(n)$ is the largest prime factor of $n$. So for fixed $0<\delta<1/2$ and
 large $n$, $t_n\ge n^{1-\delta}$ forces $P(n)=t_n\ge n^{1-\delta}$, and the
 integers with $P(n)\ge n^{1-\delta}$ have density $\log(1/(1-\delta))$, which
 tends to $0$ with $\delta$ (a remark of this page); Theorem 1.1 of Bui, Pratt
-and Zaharescu gives the same conclusion. The site's Statement asks instead for
-an estimate of $t_n$.
+and Zaharescu gives the same conclusion. The erdosproblems.com Statement asks
+instead for an estimate of $t_n$.
 
-"Estimate $t_n$" is open-ended. The site labeled the problem SOLVED after
+"Estimate $t_n$" is open-ended. Bloom's catalog labeled the problem SOLVED after
 listing Selfridge's exact value $t_n=P(n)$ when $P(n)>\sqrt{2n}+1$, with
 $t_n\ll n^{1/2}$ otherwise, and three results of Bui, Pratt and Zaharescu.
 First, the proportion of $n\le x$ with $t_n\le n^c$ tends to that with
@@ -48,8 +48,8 @@ $t_n\gg(\log\log n)^{6/5}(\log\log\log n)^{-1/5}$ for sufficiently large
 non-square $n$. The page's standing reads the question as answered by these
 results; they do not determine the order of $t_n$ for an individual $n$.
 
-**Status.** SOLVED, in the site's label, which describes the Statement above.
-The site's page was last edited on 14 October 2025.
+**Status.** SOLVED, in the erdosproblems.com label, which describes the
+Statement above. The erdosproblems.com page was last edited on 14 October 2025.
 
 **Source.** [erdosproblems.com/841](https://www.erdosproblems.com/841), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #841,

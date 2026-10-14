@@ -28,21 +28,20 @@ segment.
 
 What is the smallest number of edges in a graph with dimension $4$?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page carries
-no last-edited date). An embedding places the vertices at
-distinct points of $\mathbb R^n$ with every pair of adjacent vertices at
-Euclidean distance exactly $1$; non-adjacent pairs are unconstrained. This is
-the convention of [EHT65], p. 118:
-the least $n$ such that the graph embeds in Euclidean $n$-space with every
-edge of length $1$, the vertices at distinct points and edge crossings
-unrestricted, with nothing said about non-adjacent pairs; [ChNo16] restates
-it the same way ("we are not forced to include an edge if two vertices are
-distance 1 apart, so $G$ is not necessarily induced", p. 327), and it is
-the convention of the external Lean file described under
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+carries no last-edited date). An embedding places the vertices at distinct
+points of $\mathbb R^n$ with every pair of adjacent vertices at Euclidean
+distance exactly $1$; non-adjacent pairs are unconstrained. This is the
+convention of [EHT65], p. 118: the least $n$ such that the graph embeds in
+Euclidean $n$-space with every edge of length $1$, the vertices at distinct
+points and edge crossings unrestricted, with nothing said about non-adjacent
+pairs; [ChNo16] restates it the same way ("we are not forced to include an edge
+if two vertices are distance 1 apart, so $G$ is not necessarily induced", p.
+327), and it is the convention of the external Lean file described under
 Formalization (an injective map with adjacent vertices at distance $1$). The
 three conventions agree, so no Formulation qualification is needed. The
-question asks for a number, and the site labeled it SOLVED, its label for a
-resolution that is neither a proof nor a disproof; the suffix "(LEAN)" is a
+question asks for a number, and Bloom's catalog labeled it SOLVED, its label for
+a resolution that is neither a proof nor a disproof; the suffix "(LEAN)" is a
 catalog label explained under Formalization.
 
 **Status.** SOLVED (LEAN). The smallest number of edges is $9$, attained only by
@@ -68,7 +67,7 @@ $K_{3,3}$". The 2016 paper's introduction reports it in these words: "R. F.
 House showed that the answer to the above question is 9 and furthermore, that
 the complete bipartite graph $K_{3,3}$ is the unique graph that achieves this
 bound". Theorems 10 and 11 of the 2016 paper give the dimension-5 value $15$,
-attained by $K_6$ and $K_{1,3,3}$. The site records this as context.
+attained by $K_6$ and $K_{1,3,3}$. erdosproblems.com records this as context.
 
 The claim pages
 [[problems/extremal_graph_theory/E1007/claims/2013_06_04_house|House 2013]] and
@@ -82,8 +81,8 @@ formalization link on the Chaffee--Noble page.
 
 **Source.** [erdosproblems.com/1007](https://www.erdosproblems.com/1007),
 accessed 2026-09-18: the problem page
-(SOLVED (LEAN), which the site glosses as a resolution that is neither a
-proof nor a disproof, verified in Lean; no last-edited date; source key
+(SOLVED (LEAN), which erdosproblems.com glosses as a resolution that is neither
+a proof nor a disproof, verified in Lean; no last-edited date; source key
 [So09e]; commentary citing [Ho13] and [ChNo16]; an additional-thanks line
 naming Boris Alexeev), its one-comment discussion thread (19 January 2026)
 and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
@@ -109,14 +108,15 @@ and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   [[../library/extremal_graph_theory/house_2013_4_dimensional_graph_has_at_least_9_edges/_index|house_2013_4_dimensional_graph_has_at_least_9_edges]].
 - [So09e] Soifer, Alexander, The Mathematical Coloring Book: Mathematics of
   Coloring and the Colorful Life of its Creators. Springer, New York (2009),
-  xxx+607 pp., ISBN 978-0-387-74640-1, doi:10.1007/978-0-387-74642-5 (the site's
-  reference text (2026-09-18) and the Crossref record). The site's only source
-  key; [ChNo16] cites its pp. 88--93 as the place where Soifer "relates the
-  following problem posed by Erdős in private communication". A book, not held.
+  xxx+607 pp., ISBN 978-0-387-74640-1, doi:10.1007/978-0-387-74642-5 (the
+  erdosproblems.com reference text (2026-09-18) and the Crossref record).
+  erdosproblems.com's only source key; [ChNo16] cites its pp. 88--93 as the
+  place where Soifer "relates the following problem posed by Erdős in private
+  communication". A book, not held.
 - [EHT65] Erdős, P., Harary, F. and Tutte, W. T., On the dimension of a graph.
   Mathematika 12 (1965), 118--122, doi:10.1112/S0025579300005222 (received 7
-  January 1965, per p. 122). Not cited by the site; the source [ChNo16] names
-  for its Lemmas 1--4 and, with [So09e] (pp. 88--93), [Ho13] names for its
+  January 1965, per p. 122). Not cited by erdosproblems.com; the source [ChNo16]
+  names for its Lemmas 1--4 and, with [So09e] (pp. 88--93), [Ho13] names for its
   Proposition 3; it prints the definition and the values of Lemmas 1--3 but
   nowhere states the monotonicity of Lemma 4 (immediate from the definition).
   The definition and the values $\dim K_n=n-1$ and
@@ -129,7 +129,8 @@ and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   Graphs and Combinatorics (2017), doi:10.1007/s00373-017-1854-8. A citing paper
   found by title (the next dimension); title and record only; not held.
 
-**Formalization.** The site's "(LEAN)" suffix is a catalog label. The file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
+file
 [`ErdosProblems/1007.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/1007.lean)
 of formal-conjectures, at the revision of main of 2026-09-18
 (the link is pinned to it), declares
@@ -180,13 +181,13 @@ the four statements themselves kept proof `sorry` at main on 2026-10-07. The
 community database (teorth/erdosproblems, 2026-09-18) lists `status` "solved
 (Lean)" and `formal_status` Lean with no URL, each as of its last update on 19
 January 2026, and the statement as formalized as of its last update on 5 August
-2026; the site's indicator says a formalized statement exists.
+2026; the erdosproblems.com indicator says a formalized statement exists.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; SOLVED (LEAN); no last-edited date. The site's commentary, in this
-page's words: the notion of dimension is due to Erdős, Harary and Tutte;
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; SOLVED (LEAN); no last-edited date. The erdosproblems.com commentary, in
+this page's words: the notion of dimension is due to Erdős, Harary and Tutte;
 Erdős asked Soifer this question in January 1992; the answer is $9$, with
 $K_{3,3}$ the unique extremal graph, first shown by House [Ho13] and again,
 by a different argument, by Chaffee and Noble [ChNo16], whose paper also
@@ -195,10 +196,10 @@ The discussion thread has one comment (15:41 on 19 January 2026, by Boris
 Alexeev), which reports that a solution has been formalized in Lean, that
 the automated prover Aristotle was first given a proof that $K_{3,3}$ does
 not embed in $\mathbb R^3$ and organized the rest itself, and, in an update,
-that it later proved the non-embeddability from the statement alone; the
-site marks the comment as addressed. The proof-claim tab is empty. The community
-database lists the problem as solved (Lean) as of its last update on 19
-January 2026.
+that it later proved the non-embeddability from the statement alone; Bloom's
+catalog marks the comment as addressed. The proof-claim tab is empty. The
+community database lists the problem as solved (Lean) as of its last update on
+19 January 2026.
 
 **Status support.** The value $9$ rests on the refereed paper [ChNo16], pp.
 328--329:
@@ -218,10 +219,11 @@ $K_{3,3}$ shows the minimum is attained; and
 isolated vertices, as its proof's second sentence shows). Acceptance evidence:
 publication in a refereed journal (received 14 January 2015, revised twice,
 published in volume 64(2) of 2016; the journal's volume listing, 2026-09-18),
-the site's label and commentary, and the external Lean proof described above,
-which is not built here. Read depth: claims checked for the three statements;
-the proof of Theorem 6 was followed but is not verified: [EHT65], the source
-of its lemmas, states the values $\dim K_n=n-1$ and $\dim(K_n-x)=n-2$
+the erdosproblems.com label and commentary, and the external Lean proof
+described above, which is not built here. Read depth: claims checked for the
+three statements; the proof of Theorem 6 was followed but is not verified:
+[EHT65], the source of its lemmas, states the values $\dim K_n=n-1$ and
+$\dim(K_n-x)=n-2$
 ([[../library/extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph/complete_graphs_p118|p. 118]])
 and $\dim K_{m,n}=4$ for $m,n\ge3$
 ([[../library/extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph/complete_bipartite_graphs_p119|p. 119]])
@@ -235,29 +237,27 @@ unnumbered, on p. 1783 ("The answer to this question is 9, as is shown in the
 remainder of this note. It is also shown that there is only one 4-dimensional
 graph with 9 edges, namely $K_{3,3}$") and on p. 1789 ("Thus the minimum
 number of edges which a 4-dimensional graph can have is 9, and there is only
-one such graph, namely $K_{3,3}$"), under its Definition 1, the site's
-convention. This is what the 2016 paper's introduction reports (p. 328: "In a
-2013 article [2], R. F. House showed that the answer to the above question is
-9 and furthermore, that the complete bipartite graph $K_{3,3}$ is the unique
-graph that achieves this bound"), and the two agree. House's proof reduces to
-43 biconnected candidate graphs of orders 6 and 7, counted from Read and
-Wilson's Atlas of Graphs (not held), and embeds 42 of them in the plane or in
-$\mathbb R^3$ by drawings (Figs. 7, 10 and 11); it was followed as a route and
-no drawing was checked. The label therefore rests on two refereed texts, each
-at statement depth, with one proof followed.
+one such graph, namely $K_{3,3}$"), under its Definition 1, the
+erdosproblems.com convention. This is what the 2016 paper's introduction reports
+(p. 328: "In a 2013 article [2], R. F. House showed that the answer to the above
+question is 9 and furthermore, that the complete bipartite graph $K_{3,3}$ is
+the unique graph that achieves this bound"), and the two agree. House's proof
+reduces to 43 biconnected candidate graphs of orders 6 and 7, counted from Read
+and Wilson's Atlas of Graphs (not held), and embeds 42 of them in the plane or
+in $\mathbb R^3$ by drawings (Figs. 7, 10 and 11); it was followed as a route
+and no drawing was checked. The label therefore rests on two refereed texts,
+each at statement depth, with one proof followed.
 
-**The origin.** The site's only source key is [So09e], Soifer's book, not
-held; the site dates Erdős's question to Soifer to January 1992. [ChNo16]
-(p. 328) says Soifer "relates the following problem
-posed by Erdős in private communication. 'What is the smallest number of
-edges in a graph $G$ such that $\dim(G)=4$?'" and cites pp. 88--93 of the
-book. Erdős's own wording and the date are therefore known in this wiki
-through the
-book as the site and [ChNo16] report it. [Ho13] (p. 1783) introduces the
-question as "a problem posed by Paul Erdős in 1991", citing p. 93 of the
-book, where the site says January 1992; both rest on the book. The notion
-of dimension is defined in [EHT65] (p. 118; the definition is restated
-under Formulation), a five-page note
+**The origin.** erdosproblems.com's only source key is [So09e], Soifer's book,
+not held; erdosproblems.com dates Erdős's question to Soifer to January 1992.
+[ChNo16] (p. 328) says Soifer "relates the following problem posed by Erdős in
+private communication. 'What is the smallest number of edges in a graph $G$ such
+that $\dim(G)=4$?'" and cites pp. 88--93 of the book. Erdős's own wording and
+the date are therefore known in this wiki through the book as erdosproblems.com
+and [ChNo16] report it. [Ho13] (p. 1783) introduces the question as "a problem
+posed by Paul Erdős in 1991", citing p. 93 of the book, where erdosproblems.com
+says January 1992; both rest on the book. The notion of dimension is defined in
+[EHT65] (p. 118; the definition is restated under Formulation), a five-page note
 whose §1 evaluates the dimension of complete, complete bipartite and a few
 other special graphs and whose §2 bounds it by twice the chromatic number.
 
@@ -266,9 +266,9 @@ other special graphs and whose §2 bounds it by twice the chromatic number.
 $\dim(G)=5$ is fifteen"; Theorem 11 (p. 331): "The only dimension 5 graphs
 with fifteen edges are $K_6$ and $K_{1,3,3}$", with Theorem 8
 ($\dim(K_{1,3,3})=5$) and Lemma 9 ($\dim(K_{1,2,2,2})=\dim(K_{2,2,2,2})=4$)
-as tools. These are the site's dimension-5 sentence and the collection's
-`dimension_five` variants, recorded as statements only. The next case is
-the subject of [ChNo17] (title and record only).
+as tools. These are erdosproblems.com's dimension-5 sentence and the
+collection's `dimension_five` variants, recorded as statements only. The next
+case is the subject of [ChNo17] (title and record only).
 
 **Formalization and the Lean label.** As recorded above: the collection's
 file states the problem with `sorry` and points, through a `formal_proof`
@@ -278,8 +278,8 @@ file's own definition of dimension; the external file at its pinned
 revision of 2026-09-15 contains no `sorry`, `axiom` or `native_decide`,
 records the standard axioms in a `#print axioms` comment, and no build of
 it is recorded. Its definition of an embedding
-(injective; adjacent vertices at distance $1$) matches the site's and the
-paper's convention. The thread's account of how Aristotle produced the proof
+(injective; adjacent vertices at distance $1$) matches erdosproblems.com's and
+the paper's convention. The thread's account of how Aristotle produced the proof
 is recorded above. The later development for the uniqueness variant is
 recorded under Formalization.
 
@@ -293,10 +293,10 @@ the value $9$ by its title.
 **Search scope.** None of the routes below found a dispute
 of the value $9$, a retraction, or a second determination.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-18; the site's reference text for [So09e]; the community database
-  as fetched that day; the formal-conjectures file and the external Lean file
-  at the revisions the pinned links name (GitHub API).
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the erdosproblems.com reference text for [So09e]; the
+  community database as fetched that day; the formal-conjectures file and the
+  external Lean file at the revisions the pinned links name (GitHub API).
 - The primary sources: [ChNo16] pp. 327--333, with pp. 328--329 in full;
   [Ho13] pp. 1783--1789, with pp. 1783 and 1786--1789 in full; [EHT65]
   pp. 118--122.
@@ -319,15 +319,14 @@ report. What remains is its proof coverage: the 43-graph case analysis rests
 on the drawn embeddings of Figs. 7, 10 and 11, followed as a route and not
 checked, and on the count of biconnected graphs from the Atlas of Graphs,
 not held. (2) The origin: Erdős's wording and the date rest on Soifer's book
-as the site (January 1992) and [ChNo16] report it, and [Ho13] prints the
-year as 1991; the book is not held. (3) Proof coverage: Theorem 6's
-proof was followed but depends on lemmas that [EHT65] states on
-pp. 118--119 without printed proof (only Lenz's
-construction for $\dim K_{m,n}\le4$ is printed) and, for monotonicity, does
-not state at all; Theorem 7's proof was read for structure only; the
-external Lean proof was not built, and the two
-Lean files' definitions of dimension were not bridged. (4) The community database records no URL for the formal
-proof; the collection's `formal_proof` link is unpinned.
+as erdosproblems.com (January 1992) and [ChNo16] report it, and [Ho13] prints
+the year as 1991; the book is not held. (3) Proof coverage: Theorem 6's proof
+was followed but depends on lemmas that [EHT65] states on pp. 118--119 without
+printed proof (only Lenz's construction for $\dim K_{m,n}\le4$ is printed) and,
+for monotonicity, does not state at all; Theorem 7's proof was read for
+structure only; the external Lean proof was not built, and the two Lean files'
+definitions of dimension were not bridged. (4) The community database records no
+URL for the formal proof; the collection's `formal_proof` link is unpinned.
 
 ## Known results
 

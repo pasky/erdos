@@ -62,15 +62,16 @@ holds arXiv v1, the only arXiv version, with the
 page: statement read clause by clause, proof (pp. 13--14) read for
 structure, a complete rewrite of both bounds not compiled; the published
 text was not compared, so all locators are v1 locators. The paper labels
-the question with the site's number 305; its statement matches this problem.
+the question with the erdosproblems.com number 305; its statement matches this
+problem.
 
 **Acceptance.** The paper appeared in Int. Math. Res. Not. 2026, no. 2, rnaf382,
 DOI 10.1093/imrn/rnaf382. According to the publisher's record, read on
 2026-09-17, it was received on 28 October 2025, accepted on 23 December 2025 and
-published online on 14 January 2026. This is the `refereed` evidence. The site's
-curator, Thomas Bloom, labeled the problem proved and credits the estimate to
-this paper on the problem page (last edited 18 November 2025). The curator is
-not an author, and that credit is the `reviewed` evidence.
+published online on 14 January 2026. This is the `refereed` evidence. The
+erdosproblems.com curator, Thomas Bloom, labeled the problem proved and credits
+the estimate to this paper on the problem page (last edited 18 November 2025).
+The curator is not an author, and that credit is the `reviewed` evidence.
 
 **Formalization by others.** The file `src/latest/ErdosProblems/Erdos294.lean`
 of the collection `plby/lean-proofs`, linked above at the pinned commit and

@@ -64,12 +64,12 @@ Lemma 1 is elementary.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]: the lower bound of the
-  site's display, in the paper's normalization $f(n)=n+f(n,n)$ (the shift
-  by $n$ is absorbed in the $o(1)$; the site's $f(n)$ is the paper's
-  $f(n,n)+1$).
+  erdosproblems.com display, in the paper's normalization $f(n)=n+f(n,n)$ (the
+  shift by $n$ is absorbed in the $o(1)$; erdosproblems.com's $f(n)$ is the
+  paper's $f(n,n)+1$).
 - [[../wiki/problems/integer_sequences/E0711/_index|Problem 711]]: the lower bound
-  $n(\log n/\log\log n)^{1/2}\ll f(n,n)$ of the site's commentary, and
-  Lemma 3 of van Doorn's 2026 paper.
+  $n(\log n/\log\log n)^{1/2}\ll f(n,n)$ of the erdosproblems.com commentary,
+  and Lemma 3 of van Doorn's 2026 paper.
 - [[../wiki/problems/integer_sequences/E0709/_index|Problem 709]]: the intermediate lower
-  bound $f(n)\gg\sqrt{\log n/\log\log n}$ that the site's thread derives
-  from this theorem for the special set $\{2,\ldots,n+1\}$.
+  bound $f(n)\gg\sqrt{\log n/\log\log n}$ that the erdosproblems.com thread
+  derives from this theorem for the special set $\{2,\ldots,n+1\}$.

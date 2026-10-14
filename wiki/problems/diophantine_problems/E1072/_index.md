@@ -34,7 +34,7 @@ https://www.erdosproblems.com/1072.
 
 - [Gu04] Guy, Richard K., Unsolved problems in number theory. Third edition,
   Problem Books in Mathematics, Springer, New York (2004), xviii+437 pp. The
-  site's remark places both questions in problem A2. Library home:
+  erdosproblems.com remark places both questions in problem A2. Library home:
   [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]].
 - [HaSu02] Hardy, G. E. and Subbarao, M. V., A modified problem of Pillai and
   some related questions. Amer. Math. Monthly (2002), 554-559.

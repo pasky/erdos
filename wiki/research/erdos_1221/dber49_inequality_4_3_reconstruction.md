@@ -179,7 +179,7 @@ bound is less than $r$. This proves (4.3).
 ## Reading addressed
 
 The bound concerns $\lambda_r=\sup_a\lambda_r(a)$ over all sequences,
-coincident points allowed. The site's literal second expression
+coincident points allowed. erdosproblems.com's literal second expression
 $r(1-\lambda_r)$ tends to $-\infty$, since $\lambda_r\ge r\lambda_1>1$
 for $r\ge2$ (recorded on the
 [[../library/analysis/debruijn_erdos_1949_sequences_points_circle/conjecture_p17|conjecture page]]).

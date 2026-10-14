@@ -45,5 +45,5 @@ page settles no standing.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Experimental Mathematics. The site labeled the
+**Acceptance.** Refereed: Experimental Mathematics. Bloom's catalog labeled the
 problem OPEN, so its commentary is not acceptance.

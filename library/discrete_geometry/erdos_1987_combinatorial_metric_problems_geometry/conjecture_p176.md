@@ -78,7 +78,7 @@ $[n/2]$ bound recalled as context.
 ## Bears on
 
 - [[../wiki/problems/distance_problems/E0097/_index|Problem 97]]: the
-  question is the site's statement, whether every convex polygon has a
-  vertex with no other four vertices equidistant from it; Danzer's nonagon
+  question is the erdosproblems.com statement, whether every convex polygon has
+  a vertex with no other four vertices equidistant from it; Danzer's nonagon
   answers the earlier three-vertex form in the negative and leaves the
   four-vertex question open in this paper.

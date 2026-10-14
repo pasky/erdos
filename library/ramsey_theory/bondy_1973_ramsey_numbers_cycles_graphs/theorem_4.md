@@ -25,7 +25,7 @@ Problem 551 ($R(C_k,K_n)$, $k$ the cycle length) the theorem reads
 $R(C_k,K_n)=(k-1)(n-1)+1$ for $k\ge n^2-2$. The introduction (p. 47) states
 the same range, "In fact we prove directly that the above holds for
 $n\ge r^2-2$", after deriving the identity for $n>n_2(r)$ from Theorem 3;
-the site's commentary on Problem 551 writes the range as $k>n^2-2$.
+the erdosproblems.com commentary on Problem 551 writes the range as $k>n^2-2$.
 
 **Source.** J. A. Bondy and P. Erdős, Ramsey numbers for cycles in graphs,
 J. Combinatorial Theory Ser. B 14 (1973), 46--54; Theorem 4 on printed

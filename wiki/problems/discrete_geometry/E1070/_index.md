@@ -24,10 +24,10 @@ updated: 2026-10-08T18:28:40Z
 $\mathbb{R}^2$, there exist $f(n)$ points such that no two are distance $1$
 apart. Estimate $f(n)$. In particular, is it true that $f(n)\geq n/4$?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 22 January
-2026). Its proof-claims tab carries one partial proof claim: Ákos Dúcz and
-Dániel Varga's preprint of 26 June 2026, which answers the particular question
-in the negative. The claim is recorded on
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 22
+January 2026). Its proof-claims tab carries one partial proof claim: Ákos Dúcz
+and Dániel Varga's preprint of 26 June 2026, which answers the particular
+question in the negative. The claim is recorded on
 [[problems/discrete_geometry/E1070/claims/2026_06_26_ducz_varga|its claim page]]
 without being adopted. The standing in the frontmatter is derived from the claim
 pages.
@@ -54,21 +54,21 @@ formal-conjectures had no statement file for the problem on 2026-10-07.
 
 ## Current assessment
 
-- **Question and standing.** The site formulation above asks for the order of
-  $f(n)$, the largest number of points that every $n$-point planar set is
-  guaranteed to contain with no two at distance one, equivalently the least
-  independence number of an $n$-vertex unit-distance graph, and in particular
-  whether $f(n)\ge n/4$. No claim settles the problem, so it is open. One
-  pending partial claim bears on the particular question:
+- **Question and standing.** The erdosproblems.com formulation above asks for
+  the order of $f(n)$, the largest number of points that every $n$-point planar
+  set is guaranteed to contain with no two at distance one, equivalently the
+  least independence number of an $n$-vertex unit-distance graph, and in
+  particular whether $f(n)\ge n/4$. No claim settles the problem, so it is open.
+  One pending partial claim bears on the particular question:
   [[problems/discrete_geometry/E1070/claims/2026_06_26_ducz_varga|Dúcz and Varga's preprint]]
   proves that some finite planar unit-distance graph has independence ratio
   below $1/4$, which, if it holds, gives $f(n)<n/4$ for all large $n$ and so a
   negative answer to the particular question; it is unrefereed and unreviewed,
   its Lean formalizations have not been built by this corpus, and the claimants
   call it partial because the estimate of $f(n)$ remains.
-- **Known results.** The site records the bounds. Since the independence
-  number times the chromatic number is at least the number of vertices,
-  $f(n)\ge n/\chi$ with $\chi$ the chromatic number of the plane
+- **Known results.** erdosproblems.com records the bounds. Since the
+  independence number times the chromatic number is at least the number of
+  vertices, $f(n)\ge n/\chi$ with $\chi$ the chromatic number of the plane
   ([[problems/discrete_geometry/E0508/_index|Problem 508]]). The Moser spindle
   gives $f(n)\le\frac27n$. Larman and Rogers [LaRo72] observed
   $f(n)\ge m_1n$, where $m_1$ is the supremum of upper densities of measurable
@@ -84,9 +84,9 @@ formal-conjectures had no statement file for the problem on 2026-10-07.
   1]]), which gives $f(n)>n/4$ for every $n$; the claim above contradicts the
   second conjecture. The variant with no two points at distance less than one is
   [[problems/extremal_graph_theory/E1066/_index|Problem 1066]].
-- **Status search.** The search covers the site's page and its proof-claims
-  tab and the arXiv record of the preprint; the paper is compiled on its source
-  card. No broader literature search is recorded.
+- **Status search.** The search covers the erdosproblems.com page and its
+  proof-claims tab and the arXiv record of the preprint; the paper is compiled
+  on its source card. No broader literature search is recorded.
 - **Proof coverage and review.** None. The paper's certificate and blow-ups
   have not been independently checked, no own-words proof is held, and no
   independent review is recorded.

@@ -7,7 +7,7 @@ desc: |
   omega(1.4457^n).
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T14:56:47Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs
@@ -21,7 +21,7 @@ fails as printed.
 
 [[extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs/theorem_1|theorem_1]]: Gaspers and Mackenzie's one-paragraph proof that an n-vertex graph has
 O(ρ^n · n) minimal separators, ρ = (1 + √5)/2, by a measure on
-[a, d]-separations; the site's "simpler proof" of the Fomin–Villanger
+[a, d]-separations; erdosproblems.com's "simpler proof" of the Fomin–Villanger
 upper bound for the Erdős–Nešetřil growth rate.
 
 [[extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs/theorem_2|theorem_2]]: Gaspers and Mackenzie's stated lower bound ω(1.4521^n) on the maximum
@@ -82,14 +82,14 @@ and the lower bound stated in Theorem 2 (Bears on, below).
 Source: <https://arxiv.org/abs/1503.01203>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0150/_index|#150]]: Theorem 1
-(p. 3 of the preprint, page image), the site's "simpler proof in [GaMa18]"
-of the upper bound $\alpha\le(1+\sqrt5)/2$; Theorem 2 (p. 4), the lower
-bound $\omega(1.4521^n)$ on minimal separators as printed, the site's "lower
-bound is due to Gaspers and Mackenzie" and its negative answer to
-$c(3m+2)=3^m$ (the site and Bradač's note print $1.4457$, the journal
-version's figure, where this preprint prints $1.4521$ on a separator count
-that fails as printed); p. 2 attests Fomin, Kratsch, Todinca and Villanger's
-$O(1.7087^n)$. The paper does not mention Erdős, Nešetřil or minimal
+(p. 3 of the preprint, page image), erdosproblems.com's "simpler proof in
+[GaMa18]" of the upper bound $\alpha\le(1+\sqrt5)/2$; Theorem 2 (p. 4), the
+lower bound $\omega(1.4521^n)$ on minimal separators as printed,
+erdosproblems.com's "lower bound is due to Gaspers and Mackenzie" and its
+negative answer to $c(3m+2)=3^m$ (erdosproblems.com and Bradač's note print
+$1.4457$, the journal version's figure, where this preprint prints $1.4521$ on a
+separator count that fails as printed); p. 2 attests Fomin, Kratsch, Todinca and
+Villanger's $O(1.7087^n)$. The paper does not mention Erdős, Nešetřil or minimal
 cuts; the transfer to minimal cuts is through Bradač's sandwich sentence.
 
 **Results.**

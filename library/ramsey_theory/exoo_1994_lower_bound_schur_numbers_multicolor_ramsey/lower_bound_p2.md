@@ -32,8 +32,8 @@ $R_6(3)\ge500$.
 
 The previous published bounds were $157\le S(5)\le321$ (p. 1; the lower
 bound from Fredricksen 1979, the upper bound from Whitehead 1973). In the
-site's convention $f(k)=S(k)+1$ the bound reads $f(5)\ge161$; Heule's 2017
-computation shows it is exact
+erdosproblems.com convention $f(k)=S(k)+1$ the bound reads $f(5)\ge161$; Heule's
+2017 computation shows it is exact
 ([[ramsey_theory/heule_2017_schur_number_five/main_result|result page]]).
 
 **Source.** G. Exoo, *A lower bound for Schur numbers and multicolor Ramsey
@@ -71,7 +71,8 @@ not held.
 
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: $f(5)\ge161$, the lower
   half of the exact value $f(5)=161$; the exponential lower bound
-  $c\cdot3.17176^k$ that the site's commentary says Ageron et al. improved.
+  $c\cdot3.17176^k$ that the erdosproblems.com commentary says Ageron et al.
+  improved.
 - [[../wiki/problems/ramsey_theory/E0183/_index|Problem 183]]: $R_5(3)\ge162$ and,
   through $S(k)\ge c(3.17176)^k$ and $R_k(3)\ge S(k)+2$, the lower bound
   $R(3;k)\ge c\cdot3.17176^k$ on the problem's function, so the $k$-th root

@@ -67,14 +67,14 @@ outside the unit disc, not held.
 
 - [[../wiki/problems/analysis/E1046/_index|Problem 1046]]: the affirmative answer to the
   problem's exact question, with the disc centered at the centroid of the
-  zeros; the site's commentary states it in these terms and cites this paper.
-  The site's DISPROVED label on the problem sits beside that sentence and
-  beside the width example of the
+  zeros; the erdosproblems.com commentary states it in these terms and cites
+  this paper. erdosproblems.com's DISPROVED label on the problem sits beside
+  that sentence and beside the width example of the
   [[analysis/pommerenke_1959_some_problems_erdos_herzog_piranian/theorem_4|Theorem 4]]
   page, which refutes a different conjecture of the same 1958 passage.
-- [[../wiki/problems/polynomials/E0509/_index|Problem 509]]: the site's "Pommerenke [Po59]
-  proved that $2$ is achievable if the set is connected": one disc of radius
-  $2$ covers $\{|f|\le1\}$ when $E=\{|f|<1\}$ is connected. The theorem's
-  hypothesis is on the open set $E$; the site's phrase names the closed set,
-  whose connectedness is the weaker condition. The general case of the
-  problem is not treated in this paper.
+- [[../wiki/problems/polynomials/E0509/_index|Problem 509]]: erdosproblems.com's
+  "Pommerenke [Po59] proved that $2$ is achievable if the set is connected": one
+  disc of radius $2$ covers $\{|f|\le1\}$ when $E=\{|f|<1\}$ is connected. The
+  theorem's hypothesis is on the open set $E$; the erdosproblems.com phrase
+  names the closed set, whose connectedness is the weaker condition. The general
+  case of the problem is not treated in this paper.

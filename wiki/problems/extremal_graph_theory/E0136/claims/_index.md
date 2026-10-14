@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 136, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0136/claims
@@ -14,7 +14,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/extremal_graph_theory/E0136/claims/1997_12_01_erdos_gyarfas|1997_12_01_erdos_gyarfas]]: Theorem 3 of Erdős and Gyárfás proves $f(n)\ge\frac56(n-1)$ for $n\ge4$,
 $f(n)\le n$ for odd $n$, and $f(n)\le n-1$ for infinitely many even $n$. This
 is the lower half of $f(n)\sim\frac56n$, refereed in Combinatorica and
-credited by the site's curator.
+credited by the erdosproblems.com curator.
 
 [[problems/extremal_graph_theory/E0136/claims/2022_07_06_bennett_cushman_dudek_pralat|2022_07_06_bennett_cushman_dudek_pralat]]: Theorem 1 of Bennett, Cushman, Dudek and Prałat proves $f(n)=\frac56n+o(n)$,
 where $f(n)$ is the least number of colors in an edge-coloring of $K_n$ in

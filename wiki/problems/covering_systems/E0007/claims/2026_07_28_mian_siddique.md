@@ -51,8 +51,8 @@ weaker than the refereed one. The unrestricted question stays open.
 
 **Depends on.** Nothing in this wiki; the argument is the paper's own.
 
-**Standing.** Claimed. There is no journal publication, the site's page for
-the problem does not cite the paper, and this corpus has not built or
+**Standing.** Claimed. There is no journal publication, the erdosproblems.com
+page for the problem does not cite the paper, and this corpus has not built or
 audited the Lean development, so the page lists no evidence; the public CI
 report is the authors' own. The library card records corrections to the
 paper's background references, which do not enter the finite exclusion.

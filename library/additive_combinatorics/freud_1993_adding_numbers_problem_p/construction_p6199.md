@@ -73,7 +73,7 @@ $4x+16y+3-(8y+2)=76y-7$ at $x=17y-2$, and $8x+8y+4=144y-12$. The
 verification that no remaining member is a sum of consecutive members is
 the note's (the conditions (i)--(iv) and the coincidences I = II, III = IV
 are asserted with brief reasons) and is not checked here; an external
-Lean file behind the catalog's label proves it for its encoding of the
+Lean file behind the erdosproblems.com label proves it for its encoding of the
 same blocks (Problem 867's page), and nothing is independently reviewed
 here.
 

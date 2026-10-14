@@ -61,7 +61,7 @@ Lemma 9 and Corollary 5 are stated on
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1007/_index|Problem 1007]]: not the
-  problem itself, which asks about dimension 4; this is the site's
+  problem itself, which asks about dimension 4; this is erdosproblems.com's
   dimension-5 sentence (attained only by $K_6$ and $K_{1,3,3}$); the
   problem page records the collection's variant `dimension_five_extremal`
   as stating that these two graphs have dimension 5 and fifteen edges.

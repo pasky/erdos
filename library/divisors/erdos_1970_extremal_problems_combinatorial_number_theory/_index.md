@@ -87,8 +87,8 @@ was conjectured in [6] that the lower bound "seems to give the right order
 of magnitude for $f(k,x)$".
 [[../wiki/problems/integer_sequences/E0536/_index|#536]]: Theorem 1 and the
 deduction on p. 124 give $F(4,x)>cx$, so the four-element analog of the problem
-fails while "At present I cannot disprove this conjecture for $k=3$"; the site
-cites this page as [Er70, p. 124]
+fails while "At present I cannot disprove this conjecture for $k=3$";
+erdosproblems.com cites this page as [Er70, p. 124]
 ([[divisors/erdos_1970_extremal_problems_combinatorial_number_theory/theorem_1|theorem_1]]).
 [[../wiki/problems/integer_sequences/E0856/_index|#856]]: display (19), printed p. 127
 (PDF p. 5, page image): for $x>x_0(c,k)$, $\sum_{a_i<x}1/a_i>c\log x$
@@ -106,7 +106,7 @@ image), the combinatorial problem following (19): "Let $S$ be a set of $n$
 elements, $A_i\subset S$, $1\le i\le m(n,k)$. What is the smallest value
 of $m(n,k)$ for which we can be sure that there are $k$ $A$'s which have
 pairwise the same union? An asymptotic formula for $m(n,k)$ would also be
-of some interest", the problem's $m(n,k)$ with union where the site has
+of some interest", the problem's $m(n,k)$ with union where erdosproblems.com has
 intersection (the same problem under complementation in $S$, an
 elementary remark made here;
 [[divisors/erdos_1970_extremal_problems_combinatorial_number_theory/theorem_p127|theorem_p127]]).
@@ -114,7 +114,7 @@ elementary remark made here;
 p. 6), in Section 2: for $a_1<\cdots<a_k<x$ such that no $a_it=a_j$ has
 every prime factor of $t$ above $a_i$ (display (24)), Erdős asks for the
 maximum over all such sequences of $\frac1{\log x}\sum_{a_i<x}1/a_i$,
-noting that it is clearly less than $1$; the site cites [Er70, p. 128].
+noting that it is clearly less than $1$; erdosproblems.com cites [Er70, p. 128].
 [[../wiki/problems/divisors/E0144/_index|#144]]: p. 124 (PDF p. 2), Erdős's
 statement that the integers with two relatively prime divisors
 $b_1<b_2<2b_1$ have density $1$, which he says he has proved, citing his

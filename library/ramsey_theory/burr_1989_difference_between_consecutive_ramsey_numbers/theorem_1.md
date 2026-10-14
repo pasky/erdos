@@ -65,13 +65,13 @@ None outside the paper.
 
 - [[../wiki/problems/ramsey_theory/E1030/_index|Problem 1030]]: with $m=k$, $n=k+1$ and
   the symmetry $R(k+1,k)=R(k,k+1)$ it gives $R(k+1,k)-R(k,k)\ge2k-3$ for
-  $k\ge2$; the site's commentary quotes the weaker $2k-5$. An additive gap
-  of this size says nothing about the ratio $R(k+1,k)/R(k,k)$, since
-  $R(k,k)$ is exponential in $k$.
+  $k\ge2$; the erdosproblems.com commentary quotes the weaker $2k-5$. An
+  additive gap of this size says nothing about the ratio $R(k+1,k)/R(k,k)$,
+  since $R(k,k)$ is exponential in $k$.
 - [[../wiki/problems/ramsey_theory/E0812/_index|Problem 812]]: two applications with
   $m=n=N+1$ (the Corollary) give $R(N+1)-R(N)\ge4N-4$ for $N\ge2$, the
-  linear increment the site quotes as $4N-8$; linear increments say nothing
-  about the ratio $R(N+1)/R(N)$ or the $N^2$ question.
+  linear increment erdosproblems.com quotes as $4N-8$; linear increments say
+  nothing about the ratio $R(N+1)/R(N)$ or the $N^2$ question.
 - [[../wiki/problems/ramsey_theory/E0544/_index|Problem 544]]: the case $m=3$,
   $r(3,n)\ge r(3,n-1)+3$ (Graver and Yackel's, per the paper), is the
   additive increment in hand for $R(3,k)$; it bounds the increment below

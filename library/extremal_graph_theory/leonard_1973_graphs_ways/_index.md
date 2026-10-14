@@ -54,9 +54,9 @@ publisher's PDF of the journal article (six pages, printed pp. 687--692 =
 PDF pp. 1--6, with a text layer; DOI 10.4153/CJM-1973-069-x, whose Crossref
 record, read 2026-09-19, gives Canadian J. Math. 25 (1973), no. 4, 687--692,
 August 1973; received 22 November 1971, revised 19 June 1973). This is the
-site's key Le73b for Problem 915; the site's Le73, Leonard's paper in Period.
-Math. Hungar. 3 (1973) 281--284 with the $m=5$ counterexample, is a different
-paper, filed as
+erdosproblems.com key Le73b for Problem 915; erdosproblems.com's Le73, Leonard's
+paper in Period. Math. Hungar. 3 (1973) 281--284 with the $m=5$ counterexample,
+is a different paper, filed as
 [[extremal_graph_theory/leonard_1973_conjecture_bollobas_erdos/_index|leonard_1973_conjecture_bollobas_erdos]];
 its announcement of the counterexample, "a graph $G$ having 57 points and 141
 edges (i.e., $m=5$, $n=14$), which contains no 5-way", is on printed p. 281 (PDF
@@ -80,21 +80,21 @@ in the paper. Paged at
 and
 [[extremal_graph_theory/leonard_1973_graphs_ways/construction_p687|construction_p687]].
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key
-Le73b; p. 687 (page image) defines a line $r$-way as $r$ paths joining two
-points "no two of which have lines in common (although they may share
-common points)", the edge-disjoint reading of the problem, and $l_6(n)$ as
-the least number of lines guaranteeing a 6-way; the Theorem (p. 688):
-"(1) Any $G[n,3n-2]$ contains a 6-way. (2) No $J[n,3n-3]$ contains a point
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the
+erdosproblems.com key Le73b; p. 687 (page image) defines a line $r$-way as $r$
+paths joining two points "no two of which have lines in common (although they
+may share common points)", the edge-disjoint reading of the problem, and
+$l_6(n)$ as the least number of lines guaranteeing a 6-way; the Theorem (p.
+688): "(1) Any $G[n,3n-2]$ contains a 6-way. (2) No $J[n,3n-3]$ contains a point
 of degree less than five. (3) Addition of an external path to a $J[n,3n-3]$
 creates a 6-way", where a $J$-graph is an $[n,3n-3]$ without a 6-way, and
 the bi-wheels of Figure 1 (p. 688) are $J$-graphs, asserted on p. 687 "for
-any $n$" (meaningful for $n\ge6$), so $l_6(n)=3n-2$, the site's
+any $n$" (meaningful for $n\ge6$), so $l_6(n)=3n-2$, erdosproblems.com's
 "$\ell_6(n)=3n-2$" (paged at
 [[extremal_graph_theory/leonard_1973_graphs_ways/theorem_p688|theorem_p688]]);
 p. 687 adds, without proof, that bi-wheels with more inner-ring neighbors
 give graphs with $n$ points, $[r(n-1)/2]$ lines and no $r$-way, a lower
-bound for $l_r(n)$, which in the site's notation is
+bound for $l_r(n)$, which in the erdosproblems.com notation is
 $\ell_m(n)\ge[m(n-1)/2]+1$, at the problem's parameters the problem's edge
 count (paged at
 [[extremal_graph_theory/leonard_1973_graphs_ways/construction_p687|construction_p687]]).

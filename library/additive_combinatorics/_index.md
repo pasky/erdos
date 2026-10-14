@@ -3,7 +3,7 @@ name: additive_combinatorics
 title: "Sumsets and Arithmetic Progressions"
 desc: "Sources filed under Sumsets and Arithmetic Progressions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-13T10:06:04Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Sumsets and Arithmetic Progressions
@@ -411,7 +411,7 @@ construction.
 that the largest family of subsets of the first N integers with pairwise
 nonempty arithmetic progression intersections has N squared over 2 plus O(N)
 members, Szabó's linear-error asymptotic and not the exact value, with no
-refereed publication and the site's kernel check not repeated here.
+refereed publication and Conjectures.io's kernel check not repeated here.
 
 [[additive_combinatorics/katz_1999_bounds_arithmetic_projections_applications_kakeya_conjecture/_index|katz_1999_bounds_arithmetic_projections_applications_kakeya_conjecture/]]: Improves bounds on difference sets over restricted graphs and deduces that
 Besicovitch sets in R^n have Minkowski dimension at least 4n/7+3/7.

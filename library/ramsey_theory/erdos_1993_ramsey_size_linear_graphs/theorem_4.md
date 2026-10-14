@@ -16,7 +16,7 @@ updated: 2026-10-07T20:23:45Z
 then $G$ is Ramsey size linear. In addition, there is a graph $G$ with
 $q(G)=p(G)+2$ that is not Ramsey size linear."
 
-The connectedness hypothesis is part of the statement; the site's
+The connectedness hypothesis is part of the statement; the erdosproblems.com
 commentary on Problem 566 omits it, and without it the first sentence is
 false (the graph $K_4\cup 2K_2$ has $8$ vertices and $8$ edges and contains
 $K_4$, which is not Ramsey size linear; an elementary check made here). The
@@ -52,6 +52,6 @@ $r(K_4,H_n)>C(n/\log n)^{5/2}$).
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0566/_index|Problem 566]]: the positive result the
-  site's commentary quotes ("at most $n+1$ edges"), which holds for
+  erdosproblems.com commentary quotes ("at most $n+1$ edges"), which holds for
   connected graphs; connected graphs with $q\le p+1$ satisfy the hereditary
   $2k-3$ condition, while a disconnected one such as $K_4\cup 2K_2$ need not.

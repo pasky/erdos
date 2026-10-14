@@ -37,8 +37,8 @@ Zenodo on 19 August 2026 (published as version 1 on 20 August; the claim's
 date is the deposit's), presented a proof of the full statement of
 [[problems/extremal_graph_theory/E0064/_index|Problem 64]]: every finite
 graph with minimum degree at least $3$ contains a cycle whose length is a
-power of $2$. The site's proof-claims tab registers the submission as a
-partial proof claim, while the deposited manuscript claims the full
+power of $2$. The erdosproblems.com proof-claims tab registers the submission as
+a partial proof claim, while the deposited manuscript claims the full
 conjecture, which is the result this page records. The argument is a tree
 of exhaustive case splits on a minimal counterexample, each branch closing by
 minimality, by a counting overflow or by a structural contradiction, with the
@@ -97,15 +97,15 @@ and is not a premise this page rests on.
 
 **Formalization.** The repository's Lean 4 framework for structural
 exhaustion proofs and its application to this problem are the formalization
-the site links. Its README at the pinned commit says the root assembly
+erdosproblems.com links. Its README at the pinned commit says the root assembly
 checks an exhaustive reduction of every counterexample to a selected
 minimal counterexample in one of the six outcome families, which matches
 the manuscript's main theorem, not the conjecture. At the time of the forum
 submission the author reported 135 of 180 proof nodes verified. This corpus
 has not built or audited the development.
 
-**Standing.** Withdrawn, with a recorded defect. On the site's proof-claims
-tab (six comments) a commenter posted on 21 August 2026 a candidate
+**Standing.** Withdrawn, with a recorded defect. On the erdosproblems.com
+proof-claims tab (six comments) a commenter posted on 21 August 2026 a candidate
 counterexample, found by GPT-5.6-Sol as the comment says, to the deduction of
 one lemma from another in the arithmetic part of the argument (a passage to
 the odd part of a modulus that forgets a necessary congruence); the author

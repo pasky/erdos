@@ -63,10 +63,10 @@ times, cited without a reference.
 
 ## Bears on
 
-- [[../wiki/problems/distance_problems/E0132/_index|Problem 132]]: the site
-  and Clemen, Dumitrescu and Liu attribute that problem to this paper
-  ([Er84c]). The paper holds the facts above, among them the diameter bound
-  that makes one distance of multiplicity at most $n$ always exist, and the
-  regular $(2k+1)$-gon, in which every distance occurs exactly $n$ times;
-  it prints no statement of the problem's question, so the attribution is
-  not confirmed by this paper.
+- [[../wiki/problems/distance_problems/E0132/_index|Problem 132]]:
+  erdosproblems.com and Clemen, Dumitrescu and Liu attribute that problem to
+  this paper ([Er84c]). The paper holds the facts above, among them the diameter
+  bound that makes one distance of multiplicity at most $n$ always exist, and
+  the regular $(2k+1)$-gon, in which every distance occurs exactly $n$ times; it
+  prints no statement of the problem's question, so the attribution is not
+  confirmed by this paper.

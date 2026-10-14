@@ -25,13 +25,14 @@ updated: 2026-10-08T02:16:54Z
 true that, for almost all $x>0$, for all sufficiently large (depending on $x$)
 integers $n$ there exists an integer $r\geq 1$ such that $nx\in r\cdot E$?
 
-**Status.** DISPROVED (LEAN), the site's label. Enrique Barschkis, posting as
-ebarschkis, varied the Buczolich–Mauldin construction. This gave a measurable
-set of positive measure and an interval of $x$ on which infinitely many $n$ put
-$nx$ outside every $r\cdot E$. The accepted claim is
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. Enrique Barschkis,
+posting as ebarschkis, varied the Buczolich–Mauldin construction. This gave a
+measurable set of positive measure and an interval of $x$ on which infinitely
+many $n$ put $nx$ outside every $r\cdot E$. The accepted claim is
 [[problems/analysis/E1197/claims/2026_04_13_barschkis|Barschkis's counterexample]].
-It is credited by the site's curator and not refereed. The Lean proofs behind
-the site's qualification are linked on the claim page. None was built here.
+It is credited by the erdosproblems.com curator and not refereed. The Lean
+proofs behind erdosproblems.com's qualification are linked on the claim page.
+None was built here.
 
 **Source.** [erdosproblems.com/1197](https://www.erdosproblems.com/1197),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1197,
@@ -43,8 +44,8 @@ https://www.erdosproblems.com/1197.
   $\sum^\infty_{n=1}f(nx)$ for measurable functions. Mathematika (1999),
   337-341.
 
-**Formalization.** The site's label carried the suffix "(LEAN)", a catalog
-label; this corpus has built none of the Lean developments. Statement in
+**Formalization.** The erdosproblems.com label carried the suffix "(LEAN)", a
+catalog label; this corpus has built none of the Lean developments. Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1197.lean),
 pinned to its revision of 2026-10-07 (the file was added on 20 September 2026).
 Its theorem `erdos_1197`, tagged `research solved` with `answer(False)`, states

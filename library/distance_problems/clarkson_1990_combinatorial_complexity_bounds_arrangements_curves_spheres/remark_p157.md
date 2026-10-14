@@ -70,6 +70,6 @@ doi:10.1007/BF02187783; the edition read is named on the
 - [[../wiki/problems/distance_problems/E1083/_index|Problem 1083]], $d=3$:
   a lower bound of order $m^{2/3}(\lambda_6(m)/m)^{-1/3}$ for the number of
   distinct distances, but only for sets with no three collinear points, so
-  it does not bound $f_3(n)$ for general sets. The site's remarks credit the
-  paper with $f_3(n)\gg n^{1/2}$ for general sets; the paper prints no such
-  statement. It decides nothing about the problem.
+  it does not bound $f_3(n)$ for general sets. The erdosproblems.com remarks
+  credit the paper with $f_3(n)\gg n^{1/2}$ for general sets; the paper prints
+  no such statement. It decides nothing about the problem.

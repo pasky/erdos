@@ -4,8 +4,8 @@ title: Every integer is a short sum of 3-smooth numbers
 desc: |
   Van Doorn and Everts prove that every positive integer is a sum of distinct
   numbers $2^k3^l$ whose largest term is below six times the smallest, so for
-  $C=6$ the set has density one. The site's curator credits the result, and Lean
-  proofs exist.
+  $C=6$ the set has density one. The erdosproblems.com curator credits the
+  result, and Lean proofs exist.
 authors:
 - Wouter van Doorn
 - Anneroos R. F. Everts
@@ -56,9 +56,9 @@ for $C<3$ the sums in question are too few, so the set has density zero and
 the question's answer for such $C$ is yes. Erdős and Lewin had shown that
 $C\le2$ fails
 ([[../library/diophantine_problems/erdos_1996_d_complete_sequences_integers/_index|Erdős and Lewin 1996]],
-p. 838). Between $3$ and $6$ the answer is not proved. In the site's thread,
-Cambie checked that $C=32/9$ works for every $n\le10^5$, the value the paper
-cites; Alexeev then found the first failure at $n=353515$ and checked that
+p. 838). Between $3$ and $6$ the answer is not proved. In the erdosproblems.com
+thread, Cambie checked that $C=32/9$ works for every $n\le10^5$, the value the
+paper cites; Alexeev then found the first failure at $n=353515$ and checked that
 $C=3^{10}/2^{14}\approx3.604$ works, with $b_r\le Cb_1$, for every
 $n\le10^9$, with $167$ numbers up to $10^6$ needing exactly that value;
 Alexeev wrote that they think this value is optimal and, after checking over a
@@ -66,17 +66,17 @@ hundred further members of a candidate extremal sequence, that they are no
 longer sure it is attained infinitely often. The original conjecture of
 [[../library/extremal_graph_theory/erdos_1992_my_favourite_problems_various_branches_combinatorics/_index|Erdős 1992]],
 Problem 21 (p. 239), expected that almost all integers fail to be such a sum
-for any constant; the site reads the question as that conjecture and labeled
-it disproved, which is the standing recorded here.
+for any constant; erdosproblems.com reads the question as that conjecture and
+labeled it disproved, which is the standing recorded here.
 
-**Acceptance.** Van Doorn announced in the site's thread on 2025-10-23 that van
-Doorn and Everts could resolve the problem in the negative. Van Doorn posted the
-arXiv paper there on 2025-11-07. The site's curator, Thomas Bloom, credits the
-disproof to van Doorn and Everts with $C=6$ and labeled the problem DISPROVED
-(LEAN). This is the `reviewed` evidence. The community database records the
-problem as disproved (Lean). The paper is an arXiv preprint. Its arXiv record
-lists no journal reference and no published version is known, so there is no
-`refereed` evidence.
+**Acceptance.** Van Doorn announced in the erdosproblems.com thread on
+2025-10-23 that van Doorn and Everts could resolve the problem in the negative.
+Van Doorn posted the arXiv paper there on 2025-11-07. The erdosproblems.com
+curator, Thomas Bloom, credits the disproof to van Doorn and Everts with $C=6$
+and labeled the problem DISPROVED (LEAN). This is the `reviewed` evidence. The
+community database records the problem as disproved (Lean). The paper is an
+arXiv preprint. Its arXiv record lists no journal reference and no published
+version is known, so there is no `refereed` evidence.
 
 **Formalizations.** Two Lean developments are on record, neither built or
 audited by this corpus, so neither is `formalized` evidence. Boris Alexeev

@@ -34,37 +34,37 @@ representable as the sum of distinct unit fractions with denominators from
 $\{1,\ldots,N\}$ equal to $m_N$ or $m_N+1$? Is it true that the set of
 integers representable as such has the shape $\{1,\ldots,m\}$ for some $m$?
 
-**Notes.** The site's wording, with "Let $N\geq 1$", asks for the exact value
-of the smallest non-representable integer $f(N)$ for every $N$, and whether
-the representable integers form an initial segment for every $N$. That is what
-Erdős and Graham printed: [ErGr80], p. 39, for $S_n$ the set of integers of
-the form $\sum_{k=1}^r\frac1{x_k}$ with $1\le x_1<\cdots<x_r\le n$ and $r$
+**Notes.** The erdosproblems.com wording, with "Let $N\geq 1$", asks for the
+exact value of the smallest non-representable integer $f(N)$ for every $N$, and
+whether the representable integers form an initial segment for every $N$. That
+is what Erdős and Graham printed: [ErGr80], p. 39, for $S_n$ the set of integers
+of the form $\sum_{k=1}^r\frac1{x_k}$ with $1\le x_1<\cdots<x_r\le n$ and $r$
 variable, asks "What is the smallest integer not in $S_n$? Is it true that
-$m\notin S_n$ implies $m+1\notin S_n$?", with no range on $n$. The site reads
-the problem through Croot's theorem: its label was PROVED, its commentary says
-the problem "was essentially solved by Croot [Cr99]" and concludes that, with
-$m_N=\lfloor\sum_{n\le N}1/n\rfloor$, the representable integers are "for all
-$N$ sufficiently large, either $\{1,\ldots,m_N-1\}$ or $\{1,\ldots,m_N\}$";
+$m\notin S_n$ implies $m+1\notin S_n$?", with no range on $n$. erdosproblems.com
+reads the problem through Croot's theorem: its label was PROVED, its commentary
+says the problem "was essentially solved by Croot [Cr99]" and concludes that,
+with $m_N=\lfloor\sum_{n\le N}1/n\rfloor$, the representable integers are "for
+all $N$ sufficiently large, either $\{1,\ldots,m_N-1\}$ or $\{1,\ldots,m_N\}$";
 the statement file it links as its formalization (formal-conjectures
 `308.lean`, commit `9d259649abe0b02d7a25f7589b872db679b35e21`) states the
 problem as `parts.i`, $f(N)\in\{m_N,m_N+1\}$ for all large $N$, and
 `parts.ii`, the initial-segment property for all large $N$, marked both solved,
 and keeps the property for every $N\ge1$ as a separate open variant `all_N`;
-the site's thread has no comments. The change replaces "Let $N\geq 1$" by "Let
-$N$ be sufficiently large and $m_N=\lfloor\sum_{n\le N}\frac1n\rfloor$", in
-the site's own notation, and replaces "What is the smallest integer not
-representable ...?" by the question whether it equals $m_N$ or $m_N+1$; the
-second question is unchanged. The answer under the site's reading is yes to
-both, by Croot's Main Theorem (Mathematika 46 (1999), 359--372; typescript p.
-1), which places $n(N)=f(N)-1$ between
-$\lfloor H_N-\frac92(1+o(1))(\log\log N)^2/\log N\rfloor$ and
-$\lfloor H_N-\frac12(1+o(1))(\log\log N)^2/\log N\rfloor$ for all large $N$,
+the erdosproblems.com thread has no comments. The change replaces "Let
+$N\geq 1$" by "Let $N$ be sufficiently large and
+$m_N=\lfloor\sum_{n\le N}\frac1n\rfloor$", in erdosproblems.com's own notation,
+and replaces "What is the smallest integer not representable ...?" by the
+question whether it equals $m_N$ or $m_N+1$; the second question is unchanged.
+The answer under erdosproblems.com's reading is yes to both, by Croot's Main
+Theorem (Mathematika 46 (1999), 359--372; typescript p. 1), which places
+$n(N)=f(N)-1$ between $\lfloor H_N-\frac92(1+o(1))(\log\log N)^2/\log N\rfloor$
+and $\lfloor H_N-\frac12(1+o(1))(\log\log N)^2/\log N\rfloor$ for all large $N$,
 so that $\{1,\ldots,m_N-1\}\subseteq N(N)\subseteq\{1,\ldots,m_N\}$ and
-$f(N)\in\{m_N,m_N+1\}$; the site's two displays attach these floors to $f(N)$
-where the theorem bounds $n(N)$, an off-by-one in the displays that does not
-affect the site's consequence sentence. Under the readings the page does not
-adopt: the exact value of $f(N)$ is decided by the fractional part $\delta_N$
-of $H_N$ outside the window
+$f(N)\in\{m_N,m_N+1\}$; erdosproblems.com's two displays attach these floors to
+$f(N)$ where the theorem bounds $n(N)$, an off-by-one in the displays that does
+not affect erdosproblems.com's consequence sentence. Under the readings the page
+does not adopt: the exact value of $f(N)$ is decided by the fractional part
+$\delta_N$ of $H_N$ outside the window
 $(\frac12+o(1))(\log\log N)^2/\log N<\delta_N<(\frac92+o(1))(\log\log N)^2/\log N$
 (the upper threshold lowered to $\frac{\pi^2}3$ by the deduction from Yokota's
 2002 Corollary 1 on its result page) and open inside it, where Croot's
@@ -73,8 +73,8 @@ whether $N(N)$ is an initial segment for every $N\ge1$ is open, asserted by no
 source, encoded by OEIS A101877 (the least largest denominator for each
 integer, nondecreasing in its eight printed terms) and marked `research open`
 by the formal-conjectures file. Both stay in Formulation with no claim page.
-Results about the site's wording, credited and never counted: none; Boris
-Alexeev's `Erdos308.lean` (plby/lean-proofs, commit
+Results about the erdosproblems.com wording, credited and never counted: none;
+Boris Alexeev's `Erdos308.lean` (plby/lean-proofs, commit
 `8822f7ddef30fadbd92e1c6ab4ed897af356af5e`, 15 September 2026) states the
 two-case statement for large $N$, which is the modified Statement, and is
 unbuilt here. The page's standing judges the modified Statement.
@@ -103,17 +103,18 @@ it `research open` as `erdos_308.variants.all_N`, and OEIS A101877 (the least
 largest denominator for each $n$) encodes it, $N(N)$ being an initial segment
 for every $N$ exactly when that sequence is nondecreasing; its eight printed
 terms are, and the sequence is a data lead, not a result. Neither variant has
-a claim page. The site's commentary attaches Croot's two floors to $f(N)$;
-Croot's theorem bounds $n(N)=f(N)-1$, the largest integer with every integer
-up to it representable, as recorded below.
+a claim page. The erdosproblems.com commentary attaches Croot's two floors to
+$f(N)$; Croot's theorem bounds $n(N)=f(N)-1$, the largest integer with every
+integer up to it representable, as recorded below.
 
-**Status.** Proved, in the site's label, which the site itself calls an
-essential solution. The standing on this page agrees, for the modified
-Statement. The one claim page,
+**Status.** Proved, in the erdosproblems.com label, which erdosproblems.com
+itself calls an essential solution. The standing on this page agrees, for the
+modified Statement. The one claim page,
 [[problems/unit_fractions/E0308/claims/1999_12_01_croot|Croot's Main Theorem]]
-(Mathematika 46 (1999), no. 2, 359--372; refereed; credited by the site), is an
-accepted full claim. It answers both questions of the modified Statement. The
-theorem, in the author's typescript, gives for all large $N$
+(Mathematika 46 (1999), no. 2, 359--372; refereed; credited by
+erdosproblems.com), is an accepted full claim. It answers both questions of the
+modified Statement. The theorem, in the author's typescript, gives for all large
+$N$
 
 $$
 \Bigl\lfloor H_N-\tfrac92(1+o(1))\tfrac{(\log\log N)^2}{\log N}\Bigr\rfloor
@@ -127,15 +128,15 @@ first question is answered yes. The fractional part of $H_N$ decides which case
 holds, except when it lies between $(\frac12+o(1))$ and $(\frac92+o(1))$ times
 $(\log\log N)^2/\log N$. The Formulation records two variants: the value inside
 that window, which Croot's conjecture (p. 2) would close, and the
-initial-segment property for every $N\ge1$. The site's discussion and
+initial-segment property for every $N\ge1$. The erdosproblems.com discussion and
 proof-claim pages carry no further claim.
 
 **Source.** [erdosproblems.com/308](https://www.erdosproblems.com/308), accessed
-2026-09-18: the problem page (PROVED, with the site's note that it is solved in
-the affirmative; source key [ErGr80]; no last-edited stamp), its empty
-discussion thread and its empty proof-claim tab. The site cites [Cr99] in its
-commentary and thanks one contributor by name. Cite as: T. F. Bloom, Erdős
-Problem #308, https://www.erdosproblems.com/308, accessed 2026-09-18.
+2026-09-18: the problem page (PROVED, with the erdosproblems.com note that it is
+solved in the affirmative; source key [ErGr80]; no last-edited stamp), its empty
+discussion thread and its empty proof-claim tab. erdosproblems.com cites [Cr99]
+in its commentary and thanks one contributor by name. Cite as: T. F. Bloom,
+Erdős Problem #308, https://www.erdosproblems.com/308, accessed 2026-09-18.
 
 **References.**
 
@@ -173,11 +174,11 @@ Problem #308, https://www.erdosproblems.com/308, accessed 2026-09-18.
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
 **Formalization.** A statement file and an external Lean proof, neither built
-in this corpus. Before the statement file was added, the site's page showed
-"Formalised statement? No (create one)", there was no `ErdosProblems/308.lean`
-in formal-conjectures (main), and the community database
-(teorth/erdosproblems, `data/problems.yaml`) recorded status proved since 31
-August 2025, formal status unformalized, statement not formalized, OEIS
+in this corpus. Before the statement file was added, the erdosproblems.com page
+showed "Formalised statement? No (create one)", there was no
+`ErdosProblems/308.lean` in formal-conjectures (main), and the community
+database (teorth/erdosproblems, `data/problems.yaml`) recorded status proved
+since 31 August 2025, formal status unformalized, statement not formalized, OEIS
 "possible". The statement file was added on 20 September 2026: at the linked
 commit,
 [`FormalConjectures/ErdosProblems/308.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/308.lean)
@@ -190,24 +191,24 @@ pointing at
 in Boris Alexeev's `lean-proofs` collection at the linked commit of 15
 September 2026; it states Croot's two floors as a further `sorry` variant
 (`research solved`, no pointer) and marks `erdos_308.variants.all_N`, the
-initial-segment property for every $N\ge1$, as `research open`. As of
-2026-10-07 the site's page shows the statement as formalized and links the
-statement file, and the community database records the problem as formalized
-since 20 September 2026.
-The Alexeev file declares itself in its header a Lean formalization of a
-solution to Problem 308 with Croot and Yokota as informal authors and Codex,
-GPT-5.6 Sol (OpenAI Codex) as formal authors; its theorem `erdos_308` is the
-two-case statement for all large $N$, and it is linked as a formalization from
+initial-segment property for every $N\ge1$, as `research open`. On
+2026-10-07 the erdosproblems.com page showed the statement as formalized and
+linked the statement file, and the community database recorded the problem as
+formalized since 20 September 2026. The Alexeev file declares itself in its
+header a Lean formalization of a solution to Problem 308 with Croot and Yokota
+as informal authors and Codex, GPT-5.6 Sol (OpenAI Codex) as formal authors; its
+theorem `erdos_308` is the two-case statement for all large $N$, and it is
+linked as a formalization from
 [[problems/unit_fractions/E0308/claims/1999_12_01_croot|Croot's claim page]].
 Its top file is recorded; its imports are not. This corpus has built neither
 file, so no `formalized` evidence is listed.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above; status PROVED;
-source key [ErGr80]. The commentary credits Croot [Cr99] with an essential
-solution and displays, for $f(N)$ the smallest non-representable integer, the
-two floors
+**The question (erdosproblems.com formulation).** The statement above; status
+PROVED; source key [ErGr80]. The commentary credits Croot [Cr99] with an
+essential solution and displays, for $f(N)$ the smallest non-representable
+integer, the two floors
 
 $$
 \Bigl\lfloor\sum_{n\le N}\tfrac1n-\tfrac92(1+o(1))\tfrac{(\log\log N)^2}{\log N}\Bigr\rfloor\le f(N)
@@ -253,12 +254,12 @@ $$
 $$
 
 Since $\{1,\ldots,n(x)\}\subseteq N(x)$ and $n(x)+1\notin N(x)$, the
-smallest non-representable integer is $f(x)=n(x)+1$. The site's two displays
-are Croot's two floors attached to $f(N)$ instead of $n(N)$; for $f(N)$ each
-floor is one more, and in the case where the fractional part of $H_N$ is
-below $(\frac12+o(1))(\log\log N)^2/\log N$ the site's upper display reads
-$f(N)\le m_N-1$ while the theorem gives $f(N)=m_N$. The site's consequence
-sentence is unaffected: Croot writes on p. 2 that
+smallest non-representable integer is $f(x)=n(x)+1$. erdosproblems.com's two
+displays are Croot's two floors attached to $f(N)$ instead of $n(N)$; for $f(N)$
+each floor is one more, and in the case where the fractional part of $H_N$ is
+below $(\frac12+o(1))(\log\log N)^2/\log N$ erdosproblems.com's upper display
+reads $f(N)\le m_N-1$ while the theorem gives $f(N)=m_N$. erdosproblems.com's
+consequence sentence is unaffected: Croot writes on p. 2 that
 $N(x)\subseteq\{1,\ldots,m\}$ trivially, that the Main Theorem gives
 $\{1,\ldots,m-1\}\subseteq N(x)$ for large $x$, that $m\in N(x)$ when
 $\delta>(\frac92+o(1))(\log\log x)^2/\log x$ and $m\notin N(x)$ when
@@ -271,7 +272,7 @@ undetermined only when $\delta_N$ lies in the window between the two
 thresholds (the exact-value variant). Croot conjectures that the upper bound
 is the truth, with the threshold
 $D(x)=(\frac12+o(1))(\log\log x)^2/\log x$. Acceptance evidence: publication
-in Mathematika, a refereed journal (the Crossref record); the site's
+in Mathematika, a refereed journal (the Crossref record); erdosproblems.com's
 acceptance. Proof coverage: the proof (Sections 2--7 of the typescript) is
 sketched in outline only on the result page; the lower bound takes the
 integers below a fixed bound from "the main result in [5] (and [6])",
@@ -336,12 +337,12 @@ papers (three records, 1990, 1997, 2002); the primary sources [Cr99] and
 found closes the exact-value variant or disputes Croot's theorem. The scope
 also covered the formal-conjectures statement file and the Alexeev Lean file
 at the commits the Formalization links pin, the community database record
-(formalized since 20 September 2026; OEIS A101877), the site's formalization
-and external-database panels, and the OEIS entry A101877.
+(formalized since 20 September 2026; OEIS A101877), erdosproblems.com's
+formalization and external-database panels, and the OEIS entry A101877.
 
-**Remaining gaps.** (1) The site's displays are off by one against the
-theorem's quantity; recorded on this page, not corrected on the site. (2)
-Croot's proof is compiled as a statement with a structural sketch; its
+**Remaining gaps.** (1) erdosproblems.com's displays are off by one against the
+theorem's quantity; recorded on this page, not corrected on erdosproblems.com.
+(2) Croot's proof is compiled as a statement with a structural sketch; its
 small-integer input, Croot's "[5] (and [6])" (Yokota 1997, Theorem 1, with its
 1998 Corrigendum), is recorded at statement depth for the 1997 paper, whose
 printed last step does not reach the range Croot cites, and the Corrigendum is

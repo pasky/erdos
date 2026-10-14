@@ -26,13 +26,14 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Is the set of odd integers not of the form $2^k+p$ the union of
 an infinite arithmetic progression and a set of density $0$?
 
-**Status.** DISPROVED (LEAN), the site's label (page last edited 05 April 2026).
-Chen's 2023 preprint [Ch23] shows that the odd integers not of the form $2^k+p$
-are not a finite union of arithmetic progressions plus a set of density zero, so
-the answer is no. The site's Lean marker corresponds to the proof the
-formal-conjectures catalog links, Daniel Chin's Lean file. That file proves that
-no single infinite progression plus a progression-free remainder equals that set
-of odd integers, a statement that implies the negative answer. The claim page
+**Status.** DISPROVED (LEAN), the erdosproblems.com label (page last edited 05
+April 2026). Chen's 2023 preprint [Ch23] shows that the odd integers not of the
+form $2^k+p$ are not a finite union of arithmetic progressions plus a set of
+density zero, so the answer is no. The erdosproblems.com Lean marker corresponds
+to the proof the formal-conjectures catalog links, Daniel Chin's Lean file. That
+file proves that no single infinite progression plus a progression-free
+remainder equals that set of odd integers, a statement that implies the negative
+answer. The claim page
 [[problems/additive_bases/E0016/claims/2023_12_07_chen|Chen's disproof]] records
 the acceptance evidence: the curator of erdosproblems.com, Thomas Bloom, with no
 refereed publication found. The corpus has not built or audited the Lean proof.
@@ -54,9 +55,9 @@ https://www.erdosproblems.com/16.
 at the file's revision of 2026-09-18: tagged `research solved`
 with `answer(False)` and linking Daniel Chin's Lean proof `ErdosProblem16` in
 https://github.com/danielchin/proofs (announced 2026-02-25 as written with
-Gemini 3.1 Pro and Antigravity; the catalog's docstring instead credits Chin
-using Aristotle, and the author's own statement is followed here). The corpus
-has not built or audited the proof, so the label supplies no
+Gemini 3.1 Pro and Antigravity; the formal-conjectures docstring instead credits
+Chin using Aristotle, and the author's own statement is followed here). The
+corpus has not built or audited the proof, so the label supplies no
 formal-verification credit; the claim page gives the pinned link.
 
 ## Progress

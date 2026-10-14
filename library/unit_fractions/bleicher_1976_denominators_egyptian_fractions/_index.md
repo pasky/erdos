@@ -49,10 +49,10 @@ bounds cited for problem 305 on the smallest possible largest denominator in an
 Egyptian fraction representation, and Conjecture 3 (p. 167), D(N) <= K(epsilon)
 N (ln N)^{1+epsilon} for every epsilon > 0, is that problem's question.
 
-The exponent of Theorem 2 is 3 as printed here. The site's commentary, the
-1980 monograph of Erdős and Graham (p. 38) and Liu and Sawhney (2024) all
-attribute the bound D(b) << b (log b)^2 to this paper; the theorem with
-exponent 2 is Theorem 1 (p. 602) of part II, Denominators of Egyptian
+The exponent of Theorem 2 is 3 as printed here. The erdosproblems.com
+commentary, the 1980 monograph of Erdős and Graham (p. 38) and Liu and Sawhney
+(2024) all attribute the bound D(b) << b (log b)^2 to this paper; the theorem
+with exponent 2 is Theorem 1 (p. 602) of part II, Denominators of Egyptian
 fractions II, Illinois J. Math. 20 (1976), 598--613, which proves
 D(N) <= lambda^3(N) N (ln N)^2 with lambda(N) -> 1 and whose introduction in
 turn recalls this paper's bound with exponent 4. Part II has its own card in

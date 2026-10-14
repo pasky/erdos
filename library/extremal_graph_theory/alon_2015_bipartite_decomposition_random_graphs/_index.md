@@ -37,7 +37,7 @@ up to a constant factor in that range.
 
 N. Alon, *Bipartite decomposition of random graphs*, J. Combin. Theory Ser. B
 113 (2015), 220--235, DOI 10.1016/j.jctb.2015.03.001 (Crossref record read
-2026-09-18). The site's key Al15.
+2026-09-18). The erdosproblems.com key Al15.
 
 **Edition read.** The copy read for this card is arXiv:1402.6466v1 (26 February 2014; the only version on arXiv, whose record
 carries no journal reference), 14 pages with a text layer, produced from the

@@ -56,8 +56,8 @@ $A$; the equidistribution itself is the paper's.
 **Acceptance.** Refereed: M. N. Kolountzakis, On the uniform distribution in
 residue classes of dense sets of integers with distinct sums, J. Number Theory
 76 (1999), no. 1, 147–153. The page name uses the date of the first version of
-the preprint, arXiv:math/9808061, 1998-08-14. Reviewed: the site's curator, T.
-F. Bloom, records the problem as proved at erdosproblems.com on the basis of
-Lindström's theorem and this strengthening. This is the site's acceptance. No
-Lean formalization of this quantitative statement is recorded. The
-formalizations linked from Lindström's page cover the qualitative statement.
+the preprint, arXiv:math/9808061, 1998-08-14. Reviewed: the erdosproblems.com
+curator, T. F. Bloom, records the problem as proved at erdosproblems.com on the
+basis of Lindström's theorem and this strengthening. This is erdosproblems.com's
+acceptance. No Lean formalization of this quantitative statement is recorded.
+The formalizations linked from Lindström's page cover the qualitative statement.

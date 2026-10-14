@@ -72,5 +72,5 @@ None outside elementary calculus.
   problem's question, in the problem's own terms: a monic polynomial with
   $m=2$ distinct roots and a level $c=1$ at which $\{|f|\le c\}$ has two
   components, one of which is not convex. The status "DISPROVED (LEAN)" of
-  the site was not traced to a formal proof here; the closed sublevel set
-  matches the problem's inequality.
+  erdosproblems.com was not traced to a formal proof here; the closed sublevel
+  set matches the problem's inequality.

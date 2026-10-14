@@ -4,10 +4,10 @@ desc: |
   A three-page manuscript hosted by OpenAI proving that for every fixed k the
   ratio of consecutive off-diagonal Ramsey numbers R(k,l+1)/R(k,l) tends to
   one, with a polynomial rate; the proof is attributed to an internal model
-  at OpenAI and the site accepts it as the resolution of Problem 1014.
+  at OpenAI and erdosproblems.com accepts it as the resolution of Problem 1014.
 license: unstated
 created: 2026-09-18T02:25:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers
@@ -15,11 +15,11 @@ updated: 2026-10-08T01:29:58Z
 [[ramsey_theory/_index|..]]
 
 [[ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers/remark_1|remark_1]]: The quantitative form of the consecutive-ratio theorem as the manuscript
-prints it, with an unspecified exponent depending on k; the site's
+prints it, with an unspecified exponent depending on k; erdosproblems.com's
 displayed form with exponent c/k^2 is a reading of the proof.
 
 [[ramsey_theory/openai_2026_ratio_consecutive_ramsey_numbers/theorem_1|theorem_1]]: The consecutive-ratio theorem for off-diagonal Ramsey numbers, proved by
-dependent random choice on a critical graph; the site's accepted
+dependent random choice on a critical graph; erdosproblems.com's accepted
 resolution of Problem 1014, attributed to an internal model at OpenAI.
 
 ***
@@ -29,9 +29,9 @@ manuscript hosted at
 <https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/Ramsey.pdf>
 (2026). The text carries no author names, no date, no affiliation beyond the
 sentence quoted below, no arXiv identifier and no journal; the PDF metadata
-gives a creation date of 22 April 2026, and the site's Problem 1014 page
-accepted it on 24 April 2026 (the page's last edit) after a thread comment of
-23 April 2026 linked it.
+gives a creation date of 22 April 2026, and erdosproblems.com's Problem 1014
+page accepted it on 24 April 2026 (the page's last edit) after a thread comment
+of 23 April 2026 linked it.
 
 The copy read for this card is that
 file, three pages with a complete text layer, read on the rendered page images
@@ -44,11 +44,11 @@ the file's three pages, and the publisher's terms-of-use page
 Attribution as the manuscript states it: the abstract ends "The proof is due
 to an internal model at OpenAI." The card records that sentence as the
 source's own provenance and claims no independent check of the argument. This
-is a source-supported solution accepted by the site, distinct from a claim of
-journal refereeing: no refereed publication, no arXiv version and no
+is a source-supported solution accepted by erdosproblems.com, distinct from a
+claim of journal refereeing: no refereed publication, no arXiv version and no
 independent review of the manuscript was found on 2026-09-18 (Crossref
-bibliographic query for the title, no record; the site's proof-claim tab for
-Problem 1014, empty). Two external Lean developments read statically at
+bibliographic query for the title, no record; the erdosproblems.com proof-claim
+tab for Problem 1014, empty). Two external Lean developments read statically at
 pinned commits are listed under Formal artifacts below; neither was built
 here.
 
@@ -108,11 +108,11 @@ The whole manuscript was read (three pages). Theorem 1, Remark 1 and the
 three lemma statements are compiled as statements with the proof pointer
 above; the proof was not reconstructed and no step was checked. Lemma 2 is
 used in the manuscript without proof or citation; Lemma 3 is quoted from the
-literature. The quantitative form the site and the formal-conjectures file
-print, $R(k,\ell+1)\le(1+O(\ell^{-c/k^2}))R(k,\ell)$, is not the manuscript's
-printed statement (Remark 1 gives $1+\ell^{-c_k}$ with an unspecified $c_k$
-depending on $k$); it is a reading of the proof's $q$-th root with $q=k^2$
-and is recorded on the Remark 1 page as a discrepancy of form.
+literature. The quantitative form erdosproblems.com and the formal-conjectures
+file print, $R(k,\ell+1)\le(1+O(\ell^{-c/k^2}))R(k,\ell)$, is not the
+manuscript's printed statement (Remark 1 gives $1+\ell^{-c_k}$ with an
+unspecified $c_k$ depending on $k$); it is a reading of the proof's $q$-th root
+with $q=k^2$ and is recorded on the Remark 1 page as a discrepancy of form.
 
 ## Formal artifacts (read statically, not built)
 
@@ -157,10 +157,10 @@ was checked. These are static readings of theorem statements and declared
 axioms only.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E1014/_index|#1014]]: Theorem 1 is the
-problem's statement (the site asks for fixed $k\ge3$; the manuscript proves
-$k\ge2$), the site's accepted resolution.
+problem's statement (erdosproblems.com asks for fixed $k\ge3$; the manuscript
+proves $k\ge2$), erdosproblems.com's accepted resolution.
 [[../wiki/problems/ramsey_theory/E0544/_index|#544]]: Remark 1 with $k=3$ is the source of
-the site's consequence $R(3,k+1)-R(3,k)\ll k^{-c}R(3,k)$; it bounds the
+erdosproblems.com's consequence $R(3,k+1)-R(3,k)\ll k^{-c}R(3,k)$; it bounds the
 increment above and says nothing about divergence or $o(k)$.
 
 **Results.**

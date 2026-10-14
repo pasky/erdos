@@ -43,10 +43,10 @@ proof for Theorem 1 and provides a general lower bound for the function
 $f_{r,s}(n)$." At $r=3$, $s=4$ it gives $f_{3,4}(n)\ge n^{1/2}$, Theorem 1
 without the factor $\sqrt2$.
 
-**In the problem's notation.** The site's $f(n)$ for Problem 620, the
+**In the problem's notation.** erdosproblems.com's $f(n)$ for Problem 620, the
 largest $m$ such that every $K_4$-free graph on $n$ vertices has $m$
 vertices spanning no triangle, is $f_{3,4}(n)$, so Theorem 1 reads
-$f(n)\ge\sqrt{2n}$ for $n>4$, the site's $n^{1/2}\ll f(n)$.
+$f(n)\ge\sqrt{2n}$ for $n>4$, erdosproblems.com's $n^{1/2}\ll f(n)$.
 
 **Source.** B. Bollobás and H. R. Hind, *Graphs without large triangle free
 subgraphs*, Discrete Mathematics 87 (1991), 119--131,
@@ -100,8 +100,8 @@ and for the Ramsey numbers (p. 120).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: the lower bound
-  $f(n)\ge(2n)^{1/2}$ that the site's commentary attributes to the paper,
-  $n^{1/2}\ll f(n)$, since improved by Krivelevich's
+  $f(n)\ge(2n)^{1/2}$ that the erdosproblems.com commentary attributes to the
+  paper, $n^{1/2}\ll f(n)$, since improved by Krivelevich's
   $c\,n^{1/2}(\log\log n)^{1/2}$
   ([[extremal_graph_theory/krivelevich_1994_free_graphs_without_large_free_subgraphs/theorem_1|Theorem 1]]
   of 1994, which refines the iterated-neighborhood argument of Theorem 6

@@ -5,8 +5,8 @@ desc: |
   Erdős's 1981 question for the largest c such that some k = (1+o(1))cn^{1/2}
   integers in [1, n] have (1+o(1))binom(k,2) distinct sums, with his remarks
   that c ≤ 2 trivially, c < 2 is not hard and perhaps c < 2^{1/2}, and the
-  modular variant from a problem of Graham and Sloane; the site's source for
-  Problem 840.
+  modular variant from a problem of Graham and Sloane; the erdosproblems.com
+  source for Problem 840.
 created: 2026-10-08T15:50:52Z
 updated: 2026-10-08T15:50:52Z
 ---
@@ -52,9 +52,9 @@ for the admissible value $2/\sqrt3$.
 
 ## Bears on
 
-- [[../wiki/problems/additive_bases/E0840/_index|Problem 840]]: the site's
-  [Er81h] source. The problem asks how the largest quasi-Sidon
-  $A\subset\{1,\ldots,N\}$, one with
+- [[../wiki/problems/additive_bases/E0840/_index|Problem 840]]:
+  erdosproblems.com's [Er81h] source. The problem asks how the largest
+  quasi-Sidon $A\subset\{1,\ldots,N\}$, one with
   $\lvert A+A\rvert=(1+o(1))\binom{\lvert A\rvert}2$, grows; this question
   asks for the largest constant $c$ with such a set of
   $(1+o(1))cN^{1/2}$ elements. The paper's admissible $2/\sqrt3$ and its

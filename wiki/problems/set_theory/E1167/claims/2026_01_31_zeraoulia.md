@@ -1,8 +1,8 @@
 ---
 name: problems/set_theory/E1167/claims/2026_01_31_zeraoulia
-title: Zeraoulia's counterexample to the site's wording
+title: Zeraoulia's counterexample to the erdosproblems.com wording
 desc: |
-  Answers the site's wording (no condition on $\gamma$ or on the
+  Answers the erdosproblems.com wording (no condition on $\gamma$ or on the
   $\kappa_\alpha$), not the modified Statement ($\gamma\ge2$ and every
   $\kappa_\alpha>r$), so it does not count toward the problem's standing. With
   one color and target $\lambda^+$, the premise of the stepping-up implication
@@ -27,9 +27,9 @@ updated: 2026-10-08T03:43:48Z
 ***
 
 **Claim.** The implication of
-[[problems/set_theory/E1167/_index|Problem 1167]], in the site's wording with no
-condition on $\gamma$ or on the $\kappa_\alpha$, is false. Take $\gamma=1$ and
-$\kappa_0=\lambda^+$. With a single color, the premise
+[[problems/set_theory/E1167/_index|Problem 1167]], in the erdosproblems.com
+wording with no condition on $\gamma$ or on the $\kappa_\alpha$, is false. Take
+$\gamma=1$ and $\kappa_0=\lambda^+$. With a single color, the premise
 $2^\lambda\to(\lambda^+)^{r+1}_1$ asks only for a subset of $2^\lambda$ of size
 $\lambda^+$, which exists since $2^\lambda>\lambda$. The conclusion
 $\lambda\to(\lambda^+)^r_1$ asks for a subset of $\lambda$ of size $\lambda^+$,
@@ -39,14 +39,14 @@ formulation, self-published on ResearchGate under the DOI linked above, gives
 this counterexample and discusses the conditions under which the question is
 meant.
 
-**Covers.** The site's wording only; the modified Statement of the problem
-page is not touched. That Statement adds the conditions $2\le r<\omega$,
+**Covers.** The erdosproblems.com wording only; the modified Statement of the
+problem page is not touched. That Statement adds the conditions $2\le r<\omega$,
 $\gamma\ge2$ and $\kappa_\alpha>r$ of the Erdős–Hajnal list, and it is open.
 
 **Depends on.** No page of this wiki.
 
-**Why it is rejected.** It answers the site's wording, not the modified
-Statement. [[problems/set_theory/E1167/_index|Problem 1167]] judges its
+**Why it is rejected.** It answers the erdosproblems.com wording, not the
+modified Statement. [[problems/set_theory/E1167/_index|Problem 1167]] judges its
 modified Statement, which adds the conditions $\gamma\ge2$ and
 $\kappa_\alpha>r$; the problem page's Notes give the evidence for that
 reading. The counterexample has $\gamma=1$, so it settles no instance of the
@@ -60,7 +60,7 @@ $\kappa_0=\aleph_1$, $\lambda=\aleph_0$) as its test lemma
 formalization of this note, and the corpus has not built it, so it gives no
 `formalized` evidence.
 
-**Acceptance.** None documented. The note has no journal record. The site
+**Acceptance.** None documented. The note has no journal record. Bloom's catalog
 labeled the problem OPEN. In the discussion thread, the curator's reply points
 to the conditions of Komjáth's Problem 2 rather than accepting a disproof, so
 the reply is not acceptance. The claim is rejected. Acceptance would not change

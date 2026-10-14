@@ -44,10 +44,11 @@ $$
 where $\omega(n)$ counts the number of distinct prime divisors of $n$, and $n$
 is restricted to squarefree integers. Determine the growth of $g(k)$.
 
-**Status.** Labeled open on the site. The site's label was OPEN; the page,
-accessed 2026-10-07, was last edited 19 October 2025. Its proof-claims thread
-listed two proof claims as partial. The frontmatter standing `open` derives from
-the claim pages, and no full claim is recorded there. The accepted partial claim
+**Status.** Labeled open on erdosproblems.com. The erdosproblems.com label was
+OPEN; the page, accessed 2026-10-07, was last edited 19 October 2025. Its
+proof-claims thread listed two proof claims as partial. The frontmatter standing
+`open` derives from the claim pages, and no full claim is recorded there. The
+accepted partial claim
 [[problems/divisors/E1100/claims/1989_03_01_erdos_tenenbaum|Erdős and
 Tenenbaum's bounds]] settles the first two questions (yes and no). The pending
 partial claims [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's
@@ -78,8 +79,8 @@ https://www.erdosproblems.com/1100.
   no. 3, 749-761, DOI 10.1007/s11083-012-9274-0; arXiv:1103.3938 (21 March
   2011). Definitions 4 and 5, p. 4, and Theorem 3, p. 6, of the arXiv text.
 
-**Formalization.** No Formal Conjectures statement is recorded by the site.
-Woett's discussion-thread post of 2 November 2025
+**Formalization.** No Formal Conjectures statement is recorded by
+erdosproblems.com. Woett's discussion-thread post of 2 November 2025
 ([#post-1659](https://www.erdosproblems.com/forum/thread/1100#post-1659), its
 item on the formalization added 17 March 2026) links a Lean file in the poster's
 repository,
@@ -95,10 +96,10 @@ claim page, and this corpus has not built it.
 
 ## Current assessment
 
-**The question.** The site formulation quoted above (page last edited 19
-October 2025, accessed 2026-10-07) asks three things about $\tau_\perp(n)$,
-the number of coprime pairs among consecutive divisors of $n$: whether
-$\tau_\perp(n)/\omega(n)\to\infty$ for almost all $n$; whether
+**The question.** The erdosproblems.com formulation quoted above (page last
+edited 19 October 2025, accessed 2026-10-07) asks three things about
+$\tau_\perp(n)$, the number of coprime pairs among consecutive divisors of $n$:
+whether $\tau_\perp(n)/\omega(n)\to\infty$ for almost all $n$; whether
 $\tau_\perp(n)<\exp((\log n)^{o(1)})$ for every $n$; and how fast
 $g(k)$, the maximum of $\tau_\perp$ over squarefree $n$ with $k$ prime
 factors, grows. The function comes from Erdős and Hall [ErHa78], whose
@@ -118,13 +119,13 @@ stated by Erdős in [Er85] with a sketch and proved in [ErTe89], gives a no
 to the second. Erdős then asked in [Er85], display (27), the weaker
 maximal-order question whether
 $\tau_\perp(n)<\exp(\epsilon\log n/\log\log n)$ for every $\epsilon>0$ and
-all large $n$; that question is not in the site's statement. Théorème 1
-of [ErTe89], which develops an unpublished argument of Erdős and Simonovits,
+all large $n$; that question is not in the erdosproblems.com statement. Théorème
+1 of [ErTe89], which develops an unpublished argument of Erdős and Simonovits,
 makes the upper constant for $g(k)$ explicit,
-$g(k)\le(3\cdot2^{-2/3}+o(1))^k$. The site's page cites neither paper, and
-the discussion thread's literature review of 2026-07-30 (by Korsky, who says
-it was GPT-5.6-assisted) is where these results were pointed out; the papers
-themselves are cited here from the author-archive scans.
+$g(k)\le(3\cdot2^{-2/3}+o(1))^k$. The erdosproblems.com page cites neither
+paper, and the discussion thread's literature review of 2026-07-30 (by Korsky,
+who says it was GPT-5.6-assisted) is where these results were pointed out; the
+papers themselves are cited here from the author-archive scans.
 
 **The pending claims.**
 [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's maximal order]] (a

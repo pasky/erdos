@@ -68,8 +68,8 @@ the Gallai–Hasse–Roy–Vitaver theorem (Theorem 2.1, p. 4), an external inpu
 - [[../wiki/problems/set_systems/E1026/_index|Problem 1026]]: the problem
   asks for the largest sum of a monotone subsequence of $n$ distinct reals.
   Theorem 1.6 bounds the length of a monotone subsequence, not its sum, and
-  the paper states no weighted bound. The site's curator calls the weighted
-  Erdős–Szekeres bound implicit in this paper; the weighting step the paper
-  does prove is
+  the paper states no weighted bound. The erdosproblems.com curator calls the
+  weighted Erdős–Szekeres bound implicit in this paper; the weighting step the
+  paper does prove is
   [[set_systems/wagner_2017_large_subgraphs_rainbow_triangle_free_colorings/claim_3_5|Claim 3.5]],
   for chromatic numbers.

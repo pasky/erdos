@@ -3,7 +3,7 @@ name: integer_sequences/iwaniec_1978_problem_jacobsthal/corollary
 title: "Corollary: C(r) ≪ r^2 log^2 r, so h(k) ≪ (k log k)^2, Y(x) ≪ x^2 and S(k) ≫ k^{1/2}"
 desc: |
   Iwaniec's bound C(r) ≪ r^2 log^2 r for the maximal run of consecutive
-  integers each divisible by one of r arbitrary primes, the site's
+  integers each divisible by one of r arbitrary primes, erdosproblems.com's
   h(k) ≪ (k log k)^2 for Problem 970, with its primorial case Y(x) ≪ x^2 for
   Problem 687 and the inverse S(k) ≫ k^{1/2} for Problem 929.
 created: 2026-09-22T00:00:00Z
@@ -53,7 +53,7 @@ as such; the paper states none of them.
   $r$ primes is a run for those primes and one more), so $h(k)=C(k)+1$.
   Erdős's 1965 lecture writes the same $\max g(n)=C(r)+1$ over
   $\nu(n)\le r$. The Corollary is therefore $h(k)\ll(k\log k)^2$, the
-  site's statement.
+  erdosproblems.com statement.
 - Problem 687's $Y(x)$, the longest initial interval covered by one
   residue class per prime $p\le x$, is $j(P(x))-1=C_0(\pi(x))$, the
   longest run of consecutive integers each divisible by a prime $p\le x$
@@ -66,7 +66,7 @@ as such; the paper states none of them.
 - Problem 929's $S(k)$ is the least $x$ with $Y(x)\ge k$. If
   $Y(x)\le Cx^2$ and $Y(x)\ge k$ then $x\ge(k/C)^{1/2}$, so
   $S(k)\gg k^{1/2}$; this is Erdős's "Iwaniec's result $B(n)>c\sqrt n$" of
-  1979, and it is stronger than the site's $S(k)>k^{1/2-o(1)}$ from
+  1979, and it is stronger than erdosproblems.com's $S(k)>k^{1/2-o(1)}$ from
   Rosser's sieve.
 
 **Source.** H. Iwaniec, On the problem of Jacobsthal, Demonstratio Math.
@@ -106,8 +106,8 @@ the identity $Y(x)=j(P(x))-1$ of
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]]: the upper bound
-  $h(k)\ll(k\log k)^2$ that the site attributes to the paper, read here at
-  its source; the displayed question $h(k)\ll k^2$ is Jacobsthal's second
+  $h(k)\ll(k\log k)^2$ that erdosproblems.com attributes to the paper, read here
+  at its source; the displayed question $h(k)\ll k^2$ is Jacobsthal's second
   question as p. 226 reports it, and the paper leaves it open.
 - [[../wiki/problems/integer_sequences/E0687/_index|Problem 687]]: the upper bound
   $Y(x)\ll x^2$, through $Y(x)=C_0(\pi(x))\le C(\pi(x))$; the paper does

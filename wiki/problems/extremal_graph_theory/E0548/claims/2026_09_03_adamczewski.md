@@ -71,23 +71,23 @@ card]].
 > can be prepared (volunteers welcome!).
 
 **Claimant and postings.** The claimant is Tom Adamczewski, the name the
-publication carries: the proof repository the site's proof claim links,
+publication carries: the proof repository erdosproblems.com's proof claim links,
 pinned above, is Adamczewski's, and the FrontierMath Erdős paper of
 Adamczewski and Bloom (arXiv:2609.25050, v1 6 September 2026) and Epoch AI's
 report, linked above, record the resolution. The proof was found by GPT-6 Astra,
-which the site's proof-claim entry names as its claimant and describes as a
-pre-release version of GPT-6 Astra run by Epoch AI; the entry's summary says
-the proof was formalized in that run and is short and elementary. The entry
-was submitted on the site's proof-claim tab by the site's curator,
-T. F. Bloom, on 3 September 2026, the date this page is named by, with the
-five-page exposition linked above, which is unsigned prose that GPT
-generated from the formal proof at the curator's request. The resolution
-module linked above is the formalization GPT-6 Astra produced in that run,
-published in the claimant's repository with two mechanical edits, the import
-line and a one-line Mathlib port, so it is a link on this page and not a page
-of its own. The second Lean link, in the Jayyhk/erdos-lean repository (commit
-of 5 September 2026), is a copy of that module with the same header and lemma
-names, differing only in its namespace and `open` lines and an added
+which the erdosproblems.com proof-claim entry names as its claimant and
+describes as a pre-release version of GPT-6 Astra run by Epoch AI; the entry's
+summary says the proof was formalized in that run and is short and elementary.
+The entry was submitted on the erdosproblems.com proof-claim tab by the
+erdosproblems.com curator, T. F. Bloom, on 3 September 2026, the date this page
+is named by, with the five-page exposition linked above, which is unsigned prose
+that GPT generated from the formal proof at the curator's request. The
+resolution module linked above is the formalization GPT-6 Astra produced in that
+run, published in the claimant's repository with two mechanical edits, the
+import line and a one-line Mathlib port, so it is a link on this page and not a
+page of its own. The second Lean link, in the Jayyhk/erdos-lean repository
+(commit of 5 September 2026), is a copy of that module with the same header and
+lemma names, differing only in its namespace and `open` lines and an added
 `#print axioms` line; it names no author and is not an independent proof, so
 it too is a link on this page. The formal-conjectures statement file for the
 problem, added on 7 September 2026, points to that copy through its
@@ -107,11 +107,11 @@ environment, and they are exactly `propext`, `Classical.choice` and
 declaration, whose statement uses only Mathlib definitions. The fingerprint of
 the proved declaration was found identical to the challenge.
 
-The compared statement is exactly the site's form, and it was audited clause by
-clause against the Statement. For naturals $n\ge k+1$, every simple graph on
-`Fin n` with at least $\frac{k-1}2n+1$ edges contains every tree on `Fin (k +
-1)` as a not necessarily induced subgraph. The threshold is computed in
-$\mathbb Q$ without truncation. The case $k=0$ is included and trivial, and
+The compared statement is exactly the erdosproblems.com form, and it was audited
+clause by clause against the Statement. For naturals $n\ge k+1$, every simple
+graph on `Fin n` with at least $\frac{k-1}2n+1$ edges contains every tree on
+`Fin (k + 1)` as a not necessarily induced subgraph. The threshold is computed
+in $\mathbb Q$ without truncation. The case $k=0$ is included and trivial, and
 $K_n$ meets the threshold for every $k\ge1$, so nothing is vacuous. When
 $(k-1)n$ is odd, this threshold is one edge more than the classical
 $e(G)>(k-1)n/2$. The classical form is the lemma `tree_free_edge_bound` in the
@@ -128,10 +128,11 @@ give a simplified version of the argument that also determines the extremal
 graphs. D. R. Wood, *The Erdős--Sós Theorem*, arXiv:2609.17877 (v1 15 September
 2026), is an exposition. B. Frederickson, *Erdős-Sós via random cyclic
 orderings*, arXiv:2609.21159 (v1 18 September 2026), gives a simplified proof.
-None of these is refereed. The site labeled the problem proved and formalized,
-and its curator credits the proof. But the curator submitted the site's proof
-claim themselves and is a co-author of the FrontierMath Erdős paper, so the
-curator's credit is not counted as an independent review.
+None of these is refereed. Bloom's catalog labeled the problem proved and
+formalized, and its curator credits the proof. But the curator submitted
+erdosproblems.com's proof claim themselves and is a co-author of the
+FrontierMath Erdős paper, so the curator's credit is not counted as an
+independent review.
 
 Not refereed: the exposition is a preliminary account. The proof-claim note of 3
 September 2026 calls it a placeholder pending a proper write-up and an

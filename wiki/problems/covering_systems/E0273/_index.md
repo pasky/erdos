@@ -31,16 +31,16 @@ notes that it is the notion Erdős used in [ErGr80], and `erdos_273` asks for
 one. Without distinct moduli, the four classes modulo $4=5-1$ cover the
 integers. Without finiteness, the classes $z_i\pmod{p_i-1}$ cover them, for
 an enumeration $(z_i)$ of the integers and distinct primes $p_i\ge5$. The
-site's remark that Selfridge found an example from divisors of $360$ when
-$p=3$ is allowed is notable only under this reading, since the two classes
+erdosproblems.com remark that Selfridge found an example from divisors of $360$
+when $p=3$ is allowed is notable only under this reading, since the two classes
 modulo $2=3-1$ already cover.
 
-**Status.** Open, the site's label (OPEN; page last edited 01 October 2025). The
-site's proof-claims tab carries a partial proof claim by Rafik Zeraoulia,
-submitted 2026-07-27. The claim names OpenAI GPT-5.6 Thinking as the assisting
-system. It asserts, by an exact computer-assisted sieve, that any such covering
-system with distinct moduli has moduli whose least common multiple is at least
-$393120$. It is recorded as claimed on
+**Status.** Open, the erdosproblems.com label (OPEN; page last edited 01 October
+2025). The erdosproblems.com proof-claims tab carries a partial proof claim by
+Rafik Zeraoulia, submitted 2026-07-27. The claim names OpenAI GPT-5.6 Thinking
+as the assisting system. It asserts, by an exact computer-assisted sieve, that
+any such covering system with distinct moduli has moduli whose least common
+multiple is at least $393120$. It is recorded as claimed on
 [[problems/covering_systems/E0273/claims/2026_07_26_zeraoulia|its claim page]].
 The discussion thread carries a research note of July 2026 by the pseudonymous
 user ideal_ombrer. Its Theorem 1.1 asserts that every such covering system uses
@@ -58,8 +58,8 @@ https://www.erdosproblems.com/273.
 
 - [ErGr80] [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Erdős, P. and Graham, R. L., Old and new problems and results in combinatorial number theory]].
   Monographies de L'Enseignement Mathématique 28, Université de Genève (1980).
-  Not a site reference; added for the covering-system convention the
-  Formulation cites.
+  Not an erdosproblems.com reference; added for the covering-system convention
+  the Formulation cites.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/273.lean)
@@ -70,12 +70,12 @@ with answer true, also with a `sorry` body.
 
 ## Current assessment
 
-The site formulation asks whether a covering system exists all of whose moduli
-have the form $p-1$ for primes $p\ge5$; the Formulation above records the
-distinct-moduli reading, the one the source and both claim pages use, and the
-standing answers the site's wording in that reading. The site labeled the
-problem OPEN (page last edited 1 October 2025); no proof claim of the problem
-itself is recorded.
+The erdosproblems.com formulation asks whether a covering system exists all of
+whose moduli have the form $p-1$ for primes $p\ge5$; the Formulation above
+records the distinct-moduli reading, the one the source and both claim pages
+use, and the standing answers the erdosproblems.com wording in that reading.
+Bloom's catalog labeled the problem OPEN (page last edited 1 October 2025); no
+proof claim of the problem itself is recorded.
 
 Partial results. Two claims restrict where such a covering system can live
 without deciding whether one exists. The research note of July 2026 by the
@@ -90,14 +90,14 @@ common multiple of the moduli is at least $393120$, by an exact
 computer-assisted sieve; it is recorded as a claimed partial result on
 [[problems/covering_systems/E0273/claims/2026_07_26_zeraoulia|its claim page]]:
 unrefereed, with no named outside review, and its verification script has not
-been rerun by this corpus. Posts of 2026-09-24 and 2026-09-28 on the site's
-discussion thread by a second pseudonymous user report a re-implementation of
-Zeraoulia's certificate and exact searches excluding every least common
-multiple below $4\times10^6$ and then below $8\times10^6$, with code but no
-manuscript, so they have no claim page.
+been rerun by this corpus. Posts of 2026-09-24 and 2026-09-28 on the
+erdosproblems.com discussion thread by a second pseudonymous user report a
+re-implementation of Zeraoulia's certificate and exact searches excluding every
+least common multiple below $4\times10^6$ and then below $8\times10^6$, with
+code but no manuscript, so they have no claim page.
 
-Search scope: the site's page and commentary (last edited 1 October 2025), its
-proof-claims tab (no comments on Zeraoulia's claim) and its
+Search scope: the erdosproblems.com page and commentary (last edited 1 October
+2025), its proof-claims tab (no comments on Zeraoulia's claim) and its
 discussion thread (posts through 2026-09-28), and the formal-conjectures
 statement file at the revision current on 2026-10-06, which carries no
 `formal_proof` attribute. Remaining gap: whether any such covering system

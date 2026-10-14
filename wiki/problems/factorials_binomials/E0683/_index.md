@@ -31,23 +31,23 @@ $$
 
 for some constant $c>0$?
 
-**Formulation.** The site's wording (page last edited 31 December 2025) is the
-target of this page's standing. Erdős's display (6) in [Er79d, p. 74] has the
-strict inequality $P(\binom nk)>\min\{n-k+1,k^{1+c}\}$. That form fails for
-$n=2^t$, $k=n-1$, where $\binom n{n-1}=2^t$ and $P=2$. The site's non-strict
-inequality corrects it, after the thread of 3 December 2025, where the curator
-adds that the question is meant for $k\le n/2$. At $k=n$ the coefficient is
-$1$, which has no prime factor, so this page reads the question for
-$1\le k\le n-1$. For $n/2\le k\le n-1$ the inequality holds for every $c$, by
-the Sylvester-Schur theorem and $\binom nk=\binom n{n-k}$. The open content is
-therefore the range $k\le n/2$, which is the range of the formal-conjectures
-statement.
+**Formulation.** The erdosproblems.com wording (page last edited 31
+December 2025) is the target of this page's standing. Erdős's display (6) in
+[Er79d, p. 74] has the strict inequality $P(\binom nk)>\min\{n-k+1,k^{1+c}\}$.
+That form fails for $n=2^t$, $k=n-1$, where $\binom n{n-1}=2^t$ and $P=2$.
+erdosproblems.com's non-strict inequality corrects it, after the thread of 3
+December 2025, where the curator adds that the question is meant for $k\le n/2$.
+At $k=n$ the coefficient is $1$, which has no prime factor, so this page reads
+the question for $1\le k\le n-1$. For $n/2\le k\le n-1$ the inequality holds for
+every $c$, by the Sylvester-Schur theorem and $\binom nk=\binom n{n-k}$. The
+open content is therefore the range $k\le n/2$, which is the range of the
+formal-conjectures statement.
 
-**Status.** Open, the site's label. The derived standing is `open` with claim
-`none`, because no claim settles the problem or is pending to settle it. The
-site credits two classical results. Each is an accepted partial claim with
-refereed evidence. The first is the Sylvester-Schur theorem in the binomial form
-of [Er34],
+**Status.** Open, the erdosproblems.com label. The derived standing is `open`
+with claim `none`, because no claim settles the problem or is pending to settle
+it. erdosproblems.com credits two classical results. Each is an accepted partial
+claim with refereed evidence. The first is the Sylvester-Schur theorem in the
+binomial form of [Er34],
 [[problems/factorials_binomials/E0683/claims/1934_10_01_erdos|Erdős 1934]]. It
 settles the range $n/2\le k\le n-1$ for every $c$. The second is Theorem 1 of
 [Er55d],
@@ -92,13 +92,13 @@ not a formalization of a result. Nothing has been built here.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 31 December 2025): is
-there a constant $c>0$ such that $P(\binom nk)\ge\min(n-k+1,k^{1+c})$ for every
-$1\le k\le n$? The Formulation above records the defects of the wording and
-the reading this page uses. The site says the problem is essentially the same
-as Problem 961, which asks for the least length of a block of consecutive
-integers above $k$ forced to contain a prime factor greater than $k$; the
-formal-conjectures file carries the same remark.
+The question, as erdosproblems.com states it (page last edited 31 December
+2025): is there a constant $c>0$ such that $P(\binom nk)\ge\min(n-k+1,k^{1+c})$
+for every $1\le k\le n$? The Formulation above records the defects of the
+wording and the reading this page uses. erdosproblems.com says the problem is
+essentially the same as Problem 961, which asks for the least length of a block
+of consecutive integers above $k$ forced to contain a prime factor greater than
+$k$; the formal-conjectures file carries the same remark.
 
 What is known. The Sylvester-Schur theorem ([Er34], claim page
 [[problems/factorials_binomials/E0683/claims/1934_10_01_erdos|Erdős 1934]])
@@ -107,30 +107,30 @@ $\binom nk=\binom n{n-k}$ it gives $P(\binom nk)\ge n-k+1$ for
 $n/2\le k\le n-1$. Theorem 1 of [Er55d] (claim page
 [[problems/factorials_binomials/E0683/claims/1955_01_01_erdos|Erdős 1955]])
 sharpens the first to blocks of about $k/\log k$ consecutive integers, which
-gives $P(\binom nk)\gg\min(n-k+1,k\log k)$ for $k\le n/2$; the site prints this
-bound without the minimum, a form that fails at $n=2k$. The best known bound
-comes from Problem 961, which the site calls essentially equivalent: the
-bound $f(m)\ll m\log\log\log m/(\log m\log\log m)$ of Jutila, Ramachandra
-and Shorey (Acta Arith. 24 (1973) and 25 (1974), J. Indian Math. Soc. 38
-(1974)), accepted on
+gives $P(\binom nk)\gg\min(n-k+1,k\log k)$ for $k\le n/2$; erdosproblems.com
+prints this bound without the minimum, a form that fails at $n=2k$. The best
+known bound comes from Problem 961, which erdosproblems.com calls essentially
+equivalent: the bound $f(m)\ll m\log\log\log m/(\log m\log\log m)$ of Jutila,
+Ramachandra and Shorey (Acta Arith. 24 (1973) and 25 (1974), J. Indian Math.
+Soc. 38 (1974)), accepted on
 [[problems/integer_sequences/E0961/claims/1973_01_01_jutila_ramachandra_shorey|Problem 961's claim page]]
 from Erdős's 1976 attestation, gives by the same deduction
 $P(\binom nk)\gg\min(n-k+1,k\log k\log\log k/\log\log\log k)$ for $k\le n/2$
 (claim page
 [[problems/factorials_binomials/E0683/claims/1973_01_01_jutila_ramachandra_shorey|Jutila, Ramachandra and Shorey]]).
-The site's commentary on this problem cites only [Er55d]. In [Er79d] Erdős
-writes that the inequality with $k^{1+c}$ seems certain to hold for every
-$c>0$ with finitely many exceptions depending on $c$, and the site adds that
-standard heuristics on prime gaps suggest $P(\binom nk)>e^{c\sqrt k}$ for
+The erdosproblems.com commentary on this problem cites only [Er55d]. In [Er79d]
+Erdős writes that the inequality with $k^{1+c}$ seems certain to hold for every
+$c>0$ with finitely many exceptions depending on $c$, and erdosproblems.com adds
+that standard heuristics on prime gaps suggest $P(\binom nk)>e^{c\sqrt k}$ for
 $k\le n/2$. No result gives a bound of the form $k^{1+c}$; the open content is
 the range $k\le n/2$ with $n-k$ large compared with
 $k\log k\log\log k/\log\log\log k$.
 
-Search scope. As of 2026-10-07 the site's discussion thread held six posts, all
-on the wording (the $2^t$ counterexample of 3 December 2025, the restriction to
-$k\le n-1$ of 31 December 2025, and the location of the problem on p. 74 of
-[Er79d]), and its proof-claims page listed no claim. No preprint or paper
-claiming the inequality was found. The library cards of [Er34] and [Er55d]
+Search scope. On 2026-10-07 the erdosproblems.com discussion thread held six
+posts, all on the wording (the $2^t$ counterexample of 3 December 2025, the
+restriction to $k\le n-1$ of 31 December 2025, and the location of the problem
+on p. 74 of [Er79d]), and its proof-claims page listed no claim. No preprint or
+paper claiming the inequality was found. The library cards of [Er34] and [Er55d]
 record the two theorems, and Erdős's 1976 survey attests the Jutila,
 Ramachandra and Shorey bound, whose papers are not held; nothing here is
 independently reviewed.

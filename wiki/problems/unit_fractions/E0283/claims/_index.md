@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 283, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/unit_fractions/E0283/claims
@@ -26,8 +26,8 @@ to $5$) and $x^2+b$ ($b\le800$). It is unrefereed, and part of it has a Lean
 formalization.
 
 [[problems/unit_fractions/E0283/claims/2026_05_03_price|2026_05_03_price]]: An argument that GPT-5.5 Pro generated at Price's prompting proves the general
-case of the problem, with $1$ replaced by any positive rational. The site's
-curator accepted it, and its third-party Lean formalizations have not been
-built locally.
+case of the problem, with $1$ replaced by any positive rational. The
+erdosproblems.com curator accepted it, and its third-party Lean formalizations
+have not been built locally.
 
 ***

@@ -45,6 +45,6 @@ of any length, for which the problem's distinct primes exist. Larger $n$
 are not covered, so the problem stays open.
 
 **Acceptance.** The result appeared in 2006 in the International Journal of
-Number Theory, a refereed journal. This is the `refereed` evidence. The site
-labeled the problem FALSIFIABLE, which is an open label, so the credit in its
-commentary is not `reviewed` evidence.
+Number Theory, a refereed journal. This is the `refereed` evidence. Bloom's
+catalog labeled the problem FALSIFIABLE, which is an open label, so the credit
+in its commentary is not `reviewed` evidence.

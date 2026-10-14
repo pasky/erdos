@@ -113,7 +113,7 @@ settle no part of the problem.
 gives some point $\Omega(m^{2/3}(\lambda_6(m)/m)^{-1/3})$ distinct distances
 only when no three of the $m$ points in three dimensions are collinear, so it
 bounds $f_3(n)$ for no general set; the $n^{1/2}$ bound for general sets that
-the site's remarks credit to the paper is not printed in it.
+the erdosproblems.com remarks credit to the paper is not printed in it.
 [[../wiki/problems/distance_problems/E0604/_index|#604]]:
 [[distance_problems/clarkson_1990_combinatorial_complexity_bounds_arrangements_curves_spheres/corollary_5_6|Corollary 5.6]]
 gives every $m$-point planar set a point with $\Omega(m^{3/4})$ distinct

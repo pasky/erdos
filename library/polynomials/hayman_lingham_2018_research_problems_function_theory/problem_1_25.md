@@ -62,8 +62,8 @@ None.
 ## Bears on
 
 - [[../wiki/problems/analysis/E1116/_index|Problem 1116]]: the problem's
-  wording follows Problem 1.25, which it cites from Hayman's 1974 list; the
-  site asks only for the limsup condition, which by the book's remark is
-  equivalent to the pair. The book counts roots in $|z|\le r$, the site in
-  $|z|<r$. Update 1.25 credits entire examples to Gol'dberg and Toppila and a
-  meromorphic one to Toppila.
+  wording follows Problem 1.25, which it cites from Hayman's 1974 list;
+  erdosproblems.com asks only for the limsup condition, which by the book's
+  remark is equivalent to the pair. The book counts roots in $|z|\le r$,
+  erdosproblems.com in $|z|<r$. Update 1.25 credits entire examples to Gol'dberg
+  and Toppila and a meromorphic one to Toppila.

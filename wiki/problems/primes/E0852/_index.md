@@ -38,9 +38,9 @@ $$
 h(x)=o(\log x)?
 $$
 
-**Status.** Open. The site's label was OPEN, and its commentary records only
-that Brun's sieve gives $h(x)\to\infty$. Two partial claims were posted on the
-problem's discussion thread on 24 April 2026:
+**Status.** Open. The erdosproblems.com label was OPEN, and its commentary
+records only that Brun's sieve gives $h(x)\to\infty$. Two partial claims were
+posted on the problem's discussion thread on 24 April 2026:
 [[problems/primes/E0852/claims/2026_04_24_chojecki|Chojecki's bound $h(x)\gg(\log x)^{1/3}$]]
 (credited to GPT-5.5 Pro) and
 [[problems/primes/E0852/claims/2026_04_24_turturean|Turturean's four-prime count]]
@@ -57,12 +57,13 @@ https://www.erdosproblems.com/852.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) defines $h(x)$ through a run of
-pairwise distinct consecutive gaps $d_n,\ldots,d_{n+h(x)-1}$ whose starting
-index $n$ is below $x$, so the run itself reaches primes near $x\log x$. It
-asks for an estimate of $h(x)$ and, in particular, whether $h(x)>(\log x)^c$
-for some $c>0$ and whether $h(x)=o(\log x)$. The site's label was OPEN; its
-commentary records only that Brun's sieve gives $h(x)\to\infty$.
+The erdosproblems.com formulation (accessed 2026-09-04) defines $h(x)$ through a
+run of pairwise distinct consecutive gaps $d_n,\ldots,d_{n+h(x)-1}$ whose
+starting index $n$ is below $x$, so the run itself reaches primes near
+$x\log x$. It asks for an estimate of $h(x)$ and, in particular, whether
+$h(x)>(\log x)^c$ for some $c>0$ and whether $h(x)=o(\log x)$. The
+erdosproblems.com label was OPEN; its commentary records only that Brun's sieve
+gives $h(x)\to\infty$.
 
 **Lower bounds.** Two write-ups linked from the problem's discussion thread
 claim $h(x)\ge c_0(\log x)^{1/3}$ for all large $x$, with $c_0>0$ absolute, so
@@ -72,9 +73,9 @@ PDF, by the Selberg upper-bound sieve on five-prime configurations) and
 [[problems/primes/E0852/claims/2026_04_24_turturean|Turturean's write-up]] (a
 live Overleaf project, by a four-prime rectangle count). Each page names the
 AI system the claimant used. Both claims are unrefereed and unreviewed, and
-the site's label and commentary do not mention them. They answer the first
-particular question with yes for $c<1/3$ and leave the estimate of $h(x)$ and
-the question $h(x)=o(\log x)$ open. Turturean's post also describes a
+the erdosproblems.com label and commentary do not mention them. They answer the
+first particular question with yes for $c<1/3$ and leave the estimate of $h(x)$
+and the question $h(x)=o(\log x)$ open. Turturean's post also describes a
 conditional argument, under a uniform Hardy-Littlewood $k$-tuples hypothesis
 on average in lower-bound form with a power saving, that would give
 $h(x)\ge(c-o(1))\log x$ for some $c>0$ and so refute $h(x)=o(\log x)$; the
@@ -106,12 +107,12 @@ twelfth significant digit. A post of 23 December 2025 notes that the OEIS
 sequence A078515 is the inverse function of $h$. These are predictions and
 data, not theorems.
 
-Search scope, with the sources as they stood on 2026-10-07: the site's page and
-discussion thread (eight comments, no proof claims), the community database
-(teorth/erdosproblems, which listed the problem as open and not formalized), the
-formal-conjectures catalog (no statement file for the problem), the library card
-of Stadlmann's paper, and the two write-ups through their links. They showed no
-refereed result on $h(x)$ beyond Brun's sieve.
+Search scope, with the sources as they stood on 2026-10-07: the
+erdosproblems.com page and discussion thread (eight comments, no proof claims),
+the community database (teorth/erdosproblems, which listed the problem as open
+and not formalized), the formal-conjectures catalog (no statement file for the
+problem), the library card of Stadlmann's paper, and the two write-ups through
+their links. They showed no refereed result on $h(x)$ beyond Brun's sieve.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

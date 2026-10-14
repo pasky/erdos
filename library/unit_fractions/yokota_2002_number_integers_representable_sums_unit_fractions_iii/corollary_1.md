@@ -48,11 +48,11 @@ second being a bound for every large $a$.
 
 **In the problems' notation.** The paper's $N(n)$ contains the empty sum $0$,
 so $|N(N)|=F(N)+1$ for the count $F(N)$ of Problem 309, and the first display
-gives $F(N)\ge\log N+\gamma-1-(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$. The
-site displays the lower bound as
+gives $F(N)\ge\log N+\gamma-1-(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$.
+erdosproblems.com displays the lower bound as
 $F(N)\ge\log N+\gamma-(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$. Since $F(N)$
-is an integer at most $H_N=\log N+\gamma+O(1/N)$, that inequality read as the
-site words it fails whenever the fractional part of $H_N$ exceeds
+is an integer at most $H_N=\log N+\gamma+O(1/N)$, that inequality read as
+Bloom's catalog words it fails whenever the fractional part of $H_N$ exceeds
 $(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N$; the form that can hold, and the
 one the deduction below gives, is the integer-part form
 $F(N)\ge\lfloor H_N-(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N\rfloor$ of
@@ -114,10 +114,10 @@ printed statement and $H_N=\log N+\gamma+O(1/N)$.
 ## Bears on
 
 - [[../wiki/problems/unit_fractions/E0309/_index|Problem 309]]: the first display is the
-  best lower bound the site records for the count $F(N)$ of representable
-  integers, with $\frac{\pi^2}3$ in place of the $\frac92$ of Croot's Main
-  Theorem; together with Croot's upper bound, both read in the integer-part
-  form of that Main Theorem, it places $F(N)$ between
+  best lower bound erdosproblems.com records for the count $F(N)$ of
+  representable integers, with $\frac{\pi^2}3$ in place of the $\frac92$ of
+  Croot's Main Theorem; together with Croot's upper bound, both read in the
+  integer-part form of that Main Theorem, it places $F(N)$ between
   $\lfloor H_N-(\frac{\pi^2}3+o(1))(\log\log N)^2/\log N\rfloor$ and
   $\lfloor H_N-(\frac12+o(1))(\log\log N)^2/\log N\rfloor$. It sharpens
   the second-order term only; that $F(N)$ has order $\log N$ follows from

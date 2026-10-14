@@ -76,9 +76,9 @@ denominators. Both are taken at statement level here.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0451/_index|Problem 451]]: the first
-  superpolynomial lower bound for the problem's $n_k$, which the site's
-  commentary records; the label OPEN stays with the estimate, since the
-  bound is far from the upper bound $e^{(1+o(1))k}$.
+  superpolynomial lower bound for the problem's $n_k$, which the
+  erdosproblems.com commentary records; the label OPEN stays with the estimate,
+  since the bound is far from the upper bound $e^{(1+o(1))k}$.
 - [[../wiki/problems/integer_sequences/E0961/_index|Problem 961]]: adjacent context only;
   the prime-factor cutoff here is the interval $(k,2k)$, not "a prime
   greater than $k$", so the theorem does not bound that problem's $f(k)$.

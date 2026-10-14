@@ -89,11 +89,11 @@ strong edge coloring / strong clique bound (5/4)Delta^2.
 Source: <https://arxiv.org/abs/1903.06087>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 6
-(p. 2 of the preprint, page image), the site's "$\omega\le\frac54\Delta^2$
-under the additional assumption that $G$ is triangle-free (and
-$\omega\le\Delta^2$ if $G$ is $C_5$-free)"; Conjecture 1 (p. 1) is the
-site's question and Conjectures 2--3 and Theorems 4--5 (p. 2) the bipartite,
-$C_5$-free and $C_4$-free variants (Mahdian's
+(p. 2 of the preprint, page image), erdosproblems.com's
+"$\omega\le\frac54\Delta^2$ under the additional assumption that $G$ is
+triangle-free (and $\omega\le\Delta^2$ if $G$ is $C_5$-free)"; Conjecture 1
+(p. 1) is the erdosproblems.com question and Conjectures 2--3 and Theorems 4--5
+(p. 2) the bipartite, $C_5$-free and $C_4$-free variants (Mahdian's
 $(2+\varepsilon)\Delta^2/\log\Delta$ for $C_4$-free graphs of large $\Delta$
 as Theorem 4); p. 4 records that the general clique bound $\frac54\Delta^2$
 "remains conjectural".

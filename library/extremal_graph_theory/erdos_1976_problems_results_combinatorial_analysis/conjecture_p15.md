@@ -63,8 +63,9 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]]: the site's
-  source key [Er76]. The passage states the problem's question, whether every
-  $n$-vertex graph decomposes into $O(n)$ edge-disjoint cycles and edges, as a
-  conjecture of Erdős and Gallai, and reports $cn\log n$ as the bound they
-  could prove. It records no lower bound and no constant, and settles nothing.
+- [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]]: the
+  erdosproblems.com source key [Er76]. The passage states the problem's
+  question, whether every $n$-vertex graph decomposes into $O(n)$ edge-disjoint
+  cycles and edges, as a conjecture of Erdős and Gallai, and reports $cn\log n$
+  as the bound they could prove. It records no lower bound and no constant, and
+  settles nothing.

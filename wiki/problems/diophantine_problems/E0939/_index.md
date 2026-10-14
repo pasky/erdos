@@ -40,21 +40,21 @@ $r\geq4$. Erdős's source states the conjecture for each $r$ with no
 coprimality condition, "the sum of $r - 2$ $r$-powerful numbers is never (or at
 most finitely often) $r$-powerful" [Er76d, p. 33], and writes the three-term
 case with $(u_i,u_j,u_\ell)=1$, where joint and pairwise coprimality coincide.
-The site adopted Cambie's and Kitamura's $r=5$ examples, which are jointly but
-not pairwise coprime, and formal-conjectures uses joint coprimality
+erdosproblems.com adopted Cambie's and Kitamura's $r=5$ examples, which are
+jointly but not pairwise coprime, and formal-conjectures uses joint coprimality
 (`Finset.Coprime`) for every $r\geq4$. Under a pairwise reading, the $r=5$
 examples and the $r\geq6$ construction would not count. Under a "for some $r$"
 reading, the first question would already be answered yes at $r=5$.
 
-**Status.** Open. The site's label was OPEN. The page was last edited on
-2026-05-28, and its proof-claims thread was empty as of 2026-09-27. The site's
-remarks answer the third question yes through Nitaj [Ni95], with further
-constructions by Cohn [Co98] and Walsh [Wa24]. They record solutions of the
-first question at $r=5$ (Cambie; Kitamura) and at $r=7$ and $r=8$ (Cambie). They
-also record a construction (GPT-5.5 Pro, prompted by Price, 24 May 2026) that
-gives infinitely many solutions for every $r\geq 6$, so the answer to the second
-question is no for those $r$. Neither of the first two questions is answered at
-$r=4$.
+**Status.** Open. The erdosproblems.com label was OPEN. The page was last edited
+on 2026-05-28, and its proof-claims thread was empty on 2026-09-27. The
+erdosproblems.com remarks answer the third question yes through Nitaj [Ni95],
+with further constructions by Cohn [Co98] and Walsh [Wa24]. They record
+solutions of the first question at $r=5$ (Cambie; Kitamura) and at $r=7$ and
+$r=8$ (Cambie). They also record a construction (GPT-5.5 Pro, prompted by Price,
+24 May 2026) that gives infinitely many solutions for every $r\geq 6$, so the
+answer to the second question is no for those $r$. Neither of the first two
+questions is answered at $r=4$.
 
 **Source.** [erdosproblems.com/939](https://www.erdosproblems.com/939), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #939,
@@ -91,16 +91,17 @@ is marked research solved with proof `sorry` (since 2026-09-11);
 `erdos_939.variants.triples` is `answer(True)`. Conjectures.io record
 `91915fc3-9040-4a31-8da5-b49d4e2cc2fb` (certified 6 Aug 2026, partial award for
 a formalization defect): its Lean proof establishes the pre-positivity statement
-by taking $\{0,1\}$ at $r=4$; the site's review states it does not settle the
-problem; the file's `infinite_rpowerful_sums` theorem is a kernel-checked proof
-of the $r\geq 6$ infinitude with positive summands. See the
+by taking $\{0,1\}$ at $r=4$; Conjectures.io's review states it does not settle
+the problem; the file's `infinite_rpowerful_sums` theorem is a kernel-checked
+proof of the $r\geq 6$ infinitude with positive summands. See the
 [[../library/diophantine_problems/conjectures_io_2026_erdos_939_lean_r_powerful_sums/_index|Conjectures.io card]].
 
 ## Current assessment
 
-Site formulation as of 2026-09-27 (last edited 28 May 2026); three parts as
-quoted in the Statement, read as the Formulation records. The page-level status
-is open because $r=4$ is undecided for both of the first two parts.
+erdosproblems.com formulation as accessed 2026-09-27 (last edited 28 May 2026);
+three parts as quoted in the Statement, read as the Formulation records. The
+page-level status is open because $r=4$ is undecided for both of the first two
+parts.
 
 Part 3 is resolved (yes) by the refereed sources
 [[../library/diophantine_problems/nitaj_1995_conjecture_erdos_3_powerful_numbers/_index|Nitaj 1995]]
@@ -131,9 +132,9 @@ release has no Lean for it and claims nothing about this problem, so no claim
 page is written for it.
 
 Part 1 (can it ever happen for $r\geq 4$): instances exist at $r=5$ (Cambie;
-Kitamura), at $r=7$ and $r=8$ (Cambie, asserted in the site text with the
-numbers not displayed), and for every $r\geq 6$ (the construction below);
-none is known at $r=4$, where the only evidence is a forum-reported
+Kitamura), at $r=7$ and $r=8$ (Cambie, asserted in the erdosproblems.com text
+with the numbers not displayed), and for every $r\geq 6$ (the construction
+below); none is known at $r=4$, where the only evidence is a forum-reported
 exhaustive search bound $\max(a,b)>10^{14}$.
 
 Part 2 (at most finitely many?): false for every $r\geq 6$ (infinitely many
@@ -141,8 +142,8 @@ solutions); open at $r=4$ and $r=5$.
 
 Acceptance evidence. Part 3 rests on two refereed journal papers (Nitaj, Cohn);
 Walsh's refereed construction is conditional on a positive-rank hypothesis. The
-$r\geq 6$ construction is a forum post adopted into the site text and formalized
-in Lean
+$r\geq 6$ construction is a forum post adopted into the erdosproblems.com text
+and formalized in Lean
 ([[../library/diophantine_problems/price_2026_infinite_r_powerful_sums/_index|Price 2026]]);
 the Lean text was kernel-checked as part of the Conjectures.io submission
 `91915fc3`, whose accepted target was a defective formal statement (no
@@ -167,8 +168,8 @@ and $r=5$. CrowdMath's Theorem 2.1 (abc implies only finitely many coprime
 $4$-powerful $a+b=c$) has no claim page: it rests on the unproved abc
 conjecture, reaches only $r=4$ and says nothing at $r=5$, so it settles no
 part even conditionally. Cambie's and Kitamura's examples and Cambie's $r=4$
-search have no claim pages: they come from the site's thread and remarks, with
-no manuscript.
+search have no claim pages: they come from the erdosproblems.com thread and
+remarks, with no manuscript.
 
 Search scope, with the changing sources as they stood on 2026-09-27:
 erdosproblems.com (problem page, revision history, forum thread 939 with 9
@@ -227,7 +228,7 @@ reconstruction is author-recorded and changes no status.
   [[../library/diophantine_problems/price_2026_infinite_r_powerful_sums/theorem|construction]]
   (GPT-5.5 Pro prompted by Price,
   [forum post 6640](https://www.erdosproblems.com/forum/thread/939#post-6640),
-  24 May 2026, adopted into the site text on 28 May 2026) expands
+  24 May 2026, adopted into the erdosproblems.com text on 28 May 2026) expands
   $(X+Y)^r=(X-Y)^r+\sum_{j\ \mathrm{odd}}2\binom rjX^{r-j}Y^j$, splits the
   $j=3$ term into $t=\lfloor r/2\rfloor-2\geq 1$ distinct positive multiples
   of $X^{r-3}Y^3$ to reach exactly $r-2$ positive summands, and takes
@@ -249,10 +250,10 @@ reconstruction is author-recorded and changes no status.
   (6 Aug 2026): a Lean proof of the formal-conjectures statement
   `∀ r ≥ 4, (Erdos939Sums r).Nonempty` in the version that omitted
   positivity of the summands; the $r=4$ leg is the degenerate set
-  $\{0,1\}$. The site's review classed it a formalization-defect award
+  $\{0,1\}$. Conjectures.io's review classed it a formalization-defect award
   (partial) and states that it does not settle Problem 939; the task was
-  withdrawn and the catalog added positivity on 2026-09-09. It is not
-  acceptance of the catalog question.
+  withdrawn and the formal-conjectures catalog added positivity on 2026-09-09.
+  It is not acceptance of the erdosproblems.com question.
 - Context: Euler's conjecture that a sum of $k-1$ $k$-th powers is never a
   $k$-th power fails at $k=5$ [LaPa67]: $27^5+84^5+110^5+133^5=144^5$
   (recomputed). Cambie

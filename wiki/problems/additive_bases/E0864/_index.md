@@ -38,14 +38,14 @@ https://www.erdosproblems.com/864.
 **References.**
 
 - [ErFr91] Erdős, P. and Freud, R., On sums of a Sidon-sequence. J. Number
-  Theory 38 (1991), no. 2, 196--205, DOI 10.1016/0022-314X(91)90083-N. The site
-  gives this paper and [Er92c] as the problem's sources and calls it a problem
-  of Erdős and Freud; this paper supplies the displayed constant. Its
-  construction on p. 204, a maximally dense Sidon set $B\subset[1,n/3]$ together
-  with $n-B$, has $(2/\sqrt3+o(1))n^{1/2}$ elements and, by the argument printed
-  for its $[1,n/4]$ version on p. 203, all sums distinct except those equal to
-  $n$; it is the set behind the constant $2/\sqrt3$, and the paper does not ask
-  whether it is optimal. Library home:
+  Theory 38 (1991), no. 2, 196--205, DOI 10.1016/0022-314X(91)90083-N.
+  erdosproblems.com gives this paper and [Er92c] as the problem's sources and
+  calls it a problem of Erdős and Freud; this paper supplies the displayed
+  constant. Its construction on p. 204, a maximally dense Sidon set
+  $B\subset[1,n/3]$ together with $n-B$, has $(2/\sqrt3+o(1))n^{1/2}$ elements
+  and, by the argument printed for its $[1,n/4]$ version on p. 203, all sums
+  distinct except those equal to $n$; it is the set behind the constant
+  $2/\sqrt3$, and the paper does not ask whether it is optimal. Library home:
   [[../library/additive_bases/erdos_freud_1991_sums_sidon_sequence/_index|erdos_freud_1991_sums_sidon_sequence]];
   result page
   [[../library/additive_bases/erdos_freud_1991_sums_sidon_sequence/definition_p203|Definition (p. 203)]].
@@ -83,9 +83,9 @@ nothing. The research folder
 [[research/erdos_864/_index|research/erdos_864]] gives the construction behind
 the lower bound in detail.
 
-This account is partial. The status above is imported from the dated site
-record, and this page records no current literature search or independent
-assessment of proof coverage.
+This account is partial. The status above is imported from the dated
+erdosproblems.com record, and this page records no current literature search or
+independent assessment of proof coverage.
 
 <!-- BEGIN problem library links -->
 

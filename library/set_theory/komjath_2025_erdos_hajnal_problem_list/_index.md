@@ -67,9 +67,9 @@ is the same-cardinal conjecture rather than the website's existential-lambda
 weakening; and for 624 it is off-point, as the set-mapping sections never
 treat finite H(n) or the 1968 Mat. Lapok problem. For problem 1219 it is the
 acceptance record for Problem 3 (p. 419), which states the relation in the
-catalog's form, attributes its proof to Shelah [152] as the last remaining
-case of lambda -> (kappa)^2_2, and records Hajnal's conjecture lambda ->
-(aleph_omega, 4)^3 as unproven.
+erdosproblems.com form, attributes its proof to Shelah [152] as the last
+remaining case of lambda -> (kappa)^2_2, and records Hajnal's conjecture lambda
+-> (aleph_omega, 4)^3 as unproven.
 
 Source: <https://doi.org/10.1017/bsl.2025.1>.
 

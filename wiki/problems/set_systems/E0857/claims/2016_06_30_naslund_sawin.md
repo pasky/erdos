@@ -60,9 +60,9 @@ the slice-rank method it cites.
 **Acceptance.** Refereed: Forum Math. Sigma **5** (2017), e15, 10 pages. The
 paper was first posted as arXiv:1606.09575 on 2016-06-30. It was received 16
 July 2016, accepted 3 November 2016 and published 27 June 2017 under the
-Creative Commons Attribution 4.0 license. The site's commentary credits Naslund
-and Sawin with the bound but labeled the problem OPEN. The curator's mention
-therefore settles nothing, and the page lists no `reviewed` evidence. The
-formal-conjectures catalog states the problem with its answer left as `sorry`
-and names no formal proof, so the page lists no `formalized` evidence. The
-library card summarizes the paper and is not acceptance evidence.
+Creative Commons Attribution 4.0 license. The erdosproblems.com commentary
+credits Naslund and Sawin with the bound but labeled the problem OPEN. The
+curator's mention therefore settles nothing, and the page lists no `reviewed`
+evidence. The formal-conjectures catalog states the problem with its answer left
+as `sorry` and names no formal proof, so the page lists no `formalized`
+evidence. The library card summarizes the paper and is not acceptance evidence.

@@ -38,36 +38,37 @@ $$
 \#\{ a_i \leq x\} \leq \pi(x)?
 $$
 
-**Formulation.** The site's wording (page last edited 06 April 2026). The
-hypothesis says that the products $\prod_i a_i^{k_i}$ over finitely supported
-exponent vectors, the "generalized integers" of the sequence, are pairwise at
-least $1$ apart; in particular distinct exponent vectors give distinct
-products. Erdős's 1977 print writes the exponents $\alpha_i$, $\beta_j$ and
-the count as $\sum_{a_i\le x}1=A(x)\le\pi(x)$, his display (1). The wording
+**Formulation.** The erdosproblems.com wording (page last edited 06 April 2026).
+The hypothesis says that the products $\prod_i a_i^{k_i}$ over finitely
+supported exponent vectors, the "generalized integers" of the sequence, are
+pairwise at least $1$ apart; in particular distinct exponent vectors give
+distinct products. Erdős's 1977 print writes the exponents $\alpha_i$, $\beta_j$
+and the count as $\sum_{a_i\le x}1=A(x)\le\pi(x)$, his display (1). The wording
 leaves the quantifier over $x$ implicit: read for every $x\ge1$ it is a
 statement about each finite initial segment of the sequence, and read for all
 sufficiently large $x$ it is an asymptotic statement about the density of the
-generators. The site's commentary states this ambiguity itself, reports that
-the first reading fails by a finite calculation, and the site kept the label
-OPEN; the formal-conjectures file encodes the second reading. This page lists
-the two readings as its parts: `every_x`, the reading for every $x$, which the
-finite counterexamples of January and February 2026 refute as pending claims,
-and `large_x`, the reading for all sufficiently large $x$, which is open; the
-two readings are kept apart below. Erdős's 1980 survey adds a second question,
-whether equality can hold only when the $a_i$ are the primes; it is a
-variant, not the problem.
+generators. The erdosproblems.com commentary states this ambiguity itself,
+reports that the first reading fails by a finite calculation, and
+erdosproblems.com kept the label OPEN; the formal-conjectures file encodes the
+second reading. This page lists the two readings as its parts: `every_x`, the
+reading for every $x$, which the finite counterexamples of January and February
+2026 refute as pending claims, and `large_x`, the reading for all sufficiently
+large $x$, which is open; the two readings are kept apart below. Erdős's 1980
+survey adds a second question, whether equality can hold only when the $a_i$ are
+the primes; it is a variant, not the problem.
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 06 April
-2026) and says that no finite computation can resolve it. The site's label and
-the formal-conjectures statement follow the reading for all sufficiently large
-$x$, and that reading is open. No proof, disproof, refereed partial result or
-proof claim for it was found in the search whose scope the Current assessment
-records. Nothing found bears on it beyond the elementary integer case. The
-derived standing is open. The site's commentary states that the wording leaves
-the quantifier over $x$ implicit and that the reading for every $x$ fails by a
-finite calculation. It credits the counterexample at $x=10$ to ChatGPT-5.2 Pro
-prompted by Leeham. That counterexample answers the reading for every $x$ in the
-negative. It is a
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 06
+April
+2026) and says that no finite computation can resolve it. The erdosproblems.com
+label and the formal-conjectures statement follow the reading for all
+sufficiently large $x$, and that reading is open. No proof, disproof, refereed
+partial result or proof claim for it was found in the search whose scope the
+Current assessment records. Nothing found bears on it beyond the elementary
+integer case. The derived standing is open. The erdosproblems.com commentary
+states that the wording leaves the quantifier over $x$ implicit and that the
+reading for every $x$ fails by a finite calculation. It credits the
+counterexample at $x=10$ to ChatGPT-5.2 Pro prompted by Leeham. That
+counterexample answers the reading for every $x$ in the negative. It is a
 [[problems/number_theory/E0951/claims/2026_01_27_leeham|pending partial claim]],
 which the curator's commentary credits. The further finite counterexamples of 28
 January and 1 February 2026 ($x=5-\varepsilon$, $7-\varepsilon$,
@@ -76,8 +77,8 @@ $11-\varepsilon$, $13-\varepsilon$, $17-\varepsilon$) are a
 for the same part.
 
 **Source.** [erdosproblems.com/951](https://www.erdosproblems.com/951),
-accessed 2026-09-18: the problem page (OPEN, with the site's note that no
-finite computation can settle it; last edited 06 April 2026; source keys
+accessed 2026-09-18: the problem page (OPEN, with the erdosproblems.com note
+that no finite computation can settle it; last edited 06 April 2026; source keys
 [Er69, p. 82] and [Er77c, p. 68], with [Er80] cited in the commentary), its
 discussion thread (22 comments with replies, 7 September 2025 to 1 February
 2026; accessed 2026-10-07) and its empty proof-claim tab. Cite as: T. F.
@@ -132,7 +133,7 @@ updated 31 August 2025). The corpus has not built the file.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN; last edited 06 April 2026. The commentary, in summary: Erdős
 attributed the question in [Er77c] to a member of the audience at a lecture
 of his at Queens College, tentatively S. Shapiro; in [Er80] he names Shapiro
@@ -200,8 +201,8 @@ paper 'Some applications of graph theory to number theory' ... see p. 82. I
 did not conjecture though that equality holds only if the $P$'s are the
 primes." Page 104 refers for Beurling primes to Diamond's paper [Di77] and
 to Erdős's Publ. Ramanujan Inst. paper of 1969. None of the three passages
-proves anything; the site's wording is the 1977 question with the quantifier
-over $x$ left as Erdős left it.
+proves anything; the erdosproblems.com wording is the 1977 question with the
+quantifier over $x$ left as Erdős left it.
 
 **The integer case (not the problem).** For integer sequences the answer is
 yes and elementary: [Er80], printed p. 102, states that if
@@ -211,8 +212,8 @@ $\max t_n=\pi(n)$" (distinct products mean multiplicatively independent
 integers, whose exponent vectors over the primes up to $n$ are linearly
 independent in $\pi(n)$ coordinates, so there are at most $\pi(n)$ of them:
 an authored one-line remark), and two thread comments of 28 January 2026
-report the same for the site's condition. The integer subset-product bound
-of [Er69], display (6) on printed p. 79
+report the same for erdosproblems.com's condition. The integer subset-product
+bound of [Er69], display (6) on printed p. 79
 ([[../library/integer_sequences/erdos_1969_applications_graph_theory_number_theory/inequality_6|inequality_6]]:
 integers $a_1<\cdots<a_k\le x$ with all products $\prod a_i^{\varepsilon_i}$,
 $\varepsilon_i\in\{0,1\}$, distinct have $\max k<\pi(x)+c_6x^{1/2}/\log x$),
@@ -222,7 +223,7 @@ real-sequence question here. The real case is the problem.
 
 **Forum-reported constructions.** The thread's items, oldest first; the
 AI systems and tools are named as the thread names them, and of the posters
-only the claimants and the site's curator are named.
+only the claimants and the erdosproblems.com curator are named.
 
 - 7 September 2025 (a contributor): from the separation, the generalized
   integers are at least $1$ apart, so for $s>1$ their Dirichlet series is
@@ -238,10 +239,10 @@ only the claimants and the site's curator are named.
   document (a file-sharing link; its content is recorded from the thread's
   description) and is the
   [[problems/number_theory/E0951/claims/2026_01_27_leeham|pending partial
-  claim]] of this page. The site's curator replied that, on their reading,
-  the note disproves the inequality at $x=10$ only, that the construction
-  could still satisfy it for all large $x$, and that the question is in
-  spirit about the asymptotic behavior; Nat Sothanaphan reported a ChatGPT
+  claim]] of this page. The erdosproblems.com curator replied that, on their
+  reading, the note disproves the inequality at $x=10$ only, that the
+  construction could still satisfy it for all large $x$, and that the question
+  is in spirit about the asymptotic behavior; Nat Sothanaphan reported a ChatGPT
   check that found no error in the note as written. The
   7 September contributor's reply the same day: the numerical computations
   need verification but nothing in the theory stands against the
@@ -253,9 +254,9 @@ only the claimants and the site's curator are named.
   not suffice for a positive answer, so unit separation would be needed at
   every scale, that the intent of the audience question is harder than
   usual to divine, and that both readings are interesting, the finite one
-  resembling a rigidity statement. The site's commentary adopted
+  resembling a rigidity statement. The erdosproblems.com commentary adopted
   the $x=10$ report.
-- 28 January 2026: the site's curator reports finding nothing in the
+- 28 January 2026: the erdosproblems.com curator reports finding nothing in the
   Beurling literature on the separation hypothesis (the problems found
   there assume that the count of generalized integers in $[1,x]$ is
   asymptotic to $Ax$ and ask what asymptotics follow for the generalized
@@ -289,9 +290,10 @@ only the claimants and the site's curator are named.
 
 The three notes are dated manuscripts and carry the two claim pages; the
 other items are thread comments and get no page. None of the notes is
-refereed or registered on the site's proof-claim tab; the site's commentary
-credits the $x=10$ note only; no independent check of their numerical
-certificates is recorded. None bears on the reading for all large $x$.
+refereed or registered on the erdosproblems.com proof-claim tab; the
+erdosproblems.com commentary credits the $x=10$ note only; no independent check
+of their numerical certificates is recorded. None bears on the reading for all
+large $x$.
 
 **What the reading leaves.** On the reading for every $x$ the reports
 above answer the question in the negative at finitely many $x$; on the
@@ -301,7 +303,7 @@ itself undetermined. The separation hypothesis bounds the count of
 generalized integers up to $x$ by $x$ (they are at least $1$ apart and at
 least $1$), an upper bound and not the density hypothesis $N(x)\sim Ax$ from
 which Beurling's prime number theorems start (an observation of this page);
-this is consistent with the site's curator's report that the Beurling
+this is consistent with the erdosproblems.com curator's report that the Beurling
 literature has no result under the separation hypothesis alone. The 1976
 Erdős--Hall paper on subset sums in abelian groups, which a bibliography
 mismatch once attached to this problem, does not mention the question
@@ -310,7 +312,7 @@ mismatch once attached to this problem, does not mention the question
 **Search scope.** None of the routes below found a proof,
 disproof, refereed partial result or proof claim on either reading.
 
-- The site: problem page, discussion thread (22 items) and proof-claim
+- erdosproblems.com: problem page, discussion thread (22 items) and proof-claim
   tab; formal-conjectures at the pinned commit; the community database.
 - The primary sources: [Er77c] pp. 68--69, [Er80] pp. 102--104 and [Er69]
   pp. 79 and 82.
@@ -328,10 +330,10 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not opened: the three
 forum notes' external documents. Not held: [Di77].
 
 **Remaining gaps.** (1) The quantifier over $x$ is left implicit by the
-site's wording, and the two readings are this page's parts. The reading for
-every $x$ is answered in the negative by the pending claim of 27 January
-2026, which the curator's commentary credits; no independent check of the
-counterexample's certificate (all products up to the needed bound, its
+erdosproblems.com wording, and the two readings are this page's parts. The
+reading for every $x$ is answered in the negative by the pending claim of 27
+January 2026, which the curator's commentary credits; no independent check of
+the counterexample's certificate (all products up to the needed bound, its
 Diophantine step, and the extension to an infinite sequence) is recorded, and
 no refereed source establishes it. The reading for all large $x$ is open, and
 the whole problem derives open until that part is settled. (2) Checking the

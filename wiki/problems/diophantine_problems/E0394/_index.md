@@ -41,11 +41,11 @@ $$
 \sum_{n\leq x}t_{k+1}(n) =o\left(\sum_{n\leq x}t_k(n)\right)?
 $$
 
-**Status.** OPEN, the site's label (page last edited 28 October 2025). The
-derived standing is claimed and proved. It departs from the label only because
-Snyder's full claim is pending. Nothing is accepted. The site's proof-claims tab
-carries two proof claims. Snyder's full claim is that both answers are yes, with
-$c=1/2048$ and a Lean development
+**Status.** OPEN, the erdosproblems.com label (page last edited 28 October
+2025). The derived standing is claimed and proved. It departs from the label
+only because Snyder's full claim is pending. Nothing is accepted. The
+erdosproblems.com proof-claims tab carries two proof claims. Snyder's full claim
+is that both answers are yes, with $c=1/2048$ and a Lean development
 ([[problems/diophantine_problems/E0394/claims/2026_07_15_snyder|claim page]]).
 Pickhardt's partial claim is the lower bound
 $\sum_{n\le x}t_2(n)\gg x^2/((\log x)^{1/2}\log\log x)$, which the Current
@@ -73,28 +73,28 @@ audited here.
 
 ## Current assessment
 
-The standing judges the site's formulation of 2026-09-04 above: two questions
-about the averages of $t_k(n)$, the least $m$ with $n\mid m(m+1)\cdots(m+k-1)$.
-Erdős and Graham [ErGr80] record Erdős's conjecture that the sum of $t_2$ is
-$o(x^2)$, which Erdős and Hall [ErHa78] proved in the form
-$\sum_{n\le x}t_2(n)\ll x^2\log\log\log x/\log\log x$; Erdős and Hall also
+The standing judges the erdosproblems.com formulation of 2026-09-04 above: two
+questions about the averages of $t_k(n)$, the least $m$ with
+$n\mid m(m+1)\cdots(m+k-1)$. Erdős and Graham [ErGr80] record Erdős's conjecture
+that the sum of $t_2$ is $o(x^2)$, which Erdős and Hall [ErHa78] proved in the
+form $\sum_{n\le x}t_2(n)\ll x^2\log\log\log x/\log\log x$; Erdős and Hall also
 conjectured that the sum is $\ll x^2/(\log x)^c$ for some fixed $c>0$, adding
 that any fixed $c<\log2$ is likely to do (p. 481), and since $t_2(p)=p-1$ for a
 prime $p$ the sum is trivially $\gg x^2/\log x$. They further note
 $t_{n-1}(n!)=2$ and $t_{n-2}(n!)\ll n$, sharp for $n=2^r$, and ask about
 $t_{n-3}(n!)$ and whether $t_k(n!)<t_{k-1}(n!)-1$ for all $1\le k<n$ holds for
 infinitely many $n$, as it does for $n=10$ by their work with Selfridge. The
-site's curator moved the problem from solved to open on 2025-10-28 after
-locating the Erdős–Hall reference, by the discussion thread. Two claims are
-pending, none accepted. Snyder's full claim of 2026-07-15 asserts both answers
-yes, with $c=1/2048$ in the first question and the little-o relation for every
-fixed $k\ge2$, proved in a Lean development that its author reports as
+erdosproblems.com curator moved the problem from solved to open on 2025-10-28
+after locating the Erdős–Hall reference, by the discussion thread. Two claims
+are pending, none accepted. Snyder's full claim of 2026-07-15 asserts both
+answers yes, with $c=1/2048$ in the first question and the little-o relation for
+every fixed $k\ge2$, proved in a Lean development that its author reports as
 sorry-free on the standard axioms and that the formal-conjectures project links
 as the formal proof of both parts
 ([[problems/diophantine_problems/E0394/claims/2026_07_15_snyder|claim page]]);
-the site's label was unchanged and nothing was built here. Pickhardt's partial
-claim of 2026-07-22, written with the Omniscience Research Agent (called the
-Paratelligent Research Agent on the paper), claims to prove
+the erdosproblems.com label was unchanged and nothing was built here.
+Pickhardt's partial claim of 2026-07-22, written with the Omniscience Research
+Agent (called the Paratelligent Research Agent on the paper), claims to prove
 $\sum_{n\le x}t_2(n)\gg x^2/((\log x)^{1/2}\log\log x)$, which would leave no
 exponent above $1/2$ possible in the first question and would contradict Erdős
 and Hall's remark that any fixed $c<\log2$ is likely to do, for every $c$ in
@@ -106,11 +106,12 @@ dated 2026-07-22, posted as a
 on 2026-07-23. It only limits the admissible exponents and settles no instance
 of either question (the first asks only for some $c>0$, and the paper does not
 treat the second), so it has no claim page; it is unrefereed and unreviewed. The
-two claims are consistent. Search scope: the site's problem page, discussion
-thread and proof-claims tab, the hosted write-up and Lean archive of the full
-claim, the formal-conjectures file and its history, and the manuscript of the
-partial claim; the tab recorded no other claim on the problem, and on 2026-10-07
-none of the others did. Nothing on this page is independently reviewed.
+two claims are consistent. Search scope: the erdosproblems.com problem page,
+discussion thread and proof-claims tab, the hosted write-up and Lean archive of
+the full claim, the formal-conjectures file and its history, and the manuscript
+of the partial claim; the tab recorded no other claim on the problem, and on
+2026-10-07 none of the others did. Nothing on this page is independently
+reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

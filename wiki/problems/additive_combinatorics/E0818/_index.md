@@ -29,11 +29,11 @@ $$
 
 for some constant $C>0$?
 
-**Status.** Proved. The site labeled the problem PROVED (LEAN). The corpus has
-not built the Lean proof, so it gives no formal evidence. The standing is
-derived from the
+**Status.** Proved. Bloom's catalog labeled the problem PROVED (LEAN). The
+corpus has not built the Lean proof, so it gives no formal evidence. The
+standing is derived from the
 [[problems/additive_combinatorics/E0818/claims/2008_06_05_solymosi|claim page]],
-accepted on the refereed publication and the site's credit.
+accepted on the refereed publication and the erdosproblems.com credit.
 
 **Source.** [erdosproblems.com/818](https://www.erdosproblems.com/818), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #818,

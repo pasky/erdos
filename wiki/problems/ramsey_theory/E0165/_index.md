@@ -21,7 +21,7 @@ updated: 2026-10-08T14:06:00Z
 
 **Statement.** Give an asymptotic formula for $R(3,k)$.
 
-**Formulation.** The site's wording (page last edited 7 March 2026).
+**Formulation.** The erdosproblems.com wording (page last edited 7 March 2026).
 $R(3,k)$ is the least $n$ such that every graph on $n$ vertices contains a
 triangle or an independent set of size $k$; the sources also write
 $r(3,k)$, $r(C_3,K_k)$ and $f(3,k)$. An asymptotic formula means a function
@@ -31,10 +31,10 @@ is the constant $c$ in $R(3,k)\sim c\,k^2/\log k$, if the limit exists. The
 conjectured formula is $R(3,k)=(\frac12+o(1))k^2/\log k$ (Campos, Jenssen,
 Michelen and Sahasrabudhe 2025, restated by Hefty, Horn, King and Pfender).
 
-**Status.** Open, the site's label. No asymptotic formula is proved. The search
-whose scope the Current assessment records found none, and no proof claim
-exists. This is a bounded negative finding, not a certificate of openness. The
-known bounds, each checked against its source, are
+**Status.** Open, the erdosproblems.com label. No asymptotic formula is proved.
+The search whose scope the Current assessment records found none, and no proof
+claim exists. This is a bounded negative finding, not a certificate of openness.
+The known bounds, each checked against its source, are
 
 $$
 \Bigl(\frac12+o(1)\Bigr)\frac{k^2}{\log k}\ \le\ R(3,k)\ \le\ (1+o(1))\frac{k^2}{\log k},
@@ -55,13 +55,13 @@ Sahasrabudhe conjecture $c=1/2$. Hefty, Horn, King and Pfender restate the
 conjecture as their Conjecture 1.1 and support it.
 
 **Source.** [erdosproblems.com/165](https://www.erdosproblems.com/165), accessed
-2026-09-18: the problem page (labeled OPEN, with the site's note that no finite
-computation can settle it; prize offered; last edited 7 March 2026; source keys
-[Er61], [Er71], [Er78, p. 34], [Er90b], [Er93, p. 339], [Er97c]; commentary
-citing [Ki95], [Sh83], [AKS80], [BoKe21], [PGM20], [CJMS25], [HHKP25] and
-Problems 544, 986 and 1013; with the site's thanks to two commenters), its
-five-comment discussion thread (1 October 2025 to 10 June 2026) and its empty
-proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #165,
+2026-09-18: the problem page (labeled OPEN, with the erdosproblems.com note that
+no finite computation can settle it; prize offered; last edited 7 March 2026;
+source keys [Er61], [Er71], [Er78, p. 34], [Er90b], [Er93, p. 339], [Er97c];
+commentary citing [Ki95], [Sh83], [AKS80], [BoKe21], [PGM20], [CJMS25], [HHKP25]
+and Problems 544, 986 and 1013; with erdosproblems.com's thanks to two
+commenters), its five-comment discussion thread (1 October 2025 to 10 June 2026)
+and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #165,
 https://www.erdosproblems.com/165, accessed 2026-09-18.
 
 **References.**
@@ -137,16 +137,17 @@ https://www.erdosproblems.com/165, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/_index|erdos_1978_problems_results_combinatorial_analysis_combinatorial_number]].
 - [Er81c] Erdős, P., Some new problems and results in graph theory and other
   branches of combinatorial mathematics. Lecture Notes in Math. 885 (1981),
-  9--17; item (5), printed p. 10, and the closing sentence of p. 11. Not a
-  site key for this problem; the site's key for Problem 544. Library home:
+  9--17; item (5), printed p. 10, and the closing sentence of p. 11. Not an
+  erdosproblems.com key for this problem; the erdosproblems.com key for
+  Problem 544. Library home:
   [[../library/ramsey_theory/erdos_1981_new_problems_results_graph_theory_other/_index|erdos_1981_new_problems_results_graph_theory_other]].
 - [Er61] Erdős, P., Some unsolved problems. Magyar Tud. Akad. Mat. Kutató Int.
-  Közl. 6 (1961), 221--254. The passage behind the site's key is Part II,
-  item 4, printed pp. 240--241: with $f(2,k,l)$ the two-class Ramsey function
-  of p. 240, p. 241 reads "It would be interesting to determine $f(i,k,l)$
-  explicitely [sic], this seems very difficult even for $i=2$" and "I can
-  prove that (II.4.2) $f(2,3,k)>ck^2/(\log k)^2$ but could not decide whether
-  $f(2,3,k)>c_2k^2$ is true". Library home:
+  Közl. 6 (1961), 221--254. The passage behind the erdosproblems.com key is Part
+  II, item 4, printed pp. 240--241: with $f(2,k,l)$ the two-class Ramsey
+  function of p. 240, p. 241 reads "It would be interesting to determine
+  $f(i,k,l)$ explicitely [sic], this seems very difficult even for $i=2$" and "I
+  can prove that (II.4.2) $f(2,3,k)>ck^2/(\log k)^2$ but could not decide
+  whether $f(2,3,k)>c_2k^2$ is true". Library home:
   [[../library/number_theory/erdos_1961_unsolved_problems/_index|erdos_1961_unsolved_problems]].
 - [Er90b] Erdős, P., Problems and results on graphs and hypergraphs:
   similarities and differences. Mathematics of Ramsey theory, Algorithms Combin.
@@ -155,8 +156,8 @@ https://www.erdosproblems.com/165, accessed 2026-09-18.
   [[../library/ramsey_theory/erdos_1990_problems_results_graphs_hypergraphs_similarities_differences/_index|erdos_1990_problems_results_graphs_hypergraphs_similarities_differences]].
 - [Er93] Erdős, P., Some of my favorite solved and unsolved problems in graph
   theory. Quaestiones Math. 16 (1993), 333--350; Chapter II, displays (7) and
-  (8) and the asymptotic-formula sentence, printed pp. 338--339. The site
-  cites p. 339. Library home:
+  (8) and the asymptotic-formula sentence, printed pp. 338--339.
+  erdosproblems.com cites p. 339. Library home:
   [[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]].
 - [Er97c] Erdős, P., Some of my favorite problems and results. The mathematics
   of Paul Erdős, I, Algorithms Combin. 13, Springer (1997), 47--67; the
@@ -174,18 +175,18 @@ https://www.erdosproblems.com/165, accessed 2026-09-18.
 **Formalization.** None. formal-conjectures has no file
 `ErdosProblems/165.lean` (its directory `FormalConjectures/ErdosProblems/`
 listed 672 entries on 2026-09-18, and no file 165 had been added by
-2026-10-07); the site's indicator reads "Formalised statement? No (create
-one)", and the
-[community database](https://github.com/teorth/erdosproblems/blob/3c68e941162f81d650fc886eed34e58bed3a6a01/data/problems.yaml)
+2026-10-07); the erdosproblems.com indicator reads "Formalised statement? No
+(create one)", and the [community
+database](https://github.com/teorth/erdosproblems/blob/3c68e941162f81d650fc886eed34e58bed3a6a01/data/problems.yaml)
 records the problem open, not formalized, with no formal proof and OEIS
 A000791 (its entry last updated 31 August 2025).
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement above;
-labeled OPEN, with the site's note that no finite computation can settle it;
-prize offered; last edited 7 March 2026. The commentary, restated here, says
-that for some constant $c>0$ and large $k$,
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; labeled OPEN, with the erdosproblems.com note that no finite
+computation can settle it; prize offered; last edited 7 March 2026. The
+commentary, restated here, says that for some constant $c>0$ and large $k$,
 $(c+o(1))k^2/\log k\le R(3,k)\le(1+o(1))k^2/\log k$, with the lower bound due to
 Kim [Ki95] and the upper bound to Shearer [Sh83], who improved an earlier bound
 of Ajtai, Komlós and Szemerédi [AKS80]; that Kim's proof gave $c\ge1/162$, that
@@ -195,10 +196,11 @@ constant to $1/3$ and then $1/2$, both conjecturing that $c=1/2$ is the right
 asymptotic; it points to Problem 544, to Problem 986 for the general case and to
 Problem 1013 for a related function. The thread: comments of 1 and 9 October
 2025 reporting the $1/3$ bound and the $1/2$ conjecture, of 23 October 2025
-reporting the $1/2$ bound (marked by the site as addressed), of 1 December 2025
-on a reference that failed to load, and of 10 June 2026 linking the web page of
-Trellis, an autoformalization system, as holding a Lean formalization of
-[HHKP25], recorded below as a lead. The proof-claim tab is empty.
+reporting the $1/2$ bound (marked by erdosproblems.com as addressed), of 1
+December 2025 on a reference that failed to load, and of 10 June 2026 linking
+the web page of Trellis, an autoformalization system, as holding a Lean
+formalization of [HHKP25], recorded below as a lead. The proof-claim tab is
+empty.
 
 **The origins.** [Er71] item 6, printed p. 99: after defining $f(l,n)$ as the
 least order forcing a $K_l$ or $n$ independent points and printing (2)
@@ -244,8 +246,8 @@ formula for $r(3,n)$ is not in sight and probably will be very difficult", with
 no prize attached to the wish. The inequality signs of (7) and (8) and the arrow
 of the prize offer are as printed; (7) is the 1961 lower bound and (8) the 1980
 upper bound, so the printed directions of all three are reversed (an observation
-made here). The site's [Er61] passage, Part II, item 4 (printed pp. 240--241),
-is quoted under References.
+made here). erdosproblems.com's [Er61] passage, Part II, item 4 (printed pp.
+240--241), is quoted under References.
 
 **The bounds map, one result page per bound.** Lower bounds, in order:
 Kim's
@@ -352,7 +354,7 @@ above $1/2$ or a matching upper bound.
 asymptotic formula, a lower constant above $1/2$, an upper constant below
 $1$, a journal version of the two 2025 preprints, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory (no file); the community database; OEIS
   A000791.
 - arXiv: the abstract pages of 2505.13371 (one version), 2510.19718 (three

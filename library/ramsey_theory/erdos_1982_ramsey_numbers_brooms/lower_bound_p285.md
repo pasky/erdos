@@ -50,5 +50,5 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0549/_index|Problem 549]]: the inequality $R(T)\ge4k-1$
-  that the site attributes to the paper, and the reason the $1:2$ ratio of
-  parts is the case asked about (the bound is smallest there).
+  that erdosproblems.com attributes to the paper, and the reason the $1:2$ ratio
+  of parts is the case asked about (the bound is smallest there).

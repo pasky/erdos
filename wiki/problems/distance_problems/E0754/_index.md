@@ -28,10 +28,10 @@ $A$ equidistant from $x$.
 
 Is it true that $f(n)\leq \frac{n}{2}+O(1)$?
 
-**Status.** Proved. The site marked the problem proved and credits Swanepoel's
-bound on favorite distances in four dimensions. The label was PROVED in the
-site's export of 2026-09-04, and the community database records proved (Lean).
-See the
+**Status.** Proved. Bloom's catalog marked the problem proved and credits
+Swanepoel's bound on favorite distances in four dimensions. The label was PROVED
+in the erdosproblems.com export of 2026-09-04, and the community database
+records proved (Lean). See the
 [[problems/distance_problems/E0754/claims/2011_08_24_swanepoel|claim page]].
 
 **Source.** [erdosproblems.com/754](https://www.erdosproblems.com/754), accessed
@@ -61,19 +61,20 @@ coverage.
 
 ## Current assessment
 
-**Proved.** The site formulation above asks whether the largest $f(n)$ for which
-some $n$-point set in $\mathbb{R}^4$ has every point equidistant from at least
-$f(n)$ others satisfies $f(n)\leq\frac{n}{2}+O(1)$. The answer is yes.
-Swanepoel's Theorem A, on the accepted
+**Proved.** The erdosproblems.com formulation above asks whether the largest
+$f(n)$ for which some $n$-point set in $\mathbb{R}^4$ has every point
+equidistant from at least $f(n)$ others satisfies $f(n)\leq\frac{n}{2}+O(1)$.
+The answer is yes. Swanepoel's Theorem A, on the accepted
 [[problems/distance_problems/E0754/claims/2011_08_24_swanepoel|claim page]],
 bounds the number of pairs $(x,y)$ with $|xy|=r(x)$, for any $n$-point set in
 $\mathbb{R}^4$ and any choice of a distance $r(x)$ at each point, by
 $\frac{1}{2}n^2+O(n)$; dividing by $n$ gives the question's bound. With the
 lower bound $f(n)\geq\frac{n}{2}+2$ of Avis, Erdős and Pach [AEP88], who had the
 upper bound $(1+o(1))\frac{n}{2}$, this gives $f(n)=\frac{n}{2}+O(1)$. The
-site's curator credits Swanepoel for the proof, which is the acceptance evidence
-recorded; the chapter appeared in an edited Springer volume for which no
-evidence of refereeing is recorded. The standing derives from that claim page.
+erdosproblems.com curator credits Swanepoel for the proof, which is the
+acceptance evidence recorded; the chapter appeared in an edited Springer volume
+for which no evidence of refereeing is recorded. The standing derives from that
+claim page.
 
 The same theorem gives the error term of the favorite-distance function in
 every dimension $d\geq4$, $\Theta(n)$ for even $d$ and $\Theta((n/d)^{4/3})$
@@ -81,8 +82,8 @@ for odd $d$, and Swanepoel determines the extremal configurations for large
 $n$; the planar and three-dimensional analogues are not part of this question
 and remain at the bounds the
 [[../library/distance_problems/swanepoel_2013_favorite_distances_high_dimensions/_index|source card]]
-records. Search scope: the site's problem page and discussion thread, the
-arXiv record of the paper and its publisher's record, the community database
+records. Search scope: the erdosproblems.com problem page and discussion thread,
+the arXiv record of the paper and its publisher's record, the community database
 and Alexeev's repository of Lean proofs; no forum claim named the problem, and
 on 2026-10-07 no release item or lead did. The exact value of
 $f(n)$ beyond the $O(1)$ term is not asked and is not recorded here.

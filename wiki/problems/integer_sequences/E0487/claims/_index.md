@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 487, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/integer_sequences/E0487/claims
@@ -18,6 +18,7 @@ it.
 
 [[problems/integer_sequences/E0487/claims/1971_01_01_kleitman|1971_01_01_kleitman]]: Kleitman's 1971 theorem says that a union-free family of subsets of an $n$-set
 has at most $(1+o(1))\binom{n}{\lfloor n/2\rfloor}$ members. By Erdős's
-reduction it settles the lcm-triple question, and the site credits it.
+reduction it settles the lcm-triple question, and erdosproblems.com credits
+it.
 
 ***

@@ -62,9 +62,10 @@ placeholder.
 
 **Acceptance.** Refereed: P. Erdős and A. Hajnal, Kromatikus gráfokról (On
 chromatic graphs), Mat. Lapok 18 (1967), 1–4, in Hungarian with an English
-summary. The site's curator credits the paper with the case $f(m)\ge cm$,
-$c>1/4$. The curator labeled the problem PROVED (LEAN) on Chojecki's result,
-however, so the page lists no `reviewed` evidence. The problem page compares the
-site's account of the paper with its text. The formal-conjectures statement file
-states the $c>1/4$ case as `erdos_750.variants.c_gt_quarter`, marked research
-solved, with a `sorry` body. So no Lean proof of either case is recorded.
+summary. The erdosproblems.com curator credits the paper with the case
+$f(m)\ge cm$, $c>1/4$. The curator labeled the problem PROVED (LEAN) on
+Chojecki's result, however, so the page lists no `reviewed` evidence. The
+problem page compares erdosproblems.com's account of the paper with its text.
+The formal-conjectures statement file states the $c>1/4$ case as
+`erdos_750.variants.c_gt_quarter`, marked research solved, with a `sorry` body.
+So no Lean proof of either case is recorded.

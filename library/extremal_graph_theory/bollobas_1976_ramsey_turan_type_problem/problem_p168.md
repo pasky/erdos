@@ -62,6 +62,7 @@ false.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0022/_index|Problem 22]]: the first question is
-  the site's statement (with $o(n)$ written as $\epsilon n$); answered by
+  the erdosproblems.com statement (with $o(n)$ written as $\epsilon n$);
+  answered by
   [[extremal_graph_theory/fox_2015_critical_window_classical_ramsey_turan_problem/theorem_1_9|Theorem 1.9]]
   of Fox, Loh and Zhao.

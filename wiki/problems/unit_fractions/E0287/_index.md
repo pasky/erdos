@@ -30,11 +30,11 @@ $$
 
 we must have $\max(n_{i+1}-n_i)\geq 3$?
 
-**Formulation.** The denominators are integers greater than $1$; the site
-made this explicit after a comment of 26 December 2025 exhibited a
-twenty-term representation with negative denominators and every gap at
-most $2$, and the site's owner confirmed on 27 December 2025 that all
-unit-fraction problems assume denominators above $1$ (the page was last
+**Formulation.** The denominators are integers greater than $1$;
+erdosproblems.com made this explicit after a comment of 26 December 2025
+exhibited a twenty-term representation with negative denominators and every gap
+at most $2$, and the erdosproblems.com owner confirmed on 27 December 2025 that
+all unit-fraction problems assume denominators above $1$ (the page was last
 edited 23 January 2026). The condition $k\ge2$ excludes $1=1/1$. A
 counterexample would be a single representation of $1$ by distinct
 integers above $1$ in which every consecutive gap is $1$ or $2$; the
@@ -42,11 +42,11 @@ statement asserts that none exists. The representation
 $1=\tfrac12+\tfrac13+\tfrac16$ has gaps $1$ and $3$, so the bound $3$
 cannot be raised.
 
-**Status.** Labeled falsifiable on the site: the label was FALSIFIABLE (page
-last edited 23 January 2026). The site explained this label as open but
-refutable by one finite counterexample. The site's proof-claim tab is empty. The
-standing in the frontmatter derives from the claim pages, which are both pending
-partial claims. They are the Lean developments
+**Status.** Labeled falsifiable on erdosproblems.com: the label was FALSIFIABLE
+(page last edited 23 January 2026). erdosproblems.com explained this label as
+open but refutable by one finite counterexample. The erdosproblems.com
+proof-claim tab is empty. The standing in the frontmatter derives from the claim
+pages, which are both pending partial claims. They are the Lean developments
 [[problems/unit_fractions/E0287/claims/2026_08_26_pr_huang|Pr_Huang 2026]]
 (largest denominator up to $4\times10^9$, then about $3.74\times10^{60}$) and
 [[problems/unit_fractions/E0287/claims/2026_09_02_ramji|Ramji 2026]] (up to
@@ -68,18 +68,18 @@ https://www.erdosproblems.com/287, accessed 2026-09-17.
 - [Er32] Erdős, P., Egy Kürschák-féle elemi számelméleti tétel
   általánosítása [Generalization of an elementary number-theoretic theorem
   of Kürschák]. Matematikai és Fizikai Lapok 39 (1932), eight-page offprint.
-  The site's key misspells the title (Kürschak, számelméti, áltadánositása)
-  and gives the journal as MAt. es Phys. Lapok (1932).
+  The erdosproblems.com key misspells the title (Kürschak, számelméti,
+  áltadánositása) and gives the journal as MAt. es Phys. Lapok (1932).
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results in
   combinatorial number theory. Monographies de L'Enseignement Mathématique
   28, Université de Genève (1980), pp. 33--34.
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999).
-  Listed by the site
+  Listed by erdosproblems.com
   ([[../library/number_theory/various_1999_some_pauls_favorite_problems/_index|booklet card]]);
   item 1.15 (printed p. 3) prints the statement as an assertion, "If
   $a_1<a_2<\dots<a_n$ are positive integers and $\sum\frac1{a_i}=1$, then
-  $\max_i(a_{i+1}-a_i)>2$", the site's $\ge3$.
+  $\max_i(a_{i+1}-a_i)>2$", erdosproblems.com's $\ge3$.
 - [Er50] Erdős, P., Az $1/x_1+\cdots+1/x_n=a/b$ egyenlet egész számú
   megoldásairól. Mat. Lapok 1 (1950), 192--210, p. 194. The earliest known
   statement of the conjecture.
@@ -105,18 +105,18 @@ built any of these files.
 
 ## Current assessment
 
-**The question.** On 2026-09-17 the site asks the statement above, showed
-FALSIFIABLE, which it explains as open but refutable
-by a finite counterexample, cites [Er32], [ErGr80] and [Va99], and lists no
-proof exposition and no proof claim. Its commentary makes three points: the
-representation $1=\frac12+\frac13+\frac16$ shows that the bound $3$ cannot
-be raised; the weaker bound $2$ amounts to the fact, proved by Erdős [Er32],
-that $1$ is not a sum of reciprocals of consecutive integers; and the
-statement would hold with at most finitely many exceptions if every interval
-$[N,2N]$ with $N$ large contained a prime $p$ with $\frac{p+1}2$ prime. The
-label records the question's logical form, not its state of knowledge: a
-counterexample is one finite set of denominators whose gaps and reciprocal
-sum are checked by finite arithmetic, while a proof must cover all $k$.
+**The question.** On 2026-09-17 erdosproblems.com asks the statement above,
+showed FALSIFIABLE, which it explains as open but refutable by a finite
+counterexample, cites [Er32], [ErGr80] and [Va99], and lists no proof exposition
+and no proof claim. Its commentary makes three points: the representation
+$1=\frac12+\frac13+\frac16$ shows that the bound $3$ cannot be raised; the
+weaker bound $2$ amounts to the fact, proved by Erdős [Er32], that $1$ is not a
+sum of reciprocals of consecutive integers; and the statement would hold with at
+most finitely many exceptions if every interval $[N,2N]$ with $N$ large
+contained a prime $p$ with $\frac{p+1}2$ prime. The label records the question's
+logical form, not its state of knowledge: a counterexample is one finite set of
+denominators whose gaps and reciprocal sum are checked by finite arithmetic,
+while a proof must cover all $k$.
 
 **Origin.** Erdős stated the conjecture in 1950
 ([[../library/unit_fractions/erdos_1950_az_egyenlet_egesz_szamu_megoldasairol_diophantine/conjectures_p194|p. 194]]):
@@ -148,33 +148,33 @@ representation with all gaps equal to $1$. The theorem covers complete
 arithmetic progressions only: denominators whose gaps mix $1$ and $2$ are not
 a progression, so apart from the case $d=2$ of [Er32], which excludes all gaps
 equal to $2$, nothing in [Er32] or [Er50] bears on the bound $3$ beyond
-stating it. The site attributes the bound $2$ to [Er32]; [Er32] itself credits
-the consecutive case to Theisinger (1915) and Kürschák (1918).
+stating it. erdosproblems.com attributes the bound $2$ to [Er32]; [Er32] itself
+credits the consecutive case to Theisinger (1915) and Kürschák (1918).
 
 **The conditional route.** The monograph (pp. 33--34) says that a special case
 of Schinzel's hypothesis H, namely that between $x$ and $2x$ there are
 eventually always $k$ consecutive integers of the form $q_1,2q_2,\ldots,kq_k$
 with the $q_i$ prime, implies that $\max(x_{j+1}-x_j)\le k$ "can hold for only
-finitely many $\{x_1,\ldots,x_n\}\in\mathcal X$". The site's commentary states
-the case $k=2$: a prime $p\in[N,2N]$ with $(p+1)/2$ prime for all large $N$
-would give the statement with at most finitely many exceptions. The formal
-file records the same implication as `prime_conjecture_implies`, whose
-`formal_proof` pointer (2026-09-21) is the theorem
+finitely many $\{x_1,\ldots,x_n\}\in\mathcal X$". The erdosproblems.com
+commentary states the case $k=2$: a prime $p\in[N,2N]$ with $(p+1)/2$ prime for
+all large $N$ would give the statement with at most finitely many exceptions.
+The formal file records the same implication as `prime_conjecture_implies`,
+whose `formal_proof` pointer (2026-09-21) is the theorem
 `PCI.prime_conjecture_implies` of the development recorded as
 [[problems/unit_fractions/E0287/claims/2026_09_02_ramji|Ramji 2026]]. The
 prime conjecture is itself open, and a finite set of exceptions would still
 have to be excluded, so this route proves nothing unconditional; the
-implication is the monograph's and the site's observation, with a public Lean
-proof the corpus has not built, and it decides no instance of the question, so
-it is recorded here and on the Ramji page rather than as a conditional claim.
-A discussion comment of 5 May 2026 (posted as "Woett") explains the mechanism:
-if $n_1\ge12$ and all gaps are at most $2$ then $2n_1\le n_k\le8n_1$, and a
-"good" prime $p\in(M/2+1,M)$, $M=n_k$, with $(p-1)/2$ or $(p+1)/2$ prime
-forces $p$ or $2q$ into the denominators, where the $p$-adic or $q$-adic
-valuation of the sum cannot cancel; it also proposes the generalization that
-if for all large $N$ some $n\in[N,2N]$ has $n+j$ divisible by a prime
-$>3N/\log N$ for $1\le j\le m$, then all but finitely many solutions have a
-gap $>m$. This is a forum argument, not a published one; it decides no
+implication is the monograph's and erdosproblems.com's observation, with a
+public Lean proof the corpus has not built, and it decides no instance of the
+question, so it is recorded here and on the Ramji page rather than as a
+conditional claim. A discussion comment of 5 May 2026 (posted as "Woett")
+explains the mechanism: if $n_1\ge12$ and all gaps are at most $2$ then
+$2n_1\le n_k\le8n_1$, and a "good" prime $p\in(M/2+1,M)$, $M=n_k$, with
+$(p-1)/2$ or $(p+1)/2$ prime forces $p$ or $2q$ into the denominators, where the
+$p$-adic or $q$-adic valuation of the sum cannot cancel; it also proposes the
+generalization that if for all large $N$ some $n\in[N,2N]$ has $n+j$ divisible
+by a prime $>3N/\log N$ for $1\le j\le m$, then all but finitely many solutions
+have a gap $>m$. This is a forum argument, not a published one; it decides no
 instance of the question and has no claim page.
 
 **Finite ranges.** Two public Lean developments claim the statement for every
@@ -189,11 +189,12 @@ September 2026 to about $3.74\times10^{60}$) and
 repository `Zed-Rez/erdos-287-lean`, an AI-generated development of 2
 September 2026; $M\le8.59\times10^{23}$, extended on 21 September 2026 to a
 959-digit limit). Neither is on the proof-claim tab, neither has been accepted
-by the site or built by the corpus, and both say the problem remains open.
+by erdosproblems.com or built by the corpus, and both say the problem remains
+open.
 
 **Other thread items (none is progress).** The discussion thread also contains
 finite checks and proposals, most with a disclosed AI-assistance statement,
-none accepted by the site or reviewed by the corpus; none is a dated
+none accepted by erdosproblems.com or reviewed by the corpus; none is a dated
 manuscript, so none has a claim page. In order of strength claimed:
 
 - An exhaustive exact-arithmetic search (5 May 2026) finds no
@@ -228,11 +229,11 @@ the corpus has not built them, and no local kernel credit follows. The main
 statement `erdos_287` has no formal proof for all $k$; its finite ranges are
 the two Lean claims above.
 
-**Search scope.** The status rests on these routes;
+**Search scope (2026-09-17 UTC).** The status rests on these routes;
 none found a proof, a counterexample or a proof claim.
 
-- The site: problem page, discussion thread, proof-claim tab (empty); the
-  community database record.
+- erdosproblems.com: problem page, discussion thread, proof-claim tab (empty);
+  the community database record.
 - To 2026-09-21: formal-conjectures `287.lean` and the external Lean
   files it points to (see Formalization), and the two Lean
   repositories of the claim pages at the commits pinned there, the latest
@@ -244,7 +245,7 @@ none found a proof, a counterexample or a proof claim.
   abs:gap)`: four records, none on this question. The API searches titles
   and abstracts only, so this zero is weak.
 - A general web search engine: "Erdős problem 287" with the gap terms;
-  nothing beyond the site and the arXiv items already listed.
+  nothing beyond erdosproblems.com and the arXiv items already listed.
 
 Not searched: MathSciNet, zbMATH, Google Scholar full text, X. Not held:
 Theisinger (1915), Obláth (1918) and Kürschák (1918), cited by [Er32].

@@ -67,10 +67,10 @@ None outside the paper.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1029/_index|Problem 1029]]: the classical upper bound
-  $R(k)\le\binom{2k-2}{k-1}$ on the diagonal Ramsey number; the site's
-  commentary attributes both $k2^{k/2}\ll R(k)$ and the upper bound to this
-  paper, but the lower bound is Erdős's 1947 probabilistic bound, which the
-  paper does not contain.
+  $R(k)\le\binom{2k-2}{k-1}$ on the diagonal Ramsey number; the
+  erdosproblems.com commentary attributes both $k2^{k/2}\ll R(k)$ and the upper
+  bound to this paper, but the lower bound is Erdős's 1947 probabilistic bound,
+  which the paper does not contain.
 - [[../wiki/problems/ramsey_theory/E0986/_index|Problem 986]]: the upper bound
   $r(s,k)\le\binom{k+s-2}{s-1}=O(k^{s-1})$ for fixed $s$ that the problem's
   lower bound matches up to a polylogarithmic factor.

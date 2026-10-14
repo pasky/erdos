@@ -25,11 +25,11 @@ updated: 2026-10-08T14:17:37Z
 graph with vertex set $\alpha$ then $G$ must have either an infinite path or
 independent set on a set of vertices with order type $\alpha$?
 
-**Status.** Open. The site labeled the problem OPEN. It credits [EHM70] with
-every limit $\alpha<\omega_1^{\omega+2}$, and [La90] with every limit
-$\alpha<2^{\aleph_0}$ under Martin's axiom. The site's commentary records that
-in [Er82e] Erdős offered a prize for the case $\alpha=\omega_1^{\omega+2}$ and a
-larger one for the general question.
+**Status.** Open. Bloom's catalog labeled the problem OPEN. It credits [EHM70]
+with every limit $\alpha<\omega_1^{\omega+2}$, and [La90] with every limit
+$\alpha<2^{\aleph_0}$ under Martin's axiom. The erdosproblems.com commentary
+records that in [Er82e] Erdős offered a prize for the case
+$\alpha=\omega_1^{\omega+2}$ and a larger one for the general question.
 
 **Source.** [erdosproblems.com/601](https://www.erdosproblems.com/601), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #601,
@@ -46,19 +46,20 @@ https://www.erdosproblems.com/601.
   sets or infinite paths. Ann. Pure Appl. Logic (1990), 31-39.
 - [BL90] Baumgartner, James E. and Larson, Jean A., A diamond example of an
   ordinal graph with no infinite paths. Ann. Pure Appl. Logic 47 (1990),
-  1-10. Not on the site's list.
+  1-10. Not on the erdosproblems.com list.
 - [La86] Larson, Jean A., A consequence of no short scale for ordinal graphs
   with no infinite paths. J. London Math. Soc. (2) 33 (1986), 193-202. Not on
-  the site's list.
+  the erdosproblems.com list.
 - [La87] Larson, Jean A., A GCH example of an ordinal graph with no infinite
-  path. Trans. Amer. Math. Soc. 303 (1987), 383-393. Not on the site's list.
+  path. Trans. Amer. Math. Soc. 303 (1987), 383-393. Not on the
+  erdosproblems.com list.
 
 **Formalization.** None recorded.
 
 ## Current assessment
 
-**The question (site formulation).** The statement above, labeled OPEN. The
-problem is Problem 10 of
+**The question (erdosproblems.com formulation).** The statement above, labeled
+OPEN. The problem is Problem 10 of
 [[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/_index|Erdős 1987]]
 (printed p. 226), where Erdős credits Hajnal, Milner and himself with the
 case $\alpha<\omega_1^{\omega+2}$ and reports, as recent work of Larson
@@ -113,11 +114,11 @@ ordinal and a threshold for independent transversals of clean columns, a
 reduction that settles no instance, and says itself that the case
 $\alpha=\omega_1^{\omega+2}$ remains model-dependent.
 
-**Search scope.** The site's problem page and commentary (its proof-claims tab
-had no claim, and its discussion thread had no comments on 2026-10-07), the
-zbMATH reviews of [La86], [La87], [La90] and [BL90], the Rényi archive scans of
-[EHM70] and of Erdős 1987, and the erdosproblemaday ledger. MathSciNet, Google
-Scholar and arXiv were not searched.
+**Search scope.** The erdosproblems.com problem page and commentary (its
+proof-claims tab had no claim, and its discussion thread had no comments on
+2026-10-07), the zbMATH reviews of [La86], [La87], [La90] and [BL90], the Rényi
+archive scans of [EHM70] and of Erdős 1987, and the erdosproblemaday ledger.
+MathSciNet, Google Scholar and arXiv were not searched.
 
 ## Known Results
 

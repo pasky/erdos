@@ -4,7 +4,7 @@ title: Plünnecke's density bound
 desc: |
   Plünnecke's 1970 theorem gives $d_s(A+B)\ge\alpha^{1-1/k}$ for a basis $B$ of
   order $k$ and a set $A$ of Schnirelmann density $\alpha$, which implies the
-  asked increment. It was refereed in Crelle, and the site records it.
+  asked increment. It was refereed in Crelle, and erdosproblems.com records it.
 authors:
 - H. Plünnecke
 status: accepted
@@ -38,17 +38,17 @@ $$
 
 For $0<\alpha\leq1$ and $k\geq1$ the elementary inequality
 $\alpha^{1-1/k}\geq\alpha+\alpha(1-\alpha)/k$ turns this into the bound the
-problem asks for, and for $\alpha=0$ the asked bound is $0$. The site's
-remarks attribute this deduction to Ruzsa. Together they answer the question
-yes.
+problem asks for, and for $\alpha=0$ the asked bound is $0$. The
+erdosproblems.com remarks attribute this deduction to Ruzsa. Together they
+answer the question yes.
 
 **Acceptance.** Refereed: H. Plünnecke, Eine zahlentheoretische Anwendung der
 Graphentheorie, Journal für die reine und angewandte Mathematik 243 (1970),
-171–183. Reviewed: Thomas Bloom, the site's curator, records in the problem's
-remarks (page accessed 2026-10-07) that the asked bound follows from Plünnecke's
-theorem, and labeled the problem proved. Jin's Theorem 2 of 2014 gives a later
-proof of the same bound by a different method. This repository holds a rewritten
-proof of it on
+171–183. Reviewed: Thomas Bloom, the erdosproblems.com curator, records in the
+problem's remarks (page accessed 2026-10-07) that the asked bound follows from
+Plünnecke's theorem, and labeled the problem proved. Jin's Theorem 2 of 2014
+gives a later proof of the same bound by a different method. This repository
+holds a rewritten proof of it on
 [[../library/additive_bases/jin_2014_density_versions_plunnecke_inequality/theorem_2|Jin's result page]].
 The original 1970 proof is cited, not compiled.
 
@@ -66,12 +66,12 @@ $$
 
 with Mathlib's `schnirelmannDensity`. The file entered the repository on
 2026-08-17, and formal-conjectures cites this commit in the `formal_proof`
-attribute of its `Erdos35.erdos_35` (file fetched 2026-10-07); the site's
-PROVED (LEAN) label, in place by 2026-09-04, rests on this development, which
-formal-conjectures has cited since 2026-09-19. This corpus has built neither
-the development nor its axioms, and has not checked that its definition of an
-additive basis of order $k$ agrees with the problem's, so the formalization is
-a link and not acceptance evidence.
+attribute of its `Erdos35.erdos_35` (file fetched 2026-10-07);
+erdosproblems.com's PROVED (LEAN) label, in place by 2026-09-04, rests on this
+development, which formal-conjectures has cited since 2026-09-19. This corpus
+has built neither the development nor its axioms, and has not checked that its
+definition of an additive basis of order $k$ agrees with the problem's, so the
+formalization is a link and not acceptance evidence.
 
 **Depends on.** Nothing in this wiki; the result is the cited paper's theorem.
 

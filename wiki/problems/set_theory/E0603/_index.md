@@ -27,12 +27,13 @@ $\lvert A_i\cap A_j\rvert \neq 2$ for all $i\neq j$. Find the smallest cardinal
 $C$ such that $\cup A_i$ can always be coloured with at most $C$ colours so that
 no $A_i$ is monochromatic.
 
-**Status.** Solved. The site's commentary credits GPT-5.4 Pro, prompted by
-Chojecki, with showing that no number of colors suffices for every such family.
-The frontmatter standing is derived from the accepted claim page
+**Status.** Solved. The erdosproblems.com commentary credits GPT-5.4 Pro,
+prompted by Chojecki, with showing that no number of colors suffices for every
+such family. The frontmatter standing is derived from the accepted claim page
 [[problems/set_theory/E0603/claims/2026_04_21_chojecki|Chojecki's note]],
-accepted on the site's curator's credit. The answer is that the smallest
-cardinal asked for does not exist. Under Erdős's own wording, Problem 12 of
+accepted on the erdosproblems.com curator's credit. The answer is that the
+smallest cardinal asked for does not exist. Under Erdős's own wording, Problem
+12 of
 [[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/_index|Erdős 1987]]
 (printed p. 227), which asks whether any bound exists, this is a negative
 answer.
@@ -43,10 +44,10 @@ finite $r$, it adds a family of countably infinite subsets of a countable ground
 set, any two meeting in $0$ or $\aleph_0$ points, such that every $r$-coloring
 has a monochromatic member. The family is built from a nonprincipal ultrafilter
 and the Ramsey number $R_r(3)$. The addendum gets no claim page. It is a
-strengthened variant that adds nothing to the site's question beyond Theorem 1
-of the accepted note, whose family for finite $r$ already lives on the countable
-set $[\omega]^2$. Thread post 6006 gave a simpler ultrafilter example, which the
-note's author accepted in post 6016.
+strengthened variant that adds nothing to the erdosproblems.com question beyond
+Theorem 1 of the accepted note, whose family for finite $r$ already lives on the
+countable set $[\omega]^2$. Thread post 6006 gave a simpler ultrafilter example,
+which the note's author accepted in post 6016.
 
 **Source.** [erdosproblems.com/603](https://www.erdosproblems.com/603), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #603,

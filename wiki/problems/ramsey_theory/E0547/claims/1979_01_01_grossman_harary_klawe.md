@@ -35,7 +35,7 @@ library's
 card]] reads: "The ramsey numbers of the double stars satisfy
 $r(S(n,m))\le2n+m+2$." Since $2n+m+2\le2n+2m+2=2N-2$, every double star
 satisfies the bound of the problem. Theorem 3.3 (p. 250) gives the exact
-value for $n\ge3m$, the site's $R(S_{t_1,t_2})=2t_1$ for
+value for $n\ge3m$, erdosproblems.com's $R(S_{t_1,t_2})=2t_1$ for
 $t_1\ge3t_2-2$ in its notation, which disproves Burr's exact conjecture
 for trees.
 
@@ -53,5 +53,5 @@ claim]].
 Ramsey theory for graphs, X: double stars*, Discrete Math. 28 (1979), no. 3,
 247--254, doi:10.1016/0012-365X(79)90132-8. The paper was received 8 May 1978
 and revised 22 May 1979. This page's date is the first day of the volume's year.
-No `reviewed` evidence is listed, because the site's label DECIDABLE settles
-neither the problem nor any part of it.
+No `reviewed` evidence is listed, because the erdosproblems.com label DECIDABLE
+settles neither the problem nor any part of it.

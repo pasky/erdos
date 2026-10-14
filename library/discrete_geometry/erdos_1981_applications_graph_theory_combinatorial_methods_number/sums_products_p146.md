@@ -65,6 +65,6 @@ None.
 - [[../wiki/problems/additive_combinatorics/E0052/_index|Problem 52]]: the
   paper's $f(n)$ counts $|A+A\cup AA|$ for $A=\{a_1,\ldots,a_n\}$, which
   lies between $\max(|A+A|,|AA|)$ and twice it, so the conjecture
-  $f(n)>n^{2-\epsilon}$ is the site's statement, and display (1) records
-  the Erdős–Szemerédi lower bound $n^{1+c}$ and an upper bound showing
+  $f(n)>n^{2-\epsilon}$ is the erdosproblems.com statement, and display (1)
+  records the Erdős–Szemerédi lower bound $n^{1+c}$ and an upper bound showing
   that the $\epsilon$ in the statement cannot be dropped.

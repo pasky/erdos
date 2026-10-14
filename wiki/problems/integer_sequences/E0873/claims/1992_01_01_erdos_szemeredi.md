@@ -40,7 +40,8 @@ large. The second bound shows that $k=3$ gives nothing below the exponent
 $1/3$.
 
 **Standing.** Claimed: the paper states the result without proof, so it is
-not listed as refereed. The site credits the result to Erdős and Szemerédi on
-a problem it labeled OPEN; that credit is commentary, not acceptance.
+not listed as refereed. erdosproblems.com credits the result to Erdős and
+Szemerédi on a problem it labeled OPEN; that credit is commentary, not
+acceptance.
 
 **Depends on.** No page of this wiki.

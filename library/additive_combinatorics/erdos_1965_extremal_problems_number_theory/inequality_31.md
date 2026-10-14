@@ -2,9 +2,9 @@
 name: additive_combinatorics/erdos_1965_extremal_problems_number_theory/inequality_31
 title: "Inequality (31): h(n) >= n^(1/3) for subsets of n reals whose equal subset sums have equally many summands"
 desc: |
-  Erdős's 1965 definition of the function the site calls h(n), the largest
-  k such that any n reals contain k of them two of whose subset sums agree
-  only when they have the same number of summands, with the lower bound
+  Erdős's 1965 definition of the function erdosproblems.com calls h(n), the
+  largest k such that any n reals contain k of them two of whose subset sums
+  agree only when they have the same number of summands, with the lower bound
   n^(1/3) by the rotation method and the report h(n) < c n^(5/6).
 created: 2026-09-18T15:50:00Z
 updated: 2026-10-07T20:23:45Z
@@ -66,7 +66,7 @@ prints.
 Pure Math. VIII (Theory of Numbers), Amer. Math. Soc. (1965), 181--189, DOI
 10.1090/pspum/008/0174539; printed p. 188 (PDF p. 8 of the eleven-page
 scan read for this page) and the Additions on printed p. 190 (PDF p. 10), read on
-the page images (the exponents at 300 dpi); the site's key [Er65] for
+the page images (the exponents at 300 dpi); the erdosproblems.com key [Er65] for
 Problem 789.
 
 **Read depth.** Claims checked: the definition, (29), (31) and the
@@ -90,9 +90,9 @@ The method of Theorem 2; reference [5] of the paper for the upper bound.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0789/_index|Problem 789]]: the origin of the
-  problem's $h(n)$ (for reals), the lower bound $n^{1/3}$ the site quotes
-  as Erdős's, and the 1965 upper bound $n^{5/6}$ from the Hungarian paper;
-  the Additions' report of Choi's improvement, printed as $n^{1/3}\log n$
+  problem's $h(n)$ (for reals), the lower bound $n^{1/3}$ erdosproblems.com
+  quotes as Erdős's, and the 1965 upper bound $n^{5/6}$ from the Hungarian
+  paper; the Additions' report of Choi's improvement, printed as $n^{1/3}\log n$
   although Choi's paper proves $(n\log n)^{1/3}$, and of Straus's $n^{1/2}$
   is a later layer; Choi's bound is paged as the
   [[additive_combinatorics/choi_1974_extremal_problem_number_theory/estimate_1|estimate (1)]]

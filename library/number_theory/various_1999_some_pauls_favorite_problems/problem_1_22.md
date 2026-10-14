@@ -43,7 +43,7 @@ both sides of its equation, evidently a misprint for $b_1=b_2+\cdots+b_m$.
 **Source.** *Some of Paul's favorite problems*, booklet circulated at the
 conference *Paul Erdős and his mathematics*, Budapest, July 1999; PDF
 pp. 3--4 of the nine-spread scan (130 dpi renders), read on the page images; the
-site's key [Va99, 1.22] for Problems 787, 790 and 792.
+erdosproblems.com key [Va99, 1.22] for Problems 787, 790 and 792.
 
 **Read depth.** Claims checked: the item was read clause by clause on the
 page images. It is a 1999 statement of four questions with the estimates
@@ -67,16 +67,15 @@ None.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0792/_index|Problem 792]]: part a), the
-  site's problem, with the 1999 estimate "between $n/3$ and $n/2$"; the
-  upper end was reduced to $n/3+o(n)$ by Eberhard, Green and Manners
-  (2014).
+  erdosproblems.com problem, with the 1999 estimate "between $n/3$ and $n/2$";
+  the upper end was reduced to $n/3+o(n)$ by Eberhard, Green and Manners (2014).
 - [[../wiki/problems/additive_combinatorics/E0790/_index|Problem 790]]: part b), the
-  site's problem, asked in 1999 as "Is $k>cn$ always possible?", a question
-  the 1975 bound $l(n)\ll n/\log n$ of Choi, Komlós and Szemerédi answers
-  in the negative.
+  erdosproblems.com problem, asked in 1999 as "Is $k>cn$ always possible?", a
+  question the 1975 bound $l(n)\ll n/\log n$ of Choi, Komlós and Szemerédi
+  answers in the negative.
 - [[../wiki/problems/additive_combinatorics/E0787/_index|Problem 787]]: part c), the
-  site's problem, recorded in 1999 with "No decent estimates".
+  erdosproblems.com problem, recorded in 1999 with "No decent estimates".
 - [[../wiki/problems/number_theory/E0963/_index|Problem 963]]: part d), the
   distinct-subset-sums selection question of the 1965 paper (p. 188), which
-  the site states for sets of reals; recorded in 1999 as "between
+  erdosproblems.com states for sets of reals; recorded in 1999 as "between
   $\log_3n$ and $\log_2n$".

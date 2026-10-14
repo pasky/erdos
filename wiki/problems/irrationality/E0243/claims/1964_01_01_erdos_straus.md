@@ -45,9 +45,9 @@ card
 [[../library/irrationality/erdos_1964_irrationality_certain_ahmes_series/_index|erdos_1964_irrationality_certain_ahmes_series]]
 digests the paper. On p. 132 the authors say that Theorem 1 may well remain
 valid without condition (ii), the question of
-[[problems/irrationality/E0243/_index|Problem 243]]. The site's remark on the
-problem writes the factor of (ii$''$) as $(a_n^2/a_{n+1}-1)$, one index
-earlier than the paper's $(n_{k+1}^2/n_{k+2}-1)$.
+[[problems/irrationality/E0243/_index|Problem 243]]. The erdosproblems.com
+remark on the problem writes the factor of (ii$''$) as $(a_n^2/a_{n+1}-1)$, one
+index earlier than the paper's $(n_{k+1}^2/n_{k+2}-1)$.
 
 **Covers.** The sequences of Problem 243 that also satisfy (ii$''$): in the
 problem's indexing, $a_n/a_{n-1}^2\to1$ gives (i), and the claim applies when
@@ -57,7 +57,7 @@ the sequences for which the lcm-weighted error has a positive limit superior,
 which is the gap the problem concerns.
 
 **Acceptance.** Refereed: J. Indian Math. Soc. (N.S.) 27 (1964), 129--133.
-The site labeled the problem OPEN and records this theorem in its remark, so
-no `reviewed` evidence is listed. The proof is not checked here.
+Bloom's catalog labeled the problem OPEN and records this theorem in its remark,
+so no `reviewed` evidence is listed. The proof is not checked here.
 
 **Depends on.** Nothing in this wiki.

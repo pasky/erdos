@@ -2,8 +2,8 @@
 name: additive_combinatorics/jenw1n_2026_erdos_problem_272_szabo_strong/jenw1n_2026_erdos_problem_272_szabo_strong
 title: Source record for the Conjectures.io Szabó-variant proof for Problem 272
 desc: |
-  Records the site record's URLs, the verified Lean statement, the acceptance
-  timeline and the provenance of the downloaded proof file.
+  Records Conjectures.io record's URLs, the verified Lean statement, the
+  acceptance timeline and the provenance of the downloaded proof file.
 created: 2026-09-28T02:57:24Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -15,13 +15,13 @@ updated: 2026-10-05T05:52:35Z
 ***
 
 **Source type.** Lean 4 proof file published by a bounty-site result record;
-no PDF or write-up exists. On 2026-09-27 the site's papers directory had no
-entry for it, `https://conjectures.io/papers/erdos272.pdf` returned HTTP 404,
-and the site's contribution index for `erdos-272-variants-szabo-strong` listed
-no contributions.
+no PDF or write-up exists. On 2026-09-27 Conjectures.io's papers directory had
+no entry for it, `https://conjectures.io/papers/erdos272.pdf` returned HTTP 404,
+and Conjectures.io's contribution index for `erdos-272-variants-szabo-strong`
+listed no contributions.
 
-**Author.** JenW1N, the solver display name the site shows for the record. The
-file's header names no author and declares no AI system; one comment (line
+**Author.** JenW1N, the solver display name Conjectures.io shows for the record.
+The file's header names no author and declares no AI system; one comment (line
 5312) says a lemma comes "from the third supplied proof".
 
 **URLs.**
@@ -52,11 +52,11 @@ the record page (catalog commit `8432eac9`, task
 bundle (catalog commit `6a786f99`, task
 `fc-6a786f99-variants-szabo-strong-5829e2fb24-formalized-v1`). Neither pinned
 commit is reachable in `google-deepmind/formal-conjectures`; the statement on
-the catalog's default branch, fetched 2026-09-28T02:36Z, is identical. The
+formal-conjectures' default branch, fetched 2026-09-28T02:36Z, is identical. The
 task's manifest permits the axioms `propext`, `Quot.sound` and
-`Classical.choice`, forbids depending on the catalog theorem itself, and sets
-`enable_nanoda false`; its `Challenge.lean` and solution header wrap the target
-in `namespace Bounty`.
+`Classical.choice`, forbids depending on the formal-conjectures theorem itself,
+and sets `enable_nanoda false`; its `Challenge.lean` and solution header wrap
+the target in `namespace Bounty`.
 
 **Acceptance timeline.** From the record page and the results listing's record
 data, fetched 2026-09-28T02:36Z and 02:52Z: Lean verification `VERIFIED` at

@@ -36,10 +36,10 @@ question about every infinite cardinal, is not a theorem of ZFC; no model in
 which the answer is yes at $\aleph_1$ is known. That result is one side of an
 independence result and leaves the problem open, as the label does. On the
 related Problem 1175 the curator records Shelah's consistency result and kept
-the label OPEN, so the site treats such a result as progress on an open
+the label OPEN, so erdosproblems.com treats such a result as progress on an open
 problem, and this page does the same. A refutation in ZFC alone, Johan Land's
-2026 claim, is pending. The site's notes call the problem a question of
-Erdős and Hajnal and record Rödl's theorem for $\mathfrak{m}=\aleph_0$ and
+2026 claim, is pending. The erdosproblems.com notes call the problem a question
+of Erdős and Hajnal and record Rödl's theorem for $\mathfrak{m}=\aleph_0$ and
 $r=3$. They say that Erdős and Hajnal asked more generally for an
 $f_r(\mathfrak{m})$ such that chromatic number at least $f_r(\mathfrak{m})$
 forces a subgraph of chromatic number $\mathfrak{m}$ with no odd cycle of length
@@ -64,10 +64,10 @@ statement since 2026-05-09.
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether every
-graph of infinite chromatic number $\mathfrak{m}$ has, for each $r\ge1$, a
-subgraph of chromatic number $\mathfrak{m}$ with no odd cycle of length at most
-$r$; for $r=3$ it is the Erdős–Hajnal conjecture that every
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether every graph of infinite chromatic number $\mathfrak{m}$ has, for each
+$r\ge1$, a subgraph of chromatic number $\mathfrak{m}$ with no odd cycle of
+length at most $r$; for $r=3$ it is the Erdős–Hajnal conjecture that every
 $\mathfrak{m}$-chromatic graph has an $\mathfrak{m}$-chromatic triangle-free
 subgraph. The standing is `claimed`, `disproved`, through Johan Land's pending
 refutation in ZFC alone, described below. The accepted claims leave the problem
@@ -93,10 +93,10 @@ The other accepted partial claim is
 Amer. Math. Soc. 64 (1977)): a finite graph of large enough chromatic number
 contains a complete graph $K_m$ or a triangle-free subgraph of chromatic number
 above $n$, which with the de Bruijn–Erdős theorem and a disjoint union gives the
-case $\mathfrak{m}=\aleph_0$ with $r\le4$, the case the site credits to Rödl,
-whose finitary form is Rödl's finite theorem, the case $r=4$ of
-[[problems/graph_coloring/E0108/_index|Problem 108]]. The site's notes also
-record the girth variant from Erdős's 1981 paper, which asks it for
+case $\mathfrak{m}=\aleph_0$ with $r\le4$, the case erdosproblems.com credits to
+Rödl, whose finitary form is Rödl's finite theorem, the case $r=4$ of
+[[problems/graph_coloring/E0108/_index|Problem 108]]. The erdosproblems.com
+notes also record the girth variant from Erdős's 1981 paper, which asks it for
 $\mathfrak{m}=\aleph_0$: must a graph of chromatic number $\aleph_0$ contain a
 subgraph of chromatic number $\aleph_0$ and girth at least $k$? Its finitary
 form is Problem 108, where Rödl's theorem settles $k=4$. The
@@ -112,8 +112,8 @@ $2^{\aleph_0}$ vertices every triangle-free subgraph of which is countably
 colorable, which would settle in ZFC what Komjáth and Shelah settled
 consistently; a Lean development accompanies it, third-party Lean the corpus did
 not build, so it gives no `formalized` evidence. A partial claim posted on the
-site's forum on 16 August 2026 under the username DottedCalculator, with a
-write-up by GPT 5.6 Sol
+erdosproblems.com forum on 16 August 2026 under the username DottedCalculator,
+with a write-up by GPT 5.6 Sol
 ([[problems/graph_coloring/E0740/claims/2026_08_16_dottedcalculator|claim page]]),
 asserts the affirmative answer for $\mathfrak{m}=\aleph_0$ and every $r$ from
 Steiner's finite odd-girth theorem. Steiner's revised preprint
@@ -121,19 +121,19 @@ Steiner's finite odd-girth theorem. Steiner's revised preprint
 1.4, derived the same way, and says that it resolves the Erdős–Hajnal problem
 for $\mathfrak{m}=\aleph_0$
 ([[problems/graph_coloring/E0740/claims/2026_09_07_steiner|claim page]]). None
-of the three is refereed or reviewed by an outside party. The site's
+of the three is refereed or reviewed by an outside party. erdosproblems.com's
 [[problems/set_theory/E1175/_index|Problem 1175]] asks the weaker form in which
 the host graph may have a larger chromatic number than the triangle-free
 subgraph.
 
-Search scope: the site's problem page, its discussion thread (one comment, of 28
-May 2026, restating the consistency result through Problem 1175) and its
-proof-claims tab, the Komjáth–Shelah paper and Komjáth's 2025 survey, Rödl's
-paper in the Proceedings of the American Mathematical Society, the Crossref
-records of both papers, the DottedCalculator write-up and the README of Land's
-repository at the linked commits, Steiner's preprint arXiv:2608.02522 in its
-versions 1 and 2, the formal-conjectures file at the linked revision, and the
-community database. Rödl's paper and Land's manuscript are not held in the
+Search scope: the erdosproblems.com problem page, its discussion thread (one
+comment, of 28 May 2026, restating the consistency result through Problem 1175)
+and its proof-claims tab, the Komjáth–Shelah paper and Komjáth's 2025 survey,
+Rödl's paper in the Proceedings of the American Mathematical Society, the
+Crossref records of both papers, the DottedCalculator write-up and the README of
+Land's repository at the linked commits, Steiner's preprint arXiv:2608.02522 in
+its versions 1 and 2, the formal-conjectures file at the linked revision, and
+the community database. Rödl's paper and Land's manuscript are not held in the
 library.
 <!-- BEGIN problem library links -->
 

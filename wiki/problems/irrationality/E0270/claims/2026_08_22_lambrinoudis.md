@@ -89,8 +89,8 @@ Nothing is built or audited in this corpus, so no `formalized` evidence is
 listed.
 
 **Standing.** Claimed. The result is a dated manuscript posted to a public
-repository and announced on the site's discussion thread; the site's page does
-not mention it, no named mathematician has reviewed it and there is no
-refereed publication.
+repository and announced on the erdosproblems.com discussion thread; the
+erdosproblems.com page does not mention it, no named mathematician has reviewed
+it and there is no refereed publication.
 
 **Depends on.** No page of this wiki.

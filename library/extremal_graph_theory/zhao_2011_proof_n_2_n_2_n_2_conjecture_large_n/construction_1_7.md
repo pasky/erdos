@@ -54,7 +54,7 @@ construction).
   count $n/2$ of large-degree vertices is essentially best possible for
   its edge formulation: with $n/2-\sqrt n-2$ vertices of degree $n/2$ the
   conclusion fails for the tree $T$ above, which has $n/2$ edges and
-  $n/2+1$ vertices (one more vertex than the site's "at most $n/2$
+  $n/2+1$ vertices (one more vertex than erdosproblems.com's "at most $n/2$
   vertices" allows, so the construction bears on the paper's edge
-  formulation and on the sharpness of the count, not on the site's vertex
-  formulation directly).
+  formulation and on the sharpness of the count, not on erdosproblems.com's
+  vertex formulation directly).

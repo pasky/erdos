@@ -52,5 +52,5 @@ assertion stays open.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: Proceedings of the American Mathematical Society,
-a journal. The site's commentary does not credit the result, and the site
-labeled the problem OPEN, so no curator acceptance is listed.
+a journal. The erdosproblems.com commentary does not credit the result, and
+Bloom's catalog labeled the problem OPEN, so no curator acceptance is listed.

@@ -77,12 +77,12 @@ The Hardy--Ramanujan theorem.
 - [[../wiki/problems/integer_sequences/E0542/_index|Problem 542]]: the second question's
   negative answer: the sets $A_n$ leave $o(n)$ integers $m\le n$ divisible by
   no element, so no constant $c>0$ gives $cn$ such integers for every
-  admissible set. The site's "examples with at most $n/(\log n)^c$ many such
-  $m$" states a rate the paper does not print; it holds for these sets,
+  admissible set. erdosproblems.com's "examples with at most $n/(\log n)^c$ many
+  such $m$" states a rate the paper does not print; it holds for these sets,
   whose count has order $n/\log n$ (above). The integers counted are those
   not divisible by any element, the reading of Erdős's 1980 survey; the
-  site's wording "which do not divide any $a\in A$" is discussed on the
-  problem page.
+  erdosproblems.com wording "which do not divide any $a\in A$" is discussed on
+  the problem page.
 - [[../wiki/problems/integer_sequences/E0784/_index|Problem 784]]: the problem
   page records that Erdős's 1973 survey (p. 135) cites this example as showing
   that the bound $x/(\log x)^c$ asked there would be best possible apart from

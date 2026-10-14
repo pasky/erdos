@@ -83,7 +83,7 @@ None; a question and a definition.
 
 - [[../wiki/problems/extremal_graph_theory/E0916/_index|Problem 916]]: the earliest filed
   statement of the problem's question, with the value $2n-2$ offered as not
-  excluded; not a site key for the problem.
+  excluded; not an erdosproblems.com key for the problem.
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the theorem
   $h_2(n)=f(n)$ is the source of the 1967 paper's sentence that every
   $G(n;[(3n-1)/2])$ contains a cycle and another point adjacent to two of

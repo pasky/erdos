@@ -59,7 +59,8 @@ other three, the last two through a Konyagin-type inequality (Theorem 4.1, p.
 3). Read depth: claims checked for Theorems 1.1 and 4.1; the proof was read for
 its structure and not checked step by step.
 
-**Submission note.** Posted to the site's forum by Quanyu Tang on 26 April 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Quanyu Tang on 26
+April 2026:
 
 > After iterating GPT-5.5 Pro more than a dozen times, it produced a note
 > claiming a good lower bound for \(n_k\). More precisely, the draft claims to
@@ -78,10 +79,10 @@ its structure and not checked step by step.
 > The tex source is available here: texhere.
 
 **History and provenance.** The page is named by the arXiv paper of 18
-June 2026, the source the site credits as [vDTa26]. The result's first
+June 2026, the source erdosproblems.com credits as [vDTa26]. The result's first
 posting is Tang's alone and states a weaker form: on 26 April 2026
-Tang posted in the site's thread a note, produced by GPT 5.5 Pro after
-repeated prompting, claiming $n_k>\exp(c(\log k)^2/\log\log k)$ for an
+Tang posted in the erdosproblems.com thread a note, produced by GPT 5.5 Pro
+after repeated prompting, claiming $n_k>\exp(c(\log k)^2/\log\log k)$ for an
 unspecified absolute $c>0$ and all large $k$, with a request for
 independent checks; van Doorn is an author only of the arXiv paper, which
 first states the theorem with the constant $1/20$. A reply of 27 April 2026
@@ -92,8 +93,8 @@ declaration of AI usage (p. 2) says that the text is entirely
 human-written, that the core idea of applying Konyagin's argument came
 from ChatGPT 5.5 Pro, whose write-up the authors keep in a public
 repository, and that Lean formalizations of all theorems were produced by
-Aristotle, Harmonic's automated prover; the site's commentary names the
-same model.
+Aristotle, Harmonic's automated prover; the erdosproblems.com commentary names
+the same model.
 
 **Covers.** The lower bound, and with it Erdős's expectation that $n_k$
 exceeds every fixed power of $k$, settled in the affirmative. Not covered:
@@ -102,10 +103,10 @@ $n_k\le\prod_{k<p<2k}p=e^{(1+o(1))k}$; Erdős's expectation
 $n_k<e^{\varepsilon k}$ for every $\varepsilon>0$ and the heuristic
 $\log n_k\asymp k/\log k$ are unproved.
 
-**Standing.** Claimed. The site's curator, Thomas Bloom, who is
+**Standing.** Claimed. The erdosproblems.com curator, Thomas Bloom, who is
 independent of the authors, took the theorem into the problem's commentary
 on 21 June 2026, stating the bound with an unspecified constant and
-crediting the argument to GPT 5.5 Pro and to Tang; the site labeled the
+crediting the argument to GPT 5.5 Pro and to Tang; Bloom's catalog labeled the
 problem OPEN, so that commentary is not an acceptance of the claim and no
 evidence is listed. Not refereed: on 2026-09-18 the
 arXiv listing showed one version and no journal reference, and Crossref

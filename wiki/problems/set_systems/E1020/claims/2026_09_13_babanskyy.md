@@ -79,8 +79,8 @@ Astra; GPT-5 Pro; GPT-6 Pro (OpenAI, via ChatGPT)" as the AI used:
 
 **Covers.** The case $r=4$ of [[problems/set_systems/E1020/_index|Problem 1020]]
 for every $k\ge2$ and $n\ge4k$, the manuscript's own range, which is the whole
-case $r=4$ of the modified Statement. Below it the site's displayed equality
-holds trivially at $n=4k-1$ and fails for $n\le4k-2$, since
+case $r=4$ of the modified Statement. Below it erdosproblems.com's displayed
+equality holds trivially at $n=4k-1$ and fails for $n\le4k-2$, since
 $f(n;4,k)=\binom{n}{4}<\binom{4k-1}{4}$ there, as the problem page records. Hou,
 Hu and Liu had claimed the same case for $k\ge6005$, so the claimed novelty is
 $2\le k\le6004$, though the manuscript states its result for every $k\ge2$. The
@@ -101,6 +101,6 @@ proved in the paper, not in a proof assistant, so no formalization is reported;
 it grants no license to redistribute the paper.
 
 **Acceptance.** None: the manuscript is not refereed, and no outside reviewer
-has endorsed it. As of 2026-10-06 the forum entry had no comments and the site's
-label was FALSIFIABLE. The site's commentary was last edited on 28
-December 2025.
+has endorsed it. On 2026-10-06 the forum entry had no comments and the
+erdosproblems.com label was FALSIFIABLE. The erdosproblems.com commentary was
+last edited on 28 December 2025.

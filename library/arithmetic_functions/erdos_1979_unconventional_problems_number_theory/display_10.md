@@ -61,8 +61,8 @@ None stated; the prime number theorem underlies the sizes.
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0457/_index|Problem 457]]: the origin passage for
-  the question whether $q(n,\log n)<(2+\varepsilon)\log n$; the site's
-  header locator is [Er79d, p. 78].
+  the question whether $q(n,\log n)<(2+\varepsilon)\log n$; the
+  erdosproblems.com header locator is [Er79d, p. 78].
 - [[../wiki/problems/integer_sequences/E1181/_index|Problem 1181]]: the origin passage for
   the question whether $q(n,\log n)<(1-\varepsilon)(\log n)^2$, with
   Erdős's bound (10).

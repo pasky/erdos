@@ -68,5 +68,5 @@ Theorem 1 of the same paper.
 - [[../wiki/problems/ramsey_theory/E0077/_index|Problem 77]]: the first
   display gives $\limsup_{k\to\infty}R(k)^{1/k}\le3.7992\ldots$, an upper
   bound on $\lim_{k\to\infty}R(k)^{1/k}$ should the limit exist; the
-  site's commentary quotes this figure. It says nothing about the existence
-  or the value of the limit.
+  erdosproblems.com commentary quotes this figure. It says nothing about the
+  existence or the value of the limit.

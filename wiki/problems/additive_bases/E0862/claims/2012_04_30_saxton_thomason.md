@@ -56,8 +56,8 @@ $\log_2 5/2 = 1.16\ldots$. The upper bound is a direct application of their
 container theorem.
 
 The deduction to the problem is short; it was posted in the forum on
-2025-11-23 and the site's remarks record it. Every Sidon set lies in a
-maximal one, and a maximal Sidon subset of $\{1,\ldots,N\}$ has at most
+2025-11-23 and the erdosproblems.com remarks record it. Every Sidon set lies in
+a maximal one, and a maximal Sidon subset of $\{1,\ldots,N\}$ has at most
 $(1+o(1))N^{1/2}$ elements by the Erdős–Turán bound, so it contains at most
 $2^{(1+o(1))N^{1/2}}$ Sidon sets. Hence
 
@@ -71,16 +71,16 @@ rather than proved or disproved.
 
 **Acceptance.** The counting theorem is refereed: Invent. Math. 201 (2015),
 925–992. The Sidon proof is in J. Combin. Theory Ser. B 121 (2016), 248–283. The
-deduction to the two questions is recorded by the site's curator, T. F. Bloom.
-Bloom labeled the problem solved and states the lower bound on $A_1(N)$ in the
-problem's remarks (page last edited 2025-12-28). This followed a forum comment
-of 2025-11-23 that pointed the deduction out. That record is the reviewed
-evidence. The source card is
+deduction to the two questions is recorded by the erdosproblems.com curator, T.
+F. Bloom. Bloom labeled the problem solved and states the lower bound on
+$A_1(N)$ in the problem's remarks (page last edited 2025-12-28). This followed a
+forum comment of 2025-11-23 that pointed the deduction out. That record is the
+reviewed evidence. The source card is
 [[../library/additive_bases/saxton_2015_hypergraph_containers/_index|saxton_2015_hypergraph_containers]].
 
-**Formalization.** The site's label carried a Lean qualifier. A Lean 4 proof
-of the conclusion (Lean v4.24.0), produced automatically by Aristotle (from
-Harmonic) from a proof of ChatGPT's choice, with the theorem statement
+**Formalization.** The erdosproblems.com label carried a Lean qualifier. A Lean
+4 proof of the conclusion (Lean v4.24.0), produced automatically by Aristotle
+(from Harmonic) from a proof of ChatGPT's choice, with the theorem statement
 written by Aristotle, and posted on 2026-01-21, proves that
 $\log A_1(N)/N^{1/2}$ is eventually at least $c$ for every
 $c<\tfrac12\log(5/4)$, equivalently $A_1(N)\geq 2^{(0.16+o(1))N^{1/2}}$

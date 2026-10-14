@@ -3,8 +3,9 @@ name: problems/factorials_binomials/E0728/claims/2026_07_13_pickhardt
 title: Two deterministic AI-generated proofs
 desc: |
   Two manuscripts by the Paratelligent Research Agent and Jeff Pickhardt, posted
-  to the site's thread after the problem was settled, each claim a deterministic
-  proof of the affirmative answer with any constant times $\log n$.
+  to the erdosproblems.com thread after the problem was settled, each claim a
+  deterministic proof of the affirmative answer with any constant times
+  $\log n$.
 authors:
 - Paratelligent Research Agent
 - Jeff Pickhardt
@@ -39,10 +40,10 @@ $\varepsilon n\le a,b\le(1-\varepsilon)n$,
 $a!\,b!\mid n!\,(a+b-n)!$ and $C_1\log n<a+b-n<C_2\log n$, the same
 statement as on the accepted claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_06_barreto|Barreto 2026]].
-Two manuscripts posted on 2026-07-13 to the site's discussion thread by Jeff
-Pickhardt (forum user JPickhardt), the claimant here, whose title pages name
-Pickhardt and the Paratelligent Research Agent as authors, say they prove it by
-arguments different from the probabilistic carry-counting of the January
+Two manuscripts posted on 2026-07-13 to the erdosproblems.com discussion thread
+by Jeff Pickhardt (forum user JPickhardt), the claimant here, whose title pages
+name Pickhardt and the Paratelligent Research Agent as authors, say they prove
+it by arguments different from the probabilistic carry-counting of the January
 proofs. The first, *A deterministic resolution of Erdős Problem #728 via
 small-prime annihilation*, puts $N=a+b$ in a residue class $N\equiv-1$
 modulo a product $M$ of small prime powers, so that by Lucas's theorem the
@@ -63,8 +64,8 @@ or audited it, so no `formalized` evidence is listed. On 2026-10-07 the
 manuscript links above redirected to pages on the agent's maker's site,
 paratelligent.com.
 
-**Submission note.** Posted to the site's forum by Jeff Pickhardt (account
-JPickhardt) on 13 July 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Jeff Pickhardt
+(account JPickhardt) on 13 July 2026:
 
 > I realize this was already solved back in January, but I've been working on an
 > AI research agent recently and have been using this problem as one of my test
@@ -83,7 +84,7 @@ JPickhardt) on 13 July 2026:
 **Depends on.** No page of this wiki.
 
 **Standing.** The manuscripts are hosted on the agent's own site and are not
-on arXiv or in a journal; no reviewer has acknowledged them, the site's
-curator credits the January proof, and the thread records no response. The
-claim therefore stays `claimed`; it adds nothing to the problem's standing,
-which the accepted pages carry.
+on arXiv or in a journal; no reviewer has acknowledged them, the
+erdosproblems.com curator credits the January proof, and the thread records no
+response. The claim therefore stays `claimed`; it adds nothing to the problem's
+standing, which the accepted pages carry.

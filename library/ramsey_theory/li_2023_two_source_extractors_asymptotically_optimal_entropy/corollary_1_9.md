@@ -76,5 +76,5 @@ in the body, from Theorem 7.4 and Theorem 7.5 (the latter external, from its
   construction toward the problem that does not reach its bound. Inverting
   $K=\log^cN$ gives the constructive lower bound $R(k)>2^{k^{1/c}}$ for the
   graph's sizes, subexponential in $k$ since $c>1$; the target $R(k)>C^k$
-  needs $K=O(\log N)$. The site's commentary credits this bound to the paper
-  as $(\log n)^C$.
+  needs $K=O(\log N)$. The erdosproblems.com commentary credits this bound to
+  the paper as $(\log n)^C$.

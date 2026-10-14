@@ -56,5 +56,5 @@ Same-paper: Lemmas 2.3, 2.4, 3.1, 3.2, 3.3.
 
 - [[../wiki/problems/ramsey_theory/E0112/_index|Problem 112]]: with $k(n,m)=r(I_n,L_m)$,
   the bound $k(n,3)\le n^2-n+3$ for $n\ge2$, sharpening Larson and
-  Mitchell's $k(n,3)\le n^2$ that the site quotes, and the source of the
-  upper halves of $k(4,3)=15$ and $k(5,3)=23$.
+  Mitchell's $k(n,3)\le n^2$ that erdosproblems.com quotes, and the source of
+  the upper halves of $k(4,3)=15$ and $k(5,3)=23$.

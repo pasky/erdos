@@ -4,16 +4,16 @@ desc: The 1 claim page of Problem 1185, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E1185/claims
 
 [[problems/additive_combinatorics/E1185/_index|..]]
 
-[[problems/additive_combinatorics/E1185/claims/1981_01_01_furstenberg|1981_01_01_furstenberg]]: Furstenberg's 1981 book, credited by the site's curator, gives an infinite set
-whose difference set is not a set of $2$-recurrence. So for every $m$ a dense
-set has no three-term progression with difference in $B-B$ for some
-$m$-element $B$, and the answer is no for every $k$.
+[[problems/additive_combinatorics/E1185/claims/1981_01_01_furstenberg|1981_01_01_furstenberg]]: Furstenberg's 1981 book, credited by the erdosproblems.com curator, gives an
+infinite set whose difference set is not a set of $2$-recurrence. So for every
+$m$ a dense set has no three-term progression with difference in $B-B$ for
+some $m$-element $B$, and the answer is no for every $k$.
 
 ***

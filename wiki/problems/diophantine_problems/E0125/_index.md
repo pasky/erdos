@@ -38,21 +38,22 @@ by $3^s$ maps $A$ into $A$ and multiplying by $4^s$ maps $B$ into $B$. The
 lower-density disproof therefore answers their first question no for every $s$,
 while these results leave their second, positive upper density, unsettled; for
 $A+B$ the formal-conjectures file keeps it open. The Statement follows [Er97]
-(not held here), whose formulation the site's commentary calls equivalent to
-asking about positive lower density only, and the commentary adds that Erdős
-likely intended positive lower density, that is, a constant $c>0$ with
-$\lvert(A+B)\cap[1,x]\rvert\geq cx$ for all large $x$.
+(not held here), whose formulation the erdosproblems.com commentary calls
+equivalent to asking about positive lower density only, and the commentary adds
+that Erdős likely intended positive lower density, that is, a constant $c>0$
+with $\lvert(A+B)\cap[1,x]\rvert\geq cx$ for all large $x$.
 
-**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN). The
-disproof is published, with an informal proof, in Google DeepMind's refereed
-paper on its AlphaProof Nexus system, [TKS26] below. Its other written forms
-are Lean files, a summary by the claimant and reconstructions by others. The
-Lean files are the collection's pinned file, a community file and the paper's
-file. None of them was built or audited in this corpus. The claimant summarized
-the argument on the site's thread (post 5110), which the paper calls its
-original communication of the result. The site's curator reconstructed it in
-post 5114 and credits the result to DeepMind. Nat Sothanaphan reconstructed it
-in post 5115, crediting GPT-5.4 Thinking. Terence Tao's reconstruction (post
+**Status.** DISPROVED (LEAN). Bloom's catalog labeled the problem DISPROVED
+(LEAN). The disproof is published, with an informal proof, in Google DeepMind's
+refereed paper on its AlphaProof Nexus system, [TKS26] below. Its other written
+forms are Lean files, a summary by the claimant and reconstructions by others.
+The Lean files are the collection's pinned file, a community file and the
+paper's file. None of them was built or audited in this corpus. The claimant
+summarized the argument on the erdosproblems.com thread (post 5110), which the
+paper calls its original communication of the result. The erdosproblems.com
+curator reconstructed it in post 5114 and credits the result to DeepMind. Nat
+Sothanaphan reconstructed it in post 5115, crediting GPT-5.4 Thinking. Terence
+Tao's reconstruction (post
 4469) covers only the earlier positive-density result. See "Current assessment"
 and the claim pages.
 
@@ -79,7 +80,7 @@ https://www.erdosproblems.com/125.
   lower-density disproof:
   [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/erdos_125|Erdős #125]].
 
-**Formalization.** The site labeled the problem DISPROVED (LEAN); see
+**Formalization.** Bloom's catalog labeled the problem DISPROVED (LEAN); see
 "Formalization and the Lean label" below for the Lean account. The file
 [`ErdosProblems/125.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/125.lean)
 of formal-conjectures (at its commit of 2026-09-18; 4,102 bytes) declares
@@ -95,8 +96,8 @@ below the upper density), is `research solved` with a `formal_proof` attribute
 naming a later commit of the same fork, and the file's comment says it follows
 from the lower-density disproof; the variants `positive_upper_density`,
 `zero_density` and `zero_lower_positive_upper_density` are `research open`. The
-lower-density variant states the site's question. Nothing has been built or
-kernel-checked in this corpus.
+lower-density variant states the erdosproblems.com question. Nothing has been
+built or kernel-checked in this corpus.
 
 ## Current assessment
 
@@ -106,13 +107,13 @@ source. The question asks for the lower density of $A+B$; the collection's file
 (below) distinguishes it from the positive-density form, which the file's
 comment calls the literal reading of positive density and records as falsified,
 and from the upper density, which the file leaves open. When the February result
-was posted, the site asked whether $A+B$ has positive density, the form its Lean
-statement follows (post 4467); the site then reworded the question to the lower
-density, as [Er97] reads it.
+was posted, erdosproblems.com asked whether $A+B$ has positive density, the form
+its Lean statement follows (post 4467); erdosproblems.com then reworded the
+question to the lower density, as [Er97] reads it.
 
 **Claims.** DeepMind's two results have claim pages. The first,
 [[problems/diophantine_problems/E0125/claims/2026_02_25_deepmind|a Lean proof that $A+B$ has no positive density]]
-(posted 2026-02-25), answers the site's earlier wording: writing
+(posted 2026-02-25), answers erdosproblems.com's earlier wording: writing
 $\underline{d}$ and $\overline{d}$ for lower and upper density, it gives
 $\overline{d}(A+B)\geq\tfrac{6}{5}\,\underline{d}(A+B)$, which rules out a
 positive density but settles no instance of the Statement. The result is correct
@@ -185,10 +186,10 @@ $4^m$ and a sparse sequence of scales at which the count is small). Nothing has
 been built, kernel-checked or audited in this corpus, and no statement-fidelity
 review exists. Acceptance evidence: the curator's commentary and thread
 reconstruction, and the refereed publication of [TKS26], recorded on the claim
-page; the site's label and the repositories' own records are not acceptance
-evidence. [TKS26] gives the informal proof (Appendix B.4 of arXiv v2; the
-Science text and its supplement were not read). Provenance: the community file
-credits "a DeepMind prover agent", and [TKS26] identifies that agent as
+page; the erdosproblems.com label and the repositories' own records are not
+acceptance evidence. [TKS26] gives the informal proof (Appendix B.4 of arXiv v2;
+the Science text and its supplement were not read). Provenance: the community
+file credits "a DeepMind prover agent", and [TKS26] identifies that agent as
 AlphaProof Nexus, its own system, whose first communication of the result was
 post 5110.
 
@@ -197,21 +198,21 @@ page's literature on sums of distinct powers of $3$ and $4$; this assessment
 does not draw on either, and the incoming library rows below list the library's
 entries for them.
 
-**Formalization and the Lean label.** The site labeled the problem DISPROVED
-(LEAN). In the collection's file at its commit of 2026-09-18 both `erdos_125`
-and the lower-density variant are `sorry` statements whose `formal_proof`
-attributes point at pinned copies, the collection's commit of 2026-02-25 for
-`erdos_125` and a fork's commit of 2026-03-30 for the variant; that pinned copy
-of 2026-03-30 proves the variant and keeps `erdos_125` as `sorry`, and the
-community file proves both forms. None of the three proof files has been built
-or kernel-checked in this corpus, and the `#print axioms` outputs are the files'
-own comments.
+**Formalization and the Lean label.** Bloom's catalog labeled the problem
+DISPROVED (LEAN). In the collection's file at its commit of 2026-09-18 both
+`erdos_125` and the lower-density variant are `sorry` statements whose
+`formal_proof` attributes point at pinned copies, the collection's commit of
+2026-02-25 for `erdos_125` and a fork's commit of 2026-03-30 for the variant;
+that pinned copy of 2026-03-30 proves the variant and keeps `erdos_125` as
+`sorry`, and the community file proves both forms. None of the three proof files
+has been built or kernel-checked in this corpus, and the `#print axioms` outputs
+are the files' own comments.
 
 **Search scope.** The three Lean proof files at the revisions
 linked on the claim pages and the collection's statement file at its commit
-of 2026-09-18, for the Lean account; the site's problem page, commentary
-and discussion thread, with the repositories' commit records for the dates;
-for [TKS26], its arXiv record and v2 text and the Crossref record of its
+of 2026-09-18, for the Lean account; the erdosproblems.com problem page,
+commentary and discussion thread, with the repositories' commit records for the
+dates; for [TKS26], its arXiv record and v2 text and the Crossref record of its
 Science DOI. arXiv and Crossref were not otherwise searched, and MathSciNet,
 zbMATH, Google Scholar and X were not searched.
 
@@ -223,10 +224,10 @@ been built in this corpus, so the accepted claim page lists `reviewed` and
 `refereed` and no `formalized` evidence. (2) The Statement (lower density) is
 answered by the variant; whether $A+B$ has positive upper density is open in the
 collection's file. (3) The acceptance evidence is the curator's record and
-reconstruction on the site and the refereed publication of [TKS26]; this corpus
-has not reviewed the argument. (4) The dates of the paper's Lean file (a May
-2026 commit) and the pinned collection commit (30 March 2026) are the files'
-own; no earlier artifact is known.
+reconstruction on erdosproblems.com and the refereed publication of [TKS26];
+this corpus has not reviewed the argument. (4) The dates of the paper's Lean
+file (a May 2026 commit) and the pinned collection commit (30 March 2026) are
+the files' own; no earlier artifact is known.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

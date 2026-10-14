@@ -24,14 +24,14 @@ updated: 2026-10-07T23:02:41Z
 **Claim.** Let $f(z)=\sum_{k\ge1}a_kz^{n_k}$ be an entire function with
 $a_k\ne0$ for every $k$. Miécislas Biernacki proves that if
 $\sum_k1/n_k<\infty$, then $f$ takes every complex value infinitely often.
-The site cites the result as [Bi28], *Sur les équations algébriques
+erdosproblems.com cites the result as [Bi28], *Sur les équations algébriques
 contenant des paramètres arbitraires* (1928), 145 pages, which Erdős [Er61]
 cites as Biernacki's Paris thesis of 1928; the thesis text appeared in Bull.
 Int. Acad. Polon. Sci. Lett. Sér. A (1927), 542--685, and a note, *Sur les
 fonctions entières à séries lacunaires*, in C. R. Acad. Sci. Paris 187
 (1928), 477--479, both cited in Murai's bibliography. This page is dated by
-the earliest of these records. The statement follows the site's account and
-the account in Murai's paper
+the earliest of these records. The statement follows erdosproblems.com's account
+and the account in Murai's paper
 ([[../library/analysis/murai_1983_deficiency_entire_functions_fejer_gaps/_index|library card]]),
 which calls it the Fejér--Biernacki theorem; neither publication is held in
 this repository, and the proof is not reconstructed here. Fejér [Fe08] had
@@ -57,6 +57,6 @@ answer, and those of infinite order remain open.
 [[problems/analysis/E0517/claims/1983_01_01_murai|Murai 1983]] proves a
 stronger statement in a refereed journal, but no evidence that the
 Bulletin of the Polish Academy or the Comptes Rendus refereed Biernacki's
-publications is recorded, so `refereed` is not listed. The site credits the
-theorem in its commentary on a problem it labeled OPEN, which is not
+publications is recorded, so `refereed` is not listed. erdosproblems.com credits
+the theorem in its commentary on a problem it labeled OPEN, which is not
 acceptance of a solution, so `reviewed` is not listed either.

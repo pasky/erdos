@@ -71,10 +71,10 @@ $$
 and more (normality, and the same for every base $B\ge2$, each base giving
 a different number). The conjecture is unproved, so even full acceptance
 of this claim would leave the problem's status open; the problem page
-records it as a claimed conditional result. The site's proof-claims page
-lists the work as a partial proof "using GPT 6 Astra, Fable 5.1"
-(submitted 2026-09-13). Land's manuscript claims the same implication by a
-different argument
+records it as a claimed conditional result. The erdosproblems.com proof-claims
+page lists the work as a partial proof "using GPT 6 Astra, Fable 5.1" (submitted
+2026-09-13). Land's manuscript claims the same implication by a different
+argument
 ([[irrationality/land_2026_conditional_proof_irrationality_prime_series/theorem_2|Theorem 2]]);
 the two use different specializations of the conjecture, and Ringer
 writes that "No implication between the two specialized local hypotheses

@@ -29,21 +29,22 @@ B\rvert \geq m$ then there is a non-trivial $k$-term arithmetic progression in
 $A$ whose common difference is in $B-B$?
 
 **Formulation.** As Erdős's survey ([Er80], p. 92, which asks it for every
-$c>0$) and the site's commentary read it, the question is one assertion for
-all $\delta>0$ and $k\ge3$, and this page's standing targets that reading.
-For a single pair $(\delta,k)$ the answer depends on $\delta$. For
+$c>0$) and the erdosproblems.com commentary read it, the question is one
+assertion for all $\delta>0$ and $k\ge3$, and this page's standing targets that
+reading. For a single pair $(\delta,k)$ the answer depends on $\delta$. For
 $\delta>1-1/k$ it is yes. Two elements of an $m$-element $B$ lie within
 $N/(m-1)$ of each other. At most $(1-\delta)N$ elements are missing from $A$,
 and each lies in at most $k$ of the $k$-term progressions with that
 difference. So once $m-1>(k-1)/(1-k(1-\delta))$, the missing elements cannot
 spoil every such progression. For small $\delta$ the answer is no, by
-Furstenberg's example. Neither [Er80] nor the site's commentary addresses the
-threshold.
+Furstenberg's example. Neither [Er80] nor the erdosproblems.com commentary
+addresses the threshold.
 
-**Status.** Solved. The label is the site's (SOLVED, page last edited 5 April
-2026), and its commentary states that the statement fails already at $k=3$. The
-answer is no. The standing is derived from the claim page. The accepted claim is
-Furstenberg's example and the site's deduction from it, on
+**Status.** Solved. The label is erdosproblems.com's (SOLVED, page last edited 5
+April 2026), and its commentary states that the statement fails already at
+$k=3$. The answer is no. The standing is derived from the claim page. The
+accepted claim is Furstenberg's example and erdosproblems.com's deduction from
+it, on
 [[problems/additive_combinatorics/E1185/claims/1981_01_01_furstenberg|its claim page]],
 accepted on the curator's credit.
 

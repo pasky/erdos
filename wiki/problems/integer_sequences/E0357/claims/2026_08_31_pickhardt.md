@@ -66,7 +66,7 @@ inherited from the unrestricted form, and that whether $f(n)=o(n)$ remains
 open.
 
 **Covers.** Both bounds. The lower bound improves the constant $2$ of the
-construction the site records (from
+construction erdosproblems.com records (from
 [[problems/additive_combinatorics/E0874/_index|Problem 874]]) to
 $4/\sqrt3\approx2.309$. The upper bound has leading constant $1/2$ and
 second-order constant $(3/2)2^{-2/3}$, below the $9\cdot2^{-7/3}\approx1.786$ of
@@ -79,6 +79,6 @@ question.
 **Standing.** Claimed: the manuscript is published on the Paratelligent site,
 not on a preprint server, has no refereed version and no Lean development, and
 was linked as a thread comment rather than filed on the proof-claims tab; the
-site's label was OPEN (page last edited 12 January 2026), with
+erdosproblems.com label was OPEN (page last edited 12 January 2026), with
 no reply to the comment on the thread, and no independent review was found on
 2026-10-07. This corpus has not reviewed the proofs.

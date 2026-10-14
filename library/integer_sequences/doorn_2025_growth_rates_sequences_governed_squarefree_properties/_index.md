@@ -90,7 +90,7 @@ Konyagin's upper bound on the largest subset of [N] with squarefree sums to get
 a_j >> j^{15/11} exp(-O(log j/sqrt(log log j))), and mentions a construction
 with a_j << exp(O(j/log j)) whose details are in the first arXiv version.
 Remark 7 rules out Erdos's related question of a sequence with every residue
-a_i mod p^2 below p^2/2, by an argument it credits to the problem site: for
+a_i mod p^2 below p^2/2, by an argument it credits to erdosproblems.com: for
 large a_i a prime p between sqrt(a_i) and sqrt(2 a_i) makes the residue of a_i
 mod p^2 exceed p^2/2.
 

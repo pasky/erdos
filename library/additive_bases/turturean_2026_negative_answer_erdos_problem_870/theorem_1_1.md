@@ -65,9 +65,10 @@ clause on the print; the cited Larsen–Larsen results were not read.
 
 - [[../wiki/problems/additive_bases/E0870/_index|Problem 870]]: the paper
   states (p. 2, p. 11) that the theorem is the negation of the problem's
-  threshold assertion as the problem site words it: the bases are of order
+  threshold assertion as erdosproblems.com words it: the bases are of order
   $k$ in the at-most-$k$ sense, and $R_{E,k}$ counts nondecreasing
   representations by at most $k$ elements, so the theorem asserts that no
-  constant $c(k)$ with the site's property exists for any $k\ge3$. The paper does not treat the
-  version of the problem page's source, with representations by exactly
-  $h$ elements and a count of disjoint representations.
+  constant $c(k)$ with erdosproblems.com's property exists for any $k\ge3$. The
+  paper does not treat the version of the problem page's source, with
+  representations by exactly $h$ elements and a count of disjoint
+  representations.

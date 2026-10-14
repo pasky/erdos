@@ -3,9 +3,9 @@ name: problems/extremal_graph_theory/E0777/claims/2014_11_15_alon_das_glebov_sud
 title: Alon, Das, Glebov and Sudakov's stability theorem
 desc: |
   Alon, Das, Glebov and Sudakov prove a stability theorem for comparable pairs,
-  from which the site derives a yes answer to the first question. The paper
-  appeared, refereed, in JCTB 115 (2015), and the site credits it with that
-  answer.
+  from which erdosproblems.com derives a yes answer to the first question. The
+  paper appeared, refereed, in JCTB 115 (2015), and erdosproblems.com credits it
+  with that answer.
 authors:
 - Noga Alon
 - Shagnik Das
@@ -60,9 +60,9 @@ $c(n,m)=o(m^2)$ whenever $m=n^{\omega(1)}2^{n/2}$.
 
 **Covers.** The first question of
 [[problems/extremal_graph_theory/E0777/_index|Problem 777]], with the answer
-yes. The site's commentary records that answer as a consequence of Theorem
-1.4 and Corollary 1.5 with $k=2$: for fixed $\epsilon>0$ and large $n$, a
-family of at most $(2-\epsilon)2^{n/2}$ sets has fewer than $2^n$ comparable
+yes. The erdosproblems.com commentary records that answer as a consequence of
+Theorem 1.4 and Corollary 1.5 with $k=2$: for fixed $\epsilon>0$ and large $n$,
+a family of at most $(2-\epsilon)2^{n/2}$ sets has fewer than $2^n$ comparable
 pairs, the tower of two cubes with $2^{n/2+1}-1$ sets being the obstruction
 to removing $\epsilon$. The paper does not state the first question in this
 form and the deduction is not printed in it. The same answer also follows
@@ -70,14 +70,15 @@ from the $k=2$ case of Alon and Frankl's Theorem 1.4, restated as this
 paper's Theorem 1.1, by a short deduction of the corpus's own recorded on
 the page for
 [[problems/extremal_graph_theory/E0777/claims/1985_12_01_alon_frankl|Alon and Frankl]];
-the site credits the first question to this paper, and this page settles it.
-The second and third questions (no and yes) are Alon and Frankl's and are
-settled on their page; with the two pages all three questions are answered.
+erdosproblems.com credits the first question to this paper, and this page
+settles it. The second and third questions (no and yes) are Alon and Frankl's
+and are settled on their page; with the two pages all three questions are
+answered.
 
 **Depends on.** Nothing in this wiki: the stability theorem's proof is the
 paper's own. The paper restates Alon and Frankl's Theorem 1.4 as its Theorem
 1.1 and their construction in its Section 2 as context, not as inputs to the
-first question's answer as the site derives it.
+first question's answer as erdosproblems.com derives it.
 
 **Read depth.** The edition read is the arXiv version, described on the
 [[../library/extremal_graph_theory/alon_2015_comparable_pairs_families_sets/_index|source card]];
@@ -97,7 +98,7 @@ corpus has not built or audited the file, so `formalized` is not listed.
 
 **Acceptance.** Refereed: Journal of Combinatorial Theory, Series B, volume 115
 (2015), 164--185 (issued November 2015 in the Crossref record). Reviewed: the
-site's curator, T. F. Bloom, records the problem as solved and credits this
-paper with the answer to the first question in the problem's commentary
-(erdosproblems.com/777, accessed 2026-10-07). The site's label was SOLVED, and
-the site has no comment and no proof claim.
+erdosproblems.com curator, T. F. Bloom, records the problem as solved and
+credits this paper with the answer to the first question in the problem's
+commentary (erdosproblems.com/777, accessed 2026-10-07). The erdosproblems.com
+label was SOLVED, and erdosproblems.com has no comment and no proof claim.

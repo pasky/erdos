@@ -19,8 +19,8 @@ for the acceptance record and the AI-assistance disclosure.
 ## Statement
 
 With $b(a)$ the least $b>a$ such that $v_{a,b}<v_{a,b-1}$ (the paper's
-convention, one more than the site's) and $c=\sum_{d\ge1}\delta(f_d)/(d(d+1))$
-as on the card:
+convention, one more than erdosproblems.com's) and
+$c=\sum_{d\ge1}\delta(f_d)/(d(d+1))$ as on the card:
 
 **Theorem 1.** $\displaystyle\liminf_{a\to\infty}\frac{b(a)-a}{\log a}=\frac1{1+c}.$
 
@@ -59,5 +59,5 @@ the result as a preprint claim.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0290/_index|#290]]: the
 exact value of $\liminf_{a\to\infty}(b(a)-a)/\log a$, part of the growth
-question; the one-step shift between the paper's $b(a)$ and the site's does
-not change this limit inferior.
+question; the one-step shift between the paper's $b(a)$ and erdosproblems.com's
+does not change this limit inferior.

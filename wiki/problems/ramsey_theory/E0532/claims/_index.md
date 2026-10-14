@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 532, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0532/claims
@@ -14,7 +14,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/ramsey_theory/E0532/claims/1974_07_01_hindman|1974_07_01_hindman]]: Theorem 3.1 of Hindman's 1974 paper in J. Combin. Theory Ser. A shows that for
 every finite partition of the positive integers, some cell holds all finite
 sums of distinct terms of some infinite sequence. It is refereed and credited
-by the site.
+by erdosproblems.com.
 
 [[problems/ramsey_theory/E0532/claims/1974_11_01_baumgartner|1974_11_01_baumgartner]]: Theorem 1 of Baumgartner's 1974 note in J. Combin. Theory Ser. A shows that
 when the nonnegative integers are partitioned into $k$ sets, some set contains

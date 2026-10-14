@@ -57,8 +57,8 @@ and
 The paper reads "two larger terms" as distinct terms: its conjecture (1),
 $\max A(x)=[x/3]+1$, is attained by the $[x/3]+1$ largest integers up to $x$,
 a set that fails the condition when the two larger terms may coincide (for
-$x=3n$, $2n\mid3n+3n$); Bedert's 2023 theorem and the site's Problem 13 use
-the coinciding reading, under which the maximum is $\lceil x/3\rceil$ for
+$x=3n$, $2n\mid3n+3n$); Bedert's 2023 theorem and erdosproblems.com's Problem 13
+use the coinciding reading, under which the maximum is $\lceil x/3\rceil$ for
 large $x$. No copyright or license line is printed on the scan's pages; the
 publisher's article page was not consulted, and the Crossref record for DOI
 10.1112/plms/s3-21.1.97 (read 2026-10-02) names only Wiley's

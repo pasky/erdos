@@ -44,8 +44,8 @@ were read clause by clause. A conjecture; nothing to prove.
 
 This is the statement of Problem 172 (the problem's "arbitrarily large finite
 $A$" is the quantifier "for any $n\ge2$" here, and the singletons $S=\{i\}$
-put the $x_i$ themselves in the common color). Open as of v6 (July 2026) and
-of the search recorded on the problem page. Weaker forms proved:
+put the $x_i$ themselves in the common color). Open in v6 (July 2026) and
+in the search recorded on the problem page. Weaker forms proved:
 [[ramsey_theory/bowen_2022_monochromatic_products_sums_2_colorings_naturals/theorem_1_1|the case n = 2 for two colors]]
 (Bowen),
 [[ramsey_theory/moreira_2017_monochromatic_sums_products/corollary_1_5|the pattern {x, xy, x+y} for all finite colorings]]

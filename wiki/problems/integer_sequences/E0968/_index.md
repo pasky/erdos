@@ -25,9 +25,9 @@ $n$ such that $u_n<u_{n+1}$ have positive density?
 **Statement (modified).** Let $u_n=p_n/n$, where $p_n$ is the $n$th prime.
 Does the set of $n$ such that $u_n<u_{n+1}$ have positive lower density?
 
-**Notes.** The site's wording does not say which density it means: "positive
-density" can ask that the set have an asymptotic density and that it be
-positive, or only that its lower density be positive, and the two readings
+**Notes.** The erdosproblems.com wording does not say which density it means:
+"positive density" can ask that the set have an asymptotic density and that it
+be positive, or only that its lower density be positive, and the two readings
 differ for a set whose density need not exist. The change replaces "positive
 density" by "positive lower density"; nothing else changes. The evidence is
 the posers' own text. Erdős and Prachar ([ErPr61], p. 256; library card:
@@ -38,26 +38,26 @@ positive, and close the paragraph with the remark that it seems hard to
 prove that the $k$ with $p_k/k<p_{k+1}/(k+1)$ have "positive untere
 Dichte". Erdős's 1965 survey ([Er65b], p. 204; library card:
 [[../library/number_theory/erdos_1965_recent_advances_current_problems_number_theory/_index|erdos_1965_recent_advances_current_problems_number_theory]]),
-the source of the site's wording, puts $u_k=p_k/k$ and says: "We easily
-show that the density of the integers $k$ for which $u_k>u_{k+1}$ is
+the source of the erdosproblems.com wording, puts $u_k=p_k/k$ and says: "We
+easily show that the density of the integers $k$ for which $u_k>u_{k+1}$ is
 positive. We cannot show that the same holds for the $k$ for which
 $u_k<u_{k+1}$." It says "density" without qualification and is consistent
 with the 1961 question, so the ambiguity is already in the poser's 1965
-text. The site's commentary reads the question as asking for positive lower
-density, and the formal-conjectures statement asks for positive lower
+text. The erdosproblems.com commentary reads the question as asking for positive
+lower density, and the formal-conjectures statement asks for positive lower
 density; neither is the evidence for the change. No result about another
-reading of the site's wording is recorded.
+reading of the erdosproblems.com wording is recorded.
 
 **Formulation.** Positive lower density means that some $c>0$ has at least
 $cx$ of the $n\le x$ with $u_n<u_{n+1}$ for all large $x$. A stronger
-reading of the site's wording also asks that the set have an asymptotic
-density; whether it does is a separate question that no source here
+reading of the erdosproblems.com wording also asks that the set have an
+asymptotic density; whether it does is a separate question that no source here
 addresses, and it is open. On the same page Erdős and Prachar give the
 short argument for the companion case, the $k$ with
 $p_k/k>p_{k+1}/(k+1)$, which [Er65b] calls easy.
 
-**Status.** OPEN, the site's label (page last edited 31 March 2026; proof-claims
-tab empty). The site's commentary reads the question as
+**Status.** OPEN, the erdosproblems.com label (page last edited 31 March 2026;
+proof-claims tab empty). The erdosproblems.com commentary reads the question as
 asking for positive lower density. Here the problem stands solved and proved,
 with "density" read as the lower density Erdős and Prachar asked for, because of
 the accepted result below.
@@ -76,7 +76,7 @@ The curator's blog post
 that its proof has been formalized.
 
 Whether the set has an asymptotic density, the stronger reading under
-Formulation, remains open. The discussion thread (as of 2026-10-07) holds one
+Formulation, remains open. The discussion thread (accessed 2026-10-07) holds one
 conditional result. The comment of 10 September 2025 (Tao) gives a positive
 answer assuming the Riemann hypothesis and a weak form of the pair correlation
 conjecture. As a conditional thread post, it has no claim page.

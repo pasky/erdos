@@ -96,12 +96,12 @@ approximation; otherwise self-contained.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0492/_index|Problem 492]]: the disproof the site
-  cites. With $a_i=x_i$ for $i\ge1$ (so that $[a_i,a_{i+1})=[x_i,x_{i+1})$),
-  the problem's $f(x)=(x-a_i)/(a_{i+1}-a_i)$ on $[a_i,a_{i+1})$ is the
-  fractional position within the interval, so on $x\ge a_1$ the set
-  $M(1/2)$ is where the problem's $f<1/2$ and Schmidt's test function is
-  $f_{\mathrm{Sch}}=2\cdot\mathbf 1[f<1/2]-1$; if
+- [[../wiki/problems/number_theory/E0492/_index|Problem 492]]: the disproof
+  erdosproblems.com cites. With $a_i=x_i$ for $i\ge1$ (so that
+  $[a_i,a_{i+1})=[x_i,x_{i+1})$), the problem's $f(x)=(x-a_i)/(a_{i+1}-a_i)$ on
+  $[a_i,a_{i+1})$ is the fractional position within the interval, so on
+  $x\ge a_1$ the set $M(1/2)$ is where the problem's $f<1/2$ and Schmidt's test
+  function is $f_{\mathrm{Sch}}=2\cdot\mathbf 1[f<1/2]-1$; if
   $(f(\alpha n))_{n\ge1}$ were uniformly distributed in $[0,1)$ the
   proportion of $n\le N$ with $f(\alpha n)<1/2$ would tend to $1/2$ and
   $N^{-1}\sum_{n\le N}f_{\mathrm{Sch}}(\alpha n)\to0$, against (6) (an
@@ -109,6 +109,6 @@ approximation; otherwise self-contained.
   $[x_0,x_1)=[0,a_1)$, which holds only the finitely many $\alpha n<a_1$
   for fixed $\alpha>0$). The theorem answers no for real sequences, the
   form in which LeVeque, Davenport and Erdős posed the question and the
-  problem page's modified Statement; it says nothing about the site's
+  problem page's modified Statement; it says nothing about erdosproblems.com's
   restriction to $A\subseteq\mathbb N$, since the constructed gaps tend to
   zero.

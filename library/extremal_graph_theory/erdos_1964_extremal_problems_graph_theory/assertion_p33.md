@@ -18,9 +18,9 @@ display (8): "I can also prove that every $\mathfrak G(n;[c_k'''n^{1+1/k}])$
 contains a $C_{2k}$; the proof is more difficult than the proof of (6)."
 Here $\mathfrak G(n;m)$ denotes a graph with $n$ vertices and $m$ edges,
 $[x]$ the integer part, and $C_{2k}$ the cycle of length $2k$; the $c$'s are
-constants depending on $k$. In the catalog's notation the sentence asserts
-$\mathrm{ex}(n;C_{2k})<c_k'''n^{1+1/k}$ for every $k\ge2$ ($k\ge3$ is the
-range of the surrounding discussion, "for $k\ge3$" opening the paragraph
+constants depending on $k$. In the erdosproblems.com notation the sentence
+asserts $\mathrm{ex}(n;C_{2k})<c_k'''n^{1+1/k}$ for every $k\ge2$ ($k\ge3$ is
+the range of the surrounding discussion, "for $k\ge3$" opening the paragraph
 containing (6)--(8)).
 
 The surrounding displays on the same page, read for context: (6)

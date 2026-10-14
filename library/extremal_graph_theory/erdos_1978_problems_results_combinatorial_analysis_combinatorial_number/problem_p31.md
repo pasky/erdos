@@ -45,5 +45,5 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0182/_index|Problem 182]]: this is the
-  problem's origin statement that the site cites as [Er78]; the later
+  problem's origin statement that erdosproblems.com cites as [Er78]; the later
   results are compiled on the problem page.

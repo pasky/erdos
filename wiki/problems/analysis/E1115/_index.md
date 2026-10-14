@@ -43,11 +43,11 @@ including any later returns, not merely the arc up to its first intersection
 with the circle. The definite question asks whether every entire function of
 finite order has such a path.
 
-**Status.** SOLVED, the site's label. The derived standing is solved, disproved.
-It records a disproof where the label said only SOLVED, because the problem's
-definite question asks whether every entire function of finite order has a path
-with $\ell(r)\ll r$, and the accepted full claims refute that. The site's
-commentary records a disproof by Gol'dberg and Eremenko
+**Status.** SOLVED, the erdosproblems.com label. The derived standing is solved,
+disproved. It records a disproof where the label said only SOLVED, because the
+problem's definite question asks whether every entire function of finite order
+has a path with $\ell(r)\ll r$, and the accepted full claims refute that. The
+erdosproblems.com commentary records a disproof by Gol'dberg and Eremenko
 ([[problems/analysis/E1115/claims/1979_01_01_goldberg_eremenko|their claim page]]).
 Their Theorems 1 and 2 give entire functions such that no path on which
 $f\to\infty$ has length $O(r)$ inside the disc of radius $r$. These include
@@ -64,9 +64,9 @@ asserted here.
 
 **Source.** [erdosproblems.com/1115](https://www.erdosproblems.com/1115),
 accessed 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #1115,
-https://www.erdosproblems.com/1115, accessed 2026-09-05. As of that date the
-site's discussion listed no comments, expositions or proof claims, and the page
-reported its last edit as 29 December 2025.
+https://www.erdosproblems.com/1115, accessed 2026-09-05. On that date the
+erdosproblems.com discussion listed no comments, expositions or proof claims,
+and the page reported its last edit as 29 December 2025.
 
 **References.**
 
@@ -83,7 +83,7 @@ reported its last edit as 29 December 2025.
 - [Ha74] Hayman, W. K., Research problems in function theory: new problems.
   (1974), 155-180.
 
-**Formalization.** The site shows no formalized statement and
+**Formalization.** erdosproblems.com shows no formalized statement and
 formal-conjectures has no file for the problem. Boris Alexeev's repository
 holds `Erdos1115.lean` (added 17 August 2026), a Lean development that
 declares itself a formalization of Gol'dberg and Eremenko's solution, with

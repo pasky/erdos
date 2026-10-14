@@ -53,8 +53,8 @@ counterexamples of Ore and Gallai are reported without proof.
 
 ## Proof pointer
 
-None in the paper. The catalog's Problem 1006 records the negative answer for
-every girth (Nešetřil and Rödl 1978, the held card
+None in the paper. erdosproblems.com's Problem 1006 records the negative answer
+for every girth (Nešetřil and Rödl 1978, the held card
 [[extremal_graph_theory/nesetril_1978_probabilistic_graph_theoretical_method/_index|nesetril_1978_probabilistic_graph_theoretical_method]]).
 
 ## Dependencies
@@ -63,7 +63,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1006/_index|Problem 1006]]: the site's key Er71.
-  The site's statement is the question for graphs of girth greater than four,
-  which the fourth paragraph raises; its commentary repeats Ore's
-  girth-four example and Gallai's Grötzsch graph.
+- [[../wiki/problems/extremal_graph_theory/E1006/_index|Problem 1006]]: the
+  erdosproblems.com key Er71. The erdosproblems.com statement is the question
+  for graphs of girth greater than four, which the fourth paragraph raises; its
+  commentary repeats Ore's girth-four example and Gallai's Grötzsch graph.

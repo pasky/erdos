@@ -89,7 +89,7 @@ triples, so the value Turán's conjecture describes is $n^3+3n\binom n2+1$,
 and the printed first formula is $n^3$ short of it. The second formula
 agrees with Turán's two-class construction ($2n\binom n2$ triples) and with
 Erdős's 1969 restatement $f(2n,3,5)=n^2(n-1)+1$. The display is recorded as
-printed and is not corrected here. The catalog's $\mathrm{ex}_3(n,K_4^3)$
+printed and is not corrected here. erdosproblems.com's $\mathrm{ex}_3(n,K_4^3)$
 is $g(n;3,4)-1$ in this notation, and its normalized limit for $K_k^r$ is
 $\lim g(n;r,k)/\binom nr$. The references (pp. 107--109) are [2] Brown,
 *On graphs that do not contain a Thomsen graph*, Canad. Math. Bull. 9
@@ -117,9 +117,9 @@ knowledge in 1971 and Turán's conjectures.
 ## Proof pointer
 
 None in the paper. The Kővári--Sós--Turán bound (1) and the $K_2(2,2)$
-asymptotic (3) are theorems of the cited 1954 and 1966 papers; the catalog's
-Problems 714, 765, 572, 573, 500 and 712 record the later literature on each
-display.
+asymptotic (3) are theorems of the cited 1954 and 1966 papers;
+erdosproblems.com's Problems 714, 765, 572, 573, 500 and 712 record the later
+literature on each display.
 
 ## Dependencies
 
@@ -128,12 +128,13 @@ None.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0714/_index|Problem 714]]: displays (1) and
-  (2), p. 103. The site's question $\mathrm{ex}(n;K_{r,r})\gg n^{2-1/r}$ is
-  (2) in Erdős's notation, "known for $r=2$ and $r=3$" in 1971.
+  (2), p. 103. The erdosproblems.com question
+  $\mathrm{ex}(n;K_{r,r})\gg n^{2-1/r}$ is (2) in Erdős's notation, "known for
+  $r=2$ and $r=3$" in 1971.
 - [[../wiki/problems/extremal_graph_theory/E0765/_index|Problem 765]]: display (3), p. 103,
   the asymptotic formula $f(n;K_2(2,2))=(1+o(1))n^{3/2}/2$ for the least
-  edge count forcing a rectangle, which is the site's asymptotic formula
-  for $\mathrm{ex}(n;C_4)$ as Erdős states it in 1971 (a $K_2(2,2)$ is a
+  edge count forcing a rectangle, which is erdosproblems.com's asymptotic
+  formula for $\mathrm{ex}(n;C_4)$ as Erdős states it in 1971 (a $K_2(2,2)$ is a
   $C_4$).
 - [[../wiki/problems/extremal_graph_theory/E0572/_index|Problem 572]]: display (4), p. 103,
   the conjectured order $n^{1+1/r}$ of $f(n;C_{2r})$ with the lower bound
@@ -144,10 +145,10 @@ None.
 - [[../wiki/problems/extremal_graph_theory/E0500/_index|Problem 500]]: the closing
   paragraph, p. 104: the definition of $g(n;k,l)$, the existence of the
   limit, and display (8) as printed, whose first formula for $g(3n;3,4)$ is
-  $n^3$ short of Turán's construction (the note above); the site's
+  $n^3$ short of Turán's construction (the note above); erdosproblems.com's
   $\mathrm{ex}_3(n,K_4^3)$ is $g(n;3,4)-1$.
 - [[../wiki/problems/extremal_graph_theory/E0712/_index|Problem 712]]: the same paragraph:
   "Turán determined $g(n;2,l)$ for every $l$, but for $k>2$ the problem is
   unsolved" and the limit $\lim g(n;k,l)/\binom nk$, which "exists for every
-  $k$ and $l$, but for $k>2$ the value of the limit is not known", the
-  site's normalized question for every $k>r>2$.
+  $k$ and $l$, but for $k>2$ the value of the limit is not known",
+  erdosproblems.com's normalized question for every $k>r>2$.

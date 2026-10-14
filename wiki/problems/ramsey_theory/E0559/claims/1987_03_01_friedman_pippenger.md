@@ -53,10 +53,10 @@ and [[problems/ramsey_theory/E0559/claims/2022_10_11_tikhomirov|Tikhomirov 2022]
 day in the page name is a placeholder.
 
 **Acceptance.** Refereed: Expanding graphs contain all small trees,
-Combinatorica 7 (1987), no. 1, 71--76. The site's curator, T. F. Bloom, credits
-the tree case to this paper in the problem's commentary. But the DISPROVED label
-settles the problem in the negative and credits no positive sub-claim, so the
-credit is not `reviewed` evidence.
+Combinatorica 7 (1987), no. 1, 71--76. The erdosproblems.com curator, T. F.
+Bloom, credits the tree case to this paper in the problem's commentary. But the
+DISPROVED label settles the problem in the negative and credits no positive
+sub-claim, so the credit is not `reviewed` evidence.
 
 **Read depth.** The paper is not held here; the statement is taken from
 the zbMATH review and agrees with the quotation of Draganić and Petrova.

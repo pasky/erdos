@@ -53,8 +53,8 @@ $7\cdot10^{17}$ on 21 March 2026 and $3.3\cdot10^{17}$ on 22 March 2026
 (GPT-5.4 Thinking). This page rests on the abstract, disclaimer,
 introduction and Theorem 1 on the note's first page; the proof was not read.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 23 March
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+23 March 2026:
 
 > GPT-5.4 Thinking has now improved the threshold to $N \ge N_0$ with $N_0 =
 > 2.64 \times 10^{17}$. Here are the notes.
@@ -77,15 +77,16 @@ and [[problems/integer_sequences/E0848/claims/2026_07_30_li|Li 2026]]
 assert closed, the first of them by certificates and envelope arguments up
 to this threshold and then this note's theorem.
 
-**Acceptance.** None on record. The note was not submitted to the site's
-proof-claim tab. The site's label was DECIDABLE for Sawhney's result (page last
-edited 6 December 2025, before the note), and the curator has not acted on the
-note. The thread's replies report attempts by other systems to lower the
-constant further. They report no review of the argument. A comment of 19 August
-2026 on Li's proof claim reports that its writer recomputed the note's constants
-and found them exact, with a true crossover near $2.636\cdot10^{17}$. A forum
-comment is neither a named reviewer nor a referee. The claim stays `claimed`,
-and a partial claim derives nothing for the problem's standing.
+**Acceptance.** None on record. The note was not submitted to the
+erdosproblems.com proof-claim tab. The erdosproblems.com label was DECIDABLE for
+Sawhney's result (page last edited 6 December 2025, before the note), and the
+curator has not acted on the note. The thread's replies report attempts by other
+systems to lower the constant further. They report no review of the argument. A
+comment of 19 August 2026 on Li's proof claim reports that its writer recomputed
+the note's constants and found them exact, with a true crossover near
+$2.636\cdot10^{17}$. A forum comment is neither a named reviewer nor a referee.
+The claim stays `claimed`, and a partial claim derives nothing for the problem's
+standing.
 
 **Depends on.** No page of this wiki: the note follows the structure of
 Sawhney's proof but replaces its asymptotic inputs, so it rests on no result

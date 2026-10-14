@@ -99,7 +99,7 @@ cited in Section 4.
   of Theorem 4.3 and Lemma 4.4 then orders
   $\mathbb Z_p\setminus\{0,x,-x,z\}$ with distinct nonzero partial sums,
   and appending $z$ orders $\mathbb Z_p\setminus\{0,x,-x\}$ with distinct
-  partial sums. This deduction is made here, not in the paper. The site
+  partial sums. This deduction is made here, not in the paper. erdosproblems.com
   credits the whole near-full range $p-3\le t\le p-1$ "(see Hicks, Ollis,
   and Schmitt [HOS19] and the references therein)"; Graham's own case
-  $t=p-1$ is attested by the site and by Erdős (1973).
+  $t=p-1$ is attested by erdosproblems.com and by Erdős (1973).

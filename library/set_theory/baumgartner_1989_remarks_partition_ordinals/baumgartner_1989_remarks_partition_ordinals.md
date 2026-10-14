@@ -34,8 +34,8 @@ date.
 states in its introduction, after Fact 1.1, that Baumgartner proved in this
 chapter that $\mathrm{ZFC}+\mathrm{MA}_{\aleph_1}$ implies
 $\omega_1\omega\to(\omega_1\omega,n)^2$ for all natural numbers $n$. The
-catalog page for Problem 1171 and Gao's deposit cite the chapter for the case
-$n=3$ only.
+erdosproblems.com page for Problem 1171 and Gao's deposit cite the chapter for
+the case $n=3$ only.
 
 The chapter's own numbering of its results is unknown here, so its theorem is
 filed under the descriptive name

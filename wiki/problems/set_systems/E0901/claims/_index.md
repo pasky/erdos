@@ -4,7 +4,7 @@ desc: The 6 claim pages of Problem 901, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T19:24:40Z
-updated: 2026-10-14T00:16:44Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_systems/E0901/claims
@@ -37,7 +37,7 @@ Problem 901.
 
 [[problems/set_systems/E0901/claims/2014_01_01_ostergard|2014_01_01_ostergard]]: Östergård's exhaustive computer search shows that the least number of edges of
 a $4$-uniform hypergraph without property B is 23, closing the earlier range
-$21\le m(4)\le23$. This refereed result gives $m(4)=23$, the value the site
-lists for Problem 901.
+$21\le m(4)\le23$. This refereed result gives $m(4)=23$, the value
+erdosproblems.com lists for Problem 901.
 
 ***

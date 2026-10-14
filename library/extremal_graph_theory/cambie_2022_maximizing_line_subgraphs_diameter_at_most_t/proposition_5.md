@@ -50,7 +50,7 @@ The Canale--Gómez constructions for the degree--diameter problem.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: the site's "if $t$
-  is large, then there are infinitely many $d$ such that
-  $h_t(d)\ge0.629^td^t$"; the gap to the conjectured $(1-o(1))d^t$ is the
+- [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]:
+  erdosproblems.com's "if $t$ is large, then there are infinitely many $d$ such
+  that $h_t(d)\ge0.629^td^t$"; the gap to the conjectured $(1-o(1))d^t$ is the
   content of Conjecture 3, which a 2026 preprint claims to close.

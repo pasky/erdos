@@ -25,13 +25,13 @@ prime then, for any $n\geq 0$, there exist $a,b\in(n,n+p^c)$ such that $ab\equiv
 1\pmod{p}$?
 
 **Status.** Open. The standing in the frontmatter derives from the claim pages.
-The site's remark (page last edited 27 December 2025) credits Heilbronn,
-unpublished, with the case of $c$ sufficiently close to $1$. It credits
-Heath-Brown with every $c>3/4$. The range $c>3/4$ is recorded as an accepted
-partial claim on the
+The erdosproblems.com remark (page last edited 27 December 2025) credits
+Heilbronn, unpublished, with the case of $c$ sufficiently close to $1$. It
+credits Heath-Brown with every $c>3/4$. The range $c>3/4$ is recorded as an
+accepted partial claim on the
 [[problems/diophantine_problems/E0445/claims/2012_04_28_browning_haynes|Browning and Haynes claim page]].
-Browning and Haynes's refereed two-interval criterion states the bound that the
-site and Browning and Haynes credit to Heath-Brown.
+Browning and Haynes's refereed two-interval criterion states the bound that
+erdosproblems.com and Browning and Haynes credit to Heath-Brown.
 
 **Source.** [erdosproblems.com/445](https://www.erdosproblems.com/445), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #445,
@@ -57,14 +57,15 @@ as an accepted partial claim with refereed evidence. Heath-Brown's 2000 article
 has no claim page of its own: it displays the count of solutions of
 $mn\equiv a\pmod p$ in the origin box $1\le m,n\le M$ for a general residue $a$,
 and for the problem's residue $1$ the origin case is trivial, since $a=b=1$ lies
-in $(0,p^c)$, so the display settles no instance of the problem; the site's
-remark and Browning and Haynes credit Heath-Brown with the two-interval bound,
-which the claim page states in their form. Heath-Brown's article calls
-improving the exponent $3/4$ an open problem. The search scope is the site page,
-the two primary papers, Browning's publication list and a web literature search
-for a theorem below the exponent $3/4$; on 2026-09-06 these sources showed no
-such theorem and no proof claim. Noncoverage by a partial theorem alone does not
-establish that the remaining range is open, and no later search is recorded.
+in $(0,p^c)$, so the display settles no instance of the problem; the
+erdosproblems.com remark and Browning and Haynes credit Heath-Brown with the
+two-interval bound, which the claim page states in their form. Heath-Brown's
+article calls improving the exponent $3/4$ an open problem. The search scope is
+the erdosproblems.com page, the two primary papers, Browning's publication list
+and a web literature search for a theorem below the exponent $3/4$; on
+2026-09-06 these sources showed no such theorem and no proof claim. Noncoverage
+by a partial theorem alone does not establish that the remaining range is open,
+and no later search is recorded.
 
 The proofs of the Heath-Brown estimate and of the Browning–Haynes criterion
 are not transcribed in the library; the claim page rests on the refereed

@@ -2,10 +2,10 @@
 name: problems/arithmetic_functions/E0205/claims/2026_01_11_barreto_leeham
 title: Barreto and Leeham negative answer
 desc: |
-  A disproof posted to the site's discussion thread on 2026-01-11, found with
-  ChatGPT and formalized with Aristotle, gives infinitely many $n$ for which no
-  $m=n-2^k$ has $\Omega(m)<\log\log m$. The site's curator credits it, and it is
-  not refereed.
+  A disproof posted to the erdosproblems.com discussion thread on 2026-01-11,
+  found with ChatGPT and formalized with Aristotle, gives infinitely many $n$
+  for which no $m=n-2^k$ has $\Omega(m)<\log\log m$. The erdosproblems.com
+  curator credits it, and it is not refereed.
 authors:
 - Liam Price
 status: accepted
@@ -44,45 +44,46 @@ $2^E$ and of $3$, with $n\equiv2^k$ modulo a product of $E$ distinct primes at
 least $5$ for each $k<E$. So every $m=n-2^k$ is positive and divisible by $2^E$
 or by those $E$ primes, hence at least $2^E$. For any $f$ with
 $f(m)=o(\log\log m)$, once $E$ is large, $f(m)<\log\log m\le\Omega(m)$ for all
-these $m$. The site's commentary (last edited 2026-04-05) credits the disproof
-to Barreto and Leeham, working with ChatGPT and Aristotle, and its thanks line
-names Kevin Barreto and Leeham among the contributors; Leeham is the forum
-account of Liam Price, whose posts display under that name, and who posted the
-formalization and the write-up. The community database dates the problem's
-change to disproved on 2026-01-10. In the site's discussion thread on
+these $m$. The erdosproblems.com commentary (last edited 2026-04-05) credits the
+disproof to Barreto and Leeham, working with ChatGPT and Aristotle, and its
+thanks line names Kevin Barreto and Leeham among the contributors; Leeham is the
+forum account of Liam Price, whose posts display under that name, and who posted
+the formalization and the write-up. The community database dates the problem's
+change to disproved on 2026-01-10. In the erdosproblems.com discussion thread on
 2026-01-11, Price posted the Aristotle formalization of the construction as a
 live Lean session (the `formalization` link above), then a write-up on Overleaf
 (the `preprint` link above), which Price describes as ChatGPT's output, and
-named Kevin Barreto as the collaborator with whom Price had worked on the site's
-problems 728 and 729 by the same method: asking ChatGPT 5.2 to research the
-problem and brainstorm, then an offline run of GPT-5.2 Thinking (the same day
-Price wrote that the model was GPT-5.2 Thinking rather than GPT-5.2 Pro and
-asked for the note on the community database's GitHub page to be changed) that
-was not told the problem was open, with Aristotle formalizing the result. The
-community database's AI-contributions wiki lists the result under Aristotle and
-GPT-5.2 Thinking as a full solution in Lean. The headers of the later community
-Lean files say that Wouter van Doorn suggested the approach, ChatGPT made it
-into a complete informal proof and Aristotle formalized it. The quantified
-strengthening posted the same day by Tao and Alexeev has its own page,
+named Kevin Barreto as the collaborator with whom Price had worked on the
+erdosproblems.com problems 728 and 729 by the same method: asking ChatGPT 5.2 to
+research the problem and brainstorm, then an offline run of GPT-5.2 Thinking
+(the same day Price wrote that the model was GPT-5.2 Thinking rather than
+GPT-5.2 Pro and asked for the note on the community database's GitHub page to be
+changed) that was not told the problem was open, with Aristotle formalizing the
+result. The community database's AI-contributions wiki lists the result under
+Aristotle and GPT-5.2 Thinking as a full solution in Lean. The headers of the
+later community Lean files say that Wouter van Doorn suggested the approach,
+ChatGPT made it into a complete informal proof and Aristotle formalized it. The
+quantified strengthening posted the same day by Tao and Alexeev has its own
+page,
 [[problems/arithmetic_functions/E0205/claims/2026_01_11_tao_alexeev|Tao–Alexeev 2026]],
 and is the form the later community Lean files prove; the session linked above
 proves the $\log\log$ form itself, from Mathlib alone.
 
 **Depends on.** Nothing in this wiki.
 
-**Acceptance.** Reviewed: the site's curator, Thomas F. Bloom, labeled the
-problem DISPROVED (LEAN) and credits the negative answer to Barreto and Leeham
-in the problem's commentary (last edited 2026-04-05). Terence Tao, in the thread
-on 2026-01-11, described the construction and found it surprisingly simple. Tao
-also listed it as a full solution under Section 1, primary contributions, of the
-AI-contributions wiki of the community database Tao maintains. The same day Nat
-Sothanaphan posted a human-readable version of the quantified Lean proof and
-wrote that they had checked everything by hand. That write-up is linked from the
-Tao–Alexeev page.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas F. Bloom,
+labeled the problem DISPROVED (LEAN) and credits the negative answer to Barreto
+and Leeham in the problem's commentary (last edited 2026-04-05). Terence Tao, in
+the thread on 2026-01-11, described the construction and found it surprisingly
+simple. Tao also listed it as a full solution under Section 1, primary
+contributions, of the AI-contributions wiki of the community database Tao
+maintains. The same day Nat Sothanaphan posted a human-readable version of the
+quantified Lean proof and wrote that they had checked everything by hand. That
+write-up is linked from the Tao–Alexeev page.
 
 No refereed publication exists. The Overleaf write-up is ChatGPT's output and
 unrefereed, and no library card digests it. The Lean session linked above is a
 community file that this corpus has not built or audited. So no `formalized`
 evidence is listed, and the evidence is `reviewed` alone. The Lean suffix of the
-site's label was a catalog label. What the linked formal files prove is recorded
-on the problem page and on the Tao–Alexeev page.
+erdosproblems.com label was a catalog label. What the linked formal files prove
+is recorded on the problem page and on the Tao–Alexeev page.

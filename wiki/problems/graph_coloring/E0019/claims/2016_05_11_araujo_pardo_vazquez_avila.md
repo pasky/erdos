@@ -59,8 +59,8 @@ such a labeling.
 
 **Acceptance.** Refereed: Ars Combin. **129** (2016), 287–298 (Zbl 1413.05098),
 after its first posting as arXiv:1605.03374 on 2016-05-11. The paper's
-acknowledgment thanks its anonymous referees. The site's label decidable does
-not settle the problem, so the curator's mention is context and not `reviewed`
-evidence.
+acknowledgment thanks its anonymous referees. The erdosproblems.com label
+decidable does not settle the problem, so the curator's mention is context and
+not `reviewed` evidence.
 
 **Depends on.** Nothing in this wiki.

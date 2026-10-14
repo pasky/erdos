@@ -52,11 +52,11 @@ asserts that Conjecture 1, a large-$x$ form of Kuperberg's Conjecture 1.3
 (filed as
 [[primes/kuperberg_2023_sums_singular_series_large_sets_tail/conjecture_1_3|conjecture_1_3]]),
 implies $\sum_{n\ge1}p_n/2^n\notin\mathbb Q$. The author announced it on
-the catalog's discussion thread on 2026-09-06 (01:50, the PDF; 05:17, the
-Lean repository); no proof claim was registered on the site's proof-claims
-page. Standing here: **claimed, unreviewed**. Acceptance of the implication
-would not change the problem's status, because the hypothesis is an open
-conjecture.
+the erdosproblems.com discussion thread on 2026-09-06 (01:50, the PDF; 05:17,
+the Lean repository); no proof claim was registered on the erdosproblems.com
+proof-claims page. Standing here: **claimed, unreviewed**. Acceptance of the
+implication would not change the problem's status, because the hypothesis is an
+open conjecture.
 
 **The manuscript's own qualifications (pp. 8--9).** "This is a conditional
 research draft, not an unconditional solution. Historical novelty is not
@@ -88,7 +88,7 @@ theorem Erdos251.erdos251_conditional
 
 with `p n = Nat.nth Nat.Prime n` (zero-based, `p 0 = 2`) and
 `realSeries = ∑' n : ℕ, (p n : ℝ) / (2 : ℝ) ^ (n + 1)` in
-`Erdos251/Basic.lean`, so the formal target is the site's series
+`Erdos251/Basic.lean`, so the formal target is erdosproblems.com's series
 $2/2+3/4+5/8+\cdots$ exactly. `Erdos251/Conjectures.lean` defines the
 hypothesis as a `Prop` quantifying $\varepsilon$, $C$ and a threshold $x_0$
 before $x$ and the admissible finite set $A$; `Erdos251/EndpointCheck.lean`

@@ -38,8 +38,8 @@ images of pp. 598, 602, 603, 610 and 612. Provenance: downloaded in
 September 2026 from the Erdős archive at users.renyi.hu (archive path
 1976-10.pdf; the exact URL was not recorded); 1,077,732 bytes. No
 copyright or license line is printed on pp. 598--599 or 612--613 of the scan;
-the hosting archive, users.renyi.hu, has a site footer that speaks for the
-site, not the paper
+the hosting archive, users.renyi.hu, has a site footer that speaks for
+erdosproblems.com, not the paper
 (https://users.renyi.hu/~p_erdos/, read 2026-10-02: "(C) 2005-2007 All rights
 reserved. All material on this site is for scientifics [sic] purposes
 only."); the Crossref record for DOI 10.1215/ijm/1256049650 (read
@@ -122,7 +122,7 @@ fractions; the paper's theorems concern $D(N)$ and $S(N)$ only and state
 nothing about $k$-term representations.
 [[../wiki/problems/unit_fractions/E0305/_index|#305]]: the problem asks whether
 $D(N)\ll N(\log N)^{1+o(1)}$; Theorem 1 (p. 602) is the exponent-2 upper
-bound $D(N)\le\lambda^3(N)N(\ln N)^2$ that the site and the monograph
+bound $D(N)\le\lambda^3(N)N(\ln N)^2$ that erdosproblems.com and the monograph
 attribute to part I, and Theorem 4 (p. 612) sharpens part I's lower bound
 $D(P)\ge P\lceil\log P/\log2\rceil$ at primes (part I's $\log_2$ is the
 base-2 logarithm, not this card's iterated $\log_2$).

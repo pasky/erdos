@@ -87,7 +87,7 @@ known.
 ## Bears on
 
 - [[../wiki/problems/discrete_geometry/E0504/_index|Problem 504]]: the two
-  reported angle results bound the site's $\alpha_N$ at $N=2^n$. Every
+  reported angle results bound erdosproblems.com's $\alpha_N$ at $N=2^n$. Every
   $2^n$-point set having an angle greater than $\pi(1-\frac1n)$ gives
   $\alpha_{2^n}\ge\pi(1-\frac1n)$, and Szekeres's sets give
   $\alpha_{2^n}\le\pi(1-\frac1n)$, so together they give

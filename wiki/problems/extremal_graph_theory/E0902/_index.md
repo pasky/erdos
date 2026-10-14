@@ -26,19 +26,19 @@ updated: 2026-10-08T02:16:54Z
 directed graph) on $f(n)$ vertices such that every set of $n$ vertices is
 dominated by at least one other vertex. Estimate $f(n)$.
 
-**Formulation.** The site's wording, accessed 2026-09-19 (the page carried
-no last-edited date). A vertex dominates a set when it
-sends an edge to every member of the set; "another vertex" is one outside
-the set. The literature writes $k$ for the site's $n$: a tournament has
-Schütte's property $S_k$ if every $k$ vertices have a common dominator, and
-$f(k)$ is the least order of an $S_k$ tournament (Erdős 1963, p. 221). The
-site's $f(n)$ is that $f$ with $n$ for $k$, and this page keeps the site's
-letter for the problem's function and the sources' letter when quoting them.
-The question is an estimation request: the exact values and the two bounds
-below are its known content, and the bounds are a factor of order $n$
-apart. The OEIS entry the site links, A362137, lists the smallest Paley
-tournaments with the property, which are known to equal $f(n)$ only for
-$n\le3$ (the entry's own comment).
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-19 (the page
+carried no last-edited date). A vertex dominates a set when it sends an edge to
+every member of the set; "another vertex" is one outside the set. The literature
+writes $k$ for erdosproblems.com's $n$: a tournament has Schütte's property
+$S_k$ if every $k$ vertices have a common dominator, and $f(k)$ is the least
+order of an $S_k$ tournament (Erdős 1963, p. 221). erdosproblems.com's $f(n)$ is
+that $f$ with $n$ for $k$, and this page keeps erdosproblems.com's letter for
+the problem's function and the sources' letter when quoting them. The question
+is an estimation request: the exact values and the two bounds below are its
+known content, and the bounds are a factor of order $n$ apart. The OEIS entry
+erdosproblems.com links, A362137, lists the smallest Paley tournaments with the
+property, which are known to equal $f(n)$ only for $n\le3$ (the entry's own
+comment).
 
 **Status.** Open. The search whose scope the Current assessment records found no
 source determining $f(n)$, its order of magnitude, or any value beyond $n=3$.
@@ -67,8 +67,8 @@ refereed paper. Also $48\le f(4)\le67$. The lower bound is Corollary 7 of
 [RMHH04], and the upper bound is [GrSp71]'s $T_{67}$.
 
 **Source.** [erdosproblems.com/902](https://www.erdosproblems.com/902),
-accessed 2026-09-19: the problem page (labeled OPEN, with the site's note
-that no finite computation can settle it; no last-edited date; source keys
+accessed 2026-09-19: the problem page (labeled OPEN, with the erdosproblems.com
+note that no finite computation can settle it; no last-edited date; source keys
 [Er63c] and [Er82e]; commentary citing [SzSz65]; OEIS A362137), its
 four-comment discussion thread (14 December 2025 and 26 August 2026) and
 its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #902,
@@ -101,27 +101,29 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 - [GrSp71] Graham, R. L. and Spencer, J. H., A constructive solution to a
   tournament problem. Canad. Math. Bull. 14 (1971), no. 1, 45--48,
-  doi:10.4153/CMB-1971-007-1 (Crossref, accessed 2026-09-19). Not a site
-  key; cited in the thread. The quoted bounds (1) and (2), the construction
-  and the Theorem, p. 45; the concluding remarks, p. 47. Library home:
+  doi:10.4153/CMB-1971-007-1 (Crossref, accessed 2026-09-19). Not an
+  erdosproblems.com key; cited in the thread. The quoted bounds (1) and (2), the
+  construction and the Theorem, p. 45; the concluding remarks, p. 47. Library
+  home:
   [[../library/extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/_index|graham_1971_constructive_solution_tournament_problem]];
   paged at
   [[../library/extremal_graph_theory/graham_1971_constructive_solution_tournament_problem/theorem_p45|theorem_p45]].
 - [Je26] Jeffries, Joel, Schütte's property for sets of tournaments and an
   application to dice games. arXiv:2604.08790v1 (9 April 2026; on 2026-09-19
-  arXiv listed no later version and no journal reference). A preprint; not a
-  site key. Theorem 1.1, p. 1; the survey sentences, p. 2. Library home:
+  arXiv listed no later version and no journal reference). A preprint; not an
+  erdosproblems.com key. Theorem 1.1, p. 1; the survey sentences, p. 2. Library
+  home:
   [[../library/extremal_graph_theory/jeffries_2026_schutte_s_property_sets_tournaments_application/_index|jeffries_2026_schutte_s_property_sets_tournaments_application]];
   paged at
   [[../library/extremal_graph_theory/jeffries_2026_schutte_s_property_sets_tournaments_application/theorem_1_1|theorem_1_1]].
 - [RMHH04] Reid, K. B., McRae, A. A., Hedetniemi, S. M. and Hedetniemi,
   S. T., Domination and irredundance in tournaments. Australas. J. Combin.
   29 (2004), 157--172 (https://ajc.maths.uq.edu.au/pdf/29/ajc_v29_p157.pdf;
-  volume dated March 2004). Not a site key; linked from OEIS A362137. The
-  equivalence of $S_k$ with domination number above $k$, p. 160; display
-  (2), the Szekeres--Szekeres bound printed without a range, p. 162; Theorem
-  5, p. 165; $QRT_{19}$ and Fisher's computations, p. 166; Proposition 14 and
-  Corollary 7, pp. 170--171. Claim page:
+  volume dated March 2004). Not an erdosproblems.com key; linked from OEIS
+  A362137. The equivalence of $S_k$ with domination number above $k$, p. 160;
+  display (2), the Szekeres--Szekeres bound printed without a range, p. 162;
+  Theorem 5, p. 165; $QRT_{19}$ and Fisher's computations, p. 166; Proposition
+  14 and Corollary 7, pp. 170--171. Claim page:
   [[problems/extremal_graph_theory/E0902/claims/2004_03_01_reid_mcrae_hedetniemi_hedetniemi|Reid, McRae, Hedetniemi and Hedetniemi]].
 - [Er62] Erdős, P., Applications of probability to combinatorial problems.
   Proc. Colloq. Combinatorial Methods in Probability Theory (Aarhus, 1962),
@@ -132,17 +134,17 @@ https://www.erdosproblems.com/902, accessed 2026-09-19.
 existed in formal-conjectures on 2026-09-19 (the
 [directory](https://github.com/google-deepmind/formal-conjectures/tree/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems)
 `FormalConjectures/ErdosProblems/`, 682 entries, at the linked revision); the
-site's page shows "Formalised statement? No (create one)" and links OEIS
-A362137; the community database (teorth/erdosproblems, `data/problems.yaml`,
-2026-09-19) records the problem open (last update 31 August 2025),
-unformalized, with the OEIS entry A362137 and no formal-proof field. The
-thread's external Lean repository is a lead described under Leads.
+erdosproblems.com page shows "Formalised statement? No (create one)" and links
+OEIS A362137; the community database (teorth/erdosproblems,
+`data/problems.yaml`, 2026-09-19) records the problem open (last update 31
+August 2025), unformalized, with the OEIS entry A362137 and no formal-proof
+field. The thread's external Lean repository is a lead described under Leads.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement
-above; OPEN, with the site's note that no finite computation can settle
-it; no last-edited date. The commentary dates Schütte's question to Erdős
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
+above; OPEN, with the erdosproblems.com note that no finite computation can
+settle it; no last-edited date. The commentary dates Schütte's question to Erdős
 to the early 1960s, calls $f(1)=3$ and $f(2)=7$ easy to check, credits
 Erdős [Er63c] with $2^{n+1}-1\le f(n)\ll n^22^n$, and credits Szekeres and
 Szekeres [SzSz65] with $f(3)=19$ and $n2^n\ll f(n)$. The thread: an
@@ -153,7 +155,7 @@ is known, the two bounds being a factor $n$ apart; and a post of 26 August
 2026 reporting a Lean formalization of the classical bounds (under Leads).
 The proof-claim tab is empty. The community database record says open.
 
-**The bounds map.** In the sources' letter $k$ for the site's $n$.
+**The bounds map.** In the sources' letter $k$ for erdosproblems.com's $n$.
 
 - Lower bounds. $f(k)\ge2^{k+1}-1$ for every $k\ge1$: inequality (1) of
   [Er63c], p. 221
@@ -183,7 +185,7 @@ The proof-claim tab is empty. The community database record says open.
   [Er63c], p. 221
   ([[../library/extremal_graph_theory/erdos_1963_problem_graph_theory/inequality_2|inequality_2]]),
   by a first-moment count over the $2^{n(n-1)/2}$ orientations, which also
-  proves that $f(k)$ exists for every $k$ (p. 223). The site's
+  proves that $f(k)$ exists for every $k$ (p. 223). erdosproblems.com's
   "$f(n)\ll n^22^n$". [GrSp71], p. 45, quotes it as (1) with the weak sign;
   [Je26], Theorem 1.1, item 1, prints the sharper unsimplified form as a
   minimum over $n$ of a first-moment condition, with a factor $2^k$ this
@@ -193,9 +195,9 @@ The proof-claim tab is empty. The community database record says open.
   when $i-j$ is a quadratic residue) has property $P_k$; the authors say
   (p. 47) that this threshold "is nearly the square of the nonconstructive
   upper bound (1) of Erdös", so the construction is explicit but not an
-  improvement of the estimate, as the site's thread also says. [Je26], p. 2,
-  says of the constructions known that they "grow faster in size than the
-  asymptotics given by the probabilistic construction of Erdős".
+  improvement of the estimate, as the erdosproblems.com thread also says.
+  [Je26], p. 2, says of the constructions known that they "grow faster in size
+  than the asymptotics given by the probabilistic construction of Erdős".
 - Exact values. $f(1)=3$ and $f(2)=7$ ([Er63c], p. 221, with the seven towns of
   p. 220 whose outgoing roads go to $T_{a+1},T_{a+2},T_{a+4}$, and "no such
   choice is possible if $n\le6$" from the proof of (1)); $f(3)=19$ ([SzSz65],
@@ -242,7 +244,7 @@ $c>0$, and his request for an improvement of it, and to credit E. and G.
 Szekeres with $f(3)=19$ and $f(n)>cn2^n$; he closes with the remark that an
 asymptotic formula for $f(n)$ "seems beyond reach", followed by the
 references to [Er63c] and to [SzSz65] (the latter printed with the year
-"1975" for 1965). The site's wording follows the 1982 passage.
+"1975" for 1965). The erdosproblems.com wording follows the 1982 passage.
 
 **Leads (not status).** The thread's post of 26 August 2026 reports that
 the classical bounds $2^{n+1}-1\le f(n)$ and $f(n)\le n+3n^2\cdot2^n$ have
@@ -282,11 +284,11 @@ dominating sets in tournaments and on existentially closed tournaments,
 none announcing by its title a new bound on $f(k)$.
 
 **Search scope.** None of the routes below found a bound
-for general $k$ sharper than the two above or a proof claim on the site; the
-one sharper bound at a single value, [RMHH04]'s $f(4)\ge48$, is in the paper
-the OEIS entry links.
+for general $k$ sharper than the two above or a proof claim on
+erdosproblems.com; the one sharper bound at a single value, [RMHH04]'s
+$f(4)\ge48$, is in the paper the OEIS entry links.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree at the linked revision (no file
   902); the community database entry.
 - OEIS A362137 (the text of the entry).

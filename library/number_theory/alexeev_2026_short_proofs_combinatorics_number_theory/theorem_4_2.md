@@ -60,6 +60,6 @@ and Tao.
 
 - [[../wiki/problems/discrepancy/E0997/_index|Problem 997]]: the input to
   [[number_theory/alexeev_2026_short_proofs_combinatorics_number_theory/theorem_4_1|Theorem 4.1]],
-  which answers the problem. As the problem page records, the site's Lean
-  formalization takes the Banks--Freiberg--Turnage-Butterbaugh theorem as an
-  axiom.
+  which answers the problem. As the problem page records, the erdosproblems.com
+  Lean formalization takes the Banks--Freiberg--Turnage-Butterbaugh theorem as
+  an axiom.

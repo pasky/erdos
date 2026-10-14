@@ -28,33 +28,33 @@ a graph on $n$ vertices can have.
 
 Does $c(n)^{1/n}\to \alpha$ for some $\alpha <2$?
 
-**Formulation.** The site's wording as of 2026-09-19T06:45Z (page last edited 21
-June 2026). A minimal cut is an inclusion-minimal set of vertices whose removal
-disconnects the graph, Erdős's 1988 definition ("A subset
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-19T06:45Z
+(page last edited 21 June 2026). A minimal cut is an inclusion-minimal set of
+vertices whose removal disconnects the graph, Erdős's 1988 definition ("A subset
 $x_{i_1},\dots,x_{i_t}$ is said to be a minimal cut if the omission of these
 vertices disconnects $G(n)$, but no subset $x_{i_1},\dots,x_{i_r}$ disconnects
 $G(n)$"). The question has two parts: that $c(n)^{1/n}$ converges, and that its
-limit is below $2$; the site's commentary doubts that Erdős knew the limit
-exists. The literature the site cites counts minimal separators, sets that are
-minimal $(u,v)$-separators for some pair of vertices; every minimal cut is a
-minimal separator (for a pair in different components), but a minimal separator
-need not be a minimal cut (in the four-cycle $u,a,v,b$ with a pendant vertex
-attached to $a$, $\{a,b\}$ is a minimal $(u,v)$-separator while $\{a\}$ alone
-disconnects the graph), so the two counts differ graph by graph, and the passage
-between their growth rates is the sandwich sentence of Bradač's paper recorded
-below. Erdős and Nešetřil's guess $c(3m+2)=3^m$ is a separate subquestion, which
-the site and Bradač report as answered in the negative by Gaspers and
-Mackenzie's published lower bound, whose proof is unchecked (Status); the value
-of $\alpha$ is unknown. The site's label PROVED (LEAN) carries a catalog suffix
-explained under Formalization.
+limit is below $2$; the erdosproblems.com commentary doubts that Erdős knew the
+limit exists. The literature erdosproblems.com cites counts minimal separators,
+sets that are minimal $(u,v)$-separators for some pair of vertices; every
+minimal cut is a minimal separator (for a pair in different components), but a
+minimal separator need not be a minimal cut (in the four-cycle $u,a,v,b$ with a
+pendant vertex attached to $a$, $\{a,b\}$ is a minimal $(u,v)$-separator while
+$\{a\}$ alone disconnects the graph), so the two counts differ graph by graph,
+and the passage between their growth rates is the sandwich sentence of Bradač's
+paper recorded below. Erdős and Nešetřil's guess $c(3m+2)=3^m$ is a separate
+subquestion, which erdosproblems.com and Bradač report as answered in the
+negative by Gaspers and Mackenzie's published lower bound, whose proof is
+unchecked (Status); the value of $\alpha$ is unknown. The erdosproblems.com
+label PROVED (LEAN) carries a catalog suffix explained under Formalization.
 
 **Status.** PROVED (LEAN). The limit exists and satisfies
-$1.4457\le\alpha\le\frac{1+\sqrt5}2\approx1.618$ (the site's interval), so
-$\alpha<2$. The site's curator accepted the resolution with the label PROVED
-(LEAN) on 31 March 2026, crediting Bradač's note. The external Lean file behind
-the label declares itself a formalization of Bradač's argument. It works with
-the separator count, not the collection's minimal-cut count (Formalization).
-Bradač's note is the accepted full claim, recorded on
+$1.4457\le\alpha\le\frac{1+\sqrt5}2\approx1.618$ (erdosproblems.com's interval),
+so $\alpha<2$. The erdosproblems.com curator accepted the resolution with the
+label PROVED (LEAN) on 31 March 2026, crediting Bradač's note. The external Lean
+file behind the label declares itself a formalization of Bradač's argument. It
+works with the separator count, not the collection's minimal-cut count
+(Formalization). Bradač's note is the accepted full claim, recorded on
 [[problems/extremal_graph_theory/E0150/claims/2024_09_04_bradac|its claim page]],
 which carries the Lean file as a formalization link. The frontmatter standing is
 derived from it.
@@ -85,17 +85,18 @@ and
 [[problems/extremal_graph_theory/E0150/claims/2015_03_04_gaspers_mackenzie|Gaspers and Mackenzie]].
 
 The lower bound $3^{1/3}\approx1.4422$ is Seymour's construction in Erdős's
-paper. The value $1.4457$ is the lower bound that the site and Bradač attribute
-to Gaspers and Mackenzie's Theorem 2 for minimal separators, as the published J.
-Graph Theory version states it ($\omega(1.4457^n)$ in its abstract). That
-version is not held and its proof is unchecked, while the arXiv v2 prints
-$\omega(1.4521^n)$. The transfer to $\alpha$ goes through the same sandwich.
+paper. The value $1.4457$ is the lower bound that erdosproblems.com and Bradač
+attribute to Gaspers and Mackenzie's Theorem 2 for minimal separators, as the
+published J. Graph Theory version states it ($\omega(1.4457^n)$ in its
+abstract). That version is not held and its proof is unchecked, while the arXiv
+v2 prints $\omega(1.4521^n)$. The transfer to $\alpha$ goes through the same
+sandwich.
 
 **Source.** [erdosproblems.com/150](https://www.erdosproblems.com/150),
 accessed 2026-09-19 (06:45 UTC): the problem page (PROVED (LEAN),
-with the site's note that the problem is solved in the affirmative with a
-Lean-verified proof; last edited 21 June 2026; source keys [Br24], [Er88],
-[FKTV08], [FoVi12], [GaMa18]; the indicator that the statement is
+with the erdosproblems.com note that the problem is solved in the affirmative
+with a Lean-verified proof; last edited 21 June 2026; source keys [Br24],
+[Er88], [FKTV08], [FoVi12], [GaMa18]; the indicator that the statement is
 formalized; an OEIS indicator marked possible; an acknowledgment of
 Domagoj Bradač), its two-comment discussion thread (31 March 2026 and
 23 July 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
@@ -110,9 +111,9 @@ Problem #150, https://www.erdosproblems.com/150, accessed 2026-09-19.
 - [Br24] Bradač, D., On a question of Erdős and Nešetřil about minimal cuts
   in a graph. J. Graph Theory 108 (2025), no. 4, 817--818,
   doi:10.1002/jgt.23207 (published online 8 December 2024; Crossref record
-  read 2026-09-19); the site's text cites "arXiv:2409.02974 (2024)". Cited from
-  arXiv:2409.02974v2 (23 June 2026, 3 pp.), with the added note that the
-  results were known earlier; Theorem 1 and the note, p. 1; Proposition 2
+  read 2026-09-19); the erdosproblems.com text cites "arXiv:2409.02974 (2024)".
+  Cited from arXiv:2409.02974v2 (23 June 2026, 3 pp.), with the added note that
+  the results were known earlier; Theorem 1 and the note, p. 1; Proposition 2
   and display (1), p. 2; the journal text was not compared. Library home:
   [[../library/extremal_graph_theory/bradac_2024_question_erdos_nesetril_about_minimal_cuts/_index|bradac_2024_question_erdos_nesetril_about_minimal_cuts]];
   paged at
@@ -147,7 +148,7 @@ Problem #150, https://www.erdosproblems.com/150, accessed 2026-09-19.
   and
   [[../library/extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs/theorem_2|theorem_2]].
 
-**Formalization.** The suffix of the site's label PROVED (LEAN) is a
+**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is a
 catalog label. The file
 [`ErdosProblems/150.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/150.lean)
 of formal-conjectures at the commit linked (the head of `main` on
@@ -159,24 +160,25 @@ under `category research solved, AMS 5`, with proof `sorry` and a
 `lean-proofs` on its `main` branch (unpinned). Its
 `IsMinimalCut G T` is `¬ (G.induce Tᶜ).Preconnected ∧ ∀ S ⊂ T, (G.induce Sᶜ).Preconnected`,
 Erdős's minimal cut, and `maxMinimalCuts n` is the supremum of their number
-over simple graphs on `Fin n`; the docstring repeats the site's commentary
-and says "This was formalized in Lean by Monticone using Aristotle"; the
-variants `erdos_nesetril` (`answer(False) ↔ ∀ m : ℕ, maxMinimalCuts (3 * m + 2) = 3 ^ m`),
-`seymour`, `lower_bound` ($1.4457\le\alpha$) and `upper_bound`
-($\alpha\le(1+\sqrt5)/2$) are `research solved` with proof `sorry`. The
-external file at the repository's head commit of 15 September 2026, the
-commit pinned in the claim page's link (accessed 2026-09-19), has 1,298
-lines and 65,707 bytes; it is headed
+over simple graphs on `Fin n`; the docstring repeats the erdosproblems.com
+commentary and says "This was formalized in Lean by Monticone using Aristotle";
+the variants `erdos_nesetril`
+(`answer(False) ↔ ∀ m : ℕ, maxMinimalCuts (3 * m + 2) = 3 ^ m`), `seymour`,
+`lower_bound` ($1.4457\le\alpha$) and `upper_bound` ($\alpha\le(1+\sqrt5)/2$)
+are `research solved` with proof `sorry`. The external file at the repository's
+head commit of 15 September 2026, the commit pinned in the claim page's link
+(accessed 2026-09-19), has 1,298 lines and 65,707 bytes; it is headed
 `leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports `Mathlib`, and carries
 the header block "Informal authors: Domagoj Bradač; Formal authors:
 Aristotle, Pietro Monticone", a copyright line naming Pietro Monticone and
 "Authors: Pietro Monticone, Aristotle (Harmonic)", and the URLs of the
-site's thread post of 31 March 2026 and a gist. It defines `IsSeparator G u v T`,
-`IsMinSeparator G u v T`, `IsMinCut G T := ∃ u v : V, u ≠ v ∧ IsMinSeparator G u v T`,
-`numMinCuts G` and `c n` as the supremum of `numMinCuts` over graphs on
-`Fin n`, proves `numMinSeps_le` (Bradač's binomial bound on the separators
-of a pair), `c_n_bound`, `limit_alpha_exists` (Bradač's Proposition 2, by
-Fekete's lemma on `maxPairSeps`), `alpha_le_two_pow_entropy` and the final
+erdosproblems.com thread post of 31 March 2026 and a gist. It defines
+`IsSeparator G u v T`, `IsMinSeparator G u v T`,
+`IsMinCut G T := ∃ u v : V, u ≠ v ∧ IsMinSeparator G u v T`, `numMinCuts G` and
+`c n` as the supremum of `numMinCuts` over graphs on `Fin n`, proves
+`numMinSeps_le` (Bradač's binomial bound on the separators of a pair),
+`c_n_bound`, `limit_alpha_exists` (Bradač's Proposition 2, by Fekete's lemma on
+`maxPairSeps`), `alpha_le_two_pow_entropy` and the final
 `limit_alpha_exists_and_lt_two : ∃ α, Tendsto (fun n ↦ (c n : ℝ) ^ (1 / n : ℝ)) atTop (nhds α) ∧ α < 2`
 (line 1266), followed by `#print axioms limit_alpha_exists_and_lt_two` and
 the comment "depends on axioms: [propext, Classical.choice, Quot.sound]";
@@ -198,7 +200,7 @@ reported it is linked there too. The community database
 records `status` "proved
 (Lean)" since 31 March 2026, `formal_status` Lean since 31 March 2026 with
 no URL, the statement formalized since 3 August 2026 and no formal-proof
-field; the site's indicator records the statement as formalized.
+field; the erdosproblems.com indicator records the statement as formalized.
 
 ## Current assessment
 
@@ -283,16 +285,16 @@ stated on its result page.
   [[../library/extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs/theorem_2|Gaspers--Mackenzie, Theorem 2]]
   (p. 4 of the arXiv v2): $\mathsf{sep}(n)\in\omega(1.4521^n)$ by an
   explicit family, as printed. The published J. Graph Theory version states
-  $\omega(1.4457^n)$ in its abstract, the figure the site and [Br24] print;
-  that version is not held and its proof is unchecked, so the lower bound
+  $\omega(1.4457^n)$ in its abstract, the figure erdosproblems.com and [Br24]
+  print; that version is not held and its proof is unchecked, so the lower bound
   $1.4457$ on $\alpha$ is recorded on the published paper's authority,
   transferred through the left inequality of Bradač's sandwich.
 
-So the answer to the site's question is yes. The subquestion
+So the answer to the erdosproblems.com question is yes. The subquestion
 $c(3m+2)=3^m$ has the answer no if the published lower bound holds (it
 would force $\alpha=3^{1/3}\approx1.4422<1.4457$); that answer rests on
 the unread published construction. The exact value of $\alpha$ is open,
-with the site's interval $[1.4457,1.618]$ as the state of the art.
+with erdosproblems.com's interval $[1.4457,1.618]$ as the state of the art.
 
 **Read depth and proof coverage.** Claims checked for every statement
 named above; Bradač's proofs of Theorem 1 and Proposition
@@ -309,9 +311,9 @@ count throughout and proves no lower bound.
 **Search scope.** None of the routes below found a dispute
 of the bounds, a determination of $\alpha$, or a change of label.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-19; the formal-conjectures file at the pinned commit; the external
-  Lean file and its notes page at the repository's head; the community
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-19; the formal-conjectures file at the pinned commit; the
+  external Lean file and its notes page at the repository's head; the community
   database as fetched that day.
 - arXiv: the API records of 2409.02974 (v1 4 September 2024, v2 23 June
   2026 with the superseded-results comment), 0803.1321 (v2, "Corrected
@@ -331,14 +333,14 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not read: the text of
 
 **Remaining gaps.** (1) The passage from minimal separators to minimal cuts
 (the left inequality $g(n-2)\le c(n)$) is asserted without proof in the one
-source that states it, and the site's question is about minimal cuts; reopening
-condition for this record: a source proving the inequality or the limit for
-$c(n)$ directly. This is a proof-coverage note, not a label tension: the
-refereed sources and the site agree on proved. (2) [FKTV08] is recorded on its
-journal abstract; its proof was not read. (3) The lower bound: the published
-$\omega(1.4457^n)$ is unread; reopening condition: the journal text, or an
-independent proof of a lower bound above $3^{1/3}$. (4) The external Lean
-artifact is not built or audited here; its cut notion differs from the
+source that states it, and the erdosproblems.com question is about minimal cuts;
+reopening condition for this record: a source proving the inequality or the
+limit for $c(n)$ directly. This is a proof-coverage note, not a label tension:
+the refereed sources and erdosproblems.com agree on proved. (2) [FKTV08] is
+recorded on its journal abstract; its proof was not read. (3) The lower bound:
+the published $\omega(1.4457^n)$ is unread; reopening condition: the journal
+text, or an independent proof of a lower bound above $3^{1/3}$. (4) The external
+Lean artifact is not built or audited here; its cut notion differs from the
 collection's, so the suffix of the label PROVED (LEAN) attaches to a proof of
 the separator statement. (5) The journal texts of the three sources cited from
 preprints were not compared, and whether the J. Graph Theory version of [Br24]

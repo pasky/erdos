@@ -5,7 +5,8 @@ desc: |
   Erdős's 1983 ICM construction, the numbers 4^u + 4^v with 1 ≤ u ≤ n < v ≤
   n + n^2, a B_2^{(2)} sequence of n^3 terms none of whose subsequences of
   more than 2n^2 terms is Sidon, with his remark that he cannot decide whether
-  the exponent 2/3 is best possible; the site's source for Problem 772.
+  the exponent 2/3 is best possible; the erdosproblems.com source for
+  Problem 772.
 created: 2026-10-08T14:30:02Z
 updated: 2026-10-08T14:30:02Z
 ---
@@ -73,9 +74,9 @@ None stated beyond the four-cycle count above.
 
 ## Bears on
 
-- [[../wiki/problems/additive_bases/E0772/_index|Problem 772]]: the site's
-  [Er84d] source. In the problem's notation the construction gives
-  $H_k(n^3)\le2n^2$ for every $k\ge4$: two unordered representations of a
+- [[../wiki/problems/additive_bases/E0772/_index|Problem 772]]:
+  erdosproblems.com's [Er84d] source. In the problem's notation the construction
+  gives $H_k(n^3)\le2n^2$ for every $k\ge4$: two unordered representations of a
   sum are at most four ordered ones, so $\|1_A\ast1_A\|_\infty\le4$ for this
   set $A$ of $n^3$ terms. The printed remark leaves open whether the
   exponent $\frac23$ is best possible and doubts that it could be improved

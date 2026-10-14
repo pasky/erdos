@@ -27,11 +27,11 @@ graphs with $k$ vertices and $l$ edges.
 Give good estimates for $f(n;k,l)$ in the range $k<l\leq k^2/4$. For fixed $k$
 and large $n$ is $f(n;k,l)$ a strictly monotone function of $l$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page carries no
-last-edited date). The site's $f(n;k,l)$ is the smallest Turán number among
-the graphs with $k$ vertices and $l$ edges: the largest number of edges of an
-$n$-vertex graph avoiding the easiest such graph to force. The origin is
-[Er64c], p. 33
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+carries no last-edited date). erdosproblems.com's $f(n;k,l)$ is the smallest
+Turán number among the graphs with $k$ vertices and $l$ edges: the largest
+number of edges of an $n$-vertex graph avoiding the easiest such graph to force.
+The origin is [Er64c], p. 33
 ([[../library/extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/conjecture_p33|result page]]):
 "In the range $k<l\le[k^2/4]$ I do not have good estimates for $f(n;k,l)$, I
 cannot even prove that for fixed $k$ and sufficiently large $n$, $f(n;k,l)$ is
@@ -44,22 +44,23 @@ least number that forces every $\mathfrak G(k;l)$, the hardest one included.
 The paper notes that $f_1\le f_2\le f_3$ trivially and that $f_1<f_2$ in
 general (p. 30, with the example $f_1(n;k,[k^2/4]+2)=[n^2/4]+2$ for $n>7$
 while no single $\mathfrak G(k;[k^2/4]+2)$ is forced), and p. 30 fixes
-$f(n;k,l)$ as shorthand for $f_1(n;k,l)$. An observation made here: the site's
-minimum of Turán numbers is the paper's $f_2(n;k,l)-1$ (the least edge count
-forcing one fixed $k$-vertex $l$-edge graph is $\min_G\mathrm{ex}(n;G)+1$),
-while the passage the site follows asks about $f_1$, the least edge count
-forcing some $k$-vertex $l$-edge graph, which may vary with the host; the two
-differ in general. Both are nondecreasing in $l$, since deleting an edge from
-a $k$-vertex graph with $l+1$ edges leaves one with $l$ edges, so the question
-in either reading is strictness. The Statement is the site's minimum of Turán
-numbers. The departure from the passage changes no known answer, since both
-readings are open, so the Statement stands and the $f_1$ reading is a variant.
+$f(n;k,l)$ as shorthand for $f_1(n;k,l)$. An observation made here:
+erdosproblems.com's minimum of Turán numbers is the paper's $f_2(n;k,l)-1$ (the
+least edge count forcing one fixed $k$-vertex $l$-edge graph is
+$\min_G\mathrm{ex}(n;G)+1$), while the passage erdosproblems.com follows asks
+about $f_1$, the least edge count forcing some $k$-vertex $l$-edge graph, which
+may vary with the host; the two differ in general. Both are nondecreasing in
+$l$, since deleting an edge from a $k$-vertex graph with $l+1$ edges leaves one
+with $l$ edges, so the question in either reading is strictness. The Statement
+is erdosproblems.com's minimum of Turán numbers. The departure from the passage
+changes no known answer, since both readings are open, so the Statement stands
+and the $f_1$ reading is a variant.
 
-**Status.** Open. The site labeled the problem OPEN. The search whose scope the
-Current assessment records found no source that estimates $f(n;k,l)$ for general
-$(k,l)$ in the range $k<l\le k^2/4$, beyond the pairs recorded below. It also
-found none that decides strict monotonicity in $l$ in either reading. This is a
-bounded negative finding, not a certificate of openness.
+**Status.** Open. Bloom's catalog labeled the problem OPEN. The search whose
+scope the Current assessment records found no source that estimates $f(n;k,l)$
+for general $(k,l)$ in the range $k<l\le k^2/4$, beyond the pairs recorded
+below. It also found none that decides strict monotonicity in $l$ in either
+reading. This is a bounded negative finding, not a certificate of openness.
 
 The origin records the following in the range. The Kővári--Sós--Turán bound says
 that $[c_kn^{2-1/k}]$ edges force a $K(k,k)$, so $f(n;2k,k^2)\le c_kn^{2-1/k}$
@@ -75,14 +76,14 @@ Later results at these pairs are recorded in the Current assessment. Brown's
 $K_{3,3}$-free construction of 1966 gives $f(n;6,9)\gg n^{5/3}$. This proves the
 1964 conjecture for $k=3$ and settles $\lim f(n;6,9)/n^{3/2}=\infty$. Füredi's
 bounds of 1996 give $f(n;6,9)\sim\tfrac12n^{5/3}$ and
-$f(n;5,6)=\mathrm{ex}(n;K_{2,3})\sim n^{3/2}/\sqrt2$ in the site's
+$f(n;5,6)=\mathrm{ex}(n;K_{2,3})\sim n^{3/2}/\sqrt2$ in the erdosproblems.com
 normalization. General $(k,l)$ in the range and strict monotonicity remain
 unresolved.
 
-The site's commentary sentence on $l=\lfloor k^2/4\rfloor+1$ is the paper's p.
-34 statement (below), just above the range. Its Dirac half is Theorem 1 of
-[Di63] at $k=3$. Inside the range, that paper's only statements come from the
-cases $\alpha\le0$ of its Theorems 1 and 2. These are upper bounds of order
+The erdosproblems.com commentary sentence on $l=\lfloor k^2/4\rfloor+1$ is the
+paper's p. 34 statement (below), just above the range. Its Dirac half is Theorem
+1 of [Di63] at $k=3$. Inside the range, that paper's only statements come from
+the cases $\alpha\le0$ of its Theorems 1 and 2. These are upper bounds of order
 $n^2$ on $f_1$, where the Kővári--Sós--Turán theorem gives $o(n^2)$, and that
 paper says nothing about monotonicity in $l$. The neighboring question of Chung
 and Erdős (1983) asks which graph with $e$ edges minimizes $\mathrm{ex}(n;H)$,
@@ -92,7 +93,7 @@ and $l$.
 
 **Source.** [erdosproblems.com/766](https://www.erdosproblems.com/766),
 accessed 2026-09-18: the problem page (labeled OPEN,
-with the site's note that no finite computation can settle it; no
+with the erdosproblems.com note that no finite computation can settle it; no
 last-edited date; source key [Er64c]; a one-sentence commentary, recorded
 below; the external database's OEIS field "Possible"), its empty
 discussion thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
@@ -134,21 +135,21 @@ Problem #766, https://www.erdosproblems.com/766, accessed 2026-09-18.
   $f_1(n;5,6)=f_2(n;5,6)$.
 - [Br66] Brown, W. G., On graphs that do not contain a Thomsen graph. Canad.
   Math. Bull. 9 (1966), no. 3, 281--285; Section 2, the $K_{3,3}$-free
-  construction. Not cited by the site. Library home:
+  construction. Not cited by erdosproblems.com. Library home:
   [[../library/extremal_graph_theory/brown_1966_graphs_that_do_not_contain_thomsen/_index|brown_1966_graphs_that_do_not_contain_thomsen]];
   paged at
   [[../library/extremal_graph_theory/brown_1966_graphs_that_do_not_contain_thomsen/main_theorem|main_theorem]].
 - [Fu96a] Füredi, Z., New asymptotics for bipartite Turán numbers. J.
   Combin. Theory Ser. A 75 (1996), no. 1, 141--144,
-  doi:10.1006/jcta.1996.0067. Not cited by the site; its $K(2,t+1)$
+  doi:10.1006/jcta.1996.0067. Not cited by erdosproblems.com; its $K(2,t+1)$
   asymptotic is recorded second-hand.
 - [Fu96b] Füredi, Z., An upper bound on Zarankiewicz' problem. Combin.
   Probab. Comput. 5 (1996), no. 1, 29--33, doi:10.1017/S0963548300001814.
-  Not cited by the site.
+  Not cited by erdosproblems.com.
 - [BDS21] Bucić, M., Draganić, N. and Sudakov, B., Universal and unavoidable
   graphs. Combin. Probab. Comput. 30 (2021), no. 6, 942--955,
   doi:10.1017/S0963548321000110; arXiv:1912.04889v2 (21 December 2020).
-  Theorem 1.1, p. 2. Not cited by the site. Library home:
+  Theorem 1.1, p. 2. Not cited by erdosproblems.com. Library home:
   [[../library/extremal_graph_theory/bucic_2019_universal_unavoidable_graphs/_index|bucic_2019_universal_unavoidable_graphs]];
   paged at
   [[../library/extremal_graph_theory/bucic_2019_universal_unavoidable_graphs/theorem_1_1|theorem_1_1]].
@@ -156,16 +157,16 @@ Problem #766, https://www.erdosproblems.com/766, accessed 2026-09-18.
   reference [10] of [BDS21]; it is cited here only as the question [BDS21]
   answers.
 
-**Formalization.** None. The formal-conjectures repository holds no file
-`ErdosProblems/766.lean`, neither as of 2026-09-18 nor as of 2026-10-07;
-the site's page shows no formalized statement; the community database
+**Formalization.** None. The formal-conjectures repository held no file
+`ErdosProblems/766.lean`, neither on 2026-09-18 nor on 2026-10-07;
+the erdosproblems.com page shows no formalized statement; the community database
 records the problem open (last update 31 August 2025), unformalized, with
 no formalized statement, and an OEIS field "possible" (snapshot of
 2026-10-06).
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN; no last-edited date. The commentary is one sentence: at
 $l=\lfloor k^2/4\rfloor+1$ the bound $f(n;k,l)\le\lfloor n^2/4\rfloor+1$
 holds, proved independently by Dirac and by Erdős. The discussion thread
@@ -186,9 +187,9 @@ above, the problem itself: no good estimates for $f(n;k,l)$ in the range, and
 not even strict monotonicity in $l$ for fixed $k$ and large $n$. The paper
 proves nothing; p. 30 announces that no proofs are given and that a result
 cited without a reference is unpublished. The $f_1$ reading of the passage,
-and the site's $f_2-1$ definition, are as the Formulation records.
+and erdosproblems.com's $f_2-1$ definition, are as the Formulation records.
 
-**The site's Dirac--Erdős sentence, traced.** [Er64c], p. 34
+**erdosproblems.com's Dirac--Erdős sentence, traced.** [Er64c], p. 34
 ([[../library/extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/theorem_p34|theorem_p34]]),
 opens its short discussion of $l>[k^2/4]$ with the statement "Dirac and I
 showed independently that every $\mathfrak G(n;[n^2/4]+1)$ contains, for every
@@ -197,26 +198,27 @@ general, and then states, as considerably harder, the fixed-graph result cited
 to [13]: for every $k$ there is an $n_0(k)$ such that for $n>n_0(k)$ every
 $\mathfrak G(n;[n^2/4]+1)$ contains a $K(k,k)$ with one extra edge, a graph of
 determined structure. The exact values (12) $f_1(n;k,[k^2/4]+u)=[n^2/4]+u$ for
-$[(k+1)/4]\ge u$ and (13) follow. The first sentence is the site's commentary
-in the paper's $f_1$ normalization (some $k$-vertex graph with $[k^2/4]+1$
-edges, for every $k\le n$); in the site's own definition, a fixed graph, the
-corresponding statement is the second, for even $k$ and large $n$ only. The
-paper prints no reference for the first sentence, so by its p. 30 convention
-the result was unpublished in 1964, and Dirac's more general theorem is left
-without a citation; the paper's only Dirac reference is [Di63], cited on p. 31
+$[(k+1)/4]\ge u$ and (13) follow. The first sentence is the erdosproblems.com
+commentary in the paper's $f_1$ normalization (some $k$-vertex graph with
+$[k^2/4]+1$ edges, for every $k\le n$); in erdosproblems.com's own definition, a
+fixed graph, the corresponding statement is the second, for even $k$ and large
+$n$ only. The paper prints no reference for the first sentence, so by its p. 30
+convention the result was unpublished in 1964, and Dirac's more general theorem
+is left without a citation; the paper's only Dirac reference is [Di63], cited on
+p. 31
 ([[../library/extremal_graph_theory/erdos_1964_extremal_problems_graph_theory/theorem_p31|theorem_p31]])
 beside the easy value $f(n;4,5)=[n^2/4]+1$ [6], where $K_4$ minus an edge is
 the only $\mathfrak G(4;5)$, for the more general theorem, proved
 independently by Dirac and by Erdős, that every $\mathfrak G(n;m(n,k))$
 contains a $K_{k+1}$ with at most one edge missing, $m(n,k)$ being Turán's
-threshold for $K_k$ and [6] = [Er55]. The site's sentence therefore has a
-printed source in the paper the site cites, with the two references
-identified, and its primary publication is not identified there. P. 32 adds
-the graphs on five vertices: for $n>n_0$ every $\mathfrak G(n;[n^2/4]+1)$
-contains the two graphs the paper calls types **a** and **b**, again by Dirac
-and by Erdős independently, so $f_1(n;5,7)=f_2(n;5,7)=[n^2/4]+1$, and the
-paper speaks of the sharpening of Turán's theorem due to the two of them.
-Nothing is proved in the paper.
+threshold for $K_k$ and [6] = [Er55]. The erdosproblems.com sentence therefore
+has a printed source in the paper erdosproblems.com cites, with the two
+references identified, and its primary publication is not identified there. P.
+32 adds the graphs on five vertices: for $n>n_0$ every
+$\mathfrak G(n;[n^2/4]+1)$ contains the two graphs the paper calls types **a**
+and **b**, again by Dirac and by Erdős independently, so
+$f_1(n;5,7)=f_2(n;5,7)=[n^2/4]+1$, and the paper speaks of the sharpening of
+Turán's theorem due to the two of them. Nothing is proved in the paper.
 
 **The Dirac half, at its theorems.** [Di63], Theorem 1 (p. 417;
 [[../library/extremal_graph_theory/dirac_1963_extensions_turan_s_theorem_graphs/theorem_1|theorem_1]]):
@@ -275,11 +277,11 @@ nothing transfers to $f(n;k,l)$ (the card already says so).
 **The Zarankiewicz pairs at the top of the range.** An observation made here:
 a bipartite graph on $2k$ vertices has at most $k^2$ edges, with equality only
 for $K(k,k)$, so every other graph with $2k$ vertices and $k^2$ edges contains
-an odd cycle and has Turán number at least $[n^2/4]$; hence, in the site's
-normalization, $f(n;2k,k^2)=\mathrm{ex}(n;K_{k,k})$ for all large $n$, and in
-the paper's $f_1$ the least edge count forcing some such graph lies between
-$\tfrac12\mathrm{ex}(n;K_{k,k})$ and $\mathrm{ex}(n;K_{k,k})+1$, since a
-$K(k,k)$-free graph's largest bipartite subgraph, with at least half its
+an odd cycle and has Turán number at least $[n^2/4]$; hence, in the
+erdosproblems.com normalization, $f(n;2k,k^2)=\mathrm{ex}(n;K_{k,k})$ for all
+large $n$, and in the paper's $f_1$ the least edge count forcing some such graph
+lies between $\tfrac12\mathrm{ex}(n;K_{k,k})$ and $\mathrm{ex}(n;K_{k,k})+1$,
+since a $K(k,k)$-free graph's largest bipartite subgraph, with at least half its
 edges, avoids every graph of the family. Likewise $K(2,3)$ is the only
 bipartite graph with five vertices and six edges, so
 $f(n;5,6)=\mathrm{ex}(n;K_{2,3})$ for large $n$, that is $f_2(n;5,6)-1$. The
@@ -291,7 +293,7 @@ problems. Brown's construction
 ([[../library/extremal_graph_theory/brown_1966_graphs_that_do_not_contain_thomsen/main_theorem|Brown 1966, main theorem]]):
 for odd primes $p$ a $K_{3,3}$-free graph on $p^3$ vertices with $(p^5-p^4)/2$
 edges, hence $\mathrm{ex}(n;K_{3,3})>cn^{5/3}$ for all large $n$ and
-$\liminf n^{-5/3}\mathrm{ex}(n;K_{3,3})\ge\tfrac12$. In the site's
+$\liminf n^{-5/3}\mathrm{ex}(n;K_{3,3})\ge\tfrac12$. In the erdosproblems.com
 normalization this gives $f(n;6,9)\gg n^{5/3}$, and in the paper's $f_1$ at
 least half of it, so the 1964 conjecture $f_1(n;2k,k^2)>\alpha_kn^{2-1/k}$
 holds for $k=3$ and $\lim f(n;6,9)/n^{3/2}=\infty$, which the 1964 paper could
@@ -312,8 +314,8 @@ estimates over the whole range.
 **Search scope.** None of the routes below found a source
 estimating $f(n;k,l)$ in the range or deciding strict monotonicity.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-18; the formal-conjectures tree (no file 766); the community
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures tree (no file 766); the community
   database entry.
 - arXiv API: the searches `(abs:unavoidable AND abs:Turán) OR abs:"minimum
   Turán number" OR abs:"minimizes ex"` (six records, none on $f(n;k,l)$;
@@ -328,9 +330,9 @@ estimating $f(n;k,l)$ in the range or deciding strict monotonicity.
 
 Not searched: MathSciNet, zbMATH, Google Scholar, X.
 
-**Remaining gaps.** (1) The site's definition ($\min\mathrm{ex}$, the paper's
-$f_2-1$) differs from the function of the passage it follows ($f_1$); the
-Formulation records both, and both are open. (2) The primary publication of
+**Remaining gaps.** (1) The erdosproblems.com definition ($\min\mathrm{ex}$, the
+paper's $f_2-1$) differs from the function of the passage it follows ($f_1$);
+the Formulation records both, and both are open. (2) The primary publication of
 the Dirac--Erdős statement of p. 34 is identified on the Dirac side only:
 [Di63], Theorem 1 at $k=3$. The Erdős side carries no reference in the paper,
 and the theorem of [Er63], the paper's citation for the fixed-graph form, is
@@ -360,7 +362,7 @@ statement level. (5) There is no Lean statement of the problem.
 - [[../library/extremal_graph_theory/brown_1966_graphs_that_do_not_contain_thomsen/main_theorem|Brown 1966, main theorem]]:
   $K_{3,3}$-free graphs on $p^3$ vertices with $(p^5-p^4)/2$ edges,
   hence $f(n;6,9)\gg n^{5/3}$ and $\liminf n^{-5/3}f(n;6,9)\ge\tfrac12$ in
-  the site's normalization; the case $k=3$ of the 1964 conjecture.
+  the erdosproblems.com normalization; the case $k=3$ of the 1964 conjecture.
 - [Fu96b] and [Fu96a] (1996, refereed):
   $\mathrm{ex}(n;K_{3,3})\sim\tfrac12n^{5/3}$ and
   $\mathrm{ex}(n;K_{2,t+1})=\tfrac12\sqrt t\,n^{3/2}+O(n^{4/3})$, so

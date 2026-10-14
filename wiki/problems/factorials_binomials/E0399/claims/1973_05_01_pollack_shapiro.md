@@ -38,20 +38,20 @@ last case of a factorial Diophantine equation, cites the paper of Erdős and
 Obláth, whose Satz 3 excludes coprime differences of fourth powers only for
 sufficiently large $n$.
 
-**Covers.** $n!=x^4-1$ has no solution. This is the site's account. Erdős and
-Graham's monograph, the problem's source (p. 77), reports more: that the paper
-shows there are no solutions with $\gcd(x,y)=1$ and $k=4$, which would close
-the coprime case for every $k>2$. The site's own page gave that wider account
-in its archived copy of 7 November 2024 and the narrower one from its copy of
-7 April 2025, both linked above. Neither the paper nor a review of it stating
-its theorem is held, so the wider report is recorded as unconfirmed.
+**Covers.** $n!=x^4-1$ has no solution. This is erdosproblems.com's account.
+Erdős and Graham's monograph, the problem's source (p. 77), reports more: that
+the paper shows there are no solutions with $\gcd(x,y)=1$ and $k=4$, which would
+close the coprime case for every $k>2$. erdosproblems.com's own page gave that
+wider account in its archived copy of 7 November 2024 and the narrower one from
+its copy of 7 April 2025, both linked above. Neither the paper nor a review of
+it stating its theorem is held, so the wider report is recorded as unconfirmed.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: R. M. Pollack and H. N. Shapiro, The next to last
 case of a factorial diophantine equation, Comm. Pure Appl. Math. 26 (1973),
-no. 3, 313–325. The site's curator credits the result in the commentary, but
-the site's label settles the problem through Barfield's counterexample and not
-through this result, so `reviewed` is not listed. The formal-conjectures file
-states the site's version as `erdos_399.variants.pollack_shapiro` with `sorry`,
-which is not a formalization.
+no. 3, 313–325. The erdosproblems.com curator credits the result in the
+commentary, but the erdosproblems.com label settles the problem through
+Barfield's counterexample and not through this result, so `reviewed` is not
+listed. The formal-conjectures file states the erdosproblems.com version as
+`erdos_399.variants.pollack_shapiro` with `sorry`, which is not a formalization.

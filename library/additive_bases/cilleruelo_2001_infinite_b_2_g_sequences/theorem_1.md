@@ -119,5 +119,5 @@ pages here are that version's printed pages 1--4, not the journal's.
 - [[../wiki/problems/integer_sequences/E0329/_index|Problem 329]]: the
   problem asks for the largest $\limsup A(N)/N^{1/2}$ of a Sidon set
   ($g=1$). The theorem concerns $g\ge2$, a wider class of sets, and gives no
-  bound for Sidon sets; the problem's site lists the paper among its
-  references.
+  bound for Sidon sets; the problem's erdosproblems.com page lists the paper
+  among its references.

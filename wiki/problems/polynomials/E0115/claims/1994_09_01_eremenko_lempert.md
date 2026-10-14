@@ -5,7 +5,7 @@ desc: |
   Eremenko and Lempert prove that if $p$ is monic of degree $n$ and
   $\{\lvert p\rvert\le1\}$ is connected, then $\lvert p'\rvert\le2^{1/n-1}n^2$
   on that set, with equality for a shifted Chebyshev polynomial. The result is
-  refereed and credited by the site.
+  refereed and credited by erdosproblems.com.
 authors:
 - A. Eremenko
 - L. Lempert
@@ -46,9 +46,9 @@ point of $E_p$ by translation; the card
 records the statement and its sharpness. It proves the modified Statement
 of [[problems/polynomials/E0115/_index|Problem 115]], which takes $p$ monic as
 Erdős's own statement does [Er61, p. 246], and identifies the Chebyshev
-polynomials as the extreme examples, which Erdős had suggested. The site's
-wording, with no normalization, fails, since $p(z)=cz^n$ has the connected set
-$\{\lvert z\rvert\le\lvert c\rvert^{-1/n}\}$ and derivative
+polynomials as the extreme examples, which Erdős had suggested. The
+erdosproblems.com wording, with no normalization, fails, since $p(z)=cz^n$ has
+the connected set $\{\lvert z\rvert\le\lvert c\rvert^{-1/n}\}$ and derivative
 $n\lvert c\rvert^{1/n}$ on its boundary, which exceeds $n^2$ once
 $\lvert c\rvert>n^n$. The earlier bound was Pommerenke's $\tfrac e2n^2$ [Po59a].
 The proof takes an extremal polynomial, replaces its zeros by their negated
@@ -63,11 +63,11 @@ paper.
 Mathematical Society in September 1994. Reviewed: erdosproblems.com labeled the
 problem proved, states that Eremenko and Lempert showed the bound with Chebyshev
 polynomials as the extreme examples, and cites the paper as [ErLe94]. The corpus
-counts this as documented independent acceptance by the site's curator, T. F.
-Bloom (erdosproblems.com). The community database lists the problem as proved
-with a Lean marker as of its last update.
+counts this as documented independent acceptance by the erdosproblems.com
+curator, T. F. Bloom (erdosproblems.com). The community database lists the
+problem as proved with a Lean marker as of its last update.
 
-**Formalization.** The site's Lean marker refers to a formal proof by
+**Formalization.** The erdosproblems.com Lean marker refers to a formal proof by
 others, not by the authors: the file linked above, in the `lean-proofs`
 repository at the pinned commit, ends with `Erdos115.eremenko_lempert_1999`,
 which states for $n\ne0$ that every monic $p$ of degree $n$ with connected
@@ -83,5 +83,5 @@ formal-conjectures statement of the problem (monic $p$, the bound
 $(\tfrac12+\varepsilon)n^2$ for all large $n$) is marked solved with a link
 to this file. This corpus has not built the development or audited its
 statement against the modified Statement, so the evidence lists no
-`formalized` kind; the standing rests on the refereeing and the site's
+`formalized` kind; the standing rests on the refereeing and erdosproblems.com's
 acceptance.

@@ -113,7 +113,7 @@ the proof.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0186/_index|Problem 186]]: the lower bound
-  $F(N)\gg N^{1/4}$ that the site credits to [Bo89]; with
+  $F(N)\gg N^{1/4}$ that erdosproblems.com credits to [Bo89]; with
   [[additive_combinatorics/pham_2024_sharp_bound_erdos_straus_non_averaging/theorem_1|Theorem 1]]
   of Pham and Zakharov it gives $F(N)=N^{1/4+o(1)}$, the order of growth up
   to the $o(1)$ in the exponent.

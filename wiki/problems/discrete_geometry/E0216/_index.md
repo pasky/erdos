@@ -25,22 +25,23 @@ updated: 2026-10-08T03:43:48Z
 any $g(k)$ points in $\mathbb{R}^2$ contains an empty convex $k$-gon (i.e. with
 no point in the interior). Does $g(k)$ exist? If so, estimate $g(k)$.
 
-**Formulation.** The site's wording omits the convention, standard for $g(k)$,
-that the points are in general position, no three on a line. Read as the site
-words it, $g(k)$ exists for no $k\ge3$, since any number of collinear points
-contains no convex $k$-gon. The page reads the problem as Erdős's 1978
-formulation (Austral. Math. Soc. Gaz. 5 (1978), p. 53) and the sources do, over
-sets with no three points collinear (Horton's definition of $g(n)$, Harborth,
-Nicolás, Gerken, Heule and Scheucher), which is the reading of every claim page.
-The negative answer is the same under both readings; the values $g(4)=5$,
-$g(5)=10$ and $g(6)=30$ hold only under this one.
+**Formulation.** The erdosproblems.com wording omits the convention, standard
+for $g(k)$, that the points are in general position, no three on a line. Read as
+Bloom's catalog words it, $g(k)$ exists for no $k\ge3$, since any number of
+collinear points contains no convex $k$-gon. The page reads the problem as
+Erdős's 1978 formulation (Austral. Math. Soc. Gaz. 5 (1978), p. 53) and the
+sources do, over sets with no three points collinear (Horton's definition of
+$g(n)$, Harborth, Nicolás, Gerken, Heule and Scheucher), which is the reading of
+every claim page. The negative answer is the same under both readings; the
+values $g(4)=5$, $g(5)=10$ and $g(6)=30$ hold only under this one.
 
-**Status.** Disproved. The site labeled the problem disproved on the strength of
-Horton's construction of arbitrarily large point sets with no empty convex
-heptagon, recorded on the
+**Status.** Disproved. Bloom's catalog labeled the problem disproved on the
+strength of Horton's construction of arbitrarily large point sets with no empty
+convex heptagon, recorded on the
 [[problems/discrete_geometry/E0216/claims/1983_12_01_horton|Horton claim page]].
-The site's remarks credit the instances that exist. The value $g(4)=5$ is due to
-Erdős, with no source given, so it stays in prose. The value $g(5)=10$ is on the
+The erdosproblems.com remarks credit the instances that exist. The value
+$g(4)=5$ is due to Erdős, with no source given, so it stays in prose. The value
+$g(5)=10$ is on the
 [[problems/discrete_geometry/E0216/claims/1978_01_01_harborth|Harborth claim page]].
 The existence of $g(6)$ is on the
 [[problems/discrete_geometry/E0216/claims/2007_09_01_nicolas|Nicolás]] and

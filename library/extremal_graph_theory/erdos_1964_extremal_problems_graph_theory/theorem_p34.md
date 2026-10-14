@@ -79,9 +79,9 @@ None stated.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0766/_index|Problem 766]]: the source of the
-  site's commentary "Dirac and Erdős proved independently that when
+  erdosproblems.com commentary "Dirac and Erdős proved independently that when
   $l=\lfloor k^2/4\rfloor+1$, $f(n;k,l)\le\lfloor n^2/4\rfloor+1$", which is
-  the first sentence above in the paper's $f_1$ normalization; the site
+  the first sentence above in the paper's $f_1$ normalization; erdosproblems.com
   defines its $f$ as the minimum of $\mathrm{ex}(n;G)$ over fixed $G$, for
   which the corresponding statement is the second sentence, for even $k=2k'$
   and large $n$ only. Both are recorded on the problem page as printed.

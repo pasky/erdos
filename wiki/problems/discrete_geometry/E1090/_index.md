@@ -27,13 +27,14 @@ updated: 2026-10-08T14:17:37Z
 contains at least $k$ points from $A$, and all the points of $A$ on the line
 have the same colour?
 
-**Status.** PROVED (LEAN). The site credits Zach Hunter's observation (October
+**Status.** PROVED (LEAN). erdosproblems.com credits Zach Hunter's observation
+(October
 2025) that a generic plane projection of a high-dimensional cube $[k]^n$ has the
 property by the Hales–Jewett theorem. The observation was proved in Lean in
 February 2026. See the
-[[problems/discrete_geometry/E1090/claims/2025_10_17_hunter|claim page]]. The
-site also repeats Erdős's 1975 report that Graham and Selfridge answered the
-case $k=3$. That report is a pending partial claim on
+[[problems/discrete_geometry/E1090/claims/2025_10_17_hunter|claim page]].
+erdosproblems.com also repeats Erdős's 1975 report that Graham and Selfridge
+answered the case $k=3$. That report is a pending partial claim on
 [[problems/discrete_geometry/E1090/claims/1975_12_01_graham_selfridge|its own claim page]].
 
 **Source.** [erdosproblems.com/1090](https://www.erdosproblems.com/1090),

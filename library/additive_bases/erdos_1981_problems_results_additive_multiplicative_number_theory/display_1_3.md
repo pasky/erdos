@@ -60,10 +60,10 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/divisors/E0018/_index|Problem 18]]: one of the site's
-  sources ([Er81h]). The problem's $h(m)$ is the paper's $S(m)$ for practical
-  $m$ (the paper's range $1\le m\le n$ also takes $m=n$, which $n$ itself
-  represents), and its first question, whether $h(m)<(\log\log m)^{O(1)}$ for
-  infinitely many practical $m$, is (1.3). The paper's prize offer is for
-  a proof or disproof of (1.3). The paper does not ask the problem's questions
-  about $h(n!)$; it records only $S(n!)<n$.
+- [[../wiki/problems/divisors/E0018/_index|Problem 18]]: one of the
+  erdosproblems.com sources ([Er81h]). The problem's $h(m)$ is the paper's
+  $S(m)$ for practical $m$ (the paper's range $1\le m\le n$ also takes $m=n$,
+  which $n$ itself represents), and its first question, whether
+  $h(m)<(\log\log m)^{O(1)}$ for infinitely many practical $m$, is (1.3). The
+  paper's prize offer is for a proof or disproof of (1.3). The paper does not
+  ask the problem's questions about $h(n!)$; it records only $S(n!)<n$.

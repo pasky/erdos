@@ -65,5 +65,5 @@ Alon 2008, Proposition 2.1.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0803/_index|Problem 803]]: the refereed
-  attestation of the disproof and the form in which the site's commentary
-  quotes it ("$\ll m\sqrt{\log m}+\log D$ many edges").
+  attestation of the disproof and the form in which the erdosproblems.com
+  commentary quotes it ("$\ll m\sqrt{\log m}+\log D$ many edges").

@@ -27,7 +27,7 @@ check files and observed outputs; the third-round pair is in force as
 acceptance. The file
 [`assets/frozen_r3_E0252.md`](assets/frozen_r3_E0252.md) is
 the third-round reviewer's frozen extraction of 2026-09-18 (the pages as they
-stood at 2026-09-18T07:24:04Z): the site's
+stood at 2026-09-18T07:24:04Z): the erdosproblems.com
 wording, the Lean paths and line counts, the package pins and the Mathlib
 checkout facts, with no redaction markers and no frontmatter. The folder
 `assets/upstream/`

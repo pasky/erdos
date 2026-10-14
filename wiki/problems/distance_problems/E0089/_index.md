@@ -22,8 +22,9 @@ updated: 2026-10-08T14:17:37Z
 **Statement.** Does every set of $n$ distinct points in $\mathbb{R}^2$ determine
 $\gg n/\sqrt{\log n}$ many distinct distances?
 
-**Status.** Open. The site's export of 2026-09-04 labeled the problem "OPEN"
-(page last edited 23 January 2026). The site lists no proof claim for it.
+**Status.** Open. The erdosproblems.com export of 2026-09-04 labeled the problem
+"OPEN" (page last edited 23 January 2026). erdosproblems.com lists no proof
+claim for it.
 
 **Source.** [erdosproblems.com/89](https://www.erdosproblems.com/89), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #89,
@@ -43,18 +44,18 @@ https://www.erdosproblems.com/89.
 
 ## Current assessment
 
-- **Question and standing.** The site formulation above (page last edited
-  23 January 2026) asks whether every $n$-point planar set determines
-  $\gg n/\sqrt{\log n}$ distinct distances. Nothing claims to settle it: the
-  site lists no proof claim, no forum claim and no release item names the
-  problem as its subject, and no literature result known here reaches the
-  conjectured bound. The problem is open.
+- **Question and standing.** The erdosproblems.com formulation above (page last
+  edited 23 January 2026) asks whether every $n$-point planar set determines
+  $\gg n/\sqrt{\log n}$ distinct distances. Nothing claims to settle it:
+  erdosproblems.com lists no proof claim, no forum claim and no release item
+  names the problem as its subject, and no literature result known here reaches
+  the conjectured bound. The problem is open.
 - **Known results.** The $\sqrt n\times\sqrt n$ integer grid determines
   $O(n/\sqrt{\log n})$ distinct distances, so the bound asked for would be
   best possible. Guth and Katz [GuKa15], carded at
   [[../library/distance_problems/guth_2015_erdos_distinct_distance_problem_plane/_index|guth_2015_erdos_distinct_distance_problem_plane]],
   proved that every $n$-point planar set determines $\gg n/\log n$ distinct
-  distances, which leaves a factor of $\sqrt{\log n}$. The site records
+  distances, which leaves a factor of $\sqrt{\log n}$. erdosproblems.com records
   stronger forms, that a single point determines $\gg n/\sqrt{\log n}$
   distinct distances, that $\gg n$ points do, or Erdős's 1975 conjecture
   [Er75f], printed in Section 1 of the survey carded at
@@ -82,8 +83,8 @@ https://www.erdosproblems.com/89.
   ([[../library/distance_problems/openai_2026_higher_dimensional_erdos_distinct_distances_conjecture/theorem_b_12|Theorem B.12]]),
   without improving it, and has no claim page here. The item is background
   here and gives no claim page.
-- **Status search.** The site's page and its proof-claims tab; no broader
-  literature search is recorded.
+- **Status search.** The erdosproblems.com page and its proof-claims tab; no
+  broader literature search is recorded.
 - **Proof coverage and review.** None: the problem is open, and no proof is
   held or reviewed.
 <!-- BEGIN problem library links -->

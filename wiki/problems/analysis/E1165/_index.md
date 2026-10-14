@@ -57,32 +57,32 @@ $$
 
 for $r\geq 3$.
 
-**Notes.** The site's wording does not say which random walk is meant, and
-the answer depends on the law: for the walk whose steps are $(1,0)$ and
-$(0,1)$ with probability $1/2$ each, no site is visited twice, so
+**Notes.** The erdosproblems.com wording does not say which random walk is
+meant, and the answer depends on the law: for the walk whose steps are $(1,0)$
+and $(0,1)$ with probability $1/2$ each, no site is visited twice, so
 $\lvert F(n)\rvert=n+1$ equals $r$ only at $n=r-1$ and the probability is $0$
 for every $r\ge3$, while for the simple random walk it is $1$ at $r=3$. The
 poser's own text leaves the law open as well: the setup of Section 6.1 of
 [Va99], printed p. 11, which precedes Erdős and Révész's item 6.77 on printed
 p. 12, says only "a random walk on $\mathbb{Z}^2$", so the ambiguity is
-already in the poser's text and the site's wording copies it. The change
-inserts "simple" before "random walk", the walk whose independent increments
-are uniform on $(\pm1,0),(0,\pm1)$; nothing else changes, and the time-zero
-visit is counted as the site counts it. The evidence is the literature's
-statement of the question as Erdős and Révész's. Hao, Li, Okada and Zheng
-[HLOZ24], Section 1, display (1.2), state it for discrete-time simple random
-walk on $\mathbb{Z}^d$ for every $d\ge1$, apart from their theorem's range
-$d\ge2$. Tóth [To01], Section 1, printed pp. 484–485, independently states
+already in the poser's text and the erdosproblems.com wording copies it. The
+change inserts "simple" before "random walk", the walk whose independent
+increments are uniform on $(\pm1,0),(0,\pm1)$; nothing else changes, and the
+time-zero visit is counted as erdosproblems.com counts it. The evidence is the
+literature's statement of the question as Erdős and Révész's. Hao, Li, Okada and
+Zheng [HLOZ24], Section 1, display (1.2), state it for discrete-time simple
+random walk on $\mathbb{Z}^d$ for every $d\ge1$, apart from their theorem's
+range $d\ge2$. Tóth [To01], Section 1, printed pp. 484–485, independently states
 Erdős and Révész's favorite-site question for simple symmetric random walk on
-$\mathbb{Z}$. The site credits both papers, each about simple random walk,
-with the answer. The correction does not rest on the texts in which Erdős and
-Révész raised the question (1984, 1987 and 1991, cited by both papers). No
+$\mathbb{Z}$. erdosproblems.com credits both papers, each about simple random
+walk, with the answer. The correction does not rest on the texts in which Erdős
+and Révész raised the question (1984, 1987 and 1991, cited by both papers). No
 result about any other law is recorded. The standing judges this modified
 Statement.
 
-**Status.** Labeled solved on the site, which credits the value $0$ for $r\ge4$
-to Tóth [To01] and the value $1$ for $r=3$ to Hao, Li, Okada and Zheng [HLOZ24].
-The probability is $1$ for $r=3$ and $0$ for every integer $r\ge4$.
+**Status.** Labeled solved on erdosproblems.com, which credits the value $0$ for
+$r\ge4$ to Tóth [To01] and the value $1$ for $r=3$ to Hao, Li, Okada and Zheng
+[HLOZ24]. The probability is $1$ for $r=3$ and $0$ for every integer $r\ge4$.
 [[../library/analysis/hao_2024_favorite_sites_simple_random_walk_two/theorem_1_1|Hao–Li–Okada–Zheng, Theorem 1.1]]
 proves that almost surely $\limsup_n|F(n)|=3$, which gives both values. It is
 recorded as an
@@ -127,15 +127,15 @@ library's result pages cite their 44-page arXiv v2 of November 2025, not the
 pagination of the 58-page journal version in *Probability Theory and Related
 Fields*.
 
-The site attributes the $r\ge4$ upper bound to Tóth (2001).
+erdosproblems.com attributes the $r\ge4$ upper bound to Tóth (2001).
 Tóth's paper starts with a walk on $\mathbb Z$, not $\mathbb Z^2$
 (printed p. 484). It supplies the one-dimensional result
 ([[../library/analysis/toth_2001_three_favorite_sites_simple_random_walk/theorem_1|Theorem 1]]).
 The planar upper bound used here is Hao–Li–Okada–Zheng's Theorem 1.1, so
-the site's credit to Tóth for the planar $r\ge4$ value is recorded as a
-misattribution rather than as a claim. The site's discussion contains a
-January 2026 correction clarifying the event $|F(n)|=r$ infinitely often,
-already reflected in the statement; the proof-claims page carried no
+the erdosproblems.com credit to Tóth for the planar $r\ge4$ value is recorded as
+a misattribution rather than as a claim. The erdosproblems.com discussion
+contains a January 2026 correction clarifying the event $|F(n)|=r$ infinitely
+often, already reflected in the statement; the proof-claims page carried no
 submitted claims on 2026-09-05.
 
 The literature check covered the arXiv history,

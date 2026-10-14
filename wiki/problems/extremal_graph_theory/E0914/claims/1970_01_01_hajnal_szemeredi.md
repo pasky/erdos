@@ -4,7 +4,7 @@ title: The Hajnal–Szemerédi theorem
 desc: |
   Hajnal and Szemerédi (1970) prove Erdős's conjecture that every graph with
   $rm$ vertices and minimum degree at least $m(r-1)$ has $m$ disjoint copies of
-  $K_r$. The claim is accepted on the site's credit and Kierstead and
+  $K_r$. The claim is accepted on the erdosproblems.com credit and Kierstead and
   Kostochka's refereed reproof.
 authors:
 - A. Hajnal
@@ -50,12 +50,12 @@ known.
 two forms is written on the problem page and carries no independent review.
 
 **Acceptance.** The `reviewed` evidence is documented acceptance independent of
-the 1970 paper's authors. The site's curator, T. F. Bloom, credits the proof to
-the 1970 paper for every $r\ge4$ and labeled the problem proved, and the
-community database agrees with the site. Kierstead and Kostochka (Combin.
-Probab. Comput. 17 (2008), refereed, not held) publish a short proof under the
-theorem's name. Kierstead, Kostochka, Mydlarz and Szemerédi (Combinatorica 30
-(2010), refereed;
+the 1970 paper's authors. The erdosproblems.com curator, T. F. Bloom, credits
+the proof to the 1970 paper for every $r\ge4$ and labeled the problem proved,
+and the community database agrees with erdosproblems.com. Kierstead and
+Kostochka (Combin. Probab. Comput. 17 (2008), refereed, not held) publish a
+short proof under the theorem's name. Kierstead, Kostochka, Mydlarz and
+Szemerédi (Combinatorica 30 (2010), refereed;
 [[../library/extremal_graph_theory/kierstead_2010_fast_algorithm_equitable_coloring/theorem_1|Theorem 1]])
 state the theorem, attribute it to Hajnal and Szemerédi in 1970 as a conjecture
 of Erdős, and prove it again. That paper shares an author, Szemerédi, with the

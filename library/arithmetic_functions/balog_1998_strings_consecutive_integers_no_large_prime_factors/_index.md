@@ -106,18 +106,18 @@ reviewed.
   [[arithmetic_functions/balog_1998_strings_consecutive_integers_no_large_prime_factors/theorem_1|Theorem 1]]
   with $u=1/\epsilon$ (which needs $\epsilon<1$; a larger $\epsilon$ follows
   from a smaller one) gives infinitely many $m$ with $m+1,\dots,m+k$ all
-  $m^\epsilon$-smooth, for every $k$. Such a run gives the site's wording with
-  a nontrivial run and the first reading on the problem page, and the second
-  reading for infinitely many $n$ only; the runs come from a thin set and the
-  paper does not state the problem.
+  $m^\epsilon$-smooth, for every $k$. Such a run gives the erdosproblems.com
+  wording with a nontrivial run and the first reading on the problem page, and
+  the second reading for infinitely many $n$ only; the runs come from a thin set
+  and the paper does not state the problem.
   [[arithmetic_functions/balog_1998_strings_consecutive_integers_no_large_prime_factors/theorem_2|Theorem 2]]
   with $a_i=1$, $b_i=i$ gives the same for each fixed run length $2t+1$, with
   the smaller smoothness bound $\exp(6\log n/(\log_3n)^{1/t})$.
 - [[../wiki/problems/arithmetic_functions/E0370/_index|#370]]: Theorem 1 with
   $u=2$ gives infinitely many $m$ with the largest prime factors of $m$ and
-  $m+1$ below $m^{1/2}$ and $(m+1)^{1/2}$, which answers the site's question
-  yes; this is an observation of the result page, not of the paper, and the
-  site's wording is already settled by a trivial construction.
+  $m+1$ below $m^{1/2}$ and $(m+1)^{1/2}$, which answers the erdosproblems.com
+  question yes; this is an observation of the result page, not of the paper, and
+  the erdosproblems.com wording is already settled by a trivial construction.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

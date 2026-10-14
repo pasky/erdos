@@ -55,10 +55,10 @@ probability tending to $1$ as $n\to\infty$, there is a hamiltonian cycle in
 a random graph from $\mathscr G_p(n)$."
 
 **In the problem's notation.** With $\varphi(n)=2w(n)$ the sufficiency half
-is the site's "$\frac12n\log n+\frac12n\log\log n+w(n)n$ edges suffices, for
-any function $w$ which $\to\infty$". For fixed $\epsilon>0$ and large $n$,
-$(\tfrac12+\epsilon)n\log n=\tfrac12n(\log n+\log\log n+\varphi(n))$ with
-$\varphi(n)=2\epsilon\log n-\log\log n\to\infty$, so Theorem 1 gives the
+is erdosproblems.com's "$\frac12n\log n+\frac12n\log\log n+w(n)n$ edges
+suffices, for any function $w$ which $\to\infty$". For fixed $\epsilon>0$ and
+large $n$, $(\tfrac12+\epsilon)n\log n=\tfrac12n(\log n+\log\log n+\varphi(n))$
+with $\varphi(n)=2\epsilon\log n-\log\log n\to\infty$, so Theorem 1 gives the
 statement of Problem 746; the necessity half says that
 $\tfrac12n(\log n+\log\log n+c)$ edges do not suffice for any constant $c$.
 
@@ -73,8 +73,8 @@ displays). The artifact is identified in the
 The same theorem was announced, without proof, as Theorem 1 (p. 529) of
 the 1976 Doklady note filed as
 [[extremal_graph_theory/korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles/_index|korshunov_1976_solution_problem_erdos_renyi_hamiltonian_cycles]];
-the 1977 Russian paper that the site's key [Ko77] names is not held, and
-this paper's comment (p. 179) says it gave "a part of proof (for
+the 1977 Russian paper that the erdosproblems.com key [Ko77] names is not held,
+and this paper's comment (p. 179) says it gave "a part of proof (for
 $k>6n\log n$)" and that "The proof presented above is different from the
 previous ones."
 
@@ -127,8 +127,8 @@ paper: Theorem 2 (p. 172) for sufficiency, and through it Lemmas 1--4
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the theorem the site
-  attributes to [Ko77], read as printed by its author in English; its
-  sufficiency half gives the problem's statement, and its necessity half
-  places the threshold at $\tfrac12n(\log n+\log\log n)$ plus a term
-  $\tfrac12n\varphi(n)$ with $\varphi(n)\to\infty$.
+- [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the
+  theorem erdosproblems.com attributes to [Ko77], read as printed by its author
+  in English; its sufficiency half gives the problem's statement, and its
+  necessity half places the threshold at $\tfrac12n(\log n+\log\log n)$ plus a
+  term $\tfrac12n\varphi(n)$ with $\varphi(n)\to\infty$.

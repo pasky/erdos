@@ -62,5 +62,5 @@ checked Zeraoulia's proof of $n=7$ step by step; Beller's manuscript of August
 Those are dated uptakes by other claimants, not reviews.
 
 **Acceptance.** None documented. The note is not on arXiv and has no journal
-record. The site labeled the problem OPEN, and its page does not credit the
-result. No outside review is known. The claim is therefore claimed.
+record. Bloom's catalog labeled the problem OPEN, and its page does not credit
+the result. No outside review is known. The claim is therefore claimed.

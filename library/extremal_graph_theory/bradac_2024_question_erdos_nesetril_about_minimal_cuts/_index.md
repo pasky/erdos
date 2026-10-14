@@ -66,12 +66,12 @@ Gaspers and Mackenzie.
 Source: <https://arxiv.org/abs/2409.02974>.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0150/_index|#150]]: Theorem 1
-(p. 1, page image), a refereed proof that $\alpha<2$ with the site's
+(p. 1, page image), a refereed proof that $\alpha<2$ with erdosproblems.com's
 $2^{H(1/3)}\approx1.8899$, and Proposition 2 with display (1) (pp. 1--2),
-the existence of the limit the site credits to this paper ("a simple
+the existence of the limit erdosproblems.com credits to this paper ("a simple
 argument first given in the literature ... by Bradač") and the bridge from
-minimal separators to minimal cuts; p. 1 names the site's problem number
-and, in the added note, attests the earlier bounds $1.7087$ (Fomin,
+minimal separators to minimal cuts; p. 1 names the erdosproblems.com problem
+number and, in the added note, attests the earlier bounds $1.7087$ (Fomin,
 Kratsch, Todinca and Villanger) and $1.4457\le\alpha\le(1+\sqrt5)/2$.
 
 **Results.**

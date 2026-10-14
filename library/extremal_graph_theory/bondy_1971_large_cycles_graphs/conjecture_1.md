@@ -63,8 +63,8 @@ count forces a cycle on $n-k$ vertices and one edge fewer does not, which is
 the content of Woodall's theorem as the problem page records it from Li and
 Ning, and the range statement of p. 128 reads: the implication holds for all
 $n\ge\frac12((k+1)^2+5(k+1)+4)=\frac12(k+2)(k+5)$, that is
-$f(k)\le\frac12(k+2)(k+5)$ in the site's letters, an explicit estimate of
-Erdős's $n_0(k)$ from 1971. Theorem 2 is the case $r=2$ ($k=1$) without a
+$f(k)\le\frac12(k+2)(k+5)$ in erdosproblems.com's letters, an explicit estimate
+of Erdős's $n_0(k)$ from 1971. Theorem 2 is the case $r=2$ ($k=1$) without a
 range, paged at
 [[extremal_graph_theory/bondy_1971_large_cycles_graphs/theorem_2|theorem_2]].
 
@@ -128,14 +128,14 @@ for Lemma 2.1, paged at
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1012/_index|Problem 1012]]: the problem's
-  question in Bondy's letters, with the site's edge count $g(k+1,n)$ and the
-  range $n\ge2k+3$ of Woodall's theorem, posed as a conjecture in 1971 with
-  the estimate $f(k)\le\frac12(k+2)(k+5)$ stated to hold; the estimate rests
-  on a step the paper asserts without a written proof. Li and Ning's 2023
+  question in Bondy's letters, with erdosproblems.com's edge count $g(k+1,n)$
+  and the range $n\ge2k+3$ of Woodall's theorem, posed as a conjecture in 1971
+  with the estimate $f(k)\le\frac12(k+2)(k+5)$ stated to hold; the estimate
+  rests on a step the paper asserts without a written proof. Li and Ning's 2023
   introduction (p. 2) credits the paper with "some partial result" on
-  Erdős's question without saying which, and the paper's use of the site's
-  count, with Erdős's Oxford conjecture as its origin, supports the site's
-  reading of the misprinted count in
+  Erdős's question without saying which, and the paper's use of
+  erdosproblems.com's count, with Erdős's Oxford conjecture as its origin,
+  supports erdosproblems.com's reading of the misprinted count in
   [[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/item_4|Erdős 1971, item 4]].
   The smallest admissible $f(k)$ is not touched: the paper conjectures the
   full range $n\ge2k+3$ and proves less.

@@ -25,7 +25,8 @@ of LeVeque's question, Problem 492.
 H. Davenport and W. J. LeVeque, *Uniform distribution relative to a fixed
 sequence*, Michigan Math. J. 10 (1963), 315--319; DOI
 10.1307/mmj/1028998918 (Crossref record read 2026-09-18, issued August
-1963). Received March 14, 1963. The site's key DaLe63 for Problem 492.
+1963). Received March 14, 1963. The erdosproblems.com key DaLe63 for
+Problem 492.
 
 **Copy read.** The copy read for this card
 is the journal's scan of the five printed pages (pp. 315--319; PDF p. $n$
@@ -106,7 +107,7 @@ statement with the proof pointer above; no step of the proof was checked
 and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E0492/_index|#492]]: the Theorem
-(printed p. 315, PDF p. 1, page image) with $a_k=k$ is the site's
+(printed p. 315, PDF p. 1, page image) with $a_k=k$ is erdosproblems.com's
 "Davenport and LeVeque [DaLe63] proved this under the assumption that
 $a_n-a_{n-1}$ is monotonic" in its decreasing half, for real sequences
 $z_n$ with $z_n\to\infty$ (the problem's $a_{i+1}/a_i\to1$, here

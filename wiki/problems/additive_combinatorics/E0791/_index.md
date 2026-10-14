@@ -26,7 +26,7 @@ updated: 2026-10-08T18:29:34Z
 \{0,\ldots,n\}$ of size $g(n)$ with $\{0,\ldots,n\}\subseteq A+A$. Estimate
 $g(n)$. In particular is it true that $g(n)\sim 2n^{1/2}$?
 
-**Formulation.** The site's wording as of 2026-09-18T15:09Z
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18T15:09Z
 (page last edited 24 September 2025). Such an $A$ is a finite additive
 $2$-basis for $[0,n]$; it contains $0$, since $0\in A+A$. The literature
 works with the inverse function: $n(k)$, the maximal range of a $2$-basis
@@ -42,15 +42,15 @@ conjecture as Erdős reports it: "Rohrbach conjectured $g(n)=2\sqrt n+o(1)$"
 vermuten, daß $n_2(k)=\frac{k^2}4+O(k)$ ist" ([Ro37], printed p. 9;
 [[../library/additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/conjecture|result page]]),
 where $n_2(k)$ is his largest $n$ for which a $2$-basis of $k$ elements for
-$\{0,\ldots,n\}$ exists (p. 4; his $k$ counts the zero, as the site's
+$\{0,\ldots,n\}$ exists (p. 4; his $k$ counts the zero, as erdosproblems.com's
 $g(n)$ does, so $n_2(k)$ is Kohonen's $n(k)$); this is $g(n)=2\sqrt n+O(1)$,
-and the site's $g(n)\sim2n^{1/2}$ is its asymptotic form. The two parts of
-the statement have different status, recorded separately below.
+and erdosproblems.com's $g(n)\sim2n^{1/2}$ is its asymptotic form. The two parts
+of the statement have different status, recorded separately below.
 
-**Status.** Open, the site's label. Read on this page, the label concerns the
-estimate. The wording is a compound of an estimate, which has no truth value,
-and a displayed particular guess. The negative answer to that guess is recorded
-on the claim pages. The best source-supported bounds are
+**Status.** Open, the erdosproblems.com label. Read on this page, the label
+concerns the estimate. The wording is a compound of an estimate, which has no
+truth value, and a displayed particular guess. The negative answer to that guess
+is recorded on the claim pages. The best source-supported bounds are
 
 $$
 (2.181\ldots+o(1))\,n\ \le\ g(n)^2\ \le\ (3.458\ldots+o(1))\,n,
@@ -61,17 +61,18 @@ refereed;
 [[../library/additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/equation_1|result page]]),
 $\liminf n(k)/k^2\ge85/294$, and the lower bound from Yu's
 $\limsup n(k)/k^2\le0.4585$ [Yu15] (J. Number Theory 156 (2015), refereed, not
-held; quoted from [Ko17], p. 1, and the site), converted on this page. Each is
-an accepted partial claim on its claim page
+held; quoted from [Ko17], p. 1, and erdosproblems.com), converted on this page.
+Each is an accepted partial claim on its claim page
 ([[problems/additive_combinatorics/E0791/claims/2016_06_15_kohonen|Kohonen]],
-[[problems/additive_combinatorics/E0791/claims/2015_11_01_yu|Yu]]). The site's
-"in particular" question is answered in the negative. The first refutation in
-print is Hämmerer and Hofmeister's [HH76] (J. Reine Angew. Math. 1976):
-$n(2,k)>\frac5{18}k^2$ with $k$ counting the positive elements, so
+[[problems/additive_combinatorics/E0791/claims/2015_11_01_yu|Yu]]).
+erdosproblems.com's "in particular" question is answered in the negative. The
+first refutation in print is Hämmerer and Hofmeister's [HH76] (J. Reine Angew.
+Math. 1976): $n(2,k)>\frac5{18}k^2$ with $k$ counting the positive elements, so
 $g(n)^2\le(\frac{18}5+o(1))n$. It is an accepted partial claim on
 [[problems/additive_combinatorics/E0791/claims/1976_11_01_hammerer_hofmeister|its claim page]].
-Mrose's construction, received in April 1975 and the one the site credits, gives
-the stronger $g(n)^2\le\frac72n$ [Mr79] (equation (3), printed p. 118;
+Mrose's construction, received in April 1975 and the one erdosproblems.com
+credits, gives the stronger $g(n)^2\le\frac72n$ [Mr79] (equation (3), printed p.
+118;
 [[../library/additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|result page]]).
 This is the $\liminf n(k)/k^2\ge2/7$ that [Ko17], p. 1, quotes for Mrose.
 Mrose's refutation is also an accepted partial claim on
@@ -79,9 +80,9 @@ Mrose's refutation is also an accepted partial claim on
 Kohonen's theorem gives $g(n)^2\le(3.459+o(1))n<4n$ directly. So
 $g(n)\le(1.860+o(1))\sqrt n$, and $g(n)\sim2\sqrt n$ is false.
 
-Rohrbach's original bounds, the site's $(2+c)n\le g(n)^2\le4n$ [Ro37], are as
-follows. Satz 3 (printed p. 5) gives $g(n)<2\sqrt n$ for $n>1$, by the explicit
-basis (6)
+Rohrbach's original bounds, erdosproblems.com's $(2+c)n\le g(n)^2\le4n$ [Ro37],
+are as follows. Satz 3 (printed p. 5) gives $g(n)<2\sqrt n$ for $n>1$, by the
+explicit basis (6)
 ([[../library/additive_combinatorics/rohrbach_1937_ein_beitrag_zur_additiven_zahlentheorie/satz_3|result page]]).
 The Folgerung to Satz 6 (p. 15) gives $n\le k^2/2$ for every $2$-basis of $k$
 elements for $n$, so $g(n)^2\ge2n$. Inequality (47) (p. 18) gives
@@ -96,11 +97,12 @@ assessment records. For the estimate, this is a bounded negative finding, not a
 certificate of openness.
 
 **Source.** [erdosproblems.com/791](https://www.erdosproblems.com/791),
-accessed 2026-09-18T15:09Z: the problem page (OPEN, with the site's note that no finite
-computation can resolve it; last edited 24 September 2025; source key [Er73]; commentary citing [Ro37], [Yu15], [Ko17],
-[Mr79]; OEIS indicator A066063), its two-comment discussion thread (24
-September 2025) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
-Problem #791, https://www.erdosproblems.com/791, accessed 2026-09-18.
+accessed 2026-09-18T15:09Z: the problem page (OPEN, with the erdosproblems.com
+note that no finite computation can resolve it; last edited 24 September 2025;
+source key [Er73]; commentary citing [Ro37], [Yu15], [Ko17], [Mr79]; OEIS
+indicator A066063), its two-comment discussion thread (24 September 2025) and
+its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #791,
+https://www.erdosproblems.com/791, accessed 2026-09-18.
 
 **References.**
 
@@ -126,11 +128,12 @@ Problem #791, https://www.erdosproblems.com/791, accessed 2026-09-18.
   J. Reine Angew. Math. 286/287 (1976), 239--247,
   DOI 10.1515/crll.1976.286-287.239 (Crossref: issued 1976-11-01;
   Zbl 0332.10032). Definitions, p. 239; Rohrbach's conjecture as the paper
-  states it, p. 240; inequality (1), printed p. 241. Not cited by the site.
+  states it, p. 240; inequality (1), printed p. 241. Not cited by
+  erdosproblems.com.
 - [Yu15] Yu, G., A new upper bound for finite additive $h$-bases. J.
   Number Theory 156 (2015), 95--104, DOI 10.1016/j.jnt.2015.04.007
-  (Crossref record read 2026-09-18; the site's reference text gives no
-  volume). Not held; quoted from [Ko17], p. 1, and the site.
+  (Crossref record read 2026-09-18; the erdosproblems.com reference text gives
+  no volume). Not held; quoted from [Ko17], p. 1, and erdosproblems.com.
 - [Ko17] Kohonen, J., An improved lower bound for finite additive 2-bases.
   arXiv:1606.04770v2 (10 January 2017, "Author's final version"),
   6 pp.; J. Number Theory 174 (2017), 518--524, DOI 10.1016/j.jnt.2016.11.011
@@ -156,19 +159,19 @@ unformalized, with the OEIS entry A066063 and no formal proof.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18T15:09Z).** The statement
-above; OPEN; last edited 24 September 2025. The commentary names such a set
-a finite additive $2$-basis, attributes the problem to Rohrbach with his
+**The question (erdosproblems.com formulation of 2026-09-18T15:09Z).** The
+statement above; OPEN; last edited 24 September 2025. The commentary names such
+a set a finite additive $2$-basis, attributes the problem to Rohrbach with his
 bounds $(2+c)n\le g(n)^2\le4n$ for a small $c>0$ [Ro37], gives the best
 known bounds as $(2.181\cdots+o(1))n\le g(n)^2\le(3.458\cdots+o(1))n$, the
 lower due to Yu [Yu15] and the upper to Kohonen [Ko17], and credits the
 disproof of $g(n)\sim2n^{1/2}$ to Mrose [Mr79], whose construction gives
 $g(n)^2\le\frac72n$. The
 thread: a comment of 24 September 2025 asking how to prove
-$(2^{1/2}+c)n^{1/2}\le g(n)\le2n^{1/2}$, and the site's author's reply the
-same day that, prompted by it, the author had found the literature and updated
-the page. The proof-claim tab is empty. The community database record says open
-(31 August 2025), unformalized, OEIS A066063.
+$(2^{1/2}+c)n^{1/2}\le g(n)\le2n^{1/2}$, and erdosproblems.com's author's reply
+the same day that, prompted by it, the author had found the literature and
+updated the page. The proof-claim tab is empty. The community database record
+says open (31 August 2025), unformalized, OEIS A066063.
 
 **The origin.** [Er73], printed pp. 130--131,
 introduces the problem as one of Rohrbach's, from the papers of Rohrbach
@@ -179,21 +182,21 @@ records Rohrbach's observation $\sqrt{2n}\le g(n)\le2\sqrt n$ and his proof
 of $g(n)>(1+\varepsilon)\sqrt{2n}$ for some $\varepsilon>0$, notes that
 Moser improved the result with a still very small $\varepsilon$, and ends:
 "Rohrbach conjectured $g(n)=2\sqrt n+o(1)$. We are very far from being able
-to prove this." This is the site's statement with its "in particular"
-question; the site's $(2+c)n\le g(n)^2\le4n$ is Erdős's
+to prove this." This is the erdosproblems.com statement with its "in particular"
+question; erdosproblems.com's $(2+c)n\le g(n)^2\le4n$ is Erdős's
 $g(n)>(1+\varepsilon)\sqrt{2n}$
 squared together with the trivial upper bound. The trivial bounds in
 [Ko17]'s notation (p. 1): $n(k)\le k^2/2+k/2$ by counting pairs, and
 $n(k)\ge k^2/4$ from $A=\{0,1,\ldots,t,2t,\ldots,t^2\}$. In Rohrbach's
-paper itself the problem is posed in the site's exact form, $g(n)$ being
-the least $k$ with $n_2(k)\ge n$ (p. 4); the upper
-bound is Satz 3 (p. 5), $g(n)<2\sqrt n$ for $n>1$, proved by the symmetric
-basis (6) of Satz 2, whose $k$ elements reach $n=k^2/4+\frac32k-\gamma$
-with $\gamma\le\frac{11}4$ (equation (9)), a construction rather than
-the trivial bound; the lower bound is the Folgerung to Satz 6 (p. 15),
-$n\le k^2/2$, sharpened by (47) (p. 18), $n<0.4992\,k^2$ for large $k$,
-so Erdős's $\varepsilon$ is about $0.0008$; and the conjecture is
-printed on p. 9 as $n_2(k)=k^2/4+O(k)$, that is $g(n)=2\sqrt n+O(1)$.
+paper itself the problem is posed in erdosproblems.com's exact form, $g(n)$
+being the least $k$ with $n_2(k)\ge n$ (p. 4); the upper bound is Satz 3 (p. 5),
+$g(n)<2\sqrt n$ for $n>1$, proved by the symmetric basis (6) of Satz 2, whose
+$k$ elements reach $n=k^2/4+\frac32k-\gamma$ with $\gamma\le\frac{11}4$
+(equation (9)), a construction rather than the trivial bound; the lower bound is
+the Folgerung to Satz 6 (p. 15), $n\le k^2/2$, sharpened by (47) (p. 18),
+$n<0.4992\,k^2$ for large $k$, so Erdős's $\varepsilon$ is about $0.0008$; and
+the conjecture is printed on p. 9 as $n_2(k)=k^2/4+O(k)$, that is
+$g(n)=2\sqrt n+O(1)$.
 
 **The bounds in hand.**
 [[../library/additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/equation_1|Equation (1)]]
@@ -207,20 +210,19 @@ depth, with Facts 1--3 not reproved and nothing independently reviewed. The
 introduction quotes Mrose's and Kløve--Mossige's $\liminf\ge2/7>0.2857$
 and Yu's $\limsup n(k)/k^2\le0.4585$ as the previous record and the best
 upper bound, and records that $n(k)$ is known exactly up to $n(25)=212$.
-Conversion to the site's function, an authored one-line derivation: since
-$g(n)=\min\{k:n(k)\ge n\}$, if
-$n(k)\ge(85/294-\varepsilon)k^2$ for all $k\ge k_0(\varepsilon)$ then for
-large $n$ the integer $k=\lceil\sqrt{n/(85/294-\varepsilon)}\rceil$ has
-$n(k)\ge n$, so $g(n)\le k$ and $g(n)^2\le(294/85+o(1))n$, with
-$294/85=3.4588\ldots$, the site's $3.458\cdots$; and if
-$n(k)\le(0.4585+\varepsilon)k^2$ for all large $k$ then, as $g(n)\to\infty$,
-$n\le n(g(n))\le(0.4585+\varepsilon)g(n)^2$, so $g(n)^2\ge(1/0.4585-o(1))n$
-with $1/0.4585=2.1810\ldots$, the site's $2.181\cdots$. The Yu bound is
-second-hand (the paper is not held); Mrose's $2/7$, equation (3)
-$n_2(k)\ge\frac87(\frac k2)^2+O(k)$ with $k$ counting the positive elements
-([Mr79], p. 118;
+Conversion to erdosproblems.com's function, an authored one-line derivation:
+since $g(n)=\min\{k:n(k)\ge n\}$, if $n(k)\ge(85/294-\varepsilon)k^2$ for all
+$k\ge k_0(\varepsilon)$ then for large $n$ the integer
+$k=\lceil\sqrt{n/(85/294-\varepsilon)}\rceil$ has $n(k)\ge n$, so $g(n)\le k$
+and $g(n)^2\le(294/85+o(1))n$, with $294/85=3.4588\ldots$, erdosproblems.com's
+$3.458\cdots$; and if $n(k)\le(0.4585+\varepsilon)k^2$ for all large $k$ then,
+as $g(n)\to\infty$, $n\le n(g(n))\le(0.4585+\varepsilon)g(n)^2$, so
+$g(n)^2\ge(1/0.4585-o(1))n$ with $1/0.4585=2.1810\ldots$, erdosproblems.com's
+$2.181\cdots$. The Yu bound is second-hand (the paper is not held); Mrose's
+$2/7$, equation (3) $n_2(k)\ge\frac87(\frac k2)^2+O(k)$ with $k$ counting the
+positive elements ([Mr79], p. 118;
 [[../library/additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/equation_3|result page]]),
-gives $g(n)^2\le(7/2+o(1))n$, the site's "$\le\frac72n$", by the same
+gives $g(n)^2\le(7/2+o(1))n$, erdosproblems.com's "$\le\frac72n$", by the same
 step. Acceptance: J. Number Theory is refereed for [Ko17] and [Yu15];
 Mrose's and Rohrbach's papers are in refereed journals.
 Read depth: claims checked for [Ko17]'s definitions, equation (1), quoted
@@ -233,9 +235,9 @@ verified, and [Ko17]'s Facts 1--3 were not reproved; [Yu15] is not held.
 
 **The two questions.** The estimate of $g(n)$, or of $\lim g(n)^2/n$ if it
 exists, is open between $2.181$ and $3.459$; no source was found bounding
-the constant further, so the estimate part of the problem is open as the
-site says. The "in particular" question is settled negatively, first by [HH76]
-(inequality (1)), then by [Mr79] (equation (3)) and [Ko17]: any
+the constant further, so the estimate part of the problem is open as
+erdosproblems.com says. The "in particular" question is settled negatively,
+first by [HH76] (inequality (1)), then by [Mr79] (equation (3)) and [Ko17]: any
 construction with $\liminf n(k)/k^2>1/4$ gives $\limsup g(n)/\sqrt n<2$.
 Read on this page, the label concerns the estimate: the wording is a
 compound, and the settled subquestion is the accepted partial claim of
@@ -247,10 +249,9 @@ and of
 improving $85/294$ or $0.4585$, a determination of the limit, or a proof
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-18; the formal-conjectures directory listing (no file) and the
-  community database, both on 2026-09-18; the OEIS record of A066063
-  (JSON).
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures directory listing (no file) and
+  the community database, both on 2026-09-18; the OEIS record of A066063 (JSON).
 - The primary sources, at the pages cited: [Ko17] pp. 1--2; [Er73]
   pp. 130--131.
 - arXiv API: the record of 1606.04770 (v1 15 June 2016, v2 10 January

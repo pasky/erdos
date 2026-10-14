@@ -34,15 +34,15 @@ of size $r$ is contained in exactly one set in the family?
 $\binom nk\binom kr^{-1}$, as Erdős also prints it in [Er81], Part VI. A family
 of $k$-sets containing every $r$-set exactly once has exactly
 $\binom nr\binom kr^{-1}$ members (count the pairs of an $r$-set and the block
-containing it), and $\binom nk\ne\binom nr$ once $n>k+r$, so, read as the site
-words it, that paragraph asks for a family that does not exist for large $n$.
-The first paragraph asks for a Steiner system $S(r,k,n)$, and [Er81] states
+containing it), and $\binom nk\ne\binom nr$ once $n>k+r$, so, read as Bloom's
+catalog words it, that paragraph asks for a family that does not exist for large
+$n$. The first paragraph asks for a Steiner system $S(r,k,n)$, and [Er81] states
 Wilson's case $r=2$ with $\binom n2\binom k2^{-1}$ blocks; the question is read,
 as its source intends, as the existence of $S(r,k,n)$, with
-$\binom nr\binom kr^{-1}$ blocks, and the standing answers the site's wording
-under that reading.
+$\binom nr\binom kr^{-1}$ blocks, and the standing answers the erdosproblems.com
+wording under that reading.
 
-**Status.** Proved. The site labeled the problem PROVED and records the
+**Status.** Proved. Bloom's catalog labeled the problem PROVED and records the
 following progression: Kirkman for $(r,k)=(2,3)$, Hanani [Ha61] for $(3,4)$,
 $(2,4)$ and $(2,5)$, Wilson [Wi72] for $(2,k)$, and Keevash [Ke14] for every
 $(r,k)$.
@@ -57,14 +57,16 @@ https://www.erdosproblems.com/722.
   the combinatorial problems which I would most like to see solved]].
   Combinatorica 1 (1981), no. 1, 25–42; Part VI states the problem.
 - [Ki47] Kirkman, T. P., On a problem in combinations. Cambridge and Dublin
-  Math. J. 2 (1847), 191–204. Not in the site's bibliography; the site's
-  commentary credits the case $(2,3)$ to Kirkman without a key.
+  Math. J. 2 (1847), 191–204. Not in the erdosproblems.com bibliography; the
+  erdosproblems.com commentary credits the case $(2,3)$ to Kirkman without a
+  key.
 - [Ha60] Hanani, H., On quadruple systems. Canad. J. Math. 12 (1960), 145–157,
-  DOI 10.4153/CJM-1960-013-3. Not in the site's bibliography; the site's
-  commentary credits the case $(3,4)$ to Hanani under its key [Ha61], which
-  the site's reference record resolves to the 1961 paper below, on
-  $2$-designs with block sizes $3$, $4$ and $5$; this paper proves the
-  $(3,4)$ case, and [Er81] attaches that case to the 1961 paper as well.
+  DOI 10.4153/CJM-1960-013-3. Not in the erdosproblems.com bibliography; the
+  erdosproblems.com commentary credits the case $(3,4)$ to Hanani under its key
+  [Ha61], which the erdosproblems.com reference record resolves to the 1961
+  paper below, on $2$-designs with block sizes $3$, $4$ and $5$; this paper
+  proves the $(3,4)$ case, and [Er81] attaches that case to the 1961 paper as
+  well.
 - [Ha61] Hanani, Haim, The existence and construction of balanced incomplete
   block designs. Ann. Math. Statist. 32 (1961), no. 2, 361-386, DOI
   10.1214/aoms/1177705047; proves the cases $(2,4)$ and $(2,5)$.
@@ -76,14 +78,14 @@ https://www.erdosproblems.com/722.
   held.
 - [Wi72] Wilson, Richard M., An existence theory for pairwise balanced designs.
   II. The structure of PBD-closed sets and the existence conjectures. J.
-  Combinatorial Theory Ser. A 13 (1972), 246-273. The site's commentary
-  credits the case $(2,k)$ to Wilson under this key; Part II states the
-  existence conjectures, and [Wi75] proves them.
+  Combinatorial Theory Ser. A 13 (1972), 246-273. The erdosproblems.com
+  commentary credits the case $(2,k)$ to Wilson under this key; Part II states
+  the existence conjectures, and [Wi75] proves them.
 - [Wi75] Wilson, R. M., An existence theory for pairwise balanced designs.
   III. Proof of the existence conjectures. J. Combin. Theory Ser. A 18
-  (1975), no. 1, 71–79, DOI 10.1016/0097-3165(75)90067-9. Not in the site's
-  bibliography; [Er81] cites Part III as its [83] but prints the volume and
-  pages of Parts I and II.
+  (1975), no. 1, 71–79, DOI 10.1016/0097-3165(75)90067-9. Not in the
+  erdosproblems.com bibliography; [Er81] cites Part III as its [83] but prints
+  the volume and pages of Parts I and II.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/722.lean).
@@ -106,8 +108,8 @@ and, independently, through
 [[problems/set_systems/E0722/claims/2016_11_21_glock_kuhn_lo_osthus|Glock, Kühn, Lo and Osthus's designs by iterative absorption]]
 (Mem. Amer. Math. Soc. 2023, not held). Keevash's preprint has no journal
 publication on its arXiv record and is accepted on the curator's credit; the
-second proof is refereed and is not named by the site. The cases settled
-before it are accepted partial claims on refereed evidence:
+second proof is refereed and is not named by erdosproblems.com. The cases
+settled before it are accepted partial claims on refereed evidence:
 [[problems/set_systems/E0722/claims/1847_01_01_kirkman|Kirkman's triple systems]]
 for $(r,k)=(2,3)$,
 [[problems/set_systems/E0722/claims/1960_01_01_hanani|Hanani's quadruple systems]]
@@ -128,11 +130,11 @@ is recorded in the Formulation; the Lean development linked from Keevash's
 page also notes the misprint and proves that exact coverage forces
 $\binom nr\binom kr^{-1}$ blocks.
 
-Search scope: the site's problem page, discussion thread and proof-claims
-page, the community database entry, the arXiv records of arXiv:1401.3665 and
-arXiv:1611.06827, the Crossref record of the memoir, the preprint's card, the
-formal-conjectures statement file and the lean-proofs catalog of Boris
-Alexeev's repository.
+Search scope: the erdosproblems.com problem page, discussion thread and
+proof-claims page, the community database entry, the arXiv records of
+arXiv:1401.3665 and arXiv:1611.06827, the Crossref record of the memoir, the
+preprint's card, the formal-conjectures statement file and the lean-proofs
+catalog of Boris Alexeev's repository.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

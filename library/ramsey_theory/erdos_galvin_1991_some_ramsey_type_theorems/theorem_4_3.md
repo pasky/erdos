@@ -5,7 +5,7 @@ desc: |
   For every k a constant c such that any partition of N into k classes has a
   set X whose sums of consecutive elements lie in two classes and which has at
   least c log log n points below n for infinitely many n: the interval-sums
-  theorem the site quotes on Problem 948.
+  theorem erdosproblems.com quotes on Problem 948.
 created: 2026-09-22T00:00:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -30,8 +30,8 @@ problem's notation: writing $X=\{a_1<a_2<\cdots\}$, the conclusion says that
 for infinitely many $n$ the index $m=\lceil c\log\log n\rceil$ has
 $a_m\le n$, so $a_m<2^{2^{O(m)}}$ for infinitely many $m$, while the sums
 over intervals of indices use at most two of the $k$ colors. A filing
-observation, not a review verdict: the site's commentary on Problem 948
-states this as "$a_n<2^{2^{O(n)}}$ for all $n$"; the printed theorem asserts
+observation, not a review verdict: the erdosproblems.com commentary on Problem
+948 states this as "$a_n<2^{2^{O(n)}}$ for all $n$"; the printed theorem asserts
 the bound for infinitely many $n$, and its proof yields nothing more, since
 Corollary 2.2 gives its density bound for infinitely many $n$ only.
 
@@ -70,9 +70,10 @@ Erdős, Hajnal, Máté and Rado, Combinatorial set theory (1984), Theorem 26.6.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0948/_index|Problem 948]]: the site's sentence "In
-  [ErGa91] they do prove that, for all $k\ge2$, in any $k$-colouring of the
-  integers there is a sequence such that $a_n<2^{2^{O(n)}}$ for all $n$ and
+- [[../wiki/problems/ramsey_theory/E0948/_index|Problem 948]]: the
+  erdosproblems.com sentence "In [ErGa91] they do prove that, for all $k\ge2$,
+  in any $k$-colouring of the integers there is a sequence such that
+  $a_n<2^{2^{O(n)}}$ for all $n$ and
   $\{\sum_{i\in I}a_i:\text{finite intervals }I\}$ is coloured with only two
   colours" paraphrases this theorem, with the quantifier difference recorded
   above.

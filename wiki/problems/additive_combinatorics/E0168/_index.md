@@ -30,16 +30,17 @@ $$
 
 Is this limit irrational?
 
-**Status.** Open. The site's label was OPEN (page last edited 23 March 2026).
-One partial claim is recorded.
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 23
+March 2026). One partial claim is recorded.
 [[problems/additive_combinatorics/E0168/claims/1977_01_01_graham_witsenhausen_spencer|Graham, Witsenhausen and Spencer]]
 proved that the limit exists and equals $\frac13\sum_{k\in K}1/d_k$. This is a
 series over the $3$-smooth numbers $d_1<d_2<\cdots$, indexed by the set $K$ of
-$k$ at which the extremal count on $\{d_1,\ldots,d_k\}$ grows. The site's
-commentary credits the result and reports Eberhard's evaluation of the series as
-$0.800965\cdots$. The paper appeared in a collected volume not shown to be
-refereed, so the claim is pending. Neither a closed form for the value nor an
-answer to the irrationality question is claimed, so the problem stays open.
+$k$ at which the extremal count on $\{d_1,\ldots,d_k\}$ grows. The
+erdosproblems.com commentary credits the result and reports Eberhard's
+evaluation of the series as $0.800965\cdots$. The paper appeared in a collected
+volume not shown to be refereed, so the claim is pending. Neither a closed form
+for the value nor an answer to the irrationality question is claimed, so the
+problem stays open.
 
 **Source.** [erdosproblems.com/168](https://www.erdosproblems.com/168), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #168,

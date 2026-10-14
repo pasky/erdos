@@ -63,18 +63,18 @@ results force the optimal bound to be at least of order $t^2/\varepsilon$,
 and the note added in proof (p. 85) reports Szemerédi's view that this
 order is probably attainable.
 
-**How the printed theorem reaches the site's question.** A conversion made
-in this corpus, not in the paper: take $t=5$ and apply the theorem with
+**How the printed theorem reaches the erdosproblems.com question.** A conversion
+made in this corpus, not in the paper: take $t=5$ and apply the theorem with
 $\epsilon/2$ for $\varepsilon$. A graph on $n$ vertices with at least
 $n^{1+\epsilon}$ edges has at least $4^{25}n^{1+\epsilon/2}$ edges once
 $n\ge4^{50/\epsilon}$, and then contains a subdivided $K_5$ on at most
 $350\log_25/\epsilon$ vertices; a subdivision of $K_5$ is non-planar by
 Kuratowski's theorem. So $C_\epsilon=\lfloor350\log_25/\epsilon\rfloor$
-works for all $n\ge4^{50/\epsilon}$, an explicit form of the site's
+works for all $n\ge4^{50/\epsilon}$, an explicit form of erdosproblems.com's
 $O_\epsilon(1)$ bound. The claim's value is proved, the question being
-answered in the affirmative; SOLVED is the site's label. The conversion is
-elementary and carries no independent review. Jiang (J. Graph Theory 67
-(2011), 139--152; not held) later removed the logarithm and made the
+answered in the affirmative; SOLVED is the erdosproblems.com label. The
+conversion is elementary and carries no independent review. Jiang (J. Graph
+Theory 67 (2011), 139--152; not held) later removed the logarithm and made the
 subdivision paths uniformly short, as Janzer reports; that sharpening is
 second-hand on this page and not part of this claim.
 
@@ -85,19 +85,20 @@ conversion above are the whole argument.
 (Crossref record, 2026-09-18: volume 8, issue 1, pp. 83--86, issued March 1988).
 
 The `reviewed` evidence is documented acceptance by a named expert and by the
-site's curator. Janzer, *The extremal number of longer subdivisions*, Bull.
-London Math. Soc. 53 (2021), 108--118 (refereed; its arXiv copy filed on its
+erdosproblems.com curator. Janzer, *The extremal number of longer subdivisions*,
+Bull. London Math. Soc. 53 (2021), 108--118 (refereed; its arXiv copy filed on
+its
 [[../library/extremal_graph_theory/janzer_2021_extremal_number_longer_subdivisions/_index|card]]),
 opens by crediting Kostochka and Pyber with answering Erdős's question on planar
 subgraphs through this theorem, stated with the same constants. Janzer calls it
-the first result giving a subdivided $K_t$ of bounded size. The site's curator,
-Thomas Bloom, who took no part in the paper, labeled the problem SOLVED and
-credits the paper with a bounded subdivision of $K_5$. The community database
-agrees. It listed the problem as solved as of its last update of 12 December
-2025, and on 2026-10-07 it listed it as solved (Lean), with a last update of 16
-September 2026, through the second formalization below. The thread's first
-pointer (13 September 2025) was to Janzer's paper, and the curator traced the
-earlier solution from it.
+the first result giving a subdivided $K_t$ of bounded size. The
+erdosproblems.com curator, Thomas Bloom, who took no part in the paper, labeled
+the problem SOLVED and credits the paper with a bounded subdivision of $K_5$.
+The community database agrees. It listed the problem as solved as of its last
+update of 12 December 2025, and on 2026-10-07 it listed it as solved (Lean),
+with a last update of 16 September 2026, through the second formalization below.
+The thread's first pointer (13 September 2025) was to Janzer's paper, and the
+curator traced the earlier solution from it.
 
 Read depth: the Theorem, the abstract, Erdős's question as the paper states it
 and the Notation (p. 83) are checked clause by clause. The lemmas (p. 84) and

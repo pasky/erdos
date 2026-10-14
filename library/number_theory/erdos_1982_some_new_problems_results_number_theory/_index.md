@@ -43,8 +43,8 @@ partition hypergraph; no proofs are printed.
 
 P. Erdős, *Some new problems and results in number theory*, in: Number
 theory (Mysore, 1981), Lecture Notes in Math. **938**, Springer, Berlin
-(1982), 50--74. The site's reference key [Er82d] for Problem 1211 names
-this paper; the Rényi archive's index lists it as `1982-32.pdf`. The paper
+(1982), 50--74. The erdosproblems.com reference key [Er82d] for Problem 1211
+names this paper; the Rényi archive's index lists it as `1982-32.pdf`. The paper
 is reference [3] of Conlon, Fox and Pham's Mathematika paper on that
 problem.
 
@@ -192,15 +192,15 @@ the ideas behind the Lemma and says "clearly" of the construction.
   and upper density $\frac12$, asserted with "clearly"; with the open
   questions of p. 57.
 
-**Bears on.** [[../wiki/problems/ramsey_theory/E1211/_index|#1211]]: the site's key
-[Er82d]. For two classes the claim of p. 54 is the lower bound $c\ge1/2$
-for the problem's constant, made without proof, and the block construction
-$n_{i+1}=n_i^4$, $A_1=\bigcup_i[n_{2i},n_{2i+1})$ is the construction behind
-the site's example ($\lfloor\log_4\log n\rfloor$ even), offered by Erdős
-for the bound $3/4$; Conlon, Fox and Pham compute $14/15$ for it. The
-problem page quotes the passage and recounts the example's $14/15$.
-[[../wiki/problems/integer_sequences/E0839/_index|#839]]: condition (1) of
-item 5 is the problem's condition with $a_1=1$; the construction, asserted
+**Bears on.** [[../wiki/problems/ramsey_theory/E1211/_index|#1211]]: the
+erdosproblems.com key [Er82d]. For two classes the claim of p. 54 is the lower
+bound $c\ge1/2$ for the problem's constant, made without proof, and the block
+construction $n_{i+1}=n_i^4$, $A_1=\bigcup_i[n_{2i},n_{2i+1})$ is the
+construction behind the erdosproblems.com example ($\lfloor\log_4\log n\rfloor$
+even), offered by Erdős for the bound $3/4$; Conlon, Fox and Pham compute
+$14/15$ for it. The problem page quotes the passage and recounts the example's
+$14/15$. [[../wiki/problems/integer_sequences/E0839/_index|#839]]: condition (1)
+of item 5 is the problem's condition with $a_1=1$; the construction, asserted
 without argument to have upper density $\frac12$, settles neither of the
 problem's questions, and the question of p. 57 whether the logarithmic
 density is zero is the problem's second question, left open.

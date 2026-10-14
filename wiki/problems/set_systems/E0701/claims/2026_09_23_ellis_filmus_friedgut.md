@@ -62,4 +62,4 @@ on the erdosproblems.com forum; the entry of 30 September 2026 for the first
 proof names it as related work.
 
 **Acceptance.** None: the note is not refereed, no outside reviewer has
-endorsed it, and the site labeled the problem OPEN.
+endorsed it, and Bloom's catalog labeled the problem OPEN.

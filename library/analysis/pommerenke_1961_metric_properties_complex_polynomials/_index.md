@@ -111,7 +111,7 @@ here is independently reviewed.
 Throughout, $f(z)=\prod_{\nu=1}^n(z-z_\nu)=z^n+\cdots$ and
 $E=\{|f(z)|\le1\}$, the closed set the paper calls the lemniscate domain
 (p. 97); the open set $\{|f(z)|<1\}$ is written $\mathring E$ where the
-paper distinguishes it (p. 102). Several site problems (#116, #511,
+paper distinguishes it (p. 102). Several erdosproblems.com problems (#116, #511,
 #1038, #1039, #1048) are posed for the open set; where the transfer from
 the closed set matters, the result page says so as a filing observation.
 

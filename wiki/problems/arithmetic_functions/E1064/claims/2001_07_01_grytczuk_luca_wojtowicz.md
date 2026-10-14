@@ -4,8 +4,8 @@ title: Lower density 0.54 and infinitely many reversals
 desc: |
   Grytczuk, Luca and Wójtowicz prove that $\phi(n-\phi(n))>\phi(n)$ for
   infinitely many $n$, with a growing gap, and that the reverse holds on a set
-  of lower density at least 0.54. The paper is refereed, and the site credits
-  the result.
+  of lower density at least 0.54. The paper is refereed, and erdosproblems.com
+  credits the result.
 authors:
 - A. Grytczuk
 - F. Luca
@@ -70,10 +70,11 @@ self-contained in the paper.
 Debrecen in July 2001. Reviewed: erdosproblems.com labeled the problem PROVED
 and credits the lower density $0.54$ and the infinitude of $A_<$ to this paper
 as [GLW01] (page last edited 2025-10-06). The corpus counts this as documented
-independent acceptance of the second part by the site's curator, T. F. Bloom
-(erdosproblems.com). The [formal-conjectures
+independent acceptance of the second part by the erdosproblems.com curator, T.
+F. Bloom (erdosproblems.com). The [formal-conjectures
 file](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1064.lean)
 proves this part as `erdos_1064.variants.k2`, through $n=30\cdot2^k$ (Theorem 3
 with $m=5$), and cites this paper for the statement. The corpus has not built
 it, so the evidence lists no `formalized` kind. The proofs are not compiled in
-this wiki. The standing rests on the refereeing and the site's acceptance.
+this wiki. The standing rests on the refereeing and erdosproblems.com's
+acceptance.

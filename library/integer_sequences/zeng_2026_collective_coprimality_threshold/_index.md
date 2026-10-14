@@ -79,8 +79,8 @@ polynomial over a field, and cyclicity of $\mathbf F_q^*$.
 
 The listing describes the result as partial, says that novelty and priority
 have not been determined, and provides no public Lean source, build record, or
-certificate for its “Lean-formalized” description. The site also warns that a
-proof-claim listing is not a correctness review. No publication or named
+certificate for its “Lean-formalized” description. erdosproblems.com also warns
+that a proof-claim listing is not a correctness review. No publication or named
 acceptance is asserted here. The density question, the limit-inferior question,
 and the implication for every $\epsilon>0$ in
 [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]] remain open. The displayed

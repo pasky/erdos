@@ -31,12 +31,12 @@ $$
 
 where the $o(1)$ term $\to 0$ as $x\to \infty$?
 
-**Status.** PROVED (LEAN). The site credits a proof found by GPT-5.4 Pro at Liam
-Price's prompting, with the account by Alexeev, Barreto, Li, Lichtman, Price,
-Shah, Tang and Tao [ABLLPSTT26]. The Lean formalization by Math Inc. is reported
-in the thread and cited by the paper. The accepted claim is recorded on the
-[[problems/divisors/E1196/claims/2026_04_13_price|claim page]]. Nat
-Sothanaphan's dated notes in the thread sharpen the constant and give a
+**Status.** PROVED (LEAN). erdosproblems.com credits a proof found by GPT-5.4
+Pro at Liam Price's prompting, with the account by Alexeev, Barreto, Li,
+Lichtman, Price, Shah, Tang and Tao [ABLLPSTT26]. The Lean formalization by Math
+Inc. is reported in the thread and cited by the paper. The accepted claim is
+recorded on the [[problems/divisors/E1196/claims/2026_04_13_price|claim page]].
+Nat Sothanaphan's dated notes in the thread sharpen the constant and give a
 resummation proof. They are the pending claim on
 [[problems/divisors/E1196/claims/2026_04_16_sothanaphan|Sothanaphan's page]].
 
@@ -90,10 +90,10 @@ $e^{\gamma}\pi/4+o(1)$, Theorem 1.5 on
 was the best known; the case $x=1$ is
 [[problems/divisors/E0164/_index|Problem 164]]. The lower bounds of Lichtman
 [Li20] and of Gorodetsky, Lichtman and Wong [GLW24] for the integers with
-exactly $k$ prime factors, which the site's commentary reports, show that the
-constant $1$ is approached and are recorded on their cards. This corpus has
-not reproduced or reviewed the proof, and no literature search beyond the
-site's page and thread is recorded.
+exactly $k$ prime factors, which the erdosproblems.com commentary reports, show
+that the constant $1$ is approached and are recorded on their cards. This corpus
+has not reproduced or reviewed the proof, and no literature search beyond the
+erdosproblems.com page and thread is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

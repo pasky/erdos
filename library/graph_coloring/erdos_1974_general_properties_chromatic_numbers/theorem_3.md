@@ -74,11 +74,11 @@ read is named on the
   answers the problem's question yes. Problem 594's
   [[../wiki/problems/set_theory/E0594/claims/1974_01_01_erdos_hajnal_shelah|claim page]]
   records the claim.
-- [[../wiki/problems/graph_coloring/E0737/_index|Problem 737]]: the site
-  attributes the question to this paper, which poses no question about one
-  edge lying on cycles of every large length. Theorem 3 is the weaker
-  statement: it gives odd circuits of every large odd length, but no edge
-  common to them and no even circuits.
+- [[../wiki/problems/graph_coloring/E0737/_index|Problem 737]]:
+  erdosproblems.com attributes the question to this paper, which poses no
+  question about one edge lying on cycles of every large length. Theorem 3 is
+  the weaker statement: it gives odd circuits of every large odd length, but no
+  edge common to them and no even circuits.
 - [[../wiki/problems/extremal_graph_theory/E0062/_index|Problem 62]]: the
   paper does not pose this question. An observation of this page, not of the
   paper: two graphs of chromatic number $\aleph_1$ each contain odd circuits

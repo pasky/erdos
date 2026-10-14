@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 497, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:36:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_systems/E0497/claims
@@ -12,7 +12,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/set_systems/E0497/_index|..]]
 
 [[problems/set_systems/E0497/claims/1969_06_01_kleitman|1969_06_01_kleitman]]: Kleitman proves that the number of antichains of subsets of $[n]$, Dedekind's
-number, is $2^{(1+o(1))\binom{n}{\lfloor n/2\rfloor}}$. The site's curator
-credits the refereed paper, which appeared in Proc. Amer. Math. Soc.
+number, is $2^{(1+o(1))\binom{n}{\lfloor n/2\rfloor}}$. The erdosproblems.com
+curator credits the refereed paper, which appeared in Proc. Amer. Math. Soc.
 
 ***

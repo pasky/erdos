@@ -49,14 +49,14 @@ $\mathcal A,\mathcal B$ with $|\mathcal A|\le|\mathcal B|$, the bipartite
 graph joining disjoint members has a matching that covers $\mathcal A$.
 
 **Covers.** Intersecting subfamilies of covering number at most $2$; the case
-of covering number $1$, a subfamily inside a star, is immediate. The site's
-remark places the covering condition on the family $\mathcal F$ of the
-problem, while the paper places it on the intersecting subfamily. Eifler,
-Gleixner and Pulaj state the same case, an intersecting family contained in
-the union of two stars, as their Theorem 5, attributed to a 1972 working paper
-of Kleitman and Magnanti
+of covering number $1$, a subfamily inside a star, is immediate. The
+erdosproblems.com remark places the covering condition on the family
+$\mathcal F$ of the problem, while the paper places it on the intersecting
+subfamily. Eifler, Gleixner and Pulaj state the same case, an intersecting
+family contained in the union of two stars, as their Theorem 5, attributed to a
+1972 working paper of Kleitman and Magnanti
 ([[problems/set_systems/E0701/claims/2018_09_05_eifler_gleixner_pulaj|claim page]]).
 
 **Acceptance.** Refereed: Discrete Math. 346 (2023), no. 5, Paper No.
-113323. The site's curator credits the result, but the site labeled the
-problem OPEN, so no review is listed.
+113323. The erdosproblems.com curator credits the result, but Bloom's catalog
+labeled the problem OPEN, so no review is listed.

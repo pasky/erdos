@@ -42,8 +42,8 @@ https://www.erdosproblems.com/218.
 
 ## Current assessment
 
-Status gives the site's label. No literature search beyond the site record is
-recorded.
+Status gives the erdosproblems.com label. No literature search beyond the
+erdosproblems.com record is recorded.
 
 The problem has no claim page. The 2026 OpenAI mathematics release carries
 one paper near it,

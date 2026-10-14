@@ -63,9 +63,9 @@ nothing here is independently reviewed.
 
 **Acceptance.** The paper is refereed: Y. Katznelson, *Chromatic numbers of
 Cayley graphs on $\mathbb Z$ and recurrence*, Combinatorica 21, no. 2
-(2001), 211--219, received 7 February 2000. The site's curator credits the
-paper only with an improved separation bound, not with the solution, so no
-review by the site is listed.
+(2001), 211--219, received 7 February 2000. The erdosproblems.com curator
+credits the paper only with an improved separation bound, not with the solution,
+so no review by erdosproblems.com is listed.
 
 **Depends on.** No page of this wiki. The proof is self-contained in the
 paper.

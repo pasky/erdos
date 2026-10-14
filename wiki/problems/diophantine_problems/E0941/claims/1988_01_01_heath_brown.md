@@ -4,8 +4,8 @@ title: Every large integer is a sum of at most three powerful numbers
 desc: |
   Heath-Brown proves that every sufficiently large integer is a sum of at most
   three powerful numbers, which answers Problem 941 affirmatively. The paper
-  appeared in the Paris number theory seminar volume, and the site credits the
-  result.
+  appeared in the Paris number theory seminar volume, and erdosproblems.com
+  credits the result.
 authors:
 - D. R. Heath-Brown
 status: accepted
@@ -31,17 +31,17 @@ sums of three square-full numbers*, Séminaire de Théorie des Nombres, Paris
 1986–87, Progress in Mathematics 75, Birkhäuser Boston (1988), 137–163. Only
 the publication year is recorded, so the page is dated to the start of 1988.
 The question reached the Oberwolfach problem book in 1986 as a problem of Erdős
-and Ivić; the site also cites Erdős's 1976 Manitoba survey [Er76d].
+and Ivić; erdosproblems.com also cites Erdős's 1976 Manitoba survey [Er76d].
 
 **Method.** The title names the approach, ternary quadratic forms: a sum of
 three powerful numbers is a value of a form $a^3x^2+b^3y^2+c^3z^2$. No account
 of the paper's argument is recorded.
 
-**Acceptance.** The site's curator, Thomas Bloom, marked Problem 941 proved and
-credits this paper for the proof. The volume is an edited seminar proceedings
-rather than a journal, so no `refereed` evidence is listed. No formal proof is
-on record. In formal-conjectures, the result is stated without proof and tagged
-research solved, as `erdos_940.variants.three_powerful` in
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, marked Problem 941
+proved and credits this paper for the proof. The volume is an edited seminar
+proceedings rather than a journal, so no `refereed` evidence is listed. No
+formal proof is on record. In formal-conjectures, the result is stated without
+proof and tagged research solved, as `erdos_940.variants.three_powerful` in
 [940.lean](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/940.lean)
 and as `erdos_1107.variants.two` in
 [1107.lean](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1107.lean).

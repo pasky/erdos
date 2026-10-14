@@ -73,13 +73,13 @@ Corollary 5.1 and Lemma 5.2 of the paper.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0362/_index|Problem 362]]: the site's sentence that the
-  number of equal subset sums "is maximised when
-  $A=\{-\lfloor\frac{N-1}2\rfloor,\ldots,\lfloor\frac N2\rfloor\}$" is this
+- [[../wiki/problems/number_theory/E0362/_index|Problem 362]]: the
+  erdosproblems.com sentence that the number of equal subset sums "is maximised
+  when $A=\{-\lfloor\frac{N-1}2\rfloor,\ldots,\lfloor\frac N2\rfloor\}$" is this
   corollary with $k=1$ and $n=N$, over sets of distinct reals; the count is
   not invariant under translating $A$ (subsets of different sizes shift by
   different amounts), which is why the 1980 monograph's paraphrase "if the
   $a_i$'s form an arithmetic progression" does not identify the maximizer,
-  the point of the site's thread of 2 November 2025. For the problem's
-  positive sets the maximum is attained by $\{1,\ldots,N\}$, by
+  the point of the erdosproblems.com thread of 2 November 2025. For the
+  problem's positive sets the maximum is attained by $\{1,\ldots,N\}$, by
   Corollary 5.1.

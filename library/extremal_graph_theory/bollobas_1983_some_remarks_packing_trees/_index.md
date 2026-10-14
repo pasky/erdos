@@ -127,12 +127,12 @@ independently reviewed.
   in place of (2) the same count gives the constant $\sqrt3/2$.
 - Translation to the problem's wording. Since $\sqrt2$ is irrational,
   $s<n/\sqrt2$ is $s\le\lfloor n/\sqrt2\rfloor$; the later sources index
-  the trees $T_1,\ldots,T_n$ with $T_1$ edgeless (the site's statement
-  starts at $T_2$), so, counting $T_1$, $T_1,\ldots,T_s$ with
+  the trees $T_1,\ldots,T_n$ with $T_1$ edgeless (the erdosproblems.com
+  statement starts at $T_2$), so, counting $T_1$, $T_1,\ldots,T_s$ with
   $s=\lfloor n/\sqrt2\rfloor$ are the "smallest $\lfloor n/\sqrt2\rfloor$
-  many trees" of the site's commentary (counted from $T_2$ they would need
-  $s=\lfloor n/\sqrt2\rfloor+1>n/\sqrt2$), and the extension clause is what
-  the site calls packing them "greedily": placed in descending order of
+  many trees" of the erdosproblems.com commentary (counted from $T_2$ they would
+  need $s=\lfloor n/\sqrt2\rfloor+1>n/\sqrt2$), and the extension clause is what
+  erdosproblems.com calls packing them "greedily": placed in descending order of
   size, each tree fits wherever the larger ones were put.
   The hypothesis $s\ge3$ needs $n\ge5$ for $s=\lfloor n/\sqrt2\rfloor$. The
   remark's $\frac12\sqrt3\,n$ is the $(\sqrt3/2)n$ the problem page reads in
@@ -149,15 +149,15 @@ $n\le7$) and the Erdős--Sós remark are recorded as the note's statements
 without printed arguments. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0743/_index|#743]]: the Theorem
-(printed p. 203, PDF p. 1), quoted in full under Contents, is the result the
-site attributes to the note: for $3\le s<\frac12\sqrt2\,n$ and trees $T_i$ of
-order $i$, every packing of $T_{k+1},\ldots,T_s$ into $K^n$ extends by $T_k$
-for each $2\le k<s$, so $T_2,\ldots,T_s$ pack into $K^n$, the site's
-"smallest $\lfloor n/\sqrt2\rfloor$ many trees can always be packed greedily
-into $K_n$" (counting the edgeless $T_1$, as under Contents); it proves the
-smallest-trees regime of the conjecture and says more than the site's
-wording, since any partial packing of the larger trees among the first $s$
-extends. The remark of p. 204 (PDF p. 2) is the conditional
+(printed p. 203, PDF p. 1), quoted in full under Contents, is the result
+erdosproblems.com attributes to the note: for $3\le s<\frac12\sqrt2\,n$ and
+trees $T_i$ of order $i$, every packing of $T_{k+1},\ldots,T_s$ into $K^n$
+extends by $T_k$ for each $2\le k<s$, so $T_2,\ldots,T_s$ pack into $K^n$,
+erdosproblems.com's "smallest $\lfloor n/\sqrt2\rfloor$ many trees can always be
+packed greedily into $K_n$" (counting the edgeless $T_1$, as under Contents); it
+proves the smallest-trees regime of the conjecture and says more than the
+erdosproblems.com wording, since any partial packing of the larger trees among
+the first $s$ extends. The remark of p. 204 (PDF p. 2) is the conditional
 $\frac12\sqrt3\,n$ under the Erdős--Sós conjecture that later sources cite.
 The introduction (p. 203) attests Gyárfás and Lehel's proof of
 the case where all but at most two trees are stars and Straight's

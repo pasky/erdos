@@ -5,7 +5,7 @@ desc: |
   Thomassen (Arch. Math. 1974) proves that a graph with $n\ge3$ vertices and
   $2n-2$ edges has a cycle and a vertex off it joined to three of its vertices.
   This settles the modified Statement, and the result is refereed and credited
-  by the site.
+  by erdosproblems.com.
 authors:
 - Carsten Thomassen
 status: accepted
@@ -42,8 +42,8 @@ either has property $p$, a cycle and a vertex not on it joined to at least
 three of its vertices (p. 211), or is a $(K_3,K_{3,3})$-cockade; in
 particular $e(G)\ge2n(G)-2$ forces property $p$. The paper states Erdős's
 1967 suggestion as its purpose (p. 210) and proves it; since property $p$
-survives adding edges, "at least $2n-2$ edges" and the site's "$2n-2$ edges"
-ask the same question. The theorem also makes the value $2n-2$ exact: the
+survives adding edges, "at least $2n-2$ edges" and erdosproblems.com's "$2n-2$
+edges" ask the same question. The theorem also makes the value $2n-2$ exact: the
 cockades have $2n-3$ edges and lack the configuration (Lemma 2, p. 211), and
 Dirac's graphs with $2n-3$ edges have no subdivision of $K_4$ at all. The
 Corollary (p. 215) reproves Dirac's theorem of 1960, which the question
@@ -53,19 +53,19 @@ strengthens.
 
 **Acceptance.** Refereed: Archiv der Mathematik. The Crossref record (accessed
 2026-10-07) gives volume 25, issue 1, pp. 210--215, issued December 1974, and
-this page's date is the issue's nominal first day. Reviewed: the site's curator,
-T. F. Bloom, independent of the author, labeled the problem proved and names
-this paper as the proof. Carmesin restates the theorem, without a range for $n$,
-in a refereed, open-access paper (J. Combin. Theory Ser. B 161 (2023), p. 22,
-paged at
+this page's date is the issue's nominal first day. Reviewed: the
+erdosproblems.com curator, T. F. Bloom, independent of the author, labeled the
+problem proved and names this paper as the proof. Carmesin restates the theorem,
+without a range for $n$, in a refereed, open-access paper (J. Combin. Theory
+Ser. B 161 (2023), p. 22, paged at
 [[../library/extremal_graph_theory/carmesin_2023_characterising_graphs_no_subdivision_wheel_bounded_diameter/related_results_p22|related_results_p22]]).
 The source has a library
 [[../library/extremal_graph_theory/thomassen_1974_minimal_condition_implying_special_k4_subdivision_graph/_index|source card]].
 Read depth: the Introduction, the definition of property $p$, Lemma 2, the
 Theorem and the Corollary. The proof (pp. 212--215, an induction on $n$) was
 read for structure only, with no step checked. The acceptance recorded here
-rests on the publication, the restatement and the site's acceptance, not on a
-local review.
+rests on the publication, the restatement and erdosproblems.com's acceptance,
+not on a local review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos916.lean` of
 Alexeev's repository `plby/lean-proofs`, linked above at the repository's
@@ -76,7 +76,7 @@ GPT-5.6 Sol as its formal authors. Its theorem `erdos_916` takes a finite
 simple graph on at least four vertices with exactly $2n-2$ edges and
 concludes a cycle with a further vertex adjacent to three of its vertices
 (`HasWheelWitness`), the problem's modified Statement with the four-vertex
-floor the site's wording lacks; the main file carries no `#print axioms`
-line, and its 63 imported modules are not examined here. The site does not
-cite it, and nothing was built, replayed or audited here, so the page lists
-no `formalized` evidence.
+floor the erdosproblems.com wording lacks; the main file carries no
+`#print axioms` line, and its 63 imported modules are not examined here.
+erdosproblems.com does not cite it, and nothing was built, replayed or audited
+here, so the page lists no `formalized` evidence.

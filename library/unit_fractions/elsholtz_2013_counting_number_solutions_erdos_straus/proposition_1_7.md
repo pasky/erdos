@@ -55,8 +55,9 @@ divisor bound (the paper's (A.6)).
 
 ## Bears on
 
-- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]: the site's
-  "$f(p)\le p^{3/5+o(1)}$ for all primes $p$"; Elsholtz and Planitzer's
+- [[../wiki/problems/unit_fractions/E0242/_index|Problem 242]]:
+  erdosproblems.com's "$f(p)\le p^{3/5+o(1)}$ for all primes $p$"; Elsholtz and
+  Planitzer's
   [[unit_fractions/elsholtz_2020_number_solutions_erdos_straus_equation/corollary_1|Corollary 1]]
   extends the bound $O_\varepsilon(n^{3/5+\varepsilon})$ to all denominators
   $n$.

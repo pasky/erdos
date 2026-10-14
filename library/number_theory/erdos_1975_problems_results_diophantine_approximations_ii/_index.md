@@ -34,7 +34,7 @@ Lecture Notes in Mathematics **475**, Springer, 1975, pp. 89--99.
 The chapter continues Erdős's *Problems and results on
 diophantine approximations*, Compositio Math. **16** (1964), 52--65, which
 it cites on its first page as (I). Cited as [Er75i] on the problem pages;
-the site's reference text names the volume without the chapter. The
+the erdosproblems.com reference text names the volume without the chapter. The
 citing sources filed here identify the chapter in the volume: Dubickas's
 reference [14] gives pp. 89--99, Pollington's reference [2] and Peres and
 Schlag's reference [5] give the volume, and the references of Erdős's 1982
@@ -191,14 +191,14 @@ question in Erdős's own words
 ([[number_theory/erdos_1975_problems_results_diophantine_approximations_ii/question_p96_lacunary_density|the lacunary density question]]):
 for a sequence with $n_{k+1}/n_k>c>1$, whether some irrational $\alpha$
 makes $(n_k\alpha)$ "not everywhere dense", with $(x)$ the fractional part
-(§ 3, p. 91). It is the printed origin that the site's key Er75i names,
-that Pollington's introduction quotes with the ratio condition written
+(§ 3, p. 91). It is the printed origin that the erdosproblems.com key Er75i
+names, that Pollington's introduction quotes with the ratio condition written
 $\ge\alpha>1$, and that Erdős's 1982 paper restates as "not everywhere
 dense". The printed wording carries the irrationality clause and asks about
 density of the fractional parts modulo $1$, not of the distances to the
 nearest integer, as the problem page's modified Statement does; the strict
-ratio bound $>c>1$ and the site's $n_{k+1}\ge(1+\epsilon)n_k$ describe the
-same class of sequences. The same page reports the Erdős--Taylor theorem
+ratio bound $>c>1$ and erdosproblems.com's $n_{k+1}\ge(1+\epsilon)n_k$ describe
+the same class of sequences. The same page reports the Erdős--Taylor theorem
 that the multipliers $\alpha$ for which $(n_k\alpha)$ is not uniformly
 distributed form a set of Hausdorff dimension one, which does not answer
 the question. The next paragraph poses

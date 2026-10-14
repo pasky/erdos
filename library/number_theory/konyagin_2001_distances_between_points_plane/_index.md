@@ -27,7 +27,7 @@ distances between points on the plane), Mat. Zametki 69 (2001), no. 4,
 distances between points on the plane*, Math. Notes 69 (2001), no. 3--4,
 578--581, DOI 10.1023/A:1010276601734 (the mathnet.ru and Crossref records read
 2026-09-18; the translation was not read, and the card cites the Russian
-original). The site's key Ko01 for Problem 465.
+original). The erdosproblems.com key Ko01 for Problem 465.
 
 The copy read for this card
 is a four-page PDF of the Russian original (Ghostscript output; printed

@@ -73,8 +73,8 @@ variation of Bollobás's theorem (p. 2); Proposition 2 on full components
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0150/_index|Problem 150]]: the site's "The
-  upper bound is due to Fomin and Villanger [FoVi12]", the bound
-  $\alpha\le\frac{1+\sqrt5}2\approx1.618$, through the one-line passage from
-  minimal cuts to minimal separators; the paper itself never mentions Erdős,
-  Nešetřil or minimal cuts.
+- [[../wiki/problems/extremal_graph_theory/E0150/_index|Problem 150]]:
+  erdosproblems.com's "The upper bound is due to Fomin and Villanger [FoVi12]",
+  the bound $\alpha\le\frac{1+\sqrt5}2\approx1.618$, through the one-line
+  passage from minimal cuts to minimal separators; the paper itself never
+  mentions Erdős, Nešetřil or minimal cuts.

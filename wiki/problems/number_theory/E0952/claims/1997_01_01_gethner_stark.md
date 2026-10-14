@@ -45,7 +45,7 @@ bounds is not covered.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Refereed: Experimental Mathematics 6 (1997). The site
+**Acceptance.** Refereed: Experimental Mathematics 6 (1997). Bloom's catalog
 labeled the problem OPEN, so no curator acceptance is listed. The theorem is
 stated from the paper's published summary; its proof has not been reproduced
 here.

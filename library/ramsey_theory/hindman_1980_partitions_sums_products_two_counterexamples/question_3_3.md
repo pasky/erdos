@@ -51,8 +51,8 @@ finite $A$" is the quantifier over $k$ here, the problem's finite coloring
 is the $r$-cell partition, and the one-element subsets put $A$ itself in the
 cell $E$, as the problem's reading through Hindman's conjecture does. Open
 in the paper (received October 1978, published 1980) and as of the search
-recorded on the problem page; the site's commentary says the problem was
-"First asked by Hindman", and this is a printed statement of it in the
+recorded on the problem page; the erdosproblems.com commentary says the problem
+was "First asked by Hindman", and this is a printed statement of it in the
 author's own words, without a claim here that it is the first. The same
 statement in the later literature is
 [[ramsey_theory/alweiss_2023_monochromatic_sums_products_over/conjecture_1_1|Alweiss's Conjecture 1.1]].
@@ -67,5 +67,5 @@ and pairwise products.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0172/_index|Problem 172]]: the problem's statement in
-  the paper the site cites for the seven-color infinite counterexample;
+  the paper erdosproblems.com cites for the seven-color infinite counterexample;
   the paper calls it open.

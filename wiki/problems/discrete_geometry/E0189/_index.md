@@ -24,8 +24,8 @@ updated: 2026-10-08T17:47:46Z
 **Statement.** If $\mathbb{R}^2$ is finitely coloured then must there exist some
 colour class which contains the vertices of a rectangle of every area?
 
-**Status.** DISPROVED (LEAN). The site credits Kovač's coloring of the plane in
-$25$ colors with no monochromatic rectangle of area $1$ [Ko23]. See the
+**Status.** DISPROVED (LEAN). erdosproblems.com credits Kovač's coloring of the
+plane in $25$ colors with no monochromatic rectangle of area $1$ [Ko23]. See the
 [[problems/discrete_geometry/E0189/claims/2023_09_18_kovac|claim page]].
 
 **Source.** [erdosproblems.com/189](https://www.erdosproblems.com/189), accessed
@@ -49,8 +49,8 @@ The answer is no. Theorem 3 of
 gives an explicit Jordan-measurable coloring of the plane in $25$ colors in
 which no color class contains the four vertices of a rectangle of area $1$, so
 no color class contains a rectangle of every area. The paper is refereed in
-Proc. Lond. Math. Soc., and the site's curator credits it; the two Lean
-developments of the coloring are linked at pinned commits from the
+Proc. Lond. Math. Soc., and the erdosproblems.com curator credits it; the two
+Lean developments of the coloring are linked at pinned commits from the
 [[problems/discrete_geometry/E0189/claims/2023_09_18_kovac|claim page]] and
 have not been built or audited by this corpus. Graham [Gr80] proved the
 positive statement for right-angled triangles in place of rectangles. The

@@ -27,9 +27,9 @@ $$
 $$
 
 **Status.** Open. On 7 February 2026, Mohamed Amine Belachhab claimed a negative
-answer, namely that the limsup equals $3/\log 2$. The site's discussion thread
-refuted this claim with the counterexample $n=3^{14}\cdot 311$. The claim is
-recorded as rejected on
+answer, namely that the limsup equals $3/\log 2$. The erdosproblems.com
+discussion thread refuted this claim with the counterexample
+$n=3^{14}\cdot 311$. The claim is recorded as rejected on
 [[problems/diophantine_problems/E0933/claims/2026_02_07_belachhab|its claim page]].
 
 **Source.** [erdosproblems.com/933](https://www.erdosproblems.com/933), accessed

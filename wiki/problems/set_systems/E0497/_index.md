@@ -24,16 +24,16 @@ updated: 2026-10-08T03:43:48Z
 families of subsets of $[n]$ are there such that, if $\mathcal{F}$ is such a
 family and $A,B\in \mathcal{F}$, then $A\not\subseteq B$?
 
-**Formulation.** The site's gloss does not say that $A$ and $B$ are distinct;
-read as the site words it, with $A=B$ allowed, only the empty family qualifies.
-The page reads the question as the site's first sentence, Erdős's 1961 paper
-(section II, item 1, which counts the ways to choose sets so that none contains
-another) and the formal-conjectures statement read it: it counts the antichains
-of subsets of $[n]$, the families in which no member contains a different
-member.
+**Formulation.** The erdosproblems.com gloss does not say that $A$ and $B$ are
+distinct; read as Bloom's catalog words it, with $A=B$ allowed, only the empty
+family qualifies. The page reads the question as erdosproblems.com's first
+sentence, Erdős's 1961 paper (section II, item 1, which counts the ways to
+choose sets so that none contains another) and the formal-conjectures statement
+read it: it counts the antichains of subsets of $[n]$, the families in which no
+member contains a different member.
 
-**Status.** The site labeled the problem SOLVED (LEAN), crediting Kleitman
-[Kl69]. The accepted claim is
+**Status.** Bloom's catalog labeled the problem SOLVED (LEAN), crediting
+Kleitman [Kl69]. The accepted claim is
 [[problems/set_systems/E0497/claims/1969_06_01_kleitman|the number of antichains is 2 to the (1+o(1)) middle layer]].
 The Lean artifact behind the qualifier is described under Formalization.
 
@@ -58,24 +58,24 @@ the claim page. It was not built here.
 
 ## Current assessment
 
-The site's formulation asks how many antichains of subsets of $[n]$ there
-are, Dedekind's problem. The answer, to the precision Erdős asked for in 1961,
-is $2^{(1+o(1))\binom{n}{\lfloor n/2\rfloor}}$:
+The erdosproblems.com formulation asks how many antichains of subsets of $[n]$
+there are, Dedekind's problem. The answer, to the precision Erdős asked for in
+1961, is $2^{(1+o(1))\binom{n}{\lfloor n/2\rfloor}}$:
 [[problems/set_systems/E0497/claims/1969_06_01_kleitman|Kleitman 1969]],
-refereed in Proc. Amer. Math. Soc. and credited by the site's curator; the
-problem's standing derives from that accepted claim. Finer asymptotics of the
-Dedekind numbers, such as the sharpened error term of Kleitman and Markowsky
-(1975) recorded on the claim page by title, are not part of the question and
-are not assessed here.
+refereed in Proc. Amer. Math. Soc. and credited by the erdosproblems.com
+curator; the problem's standing derives from that accepted claim. Finer
+asymptotics of the Dedekind numbers, such as the sharpened error term of
+Kleitman and Markowsky (1975) recorded on the claim page by title, are not part
+of the question and are not assessed here.
 
-Search scope, with the sources as they stood on 2026-10-07: the site's page
-and discussion thread (one comment, no proof claims), the community database
-(teorth/erdosproblems, which lists the sequence as OEIS A000372), the
-formal-conjectures statement file, the lean-proofs collection and Crossref.
-None of them showed another claim on the problem. One third-party Lean proof
-of the asymptotic, by a container-method route rather than Kleitman's, is
-linked from the claim page; it was not built or audited here, and the site's
-Lean qualifier rests on it.
+Search scope, with the sources as they stood on 2026-10-07: the
+erdosproblems.com page and discussion thread (one comment, no proof claims), the
+community database (teorth/erdosproblems, which lists the sequence as OEIS
+A000372), the formal-conjectures statement file, the lean-proofs collection and
+Crossref. None of them showed another claim on the problem. One third-party Lean
+proof of the asymptotic, by a container-method route rather than Kleitman's, is
+linked from the claim page; it was not built or audited here, and the
+erdosproblems.com Lean qualifier rests on it.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

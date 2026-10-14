@@ -23,8 +23,8 @@ question.
 
 A. Sárközy, *On distances near integers, I*, Studia Scientiarum
 Mathematicarum Hungarica 11 (1976), 37--50 (received December 10, 1975).
-The first half of the site's key Sa76 for Problems 465 and 466; Part II is
-filed as
+The first half of the erdosproblems.com key Sa76 for Problems 465 and 466; Part
+II is filed as
 [[number_theory/sarkozy_1976_distances_near_integers_ii/_index|sarkozy_1976_distances_near_integers_ii]].
 
 **Copy read.** The copy read for this card is the paper alone: fourteen pages
@@ -108,9 +108,9 @@ no lemma or step was checked, and nothing here is independently reviewed.
 (printed p. 38, PDF p. 2, page image) proves the problem's first question,
 $N(X,\delta)=o(X)$ for every fixed $\delta\in(0,1/2)$, with the explicit
 bound $(4\cdot10^4/\delta^3)X/\log\log X$ for $X$ large depending on
-$\delta$, which is the site's "$N(X,\delta)\ll\delta^{-3}X/\log\log X$";
-p. 37 records both of Erdős's conjectures as oral communications and
-Graham's proof of the second.
+$\delta$, which is erdosproblems.com's
+"$N(X,\delta)\ll\delta^{-3}X/\log\log X$"; p. 37 records both of Erdős's
+conjectures as oral communications and Graham's proof of the second.
 [[../wiki/problems/number_theory/E0466/_index|#466]]: conjecture (4) on printed p. 37
 (PDF p. 1) is the problem's question, written with the radius $X$ as the
 limit variable, and the sentence "(4) has been proved by R. L. Graham

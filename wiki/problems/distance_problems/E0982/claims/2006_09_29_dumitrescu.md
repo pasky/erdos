@@ -50,6 +50,6 @@ the date this page is named by; the print issue is volume 36, number 4
 [[../library/distance_problems/dumitrescu_2006_distinct_distances_vertex_convex_polygon/_index|dumitrescu_2006_distinct_distances_vertex_convex_polygon]].
 
 **Acceptance.** Refereed: Discrete & Computational Geometry 36 (2006),
-no. 4, 503--509. The site's commentary credits the bound; its label,
+no. 4, 503--509. The erdosproblems.com commentary credits the bound; its label,
 FALSIFIABLE, settles nothing, so the curator's credit is not counted as
 review.

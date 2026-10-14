@@ -4,11 +4,11 @@ desc: |
   A 2026 arXiv preprint, with declared AI assistance, claiming the matching
   lower bound f(n) >= (1/4 - o(1)) n for the minimum number of Farey fractions
   between a badly ordered pair, so that f(n) = (1/4 + o(1)) n; the source
-  behind the site's SOLVED label for Problem 1005, accepted by the site and
-  not refereed.
+  behind erdosproblems.com's SOLVED label for Problem 1005, accepted by
+  erdosproblems.com and not refereed.
 license: CC-BY-4.0
 created: 2026-09-18T16:10:00Z
-updated: 2026-10-08T03:52:55Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # number_theory/cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey
@@ -18,8 +18,8 @@ updated: 2026-10-08T03:52:55Z
 [[number_theory/cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey/theorem_1|theorem_1]]: The claimed main theorem of the 2026 Cipollini preprint: the minimum number
 f(n) of Farey fractions of order n strictly between two badly ordered
 fractions satisfies f(n) = (1/4 + o(1)) n, so Erdős Problem 1005 has
-asymptotic constant 1/4; an AI-assisted preprint accepted by the site and
-not refereed, compiled at statement depth only.
+asymptotic constant 1/4; an AI-assisted preprint accepted by erdosproblems.com
+and not refereed, compiled at statement depth only.
 
 ***
 
@@ -27,9 +27,9 @@ Ricky Cipollini, *Optimality of Wouter van Doorn's Upper Bound for the
 Mayer--Erdős Farey Problem*, arXiv:2607.23302v1 [math.NT] (25 July 2026), 16
 pages; the manuscript is dated July 25, 2026 on its first page. The abstract
 page lists one version and no journal reference, and no journal record exists
-(Crossref bibliographic query, 2026-09-18): a preprint. The site's Problem 1005
-page cites it under the key Ci26 (the page's sentence names the author, and its
-proof-claims tab links this arXiv identifier).
+(Crossref bibliographic query, 2026-09-18): a preprint. erdosproblems.com's
+Problem 1005 page cites it under the key Ci26 (the page's sentence names the
+author, and its proof-claims tab links this arXiv identifier).
 
 The retained
 [folder-name PDF](cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey.pdf)
@@ -50,15 +50,16 @@ Lean 4 formalization of the proof, linked there. The systems are named in the
 manuscript and are not named here. This card records that statement as the
 source's own provenance and claims no independent check of the argument.
 
-Acceptance evidence, recorded not judged: the site's Problem 1005 page
+Acceptance evidence, recorded not judged: erdosproblems.com's Problem 1005 page
 (last edited 1 September 2026) states $f(n)=(\frac14+o(1))n$ on this
-paper's authority and showed SOLVED; the site's proof-claims tab for the
-problem carries the author's full-proof claim of 14 July 2026 (the arXiv
+paper's authority and showed SOLVED; the erdosproblems.com proof-claims tab for
+the problem carries the author's full-proof claim of 14 July 2026 (the arXiv
 link added by a moderator), under the tab's notice that appearing there "is
 no guarantee of proof correctness"; the thread's one comment (4 July 2026)
 is the author's announcement. Semantic Scholar lists one citing record, the
 Wang--Xie--Zhao preprint of August 2026. This is a source-supported
-solution accepted by the site, distinct from a claim of journal refereeing.
+solution accepted by erdosproblems.com, distinct from a claim of journal
+refereeing.
 
 Read status: claims checked for the abstract, the definitions of Section 1,
 [[number_theory/cipollini_2026_optimality_van_doorn_upper_bound_mayer_erdos_farey/theorem_1|Theorem 1]],
@@ -107,15 +108,15 @@ step; nothing here is independently reviewed.
   $f(n)=(\frac14+o(1))n$; "the asymptotic form of Erdős Problem 1005 is
   resolved with constant $1/4$" (p. 15).
 - References (p. 16): Mayer 1942 (48--57), Erdős 1943, van Doorn
-  arXiv:2509.00121, the site's Problem 1005 page.
+  arXiv:2509.00121, erdosproblems.com's Problem 1005 page.
 
 ## Compiled scope
 
 The whole manuscript was read. Theorem 1 is compiled as a claim page with
 the manuscript's proof pointer; no step of the lower-bound argument was
 checked, and the argument is the first candidate this compilation names
-for an independent whole-argument review, since the site's status rests on
-it.
+for an independent whole-argument review, since the erdosproblems.com status
+rests on it.
 
 ## Formal artifacts (read statically, not built)
 
@@ -129,8 +130,8 @@ review exists here.
   `d30552f64c55686d40b928a0a3b8e2396357a4ee` (4 August 2026; the
   repository's head on 2026-09-18 was `17d88dc1f122640d4a0101d1bcf04cb8682f7935`
   of 10 September 2026): 175,924 bytes, 2,557 lines, `import Mathlib`, a
-  header naming Lean `v4.28.0`, this manuscript and the site's problem,
-  and attributing the formalization to an automated proof system (named
+  header naming Lean `v4.28.0`, this manuscript and the erdosproblems.com
+  problem, and attributing the formalization to an automated proof system (named
   there). It defines `IsFarey n q` ($0\le q\le1$, `q.den ≤ n`),
   `betweenCount n x y` (the number of Farey fractions strictly between),
   `BadlyOrdered n x y` (`x < y`, `x.num < y.num`, `y.den < x.den`) and
@@ -142,12 +143,12 @@ review exists here.
   $(1/4-\varepsilon)n\le$ `fVal n`; line 2530). The file contains no
   `sorry` and no `axiom` declaration; its closing `#print axioms erdos_1005`
   (line 2555) carries no recorded output.
-- The repository the site's proof-claims tab links, `mrricky22/erdos-1005-lean`,
-  head `b0b308115cd6502baae120c085b09861e45e7d1e` (4 July 2026): a Lake
-  project whose `RequestProject/` folder holds fourteen Lean files;
-  `Statement.lean` gives the same four definitions and `Main.lean` proves
-  the same `erdos_1005` from the same two bounds. Nine of the fourteen files
-  (1,787 lines, `Statement`, `Main`, `Assembly`, `Density`, `Farey`,
+- The repository the erdosproblems.com proof-claims tab links,
+  `mrricky22/erdos-1005-lean`, head `b0b308115cd6502baae120c085b09861e45e7d1e`
+  (4 July 2026): a Lake project whose `RequestProject/` folder holds fourteen
+  Lean files; `Statement.lean` gives the same four definitions and `Main.lean`
+  proves the same `erdos_1005` from the same two bounds. Nine of the fourteen
+  files (1,787 lines, `Statement`, `Main`, `Assembly`, `Density`, `Farey`,
   `FareyGap`, `Lower`, `LowerCore`, `LowerFinal`) were read as text and
   contain no `sorry` and no `axiom` declaration; the five others
   (`PrimProg`, `Reduction`, `TotientIncrement`, `TotientSum`, `Upper`) were
@@ -155,8 +156,8 @@ review exists here.
   automated proof system (named there).
 
 Both developments state the theorem for the manuscript's intervening-count
-$f(n)$; the site's problem uses the largest guaranteed index gap, and the
-consuming page records the equality of the two conventions as an authored
+$f(n)$; the erdosproblems.com problem uses the largest guaranteed index gap, and
+the consuming page records the equality of the two conventions as an authored
 remark. No formal-conjectures file exists for Problem 1005 at the
 collection's commit of 2026-09-18.
 
@@ -165,7 +166,7 @@ source: Theorem 1 gives $f(n)=(\frac14+o(1))n$ for the minimum number of
 Farey fractions between a badly ordered pair, which equals the problem's
 largest guaranteed run of similarly ordered fractions, so the problem's
 asymptotic constant is $c=1/4$; a preprint with declared AI assistance,
-accepted by the site, not refereed and not independently reviewed here.
+accepted by erdosproblems.com, not refereed and not independently reviewed here.
 
 **Results.**
 

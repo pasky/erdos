@@ -4,8 +4,8 @@ title: Rows whose every entry has a high prime-power divisor
 desc: |
   For a suitable power of two $n$, every binomial coefficient in row $n$ is
   divisible by the $r$-th power of $2$ or of a chosen prime, so $S(n)$ is
-  unbounded. Cambie, Kovač and Tao worked this out in the site's discussion
-  thread, and Tao formalized it in Lean.
+  unbounded. Cambie, Kovač and Tao worked this out in the erdosproblems.com
+  discussion thread, and Tao formalized it in Lean.
 authors:
 - Terence Tao
 - Stijn Cambie
@@ -40,8 +40,8 @@ updated: 2026-10-08T03:53:51Z
 $\limsup_{n\to\infty}S(n)=\infty$, where $S(n)$ is the largest $s$ such
 that every $\binom{n}{k}$ with $1\le k<n$ is divisible by $p^s$ for some
 prime $p$ depending on $k$. The proof emerged in the problem's discussion
-thread on the site between 27 and 28 August 2025, from an exchange among
-Stijn Cambie, Vjekoslav Kovač and Terence Tao, with Tao's comment of 28
+thread on erdosproblems.com between 27 and 28 August 2025, from an exchange
+among Stijn Cambie, Vjekoslav Kovač and Terence Tao, with Tao's comment of 28
 August 2025 giving the complete argument. It is a construction: let $r\ge2$
 and let $p$ be a prime with $p>2^{r-1}$; then $n=2^{\varphi(p^r)}$ has
 $S(n)\ge r$. For such $n$ every $\binom{n}{k}$ with $1\le k<n$ is divisible
@@ -53,7 +53,7 @@ $\binom{n}{k}k(k-1)=\binom{n-2}{k-2}(n-1)n$, which transfers the factor $p^r$
 of $n-1$ to $\binom{n}{k}$ when $p$ divides neither $k$ nor $n-k$, hence not
 $k-1$; the remaining cases are excluded by the size condition $p>2^{r-1}$.
 Taking $r\to\infty$ with a prime $p>2^{r-1}$ for each $r$ gives the
-unbounded sequence. The site also records a simpler construction,
+unbounded sequence. erdosproblems.com also records a simpler construction,
 $n=3^{2^k}$, from an Art of Problem Solving discussion; it is not credited to
 a named author and has no page here.
 
@@ -76,10 +76,10 @@ evidence.
 
 **Depends on.** No page of this wiki.
 
-**Acceptance.** Thomas Bloom, the site's curator, marked the problem proved,
-credits Cambie, Kovač and Tao on the problem page (last edited 12 January 2026)
-and records the Lean formalization in the site's label. The community database
-lists the problem's status as proved (Lean) as of its last update, dated 31
-August 2025. There is no refereed write-up, and the result exists only as the
-thread posts and the Lean file. The acceptance rests on the curator's documented
-review.
+**Acceptance.** Thomas Bloom, the erdosproblems.com curator, marked the problem
+proved, credits Cambie, Kovač and Tao on the problem page (last edited 12
+January 2026) and records the Lean formalization in the erdosproblems.com label.
+The community database lists the problem's status as proved (Lean) as of its
+last update, dated 31 August 2025. There is no refereed write-up, and the result
+exists only as the thread posts and the Lean file. The acceptance rests on the
+curator's documented review.

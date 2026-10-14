@@ -80,19 +80,19 @@ $\gg_a\sqrt n/(\log n\log\log n)$ admissible $k$. Remark 6.2 notes that the
 bound is ineffective because Pollack's theorem rests on Siegel's theorem, and
 that computation suggests $1722$ is the largest $1$-good $n$.
 
-**Reviewed.** The site's curator, Thomas Bloom, marked Problem 1141 disproved
-and credits the resolution to the internal OpenAI model of this paper in the
-site's commentary (last edited 9 April 2026). On 2026-10-07 the arXiv record
-listed one version and no journal reference, so the claim has no refereed
-evidence.
+**Reviewed.** The erdosproblems.com curator, Thomas Bloom, marked Problem 1141
+disproved and credits the resolution to the internal OpenAI model of this paper
+in the erdosproblems.com commentary (last edited 9 April 2026). On 2026-10-07
+the arXiv record listed one version and no journal reference, so the claim has
+no refereed evidence.
 
 **Formalizations.** Four Lean files declare themselves formalizations of this
 result, following the paper, so they are links on this page and not claims of
-their own. The first, posted in the site's thread on 11 April 2026 by Yuta
-Oriike and made with GPT-5.4 Pro, proves the formal-conjectures statement and
-the $a$-general variant with Pollack's Theorem 1.3 and Mertens' third theorem
-taken as axioms; its `#print axioms` lists those two beside the standard three.
-The link pins the revision of 13 April 2026 that updated the reference to
+their own. The first, posted in the erdosproblems.com thread on 11 April 2026 by
+Yuta Oriike and made with GPT-5.4 Pro, proves the formal-conjectures statement
+and the $a$-general variant with Pollack's Theorem 1.3 and Mertens' third
+theorem taken as axioms; its `#print axioms` lists those two beside the standard
+three. The link pins the revision of 13 April 2026 that updated the reference to
 Pollack's theorem, to which the thread post was edited to point; the file was
 first uploaded on 11 April 2026. The second, Boris Alexeev's `lean-proofs` file,
 names the model and the five authors as informal authors and GPT-5.4 Pro and

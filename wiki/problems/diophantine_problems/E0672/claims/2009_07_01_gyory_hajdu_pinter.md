@@ -50,5 +50,6 @@ and
 for the lengths $k\le11$.
 
 **Acceptance.** Refereed: Compositio Mathematica 145 (2009), no. 4. The
-site's commentary credits the theorem, but the site labeled the problem
-VERIFIABLE, an open label, so the commentary is not `reviewed` evidence.
+erdosproblems.com commentary credits the theorem, but Bloom's catalog labeled
+the problem VERIFIABLE, an open label, so the commentary is not `reviewed`
+evidence.

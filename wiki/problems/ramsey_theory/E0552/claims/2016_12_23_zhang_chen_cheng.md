@@ -65,7 +65,7 @@ computer value; otherwise the paper's own constructions and lemmas.
 and Their Applications, volume 45 (May 2017). This is the `refereed` evidence.
 The paper was available online on 23 December 2016, its earliest public date,
 which dates this page.
-The site's curator refers to this paper in the commentary on exact values. But
-the site's label OPEN settles neither the problem nor a declared part of it, so
-`reviewed` is not listed. The statements are checked against the publisher's
-text, and the proofs are read for structure only.
+The erdosproblems.com curator refers to this paper in the commentary on exact
+values. But the erdosproblems.com label OPEN settles neither the problem nor a
+declared part of it, so `reviewed` is not listed. The statements are checked
+against the publisher's text, and the proofs are read for structure only.

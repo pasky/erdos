@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 280, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/covering_systems/E0280/claims
@@ -13,6 +13,6 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/covering_systems/E0280/claims/2025_08_10_cambie|2025_08_10_cambie]]: Stijn Cambie observed that the moduli $2^k$ with residues $2^{k-1}+1$ leave
 only the integer 1 uncovered, so the count is the constant 1 and the statement
-is false. It is accepted on the site curator's credit.
+is false. It is accepted on the erdosproblems.com curator's credit.
 
 ***

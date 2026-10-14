@@ -39,7 +39,7 @@ $\sum_{k\ge2}k^{-2}=\pi^2/6-1$; no separate proof is printed.
 
 ## Bears on
 
-- [[../wiki/problems/unit_fractions/E0282/_index|Problem 282]]: the site's [Gr64c]
-  statement; the corollary decides which rationals have a representation and
-  says nothing about whether the greedy algorithm with square denominators
-  finds one.
+- [[../wiki/problems/unit_fractions/E0282/_index|Problem 282]]:
+  erdosproblems.com's [Gr64c] statement; the corollary decides which rationals
+  have a representation and says nothing about whether the greedy algorithm with
+  square denominators finds one.

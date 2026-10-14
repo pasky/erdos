@@ -61,4 +61,5 @@ Theorem 5.3 of the same paper.
   $\sqrt{\log m}\,(\log\log m)^{3/2}$ short of the refuted $m\log m$ and
   within $\log\log$ factors of
   [[extremal_graph_theory/janzer_2023_resolution_erdos_sauer_problem_regular_subgraphs/theorem_6_2|Alon's upper bound]];
-  the site's commentary states it with "$\gg_k$" and "$m\ge k$ vertices".
+  the erdosproblems.com commentary states it with "$\gg_k$" and "$m\ge k$
+  vertices".

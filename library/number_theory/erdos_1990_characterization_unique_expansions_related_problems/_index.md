@@ -8,7 +8,7 @@ desc: |
   digits.
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T15:26:36Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # number_theory/erdos_1990_characterization_unique_expansions_related_problems
@@ -19,7 +19,7 @@ updated: 2026-10-08T15:26:36Z
 (1, 2) whose ordered finite sums of distinct powers have gaps tending to 0,
 and whether every q sufficiently close to 1 has this property; the
 question of Problem 1096 in its authors' words, one year before the
-problem session the site names.
+problem session erdosproblems.com names.
 
 [[number_theory/erdos_1990_characterization_unique_expansions_related_problems/theorem_1|theorem_1]]: The 1990 Erdős-Joó-Komornik characterization of expansions of 1 with
 digits 0 and 1 in a base 1 < q < 2: an expansion is the greedy one exactly
@@ -52,7 +52,7 @@ Erdős, Pál and Joó, István and Komornik, Vilmos, Characterization
 of the unique expansions $1=\sum^\infty_{i=1}q^{-n_i}$ and related problems.
 Bull. Soc. Math. France **118** (1990), no. 3, 377--390; DOI
 10.24033/bsmf.2151 (the Crossref record, read 2026-09-18). "Texte reçu le
-21 mai 1990, révisé le 21 juin 1990" (p. 377). The site's key EJK90.
+21 mai 1990, révisé le 21 juin 1990" (p. 377). The erdosproblems.com key EJK90.
 
 The copy read for this card
 is the Numdam file: a cover page followed by the fourteen printed pages
@@ -89,8 +89,8 @@ for lazy expansions; Section 3 generalizes further earlier results and relates
 the properties to Pisot numbers. The paper is a source for problem 1096 on the
 gaps of the ordered sums of distinct powers of q: its Section 3 introduces
 that sequence, proves the gap bound $y_{n+1}-y_n\le1$ and the Pisot
-obstruction, and its Problem 4 asks the problem's question (the site's other
-source for it is the 1991 problem session of Great Western Number Theory,
+obstruction, and its Problem 4 asks the problem's question (erdosproblems.com's
+other source for it is the 1991 problem session of Great Western Number Theory,
 not held).
 
 ## Contents
@@ -144,11 +144,11 @@ page images. The lemmas stay at the import digest's depth. No step was
 checked and nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/number_theory/E1096/_index|#1096]]: Theorem 4 a) is the
-statement the site attributes to this paper, $x_{k+1}-x_k\le1$ for all $k$
-(the paper's $y_n$ is the problem's $x_n$); the Pisot obstruction the site
-also attributes to it appears here through c) and the proof of d), which
-exclude one Pisot number ($q^3=q^2+1$); since the fact recalled from [8],
-[9] says that in a Pisot base no infinite expansion of $1$ has arbitrarily
+statement erdosproblems.com attributes to this paper, $x_{k+1}-x_k\le1$ for all
+$k$ (the paper's $y_n$ is the problem's $x_n$); the Pisot obstruction
+erdosproblems.com also attributes to it appears here through c) and the proof of
+d), which exclude one Pisot number ($q^3=q^2+1$); since the fact recalled from
+[8], [9] says that in a Pisot base no infinite expansion of $1$ has arbitrarily
 long runs of $0$ digits, c) with that fact excludes every Pisot number in
 $(1,2)$, a consequence the paper does not state as a theorem; the proof of
 d) gives that Pisot base infinite expansions of $1$ from its

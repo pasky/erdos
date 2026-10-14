@@ -34,11 +34,11 @@ every integer; this is the statement of
 [[problems/covering_systems/E0275/_index|Problem 275]]. The bound is sharp:
 the $r$ classes $2^{i-1}\pmod{2^i}$ cover every integer that is not a
 multiple of $2^r$, so they cover $2^r-1$ consecutive integers without
-covering all of them. Erdős conjectured the statement, and the site records
-that Selfridge proved it independently of Crittenden and Vanden Eynden, citing
-no publication for Selfridge's proof, so it has no page of its own. The paper
-is not held in the library; later sources that consume or extend the theorem
-are: Klein, Koukoulopoulos and Lemieux's
+covering all of them. Erdős conjectured the statement, and erdosproblems.com
+records that Selfridge proved it independently of Crittenden and Vanden Eynden,
+citing no publication for Selfridge's proof, so it has no page of its own. The
+paper is not held in the library; later sources that consume or extend the
+theorem are: Klein, Koukoulopoulos and Lemieux's
 [[../library/covering_systems/klein_2023_jth_smallest_modulus_covering_system/claim_2_1|Claim 2.1]],
 which uses it as its exact external input; Sun's
 [[../library/covering_systems/sun_1995_covering_integers_arithmetic_sequences/_index|finite-block criterion]]
@@ -53,15 +53,15 @@ cutoff-$1$ case is the theorem.
 (1970), no. 3, 475–481, at the DOI linked above, issued in March 1970. The page
 name carries the issue month, because the publication record gives no day.
 
-Reviewed: the site's curator, Thomas F. Bloom, records in the problem's
-commentary that the problem was proved independently by Selfridge and by
-Crittenden and Vanden Eynden (page last edited 2026-01-23). The theorem is a
+Reviewed: the erdosproblems.com curator, Thomas F. Bloom, records in the
+problem's commentary that the problem was proved independently by Selfridge and
+by Crittenden and Vanden Eynden (page last edited 2026-01-23). The theorem is a
 standard input in the later literature, as the sources above show.
 
-The site's label carried a Lean qualification. Formal-conjectures marks the
-problem solved and points to a Lean proof in Boris Alexeev's lean-proofs
-repository. That proof follows the short proof of Balister, Bollobás, Morris,
-Sahasrabudhe and Tiba, so it is recorded on
+The erdosproblems.com label carried a Lean qualification. Formal-conjectures
+marks the problem solved and points to a Lean proof in Boris Alexeev's
+lean-proofs repository. That proof follows the short proof of Balister,
+Bollobás, Morris, Sahasrabudhe and Tiba, so it is recorded on
 [[problems/covering_systems/E0275/claims/2019_09_05_balister_bollobas_morris_sahasrabudhe_tiba|their claim page]].
 This corpus has audited no formal proof of the statement, so `formalized` is not
 listed here.

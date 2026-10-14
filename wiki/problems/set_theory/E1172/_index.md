@@ -50,20 +50,21 @@ or even $\omega_2 \to (\xi)_2^2$ for all $\xi<\omega_2$.
 **Formulation.** The three relations asked under GCH come from the booklet item
 [Va99, 7.87]. Its public scan is cut off at the page edge after
 "$\omega_3\to(\omega_2$", and the left side of the final relation is cut off
-too. An earlier version of the site page said that the right-hand sides of the
-first and final statements were missing from the booklet and might have been
-filled in incorrectly. The final statement was later taken from
-[ErHa74, p. 272]. None of the site's sources prints the first relation in full.
-As printed, the first relation follows from the Erdős–Rado theorem that the
-site's remark quotes. Under GCH,
+too. An earlier version of the erdosproblems.com page said that the right-hand
+sides of the first and final statements were missing from the booklet and might
+have been filled in incorrectly. The final statement was later taken from
+[ErHa74, p. 272]. None of the erdosproblems.com sources prints the first
+relation in full. As printed, the first relation follows from the Erdős–Rado
+theorem that the erdosproblems.com remark quotes. Under GCH,
 $(2^{\aleph_1})^+=\omega_3\to(\omega_2+1)^2_{\aleph_1}$, so every $2$-coloring
 of $[\omega_3]^2$ has a homogeneous set of type $\omega_2+1$, which contains
-sets of types $\omega_2$ and $\omega_1+2$. The standing answers the site's
-wording. Its first relation holds and the other two relations are open. The
-consistency question is not settled on this page: no answer is recorded here,
-pending Laver 1982 and the normality of its ideal (Current assessment below).
+sets of types $\omega_2$ and $\omega_1+2$. The standing answers the
+erdosproblems.com wording. Its first relation holds and the other two relations
+are open. The consistency question is not settled on this page: no answer is
+recorded here, pending Laver 1982 and the normality of its ideal (Current
+assessment below).
 
-**Status.** Open. The site's label was OPEN.
+**Status.** Open. The erdosproblems.com label was OPEN.
 
 **Source.** [erdosproblems.com/1172](https://www.erdosproblems.com/1172),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1172,
@@ -83,9 +84,9 @@ https://www.erdosproblems.com/1172.
 
 ## Current assessment
 
-The standing judges the statement above, as the site gave it on 2026-09-04 (page
-last edited 11 April 2026). Its first relation, as printed, follows from the
-Erdős–Rado theorem under GCH; the step is recorded on
+The standing judges the statement above, as erdosproblems.com gave it on
+2026-09-04 (page last edited 11 April 2026). Its first relation, as printed,
+follows from the Erdős–Rado theorem under GCH; the step is recorded on
 [[problems/set_theory/E1172/claims/1956_09_01_erdos_rado|the Erdős–Rado page]],
 an accepted partial claim. The second relation,
 $\omega_3\to(\omega_2+\omega_1,\omega_2+\omega)^2$, and the third relation,
@@ -111,7 +112,7 @@ p. 431), and that CH with a normal such ideal gives
 $\omega_2\to(\omega_1 2+1,\alpha)^2$ for every $\alpha<\omega_2$ (Problem 10/B),
 which at $\alpha=\omega_1+\omega$ gives $\omega_2\to(\omega_1+\omega)^2_2$. If
 the ideal in Laver's GCH model is normal, the relation is therefore consistent
-with GCH relative to a huge cardinal; the site's commentary on
+with GCH relative to a huge cardinal; the erdosproblems.com commentary on
 [[problems/set_theory/E1170/_index|Problem 1170]] credits Laver with the
 consistency of $\omega_2\to(\omega_1 2+1,\alpha)^2$ for all $\alpha<\omega_2$.
 Laver's paper (Logic Colloquium '80, 1982, pp. 173--180) is not held and was not
@@ -120,7 +121,7 @@ Hajnal and Todorčević, Extensions of the Erdős–Rado theorem (1993, Zbl
 0846.03021), prove under CH at $\kappa=\omega_1$ a relation
 $\omega_2\to(\omega_1^{\omega+2}+1,(\omega_1+n)_k)^2$ close to the third
 relation, which does not settle it. No literature search beyond these sources
-and the site is recorded.
+and erdosproblems.com is recorded.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

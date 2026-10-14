@@ -60,6 +60,6 @@ higher dimensions of [[problems/distance_problems/E0223/_index|Problem 223]].
 **Acceptance.** Refereed: K. J. Swanepoel, Unit distances and diameters in
 Euclidean spaces, Discrete & Computational Geometry 41 (2009), no. 1, 1–27,
 published online 2008-05-08. The preprint is arXiv:0707.0213, posted 2007-07-02.
-Not reviewed: the site's remarks say that this paper determined $f_d(n)$ exactly
-for even $d\ge6$, but the site labeled the problem OPEN, so the remark is not an
-acceptance of the problem or of a part.
+Not reviewed: the erdosproblems.com remarks say that this paper determined
+$f_d(n)$ exactly for even $d\ge6$, but Bloom's catalog labeled the problem OPEN,
+so the remark is not an acceptance of the problem or of a part.

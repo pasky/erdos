@@ -67,8 +67,8 @@ The methods of the paper's [5], as cited; no specific result is named.
 
 - [[../wiki/problems/extremal_graph_theory/E1019/_index|Problem 1019]]: the
   problem page records that this paper cites the 1964 paper, one of the
-  site's source keys for the problem, for the methods proving Satz 5. With
-  $m\ge3$ and $[\delta n]\ge2$, a $C_m^{[\delta n]}$ contains a saturated
+  erdosproblems.com source keys for the problem, for the methods proving Satz 5.
+  With $m\ge3$ and $[\delta n]\ge2$, a $C_m^{[\delta n]}$ contains a saturated
   planar graph $C_m^{(2)}$ on $m+2$ vertices, but Satz 5 needs
   $\frac{n^2}4(1+\varepsilon)$ edges, far above the problem's threshold, so
   it does not bear on that threshold.

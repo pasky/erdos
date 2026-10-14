@@ -74,9 +74,9 @@ The law settles the modified Statement of
 $\log R_n$ in probability, which
 [[problems/analysis/E1164/claims/1990_09_01_revesz|Révész's bound]] had
 given with unspecified constants, together with the limit distribution. The
-site's commentary prints the limit as $e^{-4x}$ beside a less-than-or-equal
-event, which is a tail probability's value against a cumulative event; the
-cumulative form is the one displayed above.
+erdosproblems.com commentary prints the limit as $e^{-4x}$ beside a
+less-than-or-equal event, which is a tail probability's value against a
+cumulative event; the cumulative form is the one displayed above.
 
 **Acceptance.** Refereed: the paper appeared in the Annals of Mathematics.
 Reviewed: Thomas Bloom, the curator of erdosproblems.com, labeled the problem

@@ -36,7 +36,7 @@ $$
 for all $\alpha\neq \beta$. Does there exist a free set of cardinality
 $\aleph_{\omega+1}$?
 
-**Status.** Open. The site's label was OPEN.
+**Status.** Open. The erdosproblems.com label was OPEN.
 
 **Source.** [erdosproblems.com/1173](https://www.erdosproblems.com/1173),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1173,
@@ -47,8 +47,8 @@ https://www.erdosproblems.com/1173.
 ## Current assessment
 
 No current assessment is recorded. The status above is imported from the dated
-site record. This page records no current literature search or independent
-assessment of proof coverage.
+erdosproblems.com record. This page records no current literature search or
+independent assessment of proof coverage.
 
 <!-- BEGIN problem library links -->
 

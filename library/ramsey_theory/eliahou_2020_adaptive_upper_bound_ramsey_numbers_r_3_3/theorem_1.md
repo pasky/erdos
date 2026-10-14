@@ -60,4 +60,4 @@ The recursion (1) of Greenwood and Gleason (Canad. J. Math. 7 (1955),
 - [[../wiki/problems/ramsey_theory/E0483/_index|Problem 483]]: the mechanism behind the
   factorial upper bounds on $f(k)$; its instance $k=4$, $a=4$ is
   [[ramsey_theory/eliahou_2020_adaptive_upper_bound_ramsey_numbers_r_3_3/corollary_2|Corollary 2]],
-  the site's bound $(e-1/6)k!$.
+  erdosproblems.com's bound $(e-1/6)k!$.

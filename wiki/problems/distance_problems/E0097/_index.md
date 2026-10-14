@@ -35,15 +35,16 @@ others. Danzer disproved it with a convex nonagon of threefold rotational
 symmetry, built from a Reuleaux triangle, in which every vertex has three other
 vertices at a common distance from it; Erdős reports the example and then asks
 the four-vertex question, which is the Statement [Er87b, pp. 175–176, Fig. 5].
-The site states the problem with four, and that question sets the standing. The
-general form, in which some fixed $k$ replaces four, is discussed with the
-claims under Current assessment.
+erdosproblems.com states the problem with four, and that question sets the
+standing. The general form, in which some fixed $k$ replaces four, is discussed
+with the claims under Current assessment.
 
-**Status.** Labeled falsifiable on the site. Its export of 2026-09-04 records
-the label "FALSIFIABLE", and its page was last edited 27 October 2025. The
-standing in the frontmatter is derived from the claim pages. The site's
-proof-claims tab carries one full proof claim: the manuscript of Liam Kruer,
-Jensen Kohlmeyer and Liam Price of 13 September 2026. It is recorded on
+**Status.** Labeled falsifiable on erdosproblems.com. Its export of 2026-09-04
+records the label "FALSIFIABLE", and its page was last edited 27 October 2025.
+The standing in the frontmatter is derived from the claim pages. The
+erdosproblems.com proof-claims tab carries one full proof claim: the manuscript
+of Liam Kruer, Jensen Kohlmeyer and Liam Price of 13 September 2026. It is
+recorded on
 [[problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]]
 without being adopted. The project's deduction of a counterexample from the
 accepted disproof of Problem 96, which awaits review, is recorded on
@@ -69,25 +70,25 @@ https://www.erdosproblems.com/97.
 
 ## Current assessment
 
-**Question and standing.** The site formulation above asks whether every convex
-polygon has a vertex from which no four other vertices are equidistant, the
-distance allowed to depend on the vertex. The site labeled it falsifiable: one
-convex polygon in which every vertex has four other vertices at a common
-distance from it would refute it, a finite check once the polygon is given, and
-that is a note on an open question, not a claim. Two pending full claims assert
-exactly such polygons. The first,
+**Question and standing.** The erdosproblems.com formulation above asks whether
+every convex polygon has a vertex from which no four other vertices are
+equidistant, the distance allowed to depend on the vertex. Bloom's catalog
+labeled it falsifiable: one convex polygon in which every vertex has four other
+vertices at a common distance from it would refute it, a finite check once the
+polygon is given, and that is a note on an open question, not a claim. Two
+pending full claims assert exactly such polygons. The first,
 [[problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price|Kruer, Kohlmeyer and Price's manuscript]],
 constructs, for every large $n$, $n$ points in strictly convex position each
 with at least $(\frac14-o(1))\log_2\log_2n$ others at distance exactly one, with
 a counterexample of at most $3432\cdot2^{36036}$ vertices, and refutes as well
 the general form in which some fixed $k$ replaces four. The manuscript is
 unrefereed and unreviewed, this corpus has not built its Lean file, and the
-site's export of 2026-09-04 labeled the problem "FALSIFIABLE" with no acceptance
-recorded, so the claim is pending. The second is the project's deduction from
-the accepted disproof of Problem 96, described below, which awaits review. The
-frontmatter standing is claimed through the two, not solved.
+erdosproblems.com export of 2026-09-04 labeled the problem "FALSIFIABLE" with no
+acceptance recorded, so the claim is pending. The second is the project's
+deduction from the accepted disproof of Problem 96, described below, which
+awaits review. The frontmatter standing is claimed through the two, not solved.
 
-The site's remarks tie this problem to
+The erdosproblems.com remarks tie this problem to
 [[problems/distance_problems/E0096/_index|Problem 96]]: a positive answer here
 for $k+1$ equidistant vertices gives, by induction, at most $kn$ unit distances
 among $n$ points in convex position. By the contrapositive, the accepted
@@ -117,9 +118,10 @@ certificates for seven to nine vertices; a post of 15 June 2026 by the
 account mysticflounder reports a Lean exclusion of nine-point
 counterexamples in a repository that was no longer public on 7 October 2026.
 These are thread posts with code and no manuscript, so they have no claim
-page. The site's remark that Erdős in 1975 [Er75f] credited Danzer with a
-disproof of the general form for every $k$, a claim he did not repeat and the
-site presumes mistaken, names no manuscript and has no claim page either.
+page. The erdosproblems.com remark that Erdős in 1975 [Er75f] credited Danzer
+with a disproof of the general form for every $k$, a claim he did not repeat and
+erdosproblems.com presumes mistaken, names no manuscript and has no claim page
+either.
 
 The account mysticflounder announced a proof on 18 May 2026: a reduction of the
 problem to nine-point sets, resting on a descent step that removes a vertex from

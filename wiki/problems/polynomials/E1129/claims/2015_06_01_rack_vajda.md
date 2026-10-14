@@ -52,8 +52,8 @@ $[\alpha,\beta]\supseteq[-1,1]$ on which its Lebesgue function stays at most
 the canonical minimum; the proof of Theorem 5.2 rescales an arbitrary optimal
 system onto $[-1,1]$ and uses the uniqueness of the optimal canonical system
 to identify it. The explicit canonical optimum $t$ and $\lambda^*_4$, which
-the site credits to this paper, is recalled in its Section 3 from Rack, An
-example of optimal nodes for interpolation, Int. J. Math. Educ. Sci. Technol.
+erdosproblems.com credits to this paper, is recalled in its Section 3 from Rack,
+An example of optimal nodes for interpolation, Int. J. Math. Educ. Sci. Technol.
 15 (1984), 355–357, and Rack, An example of optimal nodes for interpolation
 revisited, Springer Proc. Math. Stat. 41 (2013), 117–120. The source card is
 [[../library/polynomials/rack_2015_optimal_cubic_lagrange_interpolation_extremal_node/_index|Rack and Vajda 2015]].
@@ -70,8 +70,9 @@ whose uniqueness of the optimal canonical system the proof of Theorem 5.2
 uses.
 
 **Acceptance.** Refereed: Studia Universitatis Babeş-Bolyai Mathematica 60
-(2015), no. 2 (June 2015), 151–171. Reviewed: the site's curator, Thomas F.
-Bloom, labeled the problem PROVED and credits Rack and Vajda with the four-node
-optimum (erdosproblems.com/1129, last edited 2026-01-23). The constants $b$
-and $t$ are computed with symbolic computation in Mathematica, as the paper
-states. No formalization declares itself a formalization of this paper.
+(2015), no. 2 (June 2015), 151–171. Reviewed: the erdosproblems.com curator,
+Thomas F. Bloom, labeled the problem PROVED and credits Rack and Vajda with the
+four-node optimum (erdosproblems.com/1129, last edited 2026-01-23). The
+constants $b$ and $t$ are computed with symbolic computation in Mathematica, as
+the paper states. No formalization declares itself a formalization of this
+paper.

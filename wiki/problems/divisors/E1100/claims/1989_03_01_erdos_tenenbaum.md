@@ -76,12 +76,14 @@ and Slinko's theorem drawn on the
 [[problems/divisors/E1100/claims/2026_08_04_ross|Ross's pending golden-ratio bound]].
 The maximal-order question Erdős asked in [Er85], display (27), whether
 $\tau_\perp(n)<\exp(\epsilon\log n/\log\log n)$ for every $\epsilon>0$ and
-large $n$, is not in the site's statement and is not covered; it is the
-subject of [[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's pending claim]].
+large $n$, is not in the erdosproblems.com statement and is not covered; it is
+the subject of
+[[problems/divisors/E1100/claims/2026_07_31_korsky|Korsky's pending claim]].
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Number Theory,
 volume 31, issue 3 (March 1989). It was communicated by R. L. Graham and
 received 10 December 1987. The Crossref record of its DOI gives these data. Read
 depth: the numbered theorems of the introduction, read from the author-archive
-scan (second link). The proofs are not checked. The site's problem page (last
-edited 19 October 2025) does not cite the paper and listed the problem as open.
+scan (second link). The proofs are not checked. The erdosproblems.com problem
+page (last edited 19 October 2025) does not cite the paper and listed the
+problem as open.

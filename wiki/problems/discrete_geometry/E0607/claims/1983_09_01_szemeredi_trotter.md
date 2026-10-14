@@ -4,8 +4,8 @@ title: Szemerédi and Trotter's bound on line-size patterns
 desc: |
   Szemerédi and Trotter bound the number of distinct sequences of line sizes
   realizable by $n$ points in the plane by $\exp(O(\sqrt n))$, which gives the
-  bound Erdős asked for. The paper is refereed, and the site credits it as the
-  proof.
+  bound Erdős asked for. The paper is refereed, and erdosproblems.com credits it
+  as the proof.
 authors:
 - Endre Szemerédi
 - William T. Trotter, Jr.
@@ -41,15 +41,16 @@ $\mathscr E(n)$, so $F(n)\le\mathscr E(n)\le\exp(O(\sqrt n))$, which answers
 the question affirmatively. That last step is a one-line remark recorded on
 the
 [[../library/discrete_geometry/szemeredi_1983_extremal_problems_discrete_geometry/_index|source card]],
-not a statement of the paper; the site credits the paper with the proof
-directly. The site's commentary also reports Erdős's view that the bound
-is best possible, which is not part of this claim.
+not a statement of the paper; erdosproblems.com credits the paper with the proof
+directly. The erdosproblems.com commentary also reports Erdős's view that the
+bound is best possible, which is not part of this claim.
 
-**Acceptance.** T. F. Bloom, the site's curator, labeled the problem PROVED and
-credits Szemerédi and Trotter [SzTr83] (problem page accessed 2026-09-04). This
-is the `reviewed` evidence. The paper is refereed: E. Szemerédi and W. T.
-Trotter, Jr., Extremal problems in discrete geometry, Combinatorica 3 (1983),
-no. 3–4, 381–392, DOI 10.1007/BF02579194, received 1982-08-19 and revised
-1983-03-14. The page is dated by the issue month, September 1983, on the first
-of the month. The source card digests the paper and records the statement of
-Theorem 4. No independent proof review and no formalization are recorded.
+**Acceptance.** T. F. Bloom, the erdosproblems.com curator, labeled the problem
+PROVED and credits Szemerédi and Trotter [SzTr83] (problem page accessed
+2026-09-04). This is the `reviewed` evidence. The paper is refereed: E.
+Szemerédi and W. T. Trotter, Jr., Extremal problems in discrete geometry,
+Combinatorica 3 (1983), no. 3–4, 381–392, DOI 10.1007/BF02579194, received
+1982-08-19 and revised 1983-03-14. The page is dated by the issue month,
+September 1983, on the first of the month. The source card digests the paper and
+records the statement of Theorem 4. No independent proof review and no
+formalization are recorded.

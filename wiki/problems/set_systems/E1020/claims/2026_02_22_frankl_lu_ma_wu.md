@@ -44,8 +44,8 @@ $$
 
 The abstract describes a stability result of independent interest, applied
 to minimum-degree thresholds for matchings in $5$- and $6$-uniform
-hypergraphs. A reader posted the preprint on the site's discussion thread on
-2026-02-24.
+hypergraphs. A reader posted the preprint on the erdosproblems.com discussion
+thread on 2026-02-24.
 
 **Covers.** The case $r=4$ for $n\ge5(k-1)$ with $n$ large. The rest of the
 case $r=4$ is the subject of the later claims on
@@ -57,6 +57,6 @@ for every $k\ge2$ and $n\ge4k$.
 **Depends on.** No page of this wiki.
 
 **Standing.** Claimed. The preprint is not refereed, no proof claim was
-registered on the site's proof-claims tab, and the site's label and
-commentary, last edited on 28 December 2025, do not mention it. The proof is
-not verified by this corpus.
+registered on the erdosproblems.com proof-claims tab, and the erdosproblems.com
+label and commentary, last edited on 28 December 2025, do not mention it. The
+proof is not verified by this corpus.

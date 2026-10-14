@@ -33,7 +33,8 @@ $$
 \lvert A_p\rvert \sim (1-\tfrac{1}{e})p?
 $$
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 12 April
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 12
+April
 2026) and credits no solution. Its remarks credit [GSSV24] with the best known
 lower bound $|A_p|\ge(\sqrt2-o(1))p^{1/2}$. The standing derives from the claim
 pages, which hold two partial claims. The accepted partial claim
@@ -90,9 +91,9 @@ and Hu's manuscript claims $|A_p|\gg p^{8/15}$
 Klurman and Munsch [KlMu17] (J. Théor. Nombres Bordeaux 29 (2017),
 169-177; card
 [[../library/factorials_binomials/klurman_2017_distribution_factorials_modulo/_index|Klurman and Munsch 2017]]),
-whose results the site's remarks credit, have no claim page because none of
-them settles an instance of the asymptotic. Their Theorem 2.1 gives at least
-$\sqrt{3N/2}$ distinct values of $n!\bmod p$ for $H\le n\le H+N$ once
+whose results the erdosproblems.com remarks credit, have no claim page because
+none of them settles an instance of the asymptotic. Their Theorem 2.1 gives at
+least $\sqrt{3N/2}$ distinct values of $n!\bmod p$ for $H\le n\le H+N$ once
 $N\gg p^{1/4+\epsilon}$. Their Theorem 3.1 shows that the mean of
 $p-|A_p|$ over primes $p\le x$ is $\gg\log\log x/\log\log\log x$;
 Theorem 3.2 raises this, under the Generalized Riemann Hypothesis, to

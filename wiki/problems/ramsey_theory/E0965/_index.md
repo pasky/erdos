@@ -26,10 +26,10 @@ updated: 2026-10-08T01:29:59Z
 a set $A\subseteq \mathbb{R}$ of cardinality $\aleph_1$ such that all sums $a+b$
 with $a\neq b$ and $a,b\in A$ are the same colour?
 
-**Formulation.** The site's wording (page last edited 16 January 2026). Only
-the sums of two distinct elements of $A$ must share a color, not $A$ itself;
-the sources write this set $FS_2(A)$. Erdős's 1975 wording (printed p. 305,
-quoted below) asks for "a set $\{a_\alpha\}$ $1\le\alpha<\omega_1$ of power
+**Formulation.** The erdosproblems.com wording (page last edited 16 January
+2026). Only the sums of two distinct elements of $A$ must share a color, not $A$
+itself; the sources write this set $FS_2(A)$. Erdős's 1975 wording (printed p.
+305, quoted below) asks for "a set $\{a_\alpha\}$ $1\le\alpha<\omega_1$ of power
 $\aleph_1$ so that all the sums $a_{\alpha_1}+a_{\alpha_2}$,
 $1\le\alpha_1<\alpha_2<\omega_1$ belong to the same class". Every uncountable
 set of reals has a subset of cardinality $\aleph_1$ and the property passes to
@@ -43,7 +43,7 @@ there.
 no uncountable set has the sums of its distinct pairs monochromatic. Two
 independent sources prove this. The first is Komjáth's theorem [Ko16] (Real
 Anal. Exchange 41 (2016), no. 1, 227--231; refereed). It is not held here and is
-quoted second-hand from the site, the Soukup--Weiss manuscript and the
+quoted second-hand from erdosproblems.com, the Soukup--Weiss manuscript and the
 formal-conjectures file. The second is Corollary 3.2 of the Soukup--Weiss
 manuscript [SoWe], which was unpublished as far as was found on 2026-09-18. Its
 coloring makes the sums of $N$ distinct elements take both colors, for every
@@ -64,13 +64,14 @@ The claim pages
 record the two ZFC disproofs. The claim page
 [[problems/ramsey_theory/E0965/claims/2015_05_11_hindman_leader_strauss|Hindman, Leader and Strauss 2015]]
 records the disproof under CH as a conditional claim. The frontmatter standing
-derives from these pages. The site's (Lean) suffix is a catalog label, explained
-under Formalization. The external Lean file declares itself a formalization of
-Komjáth's argument and is linked from its claim page. It was not built here.
+derives from these pages. erdosproblems.com's (Lean) suffix is a catalog label,
+explained under Formalization. The external Lean file declares itself a
+formalization of Komjáth's argument and is linked from its claim page. It was
+not built here.
 
 **Source.** [erdosproblems.com/965](https://www.erdosproblems.com/965),
-accessed 2026-09-18: the problem page (DISPROVED (LEAN), the site's label
-for a negative answer whose proof is verified in Lean; last edited 16
+accessed 2026-09-18: the problem page (DISPROVED (LEAN), the erdosproblems.com
+label for a negative answer whose proof is verified in Lean; last edited 16
 January 2026; source keys [Er75b], [HLS17], [Ko16]), its one-comment
 discussion thread (2 January 2026) and its empty proof-claim tab. Cite as:
 T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
@@ -93,8 +94,8 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
 - [Ko16] Komjáth, P., A certain 2-coloring of the reals. Real Anal. Exchange
   41 (2016), no. 1, 227--231, doi:10.14321/realanalexch.41.1.0227 (the
   publisher's record, accessed 2026-09-18, gives volume 41, issue 1, first page
-  227). Not held: no open copy was found; no author copy was found. Quoted
-  second-hand.
+  227). Not held: no open copy was found on 2026-09-18; no author copy was
+  found. Quoted second-hand.
 - [SoWe] Soukup, D. T. and Weiss, W., Sums and anti-Ramsey colourings of
   $\mathbb R$. Unpublished manuscript, 5 pages, PDF dated September 2015; no
   journal or arXiv record found on 2026-09-18. Theorem 3.1, p. 3; Corollary
@@ -105,7 +106,7 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
   [Er75b] for the method of Erdős's CH claim and by [HLS17] for the classical
   pair coloring of $[\mathbb R]^2$; not held, context only.
 
-**Formalization.** The site's (Lean) suffix is a catalog label; see
+**Formalization.** erdosproblems.com's (Lean) suffix is a catalog label; see
 "Formalization and the Lean label" below. The file
 [`ErdosProblems/965.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/965.lean)
 of formal-conjectures (main on 2026-09-18) declares
@@ -118,16 +119,17 @@ variant `erdos_965.variants.generalization` (sums of $k$ distinct elements for
 some $k\ge2$) is `research solved`, `answer(False)`, `sorry`, without a
 formal-proof attribute. The community database lists "disproved (Lean)" as of
 its last update, of 23 August 2026, the statement formalized since 22 January
-2026, `formal_status` Lean and no formal-proof URL; the site's indicator reports
-a formalized statement. Nothing was built or kernel-checked here.
+2026, `formal_status` Lean and no formal-proof URL; the erdosproblems.com
+indicator reports a formalized statement. Nothing was built or kernel-checked
+here.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-DISPROVED (LEAN), the site's label for a negative answer whose proof is
-verified in Lean, last edited 16 January 2026. The commentary recounts Erdős's
-1975 report that, by the methods of his paper with Hajnal and Rado, he could
-disprove the statement under the continuum hypothesis; it names Hindman,
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; DISPROVED (LEAN), the erdosproblems.com label for a negative answer whose
+proof is verified in Lean, last edited 16 January 2026. The commentary recounts
+Erdős's 1975 report that, by the methods of his paper with Hajnal and Rado, he
+could disprove the statement under the continuum hypothesis; it names Hindman,
 Leader and Strauss [HLS17] as the published proof of that, in the stronger
 form that under CH, for every $k\ge2$, some $2$-coloring of $\mathbb R$ leaves
 no uncountable $A$ whose sums of $k$ distinct elements are monochromatic (the
@@ -138,7 +140,7 @@ separately, Soukup and Weiss each proved this stronger result, and with it the
 disproof, in ZFC alone. The thread has one comment, of 2 January 2026, whose
 author, not a set theorist by their own account, pointed to the Soukup--Weiss
 manuscript as a ZFC counterexample, located by ChatGPT as the comment says;
-the site was then updated. The proof-claim tab is empty. The community
+erdosproblems.com was then updated. The proof-claim tab is empty. The community
 database records "disproved (Lean)" and the formalized statement.
 
 **The origin (Er75b, printed p. 305).**
@@ -155,10 +157,11 @@ $A,B$ with $|A|=\aleph_1$, $|B|=\aleph_0$ are any two sets of reals there
 always are real numbers $X_1\in S_1$, $Y_1,Y_2\in S_2$, $X_2\in S_2$ so
 $X_1+Y_1\in S_1$, $X_2+Y_2\in S_2$." Its conclusion names the classes
 $S_1,S_2$ and not the sets $A,B$, so the
-statement Erdős intended is not reconstructed here, and the site's reading of
-the passage as a negative answer under CH is the site's. The "previous paper"
-is not named in the text; the chapter's reference list (p. 306) has Erdős's
-1971 paper in Proc. Symp. Pure Math. XIX and [ErHaRa65]. No proof is given.
+statement Erdős intended is not reconstructed here, and erdosproblems.com's
+reading of the passage as a negative answer under CH is erdosproblems.com's. The
+"previous paper" is not named in the text; the chapter's reference list (p. 306)
+has Erdős's 1971 paper in Proc. Symp. Pure Math. XIX and [ErHaRa65]. No proof is
+given.
 
 **The CH strand (refereed).** [HLS17]
 [[../library/ramsey_theory/hindman_2017_pairwise_sums_colourings_reals/theorem_3_2|Theorem 3.2]]
@@ -187,13 +190,13 @@ no journal reference); the journal is Abh. Math. Semin. Univ. Hambg. 87
 refereed, its text not compared.
 
 **The ZFC strand.** Komjáth's paper [Ko16] answers Question 3.3 for two colors;
-it is not held, and its theorem is quoted second-hand: the site's commentary
-(which credits Komjáth [Ko16] and Soukup and Weiss with independent proofs
-without the continuum hypothesis), the Soukup--Weiss manuscript (p. 1: "The same
-result was independently proved by P. Komjáth [2]", the reference reading "to
-appear in ???"), the formal-conjectures docstring ("In [Ko16] Péter Komjáth
-constructed a counterexample") and the header of the external Lean proof,
-which names Komjáth as the informal author and describes "Komjáth's ZFC
+it is not held, and its theorem is quoted second-hand: the erdosproblems.com
+commentary (which credits Komjáth [Ko16] and Soukup and Weiss with independent
+proofs without the continuum hypothesis), the Soukup--Weiss manuscript (p. 1:
+"The same result was independently proved by P. Komjáth [2]", the reference
+reading "to appear in ???"), the formal-conjectures docstring ("In [Ko16] Péter
+Komjáth constructed a counterexample") and the header of the external Lean
+proof, which names Komjáth as the informal author and describes "Komjáth's ZFC
 finite-union coloring, transferred through a Hamel basis of $\mathbb R$ over
 $\mathbb Q$". Its publication in a refereed journal is confirmed by the
 publisher's record (volume 41, issue 1, 2016). The ZFC proof quoted
@@ -213,10 +216,10 @@ claims checked for Theorem 3.1 and Corollary 3.2; the two-page proof read for
 structure only. The manuscript adds that under CH the coloring can use
 $2^\omega$ colors (Corollary 2.2) and that three colors cannot be guaranteed
 in ZFC, by a consistency result of Shelah (Corollary 2.3). Acceptance evidence
-for the status: Komjáth's refereed publication (record only), the site's
-adoption of the ZFC disproof (16 January 2026) and the external Lean
-formalization of Komjáth's argument, described below; the manuscript's own
-independence claim is recorded as its sentence.
+for the status: Komjáth's refereed publication (record only),
+erdosproblems.com's adoption of the ZFC disproof (16 January 2026) and the
+external Lean formalization of Komjáth's argument, described below; the
+manuscript's own independence claim is recorded as its sentence.
 
 **Regular colorings (context).** [HLS17]
 [[../library/ramsey_theory/hindman_2017_pairwise_sums_colourings_reals/corollary_4_5|Corollary 4.5]]
@@ -228,9 +231,9 @@ complements, so the answer to the question is yes whenever one class has the
 property of Baire or is measurable, and every coloring giving the negative
 answer has classes that are neither.
 
-**Formalization and the Lean label.** The site's (Lean) suffix is a catalog
-label. The formal-conjectures file at the pinned commit is a statement with a
-`sorry` body whose `formal_proof` attribute names a fixed commit of
+**Formalization and the Lean label.** erdosproblems.com's (Lean) suffix is a
+catalog label. The formal-conjectures file at the pinned commit is a statement
+with a `sorry` body whose `formal_proof` attribute names a fixed commit of
 `plby/lean-proofs`. The file there,
 [`src/latest/ErdosProblems/Erdos965.lean`](https://github.com/plby/lean-proofs/blob/dfe2d78128b493c572cf525b1b8edf4897fb7664/src/latest/ErdosProblems/Erdos965.lean)
 (1,808 bytes; toolchain and Mathlib v4.33.0 per its header), declares
@@ -252,11 +255,11 @@ exists; the community database lists `formal_status` Lean as of its last update,
 of 23 August 2026, and no formal-proof URL. The file is a `formalization` link
 on Komjáth's claim page and gives no `formalized` evidence.
 
-**Search scope.** None of the routes below found a dispute of
+**Search scope (2026-09-18 UTC).** None of the routes below found a dispute of
 the disproof, a publication of the Soukup--Weiss manuscript, or an open copy of
 [Ko16].
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database.
 - arXiv: the API listing of 1505.02500 (one version, 11 May 2015; no journal
   reference; its DOI field points to an unrelated physics article, a metadata

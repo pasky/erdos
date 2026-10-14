@@ -41,18 +41,19 @@ aid of a computer. So $R(7)\le54$ and $f(54)\ge7$, while the formula of
 $\lfloor\log_254\rfloor+1=6$; the formula fails at $n=54$, where Reid and
 Parker's Corollary 2 gives only $6$. Stearns's doubling step $R(k+1)\le2R(k)$
 turns $R(7)\le54$ into $R(k)\le54\cdot2^{k-7}$ for $k\ge7$, that is
-$f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$, the bound the site's commentary
-credits to this paper for $n\ge32$; it exceeds $\lfloor\log_2n\rfloor+1$ for
-$n$ in $[54\cdot2^j,2^{j+6})$ for each $j\ge0$.
+$f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$, the bound the erdosproblems.com
+commentary credits to this paper for $n\ge32$; it exceeds
+$\lfloor\log_2n\rfloor+1$ for $n$ in $[54\cdot2^j,2^{j+6})$ for each $j\ge0$.
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.
 
 **Source.** The page is dated by the issue date of the journal record (Graphs
 and Combinatorics 14, no. 2, 5 June 1998, per Crossref).
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-DISPROVED. In the problem's commentary, the curator credits Sánchez-Flores
-[Sa98b] with the bound $f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$ for $n\ge32$
-(page last edited 12 April 2026). The curator is independent of the author.
-Refereed: Graphs and Combinatorics 14 (1998), no. 2, 181--200. The proof is not
-checked in this corpus.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem DISPROVED. In the problem's commentary, the curator credits
+Sánchez-Flores [Sa98b] with the bound
+$f(n)\ge\lfloor\log_2n-\log_2(54)\rfloor+7$ for $n\ge32$ (page last edited 12
+April 2026). The curator is independent of the author. Refereed: Graphs and
+Combinatorics 14 (1998), no. 2, 181--200. The proof is not checked in this
+corpus.

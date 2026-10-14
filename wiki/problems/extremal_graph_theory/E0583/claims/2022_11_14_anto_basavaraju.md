@@ -51,6 +51,6 @@ which needs $2=\lceil 3/2\rceil$.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: the paper is a publication in Discrete Mathematics
-and Theoretical Computer Science. The site's curator credits the result while
-labeling the problem FALSIFIABLE, which is commentary on an open problem and
-not reviewed evidence.
+and Theoretical Computer Science. The erdosproblems.com curator credits the
+result while labeling the problem FALSIFIABLE, which is commentary on an open
+problem and not reviewed evidence.

@@ -5,7 +5,7 @@ desc: |
   The three-term two-color case of Theorem 7 is the only one: with more
   terms or more colors some coloring of the positive integers has no
   monochromatic k-term progression whose difference is at least c times its
-  first term; the source of the site's four-term remark on Problem 645.
+  first term; the source of erdosproblems.com's four-term remark on Problem 645.
 created: 2026-09-18T06:30:00Z
 updated: 2026-10-07T19:30:53Z
 ---
@@ -65,9 +65,9 @@ None outside the paper.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0645/_index|Problem 645]]: the source for the site's
-  remark that the three-term statement "is not true for four-term arithmetic
-  progressions", through the case $k=4$, $r=2$ recorded above; the explicit
-  base-3 coloring the site (following Erdős 1980) offers as a witness does
-  not have the property (see the problem page), while the base-2 coloring
-  of this proof does.
+- [[../wiki/problems/ramsey_theory/E0645/_index|Problem 645]]: the source for
+  the erdosproblems.com remark that the three-term statement "is not true for
+  four-term arithmetic progressions", through the case $k=4$, $r=2$ recorded
+  above; the explicit base-3 coloring erdosproblems.com (following Erdős 1980)
+  offers as a witness does not have the property (see the problem page), while
+  the base-2 coloring of this proof does.

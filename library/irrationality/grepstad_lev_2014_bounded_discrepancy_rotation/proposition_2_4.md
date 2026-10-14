@@ -86,4 +86,4 @@ Petersen.
   which the problem page credits to
   [[discrepancy/kesten_1966_bounded_remainder/theorem_4|Kesten's Theorem 4]].
   It constrains only the length and says nothing about the endpoints, which
-  the site's wording asks about.
+  the erdosproblems.com wording asks about.

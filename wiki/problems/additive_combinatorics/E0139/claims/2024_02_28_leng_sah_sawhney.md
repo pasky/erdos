@@ -52,8 +52,8 @@ rate, which no claim of this problem requires. Nothing about $k=3$ or $k=4$.
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Standing.** Claimed. The paper is an arXiv preprint with no journal record
-on its arXiv listing, so `refereed` is not listed. The site's curator labeled
-the problem proved on Szemerédi's theorem and cites this paper in the
+on its arXiv listing, so `refereed` is not listed. The erdosproblems.com curator
+labeled the problem proved on Szemerédi's theorem and cites this paper in the
 commentary only as the best known bound for $k\ge5$, which credits the bound
 and not a settlement of the problem, so no `reviewed` evidence is listed. The
 proof is not checked here.

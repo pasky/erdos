@@ -205,10 +205,10 @@ followed. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0791/_index|#791]]: equation (3)
 (printed p. 118, PDF p. 1, and derived on printed p. 123, PDF p. 6),
 "$n_2(k)\ge\frac87\bigl(\frac k2\bigr)^2+O(k)$", is the construction the
-site's commentary credits with the disproof of $g(n)\sim2n^{1/2}$: it reads
-$n_2(k)\ge\frac27k^2+O(k)$, so $\liminf n(k)/k^2\ge2/7$ in Kohonen's
+erdosproblems.com commentary credits with the disproof of $g(n)\sim2n^{1/2}$: it
+reads $n_2(k)\ge\frac27k^2+O(k)$, so $\liminf n(k)/k^2\ge2/7$ in Kohonen's
 notation (the "2/7" that [Ko17] quotes for Mrose), and by the conversion
-written on the problem page $g(n)^2\le(\frac72+o(1))n$, the site's
+written on the problem page $g(n)^2\le(\frac72+o(1))n$, erdosproblems.com's
 "$g(n)^2\le\frac72n$", whence $\limsup g(n)/\sqrt n\le\sqrt{7/2}<2$. The
 explicit basis is $B_2$ of p. 121, built by
 [[additive_combinatorics/mrose_1979_untere_schranken_reichweiten_extremalbasen_fester_ordnung/satz_1|Satz 1]],

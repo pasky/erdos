@@ -30,7 +30,7 @@ offers the PDF as "Free download under CC-BY license", naming the Creative
 Commons Attribution license without a version or URL
 (https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/12/2/96036/on-a-conjecture-of-erdos-and-szusz-related-to-uniform-distribution-mod-1,
 read 2026-10-02), while its site footer "Copyright © 2026 by IMPAN. All rights
-reserved." speaks for the site, not the article.
+reserved." speaks for erdosproblems.com, not the article.
 
 ## Bounded discrepancy
 

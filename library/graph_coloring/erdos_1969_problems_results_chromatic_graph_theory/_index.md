@@ -50,8 +50,8 @@ request for a direct construction and display (16), display (17) and the
 (n - k)/2 conjecture, Pósa's circuits with diagonals, the critical-graph
 question, the aleph_2 and omega_2^2 questions, the Erdős-Hajnal edge-coloring
 question and the independence question that follows it, and the Moon-Moser
-clique sizes; the site also keys problem 796 to it, but no passage on that
-problem was found (Bears on).
+clique sizes; erdosproblems.com also keys problem 796 to it, but no passage on
+that problem was found (Bears on).
 
 The copy read for this card is the archive's 9-page Acrobat Capture scan
 (printed p. $n$ is PDF p. $n-26$) whose text layer garbles the formulas. Read
@@ -78,11 +78,11 @@ Source: <https://users.renyi.hu/~p_erdos/1969-13.pdf>.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0078/_index|#78]]: printed pp. 30--31,
 display (15) and the request for "a direct construction" (below), the
-site's key for the problem.
+erdosproblems.com key for the problem.
 [[../wiki/problems/ramsey_theory/E0077/_index|#77]]: printed p. 31, display (16), the
 question in its inverse form
 $\lim_{n\to\infty}\min_{G_n}\max(K(G_n),I(G_n))/\log n$, "I cannot even prove
-that the limit in (16) exists"; a site key for the problem.
+that the limit in (16) exists"; an erdosproblems.com key for the problem.
 [[../wiki/problems/ramsey_theory/E0924/_index|#924]]: printed p. 33 (PDF p. 7), page image:
 "One final problem of Hajnal and myself: Is it true that for every $l\ge3$ and
 $k\ge2$ there is a graph $G$ not containing $K_{l+1}$ such that if we color its
@@ -91,24 +91,24 @@ Folkman [26] settled this conjecture for $k=2$." Erdős's reference [26] is
 Folkman's talk at the Santa Barbara symposium of 1967 (the paper is dedicated
 "to the memory of Jon Folkman"); the passage continues with the question what
 can be said about the independence number $I(G_n)$ of a graph whose edges can
-be 2-colored without a monochromatic triangle. The site's key for the problem;
-the problem's wording follows this passage.
+be 2-colored without a monochromatic triangle. The erdosproblems.com key for the
+problem; the problem's wording follows this passage.
 [[../wiki/problems/graph_coloring/E0750/_index|#750]]: printed p. 32 (PDF p. 6,
 page image), display (17): Hajnal and Erdős [17] proved that for every $c<1/2$
 some $G$ with $\chi(G)=\aleph_0$ has $I(G(x_1,\ldots,x_n))>cn$ for every choice
 of $n$ vertices; they get (17) for $c<1/4$ with $\chi(G)=\aleph_1$ but not for
 $c<1/2$; and they conjectured that $I(G(x_1,\ldots,x_n))\ge(n-k)/2$ for every
 $n$ and every choice of vertices forces $\chi(G)\le k+2$, unproved even for
-$k=1$. The problem page compares this passage with the site's remark.
-[[../wiki/problems/integer_sequences/E0796/_index|#796]]: the row rests on the site's key;
-the site's commentary says this paper "discussed the second order terms",
-and no passage on the problem's functions $g_k(n)$ or $u_l(n)$, or on
-sequences of integers with distinct products, was found in the
-nine-page scan: all nine pages (printed pp. 27--35) were read on the page
-images, Section 3, printed pp. 33--35 (PDF pp. 7--9), holding Turán's hypergraph
-problem, the $n^{3/2}$ extremal problems, the Moon--Moser clique sizes and
-Pósa's circuits, and the text layer of all nine pages was searched for sequences
-of integers, products and representations.
+$k=1$. The problem page compares this passage with the erdosproblems.com remark.
+[[../wiki/problems/integer_sequences/E0796/_index|#796]]: the row rests on the
+erdosproblems.com key; the erdosproblems.com commentary says this paper
+"discussed the second order terms", and no passage on the problem's functions
+$g_k(n)$ or $u_l(n)$, or on sequences of integers with distinct products, was
+found in the nine-page scan: all nine pages (printed pp. 27--35) were read on
+the page images, Section 3, printed pp. 33--35 (PDF pp. 7--9), holding Turán's
+hypergraph problem, the $n^{3/2}$ extremal problems, the Moon--Moser clique
+sizes and Pósa's circuits, and the text layer of all nine pages was searched for
+sequences of integers, products and representations.
 [[../wiki/problems/extremal_graph_theory/E0767/_index|#767]]: printed p. 34 (PDF p. 8, page
 image), the last paragraph of Section 3, read clause by clause. After pointing
 to recent papers on extremal problems in graph theory (its [7, 11--13, 23]),
@@ -118,7 +118,7 @@ had thought that every $G(n;kn-k^2+1)$ contains a circuit one vertex of which is
 the end point of at least $k-1$ diagonals. Using Pósa's idea I proved this for
 $k=3$ and $k=4$, but Lewin proved (oral communication) that in general the
 conjecture is incorrect. I do not have any plausible conjecture to replace
-my original one." The site's key Er69b and the source of its
+my original one." The erdosproblems.com key Er69b and the source of its
 commentary on Lewin; the passage counts $k-1$ diagonals and states no
 threshold $n>n_0(k)$, where the 1964 and 1975 papers keep one; the problem
 page records the three accounts side by side.
@@ -148,10 +148,10 @@ edges can be colored by two colors such that there is no $C_3$ all of whose
 edges have the same color. What can be said about $I(G_n)$? It is very easy
 to show that $I(G_n)>cn^{1/3}$; but perhaps $I(G_n)>cn^{(1/3)+\delta}$ also
 holds." The
-site's key Er69b and the problem's origin: the question is the problem's
-statement, and the independent set of size $\gg n^{1/3}$ that the site's
-commentary calls easy to find is the paper's "very easy" remark; answered in
-the negative by Alon and Rödl (2005);
+erdosproblems.com key Er69b and the problem's origin: the question is the
+problem's statement, and the independent set of size $\gg n^{1/3}$ that the
+erdosproblems.com commentary calls easy to find is the paper's "very easy"
+remark; answered in the negative by Alon and Rödl (2005);
 [[../wiki/problems/extremal_graph_theory/E0927/_index|#927]]: printed p. 34 (PDF p. 8,
 page image), the paragraph on the question Moon and Moser [22] posed,
 with the definition quoted: "Let $G_n$ be a graph of $n$ vertices. Denote

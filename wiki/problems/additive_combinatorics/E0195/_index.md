@@ -39,12 +39,12 @@ progression, and every one contains a monotone three-term progression
 (Davis, Entringer, Graham and Simmons, Fact 5, as Adenwalla's introduction
 notes).
 
-**Status.** Open, the site's label (OPEN). The largest $k$ is $3$ or $4$. Every
-permutation of $\mathbb{Z}$ contains a monotone three-term progression, as
-Adenwalla's introduction notes. Its positive terms, in order, form a permutation
-of the positive integers, and every such permutation contains an increasing
-three-term progression (Davis, Entringer, Graham and Simmons, Acta Arith. 34
-(1977/78), Fact 3;
+**Status.** Open, the erdosproblems.com label (OPEN). The largest $k$ is $3$ or
+$4$. Every permutation of $\mathbb{Z}$ contains a monotone three-term
+progression, as Adenwalla's introduction notes. Its positive terms, in order,
+form a permutation of the positive integers, and every such permutation contains
+an increasing three-term progression (Davis, Entringer, Graham and Simmons, Acta
+Arith. 34 (1977/78), Fact 3;
 [[../library/additive_combinatorics/davis_nd_permutations_containing_no_long_arithmetic_progressions/_index|source card]]).
 Adenwalla's permutation of $\mathbb{Z}$ with no monotone five-term progression
 gives $k\le4$

@@ -85,9 +85,9 @@ The cited papers, as reported.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E1135/_index|Problem 1135]]: the 2010 status the site
-  points to, with the Erdős dictum the site quotes from Guy in the form
-  "Mathematics may not be ready for such problems" (Lagarias's wording,
-  from the 1985 survey, has "is not yet" where Guy has "may not be"); the
-  density bound $X^{0.84}$ (W5) is the strongest unconditional lower bound
-  on the count of convergent starting values recorded on the page.
+- [[../wiki/problems/number_theory/E1135/_index|Problem 1135]]: the 2010 status
+  erdosproblems.com points to, with the Erdős dictum erdosproblems.com quotes
+  from Guy in the form "Mathematics may not be ready for such problems"
+  (Lagarias's wording, from the 1985 survey, has "is not yet" where Guy has "may
+  not be"); the density bound $X^{0.84}$ (W5) is the strongest unconditional
+  lower bound on the count of convergent starting values recorded on the page.

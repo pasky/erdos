@@ -35,7 +35,7 @@ unrefereed preprint.
 quotation of Owings's question and the surrounding sentences were read
 clause by clause. The proof was located and not read; no step was checked,
 and nothing here is independently reviewed. This page records a claim, not
-a result accepted by the compilation or by the site.
+a result accepted by the compilation or by erdosproblems.com.
 
 ## Proof pointer (the preprint's own)
 
@@ -62,10 +62,10 @@ ultrafilters collected in Section 2. None of these was checked here; the
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E1199/_index|Problem 1199]]: the claimed statement is
-  the site's question verbatim (a 2-coloring of $\mathbb N$, an infinite $A$
-  with all of $A+A$ one color). The page records it as a pending full claim
-  on its own claim page, from which the problem's standing (`claimed`,
-  `proved`) is derived; on 2026-09-18 the site's label was OPEN, the
-  community database recorded the problem open, the formal-conjectures
-  statement was `research open`, and no acceptance evidence for this
-  preprint was found.
+  the erdosproblems.com question verbatim (a 2-coloring of $\mathbb N$, an
+  infinite $A$ with all of $A+A$ one color). The page records it as a pending
+  full claim on its own claim page, from which the problem's standing
+  (`claimed`, `proved`) is derived; on 2026-09-18 the erdosproblems.com label
+  was OPEN, the community database recorded the problem open, the
+  formal-conjectures statement was `research open`, and no acceptance evidence
+  for this preprint was found.

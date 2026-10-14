@@ -62,8 +62,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0540/_index|Problem 540]]: the origin; the site's
-  "A conjecture of Erdős and Heilbronn [ErHe64]". The problem's
-  "$\gg N^{1/2}$" is the weakening with an unspecified constant, and the
-  paper's own constant is $2$ (the $\sqrt2$ of the site's "Erdős
+- [[../wiki/problems/integer_sequences/E0540/_index|Problem 540]]: the origin;
+  erdosproblems.com's "A conjecture of Erdős and Heilbronn [ErHe64]". The
+  problem's "$\gg N^{1/2}$" is the weakening with an unspecified constant, and
+  the paper's own constant is $2$ (the $\sqrt2$ of erdosproblems.com's "Erdős
   speculated" appears in Erdős's 1965 and 1973 problem papers, not here).

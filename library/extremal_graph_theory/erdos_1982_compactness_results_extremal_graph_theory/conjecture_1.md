@@ -35,15 +35,15 @@ well" makes the conjecture a statement about degenerate problems, where (3)
 of p. 276 gives no such bound. Wigderson's note
 ([[extremal_graph_theory/wigderson_2022_erdossimonovits_compactness_conjecture_needs_more_assumptions/observation_p1|Observation, p. 1]])
 cites "[4, Conjecture 1]" for the form $\mathrm{ex}(n,\mathcal F)\ge c\cdot\mathrm{ex}(n,H)$
-for some $H\in\mathcal F$, $c>0$ and all $n$, and the site's Problem 575
-writes $\mathrm{ex}(n;G)\ll_{\mathcal F}\mathrm{ex}(n;\mathcal F)$: both read
-(5) with the two sides interchanged. This page records the display as
+for some $H\in\mathcal F$, $c>0$ and all $n$, and erdosproblems.com's Problem
+575 writes $\mathrm{ex}(n;G)\ll_{\mathcal F}\mathrm{ex}(n;\mathcal F)$: both
+read (5) with the two sides interchanged. This page records the display as
 printed and that reading; it does not decide whether (5) is a misprint or a
 convention of the paper.
 
-The parenthesis is the origin of the site's clause "if there is a bipartite
-graph in $\mathcal F$"; the paper does not require the member $L^*$ to be
-bipartite. Conjecture 2 on the same page (a constant $c_{\mathbf L}\ge1$,
+The parenthesis is the origin of erdosproblems.com's clause "if there is a
+bipartite graph in $\mathcal F$"; the paper does not require the member $L^*$ to
+be bipartite. Conjecture 2 on the same page (a constant $c_{\mathbf L}\ge1$,
 "probably rational", with $\mathrm{ex}(n,\mathbf L)/n^{c}$ converging to a
 positive limit) is a separate statement.
 
@@ -62,8 +62,8 @@ number at least $c\,n^{1+c'}$).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0575/_index|Problem 575]]: the origin of the
-  problem's statement (the site's key ErSi82). The site's wording is
-  false by Wigderson's two-forest family, and the no-forest form is
+  problem's statement (the erdosproblems.com key ErSi82). The erdosproblems.com
+  wording is false by Wigderson's two-forest family, and the no-forest form is
   disproved by Chapter 10 of OpenAI's 2026 report; both are recorded on the
   problem page.
 - [[../wiki/problems/extremal_graph_theory/E0180/_index|Problem 180]]: the same

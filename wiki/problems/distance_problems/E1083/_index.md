@@ -29,22 +29,23 @@ $$
 f_d(n)=n^{\frac{2}{d}-o(1)}?
 $$
 
-**Formulation.** Read as the site words it, the least $m$ such that every set of
-$n$ points in $\mathbb{R}^d$ determines at least $m$ distinct distances is $0$,
-since every set meets a smaller threshold; the intended word is maximal. The
-page reads $f_d(n)$ as its source does, as the least number of distinct
+**Formulation.** Read as Bloom's catalog words it, the least $m$ such that every
+set of $n$ points in $\mathbb{R}^d$ determines at least $m$ distinct distances
+is $0$, since every set meets a smaller threshold; the intended word is maximal.
+The page reads $f_d(n)$ as its source does, as the least number of distinct
 distances determined by $n$ points of $\mathbb{R}^d$. Erdős's bounds
-$n^{1/d}\ll_d f_d(n)\ll_d n^{2/d}$ in the site's remarks, the
+$n^{1/d}\ll_d f_d(n)\ll_d n^{2/d}$ in the erdosproblems.com remarks, the
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1083.lean),
 whose `minimalDistinctDistances` is the least distance count over $n$-point
 sets, and both claim pages use this reading, and the standing is recorded for
 it.
 
-**Status.** Open, in the site's label (OPEN; page last edited 16 October 2025,
-proof-claims tab empty on 2026-10-06). The standing in the frontmatter, derived
-from the claim pages, is claimed. The reason is OpenAI's release preprint of 23
-September 2026, which claims $f_d(n)\gg_d n^{2/d}$ for every fixed $d\ge3$. That
-would answer the question in the affirmative for every $d$. The
+**Status.** Open, in the erdosproblems.com label (OPEN; page last edited 16
+October 2025, proof-claims tab empty on 2026-10-06). The standing in the
+frontmatter, derived from the claim pages, is claimed. The reason is OpenAI's
+release preprint of 23 September 2026, which claims $f_d(n)\gg_d n^{2/d}$ for
+every fixed $d\ge3$. That would answer the question in the affirmative for every
+$d$. The
 [[problems/distance_problems/E1083/claims/2026_09_23_openai|OpenAI claim page]]
 records it as a pending full claim without acceptance evidence. The curator's
 blog post
@@ -97,16 +98,17 @@ curator credit, so it is pending, and the release preprint says that its
 methods provide close antecedents for several parts of the release's
 argument. The result also appears, as general-space context, on the page of
 [[problems/distance_problems/E0660/_index|Problem 660]]. The earlier lower
-bounds, as the site's remarks record them, are $f_d(n)\gg_d n^{1/d}$ of
-Erdős [Er46b], $f_3(n)\gg n^{1/2}$ of Clarkson, Edelsbrunner, Guibas, Sharir
+bounds, as the erdosproblems.com remarks record them, are $f_d(n)\gg_d n^{1/d}$
+of Erdős [Er46b], $f_3(n)\gg n^{1/2}$ of Clarkson, Edelsbrunner, Guibas, Sharir
 and Welzl [CEGSW90], $f_d(n)\gg n^{1/(d-90/77)-o(1)}$ for $d\ge3$ of Aronov,
 Pach, Sharir and Tardos [APST04], and $f_3(n)\gg n^{3/5}$ (their method
 combined with the planar bound of Guth and Katz; the release preprint gives
 this combination as $\Omega(n^{3/5}/(\log n)^{2/5})$) and
 $f_d(n)\gg_d n^{2/d-c/d^2}$ for $d\ge4$ of Solymosi and Vu [SoVu08]; the
-account of these papers follows the site's remarks and the library cards
-linked below, and no review of them is recorded. The site's thread held, on
-2026-10-07, one comment reporting the Tidor–Yu–Zakharov result (17 August
+account of these papers follows the erdosproblems.com remarks and the library
+cards linked below, and no review of them is recorded. The erdosproblems.com
+thread held, on 2026-10-07, one comment reporting the Tidor–Yu–Zakharov result
+(17 August
 2026) and no proof claim.
 
 The same release claims the Falconer distance conjecture in every

@@ -52,71 +52,73 @@ $$
 
 many block-compatible sequences for $\{1,\ldots,n\}$?
 
-**Notes.** The site's wording asks two things: for necessary and sufficient
-conditions for block-compatibility, and whether at least $\exp(cn^{1/2}\log n)$
-sequences are block-compatible for all large $n$. The first has no yes-or-no
-answer: block-compatibility is itself a necessary and sufficient condition, and
-for each $n$ a finite search decides it, so, read as the site words it, it is
-trivially answered, and read as a request for a reasonable characterization it
-names no criterion for an answer. Erdős's own words set it apart from the
-problem. In [Er81], Part VI, item 2 (p. 12 of the copy; p. 35 of the journal),
-Erdős writes "One could ask: Give necessary and sufficient conditions for the
-$\{X_i\}$, that there should be a pairwise balanced block design $\{A_i\}$
-satisfying $|A_i|=X_i$? Trivially we must have
+**Notes.** The erdosproblems.com wording asks two things: for necessary and
+sufficient conditions for block-compatibility, and whether at least
+$\exp(cn^{1/2}\log n)$ sequences are block-compatible for all large $n$. The
+first has no yes-or-no answer: block-compatibility is itself a necessary and
+sufficient condition, and for each $n$ a finite search decides it, so, read as
+Bloom's catalog words it, it is trivially answered, and read as a request for a
+reasonable characterization it names no criterion for an answer. Erdős's own
+words set it apart from the problem. In [Er81], Part VI, item 2 (p. 12 of the
+copy; p. 35 of the journal), Erdős writes "One could ask: Give necessary and
+sufficient conditions for the $\{X_i\}$, that there should be a pairwise
+balanced block design $\{A_i\}$ satisfying $|A_i|=X_i$? Trivially we must have
 $\sum_{i=1}^m\binom{X_i}{2}=\binom{n}{2}$. Perhaps there will not be a
 reasonable necessary and sufficient condition. On the other hand the following
 problem should not be hopeless", and then states display (1),
 $\exp(c_1n^{1/2}\log n)<F(n)<\exp(c_2n^{1/2}\log n)$ for the number $F(n)$ of
 block-compatible sequences, adding that the upper bound is easy to prove and
-that Erdős had no success with the lower bound. The site reads the problem the
-same way: its label PROVED and its commentary credit Alon's lower bound
-$2^{(1/2+o(1))n^{1/2}\log n}$, record Erdős's doubt that a reasonable condition
-exists, and claim no characterization; its thread (two comments of 4 October
-2026, none by the curator) adds nothing on the first question. Alon's
+that Erdős had no success with the lower bound. erdosproblems.com reads the
+problem the same way: its label PROVED and its commentary credit Alon's lower
+bound $2^{(1/2+o(1))n^{1/2}\log n}$, record Erdős's doubt that a reasonable
+condition exists, and claim no characterization; its thread (two comments of 4
+October 2026, none by the curator) adds nothing on the first question. Alon's
 Problem 4.2 in [Al26], which Alon identifies with Problem 732, states the
 counting question alone. The change removes the sentence "Are there necessary
 and sufficient conditions for $(X_i)$ to be block-compatible?" and inserts
-nothing; the site asks only the lower bound of Erdős's (1), and the upper bound,
-Erdős's and Alon's Section 4.3, is recorded in the Current assessment. The
-answer under the site's reading is yes, by Alon's Theorem 4.5 (Theorem 2.3 of
-the note), on the claim page. Under the reading the page does not adopt, the
-characterization question has no claimed answer: the sum condition is necessary
-and not sufficient (for $n=5$ the sizes $4,3,2$ satisfy it, but blocks of sizes
-$4$ and $3$ on five points share two points), and the sequences satisfying it
-alone far outnumber the block-compatible ones (Adenwalla's thread comment of 4
-October 2026 gives their count as the coefficient of $x^{\binom n2}$ in
-$\prod_{i\ge2}(1-x^{\binom i2})^{-1}$, reportedly of order
-$n^{-3}\exp(cn^{2/3})$, against Erdős's upper bound $\exp(O(n^{1/2}\log n))$; a
-thread comment, credited and not relied on). That question stays in Formulation
-with no claim page. Results about the site's wording, credited and never
-counted: none; the formal-conjectures statement file and Jingxuan Ding's Lean
-development `erdos732_yes` (SpringSense Innovation Institute, commit
+nothing; erdosproblems.com asks only the lower bound of Erdős's (1), and the
+upper bound, Erdős's and Alon's Section 4.3, is recorded in the Current
+assessment. The answer under erdosproblems.com's reading is yes, by Alon's
+Theorem 4.5 (Theorem 2.3 of the note), on the claim page. Under the reading the
+page does not adopt, the characterization question has no claimed answer: the
+sum condition is necessary and not sufficient (for $n=5$ the sizes $4,3,2$
+satisfy it, but blocks of sizes $4$ and $3$ on five points share two points),
+and the sequences satisfying it alone far outnumber the block-compatible ones
+(Adenwalla's thread comment of 4 October 2026 gives their count as the
+coefficient of $x^{\binom n2}$ in $\prod_{i\ge2}(1-x^{\binom i2})^{-1}$,
+reportedly of order $n^{-3}\exp(cn^{2/3})$, against Erdős's upper bound
+$\exp(O(n^{1/2}\log n))$; a thread comment, credited and not relied on). That
+question stays in Formulation with no claim page. Results about the
+erdosproblems.com wording, credited and never counted: none; the
+formal-conjectures statement file and Jingxuan Ding's Lean development
+`erdos732_yes` (SpringSense Innovation Institute, commit
 `c8c4bbbd13024e4ed45a0548c75c64664501e067`, announced in the thread on 4
 October 2026) both state the counting question, which is the modified Statement,
 and neither is built here. The page's standing judges the modified Statement.
 
-**Formulation.** The site's wording also asks for necessary and sufficient
-conditions for $(X_i)$ to be block-compatible. Erdős raises this in [Er81], p.
-35, and doubts that a reasonable condition exists; the modified Statement leaves
-it out, as the Notes explain. Read as the site words it, it has a trivial
-answer: block-compatibility is itself a necessary and sufficient condition, and
-for each $n$ a finite search decides it. Read as a request for a reasonable
-necessary and sufficient condition, it has no claimed answer: no such condition
-is known. The sum condition $\sum_i\binom{X_i}2=\binom n2$ is necessary but not
-sufficient (for $n=5$ the sizes $4,3,2$ satisfy it, but blocks of sizes $4$ and
-$3$ on five points share two points). Adenwalla's thread comment of 4 October
-2026 counts the sequences satisfying the sum condition alone as the coefficient
-of $x^{\binom n2}$ in $\prod_{i\ge2}(1-x^{\binom i2})^{-1}$, reportedly of order
+**Formulation.** The erdosproblems.com wording also asks for necessary and
+sufficient conditions for $(X_i)$ to be block-compatible. Erdős raises this in
+[Er81], p. 35, and doubts that a reasonable condition exists; the modified
+Statement leaves it out, as the Notes explain. Read as Bloom's catalog words it,
+it has a trivial answer: block-compatibility is itself a necessary and
+sufficient condition, and for each $n$ a finite search decides it. Read as a
+request for a reasonable necessary and sufficient condition, it has no claimed
+answer: no such condition is known. The sum condition
+$\sum_i\binom{X_i}2=\binom n2$ is necessary but not sufficient (for $n=5$ the
+sizes $4,3,2$ satisfy it, but blocks of sizes $4$ and $3$ on five points share
+two points). Adenwalla's thread comment of 4 October 2026 counts the sequences
+satisfying the sum condition alone as the coefficient of $x^{\binom n2}$ in
+$\prod_{i\ge2}(1-x^{\binom i2})^{-1}$, reportedly of order
 $n^{-3}\exp(cn^{2/3})$, far more than Erdős's upper bound
 $\exp(O(n^{1/2}\log n))$ on the block-compatible ones; the comment is credited
 and not relied on.
 
-**Status.** Proved. The site's label PROVED describes the modified Statement.
-The site credits Alon with a lower bound of $2^{(1/2+o(1))n^{1/2}\log n}$
-block-compatible sequences, which answers the question yes. It also records
-Erdős's upper bound of $\exp(O(n^{1/2}\log n))$. It records Erdős's remark that
-$\sum_i\binom{X_i}2=\binom n2$ is necessary but that a reasonable
-characterization seemed doubtful. See also
+**Status.** Proved. The erdosproblems.com label PROVED describes the modified
+Statement. erdosproblems.com credits Alon with a lower bound of
+$2^{(1/2+o(1))n^{1/2}\log n}$ block-compatible sequences, which answers the
+question yes. It also records Erdős's upper bound of $\exp(O(n^{1/2}\log n))$.
+It records Erdős's remark that $\sum_i\binom{X_i}2=\binom n2$ is necessary but
+that a reasonable characterization seemed doubtful. See also
 [[problems/discrete_geometry/E0733/_index|Problem 733]] for the line version.
 
 **Source.** [erdosproblems.com/732](https://www.erdosproblems.com/732), accessed
@@ -163,7 +165,7 @@ Theorem 4.5 of Alon's chapter [Al26] in a proceedings volume whose refereeing
 is not documented. A third-party Lean development formalizes the theorem; the
 corpus has not audited it, so it gives no `formalized` evidence.
 
-Search scope: the site's problem page, discussion thread, history and
+Search scope: the erdosproblems.com problem page, discussion thread, history and
 proof-claims page, the community database entry, the formal-conjectures
 statement file, Alon's note and publications page, the Crossref record and
 library card of the chapter, and the Lean development at its pinned commit.

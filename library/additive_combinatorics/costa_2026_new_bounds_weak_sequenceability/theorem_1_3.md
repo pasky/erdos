@@ -59,9 +59,9 @@ Lovász Local Lemma for Theorem 1.4.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: the site's
-  current small range, $t\le e^{c(\log p)^{1/3}}$, improving the exponent
-  $1/4$ of
+- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]:
+  erdosproblems.com's current small range, $t\le e^{c(\log p)^{1/3}}$, improving
+  the exponent $1/4$ of
   [[additive_combinatorics/bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification/theorem_1_2|Bedert and Kravitz]];
   the constant $c$ here is existential where the paper's Theorem 1.2
   restates Bedert and Kravitz for every $c>0$ and large enough primes $p$.

@@ -55,8 +55,8 @@ every forward arc, a transitive tournament of size $m$ as a subgraph. So
 $l_0(m,n)$ is the least number of vertices forcing, in every directed graph
 (arcs in both directions between a pair allowed), an independent set of
 size $n$ or a transitive tournament of size $m$, which is the $k(n,m)$ of
-Problem 112 in the site's letters. The paper does not use graph language
-for this.
+Problem 112 in erdosproblems.com's letters. The paper does not use graph
+language for this.
 
 **Source.** P. Erdős and R. Rado, Partition relations and transitivity
 domains of binary relations, J. London Math. Soc. 42 (1967), 624--633;

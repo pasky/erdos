@@ -66,9 +66,9 @@ work as context.
 **Acceptance.** Refereed: the result is a journal paper in the Acta
 Mathematica Academiae Scientiarum Hungaricae, volume 16, issue 1--2. The issue
 is dated March 1965 and carries no day, so this page's date is the first of
-that month. The site credits the result to the paper, under GCH, on a problem
-it labeled OPEN, so no curator acceptance is listed. The proof of the case
-$\beta=\alpha+1$ with $\aleph_\alpha$ singular (Case 1b, p. 133) cites
+that month. erdosproblems.com credits the result to the paper, under GCH, on a
+problem it labeled OPEN, so no curator acceptance is listed. The proof of the
+case $\beta=\alpha+1$ with $\aleph_\alpha$ singular (Case 1b, p. 133) cites
 Theorem 10, which is printed (p. 117) for $a>a'>\aleph_0$, where $a'$ is the
 cofinality of $a$; at $\alpha=\omega$ the cardinal $a=\aleph_\omega$ has
 $a'=\aleph_0$, outside that printed hypothesis. This corpus has not checked

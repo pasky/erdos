@@ -44,7 +44,7 @@ locally sparse, passed to their $2$-sections.
 reach fixed small $k$ as $r$ grows, so $k=4$ is left open.
 
 **Acceptance.** A refereed journal publication in Combinatorics, Probability
-and Computing (`refereed`), published online on 11 October 2024. The site
+and Computing (`refereed`), published online on 11 October 2024. Bloom's catalog
 labeled the problem OPEN, so its commentary crediting the paper is not
 acceptance.
 

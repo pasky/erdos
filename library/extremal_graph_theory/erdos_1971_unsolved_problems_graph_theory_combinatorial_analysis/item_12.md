@@ -34,8 +34,8 @@ $c_\varepsilon$ is asserted without argument.
 
 ## Proof pointer
 
-None in the paper. The catalog's Problem 1018 records the affirmative answer of
-Kostochka and Pyber (Combinatorica 8 (1988), 83--86; filed as
+None in the paper. erdosproblems.com's Problem 1018 records the affirmative
+answer of Kostochka and Pyber (Combinatorica 8 (1988), 83--86; filed as
 [[extremal_graph_theory/kostochka_pyber_1988_small_topological_complete_subgraphs_dense_graphs/_index|kostochka_pyber_1988_small_topological_complete_subgraphs_dense_graphs]]),
 who find a subdivided $K_5$ of bounded order.
 
@@ -45,7 +45,7 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1018/_index|Problem 1018]]: the site's source
-  passage ([Er71]); the site's statement is the question with
-  $C_\epsilon$ for $c_\varepsilon$ and "for all large $n$" added, and its
-  commentary quotes the second sentence.
+- [[../wiki/problems/extremal_graph_theory/E1018/_index|Problem 1018]]: the
+  erdosproblems.com source passage ([Er71]); the erdosproblems.com statement is
+  the question with $C_\epsilon$ for $c_\varepsilon$ and "for all large $n$"
+  added, and its commentary quotes the second sentence.

@@ -30,16 +30,16 @@ $$
 h(n)\geq (2(\sqrt{3}-1)-o(1))n?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18T15:02Z (page last
-edited 3 April 2026, when the former content of Problem 904 moved here).
-$h(n)$ is the largest value that works, the minimum over all graphs
-$G$ with $n$ vertices and more than $n^2/4$ edges of the largest degree sum
-of a triangle of $G$; every such graph has a triangle by Mantel's theorem.
-In the sources' notation it is Fan's $f(n,e)$ at $e=\lfloor n^2/4\rfloor+1$
-(the function is nondecreasing in the edge count, so the minimum is
-attained at the fewest edges) and Bollobás and Nikiforov's $\Delta_3(n,m)$
-at $m=\lfloor n^2/4\rfloor+1=t_2(n)+1$. The page-level question is the
-estimate; the "in particular" question is yes or no, and its constant
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18T15:02Z
+(page last edited 3 April 2026, when the former content of Problem 904 moved
+here). $h(n)$ is the largest value that works, the minimum over all graphs $G$
+with $n$ vertices and more than $n^2/4$ edges of the largest degree sum of a
+triangle of $G$; every such graph has a triangle by Mantel's theorem. In the
+sources' notation it is Fan's $f(n,e)$ at $e=\lfloor n^2/4\rfloor+1$ (the
+function is nondecreasing in the edge count, so the minimum is attained at the
+fewest edges) and Bollobás and Nikiforov's $\Delta_3(n,m)$ at
+$m=\lfloor n^2/4\rfloor+1=t_2(n)+1$. The page-level question is the estimate;
+the "in particular" question is yes or no, and its constant
 $2(\sqrt3-1)\approx1.4641$ is the value of the construction below, so it
 asks whether that construction is asymptotically best. The thread carries
 an unreviewed claim that the answer is no (recorded below and on its own
@@ -58,11 +58,11 @@ The earlier lower bound $h(n)\ge(1+\eta)n$, for a fixed $\eta>0$ and large $n$,
 is Theorem 2 of the Erdős--Laskar note
 ([[../library/extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_2|theorem_2]]).
 
-The upper bound is the site's construction, recomputed below as an authored
-check. The site attributes it to Erdős and Laskar and says the bound is not
-explicit in their 1985 note. The note's six pages indeed contain no such
-construction. Fan's § 2 (pp. 251--252) prints the construction in full, with the
-bound $f(n,e)<4\sqrt{3e}-2n+5$ for $n^2/4<e<n^2/3$
+The upper bound is erdosproblems.com's construction, recomputed below as an
+authored check. erdosproblems.com attributes it to Erdős and Laskar and says the
+bound is not explicit in their 1985 note. The note's six pages indeed contain no
+such construction. Fan's § 2 (pp. 251--252) prints the construction in full,
+with the bound $f(n,e)<4\sqrt{3e}-2n+5$ for $n^2/4<e<n^2/3$
 ([[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/upper_bound_p251|upper_bound_p251]]).
 Fan credits it to "the construction described in [4]", the paper's reference [4]
 being that same 1985 note.
@@ -77,8 +77,8 @@ report is inconsistent with them and is not resolved here.
 
 **Source.** [erdosproblems.com/1033](https://www.erdosproblems.com/1033),
 accessed 2026-09-18T15:02Z: the problem page
-(labeled OPEN, the site's label for a problem that is open and not settled
-by a finite computation; last edited 3 April 2026; source keys [BoNi05],
+(labeled OPEN, the erdosproblems.com label for a problem that is open and not
+settled by a finite computation; last edited 3 April 2026; source keys [BoNi05],
 [Er82e], [Er93], [ErLa85],
 [Fa88], [Fa92]; commentary citing the same and Problem 904), its
 nine-comment discussion thread (27 June to 7 August 2026) and its empty
@@ -108,7 +108,7 @@ https://www.erdosproblems.com/1033, accessed 2026-09-18.
   [[../library/extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_2|theorem_2]].
 - [ErLa83] Erdős, P. and Laskar, R., On maximum chordal subgraphs. Congr.
   Numer. 39 (1983), 367--373; [ErLa85]'s reference [8] and [BoNi05]'s
-  reference [5]. Not a site key; not held.
+  reference [5]. Not an erdosproblems.com key; not held.
 - [BoNi05] Bollobás, Béla and Nikiforov, Vladimir, The sum of degrees in
   cliques. Electron. J. Combin. 12 (2005), N21, doi:10.37236/1988; cited
   from arXiv:math/0410218v1; the introduction, p. 2; Theorem 3, p. 8. Library
@@ -119,12 +119,13 @@ https://www.erdosproblems.com/1033, accessed 2026-09-18.
 - [Fa92] Faudree, Ralph J., Complete subgraphs with large degree sums. J.
   Graph Theory 16 (1992), no. 4, 327--334, doi:10.1002/jgt.3190160406
   (Crossref record with the publisher's abstract, accessed 2026-09-18). Not
-  held; the site's source for Erdős's construction, quoted here through
-  [BoNi05].
+  held; the erdosproblems.com source for Erdős's construction, quoted here
+  through [BoNi05].
 - [Ed77] Edwards, C. S., The largest vertex degree sum for a triangle in a
   graph. Bull. London Math. Soc. 9 (1977), no. 2, 203--208,
-  doi:10.1112/blms/9.2.203 (Crossref record accessed 2026-09-18). Not a
-  site key; [ErLa85]'s reference [7], whose theorem it states. Not held.
+  doi:10.1112/blms/9.2.203 (Crossref record accessed 2026-09-18). Not an
+  erdosproblems.com key; [ErLa85]'s reference [7], whose theorem it states. Not
+  held.
 - [Er82e] Erdős, Paul, Some of my favourite problems which recently have
   been solved. Proceedings of the International Mathematical Conference
   (Singapore, 1981), North-Holland Math. Stud. 74 (1982), 59--79; §5, printed
@@ -132,7 +133,8 @@ https://www.erdosproblems.com/1033, accessed 2026-09-18.
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 - [Er75] Erdős, P., Some recent progress on extremal problems in graph
   theory. Congr. Numer. XIV (1975), 3--14; Chapter 4, printed p. 13, the
-  conjecture for $e\ge n^2/3$. Not a site key for this problem. Library home:
+  conjecture for $e\ge n^2/3$. Not an erdosproblems.com key for this problem.
+  Library home:
   [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/_index|erdos_1975_recent_progress_extremal_problems_graph_theory]];
   paged at
   [[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p13|conjecture_p13]].
@@ -158,10 +160,10 @@ statement and an OEIS entry marked "possible".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18T15:02Z).** The statement
-above; OPEN; last edited 3 April 2026. The site's commentary, in this
-page's words: the problem is a conjecture of Bollobás and Erdős; [Er82e]
-asks whether $h(n)\ge\frac32n$; the bounds now known are
+**The question (erdosproblems.com formulation of 2026-09-18T15:02Z).** The
+statement above; OPEN; last edited 3 April 2026. The erdosproblems.com
+commentary, in this page's words: the problem is a conjecture of Bollobás and
+Erdős; [Er82e] asks whether $h(n)\ge\frac32n$; the bounds now known are
 $\frac{21}{16}n\le h(n)\le2(\sqrt3-1)n+O(1)$, the upper bound credited to
 Erdős and Laskar [ErLa85], the lower bound to Fan [Fa88], with the decimal
 values $1.464$ and $1.3125$ noted; the upper bound is said not to be
@@ -221,12 +223,12 @@ is empty; the community database record says open.
   [Er75], p. 13
   ([[../library/extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/conjecture_p13|conjecture_p13]]).
 
-**The upper bound, recomputed.** The site's construction, checked here as
-an authored computation. Let $m=\lfloor n^2/4\rfloor+1$, $k=cn$ and
-$l=n-k$ with $\frac13\le c\le1$. Take the complete bipartite graph
-$K_{k,l}$ and add $m-kl$ edges inside the $k$-side as a bipartite graph
-between two halves of that side; this is possible with every added degree
-at most $\lceil2(m-kl)/k\rceil$ when $m-kl\le k^2/4$, which holds since
+**The upper bound, recomputed.** erdosproblems.com's construction, checked here
+as an authored computation. Let $m=\lfloor n^2/4\rfloor+1$, $k=cn$ and $l=n-k$
+with $\frac13\le c\le1$. Take the complete bipartite graph $K_{k,l}$ and add
+$m-kl$ edges inside the $k$-side as a bipartite graph between two halves of that
+side; this is possible with every added degree at most $\lceil2(m-kl)/k\rceil$
+when $m-kl\le k^2/4$, which holds since
 $m-kl=(\tfrac12-c)^2n^2+O(1)\le c^2n^2/4$ for $c\ge\frac13$. The graph has
 $n$ vertices and $m$ edges. The $l$-side is independent and the added graph
 is triangle-free, so every triangle has one vertex on the $l$-side (degree
@@ -235,15 +237,15 @@ and its degree sum is at most
 $k+2l+2\lceil2(m-kl)/k\rceil=(c^{-1}+3c-2)n+O(1)$, using
 $2(m-kl)/k=(\tfrac1{2c}-2+2c)n+O(1/n)$. The function $c^{-1}+3c$ is
 minimized at $c=1/\sqrt3$, where it equals $2\sqrt3$, giving
-$h(n)\le(2\sqrt3-2)n+O(1)=2(\sqrt3-1)n+O(1)$; the site's formula and constant
-are reproduced. [Fa88], § 2 (pp. 251--252;
+$h(n)\le(2\sqrt3-2)n+O(1)=2(\sqrt3-1)n+O(1)$; the erdosproblems.com formula and
+constant are reproduced. [Fa88], § 2 (pp. 251--252;
 [[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/upper_bound_p251|upper_bound_p251]]),
 prints the same graph with $m=\lceil2\sqrt{3e}/3\rceil$ vertices on the
 side that receives the extra edges, and proves $f(n,e)<4\sqrt{3e}-2n+5$ for
 $n^2/4<e<n^2/3$, which at $e=\lfloor n^2/4\rfloor+1$ reads
 $2(\sqrt3-1)n+5+O(1/n)$ (a one-line substitution made here). Attribution:
-the site credits [ErLa85] and says the bound is not explicit there; the six
-pages of [ErLa85] carry no construction bounding a triangle's degree sum
+erdosproblems.com credits [ErLa85] and says the bound is not explicit there; the
+six pages of [ErLa85] carry no construction bounding a triangle's degree sum
 from above (their only extremal graph is the complete bipartite
 graph of Theorem 1, which has no triangle); Fan writes "we use the
 construction described in [4]" (p. 251), and the paper's reference [4] (p. 263)
@@ -254,10 +256,10 @@ Renu Laskar and myself [45] and the lower bound is due to G. Fan [46] who
 improved significantly our lower bound $n(1+\epsilon)$. Perhaps the upper
 bound in (1) is the correct value for $h(n)$", its [45] being [ErLa85]
 (reference list, p. 349); so the survey makes the same
-attribution as the site and gives no construction either. The construction
-is therefore printed in [Fa88] § 2; the attribution to [ErLa85] by Fan, the
-survey and the site is not borne out by the note's six pages, and is
-recorded as printed.
+attribution as erdosproblems.com and gives no construction either. The
+construction is therefore printed in [Fa88] § 2; the attribution to [ErLa85] by
+Fan, the survey and erdosproblems.com is not borne out by the note's six pages,
+and is recorded as printed.
 
 **The 1982 report, side by side with the bounds.** [Er82e], §5, printed
 p. 71: Erdős recalls a conjecture made with
@@ -270,7 +272,7 @@ $k(3)$, was also formulated. He then writes: "Edwards proved (1) and he in
 fact proved our conjecture nearly in its full generality", citing C. S.
 Edwards, Complete subgraphs with largest sum of vertex degrees, Coll. Math.
 Soc. J. Bolyai 18 (Combinatorics), North-Holland 1978, p. 293. Display (1)
-is $h(n)\ge3n/2$ for every $n$; the site reports [Er82e] as asking
+is $h(n)\ge3n/2$ for every $n$; erdosproblems.com reports [Er82e] as asking
 whether $h(n)\ge\frac32n$, while the page reports (1) as proved by Edwards. The upper bound above gives, for every large $n$, a graph with
 more than $n^2/4$ edges all of whose triangles have degree sum at most
 $2(\sqrt3-1)n+O(1)<3n/2$; so (1) as printed fails for large $n$, and the
@@ -291,17 +293,17 @@ Erdős's construction with $\Delta_r(n,m)\le(1-\varepsilon)2rm/n$ for
 $t_{r-1}(n)<m<t_r(n)-\delta n^2$; its
 [[../library/extremal_graph_theory/bollobas_2005_sum_degrees_cliques/theorem_3|Theorem 3]]
 (p. 8) gives $\Delta_r(n,m)>(1-\varepsilon)2rm/n$ for $m>t_r(n)-\delta n^2$
-and $n>n_0(\varepsilon)$, the stability the site quotes. At $r=3$ the
+and $n>n_0(\varepsilon)$, the stability erdosproblems.com quotes. At $r=3$ the
 theorem concerns edge counts within $\delta n^2$ of $n^2/3$ and says nothing
 about $m=\lfloor n^2/4\rfloor+1$, where $2rm/n=3n/2+O(1/n)$ and the bounds
 above place $h(n)$ between $1.3125n$ and $1.4641n+O(1)$. Read depth for
 [BoNi05]: claims checked; Theorem 3's proof read for structure.
 
 **The thread (a pending partial claim and leads, not status).** Nine
-comments, from the discussion page as of 2026-09-18, none adopted into the
-site's statement or commentary (which are unchanged since 3 April 2026); the
-claimed refutation of the conjectured lower bound has a claim page under
-the write-up that publishes it,
+comments, from the discussion page, accessed 2026-09-18, none adopted into the
+erdosproblems.com statement or commentary (which are unchanged since 3 April
+2026); the claimed refutation of the conjectured lower bound has a claim page
+under the write-up that publishes it,
 [[problems/extremal_graph_theory/E1033/claims/2026_07_27_wouter_cvb|2026_07_27_wouter_cvb]]:
 
 - 27 June 2026 (the account rickyc): a claim that an explicit construction
@@ -336,8 +338,8 @@ the write-up that publishes it,
 
 If the construction holds, the "in particular" question has answer no and
 $h(n)/n$ would lie between about $1.4525$ and $1.463877$; none of this is
-checked here, no paper or preprint carrying it was found, and the site had
-not adopted it. The write-up is the publication carrying the refutation
+checked here, no paper or preprint carrying it was found, and erdosproblems.com
+had not adopted it. The write-up is the publication carrying the refutation
 claim and has the claim page (`claimed`, `partial`); the 27 June 2026 thread
 claim (rickyc), a thread post with a chat transcript and no manuscript, is
 disclosed on that page and has no page of its own; the flag-algebra
@@ -351,9 +353,9 @@ question; the discussion thread carries the claimed refutation of the
 conjectured lower bound and its write-up of 27 July 2026, recorded above
 and on the claim page.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-18; the formal-conjectures directory and tree at main that day
-  (no file 1033); the community database entry as fetched that day.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; the formal-conjectures directory and tree at main that
+  day (no file 1033); the community database entry as fetched that day.
 - Crossref: the records of doi:10.1002/jgt.3190120216 ([Fa88], with its
   abstract) and doi:10.1002/jgt.3190160406 ([Fa92], with its
   abstract); a bibliographic query for Edwards's 1977 title (Bull. London
@@ -388,7 +390,7 @@ the proof of Theorem 1 followed from Lemma 2 and the lemmas read for
 structure. (2) The construction behind the upper bound is printed in [Fa88]
 § 2 and paged at
 [[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/upper_bound_p251|upper_bound_p251]];
-what remains is the attribution: Fan, [Er93] and the site credit it to
+what remains is the attribution: Fan, [Er93] and erdosproblems.com credit it to
 [ErLa85], whose six pages contain no such construction, and no earlier
 text printing it is held. (3) The 1982 report of (1) is inconsistent with the
 upper bound and is not resolved. (4) The thread's claimed refutation of the
@@ -397,14 +399,12 @@ conjectured lower bound is a pending partial claim with its own page,
 resting on an unreviewed three-page write-up, and the flag-algebra
 improvements are unreviewed leads; neither has a paper.
 (5) [Fa92] is not held; [Er93], pp. 343--344, states both bounds with the
-site's attributions and the guess that the upper bound is the true value,
-without a construction.
-(6) Proof
-coverage: [ErLa85]'s two theorems and [BoNi05]'s Theorem 3 at claims
-checked; [Fa88]'s Theorem 1 at proof followed from Lemma 2, its lemmas and
-Theorem 2 at structure; the site's construction is recomputed here and
-followed in [Fa88] § 2.
-(7) There is no Lean statement of the problem.
+erdosproblems.com attributions and the guess that the upper bound is the true
+value, without a construction. (6) Proof coverage: [ErLa85]'s two theorems and
+[BoNi05]'s Theorem 3 at claims checked; [Fa88]'s Theorem 1 at proof followed
+from Lemma 2, its lemmas and Theorem 2 at structure; erdosproblems.com's
+construction is recomputed here and followed in [Fa88] § 2. (7) There is no Lean
+statement of the problem.
 
 ## Known results
 
@@ -417,8 +417,8 @@ followed in [Fa88] § 2.
   [[../library/extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_1|Theorem 1]]
   on chordal subgraphs of size $n$.
 - [[../library/extremal_graph_theory/fan_1988_degree_sum_triangle_graph/upper_bound_p251|Fan 1988, § 2]]
-  (the site's construction, recomputed above; credited to Erdős
-  and Laskar by Fan and by the site): $f(n,e)<4\sqrt{3e}-2n+5$ for
+  (erdosproblems.com's construction, recomputed above; credited to Erdős
+  and Laskar by Fan and by erdosproblems.com): $f(n,e)<4\sqrt{3e}-2n+5$ for
   $n^2/4<e<n^2/3$, so $h(n)\le2(\sqrt3-1)n+O(1)$.
 - [Ed77] (1977, not held), per [ErLa85] and reproved as [Fa88]'s
   Corollary 3.1 (p. 262): degree sum $\ge6e/n\ge2n$ once $e\ge n^2/3$, with

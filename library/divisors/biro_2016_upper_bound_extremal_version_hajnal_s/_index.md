@@ -45,9 +45,10 @@ which Erdos is said to have proved n^2/5, a proof they call probably lost, and
 explain why no strategy can guarantee an almost perfect C_5-factor (the
 maximizer can force a star on about n/2 vertices), which would give n^2/5
 asymptotically. Furedi, Reimer and Seress's lower bound
-(n log n)/2 - 2n log log n + O(n) is quoted as Theorem 1. The site's remarks on Erdos problem 872, the analogous
-divisibility-free two-player game where one player prolongs and the other
-shortens the play, cite the paper for its upper bound on the graph game.
+(n log n)/2 - 2n log log n + O(n) is quoted as Theorem 1. The erdosproblems.com
+remarks on Erdos problem 872, the analogous divisibility-free two-player game
+where one player prolongs and the other shortens the play, cite the paper for
+its upper bound on the graph game.
 
 Source: <https://arxiv.org/abs/1409.8141v1>. The copy read for this card is
 arXiv:1409.8141v1 (29 September 2014), 13 pages; the page numbers above are
@@ -63,8 +64,8 @@ independently reviewed. Result pages:
 and
 [[divisors/biro_2016_upper_bound_extremal_version_hajnal_s/theorem_3|theorem_3]].
 
-**Bears on.** [[../wiki/problems/divisors/E0872/_index|#872]]: the site's
-remarks on the problem cite
+**Bears on.** [[../wiki/problems/divisors/E0872/_index|#872]]: the
+erdosproblems.com remarks on the problem cite
 [[divisors/biro_2016_upper_bound_extremal_version_hajnal_s/theorem_3|Theorem 3]]
 (p. 11), the upper bound $(\frac{26}{121}+o(1))n^2$ for the triangle-free
 graph game, of which the problem's divisibility game is a number-theoretic

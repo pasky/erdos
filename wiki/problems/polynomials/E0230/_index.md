@@ -30,17 +30,17 @@ $$
 \max_{\lvert z\rvert=1}\lvert P(z)\rvert \geq (1+c)\sqrt{n}?
 $$
 
-**Status.** DISPROVED (LEAN), the site's label (page last edited 23 January
-2026, as of 2026-10-07). The site's curator answers no, against Erdős's own
+**Status.** DISPROVED (LEAN), the erdosproblems.com label (page last edited 23
+January 2026). The erdosproblems.com curator answers no, against Erdős's own
 expectation. The curator credits Kahane [Ka80], whose ultraflat polynomials have
 $\lvert P(z)\rvert=(1+o(1))\sqrt n$ uniformly on the circle for coefficients of
 modulus one. The curator names Bombieri and Bourgain [BoBo09] as sharpening the
 error to $O(n^{7/18}(\log n)^{O(1)})$. The lower bound $\sqrt n$ is Parseval's
-identity. The site credits Körner [Ko80] with flatness between two constant
-multiples of $\sqrt n$. However, Bombieri and Bourgain (footnote 1, p. 627)
-record that the proofs of Körner's Theorems 6 and 7 rest on an incorrect theorem
-of Byrnes. Such flatness follows from Kahane's theorem in any case. Two-sided
-constant-factor flatness for real signs is
+identity. erdosproblems.com credits Körner [Ko80] with flatness between two
+constant multiples of $\sqrt n$. However, Bombieri and Bourgain (footnote 1,
+p. 627) record that the proofs of Körner's Theorems 6 and 7 rest on an incorrect
+theorem of Byrnes. Such flatness follows from Kahane's theorem in any case.
+Two-sided constant-factor flatness for real signs is
 [[problems/polynomials/E0228/_index|Problem 228]]. The question is Problem 4.31
 of Hayman's list [Ha74], which attributes the conjecture to Erdős and Newman.
 
@@ -75,11 +75,11 @@ on [[problems/polynomials/E0230/claims/2026_09_23_openai|its claim page]].
 
 ## Current assessment
 
-**Disproved; three accepted full claims.** The site formulation above (page
-last edited 2026-01-23) asks for a constant $c>0$ such that every polynomial
-of degree $n\ge2$ with coefficients of modulus one has maximum modulus at
-least $(1+c)\sqrt n$ on the unit circle. No such constant exists. Kahane's
-ultraflat polynomials [Ka80] have $\lvert P(z)\rvert=(1+o(1))\sqrt n$
+**Disproved; three accepted full claims.** The erdosproblems.com formulation
+above (page last edited 2026-01-23) asks for a constant $c>0$ such that every
+polynomial of degree $n\ge2$ with coefficients of modulus one has maximum
+modulus at least $(1+c)\sqrt n$ on the unit circle. No such constant exists.
+Kahane's ultraflat polynomials [Ka80] have $\lvert P(z)\rvert=(1+o(1))\sqrt n$
 uniformly on the circle; Bombieri and Bourgain [BoBo09] sharpen the error to
 $O(n^{7/18+\varepsilon})$ by an effective construction; and the OpenAI
 release's construction of 2026 reaches $(1+\eta)\sqrt n$ for every $\eta>0$
@@ -88,22 +88,22 @@ with coefficients $\pm1$ for every large $n$. The three claim pages,
 [[problems/polynomials/E0230/claims/2009_06_30_bombieri_bourgain|Bombieri and Bourgain 2009]]
 and [[problems/polynomials/E0230/claims/2026_09_23_openai|OpenAI 2026]], are
 accepted on different evidence: the first two are refereed papers credited by
-the site's curator, and the third rests on this corpus's build of the
+the erdosproblems.com curator, and the third rests on this corpus's build of the
 release's Lean declaration and its audit of that declaration's statement,
 with no outside review recorded. Kahane's paper is not held in the library;
-its statement follows the site's commentary and the introduction of Bombieri
-and Bourgain (pp. 627–628). The real-sign form of the question, whether
+its statement follows the erdosproblems.com commentary and the introduction of
+Bombieri and Bourgain (pp. 627–628). The real-sign form of the question, whether
 coefficients $\pm1$ force such a constant, is
 [[problems/polynomials/E1150/_index|Problem 1150]], which the release's
 construction also answers; the constant-factor flatness of real signs is
 [[problems/polynomials/E0228/_index|Problem 228]].
 
-Search scope: the site's problem page as exported (last edited 2026-01-23)
-and its empty proof-claims tab, the formal-conjectures
-statement file and the header and theorem statement of the lean-proofs file
-at their pinned commits, the Bombieri–Bourgain paper, and the release's
-manuscripts and Lean folder at the pinned revision of 2026-10-06; no forum
-proof claim names this problem.
+Search scope: the erdosproblems.com problem page as exported (last edited
+2026-01-23) and its empty proof-claims tab, the formal-conjectures statement
+file and the header and theorem statement of the lean-proofs file at their
+pinned commits, the Bombieri–Bourgain paper, and the release's manuscripts and
+Lean folder at the pinned revision of 2026-10-06; no forum proof claim names
+this problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

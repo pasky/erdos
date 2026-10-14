@@ -32,9 +32,9 @@ paper draws from Rautenbach and Stella's sharper cycle count is paged at
 (p. 3). The paper's [3] is J. A. Bondy, *Pancyclic graphs I*, J.
 Combinatorial Theory 11 (1971), 80--84.
 
-In the notation of the site, $h(n)=m(n)-n$, so the claim reads
+In the notation of erdosproblems.com, $h(n)=m(n)-n$, so the claim reads
 $\log_2(n-1)-1\le h(n)\le\log_2n+H(n)+O(1)$, where $H(n)$ is an iterated
-logarithm (the site's $\log_*n$ up to $O(1)$).
+logarithm (erdosproblems.com's $\log_*n$ up to $O(1)$).
 
 **Source.** S. Griffin, *Minimal pancyclicity*, arXiv:1312.0274v1 (1 December
 2013; 6 pages), the only arXiv version; Claim 1 and its proof on
@@ -56,8 +56,8 @@ $n-2$ cycles, one of each length from $3$ to $n$. By
 [[extremal_graph_theory/griffin_2013_minimal_pancyclicity/corollary_1|Corollary 1]]
 it has at most $2^{k+1}-1$ cycles, so $2^{k+1}-1\ge n-2$, that is
 $k\ge\log_2(n-1)-1$. No proof of the upper bound is in the paper;
-the site attributes the first published proof of the upper bound to Chapter
-4 of George, Khodkar and Wallis, *Pancyclic and bipancyclic graphs*
+erdosproblems.com attributes the first published proof of the upper bound to
+Chapter 4 of George, Khodkar and Wallis, *Pancyclic and bipancyclic graphs*
 (SpringerBriefs, 2016), not held.
 
 ## Dependencies
@@ -76,5 +76,5 @@ text layer, and paged on
 
 - [[../wiki/problems/extremal_graph_theory/E1016/_index|Problem 1016]]: the proved lower
   bound $h(n)\ge\log_2(n-1)-1$ and Bondy's unproved upper bound, the two
-  ends of the site's window; the site's "A proof of the above lower bound is
-  provided by Griffin [Gr13]" is this proof.
+  ends of erdosproblems.com's window; erdosproblems.com's "A proof of the above
+  lower bound is provided by Griffin [Gr13]" is this proof.

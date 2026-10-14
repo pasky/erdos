@@ -18,8 +18,8 @@ updated: 2026-09-24T18:44:36Z
 graph with $n$ vertices and exactly $e$ edges has an $r$-coloring of its
 edges under which **every** seven-cycle, a cycle on seven distinct
 vertices, has seven distinct edge colors: the function of
-[[problems/ramsey_theory/E0809/_index|Problem 809]], in the site formulation of
-2026-09-18 recorded with the dated assessment on that page. Then
+[[problems/ramsey_theory/E0809/_index|Problem 809]], in the erdosproblems.com
+formulation of 2026-09-18 recorded with the dated assessment on that page. Then
 
 $$
  \chi_S(n,\lfloor n^2/4\rfloor+1,C_7)
@@ -364,13 +364,13 @@ so this prose proof carries no tier of its own.
 This paragraph is the one current record of the prose proof's standing and
 is edited in place.
 
-**Priority.** Asad Shahab's independent proof claim (the site's proof claim 358,
-filed before the project's 367 on 27 September 2026; preprint arXiv:2609.38286,
-29 September 2026), a proof of the seven-cycle case with a Lean development
-whose headline theorem covers every odd cycle $C_{2k+1}$ with $k\ge3$, precedes
-this one; this corpus built that development at its pinned commit and audited
-its statement on 2026-10-08. The argument here is the project's own in
-authorship and is not claimed as first.
+**Priority.** Asad Shahab's independent proof claim (erdosproblems.com's proof
+claim 358, filed before the project's 367 on 27 September 2026; preprint
+arXiv:2609.38286, 29 September 2026), a proof of the seven-cycle case with a
+Lean development whose headline theorem covers every odd cycle $C_{2k+1}$ with
+$k\ge3$, precedes this one; this corpus built that development at its pinned
+commit and audited its statement on 2026-10-08. The argument here is the
+project's own in authorship and is not claimed as first.
 [[problems/ramsey_theory/E0809/_index|The problem page]] records the dated
 check.
 

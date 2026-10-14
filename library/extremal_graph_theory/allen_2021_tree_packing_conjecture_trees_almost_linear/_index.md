@@ -94,7 +94,7 @@ Source: <https://arxiv.org/abs/2106.11720>.
 every tree has maximum degree at most cn/log n, with c and n_0 not made
 explicit; it follows from [[extremal_graph_theory/allen_2021_tree_packing_conjecture_trees_almost_linear/theorem_8|Theorem 8]], which Section 2 deduces from
 [[extremal_graph_theory/allen_2021_tree_packing_conjecture_trees_almost_linear/theorem_10|Theorem 10]] and Theorem 5 (quoted from [1]); Conjecture 2 (p. 3) is the problem's statement in
-the paper's words, dated to Gyárfás in 1978; the site's key ABCHPT21.
+the paper's words, dated to Gyárfás in 1978; the erdosproblems.com key ABCHPT21.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

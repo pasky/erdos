@@ -27,11 +27,11 @@ contain no subset of size $k$ with the same pairwise least common multiple.
 
 Estimate $f_k(N)$.
 
-**Status.** Open. The site's label was OPEN (page last edited 18 January 2026).
-The standing in the frontmatter is open. It derives from the pending partial
-claims, since no full claim is recorded. Four pending partial claims are
-recorded. Two of them bound $f_k(N)$ without determining its order. The first is
-Erdős's bound $f_k(N)\ll_k\log N/\log\log N$ of 1970
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 18
+January 2026). The standing in the frontmatter is open. It derives from the
+pending partial claims, since no full claim is recorded. Four pending partial
+claims are recorded. Two of them bound $f_k(N)$ without determining its order.
+The first is Erdős's bound $f_k(N)\ll_k\log N/\log\log N$ of 1970
 ([[problems/integer_sequences/E0856/claims/1970_01_01_erdos|claim page]]). The
 second is the pair of bounds of Tang and Zhang of December 2025,
 $(\log N)^{c_k-o(1)}\le f_k(N)\ll(\log N)^{\mu_k^S-1+o(1)}$, with $\mu_k^S$ the
@@ -56,10 +56,10 @@ $f_k(N)$, and for a function of polylogarithmic growth that estimate is its
 exponent. Each claim characterizes the exponent without evaluating it, and its
 value is left open on the claimants' own account. The note says that computing
 $\gamma_k$ remains open, and the manuscript's authors tie it to the sunflower
-conjecture. What each covers is stated on its page. The site's curator restated
-the first of them in the thread without checking it. The second has no comment
-on the tab. None of the four claims has a journal record, and nothing is
-reviewed here.
+conjecture. What each covers is stated on its page. The erdosproblems.com
+curator restated the first of them in the thread without checking it. The second
+has no comment on the tab. None of the four claims has a journal record, and
+nothing is reviewed here.
 
 **Source.** [erdosproblems.com/856](https://www.erdosproblems.com/856), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #856,

@@ -43,12 +43,13 @@ itself is settled by the two full claims,
 and
 [[problems/unit_fractions/E0297/claims/2024_04_10_liu_sawhney|Liu and Sawhney's Theorem 1.2]].
 
-**Acceptance.** The site's curator, Thomas Bloom, credits this bound in the
-problem's commentary, independently of the author. The note is not refereed. Its
-arXiv v5 of 28 April 2024 says that it is kept for archival purposes and was not
-submitted to a journal. The arXiv record was first posted on 25 March 2024 and
-revised four times, the last on 28 April 2024. The library read v5 but holds no
-file of it, and it has not compared the earlier versions. The library's
+**Acceptance.** The erdosproblems.com curator, Thomas Bloom, credits this bound
+in the problem's commentary, independently of the author. The note is not
+refereed. Its arXiv v5 of 28 April 2024 says that it is kept for archival
+purposes and was not submitted to a journal. The arXiv record was first posted
+on 25 March 2024 and revised four times, the last on 28 April 2024. The library
+read v5 but holds no file of it, and it has not compared the earlier versions.
+The library's
 [[../library/unit_fractions/steinerberger_2024_problem_involving_unit_fractions/theorem|theorem page]]
 gives a complete ordinary reconstruction of the proof. The proof maps subset
 indicators to independent signs and bounds one tail of the signed sum by a split

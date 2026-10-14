@@ -80,7 +80,7 @@ premises are taken at statement level; none was checked here.
 
 - [[../wiki/problems/integer_sequences/E0490/_index|Problem 490]]: the statement is the
   problem's inequality $|A||B|\ll N^2/\log N$ for $A,B\subseteq\{1,\dots,N\}$
-  with all products $ab$ distinct; the site attributes the theorem to
+  with all products $ab$ distinct; erdosproblems.com attributes the theorem to
   Szemerédi's 1976 paper, whose
   [[integer_sequences/szemeredi_1976_problem_p_erdos/main_theorem|main theorem]]
   this library files, and this paper gives a second, simpler proof. The

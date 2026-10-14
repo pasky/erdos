@@ -8,7 +8,7 @@ desc: |
   fresh-context review.
 license: GPL-3.0-only
 created: 2026-09-17T08:01:04Z
-updated: 2026-10-08T01:50:33Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # Lean proof of Problem 252 at commit dc071aaf
@@ -17,7 +17,7 @@ updated: 2026-10-08T01:50:33Z
 
 [[irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/erdos_252|erdos_252]]: For every natural k, the real number sum over n of sigma_k(n)/n! is
 irrational, kernel-checked in Lean 4.33.1 against Mathlib v4.33.1 at
-commit dc071aaf; the site's question is the case k at least 1.
+commit dc071aaf; the erdosproblems.com question is the case k at least 1.
 
 [[irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/evidence/_index|evidence/]]: Retains the reviewed upstream snapshot at commit dc071aaf, the build
 report, the three fidelity reviews and their grades produced here on
@@ -25,8 +25,8 @@ report, the three fidelity reviews and their grades produced here on
 third-round pair is in force as acceptance.
 
 [[irrationality/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum/tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum|tokengrinder_2026_erdos_252_irrationality_factorial_divisor_sum]]: Repository identity, dates, license, the author's own AI attribution and
-anonymity statements, and the public registration and acceptance facts as
-of 2026-09-17.
+anonymity statements, and the public registration and acceptance facts on
+2026-09-17.
 
 ***
 
@@ -101,13 +101,13 @@ this commit when checked at 2026-09-17T07:49Z; any later commit is unreviewed.
   it does not sit at the folder-name PDF path because the source
   disclaims it as the checked artifact.
 
-## Relation to the catalog question
+## Relation to the erdosproblems.com question
 
 Problem 252 asks, for every $k\ge1$, whether $\sum_n\sigma_k(n)/n!$ is
-irrational, with the summation range implicit on the site and $n\ge1$ in
-every source. The theorem covers every natural $k$; its $k=0$ case, the
-divisor-count series $\sum_n d(n)/n!$, lies outside the site's question and
-is classical (Lemma 2.14 of
+irrational, with the summation range implicit on erdosproblems.com and $n\ge1$
+in every source. The theorem covers every natural $k$; its $k=0$ case, the
+divisor-count series $\sum_n d(n)/n!$, lies outside the erdosproblems.com
+question and is classical (Lemma 2.14 of
 [[irrationality/erdos_1971_number_theoretic_results/_index|Erdős and Straus 1971]]
 with $a_n=n$). The refereed literature settles $1\le k\le4$
 unconditionally:
@@ -152,14 +152,14 @@ blind reviewer, Claude Fable 5.1, distinct from all four earlier record
 holders) read the theorem as it stood at 2026-09-18T07:24:04Z through the
 frozen extraction
 [`evidence/assets/frozen_r3_E0252.md`](evidence/assets/frozen_r3_E0252.md),
-which carries the site's wording and the Lean paths with no redaction markers
-and no frontmatter, and returned refutation-failed; its [distinct
+which carries the erdosproblems.com wording and the Lean paths with no redaction
+markers and no frontmatter, and returned refutation-failed; its [distinct
 grade](evidence/verify/fidelity_grade_r3.md) (Claude Fable 5.1) records pass
 for the report contract and pass for independence, ruling every disclosed
 exposure immaterial by the content test and rederiving six load-bearing
-steps. Acceptance elsewhere: none found on 2026-09-17 (site OPEN; community
-database open; formal-conjectures research open; no referee, maintainer
-response or expert acknowledgment). Under `docs/anatomy.md` a graded
+steps. Acceptance elsewhere: none found on 2026-09-17 (erdosproblems.com OPEN;
+community database open; formal-conjectures research open; no referee,
+maintainer response or expert acknowledgment). Under `docs/anatomy.md` a graded
 fresh-context review is therefore in force, so this record is documented
 independent acceptance of the external result, and E0252 carries
 `status: proved` with the proof recorded as kernel-checked, rebuilt and
@@ -169,4 +169,4 @@ repository are unreviewed.
 
 **Bears on.** [[../wiki/problems/irrationality/E0252/_index|#252]], as the
 status-defining result for every $k\ge1$; the $k=0$ case is a variant
-outside the site's question.
+outside the erdosproblems.com question.

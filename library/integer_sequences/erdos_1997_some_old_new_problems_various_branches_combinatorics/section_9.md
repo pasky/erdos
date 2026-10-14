@@ -90,7 +90,7 @@ Erdős and Sárközi 1970, the item's one cited reference.
   the three questions, in the problem's order, with the growth question
   printed as "$a_n>n^2$" (read as $a_n<n^2$) and property P printed with
   "two other" in place of "two larger".
-- [[../wiki/problems/integer_sequences/E0013/_index|Problem 13]]: the conjecture in the
-  site's $N/3+O(1)$ form, with the example $2m/3<a_i\le m$; no prize is
-  printed, so the prize offer that Bedert attributes to Erdős's final
+- [[../wiki/problems/integer_sequences/E0013/_index|Problem 13]]: the conjecture
+  in erdosproblems.com's $N/3+O(1)$ form, with the example $2m/3<a_i\le m$; no
+  prize is printed, so the prize offer that Bedert attributes to Erdős's final
   open problems paper is not from this item.

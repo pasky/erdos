@@ -100,21 +100,22 @@ consulted; its text is known here only as reprinted at the head of the solution.
 here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0289/_index|#289]]: the solution (printed
-p. 224, PDF p. 2) is the primary source of the example the site and the
+p. 224, PDF p. 2) is the primary source of the example erdosproblems.com and the
 1980 monograph attribute to it. $S_2$ is the five-interval representation
 $2=\sum_{i=1}^5\sum_{n\in I_i}1/n$ with $I_1=[2,7]$, $I_2=[9,10]$,
-$I_3=[17,18]$, $I_4=[34,35]$, $I_5=[84,85]$ that the site's commentary
-quotes, and the monograph's fourteen denominators are this set. The page
-settles the attribution that the site and the monograph give: the
+$I_3=[17,18]$, $I_4=[34,35]$, $I_5=[84,85]$ that the erdosproblems.com
+commentary quotes, and the monograph's fourteen denominators are this set. The
+page settles the attribution that erdosproblems.com and the monograph give: the
 solution is Montgomery's, and the note credits the second set to Hickerson
-as well, so "Hickerson and Montgomery" (the site) fits $S_2$ and
+as well, so "Hickerson and Montgomery" (erdosproblems.com) fits $S_2$ and
 "Montgomery" (the monograph) fits the solution. It also confirms that
 Hahn's problem asked for any integer, not for $1$, and that its condition
-(1) is the separated-block condition of the site's formulation with the
-number of blocks free. The first set $S_1$, not mentioned on the site or in
-the monograph, is a six-interval representation of $2$ with every block of
-length exactly two. The item proves nothing about representing $1$ and
-nothing about all large $k$, so the problem's status is unchanged.
+(1) is the separated-block condition of the erdosproblems.com formulation with
+the number of blocks free. The first set $S_1$, not mentioned on
+erdosproblems.com or in the monograph, is a six-interval representation of $2$
+with every block of length exactly two. The item proves nothing about
+representing $1$ and nothing about all large $k$, so the problem's status is
+unchanged.
 
 **Results.**
 

@@ -34,14 +34,14 @@ for all graphs $H$ with $m$ edges and no isolated vertices.
 Are there infinitely many graphs $G$ which are not Ramsey size linear but such
 that all of its proper subgraphs are?
 
-**Notes.** The site's wording fails for every graph. Every graph is one of its
-own subgraphs, so a graph $G$ that is not Ramsey size linear always has a
-subgraph, $G$ itself, that is not Ramsey size linear; no graph qualifies, and
-the wording's answer is trivially no. The site's own example fails with the
-rest: $K_4$ is not Ramsey size linear, so not all of its subgraphs are. The
-change inserts the word "proper" before "subgraphs"; nothing else changes. The
-posers' own words fix the form. [EFRS93] defines the graphs asked for by edge
-deletion (Definition 2, p. 395: not Ramsey size linear, "but if any edge is
+**Notes.** The erdosproblems.com wording fails for every graph. Every graph is
+one of its own subgraphs, so a graph $G$ that is not Ramsey size linear always
+has a subgraph, $G$ itself, that is not Ramsey size linear; no graph qualifies,
+and the wording's answer is trivially no. erdosproblems.com's own example fails
+with the rest: $K_4$ is not Ramsey size linear, so not all of its subgraphs are.
+The change inserts the word "proper" before "subgraphs"; nothing else changes.
+The posers' own words fix the form. [EFRS93] defines the graphs asked for by
+edge deletion (Definition 2, p. 395: not Ramsey size linear, "but if any edge is
 deleted, then the resulting graph is Ramsey size linear"), says on the same page
 that three candidate graphs "would be minimal, since all of their proper
 subgraphs are Ramsey size linear", and asks for an infinite family of such
@@ -49,29 +49,29 @@ graphs, or one other than $K_4$ (Question 6, p. 399). Erdős's restatement in
 [Er95] (item 9 of the combinatorics part, p. 12 of the reprint) presents $K(4)$
 as an instance, "known not to be Ramsey size linear but all its subgraph [sic]
 are Ramsey size linear", which is true only of its proper subgraphs; so the
-omission of "proper" is already in [Er95], and the site follows that wording.
-The site's commentary names $K_4$ as the only known example, and the
-formal-conjectures statement quantifies over subgraphs $H<\top$, the proper
-ones; it counts with the site. Edge-deletion minimality and proper-subgraph
-minimality agree for graphs without isolated vertices (an elementary check:
-Ramsey size-linearity passes to subgraphs, since $R(H,F)\le R(G,F)$ for
-$H\subseteq G$, and a graph differing from $G$ only by isolated vertices is
-Ramsey size linear exactly when $G$ is, so a minimal graph has no isolated
-vertices and its proper subgraphs are the subgraphs of its one-edge-deleted
-graphs). No result about the site's wording is published. The problem's standing
-judges the modified Statement.
+omission of "proper" is already in [Er95], and erdosproblems.com follows that
+wording. The erdosproblems.com commentary names $K_4$ as the only known example,
+and the formal-conjectures statement quantifies over subgraphs $H<\top$, the
+proper ones; it counts with erdosproblems.com. Edge-deletion minimality and
+proper-subgraph minimality agree for graphs without isolated vertices (an
+elementary check: Ramsey size-linearity passes to subgraphs, since
+$R(H,F)\le R(G,F)$ for $H\subseteq G$, and a graph differing from $G$ only by
+isolated vertices is Ramsey size linear exactly when $G$ is, so a minimal graph
+has no isolated vertices and its proper subgraphs are the subgraphs of its
+one-edge-deleted graphs). No result about the erdosproblems.com wording is
+published. The problem's standing judges the modified Statement.
 
-**Formulation.** The site's wording as accessed 2026-09-18 (the page shows no
-last-edited date). $R(G,H)$ is the least $N$ such that every red-blue coloring
-of the edges of $K_N$ has a red $G$ or a blue $H$, and "$R(G,H)\ll m$" means
-$R(G,H)\le C_G\,m$ with $C_G$ depending only on $G$ ([EFRS93], Definition 1,
-p. 390). The origin is [EFRS93]: Definition 2 (p. 395), "A graph $G$ is minimal
-Ramsey size linear if $G$ is not Ramsey size linear, but if any edge is deleted,
-then the resulting graph is Ramsey size linear", and Question 6 (p. 399), "Is
-there an infinite family of minimal Ramsey size linear graphs, or more
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (the page
+shows no last-edited date). $R(G,H)$ is the least $N$ such that every red-blue
+coloring of the edges of $K_N$ has a red $G$ or a blue $H$, and "$R(G,H)\ll m$"
+means $R(G,H)\le C_G\,m$ with $C_G$ depending only on $G$ ([EFRS93], Definition
+1, p. 390). The origin is [EFRS93]: Definition 2 (p. 395), "A graph $G$ is
+minimal Ramsey size linear if $G$ is not Ramsey size linear, but if any edge is
+deleted, then the resulting graph is Ramsey size linear", and Question 6 (p.
+399), "Is there an infinite family of minimal Ramsey size linear graphs, or more
 specifically, is there a minimal Ramsey size linear graph other than $K_4$?"
-Wigderson [Wi24] calls such graphs minimally non-Ramsey size-linear. The site
-also cites [Er95], which restates the question.
+Wigderson [Wi24] calls such graphs minimally non-Ramsey size-linear.
+erdosproblems.com also cites [Er95], which restates the question.
 
 **Status.** Proved. The status-defining source is
 [[../library/ramsey_theory/wigderson_2024_infinitely_many_minimally_non_ramsey_size/theorem_1|Theorem 1]]
@@ -80,10 +80,10 @@ while each of their proper subgraphs has the property. This answers the
 modified Statement yes. The version cited is arXiv:2409.05931v2 (5 May 2025).
 The paper appeared in European J. Combin. 128 (2025), 104175, so the result is
 refereed. The version of record is dated August 2025, under an open license from
-8 May 2025. The site's curator, T. F. Bloom, credits the paper under the label
-PROVED. The proof is non-constructive: it exhibits no graph beyond $K_4$. The
-paper's Open problem 5 asks for one, and the site's commentary also records this
-as unknown. The claim page
+8 May 2025. The erdosproblems.com curator, T. F. Bloom, credits the paper under
+the label PROVED. The proof is non-constructive: it exhibits no graph beyond
+$K_4$. The paper's Open problem 5 asks for one, and the erdosproblems.com
+commentary also records this as unknown. The claim page
 [[problems/ramsey_theory/E0079/claims/2024_09_09_wigderson|Wigderson 2024]]
 records the result, its postings and the acceptance evidence.
 
@@ -130,20 +130,19 @@ under `category research solved`, with proof `sorry` and no `formal_proof`
 attribute; its docstring writes "all of its proper subgraphs" and credits
 [Wi24]. The community database (accessed 2026-09-18) records the problem
 proved (last changed 31 August 2025), the statement formalized since
-9 September 2026 and no formal proof; the site's "Formalised statement?"
-indicator read "No" on 2026-09-05 and "Yes" on 2026-09-18. Nothing was
-built here.
+9 September 2026 and no formal proof; erdosproblems.com's "Formalised
+statement?" indicator read "No" on 2026-09-05 and "Yes" on 2026-09-18. Nothing
+was built here.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-18).** The statement
-above; status PROVED; no last-edited date. The commentary attributes the
-question to Erdős, Faudree, Rousseau and Schelp [EFRS93], names $K_4$ as
-the only known example, and credits Wigderson [Wi24] with the proof that
-there are infinitely many, adding that the proof is not explicit and that
-no example other than $K_4$ is known. There are no comments and no proof
-claims. The community database record says
-proved (31 August 2025) and formalized (9 September 2026).
+**The question (erdosproblems.com formulation accessed 2026-09-18).** The
+statement above; status PROVED; no last-edited date. The commentary attributes
+the question to Erdős, Faudree, Rousseau and Schelp [EFRS93], names $K_4$ as the
+only known example, and credits Wigderson [Wi24] with the proof that there are
+infinitely many, adding that the proof is not explicit and that no example other
+than $K_4$ is known. There are no comments and no proof claims. The community
+database record says proved (31 August 2025) and formalized (9 September 2026).
 
 **Origin.** [EFRS93], printed pp. 390, 395 and 399. Page 395: "The graph
 $K_4$ is not Ramsey size
@@ -202,7 +201,7 @@ record above; the acknowledgments thank "the anonymous referees".
 retraction, a dispute, an explicit example beyond $K_4$ or a further
 result on minimal non-Ramsey-size-linear graphs.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database
   record.
 - The primary sources, at the pages stated: [Wi24] pp. 1--2, [EFRS93]

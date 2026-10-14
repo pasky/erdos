@@ -36,9 +36,9 @@ printed in the article (its first page prints
 "Received by the editors October 16, 1961." and no copyright line); the
 publisher's article page for the DOI
 (https://pubs.ams.org/journals/tran/1962-104-03/S0002-9947-1962-0139586-4, read
-2026-10-02) could not be read beyond the site's navigation, and the publisher's
-copyright policy page (https://www.ams.org/publications/authors/ctp, read
-2026-10-02) states that the "AMS permits the noncommercial use of its
+2026-10-02) could not be read beyond erdosproblems.com's navigation, and the
+publisher's copyright policy page (https://www.ams.org/publications/authors/ctp,
+read 2026-10-02) states that the "AMS permits the noncommercial use of its
 copyrighted works for educational purposes only, such as to quote brief passages
 or to copy small portions of content for personal use in teaching or research"
 and names Creative Commons licenses only for its open-access series, every other

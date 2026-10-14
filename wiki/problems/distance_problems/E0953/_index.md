@@ -34,12 +34,12 @@ whether $M(r)$ has order exactly $r^{1/2}$, that is, whether the factor
 $r^{o(1)}$ between the two bounds can be removed. The problem stays open until
 that question is settled.
 
-**Status.** Open. The site kept the label OPEN, and its curator has not
+**Status.** Open. erdosproblems.com kept the label OPEN, and its curator has not
 commented on Chojecki's upper bound. That bound is an accepted partial result,
 recorded on its
 [[problems/distance_problems/E0953/claims/2026_04_27_chojecki|claim page]].
-Together with the lower bound the site credits, it settles the exponent $1/2$.
-The constant-factor question is open.
+Together with the lower bound erdosproblems.com credits, it settles the exponent
+$1/2$. The constant-factor question is open.
 
 **Source.** [erdosproblems.com/953](https://www.erdosproblems.com/953), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #953,
@@ -59,9 +59,9 @@ and has not been built here.
 ## Current assessment
 
 **Open; the exponent $1/2$ is settled.** Trivially $M(r)=O(r)$. Koizumi and
-Kovač observed on the site's discussion thread (comments of 9 August 2025 and
-1 February 2026, which the site credits) that Sárközy's lower bound on
-[[problems/number_theory/E0466/_index|Problem 466]], recorded on
+Kovač observed on the erdosproblems.com discussion thread (comments of 9 August
+2025 and 1 February 2026, which erdosproblems.com credits) that Sárközy's lower
+bound on [[problems/number_theory/E0466/_index|Problem 466]], recorded on
 [[problems/number_theory/E0466/claims/1976_01_01_sarkozy|its claim page]],
 adapts to $M(r)\gg_\varepsilon r^{1/2-\varepsilon}$ for every
 $\varepsilon>0$, by placing small discs at a robust point set. Chojecki's
@@ -77,9 +77,9 @@ and
 [[../library/distance_problems/sothanaphan_2026_compact_poissonbessel_proof_integer_distance_free/_index|sothanaphan_2026_compact_poissonbessel_proof_integer_distance_free]].
 The remaining gap, and the open question, is the factor $r^{o(1)}$ in the
 lower bound: whether $M(r)$ has order exactly $r^{1/2}$. Search scope: the
-site's problem page and discussion thread, the claimant's notes, the Lean
-repository linked from the thread and the formal-conjectures catalog; no forum
-proof claim, release item or lead names the problem.
+erdosproblems.com problem page and discussion thread, the claimant's notes, the
+Lean repository linked from the thread and the formal-conjectures catalog; no
+forum proof claim, release item or lead names the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

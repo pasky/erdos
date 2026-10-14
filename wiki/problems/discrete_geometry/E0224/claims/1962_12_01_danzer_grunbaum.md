@@ -41,8 +41,8 @@ is the vertex set of an $n$-dimensional parallelotope, necessarily a box,
 since a parallelotope whose vertex set has no obtuse triangle is
 rectangular. Erdős had conjectured the bound $2^n$ around 1950; the cases
 $n=2$ and $n=3$ were settled earlier (for $n=3$ by an unpublished argument of
-Kuiper and Boerdijk, as the site's page records), and this paper proves the
-general case, which is what the problem asks.
+Kuiper and Boerdijk, as the erdosproblems.com page records), and this paper
+proves the general case, which is what the problem asks.
 
 **The argument.** The paper treats Erdős's question together with Klee's
 question on antipodal sets. A set with no obtuse triangle is antipodal in
@@ -77,13 +77,13 @@ passage. The Lean file states the problem's form directly, for a finite set of
 $2^d+1$ points of $d$-dimensional Euclidean space, and contains no `sorry`;
 this corpus has not built or audited it.
 
-**Formalization.** The site's label carried a Lean qualification. The
+**Formalization.** The erdosproblems.com label carried a Lean qualification. The
 formal-conjectures statement of the problem marks it solved and points to a
 Lean 4 proof in the repository `plby/lean-proofs`, linked above at a pinned
 commit. That file declares itself a formalization of a solution to the
 problem with Danzer and Grünbaum as informal authors and names as its formal
 authors GPT-5.2 Thinking, Codex and Coder-Osman; it contains no `sorry`. The
-development was first posted in the site's thread on 2026-01-14 by
+development was first posted in the erdosproblems.com thread on 2026-01-14 by
 Coder-Osman of the SpringSense Innovation Institute, linked above at its
 first commit. By the poster's account in that thread, GPT-5.2 Thinking wrote
 the proof sketch and the Lean outline without the Danzer–Grünbaum paper, and

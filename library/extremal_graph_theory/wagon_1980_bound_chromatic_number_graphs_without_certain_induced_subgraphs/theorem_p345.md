@@ -42,9 +42,9 @@ $$
 d(t,2)\le\binom t2+1\qquad(t\ge1),
 $$
 
-the bound the site's commentary attributes to the note through El-Zahar and
-Erdős, whose p. 296 reports the Theorem as "if $G$ contains neither a
-complete subgraph of order $r$ nor two independent edges then
+the bound the erdosproblems.com commentary attributes to the note through
+El-Zahar and Erdős, whose p. 296 reports the Theorem as "if $G$ contains neither
+a complete subgraph of order $r$ nor two independent edges then
 $\chi(G)\le\binom r2$".
 
 **Source.** S. Wagon, A bound on the chromatic number of graphs without
@@ -94,9 +94,8 @@ held.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]: the case $c=2$ for
-  every $t$, the site's $d(t,2)\le\binom t2+1$. The bound is attained for
-  $t=2$ and $t=3$ ($d(2,2)=2$, $d(3,2)=4$ by the 5-cycle) and not for
-  $t=4$, where the note leaves $\chi\in\{5,6\}$ open for $\omega=3$ and
-  El-Zahar and Erdős report $f(4,2)=5$. The recursion
-  $d(t+1,2)\le d(t,2)+t$ that El-Zahar and Erdős call "implicit in [2]" is
-  not a printed statement of the note.
+  every $t$, erdosproblems.com's $d(t,2)\le\binom t2+1$. The bound is attained
+  for $t=2$ and $t=3$ ($d(2,2)=2$, $d(3,2)=4$ by the 5-cycle) and not for $t=4$,
+  where the note leaves $\chi\in\{5,6\}$ open for $\omega=3$ and El-Zahar and
+  Erdős report $f(4,2)=5$. The recursion $d(t+1,2)\le d(t,2)+t$ that El-Zahar
+  and Erdős call "implicit in [2]" is not a printed statement of the note.

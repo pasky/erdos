@@ -25,19 +25,19 @@ the edges of $K_n$ such that every $K_4$ contains at least 5 colours. Determine
 the size of $f(n)$.
 
 **Formulation.** The wording does not say how precisely the size is to be
-determined. The linear order was already known in the source the site
+determined. The linear order was already known in the source erdosproblems.com
 cites: [Er97b] (item 12) prints $\frac23n<f(n)<n$, and Erdős and Gyárfás
 [EG97] proved $f(n)\ge\frac56(n-1)$ for all $n\ge4$ and $f(n)\le n$ for odd
 $n$. The question, as [Er97b] frames it (Erdős expected the upper bound to be
 nearer the truth, Gyárfás the lower), is the constant $c$ in $f(n)\sim cn$,
-and the site reads it so, labeling the problem solved on $f(n)\sim\frac56n$.
-The exact value of $f(n)$ is not known.
+and erdosproblems.com reads it so, labeling the problem solved on
+$f(n)\sim\frac56n$. The exact value of $f(n)$ is not known.
 
-**Status.** Solved. The site reads the instruction to determine the size of
-$f(n)$ as asking for the constant in $f(n)\sim cn$, and labeled the problem
-solved. The exact value of $f(n)$ is not known. Erdős and Gyárfás [EG97] proved
-$f(n)\ge\frac56(n-1)$ for all $n\ge4$ and $f(n)\le n$ for odd $n$, and reported
-$f(9)=8$
+**Status.** Solved. erdosproblems.com reads the instruction to determine the
+size of $f(n)$ as asking for the constant in $f(n)\sim cn$, and labeled the
+problem solved. The exact value of $f(n)$ is not known. Erdős and Gyárfás [EG97]
+proved $f(n)\ge\frac56(n-1)$ for all $n\ge4$ and $f(n)\le n$ for odd $n$, and
+reported $f(9)=8$
 ([[problems/extremal_graph_theory/E0136/claims/1997_12_01_erdos_gyarfas|claim page]]).
 Erdős's own report [Er97b] (item 12) prints the weaker bounds $\frac23n<f(n)<n$.
 It says that he believed the upper bound closer to the truth, while Gyárfás
@@ -47,8 +47,8 @@ $f(n)=\frac56n+o(n)$
 Joos and Mubayi [JoMu22] gave a much shorter second proof of the same asymptotic
 ([[problems/extremal_graph_theory/E0136/claims/2022_08_26_joos_mubayi|claim page]]).
 Both are refereed (J. Combin. Theory Ser. B 169 (2024) and Proc. Amer. Math.
-Soc. 152 (2024)). The site's thread holds one comment, a typographical remark of
-23 July 2026.
+Soc. 152 (2024)). The erdosproblems.com thread holds one comment, a
+typographical remark of 23 July 2026.
 
 **Source.** [erdosproblems.com/136](https://www.erdosproblems.com/136), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #136,
@@ -76,7 +76,7 @@ https://www.erdosproblems.com/136.
 
 **Formalization.** The formal-conjectures statement file
 [`ErdosProblems/136.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5abc04c821512d535c9b5a7fe2e4e744b0bb7241/FormalConjectures/ErdosProblems/136.lean),
-added on 2026-09-19 and linked from the site's page as the formalized
+added on 2026-09-19 and linked from the erdosproblems.com page as the formalized
 statement, marks `erdos_136` (that $f(n)/n\to5/6$) research solved with a
 `formal_proof` pointer to the declaration `erdos_136` of
 [`Erdos136.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos136.lean#L49)

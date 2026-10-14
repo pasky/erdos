@@ -51,24 +51,24 @@ odd $n$, with equality. Not covered: even $n$ (the page
 [[problems/ramsey_theory/E0556/claims/2008_09_21_benevides_skokan|Benevides and Skokan 2008]]),
 and the odd $n$ below the unnamed threshold.
 
-**Standing.** Claimed, not accepted. The site's curator, T. F. Bloom, credits
-Kohayakawa, Simonovits and Skokan in the problem's commentary with proving the
-conjecture for all sufficiently large odd $n$, on a page labeled DECIDABLE (last
-edited 8 February 2026, accessed 2026-09-17), the site's state for a problem
-resolved up to a finite check, which rests on exactly this theorem and the
-even-cycle theorem of Benevides and Skokan; that label does not mark the problem
-settled, so the credit is recorded here and is not `reviewed` evidence. Nothing
-is refereed: the claimant's own venue is the extended abstract The 3-colored
-Ramsey number of odd cycles, Proceedings of GRACO2005, Electron. Notes Discrete
-Math. 19 (2005), 397--402, dated June 2005 by its Crossref record, the date this
-page is named by; it is a six-page abstract in a proceedings series, not
-compared with the report, and not shown to have been refereed. The complete
-proof is the CDAM Research Report LSE-CDAM-2008-16 linked above (file dated 22
-September 2008), which is not refereed; no journal version was found. A refereed
-publication of the proof, or an independent reviewer's acceptance of it, would
-move the claim to accepted. The same statement is proved again, for every fixed
-number of colors, by Jenssen and Skokan (Adv. Math. 2021), recorded on its own
-page
+**Standing.** Claimed, not accepted. The erdosproblems.com curator, T. F. Bloom,
+credits Kohayakawa, Simonovits and Skokan in the problem's commentary with
+proving the conjecture for all sufficiently large odd $n$, on a page labeled
+DECIDABLE (last edited 8 February 2026, accessed 2026-09-17),
+erdosproblems.com's state for a problem resolved up to a finite check, which
+rests on exactly this theorem and the even-cycle theorem of Benevides and
+Skokan; that label does not mark the problem settled, so the credit is recorded
+here and is not `reviewed` evidence. Nothing is refereed: the claimant's own
+venue is the extended abstract The 3-colored Ramsey number of odd cycles,
+Proceedings of GRACO2005, Electron. Notes Discrete Math. 19 (2005), 397--402,
+dated June 2005 by its Crossref record, the date this page is named by; it is a
+six-page abstract in a proceedings series, not compared with the report, and not
+shown to have been refereed. The complete proof is the CDAM Research Report
+LSE-CDAM-2008-16 linked above (file dated 22 September 2008), which is not
+refereed; no journal version was found. A refereed publication of the proof, or
+an independent reviewer's acceptance of it, would move the claim to accepted.
+The same statement is proved again, for every fixed number of colors, by Jenssen
+and Skokan (Adv. Math. 2021), recorded on its own page
 [[problems/ramsey_theory/E0556/claims/2016_08_19_jenssen_skokan|Jenssen and Skokan 2016]];
 that paper describes its result as a stability-type strengthening of this
 paper's main result and likewise gives no effective threshold. It corroborates

@@ -45,7 +45,7 @@ such groups.
 N. Alon and D. J. Kleitman, *Sum-free subsets*, in: A Tribute to Paul Erdős (A.
 Baker, B. Bollobás and A. Hajnal, eds.), Cambridge University Press (1990),
 13--26, DOI 10.1017/CBO9780511983917.003 (Crossref record read 2026-09-18). The
-site's key [AlKl90] for Problem 792.
+erdosproblems.com key [AlKl90] for Problem 792.
 
 The copy read for this card is a
 fifteen-page scan of the chapter (a cover leaf "Reprinted from A Tribute to
@@ -138,7 +138,7 @@ depth each result page states. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0792/_index|#792]]:
 [[additive_combinatorics/alon_1990_sum_free_subsets/proposition_1_1|Proposition 1.1]]
-(pp. 13--14) is the bound $f(n)\ge(n+1)/3$ the site attributes to this
+(pp. 13--14) is the bound $f(n)\ge(n+1)/3$ erdosproblems.com attributes to this
 paper, stated for sets of $n$ nonzero integers with the strict inequality
 $|A|>n/3$, and
 [[additive_combinatorics/alon_1990_sum_free_subsets/proposition_4_1_prime|Proposition 4.1']]

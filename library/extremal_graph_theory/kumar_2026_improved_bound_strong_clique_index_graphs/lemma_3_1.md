@@ -61,8 +61,8 @@ None beyond the definition of $O_4$.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0934/_index|Problem 934]]: refutes, as a
-  preprint claim read and followed here, the site's displayed conjecture
-  "$h_3(d)\le d^3-d^2+d+2$" at $d=4$
+  preprint claim read and followed here, erdosproblems.com's displayed
+  conjecture "$h_3(d)\le d^3-d^2+d+2$" at $d=4$
   ([[extremal_graph_theory/cambie_2022_maximizing_line_subgraphs_diameter_at_most_t/conjecture_1|Conjecture 1 of the 2022 paper]]);
-  the site's thread reports a machine-checked claim that $h_3(4)=71$
+  the erdosproblems.com thread reports a machine-checked claim that $h_3(4)=71$
   exactly, an external artifact not read.

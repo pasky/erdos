@@ -129,20 +129,20 @@ its proof was read in full and followed, with the observations above.
 Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E1079/_index|#1079]]: the Theorem
-(printed p. 111, PDF p. 1), quoted in full under Contents, is the result the
-site credits to the note: a graph of order $n$ with at least $t_r(n)$ edges
-is $T_r(n)$ or has a vertex $x$ of degree $d>n(1-1/r-1/(1+\sqrt r))$ whose
-neighborhood $G[\Gamma(x)]$ spans at least $t_{r-1}(d)+1$ edges. With
-$t_{r-1}(n)=\mathrm{ex}(n;K_r)$ the note's $r$ is the problem's $r-1$, so in
-the problem's letters a graph with at least $\mathrm{ex}(n;K_r)$ edges is the
-Turán graph or has a vertex of degree
+(printed p. 111, PDF p. 1), quoted in full under Contents, is the result
+erdosproblems.com credits to the note: a graph of order $n$ with at least
+$t_r(n)$ edges is $T_r(n)$ or has a vertex $x$ of degree
+$d>n(1-1/r-1/(1+\sqrt r))$ whose neighborhood $G[\Gamma(x)]$ spans at least
+$t_{r-1}(d)+1$ edges. With $t_{r-1}(n)=\mathrm{ex}(n;K_r)$ the note's $r$ is the
+problem's $r-1$, so in the problem's letters a graph with at least
+$\mathrm{ex}(n;K_r)$ edges is the Turán graph or has a vertex of degree
 $d>n(1-\frac1{r-1}-\frac1{1+\sqrt{r-1}})$ whose neighborhood spans at least
 $\mathrm{ex}(d;K_{r-1})+1$ edges: Erdős's "$+1$" is in the conclusion, the
 Turán graph is the only exception, and the constant is explicit ($\approx0.30$
 for $r=4$), the printed argument giving that bound for
 $n\ge(r-1)(1+\sqrt{r-1})^2/2$ in the problem's $r$ and some linear bound for
 every $n$ (the third filing observation). The introduction (p. 111) attributes
-the conjecture to Erdős's 1975 survey, the site's [Er75], paged at
+the conjecture to Erdős's 1975 survey, erdosproblems.com's [Er75], paged at
 [[extremal_graph_theory/erdos_1975_recent_progress_extremal_problems_graph_theory/problem_p14|problem_p14]],
 in the form $e(G^n)>t_r(n)$. This card reads the theorem on the page image
 at statement depth with the proof followed; nothing is independently

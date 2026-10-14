@@ -57,7 +57,7 @@ reference [7]), at statement level.
   hence a set in which no element divides the sum of any distinct other
   elements is non-averaging, and $F(N)\le h(N)\le N^{1/4+o(1)}$. This
   answers the page's displayed question $F(N)>N^{1/2-o(1)}$ in the
-  negative, as the site's commentary says; the theorem does not bound
+  negative, as the erdosproblems.com commentary says; the theorem does not bound
   $F(N)$ from below and does not decide its order.
 - [[../wiki/problems/additive_combinatorics/E0186/_index|Problem 186]]: the paper's
   $h(n)$ is the problem's $F(N)$ (a one-element subset averages to itself,

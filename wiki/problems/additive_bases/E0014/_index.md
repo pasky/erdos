@@ -41,8 +41,9 @@ $$
 \lvert \{1,\ldots,N\}\backslash B\rvert =o(N^{1/2})?
 $$
 
-**Formulation.** The site's wording (page last edited 14 September 2025). The wording does not say whether $a+a$ counts as
-a representation of $2a$, nor whether $0\in\mathbb{N}$. The formal statement
+**Formulation.** The erdosproblems.com wording (page last edited 14 September
+2025). The wording does not say whether $a+a$ counts as a representation of
+$2a$, nor whether $0\in\mathbb{N}$. The formal statement
 (`Erdos14.erdos_14.parts.i` and `Erdos14.erdos_14.parts.ii` in
 `FormalConjectures/ErdosProblems/14.lean`), both accepted proofs and
 Conjectures.io's review note (which records the reviewed definition as counting unordered
@@ -53,10 +54,10 @@ with $a_1+a_2=n$, and count the exceptions in $\{1,\ldots,N\}$; there $A$ ranges
 over all subsets of $\{0,1,2,\ldots\}$, a superset of the subsets of the
 positive integers, which only strengthens both answers below. This is the
 natural reading of "the sum of two elements from $A$" and the one adopted here.
-[ErFr91], the paper the site cites, takes $A$ among the positive integers
-($1\le a_1<\cdots<a_k\le n$) and counts the sums $a_i+a_j$ over $i\le j$,
-equal summands allowed (its count of $\binom{k+1}2$ formal sums, pp. 196 and
-205); its Proposition 2 (p. 204) constructs a set under which all but
+[ErFr91], the paper erdosproblems.com cites, takes $A$ among the positive
+integers ($1\le a_1<\cdots<a_k\le n$) and counts the sums $a_i+a_j$ over
+$i\le j$, equal summands allowed (its count of $\binom{k+1}2$ formal sums, pp.
+196 and 205); its Proposition 2 (p. 204) constructs a set under which all but
 $2^{3/2}n^{1/2}$ numbers up to $n$ have a unique representation, and the
 Remark after it states the authors' expectation for the finite analogue of
 the second question, with one set inside $[1,n]$ for each $n$ (a negative
@@ -65,12 +66,12 @@ that the term $2^{3/2}n^{1/2}$ cannot be replaced by $o(n^{1/2})$ in
 Proposition 2, but we cannot prove this even if we take a much larger set of
 $Cn^{1/2}$ elements in the interval $[1,n]$" (p. 204; see the References).
 
-**Status.** OPEN, the site's label (page last edited 14 September 2025). The
-erdosproblems.com page kept the problem open and notes that no finite
+**Status.** OPEN, the erdosproblems.com label (page last edited 14 September
+2025). The erdosproblems.com page kept the problem open and notes that no finite
 computation can settle it. Its proof-claims tab lists two entries that its
 curator posted without verifying them. The page's standing, solved and answered,
-departs from that label on the accepted claim below. For the site's wording
-displayed above, the first question is answered yes and the second no.
+departs from that label on the accepted claim below. For the erdosproblems.com
+wording displayed above, the first question is answered yes and the second no.
 
 The status-defining source is a pair of Lean proofs accepted by the bounty site
 Conjectures.io, one per question. Record `dce3d778-6f52-4c27-8da0-c82d2f391b64`,
@@ -127,9 +128,9 @@ exactly `propext`, `Classical.choice` and `Quot.sound`. Each target's type, and
 every definition its statement reaches, are identical to the formal-conjectures
 statement of the record's task, and those statements were checked against the
 Statement above, as the claim page records. The records pin a formal-conjectures
-commit that does not resolve on GitHub (2026-10-07); the site builds it from a
-public catalog commit and an audit patch, and the replay reproduced it exactly.
-The formal-conjectures definitions `allUniqueSums` and `≫` live in
+commit that does not resolve on GitHub (2026-10-07); Conjectures.io builds it
+from a public catalog commit and an audit patch, and the replay reproduced it
+exactly. The formal-conjectures definitions `allUniqueSums` and `≫` live in
 `FormalConjecturesUtil`, while each proof file restates them in its own
 namespace and closes its target by `exact`; the replayed kernel checks that
 closing step, so the local definitions agree with the formal-conjectures ones.

@@ -103,16 +103,16 @@ of one color; Erdős expected more than (1 + epsilon) n^2/24), says it
 "readily follows from our stability result, Theorem 1.3", and states
 Jacobson's conjecture n^2/20 + o(n^2) as Conjecture 8.2; Question 8.1
 (p. 29) asks for the exact minimum. This settles problem 76 as a preprint;
-the site accepted the resolution.
+erdosproblems.com accepted the resolution.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0076/_index|#76]]: Theorem 1.2 (p. 2) is
-the status-defining theorem, the site's "(1+o(1))n^2/12" being the paper's
-"n^2/12 + o(n^2)"; Conjecture 1.1 (p. 1) identifies the problem as Problem
-14 of the Discrete Math. 164 (1997) paper, the site's key Er97d; Section 8
-(p. 30) treats the site's second question, the same-color count, as a
-consequence of Theorem 1.3 without a written deduction. Theorem 2.3 (p. 4)
-is the fractional bound from which the paper derives Theorem 1.2, with
-Theorems 2.6 and 2.11 among its ingredients; none of the three is a
+the status-defining theorem, erdosproblems.com's "(1+o(1))n^2/12" being the
+paper's "n^2/12 + o(n^2)"; Conjecture 1.1 (p. 1) identifies the problem as
+Problem 14 of the Discrete Math. 164 (1997) paper, the erdosproblems.com key
+Er97d; Section 8 (p. 30) treats erdosproblems.com's second question, the
+same-color count, as a consequence of Theorem 1.3 without a written deduction.
+Theorem 2.3 (p. 4) is the fractional bound from which the paper derives Theorem
+1.2, with Theorems 2.6 and 2.11 among its ingredients; none of the three is a
 statement of the problem.
 
 **Results.**

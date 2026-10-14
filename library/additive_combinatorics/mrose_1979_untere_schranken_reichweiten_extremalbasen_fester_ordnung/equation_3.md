@@ -44,7 +44,7 @@ $n_k(2)=(k/2)^2+O(k)$.
 zero element, so $n(k+1)=n_2(k)$, and (3) reads $n(k)\ge\frac27k^2+O(k)$,
 that is $\liminf_{k\to\infty}n(k)/k^2\ge2/7>0.2857$, the bound [Ko17]
 (p. 1) quotes for Mrose. With $g(n)=\min\{k:n(k)\ge n\}$ the conversion on
-the problem page gives $g(n)^2\le(\frac72+o(1))n$, the site's
+the problem page gives $g(n)^2\le(\frac72+o(1))n$, erdosproblems.com's
 "$g(n)^2\le\frac72n$", and $\limsup g(n)/\sqrt n\le\sqrt{7/2}=1.8708\ldots<2$,
 so $g(n)\sim2\sqrt n$ is false.
 

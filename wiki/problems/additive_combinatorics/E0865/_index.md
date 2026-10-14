@@ -5,7 +5,7 @@ desc: |
   Asks whether every subset of $\{1,\ldots,N\}$ of size at least $\frac58N+C$,
   for some constant $C$, contains three distinct members whose pairwise sums
   also lie in the set. It was proved in a 2026 preprint, developed with GPT-5.5
-  Pro, which the site accepted.
+  Pro, which erdosproblems.com accepted.
 tags:
 - Number theory
 - Additive combinatorics
@@ -27,10 +27,10 @@ updated: 2026-10-08T02:16:54Z
 $A\subseteq \{1,\ldots,N\}$ has size at least $\frac{5}{8}N+C$ then there are
 distinct $a,b,c\in A$ such that $a+b,a+c,b+c\in A$.
 
-**Formulation.** The site's wording (page last edited 2 July 2026). The
-three members are distinct and their three pairwise sums must lie in $A$; a
+**Formulation.** The erdosproblems.com wording (page last edited 2 July 2026).
+The three members are distinct and their three pairwise sums must lie in $A$; a
 sum may coincide with the third member. Writing $f_3(N)$ for the least size of $A\subseteq\{1,\ldots,N\}$
-that forces such a triple (the resolving paper's notation; the site's
+that forces such a triple (the resolving paper's notation; erdosproblems.com's
 $f_k(N)$ with $k=3$), the statement asks for $f_3(N)\le\tfrac58N+C$ for
 large $N$. The interval example $[N/8,N/4]\cup[N/2,N]$ has
 $\tfrac58N+2$ members for $8\mid N$ and contains no such triple (two
@@ -46,12 +46,12 @@ with Sós "about two years ago" ([Er92c], printed p. 40, whose
 display reads "$1\le a_1<a_2<\cdots<a_t\le2n$, $t=\tfrac{5n}8+O(1)$" while
 its examples $\tfrac n8\le t\le\tfrac n4$ and $\tfrac n2\le t\le n$ live in
 $[1,n]$; the printed $2n$ is carried over from the preceding sentence and
-the site's range $\{1,\ldots,N\}$ is the one the examples fit). The site's
-source keys are [Er72], [CES75] and [Er92c].
+erdosproblems.com's range $\{1,\ldots,N\}$ is the one the examples fit). The
+erdosproblems.com source keys are [Er72], [CES75] and [Er92c].
 
 **Status.** PROVED (LEAN). The standing is derived from the
 [[problems/additive_combinatorics/E0865/claims/2026_06_28_cipollini|claim page]],
-accepted on the site's documented review with the qualifications below.
+accepted on erdosproblems.com's documented review with the qualifications below.
 
 The status-defining source is Theorem 1.1 of a seven-page arXiv preprint, R.
 Cipollini, *A sharp 5/8 bound for an Erdős--Sós pairwise-sums problem*,
@@ -61,24 +61,25 @@ $|A|\ge\tfrac58N+C$ contains a pairwise-sum triple. The explicit form is
 $|A|\le\tfrac54H+6$ for every triple-free $A\subseteq[1,2H]$. The manuscript's
 first page declares that it was written by an AI model, GPT-5.5 Pro, from a
 proof the author developed together with that model. It also declares that the
-Lean formalization was carried out with the prover Aristotle. The site's
-commentary credits the solution to Cipollini and GPT Pro, and the site accepted
-it on 2 July 2026 with the label PROVED (LEAN). On 27 June 2026, Stijn Cambie
-reported in the site's thread having read a version of the paper in detail
-and confirmed it. The paper's acknowledgments thank Cambie for feedback and
-improvements.
+Lean formalization was carried out with the prover Aristotle. The
+erdosproblems.com commentary credits the solution to Cipollini and GPT Pro, and
+erdosproblems.com accepted it on 2 July 2026 with the label PROVED (LEAN). On 27
+June 2026, Stijn Cambie reported in the erdosproblems.com thread having read a
+version of the paper in detail and confirmed it. The paper's acknowledgments
+thank Cambie for feedback and improvements.
 
-This is a source-supported solution accepted by the site, distinct from a claim
-of journal refereeing. No refereed publication, later arXiv version, citing
-paper or written expert review beyond the thread was found. Two external Lean
-developments prove the theorem for their own definitions. The corpus holds no
-build of either, so they give no formalized evidence. The refereed content
+This is a source-supported solution accepted by erdosproblems.com, distinct from
+a claim of journal refereeing. No refereed publication, later arXiv version,
+citing paper or written expert review beyond the thread was found. Two external
+Lean developments prove the theorem for their own definitions. The corpus holds
+no build of either, so they give no formalized evidence. The refereed content
 behind the label is the density bound $f_k(N)\le(\tfrac23-\epsilon_k)N$ of Choi,
-Erdős and Szemerédi (1975), and the folklore $k=2$ fact the site states.
+Erdős and Szemerédi (1975), and the folklore $k=2$ fact erdosproblems.com
+states.
 
 **Source.** [erdosproblems.com/865](https://www.erdosproblems.com/865),
 accessed 2026-09-18: the problem page (PROVED
-(LEAN), the site's label for an affirmative solution whose proof is
+(LEAN), the erdosproblems.com label for an affirmative solution whose proof is
 verified in Lean; last edited 2 July 2026; source keys [Er72], [CES75],
 [Er92c]; commentary crediting the solution to Cipollini and GPT Pro;
 the indicator
@@ -117,8 +118,8 @@ https://www.erdosproblems.com/865, accessed 2026-09-18.
   3, printed pp. 40--41. Library home:
   [[../library/integer_sequences/erdos_1992_my_forgotten_problems_number_theory/_index|erdos_1992_my_forgotten_problems_number_theory]].
 
-**Formalization.** The site's Lean suffix is a catalog label; see "Formalization
-and the Lean label" below for what the files state. The file
+**Formalization.** The erdosproblems.com Lean suffix is a catalog label; see
+"Formalization and the Lean label" below for what the files state. The file
 [`ErdosProblems/865.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/865.lean)
 of formal-conjectures, at the commit the link pins, declares `erdos_865 : ∃ C >
 0, ∀ᶠ (N : ℕ) in atTop, ∀ A ⊆ Icc 1 N, A.card ≥ (5 / 8 : ℝ) * N + C → ∃ a ∈ A, ∃
@@ -141,9 +142,9 @@ change of state, the statement as formalized as of that field's last update on
 
 ## Current assessment
 
-**The question (site formulation).** The statement
-above; PROVED (LEAN), the site's label for an affirmative solution whose
-proof is verified in Lean, last edited 2 July 2026. The commentary, in
+**The question (erdosproblems.com formulation).** The statement
+above; PROVED (LEAN), the erdosproblems.com label for an affirmative solution
+whose proof is verified in Lean, last edited 2 July 2026. The commentary, in
 this page's words: the problem is Erdős and Sós's, and Choi, Erdős and
 Szemerédi [CES75] had considered it earlier, which Erdős had forgotten; the
 integers in $[N/8,N/4]$ and $[N/2,N]$ show that $\tfrac58$ is the best
@@ -213,8 +214,8 @@ if $A$ is any set of $f_k^{(2)}(n)$ positive integers not exceeding $n$
 there always are $k$ distinct $a_i\in A$, $1\le i\le k$ so that all the
 $\binom k2$ sums $a_{i_1}+a_{i_2}$ are also elements of $A$", the
 conjecture (17) $f_k^{(2)}(n)=\frac n2(1+\sum_{r=1}^{k-2}\frac1{4^r})$
-(printed as an equality; the site writes $\sim$), and on p. 41: "very soon
-Ruzsa proved a slightly weaker result than (17). He in fact proved (18)
+(printed as an equality; erdosproblems.com writes $\sim$), and on p. 41: "very
+soon Ruzsa proved a slightly weaker result than (17). He in fact proved (18)
 $f_k^{(2)}(n)>\frac23n-\frac{c_k}{4^k}$. We all thought that (18) is a
 nice new result. A few months later I found that 16 years earlier Choi,
 Szemerédi and I [6] proved that $f_k^{(2)}(n)>(\frac23-\varepsilon_k)n$,
@@ -223,8 +224,9 @@ than Ruzsa's. All I could do was to apologise to Ruzsa that I forgot our
 old result. The conjecture (17) is still open even for $k=3$." Both
 inequalities of p. 41 are printed with "$>$", the reverse of the direction
 of the 1975 theorem for the function as defined on p. 40 (the 1975
-theorem bounds the forcing threshold from above); the site's commentary
-prints the 1975 bound with "$\le$", which is what the 1975 paper states.
+theorem bounds the forcing threshold from above); the erdosproblems.com
+commentary prints the 1975 bound with "$\le$", which is what the 1975 paper
+states.
 
 **Status-defining source.**
 [[../library/additive_combinatorics/cipollini_2026_sharp_5_8_bound_erdos_sos/theorem_1_1|Theorem 1.1]]
@@ -252,23 +254,24 @@ the bound $\tfrac58N+6\tfrac38$ and the author's note of 30 June says the
 constant was being improved further; arXiv v1 of 28 June
 proves $\tfrac54H+6$ for even $N=2H$ ($\tfrac58N+6$, and $\tfrac58N+\tfrac{53}8$
 for odd $N$ through the embedding), and no later version existed on arXiv on
-2026-09-18. Acceptance evidence: the site's label and commentary (2 July 2026),
-and a confirmation on the thread of 27 June 2026 by Stijn Cambie (the account
-StijnC), a contributor the paper's acknowledgments thank for feedback and
-improvements, who reports reading a previous version in detail and checking the
-crucial points of the revision briefly; no refereed publication, no arXiv
-revision, no citing paper (the arXiv searches of the scope below find none) and
-no written review were found. Provenance, recorded not judged: the manuscript's
-footnote on p. 1 and its acknowledgments declare that the text was written by an
-AI model, GPT-5.5 Pro, from a proof developed by the author together with that
-model and that the Lean formalization was carried out with the prover Aristotle;
-the site's commentary credits Cipollini and GPT Pro; one human author is named.
+2026-09-18. Acceptance evidence: the erdosproblems.com label and commentary (2
+July 2026), and a confirmation on the thread of 27 June 2026 by Stijn Cambie
+(the account StijnC), a contributor the paper's acknowledgments thank for
+feedback and improvements, who reports reading a previous version in detail and
+checking the crucial points of the revision briefly; no refereed publication, no
+arXiv revision, no citing paper (the arXiv searches of the scope below find
+none) and no written review were found. Provenance, recorded not judged: the
+manuscript's footnote on p. 1 and its acknowledgments declare that the text was
+written by an AI model, GPT-5.5 Pro, from a proof developed by the author
+together with that model and that the Lean formalization was carried out with
+the prover Aristotle; the erdosproblems.com commentary credits Cipollini and GPT
+Pro; one human author is named.
 
-**The $k=2$ case and the general conjecture.** The site's folklore fact
+**The $k=2$ case and the general conjecture.** erdosproblems.com's folklore fact
 (any $N+2$ integers in $\{1,\ldots,2N\}$ contain distinct $a,b$ with
 $a+b\in A$) is Erdős's "well known and easy to see" sentence of [Er92c],
 p. 40, with the example $n\le t\le2n$ showing $N+1$ do not suffice; it is
-recorded here as the site's and Erdős's assertion, and the
+recorded here as erdosproblems.com's and Erdős's assertion, and the
 formal-conjectures variant `k2` states it with a `sorry` body. The general
 conjecture (17) of Erdős and Sós, $f_k(N)=\tfrac12(1+\sum_{r=1}^{k-2}4^{-r})N$
 up to lower-order terms, gives $\tfrac58N$ for $k=3$ (now proved up to
@@ -287,11 +290,11 @@ $k\ge4$ the conjecture is open (the formal-conjectures variant `sos` is
 `research open`); the 1972 note's "we suspect that $\varepsilon_3=\tfrac1{24}$"
 is the $k=3$ case now settled.
 
-**Formalization and the Lean label.** The site's Lean suffix is a catalog label.
-The formal-conjectures statement at the pinned commit has a `sorry` body and
-points to two external developments, both described below at the fixed commits
-the attributes name (pinned by the claim page's links); the corpus holds no
-build of either, so neither gives formalized evidence.
+**Formalization and the Lean label.** The erdosproblems.com Lean suffix is a
+catalog label. The formal-conjectures statement at the pinned commit has a
+`sorry` body and points to two external developments, both described below at
+the fixed commits the attributes name (pinned by the claim page's links); the
+corpus holds no build of either, so neither gives formalized evidence.
 
 - `Jayyhk/erdos-lean`, `problems/865/Erdos865.lean` (49,606 bytes, 878
   lines; `import Mathlib`, no other import). It defines
@@ -330,11 +333,11 @@ follows with any $C\ge7$; no bridging declaration or statement-fidelity
 review exists. The community database records `formal_status` Lean and no
 formal-proof URL.
 
-**Search scope.** None of the routes below found a refereed or revised
-version of [Ci26], an independent written review, a dispute of the argument, or
-a second proof of the $5/8$ bound.
+**Search scope (2026-09-18 UTC).** None of the routes below found a refereed or
+revised version of [Ci26], an independent written review, a dispute of the
+argument, or a second proof of the $5/8$ bound.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database on
   2026-09-18; the two Lean developments.
 - arXiv: the API record and abstract page of 2606.29361 (one version; no
@@ -352,14 +355,13 @@ Not searched: MathSciNet, zbMATH, Google Scholar, Semantic Scholar, X. Not
 held: Ruzsa's paper behind (18) (not identified in [Er92c]).
 
 **Remaining gaps.** (1) The status rests on an unrefereed preprint whose
-text and proof were developed with GPT-5.5 Pro, accepted by the site and
-confirmed on the thread by a contributor the paper acknowledges; a
-refereed version or an independent whole-argument review is the reopening
-condition for the qualification. (2) The corpus holds no build of the two
-Lean developments, and their statements are not bridged to the
-collection's. (3) ArXiv v1 differs in its constant
-from the versions the thread describes; no later version is public.
-(4) The general Erdős--Sós conjecture ($k\ge4$) is open; the 1975 bound
+text and proof were developed with GPT-5.5 Pro, accepted by erdosproblems.com
+and confirmed on the thread by a contributor the paper acknowledges; a refereed
+version or an independent whole-argument review is the reopening condition for
+the qualification. (2) The corpus holds no build of the two Lean developments,
+and their statements are not bridged to the collection's. (3) ArXiv v1 differs
+in its constant from the versions the thread describes; no later version is
+public. (4) The general Erdős--Sós conjecture ($k\ge4$) is open; the 1975 bound
 and Ruzsa's are the record.
 <!-- BEGIN problem library links -->
 

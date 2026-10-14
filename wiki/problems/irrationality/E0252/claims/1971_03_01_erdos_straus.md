@@ -67,8 +67,8 @@ Nothing about any $k\ge2$.
 
 **Acceptance.** Refereed: the Pacific Journal of Mathematics, volume 36, issue 3
 (March 1971), pp. 635--646, and volume 55, issue 1 (November 1974), pp. 85--92.
-The Crossref records of the DOIs give these data. The site labeled the problem
-OPEN, so no curator credit is acceptance and no `reviewed` evidence is listed.
-The proofs are not checked here.
+The Crossref records of the DOIs give these data. Bloom's catalog labeled the
+problem OPEN, so no curator credit is acceptance and no `reviewed` evidence is
+listed. The proofs are not checked here.
 
 **Depends on.** Nothing in this wiki.

@@ -25,10 +25,10 @@ needed.
 N. Alon, S. Friedland and G. Kalai, *Every 4-regular graph plus an edge
 contains a 3-regular subgraph*, J. Combin. Theory Ser. B **37** (1984), no. 1,
 92--93, doi:10.1016/0095-8956(84)90048-0 (Crossref record read on 2026-09-18;
-the site's reference text gives "J. Combin. Theory Ser. B (1984), 92-93"). A
-Note, "Communicated by the Managing Editors" and "Received July 25, 1983"; the
-companion paper is the same authors' *Regular subgraphs of almost regular
-graphs*, J. Combin. Theory Ser. B 37 (1984), no. 1, 79--91,
+the erdosproblems.com reference text gives "J. Combin. Theory Ser. B (1984),
+92-93"). A Note, "Communicated by the Managing Editors" and "Received July 25,
+1983"; the companion paper is the same authors' *Regular subgraphs of almost
+regular graphs*, J. Combin. Theory Ser. B 37 (1984), no. 1, 79--91,
 doi:10.1016/0095-8956(84)90047-9 (not held), to which the note's Remark
 refers for "more general graph theoretical results".
 
@@ -83,15 +83,15 @@ Source: <https://web.math.princeton.edu/~nalon/PDFS/publications.html>.
 ## Compiled scope
 
 Both pages were read on the page images. The note prints no statement about
-$r$-regular graphs with $r\ge5$; the site's remark that the theorem gives
-one "in particular" is the site's deduction, recorded on the problem page.
-Nothing here is independently reviewed.
+$r$-regular graphs with $r\ge5$; the erdosproblems.com remark that the theorem
+gives one "in particular" is erdosproblems.com's deduction, recorded on the
+problem page. Nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0715/_index|#715]]: the site's
-[AFK84]. The theorem (p. 92), which allows multiple edges, assumes one edge
-more than the first question's 4-regular graph, so it does not answer that
-question; the Remark (p. 93) attests that the Berge--Sauer conjecture, the
-first question, "has recently been proved [4]" by Tashkinov.
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0715/_index|#715]]:
+erdosproblems.com's [AFK84]. The theorem (p. 92), which allows multiple edges,
+assumes one edge more than the first question's 4-regular graph, so it does not
+answer that question; the Remark (p. 93) attests that the Berge--Sauer
+conjecture, the first question, "has recently been proved [4]" by Tashkinov.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

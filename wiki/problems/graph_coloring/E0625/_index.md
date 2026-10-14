@@ -41,8 +41,8 @@ random-graph meaning:
 the relevant probability tends to one under $G(n,1/2)$ as $n$ runs through
 all integers. A coupling of graphs across different orders is not specified.
 
-**Status.** The site labeled the problem SOLVED from 5 September 2026. That day
-the curator changed it from OPEN and credited Petkov and GPT-5.6 in the
+**Status.** Bloom's catalog labeled the problem SOLVED from 5 September 2026.
+That day the curator changed it from OPEN and credited Petkov and GPT-5.6 in the
 commentary, and the page was last edited then. Two full proof claims are
 recorded, and neither is refereed.
 [[problems/graph_coloring/E0625/claims/2026_07_14_petkov|Petkov's manuscript]]
@@ -51,10 +51,10 @@ an explicit $c\,n/(\log n)^3$ lower bound with probability tending to one along
 all integers. It carries an external kernel-verification record that the corpus
 did not build. It is accepted on the curator's label and credit.
 [[problems/graph_coloring/E0625/claims/2026_09_09_serraj|Serraj's manuscript]]
-(9 September 2026) takes a different route. The site does not credit it, and it
-is pending. The problem therefore stands solved and proved.
+(9 September 2026) takes a different route. erdosproblems.com does not credit
+it, and it is pending. The problem therefore stands solved and proved.
 
-The site's commentary records the known bounds
+The erdosproblems.com commentary records the known bounds
 $n/(2\log_2 n)\le\zeta(G)\le \chi(G)\le(1+o(1))\,n/(2\log_2 n)$. It records the
 results of Heckel and Steiner that the gap is not bounded with high probability,
 Heckel's conjecture that the gap is of order $n/(\log n)^3$, and Heckel's bound
@@ -147,8 +147,8 @@ are filed under the source digest above. This does not establish the seed or
 the whole main-theorem proof and adds no phase-coefficient, status, tier or
 kernel claim. Since the review, this page's frontmatter description was
 reworded and the Current verification paragraph of the main-theorem page was
-revised to record the theorem's acceptance on E625 and the site's label; it
-touches no examined statement, proof, code or input.
+revised to record the theorem's acceptance on E625 and the erdosproblems.com
+label; it touches no examined statement, proof, code or input.
 
 The separate
 [[../library/graph_coloring/petkov_2026_full_sequence_chromatic_cochromatic_gap/lemma_9_2|Lemma 9.2 reconstruction]]
@@ -222,17 +222,18 @@ full-sequence question.
 
 ## Search and proof coverage
 
-Search scope: the primary arXiv records, the authors' and publishers' pages,
-Petkov's manuscript and the pinned public formal records. The
-site labeled the problem SOLVED, a label set on 5 September 2026, the day its
-page was last edited, and credits Petkov's improvement in its commentary; its
-forum carries the two claims recorded above, Petkov's with comments in which the
-curator asked for the Palomar registration and edited that link into the claim,
-a commenter flagged the dead manuscript link, and a moderator replaced it with
-the arXiv link at the claimant's request (the claimant could not edit the
-claim), Serraj's with none. Petkov's arXiv record lists only v1 and no journal
-reference. Petkov's forum entry of July describes the formalization as still in
-progress; the Palomar record of 2 September 2026 postdates it.
+Search scope, 9 September 2026: the primary arXiv records, the authors' and
+publishers' pages, Petkov's manuscript and the pinned public formal records.
+Bloom's catalog labeled the problem SOLVED, a label set on 5 September 2026, the
+day its page was last edited, and credits Petkov's improvement in its
+commentary; its forum carries the two claims recorded above, Petkov's with
+comments in which the curator asked for the Palomar registration and edited that
+link into the claim, a commenter flagged the dead manuscript link, and a
+moderator replaced it with the arXiv link at the claimant's request (the
+claimant could not edit the claim), Serraj's with none. Petkov's arXiv record
+lists only v1 and no journal reference. Petkov's forum entry of July describes
+the formalization as still in progress; the Palomar record of 2 September 2026
+postdates it.
 
 The community database (teorth/erdosproblems) lists the problem as solved and
 unformalized; the curator changed its state from open to solved on 5 September

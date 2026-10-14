@@ -68,8 +68,9 @@ None.
 
 - [[../wiki/problems/ramsey_theory/E0080/_index|Problem 80]]: $f(n;c)$ is this
   problem's $f_c(n)$, read as the largest guaranteed number, and the quoted
-  question is its pair of "in particular" questions (the site's key [Er87]).
-  The paper reports Alon's upper bound and Szemerédi's $f(n;c)\to\infty$.
+  question is its pair of "in particular" questions (the erdosproblems.com key
+  [Er87]). The paper reports Alon's upper bound and Szemerédi's
+  $f(n;c)\to\infty$.
 - [[../wiki/problems/extremal_graph_theory/E0600/_index|Problem 600]]: $e(n,r)$
   is this problem's function and the closing two guesses are its two
   questions. The paper reports the Ruzsa--Szemerédi bounds on $e(n;2)$ and

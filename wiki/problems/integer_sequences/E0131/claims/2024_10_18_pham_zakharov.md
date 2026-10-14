@@ -37,7 +37,7 @@ non-averaging $A\subseteq[n]$ has $|A|\le n^{1/4+o(1)}$. Hence
 $F(N)\le N^{1/4+o(1)}$, which contradicts $F(N)>N^{1/2-o(1)}$ for all large
 $N$: the displayed question of
 [[problems/integer_sequences/E0131/_index|Problem 131]] is answered no. The
-paper does not mention the problem; the inclusion is the site's
+paper does not mention the problem; the inclusion is erdosproblems.com's
 observation, checked in one line on the problem page. H. T. Pham and
 D. Zakharov, *Sharp bound for the Erdős--Straus non-averaging set problem*,
 arXiv:2410.14624 (v1 18 October 2024, the date this page is named by; v2 10
@@ -54,16 +54,16 @@ construction and is not part of this claim.
 
 **Covers.** The displayed question only: $F(N)>N^{1/2-o(1)}$ is false, and
 $F(N)\le N^{1/4+o(1)}$. Not covered: the estimate of $F(N)$, to which
-the site's label attaches, open between the $N^{1/5}$ construction and this
-bound; the pending full claim on it is
+the erdosproblems.com label attaches, open between the $N^{1/5}$ construction
+and this bound; the pending full claim on it is
 [[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]].
 
 **Acceptance.** Refereed: the journal publication cited above (Geometric and
-Functional Analysis, December 2025). The site's curator, Thomas Bloom, records
-the inclusion, the bound and the negative answer to the displayed question in
-the commentary (page last edited 30 September 2025, accessed 2026-09-18 and
-2026-10-07). The site labeled the problem OPEN, however, so the commentary is
-not acceptance and the claim lists no `reviewed` evidence. Nothing here is this
-project's own review beyond the one-line inclusion.
+Functional Analysis, December 2025). The erdosproblems.com curator, Thomas
+Bloom, records the inclusion, the bound and the negative answer to the displayed
+question in the commentary (page last edited 30 September 2025, accessed
+2026-09-18 and 2026-10-07). Bloom's catalog labeled the problem OPEN, however,
+so the commentary is not acceptance and the claim lists no `reviewed` evidence.
+Nothing here is this project's own review beyond the one-line inclusion.
 
 **Depends on.** No page of this wiki.

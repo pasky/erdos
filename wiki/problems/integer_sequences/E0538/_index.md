@@ -39,17 +39,17 @@ $$
 \sum_{n\in A}\frac{1}{n}.
 $$
 
-**Notes.** The site's "best possible upper bound" does not say whether the
-bound is wanted up to a constant factor or with its constant. The site cites
-[Er73] as its only source. Erdős's 1973 wording is the same hypothesis for a
-sequence $a_1<\cdots<a_k\le n$, with the conclusion (4.5),
+**Notes.** erdosproblems.com's "best possible upper bound" does not say whether
+the bound is wanted up to a constant factor or with its constant.
+erdosproblems.com cites [Er73] as its only source. Erdős's 1973 wording is the
+same hypothesis for a sequence $a_1<\cdots<a_k\le n$, with the conclusion (4.5),
 $\sum_{a_i\le n}1/a_i<c_1r\log n/\log\log n$ with an unspecified constant
 $c_1$, and the sentence "I do not know whether (4.5) can be improved"
 (printed p. 124). A bound with an unspecified constant is improved only by
 improving its order, so the source asks whether the order $\log n/\log\log n$
 for fixed $r$ is best possible; the change adds that reading, "for fixed $r$
 and up to a constant factor depending only on $r$". The formal-conjectures
-file reads the site's wording as the asymptotic size of the largest
+file reads the erdosproblems.com wording as the asymptotic size of the largest
 reciprocal sum over admissible sets, constant included (its main statement
 asks for a function to which that largest sum is asymptotically
 equivalent), and its maintainers judge the matching order
@@ -61,26 +61,26 @@ size with its constant, which the formal-conjectures file asks for, is a
 stronger variant that no claim answers, and the dependence of the bound on
 $r$ is a further question.
 
-**Formulation.** The site's wording of 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (the page shows no
 last-edited date). A solution of $m=pa$ is a pair $(p,a)$ with $p$ prime and
 $a\in A$; the hypothesis bounds, for every $m$, the number of such pairs by
 $r$. For $r=2$ the hypothesis is the one Ruzsa's construction satisfies on
 Problem 537.
 
-**Status.** The site labeled the problem OPEN (the page shows no last-edited
-date). The derived standing is claimed, answered. It departs from the site's
-OPEN only by counting a pending full claim, following the claimant's own scope
-label on the tab. It is not a judgment on the argument, which no outside review
-has accepted, and it becomes solved only if the claim is accepted. The full
-proof claim, of 15 July 2026 on the site's tab, is by Colin Snyder with the AI
-system GPT 5.6. It asserts that the order $\log N/\log\log N$ is sharp for every
-fixed $r$, with a matching construction and a Lean development. The claim is
-recorded on
+**Status.** Bloom's catalog labeled the problem OPEN (the page shows no
+last-edited date). The derived standing is claimed, answered. It departs from
+erdosproblems.com's OPEN only by counting a pending full claim, following the
+claimant's own scope label on the tab. It is not a judgment on the argument,
+which no outside review has accepted, and it becomes solved only if the claim is
+accepted. The full proof claim, of 15 July 2026 on the erdosproblems.com tab, is
+by Colin Snyder with the AI system GPT 5.6. It asserts that the order
+$\log N/\log\log N$ is sharp for every fixed $r$, with a matching construction
+and a Lean development. The claim is recorded on
 [[problems/integer_sequences/E0538/claims/2026_07_15_snyder|its claim page]],
-pending and not accepted by the site. The formal-conjectures file records the
-same matching-order statement as a solved variant pointing at that development.
-Its docstring says that this fixes the order but not the best possible upper
-bound the site asks for.
+pending and not accepted by erdosproblems.com. The formal-conjectures file
+records the same matching-order statement as a solved variant pointing at that
+development. Its docstring says that this fixes the order but not the best
+possible upper bound erdosproblems.com asks for.
 
 The bound in hand is Erdős's display (4.5) of 1973:
 $\sum_{a_i\le n}1/a_i<c_1r\log n/\log\log n$. It comes from a double count of
@@ -91,11 +91,11 @@ is a bounded negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/538](https://www.erdosproblems.com/538),
 accessed 2026-09-18: the problem page (OPEN, with
-the site's note that no finite computation can settle it; no last-edited
-date shown; source key [Er73]; commentary citing Problems 536 and 537), its
-empty discussion thread and its proof-claim tab with one full-proof claim
-(15 July 2026; the tab unchanged on 2026-10-06). Cite as: T. F. Bloom, Erdős
-Problem #538, https://www.erdosproblems.com/538, accessed 2026-09-18.
+the erdosproblems.com note that no finite computation can settle it; no
+last-edited date shown; source key [Er73]; commentary citing Problems 536 and
+537), its empty discussion thread and its proof-claim tab with one full-proof
+claim (15 July 2026; the tab unchanged on 2026-10-06). Cite as: T. F. Bloom,
+Erdős Problem #538, https://www.erdosproblems.com/538, accessed 2026-09-18.
 
 **References.**
 
@@ -133,12 +133,12 @@ its docstring says this "pins the order (up to the one iterated-logarithm
 factor) but not the best possible upper bound asked for". The community database
 (fetched 2026-09-18) records the problem open (record last updated 31 August
 2025), the statement formalized since 7 August 2026 and no formal proof. The
-site's page marks the statement as formalized. Nothing was built.
+erdosproblems.com page marks the statement as formalized. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above;
-OPEN; no last-edited date. The commentary, in this page's words, records
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN; no last-edited date. The commentary, in this page's words, records
 Erdős's double count: the product of $\sum_{n\in A}1/n$ with
 $\sum_{p\le N}1/p$ is at most $r$ times the harmonic sum to $N^2$, hence
 $\ll r\log N$, which gives $\sum_{n\in A}1/n\ll r\log N/\log\log N$; it
@@ -204,14 +204,14 @@ tag was found. If the construction is right, the extremal reciprocal sum has
 order $\log N/\log\log N$ for every fixed $r$, and the question, read as
 its source reads it (the modified Statement), is answered; the constant that the
 formal-conjectures statement asks for and the dependence on $r$ stay open;
-the site's label and commentary do not record it, and the claim's thread
-held no comments on 2026-10-06.
+the erdosproblems.com label and commentary do not record it, and the claim's
+thread held no comments on 2026-10-06.
 
 **Search scope.** None of the routes below found a
 published improvement of (4.5), a published lower construction, or an
 acceptance of the 2026 claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file at the pinned commit; the community database
   record.
 - GitHub API: the pinned revision of the external repository (its date)

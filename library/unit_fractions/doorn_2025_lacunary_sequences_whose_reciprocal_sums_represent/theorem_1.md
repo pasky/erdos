@@ -56,9 +56,9 @@ Part (a) answers the question of Problem 355 in the affirmative, with a
 strictly increasing sequence with $n_{i+1}/n_i\ge\lambda>1$ for all $i$ whose
 finite reciprocal sums contain every rational in the open interval $(0,2)$;
 it thereby disproves the conjecture of Bleicher and Erdős that the question
-came from (quoted on p. 1). Part (c) is the site's "though not $\lambda=2$".
-The paper notes (p. 2) that the proof of (a) and (b) is more or less
-constructive and even gives a sequence with $n_{i+1}/n_i=2$ for infinitely
+came from (quoted on p. 1). Part (c) is erdosproblems.com's "though not
+$\lambda=2$". The paper notes (p. 2) that the proof of (a) and (b) is more or
+less constructive and even gives a sequence with $n_{i+1}/n_i=2$ for infinitely
 many $i$, and works out the first steps of an explicit example with
 $\lambda=3/2$ after the proof (pp. 11--12).
 

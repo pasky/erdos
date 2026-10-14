@@ -87,7 +87,7 @@ and nothing here is independently reviewed. The paper concerns the walk on
 $\mathbb Z$; it proves nothing about the planar walk of the problem.
 
 **Bears on.** [[../wiki/problems/analysis/E1165/_index|#1165]], as the one-dimensional
-result to which the site attributes the bound for $r\ge4$; the planar
+result to which erdosproblems.com attributes the bound for $r\ge4$; the planar
 answer compiled on that page is
 [[analysis/hao_2024_favorite_sites_simple_random_walk_two/theorem_1_1|Hao, Li, Okada and Zheng, Theorem 1.1]].
 

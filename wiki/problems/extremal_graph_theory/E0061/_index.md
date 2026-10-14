@@ -25,10 +25,10 @@ updated: 2026-10-07T21:38:27Z
 $G$ on $n$ vertices that does not contain $H$ as an induced subgraph contains
 either a complete graph or independent set on $\geq n^c$ vertices?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 10 April
-2026). The frontmatter standing is derived from the seven claim pages under
-`claims/`, all partial. None settles the question for every $H$, so the standing
-is open.
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 10
+April 2026). The frontmatter standing is derived from the seven claim pages
+under `claims/`, all partial. None settles the question for every $H$, so the
+standing is open.
 
 Six of the claims are accepted on refereed publications. Erdős and Hajnal cover
 every $H$ on at most four vertices
@@ -70,10 +70,10 @@ https://www.erdosproblems.com/61.
   (1989), 37-52.
 - [NSS24] Nguyen, Tung and Scott, Alex and Seymour, Paul, On a problem of
   El-Zahar and Erdős. J. Combin. Theory Ser. B 165 (2024), 211-222. The
-  site's commentary credits the bound $2^{(\log n)^{1-o(1)}}$ for every path
-  $H$ under this key, and the site's reference record resolves the key to
-  this paper, which does not contain that bound: it concerns the
-  El-Zahar–Erdős problem
+  erdosproblems.com commentary credits the bound $2^{(\log n)^{1-o(1)}}$ for
+  every path $H$ under this key, and the erdosproblems.com reference record
+  resolves the key to this paper, which does not contain that bound: it concerns
+  the El-Zahar–Erdős problem
   ([[problems/extremal_graph_theory/E1111/_index|Problem 1111]]) and does not
   mention the Erdős–Hajnal conjecture. The result the commentary describes is
   Tung Nguyen, Alex Scott and Paul Seymour, *Induced subgraph density. V. All
@@ -99,10 +99,10 @@ $\exp(c_H\sqrt{\log n\log\log n})$ [BNSS23], and for every path $H$ the
 bound $2^{(\log n)^{1-o(1)}}$ of Nguyen, Scott and Seymour's fifth paper (the
 key collision is noted under **References.**).
 
-The site cites Nguyen's PhD thesis (*Induced Subgraph Density*, Princeton
-University, May 2025) as a detailed account with proofs of some special
-cases, and the thread's post of 8 December 2025 lists its contents. Two of
-them settle instances and are on claim pages, the five-vertex path (the
+erdosproblems.com cites Nguyen's PhD thesis (*Induced Subgraph Density*,
+Princeton University, May 2025) as a detailed account with proofs of some
+special cases, and the thread's post of 8 December 2025 lists its contents. Two
+of them settle instances and are on claim pages, the five-vertex path (the
 seventh paper) and the infinitely many prime graphs (the fourth paper, which
 links the thesis record); the others, the conjecture for graphs of bounded
 VC-dimension, for a hole and an antihole excluded together and for an induced

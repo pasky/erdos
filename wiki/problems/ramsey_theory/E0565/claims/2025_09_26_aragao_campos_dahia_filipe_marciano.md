@@ -4,8 +4,8 @@ title: Aragão, Campos, Dahia, Filipe and Marciano, induced Ramsey numbers are a
 desc: |
   Theorem 1.1 of the 2025 preprint of Aragão, Campos, Dahia, Filipe and Marciano
   gives an absolute constant $C$ with $R^*(G)\le2^{Cn}$ for every graph $G$ on
-  $n$ vertices, so the answer is yes. It is unrefereed, accepted by the site and
-  attested in Morris's ICM 2026 text.
+  $n$ vertices, so the answer is yes. It is unrefereed, accepted by
+  erdosproblems.com and attested in Morris's ICM 2026 text.
 authors:
 - L. Aragão
 - M. Campos
@@ -58,10 +58,10 @@ $2^{O(k(\log k)^2)}$ (Kohayakawa, Prömel and Rödl 1998; an explicit Paley
 host by Fox and Sudakov 2008) and $2^{O(k\log k)}$ (Conlon, Fox and
 Sudakov 2012) are history recorded on the problem page, not claims on it.
 
-**Acceptance.** Reviewed: the site's curator, T. F. Bloom, labeled the problem
-PROVED and credits the proof to this paper in the problem's commentary (page
-last edited 18 January 2026, accessed 2026-09-17). The discussion thread and
-proof-claim tab are empty.
+**Acceptance.** Reviewed: the erdosproblems.com curator, T. F. Bloom, labeled
+the problem PROVED and credits the proof to this paper in the problem's
+commentary (page last edited 18 January 2026, accessed 2026-09-17). The
+discussion thread and proof-claim tab are empty.
 
 As context, not acceptance: Morris's plenary lecture text, Some recent results
 in Ramsey theory, Proceedings of the International Congress of Mathematicians

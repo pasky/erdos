@@ -34,8 +34,8 @@ Hajnal on Topological Complete Subgraphs*, Europ. J. Combinatorics **19**
 10.1006/eujc.1997.0188 is not printed), "Received 15 March 1997 and accepted
 9 September 1997"; the authors at the Department of Pure Mathematics and
 Mathematical Statistics, Cambridge (p. 887). The printed title spells Erdős
-with a diaeresis. Cited as [BT98] on the problem page; the site's key for
-the authors' proof, BoTh96, is their 1996 Combinatorica paper *Highly linked
+with a diaeresis. Cited as [BT98] on the problem page; the erdosproblems.com key
+for the authors' proof, BoTh96, is their 1996 Combinatorica paper *Highly linked
 graphs*, this paper's reference [3]. Its fifteen references (p. 887)
 include the conjecture's two sources, Mader, Homomorphieeigenschaften und
 mittlere Kantendichte von Graphen, Math. Annalen 174 (1967), 265--268 ([11])
@@ -211,19 +211,19 @@ graph of size $256p^2|G|$. Then $G$ contains a topological subgraph of order
 $p$", with $p=r$ and in the abstract's form "of size at least $256p^2|G|$"
 (p. 883), states the problem's assertion with $C=256$: every graph on $n$
 vertices with at least $256r^2n$ edges contains a subdivision of $K_r$. This paper is Bollobás and Thomason's own proof
-paper, but not one of the two papers the site names: the site credits their
-proof to its key BoTh96, their *Highly linked graphs*. The abstract (p. 883)
-states the theorem with "at least" and names it the proof of "a conjecture
-made by Mader and by Erdös and Hajnal", the conjecture the problem records
-as Erdős, Hajnal and Mader's; the introduction (p. 883) records the lower
-bounds $c>1/16$ (Jung) and $c>1/8$ (Ajtai, Komlós and Szemerédi) on any
+paper, but not one of the two papers erdosproblems.com names: erdosproblems.com
+credits their proof to its key BoTh96, their *Highly linked graphs*. The
+abstract (p. 883) states the theorem with "at least" and names it the proof of
+"a conjecture made by Mader and by Erdös and Hajnal", the conjecture the problem
+records as Erdős, Hajnal and Mader's; the introduction (p. 883) records the
+lower bounds $c>1/16$ (Jung) and $c>1/8$ (Ajtai, Komlós and Szemerédi) on any
 such constant, Mader's earlier $f(p)=3\cdot2^{p-3}-p$ and the Komlós and
 Szemerédi bound $c_\eta p^2(\log p)^\eta$, and says Komlós and Szemerédi's
 alternative proof [9] was completed "very shortly after we had written this
 paper"; the closing paragraph (p. 886) names the authors' 1996 paper *Highly
-linked graphs* ([3], the site's key BoTh96) as the home of the stronger
-$22k|G|$ linkage result that implies the conjecture with a smaller constant.
-This is the theorem that
+linked graphs* ([3], the erdosproblems.com key BoTh96) as the home of the
+stronger $22k|G|$ linkage result that implies the conjecture with a smaller
+constant. This is the theorem that
 [[extremal_graph_theory/fox_2013_chromatic_number_clique_subdivisions_conjectures_hajos/theorem_3_1|Fox, Lee and Sudakov quote as Theorem 3.1]]
 with "at least $256t^2n$ edges", the abstract's form. This card reads the
 theorem on the page image and its proof at filing depth; nothing is

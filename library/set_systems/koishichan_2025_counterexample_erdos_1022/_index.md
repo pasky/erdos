@@ -2,7 +2,7 @@
 name: set_systems/koishichan_2025_counterexample_erdos_1022
 desc: |
   Gives a direct two-level hypergraph construction that refutes Problem 1022
-  and was accepted in the site's discussion.
+  and was accepted in the erdosproblems.com discussion.
 license: unstated
 created: 2026-09-05T02:03:12Z
 updated: 2026-10-08T03:52:54Z
@@ -34,9 +34,9 @@ to infinity.
 This forum result meets the repository's acceptance rule. Terence Tao replied
 that the argument was essentially correct and corrected its numerical
 conclusion to $c_t\leq2$ for this construction. Thomas Bloom then stated that
-Bloom would mark the problem solved. The site's problem commentary subsequently
-incorporated the counterexample and also cited Wood's earlier published
-construction.
+Bloom would mark the problem solved. The erdosproblems.com problem commentary
+subsequently incorporated the counterexample and also cited Wood's earlier
+published construction.
 
 **Source.**
 [[set_systems/koishichan_2025_counterexample_erdos_1022/koishichan_2025_counterexample_erdos_1022|Forum source record]].

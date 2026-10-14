@@ -5,7 +5,7 @@ desc: |
   Alon, Krivelevich and Sudakov prove that every graph with chromatic number $m$
   has a subgraph of cochromatic number at least $(1/4+o(1))\,m/\log_2 m$, tight
   up to the constant. It was refereed in J. Graph Theory and is credited by the
-  site's curator.
+  erdosproblems.com curator.
 authors:
 - Noga Alon
 - Michael Krivelevich
@@ -58,26 +58,26 @@ large cochromatic number with positive probability.
 a large cochromatic number, J. Graph Theory 25 (1997), no. 4, 295–297, as the
 publisher's record gives it. The paper's own printed header reads volume 26. The
 issue is dated August 1997, and this page carries the first of that month
-because the day is not recorded. Reviewed: the site's curator, Thomas Bloom,
-marked Problem 760 proved on the problem page and credits the theorem [AKS97].
-The community database records the problem as proved, with a Lean proof, from
-2026-04-23.
+because the day is not recorded. Reviewed: the erdosproblems.com curator, Thomas
+Bloom, marked Problem 760 proved on the problem page and credits the theorem
+[AKS97]. The community database records the problem as proved, with a Lean
+proof, from 2026-04-23.
 
 **Formalizations.** One Lean 4 development, posted by Matteo Del Vecchio,
 declares itself a formalization of this result; its original posting and two
-later variants are linked above. Del Vecchio posted it on the site's
+later variants are linked above. Del Vecchio posted it on the erdosproblems.com
 discussion thread on 2026-04-23, a proof generated with Harmonic's Aristotle
 following the paper and assuming, as the paper does, that graphs are finite
 and simple; the thread then led the curator to replace "empty graph" by
-"independent set" in the site's statement, with no change of meaning. The
-posted gist closes one step with `native_decide`, so its proof rests on the
+"independent set" in the erdosproblems.com statement, with no change of meaning.
+The posted gist closes one step with `native_decide`, so its proof rests on the
 compiler axioms. The variant in the erdos-lean catalog closes that step with
-`decide` instead, a change announced in a post on the site's thread of
-2026-06-02 that links the catalog's folder for the problem; the variant in
+`decide` instead, a change announced in a post on the erdosproblems.com thread
+of 2026-06-02 that links the catalog's folder for the problem; the variant in
 Boris Alexeev's lean-proofs collection, marked as modified from the posting,
 closes it with a lemma. The statement file of
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/760.lean),
 as last changed on 2026-09-18, marks the problem solved and points its formal
 proof at the lean-proofs variant, which names the three authors as the
-informal authors. The site's Lean qualifier refers to these. The corpus did
-not build any of them, so this page lists no `formalized` evidence.
+informal authors. The erdosproblems.com Lean qualifier refers to these. The
+corpus did not build any of them, so this page lists no `formalized` evidence.

@@ -30,15 +30,15 @@ $$
 \sum_i f(u_i)^2 \ll_\epsilon n^{3+\epsilon}.
 $$
 
-**Status.** Proved. The site's export of 2026-09-04 records the label "PROVED
-(LEAN)". The proof is Guth and Katz's bound $\sum_i f(u_i)^2\ll n^3\log n$,
-recorded on
+**Status.** Proved. The erdosproblems.com export of 2026-09-04 records the label
+"PROVED (LEAN)". The proof is Guth and Katz's bound
+$\sum_i f(u_i)^2\ll n^3\log n$, recorded on
 [[problems/distance_problems/E0095/claims/2010_11_17_guth_katz|its claim page]].
 The Lean qualification refers to a development in Boris Alexeev's repository
-that this corpus has neither built nor audited (see Formalization). The site
-attributes the convex case to Altman, but that attribution has no claim page,
-since Altman's paper prints no statement about the sum (see the claim page and
-the card below). The convex case is
+that this corpus has neither built nor audited (see Formalization).
+erdosproblems.com attributes the convex case to Altman, but that attribution has
+no claim page, since Altman's paper prints no statement about the sum (see the
+claim page and the card below). The convex case is
 [[problems/distance_problems/E0094/_index|Problem 94]].
 
 **Source.** [erdosproblems.com/95](https://www.erdosproblems.com/95), accessed
@@ -52,9 +52,9 @@ https://www.erdosproblems.com/95.
   [[../library/distance_problems/altman_1963_problem_p_erdos/_index|altman_1963_problem_p_erdos]].
   Its printed statements concern the number of distinct
   distances of a convex polygon, at least $\lfloor n/2\rfloor$ (the Theorem,
-  p. 149); it prints no statement about $\sum_i f(u_i)^2$, so the site's
-  convex-polygon attribution to it is recorded on its card as an
-  observation.
+  p. 149); it prints no statement about $\sum_i f(u_i)^2$, so
+  erdosproblems.com's convex-polygon attribution to it is recorded on its card
+  as an observation.
 - [GuKa15] Guth, Larry and Katz, Nets Hawk, On the Erdős distinct distances
   problem in the plane. Ann. of Math. (2) (2015), 155-190.
 

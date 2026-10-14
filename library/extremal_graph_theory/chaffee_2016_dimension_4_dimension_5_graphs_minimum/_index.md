@@ -36,8 +36,8 @@ K_{1,3,3}, which has fifteen edges, has unit-distance dimension 5.
 ***
 
 Chaffee, Joe and Noble, Matt, Dimension 4 and dimension 5 graphs with minimum
-edge set. Australas. J. Combin. 64 (2016), no. 2, 327--333. The site's
-reference key ChNo16.
+edge set. Australas. J. Combin. 64 (2016), no. 2, 327--333. The
+erdosproblems.com reference key ChNo16.
 
 **Edition.** The copy read for this card is the journal's typeset article:
 seven pages headed "AUSTRALASIAN JOURNAL
@@ -142,12 +142,12 @@ prints no proof of these values other than Lenz's construction for
 $\dim K_{m,n}\le4$ (p. 119), and the monotonicity of Lemma 4 is not on
 those two pages.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1007/_index|#1007]]: the site's
-key ChNo16 and the refereed source for the site's answer: Theorem 6
-gives the minimum nine, Lemma 3 with $|E(K_{3,3})|=9$ the witness, Theorem 7
-the uniqueness of $K_{3,3}$ (the site's "achieved solely by $K_{3,3}$"),
-and the introduction attests House's 2013 first proof (the site's key
-Ho13, filed as
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1007/_index|#1007]]: the
+erdosproblems.com key ChNo16 and the refereed source for erdosproblems.com's
+answer: Theorem 6 gives the minimum nine, Lemma 3 with $|E(K_{3,3})|=9$ the
+witness, Theorem 7 the uniqueness of $K_{3,3}$ (erdosproblems.com's "achieved
+solely by $K_{3,3}$"), and the introduction attests House's 2013 first proof
+(the erdosproblems.com key Ho13, filed as
 [[extremal_graph_theory/house_2013_4_dimensional_graph_has_at_least_9_edges/_index|house_2013_4_dimensional_graph_has_at_least_9_edges]],
 its main result on printed pp. 1783 and 1789, read on the text layer and
 paged on
@@ -155,10 +155,11 @@ paged on
 [[extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/theorem_10|Theorem 10]]
 and [[extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/theorem_11|Theorem 11]],
 with [[extremal_graph_theory/chaffee_2016_dimension_4_dimension_5_graphs_minimum/theorem_8|Theorem 8]]
-for $\dim(K_{1,3,3})=5$, are the site's dimension-5 sentence (fifteen edges;
-$K_6$ and $K_{1,3,3}$), context beside the problem, which asks about
-dimension 4. The definition of dimension is the
-site's (embedded with every edge a unit segment, non-edges unconstrained).
+for $\dim(K_{1,3,3})=5$, are erdosproblems.com's dimension-5 sentence (fifteen
+edges; $K_6$ and $K_{1,3,3}$), context beside the problem, which asks about
+dimension 4. The definition of dimension is
+erdosproblems.com's (embedded with every edge a unit segment, non-edges
+unconstrained).
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

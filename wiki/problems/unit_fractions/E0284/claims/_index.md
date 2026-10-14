@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 284, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T08:47:56Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/unit_fractions/E0284/claims
@@ -13,6 +13,6 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/unit_fractions/E0284/claims/1999_04_30_croot|1999_04_30_croot]]: Croot's Main Theorem gives, for every $N$, a representation of $1$ by distinct
 unit fractions with denominators in $(N,(e+o(1))N]$, so $f(k)=(1+o(1))k/(e-1)$
-for infinitely many $k$. The site credits it as solving the problem.
+for infinitely many $k$. erdosproblems.com credits it as solving the problem.
 
 ***

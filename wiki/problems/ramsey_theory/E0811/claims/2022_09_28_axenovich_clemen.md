@@ -67,6 +67,6 @@ the claim.
 theorems, with Theorem 1.2 resting on Peluse's cited theorem.
 
 **Acceptance.** Refereed: Journal of Graph Theory, volume 106 (2024), no. 1,
-57--66. The site's commentary credits the paper with infinitely many graphs
-lacking the property, but the site labeled the problem OPEN, so no
+57--66. The erdosproblems.com commentary credits the paper with infinitely many
+graphs lacking the property, but Bloom's catalog labeled the problem OPEN, so no
 `reviewed` evidence is listed.

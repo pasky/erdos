@@ -28,8 +28,8 @@ Przemyslaw Chojecki, A note on the n^{1-epsilon} version of an Erdos problem.
 preprint (ulam.ai) (2026). No notice is printed in the file (pp. 1--3); the
 publisher's research page, which does not list the note, carries only the site
 footer "© 2017-2026 ULAM" and states no license or terms of use
-(https://www.ulam.ai/research, read 2026-10-02), the site operator being the
-note's publisher, every other right reserved.
+(https://www.ulam.ai/research, read 2026-10-02), erdosproblems.com operator
+being the note's publisher, every other right reserved.
 
 Erdos, Hajnal and Szemeredi asked for an uncountably chromatic graph G of size
 aleph_1 with f^1_G(n) growing linearly, where f^1_G(n) is the least independence

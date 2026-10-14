@@ -24,15 +24,15 @@ updated: 2026-10-13T12:25:21Z
 set $E\subset \mathbb{R}$ of positive measure which does not contain any set of
 the shape $aA+b$ for some $a,b\in\mathbb{R}$ and $a\neq 0$?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 23 January
-2026). The derived standing is open. None of the claims below touches the
-general question, and the one claim of the full conjecture, by
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 23
+January 2026). The derived standing is open. None of the claims below touches
+the general question, and the one claim of the full conjecture, by
 [[problems/analysis/E0120/claims/2020_01_08_cruz_lai_pramanik|Cruz, Lai and Pramanik in 2020]],
 was withdrawn by its authors.
 
-The site's commentary names the dyadic sequence $\{1,1/2,1/4,\ldots\}$ as an
-open special case. That case is settled by an accepted partial claim of the
-OpenAI mathematics release,
+The erdosproblems.com commentary names the dyadic sequence
+$\{1,1/2,1/4,\ldots\}$ as an open special case. That case is settled by an
+accepted partial claim of the OpenAI mathematics release,
 [[problems/analysis/E0120/claims/2026_09_25_openai|the dyadic case]]. This
 corpus's verification built and audited its Lean declaration. Four pending
 partial claims assert further special cases. One is the release's
@@ -87,16 +87,16 @@ geometric progression of another ratio.
 
 ## Current assessment
 
-**The question (site formulation accessed 2026-09-04; page last edited 23
-January 2026).** The statement above, the Erdős similarity conjecture: for
-every infinite $A\subseteq\mathbb{R}$ a set of positive measure containing no
-nontrivial affine copy $aA+b$, $a\ne0$. The site's commentary reduces the
-question: a set that is unbounded or dense in some interval is avoided, so it
-is enough to treat a strictly decreasing sequence tending to $0$; no finite
-set is avoided (the site credits Steinhaus [St20], whose 1920 paper proves the
-distance-set theorem, Theoreme VIII, p. 99, covering two-point sets), so the
-hypothesis that $A$ is infinite is needed; the conjecture holds in many
-special cases, and the commentary names the dyadic sequence
+**The question (erdosproblems.com formulation accessed 2026-09-04; page last
+edited 23 January 2026).** The statement above, the Erdős similarity conjecture:
+for every infinite $A\subseteq\mathbb{R}$ a set of positive measure containing
+no nontrivial affine copy $aA+b$, $a\ne0$. The erdosproblems.com commentary
+reduces the question: a set that is unbounded or dense in some interval is
+avoided, so it is enough to treat a strictly decreasing sequence tending to $0$;
+no finite set is avoided (erdosproblems.com credits Steinhaus [St20], whose 1920
+paper proves the distance-set theorem, Theoreme VIII, p. 99, covering two-point
+sets), so the hypothesis that $A$ is infinite is needed; the conjecture holds in
+many special cases, and the commentary names the dyadic sequence
 $\{1,1/2,1/4,\ldots\}$ as an open one, Problem 94 on Green's list, pointing
 to the surveys of Svetic [Sv00] and of Jung, Lai and Mooroogen [JLM24] for
 the known cases. The label was OPEN, the tab of proof claims is empty, and the
@@ -143,7 +143,7 @@ Both claim pages rest on the arXiv record and abstract, and both stay claimed.
 **The release's claims.** Two manuscripts of the OpenAI mathematics release
 claim the geometric cases. [OAI26a] proves, for every $\eta\in(0,1)$, a compact
 $E\subseteq[0,1]$ of measure above $1-\eta$ containing no $x+s\{2^{-n}\}$ with
-$s\ne0$ of either sign, the dyadic case the site names as open;
+$s\ne0$ of either sign, the dyadic case erdosproblems.com names as open;
 [[problems/analysis/E0120/claims/2026_09_25_openai|its claim page]] is accepted
 as partial on the comparator theorem `OAI.Problem310.dyadic_affine_avoidance`,
 which this corpus's verification built at the pinned revision, checked for its
@@ -201,9 +201,9 @@ whose dissection ratios tend to $0$, which have Hausdorff dimension zero; the
 Rajchman-measure claim above reaches those of them that support such a
 measure.
 
-**Search scope.** The site's problem page and proof-claims tab, the release's
-two manuscripts, family Lean page and comparator file (linked at the pinned
-revision from the claim pages), the library cards named above, and the
+**Search scope.** The erdosproblems.com problem page and proof-claims tab, the
+release's two manuscripts, family Lean page and comparator file (linked at the
+pinned revision from the claim pages), the library cards named above, and the
 bibliographies of the two release manuscripts, from which the 2026 preprints in
 Known results come. A later search of arXiv's new mathematics listings found
 Jiang and Xi's preprint. No other literature search was made; the refereed

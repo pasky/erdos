@@ -107,7 +107,7 @@ Propositions 1.4 and 1.7, not this one.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0792/_index|Problem 792]]: the bound
-  $f(n)\ge(n+2)/3$ the site attributes to Bourgain, for sets of $n\ge3$
+  $f(n)\ge(n+2)/3$ erdosproblems.com attributes to Bourgain, for sets of $n\ge3$
   positive integers; the step after
   [[additive_combinatorics/alon_1990_sum_free_subsets/proposition_1_1|Alon and Kleitman's $(n+1)/3$]]
   and before

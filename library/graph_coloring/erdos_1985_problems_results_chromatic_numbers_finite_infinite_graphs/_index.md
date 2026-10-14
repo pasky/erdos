@@ -22,11 +22,11 @@ order and that great difficulties appeared for 4-chromatic subgraphs.
 P. Erdős, *Problems and results on chromatic numbers in finite and infinite
 graphs*, Graph theory with applications to algorithms and computer science
 (Kalamazoo, Mich., 1984), Wiley-Interscience, Wiley, New York (1985),
-201--213; MR 87f:05068 (MR 812666 per the site's reference text).
-The site's reference key Er85b (its reference text read on 2026-09-18). The
-paper's first two sentences (p. 201): "During my long life I wrote many papers
-of similar title. To avoid repetitions and to shorten the paper I will discuss
-almost entirely recent problems and will not give proofs."
+201--213; MR 87f:05068 (MR 812666 per the erdosproblems.com reference text).
+The erdosproblems.com reference key Er85b (its reference text read on
+2026-09-18). The paper's first two sentences (p. 201): "During my long life I
+wrote many papers of similar title. To avoid repetitions and to shorten the
+paper I will discuss almost entirely recent problems and will not give proofs."
 
 **Edition read.** The copy read for this card
 is the Rényi archive's scan `1985-26.pdf`: 13 pages, an image scan of the
@@ -74,11 +74,11 @@ there is no proof to check.
 All thirteen pages were read on the page images; the El-Zahar passage (p.
 206) alone is compiled, and nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E1111/_index|#1111]]: the site's
-second source key; the restatement on p. 206 with the letters $k$ (the
-chromatic number of the two subgraphs) and $\ell$ (the excluded clique
-order), the report that the case $k=3$ is proved for every $\ell$, and the
-remark that "great difficulties appeared for $k=4$"; paged at
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E1111/_index|#1111]]:
+erdosproblems.com's second source key; the restatement on p. 206 with the
+letters $k$ (the chromatic number of the two subgraphs) and $\ell$ (the excluded
+clique order), the report that the case $k=3$ is proved for every $\ell$, and
+the remark that "great difficulties appeared for $k=4$"; paged at
 [[graph_coloring/erdos_1985_problems_results_chromatic_numbers_finite_infinite_graphs/problem_p206|problem_p206]].
 
 No file of this source is held: no license on record permits its redistribution,

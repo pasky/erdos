@@ -48,7 +48,8 @@ title page, posted on ResearchGate (2026), identified on the
 [[unit_fractions/wang_2026_667_806_upper_bound_erdos_problem/_index|source card]]:
 Proposition 1 and its table on p. 3, the set (3) on p. 3, and the
 verification script in Appendix A (pp. 6--9). An unrefereed manuscript,
-which the site's Problem 301 discussion thread describes as AI-generated.
+which erdosproblems.com's Problem 301 discussion thread describes as
+AI-generated.
 
 **Read depth.** Claims checked: the statement and every row of the table
 were read on the page image, and the values above agree with the script's

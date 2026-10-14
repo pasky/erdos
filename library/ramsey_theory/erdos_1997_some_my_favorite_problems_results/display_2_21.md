@@ -41,8 +41,9 @@ conjecture, so I suppose that (2.21) would actually cost me \$15000!"
 
 The first display writes "$d(n)$" where the surrounding text writes $d_n$;
 recorded as printed. The conjecture "for every $c$ and infinitely many $n$"
-is the statement of Problem 4, which carries a site prize; this chapter
-prints a lower offer for it and moves the site's prize to (2.21).
+is the statement of Problem 4, which carries an erdosproblems.com prize; this
+chapter prints a lower offer for it and moves the erdosproblems.com prize to
+(2.21).
 
 **Source.** P. Erdős, *Some of My Favorite Problems and Results*, The
 Mathematics of Paul Erdős I (1997), 47--67; printed p. 58 (PDF p. 73 of
@@ -69,4 +70,4 @@ None stated.
 - [[../wiki/problems/primes/E0004/_index|Problem 4]]: the origin wording of the statement,
   "for every $c$ and infinitely many $n$", with Erdős's 1934 bound and
   Rankin's factor as the history; the offer printed here is lower, the
-  site's prize being attached here to the stronger (2.21).
+  erdosproblems.com prize being attached here to the stronger (2.21).

@@ -158,7 +158,7 @@ The Erdős–Révész questions appear as
 and
 [[number_theory/various_1999_some_pauls_favorite_problems/problem_6_78|Problem 6.78]]
 in *Some of Paul's favorite problems*, the July 1999 conference booklet
-compiled from various contributors, cited as [Va99] on the problem site.
+compiled from various contributors, cited as [Va99] on erdosproblems.com.
 The paper (p. 2) traces the favorite-count question to Erdős and Révész
 (1984) and (1987), its references [14] and [15].
 
@@ -169,9 +169,9 @@ $\limsup_{n\to\infty}|K^{(d)}(n)|/\log\log n=-1/\log\gamma_d$, where $\gamma_d$ 
 escape probability. It refines the earlier Erdős–Révész result that every
 fixed favorite count occurs infinitely often in those dimensions.
 The one-dimensional results of Tóth (2001) and Ding–Shen (2018) concern a
-different dimension. In particular, the E1165 site snapshot's attribution
-of the planar upper bound to Tóth is not supported by Tóth's paper; both
-planar bounds are supplied by the present Theorem 1.1.
+different dimension. In particular, the E1165 erdosproblems.com snapshot's
+attribution of the planar upper bound to Tóth is not supported by Tóth's paper;
+both planar bounds are supplied by the present Theorem 1.1.
 
 The planar proof measures time by maximum-local-time levels. The
 [[analysis/hao_2024_favorite_sites_simple_random_walk_two/record_levels|record-level identities]]

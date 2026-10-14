@@ -60,7 +60,7 @@ theta > 0.
 
 Le Veque, W. J., On uniform distribution modulo a subdivision. Pacific J. of
 Math. 3 (1953), no. 4, 757-771 (DOI 10.2140/pjm.1953.3.757; received
-December 3, 1952). The site's key LV53 for Problem 492.
+December 3, 1952). The erdosproblems.com key LV53 for Problem 492.
 
 The copy read for this card
 is the publisher's file (Mathematical Sciences Publishers), nineteen PDF
@@ -98,15 +98,15 @@ the sequence {k theta} is uniformly distributed mod Delta for almost all theta >
 Theorems 5 and 6 transfer these results through increasing changes of scale f
 (in Theorem 5, f need not be differentiable at the subdivision points), and
 with f the exponential function (the Corollary on {alpha^k}, p. 770) the
-conditions become conditions on log z_n - log z_{n-1}. This is the paper the
-site cites when it calls problem 492 LeVeque's; it does not pose the problem's
-question in print, and its two results for the
-multiples $\{k\theta\}$ are the special cases the site credits to him:
-for every $\theta>0$ when the interval lengths increase to infinity with
-$z_{n-1}\sim z_n$ (the Section 4 opening sentence, from Theorem 2 and the
-variation of Theorem 3), and for almost all $\theta>0$ when they decrease
-to zero like $O(1/x)$ (Theorem 4). The second case cannot arise for the
-integer sequences of problem 492, whose interval lengths are at least $1$.
+conditions become conditions on log z_n - log z_{n-1}. This is the paper
+erdosproblems.com cites when it calls problem 492 LeVeque's; it does not pose
+the problem's question in print, and its two results for the multiples
+$\{k\theta\}$ are the special cases erdosproblems.com credits to him: for every
+$\theta>0$ when the interval lengths increase to infinity with $z_{n-1}\sim z_n$
+(the Section 4 opening sentence, from Theorem 2 and the variation of Theorem 3),
+and for almost all $\theta>0$ when they decrease to zero like $O(1/x)$ (Theorem
+4). The second case cannot arise for the integer sequences of problem 492, whose
+interval lengths are at least $1$.
 
 Source: <https://msp.org/pjm/1953/3-4/p07.xhtml>.
 
@@ -118,8 +118,8 @@ modulo a subdivision, the problem's notion for $A=\{z_n\}$;
 necessary, which for $\{k\theta\}$ reads $z_{n+1}\sim z_n$ (an authored
 deduction); the opening of Section
 4 and Theorem 4 (printed p. 763, PDF p. 8, page image) are the special
-cases the site credits to LeVeque, uniform distribution of $\{k\theta\}$
-for every $\theta>0$ when $z_n-z_{n-1}\nearrow\infty$ with
+cases erdosproblems.com credits to LeVeque, uniform distribution of
+$\{k\theta\}$ for every $\theta>0$ when $z_n-z_{n-1}\nearrow\infty$ with
 $z_{n-1}\sim z_n$, and for almost all $\theta>0$ when
 $\delta(x)\searrow0$ with $\delta(x)=O(x^{-1})$
 ([[number_theory/leveque_1953_uniform_distribution_modulo_subdivision/theorem_4|theorem_4]]), the first derived in print from

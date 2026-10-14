@@ -24,11 +24,11 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Are there any triples of consecutive positive integers all of
 which are powerful (i.e. if $p\mid n$ then $p^2\mid n$)?
 
-**Status.** Verifiable, the site's label. It means open, but settled by a finite
-example if one exists. The page was last edited 13 April 2026, and the problem
-page and discussion thread were read 2026-10-07. No claim settles the question,
-and the frontmatter standing is derived from the claim pages. The site's
-proof-claims tab carried one partial proof claim: Sayim's
+**Status.** Verifiable, the erdosproblems.com label. It means open, but settled
+by a finite example if one exists. The page was last edited 13 April 2026, and
+the problem page and discussion thread were read 2026-10-07. No claim settles
+the question, and the frontmatter standing is derived from the claim pages. The
+erdosproblems.com proof-claims tab carried one partial proof claim: Sayim's
 exclusion of the two mixed shapes for the neighbors of a cube. It is recorded as
 pending on
 [[problems/diophantine_problems/E0364/claims/2026_06_12_sayim|its claim page]].
@@ -58,21 +58,22 @@ tagged open and carries no formal proof.
 
 ## Current assessment
 
-The standing judges the site's formulation of 2026-09-04 above: whether three
-consecutive positive integers can all be powerful, the conjecture of Erdős,
-Mollin and Walsh that none can. The question is open. It is verifiable in the
-site's sense, since a single triple would settle it, and no finite computation
-can prove the conjecture; this page records that as a note, not as a claim.
-Pairs of consecutive powerful numbers are infinite, as Mahler answered Erdős
-from the Pell equation $x^2=8y^2+1$, and no four consecutive integers are all
-powerful, since one of them is $2$ modulo $4$. Erdős [Er76d] expected the answer
-to be no and, more strongly, that the $k$th powerful number $n_k$ satisfies
-$n_{k+2}-n_k>n_k^c$ for some constant $c>0$; the abc conjecture implies that
-only finitely many triples exist. By the site's commentary, the OEIS sequence
-A076445 shows that no triple starts below $7.38\times10^{28}$. The known partial
-results concern triples centered at a cube $x^3$ whose outer members are a prime
-power times a square or a cube. Two are accepted partial claims, refereed in
-Integers: Chan [Ch25] excludes the shape $x^3\mp1=p^3\cdot\square$ on both sides
+The standing judges the erdosproblems.com formulation of 2026-09-04 above:
+whether three consecutive positive integers can all be powerful, the conjecture
+of Erdős, Mollin and Walsh that none can. The question is open. It is verifiable
+in erdosproblems.com's sense, since a single triple would settle it, and no
+finite computation can prove the conjecture; this page records that as a note,
+not as a claim. Pairs of consecutive powerful numbers are infinite, as Mahler
+answered Erdős from the Pell equation $x^2=8y^2+1$, and no four consecutive
+integers are all powerful, since one of them is $2$ modulo $4$. Erdős [Er76d]
+expected the answer to be no and, more strongly, that the $k$th powerful number
+$n_k$ satisfies $n_{k+2}-n_k>n_k^c$ for some constant $c>0$; the abc conjecture
+implies that only finitely many triples exist. By the erdosproblems.com
+commentary, the OEIS sequence A076445 shows that no triple starts below
+$7.38\times10^{28}$. The known partial results concern triples centered at a
+cube $x^3$ whose outer members are a prime power times a square or a cube. Two
+are accepted partial claims, refereed in Integers: Chan [Ch25] excludes the
+shape $x^3\mp1=p^3\cdot\square$ on both sides
 ([[problems/diophantine_problems/E0364/claims/2025_01_17_chan|claim page]],
 [[../library/diophantine_problems/chan_2025_note_three_consecutive_powerful_numbers/_index|card]]),
 and She [Sh25] excludes $x^3\mp1=p^2\cdot\text{cube}$ on both sides
@@ -93,10 +94,10 @@ Among them, no triple has a middle below $1.83\times10^{18}$, which is weaker
 than the OEIS bound, and the number of consecutive pairs has a lower bound.
 These settle no instance, so the volume has no claim page.
 
-Search scope: the site's problem page and discussion thread, read 2026-10-07,
-its proof-claims tab, the Zenodo records of Sayim's preprint and volume, and
-the arXiv record of Ma's preprint. Nothing on this page is independently
-reviewed.
+Search scope: the erdosproblems.com problem page and discussion thread, read
+2026-10-07, its proof-claims tab, the Zenodo records of Sayim's preprint and
+volume, and the arXiv record of Ma's preprint. Nothing on this page is
+independently reviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

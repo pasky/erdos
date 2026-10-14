@@ -217,8 +217,8 @@ printed argument. Nothing here is independently reviewed.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1
 (printed p. 104, PDF p. 2), "If $G$ has maximum degree $\Delta$
 sufficiently large, then $s\chi'(G)\le1.998\Delta^2$", is the bound
-$\mathrm{sq}(G)\le1.998\Delta^2$ for $\Delta$ sufficiently large that the
-site credits to Molloy and Reed, the first step of the
+$\mathrm{sq}(G)\le1.998\Delta^2$ for $\Delta$ sufficiently large that
+erdosproblems.com credits to Molloy and Reed, the first step of the
 chain $1.998$, $1.93$, $1.835$, $1.772$ of upper bounds on
 $\mathrm{sq}(G)$ for large $\Delta$, and the paper's own p. 104 puts it in
 the form $(2-\varepsilon)\Delta^2$ "with $\varepsilon=0.002$", answering

@@ -28,11 +28,11 @@ $$
 
 for some prime $p$ and integer $a\geq 1$ and $0\leq b<p$?
 
-**Status.** Open. The site's label was OPEN (page last edited 2026-04-07,
-proof-claims tab accessed 2026-10-06). The tab carries one full proof claim,
-submitted 2026-07-25 by Rafik Zeraoulia with a write-up on Zenodo. The claim's
-own summary describes the work as partial progress and not a proof. So it is
-recorded as withdrawn below a proof on
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited
+2026-04-07, proof-claims tab accessed 2026-10-06). The tab carries one full
+proof claim, submitted 2026-07-25 by Rafik Zeraoulia with a write-up on Zenodo.
+The claim's own summary describes the work as partial progress and not a proof.
+So it is recorded as withdrawn below a proof on
 [[problems/diophantine_problems/E0676/claims/2026_07_25_zeraoulia|its claim page]],
 and the standing takes nothing from it.
 
@@ -53,23 +53,23 @@ https://www.erdosproblems.com/676.
 
 ## Current assessment
 
-Site formulation (last edit 2026-04-07; problem page accessed 2026-09-04,
-proof-claims tab 2026-10-06): is every sufficiently large integer of the form
-$ap^2+b$ with $p$ prime, $a\ge1$ and $0\le b<p$? The question was open on the
-site, and no claim page settles any part of it.
+erdosproblems.com formulation (last edit 2026-04-07; problem page accessed
+2026-09-04, proof-claims tab 2026-10-06): is every sufficiently large integer of
+the form $ap^2+b$ with $p$ prime, $a\ge1$ and $0\le b<p$? The question was open
+on erdosproblems.com, and no claim page settles any part of it.
 
-The best known progress is the sieve bound that Erdős [Er79] and the site
-record. The sieve of Eratosthenes shows that almost all integers have the
-form, and the Brun-Selberg sieve bounds the number of exceptions up to $x$ by
-$\ll x/(\log x)^c$ for some $c>0$. Erdős thought it unlikely that every large
-integer has the form. In [Er79d] he suggested that the least $c_n$ with
-$n=ap^2+b$, $0\le b<c_np$, $p\le\sqrt n$, is unbounded.
+The best known progress is the sieve bound that Erdős [Er79] and the
+erdosproblems.com record. The sieve of Eratosthenes shows that almost all
+integers have the form, and the Brun-Selberg sieve bounds the number of
+exceptions up to $x$ by $\ll x/(\log x)^c$ for some $c>0$. Erdős thought it
+unlikely that every large integer has the form. In [Er79d] he suggested that the
+least $c_n$ with $n=ap^2+b$, $0\le b<c_np$, $p\le\sqrt n$, is unbounded.
 
 Two manuscripts by Rafik Zeraoulia are on record. A 2025 preprint, on
 [[problems/diophantine_problems/E0676/claims/2025_09_19_zeraoulia|its claim page]],
 claims under an unproved uniformity hypothesis that only finitely many
-integers are exceptions, and the site's thread disputes it. The 2026 posting,
-on
+integers are exceptions, and the erdosproblems.com thread disputes it. The 2026
+posting, on
 [[problems/diophantine_problems/E0676/claims/2026_07_25_zeraoulia|its claim page]],
 is a write-up that reformulates the condition as $n\bmod p^2<p$, proves a
 density criterion for pairwise coprime moduli and a correlation inequality for
@@ -78,9 +78,10 @@ which is of the form for no prime $p$; the claimant states that the original
 question remains open. A finite list of exceptions decides nothing about all
 sufficiently large integers.
 
-The only status search on record is the site record itself, its forum
-thread included (problem page accessed 2026-09-04, proof-claims tab
-2026-10-06); the literature beyond the site's three references is unassessed.
+The only status search on record is the erdosproblems.com record itself, its
+forum thread included (problem page accessed 2026-09-04, proof-claims tab
+2026-10-06); the literature beyond erdosproblems.com's three references is
+unassessed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

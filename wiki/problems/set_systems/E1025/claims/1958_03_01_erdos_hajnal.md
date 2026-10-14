@@ -43,8 +43,8 @@ $k=2$ and $l=1$ the mapping sends each pair to one point outside it and a
 free set is an independent set as [[problems/set_systems/E1025/_index|Problem
 1025]] defines it, so $g(n)=p(n,1,2)$ and the theorem gives
 $n^{1/3}\ll g(n)\ll(n\log n)^{1/2}$. The paper asks for the exact order of
-$p(m,l,k)$ as its Problem 4, which is the question the site poses for $g(n)$.
-The paper is carded at
+$p(m,l,k)$ as its Problem 4, which is the question Bloom's catalog poses for
+$g(n)$. The paper is carded at
 [[../library/set_theory/erdos_1958_structure_set_mappings/_index|On the structure of set-mappings]].
 
 **Covers.** The two bounds $g(n)\gg n^{1/3}$ and $g(n)\ll(n\log n)^{1/2}$,
@@ -60,6 +60,6 @@ $g(n)\ll n^{1/2}$. The theorem does not determine the order of $g(n)$.
 **Acceptance.** Refereed: P. Erdős and A. Hajnal, On the structure of
 set-mappings, Acta Math. Acad. Sci. Hungar. 9 (1958), no. 1–2, 111–131. The
 record dates the issue to March 1958 and gives no day, so the page is dated to
-the first day of that month. The site's label SOLVED (LEAN) rests on Spencer and
-on Conlon, Fox and Sudakov, so no `reviewed` is listed for these bounds. Nothing
-here rests on this project's own review.
+the first day of that month. The erdosproblems.com label SOLVED (LEAN) rests on
+Spencer and on Conlon, Fox and Sudakov, so no `reviewed` is listed for these
+bounds. Nothing here rests on this project's own review.

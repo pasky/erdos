@@ -52,8 +52,8 @@ page]].
 **Acceptance.** The venue is the Discrete Mathematics issue that carries the
 papers of the Cambridge 1988 conference, a proceedings volume. No evidence that
 its papers were refereed is on record, so no `refereed` evidence is listed. The
-site's label settles the problem on Shelah's proof, so its commentary crediting
-this theorem is not `reviewed` evidence. Erdős's 1993 survey
+erdosproblems.com label settles the problem on Shelah's proof, so its commentary
+crediting this theorem is not `reviewed` evidence. Erdős's 1993 survey
 ([[../library/extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|card]],
 Chapter V, problem 14) also credits the result to Erdős and Hajnal. The proof is
 not checked here.

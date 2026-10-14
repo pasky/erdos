@@ -48,11 +48,11 @@ asymptotic $e^{-\binom k2}(n!)^k$ of
 and [[problems/set_systems/E0725/claims/1951_01_01_yamamoto|Yamamoto]], and
 beyond it the extra factors are no longer asymptotically $1$. The result was
 announced in Bull. Amer. Math. Soc. (N.S.) **10** (1984), no. 1, 91–92,
-linked above. The site's commentary does not name the paper; a comment on
-the site's discussion thread of 2026-04-24 asks for it to be added and
-states the formula with its range. The paper is not held in this corpus, and
-the account above follows the paper's abstract and introduction, the 1984
-announcement and the thread's statement of the theorem.
+linked above. The erdosproblems.com commentary does not name the paper; a
+comment on the erdosproblems.com discussion thread of 2026-04-24 asks for it to
+be added and states the formula with its range. The paper is not held in this
+corpus, and the account above follows the paper's abstract and introduction, the
+1984 announcement and the thread's statement of the theorem.
 
 **Covers.** The asymptotic count for every $k=o(n^{6/7})$. It says nothing
 about larger $k$, so [[problems/set_systems/E0725/_index|Problem 725]],
@@ -63,7 +63,7 @@ claims the same formula for every $k=o(n)$.
 **Acceptance.** Refereed: C. D. Godsil and B. D. McKay, Asymptotic enumeration
 of Latin rectangles, J. Combin. Theory Ser. B **48** (1990), no. 1, 19–44. The
 page is dated by the result's first posting, the announcement in the January
-1984 issue of Bull. Amer. Math. Soc. (N.S.). The site's curator does not credit
-the result, and the site labeled the problem OPEN, so the page lists no
-`reviewed` evidence. The proof has not been reconstructed or independently
-reviewed in this corpus.
+1984 issue of Bull. Amer. Math. Soc. (N.S.). The erdosproblems.com curator does
+not credit the result, and Bloom's catalog labeled the problem OPEN, so the page
+lists no `reviewed` evidence. The proof has not been reconstructed or
+independently reviewed in this corpus.

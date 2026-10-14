@@ -34,6 +34,6 @@ the page image. A question, nothing to prove.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0518/_index|Problem 518]]: the problem's origin, in
-  the words the site paraphrases; answered for all $n>20^{40}$ by
+  the words erdosproblems.com paraphrases; answered for all $n>20^{40}$ by
   [[ramsey_theory/pokrovskiy_2024_proof_conjecture_erdos_gyarfas_monochromatic_path/theorem_1_3|Theorem 1.3]]
   of Pokrovskiy, Versteegen and Williams.

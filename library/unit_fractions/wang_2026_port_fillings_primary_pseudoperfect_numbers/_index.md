@@ -35,9 +35,9 @@ The retained
 arXiv:2605.21518v1 (18 May 2026; the paper is dated May 2026), 23 pages, the
 only arXiv version on 2026-09-18. No journal record exists (arXiv listing and a
 Crossref title query, 2026-09-18); the paper is an unrefereed preprint,
-announced by its author in the site's discussion thread for Problem 313 on 16
-May 2026 as "a partial result toward the problem, not a solution of the
-infinitude question". The paper carries no statement about assistance in its
+announced by its author in the erdosproblems.com discussion thread for Problem
+313 on 16 May 2026 as "a partial result toward the problem, not a solution of
+the infinitude question". The paper carries no statement about assistance in its
 preparation. Its text layer is clean, and the statements below were checked in
 it against the PDF pages. The arXiv record (https://arxiv.org/abs/2605.21518,
 read 2026-10-02) names the Creative Commons Attribution 4.0 license.

@@ -24,17 +24,17 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Does there exist a graph $G$ which contains no $K_4$, and yet any
 $2$-colouring of the edges produces a monochromatic $K_3$?
 
-**Status.** The site labeled the problem PROVED (LEAN). The suffix refers to a
-third-party Lean proof of the problem's statement, which is the case $k_1=k_2=3$
-of Folkman's theorem. That proof is described under Formalization, and this
-corpus has not built it. Folkman's 1970 theorem supplies the required graph, and
-this classical existence theorem is sufficient. The quantitative problem of
-finding the least possible order remains open. The claim page
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). The suffix refers
+to a third-party Lean proof of the problem's statement, which is the case
+$k_1=k_2=3$ of Folkman's theorem. That proof is described under Formalization,
+and this corpus has not built it. Folkman's 1970 theorem supplies the required
+graph, and this classical existence theorem is sufficient. The quantitative
+problem of finding the least possible order remains open. The claim page
 [[problems/ramsey_theory/E0582/claims/1970_01_01_folkman|Folkman 1970]] records
-the refereed theorem, its specialization to the question, the site's acceptance
-and the Lean proof as a formalization link. The later refereed upper bounds on
-the least order each prove the existence the problem asks for, and each has its
-own claim page:
+the refereed theorem, its specialization to the question, erdosproblems.com's
+acceptance and the Lean proof as a formalization link. The later refereed upper
+bounds on the least order each prove the existence the problem asks for, and
+each has its own claim page:
 [[problems/ramsey_theory/E0582/claims/1986_12_01_frankl_rodl|Frankl and Rödl 1986]],
 [[problems/ramsey_theory/E0582/claims/1988_11_01_spencer|Spencer 1988]],
 [[problems/ramsey_theory/E0582/claims/2008_01_22_lu|Lu 2008]],
@@ -43,8 +43,8 @@ and
 [[problems/ramsey_theory/E0582/claims/2012_07_16_lange_radziszowski_xu|Lange, Radziszowski and Xu]].
 The frontmatter standing derives from these claim pages. The lower bounds of
 Radziszowski and Xu and of Bikov and Nenov settle nothing about existence and
-have no claim page. The site lists a prize without saying which offer it
-records. The offers the sources describe all concern the least order
+have no claim page. erdosproblems.com lists a prize without saying which offer
+it records. The offers the sources describe all concern the least order
 $F_e(3,3;4)$, not existence. Erdős's 1975 offer was for deciding whether fewer
 than $10^{10}$ vertices suffice, and Spencer [Sp88] met it. Erdős's later offer
 was for fewer than $10^6$ vertices, which Lu claims with $9697$. Graham's 2012
@@ -75,16 +75,16 @@ https://www.erdosproblems.com/582.
   Use of MAX-CUT for Ramsey arrowing of triangles. J. Combin. Math. Combin.
   Comput. 88 (2014), 61-71.
 - [Lu07] Lu, Linyuan, Explicit construction of small Folkman graphs. SIAM J.
-  Discrete Math. 21(4) (2008), 1053-1060. The catalogue's [Lu07] label is
+  Discrete Math. 21(4) (2008), 1053-1060. erdosproblems.com's [Lu07] label is
   retained; the journal publication year is 2008.
 - [RaXu07] Radziszowski, Stanisław P. and Xu, Xiaodong, On the most wanted
   Folkman graph. Geombinatorics 16 (2007), 367-381.
 - [Sp88] Spencer, Joel, Three hundred million points suffice. J. Combin. Theory
   Ser. A (1988), 210-217.
 
-**Formalization.** The site links a
+**Formalization.** erdosproblems.com links a
 [formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/96119ca3cc8c0955d9ad81e313e973162909a86e/FormalConjectures/ErdosProblems/582.lean)
-and labeled the problem PROVED (LEAN). That statement file (main as of
+and labeled the problem PROVED (LEAN). That statement file (main on
 2026-10-07, the link pinned to that revision) declares `erdos_582` under
 `category research solved` as `answer(True)` if and only if there is a
 finite simple graph `G` with `G.CliqueFree 4` every two-coloring of whose
@@ -92,8 +92,8 @@ edges has a monochromatic triangle, with proof `sorry`, and carries a
 `formal_proof` attribute naming `src/v4.29.1/ErdosProblems/Erdos582.lean` in
 Boris Alexeev's repository `lean-proofs` at the commit pinned by the
 formalization link on the Folkman claim page, the proof that a comment of 6
-February 2026 in the site's thread announced. The file has 2,603 lines, is
-headed `leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports `Mathlib`,
+February 2026 in the erdosproblems.com thread announced. The file has 2,603
+lines, is headed `leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports `Mathlib`,
 declares itself a formalization of a solution to the problem with Folkman as
 informal author and Aristotle and Boris Alexeev as formal authors, and
 proves `erdos_582`: a finite simple graph with clique number $3$ every
@@ -171,7 +171,7 @@ reprove either endpoint.
 
 ## Search and proof coverage
 
-Search scope: exact-parameter searches for $F_e(3,3;4)$, the
+Search scope, 2026-09-09 UTC: exact-parameter searches for $F_e(3,3;4)$, the
 Erdős Problems search and discussion pages, the arXiv records for the
 Bikov--Nenov and Hassan et al. papers, and public author and source pages.
 They corroborated Folkman's classical existence result and the sources'

@@ -29,14 +29,14 @@ Are there infinitely many integers which are not the sum of at most $r$ many
 $r$-powerful numbers? Does the set of integers which are the sum of at most $r$
 $r$-powerful numbers have density $0$?
 
-**Status.** Open. The site's label was OPEN, and the page was last edited on
-2025-11-03. The site's remarks record that Baker and Brüdern [BaBr94] first
-proved the density-zero statement at $r=2$. They also record that at $r=3$ the
-statement is unknown even for sums of three cubes. Finally, they record that
-Heath-Brown [He88] proves every large integer is a sum of at most three
-$2$-powerful numbers
+**Status.** Open. The erdosproblems.com label was OPEN, and the page was last
+edited on 2025-11-03. The erdosproblems.com remarks record that Baker and
+Brüdern [BaBr94] first proved the density-zero statement at $r=2$. They also
+record that at $r=3$ the statement is unknown even for sums of three cubes.
+Finally, they record that Heath-Brown [He88] proves every large integer is a sum
+of at most three $2$-powerful numbers
 ([[problems/diophantine_problems/E0941/_index|Problem 941]]). On 2026-10-06 the
-site's proof-claims tab carried one partial claim, filed 2026-09-06.
+erdosproblems.com proof-claims tab carried one partial claim, filed 2026-09-06.
 
 **Source.** [erdosproblems.com/940](https://www.erdosproblems.com/940), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #940,
@@ -76,20 +76,20 @@ sieve), that the sums of three nonnegative cubes have positive lower
 density, so at $r=3$ the sums of at most three $3$-powerful numbers would
 not have density $0$; it is recorded as a conditional claim on
 [[problems/diophantine_problems/E0940/claims/2021_08_07_wang|its claim page]]
-and settles nothing unconditionally. Beyond the site record (accessed
-2026-09-04), the site's proof-claims tab (accessed 2026-10-06) and the sources
-cited, no status search is recorded on this page.
+and settles nothing unconditionally. Beyond the erdosproblems.com record
+(accessed 2026-09-04), the erdosproblems.com proof-claims tab (accessed
+2026-10-06) and the sources cited, no status search is recorded on this page.
 
-On 2026-10-06 the site's proof-claims tab carried one partial proof
+On 2026-10-06 the erdosproblems.com proof-claims tab carried one partial proof
 claim, submitted 2026-09-06 by Basile Beyer de Ryke with a copy of the
 manuscript above, which the claimant describes as settling the infinitude
 question at $r=3$ and nothing else; it is the same result as the arXiv
 posting and is recorded, with both postings, as a pending (`claimed`) partial
 claim on
 [[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|its claim page]].
-The site's label was OPEN (page last edited 2025-11-03), and on 2026-10-06 the
-claim had no comments. It does not settle the problem as stated: the
-density question is open for every $r$ and the infinitude question for every
+The erdosproblems.com label was OPEN (page last edited 2025-11-03), and on
+2026-10-06 the claim had no comments. It does not settle the problem as stated:
+the density question is open for every $r$ and the infinitude question for every
 $r\ge4$.
 
 ## Known Results

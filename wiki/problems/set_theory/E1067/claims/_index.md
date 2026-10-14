@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 1067, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/set_theory/E1067/claims
@@ -17,8 +17,8 @@ negative answer is consistent. Soukup's ZFC counterexample supersedes it.
 
 [[problems/set_theory/E1067/claims/2014_09_09_soukup|2014_09_09_soukup]]: Soukup builds, with no extra axioms, a graph of chromatic number $\aleph_1$ in
 which no uncountable set of vertices is infinitely connected, so the problem's
-question has a negative answer. The paper was refereed in 2015, and the site
-credits it.
+question has a negative answer. The paper was refereed in 2015, and
+erdosproblems.com credits it.
 
 [[problems/set_theory/E1067/claims/2024_02_08_bowler_pitz|2024_02_08_bowler_pitz]]: Bowler and Pitz give a short construction of a graph of chromatic number
 $\aleph_1$ in which every uncountable set of vertices has two vertices joined

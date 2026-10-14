@@ -58,21 +58,21 @@ Graham, Old and new problems and results in combinatorial number theory: van der
 Waerden's theorem and related topics, L'Enseignement Math. (2) 25 (1979),
 325–344, printed p. 339). The
 [[../library/additive_combinatorics/erdos_1979_old_new_problems_results_combinatorial_number/_index|survey's card]]
-holds no file and records this passage in its Bears-on paragraph. The site's
-curator, Thomas Bloom, also labeled the problem disproved on erdosproblems.com
-and credits Baumgartner with showing that the answer is no. The source card's
-own reconstruction and reported review warrant nothing. The acceptance rests on
-the publication and on these two outside records.
+holds no file and records this passage in its Bears-on paragraph. The
+erdosproblems.com curator, Thomas Bloom, also labeled the problem disproved on
+erdosproblems.com and credits Baumgartner with showing that the answer is no.
+The source card's own reconstruction and reported review warrant nothing. The
+acceptance rests on the publication and on these two outside records.
 
-**Formalization.** The site's label carried a Lean mark. It refers to a Lean 4
-formalization of Baumgartner's paper, except its closing remark on the
-fixed-length strengthening, which the forum user JoshuaB posted in the site's
-discussion thread on 2026-02-25 (the time the site displays), written by the
-prover Aristotle over four runs and hand-edited only to clear warnings,
-replace tactic suggestions and drop unused lemmas, with a link to type-check
-it online against Mathlib. The development defines a Baumgartner set
-as a subset of $\mathbb R$ with no three-term arithmetic progression that
-meets every infinite arithmetic progression, proves
+**Formalization.** The erdosproblems.com label carried a Lean mark. It refers to
+a Lean 4 formalization of Baumgartner's paper, except its closing remark on the
+fixed-length strengthening, which the forum user JoshuaB posted in the
+erdosproblems.com discussion thread on 2026-02-25 (the time erdosproblems.com
+displays), written by the prover Aristotle over four runs and hand-edited only
+to clear warnings, replace tactic suggestions and drop unused lemmas, with a
+link to type-check it online against Mathlib. The development defines a
+Baumgartner set as a subset of $\mathbb R$ with no three-term arithmetic
+progression that meets every infinite arithmetic progression, proves
 `exists_baumgartner_set_real`, and derives `disproof_of_conjecture`, the
 negation of the statement that the complement of every
 three-term-progression-free subset of $\mathbb R$ contains an infinite

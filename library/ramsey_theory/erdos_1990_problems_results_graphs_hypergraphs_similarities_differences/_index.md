@@ -2,7 +2,7 @@
 name: ramsey_theory/erdos_1990_problems_results_graphs_hypergraphs_similarities_differences
 desc: |
   Erdős's 1990 survey of extremal and Ramsey-type problems on graphs against
-  hypergraphs: the site's source for the two-color density threshold
+  hypergraphs: the erdosproblems.com source for the two-color density threshold
   F(n, alpha), which it recalls from an earlier paper of Erdős, and a printed
   source of his prize offers on diagonal and off-diagonal Ramsey numbers.
 license: reserved
@@ -23,7 +23,7 @@ and his request (30) for an asymptotic formula in the graph case.
 P. Erdős, *Problems and results on graphs and hypergraphs: similarities and
 differences*. In: J. Nešetřil and V. Rödl (eds.), *Mathematics of Ramsey
 Theory*, Algorithms and Combinatorics 5, Springer, Berlin (1990), 12--28. The
-site's key Er90b.
+erdosproblems.com key Er90b.
 
 **Copy read.** The copy read for this card is the chapter alone: seventeen
 pages extracted from an image-only scan of the whole volume. Provenance: the
@@ -126,8 +126,8 @@ Section 3, Ramsey's theorem (pp. 17--22):
   Erdős--Hajnal--Rado conjecture; the question whether $F_2^{(r)}(n,\alpha)$
   changes continuously or in jumps as $\alpha$ increases from $0$ to $1/2$,
   the guess "the jump occurs all in one step at 0", and "\$500 to anybody who
-  can clear up this mystery" (p. 22). This is the site's Problem 161, linked
-  below.
+  can clear up this mystery" (p. 22). This is erdosproblems.com's Problem 161,
+  linked below.
 - P. 22: the old result that a two-class split of the triples of an $n$-set
   has sets $A,B$ with $|A|=|B|=c(\log n)^{1/2}$ such that all triples
   $(x,y,z)$, $x,y\in A$, $z\in B$ are in one class, with the open question
@@ -146,26 +146,27 @@ no proofs. The bounds quoted on pp. 17--18 are Erdős's summaries of other
 authors' results and are not verified here against those papers.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0563/_index|#563]] (p. 21, PDF p. 10:
-displays (29) and (30) with the definition of $F_k^{(r)}(n,\alpha)$; the
-site cites [Er90b, p. 21]); [[../wiki/problems/ramsey_theory/E0077/_index|#77]] (pp. 17--18,
-PDF pp. 6--7: display (12) and the prize offers for the existence
-and value of $\lim F_2(k,k)^{1/k}$); [[../wiki/problems/ramsey_theory/E0165/_index|#165]]
-(p. 18, PDF p. 7: display (13) and the wish for an asymptotic formula for
-$F(3,k)$, with a prize offered for it together with (14));
+displays (29) and (30) with the definition of $F_k^{(r)}(n,\alpha)$;
+erdosproblems.com cites [Er90b, p. 21]);
+[[../wiki/problems/ramsey_theory/E0077/_index|#77]] (pp. 17--18, PDF pp. 6--7:
+display (12) and the prize offers for the existence and value of
+$\lim F_2(k,k)^{1/k}$); [[../wiki/problems/ramsey_theory/E0165/_index|#165]] (p.
+18, PDF p. 7: display (13) and the wish for an asymptotic formula for $F(3,k)$,
+with a prize offered for it together with (14));
 [[../wiki/problems/ramsey_theory/E0166/_index|#166]] (p. 18, PDF p. 7: display (14),
 $F_2(4,k)>c_1k^3(\log k)^{-c_2}$, the prize offer and Spencer's
 $F_2(4,k)>ck^{5/2}$);
-[[../wiki/problems/ramsey_theory/E0986/_index|#986]] (p. 18, PDF p. 7: the site's key
-[Er90b, p. 18]; the page gives the problem's bound only for $s=3$, display
-(13), which it states as well known, and for $s=4$, display (14), which it
-asks to be proved with the prize offer, not for general $s$);
+[[../wiki/problems/ramsey_theory/E0986/_index|#986]] (p. 18, PDF p. 7: the
+erdosproblems.com key [Er90b, p. 18]; the page gives the problem's bound only
+for $s=3$, display (13), which it states as well known, and for $s=4$, display
+(14), which it asks to be proved with the prize offer, not for general $s$);
 [[../wiki/problems/discrepancy/E0161/_index|#161]] (pp. 21--22, PDF pp. 10--11: displays
 (31)--(32) for $k=2$ classes, the passage opening with the case $r>3$, the
 question "Does the change occur continuously or are there jumps? Is there
 only one jump?" as $\alpha$ runs from $0$ to $1/2$, the guess that "the jump
 occurs all in one step at 0" and the prize offer);
 [[../wiki/problems/discrepancy/E0162/_index|#162]] (p. 21, PDF p. 10: displays (29)--(30)
-with $k=2$ classes, the same question as #563 under the site's second
+with $k=2$ classes, the same question as #563 under erdosproblems.com's second
 number; recorded on the problem_p21 page).
 
 No file of this source is held: no license on record permits its redistribution,

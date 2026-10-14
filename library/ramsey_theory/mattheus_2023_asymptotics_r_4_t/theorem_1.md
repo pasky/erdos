@@ -60,6 +60,6 @@ Finite-geometry facts about unitals in $PG(2,q^2)$ and the container method
 
 - [[../wiki/problems/ramsey_theory/E0166/_index|Problem 166]]: the statement is the
   problem's inequality $R(4,k)\gg k^3/(\log k)^{O(1)}$ with the exponent
-  $4$; the site records the problem as proved on its strength.
+  $4$; erdosproblems.com records the problem as proved on its strength.
 - [[../wiki/problems/ramsey_theory/E0986/_index|Problem 986]]: the case $s=4$ of the
   problem, with $c(4)=4$, proved and refereed before the general case.

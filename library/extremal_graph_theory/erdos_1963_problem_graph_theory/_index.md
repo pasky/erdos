@@ -68,12 +68,12 @@ only. Paged at
 and
 [[extremal_graph_theory/erdos_1963_problem_graph_theory/inequality_2|inequality_2]].
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0902/_index|#902]]: the site's key
-Er63c, the problem's primary source. P. 221 (page image): the definition of
-property $S_k$ ("for every $k$ vertices of $\mathcal G^{(n)}$ there is at
-least one vertex from which edges go *out* to each of the $k$") and of $f(k)$
-as the least $n$ for which a $\mathcal G^{(n)}$ with property $S_k$ exists,
-attributed to Schütte ("The problem was recently put to me by Professor
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0902/_index|#902]]: the
+erdosproblems.com key Er63c, the problem's primary source. P. 221 (page image):
+the definition of property $S_k$ ("for every $k$ vertices of $\mathcal G^{(n)}$
+there is at least one vertex from which edges go *out* to each of the $k$") and
+of $f(k)$ as the least $n$ for which a $\mathcal G^{(n)}$ with property $S_k$
+exists, attributed to Schütte ("The problem was recently put to me by Professor
 Schütte in its graph-theoretic form"); $f(1)=3$, $f(2)=7$ (the seven towns
 of p. 220 with outgoing roads to $T_{a+1}$, $T_{a+2}$, $T_{a+4}$) and "The
 formula $f(k)=2^{k+1}-1$ fits all these cases and it may well be correct
@@ -84,8 +84,8 @@ inequality (2), $\limsup_kf(k)2^{-k}k^{-2}\leqslant\log2$, that is (2.1),
 $f(k)\leqslant2^kk^2\log(2+\varepsilon)$ whenever $k>K_\varepsilon$ (paged
 at
 [[extremal_graph_theory/erdos_1963_problem_graph_theory/inequality_2|inequality_2]]);
-the site's "$2^{n+1}-1\le f(n)\ll n^22^n$" in the site's letter $n$ for the
-paper's $k$.
+erdosproblems.com's "$2^{n+1}-1\le f(n)\ll n^22^n$" in erdosproblems.com's
+letter $n$ for the paper's $k$.
 
 **Results.**
 

@@ -20,7 +20,7 @@ Béla Csaba, *On the Ramsey-Turán problem for 4-cliques*, SIAM J. Discrete
 Math. **39** (2025), no. 2, 1201--1212, DOI 10.1137/23M1619794 (Crossref
 record read 2026-09-18, as recorded on Problem 22's page; the journal text
 is not held). SIAM Journal on Discrete Mathematics is a refereed journal.
-Not a source key of the site; Problem 22's page cites it as [Cs25].
+Not a source key of erdosproblems.com; Problem 22's page cites it as [Cs25].
 
 **Retained artifact.** The
 [folder-name PDF](csaba_2025_ramsey_turan_problem_4_cliques.pdf) is the arXiv
@@ -81,6 +81,6 @@ on Problem 22's page from their own texts.
 critical window above the density $n^2/8$, with single-exponential
 constants, refining the Lüders--Reiher bound it quotes as Theorem 1.2; p. 1
 records the Bollobás--Erdős construction ($K_4$-free, independence number
-$o(n)$, $n^2/8-o(n^2)$ edges) that answers the site's question and
+$o(n)$, $n^2/8-o(n^2)$ edges) that answers the erdosproblems.com question and
 Szemerédi's theorem that makes it almost tight; context on the window, not
 a source of the status.

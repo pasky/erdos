@@ -31,7 +31,7 @@ that sparseness, no monotonicity of the gaps required.
 
 H. Davenport and P. Erdős, *A theorem on uniform distribution*, Magyar Tud.
 Akad. Mat. Kutató Int. Közl. 8 (1963), 3--11 (MR 29 #4750; Zbl 122,59).
-The site's key DaEr63 for Problem 492.
+The erdosproblems.com key DaEr63 for Problem 492.
 
 The copy read for this card
 is the Rényi archive's OmniPage scan, nine pages (printed pp. 3--11 are PDF
@@ -95,9 +95,9 @@ Theorem with $X(N)/N^{2-\delta}$ bounded.
 Source: <https://users.renyi.hu/~p_erdos/1963-01.pdf>.
 
 **Bears on.** [[../wiki/problems/number_theory/E0492/_index|#492]]: the Theorem and the
-deduction (9) (printed p. 4, PDF p. 2, page image) are the site's "Davenport
-and Erdős [DaEr63] proved it is true if $a_n\gg n^{1/2+\epsilon}$": for
-real sequences $z_j$ with $z_{j+1}/z_j\to1$ and $\ll N^{2-\delta}$ terms
+deduction (9) (printed p. 4, PDF p. 2, page image) are erdosproblems.com's
+"Davenport and Erdős [DaEr63] proved it is true if $a_n\gg n^{1/2+\epsilon}$":
+for real sequences $z_j$ with $z_{j+1}/z_j\to1$ and $\ll N^{2-\delta}$ terms
 below $N$, equivalently $z_j\gg j^{1/2+\epsilon}$, the multiples of almost
 every $\alpha>0$ are uniformly distributed relative to $\{z_j\}$. The
 [[number_theory/davenport_1963_theorem_uniform_distribution/conjecture_p3|conjecture]]

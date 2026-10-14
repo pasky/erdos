@@ -4,8 +4,8 @@ title: Pham and Zakharov's sharp bound N to the one quarter plus o(1)
 desc: |
   Pham and Zakharov proved that every non-averaging subset of $\{1,\ldots,N\}$
   has at most $N^{1/4+o(1)}$ elements, which with Bosznay's bound gives
-  $F(N)=N^{1/4+o(1)}$. The paper appeared in Geom. Funct. Anal. in 2025, and the
-  site adopts it.
+  $F(N)=N^{1/4+o(1)}$. The paper appeared in Geom. Funct. Anal. in 2025, and
+  erdosproblems.com adopts it.
 authors:
 - Huy Tuan Pham
 - Dmitrii Zakharov
@@ -37,8 +37,8 @@ $N^{1/4+o(1)}$ (Theorem 1, p. 2 of arXiv v2). In the notation of
 [[problems/additive_combinatorics/E0186/_index|Problem 186]] this is
 $F(N)\le N^{1/4+o(1)}$ and, with Bosznay's lower bound, $F(N)=N^{1/4+o(1)}$:
 the order of growth the problem asks for is determined up to the $o(1)$ in
-the exponent, which is what the site's SOLVED label records. H. T. Pham and
-D. Zakharov, *Sharp bound for the Erdős--Straus non-averaging set problem*,
+the exponent, which is what erdosproblems.com's SOLVED label records. H. T. Pham
+and D. Zakharov, *Sharp bound for the Erdős--Straus non-averaging set problem*,
 Geom. Funct. Anal. 35 (2025), no. 6, 1712--1738, arXiv:2410.14624 (v1 18
 October 2024, v2 10 September 2025), cited as [PhZa24] on the problem page.
 Library home
@@ -67,10 +67,10 @@ of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in Geometric and Functional
 Analysis, published online 3 December 2025 according to its Crossref record, as
-the problem page records. Reviewed: the site's curator, Thomas Bloom, credits
-the upper bound to Pham and Zakharov in the problem page's commentary and
-labeled the problem SOLVED (page last edited 8 April 2026). This is documented
-acceptance outside this project.
+the problem page records. Reviewed: the erdosproblems.com curator, Thomas Bloom,
+credits the upper bound to Pham and Zakharov in the problem page's commentary
+and labeled the problem SOLVED (page last edited 8 April 2026). This is
+documented acceptance outside this project.
 
 **Read depth.** The library card checks the definition and Theorem 1; the
 proof (Sections 2--4) was not read. Nothing here rests on a review by this

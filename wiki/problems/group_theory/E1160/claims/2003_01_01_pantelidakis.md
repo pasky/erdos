@@ -2,9 +2,9 @@
 name: problems/group_theory/E1160/claims/2003_01_01_pantelidakis
 title: Pantelidakis's thesis bound for odd orders
 desc: |
-  The site credits Pantelidakis's Oxford DPhil thesis with the result that for
-  odd $n$ and $m\ge3619$ with $n\le2^m$, there are at most as many groups of
-  order $n$ as of order $2^m$.
+  erdosproblems.com credits Pantelidakis's Oxford DPhil thesis with the result
+  that for odd $n$ and $m\ge3619$ with $n\le2^m$, there are at most as many
+  groups of order $n$ as of order $2^m$.
 authors:
 - I. Pantelidakis
 status: claimed
@@ -26,14 +26,14 @@ updated: 2026-10-07T19:40:10Z
 ***
 
 **Claim.** Let $g(n)$ be the number of groups of order $n$. For every odd $n$
-and every $m\ge3619$ with $n\le2^m$, $g(n)\le g(2^m)$. The site credits this
-to Pantelidakis's Oxford DPhil thesis, which it cites as [Pa03], *On the
+and every $m\ge3619$ with $n\le2^m$, $g(n)\le g(2^m)$. erdosproblems.com credits
+this to Pantelidakis's Oxford DPhil thesis, which it cites as [Pa03], *On the
 Number of Non-isomorphic Groups of the Same Order* (2003); its curator found
 the reference in Blackburn, Neumann and Venkataraman's *Enumeration of Finite
 Groups* [BNV07]. The Mathematics Genealogy Project lists Ioannis
 Pantelidakis's Oxford D.Phil. as *Contributions to the Enumeration of Finite
 Groups* (2004), supervised by P. M. Neumann, so the thesis's title and year
-are unsettled. This page is named by the year of the citation the site
+are unsettled. This page is named by the year of the citation erdosproblems.com
 credits, filled to its first day; the thesis itself, which would settle the
 date, is not available. The claim bears on
 [[problems/group_theory/E1160/_index|Problem 1160]].
@@ -44,6 +44,7 @@ the odd case.
 
 **Depends on.** No page of this wiki.
 
-**Standing.** Claimed: a thesis, not a journal publication, under the site's
-label OPEN. The curator wrote in the site's discussion thread on 26 January
-2026 that they had found no online copy of the thesis to check the result.
+**Standing.** Claimed: a thesis, not a journal publication, under the
+erdosproblems.com label OPEN. The curator wrote in the erdosproblems.com
+discussion thread on 26 January 2026 that they had found no online copy of the
+thesis to check the result.

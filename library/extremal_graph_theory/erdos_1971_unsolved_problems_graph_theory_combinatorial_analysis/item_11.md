@@ -64,15 +64,16 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0583/_index|Problem 583]]: the site's source
-  passage ([Er71, p. 101]); the question is Gallai's conjecture in the form
-  "$[\tfrac12(n+1)]$ edge disjoint paths", with Lovász's odd-valency case.
+- [[../wiki/problems/extremal_graph_theory/E0583/_index|Problem 583]]: the
+  erdosproblems.com source passage ([Er71, p. 101]); the question is Gallai's
+  conjecture in the form "$[\tfrac12(n+1)]$ edge disjoint paths", with Lovász's
+  odd-valency case.
 - [[../wiki/problems/extremal_graph_theory/E0184/_index|Problem 184]]: the function $h(n)$,
   the bound $h(n)<cn\log n$, the conjecture $h(n)<c_1n$, the lower bound
-  $(1+c_2)n$ from $K_2(3,n-3)$ that the site quotes, and the covering variant
-  ("$n-1$ edges and circuits if we do not require them to be edge disjoint")
-  that the site attributes to this paper; the covering variant was proved by
-  Pyber in 1985 (second-hand, from p. 2 of
+  $(1+c_2)n$ from $K_2(3,n-3)$ that erdosproblems.com quotes, and the covering
+  variant ("$n-1$ edges and circuits if we do not require them to be edge
+  disjoint") that erdosproblems.com attributes to this paper; the covering
+  variant was proved by Pyber in 1985 (second-hand, from p. 2 of
   [[extremal_graph_theory/bucic_2022_towards_erdos_gallai_cycle_decomposition_conjecture/_index|Bucić and Montgomery]]).
 - [[../wiki/problems/extremal_graph_theory/E1017/_index|Problem 1017]]: the item's opening
   paragraph (printed p. 101 = PDF p. 5, page image), the

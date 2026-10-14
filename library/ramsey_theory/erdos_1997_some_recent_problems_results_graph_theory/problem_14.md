@@ -36,9 +36,9 @@ $h(n)$, "the largest integer for which ... we always have a family of
 $\ge h(n)$", and the 1999 booklet's item 3.54 repeats the 1997 wording.
 Second, the one-color question asks for the number of edge-disjoint
 monochromatic triangles all of one color, the color chosen to maximize it,
-as the site's commentary reads it; the expectation "greater than
-$(1+\varepsilon)n^2/24$" is what the site paraphrases as "$\ge cn^2$ for
-some constant $c>1/24$". The balanced two-part coloring (a complete
+as the erdosproblems.com commentary reads it; the expectation "greater than
+$(1+\varepsilon)n^2/24$" is what erdosproblems.com paraphrases as "$\ge cn^2$
+for some constant $c>1/24$". The balanced two-part coloring (a complete
 bipartite graph in one color, two cliques in the other) gives $n^2/12+O(n)$
 edge-disjoint monochromatic triangles, all of the clique color; it is the
 example behind the first question. For the one-color question, the better
@@ -70,8 +70,8 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0076/_index|Problem 76]]: the site's source for the
-  problem and the wording the resolving paper's Conjecture 1.1 restates;
-  the one-color question and the expectation
-  "greater than $(1+\varepsilon)n^2/24$" are the passage the site's
-  commentary attributes to this paper.
+- [[../wiki/problems/ramsey_theory/E0076/_index|Problem 76]]: the
+  erdosproblems.com source for the problem and the wording the resolving paper's
+  Conjecture 1.1 restates; the one-color question and the expectation "greater
+  than $(1+\varepsilon)n^2/24$" are the passage the erdosproblems.com commentary
+  attributes to this paper.

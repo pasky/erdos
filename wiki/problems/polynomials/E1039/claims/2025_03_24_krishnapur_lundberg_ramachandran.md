@@ -5,7 +5,7 @@ desc: |
   Krishnapur, Lundberg and Ramachandran (2025) prove that the minimal inradius
   of a degree $n$ lemniscate with zeros in the closed unit disk is at least
   $c/(n\sqrt{\log n})$ for a constant $c>0$. The result is in an arXiv preprint
-  credited by the site.
+  credited by erdosproblems.com.
 authors:
 - Manjunath Krishnapur
 - Erik Lundberg
@@ -57,7 +57,7 @@ $\rho_n\gg1/n$; the order $1/n$ is the later claim on
 **Depends on.** No page of this wiki.
 
 **Standing.** Claimed. The preprint is at its first arXiv version and no
-journal version is recorded, so no `refereed` is listed. The site's
+journal version is recorded, so no `refereed` is listed. The erdosproblems.com
 commentary credits the bound to the paper, cited as [KLR25], but labeled the
 problem OPEN, so the credit is not acceptance and no `reviewed` is listed.
 The proof is not verified by this corpus.

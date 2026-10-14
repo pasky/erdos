@@ -78,7 +78,7 @@ construction, its reported Lean formalization, and the finite computations
 are separate artifacts; none was built or given statement-fidelity review
 for this source account.
 
-The joint proof is claim 239 in the [catalog
+The joint proof is claim 239 in the [erdosproblems.com
 discussion](https://www.erdosproblems.com/forum/thread/193/proof-claims#proof-claim-239).
 Thomas Bloom agreed that it should be marked solved [on September 3,
 2026](https://www.erdosproblems.com/forum/thread/proof-claim:5a48dd7b490340c598f617b09282d003#post-8704)

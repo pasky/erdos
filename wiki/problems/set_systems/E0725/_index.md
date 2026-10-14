@@ -22,7 +22,7 @@ updated: 2026-10-07T19:24:20Z
 **Statement.** Give an asymptotic formula for the number of $k\times n$ Latin
 rectangles.
 
-**Status.** The site labeled the problem OPEN. Its commentary records the
+**Status.** Bloom's catalog labeled the problem OPEN. Its commentary records the
 asymptotic $L_{k,n}\sim e^{-\binom k2}(n!)^k$ of Erdős and Kaplansky [ErKa46]
 for $k=o((\log n)^{3/2-\epsilon})$, and Yamamoto's extension of it to
 $k\le n^{1/3-o(1)}$ [Ya51]. The commentary calls sequence A001009 of the OEIS
@@ -43,8 +43,8 @@ https://www.erdosproblems.com/725.
   Math. (1951), 113-119.
 - [GoMc90] Godsil, C. D. and McKay, B. D., Asymptotic enumeration of Latin
   rectangles. J. Combin. Theory Ser. B 48 (1990), no. 1, 19–44. Not in the
-  site's bibliography; the result is named in a comment on the site's
-  discussion thread of 2026-04-24. Not held.
+  erdosproblems.com bibliography; the result is named in a comment on the
+  erdosproblems.com discussion thread of 2026-04-24. Not held.
 
 **Formalization.** No statement file in formal-conjectures; the Li claim page
 links the author's Lean formalization of the sublinear-range result, which
@@ -68,23 +68,22 @@ and Godsil and McKay's, Yamamoto for $k=O(n^{5/12-\epsilon})$ (Res. Rep. Sci.
 Div. Tokyo Womens' Univ. 19 (1969), 86–97, as Godsil and McKay cite it) and
 Stein for $k=o(n^{1/2})$ (J. Combin. Theory Ser. A 25 (1978), 38–49) proved
 $L_{k,n}\sim(n!)^k\exp\bigl(-\binom k2-k^3/(6n)\bigr)$, the extension Erdős's
-1981 survey records; both ranges lie inside Godsil and McKay's and the site
-credits neither, so they have no claim page. One partial claim is
-pending:
-[[problems/set_systems/E0725/claims/2026_08_03_li|Li's manuscript]] (arXiv
-3 August 2026, forum 4 August 2026, written with GPT-5.6 Sol Pro and Codex)
-states the Godsil–McKay asymptotic for every $k=o(n)$, with a Lean development
-the author reports as complete. It is not refereed, no outside reviewer has
-endorsed it, and this corpus has not built the Lean, so the claim is pending;
-it does not address $k$ of order $n$, including the number of Latin squares,
-so the problem is open. No formalization beyond the author's Lean is
+1981 survey records; both ranges lie inside Godsil and McKay's and
+erdosproblems.com credits neither, so they have no claim page. One partial claim
+is pending: [[problems/set_systems/E0725/claims/2026_08_03_li|Li's manuscript]]
+(arXiv 3 August 2026, forum 4 August 2026, written with GPT-5.6 Sol Pro and
+Codex) states the Godsil–McKay asymptotic for every $k=o(n)$, with a Lean
+development the author reports as complete. It is not refereed, no outside
+reviewer has endorsed it, and this corpus has not built the Lean, so the claim
+is pending; it does not address $k$ of order $n$, including the number of Latin
+squares, so the problem is open. No formalization beyond the author's Lean is
 recorded. Nothing was reconstructed in this corpus.
 
-Search scope: the site's problem page, discussion thread and proof-claims
-page, the community database entry, the formal-conjectures problem listing,
-the OEIS entry A001009, the arXiv record of arXiv:2608.01671 and the repository
-README it links, the Crossref records of [ErKa46], [Ya51] and [GoMc90], and the
-two library cards.
+Search scope: the erdosproblems.com problem page, discussion thread and
+proof-claims page, the community database entry, the formal-conjectures problem
+listing, the OEIS entry A001009, the arXiv record of arXiv:2608.01671 and the
+repository README it links, the Crossref records of [ErKa46], [Ya51] and
+[GoMc90], and the two library cards.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

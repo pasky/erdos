@@ -35,11 +35,11 @@ $$
 
 is irrational?
 
-**Status.** The site labeled the problem PROVED (LEAN) (page last edited
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN) (page last edited
 2026-02-01). Its remarks credit the affirmative answer to the agent Aletheia, as
 written up in [Fe26]. They credit the extension to the sharp golden-ratio growth
-rate to [BKKKZ26]. Both are accepted claims, on the acceptance of the site's
-curator, Thomas Bloom. The first is
+rate to [BKKKZ26]. Both are accepted claims, on the acceptance of the
+erdosproblems.com curator, Thomas Bloom. The first is
 [[problems/irrationality/E1051/claims/2026_01_29_feng_et_al|Feng and coauthors 2026]],
 whose proof Barreto formalized in Lean 4. The second is
 [[problems/irrationality/E1051/claims/2026_01_29_barreto_kang_kim_kovac_zhang|Barreto, Kang, Kim, Kovač and Zhang 2026]],

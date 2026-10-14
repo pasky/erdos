@@ -39,8 +39,8 @@ https://www.erdosproblems.com/156.
 ## Current assessment
 
 No current assessment is recorded. The status above is imported from the dated
-site record. This page records no current literature search or independent
-assessment of proof coverage.
+erdosproblems.com record. This page records no current literature search or
+independent assessment of proof coverage.
 
 ## Research
 

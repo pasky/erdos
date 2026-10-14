@@ -57,5 +57,5 @@ the journal version was published online on 9 September 2022 (per Crossref).
 The locators of the source card are to the NSF author manuscript.
 
 **Acceptance.** Refereed: Graphs and Combinatorics 38 (2022), no. 5, Paper
-No. 156. The site's commentary does not cite this paper, so no `reviewed`
-evidence is listed. The computations are not replayed in this corpus.
+No. 156. The erdosproblems.com commentary does not cite this paper, so no
+`reviewed` evidence is listed. The computations are not replayed in this corpus.

@@ -57,18 +57,18 @@ as its formal authors; it also cites Velammal's paper among its mathematical
 sources. Its proof reduces to powers of two, checks every $2^k$ with
 $3\le k<8192$ by a kernel-checked carry certificate, and formalizes the
 paper's explicit large-$n$ estimates for the rest. The formal-conjectures
-statement file names it as the formal proof; the site's label PROVED (LEAN)
-and the community database, which lists the formal status Lean as of its last
-update, dated 24 August 2026, name no development. This corpus has not built
-or audited that development, so it is not listed as evidence.
+statement file names it as the formal proof; the erdosproblems.com label PROVED
+(LEAN) and the community database, which lists the formal status Lean as of its
+last update, dated 24 August 2026, name no development. This corpus has not
+built or audited that development, so it is not listed as evidence.
 
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper appeared in Mathematika, a refereed journal, and
-its acknowledgments thank an anonymous referee. Thomas Bloom, the site's
-curator, marked the problem proved and credits Granville and Ramaré, together
-with Velammal's independent proof, on the problem page (last edited 8
-February 2026). Velammal's proof is recorded on
+its acknowledgments thank an anonymous referee. Thomas Bloom, the
+erdosproblems.com curator, marked the problem proved and credits Granville and
+Ramaré, together with Velammal's independent proof, on the problem page (last
+edited 8 February 2026). Velammal's proof is recorded on
 [[problems/factorials_binomials/E0175/claims/1995_01_01_velammal|its own claim page]],
 and Sárközy's earlier proof for all large $n$ on
 [[problems/factorials_binomials/E0175/claims/1985_02_01_sarkozy|its claim page]].

@@ -24,8 +24,8 @@ suggestions" and the referee acknowledgment on p. 10), 11 pages;
 Combinatorica 45 (2025), no. 5, article 56 (published online 14 October
 2025), doi:10.1007/s00493-025-00184-w (Crossref record read 2026-10-07; the
 arXiv record carried no journal reference on 2026-09-18, and the journal text
-is not held and was not compared). Not a source key of the
-site; Problems 1009 and 1017 cite it as [BaWi25].
+is not held and was not compared). Not a source key of
+erdosproblems.com; Problems 1009 and 1017 cite it as [BaWi25].
 
 The copy read for this card is the arXiv copy of v2: eleven pages with a
 complete text layer, PDF page equal to printed page, at
@@ -86,12 +86,12 @@ pp. 3--9) were not read; the reference list (pp. 10--11) was read for
   is important"; the range of $k$ with $\phi_r(n,k)=(1-o(1))k$ is left
   open.
 - References (pp. 10--11): [5] Erdős, Some unsolved problems in graph
-  theory and combinatorial analysis, Oxford 1969, 1971, 97--109 (the site's
-  Er71); [7] Győri, On the number of edge disjoint triangles in graphs of
-  given size, Combinatorics (Eger, 1987), 1988, 267--276 (the site's Gy88);
-  [9] Győri, Edge disjoint cliques in graphs, Sets, graphs, and numbers
-  (Budapest 1991), 1992, 357--363; [10] Győri and Keszegh, Combinatorica 37
-  (2017), 1113--1124 (filed as
+  theory and combinatorial analysis, Oxford 1969, 1971, 97--109
+  (erdosproblems.com's Er71); [7] Győri, On the number of edge disjoint
+  triangles in graphs of given size, Combinatorics (Eger, 1987), 1988, 267--276
+  (erdosproblems.com's Gy88); [9] Győri, Edge disjoint cliques in graphs, Sets,
+  graphs, and numbers (Budapest 1991), 1992, 357--363; [10] Győri and Keszegh,
+  Combinatorica 37 (2017), 1113--1124 (filed as
   [[extremal_graph_theory/gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs/_index|gyori_2017_number_edge_disjoint_triangles_k_4_free_graphs]]);
   [17] Tuza, Unsolved combinatorial problems, Part I, BRICS Lecture Series
   LS-01-1, 2001.
@@ -115,11 +115,11 @@ the Turán number, not the partition number the problem asks for.
 [[../wiki/problems/extremal_graph_theory/E1009/_index|#1009]]: p. 10 (page image) states
 Győri's exact ranges, $\phi_3(n,k)=k$ if $k\le2n-10$ for odd $n$ or
 $k\le1.5n-5$ for even $n$, citing [7] (the 1988 paper) with [9] "for minor
-correction", the statement behind the site's "$f(c)=0$ if $c<2$ for odd $n$
-or $c<3/2$ for even $n$"; Theorem 1.6 (p. 2) restates Győri's
-$k-O(k^2/n^2)$ bound for every fixed $r\ge3$ and $k=o(n^2)$, citing the 1991
-Combinatorica paper; the copy read is the arXiv v2 of this paper, published
-in Combinatorica 45 (2025).
+correction", the statement behind erdosproblems.com's "$f(c)=0$ if $c<2$ for odd
+$n$ or $c<3/2$ for even $n$"; Theorem 1.6 (p. 2) restates Győri's $k-O(k^2/n^2)$
+bound for every fixed $r\ge3$ and $k=o(n^2)$, citing the 1991 Combinatorica
+paper; the copy read is the arXiv v2 of this paper, published in Combinatorica
+45 (2025).
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

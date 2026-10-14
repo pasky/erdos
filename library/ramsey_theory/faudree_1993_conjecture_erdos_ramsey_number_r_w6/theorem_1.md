@@ -79,6 +79,6 @@ computation of Section 3.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0087/_index|Problem 87]]: refutes the unweakened
-  precursor conjecture $r(G)\ge r(K_k)$ at $k=4$, the fact the site's
+  precursor conjecture $r(G)\ge r(K_k)$ at $k=4$, the fact the erdosproblems.com
   commentary records; it says nothing about the two weakened questions the
   page asks, which concern all large $k$.

@@ -27,9 +27,9 @@ updated: 2026-10-08T01:29:58Z
 **Statement.** If $n$ points in $\mathbb{R}^2$ form a convex polygon then there
 are $O(n)$ many pairs which are distance $1$ apart.
 
-**Status.** Labeled open on the site. Its export of 2026-09-04 records the label
-"OPEN". Its page, last edited 23 January 2026, carries no proof claim and no
-proof exposition.
+**Status.** Labeled open on erdosproblems.com. Its export of 2026-09-04 records
+the label "OPEN". Its page, last edited 23 January 2026, carries no proof claim
+and no proof exposition.
 
 The standing in the frontmatter derives from the claim pages. The disproof of
 Kruer and Kohlmeyer is a Lean proof that the bounty site Conjectures.io verified
@@ -48,11 +48,11 @@ claiming the linear bound is rejected on
 [[problems/distance_problems/E0096/claims/2016_05_24_khopkar|its claim page]].
 
 The disproof answers the Statement: the maximum number of unit-distance pairs
-among $n$ points in strictly convex position is not $O(n)$. The site's remarks
-record that a positive answer here would follow from a positive answer to
-Problem 97. In the other direction, Kruer and Kohlmeyer's construction yields a
-counterexample to Problem 97 by deleting points of low unit degree, as their
-claim page records.
+among $n$ points in strictly convex position is not $O(n)$. The
+erdosproblems.com remarks record that a positive answer here would follow from a
+positive answer to Problem 97. In the other direction, Kruer and Kohlmeyer's
+construction yields a counterexample to Problem 97 by deleting points of low
+unit degree, as their claim page records.
 
 **Source.** [erdosproblems.com/96](https://www.erdosproblems.com/96), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #96,

@@ -21,8 +21,8 @@ the least integer $\ge x$, $[x]$ the integer part).
 **Theorem 2.2.** $r(B_{k,\ell})=k+\{3\ell/2\}-1$ for $\ell\ge2k$, $k\ge1$.
 
 For $\ell=2k$ the broom has $3k$ vertices, parts $k$ and $2k$, and
-$r(B_{k,2k})=4k-1$: the site's "broom formed by identifying the center of a
-star on $k+1$ vertices with an endpoint of a path on $2k$ vertices". The
+$r(B_{k,2k})=4k-1$: erdosproblems.com's "broom formed by identifying the center
+of a star on $k+1$ vertices with an endpoint of a path on $2k$ vertices". The
 paper notes (p. 288) that for $2k\le\ell\le2k+2$ the theorem gives
 $r(B_{k,\ell})=\{4(k+\ell)/3-1\}$, "giving a specific tree whose Ramsey number
 is as small as possible".

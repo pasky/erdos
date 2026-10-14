@@ -26,16 +26,16 @@ as the common difference of a three-term arithmetic progression in $A$?
 
 In particular, are there always $O(n^{3/2})$ many such $d$?
 
-**Status.** Open. This is the site's label (OPEN, page last edited 1 April
-2026). The site's commentary reports that the second question, whether
-$O(n^{3/2})$ common differences always suffice, is answered negatively, and that
-the first, the order of magnitude, is open. It records an observation from the
-discussion thread, credited to Koishi Chan, that the problem is equivalent to
-Bourgain's sums-differences question [Bo99]. The largest exponent reachable here
-is the smallest exponent admissible there. So the lower bound $1.77898\ldots$ of
-Lemm [Le15], slightly improved by AlphaEvolve [GGTW25], exceeds $3/2$. The
-resolution the curator credits is thus a thread observation applied to Lemm's
-refereed bound.
+**Status.** Open. This is the erdosproblems.com label (OPEN, page last edited 1
+April 2026). The erdosproblems.com commentary reports that the second question,
+whether $O(n^{3/2})$ common differences always suffice, is answered negatively,
+and that the first, the order of magnitude, is open. It records an observation
+from the discussion thread, credited to Koishi Chan, that the problem is
+equivalent to Bourgain's sums-differences question [Bo99]. The largest exponent
+reachable here is the smallest exponent admissible there. So the lower bound
+$1.77898\ldots$ of Lemm [Le15], slightly improved by AlphaEvolve [GGTW25],
+exceeds $3/2$. The resolution the curator credits is thus a thread observation
+applied to Lemm's refereed bound.
 
 Lemm's lower bound and Katz and Tao's upper bound $11/6$ [KaTa99] are the
 refereed results the commentary credits. They are accepted partial claims on
@@ -45,8 +45,8 @@ and
 Each reaches the problem through the embedding the Current assessment states.
 The thread's observation and its earlier direct constructions are thread posts
 and get no page. A self-contained Lean disproof of the $O(n^{3/2})$ bound is in
-Moritz Firsching's fork of formal-conjectures, and the catalog's entry described
-under Formalization points to it. It is recorded as claimed on
+Moritz Firsching's fork of formal-conjectures, and the formal-conjectures entry
+described under Formalization points to it. It is recorded as claimed on
 [[problems/additive_combinatorics/E1097/claims/2026_05_28_firsching|its claim page]].
 
 **Source.** [erdosproblems.com/1097](https://www.erdosproblems.com/1097),
@@ -60,7 +60,7 @@ https://www.erdosproblems.com/1097.
 - [GGTW25] B. Georgiev, J. Gómez-Serrano, T. Tao, and A. Wagner, Mathematical
   exploration and discovery at scale. arXiv:2511.02864 (2025).
 - [GWNT89] Various, Great Western Number Theory Problem Session (1989); the
-  site's source for the problem.
+  erdosproblems.com source for the problem.
 - [KaTa99] Katz, Nets Hawk and Tao, Terence, Bounds on arithmetic projections,
   and applications to the Kakeya conjecture. Math. Res. Lett. (1999), 625-630.
 - [Le15] Lemm, Marius, New counterexamples for sums-differences. Proc. Amer.
@@ -82,7 +82,8 @@ bound, are proved in the file itself; the first question is not stated.
 ## Current assessment
 
 **Second question answered no on the discussion thread from 2 December 2025;
-first question open.** The site formulation above (page last edited 1 April
+first question open.** The erdosproblems.com formulation above (page last edited
+1 April
 2026) asks for the maximum number $D(A)$ of common differences of three-term
 progressions in a set $A$ of $n$ integers, and in particular whether
 $D(A)=O(n^{3/2})$ always. Erdős posed it at the 1989 Great Western Number Theory

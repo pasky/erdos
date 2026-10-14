@@ -83,8 +83,8 @@ of this paper, which they say have proper non-induced subgraphs of minimum
 degree $3$ (Example 3, $K_{2,n-2}$ plus an edge, has $n-2$ vertices of degree
 $2$ and so no subgraph of minimum degree $3$ at all), that "proper subgraph"
 here must mean "proper induced subgraph", and they state that all the results
-and proofs hold under that reading; the site's Problem 815 and the later
-literature (the graphs called degree $3$-critical) use the induced
+and proofs hold under that reading; erdosproblems.com's Problem 815 and the
+later literature (the graphs called degree $3$-critical) use the induced
 definition. Lemma 1 orders the vertices so that the forward degree of
 $x_1$ is the minimum degree and every later vertex has forward degree at most
 $2$, and Theorem 1 shows that for $G$ in $G^*(n,2n-2)$ the ordering satisfies
@@ -165,15 +165,15 @@ the pages of the theorems they accompany.
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0815/_index|#815]]: the origin of
 the problem's statement (the Conjecture, p. 195, read with the induced
 definition), its positive cases $k=3,4,5$ (Theorem 2, with $C_4$ for
-$n\ge6$) and the long-cycle results the site's commentary reports (Theorem
-5's $\lfloor\log n\rfloor$, which the site writes with base $2$, and Example
-6's bound, printed as $10\sqrt{n+1}$ and in fact $10k<10\sqrt n+5$, which the
-site reports as $\sqrt n$). Corollary 1 (on the Theorem 1 page) is the
-source the problem page cites for the class having minimum degree exactly $3$.
-Theorems 3 and 4 concern fewer edges than the question's $2n-2$ and are
-context only: Theorem 4 gives, for each $r$ and each $n$ divisible by
-$c(r)=2\cdot5^{r+1}-1$, a graph in $G^*(n,2n-c(r))$ with no cycle of length
-at most $r$.
+$n\ge6$) and the long-cycle results the erdosproblems.com commentary reports
+(Theorem 5's $\lfloor\log n\rfloor$, which erdosproblems.com writes with base
+$2$, and Example 6's bound, printed as $10\sqrt{n+1}$ and in fact
+$10k<10\sqrt n+5$, which erdosproblems.com reports as $\sqrt n$). Corollary 1
+(on the Theorem 1 page) is the source the problem page cites for the class
+having minimum degree exactly $3$. Theorems 3 and 4 concern fewer edges than the
+question's $2n-2$ and are context only: Theorem 4 gives, for each $r$ and each
+$n$ divisible by $c(r)=2\cdot5^{r+1}-1$, a graph in $G^*(n,2n-c(r))$ with no
+cycle of length at most $r$.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

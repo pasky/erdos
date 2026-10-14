@@ -53,8 +53,8 @@ Corollary 1.2), so the maximum number of unit distances among the vertices of
 a convex $n$-gon is not $O(n)$. The ratio of unit pairs to points grows very
 slowly along the sequence $N_d$, which is consistent with the upper bound
 $n\log_2 n+4n$ of Aggarwal and the lower bound $2n-7$ of Edelsbrunner and
-Hajnal that the site's remarks record; the authors do not claim their growth
-rate is optimal. The construction starts from a bipartite incidence graph
+Hajnal that the erdosproblems.com remarks record; the authors do not claim their
+growth rate is optimal. The construction starts from a bipartite incidence graph
 with $d^d$ vertices on each side and $d^{d+1}$ edges, encoded by powers of
 five, assigns a complex seed to each vertex and a unit complex rotation to
 each edge so that incident pairs are at distance one up to a fourth-order
@@ -83,26 +83,26 @@ every declaration the target `Bounty.target` depends on, Lean core, Mathlib and
 formal-conjectures included, and accepted them all. The target's axioms are
 exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and every
 definition its statement reaches, are identical to the formal-conjectures
-statement of the site's task; **Formal statement.** below checks it against the
-problem's Statement. Acceptance rests on this replay and that check.
+statement of Conjectures.io's task; **Formal statement.** below checks it
+against the problem's Statement. Acceptance rests on this replay and that check.
 
 The certification by the bounty site Conjectures.io, linked above as the record,
-is reported, not counted. The site's Lean kernel verified the proof on 10
-September 2026 in a fresh isolated replay, with checks on the statement, the
-dependencies and the permitted axioms. The permitted axioms are `propext`,
-`Quot.sound` and `Classical.choice`. The site's review approved the record on 11
-September 2026 under its policy v2. It found that the reviewed definitions use
-Euclidean distance and unordered pairs, that the argument handles every proposed
-linear constant and every size threshold, and that the formal target matches the
-question of Problem 96. The record was certified on 14 September 2026 and shows
-the bounty as paid.
+is reported, not counted. The erdosproblems.com Lean kernel verified the proof
+on 10 September 2026 in a fresh isolated replay, with checks on the statement,
+the dependencies and the permitted axioms. The permitted axioms are `propext`,
+`Quot.sound` and `Classical.choice`. Conjectures.io's review approved the record
+on 11 September 2026 under its policy v2. It found that the reviewed definitions
+use Euclidean distance and unordered pairs, that the argument handles every
+proposed linear constant and every size threshold, and that the formal target
+matches the question of Problem 96. The record was certified on 14 September
+2026 and shows the bounty as paid.
 
 The review states that it is an eligibility decision and not a guarantee of
 originality. It also states that its provenance search found no earlier
 completed negative solution, and that only Lean's default kernel was used.
 
-No refereed publication exists, and the explanation is a working draft on the
-site. The site erdosproblems.com records no such result. Its export of
+No refereed publication exists, and the explanation is a working draft on
+Conjectures.io. erdosproblems.com records no such result. Its export of
 2026-09-04 labels the problem "OPEN", and its page, last edited 23 January 2026,
 carries no proof claim and no proof exposition. The curator of erdosproblems.com
 is not a party to this acceptance.
@@ -116,25 +116,25 @@ of the Euclidean plane in strict convex position, of the number of unordered
 pairs of distinct points at distance exactly $1$; the accepted file proves the
 negation of that statement from the construction above. The task's catalog
 commit was not reachable on GitHub on 2026-10-07; the statement file at the
-catalog's commit of 2026-09-18 reads the same. The site builds the task's commit
-from a public catalog commit and an audit patch; this corpus's replay reproduced
-it exactly and found the target's type identical to its statement. In it
-`ConvexIndep` is strict convex position and the count of unit distances runs
-over unordered pairs of distinct points, so the negation the file proves is the
-answer no to the problem's Statement.
+formal-conjectures commit of 2026-09-18 reads the same. Conjectures.io builds
+the task's commit from a public catalog commit and an audit patch; this corpus's
+replay reproduced it exactly and found the target's type identical to its
+statement. In it `ConvexIndep` is strict convex position and the count of unit
+distances runs over unordered pairs of distinct points, so the negation the file
+proves is the answer no to the problem's Statement.
 
-**Consequence for Problem 97.** The site's remarks record that a positive answer
-to [[problems/distance_problems/E0097/_index|Problem 97]] for $k+1$ equidistant
-vertices would give, by induction, at most $kn$ unit distances here, and that a
-positive answer here would follow from Problem 97. By the contrapositive,
-Theorem 1.1 with $d=13$ gives a set $V$ in strictly convex position with
-$u(V)\ge\frac{13}{4}|V|>3|V|$; deleting, one at a time, a point with at most
-three others at distance one removes at most three unit pairs per deleted point,
-so the process cannot empty $V$, and the nonempty set that survives is in
-strictly convex position with at least four others at distance one from each of
-its points, a counterexample to Problem 97; $d=4k-3$ gives the same with $k\ge2$
-in place of four. Kruer and Kohlmeyer's explanation does not state this
-consequence, so the project claims it as its own, pending review, on
+**Consequence for Problem 97.** The erdosproblems.com remarks record that a
+positive answer to [[problems/distance_problems/E0097/_index|Problem 97]] for
+$k+1$ equidistant vertices would give, by induction, at most $kn$ unit distances
+here, and that a positive answer here would follow from Problem 97. By the
+contrapositive, Theorem 1.1 with $d=13$ gives a set $V$ in strictly convex
+position with $u(V)\ge\frac{13}{4}|V|>3|V|$; deleting, one at a time, a point
+with at most three others at distance one removes at most three unit pairs per
+deleted point, so the process cannot empty $V$, and the nonempty set that
+survives is in strictly convex position with at least four others at distance
+one from each of its points, a counterexample to Problem 97; $d=4k-3$ gives the
+same with $k\ge2$ in place of four. Kruer and Kohlmeyer's explanation does not
+state this consequence, so the project claims it as its own, pending review, on
 [[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]]
 under Problem 97; Kruer, Kohlmeyer and Price state that strictly convex sets
 with arbitrarily large minimum unit-distance degree exist exactly when the ratio

@@ -38,11 +38,11 @@ The Note added in proof (p. 8) records that Shearer independently, and
 earlier, proved the lower bound with $e^{4/5-\epsilon}$ for every
 $\epsilon>0$.
 
-**In the site's notation.** With $f(m)$ the largest $k$ such that every
-triangle-free graph with $m$ edges contains a bipartite subgraph with $k$
+**In the erdosproblems.com notation.** With $f(m)$ the largest $k$ such that
+every triangle-free graph with $m$ edges contains a bipartite subgraph with $k$
 edges, the theorem gives $m/2+c'm^{4/5}\le f(m)\le m/2+C'm^{4/5}$ for
 every $m>1$ (the upper bound from the tightness half at $e=m$), which is the
-site's display with $c_1=c'$ and $c_2=C'$; the constants are not made
+erdosproblems.com display with $c_1=c'$ and $c_2=C'$; the constants are not made
 explicit for the lower bound, and the sharpness construction
 ([[extremal_graph_theory/alon_1996_bipartite_subgraphs/proposition_3_2|Proposition 3.2]])
 gives $9\cdot2^{2/5}+o(1)$ along its sequence.
@@ -98,5 +98,5 @@ bound. Neither external input was checked here.
 
 - [[../wiki/problems/extremal_graph_theory/E0581/_index|Problem 581]]: the
   status-defining theorem; it determines $f(m)$ to the order
-  $m/2+\Theta(m^{4/5})$, not exactly, which is what the site's SOLVED
+  $m/2+\Theta(m^{4/5})$, not exactly, which is what erdosproblems.com's SOLVED
   records.

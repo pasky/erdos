@@ -32,7 +32,7 @@ $$
 \mathrm{ex}_r(n,\mathcal{F}).
 $$
 
-**Formulation.** The site's wording as of 2026-09-18T10:47Z
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18T10:47Z
 (page last edited 24 January 2026). The wording binds $t$, $k$ and $r$ and
 then uses an unbound $s$ and no $t$; $s$ is a fourth parameter, the number
 of edges, and $t$ is used only in the commentary's conjecture. With $s$ read
@@ -44,12 +44,12 @@ fewer than $s$ edges. This is the function of Brown, Erdős and Sós
 ([BES73], p. 55): "we shall denote $\mathrm{ex}(n;G^{(r)}(k,h))$
 [sic; $s$ is meant] by $f^{(r)}(n;k,s)-1$. Thus $f^{(r)}(n;k,s)$ denotes the
 smallest $t$ for which every $G^{(r)}(n,t)$ contains at least one
-$G^{(r)}(k,s)$", so the site's $\mathrm{ex}_r(n,\mathcal F)$ is their
+$G^{(r)}(k,s)$", so erdosproblems.com's $\mathrm{ex}_r(n,\mathcal F)$ is their
 $f^{(r)}(n;k,s)-1$; later
 papers write $f_r(n,v,e)$ or $f^{(r)}(n;s,k)$ with the vertex and edge
-counts in various orders, and this page keeps the site's letters ($r$ the
-uniformity, $k$ vertices, $s$ edges, $t$ the exponent). The question is
-"Determine" and the site labeled it OPEN, so the wording is a notation
+counts in various orders, and this page keeps erdosproblems.com's letters ($r$
+the uniformity, $k$ vertices, $s$ edges, $t$ the exponent). The question is
+"Determine" and Bloom's catalog labeled it OPEN, so the wording is a notation
 defect, not a degenerate statement, and the field describes the question as
 written. The 1999 booklet [Va99] states the same question as its item 3.64
 in yet other letters (quoted below).
@@ -95,14 +95,14 @@ conjecture on 2-degenerate bipartite graphs.
 
 The conjecture itself, $\mathrm{ex}_3(n,\mathcal F)=o(n^2)$ for $k=s+3$, is open
 for every $s\ge4$ in every cited source, including the $(7,4)$ case. No
-resolution and no proof claim was found in the search whose scope the Current
-assessment records. This is a bounded negative finding, not a certificate of
-openness.
+resolution and no proof claim was found in the search dated 2026-09-18 UTC whose
+scope the Current assessment records. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/1157](https://www.erdosproblems.com/1157),
 accessed 2026-09-18 at 10:47 UTC: the problem page (OPEN, with
-the site's note that no finite computation can settle it; last edited 24
-January 2026; source keys [BES73], [Va99, 3.64]; commentary citing [1178],
+the erdosproblems.com note that no finite computation can settle it; last edited
+24 January 2026; source keys [BES73], [Va99, 3.64]; commentary citing [1178],
 [716] and [1076]), its empty discussion thread and its empty proof-claim
 tab. Cite as: T. F. Bloom, Erdős Problem #1157,
 https://www.erdosproblems.com/1157, accessed 2026-09-18.
@@ -114,10 +114,10 @@ https://www.erdosproblems.com/1157, accessed 2026-09-18.
   Conf., Univ. Michigan, 1971), Academic Press (1973), 53--63 (the venue
   from the running head of the Rényi archive scan and from the arXiv
   abstract of Glock, Kim, Lichev, Pikhurko and Sun, arXiv:2403.04474; the
-  site's reference text gives "(1973), 53--63"); the definition, p. 55; the
-  Theorem of Section 4 and the remark after it, p. 59. Cited from the Rényi
-  archive copy (https://users.renyi.hu/~p_erdos/), an eleven-page typescript
-  scan of printed pp. 53--63. Library home:
+  erdosproblems.com reference text gives "(1973), 53--63"); the definition, p.
+  55; the Theorem of Section 4 and the remark after it, p. 59. Cited from the
+  Rényi archive copy (https://users.renyi.hu/~p_erdos/), an eleven-page
+  typescript scan of printed pp. 53--63. Library home:
   [[../library/extremal_graph_theory/brown_1973_extremal_problems_graphs/_index|brown_1973_extremal_problems_graphs]].
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for
   the conference "Paul Erdős and his mathematics", Budapest, July 1999;
@@ -129,31 +129,32 @@ https://www.erdosproblems.com/1157, accessed 2026-09-18.
   Brown, Erdős and Sós. Combinatorica 26 (2006), no. 6, 627--645,
   doi:10.1007/s00493-006-0035-9; Theorem 1, p. 2 of the authors' public
   preprint (https://www.cs.tau.ac.il/~nogaa/PDFS/asaferdos4.pdf, 15 pages,
-  dated 2004). Not cited by the site.
+  dated 2004). Not cited by erdosproblems.com.
   Library home:
   [[../library/extremal_graph_theory/alon_2006_extremal_hypergraph_problem_brown_erdos_sos/_index|alon_2006_extremal_hypergraph_problem_brown_erdos_sos]].
 - [KeLo20] Keevash, P. and Long, J., The Brown--Erdős--Sós conjecture for
   hypergraphs of large uniformity. arXiv:2007.14824v1 (29 July 2020);
   Proc. Amer. Math. Soc., doi:10.1090/proc/15487 (2021); Conjectures 1--2
-  and Theorem 3, pp. 1--2 of the arXiv version. Not cited by the site. Library home:
+  and Theorem 3, pp. 1--2 of the arXiv version. Not cited by erdosproblems.com.
+  Library home:
   [[../library/extremal_graph_theory/keevash_2020_brown_erdos_sos_conjecture_hypergraphs_large/_index|keevash_2020_brown_erdos_sos_conjecture_hypergraphs_large]].
 - [ShTy23] Shapira, A. and Tyomkyn, M., A new approach for the
   Brown--Erdős--Sós problem. arXiv:2301.07758v1 (18 January 2023);
   EuroComb 2023 proceedings, doi:10.5817/cz.muni.eurocomb23-112, 812--818;
   Israel J. Math. 267 (2025), no. 2, 717--728, doi:10.1007/s11856-025-2714-5;
   Conjectures 1.1--1.3, p. 2; Theorem 1.4, p. 3 of the arXiv version. Not
-  cited by the site. Library home:
+  cited by erdosproblems.com. Library home:
   [[../library/extremal_graph_theory/shapira_2023_new_approach_brown_erdos_sos_problem/_index|shapira_2023_new_approach_brown_erdos_sos_problem]].
 - [JMMS25] Janzer, O., Methuku, A., Milojević, A. and Sudakov, B., Power
   saving for the Brown--Erdős--Sós problem. Discrete Analysis 2025:5, 16 pp.,
   doi:10.19086/da.138191 (published 10 July 2025; arXiv:2311.12765v2 is the
   journal typesetting); Conjecture 1.1 and Theorem 1.2, p. 2; Theorem 1.3,
-  p. 3. Not cited by the site.
+  p. 3. Not cited by erdosproblems.com.
   Library home:
   [[../library/extremal_graph_theory/janzer_2025_power_saving_brown_erdos_sos_problem/_index|janzer_2025_power_saving_brown_erdos_sos_problem]].
 - [Er74c] Erdős, Paul, Extremal problems on graphs and hypergraphs.
   Hypergraph Seminar, Lecture Notes in Math. 411 (1974), 75--84; pp. 80--81.
-  Not cited by the site. Library home:
+  Not cited by erdosproblems.com. Library home:
   [[../library/extremal_graph_theory/erdos_1974_extremal_problems_graphs_hypergraphs/_index|erdos_1974_extremal_problems_graphs_hypergraphs]];
   cited from the Rényi archive copy (https://users.renyi.hu/~p_erdos/), a
   ten-page typescript scan of printed pp. 75--84.
@@ -168,13 +169,13 @@ https://www.erdosproblems.com/1157, accessed 2026-09-18.
   Brown--Erdős--Sós problem at integer exponents. arXiv:2609.38115v1 (29
   September 2026, 22 pages); Theorems 1.1 and 1.2, p. 2; Theorems 2.3, 2.4
   and 2.6, pp. 5--7; Lemma 3.4, p. 12; Section 5, p. 20. A preprint, not
-  cited by the site and not held in the library; its claim page is
+  cited by erdosproblems.com and not held in the library; its claim page is
   [[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|2026_09_29_chao_huang_liu]].
 - [BPSWZ26] Bodnár, L., Pikhurko, O., Sun, S., Wang, Y. and Zeng, J., The
   quadratic Brown--Erdős--Sós problem for 3-uniform hypergraphs with 8 and 9
   edges. arXiv:2610.03323v1 (2 October 2026, 16 pages); Theorem 1.1, p. 2;
-  Theorem 1.2, p. 3. A preprint, not cited by the site and not held; read for
-  its statements and its lower-bound construction (pp. 1--7).
+  Theorem 1.2, p. 3. A preprint, not cited by erdosproblems.com and not held;
+  read for its statements and its lower-bound construction (pp. 1--7).
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1157.lean),
@@ -184,21 +185,21 @@ sequence file, not this problem). At the pinned commit it declares `erdos_1157` 
 `sorry` and no `formal_proof` attribute: for all $r,k,s\ge2$ and all $n$,
 `Hypergraph.configurationExtremalNumber n r k s` equals an `answer(sorry)`
 function of $n$, $r$, $k$ and $s$; its docstring binds $s$, $k$ and $r$,
-reading the site's unbound $s$ as the Formulation note does. The site's
-indicator and the community database record a formalized statement since
-2026-10-07 (on 2026-09-18 both recorded none), and the
-database records the problem open (last update 23 January 2026), with no
-formal proof and OEIS "possible".
+reading erdosproblems.com's unbound $s$ as the Formulation note does. The
+erdosproblems.com indicator and the community database record a formalized
+statement since 2026-10-07 (on 2026-09-18 both recorded none), and the database
+records the problem open (last update 23 January 2026), with no formal proof and
+OEIS "possible".
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18T10:47Z).** The statement
-above; OPEN, with the site's note that no finite computation can settle it;
-last edited 24 January 2026. The site's commentary, in this page's words:
-the question is broad and hard, with many partial results, several of them
-in [BES73] itself; it displays that paper's lower bound
-$\mathrm{ex}_r(n,\mathcal F)\gg_{k,s}n^{\frac{rs-k}{s-1}}$, valid whenever
-$k>r$ and $s>1$, and the Brown--Erdős--Sós conjecture that for all
+**The question (erdosproblems.com formulation of 2026-09-18T10:47Z).** The
+statement above; OPEN, with the erdosproblems.com note that no finite
+computation can settle it; last edited 24 January 2026. The erdosproblems.com
+commentary, in this page's words: the question is broad and hard, with many
+partial results, several of them in [BES73] itself; it displays that paper's
+lower bound $\mathrm{ex}_r(n,\mathcal F)\gg_{k,s}n^{\frac{rs-k}{s-1}}$, valid
+whenever $k>r$ and $s>1$, and the Brown--Erdős--Sós conjecture that for all
 $r>t\ge2$ and $s\ge3$ the Turán number is $o(n^t)$ whenever
 $k\ge(r-t)s+t+1$; and it routes the case $t=2$ to Problem 1178, the case
 $s=r=3$, $k=6$ to Problem 716, and the case $r=3$, $k=s+2$ to Problem 1076.
@@ -213,15 +214,15 @@ determines it, exactly or to first order, on a range of the parameters
 answers part of that question and is a partial claim here, as
 [[problems/extremal_graph_theory/E1157/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu's integer-exponent asymptotics]]
 are. Problems 716 and 1076 carry as claims the earlier results on the cases
-the site routes to them, such as the refereed limits for 3-graphs at $k=s+2$
-recorded below. The 2026 preprints on that case, the 3-graph part of [CHL26]
-and [BPSWZ26], are recorded on Problem 1076 as
+erdosproblems.com routes to them, such as the refereed limits for 3-graphs at
+$k=s+2$ recorded below. The 2026 preprints on that case, the 3-graph part of
+[CHL26] and [BPSWZ26], are recorded on Problem 1076 as
 [[problems/set_systems/E1076/claims/2026_09_29_chao_huang_liu|Chao, Huang and Liu's]]
 and
 [[problems/set_systems/E1076/claims/2026_10_02_bodnar_pikhurko_sun_wang_zeng|Bodnár, Pikhurko, Sun, Wang and Zeng's]]
-claim pages, rejected there because they answer the site's wording. The other
-earlier determinations for particular parameters, such as the graph values in
-Sections 2--3 of [BES73], have no claim pages here (Remaining gaps).
+claim pages, rejected there because they answer the erdosproblems.com wording.
+The other earlier determinations for particular parameters, such as the graph
+values in Sections 2--3 of [BES73], have no claim pages here (Remaining gaps).
 
 **The general lower bound.**
 [[../library/extremal_graph_theory/brown_1973_extremal_problems_graphs/theorem_section_4|The Theorem of Section 4 of [BES73]]]
@@ -231,27 +232,27 @@ the deletion method; the remark after it: "the exponent of $n$ in the above
 inequality is not always best possible. It can, however, be shown to be
 best possible when $s-1$ divides $rs-k$. For example, when $k=5$ and $s=4$
 we know that $f^{(3)}(n;5,4)=O(n^{5/2})$, but here we obtain only
-$f^{(3)}(n;5,4)>cn^{7/3}$." This is the site's displayed bound. Read depth:
-claims checked for the theorem, the remark and the definitions (pp. 53--55,
-59); the proof (pp. 59--61) is unchecked. The paper is a proceedings
+$f^{(3)}(n;5,4)>cn^{7/3}$." This is erdosproblems.com's displayed bound. Read
+depth: claims checked for the theorem, the remark and the definitions (pp.
+53--55, 59); the proof (pp. 59--61) is unchecked. The paper is a proceedings
 article; the Rényi archive copy is a typescript scan.
 
-**The conjecture and its proved cases.** In the site's letters the
+**The conjecture and its proved cases.** In erdosproblems.com's letters the
 conjecture asks for $\mathrm{ex}_r(n,\mathcal F)=o(n^t)$ when
 $k\ge(r-t)s+t+1$, which [KeLo20] states as Conjecture 1 (p. 1): "For any
 $r>t\ge2$ and $k\ge3$ any $r$-graph on $n$ vertices with no
-$((r-t)k+t+1,k)$-configuration has $o(n^t)$ edges" (their $k$ is the
-site's $s$). Against the lower bound above, whose exponent at $k=(r-t)s+t+1$
-is $t-1/(s-1)$, the conjecture asks only for the upper bound $o(n^t)$; for
-$s=3$, Theorem 1 of [AlSh06] gives
+$((r-t)k+t+1,k)$-configuration has $o(n^t)$ edges" (their $k$ is
+erdosproblems.com's $s$). Against the lower bound above, whose exponent at
+$k=(r-t)s+t+1$ is $t-1/(s-1)$, the conjecture asks only for the upper bound
+$o(n^t)$; for $s=3$, Theorem 1 of [AlSh06] gives
 $n^{t-o(1)}<\mathrm{ex}_r(n,\mathcal F)=o(n^t)$.
 
 - $s=3$, every $r>t\ge2$:
   [[../library/extremal_graph_theory/alon_2006_extremal_hypergraph_problem_brown_erdos_sos/theorem_1|Theorem 1 of [AlSh06]]]
   (p. 2 of the preprint): "For any fixed $2\le k<r$ we have,
-  $n^{k-o(1)}<f_r(n,3(r-k)+k+1,3)=o(n^k)$" (their $k$ is the site's $t$,
-  their $v=3(r-t)+t+1$ the site's $k$, three edges). It extends the
-  Ruzsa--Szemerédi $(6,3)$-theorem ($n^{2-o(1)}<f_3(n,6,3)=o(n^2)$, their
+  $n^{k-o(1)}<f_r(n,3(r-k)+k+1,3)=o(n^k)$" (their $k$ is erdosproblems.com's
+  $t$, their $v=3(r-t)+t+1$ erdosproblems.com's $k$, three edges). It extends
+  the Ruzsa--Szemerédi $(6,3)$-theorem ($n^{2-o(1)}<f_3(n,6,3)=o(n^2)$, their
   (2)) and Erdős, Frankl and Rödl's $n^{2-o(1)}<f_r(n,3r-3,3)=o(n^2)$ for
   every $r\ge3$ (their (3), the case $e=3$, $k=2$ of their (1), so
   $3(r-2)+3=3r-3$ vertices; the preprint's display prints the vertex count
@@ -317,12 +318,12 @@ Delcourt and Postle's theorem and $\pi(3,2,2)=1/6$ is Rödl's packing value;
 with that theorem it gives the existence of the limit for all $r>t\ge2$ and
 $s\ge2$ (p. 2). Theorem 1.2 (p. 2) gives $\pi(3,2,s)>1/6$ for every even
 $s\ge4$, and Section 5 (p. 20) adds $\pi(3,2,s)\le1/5$. The paper's
-$f^{(r)}(n;s,k)$ has $s$ vertices and $k$ edges, the site's $k$ and $s$. The
-even-$s$ value is the packing coefficient of a high-girth partial Steiner
-system. The odd-$s$ value is larger and comes from packing pairs of edges that
-meet in $t$ vertices, with their extra $t$-sets shared among many pairs. The
-paper cites as earlier values Rödl's case $s=2$ and Glock, Joos, Kim, Kühn,
-Lichev and Pikhurko's cases $s\in\{3,4\}$ for every $r>t\ge2$, and for
+$f^{(r)}(n;s,k)$ has $s$ vertices and $k$ edges, erdosproblems.com's $k$ and
+$s$. The even-$s$ value is the packing coefficient of a high-girth partial
+Steiner system. The odd-$s$ value is larger and comes from packing pairs of
+edges that meet in $t$ vertices, with their extra $t$-sets shared among many
+pairs. The paper cites as earlier values Rödl's case $s=2$ and Glock, Joos, Kim,
+Kühn, Lichev and Pikhurko's cases $s\in\{3,4\}$ for every $r>t\ge2$, and for
 3-graphs the cases $2\le s\le7$; at $r=3$ its odd value $1/5$ agrees with the
 limits at $s=3$, $5$ and $7$ below. Acceptance evidence: none, an unrefereed
 preprint (v1 of 29 September 2026, the only version). Read depth: the
@@ -371,16 +372,16 @@ $\lim_{n=\infty}\frac1{n^2}f(n;G_3(k,k-2))=\frac16$ for every $k$; and the
 $G_3(6;4)$" (p. 81). [Va99], item 3.64 (Section 3.5): "Find the maximum number
 of edges in a $t$-uniform hypergraph in which every $k$ vertices span at most
 $r$ edges. This very difficult question contains the existence problem of block
-designs, the Ruzsa--Szemerédi Theorem etc." (the booklet's $t$ and $r$ are the
-site's $r$ and $s-1$).
+designs, the Ruzsa--Szemerédi Theorem etc." (the booklet's $t$ and $r$ are
+erdosproblems.com's $r$ and $s-1$).
 
-**Search scope.** None of the routes below found a
+**Search scope (2026-09-18 UTC).** None of the routes below found a
 determination of $\mathrm{ex}_r(n,\mathcal F)$ in general, a proof of the
 conjecture for any $s\ge4$ at small uniformity, or a proof claim.
 
-- The site: problem page and discussion thread, as accessed 2026-09-18 and
-  again on 2026-10-13 (the page last edited 24 January 2026, no comment), and
-  the proof-claim tab (no proof claim); the formal-conjectures tree and the
+- erdosproblems.com: problem page and discussion thread, as accessed 2026-09-18
+  and again on 2026-10-13 (the page last edited 24 January 2026, no comment),
+  and the proof-claim tab (no proof claim); the formal-conjectures tree and the
   community database on 2026-09-18 and 2026-10-07 (the Formalization paragraph
   records what each held on each date).
 - The primary sources, at the pages cited: [BES73] pp. 53--55 and 59, [Va99]
@@ -419,10 +420,10 @@ theorems are cited second-hand from the introductions of [AlSh06] and
 reviewed. (3) [AlSh06], [KeLo20] and [ShTy23] are cited from the preprints;
 the journal texts may differ. (4) The quadratic regime and
 the dense-linear results are recorded from abstracts, except [CHL26] and
-[BPSWZ26]; the regime is Problem 1076's. (5) The site's notation defect is
-recorded above and not resolved with the site. (6) The integer-exponent
-asymptotics rest on the unrefereed preprint [CHL26]. (7) The earlier
-determinations for particular parameters outside the cases routed to
+[BPSWZ26]; the regime is Problem 1076's. (5) The erdosproblems.com notation
+defect is recorded above and not resolved with erdosproblems.com. (6) The
+integer-exponent asymptotics rest on the unrefereed preprint [CHL26]. (7) The
+earlier determinations for particular parameters outside the cases routed to
 Problems 716 and 1076 have no claim pages here: the graph values of [BES73],
 the values at $s\le4$ for every $r>t\ge2$ that [CHL26] cites, Glock, Kim,
 Lichev, Pikhurko and Sun's limits at $s=5$ and $s=7$ and Pikhurko and Sun's

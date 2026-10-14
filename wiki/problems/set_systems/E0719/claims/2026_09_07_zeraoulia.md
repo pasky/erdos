@@ -70,5 +70,5 @@ inequality for all $3$-graphs on $6$ vertices, with
 $\mathrm{ex}_3(6;K_4^3)=14$; a thread comment has no page of its own.
 
 **Acceptance.** None. The preprint is not refereed, and no outside reviewer has
-endorsed it. The entry has no comments, and the site labeled the problem OPEN.
-This account follows the Zenodo abstract and the forum entry.
+endorsed it. The entry has no comments, and Bloom's catalog labeled the problem
+OPEN. This account follows the Zenodo abstract and the forum entry.

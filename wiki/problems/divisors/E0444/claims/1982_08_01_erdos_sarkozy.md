@@ -49,8 +49,8 @@ denominator. The answer is therefore yes for every $k$. The problem's
 numerator ranges over $n<x$ and its sum over $a<x$ where the papers use
 $n\le x$ and $a\le x$; the limits superior are unaffected.
 
-The site credits Part IV of the series, Studia Sci. Math. Hungar. 15 (1980),
-467–479
+erdosproblems.com credits Part IV of the series, Studia Sci. Math. Hungar. 15
+(1980), 467–479
 ([[../library/divisors/erdos_1980_asymptotic_formulas_generalized_divisor_functions/_index|card]]).
 Its introduction restates the displayed theorem as proved in Part II and records
 Part I's result; its own Theorem 2 concerns a different question, the smallest
@@ -62,9 +62,9 @@ Sárközy and the general $k$ as something they believed but could not prove
 ([[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|card]]).
 
 **Acceptance.** Refereed: Studia Sci. Math. Hungar. 15 (1980), 467–479, and J.
-Number Theory 15 (1982), no. 1, 115–136. Reviewed: the site's curator, T. F.
-Bloom, marked Problem 444 proved and credits Part IV. Part IV appears in the
-volume dated 1980, but it was received on 25 September 1981 and cites Part II as
-J. Number Theory 15 (1982). The page is dated by Part II's issue, August 1982,
-where the theorem was first published. No formalization is recorded, and this
-repository has not checked the proof independently.
+Number Theory 15 (1982), no. 1, 115–136. Reviewed: the erdosproblems.com
+curator, T. F. Bloom, marked Problem 444 proved and credits Part IV. Part IV
+appears in the volume dated 1980, but it was received on 25 September 1981 and
+cites Part II as J. Number Theory 15 (1982). The page is dated by Part II's
+issue, August 1982, where the theorem was first published. No formalization is
+recorded, and this repository has not checked the proof independently.

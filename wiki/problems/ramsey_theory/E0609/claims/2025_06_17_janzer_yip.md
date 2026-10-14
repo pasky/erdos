@@ -46,9 +46,9 @@ color classes, equals $N$ on $K_N$ and is close to $2$ on graphs without short
 odd cycles, using the Lovász theta function and approximation theory. The
 paper is O. Janzer and F. Yip, *Short monochromatic odd cycles*, Math. Proc.
 Cambridge Philos. Soc. 181 (2026), no. 1, 781--788, DOI
-10.1017/S0305004125101801, the site's [JaYi25]; its arXiv version is dated 17
-June 2025, the date this page carries, and the publisher's record gives online
-publication on 27 March 2026. It is paged on the library's
+10.1017/S0305004125101801, erdosproblems.com's [JaYi25]; its arXiv version is
+dated 17 June 2025, the date this page carries, and the publisher's record gives
+online publication on 27 March 2026. It is paged on the library's
 [[../library/ramsey_theory/janzer_2025_short_monochromatic_odd_cycles/_index|source card]].
 
 **Covers.** The upper bound $f(n)=O(n^{3/2}2^{n/2})$. Not covered: the growth
@@ -59,7 +59,7 @@ $2^{\sqrt{2\log_2n}-O(1)}$, is far smaller.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Mathematical Proceedings
-of the Cambridge Philosophical Society, volume 181. The site labeled the
+of the Cambridge Philosophical Society, volume 181. Bloom's catalog labeled the
 problem OPEN, so its commentary crediting Janzer and Yip is not an acceptance,
 and no `reviewed` evidence is listed.
 

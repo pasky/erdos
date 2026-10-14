@@ -5,7 +5,7 @@ desc: |
   Deshouillers and Freiman's theorem that for all large $N$ an admissible subset
   of the first $N$ integers has at most $2\sqrt{N+1/4}-1$ elements, which
   Straus's top block attains, so $k(N)\sim2\sqrt N$. The paper is refereed
-  (Astérisque) and the site credits it.
+  (Astérisque) and erdosproblems.com credits it.
 authors:
 - Jean-Marc Deshouillers
 - Gregory A. Freiman
@@ -80,8 +80,8 @@ France's Astérisque, vol. 258 (1999), pp. 141--148. The Crossref record for DOI
 10.24033/ast.442 types the article as a journal article in that venue (MR
 1701192, Zbl 0979.11005; Numdam and Crossref records read 2026-09-18). The
 volume carries the year only, so this page is named by the first day of 1999.
-Reviewed: the site's curator, Thomas Bloom, marked the problem proved on
-erdosproblems.com and credits Deshouillers and Freiman with proving the
+Reviewed: the erdosproblems.com curator, Thomas Bloom, marked the problem proved
+on erdosproblems.com and credits Deshouillers and Freiman with proving the
 conjecture for every large $N$. The curator's acceptance is the documented
 acceptance. Read depth: Theorem 1, Theorem 2 and the uniqueness remark are
 checked clause by clause, and the proof is read for structure only. Nothing is

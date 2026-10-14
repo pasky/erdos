@@ -64,12 +64,12 @@ extremal problem (p. 211), and Theorem 2 through the extremal sequence
 (pp. 212--219); the 42-page proof is recorded for structure only and is
 not checked here.
 
-**Formalization.** The site's "(Lean)" suffix refers to the file
+**Formalization.** erdosproblems.com's "(Lean)" suffix refers to the file
 `Erdos480.lean` in Boris Alexeev's repository, linked above at its commit
 of 7 September 2026; its header names Fan Chung and Ronald Graham
 as the informal authors and the AI systems Codex and GPT-5.6 Sol as the
 formal authors, so it is a formalization link on this page and not a claim
-of its own. Its theorem proves the site's inequality from a finite
+of its own. Its theorem proves erdosproblems.com's inequality from a finite
 statement, that among any thirteen consecutive terms some pair $n\le12$
 apart has $n\lvert x_{m+n}-x_m\rvert\le3/7$, together with $3/7<5^{-1/2}$;
 it does not prove the constant $\alpha$. Third-party Lean, not built or
@@ -84,9 +84,9 @@ carries no proof. The proof appears in the proceedings chapter On irregularities
 of distribution, in Finite and Infinite Sets (Eger, 1981), Colloq. Math. Soc.
 János Bolyai 37, North-Holland (1984), 181--222. That chapter is not shown to be
 refereed, so the proof's acceptance rests on the curator's credit. Reviewed: the
-site's curator, Thomas F. Bloom, marked Problem 480 PROVED (LEAN) and, in the
-problem's commentary, credits the chapter with the proof (page last edited 28
-December 2025). The curator neither wrote nor submitted the result. The 1980
-monograph of Erdős and Graham reports the theorem as just proved in its
+erdosproblems.com curator, Thomas F. Bloom, marked Problem 480 PROVED (LEAN)
+and, in the problem's commentary, credits the chapter with the proof (page last
+edited 28 December 2025). The curator neither wrote nor submitted the result.
+The 1980 monograph of Erdős and Graham reports the theorem as just proved in its
 added-in-proof note (p. 107). The page is dated by the first day of the issue
 month of the announcement, since the record gives no finer posting date.

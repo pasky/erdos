@@ -60,13 +60,12 @@ None.
 
 ## Bears on
 
-- [[../wiki/problems/distance_problems/E0654/_index|Problem 654]]: the
-  site's $f(n)$ is the least value of $\max_i d(x_i)$ over $n$-point sets
-  with no four points on a circle, the first of the weaker hypotheses Erdős
-  suggests for (3). Its question $f(n)>(1/3+c)n$ is (3) under that
-  hypothesis, and its
-  question $f(n)>(1-o(1))n$ asks that (4) have a negative answer for every
-  $c>0$ and large $n$ under that hypothesis. The paper's (3) and (4) assume
-  general position, which also excludes three points on a line, so a
-  configuration with three points on a line bears on the site's questions
-  but not on (3) or (4) as printed.
+- [[../wiki/problems/distance_problems/E0654/_index|Problem 654]]:
+  erdosproblems.com's $f(n)$ is the least value of $\max_i d(x_i)$ over
+  $n$-point sets with no four points on a circle, the first of the weaker
+  hypotheses Erdős suggests for (3). Its question $f(n)>(1/3+c)n$ is (3) under
+  that hypothesis, and its question $f(n)>(1-o(1))n$ asks that (4) have a
+  negative answer for every $c>0$ and large $n$ under that hypothesis. The
+  paper's (3) and (4) assume general position, which also excludes three points
+  on a line, so a configuration with three points on a line bears on the
+  erdosproblems.com questions but not on (3) or (4) as printed.

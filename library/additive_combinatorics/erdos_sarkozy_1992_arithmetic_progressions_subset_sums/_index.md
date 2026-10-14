@@ -207,9 +207,9 @@ proof. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0817/_index|#817]]: Theorem 4
 (printed p. 251, PDF p. 3), "For $N>N_0$ we have
-$[\log N/\log3]+2\le K(N)<\frac1{\log3}(\log N+\log\log N)+2$", is the
-site's "Erdős and Sárközy who proved $g_3(n)\gg3^n/n^{O(1)}$" in the
-paper's own formulation: the problem's $g_3(n)$ is the least $N$ such that
+$[\log N/\log3]+2\le K(N)<\frac1{\log3}(\log N+\log\log N)+2$", is
+erdosproblems.com's "Erdős and Sárközy who proved $g_3(n)\gg3^n/n^{O(1)}$" in
+the paper's own formulation: the problem's $g_3(n)$ is the least $N$ such that
 some $n$-element subset of $\{1,\ldots,N\}$ has progression-free subset
 sums, so $g_3(n)\le N$ forces $K(N)\ge n+1$, and the upper half of (7)
 gives $g_3(n)\gg3^n/n$; the interval step of p. 261, applied to the set

@@ -80,11 +80,11 @@ some $n$, for every constant $c$.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the site's
-  "$\ell_m(n)=k_m(n)$ for $2\le m\le4$". The two readings of the problem's
-  "disjoint paths", vertex-disjoint ($k_m$) and edge-disjoint ($\ell_m$),
-  ask the same question for $m\le4$, and the paper is the source that says
-  they first part at $m=5$; the vertex-disjoint disproof at $m=5$ is the
-  paper's forward citation of [6], the problem page's [Le73] (not held),
-  and p. 242 also restates $k_4(n)=2n-1$ with its citation to Bollobás
-  1966 (the problem page's [Bo66], not held).
+- [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]:
+  erdosproblems.com's "$\ell_m(n)=k_m(n)$ for $2\le m\le4$". The two readings of
+  the problem's "disjoint paths", vertex-disjoint ($k_m$) and edge-disjoint
+  ($\ell_m$), ask the same question for $m\le4$, and the paper is the source
+  that says they first part at $m=5$; the vertex-disjoint disproof at $m=5$ is
+  the paper's forward citation of [6], the problem page's [Le73] (not held), and
+  p. 242 also restates $k_4(n)=2n-1$ with its citation to Bollobás 1966 (the
+  problem page's [Bo66], not held).

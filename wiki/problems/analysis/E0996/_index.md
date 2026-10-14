@@ -38,13 +38,14 @@ $$
 
 for almost every $\alpha$?
 
-**Status.** Open. The site's label was unchanged (OPEN). The pending claims,
-both negative answers, are on
+**Status.** Open. The erdosproblems.com label was unchanged (OPEN). The pending
+claims, both negative answers, are on
 [[problems/analysis/E0996/claims/2026_04_20_ho|Ho's page]] and
-[[problems/analysis/E0996/claims/2026_09_26_yang|Yang's page]]. The site's
-proof-claims tab carries one full proof claim, filed 26 September 2026 by Ethan
-Yang using GPT-6 Astra and GPT-5.6 Sol, as the tab names them. A thread comment
-of 27 April 2026 points to Boon Suan Ho's earlier preprint.
+[[problems/analysis/E0996/claims/2026_09_26_yang|Yang's page]]. The
+erdosproblems.com proof-claims tab carries one full proof claim, filed 26
+September 2026 by Ethan Yang using GPT-6 Astra and GPT-5.6 Sol, as the tab names
+them. A thread comment of 27 April 2026 points to Boon Suan Ho's earlier
+preprint.
 
 **Source.** [erdosproblems.com/996](https://www.erdosproblems.com/996), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #996,
@@ -70,22 +71,22 @@ theorem for exponents above $1/2$, tagged research solved; neither carries a
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks whether some absolute exponent
-$C>0$ makes the Fourier-tail condition $\|f-f_n\|_2\ll(\log\log\log n)^{-C}$
-sufficient for the averages of $f\in L^2([0,1])$ along $\alpha n_k$, for a
-lacunary sequence $n_k$, to converge to the integral of $f$ for almost every
-$\alpha$. The positive results the site's commentary cites are a power of $\log
-n$ [KSZ48], a power of $\log\log n$ with exponent above $1$ [Er49d], and
-Matsuyama's extension of that to exponents above $1/2$ [Ma66]; Raikov's theorem
-needs no condition on $f$ when $n_k=a^k$ for an integer $a\ge2$, and is recorded
-as an accepted partial claim on
-[[problems/analysis/E0996/claims/1936_01_01_raikov|Raikov's page]]. The results
-of [KSZ48], [Er49d] and [Ma66] assume a stronger tail decay than the question
-allows and settle no instance of it, so they have no claim pages. Two preprints
-answer the question negatively, exactly at the endpoint of Matsuyama's range.
-Ho's construction (arXiv; first version 20 April 2026, endpoint form in the
-second version of 21 April 2026) gives a mean-zero $f$ in every finite $L^p$ and
-a dyadic lacunary sequence with $\|f-S_Nf\|_2\ll(\log\log N)^{-1/2}$ whose
+The erdosproblems.com formulation (accessed 2026-09-04) asks whether some
+absolute exponent $C>0$ makes the Fourier-tail condition
+$\|f-f_n\|_2\ll(\log\log\log n)^{-C}$ sufficient for the averages of
+$f\in L^2([0,1])$ along $\alpha n_k$, for a lacunary sequence $n_k$, to converge
+to the integral of $f$ for almost every $\alpha$. The positive results the
+erdosproblems.com commentary cites are a power of $\log n$ [KSZ48], a power of
+$\log\log n$ with exponent above $1$ [Er49d], and Matsuyama's extension of that
+to exponents above $1/2$ [Ma66]; Raikov's theorem needs no condition on $f$ when
+$n_k=a^k$ for an integer $a\ge2$, and is recorded as an accepted partial claim
+on [[problems/analysis/E0996/claims/1936_01_01_raikov|Raikov's page]]. The
+results of [KSZ48], [Er49d] and [Ma66] assume a stronger tail decay than the
+question allows and settle no instance of it, so they have no claim pages. Two
+preprints answer the question negatively, exactly at the endpoint of Matsuyama's
+range. Ho's construction (arXiv; first version 20 April 2026, endpoint form in
+the second version of 21 April 2026) gives a mean-zero $f$ in every finite $L^p$
+and a dyadic lacunary sequence with $\|f-S_Nf\|_2\ll(\log\log N)^{-1/2}$ whose
 averages have limit superior $+\infty$ almost everywhere, which defeats every
 triple-logarithmic exponent at once; Yang's construction (26 September 2026)
 gives a $\{0,1\}$-valued $f$ with the same decay whose averages have limit
@@ -93,28 +94,29 @@ superior at least $3/4$ against an integral at most $1/16$. Both are recorded as
 pending full claims on [[problems/analysis/E0996/claims/2026_04_20_ho|Ho's
 page]] and [[problems/analysis/E0996/claims/2026_09_26_yang|Yang's page]]; Yang
 credits Ho with the first disproof and presents the second as an independent
-bounded construction, neither is refereed or credited by the site, and the
-proofs were not checked here. The frontmatter's standing derives from these two
-agreeing pending claims.
+bounded construction, neither is refereed or credited by erdosproblems.com, and
+the proofs were not checked here. The frontmatter's standing derives from these
+two agreeing pending claims.
 
-The site's commentary records two further questions of Erdős from [Er64b]. The
-first asks whether the conclusion holds for every bounded $f$ and every lacunary
-$n_k$, and the constructions of both preprints answer it no. Ho's Theorem 1.7
-(p. 5) gives, for each $0<\varepsilon<1$, a set $E$ with $|E|<\varepsilon$ and a
-sequence with $n_{j+1}/n_j\ge2$ along which the averages of $\mathbf 1_E$ have
-limit superior $1$ almost everywhere, so the averages of the bounded mean-zero
-function $\mathbf 1_E-|E|$ have limit superior $1-|E|>0$ almost everywhere and
-do not converge to its integral $0$. Yang's $\{0,1\}$-valued function above is a
-second bounded example. Ho presents that theorem as a companion construction and
-remarks that stronger qualitative small-set statements were already known from
-the lacunary sweeping-out literature, citing Akcoglu, Bellow, Jones, Losert,
-Reinhold-Larsson and Wierdl (Ergodic Theory Dynam. Systems 16 (1996), 207--253)
-and Mondal, Roy and Wierdl (New York J. Math. 29 (2023), 1060--1074). Those
-papers are not held or read here, so that earlier credit is Ho's remark, and the
-proofs of the two preprints were not checked here. The second asks whether
-Raikov's conclusion, for every $f\in L^2([0,1])$ with no condition on its
-Fourier tail, holds for $n_k=\lfloor a^k\rfloor$ for some $a>1$; the status of
-that question has not been checked here.
+The erdosproblems.com commentary records two further questions of Erdős from
+[Er64b]. The first asks whether the conclusion holds for every bounded $f$ and
+every lacunary $n_k$, and the constructions of both preprints answer it no. Ho's
+Theorem 1.7 (p. 5) gives, for each $0<\varepsilon<1$, a set $E$ with
+$|E|<\varepsilon$ and a sequence with $n_{j+1}/n_j\ge2$ along which the averages
+of $\mathbf 1_E$ have limit superior $1$ almost everywhere, so the averages of
+the bounded mean-zero function $\mathbf 1_E-|E|$ have limit superior $1-|E|>0$
+almost everywhere and do not converge to its integral $0$. Yang's
+$\{0,1\}$-valued function above is a second bounded example. Ho presents that
+theorem as a companion construction and remarks that stronger qualitative
+small-set statements were already known from the lacunary sweeping-out
+literature, citing Akcoglu, Bellow, Jones, Losert, Reinhold-Larsson and Wierdl
+(Ergodic Theory Dynam. Systems 16 (1996), 207--253) and Mondal, Roy and Wierdl
+(New York J. Math. 29 (2023), 1060--1074). Those papers are not held or read
+here, so that earlier credit is Ho's remark, and the proofs of the two preprints
+were not checked here. The second asks whether Raikov's conclusion, for every
+$f\in L^2([0,1])$ with no condition on its Fourier tail, holds for
+$n_k=\lfloor a^k\rfloor$ for some $a>1$; the status of that question has not
+been checked here.
 
 Yang's repository carries a Lean 4 development that the author reports as a
 complete disproof of a statement reproducing the formal-conjectures statement of
@@ -122,10 +124,10 @@ the problem, which at its revision of 18 September 2026 tags the problem
 research open (Formalization above); the corpus has built nothing, so no
 formalized evidence is listed.
 
-Search scope: the site page, its thread and proof-claims tab, the arXiv record
-of Ho's preprint and its library card, the formal-conjectures file and Yang's
-repository, and the Math-Net.Ru record of Raikov's paper; no wider literature
-search was made.
+Search scope: the erdosproblems.com page, its thread and proof-claims tab, the
+arXiv record of Ho's preprint and its library card, the formal-conjectures file
+and Yang's repository, and the Math-Net.Ru record of Raikov's paper; no wider
+literature search was made.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

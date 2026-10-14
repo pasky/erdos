@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1125, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/analysis/E1125/claims
@@ -17,7 +17,7 @@ the measurable case of the question, and the paper is refereed.
 
 [[problems/analysis/E1125/claims/1984_01_01_laczkovich|1984_01_01_laczkovich]]: Laczkovich proves that every $f:\mathbb R\to\mathbb R$ with
 $2f(x)\le f(x+h)+f(x+2h)$ for all $x$ and all $h>0$ is nondecreasing, with no
-regularity assumed. The paper is refereed and credited by the site, and others
-have formalized the result in Lean.
+regularity assumed. The paper is refereed and credited by erdosproblems.com,
+and others have formalized the result in Lean.
 
 ***

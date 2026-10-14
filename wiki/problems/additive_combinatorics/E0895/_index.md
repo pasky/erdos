@@ -25,18 +25,18 @@ updated: 2026-10-08T02:16:54Z
 triangle-free graph on $\{1,\ldots,n\}$ then there must exist three independent
 points $a,b,a+b$?
 
-**Status.** Proved. This is the site's label, which records the answer as yes.
-The explicit threshold is $n\ge18$. The accepted claim is Barber's verification
-with a SAT solver that the statement holds for every $n\ge18$. The site reports
-it as a personal communication. A check at $n=18$ suffices by restricting a
-graph to its first eighteen vertices, as the claim page explains. The claim is
-recorded on
+**Status.** Proved. This is the erdosproblems.com label, which records the
+answer as yes. The explicit threshold is $n\ge18$. The accepted claim is
+Barber's verification with a SAT solver that the statement holds for every
+$n\ge18$. erdosproblems.com reports it as a personal communication. A check at
+$n=18$ suffices by restricting a graph to its first eighteen vertices, as the
+claim page explains. The claim is recorded on
 [[problems/additive_combinatorics/E0895/claims/2025_04_06_barber|its claim page]]
 with the curator's acceptance as its only evidence. No paper or certificate of
-Barber's is known (see the search scope below). The site's commentary also
-records Hajnal's stronger question: whether a large triangle-free graph must
-have an independent Hindman set. That question remains open and is separate from
-the stated problem.
+Barber's is known (see the search scope below). The erdosproblems.com commentary
+also records Hajnal's stronger question: whether a large triangle-free graph
+must have an independent Hindman set. That question remains open and is separate
+from the stated problem.
 
 **Source.** [erdosproblems.com/895](https://www.erdosproblems.com/895), accessed
 2026-09-04: the problem page (PROVED; no last-edited date shown; source key
@@ -48,8 +48,8 @@ https://www.erdosproblems.com/895, accessed 2026-09-04.
 **References.**
 
 - [Er95d] Erdős, P., On some problems in combinatorial set theory. Publ. Inst.
-  Math. (Beograd) (N.S.) (1995), 61--65. The site's source key for the
-  problem.
+  Math. (Beograd) (N.S.) (1995), 61--65. The erdosproblems.com source key for
+  the problem.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/0f34955e1a6841d31c59d76c99252423894752d1/FormalConjectures/ErdosProblems/895.lean)
@@ -61,18 +61,19 @@ page and is not among the Lean the corpus has built and audited, so it gives no
 posted on 2026-09-16 to the Justin Sun Prize awards repository and in two
 GitHub repositories, are listed on the claim page as well; the corpus has
 built none of them. The same file records Hajnal's Hindman-set question as an
-open variant. The site's page marks the statement as formalised.
+open variant. The erdosproblems.com page marks the statement as formalised.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-04).** The statement above;
-PROVED, with the site recording the answer as yes. The site's commentary, in
-the corpus's words: the problem is one of Erdős and Hajnal; Barber verified
-with a SAT solver that the statement holds for all $n\ge18$ (a personal
-communication to the curator), and Hajnal thought that a large triangle-free
-graph on $\{1,\ldots,n\}$ must even contain an independent Hindman set, the set
-of nonempty subset sums of some $a_1,\ldots,a_k$, once $n$ is large in terms of
-$k$. The discussion thread and the proof-claim tab are empty.
+**The question (erdosproblems.com formulation, accessed 2026-09-04).** The
+statement above; PROVED, with erdosproblems.com recording the answer as yes. The
+erdosproblems.com commentary, in the corpus's words: the problem is one of Erdős
+and Hajnal; Barber verified with a SAT solver that the statement holds for all
+$n\ge18$ (a personal communication to the curator), and Hajnal thought that a
+large triangle-free graph on $\{1,\ldots,n\}$ must even contain an independent
+Hindman set, the set of nonempty subset sums of some $a_1,\ldots,a_k$, once $n$
+is large in terms of $k$. The discussion thread and the proof-claim tab are
+empty.
 
 **What is known.** The accepted claim,
 [[problems/additive_combinatorics/E0895/claims/2025_04_06_barber|Barber's SAT check]]:
@@ -88,20 +89,20 @@ verifications credited to Barber do the same. These files are outside the Lean
 the corpus has built and audited, so the claim's evidence is the curator's
 acceptance alone. One of the later postings also claims a Lean check of a
 $42$-edge triangle-free graph on $\{1,\ldots,17\}$ with no independent triple
-$a$, $b$, $a+b$, which would make $18$ sharp; the site does not state whether
-$18$ is sharp. Hajnal's Hindman-set question is open and separate from the
-stated problem.
+$a$, $b$, $a+b$, which would make $18$ sharp; erdosproblems.com does not state
+whether $18$ is sharp. Hajnal's Hindman-set question is open and separate from
+the stated problem.
 
-**Search scope.** The site's problem page, its discussion thread (empty on
-2026-10-07) and its empty proof-claim tab; the formal-conjectures statement
-file at the pinned commit and its pull request and issue; the lean-proofs file
-at its pinned commit; the community database record (status proved, last
-updated 2025-08-31; formalized yes, last updated 2026-09-19; formal status
-unformalized); web searches for a paper, code or certificate of Barber's on the
-problem, which on 2026-10-07 found only the formal-conjectures pull request and
-issue and the three Lean verifications on the Justin Sun Prize awards repository
-and in the repositories it links. Not searched: arXiv listings, Barber's own web
-pages, or correspondence with Barber.
+**Search scope.** The erdosproblems.com problem page, its discussion thread
+(empty on 2026-10-07) and its empty proof-claim tab; the formal-conjectures
+statement file at the pinned commit and its pull request and issue; the
+lean-proofs file at its pinned commit; the community database record (status
+proved, last updated 2025-08-31; formalized yes, last updated 2026-09-19; formal
+status unformalized); web searches for a paper, code or certificate of Barber's
+on the problem, which on 2026-10-07 found only the formal-conjectures pull
+request and issue and the three Lean verifications on the Justin Sun Prize
+awards repository and in the repositories it links. Not searched: arXiv
+listings, Barber's own web pages, or correspondence with Barber.
 
 **Remaining gaps.** (1) No paper, code or certificate of Barber's is known; the
 result rests on the curator's report and on Lean reconstructions by others.

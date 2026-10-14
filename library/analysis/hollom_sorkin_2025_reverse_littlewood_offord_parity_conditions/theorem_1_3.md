@@ -56,4 +56,4 @@ infimum between two exponentials. This page records no proof coverage and
 no verification tier.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — the odd-$n$ unit-radius
-variant of the catalog question.
+variant of the erdosproblems.com question.

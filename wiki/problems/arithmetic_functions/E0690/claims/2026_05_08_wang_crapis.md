@@ -50,7 +50,8 @@ values, certified finite computations through $k=8600001$ (including its own
 check, in Table 1, of Cambie's range $4\le k\le20$), and a uniform
 Chinese-remainder construction for every larger $k$.
 
-**Submission note.** Posted to the site's forum by Shouqiao Wang on 8 May 2026:
+**Submission note.** Posted to the erdosproblems.com forum by Shouqiao Wang on 8
+May 2026:
 
 > We would like to share a manuscript proposing a resolution. The manuscript
 > includes a complete proof together with a public numerical verifier.
@@ -80,13 +81,13 @@ certificates are pending, and the analytic estimates, the constant enclosure
 and the two large prime records are imported premises. That is this project's
 own work and warrants no acceptance.
 
-**Standing.** Claimed. The authors announced the manuscript in the site's
-thread on 2026-05-08 with a public numerical verifier; Nat Sothanaphan
-posted in the thread on 2026-05-12 that a standard check found no issues,
-with a caveat that the presentation overstates what the verifier did, and
-that the proof could be regarded as correct given the checkers named in the
-acknowledgments. The site's remarks (page last edited 10 May 2026) cite only
-Cambie's range; the site listed no proof claim, and no refereed publication
-was found on 2026-10-07. The title page credits the proof to an AI
-system ("Discovered by the Multiscalar Fields System") with the two named
-authors; the attribution is recorded as the source states it.
+**Standing.** Claimed. The authors announced the manuscript in the
+erdosproblems.com thread on 2026-05-08 with a public numerical verifier; Nat
+Sothanaphan posted in the thread on 2026-05-12 that a standard check found no
+issues, with a caveat that the presentation overstates what the verifier did,
+and that the proof could be regarded as correct given the checkers named in the
+acknowledgments. The erdosproblems.com remarks (page last edited 10 May 2026)
+cite only Cambie's range; erdosproblems.com listed no proof claim, and no
+refereed publication was found on 2026-10-07. The title page credits the proof
+to an AI system ("Discovered by the Multiscalar Fields System") with the two
+named authors; the attribution is recorded as the source states it.

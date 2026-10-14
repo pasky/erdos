@@ -27,9 +27,9 @@ figure 1/3584 as printed.
 
 R. Freud, Adding numbers. James Cook Mathematical Notes 6 (1993), issue 60
 (January 1993), 6199-6202 (the heading of p. 6199 and the contents of p. 6183
-print the title "Adding numbers" and the author's name "Ròbert Freud"; the
-site's [Fr93] adds "- on a problem of P. Erdős", which the issue does not
-print).
+print the title "Adding numbers" and the author's name "Ròbert Freud";
+erdosproblems.com's [Fr93] adds "- on a problem of P. Erdős", which the issue
+does not print).
 
 The copy read for this card is an
 image-only scan of the whole issue: 22 PDF pages, the cover (printed
@@ -65,8 +65,9 @@ and notes 2/3 is best possible if only the relations a_i = a_j + a_{j+1}
 are forbidden. The note records that Coppersmith and Phillips
 independently rediscovered and improved the
 construction to 13n/24 + O(1) and the upper bound to 2/3 - 1/3584 (as printed
-on p. 6201; the site's commentary on problem 867 and the catalog's Lean file
-print 2/3 - 1/512 for that bound). The SIAM paper is filed as
+on p. 6201; the erdosproblems.com commentary on problem 867 and
+formal-conjectures' Lean file print 2/3 - 1/512 for that bound). The SIAM paper
+is filed as
 [[additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/_index|coppersmith_phillips_1996_question_erdos_subsequence_sums]];
 its Theorem 3.7 prints the bound 2n/3 - floor(n/512) + 3 log_4 n - 1/2 on
 printed p. 177 (PDF p. 5), read there on the page image and
@@ -74,15 +75,14 @@ paged on
 [[additive_combinatorics/coppersmith_phillips_1996_question_erdos_subsequence_sums/theorem_3_7|theorem_3_7]];
 its abstract prints epsilon = 1/512 on printed p. 173 (PDF p. 1, text
 layer), and the text layer of its five pages,
-nowhere prints 3584, so the published figure is the site's 1/512 and the
-1/3584 is this note's alone. The scan is
-of the whole JCMN issue; page 6203 carries Erdos's companion note 'Adding
-numbers 2' asking whether a set in [1,n] all of whose consecutive-block sums are
-distinct must have k = o(n), and how large k can be. Freud's construction and
-upper bound are the quantitative content behind problem 867, the infinite
-version bears on problem 839, and the Erdos note on distinct consecutive sums
-is the Erdos-Harzheim question of problem 357, which Freud's note does not
-address.
+nowhere prints 3584, so the published figure is erdosproblems.com's 1/512 and
+the 1/3584 is this note's alone. The scan is of the whole JCMN issue; page 6203
+carries Erdos's companion note 'Adding numbers 2' asking whether a set in [1,n]
+all of whose consecutive-block sums are distinct must have k = o(n), and how
+large k can be. Freud's construction and upper bound are the quantitative
+content behind problem 867, the infinite version bears on problem 839, and the
+Erdos note on distinct consecutive sums is the Erdos-Harzheim question of
+problem 357, which Freud's note does not address.
 
 Source: <https://webhomes.maths.ed.ac.uk/cook/iss_no60.PDF>.
 
@@ -95,7 +95,7 @@ sums of two or more consecutive members (the problem's consecutive $a_j$
 with $j<i$), and a sequence with $\limsup A(n)/n=19/36$ has
 $\liminf a_n/n\le\tfrac{36}{19}$, which decides neither the
 problem's $\limsup a_n/n=\infty$ nor its logarithmic-density question;
-the site's key [Fr93].
+the erdosproblems.com key [Fr93].
 [[../wiki/problems/additive_combinatorics/E0867/_index|#867]]: the construction (pp.
 6199--6201) gives, for $N=144y-12$, sets of $\tfrac{19}{36}N-\tfrac23$
 members, against the problem's $|A|\le N/2+O(1)$, the verification that no
@@ -117,7 +117,7 @@ remark ($2/3$) and the Coppersmith--Phillips report (p. 6201).
 - [[additive_combinatorics/freud_1993_adding_numbers_problem_p/upper_bound_p6201|Remark]]
   (Coppersmith-Phillips, p. 6201, read at 300 dpi): Coppersmith and
   Phillips improved the construction to 13n/24 + O(1) and the upper bound to
-  2/3 - 1/3584 (the site prints 2/3 - 1/512).
+  2/3 - 1/3584 (erdosproblems.com prints 2/3 - 1/512).
 - Erdos, 'Adding numbers 2' (p. 6203): Erdos and Harzheim ask whether
   a_1<...<a_k<=n with all consecutive-block sums distinct forces k = o(n), and
   whether k as large as n/(log n)^c is possible.

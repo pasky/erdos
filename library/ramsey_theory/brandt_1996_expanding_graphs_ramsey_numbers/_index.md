@@ -8,7 +8,7 @@ desc: |
   graph on n vertices is triangle-good by 84 n.
 license: unstated
 created: 2026-09-17T10:30:00Z
-updated: 2026-10-08T15:35:15Z
+updated: 2026-10-14T01:26:18Z
 ---
 
 # ramsey_theory/brandt_1996_expanding_graphs_ramsey_numbers
@@ -18,8 +18,8 @@ updated: 2026-10-08T15:35:15Z
 [[ramsey_theory/brandt_1996_expanding_graphs_ramsey_numbers/bound_p7|bound_p7]]: Brandt's unnumbered 1996 bound that every connected graph of order n and
 size at most 84 n need not be triangle-good: almost every 168-regular or
 denser graph H has Ramsey number against a triangle above twice its order.
-In the site's letters, F(n) < 84 n for large n, which would answer the
-closing question of Problem 1182 negatively.
+In erdosproblems.com's letters, F(n) < 84 n for large n, which would answer
+the closing question of Problem 1182 negatively.
 
 [[ramsey_theory/brandt_1996_expanding_graphs_ramsey_numbers/theorem_1|theorem_1]]: Brandt's 1996 theorem that for every nonbipartite graph G some function
 h(G, d) tending to infinity with d satisfies r(G, H) > h(G, d) n for almost

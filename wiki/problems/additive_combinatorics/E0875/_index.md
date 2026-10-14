@@ -32,7 +32,7 @@ are disjoint for distinct $r\geq 1$. How fast can such a sequence grow? How
 small can $a_{n+1}-a_n$ be? In particular, for which $c$ is it possible that
 $a_{n+1}-a_n\leq n^{c}$?
 
-**Formulation.** The site's wording on 2026-09-18 (the page shows no
+**Formulation.** The erdosproblems.com wording on 2026-09-18 (the page shows no
 last-edited date). The condition is admissibility (the
 sum of a finite subset determines its size), the infinite form of
 [[problems/additive_combinatorics/E0874/_index|Problem 874]]. "How fast can such
@@ -40,12 +40,13 @@ a sequence grow" asks how slowly it can grow, that is how large its
 counting function $A(x)=|A\cap[1,x]|$ can be; the gap questions ask for
 the smallest possible consecutive differences, and the last one for the
 exponents $c$ for which some admissible sequence has $a_{n+1}-a_n\le n^c$
-(for all $n$, or for all large $n$; the site does not say which; of the
+(for all $n$, or for all large $n$; erdosproblems.com does not say which; of the
 bounds below, the necessary $c\ge1$ holds in either reading, while the
-sufficient exponents are for all large $n$). The site quotes Erdős (1998) on the
-related property $a_{n+1}/a_n\to1$.
+sufficient exponents are for all large $n$). erdosproblems.com quotes Erdős
+(1998) on the related property $a_{n+1}/a_n\to1$.
 
-**Status.** Open. The site's label was OPEN (on 2026-09-18 and on 2026-10-06).
+**Status.** Open. The erdosproblems.com label was OPEN (on 2026-09-18 and on
+2026-10-06).
 
 The primary sources give the following, each with the page it comes from. Every
 infinite admissible $A$ has $A(x)\le2\sqrt{x+1/4}-1$ for $x\ge N_0$, by Theorem
@@ -60,28 +61,29 @@ made on this page and named as such.
 
 So $c\ge1$ is necessary, and every $c>5+2\sqrt6$ is possible for all large $n$.
 No source found places $c$ between them. None gives an admissible sequence with
-$a_{n+1}/a_n\to1$. Erdős's 1998 remark is quoted from the site, and the paper is
-not held. A note in the site's thread, generated with GPT-5.5 Pro and
-accompanied by a Lean development, claims gaps at most $n^{3+2\sqrt2}$ for every
-$n$ and $o(n^{3+2\sqrt2})$, where $3+2\sqrt2=5.828\ldots$. It has a partial
-claim page,
+$a_{n+1}/a_n\to1$. Erdős's 1998 remark is quoted from erdosproblems.com, and the
+paper is not held. A note in the erdosproblems.com thread, generated with
+GPT-5.5 Pro and accompanied by a Lean development, claims gaps at most
+$n^{3+2\sqrt2}$ for every $n$ and $o(n^{3+2\sqrt2})$, where
+$3+2\sqrt2=5.828\ldots$. It has a partial claim page,
 [[problems/additive_combinatorics/E0875/claims/2026_05_07_mazur|Mazur's admissible sequence]],
 with status claimed. It is not a source for the bounds above. This is a bounded
 negative finding, not a certificate of openness.
 
 **Source.** [erdosproblems.com/875](https://www.erdosproblems.com/875),
-accessed 2026-09-18: the problem page (labeled OPEN, with the site's note that the problem cannot be settled by a finite
-computation; no last-edited date; source key [Er98]; commentary; indicator
-"Formalised statement? No"), its seven-comment discussion thread (24
-February 2026 to 11 May 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
+accessed 2026-09-18: the problem page (labeled OPEN, with the erdosproblems.com
+note that the problem cannot be settled by a finite computation; no last-edited
+date; source key [Er98]; commentary; indicator "Formalised statement? No"), its
+seven-comment discussion thread (24 February 2026 to 11 May 2026) and its empty
+proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #875, https://www.erdosproblems.com/875, accessed 2026-09-18.
 
 **References.**
 
 - [Er98] Erdős, P., Some of my new and almost new problems and results in
   combinatorial number theory. Number theory (Eger, 1996), de Gruyter
-  (1998), 169--180. Not held; the site's only key, quoted through the
-  site's commentary.
+  (1998), 169--180. Not held; erdosproblems.com's only key, quoted through the
+  erdosproblems.com commentary.
 - [ENS91] Erdős, P., Nicolas, J.-L. and Sárközy, A., Sommes de
   sous-ensembles. Sém. Théor. Nombres Bordeaux (2) 3 (1991), no. 1, 55--72,
   doi:10.5802/jtnb.42. Section 5, pp. 65--69: Théorème 2. Library home:
@@ -121,25 +123,25 @@ February 2026 to 11 May 2026) and its empty proof-claim tab. Cite as: T. F. Bloo
   [[problems/additive_combinatorics/E0875/claims/2026_05_07_mazur|Mazur's admissible sequence]].
 
 **Formalization.** None. The main branch of google-deepmind/formal-conjectures
-held no file `ErdosProblems/875.lean` on 2026-09-18, and the site's
+held no file `ErdosProblems/875.lean` on 2026-09-18, and the erdosproblems.com
 indicator reads "Formalised statement? No". The community database on
 the same day records the problem open (31 August 2025), not formalized,
 no formal proof. The thread's Lean development ([Ma26]) formalizes the
 note's own theorem, an admissible sequence with the gap bound, not the
-site's question; what it states is recorded on the claim page. It is not
-among the Lean the corpus has built and audited, so it gives no
-`formalized` evidence.
+erdosproblems.com question; what it states is recorded on the claim page. It is
+not among the Lean the corpus has built and audited, so it gives no `formalized`
+evidence.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
-above; OPEN, with the site's note that the problem cannot be settled
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN, with the erdosproblems.com note that the problem cannot be settled
 by a finite computation; no last-edited date. The commentary attributes the problem
 to Deshouillers and Erdős as the infinite version of Problem 874, notes
 the name admissible for such sets, quotes Erdős ([Er98], not held) to the
 effect that an admissible sequence with $a_{n+1}/a_n\to1$ takes some work
-to find (in the site's bracketed reading of his words), and adds that the
-remark leaves open whether the two authors had such a sequence. The
+to find (in erdosproblems.com's bracketed reading of his words), and adds that
+the remark leaves open whether the two authors had such a sequence. The
 proof-claim tab is empty. The thread (seven comments), oldest first: on 24
 February 2026 a thread commenter reports two references found with
 GPT-5.2 Thinking, [ENS91] Théorème 2 (an infinite admissible set with
@@ -160,7 +162,8 @@ pointwise bound, and remarks that the note's abbreviations for the paper
 and for the gap question are not standard; on 9 May 2026 the poster reports
 the formalization fixed to state the all-index pointwise bound; the three
 remaining comments (8--11 May 2026) discuss the tooling and are not
-mathematical. No comment is by the site's maintainer; the label was OPEN.
+mathematical. No comment is by the erdosproblems.com maintainer; the label was
+OPEN.
 
 **What the primary sources give.** Three statements from refereed papers
 and two one-line deductions made on this page.
@@ -196,14 +199,15 @@ and two one-line deductions made on this page.
 - The ratio question. A gap bound $a_{n+1}-a_n\le n^c$ with $c<2$ would give
   $a_{n+1}/a_n\le1+n^c/(n(n+2)/4)\to1$; no source found provides such a bound,
   and whether the sequence of Théorème 2 has ratios tending to $1$ is not stated
-  in [ENS91]. [Er98] is not held; the remark rests on the site's quotation.
+  in [ENS91]. [Er98] is not held; the remark rests on erdosproblems.com's
+  quotation.
 
 **The thread note.** The note [Ma26] of 7 May 2026 claims an infinite
 admissible sequence with $a_{n+1}-a_n\le n^{3+2\sqrt2}$ for every $n$ and
 $a_{n+1}-a_n=o(n^{3+2\sqrt2})$, with a Lean formalization of that
 statement; it was generated with GPT-5.5 Pro and formalized with Codex by
 its poster, a thread comment reports a ChatGPT check and a corrected
-formalization scope, and no mathematician, journal or the site has
+formalization scope, and no mathematician, journal or erdosproblems.com has
 accepted it. The note's corollary also claims $a_n=o(n^{4+2\sqrt2})$, that
 is $A(x)=\omega(x^{1/(4+2\sqrt2)})$, which would improve the growth
 exponent $5-2\sqrt6=0.1010\ldots$ of [ENS91] to
@@ -219,7 +223,7 @@ nothing beyond them.
 exponent $c$ below $5+2\sqrt6$ or above $1$, or an admissible
 sequence with $a_{n+1}/a_n\to1$.
 
-- The site: problem page, discussion thread and proof-claim tab on
+- erdosproblems.com: problem page, discussion thread and proof-claim tab on
   2026-09-18; the community database record; the formal-conjectures
   main branch on 2026-09-18 (no file).
 - The primary sources: [ENS91] pp. 65 and 69, [DeFr99] pp. 141--142,
@@ -237,7 +241,7 @@ bound recorded in the references and adds nothing to the deductions
 above.
 
 **Remaining gaps.** (1) [Er98] is not held: the problem's attribution to
-Deshouillers and Erdős and the $a_{n+1}/a_n\to1$ remark are the site's
+Deshouillers and Erdős and the $a_{n+1}/a_n\to1$ remark are erdosproblems.com's
 account. (2) The exponent question is open between $1$ and $5+2\sqrt6$ on
 the primary sources (the sufficient exponents are eventual), with the
 unreviewed note generated with GPT-5.5 Pro claiming $3+2\sqrt2$ on its

@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 350, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_combinatorics/E0350/claims
@@ -19,6 +19,6 @@ is accepted.
 [[problems/additive_combinatorics/E0350/claims/1977_09_01_hanson_steele_stenger|1977_09_01_hanson_steele_stenger]]: A two-page note by Hanson, Steele and Stenger (Proc. Amer. Math. Soc. 1977)
 proves that a set $A$ with distinct subset sums has
 $\sum_{n\in A}n^{-s}<1/(1-2^{-s})$ for every $s>0$, and $s=1$ is the problem's
-bound. It is accepted on the publication and the site's credit.
+bound. It is accepted on the publication and the erdosproblems.com credit.
 
 ***

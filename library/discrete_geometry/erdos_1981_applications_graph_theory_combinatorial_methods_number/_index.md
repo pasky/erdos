@@ -122,26 +122,26 @@ the colloquium volume has no publisher page or DOI for this edition, so none was
 consulted, and no Crossref license is recorded; the term is unstated.
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0104/_index|#104]]: the
-site's statement, that the number of distinct unit circles through at least
-three of n points is o(n^2), is the first half of conjecture (7) (p. 144), and
-the paper states the bound 3n/2 < h(n) <= n(n-1) without proof (p. 143)
+erdosproblems.com statement, that the number of distinct unit circles through at
+least three of n points is o(n^2), is the first half of conjecture (7) (p. 144),
+and the paper states the bound 3n/2 < h(n) <= n(n-1) without proof (p. 143)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/unit_circles_p143|unit_circles_p143]]).
-[[../wiki/problems/discrete_geometry/E0107/_index|#107]]: the site's statement is
-Szekeres's conjecture f(k) = 2^{k-2}+1 as the paper states it (p. 138), with the
-lower half reported proved in (1) and Makai and Turán's f(5) = 9
+[[../wiki/problems/discrete_geometry/E0107/_index|#107]]: the erdosproblems.com
+statement is Szekeres's conjecture f(k) = 2^{k-2}+1 as the paper states it (p.
+138), with the lower half reported proved in (1) and Makai and Turán's f(5) = 9
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/erdos_szekeres_bounds_p138|erdos_szekeres_bounds_p138]]).
-[[../wiki/problems/discrete_geometry/E0216/_index|#216]]: the paper's n_k is the
-site's g(k) for points with no three on a line; the paper reports g(4) = 5 and
-g(5) = 10 and asks whether g(6) exists (p. 138)
+[[../wiki/problems/discrete_geometry/E0216/_index|#216]]: the paper's n_k is
+erdosproblems.com's g(k) for points with no three on a line; the paper reports
+g(4) = 5 and g(5) = 10 and asks whether g(6) exists (p. 138)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/empty_convex_polygons_p138|empty_convex_polygons_p138]]).
 [[../wiki/problems/discrete_geometry/E0504/_index|#504]]: the reported
 Erdős-Szekeres theorem on angles of 2^n points and Szekeres's construction
-(p. 139) give the site's alpha at 2^n points, a consequence drawn on the result
-page, not in the paper
+(p. 139) give erdosproblems.com's alpha at 2^n points, a consequence drawn on
+the result page, not in the paper
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/large_angle_polygons_p139|large_angle_polygons_p139]]).
-[[../wiki/problems/discrete_geometry/E0838/_index|#838]]: the site's f(n) is the
-paper's min C(x_1,...,x_n); display (4) (p. 140) bounds it, and the site's limit
-question is Erdős's expectation log min C ~ c log^2 n
+[[../wiki/problems/discrete_geometry/E0838/_index|#838]]: erdosproblems.com's
+f(n) is the paper's min C(x_1,...,x_n); display (4) (p. 140) bounds it, and
+erdosproblems.com's limit question is Erdős's expectation log min C ~ c log^2 n
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/convex_subsets_p140|convex_subsets_p140]]).
 [[../wiki/problems/discrete_geometry/E0508/_index|#508]] and
 [[../wiki/problems/discrete_geometry/E0704/_index|#704]]: the paper reports 4 <=
@@ -151,34 +151,34 @@ of interest (pp. 141-142)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/unit_distance_chromatic_p141|unit_distance_chromatic_p141]]).
 [[../wiki/problems/discrete_geometry/E0705/_index|#705]] and
 [[../wiki/problems/graph_coloring/E0706/_index|#706]]: Erdős's girth conjecture
-is the site's #705 question, and Wormald's girth-5 example (as reported) shows
-that k = 5 does not suffice; his question on the growth of alpha_2(r) is the
-site's #706 question (p. 142)
+is erdosproblems.com's #705 question, and Wormald's girth-5 example (as
+reported) shows that k = 5 does not suffice; his question on the growth of
+alpha_2(r) is erdosproblems.com's #706 question (p. 142)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/unit_distance_graphs_p142|unit_distance_graphs_p142]]).
-[[../wiki/problems/distance_problems/E0090/_index|#90]]: the site asks whether
-the reported lower bound f_2(n) > n^{1+c/log log n} gives the true order, which
-Erdős calls probably close to the truth; his conjecture f_2(n) < n^{1+eps} is
-weaker (p. 143)
+[[../wiki/problems/distance_problems/E0090/_index|#90]]: erdosproblems.com asks
+whether the reported lower bound f_2(n) > n^{1+c/log log n} gives the true
+order, which Erdős calls probably close to the truth; his conjecture f_2(n) <
+n^{1+eps} is weaker (p. 143)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/unit_distances_p143|unit_distances_p143]]).
-[[../wiki/problems/additive_bases/E0028/_index|#28]]: the site's statement is the
-Erdős-Turán conjecture as the paper states it (p. 144)
+[[../wiki/problems/additive_bases/E0028/_index|#28]]: the erdosproblems.com
+statement is the Erdős-Turán conjecture as the paper states it (p. 144)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/erdos_turan_p144|erdos_turan_p144]]).
 [[../wiki/problems/additive_combinatorics/E0052/_index|#52]]: the conjecture
-f(n) > n^{2-eps} for the number of distinct a_i + a_j and a_i a_j is the site's
-statement, with the Erdős-Szemerédi bounds (1) (p. 146)
+f(n) > n^{2-eps} for the number of distinct a_i + a_j and a_i a_j is the
+erdosproblems.com statement, with the Erdős-Szemerédi bounds (1) (p. 146)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/sums_products_p146|sums_products_p146]]).
 [[../wiki/problems/ramsey_theory/E0172/_index|#172]]: question (5) (pp.
-146-147) is the two-colour case of the site's question, reported open for n >=
-3; the infinite question (4) is reported disproved by Hindman
+146-147) is the two-colour case of the erdosproblems.com question, reported open
+for n >= 3; the infinite question (4) is reported disproved by Hindman
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/monochromatic_sums_products_p146|monochromatic_sums_products_p146]]).
 [[../wiki/problems/integer_sequences/E0710/_index|#710]],
 [[../wiki/problems/integer_sequences/E0711/_index|#711]],
 [[../wiki/problems/primes/E0860/_index|#860]] and
 [[../wiki/problems/integer_sequences/E0650/_index|#650]]: the paper's f(n)
-(interval (n, n f(n)) in place of the site's (n, n+f(n))), F(n) < n^{3/2+eps},
-the open F*(n) = O(n) (with p read as prime; the paper does not say), and the
-Erdős-Selfridge intervals, which give the site's
-f(k^2) <= 2k for #650 (pp. 147-148)
+(interval (n, n f(n)) in place of erdosproblems.com's (n, n+f(n))), F(n) <
+n^{3/2+eps}, the open F*(n) = O(n) (with p read as prime; the paper does not
+say), and the Erdős-Selfridge intervals, which give erdosproblems.com's f(k^2)
+<= 2k for #650 (pp. 147-148)
 ([[discrete_geometry/erdos_1981_applications_graph_theory_combinatorial_methods_number/divisor_matchings_p147|divisor_matchings_p147]]).
 
 **Results.**

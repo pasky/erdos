@@ -35,11 +35,11 @@ equality perhaps only for the triangular lattice?
 In particular, is it true that the number of distances $\leq \sqrt{3}-\epsilon$
 is less than $1$?
 
-**Formulation.** The site's commentary says that this wording, essentially
-verbatim from [Er97e], does not make sense as written; it fixes no intended
-form, and no source supplies one, so the wording stands and the standing
-judges it under each reading. Here $f(t)$ is the number of points of the
-triangular lattice within distance $t$ of a lattice point: $f(t)=6$ for
+**Formulation.** The erdosproblems.com commentary says that this wording,
+essentially verbatim from [Er97e], does not make sense as written; it fixes no
+intended form, and no source supplies one, so the wording stands and the
+standing judges it under each reading. Here $f(t)$ is the number of points of
+the triangular lattice within distance $t$ of a lattice point: $f(t)=6$ for
 $1\le t<\sqrt3$, $f(\sqrt3)=12$, $f(2)=18$ and $f(3)=36$, so the printed
 example $f(3)=18$ is wrong, and $18$ is $f(2)$. "The number of distances
 $d(x_i,x_j)\leq t$" has two readings, and both fail. Counted over pairs, a
@@ -59,56 +59,56 @@ either count, fails for $0<\epsilon\leq\sqrt3-1$ in any set with a pair at
 distance $1$. The smallest-distinct-distances question under Known Results is
 not a reading: it replaces the threshold $t$ by the rank of a distance
 occurring in the set and divides the count by $n$, neither of which the
-wording does. The stronger conjecture the site quotes from [Er97e], which
-compares the distances below the $n$th lattice distance $t_n$ with $f(t_n)$,
-and the repaired questions under Known Results are variants with their own
-answers.
+wording does. The stronger conjecture erdosproblems.com quotes from [Er97e],
+which compares the distances below the $n$th lattice distance $t_n$ with
+$f(t_n)$, and the repaired questions under Known Results are variants with their
+own answers.
 
-The site labeled the problem OPEN, and its commentary says the wording,
+Bloom's catalog labeled the problem OPEN, and its commentary says the wording,
 essentially verbatim from [Er97e] p. 532, "does not make sense as written;
 there must be at least one typo", invites suggestions about what it intends,
 and calls the stronger shell conjecture it quotes "nonsense interpreted
 literally". The curator has proposed no form, has not replied in the
 discussion thread and has not commented on the proof claim, so no ruling of
 the curator's fixes a Statement for this page to follow, and the label
-describes a question the site does not state. Both claimants report that the
-1997 print matches the site's wording: Chojecki's note calls the site's text
-essentially verbatim and places the corrupt data (the value $f(3)=18$, which
-is $f(2)$, and the shell list $1,\sqrt3,3,5$, which omits $2$ and $\sqrt7$) in
-Erdős's print, and Snyder's write-up reconstructs 943 consecutive characters
-of p. 532 from National Diet Library full-text snippets (NDL PID 10996926) and
-reports the same elements in the same order: the lattice and $f(t)$, a
-separated set, the comparison of its short distances with $f(t)$, the equality
-case, the $\sqrt3-\epsilon$ clause and the shell conjecture. The defect is
-therefore Erdős's own print, which this corpus has not read; the claimants'
-reconstructions are theirs, not a reading of the source here. With no form
-fixed by the curator or by a source, the wording stands and is judged under
+describes a question erdosproblems.com does not state. Both claimants report
+that the 1997 print matches the erdosproblems.com wording: Chojecki's note calls
+the erdosproblems.com text essentially verbatim and places the corrupt data (the
+value $f(3)=18$, which is $f(2)$, and the shell list $1,\sqrt3,3,5$, which omits
+$2$ and $\sqrt7$) in Erdős's print, and Snyder's write-up reconstructs 943
+consecutive characters of p. 532 from National Diet Library full-text snippets
+(NDL PID 10996926) and reports the same elements in the same order: the lattice
+and $f(t)$, a separated set, the comparison of its short distances with $f(t)$,
+the equality case, the $\sqrt3-\epsilon$ clause and the shell conjecture. The
+defect is therefore Erdős's own print, which this corpus has not read; the
+claimants' reconstructions are theirs, not a reading of the source here. With no
+form fixed by the curator or by a source, the wording stands and is judged under
 each counting reading, and every reading fails by direct computation (above).
-The page therefore departs from the site's label: following OPEN would state
-as open a wording that is refuted under every reading, and the curator has not
-ruled on any other. The repairs the claimants propose are variants with their
-own answers and are not counted: Chojecki's normalized threshold question
-$M(t)=f(t)$, true for $1\le t<\sqrt2$ and false on $[\sqrt2,\sqrt3)$, and
-Chojecki's two-smallest-distances reading, which the note identifies with
-Vesztergombi's theorem $m_1+m_2\le6n$; Snyder's strict-shell conjecture,
-refuted at squared radius $300$, and Snyder's repaired final clause, fewer
-than $12$ neighbors below $\sqrt3-\epsilon$, which the write-up proves. If the
-curator adopts a form, or [Er97e] is read and prints one that differs from the
-site's wording, the page takes the steps again on that form.
+The page therefore departs from the erdosproblems.com label: following OPEN
+would state as open a wording that is refuted under every reading, and the
+curator has not ruled on any other. The repairs the claimants propose are
+variants with their own answers and are not counted: Chojecki's normalized
+threshold question $M(t)=f(t)$, true for $1\le t<\sqrt2$ and false on
+$[\sqrt2,\sqrt3)$, and Chojecki's two-smallest-distances reading, which the note
+identifies with Vesztergombi's theorem $m_1+m_2\le6n$; Snyder's strict-shell
+conjecture, refuted at squared radius $300$, and Snyder's repaired final clause,
+fewer than $12$ neighbors below $\sqrt3-\epsilon$, which the write-up proves. If
+the curator adopts a form, or [Er97e] is read and prints one that differs from
+the erdosproblems.com wording, the page takes the steps again on that form.
 
-**Status.** The site labeled the problem OPEN and credits no result. This page
-departs from that label. Its frontmatter standing derives from two pending full
-claims that refute the wording. The Formulation explains the departure:
+**Status.** Bloom's catalog labeled the problem OPEN and credits no result. This
+page departs from that label. Its frontmatter standing derives from two pending
+full claims that refute the wording. The Formulation explains the departure:
 following the label would state as open a wording refuted under every counting
-reading. The site's commentary says the wording does not make sense as written
-and fixes no intended form. So the label describes a question the site does not
-state. The site's proof-claims tab carries one claim, submitted 2026-07-15,
-which the
+reading. The erdosproblems.com commentary says the wording does not make sense
+as written and fixes no intended form. So the label describes a question
+erdosproblems.com does not state. The erdosproblems.com proof-claims tab carries
+one claim, submitted 2026-07-15, which the
 [[problems/distance_problems/E0662/claims/2026_07_15_snyder|Snyder claim page]]
-records. The site's discussion thread carries Przemek Chojecki's note of
-2026-04-23, which the
+records. The erdosproblems.com discussion thread carries Przemek Chojecki's note
+of 2026-04-23, which the
 [[problems/distance_problems/E0662/claims/2026_04_23_chojecki|Chojecki claim page]]
-records. Each refutes the wording, and the site adopts neither.
+records. Each refutes the wording, and erdosproblems.com adopts neither.
 
 **Source.** [erdosproblems.com/662](https://www.erdosproblems.com/662), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #662,
@@ -125,7 +125,7 @@ https://www.erdosproblems.com/662.
 
 No source identifies the intended question, and no proposed repair has been
 compared with the complete printed text of [Er97e]. So no source fixes a form
-other than the site's wording, which the page judges as printed.
+other than the erdosproblems.com wording, which the page judges as printed.
 
 The wording fails under each counting reading, by the direct computations in
 the Formulation. The standing is derived from the claim pages in `claims/`.

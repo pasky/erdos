@@ -44,7 +44,7 @@ $R(k)=\Theta(\log k)$, where $\tau=\sum_{t\ge1}\log^2(1+1/t)\approx0.977$ is the
 constant of Balister, Bollobás, Morris, Sahasrabudhe and Tiba for the number of
 minimal covering systems with $k$ classes; the fifth part restates Sun's theorem
 that the divisors of $2^{p-1}p$ above one form an irreducible covering set.
-These answer the site's first three questions of
+These answer erdosproblems.com's first three questions of
 [[problems/covering_systems/E1189/_index|Problem 1189]]; the fifth part restates
 Sun's answer to the fourth, the divisor question. The engine, as the manuscript
 presents it, is an irreducibility criterion on moduli alone: with
@@ -66,13 +66,13 @@ k)$ in the exponent; digit frames built from the prime-power coordinates of a
 modulus give the bounds on $m(k)$ and $R(k)$. The manuscript (dated 22 July
 2026, 19 pages, by "Paratelligent Research Agent and Jeff Pickhardt") was posted
 on the Omniscience Project site, later renamed Paratelligent, whose page linked
-above gives the online date 2026-08-27; the site's proof-claims tab carries it
-as a full proof claim submitted on 2026-07-28 by Pickhardt and credited to them
-and the Omniscience Research Agent, the AI system named on the claim; its notes
-say that the thread's comments and Star Fleet Math's proof were good and that
-the manuscript now supplies the full proof. The claim's one comment, of the same
-day, reported that the original link showed a sign-in screen and gave the public
-address, which a moderator added.
+above gives the online date 2026-08-27; the erdosproblems.com proof-claims tab
+carries it as a full proof claim submitted on 2026-07-28 by Pickhardt and
+credited to them and the Omniscience Research Agent, the AI system named on the
+claim; its notes say that the thread's comments and Star Fleet Math's proof were
+good and that the manuscript now supplies the full proof. The claim's one
+comment, of the same day, reported that the original link showed a sign-in
+screen and gave the public address, which a moderator added.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Jeff
 Pickhardt and Omniscience Research Agent (account JPickhardt) on 28 July 2026,
@@ -104,7 +104,7 @@ with their frame construction, gives the count.
 
 **Standing.** Claimed: the manuscript is a web-posted preprint with no
 journal publication, referee report, curator acceptance or outside review
-located through 2026-10-06; the site labeled the problem OPEN (page last
+located through 2026-10-06; Bloom's catalog labeled the problem OPEN (page last
 edited 8 April 2026). The manuscript describes as
 concurrent work the Lean 4 development released by Star Fleet Math, which
 has its own page

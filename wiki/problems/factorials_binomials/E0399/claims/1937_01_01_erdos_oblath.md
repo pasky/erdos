@@ -41,9 +41,9 @@ not a sum of two fourth powers.
 **Covers.** No solution of $n!=x^k\pm y^k$ in
 [[problems/factorials_binomials/E0399/_index|Problem 399]] with $\gcd(x,y)=1$,
 $xy>1$ and $k>2$, except possibly a difference $n!=x^4-y^4$ with $n$ below the
-unspecified threshold of Satz 3. The site records the result as the coprime
-case with $k\ne4$. Nothing here constrains the case $\gcd(x,y)>1$ with an odd
-exponent or a difference, where the solution $10!=48^4-36^4$ lies.
+unspecified threshold of Satz 3. erdosproblems.com records the result as the
+coprime case with $k\ne4$. Nothing here constrains the case $\gcd(x,y)>1$ with
+an odd exponent or a difference, where the solution $10!=48^4-36^4$ lies.
 
 **Depends on.** No page of this wiki.
 
@@ -51,8 +51,9 @@ exponent or a difference, where the solution $10!=48^4-36^4$ lies.
 Gleichungen der Form $n!=x^p\pm y^p$ und $n!\pm m!=x^p$, Acta Litt. Sci.
 Szeged 8 (1937), 241–255; library card
 [[../library/factorials_binomials/erdos_1937_uber_diophantische_gleichungen_der_form_und/_index|erdos_1937_uber_diophantische_gleichungen_der_form_und]].
-The site's curator credits the coprime theorem with $k\ne4$ to this paper in
-the commentary, but the site's label settles the problem through Barfield's
-counterexample and not through this result, so `reviewed` is not listed. The
-formal-conjectures file states the site's version of the theorem as
-`erdos_399.variants.erdos_oblath` with `sorry`, which is not a formalization.
+The erdosproblems.com curator credits the coprime theorem with $k\ne4$ to this
+paper in the commentary, but the erdosproblems.com label settles the problem
+through Barfield's counterexample and not through this result, so `reviewed` is
+not listed. The formal-conjectures file states the erdosproblems.com version of
+the theorem as `erdos_399.variants.erdos_oblath` with `sorry`, which is not a
+formalization.

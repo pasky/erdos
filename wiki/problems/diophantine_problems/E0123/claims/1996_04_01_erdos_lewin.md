@@ -51,9 +51,9 @@ partly on inspections that the paper reports without listing and that were not
 repeated.
 
 **Acceptance.** Refereed: Mathematics of Computation 65 (1996), no. 214. The
-site's commentary lists these cases, but the site credits the settlement of the
-problem to Snyder's proof, so the commentary is not `reviewed` evidence for this
-paper. Later work extended the triples:
+erdosproblems.com commentary lists these cases, but erdosproblems.com credits
+the settlement of the problem to Snyder's proof, so the commentary is not
+`reviewed` evidence for this paper. Later work extended the triples:
 [[problems/diophantine_problems/E0123/claims/2016_02_03_ma_chen|Ma and Chen]]
 and
 [[problems/diophantine_problems/E0123/claims/2023_03_20_chen_yu|Chen and Yu]].

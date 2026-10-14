@@ -32,13 +32,13 @@ $$
 
 and $a+b>n+C\log n$?
 
-**Status.** PROVED (LEAN). The site labeled the problem PROVED (LEAN) (page last
-edited 6 January 2026). The standing in the frontmatter derives from the claim
-pages. The site's commentary notes that the statement as printed is ambiguous
-(see the assessment below).
+**Status.** PROVED (LEAN). Bloom's catalog labeled the problem PROVED (LEAN)
+(page last edited 6 January 2026). The standing in the frontmatter derives from
+the claim pages. The erdosproblems.com commentary notes that the statement as
+printed is ambiguous (see the assessment below).
 
-The site credits Barreto and ChatGPT-5.2 for a proof that, for any $0<C_1<C_2$,
-gives infinitely many triples with $b=n/2$, $a=n/2+O(\log n)$,
+erdosproblems.com credits Barreto and ChatGPT-5.2 for a proof that, for any
+$0<C_1<C_2$, gives infinitely many triples with $b=n/2$, $a=n/2+O(\log n)$,
 $C_1\log n<a+b-n<C_2\log n$ and $a!\,b!\mid n!\,(a+b-n)!$. The result is
 recorded on the claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_06_barreto|Barreto 2026]].
@@ -52,8 +52,8 @@ all $n$. It extends Pomerance's 2015 method and was written after the thread
 asked the author about the AI-generated proof. It was published in Integers in
 2026 and is on the claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_14_pomerance|Pomerance 2026]].
-Two later AI-generated proofs posted to the site's thread are on the pending
-page
+Two later AI-generated proofs posted to the erdosproblems.com thread are on the
+pending page
 [[problems/factorials_binomials/E0728/claims/2026_07_13_pickhardt|Pickhardt 2026]].
 
 **Source.** [erdosproblems.com/728](https://www.erdosproblems.com/728), accessed
@@ -85,8 +85,8 @@ claim pages. This corpus has built neither.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 6 January 2026): for
-small fixed $C,\varepsilon>0$, are there infinitely many $a,b,n$ with
+The question, as erdosproblems.com states it (page last edited 6 January 2026):
+for small fixed $C,\varepsilon>0$, are there infinitely many $a,b,n$ with
 $a,b\ge\varepsilon n$, $a+b>n+C\log n$ and $a!\,b!\mid n!\,(a+b-n)!$? The
 problem comes from a closing remark of [EGRS75], which asks whether the
 divisibility can hold with $a,b>\varepsilon n$ and $a+b>n+c\log n$, against
@@ -96,9 +96,9 @@ $\binom{N}{k}\mid\binom{N}{a}$.
 
 Ambiguity of the printed statement. As printed, the question has trivial
 answers: $a=b=n$ works, and so does $b=n-1$ with $a$ a large divisor of $n$,
-and there are solutions with $a$ and $b$ far larger than $n$. The site's
-commentary and the discussion thread settle on the reading in which
-$\varepsilon n\le a,b\le(1-\varepsilon)n$ and the question is whether
+and there are solutions with $a$ and $b$ far larger than $n$. The
+erdosproblems.com commentary and the discussion thread settle on the reading in
+which $\varepsilon n\le a,b\le(1-\varepsilon)n$ and the question is whether
 $a+b-n$ can be a multiple $C\log n$ of $\log n$ for every fixed $C$, which is
 what the authors' remark asks about; the formal-conjectures statement writes
 that reading with $C\log n<a+b-n<C'\log n$. The standing here targets the
@@ -107,12 +107,12 @@ claim pages state the intended reading they prove.
 
 Proofs. The accepted claim page
 [[problems/factorials_binomials/E0728/claims/2026_01_06_barreto|Barreto 2026]]
-records the AI-generated proof the site credits: an informal argument of
-ChatGPT-5.2 formalized by Harmonic's Aristotle and submitted by Kevin
-Barreto to the thread, with $n=2m$, $b=m$, $a=m+k$ and $k\asymp\log n$, where
-Kummer's theorem, a Chernoff bound on base-$p$ carries and a union bound over
-the primes $p\le2k$ supply the $m$; a first attempt of 2026-01-04 reached only
-a small multiple of $\log n$, and the every-$C$ argument, posted informally on
+records the AI-generated proof erdosproblems.com credits: an informal argument
+of ChatGPT-5.2 formalized by Harmonic's Aristotle and submitted by Kevin Barreto
+to the thread, with $n=2m$, $b=m$, $a=m+k$ and $k\asymp\log n$, where Kummer's
+theorem, a Chernoff bound on base-$p$ carries and a union bound over the primes
+$p\le2k$ supply the $m$; a first attempt of 2026-01-04 reached only a small
+multiple of $\log n$, and the every-$C$ argument, posted informally on
 2026-01-05 and as a Lean proof on 2026-01-06, handles every $C$. Sothanaphan's
 writeup [So26] gives the argument as a paper, with
 $\varepsilon n\le a,b\le(1-\varepsilon)n$ (its Theorem 1), and its appendices
@@ -133,11 +133,11 @@ literature found by the thread's searches concerns the stronger divisibility
 $a!\,b!\mid n!$ and small constants only, and the authors of [EGRS75] left
 the question as a remark without a conjecture.
 
-Search scope: the site's problem page, its discussion thread, the community
-database, the formal-conjectures file and Alexeev's repository. The site
-listed no proof claim for the problem; on 2026-10-07 the thread held 87
-comments, and the forum carried no claim beyond those recorded on the claim
-pages.
+Search scope: the erdosproblems.com problem page, its discussion thread, the
+community database, the formal-conjectures file and Alexeev's repository.
+erdosproblems.com listed no proof claim for the problem; on 2026-10-07 the
+thread held 87 comments, and the forum carried no claim beyond those recorded on
+the claim pages.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

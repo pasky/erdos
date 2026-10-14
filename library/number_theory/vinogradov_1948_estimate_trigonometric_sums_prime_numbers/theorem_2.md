@@ -89,8 +89,8 @@ author's 1947 book is the analogue over all integers that the introduction
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0972/_index|Problem 972]]: the site's
-  commentary cites this paper for the uniform distribution of
+- [[../wiki/problems/number_theory/E0972/_index|Problem 972]]: the
+  erdosproblems.com commentary cites this paper for the uniform distribution of
   $\{p\alpha\}$; the hypotheses of Theorem 2 exclude a linear phase, so the
   theorem does not give that statement, and it does not address the
   problem's two-prime question.

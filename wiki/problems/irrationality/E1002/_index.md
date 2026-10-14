@@ -37,16 +37,16 @@ $$
 \lim_{n\to \infty}\lvert \{ \alpha\in (0,1): f(\alpha,n)\leq c\}\rvert=g(c)?
 $$
 
-**Status.** The site labeled the problem OPEN. This page departs from the site's
-label and records the problem as proved. The reason is that this corpus built
-and audited a port of Wang's Lean proof, whose two main theorems answer the
-site's question yes and pin the Cauchy limit (Formalization). Two full claims of
-July 2026,
+**Status.** Bloom's catalog labeled the problem OPEN. This page departs from the
+erdosproblems.com label and records the problem as proved. The reason is that
+this corpus built and audited a port of Wang's Lean proof, whose two main
+theorems answer the erdosproblems.com question yes and pin the Cauchy limit
+(Formalization). Two full claims of July 2026,
 [[problems/irrationality/E1002/claims/2026_07_13_kwon|Kwon's manuscript]] and
 [[problems/irrationality/E1002/claims/2026_07_21_wang|Wang's preprint with a Lean 4 proof]],
 assert the answer yes with the same explicit limit, the centered Cauchy law of
 scale $1/(2\pi)$. They were developed independently, and both credit AI systems.
-Neither has been accepted by the site or refereed.
+Neither has been accepted by erdosproblems.com or refereed.
 
 **Source.** [erdosproblems.com/1002](https://www.erdosproblems.com/1002),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1002,
@@ -63,40 +63,41 @@ https://www.erdosproblems.com/1002.
 citing no formal proof. A port of Wang's Lean development to Lean `v4.33.0`,
 in Boris Alexeev's repository, was built and audited by this corpus: the
 axioms of its two main theorems are exactly the standard three, both match
-their comparator challenge, and their statements give the site's question
-answered yes and the explicit Cauchy limit, so
+their comparator challenge, and their statements give the erdosproblems.com
+question answered yes and the explicit Cauchy limit, so
 [[problems/irrationality/E1002/claims/2026_07_21_wang|Wang's claim]]
 is accepted with `formalized` evidence. Wang's own development and Kwon's
 Lean development are linked from their claim pages; neither was built here.
 
 ## Current assessment
 
-The site labeled Problem 1002 OPEN (accessed 2026-09-04). This corpus accepts
-the answer yes, with the centered Cauchy law of scale $1/(2\pi)$ as the limit,
-on Wang's claim: the port of its Lean proof that this corpus built proves both
-the existence of an asymptotic distribution function in the site's wording and
-the explicit Cauchy limit, using only the standard axioms, as
+Bloom's catalog labeled Problem 1002 OPEN (accessed 2026-09-04). This corpus
+accepts the answer yes, with the centered Cauchy law of scale $1/(2\pi)$ as the
+limit, on Wang's claim: the port of its Lean proof that this corpus built proves
+both the existence of an asymptotic distribution function in the
+erdosproblems.com wording and the explicit Cauchy limit, using only the standard
+axioms, as
 [[problems/irrationality/E1002/claims/2026_07_21_wang|Wang's claim page]]
 records. The acceptance rests on that formal proof alone: neither prose paper is
-refereed, the site has accepted neither claim, and no outside reviewer is
-recorded. This page records no literature search beyond the sources below.
+refereed, erdosproblems.com has accepted neither claim, and no outside reviewer
+is recorded. This page records no literature search beyond the sources below.
 
-**Proof claims on the site.** The proof-claims tab carried two full claims of
-the same theorem: Sangyoon Kwon's manuscript, public on GitHub since 2026-07-13
-and submitted to the thread on 2026-07-23 at a moderator's invitation, and
-Shouqiao Wang's preprint, submitted 2026-07-21 with a Lean 4 formalization added
-on 2026-07-24. Both state that $S_n(\alpha)/\log n$ converges in distribution to
-the centered Cauchy law of scale $1/(2\pi)$, so that
-$g(c)=\tfrac12+\pi^{-1}\arctan(2\pi c)$; the two claimants affirmed on the
+**Proof claims on erdosproblems.com.** The proof-claims tab carried two full
+claims of the same theorem: Sangyoon Kwon's manuscript, public on GitHub since
+2026-07-13 and submitted to the thread on 2026-07-23 at a moderator's
+invitation, and Shouqiao Wang's preprint, submitted 2026-07-21 with a Lean 4
+formalization added on 2026-07-24. Both state that $S_n(\alpha)/\log n$
+converges in distribution to the centered Cauchy law of scale $1/(2\pi)$, so
+that $g(c)=\tfrac12+\pi^{-1}\arctan(2\pi c)$; the two claimants affirmed on the
 thread that the proofs were found independently, and an outside report of
 2026-08-01 by Millennium Research rebuilt Wang's Lean development, checked its
-axioms and its statement against the site's wording, and read Kwon's manuscript
-without finding a fatal error. A Lean formalization of Kwon's proof, co-authored
-with that report's authors, followed in September 2026. The claim pages record
-the statements, the links and the limits of this evidence: the site labeled the
-problem OPEN, no curator comment exists and nothing is refereed; this corpus
-built a port of Wang's Lean development and not Kwon's, which stays a pending
-full claim.
+axioms and its statement against the erdosproblems.com wording, and read Kwon's
+manuscript without finding a fatal error. A Lean formalization of Kwon's proof,
+co-authored with that report's authors, followed in September 2026. The claim
+pages record the statements, the links and the limits of this evidence: Bloom's
+catalog labeled the problem OPEN, no curator comment exists and nothing is
+refereed; this corpus built a port of Wang's Lean development and not Kwon's,
+which stays a pending full claim.
 
 ## Progress
 
@@ -118,7 +119,7 @@ Kesten's 1960 paper [Ke60] is the cited background: it treats the sum with
 the starting point averaged as a second variable and proves a Cauchy limit
 law there; its library card records the citation only. No refereed result
 settles the fixed-start question asked. The two claims recorded above are
-the answers offered on the site's proof-claims tab:
+the answers offered on the erdosproblems.com proof-claims tab:
 Wang's, accepted here on its formal proof, and Kwon's, pending.
 <!-- BEGIN problem library links -->
 

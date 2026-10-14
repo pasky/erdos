@@ -86,14 +86,14 @@ used:
 > proof summary, attribution, verification information, and public files:
 > https://quietmethod-erdos671.gintsuta-kobo.chatgpt.site/
 
-**Standing.** The claim was filed on the site's proof-claims tab on 24 July
-2026 as a full proof, with no comments. The site's label was OPEN with the
-page last edited 23 January 2026, before the claim, and its commentary does
-not mention it. No refereed publication and no outside review was found.
-The notes report a Lean formalization checked with Lean 4 and Mathlib, with
-no `sorry`, `admit` or custom axiom and an axiom report of `propext`,
-`Classical.choice` and `Quot.sound`; this corpus has not built it, so the
-self-report gives no `formalized` evidence. The claim stays claimed.
+**Standing.** The claim was filed on the erdosproblems.com proof-claims tab on
+24 July 2026 as a full proof, with no comments. The erdosproblems.com label was
+OPEN with the page last edited 23 January 2026, before the claim, and its
+commentary does not mention it. No refereed publication and no outside review
+was found. The notes report a Lean formalization checked with Lean 4 and
+Mathlib, with no `sorry`, `admit` or custom axiom and an axiom report of
+`propext`, `Classical.choice` and `Quot.sound`; this corpus has not built it, so
+the self-report gives no `formalized` evidence. The claim stays claimed.
 
 **Depends on.** Nothing beyond the cited write-up, which re-derives the
 argument it refines rather than citing it as a premise.

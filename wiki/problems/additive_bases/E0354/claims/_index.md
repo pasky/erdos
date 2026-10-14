@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 354, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-14T00:13:33Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_bases/E0354/claims
@@ -18,8 +18,8 @@ not. This answers the first question yes in that case.
 
 [[problems/additive_bases/E0354/claims/2026_09_05_kitamura|2026_09_05_kitamura]]: Kitamura's unreviewed Lean proof of September 2026 shows that at the base
 $\sqrt\varphi$, the square root of the golden ratio, one floor sequence is
-already complete, proving the catalog's existential form of the second
-question of Problem 354. The claim is disputed.
+already complete, proving the formal-conjectures catalog's existential form of
+the second question of Problem 354. The claim is disputed.
 
 [[problems/additive_bases/E0354/claims/2026_09_11_jenw1n|2026_09_11_jenw1n]]: A Lean 4 proof credited to the solver handle JenW1N shows that the doubling
 floors of two reals with irrational ratio form a complete sequence, answering

@@ -26,15 +26,15 @@ updated: 2026-10-08T00:44:25Z
 for every cardinal number $m$, some graph $G_m$ of chromatic number $m$ such
 that every finite subgraph of $G_m$ is a subgraph of $G$?
 
-**Status.** Open. The site labeled the problem NOT PROVABLE, since Komjáth and
-Shelah [KoSh05] proved it consistent with ZFC that the answer is no. They did
-this through a graph of chromatic number $\aleph_1$ such that every graph whose
-finite subgraphs all occur in it has chromatic number at most $\aleph_2$. So no
-$G_m$ exists for $m>\aleph_2$. That result settles one side: ZFC does not prove
-a positive answer. It is not settled whether a positive answer is itself
-consistent, and so whether ZFC also fails to disprove it. This page departs from
-the site's label and showed the problem open, because one side alone leaves the
-question open.
+**Status.** Open. Bloom's catalog labeled the problem NOT PROVABLE, since
+Komjáth and Shelah [KoSh05] proved it consistent with ZFC that the answer is no.
+They did this through a graph of chromatic number $\aleph_1$ such that every
+graph whose finite subgraphs all occur in it has chromatic number at most
+$\aleph_2$. So no $G_m$ exists for $m>\aleph_2$. That result settles one side:
+ZFC does not prove a positive answer. It is not settled whether a positive
+answer is itself consistent, and so whether ZFC also fails to disprove it. This
+page departs from the erdosproblems.com label and showed the problem open,
+because one side alone leaves the question open.
 
 The question is Walter Taylor's conjecture at $\aleph_1$. The general form
 replaces $\aleph_1$ by any uncountable cardinal $\kappa$. Erdős asked more
@@ -54,10 +54,11 @@ https://www.erdosproblems.com/736.
 
 ## Current assessment
 
-The question, in the site's formulation, asks whether a graph $G$ of chromatic
-number $\aleph_1$ has, for every cardinal $m$, a graph $G_m$ of chromatic number
-$m$ all of whose finite subgraphs are subgraphs of $G$: Walter Taylor's
-conjecture at $\aleph_1$. The problem is open. The one accepted claim is
+The question, in the erdosproblems.com formulation, asks whether a graph $G$ of
+chromatic number $\aleph_1$ has, for every cardinal $m$, a graph $G_m$ of
+chromatic number $m$ all of whose finite subgraphs are subgraphs of $G$: Walter
+Taylor's conjecture at $\aleph_1$. The problem is open. The one accepted claim
+is
 [[problems/graph_coloring/E0736/claims/2002_12_04_komjath_shelah|Komjáth and Shelah's consistent counterexample]],
 a partial claim with the value `not_provable`: Theorem 3 of their paper
 ([[../library/set_theory/komjath_2002_finite_subgraphs_uncountably_chromatic_graphs/_index|card]])
@@ -69,19 +70,19 @@ independence result. The result says nothing about disprovability: the paper's
 Theorem 4 gives a consistent positive direction only for graphs of chromatic
 number at least $\aleph_2$, and no model is recorded in which the statement
 holds at $\aleph_1$. The problem would be settled as independent by such a
-model, and as disproved by a refutation in ZFC alone. The site labeled the
-problem NOT PROVABLE on this result; this page showed it open, because one side
-alone leaves the question open. The site's commentary credits the consistency
-result to Komjáth alone; the paper is joint and attributes Theorem 3 to Komjáth.
-Erdős printed Taylor's conjecture, with the broader question about the families
-$\mathcal{F}_\alpha$, in his 1981 problem paper
+model, and as disproved by a refutation in ZFC alone. Bloom's catalog labeled
+the problem NOT PROVABLE on this result; this page showed it open, because one
+side alone leaves the question open. The erdosproblems.com commentary credits
+the consistency result to Komjáth alone; the paper is joint and attributes
+Theorem 3 to Komjáth. Erdős printed Taylor's conjecture, with the broader
+question about the families $\mathcal{F}_\alpha$, in his 1981 problem paper
 ([[../library/set_systems/erdos_1981_combinatorial_problems_which_i_would_most/_index|card]]),
 and Problem 2 of Erdős, Hajnal and Shelah
 ([[../library/graph_coloring/erdos_1974_general_properties_chromatic_numbers/_index|card]])
 would have answered it positively.
 
-Search scope: the site's problem page and discussion thread (label NOT
-PROVABLE; no comments, proof claims or formalized statement), the Crossref
+Search scope: the erdosproblems.com problem page and discussion thread (label
+NOT PROVABLE; no comments, proof claims or formalized statement), the Crossref
 record of the journal paper, the arXiv version of the paper, and the community
 database, which records no formalization.
 <!-- BEGIN problem library links -->

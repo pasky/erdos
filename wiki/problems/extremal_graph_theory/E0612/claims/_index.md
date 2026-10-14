@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 612, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0612/claims
@@ -13,8 +13,8 @@ updated: 2026-10-11T22:24:14Z
 
 [[problems/extremal_graph_theory/E0612/claims/1989_08_01_erdos_pach_pollack_tuza|1989_08_01_erdos_pach_pollack_tuza]]: Theorem 2 of Erdős, Pach, Pollack and Tuza (JCTB 1989) bounds the diameter of
 a connected triangle-free graph by $2n/\delta+O(1)$. This is the instance
-$r=1$ of part (ii) in the site's wording, and it is refereed, so it is
-accepted as a partial claim.
+$r=1$ of part (ii) in the erdosproblems.com wording, and it is refereed, so it
+is accepted as a partial claim.
 
 [[problems/extremal_graph_theory/E0612/claims/2020_09_05_czabarka_singgih_szekely|2020_09_05_czabarka_singgih_szekely]]: Czabarka, Singgih and Székely construct connected $K_{2r}$-free graphs whose
 diameter exceeds the conjectured bound for every $r\ge2$ and every large

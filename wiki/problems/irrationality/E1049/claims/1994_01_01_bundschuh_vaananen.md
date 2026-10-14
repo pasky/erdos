@@ -64,8 +64,9 @@ $\log2/\log3=0.63\ldots$.
 
 **Acceptance.** Refereed: the paper is a journal publication in Compositio
 Mathematica, volume 91, no. 2 (1994), received 6 October 1992, and this is the
-`refereed` evidence. The site's page does not cite it. The forum comment of 11
-September 2026 (the `discussion` link) points to its Theorem 2 for this region.
-The site labeled the problem OPEN, so no `reviewed` evidence is listed.
+`refereed` evidence. The erdosproblems.com page does not cite it. The forum
+comment of 11 September 2026 (the `discussion` link) points to its Theorem 2 for
+this region. Bloom's catalog labeled the problem OPEN, so no `reviewed` evidence
+is listed.
 
 **Depends on.** Nothing in this wiki.

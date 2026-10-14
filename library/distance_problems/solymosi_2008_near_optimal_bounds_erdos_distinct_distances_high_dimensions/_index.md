@@ -109,7 +109,7 @@ independently reviewed.
 source of the lower bounds $f_d(n)\gg n^{2/d-2/(d(d+2))}$ for $d\ge4$
 (Corollary 1.4) and $f_3(n)\gg n^{0.5643}$ (Corollary 1.2), both below the
 exponent $2/d$ the problem asks about, so the paper does not answer its
-question; a sharper $d=3$ bound quoted on the problem site combines this
+question; a sharper $d=3$ bound quoted on erdosproblems.com combines this
 method with the later Guth--Katz planar bound, which is not in the
 preprint.
 

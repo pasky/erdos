@@ -169,8 +169,8 @@ Source: <https://arxiv.org/abs/1002.0045v1>.
 p. 515, PDF p. 3 of the published version; preprint p. 3), "There exists a
 constant $c$ such that every graph $H$ with $n$ vertices satisfies
 $r_{\mathrm{ind}}(H)\le2^{cn\log n}$", is the refereed $2^{O(n\log n)}$
-bound the site records as the last step before the exponential bound; it
-is history on the problem page.
+bound erdosproblems.com records as the last step before the exponential bound;
+it is history on the problem page.
 [[../wiki/problems/ramsey_theory/E0181/_index|#181]]: negative bearing only. The paper
 contains no bound on $r(Q_n)$ and no bipartite theorem of its own; Theorem
 1.1 (printed p. 515) is its bounded-degree bound

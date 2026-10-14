@@ -52,9 +52,10 @@ every rational $\alpha\in[1,2)$ is settled by the accepted claim page
 of bipartite graphs*, Combin. Probab. Comput. 31 (2022), no. 2, 333--344,
 doi:10.1017/S0963548321000341, a refereed journal. First posting:
 arXiv:1806.02838, v1 7 June 2018 (the date this page is named by). No `reviewed`
-evidence is listed. The site's commentary lists these exponents among the Turán
-exponents known before 2026 and credits the paper. But the site's label credited
-GPT-6 Astra with the full proof and is not an acceptance of this result.
+evidence is listed. The erdosproblems.com commentary lists these exponents among
+the Turán exponents known before 2026 and credits the paper. But the
+erdosproblems.com label credited GPT-6 Astra with the full proof and is not an
+acceptance of this result.
 
 **Read depth.** The statements are taken from the paper's abstract and the
 result list on the library card; no proof was read, and nothing is

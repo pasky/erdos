@@ -67,10 +67,10 @@ $n\to\infty$.
 
 The detailed proofs linked here reconstruct the essential mathematical
 steps from the preliminary PDF and the pinned public Lean source. Public
-CI evidence and named site acceptance are recorded separately in the
-[[extremal_graph_theory/adamczewski_2026_erdos571/_index|source record]].
-No new local Lean build or certificate replay was performed for this
-compilation; the corpus's later build of the pinned commit is recorded on the
+CI evidence and named erdosproblems.com acceptance are recorded separately in
+the [[extremal_graph_theory/adamczewski_2026_erdos571/_index|source record]]. No
+new local Lean build or certificate replay was performed for this compilation;
+the corpus's later build of the pinned commit is recorded on the
 [[../wiki/problems/extremal_graph_theory/E0571/claims/2026_09_03_adamczewski|claim page]].
 Its author is not claiming that the anonymous PDF itself
 contains all the detailed proofs, nor that public CI replaces independent

@@ -106,18 +106,17 @@ The statements above were checked on the page images; Theorem 4.1's
 deduction from Lemma 3.3 was read in full, the rest of the argument as an
 outline only. Nothing here is independently reviewed. Definition 2.2 keeps
 the absolute value of Problem 1.1. The note works with the monograph's
-formulation; a discussion comment on the site (17 August 2025) shows it
-equal to the site's simpler formulation without the admissibility
+formulation; a discussion comment on erdosproblems.com (17 August 2025) shows it
+equal to erdosproblems.com's simpler formulation without the admissibility
 condition, and the upper bound holds for both since the constructed $A$
 has reciprocal sum below $1$.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0311/_index|#311]]: Theorem 4.1 is the
-upper bound the site's commentary, accessed 2026-09-18, attributed to the
-author, the only nontrivial upper bound for $\delta(N)$
-recorded there; it lies far above the conjectured $e^{-(c+o(1))N}$ and the
-trivial lower bound $e^{-(1+o(1))N}$, and the note does not address the
-conjectured exponential rate.
-Theorem 4.1's proof applies
+upper bound the erdosproblems.com commentary, accessed 2026-09-18, attributed to
+the author, the only nontrivial upper bound for $\delta(N)$ recorded there; it
+lies far above the conjectured $e^{-(c+o(1))N}$ and the trivial lower bound
+$e^{-(1+o(1))N}$, and the note does not address the conjectured exponential
+rate. Theorem 4.1's proof applies
 [[unit_fractions/tang_2026_note_problem_311/lemma_3_3|Lemma 3.3]] with
 $t=\mathrm{lcm}(1,\ldots,\lfloor S\rfloor)$ and $s=t-1$ to write $1-1/t$
 as a reciprocal sum over $[N/16,N]$; the lemma gives no bound for

@@ -56,20 +56,20 @@ other than the line and the circle exist for large $n$, and presents the
 family as a counterexample to that conjecture; Erdős's own text, cited on the
 problem page as [Er84c, p. 135], conjectures the characterization for $n>4$
 and then for all sufficiently large $n$, after recording the exceptions at
-$n=4$, $5$ and $6$. The site's remark that Erdős conjectured the answer to be
-no contradicts both sources, which the problem page records as an unresolved
-contradiction. The family refutes the modified Statement at every $n\geq4$,
-and with it Erdős's questions for $n>4$ and for all sufficiently large $n$.
-The paper is carded at
+$n=4$, $5$ and $6$. The erdosproblems.com remark that Erdős conjectured the
+answer to be no contradicts both sources, which the problem page records as an
+unresolved contradiction. The family refutes the modified Statement at every
+$n\geq4$, and with it Erdős's questions for $n>4$ and for all sufficiently large
+$n$. The paper is carded at
 [[../library/distance_problems/clemen_2025_multiplicities_interpoint_distances/_index|clemen_2025_multiplicities_interpoint_distances]].
 
 **Acceptance.** The result is refereed: the paper appeared in Acta Mathematica
-Hungarica. The site's curator, Thomas Bloom, marked the problem DISPROVED (LEAN)
-and credits Clemen, Dumitrescu and Liu with the configuration on the problem
-page. The curator neither wrote nor submitted the result. This corpus has not
-reviewed the paper, and the standing recorded here does not need such a review.
-The chord computation above is a reading aid. A separate four-point
-counterexample, found by Aristotle and proved in Lean, is recorded on
+Hungarica. The erdosproblems.com curator, Thomas Bloom, marked the problem
+DISPROVED (LEAN) and credits Clemen, Dumitrescu and Liu with the configuration
+on the problem page. The curator neither wrote nor submitted the result. This
+corpus has not reviewed the paper, and the standing recorded here does not need
+such a review. The chord computation above is a reading aid. A separate
+four-point counterexample, found by Aristotle and proved in Lean, is recorded on
 [[problems/distance_problems/E0958/claims/2025_12_27_alexeev|its own claim page]].
-The site's label carried the Lean marker for that counterexample, which is not a
-formalization of this result.
+The erdosproblems.com label carried the Lean marker for that counterexample,
+which is not a formalization of this result.

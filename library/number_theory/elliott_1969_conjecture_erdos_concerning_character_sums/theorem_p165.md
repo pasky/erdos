@@ -110,9 +110,9 @@ on p. 164.
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0981/_index|Problem 981]]: the paper the site and
-  Tang and Zhang cite as the proof of Erdős's (80), the problem's
-  statement. The printed theorem is the two-sided form, with
+- [[../wiki/problems/number_theory/E0981/_index|Problem 981]]: the paper
+  erdosproblems.com and Tang and Zhang cite as the proof of Erdős's (80), the
+  problem's statement. The printed theorem is the two-sided form, with
   $|S_m(p)|<\epsilon m$ in place of the problem's $S_m(p)<\epsilon m$, for
   every $\epsilon\in(0,1]$, in mean-value form with an explicit error term;
   the one-sided form as the problem states it rests on the author's remark

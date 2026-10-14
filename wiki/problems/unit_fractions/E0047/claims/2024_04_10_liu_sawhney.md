@@ -53,10 +53,10 @@ $$
 For fixed $\delta>0$ the threshold $(\log N)^{4/5+\varepsilon}$ is below
 $\delta\log N$ for large $N$, so the theorem answers the question with
 room to spare; the paper presents it as an improvement of Bloom's
-threshold, and the site's commentary records it as such. Equivalently, the
-largest reciprocal sum of a subset of $\{1,\ldots,N\}$ with no unit subsum
-is at most $(\log N)^{4/5+o(1)}$. The library holds a complete rewritten
-proof of Theorem 1.1 from the retained arXiv text; it uses explicitly
+threshold, and the erdosproblems.com commentary records it as such.
+Equivalently, the largest reciprocal sum of a subset of $\{1,\ldots,N\}$ with no
+unit subsum is at most $(\log N)^{4/5+o(1)}$. The library holds a complete
+rewritten proof of Theorem 1.1 from the retained arXiv text; it uses explicitly
 corrected forms of two of the paper's lemmas, recorded on their pages as
 compilation corrections rather than author errata, and the published text
 has not been compared with the retained version.
@@ -66,9 +66,9 @@ Research Notices. According to the publisher's record, it was received on 28
 October 2025, accepted on 23 December 2025 and published online on 14
 January 2026.
 
-Reviewed: the site's curator, Thomas Bloom, marked the problem proved and
-credits Liu and Sawhney's improved threshold in the commentary. This acceptance
-is independent of the claimants.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, marked the problem proved
+and credits Liu and Sawhney's improved threshold in the commentary. This
+acceptance is independent of the claimants.
 
 The corrected Theorem 1.1 chain of the rewritten proof has the corpus's graded
 independent review of 2026-09-18. It consists of a fresh-context blind
@@ -81,6 +81,6 @@ retained on the card's
 This is the corpus's own review, so it is not `reviewed` evidence. The
 `reviewed` entry above rests on the curator's credit alone.
 
-**Formalization.** None found for this threshold. The Lean files the site's
-catalog points at for the problem formalize Bloom's theorem and are linked
-from Bloom's claim page.
+**Formalization.** None found for this threshold. The Lean files
+erdosproblems.com's catalog points at for the problem formalize Bloom's theorem
+and are linked from Bloom's claim page.

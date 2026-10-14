@@ -52,6 +52,7 @@ None stated.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: the site's
-  [Er74c, p. 78] source; the upper bound and the question "whether (7) is
-  best possible", the form in which Erdős asked the cube problem in 1974.
+- [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]:
+  erdosproblems.com's [Er74c, p. 78] source; the upper bound and the question
+  "whether (7) is best possible", the form in which Erdős asked the cube problem
+  in 1974.

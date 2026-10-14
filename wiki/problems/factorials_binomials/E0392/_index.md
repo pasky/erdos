@@ -33,12 +33,13 @@ $$
 A(n)=\frac{n}{2}-\frac{n}{2\log n}+o\left(\frac{n}{\log n}\right)?
 $$
 
-**Status.** The site labeled the problem PROVED (LEAN). The standing derived
-from the claim pages is `claimed`, `proved`, through the pending full claim
-[[problems/factorials_binomials/E0392/claims/2026_01_03_tao|Tao 2026]]. The
-claim lists no acceptance evidence, for two reasons. The site's commentary
-credits only Cambie's pairing reduction and does not name the proof's author.
-The Lean formalization in the PNT+ project is third-party work not built here.
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN). The standing
+derived from the claim pages is `claimed`, `proved`, through the pending full
+claim [[problems/factorials_binomials/E0392/claims/2026_01_03_tao|Tao 2026]].
+The claim lists no acceptance evidence, for two reasons. The erdosproblems.com
+commentary credits only Cambie's pairing reduction and does not name the proof's
+author. The Lean formalization in the PNT+ project is third-party work not built
+here.
 
 **Source.** [erdosproblems.com/392](https://www.erdosproblems.com/392), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #392,
@@ -58,8 +59,8 @@ built here.
 
 ## Current assessment
 
-The dated site formulation above asks whether $A(n)$, the least number of
-factors at most $n^2$ whose product is $n!$, satisfies
+The dated erdosproblems.com formulation above asks whether $A(n)$, the least
+number of factors at most $n^2$ whose product is $n!$, satisfies
 $A(n)=n/2-n/(2\log n)+o(n/\log n)$. The answer is yes, by
 [[problems/factorials_binomials/E0392/claims/2026_01_03_tao|Tao 2026]]: the
 lower bound is Stirling's formula, and the upper bound comes from the
@@ -67,22 +68,23 @@ approximate-factorization method of
 [[../library/factorials_binomials/alexeev_2025_decomposing_factorial_into_large_factors/_index|Alexeev and others 2025]],
 applied to factors at most $n$ and followed by Cambie's pairing, written as a
 blueprint, with the upper bounds formalized in Lean in the PNT+ project. The
-site's label PROVED (LEAN) and the formal-conjectures record tie the problem to
-the PNT+ proof, but the site's commentary credits only Cambie's reduction and
-names no author of the proof, no refereed write-up is recorded, and the Lean
-has not been built here; so the claim is pending and the problem is
-`claimed`.
+erdosproblems.com label PROVED (LEAN) and the formal-conjectures record tie the
+problem to the PNT+ proof, but the erdosproblems.com commentary credits only
+Cambie's reduction and names no author of the proof, no refereed write-up is
+recorded, and the Lean has not been built here; so the claim is pending and the
+problem is `claimed`.
 
-The site's remarks give two reductions. With the bound $n$ in place of $n^2$,
-the remark says the least number of factors is $n-n/\log n+o(n/\log n)$ and that
-a greedy decomposition shows it (repeatedly take the largest factor still
-dividing what remains, starting from $n$ and descending); Stijn Cambie observed
-that pairing the factors of such a decomposition, $a_i'=a_{2i-1}a_{2i}$, gives
-factors at most $n^2$ and half as many, which with Stirling's lower bound would
-answer the question. The discussion thread questioned whether the greedy
-argument proves the $n$-bounded asymptotic; the recorded proof proves that
-asymptotic by approximate factorization instead and then pairs the factors as
-Cambie observed. Other size restrictions on the factors give further variants.
-The status search covered the site's problem page and discussion thread
-(accessed 2026-10-07), the formal-conjectures file and the PNT+ file's text at
-the pinned revision; the proof was not checked here.
+The erdosproblems.com remarks give two reductions. With the bound $n$ in place
+of $n^2$, the remark says the least number of factors is
+$n-n/\log n+o(n/\log n)$ and that a greedy decomposition shows it (repeatedly
+take the largest factor still dividing what remains, starting from $n$ and
+descending); Stijn Cambie observed that pairing the factors of such a
+decomposition, $a_i'=a_{2i-1}a_{2i}$, gives factors at most $n^2$ and half as
+many, which with Stirling's lower bound would answer the question. The
+discussion thread questioned whether the greedy argument proves the $n$-bounded
+asymptotic; the recorded proof proves that asymptotic by approximate
+factorization instead and then pairs the factors as Cambie observed. Other size
+restrictions on the factors give further variants. The status search covered the
+erdosproblems.com problem page and discussion thread (accessed 2026-10-07), the
+formal-conjectures file and the PNT+ file's text at the pinned revision; the
+proof was not checked here.

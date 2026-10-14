@@ -24,8 +24,8 @@ updated: 2026-10-08T01:29:58Z
 of primes dividing $x^{n}-1$ is equal to set of primes dividing $y^n-1$. Must
 $x=y$?
 
-**Status.** Proved. The site credits Corrales-Rodrigáñez and Schoof [CoSc97]
-with the positive answer. The accepted claim page is
+**Status.** Proved. erdosproblems.com credits Corrales-Rodrigáñez and Schoof
+[CoSc97] with the positive answer. The accepted claim page is
 [[problems/diophantine_problems/E1214/claims/1997_06_01_corralesrodriganez_schoof|Corrales-Rodrigáñez and Schoof 1997]].
 
 **Source.** [erdosproblems.com/1214](https://www.erdosproblems.com/1214),
@@ -46,9 +46,9 @@ from the claim page, and this corpus has not built it.
 
 ## Current assessment
 
-The question, in the site's formulation accessed 2026-09-04, asks whether
-integers $x,y\ge1$ with the same set of primes dividing $x^n-1$ and $y^n-1$
-for every $n\ge1$ must be equal. The answer is yes:
+The question, in the erdosproblems.com formulation accessed 2026-09-04, asks
+whether integers $x,y\ge1$ with the same set of primes dividing $x^n-1$ and
+$y^n-1$ for every $n\ge1$ must be equal. The answer is yes:
 [[problems/diophantine_problems/E1214/claims/1997_06_01_corralesrodriganez_schoof|Corrales-Rodrigáñez and Schoof 1997]],
 Theorem 1, proves for any number field that if $x^n\equiv1$ modulo a prime
 ideal implies $y^n\equiv1$ modulo that ideal, for all $n$ and almost all
@@ -57,13 +57,13 @@ $\mathbb{Q}$ makes each of $x,y$ a power of the other and so $x=y$. The paper
 also proves the elliptic-curve analogue (Theorem 2) and poses the
 abelian-variety case, which lies outside this question.
 
-Acceptance rests on the refereed paper and on the site's curator labeling the
-problem proved with that credit; this corpus has not verified the proof. A
-third-party Lean file declaring itself a formalization of the result is
+Acceptance rests on the refereed paper and on the erdosproblems.com curator
+labeling the problem proved with that credit; this corpus has not verified the
+proof. A third-party Lean file declaring itself a formalization of the result is
 linked from the claim page; this corpus has read it as text and has not
-built or audited it, so it gives no `formalized` evidence. Search scope: the site's problem page
-(no forum comments), the community database, the paper, the
-formal-conjectures file and the linked Lean file.
+built or audited it, so it gives no `formalized` evidence. Search scope: the
+erdosproblems.com problem page (no forum comments), the community database, the
+paper, the formal-conjectures file and the linked Lean file.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

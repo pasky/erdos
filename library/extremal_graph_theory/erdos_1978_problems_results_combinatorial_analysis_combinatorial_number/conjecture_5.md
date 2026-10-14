@@ -66,5 +66,5 @@ None.
 ## Bears on
 
 - [[../wiki/problems/ramsey_theory/E0159/_index|Problem 159]]: this is the problem's
-  statement in Erdős's words, with the prize the site records; the site
-  writes it as $R(C_4,K_n)\ll n^{2-c}$.
+  statement in Erdős's words, with the prize erdosproblems.com records;
+  erdosproblems.com writes it as $R(C_4,K_n)\ll n^{2-c}$.

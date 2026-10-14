@@ -5,8 +5,8 @@ desc: |
   The claimed main theorem of the 2026 Cipollini preprint: the minimum number
   f(n) of Farey fractions of order n strictly between two badly ordered
   fractions satisfies f(n) = (1/4 + o(1)) n, so Erdős Problem 1005 has
-  asymptotic constant 1/4; an AI-assisted preprint accepted by the site and
-  not refereed, compiled at statement depth only.
+  asymptotic constant 1/4; an AI-assisted preprint accepted by erdosproblems.com
+  and not refereed, compiled at statement depth only.
 created: 2026-09-18T16:10:00Z
 updated: 2026-10-07T20:53:40Z
 ---
@@ -52,7 +52,7 @@ definitions and the reduction (2.1) were read clause by clause on the page
 images of pp. 1--2, and the statements of Lemmas 2--5 in the text layer. The
 proof of the lower bound (pp. 3--14) was read for structure and not
 checked step by step; no step is independently reviewed here. Acceptance:
-the site's label and commentary; the source is a preprint.
+the erdosproblems.com label and commentary; the source is a preprint.
 
 ## Proof pointer
 
@@ -79,6 +79,7 @@ No external theorem beyond these is cited in the argument.
 ## Bears on
 
 - [[../wiki/problems/number_theory/E1005/_index|Problem 1005]]: the status-defining claim
-  behind the site's SOLVED label and its sentence $f(n)=(\frac14+o(1))n$;
-  the answer "yes, with $c=1/4$" to the problem's question, on the authority
-  of an unrefereed AI-assisted preprint that the site accepted.
+  behind erdosproblems.com's SOLVED label and its sentence
+  $f(n)=(\frac14+o(1))n$; the answer "yes, with $c=1/4$" to the problem's
+  question, on the authority of an unrefereed AI-assisted preprint that
+  erdosproblems.com accepted.

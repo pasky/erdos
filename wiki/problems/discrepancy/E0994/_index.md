@@ -39,40 +39,41 @@ $$
 
 for almost all $\alpha$?
 
-**Notes.** The site's wording places "for all $E$" after "for almost all
-$\alpha$", so it also admits a simultaneous reading, in which one set of
+**Notes.** The erdosproblems.com wording places "for all $E$" after "for almost
+all $\alpha$", so it also admits a simultaneous reading, in which one set of
 $\alpha$ of full measure serves every measurable $E$ at once. That reading fails
 for every $\alpha$: the orbit $\{\{k\alpha\}:k\ge1\}$ is countable, so its
 complement in $(0,1)$ is measurable, has measure $1$ and is never visited, and
 its visit frequency is $0$; the argument is elementary and is set out on the
 claim page. The change swaps the two phrases "for almost all $\alpha$" and "for
 all $E$", so that the null set of exceptional $\alpha$ may depend on $E$;
-nothing else changes. The evidence is the poser's own text as the site credits
-it: the site's commentary calls the problem a conjecture of Khintchine [Kh23],
-and Khintchine's question (§ 5, "Ein neues Problem", pp. 303–304) fixes the set
-$E$ first and asks whether his relations (6) and (7) hold "für alle $x$ mit
-Ausnahme höchstens einer Menge vom Maße Null". The ambiguity is already in
-Erdős's statement in [Er64b] (Part II, p. 57), which the site's wording follows:
-"Then for almost all $\alpha$ and every $E$". Erdős's own words there point to
-the same reading, since he credits the conjecture to Khintchine with the locator
-"see p. 303–304" and calls it "very deep", which the simultaneous reading is
-not. The choice does not change the answer: Marstrand's refutation [Ma70] of the
-modified Statement refutes the simultaneous reading as well. Results about the
-simultaneous reading alone, credited here and not counted: the variant
-`erdos_994.variants.simultaneous` of the formal-conjectures statement file
-(added on 2026-09-22, pinned under Formalization) and the theorem
-`not_erdos_994` of the file
+nothing else changes. The evidence is the poser's own text as erdosproblems.com
+credits it: the erdosproblems.com commentary calls the problem a conjecture of
+Khintchine [Kh23], and Khintchine's question (§ 5, "Ein neues Problem", pp.
+303–304) fixes the set $E$ first and asks whether his relations (6) and (7) hold
+"für alle $x$ mit Ausnahme höchstens einer Menge vom Maße Null". The ambiguity
+is already in Erdős's statement in [Er64b] (Part II, p. 57), which the
+erdosproblems.com wording follows: "Then for almost all $\alpha$ and every $E$".
+Erdős's own words there point to the same reading, since he credits the
+conjecture to Khintchine with the locator "see p. 303–304" and calls it "very
+deep", which the simultaneous reading is not. The choice does not change the
+answer: Marstrand's refutation [Ma70] of the modified Statement refutes the
+simultaneous reading as well. Results about the simultaneous reading alone,
+credited here and not counted: the variant `erdos_994.variants.simultaneous` of
+the formal-conjectures statement file (added on 2026-09-22, pinned under
+Formalization) and the theorem `not_erdos_994` of the file
 [`Erdos994.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos994.lean)
 in Boris Alexeev's lean-proofs collection (in the repository since 2026-08-17;
 formal authors Codex and GPT-5.6 Sol, as the file names them), both proving the
 orbit argument in Lean.
 
 **Status.** DISPROVED (LEAN). This is the label listed by the community database
-that the site displays, as of its last update on 2026-09-16. The site's label on
-2026-09-04 was DISPROVED. Khintchine's question of 1923 [Kh23], which Erdős's
-1964 problem paper [Er64b] calls a conjecture, was refuted by Marstrand [Ma70].
-So the modified Statement is false. The site's wording is also false in either
-order of its two quantifiers, as the accepted claim
+that erdosproblems.com displays, as of its last update on 2026-09-16. The
+erdosproblems.com label on 2026-09-04 was DISPROVED. Khintchine's question of
+1923 [Kh23], which Erdős's 1964 problem paper [Er64b] calls a conjecture, was
+refuted by Marstrand [Ma70]. So the modified Statement is false. The
+erdosproblems.com wording is also false in either order of its two quantifiers,
+as the accepted claim
 [[problems/discrepancy/E0994/claims/1970_11_01_marstrand|Marstrand 1970]]
 explains. The Lean behind the qualifier is a third-party formalization of
 Marstrand's disproof in the fixed-set order. It is not built or audited in this
@@ -99,12 +100,12 @@ added on 2026-09-22 and pinned to that commit: its main theorem `erdos_994`, in
 the fixed-set order of the modified Statement, is tagged research solved with
 the answer False and left without proof, and its variant
 `erdos_994.variants.simultaneous` proves in Lean that the simultaneous reading
-of the site's wording is false, by removing the countable orbit of $\alpha$ from
-$(0,1)$. The Lean behind the site's qualifier is Collin Yuanjie Ren's
-formalization of Marstrand's disproof in the fixed-set order (2026-09-16), which
-the community database cites; a file in Boris Alexeev's lean-proofs collection
-proves the simultaneous reading false. All three are linked, pinned, on the
-claim page; none is built or audited in this corpus.
+of the erdosproblems.com wording is false, by removing the countable orbit of
+$\alpha$ from $(0,1)$. The Lean behind erdosproblems.com's qualifier is Collin
+Yuanjie Ren's formalization of Marstrand's disproof in the fixed-set order
+(2026-09-16), which the community database cites; a file in Boris Alexeev's
+lean-proofs collection proves the simultaneous reading false. All three are
+linked, pinned, on the claim page; none is built or audited in this corpus.
 
 ## Progress
 

@@ -70,5 +70,5 @@ the edition read is named on the
   $4m^{2-\delta^2/2}$, the explicit case $k=1$ of
   [[extremal_graph_theory/alon_1985_maximum_number_disjoint_pairs_family_subsets/theorem_1_4|Theorem 1.4]]. The problem's third question asks
   whether more than $m^{2-\delta}$ edges force $m<(2+\epsilon)^{n/2}$;
-  the problem page records that the site credits the paper with the answer
-  yes.
+  the problem page records that erdosproblems.com credits the paper with the
+  answer yes.

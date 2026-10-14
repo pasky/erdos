@@ -52,8 +52,8 @@ paper's Theorem 1.10 extends it to pairs of excluded graphs from a wider
 class. The paper says that Chapter 3 of the first author's PhD thesis
 (*Induced Subgraph Density*, Princeton University, May 2025) proves the
 property for the family by a numerically simpler version of the argument;
-the site cites that thesis as a detailed account of the problem with proofs
-of some special cases, and the thread's post of 8 December 2025 lists the
+erdosproblems.com cites that thesis as a detailed account of the problem with
+proofs of some special cases, and the thread's post of 8 December 2025 lists the
 conjecture for infinitely many prime graphs among its contents. The thesis
 record is linked above.
 
@@ -65,6 +65,6 @@ infinitely many of them prime. The problem stays open.
 
 **Acceptance.** The paper is a refereed publication in the Transactions of
 the American Mathematical Society, which is the `refereed` evidence. The
-site's commentary credits the result through the thesis, but the site labeled
-the problem OPEN, so no `reviewed` evidence is listed. This corpus has not
-checked the proof.
+erdosproblems.com commentary credits the result through the thesis, but Bloom's
+catalog labeled the problem OPEN, so no `reviewed` evidence is listed. This
+corpus has not checked the proof.

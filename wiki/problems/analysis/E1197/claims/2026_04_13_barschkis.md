@@ -42,7 +42,7 @@ updated: 2026-10-07T22:00:38Z
 
 **Claim.** Theorem 1 of Enrique Barschkis, *A negative answer to an eventual
 covering question for rational dilates* (manuscript posted 13 April 2026 under
-the site username ebarschkis), states: there is a measurable
+erdosproblems.com username ebarschkis), states: there is a measurable
 $E\subset(0,\infty)$ of positive Lebesgue measure and the interval
 $J=[16/25,2/3]$ such that for every $x\in J$ there are infinitely many integers
 $n\ge1$ with $x\notin\frac rnE$ for every integer $r\ge1$, that is,
@@ -97,8 +97,8 @@ version in the claimant's thread. This corpus has built and audited none of
 them, so no `formalized` evidence is listed, and the formal-conjectures
 statement file is not a formalization link.
 
-**Acceptance.** The site's curator, Thomas F. Bloom, marked Problem 1197
-disproved, with the Lean qualification, and credits the counterexample to
+**Acceptance.** The erdosproblems.com curator, Thomas F. Bloom, marked Problem
+1197 disproved, with the Lean qualification, and credits the counterexample to
 ebarschkis. This is the `reviewed` evidence. The manuscript is not refereed.
 Thread comments report checks made with AI systems, and these checks are not
 review. The page is dated by the forum post and by the repository's upload on

@@ -26,13 +26,14 @@ $\{1,\ldots,n\}$ there exist at least $(\delta_k+o(1))n^2$ many monochromatic
 $k$-term arithmetic progressions. Give reasonable bounds (or even an asymptotic
 formula) for $\delta_k$.
 
-**Status.** Open. The label is the site's (OPEN, page last edited 8 April 2026).
-Its commentary records the bounds $1675/32768\le\delta_3\le117/2192$ of Parrilo,
-Robertson and Saracino, an accepted partial claim on
+**Status.** Open. The label is erdosproblems.com's (OPEN, page last edited 8
+April 2026). Its commentary records the bounds
+$1675/32768\le\delta_3\le117/2192$ of Parrilo, Robertson and Saracino, an
+accepted partial claim on
 [[problems/additive_combinatorics/E1186/claims/2006_09_19_parrilo_robertson_saracino|its claim page]].
-The site's proof-claims tab carries a partial proof claim by Carlos Toledo,
-submitted 2026-10-05, that $\delta_3=117/2192$, so that the upper bound of
-Parrilo, Robertson and Saracino is exact. The claim was produced with Claude
+The erdosproblems.com proof-claims tab carries a partial proof claim by Carlos
+Toledo, submitted 2026-10-05, that $\delta_3=117/2192$, so that the upper bound
+of Parrilo, Robertson and Saracino is exact. The claim was produced with Claude
 (Anthropic), the system the claim names. Its proof is computer-assisted and
 closed with exact rational certificates. It is recorded as claimed on
 [[problems/additive_combinatorics/E1186/claims/2026_10_05_toledo|its claim page]].
@@ -73,7 +74,7 @@ Peng [LuPe12] that the commentary records get no claim page, since they bound
 the analogue $\tilde\delta_k$ for colorings of $\mathbb{Z}/p\mathbb{Z}$,
 not $\delta_k$. Lu and Peng also carry their construction over to
 $\{1,\ldots,n\}$, giving a coloring with a third fewer monochromatic
-$4$-term progressions than a random one, so $\delta_4\le1/72$; the site
+$4$-term progressions than a random one, so $\delta_4\le1/72$; erdosproblems.com
 does not credit that bound, and it is recorded here without a claim page. No
 release item or lead names the problem.
 <!-- BEGIN problem library links -->

@@ -32,17 +32,17 @@ sets in $\mathbb{R}^n$.
 Graham, Montgomery, Rothschild, Spencer and Straus define it and as the claim
 pages read it; allowing a change of scale would be a different question.
 
-The site asks to "characterise the Ramsey sets". The classification
+erdosproblems.com asks to "characterise the Ramsey sets". The classification
 accepted here is a criterion: a finite set is Ramsey exactly when an explicit
 linear system over the tensor square of its coordinate field has a solution.
 That is a complete if-and-only-if description of the Ramsey sets, so the
 problem is recorded as solved. It is not a geometric description of the kind
 Graham or Leader, Russell and Walters conjectured (both of which the paper
 refutes, the first in Lean built here, the second as the release's own claim),
-and no procedure for deciding the criterion from numerical data is proved. The
-site labeled the problem OPEN, and its remarks, read 13 October 2026 (page last
-edited 16 October 2025), mention neither the classification nor Pálvölgyi's
-heptagon. The curator's post
+and no procedure for deciding the criterion from numerical data is proved.
+Bloom's catalog labeled the problem OPEN, and its remarks, read 13 October 2026
+(page last edited 16 October 2025), mention neither the classification nor
+Pálvölgyi's heptagon. The curator's post
 [[../library/number_theory/bloom_2026_erdos_problems_openai_proofs/_index|Erdős problems in the OpenAI proofs]]
 (8 October 2026; this problem added on 9 October) lists the classification as a
 claim; the post says that the curator has not yet looked seriously at the proofs
@@ -53,13 +53,14 @@ transitive set is Ramsey; it does not say whether the criterion answers the
 question. The standing here would follow the curator's ruling if the curator
 reads 'characterise' more narrowly.
 
-**Status.** OPEN, in the site's label (page last edited 16 October 2025). The
-site's proof-claims thread had no claim as of 6 October 2026. The standing in
-the frontmatter derives from the claim pages. It departs from the label because
-the classification of September 2026 postdates the site's last edit and is
-accepted here on its Lean proof. The site's remarks, read 13 October 2026,
-record neither result of September 2026, though Pálvölgyi announced the
-heptagon in the problem's discussion on 23 September 2026.
+**Status.** OPEN, in the erdosproblems.com label (page last edited 16 October
+2025). The erdosproblems.com proof-claims thread had no claim on 6 October 2026.
+The standing in the frontmatter derives from the claim pages. It departs from
+the label because the classification of September 2026 postdates
+erdosproblems.com's last edit and is accepted here on its Lean proof. The
+erdosproblems.com remarks, read 13 October 2026, record neither result of
+September 2026, though Pálvölgyi announced the heptagon in the problem's
+discussion on 23 September 2026.
 
 OpenAI's classification of 23 September 2026, recorded on
 [[problems/discrete_geometry/E0174/claims/2026_09_23_openai|its claim page]],
@@ -130,11 +131,11 @@ derivation-weighted version of the EGMRSS argument; that proof is unreviewed,
 and its
 [[problems/discrete_geometry/E0174/claims/2026_09_20_palvolgyi|claim page]]
 records it as claimed, with the author's attribution of the proof to ChatGPT.
-Neither result is in the site's remarks (read 13 October 2026) or in a journal;
-Pálvölgyi announced the heptagon in the site's discussion of the problem on 23
-September 2026, and the curator's post of 8 October 2026, to which this
-problem's entry was added on 9 October, lists the classification as a claim
-the curator has not yet checked.
+Neither result is in the erdosproblems.com remarks (read 13 October 2026) or in
+a journal; Pálvölgyi announced the heptagon in the erdosproblems.com discussion
+of the problem on 23 September 2026, and the curator's post of 8 October 2026,
+to which this problem's entry was added on 9 October, lists the classification
+as a claim the curator has not yet checked.
 
 **Search scope.** The search checked primary arXiv records, source manuscripts,
 publisher records and research-announcement leads beyond erdosproblems.com. The
@@ -147,7 +148,7 @@ near-circumsphere paper (arXiv:2608.10865) was located. Its v2, p. 24, cites
 both pyramid proofs, providing dated primary uptake. Neither uptake nor an
 announcement substitutes for proof review.
 
-The site's February 2026 discussion points to Behague's
+erdosproblems.com's February 2026 discussion points to Behague's
 [Nearly all known Euclidean Ramsey sets are subsoluble](https://arxiv.org/abs/2510.15677v3).
 The selected version is v3, 4 December 2025; the revision history says v2
 replaced the simplex argument with a citation to Karamanlis's earlier proof. An
@@ -183,7 +184,7 @@ is refuted by the compiled
 counterexample]]. That assertion is separate from the ordinary Ramsey property
 of regular hexagons and is not an input to either main block-size theorem.
 
-The problem site reports no formalized statement. The
+erdosproblems.com reports no formalized statement. The
 [formal-conjectures tree at its revision of 4 September 2026](https://github.com/google-deepmind/formal-conjectures/tree/8323e878b83fcd7f4a448256069352a265460d75/FormalConjectures/ErdosProblems)
 has no `174.lean` at the conventional path. That revision predates the
 release of 23 September 2026; the Lean development of that release, built

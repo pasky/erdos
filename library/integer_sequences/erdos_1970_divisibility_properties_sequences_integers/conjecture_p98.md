@@ -50,9 +50,9 @@ reading where the two larger terms may coincide (the maximum is then
 $\lceil x/3\rceil$ for large $x$, one less than $[x/3]+1$ when $3\mid x$);
 in the paper's own reading, in which the $[\tfrac13x]+1$ greatest integers
 qualify, the exact maximum is not settled by that theorem. Items 2 and 3
-are the third and second questions of Problem 12 in the site's order;
-item 3 is refuted by the site-accepted constructions of 2026 and item 2 is
-open.
+are the third and second questions of Problem 12 in erdosproblems.com's order;
+item 3 is refuted by the erdosproblems.com-accepted constructions of 2026 and
+item 2 is open.
 
 ## Dependencies
 
@@ -64,4 +64,4 @@ None.
   questions and of the $p^2$ example.
 - [[../wiki/problems/integer_sequences/E0013/_index|Problem 13]]: the origin of the finite
   conjecture, in the paper's reading with distinct larger terms; the
-  site's wording follows Bedert's reading.
+  erdosproblems.com wording follows Bedert's reading.

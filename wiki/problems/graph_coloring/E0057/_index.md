@@ -30,19 +30,19 @@ $\sum \frac{1}{a_i}=\infty$.
 length is counted once. Infinite chromatic number means that $G$ is not
 colorable with any finite number of colors.
 
-**Status.** The site labeled the problem PROVED (LEAN) and credits the solution
-to Liu and Montgomery. The accepted claim is
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN) and credits the
+solution to Liu and Montgomery. The accepted claim is
 [[problems/graph_coloring/E0057/claims/2020_10_29_liu_montgomery|Liu and Montgomery's odd interval theorem]].
 The Lean behind the qualifier is described below.
 
 **Source.** T. F. Bloom, Erdős Problem #57,
 [erdosproblems.com/57](https://www.erdosproblems.com/57), accessed 2026-09-05.
 
-**References.** Original problem references, as listed by the site.
+**References.** Original problem references, as listed by erdosproblems.com.
 [ErHa66], [Er69b], [Er74d], [Er81], [Er90], [Er93, p. 342],
-[Er94b], [Er95], [Er95d], [Er96], [Er97b], [Va99, 3.58]. These are the site
-header's historical statement references. Of these, [Er97b] (Erdős,
-Some old and new problems in various branches of combinatorics, Discrete
+[Er94b], [Er95], [Er95d], [Er96], [Er97b], [Va99, 3.58]. These are the
+erdosproblems.com header's historical statement references. Of these, [Er97b]
+(Erdős, Some old and new problems in various branches of combinatorics, Discrete
 Math. 165/166 (1997), 227--231) is carded: item 3 on p. 228 states the
 conjecture, quoted on its card,
 [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|erdos_1997_some_old_new_problems_various_branches_combinatorics]].
@@ -58,7 +58,7 @@ claim page; see Existing formalizations below.
 
 **Claims.** One claim page, accepted on refereed publication (J. Amer. Math.
 Soc. **36** (2023)) and on the curator's credit to Liu and Montgomery. It
-lists no `formalized` evidence: the Lean development behind the site's
+lists no `formalized` evidence: the Lean development behind erdosproblems.com's
 qualifier, in Boris Alexeev's lean-proofs collection, declares itself a
 formalization of Liu and Montgomery's solution and is linked from the claim
 page, but this corpus has not built it, and Lean outside the corpus's
@@ -74,7 +74,7 @@ the refereed publication and the curator's credit.
 
 ## Progress
 
-The site attributes the conjecture to Erdős and Hajnal [ErHa66] and its
+erdosproblems.com attributes the conjecture to Erdős and Hajnal [ErHa66] and its
 solution to Liu and Montgomery [LiMo20]. Their
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/theorem_1_4|Theorem 1.4]]
 proves a stronger finite statement: for every $\varepsilon>0$ and all
@@ -94,11 +94,11 @@ use of
 This distinguishes the quantitative finite result from the passage to
 the infinite graph in the stated problem.
 
-The site's historical remarks report that [Er81] asks about positive
+erdosproblems.com's historical remarks report that [Er81] asks about positive
 upper density, while [Er95d] and [Er96] ask about upper density or upper
 logarithmic density at least $1/2$. It also notes that lower density may
 be zero, using graphs of arbitrarily high chromatic number and girth.
-These are recorded as the site's historical remarks; they are not
+These are recorded as erdosproblems.com's historical remarks; they are not
 additional formal-proof claims. See also
 [[problems/extremal_graph_theory/E0065/_index|Problem 65]].
 
@@ -118,7 +118,7 @@ additional formal-proof claims. See also
 
 ## Existing formalizations
 
-The Lean development behind the site's qualifier is
+The Lean development behind erdosproblems.com's qualifier is
 [`Erdos57.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos57.lean)
 in Boris Alexeev's lean-proofs collection, added on 2026-08-17. It declares
 itself a formalization of a solution to the problem, names Erdős, Hajnal, Liu

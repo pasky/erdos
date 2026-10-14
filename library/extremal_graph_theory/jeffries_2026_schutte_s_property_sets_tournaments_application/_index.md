@@ -86,9 +86,10 @@ proofs were read for structure only and were not checked, and Sections 3 and
 [[extremal_graph_theory/jeffries_2026_schutte_s_property_sets_tournaments_application/theorem_2_3|theorem_2_3]].
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0902/_index|#902]]: not
-a site key; a preprint. P. 1 (page image): Definition 1.1, Schütte's property
-$S_k$ with $f(k)$ the smallest order of an $S_k$ tournament, and Theorem 1.1,
-"(Erdős (1963), Szekeres and Szekeres (1965))", whose three numbered items read
+an erdosproblems.com key; a preprint. P. 1 (page image): Definition 1.1,
+Schütte's property $S_k$ with $f(k)$ the smallest order of an $S_k$ tournament,
+and Theorem 1.1, "(Erdős (1963), Szekeres and Szekeres (1965))", whose three
+numbered items read
 "$f(k)\le\min\{n:2^k\binom nk(1-2^{-k})^{n-k}<1\}\le(\log(2)+O(1))k^22^k$ for
 large $k$ (Erdős)", "$f(k)\ge2^{k+1}-1$ (Erdős)" and "$f(k)\ge(k+2)2^{k-1}-1$
 for $k>2$ (Szekeres and Szekeres)", where the restriction "$k>2$" on the third

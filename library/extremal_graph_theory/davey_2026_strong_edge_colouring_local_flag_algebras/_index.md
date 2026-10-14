@@ -114,8 +114,8 @@ formalization was read, built or checked. Nothing here is independently
 reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0149/_index|#149]]: Theorem 1.1
-(p. 1, page image) is the best claimed upper bound on the site's quantity
-for large $\Delta$, a preprint result recorded with that qualification;
+(p. 1, page image) is the best claimed upper bound on erdosproblems.com's
+quantity for large $\Delta$, a preprint result recorded with that qualification;
 Theorem 1.2 bears on the bipartite subquestion the 1989 origin paper
 raises, and p. 1 attests the chain of refereed bounds ($1.998$, $1.93$,
 $1.835$, $1.772$) in the authors' words.

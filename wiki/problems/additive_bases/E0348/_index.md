@@ -26,25 +26,26 @@ $A=\{a_1\leq a_2\leq \cdots\}$ of integers such that  $A$ remains complete after
 removing any $m$ elements, but   $A$ is not complete after removing any $n$
 elements?
 
-**Formulation.** The site defines a set as complete when its finite subset sums
-contain all sufficiently large integers (its definitions page), and the
-statement lists $A$ as $a_1\le a_2\le\cdots$, so equal values are separate
+**Formulation.** erdosproblems.com defines a set as complete when its finite
+subset sums contain all sufficiently large integers (its definitions page), and
+the statement lists $A$ as $a_1\le a_2\le\cdots$, so equal values are separate
 terms, as the remarks' Fibonacci example $1,1,2,\ldots$ needs. The remarks
 contrast the strong sense, in which every positive integer must be a subset sum
 and van Doorn excluded every $m\ge2$, and say that Erdős and Graham most likely
 meant the eventual sense. The page reads the problem in the eventual sense with
 repeated values, the reading of Geneson's claim. Van Doorn's strong-sense
-result, posted in the site's discussion thread, settles no instance of it;
+result, posted in the erdosproblems.com discussion thread, settles no instance
+of it;
 [[problems/additive_bases/E0348/claims/2025_09_06_van_doorn|its claim page]]
 records it as rejected, answering a variant.
 
-**Status.** Claimed, against the site's label OPEN (accessed 2026-10-06). One
-pending full claim is recorded,
+**Status.** Claimed, against the erdosproblems.com label OPEN (accessed
+2026-10-06). One pending full claim is recorded,
 [[problems/additive_bases/E0348/claims/2026_09_09_geneson|Geneson's
 classification of deletion thresholds]], and the frontmatter standing,
 `claimed`/`answered`, follows from it. The claim is a 2026 preprint stating that
-the pairs asked for are exactly those with $m\in\{0,1\}$. The site's remarks
-record the case $m=2$, $n=3$ as unknown.
+the pairs asked for are exactly those with $m\in\{0,1\}$. The erdosproblems.com
+remarks record the case $m=2$, $n=3$ as unknown.
 
 **Source.** [erdosproblems.com/348](https://www.erdosproblems.com/348), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #348,
@@ -55,12 +56,12 @@ https://www.erdosproblems.com/348.
 
 ## Current assessment
 
-The site labeled Problem 348 OPEN (accessed 2026-10-06). The frontmatter
+Bloom's catalog labeled Problem 348 OPEN (accessed 2026-10-06). The frontmatter
 standing, `claimed`/`answered`, is derived from the one claim page below:
 Geneson's 2026 preprint asserts the full classification, exactly $m\le1$, and no
 acceptance of it is recorded. This page records no literature search beyond
-the site's thread and the preprint's card and no independent assessment of
-proof coverage.
+the erdosproblems.com thread and the preprint's card and no independent
+assessment of proof coverage.
 
 ## Progress
 
@@ -69,18 +70,19 @@ Geneson's Theorem 1 is recorded on its library card, linked below.
 ## Known Results
 
 One pending full claim. Jesse Geneson's preprint (arXiv:2609.25107, 2026-09-20;
-its earlier ResearchGate note was submitted to the site's proof-claims thread
-on 2026-09-09) claims that the pairs asked for are exactly those with
-$m\in\{0,1\}$, reading completeness in the eventual sense with repeated values
-allowed: every two-term deletion preserving completeness forces some deletion
-of every finite size to preserve it, so no $m\ge2$ works, while the powers of
-$2$ and the Fibonacci sequence give $m=0$ and $m=1$. The claim page
+its earlier ResearchGate note was submitted to the erdosproblems.com
+proof-claims thread on 2026-09-09) claims that the pairs asked for are exactly
+those with $m\in\{0,1\}$, reading completeness in the eventual sense with
+repeated values allowed: every two-term deletion preserving completeness forces
+some deletion of every finite size to preserve it, so no $m\ge2$ works, while
+the powers of $2$ and the Fibonacci sequence give $m=0$ and $m=1$. The claim
+page
 [[problems/additive_bases/E0348/claims/2026_09_09_geneson|Geneson's classification]]
-records the statement, the author's disclosure of machine assistance, the
-site's OPEN label, and a third-party Lean proof of the deletion lemma
-only; the preprint's card and its Theorem 1 page are the library links below.
-The reading adopted, and van Doorn's strong-sense exclusion of $m\ge2$ that
-the site's remarks record, are stated in the Formulation above.
+records the statement, the author's disclosure of machine assistance,
+erdosproblems.com's OPEN label, and a third-party Lean proof of the deletion
+lemma only; the preprint's card and its Theorem 1 page are the library links
+below. The reading adopted, and van Doorn's strong-sense exclusion of $m\ge2$
+that the erdosproblems.com remarks record, are stated in the Formulation above.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

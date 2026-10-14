@@ -28,25 +28,25 @@ numbers?
 What if $a,b\in A$ with $a\neq b$ implies $a+b\nmid 2ab$? Must $\lvert
 A\rvert=o(N)$?
 
-**Formulation.** The site's wording (the page shows no last-edited date),
-with the site's quotation marks. The page holds two questions, tracked
-separately here. Writing $f_k(N)$ for the largest $|A|$ with
+**Formulation.** The erdosproblems.com wording (the page shows no last-edited
+date), with erdosproblems.com's quotation marks. The page holds two questions,
+tracked separately here. Writing $f_k(N)$ for the largest $|A|$ with
 $A\subseteq\{1,\ldots,N\}$ and $a+b\nmid kab$ for all distinct $a,b\in A$,
 the first question asks whether $f_1(N)$ can exceed the odd numbers' $\lceil
 N/2\rceil$ by a positive proportion of $N$, and the second whether
 $f_2(N)=o(N)$. The link to unit fractions: $a+b\mid ab$ exactly when
-$\frac1a+\frac1b$ is a unit fraction (site commentary), and $a+b\mid2ab$
-exactly when the average $\frac12(\frac1a+\frac1b)$ is a unit fraction
-([Sa26], p. 1). The first condition is stronger than the freedom from
+$\frac1a+\frac1b$ is a unit fraction (erdosproblems.com commentary), and
+$a+b\mid2ab$ exactly when the average $\frac12(\frac1a+\frac1b)$ is a unit
+fraction ([Sa26], p. 1). The first condition is stronger than the freedom from
 two-term relations of [[problems/unit_fractions/E0302/_index|Problem 302]],
 since here the third denominator $ab/(a+b)$ need not lie in $A$. $f_1(N)$ is
 OEIS A384927 ($1,2,3,4,5,5,6,\ldots$, to $N=5000$).
 
-**Status.** Labeled open on the site. The label was OPEN (the page shows no
-last-edited date), and the site marked the problem as not resolvable by a finite
-computation. The standing derived from the claim pages is claimed, claim
-answered. It rests on one full claim, Della Pietra's AI-assisted manuscript of
-29 July 2026
+**Status.** Labeled open on erdosproblems.com. The label was OPEN (the page
+shows no last-edited date), and Bloom's catalog marked the problem as not
+resolvable by a finite computation. The standing derived from the claim pages is
+claimed, claim answered. It rests on one full claim, Della Pietra's AI-assisted
+manuscript of 29 July 2026
 ([[problems/unit_fractions/E0327/claims/2026_07_29_della_pietra|its page]]). The
 manuscript asserts a positive answer to the first question and an independent
 negative answer to the second. The claim is pending and accepted by nobody.
@@ -64,15 +64,15 @@ accessed 2026-09-17: the problem page (OPEN, marked as not resolvable by a
 finite computation; source key [ErGr80]; no last-edited date shown), its
 eleven-comment discussion thread (22 August 2025 to 2 July 2026) and its
 proof-claim tab with one partial and one full claim (18 and 29 July 2026).
-The site thanks Wouter van Doorn. Cite as: T. F. Bloom, Erdős Problem #327,
-https://www.erdosproblems.com/327, accessed 2026-09-17.
+erdosproblems.com thanks Wouter van Doorn. Cite as: T. F. Bloom, Erdős Problem
+#327, https://www.erdosproblems.com/327, accessed 2026-09-17.
 
 **References.**
 
 - [ErGr80] Erdős, P. and Graham, R. L., Old and new problems and results
   in combinatorial number theory. Monographies de L'Enseignement
-  Mathématique 28, Université de Genève (1980), p. 37 (the site gives no
-  page; Sawin and Della Pietra cite p. 37). Library home:
+  Mathématique 28, Université de Genève (1980), p. 37 (erdosproblems.com gives
+  no page; Sawin and Della Pietra cite p. 37). Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 - [Sa26] Sawin, W., Sets of unit fractions without two members whose
   average is a unit fraction. arXiv:2607.15419v1 (16 July 2026, the only
@@ -85,8 +85,8 @@ https://www.erdosproblems.com/327, accessed 2026-09-17.
   [[../library/unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/_index|doorn_2025_two_coloring_density_solutions_unit_fraction_equation]].
 - [Li26] Liu, Yu Leon, Upper bounds for Erdős Problem #327 and its
   $k$-variant. Public four-page manuscript (PDF dated 19 May 2026) linked
-  from the site's thread (comment of 13 May 2026; the certificate script
-  `erdos327_cert.py` was committed 20 May 2026 per the GitHub API);
+  from the erdosproblems.com thread (comment of 13 May 2026; the certificate
+  script `erdos327_cert.py` was committed 20 May 2026 per the GitHub API);
   unrefereed; not filed in the library. Theorem 6,
   p. 2; Table 1 and the AI-use acknowledgment, p. 4.
 - [DP26a] Della Pietra, D., A positive-density improvement over the odd
@@ -116,11 +116,11 @@ and is not built or audited here, so it gives no `formalized` evidence.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-17).** The statement
-above; OPEN; no last-edited date. The commentary states the unit-fraction
-connection, credits Wouter van Doorn with an elementary argument showing
-that every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge(25/28+o(1))N$ contains
-distinct $a,b$ with $a+b\mid ab$, refers for it to the discussion under
+**The question (erdosproblems.com formulation, accessed 2026-09-17).** The
+statement above; OPEN; no last-edited date. The commentary states the
+unit-fraction connection, credits Wouter van Doorn with an elementary argument
+showing that every $A\subseteq\{1,\ldots,N\}$ with $|A|\ge(25/28+o(1))N$
+contains distinct $a,b$ with $a+b\mid ab$, refers for it to the discussion under
 Problem 301, and points to Problem 302. The thread (eleven comments,
 22 August 2025 to 2 July 2026):
 an elementary link between the two questions (22 August 2025, below);
@@ -147,11 +147,12 @@ Problems 301 and 302: "Of course, $\frac1t=\frac1x+\frac1y$ holds if and only if
 $x+y\mid xy$. Suppose $X\subseteq\{1,2,\ldots,n\}$ so that $x,y\in X$ implies
 $x+y\nmid xy$. Can $X$ be substantially more than the odd numbers? What if
 $x,y\in X$, $x\ne y$, implies $x+y\nmid2xy$? Must we have $|X|=o(n)$ in this
-case?" The site's statement is the passage with $a\ne b$ made explicit in the
-first condition, which the passage states only for the second. Read as the
-passage words it, with $x=y$ allowed, the first condition would exclude every
-even $x$, since $2x\mid x^2$, so the first question would be trivially no; the
-site, Sawin and Della Pietra read both conditions for distinct pairs.
+case?" The erdosproblems.com statement is the passage with $a\ne b$ made
+explicit in the first condition, which the passage states only for the second.
+Read as the passage words it, with $x=y$ allowed, the first condition would
+exclude every even $x$, since $2x\mid x^2$, so the first question would be
+trivially no; erdosproblems.com, Sawin and Della Pietra read both conditions for
+distinct pairs.
 
 **Second question: Sawin's preprint (progress, preprint qualification).**
 [[../library/unit_fractions/sawin_2026_sets_unit_fractions_without_two_members_average_unit_fraction/theorem_1|Theorem 1]]
@@ -165,16 +166,16 @@ of de la Bretèche and Tenenbaum, a strategy the paper attributes to Stef's
 1992 thesis; the proof is not independently verified. The paper makes no
 effort to compute $c$ and says its method gives, for the first question, a
 lower bound worse than the odd numbers. Acceptance evidence: none beyond the
-site's proof-claim tab, where the author submitted the result on 18 July
-2026, first as a full claim and, by Sawin's own comment of 29 July 2026, as a
-claim on the second part only, naming the AI systems ChatGPT 5.5 for data
+erdosproblems.com proof-claim tab, where the author submitted the result on 18
+July 2026, first as a full claim and, by Sawin's own comment of 29 July 2026, as
+a claim on the second part only, naming the AI systems ChatGPT 5.5 for data
 analysis and reference search and ChatGPT 5.6 for proofreading and keeping
 the proof strategy and the write-up as the author's own; the arXiv listing of
 2026-09-17 shows one version and no journal reference, no citing work was
-found, and the site's status and commentary do not mention the preprint.
-Provenance recorded, not judged: the paper's own declaration (p. 2) says the
-author asked ChatGPT to look for patterns in Cambie's $N=500$ example and
-that it "was also used for reference search and proofreading". So the second
+found, and the erdosproblems.com status and commentary do not mention the
+preprint. Provenance recorded, not judged: the paper's own declaration (p. 2)
+says the author asked ChatGPT to look for patterns in Cambie's $N=500$ example
+and that it "was also used for reference search and proofreading". So the second
 question has a preprint-level negative answer and no refereed one; the
 result is a pending partial claim,
 [[problems/unit_fractions/E0327/claims/2026_07_16_sawin|Sawin's page]],
@@ -186,7 +187,7 @@ odd. Upper bounds: a set $A$ with $a+b\nmid ab$ for all distinct $a,b\in A$
 has no triple of distinct $x,y,z\in A$ with $1/x+1/y=1/z$ (such a triple has
 $x+y\mid xy$ with $x\ne y$), so van Doorn's
 [[../library/unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/theorem_2|Theorem 2]]
-gives $f_1(N)<9N/10+(\log N)^3+1$. The site's sharper
+gives $f_1(N)<9N/10+(\log N)^3+1$. erdosproblems.com's sharper
 $f_1(N)\le(25/28+o(1))N$ holds: within $S_a=\{2a,3a,4a,6a,12a\}$ the pairs
 with $x+y\mid xy$ include $\{3a,6a\}$, $\{6a,12a\}$ and $\{4a,12a\}$ for
 every $a$ (a path through $3a,6a,12a,4a$; exactly these when
@@ -211,8 +212,8 @@ p. 14 lists two errata relative to a first version, says its Lean
 development "was not rebuilt for this revision", and discloses that "AI
 systems were used for data analysis, reference search, adversarial proof
 audits, independent reconstruction of intermediate estimates, formalization
-assistance, and proofreading"; the site's proof-claim tab carries it as a
-full claim submitted 29 July 2026, declaring the AI system GPT 5.6 Sol,
+assistance, and proofreading"; the erdosproblems.com proof-claim tab carries it
+as a full claim submitted 29 July 2026, declaring the AI system GPT 5.6 Sol,
 whose notes say that the Lean theorem `erdos327FullConclusion_unconditional`
 builds without `sorry` and that the manuscript also proves the second
 question's negative answer independently. It is the pending full claim,
@@ -258,9 +259,9 @@ its proof is not independently verified, and its claim page is pending. (2)
 The first question is open between $1/2$ and $25/28$ in
 refereed-or-elementary terms, with an unrefereed AI-assisted full claim of
 a positive answer, pending on its claim page, and unrefereed computational
-upper bounds; none is independently verified. (3) The site's $25/28$
-argument has no written source; it is recorded from the site. (4) [Ko26] is
-not held. (5) No formal statement was found on 2026-10-07.
+upper bounds; none is independently verified. (3) erdosproblems.com's $25/28$
+argument has no written source; it is recorded from erdosproblems.com. (4)
+[Ko26] is not held. (5) No formal statement was found on 2026-10-07.
 
 ## Progress and known results
 
@@ -268,7 +269,7 @@ Second question:
 [[../library/unit_fractions/sawin_2026_sets_unit_fractions_without_two_members_average_unit_fraction/theorem_1|Sawin's Theorem 1]]
 (preprint, 2026) gives $f_2(N)>cN$ for large $N$, so $|A|=o(N)$ is not
 forced; the constant is not computed. First question:
-$\lceil N/2\rceil\le f_1(N)\le(25/28+o(1))N$ (odd numbers; the site's
+$\lceil N/2\rceil\le f_1(N)\le(25/28+o(1))N$ (odd numbers; erdosproblems.com's
 argument), with
 [[../library/unit_fractions/doorn_2025_two_coloring_density_solutions_unit_fraction_equation/theorem_2|van Doorn's Theorem 2]]
 giving the weaker $9N/10+(\log N)^3+1$; claimed, unrefereed:

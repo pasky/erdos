@@ -35,16 +35,16 @@ $$
 
 many even integers of the form $a_{j+1}-a_j$?
 
-**Status.** Open. The site's label was OPEN (page last edited 4 November 2025).
-A partial claim leaves the standing open. The site's proof-claim tab carried
-one partial claim, submitted 2026-08-20 by the forum account
-DottedCalculator, the claimant. It comes with a five-page write-up signed by the
-AI system GPT 5.6 Sol. The claim is that for every large $k$, every even number
-up to a constant times $p_k$ is a difference $a_{i+1}-a_i$. So the claim also
-gives that the smallest even integer that is not such a difference is
-$\gg p_k\sim k\log k$, and that $\gg p_k$ distinct even differences occur. The
-write-up says that it does not settle the displayed comparison with
-$\max_i(a_{i+1}-a_i)$. The claim is recorded on
+**Status.** Open. The erdosproblems.com label was OPEN (page last edited 4
+November 2025). A partial claim leaves the standing open. The erdosproblems.com
+proof-claim tab carried one partial claim, submitted 2026-08-20 by the forum
+account DottedCalculator, the claimant. It comes with a five-page write-up
+signed by the AI system GPT 5.6 Sol. The claim is that for every large $k$,
+every even number up to a constant times $p_k$ is a difference $a_{i+1}-a_i$. So
+the claim also gives that the smallest even integer that is not such a
+difference is $\gg p_k\sim k\log k$, and that $\gg p_k$ distinct even
+differences occur. The write-up says that it does not settle the displayed
+comparison with $\max_i(a_{i+1}-a_i)$. The claim is recorded on
 [[problems/integer_sequences/E0854/claims/2026_08_20_dottedcalculator|its claim page]]
 without adoption. No comment, review or outside record was found, and nothing is
 reviewed here. The write-up names two earlier public lower bounds, each recorded

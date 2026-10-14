@@ -141,8 +141,8 @@ the report that Rödl proved it with the bounds on F(n) in display (4) and
 that it fails for three colors, and "His paper on this subject will appear
 soon" (the paper appeared in 2003);
 [[../wiki/problems/extremal_graph_theory/E0905/_index|#905]]: Chapter III, §5, printed
-p. 71 (PDF p. 13, page image), the site's source key Er82e: "Bollobás and I
-conjectured that every $G(n;[\frac{n^2}4]+1)$ has an edge which is
+p. 71 (PDF p. 13, page image), the erdosproblems.com source key Er82e: "Bollobás
+and I conjectured that every $G(n;[\frac{n^2}4]+1)$ has an edge which is
 contained in at least $\frac n6$ triangles, and we observed that, if this
 is true, it is best possible. For the proof we needed the following further
 conjecture: Let $m>\frac{n^2}4$. Then every $G(n;m)$ contains a triangle
@@ -159,8 +159,8 @@ problem page records;
 [[../wiki/problems/extremal_graph_theory/E1033/_index|#1033]]: the same passage of Chapter
 III, §5, printed p. 71 (PDF p. 13, page image), the "further conjecture"
 (1) that every $G(n;m)$ with $m>n^2/4$ contains a triangle with
-$v(x_1)+v(x_2)+v(x_3)\ge3n/2$, the site's "In [Er82e] it is asked whether
-$h(n)\ge\frac32n$", with "Edwards proved (1)" and the Edwards reference;
+$v(x_1)+v(x_2)+v(x_3)\ge3n/2$, erdosproblems.com's "In [Er82e] it is asked
+whether $h(n)\ge\frac32n$", with "Edwards proved (1)" and the Edwards reference;
 the display prints $\ge$, and the problem page records that (1) as printed
 is inconsistent with the upper bound $h(n)\le2(\sqrt3-1)n+O(1)$;
 [[../wiki/problems/ramsey_theory/E0163/_index|#163]]: the second "last minute"
@@ -172,9 +172,9 @@ years ago that then (1) r̂(G(n)) < f(c)n. In other words the ordinary diagonal
 Ramsey number of G(n) is less than Cn where C depends only on c." The display
 prints the hat of the size Ramsey number, a misprint the next sentence
 corrects; this is the Burr--Erdős conjecture of 1975 in its edge-density form
-(fewer than ck edges on any k vertices), the site's source key Er82e for the
-problem, stated as open in 1982 and proved by Lee (arXiv preprint 2015, Ann.
-of Math. 2017); the size-Ramsey strengthening (2) that follows is Problem
+(fewer than ck edges on any k vertices), the erdosproblems.com source key Er82e
+for the problem, stated as open in 1982 and proved by Lee (arXiv preprint 2015,
+Ann. of Math. 2017); the size-Ramsey strengthening (2) that follows is Problem
 559's passage;
 [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: Chapter III, §1,
 printed p. 69 (PDF p. 11, page image), second paragraph: "Rényi and I
@@ -200,14 +200,14 @@ Problem of Erdös in Diophantine approximation, Bull. London Math. Soc. 12
 (1980), 81-88", "B. de Mathan, Number contravening a condition in density
 modulo 1, Acta Math. Acad. Sci. Hungar. 36 (1980), 237-241" and "A. D.
 Pollington, On the density of sequence {n_k ξ}, Illinois J. Math. 23
-(1979), 511-515" (titles as printed); the site's source key Er82e for the
-problem, Erdős's own announcement of the solution in the "not everywhere
-dense" form, and the passage that identifies the site's key Er75i with the
-second of the two Erdős papers named here, the Répartition Modulo 1
+(1979), 511-515" (titles as printed); the erdosproblems.com source key Er82e for
+the problem, Erdős's own announcement of the solution in the "not everywhere
+dense" form, and the passage that identifies the erdosproblems.com key Er75i
+with the second of the two Erdős papers named here, the Répartition Modulo 1
 chapter (pp. 89-97 of Lecture Notes in Math. 475);
 [[../wiki/problems/number_theory/E0465/_index|#465]] and
 [[../wiki/problems/number_theory/E0466/_index|#466]]: Chapter II, §9, printed pp. 67--68
-(PDF pp. 9--10, page images), the site's source key Er82e for both
+(PDF pp. 9--10, page images), the erdosproblems.com source key Er82e for both
 problems: "Denote by $N(x,\delta)$ the maximum number of points
 $p_1,\ldots,p_n$ which can be chosen in a circle of radius $x$ so that the
 distance between any two of them differs by at least $\delta$ from every
@@ -229,44 +229,43 @@ closing "Perhaps" Problem 465's second question;
 in a circle of radius $x$ whose pairwise distances differ from every integer
 by at least $\delta$, with the Sárközy and Graham bounds, and does not state
 the problem's measure question (the largest measure of a measurable set in a
-disc of radius $r$ with no two points at an integer distance); the site's
-pages for Problems 465 and 466 point to Problem 953 as "a similar problem";
-[[../wiki/problems/ramsey_theory/E0080/_index|#80]]: Chapter III, §5, printed p. 71 (PDF
-p. 13, page image), the Bollobás--Erdős passage quoted under Problem 905:
-the conjecture that every $G(n;[\frac{n^2}4]+1)$ has an edge in at least
-$\frac n6$ triangles is the problem's function at every density above one
-quarter ($f_c(n)\ge n/6$ for $c>1/4$, the bound the problem page records
-from Edwards and from Khadzhiivanov and Nikiforov), and the closing
+disc of radius $r$ with no two points at an integer distance); the
+erdosproblems.com pages for Problems 465 and 466 point to Problem 953 as "a
+similar problem"; [[../wiki/problems/ramsey_theory/E0080/_index|#80]]: Chapter
+III, §5, printed p. 71 (PDF p. 13, page image), the Bollobás--Erdős passage
+quoted under Problem 905: the conjecture that every $G(n;[\frac{n^2}4]+1)$ has
+an edge in at least $\frac n6$ triangles is the problem's function at every
+density above one quarter ($f_c(n)\ge n/6$ for $c>1/4$, the bound the problem
+page records from Edwards and from Khadzhiivanov and Nikiforov), and the closing
 sentence quoted under Problem 905, Edwards's proof of (1) and of the
 conjecture nearly in full generality, is Erdős's own report of Edwards's
-proof, the site's "Edwards (unpublished)"; the passage says nothing about
-densities below one quarter or about the hypothesis that every edge lies in
-a triangle, and the more general conjecture it mentions, with $k(r)$ in
-place of $k(3)$, generalizes the degree-sum conjecture (1) to complete
-$r$-graphs, not the book problem;
-[[../wiki/problems/extremal_graph_theory/E0900/_index|#900]]: the site's key Er82e; §1,
-printed p. 69 (PDF p. 11, page image), the first paragraph, before the
-Hamiltonian passage quoted for Problem 746: "§1. I conjectured that for
-every $\frac12<c<\infty$ there is a function $f(c)$ so that every random
-graph $G(n;cn)$ contains a path of length at least $f(c)n$ where $f(c)\to0$
-as $c\to\frac12$ and $f(c)\to1$ as $c\to\infty$. All these conjectures were
-proved by Ajtai, Komlós and Szemerédi", followed on the same page by the
-reference "M. Ajtai, J. Komlós and E. Szemerédi, The longest path in a
-random graph, Combinatorica 1 (1981), 1-12"; the problem's statement in
-Erdős's own words, in the form the site uses, with his report of its
+proof, erdosproblems.com's "Edwards (unpublished)"; the passage says nothing
+about densities below one quarter or about the hypothesis that every edge lies
+in a triangle, and the more general conjecture it mentions, with $k(r)$ in place
+of $k(3)$, generalizes the degree-sum conjecture (1) to complete $r$-graphs, not
+the book problem; [[../wiki/problems/extremal_graph_theory/E0900/_index|#900]]:
+the erdosproblems.com key Er82e; §1, printed p. 69 (PDF p. 11, page image), the
+first paragraph, before the Hamiltonian passage quoted for Problem 746: "§1. I
+conjectured that for every $\frac12<c<\infty$ there is a function $f(c)$ so that
+every random graph $G(n;cn)$ contains a path of length at least $f(c)n$ where
+$f(c)\to0$ as $c\to\frac12$ and $f(c)\to1$ as $c\to\infty$. All these
+conjectures were proved by Ajtai, Komlós and Szemerédi", followed on the same
+page by the reference "M. Ajtai, J. Komlós and E. Szemerédi, The longest path in
+a random graph, Combinatorica 1 (1981), 1-12"; the problem's statement in
+Erdős's own words, in the form erdosproblems.com uses, with his report of its
 proof;
-[[../wiki/problems/extremal_graph_theory/E0902/_index|#902]]: the site's key Er82e; §2,
-printed p. 70 (PDF p. 12, page image), after the property B passage:
-"Schütte asked me 20 years ago, is there for every $n$ an $f(n)$ so that
-there is a tournament (or a complete directed graph) of $f(n)$ players so
-that every set of $n$ players is beaten by at least one of the players.
-Schütte observed $f(1)=3$, $f(2)=7$ but it seemed difficult to calculate
-$f(n)$ for $n>2$ (or even to prove the existence of $f(n)$). I proved by the
-probability method that for some $c>0$ (3) $2^{n+1}-1\le f(n)\le cn^22^n$,
-and I asked for an improvement of (3). E. and G. Szekeres proved $f(3)=19$
-and $f(n)>cn2^n$. At the moment an asymptotic formula for $f(n)$ seems
-beyond reach", followed on the same page by the references "P. Erdös, On a
-problem in graph theory, Math. Gazette, 47(1963), 220-223" and "E.
+[[../wiki/problems/extremal_graph_theory/E0902/_index|#902]]: the
+erdosproblems.com key Er82e; §2, printed p. 70 (PDF p. 12, page image), after
+the property B passage: "Schütte asked me 20 years ago, is there for every $n$
+an $f(n)$ so that there is a tournament (or a complete directed graph) of $f(n)$
+players so that every set of $n$ players is beaten by at least one of the
+players. Schütte observed $f(1)=3$, $f(2)=7$ but it seemed difficult to
+calculate $f(n)$ for $n>2$ (or even to prove the existence of $f(n)$). I proved
+by the probability method that for some $c>0$ (3)
+$2^{n+1}-1\le f(n)\le cn^22^n$, and I asked for an improvement of (3). E. and G.
+Szekeres proved $f(3)=19$ and $f(n)>cn2^n$. At the moment an asymptotic formula
+for $f(n)$ seems beyond reach", followed on the same page by the references "P.
+Erdös, On a problem in graph theory, Math. Gazette, 47(1963), 220-223" and "E.
 Szekeres and G. Szekeres, On a problem of Schütte and Erdös, Math. Gazette,
 49(1975), 290-293" (the print's "1975" for the 1965 volume); Erdős's own
 statement of the problem with the bounds of his 1963 paper and his
@@ -277,9 +276,9 @@ under Problem 905: it states the conjecture that every $G(n;[\frac{n^2}4]+1)$
 has an edge in at least $\frac n6$ triangles, the degree-sum conjecture (1) and
 Edwards's proof of it; it does not state the problem's stronger question (a
 triangle with more than $(\frac12-o(1))n$ vertices each joined to two of its
-vertices), which the site attributes to Erdős and Faudree in a 1993
+vertices), which erdosproblems.com attributes to Erdős and Faudree in a 1993
 collection, so the passage is the 1982 statement of the weaker problem of
-which the site calls Problem 1034 "a stronger version";
+which erdosproblems.com calls Problem 1034 "a stronger version";
 [[../wiki/problems/set_systems/E0702/_index|#702]]: Chapter III, §6, printed
 p. 72, the conjecture of Sós and Erdős, after their observation that at most
 $n$ triples of an $n$-set have no two meeting in exactly one point, with
@@ -290,8 +289,8 @@ $\mathrm{Max}\,t_k=\binom{n-2}{k-2}$. (1) was proved for $k=4$ by Katona and
 by P. Frankl in the general case.", followed by the reference to Frankl's
 paper in Bull. Austral. Math. Soc. 17 (1977); the misprinted upper index $k$
 in $j\le k$ stands for $t_k$; the statement carries the range $n>n_0(k)$ that
-the site's wording omits, and reports Frankl's proof, the site's source key
-Er82e for the problem.
+the erdosproblems.com wording omits, and reports Frankl's proof, the
+erdosproblems.com source key Er82e for the problem.
 
 **Results.**
 

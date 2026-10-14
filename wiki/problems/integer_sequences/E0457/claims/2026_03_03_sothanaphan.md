@@ -3,7 +3,7 @@ name: problems/integer_sequences/E0457/claims/2026_03_03_sothanaphan
 title: GPT write-up of the Dirichlet-approximation construction
 desc: |
   Nat Sothanaphan's write-up, produced by GPT-5.2 Thinking and posted to the
-  site's thread on 3 March 2026, claims that infinitely many $n$ have
+  erdosproblems.com thread on 3 March 2026, claims that infinitely many $n$ have
   $q(n,\log n)\ge(\frac12+o(1))\log n\log\log n/\log\log\log n$, which answers
   the question for every constant.
 authors:
@@ -37,12 +37,12 @@ constant in place of $2$, in a form sharper than the construction on the
 sibling page
 [[problems/integer_sequences/E0457/claims/2026_03_02_barreto|Barreto]]. The
 write-up's Theorem 1 uses $f\gg g$ to mean $f\ge cg$ for an absolute constant
-$c>0$; its proof (p. 5) gives $q(n,\lfloor\log n\rfloor)>(\frac12+o(1))\log
-n\log\log n/\log\log\log n$, the bound the site's commentary credits to Tao's
-sketch.
+$c>0$; its proof (p. 5) gives
+$q(n,\lfloor\log n\rfloor)>(\frac12+o(1))\log n\log\log n/\log\log\log n$, the
+bound the erdosproblems.com commentary credits to Tao's sketch.
 
-**Submission note.** Posted to the site's forum by Nat Sothanaphan on 3 March
-2026:
+**Submission note.** Posted to the erdosproblems.com forum by Nat Sothanaphan on
+3 March 2026:
 
 > I have GPT with near-autonomous process expand this into a writeup. We do get
 > $q(n, \log n) \gg \log n \log \log n/\log \log \log n$ for infinitely many
@@ -68,9 +68,9 @@ in $[B,B^{1+o(1)}]$ would plausibly give $1-o(1)$.
 states that GPT produced it in what the claimant calls a near-autonomous
 process; the write-up's disclaimer names the system as GPT-5.2 Thinking.
 
-**Standing.** Claimed. The site's label PROVED (LEAN) and its commentary
-credit GPT-5.2 Pro's construction, prompted by Barreto, and record Tao's
-elaboration as a sketch in the comments; neither names this write-up, and
+**Standing.** Claimed. The erdosproblems.com label PROVED (LEAN) and its
+commentary credit GPT-5.2 Pro's construction, prompted by Barreto, and record
+Tao's elaboration as a sketch in the comments; neither names this write-up, and
 no paper, refereed publication or Lean file of it exists. Tao's thread reply
 thanks the poster for fleshing out the details and confirms the method's
 limit, which is endorsement in a thread, not a review record. Nothing was

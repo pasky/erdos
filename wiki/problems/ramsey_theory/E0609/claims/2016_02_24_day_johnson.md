@@ -40,11 +40,11 @@ $f(n)\ge2^{\sqrt{2\log_2n}-O(1)}$. In particular $f(n)\to\infty$, which the
 paper's Theorem 2 (p. 2) also states directly: for every $r$ some number $n$
 of colors admits an $n$-coloring of $K_{2^n+1}$ whose monochromatic odd cycles
 all have length at least $r$. This answers yes the question, recorded in the
-site's commentary from Chung, whether $f(n)\to\infty$. The colorings are built
-inductively from the paper's rooted round colorings, which pass from
+erdosproblems.com commentary from Chung, whether $f(n)\to\infty$. The colorings
+are built inductively from the paper's rooted round colorings, which pass from
 $K_{2^n+1}$ to $K_{2^{n+1}+1}$ with one more color. The paper is A. N. Day and
 J. R. Johnson, *Multicolour Ramsey numbers of odd cycles*, J. Combin. Theory
-Ser. B 124 (2017), 56--63, DOI 10.1016/j.jctb.2016.12.005, the site's
+Ser. B 124 (2017), 56--63, DOI 10.1016/j.jctb.2016.12.005, erdosproblems.com's
 [DaJo17]; its first arXiv version is dated 24 February 2016, the date this
 page carries, and the publisher's record dates the issue to May 2017. It is
 paged on the library's
@@ -59,7 +59,7 @@ exponential in $n$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper appeared in the Journal of Combinatorial
-Theory, Series B, volume 124. The site labeled the problem OPEN, so its
+Theory, Series B, volume 124. Bloom's catalog labeled the problem OPEN, so its
 commentary crediting Day and Johnson is not an acceptance, and no `reviewed`
 evidence is listed.
 

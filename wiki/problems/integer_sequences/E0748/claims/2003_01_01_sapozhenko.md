@@ -30,35 +30,38 @@ updated: 2026-10-07T21:33:46Z
 ***
 
 **Claim.** The answer is yes. A. A. Sapozhenko, *The Cameron-Erdős
-conjecture*, Dokl. Akad. Nauk 393 (2003), no. 6, 749--752, the note the
-site cites, and in full A. A. Sapozhenko, *The Cameron–Erdős conjecture*,
-Discrete Math. 308 (2008), no. 19, 4361--4369, prove that the
+conjecture*, Dokl. Akad. Nauk 393 (2003), no. 6, 749--752, the note
+erdosproblems.com cites, and in full A. A. Sapozhenko, *The Cameron–Erdős
+conjecture*, Discrete Math. 308 (2008), no. 19, 4361--4369, prove that the
 number $f(n)$ of sum-free subsets of $\{1,\ldots,n\}$ satisfies
-$f(n)\ll2^{n/2}$, and, as the site records, the two-valued asymptotic
+$f(n)\ll2^{n/2}$, and, as erdosproblems.com records, the two-valued asymptotic
 $f(n)\sim c_n2^{n/2}$ with $c_n$ depending only on the parity of $n$; with
 the trivial lower bound $f(n)\ge2^{\lceil n/2\rceil}$ this gives
 $f(n)=2^{(1+o(1))n/2}$. The result is the same as Green's, proved
 independently; the sibling page
 [[problems/integer_sequences/E0748/claims/2003_04_04_green|Green 2003]]
-states the theorem in Green's form and digests the paper's proof. The site's
-commentary attributes both the bound and the asymptotic to both papers.
+states the theorem in Green's form and digests the paper's proof. The
+erdosproblems.com commentary attributes both the bound and the asymptotic to
+both papers.
 
 **Acceptance.** Refereed: the full version appeared in Discrete Mathematics, a
 refereed journal, volume 308, issue 19, pages 4361--4369, in the issue of
 October 2008 (per the Crossref record of DOI 10.1016/j.disc.2007.08.103, created
-31 October 2007). The Doklady note of 2003, which the site cites by volume and
-pages, announced the result in Doklady Akademii Nauk, also a refereed journal.
+31 October 2007). The Doklady note of 2003, which erdosproblems.com cites by
+volume and pages, announced the result in Doklady Akademii Nauk, also a refereed
+journal.
 
-Reviewed: the site's curator, Thomas Bloom, who is independent of the author,
-labeled the problem PROVED. The commentary credits the result to Green and
-Sapozhenko independently. The commentary was accessed 2026-09-05 and 2026-10-07,
-the discussion thread was empty both times, and the proof-claim tab was empty.
+Reviewed: the erdosproblems.com curator, Thomas Bloom, who is independent of the
+author, labeled the problem PROVED. The commentary credits the result to Green
+and Sapozhenko independently. The commentary was accessed 2026-09-05 and
+2026-10-07, the discussion thread was empty both times, and the proof-claim tab
+was empty.
 
 Neither paper is held in this repository, and neither was read. The statement on
-this page is taken from the site's commentary and from bibliographic records:
-the Crossref record of the 2008 paper, zbMATH, and the problem's encyclopedia
-entry, which give the note's issue number. This page rests on no review of its
-own.
+this page is taken from the erdosproblems.com commentary and from bibliographic
+records: the Crossref record of the 2008 paper, zbMATH, and the problem's
+encyclopedia entry, which give the note's issue number. This page rests on no
+review of its own.
 
 **Formalization.** Boris Alexeev's lean-proofs repository holds
 [Erdos748.lean](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos748.lean#L1228),

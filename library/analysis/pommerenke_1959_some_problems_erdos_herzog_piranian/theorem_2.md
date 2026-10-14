@@ -68,10 +68,10 @@ card records it). Outside it: the univalence criterion of Pólya and Szegö
 
 ## Bears on
 
-- [[../wiki/problems/polynomials/E0114/_index|Problem 114]]: the site's remark that Erdős,
-  Herzog and Piranian "also ask whether the length is at least $2\pi$ if
-  $\{z:|f(z)|<1\}$ is connected (which $z^n$ shows is the best possible).
-  This was proved by Pommerenke [Po59]" is this theorem. The problem's own
-  question, whether $z^n-1$ maximizes the length at fixed degree, is the
-  first question of the same 1958 Problem 12 and is not treated in this
-  paper.
+- [[../wiki/problems/polynomials/E0114/_index|Problem 114]]: the
+  erdosproblems.com remark that Erdős, Herzog and Piranian "also ask whether the
+  length is at least $2\pi$ if $\{z:|f(z)|<1\}$ is connected (which $z^n$ shows
+  is the best possible). This was proved by Pommerenke [Po59]" is this theorem.
+  The problem's own question, whether $z^n-1$ maximizes the length at fixed
+  degree, is the first question of the same 1958 Problem 12 and is not treated
+  in this paper.

@@ -51,7 +51,7 @@ The König–Hall matching theorem (the paper's [7] and [5]).
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0711/_index|Problem 711]]: the best published
-  bound on the first question, $\max_mf(n,m)\ll n^{3/2}$; the site's
+  bound on the first question, $\max_mf(n,m)\ll n^{3/2}$; erdosproblems.com's
   $f(n,m)$ uses the open interval $(m,m+f(n,m))$, one more than the
   paper's half-open convention, which does not affect the bound's order.
 - [[../wiki/problems/integer_sequences/E0710/_index|Problem 710]]: context for the

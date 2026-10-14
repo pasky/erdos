@@ -56,5 +56,5 @@ None.
 - [[../wiki/problems/set_systems/E0702/_index|Problem 702]]: the conjecture
   is the problem's statement with $k$ in place of $l$ and with Erdős's range
   $n>n_0(l)$, the range the problem's modified Statement takes from Erdős's
-  texts; the site's wording omits it. The survey reports the case $l=4$ as
-  proved by Katona, unpublished, and the cases $l>4$ as open in 1975.
+  texts; the erdosproblems.com wording omits it. The survey reports the case
+  $l=4$ as proved by Katona, unpublished, and the cases $l>4$ as open in 1975.

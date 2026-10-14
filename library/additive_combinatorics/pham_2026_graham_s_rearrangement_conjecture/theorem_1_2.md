@@ -71,8 +71,9 @@ pp. 7--8); the earlier range results only for the completion sentence.
 
 ## Bears on
 
-- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]: the site's "medium
-  $A$ case", $1\ll_\alpha t\le p^{1-\alpha}$, which with the small ranges of
+- [[../wiki/problems/additive_combinatorics/E0475/_index|Problem 475]]:
+  erdosproblems.com's "medium $A$ case", $1\ll_\alpha t\le p^{1-\alpha}$, which
+  with the small ranges of
   [[additive_combinatorics/bedert_2024_graham_s_rearrangement_conjecture_beyond_rectification/theorem_1_2|Bedert--Kravitz]]
   or
   [[additive_combinatorics/costa_2026_new_bounds_weak_sequenceability/theorem_1_3|Costa--Della Fiore]]

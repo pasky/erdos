@@ -106,25 +106,25 @@ input was checked here.
 ## Hypotheses and fidelity
 
 - The infimum and supremum run over sequences of *distinct* points.
-  Neither the site's wording of Problem 1221 nor Section 1 of the 1949
-  note (numbers mod $1$; $n$ intervals of total length $1$) excludes
+  Neither the erdosproblems.com wording of Problem 1221 nor Section 1 of the
+  1949 note (numbers mod $1$; $n$ intervals of total length $1$) excludes
   coincident points. Whether the constants $\Lambda_r$, $\lambda_r$,
   $\mu_r$ over all sequences equal those over distinct sequences is not
   settled in the sources read; the theorem's scope is the distinct-point
   family.
 - The theorem proves the mean-normalized reading of the 1949 conjecture,
-  $\Lambda_r-r\to\infty$ and $r-\lambda_r\to\infty$, not the site's
+  $\Lambda_r-r\to\infty$ and $r-\lambda_r\to\infty$, not erdosproblems.com's
   literal first two expressions $r(\Lambda_r-1)$ and $r(1-\lambda_r)$,
   which are defective (see the
   [[analysis/debruijn_erdos_1949_sequences_points_circle/conjecture_p17|conjecture page]]).
-  Its third part is the site's third part restricted to distinct
+  Its third part is erdosproblems.com's third part restricted to distinct
   sequences.
-- The site's $M_r(a)$ and $m_r(a)$, the maximum and minimum "distance
+- erdosproblems.com's $M_r(a)$ and $m_r(a)$, the maximum and minimum "distance
   between $r$-consecutive points" measured around the circle, are the
   $r$-spans here (the forward arc through the $r-1$ intervening points).
 
 ## Bears on
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the claimed resolution
-  registered on the site as a full proof claim (2026-09-08); the problem page
-  keeps status open and records this theorem as a claim.
+  registered on erdosproblems.com as a full proof claim (2026-09-08); the
+  problem page keeps status open and records this theorem as a claim.

@@ -30,10 +30,10 @@ $$
 
 is irrational. How slowly can $a_n$ grow?
 
-**Status.** Solved. The site labeled the problem "SOLVED (LEAN)" (page last
-edited 2025-09-28) and says Hančl essentially solved it. Hančl's 1991 theorem,
-that an irrationality sequence must satisfy $\limsup(\log_2\log_2 a_n)/n\ge1$,
-is recorded on
+**Status.** Solved. Bloom's catalog labeled the problem "SOLVED (LEAN)" (page
+last edited 2025-09-28) and says Hančl essentially solved it. Hančl's 1991
+theorem, that an irrationality sequence must satisfy
+$\limsup(\log_2\log_2 a_n)/n\ge1$, is recorded on
 [[problems/irrationality/E0262/claims/1991_01_01_hancl|its claim page]]. The
 answer also rests on an accepted partial claim, Erdős's 1975 theorem that
 $a_n=2^{2^n}$ attains that growth, recorded on
@@ -53,13 +53,13 @@ https://www.erdosproblems.com/262.
   infinite series. Acta Arith. (1991), 97-104.
 
 **Formalization.** No statement in formal-conjectures (no file for the problem
-on 2026-10-07; the site's formalised-statement field says no). The community
-database has recorded a Lean formal status for the problem as of that field's
-last update on 2026-08-24, without recording when that state was set, and names
-no proof. The public Lean 4 proof of Hančl's bound in the lean-proofs repository
-(entered 2026-08-17), whose own header declares it a formalization of Hančl's
-solution, is linked from the claim page; the corpus records no build or audit of
-it.
+on 2026-10-07; the erdosproblems.com formalised-statement field says no). The
+community database has recorded a Lean formal status for the problem as of that
+field's last update on 2026-08-24, without recording when that state was set,
+and names no proof. The public Lean 4 proof of Hančl's bound in the lean-proofs
+repository (entered 2026-08-17), whose own header declares it a formalization of
+Hančl's solution, is linked from the claim page; the corpus records no build or
+audit of it.
 
 ## Progress
 

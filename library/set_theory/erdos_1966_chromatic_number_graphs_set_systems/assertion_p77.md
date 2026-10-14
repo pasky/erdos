@@ -54,7 +54,7 @@ including the misprint marked [sic].
   $\omega$-fold sense. Problem 1067's claim pages call it the 1966 version
   and discuss it on
   [[../wiki/problems/set_theory/E1067/claims/2013_01_03_komjath|Komjáth's claim page]].
-- [[../wiki/problems/set_theory/E1068/_index|Problem 1068]]: the site lists
-  the paper among the problem's references. The paper asks no question about
-  countable infinitely connected subgraphs; this assertion, on uncountably
+- [[../wiki/problems/set_theory/E1068/_index|Problem 1068]]: erdosproblems.com
+  lists the paper among the problem's references. The paper asks no question
+  about countable infinitely connected subgraphs; this assertion, on uncountably
   chromatic subgraphs, is the nearest statement in it.

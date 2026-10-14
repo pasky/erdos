@@ -25,34 +25,34 @@ updated: 2026-10-08T02:16:54Z
 subset of $\{1,\ldots,N\}$ such that no subset of size $r$ has the same pairwise
 greatest common divisor between all elements. Estimate $f_r(N)$.
 
-**Formulation.** The site's wording of 2026-09-18 (page last edited 29 April
-2026). "The same pairwise greatest common divisor
-between all elements" means $r$ elements $a_1,\ldots,a_r$ whose
-$\binom r2$ values $(a_i,a_j)$, $i<j$, are all equal. A set admissible for
-$r$ is admissible for $r+1$ (an $(r+1)$-subset with equal pairwise gcds
-contains such an $r$-subset), so $f_3(N)\le f_4(N)\le\cdots$ and a lower
-bound for $r=3$ holds for every $r\ge3$. Erdős's papers write the same
-function four ways: $A_k(n)$ (1962) and $f(k,x)$ (1970) are the largest
-admissible size, the site's $f_k(N)$; $f_t(n)$ (1964) and $f(r,n)$ (1969)
-are the least $l$ such that every $l$ integers up to $n$ contain $t$ with
-pairwise the same greatest common divisor, one more than the largest
-admissible size, so every bound below transfers with a change of at most
-one. Abbott and Gardner write $f(n,k)$ for the largest size.
+**Formulation.** The erdosproblems.com wording of 2026-09-18 (page last edited
+29 April 2026). "The same pairwise greatest common divisor between all elements"
+means $r$ elements $a_1,\ldots,a_r$ whose $\binom r2$ values $(a_i,a_j)$, $i<j$,
+are all equal. A set admissible for $r$ is admissible for $r+1$ (an
+$(r+1)$-subset with equal pairwise gcds contains such an $r$-subset), so
+$f_3(N)\le f_4(N)\le\cdots$ and a lower bound for $r=3$ holds for every $r\ge3$.
+Erdős's papers write the same function four ways: $A_k(n)$ (1962) and $f(k,x)$
+(1970) are the largest admissible size, erdosproblems.com's $f_k(N)$; $f_t(n)$
+(1964) and $f(r,n)$ (1969) are the least $l$ such that every $l$ integers up to
+$n$ contain $t$ with pairwise the same greatest common divisor, one more than
+the largest admissible size, so every bound below transfers with a change of at
+most one. Abbott and Gardner write $f(n,k)$ for the largest size.
 
-**Status.** The site's label was Open. Three bounds are in hand. Erdős's 1964
-theorem gives $N^{c_r/\log\log N}<f_r(N)<N^{3/4+\varepsilon}$ for every fixed
-$r\ge3$ and $\varepsilon>0$
+**Status.** The erdosproblems.com label was Open. Three bounds are in hand.
+Erdős's 1964 theorem gives $N^{c_r/\log\log N}<f_r(N)<N^{3/4+\varepsilon}$ for
+every fixed $r\ge3$ and $\varepsilon>0$
 ([[problems/integer_sequences/E0535/claims/1964_03_20_erdos|Erdős (1964)]]).
 Abbott and Hanson improved the upper exponent to $1/2+\varepsilon$
 ([[problems/integer_sequences/E0535/claims/1970_11_01_abbott_hanson|Abbott and Hanson (1970)]]).
 Their paper is not held, and the result is attested by Erdős's 1973 survey and
-by the site. The site derives $f_r(N)\le N^{C_r\log\log\log N/\log\log N}$,
-hence $f_r(N)\le N^{o(1)}$, by inserting the Alweiss–Lovett–Wu–Zhang sunflower
-bound into Erdős's 1964 argument. The corpus has not checked that derivation.
-Erdős conjectured that the lower bound gives the right order. No source
-determining the order of $f_r(N)$, and no proof claim, was found in the search
-whose scope the Current assessment records. This is a bounded negative finding,
-not a certificate of openness.
+by erdosproblems.com. erdosproblems.com derives
+$f_r(N)\le N^{C_r\log\log\log N/\log\log N}$, hence $f_r(N)\le N^{o(1)}$, by
+inserting the Alweiss–Lovett–Wu–Zhang sunflower bound into Erdős's 1964
+argument. The corpus has not checked that derivation. Erdős conjectured that the
+lower bound gives the right order. No source determining the order of $f_r(N)$,
+and no proof claim, was found in the search dated 2026-09-18 UTC whose scope the
+Current assessment records. This is a bounded negative finding, not a
+certificate of openness.
 
 **Source.** [erdosproblems.com/535](https://www.erdosproblems.com/535),
 accessed 2026-09-18: the problem page (OPEN, with the label text saying the
@@ -75,23 +75,22 @@ accessed 2026-09-18.
 - [Er62] Erdős, P., Számelméleti megjegyzések IV. Extremális problémák a
   számelméletben, I. Mat. Lapok 13 (1962), 228--255; problem 14, printed
   pp. 236--238. The 1962 origin of the question, cited by [Er64] as its
-  reference [1]; not a key of the site's page. Library home:
+  reference [1]; not a key of the erdosproblems.com page. Library home:
   [[../library/integer_sequences/erdos_1962_szamelmeleti_megjegyzesek_iv/_index|erdos_1962_szamelmeleti_megjegyzesek_iv]].
 - [AbGa67] Abbott, H. L. and Gardner, B., An extremal problem in number
   theory. Canad. Math. Bull. 10 (1967), no. 2, 173--177 (received 17
   November 1966). Displays (1)--(3), Theorem 1 and Theorem 2, pp. 173--174;
-  proofs, pp. 174--176. Read at Cambridge Core. The site cites this paper on
-  Problem 536 only.
-  Library home:
+  proofs, pp. 174--176. Read at Cambridge Core. erdosproblems.com cites this
+  paper on Problem 536 only. Library home:
   [[../library/integer_sequences/abbott_1967_extremal_problem_number_theory/_index|abbott_1967_extremal_problem_number_theory]].
 - [AbHa70] Abbott, H. L. and Hanson, D., An extremal problem in number
   theory. Bull. London Math. Soc. 2 (1970), no. 3, 324--326, DOI
   10.1112/blms/2.3.324 (Crossref record of 2026-09-18). Not held; no open
   copy was found (see Search scope). The exponent $1/2$ is quoted second-hand
-  from [Er73], p. 123, and from the site.
-- [AbHa67] "No reference found" in the site's own reference data; the
-  site's `/bibs/AbHa67` endpoint returned HTTP 404 on 2026-09-18. A dangling
-  key; see the Current assessment for what it may denote.
+  from [Er73], p. 123, and from erdosproblems.com.
+- [AbHa67] "No reference found" in erdosproblems.com's own reference data;
+  erdosproblems.com's `/bibs/AbHa67` endpoint returned HTTP 404 on 2026-09-18. A
+  dangling key; see the Current assessment for what it may denote.
 - [Ab66] Abbott, H. L., Some remarks on a combinatorial theorem of Erdős and
   Rado. Canad. Math. Bull. 9 (1966), no. 2, 155--160. Not held and not
   requested; cited by [AbGa67] for the lower bound (2) and by [Er73] for
@@ -141,12 +140,12 @@ counted with multiplicity (open), with its Erdős–Rado form $c_r^k\,k!$ (solve
 all bodies are `sorry` and no `formal_proof` attribute is present. The community
 database, read 2026-09-18, lists the problem open as of its last update on 31
 August 2025, the statement formalized since 17 April 2026 and no formal proof.
-The site's page marks the statement as formalized. Nothing was built.
+The erdosproblems.com page marks the statement as formalized. Nothing was built.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement above; OPEN;
-last edited 29 April 2026. The commentary: Erdős [Er64] proved
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
+above; OPEN; last edited 29 April 2026. The commentary: Erdős [Er64] proved
 $f_r(N)\le N^{3/4+o(1)}$ and Abbott and Hanson [AbHa70] improved the exponent to
 $1/2$; Erdős proved $f_r(N)>N^{c_r/\log\log N}$ for some $c_r>0$ and every
 $r\ge3$ and conjectured that the same order is an upper bound; the problem is
@@ -157,21 +156,21 @@ $f_r(N)\le N^{C_r\log\log\log N/\log\log N}$ and so $f_r(N)\le N^{o(1)}$; the
 details of these lower and upper bounds are also set out by Abbott and Hanson
 [AbHa67] and, in a comparable calculation, in the comments; see also Problem
 536. The thread, oldest first: a comment of 13 February 2026 reporting an
-attempt to formalize the site's phrasing of the stronger sunflower conjecture
-and the counterexample $\{2,4,\ldots,2^m\}$ to it when the prime factors are
-counted without multiplicity (the site was updated); a comment of 16 April 2026
-pointing to [Er73], where Abbott's objection is answered by counting prime
-factors with multiplicity; a comment of 27 April 2026 announcing a six-page note
-by three authors with the bounds
+attempt to formalize erdosproblems.com's phrasing of the stronger sunflower
+conjecture and the counterexample $\{2,4,\ldots,2^m\}$ to it when the prime
+factors are counted without multiplicity (erdosproblems.com was updated); a
+comment of 16 April 2026 pointing to [Er73], where Abbott's objection is
+answered by counting prime factors with multiplicity; a comment of 27 April 2026
+announcing a six-page note by three authors with the bounds
 $\exp((\log(r-1)+o(1))\log N/\log\log N)\le f_r(N)\le\exp(O_r(\log N\log\log\log N/\log\log N))$
 (below); a reader's check of 28 April 2026 that the note's sunflower input
 should be cited to [BCW21] rather than to [ALWZ20], and the authors' revision; a
 question of 29 April 2026 whether a positive answer to Problem 20 removes the
 $\log\log\log N$ factor, answered yes; and two comments of 29 April 2026 by the
-site's curator, Thomas Bloom, that this is the argument Erdős sketched in [Er64]
-and that the improved bound follows at once from the sunflower bounds now
-available, inserted into that argument. The proof-claim tab is empty. The
-refereed bounds the commentary credits have their own claim pages,
+erdosproblems.com curator, Thomas Bloom, that this is the argument Erdős
+sketched in [Er64] and that the improved bound follows at once from the
+sunflower bounds now available, inserted into that argument. The proof-claim tab
+is empty. The refereed bounds the commentary credits have their own claim pages,
 [[problems/integer_sequences/E0535/claims/1964_03_20_erdos|Erdős (1964)]] and
 [[problems/integer_sequences/E0535/claims/1970_11_01_abbott_hanson|Abbott and Hanson (1970)]].
 Both are partial, so the standing is open.
@@ -222,8 +221,8 @@ $\exp(c_k\log x/\log\log x)<f(k,x)<x^{3/4+\varepsilon}$ with the remark that
 (printed p. 123) says: "I proved
 $f_r(x)<x^{3/4+\varepsilon}$ (Erdős [1964a]). This was improved to
 $x^{1/2+\varepsilon}$ by Abbott and Hanson [1970]." This sentence and the
-site's commentary are the only attestations here of the Abbott–Hanson bound,
-the paper not being held. The same section records
+erdosproblems.com commentary are the only attestations here of the Abbott–Hanson
+bound, the paper not being held. The same section records
 $f_3(x)>\exp(c_1\log x/\log\log x)$ and the conjecture (4.1)
 $f_3(x)<\exp(c_2\log x/\log\log x)$, and it corrects the 1964 remark: after
 stating the Erdős–Rado conjecture (4.2) $g_r(n)<c_r^n$ for $n$-element sets,
@@ -242,13 +241,14 @@ $f(n,k)\ge\{(k-1)^2+[(k-1)/2]\}^{\log n/((2+\varepsilon)\log\log n)}$ from
 $n^{\alpha/(1+\alpha)-\varepsilon}<f(n,[\log^\alpha n])<n^{(2\alpha+3)/(2\alpha+4)+\varepsilon}$,
 and
 [[../library/integer_sequences/abbott_1967_extremal_problem_number_theory/theorem_2|Theorem 2]],
-$f(n,[n^{1/t}])>n(1-\varepsilon)/(\log n)^t$. These are outside the site's
-question, which fixes $r$, and are recorded as the neighboring regime.
+$f(n,[n^{1/t}])>n(1-\varepsilon)/(\log n)^t$. These are outside the
+erdosproblems.com question, which fixes $r$, and are recorded as the neighboring
+regime.
 
-**The dangling key.** The site's [AbHa67] has no reference text on the
-site (HTTP 404 from its reference endpoint on 2026-09-18, one paced
-request) and none in the site data of 2026-09-04. A Crossref bibliographic query
-for Abbott and Hanson papers of 1966--1972 lists their 1969
+**The dangling key.** erdosproblems.com's [AbHa67] has no reference text on
+erdosproblems.com (HTTP 404 from its reference endpoint on 2026-09-18, one paced
+request) and none in the erdosproblems.com data of 2026-09-04. A Crossref
+bibliographic query for Abbott and Hanson papers of 1966--1972 lists their 1969
 Canadian Mathematical Bulletin paper on the Erdős–Rado function, the 1970
 Bulletin paper above and two 1972 papers, and no paper of 1967; the only
 1967 paper of Abbott it lists with a coauthor is the Abbott–Gardner paper,
@@ -256,9 +256,10 @@ which restates the 1964 and 1966 bounds (p. 173) and says that Erdős's
 upper-bound argument applies to its own Theorem 1 "with only slight
 modifications" without reproducing the details (pp. 175--176); that is less
 than the commentary attributes to [AbHa67]. The key may still be a misprint
-for the site's own [AbGa67]; this is recorded as a possibility, not asserted.
+for erdosproblems.com's own [AbGa67]; this is recorded as a possibility, not
+asserted.
 
-**The sunflower route to $N^{o(1)}$ (the site's derivation).**
+**The sunflower route to $N^{o(1)}$ (erdosproblems.com's derivation).**
 [[../library/set_systems/alweiss_2020_improved_bounds_sunflower_lemma/theorem_1_4|Theorem 1.4 of [ALWZ20]]]
 (p. 2): for $r\ge3$ and some constant $C$, any $w$-set system of size at least
 $(Cr^3\log w\log\log w)^w$ contains an $r$-sunflower, where a $w$-set system
@@ -274,16 +275,16 @@ counted with multiplicity. Encoded by its prime-power layers, the rest turns
 equal pairwise gcds into an $r$-sunflower. A sunflower bound
 $(C_r\log K)^K$ (or the slightly weaker bound of Theorem 1.4) with
 $K\asymp\log N/\log\log N$ then gives
-$f_r(N)\le N^{O_r(\log\log\log N/\log\log N)}$, the site's display. The
-site records the consequence as its own reading of Erdős's argument with the
-new input; the six-page note of April 2026 (below) gives this proof (its
-Section 4), using the sharper $(Cr\log w)^w$ of [BCW21] (recorded on p. 12 of
-[ALWZ20] as an observation of Bell, Chueluecha and Warnke, after Rao's
+$f_r(N)\le N^{O_r(\log\log\log N/\log\log N)}$, the erdosproblems.com display.
+erdosproblems.com records the consequence as its own reading of Erdős's argument
+with the new input; the six-page note of April 2026 (below) gives this proof
+(its Section 4), using the sharper $(Cr\log w)^w$ of [BCW21] (recorded on p. 12
+of [ALWZ20] as an observation of Bell, Chueluecha and Warnke, after Rao's
 $(Cr\log(wr))^w$). The corpus has not checked either calculation; the page
-records the derivation as the site's and the note's. A positive answer to
-Problem 20 would replace the factor $\log\log\log N$ by a constant,
-matching the lower bound at the exponential scale up to the constant in the
-exponent, as Erdős's display (7) already says.
+records the derivation as erdosproblems.com's and the note's. A positive answer
+to Problem 20 would replace the factor $\log\log\log N$ by a constant, matching
+the lower bound at the exponential scale up to the constant in the exponent, as
+Erdős's display (7) already says.
 
 **Forum and AI-assisted items (leads with provenance, not status).** The note
 announced in the thread on 27 April 2026, *Equal pairwise greatest common
@@ -295,24 +296,24 @@ $f_r(N)\ge\exp((\log(r-1)+o(1))\log N/\log\log N)$ and
 $f_r(N)\le\exp(O_r(\log N\log\log\log N/\log\log N))$ by encoding each integer
 as the set of its prime-power divisibility layers and applying the sunflower
 lemma. The announcing comment says the estimate was developed in conjunction
-with ChatGPT-5.5 Thinking, the system as the comment names it. The site's
-curator, Thomas Bloom, answered that the argument is Erdős's 1964 sketch with
-the modern sunflower input and that the bounds were already known. The note is
-recorded as an exposition of the known bounds with declared AI assistance, not
-as new progress, and it has no claim page: it claims no result beyond the bounds
-already recorded under Status, the curator credits it with none, and the
-proof-claim tab carries no entry for it. The corpus has not checked the note.
-The Abbott–Gardner paper of 1967 shows that the same doubt about priority
-applies to any exposition of Erdős's argument.
+with ChatGPT-5.5 Thinking, the system as the comment names it. The
+erdosproblems.com curator, Thomas Bloom, answered that the argument is Erdős's
+1964 sketch with the modern sunflower input and that the bounds were already
+known. The note is recorded as an exposition of the known bounds with declared
+AI assistance, not as new progress, and it has no claim page: it claims no
+result beyond the bounds already recorded under Status, the curator credits it
+with none, and the proof-claim tab carries no entry for it. The corpus has not
+checked the note. The Abbott–Gardner paper of 1967 shows that the same doubt
+about priority applies to any exposition of Erdős's argument.
 
-**Search scope.** None of the routes below found a source
+**Search scope (2026-09-18 UTC).** None of the routes below found a source
 determining the order of $f_r(N)$ for fixed $r$, a bound below
 $N^{O(\log\log\log N/\log\log N)}$, a lower bound above
 $N^{c_r/\log\log N}$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures file at the pinned commit; the community database as of
-  2026-09-18; the site's reference endpoint for
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
+  formal-conjectures file at the pinned commit; the community database, read
+  2026-09-18; the erdosproblems.com reference endpoint for
   [AbHa67] (404).
 - arXiv: the abstract pages of 1908.08483 (three versions; v3 "took into
   account comments from the Annals of Mathematics") and 2009.09327 (two
@@ -333,16 +334,17 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [AbHa70],
 [Ab66], [BCW21], [ErRa60], the 1969 Abbott–Hanson paper.
 
 **Remaining gaps.** (1) The Abbott–Hanson paper is not held: the exponent $1/2$
-rests on Erdős's 1973 attestation and the site; reopening condition: a readable
-copy of Bull. London Math. Soc. 2 (1970), 324--326. (2) The key [AbHa67] is
-dangling on the site; the identification above is a guess. (3) The $N^{o(1)}$
-upper bound is the site's derivation and the note's calculation; no refereed
-account of the modern bound was found in the search, and the
-corpus has not redone the arithmetic. (4) Proof coverage is at statement level:
-the 1964 theorem is compiled with a proof pointer, the sunflower theorem as a
-statement; nothing is independently reviewed. (5) The passages of [Er73]
-(Section 4) and [Er69] (display (11)) are quoted above with their locators; the
-[Er69] card and the [Er73] card carry their rows for this problem.
+rests on Erdős's 1973 attestation and erdosproblems.com; reopening condition: a
+readable copy of Bull. London Math. Soc. 2 (1970), 324--326. (2) The key
+[AbHa67] is dangling on erdosproblems.com; the identification above is a guess.
+(3) The $N^{o(1)}$ upper bound is erdosproblems.com's derivation and the note's
+calculation; no refereed account of the modern bound was found in the search of
+2026-09-18, and the corpus has not redone the arithmetic. (4) Proof coverage is
+at statement level: the 1964 theorem is compiled with a proof pointer, the
+sunflower theorem as a statement; nothing is independently reviewed. (5) The
+passages of [Er73] (Section 4) and [Er69] (display (11)) are quoted above with
+their locators; the [Er69] card and the [Er73] card carry their rows for this
+problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

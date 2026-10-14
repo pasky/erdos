@@ -80,8 +80,8 @@ $pn_i\equiv b\pmod a$ follows from $n_i\equiv1$ and $p\equiv b$.
 ## Bears on
 
 - [[../wiki/problems/arithmetic_functions/E0649/_index|Problem 649]]: the
-  problem lists this note under the key [Ro64b], and the site's remarks cite
-  that key for the statement that every prime $p>13$ has a prime divisor
-  $q>p$ of $2^{p-1}-1$. Neither this theorem nor Lemme 2 is that statement,
-  and neither says anything about the greatest prime factors of $n$ and
-  $n+1$.
+  problem lists this note under the key [Ro64b], and the erdosproblems.com
+  remarks cite that key for the statement that every prime $p>13$ has a prime
+  divisor $q>p$ of $2^{p-1}-1$. Neither this theorem nor Lemme 2 is that
+  statement, and neither says anything about the greatest prime factors of $n$
+  and $n+1$.

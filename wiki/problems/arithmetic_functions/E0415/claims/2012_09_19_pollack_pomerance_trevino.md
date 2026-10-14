@@ -48,7 +48,7 @@ strictly decreasing pattern of length $F(n)$ to occur below $n$, so
 $F(n)\le G(n)=o(\log_3n)$, and $F(n)=(c+o(1))\log_3n$ fails for every
 constant $c>0$. Only the upper bound in Theorem 1.5 is needed for this; the
 paper does not itself discuss $F(n)$, and the deduction is the one the
-site's commentary draws. The source card
+erdosproblems.com commentary draws. The source card
 [[../library/primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/_index|pollack_et_al_2013_sets_monotonicity_euler_totient_function]]
 records the statement of Theorem 1.5 and Remark 8.1.
 
@@ -61,9 +61,9 @@ pending full claim on
 addresses.
 
 **Acceptance.** Refereed: The Ramanujan Journal, volume 30, issue 3 (2013),
-published online 19 September 2012. The site's commentary records that the
-asymptotic answers the first question in the negative. But the site labeled the
-problem OPEN, so that commentary is not listed as `reviewed` evidence. The
-corpus has not reproved the theorem and awards no tier of its own.
+published online 19 September 2012. The erdosproblems.com commentary records
+that the asymptotic answers the first question in the negative. But Bloom's
+catalog labeled the problem OPEN, so that commentary is not listed as `reviewed`
+evidence. The corpus has not reproved the theorem and awards no tier of its own.
 
 **Depends on.** Nothing in this wiki; the claim rests on the cited paper.

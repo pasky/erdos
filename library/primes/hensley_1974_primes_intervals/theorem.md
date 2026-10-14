@@ -86,8 +86,8 @@ statement level; none was checked here.
   so $\varrho^*(x)\ge k$ gives $A(k)\le x-1$ for the problem's $A(k)$, the
   minimal diameter of an admissible $k$-tuple; the theorem is the source of
   the second-order improvement $A(k)\le k\log k+k\log\log k-(1+\log2)k+o(k)$
-  that the Polymath paper's display (150) derives from Lemma 5 and the site
-  records under its 1973 key.
+  that the Polymath paper's display (150) derives from Lemma 5 and
+  erdosproblems.com records under its 1973 key.
 - [[../wiki/problems/primes/E0855/_index|Problem 855]]: the Corollary, on the prime
   $k$-tuples conjecture (B), gives infinitely many $y$ with
   $\pi(x+y)>\pi(x)+\pi(y)$ for every sufficiently large $x$, against the

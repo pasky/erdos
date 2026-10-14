@@ -27,12 +27,12 @@ $$
 \mathrm{gcd}(a,b)\leq a/\lvert A\rvert.
 $$
 
-**Status.** Proved. The site labeled the problem PROVED and credits the paper
-(page last edited 8 April 2026). Graham's conjecture was proved for every finite
-set by Balasubramanian and Soundararajan (Acta Arith. 75 (1996), a refereed
-journal). Szegedy (1986) and Zaharescu (1987) had earlier proved it for all
-sufficiently large sets. The standing in the frontmatter derives from the claim
-pages. The claim page
+**Status.** Proved. Bloom's catalog labeled the problem PROVED and credits the
+paper (page last edited 8 April 2026). Graham's conjecture was proved for every
+finite set by Balasubramanian and Soundararajan (Acta Arith. 75 (1996), a
+refereed journal). Szegedy (1986) and Zaharescu (1987) had earlier proved it for
+all sufficiently large sets. The standing in the frontmatter derives from the
+claim pages. The claim page
 [[problems/integer_sequences/E0402/claims/1996_01_01_balasubramanian_soundararajan|Balasubramanian and Soundararajan 1996]]
 is accepted on the refereed publication and the curator's credit. The large-set
 proofs,
@@ -59,8 +59,8 @@ https://www.erdosproblems.com/402.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 8 April 2026): prove
-that every finite set $A\subset\mathbb N$ has two members $a,b$ with
+The question, as erdosproblems.com states it (page last edited 8 April 2026):
+prove that every finite set $A\subset\mathbb N$ has two members $a,b$ with
 $\gcd(a,b)\le a/|A|$, Graham's conjecture of 1970. It is proved.
 Balasubramanian and Soundararajan's Theorem 1.1 gives the inequality for
 every set of $N\ge5$ integers with $\gcd(A)=1$, strict unless $A$ or its
@@ -73,9 +73,10 @@ papers are accepted partial claims on their pages. Whether their theorems
 include Graham's equality case is recorded differently by the sources:
 Szegedy's abstract and the formal-conjectures transcription of the theorem
 include it, the zbMATH review of Zaharescu's paper states the inequality
-alone, the site's commentary credits both with it, and Balasubramanian and
-Soundararajan's introduction calls both results the weaker form. The
-disagreement does not affect the standing, which rests on the 1996 paper.
+alone, the erdosproblems.com commentary credits both with it, and
+Balasubramanian and Soundararajan's introduction calls both results the weaker
+form. The disagreement does not affect the standing, which rests on the 1996
+paper.
 
 No Lean proof of the full statement is recorded. The formal-conjectures
 statement file marks the problem and its two variants research solved with

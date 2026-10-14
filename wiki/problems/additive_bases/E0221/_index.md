@@ -30,8 +30,8 @@ $$
 and such that every large integer can be written as $2^k+a$ for some $k\geq 0$
 and $a\in A$?
 
-**Status.** PROVED (LEAN), the site's label. The standing rests on two accepted
-claim pages. The first is
+**Status.** PROVED (LEAN), the erdosproblems.com label. The standing rests on
+two accepted claim pages. The first is
 [[problems/additive_bases/E0221/claims/1972_06_01_ruzsa|Ruzsa 1972]], the
 refereed construction with $\ll N/\log N$ elements up to $N$, built from the
 powers of $5$. The second is

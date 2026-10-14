@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 815, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0815/claims
@@ -18,6 +18,6 @@ and a 4-cycle on at least 6. These are the cases $k=3,4,5$ of the problem.
 [[problems/extremal_graph_theory/E0815/claims/2014_08_22_narins_pokrovskiy_szabo|2014_08_22_narins_pokrovskiy_szabo]]: Narins, Pokrovskiy and Szabó (Combinatorica 2017) build arbitrarily large
 graphs with $n$ vertices and $2n-2$ edges that have no proper induced subgraph
 of minimum degree $3$ and no cycle of length $23$. The result is refereed and
-credited by the site's curator.
+credited by the erdosproblems.com curator.
 
 ***

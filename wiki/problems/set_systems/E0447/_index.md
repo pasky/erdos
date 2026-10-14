@@ -29,8 +29,8 @@ $$
 \lvert \mathcal{F}\rvert <(1+o(1))\binom{n}{\lfloor n/2\rfloor}?
 $$
 
-**Status.** The site labeled the problem PROVED (LEAN), crediting Kleitman
-[Kl71]. The accepted claim is
+**Status.** Bloom's catalog labeled the problem PROVED (LEAN), crediting
+Kleitman [Kl71]. The accepted claim is
 [[problems/set_systems/E0447/claims/1971_01_01_kleitman|union-free families have at most (1+o(1)) times the middle layer]].
 The Lean artifact behind the qualifier is described under Formalization.
 
@@ -62,29 +62,30 @@ author and is linked from the claim page. It was not built here.
 
 ## Current assessment
 
-The site's formulation (accessed 2026-09-04) asks how large a union-free
-family of subsets of $[n]$ can be, whether it must be $o(2^n)$, and whether
-it is at most $(1+o(1))\binom{n}{\lfloor n/2\rfloor}$. The answer to both
-questions is yes:
+The erdosproblems.com formulation (accessed 2026-09-04) asks how large a
+union-free family of subsets of $[n]$ can be, whether it must be $o(2^n)$, and
+whether it is at most $(1+o(1))\binom{n}{\lfloor n/2\rfloor}$. The answer to
+both questions is yes:
 [[problems/set_systems/E0447/claims/1971_01_01_kleitman|Kleitman 1971]]
 proves the binomial bound, which the middle layer shows is asymptotically
-sharp, credited by the site's curator; the problem's standing derives from
-that accepted claim, which lists no `refereed` evidence because the paper
+sharp, credited by the erdosproblems.com curator; the problem's standing derives
+from that accepted claim, which lists no `refereed` evidence because the paper
 appeared in an AMS symposium volume rather than a journal. The $o(2^n)$ bound
 was earlier reported by Erdős [Er65b] as unpublished work of Sárközy and
 Szemerédi, in the form $c2^n/\log\log n$; that result is unpublished and known
 only from Erdős's 1965 report, so it has no posting to link and no claim page.
 Lower-order terms of $f(n)$ are
-not part of the question and are not assessed here. The site's Problem 487 is
-the number-theoretic consequence and its Problem 1023 the variant forbidding
-the union of any number of members.
+not part of the question and are not assessed here. erdosproblems.com's Problem
+487 is the number-theoretic consequence and its Problem 1023 the variant
+forbidding the union of any number of members.
 
-Search scope, with the sources as they stood on 2026-10-07: the site's page
-and discussion thread (one comment, no proof claims), the community database
-(teorth/erdosproblems), the formal-conjectures statement file, the lean-proofs
-collection and Crossref. None of them showed another claim on the problem. One
-third-party Lean proof of Kleitman's theorem is linked from the claim page; it
-was not built or audited here, and the site's Lean qualifier rests on it.
+Search scope, with the sources as they stood on 2026-10-07: the
+erdosproblems.com page and discussion thread (one comment, no proof claims), the
+community database (teorth/erdosproblems), the formal-conjectures statement
+file, the lean-proofs collection and Crossref. None of them showed another claim
+on the problem. One third-party Lean proof of Kleitman's theorem is linked from
+the claim page; it was not built or audited here, and the erdosproblems.com Lean
+qualifier rests on it.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

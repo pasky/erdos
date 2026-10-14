@@ -59,20 +59,20 @@ means $g\ge2s+1$, so $\lfloor(g-1)/2\rfloor\ge s$ and the theorem, applied
 with the girth bound $2s+1$, gives $\gg k^s$ consecutive even cycle
 lengths, hence $\gg k^s$ distinct cycle lengths, with an implied constant
 depending only on $s$, which is what the question's $\gg$ allows; the
-site's commentary records the theorem in this form. The authors note that
-the bound is best possible up to the constant, by the Moore bound. The case
+erdosproblems.com commentary records the theorem in this form. The authors note
+that the bound is best possible up to the constant, by the Moore bound. The case
 $s=2$ (girth at least five) had been proved by Erdős, Faudree, Rousseau and
 Schelp, Discrete Math. **200** (1999), 55--60, the paper's reference [11],
 recorded on
 [[problems/extremal_graph_theory/E0752/claims/1999_04_01_erdos_faudree_rousseau_schelp|their claim page]];
-the site's commentary names Erdős, Faudree and Schelp. The hypothesis
+the erdosproblems.com commentary names Erdős, Faudree and Schelp. The hypothesis
 $k\ge2$ is implicit in the question: a graph with minimum degree $1$ may be
 a forest and have no cycle at all.
 
 **Acceptance.** Refereed: Combinatorica, per the publisher's Crossref
-record. Reviewed: the site's curator, Thomas Bloom, labeled the problem
-PROVED and records the theorem as answering the question in the problem's
-commentary. This corpus supplies no independent proof review.
+record. Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the
+problem PROVED and records the theorem as answering the question in the
+problem's commentary. This corpus supplies no independent proof review.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos752.lean` of
 Boris Alexeev's `plby/lean-proofs` repository, linked above at a pinned

@@ -2,10 +2,10 @@
 name: problems/extremal_graph_theory/E1037/claims/2025_09_22_cambie_chan_hunter
 title: The Cambie–Chan–Hunter construction disproving Problem 1037
 desc: |
-  Cambie, Chan and Hunter's construction, posted to the site's forum in
-  September 2025, joins four copies of one random graph into a graph with
+  Cambie, Chan and Hunter's construction, posted to the erdosproblems.com forum
+  in September 2025, joins four copies of one random graph into a graph with
   $(3/4-o(1))n$ distinct degrees whose trivial subgraphs have $O(\log n)$
-  vertices. The site records it as the disproof.
+  vertices. erdosproblems.com records it as the disproof.
 authors:
 - Stijn Cambie
 - Koishi Chan
@@ -56,8 +56,8 @@ degree $b(v_i)+n/4+(n/2-i)$ and $w_j$ has degree $b(w_j)+(n/2-j)$; the base
 degrees of the random graph all lie within $O(\sqrt{n\log n})$ of $n/8$, so
 the degree of $w_j$ falls below every degree on $A\cup B$ once $j$ exceeds
 $n/4$ by more than the spread of the base degrees, which gives at least
-$\tfrac34n-O(\sqrt{n\log n})$ distinct degrees. The site's commentary and
-the comment state the count as at least $\tfrac34n$: the comment assumes
+$\tfrac34n-O(\sqrt{n\log n})$ distinct degrees. The erdosproblems.com commentary
+and the comment state the count as at least $\tfrac34n$: the comment assumes
 without loss of generality that at least half of the base graph's vertices
 have degree at most $(n+1)/8$ and concludes that the degrees of $w_j$ for
 $n/4<j\le n/2$ do not appear on $A\cup B$; a bound on the base degrees from
@@ -67,8 +67,8 @@ not establish the exact count $\tfrac34n$, and the formalization proves the
 weaker count (below). A clique or independent set of the whole graph meets
 each copy in a clique or independent set of the base graph, so both numbers
 are at most four times those of the base graph. A vertex count not divisible
-by $4$ is handled by adding a few nearly universal vertices. The site credits
-the construction jointly to Stijn Cambie, Koishi Chan and Zach Hunter.
+by $4$ is handled by adding a few nearly universal vertices. erdosproblems.com
+credits the construction jointly to Stijn Cambie, Koishi Chan and Zach Hunter.
 
 **Depends on.** Nothing in this wiki; the argument is self-contained.
 
@@ -78,7 +78,7 @@ lines at the pinned commit of 2026-09-15) declares itself a formalization of
 this construction: its header names Stijn Cambie, Zach Hunter and KoishiChan as
 informal authors and Aristotle and Boris Alexeev as formal authors, and its
 docstring describes four copies of a random graph with degrees spread by a cross
-join. Alexeev announced it in the site's thread on 19 January 2026 as
+join. Alexeev announced it in the erdosproblems.com thread on 19 January 2026 as
 Aristotle's formalization of the proof by Cambie, Hunter and KoishiChan, and
 added its final theorem the same day after the curator stated the quantifier
 reading recorded below. The file proves `Erdos1037.Theorem_Main`: there is a
@@ -104,11 +104,13 @@ page carries its bare pointer) names this file in its `formal_proof` attribute.
 The file closes with `#print axioms not_erdos_1037` and a comment reporting
 `propext`, `Classical.choice` and `Quot.sound`. This repository records no
 build, replay or axiom audit of the file and no review of the fidelity of its
-statements to the site's question, so the page lists no `formalized` evidence.
+statements to the erdosproblems.com question, so the page lists no `formalized`
+evidence.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, who took no part in
-the construction, labeled the problem DISPROVED (LEAN) and credits the
-construction to the three authors in the commentary. In the thread (19 January
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, who took
+no part in the construction, labeled the problem DISPROVED (LEAN) and credits
+the construction to the three authors in the commentary. In the thread (19
+January
 2026) Bloom fixed the quantifier reading of the question that the construction
 refutes: for every $\epsilon>0$ and every $C>0$, every large graph with at least
 $(\tfrac12+\epsilon)n$ distinct degrees has a trivial subgraph on more than
@@ -120,4 +122,4 @@ Not refereed: the construction exists only as forum comments, and no paper or
 preprint of it is known.
 
 The gap in the comment's count noted above is this page's own observation. The
-acceptance rests on the site's acceptance, not on a local review.
+acceptance rests on erdosproblems.com's acceptance, not on a local review.

@@ -30,9 +30,9 @@ $$
 
 for any $n\geq 2$.
 
-**Formulation.** The site's wording of 2026-09-17 (page last edited 8 February
-2026). $R_k(G)$ is the least forcing order and a $k$-coloring need not use
-every color; $R_k(K_3)=R_k(C_3)$ is the $k$-color Ramsey number of the
+**Formulation.** The erdosproblems.com wording of 2026-09-17 (page last edited 8
+February 2026). $R_k(G)$ is the least forcing order and a $k$-coloring need not
+use every color; $R_k(K_3)=R_k(C_3)$ is the $k$-color Ramsey number of the
 triangle, written $R(3;k)$ on the page of
 [[problems/ramsey_theory/E0183/_index|Problem 183]]. The question fixes
 $n\ge2$ and lets the number of colors grow; the regime of fixed $k$ and
@@ -41,31 +41,31 @@ Erdős and Graham's 1975 paper writes $r(C_{2n+1};k)$ with the same convention;
 Erdős's 1981 survey writes $r(C_{2n+1},k)$ for the largest order that admits a
 good coloring, one less, which does not affect the ratio.
 
-**Status.** Open, in the site's label. No source proves the limit for every
-$n\ge2$. For $n\ge4$ the limit is $0$, by an elementary comparison of two
+**Status.** Open, in the erdosproblems.com label. No source proves the limit for
+every $n\ge2$. For $n\ge4$ the limit is $0$, by an elementary comparison of two
 accepted bounds. The first is the refereed upper bound
 $R_k(C_{2n+1})\le(4n-2)^kk^{k/n}+1$ of Axenovich, Cames van Batenburg, Janzer,
 Michel and Rundström [ACJMR25]. The second is the lower bound
 $R_k(K_3)\ge(ck^{1/3}/\log k)^k$ of the 2026 OpenAI report. The claim page
 [[problems/ramsey_theory/E0183/claims/2026_08_01_openai|OpenAI 2026]] of Problem
 183 records this bound as accepted. It comes from an unrefereed report and was
-reviewed by the site's curator and through Rob Morris's exposition hosted on the
-site. The research report of 1 August 2026 linked from the discussion thread
-claims the comparison, conditionally on those two bounds. That report is
-recorded on the partial claim page
+reviewed by the erdosproblems.com curator and through Rob Morris's exposition
+hosted on erdosproblems.com. The research report of 1 August 2026 linked from
+the discussion thread claims the comparison, conditionally on those two bounds.
+That report is recorded on the partial claim page
 [[problems/ramsey_theory/E0554/claims/2026_08_01_mysticflounder|mysticflounder 2026]],
 and this page's own comparison below reproduces it. For $n=2$ and $n=3$ the same
 bounds are inconclusive. The search, whose scope the Current assessment records,
-found no proof, disproof or proof claim for these two cases. The site says the
-problem is open even for $n=2$. This is a bounded negative finding on the two
-remaining cases, not a certificate of openness. The OpenAI report itself has no
-claim page here, since its theorem asserts nothing about this problem's
+found no proof, disproof or proof claim for these two cases. erdosproblems.com
+says the problem is open even for $n=2$. This is a bounded negative finding on
+the two remaining cases, not a certificate of openness. The OpenAI report itself
+has no claim page here, since its theorem asserts nothing about this problem's
 statement.
 
 **Source.** [erdosproblems.com/554](https://www.erdosproblems.com/554),
-accessed 2026-09-17: the problem page (OPEN, which the site qualifies as not
-resolvable by a finite computation; last edited 8 February 2026; source key
-[Er81c]; commentary citing [Sc16], [BoEr73], [ErGr75], [JeSk21], [DaJo17],
+accessed 2026-09-17: the problem page (OPEN, which erdosproblems.com qualifies
+as not resolvable by a finite computation; last edited 8 February 2026; source
+key [Er81c]; commentary citing [Sc16], [BoEr73], [ErGr75], [JeSk21], [DaJo17],
 [ACJMR25] and Problem 183), its four-comment discussion thread (27 July to
 2 August 2026) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
 Problem #554,
@@ -142,16 +142,16 @@ https://www.erdosproblems.com/554, accessed 2026-09-17.
   [[problems/ramsey_theory/E0554/claims/2026_08_01_mysticflounder|mysticflounder 2026]].
 
 **Formalization.** None. No file `ErdosProblems/554.lean` exists in
-formal-conjectures (main; none on 2026-09-17 or 2026-10-07), the site's page
-records no formalized statement, and the community database
-(teorth/erdosproblems, accessed 2026-10-06) records the problem as open and
-unformalized with no formal-proof URL.
+formal-conjectures (main; none on 2026-09-17 or 2026-10-07), the
+erdosproblems.com page records no formalized statement, and the community
+database (teorth/erdosproblems, accessed 2026-10-06) records the problem as open
+and unformalized with no formal-proof URL.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-17).** The statement
-above; OPEN; last edited 8 February 2026. The site's commentary attributes
-the problem to Erdős and Graham and says that even the case $n=2$ is
+**The question (erdosproblems.com formulation of 2026-09-17).** The statement
+above; OPEN; last edited 8 February 2026. The erdosproblems.com commentary
+attributes the problem to Erdős and Graham and says that even the case $n=2$ is
 unsettled. It credits Schur with $C^k\ll R_k(K_3)\ll k!$ and records
 Erdős's conjecture (Problem 183) that $R_k(K_3)\le C^k$; it credits Bondy
 and Erdős and Erdős and Graham with $n2^k+1\le R_k(C_{2n+1})\le2n(k+2)!$,
@@ -172,7 +172,7 @@ concluding item
 $\lim_{k\to\infty}r(C_{2n+1};k)/r(C_3;k)\to0$ for $n\ge2$. It is not even
 known at present that $\log r(C_{2n+1};k)/k=O(1)$, $n\ge2$"; a remark after
 Theorem 8 (p. 525) says "It is probably true ... but this is not known at
-present". Erdős's 1981 survey, the site's source key, restates it as
+present". Erdős's 1981 survey, the erdosproblems.com source key, restates it as
 [[../library/ramsey_theory/erdos_1981_new_problems_results_graph_theory_other/item_11|item (11)]]
 (p. 12): "Graham and I conjectured that
 $\lim_{n\to\infty}r(C_{2n+1},k)/r(C_3,k)=0$ [sic] ... (11) is open even for
@@ -190,14 +190,13 @@ Section 4
 together with the upper bound $(k+2)!\,m$ "we can show"; the
 three lower bounds agree once the cycle length is written the same way,
 while Bondy and Erdős's upper bound reads $(2n+1)(k+2)!$ for $C_{2n+1}$
-against the $2n(k+2)!$ of Erdős and Graham and the site.
+against the $2n(k+2)!$ of Erdős and Graham and erdosproblems.com.
 [[../library/ramsey_theory/day_2017_multicolour_ramsey_numbers_odd_cycles/theorem_4|Day--Johnson Theorem 4]]
 (arXiv v2 p. 2; J. Combin. Theory Ser. B 124 (2017)): for every
 odd $r$ there is $\varepsilon(r)>0$ with $R_k(C_r)>(r-1)(2+\varepsilon)^{k-1}$
 for all large $k$, which disproves the Bondy--Erdős exact-value conjecture
-for fixed odd $r>3$ and large $k$ and is the site's $2n(2+c_n)^{k-1}$ (the
-paper prints a strict inequality). Upper bounds. Theorem 7's
-$2(k+2)!\,n$;
+for fixed odd $r>3$ and large $k$ and is erdosproblems.com's $2n(2+c_n)^{k-1}$
+(the paper prints a strict inequality). Upper bounds. Theorem 7's $2(k+2)!\,n$;
 [[../library/ramsey_theory/erdos_1975_partition_theorems_finite_graphs/theorem_8|Theorem 8]]
 (p. 524), $r(C_{2n+1};k)<ck^3n\,r(C_3;k)^2$, which bounds the
 numerator by the square of the denominator and gives nothing toward the
@@ -239,7 +238,7 @@ Lower bounds: the exponential bound $R_k(C_3)\ge c(3.1996\ldots)^k$ that Day
 and Johnson (p. 2) attribute to Fredricksen and Sweet (second-hand; the
 library's card records that pp. 1--2 state only $R_6(3)\ge538$ and
 $R_7(3)\ge1682$ and that the constant $3.1996\ldots$ does not appear in the
-paper); the exponential lower bound $C^k\ll R_k(K_3)$ that the site's
+paper); the exponential lower bound $C^k\ll R_k(K_3)$ that the erdosproblems.com
 commentary credits to Schur, whose p. 117
 proves $N_{m+1}\ge3N_m+1$ and hence $N_m\ge(3^m-1)/2$ for the
 largest $N_m$ admitting a difference-free partition of $\{1,\ldots,N_m\}$
@@ -257,11 +256,11 @@ not a refereed publication, and this page relies on the theorem at the
 standing its claim page records: the claim page
 [[problems/ramsey_theory/E0183/claims/2026_08_01_openai|OpenAI 2026]] of
 [[problems/ramsey_theory/E0183/_index|Problem 183]] records the bound as
-accepted, reviewed by the site's curator, who labeled that problem SOLVED
-(LEAN) and credits the result, and through Rob Morris's exposition hosted
-on the site, from an unrefereed report. It refutes the conjecture
-$R_k(K_3)\le C^k$ that the site's commentary on this problem still records
-and settles Problem 183.
+accepted, reviewed by the erdosproblems.com curator, who labeled that problem
+SOLVED (LEAN) and credits the result, and through Rob Morris's exposition hosted
+on erdosproblems.com, from an unrefereed report. It refutes the conjecture
+$R_k(K_3)\le C^k$ that the erdosproblems.com commentary on this problem still
+records and settles Problem 183.
 
 **What the two bounds give (a deduction made on this page, also stated as
 Section 4 of [My26]).** For $n\ge4$, Axenovich et al. and the OpenAI
@@ -281,12 +280,12 @@ For $n=3$ the first base is $(10/c)\log k$ and for $n=2$ it is
 $(6/c)k^{1/6}\log k$, both unbounded, so the same inputs decide nothing;
 replacing $k^{k/n}$ by the preprints' $(k!)^{1/n}$ or Huang, Yang and
 Chen's sharper form changes the constants and lower-order factors but not
-the exponent of $k$, so the cases $n=2$ and $n=3$ remain open, as the site
-says. Nothing here is independently reviewed; the comparison is elementary
-and unreviewed, and it is not a status.
+the exponent of $k$, so the cases $n=2$ and $n=3$ remain open, as
+erdosproblems.com says. Nothing here is independently reviewed; the comparison
+is elementary and unreviewed, and it is not a status.
 
-**Forum and AI-assisted items.** The discussion thread (as of 2026-09-17;
-the site does not verify comments): a comment of 1
+**Forum and AI-assisted items.** The discussion thread (accessed 2026-09-17;
+erdosproblems.com does not verify comments): a comment of 1
 August 2026 by the forum user mysticflounder reports, crediting Claude
 with an adversarial audit by GPT 5.6 and linking a GitHub gist, that the
 OpenAI result leaves only the cases $n=2$ and $n=3$ to settle; a reply of
@@ -323,7 +322,7 @@ the abstracts of the two preprints are cited, and neither is held.
 none found a proof or disproof for $n=2$ or $n=3$, a refutation of the
 inputs above, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   community database record; the formal-conjectures directory on main (no
   file 554).
 - The primary sources: [ErGr75] pp. 515 and 521--527; [Er81c] pp. 9--14;
@@ -354,8 +353,8 @@ beyond pp. 1--2; [GrGl55]. Read in full: [My26].
 **Remaining gaps.** (1) The cases $n=2$ and $n=3$ are open; the exponent
 comparison above fails there, and no other route was found. (2) The
 $n\ge4$ conclusion rests on the OpenAI theorem's standing (accepted on
-Problem 183's claim page as reviewed, by the site's curator and Morris's
-exposition, from an unrefereed report with no refereed version) and on
+Problem 183's claim page as reviewed, by the erdosproblems.com curator and
+Morris's exposition, from an unrefereed report with no refereed version) and on
 Axenovich et
 al.'s statement as printed in the arXiv version; the journal text was not
 compared. The comparison itself, on this page and in [My26], is

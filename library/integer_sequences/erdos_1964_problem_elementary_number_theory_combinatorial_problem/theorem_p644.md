@@ -17,8 +17,8 @@ updated: 2026-10-07T19:30:53Z
 $f_t(n)$ is the smallest integer $l$ such that every sequence
 $1\le a_1<a_2<\cdots<a_l\le n$ contains $t$ terms $a_{i_1},\ldots,a_{i_t}$
 which have pairwise the same greatest common divisor (p. 644). In the
-site's notation for Problem 535, $f_t(n)$ is one more than the largest
-admissible size $f_t(N)$. **Theorem** (p. 644). Given $t$ and
+erdosproblems.com notation for Problem 535, $f_t(n)$ is one more than the
+largest admissible size $f_t(N)$. **Theorem** (p. 644). Given $t$ and
 $\epsilon>0$, every $n$ beyond some threshold $n_0(t,\epsilon)$ satisfies
 
 $$
@@ -90,10 +90,10 @@ statement level; none was checked here.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E0535/_index|Problem 535]]: the two bounds are the
-  site's $N^{c_r/\log\log N}<f_r(N)<N^{3/4+o(1)}$ (with the shift of one
-  between the least forcing size and the largest admissible size), and
-  display (7) is the sentence the site paraphrases as "a positive solution
-  to [20] would imply $f_r(N)\le N^{C_r/\log\log N}$"; Erdős's 1973 survey
-  later records Abbott's objection that the plain sunflower conjecture
-  does not seem to suffice and replaces it by a stronger one.
+- [[../wiki/problems/integer_sequences/E0535/_index|Problem 535]]: the two
+  bounds are erdosproblems.com's $N^{c_r/\log\log N}<f_r(N)<N^{3/4+o(1)}$ (with
+  the shift of one between the least forcing size and the largest admissible
+  size), and display (7) is the sentence erdosproblems.com paraphrases as "a
+  positive solution to [20] would imply $f_r(N)\le N^{C_r/\log\log N}$"; Erdős's
+  1973 survey later records Abbott's objection that the plain sunflower
+  conjecture does not seem to suffice and replaces it by a stronger one.

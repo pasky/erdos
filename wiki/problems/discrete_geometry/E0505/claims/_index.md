@@ -4,7 +4,7 @@ desc: The 8 claim pages of Problem 505, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/discrete_geometry/E0505/claims
@@ -18,8 +18,8 @@ it.
 
 [[problems/discrete_geometry/E0505/claims/1955_01_01_eggleston|1955_01_01_eggleston]]: Eggleston proves that every set of diameter $1$ in $\mathbb R^3$ is the union
 of four sets of smaller diameter, the instance $n=3$ of the question. The
-result is refereed, and the site and the formal-conjectures statement file
-credit it.
+result is refereed, and erdosproblems.com and the formal-conjectures statement
+file credit it.
 
 [[problems/discrete_geometry/E0505/claims/1993_07_01_kahn_kalai|1993_07_01_kahn_kalai]]: Kahn and Kalai answer the question no. Finite sets built from equal cuts of a
 complete graph need at least $(1.2)^{\sqrt n}$ parts for large $n$, and exact

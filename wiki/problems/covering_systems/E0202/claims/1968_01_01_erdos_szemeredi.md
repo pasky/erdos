@@ -34,7 +34,7 @@ of P. Erdős and S. Stein*, Acta Arith. 15 (1968), no. 1, 85–90, cited as
 [ErSz68] on the problem page and compiled on the library's
 [[../library/covering_systems/erdos_1968_problem_p_erdos_s_stein/theorem_1|Theorem 1 page]].
 
-**Covers.** The Erdős–Stein conjecture $f(N)=o(N)$, which the site's
+**Covers.** The Erdős–Stein conjecture $f(N)=o(N)$, which the erdosproblems.com
 commentary credits to this paper and which
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/8323e878b83fcd7f4a448256069352a265460d75/FormalConjectures/ErdosProblems/202.lean)
 states as the solved variant `erdos_202.variants.erdos_szemeredi`. It does
@@ -44,6 +44,6 @@ not determine $f(N)$; that is
 **Depends on.** Nothing in this wiki; the theorem is the paper's own.
 
 **Acceptance.** Refereed: Acta Arithmetica 15 (1968), no. 1, 85–90,
-doi:10.4064/aa-15-1-85-90. Not reviewed: the site labeled the problem SOLVED
-(LEAN) and credits the answer to Ho's result, not to this paper. The page is
-named by the publication year, because the journal record gives no day.
+doi:10.4064/aa-15-1-85-90. Not reviewed: Bloom's catalog labeled the problem
+SOLVED (LEAN) and credits the answer to Ho's result, not to this paper. The page
+is named by the publication year, because the journal record gives no day.

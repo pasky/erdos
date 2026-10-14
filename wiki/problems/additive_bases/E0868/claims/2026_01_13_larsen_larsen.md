@@ -79,18 +79,19 @@ source card is
 
 **Acceptance.** The note was posted to the problem's forum on 2026-01-13 as the
 linked GitHub upload, and a revised upload followed on 2026-01-22. It was posted
-to arXiv on 2026-01-26 (arXiv:2601.18507, 9 pages, not refereed). The site's
-curator, T. F. Bloom, records the answer in the problem's remarks and labeled
-the problem solved (page last edited 2026-04-03). That is the reviewed evidence.
-As of its last update, dated 2026-01-13, the community database lists the
-problem as solved, provisionally marked after the forum post, and records a Lean
-proof since 2026-08-23.
+to arXiv on 2026-01-26 (arXiv:2601.18507, 9 pages, not refereed). The
+erdosproblems.com curator, T. F. Bloom, records the answer in the problem's
+remarks and labeled the problem solved (page last edited 2026-04-03). That is
+the reviewed evidence. As of its last update, dated 2026-01-13, the community
+database lists the problem as solved, provisionally marked after the forum post,
+and records a Lean proof since 2026-08-23.
 
-The site's Lean qualifier refers to a Lean 4 formalization of the note (Lean
-v4.33.0), produced with Codex and GPT-5.6 Sol and posted in lean-proofs on
-2026-08-16. It states the negations of both questions (`not_erdos_868` and
-`not_erdos_868_part_ii`) with no axiom declarations. This corpus has not audited
-its statement, so it is a link here and not formalized evidence.
+The erdosproblems.com Lean qualifier refers to a Lean 4 formalization of the
+note (Lean v4.33.0), produced with Codex and GPT-5.6 Sol and posted in
+lean-proofs on 2026-08-16. It states the negations of both questions
+(`not_erdos_868` and `not_erdos_868_part_ii`) with no axiom declarations. This
+corpus has not audited its statement, so it is a link here and not formalized
+evidence.
 
 **Depends on.** Nothing in this wiki; the construction is self-contained
 apart from standard probabilistic estimates.

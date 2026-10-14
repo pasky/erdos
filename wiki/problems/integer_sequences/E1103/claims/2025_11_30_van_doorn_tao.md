@@ -40,7 +40,8 @@ $a_j>0.24\,j^{4/3}$ for all $j\ge1$ from the remark after its proof;
 consisting of squarefree numbers, with $a_j\le\exp(Cj/\log j)$ for all $j\ge2$
 (Theorem 7, proved in Section 4.3); Section 4.4 shows that for large $j$ the
 constant $C$ may be any number above 4, which gives the bound
-$a_j<\exp(5j/\log j)$ for large $j$ that the site's commentary records.
+$a_j<\exp(5j/\log j)$ for large $j$ that the erdosproblems.com commentary
+records.
 
 Erdős remarked that a greedy construction gives such a sequence of exponential
 growth and asked whether so fast a growth is necessary; (ii) answers that it is
@@ -64,4 +65,5 @@ the proofs. The second arXiv version (7 December 2025) drops Theorems 7 and 8,
 keeps the construction as a remark that refers to the first version, and states
 the lower bound obtained from Konyagin's. The abstract of the published version,
 Acta Arith. 224 (2026), 173–195, no longer mentions squarefree sums, so no
-refereed version of these theorems is known. The site labeled the problem OPEN.
+refereed version of these theorems is known. Bloom's catalog labeled the problem
+OPEN.

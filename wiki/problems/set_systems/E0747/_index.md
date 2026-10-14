@@ -28,17 +28,17 @@ vertex-disjoint edges?
 **Formulation.** The question is read as asking for the threshold up to a
 factor $1+o(1)$. Erdős poses it in [Er81] after recalling the Erdős–Rényi
 theorem that $(1+\varepsilon)n\log n$ edges almost surely give a random graph
-on $2n$ vertices a perfect matching, which is best possible; the site's
-commentary credits Kahn with the precise asymptotic; and the
+on $2n$ vertices a perfect matching, which is best possible; the
+erdosproblems.com commentary credits Kahn with the precise asymptotic; and the
 formal-conjectures statement `erdos_747` asks for $(1\pm\varepsilon)n\log n$.
 Johansson, Kahn and Vu's abstract calls their order-of-magnitude threshold a
 solution of Shamir's problem; under this reading it is a partial answer.
 
-**Status.** Solved. The site labeled the problem SOLVED. It records that Shamir
-asked the question of Erdős in 1979, hence the name Shamir's problem, and that
-Erdős saw no way to guess the answer. It credits Johansson, Kahn and Vu [JKV08]
-with the threshold $\ell(n)\asymp n\log n$ and Kahn [Ka23] with the asymptotic
-$\ell(n)\sim n\log n$, for $r$-uniform hypergraphs in general.
+**Status.** Solved. Bloom's catalog labeled the problem SOLVED. It records that
+Shamir asked the question of Erdős in 1979, hence the name Shamir's problem, and
+that Erdős saw no way to guess the answer. It credits Johansson, Kahn and Vu
+[JKV08] with the threshold $\ell(n)\asymp n\log n$ and Kahn [Ka23] with the
+asymptotic $\ell(n)\sim n\log n$, for $r$-uniform hypergraphs in general.
 
 **Source.** [erdosproblems.com/747](https://www.erdosproblems.com/747), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #747,
@@ -62,7 +62,7 @@ proof is recorded.
 
 ## Current assessment
 
-The question, in the site's formulation, asks how many edges a random
+The question, in the erdosproblems.com formulation, asks how many edges a random
 $3$-uniform hypergraph on $3n$ vertices needs before it almost surely contains
 $n$ vertex-disjoint edges, a perfect matching. The standing is `solved`,
 `answered`, through Kahn's result. Corollary 2.6 of
@@ -83,9 +83,9 @@ Hitting times for Shamir's problem, Trans. Amer. Math. Soc. 375 (2022), no. 1,
 627–668, and lies beyond the question. The formal-conjectures statement file
 records the answer with its proof left as `sorry`; no Lean proof is recorded.
 
-Search scope: the site's problem page, discussion thread and proof-claims
-page, the community database entry, the formal-conjectures problem listing,
-the arXiv and Crossref records of both papers, and the library cards.
+Search scope: the erdosproblems.com problem page, discussion thread and
+proof-claims page, the community database entry, the formal-conjectures problem
+listing, the arXiv and Crossref records of both papers, and the library cards.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

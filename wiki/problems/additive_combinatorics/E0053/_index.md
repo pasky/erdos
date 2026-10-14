@@ -27,10 +27,10 @@ $k$, if $\lvert A\rvert$ is sufficiently large depending on $k$, then there are
 least $\lvert A\rvert^k$ many integers which are either the sum or product of
 distinct elements of $A$?
 
-**Status.** **PROVED (LEAN)**, the site's label. Its suffix is a catalog label
-explained under Formalization. The status-defining source is Chang (Ann. of
-Math. (2) 157 (2003), 939--957, refereed). Section 2 proves the lower bound of
-Theorem 2 in the form (2.2):
+**Status.** **PROVED (LEAN)**, the erdosproblems.com label. Its suffix is a
+catalog label explained under Formalization. The status-defining source is Chang
+(Ann. of Math. (2) 157 (2003), 939--957, refereed). Section 2 proves the lower
+bound of Theorem 2 in the form (2.2):
 $g(A)>k^{(\frac18-\varepsilon)\log k/\log\log k}$ for every $\varepsilon>0$ and
 every set $A$ of $k$ positive integers with $k$ large. Here $g(A)$ is the number
 of simple sums plus the number of simple products of $A$. Theorem 2 as printed,
@@ -38,10 +38,10 @@ display (0.21), asserts its two bounds for some $\varepsilon>0$. The bound (2.2)
 exceeds every fixed power of $k$. The case of a set of integers of either sign
 follows by the sign reduction on the claim page, so the answer is yes. The claim
 page is [[problems/additive_combinatorics/E0053/claims/2003_05_01_chang|Chang]],
-accepted on the site curator's credit and the refereed publication. The 2026
-Lean development that declares itself a formalization of the result is linked
-there. It gives no `formalized` evidence, since this corpus has not built or
-audited it.
+accepted on the erdosproblems.com curator's credit and the refereed publication.
+The 2026 Lean development that declares itself a formalization of the result is
+linked there. It gives no `formalized` evidence, since this corpus has not built
+or audited it.
 
 **Source.** [erdosproblems.com/53](https://www.erdosproblems.com/53), accessed
 2026-09-04 and 2026-10-07 (no last-edited date shown); its proof-claim tab was
@@ -58,8 +58,8 @@ https://www.erdosproblems.com/53.
 - [ErSz83] Erdős, P. and Szemerédi, E., On sums and products of integers.
   Studies in pure mathematics (1983), 213-218.
 
-**Formalization.** The Lean qualification in the site's label was a catalog
-label. The statement is in
+**Formalization.** The Lean qualification in the erdosproblems.com label was a
+catalog label. The statement is in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/53.lean),
 over `Finset ℤ`; at its commit of 2026-10-06, the one linked, the file is tagged
 solved and names line 3084 of `src/latest/ErdosProblems/Erdos53.lean` of Boris

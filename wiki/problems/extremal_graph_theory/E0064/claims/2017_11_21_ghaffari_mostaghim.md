@@ -34,7 +34,7 @@ Hossein Ghaffari and Zohreh Mostaghim, *Erdős--Gyárfás conjecture for some
 families of Cayley graphs*, Aequationes Math. **92** (2018), no. 1, 1--6,
 published online 2017-11-21 (the claim's date). Read depth: the
 Crossref record; the families are those the thread comment of 6 December
-2025, which the site's remark on
+2025, which the erdosproblems.com remark on
 [[problems/extremal_graph_theory/E0064/_index|Problem 64]] points to, lists
 for the paper, and the proof was not read.
 
@@ -44,6 +44,6 @@ quaternion, dihedral and semidihedral groups and on groups of order $p^3$.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** Refereed: the paper is a publication in Aequationes
-Mathematicae. The site's curator cites the family list that names the paper
-while labeling the problem FALSIFIABLE. That citation is commentary on an open
-problem and not reviewed evidence.
+Mathematicae. The erdosproblems.com curator cites the family list that names the
+paper while labeling the problem FALSIFIABLE. That citation is commentary on an
+open problem and not reviewed evidence.

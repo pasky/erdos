@@ -49,9 +49,9 @@ construction that earlier presentations of it left implicit. The paper
 presents the theorem as settling in the negative its Problem 1.4, the
 question Erdős, Hajnal, Simonovits, Sós and Szemerédi posed, which is the
 question of [[problems/ramsey_theory/E0615/_index|Problem 615]] in
-Ramsey--Turán notation. The passage to the site's wording is one line, made on the
-problem page and on the library's result page and not spelled out in the
-paper: $n/\log n=ne^{-\log\log n}$ and
+Ramsey--Turán notation. The passage to the erdosproblems.com wording is one
+line, made on the problem page and on the library's result page and not spelled
+out in the paper: $n/\log n=ne^{-\log\log n}$ and
 $(\log\log n)^{3/2}/(\log n)^{1/2}\to0$, so $m=n/\log n$ lies in the
 theorem's range; hence for every $c>0$ and all large $n$ some $K_4$-free
 graph on $n$ vertices has at least $(1/8-c)n^2$ edges and independence
@@ -63,8 +63,8 @@ of the library's
 [[../library/extremal_graph_theory/fox_2015_critical_window_classical_ramsey_turan_problem/_index|source card]],
 whose edition is the arXiv v3 (23 September 2014).
 
-**Scope.** Full. The site's wording quantifies over all $n$ and the sources
-read it for all large $n$; the answer is no in both readings, since the
+**Scope.** Full. The erdosproblems.com wording quantifies over all $n$ and the
+sources read it for all large $n$; the answer is no in both readings, since the
 theorem denies the inequality for all large $n$ and the case $n=2$ already
 fails it on its own. The base of the logarithm changes $n/\log n$ by a
 constant factor, which the theorem's range absorbs.
@@ -72,15 +72,15 @@ constant factor, which the theorem's range absorbs.
 **Depends on.** Nothing in this wiki; the result rests on the cited paper
 alone.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
-DISPROVED (LEAN). The problem's commentary credits Fox, Loh and Zhao with the
-negative answer and with the quantitative lower bound behind it (page accessed
-2026-09-18). The thread and the proof-claim tab are empty, so the commentary is
-the whole of the site's record. Refereed: Combinatorica 35 (2015), no. 4,
-435--476, DOI 10.1007/s00493-014-3025-3, published online 22 October 2014,
-according to the Crossref record and the arXiv listing's journal reference,
-accessed 2026-09-18. The edition cited is the arXiv v3. The journal text is not
-held and was not compared.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled
+the problem DISPROVED (LEAN). The problem's commentary credits Fox, Loh and Zhao
+with the negative answer and with the quantitative lower bound behind it (page
+accessed 2026-09-18). The thread and the proof-claim tab are empty, so the
+commentary is the whole of the erdosproblems.com record. Refereed: Combinatorica
+35 (2015), no. 4, 435--476, DOI 10.1007/s00493-014-3025-3, published online 22
+October 2014, according to the Crossref record and the arXiv listing's journal
+reference, accessed 2026-09-18. The edition cited is the arXiv v3. The journal
+text is not held and was not compared.
 
 **Formalization.** The file `src/latest/ErdosProblems/Erdos615.lean` of
 Boris Alexeev's repository `plby/lean-proofs`, linked above at the commit of
@@ -97,21 +97,22 @@ theorem not_erdos_615 : ¬ ∃ c : ℝ, 0 < c ∧ ∀ᶠ (n : ℕ) in atTop, ∀
 ```
 
 the negation of the formal-conjectures statement `erdos_615`, which adds "for
-all sufficiently large $n$" to the site's wording and takes the natural
-logarithm; proves it from a lemma `exists_counterexample`, which gives for every
-$c>0$ and every $N$ a $K_4$-free graph on some $n\ge N$ vertices with at least
-$(1/8-c)n^2$ edges and independence number below $n/\log n$, the construction
-living in a companion module `ErdosProblems.Erdos615.Erdos615Construction`;
-aliases `erdos_615` to the negation; and ends with `#print axioms not_erdos_615`
-without recording the output. The repository first added the file on 16 August
-2026 (authored 15 August 2026) and edited it through 4 September 2026; the
-pinned commit does not touch it. At the pinned commit the proof file (21,379
-bytes, 507 lines) contains no `sorry` and no `axiom` line, but the companion
-module is unexamined here, nothing was built or kernel-checked in this corpus
-and no statement-fidelity audit exists, so the file is a link and not
-`formalized` evidence. It is the artifact behind the (LEAN) suffix of the site's
-label; the community database lists the problem as disproved (Lean), with no
-URL, as of its last update of that field on 23 August 2026.
+all sufficiently large $n$" to the erdosproblems.com wording and takes the
+natural logarithm; proves it from a lemma `exists_counterexample`, which gives
+for every $c>0$ and every $N$ a $K_4$-free graph on some $n\ge N$ vertices with
+at least $(1/8-c)n^2$ edges and independence number below $n/\log n$, the
+construction living in a companion module
+`ErdosProblems.Erdos615.Erdos615Construction`; aliases `erdos_615` to the
+negation; and ends with `#print axioms not_erdos_615` without recording the
+output. The repository first added the file on 16 August 2026 (authored 15
+August 2026) and edited it through 4 September 2026; the pinned commit does not
+touch it. At the pinned commit the proof file (21,379 bytes, 507 lines) contains
+no `sorry` and no `axiom` line, but the companion module is unexamined here,
+nothing was built or kernel-checked in this corpus and no statement-fidelity
+audit exists, so the file is a link and not `formalized` evidence. It is the
+artifact behind the (LEAN) suffix of the erdosproblems.com label; the community
+database lists the problem as disproved (Lean), with no URL, as of its last
+update of that field on 23 August 2026.
 
 **Read depth.** Claims checked: Problem 1.4 (p. 3) and Theorem 1.10 with the
 paragraph before it (p. 4) of the arXiv v3; the proof (Section 8, the
@@ -123,5 +124,5 @@ elementary range check above warrants nothing beyond itself.
 **Postings.** arXiv:1208.3276, v1 of 16 August 2012 (the first posting,
 which dates this page) and v3 of 23 September 2014, the edition cited;
 the journal article; the Lean file, first added to its repository on 16
-August 2026; the site's problem page, whose thread and proof-claim tab were
-empty on 2026-09-18.
+August 2026; the erdosproblems.com problem page, whose thread and proof-claim
+tab were empty on 2026-09-18.

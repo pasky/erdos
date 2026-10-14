@@ -25,8 +25,8 @@ updated: 2026-10-07T20:00:46Z
 $n$ is sufficiently large then $n$ has at most $K$ divisors in
 $(n^{1/2},n^{1/2}+C n^{1/4})$.
 
-**Status.** The site labeled the problem OPEN. The answer is yes for perfect
-squares, by
+**Status.** Bloom's catalog labeled the problem OPEN. The answer is yes for
+perfect squares, by
 [[problems/divisors/E0887/claims/2013_03_08_chan|Chan's bound for squares]], and
 for a class of almost squares, by
 [[problems/divisors/E0887/claims/2014_06_09_chan|Chan's bound for almost squares]].
@@ -49,8 +49,8 @@ https://www.erdosproblems.com/887.
 
 ## Current assessment
 
-The site labeled the problem OPEN (page last edited 10 April 2026). The answer
-is yes for perfect squares, with $K=5$
+Bloom's catalog labeled the problem OPEN (page last edited 10 April 2026). The
+answer is yes for perfect squares, with $K=5$
 ([[problems/divisors/E0887/claims/2013_03_08_chan|Chan 2014]]), and for the
 numbers $(N-a)(N+b)$ with $0\le a\le b\le e^{(\log n)^{2/7}}$, with $K=18$
 ([[problems/divisors/E0887/claims/2014_06_09_chan|Chan 2015]]); the general case
@@ -58,14 +58,15 @@ is open. Erdős and Rosenfeld's bound of $1+C^2$ divisors
 ([[../library/divisors/erdos_1997_factor_difference_set_integers/_index|card]])
 depends on $C$, so it gives no absolute $K$. Their Proposition 4.2 gives
 infinitely many $n$ with four divisors within about $8n^{1/4}$ of $\sqrt n$.
-The site's commentary places these four divisors in $(n^{1/2},n^{1/2}+n^{1/4})$,
-but the remark after their Proposition 4.1 allows at most two divisors there;
-the site's commentary on [[problems/divisors/E0886/_index|Problem 886]] prints
-$16n^{1/4}$. A note posted in the site's thread on 6 July 2026 claims
-infinitely many $n$ with five divisors in $(\sqrt n,\sqrt n+31n^{1/4})$. That
-would show any admissible $K$ is at least $5$ and answer the side question
-whether four is best possible, but it settles no instance of the question, so
-it has no claim page. Letendre's preprint
+The erdosproblems.com commentary places these four divisors in
+$(n^{1/2},n^{1/2}+n^{1/4})$, but the remark after their Proposition 4.1 allows
+at most two divisors there; the erdosproblems.com commentary on
+[[problems/divisors/E0886/_index|Problem 886]] prints $16n^{1/4}$. A note posted
+in the erdosproblems.com thread on 6 July 2026 claims infinitely many $n$ with
+five divisors in $(\sqrt n,\sqrt n+31n^{1/4})$. That would show any admissible
+$K$ is at least $5$ and answer the side question whether four is best possible,
+but it settles no instance of the question, so it has no claim page. Letendre's
+preprint
 ([[../library/divisors/letendre_2025_divisors_integer_short_interval/_index|card]]),
 cited in the thread, bounds the count only in windows of length
 $n^{1/4-\delta}$, shorter than this question's, and settles no instance.

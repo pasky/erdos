@@ -75,6 +75,6 @@ gives dimension at most 4.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1007/_index|Problem 1007]]: not the
-  problem itself, which asks about dimension 4; this is the site's
+  problem itself, which asks about dimension 4; this is erdosproblems.com's
   dimension-5 sentence (fifteen edges). The problem page records the
   collection's variant `dimension_five` (`IsLeast ... 15`) for this value.

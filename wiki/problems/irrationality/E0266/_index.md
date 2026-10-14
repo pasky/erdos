@@ -29,8 +29,8 @@ $$
 
 is irrational.
 
-**Status.** Disproved. The site (page last edited 2025-09-28) labeled the
-problem DISPROVED (LEAN) and credits Kovač and Tao with the negative answer.
+**Status.** Disproved. erdosproblems.com (page last edited 2025-09-28) labeled
+the problem DISPROVED (LEAN) and credits Kovač and Tao with the negative answer.
 Their 2024 construction of a sequence whose shifted reciprocal sums are rational
 for every rational shift is recorded on
 [[problems/irrationality/E0266/claims/2024_11_27_kovac_tao|its claim page]]. The

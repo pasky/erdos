@@ -37,41 +37,42 @@ $$
 \#\{ m\leq x : a\nmid m\textrm{ for all }a\in A\}\gg\frac{x}{(\log x)^c}?
 $$
 
-**Notes.** The site's wording fails for every $C\ge1$ at the set $A=\{1\}$: its
-reciprocal sum is $1\le C$, every $m$ is divisible by $1$, and nothing up to $x$
-is left unsifted, so the answer is no for a reason that has nothing to do with
-sieving. The failure was observed in a thread comment by jif of 18 December 2025
-([thread](https://www.erdosproblems.com/forum/thread/784)), which also noted the
-union bound $(1-C)x$ for $0<C<1$, and the site's commentary records it. The
-change inserts "with $1\notin A$" after "$A\subseteq[1,x]$", in the form of the
-condition that defines the quantity in the problem's own sources. The evidence,
-strongest first: Erdős and Ruzsa [ErRu80], p. 386, define the least unsifted
-count $H(x,K)$ for general sets over the $A$ subject to $\sum_{a\in A}1/a\le K$
-and $1\notin A$ (display (1.5)) and announce for it the limit $e^{1-K}$ of
-$\log H(x,K)/\log x$ that answers this question; in Erdős's own [Er73], p. 135,
-the question is stated for $a_1<\cdots<a_k\le n$, and the coprime question
-printed next to it, display (14.3), takes $1<a_i\le n$; Ruzsa [Ru82] (display
-(1.3)) and Weingartner [We25] (the paper's condition (3)) define the quantity
-they estimate with $1$ excluded; and the site's commentary defines $H_C(x)$ as
-the minimum over subsets of $\{2,\ldots,\lfloor x\rfloor\}$ and says that the
-question asks whether $H_C(x)\gg x/(\log x)^{O_C(1)}$. The defect is already in
-[Er73], whose $a_1<\cdots<a_k\le n$ does not exclude $1$, and the site's wording
+**Notes.** The erdosproblems.com wording fails for every $C\ge1$ at the set
+$A=\{1\}$: its reciprocal sum is $1\le C$, every $m$ is divisible by $1$, and
+nothing up to $x$ is left unsifted, so the answer is no for a reason that has
+nothing to do with sieving. The failure was observed in a thread comment by jif
+of 18 December 2025 ([thread](https://www.erdosproblems.com/forum/thread/784)),
+which also noted the union bound $(1-C)x$ for $0<C<1$, and the erdosproblems.com
+commentary records it. The change inserts "with $1\notin A$" after
+"$A\subseteq[1,x]$", in the form of the condition that defines the quantity in
+the problem's own sources. The evidence, strongest first: Erdős and Ruzsa
+[ErRu80], p. 386, define the least unsifted count $H(x,K)$ for general sets over
+the $A$ subject to $\sum_{a\in A}1/a\le K$ and $1\notin A$ (display (1.5)) and
+announce for it the limit $e^{1-K}$ of $\log H(x,K)/\log x$ that answers this
+question; in Erdős's own [Er73], p. 135, the question is stated for
+$a_1<\cdots<a_k\le n$, and the coprime question printed next to it, display
+(14.3), takes $1<a_i\le n$; Ruzsa [Ru82] (display (1.3)) and Weingartner [We25]
+(the paper's condition (3)) define the quantity they estimate with $1$ excluded;
+and the erdosproblems.com commentary defines $H_C(x)$ as the minimum over
+subsets of $\{2,\ldots,\lfloor x\rfloor\}$ and says that the question asks
+whether $H_C(x)\gg x/(\log x)^{O_C(1)}$. The defect is already in [Er73], whose
+$a_1<\cdots<a_k\le n$ does not exclude $1$, and the erdosproblems.com wording
 keeps it; no source states the question as one about sets containing $1$. With
 $1$ excluded the recorded failure is removed, and the answer is decided by
 Ruzsa's and Weingartner's theorems rather than by the degenerate set. The
-observation about $A=\{1\}$ settles no instance of the modified Statement and
-is credited here, not counted.
+observation about $A=\{1\}$ settles no instance of the modified Statement and is
+credited here, not counted.
 
-**Formulation.** The site's wording as of 2026-09-05 (page last edited
-8 April 2026). Erdős's [Er73], p. 135, asks it for $a_1<\cdots<a_k\le n$ with
-$\sum1/a_i<c_1$ and notes that, by the example of Schinzel and Szekeres
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-05 (page last
+edited 8 April 2026). Erdős's [Er73], p. 135, asks it for $a_1<\cdots<a_k\le n$
+with $\sum1/a_i<c_1$ and notes that, by the example of Schinzel and Szekeres
 [ScSz59], the bound would be best possible apart from the value of the
-exponent. The site's commentary writes $H_C(x)$ for the least unsifted count
-over $A\subseteq\{2,\ldots,\lfloor x\rfloor\}$ with reciprocal sum at most
-$C$, the notation used below. For $0<C<1$ the element $1$ cannot lie in $A$
-anyway, and the union bound leaves at least $(1-C)x$ integers unsifted.
+exponent. The erdosproblems.com commentary writes $H_C(x)$ for the least
+unsifted count over $A\subseteq\{2,\ldots,\lfloor x\rfloor\}$ with reciprocal
+sum at most $C$, the notation used below. For $0<C<1$ the element $1$ cannot lie
+in $A$ anyway, and the union bound leaves at least $(1-C)x$ integers unsifted.
 
-**Status.** The site labeled the problem SOLVED and credits Ruzsa and
+**Status.** Bloom's catalog labeled the problem SOLVED and credits Ruzsa and
 Weingartner (page last edited 8 April 2026, accessed 2026-09-05; two thread
 comments, no proof claim). For the modified Statement the answer is yes for
 $0<C\le1$ and no for $C>1$. So the bound fails when it is asked for every $C>0$,

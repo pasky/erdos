@@ -149,7 +149,7 @@ et de (3).")
   which the note takes for granted when it states (14) on p. 1289; the
   nonvanishing $f(1/q)\ne0$ needed for (15). The route is the note's.
 - (5) is not needed for the irrationality of $\zeta(q;2)$; it is what
-  identifies $\zeta(q;2)$ with Erdős's form and with the site's series.
+  identifies $\zeta(q;2)$ with Erdős's form and with erdosproblems.com's series.
 - The note says the deduction of the Théorème from the Lemme follows the
   route of Bundschuh and Väänänen (Compositio Math. 91 (1994), no. 2,
   175--199; the note's reference [1] prints pp. 175--201)

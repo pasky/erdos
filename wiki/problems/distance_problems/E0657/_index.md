@@ -26,10 +26,11 @@ such that every subset of $3$ points determines $3$ distinct distances (i.e. $A$
 has no isosceles triangles) then $A$ must determine at least $f(n)n$ distinct
 distances, for some $f(n)\to \infty$?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 15 October
-2025). The standing derived from the claim pages is open, because no superlinear
-lower bound is known for planar sets in general. The assertion is proved for
-collinear sets, which are the progression-free sets of reals. On that class,
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 15
+October 2025). The standing derived from the claim pages is open, because no
+superlinear lower bound is known for planar sets in general. The assertion is
+proved for collinear sets, which are the progression-free sets of reals. On that
+class,
 [[problems/distance_problems/E0657/claims/2008_12_01_dumitrescu|Dumitrescu's
 accepted partial claim]] gives $(\log n)^c\le f(n)\le2^{O(\sqrt{\log n})}$.
 [[problems/distance_problems/E0657/claims/2025_08_19_hunter|Hunter's pending
@@ -62,9 +63,9 @@ lattice-box sources discussed below, searched for later resolutions of the
 no-isosceles planar question, and located no exact-target resolution; this
 bounded search does not itself prove openness.
 
-The site's commentary also records Straus's observation that for $2^k\ge n$
-there are $n$ points in $\mathbb R^k$ with no isosceles triangle and at most
-$n-1$ distances, so the question is particular to the plane and low
+The erdosproblems.com commentary also records Straus's observation that for
+$2^k\ge n$ there are $n$ points in $\mathbb R^k$ with no isosceles triangle and
+at most $n-1$ distances, so the question is particular to the plane and low
 dimensions.
 
 ## Progress

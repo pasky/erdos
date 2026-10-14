@@ -27,9 +27,10 @@ in $\{1,\ldots,n\}^2$.
 
 Estimate $t(n)$. In particular, is it true that $t(n)=o(n)$?
 
-**Status.** PROVED (LEAN). The site credits the resolution to Alon [Al91]. The
-claim page [[problems/discrete_geometry/E0798/claims/1991_09_01_alon|Alon]]
-records the result and its acceptance.
+**Status.** PROVED (LEAN). erdosproblems.com credits the resolution to Alon
+[Al91]. The claim page
+[[problems/discrete_geometry/E0798/claims/1991_09_01_alon|Alon]] records the
+result and its acceptance.
 
 **Source.** [erdosproblems.com/798](https://www.erdosproblems.com/798), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #798,
@@ -49,19 +50,19 @@ copies.
 
 ## Current assessment
 
-The site's formulation asks for an estimate of $t(n)$, the least number of grid
-points whose connecting lines cover $\{1,\ldots,n\}^2$, and in particular
-whether $t(n) = o(n)$. Alon (Geom. Funct. Anal. 1 (1991), 225–230) proves
-$t(n) \ll n^{2/3} \log n$, so the particular question has the answer yes, and
-with the Erdős–Purdy lower bound $t(n) \gg n^{2/3}$ the order of $t(n)$ is
+The erdosproblems.com formulation asks for an estimate of $t(n)$, the least
+number of grid points whose connecting lines cover $\{1,\ldots,n\}^2$, and in
+particular whether $t(n) = o(n)$. Alon (Geom. Funct. Anal. 1 (1991), 225–230)
+proves $t(n) \ll n^{2/3} \log n$, so the particular question has the answer yes,
+and with the Erdős–Purdy lower bound $t(n) \gg n^{2/3}$ the order of $t(n)$ is
 known up to a factor of $\log n$; which side of that gap is the truth remains
-open, and the site counts the problem resolved. The standing rests on the single
-accepted claim page, whose evidence is the refereed publication and the site
-curator's credit. Two third-party Lean formalizations of Alon's upper bound,
-one posted to the site's forum on 2026-05-08 with the Aristotle system and its
-copy in a public repository, are the site's Lean qualifier; neither has been
-built here, and no part of the mathematics has been independently reviewed by
-this project.
+open, and erdosproblems.com counts the problem resolved. The standing rests on
+the single accepted claim page, whose evidence is the refereed publication and
+the erdosproblems.com curator's credit. Two third-party Lean formalizations of
+Alon's upper bound, one posted to the erdosproblems.com forum on 2026-05-08 with
+the Aristotle system and its copy in a public repository, are the
+erdosproblems.com Lean qualifier; neither has been built here, and no part of
+the mathematics has been independently reviewed by this project.
 
 <!-- BEGIN problem library links -->
 

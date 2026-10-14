@@ -56,9 +56,9 @@ magnitude, which the problem asks to estimate.
 **Depends on.** Nothing in this wiki.
 
 **Acceptance.** Refereed: published in the Australasian Journal of
-Combinatorics, cited with its venue above. The paper thanks its referees. The
-site does not cite the paper, but the OEIS entry A362137, which the site links,
-does. No `reviewed` evidence exists.
+Combinatorics, cited with its venue above. The paper thanks its referees.
+erdosproblems.com does not cite the paper, but the OEIS entry A362137, which
+erdosproblems.com links, does. No `reviewed` evidence exists.
 
 **Formalization.** The file `Erdos902Reid.lean` of the repository
 `jaredwilder/erdos902`, linked above at its commit of 18 September 2026, is

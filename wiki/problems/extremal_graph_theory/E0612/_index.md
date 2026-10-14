@@ -37,58 +37,60 @@ $$
 D\leq \frac{3r-1}{r}\frac{n}{d}+O(1).
 $$
 
-**Statement (modified).** Two questions, as the site's commentary reads the
-display. Let $G$ be a connected graph with $n$ vertices, minimum degree $d$,
-and diameter $D$. (i) If $G$ contains no $K_{2r}$ and $(r-1)(3r+2)\mid d$, is
-$D\leq \frac{2(r-1)(3r+2)}{2r^2-1}\frac{n}{d}+O(1)$? (ii) If $G$ contains no
-$K_{2r+1}$ and $3r-1\mid d$, is $D\leq \frac{3r-1}{r}\frac{n}{d}+O(1)$? Each
-part is asked for every $r\geq 1$ (part (i) is empty at $r=1$), with $O(1)$
-allowed to depend on $r$ and $d$; the problem is settled when both parts are.
+**Statement (modified).** Two questions, as the erdosproblems.com commentary
+reads the display. Let $G$ be a connected graph with $n$ vertices, minimum
+degree $d$, and diameter $D$. (i) If $G$ contains no $K_{2r}$ and
+$(r-1)(3r+2)\mid d$, is $D\leq \frac{2(r-1)(3r+2)}{2r^2-1}\frac{n}{d}+O(1)$?
+(ii) If $G$ contains no $K_{2r+1}$ and $3r-1\mid d$, is
+$D\leq \frac{3r-1}{r}\frac{n}{d}+O(1)$? Each part is asked for every $r\geq 1$
+(part (i) is empty at $r=1$), with $O(1)$ allowed to depend on $r$ and $d$; the
+problem is settled when both parts are.
 
-**Notes.** The site's wording displays two bounds under one 'Show if that', the
-Conjecture of Erdős, Pach, Pollack and Tuza (1989, pp. 78--79), stated there for
-natural numbers $r,\delta>1$. Read as one statement, it is a conjunction over
-all $r$ and all admissible $d$, and it is false: Theorem 6 of Czabarka, Singgih
-and Székely (J. Combin. Theory Ser. B 151 (2021), refereed) gives, for every
-$r\geq 2$ and every large $d$ divisible by $(r-1)(3r+2)$, connected
-$K_{2r}$-free graphs of diameter $\frac{6r-5}{(2r-1)d+2r-3}n+O(1)$, above the
-first bound; Cambie and Jooken (2025 preprint) add $r=2$, $d=16$. The site cites
-both results in its commentary, calls the first a disproof 'for the case of
-$K_{2r}$-free graphs', and kept the label OPEN while presenting the amended
-conjecture of Czabarka, Singgih and Székely as the live question. The page
-follows that reading: the display is two questions, part (i) for $K_{2r}$-free
-and part (ii) for $K_{2r+1}$-free graphs, and the problem is settled only when
-both are. Under the site's wording, read as one conjunction, the problem is
-disproved; under the site's reading part (i) is disproved and part (ii) is open,
-proved at $r=1$ by Theorem 2 of the 1989 paper, with unreviewed claims that it
-holds at $r=2$ and fails at $r=3$ (Kitamura's Lean files, not built here) and
-fails for every $r\geq 4$ (Chen and Chen's preprint, cited from its abstract).
-If any of those refutations is accepted, part (ii) and so the whole problem is
-disproved under both readings. The curator has not stated this reading in the
-thread; it is inferred from the label and the commentary.
+**Notes.** The erdosproblems.com wording displays two bounds under one 'Show if
+that', the Conjecture of Erdős, Pach, Pollack and Tuza (1989, pp. 78--79),
+stated there for natural numbers $r,\delta>1$. Read as one statement, it is a
+conjunction over all $r$ and all admissible $d$, and it is false: Theorem 6 of
+Czabarka, Singgih and Székely (J. Combin. Theory Ser. B 151 (2021), refereed)
+gives, for every $r\geq 2$ and every large $d$ divisible by $(r-1)(3r+2)$,
+connected $K_{2r}$-free graphs of diameter $\frac{6r-5}{(2r-1)d+2r-3}n+O(1)$,
+above the first bound; Cambie and Jooken (2025 preprint) add $r=2$, $d=16$.
+erdosproblems.com cites both results in its commentary, calls the first a
+disproof 'for the case of $K_{2r}$-free graphs', and kept the label OPEN while
+presenting the amended conjecture of Czabarka, Singgih and Székely as the live
+question. The page follows that reading: the display is two questions, part (i)
+for $K_{2r}$-free and part (ii) for $K_{2r+1}$-free graphs, and the problem is
+settled only when both are. Under the erdosproblems.com wording, read as one
+conjunction, the problem is disproved; under erdosproblems.com's reading part
+(i) is disproved and part (ii) is open, proved at $r=1$ by Theorem 2 of the 1989
+paper, with unreviewed claims that it holds at $r=2$ and fails at $r=3$
+(Kitamura's Lean files, not built here) and fails for every $r\geq 4$ (Chen and
+Chen's preprint, cited from its abstract). If any of those refutations is
+accepted, part (ii) and so the whole problem is disproved under both readings.
+The curator has not stated this reading in the thread; it is inferred from the
+label and the commentary.
 
-**Formulation.** The site's wording, accessed 2026-09-17 (the page shows no
-last-edited date; "Show if that" is the site's text), read as the two questions
-of the Statement (modified). The statement is the Conjecture of Erdős, Pach,
-Pollack and Tuza (1989, pp. 78--79), which fixes natural numbers $r,\delta>1$
-(the site writes $d$ for $\delta$) and lets $n\to\infty$; the site omits the
-hypothesis $r,\delta>1$. For $r=1$ part (i) is empty and part (ii) is the
-triangle-free bound $2n/\delta+O(1)$, which the paper proves as its Theorem 2
-and the site records as the case $2r+1=3$. Each part, without the hypothesis
-$r>1$, is a conjunction over all $r\ge1$ and all admissible $\delta$, so a
-single false instance makes that part false: part (i) is false from $r=2$ on,
-and part (ii) holds at $r=1$ by Theorem 2 and is open beyond. The divisibility
-conditions are part of the statement, and the $O(1)$ may depend on $r$ and
-$\delta$.
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-17 (the page
+shows no last-edited date; "Show if that" is the erdosproblems.com text), read
+as the two questions of the Statement (modified). The statement is the
+Conjecture of Erdős, Pach, Pollack and Tuza (1989, pp. 78--79), which fixes
+natural numbers $r,\delta>1$ (erdosproblems.com writes $d$ for $\delta$) and
+lets $n\to\infty$; erdosproblems.com omits the hypothesis $r,\delta>1$. For
+$r=1$ part (i) is empty and part (ii) is the triangle-free bound
+$2n/\delta+O(1)$, which the paper proves as its Theorem 2 and erdosproblems.com
+records as the case $2r+1=3$. Each part, without the hypothesis $r>1$, is a
+conjunction over all $r\ge1$ and all admissible $\delta$, so a single false
+instance makes that part false: part (i) is false from $r=2$ on, and part (ii)
+holds at $r=1$ by Theorem 2 and is open beyond. The divisibility conditions are
+part of the statement, and the $O(1)$ may depend on $r$ and $\delta$.
 
-**Status.** The site labeled the problem OPEN. Read as the two questions of the
-Statement (modified), part (i) is disproved and part (ii) is open. The
+**Status.** Bloom's catalog labeled the problem OPEN. Read as the two questions
+of the Statement (modified), part (i) is disproved and part (ii) is open. The
 frontmatter standing, claimed, disproved, is derived from the claim pages: part
 (i) is settled by an accepted refutation, and part (ii) only by the pending
-refutations recorded below. This standing departs from the site's OPEN only by
-counting those pending refutations, which no outside review has accepted. It
-agrees with the label that no accepted claim settles part (ii). It becomes
-solved, disproved if either refutation of part (ii) is accepted.
+refutations recorded below. This standing departs from erdosproblems.com's OPEN
+only by counting those pending refutations, which no outside review has
+accepted. It agrees with the label that no accepted claim settles part (ii). It
+becomes solved, disproved if either refutation of part (ii) is accepted.
 
 Part (i) is false for every $r\ge2$ and every $\delta>2(r-1)(3r+2)(2r-3)$ with
 $(r-1)(3r+2)\mid\delta$. This is Theorem 6 of the arXiv preprint of Czabarka,
@@ -116,11 +118,11 @@ constant, and as proved at $r=2$ (Lean files).
 
 **Source.** [erdosproblems.com/612](https://www.erdosproblems.com/612), accessed
 2026-09-17: the problem page (OPEN; no last-edited date shown), its six-comment
-discussion thread and its empty proof-claim tab. The site cites [EPPT89] as the
-problem's source and [CSS21], [CDS09], [CSS23] and [CaJo25] in its commentary,
-and links the entry "DiameterOfKrFreeGraph" of the graphs problem collection.
-Cite as: T. F. Bloom, Erdős Problem #612, https://www.erdosproblems.com/612,
-accessed 2026-09-17.
+discussion thread and its empty proof-claim tab. erdosproblems.com cites
+[EPPT89] as the problem's source and [CSS21], [CDS09], [CSS23] and [CaJo25] in
+its commentary, and links the entry "DiameterOfKrFreeGraph" of the graphs
+problem collection. Cite as: T. F. Bloom, Erdős Problem #612,
+https://www.erdosproblems.com/612, accessed 2026-09-17.
 
 **References.**
 
@@ -173,30 +175,29 @@ accessed 2026-09-17.
   discussion thread.
 
 **Formalization.** None. No file `ErdosProblems/612.lean` was found in
-formal-conjectures on its main branch as of 2026-09-17; the site's page shows
-the statement as not formalized, and the community database (fetched 2026-09-17)
-records the problem as open and unformalized, with no formal-proof URL. The
-formal-conjectures issue 828 ("Erdős Problem 612", opened 6 October 2025, open
-and marked up for grabs on 2026-09-17) proposes the statement; the thread's Lean
-files are recorded below as leads.
+formal-conjectures on its main branch on 2026-09-17; the erdosproblems.com page
+shows the statement as not formalized, and the community database (fetched
+2026-09-17) records the problem as open and unformalized, with no formal-proof
+URL. The formal-conjectures issue 828 ("Erdős Problem 612", opened 6 October
+2025, open and marked up for grabs on 2026-09-17) proposes the statement; the
+thread's Lean files are recorded below as leads.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-17).** The statement
-above; OPEN, the site's label for a statement that no finite computation can
-settle. The site's commentary names Erdős, Pach, Pollack and Tuza as
-the source, with their sharpness constructions and their proof of the
-triangle-free case; recalls the bound $D\le3n/(d+1)+O(1)$ that holds for
-every connected graph; credits [CSS21] with the refutation of part (i) for
-every $r\ge2$, stating their
-construction's diameter $\frac{6r-5}{(2r-1)d+2r-3}n+O(1)$ and that it beats
-the conjectured bound for each fixed $r$ once $d$ is large; states the
-amended conjecture of [CSS21], $(3-\tfrac2k)\frac nd+O(1)$ for
-$K_{k+1}$-free graphs, and the two $k$-colorable cases $k=3,4$ settled by
-[CDS09] and [CSS23]; and reports the $\delta=16$ example of [CaJo25] as a
-further counterexample to the original conjecture. The thread holds six
-comments (12 February 2026, 4 September 2026 twice, 7 September 2026, 8
-September 2026 twice), recorded below; the proof-claim tab is empty; the
+**The question (erdosproblems.com formulation, accessed 2026-09-17).** The
+statement above; OPEN, the erdosproblems.com label for a statement that no
+finite computation can settle. The erdosproblems.com commentary names Erdős,
+Pach, Pollack and Tuza as the source, with their sharpness constructions and
+their proof of the triangle-free case; recalls the bound $D\le3n/(d+1)+O(1)$
+that holds for every connected graph; credits [CSS21] with the refutation of
+part (i) for every $r\ge2$, stating their construction's diameter
+$\frac{6r-5}{(2r-1)d+2r-3}n+O(1)$ and that it beats the conjectured bound for
+each fixed $r$ once $d$ is large; states the amended conjecture of [CSS21],
+$(3-\tfrac2k)\frac nd+O(1)$ for $K_{k+1}$-free graphs, and the two $k$-colorable
+cases $k=3,4$ settled by [CDS09] and [CSS23]; and reports the $\delta=16$
+example of [CaJo25] as a further counterexample to the original conjecture. The
+thread holds six comments (12 February 2026, 4 September 2026 twice, 7 September
+2026, 8 September 2026 twice), recorded below; the proof-claim tab is empty; the
 community database record says open.
 
 **The origin.** The problem is the
@@ -278,8 +279,8 @@ $k=6$. The comments note that the formal statements of the proved cases use a
 strong reading of $O(1)$. A comment of 8 September 2026 by one of the authors
 of [CaJo25] says the same conclusions for $r=2$ (true) and $r=3$ (false) were
 reached independently. The corpus has not built these Lean files, so they
-give no formalized evidence, and the site marks comments as unverified. If
-they hold, part (ii) is true exactly for $r\in\{1,2\}$ and false for every
+give no formalized evidence, and Bloom's catalog marks comments as unverified.
+If they hold, part (ii) is true exactly for $r\in\{1,2\}$ and false for every
 $r\ge3$, so part (ii), and with it the problem, is disproved.
 
 **The amended conjecture, not the problem.**
@@ -300,15 +301,15 @@ determine the exact ratios $f(4)=4/7$, $f(5)=5/11$, $f(6)=14/37$ for $K_4$-free
 graphs and $f'(7)=17/52$, $f'(8)=2/7$ for $3$-colorable graphs (Propositions 5,
 8, 11, 15, 16).
 
-**The two parts.** Part (i) is refuted in a refereed paper that the site itself
-cites as a disproof "for the case of $K_{2r}$-free graphs"; the accepted claim
-page of [CSS21] settles it. Part (ii) is proved for $r=1$, undecided for $r\ge2$
-in the refereed sources cited here and the subject of the September 2026 leads
-above, recorded on claimed claim pages that settle it only if accepted. The
-problem is settled when both parts are, so it stays unsettled until a refutation
-of part (ii) is accepted, in agreement with the site's label OPEN; read as the
-site words it, as one conjunction, it would already be disproved, as the Notes
-record.
+**The two parts.** Part (i) is refuted in a refereed paper that
+erdosproblems.com itself cites as a disproof "for the case of $K_{2r}$-free
+graphs"; the accepted claim page of [CSS21] settles it. Part (ii) is proved for
+$r=1$, undecided for $r\ge2$ in the refereed sources cited here and the subject
+of the September 2026 leads above, recorded on claimed claim pages that settle
+it only if accepted. The problem is settled when both parts are, so it stays
+unsettled until a refutation of part (ii) is accepted, in agreement with the
+erdosproblems.com label OPEN; read as Bloom's catalog words it, as one
+conjunction, it would already be disproved, as the Notes record.
 
 **Search scope.** The changing sources below as they stood on 2026-09-17:
 the problem, discussion and proof-claim pages; the community database record;
@@ -333,9 +334,9 @@ and the reported `#print axioms` output), [CSS21] and [CSS23] (the preprints,
 not the published versions). [CDS09] is cited from the published article, its
 Theorem 1 at statement depth, as the reference entry records.
 
-**Remaining gaps.** (1) The site does not state why the problem stays OPEN;
-the reading of the display as two questions, with part (ii) open, is inferred
-from the label and the commentary, as the Notes record. (2) [CDS09]'s
+**Remaining gaps.** (1) erdosproblems.com does not state why the problem stays
+OPEN; the reading of the display as two questions, with part (ii) open, is
+inferred from the label and the commentary, as the Notes record. (2) [CDS09]'s
 Theorem 1 is cited at statement depth and its proof is unchecked beyond its
 structure, so the 4-colorable bound rests on the refereed statement and its
 two later restatements. (3) Which

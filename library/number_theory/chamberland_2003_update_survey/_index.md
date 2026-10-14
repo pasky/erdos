@@ -2,7 +2,7 @@
 name: number_theory/chamberland_2003_update_survey
 desc: |
   Survey of the 3x+1 problem organized by attack surface, the same survey
-  genre the site cites (La85/La10/La16) for problem 1135.
+  genre erdosproblems.com cites (La85/La10/La16) for problem 1135.
 license: unstated
 created: 2026-09-04T09:21:15Z
 updated: 2026-10-08T17:21:06Z
@@ -48,7 +48,7 @@ plane, generalizations, and a miscellaneous section (a logical encoding of the
 problem and a global orbit statistic). It leaves out the work on functional
 equations, cellular automata and the origin of the problem, pointing to
 Wirsching's book for them (p. 3). Relevance: Survey of the 3x+1 problem
-organized by attack surface, the same survey genre the site cites
+organized by attack surface, the same survey genre erdosproblems.com cites
 (La85/La10/La16) for problem 1135.
 
 Source: PDF. The copy read for this card is the author's

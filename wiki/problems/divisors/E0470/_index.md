@@ -35,13 +35,14 @@ of $n$.
 Are there any odd weird numbers? Are there infinitely many primitive weird
 numbers, i.e. those such that no proper divisor of $n$ is weird?
 
-**Notes.** Read as the site words it, the gloss of pseudoperfect allows the
-one-element set $\{n\}$. That would make every $n$ pseudoperfect and both
+**Notes.** Read as Bloom's catalog words it, the gloss of pseudoperfect allows
+the one-element set $\{n\}$. That would make every $n$ pseudoperfect and both
 questions trivially negative. The modified Statement replaces "any set of its
 divisors" by "any set of distinct proper divisors of $n$"; nothing else changes.
 The sources read it with proper divisors. Erdős and Graham (1980), p. 94, the
-site's source for the wording, call $n$ weird when $\sigma(n)/n\ge2$ and $n$ is
-not a sum of distinct proper divisors of $n$. Benkoski and Erdős (1974), p. 617
+erdosproblems.com source for the wording, call $n$ weird when $\sigma(n)/n\ge2$
+and $n$ is not a sum of distinct proper divisors of $n$. Benkoski and Erdős
+(1974), p. 617
 ([[../library/divisors/benkoski_1974_weird_pseudoperfect_numbers/_index|card]]),
 define pseudoperfect that way and abundant as $\sigma(n)\ge2n$. The
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/470.lean)

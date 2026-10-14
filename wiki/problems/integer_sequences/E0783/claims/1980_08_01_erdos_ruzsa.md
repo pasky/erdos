@@ -45,13 +45,13 @@ Problem 1; it was unproved in 1980 and was later proved by
 so (1.12) and that corollary together would give the modified Statement, which
 [[problems/integer_sequences/E0783/claims/2026_02_20_tao|Tao 2026]] proves with
 a written argument. Not covered: the exact minimizer for a given $N$, the
-site's wording. Theorem 3 alone gives only a positive proportion and
+erdosproblems.com wording. Theorem 3 alone gives only a positive proportion and
 settles no instance of the problem.
 
 **Standing.** Claimed. The paper is refereed, but (1.12) is asserted without
 proof, so the refereeing does not vouch for it. No reviewer is recorded as
-having checked the modification, and the site's commentary and Tao's note cite
-the paper only for the prime-case question.
+having checked the modification, and the erdosproblems.com commentary and Tao's
+note cite the paper only for the prime-case question.
 
 **Date.** The paper appeared in the August 1980 issue, volume 12, no. 3; the
 page name uses the first of that month.

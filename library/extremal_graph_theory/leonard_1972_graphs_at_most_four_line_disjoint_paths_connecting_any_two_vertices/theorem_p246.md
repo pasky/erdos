@@ -107,7 +107,7 @@ paper's [5], not held).
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0915/_index|Problem 915]]: the case $m=5$
-  under the edge-disjoint reading, the site's "$\ell_5(2n)=5n-2$,
+  under the edge-disjoint reading, erdosproblems.com's "$\ell_5(2n)=5n-2$,
   $\ell_5(2n+1)=5n+1$"; at the problem's parameters, $1+4n'$ vertices and
   $1+10n'$ edges, $l_5(1+4n')=l_5(2\cdot2n'+1)=5\cdot2n'+1=1+n'\binom52$
   (an arithmetic check made here; the paper's range $n\ge3$ covers

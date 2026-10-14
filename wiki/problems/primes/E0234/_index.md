@@ -29,7 +29,7 @@ $$
 
 exists and is a continuous function of $c$.
 
-**Status.** Open, the site's label.
+**Status.** Open, the erdosproblems.com label.
 
 **Source.** [erdosproblems.com/234](https://www.erdosproblems.com/234), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #234,
@@ -40,8 +40,8 @@ https://www.erdosproblems.com/234.
 
 ## Current assessment
 
-Unassessed beyond what this section states: the site's label is recorded
-without a status search, and the literature on the distribution of the
+Unassessed beyond what this section states: the erdosproblems.com label is
+recorded without a status search, and the literature on the distribution of the
 normalized gaps $(p_{n+1}-p_n)/\log n$ has not been compiled here. Two sources
 are recorded because they bear on the problem. The 2026 release manuscript
 [[../library/primes/openai_2026_positive_lower_density_large_prime_gaps/_index|Positive lower density of large prime gaps]]
@@ -60,9 +60,9 @@ The one conditional result is an accepted conditional claim:
 derives, from a Hardy–Littlewood prime tuples asymptotic holding uniformly
 over shifts of order $\log N$, Poisson statistics for primes in short
 intervals, from which $f(c)$ exists and equals $1-e^{-c}$ for every $c\ge0$;
-Tao states the same consequence on the site's discussion thread (29 September
-2025). The hypothesis is unproved, so the claim settles no standing and the
-problem stays open.
+Tao states the same consequence on the erdosproblems.com discussion thread (29
+September 2025). The hypothesis is unproved, so the claim settles no standing
+and the problem stays open.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -57,11 +57,11 @@ arXiv version on 2026-09-18, with no journal reference on arXiv and no Crossref
 record; page numbers below are the preprint's. The introduction (p. 1) quotes
 Erdős's 1979 Acta paper with the footnote "Notation slightly altered to match
 notation in [7]": the 1979 text writes the block as $m_n+i$, $1\le i\le n$,
-while the quotation and the 1980 monograph use the $n_k$ of the site's
-statement. Read status: claims checked for Theorem 1.1 (p. 1, page image and
-text layer) and Theorem 4.1 (p. 3, text layer); the proof (Sections 2--6,
-pp. 2--5) was read for its structure and not checked step by step; nothing
-here is independently reviewed. The statement is on
+while the quotation and the 1980 monograph use the $n_k$ of the
+erdosproblems.com statement. Read status: claims checked for Theorem 1.1 (p. 1,
+page image and text layer) and Theorem 4.1 (p. 3, text layer); the proof
+(Sections 2--6, pp. 2--5) was read for its structure and not checked step by
+step; nothing here is independently reviewed. The statement is on
 [[integer_sequences/doorn_2026_consecutive_integers_free_certain_prime_factors/theorem_1_1|theorem_1_1]].
 The arXiv record names arXiv's non-exclusive distribution license
 (arXiv:2606.19863), every other right reserved.
@@ -71,10 +71,11 @@ Source: <https://arxiv.org/abs/2606.19863v1>.
 **Bears on.** [[../wiki/problems/integer_sequences/E0451/_index|#451]]: Theorem 1.1 is the
 problem's first superpolynomial lower bound,
 $n_k>\exp(\log^2k/(20\log\log k))$ for all large $k$, for exactly the
-problem's $n_k$ (abstract and Theorem 1.1, p. 1); the site's commentary
-records it. [[../wiki/problems/integer_sequences/E0961/_index|#961]]: adjacent context
-only; the prime-factor cutoff $(k,2k)$ differs from that problem's "a prime
-greater than $k$", so the theorem says nothing about its $f(k)$.
+problem's $n_k$ (abstract and Theorem 1.1, p. 1); the erdosproblems.com
+commentary records it. [[../wiki/problems/integer_sequences/E0961/_index|#961]]:
+adjacent context only; the prime-factor cutoff $(k,2k)$ differs from that
+problem's "a prime greater than $k$", so the theorem says nothing about its
+$f(k)$.
 
 **Results.**
 

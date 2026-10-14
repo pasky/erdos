@@ -60,8 +60,8 @@ $\prod(1-1/d)$ and the sum of $1/(d_id_j)$ over non-coprime pairs of moduli,
 and notes that Haight's theorem also follows from the paper's Theorem A. In
 the language of the follow-up question Erdős asked, with $f(x)$ the largest
 $\sigma(m)/m$ over $m<x$ whose divisors do not form a covering system, the
-theorem gives $f(x)\ge(1+o(1))\sqrt{\log\log x}$, the bound the site's
-commentary credits to the paper.
+theorem gives $f(x)\ge(1+o(1))\sqrt{\log\log x}$, the bound the
+erdosproblems.com commentary credits to the paper.
 
 **Depends on.** Nothing in this wiki: the proof is the paper's own, and
 Haight's claim page records the result it strengthens, not an input.
@@ -70,9 +70,9 @@ Haight's claim page records the result it strengthens, not an input.
 (2007), no. 2, 495--517, at the DOI linked above, published online 2006-09-19.
 The page is named by the arXiv preprint's first version, posted 2005-07-18.
 
-Reviewed is not listed: the site's curator credits Haight with the affirmative
-answer and this paper with the bound on $f(x)$. The commentary's credit for the
-solution is therefore Haight's.
+Reviewed is not listed: the erdosproblems.com curator credits Haight with the
+affirmative answer and this paper with the bound on $f(x)$. The commentary's
+credit for the solution is therefore Haight's.
 
 Not counted as `formalized`: the Lean file linked above is in Boris Alexeev's
 lean-proofs repository (first added 2026-08-15; Lean and Mathlib `v4.33.0`). It

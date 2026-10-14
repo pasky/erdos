@@ -4,8 +4,8 @@ title: Chapter 10, Theorem 1.1 - Failure of compactness
 desc: |
   A finite family of connected bipartite graphs, each containing a cycle,
   whose joint extremal number is O(n^{4/3-1/48}) while every member has
-  extremal number of order at least n^{4/3}; the site's accepted disproof
-  of the no-forest compactness conjecture.
+  extremal number of order at least n^{4/3}; erdosproblems.com's accepted
+  disproof of the no-forest compactness conjecture.
 created: 2026-09-18T06:10:00Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -88,11 +88,11 @@ the triad property of $Q(4,q)$, both used in Proposition 4.2.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0575/_index|Problem 575]]: the site's
-  accepted disproof (31 August 2026) of the no-forest form of the question;
-  the site's wording is already false by the two-forest family of p. 237
-  (Wigderson's Observation).
-- [[../wiki/problems/extremal_graph_theory/E0180/_index|Problem 180]]: the site's
-  wording is already answered by the two-forest family the
+- [[../wiki/problems/extremal_graph_theory/E0575/_index|Problem 575]]:
+  erdosproblems.com's accepted disproof (31 August 2026) of the no-forest form
+  of the question; the erdosproblems.com wording is already false by the
+  two-forest family of p. 237 (Wigderson's Observation).
+- [[../wiki/problems/extremal_graph_theory/E0180/_index|Problem 180]]: the
+  erdosproblems.com wording is already answered by the two-forest family the
   chapter records on p. 237; the theorem disproves the corrected form (1),
   the no-forest variant the problem page assigns no status.

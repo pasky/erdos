@@ -59,7 +59,7 @@ Shearer's
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: a lower
   bound, $f(n)\gg\sqrt{n\log n}/\log\log n$, deduced from Shearer's
   Corollary 1. Display (1) is the weaker threshold form of the neighborhood
-  argument, the form the site prints. Balancing the threshold gives
+  argument, the form erdosproblems.com prints. Balancing the threshold gives
   $f(n)\ge c\sqrt{n\log n/\log\log n}$, the best lower bound a refereed
   paper prints: Dudek and Mubayi first printed it with this argument, and a
   later paper (Gishboliner, Janzer and Sudakov, Combinatorica 45 (2025),

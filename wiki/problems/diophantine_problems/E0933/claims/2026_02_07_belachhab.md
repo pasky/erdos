@@ -38,11 +38,12 @@ analysis with the lifting-the-exponent lemma, supported by a computer check up
 to $10^7$. A second version of 15 February 2026 states the same theorem.
 
 **Standing.** The claim is `rejected`. The claimant posted the second version
-in the site's discussion thread on 15 February 2026, and a reply of the same
-day by Wouter van Doorn gave the counterexample $n=1487503359=3^{14}\cdot 311$,
-for which $2^{15}$ exactly divides $n+1$. The {2,3}-part of $n(n+1)$ is then
-$3^{14}\cdot 2^{15}$, and its ratio to $n\log n$ is about $4.989$, above
-$3/\log 2$. The Zenodo record was afterwards retitled as a partial solution
-with a promise to correct the paper, and its text still states Theorem 1.
+in the erdosproblems.com discussion thread on 15 February 2026, and a reply of
+the same day by Wouter van Doorn gave the counterexample
+$n=1487503359=3^{14}\cdot 311$, for which $2^{15}$ exactly divides $n+1$. The
+{2,3}-part of $n(n+1)$ is then $3^{14}\cdot 2^{15}$, and its ratio to $n\log n$
+is about $4.989$, above $3/\log 2$. The Zenodo record was afterwards retitled as
+a partial solution with a promise to correct the paper, and its text still
+states Theorem 1.
 
 **Depends on.** No page of this wiki.

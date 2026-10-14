@@ -4,7 +4,7 @@ desc: The 3 claim pages of Problem 344, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/additive_bases/E0344/claims
@@ -18,11 +18,12 @@ $N$.
 
 [[problems/additive_bases/E0344/claims/2003_01_01_chen|2003_01_01_chen]]: Y.-G. Chen (Acta Arith. 2003) proves that for an absolute constant $C$, every
 increasing sequence with more than $C\sqrt n$ terms up to $n$, for all
-$n>C^2$, is subcomplete. The result is refereed but not credited by the site.
+$n>C^2$, is subcomplete. The result is refereed but not credited by
+erdosproblems.com.
 
 [[problems/additive_bases/E0344/claims/2005_07_26_szemeredi_vu|2005_07_26_szemeredi_vu]]: Szemerédi and Vu (Ann. of Math. 2006 and J. Amer. Math. Soc. 2006) prove that
 for an absolute constant $c$, every increasing sequence with at least
 $c\sqrt n$ terms up to $n$ is subcomplete. The result is refereed and accepted
-by the site.
+by erdosproblems.com.
 
 ***

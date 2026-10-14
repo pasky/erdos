@@ -90,6 +90,7 @@ of valency 0 at this edge count, which the paper states without a citation.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0746/_index|Problem 746]]: the Hamiltonian-path
-  law $(1+e^{-2c}+\tfrac12e^{-4c})e^{-e^{-2c}}$ that the site's discussion
-  thread reports from this paper, read here as printed; a companion to the
-  status-defining Theorem 1, not itself needed for the problem's statement.
+  law $(1+e^{-2c}+\tfrac12e^{-4c})e^{-e^{-2c}}$ that the erdosproblems.com
+  discussion thread reports from this paper, read here as printed; a companion
+  to the status-defining Theorem 1, not itself needed for the problem's
+  statement.

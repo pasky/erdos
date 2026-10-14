@@ -68,8 +68,8 @@ L_k < exp(k(1+o(1))) and k^2 P_l < exp(o(k)), this gives g(k) < exp(k(1+o(1)))
 liminf g(k+1)/g(k) = 0, g(k) > k^n for every n and k > k_0(n), g(k)^{1/k} tends
 to 1, and g(k) < exp(c_1 pi(k)) ((1)--(5), pp. 647--648), and writes that it
 cannot prove g(k) < L_k, "which seems to hold for all k" (p. 649); its own
-Table 1 gives g(k) > L_k at k = 2, 3 and 6. The site cites the paper as [EES74]
-for Problem 1095, which asks for an estimate of g(k).
+Table 1 gives g(k) > L_k at k = 2, 3 and 6. erdosproblems.com cites the paper as
+[EES74] for Problem 1095, which asks for an estimate of g(k).
 
 Source: <https://users.renyi.hu/~p_erdos/1974-01.pdf>.
 

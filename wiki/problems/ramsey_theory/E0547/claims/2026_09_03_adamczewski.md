@@ -62,7 +62,7 @@ $2n-3\le2n-4$, a contradiction. For odd $n$ the same count on $K_{2n-3}$
 uses parity: $(n-2)(2n-3)$ is odd, so each color class $G_i$ has
 $2e(G_i)\le(n-2)(2n-3)-1$, and summing gives
 $(2n-3)(2n-4)\le(2n-3)(2n-4)-2$, a contradiction, hence $R(T)\le2n-3$. The
-site's commentary on Problem 547
+erdosproblems.com commentary on Problem 547
 itself states that the bound follows directly from the Erdős--Sós
 conjecture, and the comment of 4 September 2026 in the problem's discussion
 states the parity refinement. The library's
@@ -70,19 +70,19 @@ states the parity refinement. The library's
 writes the deduction out for any number of colors.
 
 **Claimant and postings.** The proof of Problem 548 was found by GPT-6
-Astra, the system the site's proof-claim tab names, a pre-release model of
-OpenAI run by Epoch AI in its FrontierMath Erdős benchmark. The
+Astra, the system the erdosproblems.com proof-claim tab names, a pre-release
+model of OpenAI run by Epoch AI in its FrontierMath Erdős benchmark. The
 publication is the Lean repository of Tom Adamczewski, pinned above,
 created on 3 September 2026, and the FrontierMath Erdős paper of
 Adamczewski and Bloom (arXiv:2609.25050, v1 6 September 2026), which
 records the resolution; the page is named by the name on that publication
-and by the date of the first posting. The site's proof-claim entry on
-Problem 548 was submitted on 3 September 2026 by the site's curator,
+and by the date of the first posting. The erdosproblems.com proof-claim entry on
+Problem 548 was submitted on 3 September 2026 by the erdosproblems.com curator,
 T. F. Bloom, with the five-page exposition generated from the formal proof,
 linked above; the curator is a co-author of the publication and the
 submitter of the tab entry, not an outside reviewer of it. The corollary
 is not a numbered result of the exposition or a target of the repository's
-formal comparison: the site's problem page states the implication and
+formal comparison: the erdosproblems.com problem page states the implication and
 this corpus wrote the deduction.
 
 **Depends on.**
@@ -125,8 +125,8 @@ explicit theorem rules out. So the explicit theorem is the evidence, and the
 infimum form is its corollary, of the same shape as the formal-conjectures
 statement file (Formalization on the problem page). The hypothesis $n\ge2$ is
 the modified Statement's. It excludes only the one-vertex tree, where the
-site's wording fails, and natural-number subtraction does not truncate for
-$n\ge2$.
+erdosproblems.com wording fails, and natural-number subtraction does not
+truncate for $n\ge2$.
 
 The odd refinement is `erdos_557_tight_odd` at $k=2$. For even $k>0$, odd
 $n\ge2$ and every tree $T$ on $n$ vertices, every labeling of the edges of
@@ -153,25 +153,25 @@ independent proof, so it is a link on this page and not a page of its own. It
 reports its own build and axiom check, so this corpus's build is the first
 independent check of it.
 
-Not reviewed: the site states the implication but has not relabeled Problem 547.
-Its commentary on Problem 548 (page last edited 3 September 2026) says that the
-proof implies Problems 547 and 557. Its commentary on Problem 547 says that the
-bound follows directly from the Erdős--Sós conjecture. The label of Problem 547
-is DECIDABLE (page last edited 18 January 2026), and its commentary still rests
-the bound on the large-order results. The curator submitted the site's
-proof-claim entry for Problem 548 and co-wrote the publication, so the site's
-statement of the implication is not a review independent of the claimant. Three
-arXiv papers by mathematicians independent of the claimant and the curator
-affirm the Problem 548 proof that the corollary consumes (Riordan and Scott,
-Wood, and Frederickson, recorded on the Problem 548 claim page). None of them
-treats the Ramsey corollary, so they are not a review of this claim. This
-corpus's own derivation on the corollary page passed a fresh-context proof-chain
-review on 2026-09-18. That is the project's own review, which awards no
-acceptance under the schema.
+Not reviewed: erdosproblems.com states the implication but has not relabeled
+Problem 547. Its commentary on Problem 548 (page last edited 3 September 2026)
+says that the proof implies Problems 547 and 557. Its commentary on Problem 547
+says that the bound follows directly from the Erdős--Sós conjecture. The label
+of Problem 547 is DECIDABLE (page last edited 18 January 2026), and its
+commentary still rests the bound on the large-order results. The curator
+submitted the erdosproblems.com proof-claim entry for Problem 548 and co-wrote
+the publication, so the erdosproblems.com statement of the implication is not a
+review independent of the claimant. Three arXiv papers by mathematicians
+independent of the claimant and the curator affirm the Problem 548 proof that
+the corollary consumes (Riordan and Scott, Wood, and Frederickson, recorded on
+the Problem 548 claim page). None of them treats the Ramsey corollary, so they
+are not a review of this claim. This corpus's own derivation on the corollary
+page passed a fresh-context proof-chain review on 2026-09-18. That is the
+project's own review, which awards no acceptance under the schema.
 
 Not refereed: the five-page exposition linked above is a preliminary account.
-The site's proof-claim note of 3 September 2026, the date this page is named by,
-calls it a placeholder pending a proper writeup and an assessment of the ideas'
-relation to earlier work. The FrontierMath Erdős paper is a preprint. The same
-claim at $k$ colors, accepted on the same build, is recorded on
-[[problems/ramsey_theory/E0557/_index|Problem 557]].
+The erdosproblems.com proof-claim note of 3 September 2026, the date this page
+is named by, calls it a placeholder pending a proper writeup and an assessment
+of the ideas' relation to earlier work. The FrontierMath Erdős paper is a
+preprint. The same claim at $k$ colors, accepted on the same build, is recorded
+on [[problems/ramsey_theory/E0557/_index|Problem 557]].

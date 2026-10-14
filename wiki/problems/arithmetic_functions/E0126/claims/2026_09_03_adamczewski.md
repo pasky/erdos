@@ -76,26 +76,26 @@ supplying the needed conditional negativity.
 > present.)
 
 **Claimant and postings.** The claimant is Tom Adamczewski, the name the
-publication carries: the Lean development the site's proof claim links,
+publication carries: the Lean development erdosproblems.com's proof claim links,
 pinned above, is Adamczewski's (the repository is licensed Apache-2.0), and the
 FrontierMath Erdős paper of Adamczewski and Bloom (arXiv:2609.25050, v1
 2026-09-06; its Appendix B.3 states the square-root bound as Theorem 3 and
 notes, without proof, that GPT-6 Astra found three distinct elementary
 proofs of $f(n)\gg n^c$, for $c=1/8$, $1/3$ and $1/2$) and Epoch AI's
 report, linked above, record the resolution. The proof was found by GPT-6
-Astra, which the site's proof-claim entry names as its claimant and
+Astra, which the erdosproblems.com proof-claim entry names as its claimant and
 describes as a pre-release version run by Epoch AI, in its FrontierMath
-Erdős benchmark. The site's curator, Thomas F. Bloom, registered the GPT-6
-Astra result as a proof claim on the site's proof-claims tab on 2026-09-03,
-with the Lean sources and a three-page exposition that GPT generated from
-the Lean proof at the curator's request, which the curator's note calls a
+Erdős benchmark. The erdosproblems.com curator, Thomas F. Bloom, registered the
+GPT-6 Astra result as a proof claim on the erdosproblems.com proof-claims tab on
+2026-09-03, with the Lean sources and a three-page exposition that GPT generated
+from the Lean proof at the curator's request, which the curator's note calls a
 placeholder pending a proper write-up; the curator is a co-author of the paper
 and the submitter of the entry, not an outside reviewer of it. The square-root
 bound sits in the module `Erdos126_104usd_15h.lean`, whose principal
 definitions and theorem statements the source card's digest inspected
 against the exposition; the Comparator compares the limit statement, not
 the square-root estimate. A separate claim of the same bound, registered
-on the site on 2026-09-04 from a repository whose commits are dated
+on erdosproblems.com on 2026-09-04 from a repository whose commits are dated
 2026-09-02 and 2026-09-03, has its own page,
 [[problems/arithmetic_functions/E0126/claims/2026_09_04_johnvictor36|JohnVictor36 2026]];
 no priority between the two is determined.
@@ -150,14 +150,14 @@ run on the pinned commit (the first `record` link), dated 2026-09-06, reported a
 successful build and comparison of the primary module against the limit
 statement.
 
-Not reviewed: the site labeled the problem PROVED (LEAN), and its export of
-2026-09-04 printed PROVED (FORMALIZED). Its commentary, last edited 2026-09-03,
-credits the proof to GPT-6 Astra. But the curator submitted the site's proof
-claim directly and is a co-author of the FrontierMath Erdős paper that announces
-the result. So that credit is not a review independent of the claimant. The
-site's proof-claims tab states that appearing on it is no guarantee of
-correctness and does not mean that anyone associated with the site has examined
-the proof. No outside reviewer has published an examination. Not refereed: there
-is no journal publication. The exposition is a placeholder that GPT generated
-from the Lean proof at the curator's request, and the FrontierMath Erdős paper
-is a preprint.
+Not reviewed: Bloom's catalog labeled the problem PROVED (LEAN), and its export
+of 2026-09-04 printed PROVED (FORMALIZED). Its commentary, last edited
+2026-09-03, credits the proof to GPT-6 Astra. But the curator submitted
+erdosproblems.com's proof claim directly and is a co-author of the FrontierMath
+Erdős paper that announces the result. So that credit is not a review
+independent of the claimant. The erdosproblems.com proof-claims tab states that
+appearing on it is no guarantee of correctness and does not mean that anyone
+associated with erdosproblems.com has examined the proof. No outside reviewer
+has published an examination. Not refereed: there is no journal publication. The
+exposition is a placeholder that GPT generated from the Lean proof at the
+curator's request, and the FrontierMath Erdős paper is a preprint.

@@ -38,8 +38,8 @@ $$
 where $D$ denotes the maximal degree of $T_n$ ($n>n_0$)."
 
 Observations made here. $P_n$ is the path of length $n$, that is with $n$
-edges and $n+1$ vertices, as on the site's Problem 720; sources that take
-$P_n$ on $n$ vertices differ by one vertex, which changes no linear bound.
+edges and $n+1$ vertices, as on erdosproblems.com's Problem 720; sources that
+take $P_n$ on $n$ vertices differ by one vertex, which changes no linear bound.
 The passage is Beck's
 citation of their own 1983 paper, not a proof: the source for $\hat r(P_n)<900n$
 remains Beck (1983), which is not held, so the bound is attested here at
@@ -69,9 +69,9 @@ Beck (1983), not held.
 - [[../wiki/problems/ramsey_theory/E0720/_index|Problem 720]]: display (1) is the linear
   upper bound that answers the problem's first question in the negative
   ($\hat r(P_n)/n\not\to\infty$) and its second in the affirmative
-  ($\hat r(P_n)/n^2\to0$), attested by the author of the 1983 paper the site
-  cites; the "greater colour" form is stronger than the site's statement
-  needs.
+  ($\hat r(P_n)/n^2\to0$), attested by the author of the 1983 paper
+  erdosproblems.com cites; the "greater colour" form is stronger than the
+  erdosproblems.com statement needs.
 - [[../wiki/problems/ramsey_theory/E0559/_index|Problem 559]]: display (1) is the path
   case in which the problem's statement holds, and display (2) the
   polylogarithmic bound for trees of bounded degree that preceded the linear

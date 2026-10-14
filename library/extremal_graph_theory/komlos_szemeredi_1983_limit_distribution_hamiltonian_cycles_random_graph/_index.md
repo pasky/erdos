@@ -274,8 +274,8 @@ itself prints no argument for the equivalence of the two random models or
 for its reformulations. Nothing here is independently reviewed.
 
 **Bears on.** [[../wiki/problems/extremal_graph_theory/E0746/_index|#746]]: Theorem 1
-(printed p. 56, PDF p. 2) is the limit law the site attributes to the paper:
-with $k=k_n=\tfrac12n\log n+\tfrac12n\log\log n+c_nn$ edges drawn
+(printed p. 56, PDF p. 2) is the limit law erdosproblems.com attributes to the
+paper: with $k=k_n=\tfrac12n\log n+\tfrac12n\log\log n+c_nn$ edges drawn
 independently with probability $p=k/\binom n2$, "$\lim_{n\to\infty}
 P(\mathrm{HC}_n(p))=e^{-e^{-2c}}$ if $c_n\to c$", and $1$ if $c_n\to\infty$;
 the paper states on p. 56 that this model is equivalent to the uniform
@@ -289,8 +289,8 @@ statement (the deduction is the problem page's). The problem page also cites
 [[extremal_graph_theory/komlos_szemeredi_1983_limit_distribution_hamiltonian_cycles_random_graph/reformulation_2|Reformulation 2]]
 (p. 58) as the paper's own hitting-time form, printed without proof; the
 problem's statement is not drawn from it. The abstract (p. 55)
-credits the $c_n\to\infty$ case to "Korsunov", as the site's thread says,
-and Theorem 2 (p. 57) is the Hamiltonian-path law
+credits the $c_n\to\infty$ case to "Korsunov", as the erdosproblems.com thread
+says, and Theorem 2 (p. 57) is the Hamiltonian-path law
 $(1+e^{-2c}+\tfrac12e^{-4c})e^{-e^{-2c}}$ that the thread reports. The
 problem page reads both theorems on the page images at statement depth, with
 the proof read for structure only.

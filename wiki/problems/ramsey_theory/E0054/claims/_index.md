@@ -4,7 +4,7 @@ desc: The 1 claim page of Problem 54, one per claimant's result; the problem's s
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/ramsey_theory/E0054/claims
@@ -14,6 +14,6 @@ updated: 2026-10-11T22:24:14Z
 [[problems/ramsey_theory/E0054/claims/2021_04_30_conlon_fox_pham|2021_04_30_conlon_fox_pham]]: Theorem 1.1 of Conlon, Fox and Pham's 2021 preprint, at $r=2$, gives a Ramsey
 2-complete sequence with $O(\log^2 n)$ terms up to $n$, and shows that none
 has $c\log^2 n$ terms up to every large $n$. The preprint is unrefereed, and
-the site's curator credits it as the resolution.
+the erdosproblems.com curator credits it as the resolution.
 
 ***

@@ -32,14 +32,14 @@ a red $3$-term arithmetic progression or a blue $k$-term arithmetic progression.
 Give reasonable bounds for $W(3,k)$. In particular, give any non-trivial lower
 bounds for $W(3,k)$ and prove that $W(3,k) < \exp(k^c)$ for some constant $c<1$.
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 4
-April 2026). The request has an open-ended part ("reasonable bounds") and two
-explicit challenges: a non-trivial lower bound, and an upper bound $\exp(k^c)$
-with $c<1$. The literature writes the same number $w(3,k)$, $w(2;3,k)$ or
-$W(3,k)$, and the two lower-bound papers state it with the colors exchanged (a
-blue $3$-term or a red $k$-term progression); Schoen states it as a partition
-$\{1,\ldots,N\}=X\cup Y$ with no $3$-term progression in $X$ and no $k$-term
-progression in $Y$. The colors are names, so nothing changes. Erdős's
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 4 April 2026). The request has an open-ended part ("reasonable bounds")
+and two explicit challenges: a non-trivial lower bound, and an upper bound
+$\exp(k^c)$ with $c<1$. The literature writes the same number $w(3,k)$,
+$w(2;3,k)$ or $W(3,k)$, and the two lower-bound papers state it with the colors
+exchanged (a blue $3$-term or a red $k$-term progression); Schoen states it as a
+partition $\{1,\ldots,N\}=X\cup Y$ with no $3$-term progression in $X$ and no
+$k$-term progression in $Y$. The colors are names, so nothing changes. Erdős's
 wordings: in 1980 (printed p. 91), with $f_{u,v}$ the least integer forcing
 a $u$-term progression in class I or a $v$-term progression in class II,
 "Very little is known about these Van der Waerden numbers -- in particular
@@ -48,50 +48,51 @@ it is not known if $f_{3,v}$ tends to infinity polynomially or faster"; in
 the same number, "It immediately follows from (1) of II., that (6)
 $f(3,v)<\exp\exp v$, but probably (6) is very far from being best possible.
 I have no non-trivial lower bound for $f(3,v)$, and would not be surprised
-if $f(3,v)<\exp v^\alpha$ would hold for some $\alpha<1$." The site's second
-challenge is this last sentence; its first is the "non-trivial lower bound"
-Erdős lacked. The site does not say what makes a lower bound non-trivial.
-This page reads it as the site's commentary does, which credits Green's
-superpolynomial bound with meeting the challenge. That bound also answers
-Erdős's 1980 question whether $f_{3,v}$ grows polynomially or faster. Under
-this reading the earlier polynomial bounds do not meet the challenge:
-$w(3,k)\gg k^{2-1/\log\log k}$ (Brown, Landman and Robertson, J. Combin.
-Theory Ser. A 115 (2008)) and $w(3,k)\gg(k/\log k)^2$ (Li and Shu, Adv. in
-Appl. Math. 44 (2010)), both proved with the Lovász Local Lemma (Green,
-p. 2). A weaker reading that counted them would leave the part settled and
-the standing unchanged.
+if $f(3,v)<\exp v^\alpha$ would hold for some $\alpha<1$." erdosproblems.com's
+second challenge is this last sentence; its first is the "non-trivial lower
+bound" Erdős lacked. erdosproblems.com does not say what makes a lower bound
+non-trivial. This page reads it as the erdosproblems.com commentary does, which
+credits Green's superpolynomial bound with meeting the challenge. That bound
+also answers Erdős's 1980 question whether $f_{3,v}$ grows polynomially or
+faster. Under this reading the earlier polynomial bounds do not meet the
+challenge: $w(3,k)\gg k^{2-1/\log\log k}$ (Brown, Landman and Robertson, J.
+Combin. Theory Ser. A 115 (2008)) and $w(3,k)\gg(k/\log k)^2$ (Li and Shu, Adv.
+in Appl. Math. 44 (2010)), both proved with the Lovász Local Lemma (Green, p.
+2). A weaker reading that counted them would leave the part settled and the
+standing unchanged.
 
-**Status.** The site labeled the problem SOLVED, its label for a problem
+**Status.** Bloom's catalog labeled the problem SOLVED, its label for a problem
 resolved other than by a proof or disproof: the label attaches to the two
-explicit challenges, both met by refereed papers that the site's curator
-credits; the site's own commentary says that the growth of $W(3,k)$ is not fully
-understood but that both of Erdős's specific challenges have been met. The
-frontmatter lists the two challenges as the problem's parts, each settled by an
-accepted partial claim, so the derived standing is solved; the derived claim is
-proved, because both challenges are met by proved bounds. The open-ended
-sentence "Give reasonable bounds for $W(3,k)$" is not listed as a part: it is
-the site's framing of Erdős's remarks, and every question Erdős himself put,
-quoted in **Formulation.**, is answered by the claims (1980: $f_{3,v}$ grows
-faster than polynomially, by Green; 1981: a non-trivial lower bound, by Green
-and Hunter, and $f(3,v)<\exp v^\alpha$ for some $\alpha<1$, by Schoen); the
-order of magnitude that remains unknown is recorded in the Current assessment
-and in the remaining gaps. The lower-bound challenge: Green's Theorem 1.1 (Forum
-of Mathematics, Pi 10 (2022), e18), $W(3,k)\ge k^{c(\log k/\log\log k)^{1/3}}$,
-the first superpolynomial bound, improved by Hunter's Theorem 1 (Combinatorica
-42 (2022), 1231--1252; cited from the arXiv v3) to
-$W(3,k)\ge k^{c\log k/\log\log k}$. The upper-bound challenge: Schoen's
-Theorem 1 (Electron. J. Combin. 28 (2021), P2.34), $W(3,k)\le\exp(Ck^{1-c})$
-with absolute $C,c>0$. What remains open is the order of magnitude, between
-$\exp(c(\log k)^2/\log\log k)$ and the site's $\exp(O((\log k)^9))$, a bound
-that the site derives from the Kelley–Meka and Bloom–Sisask density theorems and
-that no paper cited here states. The claim pages
+explicit challenges, both met by refereed papers that the erdosproblems.com
+curator credits; erdosproblems.com's own commentary says that the growth of
+$W(3,k)$ is not fully understood but that both of Erdős's specific challenges
+have been met. The frontmatter lists the two challenges as the problem's parts,
+each settled by an accepted partial claim, so the derived standing is solved;
+the derived claim is proved, because both challenges are met by proved bounds.
+The open-ended sentence "Give reasonable bounds for $W(3,k)$" is not listed as a
+part: it is erdosproblems.com's framing of Erdős's remarks, and every question
+Erdős himself put, quoted in **Formulation.**, is answered by the claims (1980:
+$f_{3,v}$ grows faster than polynomially, by Green; 1981: a non-trivial lower
+bound, by Green and Hunter, and $f(3,v)<\exp v^\alpha$ for some $\alpha<1$, by
+Schoen); the order of magnitude that remains unknown is recorded in the Current
+assessment and in the remaining gaps. The lower-bound challenge: Green's Theorem
+1.1 (Forum of Mathematics, Pi 10 (2022), e18),
+$W(3,k)\ge k^{c(\log k/\log\log k)^{1/3}}$, the first superpolynomial bound,
+improved by Hunter's Theorem 1 (Combinatorica 42 (2022), 1231--1252; cited from
+the arXiv v3) to $W(3,k)\ge k^{c\log k/\log\log k}$. The upper-bound challenge:
+Schoen's Theorem 1 (Electron. J. Combin. 28 (2021), P2.34),
+$W(3,k)\le\exp(Ck^{1-c})$ with absolute $C,c>0$. What remains open is the order
+of magnitude, between $\exp(c(\log k)^2/\log\log k)$ and erdosproblems.com's
+$\exp(O((\log k)^9))$, a bound that erdosproblems.com derives from the
+Kelley–Meka and Bloom–Sisask density theorems and that no paper cited here
+states. The claim pages
 [[problems/ramsey_theory/E0721/claims/2021_02_02_green|Green 2021]],
 [[problems/ramsey_theory/E0721/claims/2021_11_01_hunter|Hunter 2021]] and
 [[problems/ramsey_theory/E0721/claims/2020_06_04_schoen|Schoen 2020]] record the
 three results, their postings, what each covers and its acceptance evidence.
 
 **Source.** [erdosproblems.com/721](https://www.erdosproblems.com/721),
-accessed 2026-09-18: the problem page (SOLVED, the site's label for a
+accessed 2026-09-18: the problem page (SOLVED, the erdosproblems.com label for a
 resolution other than a proof or disproof; last edited 4 April 2026; source
 keys [Er80, p. 91] and [Er81]; OEIS A171081), its empty discussion thread
 and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem #721,
@@ -145,19 +146,19 @@ https://www.erdosproblems.com/721, accessed 2026-09-18.
 
 **Formalization.** None: the directory `FormalConjectures/ErdosProblems/`
 of formal-conjectures, at the head of `main` on 2026-09-18, has no
-`721.lean`; the site page shows "Formalised statement? No"; the community
-database, read 2026-09-18, records the problem solved (last changed 31
+`721.lean`; the erdosproblems.com page shows "Formalised statement? No"; the
+community database, read 2026-09-18, records the problem solved (last changed 31
 August 2025), not formalized, OEIS A171081 and no formal proof.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; SOLVED, last edited 4 April 2026. The commentary says that the
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; SOLVED, last edited 4 April 2026. The commentary says that the
 growth of $W(3,k)$ is not fully understood but that both of Erdős's
 specific challenges have been met: it credits Green [Gr22] with the
 superpolynomial lower bound
 $W(3,k)\ge\exp(c(\log k)^{4/3}/(\log\log k)^{1/3})$, which disproves the
-conjecture $W(3,k)\ll k^2$ that the site attributes to Graham (Green
+conjecture $W(3,k)\ll k^2$ that erdosproblems.com attributes to Graham (Green
 attributes it to Ahmed, Kullmann and Snevily; see below), Hunter [Hu22] with
 the improvement to
 $\exp(c(\log k)^2/\log\log k)$, and Schoen [Sc21] with the first bound
@@ -175,8 +176,8 @@ for any of these problems". The 1981 Combinatorica paper (Part V, p. 10 of
 the re-typeset copy) repeats the definition, derives $f(3,v)<\exp\exp v$
 from Roth's bound (its display (1) of Part II), calls it "very far from
 being best possible", and offers the guess $f(3,v)<\exp v^\alpha$ for some
-$\alpha<1$; that guess is the site's second challenge. The passage is quoted
-here with its locator.
+$\alpha<1$; that guess is erdosproblems.com's second challenge. The passage is
+quoted here with its locator.
 
 **The lower-bound challenge.** Green's
 [[../library/ramsey_theory/green_2022_new_lower_bounds_van_der_waerden/theorem_1_1|Theorem 1.1]]
@@ -184,7 +185,7 @@ here with its locator.
 and every red progression is shorter than
 $e^{C(\log N)^{3/4}(\log\log N)^{1/4}}$, and deduces
 $w(3,k)\ge k^{b(k)}$ with $b(k)=c(\log k/\log\log k)^{1/3}$; since
-$k^{b(k)}=\exp(b(k)\log k)$ this is the site's
+$k^{b(k)}=\exp(b(k)\log k)$ this is erdosproblems.com's
 $\exp(c(\log k)^{4/3}/(\log\log k)^{1/3})$ (identity checked here). Its
 equivalent Theorem 2.1 (p. 5): once $N>e^{Cr^4\log r}$, $[N]$ has a
 two-coloring in which no three-term progression is blue and every red
@@ -194,13 +195,13 @@ Robertson) and $w(3,k)\gg(k/\log k)^2$ (Li and Shu), and the quadratic guess
 supported by data ($w(3,20)\ge389$, $w(3,30)\ge903$) and stated as a
 conjecture by Ahmed, Kullmann and Snevily, which the paper refutes; Green
 writes of first hearing the question whether $w(3,k)=O(k^2)$ from Graham
-around 2004, and the site's commentary names the refuted statement Graham's
-conjecture. Hunter's
+around 2004, and the erdosproblems.com commentary names the refuted statement
+Graham's conjecture. Hunter's
 [[../library/ramsey_theory/hunter_2022_improved_lower_bounds_van_der_waerden/theorem_1|Theorem 1]]
 (p. 2 of the preprint): $w(3,k)\ge k^{c\log k/\log\log k}$,
 equivalently $f(N)\le e^{C(\log N)^{1/2}(\log\log N)^{1/2}}$ for the least
-$k$ with $w(3,k)>N$; this is the site's $\exp(c(\log k)^2/\log\log k)$. Both
-papers are refereed (Forum of Mathematics, Pi; Combinatorica), and Green's
+$k$ with $w(3,k)>N$; this is erdosproblems.com's $\exp(c(\log k)^2/\log\log k)$.
+Both papers are refereed (Forum of Mathematics, Pi; Combinatorica), and Green's
 published version records Hunter's improvement in its June 2022 update.
 Read depth on both: claims checked, proofs not read.
 
@@ -217,8 +218,8 @@ $W(3,k)\le\exp(Ck^{1-c})$ with $c\approx2^{-2^{1000}}$"; the paper is
 refereed (Electron. J. Combin., published 4 June 2021). Read depth: claims
 checked; Section 3 for structure only.
 
-**The open-ended part: the order of magnitude.** The site's current upper
-bound $W(3,k)\ll\exp(O((\log k)^9))$ is a consequence of the Roth-type
+**The open-ended part: the order of magnitude.** erdosproblems.com's current
+upper bound $W(3,k)\ll\exp(O((\log k)^9))$ is a consequence of the Roth-type
 density theorems: Kelley and Meka's
 [[../library/additive_combinatorics/kelley_2023_strong_bounds_3_progressions/theorem_1_1|Theorem 1.1]]
 (a progression-free subset of $[N]$ has density at most
@@ -230,34 +231,33 @@ density theorem to $W(3,k)$ is the argument Hunter's footnote 1 states and
 Schoen's remark uses: in a coloring of $[N]$ with no $k$-term progression
 in one class, at least one of every $k$ consecutive integers lies in the
 other class, which therefore has at least $N/k-1$ elements and, once $N$ is
-large enough in terms of $k$, must contain a 3-term progression. The site's
-exponent $9$ is the reciprocal of the exponent $1/9$ in Bloom and Sisask's
-theorem, as the shape of that argument suggests; the derivation appears in
-no source cited here and is not written here; it is the first of the
-remaining gaps below. Lower down,
-the true order is unknown. Green expects it "somewhere in between the bound
-of Theorem 1.1 and something like $k^{c\log k}$, which is what a Behrend
-construction of the blue points would give if only the complement of such a
-set 'behaved randomly'" (p. 6); Hunter's Remark 1.1 records the same
-expectation, $w(3,k)\le k^{O(\log k)}$, and infers that the paper's Theorem 1
-"is likely to be essentially best possible" (p. 2). The gap is therefore
-between $\exp(c(\log k)^2/\log\log k)$ and $\exp(O((\log k)^9))$; the
-sources expect only the upper bound $W(3,k)\le k^{O(\log k)}$, with the
-truth between Hunter's bound and that, and neither conjectures a matching
-lower bound. Small values: OEIS A171081
-lists $w(3,n)$ for $3\le n\le19$ as $9,18,22,32,46,58,77,97,114,135,160,186,218,238,279,312,349$
-and cites Ahmed, Kullmann and Snevily for lower bounds through $n=30$ (an
-entry of August 2026 adds lower bounds for $n=31$ and $33$ from a Zenodo
-record, not checked here).
+large enough in terms of $k$, must contain a 3-term progression.
+erdosproblems.com's exponent $9$ is the reciprocal of the exponent $1/9$ in
+Bloom and Sisask's theorem, as the shape of that argument suggests; the
+derivation appears in no source cited here and is not written here; it is the
+first of the remaining gaps below. Lower down, the true order is unknown. Green
+expects it "somewhere in between the bound of Theorem 1.1 and something like
+$k^{c\log k}$, which is what a Behrend construction of the blue points would
+give if only the complement of such a set 'behaved randomly'" (p. 6); Hunter's
+Remark 1.1 records the same expectation, $w(3,k)\le k^{O(\log k)}$, and infers
+that the paper's Theorem 1 "is likely to be essentially best possible" (p. 2).
+The gap is therefore between $\exp(c(\log k)^2/\log\log k)$ and
+$\exp(O((\log k)^9))$; the sources expect only the upper bound
+$W(3,k)\le k^{O(\log k)}$, with the truth between Hunter's bound and that, and
+neither conjectures a matching lower bound. Small values: OEIS A171081 lists
+$w(3,n)$ for $3\le n\le19$ as
+$9,18,22,32,46,58,77,97,114,135,160,186,218,238,279,312,349$ and cites Ahmed,
+Kullmann and Snevily for lower bounds through $n=30$ (an entry of August 2026
+adds lower bounds for $n=31$ and $33$ from a Zenodo record, not checked here).
 
 **Forum and AI-assisted items.** None: the thread and the proof-claim tab
 are empty, and no source of this page declares AI assistance.
 
 **Search scope.** None of the routes below found an upper
-bound better than the site's, a lower bound better than Hunter's, or a
+bound better than erdosproblems.com's, a lower bound better than Hunter's, or a
 determination of the order of $W(3,k)$.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory listing (no file); the community database.
 - arXiv: the abstract pages of 2111.01099 (three versions, no journal
   reference), 2302.05537 (six versions, no journal reference) and
@@ -288,8 +288,8 @@ Brown–Landman–Robertson 2008, Cwalina–Schoen 2017, the 2020 Bloom–Sisask
 Roth bound, Ahmed–Kullmann–Snevily 2014, the Combinatorica text of [Hu22],
 the FOCS text of [KeMe23].
 
-**Remaining gaps.** (1) The site's exponent $9$ is not derived in any source
-cited here; the density argument with Bloom and Sisask's Theorem 1 would
+**Remaining gaps.** (1) erdosproblems.com's exponent $9$ is not derived in any
+source cited here; the density argument with Bloom and Sisask's Theorem 1 would
 derive it and is not written here. (2) The order of magnitude is open between
 $\exp(c(\log k)^2/\log\log k)$ and $\exp(O((\log k)^9))$; the sources
 expect $W(3,k)\le k^{O(\log k)}$, with the truth between Hunter's bound and

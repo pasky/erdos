@@ -42,22 +42,23 @@ $$
 
 where $\epsilon=1$ if $k$ is odd and $\epsilon=2$ otherwise?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 29
-January 2026). $\mathrm{AR}(n,G)$ is the $f(n,G)$ of Erdős, Simonovits and Sós
-(1975) and of Simonovits and Sós (1984), whose "totally multicoloured" is the
-site's "rainbow". Two questions are asked: an asymptotic formula, with an $O(1)$
-error, for cycles, and an exact value for paths in the full range $n\ge k\ge5$;
-the site's label attaches to both, and the claim pages record each half
-separately. The path formula is Yuan's Theorem 1 term for term. In the 1975
-paper's parameters, $k=2t+3+\epsilon_0$ with $\epsilon_0\in\{0,1\}$, it is
-Conjecture 2's two-regime formula, with $\ell=t+1$ and the site's $\epsilon$
-equal to $\epsilon_0+1$; the translation is checked on the
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 29 January 2026). $\mathrm{AR}(n,G)$ is the $f(n,G)$ of Erdős, Simonovits
+and Sós (1975) and of Simonovits and Sós (1984), whose "totally multicoloured"
+is erdosproblems.com's "rainbow". Two questions are asked: an asymptotic
+formula, with an $O(1)$ error, for cycles, and an exact value for paths in the
+full range $n\ge k\ge5$; the erdosproblems.com label attaches to both, and the
+claim pages record each half separately. The path formula is Yuan's Theorem 1
+term for term. In the 1975 paper's parameters, $k=2t+3+\epsilon_0$ with
+$\epsilon_0\in\{0,1\}$, it is Conjecture 2's two-regime formula, with $\ell=t+1$
+and erdosproblems.com's $\epsilon$ equal to $\epsilon_0+1$; the translation is
+checked on the
 [[../library/ramsey_theory/erdos_1975_anti_ramsey_theorems/conjecture_2|conjecture_2]]
-page. The site's range $n\ge\frac54k+C$ for the 1975 announcement is that
-paper's $n\ge(5t+3+c)/2$.
+page. erdosproblems.com's range $n\ge\frac54k+C$ for the 1975 announcement is
+that paper's $n\ge(5t+3+c)/2$.
 
-**Status.** The site's label was PROVED. The problem lists two parts, cycles and
-paths, and the two halves rest on different evidence. The claim pages
+**Status.** The erdosproblems.com label was PROVED. The problem lists two parts,
+cycles and paths, and the two halves rest on different evidence. The claim pages
 [[problems/ramsey_theory/E1105/claims/2005_09_01_montellano_ballesteros_neumann_lara|Montellano-Ballesteros and Neumann-Lara 2005]]
 (accepted on the curator's credit and the refereed publication, partial: the
 cycle half), [[problems/ramsey_theory/E1105/claims/2021_02_01_yuan|Yuan 2021]]
@@ -69,18 +70,18 @@ the results, their postings and their acceptance evidence. The frontmatter
 standing derives from these pages. The accepted partial claims of
 Montellano-Ballesteros and Neumann-Lara (cycles) and Yuan (paths) settle one
 part each. So the derived standing is solved, proved, in agreement with the
-site's label. Both halves rest on theorem statements with no proof checked. The
-cycle half rests on a refereed paper, and the path half on a preprint with no
-refereed version.
+erdosproblems.com label. Both halves rest on theorem statements with no proof
+checked. The cycle half rests on a refereed paper, and the path half on a
+preprint with no refereed version.
 
 Paths. The formula holds for all $n\ge k\ge5$ by Theorem 1 of Yuan
 (arXiv:2102.00807v3, 9 February 2021). This is a preprint with no journal record
-found on 2026-09-18, which the site's curator accepts. Under the label PROVED,
-the commentary credits Yuan with an announced proof of the formula over the
-whole range. The community database lists the problem as proved as of its last
-update, 1 February 2026. Before Yuan, Simonovits and Sós (Combinatorica 1984,
-refereed) proved the formula for paths on $2t+3+\epsilon_0\ge13$ vertices and
-$n>ct^2$. The proofs announced in 1975 never appeared.
+found on 2026-09-18, which the erdosproblems.com curator accepts. Under the
+label PROVED, the commentary credits Yuan with an announced proof of the formula
+over the whole range. The community database lists the problem as proved as of
+its last update, 1 February 2026. Before Yuan, Simonovits and Sós (Combinatorica
+1984, refereed) proved the formula for paths on $2t+3+\epsilon_0\ge13$ vertices
+and $n>ct^2$. The proofs announced in 1975 never appeared.
 
 Cycles. The exact value is Theorem 5 of Montellano-Ballesteros and Neumann-Lara
 (Graphs Combin. 21 (2005), 343--354, refereed). For every $n\ge p\ge3$ it gives
@@ -94,7 +95,7 @@ papers state the cycle formula as a conjecture, proved by its authors "only for
 $k=3$". They call it "still unsettled for $k\ge5$".
 
 **Source.** [erdosproblems.com/1105](https://www.erdosproblems.com/1105),
-accessed 2026-09-18: the problem page (PROVED, the site's label for a
+accessed 2026-09-18: the problem page (PROVED, the erdosproblems.com label for a
 question answered yes; last edited 29 January 2026; source key [ESS75];
 commentary citing [SiSo84], [Yu21] and [MoNe05]), its two-comment
 discussion thread (19 January 2026) and its empty proof-claim tab. Cite as:
@@ -152,15 +153,15 @@ of formal-conjectures, at the commit linked, declares two statements under
 and
 `erdos_1105.parts.ii : answer(True) ↔ ∀ (k n : ℕ), 5 ≤ k → k ≤ n → let ℓ := (k - 1) / 2; let ε := if Odd k then 1 else 2; antiRamseyNum (pathGraph k) n = max ((k - 2).choose 2 + 1) ((ℓ - 1).choose 2 + (ℓ - 1) * (n - ℓ + 1) + ε)`,
 followed by two TODO comments for the Erdős--Simonovits--Sós and
-Simonovits--Sós variants; the docstrings repeat the site's commentary. The
-first part quantifies over all $k\ge3$ and encodes the $O(1)$ as
+Simonovits--Sós variants; the docstrings repeat the erdosproblems.com
+commentary. The first part quantifies over all $k\ge3$ and encodes the $O(1)$ as
 boundedness of the difference at infinity; the second uses natural-number
-division for $\lfloor(k-1)/2\rfloor$ and the site's $\epsilon$. The file
-carries no `formal_proof` attribute, and it was not built. The site's
-"Formalised statement? Yes" and the community database (statement
-formalized, as of its last update on 18 January 2026; no formal proof;
-informal status proved, as of its last update on 1 February 2026) refer to
-it. Linmiao Xu's Lean development, first published on 6 October 2026 and
+division for $\lfloor(k-1)/2\rfloor$ and erdosproblems.com's $\epsilon$. The
+file carries no `formal_proof` attribute, and it was not built.
+erdosproblems.com's "Formalised statement? Yes" and the community database
+(statement formalized, as of its last update on 18 January 2026; no formal
+proof; informal status proved, as of its last update on 1 February 2026) refer
+to it. Linmiao Xu's Lean development, first published on 6 October 2026 and
 registered in the Palomar registry as
 [PALOMAR-2026-10-13-000006](https://palomar-registry.org/entry?id=PALOMAR-2026-10-13-000006&version=1)
 on 13 October 2026, proves at
@@ -176,7 +177,7 @@ on 15 August 2026 as a disproof of formal-conjectures' statements under their
 definition of the time, which also colored the diagonal pairs; its proofs were
 posted on 23 August 2026, before formal-conjectures corrected its
 `antiRamseyNum` on 14 September 2026 (PR #5829). Neither proof was posted to
-the site's thread. The claim pages of the
+the erdosproblems.com thread. The claim pages of the
 [[problems/ramsey_theory/E1105/claims/2005_09_01_montellano_ballesteros_neumann_lara|cycle half]]
 and the
 [[problems/ramsey_theory/E1105/claims/2021_02_01_yuan|path half]]
@@ -185,14 +186,13 @@ record what each proves; neither is built or audited here, so neither is
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; PROVED, which the site explains as answered in the affirmative;
-last edited 29 January 2026; source key [ESS75]. The commentary attributes
-the conjecture
-to Erdős, Simonovits and Sós [ESS75], with their simple proof of
-$\mathrm{AR}(n,C_3)=n-1$; records that the same paper announced proofs of
-the path formula for $n\ge\frac54k+C$ with a large constant $C$ and for
-all $n\ge k$ once $k$ is large, proofs that never appeared; credits
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; PROVED, which erdosproblems.com explains as answered in the
+affirmative; last edited 29 January 2026; source key [ESS75]. The commentary
+attributes the conjecture to Erdős, Simonovits and Sós [ESS75], with their
+simple proof of $\mathrm{AR}(n,C_3)=n-1$; records that the same paper announced
+proofs of the path formula for $n\ge\frac54k+C$ with a large constant $C$ and
+for all $n\ge k$ once $k$ is large, proofs that never appeared; credits
 Simonovits and Sós [SiSo84] with a published proof of the path formula
 for $n\ge ck^2$; credits Yuan [Yu21] with announcing a proof of the path
 formula over the whole range $n\ge k\ge5$; and credits
@@ -202,7 +202,7 @@ thread: on 19 January 2026 a commenter reported that a colleague's Deep
 Research query in ChatGPT had identified Yuan's 2021 paper as solving the
 problem, linking that conversation and a second ChatGPT conversation the
 comment labels a 5.2 Pro output (chat transcripts, which are not citable
-sources), and the site's author replied the same day that
+sources), and erdosproblems.com's author replied the same day that
 Yuan's result concerns paths only and was already in the remarks, and that
 the references on cycles in that output were new and would be added; the
 page was last edited ten days later. The proof-claim tab is empty. The
@@ -241,10 +241,10 @@ unsettled for $k\ge5$", pointing to a Section 3 that the paper does not have.
 [[../library/ramsey_theory/yuan_2021_anti_ramsey_numbers_paths/theorem_1|Theorem 1]]
 of [Yu21] (p. 1): for $n\ge k\ge5$ and $\ell=\lfloor(k-1)/2\rfloor$,
 $\mathrm{AR}(n,P_k)=\max\{\binom{k-2}2+1,\binom{\ell-1}2+(\ell-1)(n-\ell+1)+\epsilon\}$
-with $\epsilon=1$ for odd and $2$ for even $k$, the site's formula character for
-character; the introduction records that Simonovits and Sós had the range
-$n\ge c_1t^2$ and "claimed that their result held for $n\ge5t/2+c_2$ ...
-(without proof)". The proof reduces to connected Turán numbers for paths and
+with $\epsilon=1$ for odd and $2$ for even $k$, the erdosproblems.com formula
+character for character; the introduction records that Simonovits and Sós had
+the range $n\ge c_1t^2$ and "claimed that their result held for $n\ge5t/2+c_2$
+... (without proof)". The proof reduces to connected Turán numbers for paths and
 uses stability theorems of Füredi, Kostochka, Luo and Verstraëte, stated in
 Section 2 as Corollary 5 (odd $k\ge9$) and Corollary 6 (even $k\ge6$), which
 hold for every number of vertices. The preprint itself qualifies these inputs:
@@ -255,15 +255,16 @@ from the stability results of Ma and Yuan (arXiv:2010.13667); and its footnote 1
 (p. 2) asserts, without proof, that the cited Theorem 2.3 for $2$-connected
 graphs without long cycles extends to connected $P_k$-free graphs. The even-$k$
 case of the path half thus rests in part on stability inputs the preprint
-asserts rather than proves in the cited sources. Acceptance evidence: the site's
-label and commentary; the community database's `proved`, as of its last update
-on 1 February 2026; the paper is an arXiv preprint (v3, 9 February 2021) with no
-journal reference on its listing, no Crossref record and no published version
-among its seven citing records in the citation index (2026-09-18), so the path
-half rests on a preprint accepted by the site's curator, listed as reviewed on
-its claim page. Read depth: Theorem 1, the definitions and the quoted Turán
-inputs (pp. 1--2) and Corollaries 5--6, footnote 1 and the Remark (pp. 2--3) are
-checked; the proof is not checked, and neither is Theorem B's.
+asserts rather than proves in the cited sources. Acceptance evidence: the
+erdosproblems.com label and commentary; the community database's `proved`, as of
+its last update on 1 February 2026; the paper is an arXiv preprint (v3, 9
+February 2021) with no journal reference on its listing, no Crossref record and
+no published version among its seven citing records in the citation index
+(2026-09-18), so the path half rests on a preprint accepted by the
+erdosproblems.com curator, listed as reviewed on its claim page. Read depth:
+Theorem 1, the definitions and the quoted Turán inputs (pp. 1--2) and
+Corollaries 5--6, footnote 1 and the Remark (pp. 2--3) are checked; the proof is
+not checked, and neither is Theorem B's.
 
 **Cycle half: proved, in a refereed paper.**
 [[../library/ramsey_theory/montellano_ballesteros_neumann_lara_2005_anti_ramsey_theorem_cycles/theorem_5|Theorem 5]]
@@ -278,8 +279,8 @@ paper and proves the upper bound, through Proposition 1 (p. 351, the range
 $4\le p\le n\le2p-3$) and the structure of its "selective graphs" (§ 3). Since
 $\mathrm{AR}(n,C_k)$ is the largest number of colors with no rainbow $C_k$,
 $\mathrm{AR}(n,C_k)=h(n,k)-1=\mathbf E(n,k)-1$ for all $n\ge k\ge3$; for $k=3$
-this is $n-1$, the site's value. Writing $n=q(k-1)+r$ with $0\le r\le k-2$,
-$\mathbf E(n,k)$ differs from $(\frac{k-2}2+\frac1{k-1})n$ by
+this is $n-1$, erdosproblems.com's value. Writing $n=q(k-1)+r$ with
+$0\le r\le k-2$, $\mathbf E(n,k)$ differs from $(\frac{k-2}2+\frac1{k-1})n$ by
 $\binom r2-\frac{r(k-2)}2-\frac r{k-1}+[r>0]$, a quantity bounded in terms of
 $k$, so the displayed asymptotic holds for every $k\ge3$; this is the paper's
 Corollary 1 (p. 353), whose printed statement carries a minus sign between
@@ -291,8 +292,8 @@ in prisms, plane triangulations and outerplanar graphs, of matchings and
 forests, surveys, and a 2021 "short proof of anti-Ramsey number for cycles" in a
 journal not otherwise indexed here; none disputes the formula). In the earlier
 sources the cycle formula is Conjecture 1 of 1975, proved by its authors for
-$k=3$ only (the site's $\mathrm{AR}(n,C_3)=n-1$), and "still unsettled for
-$k\ge5$" in 1984. Read depth: the definitions, Theorem 5 and Corollary 1 are
+$k=3$ only (erdosproblems.com's $\mathrm{AR}(n,C_3)=n-1$), and "still unsettled
+for $k\ge5$" in 1984. Read depth: the definitions, Theorem 5 and Corollary 1 are
 checked; the proof (pp. 351--353 with the lemmas of §§ 2--3) is followed for
 structure only and not checked.
 
@@ -308,7 +309,7 @@ only.
 refereed version of [Yu21], a dispute of either formula, or an open copy of
 [MoNe05].
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `1105.lean` at the pinned commit; the community
   database.
 - arXiv: the API record of 2102.00807 (v1 1 February 2021, v3 9 February
@@ -332,9 +333,9 @@ its theorems are cited above at their printed pages.
 
 **Remaining gaps.** (1) The cycle half rests at statement depth only:
 Theorem 5 and Corollary 1 of [MoNe05] are checked, and its proof is not.
-(2) The path half rests on a preprint with the site curator's acceptance and
-no refereed version, whose Section 2 declares that one stability input
-(Corollary 6(d)) is not proved in the papers it cites and asserts another
+(2) The path half rests on a preprint with the erdosproblems.com curator's
+acceptance and no refereed version, whose Section 2 declares that one stability
+input (Corollary 6(d)) is not proved in the papers it cites and asserts another
 (footnote 1) without proof. (3) Proof coverage is statements only: the
 proofs of Theorem 5, Theorem B and Theorem 1 are not checked, and the 1975
 announcements have no proofs. (4) Source defects recorded, not resolved: the

@@ -111,7 +111,8 @@ lists these interfaces.
   with $n+1$ nodes where the problem has $n$. That page records the remarks
   of Erdős (1961) and Tao (2026) on whether Bernstein gave the algebraic case
   in full, and credits the instance to Erdős 1961.
-- [[../wiki/problems/polynomials/E1132/_index|Problem 1132]]: the site's
-  commentary there attributes a density statement to Bernstein. The Théorème
-  bounds a maximum over a period at a point that may change with $n$; this
-  page does not derive the site's statement from it.
+- [[../wiki/problems/polynomials/E1132/_index|Problem 1132]]: the
+  erdosproblems.com commentary there attributes a density statement to
+  Bernstein. The Théorème bounds a maximum over a period at a point that may
+  change with $n$; this page does not derive the erdosproblems.com statement
+  from it.

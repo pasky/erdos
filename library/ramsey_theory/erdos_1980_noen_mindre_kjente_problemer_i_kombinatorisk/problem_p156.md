@@ -63,5 +63,5 @@ None.
 
 - [[../wiki/problems/ramsey_theory/E0439/_index|Problem 439]]: the problem's
   square question is this partition question, in its colouring form and in the
-  graph form the site's commentary gives; the problem's $k$th-power question
-  is not posed in this paper.
+  graph form the erdosproblems.com commentary gives; the problem's $k$th-power
+  question is not posed in this paper.

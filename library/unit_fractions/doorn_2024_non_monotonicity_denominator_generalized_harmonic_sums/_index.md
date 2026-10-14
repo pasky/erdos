@@ -64,10 +64,10 @@ Source: <https://arxiv.org/abs/2411.03073v2>.
 The copy read for this card is arXiv:2411.03073v2 (23 July 2025), 57 pages;
 v1 (5 November 2024) was not read and the two were not compared. The paper's
 b(a) is the least b > a
-with v_{a,b} < v_{a,b-1}, the index at which the denominator drops; the
-site's b(a) for problem 290 and OEIS A375081 count the last index before the
-drop, one less. Read status: claims checked for Corollary 1, Theorem 2,
-Theorem 6 and Theorem 8 (statements read clause by clause on PDF pp. 10, 31
+with v_{a,b} < v_{a,b-1}, the index at which the denominator drops;
+erdosproblems.com's b(a) for problem 290 and OEIS A375081 count the last index
+before the drop, one less. Read status: claims checked for Corollary 1, Theorem
+2, Theorem 6 and Theorem 8 (statements read clause by clause on PDF pp. 10, 31
 and 37), compiled on
 [[unit_fractions/doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums/corollary_1|Corollary 1]],
 [[unit_fractions/doorn_2024_non_monotonicity_denominator_generalized_harmonic_sums/theorem_2|Theorem 2]],

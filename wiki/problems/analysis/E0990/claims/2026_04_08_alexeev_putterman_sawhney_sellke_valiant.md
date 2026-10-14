@@ -54,16 +54,18 @@ $M$ bounded. The authors attribute the proof to an internal OpenAI model. The
 paper is held on its
 [[../library/discrete_geometry/alexeev_2026_short_proofs_combinatorics_probability_number_theory/_index|library card]].
 
-**Reviewed.** The site's curator, Thomas Bloom, marked Problem 990 disproved
-and credits the construction of this paper in the site's commentary (last
-edited 10 April 2026). The arXiv record listed one version and no journal
-reference (checked 2026-10-07), so the claim has no refereed evidence.
+**Reviewed.** The erdosproblems.com curator, Thomas Bloom, marked Problem 990
+disproved and credits the construction of this paper in the erdosproblems.com
+commentary (last edited 10 April 2026). The arXiv record listed one version and
+no journal reference (checked 2026-10-07), so the claim has no refereed
+evidence.
 
 **Formalizations.** Two Lean developments declare themselves formalizations of
 this result. Boris Alexeev's `lean-proofs` file names an internal model at
 OpenAI and the five authors as informal authors and Codex and Alexeev as formal
 authors; the
 formal-conjectures statement file points to it. A second file, posted in the
-site's thread on 10 April 2026 by its author (GitHub login `yuta0x89`), states
-that it formalizes Section 5 of the preprint and was made with GPT-5.4 Pro.
-The corpus has built neither, so the claim lists no `formalized` evidence.
+erdosproblems.com thread on 10 April 2026 by its author (GitHub login
+`yuta0x89`), states that it formalizes Section 5 of the preprint and was made
+with GPT-5.4 Pro. The corpus has built neither, so the claim lists no
+`formalized` evidence.

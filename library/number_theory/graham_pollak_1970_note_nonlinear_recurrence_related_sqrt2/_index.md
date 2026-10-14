@@ -139,13 +139,13 @@ problem's first paragraph is this note's announced result (p. 143) and its
 consequence for $m=1$ (p. 145) of the Theorem (p. 143), $a_{2n+1}-2a_{2n-1}$
 being the $n$th binary digit of $\sqrt2$ for $a_1=1$; the problem prints the
 recurrence as $\lfloor\sqrt2(a_n+1/2)\rfloor$, the form p. 144 shows equal
-to the original $[\sqrt{2a_n(a_n+1)}]$. The site's commentary attributes
-the $\sqrt2$ result to this note, and the 1980 monograph's passage cites it
-as [Gr-Po (70)]. The note's closing question (p. 145), whether similar
+to the original $[\sqrt{2a_n(a_n+1)}]$. The erdosproblems.com commentary
+attributes the $\sqrt2$ result to this note, and the 1980 monograph's passage
+cites it as [Gr-Po (70)]. The note's closing question (p. 145), whether similar
 results hold for $[\sqrt{3a_n(a_n+1)}]$ and a cube-root analog, is the
 earliest printed form of the problem's second paragraph. The note does not
-touch the $\sqrt m$ or algebraic cases and changes nothing about the site's
-label.
+touch the $\sqrt m$ or algebraic cases and changes nothing about the
+erdosproblems.com label.
 
 **Results.**
 

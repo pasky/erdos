@@ -5,8 +5,8 @@ desc: |
   Erdős's 1981 theorem that some infinite sequence of primes with convergent
   reciprocal sum makes the gaps between integers free of its members at most
   (1+ε) t_x Π(1 − 1/p_i)^{-1} for all large k, with his question (p. 178)
-  whether such a sequence can grow only polynomially; the site's source for
-  Problem 1101.
+  whether such a sequence can grow only polynomially; the erdosproblems.com
+  source for Problem 1101.
 created: 2026-10-08T15:50:52Z
 updated: 2026-10-08T15:50:52Z
 ---
@@ -77,8 +77,8 @@ None beyond the sieve count (3.7) in the proof.
 
 ## Bears on
 
-- [[../wiki/problems/integer_sequences/E1101/_index|Problem 1101]]: the
-  site's [Er81h] source. The problem calls $u$ good when, for every
+- [[../wiki/problems/integer_sequences/E1101/_index|Problem 1101]]:
+  erdosproblems.com's [Er81h] source. The problem calls $u$ good when, for every
   $\varepsilon>0$ and all large $x$,
   $\max_{a_k<x}(a_{k+1}-a_k)<(1+\varepsilon)t_x\prod_i(1-1/u_i)^{-1}$, the
   bound (3.5) read for $a_k<x$; the theorem gives a good sequence of primes

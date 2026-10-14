@@ -30,8 +30,8 @@ Soc. János Bolyai **18**, North-Holland (1978), 463--469, as [GuMa90] and
 [ABCHPT21] cite it, the paper in which the conjecture itself was stated; the
 volume carries a year and no month, so this page is dated to 1978 with a
 nominal day. The paper is not held, and its results are second-hand: the
-site's commentary states both cases; Janzer and Montgomery ([JaMo24] p. 1)
-state both; Bollobás ([Bo83] p. 203, a refereed note) attests the case in
+erdosproblems.com commentary states both cases; Janzer and Montgomery ([JaMo24]
+p. 1) state both; Bollobás ([Bo83] p. 203, a refereed note) attests the case in
 which all but at most two trees are stars.
 
 **Covers.** The instances of [[problems/extremal_graph_theory/E0743/_index|Problem 743]],
@@ -44,5 +44,5 @@ Every other family is not covered.
 **Standing.** Claimed: the paper is a conference proceedings paper, and no
 evidence that the volume was refereed is held, so it is not `refereed`
 under the rules of this corpus. The attestations by Bollobás and by Janzer
-and Montgomery, and the site's credit in the commentary of a problem the
-site labeled FALSIFIABLE, are context and not acceptance evidence.
+and Montgomery, and the erdosproblems.com credit in the commentary of a problem
+Bloom's catalog labeled FALSIFIABLE, are context and not acceptance evidence.

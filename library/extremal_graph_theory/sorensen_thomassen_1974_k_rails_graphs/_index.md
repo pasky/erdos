@@ -139,8 +139,8 @@ case analyses was checked. Nothing here is independently reviewed.
   The summary of results announces the degree condition of § 3 (based on
   Mader [8]), the truth of the conjecture at $k=5$ for 3-connected graphs
   (§ 4), the value $f_5(n)=[\frac83n]-3$ for $n\ge6$, $n\ne7,12$ (§ 5),
-  and (p. 144), quoted because its range is compared with the site's below:
-  "We also here show that for $k$ fixed,
+  and (p. 144), quoted because its range is compared with erdosproblems.com's
+  below: "We also here show that for $k$ fixed,
   $f_k(n)>\frac{k(k-1)-2}{2k-3}(n-k)$ for infinitely many $n$. This
   disproves the conjecture of Bollobás and Erdös for all $k\ge5$." The
   paper's $f_k(n)$ is the problem page's $k_m(n)$ at $m=k$; a $k$-rail
@@ -257,8 +257,8 @@ case analyses was checked. Nothing here is independently reviewed.
   $13,16,18,21,23,26,28,31$ and $13,15,18,21,23,26,29,31$, differing only at
   $n=7$ and $n=12$, which is why those two values are excluded.
 - Translation to the problem's notation. With $f_k(n)=k_k(n)$, Theorem 4
-  gives the site's "$k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$" (the
-  paper's range $n\ge6$, $n\ne7,12$ contains it). At the conjecture's
+  gives erdosproblems.com's "$k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$"
+  (the paper's range $n\ge6$, $n\ne7,12$ contains it). At the conjecture's
   parameters, $n=4p+1$ vertices and $10p+1$ edges, Theorem 4 gives
   $f_5(4p+1)=[\frac83(4p+1)]-3$, equal to $10p+1$ at $p=2$ and $p=3$
   ($f_5(9)=21$, $f_5(13)=31$) and exceeding it for $p\ge4$ ($f_5(17)=42$,
@@ -267,8 +267,8 @@ case analyses was checked. Nothing here is independently reviewed.
   $\frac{k(k-1)-2}{2k-3}$ exceeds $\frac k2$ by $\frac{k-4}{2(2k-3)}$, so for
   $k\ge5$ the bound contradicts the $\lim(1/n)f_k(n)=\frac12k$ that the
   conjecture would give (p. 143), which is the paper's disproof for all
-  $k\ge5$ (checks made here). The site's summary states the lower bound
-  "for every fixed $m\ge2$"; Corollary 2(a) is printed "For each $k\ge5$",
+  $k\ge5$ (checks made here). The erdosproblems.com summary states the lower
+  bound "for every fixed $m\ge2$"; Corollary 2(a) is printed "For each $k\ge5$",
   and the introduction's "for $k$ fixed" is followed by "for all $k\ge5$".
 - References (p. 159, page image), ten items, listed above.
 
@@ -288,27 +288,27 @@ structure only, and Lemma 5's proof is not printed. The introduction's
 reports on Leonard [6], [7] and Mader [9] are the authors' citations, not
 texts of those papers. Nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the site's key
-SoTh74. P. 143 (page image) defines a $k$-rail as "the union of $k$ paths
-each pair of which has exactly the endvertices in common", the
-vertex-disjoint reading of the problem's "disjoint paths", and states the
+**Bears on.** [[../wiki/problems/extremal_graph_theory/E0915/_index|#915]]: the
+erdosproblems.com key SoTh74. P. 143 (page image) defines a $k$-rail as "the
+union of $k$ paths each pair of which has exactly the endvertices in common",
+the vertex-disjoint reading of the problem's "disjoint paths", and states the
 conjecture as "every graph with $p(k-1)+1$ vertices and $\frac12(k-1)kp+1$
 or more edges contains a $k$-rail", the problem's statement with $m=k$ and
 $n=p$. Theorem 4 (p. 158), "For $n\ge6$, $n\ne7$, $n\ne12$,
-$f_5(n)=[\frac83n]-3$", is the site's "$k_5(n)=\lfloor\frac83n\rfloor-3$
-for $n\ge13$"; with $f_5(7)=16$ and $f_5(12)=28$ (the latter "without
-proof") it gives every value of $k_5(n)$ for $n\ge6$, and at the problem's
-parameters $k_5(4p+1)>10p+1$ for every $p\ge4$ (a check made here), the
-vertex-disjoint conjecture false at $m=5$ by this text. Corollary 2(a)
-(p. 156), "For each $k\ge5$, $f_k(n)>\frac{k(k-1)-2}{2k-3}(n-k)$ for
-infinitely many $n$", is the site's general lower bound, and with the
-introduction's "If true, ... $\lim_{n\to\infty}(1/n)f_k(n)=\frac12k$"
+$f_5(n)=[\frac83n]-3$", is erdosproblems.com's
+"$k_5(n)=\lfloor\frac83n\rfloor-3$ for $n\ge13$"; with $f_5(7)=16$ and
+$f_5(12)=28$ (the latter "without proof") it gives every value of $k_5(n)$ for
+$n\ge6$, and at the problem's parameters $k_5(4p+1)>10p+1$ for every $p\ge4$ (a
+check made here), the vertex-disjoint conjecture false at $m=5$ by this text.
+Corollary 2(a) (p. 156), "For each $k\ge5$, $f_k(n)>\frac{k(k-1)-2}{2k-3}(n-k)$
+for infinitely many $n$", is erdosproblems.com's general lower bound, and with
+the introduction's "If true, ... $\lim_{n\to\infty}(1/n)f_k(n)=\frac12k$"
 (p. 143) it is the paper's own disproof "for all $k\ge5$" (p. 144), so the
 vertex-disjoint reading's answer no for every $m\ge5$ rests on this
 text without [Le73] or [Ma73]. Theorem 3 (p. 149) with its Remark
-(p. 154) is the site's "the conjectured bound for 3-connected graphs": a
-3-connected graph with more than $\frac52(n-1)$ edges has a 5-rail, and
-the apex construction shows the bound sharp. Lemma 6 (p. 157) gives
+(p. 154) is erdosproblems.com's "the conjectured bound for 3-connected graphs":
+a 3-connected graph with more than $\frac52(n-1)$ edges has a 5-rail, and the
+apex construction shows the bound sharp. Lemma 6 (p. 157) gives
 $k_5(n)\le\lfloor\frac83n\rfloor-3$ for $n\ge6$, $n\ne7$, the upper half
 of Theorem 4; Theorem 2 and Corollary 1 (p. 147) are a degree condition, not
 an edge count, and § 3 enters the problem's results only through

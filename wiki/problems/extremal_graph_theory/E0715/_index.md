@@ -25,34 +25,35 @@ updated: 2026-10-08T03:43:48Z
 of degree $3$? Is there any $r$ such that every regular graph of degree $r$ must
 contain a regular subgraph of degree $3$?
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last edited 6
-October 2025). A regular graph of degree $r$ is an $r$-regular graph; a regular
-subgraph of degree $3$ is a $3$-regular subgraph, not required to span or to be
-induced. The statement has two questions: the first is the Berge--Sauer
-conjecture, the second asks for one value of $r$ that works. Read as the site
-words it, the second question holds at $r=3$ with no argument, since every
-$3$-regular graph is a $3$-regular subgraph of itself. This is a defect of the
-wording; no modified Statement is shown, so the standing judges the site's
-wording. Erdős's printed forms: the 1975 survey ([Er75], printed p. 11), "An
-older conjecture of Sauer and Berge states that every regular graph of valency
-four contains a regular subgraph of valency three. Chvatal just stated the
-following more general conjecture: Let $g$ be a graph every vertex of which has
-valency $\ge4$. Then $g$ contains a regular subgraph of valency three"; and the
-1981 Combinatorica paper ([Er81], Part III, item 3, p. 7 of the retyped copy),
-"Berge conjectured that every regular graph of valency 4 contains a subgraph of
-valency 3. As far as I know it is not known whether there is an $r$ for which
-every regular graph of valency $r$ contains a regular graph of valency 3", the
-second sentence being the second question in Erdős's words. Chvátal's
-minimum-degree form in the survey is a different statement, not the problem's;
-its status is not compiled here. Tashkinov's note restates Erdős's 1981 question
-as: find $r_0$ such that for every $r\ge r_0$ every $r$-regular graph has a
-$3$-regular subgraph. The note's Theorem 2 answers it with $r_0=3$: the case
-$r=3$ is trivial, $r=4$ is its Theorem 1, and the content is $r\ge5$.
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
+edited 6 October 2025). A regular graph of degree $r$ is an $r$-regular graph; a
+regular subgraph of degree $3$ is a $3$-regular subgraph, not required to span
+or to be induced. The statement has two questions: the first is the Berge--Sauer
+conjecture, the second asks for one value of $r$ that works. Read as Bloom's
+catalog words it, the second question holds at $r=3$ with no argument, since
+every $3$-regular graph is a $3$-regular subgraph of itself. This is a defect of
+the wording; no modified Statement is shown, so the standing judges the
+erdosproblems.com wording. Erdős's printed forms: the 1975 survey ([Er75],
+printed p. 11), "An older conjecture of Sauer and Berge states that every
+regular graph of valency four contains a regular subgraph of valency three.
+Chvatal just stated the following more general conjecture: Let $g$ be a graph
+every vertex of which has valency $\ge4$. Then $g$ contains a regular subgraph
+of valency three"; and the 1981 Combinatorica paper ([Er81], Part III, item 3,
+p. 7 of the retyped copy), "Berge conjectured that every regular graph of
+valency 4 contains a subgraph of valency 3. As far as I know it is not known
+whether there is an $r$ for which every regular graph of valency $r$ contains a
+regular graph of valency 3", the second sentence being the second question in
+Erdős's words. Chvátal's minimum-degree form in the survey is a different
+statement, not the problem's; its status is not compiled here. Tashkinov's note
+restates Erdős's 1981 question as: find $r_0$ such that for every $r\ge r_0$
+every $r$-regular graph has a $3$-regular subgraph. The note's Theorem 2 answers
+it with $r_0=3$: the case $r=3$ is trivial, $r=4$ is its Theorem 1, and the
+content is $r\ge5$.
 
 **Status.** Proved. Both questions are answered in the affirmative by
 Tashkinov's note [Ta82] (Dokl. Akad. Nauk SSSR 265 (1982), no. 1, 43--44, in
-Russian; the site's key is its English translation in Soviet Math. Dokl. 26
-(1982), 37--38). In this page's translation,
+Russian; the erdosproblems.com key is its English translation in Soviet Math.
+Dokl. 26 (1982), 37--38). In this page's translation,
 [[../library/extremal_graph_theory/tashkinov_1982_regular_subgraphs_regular_graphs/theorem_1|Theorem 1]]
 reads "Every 4-regular graph has a 3-regular subgraph", and
 [[../library/extremal_graph_theory/tashkinov_1982_regular_subgraphs_regular_graphs/theorem_2|Theorem 2]]
@@ -83,9 +84,9 @@ https://www.erdosproblems.com/715, accessed 2026-09-18.
   subgraphs of regular graphs). Dokl. Akad. Nauk SSSR 265 (1982), no. 1,
   43--44 (in Russian; presented 4 February 1982, received 19 February 1982;
   MR 0671639 and Zbl 0512.05056 per the Math-Net.Ru record). English
-  translation: Soviet Math. Dokl. 26 (1982), 37--38, the site's reference
-  text; not held. Theorems 1--3, p. 43; Theorem 5 and the proof pointers,
-  p. 44. Library home:
+  translation: Soviet Math. Dokl. 26 (1982), 37--38, the erdosproblems.com
+  reference text; not held. Theorems 1--3, p. 43; Theorem 5 and the proof
+  pointers, p. 44. Library home:
   [[../library/extremal_graph_theory/tashkinov_1982_regular_subgraphs_regular_graphs/_index|tashkinov_1982_regular_subgraphs_regular_graphs]]
   (Math-Net.Ru's scan); paged at
   [[../library/extremal_graph_theory/tashkinov_1982_regular_subgraphs_regular_graphs/theorem_1|theorem_1]]
@@ -94,8 +95,8 @@ https://www.erdosproblems.com/715, accessed 2026-09-18.
 - [AFK84] Alon, N., Friedland, S. and Kalai, G., Every 4-regular graph plus
   an edge contains a 3-regular subgraph. J. Combin. Theory Ser. B 37 (1984),
   no. 1, 92--93, doi:10.1016/0095-8956(84)90048-0 (received 25 July 1983;
-  Crossref record accessed 2026-09-18; the site's reference text gives the
-  journal, year and pages without the volume). Library home:
+  Crossref record accessed 2026-09-18; the erdosproblems.com reference text
+  gives the journal, year and pages without the volume). Library home:
   [[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/_index|alon_1984_every_regular_graph_plus_edge_contains]];
   paged at
   [[../library/extremal_graph_theory/alon_1984_every_regular_graph_plus_edge_contains/theorem_p92|theorem_p92]].
@@ -131,7 +132,7 @@ formal-proof field.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED, with the note that the answer is affirmative; last edited
 6 October 2025. The commentary, in this page's words, attributes the problem
 to Berge, or to Berge and Sauer; records the Alon--Friedland--Kalai theorem
@@ -152,11 +153,11 @@ Erdős in [3] formulated the following problem: find $r_0$ such that for all
 $r\ge r_0$ every $r$-regular graph has a 3-regular subgraph. The solution of
 this problem is given by Theorem 2. For every $r\ge3$ every $r$-regular graph
 has a 3-regular subgraph." Reference [3] is "Erdös P. -- Combinatorica, 1981,
-vol. 1", that is [Er81]. Theorem 1 answers the first question. Read as the site
-words it, the second question holds at $r=3$; Theorem 2 answers Tashkinov's
-formulation of it, for every $r\ge3$ (the case $r=3$ is trivial and $r=4$ is
-Theorem 1). The note also states Theorem 3, on the other generalization of
-Berge's conjecture: for every $r\ge6$ there is an $r$-regular graph with no
+vol. 1", that is [Er81]. Theorem 1 answers the first question. Read as Bloom's
+catalog words it, the second question holds at $r=3$; Theorem 2 answers
+Tashkinov's formulation of it, for every $r\ge3$ (the case $r=3$ is trivial and
+$r=4$ is Theorem 1). The note also states Theorem 3, on the other generalization
+of Berge's conjecture: for every $r\ge6$ there is an $r$-regular graph with no
 $(r-1)$-regular subgraph ($K_{3,3,3}$ the simplest example), "for $r=5$ the
 question remains open"; not the problem's question.
 
@@ -172,7 +173,7 @@ $r$-regular pseudograph, $r\ge3$ odd, contains an $(r-2)$-regular subgraph)
 and for even $r$ from Petersen's theorem and Theorem 4. A Doklady note prints
 no full proofs, and none is checked here. Conventions: the note treats
 "undirected finite graphs and pseudographs" and states Theorems 1 and 2 for
-graphs, so the site's regular graphs are covered.
+graphs, so erdosproblems.com's regular graphs are covered.
 
 Acceptance evidence: publication in the Academy's Doklady, presented by an
 academician on 4 February 1982, with reviews in Mathematical Reviews and
@@ -180,11 +181,11 @@ zbMATH (MR 0671639, Zbl 0512.05056 per the Math-Net.Ru record); the English
 translation in Soviet Math. Dokl.; the attestation in the refereed note
 [AFK84], p. 93: "The result mentioned in the title is related
 to the well known Berge--Sauer conjecture [2], which has recently been proved
-[4]"; and the site's curator, Thomas Bloom, who marked the problem proved and
-credits Tashkinov. What is not established here: the proofs, which
+[4]"; and the erdosproblems.com curator, Thomas Bloom, who marked the problem
+proved and credits Tashkinov. What is not established here: the proofs, which
 the note only sketches; the English translation's text.
 
-**The 1984 note and the site's $r\ge5$ sentence.** [AFK84], p. 92: "Let
+**The 1984 note and erdosproblems.com's $r\ge5$ sentence.** [AFK84], p. 92: "Let
 $G=(V,E)$ be a 4-regular loopless graph plus an edge with
 $|V|=n$ vertices and $|E|=m=2n+1$ edges. ($G$ may contain multiple edges.)
 ... Chevalley's classical theorem implies that there exists
@@ -196,11 +197,11 @@ omitted." The proof of (1) (p. 93, six lines): the system
 $\sum_ia_j^{(i)}x_i^2\equiv0\pmod3$ has $n$ quadratic congruences in $m>2n$
 unknowns and the trivial solution, so Chevalley's theorem gives a nontrivial
 one, whose support is $I$. Read depth: claims checked, and the proof of (1)
-is followed in full. A site-versus-source note: the note prints no sentence
-about $r$-regular graphs with $r\ge5$; the deduction to $r\ge5$ is the
-site's own, and the note says only that "more general graph theoretical
-results" are in the companion paper [AFK84b], not held. Tashkinov's Theorem 2
-covers every $r\ge5$ directly.
+is followed in full. An erdosproblems.com-versus-source note: the note prints no
+sentence about $r$-regular graphs with $r\ge5$; the deduction to $r\ge5$ is
+erdosproblems.com's own, and the note says only that "more general graph
+theoretical results" are in the companion paper [AFK84b], not held. Tashkinov's
+Theorem 2 covers every $r\ge5$ directly.
 
 **Origins in Erdős's words.** The survey [Er75] (printed p. 11) states the
 Sauer--Berge conjecture and Chvátal's more general
@@ -210,15 +211,15 @@ and Szemerédi's problem on spanned regular subgraphs (the
 of Problem 182). The 1981 paper [Er81] (copy p. 7) states the
 Erdős--Sauer function $F(n;r)$, the conjecture $F(n,r)=O(n^{1+\varepsilon})$,
 Berge's conjecture and the question about $r$ quoted above; Tashkinov's note
-cites this paper for both. The site attributes the problem to Berge, or to
-Berge and Sauer, following the two attributions; [AFK84] calls it "the well
+cites this paper for both. erdosproblems.com attributes the problem to Berge, or
+to Berge and Sauer, following the two attributions; [AFK84] calls it "the well
 known Berge--Sauer
 conjecture" and cites Bondy and Murty's book (p. 246) for it.
 
 **Search scope.** None of the routes below found a dispute
 of the theorems or a change of status.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory and tree (no file 715); the community
   database entry (recorded under Formalization).
 - Math-Net.Ru: the record `dan45417` (the bibliographic data above) and its
@@ -238,8 +239,8 @@ held: the Soviet Math. Dokl. translation, [AFK84b], [CFST79], [BoMu76].
 sketches its proofs (Theorem 4 and Lemmas 1--5) without printing them, and
 none is checked here; the one argument followed in full is the six-line
 proof of (1) in [AFK84]. (2) The Russian text was translated here; the English
-translation in Soviet Math. Dokl. was not compared. (3) The site's $r\ge5$
-deduction from [AFK84] is not printed in the note; $r\ge5$ rests on
+translation in Soviet Math. Dokl. was not compared. (3) erdosproblems.com's
+$r\ge5$ deduction from [AFK84] is not printed in the note; $r\ge5$ rests on
 Tashkinov. (4) There is no Lean statement of the problem. The Linked library
 material below is derived from the library links and is not progress.
 

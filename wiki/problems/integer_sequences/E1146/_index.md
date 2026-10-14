@@ -28,11 +28,11 @@ Is $B=\{2^m3^n : m,n\geq 0\}$ an essential component?
 **Formulation.** The sum $A+B$ is read as in Schnirelmann's theory, with $0$
 adjoined to each set:
 $A\oplus B=\{a+b:a\in A\cup\{0\},\ b\in B\cup\{0\}\}$. That is the
-setting of Ruzsa's survey, the site's source. Its inequality of Erdős, from
-which it deduces that every basis is an essential component, is stated for a
-basis containing $0$. A reply in the site's thread (31 May 2026) gives the same
-reading. The
-[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/dac603cc93fba249d6e9dbeba3e131ec8b79ac13/FormalConjectures/ErdosProblems/1146.lean)
+setting of Ruzsa's survey, the erdosproblems.com source. Its inequality of
+Erdős, from which it deduces that every basis is an essential component, is
+stated for a basis containing $0$. A reply in the erdosproblems.com thread (31
+May 2026) gives the same reading. The [formal-conjectures
+statement](https://github.com/google-deepmind/formal-conjectures/blob/dac603cc93fba249d6e9dbeba3e131ec8b79ac13/FormalConjectures/ErdosProblems/1146.lean)
 has used it since its correction of 10 June 2026. So read, the question is
 open.
 
@@ -62,7 +62,7 @@ https://www.erdosproblems.com/1146.
   [[../library/additive_combinatorics/ruzsa_1999_erdos_integers/question_p147|question_p147]].
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999); the
-  site's source key for this problem is [Va99, 1.19].
+  erdosproblems.com source key for this problem is [Va99, 1.19].
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1146.lean).

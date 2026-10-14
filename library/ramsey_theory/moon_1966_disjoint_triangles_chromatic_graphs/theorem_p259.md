@@ -58,7 +58,7 @@ $f(n,3)=2+\mathrm{rem}(n-2,3)$, that is $2$, $3$ and $4$ for
 $n\equiv2$, $0$ and $1\pmod3$, for every $n\ge4$ other than $5$ (the problem
 takes $k<n$). This is the $k=3$ case of that theorem's formula, which the
 theorem itself asserts only for sufficiently large $n$. The maximum over $n\ne5$
-is $4$, the site's "$f(3)=4$, at least for $n\geq8$".
+is $4$, erdosproblems.com's "$f(3)=4$, at least for $n\geq8$".
 
 **Source.** J. W. Moon, Disjoint triangles in chromatic graphs, Math. Mag.
 39 (1966), no. 5, 259--261; the Theorem, the definitions and facts A and B
@@ -111,9 +111,9 @@ corpus reads it off the $k=3$ case of the Figure 6 coloring of
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E1015/_index|Problem 1015]]: the $k=3$ result the site
-  credits to the note. Part (2) is the sentence Erdős restates in item 9 of
-  the 1971 problem paper
+- [[../wiki/problems/ramsey_theory/E1015/_index|Problem 1015]]: the $k=3$ result
+  erdosproblems.com credits to the note. Part (2) is the sentence Erdős restates
+  in item 9 of the 1971 problem paper
   ([[extremal_graph_theory/erdos_1971_unsolved_problems_graph_theory_combinatorial_analysis/_index|printed p. 100]]);
   part (1) bounds the uncovered vertices by $3$ for $n\equiv0$ and by $4$
   for $n\equiv1\pmod3$, so the theorem leaves at most four uncovered for

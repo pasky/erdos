@@ -29,10 +29,10 @@ Are there infinitely many $n$ such that, for all $m<n$, we have $m+\omega(m)
 Can one show that there exists an $\epsilon>0$ such that there are infinitely
 many $n$ where $m+\epsilon \omega(m)\leq n$ for all $m<n$?
 
-**Status.** Open, the site's label (page last edited 17 April 2026). The derived
-standing stays open, because the first question has no claim. The site's
-commentary credits Lau [La26] with a positive answer to the second question and
-with a weaker version of the first. The partial claim page
+**Status.** Open, the erdosproblems.com label (page last edited 17 April 2026).
+The derived standing stays open, because the first question has no claim. The
+erdosproblems.com commentary credits Lau [La26] with a positive answer to the
+second question and with a weaker version of the first. The partial claim page
 [[problems/arithmetic_functions/E0413/claims/2026_04_16_lau|Lau 2026]] records
 the result for the second question.
 
@@ -67,31 +67,31 @@ https://www.erdosproblems.com/413.
 
 ## Current assessment
 
-**Open; one pending partial claim.** The site formulation above (page last
-edited 17 April 2026) asks two questions. The first is whether $\omega$ has
-infinitely many barriers, Erdős's name in [Er79] for an $n$ with
+**Open; one pending partial claim.** The erdosproblems.com formulation above
+(page last edited 17 April 2026) asks two questions. The first is whether
+$\omega$ has infinitely many barriers, Erdős's name in [Er79] for an $n$ with
 $m+\omega(m)\le n$ for all $m<n$; the second weakens the barrier condition
 to $m+\epsilon\,\omega(m)\le n$ for some fixed $\epsilon>0$. The parts in the
 frontmatter are these two questions. Lau's Theorem 1.3 [La26], infinitely
 many $n$ with $\Omega(n-k)\le C\log k$ for every $1<k<n$, answers the second
 question yes with $\epsilon=1/(C\log2)$, as the claim page
 [[problems/arithmetic_functions/E0413/claims/2026_04_16_lau|Lau 2026]]
-derives; the preprint has no journal record known here, and the site's
-commentary crediting it on a problem labeled OPEN is not acceptance, so the
-claim is pending. The paper's Corollary 1.4, $\omega(n-k)\le k$ for all
-sufficiently large $k<n$, is the weaker version of the first question that
-the site's commentary records; it settles no part. The first question is
-open: the site's commentary reports that Erdős believed $\omega$ and
-$\Omega$ both have infinitely many barriers, that he proved in [Er79d] that
-$F(n)=\prod k_i$ for $n=\prod p_i^{k_i}$ has a set of barriers of positive
-density, that Selfridge found $99840$ to be the largest barrier of $\Omega$
-below $10^5$, and that Erdős and Graham [ErGr80] saw the problem as a route
-to showing that the iteration $n\mapsto n+\omega(n)$ settles into a single
-sequence from every start, with sieve methods not yet strong enough. Guy's
-B8 [Gu04] lists the barriers of $\omega$ up to $30$, which are the OEIS
-sequence A005236 the site cites. The site's thread and proof-claim tab
-carried no proof claim as of 2026-10-06, and no other result on the problem
-is known here. Proof coverage: nothing is independently reviewed in this
+derives; the preprint has no journal record known here, and the
+erdosproblems.com commentary crediting it on a problem labeled OPEN is not
+acceptance, so the claim is pending. The paper's Corollary 1.4,
+$\omega(n-k)\le k$ for all sufficiently large $k<n$, is the weaker version of
+the first question that the erdosproblems.com commentary records; it settles no
+part. The first question is open: the erdosproblems.com commentary reports that
+Erdős believed $\omega$ and $\Omega$ both have infinitely many barriers, that he
+proved in [Er79d] that $F(n)=\prod k_i$ for $n=\prod p_i^{k_i}$ has a set of
+barriers of positive density, that Selfridge found $99840$ to be the largest
+barrier of $\Omega$ below $10^5$, and that Erdős and Graham [ErGr80] saw the
+problem as a route to showing that the iteration $n\mapsto n+\omega(n)$ settles
+into a single sequence from every start, with sieve methods not yet strong
+enough. Guy's B8 [Gu04] lists the barriers of $\omega$ up to $30$, which are the
+OEIS sequence A005236 erdosproblems.com cites. The erdosproblems.com thread and
+proof-claim tab carried no proof claim on 2026-10-06, and no other result on the
+problem is known here. Proof coverage: nothing is independently reviewed in this
 corpus.
 <!-- BEGIN problem library links -->
 

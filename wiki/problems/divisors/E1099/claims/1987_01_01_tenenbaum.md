@@ -54,8 +54,8 @@ along all three sequences, which it calls the second part of Erdős's
 conjecture; in particular $\liminf_n h_\alpha(n)\ll_\alpha1$. The paper
 attributes the reduction it builds on, its Théorème 2, to Vose, and derives
 Théorème 1 from it by exhibiting admissible sequences for the three families.
-The site's commentary credits Vose with the main question and reports the
-factorial and least-common-multiple cases as unsettled; this theorem settles
+The erdosproblems.com commentary credits Vose with the main question and reports
+the factorial and least-common-multiple cases as unsettled; this theorem settles
 them. The journal record gives the year and issue and no day, so this page
 carries the first of January.
 
@@ -70,8 +70,8 @@ Théorème 1 is unchanged.
 **Depends on.** No page of this wiki.
 
 **Acceptance.** The paper is a refereed article in the Annales de l'Institut
-Fourier, which is the `refereed` evidence. The site's problem page credits Vose
-alone. A comment in the problem's thread on 2 July 2026 points out that
-Tenenbaum's paper also solves the problem. No curator credit of the paper is
-recorded, so no `reviewed` evidence is listed. No proof has been reproduced
+Fourier, which is the `refereed` evidence. The erdosproblems.com problem page
+credits Vose alone. A comment in the problem's thread on 2 July 2026 points out
+that Tenenbaum's paper also solves the problem. No curator credit of the paper
+is recorded, so no `reviewed` evidence is listed. No proof has been reproduced
 here.

@@ -49,11 +49,11 @@ Wenger, Extremal graphs with no $C_4$'s, $C_6$'s or $C_{10}$'s, J. Comb.
 Theory Ser. B 52 (1991), 113--116.
 
 Observations made here. The survey's exponent for [178] is $1+2/(3k-3)$
-without a parity term, where the site writes $1+2/(3k-3+\nu)$ with $\nu=1$
-for even $k$; the paper itself is not held, so the two forms are recorded
-and not reconciled. The survey attributes the problem to the 1938 paper
-[70], whose graph theorem concerns $C_4$ only; the site's sources for the
-general question are Erdős's 1964, 1971 and 1974 papers.
+without a parity term, where erdosproblems.com writes $1+2/(3k-3+\nu)$ with
+$\nu=1$ for even $k$; the paper itself is not held, so the two forms are
+recorded and not reconciled. The survey attributes the problem to the 1938 paper
+[70], whose graph theorem concerns $C_4$ only; the erdosproblems.com sources for
+the general question are Erdős's 1964, 1971 and 1974 papers.
 
 **Source.** F. R. K. Chung, *Open problems of Paul Erdős in graph theory*,
 J. Graph Theory 25 (1997), 3--36; Problem (35) on p. 9 of the
@@ -81,7 +81,7 @@ None.
 
 - [[../wiki/problems/extremal_graph_theory/E0572/_index|Problem 572]]: a 1997 survey
   statement of the problem with the lower bounds then known, a second-hand
-  attestation of the Lazebnik--Ustimenko--Woldar bound (the site's [LUW95],
-  not held) in the form $n^{1+2/(3k-3)}$, and the record that the conjecture
-  was open except for $C_4$, $C_6$ and $C_{10}$; named in the problem's
-  discussion thread as a survey of the conjecture.
+  attestation of the Lazebnik--Ustimenko--Woldar bound (erdosproblems.com's
+  [LUW95], not held) in the form $n^{1+2/(3k-3)}$, and the record that the
+  conjecture was open except for $C_4$, $C_6$ and $C_{10}$; named in the
+  problem's discussion thread as a survey of the conjecture.

@@ -32,16 +32,17 @@ $$
 where $P_d$ ranges over all finite arithmetic progressions with common
 difference $d$.
 
-**Status.** Open. This is the site's label as accessed on 2026-09-04. The
-problem's proof-claim tab was empty. No full claim
-exists, and the standing derives from the claim pages.
+**Status.** Open. This is the erdosproblems.com label as accessed on 2026-09-04.
+The problem's proof-claim tab was empty. No full claim exists, and the standing
+derives from the claim pages.
 
-The site's commentary records $h(d)\ll d!$ from Cantor, Erdős, Schreiber and
-Straus, and $h(d)\to\infty$ from van der Waerden's theorem. It also records
-Beck's $h(d)\le d^{8+\epsilon}$ for every $\epsilon>0$ [Be17] and Roth's
-$h(d)\gg d^{1/2}$ [Ro64]. Erdős's 1966 report of the construction (printed p.
-137) states its bound as $L(d)<c^dd!$. This is weaker than the site's $d!$ by
-the factor $c^d$.
+The erdosproblems.com commentary records $h(d)\ll d!$ from Cantor, Erdős,
+Schreiber and Straus, and $h(d)\to\infty$ from van der Waerden's theorem. It
+also records Beck's $h(d)\le d^{8+\epsilon}$ for every $\epsilon>0$ [Be17] and
+Roth's $h(d)\gg d^{1/2}$ [Ro64]. Erdős's 1966 report of the construction
+(printed p.
+137) states its bound as $L(d)<c^dd!$. This is weaker than erdosproblems.com's
+$d!$ by the factor $c^d$.
 
 The bounds are recorded as partial claims. The construction is on
 [[problems/discrepancy/E0177/claims/1966_01_01_cantor_erdos_schreiber_straus|Cantor, Erdős, Schreiber and Straus 1966]]
@@ -53,9 +54,9 @@ refereed publication alone).
 
 A claim of 19 September 2026,
 [[problems/discrepancy/E0177/claims/2026_09_19_korsky|Korsky 2026]], would
-improve Beck's exponent to $5/2+2\sqrt2$. It was submitted on the site's
-proof-claim tab of Problem 178 and is recorded here as a partial claim. It is
-unreviewed.
+improve Beck's exponent to $5/2+2\sqrt2$. It was submitted on the
+erdosproblems.com proof-claim tab of Problem 178 and is recorded here as a
+partial claim. It is unreviewed.
 
 **Source.** [erdosproblems.com/177](https://www.erdosproblems.com/177), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #177,
@@ -75,13 +76,13 @@ https://www.erdosproblems.com/177.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-04).** The statement above;
-OPEN, with no last-edited date shown. The commentary, in this page's words:
-Cantor, Erdős, Schreiber and Straus [Er66] proved that $h(d)\ll d!$ is
-attainable; van der Waerden's theorem implies $h(d)\to\infty$; Beck [Be17]
-showed that $h(d)\le d^{8+\epsilon}$ is attainable for every $\epsilon>0$;
-and Roth's discrepancy lower bound [Ro64] implies $h(d)\gg d^{1/2}$. The
-proof-claim tab was empty.
+**The question (erdosproblems.com formulation, accessed 2026-09-04).** The
+statement above; OPEN, with no last-edited date shown. The commentary, in this
+page's words: Cantor, Erdős, Schreiber and Straus [Er66] proved that
+$h(d)\ll d!$ is attainable; van der Waerden's theorem implies $h(d)\to\infty$;
+Beck [Be17] showed that $h(d)\le d^{8+\epsilon}$ is attainable for every
+$\epsilon>0$; and Roth's discrepancy lower bound [Ro64] implies
+$h(d)\gg d^{1/2}$. The proof-claim tab was empty.
 
 **Claims.** The four claim pages named under Status record the bounds. The
 construction of 1966 gives $h(d)<c^dd!$, so $h(d)$ is finite for every $d$;
@@ -89,7 +90,7 @@ Erdős's report prints no proof beyond the antisymmetry remark. Roth's 1964
 theorem gives, inside $[1,N]$, a progression of difference at most $N^{1/2}$
 with discrepancy of order $N^{1/4}$, so no coloring has
 $\max_{P_d}\lvert\sum f\rvert=O(d^p)$ for $p<1/2$; the inference to $h(d)$
-is the site's. Beck's 2017 chapter gives $h(d)\le d^{8+\epsilon}$, and
+is erdosproblems.com's. Beck's 2017 chapter gives $h(d)\le d^{8+\epsilon}$, and
 Korsky's manuscript of September 2026 claims $h(d)\ll d^{5/2+2\sqrt2}$ by a
 weighted refinement of Beck's method, with the mathematical insights
 attributed by its author to GPT Astra. So $d^{1/2}\ll h(d)\ll d^{8+\epsilon}$

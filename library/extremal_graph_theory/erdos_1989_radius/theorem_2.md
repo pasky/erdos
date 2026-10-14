@@ -57,5 +57,5 @@ None outside the paper.
 - [[../wiki/problems/extremal_graph_theory/E0612/_index|Problem 612]]: part (i)
   gives $\operatorname{diam}G\le2n/\delta+O(1)$ for connected triangle-free
   graphs with $\delta\ge2$, which is part (ii) of the problem at $r=1$ (the
-  case the site records as $2r+1=3$); the printed Conjecture requires $r>1$
-  and so excludes this case.
+  case erdosproblems.com records as $2r+1=3$); the printed Conjecture requires
+  $r>1$ and so excludes this case.

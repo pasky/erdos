@@ -62,18 +62,18 @@ arXiv:2603.29961; this project has not verified the proof. Library home
 **Covers.** The basis part (the second question) alone: the existence of a
 basis of order $2$ that no bipartition splits into two self-sumsets with
 bounded gaps. The paper does not address the first question in any density
-reading; the site's commentary credits DeepMind with its answers for upper
-density and for an existing limit, which are on the
+reading; the erdosproblems.com commentary credits DeepMind with its answers for
+upper density and for an existing limit, which are on the
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|DeepMind claim page]].
 
 **Depends on.** Nothing in this wiki: the construction and its proof are
 self-contained.
 
-**Acceptance.** Reviewed: the site's curator, Thomas Bloom, labeled the problem
-SOLVED (LEAN), which settles both parts. The problem page's commentary (page
-last edited 2 May 2026; empty proof-claim tab) credits this paper, as [APSSV26],
-and DeepMind with independently constructed bases that answer the second
-question (the basis part) yes.
+**Acceptance.** Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled
+the problem SOLVED (LEAN), which settles both parts. The problem page's
+commentary (page last edited 2 May 2026; empty proof-claim tab) credits this
+paper, as [APSSV26], and DeepMind with independently constructed bases that
+answer the second question (the basis part) yes.
 
 Not refereed: the paper is arXiv:2603.29961, with v1 of 2026-03-31 and v2 of
 2026-04-02, and it has no journal publication. The library card's reading of the

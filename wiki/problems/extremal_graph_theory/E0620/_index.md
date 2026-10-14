@@ -25,8 +25,8 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** If $G$ is a graph on $n$ vertices without a $K_4$ then how large
 a triangle-free induced subgraph must $G$ contain?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (the page shows no
-last-edited date). Write $f(n)$ for the largest $m$ such that every
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (the page
+shows no last-edited date). Write $f(n)$ for the largest $m$ such that every
 $K_4$-free graph on $n$ vertices has $m$ vertices spanning no triangle; the
 question asks for the order of $f(n)$. This is the Erdős--Rogers function
 $f_{3,4}(n)$ of Krivelevich's paper, defined there (p. 1) as
@@ -41,26 +41,26 @@ $h_r(G)=\max\{|W|:W\subset V(G),\ \mathrm{cl}(G[W])\le r-1\}$, again in terms
 of vertex induced subgraphs), and the $f_3(n)$ of Mubayi and Verstraete,
 defined (p. 1) as "the maximum integer $m$ such that every $n$-vertex
 $K_{s+1}$-free graph has a $K_s$-free subgraph with $m$ vertices". The
-site's wording, like Krivelevich's and Bollobás and Hind's, is about
+erdosproblems.com wording, like Krivelevich's and Bollobás and Hind's, is about
 induced subgraphs; Mubayi and Verstraete's
 definition says "subgraph", but their construction is stated for induced
 subgraphs ("we require for $s\ge3$ an $n$-vertex $K_{s+1}$-free graph $H$
 such that every induced subgraph of $H$ with subtantially [sic] more than
 about $\sqrt n\log n$ vertices contains a copy of $K_s$", Section 4, p. 4), so
-their upper bound applies to the site's function; with "subgraph" read
+their upper bound applies to erdosproblems.com's function; with "subgraph" read
 literally the function would be trivial, since every vertex set spans an
-edgeless subgraph. The site's account uses the same $f(n)$ and the same
+edgeless subgraph. erdosproblems.com's account uses the same $f(n)$ and the same
 induced reading. It is the wording of Problem 3 of Erdős, Gallai and Tuza
 (1992), quoted below, and of Erdős and Rogers's 1962 Theorem in the case
 $k=4$.
 
-**Status.** OPEN, the site's label, with the site's note that no finite
-computation can settle the question. The derived standing departs from the
-label: it is claimed, with the value answered, because a pending full claim
-answers the question. A preprint of 17 July 2026 by Morris, Sahasrabudhe and
-Verstraëte claims $f(n)=\Theta(\sqrt{n\log n})$, which would determine the order
-asked for up to constants. It is unrefereed and not held in the library, and it
-is recorded as claimed on
+**Status.** OPEN, the erdosproblems.com label, with the erdosproblems.com note
+that no finite computation can settle the question. The derived standing departs
+from the label: it is claimed, with the value answered, because a pending full
+claim answers the question. A preprint of 17 July 2026 by Morris, Sahasrabudhe
+and Verstraëte claims $f(n)=\Theta(\sqrt{n\log n})$, which would determine the
+order asked for up to constants. It is unrefereed and not held in the library,
+and it is recorded as claimed on
 [[problems/extremal_graph_theory/E0620/claims/2026_07_17_morris_sahasrabudhe_verstraete|its claim page]].
 The bounds that refereed papers print for $f(n)$ leave a factor of order
 $(\log n\log\log n)^{1/2}$:
@@ -77,22 +77,22 @@ explicit constant $2^{100s}$ given after the theorem (Bull. Lond. Math. Soc. 57
 (2025), 582--598, refereed; the library holds the arXiv v2). The lower bound
 rests on Shearer's (1995) Corollary 1 applied to a vertex neighborhood. Equation
 (1) of Mubayi and Verstraete's paper records this deduction in the form
-$c\sqrt{n\log n}/\log\log n$, which the site prints. With the degree threshold
-balanced, the same argument gives the larger $c\sqrt{n\log n/\log\log n}$. This
-bound was first printed with this argument by Dudek and Mubayi [DM14], whom
-Mubayi and Verstraete and Gishboliner, Janzer and Sudakov credit. It is recorded
-as an accepted partial claim on
+$c\sqrt{n\log n}/\log\log n$, which erdosproblems.com prints. With the degree
+threshold balanced, the same argument gives the larger
+$c\sqrt{n\log n/\log\log n}$. This bound was first printed with this argument by
+Dudek and Mubayi [DM14], whom Mubayi and Verstraete and Gishboliner, Janzer and
+Sudakov credit. It is recorded as an accepted partial claim on
 [[problems/extremal_graph_theory/E0620/claims/2013_08_21_dudek_mubayi|its claim page]],
 and the deduction is written out on the corollary's result page.
 
 No refereed source determining the order was found in the search whose scope the
 Current assessment records. The July 2026 preprint that the search found is the
-claim above, which the site had not adopted. This is a bounded negative finding
-about the refereed record, not a certificate of openness. Refereed results give
-more than they print. Corollary 2 of [JMRS21] yields $f(n)\ge c\sqrt{n\log n}$
-in one line, as the Current assessment records, so the gap they leave is of
-order $(\log n)^{1/2}$. This is subject to the unexamined claim of a gap in that
-paper's Theorem 1, recorded on
+claim above, which erdosproblems.com had not adopted. This is a bounded negative
+finding about the refereed record, not a certificate of openness. Refereed
+results give more than they print. Corollary 2 of [JMRS21] yields
+$f(n)\ge c\sqrt{n\log n}$ in one line, as the Current assessment records, so the
+gap they leave is of order $(\log n)^{1/2}$. This is subject to the unexamined
+claim of a gap in that paper's Theorem 1, recorded on
 [[problems/extremal_graph_theory/E0610/_index|Problem 610]]. An accepted result
 gives the same bound without that theorem: Theorem 1.1 of [OAI26], accepted with
 formalized evidence on
@@ -222,24 +222,25 @@ Problem #620, https://www.erdosproblems.com/620, accessed 2026-09-18.
   Accepted with formalized evidence on
   [[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|Problem 802's claim page]].
 - [Er99] Erdős, Paul, A selection of problems and results in combinatorics.
-  Combin. Probab. Comput. 8 (1999), 1--6. Site source key; not held.
+  Combin. Probab. Comput. 8 (1999), 1--6. erdosproblems.com source key; not
+  held.
 
 **Formalization.** None. Formal-conjectures had no file
-`ErdosProblems/620.lean` on 2026-09-18, the site's page shows no formalized
-statement, and the community database (teorth/erdosproblems, 2026-09-18)
-records the problem open (last changed 31 August 2025), not
+`ErdosProblems/620.lean` on 2026-09-18, the erdosproblems.com page shows no
+formalized statement, and the community database (teorth/erdosproblems,
+2026-09-18) records the problem open (last changed 31 August 2025), not
 formalized and without a formal proof.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above, labeled open. The site's commentary traces the question to Erdős and
-Rogers [ErRo62], gives it its usual name, and records the history of bounds
-on $f(n)$ through [BoHi91], [Kr94] and [Wo13] to the two bounds that stand
-in the refereed record, Shearer's [Sh95] below and Mubayi and Verstraete's
-[MuVe24] above; each of those bounds is stated with its source under Known
-results. The thread holds two comments, one described below and the other
-under Claims (2026); the proof-claim tab is empty; the community database
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above, labeled open. The erdosproblems.com commentary traces the
+question to Erdős and Rogers [ErRo62], gives it its usual name, and records the
+history of bounds on $f(n)$ through [BoHi91], [Kr94] and [Wo13] to the two
+bounds that stand in the refereed record, Shearer's [Sh95] below and Mubayi and
+Verstraete's [MuVe24] above; each of those bounds is stated with its source
+under Known results. The thread holds two comments, one described below and the
+other under Claims (2026); the proof-claim tab is empty; the community database
 record says open, not formalized.
 
 **Origin.** The
@@ -263,8 +264,9 @@ large $n$. The paper's introduction (p. 702) states the result as
 $h(k,l)>l^{1+c_k}$, where $h(k,l)$ is the least number of vertices forcing a
 $K_k$ or $l$ vertices with no $K_{k-1}$, credits the problem to Hajnal
 ("oral communication"), and the construction is geometric (points of a
-high-dimensional sphere joined when far apart, Section 2's Lemma). The
-site's other source key, [EGT92], poses the question in the site's words:
+high-dimensional sphere joined when far apart, Section 2's Lemma).
+erdosproblems.com's other source key, [EGT92], poses the question in
+erdosproblems.com's words:
 [[../library/extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_3|Problem 3]]
 (printed p. 281): "How large triangle-free induced subgraphs does a
 $K_4$-free graph $G$ on $n$ vertices contain?", posed (p. 280) in connection
@@ -328,7 +330,7 @@ only the paragraph proving [BoHi91]'s Theorem 1 and the paragraph proving
 - [[../library/extremal_graph_theory/wolfovitz_2013_k_4_free_graphs_without_large_induced_triangle_free_subgraphs/theorem_1_1|Wolfovitz, Theorem 1.1]]
   (2013, p. 623): "For every sufficiently large $n$,
   $f_{3,4}(n)\le n^{1/2}(\ln n)^{120}$", with $f_{3,4}(n)$ defined in the
-  abstract through induced subgraphs, the site's $f(n)$; the paper's
+  abstract through induced subgraphs, erdosproblems.com's $f(n)$; the paper's
   logarithm is the natural one, and [MuVe24] (p. 1, spelling the name
   "Wolfovits") quotes it as $f_3(n)=O(\sqrt n(\log n)^{120})$, [GJS25]
   (p. 2) as $f_{3,4}(n)\le n^{1/2+o(1)}$. It is proved from Theorem 1.2
@@ -359,7 +361,7 @@ only the paragraph proving [BoHi91]'s Theorem 1 and the paragraph proving
   (p. 1): "For each fixed $s\ge3$, $f_s(n)=O(\sqrt n\log n)$", with the
   sentence after it: "from the proof one may obtain
   $f_s(n)\le2^{100s}\sqrt n\log n$ for $n\ge2$, which shows
-  $f_s(n)=n^{1/2+o(1)}$ for $s=o(\log n)$." At $s=3$ this is the site's
+  $f_s(n)=n^{1/2+o(1)}$ for $s=o(\log n)$." At $s=3$ this is erdosproblems.com's
   upper bound, $f(n)\le2^{300}\sqrt n\log n$. The construction (Sections
   3--5) samples the Hermitian unital, takes the intersection graph of its
   lines, and removes $K_{s+1}$'s by a random coloring and random sparsening,
@@ -379,24 +381,24 @@ only the paragraph proving [BoHi91]'s Theorem 1 and the paragraph proving
   triangle-free neighborhood on $D$ vertices, and otherwise Corollary 1 at
   $r=4$ gives an independent set of size $\gg n\ln D/(D\ln\ln D)$, so
   $f(n)\ge\min\{D,\ c\,n\ln D/(D\ln\ln D)\}$. With $D=\sqrt{n\log n}$ this
-  is [MuVe24]'s $f(n)=\Omega(\sqrt{n\log n}/\log\log n)$, the form the site
-  prints; with $D=\sqrt{n\log n/\log\log n}$ it is the
+  is [MuVe24]'s $f(n)=\Omega(\sqrt{n\log n}/\log\log n)$, the form
+  erdosproblems.com prints; with $D=\sqrt{n\log n/\log\log n}$ it is the
   $\Omega(n^{1/2}(\log n)^{1/2}/(\log\log n)^{1/2})$ that [GJS25] (p. 2)
   print as "observed in [10]", their [10] being [DM14], which prints it with
   this argument (arXiv p. 2), larger by a factor $(\log\log n)^{1/2}$ and
   the best lower bound a refereed paper prints for $f(n)$ (Corollary 2 of
   [JMRS21] gives more, as recorded under Claims (2026)). Both follow from the
   corollary as printed (checked on the result page); the two secondary
-  statements differ only in the choice of threshold, and the site follows
-  [MuVe24]. Acceptance: Random Structures and Algorithms is refereed. The
-  one-paragraph proof of Corollary 1 is followed in full on the result page;
+  statements differ only in the choice of threshold, and erdosproblems.com
+  follows [MuVe24]. Acceptance: Random Structures and Algorithms is refereed.
+  The one-paragraph proof of Corollary 1 is followed in full on the result page;
   the proofs of Theorem 1 and Lemma 1 behind it are checked for structure
   only.
 
 The two bounds that stand, [DM14]'s below (with Shearer's Corollary 1 as its
 input) and [MuVe24]'s above, are the refereed results with claim pages. The
-superseded refereed bounds the site credits, those of [BoHi91], [Kr94] and
-[Wo13], have none: each is improved on its side by one of those two, and
+superseded refereed bounds erdosproblems.com credits, those of [BoHi91], [Kr94]
+and [Wo13], have none: each is improved on its side by one of those two, and
 each is stated above with its library result page.
 
 **The lower bound through Problem 802.**
@@ -447,11 +449,11 @@ source of this page's derived standing; it is not accepted.
   behind the corollary. The route through [OAI26] above reaches the same bound
   without that theorem. The new part of the claim is the upper bound. A
   discussion comment of 7 September 2026 reports the preprint as a solution;
-  the site's label was OPEN (accessed 2026-09-18) and the page carried no
-  update note. The preprint is
-  unrefereed (no journal reference on the arXiv record on 2026-10-07 and no
-  Crossref record on 2026-09-18) and not held; no review or acceptance
-  evidence is known. Recorded as a pending full claim on
+  the erdosproblems.com label was OPEN (accessed 2026-09-18) and the page
+  carried no update note. The preprint is unrefereed (no journal reference on
+  the arXiv record on 2026-10-07 and no Crossref record on 2026-09-18) and not
+  held; no review or acceptance evidence is known. Recorded as a pending full
+  claim on
   [[problems/extremal_graph_theory/E0620/claims/2026_07_17_morris_sahasrabudhe_verstraete|its claim page]];
   its refereed publication or a documented independent acceptance is the
   condition for this page's standing to change.
@@ -459,8 +461,8 @@ source of this page's derived standing; it is not accepted.
 **Leads with provenance (not status).**
 
 - A discussion comment of 1 September 2025 points to [MuVe24]'s
-  $O(\sqrt n\log n)$ and the Shearer-based lower bound; the site was updated
-  after it.
+  $O(\sqrt n\log n)$ and the Shearer-based lower bound; erdosproblems.com was
+  updated after it.
 - [GJS25] (pp. 1--3): Theorem 1.2 gives $f_{F,K_r}(n)=O(n^{1/2-\varepsilon})$ for every $r\ge4$
   and every $K_{r-1}$-free $F$; its remark that "if $F$ contains $K_{r-1}$,
   then $f_{F,K_r}(n)\ge f_{K_{r-1},K_r}(n)\ge n^{1/2+o(1)}$ for any $r$"
@@ -478,7 +480,7 @@ source of this page's derived standing; it is not accepted.
 determination of the order of $f(n)$; the one claim found is the preprint
 above.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures directory (no file 620); the community database.
 - arXiv: the API record of 2401.02548 (v1 4 January 2024, v2 8 February
   2024, no journal reference); the abstract pages of 2607.16118 (one version) and 1008.4044
@@ -524,7 +526,7 @@ from the one-paragraph proofs of [BoHi91]'s Theorem 1 and [Sh95]'s Corollary 1,
 followed in full (the latter a reduction to Theorem 1 of that paper, whose proof
 is checked for structure only), no proof is followed or reviewed. (4) The
 journal texts of [MuVe24] and [Kr94] are not compared with the editions read.
-(5) [Er99], one of the site's source keys, is not held.
+(5) [Er99], one of the erdosproblems.com source keys, is not held.
 
 ## Known results
 
@@ -532,7 +534,7 @@ journal texts of [MuVe24] and [Kr94] are not compared with the editions read.
   (1962): $K_4$-free graphs on fewer than $l^{1+c_4}$ vertices with a
   triangle in every $l$ vertices, so $f(n)\le n^{1-\varepsilon}$; the origin.
 - [[../library/extremal_graph_theory/erdos_1992_covering_cliques_graph_vertices/problem_3|Erdős--Gallai--Tuza, Problem 3]]
-  (1992): the question in the site's words, with the trivial
+  (1992): the question in erdosproblems.com's words, with the trivial
   $\alpha(G)\ge cn^{1/3}$.
 - [[../library/extremal_graph_theory/bollobas_hind_1991_graphs_without_large_triangle_free_subgraphs/theorem_1|Bollobás--Hind, Theorem 1]]
   and
@@ -558,9 +560,9 @@ journal texts of [MuVe24] and [Kr94] are not compared with the editions read.
   (1995, refereed): $\alpha\ge c(r)\,n\ln d/(d\ln\ln d)$ for $K_r$-free
   graphs of maximum degree $d$; applied to a vertex neighborhood as
   [[../library/extremal_graph_theory/mubayi_2024_order_erdos_rogers_functions/equation_1|equation (1)]]
-  of [MuVe24] records, $f(n)\gg\sqrt{n\log n}/\log\log n$, the form the
-  site prints, and $f(n)\gg\sqrt{n\log n/\log\log n}$ with the threshold
-  balanced, first printed by
+  of [MuVe24] records, $f(n)\gg\sqrt{n\log n}/\log\log n$, the form
+  erdosproblems.com prints, and $f(n)\gg\sqrt{n\log n/\log\log n}$ with the
+  threshold balanced, first printed by
   [[problems/extremal_graph_theory/E0620/claims/2013_08_21_dudek_mubayi|Dudek and Mubayi]],
   the best lower bound a refereed paper prints; Corollary 2 of [JMRS21]
   gives $f(n)\gg\sqrt{n\log n}$ in one line (Current assessment).

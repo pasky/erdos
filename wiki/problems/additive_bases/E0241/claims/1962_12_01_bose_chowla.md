@@ -40,7 +40,7 @@ elements, the case $h=3$ being the bound above.
 **Covers.** The lower half of
 [[problems/additive_bases/E0241/_index|Problem 241]],
 $\liminf_{N\to\infty}f(N)/N^{1/3}\ge1$. The upper half is open; the best
-upper bound the site gives is Green's
+upper bound erdosproblems.com gives is Green's
 $f(N)\le((7/2)^{1/3}+o(1))N^{1/3}$ [Gr01], which settles neither half.
 
 **Depends on.** No page of this wiki.
@@ -48,6 +48,6 @@ $f(N)\le((7/2)^{1/3}+o(1))N^{1/3}$ [Gr01], which settles neither half.
 **Acceptance.** Refereed: R. C. Bose and S. Chowla, Theorems in the additive
 theory of numbers, Comment. Math. Helv. 37 (1962), no. 1, 141--147. The Crossref
 record gives the issue as December 1962 and no day, so the page is dated to the
-first day of that month. The site's commentary credits Bose and Chowla with one
-half of the asymptotic. But the site labeled the problem OPEN, so that
-commentary is not review.
+first day of that month. The erdosproblems.com commentary credits Bose and
+Chowla with one half of the asymptotic. But Bloom's catalog labeled the problem
+OPEN, so that commentary is not review.

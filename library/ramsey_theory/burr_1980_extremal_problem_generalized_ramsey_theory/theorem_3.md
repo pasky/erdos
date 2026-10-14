@@ -69,10 +69,11 @@ as
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in the site's letters
-  for the $K_m$ versions, the paper's $f(m,n)$ is the site's $F_m(n)$ and
-  its $g(m,n)$ the site's $f_m(n)$; the theorem is the source of the site's
-  bounds $n^{2/(m-1)}\ll F_m(n)-n\ll n^{4/(m+1)+o(1)}$ and
+- [[../wiki/problems/ramsey_theory/E1182/_index|Problem 1182]]: in
+  erdosproblems.com's letters for the $K_m$ versions, the paper's $f(m,n)$ is
+  erdosproblems.com's $F_m(n)$ and its $g(m,n)$ erdosproblems.com's $f_m(n)$;
+  the theorem is the source of erdosproblems.com's bounds
+  $n^{2/(m-1)}\ll F_m(n)-n\ll n^{4/(m+1)+o(1)}$ and
   $n^{1+1/(m-1)}\ll f_m(n)\ll n^{1+2/m+o(1)}$, which write the theorem's
   logarithmic factors as $n^{o(1)}$. Context for the problem, which asks
   about $m=3$; the theorem carries no proof in the paper.

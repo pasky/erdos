@@ -52,12 +52,13 @@ settled by the accepted claim page
 
 **Acceptance.** Refereed: T. Jiang, Z. Jiang and J. Ma, *Negligible obstructions
 and Turán exponents*, Ann. Appl. Math. 38 (2022), no. 3, 356--384,
-doi:10.4208/aam.oa-2022-0008, a refereed journal. The site cites the arXiv
-version. First posting: arXiv:2007.02975, v1 6 July 2020 (the date this page is
-named by), v3 30 January 2023. No `reviewed` evidence is listed. The site's
-commentary lists these exponents among the Turán exponents known before 2026 and
-credits the paper. But the site's label credited GPT-6 Astra with the full proof
-and is not an acceptance of this result.
+doi:10.4208/aam.oa-2022-0008, a refereed journal. erdosproblems.com cites the
+arXiv version. First posting: arXiv:2007.02975, v1 6 July 2020 (the date this
+page is named by), v3 30 January 2023. No `reviewed` evidence is listed. The
+erdosproblems.com commentary lists these exponents among the Turán exponents
+known before 2026 and credits the paper. But the erdosproblems.com label
+credited GPT-6 Astra with the full proof and is not an acceptance of this
+result.
 
 **Read depth.** The statements are taken from the paper's abstract and the
 result list on the library card; no proof was read, and nothing is

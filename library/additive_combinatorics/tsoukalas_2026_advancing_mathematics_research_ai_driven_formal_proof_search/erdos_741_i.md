@@ -25,9 +25,9 @@ $A=A_1\sqcup A_2$ with $A_1+A_1$ and $A_2+A_2$ both of positive upper density
 
 The paper reports (p. 37, and Section 3, p. 6) that the agent first disproved
 the formulation in which density must exist as a limit, and that the formal
-statement was amended to upper density, following the site curator's remark
-that Erdős likely meant upper density, before the agent proved the statement
-above.
+statement was amended to upper density, following the erdosproblems.com
+curator's remark that Erdős likely meant upper density, before the agent proved
+the statement above.
 
 **Discrepancy: the linked Lean file proves the exact-density answer.** The
 paper (p. 37) gives
@@ -73,8 +73,8 @@ None; the argument is elementary.
 ## Bears on
 
 - [[../wiki/problems/additive_combinatorics/E0741/_index|Problem 741]]: the
-  first question, under the upper-density reading the site adopts, is answered
-  yes. The paper calls the problem's thread its original communication of the
-  result (p. 38). The result is recorded on the claim page
+  first question, under the upper-density reading erdosproblems.com adopts, is
+  answered yes. The paper calls the problem's thread its original communication
+  of the result (p. 38). The result is recorded on the claim page
   [[../wiki/problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|Google DeepMind 2026]],
   which also records the exact-density answer that the linked Lean file proves.

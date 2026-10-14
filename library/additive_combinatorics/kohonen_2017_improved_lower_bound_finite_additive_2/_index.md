@@ -55,7 +55,7 @@ journal version is J. Number Theory 174 (2017), 518--524, DOI
 compared. Conventions (p. 1): the size $k=|A|$ counts the zero element
 ("Often in the literature the zero is not counted, but this makes no
 difference in the asymptotic ratios"), and the range $n=n(A)$ means
-$A+A\supseteq\{0,1,\ldots,n\}$ with $n+1\notin A+A$. The site's $g(n)$
+$A+A\supseteq\{0,1,\ldots,n\}$ with $n+1\notin A+A$. erdosproblems.com's $g(n)$
 for Problem 791, the least size of $A\subseteq\{0,\ldots,n\}$ with
 $\{0,\ldots,n\}\subseteq A+A$, is the inverse function
 $g(n)=\min\{k:n(k)\ge n\}$ (elements above $n$ can be dropped from a basis

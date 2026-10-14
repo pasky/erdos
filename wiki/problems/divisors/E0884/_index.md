@@ -31,8 +31,8 @@ $$
 
 where the implied constant is absolute?
 
-**Status.** DISPROVED (LEAN). The site's remarks credit a conditional disproof
-to Tao and an unconditional one to Larsen. The Lean label rested on a
+**Status.** DISPROVED (LEAN). The erdosproblems.com remarks credit a conditional
+disproof to Tao and an unconditional one to Larsen. The Lean label rested on a
 third-party formalization of Larsen's proof. See
 [[problems/divisors/E0884/claims/2026_03_27_larsen|Larsen's unconditional disproof]].
 The conditional result has its own pending page,
@@ -60,14 +60,14 @@ copy.
 
 ## Current assessment
 
-**The question.** The site formulation quoted above asks whether the sum of the
-reciprocals of all differences between divisors of $n$ is bounded by an absolute
-constant times one plus the sum over consecutive divisors only. Erdős asks it in
-[Er98] on p. 177; Tao's note remarks that the statement there uses $j<\tau(n)$
-in place of $j\le\tau(n)$, which the note calls likely a typo with no impact on
-the question. The two sides differ by at most a factor of order $\log\tau(n)$ by
-the harmonic-mean inequality and telescoping, so the question is whether that
-logarithmic slack is ever needed.
+**The question.** The erdosproblems.com formulation quoted above asks whether
+the sum of the reciprocals of all differences between divisors of $n$ is bounded
+by an absolute constant times one plus the sum over consecutive divisors only.
+Erdős asks it in [Er98] on p. 177; Tao's note remarks that the statement there
+uses $j<\tau(n)$ in place of $j\le\tau(n)$, which the note calls likely a typo
+with no impact on the question. The two sides differ by at most a factor of
+order $\log\tau(n)$ by the harmonic-mean inequality and telescoping, so the
+question is whether that logarithmic slack is ever needed.
 
 **What is established.** The answer is no. The accepted claim page
 [[problems/divisors/E0884/claims/2026_03_27_larsen|Larsen's unconditional disproof]]
@@ -78,15 +78,15 @@ consecutive gap sum by a logarithmic factor. Tao's own version, the pending
 conditional page
 [[problems/divisors/E0884/claims/2025_09_10_tao|Tao's conditional disproof]]
 (September 2025), reaches the same conclusion assuming the qualitative
-Hardy--Littlewood prime tuples conjecture. Both are credited by the site's
-curator and neither is refereed. A Lean repository posted in July 2026 declares
-itself a formalization of Larsen's proof and reports a build on Mathlib with the
-three standard axioms; it is linked from Larsen's claim page as a formalization,
-and the site's Lean label rested on it, but this corpus has not built it, so the
-acceptance evidence recorded here is the curator's credit alone. Numerical
-experiments posted in the discussion thread list the record values of the ratio,
-which grow slowly along numbers with densely packed small divisors (factorials
-reach about $4.3$ at $14!$).
+Hardy--Littlewood prime tuples conjecture. Both are credited by the
+erdosproblems.com curator and neither is refereed. A Lean repository posted in
+July 2026 declares itself a formalization of Larsen's proof and reports a build
+on Mathlib with the three standard axioms; it is linked from Larsen's claim page
+as a formalization, and the erdosproblems.com Lean label rested on it, but this
+corpus has not built it, so the acceptance evidence recorded here is the
+curator's credit alone. Numerical experiments posted in the discussion thread
+list the record values of the ratio, which grow slowly along numbers with
+densely packed small divisors (factorials reach about $4.3$ at $14!$).
 
 **Scope of this assessment.** This corpus has not checked the proofs of the two
 notes or built the Lean repository, and no independent review is recorded.

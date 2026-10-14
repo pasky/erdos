@@ -148,7 +148,7 @@ $\sigma_{i+1}\leq\exp(\sigma_i^{1/10})$ unavoidable at high average
 degree. This includes every exponentially bounded increasing sequence
 of even integers after discarding finitely many initial terms. The
 [[graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/powers_of_two_in_infinite_chromatic_graphs|infinite-chromatic power-of-two consequence]]
-is the implication credited to Zach Hunter on the problem site.
+is the implication credited to Zach Hunter on erdosproblems.com.
 
 Both main theorems rely on
 [[graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/theorem_2_7|Theorem 2.7]],

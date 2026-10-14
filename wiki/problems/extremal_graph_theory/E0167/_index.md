@@ -4,8 +4,8 @@ title: Problem 167
 desc: |
   Asks whether a graph with at most $k$ edge-disjoint triangles can be made
   triangle-free by deleting at most $2k$ edges (Tuza's conjecture). It is open,
-  the site's label was falsifiable, and Haxell's $66/23$ is the best refereed
-  constant.
+  the erdosproblems.com label was falsifiable, and Haxell's $66/23$ is the best
+  refereed constant.
 tags:
 - Graph theory
 status: open
@@ -25,25 +25,26 @@ updated: 2026-10-08T14:06:00Z
 **Statement.** If $G$ is a graph with at most $k$ edge disjoint triangles then
 can $G$ be made triangle-free after removing at most $2k$ edges?
 
-**Formulation.** The site's wording as of 2026-09-19 (page last edited
-13 October 2025). With $\nu(G)$ the largest number of pairwise edge-disjoint
-triangles and $\tau(G)$ the least number of edges whose removal leaves no
-triangle, the question is whether $\tau(G)\le2\nu(G)$ for every graph $G$,
-Tuza's conjecture; "at most $k$" and Erdős's "$k$ the largest integer for which
-$G$ has $k$ edge disjoint triangles" ([Er88], Section 10, p. 90) ask the same
-thing. The trivial bound is $\tau(G)\le3\nu(G)$ (remove the $3\nu$ edges of a
-maximal packing; by maximality every triangle shares an edge with it), and the
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-19 (page last
+edited 13 October 2025). With $\nu(G)$ the largest number of pairwise
+edge-disjoint triangles and $\tau(G)$ the least number of edges whose removal
+leaves no triangle, the question is whether $\tau(G)\le2\nu(G)$ for every graph
+$G$, Tuza's conjecture; "at most $k$" and Erdős's "$k$ the largest integer for
+which $G$ has $k$ edge disjoint triangles" ([Er88], Section 10, p. 90) ask the
+same thing. The trivial bound is $\tau(G)\le3\nu(G)$ (remove the $3\nu$ edges of
+a maximal packing; by maximality every triangle shares an edge with it), and the
 constant $2$ cannot be lowered: $K_4$ has $\nu=1$, $\tau=2$ and $K_5$ has
 $\nu=2$, $\tau=4$ (recomputed on the origin's result page). A single graph with
-$\tau>2\nu$ would answer no, which is what the site's label FALSIFIABLE records:
-the problem is open, and one finite counterexample would settle it.
+$\tau>2\nu$ would answer no, which is what the erdosproblems.com label
+FALSIFIABLE records: the problem is open, and one finite counterexample would
+settle it.
 
-**Status.** Falsifiable. The site labeled the problem FALSIFIABLE: it is open,
-and a single finite counterexample would disprove it. The label is a note on an
-open problem, not a claim. No proof claim on the statement for every graph is
-recorded on the site or found elsewhere. No proof, disproof or proof claim for
-the statement was found in the search whose scope the Current assessment
-records. The refereed results of
+**Status.** Falsifiable. Bloom's catalog labeled the problem FALSIFIABLE: it is
+open, and a single finite counterexample would disprove it. The label is a note
+on an open problem, not a claim. No proof claim on the statement for every graph
+is recorded on erdosproblems.com or found elsewhere. No proof, disproof or proof
+claim for the statement was found in the search whose scope the Current
+assessment records. The refereed results of
 [[problems/extremal_graph_theory/E0167/claims/2024_05_18_chahua_gutierrez|Chahua and Gutiérrez]]
 are an accepted partial claim on its claim page. They do not decide the question
 for every graph, so the standing stays open. This is a bounded negative finding,
@@ -61,8 +62,8 @@ treewidth, threshold graphs, dense graphs). These classes have no claim pages
 until each statement is checked in its paper or a review.
 
 **Source.** [erdosproblems.com/167](https://www.erdosproblems.com/167),
-accessed 2026-09-19: the problem page (FALSIFIABLE, with the site's note
-that the problem is open and one finite counterexample would disprove it;
+accessed 2026-09-19: the problem page (FALSIFIABLE, with the erdosproblems.com
+note that the problem is open and one finite counterexample would disprove it;
 last edited 13 October 2025; source keys [Er88], [Ha99], [KaPa22]; the
 statement shown as not formalized), its one-comment discussion thread (12
 October 2025) and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős
@@ -127,7 +128,7 @@ Problem #167, https://www.erdosproblems.com/167, accessed 2026-09-19.
   [[../library/extremal_graph_theory/chahua_2025_tuza_s_conjecture_dense_graphs/theorem_15|theorem_15]].
 
 **Formalization.** None. formal-conjectures has no file
-`ErdosProblems/167.lean` (main, 2026-10-07), the site's
+`ErdosProblems/167.lean` (main, 2026-10-07), the erdosproblems.com
 page shows the statement as not formalized, and the community database
 (teorth/erdosproblems, `data/problems.yaml`, 2026-09-19 and 2026-10-06)
 records the problem falsifiable since 28 September 2025, unformalized, with
@@ -138,19 +139,19 @@ problem.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-19).** The statement
-above; FALSIFIABLE; last edited 13 October 2025. The site's commentary, in
-summary: the problem is Tuza's; removing $3k$ edges trivially suffices;
-the complete graphs on four and five vertices show that the factor $2$
+**The question (erdosproblems.com formulation of 2026-09-19).** The statement
+above; FALSIFIABLE; last edited 13 October 2025. The erdosproblems.com
+commentary, in summary: the problem is Tuza's; removing $3k$ edges trivially
+suffices; the complete graphs on four and five vertices show that the factor $2$
 cannot be lowered; Haxell [Ha99] improved the
-trivial bound to $(3-\frac3{23}+o(1))k$ (the site's form; the paper has no
-error term, as noted below); and Kahn and Park [KaPa22] proved the
+trivial bound to $(3-\frac3{23}+o(1))k$ (the erdosproblems.com form; the paper
+has no error term, as noted below); and Kahn and Park [KaPa22] proved the
 statement for random graphs. The label records that the problem is open
 and that a single finite counterexample would disprove it; no
 counterexample is known, and the label asserts nothing about the answer.
 The thread's one comment (12 October 2025) names Haxell's paper and its
 bound $(66/23)k<2.87k$ and says that the reference was located with an AI
-model (GPT-5); the site's key [Ha99] followed. The proof-claim tab is
+model (GPT-5); the erdosproblems.com key [Ha99] followed. The proof-claim tab is
 empty.
 
 **The origin.**
@@ -172,18 +173,17 @@ the printed proof combines four lemmas, each exhibiting a transversal
 $\tau\le(3-\delta)\nu$ and $\tau\le(3+3\delta-\beta)\nu$ for parameters
 $\gamma,\beta,\delta$ of the chosen triangle families) with weights
 $1,\frac25,\frac{12}5,\frac45$, whose sum $\frac{23}5\tau\le\frac{66}5\nu$
-gives exactly $\tau(G)\le\frac{66}{23}\nu(G)$, with no error term (the
-site's "$+o(1)$" is not in the paper). The proof is followed in full on
-the result page; nothing there is independently reviewed.
-The closing remark (p. 254): "The bound for $\varepsilon$ can be
-improved slightly to $(23-\sqrt{481})/8>3/23$ by using induction in Lemma 4
-to replace the $3\delta$ bound by $(3-\varepsilon)\delta$", with no printed
-proof; that is $\tau\le\frac{1+\sqrt{481}}8\nu=(2.866\ldots)\nu$. The
-paper's p. 251 states the trivial $\nu\le\tau\le3\nu$, the tightness of $2$
-for $K^4$ and $K^5$, and Tuza's conjecture "first raised in 1981 [4]", the
-Bolyai citation [Tu81]. The bound is also attested in three further texts:
-[KaPa22], p. 1, "the best general result remains that of
-Haxell [8]: for every $H$,
+gives exactly $\tau(G)\le\frac{66}{23}\nu(G)$, with no error term
+(erdosproblems.com's "$+o(1)$" is not in the paper). The proof is followed in
+full on the result page; nothing there is independently reviewed. The closing
+remark (p. 254): "The bound for $\varepsilon$ can be improved slightly to
+$(23-\sqrt{481})/8>3/23$ by using induction in Lemma 4 to replace the $3\delta$
+bound by $(3-\varepsilon)\delta$", with no printed proof; that is
+$\tau\le\frac{1+\sqrt{481}}8\nu=(2.866\ldots)\nu$. The paper's p. 251 states the
+trivial $\nu\le\tau\le3\nu$, the tightness of $2$ for $K^4$ and $K^5$, and
+Tuza's conjecture "first raised in 1981 [4]", the Bolyai citation [Tu81]. The
+bound is also attested in three further texts: [KaPa22], p. 1, "the best general
+result remains that of Haxell [8]: for every $H$,
 $\tau(H)\le\frac{66}{23}\nu(H)$"; [Yi26], p. 1, "In 1999, Haxell [3]
 improved the general bound to $\tau(G)\le\frac{66}{23}\nu(G)$, which has
 stood as the best general bound. In the same paper, Haxell noted that the
@@ -242,9 +242,9 @@ $\tau\le\frac32\nu$
 counterexample, a proof, a refereed constant below $\frac{66}{23}$, or a
 proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab as of
-  2026-09-19; the formal-conjectures directory listing and tree at main on
-  that date (no file 167); the community database on that date.
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-19; the formal-conjectures directory listing and tree at main
+  on that date (no file 167); the community database on that date.
 - arXiv: the API records of 2007.04351 (v2), 2608.23010 (v1, 24 August
   2026), 2405.11409 (v1) and 2609.13831 (v1, 12 September 2026, "5 pages",
   the Lean comment), read for versions, abstracts and journal references.
@@ -269,7 +269,7 @@ condition for recording either as the record, and [Wa26] is known here
 only from its arXiv record. (3) Proof coverage: Kahn and Park's Theorem
 1.2 and Chahua and Gutiérrez's three results are paged at claims checked
 with their proofs not checked; the other class results are second-hand.
-(4) The site's label FALSIFIABLE
+(4) The erdosproblems.com label FALSIFIABLE
 is a note on an open problem, not a claim, and no proof claim on the
 statement exists to record.
 

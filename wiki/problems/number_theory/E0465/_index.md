@@ -44,7 +44,7 @@ $$
 N(X,\delta)<X^{1/2+o(1)}?
 $$
 
-**Formulation.** The site's wording as accessed 2026-09-18 (page last
+**Formulation.** The erdosproblems.com wording as accessed 2026-09-18 (page last
 edited 18 January 2026). The points lie in the disc of radius
 $X$ (the sources' "circle of radius $X$"), and the condition is that every
 pairwise Euclidean distance lies at distance at least $\delta$ from the
@@ -60,10 +60,11 @@ once $X\ge X(\delta,\varepsilon)$. The companion
 same quantity; the monograph of 1980 prints the two problems as one
 passage.
 
-**Status.** PROVED, the site's label (page last edited 18 January 2026). The
-site credits Sárközy [Sa76] with the first conjecture and Konyagin [Ko01] with
-the bound of order $X^{1/2}$. There are two accepted claim pages, each accepted
-on its refereed publication and the curator's credit. The full claim is
+**Status.** PROVED, the erdosproblems.com label (page last edited 18 January
+2026). erdosproblems.com credits Sárközy [Sa76] with the first conjecture and
+Konyagin [Ko01] with the bound of order $X^{1/2}$. There are two accepted claim
+pages, each accepted on its refereed publication and the curator's credit. The
+full claim is
 [[problems/number_theory/E0465/claims/2001_04_01_konyagin|Konyagin 2001]]: for
 every $\delta>0$ there is $C(\delta)$ with $N(X,\delta)<C(\delta)X^{1/2}$ for
 all $X\ge1$ (Mat. Zametki 69 (2001), refereed; p. 630). This bound is $o(X)$.
@@ -80,9 +81,9 @@ lower exponent $1/2-\delta^{1/7}$ tends to $1/2$ as $\delta\to0$.
 
 **Source.** [erdosproblems.com/465](https://www.erdosproblems.com/465),
 accessed 2026-09-18: the problem page (PROVED, with
-the site's note that the answer is affirmative; last edited 18 January 2026;
-source keys [ErGr80], [Er82e]; commentary citing [Sa76], [Ko01] and
-Problems 466 and 953; "Formalised statement? No"), its empty discussion
+the erdosproblems.com note that the answer is affirmative; last edited 18
+January 2026; source keys [ErGr80], [Er82e]; commentary citing [Sa76], [Ko01]
+and Problems 466 and 953; "Formalised statement? No"), its empty discussion
 thread and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem
 #465, https://www.erdosproblems.com/465, accessed 2026-09-18.
 
@@ -116,22 +117,22 @@ thread and its empty proof-claims tab. Cite as: T. F. Bloom, Erdős Problem
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 - [Er72] Erdős, P., Extremal problems in number theory. Proceedings of the
   Number Theory Conference (Univ. Colorado, Boulder, 1972), 80--86. Section IV,
-  printed p. 83; the site keys this paper for Problem 466 only, but the passage
-  reports the upper bound too. Library home:
+  printed p. 83; erdosproblems.com keys this paper for Problem 466 only, but the
+  passage reports the upper bound too. Library home:
   [[../library/integer_sequences/erdos_1972_extremal_problems_number_theory/_index|erdos_1972_extremal_problems_number_theory]].
 - [GoMo26] Goenka, R. and Moore, K., Point sets avoiding near-integer
   distances. arXiv:2605.06621v1 (7 May 2026; abstract read). A lead on the
   higher-dimensional analog, named with its identifier.
 
 **Formalization.** None. No file `ErdosProblems/465.lean` existed in
-google-deepmind/formal-conjectures on 2026-10-07, the site's page shows
-"Formalised statement? No (create one)", and the community database
-(teorth/erdosproblems, as of 2026-09-18) lists the problem as `proved`, as of
+google-deepmind/formal-conjectures on 2026-10-07, the erdosproblems.com page
+shows "Formalised statement? No (create one)", and the community database
+(teorth/erdosproblems, read 2026-09-18) lists the problem as `proved`, as of
 its last update on 31 August 2025, and unformalized, with no formal-proof URL.
 
 ## Current assessment
 
-**The question (site formulation of 2026-09-18).** The statement
+**The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; PROVED. The commentary credits the first conjecture to Sárközy
 [Sa76], with the bound $N(X,\delta)\ll\delta^{-3}X/\log\log X$, and the
 strong upper bound $N(X,\delta)\ll_\delta X^{1/2}$ to Konyagin [Ko01], and
@@ -159,13 +160,13 @@ $\delta\le\delta(\varepsilon)$ and large $X$ (cited as [Sár (xx) b]). It
 calls the gap between the bounds fairly wide and closes with the question:
 "Is it true that for any $\varepsilon>0$, $N(X,\delta)<X^{1/2+\varepsilon}$
 for $X$ sufficiently large? Unfortunately, we do not even see how to show
-$N(X,\delta)<X^{1-\varepsilon}$ for a positive $\varepsilon$." The site's
-two questions are the first conjecture and the closing question. [Er82e], Chapter II, §9, printed
-pp. 67--68: "Denote by $N(x,\delta)$ the maximum number of points
-$p_1,\ldots,p_n$ which can be chosen in a circle of radius $x$ so that the
-distance between any two of them differs by at least $\delta$ from every
-integer. I conjectured that $N(x,\delta)=o(x)$ and $N(x,\delta)\to\infty$.
-The first conjecture was proved by Sárközy who proved
+$N(X,\delta)<X^{1-\varepsilon}$ for a positive $\varepsilon$."
+erdosproblems.com's two questions are the first conjecture and the closing
+question. [Er82e], Chapter II, §9, printed pp. 67--68: "Denote by $N(x,\delta)$
+the maximum number of points $p_1,\ldots,p_n$ which can be chosen in a circle of
+radius $x$ so that the distance between any two of them differs by at least
+$\delta$ from every integer. I conjectured that $N(x,\delta)=o(x)$ and
+$N(x,\delta)\to\infty$. The first conjecture was proved by Sárközy who proved
 $N(x,\delta)<cx/(\delta^3\log\log x)$. Graham proved the second conjecture,
 he in fact proved $N(x,1/10)>\frac1{10}\log x$. Sárközy showed that to every
 $\varepsilon>0$ there is a $\delta(\varepsilon)>0$ so that for every
@@ -197,8 +198,8 @@ $X\ge X(\delta,\varepsilon)$, and says the paper's aim is a positive
 answer. Acceptance: a refereed journal article (Mat. Zametki 69 (2001),
 no. 4, Brief Communications, received 21 September 2000 and revised 5
 October 2000 per the mathnet.ru record), translated in Math. Notes 69
-(2001), 578--581; the site accepts it. The proof (pp. 630--633), not checked
-here, has this structure: the direction-averaged exponential sums
+(2001), 578--581; erdosproblems.com accepts it. The proof (pp. 630--633), not
+checked here, has this structure: the direction-averaged exponential sums
 $A_k(\varphi)=\sum_je(k(x_j\cos\varphi+y_j\sin\varphi))$, the inequality
 $\sum_kd_k\int_0^{2\pi}|A_k(\varphi)|^2d\varphi\ge0$ for nonnegative
 weights, the Bessel identity turning each cross term into
@@ -224,9 +225,9 @@ that Part I proves "a slightly sharper version" of the first. Acceptance: a
 refereed journal (Studia Sci. Math. Hungar.), the volume scan of the
 Hungarian Academy's repository; Konyagin's [1] and the monograph's [Sár
 (xx) a]. The proof (Lemmas 1--5, pp. 38--50) is not checked here.
-The bound of order $\delta^{-3}X/\log\log X$ that the site's commentary
-cites is this bound with its constant. Konyagin's introduction states it
-as $N(X,\delta)=O(X/\log\log X)$ for fixed $\delta$ and $X\ge3$.
+The bound of order $\delta^{-3}X/\log\log X$ that the erdosproblems.com
+commentary cites is this bound with its constant. Konyagin's introduction states
+it as $N(X,\delta)=O(X/\log\log X)$ for fixed $\delta$ and $X\ge3$.
 
 **Lower bounds and the gap.** Part II of [Sa76]
 ([[../library/number_theory/sarkozy_1976_distances_near_integers_ii/theorem_1|Theorem 1]],
@@ -251,7 +252,7 @@ source for this page.
 **Search scope.** None of the routes below found a
 dispute of the two theorems or a sharper bound in the plane.
 
-- The site: problem page, discussion thread and proof-claims tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claims tab; the
   formal-conjectures directory listing (no file); the community database
   record.
 - The primary sources at the pages stated: [Ko01] pp. 630--633; [Sa76]
@@ -283,8 +284,8 @@ of $N(X,\delta)$ for fixed $\delta$ and the growth of $C(\delta)$ are open;
 the higher-dimensional problem of [GoMo26] is a lead. (4) The 1972
 attribution of the power lower bound to "Graham and Sárközi" differs from the
 1976 and 1980 accounts; recorded as printed. (5) The monograph card records
-the [ErGr80] passage for this page; the site's Problem 953 is outside this
-page.
+the [ErGr80] passage for this page; erdosproblems.com's Problem 953 is outside
+this page.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

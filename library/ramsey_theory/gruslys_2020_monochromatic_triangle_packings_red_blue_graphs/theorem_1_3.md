@@ -71,9 +71,9 @@ held).
 
 ## Bears on
 
-- [[../wiki/problems/ramsey_theory/E0076/_index|Problem 76]]: the site's
-  second question, how many edge-disjoint monochromatic triangles of one
-  color every $2$-coloring of $K_n$ has. Section 8 (p. 30) says that Erdős's
-  expectation of more than $(1+\varepsilon)n^2/24$ "readily follows from our
-  stability result, Theorem 1.3", and writes no deduction. This page records
-  that remark; it is not a proof of it.
+- [[../wiki/problems/ramsey_theory/E0076/_index|Problem 76]]:
+  erdosproblems.com's second question, how many edge-disjoint monochromatic
+  triangles of one color every $2$-coloring of $K_n$ has. Section 8 (p. 30) says
+  that Erdős's expectation of more than $(1+\varepsilon)n^2/24$ "readily follows
+  from our stability result, Theorem 1.3", and writes no deduction. This page
+  records that remark; it is not a proof of it.

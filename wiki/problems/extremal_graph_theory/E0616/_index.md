@@ -29,7 +29,7 @@ Determine the best possible $t$ such that, if $G$ is an $r$-uniform hypergraph
 $G$ where every subgraph $G'$ on at most $3r-3$ vertices has $\tau(G')\leq 1$,
 we have $\tau(G)\leq t$.
 
-**Status.** Open, the site's label. The accepted partial claim
+**Status.** Open, the erdosproblems.com label. The accepted partial claim
 [[problems/extremal_graph_theory/E0616/claims/1991_09_01_erdos_hajnal_tuza|Erdős–Hajnal–Tuza 1991]]
 determines the best $t$ for thirty-eight values of $r$ between $3$ and $70$. For
 every other $r$ the problem is open.
@@ -47,14 +47,14 @@ https://www.erdosproblems.com/616.
 
 ## Current assessment
 
-The site labeled the problem OPEN (accessed 2026-09-04) and credits Erdős,
-Hajnal and Tuza [EHT91] with the bounds
+Bloom's catalog labeled the problem OPEN (accessed 2026-09-04) and credits
+Erdős, Hajnal and Tuza [EHT91] with the bounds
 $\frac3{16}r+\frac78\le t\le\frac15r$. The paper states them with
 rounding, $\lfloor\frac3{16}r+\frac78\rfloor\le t\le\lceil r/5\rceil$
 (Theorem 3 and the remark after it, p. 80, with the lower-bound construction
-on p. 84). The site's display drops the floor and the ceiling, and as printed
-it contradicts itself for every $r<70$, where $\frac3{16}r+\frac78$ exceeds
-$\frac r5$.
+on p. 84). The erdosproblems.com display drops the floor and the ceiling, and as
+printed it contradicts itself for every $r<70$, where $\frac3{16}r+\frac78$
+exceeds $\frac r5$.
 
 The rounded bounds meet for thirty-eight values of $r$, from $r=3$ to $r=70$,
 and there they determine $t=\lceil r/5\rceil$; that is the accepted partial
@@ -63,11 +63,12 @@ claim
 whose page lists the values. For every other $r$, including every $r>70$, the
 best $t$ is open.
 
-A comment of 17 August 2026 on the site's discussion thread, disclosed as
-AI-assisted, reported the dropped rounding and the consequences $t=1$ for
-$r=3,4,5$ and $t(6)=t(7)=2$. An earlier exchange on the thread (18 January
+A comment of 17 August 2026 on the erdosproblems.com discussion thread,
+disclosed as AI-assisted, reported the dropped rounding and the consequences
+$t=1$ for $r=3,4,5$ and $t(6)=t(7)=2$. An earlier exchange on the thread (18
+January
 2026) posted an AI-generated argument, attributed to ChatGPT 5.2 Pro, that
 $t=2$ for every $r\ge6$; replies on the thread refuted it as inconsistent
 with the lower bound of [EHT91]. It was a thread post, not a dated
-manuscript, so it has no claim page. The site's proof-claim tab carries no
-claims.
+manuscript, so it has no claim page. The erdosproblems.com proof-claim tab
+carries no claims.

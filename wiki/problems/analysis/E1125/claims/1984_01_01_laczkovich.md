@@ -4,8 +4,8 @@ title: Laczkovich's monotonicity theorem for Kemperman's inequality
 desc: |
   Laczkovich proves that every $f:\mathbb R\to\mathbb R$ with
   $2f(x)\le f(x+h)+f(x+2h)$ for all $x$ and all $h>0$ is nondecreasing, with no
-  regularity assumed. The paper is refereed and credited by the site, and others
-  have formalized the result in Lean.
+  regularity assumed. The paper is refereed and credited by erdosproblems.com,
+  and others have formalized the result in Lean.
 authors:
 - M. Laczkovich
 status: accepted
@@ -68,10 +68,10 @@ hypothesis above and concludes `Monotone f`; it replaces the
 bounded-partial-quotients input by a predicate of controlled integer
 approximants, the choice the author's thread post linked above describes,
 and constructs those approximants for $\sqrt2$ from Pell sequences. The link
-pins the file at a fixed commit, at Lean and Mathlib v4.29.1; the site's
-label, PROVED (LEAN), refers to this proof. The corpus has not built
-or audited the file, so
-no `formalized` evidence is listed. The formal-conjectures statement file for
-the problem points to this proof and is a statement, not a formalization.
+pins the file at a fixed commit, at Lean and Mathlib v4.29.1; the
+erdosproblems.com label, PROVED (LEAN), refers to this proof. The corpus has not
+built or audited the file, so no `formalized` evidence is listed. The
+formal-conjectures statement file for the problem points to this proof and is a
+statement, not a formalization.
 
 **Depends on.** Nothing in this wiki: the argument is the paper's own.

@@ -37,45 +37,47 @@ does there exist an integer $r$ such that, whenever $B = \{b_1 < b_2 < \cdots\}$
 is a sequence of positive integers with $b_{i+1} \geq r b_i$ for all $i$, there
 is a sequence of positive integers $A = \{a_1 < a_2 < \cdots\}$ with
 $d_1 \leq a_{i+1} - a_i \leq d_2$ for all $i \geq 1$ and
-$(kA) \cap B = \varnothing$, where $kA$ is the $k$-fold sumset? In the site's
-notation: for which $(k, d_1, d_2)$ does $r_k(d_1, d_2)$ exist?
+$(kA) \cap B = \varnothing$, where $kA$ is the $k$-fold sumset? In the
+erdosproblems.com notation: for which $(k, d_1, d_2)$ does $r_k(d_1, d_2)$
+exist?
 
-**Notes.** The site's wording begins "Let $1 \leq d_1 < d_2$ and $k \geq 3$.
-Does there exist an integer $r$ ...", which can be read two ways: as one
-yes-or-no assertion quantified over every triple, or as a separate question for
-each triple. Under the first reading the answer has been no since 1997:
+**Notes.** The erdosproblems.com wording begins "Let $1 \leq d_1 < d_2$ and
+$k \geq 3$. Does there exist an integer $r$ ...", which can be read two ways: as
+one yes-or-no assertion quantified over every triple, or as a separate question
+for each triple. Under the first reading the answer has been no since 1997:
 Bollobás, Hegyvári and Jin [BHJ97] proved that for $k = 3$ and gaps in $[2,3]$
-no ratio exists. The site's curator reads it the second way. The curator's
-commentary defines $r_k(d_1,d_2)$ as the least ratio that works for a given
-triple, records that $r_3(2,3)$ does not exist, and says that "the more general
-question of existence of $r_k(a,b)$ for $k \geq 3$ remains open"; the problem
-was posted as open with [BHJ97] already in its commentary, which is only
+no ratio exists. The erdosproblems.com curator reads it the second way. The
+curator's commentary defines $r_k(d_1,d_2)$ as the least ratio that works for a
+given triple, records that $r_3(2,3)$ does not exist, and says that "the more
+general question of existence of $r_k(a,b)$ for $k \geq 3$ remains open"; the
+problem was posted as open with [BHJ97] already in its commentary, which is only
 consistent with the per-triple reading. The Statement (modified) above states
 that reading. The curator also notes that the question is the curator's own
 generous reading of a vague remark of Erdős and Graham [ErGr80, p. 18], so the
-Statement is the site's question rather than Erdős's words. Under the modified
-Statement Johan Land's dichotomy (a ratio exists exactly when $d_2 \geq k+1$,
-with the ratio $192 d_2$ in the built development and $d_2 + 2$ in the September
-2026 revision) settles every triple, so the problem is solved; [BHJ97] settles
-the triple $(3,2,3)$ and is a partial claim. The site kept the label OPEN
-(LEAN): on 13 July 2026 the curator confirmed on the thread that `erdos_1112` is
-a correct formalization and compiles without `sorry`, and wrote of not yet
-having tried to understand the proof; the acceptance here rests instead on the
-port of Land's development that this corpus built and audited.
+Statement is the erdosproblems.com question rather than Erdős's words. Under the
+modified Statement Johan Land's dichotomy (a ratio exists exactly when
+$d_2 \geq k+1$, with the ratio $192 d_2$ in the built development and $d_2 + 2$
+in the September 2026 revision) settles every triple, so the problem is solved;
+[BHJ97] settles the triple $(3,2,3)$ and is a partial claim. erdosproblems.com
+kept the label OPEN (LEAN): on 13 July 2026 the curator confirmed on the thread
+that `erdos_1112` is a correct formalization and compiles without `sorry`, and
+wrote of not yet having tried to understand the proof; the acceptance here rests
+instead on the port of Land's development that this corpus built and audited.
 
-**Status.** OPEN (LEAN). This is the site's label (page last edited 28 December
-2025). The site's curator has verified only the formalization, not the proof, so
-this page's solved standing departs from the site's label.
+**Status.** OPEN (LEAN). This is the erdosproblems.com label (page last edited
+28 December 2025). The erdosproblems.com curator has verified only the
+formalization, not the proof, so this page's solved standing departs from the
+erdosproblems.com label.
 
-The site's proof-claims tab carries a full proof claim by Johan Land that a
-ratio exists exactly when $d_2\ge k+1$. It was announced on the discussion
-thread on 2026-07-06 and submitted as a proof claim on 2026-07-17, and the claim
-page names the AI systems used. The claim comes with a write-up and a Lean 4
-development. The Formalization field links that development as the solution. On
-2026-07-13 the curator confirmed on the thread that the main Lean theorem of the
-original development formalizes the question and compiles without `sorry`. That
-development was replaced on 2026-09-13 by the shortened argument described on
-the claim page. The claim is accepted on
+The erdosproblems.com proof-claims tab carries a full proof claim by Johan Land
+that a ratio exists exactly when $d_2\ge k+1$. It was announced on the
+discussion thread on 2026-07-06 and submitted as a proof claim on 2026-07-17,
+and the claim page names the AI systems used. The claim comes with a write-up
+and a Lean 4 development. The Formalization field links that development as the
+solution. On 2026-07-13 the curator confirmed on the thread that the main Lean
+theorem of the original development formalizes the question and compiles without
+`sorry`. That development was replaced on 2026-09-13 by the shortened argument
+described on the claim page. The claim is accepted on
 [[problems/additive_combinatorics/E1112/claims/2026_07_06_land|its claim page]]
 on a port of the original development that this corpus built and audited (see
 Formalization).
@@ -139,13 +141,13 @@ records. The built development proves the ratio $192d_2$ above the threshold;
 the ratio $d_2+2$ of the September revision of the paper is not built. On 13
 July 2026 the curator confirmed that the main Lean statement of the original
 development formalizes the question and compiles without `sorry`, and wrote of
-not yet having tried to understand the proof. The site's label stayed OPEN
-(LEAN), so no `reviewed` evidence is listed, and there is no refereed write-up.
-Tang and Yang [TaYa21] give further nonexistence results whose instances the
-available review does not name (see Status). The two-summand results the site
-records concern $k=2$, outside the problem's range: the Erdős–Graham
-construction, Theorem 1 of [BHJ97] and Chen's [Ch00]. No release item or lead
-names the problem.
+not yet having tried to understand the proof. The erdosproblems.com label stayed
+OPEN (LEAN), so no `reviewed` evidence is listed, and there is no refereed
+write-up. Tang and Yang [TaYa21] give further nonexistence results whose
+instances the available review does not name (see Status). The two-summand
+results erdosproblems.com records concern $k=2$, outside the problem's range:
+the Erdős–Graham construction, Theorem 1 of [BHJ97] and Chen's [Ch00]. No
+release item or lead names the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

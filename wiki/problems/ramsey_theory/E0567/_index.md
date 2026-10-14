@@ -28,41 +28,41 @@ $$
 R(G,H)\ll m?
 $$
 
-**Formulation.** The site's wording (page last edited 18 January 2026).
-$R(G,H)$ is the least $N$ such that every
-red-blue coloring of the edges of $K_N$ has a red $G$ or a blue $H$, and
-"$R(G,H)\ll m$" means $R(G,H)\le C_G\,m$ with $C_G$ depending only on $G$: in
-the words of [EFRS93] (Definition 1, p. 390), $G$ is Ramsey size linear. The
-three graphs are the minimal test cases of the density question of that paper
-(its Question 1, the site's Problem 566): its
+**Formulation.** The erdosproblems.com wording (page last edited 18 January
+2026). $R(G,H)$ is the least $N$ such that every red-blue coloring of the edges
+of $K_N$ has a red $G$ or a blue $H$, and "$R(G,H)\ll m$" means
+$R(G,H)\le C_G\,m$ with $C_G$ depending only on $G$: in the words of [EFRS93]
+(Definition 1, p. 390), $G$ is Ramsey size linear. The three graphs are the
+minimal test cases of the density question of that paper (its Question 1,
+erdosproblems.com's Problem 566): its
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/question_2|Question 2]]
 (p. 398) asks whether $K_{3,3}$, $G_5=K_5-(K_{1,2}\cup K_2)$ and $Q_3$ are
-Ramsey size linear. The site's $H_5$, the paper's $G_5$ and the $K_4^*$ of the
-site's commentary and of [BGS24] are one graph, checked here: $C_5$ on
-$1,\dots,5$ with the chords $13$ and $24$ has degree sequence $(3,3,3,3,2)$;
-deleting the degree-two vertex $5$ leaves $K_4$ minus the edge $14$, and $5$
-is adjacent to exactly $1$ and $4$, so $H_5$ is $K_4$ with the edge $14$
-subdivided once, which is $K_4^*$. Likewise $K_5$ minus the edges $ab$, $bc$
-and $de$ has the single degree-two vertex $b$, adjacent to exactly $d$ and
-$e$, and $K_5-b$ minus $de$ is $K_4$ minus an edge on $\{a,c,d,e\}$, so $G_5$
-is $K_4$ with the edge $de$ subdivided once. Each of the three graphs lies at
-or below the density threshold of Question 1: $K_{3,3}$ has $9=2\cdot6-3$
+Ramsey size linear. erdosproblems.com's $H_5$, the paper's $G_5$ and the $K_4^*$
+of the erdosproblems.com commentary and of [BGS24] are one graph, checked here:
+$C_5$ on $1,\dots,5$ with the chords $13$ and $24$ has degree sequence
+$(3,3,3,3,2)$; deleting the degree-two vertex $5$ leaves $K_4$ minus the edge
+$14$, and $5$ is adjacent to exactly $1$ and $4$, so $H_5$ is $K_4$ with the
+edge $14$ subdivided once, which is $K_4^*$. Likewise $K_5$ minus the edges
+$ab$, $bc$ and $de$ has the single degree-two vertex $b$, adjacent to exactly
+$d$ and $e$, and $K_5-b$ minus $de$ is $K_4$ minus an edge on $\{a,c,d,e\}$, so
+$G_5$ is $K_4$ with the edge $de$ subdivided once. Each of the three graphs lies
+at or below the density threshold of Question 1: $K_{3,3}$ has $9=2\cdot6-3$
 edges, $H_5$ has $7=2\cdot5-3$ and $Q_3$ has $12<2\cdot8-3$, and [EFRS93]
 (p. 395) records that all their proper subgraphs are Ramsey size linear, so
 each would be a minimal non-Ramsey-size-linear graph if it failed (see
 [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/question_6|Question 6]]).
-The site cites [Er95, p. 177] for the $K_{3,3}$ case.
+erdosproblems.com cites [Er95, p. 177] for the $K_{3,3}$ case.
 
-**Status.** The site labeled the problem OPEN, and no claim about it exists, so
-the frontmatter standing is open. No source cited here decides any of the three
-cases. The one accepted formal result is a Lean refutation accepted by the
-bounty site Conjectures.io on 7 August 2026 (record
+**Status.** Bloom's catalog labeled the problem OPEN, and no claim about it
+exists, so the frontmatter standing is open. No source cited here decides any of
+the three cases. The one accepted formal result is a Lean refutation accepted by
+the bounty site Conjectures.io on 7 August 2026 (record
 145e01a5-a004-4b17-a9fa-7503a28ff052). It refutes a defective formalization of
 the $Q_3$ case, in which the size Ramsey number $\hat r(Q_3,H)$ stood in for
-$R(Q_3,H)$. The site classifies it as a formalization-defect award that does not
-settle the problem. It bears on none of the three cases (see Formalization).
-This is a bounded negative finding from the searches, not a certificate of
-openness.
+$R(Q_3,H)$. Conjectures.io classifies it as a formalization-defect award that
+does not settle the problem. It bears on none of the three cases (see
+Formalization). This is a bounded negative finding from the searches dated
+2026-09-18 and 2026-09-27 UTC, not a certificate of openness.
 
 The partial results are these.
 [[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_3|Theorem 3]]
@@ -87,8 +87,8 @@ accessed 2026-09-18: the problem page (OPEN; last
 edited 18 January 2026; source keys [EFRS93] and [Er95, p. 177]; commentary
 citing [BGS23] and Problems 566 and 166), its one-comment discussion thread
 (7 November 2025, a report that the [BGS23] reference was not loading, which
-the site says it has addressed) and its empty proof-claim tab. Cite as: T. F.
-Bloom, Erdős Problem #567, https://www.erdosproblems.com/567, accessed
+erdosproblems.com says it has addressed) and its empty proof-claim tab. Cite as:
+T. F. Bloom, Erdős Problem #567, https://www.erdosproblems.com/567, accessed
 2026-09-18.
 
 **References.**
@@ -110,9 +110,9 @@ Bloom, Erdős Problem #567, https://www.erdosproblems.com/567, accessed
   the arXiv version. Library home:
   [[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/_index|bradac_2022_ramsey_size_linear_graphs_related_questions]].
 - [Er95] Erdős, P., Some of my favourite problems in number theory,
-  combinatorics, and geometry. Resenhas 2 (1995), 165--186; the site cites
-  p. 177. The question "Is $K(3,3)$ Ramsey size linear?" closes item 9 of the
-  combinatorics part, on p. 12 of the author's typescript hosted on the
+  combinatorics, and geometry. Resenhas 2 (1995), 165--186; erdosproblems.com
+  cites p. 177. The question "Is $K(3,3)$ Ramsey size linear?" closes item 9 of
+  the combinatorics part, on p. 12 of the author's typescript hosted on the
   journal's issue page, which carries its own pagination. Library home:
   [[../library/number_theory/erdos_1995_my_favourite_problems_number_theory_combinatorics/_index|erdos_1995_my_favourite_problems_number_theory_combinatorics]].
 - [BSS02] Balister, P. N., Schelp, R. H. and Simonovits, M., A note on Ramsey
@@ -127,61 +127,62 @@ of formal-conjectures (main, fetched 2026-09-18) declares three theorems
 `erdos_567.parts.i`, `erdos_567.parts.ii` and `erdos_567.parts.iii`, each
 `answer(sorry) ↔ IsRamseySizeLinear G` for `Q3 := hypercube 3`,
 `K33 := completeBipartiteGraph (Fin 3) (Fin 3)` and
-`H5 := cycleGraph 5 ⊔ edge 0 2 ⊔ edge 1 3` (two vertex-disjoint chords, as the
-site says; the docstring also names $K_4^*$), under `category research open`
-with proof `sorry`. The community database (read 2026-09-18) records the problem
-open (last changed 31 August 2025), the statement formalized since 9 January
-2026 and no formal proof; the site's formalized-statement indicator reads yes.
-Nothing was built. The definition `IsRamseySizeLinear` behind these statements
-was corrected on 9 September 2026 (formal-conjectures pull request #5352, "fix:
-Ramsey size linear"): until then it bounded the size Ramsey number
+`H5 := cycleGraph 5 ⊔ edge 0 2 ⊔ edge 1 3` (two vertex-disjoint chords, as
+erdosproblems.com says; the docstring also names $K_4^*$), under
+`category research open` with proof `sorry`. The community database (read
+2026-09-18) records the problem open (last changed 31 August 2025), the
+statement formalized since 9 January 2026 and no formal proof; the
+erdosproblems.com formalized-statement indicator reads yes. Nothing was built.
+The definition `IsRamseySizeLinear` behind these statements was corrected on 9
+September 2026 (formal-conjectures pull request
+#5352, "fix: Ramsey size linear"): until then it bounded the size Ramsey number
 `sizeRamsey G H`, the least number of edges of a host graph $F$ such that every
 red-blue coloring of $E(F)$ has a red $G$ or a blue $H$, by $c\,e(H)$, and the
 file's docstring wrote $\hat r(G,H)\ll m$ (in the version of 4 August 2026);
 since the fix it bounds `graphRamsey G H`, the least $n$ such that every
 red-blue coloring of $K_n$ has a red $G$ or a blue $H$, and the docstring reads
-$R(G,H)\ll m$, matching the site. The version of 2026-09-18 linked above
-postdates the fix. Under the earlier definition the bounty site Conjectures.io
-published `erdos_567.parts.i` as a task (frozen statement
-`True ↔ Erdos567.Q3.IsRamseySizeLinear`; the catalog revision the site names is
-one of its own task catalog, not of formal-conjectures) and accepted a Lean
-refutation of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052,
+$R(G,H)\ll m$, matching erdosproblems.com. The version of 2026-09-18 linked
+above postdates the fix. Under the earlier definition the bounty site
+Conjectures.io published `erdos_567.parts.i` as a task (frozen statement
+`True ↔ Erdos567.Q3.IsRamseySizeLinear`; the catalog revision Conjectures.io
+names is one of its own task catalog, not of formal-conjectures) and accepted a
+Lean refutation of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052,
 [solution](https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution)
 and
 [Lean file](https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution/download);
 kernel verified 6 August 2026, review decided 7 August 2026, certified 8 August
-2026). The site's manual review classified the acceptance as a
+2026). Conjectures.io's manual review classified the acceptance as a
 formalization-defect award: the frozen statement "materially differs from the
 intended Erdős Problem 567(i)", the proof "validly refutes the frozen
-size-Ramsey statement" but "does not settle the intended open problem", and the
-site paid its formalization-defect award instead of the displayed bounty; the
-task was withdrawn on 12 August 2026 for source mismatch, and the site's
-problems catalog listed no task for this problem on 2026-09-27. The refutation
-shows that for every $c\ge1$ and all large $n$ no host graph with at most
-$c\binom n2$ edges arrows $(Q_3,K_n)$: a graph with $m$ edges has at most
-$(2m)^4$ labeled copies (embeddings) of $Q_3$, each determined by the images of
-the four matching edges that change the first coordinate, and a weighted first
-moment with red probability $A/n$, summed over those copies and over the
-$n$-sets of vertices of degree at least $n-1$ that carry all $\binom n2$ edges,
-leaves mass for neither a red $Q_3$ nor a blue $K_n$. Hence $\hat r(Q_3,K_n)$ is
-superlinear in $e(K_n)$ (a consequence drawn here from the file's
-`no_small_host` and `sizeRamsey_set_nonempty`; its final theorem is only the
-negation of the pre-fix `IsRamseySizeLinear Q3`). It says nothing about
-$R(Q_3,H)$, $K_{3,3}$ or $H_5$. The site's verification report records kernel
-acceptance with propext, Quot.sound and Classical.choice as the only axioms, a
-static scan with no imports, axiom declarations, sorry, native_decide or unsafe
-options, and no second-kernel run. The file (759 lines, 37,650 bytes, matching
-the site's printed proof digest) has not been built here; its final theorems are
-`not_isRamseySizeLinear_Q3 : ¬ IsRamseySizeLinear Q3` (line 727),
-`main : ¬ (True ↔ IsRamseySizeLinear Q3)` (line 755) and
+size-Ramsey statement" but "does not settle the intended open problem", and
+Conjectures.io paid its formalization-defect award instead of the displayed
+bounty; the task was withdrawn on 12 August 2026 for source mismatch, and
+Conjectures.io's problems catalog listed no task for this problem on 2026-09-27.
+The refutation shows that for every $c\ge1$ and all large $n$ no host graph with
+at most $c\binom n2$ edges arrows $(Q_3,K_n)$: a graph with $m$ edges has at
+most $(2m)^4$ labeled copies (embeddings) of $Q_3$, each determined by the
+images of the four matching edges that change the first coordinate, and a
+weighted first moment with red probability $A/n$, summed over those copies and
+over the $n$-sets of vertices of degree at least $n-1$ that carry all
+$\binom n2$ edges, leaves mass for neither a red $Q_3$ nor a blue $K_n$. Hence
+$\hat r(Q_3,K_n)$ is superlinear in $e(K_n)$ (a consequence drawn here from the
+file's `no_small_host` and `sizeRamsey_set_nonempty`; its final theorem is only
+the negation of the pre-fix `IsRamseySizeLinear Q3`). It says nothing about
+$R(Q_3,H)$, $K_{3,3}$ or $H_5$. Conjectures.io's verification report records
+kernel acceptance with propext, Quot.sound and Classical.choice as the only
+axioms, a static scan with no imports, axiom declarations, sorry, native_decide
+or unsafe options, and no second-kernel run. The file (759 lines, 37,650 bytes,
+matching Conjectures.io's printed proof digest) has not been built here; its
+final theorems are `not_isRamseySizeLinear_Q3 : ¬ IsRamseySizeLinear Q3` (line
+727), `main : ¬ (True ↔ IsRamseySizeLinear Q3)` (line 755) and
 `target : ¬ (fcTypeOfName% "Erdos567.erdos_567.parts.i") := main` (line 759).
-The pinned catalog blob the site links was not reachable on 2026-09-27, so the
-frozen definition is taken from the diff of the fix of 9 September 2026 against
-its parent, and from the proof itself, which at line 751 rewrites
+The pinned catalog blob Conjectures.io links was not reachable on 2026-09-27, so
+the frozen definition is taken from the diff of the fix of 9 September 2026
+against its parent, and from the proof itself, which at line 751 rewrites
 `F.edgeSet.ncard = sizeRamsey Q3 (⊤ : SimpleGraph (Fin n))` into the
 `IsRamseySizeLinear` bound as a definitional identity, which typechecks only
 against the size-Ramsey definition. Statement only remains the standing of the
-catalog question.
+erdosproblems.com question.
 
 **Provenance of the proof file.**
 https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution/download,
@@ -189,8 +190,8 @@ fetched 2026-09-27, 37,650 bytes.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; status OPEN; last edited 18 January 2026. The commentary, in
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; status OPEN; last edited 18 January 2026. The commentary, in
 summary, restates the question as whether $G$ is Ramsey size linear, places
 it as a special case of Problem 566, notes that [Er95] asks about $K_{3,3}$
 in particular, identifies $H_5$ with $K_4^*$, that is, $K_4$ with one edge
@@ -232,10 +233,10 @@ further problems I have to refer to our paper."
 the three theorem statements agree with the SIAM version's):
 
 - Theorem 3 bounds $R(K_4^*,F)$ by $O(e(F))$ whenever $F$ is bipartite and
-  has no isolated vertex. This is the site's second sentence on [BGS23], and it
-  is the $H_5$ case of the problem restricted to bipartite $H$. The paper
-  introduces it by recalling that [EFRS93] asked whether $K_4^*$ is Ramsey
-  size linear and that [BSS02] repeated the question, and then: "While we
+  has no isolated vertex. This is erdosproblems.com's second sentence on
+  [BGS23], and it is the $H_5$ case of the problem restricted to bipartite $H$.
+  The paper introduces it by recalling that [EFRS93] asked whether $K_4^*$ is
+  Ramsey size linear and that [BSS02] repeated the question, and then: "While we
   cannot supply an affirmative answer, we can show that (1) at the very
   least holds for every bipartite graph $F$" (p. 2; its (1) is the
   size-linear bound).
@@ -256,10 +257,10 @@ the three theorem statements agree with the SIAM version's):
 From [EFRS93]: Theorem 5 (p. 394) makes $K_{3,3}-e$ and $Q_3-e$ Ramsey size
 linear (p. 395); Corollary 1 (p. 390) shows that $K_4$, with $q=6=2p-2$, is
 not, through Theorem 2's local-lemma bound $r(K_4,K_n)>C(n/\log n)^{5/2}$
-against the $\binom n2$ edges of $K_n$, which is the site's parenthetical
-remark in a weaker form (the site cites the $n^{3-o(1)}$ bound of Problem
-166, which is not needed for this). The proofs of these theorems are
-followed for structure only.
+against the $\binom n2$ edges of $K_n$, which is the erdosproblems.com
+parenthetical remark in a weaker form (erdosproblems.com cites the $n^{3-o(1)}$
+bound of Problem 166, which is not needed for this). The proofs of these
+theorems are followed for structure only.
 
 Size-Ramsey variant only. The Conjectures.io Lean file of 6 August 2026
 proves (`no_small_host`) that for every $c\ge1$ and all large $n$ no host
@@ -289,10 +290,10 @@ size-linearity would put $R(G,K_n)$ at $O(n^2)$, so even the complete-graph
 case is undecided by the sources read; a lower bound of order $n^{2+c}$ for
 any of the three graphs would answer the problem in the negative.
 
-**Search scope.** None of the routes below found a proof,
+**Search scope (2026-09-18 UTC).** None of the routes below found a proof,
 disproof, preprint or claim for any of the three graphs.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file (statement only); the community database record.
 - The primary sources: [EFRS93] printed pp. 390, 394, 395 and 398; [BGS24]
   arXiv v2 pp. 1--3; [Er95] p. 12 of the typescript.
@@ -341,7 +342,7 @@ complete-graph case is undecided, with a gap between $(n/\log n)^2$ and
 $O(n^3)$ for $K_{3,3}$ and between $(n/\log n)^2$ and $O(n^{5/2})$ for $H_5$.
 (3) Proof coverage: statements checked
 clause by clause; no proof was reviewed and there is no resolving proof to
-compile. (4) The site's locator [Er95, p. 177] refers to the journal
+compile. (4) The erdosproblems.com locator [Er95, p. 177] refers to the journal
 pagination; the author's typescript has its own, and the passage is on its
 p. 12. (5) The Lean file is a statement, not a proof; its
 definition of Ramsey size linearity was the size Ramsey number until 9

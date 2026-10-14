@@ -4,7 +4,7 @@ desc: The 4 claim pages of Problem 133, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:08:44Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T01:26:14Z
 ---
 
 # problems/extremal_graph_theory/E0133/claims
@@ -25,7 +25,7 @@ symmetric complete sum-free subset of size $O(\sqrt n)$. Its Cayley graph is
 triangle-free of diameter two with degree $O(\sqrt n)$, so $f(n)$ has order
 $\sqrt n$.
 
-[[problems/extremal_graph_theory/E0133/claims/2026_09_15_korsky|2026_09_15_korsky]]: A proof claim by Korsky on the site's proof-claim tab asserts that
+[[problems/extremal_graph_theory/E0133/claims/2026_09_15_korsky|2026_09_15_korsky]]: A proof claim by Korsky on the erdosproblems.com proof-claim tab asserts that
 $f(n)=(1+o(1))\sqrt n$, the sharp constant Alon conjectured, using a fibered
 polarity graph. It is unreviewed, and the proof is in an external file.
 

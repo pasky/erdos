@@ -28,10 +28,10 @@ between $A$ and $B$ and a set $S$ which contains exactly one vertex from each
 path in $P$, and such that every path between $A$ and $B$ contains at least one
 vertex from $S$?
 
-**Status.** Proved. The site's commentary credits Aharoni and Berger. The
-frontmatter standing derives from the accepted claim page
+**Status.** Proved. The erdosproblems.com commentary credits Aharoni and Berger.
+The frontmatter standing derives from the accepted claim page
 [[problems/set_theory/E0599/claims/2005_09_18_aharoni_berger|Aharoni and Berger's infinite Menger theorem]],
-which was accepted on its refereed publication and the site's credit.
+which was accepted on its refereed publication and the erdosproblems.com credit.
 
 **Source.** [erdosproblems.com/599](https://www.erdosproblems.com/599), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #599,
@@ -62,11 +62,11 @@ is recorded here.
 **Claims.** The settling result is
 [[problems/set_theory/E0599/claims/2005_09_18_aharoni_berger|Aharoni and Berger's theorem]]
 (arXiv 2005, *Inventiones Mathematicae* 2009), refereed and credited by the
-site's curator; the claim page records the directed statement and the
+erdosproblems.com curator; the claim page records the directed statement and the
 bidirected-edge transfer to the undirected question. No other claim on the
-problem is recorded: the site's proof-claims page showed no claims, on
-2026-10-07 its thread showed no comments, and the formal-conjectures file holds
-statements only.
+problem is recorded: the erdosproblems.com proof-claims page showed no claims,
+on 2026-10-07 its thread showed no comments, and the formal-conjectures file
+holds statements only.
 
 ## Progress
 

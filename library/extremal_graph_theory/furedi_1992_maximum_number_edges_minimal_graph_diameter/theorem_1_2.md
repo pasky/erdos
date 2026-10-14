@@ -93,6 +93,6 @@ of this paper.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0742/_index|Problem 742]]: the large-$n$
-  theorem behind the site's DECIDABLE label; the finite remainder $n\le n_0$
-  has no stated extent, and the checked part of it is Fan's $n\le24$ and
-  $n=26$ as this paper attests it.
+  theorem behind erdosproblems.com's DECIDABLE label; the finite remainder
+  $n\le n_0$ has no stated extent, and the checked part of it is Fan's $n\le24$
+  and $n=26$ as this paper attests it.

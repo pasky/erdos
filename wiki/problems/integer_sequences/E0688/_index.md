@@ -27,25 +27,25 @@ a_p\pmod{p}$.
 
 Estimate $\epsilon_n$ - in particular is it true that $\epsilon_n=o(1)$?
 
-**Formulation.** The site's wording, accessed 2026-09-18 (page last edited 7
-April 2026). Lowering the exponent admits more primes, so
-the admissible exponents form a down-set and the question concerns their
-supremum; the formal-conjectures file encodes exactly that supremum. Erdős's
-1979 text calls $\epsilon_n$ "the smallest number" for which such residues
-exist ([Er79d], p. 79), a slip, since the smallest admissible exponent is
-not a meaningful quantity; his 1980 survey says "the largest number"
-([Er80], p. 106) and the site says "maximal". The survey's version has the
-integers $n<x$ and the primes $x^{\epsilon_x}<p<x$ with strict inequalities,
-the site's has $[1,n]$ and $n^{\epsilon_n}<p\le n$; the difference is
+**Formulation.** The erdosproblems.com wording, accessed 2026-09-18 (page last
+edited 7 April 2026). Lowering the exponent admits more primes, so the
+admissible exponents form a down-set and the question concerns their supremum;
+the formal-conjectures file encodes exactly that supremum. Erdős's 1979 text
+calls $\epsilon_n$ "the smallest number" for which such residues exist ([Er79d],
+p. 79), a slip, since the smallest admissible exponent is not a meaningful
+quantity; his 1980 survey says "the largest number" ([Er80], p. 106) and
+erdosproblems.com says "maximal". The survey's version has the integers $n<x$
+and the primes $x^{\epsilon_x}<p<x$ with strict inequalities,
+erdosproblems.com's has $[1,n]$ and $n^{\epsilon_n}<p\le n$; the difference is
 immaterial for the order of $\epsilon_n$. Two questions: the estimate, to
 which the label OPEN attaches, and the displayed question $\epsilon_n=o(1)$,
 also open. Problem 687 uses all primes up to $x$ and optimizes the covered
 interval; here the interval is fixed and the window of primes is truncated
 from below.
 
-**Status.** Open. The site labeled the problem OPEN. Two results are in hand.
-The first is Erdős's lower bound $\epsilon_n\gg\log\log\log n/\log\log n$. He
-asserts it in [Er79d] p. 79 ("I can prove") and [Er80] p. 106 ("It is not
+**Status.** Open. Bloom's catalog labeled the problem OPEN. Two results are in
+hand. The first is Erdős's lower bound $\epsilon_n\gg\log\log\log n/\log\log n$.
+He asserts it in [Er79d] p. 79 ("I can prove") and [Er80] p. 106 ("It is not
 difficult to prove"), without a proof in either source. The formal-conjectures
 collection marks it `research solved` as a variant. The second is the elementary
 counting bound $\limsup\epsilon_n\le1/e$, proved under What is known. No upper
@@ -58,8 +58,8 @@ $c$", that is, the answer to the displayed question would be no.
 
 **Source.** [erdosproblems.com/688](https://www.erdosproblems.com/688),
 accessed 2026-09-18: the problem page (OPEN, with
-the site's note that no finite computation can settle it; last edited 7
-April 2026; source keys [Er79d], [Er80, p. 106]; commentary citing Problems
+the erdosproblems.com note that no finite computation can settle it; last edited
+7 April 2026; source keys [Er79d], [Er80, p. 106]; commentary citing Problems
 687, 689 and 1200; the formalized-statement indicator set), its empty discussion
 thread and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
 #688, https://www.erdosproblems.com/688, accessed 2026-09-18.
@@ -107,12 +107,12 @@ unformalized and no formal-proof URL.
 
 ## Current assessment
 
-**The question (site formulation, accessed 2026-09-18).** The statement
-above; OPEN, with the site's note that no finite computation can settle
-it; last edited 7 April 2026. The whole commentary, in this page's words:
-Erdős could prove $\epsilon_n\gg\log\log\log n/\log\log n$, and Problems
-687, 689 and 1200 are related. The thread and the proof-claim tab are
-empty.
+**The question (erdosproblems.com formulation, accessed 2026-09-18).** The
+statement above; OPEN, with the erdosproblems.com note that no finite
+computation can settle it; last edited 7 April 2026. The whole commentary, in
+this page's words: Erdős could prove $\epsilon_n\gg\log\log\log n/\log\log n$,
+and Problems 687, 689 and 1200 are related. The thread and the proof-claim tab
+are empty.
 
 **The origins.** [Er79d] p. 79
 ([[../library/arithmetic_functions/erdos_1979_unconventional_problems_number_theory/section_3|result page]])
@@ -122,18 +122,19 @@ $n^{\varepsilon_n}<p\le n$ with every positive integer $x\le n$ in at least one
 of the classes, and asks: "Is it true that $\varepsilon_n\to0$ as $n\to\infty$?
 I can prove that $\varepsilon_n>c\log\log\log n/\log\log n$." The preceding
 problem is the function $B(n)$ of Problem 687, the least prime cutoff whose
-residue classes cover $[1,n]$; the site's header locator gives no page for
-[Er79d], and the passage is on p. 79. [Er80] p. 106 defines $\varepsilon_x$ as
-the largest number for which some system of congruences $a_p\pmod p$ over the
-primes $x^{\varepsilon_x}<p<x$ (the display (1')) has every integer $n<x$ in at
-least one class, and states: "It is not difficult to prove that
-$\varepsilon_x\ge\frac{c\log\log\log x}{\log\log x}$, but perhaps
+residue classes cover $[1,n]$; the erdosproblems.com header locator gives no
+page for [Er79d], and the passage is on p. 79. [Er80] p. 106 defines
+$\varepsilon_x$ as the largest number for which some system of congruences
+$a_p\pmod p$ over the primes $x^{\varepsilon_x}<p<x$ (the display (1')) has
+every integer $n<x$ in at least one class, and states: "It is not difficult to
+prove that $\varepsilon_x\ge\frac{c\log\log\log x}{\log\log x}$, but perhaps
 $\varepsilon_x$ is much larger." Erdős then records the conjecture he made with
 Ruzsa, which he calls surprising: for some constant $C$ there are primes $p_i<x$
 with $\sum1/p_i<C$ and classes $a_i\pmod{p_i}$ covering every integer $n<x$; and
 he adds that, if so, "very likely $\varepsilon_x>c$ for some absolute constant
 $c$", pointing to a joint paper then due to appear in the Journal of Number
-Theory. That paper is [ErRu80], and the conjecture is the site's Problem 1200.
+Theory. That paper is [ErRu80], and the conjecture is erdosproblems.com's
+Problem 1200.
 
 **What is known.** The lower bound
 $\epsilon_n\gg\log\log\log n/\log\log n$ only, asserted by Erdős twice and
@@ -181,8 +182,8 @@ about $\epsilon_n$ as it stands.
 **Search scope.** None of the routes below found a proof
 of Erdős's lower bound, an upper bound for $\epsilon_n$, or a proof claim.
 
-- The site: problem page, discussion thread and proof-claim tab, accessed
-  2026-09-18; formal-conjectures `688.lean` at the commit linked under
+- erdosproblems.com: problem page, discussion thread and proof-claim tab,
+  accessed 2026-09-18; formal-conjectures `688.lean` at the commit linked under
   Formalization; the community database, accessed 2026-09-18.
 - arXiv: the API queries `all:Jacobsthal` (40 newest records),
   `abs:"large gaps between primes" OR abs:"long gaps between primes" OR

@@ -43,9 +43,10 @@ infinitely many $n$, some $n$-vertex subgraph of $G$ has no independent set
 larger than $(1/2-\epsilon)n$, so for $f(m)=o(m)$ no graph of uncountable
 chromatic number has the problem's property. The paper also cites Folkman's
 theorem that if every $n$ vertices of $G$ contain an independent set of size at
-least $n/2-k$ then $\chi(G)\le2k+2$, so no bounded $f$ works. The site's
-commentary credits the linear case to this paper following a comment of
-2025-10-13 on the discussion thread that names Theorem 1 as its reference.
+least $n/2-k$ then $\chi(G)\le2k+2$, so no bounded $f$ works. The
+erdosproblems.com commentary credits the linear case to this paper following a
+comment of 2025-10-13 on the discussion thread that names Theorem 1 as its
+reference.
 
 **Covers.** The linear case, every $f$ with $f(m)\ge\epsilon m$ for a fixed
 $\epsilon>0$, which
@@ -72,8 +73,8 @@ day, and the day in the page name is a placeholder.
 117–123, the volume *Theory and practice of combinatorics* dedicated to Kotzig,
 a book-series volume of articles in Kotzig's honor, not a journal, with no
 record that it was refereed, so the page lists no `refereed` evidence; the
-site's curator credits the paper with the linear case while labeling the problem
-PROVED (LEAN) on Chojecki's result, so the credit is not `reviewed` evidence
-either, and the page stays `claimed`. The formal-conjectures statement file
-states the linear case as `erdos_750.variants.epsilon`, research solved with a
-`sorry` body, so no Lean proof is recorded.
+erdosproblems.com curator credits the paper with the linear case while labeling
+the problem PROVED (LEAN) on Chojecki's result, so the credit is not `reviewed`
+evidence either, and the page stays `claimed`. The formal-conjectures statement
+file states the linear case as `erdos_750.variants.epsilon`, research solved
+with a `sorry` body, so no Lean proof is recorded.

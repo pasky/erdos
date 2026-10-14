@@ -29,7 +29,7 @@ $$
 f(n;C)\le O(n^{8/5}) \tag{5}
 $$"
 
-In the catalog's notation, $\mathrm{ex}(n;Q_3)=O(n^{8/5})$. The paper's
+In the erdosproblems.com notation, $\mathrm{ex}(n;Q_3)=O(n^{8/5})$. The paper's
 display (10) (p. 379 = PDF p. 3) generalizes it to
 $f(n;\{K(r,r)-3\})=O(n^{2-2/(2r-3)})$, "which is a generalization of (5)";
 for $r=4$ the exponent is $2-2/5=8/5$.
@@ -69,6 +69,6 @@ and does not prove.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: the upper bound
-  $\mathrm{ex}(n;Q_3)\ll n^{8/5}$ that the site attributes to [ErSi70],
-  unimproved since; the site's parenthetical that Erdős had conjectured
-  $\mathrm{ex}(n;Q_3)\gg n^{5/3}$ is the sentence before (5).
+  $\mathrm{ex}(n;Q_3)\ll n^{8/5}$ that erdosproblems.com attributes to [ErSi70],
+  unimproved since; the erdosproblems.com parenthetical that Erdős had
+  conjectured $\mathrm{ex}(n;Q_3)\gg n^{5/3}$ is the sentence before (5).

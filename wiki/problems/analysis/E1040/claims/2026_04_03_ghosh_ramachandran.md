@@ -71,7 +71,7 @@ nor about unbounded closed sets.
 **Refereed.** Proceedings of the American Mathematical Society, DOI
 10.1090/proc/17897, published online 28 August 2026 according to the Crossref
 record (checked 2026-10-07; no volume or pages assigned); the arXiv comments
-of v3 state the acceptance. The site's commentary, last edited 1 February
-2026, does not name the paper; a thread comment of 6 April 2026 pointed to the
-preprint, and later claimants on the second question cite the theorem for the
-case of capacity above $1$.
+of v3 state the acceptance. The erdosproblems.com commentary, last edited 1
+February 2026, does not name the paper; a thread comment of 6 April 2026 pointed
+to the preprint, and later claimants on the second question cite the theorem for
+the case of capacity above $1$.

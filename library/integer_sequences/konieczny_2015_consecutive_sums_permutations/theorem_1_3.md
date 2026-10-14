@@ -56,8 +56,8 @@ cites Dharmadhikari and Joag-Dev 1988 (Thm. 1.6).
 
 ## Bears on
 
-- [[../wiki/problems/number_theory/E0034/_index|Problem 34]]: the site's "for a random
-  permutation we have $S(\pi)\sim\frac{1+e^{-2}}4n^2$", the sense in which
-  the site calls the $o(n^2)$ conjecture "extremely false": the typical
-  permutation, not only an extremal one, has order $n^2$ distinct
-  consecutive sums.
+- [[../wiki/problems/number_theory/E0034/_index|Problem 34]]:
+  erdosproblems.com's "for a random permutation we have
+  $S(\pi)\sim\frac{1+e^{-2}}4n^2$", the sense in which erdosproblems.com calls
+  the $o(n^2)$ conjecture "extremely false": the typical permutation, not only
+  an extremal one, has order $n^2$ distinct consecutive sums.

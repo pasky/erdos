@@ -44,9 +44,9 @@ the question is no for both. The general almost-everywhere upper bound stands
 at $D(N)\ll N^{1/2}(\log N)^{3/2+o(1)}$ (Baker [Ba81], improving the exponent
 $5/2$ of Erdős–Koksma [ErKo49] and Cassels [Ca50]), so for a general integer
 sequence the extremal power of $\log N$ lies between $1/2$ and $3/2$. The
-lacunary case is different: Erdős and Gál (unpublished, as the site records)
-obtained $D(N)\ll N^{1/2}(\log\log N)^{O(1)}$ almost everywhere, and a
-separate 1949 Erdős–Koksma paper on lacunary sequences, not the site's
+lacunary case is different: Erdős and Gál (unpublished, as erdosproblems.com
+records) obtained $D(N)\ll N^{1/2}(\log\log N)^{O(1)}$ almost everywhere, and a
+separate 1949 Erdős–Koksma paper on lacunary sequences, not erdosproblems.com's
 [ErKo49], is on the
 [[../library/discrepancy/erdos_1949_uniform_distribution_modulo_1_lacunary_sequences/_index|1949 card]].
 
@@ -69,12 +69,12 @@ alone.
 
 **Acceptance.** The result is refereed: I. Berkes and W. Philipp, The size of
 trigonometric and Walsh series and uniform distribution mod 1, J. London Math.
-Soc. (2) 50 (1994), no. 3, 454–464. Reviewed: the site's curator, T. F. Bloom,
-records the problem as disproved by this paper (site page last edited
-2026-01-29).
+Soc. (2) 50 (1994), no. 3, 454–464. Reviewed: the erdosproblems.com curator, T.
+F. Bloom, records the problem as disproved by this paper (erdosproblems.com page
+last edited 2026-01-29).
 
-The site page thanks the Superhuman Reasoning team at Google DeepMind. Feng and
-others (2026), on the
+The erdosproblems.com page thanks the Superhuman Reasoning team at Google
+DeepMind. Feng and others (2026), on the
 [[../library/distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|Feng et al. card]],
 list Problem 992 among the problems for which their Gemini-based research agent,
 Aletheia, pointed to existing literature. For this problem the literature was
@@ -82,5 +82,5 @@ this paper. That is a literature identification, not a new result.
 
 The paper's print date is known only to the month (December 1994), so this page
 is dated to the first day of that month. The paper is not held in the library.
-The statement above is recorded from the site's remark and the citation, and the
-Lean development states the same inequality.
+The statement above is recorded from the erdosproblems.com remark and the
+citation, and the Lean development states the same inequality.

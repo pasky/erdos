@@ -62,9 +62,9 @@ version and the arXiv v1 are held at the paper's
 **Acceptance.** Refereed: the Bulletin of the London Mathematical Society is a
 refereed journal, and the paper is its open-access version of record. It was
 received 7 October 2024, accepted 17 November 2025 and published online 17
-December 2025. Reviewed: T. F. Bloom, the site's curator, labeled the problem
-DISPROVED and credits the resolution to this paper. In the commentary, Bloom
-records that the statement fails already at $k=2$ and states the
+December 2025. Reviewed: T. F. Bloom, the erdosproblems.com curator, labeled the
+problem DISPROVED and credits the resolution to this paper. In the commentary,
+Bloom records that the statement fails already at $k=2$ and states the
 chromatic-number bound (snapshot of 2026-09-05, page last edited 22 January
 2026). Bloom took no part in the paper. The thread and the proof-claims tab are
 empty. No independent review is recorded or claimed.

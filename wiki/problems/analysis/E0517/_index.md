@@ -24,7 +24,7 @@ updated: 2026-10-07T20:33:08Z
 (with $a_k\neq 0$ for all $k\geq 1$). Is it true that if $n_k/k\to \infty$ then
 $f(z)$ assumes every value infinitely often?
 
-**Status.** Open. The site labeled the problem OPEN (page last edited 29
+**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 29
 December 2025) and notes that it cannot be resolved by a finite computation. The
 frontmatter standing derives from the claim pages and stays open, since no claim
 settles the whole question. Three partial claims settle subclasses of the
@@ -63,8 +63,8 @@ formal proof. Neither theorem has a Lean proof recorded here.
 
 ## Current assessment
 
-The question, which the site records as a conjecture of Fejér and Pólya,
-asks whether an entire gap series $\sum a_kz^{n_k}$ with $a_k\ne0$ and
+The question, which erdosproblems.com records as a conjecture of Fejér and
+Pólya, asks whether an entire gap series $\sum a_kz^{n_k}$ with $a_k\ne0$ and
 $n_k/k\to\infty$ takes every complex value infinitely often. It is settled
 on two overlapping subclasses and open on the rest. For $f$ of finite
 order the answer is yes by Pólya's theorem [Po29]: the question's
@@ -90,10 +90,10 @@ What remains open is the class of functions of infinite order with
 $n_k/k\to\infty$ and $\sum1/n_k=\infty$, which Murai's introduction
 singles out as the difficult regime. No proof claim for that class was
 found, and no claim settles the whole question, so the standing is open.
-The theorem statements follow the site's commentary and Murai's paper
+The theorem statements follow the erdosproblems.com commentary and Murai's paper
 ([[../library/analysis/murai_1983_deficiency_entire_functions_fejer_gaps/_index|library card]]);
 the papers of Fejér, Biernacki and Pólya are not held and their proofs are
-not reconstructed here. Search scope: the site's problem page, its
+not reconstructed here. Search scope: the erdosproblems.com problem page, its
 discussion thread (on 2026-10-07 one comment, of 2026-03-26, citing Murai) and
 its empty proof-claims tab, the community database entry and the
 formal-conjectures file; no literature search beyond Murai's bibliography.

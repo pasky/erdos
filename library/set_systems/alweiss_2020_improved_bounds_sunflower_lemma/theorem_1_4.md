@@ -3,7 +3,7 @@ name: set_systems/alweiss_2020_improved_bounds_sunflower_lemma/theorem_1_4
 title: "Theorem 1.4: a w-set system of size (C r^3 log w log log w)^w contains an r-sunflower"
 desc: |
   The main sunflower theorem of Alweiss, Lovett, Wu and Zhang, the input of
-  the site's subpolynomial upper bound for the equal-gcd problem.
+  erdosproblems.com's subpolynomial upper bound for the equal-gcd problem.
 created: 2026-09-18T06:20:00Z
 updated: 2026-10-08T14:29:35Z
 ---
@@ -68,9 +68,9 @@ Theorem 1.9; no external premise beyond these.
   $\lceil(Ck^3\log n\log\log n)^n\rceil$, that is
   $(\log n)^{n(1+o(1))}$ for fixed $k$, under the paper's conventions on
   $\log$; this is not the $c_k^n$ bound the problem asks for.
-- [[../wiki/problems/integer_sequences/E0535/_index|Problem 535]]: the input of the
-  site's derivation $f_r(N)\le N^{C_r\log\log\log N/\log\log N}$, obtained
-  by inserting this theorem, or its later sharpenings recorded on p. 12, in
-  place of the Erdős–Rado bound in the decomposition Erdős sketches in 1964;
-  the corpus has not checked that derivation, and the paper itself does not
-  discuss the equal-gcd problem.
+- [[../wiki/problems/integer_sequences/E0535/_index|Problem 535]]: the input of
+  erdosproblems.com's derivation $f_r(N)\le N^{C_r\log\log\log N/\log\log N}$,
+  obtained by inserting this theorem, or its later sharpenings recorded on p.
+  12, in place of the Erdős–Rado bound in the decomposition Erdős sketches in
+  1964; the corpus has not checked that derivation, and the paper itself does
+  not discuss the equal-gcd problem.

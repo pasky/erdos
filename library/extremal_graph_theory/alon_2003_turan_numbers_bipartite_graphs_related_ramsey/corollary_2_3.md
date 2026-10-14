@@ -58,10 +58,10 @@ tightness remark cites norm graphs (Alon--Rónyai--Szabó 1999, Kollár--Rónyai
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E0146/_index|Problem 146]]: the site's
-  sentence "They also prove the full Erdős-Simonovits conjectured bound if
-  $H$ is bipartite and the maximum degree in one side of the bipartition is
-  $r$" is this corollary.
+- [[../wiki/problems/extremal_graph_theory/E0146/_index|Problem 146]]: the
+  erdosproblems.com sentence "They also prove the full Erdős-Simonovits
+  conjectured bound if $H$ is bipartite and the maximum degree in one side of
+  the bipartition is $r$" is this corollary.
 - [[../wiki/problems/extremal_graph_theory/E0576/_index|Problem 576]]: with $H=Q_k$, a
   $k$-regular bipartite graph, the corollary gives
   $\mathrm{ex}(n,Q_k)=O(n^{2-1/k})$, the general upper bound the problem

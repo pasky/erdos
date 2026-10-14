@@ -53,8 +53,8 @@ and saying "One of the purposes of this paper is to give an affirmative
 answer to this question." Numerically $2^{1/4}\approx1.1892$,
 $\sqrt{p_1}\approx1.1510$ and $\sqrt{p_2}\approx1.1749$ ($p_1$ the real root
 of $x^3=x+1$, $p_2$ the real root above 1 of $x^4=x^3+1$; the problem page
-and the site write $q_0$ and $q_1$ for these), so the theorem covers every
-$q$ in $(1,\sqrt{p_2})\cup(\sqrt{p_2},2^{1/4}]$, and the problem's
+and erdosproblems.com write $q_0$ and $q_1$ for these), so the theorem covers
+every $q$ in $(1,\sqrt{p_2})\cup(\sqrt{p_2},2^{1/4}]$, and the problem's
 $\epsilon$ may be any number at most $\sqrt{p_2}-1\approx0.175$.
 
 **Source.** P. Erdős and V. Komornik, *Developments in non-integer bases*,
@@ -145,5 +145,5 @@ $x^4-x^3-1$ and $x^5-x^4-x^3+x^2-1$.
   of the 1990 Problem 4; with $m=1$, $x_{k+1}-x_k\to0$ for every
   $1<q\le2^{1/4}$ other than $\sqrt{p_2}$, hence for every $q$ in
   $(1,1+\epsilon)$ with $\epsilon\le\sqrt{p_2}-1\approx0.175$. The printed
-  range is the one Feng's introduction reports; the site's range
+  range is the one Feng's introduction reports; erdosproblems.com's range
   $(1,\sqrt{q_1})$ is its part below the excluded point.

@@ -63,6 +63,7 @@ The definition of $f$ and the maximum-clique partition; no external results.
 
 ## Bears on
 
-- [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]: the site's "it
-  suffices to consider the case $t\le c$": with $t=r$, $c=n$, the existence of
-  $d(t,c)$ for all $t$ follows from its existence for $t\le c$.
+- [[../wiki/problems/extremal_graph_theory/E1111/_index|Problem 1111]]:
+  erdosproblems.com's "it suffices to consider the case $t\le c$": with $t=r$,
+  $c=n$, the existence of $d(t,c)$ for all $t$ follows from its existence for
+  $t\le c$.

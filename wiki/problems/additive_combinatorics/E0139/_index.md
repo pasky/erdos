@@ -28,20 +28,20 @@ progression. Prove that $r_k(N)=o(N)$.
 **Status.** PROVED (LEAN). Szemerédi's 1975 theorem, refereed in Acta
 Arithmetica, answers the question; see
 [[problems/additive_combinatorics/E0139/claims/1975_01_01_szemeredi|the claim page]].
-The site's Lean qualification refers to a Lean proof of the theorem in Boris
-Alexeev's lean-proofs repository, which formal-conjectures points to. That
-development declares itself a formalization of Szemerédi's theorem and is linked
-from its claim page. This corpus has neither built nor audited it. The OpenAI
-release's quasipolynomial bound for every fixed $k\ge3$ is a second route. It is
-accepted on
+The erdosproblems.com Lean qualification refers to a Lean proof of the theorem
+in Boris Alexeev's lean-proofs repository, which formal-conjectures points to.
+That development declares itself a formalization of Szemerédi's theorem and is
+linked from its claim page. This corpus has neither built nor audited it. The
+OpenAI release's quasipolynomial bound for every fixed $k\ge3$ is a second
+route. It is accepted on
 [[problems/additive_combinatorics/E0139/claims/2026_09_23_openai|its claim page]]
 through its Lean declaration of a weaker saving that still gives $r_k(N)=o(N)$.
 This corpus's verification built and axiom-checked that declaration. No
 comparator challenge pins it, and the manuscript's own bound is unreviewed. The
-site's commentary credits as the best known bounds those of Kelley and Meka for
-$k=3$ (sharpened by Bloom and Sisask), Green and Tao for $k=4$, and Leng, Sah
-and Sawhney for $k\ge5$. Each proves its instances of the statement with a rate,
-and each has a partial claim page:
+erdosproblems.com commentary credits as the best known bounds those of Kelley
+and Meka for $k=3$ (sharpened by Bloom and Sisask), Green and Tao for $k=4$, and
+Leng, Sah and Sawhney for $k\ge5$. Each proves its instances of the statement
+with a rate, and each has a partial claim page:
 [[problems/additive_combinatorics/E0139/claims/2023_02_10_kelley_meka|Kelley and Meka]],
 [[problems/additive_combinatorics/E0139/claims/2023_09_05_bloom_sisask|Bloom and Sisask]],
 [[problems/additive_combinatorics/E0139/claims/2017_05_04_green_tao|Green and Tao]]

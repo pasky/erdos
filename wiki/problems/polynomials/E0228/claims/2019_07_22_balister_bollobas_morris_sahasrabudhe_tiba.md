@@ -53,14 +53,13 @@ This is Theorem 1.1 of Balister, Bollobás, Morris, Sahasrabudhe and Tiba,
 for such a polynomial at every large degree with constants independent of
 $z$ and $n$, and the theorem supplies one at every degree from $2$ on. Erdős
 asked the question in 1957 (his Problem 26) and Littlewood conjectured the
-answer in 1966; the site traces the conjecture itself to Littlewood. The
-upper bound was classical (Rudin–Shapiro polynomials give
-$\Delta=\sqrt6$, and Spencer's discrepancy method gives it
-nonconstructively); the lower bound, previously known only as
-$n^{0.431}$ by Carroll, Eustice and Figiel, is the paper's contribution. The
-proof combines shifted Rudin–Shapiro blocks with two applications of the
-Spencer–Lovett–Meka partial-coloring theorem, and its explicit constants are
-recorded on the source card
+answer in 1966; erdosproblems.com traces the conjecture itself to Littlewood.
+The upper bound was classical (Rudin–Shapiro polynomials give $\Delta=\sqrt6$,
+and Spencer's discrepancy method gives it nonconstructively); the lower bound,
+previously known only as $n^{0.431}$ by Carroll, Eustice and Figiel, is the
+paper's contribution. The proof combines shifted Rudin–Shapiro blocks with two
+applications of the Spencer–Lovett–Meka partial-coloring theorem, and its
+explicit constants are recorded on the source card
 [[../library/polynomials/balister_2020_flat_littlewood_polynomials_exist/_index|Balister
 et al. 2020]].
 
@@ -73,18 +72,18 @@ November 2020.
 Reviewed: erdosproblems.com labeled the problem proved, credits the answer to
 this paper for every $n\ge2$ and cites it as [BBMST20] (page last edited
 2026-01-23). The corpus counts this as documented independent acceptance by the
-site's curator, T. F. Bloom (erdosproblems.com).
+erdosproblems.com curator, T. F. Bloom (erdosproblems.com).
 
-Not counted as formalized. The site's label was PROVED (LEAN). The Lean it
-refers to is the file `Erdos228.lean` of Boris Alexeev's lean-proofs repository
-(added 2026-08-21, last changed 2026-08-23; the formalization link). The file
-declares itself a formalization of a solution to Problem 228. It names Balister,
-Bollobás, Morris, Sahasrabudhe and Tiba as informal authors and Codex and
-GPT-5.6 Sol as formal authors. It proves `Erdos228.erdos_228`, the statement of
-the formal-conjectures file, which itself holds no proof. As a self-declared
+Not counted as formalized. The erdosproblems.com label was PROVED (LEAN). The
+Lean it refers to is the file `Erdos228.lean` of Boris Alexeev's lean-proofs
+repository (added 2026-08-21, last changed 2026-08-23; the formalization link).
+The file declares itself a formalization of a solution to Problem 228. It names
+Balister, Bollobás, Morris, Sahasrabudhe and Tiba as informal authors and Codex
+and GPT-5.6 Sol as formal authors. It proves `Erdos228.erdos_228`, the statement
+of the formal-conjectures file, which itself holds no proof. As a self-declared
 formalization of this theorem, it is a link on this page and not a claim of its
 own. It was not built or audited here, so the evidence lists no `formalized`
 kind.
 
 The corpus has not verified the proof. The standing rests on the refereeing and
-the site's acceptance, not on a local review.
+erdosproblems.com's acceptance, not on a local review.

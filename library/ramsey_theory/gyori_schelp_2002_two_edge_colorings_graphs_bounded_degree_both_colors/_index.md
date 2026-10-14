@@ -197,13 +197,13 @@ reviewed.
 
 **Bears on.** [[../wiki/problems/ramsey_theory/E0561/_index|#561]]: Theorem 2 (printed
 p. 108, PDF p. 4) is the conditional case of the star-forest formula the
-site's commentary attributes to the paper: "If
+erdosproblems.com commentary attributes to the paper: "If
 $\binom{\ell_j}2>\sum_{i=j}^{s+t}\ell_i$ for all $2\le j\le s+t$, then
 $\hat r(F_1,F_2)=\sum_{k=2}^{s+t}\ell_k$", with $F_1$, $F_2$ and $\ell_k$
 as in Conjecture 1 (p. 106), which is the problem's statement up to
 notation. The inequality is printed strict on p. 106 and on p. 108, as
 [[ramsey_theory/davoodi_2025_conjecture_erdos_size_ramsey_number_star/theorem_1_4|Davoodi, Javadi, Kamranian and Raeisi, Theorem 1.4]]
-and the site restate it; the "$\ge$" of
+and erdosproblems.com restate it; the "$\ge$" of
 [[ramsey_theory/fu_2026_size_ramsey_minimal_graphs_uniform_star_forests/_index|Fu, Luo and Ni]]
 (p. 2) is not the paper's. The paper treats the conjecture as open beyond
 this class (p. 109: "it fails to establish the conjecture in general").

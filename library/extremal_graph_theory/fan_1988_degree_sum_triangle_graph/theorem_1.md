@@ -48,7 +48,7 @@ sum of a triangle forced in every graph with $n$ vertices and more than
 $n^2/4$ edges, is the paper's $f(n,\lfloor n^2/4\rfloor+1)$ (the function
 $f(n,e)$ is nondecreasing in $e$, so the minimum over $e>n^2/4$ is attained
 at the fewest edges). Corollary 1.1 gives $h(n)>21n/16$ for every $n\ge3$,
-the lower bound of the site's commentary, strict as printed.
+the lower bound of the erdosproblems.com commentary, strict as printed.
 
 **Source.** Genghua Fan, *Degree sum for a triangle in a graph*, J. Graph
 Theory 12 (1988), no. 2, 249--263, doi:10.1002/jgt.3190120216; Theorem 1 on
@@ -94,7 +94,7 @@ proof of Theorem 1 cites nothing external.
 ## Bears on
 
 - [[../wiki/problems/extremal_graph_theory/E1033/_index|Problem 1033]]: the lower bound
-  $h(n)>21n/16$, the lower bound the site's commentary credits to the
+  $h(n)>21n/16$, the lower bound the erdosproblems.com commentary credits to the
   paper; it improves the
   $(1+\eta)n$ of
   [[extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_2|Erdős and Laskar 1985, Theorem 2]],

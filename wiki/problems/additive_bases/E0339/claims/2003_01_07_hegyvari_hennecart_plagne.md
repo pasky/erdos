@@ -41,16 +41,17 @@ addition and further results*, J. Reine Angew. Math. 560 (2003), 199--220.
 The same paper answers the companion question of Erdős and Graham, that if
 the integers which are sums of $r$ elements of $A$ have positive upper
 density then so do the integers which are sums of exactly $r$ distinct
-elements of $A$; the site's commentary records both answers. The paper is
-not held here, and its theorem numbering is not recorded; the statements are
-cited through the site's commentary and the journal record.
+elements of $A$; the erdosproblems.com commentary records both answers. The
+paper is not held here, and its theorem numbering is not recorded; the
+statements are cited through the erdosproblems.com commentary and the journal
+record.
 
 **Acceptance.** Refereed: the paper is a journal article (Crelle's Journal).
 Crossref gives the issue date 2003-01-07, which is the page's date. Reviewed:
-the site's curator, T. F. Bloom, credits the affirmative answer to it (page last
-edited 2025-10-14, read 2026-10-07) and labeled the problem proved at
-erdosproblems.com. This is the site's acceptance. The proof is not compiled or
-reviewed here.
+the erdosproblems.com curator, T. F. Bloom, credits the affirmative answer to it
+(page last edited 2025-10-14, read 2026-10-07) and labeled the problem proved at
+erdosproblems.com. This is erdosproblems.com's acceptance. The proof is not
+compiled or reviewed here.
 
 **The Lean file.** Boris Alexeev's `lean-proofs` repository has held
 `Erdos339.lean` since 2026-08-17. The file at the pinned commit calls itself
@@ -65,6 +66,6 @@ Mathlib v4.33.0 by its header, importing another file of the same
 collection. The file ends with an axiom printout whose output it does not
 record. This project has not built the file or audited its statement against
 the question, so no `formalized` evidence is listed; the acceptance rests on
-the refereed paper and the site's record.
+the refereed paper and the erdosproblems.com record.
 
 **Depends on.** No page of this wiki.

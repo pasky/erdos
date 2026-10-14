@@ -79,32 +79,32 @@ framework is theirs; no priority claim for the ingredients is made here.
 > can be prepared (volunteers welcome!).
 
 **Claimant and postings.** The claimant is Tom Adamczewski, the name the
-publication carries: the proof repository the site's proof claim links, pinned
-above, is Adamczewski's, and the FrontierMath Erdős paper of Adamczewski and
-Bloom (arXiv:2609.25050, v1 6 September 2026; its Appendix B.5, Theorem 5, in
-Epoch AI's report linked above) records the resolution. The proof was found by
-GPT-6 Astra, which the site's proof-claim entry names as its claimant and
-describes as a pre-release version of GPT-6 Astra run by Epoch AI; the entry's
-summary says the solution was formalized in that run. The entry was submitted on
-the site's proof-claim tab by the site's curator, T. F. Bloom, on 3 September
-2026, the date this page is named by, with the seven-page exposition linked
-above, which is unsigned prose that GPT generated from the formal proof at the
-curator's request. The resolution module linked above is the formalization GPT-6
-Astra produced in that run, published in the claimant's repository with
-mechanical edits, the import line and eight one-line additions for the Mathlib
-port; `Challenge.lean` in that repository states the compared theorem and
-`Solution.lean` imports the proof module. It is a link on this page and not a
-page of its own. The second Lean link, in the Jayyhk/erdos-lean repository
-(commit of 5 September 2026), is a copy of that module with the same header, in
-10,323 lines against the module's 10,390: it lacks two unused lemmas
-(`SubdivisionPowers.edge_inr` and `ChainCounting.endpoints_notMem_interior`) and
-47 blank lines, opens `namespace Erdos571` at its head and appends a
-`#print axioms` check; it names no author and is not an independent proof, so it
-too is a link on this page. The formal-conjectures statement file for the
-problem, added on 7 September 2026, points to that copy through its
-`formal_proof` attribute (added 18 September 2026) and records the problem as
-solved; a statement file is not a formalization and the entry is not acceptance
-evidence.
+publication carries: the proof repository erdosproblems.com's proof claim links,
+pinned above, is Adamczewski's, and the FrontierMath Erdős paper of Adamczewski
+and Bloom (arXiv:2609.25050, v1 6 September 2026; its Appendix B.5, Theorem 5,
+in Epoch AI's report linked above) records the resolution. The proof was found
+by GPT-6 Astra, which the erdosproblems.com proof-claim entry names as its
+claimant and describes as a pre-release version of GPT-6 Astra run by Epoch AI;
+the entry's summary says the solution was formalized in that run. The entry was
+submitted on the erdosproblems.com proof-claim tab by the erdosproblems.com
+curator, T. F. Bloom, on 3 September 2026, the date this page is named by, with
+the seven-page exposition linked above, which is unsigned prose that GPT
+generated from the formal proof at the curator's request. The resolution module
+linked above is the formalization GPT-6 Astra produced in that run, published in
+the claimant's repository with mechanical edits, the import line and eight
+one-line additions for the Mathlib port; `Challenge.lean` in that repository
+states the compared theorem and `Solution.lean` imports the proof module. It is
+a link on this page and not a page of its own. The second Lean link, in the
+Jayyhk/erdos-lean repository (commit of 5 September 2026), is a copy of that
+module with the same header, in 10,323 lines against the module's 10,390: it
+lacks two unused lemmas (`SubdivisionPowers.edge_inr` and
+`ChainCounting.endpoints_notMem_interior`) and 47 blank lines, opens
+`namespace Erdos571` at its head and appends a `#print axioms` check; it names
+no author and is not an independent proof, so it too is a link on this page. The
+formal-conjectures statement file for the problem, added on 7 September 2026,
+points to that copy through its `formal_proof` attribute (added 18
+September 2026) and records the problem as solved; a statement file is not a
+formalization and the entry is not acceptance evidence.
 
 **Depends on.**
 [[../library/extremal_graph_theory/adamczewski_2026_erdos571/theorem_1_1|Theorem 1.1]]
@@ -134,7 +134,7 @@ two-sided bound, since its extremal number is eventually $0$. So nothing is
 vacuous. The Formal Conjectures statement file for the problem, at the commit
 linked on the problem page, states the same proposition.
 
-Not reviewed: the site labeled the problem proved and formalized, and its
+Not reviewed: Bloom's catalog labeled the problem proved and formalized, and its
 curator credits the proof. But the curator submitted proof claim 243, calling
 the curator's own informal exposition lacking and both expositions placeholders
 until a proper write-up is prepared. The curator is also a co-author of the

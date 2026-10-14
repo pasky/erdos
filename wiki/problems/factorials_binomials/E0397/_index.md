@@ -29,10 +29,10 @@ $$
 
 with the $m_i,n_j$ distinct?
 
-**Status.** DISPROVED (LEAN). The site labeled the problem DISPROVED (LEAN)
-(page last edited 12 January 2026). The standing in the frontmatter derives from
-the claim pages. The site credits Neel Somani, working with ChatGPT, with an
-explicit infinite family of solutions, recorded on
+**Status.** DISPROVED (LEAN). Bloom's catalog labeled the problem DISPROVED
+(LEAN) (page last edited 12 January 2026). The standing in the frontmatter
+derives from the claim pages. erdosproblems.com credits Neel Somani, working
+with ChatGPT, with an explicit infinite family of solutions, recorded on
 [[problems/factorials_binomials/E0397/claims/2026_01_11_somani|its claim page]].
 The Lean qualifier refers to an Aristotle-generated formalization of that
 family, which this corpus has not built. The preprint of Feng and coauthors (29
@@ -42,7 +42,7 @@ Aletheia in December 2025. It is a pending claim on
 There is no refereed write-up.
 
 **Source.** [erdosproblems.com/397](https://www.erdosproblems.com/397), accessed
-2026-10-07. The site cites the problem from p. 77 of Erdős and
+2026-10-07. erdosproblems.com cites the problem from p. 77 of Erdős and
 Graham's 1980 problem book. Cite as: T. F. Bloom, Erdős Problem #397,
 https://www.erdosproblems.com/397.
 
@@ -65,10 +65,10 @@ proofs. This corpus has built none of the three.
 
 ## Current assessment
 
-The question, as the site states it (page last edited 12 January 2026): can
-two products of central binomial coefficients $\binom{2m}{m}$, taken over two
-index sets with no index in common, be equal in more than finitely many ways?
-They can, so the finiteness asked for fails.
+The question, as erdosproblems.com states it (page last edited 12 January 2026):
+can two products of central binomial coefficients $\binom{2m}{m}$, taken over
+two index sets with no index in common, be equal in more than finitely many
+ways? They can, so the finiteness asked for fails.
 
 The resolution. Somani's family (thread post of 11 January 2026, proof by
 ChatGPT): for $a\ge2$ and $c=8a^2+8a+1$, the indices $\{a,2a+2,c\}$ and
@@ -78,9 +78,9 @@ $c+1=2(2a+1)^2$ and $2c+1=(4a+1)(4a+3)$, and the six indices are distinct for
 $a\ge2$. The
 [[problems/factorials_binomials/E0397/claims/2026_01_11_somani|claim page]]
 records the verification, the Lean files at their pinned revisions and the
-acceptance: the site's curator credits Somani and the community database
-records the problem as disproved with a Lean proof (last updated 10 January
-2026); there is no refereed write-up, and no Lean file is built here.
+acceptance: the erdosproblems.com curator credits Somani and the community
+database records the problem as disproved with a Lean proof (last updated 10
+January 2026); there is no refereed write-up, and no Lean file is built here.
 
 Further constructions in the thread. Sharvil Kesarwani gave two two-parameter
 families, found by a computer search for one-parameter families (11 January
@@ -95,7 +95,7 @@ lower bound, $(2/\sqrt e)^{(1-o(1))N}$, for the number of coincidences with
 indices at most $N$ (13 and 14 January 2026); both came from ChatGPT, as the
 posts state, and Sothanaphan wrote of not having fully checked the counting
 rewrite. These posts confirm the answer by other routes and have no claim page,
-since the site credits the disproof to Somani and they are not dated
+since erdosproblems.com credits the disproof to Somani and they are not dated
 manuscripts. A related earlier MathOverflow question (number 138209, from 2013)
 asked for nontrivial solutions with equal index sums, repeated indices allowed,
 and Noam Elkies answered it with a construction of solutions; whether that
@@ -116,13 +116,13 @@ essentially Problem 3 of Day 1 of the 2012 China Team Selection Test, posted
 on Art of Problem Solving as topic 469502, post 2628490; that occurrence is
 recorded here as the paper reports it. The report is a pending claim on
 [[problems/factorials_binomials/E0397/claims/2026_01_29_feng|its own page]];
-the site credits the disproof to Somani alone.
+erdosproblems.com credits the disproof to Somani alone.
 
-Search scope: the site's problem page, its discussion thread,
-the community database, the formal-conjectures statement file and the two
-Lean proofs it names, the copy of the gist in Alexeev's repository, and the
-library's card of the Feng et al. preprint (arXiv:2601.22401v3); the site
-lists no proof claim for the problem.
+Search scope, 2026-10-07: the erdosproblems.com problem page, its discussion
+thread, the community database, the formal-conjectures statement file and the
+two Lean proofs it names, the copy of the gist in Alexeev's repository, and the
+library's card of the Feng et al. preprint (arXiv:2601.22401v3);
+erdosproblems.com lists no proof claim for the problem.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
