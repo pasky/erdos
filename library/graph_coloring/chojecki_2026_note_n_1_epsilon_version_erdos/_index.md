@@ -50,7 +50,8 @@ date; its file is dated 12 April 2026, and the author's post on the
 erdosproblems.com forum says the proof was obtained with GPT-5.4 Pro. The
 problem's claim page records the claim it makes for problem 75.
 
-Source: <https://www.ulam.ai/research/erdos75.pdf>.
+Source: <https://www.ulam.ai/research/erdos75.pdf>. The copy's retrieval date
+was not recorded.
 
 Read status: claims checked for Theorem 1 (p. 1), Lemmas 1 (p. 1) and 2
 (p. 2) and Remark 1 (p. 3), read clause by clause on the page images, and

@@ -63,7 +63,7 @@ Source:
 copy read for this card is the author's four-page manuscript from that Google
 Drive share, which prints no notice; the share states no license for the file,
 and an arXiv author query on 2026-10-02 found no arXiv record for the paper; the
-term is unstated.
+term is unstated. The copy's retrieval date was not recorded.
 
 Read status: claims checked for Lemmas 1.1 and 1.2, Proposition 1.3 and
 Theorem 2.1, read clause by clause on the page images of the manuscript; the

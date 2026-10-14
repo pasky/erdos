@@ -71,7 +71,8 @@ relative to the consistency of a measurable cardinal, with the positive side
 having measurable-cardinal strength, which would confirm Erdős's own suggestion
 that the aleph_omega case might be undecidable.
 
-Source: <https://github.com/lsngchl/Erdos623>.
+Source: <https://github.com/lsngchl/Erdos623>. The copy's retrieval date was not
+recorded.
 
 **Bears on.** [[../wiki/problems/set_theory/E0623/_index|#623]]:
 [[set_theory/lee_2026_erdos_problem_623_free_subset_property/theorem_1_1|Theorem 1.1]] states that ZFC plus a positive answer is

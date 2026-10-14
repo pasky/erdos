@@ -75,7 +75,8 @@ nothing here is independently reviewed.
 - § 3, Completion of the proof (p. 3): the proofs of Theorem 3 and Theorem 1,
   and the references.
 
-Source: <https://www.ulam.ai/research/erdos953-short.pdf>.
+Source: <https://www.ulam.ai/research/erdos953-short.pdf>. The copy's retrieval
+date was not recorded.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0953/_index|#953]]:
 Theorem 1 (p. 1) proves the upper bound M(R) << R^{1/2} for R >= 1 on the

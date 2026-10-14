@@ -55,12 +55,12 @@ a thread post, not a review.
 Source: <https://www.erdosproblems.com/forum/thread/514>, where Przemek
 Chojecki posted the note on 20 April 2026 with a link to
 <https://www.ulam.ai/research/erdos514.pdf>; the copy read is that file. The
-file is a seven-page note that prints no byline, no date and no copyright or
-license statement on any of its pages, so the attribution rests on the forum
-post. The forum thread shows no license, copyright or terms-of-use statement
-(read 2026-10-02), and the host's site (https://www.ulam.ai/, read 2026-10-07)
-carries the footer "© 2017-2026 ULAM" and no license or terms-of-use
-statement, every other right reserved.
+copy's retrieval date was not recorded. The file is a seven-page note that
+prints no byline, no date and no copyright or license statement on any of its
+pages, so the attribution rests on the forum post. The forum thread shows no
+license, copyright or terms-of-use statement (read 2026-10-02), and the host's
+site (https://www.ulam.ai/, read 2026-10-07) carries the footer "© 2017-2026
+ULAM" and no license or terms-of-use statement, every other right reserved.
 
 Read status: claims checked. Theorems 1 and 2, Lemmas 3 and 6, Remark 7 and
 the proofs on pp. 3--6 were read clause by clause on the page images of the

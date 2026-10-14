@@ -55,7 +55,8 @@ declaration of AI usage (Section 1.1, p. 2) says ChatGPT (GPT-5.2 Pro) was used
 for exploratory brainstorming and to draft the first version of the
 certification script, and that the authors checked all arguments and code.
 
-Source: <https://arxiv.org/abs/2602.12217>.
+Source: <https://arxiv.org/abs/2602.12217>. The copy's retrieval date was not
+recorded.
 
 **Results.**
 [[analysis/he_2026_generalizing_clunie_hayman_construction_erdos_maximum/theorem_1_2|Theorem 1.2]]

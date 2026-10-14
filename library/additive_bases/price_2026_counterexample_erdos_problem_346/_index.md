@@ -51,7 +51,8 @@ certificate that keeps a tail complete under all later admissible choices
 (Lemma 5, p. 4), and then sets b_{N_j} = floor(a_{N_j}/4) at sparse indices
 N_j (p. 5).
 
-Source: <https://www.overleaf.com/read/tgrrgqpbjpht>.
+Source: <https://www.overleaf.com/read/tgrrgqpbjpht>. The copy's retrieval date
+was not recorded.
 
 Read status: claims checked. Theorem 1 and Lemma 2 were read clause by clause
 on the page images of the print; the proofs were read for structure only.

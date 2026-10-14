@@ -54,6 +54,7 @@ only; it does not reprove the first two questions.
 
 Source:
 <https://github.com/yuta0x89/ErdosProblems/blob/main/notes/514/erdos_514_third_question_forum_note_revised.pdf>.
+The copy's retrieval date was not recorded.
 
 **Bears on.** [[../wiki/problems/analysis/E0514/_index|#514]], third
 question, read with the comparison function fixed before $f$:
