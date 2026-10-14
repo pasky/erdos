@@ -4,7 +4,9 @@ title: Hopf and Pannwitz's planar diameter count
 desc: |
   Among $n$ points of the plane with diameter one, the distance one occurs at
   most $n$ times, and $n$ is attained for $n\ge3$, so $f_2(n)=n$.
-authors: []
+authors:
+- H. Hopf
+- E. Pannwitz
 status: accepted
 claim: answered
 scope: partial
