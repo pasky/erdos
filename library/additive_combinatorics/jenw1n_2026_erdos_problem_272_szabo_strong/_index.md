@@ -39,8 +39,9 @@ comment says a lemma comes "from the third supplied proof".
 
 **Read status: claims checked.** The final theorem, the header and the chain of
 declarations named below were read as text against the statement the site's
-record prints and the catalog's `272.lean`; the file was not built here, so the
-kernel check is the site's, on a single kernel. No proof was verified here.
+record prints and the catalog's `272.lean`; the file was rebuilt and its target
+replayed in the kernel on the repository's pinned toolchain. No proof was
+verified here by reading.
 
 **Bears on.** [[../wiki/problems/additive_combinatorics/E0272/_index|Problem 272]]: proves
 $t(N)=N^2/2+O(N)$, the affirmative answer to Szabó's linear-error question
@@ -95,10 +96,10 @@ says that the proof "passed production verification and a fresh isolated replay
 on 10 September 2026", that the closest prior paper, Yang's Theorem 1.4 and
 Section 7, "does not settle this unrestricted asymptotic target", and that the
 approval "is an eligibility decision, not a guarantee of originality". The
-accepting body is the bounty site alone: no refereed publication, no write-up,
-no erdosproblems.com acceptance and no formal-conjectures catalog agreement was
-found on 2026-09-27; the catalog's default branch labels the variant `research
-open`.
+site's certification is reported, not counted: no refereed publication, no
+write-up, no erdosproblems.com acceptance and no formal-conjectures catalog
+agreement was found on 2026-09-27; the catalog's default branch labels the
+variant `research open`.
 
 ## Route of the proof file
 

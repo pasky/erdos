@@ -13,10 +13,13 @@ status: accepted
 claim: disproved
 scope: full
 evidence:
-- reviewed
+- formalized
 submitted: 2026-09-27
 links:
 - url: https://conjectures.io/results/8c083793-9c3c-4960-8a23-869e54fcb584/solution
+  kind: formalization
+  date: 2026-09-15
+- url: https://conjectures.io/results/8c083793-9c3c-4960-8a23-869e54fcb584/solution/download
   kind: formalization
   date: 2026-09-15
 - url: https://jenwin.io/papers/erdos108-arc-graphs.pdf
@@ -108,22 +111,38 @@ record names does not resolve in the public repository, and the record page
 displays the same statement), whose Lean form matches the wording clause by
 clause except that its $r$ ranges over the extended naturals, so $r=\infty$ is
 admitted, where a girth of at least $\infty$ means acyclic and the formal
-statement is trivially false. The proof does not use that defect: it
+statement is trivially false, so the negation the target states is trivial and
+proves nothing about the problem. The proof does not use that defect: it
 instantiates $r=5$ and $k=7$, both inside the wording's range, and its
 counterexamples are finite graphs lifted to every universe, so the refutation
 holds under both a finite-graph and an all-graphs reading of "every graph".
 
-**Acceptance.** Conjectures.io records the proof as verified on 15 September
-2026. Its Lean kernel accepted the file with `propext`, `Quot.sound` and
-`Classical.choice` as the only axioms, after a static scan found no imports,
-axiom declarations, `sorry`, `native_decide` or unsafe options. The site's
-second kernel was not run, so the verdict rests on one kernel implementation.
-Conjectures.io records its review as approved on 16 September 2026, on two
-independent agent assessments covering formal semantics and prior-source
-eligibility. It marks the record as certified on 17 September 2026, with the
-bounty paid. A Conjectures.io certification is documented independent
-acceptance, listed as `reviewed`. The result is not refereed, and the file was
-not built here, so no `formalized` evidence is listed.
+**Acceptance.** Formalized. This corpus's verification rebuilt the record's
+solution file on the repository's pinned toolchain, `leanprover/lean4:v4.34.1`
+with Mathlib at the revision `lean/lake-manifest.json` pins, after two lemma
+renames that Mathlib made since the site's toolchain; the target's statement is
+unchanged. The kernel replayed, from an empty environment, every declaration the
+target `Bounty.target` depends on, Lean core, Mathlib and formal-conjectures
+included, and accepted them all. The target's axioms are exactly `propext`,
+`Classical.choice` and `Quot.sound`, and its type, and every definition its
+statement reaches, are identical to the formal-conjectures statement of the
+site's task. That target alone is trivial. The refutation is the lemma
+`Bounty.counterexample_family`, from which the file derives the target and which
+the kernel replayed with it: for every $M$ it gives a graph of chromatic number
+at least $M$ all of whose subgraphs of girth at least $5$ are $6$-colorable. A
+separate instance check confirmed that its witness graphs are finite, so the
+lemma refutes the Statement at $r=5$ and $k=7$. Acceptance rests on the replay
+of that lemma and this check.
+
+Conjectures.io's certification is reported, not counted. Conjectures.io records
+the proof as verified on 15 September 2026. Its Lean kernel accepted the file
+with `propext`, `Quot.sound` and `Classical.choice` as the only axioms, after a
+static scan found no imports, axiom declarations, `sorry`, `native_decide` or
+unsafe options. The site's second kernel was not run, so the verdict rests on
+one kernel implementation. Conjectures.io records its review as approved on 16
+September 2026, on two independent agent assessments covering formal semantics
+and prior-source eligibility. It marks the record as certified on 17 September
+2026, with the bounty paid. The result is not refereed.
 
 On 27 September 2026 the site's curator, Thomas Bloom, posted the claim on the
 erdosproblems.com proof-claims forum so that it could be discussed. The curator

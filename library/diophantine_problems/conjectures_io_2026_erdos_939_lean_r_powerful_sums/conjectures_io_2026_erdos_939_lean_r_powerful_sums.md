@@ -66,8 +66,7 @@ permitted axioms `propext`, `Quot.sound`, `Classical.choice`; duration
 
 **Review record.** Outcome `FORMALIZATION_DEFECT_AWARD` under review policy
 v1; award "$750 USD equivalent, paid in Subnet 66 Alpha"; the result page
-shows 1074.7482 α locked at submission and, on the read date, "$1,145 at
-today's rate". The decision's stated ground: the published Lean statement
+shows Reward Paid. The decision's stated ground: the published Lean statement
 "materially differs from the informal problem: `Erdos939Sums` places no
 positivity or nontriviality requirement on the summands, and `0` and `1` are
 vacuously `r`-powerful", so the $r=4$ case "is discharged by the degenerate

@@ -18,6 +18,9 @@ links:
 - url: https://conjectures.io/results/bd1a524a-c56e-42f2-9075-443df43468d7/solution
   kind: formalization
   date: 2026-08-13
+- url: https://conjectures.io/results/bd1a524a-c56e-42f2-9075-443df43468d7/solution/download
+  kind: formalization
+  date: 2026-08-13
 created: 2026-10-07T05:33:07Z
 updated: 2026-10-07T22:51:53Z
 ---

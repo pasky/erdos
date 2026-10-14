@@ -11,13 +11,16 @@ status: accepted
 claim: disproved
 scope: partial
 evidence:
-- reviewed
+- formalized
 submitted: null
 links:
 - url: https://conjectures.io/results/244ff2d0-399d-4e37-a307-4ff6f3cb3493
   kind: record
   date: 2026-08-06
 - url: https://conjectures.io/results/244ff2d0-399d-4e37-a307-4ff6f3cb3493/solution
+  kind: formalization
+  date: 2026-08-06
+- url: https://conjectures.io/results/244ff2d0-399d-4e37-a307-4ff6f3cb3493/solution/download
   kind: formalization
   date: 2026-08-06
 created: 2026-10-07T10:51:47Z
@@ -74,27 +77,41 @@ own page,
 [[problems/additive_bases/E0010/claims/2026_08_06_daryxx|Daryxx 2026]]; the
 site set that record aside as a duplicate of this one.
 
-**Acceptance.** Reviewed: the bounty site Conjectures.io documented its
-acceptance of the exact statement, and that is the `reviewed` evidence named
-here. Its Lean kernel accepted the proof on 6 August 2026, with `propext`,
-`Quot.sound` and `Classical.choice` as the only axioms. Its static scan found no
-imports, axiom declarations, `sorry`, `native_decide` or unsafe options. Its
-report records an unchanged canonical statement and a sandboxed build. Its
-review approved the record the same day. The review found that Lean verified the
-exact published task, and that the proof establishes infinitely many even
-natural numbers that are not a prime plus at most three powers of two, through
-Crocker's covering-congruence construction. The record was certified on 6 August
-2026 and the bounty was paid. The site's second kernel was not run, so the
-kernel verdict rests on one implementation. The site withdrew the target the
-same day as solved and not open. It noted that the informal claim already
-follows from Crocker's published theorem by the parity reduction.
+**Acceptance.** Formalized. This corpus's verification rebuilt the record's
+solution file, unchanged, on the repository's pinned toolchain,
+`leanprover/lean4:v4.34.1` with Mathlib at the revision
+`lean/lake-manifest.json` pins. The kernel replayed, from an empty environment,
+every declaration the target `Bounty.target` depends on, Lean core, Mathlib and
+formal-conjectures included, and accepted them all. The target's axioms are
+exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and every
+definition its statement reaches, are identical to the statement of the site's
+task, `Erdos10.erdos_10.variants.grechuk`. The task pins a catalog commit that
+the site built from a public catalog commit and an audit patch; the replay
+reproduced it exactly, and its `10.lean` is byte-identical to the file at the
+catalog commit of the site's later tasks, whose port to the pinned toolchain the
+file was built against. In that statement `sumPrimeAndTwoPows 3` is the set of
+primes plus at most three powers of $2$, exponent zero and repeats allowed, so
+the target is the claim above. Acceptance rests on this replay and that check.
 
-No `formalized` evidence is listed. The corpus has not built or replayed the
-file, and the basis here is its text (final theorem, target type and tokens). No
-`refereed` evidence exists. The erdosproblems.com page labeled the problem OPEN,
-since the variant does not settle it. Since 2026-09-14 the formal-conjectures
-catalog has marked the variant `research solved`, citing the second proof's gist
-as its `formal_proof`.
+The bounty site Conjectures.io documented its acceptance of the exact statement;
+that certification is reported, not counted. Its Lean kernel accepted the proof
+on 6 August 2026, with `propext`, `Quot.sound` and `Classical.choice` as the
+only axioms. Its static scan found no imports, axiom declarations, `sorry`,
+`native_decide` or unsafe options. Its report records an unchanged canonical
+statement and a sandboxed build. Its review approved the record the same day.
+The review found that Lean verified the exact published task, and that the proof
+establishes infinitely many even natural numbers that are not a prime plus at
+most three powers of two, through Crocker's covering-congruence construction.
+The record was certified on 6 August 2026 and the bounty was paid. The site's
+second kernel was not run, so the kernel verdict rests on one implementation.
+The site withdrew the target the same day as solved and not open. It noted that
+the informal claim already follows from Crocker's published theorem by the
+parity reduction.
+
+No `refereed` evidence exists. The erdosproblems.com page labeled the problem
+OPEN, since the variant does not settle it. Since 2026-09-14 the
+formal-conjectures catalog has marked the variant `research solved`, citing the
+second proof's gist as its `formal_proof`.
 
 **Depends on.**
 [[../library/additive_bases/crocker_1971_sum_prime_two_powers_two/theorem_i|Crocker 1971, Theorem I]],

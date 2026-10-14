@@ -147,19 +147,21 @@ the target name. The accepted file is the record's solution download,
 `Main.lean`, which the task bundle wraps into the `Solution.lean` and
 `Bounty.target` that the verification report names; its provenance is on
 [[../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/jenw1n_2026_lean_proof_erdos_problem_18b|the JenW1N source record]].
-Limits: the definitions of `subsetSums` and `fcTypeOfName%` in their defining
-files are not checked here; the two catalog commits that the task bundle and the
-run pin are not reachable in the public repository, so the statement is compared
-with the default branch's text (identical) and rests on Conjectures.io's check
-that the source type hash matches; this corpus has not built the file and claims
-no kernel credit; Conjectures.io's reviewers state that no fresh Lean replay was
-performed, and the verdict rests on a single kernel. Acceptance is
-Conjectures.io's kernel check, review, certification and payment; no refereed
-publication exists, and the erdosproblems.com curator's post of 27 September
-2026 on the site's proof-claims tab is explicitly not a verification. This is
-documented independent acceptance of the formal statement, on the same footing
-as the Conjectures.io-accepted proofs recorded for Problems 14, 96, 653 and 859,
-and the result is recorded as an accepted partial claim on
+The definitions of `subsetSums` and `fcTypeOfName%` are among those the replay
+below found identical to the task's; the two catalog commits that the task
+bundle and the run pin are not reachable in the public repository; the site
+builds the task's commit from a public catalog commit and an audit patch, which
+this corpus's replay reproduced exactly. Conjectures.io's reviewers state that
+no fresh Lean replay was performed, and its verdict rests on a single kernel;
+its kernel check, review, certification and payment are reported, not counted.
+Acceptance rests on this corpus's rebuild of the file on the repository's pinned
+toolchain (Lean v4.34.1), its kernel replay of everything the target depends on
+with only `propext`, `Classical.choice` and `Quot.sound`, and its check that the
+target is the second question, as for the Conjectures.io proofs recorded for
+Problems 14, 96, 653 and 859; no refereed publication exists, and the
+erdosproblems.com curator's post of 27 September 2026 on the site's proof-claims
+tab is explicitly not a verification. The result is recorded as an accepted
+partial claim on
 [[problems/divisors/E0018/claims/2026_09_16_jenw1n|its claim page]]; the
 page-level standing stays open because the first and third questions are not
 settled.
@@ -256,8 +258,9 @@ and review; parts (a) and (c) carry claims and cited bounds only.
   a Lean proof accepted by Conjectures.io (record `e93a2766-…`, solver
   handle JenW1N, kernel-verified 16 September 2026, review approved 16
   September, certified 17 September 2026, bounty paid; axioms `propext`,
-  `Quot.sound`, `Classical.choice`; a single kernel; no write-up; not built
-  by this corpus). Scope: the second question only; claim page
+  `Quot.sound`, `Classical.choice`; a single kernel; no write-up; rebuilt
+  and replayed in the kernel by this corpus). Scope: the second question
+  only; claim page
   [[problems/divisors/E0018/claims/2026_09_16_jenw1n|JenW1N 2026]].
 - Part (a), claimed and not accepted: infinitely many practical $n$ with
   $h(n)\le c_0(\log\log n)^2$, $c_0=14/\log2$

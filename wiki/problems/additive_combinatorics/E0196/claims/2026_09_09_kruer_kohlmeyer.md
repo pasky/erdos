@@ -13,13 +13,16 @@ status: accepted
 claim: disproved
 scope: full
 evidence:
-- reviewed
+- formalized
 submitted: 2026-09-14
 links:
 - url: https://conjectures.io/results/e73b95f7-1d1b-42b5-a442-c07077741d73
   kind: record
   date: 2026-09-14
 - url: https://conjectures.io/results/e73b95f7-1d1b-42b5-a442-c07077741d73/solution
+  kind: formalization
+  date: 2026-09-09
+- url: https://conjectures.io/results/e73b95f7-1d1b-42b5-a442-c07077741d73/solution/download
   kind: formalization
   date: 2026-09-09
 - url: https://conjectures.io/papers/erdos196.pdf
@@ -63,10 +66,10 @@ commit the bounty site pinned) with its open answer fixed to true, that is, of
 `∀ f : ℕ ≃ ℕ, HasMonotoneAP f 4`; the problem page's Status records the
 clause-by-clause comparison of that statement with the site's wording (both
 directions, bijections as permutations, the shift from positive to zero-based
-naturals). The pinned catalog revision is not public, so the statement was
-compared with the catalog's default-branch file, and agreement at the pin rests
-on the bounty site's statement-hash check; the site's record prints the target
-in its unnegated template form.
+naturals). The pinned catalog revision is not public; the site builds it from a
+public catalog commit and an audit patch, and this corpus's replay reproduced it
+exactly and found the target's type identical to its statement. The site's
+record prints the target in its unnegated template form.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Liam Kruer
 and Jensen Kohlmeyer (account lkruer) on 14 September 2026, giving "GPT-6 Astra"
@@ -105,25 +108,35 @@ its ten declarations against the standard axioms, credits the argument to
 Kohlmeyer and Kruer, and disclaims priority; this corpus has not built it, so
 it is not acceptance evidence.
 
-**Acceptance.** Reviewed: the bounty site Conjectures.io certified the result.
-This is a documented independent acceptance by a body outside this project and
-independent of the claimants. Its decision finds that the submission refutes the
-exact target for Problem 196, with both directions covered. It finds that the
-change from positive integers to zero-based naturals is immaterial under
-translation and that no unproved assumption remains. It also finds that the
-proof passed its statement, dependency, permitted-axiom (`propext`,
-`Quot.sound`, `Classical.choice`) and Lean-kernel checks, on Lean's default
-kernel only. The decision records that, under the bounty site's policy,
-unresolved provenance questions alone do not deny the reward. It describes the
-approval as a decision on eligibility for the bounty, not a guarantee of
-originality.
+**Acceptance.** Formalized. This corpus's verification rebuilt the record's
+solution file, unchanged, on the repository's pinned toolchain,
+`leanprover/lean4:v4.34.1` with Mathlib at the revision
+`lean/lake-manifest.json` pins. The kernel replayed, from an empty environment,
+every declaration the target `Bounty.target` depends on, Lean core, Mathlib and
+formal-conjectures included, and accepted them all. The target's axioms are
+exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and every
+definition its statement reaches, are identical to the formal-conjectures
+statement of the site's task. In that statement `HasMonotoneAP` asks for a
+progression at increasing indices, and the reversed list covers decreasing ones,
+so it is the problem's Statement as the problem page's Status compares it clause
+by clause. Acceptance rests on this replay and that check.
+
+The bounty site Conjectures.io certified the result; the certification is
+reported, not counted. Its decision finds that the submission refutes the exact
+target for Problem 196, with both directions covered. It finds that the change
+from positive integers to zero-based naturals is immaterial under translation
+and that no unproved assumption remains. It also finds that the proof passed its
+statement, dependency, permitted-axiom (`propext`, `Quot.sound`,
+`Classical.choice`) and Lean-kernel checks, on Lean's default kernel only. The
+decision records that, under the bounty site's policy, unresolved provenance
+questions alone do not deny the reward. It describes the approval as a decision
+on eligibility for the bounty, not a guarantee of originality.
 
 No other body accepts the result. The site's curator kept the label Open and
 lists the proof claim, but has not commented on it. The claim's three forum
 comments are by other users. The formal-conjectures statement `erdos_196` is
 tagged open on the catalog's default branch (2026-10-07). So no `refereed`
-evidence exists. The kernel check is the bounty site's alone, and the file was
-not built by this corpus, so `formalized` is not listed.
+evidence exists.
 
 **Depends on.** No wiki page; the claim rests on the Lean file and its
 exposition.

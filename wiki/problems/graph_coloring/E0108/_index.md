@@ -31,13 +31,16 @@ girth $\geq r$ and chromatic number $\geq k$?
 edited 23 January 2026. On 27 September 2026 the curator posted the
 Conjectures.io claim below on the site's proof-claims forum without endorsing
 it. The derived standing rests on the accepted claim page of
-[[problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer|Kohlmeyer and
-Kruer's Lean counterexample family]], published under the handle JenW1N and
-certified by Conjectures.io in September 2026. The family gives, for every $M$,
-a finite graph of chromatic number at least $M$ all of whose subgraphs of girth
-at least $5$ are $6$-colorable. So no finite $f(7,5)$ exists. That certification
-is documented independent acceptance by the bounty site. There is no refereed
-publication, and no formalization was built here.
+[[problems/graph_coloring/E0108/claims/2026_09_15_kohlmeyer_kruer|Kohlmeyer and Kruer's Lean counterexample family]],
+published under the handle JenW1N and certified by Conjectures.io in September
+2026. The family gives, for every $M$, a finite graph of chromatic number at
+least $M$ all of whose subgraphs of girth at least $5$ are $6$-colorable. So no
+finite $f(7,5)$ exists. That certification is reported, not counted. Acceptance
+rests on this corpus's rebuild and kernel replay of the file on the repository's
+pinned toolchain (Lean v4.34.1), and on the replayed lemma
+`Bounty.counterexample_family`, which refutes the Statement at $r=5$ and $k=7$;
+the file's formal target alone is trivial, as the accepted record below
+explains. There is no refereed publication.
 
 The [[problems/graph_coloring/E0108/claims/2026_09_30_nguyen_walczak|expository
 note of Nguyen and Walczak]] (30 September 2026) explains the construction and
@@ -130,27 +133,28 @@ from the accepted claim.
 
 **The accepted record.** The proof's final theorem is the negation of the
 catalog statement `Erdos108.erdos_108` of formal-conjectures (the catalog file
-linked under **Formalization.**), whose Lean form matches the wording clause
-by clause except that its $r$ ranges over the extended naturals, so
-$r=\infty$ is admitted, where a girth of at least $\infty$ means acyclic and
-the formal statement is trivially false; the proof does not use that defect,
-it instantiates $r=5$ and $k=7$, both inside the wording's range, and its
-counterexamples are finite graphs lifted to every universe, so the refutation
-holds under both a finite-graph and an all-graphs reading of "every graph".
-Conjectures.io records the proof as verified on 15 September 2026 (Lean
-kernel, axioms `propext`, `Quot.sound` and `Classical.choice` only, a static
-scan finding no imports, axiom declarations, `sorry`, `native_decide` or
-unsafe options, one kernel implementation with the site's second kernel not
-run), its review as approved on 16 September 2026 on two independent agent
-assessments with no fresh Lean replay, and the record as certified on
-17 September 2026 with the bounty paid. This is a solution accepted by the
-bounty site alone, distinct from a refereed result: the result has no refereed
-publication, no erdosproblems.com acceptance and no formal-conjectures catalog
-agreement (the catalog's file at the revision linked above agrees with the
-statement the site prints and marks the problem research open with
-`answer(sorry)`). The site labeled the problem OPEN; its forum has carried the
-claim since 27 September 2026 with the curator's note that they have not
-verified it, and a comment of 2 October 2026 links the Nguyen–Walczak note.
+linked under **Formalization.**), whose Lean form matches the wording clause by
+clause except that its $r$ ranges over the extended naturals, so $r=\infty$ is
+admitted, where a girth of at least $\infty$ means acyclic and the formal
+statement is trivially false, so the target alone is trivial and acceptance
+rests on the lemma `Bounty.counterexample_family` that the file derives it from;
+the proof does not use the defect, it instantiates $r=5$ and $k=7$, both inside
+the wording's range, and its counterexamples are finite graphs lifted to every
+universe, so the refutation holds under both a finite-graph and an all-graphs
+reading of "every graph". Conjectures.io records the proof as verified on 15
+September 2026 (Lean kernel, axioms `propext`, `Quot.sound` and
+`Classical.choice` only, a static scan finding no imports, axiom declarations,
+`sorry`, `native_decide` or unsafe options, one kernel implementation with the
+site's second kernel not run), its review as approved on 16 September 2026 on
+two independent agent assessments with no fresh Lean replay, and the record as
+certified on 17 September 2026 with the bounty paid. That certification is
+reported, not counted: the result has no refereed publication, no
+erdosproblems.com acceptance and no formal-conjectures catalog agreement (the
+catalog's file at the revision linked above agrees with the statement the site
+prints and marks the problem research open with `answer(sorry)`). The site
+labeled the problem OPEN; its forum has carried the claim since 27 September
+2026 with the curator's note that they have not verified it, and a comment of 2
+October 2026 links the Nguyen–Walczak note.
 
 **The proof file.** The accepted file has 1,846 lines. Its final theorem is the
 negation of the catalog statement, instantiated at $r=5$ and $k=7$. It contains
@@ -159,8 +163,9 @@ declaration and no redefinition of Mathlib's girth, chromatic number, coloring
 or subgraph. Its deterministic part, the reduction from four-cycle-free
 subgraphs to six colors and the sparse-cut degree count, is elementary and is
 summarized above; its two probabilistic estimates carry the explicit part sizes
-of the random model. This corpus has not built the file, so it gives no
-`formalized` evidence. The file's header states nothing about how the proof was
+of the random model. This corpus rebuilt the file on the pinned toolchain, after
+two lemma renames, and replayed the closure of its target in the kernel, as the
+claim page records. The file's header states nothing about how the proof was
 found; two docstrings refer to an attachment.
 
 **Adjacent result.** The preprint of Li (arXiv:2606.17901, Theorem 1.1, per

@@ -127,15 +127,13 @@ one kernel; the site's second kernel (Nanoda) was not run for this task.
 
 The result page (read 2026-09-27) shows Lean verification *Passed*, review
 *Approved* with the state *Partial award*, reward *Paid*, certified 6 August
-2026, a bounty of 1074.7482 α locked at submission (displayed on that day as
-"$1,145 at today's rate"), verifier
-`validator-bcda2bde517b829a8b44ea2a387d78674f7e6495`, sandbox
+2026, verifier `validator-bcda2bde517b829a8b44ea2a387d78674f7e6495`, sandbox
 `landrun+seccomp`, and the banner "Formalization defect: The accepted file
 establishes a result about a faulty formal statement. It does not settle the
 intended mathematical problem." The public verification report (schema 2)
-records `accepted: true`, `reason_code: VERIFIED`, every check passed except
-the two Nanoda boxes (not run), and the task id and catalog commit listed on
-the source record.
+records `accepted: true`, `reason_code: VERIFIED`, every check passed except the
+two Nanoda boxes (not run), and the task id and catalog commit listed on the
+source record.
 
 The review decision, published in the site's validator repository as
 `docs/review-decisions/2026-08-06-erdos-939.md` (decision date 2026-08-06,

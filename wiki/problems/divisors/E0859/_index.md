@@ -36,15 +36,17 @@ $$
 as $t\to \infty$?
 
 **Status.** Labeled open on the site. The problem page showed OPEN, no comment
-and one proof-claim entry. The curator posted that entry on 2026-09-27
-to make the Conjectures.io claim known, without verifying it. The frontmatter
-standing derives from the accepted claim page
-[[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and
-Kohlmeyer's Lean disproof]]. Its acceptance evidence is the certification by the
-bounty site Conjectures.io: Lean kernel verification on 18 September 2026,
-review approval on 21 September 2026 and certification on 23 September 2026. The
-subject is the literal site wording quoted above, and the answer is no. The
-density $d_t$ exists for every $t$, and for no constants $c_1,c_2>0$ is
+and one proof-claim entry. The curator posted that entry on 2026-09-27 to make
+the Conjectures.io claim known, without verifying it. The frontmatter standing
+derives from the accepted claim page
+[[problems/divisors/E0859/claims/2026_09_18_kruer_kohlmeyer|Kruer and Kohlmeyer's Lean disproof]].
+Its acceptance rests on this corpus's rebuild and kernel replay of the file on
+the repository's pinned toolchain (Lean v4.34.1) and on a check of its target
+against the Statement. The certification by the bounty site Conjectures.io (Lean
+kernel verification on 18 September 2026, review approval on 21 September 2026
+and certification on 23 September 2026) is reported, not counted. The subject is
+the literal site wording quoted above, and the answer is no. The density $d_t$
+exists for every $t$, and for no constants $c_1,c_2>0$ is
 $d_t\sim c_1/(\log t)^{c_2}$. The reason is that $-\log d_t/\log\log t$ has
 lower limit exactly $\delta=1-(1+\log\log 2)/\log 2=0.0860\ldots$, while
 $(\log t)^{\delta}d_t\to0$.
@@ -77,8 +79,8 @@ at the catalog's commit of 18 September 2026, where the theorem `erdos_859` is
 marked research open with proof `sorry`, beside a proved trivial variant and
 two `sorry` variants (Erdős's two-sided bounds and the positive density of
 each set). The disproof is the Lean file of the Conjectures.io record, linked
-from the claim page; that site's kernel checked it, and this corpus has not
-built it.
+from the claim page; that site's kernel checked it, and this corpus rebuilt it
+and replayed it in the kernel.
 
 ## Current assessment
 
@@ -99,27 +101,29 @@ The cited literature is consistent with the result and states neither direction:
 Ford [Fo08] gives the order of the integers with a divisor in a given interval
 with the same exponent $\delta$ but never estimates $d_t$.
 
-**Acceptance and its limits.** The accepting body is the bounty site alone. Its
-kernel verified the proof, its review approved the record under its policy v3
-after two agent assessments and a human reviewer's authorization, and it
-certified the record and paid the bounty; its own decision text says the
-approval is neither a novelty certification nor an independent kernel replay,
-and its verification report records that only one kernel implementation ran. No
-refereed publication exists; erdosproblems.com listed the problem as open, and
-its only proof-claim entry is the curator's notice of 2026-09-27, which
-misstates the direction of the claim and links a different file (next
-paragraph). That notice lists the claimant as conjectures.io with the system
-given as unknown, and the curator says in it that they have neither verified nor
-looked into the proof, that the notice is no endorsement of the Conjectures.io
-program, which in the curator's view uses the problems for its own ends without
-explaining its proofs or engaging with the mathematical community, and that the
-program is not transparent about who runs the problems through an AI system, for
-how long, or with which one. Which AI system, if any, generated the proof is
-therefore not disclosed. The formal-conjectures statement file, at the catalog's
-commit of 18 September 2026 linked above, marks the statement research open with
-proof `sorry`. In September 2026 the site's problem page badge said the bounty
-was paid while the record page said it was pending; by 2026-10-07 the record
-shows the bounty as paid, with the certification dated 23 September 2026.
+**Acceptance and its limits.** Acceptance rests on this corpus's kernel replay
+and Statement check, as the claim page records. The bounty site's certification
+is reported, not counted. Its kernel verified the proof, its review approved the
+record under its policy v3 after two agent assessments and a human reviewer's
+authorization, and it certified the record and paid the bounty; its own decision
+text says the approval is neither a novelty certification nor an independent
+kernel replay, and its verification report records that only one kernel
+implementation ran. No refereed publication exists; erdosproblems.com listed the
+problem as open, and its only proof-claim entry is the curator's notice of
+2026-09-27, which misstates the direction of the claim and links a different
+file (next paragraph). That notice lists the claimant as conjectures.io with the
+system given as unknown, and the curator says in it that they have neither
+verified nor looked into the proof, that the notice is no endorsement of the
+Conjectures.io program, which in the curator's view uses the problems for its
+own ends without explaining its proofs or engaging with the mathematical
+community, and that the program is not transparent about who runs the problems
+through an AI system, for how long, or with which one. Which AI system, if any,
+generated the proof is therefore not disclosed. The formal-conjectures statement
+file, at the catalog's commit of 18 September 2026 linked above, marks the
+statement research open with proof `sorry`. In September 2026 the site's problem
+page badge said the bounty was paid while the record page said it was pending;
+by 2026-10-07 the record shows the bounty as paid, with the certification dated
+23 September 2026.
 
 **A Lean contribution that is not a claim.** The file the curator's forum
 entry links, a contribution of 1 September 2026 in the Conjectures.io
@@ -131,26 +135,29 @@ and the question presupposes it, so the file settles no part of the question
 and gets no claim page; it is recorded here because the forum entry presents
 it as a proof of the question.
 
-**What was checked here.** The proof file was not built here: its target
+**What was checked here.** The proof file was rebuilt on the repository's pinned
+toolchain, after proof-only changes for lemmas that Mathlib renamed or removed,
+and the kernel replayed everything its target depends on, with only `propext`,
+`Classical.choice` and `Quot.sound`, as the claim page records. Its target
 (`theorem target : ¬ (fcTypeOfName% "Erdos859.erdos_859")`), header and key
 declarations were checked against the site's statement; the 36,197-line file
 contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `implemented_by`,
-`opaque` or `set_option` and no import; no catalog or Mathlib name is
-redefined in the file; the reduction from the target to the two estimates was
-checked step by step; the finite content was recomputed independently (the
-constant identities to sixteen digits, the exact densities $d_1,\ldots,d_8$
-two ways, the consistency of the two estimates, and the dyadic and Stirling
-bookkeeping); the two estimates themselves, some 30,000 lines, are checked
-here only at the level of their module structure and theorem statements and
-rest on the site's kernel; and no numerical check of the asymptotic regime is
-possible at this exponent. No local kernel credit is claimed, so the claim
-page lists no `formalized` evidence. Two further limits: the statement file
-was compared on the catalog's default branch, and the site's own check that
-the statement's type hash matches is the evidence that it agrees with the
-pinned commit; and the shared definitions of the density (`Set.HasDensity`)
-and of the target macro are taken from how the proof unfolds them, not from
-their defining files. The file's seven docstrings cite the authors'
-manuscript, which was not obtained.
+`opaque` or `set_option` and no import; no catalog or Mathlib name is redefined
+in the file; the reduction from the target to the two estimates was checked step
+by step; the finite content was recomputed independently (the constant
+identities to sixteen digits, the exact densities $d_1,\ldots,d_8$ two ways, the
+consistency of the two estimates, and the dyadic and Stirling bookkeeping); the
+two estimates themselves, some 30,000 lines, are checked by the kernel replay,
+and by reading only at the level of their module structure and theorem
+statements; and no numerical check of the asymptotic regime is possible at this
+exponent. The replay also settles two limits of the reading: the statement file
+was compared on the catalog's default branch, while the replay reproduced the
+pinned commit, which the site builds from a public catalog commit and an audit
+patch, and found the target's statement identical to it; and the shared
+definitions of the density (`Set.HasDensity`) and of the target macro, which the
+reading took from how the proof unfolds them, are among the definitions the
+replay found identical to the task's. The file's seven docstrings cite the
+authors' manuscript, which was not obtained.
 
 <!-- BEGIN problem library links -->
 
