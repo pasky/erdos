@@ -21,8 +21,8 @@ fresh context: the reviewer has not seen the author's working context and tries
 to break the claim. A focused review can inform a research decision without
 asserting a claim tier. Tier 1 is earned only by surviving a whole-statement
 review charged to refute the claim under the full contract below. These rules
-apply whether people or isolated AI agents perform the review. The tier law and
-claim layout live in [[anatomy|the corpus law]].
+apply whether people, isolated AI agents, or another workflow perform the
+review. The tier law and claim layout live in [[anatomy|the corpus law]].
 
 An author's checks, a collaborator's exchange, or another step in the author's
 own working context can find errors and demote a claim. They do not establish
@@ -161,8 +161,8 @@ fresh reviewer unless the grader's filed materiality ruling finds the exposure
 immaterial; merely closing the channel afterward does not restore independence.
 When excluded text did reach the reviewer, the report discloses what was
 received. The grader rules on its materiality by a content test: whether
-anything in the report could only have come from it, and whether the direction
-of an attack or the strength of the refutation charge followed it. The grader
+anything in the report could only have come from it, or whether the direction of
+an attack or the strength of the refutation charge followed it. The grader
 records the ruling, and the filed record's index page and the card's Standing
 paragraph state the exposure and the ruling. An acceptance whose record shows an
 exposure with no ruling is not relied on until a grader distinct from the author

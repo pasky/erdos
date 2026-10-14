@@ -405,14 +405,15 @@ On the Lean side there is no hand-maintained roster. `lake exe audit` walks
 every declaration in the corpus; its axiom check has no opt-out and cannot be
 silenced. It checks the claim surface (`Erdos.L<id>.statement` / `.claim` /
 `.refutation`), and `lake exe audit --emit` writes `lean/Manifest.json`, which
-is committed and checked for freshness. Each claim row of the manifest records
-two fields. `depends` is the kernel dependency check: the ids of the other
-claims whose namespace constants the proof closure of the claim's triple
-reaches. The reference linter gates every recorded id against the claim page's
-`depends_on`, so a page always discloses what its kernel proof relies on.
-`compiler` lists the compiler axioms that `native_decide` minted in the triple's
-closure, each with the declaration and module that minted it; the reference
-linter matches them to the card's `assumes: compiler` in both directions.
+is committed and checked for freshness. Each claim row of the manifest records,
+among other fields, `depends` and `compiler`. `depends` is the kernel dependency
+check: the ids of the other claims whose namespace constants the proof closure
+of the claim's triple reaches. The reference linter gates every recorded id
+against the claim page's `depends_on`, so a page always discloses what its
+kernel proof relies on. `compiler` lists the compiler axioms that
+`native_decide` minted in the triple's closure, each with the declaration and
+module that minted it; the reference linter matches them to the card's
+`assumes: compiler` in both directions.
 
 A claim's `lean:` field names a fully qualified declaration in that claim's own
 namespace (`Erdos.L<id>.*`). The field certifies the claim's own

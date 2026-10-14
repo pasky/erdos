@@ -197,13 +197,16 @@ evidence" states the numbering and citation guarantee.
     where it is absolutely necessary, on the closed lists in
     `docs/verification.md` "Exact subjects and durable evidence": tool data, the
     gold data under "Gold pins", the listed computed-result digests, and an
-    external source's commit where a record relies on that exact content. No
-    program refuses to run because a file's hash changed, unless the file is
-    gold data. Filed records may be edited in place to remove any other commit
-    id or hash, replacing a removed commit with its UTC date where a sentence
-    needs one, and to remove the names of people, agents, sessions and tool
-    harnesses, keeping their paths, scope, dates and verdict. Private run state
-    that never reaches the default branch may name commits.
+    external source's commit where a record relies on that exact content. A
+    verbatim copy keeps the digests and commit ids it prints: a quotation of a
+    source, an external URL, a transcription or retained copy of a third-party
+    file, or a preserved snapshot of reviewed text. No program refuses to run
+    because a file's hash changed, unless the file is gold data. Filed records
+    may be edited in place to remove any other commit id or hash, replacing a
+    removed commit with its UTC date where a sentence needs one, and to remove
+    the names of people, agents, sessions and tool harnesses, keeping their
+    paths, scope, dates and verdict. Private run state that never reaches the
+    default branch may name commits.
 10. **No change logs.** Prose carries no change logs. Correct a page in place:
     never record what it used to say, when it changed or who changed it, since
     git holds that history. A date enters prose only as a fact in its own right:
