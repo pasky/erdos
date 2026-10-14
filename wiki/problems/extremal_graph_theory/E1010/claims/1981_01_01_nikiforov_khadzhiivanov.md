@@ -6,7 +6,9 @@ desc: |
   rendus of the Bulgarian Academy with an independent proof of the
   Erdős–Rademacher conjecture. The note is not held, and no record of it was
   found.
-authors: []
+authors:
+- V. S. Nikiforov
+- N. G. Khadzhiivanov
 status: accepted
 claim: proved
 scope: full

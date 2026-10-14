@@ -5,7 +5,9 @@ desc: |
   Cayley graphs of cyclic groups on symmetric complete sum-free sets are
   triangle-free graphs of diameter two with degree of order $\sqrt n$ along an
   infinite sequence of $n$. So $f(n)/\sqrt n$ does not tend to infinity.
-authors: []
+authors:
+- D. Hanson
+- K. Seyffarth
 status: accepted
 claim: disproved
 scope: partial

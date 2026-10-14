@@ -5,7 +5,9 @@ desc: |
   Ruzsa and Szemerédi (1978) prove that a $3$-uniform hypergraph on $n$ vertices
   in which no six vertices span three edges has $o(n^2)$ edges. This answers the
   Brown, Erdős and Sós question yes, and the bound is nearly sharp.
-authors: []
+authors:
+- I. Z. Ruzsa
+- E. Szemerédi
 status: accepted
 claim: proved
 scope: full

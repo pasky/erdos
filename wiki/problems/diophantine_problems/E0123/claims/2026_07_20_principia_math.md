@@ -6,7 +6,8 @@ desc: |
   bases are $d$-complete, with the summands confined to a short multiplicative
   window. The proof is written up and formalized in Lean, and the site shows no
   verdict.
-authors: []
+authors:
+- Principia Math
 status: claimed
 claim: proved
 scope: full

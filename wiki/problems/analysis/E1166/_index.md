@@ -58,13 +58,15 @@ $$
 The constant is a consequence of those estimates, not a claim of a sharp
 asymptotic for the union. The derived standing is claimed and proved, not
 solved. The pending claim is
-[[problems/analysis/E1166/claims/2024_09_02_hao_li_okada_zheng|the favorite-count bound of Hao, Li, Okada and Zheng with the Erdős–Taylor estimate]],
-which consists of two refereed theorems. The site's page states their
-combination itself. It credits the eventual bound, through Problem 1165, to
-Tóth. That is a misattribution, since Hao–Li–Okada–Zheng Theorem 1.1 supplies
-it. So no review credits the deduction, and the claim stays claimed although
-both of its inputs are refereed. An independent Lean proof of the deduction is a
-second pending claim, on
+[[problems/analysis/E1166/claims/2026_01_23_bloom|the site curator's deduction from the favorite-count bound of Hao, Li, Okada and Zheng and the Erdős–Taylor estimate]],
+which combines two refereed theorems. The site's page states that combination
+itself, so the curator who labeled the problem proved is the deduction's
+claimant, and his label is not independent acceptance. The page credits the
+eventual bound, through Problem 1165, to Tóth. That is a misattribution, since
+Hao–Li–Okada–Zheng Theorem 1.1 supplies it. Plasma AI checked the deduction in
+full, and acceptance on that check is pending until the project's reviewer
+signs off, so the claim stays claimed although both of its inputs are refereed.
+An independent Lean proof of the deduction is a second pending claim, on
 [[problems/analysis/E1166/claims/2026_08_23_alexeev|its own claim page]].
 
 **Source.** [erdosproblems.com/1166](https://www.erdosproblems.com/1166),
@@ -95,13 +97,14 @@ was not built or audited here.
 
 ## Current assessment
 
-The recorded favorite-union deduction combines the eventual favorite-count
-bound from Hao–Li–Okada–Zheng with the Erdős–Taylor maximum-local-time
-upper bound. The corollary and essential Hao chain are written in full; no
-independent review has examined the deduction. On 2026-09-05 the site's
-discussion and proof-claims pages carried no comments or proof claims. The
-stronger printed display (4.35) remains uncertified and is not assumed by the
-recorded proof.
+The recorded favorite-union deduction combines the eventual favorite-count bound
+from Hao–Li–Okada–Zheng with the Erdős–Taylor maximum-local-time upper bound.
+The corollary and essential Hao chain are written in full. That writing is
+Plasma AI's check of the deduction, on which acceptance is pending until the
+project's reviewer signs off; no independent review has examined the deduction.
+On 2026-09-05 the site's discussion and proof-claims pages carried no comments
+or proof claims. The stronger printed display (4.35) remains uncertified and is
+not assumed by the recorded proof.
 
 ## Progress
 
