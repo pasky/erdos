@@ -1,8 +1,0 @@
---- a/Solution.lean
-+++ b/Solution.lean
-@@ -690 +690 @@
--      apply Finset.prod_le_prod (fun _ _ => by positivity)
-+      apply Finset.prod_le_prod₀ (fun _ _ => by positivity)
-@@ -1085 +1085 @@
--    _ ≤ ∏ k, Real.exp (e k) := Finset.prod_le_prod (fun _ _ => by positivity) (fun k _ => hfactor k)
-+    _ ≤ ∏ k, Real.exp (e k) := Finset.prod_le_prod₀ (fun _ _ => by positivity) (fun k _ => hfactor k)

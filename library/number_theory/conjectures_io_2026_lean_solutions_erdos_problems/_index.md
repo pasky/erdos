@@ -48,9 +48,9 @@ Conjectures.io alone, so the term recorded is `reserved`; the source record
 quotes the clause. A reader fetches each file by its URL and compares its
 SHA-256 with the source record.
 
-**The replays.** [evidence/verify/](evidence/verify/_index.md) keeps the
-replay driver, the ports to the pinned toolchain and one dated receipt per
-record. All sixteen replays passed.
+**The replays.** [evidence/verify/](evidence/verify/_index.md) keeps the replay
+driver, the formal-conjectures ports to the pinned toolchain and one dated
+receipt per record. All sixteen replays passed.
 
 **Read status.** The files were rebuilt and replayed in the kernel, not read
 as proofs. Each receipt's statement check compares the replayed target with

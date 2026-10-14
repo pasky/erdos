@@ -2,9 +2,9 @@
 name: number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify
 title: Kernel replays of sixteen Conjectures.io solutions
 desc: |
-  The replay driver, the ports to Lean v4.34.1 and one dated receipt per
-  record for the sixteen Conjectures.io solutions replayed in the kernel from
-  an empty environment; all sixteen passed.
+  The replay driver, the formal-conjectures ports to Lean v4.34.1 and one dated
+  receipt per record for the sixteen Conjectures.io solutions replayed in the
+  kernel from an empty environment; all sixteen passed.
 created: 2026-10-14T02:00:00Z
 updated: 2026-10-14T01:29:24Z
 ---
@@ -107,15 +107,17 @@ reaches, are identical in `Challenge` and `Solution`. Last,
 - [records.tsv](../assets/records.tsv): per record, the solution file's
   SHA-256, the conjectures-tasks commit and bundle folder, the
   formal-conjectures commit the task pins and the one the file was built
-  against, and its solution port.
+  against, and its proof-side port with that diff's SHA-256.
 - [pins.tsv](../assets/pins.tsv): per formal-conjectures commit, its base
   commit, the conjectures-tasks commit of its audit patch, and its port.
 - `../assets/ports/`: `fc_<commit>.diff` ports a pinned formal-conjectures
   commit to the toolchain (the Mathlib requirement, the toolchain file, a shared
   packages folder, and support files whose Mathlib API changed, as
-  Conjectures.io's later port of formal-conjectures changes them);
-  `solution_<record>.diff` is the proof-side port of one solution file, with no
-  context lines.
+  Conjectures.io's later port of formal-conjectures changes them).
+- The proof-side port of a solution file, `solution_<record>/port.diff` under
+  `../assets/`, is held privately beside the solution file it quotes, for the
+  seven records `records.tsv` names; the driver applies it where it is held and
+  otherwise stops and names it.
 
 **Toolchain.** The repository's `lean/lean-toolchain`,
 `leanprover/lean4:v4.34.1`, with Mathlib at the revision

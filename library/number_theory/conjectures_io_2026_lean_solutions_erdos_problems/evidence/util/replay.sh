@@ -16,8 +16,8 @@
 # conjectures-validator's scripts/pin_dependencies.sh uses); port it to the pinned toolchain with
 # ../assets/ports/fc_<pin>.diff; take the task bundle from conjectures-tasks; download the solution file and
 # compare its SHA-256 with records.tsv; assemble Solution.lean from the bundle's header, the file
-# and the footer, applying ../assets/ports/solution_<record>.diff where records.tsv names one;
-# build
+# and the footer, applying the proof-side port ../assets/solution_<record>/port.diff where
+# records.tsv names one (held only beside the reserved solution file, since it quotes it); build
 # Challenge and Solution; run Replay.lean; print the target's axioms. A changed solution file or
 # bundle is reported, not refused: the receipt states which bytes were replayed.
 set -euo pipefail
@@ -42,7 +42,7 @@ row=$(awk -F'\t' -v r="$rid" 'NR > 1 && $2 == r' "$assets/records.tsv")
     exit 2
 }
 IFS=$'\t' read -r problem record sha256 tasks_commit bundle_dir task_pin build_pin solution_port \
-    <<<"$row"
+    port_sha256 <<<"$row"
 echo "== $problem record $record"
 
 clone() { [ -d "$work/$1/.git" ] || git clone --quiet "$2" "$work/$1"; }
@@ -157,8 +157,18 @@ else
 fi
 cat "$ws/bundle/SolutionHeader.lean.txt" "$ws/Main.lean" "$ws/bundle/SolutionFooter.lean.txt" >"$ws/Solution.lean"
 if [ "$solution_port" != "-" ]; then
-    patch -s -p1 -d "$ws" <"$assets/ports/$solution_port"
-    echo "applied ports/$solution_port"
+    # a proof-side port quotes the reserved solution file, so it is held only where the file is
+    port=$assets/$solution_port
+    if [ ! -f "$port" ]; then
+        echo "the port $solution_port (SHA-256 $port_sha256) is not in this checkout: it quotes" \
+            "the reserved solution file and is held only beside it" >&2
+        exit 1
+    fi
+    found=$(python3 -c 'import hashlib, sys; print(hashlib.sha256(open(sys.argv[1], "rb").read()).hexdigest())' "$port")
+    [ "$found" = "$port_sha256" ] \
+        || echo "WARNING: port $solution_port SHA-256 $found, recorded $port_sha256" >&2
+    patch -s -p1 -d "$ws" <"$port"
+    echo "applied $solution_port"
 fi
 cp "$ws/bundle/Challenge.lean" "$ws/Challenge.lean"
 echo "$toolchain" >"$ws/lean-toolchain"

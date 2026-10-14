@@ -37,12 +37,15 @@ to the toolchain with
 comes from conjectures-validator commit
 `bc4e1f7d5354fbb20d09636399ac24df2b6b63d8`.
 
-**Port.** Proof-side changes for Mathlib's API at v4.34.1, applied by
-[ports/solution_8d59a0af.diff](../assets/ports/solution_8d59a0af.diff): 22 lemma
+**Port.** Proof-side changes for Mathlib's API at v4.34.1, made by the diff
+`solution_8d59a0af/port.diff` under `evidence/assets/` (SHA-256
+`87b246ce6f1e40189d812ae2d5bfeb32131063b1c8b2c68d3312fdd8ff0bae0f`): 22 lemma
 renames, 112 rewrites of the deleted `MvPolynomial.coeff` uses (Mathlib PR
 #41427), four argument names, four uses of `mapDomain_apply_of_injective`, one
 simp lemma and one `swap` with `congr 2`. The target's statement is unchanged,
-and no `sorry` was introduced.
+and no `sorry` was introduced. The diff quotes the reserved solution file, so
+it is held privately beside that file; a reader rebuilds the port from the held
+diff, which the driver applies.
 
 **Command.** [replay.sh](../util/replay.sh)
 `WORKDIR 8d59a0af-6762-4606-93c9-72dd356a57bc`, which builds `Challenge` and

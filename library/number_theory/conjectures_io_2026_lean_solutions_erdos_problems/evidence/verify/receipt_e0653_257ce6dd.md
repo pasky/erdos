@@ -37,12 +37,14 @@ to the toolchain with
 comes from conjectures-validator commit
 `bc4e1f7d5354fbb20d09636399ac24df2b6b63d8`.
 
-**Port.** Proof-side changes for Mathlib's API at v4.34.1, applied by
-[ports/solution_257ce6dd.diff](../assets/ports/solution_257ce6dd.diff): eight
-lemma renames, a restatement of the removed `isProbabilityMeasure_map` (Mathlib
-PR
-#42322) and one binder type. The target's statement is unchanged, and no `sorry`
-was introduced.
+**Port.** Proof-side changes for Mathlib's API at v4.34.1, made by the diff
+`solution_257ce6dd/port.diff` under `evidence/assets/` (SHA-256
+`e5fca3bccd2724011c1e7da7bd92761f80237d9756a1ca572bfacf7f37aa9ad0`): eight lemma
+renames, a restatement of the removed `isProbabilityMeasure_map` (Mathlib PR
+#42322) and one binder type. The target's statement is unchanged, and no
+`sorry` was introduced. The diff quotes the reserved solution file, so it is
+held privately beside that file; a reader rebuilds the port from the held diff,
+which the driver applies.
 
 **Command.** [replay.sh](../util/replay.sh)
 `WORKDIR 257ce6dd-e3e5-4169-9d7e-2811092977ca`, which builds `Challenge` and

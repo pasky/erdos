@@ -37,13 +37,16 @@ to the toolchain with
 comes from conjectures-validator commit
 `bc4e1f7d5354fbb20d09636399ac24df2b6b63d8`.
 
-**Port.** Proof-side changes for Mathlib's API at v4.34.1, applied by
-[ports/solution_815c1d5f.diff](../assets/ports/solution_815c1d5f.diff):
-Mathlib's `ProbabilityMeasure.map`, which now takes the function rather than its
+**Port.** Proof-side changes for Mathlib's API at v4.34.1, made by the diff
+`solution_815c1d5f/port.diff` under `evidence/assets/` (SHA-256
+`450149b418a7e8a2adec19bc5a902082afb3b530880473c58caa5af70cea8eac`): Mathlib's
+`ProbabilityMeasure.map`, which now takes the function rather than its
 measurability proof (26 call sites, internal lemma statements included), the
 side goal `Measure.map_finset_sum` leaves after `rw`, and `eventuallyConst_set'`
 replaced by `Filter.eventuallyEmptyOrUniv_iff'`. The target's statement is
-unchanged, and no `sorry` was introduced.
+unchanged, and no `sorry` was introduced. The diff quotes the reserved solution
+file, so it is held privately beside that file; a reader rebuilds the port from
+the held diff, which the driver applies.
 
 **Command.** [replay.sh](../util/replay.sh)
 `WORKDIR 815c1d5f-3afb-4430-8e2c-260d9038f5b0`, which builds `Challenge` and
