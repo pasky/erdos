@@ -4,7 +4,7 @@ desc: The 5 claim pages of Problem 278, one per claimant's result; the problem's
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-14T00:17:55Z
 ---
 
 # problems/covering_systems/E0278/claims
@@ -14,7 +14,7 @@ updated: 2026-10-11T22:24:14Z
 [[problems/covering_systems/E0278/claims/1966_01_01_rogers|1966_01_01_rogers]]: Rogers' theorem, first published in Halberstam and Roth's Sequences (1966),
 states that for fixed moduli the density of integers in none of the classes is
 largest when every residue is zero, so equal residues cover least. It is a
-book result.
+book result, accepted on the refereed work that proves and cites it.
 
 [[problems/covering_systems/E0278/claims/1986_04_01_simpson|1986_04_01_simpson]]: Simpson's 1986 bound states that the density covered by one class per modulus
 is at least the alternating sum of reciprocal least common multiples, with

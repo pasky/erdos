@@ -9,9 +9,11 @@ desc: |
 authors:
 - James E. Baumgartner
 - András Hajnal
-status: claimed
+status: accepted
 claim: proved
 scope: partial
+evidence:
+- reviewed
 submitted: null
 links:
 - url: https://doi.org/10.1090/conm/065/891246
@@ -53,17 +55,24 @@ the continuum hypothesis gives $\omega_1^2\not\to(\omega_1\omega,4)^2$, so the
 triangle targets cannot be raised to four; that relation is context, not part of
 this claim.
 
-**Standing.** Claimed. James E. Baumgartner and András Hajnal, *A remark on
-partition relations for infinite ordinals with an application to finite
-combinatorics*, in Logic and combinatorics (Arcata, Calif., 1985), Contemporary
-Mathematics 65, American Mathematical Society, Providence, RI, 1987, pp.
-157--167; DOI 10.1090/conm/065/891246; Zbl 0635.03042. The volume is a
-conference proceedings, and no evidence that its papers were refereed was found,
-so `refereed` is not listed. The site's commentary does not cite the paper, so
-no curator credit exists and `reviewed` is not listed. The paper is paywalled
-and not held; its statement is taken from the zbMATH review and from Komjáth's
-restatement, and its proof is not checked. The volume carries only the year, so
-this page is dated the first of January 1987.
+**Source.** James E. Baumgartner and András Hajnal, *A remark on partition
+relations for infinite ordinals with an application to finite combinatorics*, in
+Logic and combinatorics (Arcata, Calif., 1985), Contemporary Mathematics 65,
+American Mathematical Society, Providence, RI, 1987, pp. 157--167; DOI
+10.1090/conm/065/891246; Zbl 0635.03042. The paper is paywalled and not held;
+its statement is taken from the zbMATH review and from Komjáth's restatement,
+and its proof is not checked. The volume carries only the year, so this page is
+dated the first of January 1987.
+
+**Acceptance.** Reviewed: Péter Komjáth's survey, *The Erdős–Hajnal problem
+list*, Bull. Symbolic Logic 31 (2025), 418–461, DOI 10.1017/bsl.2025.1, covers
+the result in its Problem 13 commentary and Problem 54 discussion. It records
+that Baumgartner and Hajnal proved $\omega_1^2\to(\omega_1\omega,3,3)^2$ in
+ZFC, the case $\kappa=\omega$ of the claim, which is the case the problem uses.
+The survey is refereed, and its author is not an author of the paper. The
+volume is a conference proceedings, and no evidence that its papers were
+refereed was found, so `refereed` is not listed. The site's commentary does not
+cite the paper. Nothing on this page is independently reviewed by this project.
 
 **Attribution of $k=1$.** Komjáth attributes the case $k=1$, in the form
 $\omega_1^2\to(\omega_1\alpha,3)^2$ for every $\alpha<\omega_1$, to Erdős and
