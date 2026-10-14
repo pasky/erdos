@@ -580,22 +580,23 @@ statement's polarity. A result that answers only the erdosproblems.com wording
 keeps its claim page with `status` `rejected` and the reason "answers the
 erdosproblems.com wording, not the modified Statement". A result that answers
 only a variant, a reading or version of the problem that the problem page sets
-aside, settles no instance of the problem. Such a result submitted to the site
-as a claim keeps its claim page with `status` `rejected`, the reason "answers a
-variant, not the Statement", and a note that its mathematics answers the named
-variant and so does not settle the problem; every claim the site shows has a
-claim page, rejected if need be, and which of them a presentation of the corpus
-displays is the presentation's choice. A result never submitted as a claim, such
-as a theorem of the literature, has no claim page; the problem page records it
-among its known results as answering the variant. On a problem that asks for an
-order of growth or a best bound, a bound has a partial claim page only when it
-improves the best established bound (accepted, or published and refereed) that
-the problem page lists from before its date; a pending claim's bound counts once
-it is accepted. A bound that does not improve it is recorded among the page's
-known results. A submitted claim (one with a `submitted` date) that does not
-improve it keeps its claim page, with `status` `rejected` and the reason "does
-not improve the best known bound". That a problem is falsifiable or verifiable
-is a body note on an open problem, not a claim.
+aside, settles no instance of the problem. Such a result submitted to
+erdosproblems.com as a claim keeps its claim page with `status` `rejected`, the
+reason "answers a variant, not the Statement", and a note that its mathematics
+answers the named variant and so does not settle the problem; every claim
+erdosproblems.com shows has a claim page, rejected if need be, and which of them
+a presentation of the corpus displays is the presentation's choice. A result
+never submitted as a claim, such as a theorem of the literature, has no claim
+page; the problem page records it among its known results as answering the
+variant. On a problem that asks for an order of growth or a best bound, a bound
+has a partial claim page only when it improves the best established bound
+(accepted, or published and refereed) that the problem page lists from before
+its date; a pending claim's bound counts once it is accepted. A bound that does
+not improve it is recorded among the page's known results. A submitted claim
+(one with a `submitted` date) that does not improve it keeps its claim page,
+with `status` `rejected` and the reason "does not improve the best known bound".
+That a problem is falsifiable or verifiable is a body note on an open problem,
+not a claim.
 
 Acceptance lives on the claim page: a claim moves from `claimed` to `accepted`
 only with the evidence it lists, and the problem's `status` and `claim` follow

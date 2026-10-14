@@ -290,7 +290,7 @@ contain $K_{2,2,2}$.
 record; none found a proof, a disproof, a preprint on $K_{2,2,2}$ or a proof
 claim.
 
-- The site: problem page, discussion thread and proof-claim tab; the
+- erdosproblems.com: problem page, discussion thread and proof-claim tab; the
   formal-conjectures file and the community database.
 - arXiv: the API searches `all:Ramsey AND all:Turan` (eight records, none on
   $K_{2,2,2}$), `all:octahedron AND all:Ramsey` (no record) and

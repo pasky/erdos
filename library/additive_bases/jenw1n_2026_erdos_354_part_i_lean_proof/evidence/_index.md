@@ -2,8 +2,9 @@
 name: additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/evidence
 title: Evidence for the Conjectures.io proof of Problem 354 part (i)
 desc: |
-  Retains the site's solution file Main.lean as fetched on 2026-09-28, the
-  bytes the site's kernel accepted, unedited; the replay rebuilt a ported copy.
+  Retains Conjectures.io's solution file Main.lean as fetched on 2026-09-28, the
+  bytes Conjectures.io's kernel accepted, unedited; the replay rebuilt a ported
+  copy.
 created: 2026-09-28T03:20:00Z
 updated: 2026-10-05T05:52:35Z
 ---
@@ -17,7 +18,7 @@ updated: 2026-10-05T05:52:35Z
 The folder `assets/solution_815c1d5f/` holds `Main.lean` exactly as
 fetched from
 <https://conjectures.io/results/815c1d5f-3afb-4430-8e2c-260d9038f5b0/solution/download>
-on 2026-09-28T02:58:02Z: 10,152 lines. It is the proof the site's kernel
+on 2026-09-28T02:58:02Z: 10,152 lines. It is the proof Conjectures.io's kernel
 accepted; it is not edited, it
 lies outside `lean/` and the accepted native closure, and nothing here
 builds or replays it. There is no `main.py`: the evidence is a retained

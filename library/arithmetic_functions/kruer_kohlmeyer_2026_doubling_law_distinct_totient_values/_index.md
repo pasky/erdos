@@ -38,8 +38,8 @@ accepted proof, five pages numbered 1–5. Provenance: retrieved
 94,397 bytes; PDF metadata Author "Liam Kruer and Jensen Kohlmeyer", created
 2026-09-18. The write-up prints no copyright or license for itself (its mention
 of separate attribution and license notices refers to the bundled supporting
-libraries); the site's terms of service, effective August 13, 2026, state "You
-retain ownership of material you submit, but grant us a worldwide,
+libraries); Conjectures.io's terms of service, effective August 13, 2026, state
+"You retain ownership of material you submit, but grant us a worldwide,
 non-exclusive, royalty-free license to store, copy, verify, analyze, publish and
 distribute it as needed to operate, secure, audit and explain the service." and
 grant no public reuse license (https://conjectures.io/terms, read 2026-10-02;

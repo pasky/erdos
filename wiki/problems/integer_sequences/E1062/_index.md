@@ -179,7 +179,8 @@ $0<3^b-2^a\le2^{a(1-\varepsilon)}$), proved inside the file in about 19,000
 lines by Schmidt's method (Roth's lemma, geometry of numbers, compound matrices,
 Davenport's lemma), with Siegel's lemma from Mathlib as its one imported
 geometry-of-numbers input; no earlier machine-checked proof of a result of this
-depth is known to this compilation, and the site's note does not mention it.
+depth is known to this compilation, and erdosproblems.com's note does not
+mention it.
 
 The replayed target settles the second question exactly and answers the first
 only in asymptotic form, $f(n)=(l+o(1))\,n$ with $l$ irrational: the exact

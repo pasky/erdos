@@ -10,15 +10,16 @@ desc: |
   text, not built here, and no refereed publication exists.
 license: reserved
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-14T01:33:14Z
 ---
 
 # JenW1N: Lean proof of Problem 354 part (i), Conjectures.io record 815c1d5f
 
 [[additive_bases/_index|..]]
 
-[[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/evidence/_index|evidence/]]: Retains the site's solution file Main.lean as fetched on 2026-09-28, the
-bytes the site's kernel accepted, unedited; the replay rebuilt a ported copy.
+[[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/evidence/_index|evidence/]]: Retains Conjectures.io's solution file Main.lean as fetched on 2026-09-28, the
+bytes Conjectures.io's kernel accepted, unedited; the replay rebuilt a ported
+copy.
 
 [[additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/jenw1n_2026_erdos_354_part_i_lean_proof|jenw1n_2026_erdos_354_part_i_lean_proof]]: Record identity, Conjectures.io's dates and review decision, its verification
 report, the task's pinned statement and the public standing of the result

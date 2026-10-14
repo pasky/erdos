@@ -263,7 +263,7 @@ conjecture these sources state or model.
 **Search scope (2026-09-18 UTC).** None of the routes below found a proof,
 disproof or proof claim; [OAI26] postdates the search.
 
-- The site: problem page, discussion thread and proof-claim tab;
+- erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures at the pinned commit; the community database on
   2026-09-18.
 - The primary sources: [Er77c] p. 69 and [Er80] pp. 114--115.

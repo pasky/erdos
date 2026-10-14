@@ -32,8 +32,8 @@ $$
 Erdős introduces the theorem (p. 195) as showing that no sharpening of
 Theorem 1 beyond $\log\log b$ is possible: relatively many
 („aránylag soknak“, in the paper's own quotation marks) of
-$N(1,b),\ldots,N(b-2,b)$ exceed $c_2\log\log b$. The site's commentary for
-Problem 304 records the consequences $\log\log b\ll N(b)$ and
+$N(1,b),\ldots,N(b-2,b)$ exceed $c_2\log\log b$. The erdosproblems.com
+commentary for Problem 304 records the consequences $\log\log b\ll N(b)$ and
 $\frac1b\sum_{1\le a<b}N(a,b)\gg\log\log b$.
 
 **Source.** Erdős, Mat. Lapok 1 (1950), Theorem 2 on printed p. 195 (PDF

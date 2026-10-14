@@ -40,9 +40,9 @@ The Lean behind the qualifier is described below.
 
 **References.** Original problem references, as listed by erdosproblems.com.
 [ErHa66], [Er69b], [Er74d], [Er81], [Er90], [Er93, p. 342],
-[Er94b], [Er95], [Er95d], [Er96], [Er97b], [Va99, 3.58]. These are the site
-header's historical statement references. Of these, [Er97b] (Erdős,
-Some old and new problems in various branches of combinatorics, Discrete
+[Er94b], [Er95], [Er95d], [Er96], [Er97b], [Va99, 3.58]. These are the
+erdosproblems.com header's historical statement references. Of these, [Er97b]
+(Erdős, Some old and new problems in various branches of combinatorics, Discrete
 Math. 165/166 (1997), 227--231) is carded: item 3 on p. 228 states the
 conjecture, quoted on its card,
 [[../library/integer_sequences/erdos_1997_some_old_new_problems_various_branches_combinatorics/_index|erdos_1997_some_old_new_problems_various_branches_combinatorics]].

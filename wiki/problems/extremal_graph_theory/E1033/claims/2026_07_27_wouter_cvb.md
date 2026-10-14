@@ -43,7 +43,7 @@ edges whose every triangle has degree sum at most $1.463878\,n$, below
 $2(\sqrt3-1)n\approx1.46410\,n$. The publication is the write-up *Optimized
 density argument for Erdős 1033*, three pages, author line Wouter CvB,
 dated 27 July 2026, hosted on the author's GitHub Pages site and linked
-from the author's thread comment of the same day. The site's public
+from the author's thread comment of the same day. The GitHub Pages site's public
 repository holds four uploads of the file, from 27 July 2026 (14:21 UTC) to
 28 July 2026 (02:38 UTC); the version described here is the last, which is
 the file served on 2026-10-07 and the first `preprint` link, pinned to its

@@ -138,12 +138,13 @@ the proof file's header credits Codex with assistance in its development. No
 The erdosproblems.com page (fetched 2026-09-18T16:22Z) labeled
 the problem OPEN, says the $k=4$ case remains open even for $r=1$, and lists
 Chan's proof claim. On that date, the formal-conjectures catalog file on its
-default branch agreed with the statement the site prints and tagged the theorem
-research open. By its commit of 21 September 2026, the formal-conjectures
-catalog tags the $k=4$ case of Dirac's conjecture research solved and keeps
-`erdos_944` itself tagged research open. The formal-conjectures commit that
-Conjectures.io's task pins is not public; Conjectures.io builds it from a public
-catalog commit and an audit patch, and the replay reproduced it exactly.
+default branch agreed with the statement erdosproblems.com prints and tagged the
+theorem research open. By its commit of 21 September 2026, the
+formal-conjectures catalog tags the $k=4$ case of Dirac's conjecture research
+solved and keeps `erdos_944` itself tagged research open. The formal-conjectures
+commit that Conjectures.io's task pins is not public; Conjectures.io builds it
+from a public catalog commit and an audit patch, and the replay reproduced it
+exactly.
 
 **Verification record.** Besides the replay under **Acceptance.**, this corpus
 read the proof file,
