@@ -25,7 +25,7 @@ links:
 - url: https://conjectures.io/papers/erdos859.pdf
   kind: preprint
   date: 2026-09-21
-- url: https://www.erdosproblems.com/forum/thread/859/proof-claims
+- url: https://www.erdosproblems.com/forum/thread/859/proof-claims#proof-claim-359
   kind: discussion
   date: 2026-09-27
 created: 2026-10-07T06:53:16Z

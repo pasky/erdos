@@ -11,12 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T01:12:01Z
 ---
 
 # Problem 602
 
 [[problems/set_theory/_index|..]]
+
+[[problems/set_theory/E0602/claims/_index|claims/]]: The 1 claim page of Problem 602, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -28,8 +30,9 @@ is monochromatic?
 **Status.** Open. The site labeled the problem OPEN and shows no verdict. Its
 proof-claims tab carries one partial proof claim, filed 2026-10-01. The claim
 gives a finite criterion for Property B, and its author says it does not resolve
-the problem. The filing is recorded below. It gets no claim page, since it
-settles no instance of the question.
+the problem. The filing is recorded below, and
+[[problems/set_theory/E0602/claims/2026_07_22_gao|its claim page]] is rejected,
+since it settles no instance of the question.
 
 **Source.** [erdosproblems.com/602](https://www.erdosproblems.com/602), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #602,
@@ -73,24 +76,24 @@ do. These results have no claim pages: the site's commentary and the
 community database credit none of the earlier ones, and Komjáth's countable
 bound answers no instance of the two-color question.
 
-**Claims.** No claim page exists; the frontmatter standing is open with no
-claim. The one filing on the site's proof-claims page (claim 380, filed
+**Claims.** The one claim page is rejected, and the frontmatter standing is open
+with no claim. The one filing on the site's proof-claims page (claim 380, filed
 2026-10-01 by Lezhe Gao under the forum name lezhe, with the systems DeepSeek
 and GPT-5.5 named in its entry) is the manuscript "Peeling Hypergraphs: A
-Structural Sufficient Condition for Property B", a Zenodo deposit of
-2026-07-22 (doi:10.5281/zenodo.21475088). It calls a finite hypergraph peeling
-if its edges can be ordered so that each edge brings at least two vertices
-not in any earlier edge, or one such vertex together with a vertex of an
-earlier edge, proves that every peeling hypergraph has Property B, and
-characterizes peeling hypergraphs by acyclic assignments of vertices to
-edges; for graphs the peeling ones are exactly the forests. It gets no claim
-page because it settles no instance of the question, whose sets are
-countably infinite: the claimant's notes say that it is neither a proof of
-the infinite problem nor a partial solution to it, having no compactness
-argument, transfinite construction or reduction from the infinite case, and
-that it was filed as a related finite criterion in the hope that it prompts
-work on the infinite version. A result that decides no instance of the
-question is not a claim under the schema, whatever kind its filing carries.
+Structural Sufficient Condition for Property B", a Zenodo deposit of 2026-07-22
+(doi:10.5281/zenodo.21475088). It calls a finite hypergraph peeling if its edges
+can be ordered so that each edge brings at least two vertices not in any earlier
+edge, or one such vertex together with a vertex of an earlier edge, proves that
+every peeling hypergraph has Property B, and characterizes peeling hypergraphs
+by acyclic assignments of vertices to edges; for graphs the peeling ones are
+exactly the forests. It does not address the question, whose sets are countably
+infinite: the claimant's notes say that it is neither a proof of the infinite
+problem nor a partial solution to it, having no compactness argument,
+transfinite construction or reduction from the infinite case, and that it was
+filed as a related finite criterion in the hope that it prompts work on the
+infinite version. As a claim the site shows, it has a claim page,
+[[problems/set_theory/E0602/claims/2026_07_22_gao|rejected]] because it settles
+no instance of the question.
 
 **Search scope:** the site's problem page, commentary, discussion thread (one
 comment by 2026-10-07, post 5648 of 2026-04-20) and proof-claims page, with the
