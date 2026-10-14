@@ -8,8 +8,9 @@ desc: |
 tags:
 - Number theory
 - Geometry
-status: open
-claim: none
+status: claimed
+claim: disproved
+parts: [n_to_n]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -27,8 +28,13 @@ $n$-dimensional unit cube can be decomposed into $k$ homothetic $n$-dimensional
 cubes. Give good bounds for $c(n)$ - in particular, is it true that $c(n) \gg
 n^n$?
 
-**Status.** Labeled open on erdosproblems.com. The erdosproblems.com page
-labeled the problem OPEN (page last edited 1 October 2025). Its proof-claims tab
+**Formulation.** The second question is the part `n_to_n`. The first asks for good bounds with no target rather than a definite
+question, so it is open-ended: it is not a part, and it never blocks the standing.
+
+**Status.** Claimed: three pending partial claims answer the definite part,
+whether $c(n)\gg n^n$, in the negative, and the open-ended request for good
+bounds does not block the standing. The erdosproblems.com page labeled the
+problem OPEN (page last edited 1 October 2025). Its proof-claims tab
 carries two partial proof claims: Jeffrey Zeng's listing of 24 July 2026 and
 Samuel Korsky's manuscript of 5 August 2026. A third partial claim is not on the
 tab. It is the Lean disproof of the $n^n$ bound, which Star Fleet Math lists
@@ -66,8 +72,9 @@ links that proof.
 - **Question and standing.** The erdosproblems.com formulation above asks for
   the order of $c(n)$, the least $k_0$ such that the unit $n$-cube splits into
   $k$ homothetic cubes for every $k\ge k_0$, and in particular whether
-  $c(n)\gg n^n$. No claim settles the problem, so it is open. Three pending
-  partial claims bear on the particular question, each giving a negative answer.
+  $c(n)\gg n^n$. Three pending partial claims settle the particular question,
+  the definite part, each giving a negative answer, so the problem is claimed;
+  the open-ended request for good bounds does not block the standing.
   The earliest is
   [[problems/discrete_geometry/E0769/claims/2026_07_14_snyder|Star Fleet Math's Lean development]],
   dated 14 July 2026, whose theorem states that no absolute constant bounds

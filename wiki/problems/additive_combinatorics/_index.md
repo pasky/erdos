@@ -7,7 +7,7 @@ desc: |
   that force them (van der Waerden numbers), difference bases and perfect
   rulers, and sets with distinct subset sums.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-14T23:01:39Z
 ---
 
 # Sumsets and Arithmetic Progressions
@@ -268,8 +268,9 @@ its edges must number nearly as many as the edges.
 
 [[problems/additive_combinatorics/E0817/_index|E0817/]]: Estimates $g_k(n)$, the
 least $N$ for which some $n$-element subset of $\{1,\ldots,N\}$ has a set of
-subset sums with no $k$-term progression, and asks whether $g_3(n)\gg3^n$. It is
-open, and a 2026 preprint claims a negative answer to the $k=3$ question.
+subset sums with no $k$-term progression, and asks whether $g_3(n)\gg3^n$. The
+estimate is open, and a 2026 preprint claims a negative answer to the $k=3$
+question.
 
 [[problems/additive_combinatorics/E0818/_index|E0818/]]: Asks whether a finite
 set $A$ of integers with $|A+A|\ll|A|$ must satisfy $|AA|\gg|A|^2/(\log|A|)^C$

@@ -6,8 +6,9 @@ desc: |
   include $f(n)$ points with no two at distance $1$, and whether $f(n)\ge n/4$.
 tags:
 - Geometry
-status: open
-claim: none
+status: claimed
+claim: disproved
+parts: [quarter]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T18:28:40Z
 ---
@@ -24,10 +25,15 @@ updated: 2026-10-08T18:28:40Z
 $\mathbb{R}^2$, there exist $f(n)$ points such that no two are distance $1$
 apart. Estimate $f(n)$. In particular, is it true that $f(n)\geq n/4$?
 
-**Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 22
-January 2026). Its proof-claims tab carries one partial proof claim: Ákos Dúcz
-and Dániel Varga's preprint of 26 June 2026, which answers the particular
-question in the negative. The claim is recorded on
+**Formulation.** The second question is the part `quarter`. The first asks for an estimate of $f(n)$ with no target rather than a
+definite question, so it is open-ended: it is not a part, and it never blocks the standing.
+
+**Status.** Claimed: a pending partial claim would settle the definite second part,
+and the open-ended first question does not block the standing. Bloom's catalog
+labeled the problem OPEN (page last edited 22 January 2026). Its proof-claims
+tab carries one partial proof claim: Ákos Dúcz and Dániel Varga's preprint of
+26 June 2026, which answers the particular question in the negative. The
+claim is recorded on
 [[problems/discrete_geometry/E1070/claims/2026_06_26_ducz_varga|its claim page]]
 without being adopted. The standing in the frontmatter is derived from the claim
 pages.
@@ -58,9 +64,11 @@ formal-conjectures had no statement file for the problem on 2026-10-07.
   the order of $f(n)$, the largest number of points that every $n$-point planar
   set is guaranteed to contain with no two at distance one, equivalently the
   least independence number of an $n$-vertex unit-distance graph, and in
-  particular whether $f(n)\ge n/4$. No claim settles the problem, so it is open.
-  One pending partial claim bears on the particular question:
-  [[problems/discrete_geometry/E1070/claims/2026_06_26_ducz_varga|Dúcz and Varga's preprint]]
+  particular whether $f(n)\ge n/4$. The particular question is the definite
+  part `quarter`, and one pending partial claim settles it, so the problem is
+  claimed; the estimate is the open-ended question, which does not block
+  the standing. That claim,
+  [[problems/discrete_geometry/E1070/claims/2026_06_26_ducz_varga|Dúcz and Varga's preprint]],
   proves that some finite planar unit-distance graph has independence ratio
   below $1/4$, which, if it holds, gives $f(n)<n/4$ for all large $n$ and so a
   negative answer to the particular question; it is unrefereed and unreviewed,

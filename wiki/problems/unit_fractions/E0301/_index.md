@@ -8,8 +8,9 @@ desc: |
 tags:
 - Number theory
 - Unit fractions
-status: open
-claim: none
+status: claimed
+claim: disproved
+parts: [one_half]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T02:16:54Z
 ---
@@ -42,12 +43,15 @@ $k=2$ is forbidden, so $f_{301}(N)\le f_{302}(N)$ with no reverse inequality.
 The thread's comment of 2 January 2026 asked whether the relation was meant as
 an equality, and erdosproblems.com was updated to say so. $f(N)$ is OEIS A390394
 ($1,2,3,4,5,5,6,\ldots$, to $N=60$). The statement asks for an estimate of
-$f(N)$ and whether $f(N)=(1/2+o(1))N$.
+$f(N)$ and whether $f(N)=(1/2+o(1))N$. The second question is the part `one_half`. The first asks for an estimate with no
+target rather than a definite question, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** Open: the erdosproblems.com label was OPEN, its page was last edited
-16 January 2026 (accessed 2026-10-07), and Bloom's catalog marked the problem as
-not resolvable by a finite computation. The standing derived from the claim
-pages is open, claim none. The four claim pages are all pending partial claims:
+**Status.** Claimed: a pending partial claim answers the definite part, whether
+$f(N)=(1/2+o(1))N$, in the negative, and the open-ended estimate of $f(N)$ does
+not block the standing. The erdosproblems.com label was OPEN, its page was last
+edited 16 January 2026 (accessed 2026-10-07), and Bloom's catalog marked the
+problem as not resolvable by a finite computation. The four claim pages are all
+pending partial claims:
 [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|van Doorn's upper bound 25/28]]
 (recorded from the erdosproblems.com commentary),
 [[problems/unit_fractions/E0301/claims/2026_05_27_wang|Wang's upper bound 667/806]],
@@ -170,8 +174,9 @@ pair while the interval $(N/2,N]$ shows the threshold is not lower. It is a
 variant, not the problem.
 
 **Claims and unrefereed bounds.** Four claim pages, all pending partial
-claims. The problem lists no parts, so its partial claims derive no standing
-and the frontmatter is open, claim none.
+claims. Della Pietra's lower bound settles the definite part `one_half` in the
+negative, so the problem is claimed, claim disproved; the three upper bounds
+bear only on the open-ended estimate.
 
 - [[problems/unit_fractions/E0301/claims/2025_09_16_van_doorn|Wouter van Doorn, dated 16 September 2025]]:
   the $25/28$ argument above, recorded from the erdosproblems.com commentary,

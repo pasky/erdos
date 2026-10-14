@@ -7,8 +7,9 @@ desc: |
   whether infinitely many coprime such integers exist.
 tags:
 - Number theory
-status: open
-claim: none
+status: claimed
+claim: proved
+parts: [coprime]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -37,12 +38,15 @@ numbers. The pairwise reading implies the other, since each prime factor of $pq$
 divides at most one member of a pairwise coprime family. The formal-conjectures
 statement takes the pairwise reading. The page's standing targets the
 erdosproblems.com wording, and each claim page that bears on the second question
-says which reading it covers.
+says which reading it covers. The second question is the part `coprime`. The first asks what can be said about the density rather
+than a definite question, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** Open. Bloom's catalog labeled the problem open (page last edited 1
-April 2026; proof-claims thread accessed 2026-10-06). The erdosproblems.com
-proof-claims tab carries three partial proof claims. Each is recorded on its own
-claim page, and none is adopted here. In a claim of 2026-08-05, the forum user
+**Status.** Claimed: a pending partial claim would settle the definite second part,
+and the open-ended first question does not block the standing. Bloom's catalog
+labeled the problem open (page last edited 1 April 2026; proof-claims thread
+accessed 2026-10-06). The erdosproblems.com proof-claims tab carries three
+partial proof claims. Each is recorded on its own claim page, and none is
+adopted here. In a claim of 2026-08-05, the forum user
 Apiros3 claims that each of the three pairs Yu and Chen left open has an
 infinite pairwise-coprime sequence of non-representable numbers prime to $pq$
 ([[problems/diophantine_problems/E1110/claims/2026_08_05_apiros3|claim page]]).
@@ -119,12 +123,13 @@ and [[problems/diophantine_problems/E1110/claims/2026_09_29_becart|Bécart 2026]
 claim that the representable integers have positive lower density for
 $(5,2)$ and $(7,2)$, two pairs outside Yu and Chen's density-zero range, and
 Bécart's repository adds a draft of the same for $(4,3)$, a third such pair,
-so that the first question's answer differs between pairs. None of the three
-would settle the problem alone, none is accepted, and the derived standing
-is open. The search behind this account covered the erdosproblems.com page, its
-proof-claims thread, the claimants' postings and the formal-conjectures
-statement file; the statements attributed above to Yu and
-Chen [YuCh22] and to Yang and Zhao [YaZh25] follow the erdosproblems.com
+so that the first question's answer differs between pairs. Apiros3's claim
+settles the part `coprime`, the definite part, so the derived standing is
+claimed; the open-ended question does not block the standing, and none
+of the three claims is accepted. The search behind this account covered the
+erdosproblems.com page, its proof-claims thread, the claimants' postings and
+the formal-conjectures statement file; the statements attributed above to Yu
+and Chen [YuCh22] and to Yang and Zhao [YaZh25] follow the erdosproblems.com
 remarks, not the papers.
 <!-- BEGIN problem library links -->
 

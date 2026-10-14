@@ -7,8 +7,9 @@ desc: |
   choice of $n$ integers $1\leq a_1\leq\cdots\leq a_n$.
 tags:
 - Analysis
-status: open
-claim: none
+status: solved
+claim: disproved
+parts: [power_growth]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T18:29:39Z
 ---
@@ -35,9 +36,13 @@ $$
 \log f(n) \gg n^c?
 $$
 
-**Status.** Open, the erdosproblems.com label (OPEN; page last edited 20 January
-2026). The erdosproblems.com commentary answers the specific question no. Belov
-and Konyagin proved $\log f(n)\ll(\log n)^4$
+**Formulation.** The second question is the part `power_growth`. The first asks for an estimate with no target, so it is open-ended: it is not a part, and it never blocks the standing.
+
+**Status.** Solved: an accepted partial claim settles the definite second part
+in the negative, and the open-ended estimate does not block the standing. The
+erdosproblems.com label is OPEN (page last edited 20 January 2026). The
+erdosproblems.com commentary answers the specific question no. Belov and
+Konyagin proved $\log f(n)\ll(\log n)^4$
 ([[problems/analysis/E0256/claims/1996_12_01_belov_konyagin|their 1996 paper]],
 an accepted partial claim on its refereed publication). Estimating $f(n)$
 remains open.

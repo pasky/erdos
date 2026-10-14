@@ -10,8 +10,9 @@ tags:
 - Additive combinatorics
 - Arithmetic progressions
 - Discrepancy
-status: open
-claim: none
+status: claimed
+claim: answered
+parts: [ell_ck, ell_two, ell_sqrt_k]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -84,11 +85,15 @@ at $\varepsilon=1$. erdosproblems.com's non-strict $\ge\ell$ follows [Er63d],
 whose range includes $\varepsilon=1$ and stops there, so the instance $c=1$
 stays part of the Statement and [ErGr79]'s strict form is a variant that leaves
 it out; the beliefs about $W(n)$ in both texts concern the answer, not the
-question, and a later theorem about $c=1$ does not license a change.
+question, and a later theorem about $c=1$ does not license a change. The last three questions are the parts `ell_ck`, `ell_two` and `ell_sqrt_k`, in order. The first asks for good upper bounds with no target rather than a
+definite question, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** Open, the erdosproblems.com label as accessed 2026-09-04. No result
-settles the question. No full claim exists, and the standing derives from the
-claim pages.
+**Status.** Claimed: pending partial claims would settle the three definite parts,
+`ell_ck` no and `ell_two` and `ell_sqrt_k` yes, so the answers differ across
+parts and the claim is `answered`; the open-ended request for good upper bounds
+does not block the standing. The
+erdosproblems.com label, as accessed 2026-09-04, was OPEN. No full claim
+exists, and the standing derives from the claim pages.
 
 The OpenAI release of 23 September 2026 gives the superexponential lower bound
 $W(k)>k^{k/100000}$ for all large $k$. It is recorded as a claimed partial

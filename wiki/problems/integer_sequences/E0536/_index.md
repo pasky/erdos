@@ -8,8 +8,9 @@ desc: |
   whether $f(N)=o(N)$.
 tags:
 - Number theory
-status: open
-claim: none
+status: claimed
+claim: proved
+parts: [density]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T14:17:37Z
 ---
@@ -44,10 +45,13 @@ $l\ge\alpha n$ integers up to $n$, $n$ large, contain such a triple; this is
 $f(N)=o(N)$, and erdosproblems.com adds the estimate. In [Er70] the function is
 $F(3,x)$, the case $k=3$ of $F(k,x)$, the largest number of integers up to $x$
 no $k$ of which have pairwise the same least common multiple. The
-formal-conjectures file encodes the density form only.
+formal-conjectures file encodes the density form only. The second question is the part `density`. The first asks for an estimate
+of $f(N)$ with no target rather than a definite question, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** The erdosproblems.com label was Open (page last edited 29 April
-2026, proof-claims tab, accessed 2026-10-06). No proof or disproof of
+**Status.** Claimed: a pending partial claim would settle the definite second part,
+and the open-ended first question does not block the standing. The
+erdosproblems.com label was Open (page last edited 29 April 2026, proof-claims
+tab, accessed 2026-10-06). No proof or disproof of
 $f(N)=o(N)$ accepted by erdosproblems.com or by a refereed venue was found in
 the search whose scope the Current assessment records. This is a bounded
 negative finding, not a certificate of openness. Wang's manuscript of July 2026,
@@ -55,8 +59,7 @@ hosted on GitHub and submitted to the erdosproblems.com proof-claim tab, claims
 $f(N)=o(N)$. The erdosproblems.com curator relabeled it a partial claim because
 it does not estimate $f(N)$. That claim is recorded on
 [[problems/integer_sequences/E0536/claims/2026_07_14_wang|its claim page]],
-pending and unreviewed. A partial claim of a problem that lists no parts derives
-no standing, so the frontmatter stays open.
+pending and unreviewed; it settles the part `density`.
 
 The other results in hand are as follows. Abbott and Gardner proved the lower
 bound $f(N)>(1-\varepsilon)N\log\log N/\log N$
@@ -318,15 +321,18 @@ links no dated manuscript, and the Lean reported on 7 September covers only the
 reduction, not the two bounds. All of these are forum claims with dates; none
 is refereed, and none changes the label.
 
-**The $o(N)$ claim (a pending partial claim, not status).**
+**The $o(N)$ claim (a pending partial claim).**
 [[../library/integer_sequences/wang_2026_proposed_complete_solution_erdos_problem_536/theorem_1_1|Theorem 1.1 of [Wa26]]]
 (p. 1): $f(N)=o(N)$ as $N\to\infty$; the claim page is
-[[problems/integer_sequences/E0536/claims/2026_07_14_wang|2026_07_14_wang]]. The
-manuscript's route, in its own words: equal pairwise least common multiples have
-the pair-product form $txy,txz,tyz$ with $x,y,z$ pairwise coprime (Lemma 2.1, p.
-2, with a short valuation proof); "positive density $\Rightarrow$ a finite-prime
-envelope $\Rightarrow$ a squarefree moving-prefix capacity $\Rightarrow$
-balanced pair-product cubes $\Rightarrow$ a cap-set saving" (display (1.2)),
+[[problems/integer_sequences/E0536/claims/2026_07_14_wang|2026_07_14_wang]].
+The claim settles the part `density`, the definite part, so the derived
+standing is claimed; the open-ended question does not block the
+standing. The manuscript's route, in its own words: equal pairwise least
+common multiples have the pair-product form $txy,txz,tyz$ with $x,y,z$
+pairwise coprime (Lemma 2.1, p. 2, with a short valuation proof); "positive
+density $\Rightarrow$ a finite-prime envelope $\Rightarrow$ a squarefree
+moving-prefix capacity $\Rightarrow$ balanced pair-product cubes $\Rightarrow$
+a cap-set saving" (display (1.2)),
 with the external inputs prime-number estimates, the Brun–Titchmarsh inequality
 and the Ellenberg–Gijswijt cap-set bound (Propositions 2.2 and 2.3), a companion
 exact-arithmetic verifier for the finite checks (Appendix A), and the proof

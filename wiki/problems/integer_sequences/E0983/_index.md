@@ -7,8 +7,9 @@ desc: |
   some set of $r$ primes, and whether $2\pi(n^{1/2})-f(\pi(n)+1,n)\to\infty$.
 tags:
 - Number theory
-status: open
-claim: none
+status: claimed
+claim: disproved
+parts: [divergence]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-07T19:40:10Z
 ---
@@ -36,8 +37,13 @@ as $n\to \infty$?
 
 In general, estimate $f(k,n)$, particularly when $\pi(n)+1<k=o(n)$.
 
-**Status.** Open. The erdosproblems.com label was OPEN. A disproof of the first
-question, posted in the thread on 30 April 2026, is pending
+**Formulation.** The first question is the part `divergence`. The second asks for an estimate of $f(k,n)$ with no target rather
+than a definite question, so it is open-ended: it is not a part, and it never blocks the standing.
+
+**Status.** Claimed: a pending partial claim would settle the definite first part,
+and the open-ended second question does not block the standing. The
+erdosproblems.com label was OPEN. A disproof of the first question, posted in
+the thread on 30 April 2026, is pending
 ([[problems/integer_sequences/E0983/claims/2026_04_30_price|claim page]]).
 
 **Source.** [erdosproblems.com/983](https://www.erdosproblems.com/983), accessed

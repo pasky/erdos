@@ -7,8 +7,9 @@ desc: |
   arithmetic progression, for example a proof that $W(k)^{1/k}\to\infty$.
 tags:
 - Additive combinatorics
-status: open
-claim: none
+status: solved
+claim: proved
+parts: [kth_root]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T14:17:37Z
 ---
@@ -35,9 +36,12 @@ request asks to beat, and they settle none of the questions the problem and
 its commentary pose. The formal-conjectures file linked under Formalization
 restates Berlekamp's and Gowers's bounds as solved variants
 (`erdos_138.variants.prime`, `erdos_138.variants.upper`) with no formal
-proof.
+proof. The example is the part `kth_root`. The request asks only to improve the bounds, with no target, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** OPEN, the erdosproblems.com label (page last edited 2 June 2026).
+**Status.** Solved: an accepted partial claim settles the definite part, the
+example question, and the open-ended request to improve the bounds does not
+block the standing. The erdosproblems.com label is OPEN (page last edited 2
+June 2026).
 
 **Source.** [erdosproblems.com/138](https://www.erdosproblems.com/138), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #138,

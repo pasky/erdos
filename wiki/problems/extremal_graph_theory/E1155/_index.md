@@ -8,8 +8,9 @@ desc: |
   is open.
 tags:
 - Graph theory
-status: open
-claim: none
+status: solved
+claim: proved
+parts: [expectation, almost_sure]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T13:38:22Z
 ---
@@ -43,8 +44,9 @@ the leave of that packing. The processes for different $n$ are not coupled, so
 this page reads "almost surely", as erdosproblems.com's own commentary does, as
 with probability tending to one as $n\to\infty$: the second question asks for a
 constant $C$ with $\mathbb P(f(n)\le Cn^{3/2})\to1$. The statement has three
-parts: the open-ended request for the typical parameters and structure, and
-the two displayed questions on the order of $f(n)$. Of erdosproblems.com's two
+questions: the open-ended request for the typical parameters and structure, and
+the two displayed questions on the order of $f(n)$. The two displayed questions are the parts `expectation` and `almost_sure`, in order. The request asks for a
+description rather than a definite question, so it is open-ended: it is not a part, and it never blocks the standing. Of erdosproblems.com's two
 source keys, the 1999 booklet's item ([Va99], 3.61) poses only the open-ended
 request: it describes the process and asks for the typical parameters and
 structure of the final graph, adding that the problem came from the task of
@@ -52,8 +54,10 @@ generating a random triangle-free graph. Neither displayed question appears
 in it, so the two come from erdosproblems.com's other key, [Bo98], which is not
 held.
 
-**Status.** Open. What is proved: $f(n)=n^{3/2+o(1)}$ with high probability,
-that is $\mathbb P(n^{3/2-\epsilon}<f(n)<n^{3/2+\epsilon})\to1$ for every
+**Status.** Solved: an accepted partial claim settles both definite parts, and
+the open-ended first question does not block the standing. What is proved:
+$f(n)=n^{3/2+o(1)}$ with high probability, that is
+$\mathbb P(n^{3/2-\epsilon}<f(n)<n^{3/2+\epsilon})\to1$ for every
 $\epsilon>0$. This is Theorem 1 of Bohman, Frieze and Lubetzky [BFL15]
 (refereed; the theorem and the introduction are recorded on its library card).
 It settles the exponent conjectured by Bollobás and Erdős. It does not settle
@@ -67,8 +71,7 @@ is recorded on
 [[problems/extremal_graph_theory/E1155/claims/2026_09_25_openai|its claim page]]
 as `accepted` on its Lean declaration, which the corpus's verification built and
 audited. The manuscript has no independent review. The claim does not address
-the request for the typical structure, for which no claim is recorded, so the
-problem stays open. No literature search beyond the sources named on this page
+the request for the typical structure, for which no claim is recorded; that question is open-ended and does not block the standing. No literature search beyond the sources named on this page
 was made, so this page certifies no openness.
 
 **Source.** [erdosproblems.com/1155](https://www.erdosproblems.com/1155): the

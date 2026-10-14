@@ -8,8 +8,9 @@ desc: |
 tags:
 - Analysis
 - Discrepancy
-status: open
-claim: none
+status: claimed
+claim: disproved
+parts: [example]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -35,10 +36,16 @@ $$
 \sum_{1\leq k\leq N}f(\{ \alpha n_k\})=o(N\sqrt{\log\log N})?
 $$
 
-**Status.** Labeled OPEN on erdosproblems.com. The erdosproblems.com commentary
-records Erdős's bounds and does not name a later result. The erdosproblems.com
-proof-claims tab carried no claim. One pending partial claim answers the example
-question in the negative. It is Boon Suan Ho's preprint of 20 April 2026,
+**Formulation.** The second question is the part `example`. The first asks for an estimate of the growth with no target rather than
+a definite question, so it is open-ended: it is not a part, and it never blocks the standing. The
+second, the example the statement names, asks yes or no, so it is definite.
+
+**Status.** Claimed: a pending partial claim would settle the definite second part,
+and the open-ended first question does not block the standing. Labeled OPEN on
+erdosproblems.com. The erdosproblems.com commentary records Erdős's bounds and
+does not name a later result. The erdosproblems.com proof-claims tab carried no
+claim. One pending partial claim answers the example question in the negative.
+It is Boon Suan Ho's preprint of 20 April 2026,
 [[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho 2026]], announced in the
 problem's thread on 21 April 2026.
 
@@ -73,7 +80,9 @@ question is answered, while noting that this depends on interpretation, and a
 thread participant said it may qualify as a full solution pending
 confirmation; the problem names no target for "estimate the growth", so this
 corpus records that reading here and claims only the example question on the
-claim page. No independent review of the proofs is recorded.
+claim page. No independent review of the proofs is recorded. The pending claim
+settles the part `example`, the definite part, so the derived standing is
+claimed; the open-ended question does not block the standing.
 
 ## Known Results
 

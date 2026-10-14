@@ -8,8 +8,9 @@ desc: |
 tags:
 - Geometry
 - Distances
-status: open
-claim: none
+status: claimed
+claim: proved
+parts: [planar_saving]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T18:27:16Z
 ---
@@ -32,10 +33,15 @@ $$
 
 for some constant $c>0$?
 
-**Status.** Open. The erdosproblems.com label was OPEN (page last edited 7
-September 2026). Its remark of that date credits [LPZ26] with answering the
-particular question. The remark keeps the problem open for the general estimate
-of $P_d(n)$.
+**Formulation.** The second question is the part `planar_saving`. The first asks for an estimate of $P_d(n)$ with no
+target rather than a definite question, so it is open-ended: it is not a part, and it never blocks the standing.
+
+**Status.** Claimed: a pending partial claim answers the definite part, whether
+$P_2(n)<n^{1-c}$ for some $c>0$, yes, and the open-ended estimate of $P_d(n)$
+does not block the standing. The erdosproblems.com label was OPEN (page last
+edited 7 September 2026). Its remark of that date credits [LPZ26] with
+answering the particular question. The remark keeps the problem open for the
+general estimate of $P_d(n)$.
 
 **Source.** [erdosproblems.com/1207](https://www.erdosproblems.com/1207),
 accessed 2026-09-04 and 2026-10-07. Cite as: T. F. Bloom, Erdős Problem #1207,

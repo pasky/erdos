@@ -8,8 +8,9 @@ desc: |
 tags:
 - Number theory
 - Unit fractions
-status: open
-claim: none
+status: claimed
+claim: disproved
+parts: [one_half]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T02:16:54Z
 ---
@@ -41,13 +42,15 @@ all-length relation is
 [[problems/unit_fractions/E0301/_index|Problem 301]] ($f_{301}(N)\le f_{302}(N)$),
 and the coloring version is [[problems/unit_fractions/E0303/_index|Problem 303]].
 $f(N)$ is OEIS A390395 ($1,2,3,4,5,5,6,\ldots$, to $N=731$). The statement
-asks for an estimate and whether $f(N)=(1/2+o(1))N$.
+asks for an estimate and whether $f(N)=(1/2+o(1))N$. The second question is the part `one_half`. The first asks for an estimate with
+no target rather than a definite question, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** Open: the erdosproblems.com label was OPEN (no last-edited date
-shown), and Bloom's catalog marked the problem as not resolvable by a finite
-computation. The standing derived from the claim pages is open, claim none.
-There are five pending partial claims, and none of them would settle the
-estimation question.
+**Status.** Claimed: a pending partial claim answers the definite part, whether
+$f(N)=(1/2+o(1))N$, in the negative, and the open-ended estimate of $f(N)$ does
+not block the standing. The erdosproblems.com label was OPEN (no last-edited
+date shown), and Bloom's catalog marked the problem as not resolvable by a
+finite computation. There are five pending partial claims, and none of them
+would settle the estimation question.
 [[problems/unit_fractions/E0302/claims/2025_03_25_cambie|Cambie's construction of density 5/8]]
 and
 [[problems/unit_fractions/E0302/claims/2025_08_11_van_doorn|van Doorn's upper bound 9/10]]
@@ -191,8 +194,9 @@ is a variant, not the problem, and was not checked beyond reading.
 
 **Claims and forum items.** Five claim pages, all pending partial claims:
 two recorded from the erdosproblems.com commentary, two from the proof-claim tab
-and one from the discussion thread. The problem lists no parts, so its partial
-claims derive no standing and the frontmatter is open, claim none.
+and one from the discussion thread. Cambie's construction settles the definite
+part `one_half` in the negative, so the problem is claimed, claim disproved;
+the other four bear only on the open-ended estimate.
 
 - [[problems/unit_fractions/E0302/claims/2025_03_25_cambie|Stijn Cambie's construction]]:
   the lower bound $5/8$ above, recorded from the curator's credit in the

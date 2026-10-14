@@ -4,12 +4,13 @@ title: Problem 817
 desc: |
   Estimates $g_k(n)$, the least $N$ for which some $n$-element subset of
   $\{1,\ldots,N\}$ has a set of subset sums with no $k$-term progression, and
-  asks whether $g_3(n)\gg3^n$. It is open, and a 2026 preprint claims a negative
-  answer to the $k=3$ question.
+  asks whether $g_3(n)\gg3^n$. The estimate is open, and a 2026 preprint claims
+  a negative answer to the $k=3$ question.
 tags:
 - Additive combinatorics
-status: open
-claim: none
+status: claimed
+claim: disproved
+parts: [three_power]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T01:29:58Z
 ---
@@ -46,7 +47,7 @@ distinct, so that (Corollary 4.2) $g_3(n)$ is the least possible maximum of $n$
 positive integers whose ternary coefficient sums are injective; the powers of
 three give $g_3(n)\le3^{n-1}$. The problem has two parts, the estimate of
 $g_k(n)$ for each $k$ and the displayed question for $k=3$; their status is
-recorded separately below. The erdosproblems.com source [Er91] is not held. The
+recorded separately below. The displayed question is the part `three_power`. The first asks for an estimate with no target, so it is open-ended: it is not a part, and it never blocks the standing. The erdosproblems.com source [Er91] is not held. The
 paper of Erdős and Sárközy in which the bound is proved, [ErSa92], never writes
 $g_k(n)$ but works with $K(N)$, the least $t$ such
 that every $t$-element subset of $\{1,\ldots,N\}$ has a three-term
@@ -60,8 +61,10 @@ translation). The displayed question appears there (p. 252) as whether
 $K(N)=\log N/\log3+O(1)$, with the authors' tentative "perhaps, we have
 $K(N)=[\log N/\log3]+2$".
 
-**Status.** Open. The erdosproblems.com label was OPEN on 2026-09-18 and
-2026-10-06. The sources support the following bounds. For $k=3$,
+**Status.** Claimed: a pending partial claim would settle the definite second
+part in the negative, and the open-ended estimate does not block the standing.
+The erdosproblems.com label was OPEN on 2026-09-18 and 2026-10-06. The sources
+support the following bounds. For $k=3$,
 
 $$
 \Bigl(\frac{\sqrt3}{2\sqrt\pi}+o(1)\Bigr)\frac{3^n}{\sqrt n}\ \le\ g_3(n)\ \le\ 3^{n-1},
