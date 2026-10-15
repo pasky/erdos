@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T22:28:41Z
 ---
 
 # Problem 36
 
 [[problems/additive_combinatorics/_index|..]]
 
-[[problems/additive_combinatorics/E0036/claims/_index|claims/]]: The 6 claim pages of Problem 36, one per claimant's result; the problem's standing derives from them.
+[[problems/additive_combinatorics/E0036/claims/_index|claims/]]: The 7 claim pages of Problem 36, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -53,6 +53,12 @@ for the overlap function added to the convex relaxation
 ([[problems/additive_combinatorics/E0036/claims/2026_09_19_drynshock|claim page]]).
 Neither claim had comments on its thread, accessed 2026-10-06. This page records
 them without adopting them.
+
+erdosproblems.ai publishes one proof claim on the problem, accessed 2026-10-15.
+Justin Wetch submitted it on 2026-10-09: computer-assisted bounds
+$0.380627425<c<0.38085858$, which improve every lower and upper bound above
+([[problems/additive_combinatorics/E0036/claims/2026_10_09_wetch|claim page]]).
+The site lists it as unreviewed, and this page records it without adopting it.
 
 The superseded bounds are history recorded in the references and get no claim
 page. They are the trivial $1/4$, Scherk's $1-1/\sqrt2$, Moser's

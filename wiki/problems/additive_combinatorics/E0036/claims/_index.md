@@ -1,10 +1,10 @@
 ---
 name: problems/additive_combinatorics/E0036/claims
-desc: The 6 claim pages of Problem 36, one per claimant's result; the problem's standing derives from them.
+desc: The 7 claim pages of Problem 36, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-15T22:28:41Z
 ---
 
 # problems/additive_combinatorics/E0036/claims
@@ -37,5 +37,10 @@ at least 0.38055470. erdosproblems.com has not examined it, so it is claimed.
 2026-09-19 a partial proof claim, credited to GPT 6 Pro, that the minimum
 overlap constant exceeds 0.3805634. erdosproblems.com has not examined it, so
 it is claimed.
+
+[[problems/additive_combinatorics/E0036/claims/2026_10_09_wetch|2026_10_09_wetch]]: Justin Wetch submitted to erdosproblems.ai on 2026-10-09 a partial proof claim
+of computer-assisted bounds $0.380627425<c<0.38085858$ for the minimum overlap
+constant. The site has not reviewed it and no outside review is known, so it
+is claimed.
 
 ***
