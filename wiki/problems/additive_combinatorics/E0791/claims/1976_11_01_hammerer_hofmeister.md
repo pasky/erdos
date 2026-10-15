@@ -12,6 +12,7 @@ authors:
 status: accepted
 claim: disproved
 scope: partial
+settles: [asymptotic]
 evidence:
 - refereed
 submitted: null

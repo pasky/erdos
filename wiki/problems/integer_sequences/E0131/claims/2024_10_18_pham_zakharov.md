@@ -11,6 +11,7 @@ authors:
 status: accepted
 claim: disproved
 scope: partial
+settles: [square_root]
 evidence:
 - refereed
 submitted: null

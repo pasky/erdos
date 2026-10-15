@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+settles: [superpolynomial, subexponential]
 submitted: 2026-10-05
 links:
 - url: https://doi.org/10.5281/zenodo.23050879

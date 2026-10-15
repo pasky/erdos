@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: disproved
 scope: partial
+settles: [quarter]
 submitted: 2026-07-29
 links:
 - url: https://arxiv.org/abs/2606.28157

@@ -11,6 +11,7 @@ authors:
 status: accepted
 claim: disproved
 scope: partial
+settles: [power_growth]
 evidence:
 - refereed
 submitted: null

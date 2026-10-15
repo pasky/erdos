@@ -7,7 +7,7 @@ desc: |
   of Schur and Rado type; Euclidean Ramsey problems and colorings of the
   plane are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-14T23:01:39Z
 ---
 
 # Ramsey Theory
@@ -413,8 +413,9 @@ closing question.
 
 [[problems/ramsey_theory/E1183/_index|E1183/]]: Asks to estimate the size of the
 largest monochromatic family closed under unions and intersections that every
-two-coloring of the subsets of $\{1,\ldots,n\}$ must contain. It is open, and
-nothing beyond the trivial chain bound is proved.
+two-coloring of the subsets of $\{1,\ldots,n\}$ must contain. The estimates are
+open, with nothing proved beyond the trivial chain bound, and two pending 2026
+claims answer the displayed questions.
 
 [[problems/ramsey_theory/E1198/_index|E1198/]]: Asks whether every two-coloring
 of $\mathbb{N}$ admits an infinite set all of whose sums of products of distinct

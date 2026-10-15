@@ -8,8 +8,9 @@ desc: |
   order $N^{1/5+o(1)}$.
 tags:
 - Number theory
-status: claimed
-claim: answered
+status: solved
+claim: disproved
+parts: [square_root]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T01:29:59Z
 ---
@@ -37,19 +38,22 @@ the wording of OEIS A068063 ("no element divides the sum of any nonempty
 subset of the other elements"); Erdős's 1975 wording is "no $a$ divides
 the sum of the other $a$'s" (p. 309), and the 1999 paper calls such sets
 non-dividing (Property Q, p. 127). Two questions:
-the estimate of $F(N)$, to which the page-level status attaches, and the
-displayed lower-bound question, which has a negative answer (below).
+the estimate of $F(N)$, to which the erdosproblems.com label OPEN attaches, and the
+displayed lower-bound question, which has a negative answer (below). The displayed question is the part `square_root`. The first asks for an
+estimate with no target, so it is open-ended: it is not a part, and it never blocks the standing.
 Problem 13 is the two-summand relative with the summands larger than the
 divisor; here the summands may be smaller than $a$ and any number of them
 is allowed.
 
-**Status.** Labeled open on erdosproblems.com, for the estimate: the label OPEN
+**Status.** Solved: an accepted partial claim settles the definite second part
+in the negative, and the open-ended estimate does not block the standing.
+Labeled open on erdosproblems.com, for the estimate: the label OPEN
 attaches to the estimate. The estimate carries one pending full claim,
 $F(N)=N^{1/5+o(1)}$. It was submitted to the erdosproblems.com proof-claim tab
 on 24 July 2026 and is recorded on
 [[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]].
-erdosproblems.com has not examined it, and it is unreviewed. The frontmatter
-standing `claimed` derives from this claim and certifies nothing.
+erdosproblems.com has not examined it, and it is unreviewed. The derived
+standing does not rest on it.
 
 The displayed question is answered no. Every non-dividing set is non-averaging:
 if $a$ were the average of a nonempty $B\subseteq A\setminus\{a\}$, then $a$
@@ -163,8 +167,8 @@ commit dated 24 July 2026) and five comments of 24--25 July 2026;
 erdosproblems.com has not examined it, it is unrefereed, and this page rests on
 no reading of the write-up or the Lean development. It is recorded as a pending
 full claim on
-[[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]],
-from which the frontmatter standing derives.
+[[problems/integer_sequences/E0131/claims/2026_07_24_xeff|the Xeff claim page]];
+the derived standing does not rest on it.
 
 **The origin (Er75b, printed p. 309).** Item (vi) states the problem in
 Erdős's words: "Let $a_1<\cdots<a_n\le X$ be a sequence of integers. Assume

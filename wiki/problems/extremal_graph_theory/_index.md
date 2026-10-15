@@ -6,7 +6,7 @@ desc: |
   and edge counts, cycles and girth, degree and subgraph-counting conditions,
   planarity, and structural questions such as the Erdos-Hajnal conjecture.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-14T23:01:39Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -570,8 +570,8 @@ complete.
 [[problems/extremal_graph_theory/E1033/_index|E1033/]]: Asks to estimate $h(n)$,
 the largest degree sum forced on some triangle in a graph on $n$ vertices with
 more than $n^2/4$ edges, and whether $h(n)\ge(2(\sqrt3-1)-o(1))n$, about
-$1.464n$. It is open, between Fan's $21n/16$ and a construction's
-$2(\sqrt3-1)n+O(1)$.
+$1.464n$. The estimate is open, between Fan's $21n/16$ and a construction's
+$2(\sqrt3-1)n+O(1)$, and a pending 2026 claim answers the displayed question no.
 
 [[problems/extremal_graph_theory/E1034/_index|E1034/]]: Asks whether every graph
 on $n$ vertices with more than $n^2/4$ edges has a triangle with more than

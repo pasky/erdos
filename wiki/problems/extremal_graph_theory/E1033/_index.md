@@ -4,12 +4,14 @@ title: Problem 1033
 desc: |
   Asks to estimate $h(n)$, the largest degree sum forced on some triangle in a
   graph on $n$ vertices with more than $n^2/4$ edges, and whether
-  $h(n)\ge(2(\sqrt3-1)-o(1))n$, about $1.464n$. It is open, between Fan's
-  $21n/16$ and a construction's $2(\sqrt3-1)n+O(1)$.
+  $h(n)\ge(2(\sqrt3-1)-o(1))n$, about $1.464n$. The estimate is open, between
+  Fan's $21n/16$ and a construction's $2(\sqrt3-1)n+O(1)$, and a pending 2026
+  claim answers the displayed question no.
 tags:
 - Graph theory
-status: open
-claim: none
+status: claimed
+claim: disproved
+parts: [conjectured_bound]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T01:29:59Z
 ---
@@ -43,10 +45,12 @@ the "in particular" question is yes or no, and its constant
 $2(\sqrt3-1)\approx1.4641$ is the value of the construction below, so it
 asks whether that construction is asymptotically best. The thread carries
 an unreviewed claim that the answer is no (recorded below and on its own
-claim page as a pending partial claim).
+claim page as a pending partial claim). The second question is the part `conjectured_bound`. The first asks for an estimate
+of $h(n)$ with no target rather than a definite question, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** Open. The bounds in hand are
-$\frac{21}{16}n<h(n)\le2(\sqrt3-1)n+O(1)$, with $21/16=1.3125$ and
+**Status.** Claimed: a pending partial claim would settle the definite second part,
+and the open-ended first question does not block the standing. The bounds in hand
+are $\frac{21}{16}n<h(n)\le2(\sqrt3-1)n+O(1)$, with $21/16=1.3125$ and
 $2(\sqrt3-1)\approx1.4641$.
 
 The lower bound is Fan's Theorem 1 with its Corollary 1.1 (J. Graph Theory 12
@@ -282,7 +286,7 @@ degree sums that the sources cited state is the one for $e\ge n^2/3$ with
 bound $2n$ ([ErLa85] p. 82; [Fa88] Corollary 3.1, p. 262), and Edwards's
 Bolyai paper, which the 1982 reference names, is not held. The three
 items, the 1982 wording, the contradiction and the current bounds, are
-recorded as printed and cited; the field `open` is not affected.
+recorded as printed and cited; the derived standing is not affected.
 
 **The general function.** For $\Delta_r(n,m)$, the least maximal degree sum
 of an $r$-clique over graphs with $n$ vertices and $m$ edges, Problem 904
@@ -299,7 +303,7 @@ about $m=\lfloor n^2/4\rfloor+1$, where $2rm/n=3n/2+O(1/n)$ and the bounds
 above place $h(n)$ between $1.3125n$ and $1.4641n+O(1)$. Read depth for
 [BoNi05]: claims checked; Theorem 3's proof read for structure.
 
-**The thread (a pending partial claim and leads, not status).** Nine
+**The thread (a pending partial claim and leads).** Nine
 comments, from the discussion page, accessed 2026-09-18, none adopted into the
 erdosproblems.com statement or commentary (which are unchanged since 3 April
 2026); the claimed refutation of the conjectured lower bound has a claim page
@@ -344,8 +348,9 @@ claim and has the claim page (`claimed`, `partial`); the 27 June 2026 thread
 claim (rickyc), a thread post with a chat transcript and no manuscript, is
 disclosed on that page and has no page of its own; the flag-algebra
 improvements of the lower bound answer neither question of the statement
-and stay leads here. The AI systems are named as the posts name them; no
-chat transcript is cited.
+and stay leads here. The claim settles the part `conjectured_bound`, the
+definite part, so the derived standing is claimed; the open-ended question does not block the standing. The AI systems are named as the posts
+name them; no chat transcript is cited.
 
 **Search scope.** None of the routes below found a
 refereed source improving either bound or settling the "in particular"

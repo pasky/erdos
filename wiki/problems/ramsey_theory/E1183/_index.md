@@ -4,13 +4,15 @@ title: Problem 1183
 desc: |
   Asks to estimate the size of the largest monochromatic family closed under
   unions and intersections that every two-coloring of the subsets of
-  $\{1,\ldots,n\}$ must contain. It is open, and nothing beyond the trivial
-  chain bound is proved.
+  $\{1,\ldots,n\}$ must contain. The estimates are open, with nothing proved
+  beyond the trivial chain bound, and two pending 2026 claims answer the
+  displayed questions.
 tags:
 - Combinatorics
 - Ramsey theory
-status: open
-claim: none
+status: claimed
+claim: proved
+parts: [superpolynomial, subexponential]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T01:29:59Z
 ---
@@ -43,19 +45,23 @@ $n>n_0(\varepsilon)$"; erdosproblems.com's $F(n)\ge n^{\omega(n)}$ with
 $\omega(n)\to\infty$ and $F(n)<(1+o(1))^n$ are the same two statements in
 another notation (a remark made here). The two "in particular" questions ask
 whether $F(n)$ is superpolynomial and whether it is subexponential;
-$f(n)\le F(n)\le2^n$ trivially.
+$f(n)\le F(n)\le2^n$ trivially. The two "in particular" questions are the parts `superpolynomial` and `subexponential`, in order. The two estimates ask for no target rather than definite questions, so they are open-ended: they are not parts, and they never block the standing.
 
-**Status.** Open. No proof, disproof, preprint or proof claim for the exact
-statement was found in the search whose scope the Current assessment records,
-beyond a forum-posted AI-assisted manuscript and a posted chat record of
+**Status.** Claimed: pending partial claims would settle both definite parts, the two
+"in particular" questions, and the open-ended estimates of $f(n)$ and $F(n)$ do
+not block the standing. Bloom's catalog labeled the problem OPEN. No proof,
+disproof, preprint or proof claim for the exact statement was found in the
+search whose scope the Current assessment records, beyond a forum-posted
+AI-assisted manuscript and a posted chat record of
 March 2026. This is a bounded negative finding, not a certificate of openness. A
 partial proof claim of 30 September 2026, with the authors' own Lean
 development, was listed on the erdosproblems.com tab on 5 October 2026.
 Chojecki's manuscript and that claim have claim pages below. The March chat
 record is described in the Current assessment without a claim page, since a
 thread post without a dated manuscript gets none. All three report partial
-results on the two "in particular" questions, so the derived standing stays
-open. The only bounds verified here are two from the origin. One is the trivial
+results on the two "in particular" questions: Chojecki's claim answers the
+subexponential question yes, and the claim of 30 September 2026 answers both
+yes. The only bounds verified here are two from the origin. One is the trivial
 $f(n)\ge(n+1)/2$. The other is the origin's Theorem 2, which bounds the number
 of generators with distinct monochromatic unions by $(1+o(1))\log_2n$, and not
 $F(n)$ itself.
@@ -158,7 +164,7 @@ restricted-coloring theorem would settle the superpolynomial question for
 colorings constant on each size class, a special case; its source is not
 identified, so it is second-hand from [Er78].
 
-**Forum and proof-claim items (recorded on claim pages, not status).**
+**Forum and proof-claim items (recorded on claim pages).**
 The thread of 18 March 2026 carries two reports of partial results and the
 proof-claim tab one partial claim listed in October 2026, each obtained with AI
 assistance according to its authors (the systems are named below) and none

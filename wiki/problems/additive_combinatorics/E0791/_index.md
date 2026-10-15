@@ -8,8 +8,9 @@ desc: |
   refuted (Hämmerer and Hofmeister, Mrose).
 tags:
 - Additive combinatorics
-status: open
-claim: none
+status: solved
+claim: disproved
+parts: [asymptotic]
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T18:29:34Z
 ---
@@ -45,10 +46,13 @@ where $n_2(k)$ is his largest $n$ for which a $2$-basis of $k$ elements for
 $\{0,\ldots,n\}$ exists (p. 4; his $k$ counts the zero, as erdosproblems.com's
 $g(n)$ does, so $n_2(k)$ is Kohonen's $n(k)$); this is $g(n)=2\sqrt n+O(1)$,
 and erdosproblems.com's $g(n)\sim2n^{1/2}$ is its asymptotic form. The two parts
-of the statement have different status, recorded separately below.
+of the statement have different status, recorded separately below. The second question is the part `asymptotic`. The first asks
+for an estimate with no target, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** Open, the erdosproblems.com label. Read on this page, the label
-concerns the estimate. The wording is a compound of an estimate, which has no
+**Status.** Solved: accepted partial claims settle the definite second part in
+the negative, and the open-ended estimate does not block the standing. The
+erdosproblems.com label is OPEN. Read on this page, the label concerns the
+estimate. The wording is a compound of an estimate, which has no
 truth value, and a displayed particular guess. The negative answer to that guess
 is recorded on the claim pages. The best source-supported bounds are
 
