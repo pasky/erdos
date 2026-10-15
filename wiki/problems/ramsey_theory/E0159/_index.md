@@ -20,7 +20,9 @@ updated: 2026-10-08T02:16:54Z
 
 **Statement.** There exists some constant $c>0$ such that
 
-$$R(C_4,K_n) \ll n^{2-c}.$$
+$$
+R(C_4,K_n) \ll n^{2-c}.
+$$
 
 **Formulation.** The erdosproblems.com wording (page last edited 7 March 2026).
 $R(C_4,K_n)$ is the least $N$ such that every $2$-coloring of the edges of $K_N$

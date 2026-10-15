@@ -77,7 +77,11 @@ this corpus has not built; the paper is an arXiv preprint with no journal
 record. Erdős's construction with $n-\log_* n$ distinct clique sizes, reported
 in the erdosproblems.com commentary, shows that the defect $f(n,3)=n-g(n,3)$
 grows slowly. The best bounds known are
-$$\log(\log_*(n+1))-1\le f(n,3)\le\log_* n,$$
+
+$$
+\log(\log_*(n+1))-1\le f(n,3)\le\log_* n,
+$$
+
 the upper bound Erdős's construction as the erdosproblems.com remark reports it,
 the lower bound Lemma 3.1 and the concluding remarks of Gao's Section 3 [Ga25],
 which bound the size of a $(2,C)$-layered tree by a tower of height $2^C$;

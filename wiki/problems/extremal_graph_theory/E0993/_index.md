@@ -24,8 +24,11 @@ updated: 2026-10-08T17:47:46Z
 
 In other words, if $i_k(G)$ counts the number of independent sets of vertices of
 size $k$ in a graph $G$, and $T$ is any tree or forest, then for some $m\geq 0$
-$$i_{0}(T)\leq i_{1}(T)\leq\cdots\leq i_{m}(T)\geq i_{m+1}(T)\geq
-i_{m+2}(T)\geq\cdots.$$
+
+$$
+i_{0}(T)\leq i_{1}(T)\leq\cdots\leq i_{m}(T)\geq i_{m+1}(T)\geq
+i_{m+2}(T)\geq\cdots.
+$$
 
 **Status.** Falsifiable. The label is erdosproblems.com's (FALSIFIABLE on
 2026-10-06; page last edited 1 February 2026). It is a body note, not a
