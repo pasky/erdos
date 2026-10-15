@@ -1082,15 +1082,15 @@ wheels = [
 
 [[package]]
 name = "plasma-wiki"
-version = "1.6.0"
+version = "1.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pyyaml" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/96/c6/638b1d7807a39069af9519299a03a05b64bc3cb4b543edc1374d30dc1bd3/plasma_wiki-1.6.0.tar.gz", hash = "sha256:ce266c99476167e5b5bb8cd4999d5636712d27e56e880b13b6cce9780d7adf2f", size = 195930, upload-time = "2026-09-22T21:31:32.532Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/94/ea/845101da6e1ff18b942a84288c21b1c429b3c3694138b86badccc2fd9247/plasma_wiki-1.7.0.tar.gz", hash = "sha256:58c28c1f89d5fc8f496d40de9e8f60d291db3ee34f648fb7753818962e35a3bd", size = 200081, upload-time = "2026-10-14T21:01:27.763Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d2/df/f7c717910b6baf97ff530f6583c469a20c708bc8c9c69ee0b1023e580b50/plasma_wiki-1.6.0-py3-none-any.whl", hash = "sha256:0ec359be6046ce9c2654a447a6ccf8ad60f56518c7e19aa87292f17307c86609", size = 180690, upload-time = "2026-09-22T21:31:30.903Z" },
+    { url = "https://files.pythonhosted.org/packages/0d/ee/bf052be475db4be8adfb52a23279517ed21adabf3518f75cefbc324f75cc/plasma_wiki-1.7.0-py3-none-any.whl", hash = "sha256:3ffd178fb0db5aa595148d7ecb26aac2d8683601d011bff85a52bb2310f84c2c", size = 183822, upload-time = "2026-10-14T21:01:26.278Z" },
 ]
 
 [[package]]
