@@ -40,8 +40,12 @@ proof. The example is the part `kth_root`. The request asks only to improve the 
 
 **Status.** Solved: an accepted partial claim settles the definite part, the
 example question, and the open-ended request to improve the bounds does not
-block the standing. The erdosproblems.com label is OPEN (page last edited 2
-June 2026).
+block the standing. The further questions that the erdosproblems.com commentary
+records from [Er81] are not parts: Google DeepMind's accepted claim settles the
+difference question, $W(k+1)-W(k)\to\infty$
+([[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|its claim page]]),
+and the quotient question, $W(k+1)/W(k)\to\infty$, remains open. The
+erdosproblems.com label is OPEN (page last edited 2 June 2026).
 
 **Source.** [erdosproblems.com/138](https://www.erdosproblems.com/138), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #138,
