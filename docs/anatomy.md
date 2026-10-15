@@ -572,37 +572,37 @@ relies on that exact content, as the external-version case of [[verification]]
 "Exact subjects and durable evidence" states; a release, DOI or arXiv version is
 preferred, and a link that only points at a project uses the project URL.
 `submitted` is the date the claim was submitted to erdosproblems.com, as a proof
-claim or a forum post, or to the Palomar registry: the date its **Submission
-note** gives, as `YYYY-MM-DD`, and `null` when no such submission is known. The
-body says what a partial claim settles under **Covers.**, what the claim rests
-on under **Depends on.** (wikilinks to wiki pages, or to library result pages,
-which the check reports with their read status and never counts toward the
-standing; an accepted claim depends on no unaccepted wiki page, a `solved`
-problem page counting as accepted), and states unproven hypotheses in prose.
-Claims are scoped and valued against the statement the problem page shows, the
-modified Statement where there is one: a theorem of the whole statement is
-`full`, one on a narrower range is `partial`, and the claim value follows the
-statement's polarity. A result that answers only the erdosproblems.com wording
-keeps its claim page with `status` `rejected` and the reason "answers the
-erdosproblems.com wording, not the modified Statement". A result that answers
-only a variant, a reading or version of the problem that the problem page sets
-aside, settles no instance of the problem. Such a result submitted to
-erdosproblems.com as a claim keeps its claim page with `status` `rejected`, the
-reason "answers a variant, not the Statement", and a note that its mathematics
-answers the named variant and so does not settle the problem; every claim
-erdosproblems.com shows has a claim page, rejected if need be, and which of them
-a presentation of the corpus displays is the presentation's choice. A result
-never submitted as a claim, such as a theorem of the literature, has no claim
-page; the problem page records it among its known results as answering the
-variant. On a problem that asks for an order of growth or a best bound, a bound
-has a partial claim page only when it improves the best established bound
-(accepted, or published and refereed) that the problem page lists from before
-its date; a pending claim's bound counts once it is accepted. A bound that does
-not improve it is recorded among the page's known results. A submitted claim
-(one with a `submitted` date) that does not improve it keeps its claim page,
-with `status` `rejected` and the reason "does not improve the best known bound".
-That a problem is falsifiable or verifiable is a body note on an open problem,
-not a claim.
+claim or a forum post, to erdosproblems.ai, as a proof claim, or to the Palomar
+registry: the date its **Submission note** gives, as `YYYY-MM-DD`, and `null`
+when no such submission is known. The body says what a partial claim settles
+under **Covers.**, what the claim rests on under **Depends on.** (wikilinks to
+wiki pages, or to library result pages, which the check reports with their read
+status and never counts toward the standing; an accepted claim depends on no
+unaccepted wiki page, a `solved` problem page counting as accepted), and states
+unproven hypotheses in prose. Claims are scoped and valued against the statement
+the problem page shows, the modified Statement where there is one: a theorem of
+the whole statement is `full`, one on a narrower range is `partial`, and the
+claim value follows the statement's polarity. A result that answers only the
+erdosproblems.com wording keeps its claim page with `status` `rejected` and the
+reason "answers the erdosproblems.com wording, not the modified Statement". A
+result that answers only a variant, a reading or version of the problem that the
+problem page sets aside, settles no instance of the problem. Such a result
+submitted to erdosproblems.com as a claim keeps its claim page with `status`
+`rejected`, the reason "answers a variant, not the Statement", and a note that
+its mathematics answers the named variant and so does not settle the problem;
+every claim erdosproblems.com shows has a claim page, rejected if need be, and
+which of them a presentation of the corpus displays is the presentation's
+choice. A result never submitted as a claim, such as a theorem of the
+literature, has no claim page; the problem page records it among its known
+results as answering the variant. On a problem that asks for an order of growth
+or a best bound, a bound has a partial claim page only when it improves the best
+established bound (accepted, or published and refereed) that the problem page
+lists from before its date; a pending claim's bound counts once it is accepted.
+A bound that does not improve it is recorded among the page's known results. A
+submitted claim (one with a `submitted` date) that does not improve it keeps its
+claim page, with `status` `rejected` and the reason "does not improve the best
+known bound". That a problem is falsifiable or verifiable is a body note on an
+open problem, not a claim.
 
 Acceptance lives on the claim page: a claim moves from `claimed` to `accepted`
 only with the evidence it lists, and the problem's `status` and `claim` follow
@@ -863,24 +863,25 @@ its settled mode, and it certifies nothing. Project-authored resolutions require
 the independent whole-conclusion and exact-formulation scrutiny in
 [[verification]] before acceptance as project solutions.
 
-A claim page with an erdosproblems.com proof claim, a claimant's forum post that
-the page cites, or a Palomar registry link carries a `**Submission note.**`
-directly after its Claim section. The note quotes the claimant's own post in
-full, after a lead-in naming the source, the account, the date and the
-erdosproblems.com AI field as written; identical texts appear once, and another
-claimant's entry is not quoted. A rejected claim page that answers the
-erdosproblems.com wording rather than a modified Statement opens its `desc` with
-the reason: "Correct, but answers the erdosproblems.com wording (...), not the
-modified Statement" when the rejected result is itself accepted (reviewed,
-refereed or formalized), and "Answers the erdosproblems.com wording (...), not
-the modified Statement" otherwise. A rejected claim page whose bound does not
-improve the best known bound opens its `desc` the same way: "Correct, but does
-not improve the best known bound (...)" or "Does not improve the best known
-bound (...)", the parentheses naming that bound and its source. A rejected claim
-page that answers a variant opens its `desc` the same way, with "Correct, but
-answers a variant (...), not the Statement (...)" or "Answers a variant (...),
-not the Statement (...)", the parentheses naming the variant and the page's
-reading.
+A claim page with an erdosproblems.com or erdosproblems.ai proof claim, a
+claimant's forum post that the page cites, or a Palomar registry link carries a
+`**Submission note.**` directly after its Claim section. The note quotes the
+claimant's own post in full, after a lead-in naming the source, the account and
+the date and, where the source records them, the erdosproblems.com AI field or
+the tools an erdosproblems.ai claim lists, as written; identical texts appear
+once, and another claimant's entry is not quoted. A rejected claim page that
+answers the erdosproblems.com wording rather than a modified Statement opens its
+`desc` with the reason: "Correct, but answers the erdosproblems.com wording
+(...), not the modified Statement" when the rejected result is itself accepted
+(reviewed, refereed or formalized), and "Answers the erdosproblems.com wording
+(...), not the modified Statement" otherwise. A rejected claim page whose bound
+does not improve the best known bound opens its `desc` the same way: "Correct,
+but does not improve the best known bound (...)" or "Does not improve the best
+known bound (...)", the parentheses naming that bound and its source. A rejected
+claim page that answers a variant opens its `desc` the same way, with "Correct,
+but answers a variant (...), not the Statement (...)" or "Answers a variant
+(...), not the Statement (...)", the parentheses naming the variant and the
+page's reading.
 
 ### Library
 
