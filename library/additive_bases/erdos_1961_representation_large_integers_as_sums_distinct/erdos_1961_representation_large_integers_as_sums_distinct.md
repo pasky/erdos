@@ -52,7 +52,7 @@ $$
 
 Assume further that every arithmetic progression contains at least one integer which is the sum of distinct $a$'s. Then every sufficiently large integer is the sum of distinct $a$'s.
 
-It would be interesting to know, especially in view of the second theorem of Cassels, whether the exponent in (0) can be improved. I have not succeeded in doing this, but perhaps an improvement of my method will give the Theorem if (0) is replaced by $A(x)>x^{1/2+\varepsilon}$ for every $\varepsilon>0$ if $x>x_0(\varepsilon)$. Perhaps the Theorem remains true if we only assume $A(x)>Cx^{1/2}$, but a simple argument shows that $A(x)>Cx^{1/2}$ is not sufficient if $C<\frac12$. In fact, the following simple result holds: Let $a_1<a_2<\dots$
+It would be interesting to know, especially in view of the second theorem of Cassels, whether the exponent in (0) can be improved. I have not succeeded in doing this, but perhaps an improvement of my method will give the Theorem if (0) is replaced by $A(x)>x^{1/2+\varepsilon}$ for every $\varepsilon>0$ if $x>x_0(\varepsilon)$. Perhaps the Theorem remains true if we only assume $A(x)>Cx^{1/2}$, but a simple argument shows that $A(x)>Cx^{1/2}$ is not sufficient if $C<\sqrt2$. In fact, the following simple result holds: Let $a_1<a_2<\dots$
 
 Assume $a_k<\frac{k^2+ck}{2}$ where $c$ is an absolute constant. Then for all sufficiently large $k$, $a_k<a_1+a_2+\dots+a_{k-1}$. It is easy to see that this result is the best possible in the following sense: Let $\beta_k$ tend to infinity arbitrarily slowly with $k$. Then there exists a sequence $a_1<a_2<\dots$ satisfying
 
