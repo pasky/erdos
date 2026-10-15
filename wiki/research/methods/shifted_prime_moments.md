@@ -20,7 +20,10 @@ the 1990 paper of Erdős, Granville, Pomerance and Spiro
 ([[../library/arithmetic_functions/erdos_1990_normal_behavior_iterates_arithmetic_functions/_index|its card]]) and Plasma AI's 2026 preprint on
 [[problems/arithmetic_functions/E0408/_index|Problem 408]]
 ([[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|its card]]). It states the method's inputs and limits. It
-verifies nothing, and the preprint's claim is pending this corpus's review.
+verifies nothing. The preprint's claim is accepted on its formalization, as
+[[problems/arithmetic_functions/E0408/claims/2026_10_14_plasma_ai|its claim page]]
+records: this corpus rebuilt and replayed the formalization and reviewed its
+statements on 2026-10-14. The paper's proof itself is unreviewed.
 
 ## The method
 
@@ -68,7 +71,8 @@ variance bound.
 ## Where it applies
 
 - [[problems/arithmetic_functions/E0408/_index|Problem 408]]: the first two
-  questions, as the preprint's claim, which is pending review.
+  questions, as the preprint's claim, which is accepted on its formalization;
+  the paper's proof is unreviewed.
 - **The average order.** The average order $\alpha\log n$ of $f$, Theorem 2.1
   of the 1990 paper, follows from the variance bound by Cauchy--Schwarz
   without that paper's hypothesis. The deduction is drawn on the preprint's
