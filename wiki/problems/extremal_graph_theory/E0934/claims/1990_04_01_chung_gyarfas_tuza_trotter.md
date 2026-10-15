@@ -43,8 +43,12 @@ result page
 distance at least $2$ are strongly independent, and a graph with $f(D)+1$
 edges and maximum degree at most $D$ has two such edges, in one component by
 the theorem or in two, while $C_5(D)$ has none; hence
-$$h_2(d)=\tfrac54d^2+1\ \text{for even }d,\qquad
-h_2(d)=\tfrac{5d^2-2d+1}4+1\ \text{for odd }d,$$
+
+$$
+h_2(d)=\tfrac54d^2+1\ \text{for even }d,\qquad
+h_2(d)=\tfrac{5d^2-2d+1}4+1\ \text{for odd }d,
+$$
+
 the conjecture of Erdős and Nešetřil and of Bermond, Bond, Paoli and Peyrat
 that the erdosproblems.com commentary records, with equality $\frac54d^2+1$ for
 even $d$. The one-line step from the theorem to $h_2(d)$ is written on the
