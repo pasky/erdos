@@ -30,16 +30,20 @@ i_{0}(T)\leq i_{1}(T)\leq\cdots\leq i_{m}(T)\geq i_{m+1}(T)\geq
 i_{m+2}(T)\geq\cdots.
 $$
 
-**Status.** Solved in the affirmative, on the accepted
-[[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|Li–Vallier–Zhang claim]]:
-the independence sequence of every finite forest is unimodal. Acceptance rests
-on the public Palomar formalization of their second proof, local
-inspection of its statement and verification records, a successful local
-build and comparator replay, and the project
-reviewer's sign-off recorded on the claim page. Bloom's catalog labeled the
-problem FALSIFIABLE on 6 October 2026; that label described finite
-checkability of a counterexample and supplied no verdict on the later
-formalization. Fang, Lu, Nevo, Yao and Zheng's
+**Status.** Bloom's catalog labeled the problem FALSIFIABLE (page last edited
+1 February 2026): a counterexample would be one forest whose sequence is not
+unimodal, a finite check, and the label supplied no verdict on the later
+formalization. The derived standing is solved. It comes from one accepted full
+claim, recorded on
+[[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|its claim page]]:
+the Lean formalization of Li, Vallier and Zhang's second proof, registered on
+the Palomar registry, proves that the independence sequence of every finite
+forest is unimodal. Acceptance rests on Plasma AI's build and comparator replay
+of that formalization on the source's own toolchain (Lean v4.35.0-rc2), on
+Plasma AI's inspection of its statement and of Palomar's verification records,
+and on the sign-off of Jacob Parish at Plasma AI recorded on the claim page;
+Palomar's own verification is reported, not counted. Fang, Lu, Nevo, Yao and
+Zheng's
 [[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|partial claim]]
 concerns all forests above an unspecified absolute threshold and remains
 recorded separately.
@@ -56,39 +60,46 @@ https://www.erdosproblems.com/993.
 - [Sc81] Schwenk, Allen J., On unimodal sequences of graphical invariants. J.
   Combin. Theory Ser. B (1981), 247-250.
 
-**Formalization.** The current public formalization of the Li–Vallier–Zhang claim
-follows version 2.15 of their second proof and supersedes the
-version accompanying arXiv:2610.07943v1. Palomar's mechanical report records
-acceptance of `Erdos993.erdos_993_forest` and its tree specialization by Lean's
-default kernel, nanoda and con-ron, with only `propext`, `Classical.choice`
-and `Quot.sound`. Plasma AI's source inspection found no statement mismatch
-and matched the challenge, solution and comparator to the exact files checked
-by Palomar; the scope and public records are on the
+**Formalization.** Formal-conjectures had no file `ErdosProblems/993.lean` on
+2026-10-07. The Li–Vallier–Zhang formalization registered on the Palomar
+registry follows version 2.15 of their second proof, and the registry's record
+lists the version accompanying arXiv:2610.07943v1 as superseded by it; its
+README says its forest and tree statements are those of formal-conjectures pull
+request #4192, renamed. Plasma AI built it and replayed it through its
+comparator on 2026-10-16 UTC on the source's own toolchain (Lean v4.35.0-rc2):
+Lean's default kernel, nanoda and con-ron accepted `Erdos993.erdos_993_forest`
+and its tree specialization, with only `propext`, `Classical.choice` and
+`Quot.sound`. Plasma AI's source inspection found no statement mismatch and
+matched the challenge, solution and comparator to the exact files checked by
+Palomar, whose mechanical report records the same kernels' acceptance; Palomar's
+verification is reported, not counted. The scope, the public records and the
+execution details are on the
 [[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|claim page]].
-A local build and comparator replay of that source also passed all three
-kernels on 2026-10-16 UTC, with the execution details on the claim page.
 The restricted manuscript is unnecessary for checking the public Lean theorem.
 
 ## Current assessment
 
-The full forest statement is accepted on the public formalization registered
-as PALOMAR-2026-10-11-000012. Plasma AI inspected the definitions and theorem
-statements, found no mismatch with Problem 993, and confirmed that the
-challenge, solution and comparator were the exact files in Palomar's
-successful verification. Jacob Parish at Plasma AI signed off on acceptance
-on 2026-10-16 UTC; the
+**Scope.** The page carried the erdosproblems.com label (FALSIFIABLE on
+2026-10-06) and its references, and no status search is recorded.
+
+The full forest statement is accepted on Plasma AI's build and comparator replay
+of the formalization registered as PALOMAR-2026-10-11-000012 and on its
+inspection of the definitions and theorem statements, which found no mismatch
+with Problem 993. Plasma AI also confirmed that the challenge, solution and
+comparator were the exact files in Palomar's successful verification. Jacob
+Parish at Plasma AI signed off on acceptance on 2026-10-16 UTC; the
 [[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|claim page]]
 records the scope, source revision and verification report.
 
-The acceptance is supported by Palomar's kernel verification and a successful
-local build and comparator replay. The restricted manuscript is unreviewed, and
-the local statement inspection has not been independently graded. No native
-claim tier or manuscript proof-coverage verdict is asserted. The partial
+Palomar's kernel verification of the same files is reported, not counted. The
+restricted manuscript is unreviewed, and the local statement inspection has not
+been independently graded. No native claim tier or manuscript proof-coverage
+verdict is asserted. The partial
 [[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|Fang–Lu–Nevo–Yao–Zheng claim]]
 addresses sufficiently large forests and does not by itself cover every size.
-The earlier literature linked below is not compiled into a full proof here;
-the compiled Alavi–Malde–Schwenk–Erdős result concerns arbitrary graphs and
-gives no tree or forest counterexample.
+The earlier literature linked below is not compiled into a full proof here; the
+compiled Alavi–Malde–Schwenk–Erdős result concerns arbitrary graphs and gives no
+tree or forest counterexample.
 
 ## Known Results
 
