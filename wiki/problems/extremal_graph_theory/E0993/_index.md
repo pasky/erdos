@@ -6,7 +6,7 @@ desc: |
   or forest is unimodal.
 tags:
 - Graph theory
-status: claimed
+status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
 updated: 2026-10-08T17:47:46Z
@@ -30,23 +30,19 @@ i_{0}(T)\leq i_{1}(T)\leq\cdots\leq i_{m}(T)\geq i_{m+1}(T)\geq
 i_{m+2}(T)\geq\cdots.
 $$
 
-**Status.** Falsifiable. The label is erdosproblems.com's (FALSIFIABLE on
-2026-10-06; page last edited 1 February 2026). It is a body note, not a
-standing: a counterexample would be one forest whose sequence is not unimodal,
-which is a finite check. The frontmatter standing is derived from the claim
-pages. There is a pending full claim, so the standing is `claimed`. Two claims
-are recorded, and neither is accepted. Zhang and Li's manuscript, on
-[[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|its claim page]],
-claims the conjecture for every finite forest. It was revised on 6 October 2026
-with Vallier and a Lean development. Its first arXiv submission was withdrawn
-before announcement, and the revision was posted on arXiv on 6 October 2026. A
-later version, 2.15, deposited with restricted access on 10 October 2026, has a
-Lean formalization that uses no compiler axioms, registered on the Palomar
-registry on 11 October 2026 and not built here. Fang, Lu, Nevo, Yao and Zheng's
-arXiv preprint, on
-[[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|its claim page]],
-claims to prove it for all forests on at least $N_0$ vertices, for an uncomputed
-$N_0$, with a Lean development.
+**Status.** Solved in the affirmative, on the accepted
+[[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|Li–Vallier–Zhang claim]]:
+the independence sequence of every finite forest is unimodal. Acceptance rests
+on the public Palomar formalization of their second proof, local
+inspection of its statement and verification records, a successful local
+build and comparator replay, and the project
+reviewer's sign-off recorded on the claim page. Bloom's catalog labeled the
+problem FALSIFIABLE on 6 October 2026; that label described finite
+checkability of a counterexample and supplied no verdict on the later
+formalization. Fang, Lu, Nevo, Yao and Zheng's
+[[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|partial claim]]
+concerns all forests above an unspecified absolute threshold and remains
+recorded separately.
 
 **Source.** [erdosproblems.com/993](https://www.erdosproblems.com/993), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #993,
@@ -60,46 +56,39 @@ https://www.erdosproblems.com/993.
 - [Sc81] Schwenk, Allen J., On unimodal sequences of graphical invariants. J.
   Combin. Theory Ser. B (1981), 247-250.
 
-**Formalization.** Author-reported Lean developments are recorded on the
-claim pages; this corpus has built or audited none of them. The Zhang–Li
-claim's second proof has two: the development accompanying
-arXiv:2610.07943v1, whose README reports Lean's compiler axioms, and a
-formalization of the manuscript's version 2.15 that evaluates every finite
-check in the kernel, registered on the Palomar registry on 11 October 2026 as
-PALOMAR-2026-10-11-000012. That record reports that the registry's kernel
-checkers accepted its theorem `Erdos993.erdos_993_forest`, the forest
-statement of formal-conjectures pull request #4192 renamed, on `propext`,
-`Classical.choice` and `Quot.sound` only. Formal-conjectures had no file
-`ErdosProblems/993.lean` on 2026-10-07.
+**Formalization.** The current public formalization of the Li–Vallier–Zhang claim
+follows version 2.15 of their second proof and supersedes the
+version accompanying arXiv:2610.07943v1. Palomar's mechanical report records
+acceptance of `Erdos993.erdos_993_forest` and its tree specialization by Lean's
+default kernel, nanoda and con-ron, with only `propext`, `Classical.choice`
+and `Quot.sound`. Plasma AI's source inspection found no statement mismatch
+and matched the challenge, solution and comparator to the exact files checked
+by Palomar; the scope and public records are on the
+[[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|claim page]].
+A local build and comparator replay of that source also passed all three
+kernels on 2026-10-16 UTC, with the execution details on the claim page.
+The restricted manuscript is unnecessary for checking the public Lean theorem.
 
 ## Current assessment
 
-The erdosproblems.com label FALSIFIABLE (2026-10-06) is a body note, not a
-standing. The compiled source note concerns arbitrary graphs; it gives no tree
-or forest counterexample. The later literature on the conjecture is linked below
-and not compiled on this page.
+The full forest statement is accepted on the public formalization registered
+as PALOMAR-2026-10-11-000012. Plasma AI inspected the definitions and theorem
+statements, found no mismatch with Problem 993, and confirmed that the
+challenge, solution and comparator were the exact files in Palomar's
+successful verification. Jacob Parish at Plasma AI signed off on acceptance
+on 2026-10-16 UTC; the
+[[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|claim page]]
+records the scope, source revision and verification report.
 
-**Falsifiability.** The erdosproblems.com label records that the conjecture is
-falsifiable: a single forest whose independence sequence fails to be unimodal
-refutes it, and the sequence of a given forest is a finite computation. The
-label says nothing about whether such a forest exists, and the problem's
-standing is derived from the claim pages, not from the label.
-
-**Claims on erdosproblems.com.** On 2026-10-06 erdosproblems.com carried two
-claims, recorded on their claim pages and summarized in the Status paragraph.
-The partial claim of Fang, Lu, Nevo, Yao and Zheng
-([[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|claim page]])
-reaches every forest above an existential threshold and leaves the small
-forests, and so the conjecture itself, open; the full claim of Zhang and Li
-([[problems/extremal_graph_theory/E0993/claims/2026_09_27_zhang_li|claim page]])
-covers every forest, in a manuscript whose authors said on 6 October 2026 that
-they intend a shorter version. Neither has a referee or a named reviewer, and
-this corpus has built or reviewed none of their Lean developments; the Palomar
-registry's kernel replay of the registered formalization of the Zhang–Li
-revision (11 October 2026) is neither a build by this corpus nor a review. The
-developments are described as their READMEs and the registry's record state
-them. Bloom's catalog labeled the problem FALSIFIABLE (2026-10-06), and the page
-adopts neither claim.
+The acceptance is supported by Palomar's kernel verification and a successful
+local build and comparator replay. The restricted manuscript is unreviewed, and
+the local statement inspection has not been independently graded. No native
+claim tier or manuscript proof-coverage verdict is asserted. The partial
+[[problems/extremal_graph_theory/E0993/claims/2026_09_17_fang_lu_nevo_yao_zheng|Fang–Lu–Nevo–Yao–Zheng claim]]
+addresses sufficiently large forests and does not by itself cover every size.
+The earlier literature linked below is not compiled into a full proof here;
+the compiled Alavi–Malde–Schwenk–Erdős result concerns arbitrary graphs and
+gives no tree or forest counterexample.
 
 ## Known Results
 
