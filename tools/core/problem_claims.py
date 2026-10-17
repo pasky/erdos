@@ -604,17 +604,21 @@ def _claim_issues(
         issues.append('a claimed page lists no evidence')
 
     # the earliest day the result was public, a preprint or posting included and
-    # not the journal's date, to the precision known, just before submitted
+    # not the journal's date, to the precision known, just before submitted; null
+    # while the claim is not yet public
     keys = list(metadata)
+    unpublished = 'published' in metadata and metadata['published'] is None
     if 'published' not in metadata:
         issues.append(
             'missing published (the claim date YYYY-MM-DD, or YYYY-MM or YYYY when'
-            ' only the month or the year is known)'
+            ' only the month or the year is known, or null while the claim is not'
+            ' yet public)'
         )
-    elif not _known_date(metadata['published']):
+    elif not unpublished and not _known_date(metadata['published']):
         issues.append(
             'published must be a calendar date YYYY-MM-DD, or YYYY-MM or YYYY when'
-            ' only the month or the year is known'
+            ' only the month or the year is known, or null while the claim is not'
+            ' yet public'
         )
     if (
         'published' in metadata
@@ -646,13 +650,26 @@ def _claim_issues(
         ):
             issues.append('claim_id must come just after submitted')
 
-    # the postings of the claim, url first
+    # the postings of the claim, url first; none while the claim is not yet public
     links = metadata.get('links')
     if links is None:
-        issues.append('missing links (a list of {url, kind, date?})')
-    elif not isinstance(links, list) or not links:
+        issues.append(
+            'missing links (a list of {url, kind, date?}, or [] while the claim is'
+            ' not yet public)'
+        )
+    elif links == []:
+        if 'published' in metadata and not unpublished:
+            issues.append(
+                'links may be [] only while published is null (a claim not yet public)'
+            )
+    elif not isinstance(links, list):
         issues.append('links must be a nonempty list of {url, kind, date?}')
     else:
+        if unpublished:
+            issues.append(
+                'published may be null only while links is [] (a claim not yet'
+                ' public has no posting)'
+            )
         for index, link in enumerate(links):
             issues.extend(f'links[{index}] {issue}' for issue in _link_issues(link))
         # one posting, one entry

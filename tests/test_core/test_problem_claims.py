@@ -23,6 +23,7 @@ __all__ = [
     'test_a_claim_page_without_authors_is_debt_until_settled',
     'test_an_empty_authors_list_records_an_unknown_name',
     'test_a_published_date_gives_only_what_is_known',
+    'test_a_claim_not_yet_public_has_no_published_date_or_links',
     'test_a_null_submitted_records_an_unknown_date',
     'test_a_claim_id_names_one_claim_on_the_site',
     'test_a_link_date_gives_only_what_is_known',
@@ -237,6 +238,20 @@ def test_a_problem_with_consistent_claims_passes(tmp_path: pathlib.Path) -> None
             _BODY,
             None,
             "published 2026-01 does not match the page name's date 2026-01-02",
+        ),
+        (
+            _replace(_CLAIM, 'published:', 'published: null'),
+            _BODY,
+            None,
+            'published may be null only while links is []',
+        ),
+        (
+            _replace(
+                _without(_CLAIM, '- url:', '  kind:', '  date:'), 'links:', 'links: []'
+            ),
+            _BODY,
+            None,
+            'links may be [] only while published is null',
         ),
         (_without(_CLAIM, 'submitted:'), _BODY, None, 'missing submitted'),
         (
@@ -727,6 +742,30 @@ def test_a_published_date_gives_only_what_is_known(
     _claim(
         tmp_path, name, frontmatter=_replace(_CLAIM, 'published:', f'published: {date}')
     )
+    findings, _ = lint_problem_claims(tmp_path, settled=True)
+    assert findings == []
+
+
+def test_a_claim_not_yet_public_has_no_published_date_or_links(
+    tmp_path: pathlib.Path,
+) -> None:
+    """An unreleased claim has published: null and links: [], and its filing-day name goes unchecked."""
+    _problem(tmp_path, status='claimed', claim='proved')
+    unreleased = _replace(
+        _without(
+            _replace(_CLAIM, 'status:', 'status: claimed'),
+            'evidence:',
+            '- refereed',
+            '- url:',
+            '  kind:',
+            '  date:',
+        ),
+        'links:',
+        'links: []',
+    )
+    unreleased = _replace(unreleased, 'published:', 'published: null')
+    unreleased = _replace(unreleased, 'submitted:', 'submitted: null')
+    _claim(tmp_path, '2026_03_04_claimant.md', frontmatter=unreleased)
     findings, _ = lint_problem_claims(tmp_path, settled=True)
     assert findings == []
 
