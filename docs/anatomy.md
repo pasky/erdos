@@ -498,18 +498,19 @@ source than the record establishes.
 A problem is a folder under the mathematics wiki's `problems/` tree whose
 `_index.md` is the problem page; the results claimed about it from outside the
 project are claim pages in a `claims/` folder beside that page, one page per
-claimant's result, named `<YYYY_MM_DD>_<claimant>.md` by the claim's date and
-its claimant. The claim's date is the earliest date the result was public, such
-as an arXiv posting or an online-first date before the print issue. No day or
-month is invented: where only the year or the month is known, the name fills the
-rest with `01` (`1936_04_01` for April 1936), and the claim page's `published`
-gives only what is known (`1936-04`, not `1936-04-01`). The project's own
-theorems are claim cards (`L<n>`) and keep their form. When one of them settles
-a problem, the problem derives its standing like any other: a claim page names
-the project as claimant, under the name it uses for itself, links the card under
-**Depends on.** and lists only the evidence that exists, `formalized` when a
-landed Lean proof checks the statement and `reviewed` only for an outside
-reviewer; without either it stays `claimed`.
+claimant's result, named `<YYYY_MM_DD>_<claimant>.md` by the claim's date (for a
+claim not yet public, the day its page was filed) and its claimant. The claim's
+date is the earliest date the result was public, such as an arXiv posting or an
+online-first date before the print issue. No day or month is invented: where
+only the year or the month is known, the name fills the rest with `01`
+(`1936_04_01` for April 1936), and the claim page's `published` gives only what
+is known (`1936-04`, not `1936-04-01`). The project's own theorems are claim
+cards (`L<n>`) and keep their form. When one of them settles a problem, the
+problem derives its standing like any other: a claim page names the project as
+claimant, under the name it uses for itself, links the card under **Depends
+on.** and lists only the evidence that exists, `formalized` when a landed Lean
+proof checks the statement and `reviewed` only for an outside reviewer; without
+either it stays `claimed`.
 
 A problem page carries `status`, `claim` and `tags`. `status` is derived from
 the claim pages: `solved` when an accepted claim of scope `full` settles the
@@ -577,33 +578,38 @@ it: the earliest day the result was public, a preprint, arXiv posting or forum
 post included, and not the date a journal printed it, whose refereeing
 `evidence` records as `refereed`. It is written to the precision known:
 `YYYY-MM-DD`, or `YYYY-MM` or `YYYY` when only the month or the year is known,
-so that filling its missing parts with `01` gives the name's date. `claim_id`,
-just after `submitted`, is the claim's id on the site the claim was submitted
-to, so that the site can match the claim page to that claim; it is absent unless
-the site gave one, never `null`, and no two claim pages carry the same id.
-`submitted` is the date the claim was submitted to erdosproblems.com, as a proof
-claim or a forum post, to erdosproblems.ai, as a proof claim, or to the Palomar
-registry: the date its **Submission note** gives, as `YYYY-MM-DD`, and `null`
-when no such submission is known. On this repository's claim pages, `claim_id`
-is the claim's id on erdosproblems.ai. The body says what a partial claim
-settles under **Covers.**, what the claim rests on under **Depends on.**
-(wikilinks to wiki pages, or to library result pages, which the check reports
-with their read status and never counts toward the standing; an accepted claim
-depends on no unaccepted wiki page, a `solved` problem page counting as
-accepted), and states unproven hypotheses in prose. Claims are scoped and valued
-against the statement the problem page shows, the modified Statement where there
-is one: a theorem of the whole statement is `full`, one on a narrower range is
-`partial`, and the claim value follows the statement's polarity. A result that
-answers only the erdosproblems.com wording keeps its claim page with `status`
-`rejected` and the reason "answers the erdosproblems.com wording, not the
-modified Statement". A result that answers only a variant, a reading or version
-of the problem that the problem page sets aside, settles no instance of the
-problem. Such a result submitted to erdosproblems.com or erdosproblems.ai as a
-claim keeps its claim page with `status` `rejected`, the reason "answers a
-variant, not the Statement", and a note that its mathematics answers the named
-variant and so does not settle the problem. Every claim erdosproblems.com shows
-has a claim page, rejected if need be, and so does every claim erdosproblems.ai
-publishes: the `claims` list of the problem's read-only discussion endpoint
+so that filling its missing parts with `01` gives the name's date. A claim not
+yet public, such as the project's own unreleased result, has `published: null`
+and `links: []`, and its page name carries the day the page was filed, which the
+check does not compare; on the day the claim is made public, `published` becomes
+that day, the page is renamed to it and its links are added. `published` is
+`null` exactly when `links` is empty. `claim_id`, just after `submitted`, is the
+claim's id on the site the claim was submitted to, so that the site can match
+the claim page to that claim; it is absent unless the site gave one, never
+`null`, and no two claim pages carry the same id. `submitted` is the date the
+claim was submitted to erdosproblems.com, as a proof claim or a forum post, to
+erdosproblems.ai, as a proof claim, or to the Palomar registry: the date its
+**Submission note** gives, as `YYYY-MM-DD`, and `null` when no such submission
+is known. On this repository's claim pages, `claim_id` is the claim's id on
+erdosproblems.ai. The body says what a partial claim settles under **Covers.**,
+what the claim rests on under **Depends on.** (wikilinks to wiki pages, or to
+library result pages, which the check reports with their read status and never
+counts toward the standing; an accepted claim depends on no unaccepted wiki
+page, a `solved` problem page counting as accepted), and states unproven
+hypotheses in prose. Claims are scoped and valued against the statement the
+problem page shows, the modified Statement where there is one: a theorem of the
+whole statement is `full`, one on a narrower range is `partial`, and the claim
+value follows the statement's polarity. A result that answers only the
+erdosproblems.com wording keeps its claim page with `status` `rejected` and the
+reason "answers the erdosproblems.com wording, not the modified Statement". A
+result that answers only a variant, a reading or version of the problem that the
+problem page sets aside, settles no instance of the problem. Such a result
+submitted to erdosproblems.com or erdosproblems.ai as a claim keeps its claim
+page with `status` `rejected`, the reason "answers a variant, not the
+Statement", and a note that its mathematics answers the named variant and so
+does not settle the problem. Every claim erdosproblems.com shows has a claim
+page, rejected if need be, and so does every claim erdosproblems.ai publishes:
+the `claims` list of the problem's read-only discussion endpoint
 `https://erdosproblems.ai/api/v1/problems/<number>/discussion`, whose
 `repoClaims` list mirrors this corpus's own claim pages and which does not list
 a claim still awaiting the site's approval. Which of these claim pages a

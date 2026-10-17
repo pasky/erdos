@@ -644,11 +644,13 @@ claims": the keys and their vocabularies (`tags` against `PROBLEM_TAGS` in
 name `<YYYY_MM_DD>_<claimant>.md` and the page's `published` (the earliest day
 the result was public, not a journal's date, as `YYYY-MM-DD`, or `YYYY-MM` or
 `YYYY` when only the month or the year is known, just before `submitted`, equal
-to the name's date once its missing parts are filled with `01`), the `authors`
-list (distinct nonempty names after `desc` and before `status`; a claim page
-without it is counted in the leg's detail and is a finding with `--settled`),
-the evidence list's fixed order, its presence on an accepted claim and its
-absence from a pending one, each link's `url`-first shape, kind and date
+to the name's date once its missing parts are filled with `01`; or `null` while
+the claim is not yet public, when the name's date is the filing day and is not
+compared), the `authors` list (distinct nonempty names after `desc` and before
+`status`; a claim page without it is counted in the leg's detail and is a
+finding with `--settled`), the evidence list's fixed order, its presence on an
+accepted claim and its absence from a pending one, `links` nonempty, or `[]`
+exactly when `published` is `null`, each link's `url`-first shape, kind and date
 (`YYYY-MM-DD`, or `YYYY-MM` or `YYYY` when only the month or the year is known),
 the `submitted` date (a calendar date, or `null`), the optional `claim_id` (a
 nonempty string just after `submitted`, absent rather than `null`, and carried
