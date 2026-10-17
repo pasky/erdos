@@ -100,13 +100,15 @@ def lint_problem_claims(
     release mode, it is a finding. A claim page without ``authors`` is counted
     in the same way and is a finding with ``settled``. ``select`` narrows
     the check to the problem folders named (by folder name), a scoped
-    check for a batch; a name matching no folder is a finding. A dependence
-    on a library result page is a note naming the page's read status; it
-    never enters the derivation. Nothing here assesses the mathematics or
-    awards standing: the derivation reads the claim pages' own words.
+    check for a batch; a name matching no folder is a finding, and a selected
+    page's ``claim_id`` is still compared with every other claim page's. A
+    dependence on a library result page is a note naming the page's read
+    status; it never enters the derivation. Nothing here assesses the
+    mathematics or awards standing: the derivation reads the claim pages' own
+    words.
     """
     root = root.expanduser().resolve()
-    problems = _problems(root)
+    problems = everywhere = _problems(root)
     findings = []
     if select:
         names = {page.parent.name for page in problems}
@@ -120,6 +122,7 @@ def lint_problem_claims(
     authorless = 0
     claim_count = 0
     dependencies: list[str] = []
+    claim_ids: dict[str, list[str]] = {}
     for problem in problems:
         relative = problem.relative_to(root).as_posix()
         try:
@@ -135,6 +138,7 @@ def lint_problem_claims(
         for page in _claim_pages(problem.parent):
             page_relative = page.relative_to(root).as_posix()
             name = _CLAIM_NAME.fullmatch(page.name)
+            named = None
             if name is None:
                 findings.append(
                     f'{page_relative}: claim page name must be <YYYY_MM_DD>_<claimant>.md'
@@ -143,6 +147,8 @@ def lint_problem_claims(
                 findings.append(
                     f'{page_relative}: claim page date is not a calendar date'
                 )
+            else:
+                named = '-'.join(name.group(1, 2, 3))
             try:
                 claim = _metadata(page)
                 body = _body(page.read_text(encoding='utf-8'))
@@ -151,6 +157,20 @@ def lint_problem_claims(
                 findings.append(f'{page_relative}: {error}')
                 continue
             findings.extend(f'{page_relative}: {issue}' for issue in issues)
+            # the page name carries the published date, an unknown month or day as 01
+            if (
+                named is not None
+                and _known_date(claim.get('published'))
+                and _filled(claim['published']) != named
+            ):
+                findings.append(
+                    f'{page_relative}: published {_date_text(claim["published"])}'
+                    f" does not match the page name's date {named} (the name fills"
+                    ' an unknown month or day with 01)'
+                )
+            claim_id = _claim_id(claim)
+            if claim_id is not None:
+                claim_ids.setdefault(claim_id, []).append(page_relative)
             # a claim page without its authors is counted, and a finding when settled
             if 'authors' not in claim:
                 authorless += 1
@@ -182,6 +202,33 @@ def lint_problem_claims(
                 findings.append(
                     f'{relative}: provisional {metadata.get("status")!r}/'
                     f'{metadata.get("claim")!r} with no claim page'
+                )
+
+    # a claim id names one claim on the site the claim was submitted to, so no two
+    # claim pages carry the same one; a scoped check compares with the unselected
+    # pages too
+    elsewhere: dict[str, list[str]] = {}
+    chosen = set(problems)
+    for problem in everywhere:
+        if problem in chosen:
+            continue
+        for page in _claim_pages(problem.parent):
+            try:
+                claim_id = _claim_id(_metadata(page))
+            except ValueError:
+                continue
+            if claim_id is not None:
+                elsewhere.setdefault(claim_id, []).append(
+                    page.relative_to(root).as_posix()
+                )
+    for claim_id, pages in claim_ids.items():
+        carriers = pages + elsewhere.get(claim_id, [])
+        for page_relative in pages:
+            others = [other for other in carriers if other != page_relative]
+            if others:
+                findings.append(
+                    f'{page_relative}: claim_id {claim_id!r} is also on '
+                    + ', '.join(others)
                 )
     notes = [
         *dependencies,
@@ -556,6 +603,26 @@ def _claim_issues(
     if evidence is not None and metadata.get('status') == 'claimed':
         issues.append('a claimed page lists no evidence')
 
+    # the earliest day the result was public, a preprint or posting included and
+    # not the journal's date, to the precision known, just before submitted
+    keys = list(metadata)
+    if 'published' not in metadata:
+        issues.append(
+            'missing published (the claim date YYYY-MM-DD, or YYYY-MM or YYYY when'
+            ' only the month or the year is known)'
+        )
+    elif not _known_date(metadata['published']):
+        issues.append(
+            'published must be a calendar date YYYY-MM-DD, or YYYY-MM or YYYY when'
+            ' only the month or the year is known'
+        )
+    if (
+        'published' in metadata
+        and 'submitted' in metadata
+        and keys.index('published') + 1 != keys.index('submitted')
+    ):
+        issues.append('published must come just before submitted')
+
     # the date of the claim's submission to erdosproblems.com, erdosproblems.ai or
     # the Palomar registry, null when none is known
     if 'submitted' not in metadata:
@@ -564,6 +631,20 @@ def _claim_issues(
         metadata['submitted']
     ):
         issues.append('submitted must be a calendar date YYYY-MM-DD, or null')
+
+    # the claim's id on the site the claim was submitted to, absent unless the site
+    # gave one, just after submitted
+    if 'claim_id' in metadata:
+        if _claim_id(metadata) is None:
+            issues.append(
+                'claim_id must be a nonempty string; leave it out when the site gave'
+                ' none'
+            )
+        if (
+            'submitted' in metadata
+            and keys.index('claim_id') != keys.index('submitted') + 1
+        ):
+            issues.append('claim_id must come just after submitted')
 
     # the postings of the claim, url first
     links = metadata.get('links')
@@ -794,6 +875,25 @@ def _known_date(value: Any) -> bool:
     if isinstance(value, str) and _COARSE_DATE.fullmatch(value):
         return True
     return _calendar_date(value)
+
+
+def _date_text(value: Any) -> str:
+    """Return a known date as written: ``YYYY-MM-DD``, ``YYYY-MM`` or ``YYYY``."""
+    return value.isoformat() if isinstance(value, dt.date) else str(value)
+
+
+def _filled(value: Any) -> str:
+    """Return a known date as ``YYYY-MM-DD``, an unknown month or day filled with 01."""
+    text = _date_text(value)
+    return text + '-01' * (2 - text.count('-'))
+
+
+def _claim_id(metadata: dict[str, Any]) -> Optional[str]:
+    """Return a claim page's ``claim_id`` when it is a nonempty string, or ``None``."""
+    claim_id = metadata.get('claim_id')
+    if isinstance(claim_id, str) and claim_id.strip() == claim_id and claim_id:
+        return claim_id
+    return None
 
 
 def _calendar_date(value: Any) -> bool:
