@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2011-09-18
 submitted: null
 links:
 - url: https://arxiv.org/abs/1109.5398v3

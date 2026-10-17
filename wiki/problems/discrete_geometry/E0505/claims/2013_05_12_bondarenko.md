@@ -13,6 +13,7 @@ claim: disproved
 scope: full
 evidence:
 - refereed
+published: 2013-05-12
 submitted: null
 links:
 - url: https://doi.org/10.1007/s00454-014-9579-4

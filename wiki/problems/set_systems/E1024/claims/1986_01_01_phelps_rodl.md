@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1986
 submitted: null
 links:
 - url: https://www.erdosproblems.com/1024

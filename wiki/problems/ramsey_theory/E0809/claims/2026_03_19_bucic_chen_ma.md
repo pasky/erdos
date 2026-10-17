@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - formalized
+published: 2026-03-19
 submitted: null
 links:
 - url: https://arxiv.org/abs/2603.18952v1

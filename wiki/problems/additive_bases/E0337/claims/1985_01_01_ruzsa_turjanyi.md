@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1985
 submitted: null
 links:
 - url: https://doi.org/10.5486/PMD.1985.32.1-2.13

@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2023-08-09
 submitted: null
 links:
 - url: https://arxiv.org/abs/2308.05162

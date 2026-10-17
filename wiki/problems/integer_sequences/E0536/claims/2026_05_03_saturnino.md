@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-05-03
 submitted: null
 links:
 - url: https://pdfhost.io/v/NnHQ32EvjQ_Erdos_536_Partial_Progress

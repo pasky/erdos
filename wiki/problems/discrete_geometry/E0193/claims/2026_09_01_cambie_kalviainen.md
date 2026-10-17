@@ -13,6 +13,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 2026-09-01
 submitted: 2026-09-03
 links:
 - url: https://arxiv.org/abs/2609.01766v1

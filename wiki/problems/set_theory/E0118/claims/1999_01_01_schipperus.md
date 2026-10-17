@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1999
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.apal.2009.12.007

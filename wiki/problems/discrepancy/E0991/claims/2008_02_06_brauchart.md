@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2008-02-06
 submitted: null
 links:
 - url: https://doi.org/10.1090/S0025-5718-08-02085-1

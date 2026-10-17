@@ -14,6 +14,7 @@ claim: disproved
 scope: full
 evidence:
 - formalized
+published: 2026-09-03
 submitted: 2026-09-03
 links:
 - url: https://github.com/tadamcz/erdos1/blob/db6f9091dfaf9bac704e6b28fb3a094594869328/Erdos1/Resolutions/Erdos1_219usd_38h.lean

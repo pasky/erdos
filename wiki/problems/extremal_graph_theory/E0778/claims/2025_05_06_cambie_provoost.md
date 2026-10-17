@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: answered
 scope: partial
+published: 2025-05-06
 submitted: null
 links:
 - url: https://arxiv.org/abs/2505.03497

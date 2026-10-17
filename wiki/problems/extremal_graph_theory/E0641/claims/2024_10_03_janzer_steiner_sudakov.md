@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2024-10-03
 submitted: null
 links:
 - url: https://doi.org/10.1112/blms.70262

@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2007-06-01
 submitted: null
 links:
 - url: https://arxiv.org/abs/0706.0223v1

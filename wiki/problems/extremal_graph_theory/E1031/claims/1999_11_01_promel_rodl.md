@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1999-11
 submitted: null
 links:
 - url: https://doi.org/10.1006/jcta.1999.2972

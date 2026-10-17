@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2005-08-10
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.disc.2005.05.006

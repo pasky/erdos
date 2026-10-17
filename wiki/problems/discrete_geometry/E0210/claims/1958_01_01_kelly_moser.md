@@ -12,6 +12,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1958
 submitted: null
 links:
 - url: https://doi.org/10.4153/CJM-1958-024-6

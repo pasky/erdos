@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1973-02
 submitted: null
 links:
 - url: https://doi.org/10.1016/S0095-8956(73)80005-X

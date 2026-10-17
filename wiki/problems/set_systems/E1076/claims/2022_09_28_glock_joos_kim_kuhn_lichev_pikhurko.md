@@ -18,6 +18,7 @@ claim: disproved
 scope: full
 evidence:
 - refereed
+published: 2022-09-28
 submitted: null
 links:
 - url: https://arxiv.org/abs/2209.14177

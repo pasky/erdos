@@ -12,6 +12,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 1959
 submitted: null
 links:
 - url: https://doi.org/10.1307/mmj/1028998227

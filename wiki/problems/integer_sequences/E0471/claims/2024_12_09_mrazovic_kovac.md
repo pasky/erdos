@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2024-12-09
 submitted: null
 links:
 - url: https://www.erdosproblems.com/471

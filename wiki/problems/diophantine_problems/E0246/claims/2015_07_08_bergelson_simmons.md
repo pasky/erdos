@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2015-07-08
 submitted: null
 links:
 - url: https://arxiv.org/abs/1507.02208v1

@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1981-12-01
 submitted: null
 links:
 - url: https://doi.org/10.1112/jlms/s2-24.3.385

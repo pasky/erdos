@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2012-04-28
 submitted: null
 links:
 - url: https://doi.org/10.1142/S1793042112501448

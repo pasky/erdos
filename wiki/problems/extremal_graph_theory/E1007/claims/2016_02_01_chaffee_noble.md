@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2016-02
 submitted: null
 links:
 - url: https://ajc.maths.uq.edu.au/pdf/64/ajc_v64_p327.pdf

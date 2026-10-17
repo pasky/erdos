@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1975-06-01
 submitted: null
 links:
 - url: https://doi.org/10.1215/ijm/1256050816

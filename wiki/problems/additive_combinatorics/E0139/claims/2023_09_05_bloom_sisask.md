@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2023-09-05
 submitted: null
 links:
 - url: https://arxiv.org/abs/2309.02353

@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: answered
 scope: partial
+published: 1978-01-01
 submitted: null
 links:
 - url: https://www-users.cse.umn.edu/~odlyzko/unpublished/greedy.sequence.pdf

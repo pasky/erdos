@@ -13,6 +13,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 1997
 submitted: null
 links:
 - url: https://doi.org/10.1080/10586458.1997.10504616

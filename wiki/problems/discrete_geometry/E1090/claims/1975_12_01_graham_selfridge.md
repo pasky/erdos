@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1975-12
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02414146

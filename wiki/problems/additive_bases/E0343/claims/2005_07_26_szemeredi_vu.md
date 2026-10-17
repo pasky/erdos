@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2005-07-26
 submitted: null
 links:
 - url: https://arxiv.org/abs/math/0507539

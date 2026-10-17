@@ -17,6 +17,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2011-02-08
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.jcta.2012.12.008

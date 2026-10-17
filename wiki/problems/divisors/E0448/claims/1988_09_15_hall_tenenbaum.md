@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: disproved
 scope: full
+published: 1988-09-15
 submitted: null
 links:
 - url: https://doi.org/10.1017/CBO9780511566004

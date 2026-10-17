@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2021
 submitted: null
 links:
 - url: https://zbmath.org/?q=an%3A1474.05221

@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1995-01-01
 submitted: null
 links:
 - url: https://doi.org/10.1090/S0273-0979-1995-00569-0

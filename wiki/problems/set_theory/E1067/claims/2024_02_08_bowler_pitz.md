@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2024-02-08
 submitted: null
 links:
 - url: https://doi.org/10.37236/13359

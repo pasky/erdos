@@ -12,6 +12,7 @@ authors:
 status: rejected
 claim: disproved
 scope: full
+published: 2026-01-31
 submitted: null
 links:
 - url: https://doi.org/10.13140/RG.2.2.22305.06242

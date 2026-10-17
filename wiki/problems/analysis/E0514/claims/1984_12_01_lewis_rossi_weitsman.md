@@ -17,6 +17,7 @@ scope: partial
 settles: [path, length]
 evidence:
 - refereed
+published: 1984-12
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02384375

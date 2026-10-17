@@ -12,6 +12,7 @@ authors:
 status: rejected
 claim: disproved
 scope: full
+published: 2025-08-17
 submitted: 2025-08-17
 links:
 - url: https://www.erdosproblems.com/forum/thread/949#post-108

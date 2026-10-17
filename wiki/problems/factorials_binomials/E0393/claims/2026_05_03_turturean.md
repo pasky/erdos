@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: answered
 scope: conditional
+published: 2026-05-03
 submitted: 2026-05-03
 links:
 - url: https://www.overleaf.com/read/rsncpywwwbqf

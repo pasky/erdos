@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-04-10
 submitted: 2026-04-10
 links:
 - url: https://drive.google.com/file/d/1plzJOHf-zbFq2PmUY0b41FREkf0ls3Rv/view

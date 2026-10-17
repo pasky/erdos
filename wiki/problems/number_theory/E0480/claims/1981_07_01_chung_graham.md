@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1981-07
 submitted: null
 links:
 - url: https://doi.org/10.1073/pnas.78.7.4001

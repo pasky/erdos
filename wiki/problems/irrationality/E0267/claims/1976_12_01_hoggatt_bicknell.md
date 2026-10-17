@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1976-12
 submitted: null
 links:
 - url: https://www.fq.math.ca/14-5.html

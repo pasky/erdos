@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1975
 submitted: null
 links:
 - url: https://www.erdosproblems.com/318

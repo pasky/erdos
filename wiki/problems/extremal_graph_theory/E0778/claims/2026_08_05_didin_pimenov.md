@@ -14,6 +14,7 @@ claim: decidable
 scope: partial
 evidence:
 - reviewed
+published: 2026-08-05
 submitted: 2026-08-05
 links:
 - url: https://zenodo.org/records/21813052

@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1991-12
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF03041066

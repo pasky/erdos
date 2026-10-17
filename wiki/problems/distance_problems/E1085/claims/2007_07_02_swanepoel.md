@@ -12,6 +12,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 2007-07-02
 submitted: null
 links:
 - url: https://arxiv.org/abs/0707.0213

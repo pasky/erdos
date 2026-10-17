@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2023-02-06
 submitted: null
 links:
 - url: https://doi.org/10.1142/S1793042124500027

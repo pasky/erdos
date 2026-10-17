@@ -17,6 +17,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1978
 submitted: null
 links:
 - url: https://doi.org/10.1016/S1385-7258(78)80009-2

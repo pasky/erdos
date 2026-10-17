@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2006-04-13
 submitted: null
 links:
 - url: https://arxiv.org/abs/math/0604312

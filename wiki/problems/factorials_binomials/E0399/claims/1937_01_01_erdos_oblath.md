@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1937
 submitted: null
 links:
 - url: http://acta.bibl.u-szeged.hu/13485/

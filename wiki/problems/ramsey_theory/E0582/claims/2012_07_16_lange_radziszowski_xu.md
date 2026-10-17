@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2012-07-16
 submitted: null
 links:
 - url: https://arxiv.org/abs/1207.3750v1

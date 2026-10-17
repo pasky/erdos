@@ -15,6 +15,7 @@ settles:
 - exponential_growth
 evidence:
 - refereed
+published: 1981-12
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02579457

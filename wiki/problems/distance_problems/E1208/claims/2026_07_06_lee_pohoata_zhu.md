@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-07-06
 submitted: null
 links:
 - url: https://arxiv.org/abs/2607.05374v1

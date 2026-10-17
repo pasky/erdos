@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: decidable
 scope: partial
+published: 2026-03-23
 submitted: 2026-03-23
 links:
 - url: https://www.erdosproblems.com/forum/thread/848#post-4959

@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1966
 submitted: null
 links:
 - url: https://doi.org/10.4153/CJM-1966-014-3

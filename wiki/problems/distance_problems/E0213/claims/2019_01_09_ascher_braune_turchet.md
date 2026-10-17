@@ -15,6 +15,7 @@ claim: disproved
 scope: conditional
 evidence:
 - refereed
+published: 2019-01-09
 submitted: null
 links:
 - url: https://doi.org/10.1112/blms.12381

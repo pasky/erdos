@@ -16,6 +16,7 @@ claim: proved
 scope: partial
 evidence:
 - reviewed
+published: 1984
 submitted: null
 links:
 - url: https://mathscinet.ams.org/mathscinet-getitem?mr=795592

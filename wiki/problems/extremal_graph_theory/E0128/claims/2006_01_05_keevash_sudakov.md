@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2006-01-05
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.jctb.2005.11.003

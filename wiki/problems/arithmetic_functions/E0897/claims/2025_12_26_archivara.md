@@ -13,6 +13,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 2025-12-26
 submitted: null
 links:
 - url: https://archivara.org/paper/df04f023-6ef0-4c52-bd12-18cdaa8f0741

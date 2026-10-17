@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1993
 submitted: null
 links:
 - url: https://doi.org/10.1016/S0167-5060(08)70377-7

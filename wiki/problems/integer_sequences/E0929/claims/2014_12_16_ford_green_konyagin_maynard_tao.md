@@ -17,6 +17,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2014-12-16
 submitted: null
 links:
 - url: https://doi.org/10.1090/jams/876

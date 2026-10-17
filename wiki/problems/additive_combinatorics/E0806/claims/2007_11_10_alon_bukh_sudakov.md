@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2007-11-10
 submitted: null
 links:
 - url: https://doi.org/10.1007/s11856-009-0115-9

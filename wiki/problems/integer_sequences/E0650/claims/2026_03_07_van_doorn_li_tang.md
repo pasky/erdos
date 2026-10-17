@@ -15,6 +15,7 @@ claim: answered
 scope: full
 evidence:
 - reviewed
+published: 2026-03-07
 submitted: 2026-03-06
 links:
 - url: https://arxiv.org/abs/2603.28636v1

@@ -12,6 +12,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 1980
 submitted: null
 links:
 - url: https://zbmath.org/3801730

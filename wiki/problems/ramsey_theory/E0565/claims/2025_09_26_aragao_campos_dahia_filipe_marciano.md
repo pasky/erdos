@@ -17,6 +17,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2025-09-26
 submitted: null
 links:
 - url: https://arxiv.org/abs/2509.22629

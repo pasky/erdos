@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2020-04-09
 submitted: null
 links:
 - url: https://arxiv.org/abs/2004.04718

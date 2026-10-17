@@ -14,6 +14,7 @@ settles:
 - plane
 evidence:
 - reviewed
+published: 1934
 submitted: null
 links:
 - url: https://www.erdosproblems.com/223

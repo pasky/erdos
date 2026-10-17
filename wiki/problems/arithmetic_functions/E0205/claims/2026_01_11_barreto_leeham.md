@@ -13,6 +13,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 2026-01-11
 submitted: null
 links:
 - url: https://www.erdosproblems.com/forum/thread/205

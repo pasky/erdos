@@ -15,6 +15,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 1991-09
 submitted: null
 links:
 - url: https://doi.org/10.1016/0097-3165(91)90074-Q

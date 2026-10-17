@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2015-03-04
 submitted: null
 links:
 - url: https://doi.org/10.1002/jgt.22179

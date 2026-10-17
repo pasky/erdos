@@ -19,6 +19,7 @@ authors:
 status: claimed
 claim: disproved
 scope: full
+published: 2026-05-20
 submitted: null
 links:
 - url: https://arxiv.org/abs/2605.20695v1

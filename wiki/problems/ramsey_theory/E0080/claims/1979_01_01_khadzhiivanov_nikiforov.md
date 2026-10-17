@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1979
 submitted: null
 links:
 - url: https://annual.uni-sofia.bg/index.php/fmi/article/view/521

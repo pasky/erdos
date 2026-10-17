@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1993-03
 submitted: null
 links:
 - url: https://doi.org/10.1023/A:1022472513494

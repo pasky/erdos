@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: disproved
 scope: full
+published: 2026-05-08
 submitted: 2026-05-08
 links:
 - url: https://arxiv.org/abs/2605.08542v1

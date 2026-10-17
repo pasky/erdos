@@ -15,6 +15,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 2025-09-22
 submitted: null
 links:
 - url: https://www.erdosproblems.com/forum/thread/1037

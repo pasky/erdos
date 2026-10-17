@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1968-08
 submitted: null
 links:
 - url: https://doi.org/10.4153/CMB-1968-047-7

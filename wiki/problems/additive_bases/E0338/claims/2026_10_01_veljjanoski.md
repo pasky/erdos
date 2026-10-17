@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-10-01
 submitted: 2026-10-01
 links:
 - url: https://github.com/veljjanoski/erdos338/blob/9429d6fe5671772bb7e14567c2ef8facfc495583/README.md

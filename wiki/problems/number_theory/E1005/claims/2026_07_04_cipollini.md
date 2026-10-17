@@ -13,6 +13,7 @@ claim: answered
 scope: full
 evidence:
 - reviewed
+published: 2026-07-04
 submitted: 2026-07-14
 links:
 - url: https://arxiv.org/abs/2607.23302v1

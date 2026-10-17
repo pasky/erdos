@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2001-04
 submitted: null
 links:
 - url: https://doi.org/10.1007/s004930100019

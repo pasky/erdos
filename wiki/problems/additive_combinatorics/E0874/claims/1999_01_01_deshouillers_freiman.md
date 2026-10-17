@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1999
 submitted: null
 links:
 - url: https://doi.org/10.24033/ast.442

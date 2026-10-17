@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: conditional
+published: 2026-08-11
 submitted: 2026-08-11
 links:
 - url: https://doi.org/10.5281/zenodo.21882603

@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2013-01-19
 submitted: null
 links:
 - url: https://doi.org/10.4007/annals.2014.180.2.5

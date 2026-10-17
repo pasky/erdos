@@ -14,6 +14,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 2026-01-13
 submitted: null
 links:
 - url: https://arxiv.org/abs/2601.18507

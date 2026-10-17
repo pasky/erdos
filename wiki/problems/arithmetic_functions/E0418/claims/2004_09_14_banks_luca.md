@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2004-09-14
 submitted: null
 links:
 - url: https://arxiv.org/abs/math/0409231v1

@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2002-09
 submitted: null
 links:
 - url: https://doi.org/10.1023/A:1022337727769

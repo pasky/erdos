@@ -15,6 +15,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 1996
 submitted: null
 links:
 - url: https://zbmath.org/1153458

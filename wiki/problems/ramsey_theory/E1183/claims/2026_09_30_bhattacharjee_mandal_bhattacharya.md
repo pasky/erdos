@@ -14,6 +14,7 @@ status: claimed
 claim: proved
 scope: partial
 settles: [superpolynomial, subexponential]
+published: 2026-09-30
 submitted: 2026-10-05
 links:
 - url: https://doi.org/10.5281/zenodo.23050879

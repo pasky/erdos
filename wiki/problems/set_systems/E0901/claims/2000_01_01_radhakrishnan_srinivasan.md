@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2000
 submitted: null
 links:
 - url: https://doi.org/10.1002/(SICI)1098-2418(200001)16:1%3C4::AID-RSA2%3E3.0.CO;2-2

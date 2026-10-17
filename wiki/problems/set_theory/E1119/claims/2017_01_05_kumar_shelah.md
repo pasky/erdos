@@ -15,6 +15,7 @@ scope: partial
 evidence:
 - reviewed
 - refereed
+published: 2017-01-05
 submitted: null
 links:
 - url: https://doi.org/10.4064/fm252-3-2017

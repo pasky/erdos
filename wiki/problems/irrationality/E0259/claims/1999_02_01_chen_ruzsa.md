@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1999-02
 submitted: null
 links:
 - url: https://doi.org/10.1023/A:1004742930674

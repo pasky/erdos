@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2020-08-12
 submitted: null
 links:
 - url: https://arxiv.org/abs/2008.05311

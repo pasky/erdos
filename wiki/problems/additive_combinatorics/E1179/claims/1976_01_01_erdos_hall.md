@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1976
 submitted: null
 links:
 - url: https://users.renyi.hu/~p_erdos/1976-34.pdf

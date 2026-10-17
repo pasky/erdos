@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1973
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-24-1-99-111

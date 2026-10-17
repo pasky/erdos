@@ -13,6 +13,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1996-03-07
 submitted: null
 links:
 - url: https://doi.org/10.1070/SM1996v187n09ABEH000158

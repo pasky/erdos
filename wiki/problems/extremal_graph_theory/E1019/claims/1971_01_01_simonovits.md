@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 1971
 submitted: null
 links:
 - url: https://www.erdosproblems.com/forum/thread/1019

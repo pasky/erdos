@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2003-01-07
 submitted: null
 links:
 - url: https://doi.org/10.1515/crll.2003.055

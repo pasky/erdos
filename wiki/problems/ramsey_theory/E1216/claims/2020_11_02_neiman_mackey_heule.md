@@ -14,6 +14,7 @@ claim: disproved
 scope: full
 evidence:
 - refereed
+published: 2020-11-02
 submitted: null
 links:
 - url: https://arxiv.org/abs/2011.00683

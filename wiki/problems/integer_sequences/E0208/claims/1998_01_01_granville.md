@@ -13,6 +13,7 @@ claim: proved
 scope: conditional
 evidence:
 - refereed
+published: 1998
 submitted: null
 links:
 - url: https://doi.org/10.1155/S1073792898000592

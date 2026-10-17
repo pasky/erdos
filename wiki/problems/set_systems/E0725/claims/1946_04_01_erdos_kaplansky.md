@@ -14,6 +14,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 1946-04
 submitted: null
 links:
 - url: https://doi.org/10.2307/2371834

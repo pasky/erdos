@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1967
 submitted: null
 links:
 - url: http://annalesm.elte.hu/annales10-1967/Annales_1967_T-X.pdf

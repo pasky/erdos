@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: disproved
 scope: conditional
+published: 2006-08-03
 submitted: null
 links:
 - url: https://doi.org/10.1090/crmp/043/12

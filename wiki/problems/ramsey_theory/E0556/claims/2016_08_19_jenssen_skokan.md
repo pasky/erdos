@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2016-08-19
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.aim.2020.107444

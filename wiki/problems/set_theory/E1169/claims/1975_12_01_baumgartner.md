@@ -13,6 +13,7 @@ claim: not_disprovable
 scope: partial
 evidence:
 - refereed
+published: 1975-12
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02757991

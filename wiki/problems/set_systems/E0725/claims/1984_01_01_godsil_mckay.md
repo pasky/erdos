@@ -14,6 +14,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 1984-01
 submitted: null
 links:
 - url: https://doi.org/10.1016/0095-8956(90)90128-M

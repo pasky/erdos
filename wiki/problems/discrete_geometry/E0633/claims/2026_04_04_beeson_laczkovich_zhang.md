@@ -14,6 +14,7 @@ claim: answered
 scope: full
 evidence:
 - reviewed
+published: 2026-04-04
 submitted: null
 links:
 - url: https://arxiv.org/abs/2604.03609v1

@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1986-03
 submitted: null
 links:
 - url: https://doi.org/10.2307/1971274

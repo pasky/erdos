@@ -13,6 +13,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2021-10-03
 submitted: null
 links:
 - url: https://doi.org/10.1002/mana.202000334

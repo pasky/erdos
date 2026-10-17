@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: disproved
 scope: partial
+published: 2026-07-28
 submitted: null
 links:
 - url: https://arxiv.org/abs/2607.25628

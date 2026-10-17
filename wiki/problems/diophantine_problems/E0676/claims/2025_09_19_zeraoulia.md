@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: conditional
+published: 2025-09-19
 submitted: null
 links:
 - url: https://doi.org/10.13140/RG.2.2.14599.05283

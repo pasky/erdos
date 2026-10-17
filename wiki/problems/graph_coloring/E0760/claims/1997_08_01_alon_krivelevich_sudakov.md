@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1997-08
 submitted: null
 links:
 - url: "https://doi.org/10.1002/(SICI)1097-0118(199708)25:4<295::AID-JGT7>3.0.CO;2-F"

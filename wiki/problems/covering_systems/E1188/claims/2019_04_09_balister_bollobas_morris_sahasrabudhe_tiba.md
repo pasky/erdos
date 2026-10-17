@@ -17,6 +17,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2019-04-09
 submitted: null
 links:
 - url: https://doi.org/10.4171/JEMS/1357

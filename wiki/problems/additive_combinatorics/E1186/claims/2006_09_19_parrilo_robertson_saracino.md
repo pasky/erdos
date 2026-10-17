@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2006-09-19
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.jcta.2007.03.006

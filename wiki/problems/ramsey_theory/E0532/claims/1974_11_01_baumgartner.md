@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 1974-11
 submitted: null
 links:
 - url: https://doi.org/10.1016/0097-3165(74)90103-4

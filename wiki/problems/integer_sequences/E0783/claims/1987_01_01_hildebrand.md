@@ -14,6 +14,7 @@ scope: partial
 evidence:
 - reviewed
 - refereed
+published: 1987
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-48-3-209-260

@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1966
 submitted: null
 links:
 - url: https://users.renyi.hu/~p_erdos/1966-06.pdf

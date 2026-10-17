@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1974-11
 submitted: null
 links:
 - url: https://doi.org/10.1112/jlms/s2-9.1.16

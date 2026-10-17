@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2020-07-07
 submitted: null
 links:
 - url: https://arxiv.org/abs/2007.03528

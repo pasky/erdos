@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2022-04-03
 submitted: null
 links:
 - url: https://doi.org/10.4171/rmi/1422

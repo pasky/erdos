@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1961
 submitted: null
 links:
 - url: https://doi.org/10.1307/mmj/1028998561

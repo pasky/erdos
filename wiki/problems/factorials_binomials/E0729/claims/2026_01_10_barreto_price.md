@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2026-01-10
 submitted: 2026-01-08
 links:
 - url: https://www.erdosproblems.com/forum/thread/729#post-2856

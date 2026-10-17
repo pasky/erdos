@@ -12,6 +12,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2022-11-05
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.disc.2024.114183

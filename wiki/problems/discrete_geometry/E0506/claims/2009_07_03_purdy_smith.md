@@ -14,6 +14,7 @@ claim: decidable
 scope: partial
 evidence:
 - refereed
+published: 2009-07-03
 submitted: null
 links:
 - url: https://doi.org/10.1007/s00454-010-9270-3

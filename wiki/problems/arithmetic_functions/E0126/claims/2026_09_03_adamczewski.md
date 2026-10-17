@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - formalized
+published: 2026-09-03
 submitted: 2026-09-03
 links:
 - url: https://www.erdosproblems.com/forum/thread/126/proof-claims#proof-claim-244

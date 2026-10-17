@@ -17,6 +17,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2001-07-26
 submitted: null
 links:
 - url: https://doi.org/10.4007/annals.2004.160.433

@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2018-11-16
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.jctb.2020.12.003

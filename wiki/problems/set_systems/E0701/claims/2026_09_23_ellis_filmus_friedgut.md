@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2026-09-23
 submitted: null
 links:
 - url: https://arxiv.org/abs/2609.28404

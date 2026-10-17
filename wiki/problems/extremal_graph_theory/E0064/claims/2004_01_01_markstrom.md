@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2004
 submitted: null
 links:
 - url: https://zbmath.org/?q=an%3A1063.05073

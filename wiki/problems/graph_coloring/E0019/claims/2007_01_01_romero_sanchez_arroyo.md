@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2007
 submitted: null
 links:
 - url: https://zbmath.org/5844099

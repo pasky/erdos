@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-08-01
 submitted: 2026-08-01
 links:
 - url: https://gist.github.com/flound1129/e986a2c564c3851b5e8203afd875d150/f72a1eba454efcc1674dfe69de335151c2a7eaa4#file-erdos-554-research-report-md

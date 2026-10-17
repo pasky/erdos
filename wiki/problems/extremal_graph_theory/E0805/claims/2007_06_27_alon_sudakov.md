@@ -14,6 +14,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2007-06-27
 submitted: null
 links:
 - url: https://arxiv.org/abs/0706.4099

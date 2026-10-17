@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-08-06
 submitted: 2026-08-07
 links:
 - url: https://www.overleaf.com/read/zvsjrqpkvddk#c3cceb

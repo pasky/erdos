@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2025-10-22
 submitted: null
 links:
 - url: https://arxiv.org/abs/2510.19804

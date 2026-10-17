@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1997-02
 submitted: null
 links:
 - url: https://doi.org/10.1006/eujc.1995.0092

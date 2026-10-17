@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: disproved
 scope: full
+published: 2026-07-15
 submitted: 2026-07-15
 links:
 - url: https://www.overleaf.com/read/xgdgfnprpqyq#1507b9

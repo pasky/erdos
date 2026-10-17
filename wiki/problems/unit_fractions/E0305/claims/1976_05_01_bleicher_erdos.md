@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1976-05
 submitted: null
 links:
 - url: https://doi.org/10.1016/0022-314X(76)90098-6

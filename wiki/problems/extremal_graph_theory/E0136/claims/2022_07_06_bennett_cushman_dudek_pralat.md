@@ -17,6 +17,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2022-07-06
 submitted: null
 links:
 - url: https://arxiv.org/abs/2207.02920v1

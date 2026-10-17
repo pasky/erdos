@@ -14,6 +14,7 @@ settles:
 - q1
 evidence:
 - refereed
+published: 1984-03
 submitted: null
 links:
 - url: https://doi.org/10.2307/2274106

@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2015-05-19
 submitted: null
 links:
 - url: https://arxiv.org/abs/1505.05170

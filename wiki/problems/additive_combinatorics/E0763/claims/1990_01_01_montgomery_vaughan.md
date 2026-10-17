@@ -14,6 +14,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 1990
 submitted: null
 links:
 - url: https://doi.org/10.1017/CBO9780511983917.025

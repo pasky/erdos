@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2025-08-29
 submitted: null
 links:
 - url: https://arxiv.org/abs/2509.00128v1

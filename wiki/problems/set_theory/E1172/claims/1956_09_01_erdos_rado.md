@@ -15,6 +15,7 @@ scope: partial
 settles: [first_relation]
 evidence:
 - refereed
+published: 1956-09
 submitted: null
 links:
 - url: https://doi.org/10.1090/S0002-9904-1956-10036-0

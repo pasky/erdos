@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1955
 submitted: null
 links:
 - url: https://doi.org/10.1112/jlms/s1-30.1.11

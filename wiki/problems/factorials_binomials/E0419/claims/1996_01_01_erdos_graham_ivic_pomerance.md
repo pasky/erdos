@@ -16,6 +16,7 @@ claim: answered
 scope: full
 evidence:
 - reviewed
+published: 1996
 submitted: null
 links:
 - url: https://doi.org/10.1007/978-1-4612-4086-0_19

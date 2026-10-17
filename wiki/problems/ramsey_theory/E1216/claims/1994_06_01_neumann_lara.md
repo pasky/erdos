@@ -12,6 +12,7 @@ claim: disproved
 scope: full
 evidence:
 - refereed
+published: 1994-06
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02986686

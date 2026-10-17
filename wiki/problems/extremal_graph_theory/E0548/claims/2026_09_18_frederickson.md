@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2026-09-18
 submitted: null
 links:
 - url: https://arxiv.org/abs/2609.21159v1

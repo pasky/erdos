@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - reviewed
+published: 2016-08-14
 submitted: null
 links:
 - url: https://arxiv.org/abs/1608.04153

@@ -13,6 +13,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2017-09-04
 submitted: null
 links:
 - url: https://doi.org/10.4007/annals.2020.191.2.2

@@ -13,6 +13,7 @@ claim: disproved
 scope: partial
 evidence:
 - reviewed
+published: 1984
 submitted: null
 links:
 - url: https://www.erdosproblems.com/133

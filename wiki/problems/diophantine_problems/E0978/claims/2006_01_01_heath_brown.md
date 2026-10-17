@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2006
 submitted: null
 links:
 - url: https://doi.org/10.1007/978-3-540-36364-4_2

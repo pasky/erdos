@@ -14,6 +14,7 @@ authors:
 status: claimed
 claim: proved
 scope: conditional
+published: 1990
 submitted: null
 links:
 - url: https://doi.org/10.1007/978-1-4612-3464-7_13

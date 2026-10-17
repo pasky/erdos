@@ -14,6 +14,7 @@ scope: partial
 evidence:
 - reviewed
 - refereed
+published: 1991-02
 submitted: null
 links:
 - url: https://doi.org/10.1016/0012-365X(91)90135-O

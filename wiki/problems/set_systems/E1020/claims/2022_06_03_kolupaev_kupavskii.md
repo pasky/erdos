@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2022-06-03
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.disc.2022.113304

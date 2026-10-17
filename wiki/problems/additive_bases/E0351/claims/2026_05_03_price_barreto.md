@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2026-05-03
 submitted: null
 links:
 - url: https://www.overleaf.com/read/gdmnffbshxsq

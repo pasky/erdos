@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2026-01-21
 submitted: null
 links:
 - url: https://github.com/ebarschkis/ErdosProblem/blob/f0d32843713c47039be41738959c781bfa905bb6/Problem347/347.pdf

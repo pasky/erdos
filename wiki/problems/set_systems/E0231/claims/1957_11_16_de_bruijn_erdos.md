@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: disproved
 scope: full
+published: 1957-11-16
 submitted: null
 links:
 - url: https://doi.org/10.1307/mmj/1028997963

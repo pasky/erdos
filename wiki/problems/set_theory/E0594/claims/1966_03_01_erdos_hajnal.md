@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1966-03
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02020444

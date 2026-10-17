@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2020-07-07
 submitted: null
 links:
 - url: https://arxiv.org/abs/2007.03667

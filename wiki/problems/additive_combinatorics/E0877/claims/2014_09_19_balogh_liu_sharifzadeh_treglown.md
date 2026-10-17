@@ -17,6 +17,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2014-09-19
 submitted: null
 links:
 - url: https://doi.org/10.1090/S0002-9939-2015-12615-9

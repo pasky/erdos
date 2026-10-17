@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-07-18
 submitted: 2026-07-18
 links:
 - url: https://www.overleaf.com/read/smhxdxnrmkbs#0eb184

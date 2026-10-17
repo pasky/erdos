@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: answered
 scope: partial
+published: 1980-08
 submitted: null
 links:
 - url: https://doi.org/10.1016/0022-314X(80)90032-3

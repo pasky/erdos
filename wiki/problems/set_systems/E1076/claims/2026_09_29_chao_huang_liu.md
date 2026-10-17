@@ -13,6 +13,7 @@ authors:
 status: rejected
 claim: disproved
 scope: full
+published: 2026-09-29
 submitted: null
 links:
 - url: https://arxiv.org/abs/2609.38115v1

@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2026-07-30
 submitted: 2026-07-31
 links:
 - url: https://arxiv.org/abs/2607.28387

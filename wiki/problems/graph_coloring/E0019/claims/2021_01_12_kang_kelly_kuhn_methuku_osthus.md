@@ -17,6 +17,7 @@ claim: decidable
 scope: partial
 evidence:
 - refereed
+published: 2021-01-12
 submitted: null
 links:
 - url: https://doi.org/10.4007/annals.2023.198.2.2

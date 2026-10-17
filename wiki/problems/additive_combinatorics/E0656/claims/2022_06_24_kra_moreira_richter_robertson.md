@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2022-06-24
 submitted: null
 links:
 - url: https://doi.org/10.1090/cams/34

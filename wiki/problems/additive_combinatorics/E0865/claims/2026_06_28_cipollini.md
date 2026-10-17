@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2026-06-28
 submitted: null
 links:
 - url: https://arxiv.org/abs/2606.29361

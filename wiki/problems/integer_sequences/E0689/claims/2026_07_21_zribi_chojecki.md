@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2026-07-21
 submitted: 2026-07-21
 links:
 - url: https://www.erdosproblems.com/forum/thread/689/proof-claims#proof-claim-103

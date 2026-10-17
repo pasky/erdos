@@ -15,6 +15,7 @@ settles:
 - exponential_growth
 evidence:
 - refereed
+published: 2000-04-30
 submitted: null
 links:
 - url: https://doi.org/10.4213/rm281

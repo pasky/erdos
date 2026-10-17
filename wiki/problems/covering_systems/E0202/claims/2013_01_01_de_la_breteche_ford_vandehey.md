@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2013
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa157-4-5

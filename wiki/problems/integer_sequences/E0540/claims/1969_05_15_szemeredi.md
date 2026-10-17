@@ -13,6 +13,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1969-05-15
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-17-3-227-229

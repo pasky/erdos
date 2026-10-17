@@ -15,6 +15,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 2026-04-25
 submitted: null
 links:
 - url: https://sourish-kumrawat.github.io/papers/Erdos_1138.pdf

@@ -16,6 +16,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1996-01-01
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-77-2-133-138

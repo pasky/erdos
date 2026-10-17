@@ -13,6 +13,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1980-03
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF01896840
