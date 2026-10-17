@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2008-01
 submitted: null
 links:
 - url: https://doi.org/10.1080/10586458.2008.10129023

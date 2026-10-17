@@ -15,6 +15,7 @@ scope: partial
 settles: [asymptotic]
 evidence:
 - refereed
+published: 1976-11
 submitted: null
 links:
 - url: https://doi.org/10.1515/crll.1976.286-287.239

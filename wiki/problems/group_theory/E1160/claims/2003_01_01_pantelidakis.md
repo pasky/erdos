@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2003
 submitted: null
 links:
 - url: https://www.erdosproblems.com/1160

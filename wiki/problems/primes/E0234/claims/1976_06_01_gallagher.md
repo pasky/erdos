@@ -13,6 +13,7 @@ claim: proved
 scope: conditional
 evidence:
 - refereed
+published: 1976-06
 submitted: null
 links:
 - url: https://doi.org/10.1112/S0025579300016442

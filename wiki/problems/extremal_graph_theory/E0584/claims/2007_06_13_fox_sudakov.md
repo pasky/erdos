@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2007-06-13
 submitted: null
 links:
 - url: https://arxiv.org/abs/0706.1920v1

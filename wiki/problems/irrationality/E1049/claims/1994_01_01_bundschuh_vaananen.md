@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1994
 submitted: null
 links:
 - url: https://www.numdam.org/item/CM_1994__91_2_175_0/

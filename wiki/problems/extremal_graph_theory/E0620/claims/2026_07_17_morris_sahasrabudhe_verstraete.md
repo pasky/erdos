@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: answered
 scope: full
+published: 2026-07-17
 submitted: null
 links:
 - url: https://arxiv.org/abs/2607.16118

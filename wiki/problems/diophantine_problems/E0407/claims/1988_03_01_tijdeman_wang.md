@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1988-03-01
 submitted: null
 links:
 - url: https://doi.org/10.2140/pjm.1988.132.177

@@ -14,6 +14,7 @@ status: claimed
 claim: proved
 scope: partial
 settles: [log_density]
+published: 2025-02-13
 submitted: null
 links:
 - url: https://arxiv.org/abs/2502.09539

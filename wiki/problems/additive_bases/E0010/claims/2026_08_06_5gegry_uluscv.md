@@ -12,6 +12,7 @@ claim: disproved
 scope: partial
 evidence:
 - formalized
+published: 2026-08-06
 submitted: null
 links:
 - url: https://conjectures.io/results/244ff2d0-399d-4e37-a307-4ff6f3cb3493

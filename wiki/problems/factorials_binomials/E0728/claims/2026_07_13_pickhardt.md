@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2026-07-13
 submitted: 2026-07-13
 links:
 - url: https://omniscienceproject.com/papers/a-deterministic-resolution-of-erdos-problem-728-via-small-prime-nQHYqk7S

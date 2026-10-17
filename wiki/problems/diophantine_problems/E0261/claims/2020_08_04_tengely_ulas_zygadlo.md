@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2020-08-04
 submitted: null
 links:
 - url: https://arxiv.org/abs/2008.01501

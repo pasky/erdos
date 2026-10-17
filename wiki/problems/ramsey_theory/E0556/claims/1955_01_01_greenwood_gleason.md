@@ -14,6 +14,7 @@ claim: disproved
 scope: full
 evidence:
 - refereed
+published: 1955
 submitted: null
 links:
 - url: https://doi.org/10.4153/CJM-1955-001-4

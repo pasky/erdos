@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 settles:
 - quartic
+published: 2026-08-11
 submitted: null
 links:
 - url: https://arxiv.org/abs/2608.10335v1

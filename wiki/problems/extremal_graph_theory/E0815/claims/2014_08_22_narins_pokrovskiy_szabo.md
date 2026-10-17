@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2014-08-22
 submitted: null
 links:
 - url: https://arxiv.org/abs/1408.5289

@@ -11,6 +11,7 @@ status: claimed
 claim: disproved
 scope: partial
 settles: [one_half]
+published: 2026-07-30
 submitted: 2026-07-30
 links:
 - url: https://github.com/donalddellapietra/erdos-301-proof/blob/789c6f045dbc81da3811031247d186a7128dafce/erdos-301-positive-density-della-pietra.pdf

@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: not_disprovable
 scope: partial
+published: 1989
 submitted: null
 links:
 - url: https://doi.org/10.1007/BFb0097328

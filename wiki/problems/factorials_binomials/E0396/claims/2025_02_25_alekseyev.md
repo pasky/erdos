@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2025-02-25
 submitted: null
 links:
 - url: https://oeis.org/A375077

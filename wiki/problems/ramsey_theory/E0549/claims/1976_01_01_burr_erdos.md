@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1976
 submitted: null
 links:
 - url: https://users.renyi.hu/~p_erdos/1976-13.pdf

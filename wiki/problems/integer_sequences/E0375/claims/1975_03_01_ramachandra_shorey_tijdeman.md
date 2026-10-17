@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1975-03
 submitted: null
 links:
 - url: https://doi.org/10.1515/crll.1975.273.109

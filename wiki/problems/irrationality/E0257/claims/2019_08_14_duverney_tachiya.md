@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2019-08-14
 submitted: null
 links:
 - url: https://doi.org/10.1515/forum-2018-0299

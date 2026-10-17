@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 1986-12
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF01788087

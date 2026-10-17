@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1989
 submitted: null
 links:
 - url: https://doi.org/10.1007/978-3-642-61324-1_4

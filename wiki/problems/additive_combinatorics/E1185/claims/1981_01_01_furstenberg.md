@@ -13,6 +13,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 1981
 submitted: null
 links:
 - url: https://doi.org/10.1515/9781400855162

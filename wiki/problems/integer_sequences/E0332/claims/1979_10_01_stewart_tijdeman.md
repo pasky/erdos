@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1979-10
 submitted: null
 links:
 - url: https://doi.org/10.4153/CJM-1979-085-6

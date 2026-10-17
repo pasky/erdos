@@ -13,6 +13,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2019-06-11
 submitted: null
 links:
 - url: https://doi.org/10.4230/LIPIcs.SoCG.2019.30

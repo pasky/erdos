@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2019-02-21
 submitted: null
 links:
 - url: https://arxiv.org/abs/1902.08177

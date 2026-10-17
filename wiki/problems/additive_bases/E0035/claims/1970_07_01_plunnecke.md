@@ -13,6 +13,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1970-07
 submitted: null
 links:
 - url: https://doi.org/10.1515/crll.1970.243.171

@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1967
 submitted: null
 links:
 - url: https://users.renyi.hu/~p_erdos/1967-07.pdf

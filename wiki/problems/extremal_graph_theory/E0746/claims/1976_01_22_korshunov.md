@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 1976-01-22
 submitted: null
 links:
 - url: https://www.mathnet.ru/eng/dan40104

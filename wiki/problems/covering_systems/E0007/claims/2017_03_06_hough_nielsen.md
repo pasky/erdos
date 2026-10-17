@@ -13,6 +13,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2017-03-06
 submitted: null
 links:
 - url: https://doi.org/10.1215/00127094-2019-0058

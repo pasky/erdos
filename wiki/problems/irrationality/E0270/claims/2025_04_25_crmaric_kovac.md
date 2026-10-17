@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2025-04-25
 submitted: null
 links:
 - url: https://doi.org/10.4064/cm9628-5-2025

@@ -12,6 +12,7 @@ claim: disproved
 scope: partial
 evidence:
 - reviewed
+published: 2024-03-25
 submitted: null
 links:
 - url: https://arxiv.org/abs/2403.17041

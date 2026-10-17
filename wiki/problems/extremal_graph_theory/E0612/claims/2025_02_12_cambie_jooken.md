@@ -13,6 +13,7 @@ status: claimed
 claim: disproved
 scope: partial
 settles: [i]
+published: 2025-02-12
 submitted: null
 links:
 - url: https://arxiv.org/abs/2502.08626v1

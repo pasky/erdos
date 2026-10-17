@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2009-01-25
 submitted: null
 links:
 - url: https://doi.org/10.1007/s11856-011-0016-6

@@ -16,6 +16,7 @@ scope: partial
 evidence:
 - reviewed
 - refereed
+published: 2008-03-24
 submitted: null
 links:
 - url: https://doi.org/10.1002/rsa.20224

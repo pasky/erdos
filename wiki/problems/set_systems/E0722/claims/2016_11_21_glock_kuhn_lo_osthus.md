@@ -16,6 +16,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2016-11-21
 submitted: null
 links:
 - url: https://doi.org/10.1090/memo/1406

@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-08-20
 submitted: 2026-08-20
 links:
 - url: https://github.com/DottedCalculator/ai-math/blob/9ed1cea5651ee0b32cd6083aea42d75da6b30084/Erdos_854_GPT_5.6_Sol.pdf

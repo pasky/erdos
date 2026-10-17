@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2020-07-06
 submitted: null
 links:
 - url: https://doi.org/10.4208/aam.oa-2022-0008

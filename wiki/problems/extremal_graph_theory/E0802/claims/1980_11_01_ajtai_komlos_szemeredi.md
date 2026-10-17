@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1980-11
 submitted: null
 links:
 - url: https://doi.org/10.1016/0097-3165(80)90030-8

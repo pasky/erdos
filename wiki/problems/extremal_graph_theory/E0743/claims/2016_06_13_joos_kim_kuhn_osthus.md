@@ -16,6 +16,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2016-06-13
 submitted: null
 links:
 - url: https://doi.org/10.4171/JEMS/909

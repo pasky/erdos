@@ -15,6 +15,7 @@ scope: partial
 evidence:
 - reviewed
 - refereed
+published: 1963-09
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF01895727

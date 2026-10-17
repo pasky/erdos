@@ -16,6 +16,7 @@ authors:
 status: rejected
 claim: disproved
 scope: full
+published: 2026-10-02
 submitted: null
 links:
 - url: https://arxiv.org/abs/2610.03323v1

@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-04-30
 submitted: null
 links:
 - url: https://althofer.de/on-erdos_873-based-on-letendre.pdf

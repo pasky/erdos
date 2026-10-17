@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1992
 submitted: null
 links:
 - url: https://zbmath.org/?q=an:0848.05049

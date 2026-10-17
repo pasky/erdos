@@ -13,6 +13,7 @@ claim: not_disprovable
 scope: partial
 evidence:
 - refereed
+published: 1987-03
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF01849028

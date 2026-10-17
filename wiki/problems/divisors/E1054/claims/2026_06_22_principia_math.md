@@ -11,6 +11,7 @@ status: claimed
 claim: proved
 scope: partial
 settles: [iii]
+published: 2026-06-22
 submitted: 2026-06-22
 links:
 - url: https://www.overleaf.com/read/gfvryqpshntx

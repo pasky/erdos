@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1970-11
 submitted: null
 links:
 - url: https://doi.org/10.1112/plms/s3-21.3.540

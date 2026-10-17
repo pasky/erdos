@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2012-02-19
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.jcta.2014.01.003

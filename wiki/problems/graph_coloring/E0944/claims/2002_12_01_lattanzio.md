@@ -12,6 +12,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2002-12
 submitted: null
 links:
 - url: https://doi.org/10.1016/S0012-365X(02)00394-1

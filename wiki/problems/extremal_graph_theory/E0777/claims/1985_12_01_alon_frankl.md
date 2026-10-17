@@ -18,6 +18,7 @@ settles:
 evidence:
 - reviewed
 - refereed
+published: 1985-12
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02582924

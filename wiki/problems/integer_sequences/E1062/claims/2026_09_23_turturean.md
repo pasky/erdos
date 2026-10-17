@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: answered
 scope: full
+published: 2026-09-23
 submitted: null
 links:
 - url: https://www.erdosproblems.com/forum/thread/1062

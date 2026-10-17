@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: answered
 scope: partial
+published: 1978
 submitted: null
 links:
 - url: https://users.renyi.hu/~p_erdos/1978-36.pdf

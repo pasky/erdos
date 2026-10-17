@@ -13,6 +13,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 1947-04
 submitted: null
 links:
 - url: https://doi.org/10.2307/2304710

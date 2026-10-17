@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 1981
 submitted: null
 links:
 - url: https://www.erdosproblems.com/1010

@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1959-01-17
 submitted: null
 links:
 - url: https://acta.bibl.u-szeged.hu/13886/

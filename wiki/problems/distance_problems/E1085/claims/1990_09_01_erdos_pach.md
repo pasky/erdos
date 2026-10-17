@@ -15,6 +15,7 @@ settles:
 - odd_dimensions
 evidence:
 - refereed
+published: 1990-09-01
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02122780

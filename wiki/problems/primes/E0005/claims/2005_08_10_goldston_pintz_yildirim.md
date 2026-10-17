@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2005-08-10
 submitted: null
 links:
 - url: https://arxiv.org/abs/math/0508185

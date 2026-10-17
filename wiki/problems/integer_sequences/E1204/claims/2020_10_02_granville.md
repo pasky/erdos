@@ -13,6 +13,7 @@ claim: disproved
 scope: conditional
 evidence:
 - refereed
+published: 2020-10-02
 submitted: null
 links:
 - url: https://arxiv.org/abs/2010.01211v1

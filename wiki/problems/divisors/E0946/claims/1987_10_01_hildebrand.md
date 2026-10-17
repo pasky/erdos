@@ -12,6 +12,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 1987-10-01
 submitted: null
 links:
 - url: https://doi.org/10.2140/pjm.1987.129.307

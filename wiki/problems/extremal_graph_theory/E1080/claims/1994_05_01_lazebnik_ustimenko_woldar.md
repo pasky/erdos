@@ -15,6 +15,7 @@ claim: disproved
 scope: full
 evidence:
 - refereed
+published: 1994-05-01
 submitted: null
 links:
 - url: https://doi.org/10.1006/jctb.1994.1036

@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2020-10-29
 submitted: null
 links:
 - url: https://arxiv.org/abs/2010.15802

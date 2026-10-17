@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2004-05-05
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.ejc.2004.01.007

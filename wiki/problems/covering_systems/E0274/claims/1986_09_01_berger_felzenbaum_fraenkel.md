@@ -15,6 +15,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 1986-09-01
 submitted: null
 links:
 - url: https://doi.org/10.4153/CMB-1986-050-0

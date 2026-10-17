@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2019-08-26
 submitted: null
 links:
 - url: https://doi.org/10.1002/rsa.20984

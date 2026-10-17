@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2012-08-16
 submitted: null
 links:
 - url: https://arxiv.org/abs/1208.3276

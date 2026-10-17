@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2008-09-21
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.jctb.2008.12.002

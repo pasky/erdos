@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2013-09-11
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.aim.2016.05.001

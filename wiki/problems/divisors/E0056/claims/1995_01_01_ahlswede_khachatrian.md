@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1995
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-72-1-77-100

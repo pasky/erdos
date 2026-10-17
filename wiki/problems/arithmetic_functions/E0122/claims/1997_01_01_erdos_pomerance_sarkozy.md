@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1997
 submitted: null
 links:
 - url: https://www.erdosproblems.com/122

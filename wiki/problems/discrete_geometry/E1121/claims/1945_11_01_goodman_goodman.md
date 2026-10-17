@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1945-11-01
 submitted: null
 links:
 - url: https://doi.org/10.1080/00029890.1945.11999187

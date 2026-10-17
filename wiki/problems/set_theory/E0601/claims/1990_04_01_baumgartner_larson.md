@@ -14,6 +14,7 @@ claim: disproved
 scope: conditional
 evidence:
 - refereed
+published: 1990-04
 submitted: null
 links:
 - url: https://doi.org/10.1016/0168-0072(90)90013-R

@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: conditional
+published: 2020-05-15
 submitted: null
 links:
 - url: https://arxiv.org/abs/2005.07321

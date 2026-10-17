@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: disproved
 scope: full
+published: 2026-04-24
 submitted: 2026-04-24
 links:
 - url: https://www.overleaf.com/read/gknkvvxrymfv

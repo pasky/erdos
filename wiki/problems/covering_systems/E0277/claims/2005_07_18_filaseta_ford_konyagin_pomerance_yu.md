@@ -17,6 +17,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2005-07-18
 submitted: null
 links:
 - url: https://doi.org/10.1090/S0894-0347-06-00549-2

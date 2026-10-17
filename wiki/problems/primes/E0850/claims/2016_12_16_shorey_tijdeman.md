@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: disproved
 scope: conditional
+published: 2016-12-16
 submitted: null
 links:
 - url: https://arxiv.org/abs/1612.05438v1

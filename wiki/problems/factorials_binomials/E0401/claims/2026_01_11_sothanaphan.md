@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2026-01-11
 submitted: null
 links:
 - url: https://www.erdosproblems.com/forum/thread/401

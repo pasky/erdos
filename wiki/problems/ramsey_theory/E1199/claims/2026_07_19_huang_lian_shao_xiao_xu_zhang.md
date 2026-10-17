@@ -16,6 +16,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2026-07-19
 submitted: null
 links:
 - url: https://arxiv.org/abs/2607.17333

@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1980-06-13
 submitted: null
 links:
 - url: https://doi.org/10.1016/1385-7258(80)90018-9

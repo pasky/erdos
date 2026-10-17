@@ -13,6 +13,7 @@ authors:
 status: withdrawn
 claim: proved
 scope: full
+published: 2020-01-08
 submitted: null
 links:
 - url: https://arxiv.org/abs/2001.02395v1

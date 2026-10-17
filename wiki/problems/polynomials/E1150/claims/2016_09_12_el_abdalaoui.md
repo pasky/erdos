@@ -10,6 +10,7 @@ authors:
 status: rejected
 claim: proved
 scope: full
+published: 2016-09-12
 submitted: null
 links:
 - url: https://arxiv.org/abs/1609.03435

@@ -12,6 +12,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 1985-09
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF01299269

@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: conditional
+published: 2025-12-18
 submitted: null
 links:
 - url: https://arxiv.org/abs/2512.16062

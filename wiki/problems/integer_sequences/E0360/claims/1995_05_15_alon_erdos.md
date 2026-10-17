@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1995-05-15
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-74-3-269-272

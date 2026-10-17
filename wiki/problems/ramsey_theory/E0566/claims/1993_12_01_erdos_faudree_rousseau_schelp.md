@@ -16,6 +16,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1993-12
 submitted: null
 links:
 - url: https://doi.org/10.1017/S096354830000078X

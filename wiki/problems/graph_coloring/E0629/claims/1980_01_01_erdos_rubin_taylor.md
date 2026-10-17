@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: answered
 scope: partial
+published: 1980
 submitted: null
 links:
 - url: https://users.renyi.hu/~p_erdos/1980-07.pdf

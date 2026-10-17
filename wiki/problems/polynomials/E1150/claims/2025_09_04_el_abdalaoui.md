@@ -10,6 +10,7 @@ authors:
 status: rejected
 claim: proved
 scope: full
+published: 2025-09-04
 submitted: null
 links:
 - url: https://arxiv.org/abs/2509.04212

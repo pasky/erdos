@@ -17,6 +17,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2019-01-31
 submitted: null
 links:
 - url: https://doi.org/10.2140/ant.2021.15.609

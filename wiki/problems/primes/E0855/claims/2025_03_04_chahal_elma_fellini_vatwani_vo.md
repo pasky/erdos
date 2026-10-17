@@ -17,6 +17,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2025-03-04
 submitted: null
 links:
 - url: https://arxiv.org/abs/2503.02766v1

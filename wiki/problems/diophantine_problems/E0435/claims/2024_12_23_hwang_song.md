@@ -14,6 +14,7 @@ claim: answered
 scope: full
 evidence:
 - reviewed
+published: 2024-12-23
 submitted: null
 links:
 - url: https://arxiv.org/abs/2412.17882

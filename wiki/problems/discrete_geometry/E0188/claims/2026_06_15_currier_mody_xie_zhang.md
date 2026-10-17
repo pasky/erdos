@@ -14,6 +14,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-06-15
 submitted: null
 links:
 - url: https://arxiv.org/abs/2606.17194v1

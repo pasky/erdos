@@ -17,6 +17,7 @@ evidence:
 - refereed
 settles:
 - upper_bound
+published: 1983-06-01
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02579288

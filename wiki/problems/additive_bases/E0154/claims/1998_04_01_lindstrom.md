@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1998-04
 submitted: null
 links:
 - url: https://doi.org/10.1006/jnth.1997.2217

@@ -19,6 +19,7 @@ settles:
 evidence:
 - reviewed
 - refereed
+published: 2014-11-15
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.jctb.2015.05.009

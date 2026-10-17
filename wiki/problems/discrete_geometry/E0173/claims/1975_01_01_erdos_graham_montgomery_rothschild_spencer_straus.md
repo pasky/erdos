@@ -16,6 +16,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1975
 submitted: null
 links:
 - url: https://combinatorica.hu/~p_erdos/1975-12.pdf

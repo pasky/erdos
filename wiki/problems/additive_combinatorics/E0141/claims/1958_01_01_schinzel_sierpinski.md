@@ -14,6 +14,7 @@ claim: proved
 scope: conditional
 evidence:
 - refereed
+published: 1958
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-4-3-185-208

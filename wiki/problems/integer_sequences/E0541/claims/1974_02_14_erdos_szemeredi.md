@@ -15,6 +15,7 @@ scope: partial
 evidence:
 - reviewed
 - refereed
+published: 1974-02-14
 submitted: null
 links:
 - url: https://doi.org/10.5486/pmd.1976.23.1-2.20

@@ -13,6 +13,7 @@ status: claimed
 claim: proved
 scope: partial
 settles: [limsup]
+published: 1968
 submitted: null
 links:
 - url: https://doi.org/10.1090/pspum/011/0257359

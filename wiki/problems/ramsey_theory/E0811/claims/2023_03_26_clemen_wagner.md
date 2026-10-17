@@ -13,6 +13,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2023-03-26
 submitted: null
 links:
 - url: https://doi.org/10.37236/11965

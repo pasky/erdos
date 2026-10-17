@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2004
 submitted: null
 links:
 - url: https://doi.org/10.1090/conm/342/06148

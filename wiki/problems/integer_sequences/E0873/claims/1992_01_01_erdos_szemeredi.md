@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1992
 submitted: null
 links:
 - url: https://doi.org/10.46298/hrj.1992.125

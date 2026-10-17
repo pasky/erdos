@@ -14,6 +14,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 2016-12-23
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.ffa.2016.11.012

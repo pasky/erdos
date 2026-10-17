@@ -22,7 +22,9 @@ __all__ = [
     'test_a_provisional_standing_without_claims_is_debt_until_settled',
     'test_a_claim_page_without_authors_is_debt_until_settled',
     'test_an_empty_authors_list_records_an_unknown_name',
+    'test_a_published_date_gives_only_what_is_known',
     'test_a_null_submitted_records_an_unknown_date',
+    'test_a_claim_id_names_one_claim_on_the_site',
     'test_a_link_date_gives_only_what_is_known',
     'test_an_accepted_claim_rests_only_on_accepted_pages',
     'test_a_dependence_on_a_library_result_page_is_noted_with_its_read_status',
@@ -41,6 +43,7 @@ _CLAIM = (
     'scope: full',
     'evidence:',
     '- refereed',
+    'published: 2026-01-02',
     'submitted: 2026-01-02',
     'links:',
     '- url: https://example.org/paper',
@@ -210,12 +213,55 @@ def test_a_problem_with_consistent_claims_passes(tmp_path: pathlib.Path) -> None
             'in the order reviewed, refereed, formalized',
         ),
         (_without(_CLAIM, 'evidence:', '- refereed'), _BODY, None, 'missing evidence'),
+        (_without(_CLAIM, 'published:'), _BODY, None, 'missing published'),
+        (
+            _replace(_CLAIM, 'published:', 'published: soon'),
+            _BODY,
+            None,
+            'published must be a calendar date YYYY-MM-DD, or YYYY-MM or YYYY',
+        ),
+        (
+            (*_without(_CLAIM, 'published:'), 'published: 2026-01-02'),
+            _BODY,
+            None,
+            'published must come just before submitted',
+        ),
+        (
+            _replace(_CLAIM, 'published:', 'published: 2026-01-03'),
+            _BODY,
+            None,
+            "published 2026-01-03 does not match the page name's date 2026-01-02",
+        ),
+        (
+            _replace(_CLAIM, 'published:', 'published: 2026-01'),
+            _BODY,
+            None,
+            "published 2026-01 does not match the page name's date 2026-01-02",
+        ),
         (_without(_CLAIM, 'submitted:'), _BODY, None, 'missing submitted'),
         (
             _replace(_CLAIM, 'submitted:', 'submitted: soon'),
             _BODY,
             None,
             'submitted must be a calendar date',
+        ),
+        (
+            _replace(_CLAIM, 'submitted:', 'submitted: 2026-01-02', 'claim_id: null'),
+            _BODY,
+            None,
+            'claim_id must be a nonempty string',
+        ),
+        (
+            _replace(_CLAIM, 'submitted:', 'submitted: 2026-01-02', 'claim_id: 12345'),
+            _BODY,
+            None,
+            'claim_id must be a nonempty string',
+        ),
+        (
+            (*_CLAIM, 'claim_id: 01ABC'),
+            _BODY,
+            None,
+            'claim_id must come just after submitted',
         ),
         (
             _replace(_CLAIM, 'status:', 'status: claimed'),
@@ -345,6 +391,9 @@ def test_the_standing_is_derived_from_the_full_claims(
         frontmatter = _replace(_CLAIM, 'status:', f'status: {status}')
         frontmatter = _replace(frontmatter, 'claim:', f'claim: {claim}')
         frontmatter = _replace(frontmatter, 'scope:', f'scope: {scope}')
+        frontmatter = _replace(
+            frontmatter, 'published:', f'published: 2026-01-0{index + 1}'
+        )
         body = (
             _BODY
             if scope != 'partial'
@@ -557,7 +606,10 @@ def test_parts_and_settles_are_checked(tmp_path: pathlib.Path) -> None:
         '2026_01_03_other.md',
         'alpha/p1',
         frontmatter=_replace(
-            _CLAIM, 'scope:', 'scope: partial', 'settles: [upper, middle]'
+            _replace(_CLAIM, 'published:', 'published: 2026-01-03'),
+            'scope:',
+            'scope: partial',
+            'settles: [upper, middle]',
         ),
         body=covers,
     )
@@ -565,14 +617,24 @@ def test_parts_and_settles_are_checked(tmp_path: pathlib.Path) -> None:
         tmp_path,
         '2026_01_04_third.md',
         'alpha/p1',
-        frontmatter=_replace(_CLAIM, 'scope:', 'scope: full', 'settles: [upper]'),
+        frontmatter=_replace(
+            _replace(_CLAIM, 'published:', 'published: 2026-01-04'),
+            'scope:',
+            'scope: full',
+            'settles: [upper]',
+        ),
     )
     _claim(
         tmp_path,
         '2026_01_05_fourth.md',
         'alpha/p1',
         frontmatter=_replace(
-            _replace(_CLAIM, 'scope:', 'scope: partial', 'settles: [upper]'),
+            _replace(
+                _replace(_CLAIM, 'published:', 'published: 2026-01-05'),
+                'scope:',
+                'scope: partial',
+                'settles: [upper]',
+            ),
             'claim:',
             'claim: decidable',
         ),
@@ -649,12 +711,55 @@ def test_an_empty_authors_list_records_an_unknown_name(tmp_path: pathlib.Path) -
     assert notes[0].endswith('; 0 claim page(s) without authors')
 
 
+@pytest.mark.parametrize(
+    ('name', 'date'),
+    [
+        ('1936_04_17_claimant.md', '1936-04-17'),
+        ('1936_04_01_claimant.md', '1936-04'),
+        ('1936_01_01_claimant.md', '1936'),
+    ],
+)
+def test_a_published_date_gives_only_what_is_known(
+    tmp_path: pathlib.Path, name: str, date: str
+) -> None:
+    """A claim known only to its month or year is dated by just that; its name fills the rest with 01."""
+    _problem(tmp_path)
+    _claim(
+        tmp_path, name, frontmatter=_replace(_CLAIM, 'published:', f'published: {date}')
+    )
+    findings, _ = lint_problem_claims(tmp_path, settled=True)
+    assert findings == []
+
+
 def test_a_null_submitted_records_an_unknown_date(tmp_path: pathlib.Path) -> None:
     """A claim never submitted to the catalog's site or registry carries submitted: null."""
     _problem(tmp_path)
     _claim(tmp_path, frontmatter=_replace(_CLAIM, 'submitted:', 'submitted: null'))
     findings, _ = lint_problem_claims(tmp_path, settled=True)
     assert findings == []
+
+
+def test_a_claim_id_names_one_claim_on_the_site(tmp_path: pathlib.Path) -> None:
+    """A claim id is optional, and no two claim pages carry the same one, selected or not."""
+    with_id = _replace(
+        _CLAIM, 'submitted:', 'submitted: 2026-01-02', 'claim_id: 01M4FCNEMX'
+    )
+    for folder in ('alpha/p1', 'alpha/p2'):
+        _problem(tmp_path, folder)
+        _claim(tmp_path, folder=folder, frontmatter=with_id)
+    _problem(tmp_path, 'alpha/p3')
+    _claim(tmp_path, folder='alpha/p3')
+    one = 'wiki/problems/alpha/p1/claims/2026_01_02_claimant.md'
+    two = 'wiki/problems/alpha/p2/claims/2026_01_02_claimant.md'
+    findings, _ = lint_problem_claims(tmp_path)
+    assert findings == [
+        f"{one}: claim_id '01M4FCNEMX' is also on {two}",
+        f"{two}: claim_id '01M4FCNEMX' is also on {one}",
+    ]
+    findings, _ = lint_problem_claims(tmp_path, select=('p1', 'p3'))
+    assert findings == [f"{one}: claim_id '01M4FCNEMX' is also on {two}"]
+    _claim(tmp_path, folder='alpha/p2')
+    assert lint_problem_claims(tmp_path)[0] == []
 
 
 @pytest.mark.parametrize('date', ['1936-04', '1936'])
@@ -678,7 +783,13 @@ def test_an_accepted_claim_rests_only_on_accepted_pages(tmp_path: pathlib.Path) 
         '2026_01_01_other.md',
         'alpha/p2',
         frontmatter=_without(
-            _replace(_CLAIM, 'status:', 'status: claimed'), 'evidence:', '- refereed'
+            _replace(
+                _replace(_CLAIM, 'published:', 'published: 2026-01-01'),
+                'status:',
+                'status: claimed',
+            ),
+            'evidence:',
+            '- refereed',
         ),
         body=_replace(_BODY, '**Depends on.**', '**Depends on.** Nothing.'),
     )

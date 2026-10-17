@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 settles:
 - odd_cycles
+published: 2026-07-27
 submitted: 2026-07-27
 links:
 - url: https://www.erdosproblems.com/forum/thread/883/proof-claims#proof-claim-156

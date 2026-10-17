@@ -11,6 +11,7 @@ authors:
 status: withdrawn
 claim: disproved
 scope: full
+published: 2026-07-25
 submitted: 2026-07-25
 links:
 - url: https://zenodo.org/records/21560330

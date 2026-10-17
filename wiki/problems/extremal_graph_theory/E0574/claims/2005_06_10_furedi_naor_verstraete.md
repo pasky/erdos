@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2005-06-10
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.aim.2005.04.011

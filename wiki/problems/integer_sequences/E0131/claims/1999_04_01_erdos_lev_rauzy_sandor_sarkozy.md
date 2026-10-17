@@ -17,6 +17,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1999-04-01
 submitted: null
 links:
 - url: https://doi.org/10.1016/S0012-365X(98)00385-9

@@ -16,6 +16,7 @@ settles: [first_question]
 evidence:
 - reviewed
 - refereed
+published: 1965
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-11-2-205-208

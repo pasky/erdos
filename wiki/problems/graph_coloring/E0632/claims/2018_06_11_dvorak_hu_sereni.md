@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2018-06-11
 submitted: null
 links:
 - url: https://doi.org/10.19086/aic.10811

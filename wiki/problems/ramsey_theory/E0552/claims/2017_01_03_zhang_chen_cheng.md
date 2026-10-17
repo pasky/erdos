@@ -14,6 +14,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 2017-01-03
 submitted: null
 links:
 - url: https://doi.org/10.1016/j.disc.2016.12.005

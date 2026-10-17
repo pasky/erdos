@@ -14,6 +14,7 @@ claim: proved
 scope: conditional
 evidence:
 - refereed
+published: 1990-01
 submitted: null
 links:
 - url: https://doi.org/10.1090/s0025-5718-1990-0990598-9

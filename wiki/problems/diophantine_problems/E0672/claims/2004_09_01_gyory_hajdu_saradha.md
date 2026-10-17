@@ -14,6 +14,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2004-09-01
 submitted: null
 links:
 - url: https://doi.org/10.4153/CMB-2004-037-1

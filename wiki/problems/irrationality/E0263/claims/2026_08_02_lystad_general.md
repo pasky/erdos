@@ -12,6 +12,7 @@ authors:
 status: rejected
 claim: proved
 scope: full
+published: 2026-08-02
 submitted: 2026-08-02
 links:
 - url: https://www.erdosproblems.com/forum/thread/263/proof-claims#proof-claim-181

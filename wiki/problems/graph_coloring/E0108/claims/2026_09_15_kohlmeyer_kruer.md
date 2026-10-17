@@ -14,6 +14,7 @@ claim: disproved
 scope: full
 evidence:
 - formalized
+published: 2026-09-15
 submitted: 2026-09-27
 links:
 - url: https://conjectures.io/results/8c083793-9c3c-4960-8a23-869e54fcb584/solution

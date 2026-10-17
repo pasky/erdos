@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-08-24
 submitted: 2026-08-24
 links:
 - url: https://www.researchgate.net/publication/412318018_On_a_problem_on_d-complete_sequences

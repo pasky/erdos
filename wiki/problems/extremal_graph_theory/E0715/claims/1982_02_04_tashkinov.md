@@ -13,6 +13,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1982-02-04
 submitted: null
 links:
 - url: https://www.mathnet.ru/eng/dan45417

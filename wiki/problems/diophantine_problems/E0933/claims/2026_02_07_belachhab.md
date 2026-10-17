@@ -10,6 +10,7 @@ authors:
 status: rejected
 claim: disproved
 scope: full
+published: 2026-02-07
 submitted: null
 links:
 - url: https://zenodo.org/records/18518162

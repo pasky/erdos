@@ -14,6 +14,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1989-12
 submitted: null
 links:
 - url: https://doi.org/10.1111/j.1749-6632.1989.tb16393.x

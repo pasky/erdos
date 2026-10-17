@@ -18,6 +18,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2014-12-16
 submitted: null
 links:
 - url: https://arxiv.org/abs/1412.5029

@@ -12,6 +12,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2001-05
 submitted: null
 links:
 - url: https://doi.org/10.1112/plms/82.3.554

@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1954
 submitted: null
 links:
 - url: https://www.impan.pl/get/doi/10.4064/cm-3-1-50-57

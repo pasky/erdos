@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2017-05-28
 submitted: null
 links:
 - url: https://arxiv.org/abs/1705.09979

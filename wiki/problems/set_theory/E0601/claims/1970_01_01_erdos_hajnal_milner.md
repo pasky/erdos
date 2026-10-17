@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - reviewed
+published: 1970
 submitted: null
 links:
 - url: https://users.renyi.hu/~p_erdos/1970-19.pdf

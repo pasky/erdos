@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 1999-07-02
 submitted: null
 links:
 - url: https://doi.org/10.4064/cm-86-1-37-41

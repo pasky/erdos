@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1982-08
 submitted: null
 links:
 - url: https://users.renyi.hu/~p_erdos/1980-40.pdf

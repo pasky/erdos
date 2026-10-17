@@ -14,6 +14,7 @@ scope: partial
 settles: [liminf]
 evidence:
 - refereed
+published: 1993-07
 submitted: null
 links:
 - url: https://doi.org/10.1006/jnth.1993.1049

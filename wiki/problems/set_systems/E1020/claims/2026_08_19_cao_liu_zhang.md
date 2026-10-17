@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-08-19
 submitted: null
 links:
 - url: https://arxiv.org/abs/2608.19118

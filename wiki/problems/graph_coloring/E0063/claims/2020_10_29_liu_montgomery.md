@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2020-10-29
 submitted: null
 links:
 - url: https://doi.org/10.1090/jams/1018

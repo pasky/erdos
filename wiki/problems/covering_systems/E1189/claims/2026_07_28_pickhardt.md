@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: answered
 scope: full
+published: 2026-07-28
 submitted: 2026-07-28
 links:
 - url: https://omniscienceproject.com/papers/irreducible-covering-sets-a-solution-of-erds-problem-1189-KvXvJjCl

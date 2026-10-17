@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - reviewed
+published: 1999
 submitted: null
 links:
 - url: https://www.erdosproblems.com/570

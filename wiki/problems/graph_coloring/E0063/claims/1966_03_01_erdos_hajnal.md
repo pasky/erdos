@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1966-03
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02020444

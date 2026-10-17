@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: full
+published: 2026-09-08
 submitted: 2026-09-08
 links:
 - url: https://github.com/N0zoM1z0/erdos-81/blob/cbde8a0a0563372b23b1b39a44180d2c0fb02f44/manuscript/main.pdf

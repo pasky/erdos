@@ -15,6 +15,7 @@ claim: answered
 scope: partial
 evidence:
 - refereed
+published: 1975
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-27-1-37-50

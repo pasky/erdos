@@ -19,6 +19,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2024-04-24
 submitted: null
 links:
 - url: https://discreteanalysisjournal.com/article/154329-a-question-of-erdos-and-graham-on-egyptian-fractions

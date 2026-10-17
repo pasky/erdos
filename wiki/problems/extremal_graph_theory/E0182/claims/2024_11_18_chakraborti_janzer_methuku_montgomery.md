@@ -16,6 +16,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2024-11-18
 submitted: null
 links:
 - url: https://doi.org/10.1090/tran/9694

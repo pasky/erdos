@@ -14,6 +14,7 @@ scope: partial
 settles: [power_growth]
 evidence:
 - refereed
+published: 1996-12
 submitted: null
 links:
 - url: https://doi.org/10.1070/IM1996v060n06ABEH000095

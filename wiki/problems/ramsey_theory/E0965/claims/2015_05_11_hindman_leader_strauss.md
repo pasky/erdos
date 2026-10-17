@@ -16,6 +16,7 @@ scope: conditional
 evidence:
 - reviewed
 - refereed
+published: 2015-05-11
 submitted: null
 links:
 - url: https://arxiv.org/abs/1505.02500v1

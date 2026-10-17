@@ -15,6 +15,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 1992-01-01
 submitted: null
 links:
 - url: https://zbmath.org/?q=an:0795.05083

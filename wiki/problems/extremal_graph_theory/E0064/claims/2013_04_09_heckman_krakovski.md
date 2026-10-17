@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2013-04-09
 submitted: null
 links:
 - url: https://doi.org/10.37236/3252

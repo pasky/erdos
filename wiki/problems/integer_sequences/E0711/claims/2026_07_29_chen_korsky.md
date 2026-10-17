@@ -13,6 +13,7 @@ status: claimed
 claim: proved
 scope: partial
 settles: [comparison]
+published: 2026-07-29
 submitted: 2026-09-14
 links:
 - url: https://arxiv.org/abs/2607.26450v1

@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 1983
 submitted: null
 links:
 - url: https://renyi.hu/~p_erdos/1983-03.pdf

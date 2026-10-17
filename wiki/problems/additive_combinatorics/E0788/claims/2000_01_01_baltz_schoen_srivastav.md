@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2000
 submitted: null
 links:
 - url: https://doi.org/10.4064/cm-86-2-171-176

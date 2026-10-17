@@ -14,6 +14,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 1978
 submitted: null
 links:
 - url: https://doi.org/10.1016/0097-3165(94)90113-9

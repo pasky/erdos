@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1958-12
 submitted: null
 links:
 - url: https://doi.org/10.2140/pjm.1958.8.847

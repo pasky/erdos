@@ -10,6 +10,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-08-16
 submitted: 2026-08-16
 links:
 - url: https://www.erdosproblems.com/forum/thread/740/proof-claims#proof-claim-205

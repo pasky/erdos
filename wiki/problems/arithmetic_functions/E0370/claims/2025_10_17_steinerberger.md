@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2025-10-17
 submitted: null
 links:
 - url: https://www.erdosproblems.com/370

@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: answered
 scope: full
+published: 2026-07-15
 submitted: 2026-07-15
 links:
 - url: https://osf.io/d6uq5/files/uygqs?view_only=e31128706d264b9ab0f08692d6702cec

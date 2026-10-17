@@ -13,6 +13,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 2026-08-26
 submitted: 2026-08-26
 links:
 - url: https://github.com/DottedCalculator/ai-math/blob/9ed1cea5651ee0b32cd6083aea42d75da6b30084/Erdos_4_GPT_5.6_Sol.pdf

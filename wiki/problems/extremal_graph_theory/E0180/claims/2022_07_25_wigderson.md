@@ -12,6 +12,7 @@ authors:
 status: rejected
 claim: disproved
 scope: full
+published: 2022-07-25
 submitted: null
 links:
 - url: https://ywigderson.math.ethz.ch/math/static/Compactness.pdf

@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1990-02-01
 submitted: null
 links:
 - url: https://doi.org/10.1515/crll.1990.404.77

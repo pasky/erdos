@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - formalized
+published: 2026-09-29
 submitted: 2026-10-02
 links:
 - url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537279

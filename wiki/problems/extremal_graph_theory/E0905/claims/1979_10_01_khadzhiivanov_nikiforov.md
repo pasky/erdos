@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - reviewed
+published: 1979-10
 submitted: null
 links:
 - url: https://annual.uni-sofia.bg/index.php/fmi/article/view/521

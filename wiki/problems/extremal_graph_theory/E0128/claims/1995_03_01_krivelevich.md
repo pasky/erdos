@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1995-03
 submitted: null
 links:
 - url: https://doi.org/10.1006/jctb.1995.1018

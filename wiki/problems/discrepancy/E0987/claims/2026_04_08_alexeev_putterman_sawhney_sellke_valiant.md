@@ -18,6 +18,7 @@ scope: partial
 settles: [sublinear_possible]
 evidence:
 - reviewed
+published: 2026-04-08
 submitted: null
 links:
 - url: https://arxiv.org/abs/2604.06609

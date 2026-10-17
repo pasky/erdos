@@ -13,6 +13,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2022-09-28
 submitted: null
 links:
 - url: https://doi.org/10.1002/jgt.23063

@@ -15,6 +15,7 @@ claim: proved
 scope: full
 evidence:
 - refereed
+published: 2016-05-13
 submitted: null
 links:
 - url: https://doi.org/10.1007/s00454-017-9883-x

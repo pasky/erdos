@@ -14,6 +14,7 @@ claim: proved
 scope: full
 evidence:
 - formalized
+published: 2026-09-11
 submitted: null
 links:
 - url: https://conjectures.io/results/e7afff2c-bb07-4fa8-92b6-67a530aaad70

@@ -12,6 +12,7 @@ authors:
 status: claimed
 claim: answered
 scope: full
+published: 2026-04-21
 submitted: null
 links:
 - url: https://arxiv.org/abs/2604.19294v1

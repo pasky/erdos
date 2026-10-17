@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1968
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa-15-1-85-90

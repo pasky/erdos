@@ -15,6 +15,7 @@ settles:
 - sharpness
 evidence:
 - refereed
+published: 1996
 submitted: null
 links:
 - url: http://rucinski.home.amu.edu.pl/GT/Mirzhakhani.pdf

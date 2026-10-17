@@ -15,6 +15,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2017-01-25
 submitted: null
 links:
 - url: https://arxiv.org/abs/1701.07348v1

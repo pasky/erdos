@@ -14,6 +14,7 @@ claim: answered
 scope: full
 evidence:
 - reviewed
+published: 2024-06-16
 submitted: null
 links:
 - url: https://www.erdosproblems.com/296

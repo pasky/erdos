@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: disproved
 scope: partial
+published: 2026-09-20
 submitted: null
 links:
 - url: https://arxiv.org/abs/2609.23327v1

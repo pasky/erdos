@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2024-09-11
 submitted: null
 links:
 - url: https://arxiv.org/abs/2409.07658

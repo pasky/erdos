@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2006-10
 submitted: null
 links:
 - url: https://doi.org/10.1017/S144618110000300X

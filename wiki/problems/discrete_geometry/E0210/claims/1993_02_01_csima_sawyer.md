@@ -12,6 +12,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1993-02-01
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02189318

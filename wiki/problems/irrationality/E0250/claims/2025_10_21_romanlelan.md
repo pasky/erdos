@@ -9,6 +9,7 @@ authors: []
 status: rejected
 claim: proved
 scope: full
+published: 2025-10-21
 submitted: null
 links:
 - url: https://www.erdosproblems.com/forum/thread/250#post-1343

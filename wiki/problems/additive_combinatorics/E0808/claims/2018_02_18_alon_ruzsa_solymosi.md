@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 2018-02-18
 submitted: null
 links:
 - url: https://doi.org/10.5565/publmat6412006

@@ -11,6 +11,7 @@ authors:
 status: rejected
 claim: proved
 scope: full
+published: 2025-04-30
 submitted: null
 links:
 - url: https://arxiv.org/abs/2504.21499

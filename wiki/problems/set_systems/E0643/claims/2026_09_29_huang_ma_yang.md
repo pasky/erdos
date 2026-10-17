@@ -13,6 +13,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-09-29
 submitted: null
 links:
 - url: https://arxiv.org/abs/2609.37744v1

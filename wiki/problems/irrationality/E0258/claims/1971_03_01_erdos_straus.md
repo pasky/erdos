@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1971-03-01
 submitted: null
 links:
 - url: https://doi.org/10.2140/pjm.1971.36.635

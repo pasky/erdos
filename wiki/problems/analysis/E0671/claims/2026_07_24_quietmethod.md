@@ -9,6 +9,7 @@ authors: []
 status: claimed
 claim: proved
 scope: full
+published: 2026-07-24
 submitted: 2026-07-24
 links:
 - url: https://quietmethod-erdos671.gintsuta-kobo.chatgpt.site/erdos-671-square-samples-proof.pdf

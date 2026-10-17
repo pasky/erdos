@@ -12,6 +12,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2017-03-31
 submitted: null
 links:
 - url: https://doi.org/10.37236/7148

@@ -13,6 +13,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 2015-06-22
 submitted: null
 links:
 - url: https://doi.org/10.4064/aa169-3-2

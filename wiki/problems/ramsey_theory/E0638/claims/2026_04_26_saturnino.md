@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: disproved
 scope: full
+published: 2026-04-26
 submitted: 2026-04-26
 links:
 - url: https://www.erdosproblems.com/forum/thread/638#post-5909

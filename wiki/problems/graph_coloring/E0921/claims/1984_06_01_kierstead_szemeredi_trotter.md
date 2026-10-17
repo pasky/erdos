@@ -16,6 +16,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1984-06
 submitted: null
 links:
 - url: https://doi.org/10.1007/BF02579219

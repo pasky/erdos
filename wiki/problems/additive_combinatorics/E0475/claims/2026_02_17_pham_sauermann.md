@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: decidable
 scope: partial
+published: 2026-02-17
 submitted: null
 links:
 - url: https://arxiv.org/abs/2602.15797

@@ -14,6 +14,7 @@ claim: disproved
 scope: full
 evidence:
 - reviewed
+published: 2015-09
 submitted: null
 links:
 - url: http://www.renyi.hu/~dsoukup/sums.pdf

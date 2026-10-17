@@ -21,6 +21,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2026-01-22
 submitted: null
 links:
 - url: https://arxiv.org/abs/2601.16175

@@ -12,6 +12,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1977-06
 submitted: null
 links:
 - url: https://doi.org/10.1002/sapm1977563291

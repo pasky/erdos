@@ -11,6 +11,7 @@ authors:
 status: claimed
 claim: proved
 scope: partial
+published: 2018-01-18
 submitted: null
 links:
 - url: https://arxiv.org/abs/1801.05928

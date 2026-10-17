@@ -15,6 +15,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1981
 submitted: null
 links:
 - url: https://doi.org/10.5802/aif.815

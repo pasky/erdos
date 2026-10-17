@@ -13,6 +13,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1961-01-01
 submitted: null
 links:
 - url: https://doi.org/10.1307/mmj/1028998561

@@ -14,6 +14,7 @@ claim: proved
 scope: partial
 evidence:
 - refereed
+published: 1991-06
 submitted: null
 links:
 - url: https://doi.org/10.1080/0025570X.1991.11977601

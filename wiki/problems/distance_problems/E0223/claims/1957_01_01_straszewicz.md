@@ -14,6 +14,7 @@ settles:
 evidence:
 - reviewed
 - refereed
+published: 1957
 submitted: null
 links:
 - url: https://www.erdosproblems.com/223

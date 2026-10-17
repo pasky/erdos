@@ -13,6 +13,7 @@ claim: disproved
 scope: partial
 evidence:
 - refereed
+published: 2021-03-25
 submitted: null
 links:
 - url: https://doi.org/10.1112/jlms.12794

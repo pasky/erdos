@@ -14,6 +14,7 @@ scope: full
 evidence:
 - reviewed
 - refereed
+published: 1979-12
 submitted: null
 links:
 - url: https://doi.org/10.1215/ijm/1256047933
