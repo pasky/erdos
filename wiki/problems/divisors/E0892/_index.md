@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 892
@@ -57,9 +57,39 @@ https://www.erdosproblems.com/892.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The
+[[../library/divisors/erdos_1935_note_sequences_integers_no_one_which/theorem_p126|primitive-sequence
+weighted convergence theorem]] implies the necessary condition
+$\sum_i1/(b_i\log b_i)<\infty$ whenever $a_i\le Cb_i$ for a primitive sequence.
+The [[../library/divisors/erdos_1967_theorem_behrend/_index|1967 reciprocal-sum
+theorem]] also gives
+
+$$
+\sum_{b_i<x}\frac1{b_i}
+ \le C\sum_{a_i<Cx}\frac1{a_i}
+ =o\!\left(\frac{\log x}{\sqrt{\log\log x}}\right).
+$$
+
+For the dyadic question suppose $A(2^{n_i})\ge\delta2^{n_i}$. Choose $L$ with
+$2^{-L}\le\delta/2$. At least $\delta2^{n_i}/2$ elements lie in
+$(2^{n_i-L},2^{n_i}]$, contributing at least $\delta/(2n_i\log2)$ to the
+convergent weighted sum. Each element belongs to at most $L+1$ such shells,
+since the $n_i$ are distinct integers. Summing proves $\sum_i1/n_i<\infty$ as a
+necessary condition; no sufficiency follows.
+
+The
+[[../library/divisors/erdos_1968_solvability_certain_equations_sequences_positive_upper/_index|1968
+gcd theorem]] gives zero upper logarithmic density for the stated gcd-free
+inputs, but this alone is weaker. For example, the union of integer blocks
+$(2^{m_j-1},2^{m_j}]$, $m_j=\lceil j\log j\rceil$, $j\ge3$, has zero
+logarithmic density and divergent $\sum1/(b\log b)$: there are $O(M/\log M)$
+occupied levels below $2^M$, while each full block contributes at least
+$1/(2m_j\log2)$. This example is not asserted to be gcd-free. These are author
+deductions from the inspected source statements; the 1935 proof was followed,
+without independent verification. A characterization still needs sufficiency or
+a further obstruction.
 
 ## Known Results
 

@@ -8,7 +8,7 @@ desc: |
   n^(-beta/(2 pi)); so a deep exponential zero forces condition (Θ), and a
   shallow one can violate it.
 created: 2026-10-08T15:50:52Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -62,4 +62,4 @@ card]]; labels and pages are that version's.
 p. 13 and the proof on pp. 17--19 was read for its structure; the estimate
 (5) was not checked step by step. Nothing here is independently reviewed.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

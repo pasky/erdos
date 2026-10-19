@@ -8,7 +8,7 @@ desc: |
   exactly when the torsion of every l-adic H^3 vanishes, and for surfaces
   Br(X-bar) = 0.
 created: 2026-10-08T17:21:06Z
-updated: 2026-10-08T17:21:06Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -71,4 +71,6 @@ between étale and classical cohomology and Hodge theory, cited.
 
 No problem page of this corpus cites this theorem directly. It is the input
 for surjectivity in
-[[number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/corollary_4_4_5|Corollary 4.4.5]].
+[[number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/corollary_4_4_5|Corollary 4.4.5]],
+which the [[../wiki/research/erdos_940/quadratic_compression|E940
+quadratic-compression note]] uses.

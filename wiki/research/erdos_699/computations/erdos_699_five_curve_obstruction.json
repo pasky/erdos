@@ -1,0 +1,291 @@
+{
+  "scope": "An exact obstruction to fixed curve factors plus residual dimension counting at one five-row capacity profile; no bad triple or whole-index result is claimed.",
+  "point_weight_denominator": 3100,
+  "line_cover_denominator": 15500,
+  "points": [
+    {
+      "point": [
+        0,
+        0
+      ],
+      "weight_numerator": 403,
+      "cover_numerator": 2752,
+      "cover_slack": "737/15500"
+    },
+    {
+      "point": [
+        0,
+        1
+      ],
+      "weight_numerator": 527,
+      "cover_numerator": 2635,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        1,
+        0
+      ],
+      "weight_numerator": 527,
+      "cover_numerator": 2635,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        0,
+        2
+      ],
+      "weight_numerator": 1031,
+      "cover_numerator": 5155,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        1,
+        1
+      ],
+      "weight_numerator": 1038,
+      "cover_numerator": 5190,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        2,
+        0
+      ],
+      "weight_numerator": 1031,
+      "cover_numerator": 5155,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        0,
+        3
+      ],
+      "weight_numerator": 676,
+      "cover_numerator": 3380,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        1,
+        2
+      ],
+      "weight_numerator": 874,
+      "cover_numerator": 4370,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        2,
+        1
+      ],
+      "weight_numerator": 874,
+      "cover_numerator": 4370,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        3,
+        0
+      ],
+      "weight_numerator": 676,
+      "cover_numerator": 3380,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        0,
+        4
+      ],
+      "weight_numerator": 463,
+      "cover_numerator": 3422,
+      "cover_slack": "1107/15500"
+    },
+    {
+      "point": [
+        1,
+        3
+      ],
+      "weight_numerator": 661,
+      "cover_numerator": 3305,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        2,
+        2
+      ],
+      "weight_numerator": 852,
+      "cover_numerator": 4260,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        3,
+        1
+      ],
+      "weight_numerator": 661,
+      "cover_numerator": 3305,
+      "cover_slack": "0"
+    },
+    {
+      "point": [
+        4,
+        0
+      ],
+      "weight_numerator": 463,
+      "cover_numerator": 3422,
+      "cover_slack": "1107/15500"
+    }
+  ],
+  "row_capacities": [
+    "13/100",
+    "17/50",
+    "1",
+    "1",
+    "1"
+  ],
+  "row_weight_sums": [
+    "13/100",
+    "17/50",
+    "1",
+    "1",
+    "1"
+  ],
+  "line_cover": [
+    {
+      "coefficients": [
+        1,
+        0,
+        0
+      ],
+      "cover_numerator": 1376,
+      "own_weighted_incidence": "1"
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        0
+      ],
+      "cover_numerator": 1376,
+      "own_weighted_incidence": "1"
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -1
+      ],
+      "cover_numerator": 1259,
+      "own_weighted_incidence": "1"
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        -1
+      ],
+      "cover_numerator": 1259,
+      "own_weighted_incidence": "1"
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -2
+      ],
+      "cover_numerator": 1107,
+      "own_weighted_incidence": "2757/3100"
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        -2
+      ],
+      "cover_numerator": 1107,
+      "own_weighted_incidence": "2757/3100"
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -2
+      ],
+      "cover_numerator": 2672,
+      "own_weighted_incidence": "1"
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -3
+      ],
+      "cover_numerator": 2004,
+      "own_weighted_incidence": "1"
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -4
+      ],
+      "cover_numerator": 2046,
+      "own_weighted_incidence": "1"
+    }
+  ],
+  "cover_total": "7103/7750",
+  "universal_polynomial_inequality": "sum_P w_P ord_P(F) <= deg(F) for every nonzero F",
+  "noncover_irreducible_curve_bound": "sum_P w_P mult_P(C) <= (7103/7750) deg(C)",
+  "weight_norm_squared": "270691/310000",
+  "minimum_quadratic_objective": "310000/270691",
+  "matching_primal": {
+    "row_multiplicities": [
+      "118100/270691",
+      "110700/270691",
+      "142000/270691",
+      "106500/270691",
+      "85200/270691"
+    ],
+    "line_factors": [
+      {
+        "coefficients": [
+          1,
+          0,
+          0
+        ],
+        "multiplicity": "38900/270691"
+      },
+      {
+        "coefficients": [
+          0,
+          1,
+          0
+        ],
+        "multiplicity": "38900/270691"
+      },
+      {
+        "coefficients": [
+          1,
+          0,
+          -1
+        ],
+        "multiplicity": "19100/270691"
+      },
+      {
+        "coefficients": [
+          0,
+          1,
+          -1
+        ],
+        "multiplicity": "19100/270691"
+      }
+    ],
+    "residual_rule": "residual_P = q*w_P",
+    "capacity_gain": "1",
+    "quadratic_objective": "310000/270691"
+  },
+  "checks": "All incidence, covering, row-sum, norm, and primal identities passed using exact fractions."
+}

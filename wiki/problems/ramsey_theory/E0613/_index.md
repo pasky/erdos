@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 613
@@ -41,7 +41,7 @@ $\mathcal C_{\mathrm{odd}}$ is the family of odd cycles. The equivalence is
 elementary: a graph is a union of a bipartite graph and a graph of maximum
 degree below $n$ exactly when its edges can be colored with no red odd cycle
 and no blue $K_{1,n}$. The erdosproblems.com label DISPROVED (LEAN) carries a
-catalog suffix explained under Formalization.
+suffix explained under Formalization.
 
 **Status.** Bloom's catalog labeled the problem DISPROVED (LEAN). The
 frontmatter standing derives from the claim page
@@ -103,8 +103,8 @@ https://www.erdosproblems.com/613, accessed 2026-09-18.
   stars versus cliques. arXiv:1601.06599 (2016). Context on the clique
   generalization (abstract only, accessed 2026-09-18).
 
-**Formalization.** The suffix (LEAN) of the erdosproblems.com label was a
-catalog label. The file
+**Formalization.** The suffix (LEAN) of the erdosproblems.com label was an
+erdosproblems.com label. The file
 [`ErdosProblems/613.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/613.lean)
 of formal-conjectures, linked at the `main` commit, read 2026-09-18, declares
 `erdos_613 : answer(False) ↔ ∀ n ≥ 3, ∀ (V : Type*) [Fintype V] (G : SimpleGraph V), [DecidableRel G.Adj] → G.edgeFinset.card = Nat.choose (2 * n + 1) 2 - Nat.choose n 2 - 1 → ∃ (B D : SimpleGraph V), [DecidableRel B.Adj] → [DecidableRel D.Adj] → G = B ⊔ D ∧ B.IsBipartite ∧ ∀ v, D.degree v < n`

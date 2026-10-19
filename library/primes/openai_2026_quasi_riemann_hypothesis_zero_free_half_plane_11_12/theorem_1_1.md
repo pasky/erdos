@@ -7,7 +7,7 @@ desc: |
   L-function and not the zeta function, has a zero with real part above 11/12,
   proved from a mean-square bound for sextic-twisted Möbius sums.
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T03:52:50Z
+updated: 2026-10-19T04:18:48Z
 ---
 
 ***
@@ -146,11 +146,8 @@ evidence.
   for question 3 stops at $\epsilon>1/2$ (its criterion $C(p)>n$ needs
   $p>\sqrt n$); the manuscript states (cited, unproved in the text) only the
   quadratic polylogarithmic nonresidue bound as a consequence of this theorem.
-  The page records Plasma AI's observation, which answers the third
-  question from the companion manuscript's half-plane
-  $\operatorname{Re}s>7/8$; its lemma needs only a uniform zero-free
-  half-plane, so this theorem would serve it with $(\log n)^{12}$ in place of
-  $(\log n)^8$, an inference of this page that is not checked.
+  Neither the manuscript nor the page records a deduction from this theorem
+  for the problem.
 - [[../wiki/problems/integer_sequences/E0985/_index|Problem 985]]: a uniform zero-free
   half-plane for every Dirichlet $L$-function is the hypothesis under which a
   prime primitive root below $p$ has been approached; the manuscript draws no

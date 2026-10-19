@@ -6,7 +6,7 @@ desc: |
   color-critical graphs, and the interaction of coloring with girth and
   cycles; colorings of the plane and of R^n are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-18T00:07:21Z
 ---
 
 # Graph Coloring
@@ -183,9 +183,11 @@ works for every $r\geq2$.
 
 [[problems/graph_coloring/E0836/_index|E0836/]]: Asks whether an intersecting
 $r$-uniform hypergraph with chromatic number $3$ must have $O(r^2)$ vertices,
-and whether two of its edges must meet in $\gg r$ vertices. The answer to the
-first is no and the second is open; the page also corrects the erdosproblems.com
-gloss of chromatic number $3$.
+and whether two of its edges must meet in $\gg r$ vertices. Plasma AI's internal
+whole-statement reviews with separate passing grades support the negative
+vertex-count answer and the positive linear-intersection answer under the
+exact-chromatic formulation; both claims await the sign-off of Jacob Parish at
+Plasma AI.
 
 [[problems/graph_coloring/E0842/_index|E0842/]]: Asks whether $n$ disjoint
 triangles joined by a Hamiltonian cycle on their $3n$ vertices always give a

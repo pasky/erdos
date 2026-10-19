@@ -1,0 +1,300 @@
+{
+  "frozen_utc": "2026-10-15T09:49:19.072889+00:00",
+  "part": "O",
+  "scope": "For absolute c > 0 and r0, every integer r >= r0 and every circle sequence have both limsup(n M_n^(r)-r) >= c sqrt(log r) and limsup(r-n m_n^(r)) >= c sqrt(log r); hence Lambda_r-r and r-lambda_r have those lower bounds and tend to infinity.",
+  "conventions": "All sequences, coincident terms allowed, cyclic labels, gaps and counts with multiplicity, lifted spans, M/0=+infinity, natural logarithms. Statement (modified) of E1221.",
+  "native_premises": [],
+  "ledger_rows": [],
+  "allowed_files": [
+    {
+      "path": "catalog_statement.md.txt",
+      "source": "wiki/problems/analysis/E1221/_index.md",
+      "ranges": [
+        {
+          "start_marker": "**Statement.**",
+          "stop_marker_excluded": "**Notes.**",
+          "start_inclusive": {
+            "line": 25,
+            "column": 1,
+            "utf8_byte_offset": 665
+          },
+          "end_exclusive": {
+            "line": 95,
+            "column": 1,
+            "utf8_byte_offset": 2210
+          }
+        }
+      ],
+      "bytes": 1545
+    },
+    {
+      "path": "model_and_theorem.md.txt",
+      "source": "wiki/research/erdos_1221/all_sequence_composition.md",
+      "ranges": [
+        {
+          "start_marker": "## Target",
+          "stop_marker_excluded": "## The links and their standing",
+          "start_inclusive": {
+            "line": 31,
+            "column": 1,
+            "utf8_byte_offset": 1414
+          },
+          "end_exclusive": {
+            "line": 86,
+            "column": 1,
+            "utf8_byte_offset": 4092
+          }
+        }
+      ],
+      "bytes": 2661
+    },
+    {
+      "path": "lemma_2_1.md.txt",
+      "source": "wiki/research/erdos_1221/ko26b_lemma_2_1_reconstruction.md",
+      "ranges": [
+        {
+          "start_marker": "## Definitions",
+          "stop_marker_excluded": "## Role in the argument",
+          "start_inclusive": {
+            "line": 28,
+            "column": 1,
+            "utf8_byte_offset": 1160
+          },
+          "end_exclusive": {
+            "line": 246,
+            "column": 1,
+            "utf8_byte_offset": 8130
+          }
+        }
+      ],
+      "bytes": 6970
+    },
+    {
+      "path": "all_sequence_transfer.md.txt",
+      "source": "wiki/research/erdos_1221/all_sequence_composition.md",
+      "ranges": [
+        {
+          "start_marker": "**Labels and lifts.**",
+          "stop_marker_excluded": "**The terminal bounds (3.2) of Proposition 3.1.**",
+          "start_inclusive": {
+            "line": 141,
+            "column": 1,
+            "utf8_byte_offset": 6930
+          },
+          "end_exclusive": {
+            "line": 150,
+            "column": 1,
+            "utf8_byte_offset": 7513
+          }
+        },
+        {
+          "start_marker": "**The covering identity of Lemma 6.3.**",
+          "stop_marker_excluded": "The least-distance step of Lemma 4.2",
+          "start_inclusive": {
+            "line": 166,
+            "column": 1,
+            "utf8_byte_offset": 8423
+          },
+          "end_exclusive": {
+            "line": 189,
+            "column": 24,
+            "utf8_byte_offset": 9758
+          }
+        },
+        {
+          "start_marker": "**Positivity.**",
+          "stop_marker_excluded": "## The ratio part",
+          "start_inclusive": {
+            "line": 193,
+            "column": 1,
+            "utf8_byte_offset": 9931
+          },
+          "end_exclusive": {
+            "line": 197,
+            "column": 1,
+            "utf8_byte_offset": 10107
+          }
+        }
+      ],
+      "bytes": 2180
+    },
+    {
+      "path": "one_sided_comparison.md.txt",
+      "source": "wiki/research/erdos_1221/all_sequence_composition.md",
+      "ranges": [
+        {
+          "start_marker": "## The one-sided parts",
+          "stop_marker_excluded": "## What remains",
+          "start_inclusive": {
+            "line": 249,
+            "column": 1,
+            "utf8_byte_offset": 12048
+          },
+          "end_exclusive": {
+            "line": 272,
+            "column": 1,
+            "utf8_byte_offset": 13128
+          }
+        }
+      ],
+      "bytes": 1080
+    },
+    {
+      "path": "lemma_6_1.md.txt",
+      "source": "wiki/research/erdos_1221/ko26b_lemma_6_1_reconstruction.md",
+      "ranges": [
+        {
+          "start_marker": "## Definitions",
+          "stop_marker_excluded": "## Role in the argument",
+          "start_inclusive": {
+            "line": 27,
+            "column": 1,
+            "utf8_byte_offset": 1081
+          },
+          "end_exclusive": {
+            "line": 115,
+            "column": 1,
+            "utf8_byte_offset": 3769
+          }
+        }
+      ],
+      "bytes": 2688
+    },
+    {
+      "path": "lemma_6_2.md.txt",
+      "source": "wiki/research/erdos_1221/ko26b_lemma_6_2_reconstruction.md",
+      "ranges": [
+        {
+          "start_marker": "## Definitions",
+          "stop_marker_excluded": "## Role in the argument",
+          "start_inclusive": {
+            "line": 31,
+            "column": 1,
+            "utf8_byte_offset": 1328
+          },
+          "end_exclusive": {
+            "line": 163,
+            "column": 1,
+            "utf8_byte_offset": 5517
+          }
+        }
+      ],
+      "bytes": 4189
+    },
+    {
+      "path": "lemma_6_3.md.txt",
+      "source": "wiki/research/erdos_1221/ko26b_lemma_6_3_reconstruction.md",
+      "ranges": [
+        {
+          "start_marker": "## Definitions",
+          "stop_marker_excluded": "## Role in the argument",
+          "start_inclusive": {
+            "line": 27,
+            "column": 1,
+            "utf8_byte_offset": 1069
+          },
+          "end_exclusive": {
+            "line": 99,
+            "column": 1,
+            "utf8_byte_offset": 3282
+          }
+        }
+      ],
+      "bytes": 2213
+    },
+    {
+      "path": "proposition_6_4.md.txt",
+      "source": "wiki/research/erdos_1221/ko26b_proposition_6_4_reconstruction.md",
+      "ranges": [
+        {
+          "start_marker": "## Definitions",
+          "stop_marker_excluded": "## Role in the argument",
+          "start_inclusive": {
+            "line": 32,
+            "column": 1,
+            "utf8_byte_offset": 1388
+          },
+          "end_exclusive": {
+            "line": 136,
+            "column": 1,
+            "utf8_byte_offset": 4732
+          }
+        }
+      ],
+      "bytes": 3344
+    },
+    {
+      "path": "lemma_7_2.md.txt",
+      "source": "wiki/research/erdos_1221/ko26b_lemma_7_2_reconstruction.md",
+      "ranges": [
+        {
+          "start_marker": "## Definitions",
+          "stop_marker_excluded": "## Role in the argument",
+          "start_inclusive": {
+            "line": 40,
+            "column": 1,
+            "utf8_byte_offset": 1947
+          },
+          "end_exclusive": {
+            "line": 182,
+            "column": 1,
+            "utf8_byte_offset": 6356
+          }
+        }
+      ],
+      "bytes": 4409
+    },
+    {
+      "path": "halasz_bound.md.txt",
+      "source": "wiki/research/erdos_1221/halasz_planar_l1_bound.md",
+      "ranges": [
+        {
+          "start_marker": "## Statement",
+          "stop_marker_excluded": "## Comparison with the printed outline",
+          "start_inclusive": {
+            "line": 34,
+            "column": 1,
+            "utf8_byte_offset": 1599
+          },
+          "end_exclusive": {
+            "line": 183,
+            "column": 1,
+            "utf8_byte_offset": 7529
+          }
+        },
+        {
+          "start_marker": "## Anchored-box conventions",
+          "stop_marker_excluded": "## Role in Problem 1221",
+          "start_inclusive": {
+            "line": 200,
+            "column": 1,
+            "utf8_byte_offset": 8525
+          },
+          "end_exclusive": {
+            "line": 219,
+            "column": 1,
+            "utf8_byte_offset": 9574
+          }
+        }
+      ],
+      "bytes": 7022
+    },
+    {
+      "path": "provenance_and_scope.md.txt",
+      "source": "commissioner-prepared bibliographic and scope map",
+      "bytes": 1500
+    }
+  ],
+  "read_boundary": "Only these mathematical files and manifest.json. Links are locators, not permission to open other files. Operating documents are specified separately by MANAGE. Full-page freezes, author notes, prior verdicts, library cards and other packet are excluded.",
+  "shared_theorem": "The common model reproduces the three-clause theorem for context. Only the assigned clauses and their consequences are under examination here; neither other-part proof nor verdict is a premise. These two scopes together cover the whole theorem.",
+  "internal_deductions": [
+    "Lemma 2.1 (walk construction)",
+    "Lemmas 6.1--6.3",
+    "Proposition 6.4",
+    "Hal\u00e1sz bound and box conventions",
+    "Lemma 7.2",
+    "all-sequence transfer",
+    "both one-sided comparisons and quantifiers"
+  ],
+  "extraction_marker": "[cut: outside this mathematical subject]"
+}

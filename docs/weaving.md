@@ -11,7 +11,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-09-08T01:42:35Z
+updated: 2026-10-19T09:20:41Z
 ---
 
 # weaving
@@ -129,12 +129,12 @@ the missing implication instead of presenting it as an established edge.
   from a stale target.** A link whose target names a claim, door, or library
   source **directory** without `/_index` does not resolve as a wikilink, and
   `wiki lint` fails it; a target whose page does not exist is only noted by
-  `wiki lint`, and the reference linter's wikilink sweep, where the repository
-  has one, fails it as a dangling wikilink (the test is whether each target plus
-  `.md` exists on disk). Repairing this form is a weave task in its own right:
-  it converts an edge that does not arrive into one that does, and a dependency
-  row linked this way still reads as unwoven to any census. A label may wrap
-  across lines — the corpus does this widely — but the target may not.
+  `wiki lint`, and the repository gate fails on that stale-link note (the test
+  is whether the target plus `.md` exists under the wiki root). Repairing this
+  form is a weave task in its own right: it converts an edge that does not
+  arrive into one that does, and a dependency row linked this way still reads as
+  unwoven to any census. A label may wrap across lines — the corpus does this
+  widely — but the target may not.
 
 - **Wikilinks resolve within one wiki root only.** A reference from `docs/` to
   `wiki/` is a plain path, and the reference linter checks any inline markdown
@@ -357,8 +357,8 @@ to inspect; it measures neither correctness nor research progress.
 
 ### Layout and checks
 
-The mathematics wiki root is `wiki/`. Catalog problems are `E<nnnn>` folders
-under `wiki/problems/<subject>/`, each with its `_index.md` page and any
+The mathematics wiki root is `wiki/`. erdosproblems.com problems are `E<nnnn>`
+folders under `wiki/problems/<subject>/`, each with its `_index.md` page and any
 `claims/` pages, sources are filed under
 `library/<subject>/<author_year_slug>/`, and native claims are `L<n>`
 directories under `wiki/theory/`, each with an `_index.md`, a `_proof.md` or
@@ -369,10 +369,10 @@ sketch of a sustained attack is ruled under [[research]] here; the holding
 policy for source files and their editions is stated on `library/_index.md`, as
 the shared text says, and [[anatomy]] rules source identity and local artifacts.
 
-Erdos claim indexes carry no `## Roadmap` section, and the tree has no door
+Erdos claim indexes need no `## Roadmap` section, and the tree has no door
 pages. Remaining obligations stay visible in the claim index body under
-[[anatomy]], which governs here; the roadmap currency test above has no erdos
-target.
+[[anatomy]], which governs here; where a claim index does carry a Roadmap, the
+roadmap currency test above applies to it.
 
 Erdos fixes no shape for the authored explanation of a consumed specialization,
 and that requirement, not a paragraph shape, governs here: a **Dependency
@@ -398,5 +398,5 @@ empty `wiki/lemmas.md` and `wiki/standing.md` diffs,
 `uv run --no-sync erdos gate --path .`, whose legs are listed under [[tools]].
 The reference linter here, `erdos claim-check`, follows no link to disk; the
 gate's `reflint` leg (`erdos reflint`) resolves every inline Markdown link on
-disk, cross-root links included, and no erdos check follows a wikilink, so only
-wikilinks are verified by reading.
+disk, cross-root links included, and each wiki leg of `erdos gate` reads
+`wiki lint --json` and fails on a stale-link note.

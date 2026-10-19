@@ -6,7 +6,7 @@ desc: |
   interval, from the prime number theorem with remainder and the
   Pólya–Szegő density criterion, as the input to the main theorem.
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-07T15:58:30Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -121,5 +121,5 @@ of interest. This page is part of the author-recorded reconstruction:
 proved in (c), and (E3) is a standard consequence of (E1) used as a
 statement. No independent review has been filed.
 
-**Bears on.** No catalog problem directly; it is the input to the main
+**Bears on.** No erdosproblems.com problem directly; it is the input to the main
 theorem, which is context for [[../wiki/problems/irrationality/E0251/_index|#251]].

@@ -7,7 +7,7 @@ desc: |
   at least 4.
 license: LicenseRef-CC-BY-NC-ND
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Salberger: Counting rational points on projective varieties
@@ -212,14 +212,143 @@ this paper.
 
 This source bears on [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
 
-Salberger's bounds count points of bounded height on varieties; they do not
-bound the number of integers up to $X$ that are sums of at most $r$
-$r$-powerful numbers, which is what E940 asks about.
+[[../wiki/research/erdos_940/cubic_collision_ranges|The E940 cubic collision-range
+note]] uses Corollary 0.7 (pp. 1094–1095) in a concrete cubic collision
+estimate. Its Section 6 form is Corollary 6.5 (p. 1122), which counts
+primitive integer solutions and states only the conditions
+$a_0x_0^d+a_jx_j^d\ne0$ for $j\in\{1,2,3\}$. On the surface these are
+equivalent to all six conditions of Corollary 0.7, since a pair of terms sums
+to zero exactly when the complementary pair does. For positive rational numbers $a,b$ with
+$a/b\notin\mathbb Q^{\times 3}$, the equation
+
+$$
+ax^3+by^3=au^3+bv^3
+$$
+
+defines a diagonal cubic surface. A nontrivial positive solution has no two-term
+zero subsum: the matching pairs force $(x,y)=(u,v)$, while a crossed pair would
+make $a/b$ a rational cube. Salberger's coefficient-uniform bound therefore
+gives $O(N^{\sqrt3}(\log N)^4)$ primitive nontrivial solutions of height at most
+$N$. Summing over the coordinate gcd preserves this order. Consequently, for a
+positive ternary diagonal cubic whose three coefficients have distinct rational
+cube classes—especially $x^3+2y^3+4z^3$—all off-diagonal collisions sharing one
+coordinate number $O(N^{1+\sqrt3}(\log N)^4)=o(N^3)$. This removes those inputs
+from the logarithmic-multiplicity problem at $o(N^3)$ cost. It does not control
+collisions in which all three coordinate differences are nonzero and hence does
+not by itself prove positive density.
+
+Write
+
+$$
+\mathcal P_r=\{a\ge1:v_p(a)=0\text{ or }v_p(a)\ge r\text{ for every prime }p\}
+$$
+
+and
+
+$$
+S_{r,k}(X)=\{n\le X:n=a_1+\cdots+a_j\text{ for some }j\le k,\,a_i\in\mathcal P_r\}.
+$$
+
+E940's density question asks whether $|S_{r,r}(X)|=o(X)$ for every $r\ge3$
+(its other question asks whether infinitely many integers lie outside
+$S_{r,r}$). Salberger's $r$ denotes
+the dimension of a hypersurface, so it should be replaced by (say) $m$ when
+applying the paper to this problem.
+
+There is a natural algebraic encoding. Every $a\in\mathcal P_r$ has a unique
+expression
+
+$$
+a=u_0^r\prod_{s=1}^{r-1}u_s^{r+s},
+$$
+
+where $u_1,\ldots,u_{r-1}$ are square-free and pairwise coprime and $u_0$ is
+unrestricted. Indeed, a prime whose exponent is congruent to $s\pmod r$,
+$1\le s<r$, is placed in $u_s$, with the remaining multiple of $r$ absorbed into
+$u_0^r$. Thus a representation by $j$ summands can be placed on the affine
+hypersurface
+
+$$
+t=\sum_{i=1}^j u_{i,0}^r\prod_{s=1}^{r-1}u_{i,s}^{r+s}.
+$$
+
+If $D=r+\sum_{s=1}^{r-1}(r+s)=r(3r-1)/2$, its ordinary homogenization is
+
+$$
+\sum_{i=1}^j u_{i,0}^r\prod_{s=1}^{r-1}u_{i,s}^{r+s}-t z^{D-1}=0.
+$$
+
+After dyadically restricting the parameter variables so that each displayed
+monomial is $O(X)$, Theorem 1.2 and its congruence version, Theorem 2.2, can
+construct auxiliary hypersurfaces adapted to the resulting anisotropic boxes
+through the quantities $V$ and $T$ (pp. 1098 and 1103). Main Lemma 3.2 could
+then organize the parameter points into divisors and codimension-two exceptional
+cycles. This is the paper's most plausible technical input for E940: it supplies
+algebraic coverings that are sensitive to unequal parameter ranges and
+congruence conditions.
+
+There is also a precise consequence for the much smaller pure-power subproblem.
+For fixed $N$, apply Theorem 0.4/7.4 to
+
+$$
+f_N(x_1,\ldots,x_r)=x_1^r+\cdots+x_r^r-N.
+$$
+
+Its leading form is geometrically integral (the corresponding projective Fermat
+hypersurface is smooth). With $|x_i|\le B$, the paper therefore gives
+
+$$
+\#\{\mathbf x:f_N(\mathbf x)=0\}\ll_{r,\varepsilon}B^{r-2+\varepsilon}\quad(r\ge4),
+$$
+
+and
+
+$$
+\#\{(x_1,x_2,x_3):x_1^3+x_2^3+x_3^3=N\}\ll_\varepsilon B^{2/\sqrt3+\varepsilon}
+$$
+
+for $r=3$ (Theorem 0.4, p. 1093; Theorem 7.4, pp. 1124–1125). At the
+natural scale $B=X^{1/r}$ these become $O(X^{(r-2)/r+\varepsilon})$ and
+$O(X^{2/(3\sqrt3)+\varepsilon})$, respectively, uniformly in the constant term
+$N$. For three-power fibers, Corollary 6.5 and Theorem 9.4 additionally control
+projective points away from the standard lines and identify the possible
+low-degree exceptional curves (pp. 1122 and 1131).
+
+These statements do **not** prove E940. They bound points on a fixed fiber or
+cover the parameter space by auxiliary subvarieties, whereas E940 requires an
+upper bound for the number of distinct projected values $t$. An upper bound on
+the number of representations of each $t$ does not give an upper bound on the
+image; by itself it tends in the opposite direction. Moreover, the square-free
+and coprimality conditions in the powerful-number parametrization are not
+treated in the paper, and the non-uniform theorem
+$N(X;B)=O_{X,\varepsilon}(B^{\dim X+\varepsilon})$ cannot be applied uniformly
+over fibers or changing parametrization strata without additional work. To
+obtain density zero one would need a further argument showing that the
+projections of all determinant-method components collectively assume only $o(X)$
+target values, or an independent sieve/additive estimate exploiting the
+square-free structure. No such projection or value-set estimate appears in the
+paper, so its relation to E940 is methodological rather than a resolution.
 
 **Bears on.** [[../wiki/problems/diophantine_problems/E0940/_index|#940]]:
-the paper's bounds count points of bounded height on varieties; none bounds
-the number of integers represented as sums of $r$-powerful numbers, and the
-paper settles neither question of the problem.
+the
+[[../wiki/research/erdos_940/cubic_collision_ranges|E940 cubic collision-range note]]
+uses
+[[diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/corollary_0_7|Corollary 0.7]]
+(pp. 1094–1095), read here in the form of
+[[diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/corollary_6_5|Corollary 6.5]]
+(p. 1122), to bound by $O(N^{\sqrt3}(\log N)^4)$ the nontrivial positive
+solutions of $ax^3+by^3=au^3+bv^3$ of height at most $N$ when $a/b$ is not a
+rational cube, and hence by $O(N^{1+\sqrt3}(\log N)^4)$ the off-diagonal
+collisions sharing a coordinate of a positive ternary diagonal cubic form whose
+coefficients have distinct cube classes; this card applies
+[[diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/theorem_0_4|Theorem 0.4]]
+(p. 1093) to bound the representations of a fixed integer as a sum of $r$
+$r$-th powers; and it names
+[[diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/theorem_1_2|Theorem 1.2]]
+(p. 1098) with Theorem 2.2 and Main Lemma 3.2 as possible tools for the
+density question. None of these bounds the number of integers represented as
+sums of $r$-powerful numbers, and the paper settles neither question of the
+problem.
 
 **Results.** Labels and pages are those of the journal print (pp.
 1092–1133). Each page below gives the statement, a proof pointer and its

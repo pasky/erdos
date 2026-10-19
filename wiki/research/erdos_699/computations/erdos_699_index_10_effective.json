@@ -1,0 +1,1654 @@
+{
+  "index": 10,
+  "source_scope": "Numerical BFT pair and constant-gap product cofactor estimates",
+  "pair_edges_scaled": [
+    [
+      2,
+      3,
+      2911,
+      2911
+    ],
+    [
+      2,
+      5,
+      2669,
+      2669
+    ],
+    [
+      2,
+      7,
+      2747,
+      2747
+    ],
+    [
+      3,
+      5,
+      2228,
+      2228
+    ],
+    [
+      3,
+      7,
+      495,
+      495
+    ],
+    [
+      5,
+      7,
+      2657,
+      2657
+    ],
+    [
+      3,
+      5,
+      2533,
+      2533
+    ],
+    [
+      2,
+      3,
+      3234,
+      2850
+    ],
+    [
+      2,
+      5,
+      2583,
+      2620
+    ],
+    [
+      2,
+      7,
+      2734,
+      3201
+    ],
+    [
+      3,
+      5,
+      2412,
+      3648
+    ],
+    [
+      3,
+      7,
+      389,
+      3190
+    ],
+    [
+      5,
+      7,
+      3613,
+      2277
+    ],
+    [
+      2,
+      3,
+      3286,
+      2906
+    ],
+    [
+      2,
+      5,
+      2666,
+      2701
+    ],
+    [
+      2,
+      7,
+      2742,
+      3208
+    ],
+    [
+      3,
+      5,
+      2552,
+      3764
+    ],
+    [
+      3,
+      7,
+      492,
+      3261
+    ],
+    [
+      5,
+      7,
+      3921,
+      2653
+    ]
+  ],
+  "minimal_vectors_scaled": [
+    [
+      3286,
+      495,
+      3921,
+      0
+    ],
+    [
+      3286,
+      492,
+      3921,
+      495
+    ],
+    [
+      2747,
+      2911,
+      0,
+      2657
+    ],
+    [
+      2742,
+      2911,
+      0,
+      2747
+    ],
+    [
+      2911,
+      2906,
+      0,
+      2657
+    ],
+    [
+      3286,
+      2552,
+      0,
+      2657
+    ],
+    [
+      2669,
+      2911,
+      0,
+      3208
+    ],
+    [
+      0,
+      2911,
+      2701,
+      3208
+    ],
+    [
+      2747,
+      2911,
+      3921,
+      0
+    ],
+    [
+      2911,
+      2906,
+      3921,
+      0
+    ],
+    [
+      3286,
+      492,
+      3764,
+      2653
+    ],
+    [
+      3286,
+      0,
+      3764,
+      3261
+    ],
+    [
+      2747,
+      2911,
+      2657,
+      2653
+    ],
+    [
+      2911,
+      2906,
+      2657,
+      2653
+    ],
+    [
+      3286,
+      2552,
+      2657,
+      2653
+    ],
+    [
+      2666,
+      2911,
+      2669,
+      3208
+    ]
+  ],
+  "critical_vector_scaled": [
+    3286,
+    492,
+    3921,
+    0
+  ],
+  "conditional_rules": {
+    "equal_pairs": {
+      "kind": "four",
+      "equal_position_sums": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "targets_scaled": {
+        "2": 4300,
+        "3": 1800,
+        "5": 4490,
+        "7": 1800
+      }
+    },
+    "middle3_27": {
+      "kind": "ap",
+      "middle_prime": 3,
+      "targets_scaled": {
+        "2": 4300,
+        "3": 2500,
+        "7": 1500
+      }
+    },
+    "middle3_57": {
+      "kind": "ap",
+      "middle_prime": 3,
+      "targets_scaled": {
+        "3": 3000,
+        "5": 6000,
+        "7": 650
+      }
+    },
+    "middle7_23": {
+      "kind": "ap",
+      "middle_prime": 7,
+      "targets_scaled": {
+        "2": 4280,
+        "3": 1300,
+        "7": 1980
+      }
+    },
+    "middle2_37": {
+      "kind": "ap",
+      "middle_prime": 2,
+      "targets_scaled": {
+        "2": 3900,
+        "3": 3560,
+        "7": 4290
+      }
+    }
+  },
+  "exceptional_position_rules": {
+    "2031": "middle7_23",
+    "3021": "equal_pairs",
+    "2130": "middle3_27",
+    "3120": "middle3_57",
+    "1032": "middle2_37",
+    "1230": "middle2_37"
+  },
+  "algebraic_power_of_ten": 15000000,
+  "full_bound": "Every bad row at index 10 satisfies n < 10^15000000",
+  "certificates": [
+    {
+      "name": "num_extra_1032_0",
+      "line_exponents": [
+        18,
+        16,
+        12,
+        10,
+        6,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        40,
+        44,
+        0,
+        33,
+        35,
+        29,
+        25,
+        22,
+        19,
+        17
+      ],
+      "interpolation_degree": 54,
+      "symmetric_jet_count": 783,
+      "symmetric_monomial_count": 784,
+      "modular_prime": 251,
+      "constant_power_of_ten": 47377,
+      "minimum_gain": "673/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_1032_1",
+      "line_exponents": [
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        6,
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 69,
+      "minimum_gain": "681/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_1032_3",
+      "line_exponents": [
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        6,
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 69,
+      "minimum_gain": "3723/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_1230_0",
+      "line_exponents": [
+        21,
+        18,
+        14,
+        11,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        0,
+        50,
+        36,
+        38,
+        40,
+        33,
+        29,
+        25,
+        22,
+        20
+      ],
+      "interpolation_degree": 62,
+      "symmetric_jet_count": 1024,
+      "symmetric_monomial_count": 1024,
+      "modular_prime": 251,
+      "constant_power_of_ten": 70083,
+      "minimum_gain": "171/1000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_1230_1",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "3407/2000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_1230_3",
+      "line_exponents": [
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        6,
+        6,
+        5,
+        5,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 69,
+      "minimum_gain": "7521/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_2031_0",
+      "line_exponents": [
+        28,
+        24,
+        21,
+        15,
+        10,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        58,
+        0,
+        56,
+        49,
+        50,
+        42,
+        36,
+        32,
+        28,
+        25
+      ],
+      "interpolation_degree": 58,
+      "symmetric_jet_count": 898,
+      "symmetric_monomial_count": 900,
+      "modular_prime": 251,
+      "constant_power_of_ten": 58029,
+      "minimum_gain": "69/2000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_2031_1",
+      "line_exponents": [
+        35,
+        29,
+        25,
+        19,
+        12,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        79,
+        0,
+        67,
+        61,
+        63,
+        53,
+        45,
+        40,
+        35,
+        31
+      ],
+      "interpolation_degree": 78,
+      "symmetric_jet_count": 1599,
+      "symmetric_monomial_count": 1600,
+      "modular_prime": 251,
+      "constant_power_of_ten": 135043,
+      "minimum_gain": "2043/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_2031_3",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "5833/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_2130_0",
+      "line_exponents": [
+        27,
+        24,
+        20,
+        15,
+        10,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        0,
+        52,
+        55,
+        48,
+        50,
+        42,
+        36,
+        31,
+        28,
+        24
+      ],
+      "interpolation_degree": 59,
+      "symmetric_jet_count": 929,
+      "symmetric_monomial_count": 930,
+      "modular_prime": 251,
+      "constant_power_of_ten": 60920,
+      "minimum_gain": "73/2500",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_2130_1",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "5649/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_2130_3",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "1561/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_3021_0",
+      "line_exponents": [
+        27,
+        24,
+        20,
+        15,
+        10,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        57,
+        0,
+        54,
+        49,
+        50,
+        42,
+        36,
+        32,
+        28,
+        25
+      ],
+      "interpolation_degree": 61,
+      "symmetric_jet_count": 991,
+      "symmetric_monomial_count": 992,
+      "modular_prime": 251,
+      "constant_power_of_ten": 66944,
+      "minimum_gain": "239/5000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_3021_1",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "24/625",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_3021_2",
+      "line_exponents": [
+        39,
+        34,
+        29,
+        21,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        84,
+        0,
+        86,
+        71,
+        79,
+        66,
+        56,
+        49,
+        44,
+        40
+      ],
+      "interpolation_degree": 129,
+      "symmetric_jet_count": 4289,
+      "symmetric_monomial_count": 4290,
+      "modular_prime": 251,
+      "constant_power_of_ten": 579810,
+      "minimum_gain": "387/5000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_3021_3",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "561/1250",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_3120_1",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "1473/1250",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_3120_2",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "2493/5000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_extra_3120_3",
+      "line_exponents": [
+        40,
+        35,
+        29,
+        21,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        87,
+        77,
+        84,
+        72,
+        79,
+        65,
+        56,
+        49,
+        43,
+        39
+      ],
+      "interpolation_degree": 120,
+      "symmetric_jet_count": 3719,
+      "symmetric_monomial_count": 3721,
+      "modular_prime": 251,
+      "constant_power_of_ten": 469401,
+      "minimum_gain": "39/1000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_others",
+      "line_exponents": [
+        60,
+        52,
+        42,
+        32,
+        20,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        125,
+        125,
+        114,
+        105,
+        105,
+        91,
+        78,
+        68,
+        60,
+        53
+      ],
+      "interpolation_degree": 131,
+      "symmetric_jet_count": 4419,
+      "symmetric_monomial_count": 4422,
+      "modular_prime": 251,
+      "constant_power_of_ten": 606580,
+      "minimum_gain": "469/5000",
+      "coverage_applications": 336
+    },
+    {
+      "name": "num_outside",
+      "line_exponents": [
+        48,
+        42,
+        35,
+        25,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        100,
+        100,
+        100,
+        100,
+        75,
+        75,
+        65,
+        57,
+        50,
+        45
+      ],
+      "interpolation_degree": 134,
+      "symmetric_jet_count": 4624,
+      "symmetric_monomial_count": 4624,
+      "modular_prime": 251,
+      "constant_power_of_ten": 648293,
+      "minimum_gain": "3/16",
+      "coverage_applications": 80256
+    },
+    {
+      "name": "num_pos_0123",
+      "line_exponents": [
+        15,
+        11,
+        9,
+        7,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        42,
+        27,
+        28,
+        0,
+        26,
+        21,
+        18,
+        16,
+        14,
+        12
+      ],
+      "interpolation_degree": 40,
+      "symmetric_jet_count": 439,
+      "symmetric_monomial_count": 441,
+      "modular_prime": 251,
+      "constant_power_of_ten": 20547,
+      "minimum_gain": "271/2500",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_0132",
+      "line_exponents": [
+        17,
+        13,
+        11,
+        8,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        54,
+        32,
+        0,
+        30,
+        33,
+        28,
+        24,
+        21,
+        18,
+        16
+      ],
+      "interpolation_degree": 62,
+      "symmetric_jet_count": 1024,
+      "symmetric_monomial_count": 1024,
+      "modular_prime": 251,
+      "constant_power_of_ten": 70073,
+      "minimum_gain": "409/5000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_0213",
+      "line_exponents": [
+        16,
+        13,
+        10,
+        8,
+        5,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        39,
+        33,
+        26,
+        0,
+        25,
+        21,
+        18,
+        16,
+        14,
+        11
+      ],
+      "interpolation_degree": 23,
+      "symmetric_jet_count": 156,
+      "symmetric_monomial_count": 156,
+      "modular_prime": 251,
+      "constant_power_of_ten": 4875,
+      "minimum_gain": "339/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_0231",
+      "line_exponents": [
+        18,
+        14,
+        12,
+        9,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        57,
+        0,
+        30,
+        33,
+        36,
+        30,
+        26,
+        22,
+        20,
+        18
+      ],
+      "interpolation_degree": 68,
+      "symmetric_jet_count": 1224,
+      "symmetric_monomial_count": 1225,
+      "modular_prime": 251,
+      "constant_power_of_ten": 91043,
+      "minimum_gain": "291/2000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_0312",
+      "line_exponents": [
+        13,
+        10,
+        8,
+        6,
+        4,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        32,
+        27,
+        0,
+        19,
+        21,
+        17,
+        15,
+        13,
+        11,
+        10
+      ],
+      "interpolation_degree": 24,
+      "symmetric_jet_count": 169,
+      "symmetric_monomial_count": 169,
+      "modular_prime": 251,
+      "constant_power_of_ten": 5355,
+      "minimum_gain": "367/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_0321",
+      "line_exponents": [
+        16,
+        13,
+        11,
+        7,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        47,
+        0,
+        32,
+        23,
+        29,
+        24,
+        21,
+        18,
+        16,
+        14
+      ],
+      "interpolation_degree": 46,
+      "symmetric_jet_count": 573,
+      "symmetric_monomial_count": 576,
+      "modular_prime": 251,
+      "constant_power_of_ten": 30191,
+      "minimum_gain": "123/1000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_1023",
+      "line_exponents": [
+        26,
+        23,
+        18,
+        12,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        56,
+        63,
+        55,
+        0,
+        52,
+        43,
+        37,
+        32,
+        28,
+        26
+      ],
+      "interpolation_degree": 88,
+      "symmetric_jet_count": 2024,
+      "symmetric_monomial_count": 2025,
+      "modular_prime": 251,
+      "constant_power_of_ten": 190817,
+      "minimum_gain": "9/400",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_1203",
+      "line_exponents": [
+        18,
+        14,
+        11,
+        9,
+        6,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        42,
+        34,
+        28,
+        0,
+        26,
+        22,
+        19,
+        17,
+        14,
+        12
+      ],
+      "interpolation_degree": 18,
+      "symmetric_jet_count": 100,
+      "symmetric_monomial_count": 100,
+      "modular_prime": 251,
+      "constant_power_of_ten": 2781,
+      "minimum_gain": "91/5000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_1302",
+      "line_exponents": [
+        17,
+        13,
+        11,
+        8,
+        6,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        41,
+        33,
+        0,
+        24,
+        25,
+        22,
+        19,
+        16,
+        14,
+        12
+      ],
+      "interpolation_degree": 21,
+      "symmetric_jet_count": 132,
+      "symmetric_monomial_count": 132,
+      "modular_prime": 251,
+      "constant_power_of_ten": 3933,
+      "minimum_gain": "1007/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_1320",
+      "line_exponents": [
+        36,
+        32,
+        25,
+        17,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        0,
+        88,
+        78,
+        55,
+        73,
+        61,
+        52,
+        45,
+        40,
+        36
+      ],
+      "interpolation_degree": 128,
+      "symmetric_jet_count": 4224,
+      "symmetric_monomial_count": 4225,
+      "modular_prime": 251,
+      "constant_power_of_ten": 566793,
+      "minimum_gain": "1033/5000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_2013",
+      "line_exponents": [
+        23,
+        20,
+        15,
+        11,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        49,
+        57,
+        47,
+        0,
+        45,
+        37,
+        32,
+        28,
+        25,
+        22
+      ],
+      "interpolation_degree": 76,
+      "symmetric_jet_count": 1521,
+      "symmetric_monomial_count": 1521,
+      "modular_prime": 251,
+      "constant_power_of_ten": 125225,
+      "minimum_gain": "2047/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_2103",
+      "line_exponents": [
+        12,
+        9,
+        8,
+        6,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        35,
+        22,
+        22,
+        0,
+        21,
+        17,
+        15,
+        13,
+        11,
+        10
+      ],
+      "interpolation_degree": 30,
+      "symmetric_jet_count": 254,
+      "symmetric_monomial_count": 256,
+      "modular_prime": 251,
+      "constant_power_of_ten": 9441,
+      "minimum_gain": "351/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_2301",
+      "line_exponents": [
+        11,
+        9,
+        7,
+        5,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        34,
+        0,
+        21,
+        16,
+        20,
+        16,
+        14,
+        12,
+        11,
+        9
+      ],
+      "interpolation_degree": 32,
+      "symmetric_jet_count": 287,
+      "symmetric_monomial_count": 289,
+      "modular_prime": 251,
+      "constant_power_of_ten": 11189,
+      "minimum_gain": "12/625",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_2310",
+      "line_exponents": [
+        26,
+        23,
+        18,
+        13,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        0,
+        67,
+        54,
+        41,
+        53,
+        44,
+        38,
+        33,
+        29,
+        26
+      ],
+      "interpolation_degree": 92,
+      "symmetric_jet_count": 2207,
+      "symmetric_monomial_count": 2209,
+      "modular_prime": 251,
+      "constant_power_of_ten": 216873,
+      "minimum_gain": "323/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_3012",
+      "line_exponents": [
+        46,
+        40,
+        30,
+        23,
+        13,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        99,
+        120,
+        0,
+        83,
+        95,
+        79,
+        68,
+        59,
+        53,
+        47
+      ],
+      "interpolation_degree": 175,
+      "symmetric_jet_count": 7829,
+      "symmetric_monomial_count": 7832,
+      "modular_prime": 251,
+      "constant_power_of_ten": 1418082,
+      "minimum_gain": "983/5000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_3102",
+      "line_exponents": [
+        13,
+        10,
+        8,
+        6,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        41,
+        24,
+        0,
+        21,
+        24,
+        20,
+        17,
+        15,
+        13,
+        11
+      ],
+      "interpolation_degree": 41,
+      "symmetric_jet_count": 459,
+      "symmetric_monomial_count": 462,
+      "modular_prime": 251,
+      "constant_power_of_ten": 21910,
+      "minimum_gain": "63/400",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_3201",
+      "line_exponents": [
+        13,
+        10,
+        8,
+        6,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        41,
+        0,
+        21,
+        21,
+        24,
+        20,
+        17,
+        15,
+        13,
+        11
+      ],
+      "interpolation_degree": 41,
+      "symmetric_jet_count": 459,
+      "symmetric_monomial_count": 462,
+      "modular_prime": 251,
+      "constant_power_of_ten": 21910,
+      "minimum_gain": "99/10000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "num_pos_3210",
+      "line_exponents": [
+        60,
+        54,
+        40,
+        30,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        0,
+        163,
+        107,
+        113,
+        131,
+        109,
+        93,
+        82,
+        73,
+        65
+      ],
+      "interpolation_degree": 258,
+      "symmetric_jet_count": 16899,
+      "symmetric_monomial_count": 16900,
+      "modular_prime": 251,
+      "constant_power_of_ten": 4462723,
+      "minimum_gain": "617/2000",
+      "coverage_applications": 2
+    },
+    {
+      "name": "collisions",
+      "line_exponents": [
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "row_multiplicities": [
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "interpolation_degree": -1,
+      "symmetric_jet_count": 0,
+      "symmetric_monomial_count": 0,
+      "modular_prime": 251,
+      "constant_power_of_ten": 123,
+      "minimum_gain": "123/250",
+      "coverage_applications": 79360
+    }
+  ],
+  "source_row_threshold_power_of_ten": 996149
+}

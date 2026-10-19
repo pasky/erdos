@@ -7,7 +7,7 @@ desc: |
   large sieve); proposed input for Problems 770, 985, 969, 769, 1204 and 855.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T03:52:50Z
+updated: 2026-10-19T04:18:48Z
 ---
 
 # primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12
@@ -308,15 +308,10 @@ acceptance evidence, not on this card.
   $p>\sqrt n$. Section 1 of the manuscript states, with citations to Rodosskii
   and Montgomery--Vaughan's Theorem 13.12 and without proof, that Theorem 1.1
   gives a bound of the form $(\log p)^{C}$ for the least quadratic nonresidue
-  modulo an odd prime $p$; the manuscript states only the quadratic case. The
-  page records Plasma AI's observation, which answers the third question
-  from the companion manuscript's half-plane $\operatorname{Re}s>7/8$; its
-  lemma needs only a zero-free half-plane for Dirichlet $L$-functions uniform
-  in the conductor, so this theorem's $\operatorname{Re}s>11/12$ would serve
-  it with $(\log n)^{12}$ in place of $(\log n)^8$. That is an inference of
-  this card, stated neither in the manuscript nor in the observation, and not
-  checked. The claim is unverified; the page's status rests on acceptance
-  evidence.
+  modulo an odd prime $p$; the manuscript states only the quadratic case.
+  Neither the manuscript nor the page records a deduction from this theorem
+  for the problem. The claim is unverified; the page's status rests on
+  acceptance evidence.
 - [[../wiki/problems/integer_sequences/E0985/_index|Problem 985]]: proposed input only.
   The manuscript mentions neither primitive roots nor this question; its
   uniform zero-free half-plane for all Dirichlet $L$-functions (Theorem 1.1)

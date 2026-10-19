@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [barrier, epsilon]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 413
@@ -93,6 +93,24 @@ OEIS sequence A005236 erdosproblems.com cites. The erdosproblems.com thread and
 proof-claim tab carried no proof claim on 2026-10-06, and no other result on the
 problem is known here. Proof coverage: nothing is independently reviewed in this
 corpus.
+
+## Prime-factor and interval interface
+
+The offset shift in
+[[../library/arithmetic_functions/lau_2026_number_prime_factors_consecutive_integers/_index|Lau's
+Theorem 1.3]] is essential. With $N=n-1$, the bound $\omega(N-j)\le C\log(j+1)$
+gives the small-coefficient conclusion with $\epsilon=1/(C\log2)$, because
+$\log_2(j+1)\le j$ for integers $j\ge1$. The zero offset must retain the
+source's endpoint condition.
+
+For coefficient one, $C\log(j+1)\le j$ holds only for all $j\ge K$, once $K$ is
+sufficiently large. The finitely many smaller offsets are genuine extra
+constraints; already $\omega(N-1)\le1$ requires a prime power. Their
+simultaneous compatibility with the weighted construction is not supplied by
+the large-offset estimate. The existing claim proof and the theorem's transfer
+were inspected, but not the full analytic proof. A further argument must
+preserve positive mass after all small-offset constraints are imposed.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

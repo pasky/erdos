@@ -13,7 +13,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 596
@@ -88,7 +88,14 @@ Whether the pair $(K_4,K_3)$ qualifies is
 every $n$ (Folkman for two colors, Nešetřil and Rödl for every $n$), so the
 pair qualifies exactly when Problem 595 has a negative answer, and Shelah's
 consistency result for that problem means that ZFC cannot prove that the pair
-qualifies, relative to the consistency of ZFC alone.
+qualifies, relative to the consistency of ZFC alone. As a route to
+the finite side, the color-reduction mechanism of
+[[research/erdos_1171/_index|the Problem 1171 folder]] reaches its two-color
+case by Hajnal's argument, reaches three or more colors only from a model in
+which $\alpha\not\to(\beta,4)^2$ and $\alpha\to(\beta,3,3,3)^2$ hold
+together, which Komjáth 2025 records as unknown, and reaches none of the
+countable case (author-recorded;
+[[research/erdos_1171/connections|connections page]]).
 <!-- BEGIN problem library links -->
 
 ## Linked library material

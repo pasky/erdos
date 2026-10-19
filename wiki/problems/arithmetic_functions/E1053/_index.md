@@ -8,7 +8,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T15:47:04Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1053
@@ -37,13 +37,41 @@ https://www.erdosproblems.com/1053.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Here $k$ is a positive integer allowed to vary with $n$. A theorem for
+each fixed $k$ cannot establish the requested uniform little-o bound:
+fixed $k$ already has $k/\log\log n\to0$. Bounded $\omega(n)$ also
+only addresses a restricted range, since
+$\sigma(n)/n\le\prod_{p\mid n}(1-1/p)^{-1}$ then bounds $k$.
+The held historical account does not supply the needed saving for
+varying $k$; no complete current-literature audit is asserted here.
 
-## Known Results
+Integrality is essential to such a saving. To see this, let
+$Q_y=\prod_{p\le y}p$. Then
 
-Not yet compiled.
+$$
+\frac{\sigma(Q_y)}{Q_y}
+=\prod_{p\le y}(1-p^{-2})
+ \prod_{p\le y}(1-p^{-1})^{-1}
+\ge\frac12\sum_{m\le y}\frac1m.
+$$
+
+The first product is at least
+$\prod_{m\ge2}(1-m^{-2})=1/2$. Expanding the second product includes
+every $1/m$ for $m\le y$. Also $\log Q_y\le y\log y$, so
+$\log\log Q_y\le\log y+\log\log y$. Consequently
+$\sigma(Q_y)/Q_y$ is not $o(\log\log Q_y)$.
+
+These values are nonintegral once the largest prime $q\mid Q_y$ exceeds
+$3$. No factor $p+1$ with prime $p\le q$ is divisible by $q$:
+for $p<q$ this would force $p+1=q$ and the even prime $p=q-1=2$,
+whereas $p=q$ gives $q+1$. Thus $q$ cannot cancel from the denominator
+of $\prod_{p\le y}(p+1)/p$. This author-recorded argument of Plasma AI
+is an obstruction to discarding integrality, not a counterexample to
+the problem. It has not been independently reviewed. A useful next
+estimate must exploit integrality with the multiplier unbounded, rather
+than use only a general maximal-order bound or a fixed-$k$ classification.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

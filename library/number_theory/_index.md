@@ -3,7 +3,7 @@ name: number_theory
 title: "Other Number Theory"
 desc: "Sources filed under Other Number Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:27:55Z
+updated: 2026-10-18T10:10:48Z
 ---
 
 # Other Number Theory
@@ -52,6 +52,8 @@ mathematics release's claims on 25 Erdős problems, with a short remark on
 each and whether its proof was formalized; a summary of claims, expressly
 not an endorsement.
 
+[[number_theory/bourgain_2017_decoupling_exponential_sums_riemann_zeta/_index|bourgain_2017_decoupling_exponential_sums_riemann_zeta/]]: Bourgain's exponent pair with coordinates 13/84 plus epsilon and 55/84 plus epsilon supplies exponential-sum estimates subject to the standard smooth-phase conditions.
+
 [[number_theory/bzdega_2010_bounds_ternary_cyclotomic_coefficients/_index|bzdega_2010_bounds_ternary_cyclotomic_coefficients/]]: A theorem-indexed source review with a complete local Markdown reading copy.
 
 [[number_theory/canfield_1983_problem_oppenheim_factorisatio_numerorum/_index|canfield_1983_problem_oppenheim_factorisatio_numerorum/]]: Proves that highly factorable n have f(n) = n L(n)^{-1+o(1)} unordered
@@ -85,11 +87,12 @@ behind erdosproblems.com's SOLVED label for Problem 1005, accepted by
 erdosproblems.com and not refereed.
 
 [[number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes/_index|colliot_thelene_skorobogatov_2021_brauer_groups_schemes/]]: Surveys Brauer groups of schemes (Azumaya versus cohomological, residues,
-purity) and proves injectivity into the function-field Brauer group.
+purity) and proves injectivity into the function-field Brauer group, an input
+to the E940 quadratic-compression obstruction.
 
 [[number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/_index|colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/]]: Proves finite cokernel for the Brauer comparison map and that smooth complete
 intersections of dimension at least three in characteristic zero have only
-constant Brauer classes.
+constant Brauer classes, an input to the E940 compression obstruction.
 
 [[number_theory/conjectures_io_2026_lean_solutions_erdos_problems/_index|conjectures_io_2026_lean_solutions_erdos_problems/]]: Records sixteen Conjectures.io Lean solution files by URL and SHA-256, held
 under reserved terms and so not in the library, and keeps the kernel replay
@@ -137,7 +140,8 @@ epsilon m for every m >= t, has a mean value c(epsilon) over the primes p
 (80), whose one-sided threshold it treats in a remark.
 
 [[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/_index|elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/]]: Proves the Cassels–Pfister, Representation, Quadratic Value and Springer
-theorems on values and isotropy of quadratic forms over field extensions.
+theorems on values and isotropy of quadratic forms over field extensions, two
+of which drive the E940 compression obstruction.
 
 [[number_theory/erdos_1943_note_farey_series/_index|erdos_1943_note_farey_series/]]: Proves an absolute constant c exists such that Farey fractions of order n at
 index distance k are similarly ordered once n exceeds ck.
@@ -238,20 +242,20 @@ g(k), four Sidon questions, the unit-fraction coloring question with
 Graham and the gap question on sums of powers of q with Joó.
 
 [[number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory/]]: Guy's third edition of Unsolved Problems in Number Theory (2004), the
-190-section problem book in six parts (primes, divisibility, additive
-number theory, Diophantine equations, sequences of integers, none of the
-above) that states results and conjectures, mostly with references and
-without proofs; cited on 95 problem pages, from the Erdős--Turán Sidon and
-basis questions of C9 and the nonaveraging sets of C16 to the barriers,
-totient iterates and weird numbers of part B and the 3x+1 problem of E16.
+190-section book in six parts (primes, divisibility, additive number theory,
+Diophantine equations, sequences of integers, none of the above) stating
+results and conjectures, mostly with references and without proofs; cited on
+95 problem pages, from the Erdős--Turán Sidon and basis questions of C9 and
+the nonaveraging sets of C16 to the barriers, totient iterates and weird
+numbers of part B and the 3x+1 problem of E16.
 
 [[number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/_index|halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/]]: Halász's 1977 bounds on how many of the 2^n signed sums of n vectors in
 d-space can fall into one unit ball: 2^n n^{-d/2} for d-dimensional
 configurations (Theorem 1), 2^n n^{-1-d/2} when the vectors are also
 1-separated (Theorem 2) and 2^n n^{-3d/2} for scattered ones (Theorem 3),
-from the paper's concentration inequality for sums of independent random
-vectors (Theorem 4); Theorem 2 confirms Erdős's conjecture that fixing the
-number of plus signs in the Sárközy–Szemerédi problem gives 2^n n^{-2}.
+from its concentration inequality for sums of independent random vectors
+(Theorem 4); Theorem 2 confirms Erdős's conjecture that fixing the number of
+plus signs in the Sárközy–Szemerédi problem gives 2^n n^{-2}.
 
 [[number_theory/halbeisen_hungerbuhler_1997_optimal_rational_cycle_bounds/_index|halbeisen_hungerbuhler_1997_optimal_rational_cycle_bounds/]]: Proves optimal length bounds for positive rational Collatz cycles and derives
 a lower bound of 102225496 on the length of any nontrivial integer cycle,
@@ -370,6 +374,12 @@ so that the xi with non-dense fractional parts form a set of dimension 1;
 a solution of Erdős's 1975 lacunary density question independent of de
 Mathan's.
 
+[[number_theory/price_2026_counterexample_prime_counting_bound_one_separated_semigroups/_index|price_2026_counterexample_prime_counting_bound_one_separated_semigroups/]]: An 11-page note printing no author that gives five reals below 10 whose
+power products are at least 1 apart, certified by a norm bound in
+Q(2^(1/6)) and validated interval arithmetic, and a lemma extending such
+generator sets without end, so #{a_i <= x} <= pi(x) fails at x = 10;
+unrefereed.
+
 [[number_theory/sarkozi_1965_uber_ein_problem_von_erdos_und/_index|sarkozi_1965_uber_ein_problem_von_erdos_und/]]: Proves the Erdős-Moser conjecture that the number of subset sums of n
 distinct positive reals hitting one value is at most about 2^n/n^{3/2}.
 
@@ -396,6 +406,18 @@ Friedlander and Iwaniec, applied to products of two primes.
 
 [[number_theory/simons_de_weger_2010_mcycles_bounds/_index|simons_de_weger_2010_mcycles_bounds/]]: Rules out nontrivial m-cycles of the 3n+1 map for m <= 75, direct cycle
 exclusion for the Collatz conjecture (problem 1135).
+
+[[number_theory/sothanaphan_2026_one_separated_semigroups_prime_minimality/_index|sothanaphan_2026_one_separated_semigroups_prime_minimality/]]: Nat Sothanaphan's note of 28 January 2026, joint with ChatGPT, proving that
+101/42, 367/103 and 113/24 generate a free multiplicative semigroup whose
+elements are at least 1 apart, so three such generators fit below the third
+prime 5; certified by Matveev's bound, LLL reduction and an exact finite
+check; unrefereed.
+
+[[number_theory/sothanaphan_2026_probabilistic_box_certification_one_separated_semigroups/_index|sothanaphan_2026_probabilistic_box_certification_one_separated_semigroups/]]: Nat Sothanaphan's note dated 2 February 2026, joint with ChatGPT, proving
+by box certificates, an interval check of the small products and a union
+bound for the rest, that for each n from 3 to 7 some n reals below the n-th
+prime generate a free semigroup with elements at least 1 apart; no
+generators are exhibited; unrefereed.
 
 [[number_theory/stanley_1980_weyl_groups_hard_lefschetz_theorem_sperner/_index|stanley_1980_weyl_groups_hard_lefschetz_theorem_sperner/]]: Uses the hard Lefschetz theorem to prove posets from algebraic varieties
 have the k-Sperner property, settling an Erdos-Moser conjecture.
@@ -436,7 +458,8 @@ coefficient has a good rational approximation whose denominator is at
 least a fixed power of P.
 
 [[number_theory/voight_2021_quaternion_algebras_over_global_fields/_index|voight_2021_quaternion_algebras_over_global_fields/]]: Classifies quaternion algebras over global fields by even ramification sets,
-proving the rational case via Hilbert reciprocity and Hasse–Minkowski.
+proving the rational case via Hilbert reciprocity and Hasse–Minkowski; the
+reciprocity feeds the E940 quartic-complement lemma.
 
 [[number_theory/wang_2026_exact_formula_erdos_problem_1005/_index|wang_2026_exact_formula_erdos_problem_1005/]]: A 2026 arXiv preprint, with declared AI assistance, claiming that the
 Problem 1005 function equals van Doorn's upper bound floor(n/4) + d, with

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 325
@@ -76,6 +76,14 @@ since zero is allowed as a summand, $f_{k,3}(x)\ge f_{k,2}(x)$. For
 $4\le k\le32$ no result beyond $f_{k,3}(x)\gg x^{2/k}$ is recorded, and
 later work that may extend Browning and Heath-Brown's range below $33$ is not
 assessed.
+
+## Route analysis
+
+The [[research/diophantine_representation_interfaces/power_sums|power-sum
+representations and collision counts]] account records the following scope. The
+k>=33 corollary is sufficient, but its exact collision-exponent inequality and
+any later improvement below 33 remain uninspected.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

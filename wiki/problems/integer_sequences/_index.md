@@ -7,7 +7,7 @@ desc: |
   asking for their density, counting function, gaps or growth, including
   covering-congruence and sieve questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-18T10:48:26Z
 ---
 
 # Sequences and Densities of Integers
@@ -314,9 +314,9 @@ with the ratio exceeding any constant.
 
 [[problems/integer_sequences/E0687/_index|E0687/]]: Asks for the order of the
 longest initial interval that one residue class for each prime $p\le x$ can
-cover, the covering form of Jacobsthal's function. It is open: an accepted
-partial claim gives $Y(x)\ll x^2/(\log x)^2$, so $Y(x)=o(x^2)$, and the order
-lies between $x\log x$ times iterated logarithms and that bound.
+cover, the covering form of Jacobsthal's function. It is open: a pending partial
+claim gives $Y(x)\ll x^2/(\log x)^2$, so $Y(x)=o(x^2)$, and the order lies
+between $x\log x$ times iterated logarithms and that bound.
 
 [[problems/integer_sequences/E0688/_index|E0688/]]: Asks for the largest
 $\epsilon_n$ such that one residue class for each prime $p$ with
@@ -460,8 +460,8 @@ $N^2/((\log N)^{\delta}(\log\log N)^{3/2})$.
 [[problems/integer_sequences/E0929/_index|E0929/]]: Asks for the least $x$ such
 that a positive density of $n$ have each of $n+1,\ldots,n+k$ divisible by a
 prime $\le x$, and whether it is at least $k^{1-o(1)}$. It is the inverse of the
-covering function of Problem 687 and is open, with lower bounds only of order
-$\sqrt{k}\log k$.
+covering function of Problem 687 and is open, with lower bounds of order
+$\sqrt{k}$ refereed and $\sqrt{k}\log k$ resting on a pending claim.
 
 [[problems/integer_sequences/E0932/_index|E0932/]]: Asks whether infinitely many
 prime gaps $(p_r,p_{r+1})$ contain at least two integers whose prime factors are
@@ -480,8 +480,8 @@ lower bound and $k/\log k$ times iterated logarithms.
 [[problems/integer_sequences/E0962/_index|E0962/]]: Asks for an estimate of the
 greatest $k$ such that, for some $m\le n$, each of $m+1,\ldots,m+k$ is divisible
 by a prime greater than $k$, and whether $\log k(n)\le(\log n)^{1/2+o(1)}$. Both
-are open, and $\log k(n)$ lies between $c\sqrt{\log n\log\log n}$ and $(\log
-n)/2$.
+are open. A published upper bound is $k(n)\ll n^{2/5}$; an author-recorded
+exponent-pair deduction gives $k(n)\ll_\varepsilon n^{38/97+\varepsilon}$.
 
 [[problems/integer_sequences/E0968/_index|E0968/]]: Asks whether the set of $n$
 with $p_n/n<p_{n+1}/(n+1)$ has positive density.

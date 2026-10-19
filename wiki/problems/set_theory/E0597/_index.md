@@ -13,7 +13,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 597
@@ -105,6 +105,9 @@ statement per its review) and restriction to the initial segment, so that
 question is not disprovable in ZFC, as
 [[problems/set_theory/E0597/claims/1989_01_01_baumgartner|Baumgartner's claim page]]
 records.
+[[research/erdos_1171/connections|The Problem 1171 connections page]] holds
+author-recorded research relating this question to
+[[problems/set_theory/E1171/_index|Problem 1171]]; it is not a claim.
 
 The 2026 claims are pending, not accepted. Bloom's catalog labeled the problem
 OPEN (page last edited 23 January 2026) with no comments and one proof claim,

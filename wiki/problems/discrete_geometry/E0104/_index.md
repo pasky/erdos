@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 104
@@ -80,6 +80,13 @@ Proposition 2.3 is Székely's bound weakened by a $\log^2$ factor), but only nea
 the balanced scale, and at the three-rich end such bounds give nothing below
 $n^2$. So the release gets no claim page here and no consequence for this
 problem is derived from it.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/circumradii|circle counts and
+distinct circumradii]] account records the following scope. A pair lies on at
+most two unit circles, so 3U <= 2 binom(n,2), giving U <= n(n-1)/3 only.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

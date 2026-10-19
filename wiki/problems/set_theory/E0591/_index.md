@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 591
@@ -60,12 +60,20 @@ https://www.erdosproblems.com/591.
 The problem's solved standing rests on the claim page
 [[problems/set_theory/E0591/claims/2010_05_13_schipperus|Schipperus 2010]],
 which records the proof's source and acceptance evidence and discloses
-Darby's independent proof. This page records no current literature search or
-independent assessment of proof coverage.
+Darby's independent proof. The note below points to author-recorded research,
+which is not independently reviewed. This page records
+no current literature search or independent assessment of proof coverage.
 The Feng et al. 2026 report on Aletheia, a Gemini-based research agent, lists
 Problem 591 among its literature identifications, a pointer to [Sc10] and not
 a new result
 ([[../library/distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|card]]).
+
+## Known Results
+
+[[research/erdos_1171/connections|The Problem 1171 connections page]] holds
+author-recorded research on transferring the color-reduction lemma of
+[[research/erdos_1171/lemma_2_1_reconstruction|the Problem 1171 folder]] to
+this problem; it is not a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -74,6 +82,8 @@ These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
 - [[../library/distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|feng_2026_semi_autonomous_mathematics_discovery_gemini_case]]
+- [[../library/set_theory/darby_1999_negative_partition_relations_ordinals/_index|darby_1999_negative_partition_relations_ordinals]]
+- [[../library/set_theory/darby_1999_negative_partition_relations_ordinals/theorem_6_2|darby_1999_negative_partition_relations_ordinals / theorem_6_2]]
 - [[../library/set_theory/erdos_1974_unsolved_solved_problems_set_theory/_index|erdos_1974_unsolved_solved_problems_set_theory]]
 - [[../library/set_theory/erdos_1974_unsolved_solved_problems_set_theory/question_p270|erdos_1974_unsolved_solved_problems_set_theory / question_p270]]
 - [[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/_index|erdos_1987_problems_finite_infinite_graphs]]

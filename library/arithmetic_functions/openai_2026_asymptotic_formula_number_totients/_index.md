@@ -7,7 +7,7 @@ desc: |
   prefix-collision counting over Ford's normal structure; Problems 416, 417, 51.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T03:51:47Z
+updated: 2026-10-19T04:19:04Z
 ---
 
 # arithmetic_functions/openai_2026_asymptotic_formula_number_totients
@@ -251,11 +251,10 @@ step is declared. The release folder holds no `verification/` directory.
   [[../wiki/problems/arithmetic_functions/E0416/_index|Problem 416]].
 - [[../wiki/problems/arithmetic_functions/E0417/_index|Problem 417]]: claimed input
   the page lacks, unverified here. Theorem 2.2 with $k=1$ claims that the
-  totients $v\le x$ with $x<\ell(v)\le2x$ number $\asymp V(x)$; since every
-  such $v$ is counted by $V(x)$ and not by $V'(x)$, this gives (an inference
-  drawn here, not in the manuscript) $\liminf V(x)/V'(x)>1$. The manuscript
-  does not mention $V'$ or the existence of the limit; the page's status rests
-  on acceptance evidence.
+  totients $v\le x$ with $x<\ell(v)\le2x$ number $\asymp V(x)$, and every
+  such $v$ is counted by $V(x)$ and not by $V'(x)$. The manuscript does not
+  mention $V'$ or the existence of the limit; the page's status rests on
+  acceptance evidence.
 - [[../wiki/problems/arithmetic_functions/E0051/_index|Problem 51]]: comparison. The
   question is equivalent to $\ell(d)/d$ being unbounded over totients;
   Theorem 2.2 claims that each $N_k(x)$ is of order $V(x)$ or identically zero
@@ -263,6 +262,18 @@ step is declared. The release folder holds no `verification/` directory.
   reformulates a positive answer as the positive alternative for every $k$,
   and Remark 7.4 says that neither is established. Unverified here; nothing
   here changes the page's status.
+- [[../wiki/research/leads/general_scale_totient_doubling/_index|general_scale_totient_doubling]]:
+  Corollary 6.2 claims the lead's target, $V(cx)/V(x)\to c$ for every fixed
+  $c>1$, by a common-mass argument that does not pass through the accepted
+  family's balance estimate (5$_c$); unverified here, and the lead's premise
+  is neither proved nor refuted by it.
+- [[../wiki/research/erdos_416/_index|the Problem 416 research folder]]: its
+  index names, for the write-up's route, an explicit asymptotic evaluation
+  of that route's pair counts $H_\varepsilon(y)$ with a main term independent
+  of the cutoff; Theorem 2.1 claims a formula for $V(x)$ by a different
+  decomposition (prefix volume times exact tail union) and does not evaluate
+  those pair counts, unverified here, and the folder's reconstructions are
+  not addressed by the manuscript.
 - [[arithmetic_functions/ford_1998_distribution_totients/_index|Ford (1998)]]:
   the manuscript's main external input (Theorems 1, 10 and 16, Lemma 2.6,
   Lemmas 3.1, 3.2, 3.4 and 3.7 with Corollaries 3.3 and 3.5, Lemma 5.1 and the

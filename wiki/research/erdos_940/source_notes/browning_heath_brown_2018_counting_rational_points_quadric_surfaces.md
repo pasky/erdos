@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Browning–Heath-Brown: Counting rational p
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T05:28:09Z
 ---
 
 # Browning–Heath-Brown: Counting rational points on quadric surfaces
@@ -128,4 +128,81 @@ $$
 
 
 E940 asks whether $|\bigcup_{k\le r}\mathcal A_{r,k}(X)|=o(X)$ for every
-$r\ge3$. The paper neither formulates nor proves such a density statement.
+$r\ge3$. The paper neither formulates nor proves such a density statement, but
+for $r=3$ it supplies a relevant fixed-fiber estimate.
+
+Every positive 3-powerful integer has a canonical expression
+
+
+$$
+m=a^2b^3,
+$$
+
+
+where $b$ is squarefree: at each prime, the exponent of $b$ is the parity of
+the exponent of $m$. The condition that $m$ be 3-powerful additionally
+excludes $v_p(a)=1$ when $p\nmid b$. Hence, after fixing the squarefree
+kernels $\mathbf b=(b_1,b_2,b_3)$, a representation of a target integer
+$n>0$ by three 3-powerful numbers gives the primitive point
+$(a_1,a_2,a_3,1)$ on
+
+
+$$
+Q_{n,\mathbf b}(x_1,x_2,x_3,z)
+ =b_1^3x_1^2+b_2^3x_2^2+b_3^3x_3^2-nz^2=0.
+$$
+
+
+Representations by fewer than three summands may be padded by setting one or
+more $x_i=0$. With the diagonal matrix convention, this form has
+
+
+$$
+\Delta_{n,\mathbf b}=-n(b_1b_2b_3)^3,
+$$
+
+
+so it is nonsingular and has nonsquare discriminant for positive $n,b_i$.
+Consequently the nonsquare-discriminant part of Theorem 1.1 applies whenever its
+square-full-discriminant hypothesis holds. If $|a_i|\le B$, the number of such
+affine representations for fixed $(n,\mathbf b)$ is at most
+$N_{Q_{n,\mathbf b}}(B)$; this is an upper bound because the projective count
+also includes solutions with $z\ne1$. For summands at most $X$, the natural
+individual bounds are $|a_i|\le X^{1/2}b_i^{-3/2}$, whereas Theorem 1.1 uses a
+common sup-norm height.
+
+The main obstruction to a direct E940 application is parameter uniformity. Since
+$(b_1b_2b_3)^3\mid\Delta_{\mathrm{bad}}(Q_{n,\mathbf b})$, the hypothesis
+$\Delta_{\mathrm{bad}}\le B^{1/20}$ forces
+
+
+$$
+b_1b_2b_3\le B^{1/60},
+$$
+
+
+which covers only a very small part of the kernel range arising from 3-powerful
+summands. Moreover, $\|Q_{n,\mathbf b}\|$ is typically comparable to
+$\max(n,b_1^3,b_2^3,b_3^3)$, so the factor $(\|Q\|^4/|\Delta_Q|)^{5/8}$ can
+become too large to sum over $n$ and $\mathbf b$. Theorem 1.1 counts
+representations on each fixed quadric; it gives no saving for the number of
+distinct targets and no average over the changing coefficient $n$. Proving
+E940 by a representation-counting union bound would require an aggregate
+$o(X)$ estimate after summing over all canonical kernels and targets, which is
+not supplied here.
+
+For $r>3$, every $r$-powerful number is also 3-powerful and admits the same
+$a^2b^3$ decomposition, but fixing all kernels produces a quadratic equation
+in $r+1$ homogeneous variables, outside the paper’s quaternary scope. One
+could freeze $r-3$ summands and apply Theorem 1.1 to the residual
+three-summand equation, but the paper provides no control adequate for summing
+over the frozen variables.
+
+The most reusable components are therefore local rather than conclusive: Lemmas
+2.1–2.9 give a robust way to slice and count a quaternary quadratic fiber with
+explicit discriminant dependence, while Theorem 3.2 controls multiplicative
+local weights evaluated at values of the dual quadratic form. These could enter
+an E940 argument after a decomposition into fixed squarefree kernels, provided
+one separately obtains substantially stronger averaging over the kernels and
+target integers. The paper does not establish density zero for three cubes,
+three 3-powerful numbers, or any of the sets in E940.

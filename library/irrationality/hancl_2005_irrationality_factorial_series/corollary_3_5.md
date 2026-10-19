@@ -6,7 +6,7 @@ desc: |
   gamma the sum over N of the integer part of gamma N to the alpha divided
   by N factorial is irrational.
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -40,4 +40,4 @@ $F(N)=\gamma N^{\alpha-1}$; for $\alpha\in\mathbb{Z}$,
 [[irrationality/hancl_2005_irrationality_factorial_series/corollary_3_4|Corollary 3.4]]
 with $T=\alpha$.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

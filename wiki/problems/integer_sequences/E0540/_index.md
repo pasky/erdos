@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 540
@@ -52,8 +52,8 @@ abelian group of order $n$ and every subset $A$ with $|A|\ge c\sqrt n$, $0$ is a
 sum of a nonempty subset of $A$. For $n\le n_0$, any $c\ge\sqrt{n_0}$ makes
 $c\sqrt n\ge n$, so only $A=\mathbb Z/n\mathbb Z\ni0$ qualifies. Hence one
 constant serves every $N$ (a one-line remark on this page). erdosproblems.com's
-(LEAN) suffix is a catalog label explained under Formalization and the Lean
-label below.
+(LEAN) suffix is an erdosproblems.com label explained under Formalization and
+the Lean label below.
 
 Each refinement has its claim page. Olson (1968, Theorem 1) proved the prime
 case with the threshold $s>(4p-3)^{1/2}$, hence with the constant $2$
@@ -134,8 +134,8 @@ https://www.erdosproblems.com/540, accessed 2026-09-18.
   time): the largest number of residue classes mod $n$ with no zero-sum
   subset.
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label; see
-"Formalization and the Lean label" below. The file
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below. The file
 [`ErdosProblems/540.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/540.lean)
 of formal-conjectures at the commit that was main on 2026-09-18 defines
 `HasZeroSubsetSum (A : Finset G) : Prop := ∃ S : Finset G, S ⊆ A ∧ S.Nonempty ∧ S.sum id = 0`
@@ -143,8 +143,8 @@ and declares
 `erdos_540 : answer(True) ↔ ∃ C : ℝ, 0 < C ∧ ∀ (N : ℕ), 0 < N → ∀ A : Finset (ZMod N), C * Real.sqrt N ≤ A.card → HasZeroSubsetSum A`
 under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `src/v4.29.1/ErdosProblems/Erdos540.lean` in `plby/lean-proofs`
-on its `main` branch. The community database, read 2026-09-18, lists the
-problem as "proved (Lean)" as of its last update on 15 April 2026, the statement
+on its `main` branch. The community database, read 2026-09-18, lists the problem
+as "proved (Lean)" as of its last update on 15 April 2026, the statement
 formalized since 6 July 2026, `formal_status` Lean and no formal-proof URL.
 Nothing was built.
 
@@ -252,9 +252,9 @@ record these results. Read depth: claims checked for each theorem; Balandraud's
 ten-line deduction of Theorem 9 from Theorem 5 is checked, Theorem 5 itself
 is not.
 
-**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a statement
-with a `sorry` body whose `formal_proof` attribute names
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
+statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos540.lean` in `plby/lean-proofs` on its `main`
 branch, not a fixed commit. At the repository's head of 15 September 2026, the
 commit the Szemerédi claim page links, the file (42,670 bytes, 978 lines; Lean

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: On partitioning Sidon sets with quasi-indep
 tags: []
 sources: []
 created: 2026-09-17T21:51:09Z
-updated: 2026-09-17T22:01:10Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # On partitioning Sidon sets with quasi-independent sets
@@ -29,6 +29,10 @@ The research uses the finite-determination principle. With $\mu(E,m)$ the
 least number of $m$-independent classes covering $E$, Lemma 11 gives
 $\mu(E,m)=\sup\{\mu(F,m):F\subset E\text{ finite}\}$, and Theorems 7 and 8
 assemble finite examples of unbounded cover number at rapidly increasing
-scales while preserving a common Sidon bound. The random blocks of
-Theorem 1 have a uniformly bounded cover by design and are evidence for the
-positive side, not counterexamples. Reading depth is claims checked.
+scales while preserving a common Sidon bound. This sharpens the
+construction target to finite positive sets with one uniform proportional
+extraction constant and $\mu(F_t,1)\to\infty$; the research's own
+[finite-block theorem](../lemmas/finite_blocks.md) proves the assembly it
+needs directly. The random blocks of Theorem 1 have a uniformly bounded
+cover by design and are evidence for the positive side, not
+counterexamples. Reading depth is claims checked.

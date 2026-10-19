@@ -5,7 +5,7 @@ desc: "The argument combines a joint-walk clique bound, palette savings, cleanin
 tags: [research, graph-theory, erdos-809]
 sources: []
 created: 2026-09-24T18:44:36Z
-updated: 2026-09-24T18:44:36Z
+updated: 2026-10-14T06:58:01Z
 ---
 
 # A proof of the seven-cycle threshold asymptotic
@@ -364,15 +364,17 @@ so this prose proof carries no tier of its own.
 This paragraph is the one current record of the prose proof's standing and
 is edited in place.
 
-**Priority.** Asad Shahab's independent proof claim (erdosproblems.com's proof
-claim 358, filed before the project's 367 on 27 September 2026; preprint
-arXiv:2609.38286, 29 September 2026), a proof of the seven-cycle case with a
-Lean development whose headline theorem covers every odd cycle $C_{2k+1}$ with
-$k\ge3$, precedes this one; this corpus built that development at its pinned
-commit and audited its statement on 2026-10-08. The argument here is the
-project's own in authorship and is not claimed as first.
-[[problems/ramsey_theory/E0809/_index|The problem page]] records the dated
-check.
+**Priority.** The argument here is the project's own and was published first,
+in the project's Lean development, public on GitHub from 24 September 2026.
+Asad Shahab's independent proof claim (erdosproblems.com's proof claim 358,
+filed before the project's 367 on 27 September 2026; preprint arXiv:2609.38286,
+29 September 2026), a proof of the seven-cycle case with a Lean development
+whose headline theorem covers every odd cycle $C_{2k+1}$ with $k\ge3$, was
+published on GitHub on 27 September 2026 and filed on erdosproblems.com first;
+this corpus built that development at its pinned commit and audited its
+statement on 2026-10-08.
+[[problems/ramsey_theory/E0809/_index|The problem page]] records both dates and
+their sources.
 
 [The formalization guide](../formalization.md) names the Lean modules
 assembling the seven-cycle branch.

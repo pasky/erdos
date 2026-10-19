@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: D'Adderio–Moci: arithmetic matroids."
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # D'Adderio–Moci: arithmetic matroids
@@ -24,7 +24,8 @@ abelian group (Section 1.4) are called representable. The framework
 distinguishes rational dependence from integral saturation and torsion,
 information lost by the ordinary cyclotomic matroid.
 
-Its multiplicities record where a rational circuit fails to have a primitive
-$\{0,\pm1\}$ representative.
+This may be useful if the E0774 attack encodes roots-of-unity or simplicial
+dependencies into an integer lattice: multiplicities can signal where a
+rational circuit fails to have a primitive $\{0,\pm1\}$ representative.
 The paper does not supply a coloring theorem tailored to quasi-independence, so
 use it as language and invariant machinery rather than as a claimed bridge.

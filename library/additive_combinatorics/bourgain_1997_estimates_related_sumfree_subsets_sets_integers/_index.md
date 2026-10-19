@@ -1,18 +1,16 @@
 ---
 name: additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers
 desc: |
-  Bourgain's 1997 harmonic-analysis paper on sum-free subsets: Proposition
-  1.3, every set B of at least three positive integers has a sum-free subset
-  of size at least (|B| + 2)/3 (the printed statement omits the size
-  condition, which B = {1, 2} shows is needed), the bound after Erdős's
-  |B|/3 and Alon and Kleitman's (|B| + 1)/3; Proposition 1.4, the excess
-  over |B|/3 is at least a constant times the L^1 norm of the cosine sum
-  over B divided by log |B|; Proposition 1.7, a log |B| / log log |B| gain
-  for 3-sum-free subsets; and the fact that the k-sum-free constant tends
-  to 0.
+  Bourgain's 1997 paper on sum-free subsets: Proposition 1.3, every set B of
+  at least three positive integers has a sum-free subset of size at least
+  (|B| + 2)/3 (the printed statement omits the size condition, which
+  B = {1, 2} shows is needed); Proposition 1.4, the excess over |B|/3 is at
+  least a constant times the L^1 norm of the cosine sum over B divided by
+  log |B|; Proposition 1.7, a log |B| / log log |B| gain for 3-sum-free
+  subsets; and the fact that the k-sum-free constant tends to 0.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers

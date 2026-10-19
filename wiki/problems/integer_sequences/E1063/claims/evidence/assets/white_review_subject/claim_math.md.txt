@@ -1,0 +1,14 @@
+**Claim.** With $n_k$ as in
+[[problems/integer_sequences/E1063/_index|Problem 1063]], the README of the
+repository `pw/erdos1063-upper-bound` states as its Theorem that there is an
+absolute constant $C$ with
+
+$$
+n_k\le\exp\Bigl(C\,\frac{k\log\log k}{\log k}\Bigr)
+$$
+
+for all sufficiently large $k$, so that $n_k=\exp(o(k))=o(k\,[1,\ldots,k-1])$.
+
+[cut]
+
+**Depends on.** No page of this wiki.

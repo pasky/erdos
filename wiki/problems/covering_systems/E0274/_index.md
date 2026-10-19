@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 274
@@ -143,6 +143,9 @@ The remaining problem is to prove the repeated-index conclusion without a
 cell bound or to construct and verify a counterexample with at least eight
 cells (at least eighteen if Itabe's pending claim holds), which in a finite
 group needs order at least $1440$ by Margolis and Schnabel's Theorem A.
+
+The author-recorded [[research/covering_prime_interfaces/finite_certificates|finite-certificate comparison]] specifies the relevant periodic or finite-set test and the additional condition needed for the full question. It supplies no new witness or resolution.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

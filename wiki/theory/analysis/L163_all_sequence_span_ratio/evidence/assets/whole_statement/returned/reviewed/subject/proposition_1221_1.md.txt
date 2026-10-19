@@ -1,0 +1,52 @@
+*Proposition 1221.1 (Lemma 4.2 without distinctness).*
+Let $(x_n)$ be any sequence on $\mathbb T$, coincident terms allowed, let
+$B\ge1$ and $S\ge2$, and suppose that (4.1) holds for all integers
+$n\ge n_0$: $|N_n((x,x+D/n])-D|\le B$ for all $x\in\mathbb T$ and
+$0\le D\le S$. Put $L=\lfloor S\rfloor$. Then there are an integer $L'$
+with $L-B\le L'\le L+B$ and a list $z_1,\ldots,z_{L'}\in(0,1)$, possibly
+with repeated entries, whose maximum prefix counting error satisfies
+$H_{L'}(z_1,\ldots,z_{L'})\le B$, with $H_0=0$ for the empty list. If the
+imported Theorem 4.1 holds for
+lists of distinct entries, it holds for all lists, and then
+$B\ge\frac1{16}\log(L-B)$ whenever $L-B\ge L_0$.
+
+*Proof.* Choose an integer $N>n_0$ with $n_0L/N<1$ and put $w=L/N$. The
+positions of the first $n_0$ terms form a set $Q$ of at most $n_0$ points,
+and the set of $a\in\mathbb T$ for which $(a,a+w]$ meets $Q$ has measure at
+most $n_0w<1$; the finitely many $a$ for which $a$ or $a+w$ is the position
+of one of the first $N$ terms are excluded too. Fix such an $a$ and put
+$J=(a,a+w]$. By (4.1) at time $N$ with $D=L\le S$, the number $L'=N_N(J)$
+satisfies $|L'-L|\le B$, and every term in $J$ has index greater than
+$n_0$. List the terms in $J$ by index, $m_1<\cdots<m_{L'}\le N$, and put
+$z_i=(x_{m_i}-a)/w\in(0,1)$. Fix $j$ and let $n=m_j\ge n_0+1$; the terms of
+$P_n$ in $J$ are exactly the first $j$ listed, so
+$\#\{i\le j:\ z_i\le u\}=N_n((a,a+uw])$ for $0\le u\le1$. Put
+$f(u)=N_n((a,a+uw])-nuw$. The arc $(a,a+uw]$ has length $D/n$ with
+$D=nuw\le Nw=L\le S$, so $|f(u)|\le B$ by (4.1); the complementary arc
+$(a+uw,a+w]$ has length $D'/n$ with $D'=n(1-u)w\le S$ and count
+$j-N_n((a,a+uw])$, so $|f(1)-f(u)|\le B$. Since $f(1)=j-nw$,
+
+$$
+\#\{i\le j:\ z_i\le u\}-ju=f(u)-uf(1)=(1-u)f(u)-u\bigl(f(1)-f(u)\bigr),
+$$
+
+of absolute value at most $B$; for the convention $z_i<u$ the count is the
+left limit, with the same supremum. So $H_{L'}(z_1,\ldots,z_{L'})\le B$.
+
+For the last sentence let $z_1,\ldots,z_M$ be any list with $M\ge1$ and
+$\eta>0$, and
+let $\delta>0$ be smaller than $\eta/M^2$, than $(1-\max_iz_i)/M$, and
+than the least distance between distinct values of the list divided by
+$M$; omit the last restriction if the list takes only one value. For each
+value $v$ taken by $m\ge2$ entries, move those entries, in list order, to
+$v,v+\delta,\ldots,v+(m-1)\delta$; the new list $z'$ has distinct entries
+in $[0,1)$. For a prefix $j$ the function $F(u)=\#\{i\le j:\ z_i<u\}-ju$ is
+unchanged outside the intervals $(v,v+(m-1)\delta]$, and on such an
+interval the new function lies between $F(v)-j(m-1)\delta$ and $F(v+)$,
+where $F(v)$ and $F(v+)$ are the values of $F$ just before and just after
+its jump at $v$; so the new prefix error is at most
+$H_M(z)+M^2\delta<H_M(z)+\eta$, and $H_M(z')\le H_M(z)+\eta$. If Theorem 4.1
+holds for distinct lists, $H_M(z)\ge H_M(z')-\eta\ge\frac1{16}\log M-\eta$ for
+every $\eta>0$, hence $H_M(z)\ge\frac1{16}\log M$. Applied to the list above
+with $M=L'\ge L-B$, this gives $B\ge\frac1{16}\log(L-B)$. $\square$
+

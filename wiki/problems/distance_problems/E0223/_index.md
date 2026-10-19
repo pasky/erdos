@@ -14,7 +14,7 @@ parts:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 223
@@ -30,15 +30,21 @@ there exists some set of $n$ points $A\subseteq \mathbb{R}^d$, with diameter
 $1$, in which the distance 1 occurs between $f_d(n)$ many pairs of points in
 $A$. Estimate $f_d(n)$.
 
-**Status.** Solved. erdosproblems.com credits $f_2(n)=n$ for $n\ge3$ to Hopf and
-Pannwitz, and $f_3(n)=2n-2$ for $n\ge4$ to Grünbaum, Heppes and Straszewicz,
+**Status.** Solved. erdosproblems.com credits $f_2(n)=n$ for $n\ge3$ to
+[[problems/distance_problems/E0223/claims/1934_01_01_hopf_pannwitz|Hopf and Pannwitz 1934]],
+and $f_3(n)=2n-2$ for $n\ge4$ to
+[[problems/distance_problems/E0223/claims/1956_01_01_grunbaum|Grünbaum 1956]],
+[[problems/distance_problems/E0223/claims/1956_09_01_heppes|Heppes 1956]] and
+[[problems/distance_problems/E0223/claims/1957_01_01_straszewicz|Straszewicz 1957]],
 independently. For $d\ge4$ it credits the asymptotic
-$f_d(n)=(\frac{p-1}{2p}+o(1))n^2$ with $p=\lfloor d/2\rfloor$ to Erdős, and the
-exact value and the extremal sets for all $n\ge n_0(d)$ to Swanepoel. The three
-ranges of dimensions are the problem's parts, listed in the frontmatter as
-`plane`, `space` and `higher_dimensions`. Each result is recorded in `claims/`
-as an accepted partial claim settling its part. The problem's standing derives
-from the six claims together.
+$f_d(n)=(\frac{p-1}{2p}+o(1))n^2$ with $p=\lfloor d/2\rfloor$ to
+[[problems/distance_problems/E0223/claims/1960_01_01_erdos|Erdős 1960]], and the
+exact value and the extremal sets for all $n\ge n_0(d)$ to
+[[problems/distance_problems/E0223/claims/2007_07_02_swanepoel|Swanepoel 2007]].
+The three ranges of dimensions are the problem's parts, listed in the
+frontmatter as `plane`, `space` and `higher_dimensions`. Each result is recorded
+in `claims/` as an accepted partial claim settling its part. The problem's
+standing derives from the six claims together.
 
 **Source.** [erdosproblems.com/223](https://www.erdosproblems.com/223), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #223,

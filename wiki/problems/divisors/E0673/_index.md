@@ -12,7 +12,7 @@ status: solved
 claim: proved
 parts: [divergence, asymptotic]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:51:02Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 673
@@ -126,8 +126,16 @@ suggestion that the problem was a slip that Erdős corrected a year later into
 this account, dated 2026-10-07, covered the erdosproblems.com page and
 discussion thread, the 1979 paper, the 1982 survey, Erdős and Tenenbaum's 1983
 paper, Tenenbaum's 2013 survey, Alexeev's repository and the formal-conjectures
-file.
+file. The notes below record author-recorded transfers from research folders and
+are not independently reviewed.
 
+## Progress
+
+[[research/erdos_18/connections|The Problem 18 connections page]] records that
+the factorial divisor-gap and practical-number mechanisms of that folder do not
+bear on this problem: both questions concern almost all $n$ or averages over
+$n\le X$, while those mechanisms concern density-zero sequences, and along $n!$
+the divergence of $G$ is trivial.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -137,6 +145,7 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]]
 - [[../library/divisors/erdos_1979_unconventional_problems_number_theory_asterisque/_index|erdos_1979_unconventional_problems_number_theory_asterisque]]
+- [[../library/divisors/erdos_1981_sur_la_structure_de_la_suite/theorem_2|erdos_1981_sur_la_structure_de_la_suite / theorem_2]]
 - [[../library/divisors/tenenbaum_2013_erdos_unconventional_problems_number_theory/_index|tenenbaum_2013_erdos_unconventional_problems_number_theory]]
 - [[../library/divisors/tenenbaum_2013_erdos_unconventional_problems_number_theory/estimate_p9|tenenbaum_2013_erdos_unconventional_problems_number_theory / estimate_p9]]
 - [[../library/divisors/weingartner_2015_practical_numbers_distribution_divisors/_index|weingartner_2015_practical_numbers_distribution_divisors]]

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 727
@@ -49,13 +49,29 @@ https://www.erdosproblems.com/727.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/727.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The erdosproblems.com question requires infinitely many solutions for every
+fixed $k\ge2$. The held records contain the pending
+[[problems/factorials_binomials/E0727/claims/2026_09_07_land|claim for $k=3$, hence $k=2$]];
+that manuscript and its Lean development have not been checked in this corpus.
+The general question remains unresolved in these records. The assessment
+below checks the algebraic formulation and a fixed-window density comparison;
+it does not constitute a fresh search for the problem's current standing.
 
-## Known Results
+## Research
 
-Not yet compiled.
+Writing $B(n)=\binom{2n}{n}$, the condition is exactly
+$((n+1)\cdots(n+k))^2\mid B(n)$. The author-recorded
+[[theory/number_theory/L23_central_binomial_product_density/_index|fixed-window density comparison]]
+shows that its solution set differs on a set of density zero from
+$\{n:(n+1)\cdots(n+k)\mid B(n+k)\}$, the shifted solution set of
+[[problems/factorials_binomials/E0396/_index|Problem 396]] at parameter $k-1$.
+This does not transfer sparse infinitude or individual witnesses. The
+[[research/methods/central_binomial_product_windows|product-window note]]
+explains the shared large-prime obstruction and why density-one divisibility
+by the first power of the upward product does not supply the required square.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

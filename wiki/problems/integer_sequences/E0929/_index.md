@@ -5,13 +5,14 @@ desc: |
   Asks for the least $x$ such that a positive density of $n$ have each of
   $n+1,\ldots,n+k$ divisible by a prime $\le x$, and whether it is at least
   $k^{1-o(1)}$. It is the inverse of the covering function of Problem 687 and is
-  open, with lower bounds only of order $\sqrt{k}\log k$.
+  open, with lower bounds of order $\sqrt{k}$ refereed and $\sqrt{k}\log k$
+  resting on a pending claim.
 tags:
 - Number theory
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:38:41Z
+updated: 2026-10-18T10:49:17Z
 ---
 
 # Problem 929
@@ -69,13 +70,14 @@ states it ("Iwaniec's result $B(n)>c\sqrt n$ is the best lower bound known").
 The bound is the Corollary of [Iw78], p. 226, which gives $C(r)\ll r^2\log^2r$
 for the longest run of consecutive integers each divisible by one of $r$
 arbitrary primes, taken at $r=\pi(x)$, and it remains the best refereed lower
-bound. The best lower bound is $S(k)\gg k^{1/2}\log k$, with an unspecified
-constant: the inversion of $Y(x)\ll x^2/(\log x)^2$, which is accepted, not
-refereed, on Problem 687
+bound. The best claimed lower bound is $S(k)\gg k^{1/2}\log k$, with an
+unspecified constant: the inversion of $Y(x)\ll x^2/(\log x)^2$, which is
+pending, not refereed, on Problem 687
 ([[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]])
 and rests on the Lean bound for Jacobsthal's function of the OpenAI release of
-25 September 2026. It answers yes Erdős's request in [Er79d] p. 79 for
-$B(n)>Cn^{1/2}$ for every $C$; the exponent stays $1/2$ (Current assessment).
+25 September 2026. If that claim stands, it answers yes Erdős's request in
+[Er79d] p. 79 for $B(n)>Cn^{1/2}$ for every $C$; the exponent stays $1/2$
+(Current assessment).
 
 Upper bounds. There is the trivial $S(k)\le k+1$, and [Er76d]'s Rankin-type
 bound as printed. erdosproblems.com gives $S(k)\ll k\log_3k/(\log_2k\log_4k)$,
@@ -247,7 +249,7 @@ S(k)\ \ll\ \frac{k\log_3k}{\log k},
 $$
 
 smaller than (ii) by the factor $(\log_3k)^2/\log_2k$, which tends to $0$.
-(vi) The accepted partial claim on Problem 687
+(vi) The pending partial claim on Problem 687
 ([[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]])
 gives $Y(x)\le C_0x^2/(\log x)^2$ for every $x\ge2$, with an absolute but
 unspecified $C_0$: the Lean declaration `erdos_970_quadratic` of the OpenAI
@@ -262,12 +264,13 @@ $$
 S(k)\ \gg\ k^{1/2}\log k.
 $$
 
-So $S(k)/k^{1/2}\to\infty$, which answers yes Erdős's request in [Er79d]
-p. 79 that $B(n)>Cn^{1/2}$ for every $C$ and $n>n_0(C)$; Problem 687 records
-the same answer in the inverse form. The exponent is still $1/2$.
+So, on the pending Problem 687 claim, $S(k)/k^{1/2}\to\infty$, which would
+answer yes Erdős's request in [Er79d] p. 79 that $B(n)>Cn^{1/2}$ for every $C$
+and $n>n_0(C)$; Problem 687 records the same answer in the inverse form. The
+exponent is still $1/2$.
 
 **Bounds map.** $k^{1/2}\log k\ll S(k)\ll k\log_3k/\log k$ from the
-sources above (the lower bound by inversion (vi) of the bound accepted on
+sources above (the lower bound by inversion (vi) of the bound pending on
 Problem 687, the best lower bound from a refereed statement being (i),
 $k^{1/2}$; the upper bound by inversion (v) of the covering theorem accepted on
 Problem 4, the best upper bound from a refereed statement being (ii),
@@ -307,7 +310,7 @@ cite its pages. The erdosproblems.com proof-claim tab was empty.
 **Remaining gaps.** (1) The best refereed lower bound, $k^{1/2}$, rests on the
 Corollary of [Iw78] and on two one-line steps made on its result page and here,
 from $C(\pi(x))$ to $Y(x)$ and from $Y(x)$ to $S(k)$; the paper's Theorem is
-cited as stated and its proof is not checked here. The best lower bound,
+cited as stated and its proof is not checked here. The best claimed lower bound,
 $k^{1/2}\log k$, rests on the release's Lean bound, the authored step to $Y$
 reviewed on Problem 687 and the inversion (vi) made here; it has no refereed
 version, and its constant is not explicit. (2) erdosproblems.com's displayed
@@ -319,6 +322,9 @@ does not cross-reference Problem 687, of which this problem is the inverse form;
 recorded here as an observation. (5) The best upper bound rests on the covering
 theorem accepted on Problem 4 on the erdosproblems.com curator's credit; it has
 no refereed version, and its manuscript is not checked here.
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 349
 
 [[problems/additive_bases/_index|..]]
 
-[[problems/additive_bases/E0349/claims/_index|claims/]]: The 6 claim pages of Problem 349, one per claimant's result; the problem's standing derives from them.
+[[problems/additive_bases/E0349/claims/_index|claims/]]: The 7 claim pages of Problem 349, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -101,16 +101,15 @@ pair $(t/\alpha,\alpha)$, so the formal-conjectures catalog's complete pairs
 $(1/2^k,2)$, $k\ge0$, are the Statement's $(1/2^{k+1},2)$. The claim pages of
 Graham, van Doorn and Sothanaphan use the Statement's sums and index.
 
-**Status.** Open, the erdosproblems.com label (OPEN on 2026-10-06). Six partial
-claims are recorded, and none settles the question. Outside the regions and the
-base $\sqrt\varphi$ proved complete, no claim classifies the pairs with
+**Status.** Open, the erdosproblems.com label (OPEN on 2026-10-06). Seven
+partial claims are recorded, and none settles the question. Outside the regions
+and the base $\sqrt\varphi$ proved complete, no claim classifies the pairs with
 $1<\alpha<(1+\sqrt5)/2$ and $t\ge\min(2/\alpha,3/\alpha^2)$. So the derived
 standing is `open`/`none`.
 
 One claim is accepted on refereed evidence:
 [[problems/additive_bases/E0349/claims/1964_01_01_graham|Graham's 1964
-determination of the complete pairs with $0<t<1$, $1<\alpha<2$]]. The other five
-are pending. [[problems/additive_bases/E0349/claims/2025_09_08_van_doorn|van
+determination of the complete pairs with $0<t<1$, $1<\alpha<2$]]. The other six are pending, Geneson's among them: Plasma AI's internal review graded it sound, and it awaits the sign-off of Jacob Parish at Plasma AI. [[problems/additive_bases/E0349/claims/2025_09_08_van_doorn|van
 Doorn's 2026 preprint]], together with Graham's results, decides every
 $\alpha\ge(1+\sqrt5)/2$. It also classifies entire completeness for
 $1<\alpha\le5^{1/3}$ and proves completeness regions below the golden ratio.
@@ -171,15 +170,40 @@ $\alpha=\sqrt\varphi\approx1.2720$ (Kitamura's unreviewed Lean theorem), and is
 not complete at one Salem base near $1.25$ for arbitrarily large $t$ (Geneson),
 which refutes the conjecture of completeness for every $t>0$ below the golden
 ratio while leaving the classification there open. Only Graham's paper is
-refereed; the 2026 results are preprints, a shared note and merged catalog
-statements with third-party Lean proofs, none reviewed or accepted by
-erdosproblems.com. Geneson's proof of Theorem 9 was reviewed internally and
-graded sound, and acceptance of his claim on that review is pending until the
-project's reviewer signs off.
+refereed; the 2026 results are preprints, a shared note and merged
+formal-conjectures statements with third-party Lean proofs, none reviewed or
+accepted by erdosproblems.com. Geneson's proof of Theorem 9 was reviewed internally and graded sound; his claim stays claimed until Jacob Parish at Plasma AI signs off. The Progress note records author-recorded transfers from research
+folders and is not independently reviewed.
 
 **Search.** The erdosproblems.com thread and proof-claims tab, the
 formal-conjectures file and the linked library cards; the internal review of
-Geneson's Theorem 9 is the only independent assessment of proof coverage.
+Geneson's Theorem 9 assesses that source proof. The separately graded
+L33 deduction below has independent whole-conclusion coverage at its
+accepted external-premise boundary.
+
+The
+[[research/leads/dyadic_root_floor_completeness/_index|dyadic-root argument]]
+proves completeness for every $t>0$ at $\alpha=2^{1/m}$, $m\ge2$,
+even after finite deletion of values. Its independently graded tier-1 claim
+[[theory/additive_bases/L33_dyadic_root_floor_completeness/_index|L33]]
+uses the accepted base-two theorem with two disjoint residue classes of
+exponents. The argument works for both indexed and distinct-value sums;
+it does not classify arbitrary $\alpha$ or change the problem's standing.
+Plasma AI's deduction is recorded as a pending partial claim on
+[[problems/additive_bases/E0349/claims/2026_10_19_plasma_ai|its claim page]],
+at tier 1.
+
+## Progress
+
+The Problem 354 research folder's
+[[research/erdos_354/connections|connections page]] records (author-recorded)
+that the Yu--Chen two-ray descent does not transfer to single rays, that
+Proposition 11 of Geneson's preprint as reconstructed there gives arbitrarily
+large $t$ with every $\lfloor t\gamma^n\rfloor$ even at every Pisot or Salem
+base whose minimal polynomial has $P(1)\le-3$, and, in the lead
+small_base_two_ray_distance_divergence,
+a question at rational bases below the golden ratio whose negative outcome would
+give an incomplete ray there.
 
 ## Known Results
 
@@ -210,7 +234,7 @@ Geneson's Theorem 9 is the only independent assessment of proof coverage.
   poster, saying that van Doorn's own computations seemed to have been
   independently verified;
   [[problems/additive_bases/E0349/claims/2026_03_09_sothanaphan|claim page]].
-- Catalog partial results, June 2026 (Lean proofs in a fork of
+- formal-conjectures partial results, June 2026 (Lean proofs in a fork of
   formal-conjectures under the account cepadugato, generated with Claude Code
   by the pull requests' own footer), stated for the erdosproblems.com wording
   with values counted once and the index from $n=0$: never complete for
@@ -234,7 +258,7 @@ Geneson's Theorem 9 is the only independent assessment of proof coverage.
   sequence is not complete. That refutes the conjecture, recorded in the
   erdosproblems.com remarks, that the sequence is complete for every $t>0$ and
   every $1<\alpha<(1+\sqrt5)/2$, and says nothing about other bases or about a
-  classification; the author discloses machine assistance;
+  classification; the author discloses machine assistance; graded sound by Plasma AI's internal review, its sign-off pending;
   [[problems/additive_bases/E0349/claims/2026_09_06_geneson|claim page]].
 - Open: the pairs with $1<\alpha<(1+\sqrt5)/2$ and
   $t\ge\min(2/\alpha,3/\alpha^2)$ outside the proved regions and the base

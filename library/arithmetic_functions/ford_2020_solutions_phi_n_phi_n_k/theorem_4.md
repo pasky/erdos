@@ -5,7 +5,7 @@ desc: |
   Shows that sigma(n)=sigma(n+k) has infinitely many solutions n for a positive
   proportion of all natural numbers k, without naming any such k.
 created: 2026-10-08T14:33:26Z
-updated: 2026-10-08T14:33:26Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -36,7 +36,8 @@ reconstruction.
 
 **Depends on.** Theorem 5 and Lemma 2 of the paper (pp. 2--3).
 
-**Bears on.** No catalog problem directly. It is the divisor-sum analogue of
+**Bears on.** No erdosproblems.com problem directly. It is the divisor-sum
+analogue of
 [[arithmetic_functions/ford_2020_solutions_phi_n_phi_n_k/theorem_1|Theorem 1]],
 and it says nothing about the unit shift $k=1$.
 

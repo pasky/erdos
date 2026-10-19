@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 314
@@ -56,9 +56,9 @@ Theorem 2 gives the refined bound
 $|\sum_{\ell=n}^m1/\ell-1|\le1/(n^2(\log n)^{5/4-\varepsilon})$ for infinitely
 many pairs. Its transfer to $\epsilon(n)$ uses the paper's remark, stated
 without proof, that the sum can be forced above $1$. The label's Lean qualifier
-is a catalog label whose scope is qualified under Formalization and the Lean
-label below, and no local kernel credit is claimed. The accepted claim is
-recorded on
+is an erdosproblems.com label whose scope is qualified under Formalization and
+the Lean label below, and no local kernel credit is claimed. The accepted claim
+is recorded on
 [[problems/unit_fractions/E0314/claims/2024_05_18_lim_steinerberger|Lim and Steinerberger's claim page]].
 
 **Source.** [erdosproblems.com/314](https://www.erdosproblems.com/314),
@@ -179,8 +179,8 @@ the belief that the exponent $2$ is best possible as a conjecture. The two-block
 integrality question for consecutive reciprocals is
 [[problems/unit_fractions/E0288/_index|Problem 288]].
 
-**Formalization and the Lean label.** The erdosproblems.com Lean qualifier is a
-catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** The erdosproblems.com Lean qualifier is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names the file
 `Erdos314.lean` in Boris Alexeev's `lean-proofs` repository at the pinned
 commit of 30 June 2026. That file (1,896 lines, `import Mathlib`, no

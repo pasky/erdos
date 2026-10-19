@@ -7,7 +7,7 @@ desc: |
   O_d(B^{3/sqrt d}(log B)^4+1), and those off all lines number
   O_d(B^{3/sqrt d}(log B)^4+B).
 created: 2026-10-08T16:39:21Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -66,4 +66,4 @@ print; the proof was read for its structure only.
 No Erdős problem page of the corpus cites this theorem. Its diagonal
 consequence,
 [[diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/corollary_0_7|Corollary 0.7]],
-is the result nearest to Problem 940, which it does not settle.
+is the result used for Problem 940.

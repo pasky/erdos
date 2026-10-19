@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:01:57Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 726
@@ -132,7 +132,7 @@ The bounty site Conjectures.io
 [solution page](https://conjectures.io/results/bd1a524a-c56e-42f2-9075-443df43468d7/solution)
 and [solution file](https://conjectures.io/results/bd1a524a-c56e-42f2-9075-443df43468d7/solution/download))
 accepted a 24-line Lean refutation of the defective statement pinned at
-[a catalog commit](https://github.com/google-deepmind/formal-conjectures/blob/379fc0298dc146df549e7061c3ede0353a5bb51f/FormalConjectures/ErdosProblems/726.lean#L42-L46)
+[a formal-conjectures commit](https://github.com/google-deepmind/formal-conjectures/blob/379fc0298dc146df549e7061c3ede0353a5bb51f/FormalConjectures/ErdosProblems/726.lean#L42-L46)
 (task `fc-379fc029-erdos726-erdos-726-21ddd3c4de-counterexample-v1`, attacked as
 Disprove). The proof rewrites the real remainder to zero, so the filtered sum is
 the zero function, and contradicts the divergence of $\tfrac12\log\log n$.
@@ -152,10 +152,10 @@ settles no instance of the problem; it is noted so that the bounty
 Conjectures.io's listing of Problem 726 among its results is not misread. On
 2026-09-27 Conjectures.io's two published task bundles for this problem
 (`erdos-726-formalized` and `erdos-726-counterexample`, both marked production
-eligible) printed the defective type `↑p / 2 < ↑n % ↑p`, pinned to a catalog
-commit that the formal-conjectures repository reported as not found;
-Conjectures.io's review said the task should be corrected separately, and a
-future proof of that task would again concern the degenerate statement.
+eligible) printed the defective type `↑p / 2 < ↑n % ↑p`, pinned to a commit that
+the formal-conjectures repository reported as not found; Conjectures.io's review
+said the task should be corrected separately, and a future proof of that task
+would again concern the degenerate statement.
 
 ## Known Results
 

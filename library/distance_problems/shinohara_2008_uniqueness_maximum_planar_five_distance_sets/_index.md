@@ -6,7 +6,7 @@ desc: |
   planar five-distance set, via a classification of 8-point four-distance sets.
 license: reserved
 created: 2026-09-21T00:00:00Z
-updated: 2026-10-08T16:16:06Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Shinohara: Uniqueness of maximum planar five-distance sets
@@ -136,9 +136,29 @@ $$
 Care is needed with notation: the paper's $m=|A_D|$ counts points incident with
 diameter pairs, not the multiplicity $\mu_A(D)$.
 
-The bound $\mu_A(D)\le n$ is the Hopf–Pannwitz theorem, which the Problem 132
-page cites; Proposition 3.1 (p. 3051) is a structural statement about diameter
-graphs. The paper does not address a second rare distance.
+Proposition 3.1 (p. 3051) is directly usable for E132. Since $DG(A)$ has at most
+one cycle, it is a forest or a graph with one unicyclic component and otherwise
+forest components. Hence
+
+$$
+1\le \mu_A(D)=|E(DG(A))|\le |A|=n.
+$$
+
+Thus the paper's diameter-graph theorem recovers one distance satisfying E132's
+multiplicity bound (and gives the stronger $\mu_A(D)\le n-1$ when the diameter
+graph is acyclic). This is a deduction from Proposition 3.1, not a multiplicity
+theorem stated explicitly by Shinohara.
+
+The independent-set machinery suggests a possible entry point for finding a
+second rare distance. An independent set in $DG(A)$ removes the diameter from
+its induced distance set; Proposition 3.2 (p. 3051) often supplies one of size
+at least $\lceil n/2\rceil$, and Proposition 3.3 plus Remark 3.1 (p. 3052)
+provide controlled exchanges of its vertices. These tools could support a
+minimal-counterexample reduction in which one deletes all diameter pairs while
+retaining many points. They do not, however, control how often any remaining
+distance occurs in the original set $A$: a distance rare inside the independent
+subset may acquire many additional pairs involving deleted vertices.
+Consequently they do not furnish E132's required second distance.
 
 Theorem 1.2(b) (p. 3049, proved on p. 3054) is relevant only to the special case
 $n=12$ and $|\Delta(A)|=5$: it reduces any multiplicity check in that class to
@@ -150,7 +170,10 @@ for arbitrary planar sets.
 
 Finally, the cited bound $g(k)\le\binom{k+2}{2}$ in §1 (p. 3048) forces the
 total number of distinct distances to grow with $n$, but says nothing about how
-many of those distances have multiplicity at most $n$.
+many of those distances have multiplicity at most $n$. The paper therefore
+supplies a clean structural proof of the first rare distance and useful
+few-distance reductions, but proves neither the second rare distance for general
+$A$ nor the assertion that the number of rare distances tends to infinity.
 
 **Bears on.** [[../wiki/problems/distance_problems/E0132/_index|#132]]:
 [[distance_problems/shinohara_2008_uniqueness_maximum_planar_five_distance_sets/proposition_3_1|Proposition 3.1]]

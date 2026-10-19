@@ -5,7 +5,7 @@ desc: "Source notes for Problem 864: O'Bryant: A Complete Annotated Bibliography
 tags: []
 sources: []
 created: 2026-09-24T22:18:22Z
-updated: 2026-09-24T22:18:22Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # O'Bryant: A Complete Annotated Bibliography of Work Related to Sidon Sequences
@@ -72,5 +72,18 @@ exceptional sum with arbitrarily many representations as $N$ grows; it need not
 satisfy any fixed $B_2^*[g]$ condition. Theorem 5 therefore gives no $2/\sqrt3$
 upper bound for $M(N)$.
 
-The survey provides notation, constructions, and nearby results, but no bound
-excluding $M(N)>(2/\sqrt3+\varepsilon)\sqrt N$.
+If $k=|A|$ and the exceptional sum has $t$ representations, those unordered
+pairs are disjoint apart from a possible diagonal pair, so
+$t\le\lceil k/2\rceil$ and $|A+A|=\binom{k+1}{2}-(t-1)$. Consequently an E864
+set with $k\to\infty$ is quasi-Sidon in the sense described in entry [49] (p.
+25). That entry reports quasi-Sidon sets of size $\sim(2/\sqrt3)\sqrt N$, but
+its quasi-Sidon condition allows collisions at many sums; the annotation does
+not establish E864’s one-exception construction. The matching lower construction
+is stated in the supplied problem metadata, not proved in this survey.
+
+The difference-counting method of Theorem 5 is a possible starting point for an
+upper bound. Repeated differences in an E864 set arise from representations of
+its exceptional sum, and there can be many such repetitions, so the theorem’s
+distinct-difference count cannot simply be reused. The survey provides notation,
+constructions, and nearby results, but no bound excluding
+$M(N)>(2/\sqrt3+\varepsilon)\sqrt N$.

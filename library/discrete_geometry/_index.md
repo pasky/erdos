@@ -3,7 +3,7 @@ name: discrete_geometry
 title: "Discrete and Convex Geometry"
 desc: "Sources filed under Discrete and Convex Geometry, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:17:13Z
+updated: 2026-10-19T02:25:14Z
 ---
 
 # Discrete and Convex Geometry
@@ -106,6 +106,9 @@ and combinatorial upper bounds for the maximum number of 3-point lines.
 
 [[discrete_geometry/cambie_kalviainen_2026_small_step_walk/_index|cambie_kalviainen_2026_small_step_walk/]]: Constructs an infinite integer walk in three dimensions with at most sixteen
 allowed steps and no collinear triple, disproving Problem 193.
+
+[[discrete_geometry/chevyrev_2013_facets_comparative_probability_orders/_index|chevyrev_2013_facets_comparative_probability_orders/]]: Fibonacci growth of flippable pairs in strict positive-weight orders,
+with the inspected source interface for the divisor-order application.
 
 [[discrete_geometry/clemen_2025_number_regular_simplices_higher_dimensions/_index|clemen_2025_number_regular_simplices_higher_dimensions/]]: Determines the asymptotic maximum number of regular simplices spanned by n
 points in R^d, proving a conjecture of Erdos in stronger form.
@@ -487,8 +490,8 @@ names no Erdős problem and does not apply to Problems 991 or 662.
 [[discrete_geometry/openai_2026_triangular_minimality_planar_coulomb_renormalized_energy/_index|openai_2026_triangular_minimality_planar_coulomb_renormalized_energy/]]: Claims the Sandier-Serfaty conjecture, that the covolume-one triangular
 lattice minimizes the planar Coulomb renormalized energy over all admissible
 curl-free fields with unit background, by a Voronoi-sector comparison on
-square tori whose two scalar inequalities the manuscript checks by an
-interval-arithmetic computation; with the Betermin-Sandier formula this gives the linear term of
+square tori whose two scalar inequalities the manuscript checks by interval
+arithmetic; with the Betermin-Sandier formula this gives the linear term of
 the minimal logarithmic energy of n points on the two-sphere, the energy of
 the configurations Problem 991 concerns.
 
@@ -522,6 +525,14 @@ every distance in [1, d] is forbidden, for each d with 2 sin(2 pi / 9)
 [[discrete_geometry/patel_2025_biggest_open_problem_euclidean_ramsey_theory/_index|patel_2025_biggest_open_problem_euclidean_ramsey_theory/]]: Surveys what is known about which finite point sets are Ramsey in
 high-dimensional Euclidean space, and the rival characterizing conjectures.
 
+[[discrete_geometry/plasma_ai_2026_monochromatic_triangles_two_colorings_plane/_index|plasma_ai_2026_monochromatic_triangles_two_colorings_plane/]]: Plasma AI's 2026 blueprint and Lean formalization proving that every
+two-coloring of the plane has a monochromatic congruent copy of every
+triangle, collinear triples of distinct points included, except at most one,
+which is then equilateral, answering Problem 173; the step from arbitrary to
+measurable colorings extends the spectral rigidity theorem of OpenAI's
+plane-coloring manuscript from the algebraic numbers to the algebraic closure
+of $\mathbb Q(x)$ for every real $x$.
+
 [[discrete_geometry/pohoata_2022_convex_polytopes_fewer_points/_index|pohoata_2022_convex_polytopes_fewer_points/]]: Shows the Erdos-Szekeres function in dimension three and above is
 subexponential, so ES_d(n) = 2^o(n) for all d >= 3.
 
@@ -543,7 +554,8 @@ cannot be split into finitely many such sets.
 [[discrete_geometry/raigorodskii_2000_chromatic_number_space/_index|raigorodskii_2000_chromatic_number_space/]]: Proves that the chromatic number of n-dimensional Euclidean space is at
 least (1.239...+o(1))^n, improving Frankl and Wilson's base 1.207.
 
-[[discrete_geometry/regev_stephens_davidowitz_2016_reverse_minkowski_theorem/_index|regev_stephens_davidowitz_2016_reverse_minkowski_theorem/]]: Develops reverse-Minkowski and stable-lattice Gaussian estimates.
+[[discrete_geometry/regev_stephens_davidowitz_2016_reverse_minkowski_theorem/_index|regev_stephens_davidowitz_2016_reverse_minkowski_theorem/]]: Develops reverse-Minkowski and stable-lattice Gaussian estimates used in
+the E0774 Boolean-moment construction.
 
 [[discrete_geometry/ruhland_2025_no_new_lower_bound_density_planar/_index|ruhland_2025_no_new_lower_bound_density_planar/]]: Withdraws the author's earlier claim of a density improvement for planar
 unit-distance-avoiding sets, reporting that none of the sets of constant
@@ -612,7 +624,9 @@ the Moser spindle, and on two spheres of specified radii.
 [[discrete_geometry/voronov_2025_chromatic_number_plane_interval_forbidden_distances/_index|voronov_2025_chromatic_number_plane_interval_forbidden_distances/]]: Proves that any plane coloring forbidding all distances in a short interval
 around 1 needs at least 7 colors, for every planar norm.
 
-[[discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/_index|vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/]]: Extends Pisier's regular ellipsoid estimates to non-symmetric convex bodies.
+[[discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/_index|vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/]]: Extends Pisier's regular ellipsoid estimates to non-symmetric convex bodies;
+its restatement of Pisier's symmetric theorem is used in the stable-lattice
+extraction argument for the E0774 Boolean-moment construction.
 
 [[discrete_geometry/wormald_1979_chromatic_graph_special_plane_drawing/_index|wormald_1979_chromatic_graph_special_plane_drawing/]]: Shows that some finite set of points in the plane has a 4-chromatic
 unit-distance graph of girth 5, answering Erdos's question negatively when
@@ -649,6 +663,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/discrete_geometry/E0846/_index|E0846]]
 - [[analysis/janson_1998_new_versions_suen_correlation_inequality/_index|janson_1998_new_versions_suen_correlation_inequality]]
   - [[../wiki/problems/discrete_geometry/E0188/_index|E0188]]
+- [[analysis/lahti_2018_federer_characterization_finite_perimeter/_index|lahti_2018_federer_characterization_finite_perimeter]]
+  - [[../wiki/problems/discrete_geometry/E0173/_index|E0173]]
 - [[distance_problems/blokhuis_1984_few_distance_sets/_index|blokhuis_1984_few_distance_sets]]
   - [[../wiki/problems/discrete_geometry/E1088/_index|E1088]]
 - [[distance_problems/erdos_1975_problems_elementary_combinatorial_geometry/_index|erdos_1975_problems_elementary_combinatorial_geometry]]

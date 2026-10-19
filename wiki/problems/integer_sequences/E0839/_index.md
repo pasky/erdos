@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 839
@@ -46,13 +46,50 @@ https://www.erdosproblems.com/839.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/839.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+These deductions leave the full question unresolved. They have author-recorded
+standing; this assessment is limited to the arguments and source interfaces
+stated below. No comprehensive search for recent proof claims is recorded here.
 
-## Known Results
+For $A=\{a_1<a_2<\cdots\}$, $\limsup a_n/n=\infty$ is equivalent to
+$\liminf_{x\to\infty}A(x)/x=0$. At $x=a_n$ the ratio is $n/a_n$; between
+successive terms, $A(x)$ is constant, and the endpoint ratios have only an index
+shift. Positive upper density therefore does not refute the first question.
 
-Not yet compiled.
+The held Freud account gives an infinite construction with upper density
+$19/36$, with its explicitly unverified construction standing.
+That detailed construction was not checked here. Upper density, and
+finite extremizers, decide neither lower density nor logarithmic density.
+Conversely zero logarithmic density would imply the first conclusion.
+If $A(x)\ge\delta x$ eventually, partial summation yields
+$$
+ \sum_{a\le x,\ a\in A}1/a
+ =A(x)/x+\int_1^x A(t)t^{-2}\,dt
+ \ge\delta\log x-O(1),
+$$
+contradicting zero logarithmic density.
+
+E0359 satisfies the forbidden consecutive-block condition, but its special
+greedy coverage is not assumed for arbitrary E0839 sequences. The Freud
+construction and upper-bound accounts were read with their source qualifications
+intact.
+
+The unresolved obligation is to control lower density or logarithmic mass for
+every forbidden-block sequence, including sparse concatenations with dense
+blocks. Any density argument should be tested against
+Freud's claimed positive-upper-density construction and should identify where it
+uses lower density. Stop if positive upper density is presented as a
+counterexample to the first question, or if the greedy coverage invariant is
+assumed for arbitrary sequences.
+
+Source interfaces:
+[[../library/additive_combinatorics/freud_1993_adding_numbers_problem_p/construction_p6199|Finite
+construction and infinite version, pp. 6199-6202; explicit unverified
+construction status]];
+[[../library/additive_combinatorics/freud_1993_adding_numbers_problem_p/upper_bound_p6201|Scope
+of upper bounds and source discrepancy]].
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

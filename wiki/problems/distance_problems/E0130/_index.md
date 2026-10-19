@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 130
@@ -120,6 +120,13 @@ The claim page records the posting and its report, the hosting, the
 formal-conjectures `formal_proof` link, the AI system named by the claimant's
 site and the absence of acceptance evidence. Neither claimant's Lean files were
 built or audited by this corpus.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/integral_realizations|finite
+integral blocks and infinite distance graphs]] account records the following
+scope. Arbitrarily large finite general-position integral sets exist iff one
+countable such integer-distance graph has unbounded finite clique numbers.
 
 <!-- BEGIN problem library links -->
 

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Tan–Zhang: nonnegative cyclotomic multipl
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Tan–Zhang: nonnegative cyclotomic multiples
@@ -25,3 +25,9 @@ $N$th root of unity, such a polynomial gives a vanishing sum of $N$th roots of
 unity with nonnegative weights, its exponent support recording where the mass
 lies.  The extremal constructions and sharp bounds provide another way to
 constrain the geometry of positive relations.
+
+For E0774 this is background rather than a direct solution method.  It can help
+when a roots-of-unity construction is organized through positive relations or
+cyclotomic multiples, but dissociation concerns signed, square-free relations.
+Do not infer a signed circuit bound from a nonnegative coefficient theorem
+without an explicit reduction.

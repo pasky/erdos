@@ -5,7 +5,7 @@ desc: |
   Shows that the edge-ordered extremal number of the four-cycle abcd with
   edge order ab < bc < da < cd is Theta(n^{3/2}).
 created: 2026-10-08T14:56:33Z
-updated: 2026-10-08T14:56:33Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -64,4 +64,4 @@ and the bound $\mathrm{ex}(n,C_4)=\Theta(n^{3/2})$.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

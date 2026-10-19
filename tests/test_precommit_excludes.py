@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import pathlib
 import re
+import subprocess
 
 import pytest
 import yaml
@@ -11,6 +12,7 @@ import yaml
 __all__ = [
     'test_hooks_skip_every_canonical_slot_and_convert_tree_but_not_result_pages',
     'test_hooks_skip_the_evidence_records_and_lean_apart_from_its_gate_surfaces',
+    'test_only_the_repository_layout_passes_the_layout_hook',
 ]
 
 _ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -93,3 +95,33 @@ def test_hooks_skip_the_evidence_records_and_lean_apart_from_its_gate_surfaces(
     assert (_ROOT / page).is_file(), page
     config = yaml.safe_load(_CONFIG.read_text(encoding='utf-8'))
     assert bool(re.search(config['exclude'], page)) is skipped
+
+
+def test_only_the_repository_layout_passes_the_layout_hook() -> None:
+    """Every tracked path passes the layout hook, and a node's records at the root fail it."""
+    # pre-commit hands a path to a hook when the top-level exclude and the
+    # hook's own exclude both leave it, and the fail hook rejects every path
+    config = yaml.safe_load(_CONFIG.read_text(encoding='utf-8'))
+    hook = next(
+        hook
+        for repo in config['repos']
+        for hook in repo['hooks']
+        if hook['id'] == 'reject-paths-outside-the-layout'
+    )
+    assert hook['language'] == 'fail'
+    covered = re.compile(config['exclude']).search
+    allowed = re.compile(hook['exclude']).search
+
+    def rejected(path: str) -> bool:
+        return not covered(path) and not allowed(path)
+
+    tracked = subprocess.run(
+        ['git', 'ls-files', '-z'],
+        cwd=_ROOT,
+        capture_output=True,
+        text=True,
+        check=True,
+    ).stdout.split('\0')
+    assert [path for path in filter(None, tracked) if rejected(path)] == []
+    for stray in ('memory/frontier.md', 'plans/grading.md', 'frontier.md'):
+        assert rejected(stray), stray

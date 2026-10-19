@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 217
@@ -183,6 +183,17 @@ hexagonal region.
   ([[problems/distance_problems/E0217/claims/1989_09_01_palasti|claim page]]).
 - $n\ge9$: open. The relaxed nine-point witness above fails general position
   and is not a positive $n=9$ case.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/exact_optimizers|exact
+optimizers and local geometric obstructions]] account records the following
+scope. The author-recorded L30 proves local similarity rigidity of the displayed
+nine-point configuration by an exact Jacobian minor of determinant $-1102248$.
+Its forbidden collinearity and circles persist in every sufficiently close
+eight-distance realization; other partitions and remote realizations remain
+possible.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

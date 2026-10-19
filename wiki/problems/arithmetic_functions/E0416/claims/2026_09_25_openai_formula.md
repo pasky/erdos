@@ -24,7 +24,7 @@ links:
   kind: formalization
   date: 2026-10-06
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -99,7 +99,12 @@ Erdős's own words set the bar: on p. 201 of his 1974 remarks
 he asks for a formula "in terms of elementary functions", and in 1979
 ([[../library/divisors/erdos_1979_unconventional_problems_number_theory_asterisque/_index|card]])
 he doubts a genuine asymptotic formula and offers the ratio law as the
-substitute. Whether the limit of Ford's $O(1)$ factor, $e^{Q(\theta)}A(1;\theta)$ (the ratio of
+substitute. $A(1;\cdot)$ is not constant: since $g_j\rho^j\to\gamma$ (the
+manuscript's (3.5), from Ford),
+$G_{m+1}/G_m=B/((m+1)g_{m+1})\to\lambda/\gamma\approx1.89$ at each increment of
+$m$; this is a deduction of this corpus, not a statement of the manuscript. So
+$A(1;\theta)$ falls by that factor as $\theta$ passes from $1$ to $0$. Whether
+the limit of Ford's $O(1)$ factor, $e^{Q(\theta)}A(1;\theta)$ (the ratio of
 $V(x)$ to Ford's elementary expression, with $Q$ an explicit quadratic in
 $\theta$), is constant is not known; a constant would give $V(x)\sim K$ times
 Ford's elementary scale. The release's own catalog entry names only the scaling

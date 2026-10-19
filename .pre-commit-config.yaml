@@ -26,6 +26,19 @@ repos:
         entry: reject
         language: fail
         files: \.rej$
+      # every top-level entry the repository's layout holds; a new one is
+      # added here deliberately, and anything else, such as a node's records
+      # written at the worktree root, fails every commit and every gate
+      - id: reject-paths-outside-the-layout
+        name: reject files outside the repository's top-level layout
+        entry: outside the repository's top-level layout
+        language: fail
+        exclude: |
+          (?x)
+          ^(\.github|docs|lean|library|scripts|tests|tools|wiki)/
+          |^(\.gitattributes|\.gitignore|\.lfsconfig|\.pre-commit-config\.yaml|\.python-version)$
+          |^(AGENTS\.md|CITATION\.cff|CLAUDE\.md|CONTRIBUTING\.md|LICENSE|LICENSE-CC-BY-4\.0)$
+          |^(README\.md|pyproject\.toml|uv\.lock)$
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:

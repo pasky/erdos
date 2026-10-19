@@ -1,0 +1,222 @@
+{
+  "frozen_utc": "2026-10-15T09:49:19.072889+00:00",
+  "part": "R",
+  "scope": "For absolute r0 and every integer r >= r0, every circle sequence has limsup M_n^(r)/m_n^(r) >= 1 + log(r)/(200r); hence r(mu_r-1) >= log(r)/200 and tends to infinity.",
+  "conventions": "All sequences, coincident terms allowed, cyclic labels, gaps and counts with multiplicity, lifted spans, M/0=+infinity, natural logarithms. Statement (modified) of E1221.",
+  "native_premises": [],
+  "ledger_rows": [],
+  "allowed_files": [
+    {
+      "path": "catalog_statement.md.txt",
+      "source": "wiki/problems/analysis/E1221/_index.md",
+      "ranges": [
+        {
+          "start_marker": "**Statement.**",
+          "stop_marker_excluded": "**Notes.**",
+          "start_inclusive": {
+            "line": 25,
+            "column": 1,
+            "utf8_byte_offset": 665
+          },
+          "end_exclusive": {
+            "line": 95,
+            "column": 1,
+            "utf8_byte_offset": 2210
+          }
+        }
+      ],
+      "bytes": 1545
+    },
+    {
+      "path": "model_and_theorem.md.txt",
+      "source": "wiki/research/erdos_1221/all_sequence_composition.md",
+      "ranges": [
+        {
+          "start_marker": "## Target",
+          "stop_marker_excluded": "## The links and their standing",
+          "start_inclusive": {
+            "line": 31,
+            "column": 1,
+            "utf8_byte_offset": 1414
+          },
+          "end_exclusive": {
+            "line": 86,
+            "column": 1,
+            "utf8_byte_offset": 4092
+          }
+        }
+      ],
+      "bytes": 2661
+    },
+    {
+      "path": "lemma_2_1.md.txt",
+      "source": "wiki/research/erdos_1221/ko26b_lemma_2_1_reconstruction.md",
+      "ranges": [
+        {
+          "start_marker": "## Definitions",
+          "stop_marker_excluded": "## Role in the argument",
+          "start_inclusive": {
+            "line": 28,
+            "column": 1,
+            "utf8_byte_offset": 1160
+          },
+          "end_exclusive": {
+            "line": 246,
+            "column": 1,
+            "utf8_byte_offset": 8130
+          }
+        }
+      ],
+      "bytes": 6970
+    },
+    {
+      "path": "all_sequence_transfer.md.txt",
+      "source": "wiki/research/erdos_1221/all_sequence_composition.md",
+      "ranges": [
+        {
+          "start_marker": "**Labels and lifts.**",
+          "stop_marker_excluded": "**The covering identity of Lemma 6.3.**",
+          "start_inclusive": {
+            "line": 141,
+            "column": 1,
+            "utf8_byte_offset": 6930
+          },
+          "end_exclusive": {
+            "line": 166,
+            "column": 1,
+            "utf8_byte_offset": 8423
+          }
+        },
+        {
+          "start_marker": "The least-distance step of Lemma 4.2",
+          "stop_marker_excluded": "**Positivity.**",
+          "start_inclusive": {
+            "line": 189,
+            "column": 24,
+            "utf8_byte_offset": 9758
+          },
+          "end_exclusive": {
+            "line": 193,
+            "column": 1,
+            "utf8_byte_offset": 9931
+          }
+        },
+        {
+          "start_marker": "**Positivity.**",
+          "stop_marker_excluded": "## The ratio part",
+          "start_inclusive": {
+            "line": 193,
+            "column": 1,
+            "utf8_byte_offset": 9931
+          },
+          "end_exclusive": {
+            "line": 197,
+            "column": 1,
+            "utf8_byte_offset": 10107
+          }
+        }
+      ],
+      "bytes": 1928
+    },
+    {
+      "path": "ratio_comparison.md.txt",
+      "source": "wiki/research/erdos_1221/all_sequence_composition.md",
+      "ranges": [
+        {
+          "start_marker": "## The ratio part",
+          "stop_marker_excluded": "## The one-sided parts",
+          "start_inclusive": {
+            "line": 197,
+            "column": 1,
+            "utf8_byte_offset": 10107
+          },
+          "end_exclusive": {
+            "line": 249,
+            "column": 1,
+            "utf8_byte_offset": 12048
+          }
+        }
+      ],
+      "bytes": 1941
+    },
+    {
+      "path": "proposition_3_1.md.txt",
+      "source": "wiki/research/erdos_1221/ko26b_proposition_3_1_reconstruction.md",
+      "ranges": [
+        {
+          "start_marker": "## Statement",
+          "stop_marker_excluded": "## Role in the argument",
+          "start_inclusive": {
+            "line": 33,
+            "column": 1,
+            "utf8_byte_offset": 1489
+          },
+          "end_exclusive": {
+            "line": 174,
+            "column": 1,
+            "utf8_byte_offset": 6688
+          }
+        }
+      ],
+      "bytes": 5199
+    },
+    {
+      "path": "proposition_1221_1.md.txt",
+      "source": "wiki/research/erdos_1221/connections.md",
+      "ranges": [
+        {
+          "start_marker": "*Proposition 1221.1",
+          "stop_marker_excluded": "*Proposition 1221.2",
+          "start_inclusive": {
+            "line": 425,
+            "column": 1,
+            "utf8_byte_offset": 23074
+          },
+          "end_exclusive": {
+            "line": 477,
+            "column": 1,
+            "utf8_byte_offset": 26144
+          }
+        }
+      ],
+      "bytes": 3053
+    },
+    {
+      "path": "finite_list_bound.md.txt",
+      "source": "wiki/research/erdos_1221/finite_list_prefix_bound.md",
+      "ranges": [
+        {
+          "start_marker": "## Statement",
+          "stop_marker_excluded": "- **What is not claimed.**",
+          "start_inclusive": {
+            "line": 32,
+            "column": 1,
+            "utf8_byte_offset": 1503
+          },
+          "end_exclusive": {
+            "line": 181,
+            "column": 1,
+            "utf8_byte_offset": 7168
+          }
+        }
+      ],
+      "bytes": 5665
+    },
+    {
+      "path": "provenance_and_scope.md.txt",
+      "source": "commissioner-prepared bibliographic and scope map",
+      "bytes": 1630
+    }
+  ],
+  "read_boundary": "Only these mathematical files and manifest.json. Links are locators, not permission to open other files. Operating documents are specified separately by MANAGE. Full-page freezes, author notes, prior verdicts, library cards and other packet are excluded.",
+  "shared_theorem": "The common model reproduces the three-clause theorem for context. Only the assigned clauses and their consequences are under examination here; neither other-part proof nor verdict is a premise. These two scopes together cover the whole theorem.",
+  "internal_deductions": [
+    "Lemma 2.1",
+    "Proposition 3.1",
+    "Proposition 1221.1 (extraction)",
+    "Proposition FP",
+    "all-sequence transfer",
+    "ratio comparison and quantifiers"
+  ],
+  "extraction_marker": "[cut: outside this mathematical subject]"
+}

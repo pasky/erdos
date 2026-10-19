@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-18T03:27:26Z
 ---
 
 # Problem 185
@@ -26,7 +26,7 @@ which contains no three points on a line. Is it true that $f_3(n)=o(3^n)$?
 **Status.** PROVED (LEAN), the erdosproblems.com label. The answer is yes, as a
 corollary of the density Hales--Jewett theorem of Furstenberg and Katznelson,
 since the three points of a combinatorial line in $\{0,1,2\}^n$ are collinear
-([[problems/additive_combinatorics/E0185/claims/1991_12_01_furstenberg_katznelson|claim page]]).
+([[problems/additive_combinatorics/E0185/claims/1989_05_01_furstenberg_katznelson|claim page]]).
 That claim is accepted on the theorem's refereed publication and
 erdosproblems.com's adoption. The answer also follows through the shorter proof
 of the theorem by Dodos, Kanellopoulos and Tyros

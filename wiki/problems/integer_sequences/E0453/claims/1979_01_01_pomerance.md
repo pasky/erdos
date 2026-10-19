@@ -26,7 +26,7 @@ links:
   kind: formalization
   date: 2026-02-01
 created: 2026-10-07T06:00:57Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -62,20 +62,20 @@ of Theorems 2.1 and 2.2, their corollaries and Theorem 3.1. The short proofs of
 section 2 are not checked, and nothing is independently reviewed by this
 project.
 
-**The Lean suffix.** The erdosproblems.com label carried the suffix (Lean), a
-catalog label. The thread's one comment (Boris Alexeev, 1 February 2026) reports
-that Aristotle, Harmonic's automated prover, formalized Pomerance's proof
-from the commentary's words and links Alexeev's repository `lean-proofs` on
-its `main` branch, not a fixed commit, together with a live Lean editor; the
-file `src/latest/ErdosProblems/Erdos453.lean`, whose header declares it a
-Lean formalization of a solution to the problem and names Pomerance as
-informal author and Aristotle and Alexeev as formal authors, is linked above
-as a formalization at the repository's head of 15 September 2026 (accessed
-2026-10-07). The problem page records the statement file of
-formal-conjectures, whose `formal_proof` attribute points at a versioned copy
-of this file on the repository's `main` branch. The file was not built or
-audited here, so `formalized` is not listed and the erdosproblems.com label
-warrants no kernel credit.
+**The Lean suffix.** The erdosproblems.com label carried the suffix (Lean), an
+erdosproblems.com label. The thread's one comment (Boris Alexeev, 1 February
+2026) reports that Aristotle, Harmonic's automated prover, formalized
+Pomerance's proof from the commentary's words and links Alexeev's repository
+`lean-proofs` on its `main` branch, not a fixed commit, together with a live
+Lean editor; the file `src/latest/ErdosProblems/Erdos453.lean`, whose header
+declares it a Lean formalization of a solution to the problem and names
+Pomerance as informal author and Aristotle and Alexeev as formal authors, is
+linked above as a formalization at the repository's head of 15 September 2026
+(accessed 2026-10-07). The problem page records the statement file of
+formal-conjectures, whose `formal_proof` attribute points at a versioned copy of
+this file on the repository's `main` branch. The file was not built or audited
+here, so `formalized` is not listed and the erdosproblems.com label warrants no
+kernel credit.
 
 **Date.** The paper appeared in the January 1979 issue; the page name uses
 the first day of that month for want of a day.

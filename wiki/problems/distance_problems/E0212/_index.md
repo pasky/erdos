@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 212
@@ -50,13 +50,20 @@ https://www.erdosproblems.com/212.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/212.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/distance_multiplicity_interfaces/integral_realizations|finite
+integral blocks and infinite distance graphs]] account records the following
+scope. A dense rational-distance set would imply E0213: choose any prescribed
+finite number of points successively outside the finitely many lines and circles
+determined by earlier choices, then clear the finitely many distance
+denominators.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

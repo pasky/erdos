@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 819
@@ -228,6 +228,27 @@ erdosproblems.com cross-reference, and it is the paper's printed equivalence (p.
 204); [Pi06] is context and gains no row here. (4) [ErFr91]'s library card and
 its result pages for Proposition 1 and the Definition (p. 203) name this
 problem.
+
+## Limits of the available transfer
+
+The quasi-Sidon comparison in
+[[../library/additive_bases/erdos_freud_1991_sums_sidon_sequence/_index|Erdős–Freud,
+Remark 1]] requires a coefficient strictly below $\sqrt2$ to improve the upper
+constant $1/2$. The coefficient supplied by
+[[../library/additive_bases/pikhurko_2006_dense_edge_magic_graphs_thin_additive/_index|Pikhurko's
+Theorem 2]] is
+
+$$
+\left(\frac14+\frac1{(\pi+2)^2}\right)^{-1/2}>\sqrt2.
+$$
+
+It therefore misses the needed threshold; the direct bound at $|A|\sim\sqrt N$
+likewise gives no improvement on $N/2$. A full-sumset estimate must also be
+checked against this problem's truncated sumset. The source statements and the
+local Erdős–Freud construction argument were inspected, without a full
+independent audit. The separate Liu proof remains uninspected here; that is a
+reading gap, not evidence against its claim.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

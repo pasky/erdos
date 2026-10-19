@@ -1,0 +1,22 @@
+{
+  "family": "half_step_concentric",
+  "order": 3,
+  "field_order": 6,
+  "threshold": 3,
+  "generic_counts": [
+    3,
+    3
+  ],
+  "equations": 4,
+  "real_root_events": {
+    "negative": 4,
+    "zero": 0,
+    "positive": 4
+  },
+  "critical": [
+    {"events": [["Q", 1, 0, 1]], "position": "lower_boundary", "counts": [3, 2]},
+    {"events": [["P", 1, 1, 1]], "position": "inside", "counts": [2, 3]},
+    {"events": [["Q", 1, 1, 1]], "position": "inside", "counts": [3, 2]},
+    {"events": [["P", 1, 0, 1]], "position": "upper_boundary", "counts": [2, 3]}
+  ]
+}

@@ -14,10 +14,13 @@ from __future__ import annotations
 
 import dataclasses
 import json
+import os
 import pathlib
+import re
 import shutil
 import subprocess
 import sys
+import time
 from typing import Optional
 
 import tools.core.audits
@@ -42,12 +45,31 @@ __all__ = [
 
 # select the index page of each four-digit catalog folder one subject below the problem root
 _PROBLEM_GLOB = '*/E[0-9][0-9][0-9][0-9]/_index.md'
-# bound each hook invocation as the repository's file list grows
-_PRECOMMIT_BATCH_SIZE = 200
+# keep each pre-commit run's arguments and inherited environment within a
+# quarter of the smallest host argument limit (ARG_MAX, 1 MiB on macOS):
+# pre-commit diffs the whole tree around every hook of every run, so a few large
+# runs cost far less than many small ones
+_PRECOMMIT_ARGUMENT_BYTES = 256 * 1024
+# the words of each pre-commit run ahead of its files
+_PRECOMMIT_COMMAND = ('pre-commit', 'run', '--color=never', '--files')
 # keep each failed command's diagnostic tail within the gate summary
 _OUTPUT_TAIL_LIMIT = 400
-# keep the reference lint's first findings within the gate summary; the
-# command lists them all
+# keep each failed hook's own output within the gate summary, by the same budget
+_HOOK_OUTPUT_LIMIT = _OUTPUT_TAIL_LIMIT
+# match a hook's status line in pre-commit's report: its name, the dot leader,
+# then the outcome
+_HOOK_STATUS = re.compile(
+    r'\.{3}(?:\(no files to check\))?(?P<outcome>Passed|Failed|Skipped)$'
+)
+# pre-commit's line naming a reported hook, directly under its status line
+_HOOK_ID = '- hook id: '
+# pre-commit's note on a hook during which the whole tree's diff changed
+_HOOK_MODIFIED = 'files were modified by this hook'
+# keep a failed batch's first written files within the gate summary, as the
+# reference lint keeps its first findings
+_WRITTEN_FILE_LIMIT = 10
+# keep the first findings of the reference lint, library licenses and problem
+# claims legs within the gate summary; each leg's command lists them all
 _REFLINT_FINDING_LIMIT = 10
 # validated-tree receipt the conditional Lean leg honors, relative to the root
 _LEAN_RECEIPT = 'lean/.lake/validated.json'
@@ -181,10 +203,24 @@ def _problem_claims_leg(root: pathlib.Path, *, settled: bool) -> LegResult:
         )
     except (OSError, ValueError) as error:
         return LegResult('problem claims', 'FAIL', str(error))
+    # keep the first findings in the summary and point at the command, in the
+    # same mode, that lists them all
+    command = 'erdos problem-claims --settled' if settled else 'erdos problem-claims'
+    shown = findings[:_REFLINT_FINDING_LIMIT]
+    if len(findings) > len(shown):
+        more = len(findings) - len(shown)
+        shown.append(f'... {more} more (run `{command}` for the full list)')
+    # count the library dependences the command lists, ahead of the counts and
+    # the disclaimer that end the notes
+    *dependencies, counts, disclaimer = notes
+    if dependencies:
+        shown.append(
+            f'{len(dependencies)} library dependence(s) (run `{command}` to list them)'
+        )
     return LegResult(
         'problem claims',
         'FAIL' if findings else 'PASS',
-        '; '.join([*findings, *notes]),
+        '; '.join([*shown, counts, disclaimer]),
     )
 
 
@@ -197,12 +233,17 @@ def _library_licenses_leg(root: pathlib.Path) -> LegResult:
         )
     try:
         findings, notes = tools.core.audits.audit_library_licenses(root)
-    except (OSError, RuntimeError) as error:
+    except (OSError, RuntimeError, ValueError) as error:
         return LegResult('library licenses', 'FAIL', str(error))
+    # keep the first findings in the summary and point at the full list
+    shown = findings[:_REFLINT_FINDING_LIMIT]
+    if len(findings) > len(shown):
+        more = len(findings) - len(shown)
+        shown.append(f'... {more} more (run `erdos license-audit` for the full list)')
     return LegResult(
         'library licenses',
         'FAIL' if findings else 'PASS',
-        '; '.join([*findings[:_REFLINT_FINDING_LIMIT], *notes]),
+        '; '.join([*shown, *notes]),
     )
 
 
@@ -220,7 +261,7 @@ def _claim_legs(root: pathlib.Path) -> list[LegResult]:
         claims = tools.core.ledger.scan_claims(root)
     except (OSError, ValueError) as error:
         return [
-            LegResult('native claim ledger', 'FAIL', str(error)),
+            LegResult('native claim ledger', 'FAIL', '; '.join(str(error).split('\n'))),
             LegResult('native claim references', 'FAIL', 'blocked by invalid metadata'),
         ]
 
@@ -321,7 +362,12 @@ def _builder_leg(
 
 
 def _wiki_leg(root: pathlib.Path, wiki_root: str) -> LegResult:
-    """Check generated navigation and lint one required wiki root."""
+    """Check generated navigation and lint one required wiki root.
+
+    The lint reads ``wiki lint --json``: an issue fails the leg, and so does a
+    stale wikilink, which the wiki tool reports as a ``link_stale`` note; every
+    other note stays advisory.
+    """
     # require the wiki root
     name = f'wiki {wiki_root}'
     if not (root / wiki_root).is_dir():
@@ -332,10 +378,20 @@ def _wiki_leg(root: pathlib.Path, wiki_root: str) -> LegResult:
         return LegResult(name, 'SKIPPED', 'wiki unavailable', unavailable=True)
     if update.returncode:
         return LegResult(name, 'FAIL', f'update: {_tail(update)}')
-    # lint authored wiki content
-    lint = _run_binary('wiki', 'lint', '--path', wiki_root, cwd=root)
+    # lint authored wiki content: an issue or a stale wikilink fails the leg
+    lint = _run_binary('wiki', 'lint', '--path', wiki_root, '--json', cwd=root)
+    try:
+        report = json.loads(lint.stdout)
+        findings = [row['text'] for row in report['issues']]
+        findings.extend(
+            row['text'] for row in report['notes'] if row['kind'] == 'link_stale'
+        )
+    except (ValueError, KeyError, TypeError):
+        return LegResult(name, 'FAIL', f'lint: {_tail(lint)}')
+    if findings:
+        return LegResult(name, 'FAIL', f'lint: {_lint_detail(findings)}')
     if lint.returncode:
-        return LegResult(name, 'FAIL', f'lint: {_lint_detail(lint)}')
+        return LegResult(name, 'FAIL', f'lint: {_tail(lint)}')
     return LegResult(name, 'PASS')
 
 
@@ -383,25 +439,153 @@ def _precommit_leg(root: pathlib.Path, *, enabled: bool) -> LegResult:
     except RuntimeError as error:
         return LegResult('pre-commit', 'FAIL', f'working-file enumeration: {error}')
 
-    # run hooks in bounded batches and collect failures
+    # run hooks in batches within the argument budget, timing each run, and
+    # collect failures
     failures = []
-    for start in range(0, len(covered), _PRECOMMIT_BATCH_SIZE):
-        result = _run_binary(
-            'pre-commit',
-            'run',
-            '--files',
-            *covered[start : start + _PRECOMMIT_BATCH_SIZE],
-            cwd=root,
-        )
+    for batch in _precommit_batches(covered):
+        began = time.time_ns()
+        result = _run_binary(*_PRECOMMIT_COMMAND, *batch, cwd=root)
+        ended = time.time_ns()
         if result.returncode == 127:
             return LegResult(
                 'pre-commit', 'SKIPPED', 'pre-commit unavailable', unavailable=True
             )
         if result.returncode:
-            failures.append(_tail(result))
+            failures.append(_precommit_failure(root, result, batch, began, ended))
     if failures:
         return LegResult('pre-commit', 'FAIL', '; '.join(failures))
     return LegResult('pre-commit', 'PASS', f'{len(covered)} file(s)')
+
+
+def _precommit_batches(names: list[str]) -> list[list[str]]:
+    """Split the covered files into pre-commit runs within the argument budget."""
+    # every run carries the environment and the command words, then its files
+    fixed = sum(
+        _argument_bytes(f'{key}={value}') for key, value in os.environ.items()
+    ) + sum(_argument_bytes(word) for word in _PRECOMMIT_COMMAND)
+    batches: list[list[str]] = []
+    size = fixed
+    for name in names:
+        if batches and size + _argument_bytes(name) <= _PRECOMMIT_ARGUMENT_BYTES:
+            batches[-1].append(name)
+            size += _argument_bytes(name)
+        else:
+            batches.append([name])
+            size = fixed + _argument_bytes(name)
+    return batches
+
+
+def _argument_bytes(text: str) -> int:
+    """Return what one argument or environment entry costs against ARG_MAX."""
+    # its bytes, its terminating NUL and its pointer, as pre-commit counts them
+    return len(os.fsencode(text)) + 1 + 8
+
+
+def _precommit_failure(
+    root: pathlib.Path,
+    result: subprocess.CompletedProcess,
+    batch: list[str],
+    began: int,
+    ended: int,
+) -> str:
+    """Describe a failed batch by its failed hooks and the files written meanwhile.
+
+    pre-commit reports that a hook modified files when the whole tree's
+    ``git diff`` changed while it ran, so another process writing a tracked
+    file or changing the index fails whichever hook is running. The hooks see
+    only the batch's files: a batch file written during the run is most likely
+    a fixing hook's rewrite, and any other file was written by another process.
+    """
+    # report each failed hook; output naming no hook, such as an error before
+    # any hook ran, keeps its tail
+    hooks = _failed_hooks(result.stdout)
+    parts = [
+        f'hook {hook} failed ({"; ".join(notes)})' + (f': {output}' if output else '')
+        for hook, notes, output in hooks
+    ] or [_tail(result)]
+    # name the files written while the batch ran, in and outside the batch
+    written = _written_files(root, batch, began, ended)
+    members = set(batch)
+    rewrites = [name for name in written if name in members]
+    others = [name for name in written if name not in members]
+    if rewrites:
+        parts.append(
+            'written in the batch during the run (a fixing hook rewrites in '
+            f'place; review and commit): {_file_list(rewrites)}'
+        )
+    if others:
+        parts.append(
+            'written outside the batch during the run (another writer; leave '
+            f'the tree alone while the gate runs): {_file_list(others)}'
+        )
+    if not written and any(_HOOK_MODIFIED in notes for _, notes, _ in hooks):
+        parts.append(
+            'nothing written during the run (another process changed the index '
+            'or deleted a file)'
+        )
+    return '; '.join(parts)
+
+
+def _failed_hooks(report: str) -> list[tuple[str, list[str], str]]:
+    """Return each failed hook's id, notes and bounded output from pre-commit."""
+    lines = report.splitlines()
+    hooks = []
+    for index, line in enumerate(lines):
+        # a failed hook's status line is followed by its id, its notes (exit
+        # code, modified files) and, after a blank line, its own output
+        status = _HOOK_STATUS.search(line)
+        if status is None or status['outcome'] != 'Failed':
+            continue
+        if index + 1 == len(lines) or not lines[index + 1].startswith(_HOOK_ID):
+            continue
+        body = []
+        for line in lines[index + 2 :]:
+            if _HOOK_STATUS.search(line):
+                break
+            body.append(line)
+        notes = []
+        while body and body[0].startswith('- '):
+            notes.append(body.pop(0).removeprefix('- '))
+        output = ' '.join(' '.join(body).split())
+        if len(output) > _HOOK_OUTPUT_LIMIT:
+            output = output[:_HOOK_OUTPUT_LIMIT] + ' ...'
+        hooks.append((lines[index + 1].removeprefix(_HOOK_ID), notes, output))
+    return hooks
+
+
+def _written_files(
+    root: pathlib.Path,
+    batch: list[str],
+    began: int,
+    ended: int,
+) -> list[str]:
+    """Return the batch and tracked files whose status changed during a run."""
+    # pre-commit's modification check sees the tracked files; the hooks see
+    # the batch, untracked files included
+    listing = subprocess.run(
+        ['git', 'ls-files', '-z'],
+        cwd=root,
+        capture_output=True,
+        text=True,
+    )
+    names = {*batch, *filter(None, listing.stdout.split('\0'))}
+    # every write sets a file's change time, which no writer can set back
+    written = []
+    for name in sorted(names):
+        try:
+            changed = (root / name).lstat().st_ctime_ns
+        except OSError:
+            continue
+        if began <= changed <= ended:
+            written.append(name)
+    return written
+
+
+def _file_list(names: list[str]) -> str:
+    """Name the first written files and count the rest."""
+    shown = names[:_WRITTEN_FILE_LIMIT]
+    more = len(names) - len(shown)
+    return ', '.join(shown) + (f' ... {more} more' if more else '')
 
 
 def _lean_leg(
@@ -592,13 +776,9 @@ def _command_leg(name: str, result: subprocess.CompletedProcess) -> LegResult:
     )
 
 
-def _lint_detail(result: subprocess.CompletedProcess, limit: int = 500) -> str:
-    """Keep wiki issues visible ahead of advisory notes and later findings."""
-    # Wiki exits 1 for issues on stdout; advisory notes use stderr. Command
-    # errors exit 2. Use that contract without parsing the prose report.
-    if result.returncode != 1 or not result.stdout.strip():
-        return _tail(result)
-    text = ' '.join(result.stdout.split())
+def _lint_detail(findings: list[str], limit: int = 500) -> str:
+    """Keep wiki lint's failing findings, issues first, within the summary budget."""
+    text = ' '.join('; '.join(findings).split())
     return text[:limit] + (' ...' if len(text) > limit else '')
 
 

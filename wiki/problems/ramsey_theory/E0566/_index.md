@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 566
@@ -49,15 +49,18 @@ subgraph $S$ of $G$ satisfies $q(S)\le2p(S)-3$, is $G$ necessarily Ramsey size
 linear?", and its prose form on p. 395 ("each subgraph $H$ of order $m$ has size
 at most $2m-3$") is unrestricted as well. The change inserts "$\geq 2$" after
 "any subgraph on $k$", which excludes exactly the sizes $k\le1$ at which no
-graph can meet the hypothesis; it is an exclusion of size-degenerate values, the
-formal-conjectures file states the same restriction to vertex sets of at least
-two elements (it follows erdosproblems.com and is not a further source), and no
-source of higher rank supplies a range. Above the excluded sizes no failure
-remains: for $k=2$ and $k=3$ the bound ($1$ and $3$ edges) holds in every graph,
-and at $k=4$ it excludes exactly $K_4$, which is not Ramsey size linear by
-[EFRS93] Corollary 1 ($p=4$, $q=6=2p-2$). No result about the erdosproblems.com
-wording exists beyond the vacuity check recorded here, which settles no instance
-of the modified Statement.
+graph can meet the hypothesis; it is the corpus's own correction and an
+exclusion of size-degenerate values, the formal-conjectures file states the same
+restriction to vertex sets of at least two elements (it follows
+erdosproblems.com and is not a further source), and no source of higher rank
+supplies a range. Above the excluded sizes no failure remains: for $k=2$ and
+$k=3$ the bound ($1$ and $3$ edges) holds in every graph, at $k=4$ it excludes
+exactly $K_4$, which is not Ramsey size linear by [EFRS93] Corollary 1 ($p=4$,
+$q=6=2p-2$), and the corrected class is not empty, since it contains the graphs
+$K_1+T_{p-1}$ of [EFRS93] Corollary 2. The results the page counts, in [EFRS93]
+and [BGS24], all concern graphs of this class. No result about the
+erdosproblems.com wording exists beyond the vacuity check recorded here, which
+settles no instance of the modified Statement.
 
 **Formulation.** The erdosproblems.com wording as accessed 2026-09-17T15:40Z
 (page last edited 18 January 2026). $R(G,H)$ is the least $N$ such that every
@@ -71,16 +74,17 @@ $K_4$. The threshold is the largest possible: by [EFRS93] Corollary 1, a graph
 with $p\ge3$ vertices and $q\ge2p-2$ edges is not Ramsey size linear. The
 erdosproblems.com commentary credits [EFRS93] with Ramsey size linearity for
 every graph on $n$ vertices having at most $n+1$ edges; [EFRS93] Theorem 4
-states this for connected $G$.
+states this for connected $G$, and connectedness is needed ($K_4\cup2K_2$ has
+$8$ vertices and $8$ edges and contains $K_4$, which is not Ramsey size linear).
 
 **Status.** Bloom's catalog labeled the problem OPEN, and the modified Statement
 is open. No full claim exists, so the problem is open with no claim. The search
-whose scope the Current assessment records found no proof or disproof. Partial
-results are known from two refereed papers, both recorded as accepted partial
-claims. The first, [EFRS93], covers connected graphs with at most one more edge
-than vertices (Theorem 4), the graphs $K_1+T_{p-1}$ with exactly $2p-3$ edges
-(Corollary 2) and the graphs with Turán number $O(n^{3/2})$ (Theorem 5). It is
-recorded on
+whose scope the Current assessment records found no proof or disproof.
+Families satisfying the hypothesis and the conclusion are known from two
+refereed papers, both recorded as accepted partial claims. The first, [EFRS93],
+covers connected graphs with at most one more edge than vertices (Theorem 4),
+the graphs $K_1+T_{p-1}$ with exactly $2p-3$ edges (Corollary 2) and the graphs
+with Turán number $O(n^{3/2})$ (Theorem 5). It is recorded on
 [[problems/ramsey_theory/E0566/claims/1993_12_01_erdos_faudree_rousseau_schelp|its claim page]].
 The second, [BGS24], covers the subdivisions of $K_4$ on at least six vertices
 (Theorem 4). It is recorded on
@@ -195,12 +199,16 @@ erdosproblems.com's Problem 79, answered by [Wi24].
   [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/theorem_4|Theorem 4]]
   (p. 393), a connected graph with $q\le p+1$ is Ramsey size linear, while
   $K_4$ with a pendant tree ($q=p+2$) is not; the paper's summary (p. 394)
-  places the undetermined band at $p+2\le q\le2p-3$. The erdosproblems.com
-  commentary omits the connectedness hypothesis.
+  places the undetermined band at $p+2\le q\le2p-3$. Such graphs satisfy the
+  hereditary $2k-3$ condition once $p\ge4$, so they are instances answered
+  yes. The connectedness hypothesis, omitted by the erdosproblems.com
+  commentary, cannot be dropped.
 - A family at the threshold:
   [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/corollary_2|Corollary 2]]
   (p. 392), $r(K_1+T_{p-1},H_n)\le2(p-1)n$ for every tree $T_{p-1}$ and every
-  no-isolate $H_n$ of size $n$; $K_1+T_{p-1}$ has exactly $2p-3$ edges.
+  no-isolate $H_n$ of size $n$; $K_1+T_{p-1}$ has exactly $2p-3$ edges and
+  every subgraph of it on $k$ vertices has at most $2k-3$ edges, so these
+  graphs satisfy the hypothesis with equality.
 - Turán-sparse graphs:
   [[../library/ramsey_theory/erdos_1993_ramsey_size_linear_graphs/theorem_5|Theorem 5]]
   (p. 394), $\mathrm{ext}(G,n)\le cn^{3/2}$ implies $r(G,H_n)\le(32c^2+8)n$;
@@ -208,14 +216,24 @@ erdosproblems.com's Problem 79, answered by [Wi24].
   covers $Q_3$ only if $\mathrm{ext}(Q_3,n)=O(n^{3/2})$, which is open
   ([[problems/extremal_graph_theory/E0576/_index|Problem 576]]).
 - Reduction to blocks: Corollary 3 (p. 393), a graph whose blocks are all
-  Ramsey size linear is Ramsey size linear.
+  Ramsey size linear is Ramsey size linear; the hereditary condition passes
+  to blocks, so the question reduces to $2$-connected graphs.
 
 From [BGS24]: Ramsey size linearity holds for each subdivision of $K_4$
 having six or more vertices
 ([[../library/ramsey_theory/bradac_2022_ramsey_size_linear_graphs_related_questions/theorem_4|Theorem 4]],
-refereed, SIAM J. Discrete Math. 2024). The same paper conjectures that a
-connected $H$ with $e(H)-v(H)\le\binom{k+1}2-2$ has $R(H,K_n)=O(n^k)$ and proves
-the case $k=3$ (its Theorem 2), an adjacent question.
+refereed, SIAM J. Discrete Math. 2024). Such a graph has $e=v+2$, and a
+subgraph on $k$ vertices has at most $k+2$ edges (the cyclomatic number is
+at most $3$), which is at most $2k-3$ for $k\ge5$, while for $k\le4$ a
+subdivision with at least six vertices contains no $K_4$ (its subdivision
+vertices have degree $2$, so a $K_4$ would have to sit on the four branch
+vertices, at least one of whose six edges is subdivided), so its $4$-vertex
+subgraphs have at most $5=2\cdot4-3$ edges; $K_4$ minus an edge does occur,
+for instance when one edge of $K_4$ is subdivided twice (an elementary check
+made here); these graphs are therefore instances of the question answered
+yes. The same paper conjectures that a connected $H$ with
+$e(H)-v(H)\le\binom{k+1}2-2$ has $R(H,K_n)=O(n^k)$ and proves the case
+$k=3$ (its Theorem 2), an adjacent question.
 
 **Adjacent results that are not the problem.** [Wi24] proves that there
 are infinitely many graphs that are not Ramsey size linear although every

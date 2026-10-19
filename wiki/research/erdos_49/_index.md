@@ -8,12 +8,18 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-28T04:45:00Z
-updated: 2026-10-08T13:55:35Z
+updated: 2026-10-13T19:02:47Z
 ---
 
 # Monotone totient sets and the density-zero clause
 
 [[research/_index|..]]
+
+[[research/erdos_49/connections|connections]]: Assesses, as mathematics, what the reconstructed collision bounds and the
+convenient-integer construction give for Problems 1004, 1003, 417, 416,
+694, 51, 821, 415, 850 and 931 and for the open clause of Problem 49:
+author-recorded transfers with their proofs and gaps, and the precise
+obstruction wherever a transfer fails.
 
 [[research/erdos_49/evidence/_index|evidence/]]: Review records for the six reconstruction pages of the monotone-totient
 proof of Pollack, Pomerance and Treviño; no executable evidence is held.
@@ -87,7 +93,14 @@ the Lemma 3.2, Theorem 3.1, Theorem 3.3, Lemma 4.1 and Lemma 5.1 pages differs
 from the reviewed text at the places the grade names; the Theorem 1.2 page is
 the reviewed text. No tier is assigned and the problem's status is unchanged.
 Since the review, line wrapping was normalized on the reconstruction pages,
-changing no formula or sentence.
+changing no formula or sentence. The statements of
+[[research/erdos_49/connections|the connections page]] and its Problem 1004 lead
+were independently reviewed as they stood on 2026-09-28T13:50:48Z by eleven
+focused reviews graded in
+[[research/erdos_49/evidence/verify/connections_grade|the connections grade]],
+whose outcome is that all eleven reports pass, twelve corrections C1--C12 are
+accepted and applied, every mathematical statement is refutation-failed after
+them, the lead is reviewed and no tier is assigned.
 
 **Which clause is settled.** [[problems/primes/E0049/_index|Problem 49]] asks,
 for $A\subseteq\{1,\ldots,N\}$ with strictly increasing totients, (i)
@@ -134,3 +147,18 @@ candidate integers $n$, "convenient" for both, to produce $\gg W(x)$
 reversed pairs $d_1\varphi(n)<d_2\varphi(n)$ inside $\mathcal W(x)$; a
 nondecreasing set must miss one totient of each pair, which is the
 fixed-fraction loss.
+
+**Connections and leads.** What these mechanisms give for other problems
+is assessed, transfer by transfer and with the obstruction where a transfer
+fails, on [[research/erdos_49/connections|the connections page]]: the
+collision bounds answer
+[[problems/arithmetic_functions/E1004/_index|Problem 1004]] for every exponent
+below 2 by an author-recorded union bound, carried by the lead
+[[research/leads/distinct_totient_blocks_from_collision_bounds/_index|distinct totient blocks from collision bounds]];
+the convenient-integer construction bounds the ratio of
+[[problems/arithmetic_functions/E0417/_index|Problem 417]] and puts its limit
+superior above 1, with a window premise for the limit inferior, a route
+carried by the parallel lead
+[[research/leads/distinct_totient_preimage_ratio/_index|distinct totient preimage ratio]];
+and the transfers to Problems 1003, 416, 694, 51, 821, 415, 850 and 931
+are recorded with their outcomes there.

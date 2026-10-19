@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 411
@@ -144,6 +144,28 @@ are separate scaling relations, not examples of the target multiplier-2
 equation. These are historical reports: the passage supplies no general
 classification in $n,r$, and their computational certificates are not
 checked by this corpus.
+
+## Exact scope of the arithmetic reduction
+
+For $g(n)=n+\phi(n)$, the gap-two condition is equivalent to an orbit entering
+
+$$
+\phi(m)+\phi(m+\phi(m))=m.
+$$
+
+Such an $m$ is even: odd $m\ge3$ makes both totients even, and $m=1,2$ fail
+directly. For even $m$, $\phi(2m)=2\phi(m)$ and $g(2m)=2g(m)$, so one equality
+$g^2(m)=2m$ propagates. This algebraic interface is inspected in
+[[../library/arithmetic_functions/steinerberger_2025_iterated_arithmetic_function_problem_erdos_graham/_index|Steinerberger,
+Sections 2.1–2.3]]. The main classification retains a branch with prime
+$p=8t+7\ge10^{10}$ and $\phi(6t+5)=4t+4$; that branch is not proved empty here.
+
+An entry-set classification is also distinct from the basins of that set:
+$18\mapsto24$ and $22\mapsto32$ enter known doubling orbits. Odd starts stay
+odd after the initial cases and cannot double an earlier odd value. The entire
+classification proof was not audited. The residual prime branch, inverse
+basins, and gaps other than two remain separate obligations.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

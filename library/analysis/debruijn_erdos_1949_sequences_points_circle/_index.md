@@ -8,7 +8,7 @@ desc: |
   1 + 1/r for general r, and the closing conjecture behind Problem 1221.
 license: reserved
 created: 2026-09-28T03:00:00Z
-updated: 2026-10-08T13:55:32Z
+updated: 2026-10-19T04:19:04Z
 ---
 
 # de Bruijn–Erdős: Sequences of points on a circle
@@ -16,8 +16,8 @@ updated: 2026-10-08T13:55:32Z
 [[analysis/_index|..]]
 
 [[analysis/debruijn_erdos_1949_sequences_points_circle/conjecture_p17|conjecture_p17]]: The closing conjecture of the note, that r(Λ_r − 1), r(1 − λ_r) and
-r(μ_r − 1) tend to infinity with r, with its missing factor of r noted;
-the question behind Problem 1221.
+r(μ_r − 1) tend to infinity with r, with its normalization defect and the
+mean-normalized reading recorded; the question behind Problem 1221.
 
 [[analysis/debruijn_erdos_1949_sequences_points_circle/inequality_3_3|inequality_3_3]]: For every sequence and every r, the upper limit of n times the largest
 r-span is at least 1/log(1 + 1/r), which exceeds r; in mean-normalized form
@@ -138,7 +138,10 @@ normalization slip discussed on the conjecture page.
   Chung--Graham chapter that resolves that problem opens by attributing to
   this note the bound $1/\log4$ for its clustering measure $\omega$ of a
   sequence in the unit interval; that constant is $\lambda_1$ here. The
-  note works on the circle.
+  note works on the circle. The transfer of the $r=1$ case of (4.3) from the
+  circle to the interval is discussed in author-recorded research, not a
+  claim, on
+  [[../wiki/research/erdos_1221/connections|the Problem 1221 connections page]].
 
 **Results.**
 

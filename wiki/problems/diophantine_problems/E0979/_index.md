@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 979
@@ -81,6 +81,14 @@ No result settles any case $k\ge4$; Wang and Zhang's $\limsup F_4(n)\ge2$ is
 the only recorded result there. The derived standing is open (status open,
 claim none): the accepted claim is partial and the general question is
 unsettled.
+
+## Route analysis
+
+The [[research/diophantine_representation_interfaces/power_sums|power-sum
+representations and collision counts]] account records the following scope. The
+primary abstract explicitly limits the CM cubic method to k=3 and the quartic
+argument to infinitely many double representations.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

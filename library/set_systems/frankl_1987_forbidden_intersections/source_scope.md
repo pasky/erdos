@@ -2,10 +2,10 @@
 name: set_systems/frankl_1987_forbidden_intersections/source_scope
 title: Source coverage and exact remaining boundaries
 desc: >
-  Inventories the complete chains, historical inputs, and uncompiled
-  printed claims.
+  Inventories the complete chains, historical inputs, and uncompiled or
+  contradicted printed claims.
 created: 2026-09-05T14:25:21Z
-updated: 2026-10-08T01:50:01Z
+updated: 2026-10-13T04:56:43Z
 ---
 ***
 
@@ -31,19 +31,30 @@ The separate Section 4 mechanism is retained in Theorem 1.7 rather
 than replaced by an application of the later counting theorem. The
 weak delta-system induction, the asymptotic cube-orthogonality argument,
 and the full spherical averaging deduction are written out in
-Theorems 1.9, 1.11, and 1.13. Section 10's constant-intersection,
-parity, modular, affine, and constant-distance proofs are complete, as
-is the odd-parameter Galvin lower bound and its cyclic-window upper
-construction. The introduction's large-set lower construction has its
-own proof.
+Theorems 1.9, 1.11, and 1.13. Theorem 1.10 includes a positive integral
+matrix construction omitted from its source sketch. Section 10's
+constant-intersection, parity, modular, affine, and constant-distance
+proofs are complete, as is the odd-parameter Galvin lower bound and its
+cyclic-window upper construction. The introduction's large-set lower
+construction has its own proof.
 
 **Exact qualifications.** Theorems 1.7 and 1.9 are proved with the
-necessary eventual thresholds. Theorem 1.13 treats its remaining
-finite dimensions directly and requires $n\ge r$.
+necessary eventual thresholds. Theorem 1.11 is proved for all
+sufficiently large dimensions for each fixed number of vectors; its
+printed finite range $n\ge r$ (vectors of length $4n$) is not fully
+supplied by the source argument and is not claimed here. Theorem 1.13
+treats its remaining finite dimensions directly and requires $n\ge r$.
+The corrected averaging lemma separates its input tolerance from its
+output losses; the printed same-tolerance Proposition 7.2 is not
+asserted.
 
 The exact numerical Corollaries 1.2–1.3 and 2.4 remain at the explicit
 scope in
 [[set_systems/frankl_1987_forbidden_intersections/numerical_corollaries_scope]].
+The unrestricted metric claim Theorem 9.1, interpreted according to its
+printed definition, has the proved obstruction in
+[[set_systems/frankl_1987_forbidden_intersections/theorem_9_1_scope]].
+Its valid positive-joint-array consequence is stated separately there.
 Theorem 1.18 is an announcement with its proof explicitly deferred by
 the source; the later complete simplex chain is located at
 [[discrete_geometry/frankl_1990_partition_property_simplices_euclidean_space/_index|frankl_1990_partition_property_simplices_euclidean_space]].
@@ -59,3 +70,15 @@ Conjecture 11.2's added-in-proof resolution is retained as historical
 source information, without a new status search or a reconstruction of
 that separately cited proof. No source numerical constant is promoted
 to a present record.
+
+**Compilation corrections.** Individual pages identify each correction
+at its point of use: explicit ambient normalization; rounding in
+Theorem 2.1; the deletion slice and interval-width slips; the missing
+weighted step and complement-level reduction; the corrected popular-fiber
+denominator; the two independent averaging losses; the noncircular
+counting reduction; the flattening index; type counts and positive
+integer matrices; affine direction spaces and radius normalization;
+and the length-$2k$ cyclic windows. These are transparently supplied
+proof details and qualifications, not author-issued errata. The
+numerical and metric issues are excluded from the positive full-proof
+claims rather than silently repaired into different advertised results.

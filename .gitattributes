@@ -30,10 +30,29 @@
 **/_index.md merge=wiki
 
 # Git LFS
-*.pdf filter=lfs diff=lfs merge=lfs -text
+*.[pP][dD][fF] filter=lfs diff=lfs merge=lfs -text
 
 # arXiv records beside library PDFs: pulled bytes, never normalized
 **/.arxiv/** -text
+# Sidecar members that are rendered pages or images: pulled bytes, in LFS
+**/.arxiv/**/*.[pP][nN][gG] filter=lfs diff=lfs merge=lfs -text
+**/.arxiv/**/*.[sS][vV][gG] filter=lfs diff=lfs merge=lfs -text
+**/.arxiv/**/*.[eE][pP][sS] filter=lfs diff=lfs merge=lfs -text
+**/.arxiv/**/*.[jJ][pP][gG] filter=lfs diff=lfs merge=lfs -text
+# Converter working output: plain text proved by hash, never normalized
 
 # Data assets over 1 MB
+wiki/research/leads/totient_binary_series/integer_interpolation/evidence/assets/k048.json.gz filter=lfs diff=lfs merge=lfs -text
+wiki/research/leads/totient_binary_series/integer_interpolation/evidence/assets/k064.json.gz filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_index_20_small_height_basis.json.gz filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_index_7_effective.json filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_index_7_height_cover.json filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_index_7_initial_height_cover.json.gz filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_index_7_reblocked_numerical.json filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_index_7_relaxed_sources.json filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_index_9_height_cover.json filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_index_9_initial_height_cover.json.gz filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_nine_cofactor_clauses.json.gz filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_nine_polynomial_cuts.json filter=lfs diff=lfs merge=lfs -text
+wiki/research/erdos_699/computations/erdos_699_triple_prime_power_strips_066_3000.json filter=lfs diff=lfs merge=lfs -text
 library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/assets/erdos_408_formalization.tar.gz filter=lfs diff=lfs merge=lfs -text

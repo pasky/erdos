@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T15:37:31Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 340
@@ -46,13 +46,18 @@ https://www.erdosproblems.com/340.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/340.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/greedy_saturation|greedy prefixes and
+maximal sidon blockers]] account records the following scope. Every prefix A
+intersect [1,N] is maximal, since a skipped integer was already blocked by
+earlier chosen marks.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

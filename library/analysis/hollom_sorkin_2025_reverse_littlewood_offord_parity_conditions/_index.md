@@ -7,7 +7,7 @@ desc: |
   norm at most root of d minus epsilon, with epsilon = 2^{-100} d^{-80}.
 license: CC-BY-4.0
 created: 2026-09-21T06:17:37Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # analysis/hollom_sorkin_2025_reverse_littlewood_offord_parity_conditions
@@ -187,4 +187,4 @@ settles.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — the odd-$n$ unit-radius
 variant (Theorem 1.3) and the higher-dimensional parity variant (Theorem
-1.5); not the exact catalog question.
+1.5); not the exact erdosproblems.com question.

@@ -3,7 +3,7 @@ name: arithmetic_functions
 title: "Arithmetic Functions"
 desc: "Sources filed under Arithmetic Functions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T20:21:11Z
+updated: 2026-10-18T10:10:48Z
 ---
 
 # Arithmetic Functions
@@ -29,6 +29,9 @@ x/48, and shows Robbins numbers have lower density at least 1/3.
 
 [[arithmetic_functions/banks_2018_counting_integers_smooth_totient/_index|banks_2018_counting_integers_smooth_totient/]]: Fixes a gap in an earlier upper bound for the count of n up to x whose
 totient is y-smooth, obtaining a stronger and likely optimal estimate.
+
+[[arithmetic_functions/banks_et_al_2005_values_euler_function_various_sequences/_index|banks_et_al_2005_values_euler_function_various_sequences/]]: Theorem 4.1 bounds primes p for which p-1 has totient preimages beyond p
+and 2p, supplying the known density-one input for prime basins of phi+1.
 
 [[arithmetic_functions/benli_2023_sums_proper_divisors_missing_digits/_index|benli_2023_sums_proper_divisors_missing_digits/]]: Proves the Erdős--Granville--Pomerance--Spiro preimage conjecture for
 sets defined by restricting the allowed base-g digits, when g is at least
@@ -220,6 +223,12 @@ surely at most the square root times a power of the double logarithm.
 [[arithmetic_functions/lau_2026_number_prime_factors_consecutive_integers/_index|lau_2026_number_prime_factors_consecutive_integers/]]: Shows there are infinitely many n with at most C log k prime factors of n+k
 for every k at least 2, improving the previous O(k) bound.
 
+[[arithmetic_functions/leanmeanbean_2026_explicit_bound_erdos_problem_417/_index|leanmeanbean_2026_explicit_bound_erdos_problem_417/]]: A two-page note of October 2026, with no author line and hosted on GitHub,
+claiming limsup V(x)/V'(x) <= e^{M_*} < 2.195202 for the two totient counts
+of Problem 417 by bounding how often primes divide least preimages and
+applying Jensen's inequality; it takes two inputs from an unrefereed
+manuscript and settles neither question.
+
 [[arithmetic_functions/lebowitz_lockard_et_al_2021_distribution_mod_p_eulers_totient_sum_proper_divisors/_index|lebowitz_lockard_et_al_2021_distribution_mod_p_eulers_totient_sum_proper_divisors/]]: Proves that the sum of proper divisors of composite n is equidistributed
 modulo every prime up to a fixed power of log x, with companion asymptotics
 for Euler's totient, a residue-class tool for Problem 955.
@@ -305,14 +314,13 @@ in (p-1)/2 with a parity-twisted Type II estimate; it names no Erdős
 problem, and the release's Artin-conjecture manuscript cites its Lemmas 3.1
 and 3.3.
 
-[[arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/]]: A 68-page release manuscript claiming Erdős's conjecture on the largest
-totient fibers, $g(n)>n^{1-\varepsilon}$ for infinitely many $n$, derived by
-a product-and-pigeonhole step from a claimed count of $x^{1-o(1)}$ primes
-$p\in(2x,5x]$ with $P^+(p-1)\le x^\delta$ for every fixed $\delta>0$, which
-the manuscript derives from a transference theorem for weighted dilation
-graphs, a Type II estimate and a sieve; bears on Problem 821, on Problem 824
-through a draft that reruns it with a change of sign, and, as background, on
-Problem 1057.
+[[arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/]]: A 68-page manuscript claiming Erdős's conjecture on the largest totient
+fibers, $g(n)>n^{1-\varepsilon}$ for infinitely many $n$, by a
+product-and-pigeonhole step from a claimed count of $x^{1-o(1)}$ primes
+$p\in(2x,5x]$ with $P^+(p-1)\le x^\delta$ for fixed $\delta>0$, itself from
+a transference theorem for weighted dilation graphs, a Type II estimate and
+a sieve; bears on Problem 821, on Problem 824 through a draft that reruns it
+with a change of sign, and, as background, on Problem 1057.
 
 [[arithmetic_functions/pascadi_2026_large_sieve_exceptional_maass_greatest_prime_factor/_index|pascadi_2026_large_sieve_exceptional_maass_greatest_prime_factor/]]: Proves large sieve inequalities for exceptional Maass forms with
 exponential-phase and dispersion coefficients, and from them an

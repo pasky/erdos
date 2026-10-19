@@ -1,22 +1,32 @@
 ---
 name: research/erdos_1221
 title: Consecutive-gap constants on the circle
-desc: "Source-proof reconstructions for the de Bruijn–Erdős consecutive-gap constants: the 1949 bounds, the fixed-r ratio improvement, the balanced-stick upper bound and the claimed 2026 resolution, each with the reading of the problem it addresses; the problem stays open."
+desc: "Consecutive-gap source reconstructions and complete local proofs over all sequences, with independently graded ratio, one-sided and whole-conclusion warrants for the supplied mean-normalized question; catalog acceptance remains pending."
 tags: []
 sources: []
 created: 2026-09-28T04:38:10Z
-updated: 2026-10-08T13:55:35Z
+updated: 2026-10-16T04:55:23Z
 ---
 
 # Consecutive-gap constants on the circle
 
 [[research/_index|..]]
 
+[[research/erdos_1221/all_sequence_composition|all_sequence_composition]]: The composed all-sequence consecutive-gap argument, with independently graded ratio, one-sided and whole-conclusion warrants; the mean-normalized catalog claim remains pending.
+
 [[research/erdos_1221/clst25_theorem_2_reconstruction|clst25_theorem_2_reconstruction]]: Reconstructs the one-paragraph derivation of the upper bound on the ratio
 of the largest to the smallest r-span from the short-interval counting
 bound of Theorem 3, with the quantifiers made explicit; Theorem 3 itself
 is imported from the same source and not reconstructed, and the r = 1
 boundary of both statements is recorded.
+
+[[research/erdos_1221/connections|connections]]: Assesses the connections from the reconstructed consecutive-gap proofs to the
+rest of the corpus: the 1949 implication toward the proved Problem 255 (proved
+here; nothing new for that problem), the background transfer of the 1/log 4
+bound behind the proved Problem 480 (proved here; no bearing on that
+question), the 2026 arguments without the distinctness hypothesis (a route on
+Problem 1221 itself, with its lead), and the absence of a second consumer for
+the span-to-count transfer.
 
 [[research/erdos_1221/dber49_inequality_3_3_reconstruction|dber49_inequality_3_3_reconstruction]]: Reconstructs the 1949 count of intervals destroyed by the points inserted
 between stages rn and (r+1)n, giving the lower bound 1/log(1 + 1/r) for the
@@ -34,8 +44,21 @@ turns it into the universal bound 1 + 1/r for the ratio constant; the
 small-n case of the one-step inequality is left as the note leaves it.
 
 [[research/erdos_1221/evidence/_index|evidence/]]: Independent focused reviews and two distinct grades of the
-reconstruction pages for the de Bruijn--Erdős consecutive-gap constants,
-without executable evidence or accepted whole-proof credit.
+reconstruction pages for the de Bruijn--Erdős consecutive-gap constants.
+These focused records give no whole-proof credit; the separate complete
+ratio and one-sided warrants are filed with native claims L163 and L164.
+
+[[research/erdos_1221/finite_list_prefix_bound|finite_list_prefix_bound]]: Every list of L points in [0,1), repeated entries allowed, has a prefix
+whose counting discrepancy is at least floor(log_4 L)/16. Larcher's range
+splitting with four equal integer blocks and a quadratic potential replace
+his optimized auxiliary minimization; the bound supplies the finite-list
+input of the all-sequence ratio argument for Problem 1221.
+
+[[research/erdos_1221/halasz_planar_l1_bound|halasz_planar_l1_bound]]: A complete write-up, following Halász's complex Riesz product as Bilyk's
+survey presents it, that every list of M points in the unit square has
+counting discrepancy of L1 norm at least the square root of log M over
+41000; it supplies the planar input of the two one-sided parts of Problem
+1221.
 
 [[research/erdos_1221/ko26a_lemma_3_1_reconstruction|ko26a_lemma_3_1_reconstruction]]: Reconstructs the monotonicity of the largest r-span under insertion (Lemma
 2.1) and the protected-block lemma: when a split barely lowers the largest
@@ -105,6 +128,12 @@ from the L^1 short-interval count and Halász's planar theorem; states
 which reading of Problem 1221 each part addresses and which inputs are
 imported unchecked.
 
+[[research/erdos_1221/larcher_finite_prefix_interface|larcher_finite_prefix_interface]]: Larcher's Section 3 explicitly treats a finite list before deriving its
+infinite-sequence theorem; his optimized constant is unchecked. Any positive
+logarithmic constant gives the ratio limit, and an elementary finite-list
+bound supplies one, while compactness with Schmidt's countability theorem
+gives an independent qualitative route.
+
 ***
 
 This folder holds author-recorded reconstructions of the proofs behind
@@ -122,7 +151,7 @@ review; they change no status and assign no tier.
 
 ## Where things stand
 
-**The problem stays open.** The erdosproblems.com wording is defective in its
+**The full native conclusion has a passing grade; catalog acceptance remains pending.** The erdosproblems.com wording is defective in its
 first two parts, and the assessed question is the mean-normalized reading:
 whether $\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ tend to infinity. The 1949
 note proves $\Lambda_r-r\ge\tfrac12+o(1)$
@@ -146,8 +175,9 @@ false). Korsky's 2026 preprint claims all three parts of the mean-normalized
 reading over sequences of distinct points, with growth $c\sqrt{\log r}$ for the
 first two and $\log r/100$ for the third
 ([[research/erdos_1221/ko26b_theorem_1_1_reconstruction|Theorem 1.1]]); the
-claim is unrefereed and unreviewed, and the reconstruction changes that standing
-in no way.
+source claim remains unrefereed and has no accepted warrant for its exact
+coefficient $1/100$. The complete local reproofs and their distinct standing are
+recorded below.
 
 **What the reconstruction of the claim rests on.** The chain Lemma 2.1
 (cyclic-walk comparison), Proposition 3.1 (short-interval counts under
@@ -156,28 +186,76 @@ list), and Section 5 gives the ratio part; the chain Lemma 6.1 ($L^1$
 span control from a one-sided bound), Lemmas 6.2--6.3, Proposition 6.4
 ($L^1$ short-interval counts) and Lemma 7.2 (localization to a planar
 point set), and Section 8 gives the two one-sided parts. Every step of
-these chains is written out on its page. Two inputs are imported and not
-checked: the finite-prefix form of Schmidt's discrepancy theorem with
-constant $1/16$, which the preprint derives from Larcher's 2015 proof
-(Larcher's paper is not held; the qualitative form with an unspecified
-constant follows from Schmidt's planar theorem, which would still give
-the growth $r(\mu_r-1)\to\infty$), and Halász's 1981 planar $L^1$
-discrepancy theorem (not held). The constants $c$, $r_0$ are not
-explicit, and the ratio argument needs $r\ge e^{100}$ before its absolute
-constants enter. Distinctness of the points is used in Lemma 4.2;
+these chains is written out on its page. As the preprint argues, two
+inputs are imported: the finite-prefix form of Schmidt's discrepancy
+theorem with constant $1/16$, which the preprint derives from Larcher's 2015
+proof (Larcher's paper has a library card, its Section 3 is a finite-list
+argument, and its optimized lemmas are not checked; see
+[[research/erdos_1221/larcher_finite_prefix_interface|the interface page]];
+the qualitative form with an unspecified constant follows from Schmidt's
+planar theorem, which would still give the growth $r(\mu_r-1)\to\infty$),
+and Halász's 1981 planar $L^1$ discrepancy theorem (that paper is not held;
+Bilyk's survey, which presents its proof, has a library card). The constants
+$c$, $r_0$ are not explicit, and the ratio argument needs $r\ge e^{100}$ before
+its absolute constants enter. Distinctness of the points is used in Lemma 4.2;
 whether the constants over all sequences agree with those over distinct
-sequences is not settled in the sources read. The one omitted case in
-the 1949 material is (5.1) for $n<2r-1$, which (5.7) does not need.
+sequences is not settled in the sources read. The one omitted case in the 1949
+material is (5.1) for $n<2r-1$, which (5.7) does not need.
 
-**Mechanism.** The 1949 bounds and both Korsky arguments rest on the same two
-facts: inserting a point splits one gap and changes only the nearby $r$-blocks,
-and the $r$-spans at time $n$ average $r/n$; the 2026 preprint adds that forward
-and backward cyclic walks by $kr$ places, composed across nearby times, inject
-the points of a short interval at one time into a slightly longer interval at a
-later time, so that uniform span control transfers to counting control on
-intervals holding about $\sqrt{Ar}$ points, where a discrepancy lower bound
-(Schmidt's in one dimension for the ratio, Halász's $L^1$ planar bound for the
-one-sided parts) becomes a contradiction.
+**The composed argument over all sequences.** The
+[[research/erdos_1221/all_sequence_composition|composition page]] reads every
+step of both chains for sequences with coincident terms and replaces both
+imports by written proofs: the
+[[research/erdos_1221/finite_list_prefix_bound|finite-list page]] proves
+$H_L\ge\lfloor\log_4L\rfloor/16$ for every list by Larcher's range splitting
+and a quadratic potential, and the
+[[research/erdos_1221/halasz_planar_l1_bound|planar page]] writes out
+Halász's $L^1$ bound, following Bilyk's exposition, with $c_H=1/41000$. The
+ratio result is
+[[theory/analysis/L163_all_sequence_span_ratio/_index|L163]] and the two
+one-sided results are
+[[theory/analysis/L164_all_sequence_span_deviations/_index|L164]], each at
+tier 1 with a whole-statement examination and distinct passing grade. These
+examinations include the complete discrepancy inputs and repeated-point
+arguments, with the exact subjects and independence qualifications retained.
+The conjunction
+[[theory/analysis/L165_consecutive_gap_growth_conjunction/_index|L165]]
+has its own whole-conclusion warrant at tier 1: for all large $r$ and every sequence, coincident
+terms allowed, the two one-sided expressions are at least
+$c\sqrt{\log r}$ and $r(\mu_r-1)\ge(\log r)/200$.
+It does not need the two families' constants to agree. The
+[[theory/analysis/L165_consecutive_gap_growth_conjunction/_index|proposed full conclusion]]
+has an independent whole-conclusion examination with verdict
+**refutation-failed** for the supplied modified Statement, accepted by its
+[distinct whole-contract PASS grade](../../theory/analysis/L165_consecutive_gap_growth_conjunction/evidence/verify/whole_statement/grade.md)
+on 2026-10-16 UTC. Catalog acceptance remains pending. No historical-source
+fidelity is asserted by that formulation comparison.
+
+**Mechanism and leads.** The 1949 bounds and both Korsky arguments rest on the
+same two facts: inserting a point splits one gap and changes only the nearby
+$r$-blocks, and the $r$-spans at time $n$ average $r/n$; the 2026 preprint adds
+that forward and backward cyclic walks by $kr$ places, composed across nearby
+times, inject the points of a short interval at one time into a slightly longer
+interval at a later time, so that uniform span control transfers to counting
+control on intervals holding about $\sqrt{Ar}$ points, where a discrepancy lower
+bound (Schmidt's in one dimension for the ratio, Halász's $L^1$ planar bound for
+the one-sided parts) becomes a contradiction. The connections are assessed on
+[[research/erdos_1221/connections|the connections page]]: the 1949 implication
+toward [[problems/discrepancy/E0255/_index|Problem 255]] (proved there; nothing
+new for that proved problem), the background transfer of the $1/\log4$ bound
+behind [[problems/number_theory/E0480/_index|Problem 480]] (proved there; no
+bearing on that proved question), the 2026 arguments without the distinctness
+hypothesis, recorded as the lead
+[[research/leads/consecutive_gap_bounds_coincident_points/_index|consecutive_gap_bounds_coincident_points]],
+and the finding that no second problem in the corpus consumes the span-to-count
+transfer, so no method page is made. The statements of
+[[research/erdos_1221/connections|the connections page]] and its lead were
+independently reviewed as they stood on 2026-09-28T13:50:48Z by four focused
+reviews, one per section, graded in
+[[research/erdos_1221/evidence/verify/connections_grade|the connections grade]],
+whose outcome is that all four reports pass, eight corrections C1--C8 are
+accepted and since applied, every mathematical statement is refutation-failed
+after them, the lead is reviewed and no tier is assigned.
 
 **Reviewed.** Each reconstruction page was independently reviewed as it stood on
 2026-09-28T05:03:27Z by a focused review filed under
@@ -207,4 +285,11 @@ relative to the imported Theorem 4.1. The twelve corrections C1--C12 were
 applied, so the current text differs from the reviewed text at the places the
 grade names. No tier is assigned and the problem's status is unchanged. After
 the review, line wrapping was normalized on the reconstruction pages; no formula
-or sentence changed.
+or sentence changed. The accounts of the imported inputs on the Lemma 4.2,
+Lemma 7.2 and Theorem 1.1 pages have since been brought up to date with the
+Larcher and Bilyk library cards and the finite-list, planar and composition
+pages. The Lemma 7.2 page also distinguishes changes on rectangle boundary
+lines from the treatment of zero coordinates and points to the planar
+page's proof for both conventions. This clarification and the new planar
+proof are outside the focused review's subject; its localization argument
+is unchanged.

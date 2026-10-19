@@ -7,7 +7,7 @@ desc: |
   a_0x_0^d+a_jx_j^d nonzero for j = 1, 2, 3 number
   O_d(B^{3/sqrt d}(log B)^4+1).
 created: 2026-10-08T16:39:21Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -65,5 +65,14 @@ print; the proof was read for its structure only.
 
 ## Bears on
 
-None directly. Like the rest of the paper, it settles neither question of
-[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
+- [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+  source card reads the
+  [[../wiki/research/erdos_940/cubic_collision_ranges|E940 cubic collision-range note]]'s
+  use of
+  [[diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/corollary_0_7|Corollary 0.7]]
+  in this form: for $ax^3+by^3=au^3+bv^3$ with $a,b>0$ rational and $a/b$ not
+  a rational cube, every primitive positive solution with $(x,y)\ne(u,v)$
+  satisfies the conditions here, which bounds such solutions in $[1,N]^4$ by
+  $O(N^{\sqrt3}(\log N)^4)$. The bound controls only the collisions of a
+  diagonal cubic form that share a coordinate, and settles neither question
+  of the problem.

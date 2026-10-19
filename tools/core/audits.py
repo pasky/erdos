@@ -30,7 +30,7 @@ import datetime as dt
 import json
 import pathlib
 import re
-from typing import Any, Optional
+from typing import Any, Optional, TypeGuard
 
 import tools.core.files
 from tools.constants import (
@@ -194,8 +194,10 @@ def audit_library_licenses(
     license when ``open_only`` (the holding policy: ``reserved``,
     ``unstated`` and every NC or ND term), the term of a PDF disagreeing with
     the license its arXiv record names, a record naming a license URL with no
-    mapping, or frontmatter that is missing or invalid (a duplicate key
-    included), which ends that card's checks. A ``license`` on a card holding
+    mapping, a record that cannot be read (not UTF-8, not JSON, as a
+    truncated or conflict-marked file is, or not a JSON object), which skips
+    only that PDF's cross-check, or frontmatter that is missing or invalid (a
+    duplicate key included), which ends that card's checks. A ``license`` on a card holding
     no file is allowed: the term a card read stays when its file is not held.
     Each held PDF has its transcription, the markdown file of its stem, unless
     the card's ``transcription`` key records a reason from
@@ -283,12 +285,16 @@ def audit_library_licenses(
         except ValueError as error:
             findings.append(f'{where}: {error}')
             continue
-        # the arXiv records of the held PDFs
-        arxiv = {
-            name: _record(root / relative)
-            for name, relative in records.get(folder, {}).items()
-            if name in held
-        }
+        # the arXiv records of the held PDFs; an unreadable record is a
+        # finding on its card and skips only that PDF's cross-check
+        arxiv = {}
+        for name, relative in records.get(folder, {}).items():
+            if name not in held:
+                continue
+            try:
+                arxiv[name] = _record(root, relative)
+            except ValueError as error:
+                findings.append(f'{where}: arXiv record {relative.as_posix()} {error}')
         issues, remarks = _license_issues(
             metadata, held, derived, arxiv, open_only=open_only
         )
@@ -424,9 +430,21 @@ def _targets(value: Any) -> bool:
     )
 
 
-def _record(path: pathlib.Path) -> dict[str, Any]:
-    """Read an arXiv record, the corpus's own JSON object beside a held PDF."""
-    return json.loads(path.read_text(encoding='utf-8'))
+def _record(root: pathlib.Path, relative: pathlib.Path) -> dict[str, Any]:
+    """Read an arXiv record, the corpus's own JSON object beside a held PDF.
+
+    A record that is not UTF-8 text, not JSON (a truncated or conflict-marked
+    file) or not a JSON object raises ValueError saying which.
+    """
+    try:
+        record = json.loads((root / relative).read_text(encoding='utf-8'))
+    except UnicodeDecodeError as error:
+        raise ValueError('is not UTF-8 text') from error
+    except json.JSONDecodeError as error:
+        raise ValueError(f'is not JSON ({error.msg}, line {error.lineno})') from error
+    if not isinstance(record, dict):
+        raise ValueError(f'is a JSON {type(record).__name__}, not an object')
+    return record
 
 
 def _transcription(path: pathlib.Path) -> bool:
@@ -599,7 +617,7 @@ def _transcription_issues(
     return issues
 
 
-def _valid_term(term: Any) -> bool:
+def _valid_term(term: Any) -> TypeGuard[str]:
     """Return whether a license term is in the vocabulary.
 
     An SPDX license identifier as the SPDX list spells it, a single identifier

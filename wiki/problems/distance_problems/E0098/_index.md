@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:20Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 98
@@ -143,6 +143,14 @@ construction.
 The Tao and Ghosal--Goenka--Keevash statements above are those of the arXiv
 v1 records; both papers have since appeared in Discrete & Computational
 Geometry, as the references record.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/counts|distance counts,
+multiplicities and pinned occupancy]] account records the following scope. No
+four cocircular implies every radius at each pin contains at most three other
+points, so every length has at most 3n/2 unordered pairs and D >= ceil((n-1)/3).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

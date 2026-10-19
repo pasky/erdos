@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T14:15:22Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1208
@@ -102,6 +102,14 @@ Search scope: the erdosproblems.com problem page and discussion thread, the
 arXiv record and text of [LPZ26], Lee's repository, the community database
 entry, and the library cards linked below. No wider literature search was made,
 and nothing here is independently reviewed.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/distance_subsets|repeated
+distances and geometric sidon subsets]] account records the following scope.
+Optimizing the inspected deletion inequality qN-aq^3N^(7/3)-bq^4N^3 log N with
+q=epsilon N^(-2/3)(log N)^(-1/3) gives Omega(N^(1/3)/(log N)^(1/3)).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

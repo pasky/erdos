@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 530
@@ -132,6 +132,15 @@ review and awards nothing.
 - Alon and Erdős [AlEr85] conjecture more: every $N$-element set is the
   union of at most $(1+o(1))N^{1/2}$ Sidon sets, which holds for
   $\{1,\ldots,N\}$ by the standard constructions, as erdosproblems.com notes.
+
+## Route analysis
+
+The [[research/sidon_extension_interfaces/finite_extremality|finite sidon
+extremality and prefix extension]] account records the following scope. Finite
+real sets can be modeled by integers preserving exactly all order-two additive
+relations, with no cardinality loss, but the integer model has uncontrolled
+diameter.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

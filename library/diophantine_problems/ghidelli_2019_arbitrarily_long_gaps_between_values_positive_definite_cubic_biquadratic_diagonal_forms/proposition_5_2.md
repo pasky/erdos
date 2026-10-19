@@ -8,7 +8,7 @@ desc: |
   normalized Jacobi sum symbol is a Hecke character with defining ideal (s^2),
   unitary for s >= 3, with infinity type alpha/|alpha| when s is 3 or 4.
 created: 2026-10-08T16:39:21Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -86,5 +86,9 @@ by clause on p. 10, the cited derivation on pp. 10--11 read through.
 ## Bears on
 
 - [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]:
-  background only. The proposition proves nothing about the problem and
-  confers no standing.
+  [[../wiki/research/erdos_940/quartic_euler_majorant|the quartic
+  Euler-majorant research note]] cites part (i) for the order, infinity type and
+  support of the conductor of a quartic residue character over
+  $\mathbb Q(i)$, and part (ii) for the infinity type of the normalized quartic
+  Jacobi sum. The proposition is an input to that note's argument; it proves
+  nothing about the problem by itself and confers no standing.

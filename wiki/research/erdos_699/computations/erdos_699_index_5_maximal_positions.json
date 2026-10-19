@@ -1,0 +1,508 @@
+{
+  "index": 5,
+  "scope": "Above an effectively computable, unevaluated row threshold.",
+  "conclusion": "The distinct maximal positions for 2 and 3 must be 0 and 1.",
+  "products": {
+    "A": {
+      "factors": {
+        "xy": 1,
+        "shift1": 1,
+        "q2": 1
+      },
+      "multiplicities": [
+        0,
+        3,
+        2,
+        1,
+        1
+      ],
+      "degree": 6
+    },
+    "B": {
+      "factors": {
+        "xy": 2,
+        "shift1": 1,
+        "q1": 1
+      },
+      "multiplicities": [
+        5,
+        4,
+        2,
+        2,
+        1
+      ],
+      "degree": 8
+    },
+    "C": {
+      "factors": {
+        "xy": 6,
+        "shift1": 2,
+        "diagonal": 1
+      },
+      "multiplicities": [
+        14,
+        8,
+        6,
+        0,
+        2
+      ],
+      "degree": 18
+    },
+    "D": {
+      "factors": {
+        "xy": 3,
+        "shift1": 2,
+        "q3": 1
+      },
+      "multiplicities": [
+        0,
+        6,
+        4,
+        3,
+        0
+      ],
+      "degree": 12
+    }
+  },
+  "jet_certificates": [
+    {
+      "name": "J1",
+      "cofactors_at_0_2": [
+        "1/20",
+        "291/1000"
+      ],
+      "line_exponents": [
+        17,
+        12,
+        0,
+        0,
+        0
+      ],
+      "multiplicities": [
+        37,
+        58,
+        25,
+        29,
+        23
+      ],
+      "interpolation_degree": 60,
+      "rank": 938,
+      "basis_count": 961,
+      "degree": 119,
+      "gain": "1/8"
+    },
+    {
+      "name": "J2",
+      "cofactors_at_0_2": [
+        "1/40",
+        "329/1000"
+      ],
+      "line_exponents": [
+        21,
+        15,
+        0,
+        0,
+        0
+      ],
+      "multiplicities": [
+        46,
+        76,
+        34,
+        38,
+        31
+      ],
+      "interpolation_degree": 84,
+      "rank": 1799,
+      "basis_count": 1849,
+      "degree": 157,
+      "gain": "42/125"
+    }
+  ],
+  "modular_prime": 251,
+  "ranks_checked": true,
+  "cofactor_witness_vectors_in_prime_order_2_3": [
+    [
+      "0",
+      "14/25"
+    ],
+    [
+      "1/50",
+      "13/25"
+    ],
+    [
+      "1/20",
+      "291/1000"
+    ],
+    [
+      "329/1000",
+      "1/40"
+    ],
+    [
+      "11/20",
+      "0"
+    ]
+  ],
+  "position_vector_cases": 30,
+  "coverage": [
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "0",
+        "14/25"
+      ],
+      "certificate": "A",
+      "gain": "3/25"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "14/25",
+        "0"
+      ],
+      "certificate": "B",
+      "gain": "9/5"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "1/50",
+        "13/25"
+      ],
+      "certificate": "A",
+      "gain": "1/25"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "13/25",
+        "1/50"
+      ],
+      "certificate": "B",
+      "gain": "41/25"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "1/20",
+        "291/1000"
+      ],
+      "certificate": "J1",
+      "gain": "1/8"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "291/1000",
+        "1/20"
+      ],
+      "certificate": "B",
+      "gain": "111/200"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "329/1000",
+        "1/40"
+      ],
+      "certificate": "B",
+      "gain": "139/200"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "1/40",
+        "329/1000"
+      ],
+      "certificate": "J2",
+      "gain": "42/125"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "11/20",
+        "0"
+      ],
+      "certificate": "B",
+      "gain": "7/4"
+    },
+    {
+      "positions": [
+        0,
+        2
+      ],
+      "cofactors": [
+        "0",
+        "11/20"
+      ],
+      "certificate": "A",
+      "gain": "1/10"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "0",
+        "14/25"
+      ],
+      "certificate": "A",
+      "gain": "14/25"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "14/25",
+        "0"
+      ],
+      "certificate": "C",
+      "gain": "146/25"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "1/50",
+        "13/25"
+      ],
+      "certificate": "A",
+      "gain": "13/25"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "13/25",
+        "1/50"
+      ],
+      "certificate": "C",
+      "gain": "132/25"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "1/20",
+        "291/1000"
+      ],
+      "certificate": "A",
+      "gain": "291/1000"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "291/1000",
+        "1/20"
+      ],
+      "certificate": "C",
+      "gain": "1037/500"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "329/1000",
+        "1/40"
+      ],
+      "certificate": "C",
+      "gain": "1303/500"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "1/40",
+        "329/1000"
+      ],
+      "certificate": "A",
+      "gain": "329/1000"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "11/20",
+        "0"
+      ],
+      "certificate": "C",
+      "gain": "57/10"
+    },
+    {
+      "positions": [
+        0,
+        3
+      ],
+      "cofactors": [
+        "0",
+        "11/20"
+      ],
+      "certificate": "A",
+      "gain": "11/20"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "0",
+        "14/25"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "14/25",
+        "0"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "1/50",
+        "13/25"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "13/25",
+        "1/50"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "1/20",
+        "291/1000"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "291/1000",
+        "1/20"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "329/1000",
+        "1/40"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "1/40",
+        "329/1000"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "11/20",
+        "0"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    },
+    {
+      "positions": [
+        0,
+        4
+      ],
+      "cofactors": [
+        "0",
+        "11/20"
+      ],
+      "certificate": "D",
+      "gain": "1"
+    }
+  ]
+}

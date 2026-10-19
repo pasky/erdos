@@ -10,7 +10,7 @@ desc: |
   representations as a sum of two cubes of nonnegative integers.
 license: unstated
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-19T04:19:04Z
 ---
 
 # Heath-Brown: The density of rational points on cubic surfaces
@@ -241,7 +241,20 @@ $$
 set for sums of two cubes, not on all integers represented by three cubes or by
 three arbitrary 3-powerful numbers.
 
-The paper does not resolve any case of E940.
+Theorem 2 is potentially reusable if an E940 counting problem can be sliced into
+primitive zeros of nonsingular ternary quadratic forms with controlled
+determinant and bounded gcd of the $2\times2$ minors; Theorem 3 can complement
+it when one coordinate is fixed. Equations (2)–(5) and Lemmas 4–6 show exactly
+how this works for a cubic surface possessing three rational coplanar lines. No
+analogous reduction is provided for equal sums of three cubes, for sums
+involving general 3-powerful numbers, or for exponent $r\ge4$.
+
+In particular, the collision bound cannot be converted into the required upper
+bound for the support of the representation function: integers having exactly
+one representation are not counted by the corollary. The paper therefore neither
+proves density zero for sums of three cubes nor resolves any case of E940 as
+stated; its relevance is as a geometric and quadratic-form treatment of one
+restricted collision locus inside the $r=3$ problem.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

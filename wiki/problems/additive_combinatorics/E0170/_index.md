@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 170
@@ -68,13 +68,33 @@ https://www.erdosproblems.com/170.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/170.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The exact limiting constant remains undetermined. The accepted historical
+convergence claim and the bounds above retain their stated source standing.
+A separate Plasma AI author argument,
+[[theory/additive_combinatorics/L38_restricted_difference_basis_convergence/_index|L38]],
+proves convergence by covering the full endpoint interval omitted in the
+printed Erdős–Gál argument. For each fixed integer $n\ge1$ it gives
 
-## Known Results
+$$
+\limsup_{N\to\infty}\frac{F(N)}{\sqrt N}
+\le \frac{F(n)+2}{\sqrt{n+1}},
+\qquad
+\lim_{N\to\infty}\frac{F(N)}{\sqrt N}
+=\inf_{n\ge1}\frac{F(n)+2}{\sqrt{n+1}}.
+$$
 
-Not yet compiled.
+The modular carry and interval patch are supplied in its proof, with Singer's
+theorem and the prime number theorem as statement-level external premises.
+This does not prove the printed infimum without $+2$, its resulting numerical
+upper bound, or the conjectural value $\sqrt3$. Independent examination of the
+new argument is outstanding; no stronger standing of the historical proof is
+asserted. The
+[[research/leads/restricted_difference_basis_limit/_index|research account]]
+separates convergence from the still missing estimate for the exact constant.
+This account examines the held construction, not a new complete literature
+search or a finite determination of the limit.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

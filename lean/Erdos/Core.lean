@@ -1,9 +1,7 @@
 /-
-Erdos/Core.lean -- the empty shared-core canary.
+Erdos/Core.lean -- the empty shared core.
 
-This file intentionally declares no constants. It gives the Lean library
-one module so the build, universal audit, and empty manifest can be verified
-without asserting a mathematical claim.
+This file intentionally declares no constants, and no module imports it.
 
 Erdos spans many fields, so Core must not become an omnibus import. Future
 source-local mathematics stays with its source, and reusable mathematical

@@ -13,7 +13,7 @@ parts:
 - q1
 - q2
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 918
@@ -124,6 +124,16 @@ answered in ZFC alone, and Bloom's catalog labeled the problem OPEN.
 - Second question, consistent yes:
   [[problems/graph_coloring/E0918/claims/2014_08_05_rinot|Rinot 2015]], in
   $L$.
+
+## Scoped deduction
+
+The [[research/methods/chromatic_threshold_interfaces|limit-union obstruction]]
+shows why a disjoint union of finite-stage examples cannot supply the second
+question: one component of uncountable chromatic number already lies inside
+a set of at most $\aleph_\omega$ vertices. This route test is separate
+from Rinot's positive consistency result, whose primary theorem is not
+inspected in that argument.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -140,6 +150,8 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/graph_coloring/erdos_1968_chromatic_number_infinite_graphs/theorem_3|erdos_1968_chromatic_number_infinite_graphs / theorem_3]]
 - [[../library/graph_coloring/erdos_1968_chromatic_number_infinite_graphs/theorem_4|erdos_1968_chromatic_number_infinite_graphs / theorem_4]]
 - [[../library/graph_coloring/erdos_1969_problems_results_chromatic_graph_theory/_index|erdos_1969_problems_results_chromatic_graph_theory]]
+- [[../library/graph_coloring/rinot_2015_chromatic_numbers_graphs_large_gaps/_index|rinot_2015_chromatic_numbers_graphs_large_gaps]]
+- [[../library/graph_coloring/rinot_2015_chromatic_numbers_graphs_large_gaps/theorem_3_3|rinot_2015_chromatic_numbers_graphs_large_gaps / theorem_3_3]]
 - [[../library/graph_coloring/shelah_1990_incompactness_chromatic_numbers_graphs/_index|shelah_1990_incompactness_chromatic_numbers_graphs]]
 - [[../library/graph_coloring/shelah_1990_incompactness_chromatic_numbers_graphs/theorem_3_1|shelah_1990_incompactness_chromatic_numbers_graphs / theorem_3_1]]
 

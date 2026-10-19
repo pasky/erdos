@@ -1,10 +1,10 @@
 ---
 name: problems/discrete_geometry/E0173/claims
-desc: The 3 claim pages of Problem 173, one per claimant's result; the problem's standing derives from them.
+desc: The 4 claim pages of Problem 173, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T20:00:46Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-19T03:49:50Z
 ---
 
 # problems/discrete_geometry/E0173/claims
@@ -25,5 +25,13 @@ A.
 monochromatic congruent copy of three equally spaced collinear points, and
 hence of every $(a,2a,xa)$ triangle with $x\in[1,3]$. The paper is refereed,
 in Combinatorica 44 (2024).
+
+[[problems/discrete_geometry/E0173/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Plasma AI proves that every two-coloring of the plane has a monochromatic
+congruent copy of every triangle, collinear triples of distinct points
+included, except at most one, which if present is equilateral, building on
+OpenAI's 2026 plane-coloring manuscript. It is accepted on Plasma AI's
+rebuild, Comparator check and kernel replay of its Lean formalization, a
+graded review of the formal statements, and the sign-off of Jacob Parish at
+Plasma AI; the whole conclusion is tier 1.
 
 ***

@@ -41,6 +41,7 @@ __all__ = [
     'test_owners_run_in_parallel_and_their_programs_in_order',
     'test_children_import_the_checkout_without_optimization',
     'test_tree_changes_fail_the_run_only_in_a_clean_checkout',
+    'test_a_run_reads_a_stale_index_without_rewriting_it',
     'test_report_records_the_run_and_refuses_published_paths',
     'test_lfs_pointer_preflight_refuses_an_unhydrated_checkout',
 ]
@@ -97,12 +98,15 @@ def test_discovery_enrolls_entry_points_and_reports_gaps(
     _program(second / 'notes' / 'produce.py', 'pass')
     _program(second / 'notes' / '__init__.py', '')
     _program(second / 'verify' / 'stray.py', 'pass')
-    # a shell leg enrolled by declaration, and a program outside evidence/
+    # a shell leg enrolled by declaration, and undeclared programs outside
+    # evidence/, a main.py among them
     third = repository / _OWNER_C / 'evidence'
     _program(third / 'verify' / 'leg_c' / 'run_all.sh', '# evidence: entry', 'exit 0')
+    _program(repository / 'library' / 'paper' / 'main.py', *_PASS)
     _program(repository / 'library' / 'paper' / 'scan.py', 'pass')
     entries, gaps = discover_evidence(repository)
-    # every main.py outside the excluded folders, plus the declared shell leg
+    # every main.py under evidence/ outside the excluded folders, plus the
+    # declared shell leg
     assert [(entry.path, entry.kind, entry.owner) for entry in entries] == [
         (f'{_OWNER_A}/evidence/depth/main.py', 'probe', _OWNER_A),
         (f'{_OWNER_A}/evidence/main.py', 'owner', _OWNER_A),
@@ -112,7 +116,7 @@ def test_discovery_enrolls_entry_points_and_reports_gaps(
     ]
     # the regions no entry point covers, with the programs in each
     assert gaps == [
-        Gap('library/paper', ('library/paper/scan.py',)),
+        Gap('library/paper', ('library/paper/main.py', 'library/paper/scan.py')),
         Gap(
             f'{_OWNER_A}/evidence/probe2',
             (f'{_OWNER_A}/evidence/probe2/run.sh',),
@@ -233,7 +237,9 @@ def test_declaration_lines_outside_the_leading_comments_are_text(
     assert by_name['evidence'].mode == ''
     assert by_name['twice'].error == 'more than one declaration line'
     assert by_name['verify'].path.endswith('leg.py')
-    assert by_name['verify'].error == 'a program not named main.py needs the entry word'
+    assert by_name['verify'].error == (
+        'only a main.py under evidence/ enrolls without the entry word'
+    )
 
 
 @pytest.mark.parametrize(
@@ -466,12 +472,17 @@ def test_stop_file_stops_running_programs_and_skips_pending_ones(
 # ------ the environment
 
 
+@pytest.mark.parametrize('threads', [None, ''], ids=['unset', 'empty'])
 def test_lean_toolchain_is_blocked_without_the_flag(
     repository: pathlib.Path,
     tmp_path: pathlib.Path,
     monkeypatch: pytest.MonkeyPatch,
+    threads: str | None,
 ) -> None:
-    """Test that lean and lake fail without --lean and run, capped, with it."""
+    """Test that lean and lake fail without --lean and run, capped, with it.
+
+    An exported empty cap reads as unset, as the Lean launcher reads it.
+    """
     # a logged lake on PATH stands in for the toolchain
     calls = tmp_path / 'lake-calls.log'
     binary = write_page(
@@ -482,7 +493,10 @@ def test_lean_toolchain_is_blocked_without_the_flag(
     binary.chmod(0o755)
     monkeypatch.setenv('PATH', f'{binary.parent}{os.pathsep}{os.environ["PATH"]}')
     monkeypatch.setenv('LEAN_TEST_CALLS', f'{calls}')
-    monkeypatch.delenv('LEAN_NUM_THREADS', raising=False)
+    if threads is None:
+        monkeypatch.delenv('LEAN_NUM_THREADS', raising=False)
+    else:
+        monkeypatch.setenv('LEAN_NUM_THREADS', threads)
     # an undeclared program reaching for lake, and a declared one
     lake_build = (
         'import subprocess',
@@ -628,6 +642,30 @@ def test_tree_changes_fail_the_run_only_in_a_clean_checkout(
     assert not run.passed
     assert run.head_moved is False
     assert run.results[0].state == 'PASS'
+
+
+def test_a_run_reads_a_stale_index_without_rewriting_it(
+    repository: pathlib.Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """Test that the run's Git reads leave a stale index alone (no optional locks)."""
+    # an inherited GIT_OPTIONAL_LOCKS=0 would mask a dropped flag
+    monkeypatch.delenv('GIT_OPTIONAL_LOCKS', raising=False)
+    _program(repository / _OWNER_A / 'evidence' / 'main.py', *_PASS)
+    run_git(repository, 'add', '-A')
+    run_git(repository, 'commit', '-qm', 'programs')
+    # a newer timestamp on an unchanged file leaves the index stale, so a plain
+    # status would refresh it and write it back
+    page = repository / 'wiki' / '_index.md'
+    stamp = page.stat().st_mtime + 60
+    os.utime(page, (stamp, stamp))
+    index = repository / '.git' / 'index'
+    before = index.read_bytes()
+    entries, gaps = discover_evidence(repository)
+    run = run_evidence(repository, entries, gaps, jobs=1)
+    assert run.tree_checked is True
+    assert run.passed
+    assert index.read_bytes() == before
 
 
 def test_report_records_the_run_and_refuses_published_paths(

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T13:51:04Z
+updated: 2026-10-19T06:24:28Z
 ---
 
 # Problem 1171
@@ -222,7 +222,7 @@ which awards no tier.
   $\omega_1^2$, this gives $\omega_1^2\to(\omega_1\omega,3,\ldots,3)^2_{k+1}$
   for every finite $k$ in every model of $\mathrm{MA}_{\aleph_1}$; since
   $\mathrm{MA}_{\aleph_1}$ is consistent relative to ZFC [SoTe71], the exact
-  catalog statement is not disprovable in ZFC. The bridging step is
+  erdosproblems.com statement is not disprovable in ZFC. The bridging step is
   author-recorded here, not independently reviewed.
 - **Gao 2026 ($\mathrm{MA}_{\aleph_1}$; unrefereed, AI-assisted).** Zenodo
   deposit of 5 September 2026
@@ -233,11 +233,11 @@ which awards no tier.
   split the merged color with the two-color relation on the set of type
   $\alpha$);
   [[../library/set_theory/gao_2026_finite_color_partition_relation_omega_1_squared/theorem_3_1|Theorem 3.1]],
-  $\mathrm{MA}_{\aleph_1}$ implies the exact catalog relation for every
-  $k\ge1$. Was listed on erdosproblems.com as a partial proof claim with no
-  comments until its author withdrew it on 1 October 2026 (see the claim page);
-  it prompted the erdosproblems.com status change of 2026-09-05. Proofs of the
-  lemma and theorem followed on the card (author-recorded); research
+  $\mathrm{MA}_{\aleph_1}$ implies the exact erdosproblems.com relation for
+  every $k\ge1$. Was listed on erdosproblems.com as a partial proof claim with
+  no comments until its author withdrew it on 1 October 2026 (see the claim
+  page); it prompted the erdosproblems.com status change of 2026-09-05. Proofs
+  of the lemma and theorem followed on the card (author-recorded); research
   reconstructions independently reviewed and graded faithful and sound, no tier;
   not load-bearing given Baumgartner's theorem.
 - **Baumgartner and Hajnal 1987 (ZFC, $k=2$).**
@@ -256,7 +256,20 @@ which awards no tier.
   or even whether $\alpha\not\to(\beta,4)^2$ together with
   $\alpha\to(\beta,3,3,3)^2$ is consistent for some ordinals $\alpha,\beta$.
   The erdosproblems.com summary of Gao's claim likewise says the ZFC case
-  remains open.
+  remains open. An author-recorded analysis on
+  [[research/erdos_1171/connections|the folder's connections page]] shows that
+  the color-reduction induction, even in a descent-chain form, yields from
+  two-color relations that are theorems of ZFC only the case $k=1$, since under
+  CH $\omega_1^2\not\to(\omega_1^2,3)^2$ and every ordinal $\gamma<\omega_1^2$
+  satisfies $\gamma\not\to(\omega_1\omega,3)^2$, so every descending chain of
+  length at least two has a link that fails under CH. The connections page and
+  the lead
+  [[research/leads/four_clique_versus_triangle_colors/_index|four-clique versus three triangle colors]]
+  (primary problem [[problems/set_theory/E0592/_index|Problem 592]]) also hold
+  author-recorded research relating this problem to the relation
+  $\omega_1\omega\to(\omega_1\omega,3)^2$ and to
+  [[problems/set_theory/E0597/_index|Problem 597]]; that research is not a
+  claim, and it does not change the standing here.
 - **Sharpness of the triangle targets.** CH gives
   $\omega_1^2\not\to(\omega_1\omega,4)^2$
   ([[../library/set_theory/baumgartner_1987_remark_partition_relations_infinite_ordinals/negative_relation|negative relation]],

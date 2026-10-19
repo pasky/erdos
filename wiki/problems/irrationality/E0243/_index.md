@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 243
@@ -126,6 +126,34 @@ suspended) and the formal-conjectures statement file recorded no full claim and
 no dispute of the results above. The erdosproblems.com proof-claims tab
 registered no claim; no wider literature search was made. The erdosproblems.com
 label OPEN matches the derived standing: every claim is partial.
+
+## Scope of the irrationality criterion
+
+Ratio convergence alone does not imply the signed summability in
+[[../library/irrationality/duverney_2001_irrationality_fast_converging_series_rational_numbers/corollary_3_2|Duverney's
+criterion]]. Starting at $a_1\ge2$ and setting $a_{n+1}=a_n^2+\lceil
+a_n^2/n\rceil$ gives ratio tending to one but positive errors at least $1/n$.
+This refutes only that implication; the example's reciprocal sum is not shown
+rational.
+
+The rational pseudo-greedy interface in
+[[../library/unit_fractions/koizumi_2025_irrationality_reciprocal_sum_doubly_exponential_sequences/_index|Koizumi,
+Lemma 15 and Theorem 16]] is more exact. For a rational tail $c_n/d_n$, take
+the centred remainder $e_n\equiv d_n\pmod{c_n}$ with $-c_n/2\le e_n<c_n/2$. Its
+recursion is
+
+$$
+a_n=(d_n-e_n)/c_n+1,\qquad
+c_{n+1}=c_n-e_n,\qquad d_{n+1}=d_na_n.
+$$
+
+The required implication is $e_n/c_n\to0$ forcing eventual $e_n=0$. The source
+permits $c_n=O((3/2)^n)$, so integrality alone does not force vanishing. Those
+two proof sites were read, with the nearest-integer tail result retained as a
+source dependency, not independently reconstructed. The finite denominator
+experiment was not replayed. A quantitative arithmetic restriction on the
+centred remainders remains necessary.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

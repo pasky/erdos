@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 100
@@ -38,13 +38,20 @@ https://www.erdosproblems.com/100.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/100.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/distance_multiplicity_interfaces/counts|Distance counts,
+multiplicities and pinned occupancy]] account records the following scope. If
+$D$ is the number of distinct positive distance values and consecutive values
+are separated by at least one, the diameter is at least $D$. The held general
+bound gives only order $n/\log n$ through this argument, leaving the requested
+linear scale open.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

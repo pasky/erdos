@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 118
@@ -90,6 +90,13 @@ the background. Search scope: the erdosproblems.com problem page, discussion
 thread and proof-claims page; the proof-claims page carried no further claim,
 and on 2026-10-07 the page and thread carried none. Nothing on this page is
 independently reviewed.
+
+## Known Results
+
+[[research/erdos_1171/connections|The Problem 1171 connections page]] holds
+author-recorded research on transferring the color-reduction lemma of
+[[research/erdos_1171/lemma_2_1_reconstruction|the Problem 1171 folder]] to
+this problem; it is not a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -99,6 +106,9 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/graph_coloring/erdos_1995_problems_combinatorial_set_theory/_index|erdos_1995_problems_combinatorial_set_theory]]
 - [[../library/graph_coloring/erdos_1995_problems_combinatorial_set_theory/section_1|erdos_1995_problems_combinatorial_set_theory / section_1]]
+- [[../library/set_theory/darby_1999_negative_partition_relations_ordinals/_index|darby_1999_negative_partition_relations_ordinals]]
+- [[../library/set_theory/darby_1999_negative_partition_relations_ordinals/theorem_6_1|darby_1999_negative_partition_relations_ordinals / theorem_6_1]]
+- [[../library/set_theory/darby_1999_negative_partition_relations_ordinals/theorem_6_2|darby_1999_negative_partition_relations_ordinals / theorem_6_2]]
 - [[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/_index|erdos_1987_problems_finite_infinite_graphs]]
 - [[../library/set_theory/erdos_1987_problems_finite_infinite_graphs/problem_2|erdos_1987_problems_finite_infinite_graphs / problem_2]]
 - [[../library/set_theory/schipperus_2010_countable_partition_ordinals/_index|schipperus_2010_countable_partition_ordinals]]

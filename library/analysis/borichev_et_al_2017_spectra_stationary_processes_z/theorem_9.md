@@ -7,7 +7,7 @@ desc: |
   condition on log W_A bound e_n(rho) above by exp of minus a multiple of the
   integral of log W_A, and a lower density W^(-beta) bounds it below.
 created: 2026-10-08T15:50:52Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -94,4 +94,4 @@ card]]; labels and pages are that version's.
 were read clause by clause on pp. 14--17, which is how the range difference
 above was found. Nothing here is independently reviewed.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

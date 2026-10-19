@@ -10,7 +10,7 @@ desc: |
   restriction, and results on finite sums with repetition.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:35:15Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # ramsey_theory/hindman_1979_partitions_sums_integers_repetition
@@ -235,7 +235,7 @@ here is independently reviewed.
   is a sequence in $N$ and $i<r$, one has some $t$ in $N$ and some
   $\{a_k\}_{k<t}\subseteq3$ such that $\sum_{k<t}a_kx_k\in A_i$", by
   $w(x)$, the number of even blocks of zeros in the binary expansion, with
-  $A_i=\{x:w(x)\equiv i+1\pmod r\}$ and Lemma 2.3 of [11]. No catalog
+  $A_i=\{x:w(x)\equiv i+1\pmod r\}$ and Lemma 2.3 of [11]. No erdosproblems.com
   problem citing this question is known here.
 - Acknowledgments (p. 31) and references (p. 32), fifteen items, listed
   above.

@@ -6,7 +6,7 @@ desc: |
   number two has extremal number Omega(n 2^{C sqrt(log n)}), disproving a
   conjecture of Kucheriya and Tardos.
 created: 2026-10-08T14:56:33Z
-updated: 2026-10-08T14:56:33Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -65,4 +65,4 @@ and Lemma 3.1 of the paper.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

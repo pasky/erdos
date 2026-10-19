@@ -7,7 +7,7 @@ desc: |
   one and m to the b_n minus b_(n-1) is below n over 2 for all large n, with
   Corollary 4.1 the case of counting functions of sets of low density.
 created: 2026-10-08T15:37:37Z
-updated: 2026-10-08T15:37:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -63,4 +63,4 @@ Lemma 2.1 of the same paper.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

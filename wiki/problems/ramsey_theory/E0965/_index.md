@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 965
@@ -64,10 +64,10 @@ The claim pages
 record the two ZFC disproofs. The claim page
 [[problems/ramsey_theory/E0965/claims/2015_05_11_hindman_leader_strauss|Hindman, Leader and Strauss 2015]]
 records the disproof under CH as a conditional claim. The frontmatter standing
-derives from these pages. erdosproblems.com's (Lean) suffix is a catalog label,
-explained under Formalization. The external Lean file declares itself a
-formalization of Komjáth's argument and is linked from its claim page. It was
-not built here.
+derives from these pages. erdosproblems.com's (Lean) suffix is an
+erdosproblems.com label, explained under Formalization. The external Lean file
+declares itself a formalization of Komjáth's argument and is linked from its
+claim page. It was not built here.
 
 **Source.** [erdosproblems.com/965](https://www.erdosproblems.com/965),
 accessed 2026-09-18: the problem page (DISPROVED (LEAN), the erdosproblems.com
@@ -106,8 +106,8 @@ T. F. Bloom, Erdős Problem #965, https://www.erdosproblems.com/965, accessed
   [Er75b] for the method of Erdős's CH claim and by [HLS17] for the classical
   pair coloring of $[\mathbb R]^2$; not held, context only.
 
-**Formalization.** erdosproblems.com's (Lean) suffix is a catalog label; see
-"Formalization and the Lean label" below. The file
+**Formalization.** erdosproblems.com's (Lean) suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below. The file
 [`ErdosProblems/965.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/965.lean)
 of formal-conjectures (main on 2026-09-18) declares
 `erdos_965 : answer(False) ↔ ∀ f : ℝ → Fin 2, ∃ A : Set ℝ, ¬ A.Countable ∧ ∀ᵉ (a ∈ A) (b ∈ A) (c ∈ A) (d ∈ A), a ≠ b → c ≠ d → f (a + b) = f (c + d)`
@@ -231,20 +231,20 @@ complements, so the answer to the question is yes whenever one class has the
 property of Baire or is measurable, and every coloring giving the negative
 answer has classes that are neither.
 
-**Formalization and the Lean label.** erdosproblems.com's (Lean) suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a statement
-with a `sorry` body whose `formal_proof` attribute names a fixed commit of
-`plby/lean-proofs`. The file there,
+**Formalization and the Lean label.** erdosproblems.com's (Lean) suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
+statement with a `sorry` body whose `formal_proof` attribute names a fixed
+commit of `plby/lean-proofs`. The file there,
 [`src/latest/ErdosProblems/Erdos965.lean`](https://github.com/plby/lean-proofs/blob/dfe2d78128b493c572cf525b1b8edf4897fb7664/src/latest/ErdosProblems/Erdos965.lean)
-(1,808 bytes; toolchain and Mathlib v4.33.0 per its header), declares
-itself a formalization of a solution to the problem, names Komjáth as the
-informal author and Codex and GPT-5.6 Sol as the formal authors, imports three
-project modules and proves `not_erdos_965 : ¬ ∀ f : ℝ → Fin 2, ∃ A : Set ℝ, ¬
-A.Countable ∧ ∀ᵉ (a ∈ A) (b ∈ A) (c ∈ A) (d ∈ A), a ≠ b → c ≠ d → f (a + b) = f
-(c + d)`, the negation of the right-hand side of the collection's statement,
-from a finite-support anti-Ramsey coloring
-(`supportColor_finset_pair_antiramsey`) transferred to $\mathbb R$ by a Hamel
-basis (`exists_bad_real_coloring_of_finset_pair_antiramsey`); it ends with
+(1,808 bytes; toolchain and Mathlib v4.33.0 per its header), declares itself a
+formalization of a solution to the problem, names Komjáth as the informal author
+and Codex and GPT-5.6 Sol as the formal authors, imports three project modules
+and proves
+`not_erdos_965 : ¬ ∀ f : ℝ → Fin 2, ∃ A : Set ℝ, ¬ A.Countable ∧ ∀ᵉ (a ∈ A) (b ∈ A) (c ∈ A) (d ∈ A), a ≠ b → c ≠ d → f (a + b) = f (c + d)`,
+the negation of the right-hand side of the collection's statement, from a
+finite-support anti-Ramsey coloring (`supportColor_finset_pair_antiramsey`)
+transferred to $\mathbb R$ by a Hamel basis
+(`exists_bad_real_coloring_of_finset_pair_antiramsey`); it ends with
 `#print axioms` (whose output is not recorded in the file) and an alias
 `erdos_965`. The three modules it imports (`FiniteColoring`, 11,832 bytes;
 `FiniteMain`, 9,729; `HamelTransfer`, 7,924; at the same commit) contain no

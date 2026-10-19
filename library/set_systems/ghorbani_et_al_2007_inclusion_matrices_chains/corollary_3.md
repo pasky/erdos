@@ -7,7 +7,7 @@ desc: |
   inclusion matrix W_{tk} has a diagonal form with entries C(k-i,t-i) of
   multiplicity C(v,i) - C(v,i-1), i = 0, ..., t.
 created: 2026-10-08T17:13:42Z
-updated: 2026-10-08T17:13:42Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -62,4 +62,9 @@ doi:10.1016/j.jcta.2007.09.002; the edition read is named on the
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0774/_index|Problem 774]]: the paper
-  says nothing about dissociated sets.
+  says nothing about dissociated sets. The corpus's
+  [[../wiki/research/erdos_774/lemmas/moment_middle_layer|middle-layer determinant lemma]]
+  applies this diagonal form, with $(t,k,v)$ renamed $(k,w,d)$ and range
+  $k\le w\le d-k$, to compute the index of the image of a $k$-subset versus
+  $w$-subset inclusion matrix, a step in a research route on the problem;
+  the corollary itself decides nothing about the problem.

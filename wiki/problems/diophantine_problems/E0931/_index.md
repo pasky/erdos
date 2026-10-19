@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 931
@@ -75,7 +75,9 @@ current literature search or independent assessment of proof coverage.
 
 The $S$-unit count of Lemma 3.2 of Pollack, Pomerance and Treviño
 ([[research/erdos_49/lemma_3_2_reconstruction|reconstruction]]) concerns pairs
-at a fixed difference, not products of blocks.
+at a fixed difference, not products of blocks;
+[[research/erdos_49/connections|the Problem 49 connections page]] records the
+failed transfer.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

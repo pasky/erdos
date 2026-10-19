@@ -7,7 +7,7 @@ desc: |
   over the rationals, from the geometric-progression criterion of Theorem
   3.1 applied along long prime gaps.
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-08T15:37:53Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -60,7 +60,7 @@ $p_n^k$ never repeat). The paper records the latter theorem's history on
 p. 2 (see the card). Open problem 3.1 asks for the irrationality of
 $\sum\pi(n)^n/n!$.
 
-**Bears on.** No catalog problem directly; the card's mentions for
+**Bears on.** No erdosproblems.com problem directly; the card's mentions for
 [[../wiki/problems/irrationality/E0251/_index|#251]] and
 [[../wiki/problems/irrationality/E0252/_index|#252]] rest on its p. 2, not on this
 corollary.

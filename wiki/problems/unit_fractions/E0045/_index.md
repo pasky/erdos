@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 45
@@ -34,11 +34,12 @@ each $k$; how small $n_k$ can be is a separate quantitative question recorded
 below.
 
 **Status.** Proved. erdosproblems.com records "PROVED (LEAN)". The Lean suffix
-is a catalog label whose scope is qualified under Existing formalization below,
-and no local kernel credit is claimed. Croot's coloring theorem (Annals of
-Mathematics 157 (2003)) gives an interval $[2,b^k]$ such that every $k$-coloring
-of it contains a monochromatic set with reciprocal sum one. One can take $n_k$
-to be the least common multiple of the integers up to $b^k$. The claim page
+is an erdosproblems.com label whose scope is qualified under Existing
+formalization below, and no local kernel credit is claimed. Croot's coloring
+theorem (Annals of Mathematics 157 (2003)) gives an interval $[2,b^k]$ such that
+every $k$-coloring of it contains a monochromatic set with reciprocal sum one.
+One can take $n_k$ to be the least common multiple of the integers up to $b^k$.
+The claim page
 [[problems/unit_fractions/E0045/claims/2003_03_01_croot|Croot 2003]] records the
 result, its postings and the acceptance evidence (refereed publication and the
 curator's credit) from which the standing above derives.
@@ -208,8 +209,8 @@ density theorem), so the formal route runs through the density theorem
 rather than through Croot's argument. The collection's README says its
 source subdirectories "build as a whole (last I checked)". This corpus has
 built, audited or kernel-checked none of it; the erdosproblems.com Lean suffix
-is a catalog label, the community database records no formal-proof URL, and the
-statements above are the only formal content this page rests on.
+is an erdosproblems.com label, the community database records no formal-proof
+URL, and the statements above are the only formal content this page rests on.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

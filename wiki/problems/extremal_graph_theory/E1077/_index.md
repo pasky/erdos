@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1077
@@ -51,7 +51,7 @@ by erdosproblems.com's account, is $n^\alpha$. Both features are in Erdős and
 Simonovits's print, and the exponent $1-\alpha$ is their explicit print; the
 erdosproblems.com remark that it may be a typographical error is a guess that no
 text of theirs supports, so the Statement is judged as printed. The
-erdosproblems.com label DISPROVED (LEAN) carries a catalog suffix explained
+erdosproblems.com label DISPROVED (LEAN) carries a suffix explained
 under Formalization.
 
 The commentary closes with the curator's best guess at the intended question,
@@ -164,17 +164,17 @@ accessed 2026-09-18.
   cited by erdosproblems.com for this problem. Library home:
   [[../library/extremal_graph_theory/alon_2008_problems_results_extremal_combinatorics/_index|alon_2008_problems_results_extremal_combinatorics]].
 
-**Formalization.** The erdosproblems.com Lean suffix is a catalog label. The
-file
+**Formalization.** The erdosproblems.com Lean suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/1077.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1077.lean)
 of formal-conjectures at the pinned commit (main on 2026-09-18; 1,773 bytes)
 declares
 `erdos_1077 : answer(False) ↔ ∀ ε > (0 : ℝ), ε < 1 → ∀ α > (0 : ℝ), α < 1 → ∀ᶠ D in atTop, ∀ᶠ n in atTop, ∀ G : SimpleGraph (Fin n), G.edgeSet.ncard > (n : ℝ) ^ (1 + α) → ∃ (H : Subgraph G), letI m := H.verts.ncard; IsBalanced H.coe D ∧ m > (n : ℝ) ^ (1 - α) ∧ H.edgeSet.ncard > ε * m ^ (1 + α)`
-under `category research solved, AMS 5`, with proof `sorry` and a
-`formal_proof` attribute naming `src/latest/ErdosProblems/Erdos1077.lean#L265`
-of the repository `plby/lean-proofs` at a pinned commit of 30 August 2026 (the
-claim page's second link). Its choices: $0<\epsilon<1$ and $0<\alpha<1$ where
-the erdosproblems.com wording has no upper bounds, strict edge counts where
+under `category research solved, AMS 5`, with proof `sorry` and a `formal_proof`
+attribute naming `src/latest/ErdosProblems/Erdos1077.lean#L265` of the
+repository `plby/lean-proofs` at a pinned commit of 30 August 2026 (the claim
+page's second link). Its choices: $0<\epsilon<1$ and $0<\alpha<1$ where the
+erdosproblems.com wording has no upper bounds, strict edge counts where
 erdosproblems.com says "at least", and "eventually" in $D$ then in $n$. The
 corpus built that file's revision of 15 September 2026 (the claim page's first
 link), which differs from the named one only by a lint of 31 August 2026 that
@@ -196,20 +196,18 @@ negation. The file has no occurrence of `sorry`, `axiom`, `native_decide` or
 and carries a copyright line naming Boris Alexeev; it lists GPT-5.6 Sol as
 informal author and Codex and GPT-5.6 Sol as formal authors, and the copyright
 block's Authors line names OpenAI Codex. The corpus's verification built the
-module and the repository's comparator challenge for it under Lean `v4.33.0`
-and Mathlib `v4.33.0`, found the axioms of `Erdos1077.not_erdos_1077` to be
-exactly `propext`, `Classical.choice` and `Quot.sound` and its fingerprint
-identical to the challenge's, and audited the statement clause by clause: the
-printed wording implies the formal statement, so the theorem refutes the
-printed wording, as the
+module and the repository's comparator challenge for it under Lean `v4.33.0` and
+Mathlib `v4.33.0`, found the axioms of `Erdos1077.not_erdos_1077` to be exactly
+`propext`, `Classical.choice` and `Quot.sound` and its fingerprint identical to
+the challenge's, and audited the statement clause by clause: the printed wording
+implies the formal statement, so the theorem refutes the printed wording, as the
 [[problems/extremal_graph_theory/E1077/claims/2026_08_16_alexeev|claim page]]
-records. The witness family is the one recomputed below with
-$\alpha=\tfrac14$. The community database (`data/problems.yaml`, 2026-09-18)
-lists `status` "disproved (Lean)" and `formal_status` Lean as of their last
-update on 23 August 2026, the informal status disproved as of its last update
-on 29 December 2025, the statement formalized as of its last update on 17
-October 2025, and no formal-proof field; the erdosproblems.com indicator reads
-"Yes".
+records. The witness family is the one recomputed below with $\alpha=\tfrac14$.
+The community database (`data/problems.yaml`, 2026-09-18) lists `status`
+"disproved (Lean)" and `formal_status` Lean as of their last update on 23 August
+2026, the informal status disproved as of its last update on 29 December 2025,
+the statement formalized as of its last update on 17 October 2025, and no
+formal-proof field; the erdosproblems.com indicator reads "Yes".
 
 ## Current assessment
 

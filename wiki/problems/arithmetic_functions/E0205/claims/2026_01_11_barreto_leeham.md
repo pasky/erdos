@@ -30,7 +30,7 @@ links:
 - url: https://github.com/teorth/erdosproblems/blob/6754c649e41328f461412eb1d08ea72f1d4bb5d1/data/problems.yaml
   kind: record
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-08T03:53:40Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -86,5 +86,5 @@ No refereed publication exists. The Overleaf write-up is ChatGPT's output and
 unrefereed, and no library card digests it. The Lean session linked above is a
 community file that this corpus has not built or audited. So no `formalized`
 evidence is listed, and the evidence is `reviewed` alone. The Lean suffix of the
-erdosproblems.com label was a catalog label. What the linked formal files prove
-is recorded on the problem page and on the Tao–Alexeev page.
+erdosproblems.com label was an erdosproblems.com label. What the linked formal
+files prove is recorded on the problem page and on the Tao–Alexeev page.

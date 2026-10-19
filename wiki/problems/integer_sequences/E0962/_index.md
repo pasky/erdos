@@ -4,21 +4,22 @@ title: Problem 962
 desc: |
   Asks for an estimate of the greatest $k$ such that, for some $m\le n$, each of
   $m+1,\ldots,m+k$ is divisible by a prime greater than $k$, and whether
-  $\log k(n)\le(\log n)^{1/2+o(1)}$. Both are open, and $\log k(n)$ lies between
-  $c\sqrt{\log n\log\log n}$ and $(\log n)/2$.
+  $\log k(n)\le(\log n)^{1/2+o(1)}$. Both are open. A published upper
+  bound is $k(n)\ll n^{2/5}$; an author-recorded exponent-pair deduction
+  gives $k(n)\ll_\varepsilon n^{38/97+\varepsilon}$.
 tags:
 - Number theory
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T00:16:44Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 962
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E0962/claims/_index|claims/]]: The 2 claim pages of Problem 962, one per claimant's result; the problem's standing derives from them.
+[[problems/integer_sequences/E0962/claims/_index|claims/]]: The 3 claim pages of Problem 962, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -59,12 +60,24 @@ here; erdosproblems.com prints $\log k(n)\gg\sqrt{\log n\log\log n}$. A forum
 note of December 2025 (Tang) also proves this bound directly, with the same
 constant.
 
-Two upper bounds are in hand. A forum argument of October 2025 by Tao gives
-$k(n)\le(1+o(1))n^{1/2}$. It was accepted into the erdosproblems.com commentary
-and checked here. Erdős reported in 1976, without proof, that
-$n_k>k^2\exp((\log k)^c)$, that is $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$. Erdős
-could not show $k(n)\le n^{1/2-c}$, "a ridiculously weak result". Nothing
-approaches the displayed question.
+A published upper bound is $k(n)\ll n^{2/5}$: Erdős and Sárközy's
+[[../library/integer_sequences/erdos_sarkozy_1979_prime_factors_consecutive_integers/theorem_2|Theorem 2 (1979)]]
+gives $n_k>k^{5/2}/16$ for every sufficiently large $k$. The reciprocal
+relation in the Formulation gives this upper bound for $k(n)$.
+The elementary forum bound $k(n)\le(1+o(1))n^{1/2}$ and Erdős's
+unproved 1976 report are weaker historical results.
+
+The [[research/smooth_integer_intervals/proof_sketch|smooth-block proof sketch]]
+records Plasma AI's complete author arguments for the explicit bound
+$k(n)<\max(64,(2^{15}n)^{11/28})$ and the stronger asymptotic bound
+$k(n)\ll_\varepsilon n^{38/97+\varepsilon}$, for every $\varepsilon>0$.
+They are [[theory/integer_sequences/L251_averaged_near_square_smooth_blocks/_index|L251]]
+and [[theory/integer_sequences/L253_exponent_pair_smooth_blocks/_index|L253]],
+at tier 0 without independent review. The latter uses Bourgain's published
+exponent pair with its smooth-phase hypotheses. Neither a fixed-power
+bound nor these author deductions settle the displayed subpower question.
+Plasma AI's two bounds are recorded as a pending partial claim on
+[[problems/integer_sequences/E0962/claims/2026_10_19_plasma_ai|its claim page]].
 
 Erdős's 1976 lower bound and his reported upper bound have claim pages:
 [[problems/integer_sequences/E0962/claims/1976_01_01_erdos|Erdős 1976]]
@@ -73,9 +86,10 @@ Erdős's 1976 lower bound and his reported upper bound have claim pages:
 (claimed). Tang's dated note proves the bound of Erdős's display (6) with the
 same constant, so it does not improve the best known bound, and Tao's argument
 is a thread post, not a dated manuscript. Neither has a claim page, and both
-are recorded below as progress. No later source was found in the
-search whose scope the Current assessment records. This is a bounded negative
-finding, not a certificate of openness.
+are recorded below as progress. The
+[[research/smooth_integer_intervals/literature|literature comparison]]
+checks the uniform smooth-interval theorems at the interval length and
+smoothness required here. Its bounded search is not a novelty certificate.
 
 **Source.** [erdosproblems.com/962](https://www.erdosproblems.com/962),
 accessed 2026-09-18: the problem page (labeled OPEN,
@@ -199,7 +213,24 @@ independent review, and since it does not improve the 1976 bound it has no claim
 page. The 1965 bound $\exp((\log n)^{1/2-\epsilon})$ is weaker and unproved in
 print.
 
-**Upper bounds.** The forum argument of 12 October 2025 (Tao), as
+**Upper bounds.** Theorem 2 of Erdős and Sárközy (1979), with its
+$n_k$ definition on printed p. 197 and bound on p. 198, gives
+$k(n)<(16n)^{2/5}$ once $k(n)$ exceeds the theorem's absolute threshold.
+In particular $k(n)\ll n^{2/5}$. Its definition and statement were
+checked on page images; the proof is in section 3.
+[[theory/integer_sequences/L250_explicit_near_square_smooth_blocks/_index|L250]]
+records an explicit form of the same construction, with a larger constant
+and all small parameters covered, at author-recorded tier 0.
+
+The stronger L251 and L253 bounds above average the multiplier in that
+construction. L251 consumes Vaaler's inequality and an explicit
+third-derivative estimate; its proof states and resolves the printed
+sign placement in the supplied Vaaler formula. L253 checks the complete
+reciprocal-square-root phase class for Bourgain's exponent pair, with
+phase size $T=rY$ and the required ratio $T/M$. Its implied constant
+depends on $\varepsilon$. All these local deductions are unreviewed.
+
+The forum argument of 12 October 2025 (Tao), as
 erdosproblems.com accepts it: if $k\ge(1+\varepsilon)n^{1/2}$ and $n$ is large,
 take a prime $p$ with $n^{1/2}<p<(1+\varepsilon)n^{1/2}$ (such primes exist by
 the prime number theorem, and $k>p$); the first $p$ terms $m+1,\ldots,m+p$ of
@@ -217,9 +248,10 @@ The comment adds that it is unclear what Erdős meant by the trivial bound.
 Erdős's 1976 report $n_k>k^2\exp((\log k)^c)$, if granted, gives
 $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$ for some $c'>0$ (since
 $\log k\ge(\log n)^{1/2-o(1)}$; a substitution made here, matching
-erdosproblems.com's translation), and the unproved $n_k>k^{2+\epsilon}$ would
-give $k(n)\le n^{1/2-c}$; neither has a proof in print. The displayed question
-is the inverse of conjecture (7): $n_k>\exp((\log k)^{2-\epsilon})$ for all
+erdosproblems.com's translation), and any bound $n_k>k^{2+\epsilon}$ would
+give $k(n)\le n^{1/2-c}$. The 1979 theorem supplies such a fixed
+power improvement; the separate 1976 report has no proof identified here.
+The displayed question is the inverse of conjecture (7): $n_k>\exp((\log k)^{2-\epsilon})$ for all
 $\epsilon>0$ is $\log k(n)\le(\log n)^{1/(2-\epsilon)}$, that is
 $\log k(n)\le(\log n)^{1/2+o(1)}$. Erdős writes that (6) is "fairly sharp", so
 his expectation is that the lower bound above is close to the truth.
@@ -236,18 +268,22 @@ claimed. Nothing about it was checked here, the erdosproblems.com commentary
 does not mention it, and it changes no bound.
 
 **The bounds map.**
-$(1/\sqrt2-o(1))\sqrt{\log n\log\log n}\le\log k(n)\le\tfrac12\log n+o(1)$,
+$(1/\sqrt2-o(1))\sqrt{\log n\log\log n}\le\log k(n)\le\tfrac25\log n+O(1)$,
 the lower bound from [Er76e] (translated here) and [Ta25], the upper bound
-from the thread; Erdős's conjecture puts the truth at the lower end,
+from Erdős and Sárközy (1979). The author-recorded L253 would replace the
+upper bound by $(38/97+\varepsilon)\log n+O_\varepsilon(1)$ for every
+$\varepsilon>0$. Erdős's conjecture puts the truth at the lower end,
 $\log k(n)=(\log n)^{1/2+o(1)}$. The OEIS entry A327909 (accessed
 2026-09-18; not recomputed) lists the least start $m+1$ of a run of $n$ or more
 integers each with a prime factor greater than $n$:
 $2,5,13,19,55,65,113,151,151,226,364,406,736,736,1057,\ldots$ for
 $n=1,2,\ldots$, that is $n_k+1$ in Erdős's notation; a data lead only.
 
-**Search scope.** None of the routes below found a bound on $k(n)$ beyond
-those above, a proof of Erdős's reported upper bound, or a refereed version
-of the forum results.
+**Search scope.** The routes below describe the search of 2026-09-18.
+The [[research/smooth_integer_intervals/literature|uniform-interval source comparison]]
+records the additional primary papers, exact parameter matches and
+reading depths, including Erdős and Sárközy's published $2/5$ bound.
+Neither search is a certificate that the author deductions are novel.
 
 - erdosproblems.com: problem page, discussion thread and proof-claim tab;
   formal-conjectures `962.lean` at the pinned commit; the community
@@ -268,16 +304,21 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X; the community
 database's issue tracker (the numerics comment). Not held: de Bruijn 1951
 (cited by [Er76e]); Hildebrand's smooth-number estimate (cited by [Ta25]).
 
-**Remaining gaps.** (1) The upper bound $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$
-rests on Erdős's 1976 sentence "The best that I can show", with no proof
-found in print; until one is found, the proved upper bound is
-$(1+o(1))n^{1/2}$ from the forum argument. (2) The lower bound's constant
-$1/\sqrt2$ rests on a forum note and on a substitution made here in
-Erdős's display (6); no refereed source states it. (3) The displayed
-question, Erdős's conjecture (7), is untouched; the 2 May 2026 comment's
-route is conditional on unproved sieve estimates. (4) Proof coverage is at
-statement level; the smooth-number computation behind (6) was not carried
-out here.
+**Remaining gaps.** The displayed subpower question remains open; every
+fixed-power upper bound leaves a gap. L250–L253 are complete author
+arguments at tier 0 and still require independent scrutiny before an
+accepted project improvement is asserted. L253 consumes Bourgain's full
+analytic theorem, whose decoupling proof has not been independently
+verified here. Its pointwise exponent-pair estimate does not reach an
+exponent below $3/8$, and a construction restricted to three factors at
+most $K$ cannot reach below $1/3$; these are method limits, not lower bounds
+for $k(n)$. The conditional forum route still needs its sieve estimates.
+The [[theory/integer_sequences/L252_nonresidue_blocks_without_smooth_members/_index|least-nonresidue reduction]]
+is a difficulty comparison, not an obstruction to the conjecture. Erdős's
+1976 reported stronger-than-square-root bound still has no proof identified
+here, but the published 1979 theorem already supplies the stronger fixed
+exponent $2/5$.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -287,6 +328,13 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/additive_combinatorics/erdos_1965_extremal_problems_number_theory/_index|erdos_1965_extremal_problems_number_theory]]
 - [[../library/additive_combinatorics/erdos_1965_extremal_problems_number_theory/item_5|erdos_1965_extremal_problems_number_theory / item_5]]
+- [[../library/integer_sequences/erdos_sarkozy_1979_prime_factors_consecutive_integers/_index|erdos_sarkozy_1979_prime_factors_consecutive_integers]]
+- [[../library/integer_sequences/erdos_sarkozy_1979_prime_factors_consecutive_integers/theorem_2|erdos_sarkozy_1979_prime_factors_consecutive_integers / theorem_2]]
+- [[../library/integer_sequences/friedlander_lagarias_1987_short_intervals_smooth_integers/_index|friedlander_lagarias_1987_short_intervals_smooth_integers]]
+- [[../library/integer_sequences/granville_2008_smooth_numbers_computational_number_theory/_index|granville_2008_smooth_numbers_computational_number_theory]]
+- [[../library/integer_sequences/harman_1999_smooth_integers_short_intervals_progressions/_index|harman_1999_smooth_integers_short_intervals_progressions]]
+- [[../library/number_theory/bourgain_2017_decoupling_exponential_sums_riemann_zeta/_index|bourgain_2017_decoupling_exponential_sums_riemann_zeta]]
+- [[../library/number_theory/bourgain_2017_decoupling_exponential_sums_riemann_zeta/theorem_6|bourgain_2017_decoupling_exponential_sums_riemann_zeta / theorem_6]]
 - [[../library/primes/erdos_1976_problems_results_consecutive_integers/_index|erdos_1976_problems_results_consecutive_integers]]
 - [[../library/primes/erdos_1976_problems_results_consecutive_integers/inequality_6|erdos_1976_problems_results_consecutive_integers / inequality_6]]
 

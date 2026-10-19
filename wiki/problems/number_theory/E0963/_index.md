@@ -10,12 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-17T23:31:29Z
 ---
 
 # Problem 963
 
 [[problems/number_theory/_index|..]]
+
+[[problems/number_theory/E0963/claims/_index|claims/]]: The 1 claim page of Problem 963, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -49,7 +51,11 @@ https://www.erdosproblems.com/963.
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999);
   erdosproblems.com cites item 1.22.
 
-**Formalization.** No external statement recorded.
+**Formalization.** No external statement recorded. The near-logarithmic
+lower bound $f(n)\ge\log_2 n-\log_2(\log_2 n+1)$ is proved in this
+repository's Lean development (native claim
+[[theory/number_theory/L22_near_logarithmic_dissociated_subset/_index|L22]],
+tier 2, modules under `lean/Erdos/Problem963/`).
 
 ## Current assessment
 
@@ -76,10 +82,37 @@ the upper bound to $f(n)\le\log_2 n+\frac12\log_2\log_2 n+O(1)$, as
 derives; the Erdős--Moser bound $a_k\ge\frac14k^{-1/2}2^k$, as the paper
 quotes it
 ([[../library/additive_combinatorics/dubroff_2021_note_erdos_distinct_subset_sums_problem/theorem_1|Theorem 1's page]]),
-gives the same up to the constant. The known bounds are
-$\lfloor\log_3 n\rfloor\le f(n)\le\log_2 n+\frac12\log_2\log_2 n+O(1)$;
-whether $f(n)\ge\lfloor\log_2 n\rfloor$ for every $n$ is the open question,
-and the problem has no claim page.
+gives the same up to the constant. The bounds from the literature
+are $\lfloor\log_3 n\rfloor\le f(n)\le\log_2 n+\frac12\log_2\log_2 n+O(1)$.
+
+The near-logarithmic lower bound $f(n)\ge\log_2 n-\log_2(\log_2 n+1)$,
+valid for every $n\ge1$, is machine-checked in this repository's Lean as
+[[theory/number_theory/L22_near_logarithmic_dissociated_subset/_index|L22]]
+(tier 2: a Lean proof passing the axiom audit, with the independent
+whole-statement fidelity audit filed on the card), so
+$f(n)=\log_2 n+O(\log\log n)$. It lies strictly below the asked
+$\lfloor\log_2 n\rfloor$ for every $n\ge2$, so whether
+$f(n)\ge\lfloor\log_2 n\rfloor$ for every $n$ is the open question. These
+lower bounds are recorded in a pending
+[[problems/number_theory/E0963/claims/2026_10_19_plasma_ai|partial claim by Plasma AI]].
+
+An author-recorded improvement is
+[[theory/number_theory/L213_triple_log_dissociated_subset/_index|L213]]:
+for $n\ge2^{16}$,
+
+$$
+f(n)>\log_2 n-\log_2\log_2\log_2 n-4.
+$$
+
+Its proof uses the bounded-ratio extraction theorem
+[[theory/number_theory/L212_bounded_ratio_dissociated_subset/_index|L212]]
+and a dyadic decomposition. Both claims are tier 0, with no independent
+whole-statement examination; they do not inherit L22's Lean warrant. The
+[[research/sharp_dissociated_subset/proof_sketch|complete proof sketch]]
+records the bound for every $n\ge5$ and the remaining loss. The separate
+[[theory/number_theory/L270_recentered_pivot_obstruction/_index|L270]]
+refutes a stronger recentered odd-set certificate requirement, not the
+catalog inequality. The sharp $\lfloor\log_2n\rfloor$ target remains open.
 
 The finite comparison below rules out the initial interval as a universal
 minimizer of the largest dissociated-subset size. It does not resolve the
@@ -116,6 +149,11 @@ for it.
 
 ## Known Results
 
+For every $n\ge1$, $f(n)\ge\log_2 n-\log_2(\log_2 n+1)$: native Lean proof
+[[theory/number_theory/L22_near_logarithmic_dissociated_subset/_index|L22]]
+(tier 2), the checked form of the binary residue-tree argument in the
+[[research/erdos_963/proof_sketch|research proof sketch]].
+
 Write $d(A)$ for the largest size of a dissociated subset of a finite real
 set $A$. BAKKAOUI's posts 8701 and 8709, 3 September 2026, give the fixed set
 
@@ -140,6 +178,11 @@ The larger searches through n=16 and window 34, the claimed OEIS identity and
 the negative literature search remain source-reported computations. Their
 bounded domains cannot establish the minimum over all real sets, the first
 possible positive-integer failure, or exceptional behavior at n=13.
+
+## Research
+
+[[research/erdos_963/_index|Research guide for Problem 963]] records
+the arguments, their scope, and the remaining gap.
 
 <!-- BEGIN problem library links -->
 

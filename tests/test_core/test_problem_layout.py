@@ -14,6 +14,7 @@ from tools.core.problem_layout import lint_problem_layout
 
 __all__ = [
     'test_problem_generator_creates_unassessed_pages_and_preserves_existing_bytes',
+    'test_problem_generator_refuses_a_problem_only_the_fallback_rule_routes',
     'test_layout_accepts_qualified_openings_and_flexible_bodies_without_writing',
     'test_layout_accepts_one_modified_statement_below_the_statement',
     'test_code_comments_and_navigation_do_not_change_the_authored_structure',
@@ -136,6 +137,62 @@ def test_problem_generator_creates_unassessed_pages_and_preserves_existing_bytes
     assert moved.read_bytes() == before
     assert (moved.parent / 'claims' / '2026_01_01_claimant.md').is_file()
     assert lint_problem_layout(tmp_path)[0] == []
+
+
+@pytest.mark.parametrize(
+    argnames='tags', argvalues=[['new tag'], []], ids=['unrecognized', 'none']
+)
+def test_problem_generator_refuses_a_problem_only_the_fallback_rule_routes(
+    tmp_path: pathlib.Path,
+    tags: list[str],
+) -> None:
+    """Test that the empty fallback rule is an error naming the problem, not a folder."""
+    # one problem whose tags only the trailing fallback rule matches
+    records = tmp_path / 'records.json'
+    routes = tmp_path / 'taxonomy.json'
+    records.write_text(
+        json.dumps({'7': {'statement': 'A synthetic question.', 'tags': tags}}),
+        encoding='utf-8',
+    )
+    routes.write_text(
+        json.dumps(
+            {
+                'folders': [
+                    {'name': name, 'title': name.title(), 'description': 'Synthetic.'}
+                    for name in ('alpha', 'beta')
+                ],
+                'rules': [
+                    {'tags': ['fixture'], 'folder': 'alpha'},
+                    {'tags': [], 'folder': 'beta'},
+                ],
+                'overrides': {},
+                'tag_edits': {'rename': {}, 'drop': [], 'add': {}},
+            }
+        ),
+        encoding='utf-8',
+    )
+    result = _run(
+        [
+            sys.executable,
+            '-B',
+            str(_ROOT / 'scripts/build_problems.py'),
+            str(records),
+            '--taxonomy',
+            str(routes),
+            '--wiki',
+            str(tmp_path / 'wiki'),
+            '--accessed',
+            '2026-09-09',
+        ],
+        cwd=tmp_path,
+    )
+    # the run fails naming the problem and its tags, and writes nothing
+    assert result.returncode != 0
+    assert (
+        f'problem 7 with tags {tags} matches no rule; unrecognized tags: {tags}'
+        in result.stderr
+    )
+    assert not (tmp_path / 'wiki').exists()
 
 
 @pytest.mark.parametrize(

@@ -6,7 +6,7 @@ desc: |
   Egyptian underapproximations are eventually obtained by greedy extension, in
   both the distinct and the repeated-denominator conventions.
 created: 2026-09-17T11:25:00Z
-updated: 2026-10-07T15:54:23Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -69,4 +69,4 @@ preprint; the authors disclose that key proof steps originated from a language
 model. Consumers state the result as a preprint claim.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0206/_index|#206]] (the rational
-companion question, not the almost-all catalog question).
+companion question, not the almost-all erdosproblems.com question).

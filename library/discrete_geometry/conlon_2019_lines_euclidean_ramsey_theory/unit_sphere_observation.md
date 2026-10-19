@@ -4,7 +4,7 @@ title: "The unit-sphere observation"
 desc: |
   Forces a blue copy of any subset of a unit sphere.
 created: 2026-09-05T12:22:53Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:20:03Z
 ---
 
 ***
@@ -30,7 +30,7 @@ of every configuration forced against a red unit pair. The separation and
 diameter conditions in the main theorem have substantive roles.
 
 **Related proof pages.**
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_1_2|theorem 1 2]].
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_1_2|Theorem 1.2]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|Problem 188]],
 [[../wiki/problems/distance_problems/E0214/_index|Problem 214]].

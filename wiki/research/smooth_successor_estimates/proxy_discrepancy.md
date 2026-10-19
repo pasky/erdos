@@ -1,0 +1,283 @@
+---
+name: research/smooth_successor_estimates/proxy_discrepancy
+title: Proxy discrepancy under interval restrictions
+desc: |
+  The weighted-dilation manuscript's Lemma 7.3 derived at the ranges the
+  successor extraction consumes: full-cell rough counts, proxies bounded by
+  one independently of the cell precision S, and character and Mellin
+  discrepancy for every interval restriction inside the ambient range, all
+  moduli and twists up to L^B, principal and imprimitive characters included,
+  once S is at least 2B+2.
+created: 2026-10-15T15:28:45Z
+updated: 2026-10-15T15:28:45Z
+---
+
+# Proxy discrepancy under interval restrictions
+
+***
+
+This page reconstructs Lemma 7.3 of the
+[[../library/arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|weighted-dilation manuscript]]
+at the factor ranges consumed by the
+[[research/smooth_successor_primes/successor_prime_extraction|extraction of primes 2u-1]].
+It belongs to the
+[[research/smooth_successor_estimates/_index|elementary estimates of the smooth-successor route]].
+The lemma and its method are OpenAI's; the derivation, the explicit
+uniformity and the error accounting are Plasma AI's. The
+[[research/smooth_successor_estimates/evidence/verify/elementary_estimates/_index|E2 examination]]
+has a distinct **PASS** grade, examined on 2026-10-16 UTC, accepting
+**refutation-failed** at its stated classical-premise and parameter scopes.
+The [grade](evidence/verify/elementary_estimates/grade.md) retains the original-source
+reading limits and, for the weighted E3 consumer consequence, its Type II/P
+hypothesis.
+The lemma does not involve $2u\pm1$ at all: it concerns
+ordinary integers in the factor ranges.
+
+## Setting
+
+Write $L=\log x$, $T=\log L$, $W=\exp(\sqrt L)$, $V(y)=\prod_{p\le y}(1-1/p)$.
+Fix $0<b_1<1/10$, $0<\kappa<1/50$ and a finite set $\Gamma$ of exponents
+$\gamma\in[b_1,1/2-\kappa)$, the left ends of the extraction's bins. The tests
+are
+
+$$
+I_\gamma(m)=\mathbf 1_{P^-(m)>x^\gamma}\ (\gamma\in\Gamma),\qquad
+I_{\rm pr}(m)=\mathbf 1_{m\text{ prime}} .
+$$
+
+The ambient range is $\mathcal A=[x^{b_1/4},x^{1-b_1/4}]$. Every factor range
+used by the extraction lies inside it for large $x$: the cofactors of the
+unbalanced bins lie in $[x^{1/2+\kappa},4x^{1-b_1}]$, the balanced primes in
+$\mathcal B_\kappa=[x^{1/2-2\kappa},x^{1/2+2\kappa}]$, and a fixed
+enlargement of every Type II dyad with $x^{b_1/3}\le U\le x^{1-b_1/3}$ is also
+inside $\mathcal A$.
+
+Fix a precision $S>0$ and put $\Delta=\Delta_L=L^{-S}$. The cells are
+$C_k=(e^{k\Delta},e^{(k+1)\Delta}]$, $k\in\mathbb Z$; for a cell meeting
+$\mathcal A$ write $C=(Y,e^\Delta Y]$, so $Y\ge x^{b_1/4}e^{-\Delta}$. There
+are at most $L^{S+1}+2$ such cells. Put
+
+$$
+R(C)=\#\{m\in C:P^-(m)>W\},\qquad
+c_I(C)=\frac{\sum_{m\in C}I(m)}{R(C)},\qquad
+B_I(m)=c_I(C)\,\mathbf 1_{P^-(m)>W}\quad(m\in C).
+$$
+
+The counts are full-cell counts. A restriction to an interval $K$ is applied
+afterwards: the extraction uses $\alpha=(I-B_I)\mathbf 1_K$.
+
+The target is $(\mathrm D_B)$ of the
+[[research/smooth_successor_primes/signed_type_ii|Type II page]], the
+manuscript's (5.4): for every interval $J\subset[1,x^2]$, every Dirichlet
+character $\chi$ of modulus at most $L^B$, principal and imprimitive ones
+included, and every real $|t|\le L^B$,
+
+$$
+\Bigl|\sum_{m\in J}\frac{\alpha_m\chi(m)m^{it}}m\Bigr|\le L^{-B}.
+$$
+
+## Statement
+
+**Proposition (proxy discrepancy).** Fix $b_1,\kappa,\Gamma$ as above.
+
+1. Uniformly for the cells meeting $\mathcal A$,
+   $R(C)=(e^\Delta-1)YV(W)(1+O(e^{-2T^2}))+O(x^{o(1)})\sim\Delta YV(W)$; in
+   particular $R(C)>0$ for large $x$.
+2. Once the denominators are positive as in item 1, $0\le c_I(C)\le1$
+   for every test and every such cell. Hence $0\le B_I\le1$ and
+   $B_I(m)=0$ unless $P^-(m)>W$. The difference
+   $\alpha=(I-B_I)\mathbf 1_K$ has $|\alpha_m|\le1$ and the same support
+   property. The numerical bound $1$ is independent of $S$; the threshold
+   for positivity may depend on the fixed $S$.
+3. For every fixed $B\ge1$ and every fixed $S\ge2B+2$ (in particular for the
+   extraction's choice $S>2B+3$) there is $x_0$ such that for $x\ge x_0$ the
+   sequence $\alpha=(I-B_I)\mathbf 1_K$ satisfies $(\mathrm D_B)$
+   simultaneously for every test, every interval $K\subset\mathcal A$, every
+   interval $J\subset[1,x^2]$, every character of modulus at most $L^B$ and
+   every $|t|\le L^B$.
+
+The threshold $x_0$ depends on $b_1,\kappa,\Gamma,B$ and $S$. In particular,
+the coefficient bound and support condition supplied to Type II are
+independent of $S$, although the proxies themselves and their intermediate
+error estimates depend on it. Thus $S$ can be fixed after the discrepancy
+exponent $B$ that premise (P) requires.
+
+## Prime sums against characters
+
+The nonprincipal case uses one consequence of the Siegel–Walfisz theorem, the
+manuscript's Corollary 2.4. It is derived here.
+
+**Lemma (harmonic character sums).** Fix $c\in(0,1]$, $C_0\ge1$, $B>0$ and
+$A>0$. For every nonprincipal character $\chi$ of modulus $r\le L^B$, every
+real $|t|\le L^B$ and every interval $I\subset[\exp(L^c),x^{C_0}]$,
+
+$$
+\sum_{p\in I}\frac{\chi(p)p^{it}}p\ll_{c,C_0,B,A}L^{-A} .
+$$
+
+*Proof.* For $y\ge\exp(L^c)$ the modulus satisfies $r\le(\log y)^{B/c}$. The
+Siegel–Walfisz theorem (the manuscript's Theorem 2.2) gives, for every fixed
+$K$, uniformly in $(a,r)=1$,
+$\pi(y;r,a)=\mathrm{Li}(y)/\varphi(r)+O_K(y(\log y)^{-K})$. A prime dividing
+$r$ has $\chi(p)=0$, so summing against $\chi(a)$ over the reduced classes
+cancels the main terms and gives
+$A_\chi(y)=\sum_{p\le y}\chi(p)\ll_K L^By(\log y)^{-K}$. For $I$ with ends
+$y_1<y_2$, partial summation against $y^{it-1}$ gives boundary terms
+$O_K(L^BL^{-cK})$ and an integral at most
+$(1+|t|)\int_{y_1}^{\infty}|A_\chi(y)|y^{-2}dy\ll_KL^{2B}L^{-c(K-1)}$. Take
+$cK\ge A+2B+c$. The argument is uniform in both ends and holds for an empty
+interval, and it uses no primitivity. $\square$
+
+The constants are those of the Siegel–Walfisz theorem and need not be
+effective.
+
+## Proof of the proposition
+
+*Item 1.* Apply the block sieve of the
+[[research/smooth_successor_estimates/block_sieve|block-sieve page]] in its
+first instance with $r=1$, $J'=C$ and $h=2\lceil T^2\rceil$: the objects are the
+integers of $C$, $g(p)=1/p$ for $p\le W$, $X=e^\Delta Y-Y$ and $|r(d)|\le1$.
+This gives the displayed formula with error term at most
+$D_W=W^{4h+2}=\exp(O(T^2\sqrt L))=x^{o(1)}$. Since
+$\Delta YV(W)\ge x^{b_1/4}L^{-S}/O(\sqrt L)$, the main term dominates.
+
+*Item 2.* For $\gamma\in\Gamma$ and large $x$, $x^\gamma\ge x^{b_1}>W$, so
+$I_\gamma(m)=1$ implies $P^-(m)>W$. A prime $m$ in a cell meeting $\mathcal A$
+exceeds $Y\ge x^{b_1/4}/e>W$. So the numerator of $c_I(C)$ counts a subset of
+the integers counted by $R(C)$.
+
+*Item 3, reduction.* Fix a test $I$, intervals $K$ and $J$, a character
+$\chi\bmod r$ with $r\le L^B$, and $|t|\le L^B$. Put $J_0=J\cap K$, an interval
+inside $\mathcal A$, and
+
+$$
+\Sigma=\sum_{m\in J_0}(I(m)-B_I(m))\chi(m)m^{it-1}.
+$$
+
+All bounds below are uniform in these data. Every prime factor of $r$ is at
+most $L^B<W$, so $(m,r)=1$ whenever $P^-(m)>W$, which holds on the support of
+$I-B_I$.
+
+*Principal characters.* Here $\chi(m)=1$ on the support, so
+$\Sigma=\sum_{m\in J_0}(I(m)-B_I(m))m^{it-1}$. The cells meeting $J_0$ are
+consecutive; all except at most the first and the last lie inside $J_0$. On a
+cell $C\subset J_0$ the unweighted sum of $I-B_I$ is
+$\sum_CI-c_I(C)R(C)=0$, so its contribution is
+
+$$
+\sum_{m\in C}(I(m)-B_I(m))(m^{it-1}-Y^{it-1}),\qquad
+|m^{it-1}-Y^{it-1}|\le(1+|t|)\frac{e^\Delta-1}Y .
+$$
+
+Since $\sum_{m\in C}|I-B_I|\le2R(C)\le2\#(C\cap\mathbb Z)\le2((e^\Delta-1)Y+1)$
+and $e^\Delta-1\le2\Delta$, a full cell contributes
+$O((1+|t|)\Delta(\Delta+x^{-b_1/4}))$ with an absolute constant. Over at most
+$L^{S+1}+2$ cells the total is
+$O((1+|t|)L(\Delta+x^{-b_1/4}))=O(L^{B+1-S})$, since
+$x^{-b_1/4}\le\Delta$ eventually for fixed $S$. Each of the
+two partial cells contributes at most
+$\sum_{m\in C}(I+B_I)/m\le2R(C)/Y\le4\Delta+2ex^{-b_1/4}$. With $S\ge2B+2$,
+
+$$
+|\Sigma|\ll L^{-B-1}+x^{-b_1/4}.
+$$
+
+*Nonprincipal characters: the actual tests.* For $I_{\rm pr}$,
+$\sum_{m\in J_0}I_{\rm pr}(m)\chi(m)m^{it-1}=\sum_{p\in J_0}\chi(p)p^{it-1}$,
+and $J_0\subset[\exp(L^{1/2}),x]$ for large $x$; the lemma above with
+$A=B+2$ bounds it by $O(L^{-B-2})$. For $I_\gamma$, every $m\in J_0$ with
+$P^-(m)>x^\gamma$ factors uniquely as $m=p_1\cdots p_l$ with
+$x^\gamma<p_1\le\cdots\le p_l$, and $l\le1/\gamma\le1/b_1$ because $m\le x$.
+Repeated primes are included. Fix $l$ and primes
+$x^\gamma<p_1\le\cdots\le p_{l-1}$, with product $Q$ ($Q=1$ when $l=1$). The
+admissible last primes are the primes of
+
+$$
+I_Q=[p_{l-1},\infty)\cap(x^\gamma,\infty)\cap\{y:Qy\in J_0\},
+$$
+
+with $p_0=1$; this is one interval inside $(x^\gamma,x]$. By complete
+multiplicativity,
+
+$$
+\sum_{m\in J_0}I_\gamma(m)\chi(m)m^{it-1}
+=\sum_{l\le1/b_1}\ \sum_{x^\gamma<p_1\le\cdots\le p_{l-1}}\chi(Q)Q^{it-1}
+\sum_{p\in I_Q}\chi(p)p^{it-1}.
+$$
+
+As $x^\gamma\ge\exp(L^{1/2})$ for large $x$, the lemma with $c=1/2$, $C_0=1$
+bounds every inner sum by $O(L^{-A})$ uniformly in $Q$. The outer weights
+satisfy $\sum1/Q\le(\sum_{x^{b_1}<p\le x}1/p)^{l-1}\le(\log(1/b_1)+1)^{l-1}$ by
+Mertens' estimate. Taking $A=B+2$, the actual test contributes
+$O_{b_1}(L^{-B-2})$.
+
+*Nonprincipal characters: the proxy.* Fix a cell $C=(Y,e^\Delta Y]$ meeting
+$J_0$ and put $J'=C\cap J_0$. For $y\in J'$ let $J'_y=J'\cap(-\infty,y]$ and
+
+$$
+F(y)=\sum_{m\in J'_y}\mathbf 1_{P^-(m)>W}\chi(m)
+=\sum_{(a,r)=1}\chi(a)\,N(J'_y;a),\qquad
+N(J'';a)=\#\{m\in J'':m\equiv a\ (r),\ P^-(m)>W\}.
+$$
+
+The first instance of the block sieve, for the class $a$ and the interval
+$J'_y$, gives
+
+$$
+N(J'_y;a)=\frac{|J'_y|\,V(W)}{\varphi(r)}\bigl(1+\theta_ac_1e^{-h}\bigr)
++\theta'_aD_W,\qquad|\theta_a|,|\theta'_a|\le1,
+$$
+
+because $X\prod_{p\le W,\,p\nmid r}(1-1/p)=(|J'_y|/r)V(W)\prod_{p\mid
+r}(1-1/p)^{-1}=|J'_y|V(W)/\varphi(r)$. This holds for every subinterval, however
+short, as an absolute-error statement; no relative asymptotic is claimed on
+short intervals. The main term does not depend on $a$, and $\chi$ is
+nonprincipal, so it cancels:
+
+$$
+|F(y)|\le c_1e^{-h}|J'|V(W)+\varphi(r)D_W .
+$$
+
+Partial summation on $J'\subset(Y,e^\Delta Y]$ against $m^{it-1}$ gives
+
+$$
+\Bigl|\sum_{m\in J'}\mathbf 1_{P^-(m)>W}\chi(m)m^{it-1}\Bigr|
+\le\sup_{y\in J'}|F(y)|\,\frac{1+(1+|t|)(e^\Delta-1)}Y
+\le\frac{2}{Y}\bigl(c_1e^{-h}|J'|V(W)+L^BD_W\bigr)
+$$
+
+once $(1+|t|)(e^\Delta-1)\le1$, which holds for $S>B$ and large $x$. Multiply
+by $c_I(C)\in[0,1]$ and sum over the at most $L^{S+1}+2$ cells, using
+$|J'|\le(e^\Delta-1)Y+1$:
+
+$$
+\Bigl|\sum_{m\in J_0}B_I(m)\chi(m)m^{it-1}\Bigr|
+\ll e^{-2T^2}LV(W)+L^{S+1+B}D_Wx^{-b_1/4}\ll L^{-B-2}.
+$$
+
+The first term is smaller than every fixed power of $L$ because
+$e^{-2T^2}=L^{-2T}$; the second is $x^{-b_1/4+o(1)}$ times a fixed power of $L$.
+
+*Conclusion.* In all cases $|\Sigma|\le L^{-B}$ for $x\ge x_0$, with $x_0$
+depending only on $b_1,\kappa,\Gamma,B,S$ and the Siegel–Walfisz constants.
+Since $J_0=J\cap K$, this is $(\mathrm D_B)$ for $\alpha=(I-B_I)\mathbf 1_K$.
+$\square$
+
+## Uniformity checks
+
+- **Restrictions.** $K$ may cut cells anywhere; at most two cut cells meet
+  $J\cap K$, and they enter only through absolute bounds. The proxy is not
+  rescaled on a cut cell. The proof covers every interval $K\subset\mathcal A$,
+  which contains every restriction the extraction makes.
+- **Characters.** Principal characters of every modulus up to $L^B$ act as
+  the constant $1$ on the support. Every nonprincipal character, primitive or
+  not, is handled by the same two arguments: the lemma above needs no
+  primitivity, and the residue-class cancellation uses only
+  $\sum_{(a,r)=1}\chi(a)=0$.
+- **The order of $B$ and $S$.** The coefficient bound $|\alpha_m|\le1$, the
+  support condition and the admissible $K$ are fixed before $S$; the losses
+  $L^{S+1}$ from the number of cells meet savings $e^{-2T^2}$ and
+  $x^{-b_1/4+o(1)}$ that beat every fixed power of $L$, and the principal case
+  needs only $S\ge2B+2$. No relation between $S$ and $B$ feeds back into the
+  Type II coefficient bound.
+- **The sign of the shift.** No step involves $2u\pm1$.

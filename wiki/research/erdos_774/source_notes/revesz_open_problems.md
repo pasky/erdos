@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Problèmes ouverts: Théorie analytique des
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Problèmes ouverts: Théorie analytique des polynômes et analyse harmonique
@@ -40,8 +40,14 @@ Questions 38 and 39 are the two sides of E0774 on this concrete
 torsion-free additive set: 39 asks for the proportional-dissociation
 hypothesis and 38 for the finite-union conclusion, and because
 quasi-independence is hereditary a finite cover can be made a partition.
-Boundedness in Question 35 would force negative answers to 38 and 39;
-boundedness in 36 would support positive ones.
+The author-recorded [prime-tensor theorem](../routes/prime_tensor_extraction.md)
+answers Question 39 affirmatively in the discrete additive plane, and the
+[root-transversal equivalence](../routes/roots_coloring_structure.md)
+identifies $\eta(\mu_n)=\Psi(n)/n$ with the fractional chromatic number, so
+Question 38 is exactly the open integral coloring statement (4) of the
+[main argument](../proof_sketch.md). Boundedness in Question 35 would
+force negative answers to 38 and 39; boundedness in 36 would support
+positive ones.
 
 ## Dates
 

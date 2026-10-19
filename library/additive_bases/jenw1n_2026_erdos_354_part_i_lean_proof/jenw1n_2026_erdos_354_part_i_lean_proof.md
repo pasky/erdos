@@ -6,7 +6,7 @@ desc: |
   report, the task's pinned statement and the public standing of the result
   on 2026-09-28.
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -54,28 +54,28 @@ True ↔ ∀ α > 0, ∀ β > 0, Irrational (α / β) →
 ```
 
 with one source type SHA-256 on the
-record page (catalog commit `8432eac998110a563e03df65a28c117e97c8c142`,
-task `fc-8432eac9-parts-i-5c027f4194-formalized-v1`),
-on the problem page (task `fc-6a786f99-parts-i-f68ca78b2f-formalized-v1`)
-and in the task bundle's `manifest.json` (`repository_commit`
-`6a786f997e18e8f095762a2830d191b7e25e505e`, the same task id and source
-type hash, `permitted_axioms` `propext`, `Quot.sound`, `Classical.choice`,
-`enable_nanoda` false, `forbidden_dependencies`
-`[Erdos354.erdos_354.parts.i]`, `max_submission_bytes` 10485760). The
-bundle's `source-metadata.json` prints the same type, the category
-`research open` and a docstring identical to the default-branch file's.
-The two task ids share the source type hash, so the statement type is the
-same at both pinned commits; the conjectures-tasks `main` manifest names
-`6a786f99`, so the record's `8432eac9` revision is not in that pool, a
-discrepancy recorded here and not resolved. Neither pinned commit is
-reachable in `google-deepmind/formal-conjectures` (HTTP 404); the
-statement on formal-conjectures' default branch (`main` at
+record page (formal-conjectures commit
+`8432eac998110a563e03df65a28c117e97c8c142`, task
+`fc-8432eac9-parts-i-5c027f4194-formalized-v1`), on the problem page (task
+`fc-6a786f99-parts-i-f68ca78b2f-formalized-v1`) and in the task bundle's
+`manifest.json` (`repository_commit` `6a786f997e18e8f095762a2830d191b7e25e505e`,
+the same task id and source type hash, `permitted_axioms` `propext`,
+`Quot.sound`, `Classical.choice`, `enable_nanoda` false,
+`forbidden_dependencies` `[Erdos354.erdos_354.parts.i]`, `max_submission_bytes`
+10485760). The bundle's `source-metadata.json` prints the same type, the
+category `research open` and a docstring identical to the default-branch file's.
+The two task ids share the source type hash, so the statement type is the same
+at both pinned commits; the conjectures-tasks `main` manifest names `6a786f99`,
+so the record's `8432eac9` revision is not in that pool, a discrepancy recorded
+here and not resolved. Neither pinned commit is reachable in
+`google-deepmind/formal-conjectures` (HTTP 404); the statement on
+formal-conjectures' default branch (`main` at
 `e6fac203f1f66c8550969c93530ad6462e05fb7b`, 2026-09-27T21:29Z, fetched
-2026-09-28) is identical, with `FloorMultiples.interleave` in its
-corrected `n / 2` form (PR #1330, merged 2025-12-03, fixing issue #1309 of
-2025-12-01). The contribution index gives the problem id
-`fc-6a786f99-parts-i-fb10ccfc62f5c27eb8294ed33ac7177b-problem` and the
-reward target `fc-target:Erdos354.erdos_354.parts.i`.
+2026-09-28) is identical, with `FloorMultiples.interleave` in its corrected
+`n / 2` form (PR #1330, merged 2025-12-03, fixing issue #1309 of 2025-12-01).
+The contribution index gives the problem id
+`fc-6a786f99-parts-i-fb10ccfc62f5c27eb8294ed33ac7177b-problem` and the reward
+target `fc-target:Erdos354.erdos_354.parts.i`.
 
 **Acceptance timeline.** From the record page: Lean verification Passed,
 "Verified 11 Sept 2026", the review text dating the acceptance to "11

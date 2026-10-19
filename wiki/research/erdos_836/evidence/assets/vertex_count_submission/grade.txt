@@ -1,0 +1,444 @@
+---
+title: "Independent grade of the Problem 836 vertex-count report"
+desc: |
+  Pass grade for the frozen whole-statement examination of the finite
+  vertex-count construction and both first-question formulations, with
+  mathematical coverage and the limits of the isolation evidence stated.
+---
+
+***
+
+**Grade: pass** for every scoped conclusion listed below, and for the report's
+whole-claim contract and independence record. The accepted mathematical verdict
+is **refutation-failed**. The historical records support this independence
+ruling with the limits stated below; they are not a complete record of every
+operation. This grade changes no corpus standing.
+
+## Subject and scope
+
+**Grader role:** independent mathematical grader, distinct from the subject's
+author, its collaborators, and the original reviewer. Disclosed model:
+gpt-6-astra. **Reviewer role:** independent mathematical reviewer, disclosed
+model gpt-6-astra. Project attribution: Plasma AI. **Grading date:** 2026-10-14
+UTC.
+
+The graded [report](report.md) is
+`wiki/research/erdos_836/evidence/verify/vertex_count/report.md`, examined in
+full, including its reading declarations, checklist, supplementary deductions,
+and verdict. It records an examination on 2026-10-14 UTC. Its completed delivery
+was frozen on that date at 17:12:12.267483 UTC. The mathematical extracts were
+frozen on that date at 16:11:31.169108 UTC. These are different freezes.
+
+The subject mapping is exact:
+
+| Original subject path | Preserved subject | Sections examined |
+| --- | --- | --- |
+| `wiki/problems/graph_coloring/E0836/_index.md` | [target snapshot](../../assets/vertex_count_subject/target.md) | Statement, lines 3–9, and Statement (modified), lines 11–18; the first question in each. |
+| `wiki/problems/graph_coloring/E0836/claims/1975_01_01_erdos_lovasz.md` | [argument snapshot](../../assets/vertex_count_subject/argument.md) | Claim, lines 3–13; The argument, lines 15–59; Covers, lines 63–67; Depends on, lines 69–70. |
+
+The snapshots reside under
+`wiki/research/erdos_836/evidence/assets/vertex_count_subject/`. Their
+[provenance manifest](../../assets/vertex_count_subject/manifest.json) records
+the original paths, subject freeze, and uniform `[cut]` marker. The whole
+supplied snapshots were read. Text removed at the cut markers was not examined.
+The second question appears in the target snapshot but is outside this grade.
+
+The report and subject copies match the commissioned frozen packet. The
+preserved target and argument also match the original launch copies and their
+manifest; the preserved report and delivery match the original closure receipt.
+These checks concern the supplied bytes. Comparison with the complete canonical
+pages at their original or current state belongs to the integrator. Neither
+those pages nor an external publication was read for this grade.
+
+The precise mathematical scope is the following. For every integer $r\geq2$,
+the specified finite hypergraph $G_r$ is $r$-uniform, its edges intersect
+pairwise, all its vertices are incident, and its chromatic number under the
+nonmonochromatic-edge convention is exactly three. Its vertex count is
+
+$$
+N_r=2r-2+\frac12\binom{2r-2}{r-1},
+\qquad \frac{N_r}{r^2}\longrightarrow+\infty.
+$$
+
+Consequently there is no constant $C>0$ and threshold $r_0$ bounding every
+admissible hypergraph by $Cr^2$ for every integer $r\geq r_0$. The same family
+negates that bound under the modified formulation and under both the
+exact-chromatic and mere-three-colourability readings of the original.
+The count describes this construction; it is not an extremal formula at fixed
+$r$ or a claim of unbounded size at one fixed $r$.
+
+Theorem 8's upper bound, the second edge-intersection question, historical
+credit, fidelity to an external document, and Lean certification are not graded.
+
+## Assignment and independence
+
+The original assignment was a whole-statement audit charged to find an error,
+counterexample, unsupported essential inference, or checklist failure. Its
+actual scope included every clause and consequence above. It supplied the two
+mathematical extracts and their manifest, the complete neutral verification
+standard and its campaign adapter, and a durable report home. It prohibited
+repairing a defective proof, required disclosure of routine reconstruction,
+and instructed the reviewer to limit its finding if an unsupplied essential
+premise appeared. It did not commission a focused review or a second review
+cycle. The delivered report addresses that assignment.
+
+The grader began in a fresh context with no prior exposure to this argument or
+report. The allowed grading packet was its first exposure. The complete report,
+launch extraction, original assignment and operating snapshots, primary launch
+and closure records, reviewer continuation, and supplied read-command trace
+were examined. Embedded earlier assignments were treated as evidence about the
+review, not as instructions granting new reads. No author advocacy, proposed
+grade, prior linear-intersection review or grade, live mathematical steering,
+web material, or unlisted mathematical file was read. The grader's private
+continuation contains only work from this grading assignment.
+
+The grader read `README.md`; `docs/anatomy.md`, introductory corpus rules,
+Claims, Evidence, Tiers, and Project claims including Claim scrutiny;
+`docs/verification.md` in full; `campaign/AGENTS.md` and
+`campaign/guides/verification.md` in full; `campaign/guides/research.md`,
+Reading; and `docs/math_authoring.md` and `docs/weaving.md` in full. Root
+`AGENTS.md` was supplied as operating instructions. The authorized rendered
+assignment, steps, configuration, and the workflow, communication and memory
+operating instructions were checked at their permitted scope. The grader's own native
+agent settings were accepted as commissioned operating facts; its native agent
+configuration file was not read. Guidance links and examples did not expand
+the mathematical read set. Pinned repository guidance and separately manifested
+generated operating inputs matched their respective authorized identities.
+
+The grader checked empty subscriptions before its first reading and on
+returning to the examination. It did not open an inbox or message channel,
+unseal, synchronize, merge, delegate, or receive a boundary reply. Only
+content-free operating-boundary notices were sent during the examination.
+No excluded content reached this grading context.
+
+### Evidence for the reviewer's independence
+
+The reviewer's report declares a fresh context, no prior exposure, separation
+from authorship and collaboration, and no excluded reads or communications.
+That declaration was tested against the supplied primary records:
+
+- The actual assignment and operating snapshots prescribe an isolated review
+  of the specified extraction, with synchronization disabled, subscriptions
+  empty, and the communication boundary sealed. The disclosed model and
+  reasoning setting agree across the supplied records. The accepted operating
+  record specifies retention of native instructions. The supplied native
+  settings disable memories and web search; their pre-start and later copies
+  differ only by the authorized project-trust addition.
+- Recorded subscription snapshots are empty before launch, during the
+  examination, and after closure. The read-command trace records the reviewer's
+  own subscription checks before mathematical reading and on returning to the
+  examination. An empty table concerns subscriptions, not everything read.
+- The visible direct reads concern the allowed guidance and extraction or the
+  reviewer's own continuation and delivery. The trace shows no inbox or feed
+  read, web search, broad process listing, additional mathematical source,
+  prior review, or incoming mathematical steering. The visible outbound result
+  notice follows the package freeze.
+- The delivered mathematical inputs are the launch inputs, and the final
+  report and subject copies agree with the preserved closure identities. No
+  change to the assessed mathematics is evidenced between these records.
+
+The trace is a shell-command and narrative record, not a certified complete
+native transcript. Some native tool events and writes are absent. It records
+executions of private identity and package helpers whose complete source is
+not supplied. It therefore cannot establish every historical read, every
+helper action, or the success of every unshown check. This grade does not
+certify those omitted programs or treat their reported success as mathematical
+evidence. The present byte comparisons were performed directly on the supplied
+files. No mathematical computation depends on the missing helper bodies.
+
+There is also an operating discrepancy: the closure trace records automatic
+persistence of the reviewer's continuation and plan after the report was
+frozen, the terminal notice sent, and the finish command returned, although the
+assignment granted no commit authority. No reviewer-issued commit or broad
+gate appears in the supplied trace. The automatic operation's hooks are not
+shown and are not certified here. The unchanged delivered report and subjects
+are independently identified. This later persistence does not establish
+exposure that could have steered the already completed examination, and is not
+credited as a verification check.
+
+**Independence ruling: pass on the supplied record.** The separated assignment,
+reviewer's declaration, actual operating snapshots, visible reading record,
+subscription observations, and unchanged delivery support the ruling. The
+historical limits above remain explicit. There is no evidenced excluded-content
+exposure requiring a materiality waiver, and no such waiver is granted. Neither
+empty subscriptions nor mathematical agreement is being substituted for the
+independence record. A complete forensic transcript is not a requirement of the
+neutral contract; the unavailable operational details supply no missing
+mathematical premise. The operating discrepancy does not void this frozen
+mathematical examination. This ruling does not certify that every historical
+operation complied with its instructions.
+
+## Grades for the scoped conclusions
+
+These are components of the report's single conjunction and its stated
+consequences, not newly allocated claims. Each **pass** accepts the report's
+**refutation-failed** finding at exactly the stated scope.
+
+| Scoped conclusion | Grade | Coverage supporting the grade |
+| --- | --- | --- |
+| Finite construction for every integer $r\geq2$ | **pass** | The definition uses finite subsets and distinct new labels; the report checks the endpoint and nonempty halves. |
+| Exact $r$-uniformity | **pass** | Both edge types have $r$ elements, including at $r=2$. |
+| Pairwise intersection of edges | **pass** | Weakest step 1 exhausts all edge-pair types, including distinct partition indices. |
+| Every vertex lies in an edge | **pass** | Every old point belongs to an old edge; every new point belongs to its two partition edges. |
+| Chromatic number exactly three | **pass** | Weakest step 2 excludes every two-colouring and supplies a separate proper three-colouring. |
+| Exact count $2r-2+\tfrac12\binom{2r-2}{r-1}$ | **pass** | The complement map has exactly two preimages per unordered partition; labels are distinct and outside the old set. |
+| $N_r/r^2\to+\infty$ through integers | **pass** | Weakest step 3 proves the lower bound and an exact eventual geometric comparison. |
+| Negative first-question answer, modified formulation | **pass** | The witnesses satisfy exact chromatic number three and full vertex incidence; their ratios defeat every uniform quadratic constant and threshold. |
+| Same answer, original exact-chromatic reading | **pass** | The same finite witnesses meet its hypotheses. Additional incidence does not exclude them. |
+| Same answer, original mere-three-colourability gloss | **pass** | The explicit proper three-colouring places every witness in this larger admissible class. |
+
+The joint finding also receives **pass**: all these properties hold for the
+same $G_r$, rather than being distributed among different examples.
+
+## Mathematical checks of the examination
+
+### Construction, intersection, and the endpoint
+
+Put $n=r-1\geq1$. The frozen definition takes an old set $S$ of size $2n$,
+one new vertex $x_P$ for each unordered partition into two $n$-sets, all
+$(n+1)$-subsets of $S$ as edges, and both halves of each partition with their
+common new vertex. This directly gives finite vertex and edge sets. A disjoint
+tagged copy of the finite partition set supplies the new labels without a
+separate existence premise.
+
+I checked the report's attempt to separate two edges against this exact
+definition. Two old edges intersect in at least $2(n+1)-2n=2$ points. An old
+edge meets any old half in at least $(n+1)+n-2n=1$ point. The two edges from
+one partition share their new vertex. For distinct partitions, the only
+possible intersection is between their old halves $A,B$. Disjointness would
+give $B\subseteq S\setminus A$ with both sets of size $n$, hence equality;
+then their unordered partition indices coincide. This contradiction rules out
+the last possible disjoint pair. The report has not substituted a common
+vertex for pairwise intersection or strengthened the required intersection
+size.
+
+For an old point, the $2n-1$ other old points contain the $n$ needed to form
+an old edge through it. Every new vertex belongs to its two edges. Thus the
+counted vertex set is exactly the union of the edges. No repeated-edge
+convention is required: old edges contain no new label, different partition
+indices carry different labels, and a partition's two nonempty halves differ.
+
+At $r=2$, the three edges are $\{a,b\}$, $\{a,x\}$, and $\{b,x\}$.
+This is exactly the report's triangle, with count three. The assertion about
+two distinct old edges is vacuous at this order; it does not incorrectly
+assert that every pair in the triangle meets in two vertices. The report
+explicitly keeps this endpoint diagnostic separate from its universal proof.
+
+### The strongest colouring attack
+
+The report's strongest attack gives a putative two-colouring all possible
+freedom on the new vertices after colouring $S$. An unbalanced old colouring
+has at least $n+1$ points of one colour, producing a monochromatic old edge.
+The only remaining case has colour classes $R,B$ of size $n$ each. Because
+every unordered partition is indexed, $P_0=\{R,B\}$ is present. Its one new
+vertex has no legal colour: red violates $R\cup\{x_{P_0}\}$ and blue
+violates $B\cup\{x_{P_0}\}$.
+
+I also checked the report's stronger diagnostic about the other new vertices.
+For $Q\ne P_0$, a monochromatic old half of size $n$ would equal $R$ or
+$B$ and force $Q=P_0$. Thus both halves are mixed, and either colour at
+$x_Q$ is harmless. At $n=1$ there is no such $Q$. This diagnostic is true
+and shows precisely why independently choosing all other new colours cannot
+remove the obstruction. The attack could have found a defect if one partition
+were absent, the two halves used different labels, or an edge were omitted;
+the frozen definition excludes each of these possibilities.
+
+The upper colouring bound is checked separately. Give two old $n$-sets
+colours one and two, and every new vertex colour three. No old edge fits inside
+one old colour class. Every new edge contains colour three and at least one
+old point of another colour. This works for every partition edge and uses
+$n\geq1$, so no exception at $r=2$ is hidden. Excluding two colours and
+exhibiting three proves the exact value; mere non-two-colourability alone
+would not have sufficed.
+
+### Count, growth, and target consequences
+
+I checked the counting map in the report, rather than counting ordered
+descriptions as vertices. Each $n$-subset maps to its unordered complementary
+pair, and each pair has precisely its two distinct halves as preimages. Its
+fibres have size two because the halves are disjoint and nonempty. The new
+labels are disjoint from $S$ and all incident, so their number adds directly
+to $2n$. This yields the asserted $N_r$.
+
+For growth, the consecutive binomial coefficient ratio
+$(2n-k)/(k+1)$ proves the central coefficient is largest. Counting subsets by
+size gives the row sum $4^n$. These justify the report's bound in the claimed
+ratio units:
+
+$$
+\frac{N_r}{r^2}\geq b_r
+ :=\frac{4^{r-1}}{2(2r-1)r^2}>0,
+\qquad
+\frac{b_{r+1}}{b_r}
+ =4\frac{2r-1}{2r+1}\left(\frac r{r+1}\right)^2.
+$$
+
+The arithmetic in the report is exact. For $r\geq5$, the unsquared fractions
+are at least $9/11$ and $5/6$, so the quotient is at least
+$4(9/11)(5/6)^2=25/11>2$. Also
+$b_5=256/450=128/225$, $b_4=64/224=2/7$, and
+$b_5/b_4=448/225<2$. Thus the report correctly rejects an all-order doubling
+reading while proving the eventual assertion actually present in the frozen
+argument. Iterating the bound gives
+$b_{5+k}\geq(128/225)2^k$ for every integer $k\geq0$. Its divergence uses
+only the elementary growth of $2^k$, for instance $2^k\geq k+1$ by finite
+induction. No asymptotic formula for binomial coefficients is assumed.
+
+The consequence is checked with its own quantifiers. For arbitrary $C>0$ and
+$r_0$, choose $k$ so that $5+k\geq r_0$ and $(128/225)2^k>C$. Then the
+same admissible graph $G_{5+k}$ has more than $C(5+k)^2$ vertices. The
+constant being contradicted must be uniform in both $r$ and the hypergraph.
+The report states that requirement explicitly. This is stronger than merely
+exceeding one proposed constant and does not infer an extremal formula.
+
+The first formulation's leading phrase specifies exact chromatic number three,
+while its parenthetical gloss states only three-colourability. The report
+tests both readings and also the modified formulation's incidence requirement.
+The witnesses satisfy the stricter combination of conditions. Allowing isolated
+vertices or further hypergraphs in the original formulation does not remove
+these witnesses. The implication therefore survives every supplied reading,
+without choosing the weaker gloss to avoid an unproved hypothesis.
+
+### Routine reconstruction versus an essential missing lemma
+
+**The report supplies no omitted essential lemma.** This finding follows from
+comparison with the frozen proof, not from the report's own assurance:
+
+- Argument lines 22–28 already give every intersection case and the
+  complement contradiction. The report expands the finite-cardinality
+  equalities that justify those same cases.
+- Lines 30–41 already give incidence, the forced balanced colour classes,
+  their obstructing new vertex, and an explicit third colouring. The report
+  checks membership in the indexed family and the endpoint; it does not add
+  a missing upper or lower colouring bound.
+- Lines 43–47 already specify the two-to-one count, central maximum, and
+  binomial row sum. The report derives the latter facts from a consecutive
+  coefficient identity and subset counting, ordinary finite combinatorics.
+- Lines 49–59 already give the positive lower bound, its ratio tending to
+  four, eventual doubling, and the uniform-bound consequence. The report's
+  explicit threshold and quantified contradiction expand exactly that route.
+
+These expansions need no new hypothesis, auxiliary construction, external
+result, or materially different proof route. The additional observation about
+all other new vertices being freely colourable is a correct diagnostic of the
+strongest attack, not a premise needed to repair the original contradiction.
+The grade has not replaced an incomplete examination with its own proof.
+
+## Premises and foundations
+
+On 2026-10-14 UTC, I checked the consumed-premise inventory against the complete
+frozen statement, proof, consequence sentences, and report. It contains no
+native claim result and no external theorem taken on authority. The E0836 link
+identifies the target; Theorem 8 is excluded coverage. No ledger or live native
+dependency standing was read or consumed, and no pending dependency grade or
+batch promotion order is needed.
+
+The assumptions are integer $r\geq2$ and ordinary finite-set, counting, and
+arithmetic foundations. Distinct labels, complementary halves, colouring maps,
+finite subset counts, and positivity of the growth bound are justified at their
+uses. The implication to a statement about a uniform bound has no additional
+unproved premise. External publications and proofs remain unread and supply no
+evidence here. There is no source-owned theorem interface requiring a further
+source read under the nonrecursive premise policy.
+
+## Report-contract grade
+
+The governing standard is `docs/verification.md` in full, including
+"Report contract — void if any part is missing", "Whole-claim report", both
+checklists, and "Premises and source boundaries", together with the complete
+`campaign/guides/verification.md` adapter.
+
+| Required part | Grade | Reason |
+| --- | --- | --- |
+| Exact subject and independence | **pass** | Original and snapshot paths, freeze, convention, allowed and actual reading, role, and exclusions are specified. The independence ruling above states the evidence and its limits. |
+| Restatement | **pass** | The report preserves all integers $r\geq2$, the complete conjunction, exact count, limit, and both target formulations with a uniform constant. |
+| Checklist | **pass** | Every governing item, generic mode, and named pattern has an explicit finding or reason for inapplicability; the substantive checks are assessed below. |
+| Weakest steps | **pass** | Three reconstructions cover intersection, chromatic number, and count/growth/consequences, and explain their composition. They are routine expansions as adjudicated above. |
+| Strongest attack | **pass** | The balanced-colouring extension attempt gives every remaining colour choice its full freedom and locates an unavoidable offending edge. Other attacks cover the remaining claim surfaces. |
+| Premises | **pass** | The empty native/external inventory is derived from actual uses and dated at verdict filing; assumptions and source limits are explicit. |
+| Verdict and limitations | **pass** | The report states **refutation-failed** in full, covers the commissioned conjunction, excludes unrelated conclusions, and leaves grading to a separate eligible role. |
+| Retained reasoning and reproduction | **pass** | The unchanged extracts and report contain the complete noncomputational argument and attacks. There is no missing mathematical executable, witness, or private input. |
+
+This is not a computational batch or a second independent review cycle. The
+extra algorithmic reproduction and distinct-second-cycle requirements therefore
+do not apply. The grade is not counted as a second complementary review cycle.
+
+## Checklist grade
+
+The following grades concern the report's handling of each item; a **pass** for
+an inapplicable executable mode does not assert that any code was audited.
+
+### Governing checklist
+
+| Item | Grade | Finding |
+| --- | --- | --- |
+| Quantifiers and scope | **pass** | Arbitrary integer orders and the endpoint are covered; only the growth comparison is eventual. Both formulations are distinguished. |
+| Circularity | **pass** | Explicit finite objects precede their validation. The contradiction assumes a colouring, not the desired hypergraph property. Finite iteration of a proved inequality is legitimate. |
+| Model and convention changes | **pass** | The report checks actual finite hypergraphs, nonmonochromatic-edge colourings, and incident vertices. Class transfer is by verified inclusion. |
+| Finite and statistical overreach | **pass** | The triangle is only an endpoint check; symbolic arguments cover all orders. The row-average bound is an exact finite inequality, not statistical evidence. |
+| Uniformity | **pass** | The threshold and geometric factor are fixed, and the rejected quadratic constant is independent of both parameters. No unjustified exchange of limits or infinite sums occurs. |
+| Extremal conclusions | **pass** | Count and ratio are checked in their own units. The report does not infer a fixed-order optimum or supremum from an example. |
+| Consequences and composition | **pass** | Every witness hypothesis, the divergence implication, and each target reading are checked at their actual strength. No omitted bridge remains. |
+| Computation | **pass** | Executable-evidence requirements are inapplicable; all mathematical counts and comparisons are exact symbolic derivations. |
+| Reproduction | **pass** | The retained extracts and prose rebuild the argument. The report claims no mathematical rerun command or computational pass count. Historical helper executions retain the limits stated above. |
+| Source and verdict fidelity | **pass** | The report matches the supplied target texts, does not characterize an earlier verifier, and makes no excluded external-source claim. Verdict words and scope are preserved. |
+
+### Generic canonical modes
+
+| Mode | Grade | Finding |
+| --- | --- | --- |
+| Almost all quietly upgraded to all | **pass** | Absent: every order has a direct construction; an eventual growth bound is not used to restrict existence. |
+| Induction presupposing termination | **pass** | Absent: the only iteration is a finite induction from a proved ratio inequality. |
+| Probabilistic or averaging heuristics presented as proofs | **pass** | Absent: a finite maximum is at least its exact arithmetic mean. |
+| Circular use of an equivalent statement | **pass** | Absent: neither the target's negative answer nor an equivalent existence theorem is assumed. |
+| Exceptional sets dropped from density arguments | **pass** | Inapplicable: no density or exceptional-set argument is used. |
+| Finite verification cited beyond base-case coverage | **pass** | Absent: the endpoint example is not credited with universal scope. |
+| Relaxed or averaged convergence substituted for actual objects | **pass** | Absent: the auxiliary sequence is a proved pointwise lower bound for the actual vertex-count ratio. |
+
+### Named patterns
+
+| Pattern | Grade | Finding |
+| --- | --- | --- |
+| Model-class transport instead of entailment | **pass** | No axiom-system classification is claimed; the relevant class inclusions are actual implications of the checked graph properties. |
+| Uniformity over an infinite family from finitely many instances | **pass** | The arbitrary-parameter inequality proves the fixed threshold and factor; checked instances are not the basis. |
+| Extremal claims audited in their own units | **pass** | $N_r$ and $N_r/r^2$ are computed directly; the finite binomial-row maximum is proved. No unclaimed optimum is certified. |
+| Consequence sentences are claim surfaces | **pass** | Argument lines 11–13, 49–59, and 63–67 are covered separately, including both target readings. |
+| Carry hypotheses actually used by quantified arguments | **pass** | Integer $r\geq2$, nonempty halves, distinct labels, every partition index, and positive denominators are all available. |
+| A composition inherits its unproved premises | **pass** | Every clause used in the target implication is supplied by this same constructed family; there is no missing consumed interface. |
+| Reproducibility notes are claims | **pass** | The manual reconstruction and exact snapshots are present. No mathematical execution claim is left dependent on an unavailable program. |
+| Verifier quotations are claims | **pass** | The frozen extracts contain no prior verifier quotation. This grade checks the report's own scope and verdict directly. |
+| Verdict words spelled in full | **pass** | The report's **refutation-failed** is retained in full and is not confused with **refuted-as-stated**. |
+| Certified-bracket functions fail loudly | **pass** | Inapplicable: no bracket routine, cap, numerical enclosure, or periodic sample is used. |
+| A harness leg with no failing input is decoration | **pass** | Inapplicable: no mathematical harness leg is offered as evidence. |
+| A gate reading caches instead of rerunning is defective | **pass** | Inapplicable to the warrant: no gate, cached success, or prior pass supplies a mathematical inference. |
+
+Correlated-sample analysis is inapplicable because there is no statistical
+inference. The evidence-coverage discipline is satisfied by the arbitrary-order
+derivations; finite diagnostics and identity checks receive no broader weight.
+
+## Accepted weight and retained evidence
+
+The report's **refutation-failed** verdict is accepted for the complete frozen
+construction and its negative answer to the first question under all supplied
+readings. Its whole-statement examination meets the report and independence
+contract used for tier-1 mathematical review. There is no mathematical repair
+condition or unresolved consumed premise. This grade supplies the separate
+eligible acceptance of that examination; it does not assign a numerical tier
+to a source-owned result, modify a claim card, or decide the standing of a live
+problem page.
+
+The accepted mathematical record consists of this grade, the unchanged report,
+the unchanged target and argument snapshots, and their public provenance
+manifest. A reader can reconstruct the assessed argument from those files by
+forming the finite sets and edges for arbitrary $r$, following the exhaustive
+intersection and colouring cases, and checking the counting and growth
+identities. No mathematical program or executable rerun is needed. The raw
+operating and isolation records remain private and are not mathematical inputs.
+
+The integrator must retain these exact records at the paths identified above
+before relying on a durable corpus warrant, and owns comparison with any
+canonical text and disclosure of subsequent substantive changes. No later
+correction is represented as covered by this grade. The historical-operation
+limits in the independence ruling remain part of the accepted record. The
+excluded upper bound, second question, historical credit, external document
+fidelity, and Lean certification receive no acceptance from it.

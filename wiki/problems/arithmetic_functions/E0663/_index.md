@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 663
@@ -34,9 +34,26 @@ https://www.erdosproblems.com/663.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+For fixed $k$ and $y$, the inequality $q(n,k)>y$ is equivalent to
+
+$$
+n\bmod p\in\{-1,\ldots,-k\}\pmod p\quad\text{for every prime }p\le y.
+$$
+
+The Chinese remainder theorem gives exactly $\prod_{p\le y}\min(k,p)$
+admissible classes modulo $M_y=\prod_{p\le y}p$. Their density is
+$\prod_{k<p\le y}k/p=\exp(-y+o(y))$ for fixed $k$, by the prime number theorem.
+This average spacing does not bound the least positive representative of any
+admissible class.
+
+The elementary product-size estimate gives only $q(n,k)\le(k+o(1))\log n$.
+Conversely $n=M_y-1$ has $q(n,k)>y$ and $\log n\sim y$, so coefficient one
+would be sharp. The unresolved input is a uniform lower bound of size
+$\exp((1-o(1))y)$ for the relevant exceptional representatives, not their
+density. These are author-recorded deductions; no CRT enumeration or stronger
+sieve result is asserted.
 
 ## Known Results
 

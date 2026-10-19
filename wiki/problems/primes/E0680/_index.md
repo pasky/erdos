@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 680
@@ -47,9 +47,21 @@ https://www.erdosproblems.com/680.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/680.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+For positive shifts, $k=1$ handles every even $n$, and $k=2$ handles odd $n$
+for which $3,5\nmid n+2$. These cover $23$ of the $30$ residue classes modulo
+$30$: $15$ even classes and $15-5-3+1=8$ odd classes. Every quadratic witness
+also satisfies $k^2-k+1<n$, since $k^2+1<p(n+k)\le n+k$.
+
+No fixed list of shifts can suffice. Given $K$, take
+$n=1+a\operatorname{lcm}(2,\ldots,K+1)$. Then $k+1\mid n+k$ for $1\le k\le K$,
+so $p(n+k)\le k+1\le k^2+1$. This gives arbitrarily large failures for every
+fixed cap while leaving growing shifts open. The exponential variant likewise
+needs control over its whole admissible range. These are exact author
+arguments, not a large search. The
+[[../library/primes/gafni_2025_rough_numbers_between_consecutive_primes/_index|linear
+rough-gap theorem]] does not meet this quadratic threshold.
 
 ## Known Results
 

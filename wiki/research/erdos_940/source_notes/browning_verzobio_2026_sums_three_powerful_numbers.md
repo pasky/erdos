@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Browning–Verzobio: Sums of three powerful
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Browning–Verzobio: Sums of three powerful numbers
@@ -168,3 +168,27 @@ removing the condition $c\in\mathcal P_R$ enlarges the target set drastically,
 and an upper bound for representation triples does not by itself exclude many
 integers having one representation. In particular, the paper does not address
 the density of sums of three cubes that forms the stated obstruction at $R=3$.
+
+Two ingredients may nevertheless be reusable in work on E940. First, the
+full-number parametrization in the proof of Theorem 4.1 translates each E940
+summand uniquely as
+
+$$
+a_i=v_{i,0}^{R}\prod_{s=1}^{R-1}v_{i,s}^{R+s},
+$$
+
+with squarefree, pairwise coprime auxiliary factors. This is a natural starting
+point for dyadic decompositions of the E940 representation function. Second,
+Theorem 1.2 supplies coefficient-uniform bounds for ternary fibers that become
+equations of the form $\lambda x^p+\mu y^q=\nu z^s$ after auxiliary factors
+are fixed. Such bounds could enter a collision, energy, or exceptional-subfamily
+argument when three surviving variables form a generalized Fermat equation.
+
+The limitation is structural: an E940 equation with $t$ summands produces a
+higher-dimensional additive equation after this parametrization, whereas Theorem
+1.2 is ternary and Theorem 4.1 relies on the output also having a
+powerful-number factorization. Additional estimates controlling arbitrary
+targets and up to $R$ simultaneous summands would be required. Accordingly,
+the paper provides a potentially useful decomposition and uniform ternary input,
+but it neither proves nor directly reduces E940's density-zero assertion or
+its infinitude question.

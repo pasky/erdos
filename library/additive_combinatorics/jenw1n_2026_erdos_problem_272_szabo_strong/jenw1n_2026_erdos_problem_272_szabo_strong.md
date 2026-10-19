@@ -5,7 +5,7 @@ desc: |
   Records Conjectures.io record's URLs, the verified Lean statement, the
   acceptance timeline and the provenance of the downloaded proof file.
 created: 2026-09-28T02:57:24Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Source record for the Conjectures.io Szabó-variant proof for Problem 272
@@ -47,9 +47,9 @@ bundle's `Challenge.lean` name the target
 ```
 
 with the same source type SHA-256 on both
-the record page (catalog commit `8432eac9`, task
+the record page (formal-conjectures commit `8432eac9`, task
 `fc-8432eac9-variants-szabo-strong-454001886c-formalized-v1`) and the task
-bundle (catalog commit `6a786f99`, task
+bundle (formal-conjectures commit `6a786f99`, task
 `fc-6a786f99-variants-szabo-strong-5829e2fb24-formalized-v1`). Neither pinned
 commit is reachable in `google-deepmind/formal-conjectures`; the statement on
 formal-conjectures' default branch, fetched 2026-09-28T02:36Z, is identical. The

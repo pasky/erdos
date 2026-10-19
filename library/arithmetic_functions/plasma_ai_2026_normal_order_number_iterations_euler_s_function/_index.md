@@ -10,7 +10,7 @@ desc: |
   half-plane and weighted-dilation-graph manuscripts.
 license: Apache-2.0
 created: 2026-10-14T20:20:13Z
-updated: 2026-10-14T22:52:50Z
+updated: 2026-10-19T07:23:34Z
 ---
 
 # arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function
@@ -33,23 +33,23 @@ here.
 Plasma AI, *The normal order of the number of iterations of Euler's function*,
 preprint, October 14, 2026, with its Lean formalization, in the repository
 [plasma-ai/erdos-408](https://github.com/plasma-ai/erdos-408) at
-[5b02bf9](https://github.com/plasma-ai/erdos-408/tree/5b02bf9ab59fd813af8f19c604ba70254fced08d).
-The paper is
-[`paper/totient_iterates.pdf`](https://github.com/plasma-ai/erdos-408/blob/5b02bf9ab59fd813af8f19c604ba70254fced08d/paper/totient_iterates.pdf)
-there, with its TeX source beside it; the held PDF is retained as
+[4ea44bf](https://github.com/plasma-ai/erdos-408/tree/4ea44bf911f8668aec10ec25c4b309e8ed476666)
+(2026-10-19 UTC). The paper is
+[`paper/totient_iterates.pdf`](https://github.com/plasma-ai/erdos-408/blob/5b02bf9ab59fd813af8f19c604ba70254fced08d/paper/totient_iterates.pdf),
+posted at commit 5b02bf9 (2026-10-14) and unchanged since, with its TeX source
+beside it; the held PDF is retained as
 [plasma_ai_2026_normal_order_number_iterations_euler_s_function.pdf](plasma_ai_2026_normal_order_number_iterations_euler_s_function.pdf).
 The repository is released under the Apache License 2.0, read in its root
-`LICENSE` at that commit on 2026-10-14, whose copyright line is left as the
+`LICENSE` at commit 4ea44bf on 2026-10-19, whose copyright line is left as the
 license's template placeholder; the paper carries no license or copyright
 statement of its own and is held under the repository's license. The
 formalization is held as
 [evidence/assets/erdos_408_formalization.tar.gz](evidence/assets/erdos_408_formalization.tar.gz),
-the repository's tree at that commit without its `paper/` folder, made by
-`git archive 5b02bf9 -- . ':(exclude)paper' | gzip -n`. Commit 5b02bf9
-differs from its parent bd581ee in comments and metadata only: a reflowed line
-of `Challenge.lean`'s module doc comment, a line in `README.md`, an entry in
-`.gitignore`, and reworded notes in `formalization.yaml`. The paper, the
-definitions, the statements and the proofs are the same in both.
+the repository's tree at commit 4ea44bf without its `paper/` folder, made by
+`git archive 4ea44bf -- . ':(exclude)paper' | gzip -n`. Commit 4ea44bf moves
+the development to Lean and Mathlib `v4.35.0-rc3` and to Lean's module system,
+adds a Palomar preflight workflow and names a second responsible maintainer;
+its `Challenge.lean` and `comparator.json` are byte for byte those of 5b02bf9.
 
 ```bibtex
 @misc{PlasmaAI:Erdos408,
@@ -63,7 +63,8 @@ definitions, the statements and the proofs are the same in both.
 
 The result is credited to Plasma AI, the paper's author line. The
 repository's `formalization.yaml` names Jacob Parish as the formalization's
-author and maintainer and records that it was written with Claude Code (model
+author, Jacob Parish and Andrew Turner as its responsible maintainers, and
+records that it was written with Claude Code (model
 `claude-opus-5-5`) and parallel subagents.
 
 **The paper.** Section 1 states
@@ -96,7 +97,7 @@ consequence of Ford, Konyagin and Luca (2010, Theorem 5): for every
 integer-valued $k(n)\to\infty$, the largest prime factor of
 $\varphi_{k(n)}(n)$ is $n^{o(1)}$ on a set of natural density one.
 
-**The formalization.** Lean 4 at `v4.35.0` with Mathlib `v4.35.0`.
+**The formalization.** Lean 4 at `v4.35.0-rc3` with Mathlib `v4.35.0-rc3`.
 `Challenge.lean` states three theorems with deliberate `sorry` bodies:
 `Erdos408.normal_order_rate`, Theorem 1.1's two bounds, and
 `erdos_408.parts.i` and `erdos_408.parts.ii`, the first two questions as
@@ -114,10 +115,12 @@ weighted-dilation-graph results, and code from `PrimeNumberTheoremAnd` and
 Attestation, recorded as the source's own statements and not as this
 corpus's review: `formalization.yaml` gives the review status as
 self-assessed, a `sorry` count of zero and the three standard axioms, and
-records that its Comparator check ran on macOS with a stand-in for the
-`landrun` sandbox that does not sandbox the solution's build. This corpus
-rebuilt the formalization in its own sandbox, checked it with Comparator and
-replayed its three theorems in the kernel
+records that its Comparator check, run with the toolchain's `lake comparator`,
+accepted the three theorems with the Lean, NanoDa and con-ron kernels, and in
+its paranoid mode also with lean4lean and con-leche, on macOS without
+Comparator's sandbox. This corpus rebuilt the formalization in its own
+sandbox, checked it with Comparator and replayed its three theorems in the
+kernel
 ([[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/verify/replay_receipt|the replay receipt]]), and its
 [[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/verify/statement_fidelity/_index|statement-fidelity audit]]
 passed, graded, on 2026-10-14. The paper's own proof is not independently

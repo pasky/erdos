@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 52
@@ -53,9 +53,23 @@ https://www.erdosproblems.com/52.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/52.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Clearing denominators is an exact transfer for a finite rational set $A$: if
+$qA\subset\mathbb Z$ and $q\ne0$, then $|qA+qA|=|A+A|$ and $|(qA)(qA)|=|AA|$.
+The construction in
+[[../library/additive_combinatorics/bloom_2026_sum_product_conjecture_is_false_real/_index|Bloom–Sawin–Schildkraut–Zhelezov,
+Theorem 1.2]] instead lies in rings of integers of totally real number fields
+of growing degree.
+
+A field of degree greater than one over $\mathbb Q$ has no embedding into
+$\mathbb Q$ fixing $\mathbb Q$: the image of an irrational element would be a
+rational root of its irreducible minimal polynomial. Rational approximation
+need not preserve exact product coincidences. This rules out that proposed
+clearing-denominator argument, not every possible finite encoding. A rational
+family, or a separately proved exact collision-preserving map, remains
+necessary. The construction theorem was read at statement depth, without
+auditing its proof.
 
 ## Known Results
 

@@ -6,7 +6,7 @@ desc: |
   set mapping on a set of type ω_(α+1), ℵ_α regular, whose images pairwise
   meet in fewer than ℵ_α points has a free subset of every type ξ < ω_(α+1).
 created: 2026-10-08T15:36:01Z
-updated: 2026-10-08T15:36:01Z
+updated: 2026-10-13T20:02:22Z
 ---
 
 ***
@@ -18,7 +18,7 @@ Problem 36 of the 1967 list follows from $\omega_1\to(\alpha)^2_2$, and that
 the following stronger results are true. It does not restate Problem 36.
 
 **Theorem (Shelah [25])** (p. 278, quoted). "Assume G.C.H.,
-$\operatorname{typ}S(<)=\omega_{\alpha+1}$, $\aleph_\alpha$ is regular. Let $f$
+$\operatorname{typ}S(\prec)=\omega_{\alpha+1}$, $\aleph_\alpha$ is regular. Let $f$
 be a set mapping on $S$ such that $|f(x)\cap f(y)|<\aleph_\alpha$ for $x\ne
 y\in S$. Then for every $\xi<\omega_{\alpha+1}$ there is a free subset of type
 $\xi$."

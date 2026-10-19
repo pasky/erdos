@@ -1,17 +1,16 @@
 ---
 name: extremal_graph_theory/dirac_1963_extensions_turan_s_theorem_graphs
 desc: |
-  Dirac's 1963 extensions of Turán's theorem: a graph on n vertices with at
-  least d_k(n) + α edges (α ≤ 1) contains, for every n' from k to n − 1, a
-  subgraph on n' vertices with at least d_k(n') + α edges; so more than d_k(n)
+  Dirac's 1963 extensions of Turán's theorem: an n-vertex graph with at least
+  d_k(n) + α edges (α ≤ 1) contains, for every n' from k to n − 1, an
+  n'-vertex subgraph with at least d_k(n') + α edges; so more than d_k(n)
   edges force K_{k+p} minus p edges for n ≥ k + p ≥ 2p + 2, and at exactly
-  d_k(n) edges only the Turán graph avoids them if n ≥ k + p + 1 and p ≤ k − 3.
-  At k = 3 the first theorem is the Dirac half of the statement that
-  [n²/4] + 1 edges force, for every n' from 3 to n, an n'-vertex subgraph
-  with [n'²/4] + 1 edges.
+  d_k(n) edges only the Turán graph avoids them if n ≥ k + p + 1 and
+  p ≤ k − 3. At k = 3 it is the Dirac half of: [n²/4] + 1 edges force an
+  n'-vertex subgraph with [n'²/4] + 1 edges for each n' from 3 to n.
 license: reserved
 created: 2026-09-22T18:37:38Z
-updated: 2026-10-08T14:31:18Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # extremal_graph_theory/dirac_1963_extensions_turan_s_theorem_graphs

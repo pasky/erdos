@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:55:41Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 477
@@ -135,7 +135,7 @@ from erdosproblems.com's full image $f(\mathbb Z)$. The Sekanina (1959) paper
 cited there proves, in its Remark 1.7, that the squares have no tiling
 complement and leaves higher powers open; see
 [[problems/diophantine_problems/E0477/claims/1959_01_01_sekanina|its claim page]].
-The historical expectation was negative, whereas the present catalog
+The historical expectation was negative, whereas the present erdosproblems.com
 existence question is answered positively.
 
 [Liam Price's proof claim 154](https://www.erdosproblems.com/forum/thread/477/proof-claims#proof-claim-154),

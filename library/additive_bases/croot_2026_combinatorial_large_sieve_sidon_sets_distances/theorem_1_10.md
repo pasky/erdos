@@ -7,7 +7,7 @@ desc: |
   satisfies |A| <<_F sqrt(B) N^(r/2) exp(-c_F log N / log log N); it
   recovers Theorem 1.5.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -63,4 +63,4 @@ with $L\ll_FN^r$ gives the bound.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

@@ -1,0 +1,7 @@
+These excerpts originate in Kenta Kitamura / KitaKen1's two Erdős 176
+source repositories, identified by external version and path in ../manifest.json.
+The source archives each contain the identical Apache License, Version 2.0,
+retained here in LICENSE.txt. Both license texts were inspected on
+2026-10-15 UTC for this filing, separately from the mathematical examinations.
+The Basic and Sqrt excerpts carry explicit extraction notices; the five
+small-case files retain their original complete contents.

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 # Problem 1004
@@ -53,8 +53,8 @@ https://www.erdosproblems.com/1004.
 
 ## Current assessment
 
-The standing judges the dated catalog formulation above, with its non-strict
-upper endpoint.
+The standing judges the dated erdosproblems.com formulation above, with its
+non-strict upper endpoint.
 
 No proof of the every-$c$ statement was found in the arXiv
 and publication records searched on 2026-09-09. The recent
@@ -63,6 +63,8 @@ improves the off-diagonal estimate over its specified growing shift
 range, but retains a diagonal for even shifts. Its odd-shift consequences
 do not alone control every pair in a consecutive block. Its latest version
 is [v2](https://arxiv.org/abs/2606.23681v2), dated 12 August 2026.
+
+The cited sources state no growing-block existence theorem.
 
 The problem's
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/1004.lean),
@@ -77,6 +79,11 @@ every fixed $c<2$ at almost all starting points; it is retained as
 lead]], recorded as
 [[problems/arithmetic_functions/E1004/claims/2026_04_29_aditya|a pending partial claim]],
 and changes nothing recorded here.
+
+The collision estimate of the accepted Problem 416 proof concerns two
+representations of one value, not equal values at two arguments, and gives no
+bound on $P(x;k)$; the obstruction is recorded on
+[[research/erdos_416/connections|the connections page of the Problem 416 folder]].
 
 On 2026-10-05 Bloom's catalog labeled the problem OPEN (last edited 12 April
 2026); its thread held seven comments, the newest of 30 April 2026, and no proof
@@ -154,11 +161,12 @@ paper's equation (3.2), with its explicit bounds recorded on the result
 page; $C_2$ uses the paper's normalization $2\prod_{p>2}(1-(p-1)^{-2})$.
 Neither theorem itself asserts the required collision-free block.
 
-The affirmative answer for every fixed $c<2$, in the almost-all form, is
-publicly claimed by
-[[problems/arithmetic_functions/E1004/claims/2026_04_29_aditya|the anonymous note's pending partial claim]],
-which the community's AI-contributions wiki calls implicit in Pollack,
-Pomerance and Treviño.
+Author-recorded research on
+[[research/erdos_49/connections|the Problem 49 connections page]] and in
+[[research/leads/distinct_totient_blocks_from_collision_bounds/_index|the collision-bounds lead]]
+concerns these two theorems and the barrier at $c=2$; it is not a claim, and
+nothing here changes the status. The public claim of the $c<2$ statement is
+[[problems/arithmetic_functions/E1004/claims/2026_04_29_aditya|the anonymous note's partial claim]].
 
 The
 [[../library/primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/_index|paper]]
@@ -206,6 +214,27 @@ Theorem 4 to the reader. It concerns equal values at suitable
 offsets, not distinct values at every consecutive offset. The
 [[../library/arithmetic_functions/graham_1999_solutions_phi_n_phi_n_k/_index|paper]]
 occupies pp. 867--882 of its journal.
+
+## Exact scope of the arithmetic reduction
+
+Write $P(x;h)$ for the number of equal-totient pairs with shift $h$ up to $x$.
+The bad-start union bound for blocks of length $L$ is
+
+$$
+B(x,L)\le\sum_{1\le h<L}(L-h)P(x+L;h).
+$$
+
+The uniform estimates in
+[[../library/primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/_index|Pollack
+and collaborators]] give the existing range $c<2$. Even a coefficient sum
+$\sum_{h<L}c(h)\ll\log L$ leaves a term of scale $L\log L/\log^2 x$. Improving
+only odd shifts leaves the even-shift collisions. A lower bound $c(h)\ge1/(2h)$
+for a coefficient in an upper estimate is not a lower bound for actual
+collisions and does not disprove longer distinct-value blocks. The source
+statements and the existing author deduction were inspected; no independent
+verification is conferred. To go beyond this first-moment interface, one needs
+correlations, selection of atypical intervals, or a stronger estimate treating
+all even shifts as well.
 
 <!-- BEGIN problem library links -->
 

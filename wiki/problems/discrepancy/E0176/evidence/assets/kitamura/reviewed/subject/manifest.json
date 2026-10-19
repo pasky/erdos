@@ -1,0 +1,268 @@
+{
+  "frozen_utc": "2026-10-15T13:17:10.123503+00:00",
+  "scope": "Both polynomial inequalities and both exponential consequences, all stated domains and small bases, positive-difference ordinary APs and non-strict discrepancy targets.",
+  "cut_marker": "[cut]",
+  "native_premises": [],
+  "ledger_rows": [],
+  "external_premises": [],
+  "allowed_files": [
+    {
+      "path": "statement.md.txt",
+      "source": "Commissioned exact theorem scope",
+      "selection": "complete statement and conventions"
+    },
+    {
+      "path": "proof.md.txt",
+      "source": "Plasma AI mathematical extraction of Kitamura's argument",
+      "selection": {
+        "line_ranges_inclusive": [
+          [
+            20,
+            94
+          ],
+          [
+            100,
+            127
+          ],
+          [
+            133,
+            137
+          ],
+          [
+            146,
+            174
+          ]
+        ]
+      }
+    },
+    {
+      "path": "exponential_consequences.md.txt",
+      "source": "Plasma AI deductions from the two polynomial formulas",
+      "selection": "mathematical deduction"
+    },
+    {
+      "path": "source/nk2_basic.lean.txt",
+      "source": {
+        "repository": "KitaKen1/erdos176-nk2-polynomial-bound-lean",
+        "revision": "88be9174c1b85548fa48d2498ba907a9e80f04c7",
+        "path": "Erdos176Lean/Basic.lean"
+      },
+      "selection": {
+        "line_ranges_inclusive": [
+          [
+            1,
+            4
+          ],
+          [
+            30,
+            1038
+          ],
+          [
+            1045,
+            1727
+          ]
+        ]
+      }
+    },
+    {
+      "path": "source/nksqrtk_sqrt.lean.txt",
+      "source": {
+        "repository": "KitaKen1/erdos176-nksqrtk-polynomial-bound-lean",
+        "revision": "19b2ad31c81207613f7cfdaa68467d3dca98b3b7",
+        "path": "Erdos176Lean/Sqrt.lean"
+      },
+      "selection": {
+        "line_ranges_inclusive": [
+          [
+            1,
+            4
+          ],
+          [
+            23,
+            979
+          ]
+        ]
+      }
+    },
+    {
+      "path": "source/SmallKCommon.lean.txt",
+      "source": {
+        "repository": "KitaKen1/erdos176-nk2-polynomial-bound-lean",
+        "revision": "88be9174c1b85548fa48d2498ba907a9e80f04c7",
+        "path": "Erdos176Lean/SmallKCommon.lean"
+      },
+      "selection": "whole exact file"
+    },
+    {
+      "path": "source/K1.lean.txt",
+      "source": {
+        "repository": "KitaKen1/erdos176-nk2-polynomial-bound-lean",
+        "revision": "88be9174c1b85548fa48d2498ba907a9e80f04c7",
+        "path": "Erdos176Lean/K1.lean"
+      },
+      "selection": "whole exact file"
+    },
+    {
+      "path": "source/K2.lean.txt",
+      "source": {
+        "repository": "KitaKen1/erdos176-nk2-polynomial-bound-lean",
+        "revision": "88be9174c1b85548fa48d2498ba907a9e80f04c7",
+        "path": "Erdos176Lean/K2.lean"
+      },
+      "selection": "whole exact file"
+    },
+    {
+      "path": "source/K3.lean.txt",
+      "source": {
+        "repository": "KitaKen1/erdos176-nk2-polynomial-bound-lean",
+        "revision": "88be9174c1b85548fa48d2498ba907a9e80f04c7",
+        "path": "Erdos176Lean/K3.lean"
+      },
+      "selection": "whole exact file"
+    },
+    {
+      "path": "source/K4.lean.txt",
+      "source": {
+        "repository": "KitaKen1/erdos176-nk2-polynomial-bound-lean",
+        "revision": "88be9174c1b85548fa48d2498ba907a9e80f04c7",
+        "path": "Erdos176Lean/K4.lean"
+      },
+      "selection": "whole exact file"
+    },
+    {
+      "path": "finite/small_cases.py.txt",
+      "source": "Plasma AI exact finite checker and finite witness/count data",
+      "selection": "whole exact file"
+    },
+    {
+      "path": "finite/small_cases_results.json",
+      "source": "Plasma AI exact finite checker and finite witness/count data",
+      "selection": "whole exact file"
+    },
+    {
+      "path": "tools_runtime/tools/__init__.py",
+      "source": {
+        "repository_path": "tools/__init__.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/cli/__init__.py",
+      "source": {
+        "repository_path": "tools/cli/__init__.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/cli/main.py",
+      "source": {
+        "repository_path": "tools/cli/main.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/constants.py",
+      "source": {
+        "repository_path": "tools/constants.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/__init__.py",
+      "source": {
+        "repository_path": "tools/core/__init__.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/audits.py",
+      "source": {
+        "repository_path": "tools/core/audits.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/claim_refs.py",
+      "source": {
+        "repository_path": "tools/core/claim_refs.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/evidence.py",
+      "source": {
+        "repository_path": "tools/core/evidence.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/files.py",
+      "source": {
+        "repository_path": "tools/core/files.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/gate.py",
+      "source": {
+        "repository_path": "tools/core/gate.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/harness.py",
+      "source": {
+        "repository_path": "tools/core/harness.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/ledger.py",
+      "source": {
+        "repository_path": "tools/core/ledger.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/problem_claims.py",
+      "source": {
+        "repository_path": "tools/core/problem_claims.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/problem_layout.py",
+      "source": {
+        "repository_path": "tools/core/problem_layout.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/core/reflint.py",
+      "source": {
+        "repository_path": "tools/core/reflint.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/util/__init__.py",
+      "source": {
+        "repository_path": "tools/util/__init__.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "tools_runtime/tools/util/supervision.py",
+      "source": {
+        "repository_path": "tools/util/supervision.py"
+      },
+      "selection": "exact import closure; execution limited to the finite checker"
+    },
+    {
+      "path": "provenance_and_scope.md.txt",
+      "source": "Source identity and commissioned finite-evidence interface",
+      "selection": "neutral scope"
+    }
+  ],
+  "filing_note": "Original mathematical paths and source selections retained; private custody digests and operating instructions omitted. External source revisions identify the published upstream content."
+}

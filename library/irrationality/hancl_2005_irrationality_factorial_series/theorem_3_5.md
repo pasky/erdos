@@ -7,7 +7,7 @@ desc: |
   least one satisfying the Taylor expansion, uniform derivative bound and
   limit conditions (22) to (25).
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -78,4 +78,4 @@ finds an integer that tends to $0$ but whose vanishing contradicts (25).
 In both corollaries $\gamma$ is restricted to positive rationals, unlike
 Corollaries 3.5 and 3.6, where $\gamma\in\mathbb{R}_+$.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

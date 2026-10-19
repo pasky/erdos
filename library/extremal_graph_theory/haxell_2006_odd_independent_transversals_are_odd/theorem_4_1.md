@@ -6,7 +6,7 @@ desc: |
   with its vertices partitioned into r classes of size n and maximum degree
   below tn/(2t - 1), has an independent transversal of those classes.
 created: 2026-10-08T15:11:47Z
-updated: 2026-10-08T15:11:47Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -54,7 +54,7 @@ Lemma 2.1 and Theorem 2.2 of the paper.
 
 ## Bears on
 
-No catalog problem directly. It is the second half of the proof of
+No erdosproblems.com problem directly. It is the second half of the proof of
 [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_1_1|Theorem 1.1]],
 which bears on
 [[../wiki/problems/extremal_graph_theory/E1078/_index|Problem 1078]]: it

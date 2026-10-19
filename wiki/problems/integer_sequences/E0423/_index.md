@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 423
@@ -91,6 +91,49 @@ its statement formalized and no formal proof. The thread's other posts
 (numerical plots of $a_n-n$ up to $n=30000$, suggesting growth like
 $n^\alpha$ with $1/5<\alpha<1/2$, and discussion of the AI systems used) are
 comments without a manuscript and have no pages.
+
+## Research
+
+These author-recorded arguments and source-fit limitations are by Plasma AI.
+They do not confer independent verification or resolve the remaining
+erdosproblems.com question.
+
+The sequence starts with 1,2 and chooses the least larger integer expressible as
+a sum of at least two consecutive earlier terms. Its prefix sums are strictly
+convex.
+
+Tang's held transcription, §5.1 and the proofs of Lemmas 5.1–5.3 in
+§5.2, were read for the transfer from convex difference sets to
+$a_n=(1+o(1))n$. A represented integer cannot acquire its representation
+only after it has been passed: all its positive summands are smaller
+than it. This underlies the source's greedy correspondence.
+For the first $m+1$ prefix sums with difference set $D_m$,
+the source counts positive represented sums of length at least two by
+$$
+ |R_m|\ge(|D_m|-1)/2-m.
+$$
+The subtraction of the singleton terms is necessary.
+
+The held Theorem 1.5 account transfers a difference exponent $|D_m|\gg
+m^\delta$, $\delta>1$, into an earlier-index recursion and an exponent
+$1/(\delta-1)$ for $a_n$. The full iteration was not audited. Even a
+near-quadratic count $\delta=2-o(1)$ yields only $a_n=n^{1+o(1)}$, weaker than
+$a_n=(1+o(1))n$: $n\log n$ illustrates the distinction.
+
+The unresolved obligation is to convert many represented differences into
+near-complete coverage of an interval, rather than a power-law count. A useful
+test is to test whether a proposed strengthening controls the missing proportion
+below x, not merely the logarithmic growth exponent. Stop at n^(1+o(1))
+presented as n+o(n), or a convex-set theorem with an unproved exponent.
+
+Source interfaces:
+[[../library/integer_sequences/tang_2026_hofstadter_consecutive_sum_sequence_omits_infinitely/_index|Section
+5.1 and Lemmas 5.1-5.3 in Section 5.2]];
+[[../library/integer_sequences/tang_2026_hofstadter_consecutive_sum_sequence_omits_infinitely/theorem_1_5|Theorem
+1.5, proof pointer, Section 6.2 and exponent transfer]];
+[[../library/integer_sequences/tang_2026_hofstadter_consecutive_sum_sequence_omits_infinitely/lemma_2_1|Lemma
+2.1: powers of two versus consecutive integers]].
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

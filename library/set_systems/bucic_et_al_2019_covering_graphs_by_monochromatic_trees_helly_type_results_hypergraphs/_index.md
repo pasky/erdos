@@ -3,11 +3,11 @@ name: set_systems/bucic_et_al_2019_covering_graphs_by_monochromatic_trees_helly_
 title: "Bucić et al.: Covering graphs by monochromatic trees and Helly-type results for hypergraphs"
 desc: |
   Bounds the global cover number of a uniform hypergraph whose every q edges
-  have a small cover, a Helly-type parameter whose two-point case is the
-  Problem 644 quantity f(k,q).
+  have a small cover, showing the Problem 644 quantity f(k,q) grows linearly in
+  k without fixing its constant.
 license: reserved
 created: 2026-09-21T00:00:00Z
-updated: 2026-10-08T17:25:16Z
+updated: 2026-10-14T00:58:57Z
 ---
 
 # Bucić et al.: Covering graphs by monochromatic trees and Helly-type results for hypergraphs
@@ -263,7 +263,41 @@ This is the direct connection; the partite parameter $\mathrm{hp}_r(k)$ and most
 of the monochromatic-tree results impose additional partiteness or
 transversal-cover structure and should not be identified with E644.
 
-Proposition 5.6 with $s=K$ and $\ell=2$ gives $f(K,3)=2K$.
+Several results specialize immediately:
+
+- Proposition 5.6 with $s=K$ and $\ell=2$ gives $f(K,3)=2K$.
+
+- Observation 5.1(2)–(3) gives the uniform upper bound $f(K,q)\le2K$ for every
+  fixed $q\ge3$.
+
+- Theorem 5.7 gives, for every integer $t\ge2$,
+  $q<\frac{\binom{K+t}{2}}{\binom{t}{2}}=\frac{(K+t)(K+t-1)}{t(t-1)}\quad\Longrightarrow\quad f(K,q)>t.$
+  Taking $t\sim cK$ shows
+  $\liminf_{K\to\infty}\frac{f(K,q)}K\ge\frac1{\sqrt q-1}.$ In particular,
+  $\liminf_{K\to\infty}\frac{f(K,7)}K\ge\frac1{\sqrt7-1}=\frac{\sqrt7+1}{6}\approx0.607625.$
+  The construction is explicit: the complete $K$-uniform hypergraph on $K+t$
+  vertices has cover number $t+1$, and the counting argument in Theorem 5.7
+  verifies its local two-cover property. This falls well short of the
+  conjectured coefficient $3/4$.
+
+- Theorem 5.3 translates to
+  $q\ge \binom{K+t}{t}^{1/\lfloor t/2\rfloor}\,4K\log(2K)\quad\Longrightarrow\quad f(K,q)\le t,$
+  for $2\le t\le2K$. This can be useful when the local parameter $q=q(K)$ grows,
+  but it gives no improvement for E644’s fixed $q$: its right-hand condition is
+  already at least of order $K\log K$.
+
+- Theorem 5.2 gives the far-end exact statement $f(K,q)=2$ once
+  $q\ge\binom{K+2}{2}$. It does not bear directly on fixed $q$.
+
+How Corollary 2.9, Lemma 5.8 and Proposition A.1 might enter an argument for
+E644 is discussed in
+[[../wiki/research/erdos_644/source_notes/bucic_et_al_2019_covering_graphs_by_monochromatic_trees_helly_type_results_hypergraphs|the Problem 644 research notes on this paper]].
+
+Overall, the paper's results give $f(K,q)=\Theta_q(K)$ for every fixed
+$q\ge3$—combining Theorem 5.7 with Observation 5.1—but it neither proves
+convergence of $f(K,q)/K$ nor determines its limit. In particular, it does not
+prove $f(K,7)=(3/4+o(1))K$, and it does not establish the existence of constants
+$c_q$ for all fixed $q$.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

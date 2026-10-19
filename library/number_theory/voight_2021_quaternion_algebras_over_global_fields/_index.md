@@ -3,10 +3,11 @@ name: number_theory/voight_2021_quaternion_algebras_over_global_fields
 title: "Voight: Quaternion algebras over global fields"
 desc: |
   Classifies quaternion algebras over global fields by even ramification sets,
-  proving the rational case via Hilbert reciprocity and Hasse–Minkowski.
+  proving the rational case via Hilbert reciprocity and Hasse–Minkowski; the
+  reciprocity feeds the E940 quartic-complement lemma.
 license: CC-BY-NC-4.0
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T17:15:47Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Voight: Quaternion algebras over global fields
@@ -170,14 +171,27 @@ the proofs of Main Theorem 14.6.1 and Theorem 14.6.9 lie outside the chapter.
 
 **Bears on.**
 
-- [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the chapter
-  contains no result about $r$-powerful numbers; its reciprocity and
-  local-global theorems bear on the problem only indirectly, as the section
-  below records.
+- [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the corpus's
+  research note on the quartic complement cites Proposition 14.2.1 and
+  Corollary 14.2.3 for one step of its $r=4$ argument, that a positive
+  definite rational quaternary form of square determinant is anisotropic at
+  some finite place. The chapter supplies only the reciprocity law to that
+  step and contains no result about $r$-powerful numbers; the section below
+  records the relation.
 
 ## Relation to E940
 
 This source bears on [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
+
+[[../wiki/research/erdos_940/quartic_complement|The E940 quartic-complement note]]
+uses Proposition 14.2.1 and Corollary 14.2.3 directly in its $r=4$ elimination
+lemma. For a positive-definite rational quaternary quadratic form of square
+determinant, the associated quaternion algebra is ramified at the real place;
+Hilbert reciprocity forces ramification at some finite place. This contradicts
+the local isotropy forced by a putative representation in the chosen congruence
+class and is one ingredient in the proposed positive-lower-density complement
+theorem for sums of four 4-powerful numbers. The source supplies the reciprocity
+theorem, not the E940-specific local calculations or density argument.
 
 Write E940’s set as
 
@@ -208,9 +222,9 @@ In particular, Hasse–Minkowski concerns isotropy over a global field, whereas
 E940 imposes integral prime-exponent restrictions on each summand. The passage
 from rational to integral solutions in Theorem 14.3.8 uses a special
 maximal-order argument for three squares and does not extend here to higher
-powers or to $r$-powerful summands. The chapter is therefore background for
-possible local obstructions and norm-form reformulations; its relation to the
-unresolved density problem is indirect and weak.
+powers or to $r$-powerful summands. The paper was therefore consulted as
+background for possible local obstructions and norm-form reformulations; its
+relation to the unresolved density problem is indirect and weak.
 
 No file of this source is held: its CC BY-NC 4.0 license is not an open license
 under the library's holding policy, and the card cites the edition it names

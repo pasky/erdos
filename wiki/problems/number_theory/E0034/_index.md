@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:01:57Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 34
@@ -43,18 +43,18 @@ refutes it. Erdős's own wordings are quoted below: in 1977 the question is
 attributed to Harzheim, and in 1980 the expectation is stated the other way
 round ("Perhaps some permutation of $\{1,2,\ldots,n\}$ has $cn^2$ such
 'interval' sums"). The erdosproblems.com label DISPROVED (LEAN) carries a
-catalog suffix explained under Formalization.
+suffix explained under Formalization.
 
-**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN), a catalog
-label explained under Formalization. Konieczny's Proposition 1.1 (J.
-Combinatorics 12 (2021), 413--477, refereed; arXiv:1504.07156v5) gives, for
-every $n\ge1$, the permutation $1,n,2,n-1,3,n-2,\ldots$ with $S(\pi)\ge n^2/4$.
-So $S(\pi)=o(n^2)$ fails along these permutations. Hegyvári's 1986 Theorem 1
-(claims checked) gives $(1/3+o(1))n$ distinct integers in $[1,n]$ with all
-consecutive sums distinct. Konieczny (Section 1.5) and erdosproblems.com deduce
-from it a permutation with $S(\pi)\ge(1/18+o(1))n^2$, which was the first
-refutation. Hegyvári's paper itself states nothing about permutations. The two
-refutations are recorded as the accepted claim pages
+**Status.** Bloom's catalog labeled the problem DISPROVED (LEAN), an
+erdosproblems.com label explained under Formalization. Konieczny's Proposition
+1.1 (J. Combinatorics 12 (2021), 413--477, refereed; arXiv:1504.07156v5) gives,
+for every $n\ge1$, the permutation $1,n,2,n-1,3,n-2,\ldots$ with
+$S(\pi)\ge n^2/4$. So $S(\pi)=o(n^2)$ fails along these permutations. Hegyvári's
+1986 Theorem 1 (claims checked) gives $(1/3+o(1))n$ distinct integers in $[1,n]$
+with all consecutive sums distinct. Konieczny (Section 1.5) and
+erdosproblems.com deduce from it a permutation with $S(\pi)\ge(1/18+o(1))n^2$,
+which was the first refutation. Hegyvári's paper itself states nothing about
+permutations. The two refutations are recorded as the accepted claim pages
 [[problems/number_theory/E0034/claims/1986_03_01_hegyvari|Hegyvári 1986]] and
 [[problems/number_theory/E0034/claims/2015_04_27_konieczny|Konieczny 2015]].
 
@@ -118,8 +118,8 @@ accessed 2026-09-18.
   Encyclopedia of Integer Sequences, accessed 2026-09-18 as ordinary web
   sources; their terms were not verified here.
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/34.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/34.lean)
 of formal-conjectures, at the commit pinned in the link (the head of main on
 2026-09-18), defines `consecutiveSums n p` as the finset of the sums

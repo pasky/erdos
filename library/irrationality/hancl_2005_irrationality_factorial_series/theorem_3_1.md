@@ -6,7 +6,7 @@ desc: |
   of an plus b for n up to N is rational exactly when an explicit finite
   Stirling-type sum of the coefficients of P vanishes.
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-08T15:38:16Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -46,5 +46,5 @@ if $f:\mathbb{N}\to\mathbb{Z}$ satisfies $f(N)=P(N)+o(N)$ with
 $P\in\mathbb{Q}[x]$ and $\sum f(N)/\prod_{n\le N}(an+b)\in\mathbb{Q}$, then
 $f(N)=P(N)-Q_1$, printed "for all $N$" (see that page for the reading).
 
-**Bears on.** No catalog problem directly; context for
+**Bears on.** No erdosproblems.com problem directly; context for
 [[../wiki/problems/irrationality/E0252/_index|#252]] through Corollary 3.1.

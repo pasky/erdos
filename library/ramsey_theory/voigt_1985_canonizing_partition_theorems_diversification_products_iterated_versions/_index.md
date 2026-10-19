@@ -5,7 +5,7 @@ desc: |
   A focused E0774 digest of Voigt's 1985 canonizing partition theorems.
 license: reserved
 created: 2026-09-18T02:43:17Z
-updated: 2026-10-08T17:25:16Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Canonizing partition theorems: Diversification, products, and iterated versions
@@ -106,7 +106,16 @@ arguesian lattices, and iterated versions of the Erdős–Rado canonization
 theorem and of its $q$-analogue for finite vector spaces (abstract, p. 349).
 Instead of finding only a monochromatic substructure, one passes
 to a structured subsystem on which a coloring with arbitrarily many colors
-induces one of a controlled list of canonical equivalence relations.
+induces one of a controlled list of canonical equivalence relations.  This is potentially suited to product-coordinate
+roots-of-unity gadgets, where relations should be normalized by their pattern
+of active coordinates and intersections.
+
+For E0774 the theorem is a possible middle step, not a conclusion.  A useful
+application must define the encoded objects, identify the canonical cases, and
+show that every bounded coloring yields a monochromatic signed relation while
+a separate argument preserves a uniform dissociated fraction.  Canonization by
+itself gives no density guarantee.
+
 
 **Labels.** The print has two theorems labelled 9 and none labelled 7: the
 canonizing theorem for injections (p. 355) and the diversification theorem
@@ -161,9 +170,11 @@ uses them.
 
 - [[../wiki/problems/integer_sequences/E0774/_index|#774]]: the paper does
   not mention the problem, dissociated sets or subset sums. The problem's
-  page lists this card among its sources. The paper's canonizing results for
-  products and for several levels at once are Theorems 3, 6 and 8; no result
-  of the paper gives a density bound or a dissociated subset.
+  page lists this card among its sources, and the corpus's notes for the
+  problem treat canonization as a possible middle step only (see the digest
+  above). The paper's canonizing results for products and for several levels
+  at once are Theorems 3, 6 and 8; no result of the paper gives a density
+  bound or a dissociated subset.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

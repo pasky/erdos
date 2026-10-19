@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:47Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 457
@@ -126,8 +126,9 @@ T. F. Bloom, Erdős Problem #457, https://www.erdosproblems.com/457, accessed
   time): the table of the least number coprime to every integer in
   $[n+1,n+k]$, read by antidiagonals; accessed 2026-09-18. A data lead only.
 
-**Formalization.** The erdosproblems.com suffix (Lean) is a catalog label; see
-"Formalization and the Lean label" below for the file's contents. The file
+**Formalization.** The erdosproblems.com suffix (Lean) is an erdosproblems.com
+label; see "Formalization and the Lean label" below for the file's contents. The
+file
 [`ErdosProblems/457.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/457.lean)
 of formal-conjectures, at the commit linked (the head of its main branch on
 2026-09-18), declares
@@ -141,11 +142,11 @@ variants are `category research open` with `sorry` bodies:
 prime `q n (Real.log n)` (so the file marks the question solved in one form and
 open in its restatement, an internal inconsistency of the file), and
 `erdos_457.variants.one_sub`, the upper-bound question of Problem 1181. The
-community database (teorth/erdosproblems, accessed 2026-09-18) lists the
-problem as proved, with the Lean marker, as of its last update on 7 March 2026,
-with the statement formalized since 31 August 2025, `formal_status` Lean, OEIS
-A391668 and no formal-proof URL; the erdosproblems.com indicator shows a
-formalized statement. Nothing was built or kernel-checked here.
+community database (teorth/erdosproblems, accessed 2026-09-18) lists the problem
+as proved, with the Lean marker, as of its last update on 7 March 2026, with the
+statement formalized since 31 August 2025, `formal_status` Lean, OEIS A391668
+and no formal-proof URL; the erdosproblems.com indicator shows a formalized
+statement. Nothing was built or kernel-checked here.
 
 ## Current assessment
 
@@ -267,8 +268,8 @@ Wouter van Doorn): the prover connected the existing formalization to the
 collection's statement within minutes, with the file linked (erdosproblems.com
 was updated).
 
-**Formalization and the Lean label.** The erdosproblems.com suffix (Lean) is a
-catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** The erdosproblems.com suffix (Lean) is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `ErdosProblem457.lean` in `Woett/Lean-files` on its `main` branch, not a
 fixed commit. The file at that repository's head on 2026-09-18

@@ -11,14 +11,14 @@ status: solved
 claim: proved
 parts: [distribution, constant]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T20:20:13Z
+updated: 2026-10-19T06:24:13Z
 ---
 
 # Problem 408
 
 [[problems/arithmetic_functions/_index|..]]
 
-[[problems/arithmetic_functions/E0408/claims/_index|claims/]]: The 1 claim page of Problem 408, one per claimant's result; the problem's standing derives from them.
+[[problems/arithmetic_functions/E0408/claims/_index|claims/]]: The 2 claim pages of Problem 408, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -105,7 +105,7 @@ at its commit of 2026-10-14, linked, which states the first two questions as
 `erdos_408.parts.i` and `erdos_408.parts.ii` with `sorry` bodies, leaves the
 third unformalised, and states Pillai's bounds and a theorem of Ford, Konyagin
 and Luca as solved variants. Plasma AI's Lean development
-([plasma-ai/erdos-408](https://github.com/plasma-ai/erdos-408/tree/5b02bf9ab59fd813af8f19c604ba70254fced08d),
+([plasma-ai/erdos-408](https://github.com/plasma-ai/erdos-408/tree/4ea44bf911f8668aec10ec25c4b309e8ed476666),
 linked) proves both, copying the two statements with formal-conjectures'
 density inlined; [[problems/arithmetic_functions/E0408/claims/2026_10_14_plasma_ai|its claim page]]
 records it. This corpus rebuilt it at that commit, checked it with Comparator

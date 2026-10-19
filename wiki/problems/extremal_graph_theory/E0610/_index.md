@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 610
@@ -53,15 +53,15 @@ expect that $\tau_C(G)\le n-f(n)\sqrt n$ holds for some function $f(n)$ tending
 to infinity with $n$"); the second names the order the lower bound allows, since
 a triangle-free graph has $\tau(G)=n-\alpha(G)$ (Lemma 1(b)) and Kim's graphs
 have $\alpha(G)\le9\sqrt{n\log n}$, so $T(n)\ge n-9\sqrt{n\log n}$ for large
-$n$. The erdosproblems.com label PROVED (LEAN) carries a catalog suffix
+$n$. The erdosproblems.com label PROVED (LEAN) carries a suffix
 explained under Formalization.
 
-**Status.** PROVED (LEAN), the erdosproblems.com label, whose suffix is a
-catalog label explained under Formalization. Both displayed questions are
-proved: $T(n)=n-\Theta(\sqrt{n\log n})$. The status-defining source is Corollary
-2 of Joret, Micek, Reed and Smid (Electron. J. Combin. 28 (2021), P3.51,
-refereed and open access). The result and its acceptance evidence are recorded
-on the claim page
+**Status.** PROVED (LEAN), the erdosproblems.com label, whose suffix is an
+erdosproblems.com label explained under Formalization. Both displayed questions
+are proved: $T(n)=n-\Theta(\sqrt{n\log n})$. The status-defining source is
+Corollary 2 of Joret, Micek, Reed and Smid (Electron. J. Combin. 28 (2021),
+P3.51, refereed and open access). The result and its acceptance evidence are
+recorded on the claim page
 [[problems/extremal_graph_theory/E0610/claims/2020_06_19_joret_micek_reed_smid|Joret--Micek--Reed--Smid]],
 from which the frontmatter is derived. The corollary says that every $n$-vertex
 graph has clique chromatic number $O(\sqrt{n/\log n})$, that is, a coloring with
@@ -173,26 +173,26 @@ Erdős Problem #610, https://www.erdosproblems.com/610, accessed 2026-09-19.
   Erdős--Rogers function. arXiv:2607.16118v1 (17 July 2026); named in the
   thread for the same reason; also a lead on Problem 620. Not held.
 
-**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is a
-catalog label with no file in the collection: formal-conjectures has no file
-`ErdosProblems/610.lean` (main, 2026-09-19); the page records no formalized
-statement; the community database (teorth/erdosproblems, `data/problems.yaml`)
-lists `status` "proved (Lean)" as of its record's last update of 7 June 2026,
-`formal_status` Lean with no URL, `formalized` no, and no formal-proof field.
-The development behind the label is the file `erdos610.lean` at
-https://www.ulam.ai/research/erdos610.lean, linked from the thread's 21 April
+**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is an
+erdosproblems.com label with no file in the collection: formal-conjectures has
+no file `ErdosProblems/610.lean` (main, 2026-09-19); the page records no
+formalized statement; the community database (teorth/erdosproblems,
+`data/problems.yaml`) lists `status` "proved (Lean)" as of its record's last
+update of 7 June 2026, `formal_status` Lean with no URL, `formalized` no, and no
+formal-proof field. The development behind the label is the file `erdos610.lean`
+at https://www.ulam.ai/research/erdos610.lean, linked from the thread's 21 April
 2026 post, which describes it as a formalization in Lean by Aristotle with
-external references left as sorries (read 2026-09-19: 336 lines, `import
-Mathlib`). Its header says "This file formalizes the paper resolving Erdős
-Problem #610, showing that `T(n) = n - Θ(√(n log n))`"; it defines
+external references left as sorries (read 2026-09-19: 336 lines,
+`import Mathlib`). Its header says "This file formalizes the paper resolving
+Erdős Problem #610, showing that `T(n) = n - Θ(√(n log n))`"; it defines
 `IsMaxClique2`, `IsCliqueTransversal` and `IsCliqueColoring`, proves
 `transversal_bound_of_coloring` (the color-class transfer) and the triangle-free
 equivalences, states `jmrs_theorem` (a clique coloring with at most
 $A\sqrt{n/\log n}$ colors for large $n$) and `kim_theorem` (a triangle-free
-graph on $n$ vertices with every independent set of size at most $B\sqrt{n\log
-n}$) with the docstring "Their proofs are beyond the scope of this formalization
-and are left as `sorry`", and proves `upper_bound`, `lower_bound` and
-`main_theorem` from them; the file has three occurrences of `sorry` (the two
+graph on $n$ vertices with every independent set of size at most
+$B\sqrt{n\log n}$) with the docstring "Their proofs are beyond the scope of this
+formalization and are left as `sorry`", and proves `upper_bound`, `lower_bound`
+and `main_theorem` from them; the file has three occurrences of `sorry` (the two
 proofs and the docstring), no `#print axioms` line and no `axiom` declaration.
 So it is a derivation of the statement from two declared but unproved theorems,
 not a kernel-checked proof of the statement; the corpus holds no build of it and

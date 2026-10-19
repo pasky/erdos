@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 268
@@ -32,8 +32,8 @@ $$
 as $A\subseteq\mathbb{N}$ ranges over all infinite sets with $\sum_{n\in
 A}\frac{1}{n}<\infty$. Does $X$ contain an open set?
 
-**Status.** Proved. erdosproblems.com showed PROVED (LEAN). The parenthesis is a
-catalog label explained under Formalization. Kovač's Theorem 1
+**Status.** Proved. erdosproblems.com showed PROVED (LEAN). The parenthesis is
+an erdosproblems.com label explained under Formalization. Kovač's Theorem 1
 (arXiv:2405.07681, May 2024; Amer. Math. Monthly 132 (2025), 895--911, refereed)
 proves that $X$ has nonempty interior, which is the question's affirmative
 answer. It is recorded as the accepted claim
@@ -63,23 +63,23 @@ accessed 2026-10-07.
   arXiv:2406.17593v4; *Acta Math. Hungar.* 175 (2025), 572--608,
   DOI 10.1007/s10474-025-01528-0.
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label. The
 [formal-conjectures declaration](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/268.lean)
 `erdos_268` (at the linked commit of 18 September 2026, the last to touch the
-file by 2026-10-07) states the theorem for every dimension
-$d$, that the set of $d$-tuples $(\sum_{n\in A}1/(n+i))_{i<d}$ over infinite
-$A$ with convergent reciprocal sum has nonempty interior, cites Kovač and
-Tao for it, and has a `sorry` body. Its `formal_proof` attribute pins a
-gist at an exact revision whose declaration covers only the
-three-dimensional set, whose header names Matteo Del Vecchio and Aristotle
-(Harmonic) as authors and says that it follows Kovač's paper, and whose
-source uses `native_decide` in one arithmetic step. The thread's first
-comment (13 April 2026) reports this autoformalization from Kovač's paper,
-and its second (26 May 2026) links the repository `Jayyhk/erdos-lean`, where
-the same development appears without `native_decide`. Both files are linked
-from Kovač's claim page as formalizations of its proof, at the linked
-revisions. Neither artifact was built or audited line by line here, so these
-are formal-source records rather than formal-proof credit.
+file by 2026-10-07) states the theorem for every dimension $d$, that the set of
+$d$-tuples $(\sum_{n\in A}1/(n+i))_{i<d}$ over infinite $A$ with convergent
+reciprocal sum has nonempty interior, cites Kovač and Tao for it, and has a
+`sorry` body. Its `formal_proof` attribute pins a gist at an exact revision
+whose declaration covers only the three-dimensional set, whose header names
+Matteo Del Vecchio and Aristotle (Harmonic) as authors and says that it follows
+Kovač's paper, and whose source uses `native_decide` in one arithmetic step. The
+thread's first comment (13 April 2026) reports this autoformalization from
+Kovač's paper, and its second (26 May 2026) links the repository
+`Jayyhk/erdos-lean`, where the same development appears without `native_decide`.
+Both files are linked from Kovač's claim page as formalizations of its proof, at
+the linked revisions. Neither artifact was built or audited line by line here,
+so these are formal-source records rather than formal-proof credit.
 
 ## Current assessment
 

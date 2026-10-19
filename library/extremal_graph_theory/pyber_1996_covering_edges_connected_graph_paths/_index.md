@@ -1,17 +1,16 @@
 ---
 name: extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths
 desc: |
-  Pyber's 1996 paper on Gallai's path conjecture: Theorem 0, a graph in
-  which every cycle contains a vertex of odd degree (the even-degree
-  vertices induce a forest) is covered by floor(n/2) edge-disjoint paths,
-  shown best possible by K_{2m+1} minus m-1 independent edges, an odd
-  semi-clique; Theorem I, every connected graph on n vertices is covered by
-  n/2 + O(n^(3/4)) paths that may share edges; Theorem II, n/2 + 4e/n paths
-  for e edges; and the example showing that no asymptotic form of Gallai's
-  conjecture is weaker than the conjecture.
+  Pyber's 1996 paper on Gallai's path conjecture: Theorem 0, a graph in which
+  every cycle contains a vertex of odd degree is covered by floor(n/2)
+  edge-disjoint paths, shown best possible by K_{2m+1} minus m-1 independent
+  edges, an odd semi-clique; Theorem I, every connected graph on n vertices is
+  covered by n/2 + O(n^(3/4)) paths that may share edges; Theorem II,
+  n/2 + 4e/n paths for e edges; and the example showing that no asymptotic
+  form of Gallai's conjecture is weaker than the conjecture.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T14:36:14Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths

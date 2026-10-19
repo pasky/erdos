@@ -3,7 +3,7 @@ name: analysis
 title: "Analysis"
 desc: "Sources filed under Analysis, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:28:39Z
+updated: 2026-10-17T04:03:50Z
 ---
 
 # Analysis
@@ -55,6 +55,10 @@ of the collection.
 
 [[analysis/borichev_et_al_2017_spectra_stationary_processes_z/_index|borichev_et_al_2017_spectra_stationary_processes_z/]]: Proves finite-valued stationary processes with a spectral gap are periodic,
 and records the exact limits of that rigidity method for E1150.
+
+[[analysis/bourgain_1985_sidon_sets_riesz_products/_index|bourgain_1985_sidon_sets_riesz_products/]]: Bourgain characterizes harmonic-analysis Sidon sets using
+quasi-independent subsets that retain a fixed proportion of scalar
+weight, and develops interpolation by Riesz products.
 
 [[analysis/bourgain_1986_sur_le_minimum_d_une_somme/_index|bourgain_1986_sur_le_minimum_d_une_somme/]]: Proves that a cosine sum with 0-1 Fourier coefficients and N frequencies has
 negative part of sup-norm at least super-logarithmic in N.
@@ -271,6 +275,15 @@ from the continuous-summand formulation of Problem 908.
 [[analysis/laczkovich_1984_kemperman_s_inequality/_index|laczkovich_1984_kemperman_s_inequality/]]: Gives the full finite-difference and continued-fraction proof that
 Kemperman’s inequality forces nondecreasing real functions.
 
+[[analysis/lahti_2018_federer_characterization_finite_perimeter/_index|lahti_2018_federer_characterization_finite_perimeter/]]: Extends Federer's finite-perimeter criterion to complete doubling metric
+measure spaces supporting a Poincare inequality. Its Euclidean criterion,
+boundary definition and perimeter representation supply the implication
+from an empty measure-theoretic boundary to an almost-everywhere constant
+two-coloring in the approach to Problem 173.
+
+[[analysis/larcher_2014_star_discrepancy_sequences_unit_interval/_index|larcher_2014_star_discrepancy_sequences_unit_interval/]]: A star-discrepancy lower bound whose finite-list proof interface has been
+inspected; rounding and the full consecutive-gap application remain open.
+
 [[analysis/lefevre_et_al_2009_thin_sets_integers_harmonic_analysis_p_stable_random_fourier_series/_index|lefevre_et_al_2009_thin_sets_integers_harmonic_analysis_p_stable_random_fourier_series/]]: Relates Sidon, Rider, and quasi-independent extraction estimates to the
 proportional-dissociation formulation of E0774.
 
@@ -300,6 +313,12 @@ construction on a finite ordered tree of dyadic grids; bears on Problem 120.
 [[analysis/oriike_2026_negative_answer_universal_function_version_erdos/_index|oriike_2026_negative_answer_universal_function_version_erdos/]]: Shows no fixed comparison function forces every transcendental entire
 function to have a path where its modulus outgrows that function of the
 maximum modulus.
+
+[[analysis/pendyala_2026_radial_access_lemniscates/_index|pendyala_2026_radial_access_lemniscates/]]: Claims that every monic polynomial of degree at most three with all zeros
+in the closed unit disk has a whole radius from 0 to the unit circle on
+which its modulus is at most 1, while an explicit degree-six one, certified
+by exact rational inequalities, has none; so the least degree at which such
+a radius can fail to exist is 4, 5 or 6.
 
 [[analysis/pendyala_2026_shortest_paths_polynomial_lemniscate_sublevel_sets/_index|pendyala_2026_shortest_paths_polynomial_lemniscate_sublevel_sets/]]: Claims bounds of order root log n from below and pi times n from above for
 the extremal escape-path length in a lemniscate problem of Erdős.
@@ -380,6 +399,8 @@ Explicit links to this subject's problems support these cross-references.
 
 - [[additive_bases/kolountzakis_1996_density_b_h_g_sequences_minimum/_index|kolountzakis_1996_density_b_h_g_sequences_minimum]]
   - [[../wiki/problems/analysis/E0510/_index|E0510]]
+- [[discrepancy/bilyk_2011_roth_orthogonal_function_method/_index|bilyk_2011_roth_orthogonal_function_method]]
+  - [[../wiki/problems/analysis/E1221/_index|E1221]]
 - [[discrepancy/erdos_1964_problems_results_diophantine_approximations/_index|erdos_1964_problems_results_diophantine_approximations]]
   - [[../wiki/problems/analysis/E0996/_index|E0996]]
 - [[discrete_geometry/alexeev_2026_short_proofs_combinatorics_probability_number_theory/_index|alexeev_2026_short_proofs_combinatorics_probability_number_theory]]

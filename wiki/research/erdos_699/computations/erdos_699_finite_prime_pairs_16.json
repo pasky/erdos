@@ -1,0 +1,1189 @@
+{
+  "scope": "Exact finite prime-power certificates used in the index-16 exclusion.",
+  "records": [
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "height_cap_power_of_ten": 976,
+      "maximum_difference": 24,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 5104,
+      "p_power_count": 3242,
+      "q_power_count": 2045,
+      "exponent_pairs_considered": 6615234,
+      "exponent_pairs_after_safe_filter": 2215262,
+      "signed_differences_considered": 106332576,
+      "exact_candidate_tests": 30,
+      "exception_count": 30,
+      "exceptions": [
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 5,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 27,
+          "larger_height": 32
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 4,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 10,
+          "p_cofactor": 2,
+          "q_cofactor": 2,
+          "smaller_height": 54,
+          "larger_height": 64
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -12,
+          "p_cofactor": 3,
+          "q_cofactor": 4,
+          "smaller_height": 96,
+          "larger_height": 108
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 15,
+          "p_cofactor": 3,
+          "q_cofactor": 3,
+          "smaller_height": 81,
+          "larger_height": 96
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -17,
+          "p_cofactor": 2,
+          "q_cofactor": 3,
+          "smaller_height": 64,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 20,
+          "p_cofactor": 4,
+          "q_cofactor": 4,
+          "smaller_height": 108,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -22,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 32,
+          "larger_height": 54
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 2,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 10,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 54,
+          "larger_height": 64
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": -17,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 64,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 20,
+          "p_cofactor": 2,
+          "q_cofactor": 4,
+          "smaller_height": 108,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 1,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 20,
+          "p_cofactor": 1,
+          "q_cofactor": 4,
+          "smaller_height": 108,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 4,
+          "signed_difference": -2,
+          "p_cofactor": 5,
+          "q_cofactor": 2,
+          "smaller_height": 160,
+          "larger_height": 162
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 4,
+          "signed_difference": 15,
+          "p_cofactor": 3,
+          "q_cofactor": 1,
+          "smaller_height": 81,
+          "larger_height": 96
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 4,
+          "signed_difference": -17,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 64,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -4,
+          "p_cofactor": 5,
+          "q_cofactor": 4,
+          "smaller_height": 320,
+          "larger_height": 324
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": 13,
+          "p_cofactor": 4,
+          "q_cofactor": 3,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -17,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 64,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -21,
+          "p_cofactor": 6,
+          "q_cofactor": 5,
+          "smaller_height": 384,
+          "larger_height": 405
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -8,
+          "p_cofactor": 5,
+          "q_cofactor": 8,
+          "smaller_height": 640,
+          "larger_height": 648
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": 13,
+          "p_cofactor": 2,
+          "q_cofactor": 3,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -21,
+          "p_cofactor": 3,
+          "q_cofactor": 5,
+          "smaller_height": 384,
+          "larger_height": 405
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 4,
+          "signed_difference": 13,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 5,
+          "signed_difference": 13,
+          "p_cofactor": 4,
+          "q_cofactor": 1,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "signed_difference": 13,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 5,
+          "signed_difference": 13,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 6,
+          "signed_difference": 17,
+          "p_cofactor": 10,
+          "q_cofactor": 7,
+          "smaller_height": 5103,
+          "larger_height": 5120
+        },
+        {
+          "p_exponent": 10,
+          "q_exponent": 6,
+          "signed_difference": 17,
+          "p_cofactor": 5,
+          "q_cofactor": 7,
+          "smaller_height": 5103,
+          "larger_height": 5120
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "height_cap_power_of_ten": 976,
+      "maximum_difference": 24,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 59376,
+      "p_power_count": 3242,
+      "q_power_count": 1396,
+      "exponent_pairs_considered": 4517010,
+      "exponent_pairs_after_safe_filter": 1512398,
+      "signed_differences_considered": 72595104,
+      "exact_candidate_tests": 32,
+      "exception_count": 32,
+      "exceptions": [
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": -4,
+          "p_cofactor": 3,
+          "q_cofactor": 4,
+          "smaller_height": 96,
+          "larger_height": 100
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": 7,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 25,
+          "larger_height": 32
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": -11,
+          "p_cofactor": 2,
+          "q_cofactor": 3,
+          "smaller_height": 64,
+          "larger_height": 75
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": 14,
+          "p_cofactor": 2,
+          "q_cofactor": 2,
+          "smaller_height": 50,
+          "larger_height": 64
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": -18,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 32,
+          "larger_height": 50
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": 21,
+          "p_cofactor": 3,
+          "q_cofactor": 3,
+          "smaller_height": 75,
+          "larger_height": 96
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 2,
+          "signed_difference": -11,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 64,
+          "larger_height": 75
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 2,
+          "signed_difference": 14,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 50,
+          "larger_height": 64
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 3,
+          "p_cofactor": 4,
+          "q_cofactor": 1,
+          "smaller_height": 125,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 3,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 125,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 6,
+          "p_cofactor": 4,
+          "q_cofactor": 2,
+          "smaller_height": 250,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 9,
+          "p_cofactor": 6,
+          "q_cofactor": 3,
+          "smaller_height": 375,
+          "larger_height": 384
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 3,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 125,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 6,
+          "p_cofactor": 2,
+          "q_cofactor": 2,
+          "smaller_height": 250,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 9,
+          "p_cofactor": 3,
+          "q_cofactor": 3,
+          "smaller_height": 375,
+          "larger_height": 384
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 12,
+          "p_cofactor": 4,
+          "q_cofactor": 4,
+          "smaller_height": 500,
+          "larger_height": 512
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 15,
+          "p_cofactor": 5,
+          "q_cofactor": 5,
+          "smaller_height": 625,
+          "larger_height": 640
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 18,
+          "p_cofactor": 6,
+          "q_cofactor": 6,
+          "smaller_height": 750,
+          "larger_height": 768
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 21,
+          "p_cofactor": 7,
+          "q_cofactor": 7,
+          "smaller_height": 875,
+          "larger_height": 896
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 24,
+          "p_cofactor": 8,
+          "q_cofactor": 8,
+          "smaller_height": 1000,
+          "larger_height": 1024
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 3,
+          "signed_difference": 6,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 250,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 3,
+          "signed_difference": 12,
+          "p_cofactor": 2,
+          "q_cofactor": 4,
+          "smaller_height": 500,
+          "larger_height": 512
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 3,
+          "signed_difference": 18,
+          "p_cofactor": 3,
+          "q_cofactor": 6,
+          "smaller_height": 750,
+          "larger_height": 768
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 3,
+          "signed_difference": 24,
+          "p_cofactor": 4,
+          "q_cofactor": 8,
+          "smaller_height": 1000,
+          "larger_height": 1024
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 3,
+          "signed_difference": 12,
+          "p_cofactor": 1,
+          "q_cofactor": 4,
+          "smaller_height": 500,
+          "larger_height": 512
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 3,
+          "signed_difference": 24,
+          "p_cofactor": 2,
+          "q_cofactor": 8,
+          "smaller_height": 1000,
+          "larger_height": 1024
+        },
+        {
+          "p_exponent": 10,
+          "q_exponent": 3,
+          "signed_difference": 24,
+          "p_cofactor": 1,
+          "q_cofactor": 8,
+          "smaller_height": 1000,
+          "larger_height": 1024
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": 15,
+          "p_cofactor": 5,
+          "q_cofactor": 1,
+          "smaller_height": 625,
+          "larger_height": 640
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 4,
+          "signed_difference": 7,
+          "p_cofactor": 11,
+          "q_cofactor": 9,
+          "smaller_height": 5625,
+          "larger_height": 5632
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 4,
+          "signed_difference": 14,
+          "p_cofactor": 22,
+          "q_cofactor": 18,
+          "smaller_height": 11250,
+          "larger_height": 11264
+        },
+        {
+          "p_exponent": 10,
+          "q_exponent": 4,
+          "signed_difference": 14,
+          "p_cofactor": 11,
+          "q_cofactor": 18,
+          "smaller_height": 11250,
+          "larger_height": 11264
+        },
+        {
+          "p_exponent": 11,
+          "q_exponent": 5,
+          "signed_difference": 17,
+          "p_cofactor": 29,
+          "q_cofactor": 19,
+          "smaller_height": 59375,
+          "larger_height": 59392
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "height_cap_power_of_ten": 976,
+      "maximum_difference": 24,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 87481,
+      "p_power_count": 2045,
+      "q_power_count": 1396,
+      "exponent_pairs_considered": 2849985,
+      "exponent_pairs_after_safe_filter": 953347,
+      "signed_differences_considered": 45760656,
+      "exact_candidate_tests": 31,
+      "exception_count": 30,
+      "exceptions": [
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 2,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 25,
+          "larger_height": 27
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 4,
+          "p_cofactor": 2,
+          "q_cofactor": 2,
+          "smaller_height": 50,
+          "larger_height": 54
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 6,
+          "p_cofactor": 3,
+          "q_cofactor": 3,
+          "smaller_height": 75,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 8,
+          "p_cofactor": 4,
+          "q_cofactor": 4,
+          "smaller_height": 100,
+          "larger_height": 108
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": -19,
+          "p_cofactor": 3,
+          "q_cofactor": 4,
+          "smaller_height": 81,
+          "larger_height": 100
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": -21,
+          "p_cofactor": 2,
+          "q_cofactor": 3,
+          "smaller_height": 54,
+          "larger_height": 75
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": -23,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 27,
+          "larger_height": 50
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": 6,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 75,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": -19,
+          "p_cofactor": 1,
+          "q_cofactor": 4,
+          "smaller_height": 81,
+          "larger_height": 100
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 3,
+          "signed_difference": -17,
+          "p_cofactor": 4,
+          "q_cofactor": 1,
+          "smaller_height": 108,
+          "larger_height": 125
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 3,
+          "q_cofactor": 2,
+          "smaller_height": 243,
+          "larger_height": 250
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 3,
+          "signed_difference": -14,
+          "p_cofactor": 6,
+          "q_cofactor": 4,
+          "smaller_height": 486,
+          "larger_height": 500
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 3,
+          "signed_difference": 23,
+          "p_cofactor": 8,
+          "q_cofactor": 5,
+          "smaller_height": 625,
+          "larger_height": 648
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 243,
+          "larger_height": 250
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -14,
+          "p_cofactor": 2,
+          "q_cofactor": 4,
+          "smaller_height": 486,
+          "larger_height": 500
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -21,
+          "p_cofactor": 3,
+          "q_cofactor": 6,
+          "smaller_height": 729,
+          "larger_height": 750
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": -21,
+          "p_cofactor": 1,
+          "q_cofactor": 6,
+          "smaller_height": 729,
+          "larger_height": 750
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 4,
+          "signed_difference": 23,
+          "p_cofactor": 8,
+          "q_cofactor": 1,
+          "smaller_height": 625,
+          "larger_height": 648
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -1,
+          "p_cofactor": 6,
+          "q_cofactor": 7,
+          "smaller_height": 4374,
+          "larger_height": 4375
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -2,
+          "p_cofactor": 12,
+          "q_cofactor": 14,
+          "smaller_height": 8748,
+          "larger_height": 8750
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -3,
+          "p_cofactor": 18,
+          "q_cofactor": 21,
+          "smaller_height": 13122,
+          "larger_height": 13125
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -1,
+          "p_cofactor": 2,
+          "q_cofactor": 7,
+          "smaller_height": 4374,
+          "larger_height": 4375
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -2,
+          "p_cofactor": 4,
+          "q_cofactor": 14,
+          "smaller_height": 8748,
+          "larger_height": 8750
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -3,
+          "p_cofactor": 6,
+          "q_cofactor": 21,
+          "smaller_height": 13122,
+          "larger_height": 13125
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 4,
+          "signed_difference": -3,
+          "p_cofactor": 2,
+          "q_cofactor": 21,
+          "smaller_height": 13122,
+          "larger_height": 13125
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "signed_difference": -5,
+          "p_cofactor": 10,
+          "q_cofactor": 7,
+          "smaller_height": 21870,
+          "larger_height": 21875
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "signed_difference": -10,
+          "p_cofactor": 20,
+          "q_cofactor": 14,
+          "smaller_height": 43740,
+          "larger_height": 43750
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "signed_difference": -15,
+          "p_cofactor": 30,
+          "q_cofactor": 21,
+          "smaller_height": 65610,
+          "larger_height": 65625
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "signed_difference": -20,
+          "p_cofactor": 40,
+          "q_cofactor": 28,
+          "smaller_height": 87480,
+          "larger_height": 87500
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 5,
+          "signed_difference": -15,
+          "p_cofactor": 10,
+          "q_cofactor": 21,
+          "smaller_height": 65610,
+          "larger_height": 65625
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "height_cap_power_of_ten": 976,
+      "maximum_difference": 24,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 5832,
+      "p_power_count": 2045,
+      "q_power_count": 1154,
+      "exponent_pairs_considered": 2355579,
+      "exponent_pairs_after_safe_filter": 788146,
+      "signed_differences_considered": 37831008,
+      "exact_candidate_tests": 12,
+      "exception_count": 12,
+      "exceptions": [
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 5,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 49,
+          "larger_height": 54
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 10,
+          "p_cofactor": 4,
+          "q_cofactor": 2,
+          "smaller_height": 98,
+          "larger_height": 108
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": -12,
+          "p_cofactor": 5,
+          "q_cofactor": 3,
+          "smaller_height": 135,
+          "larger_height": 147
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": -17,
+          "p_cofactor": 3,
+          "q_cofactor": 2,
+          "smaller_height": 81,
+          "larger_height": 98
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": -22,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 27,
+          "larger_height": 49
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": -2,
+          "p_cofactor": 3,
+          "q_cofactor": 5,
+          "smaller_height": 243,
+          "larger_height": 245
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": 15,
+          "p_cofactor": 2,
+          "q_cofactor": 3,
+          "smaller_height": 147,
+          "larger_height": 162
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": -17,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 81,
+          "larger_height": 98
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": -2,
+          "p_cofactor": 1,
+          "q_cofactor": 5,
+          "smaller_height": 243,
+          "larger_height": 245
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 3,
+          "signed_difference": -19,
+          "p_cofactor": 4,
+          "q_cofactor": 1,
+          "smaller_height": 324,
+          "larger_height": 343
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -14,
+          "p_cofactor": 7,
+          "q_cofactor": 5,
+          "smaller_height": 1701,
+          "larger_height": 1715
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 1,
+          "p_cofactor": 8,
+          "q_cofactor": 17,
+          "smaller_height": 5831,
+          "larger_height": 5832
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "height_cap_power_of_ten": 976,
+      "maximum_difference": 24,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 3751,
+      "p_power_count": 1396,
+      "q_power_count": 1154,
+      "exponent_pairs_considered": 1608435,
+      "exponent_pairs_after_safe_filter": 538090,
+      "signed_differences_considered": 25828320,
+      "exact_candidate_tests": 8,
+      "exception_count": 8,
+      "exceptions": [
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": 1,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 49,
+          "larger_height": 50
+        },
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": 2,
+          "p_cofactor": 4,
+          "q_cofactor": 2,
+          "smaller_height": 98,
+          "larger_height": 100
+        },
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": -23,
+          "p_cofactor": 3,
+          "q_cofactor": 2,
+          "smaller_height": 75,
+          "larger_height": 98
+        },
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": -24,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 25,
+          "larger_height": 49
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 5,
+          "p_cofactor": 2,
+          "q_cofactor": 5,
+          "smaller_height": 245,
+          "larger_height": 250
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": -22,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 125,
+          "larger_height": 147
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 3,
+          "signed_difference": 3,
+          "p_cofactor": 11,
+          "q_cofactor": 4,
+          "smaller_height": 1372,
+          "larger_height": 1375
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 3,
+          "signed_difference": -23,
+          "p_cofactor": 6,
+          "q_cofactor": 11,
+          "smaller_height": 3750,
+          "larger_height": 3773
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        7,
+        13
+      ],
+      "height_cap_power_of_ten": 914,
+      "maximum_difference": 15,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 1015,
+      "p_power_count": 1081,
+      "q_power_count": 820,
+      "exponent_pairs_considered": 884520,
+      "exponent_pairs_after_safe_filter": 296179,
+      "signed_differences_considered": 8885370,
+      "exact_candidate_tests": 3,
+      "exception_count": 3,
+      "exceptions": [
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 5,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 338,
+          "larger_height": 343
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 10,
+          "p_cofactor": 2,
+          "q_cofactor": 4,
+          "smaller_height": 676,
+          "larger_height": 686
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 15,
+          "p_cofactor": 3,
+          "q_cofactor": 6,
+          "smaller_height": 1014,
+          "larger_height": 1029
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        11,
+        13
+      ],
+      "height_cap_power_of_ten": 914,
+      "maximum_difference": 15,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 846,
+      "p_power_count": 877,
+      "q_power_count": 820,
+      "exponent_pairs_considered": 717444,
+      "exponent_pairs_after_safe_filter": 240308,
+      "signed_differences_considered": 7209240,
+      "exact_candidate_tests": 1,
+      "exception_count": 1,
+      "exceptions": [
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": 2,
+          "p_cofactor": 7,
+          "q_cofactor": 5,
+          "smaller_height": 845,
+          "larger_height": 847
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    }
+  ]
+}

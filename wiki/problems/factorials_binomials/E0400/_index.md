@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 400
@@ -107,6 +107,33 @@ that decide nothing about the limit.
 abstract query for "Problem 400" (Li's preprint only); the library cards of
 the three sources above. [ErGr80] p. 77 was not read; its remark is cited as
 erdosproblems.com gives it. Not searched: MathSciNet, zbMATH, Google Scholar, X.
+
+## Finite reductions and uniformity requirements
+
+For nonnegative factorial arguments, put $v=\sum_i a_i-n$. Exact Legendre
+valuations give
+
+$$
+\prod_i a_i!\mid n!
+\quad\Longleftrightarrow\quad
+v\le\sum_i s_p(a_i)-s_p(n)\quad\text{for every prime }p.
+$$
+
+Checking only $p=2$ is insufficient: $3!3!=36$ passes the binary valuation test
+against $5!=120$ but fails at $p=3$. The upper proof in
+[[../library/factorials_binomials/li_2026_prime_power_rarefaction_density_one_lower/_index|Li's
+source]] was followed; its density-one lower theorem was inspected only at
+statement and structural depth. Their coefficients $3(k-1)/\log12$ and
+$(k-1)/\log2$ remain separated.
+
+The normal-order assertion would imply the mean assertion. The uniform bound
+$0\le g_k(n)\ll_k\log X$ makes any $o(X)$ exceptional inputs contribute
+$o(X\log X)$. On the others, an error at most $\eta\log X$ contributes at most
+$\eta X\log X$; let $\eta\downarrow0$. The same reasoning works for a normal
+order using $\log n$, after discarding $n<X^{1-\eta}$. This author deduction
+does not prove the converse or concentration. A useful construction must
+satisfy all prime inequalities simultaneously.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

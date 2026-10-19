@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 463
@@ -43,9 +43,21 @@ https://www.erdosproblems.com/463.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/463.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Define $D(n)$ as the largest integer $d\ge1$ with $n+d$ composite and
+$d<p(n+d)$, or zero if none exists. The least-prime-factor bound
+$p(n+d)\le\sqrt{n+d}$ gives $d^2-d<n$, so each $D(n)$ is determined by a finite
+window. The question is equivalent to $D(n)\to\infty$: if that holds take
+$f(n)=D(n)/2$ eventually; the forward implication follows from each required
+witness.
+
+[[../library/primes/gafni_2025_rough_numbers_between_consecutive_primes/_index|Gafni–Tao's
+Theorem 1.1]], inspected at statement depth, gives $D(p_j)\ge1$ at almost all
+prime-gap left endpoints, not every $n$ or a diverging displacement. The
+explicit subsequence $n=q^2-q+1$, $q$ prime, has $D(n)\ge q-1$ using $m=q^2$,
+but only proves unbounded limsup. These author deductions identify the missing
+uniform quantifier; no finite diagnostic or subsequence settles it.
 
 ## Known Results
 

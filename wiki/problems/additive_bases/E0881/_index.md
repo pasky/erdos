@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 881
@@ -64,13 +64,24 @@ https://www.erdosproblems.com/881.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/881.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The at-most-$k$ formulation above is unresolved for $k\ge2$ in this account.
+The rejected exact-$k$ manuscript does not remove its convention gap.
+The case $k=1$ has an elementary positive answer, without needing the minimality
+hypothesis. An asymptotic basis of order at most one is cofinite. Remove an
+infinite density-zero subset $B\subset A$, for example all sufficiently large
+squares, and put $C=A\setminus B$. Then $C$ has density one. For all large
+$n$, both $C\cap[0,n]$ and $n-(C\cap[0,n])$ have more than $(n+1)/2$
+elements in $[0,n]$ and therefore intersect. The intersection gives $n=c+c'$
+with $c,c'\in C$, so $C$ is a basis of order at most two.
 
-## Known Results
-
-Not yet compiled.
+This author-recorded argument by Plasma AI settles only that elementary case. For higher orders,
+adjoining zero can identify the coverage predicates, but it does not
+establish that a minimality or infinite-deletion obstruction survives. A useful
+transfer must prove those hypotheses as well. The mathematical account here
+uses the existing formulation and rejection record; it is not an independent
+review of the manuscript or a new comprehensive status search.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

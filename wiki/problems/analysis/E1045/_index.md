@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1045
@@ -150,6 +150,11 @@ three pendant edges. The one thread comment notes that the problem asks for
 every $n$. Bloom's catalog labeled the problem OPEN (page last edited 02 April
 2026), and the claim is recorded as a partial claim on
 [[problems/analysis/E1045/claims/2026_09_22_hu|its page]].
+
+**A deduction and its scope.**
+[[research/erdos_1045/diameter_product_normalization|Ordered distance products and odd polygon scaling]] gives the author-recorded
+argument and source boundaries: exact calculations check the four-point improvement and the radius needed for a diameter-two regular odd polygon, without certifying further global optimizers.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 910
@@ -100,9 +100,9 @@ https://www.erdosproblems.com/910.
 ## Current assessment
 
 Rudin’s theorem gives, under CH, a nondegenerate connected planar set with at
-most $\mathfrak c$ connected subsets, of dimension one, and its construction
-has not been reconstructed. Nothing on this page removes CH from Rudin’s
-theorem or settles either question of the modified Statement in full.
+most $\mathfrak c$ connected subsets, of dimension one, and its construction has
+not been reconstructed. Nothing on this page removes CH from Rudin’s theorem or
+settles either question of the modified Statement.
 
 The source statements below are recorded at the stated scopes; complete source
 proofs remain uncompiled. See
@@ -116,6 +116,9 @@ Primary sources:
 PDF page numbers on this page index these files.
 
 No separate wider status-search date or scope is recorded on this page.
+
+The dimension argument in Progress is author-recorded, and no retained record
+reviews it.
 
 ## Progress
 
@@ -133,17 +136,34 @@ at-most-countable subsets of $M$. The map $N\mapsto M\setminus N$ is injective,
 so there are at most $\mathfrak c$ nondegenerate connected subsets of $M$.
 Singletons add at most $\mathfrak c$ more subsets, and allowing the empty set
 does not change the bound. Under CH, therefore, the erdosproblems.com wording of
-the second question fails already in ambient dimension two.
+the second question fails already in ambient dimension two. The corrected
+question also needs $M$ to have dimension greater than one, and $M$ has
+dimension one, as the next paragraph shows, so the bound says nothing about the
+corrected question.
 
-The corrected second question is not touched, because $M$ has dimension one,
-not greater than one. If $M$ contained an open disc $U$, a closed disc
-$D\subset U$ would be a nondegenerate connected subset with
-$M\setminus D\supseteq U\setminus D$ uncountable, against the theorem; so $M$
-has empty interior in $\mathbb R^2$. A subset of $\mathbb R^2$ has dimension
-$2$ only if it has interior (W. Hurewicz and H. Wallman, *Dimension Theory*,
-Princeton, 1941, Chapter IV), and a nondegenerate connected set is not
-zero-dimensional, so $\dim M=1$, and so is the dimension of its copies in
-$\mathbb R^n$. Rudin's paper does not discuss dimension.
+Rudin's set $M$ has dimension one. Dimension here is topological dimension, as
+in Hurewicz and Wallman: homeomorphic spaces have the same dimension, and no
+subspace exceeds the dimension of its space. A space of dimension zero with
+points $p\ne q$ has a set both open and closed that contains $p$ and has
+diameter below the distance from $p$ to $q$, which separates the space; $M$ is
+connected and nondegenerate, so its dimension is at least one. $M$ contains no
+open disc, since a disc $D\subseteq M$ would contain a segment $N$, a
+nondegenerate connected subset of $M$ with $M\setminus N\supseteq D\setminus N$
+uncountable, against Rudin's theorem. A subset of the plane has dimension at
+most two, and dimension two only if it contains a nonempty open set of the plane
+(Engelking, Dimension Theory, Theorem 1.8.10; Hurewicz and Wallman, Theorem
+IV 3), so $M$ has dimension at most one. The upper bound also follows from
+Rudin's definition of the continuum $I\supseteq M$ alone, without the theorem.
+By conditions 1.1 (1) and 1.2 (5) of [Ru58], links of a chain meet only when
+adjacent and the links of $\Gamma_n$ have diameter below $1/n$, so the sets
+$L\cap I$, $L$ a link of $\Gamma_n$, form a finite closed cover of $I$ of mesh
+below $1/n$ in which no point lies in three members. Thickening each member by a
+small amount, less than half the least distance between disjoint members, keeps
+disjoint members disjoint, so $I$ has arbitrarily fine finite open covers in
+which no point lies in three members, and $I$, with it $M$, has dimension at
+most one. Every homeomorphic copy of $M$ in $\mathbb R^n$ therefore has
+dimension one, and none satisfies the hypothesis of the corrected second
+question.
 
 The first clause requires a separate transfer. Rudin's direct citation is to
 Erdős's *Some remarks on connected sets*, Bull. Amer. Math. Soc. 50 (1944),
@@ -159,7 +179,8 @@ The 1944 cardinality question is a variant. The 1944 paper, printed p.446 /
 physical p.5, asks for $2^{\mathfrak c}$ connected subsets when the connected
 set itself has dimension greater than one. The corrected second question
 keeps that hypothesis and asks, with Erdős 1982, for more than $\mathfrak c$
-subsets, a weaker conclusion.
+subsets, a weaker conclusion. Rudin's set has dimension one, so it bears on
+neither form.
 
 Erdős's *Some of my favourite problems which recently have been solved* (1982),
 §4, printed p.77 / physical p.19, lists the non-homeomorphism question and a
@@ -176,6 +197,11 @@ Erdős 1944 p.443; that external proof is not independently reviewed here.
 Rudin's printed p.24 / physical p.6 is §4, proving connectedness and the
 countable-complement property of her main construction, not the separate
 optimality remark.
+
+**A deduction and its scope.**
+[[research/erdos_910/product_thickening_obstruction|Product thickening creates many connected subsets]] gives the author-recorded
+argument and source boundaries: a nondegenerate connected planar set times an interval has a connected dense core and freely attachable boundary fiber, giving two to the continuum connected subsets.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,0 +1,31 @@
+{
+  "scope": "Proof-pattern enumeration; no binomial rows searched.",
+  "distinct_position_assignments": 7920,
+  "cofactor_vectors": 8,
+  "certified_patterns": 63360,
+  "minimum_gain": "7/100",
+  "algebraic_cap": "10^484",
+  "full_cap": "max(10^484, X_11 + 10)",
+  "source_threshold": "X_11 is the unchanged effective BFT threshold.",
+  "worst_log10_bound_upper": "483.776811804819051899087375144473979244506649015707539907192",
+  "worst_positions_in_prime_order": [
+    3,
+    0,
+    2,
+    1
+  ],
+  "worst_vector_scaled": [
+    2921,
+    0,
+    2667,
+    505
+  ],
+  "worst_off_maximum_exponents": [
+    41,
+    29,
+    7,
+    6
+  ],
+  "minimum_scaled_log_margin": "359.736867809127621211355688173920429142252555418570930559",
+  "decimal_precision": 60
+}

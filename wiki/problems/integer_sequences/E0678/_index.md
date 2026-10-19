@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 678
@@ -57,9 +57,9 @@ triple, and there are infinitely many. The ratio can also exceed any constant.
 The preprint has no journal acceptance found on 2026-09-18. erdosproblems.com
 accepted it (PROVED (LEAN), 11 January 2026), and an external Lean formalization
 of the theorem accompanies it. That formalization imports an external project
-for the prime number theorem. The suffix is a catalog label explained under
-Formalization and the Lean label, and no local kernel credit is claimed. The
-claim page is
+for the prime number theorem. The suffix is an erdosproblems.com label explained
+under Formalization and the Lean label, and no local kernel credit is claimed.
+The claim page is
 [[problems/integer_sequences/E0678/claims/2024_10_11_cambie|Cambie 2024]],
 accepted on erdosproblems.com's documented acceptance and not refereed.
 
@@ -107,9 +107,9 @@ lemma's docstring prints $M(48,9)$ where its statement, correctly, has
 $47$; recomputed here). The community database, read 2026-09-18, records
 the problem as proved since 7 January 2026, `formal_status` Lean, the
 statement formalized since 31 August 2025, no formal-proof URL and OEIS
-"possible". erdosproblems.com's "(Lean)" suffix is a catalog label; the external
-file is described under "Formalization and the Lean label" below and was
-not built here.
+"possible". erdosproblems.com's "(Lean)" suffix is an erdosproblems.com label;
+the external file is described under "Formalization and the Lean label" below
+and was not built here.
 
 ## Current assessment
 
@@ -203,8 +203,8 @@ until a refereed version or an independent review appears. The paper's
 Conjecture 2 (the larger block with $C$ extra elements) and Question 3 (a
 Chinese-remainder density statement implying it) remain open per the paper.
 
-**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is a
-catalog label. The formal-conjectures file's three `formal_proof`
+**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is an
+erdosproblems.com label. The formal-conjectures file's three `formal_proof`
 attributes name `src/latest/ErdosProblems/Erdos678.lean` of
 `plby/lean-proofs` at its commit of 1 August 2026, the version the claim
 page links (the repository's head on 2026-09-18 dated from 2026-09-15); that

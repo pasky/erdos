@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1013
@@ -49,13 +49,16 @@ https://www.erdosproblems.com/1013.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/methods/chromatic_threshold_interfaces|inverse-threshold analysis]]
+proves $h_3(k)=\min\{n:F(n)\ge k\}$ for the maximum chromatic number
+$F(n)$ in Problem 1104. It transfers two-sided order bounds, keeping the
+source standing of their constants. Even a monotone
+$\Theta(k^2\log k)$ bound does not imply the adjacent ratio tends to one;
+the note gives an explicit numerical countermodel to that implication.
+This countermodel is not asserted to be a graph extremal sequence. No
+asymptotic formula, ratio proof or broader standing survey is supplied.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

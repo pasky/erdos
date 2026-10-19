@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1084
@@ -91,6 +91,17 @@ disjoint congruent balls can touch a fixed one; these bounds settle no case
 and have no claim page. The survey of Bezdek and Khan [BeKh18] collects the
 known results. [[problems/distance_problems/E0223/_index|Problem 223]] is the
 analogous problem for the maximal distance.
+
+## Route analysis
+
+The
+[[research/distance_multiplicity_interfaces/quantitative_constructions|Quantitative
+distance constructions]] account records the following scope. Conditional on the
+earlier paper's special-size packing construction, extension by separated
+spheres gives $6n-486^{1/3}n^{2/3}-O(n^{4/9})$ contacts for every large $n$. The
+external construction remains a premise, and the optimal boundary constant is
+undetermined.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: The Number of Intersection Points Made by t
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T14:44:30Z
 ---
 
 # The Number of Intersection Points Made by the Diagonals of a Regular Polygon
@@ -81,3 +81,39 @@ a point once one concurrence denominator is known.  Sections 6 and 7 package
 the enumeration into tame arithmetic functions; Lemma 7 gives a finite set of
 arguments determining such a function, after which the computer calculations
 in the appendix determine the formulas of Theorems 1 and 2.
+
+## Relation to E0774
+
+The root-relation lemmas apply directly to support-minimal signed relations in
+the odd roots of unity.  Given
+
+$$
+\sum_{z\in F}\varepsilon_z z=0,
+\qquad \varepsilon_z\in\{-1,1\},
+$$
+
+replace each negatively signed (z) by the root (-z).  Because the original
+roots have odd order, this produces a positive relation on distinct roots and
+preserves support-minimality.  Lemma 1 then implies that, after a common
+rotation, a minimal (m)-term signed relation has squarefree relative
+conductor with no prime factor exceeding (m).  In particular, on a conductor
+tail containing only odd primes greater than (P), every nonpolygon minimal
+signed relation must have length at least the first relevant large prime; the
+introduced prime (2) accounts for the converted signs.
+
+Lemma 3 gives more than conductor localization when the support length is less
+than twice the largest conductor prime: the relation is obtained recursively
+from a prime polygon by replacing selected terms with smaller-conductor
+minimal relations.  This is a useful normal form for attempts to count short
+relation supports, organize them into product boxes, or apply a local-lemma
+coloring on a high-prime tail.  Theorem 3 supplies a complete finite regression
+catalog through support weight (12).
+
+These results do not furnish the global estimate required by E0774.  Mann's
+localization bounds the possible conductor of a relation in terms of its
+length, but the resulting crude number of possible supports can grow too fast
+to verify a fixed-color local-lemma criterion.  Lemma 3 applies only below the
+threshold (2p_s), and Theorem 3 is a bounded-weight classification.  The
+paper consequently supplies sharp structure for short minimal relations, not
+a uniform coloring of all relation supports or a finite decomposition of every
+proportionately dissociated integer set.

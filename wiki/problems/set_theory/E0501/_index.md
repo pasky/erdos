@@ -15,7 +15,7 @@ parts:
 - first_question
 - second_question
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 501
@@ -191,26 +191,27 @@ independence relative to a measurable cardinal. Both are self-published
 notes; their cards record statements, versions and read depth.
 
 **Acceptance evidence and its limits.** No refereed publication and no arXiv
-preprint exists for either 2026 note (search below). The acceptance evidence is
-catalog-level, and the formal check beside it is the author's own and not
-evidence: (a) erdosproblems.com adopted both results into the problem text on
-2026-09-03 and carries one full proof claim, submitted 2026-08-17, that the
-first question is independent of ZFC, the second question positively resolved,
-and all of it formalized in Lean and checked by the comparator; (b) the
-community database entry reads not disprovable (last update 2026-09-03), changed
-by teorth/erdosproblems pull request #400 (opened 2026-09-05, merged 2026-09-18
-by the database owner), whose recorded reasoning is the rule of its
-CONTRIBUTING.md, the strongest statement holding of every component part at
-once, with the owner's note that the conjunction reading would instead give
-independent and that the erdosproblems.com commentary, not its automatic label,
-is authoritative (the curator set the database status to independent on
-2026-09-07, so the label read INDEPENDENT from then until 2026-09-18); (c) the
-public Lean 4 development github.com/elliotglazer/erdos501 (Apache-2.0, created
-2026-08-17, head of 2026-08-19, the commit the claim pages link) states seven
-comparator targets over Mathlib only, its axiom audit of 2026-08-19 lists only
-`propext`, `Classical.choice` and `Quot.sound` for all seven, its status file
-records comparator acceptance of both configurations on 2026-08-19, and its last
-five GitHub Actions runs conclude with success. The Lean statement
+preprint exists for either 2026 note (search below). The acceptance evidence
+comes from erdosproblems.com and the community database, and the formal check
+beside it is the author's own and not evidence: (a) erdosproblems.com adopted
+both results into the problem text on 2026-09-03 and carries one full proof
+claim, submitted 2026-08-17, that the first question is independent of ZFC, the
+second question positively resolved, and all of it formalized in Lean and
+checked by the comparator; (b) the community database entry reads not
+disprovable (last update 2026-09-03), changed by teorth/erdosproblems pull
+request #400 (opened 2026-09-05, merged 2026-09-18 by the database owner), whose
+recorded reasoning is the rule of its CONTRIBUTING.md, the strongest statement
+holding of every component part at once, with the owner's note that the
+conjunction reading would instead give independent and that the
+erdosproblems.com commentary, not its automatic label, is authoritative (the
+curator set the database status to independent on 2026-09-07, so the label read
+INDEPENDENT from then until 2026-09-18); (c) the public Lean 4 development
+github.com/elliotglazer/erdos501 (Apache-2.0, created 2026-08-17, head of
+2026-08-19, the commit the claim pages link) states seven comparator targets
+over Mathlib only, its axiom audit of 2026-08-19 lists only `propext`,
+`Classical.choice` and `Quot.sound` for all seven, its status file records
+comparator acceptance of both configurations on 2026-08-19, and its last five
+GitHub Actions runs conclude with success. The Lean statement
 `erdos501_independent` is semantic independence (ZFC entails neither the
 sentence nor its negation over Mathlib's models) proved in Lean's ambient type
 theory, which proves that ZFC has models, while the paper's Corollary 1.2 is the

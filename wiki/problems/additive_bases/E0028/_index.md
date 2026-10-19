@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 28
@@ -42,9 +42,26 @@ https://www.erdosproblems.com/28.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/28.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+[[../library/additive_bases/borwein_et_al_2005_old_conjecture_erdos_turan_additive_bases/theorem_1_1|Borwein–Choi–Chu's
+small-bound theorem]] excludes a representation bound of seven for a basis
+covering every integer. It does not exclude every fixed bound. The relevant
+compactness interface in
+[[../library/additive_bases/nathanson_2003_generalized_additive_bases_konigs_lemma_erdos_turan_conjecture/_index|Nathanson,
+Theorems 4 and 6]], whose compactness proof was inspected, needs arbitrarily
+long initial integer intervals, all covered with one representation bound
+independent of the interval length.
+
+[[../library/additive_bases/ruzsa_1990_just_basis/_index|Ruzsa's finite
+construction]] covers a shifted interval and explicitly distinguishes the
+stronger initial-interval question. A cyclic construction also permits
+wraparound; it supplies no compatible nonnegative integer prefixes without an
+additional argument. Thus neither construction satisfies the needed compactness
+hypothesis. The small-bound computation has not been replayed. The
+discriminating question is whether an actual family covers every initial sum
+with the same bound; a growing bound or only middle-interval coverage leaves
+the implication open.
 
 ## Known Results
 

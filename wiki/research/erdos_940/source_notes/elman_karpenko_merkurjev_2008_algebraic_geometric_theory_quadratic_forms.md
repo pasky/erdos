@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Elman–Karpenko–Merkurjev: Chapters 17�
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Elman–Karpenko–Merkurjev: Chapters 17–18 of The Algebraic and Geometric Theory of Quadratic Forms
@@ -91,6 +91,16 @@ no analytic counting theorem or density estimate.
 This source bears on
 [Problem 940](../../../problems/diophantine_problems/E0940/_index.md).
 
+The current E940 research uses two results from the supplied chapters in its
+quadratic-compression obstruction. Theorem 17.12 turns representation of the
+generic value of one anisotropic quadratic form by another into a subform
+inclusion. Corollary 18.5 (Springer's theorem) descends isotropy through the
+odd-degree extension obtained by replacing variables with odd powers. These
+give the stronger obstruction when (r\equiv2\pmod4): a positive diagonal
+degree-(r) form cannot be represented by a positive quadratic form of
+dimension less than (r). This is a direct limitation on one construction
+strategy, not a resolution of E940.
+
 Let
 $$
 P_r=\{m\in\mathbb N:\ v_p(m)>0\Rightarrow v_p(m)\ge r\text{ for every prime }p\}
@@ -108,9 +118,25 @@ valuations, and E940 concerns bounded additive sums and their natural density,
 whereas §§17–18 concern degree-two polynomial identities, isotropy, and
 multiplicative norms over fields.
 
-The excerpt supplies no quadratic encoding of $P_r$ or $S_r$. Corollary 17.13
-is an obstruction to expressing a generic quadratic form as too few squares
-over $F(T)$, not a density theorem for sums of cubes or $r$-powerful integers.
-The value-norm principle controls membership in a multiplicative subgroup and
-gives neither upper bounds for $|S_r\cap[1,X]|$ nor local-density, sieve, or
-circle-method estimates. Thus the excerpt does not settle any case of E940.
+The results are therefore only conditionally usable. If an auxiliary step in
+an E940 argument encoded a family of additive representations by common zeros
+or represented values of explicit quadratic forms, Theorem 17.14 (pp. 74–75)
+could convert simultaneous quadratic equations into isotropy of one pencil
+$\varphi+t\psi$, and Theorem 17.12 (pp. 73–74) could turn representation of a
+generic quadratic value into an actual subform statement. Corollary 17.7 (p.
+72) would justify specialization of a rational-function representation when
+the specialized value is defined and nonzero. Likewise, Theorem 18.3 (pp.
+76–77) and Springer’s Theorem 18.5 (p. 77) could preserve or detect a
+quadratic-form obstruction under suitable function-field or odd-degree
+extensions, while Theorem 18.10 (p. 78) could control norms of represented
+values multiplicatively.
+
+No such quadratic encoding of $P_r$ or $S_r$ is supplied, however. In
+particular, Corollary 17.13 is an obstruction to expressing a generic quadratic
+form as too few squares over $F(T)$, not a density theorem for sums of cubes or
+$r$-powerful integers. The value-norm principle controls membership in a
+multiplicative subgroup and gives neither upper bounds for $|S_r\cap[1,X]|$ nor
+local-density, sieve, or circle-method estimates. Thus the excerpt does not
+settle any case of E940; it is relevant only as a possible algebraic toolkit
+should a separate argument reduce a representation obstruction to quadratic-form
+isotropy or specialization.

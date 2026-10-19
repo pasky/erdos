@@ -5,7 +5,7 @@ desc: |
   Source record and research digest.
 license: unstated
 created: 2026-09-18T02:59:03Z
-updated: 2026-10-08T17:04:21Z
+updated: 2026-10-13T20:02:22Z
 ---
 
 # Prime factors of arithmetic progressions and binomial coefficients
@@ -49,7 +49,7 @@ proofs were not independently verified.
 Write
 
 $$
-\Delta_1(x,k)=x(x+1)\cdots(x+k-1),
+\triangle_1(x,k)=x(x+1)\cdots(x+k-1),
 \qquad
 P(m)=\text{the greatest prime factor of }m.
 $$
@@ -59,15 +59,15 @@ By symmetry, the paper restricts to $n\geq2k$. In section 1.4 (p. 5) it sets
 $$
 x=n-k+1,
 \qquad
-\Delta_1(x,k)=k!\binom nk.
+\triangle_1(x,k)=k!\binom nk.
 $$
 
-Then $x>k$, so Sylvester's theorem gives $P(\Delta_1)>k$. Since every prime
-factor of $k!$ is at most $k$, the greatest prime of $\Delta_1$ survives in
+Then $x>k$, so Sylvester's theorem gives $P(\triangle_1)>k$. Since every prime
+factor of $k!$ is at most $k$, the greatest prime of $\triangle_1$ survives in
 the binomial coefficient, and therefore
 
 $$
-P\left(\binom nk\right)=P(\Delta_1(n-k+1,k)).
+P\left(\binom nk\right)=P(\triangle_1(n-k+1,k)).
 $$
 
 This exact parameter translation transfers every greatest-prime-factor bound

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 585
@@ -260,6 +260,10 @@ arXiv preprint. (5) There is no Lean statement of the problem.
   vertex set; the lower bound.
 - [[../library/extremal_graph_theory/erdos_1976_problems_results_graph_theory_combinatorial_analysis/problem_29|Erdős 1975, Problem 29]]:
   the origin, with no bound for $f_2(n)$.
+
+
+An [[research/graph_ramsey_interfaces/regular_subgraph_cycle_pair_obstruction|explicit connected four-regular graph on eleven vertices]] has no two edge-disjoint cycles on the same vertex set. Its elementary proof makes the failure of the direct regular-subgraph transfer concrete; it changes neither asymptotic extremal bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

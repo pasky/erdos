@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 183
@@ -165,7 +165,7 @@ Within that finite route, the
 has a complete reconstruction and independently reviewed proof
 coverage, including its degree lemma and elementary Ramsey bounds.
 The later structural and computational exclusions are separate
-obligations; this reduction changes no catalog status or formal standing.
+obligations; this reduction changes no problem status or formal standing.
 
 **Search scope, 2026-09-08:** the report (its relevant chapter in full), its
 first-party announcement, the pinned formalization sources and the

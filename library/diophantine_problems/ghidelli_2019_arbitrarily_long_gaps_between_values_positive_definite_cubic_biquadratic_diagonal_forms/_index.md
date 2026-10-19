@@ -7,7 +7,7 @@ desc: |
   arbitrarily long gaps, with explicit gap lengths below N.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-14T00:58:57Z
 ---
 
 # Ghidelli: Arbitrarily long gaps between the values of positive-definite cubic and biquadratic diagonal forms
@@ -232,17 +232,97 @@ clause on the print; the proofs were read for their structure.
 
 This source bears on [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
 
-The paper's gap theorems concern fixed diagonal forms and do not resolve any
-case of E940.
+[[../wiki/research/erdos_940/quartic_euler_majorant|The E940 quartic Euler-majorant
+note]] uses Proposition 5.2 more narrowly than the paper's gap theorems: its
+quartic Jacobi-sum character is the Gaussian Hecke character of infinity type
+$(2)$ appearing in the Euler-product majorant for the proposed $r=4$
+[[../wiki/research/erdos_940/quartic_complement|complement theorem]]. That citation
+supports the character correspondence and, through the infinity type
+$\alpha/|\alpha|$ that Proposition 5.2(ii) gives the normalized Jacobi sum for
+$s=4$, the type $(2)$ of its square; the research note
+supplies its own conductor bound and uniform $L$-function estimate. Thus this
+source is a direct input to the quartic argument as well as a source of related
+fixed-form gap results.
+
+Let
+
+$$
+\mathcal Q_r=\{n\ge1:v_p(n)=0\text{ or }v_p(n)\ge r\text{ for every prime }p\}
+$$
+
+be the $r$-powerful numbers in E940, and let
+
+$$
+\mathcal A_r=\left\{q_1+\cdots+q_j:0\le j\le r,\ q_i\in\mathcal Q_r\right\}.
+$$
+
+The special form $F_r(\mathbf x)=x_1^r+\cdots+x_r^r$ has value set
+
+$$
+\mathcal W_r=\{x_1^r+\cdots+x_r^r:x_i\in\mathbb N\}\subseteq\mathcal A_r,
+$$
+
+where zero variables pad sums having fewer than $r$ terms. Thus Theorems 1.1 and
+1.2 give arbitrarily long gaps in the perfect-power subsystems $\mathcal W_3$
+and $\mathcal W_4$. Theorem 8.8 gives a positive proportion of gap-starting
+points for every fixed $K$; taking $K=2$ also implies that
+$\mathbb N\setminus\mathcal W_r$ has positive lower density for $r=3,4$. It does
+not imply that $\mathcal W_r$ has density zero.
+
+The distinction from E940 is essential: since
+$\mathcal W_r\subseteq\mathcal A_r$, one has
+$\mathcal A_r^c\subseteq\mathcal W_r^c$. A gap containing no sums of perfect
+powers may be completely filled by sums of non-perfect $r$-powerful numbers.
+Consequently none of the paper's gap theorems supplies even one interval
+disjoint from $\mathcal A_r$, and they do not prove density zero—or
+positive-density complement—for E940's set.
+
+There is nevertheless a precise stratified translation. Every $q\in\mathcal Q_r$
+has a unique decomposition $q=ax^r$ with $a$ $r$th-power-free; moreover
+$\operatorname{rad}(a)\mid x$. Writing $x=\operatorname{rad}(a)y$ gives
+
+$$
+q=\bigl(a\operatorname{rad}(a)^r\bigr)y^r.
+$$
+
+Hence $\mathcal A_r$ is an infinite union, over $r$th-power-free tuples
+$\mathbf a=(a_1,\ldots,a_r)$, of value sets of the fixed diagonal forms
+
+$$
+F_{\mathbf a}(\mathbf y)=\sum_{i=1}^r a_i\operatorname{rad}(a_i)^r y_i^r.
+$$
+
+For $r=3$, the paper applies to every individual coefficient tuple. For $r=4$,
+it applies only when the resulting coefficient tuple is nonexceptional in the
+sense of Definition 6.1 and Theorem 6.2. This is potentially useful for a finite
+or otherwise controlled kernel decomposition of powerful numbers: equations
+(4.10), (4.11), and Proposition 8.1 provide local deficits for one fixed
+stratum, while Propositions 8.4–8.5 show how an aggregate analog of (8.6)
+would yield genuine missing intervals.
+
+The missing E940 ingredient is uniform control of the infinite union of
+coefficient strata. The prime sets, moduli, and constants in Theorem 8.8 depend
+on the fixed form, and the paper neither sums the representation counts over
+varying $\mathbf a$ nor constructs one progression that is simultaneously sparse
+for all relevant kernels. Exceptional quartic strata create an additional
+obstruction, and Remark 2.4 says that the same local-deficit strategy already
+fails for fixed $r$-variable diagonal forms when $r\ge5$. Thus the paper
+supplies a useful local-congruence/Maier-matrix template and sharp fixed-form
+test cases, but it does not resolve any case of E940's density-zero assertion.
 
 ## Bears on
 
 - [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]:
-  background only. Theorems 1.1, 1.2 and 8.8 give long gaps, and a
+  background and inputs only. Theorems 1.1, 1.2 and 8.8 give long gaps, and a
   positive proportion of gap starts, among sums of $r$ nonnegative $r$-th
   powers for $r=3,4$; these sums form a subset of the problem's sums of at
   most $r$ $r$-powerful numbers, so no gap transfers and neither of the
-  problem's questions is decided.
+  problem's questions is decided. Theorem 6.2 and Proposition 8.5 concern the
+  stratified approach the section above describes, which the paper does not
+  carry out. Proposition 5.2 is cited as an input by the quartic
+  Euler-majorant note named above, and Lemma 5.4 by
+  [[../wiki/research/erdos_940/quadratic_prime_harmonics|the quadratic
+  prime-harmonics note]]; neither citation gives the problem any standing.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:39:38Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1103
@@ -60,13 +60,57 @@ https://www.erdosproblems.com/1103.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+These deductions leave the full question unresolved. They have author-recorded
+standing; this assessment is limited to the arguments and source interfaces
+stated below. No comprehensive search for recent proof claims is recorded here.
 
-## Known Results
+Doubles belong to $A+A$, so every $a\in A$ is odd and squarefree. All elements
+have the same odd residue modulo 4, since opposite odd residues sum to 0 modulo
+4. For an odd prime $p$, occupied residues modulo $p^2$ avoid 0 and include at
+most one from each $\{r,-r\}$, hence at most $(p^2-1)/2$ residues.
 
-Not yet compiled.
+No fixed finite prime filter certifies the full condition. For its tested odd
+primes, take $M=4\prod p^2$ and $A=\{1+Mt:t\ge0\}$. Every sum is 2 modulo 4 and
+every tested $p^2$. But for any prime $q\nmid M$, choose $t\ge0$ with
+$1+Mt\equiv0\pmod{q^2}$; that element's double fails. This is a countermodel to
+the finite-filter implication, not a counterexample to the original problem.
+
+For a genuine squarefree-sum set, CRT over a finite set $F$ of odd
+primes gives occupied fraction at most
+$$
+ d_F=\frac14\prod_{p\in F}\frac{p^2-1}{2p^2},
+ \qquad A(N)\le d_FN+M_F,\quad M_F=4\prod_{p\in F}p^2.
+$$
+Fix $F$, let $N\to\infty$, then enlarge $F$: this proves
+density zero. It gives no sharp growth rate, and the period error
+cannot be dropped when $F$ grows with $N$.
+
+Konyagin's definition and theorem statements, and van Doorn–Tao's §1.3 held
+bound/construction qualifications, were inspected. The finite bound $f(N)\le
+N^{11/15+o(1)}$ gives $j\le f(a_j)$, hence $a_j\ge j^{15/11-o(1)}$. Finite lower
+extremizers need a separate nested extension argument to make an infinite
+sequence. The problem's pending infinite construction claim was not audited. The
+held Remark 7 also excludes a rigid choice that puts each occupied residue in
+$(0,p^2/2)$ for every large $p$: for a sufficiently large $a$, a prime $\sqrt
+a<p<\sqrt{2a}$ gives a contradiction.
+
+The unresolved obligation is to control all larger prime-square obstructions
+while extending a growing set with a quantitative count. A
+candidate construction must bound the large-prime tail at each extension; first
+reject the all-lower-half-residues proposal already ruled out by Remark 7. Stop
+at finitely many p^2 congruences, a finite extremizer treated as a nested
+infinite sequence, or omission of doubles.
+
+Source interfaces:
+[[../library/integer_sequences/konyagin_2004_problems_set_square_free_numbers/_index|Section
+1 definitions, Theorems 1 and 3]];
+[[../library/integer_sequences/doorn_2025_growth_rates_sequences_governed_squarefree_properties/squarefree_sums_bound_p4|Section
+1.3 bound and construction qualification]];
+[[../library/integer_sequences/doorn_2025_growth_rates_sequences_governed_squarefree_properties/remark_7|Remark
+7 and prime-number-theorem specialization]].
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

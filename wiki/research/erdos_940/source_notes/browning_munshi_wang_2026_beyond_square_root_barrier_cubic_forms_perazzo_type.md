@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Browning–Munshi–Wang: Beyond the square
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Browning–Munshi–Wang: Beyond the square-root barrier: cubic forms of Perazzo type
@@ -172,3 +172,23 @@ introduction mentions the equal-sums-of-three-cubes fourfold (1.1), but the
 proved theorem concerns the different, singular Perazzo form (1.2). No reduction
 from representations by 3-powerful numbers to (1.2), and no projection estimate
 controlling the number of represented integers, appears in the paper.
+
+What may be reusable is methodological. If a parametrization or incidence
+decomposition for $\mathcal S_{3,3}$ produced six-variable cubic equations of
+Perazzo type, then the Poisson decomposition (3.4), the dual form (3.6), the
+generic $p^3$ bounds of Lemma 4.9 and Corollary 4.10, and the
+exceptional-frequency analysis in Propositions 6.6 and 9.1 would provide a model
+for passing the square-root barrier. The paper also warns that dual frequencies
+can carry a genuine main term: discarding $D=0$ would miss one quarter of the
+answer. The Hooley-$\Delta$ estimate of Lemma 7.2 could be relevant where
+divisibility conditions $q\mid G(\mathbf m,\mathbf n)$ cause a logarithmic
+loss.
+
+These tools are presently only hypothetical for E940. They depend strongly on
+the linear-in-$\mathbf x$, quadratic-in-$\mathbf y$ structure, the explicit
+sextic dual, and the special evaluations of §4. They provide neither a
+parametrization of general $r$-powerful integers, nor uniform estimates for
+$r\ge4$, nor an upper bound $o(X)$ for $|\mathcal S_{r,r}\cap[1,X]|$. The
+paper was therefore consulted as evidence that special cubic geometry can
+overcome a six-variable square-root barrier, not as direct progress on the
+density statement in E940.

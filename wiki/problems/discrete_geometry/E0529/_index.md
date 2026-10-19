@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 529
@@ -110,6 +110,14 @@ statements (bridge finiteness, the free-energy limit and the strip-crossing
 mass), not the $3/4$ laws. The release's README states that its manuscripts
 were produced by an internal OpenAI model at different stages of
 verification.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/self_avoiding_walks|walk
+concatenation and displacement bounds]] account records the following scope. The
+mean-square asymptotic Dn implies the requested O(sqrt(n)) by Cauchy-Schwarz for
+k>=5 only.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

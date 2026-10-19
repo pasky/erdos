@@ -1,0 +1,215 @@
+{
+  "i": 20,
+  "line_exponents": [
+    32,
+    30,
+    28,
+    26,
+    24,
+    21,
+    19,
+    16,
+    12,
+    8,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "row_multiplicities": [
+    64,
+    63,
+    63,
+    63,
+    61,
+    59,
+    57,
+    56,
+    56,
+    54,
+    50,
+    46,
+    42,
+    39,
+    37,
+    34,
+    32,
+    30,
+    28,
+    26
+  ],
+  "interpolation_degree": 118,
+  "nonvanishing_generator_degree": 119,
+  "certificate_degree": 559,
+  "primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "sources": [
+    {
+      "kind": "published",
+      "edge": [
+        2,
+        11,
+        1197,
+        1879
+      ],
+      "input_threshold_power_of_ten": 785060
+    },
+    {
+      "kind": "published",
+      "edge": [
+        3,
+        5,
+        2412,
+        3648
+      ],
+      "input_threshold_power_of_ten": 211993
+    },
+    {
+      "kind": "published",
+      "edge": [
+        5,
+        13,
+        1638,
+        3337
+      ],
+      "input_threshold_power_of_ten": 146201
+    },
+    {
+      "kind": "published",
+      "edge": [
+        7,
+        13,
+        987,
+        2080
+      ],
+      "input_threshold_power_of_ten": 484367
+    },
+    {
+      "kind": "published",
+      "edge": [
+        3,
+        19,
+        1162,
+        2104
+      ],
+      "input_threshold_power_of_ten": 268440
+    },
+    {
+      "kind": "published",
+      "edge": [
+        7,
+        19,
+        4299,
+        1374
+      ],
+      "input_threshold_power_of_ten": 601485
+    },
+    {
+      "kind": "optimized",
+      "edge": [
+        3,
+        11,
+        3414,
+        4249
+      ],
+      "input_threshold_power_of_ten": 12315735
+    },
+    {
+      "kind": "optimized",
+      "edge": [
+        5,
+        7,
+        3869,
+        2589
+      ],
+      "input_threshold_power_of_ten": 16877043
+    },
+    {
+      "kind": "optimized",
+      "edge": [
+        5,
+        11,
+        2051,
+        2105
+      ],
+      "input_threshold_power_of_ten": 13982107
+    },
+    {
+      "kind": "optimized",
+      "edge": [
+        11,
+        13,
+        1260,
+        652
+      ],
+      "input_threshold_power_of_ten": 8222386
+    },
+    {
+      "kind": "optimized",
+      "edge": [
+        2,
+        17,
+        3643,
+        3505
+      ],
+      "input_threshold_power_of_ten": 12692980
+    },
+    {
+      "kind": "optimized",
+      "edge": [
+        17,
+        19,
+        2442,
+        2146
+      ],
+      "input_threshold_power_of_ten": 27027658
+    }
+  ],
+  "minimal_vector_count": 60,
+  "capacity_configurations_checked": 8001,
+  "minimum_gain": "319/1250",
+  "worst_vector_scaled": [
+    3643,
+    3414,
+    2051,
+    2589,
+    0,
+    652,
+    0,
+    2146
+  ],
+  "worst_capacities_scaled": [
+    10000,
+    10000,
+    9348,
+    7949,
+    7854,
+    7411,
+    6586,
+    6357
+  ],
+  "symmetric_jet_count": 3599,
+  "symmetric_monomial_count": 3600,
+  "modular_prime": 65521,
+  "symmetric_rank": 3599,
+  "generator_coefficient_factor_bound": 1670761,
+  "constant_power_of_ten_bound": 874790,
+  "algebraic_tail_power_of_ten": 4000000,
+  "maximum_input_source_power_of_ten": 27027658,
+  "full_numerical_tail_power_of_ten": 27027659,
+  "conclusion": "Every bad triple with i=20 has n < 10^27027659"
+}

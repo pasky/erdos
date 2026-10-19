@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 265
@@ -70,9 +70,22 @@ sequence has $\limsup a_n^{1/2^n}>1$, is linked from
 [[problems/irrationality/E0265/claims/2026_09_07_kitamura|its claim page]]; the
 corpus records no build or audit of it.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The shifts in
+[[../library/irrationality/kovac_2024_several_irrationality_problems_ahmes_series/_index|Kovač–Tao's
+Theorem 2.8 and Corollary 2.9]] transfer exactly: replace their sequence $u_n$
+for shifts $0,1$ by $a_n=u_n+1$. Both required sums are then rational, and
+order and growth are preserved. The parameter choice in their proof gives
+$a_n^{1/\beta^n}\to\infty$ for every $1<\beta<\sqrt{6/5}$.
+
+This specialization and the parameter choice were inspected, not the entire
+construction proof. The newer Cam and Kitamura records retain their claimed
+standing: their manuscripts and outside formal proof were not verified here.
+Even their recorded lower and upper scales do not match. A construction's
+overlap condition is a sufficient parameter range, not an impossibility theorem
+beyond it. The remaining task is a matching universal obstruction and
+construction with the same growth quantifiers.
 
 ## Known Results
 

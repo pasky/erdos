@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 930
@@ -68,6 +68,15 @@ constructions of
 [[problems/diophantine_problems/E0363/_index|Problem 363]] show that for $r=2$
 short intervals can have a perfect power as product, and that problem treats
 the case of squares. The question is open for every $r\geq 2$.
+
+## Scoped deduction
+
+The [[research/powerful_numbers_and_products/_index|separated-block certificate]]
+checks $(2\cdot3\cdot4)(48\cdot49\cdot50)=1680^2$. Each block product
+is nonsquare. Thus two separate one-block exclusions do not combine into
+a two-block exclusion. This small witness does not rule out a larger
+threshold $k$ for $r=2$.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

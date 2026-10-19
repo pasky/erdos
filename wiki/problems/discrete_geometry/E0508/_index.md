@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 508
@@ -108,6 +108,14 @@ half-open arc $\{e^{it}:0\le t<\pi/3\}$, which has measure $\pi/3$ and
 contains no unit pair, and that the manuscript's displayed formal theorem
 assumes that bound as a hypothesis. The erdosproblems.com proof-claims thread
 for this problem listed no claim on 6 October 2026.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/colorings|finite geometric
+colorings and nonuniform witness sizes]] account records the following scope.
+Product compactness makes a finite exactly realized unit-distance graph with
+chromatic number at least seven equivalent to impossibility of a six-coloring of
+the plane.
 
 <!-- BEGIN problem library links -->
 

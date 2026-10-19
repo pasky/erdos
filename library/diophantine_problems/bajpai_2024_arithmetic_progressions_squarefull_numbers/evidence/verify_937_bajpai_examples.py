@@ -1,3 +1,4 @@
+# evidence: entry
 """Certify the finite computations and examples used in Section 5.
 
 Checked clauses: the discriminant factorization and the two reduction

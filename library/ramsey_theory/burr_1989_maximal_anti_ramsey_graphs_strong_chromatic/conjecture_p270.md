@@ -7,7 +7,7 @@ desc: |
   cycle of length at least seven at the Turán threshold is asymptotically n
   squared over eight; the printed origin of Problem 809.
 created: 2026-09-18T11:30:00Z
-updated: 2026-10-07T12:24:44Z
+updated: 2026-10-14T06:58:01Z
 ---
 
 ***
@@ -52,10 +52,10 @@ restates this passage; $C_7$ is not covered there. Two accepted full claims on
 Problem 809, each with formalized evidence, cover every odd cycle of length at
 least seven, $C_7$ included:
 [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab]]'s proof
-of the seven-cycle case with a Lean development for every length, filed first,
-and
-[[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|Plasma AI]]'s
-kernel-checked Lean proof.
+of the seven-cycle case with a Lean development for every length, filed first
+on erdosproblems.com, and
+[[../wiki/problems/ramsey_theory/E0809/claims/2026_09_24_plasma_ai|Plasma AI]]'s
+independent kernel-checked Lean proof, published first on GitHub.
 
 ## Dependencies
 

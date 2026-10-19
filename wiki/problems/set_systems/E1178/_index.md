@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1178
@@ -100,6 +100,15 @@ $r=3$ Solymosi and Solymosi's $d_3(10)\le14$ and Conlon, Gishboliner, Levanzov
 and Shapira's $e+O(\log e/\log\log e)$. Search scope: the erdosproblems.com
 problem page and the references it lists; no wider literature search is
 recorded.
+
+## Scoped deduction
+
+The [[research/methods/finite_set_thresholds|uniformity specialization]]
+records $f_r(n,(r-2)e+3,e)\le(\binom r3(e-1)+1)f_3(n,e+3,e)$ from
+the held Proposition 1.2. It reduces the upper-bound question to uniformity
+three but keeps $e$ unbounded. The lower bound remains a separate imported
+result; the specialization is not a new exact threshold.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

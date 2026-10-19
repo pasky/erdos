@@ -1,0 +1,93 @@
+"""Exact finite check of the three claimed N(k,2) values; no Lean execution.
+
+Domain: (k, B) = (2, 3), (3, 9), (4, 13), every 0 <= N <= B and every
+sign tuple in {-1,1}^N. Arithmetic is Python integer arithmetic. APs are
+generated independently as k-element subsets with equal successive gaps,
+then compared with the source's bounded start/difference enumeration.
+Every AP has k distinct points, positive difference, and lies in [0,N).
+The checked property is existence of an AP with abs(sum) >= 2.
+
+Expected runtime: under one minute, one thread, below 100 MB. The default
+run is complete; no quick mode. A changed claimed value, bad enumeration,
+or missing witness causes nonzero exit. This verifies only the small finite
+instances, not either infinite polynomial bound, Lean compilation, compiler
+trust, or the formal Boolean-to-integer-coloring equivalence theorem.
+
+Dependencies: Python standard library and repository tools.Checker.
+From the repository root:
+  nice -n 10 env -u VIRTUAL_ENV uv run --no-sync python \
+    subject/finite/small_cases.py.txt
+Optional --output writes exact counts and first counterexamples privately.
+"""
+
+from __future__ import annotations
+
+import itertools
+import json
+import sys
+from pathlib import Path
+
+from tools import Checker, evidence_parser
+
+
+def main() -> int:
+    parser = evidence_parser(__doc__, quick=False)
+    parser.add_argument('--output', type=Path)
+    args = parser.parse_args()
+    checker = Checker()
+    records = []
+    total_colorings = 0
+    for k, bound in ((2, 3), (3, 9), (4, 13)):
+        rows = []
+        enumeration_ok = True
+        witnesses_ok = True
+        for n in range(bound + 1):
+            aps = tuple(
+                p for p in itertools.combinations(range(n), k)
+                if len({p[i + 1] - p[i] for i in range(k - 1)}) == 1
+            )
+            source_indices = {
+                tuple(a + j * d for j in range(k))
+                for a in range(n)
+                for d in range(1, n)
+                if a + (k - 1) * d < n
+            }
+            enumeration_ok &= set(aps) == source_indices
+            bad_count = 0
+            first_bad = None
+            for signs in itertools.product((-1, 1), repeat=n):
+                total_colorings += 1
+                if not any(abs(sum(signs[x] for x in p)) >= 2 for p in aps):
+                    bad_count += 1
+                    if first_bad is None:
+                        first_bad = signs
+            if first_bad is not None:
+                witnesses_ok &= all(
+                    abs(sum(first_bad[x] for x in p)) < 2 for p in aps
+                )
+            rows.append({
+                'N': n,
+                'ap_count': len(aps),
+                'colorings': 2 ** n,
+                'avoiding_colorings': bad_count,
+                'first_avoiding_coloring': first_bad,
+            })
+        checker.check(f'k={k}: subset and source AP enumerations agree', enumeration_ok)
+        checker.check(f'k={k}: every retained counterexample checked', witnesses_ok)
+        checker.check(f'k={k}: all colorings at N={bound} have discrepancy >=2',
+                      rows[-1]['avoiding_colorings'] == 0)
+        checker.check(f'k={k}: every N<{bound} has a counterexample',
+                      all(row['avoiding_colorings'] > 0 for row in rows[:-1]))
+        records.append({'k': k, 'claimed_minimum': bound, 'rows': rows})
+        print(f'k={k}, N={bound - 1} witness: '
+              f"{rows[-2]['first_avoiding_coloring']}")
+    result = {'coverage': 'complete finite enumeration',
+              'total_colorings': total_colorings, 'records': records}
+    print(f'Total sign tuples examined: {total_colorings}')
+    if args.output:
+        args.output.write_text(json.dumps(result, indent=2) + '\n')
+    return checker.finish()
+
+
+if __name__ == '__main__':
+    sys.exit(main())

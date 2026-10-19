@@ -7,7 +7,7 @@ desc: |
   factors, the largest prime factor — along with general additive and
   multiplicative functions and perfect, amicable and aliquot-type questions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T10:25:58Z
+updated: 2026-10-14T11:08:30Z
 ---
 
 # Arithmetic Functions
@@ -130,7 +130,9 @@ and an asymptotic equivalent from the OpenAI release is a pending claim.
 
 [[problems/arithmetic_functions/E0417/_index|E0417/]]: Asks whether the ratio of
 the number of totient values up to $x$ to the number of distinct values
-$\phi(m)$ with $m\le x$ has a limit, and whether that limit exceeds 1; open.
+$\phi(m)$ with $m\le x$ has a limit, and whether that limit exceeds 1; phase
+reductions conditional on an unrefereed manuscript leave convergence open, and
+an unrefereed non-arXiv note claims a conditional upper bound.
 
 [[problems/arithmetic_functions/E0418/_index|E0418/]]: Asks whether infinitely
 many positive integers are not of the form $n-\phi(n)$.

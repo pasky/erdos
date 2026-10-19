@@ -1,0 +1,52 @@
+\begin{theorem}
+\label{thm:lower}
+Let $k\ge2$ and $t\ge1$ be integers, put $M=t^{2}k^{2^{t}}$ and
+\[
+c_{k,t}=\Bigl(k^{2^{t}+1}\,t^{t}\,(4M^{2})^{t+1}\Bigr)^{-1}.
+\]
+Every $k$-colouring of $2^{[n]}$ contains a monochromatic union-closed
+family with at least $c_{k,t}\,n^{t+1}$ members; that is,
+$F_k(n)\ge c_{k,t}\,n^{t+1}$ for all $n\ge1$. For two colours,
+$F(n)\ge n^{t}$ whenever $\log_2n\ge(t+2)^{2}\,2^{t}$.
+\end{theorem}
+
+
+[cut]
+
+\begin{theorem}
+\label{thm:upper}
+Let $d\ge1$ be an integer with $2^{d}>nd+2$. Then
+\[
+F(n)\ \le\ \sum_{j=0}^{d-1}\binom{n}{j}.
+\]
+In particular, for $n\ge2$ and
+$d=\lfloor\log_2n\rfloor+\lfloor\log_2\lfloor\log_2n\rfloor\rfloor+3$,
+\[
+F(n)\ \le\ d\,n^{d-1}\ \le\ \bigl(\log_2n+\log_2\log_2n+3\bigr)\,
+n^{\log_2n+\log_2\log_2n+2}.
+\]
+\end{theorem}
+
+[cut]
+
+\begin{corollary}[The Erd\H{o}s--Ulam conjectures]
+\label{cor:conj}
+Both statements in \eqref{eq:conj} hold, in the following form.
+\begin{enumerate}[label=\textup{(\roman*)},leftmargin=2em]
+\item For every $n\ge2$ we have $F(n)\ge n^{\omega(n)}$, where
+\[
+\omega(n)=\ell-2\log_2(\ell+2)-1,\qquad \ell=\log_2\log_2n ,
+\]
+and $\omega(n)\to\infty$.
+\item There is a function $\eps:\mathbb{N}\to\mathbb{R}$ with
+$\eps(n)\to0$ such that $F(n)<(1+\eps(n))^{n}$ for every $n\ge1$.
+\item If $\omega:\mathbb{N}\to\mathbb{R}$ satisfies $F(n)\ge
+n^{\omega(n)}$ for every $n$, then for every $\eps>0$ we have
+$\omega(n)\le(1+\eps)\log_2n$ for all large $n$.
+\item For every $k\ge2$ there are functions $\omega_k(n)\to\infty$ and
+$\eps_k(n)\to0$ such that $n^{\omega_k(n)}\le F_k(n)<(1+\eps_k(n))^{n}$
+for every $n\ge1$.
+\end{enumerate}
+\end{corollary}
+
+[cut]

@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "Shamil Asgarli",
+    "Dragos Ghioca",
+    "Chi Hoi Yip"
+  ],
+  "category": "math.AG",
+  "date": "2026-09-30",
+  "fetched": "2026-10-16",
+  "html": {
+    "bytes": 429569,
+    "files": 1,
+    "sha256": "24fc3cdebe613ac814858996d70b484a9808ffd0a9fd60f7473a2bf691ddf8b0",
+    "skipped": [],
+    "url": "https://arxiv.org/html/2510.15332v2"
+  },
+  "id": "2510.15332",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "pdf": {
+    "bytes": 318701,
+    "previous": [
+      {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": null
+      }
+    ],
+    "sha256": "437cffd322c8eeb9814312a277feb1eaf270c09e39871eb059c93b146ee98cb0",
+    "url": "https://arxiv.org/pdf/2510.15332v2"
+  },
+  "schema": 1,
+  "stamp": null,
+  "tex": {
+    "archive": {
+      "bytes": 18382,
+      "name": "arXiv-2510.15332v2.tar.gz",
+      "sha256": "3283aab2066f9a6650625abfecb0e4c0f996a46c98eea1e4d3c4dfd628a22cab"
+    },
+    "bytes": 58824,
+    "files": 3,
+    "sha256": "9358a1bade387e94978b80c3dec9cbd8bdf799c01b372b7bc323a812ae2c2dd8",
+    "url": "https://arxiv.org/src/2510.15332v2"
+  },
+  "title": "Blocking sets from a union of plane curves",
+  "version": 2
+}

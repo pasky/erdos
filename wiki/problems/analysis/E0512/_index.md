@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 512
@@ -55,8 +55,8 @@ which names as its formal proof the file `problems/512/Erdos512.lean` of
 the `Jayyhk/erdos-lean` repository, a proof produced by Aristotle (Harmonic)
 from the paper of McGehee, Pigno and Smith, as the thread's one comment
 reports, and linked at its pinned commit from their claim page; it was not
-built here, and the "(LEAN)" suffix of the erdosproblems.com label was a catalog
-label.
+built here, and the "(LEAN)" suffix of the erdosproblems.com label was an
+erdosproblems.com label.
 
 ## Current assessment
 

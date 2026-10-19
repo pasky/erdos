@@ -30,7 +30,7 @@ links:
   kind: preprint
   date: 2026-09-18
 created: 2026-10-07T07:57:32Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -39,7 +39,7 @@ updated: 2026-10-08T01:29:59Z
 with chromatic number $k$ in which deleting any one vertex lowers the
 chromatic number while deleting any set of at most $r$ edges does not. This is
 the question as asked, answered yes for every such $k$ and $r$. The proof's
-final theorem is the catalog statement `Erdos944.erdos_944` of
+final theorem is the statement `Erdos944.erdos_944` of
 formal-conjectures (`FormalConjectures/ErdosProblems/944.lean`, at the
 formal-conjectures commit Conjectures.io's task pins) with its answer
 instantiated to true,
@@ -144,8 +144,8 @@ theorem research open. By its commit of 21 September 2026, the
 formal-conjectures catalog tags the $k=4$ case of Dirac's conjecture research
 solved and keeps `erdos_944` itself tagged research open. The formal-conjectures
 commit that Conjectures.io's task pins is not public; Conjectures.io builds it
-from a public catalog commit and an audit patch, and the replay reproduced it
-exactly.
+from a public formal-conjectures commit and an audit patch, and the replay
+reproduced it exactly.
 
 **Verification record.** Besides the replay under **Acceptance.**, this corpus
 read the proof file,

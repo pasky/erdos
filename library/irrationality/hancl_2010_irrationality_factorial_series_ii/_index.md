@@ -8,7 +8,7 @@ desc: |
   Schlage-Puchta confirmed Erdős's claim for the prime powers.
 license: unstated
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # irrationality/hancl_2010_irrationality_factorial_series_ii
@@ -179,8 +179,8 @@ $\sum p_n/2^n$),
 [[../wiki/problems/irrationality/E0252/_index|#252]] (mention: p. 2 lists who
 proved the irrationality of $\sum\sigma_k(n)/n!$ for $k=0,1,2,3$ and
 reports a proof for $k>3$ under a twin prime condition; no theorem of the
-paper concerns $\sigma_k$). None of the paper's numbered results bears on a
-catalog problem.
+paper concerns $\sigma_k$). None of the paper's numbered results bears on an
+erdosproblems.com problem.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

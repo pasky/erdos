@@ -1,0 +1,181 @@
+[cut]
+
+# Smooth successor primes from the weighted-dilation argument
+
+[cut]
+
+***
+
+This folder's results that are not drawn from a cited source are Plasma AI's,
+[cut]. The route is Shisheng Li and
+Zhong Zhuang's, recorded on
+[[problems/arithmetic_functions/E0824/claims/2026_10_07_li_zhuang|their claim page]]:
+their reduction follows Pollack and Pomerance after an idea of Erdős, and the
+counting method is OpenAI's
+[[../library/arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|weighted-dilation manuscript]].
+[cut]
+
+## Target
+
+[[problems/arithmetic_functions/E0824/_index|Problem 824]] asks about the count
+
+$$
+h(x)=\#\{(a,b)\in\mathbb N^2:
+1\le a<b<x,\ (a,b)=1,\ \sigma(a)=\sigma(b)\}.
+$$
+
+The question is whether, for every $\varepsilon>0$ and every sufficiently
+large real $x$, $h(x)>x^{2-\varepsilon}$.[cut]
+Pollack and Pomerance proved $h(x)>x^{1.4}$
+([[../library/arithmetic_functions/pollack_2016_problems_erdos_sum_divisors_function/theorem_p24|their Section 6 result]]).
+Write $L=\log x$ and $P^+(m)$ for the largest prime factor of $m$.
+The route derives three statements under the source premises below.
+
+1. **Successor count.** For every fixed $0<\delta<1/4$ there are
+   $c,C_A,C_w>0$ such that, for every sufficiently large real $x$, at least
+   $c xL^{-C_A-1}\exp(-C_w\sqrt L)$ primes $p$ satisfy
+   $2x-1\le p\le4x-1$ and $P^+(p+1)\le x^\delta$.
+2. **Hypothesis $\mathrm A^+$.** For every $0<\delta<1/4$ and $\eta>0$,
+   every sufficiently large real $y$ has at least $y^{1-\eta}$ primes
+   $p\le5y$ with $P^+(p+1)\le y^\delta$.
+3. **Coprime pairs.** For every $\varepsilon>0$ and every sufficiently large
+   real $x$, $h(x)>x^{2-\varepsilon}$, even when both entries must be
+   squarefree.
+
+## Exact source premises
+
+**(P)** is the manuscript's Theorem 5.1, its lifted shift-cancellation
+estimate, restated with all endpoint hypotheses on the
+[[research/smooth_successor_primes/signed_type_ii|Type II page]]. It bounds
+
+$$
+\sum_{z>0,\ z+k>0}\frac{\Psi(z/Z)}z\,
+z^{ia_1}(z+k)^{ia_2}\overline{F_0(z)}G_0(z+k)W_\ell(z)W_\ell(z+k)
+\ll L^{-D_0}
+$$
+
+for arbitrary fixed $D_0$, uniformly for nonzero integer shifts
+$|k|\le L^C$, $Z=xL^{O(1)}$, and the prescribed endpoint class, once the
+original coefficient sequence $\alpha$ has sufficiently strong character
+and Mellin discrepancy. That endpoint class includes a compulsory integer
+factor in a fixed positive power range, rough above $\exp(\sqrt L)$.
+The source proposes a proof in Sections 3--5. It is an unrefereed premise
+here. The manuscript's
+[[../library/arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/theorem_1_2|predecessor-count statement]]
+concerns $p-1$ and does not itself imply $\mathrm A^+$.
+
+The [[research/erdos_824_uniformity/shift_cancellation_reconstruction|local
+reconstruction of P]] supplies an [cut] argument for the endpoint
+class used here. Its displayed pair (S) is the pair in the Type II page:
+the original restricted $\alpha$, the common interval $I_{**}$, the common
+residual coefficient $\overline{c_r}$, and characters modulo $2|k|$ are
+unchanged. Substitution uses $a_1=\varrho+\xi_3$, $a_2=-\varrho$ and
+$\Psi(t)=t\psi_Z(t)$; multiplication by $Z$ recovers the unweighted
+correlation. No discrepancy of a different sequence is inferred. The
+reconstruction's internal mark parameter $J$ is distinct from the proxy
+precision $S$ of the extraction: every choice inside P, including $B$, is
+fixed before $S>2B+3$. This is an interface identification, not [cut] a proof of proxy discrepancy.
+
+**(E)** consists of the manuscript's Section 2 estimates, Proposition 7.1
+(candidate mass, uniformly in the exceptional-slot position), Lemma 7.3
+(proxy discrepancy, uniformly under interval restrictions), and Lemma 7.4
+(proxy densities and the Buchstab identity). Their needed statements,
+parameters and roles are given on the
+[[research/smooth_successor_primes/successor_prime_extraction|extraction page]].
+Only the bound (7.17) mentions $2u+1$, and its proof uses that expression
+only through its size $x$ up to fixed factors. It gives the same bound for
+$2u-1$. [cut]
+
+[cut] Both are explicit
+dependencies.[cut]
+
+## The combined argument
+
+1. **Type II for $2u-1$.** Assuming (P) and the Section 2 estimates, the
+   [[research/smooth_successor_primes/signed_type_ii|signed Type II derivation]]
+   gives $\sum_{mn=2u-1}A(u)\Psi(u/x)\alpha_m\beta_n\ll xL^{-D_*}$ for
+   bounded $\beta$ and an appropriately restricted $W$-rough $\alpha$ with
+   discrepancy. The partition $u=eh$ retains all group factors and the
+   compulsory rough integer in $h$. The off-diagonal identities are
+   $m'-m=-2ek$, $h'-h=-kn$, and $mh'-m'h=k$. Their converse, using
+   $(m,k)=1$, recovers a positive integral $n$. The resulting cross-products
+   $z=m'h$ and $z+k=mh'$ have exactly the endpoint form of (P), with the
+   original $\alpha$ still carrying discrepancy.
+2. **Prime extraction.** Under (E), the
+   [[research/smooth_successor_primes/successor_prime_extraction|signed sieve argument]]
+   proves Type I distribution in the unit class $u\equiv\bar2$ for odd
+   moduli, uses the Type II estimate to replace roughness and prime tests by
+   their cell proxies, and subtracts composites. The balanced range uses
+   $mn\equiv-1\pmod{D_1}$ and the same residue counts as the predecessor
+   argument. It leaves weighted prime mass $\gg X_A/L$. Candidate mass
+   $X_A\gg xL^{-C_A}$ and the pointwise bound
+   $A(u)\Psi(u/x)\le\exp(C_w\sqrt L)$ give the successor count. Its ratio to
+   $x^{1-\eta}$ tends to infinity for every fixed $\eta>0$, so taking $x=y$
+   gives the exact $\mathrm A^+$ above for all large real $y$.
+3. **Counting pairs.** The
+   [[research/smooth_successor_primes/li_zhuang_reduction|full counting reduction]]
+   gives Li and Zhuang's Theorem 1.3, including the squarefree conclusion and
+   the strict range $1\le a<b<x$. For a fixed $0<\varepsilon<1$, choose
+   $B\ge8/\varepsilon$, $\eta=\varepsilon/16$ and $\delta=1/(2B)$. It uses
+   $\mathrm A^+$ at $y=(\log x)^B$. Products of
+   $k=\lfloor\log x/\log(5y+1)\rfloor$ distinct available primes give
+   $N\ge x^{1-\eta-1/B-o(1)}$ squarefree integers below $x$, with at most
+   $U=x^{o(1)}$ divisor-sum values. Removing pairs with many common primes
+   and dividing by the gcd costs a multiplicity of at most $2x^\eta$.
+   Therefore $h(x)\ge N^2/(4Ux^\eta)>x^{2-\varepsilon}$. This implication
+   uses neither (P) nor (E) except through $\mathrm A^+$.
+
+Thus (P) and (E) imply $\mathrm A^+$, and $\mathrm A^+$ implies the requested
+bound for squarefree pairs. These conditional implications do not establish
+their source premises or resolve Problem 824.
+
+## Sign, ranges and uniformity
+
+The change from $p-1$ to $p+1$ occurs inside the Type II and sieve proofs.
+Its essential checks are:
+
+- **Divisibility and positivity.** The signed identities and their converse
+  retain $UV\asymp x$, $x^{b_*}\le U,V\le x^{1-b_*}$,
+  $E=UL^{-K_0}$, $\tfrac12EL^{-C_s}\le e\le2E$ and
+  $0<|k|\ll L^{K_0+C_s}<W$. The cutoffs impose $e>0$ and $n\asymp V$ after
+  reconstruction; no unsigned ordering of $m,m'$ is imposed.
+- **Units and local counts.** The rough integers $m,m'$ are units modulo
+  $2|k|$. Type I uses odd squarefree $d$ and its unit class $\bar2$.
+  The balanced sieve's odd $D_1$ may have repeated prime factors and includes
+  the exceptional integer. The congruence $mn\equiv-1\pmod{D_1}$ has
+  $\varphi(D_1)$ unit pairs. Modulo each odd sieve prime $l$, the two
+  disjoint bad sets $mn\equiv0$ and $mn\equiv-1$ have $2l-1$ and $l-1$
+  pairs.
+- **Moments and partition.** Fixed divisor moments control
+  $\sum_{u\asymp x}\tau(u)\tau(2u-1)$ and
+  $\sum_{v\ll x}\tau(v)\tau(v+1)^3$. Only pure band primes enter $e$;
+  all group factors and the exceptional rough integer stay in $h$.
+  The costs before choosing $K_0$ do not depend on $K_0$.
+- **Analytic estimates.** [cut]
+  The shift enters through $|k|$, translation, or invertibility modulo
+  group primes larger than $|k|$. Positive shifted positions remain of
+  size $x^{1+o(1)}$. Theorem 5.1 already asserts both signs.
+
+[cut] The two Type II
+arguments use a common uniform class of instances of (P): endpoint forms,
+character moduli $2|k|$, polynomial logarithmic frequency bounds, scales
+$Z=xL^{O(1)}$, and both signs of $k$. Their pulled-back cutoffs and Fourier
+coefficients differ. This is a statement about a class of permitted data,
+not an assertion that the arguments make identical individual calls to (P).
+
+A proof uniform over that endpoint class would support both transfers.
+Checking particular endpoints used by one argument, or accepting the
+predecessor-count statement alone, does not supply that uniform proof.
+Failure of (P) outside the consumed class would not by itself refute this
+route. The sufficient restriction is stated at the end of the
+[[research/smooth_successor_primes/shift_sign_analytic_core|analytic-core page]].
+
+[cut]
+
+The first deep analytic input is (P). Its [cut] reconstruction depends on
+transference Theorem 3.5 and Corollary 3.11, ideal-kernel Theorem 4.1, and the
+comparison analysis of Section 5.[cut]
+[cut] (E) at the intervals actually
+consumed: candidate mass with constants independent of the later fixed
+exceptional slot, proxy discrepancy after arbitrary interval restrictions,
+and density bounds at the unbalanced and balanced factor ranges. [cut]Nothing here assesses the manuscript's further totient-fiber argument[cut].

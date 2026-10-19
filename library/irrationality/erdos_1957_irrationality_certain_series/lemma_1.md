@@ -6,7 +6,7 @@ desc: |
   k is irrational when the coefficients have bounded mean and an infinite
   support of vanishing lower density.
 created: 2026-09-17T07:21:00Z
-updated: 2026-10-07T20:23:45Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -62,5 +62,5 @@ Used in the proof of
 (p. 215) with $a_k$ the number of $n$ with $\varphi(n)=k$, respectively
 $\sigma(n)=k$.
 
-**Bears on.** No catalog problem directly; it is the tool behind
+**Bears on.** No erdosproblems.com problem directly; it is the tool behind
 Theorem 1, and its generalization Lemma 4 the tool behind Theorem 2.

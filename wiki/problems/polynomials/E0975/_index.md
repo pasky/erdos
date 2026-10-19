@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 975
@@ -148,6 +148,11 @@ claims) and its four-comment discussion thread (September 2025 to June 2026);
 the community database listed the problem as open and as having a formal
 statement as of its last update; the formal-conjectures statement file is
 described above.
+
+**A deduction and its scope.**
+[[research/erdos_975/divisor_pairing_range|The medium-modulus gap in divisor pairing]] gives the author-recorded
+argument and source boundaries: the direct quadratic divisor-pairing estimate loses control in degree at least three because individual root-progression errors extend to moduli of order X to the degree over two.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

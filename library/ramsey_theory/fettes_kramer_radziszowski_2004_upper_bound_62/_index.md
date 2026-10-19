@@ -6,7 +6,7 @@ desc: |
   attaching reduction; the final computational proof remains unchecked.
 license: CC-BY-4.0
 created: 2026-09-10T08:18:30Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # An Upper Bound of 62 on the Classical Ramsey Number R(3,3,3,3)
@@ -119,7 +119,7 @@ reviewed premise-relative proof coverage, recorded in the
 [[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence/verify/upper_bound_route_review|retained upper-route review]].
 Theorem 5.6 itself remains claims-checked only. No current-best-bound,
 first-attribution,
-new verification-tier or catalog-status conclusion follows from this
+new verification-tier or problem-status conclusion follows from this
 filing. The dated check identified this primary source; it was not a
 comprehensive literature or current-record search.
 

@@ -21,7 +21,7 @@ links:
   kind: preprint
   date: 2026-07-25
 created: 2026-10-07T07:03:07Z
-updated: 2026-10-08T03:53:57Z
+updated: 2026-10-18T03:09:12Z
 ---
 
 ***
@@ -60,7 +60,9 @@ and the largest prime $q\le n$; its Corollary 4.1 leaves only finitely many
 strict-threshold exceptions with $i\ge121$, and its Theorem 4.2 lowers that
 bound to $4$: all but finitely many triples with $4\le i<j\le n/2$ have a common
 prime factor $p>i$. The manuscript states, without the calculation, that no
-counterexample has $i\ge1000$.
+counterexample has $i\ge1000$; the card's evidence leg supplies that calculation
+and strengthens the cutoff to $i\ge906$, a repository deduction and not the
+claimants'.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Wouter Van
 Doorn and Stefano Rocca (account ster) on 25 July 2026, giving "ChatGPT 5.6 Sol
@@ -114,4 +116,9 @@ published exhaustive prime-gap computation; none is linked.
 claim) does not credit the manuscripts, no publication exists, and both
 cards stand at author-recorded: the stated theorems and their cited inputs
 agree with their papers, but the computations behind the proofs are not
-retained, so the proofs count as not verified.
+retained, so the proofs count as not verified. The repository's own
+extension to no counterexamples at $i=7$ and at every $i\ge9$, which builds
+on these manuscripts, is recorded in the
+[[research/erdos_699/_index|Problem 699 research guide]], is claimed on
+[[problems/factorials_binomials/E0699/claims/2026_10_19_plasma_ai|Plasma AI's claim page]],
+and is not part of this claim.

@@ -1,0 +1,11 @@
+# Mathematical provenance and source boundaries
+
+The span-to-count and closing arguments are reconstructed from S. Korsky, A resolution of the de Bruijn--Erdos consecutive-gap problem, arXiv:2609.07196v2 (unrefereed), Sections 2--3 and 6--8. The source theorem uses distinct points; the supplied composition proposes an all-sequence extension.
+
+The finite-list argument uses the range splitting of G. Larcher, On the star discrepancy of sequences in the unit interval, arXiv:1407.2094v1, Lemma 2.1 and Section 3; the supplied proof includes the range inequality and its four-block specialization.
+
+The planar bound is Halasz's theorem, following D. Bilyk, On Roth's orthogonal function method in discrepancy theory, Uniform Distribution Theory 6 (2011), no. 1, 143--184, Sections 2 and 4: Haar coefficients (2.9)--(2.12), product rule (4.6), Lemma 4.2, and complex Riesz product (4.15)--(4.17). Its complete local write-up with constants, the finite-list proof and the composition are credited to Plasma AI. No theorem from an unprovided paper is substituted for the supplied deductions.
+
+The target is the supplied modified formulation. The two statement versions identify the different first two growth expressions; no historical lower bound is used in the new growth argument.
+
+The conclusion of Proposition 1221.1 consumed here is existence of the list with H <= B. Its final sentence and smoothing argument are an explicit conditional statement about the imported Theorem 4.1; that antecedent is not a premise of the ratio proof. Proposition FP supplies the lower bound actually used. The coefficient 1/100 is outside scope.

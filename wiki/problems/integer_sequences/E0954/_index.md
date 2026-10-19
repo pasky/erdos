@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 954
@@ -34,10 +34,12 @@ https://www.erdosproblems.com/954.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+[[research/rosen_greedy_sequence/_index|Rosen greedy-sequence invariants]] gives
+the complete author-recorded argument and its remaining gap. For every integer
+n, R(n)>=n, with equality at each selected positive integer. If b(n) counts
+unordered representations n=x+y with positive earlier selected x,y, then
+H(n)=R(n)-n satisfies H(n)=max(0,H(n-1)+b(n)-1); n is selected exactly when
+H(n-1)+b(n)=0. The source of b(n) is still the entire growing history. The exact
+recurrence does not bound its state space or its excess at the target scale.

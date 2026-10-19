@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:27:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 373
@@ -142,6 +142,38 @@ revision; the publisher's record of Luca's paper; and the library cards for
 [Er76d], [Er93], [Gu04], [BhRa10] and [Ha19]. On 2026-10-07 none of the others
 showed another claim on the problem. Nothing on this page is independently
 reviewed.
+
+## Finite reductions and uniformity requirements
+
+The short-tail theorem of
+[[../library/factorials_binomials/bhat_2010_remark_factorials_that_are_products_factorials/_index|Bhat–Ramachandra]]
+sharpens the sufficient largest-prime-factor condition. For a solution put
+$r=n-a_1\ge2$ and $T=n!/(n-r)!=\prod_{i=2}^k a_i!$. The inspected theorem gives
+$r<(1+\epsilon)\log\log n/\log2$ eventually, uniformly in the number of
+factors. Since $n(n-1)\mid T$, all its prime factors are at most $a_2$.
+Legendre's formula, with binary digit sum $s_2$, gives
+
+$$
+a_2-s_2(a_2)\le v_2(T)
+ =r-s_2(n)+s_2(n-r)\le r+\lfloor\log_2 n\rfloor.
+$$
+
+First using $s_2(a_2)\le\log_2 a_2+1$ and $a_2\le n$ gives $a_2=O(\log n)$.
+Substituting back yields
+
+$$
+P^+(n(n-1))\le a_2
+ \le\log_2 n+(2+\epsilon)\log_2\log n+O_\epsilon(1).
+$$
+
+An eventual lower bound $P^+(n(n-1))\ge(1/\log2+\eta)\log n$ for any fixed
+$\eta>0$ would therefore imply finiteness. Bounded $n$ leaves only finitely
+many tuples, since every factorial factor is at least two. This completed
+author implication sharpens the numerical sufficient interface; it does not
+prove the required eventual prime-factor estimate. The source proof was read,
+without independent review. Density-one or subsequence estimates do not
+suffice.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

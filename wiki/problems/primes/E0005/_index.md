@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 5
@@ -121,6 +121,9 @@ exhibits no limit point of the sequence, and the manuscript claims nothing
 about this problem. It is background here and has no claim page on this
 problem; its claim about
 [[problems/integer_sequences/E0968/_index|Problem 968]] is recorded there.
+
+The author-recorded [[research/covering_prime_interfaces/prime_gap_statistics|prime-gap comparison]] isolates the support, moment or uniform limiting information needed for this question and proves the stated elementary reductions. It does not establish the requested prime-gap law.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 # Problem 770
@@ -103,12 +103,12 @@ the standing does not depend on the choice.
 [[problems/integer_sequences/E0770/claims/2026_07_24_zeng|Zeng 2026]], is
 partial, so the problem's standing is open, with no pending full claim. The
 partial claim settles the third implication for every fixed $\epsilon>1/2$, but
-not for every positive $\epsilon$. Plasma AI's observation, recorded under
-Current assessment, extends that implication to every fixed
-$\epsilon>1/(4\sqrt e)$ unconditionally and to every $\epsilon>0$ assuming
-the OpenAI release's $7/8$ zero-free half-plane. It is author-recorded,
-answers only the third question and has no claim page, so the standing is
-unchanged. The historical bounds and unboundedness below
+not for every positive $\epsilon$. The notes of Samuel Korsky's 5 August 2026
+proof-claim post on Problem 769, recorded under Current assessment, extend that
+implication to every fixed $\epsilon>1/(4\sqrt e)$ unconditionally and to every
+fixed $\epsilon>0$ under GRH. They answer only the third question and have no
+claim page on this problem, so the standing is unchanged. The historical
+bounds and unboundedness below
 do not answer the three questions. Erdős expected infinitely many $h(n)=3$,
 which would give a negative answer to the second question. That infinitude is
 itself unresolved in the sources this page cites.
@@ -189,42 +189,25 @@ needs $M>\sqrt n$. The release makes no argument for those large prime
 divisors, and no claim page records it: it asserts no result about this
 problem.
 
-Plasma AI observed on 10 October 2026 that the $7/8$ half-plane answers the
-third question. Assuming the Dirichlet part of that manuscript's Theorem 1.1,
-there is an absolute constant $C$ such that, for all sufficiently large $n$,
+Samuel Korsky's manuscript of 5 August 2026 is filed as a partial claim on
+[[problems/discrete_geometry/E0769/_index|Problem 769]]
+([[problems/discrete_geometry/E0769/claims/2026_08_05_korsky|its claim page]]).
+The notes of his erdosproblems.com proof-claim post there apply the
+manuscript's argument to this problem: for every $\varepsilon>0$ and all
+sufficiently large $n$,
 
 $$
-P(n)\le h(n)\le\max\{P(n),\lceil C(\log n)^8\rceil\},
+P(n)\le h(n)\le\max\{P(n),n^{1/(4\sqrt e)+\varepsilon}\},
 $$
 
-so for every fixed $\epsilon>0$ and all sufficiently large $n$,
-$P(n)>n^\epsilon$ implies $h(n)=P(n)$. The argument runs as follows. Let $H$
-be the right-hand side above. A prime $r$ dividing $a^n-1$ for every
-$2\le a\le H$ exceeds $H$, and the residues $1,\ldots,H$ lie in the subgroup
-$T=\{u\in\mathbf F_r^*:u^n=1\}$, of order $\gcd(n,r-1)\le n$; $T$ is proper,
-since $r-1\mid n$ would give $r\le P(n)\le H$. The products of
-$t=\lfloor\log n/(2\log\log n)\rfloor$ distinct primes up to $(\log n)^4$ are
-at most $n^2$, number more than $n$ and lie in $T$, so $r\le n^2$. A
-nonprincipal character modulo $r$ that is trivial on $T$ has, by the
-half-plane, the functional equation and the smoothed explicit formula, a prime
-$\ell\le C_0(\log r)^8$ on which it is not $1$, the standard least-nonresidue
-argument (compare Montgomery and Vaughan, *Multiplicative Number Theory I*,
-Theorem 13.12). Then $\ell$ lies outside $T$ although
-$\ell\le256C_0(\log n)^8\le H$, a contradiction once $C\ge256C_0$. Fermat's
-theorem gives $h(n)\ge P(n)$. The half-plane must hold uniformly in the
-conductor: a zero-free region whose width depends on the character would not
-suffice. Unconditionally, when $P(n)>n^\epsilon$, the same counting with a
-fixed number $t$ of primes up to $n^{(1+\tau/2)/t}\le n^\epsilon$ bounds $r$
-by $n^{1+\tau}$, and Pollack's theorem,
-which gives every nontrivial character modulo a large $m$ a prime $\ell$ below
-$m^{1/(4\sqrt e)+\eta}$ with $\chi(\ell)\notin\{0,1\}$ (P. Pollack, *Bounds
-for the first several prime character nonresidues*, arXiv:1508.05035v2,
-2015), then answers the third question for every fixed
-$\epsilon>1/(4\sqrt e)=0.1516\ldots$, a wider range than the $\epsilon>1/2$ of
-Zeng's claim. The observation is author-recorded: it has been neither
-independently reviewed nor formalized here, and its conditional part rests on
-the release's Theorem 1.1, which this corpus has not verified. It leaves the
-density question and the question on $\liminf h(n)$ open.
+and under GRH $h(n)\le\max\{P(n),C(\log n)^2\}$. So $P(n)>n^\epsilon$
+implies $h(n)=P(n)$ for all sufficiently large $n$, for every fixed
+$\epsilon>1/(4\sqrt e)=0.1516\ldots$ unconditionally and for every fixed
+$\epsilon>0$ under GRH, a wider range than the $\epsilon>1/2$ of Zeng's
+claim. The manuscript's theorems bound $c(n)$, not $h(n)$; the application is
+stated only in the post's notes, no claim page on this problem records it, and
+its proof has not been reviewed here. It leaves
+the density question and the question on $\liminf h(n)$ open.
 
 ## Known results
 

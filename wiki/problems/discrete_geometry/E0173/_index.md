@@ -7,27 +7,36 @@ desc: |
 tags:
 - Geometry
 - Ramsey theory
-status: open
-claim: none
+status: solved
+claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:56Z
+updated: 2026-10-17T23:31:29Z
 ---
 
 # Problem 173
 
 [[problems/discrete_geometry/_index|..]]
 
-[[problems/discrete_geometry/E0173/claims/_index|claims/]]: The 3 claim pages of Problem 173, one per claimant's result; the problem's standing derives from them.
+[[problems/discrete_geometry/E0173/claims/_index|claims/]]: The 4 claim pages of Problem 173, one per claimant's result; the problem's standing derives from them.
 
 ***
 
 **Statement.** In any $2$-colouring of $\mathbb{R}^2$, for all but at most one
 triangle $T$, there is a monochromatic congruent copy of $T$.
 
-**Status.** Open. This is the erdosproblems.com label (page last edited 16
-October 2025). No result settles the question. No full claim exists, and the
-standing derives from the claim pages. Three results decide the question for
-particular triangles and are recorded as partial claims. Shader's refereed
+**Status.** Solved: an accepted full claim settles the problem, whether or not
+three distinct collinear points count as a triangle. Bloom's catalog labeled
+the problem OPEN (page last edited 16 October 2025). Plasma AI proves that every
+two-coloring of the plane has a monochromatic congruent copy of every triangle,
+collinear triples of distinct points included, except at most one, which is
+then equilateral; that claim, on
+[[problems/discrete_geometry/E0173/claims/2026_10_19_plasma_ai|the Plasma AI page]],
+is accepted on this corpus's rebuild, Comparator check and kernel replay of its
+Lean formalization, a graded review of the formal statements and the sign-off
+of Jacob Parish at Plasma AI. Its prose argument has an independent
+whole-conclusion review and a separate passing grade. Three results decide the
+question for particular triangles and are recorded
+as partial claims. Shader's refereed
 theorem of 1976 shows that every right triangle, and every triangle of two
 further one-parameter families, has a monochromatic congruent copy in every
 two-coloring of the plane. It is on
@@ -52,7 +61,21 @@ https://www.erdosproblems.com/173.
 - [Sh76] Shader, L., All right triangles are Ramsey in $\mathbb{E}^2$! J.
   Comb. Th. A 20 (1976), 385-389.
 
-**Formalization.** None recorded.
+**Formalization.** Statement in
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/7db2ea3b91bfbd0ab620215163e6c488bbb916d5/FormalConjectures/ErdosProblems/173.lean)
+at its commit of 2026-10-14, linked, which states the problem as `erdos_173`
+for Mathlib's nondegenerate triangles, with Shader's theorem and the existence
+of an exceptional equilateral triangle as solved variants, all with `sorry`
+bodies. Plasma AI's Lean development
+([plasma-ai/erdos-173](https://github.com/plasma-ai/erdos-173/tree/4a368a652753fab53272f7a747755876f04bc2cc))
+proves the three, copying the statements verbatim apart from their attribute
+lists, and two statements of its own: that every non-equilateral triangle
+has a monochromatic congruent copy, and that any three distinct points that are
+not the vertices of an equilateral triangle, collinear ones included, have one;
+[[problems/discrete_geometry/E0173/claims/2026_10_19_plasma_ai|its claim page]]
+records it. This corpus rebuilt it at that commit, checked it with Comparator
+and replayed its five theorems in the kernel, as
+[[../library/discrete_geometry/plasma_ai_2026_monochromatic_triangles_two_colorings_plane/evidence/verify/replay_receipt|the replay receipt]] records.
 
 ## Current assessment
 
@@ -106,11 +129,51 @@ question. Graham's survey and the computational search of Mundinger and
 coauthors (2025) prove no new triangle Ramsey. The library cards linked below
 record the remaining sources.
 
-**Remaining gaps.** Whether a two-coloring of the plane can miss equilateral
-triangles of two different sides is open, and with it the question. Proof
-coverage is at statement level throughout: no proof of the claim pages'
-theorems is checked by this corpus, and nothing is independently reviewed by
-this project.
+**Remaining gaps.** None for the Statement, whether or not three distinct
+collinear points count as a triangle: by the accepted Plasma AI claim, no
+two-coloring of the plane misses equilateral triangles of two different sides,
+and every three distinct points that are not the vertices of an equilateral
+triangle, collinear ones included, have a monochromatic congruent copy, so
+every two-coloring misses at most one triangle. Proof
+coverage of the three external partial claims is at statement level: no proof
+of those claim pages' theorems is checked by this corpus. The stronger form in
+which one color class contains every triangle with at most one equilateral
+exception is not addressed.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/colorings|finite geometric
+colorings and nonuniform witness sizes]] account records the following scope.
+The author-recorded L32 shows that non-two-colorable finite witnesses using
+equilateral side lengths $1,x$ cannot have bounded size as $x$ tends to $1$.
+Fixed-pair compactness does not give a uniform finite search.
+
+The [[research/leads/equilateral_two_scale/_index|two-scale equilateral
+lead]] records a full proof by Plasma AI at tier 1: its
+[[research/leads/equilateral_two_scale/evidence/verify/whole_conclusion/_index|whole-conclusion record]]
+holds an independent review and a separate passing grade, examined on
+2026-10-17 UTC. Its measurable part excludes simultaneous weak
+avoidance of equilateral sides $1,x$ for every $x\ne1$: a Bessel bound
+treats separated scales and the
+[[research/leads/equilateral_two_scale/circle_exclusion|circle argument]]
+treats the remaining window. The
+[[research/leads/equilateral_two_scale/unit_templates|function-field
+finite-cover argument]] supplies a unit-vector template for the algebraic
+closure of $\mathbb Q(x)$. The
+[[research/leads/equilateral_two_scale/rigidity_extension|rigidity extension]]
+uses it to replace the number-field step in the OpenAI plane-coloring
+manuscript and records the hypotheses of the retained source lemmas.
+Binary transfer then gives the same exclusion for arbitrary colorings, and
+the finite triangle-forcing configuration gives every non-equilateral
+triangle. The argument asserts the whole target, including collinear
+triples of distinct points, and the review and grade examined that exact
+formulation. It is the accepted
+[[problems/discrete_geometry/E0173/claims/2026_10_19_plasma_ai|full claim by Plasma AI]],
+whose Lean formalization, external to this repository's Lean closure, is
+digested on
+[[../library/discrete_geometry/plasma_ai_2026_monochromatic_triangles_two_colorings_plane/_index|its source card]].
+No native claim card states the result.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -119,6 +182,8 @@ These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
 - [[../library/additive_combinatorics/erdos_1979_old_new_problems_results_combinatorial_number/_index|erdos_1979_old_new_problems_results_combinatorial_number]]
+- [[../library/analysis/lahti_2018_federer_characterization_finite_perimeter/_index|lahti_2018_federer_characterization_finite_perimeter]]
+- [[../library/analysis/lahti_2018_federer_characterization_finite_perimeter/theorem_1_1|lahti_2018_federer_characterization_finite_perimeter / theorem_1_1]]
 - [[../library/discrete_geometry/aichholzer_2019_triangles_colored_euclidean_plane/_index|aichholzer_2019_triangles_colored_euclidean_plane]]
 - [[../library/discrete_geometry/aichholzer_2019_triangles_colored_euclidean_plane/theorem_3_2|aichholzer_2019_triangles_colored_euclidean_plane / theorem_3_2]]
 - [[../library/discrete_geometry/bialostocki_2006_minimum_sets_forcing_monochromatic_triangles/_index|bialostocki_2006_minimum_sets_forcing_monochromatic_triangles]]
@@ -168,6 +233,9 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/discrete_geometry/patel_2025_biggest_open_problem_euclidean_ramsey_theory/_index|patel_2025_biggest_open_problem_euclidean_ramsey_theory]]
 - [[../library/discrete_geometry/patel_2025_biggest_open_problem_euclidean_ramsey_theory/theorem_2_12|patel_2025_biggest_open_problem_euclidean_ramsey_theory / theorem_2_12]]
 - [[../library/discrete_geometry/patel_2025_biggest_open_problem_euclidean_ramsey_theory/theorem_2_13|patel_2025_biggest_open_problem_euclidean_ramsey_theory / theorem_2_13]]
+- [[../library/discrete_geometry/plasma_ai_2026_monochromatic_triangles_two_colorings_plane/_index|plasma_ai_2026_monochromatic_triangles_two_colorings_plane]]
+- [[../library/discrete_geometry/plasma_ai_2026_monochromatic_triangles_two_colorings_plane/evidence/verify/statement_fidelity/_index|plasma_ai_2026_monochromatic_triangles_two_colorings_plane / evidence/verify/statement_fidelity/_index]]
+- [[../library/discrete_geometry/plasma_ai_2026_monochromatic_triangles_two_colorings_plane/main_theorem|plasma_ai_2026_monochromatic_triangles_two_colorings_plane / main_theorem]]
 - [[../library/discrete_geometry/shader_1976_all_right_triangles_are_ramsey_e2/_index|shader_1976_all_right_triangles_are_ramsey_e2]]
 - [[../library/discrete_geometry/shader_1976_all_right_triangles_are_ramsey_e2/corollary_4|shader_1976_all_right_triangles_are_ramsey_e2 / corollary_4]]
 - [[../library/discrete_geometry/shader_1976_all_right_triangles_are_ramsey_e2/corollary_5|shader_1976_all_right_triangles_are_ramsey_e2 / corollary_5]]

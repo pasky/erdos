@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 886
@@ -57,6 +57,29 @@ cited in the erdosproblems.com thread, gives $O(1/(\epsilon-1/4))$ divisors for
 every $\epsilon>1/4$ (its Proposition 1 at $\theta=1/2$). That range is already
 settled with a stronger bound, and the preprint is not refereed, so it has no
 claim page.
+
+## Finite reductions and uniformity requirements
+
+For an upper divisor $d=\sqrt N+t$, $0<t<H$,
+
+$$
+d+N/d-2\sqrt N=\frac{t^2}{\sqrt N+t}\in(0,H^2/\sqrt N).
+$$
+
+The integer $d+N/d$ increases strictly with $d>\sqrt N$. Hence the interval
+contains at most $\lceil H^2/\sqrt N\rceil$ divisors. At $H=N^{1/2-\epsilon}$
+this gives at most one for $\epsilon\ge1/4$, but an increasing bound below that
+threshold. Complementary divisors give a lower interval of width $H\sqrt
+N/(\sqrt N+H)$ and do not improve the exponent.
+
+[[../library/divisors/letendre_2025_divisors_integer_short_interval/_index|Letendre's
+Proposition 1]], inspected through its proof, requires width $N^{1/4-\delta}$
+at $\theta=1/2$. Matching this problem requires $\delta=\epsilon-1/4>0$,
+already in the elementary range. Theorem 1 in the remaining range retains the
+$N$-dependent factor $\tau(N)^{1-4\epsilon}V(N)\log\tau(N)$. The missing result
+is a constant independent of $N$ for some $\epsilon<1/4$. The elementary
+argument is author-recorded, not independently reviewed.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 146
@@ -36,7 +36,7 @@ subgraph has minimum degree $\le r$" is the usual definition of $r$-degeneracy
 (equivalently, every nonempty subgraph has a vertex of degree at most $r$,
 the form the sources use), and $\mathrm{ex}(n;H)\ll n^{2-1/r}$ means
 $\mathrm{ex}(n;H)\le C_Hn^{2-1/r}$ for all $n$ with a constant depending on
-$H$. The erdosproblems.com label DISPROVED (LEAN) carries a catalog suffix
+$H$. The erdosproblems.com label DISPROVED (LEAN) carries a suffix
 explained under Formalization. erdosproblems.com attributes the conjecture to
 Erdős and Simonovits [ErSi84]; pp. 203--207 and 218 of that paper state
 supersaturation conjectures and define "degenerate" for extremal problems,
@@ -148,7 +148,7 @@ https://www.erdosproblems.com/146, accessed 2026-09-18.
   (not used on this page).
 
 **Formalization.** The suffix of the erdosproblems.com label DISPROVED (LEAN) is
-a catalog label. The file
+an erdosproblems.com label. The file
 [`ErdosProblems/146.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/146.lean)
 of formal-conjectures at the commit linked (the head of `main` on
 2026-09-18) declares
@@ -319,14 +319,14 @@ conjecture for minimum degree $r$, disproved by the same Janzer paper.
 Theorem 1.1 of the same chapter.
 
 **Formalization and the Lean label.** The suffix of the erdosproblems.com label
-DISPROVED (LEAN) is a catalog label, explained above: the collection's file
-states the problem with `sorry` and points, through a file-level
-`formal_proof` attribute, at the external file whose `not_erdos_146` refutes
-the file's own `DegeneracyConjectureStatement`; the external file at the
-pinned commit contains no `sorry`, `axiom` or `native_decide` and has not
-been built by the corpus; the two files'
-degeneracy definitions were not bridged; the thread's commit pin no longer
-resolved on 2026-09-18. Nothing is kernel-checked in this repository.
+DISPROVED (LEAN) is an erdosproblems.com label, explained above: the
+collection's file states the problem with `sorry` and points, through a
+file-level `formal_proof` attribute, at the external file whose `not_erdos_146`
+refutes the file's own `DegeneracyConjectureStatement`; the external file at the
+pinned commit contains no `sorry`, `axiom` or `native_decide` and has not been
+built by the corpus; the two files' degeneracy definitions were not bridged; the
+thread's commit pin no longer resolved on 2026-09-18. Nothing is kernel-checked
+in this repository.
 
 **Forum and announcement items (leads with provenance, not status).** The
 thread's 1 August 2026 comment is the announcement's report, superseded by

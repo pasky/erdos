@@ -5,7 +5,7 @@ desc: |
   Records the Conjectures.io record's URLs, dates, verdicts, formal
   statement, verification report, review decision and proof-file provenance.
 created: 2026-09-28T03:05:00Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -32,7 +32,7 @@ the record, and the proof file has no header comment.
   <https://github.com/conjectures-io/conjectures-tasks/tree/main/pool/tier-1/erdos-18-b-formalized>
   (`Challenge.lean`, `SolutionHeader`, `SolutionFooter`, `manifest.json`,
   `source-metadata.json`, `trusted-hashes.json`, `comparator-config.json`)
-- Catalog statement:
+- formal-conjectures statement:
   <https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/18.lean>
 
 **Dates and verdicts** (record fetched 2026-09-28T02:36Z). State: Lean
@@ -46,17 +46,16 @@ n^epsilon. This establishes the factorial target in part (b); it is separate
 from the question about general practical integers in part (a)."
 
 **Provenance identifiers printed by the record.** Task
-`fc-8432eac9-erdos18-erdos-18b-9bd94d8707-formalized-v1`; catalog commit
-`8432eac998110a563e03df65a28c117e97c8c142`. The problem page prints task id
-`fc-6a786f99-erdos18-erdos-18b-e1a42d3eb8-formalized-v1`; the task bundle's
-manifest names repository commit
-`6a786f997e18e8f095762a2830d191b7e25e505e`. Neither pinned commit is reachable
-in the public formal-conjectures repository (the GitHub API answered "No
-commit found" and the raw and commit-page URLs returned 404 on 2026-09-27),
-so the pinned statement was compared through `main`, whose `erdos_18b` text
-is identical to Conjectures.io's printed type and to the bundle's
-`source-metadata.json` `type_pretty`, and through Conjectures.io's own "Source
-type hash matches" check.
+`fc-8432eac9-erdos18-erdos-18b-9bd94d8707-formalized-v1`; formal-conjectures
+commit `8432eac998110a563e03df65a28c117e97c8c142`. The problem page prints task
+id `fc-6a786f99-erdos18-erdos-18b-e1a42d3eb8-formalized-v1`; the task bundle's
+manifest names repository commit `6a786f997e18e8f095762a2830d191b7e25e505e`.
+Neither pinned commit is reachable in the public formal-conjectures repository
+(the GitHub API answered "No commit found" and the raw and commit-page URLs
+returned 404 on 2026-09-27), so the pinned statement was compared through
+`main`, whose `erdos_18b` text is identical to Conjectures.io's printed type and
+to the bundle's `source-metadata.json` `type_pretty`, and through
+Conjectures.io's own "Source type hash matches" check.
 
 **Formal statement.** The problem page prints the proof target
 
@@ -137,7 +136,7 @@ compiled `Solution.lean`, so the two names denote one proof.
 **Limits.** A single kernel (Nanoda not run); no fresh replay by the
 reviewers; nothing built here; `subsetSums` (FormalConjecturesUtil) and
 `fcTypeOfName%` (TaskSupport) not read in their defining files; the pinned
-catalog commits unreachable, with fidelity resting on `main` and
+formal-conjectures commits unreachable, with fidelity resting on `main` and
 Conjectures.io's type-hash check.
 
 **erdosproblems.com status.** erdosproblems.com/18 showed OPEN, last edited 11

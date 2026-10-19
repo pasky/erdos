@@ -22,7 +22,7 @@ links:
   kind: discussion
   date: 2026-04-26
 created: 2026-10-07T14:38:22Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -58,7 +58,7 @@ Congressus Numerantium XXI, Utilitas Math., Winnipeg, 1978, 29--40; Section
 6, "Work with Ulam and Selfridge": the problem is set on printed p. 35
 (intervals of length $x>2p_u$, the trivial cases excluded), Theorem 1 with
 the sharpness statement on p. 36, the sharpness proof on pp. 36--37 and the
-main proof from p. 37, through a lemma giving $k$ translates of a $k$-tuple
+main proof on pp. 37--38, through a lemma giving $k$ translates of a $k$-tuple
 of primes and the Chinese remainder theorem. Erdős writes the primes as
 $p_0<\cdots<p_u$ with $u=k^2-1$, so $k^2$ primes; this page renumbers them
 $p_1<\cdots<p_u$ with $u=k^2$ as the statement does. The paper is

@@ -23,7 +23,7 @@ links:
   kind: discussion
   date: 2026-09-07
 created: 2026-10-07T06:54:28Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 ***
@@ -61,12 +61,7 @@ Problem 610 reports an unexamined claim of a gap in the proof of Theorem 1
 of that paper, from which its coloring bound follows, and names this
 preprint among the works using it, as
 [[problems/extremal_graph_theory/E0610/_index|Problem 610]]'s page records.
-The same lower bound follows without that theorem from the independence bound
-accepted on
-[[problems/extremal_graph_theory/E0802/claims/2026_09_25_openai|Problem 802's claim page]],
-by the neighborhood argument that
-[[problems/extremal_graph_theory/E0620/_index|the problem page]] records; the
-new part of the claim is the upper bound.
+The new part of the claim is the upper bound.
 
 **Standing.** Claimed. The preprint is unrefereed (arXiv v1 only, no journal
 reference on the arXiv record on 2026-10-07 and no Crossref record on

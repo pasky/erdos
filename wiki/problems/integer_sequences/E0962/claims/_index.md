@@ -1,10 +1,10 @@
 ---
 name: problems/integer_sequences/E0962/claims
-desc: The 2 claim pages of Problem 962, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 962, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T21:33:46Z
-updated: 2026-10-14T00:16:44Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/integer_sequences/E0962/claims
@@ -20,5 +20,11 @@ problem stay open.
 $n_k>k^2\exp((\log k)^c)$ for some $c>0$, which gives
 $k(n)\le n^{1/2}\exp(-(\log n)^{c'})$. It is recorded as claimed, since no
 proof is printed or referenced.
+
+[[problems/integer_sequences/E0962/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Averaging the multiplier in Erdős and Sárközy's near-square construction
+gives $k(n)<\max(64,(2^{15}n)^{11/28})$ for every $n$, and with Bourgain's
+exponent pair $k(n)\ll_\varepsilon n^{38/97+\varepsilon}$, improving the
+published exponent $2/5$; author-recorded at tier 0, catalog acceptance
+pending.
 
 ***

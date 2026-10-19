@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 464
@@ -89,8 +89,8 @@ $\epsilon$.
 
 **Status.** Proved. The erdosproblems.com label PROVED (LEAN) describes the
 erdosproblems.com wording, which is trivially true (Notes). The label is right
-for the modified Statement as well. The suffix is a catalog label explained
-under Formalization below.
+for the modified Statement as well. The suffix is an erdosproblems.com label
+explained under Formalization below.
 
 Pollington's Theorem [Po79b] (Illinois J. Math. 23 (1979), refereed) applies to
 every sequence of positive numbers with consecutive ratios at least $\alpha>1$.
@@ -218,8 +218,8 @@ https://www.erdosproblems.com/464, accessed 2026-09-18.
   2026-09-18; the paper not read). A lead on the quantitative question, named
   with its identifier.
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/464.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/464.lean)
 of formal-conjectures, pinned in the link at the commit current on 2026-09-18,
 declares
@@ -234,25 +234,24 @@ Pollington prove"; the lacunarity hypothesis is the repository's predicate
 erdosproblems.com's condition. So the file states the modified Statement, with
 the irrationality clause. The external file, `problems/464/Erdos464.lean` in the
 repository `Jayyhk/erdos-lean` at the commit pinned on de Mathan's claim page
-(committer date 5 August 2026; 49,043 bytes, 950 lines, imports Mathlib),
-proves the right-hand side as a standalone `theorem erdos_464` from a
-lacunary-case `theorem deMathan_not_dense` (an irrational $\theta$ whose
-nearest-integer distances $\|\theta a_k\|$ stay bounded away from $0$),
-obtaining irrationality by exhibiting an uncountable set of admissible
-$\theta$; the file contains no `sorry` and no `axiom` declaration, and its
-closing `#print axioms` comment lists `propext`, `Classical.choice` and
-`Quot.sound`. These are statement-only static inspections at pinned commits:
-nothing was built or audited here and no kernel credit is claimed. The
-community database (teorth/erdosproblems, accessed 2026-09-18) lists the
-problem as `proved (Lean)` as of its last update on 21 June 2026, with the
-statement formalized since 22 July 2026, and no formal-proof URL. The
-erdosproblems.com thread comment of 21 June 2026 reports that the AI system
-Aristotle, given de Mathan's paper, formalized, for lacunary $n_k$, a $\theta$
-with $0$ outside the closure of $\{\|\theta n_k\|:k\ge1\}$, which the comment
-says "corresponds to the argument that proves Theorem 1 Part 1 of de Mathan"
-(the existence statement of p. 237, before its Hausdorff-dimension clause), and
-flagged the wording. The file is linked from de Mathan's claim page as a
-formalization of its result.
+(committer date 5 August 2026; 49,043 bytes, 950 lines, imports Mathlib), proves
+the right-hand side as a standalone `theorem erdos_464` from a lacunary-case
+`theorem deMathan_not_dense` (an irrational $\theta$ whose nearest-integer
+distances $\|\theta a_k\|$ stay bounded away from $0$), obtaining irrationality
+by exhibiting an uncountable set of admissible $\theta$; the file contains no
+`sorry` and no `axiom` declaration, and its closing `#print axioms` comment
+lists `propext`, `Classical.choice` and `Quot.sound`. These are statement-only
+static inspections at pinned commits: nothing was built or audited here and no
+kernel credit is claimed. The community database (teorth/erdosproblems, accessed
+2026-09-18) lists the problem as `proved (Lean)` as of its last update on 21
+June 2026, with the statement formalized since 22 July 2026, and no formal-proof
+URL. The erdosproblems.com thread comment of 21 June 2026 reports that the AI
+system Aristotle, given de Mathan's paper, formalized, for lacunary $n_k$, a
+$\theta$ with $0$ outside the closure of $\{\|\theta n_k\|:k\ge1\}$, which the
+comment says "corresponds to the argument that proves Theorem 1 Part 1 of de
+Mathan" (the existence statement of p. 237, before its Hausdorff-dimension
+clause), and flagged the wording. The file is linked from de Mathan's claim page
+as a formalization of its result.
 
 ## Current assessment
 

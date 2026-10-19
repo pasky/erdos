@@ -6,7 +6,7 @@ desc: |
   k-subcubes of the n-cube has at most 2^n binom(n,k) divided by the volume of
   a Hamming ball of radius k members.
 created: 2026-10-08T15:50:52Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -73,4 +73,8 @@ step by step.
 
 ## Bears on
 
-No Erdős problem.
+No Erdős problem. The research method
+[[../wiki/research/methods/private_progression_discounts/_index|private progressions and discounted reciprocal budgets]]
+proves its own pointwise inequality for cylinders over products of finite
+domains, of the same shape as the claim (5); it states that it uses no complete
+Meshulam-bound proof from this paper.

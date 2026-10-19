@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 912
@@ -50,9 +50,23 @@ https://www.erdosproblems.com/912.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/912.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The author-recorded
+[[research/factorial_exponent_prime_intervals|prime-interval reduction]] gives
+the exact identity
+
+$$
+h(n)=\#\{\lfloor n/p\rfloor:p\le n,\ p\text{ prime}\}.
+$$
+
+It also states a precise, unproved averaged occupancy law for the reciprocal
+intervals $(n/(j+1),n/j]$. If that law holds, the fully justified tail bounds
+and integral yield $h(n)\sim\sqrt{2\pi}\sqrt{n/\log n}$. The conditional
+constant is not established. The held Erdős theorem proves the order of
+magnitude only; ordinary long-interval prime estimates do not provide occupancy
+at the logarithmic lengths involved here. No numerical experiment, source-proof
+audit, or independent review is claimed.
 
 ## Known Results
 

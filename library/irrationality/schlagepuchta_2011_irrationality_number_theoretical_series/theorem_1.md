@@ -7,7 +7,7 @@ desc: |
   linearly independent over the rationals, with Proposition 1 on the map
   from lambda to that series.
 created: 2026-10-08T14:28:04Z
-updated: 2026-10-08T14:28:04Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -72,4 +72,4 @@ Recorded for a future review; none has been made. The proof treats the
 cases $\lambda_k<1$ and $\lambda_k>1$; the reduction admits $\lambda_k=1$
 (an integer below $2$), which is not treated separately in the text.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

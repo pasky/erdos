@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# evidence: entry
 """Replay the finite analytic bounds used in Dusart's 1999 prime estimate.
 
 Only integer interval arithmetic is used for acceptance. The imported

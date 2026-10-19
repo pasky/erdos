@@ -16,7 +16,7 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 935
@@ -100,6 +100,16 @@ Remark 4.2 of the same preprint states, without proof, that the abc conjecture
 implies a yes to the third question. That conditional statement decides no
 part of the problem and gets no claim page. The first and third questions are
 open.
+
+## Scoped deduction
+
+The [[research/powerful_numbers_and_products/_index|Pell reconstruction]]
+records the explicit exponent $k=(p(p+1)+2)/4$ for primes
+$p\equiv5\pmod8$, checks the distinct unbounded input sequence and
+preserves the middle-part-only scope. It also shows that the first upper
+estimate would imply the third conclusion for each $\ell\ge2$.
+This author reconstruction changes no source claim's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-10-14T17:08:39.381721+00:00",
+  "cut_marker": "[cut]",
+  "source_paths": {
+    "target.md": "wiki/problems/additive_bases/E0354/_index.md",
+    "argument.md": "wiki/research/erdos_354/evidence/assets/dyadic_root_subject/argument.md",
+    "premise_statement.md": "library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target.md",
+    "premise_warrant.md": "wiki/problems/additive_bases/E0354/claims/2026_09_11_jenw1n.md",
+    "premise_replay.md": "library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0354_815c1d5f.md"
+  }
+}

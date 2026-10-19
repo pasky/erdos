@@ -9,7 +9,7 @@ desc: |
   Y(x) = j(P(x)) - 1.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-13T05:32:28Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 # integer_sequences/openai_2026_quadratic_bound_jacobsthal_function
@@ -70,37 +70,35 @@ result `OAI.Erdos970.Erdos970Final.erdos_970_quadratic` in
 `OAI/NumberTheory/Jacobsthal/Conclusions/QuadraticBound.lean` with the
 comparator configuration `ComparatorChallenges/Jacobsthal.json`, whose
 challenge module is the comparator statement
-`ComparatorChallenges/Jacobsthal.lean`; the catalog ties neither entry to
-the other by name, and its release-wide scope line ("Partial progress.") and
-review field (`unchecked`) cover the whole catalog, not this manuscript
-alone. That comparator
-statement is the plain quadratic bound: for some real $C>0$ and every
-$k\ge1$ there is $m\le Ck^2$ such that every $m$ consecutive integers,
-starting at any signed integer, contain one coprime to any positive $n$ with
-at most $k$ distinct prime factors. The release's own Lean page
-names this manuscript as the formalization's accompanying paper and
-says the formalization proves the strengthened bound
-$h(k)\le Ck^2/(\log\log(3k))^2$ for every $k\ge1$, that intervals may begin
-at any signed integer, that the plain quadratic bound is retained as a
-separate statement and that the order of growth is not determined; it lists
-two comparator statement files, `ComparatorChallenges/Jacobsthal.lean` (the
-quadratic bound) and `ComparatorChallenges/JacobsthalImproved.lean` (the
-iterated-logarithm bound, declaration `erdos_970_iterated_log`), of which only
-the first appears in the catalog's main-results list. All of this is
-read statically from the release's catalog. The corpus's verification built
-the declaration `OAI.Erdos970.Erdos970Final.erdos_970_quadratic` and checked
-its axioms (`propext`, `Classical.choice` and `Quot.sound` only). That
-verification covers Problem 970's displayed question, whether $h(k)\ll k^2$,
-answered yes: one absolute $C>0$ gives $h(k)\le Ck^2$ for every $k\ge1$,
-where $h$ counts $n$ by distinct prime factors and a block of consecutive
-integers may start at any integer; the order-of-magnitude question, which
-carried the OPEN label, is not settled. The record is kept on the claim page
-of [[../wiki/problems/integer_sequences/E0970/_index|Problem 970]], not on
-this card. The declaration states a bound for $h(k)$ alone: no bound for
-$Y(x)$ or $S(k)$ is a declaration of the release, and
-`erdos_970_iterated_log` is not named in that record. A Lean statement of the
-bound is not a proof of Problem 970's order-of-magnitude question, which the
-release's page itself leaves open.
+`ComparatorChallenges/Jacobsthal.lean`; the release's catalog ties neither entry
+to the other by name, and its release-wide scope line ("Partial progress.") and
+review field (`unchecked`) cover the whole catalog, not this manuscript alone.
+That comparator statement is the plain quadratic bound: for some real $C>0$ and
+every $k\ge1$ there is $m\le Ck^2$ such that every $m$ consecutive integers,
+starting at any signed integer, contain one coprime to any positive $n$ with at
+most $k$ distinct prime factors. The release's own Lean page names this
+manuscript as the formalization's accompanying paper and says the formalization
+proves the strengthened bound $h(k)\le Ck^2/(\log\log(3k))^2$ for every $k\ge1$,
+that intervals may begin at any signed integer, that the plain quadratic bound
+is retained as a separate statement and that the order of growth is not
+determined; it lists two comparator statement files,
+`ComparatorChallenges/Jacobsthal.lean` (the quadratic bound) and
+`ComparatorChallenges/JacobsthalImproved.lean` (the iterated-logarithm bound,
+declaration `erdos_970_iterated_log`), of which only the first appears in the
+main-results list of the release's catalog. All of this is read statically from
+the release's catalog. The corpus's verification built the declaration
+`OAI.Erdos970.Erdos970Final.erdos_970_quadratic` and checked its axioms
+(`propext`, `Classical.choice` and `Quot.sound` only). That verification covers
+Problem 970's displayed question, whether $h(k)\ll k^2$, answered yes: one
+absolute $C>0$ gives $h(k)\le Ck^2$ for every $k\ge1$, where $h$ counts $n$ by
+distinct prime factors and a block of consecutive integers may start at any
+integer; the order-of-magnitude question, which carried the OPEN label, is not
+settled. The record is kept on the claim page of
+[[../wiki/problems/integer_sequences/E0970/_index|Problem 970]], not on this
+card. The declaration states a bound for $h(k)$ alone: no bound for $Y(x)$ or
+$S(k)$ is a declaration of the release, and `erdos_970_iterated_log` is not
+named in that record. A Lean statement of the bound is not a proof of Problem
+970's order-of-magnitude question, which the release's page itself leaves open.
 
 Companions: the release files this manuscript alone; no companion, alternate
 proof or consequence manuscript is listed.

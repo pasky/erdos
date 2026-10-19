@@ -4,7 +4,7 @@ title: "Theorem 1.2: large separated configurations"
 desc: |
   Proves the periodic countercoloring with an explicit boundary repair.
 created: 2026-09-05T12:22:53Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:20:03Z
 ---
 
 ***
@@ -148,10 +148,10 @@ higher-degree Milnor–Thom theorem is retained as an external source statement
 and is not claimed to have been reconstructed.
 
 **Related proof pages.**
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_1|lemma 2 1]],
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_2|lemma 2 2]],
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_3|lemma 2 3]],
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_4|lemma 2 4]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_1|Lemma 2.1]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_2|Lemma 2.2]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_3|Lemma 2.3]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_4|Lemma 2.4]],
 [[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/periodic_construction|periodic construction]],
 [[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/linear_sign_patterns|linear sign patterns]],
 [[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/constant_bounds|constant bounds]].

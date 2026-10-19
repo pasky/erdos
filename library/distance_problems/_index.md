@@ -3,7 +3,7 @@ name: distance_problems
 title: "Distance Problems"
 desc: "Sources filed under Distance Problems, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-18T10:10:48Z
 ---
 
 # Distance Problems
@@ -38,15 +38,13 @@ position in the plane are bounded by one universal constant.
 [[distance_problems/avis_1988_repeated_distances_space/_index|avis_1988_repeated_distances_space/]]: Bounds the number of edges of repeated-distance graphs in d dimensions, with
 near-matching bounds for the furthest-neighbor graph in three dimensions.
 
-[[distance_problems/barany_2013_question_famous_paper_erdos/_index|barany_2013_question_famous_paper_erdos/]]: Bárány and Roldán-Pensado's study of Erdős's 1946 statement that every
-convex curve has a point whose centred circles meet it at most twice: with
-N(K) the least such bound over boundary points, they construct a convex
-15-gon with N(K) = 6, prove N(K) finite for every planar convex body,
-build for each ε > 0 a body on which centres of circles meeting the
-boundary infinitely often fill more than a (1 − ε)-fraction of the
-perimeter, and show that for most bodies, in the Baire category sense,
-most boundary points are centres of circles meeting the boundary in at
-least n points for every n.
+[[distance_problems/barany_2013_question_famous_paper_erdos/_index|barany_2013_question_famous_paper_erdos/]]: Bárány and Roldán-Pensado on Erdős's 1946 statement that every convex curve
+has a point whose centred circles meet it at most twice: with N(K) the least
+such bound over its points, a convex 15-gon has N(K) = 6, N(K) is finite for
+every planar convex body, for ε > 0 some body has centres of circles meeting
+its boundary infinitely often on over a (1 − ε)-fraction of the perimeter,
+and for Baire-generic bodies most boundary points are, for every n, centres
+of circles meeting it at least n times.
 
 [[distance_problems/bezdek_2013_contact_graphs_unit_sphere_packings_revisited/_index|bezdek_2013_contact_graphs_unit_sphere_packings_revisited/]]: Improves the upper bound on touching pairs in a packing of n unit balls in
 3-space and bounds touching triplets and quadruples.
@@ -274,9 +272,9 @@ bound for Problem 1085, compared against the disproved Problem 90.
 s > 0 the fraction of ordered pairs (x, y) of an n-point planar set whose
 distance from x is repeated at least n^s times tends to zero, so for every
 fixed eps > 0 all but o(n) points see at least n^{1-eps} distinct distances;
-proved by contradiction through an extremal graph, a product-formula identity
-over a number field with nested grid partitions, a variance estimate, tree
-transport and a Mobius-map obstruction; no rate. Bears on Problem 604.
+proved by contradiction via an extremal graph, a product-formula identity
+over a number field, a variance estimate, tree transport and a Mobius-map
+obstruction; no rate. Bears on Problem 604.
 
 [[distance_problems/pach_2002_isosceles_triangles_determined_planar_point_set/_index|pach_2002_isosceles_triangles_determined_planar_point_set/]]: Bounds the number of isosceles triangles spanned by n points in the plane by
 about n to the power 2.137.

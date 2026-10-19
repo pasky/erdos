@@ -5,7 +5,7 @@ desc: |
   For all x >= 2, |pi(x)-li(x)| <= 9.59x(log x)^0.515 exp(-0.8274 sqrt(log x)),
   an explicit global error term for the prime-counting function.
 created: 2026-10-08T17:18:28Z
-updated: 2026-10-08T17:18:28Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 ***
@@ -63,10 +63,6 @@ constants combine to $A_2\le9.59$.
 
 - [[../wiki/problems/primes/E0855/_index|Problem 855]] asks whether
   $\pi(x+y)\le\pi(x)+\pi(y)$ for all large $x$ and $y$. Corollary 1.3
-  gives the restricted case of bounded ratio, by a deduction on the
-  [[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/_index|source card]] that the paper does not make: for each fixed
-  $K\ge1$, $\pi(x+y)\le\pi(x)+\pi(y)$ holds for all sufficiently large
-  $x,y$ with $1/K\le x/y\le K$, with no explicit threshold computed. It
   gives nothing when $y$ is small against $x$: for $y\le\sqrt x$ its error
   bound at $x$ already exceeds $y$, and that range needs an estimate for
   primes in the interval $(x,x+y]$ that this global bound does not give. It

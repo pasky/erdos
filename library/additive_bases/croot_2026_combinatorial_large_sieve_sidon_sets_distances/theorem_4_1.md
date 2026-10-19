@@ -7,7 +7,7 @@ desc: |
   primes with uniform marginals and a gain on the zeros of F bound the
   product of the |B_i|; the framework behind Theorems 1.6 to 1.8 and 1.11.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -77,7 +77,7 @@ and (14) gives the theorem.
 
 ## Bears on
 
-No catalog problem directly. It is the framework behind
+No erdosproblems.com problem directly. It is the framework behind
 [[additive_bases/croot_2026_combinatorial_large_sieve_sidon_sets_distances/theorem_1_7|Theorem 1.7]],
 [[additive_bases/croot_2026_combinatorial_large_sieve_sidon_sets_distances/theorem_1_8|Theorem 1.8]]
 and

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1181
@@ -190,6 +190,9 @@ written out here with the prime number theorem as its only input; it is not a
 source result. (3) The lower bounds quoted from Problem 457 carry that page's
 qualifications (an erdosproblems.com-accepted AI-generated construction and a
 forum sketch).
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

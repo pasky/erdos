@@ -26,7 +26,7 @@ links:
   kind: formalization
   date: 2026-08-17
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -80,7 +80,7 @@ Trans. Amer. Math. Soc. 103 (1962), claim page
 [[problems/irrationality/E1001/claims/1962_05_01_kesten|Kesten]]).
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
-The `reviewed` evidence is the documented acceptance by the catalog
+The `reviewed` evidence is the documented acceptance by
 erdosproblems.com. Its page for the problem (the `discussion` link) carried the
 label SOLVED. Its curator, Thomas Bloom, credits Kesten and Sós with the proof
 that the limit exists, and notes that their argument gives no way to compute it

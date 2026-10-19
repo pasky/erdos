@@ -1,0 +1,1499 @@
+{
+  "index": 9,
+  "height_variable": "h=n-8",
+  "scope": "Every baseline pair edge and each ordinary source used in the retained index-nine branch trees.",
+  "input_files": [
+    "erdos_699_index_9_baseline.json",
+    "erdos_699_index_9_effective.json.gz",
+    "erdos_699_index_7_base_pairs_numerical.py",
+    "erdos_699_index_7_base_pairs_numerical.json",
+    "erdos_699_ap_cofactors.json",
+    "erdos_699_additional_product_cofactors.json",
+    "erdos_699_bft_gcd_bounds.py",
+    "erdos_699_bft_explicit_thresholds.py",
+    "erdos_699_product_thresholds.py",
+    "erdos_699_off_diagonal_explicit_pairs.py",
+    "erdos_699_off_diagonal_explicit_clauses.py",
+    "erdos_699_off_diagonal_gcd_numeric.py",
+    "erdos_699_off_diagonal_gcd_sharp.py",
+    "erdos_699_off_diagonal_pade.py"
+  ],
+  "baseline_pair_edge_count": 19,
+  "numerical_pair_source_count": 8,
+  "ordinary_source_count": 4,
+  "baseline_bindings": [
+    {
+      "baseline_edge_index": 0,
+      "edge_scaled": [
+        2,
+        3,
+        2921,
+        2921
+      ],
+      "numerical_source_id": "pair:2:3:2921:2921"
+    },
+    {
+      "baseline_edge_index": 1,
+      "edge_scaled": [
+        2,
+        5,
+        2679,
+        2679
+      ],
+      "numerical_source_id": "pair:2:5:2679:2679"
+    },
+    {
+      "baseline_edge_index": 2,
+      "edge_scaled": [
+        2,
+        7,
+        2757,
+        2757
+      ],
+      "numerical_source_id": "pair:2:7:2757:3218"
+    },
+    {
+      "baseline_edge_index": 3,
+      "edge_scaled": [
+        3,
+        5,
+        2238,
+        2238
+      ],
+      "numerical_source_id": "pair:3:5:2562:3774"
+    },
+    {
+      "baseline_edge_index": 4,
+      "edge_scaled": [
+        3,
+        7,
+        505,
+        505
+      ],
+      "numerical_source_id": "pair:3:7:505:3271"
+    },
+    {
+      "baseline_edge_index": 5,
+      "edge_scaled": [
+        5,
+        7,
+        2667,
+        2667
+      ],
+      "numerical_source_id": "pair:5:7:3931:2667"
+    },
+    {
+      "baseline_edge_index": 6,
+      "edge_scaled": [
+        3,
+        5,
+        2543,
+        2543
+      ],
+      "numerical_source_id": "pair:3:5:2562:3774"
+    },
+    {
+      "baseline_edge_index": 7,
+      "edge_scaled": [
+        2,
+        3,
+        3234,
+        2850
+      ],
+      "numerical_source_id": "pair:2:3:3296:2916"
+    },
+    {
+      "baseline_edge_index": 8,
+      "edge_scaled": [
+        2,
+        5,
+        2583,
+        2620
+      ],
+      "numerical_source_id": "pair:2:5:2676:2711"
+    },
+    {
+      "baseline_edge_index": 9,
+      "edge_scaled": [
+        2,
+        7,
+        2734,
+        3201
+      ],
+      "numerical_source_id": "pair:2:7:2757:3218"
+    },
+    {
+      "baseline_edge_index": 10,
+      "edge_scaled": [
+        3,
+        5,
+        2412,
+        3648
+      ],
+      "numerical_source_id": "pair:3:5:2562:3774"
+    },
+    {
+      "baseline_edge_index": 11,
+      "edge_scaled": [
+        3,
+        7,
+        389,
+        3190
+      ],
+      "numerical_source_id": "pair:3:7:505:3271"
+    },
+    {
+      "baseline_edge_index": 12,
+      "edge_scaled": [
+        5,
+        7,
+        3613,
+        2277
+      ],
+      "numerical_source_id": "pair:5:7:3931:2667"
+    },
+    {
+      "baseline_edge_index": 13,
+      "edge_scaled": [
+        2,
+        3,
+        3296,
+        2916
+      ],
+      "numerical_source_id": "pair:2:3:3296:2916"
+    },
+    {
+      "baseline_edge_index": 14,
+      "edge_scaled": [
+        2,
+        5,
+        2676,
+        2711
+      ],
+      "numerical_source_id": "pair:2:5:2676:2711"
+    },
+    {
+      "baseline_edge_index": 15,
+      "edge_scaled": [
+        2,
+        7,
+        2752,
+        3218
+      ],
+      "numerical_source_id": "pair:2:7:2757:3218"
+    },
+    {
+      "baseline_edge_index": 16,
+      "edge_scaled": [
+        3,
+        5,
+        2562,
+        3774
+      ],
+      "numerical_source_id": "pair:3:5:2562:3774"
+    },
+    {
+      "baseline_edge_index": 17,
+      "edge_scaled": [
+        3,
+        7,
+        502,
+        3271
+      ],
+      "numerical_source_id": "pair:3:7:505:3271"
+    },
+    {
+      "baseline_edge_index": 18,
+      "edge_scaled": [
+        5,
+        7,
+        3931,
+        2663
+      ],
+      "numerical_source_id": "pair:5:7:3931:2667"
+    }
+  ],
+  "records": [
+    {
+      "id": "pair:2:3:2921:2921",
+      "kind": "pair",
+      "edge_scaled": [
+        2,
+        3,
+        2921,
+        2921
+      ],
+      "source_file": "erdos_699_index_7_base_pairs_numerical.json",
+      "source_edge": [
+        2,
+        3,
+        2921,
+        2921
+      ],
+      "boxed_positive_part_upper_bound": "7898204417/200000000000",
+      "positive_part_threshold": "13032275031092503625147/328847547876400000000000",
+      "gcd_certificate": {
+        "A": 2,
+        "B": 1,
+        "C": 2,
+        "directions": [
+          2,
+          1,
+          2
+        ],
+        "terms": 4000,
+        "m0": 10000000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1600,
+        "positive_terms": 739,
+        "largest_positive_t": 2264,
+        "floor_stability_bound": 3998,
+        "ell_lower": "245831206601/250000000000",
+        "theta_mode": "broadbent_johnston_yang",
+        "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+        "finite_RH_range_patched": true,
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m)."
+      },
+      "numerical_clause_bound": {
+        "seed": {
+          "P": 9,
+          "Q": 8,
+          "a": 1,
+          "b": 1,
+          "difference": 1
+        },
+        "directions": [
+          2,
+          1,
+          2
+        ],
+        "components": [
+          [
+            2,
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            0
+          ]
+        ],
+        "product_degree": 1,
+        "gap_bound": 8,
+        "maximum_shift": 8,
+        "gcd_m0": 10000000000,
+        "original_gcd_log_rate": "917035627026926644456977/933048058543000000000000",
+        "gcd_log_rate": "245831206601/250000000000",
+        "gcd_rate_increase": "90738633291611942479/186609611708600000000000",
+        "block_parameter": "13586713682/119829086831",
+        "positive_part_threshold": "13032275031092503625147/328847547876400000000000",
+        "original_positive_part_threshold": "13032275031092503625147/328847547876400000000000",
+        "threshold_weakening": "0",
+        "positive_part_intercepts": {
+          "2": "-292673149921/1000000000000",
+          "3": "-50521795583/200000000000"
+        },
+        "factorial_prefactor_F": "3/2",
+        "integral_trim": "2",
+        "threshold_power_of_ten": 38302942423,
+        "intervals": {
+          "first_decay_rate": "[0.3512343733981768997746009574957243054603, 0.3512343733981768997746009574957243054603]",
+          "second_decay_rate": "[9.170812796527268398017091376864787109778, 9.170812796527268398017091376864787109778]",
+          "first_uniform_gain": "[0.0001942527969824338520594218433148229475326, 0.0001942527969824338520594218433148229475326]",
+          "second_uniform_gain": "[0.0001942527969825399314885462763423852799183, 0.0001942527969825399314885462763423852799183]",
+          "log_Q_integrand_maximum": "[-2.445285809588678152318978663948904821491, -2.445285809588678152318978663948904821491]",
+          "log_E_integrand_maximum": "[-2.829315030342042483015889516349327103835, -2.829315030342042483015889516349327103835]",
+          "log_Q_prefactor": "[5.296036727285520686615970443362158779555, 5.296036727285520686615970443362158779555]",
+          "log_E_prefactor": "[6.064095168792249348009792148163003344241, 6.064095168792249348009792148163003344241]",
+          "log_second_prefactor": "[3.866870591456029965219301674317951934946, 3.866870591456029965219301674317951934946]",
+          "second_doubled_log_coefficient": "[12.2470036780580106518253547121753906408, 12.2470036780580106518253547121753906408]",
+          "threshold_second_doubled_log_upper_bound": "[-17132240.32105594307954371962322753478203, -17132240.32105594307954371962322753478203]",
+          "threshold_block_lower_bound": "[10000000001.10188111311769825342343641322, 10000000001.10188111311769825342343641322]",
+          "log_first_prefactor": "[9.572702846301575997658157281581739893076, 9.572702846301575997658157281581739893076]",
+          "first_doubled_log_coefficient": "[8.440110329214519876604487778611939226533, 8.440110329214519876604487778611939226533]",
+          "threshold_first_doubled_log_upper_bound": "[-17132244.12793993616459102693908990365906, -17132244.12793993616459102693908990365906]"
+        },
+        "conclusion": "For every h>=10^K the stated positive-part inequality holds, including actual product gap zero."
+      },
+      "threshold_power_of_ten": 38302942423
+    },
+    {
+      "id": "pair:2:3:3296:2916",
+      "kind": "pair",
+      "edge_scaled": [
+        2,
+        3,
+        3296,
+        2916
+      ],
+      "source_file": "erdos_699_index_7_base_pairs_numerical.json",
+      "source_edge": [
+        2,
+        3,
+        3296,
+        2916
+      ],
+      "boxed_positive_part_upper_bound": "2911057/200000000000",
+      "positive_part_threshold": "25853007524292612871/212806952841200000000000",
+      "gcd_certificate": {
+        "A": 49,
+        "B": 22,
+        "C": 49,
+        "directions": [
+          49,
+          22,
+          49
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1966,
+        "positive_terms": 906,
+        "largest_positive_t": 2999,
+        "floor_stability_bound": 3912,
+        "ell_lower": "5224971456991/250000000000",
+        "theta_mode": "broadbent_johnston_yang",
+        "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+        "finite_RH_range_patched": true,
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m)."
+      },
+      "numerical_clause_bound": {
+        "seed": {
+          "P": 9,
+          "Q": 8,
+          "a": 1,
+          "b": 1,
+          "difference": 1
+        },
+        "directions": [
+          49,
+          22,
+          49
+        ],
+        "components": [
+          [
+            2,
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            2,
+            1,
+            0
+          ]
+        ],
+        "product_degree": 1,
+        "gap_bound": 8,
+        "maximum_shift": 8,
+        "gcd_m0": 1000000000,
+        "original_gcd_log_rate": "4702841535094161875440249/225137708410750000000000",
+        "gcd_log_rate": "5224971456991/250000000000",
+        "gcd_rate_increase": "627716564990873726991/56284427102687500000000",
+        "block_parameter": "4430300006/975651611291",
+        "positive_part_threshold": "25853007524292612871/212806952841200000000000",
+        "original_positive_part_threshold": "25853007524292612871/212806952841200000000000",
+        "threshold_weakening": "0",
+        "positive_part_intercepts": {
+          "2": "-65917088943/200000000000",
+          "3": "-9112876457/31250000000"
+        },
+        "factorial_prefactor_F": "58564/2401",
+        "integral_trim": "1/11",
+        "threshold_power_of_ten": 95641403719,
+        "intervals": {
+          "first_decay_rate": "[0.06145495309316870902338174482218660327416, 0.06145495309316870902338174482218660327416]",
+          "second_decay_rate": "[220.2839252078535956424387747281548627514, 220.2839252078535956424387747281548627514]",
+          "first_uniform_gain": "[0.0001575727762908007931912384466269743165885, 0.0001575727762908007931912384466269743165885]",
+          "second_uniform_gain": "[0.0001575727762907402917514419622137423233024, 0.0001575727762907402917514419622137423233024]",
+          "log_Q_integrand_maximum": "[-55.92031436885350502016570036084426530413, -55.92031436885350502016570036084426530413]",
+          "log_E_integrand_maximum": "[-69.17737157626765771236740867976894440122, -69.17737157626765771236740867976894440122]",
+          "log_Q_prefactor": "[8.277899798715165485584982159262720989992, 8.277899798715165485584982159262720989992]",
+          "log_E_prefactor": "[9.483086817570997548512410188255873635182, 9.483086817570997548512410188255873635182]",
+          "log_second_prefactor": "[7.285862240234778165721919714410822225887, 7.285862240234778165721919714410822225887]",
+          "second_doubled_log_coefficient": "[223.5614435453722160672540878773293199379, 223.5614435453722160672540878773293199379]",
+          "threshold_second_doubled_log_upper_bound": "[-34700816.39522345062700786089067692255744, -34700816.39522345062700786089067692255744]",
+          "threshold_block_lower_bound": "[1000000001.006410659251568131134385156447, 1000000001.006410659251568131134385156447]",
+          "log_first_prefactor": "[12.55456591773122079662716899748230210351, 12.55456591773122079662716899748230210351]",
+          "first_doubled_log_coefficient": "[7.914529787548286455326712055609947099332, 7.914529787548286455326712055609947099332]",
+          "threshold_first_doubled_log_upper_bound": "[-34701032.04215053222747683347700714426758, -34701032.04215053222747683347700714426758]"
+        },
+        "conclusion": "For every h>=10^K the stated positive-part inequality holds, including actual product gap zero."
+      },
+      "threshold_power_of_ten": 95641403719
+    },
+    {
+      "id": "pair:2:5:2676:2711",
+      "kind": "pair",
+      "edge_scaled": [
+        2,
+        5,
+        2676,
+        2711
+      ],
+      "source_file": "erdos_699_index_7_base_pairs_numerical.json",
+      "source_edge": [
+        2,
+        5,
+        2676,
+        2711
+      ],
+      "boxed_positive_part_upper_bound": "80334089/1000000000000",
+      "positive_part_threshold": "42714410222397726949/490662207482000000000000",
+      "gcd_certificate": {
+        "A": 35,
+        "B": 8,
+        "C": 35,
+        "directions": [
+          35,
+          8,
+          35
+        ],
+        "terms": 20000,
+        "m0": 1000000000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 9743,
+        "positive_terms": 7313,
+        "largest_positive_t": 19996,
+        "floor_stability_bound": 19940,
+        "ell_lower": "5014060121507/500000000000",
+        "theta_mode": "broadbent_johnston_yang",
+        "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+        "finite_RH_range_patched": true,
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m)."
+      },
+      "numerical_clause_bound": {
+        "seed": {
+          "P": 128,
+          "Q": 125,
+          "a": 1,
+          "b": 1,
+          "difference": 3
+        },
+        "directions": [
+          35,
+          8,
+          35
+        ],
+        "components": [
+          [
+            2,
+            7,
+            1,
+            0
+          ],
+          [
+            5,
+            3,
+            1,
+            1
+          ]
+        ],
+        "product_degree": 1,
+        "gap_bound": 8,
+        "maximum_shift": 8,
+        "gcd_m0": 1000000000000,
+        "original_gcd_log_rate": "559889110282146992453003/55840385401812500000000",
+        "gcd_log_rate": "5014060121507/500000000000",
+        "gcd_rate_increase": "679911547779144664479/446723083214500000000000",
+        "block_parameter": "3252246009/926359110359",
+        "positive_part_threshold": "42714410222397726949/490662207482000000000000",
+        "original_positive_part_threshold": "42714410222397726949/490662207482000000000000",
+        "threshold_weakening": "0",
+        "positive_part_intercepts": {
+          "2": "-267519665913/1000000000000",
+          "5": "-135549999999/500000000000"
+        },
+        "factorial_prefactor_F": "8",
+        "integral_trim": "1/4",
+        "threshold_power_of_ten": 123703019014182,
+        "intervals": {
+          "first_decay_rate": "[0.2298203447419435336337654851647437699204, 0.2298203447419435336337654851647437699204]",
+          "second_decay_rate": "[284.8649601429703540566800523614101344223, 284.8649601429703540566800523614101344223]",
+          "first_uniform_gain": "[0.0007197947907857346089364599143166515536732, 0.0007197947907857346089364599143166515536732]",
+          "second_uniform_gain": "[0.00001206393163704957298454591354095429740983, 0.00001206393163704957298454591354095429740983]",
+          "log_Q_integrand_maximum": "[-25.6988498344615166763726047974445309297, -25.6988498344615166763726047974445309297]",
+          "log_E_integrand_maximum": "[-48.61454200962899379373123331649314404231, -48.61454200962899379373123331649314404231]",
+          "log_Q_prefactor": "[8.504154000295215097344847563735662436651, 8.504154000295215097344847563735662436651]",
+          "log_E_prefactor": "[14.2330770440870843766845046934978157148, 14.2330770440870843766845046934978157148]",
+          "log_second_prefactor": "[12.67688364617179628494961555405815685222, 12.67688364617179628494961555405815685222]",
+          "second_doubled_log_coefficient": "[293.2762220199792885581662629379091059725, 293.2762220199792885581662629379091059725]",
+          "threshold_second_doubled_log_upper_bound": "[-3436250482.209316163819708403845731839909, -3436250482.209316163819708403845731839909]",
+          "threshold_block_lower_bound": "[1000000000001.007514249697412049512084371, 1000000000001.007514249697412049512084371]",
+          "log_first_prefactor": "[15.43562580589466819151716877831742811741, 15.43562580589466819151716877831742811741]",
+          "first_doubled_log_coefficient": "[10.7066772009138046322702971644648100173, 10.7066772009138046322702971644648100173]",
+          "threshold_first_doubled_log_upper_bound": "[-205023992664.056304412417382716618625463, -205023992664.056304412417382716618625463]"
+        },
+        "conclusion": "For every h>=10^K the stated positive-part inequality holds, including actual product gap zero."
+      },
+      "threshold_power_of_ten": 123703019014182
+    },
+    {
+      "id": "pair:2:5:2679:2679",
+      "kind": "pair",
+      "edge_scaled": [
+        2,
+        5,
+        2679,
+        2679
+      ],
+      "source_file": "erdos_699_index_7_base_pairs_numerical.json",
+      "source_edge": [
+        2,
+        5,
+        2679,
+        2679
+      ],
+      "boxed_positive_part_upper_bound": "336619/500000000000",
+      "positive_part_threshold": "2824599609604502907/876497195953000000000000",
+      "gcd_certificate": {
+        "A": 255,
+        "B": 58,
+        "C": 255,
+        "directions": [
+          255,
+          58,
+          255
+        ],
+        "terms": 100000,
+        "m0": 10000000000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 49823,
+        "positive_terms": 32824,
+        "largest_positive_t": 99996,
+        "floor_stability_bound": 99450,
+        "ell_lower": "36394418445551/500000000000",
+        "theta_mode": "broadbent_johnston_yang",
+        "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+        "finite_RH_range_patched": true,
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m)."
+      },
+      "numerical_clause_bound": {
+        "seed": {
+          "P": 128,
+          "Q": 125,
+          "a": 1,
+          "b": 1,
+          "difference": 3
+        },
+        "directions": [
+          255,
+          58,
+          255
+        ],
+        "components": [
+          [
+            2,
+            7,
+            1,
+            0
+          ],
+          [
+            5,
+            3,
+            1,
+            1
+          ]
+        ],
+        "product_degree": 1,
+        "gap_bound": 8,
+        "maximum_shift": 8,
+        "gcd_m0": 10000000000000,
+        "original_gcd_log_rate": "8479196878331851577617691/116500460738250000000000",
+        "gcd_log_rate": "36394418445551/500000000000",
+        "gcd_rate_increase": "1472312165720328316721/233000921476500000000000",
+        "block_parameter": "464377587/963314911409",
+        "positive_part_threshold": "2824599609604502907/876497195953000000000000",
+        "original_positive_part_threshold": "2824599609604502907/876497195953000000000000",
+        "threshold_weakening": "0",
+        "positive_part_intercepts": {
+          "2": "-133949663381/500000000000",
+          "5": "-271477805081/1000000000000"
+        },
+        "factorial_prefactor_F": "58",
+        "integral_trim": "1/29",
+        "threshold_power_of_ten": 9009098674697460,
+        "intervals": {
+          "first_decay_rate": "[0.0182923929665909380192790220436627224139, 0.0182923929665909380192790220436627224139]",
+          "second_decay_rate": "[2074.439923359837580679634759542290495861, 2074.439923359837580679634759542290495861]",
+          "first_uniform_gain": "[0.000005595469236669900584173451171629831736446, 0.000005595469236669900584173451171629831736446]",
+          "second_uniform_gain": "[0.000005595469236698091275326155487080380198863, 0.000005595469236698091275326155487080380198863]",
+          "log_Q_integrand_maximum": "[-186.5865633856511057686625203294567622985, -186.5865633856511057686625203294567622985]",
+          "log_E_integrand_maximum": "[-354.1882998054732046853769622899760239162, -354.1882998054732046853769622899760239162]",
+          "log_Q_prefactor": "[10.49446243763783677689921175138756273559, 10.49446243763783677689921175138756273559]",
+          "log_E_prefactor": "[16.27383265901101260161350285347443382585, 16.27383265901101260161350285347443382585]",
+          "log_second_prefactor": "[14.71763926109572450987861371403477496327, 14.71763926109572450987861371403477496327]",
+          "second_doubled_log_coefficient": "[2082.906419320305557404028158110708087747, 2082.906419320305557404028158110708087747]",
+          "threshold_second_doubled_log_upper_bound": "[-116073622079.6962180854437898468377166095, -116073622079.6962180854437898468377166095]",
+          "threshold_block_lower_bound": "[10000000000001.00044662483103404363164309, 10000000000001.00044662483103404363164309]",
+          "log_first_prefactor": "[17.42593424323728987107153296596932841634, 17.42593424323728987107153296596932841634]",
+          "first_doubled_log_coefficient": "[10.49993615501618771418836472093763149424, 10.49993615501618771418836472093763149424]",
+          "threshold_first_doubled_log_upper_bound": "[-116073624151.5179074555423387834526256919, -116073624151.5179074555423387834526256919]"
+        },
+        "conclusion": "For every h>=10^K the stated positive-part inequality holds, including actual product gap zero."
+      },
+      "threshold_power_of_ten": 9009098674697460
+    },
+    {
+      "id": "pair:3:5:2562:3774",
+      "kind": "pair",
+      "edge_scaled": [
+        3,
+        5,
+        2562,
+        3774
+      ],
+      "source_file": "erdos_699_index_7_base_pairs_numerical.json",
+      "source_edge": [
+        3,
+        5,
+        2562,
+        3774
+      ],
+      "boxed_positive_part_upper_bound": "11120539/200000000000",
+      "positive_part_threshold": "72168421382313979/1120753984400000000000",
+      "gcd_certificate": {
+        "A": 34,
+        "B": 21,
+        "C": 34,
+        "directions": [
+          34,
+          21,
+          34
+        ],
+        "terms": 4000,
+        "m0": 100000000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1978,
+        "positive_terms": 1858,
+        "largest_positive_t": 3999,
+        "floor_stability_bound": 3951,
+        "ell_lower": "653705531201/40000000000",
+        "theta_mode": "broadbent_johnston_yang",
+        "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+        "finite_RH_range_patched": true,
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m)."
+      },
+      "numerical_clause_bound": {
+        "seed": {
+          "P": 625,
+          "Q": 2187,
+          "a": 7,
+          "b": 2,
+          "difference": 1
+        },
+        "directions": [
+          34,
+          21,
+          34
+        ],
+        "components": [
+          [
+            3,
+            7,
+            1,
+            1
+          ],
+          [
+            5,
+            4,
+            1,
+            0
+          ]
+        ],
+        "product_degree": 1,
+        "gap_bound": 8,
+        "maximum_shift": 8,
+        "gcd_m0": 100000000000,
+        "original_gcd_log_rate": "104233203020384793265253/6380436701000000000000",
+        "gcd_log_rate": "653705531201/40000000000",
+        "gcd_rate_increase": "2497878290889495767/398777293812500000000",
+        "block_parameter": "1721268680/978808370153",
+        "positive_part_threshold": "72168421382313979/1120753984400000000000",
+        "original_positive_part_threshold": "72168421382313979/1120753984400000000000",
+        "threshold_weakening": "0",
+        "positive_part_intercepts": {
+          "3": "-128099999999/500000000000",
+          "5": "-377344397307/1000000000000"
+        },
+        "factorial_prefactor_F": "19845/578",
+        "integral_trim": "2/21",
+        "threshold_power_of_ten": 24696381160112,
+        "intervals": {
+          "first_decay_rate": "[0.1149745529448223276362098896857251723415, 0.1149745529448223276362098896857251723415]",
+          "second_decay_rate": "[568.7030707109206792865252048082652000805, 568.7030707109206792865252048082652000805]",
+          "first_uniform_gain": "[0.0001377940227410383226888748332835984283861, 0.0001377940227410383226888748332835984283861]",
+          "second_uniform_gain": "[0.00001980523252485644063033704001253816210288, 0.00001980523252485644063033704001253816210288]",
+          "log_Q_integrand_maximum": "[-48.62474166720262343913507311336194086191, -48.62474166720262343913507311336194086191]",
+          "log_E_integrand_maximum": "[-47.136408372866964747297814144046214496, -47.136408372866964747297814144046214496]",
+          "log_Q_prefactor": "[8.16706127437360956039377042139459559832, 8.16706127437360956039377042139459559832]",
+          "log_E_prefactor": "[8.025315246341642065933079090983574039661, 8.025315246341642065933079090983574039661]",
+          "log_second_prefactor": "[-0.3583465524500727375753109853643562480783, -0.3583465524500727375753109853643562480783]",
+          "second_doubled_log_coefficient": "[563.3877442601948465568517733099181402037, 563.3877442601948465568517733099181402037]",
+          "threshold_second_doubled_log_upper_bound": "[-1126234233.564187006370208478997984967572, -1126234233.564187006370208478997984967572]",
+          "threshold_block_lower_bound": "[100000000001.0033224239609582706423028079, 100000000001.0033224239609582706423028079]",
+          "log_first_prefactor": "[18.63016461484516029215385686211705559029, 18.63016461484516029215385686211705559029]",
+          "first_doubled_log_coefficient": "[13.09501208895427731827471411736190056589, 13.09501208895427731827471411736190056589]",
+          "threshold_first_doubled_log_upper_bound": "[-7835728588.681389792714903806306784752433, -7835728588.681389792714903806306784752433]"
+        },
+        "conclusion": "For every h>=10^K the stated positive-part inequality holds, including actual product gap zero."
+      },
+      "threshold_power_of_ten": 24696381160112
+    },
+    {
+      "id": "pair:2:7:2757:3218",
+      "kind": "pair",
+      "edge_scaled": [
+        2,
+        7,
+        2757,
+        3218
+      ],
+      "source": {
+        "seed": {
+          "P": 8,
+          "Q": 7,
+          "a": 1,
+          "b": 1,
+          "difference": 1
+        },
+        "directions": [
+          152,
+          71,
+          152
+        ],
+        "left_block": 223,
+        "right_block": 223,
+        "gcd_terms": 100000,
+        "gcd_partial_sum": "67645644083183/1000000000000",
+        "gcd_log_rate": "13528454473761/200000000000",
+        "gcd_sum_rounding_denominator": 1000000000000,
+        "gcd_strict_margin": "1685857189/500000000000",
+        "height_scope": "Numerical threshold recorded below.",
+        "intervals": {
+          "q_saddle": "[0.2017464078840111143646823798959242, 0.2017464078840111143646823798959242]",
+          "e_saddle": "[0.49222485518807780055277665927146943, 0.49222485518807780055277665927146943]",
+          "log_Q_rate": "[215.26217110667836381088923185574665, 215.26217110667836381088923185574665]",
+          "log_E_rate": "[177.42513902502427494253067599747166, 177.42513902502427494253067599747166]",
+          "first_decay_rate": "[0.020450721394987094981210014844958903, 0.020450721394987094981210014844958903]",
+          "second_decay_rate": "[640.23021091845065319022083317528594, 640.23021091845065319022083317528594]",
+          "first_decay_per_right_block": "[0.000091707270829538542516636837869770866, 0.000091707270829538542516636837869770866]",
+          "second_decay_per_right_block": "[2.8709874929078504627364162922658562, 2.8709874929078504627364162922658562]"
+        },
+        "primes": [
+          2,
+          7
+        ]
+      },
+      "gcd_certificate": {
+        "A": 152,
+        "B": 71,
+        "C": 152,
+        "directions": [
+          152,
+          71,
+          152
+        ],
+        "terms": 100000,
+        "m0": 10000000000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 49867,
+        "positive_terms": 28747,
+        "largest_positive_t": 95249,
+        "floor_stability_bound": 99788,
+        "ell_lower": "13528454473961/200000000000",
+        "theta_mode": "broadbent_johnston_yang",
+        "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+        "finite_RH_range_patched": true,
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m)."
+      },
+      "numerical_pair_bound": {
+        "edge": [
+          2,
+          7,
+          2757,
+          3218
+        ],
+        "seed": {
+          "P": 8,
+          "Q": 7,
+          "a": 1,
+          "b": 1,
+          "difference": 1
+        },
+        "directions": [
+          152,
+          71,
+          152
+        ],
+        "gcd_log_rate": "13528454473761/200000000000",
+        "gcd_m0": 10000000000000,
+        "gap_bound": 8,
+        "maximum_shift": 8,
+        "block_parameter": "296964439/190124451565",
+        "factorial_prefactor_F": "236927/2888",
+        "left_block": 223,
+        "right_block": 223,
+        "threshold_power_of_ten": 2780467603044210,
+        "intervals": {
+          "first_decay_rate": "[0.02045072139498709498121001484495890321306, 0.02045072139498709498121001484495890321306]",
+          "second_decay_rate": "[640.2302109184506531902208331752859374142, 640.2302109184506531902208331752859374142]",
+          "log_Q_integrand_maximum": "[-177.4251390250242749425306759974716573373, -177.4251390250242749425306759974716573373]",
+          "log_E_integrand_maximum": "[-215.2621711066783638108892318557466500969, -215.2621711066783638108892318557466500969]",
+          "log_Q_prefactor": "[9.405079095921501452830690929111995471243, 9.405079095921501452830690929111995471243]",
+          "log_E_prefactor": "[10.47091098554556029419290377019016428137, 10.47091098554556029419290377019016428137]",
+          "log_first_prefactor": "[13.5639621792811733093340836578610548797, 13.5639621792811733093340836578610548797]",
+          "log_second_prefactor": "[8.391469443865724365941207405815634577146, 8.391469443865724365941207405815634577146]",
+          "available_block_per_log_height": "[0.00156194920495646666061404102608321446209, 0.00156194920495646666061404102608321446209]",
+          "first_gain": "[0.000031942956080698267934723589111092632809, 0.000031942956080698267934723589111092632809]",
+          "second_gain": "[0.000006068926115894638728027354724835541426771, 0.000006068926115894638728027354724835541426771]",
+          "log_coefficient": "[643.5461529761083472384482214773600477622, 643.5461529761083472384482214773600477622]",
+          "threshold_log_upper_bound": "[-38854861985.0487389721824213464820099624, -38854861985.0487389721824213464820099624]",
+          "threshold_block_lower_bound": "[10000000000001.00282942293839721098729394, 10000000000001.00282942293839721098729394]",
+          "first_doubled_log_coefficient": "[7.815738333908184777184242447506312985639, 7.815738333908184777184242447506312985639]",
+          "second_doubled_log_coefficient": "[643.5461529761083472384482214773600477622, 643.5461529761083472384482214773600477622]",
+          "threshold_first_doubled_log_upper_bound": "[-204507213905.6802921070765574027575236022, -204507213905.6802921070765574027575236022]",
+          "threshold_second_doubled_log_upper_bound": "[-38854861985.0487389721824213464820099624, -38854861985.0487389721824213464820099624]"
+        },
+        "conclusion": "For every h>=10^K, the two listed cofactor upper bounds cannot both hold.",
+        "threshold_bound_method": "Each of the two integer-bound terms is below one half.",
+        "integral_trim": "2/71",
+        "block_selection": "Within one part per million of the available integral-block limit."
+      },
+      "threshold_power_of_ten": 2780467603044210,
+      "coincident_positions": "u_p*u_q>=h and the two targets sum to less than one"
+    },
+    {
+      "id": "pair:3:7:505:3271",
+      "kind": "pair",
+      "edge_scaled": [
+        3,
+        7,
+        505,
+        3271
+      ],
+      "source": {
+        "seed": {
+          "P": 49,
+          "Q": 243,
+          "a": 5,
+          "b": 1,
+          "difference": 2
+        },
+        "directions": [
+          65,
+          42,
+          65
+        ],
+        "left_block": 107,
+        "right_block": 107,
+        "gcd_terms": 100000,
+        "gcd_partial_sum": "15726960322799/500000000000",
+        "gcd_log_rate": "31442316318181/1000000000000",
+        "gcd_sum_rounding_denominator": 1000000000000,
+        "gcd_strict_margin": "11604327417/1000000000000",
+        "height_scope": "Numerical threshold recorded below.",
+        "intervals": {
+          "q_saddle": "[0.24518547848803871293659205407007686, 0.24518547848803871293659205407007686]",
+          "e_saddle": "[0.49933796187809897063314387183992038, 0.49933796187809897063314387183992038]",
+          "log_Q_rate": "[90.280798895875414266728403925854443, 90.280798895875414266728403925854443]",
+          "log_E_rate": "[95.435782061704215776527413151745131, 95.435782061704215776527413151745131]",
+          "first_decay_rate": "[0.0045056347353790130718698636704580223, 0.0045056347353790130718698636704580223]",
+          "second_decay_rate": "[619.02690227608109282615257746435665, 619.02690227608109282615257746435665]",
+          "first_decay_per_right_block": "[0.000042108735844663673568877230565028246, 0.000042108735844663673568877230565028246]",
+          "second_decay_per_right_block": "[5.7852981521129074095902110043397818, 5.7852981521129074095902110043397818]"
+        },
+        "primes": [
+          7,
+          3
+        ]
+      },
+      "gcd_certificate": {
+        "A": 65,
+        "B": 42,
+        "C": 65,
+        "directions": [
+          65,
+          42,
+          65
+        ],
+        "terms": 100000,
+        "m0": 100000000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 49419,
+        "positive_terms": 4758,
+        "largest_positive_t": 15823,
+        "floor_stability_bound": 99888,
+        "ell_lower": "31442316319181/1000000000000",
+        "theta_mode": "broadbent_johnston_yang",
+        "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+        "finite_RH_range_patched": true,
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m)."
+      },
+      "numerical_pair_bound": {
+        "edge": [
+          3,
+          7,
+          505,
+          3271
+        ],
+        "seed": {
+          "P": 49,
+          "Q": 243,
+          "a": 5,
+          "b": 1,
+          "difference": 2
+        },
+        "directions": [
+          65,
+          42,
+          65
+        ],
+        "gcd_log_rate": "31442316318181/1000000000000",
+        "gcd_m0": 100000000000,
+        "gap_bound": 8,
+        "maximum_shift": 8,
+        "block_parameter": "613608359/379834988303",
+        "factorial_prefactor_F": "305172/4225",
+        "left_block": 107,
+        "right_block": 107,
+        "threshold_power_of_ten": 26883636286225,
+        "intervals": {
+          "first_decay_rate": "[0.004505634735379013071869863670458022289818, 0.004505634735379013071869863670458022289818]",
+          "second_decay_rate": "[619.0269022760810928261525774643566511554, 619.0269022760810928261525774643566511554]",
+          "log_Q_integrand_maximum": "[-95.43578206170421577652741315174513097395, -95.43578206170421577652741315174513097395]",
+          "log_E_integrand_maximum": "[-90.28079889587541426672840392585444269806, -90.28079889587541426672840392585444269806]",
+          "log_Q_prefactor": "[8.824417341830584945866734335445987317337, 8.824417341830584945866734335445987317337]",
+          "log_E_prefactor": "[8.578941952981594397781067229451192637533, 8.578941952981594397781067229451192637533]",
+          "log_first_prefactor": "[16.40511709405514785892989551993306412036, 16.40511709405514785892989551993306412036]",
+          "log_second_prefactor": "[5.15712528411670334122129877371317524296, 5.15712528411670334122129877371317524296]",
+          "available_block_per_log_height": "[0.001615461954546134776143403808161558125386, 0.001615461954546134776143403808161558125386]",
+          "first_gain": "[0.000007278674217404840983727252873066306927738, 0.000007278674217404840983727252873066306927738]",
+          "second_gain": "[0.00001340945314764224847664570657151272516379, 0.00001340945314764224847664570657151272516379]",
+          "log_coefficient": "[619.1421865980746847202819246957876575263, 619.1421865980746847202819246957876575263]",
+          "threshold_log_upper_bound": "[-450563431.111214830291368304394590762581, -450563431.111214830291368304394590762581]",
+          "threshold_block_lower_bound": "[100000000001.0030674177602063164017063841, 100000000001.0030674177602063164017063841]",
+          "first_doubled_log_coefficient": "[10.67463458610747011549258171986317670254, 10.67463458610747011549258171986317670254]",
+          "second_doubled_log_coefficient": "[619.1421865980746847202819246957876575263, 619.1421865980746847202819246957876575263]",
+          "threshold_first_doubled_log_upper_bound": "[-450563431.111214830291368304394590762581, -450563431.111214830291368304394590762581]",
+          "threshold_second_doubled_log_upper_bound": "[-830069442.6436623297381433530597286803107, -830069442.6436623297381433530597286803107]"
+        },
+        "conclusion": "For every h>=10^K, the two listed cofactor upper bounds cannot both hold.",
+        "threshold_bound_method": "Each of the two integer-bound terms is below one half.",
+        "integral_trim": "1/21",
+        "block_selection": "Within one part per million of the available integral-block limit."
+      },
+      "threshold_power_of_ten": 26883636286225,
+      "coincident_positions": "u_p*u_q>=h and the two targets sum to less than one"
+    },
+    {
+      "id": "pair:5:7:3931:2667",
+      "kind": "pair",
+      "edge_scaled": [
+        5,
+        7,
+        3931,
+        2667
+      ],
+      "source": {
+        "seed": {
+          "P": 25,
+          "Q": 49,
+          "a": 2,
+          "b": 1,
+          "difference": 1
+        },
+        "directions": [
+          159,
+          79,
+          159
+        ],
+        "left_block": 238,
+        "right_block": 238,
+        "gcd_terms": 100000,
+        "gcd_partial_sum": "77160870245571/1000000000000",
+        "gcd_log_rate": "77152205451789/1000000000000",
+        "gcd_sum_rounding_denominator": 1000000000000,
+        "gcd_strict_margin": "4332396891/500000000000",
+        "height_scope": "Numerical threshold recorded below.",
+        "intervals": {
+          "q_saddle": "[0.20099737345037399155595119607746519, 0.20099737345037399155595119607746519]",
+          "e_saddle": "[0.49874535448394271470508467832476165, 0.49874535448394271470508467832476165]",
+          "log_Q_rate": "[221.21377876556207897058460896776762, 221.21377876556207897058460896776762]",
+          "log_E_rate": "[197.31100801632419186224603768281051, 197.31100801632419186224603768281051]",
+          "first_decay_rate": "[0.019215141783476018995458370119957289, 0.019215141783476018995458370119957289]",
+          "second_decay_rate": "[1263.1370572756021810469819985668748, 1263.1370572756021810469819985668748]",
+          "first_decay_per_right_block": "[0.00008073588984653789493890071478973651, 0.00008073588984653789493890071478973651]",
+          "second_decay_per_right_block": "[5.3072985599815217691049663805330872, 5.3072985599815217691049663805330872]"
+        },
+        "primes": [
+          5,
+          7
+        ]
+      },
+      "gcd_certificate": {
+        "A": 159,
+        "B": 79,
+        "C": 159,
+        "directions": [
+          159,
+          79,
+          159
+        ],
+        "terms": 100000,
+        "m0": 1000000000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 49870,
+        "positive_terms": 13544,
+        "largest_positive_t": 44865,
+        "floor_stability_bound": 99643,
+        "ell_lower": "77152205452789/1000000000000",
+        "theta_mode": "broadbent_johnston_yang",
+        "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+        "finite_RH_range_patched": true,
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m)."
+      },
+      "numerical_pair_bound": {
+        "edge": [
+          5,
+          7,
+          3931,
+          2667
+        ],
+        "seed": {
+          "P": 25,
+          "Q": 49,
+          "a": 2,
+          "b": 1,
+          "difference": 1
+        },
+        "directions": [
+          159,
+          79,
+          159
+        ],
+        "gcd_log_rate": "77152205451789/1000000000000",
+        "gcd_m0": 1000000000000,
+        "gap_bound": 8,
+        "maximum_shift": 8,
+        "block_parameter": "633305543/799948032162",
+        "factorial_prefactor_F": "2483918/25281",
+        "left_block": 238,
+        "right_block": 238,
+        "threshold_power_of_ten": 548570938653018,
+        "intervals": {
+          "first_decay_rate": "[0.01921514178347601899545837011995728941765, 0.01921514178347601899545837011995728941765]",
+          "second_decay_rate": "[1263.137057275602181046981998566874759592, 1263.137057275602181046981998566874759592]",
+          "log_Q_integrand_maximum": "[-197.3110080163241918622460376828105122068, -197.3110080163241918622460376828105122068]",
+          "log_E_integrand_maximum": "[-221.2137787655620789705846089677676154316, -221.2137787655620789705846089677676154316]",
+          "log_Q_prefactor": "[9.582754698596351613289917964204356315103, 9.582754698596351613289917964204356315103]",
+          "log_E_prefactor": "[10.18788813528591837552633749040580196637, 10.18788813528591837552633749040580196637]",
+          "log_first_prefactor": "[15.57421924570433360016036511648943786646, 15.57421924570433360016036511648943786646]",
+          "log_second_prefactor": "[6.275865129857772316907586702495250119238, 6.275865129857772316907586702495250119238]",
+          "available_block_per_log_height": "[0.000791684148024660048759750834506638397545, 0.000791684148024660048759750834506638397545]",
+          "first_gain": "[0.00001521230793970110642283010002106743117538, 0.00001521230793970110642283010002106743117538]",
+          "second_gain": "[0.000004585022026277259939538419302763172831865, 0.000004585022026277259939538419302763172831865]",
+          "log_coefficient": "[1263.657867717887264314199544169797099628, 1263.657867717887264314199544169797099628]",
+          "threshold_log_upper_bound": "[-5791483377.306431054080859980257921961171, -5791483377.306431054080859980257921961171]",
+          "threshold_block_lower_bound": "[1000000000001.000633437251552811059457518, 1000000000001.000633437251552811059457518]",
+          "first_doubled_log_coefficient": "[9.145232519355175260048550265578308505023, 9.145232519355175260048550265578308505023]",
+          "second_doubled_log_coefficient": "[1263.657867717887264314199544169797099628, 1263.657867717887264314199544169797099628]",
+          "threshold_first_doubled_log_upper_bound": "[-19215141739.57764362485114189135612752805, -19215141739.57764362485114189135612752805]",
+          "threshold_second_doubled_log_upper_bound": "[-5791483377.306431054080859980257921961171, -5791483377.306431054080859980257921961171]"
+        },
+        "conclusion": "For every h>=10^K, the two listed cofactor upper bounds cannot both hold.",
+        "threshold_bound_method": "Each of the two integer-bound terms is below one half.",
+        "integral_trim": "2/79",
+        "block_selection": "Within one part per million of the available integral-block limit."
+      },
+      "threshold_power_of_ten": 548570938653018,
+      "coincident_positions": "u_p*u_q>=h and the two targets sum to less than one"
+    },
+    {
+      "id": "erdos_699_ap_cofactors.json:choices:0",
+      "kind": "ordinary_ap",
+      "hypothesis": {
+        "kind": "ap",
+        "middle": 2,
+        "endpoints": [
+          3,
+          5
+        ]
+      },
+      "targets": {
+        "2": ".348",
+        "3": ".483",
+        "5": ".243"
+      },
+      "gcd_certificate": {
+        "c": 11,
+        "d": 8,
+        "terms": 4000,
+        "m0": 100000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1895,
+        "positive_terms": 203,
+        "largest_positive_t": 683,
+        "ell_lower": "5899041743/15625000000"
+      },
+      "numerical_product_bound": {
+        "seed": [
+          16,
+          15,
+          1,
+          1,
+          11,
+          8
+        ],
+        "m0": 100000000,
+        "gap": 16,
+        "degree": 2,
+        "maximum_shift": 8,
+        "components": [
+          [
+            2,
+            4,
+            2,
+            0,
+            ".348"
+          ],
+          [
+            3,
+            1,
+            1,
+            1,
+            ".483"
+          ],
+          [
+            5,
+            1,
+            1,
+            1,
+            ".243"
+          ]
+        ],
+        "limiting_exponents": [
+          {
+            "prime": 2,
+            "exponent": "[0.348287523727139956961647, 0.348287523727139956961647]"
+          },
+          {
+            "prime": 3,
+            "exponent": "[0.483530081927695291620564, 0.483530081927695291620564]"
+          },
+          {
+            "prime": 5,
+            "exponent": "[0.243385245776716371628667, 0.243385245776716371628667]"
+          }
+        ],
+        "log_omega3": "[0.0190958945865698083615051, 0.0190958945865698083615051]",
+        "log_omega4": "[2.03737059112288593063817, 2.03737059112288593063817]",
+        "K": "[4.25431278851097100540578, 4.25431278851097100540578]",
+        "L": "[2.12621834527590585710807, 2.12621834527590585710807]",
+        "M": "[100000000.0, 100000000.0]",
+        "log_threshold_terms": [
+          "[2.0794415416798359282517, 2.0794415416798359282517]",
+          "[2338840203.19189824085385, 2338840203.19189824085385]",
+          "[53649.3244855005302330433, 53649.3244855005302330433]"
+        ],
+        "log_threshold": "[2338840203.19189824085385, 2338840203.19189824085385]",
+        "threshold_power_of_ten": 1015745395
+      },
+      "threshold_power_of_ten": 1015745395
+    },
+    {
+      "id": "erdos_699_ap_cofactors.json:choices:1",
+      "kind": "ordinary_ap",
+      "hypothesis": {
+        "kind": "ap",
+        "middle": 3,
+        "endpoints": [
+          2,
+          5
+        ]
+      },
+      "targets": {
+        "2": ".262",
+        "3": ".415",
+        "5": ".571"
+      },
+      "gcd_certificate": {
+        "c": 5,
+        "d": 4,
+        "terms": 4000,
+        "m0": 100000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1778,
+        "positive_terms": 171,
+        "largest_positive_t": 539,
+        "ell_lower": "311676144201/1000000000000"
+      },
+      "numerical_product_bound": {
+        "seed": [
+          81,
+          80,
+          1,
+          1,
+          5,
+          4
+        ],
+        "m0": 100000000,
+        "gap": 16,
+        "degree": 2,
+        "maximum_shift": 8,
+        "components": [
+          [
+            3,
+            4,
+            2,
+            0,
+            ".415"
+          ],
+          [
+            2,
+            4,
+            1,
+            1,
+            ".262"
+          ],
+          [
+            5,
+            1,
+            1,
+            1,
+            ".571"
+          ]
+        ],
+        "limiting_exponents": [
+          {
+            "prime": 3,
+            "exponent": "[0.415652509806711523487071, 0.415652509806711523487071]"
+          },
+          {
+            "prime": 2,
+            "exponent": "[0.262635564024497720269108, 0.262635564024497720269108]"
+          },
+          {
+            "prime": 5,
+            "exponent": "[0.571973199984426880947125, 0.571973199984426880947125]"
+          }
+        ],
+        "log_omega3": "[0.0224466819772523918229038, 0.0224466819772523918229038]",
+        "log_omega4": "[3.90727232300038724990453, 3.90727232300038724990453]",
+        "K": "[7.52026701307274856550461, 7.52026701307274856550461]",
+        "L": "[3.75689528758777945483595, 3.75689528758777945483595]",
+        "M": "[100000000.0, 100000000.0]",
+        "log_threshold_terms": [
+          "[2.0794415416798359282517, 2.0794415416798359282517]",
+          "[1878447662.57836616535687, 1878447662.57836616535687]",
+          "[22469.1433016616768752976, 22469.1433016616768752976]"
+        ],
+        "log_threshold": "[1878447662.57836616535687, 1878447662.57836616535687]",
+        "threshold_power_of_ten": 815799455
+      },
+      "threshold_power_of_ten": 815799455
+    },
+    {
+      "id": "erdos_699_ap_cofactors.json:choices:3",
+      "kind": "ordinary_ap",
+      "hypothesis": {
+        "kind": "ap",
+        "middle": 5,
+        "endpoints": [
+          2,
+          3
+        ]
+      },
+      "targets": {
+        "2": ".194",
+        "3": ".574",
+        "5": ".376"
+      },
+      "gcd_certificate": {
+        "c": 4,
+        "d": 3,
+        "terms": 4000,
+        "m0": 100000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1714,
+        "positive_terms": 160,
+        "largest_positive_t": 503,
+        "ell_lower": "376473179729/1000000000000"
+      },
+      "numerical_product_bound": {
+        "seed": [
+          25,
+          24,
+          1,
+          1,
+          4,
+          3
+        ],
+        "m0": 100000000,
+        "gap": 16,
+        "degree": 2,
+        "maximum_shift": 8,
+        "components": [
+          [
+            5,
+            2,
+            2,
+            0,
+            ".376"
+          ],
+          [
+            2,
+            3,
+            1,
+            1,
+            ".194"
+          ],
+          [
+            3,
+            1,
+            1,
+            1,
+            ".574"
+          ]
+        ],
+        "limiting_exponents": [
+          {
+            "prime": 5,
+            "exponent": "[0.376416956258010743846357, 0.376416956258010743846357]"
+          },
+          {
+            "prime": 2,
+            "exponent": "[0.194312203144809895481181, 0.194312203144809895481181]"
+          },
+          {
+            "prime": 3,
+            "exponent": "[0.574338351565293006314209, 0.574338351565293006314209]"
+          }
+        ],
+        "log_omega3": "[0.0564147595096578355592597, 0.0564147595096578355592597]",
+        "log_omega4": "[2.590704269952757994848, 2.590704269952757994848]",
+        "K": "[5.16190402733276924533752, 5.16190402733276924533752]",
+        "L": "[2.57995228496257559336439, 2.57995228496257559336439]",
+        "M": "[100000000.0, 100000000.0]",
+        "log_threshold_terms": [
+          "[2.0794415416798359282517, 2.0794415416798359282517]",
+          "[1031980924.30483937719606, 1031980924.30483937719606]",
+          "[28093.6127985062545173295, 28093.6127985062545173295]"
+        ],
+        "log_threshold": "[1031980924.30483937719606, 1031980924.30483937719606]",
+        "threshold_power_of_ten": 448183621
+      },
+      "threshold_power_of_ten": 448183621
+    },
+    {
+      "id": "erdos_699_additional_product_cofactors.json:choices:10",
+      "kind": "ordinary_ap",
+      "hypothesis": {
+        "kind": "ap",
+        "middle": 3,
+        "endpoints": [
+          5,
+          7
+        ]
+      },
+      "targets": {
+        "3": ".358",
+        "5": ".624",
+        "7": ".091"
+      },
+      "gcd_certificate": {
+        "c": 47,
+        "d": 39,
+        "terms": 4000,
+        "m0": 100000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1955,
+        "positive_terms": 309,
+        "largest_positive_t": 1031,
+        "ell_lower": "8367693667/31250000000"
+      },
+      "numerical_product_bound": {
+        "seed": [
+          245,
+          243,
+          1,
+          1,
+          47,
+          39
+        ],
+        "m0": 100000000,
+        "gap": 16,
+        "degree": 2,
+        "maximum_shift": 8,
+        "components": [
+          [
+            3,
+            5,
+            2,
+            1,
+            ".358"
+          ],
+          [
+            5,
+            1,
+            1,
+            0,
+            ".624"
+          ],
+          [
+            7,
+            2,
+            1,
+            0,
+            ".091"
+          ]
+        ],
+        "limiting_exponents": [
+          {
+            "prime": 3,
+            "exponent": "[0.3586029167207722957706, 0.3586029167207722957706]"
+          },
+          {
+            "prime": 5,
+            "exponent": "[0.624148102692088102482575, 0.624148102692088102482575]"
+          },
+          {
+            "prime": 7,
+            "exponent": "[0.0911435404090397924417152, 0.0911435404090397924417152]"
+          }
+        ],
+        "log_omega3": "[0.00909626425563686342423446, 0.00909626425563686342423446]",
+        "log_omega4": "[3.69125359215234998482722, 3.69125359215234998482722]",
+        "K": "[8.56421331892646420626384, 8.56421331892646420626384]",
+        "L": "[4.28143047096878614984676, 4.28143047096878614984676]",
+        "M": "[100000000.0, 100000000.0]",
+        "log_threshold_terms": [
+          "[2.0794415416798359282517, 2.0794415416798359282517]",
+          "[20122723414.7805270398127, 20122723414.7805270398127]",
+          "[1272357.57262648483684137, 1272357.57262648483684137]"
+        ],
+        "log_threshold": "[20122723414.7805270398127, 20122723414.7805270398127]",
+        "threshold_power_of_ten": 8739187740
+      },
+      "threshold_power_of_ten": 8739187740
+    }
+  ],
+  "maximum_initial_threshold_power_of_ten": 9009098674697460,
+  "conclusion": "Every listed initial source holds for all h=n-8 at least 10 to the displayed common power; all constants are numerical."
+}

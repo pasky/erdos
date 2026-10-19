@@ -5,7 +5,7 @@ desc: "Source notes for Problem 963: Lev: On Isoperimetric Stability."
 tags: []
 sources: []
 created: 2026-09-24T22:18:25Z
-updated: 2026-09-24T22:18:25Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Lev: On Isoperimetric Stability
@@ -147,8 +147,19 @@ $$|B|>\exp(c\gamma^2|S|),$$
 or $|S|<c^{-1}\gamma^{-2}\log|B|$, with an unspecified absolute constant. This
 is the paper’s result most directly aligned with E963’s notion.
 
+A possible use in E963 would be a counterexample strategy: if an $N$-element set
+$X\subset\mathbb R$ could be embedded in a popular-difference set $P_\gamma(B)$
+with $\gamma$ bounded away from zero and $|B|$ sufficiently small, the Section 5
+estimate would bound $d_D(X)$ from above. Alternatively, in a lower-bound
+argument it could control a high-multiplicity portion of the relation or
+difference structure. The paper supplies neither such an embedding nor a
+decomposition that covers an arbitrary $X$ by controlled popular-difference
+pieces.
+
 Accordingly, the connection is limited. All principal inequalities run from many
 internal translations to an *upper* bound on independent or dissociated
 dimension; E963 asks for a universal *lower* bound on dissociated dimension of
-an arbitrary real set. In particular, the paper neither proves
+an arbitrary real set. The compression argument and Theorem 3 might become
+useful if families of additive relations can be encoded as monotone multisets,
+but no such reduction is established. In particular, the paper neither proves
 $f(N)\ge\lfloor\log_2N\rfloor$ nor constructs a set violating it.

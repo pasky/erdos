@@ -12,7 +12,7 @@ tags:
 status: claimed
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1133
@@ -76,7 +76,7 @@ the file states the problem and a weaker variant without proofs and names no
 formal proof. Its
 [commit of 8 October 2026](https://github.com/google-deepmind/formal-conjectures/blob/121d72ce6ac513360240a84cd49af59684e3f6fc/FormalConjectures/ErdosProblems/1133.lean)
 relabels the statement research solved with `answer(True)`, citing Yang's
-arXiv preprint, a catalog label change and not acceptance (Current
+arXiv preprint, a formal-conjectures label change and not acceptance (Current
 assessment). The community database at teorth/erdosproblems lists the statement
 as formalized since 2026-06-08 and the problem as unformalized otherwise.
 
@@ -120,9 +120,9 @@ is compiled or reviewed in this wiki.
 and a weaker variant without proofs and names no formal proof. The
 formal-conjectures commit of 8 October 2026 changes the statement's category
 from research open to research solved and its answer from `sorry` to `True`,
-citing Theorem 2.1 of Yang's arXiv preprint; this is a catalog label change, not
-a formal proof, a review or an acceptance, and Yang's claim stays `claimed`. No
-Lean development of either claim is known.
+citing Theorem 2.1 of Yang's arXiv preprint; this is a formal-conjectures label
+change, not a formal proof, a review or an acceptance, and Yang's claim stays
+`claimed`. No Lean development of either claim is known.
 
 **Search scope.** The erdosproblems.com problem page, its thread (three posts by
 2026-10-07, of 29 April and 13 September 2026), and its proof-claims tab with

@@ -6,7 +6,7 @@ desc: |
   x, with a bounded positive phase coefficient defined as a uniform limit of
   finite arithmetic sums, and V(cx)/V(x) -> c for every c > 0; unverified here.
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T03:51:47Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -178,3 +178,8 @@ level; none was checked here.
   and the asymptotic formula is unverified here. The record is kept on the
   claim page of
   [[../wiki/problems/arithmetic_functions/E0416/_index|Problem 416]].
+- [[../wiki/research/erdos_416/_index|the Problem 416 research folder]]:
+  the folder's index names, for the write-up's route, an evaluation of that
+  route's pair counts as what the second question needs; the manuscript
+  claims a formula for $V(x)$ by a different decomposition and does not
+  evaluate those pair counts; unverified here.

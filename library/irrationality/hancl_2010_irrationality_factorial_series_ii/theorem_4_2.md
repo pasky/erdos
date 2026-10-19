@@ -7,7 +7,7 @@ desc: |
   progression for infinitely many N and b_n is o(n log n), which with b_n
   equal to n gives the irrationality of e to the m.
 created: 2026-10-08T15:37:37Z
-updated: 2026-10-08T15:37:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -40,4 +40,4 @@ of the same paper.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

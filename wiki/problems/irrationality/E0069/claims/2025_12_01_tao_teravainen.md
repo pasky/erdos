@@ -25,7 +25,7 @@ links:
 - url: https://www.erdosproblems.com/69
   kind: discussion
 created: 2026-10-07T08:25:57Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -70,8 +70,8 @@ its own page,
 [[problems/irrationality/E0069/claims/2024_09_23_pratt|Pratt]]; the
 unconditional proof does not use it.
 
-**Acceptance.** The `reviewed` evidence is the documented acceptance by the
-catalog erdosproblems.com. Its curator, Thomas Bloom, credits the unconditional
+**Acceptance.** The `reviewed` evidence is the documented acceptance by
+erdosproblems.com. Its curator, Thomas Bloom, credits the unconditional
 proof of irrationality to Tao and Teräväinen in the problem's remarks, and the
 page carried the label PROVED (last edited 2026-04-15). The problem has no forum
 comments and no proof claim. Crossref and the arXiv record listed no journal

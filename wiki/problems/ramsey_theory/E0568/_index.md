@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 568
@@ -118,6 +118,10 @@ is. On p. 2, the source describes its proof as nonconstructive and asks in
 Open problem 5 for an explicit example other than $K_4$. This is context for
 the property in this problem, but it neither proves nor refutes the stated
 criterion.
+
+
+The [[research/graph_ramsey_interfaces/ramsey_tree_test|uniform tree-bound argument]] gives $R(G,T_n)\le(|V(G)|-1)(n-1)+1$ for fixed $G$ and every tree $T_n$. Thus the tree hypothesis is automatic. The unresolved step is whether the quadratic clique hypothesis implies the linear edge-count bound uniformly over all no-isolate targets. The argument is author-recorded and does not settle that implication.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

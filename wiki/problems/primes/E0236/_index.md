@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 236
@@ -36,13 +36,17 @@ https://www.erdosproblems.com/236.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/236.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/prime_pattern_uniformity|second-moment comparison]]
+shows that a bound $\sum_{n\le X}r(n)^2\ll X$ permits
+$O_\varepsilon(X/\log^2X)$ values in a dyadic interval with
+$r(n)>\varepsilon\log n$. It controls almost all values, while the
+question requires a pointwise little-oh bound and still allows sparse
+spikes. Including exponent zero changes the count by at most one. This is
+an author-recorded limitation of the direct moment argument, not a
+counterexample to the problem.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

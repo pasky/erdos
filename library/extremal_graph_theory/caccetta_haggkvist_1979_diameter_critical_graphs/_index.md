@@ -9,7 +9,7 @@ desc: |
   extremal number for diameter k-critical graphs with k ≥ 3.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:09:04Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # extremal_graph_theory/caccetta_haggkvist_1979_diameter_critical_graphs
@@ -261,7 +261,7 @@ $\varepsilon\le[\nu^2/4]$ (and, the paper says without proof, all of
 Conjecture 1), and Theorem 2 proves $\overline{d(e)}\le\frac65\nu$, which
 gives only $\varepsilon\le\frac3{10}\nu^2$, the problem's bound only for
 $\nu\le4$, again within Fan's range $n\le24$, so it too settles no case
-left open. The § 3 conjecture is for $k\ge3$ and bears on no catalog
+left open. The § 3 conjecture is for $k\ge3$ and bears on no erdosproblems.com
 problem.
 
 **Results.**

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T15:47:04Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1035
@@ -46,13 +46,15 @@ https://www.erdosproblems.com/1035.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1035.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/graph_ramsey_interfaces/finite_reduction_obstructions|parameter comparison]]
+explains why embedding each fixed cube $Q_d$ in sufficiently large hosts
+does not imply a spanning $Q_n$ in a host of order $2^n$. The dimension
+now grows with the host, and a threshold depending on $d$ may exceed
+$2^d$. This author-recorded obstruction by Plasma AI leaves the requested
+uniform minimum-degree theorem open; it is not a counterexample.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

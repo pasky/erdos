@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T00:16:44Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 901
@@ -103,6 +103,14 @@ erdosproblems.com problem page (OPEN, last edited 28 December 2025, no proof
 claims) and its one-comment discussion thread (21 December 2025, pointing to
 [ErLo75]); the community database lists the problem as open and unformalized as
 of its last update; the formal-conjectures statement file is linked above.
+
+## Scoped deduction
+
+The [[research/methods/finite_set_thresholds|edge-minimality argument]]
+checks that for uniformity at least two the minimum over non-2-colorable
+hypergraphs equals the minimum over exactly 3-chromatic ones. This
+reconciles the two definitions used here and improves no numerical bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

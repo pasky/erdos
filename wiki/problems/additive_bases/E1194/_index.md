@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1194
@@ -74,6 +74,14 @@ not grow faster than $n^2$. Cilleruelo and Nathanson [CiNa08] build dense
 perfect difference sets from Sidon sets; their bounds concern the counting
 function, not $a_n$, so they give no claim here. How fast $a_n/n$ must grow is
 open between these bounds. This corpus has formalized none of these results.
+
+## Route analysis
+
+The [[research/sidon_extension_interfaces/difference_endpoints|unique
+differences and endpoint growth]] account records the following scope. Lev’s
+smallest-missing-difference greedy construction yields a_n=O(n^3) when its
+processing order is tracked, not merely from its density estimate.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

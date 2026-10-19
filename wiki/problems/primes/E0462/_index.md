@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 462
@@ -90,3 +90,28 @@ Search scope: the erdosproblems.com page and its discussion thread (two comments
 by 2026-10-07, of 2025-09-28 and 2026-09-18), the formal-conjectures statement
 file at its 2026-09-18 commit (no formal proof recorded) and the arXiv record of
 the preprint.
+
+## Exact local reduction and remaining uniformity
+
+A prime contributes one to the sum as worded. In a prime-free window of length
+$H=C\sqrt x(\log x)^2$, set $y=\sqrt x/(\log x)^3$. The contribution from least
+prime factors at most $y$ is bounded by
+
+$$
+\frac{H\pi(y)+\sum_{p\le y}p}{x}
+ \le\frac C{\log x}+\frac1{(\log x)^6}=o(1),
+$$
+
+since a prime $p$ divides at most $H/p+1$ integers in the window. For large
+$x$, $y^3>x+H$, so every remaining composite is a semiprime $pq$ with $y<p\le
+q$. Its weight is $1/q\le1/y$. A fixed lower mass $\delta>0$ therefore requires
+at least $(\delta/2)y$ such semiprimes eventually. One rough witness is far too
+little.
+
+This is a complete author quantitative reduction. The source-reported
+almost-every-window estimate does not remove exceptional windows, and its
+manuscript was not inspected. The held
+[[../library/primes/granville_1995_harald_cramer_distribution_prime_numbers/_index|statement
+of Maier's irregularity theorem]] supports the already-recorded objection to
+the quoted uniform prime-count hypothesis, not a disproof of this question. The
+missing input is uniform weighted semiprime mass in every window.

@@ -6,7 +6,7 @@ desc: |
   theorem that (ω_1, n+2) →^0 (ω_1, ω(n+1)+n+1)^2 for n < ω, while CH gives
   the negative relation with ω(n+1)+n+2 in the second place.
 created: 2026-10-08T15:36:20Z
-updated: 2026-10-08T15:36:20Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -15,7 +15,7 @@ updated: 2026-10-08T15:36:20Z
 
 **Definition 2** (printed p. 284). Let $a,b,c,d$ be order types and $r<\omega$.
 The relation $(a,b)\xrightarrow{0}(c,d)^r$ holds if for every ordered set
-$\langle S,<\rangle$ of type $a$ and every $I\subseteq[S]^r$ one of the
+$\langle S,\prec\rangle$ of type $a$ and every $I\subseteq[S]^r$ one of the
 following holds:
 
 - (i) some $X\subseteq S$ of type $c$ has $[X]^r\subseteq I$;
@@ -58,5 +58,5 @@ None.
 
 ## Bears on
 
-No Erdős problem page is linked: no catalog problem recorded here asks about
-the relation $\xrightarrow{0}$.
+No Erdős problem page is linked: no erdosproblems.com problem recorded here asks
+about the relation $\xrightarrow{0}$.

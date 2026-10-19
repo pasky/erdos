@@ -4,7 +4,7 @@ title: "External inputs and historical examples"
 desc: |
   Separates complete deductions from the exact outside theorems they use.
 created: 2026-09-05T12:22:53Z
-updated: 2026-10-07T20:53:42Z
+updated: 2026-10-18T10:20:03Z
 ---
 
 ***
@@ -61,10 +61,10 @@ three- and four-point planar results and the eight-point obstruction are
 historical context, linked in the digest, not hidden inputs to Theorem 1.2.
 
 **Related proof pages.**
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_1_3|theorem 1 3]],
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_2_5|theorem 2 5]],
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_3_1|theorem 3 1]],
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_3_2|theorem 3 2]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_1_3|Theorem 1.3]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_2_5|Theorem 2.5]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_3_1|Theorem 3.1]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_3_2|Theorem 3.2]],
 [[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/linear_sign_patterns|linear sign patterns]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]],

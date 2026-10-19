@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Beyer de Ryke: A density deficit for sums o
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-10-07T15:37:17Z
+updated: 2026-10-13T05:28:09Z
 ---
 
 # Beyer de Ryke: A density deficit for sums of three cube-full numbers
@@ -135,5 +135,14 @@ progression—does not imply global density zero. It is also compatible with
 $S_{\le3}$ having positive density; Section 1 (p. 2) records that this is
 unknown.
 
-The manuscript proves no density deficit, infinitude result, or density-zero
-statement for any $r\ge4$.
+The constructions most directly reusable in work on E940 are the canonical
+decomposition (16) and convergent weight (17), which apply to every $r$, and
+the finite-core/two-tail architecture of (10)–(15). For $r=3$, Lemma 3.1
+supplies the decisive local factor $1-2/q$, while Lemma 3.2 controls parts
+outside the finite core. An extension to $r\ge4$ would need an analog
+producing sufficiently strong multiplicative local savings while retaining
+summable tail weights. Proposition 6.1 shows why counting representations alone
+cannot establish density zero: there are asymptotically a positive constant
+times $X$ candidate $r$-tuples. The manuscript proves no density deficit,
+infinitude result, or density-zero statement for any $r\ge4$, and it does not
+resolve the density-zero question for $r=3$.

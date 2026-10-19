@@ -5,12 +5,12 @@ desc: |
   d-space can fall into one unit ball: 2^n n^{-d/2} for d-dimensional
   configurations (Theorem 1), 2^n n^{-1-d/2} when the vectors are also
   1-separated (Theorem 2) and 2^n n^{-3d/2} for scattered ones (Theorem 3),
-  from the paper's concentration inequality for sums of independent random
-  vectors (Theorem 4); Theorem 2 confirms Erdős's conjecture that fixing the
-  number of plus signs in the Sárközy–Szemerédi problem gives 2^n n^{-2}.
+  from its concentration inequality for sums of independent random vectors
+  (Theorem 4); Theorem 2 confirms Erdős's conjecture that fixing the number of
+  plus signs in the Sárközy–Szemerédi problem gives 2^n n^{-2}.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability
@@ -279,7 +279,7 @@ paragraph modifying the proof of Theorem 4 and was read for structure only.
   (p. 197): if for some $\delta>0$ and every unit vector $\mathbf e$ at
   least $\delta n$ of the $\mathbf a_k$ have $|(\mathbf a_k,\mathbf e)|\ge1$,
   at most $c(\delta,d)2^nn^{-d/2}$ of the $2^n$ signed sums lie in one open
-  unit ball. No catalog problem directly.
+  unit ball. No erdosproblems.com problem directly.
 - [[number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/theorem_2|Theorem 2]]
   (p. 198): under the condition of Theorem 1 and
   $|\mathbf a_k-\mathbf a_{k'}|\ge1$ for $k\ne k'$, at most
@@ -292,7 +292,7 @@ paragraph modifying the proof of Theorem 4 and was read for structure only.
   $\delta n^d$ of the $2^{d-1}n^d$ vectors
   $\mathbf a_{k_1}\pm\cdots\pm\mathbf a_{k_d}$ pairwise at distance at
   least $1$, at most $c(\delta,d)2^nn^{-3d/2}$ of the signed sums lie in
-  one open unit ball. No catalog problem directly.
+  one open unit ball. No erdosproblems.com problem directly.
 - [[number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/theorem_4|Theorem 4]]
   (p. 199): the concentration inequality
   $Q\le c(d)\mu n^{-1}D^{-d/2}$ ($n\ge8$) for a sum of $n$ independent

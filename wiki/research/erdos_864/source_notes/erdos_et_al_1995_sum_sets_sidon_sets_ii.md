@@ -5,7 +5,7 @@ desc: "Source notes for Problem 864: Erdős et al.: On sum sets of Sidon sets, I
 tags: []
 sources: []
 created: 2026-09-24T22:18:22Z
-updated: 2026-09-24T22:18:22Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Erdős et al.: On sum sets of Sidon sets, II
@@ -66,4 +66,12 @@ from a possible diagonal pair, so $r_A(s_0)\leq\lfloor(n+1)/2\rfloor$.
 Together with $A+A\subseteq[2,2N]$, this gives only $n\leq(2+o(1))\sqrt N$,
 short of E864’s proposed $2/\sqrt3$ constant.
 
-The paper gives no upper bound at $2/\sqrt3$ for sets with one repeated sum.
+Theorem 1’s local sum bound could enter an E864 upper bound if its difference
+count were extended to the exceptional sum: the decisive step, Eq. (3.8), uses
+each positive difference at most once, which the E864 condition does not ensure.
+Theorem 3 likewise applies directly only when a uniform bound $r_A(s)\leq g$
+is available; choosing $g=r_A(s_0)$ can weaken its conclusion substantially.
+The paper supplies techniques for controlling sum intervals and progression
+coverings, but gives no upper bound at $2/\sqrt3$ for sets with one repeated
+sum. Its subject is relevant because E864 asks how much Sidon sum set structure
+survives that single exception.

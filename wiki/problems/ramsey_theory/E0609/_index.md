@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 609
@@ -169,6 +169,20 @@ and does not itself supply the required cycle-length bound. This is the
 application boundary here; the paper's p. 3 comparison instead explains why
 the additive theorem is not a direct consequence of the graph-theoretic
 odd-cycle existence fact.
+
+
+The abstract of Luo and Xu's [*Generalized short monochromatic odd cycles*](https://arxiv.org/abs/2609.17773v1)
+claims that every $k$-coloring of $K_{r^k+1}$ has a monochromatic subgraph
+of chromatic number at least $r+1$ and diameter
+$O(k^{3/2}r^{k/2}\log r)$. At $r=2$ this is a nonbipartite subgraph at
+exactly the host order in this problem. A breadth-first search tree in a
+nonbipartite graph has an edge whose endpoints have the same level; the
+edge and the two tree paths, after their common initial segment is
+removed, give an odd cycle of length at most twice the diameter plus one.
+The resulting bound is therefore $O(k^{3/2}2^{k/2})$, the order already
+recorded above. This specialization was checked at abstract-statement
+depth only; the preprint's proof was not inspected.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,0 +1,55 @@
+{
+  "frozen_utc": "2026-10-17T06:43:02Z",
+  "examined_utc_date": "2026-10-17",
+  "omission_marker": "[cut]",
+  "scope": "Every finite-C C-linear simple graph, of arbitrary cardinality, is countably colorable; its complete implication to h_G(n)/n tending to infinity whenever chi(G)=aleph_1.",
+  "relation": "Verbatim copies of the supplied mathematical extractions, with their existing uniform cuts. They preserve the text examined and are not copies of subsequently edited source pages.",
+  "files": [
+    {
+      "source": "wiki/research/leads/linear_bipartization_countable_coloring/_index.md",
+      "snapshot": "lead.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    },
+    {
+      "source": "wiki/research/leads/linear_bipartization_countable_coloring/layered_rooted_measures.md",
+      "snapshot": "layered_rooted_measures.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    },
+    {
+      "source": "wiki/research/leads/linear_bipartization_countable_coloring/rooted_cut_measures.md",
+      "snapshot": "rooted_cut_measures.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    },
+    {
+      "source": "wiki/research/leads/linear_bipartization_countable_coloring/sparse_ladder_profiles.md",
+      "snapshot": "sparse_ladder_profiles.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    },
+    {
+      "source": "wiki/research/leads/linear_bipartization_countable_coloring/recursive_probe_cuts.md",
+      "snapshot": "recursive_probe_cuts.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    },
+    {
+      "source": "wiki/research/leads/linear_bipartization_countable_coloring/evidence/_index.md",
+      "snapshot": "evidence_index.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    },
+    {
+      "source": "wiki/research/leads/linear_bipartization_countable_coloring/evidence/assets/analytic_conclusions/subject.md",
+      "snapshot": "historical_mathematical_subject.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    },
+    {
+      "source": "wiki/research/leads/linear_bipartization_countable_coloring/evidence/assets/analytic_conclusions/later_wording.md",
+      "snapshot": "historical_mathematical_wording.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    },
+    {
+      "source": "wiki/problems/set_theory/E0111/_index.md",
+      "snapshot": "problem_formulation.md",
+      "reading": "Full supplied mathematical extraction; original source page not read."
+    }
+  ],
+  "unused_evidence": "The optional finite companion entry point and its runtime modules were not used and are not included. No computational output is a premise of this examination."
+}

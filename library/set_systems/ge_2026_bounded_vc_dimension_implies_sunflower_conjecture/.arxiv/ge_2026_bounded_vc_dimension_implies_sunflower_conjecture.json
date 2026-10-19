@@ -1,0 +1,47 @@
+{
+  "authors": [
+    "Gennian Ge",
+    "Jian Wang",
+    "Zixiang Xu",
+    "Xiaochen Zhao"
+  ],
+  "category": "math.CO",
+  "date": "2026-07-17",
+  "fetched": "2026-10-15",
+  "html": {
+    "bytes": 216130,
+    "files": 1,
+    "sha256": "bb2a2d5f5fa883b85763b622ab20c4152a4f222ac40f1a29906e53fa7fc5a75f",
+    "skipped": [],
+    "url": "https://arxiv.org/html/2609.18995v1"
+  },
+  "id": "2609.18995",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "pdf": {
+    "bytes": 328720,
+    "previous": [
+      {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": null
+      }
+    ],
+    "sha256": "44cb126702ce0e055b382795f592ee1ac048f18c7bd75e58390294a760549217",
+    "url": "https://arxiv.org/pdf/2609.18995v1"
+  },
+  "schema": 1,
+  "stamp": null,
+  "tex": {
+    "archive": {
+      "bytes": 11016,
+      "name": "arXiv-2609.18995v1.tar.gz",
+      "sha256": "0ec43129892dc1b4135149699ed7916eac8f3d2757134d71d9d55a8d86af1d1a"
+    },
+    "bytes": 31646,
+    "files": 3,
+    "sha256": "35088f218da29929bedd33d540782f839453a13f7e13bcefb59cb43d3bec09c2",
+    "url": "https://arxiv.org/src/2609.18995v1"
+  },
+  "title": "Bounded VC-dimension implies the Erd\\H{o}s--Rado sunflower conjecture",
+  "version": 1
+}

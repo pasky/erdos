@@ -10,7 +10,7 @@ desc: |
   nondecreasing maximum equals pi(x)+64 for every x >= 31957.
 license: unstated
 created: 2026-09-28T02:57:15Z
-updated: 2026-10-08T13:55:32Z
+updated: 2026-10-19T05:41:44Z
 ---
 
 # Pollack et al.: Sets of monotonicity for Euler's totient function
@@ -157,10 +157,10 @@ $o(N)$.
   [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/theorem_1_1|Theorem 1.1]]
   sharpens it to $(1+O((\log\log x)^5/\log x))\pi(x)$.
 - The §9 numerics concern the weak variant that Erdős further asks about in
-  erdosproblems.com's [Er95c]. The lower bound $M^\uparrow(x)\ge\pi(x)+64$ for
-  every $x\ge31957$, recorded in OEIS A365339 and on the numerics page, shows
-  that the primes are not a largest weak example there; it says nothing about
-  the strict maximum.
+  erdosproblems.com's [Er95c]. The lower bound $M^\uparrow(x)\ge\pi(x)+64$
+  for every $x\ge31957$, recorded in OEIS A365339 and on the numerics page,
+  shows that the primes are not a largest weak example there; it says nothing
+  about the strict maximum.
 - The p. 2 question whether $M^\uparrow(x)-\pi(x)\to\infty$ is recorded by
   Tao as open, with the $+64$ conjecture as the numerically supported
   alternative; Tao's §4 explains why it resists current methods. The second

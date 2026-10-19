@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1066
@@ -46,13 +46,16 @@ https://www.erdosproblems.com/1066.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/graph_ramsey_interfaces/minimum_distance_independence_limit|separated-union argument]]
+makes $g$ subadditive and proves
+$\lim_{n\to\infty}g(n)/n=\inf_{m\ge1}g(m)/m$. This author-recorded
+proof by Plasma AI establishes existence only. It does not determine the
+limit, prove finite attainment, or give a rate of convergence. The source
+bounds $8/31$ and $5/16$ retain the reading limits stated in the research
+account; neither identifies the infimum.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

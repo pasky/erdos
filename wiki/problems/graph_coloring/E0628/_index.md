@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 628
@@ -106,6 +106,15 @@ file.
 Search scope: the erdosproblems.com problem page (last edited 6 December 2025,
 no proof claims filed) and discussion thread, the community database, the
 formal-conjectures statement file, Crossref and the references listed above.
+
+## Scoped deduction
+
+The [[research/methods/chromatic_threshold_interfaces|double-critical reduction]]
+checks that failure at $a=2$ forces
+$\chi(G-\{u,v\})=k-2$ for every edge $uv$. This deletes both endpoints,
+not only the edge, and is not ordinary edge-criticality. It supplies no
+new graph exclusion beyond that exact equivalence.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

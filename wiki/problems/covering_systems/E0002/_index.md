@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 2
@@ -104,12 +104,13 @@ https://www.erdosproblems.com/2.
   On the j-th smallest modulus of a covering system with distinct moduli.
   Int. J. Number Theory 20 (2024), 471–479.
 
-**Formalization.** erdosproblems.com's linked artifact is a catalog statement of
-the qualitative answer whose theorem body is `sorry`; the development behind the
-erdosproblems.com Lean label was a lean-proofs file formalizing the proof of
-Balister, Bollobás, Morris, Sahasrabudhe and Tiba, linked at a pinned commit on
-their claim page. See Formalization and verification scope below for the pinned
-revisions and public-build limits. This corpus has built neither file.
+**Formalization.** erdosproblems.com's linked artifact is a formal-conjectures
+statement of the qualitative answer whose theorem body is `sorry`; the
+development behind the erdosproblems.com Lean label was a lean-proofs file
+formalizing the proof of Balister, Bollobás, Morris, Sahasrabudhe and Tiba,
+linked at a pinned commit on their claim page. See Formalization and
+verification scope below for the pinned revisions and public-build limits. This
+corpus has built neither file.
 
 ## Current assessment
 

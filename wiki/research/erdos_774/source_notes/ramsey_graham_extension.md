@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Ramsey–Graham: permutation and extension.
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Ramsey–Graham: permutation and extension
@@ -26,3 +26,10 @@ quasi-independent sets (and also the class of independent sets).  This gives a
 large symmetry group for normalizing finite configurations.  The empty-floor
 criterion and extension results show how a quasi-independent configuration
 survives when a prime coordinate is enlarged or a new prime factor is added.
+
+For E0774, these results are most useful operationally: quotient candidate
+blocks by coordinatewise symmetry, transport a good configuration to larger
+prime boxes, and test whether a recursively enlarged family retains a uniform
+extraction ratio.  They do not by themselves force high chromatic number, and
+the construction still lives among planar roots of unity rather than positive
+integers.

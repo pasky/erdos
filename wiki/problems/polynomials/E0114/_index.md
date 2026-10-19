@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 # Problem 114
 
 [[problems/polynomials/_index|..]]
 
-[[problems/polynomials/E0114/claims/_index|claims/]]: The 6 claim pages of Problem 114, one per claimant's result; the problem's standing derives from them.
+[[problems/polynomials/E0114/claims/_index|claims/]]: The 7 claim pages of Problem 114, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -26,15 +26,19 @@ then is the length of the curve $\{ z\in \mathbb{C} : \lvert p(z)\rvert=1\}$
 maximised when $p(z)=z^n-1$?
 
 **Status.** Falsifiable. The erdosproblems.com label was FALSIFIABLE (page last
-edited 2026-01-23): open, but refutable by a finite counterexample. Six partial
-claims are recorded, and none settles the question. Degree $2$ is proved twice,
-by Wang ([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]],
-accepted, refereed) and by Eremenko and Hayman
+edited 2026-01-23): open, but refutable by a finite counterexample. Seven
+partial claims are recorded, and none settles the question. Degree $2$ is
+proved twice, by Wang
+([[problems/polynomials/E0114/claims/1998_01_01_wang|Wang 1998]], accepted,
+refereed) and by Eremenko and Hayman
 ([[problems/polynomials/E0114/claims/1999_09_01_eremenko_hayman|Eremenko–Hayman 1999]],
 accepted, refereed). Tao proves all sufficiently large degrees in an arXiv
 preprint ([[problems/polynomials/E0114/claims/2025_12_13_tao|Tao 2025]],
-pending). Degree $3$ has two pending claims, and no review or acceptance of
-either is recorded. Dahlke's Zenodo manuscript was announced on the
+pending). Degree $3$ has three pending claims. No review or acceptance of
+Dahlke's or Chatelet's is recorded; Plasma AI's
+([[problems/polynomials/E0114/claims/2026_10_19_plasma_ai|Plasma AI 2026]]) has
+the independently graded whole-claim examination described under Current
+assessment. Dahlke's Zenodo manuscript was announced on the
 erdosproblems.com discussion thread on 2026-05-21
 ([[problems/polynomials/E0114/claims/2026_05_20_dahlke|Dahlke 2026]]).
 Chatelet's write-up and Lean development were posted in August 2026 and
@@ -117,8 +121,10 @@ the third pending as an arXiv preprint
 ([[problems/polynomials/E0114/claims/2025_12_13_tao|Tao 2025]]); because the
 erdosproblems.com label was an open one, its remarks are commentary and not
 acceptance. The general upper bounds $f(n)\le 2\pi n$ [Da07] and
-$f(n)\le 2n+O(n^{7/8})$ [FrNa09] precede Tao's result. The degrees from $3$ up
-to Tao's bound remain open; two pending claims treat degree 3, Dahlke's
+$f(n)\le 2n+O(n^{7/8})$ [FrNa09] precede Tao's result. Among the external
+claims listed here, degrees from $3$ up to Tao's bound lack accepted
+coverage; the separate project cubic result is described below. Two pending
+external claims treat degree 3, Dahlke's
 manuscript ([[problems/polynomials/E0114/claims/2026_05_20_dahlke|Dahlke 2026]])
 and Chatelet's write-up
 ([[problems/polynomials/E0114/claims/2026_08_22_chatelet|Chatelet 2026]]), the
@@ -136,8 +142,31 @@ the erdosproblems.com references, its proof-claims tab and its discussion thread
 (nine comments, the last of 2026-09-05), the Zenodo records of Dahlke and
 Mendoza, the Mendoza repository and its issue #4, Chatelet's Zenodo record and
 repository, and the zbMATH record of Wang 1998; no wider literature search is
-recorded. Proof coverage: none of the proofs is reconstructed or compiled in
-this corpus.
+recorded. This source assessment supplies no independent acceptance of
+those external submissions; the project cubic deduction and its retained
+whole-claim examination are described below.
+
+**A deduction and its scope.**
+[[research/erdos_114/cubic_extremizer_reduction|Cubic extremizers with critical values on the unit circle]] gives the
+argument and source boundaries: an existential reduction of a cubic lemniscate
+maximizer to a compact real family. The project claim
+[[theory/polynomials/L144_cubic_lemniscate_length/_index|L144]] proves the
+inequality for that family with a written reduction to explicit integrals and
+ball-arithmetic bounds, and with Lemmas 4 and 5 of [ErHa99] and the
+deformation in the proof of Lemma 5 deduces that $z^3-1$ maximizes the length
+among monic complex cubics and is the only maximizer up to rotation and
+translation. Its [independently graded whole-claim examination](../../../theory/polynomials/L144_cubic_lemniscate_length/evidence/verify/_index.md)
+warrants tier 1 for this computer-assisted degree-3 result, with the source,
+arithmetic and exposure qualifications retained on L144. This argument leaves
+the all-degree question open.
+
+For degree four, the
+[[research/erdos_114/_index|quartic research account]] combines compact
+coordinates, an explicit small-curvature estimate and certified strict
+bounds on both collision pencils, all at author-recorded tier 0. Practical
+neighborhoods of those pencils and the regular two-dimensional complement
+remain unresolved; these results do not establish the full quartic bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

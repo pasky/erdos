@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-14T12:38:34Z
 ---
 
 # Problem 1163
@@ -91,3 +91,12 @@ beyond Roney-Dougal and Tracey's paper the literature on the orders of
 subgroups of $S_n$, including the work of Kovács and Praeger that the claim
 cites, was not searched. (2) The pending claim has no referee or reviewer and
 no manuscript record, and no check of its argument is recorded.
+
+## Scoped deduction
+
+The [[research/methods/subgroup_counting_interfaces|counting and conditioning analysis]]
+uses uniform sampling from concrete subgroups. For every fixed odd prime
+$p$ it derives an exponentially small probability of being a $p$-group
+from the held statements, which says nothing by itself about $p$ dividing
+the order. It also preserves the source's nilpotence condition and gives
+no complete arithmetic distribution.

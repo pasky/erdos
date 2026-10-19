@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 826
@@ -38,9 +38,24 @@ https://www.erdosproblems.com/826.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/826.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The distinction between $\omega$ and $\Omega$ is essential. Since $e+1\le2^e$,
+
+$$
+\tau(m)=\prod_{p^e\parallel m}(e+1)\le2^{\Omega(m)}.
+$$
+
+Consequently
+[[../library/arithmetic_functions/lau_2026_number_prime_factors_consecutive_integers/_index|Lau's
+logarithmic bound for $\Omega$]] yields a polynomial bound of exponent
+$C\log2$, not automatically exponent one. Replacing the source starting point
+by $N=n+1$ supplies the missing $k=1$ endpoint at a constant cost for that
+polynomial bound. To obtain the target by this inequality one needs
+$\Omega(n+k)\le\log k/\log2+O(1)$ uniformly, or direct control of the divisor
+product. A bound only on distinct prime factors omits the exponents. The
+specialization and elementary inequality are checked; the full sieve proof and
+any improvement to its coefficient are not audited here.
 
 ## Known Results
 

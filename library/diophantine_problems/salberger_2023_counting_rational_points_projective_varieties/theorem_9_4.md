@@ -7,7 +7,7 @@ desc: |
   each locus a_0x_0^d+a_jx_j^d = 0 is a union of d^2 lines, and for d at
   least 3 every other closed integral curve has degree at least (d+1)/3.
 created: 2026-10-08T16:39:21Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -52,7 +52,6 @@ print; the proof was read for its structure only.
 
 ## Bears on
 
-No Erdős problem page of the corpus cites this theorem. Its nearest
-consequence for Problem 940 is
-[[diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/corollary_0_7|Corollary 0.7]],
-which does not settle it.
+No Erdős problem page of the corpus cites this theorem. It enters the
+Problem 940 discussion only through
+[[diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/corollary_0_7|Corollary 0.7]].

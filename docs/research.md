@@ -1,15 +1,16 @@
 ---
 name: research
 desc: |
-  Develop editable arguments, preserve useful partial work and obstructions,
-  connect research to precise targets, source results, and evidence, and
+  Advance each target along an editable proof sketch, attempt boldly where
+  known methods stall, keep the partial results and obstructions met on the
+  way, connect research to precise targets, source results, and evidence, and
   state the lead page format, with the Erdos-specific problem targets,
   research folders, generated views, and lead target field in their own
   section.
 tags: []
 sources: []
 created: 2026-09-05T21:19:28Z
-updated: 2026-09-08T01:42:35Z
+updated: 2026-10-19T02:48:45Z
 ---
 
 # research
@@ -47,11 +48,13 @@ trees or one lead per target. Use reciprocal body links between leads, the pages
 of their targets, and shared research pages where they support useful navigation
 in either direction. Index link rows are still written by the wiki tool.
 
-Priority may be recorded in prose with its current reasons. Do not turn a
-priority ranking into a mathematical confidence score. Mathematical status lives
-on the target's canonical page; a lead's research state never changes that
-status by itself. A blocked lead may have a reviewed and useful explanation of
-its gap.
+Priority may be recorded in prose with its current reasons. Weigh how far a
+route would move its target if it succeeded, as well as how likely it is to
+succeed; a safe route to a result that moves no link toward the target ranks
+low. Do not turn a priority ranking into a mathematical confidence score.
+Mathematical status lives on the target's canonical page; a lead's research
+state never changes that status by itself. A blocked lead may have a reviewed
+and useful explanation of its gap.
 
 ## Develop the argument
 
@@ -67,21 +70,99 @@ support for each established link, provisional premises, consequential gaps, and
 the conclusion currently supported. Use the shape the argument needs;
 researchers may replace its intermediate statements or entire decomposition.
 
-Scouting names the strategic question, the sources or mechanisms compared, and
-the observation that would change the next move. A supported source finding or a
-precise obstruction is enough to complete a scouting task. Once the work becomes
-a sustained attack, carry its surviving arguments into the editable sketch. Use
-[[approach_vetting]] for scoped tests of implications, obstructions, and
-computational claims; no fixed decomposition is an entrance requirement.
+Each round of work on an attack aims at tangible progress along its sketch.
+Tangible progress is one of these:
+
+- a link proved, from stated premises when they are provisional;
+- a premise discharged, or replaced by one it follows from that the sketch can
+  plausibly attack, with that implication proved and the construction, estimate,
+  or theorem the new premise makes available named; a merely stronger or renamed
+  premise is not progress;
+- a case of the target ruled out: a proved statement about the problem's own
+  objects that the decomposition needs, leaving a remainder that is not the same
+  difficulty over a smaller or cofinal range; a finding that a method fails is
+  not one;
+- a gap closed, or narrowed to an obligation that, together with the proved
+  part, implies the gap and is easier for a stated reason; finite checks, larger
+  computed bounds, and density-one results narrow a gap only when the sketch
+  reduces the rest of the gap to them;
+- a missing object constructed with every property the argument consumes;
+- a link shown false, or a held link found defective, with the sketch corrected
+  to show it;
+- a sketch, first or replacement, laid out to meet the test below.
+
+Progress is real distance along the sketch toward the target: a notable advance
+on a link counts, while a small step that leaves the remaining distance about
+the same does not. Judge the remaining distance by what the sketch still owes,
+above all its hardest open link. A round that proves that link, or reduces it to
+an easier one for a stated reason, moves far. Proving an easier link the sketch
+needs still counts, but most of the distance remains while the hardest link
+stays as hard, so easier links do not replace an attack on it. A link shown
+false, with the sketch corrected, counts because it stops later work from
+building on a false step. Correcting the sketch's standing is always useful
+work. The round ends with the sketch stating what it now establishes and what it
+still owes.
+
+A laid-out sketch counts as progress only when each implication states its
+direction, its hardest link is neither equivalent to the target nor the link it
+replaces under a new name, and the reason that link is more tractable names the
+construction, estimate, or theorem it makes available. The next round attacks
+the new hard link: a round that replaces a sketch whose hard link has not yet
+been attacked makes no progress, unless a link of that sketch failed.
+
+Choose for each round the bet with the highest expected value toward solving the
+target within the attack's scope. The bet will need partial results along the
+way, but agents tend to undershoot toward more reachable goals, and reaching one
+does not advance the target. Use a known method where it carries a link. Where
+known methods stall, favor routes that connect areas not yet connected to the
+problem in the corpus or the literature read, or that build the new theory a
+hard link needs, even at a real risk of failure; the sketch itself can be the
+bold part. Beyond testing the sketch's own links, pursue an obstruction only
+when it decides between a few live methods or routes; one that rules out a
+single method among many does not advance the target. A bet that fails is useful
+work when it named beforehand the link it targeted and the implication it would
+give, differs from the attempts already recorded on that link, if only by
+carrying what their post-mortems taught, and ends in a post-mortem of its own.
+The post-mortem records where and why the attempt broke and what it taught, and
+asks from first principles whether to retry the same angle or a slightly
+different one, or to revise the sketch and try a wholly different angle; these
+angles are not exclusive, and several sketches and angles can be pursued in
+parallel. A round in which no link moved says so plainly. Ambition governs what
+is attempted, never what is claimed: an unbuilt piece of theory stays a gap
+until it is proved, a claim that a connection is new needs the literature
+reading above, and the rules on this page for gaps, conditional results,
+evidence, and review apply in full.
+
+Scouting aims to lay out a route worth a sustained attack. It names the
+strategic question, the sources or mechanisms compared, and the observation that
+would change the next move, and it looks past the methods already tried on the
+target. A scouting task completes with one of four outcomes: a first proof
+sketch that meets the test above, or a link of an existing sketch advanced; a
+supported choice between routes; a supported source finding that settles the
+source question asked; or a precise answer to whether a route survives, which is
+a supported escape or a precise obstruction when the task asked that question,
+or a precise obstruction to each compared route when none survives. An
+obstruction that answers is recorded with what would reopen it. Other
+obstructions met while scouting are recorded and narrow the choice of route, but
+they do not complete the task. Once the work becomes a sustained attack, carry
+its surviving arguments into the editable sketch. Use [[approach_vetting]] for
+scoped tests of implications, obstructions, and computational claims; no fixed
+decomposition is an entrance requirement.
 
 The brief for a bounded task (a commission) names the target or exact variant,
 the inputs it can reach, what it may read and write, who will use the result,
-its resources, and when it is usefully complete. Keep these operational terms
-off the mathematical page. For independent review, identify the mathematical
-subject by its frozen paths and the date they were frozen; a private commission
-also names the pinned revision. Separately, under [[verification]], name the
-permitted operating instructions and the narrow reads allowed for checking
-dependency standing. General reading links do not enlarge a frozen review set.
+its resources, and when it is usefully complete. Inside a sustained attack, that
+completion point is the link, premise, case, or gap of the sketch that the work
+is to advance, or the test that decides whether a link survives, not a partial
+result or obstruction to collect for its own sake. A failed attempt at that
+progress is useful work when it meets the conditions above for a bet that fails,
+but it does not by itself reach that point; work continues toward it within the
+brief's resources and reasons to stop. Keep these operational terms off the
+mathematical page. For independent review, identify the mathematical subject by
+its frozen paths and the date they were frozen; a private commission also names
+the pinned revision. Separately, under [[verification]], name the permitted
+operating instructions and the narrow reads allowed for checking dependency
+standing. General reading links do not enlarge a frozen review set.
 
 Check interfaces between steps: objects, hypotheses, quantifier order,
 constants, parameter ranges, and conventions. Cite source versions and precise
@@ -117,23 +198,37 @@ required before investigating an idea.
 A reformulation states its implication direction: equivalent, stronger, or
 weaker. Explain which construction, estimate, operation, or theorem it enables.
 Giving the difficult assumption a new name leaves it unproved. New routes need
-not fit existing decompositions, and counts of claims or completed checks do not
-measure progress toward the mathematical target.
+not fit existing decompositions or rest on existing methods. Counts of claims,
+small results, recorded obstructions, or completed checks do not measure
+progress toward the mathematical target; the sketch does, by what it establishes
+and what it still owes.
 
 ## Partial progress and failures
 
-Preserve useful partial results, exact witnesses, conditional arguments, and
-failed approaches. A counterexample refutes an implication only when it meets
-the hypotheses and defeats the conclusion. A defective proof leaves its target
-unresolved; failure of one route does not prohibit an entire research direction.
-Cost bounds constrain their specified mechanism and resource model, not every
-possible proof.
+Preserve useful partial results, exact witnesses, conditional arguments,
+obstructions, and failed approaches at their exact standing, naming the link or
+gap each bears on where it bears on one. Those that move no link are not the aim
+of an attack, but the work seeks them when it needs them: a counterexample test
+of a pivotal assertion before building on it, a witness the target or a link
+needs, or a test of whether a route survives when the answer decides between a
+few live routes; a conditional argument that proves a link from stated premises
+is progress. A failed attempt is a tentative judgment about that attempt, not an
+obstruction to the link it targeted, unless a counterexample or proof shows that
+the link cannot hold in that form. A counterexample refutes an implication only
+when it meets the hypotheses and defeats the conclusion. A defective proof
+leaves its target unresolved; failure of one route does not prohibit an entire
+research direction. Cost bounds constrain their specified mechanism and resource
+model, not every possible proof.
 
 A dead end explains its obstruction precisely enough to prevent rediscovery,
 distinguishes a proved obstruction from a tentative judgment, and states what
 would justify reopening it. Preserve narrower surviving results. A correction to
 an old obstruction must explain why it was wrong; do not silently erase or
-weaken it.
+weaken it. The owning sketch names the link or decomposition the obstruction
+blocks, and the next round of work on that sketch repairs or replaces that part,
+or the lead records that it is blocked, deferred, or closed with its actual
+outcome. Do not lay out a route only so that the next round has a link to
+attack: when no credible repair or replacement is in view, say so.
 
 For a missing input or access gap, identify what was checked, what remains
 missing, and the next useful recovery or verification action. For a proposed
@@ -141,12 +236,13 @@ construction, provide the object or justify its existence and every property the
 argument consumes. Naming a desired witness does not supply it; the obligation
 remains.
 
-Keep useful next investigations with their required inputs and what a positive
-or negative outcome would establish. Separate routine reconstruction from new
-mathematics. When a premise changes or a gap closes, reconcile the owning
-argument and affected reviews, retaining valid alternatives and conditional
-results. Explain superseded directions in place; current records and exact
-historical assessments follow [[evidence]].
+Keep the useful next attacks along the sketch with their required inputs, the
+link, case, or gap each would advance, and what a positive or negative outcome
+would establish. Separate routine reconstruction from new mathematics. When a
+premise changes or a gap closes, reconcile the owning argument and affected
+reviews, retaining valid alternatives and conditional results. Explain
+superseded directions in place; current records and exact historical assessments
+follow [[evidence]].
 
 Operational records belong in local working storage: task assignments, the
 choice of model for each task, counts of work passes, budgets, and coverage
@@ -211,10 +307,10 @@ The rules below are specific to this repository and hold in addition to the
 shared text above; a sentence that differs from the shared text says that it
 governs here.
 
-A target is a catalog problem, identified by its E-number under [[anatomy]]; its
-canonical page is its problem page, and target identifiers are problem numbers.
-The current assessment of a target is the problem assessment: the
-`## Current assessment` of its problem page, with its status search under
+A target is an erdosproblems.com problem, identified by its E-number under
+[[anatomy]]; its canonical page is its problem page, and target identifiers are
+problem numbers. The current assessment of a target is the problem assessment:
+the `## Current assessment` of its problem page, with its status search under
 [[anatomy]]. Link the problem assessment and explain any different target or
 incomplete search.
 

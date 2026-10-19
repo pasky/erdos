@@ -12,7 +12,7 @@ status: solved
 claim: proved
 parts: [splitting, basis]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 741
@@ -41,11 +41,11 @@ the formal-conjectures file under Formalization lists the lower-density
 reading as an open variant (`erdos_741.variants.lower`).
 
 **Status.** Proved. Bloom's catalog labeled the problem SOLVED (LEAN), and the
-suffix is a catalog label explained under Formalization. Both questions are
-answered yes. The first is answered under the upper-density reading of the
-Formulation. The second is answered by an explicit basis of order $2$ that no
-bipartition splits into two self-sumsets with bounded gaps. There are three
-claim pages. The first is
+suffix is an erdosproblems.com label explained under Formalization. Both
+questions are answered yes. The first is answered under the upper-density
+reading of the Formulation. The second is answered by an explicit basis of order
+$2$ that no bipartition splits into two self-sumsets with bounded gaps. There
+are three claim pages. The first is
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|Google DeepMind's three Lean proofs]],
 found by its AlphaProof Nexus system, which the thread calls a DeepMind prover
 agent, and posted on the erdosproblems.com thread by Moritz Firsching. It is a
@@ -79,8 +79,8 @@ Problem #741, https://www.erdosproblems.com/741.
   answers. Library home:
   [[../library/additive_combinatorics/tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search/_index|tsoukalas_2026_advancing_mathematics_research_ai_driven_formal_proof_search]].
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
-statement is in
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label. The statement is in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/741.lean),
 which at its commit of 2026-10-06 states the first question for upper density
 (`parts.i`, tagged solved with answer true and a proof inside the repository at
@@ -92,15 +92,15 @@ true); the last two proofs are in Moritz Firsching's fork at its commit of
 Alexeev's lean-proofs repository (first added 2026-05-13) restates the three
 theorems. DeepMind's results repository, at its commit of 2026-05-19, holds a
 Lean file for each part; the file that [TKS26] gives for the upper-density
-answer proves the exact-density answer instead, and for the second part
-[TKS26] links a file of Problem 12. All are pinned on the
+answer proves the exact-density answer instead, and for the second part [TKS26]
+links a file of Problem 12. All are pinned on the
 [[problems/additive_combinatorics/E0741/claims/2026_03_31_deepmind|DeepMind claim page]],
 which records both discrepancies. The community database (teorth/erdosproblems,
 file commit of 2026-09-28) lists `status` "solved (Lean)" and `formal_status`
-Lean with a last update of 2025-08-31, and `formalized` "yes" with a last
-update of 2026-01-06; these are
-the database's update fields and do not date the changes of state. This corpus
-has built none of these developments, so no `formalized` evidence is listed.
+Lean with a last update of 2025-08-31, and `formalized` "yes" with a last update
+of 2026-01-06; these are the database's update fields and do not date the
+changes of state. This corpus has built none of these developments, so no
+`formalized` evidence is listed.
 
 ## Progress
 

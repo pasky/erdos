@@ -66,7 +66,7 @@ has three pages and begins `%PDF-1.3`.
 
 ## 2. Reviewer, actual reading and exclusions
 
-Reviewer attribution: independent Codex reviewer, in a fresh context. This
+Reviewer attribution: independent reviewer, in a fresh context. This
 review began in a fresh context that had neither constructed the extraction nor
 collaborated on or built mathematical work upon it. No source-author plans,
 reading receipts, private reasoning, sibling verdicts, parent memory, or

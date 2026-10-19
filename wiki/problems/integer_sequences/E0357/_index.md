@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 357
@@ -117,6 +117,44 @@ Pickhardt's manuscript improves this to $f(n)\ge(4/\sqrt3-o(1))\sqrt n$ by the
 sequence $a_i=B+y_i$, where the $y_i$ are the first $k$ nonnegative integers
 outside one residue class modulo $3$ and $B>3k^2/16+k/8+1$, also pending and
 unreviewed.
+
+## Research
+
+These author-recorded arguments and source-fit limitations are by Plasma AI.
+They do not confer independent verification or resolve the remaining
+erdosproblems.com question.
+
+For $a_1<\cdots<a_k\le n$, put
+$s_0=0$, $s_j=\sum_{i\le j}a_i$. Nonempty consecutive sums
+are the positive differences $s_j-s_i$, $i<j$.
+Their uniqueness is equivalent to the Sidon property of
+$\{s_0,\ldots,s_k\}$, doubles allowed: a repeated positive difference
+rearranges to a nontrivial repeated two-term sum, and conversely.
+The extra restriction is
+$$
+ 0<s_1-s_0<s_2-s_1<\cdots<s_k-s_{k-1}\le n.
+$$
+An arbitrary Sidon construction need not have these increasing gaps.
+
+Sorting an unrestricted solution fails: $(2,3,1)$ has six distinct consecutive
+sums $2,3,1,5,4,6$, whereas $(1,2,3)$ has $1+2=3$. Hegyvári's introduction and
+Theorem 1 lower-construction proof through (1.3) were read to test whether its
+unrestricted linear construction meets the ordering condition; it does not
+establish it. Beker Proposition 1.5's held account supplies only a linear
+estimate, not the requested sublinear conclusion.
+
+The missing step is a structural bound for Sidon sets with
+increasing bounded consecutive differences, stronger than ordinary Sidon
+counting. A useful test is to check whether a proposed dense Sidon construction
+has strictly increasing gaps before testing its size. Stop at loss of the
+increasing-order hypothesis, or a merely linear upper bound.
+
+Source interfaces:
+[[../library/additive_combinatorics/hegyvari_1986_consecutive_sums_sequences/_index|Introduction;
+Theorem 1 and its lower-bound proof through (1.3)]];
+[[../library/integer_sequences/beker_2023_problem_erdos_graham_about_consecutive_sums/proposition_1_5|Proposition
+1.5 and its specialization to E0357]].
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

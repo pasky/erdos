@@ -14,7 +14,7 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 1174
@@ -117,10 +117,9 @@ reviewed.
 
 ## Known Results
 
-Komjáth [Ko25] notes that such a graph has more than $2^{\aleph_0}$ vertices:
-coloring each pair by the first binary digit at which its two points differ is a
-countable edge coloring of the complete graph on $2^{\aleph_0}$ vertices with no
-monochromatic triangle.
+[[research/erdos_1171/connections|The Problem 1171 connections page]] holds
+author-recorded research on the reach of ordinal partition relations and of
+that folder's finite-color induction here; it is not a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-09-08T01:42:35Z
+updated: 2026-10-19T09:36:25Z
 ---
 
 # tools
@@ -62,19 +62,23 @@ valid empty views. Generation preserves each existing file's frontmatter
 byte-for-byte (the wiki sweep owns its stamps and re-stamps `updated:` only on a
 write of its own) and rewrites only the body, so the gate is
 regenerate-and-diff-empty. Malformed claim frontmatter (missing id or statement,
-id/folder mismatch, invalid status, standing, or tier, tier on an open claim,
-tier 2 without `lean:`, `assumes` without the claim's own proof pin, duplicate
-ids), a claim-shaped folder outside a legal claim home (under a `leads/`,
-`routes/`, or `doors/` folder or inside another claim), or a claim-shaped folder
-at a legal home without an `_index.md` fails the run, naming every offending
-folder.
+id/folder mismatch, invalid status, standing, or tier, tier on an open claim, no
+tier on a proved or refuted claim, tier 2 without `lean:`, a `lean:` pin that is
+not one of the claim's own statement, claim or refutation declarations,
+`assumes` without the claim's own proof pin, duplicate ids), a claim-shaped
+folder outside a legal claim home (directly under `wiki/theory/` rather than in
+a subject folder, under a `leads/`, `routes/`, or `doors/` folder or inside
+another claim), or a claim-shaped folder at a legal home without an `_index.md`
+fails the run, naming every offending folder.
 
 Regeneration is explicit, never a side effect of a wiki sweep: `erdos ledger`
 rewrites each stale view and names it (`Wrote standing.md.`),
-`erdos ledger --check` names each stale view without writing (exit 1 when either
-is stale). Run the writer before `wiki update --path wiki` so a claim edit and
-its rows land together. The gate's ledger leg, the reference linter, and
-`wiki update --check` report stale generated views without rewriting them.
+`erdos ledger --check` names each stale view without writing and prints each
+problem that fails the run as a `wiki/<path>: <problem>` finding (exit 1 when
+either view is stale or any claim has a finding). Run the writer before
+`wiki update --path wiki` so a claim edit and its rows land together. The gate's
+ledger leg, the reference linter, and `wiki update --check` report stale
+generated views without rewriting them.
 
 **The stream convention, shared by every command:** findings/issues print to
 stdout; advisory notes and informational detail print to stderr. Scripted
@@ -100,6 +104,21 @@ the gate's `library licenses` leg ("One-off audits" below).
 Root pytest discovery is limited to `tests/` and `tools/`, including package
 doctests; it does not collect mathematical evidence.
 
+The pre-commit leg runs `pre-commit run --files` in bounded batches over every
+working file the configuration covers. With `--files` pre-commit stashes
+nothing, so the fixing hooks rewrite the working files in place. pre-commit
+fails a hook as having modified files when the whole tree's `git diff` changed
+while it ran, so another process that writes a tracked file or changes the index
+meanwhile fails whichever hook is running. A failed batch reports each failed
+hook by id, with pre-commit's notes on it (its exit code, or that files were
+modified) and the start of its own output. It also names the files whose change
+time falls within the batch's run. A batch file written then is most likely a
+fixing hook's rewrite, to review and commit. A file outside the batch was
+written by another process, since the hooks see only the batch, so leave the
+tree alone while the gate runs. When a hook modified files and nothing was
+written, another process changed the index or deleted a file. Output that names
+no hook, such as a configuration error, keeps its tail.
+
 - `--lean` always runs the complete Lean gate and, when it passes, refreshes the
   validated-tree receipt.
 - `--lean-if-changed` (mutually exclusive with `--lean`) fingerprints the
@@ -114,8 +133,8 @@ doctests; it does not collect mathematical evidence.
   `[SKIPPED] unchanged inputs previously validated (receipt lean/.lake/validated.json)`;
   a missing, obsolete, malformed, or mismatching receipt runs the full gate.
   Outside a Git checkout, or when Git cannot produce the prospective tree (a
-  `lean/` holding no trackable content), the legs run, the leg's detail states
-  the reason, and no receipt is written.
+  `lean/` holding no trackable content), the leg runs, its detail states the
+  reason, and no receipt is written.
 - The receipt `lean/.lake/validated.json` (`{"version": 2, "tree": "<sha>"}`,
   relative paths only, so it travels between worktrees with identical `lean/`
   content) is written only after build, audit, and stamp validation pass and the
@@ -163,13 +182,14 @@ exit 1 as "failures reported" and keeps going.
   leading comment lines, after any shebang and before the docstring: `full`
   (runs only in the full run), `manual` (never started; its page states the
   procedure), `historical` (never started; its page dates the text it read),
-  `lean` (runs only with `--lean`), `entry` (enrolls a program not named
-  `main.py`) and `args <argv>` (the documented full-check arguments, where
-  `{output}` names a private output directory the runner supplies). An unknown
-  word, two mode words, a second line, or a declaration on a program that is
-  neither `main.py` nor `entry` fails the program without running it. Whether a
-  program takes `--quick` or `--stop-file` is read from its source: the flag as
-  a string literal, or for `--quick` a call of `evidence_parser(...)` without
+  `lean` (runs only with `--lean`), `entry` (enrolls a program other than a
+  `main.py` under an `evidence/` folder) and `args <argv>` (the documented
+  full-check arguments, where `{output}` names a private output directory the
+  runner supplies). An unknown word, two mode words, a second line, or a
+  declaration on a program that is neither a `main.py` under an `evidence/`
+  folder nor `entry` fails the program without running it. Whether a program
+  takes `--quick` or `--stop-file` is read from its source: the flag as a string
+  literal, or for `--quick` a call of `evidence_parser(...)` without
   `quick=False`.
 - **Modes.** The full run (the default) starts every entry point not declared
   `manual` or `historical` with its declared arguments and no time limit.
@@ -194,11 +214,14 @@ exit 1 as "failures reported" and keeps going.
   prepended to `PYTHONPATH` so `import tools` resolves to the checkout being
   run, `PYTHONDONTWRITEBYTECODE=1`, and `PYTHONOPTIMIZE` removed. Two preflights
   fail the command before any program starts: a child must `import tools`, and
-  no file under the mathematics wiki or the library may be a Git LFS pointer.
-  The third-party packages the programs import form the `evidence` dependency
-  group, a default group that `uv sync --group test --group lint --group type`
-  installs; a failure ending in `ModuleNotFoundError` reads
-  `missing module X (sync the evidence group)` and is still a FAIL.
+  no file under the mathematics wiki or the library may be a Git LFS pointer,
+  unless the checkout's `.lfsconfig` excludes its path from fetches: such a
+  placeholder is counted in a note on stderr, and a program that reads one
+  fails, so it runs in a checkout that holds the file. The third-party packages
+  the programs import form the `evidence` dependency group, a default group that
+  `uv sync --group test --group lint --group type` installs; a failure ending in
+  `ModuleNotFoundError` reads `missing module X (sync the evidence group)` and
+  is still a FAIL.
 - **Output.** Streams follow the convention above. Each program prints one line
   as it completes -- `[PASS] path  1.2 s`,
   `[FAIL] path  exit 1: <last output, folded>`,
@@ -207,20 +230,21 @@ exit 1 as "failures reported" and keeps going.
   `evidence: N entry points: P passed, F failed, S stopped, K skipped; G program regions without a main.py`,
   with `(quick run: reduced scope)` appended in a quick run. The run ends with
   `Evidence run passed.` on stdout and exit 0 only when at least one entry point
-  ran and none failed or stopped. Otherwise it prints
-  `Evidence run incomplete: S stopped, K skipped` and exits 1, as any failure
-  does. A command or usage error exits 2: no Git checkout, a bad option, an
-  unmatched `--select`, a report path Git would publish, a stop file present at
-  start, or a failed preflight.
+  ran and none failed or stopped. A failed program or a changed tree exits 1
+  with no closing line; any other run prints
+  `Evidence run incomplete: S stopped, K skipped` and exits 1. A command or
+  usage error exits 2: no Git checkout, a bad option, an unmatched `--select`, a
+  report path Git would publish, a stop file present at start, or a failed
+  preflight.
 - **Report.** The private report is JSON Lines at `--report` (default
   `tmp/evidence/<UTC stamp>-<full|quick>.jsonl`, ignored): a header record
-  (mode, lean, jobs, UTC start, root, HEAD, dirty paths, Python), one record per
-  program written as it finishes (path, owner, kind, declaration, argv, state,
-  detail, exit code, milliseconds, the last 4,000 characters of each stream),
-  one per gap, a tree record, and a summary record, so a crash still leaves a
-  valid prefix. A `--report` path inside the repository that Git does not ignore
-  is refused. Git runs with `--no-optional-locks`. Tracked pages cite a run by
-  program path and date only.
+  (mode, lean, jobs, UTC start, root, HEAD, dirty paths, Python version and
+  executable, entry-point count), one record per program written as it finishes
+  (path, owner, kind, declaration, argv, state, detail, exit code, milliseconds,
+  the last 4,000 characters of each stream), one per gap, a tree record, and a
+  summary record, so a crash still leaves a valid prefix. A `--report` path
+  inside the repository that Git does not ignore is refused. Git runs with
+  `--no-optional-locks`. Tracked pages cite a run by program path and date only.
 - **Tree check.** When the working tree is clean at the start -- a checkout
   dedicated to the run -- `git status --porcelain` is compared after the run:
   any change is a run-level FAIL naming the paths, and a moved HEAD is a note. A
@@ -279,7 +303,8 @@ and vocabulary under [[research]] "Lead pages".
 `erdos license-audit [--path <repo root>]` audits the library cards' `license`
 terms against the third-party files they hold and the holding policy, and each
 held PDF's transcription; `library/_index.md` states what a card records. The
-gate's `library licenses` leg runs the same audit.
+gate's `library licenses` leg runs the same audit; its detail shows the first
+ten findings and a count of the rest, and `erdos license-audit` lists them all.
 
 - **Cards.** The `_index.md` exactly `LIBRARY_CARD_DEPTH` folders
   (`tools/constants.py`, 2 here: `library/<subject>/<slug>/_index.md`) below
@@ -348,18 +373,21 @@ gate's `library licenses` leg runs the same audit.
   ones named) or are out of byte order; a term outside the vocabulary; a held
   file, or the sidecars beside none, under a term that is not an open license,
   under the holding policy; the term of a PDF disagreeing with its arXiv record;
-  a record URL with no mapping; a held PDF with neither its transcription nor a
-  transcription reason; a reason for a PDF that has its transcription, for a
-  file that is not a held PDF or on a card holding no PDF; a reason outside the
-  vocabulary; a `transcription` mapping for one PDF, a scalar for several, or
-  keys out of byte order; frontmatter missing or invalid, a duplicate key
-  included, which ends that card's checks.
+  a record URL with no mapping; a record that cannot be read (not UTF-8 text,
+  not JSON, as a truncated or conflict-marked file is, or not a JSON object),
+  which skips only that PDF's cross-check; a held PDF with neither its
+  transcription nor a transcription reason; a reason for a PDF that has its
+  transcription, for a file that is not a held PDF or on a card holding no PDF;
+  a reason outside the vocabulary; a `transcription` mapping for one PDF, a
+  scalar for several, or keys out of byte order; frontmatter missing or invalid,
+  a duplicate key included, which ends that card's checks.
 - **Output.** Streams follow the convention above. Each finding prints on its
   own line on stdout as `<path>: <message>`; the notes and the summary
   `license-audit: N cards, H held files, F findings, M notes` print on stderr;
   then `License audit passed.` prints on stdout with exit 0 when there are no
   findings. Findings exit 1. A command or usage error exits 2: no checkout at
-  the root, or no mathematics wiki under it.
+  the root, or no mathematics wiki under it; the gate's `library licenses` leg
+  fails with the same message.
 
 ## Erdos-specific
 
@@ -472,11 +500,13 @@ another checkout or a development-only dependency.
 
 The reference check reconciles the claim metadata with `lean/Manifest.json`,
 including declaration ownership, formal surface, status, disclosed namespace
-dependencies, and the compiler assumption (a row's `compiler` list against the
-card's `assumes: compiler`). Even below tier 2, it validates present Lean
-declaration references. Statement-only coverage is not a proof; references to
-definitions do not make their owners established theorem premises. Read
-[[lean_authoring]] and [[verification]] for those distinctions.
+dependencies, and the compiler assumption (a row's nonempty `compiler` list
+requires the card's `assumes: compiler` when the claim's surface declares a
+`claim` or `refutation`, and the key requires a nonempty list). Even below tier
+2, it validates present Lean declaration references. Statement-only coverage is
+not a proof; references to definitions do not make their owners established
+theorem premises. Read [[lean_authoring]] and [[verification]] for those
+distinctions.
 
 Check findings exit 1; an unusable repository or filesystem failure is a command
 error and exits 2. These checks do not allocate identities, prove historical
@@ -567,13 +597,17 @@ plain path, a wikilink, an inline link) outside the dated note's mapping table
 in `docs/verification.md`, which sits between the marker comments
 `<!-- swap note 2026-10-05 -->` and `<!-- end swap note -->`. Second, a marker
 is left unclosed. Third, an inline Markdown link or link reference definition
-has an absolute target, or a relative target that does not resolve on disk from
-the page's folder, spelled as the entry is on disk, with any `#anchor` and
-trailing sentence punctuation dropped. The filed verification records under
-`evidence/**/verify/` get the retired-names check only: a record's links are the
-examined revision's and stay as written. Fenced code, HTML comments, code spans,
-math spans and wikilinks are not link contexts; the wiki tool's lint owns the
-wikilinks.
+has an absolute target, a relative target that climbs above the repository root
+at any step, whatever exists outside the clone, or a relative target that does
+not resolve on disk from the page's folder, spelled as the entry is on disk,
+with any `#anchor` and trailing sentence punctuation dropped. The filed
+verification records under `evidence/**/verify/` get the retired-names check
+only: a record's links are the examined revision's and stay as written. Fenced
+code, HTML comments, code spans, math spans and wikilinks are not link contexts;
+the wiki tool's lint owns the wikilinks, and each wiki leg of the gate reads
+`wiki lint --json` and fails on a stale wikilink (a `link_stale` note) as on any
+lint issue, such as a relative or outside link. Folder links are checked only
+for folders the wiki indexes; a link to an excluded folder goes unchecked.
 
 The leg also checks the standings the research layer cites. A page under
 `wiki/research/` or `wiki/theory/`, outside evidence records, refutation records
@@ -641,41 +675,46 @@ under `wiki/problems/` carrying a `status`) and the claim pages of its `claims/`
 folder, and checks them against the claims schema in [[anatomy]] "Problems and
 claims": the keys and their vocabularies (`tags` against `PROBLEM_TAGS` in
 `tools/constants.py` when that constant closes the vocabulary), the claim page
-name `<YYYY_MM_DD>_<claimant>.md` and the page's `published` (the earliest day
-the result was public, not a journal's date, as `YYYY-MM-DD`, or `YYYY-MM` or
-`YYYY` when only the month or the year is known, just before `submitted`, equal
-to the name's date once its missing parts are filled with `01`; or `null` while
-the claim is not yet public, when the name's date is the filing day and is not
-compared), the `authors` list (distinct nonempty names after `desc` and before
-`status`; a claim page without it is counted in the leg's detail and is a
-finding with `--settled`), the evidence list's fixed order, its presence on an
-accepted claim and its absence from a pending one, `links` nonempty, or `[]`
-exactly when `published` is `null`, each link's `url`-first shape, kind and date
-(`YYYY-MM-DD`, or `YYYY-MM` or `YYYY` when only the month or the year is known),
-the `submitted` date (a calendar date, or `null`), the optional `claim_id` (a
-nonempty string just after `submitted`, absent rather than `null`, and carried
-by no other claim page, a page outside a `--problem` selection included), the
-**Covers.** paragraph of a partial claim, the **Depends on.** wikilinks (wiki
-pages, each resolving, none unaccepted under an accepted claim; or library
-result pages, each resolving, reported as a note with the page's read status and
-never counted toward the standing, a card in place of a result page being a
-finding), the optional `parts` list (distinct short labels) and each partial
-claim's `settles` labels (only on partial claims, only labels the problem
-lists), and the derivation of the problem's `status` and `claim` from its
-claims, part by part where parts are listed. A `not_provable` or
-`not_disprovable` claim states one side of an independence result and must be
-partial: on its own it leaves the problem, or the part it settles, open, and one
-accepted claim of each kind settles it as `independent`. A problem with no claim
-page keeps its provisional standing: unless that standing is `open` with claim
-`none`, the leg counts such problems in its detail and passes; with `--settled`
-each is a finding. `--settled` is the release mode: it requires every such
-standing to rest on a claim page and every claim page to list its authors. The
-default mode only counts them, so a problem page that
-`scripts/build_problems.py` creates from a settled erdosproblems.com label can
-land before its claim page is written. `erdos problem-claims` runs the same
-check standalone, and `erdos problem-claims --write` sets the derived values on
-every problem that has claim pages before checking; repeatable
-`--problem E<nnnn>` selections scope the write and the check alike. The leg
+name `<YYYY_MM_DD>_<claimant>.md`, with a roman suffix `_i`, `_ii`, ... up to
+`_x` on every one of a claimant's same-day public pages and on no lone page (a
+pending page's temporary name is not checked against the rule), and the page's
+`published` (the earliest day the result was public, not a journal's date, as
+`YYYY-MM-DD`, or `YYYY-MM` or `YYYY` when only the month or the year is known,
+just before `submitted`, equal to the name's date once its missing parts are
+filled with `01`; or `null` while the claim is not yet public, when the name's
+date is the filing day and is not compared), the `authors` list (distinct
+nonempty names after `desc` and before `status`; a claim page without it is
+counted in the leg's detail and is a finding with `--settled`), the evidence
+list's fixed order, its presence on an accepted claim and its absence from a
+pending one, `links` nonempty, or `[]` only while `published` is `null`, each
+link's `url`-first shape, kind and date (`YYYY-MM-DD`, or `YYYY-MM` or `YYYY`
+when only the month or the year is known), the `submitted` date (a calendar
+date, or `null`), the optional `claim_id` (a nonempty string just after
+`submitted`, absent rather than `null`, and carried by no other claim page, a
+page outside a `--problem` selection included), the **Covers.** paragraph of a
+partial claim, the **Depends on.** wikilinks (wiki pages, each resolving, none
+unaccepted under an accepted claim; or library result pages, each resolving,
+reported as a note with the page's read status and never counted toward the
+standing, a card in place of a result page being a finding), the optional
+`parts` list (distinct short labels) and each partial claim's `settles` labels
+(only on partial claims, only labels the problem lists), and the derivation of
+the problem's `status` and `claim` from its claims, part by part where parts are
+listed. A `not_provable` or `not_disprovable` claim states one side of an
+independence result and must be partial: on its own it leaves the problem, or
+the part it settles, open, and one accepted claim of each kind settles it as
+`independent`. A problem with no claim page keeps its provisional standing:
+unless that standing is `open` with claim `none`, the leg counts such problems
+in its detail and passes; with `--settled` each is a finding. `--settled` is the
+release mode: it requires every such standing to rest on a claim page and every
+claim page to list its authors. The default mode only counts them, so a problem
+page that `scripts/build_problems.py` creates from a settled erdosproblems.com
+label can land before its claim page is written. `erdos problem-claims` runs the
+same check standalone, and `erdos problem-claims --write` sets the derived
+values on every problem that has claim pages before checking; repeatable
+`--problem E<nnnn>` selections scope the write and the check alike. The leg's
+detail shows the first ten findings and the number of dependences on library
+result pages; `erdos problem-claims`, with `--settled` when the gate ran in
+release mode, lists them all, each dependence with its read status. The leg
 reads frontmatter and the two labeled paragraphs only; it assesses no
 mathematics and awards no standing. The module `tools.core.problem_claims` is
 shared, repository-neutral code, so it knows no problem numbering, no area list
@@ -715,24 +754,28 @@ generator. It is not an automatic side effect of running repository checks. See
 #### Wiki excludes
 
 `scripts/build_wiki_excludes.py` reads `library/.wiki/settings.json` and the
-library PDFs, and rewrites only the entries between the
-`<!-- BEGIN wiki excludes -->` and `<!-- END wiki excludes -->` markers of
-`exclude.patterns`, after the hand-written patterns: the canonical conversion
-slot beside every `<subject>/<slug>/*.pdf` under the library root (`<stem>.md`,
-one per PDF) and the `**/.convert/**` pattern for the converter's working
-output. It writes the wiki tool's own JSON formatting so `wiki config`
-round-trips the file, and a folder without a PDF contributes nothing. `--check`
-names a stale file and exits 1 without writing; the gate's `wiki excludes` leg
-runs that check. Run the writer before `wiki update --path library`.
+library PDFs in the working tree, tracked or untracked under the repository's
+ignore policy, so a PDF needs no staging to get its slot, and rewrites only the
+entries between the `<!-- BEGIN wiki excludes -->` and
+`<!-- END wiki excludes -->` markers of `exclude.patterns`, after the
+hand-written patterns: the canonical conversion slot beside every
+`<subject>/<slug>/*.pdf` under the library root (`<stem>.md`, one per PDF) and
+the `**/.convert/**` pattern for the converter's working output. It writes the
+wiki tool's own JSON formatting so `wiki config` round-trips the file, and a
+folder without a PDF contributes nothing. `--check` names a stale file and exits
+1 without writing; the gate's `wiki excludes` leg runs that check. Run the
+writer before `wiki update --path library`.
 
 ### Lean and mathematical checks
 
 Follow `lean/README.md` to prepare the pinned dependencies before requesting
 Lean validation. The native gate covers the accepted native closure,
 compiler-assumed proofs included: the audit re-evaluates every compiler axiom on
-each run under [[compiler_trust]]. An empty manifest validates infrastructure; a
-statement declaration is not a proof; axiom hygiene is not independent
-statement-fidelity review. See [[lean_authoring]] and [[verification]].
+each run under [[compiler_trust]]. A wiki leg reads `wiki lint --json` and fails
+on a stale-wikilink note (`link_stale`) as on a lint issue. An empty manifest
+validates infrastructure; a statement declaration is not a proof; axiom hygiene
+is not independent statement-fidelity review. See [[lean_authoring]] and
+[[verification]].
 
 Run mathematical evidence separately with its documented full command and
 runtime. Report exactly which clauses and input range were checked. Keep useful

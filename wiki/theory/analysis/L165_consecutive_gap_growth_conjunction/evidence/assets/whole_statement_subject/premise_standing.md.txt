@@ -1,0 +1,8 @@
+[cut]
+
+| ID | Claim | Area | Status | Tier | Standing |
+| --- | --- | --- | --- | --- | --- |
+| L163 | [all sequence span ratio](theory/analysis/L163_all_sequence_span_ratio/_index.md) | analysis | proved | 1 |  |
+| L164 | [all sequence span deviations](theory/analysis/L164_all_sequence_span_deviations/_index.md) | analysis | proved | 1 |  |
+
+[cut]

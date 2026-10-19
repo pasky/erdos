@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 660
@@ -136,6 +136,14 @@ the release, and its claim belongs to
 answers. For this problem it is context: a general lower bound of
 order $n^{2/3}$ is below the linear bound asked for, and the convex case is
 not treated separately.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/dimension|Realization rank and
+dimension-sensitive constructions]] account records the following scope. The
+inspected Altman results address the planar convex case. They do not establish
+the spatial coefficient in this question; the required three-dimensional source
+statement remains uninspected.
 
 <!-- BEGIN problem library links -->
 

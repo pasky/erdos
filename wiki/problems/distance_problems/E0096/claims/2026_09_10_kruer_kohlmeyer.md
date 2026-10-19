@@ -30,7 +30,7 @@ links:
   kind: preprint
   date: 2026-09-14
 created: 2026-10-07T06:03:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-18T10:11:03Z
 ---
 
 ***
@@ -88,7 +88,7 @@ statement of Conjectures.io's task; **Formal statement.** below checks it
 against the problem's Statement. Acceptance rests on this replay and that check.
 
 The certification by the bounty site Conjectures.io, linked above as the record,
-is reported, not counted. The erdosproblems.com Lean kernel verified the proof
+is reported, not counted. The Conjectures.io Lean kernel verified the proof
 on 10 September 2026 in a fresh isolated replay, with checks on the statement,
 the dependencies and the permitted axioms. The permitted axioms are `propext`,
 `Quot.sound` and `Classical.choice`. Conjectures.io's review approved the record
@@ -110,19 +110,20 @@ is not a party to this acceptance.
 
 **Formal statement.** The task fixed the formal-conjectures statement
 `Erdos96.erdos_96` (`FormalConjectures/ErdosProblems/96.lean` at a pinned
-catalog commit) with its open answer set to true,
+formal-conjectures commit) with its open answer set to true,
 `True ↔ (fun n => ↑(Erdos96.maxConvexUnitDistances n)) =O[Filter.atTop] fun n => ↑n`,
 where `maxConvexUnitDistances n` is the supremum, over $n$-point finite subsets
 of the Euclidean plane in strict convex position, of the number of unordered
 pairs of distinct points at distance exactly $1$; the accepted file proves the
-negation of that statement from the construction above. The task's catalog
-commit was not reachable on GitHub on 2026-10-07; the statement file at the
-formal-conjectures commit of 2026-09-18 reads the same. Conjectures.io builds
-the task's commit from a public catalog commit and an audit patch; this corpus's
-replay reproduced it exactly and found the target's type identical to its
-statement. In it `ConvexIndep` is strict convex position and the count of unit
-distances runs over unordered pairs of distinct points, so the negation the file
-proves is the answer no to the problem's Statement.
+negation of that statement from the construction above. The task's
+formal-conjectures commit was not reachable on GitHub on 2026-10-07; the
+statement file at the formal-conjectures commit of 2026-09-18 reads the same.
+Conjectures.io builds the task's commit from a public formal-conjectures commit
+and an audit patch; this corpus's replay reproduced it exactly and found the
+target's type identical to its statement. In it `ConvexIndep` is strict convex
+position and the count of unit distances runs over unordered pairs of distinct
+points, so the negation the file proves is the answer no to the problem's
+Statement.
 
 **Consequence for Problem 97.** The erdosproblems.com remarks record that a
 positive answer to [[problems/distance_problems/E0097/_index|Problem 97]] for
@@ -135,7 +136,8 @@ deleted point, so the process cannot empty $V$, and the nonempty set that
 survives is in strictly convex position with at least four others at distance
 one from each of its points, a counterexample to Problem 97; $d=4k-3$ gives the
 same with $k\ge2$ in place of four. Kruer and Kohlmeyer's explanation does not
-state this consequence, so the project claims it as its own, pending review, on
+state this consequence, so the project claims it as its own, pending an
+outside sign-off after Plasma AI's internal review, on
 [[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]]
 under Problem 97; Kruer, Kohlmeyer and Price state that strictly convex sets
 with arbitrarily large minimum unit-distance degree exist exactly when the ratio

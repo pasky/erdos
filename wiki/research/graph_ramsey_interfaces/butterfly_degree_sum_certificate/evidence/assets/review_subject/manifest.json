@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-10-14T23:31:08.459536+00:00",
+  "omission_marker": "[cut]",
+  "scope": "Prepared extracts of the statement, formulation, construction, proof and evidence; not complete copies of the source pages. The checker and parameters are complete.",
+  "files": [
+    {
+      "source_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/_index.md",
+      "snapshot_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/assets/review_subject/argument.md.txt"
+    },
+    {
+      "source_path": "wiki/problems/extremal_graph_theory/E1033/_index.md",
+      "snapshot_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/assets/review_subject/catalog_question.md.txt"
+    },
+    {
+      "source_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/_index.md",
+      "snapshot_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/assets/review_subject/evidence_description.md.txt"
+    },
+    {
+      "source_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/main.py",
+      "snapshot_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/assets/review_subject/evidence/main.py"
+    },
+    {
+      "source_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/assets/parameters.json",
+      "snapshot_path": "wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/assets/review_subject/evidence/assets/parameters.json"
+    }
+  ]
+}

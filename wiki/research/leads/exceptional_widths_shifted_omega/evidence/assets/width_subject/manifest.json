@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-10-14T17:27:31.684793+00:00",
+  "cut_marker": "[cut]",
+  "original_repository_paths": {
+    "target.md": "wiki/problems/arithmetic_functions/E0122/_index.md",
+    "argument.md": null,
+    "premise_statement.md": "library/arithmetic_functions/erdos_1997_locally_repeated_values_arithmetic_functions_iv/lemma_1.md",
+    "premise_source.md": "library/arithmetic_functions/erdos_1997_locally_repeated_values_arithmetic_functions_iv/erdos_1997_locally_repeated_values_arithmetic_functions_iv.md",
+    "premise_warrant.md": null
+  },
+  "preserved_repository_paths": {
+    "target.md": "wiki/research/leads/exceptional_widths_shifted_omega/evidence/assets/width_subject/target.md",
+    "argument.md": "wiki/research/leads/exceptional_widths_shifted_omega/evidence/assets/width_subject/argument.md",
+    "premise_statement.md": "wiki/research/leads/exceptional_widths_shifted_omega/evidence/assets/width_subject/premise_statement.md",
+    "premise_source.md": "wiki/research/leads/exceptional_widths_shifted_omega/evidence/assets/width_subject/premise_source.md",
+    "premise_warrant.md": "wiki/research/leads/exceptional_widths_shifted_omega/evidence/assets/width_subject/premise_warrant.md"
+  }
+}

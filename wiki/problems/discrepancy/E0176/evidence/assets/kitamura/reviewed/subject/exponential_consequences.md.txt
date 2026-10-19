@@ -1,0 +1,15 @@
+# Candidate exponential deductions and remaining base
+
+For k>=5, k-3>=k/3 and 2k+1<=3k. The first real threshold is at most
+18k^3, so its integer bound is at most 19k^3. Since k<=2^k and
+19<=2^k for k>=5, 19k^3<=16^k. The three stated finite minima for
+k=2,3,4 also lie below 16^k. For k=1 every one-term signed sum has
+absolute value one, so N(1,2) does not exist.
+
+For k>=2, the second real threshold is at most (4/3)k^5, so its
+integer bound is at most 3k^5. The inequalities k<=2^k and 3<=2^k
+give 3k^5<=64^k. At k=1, a=0,d=1 in {0} supplies discrepancy
+one; the minimum is N(1,1)=1, which also satisfies the bound.
+
+The polynomial existence, floor/minimum bridges, all finite minima and
+each exponential consequence are separate parts of the proposed argument.

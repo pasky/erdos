@@ -1,0 +1,33 @@
+\begin{proof}[Proof of Corollary~\ref{cor:conj}]
+(i) Let $n\ge2$, so that $\ell=\log_2\log_2n\ge0$. If $\omega(n)\le0$
+there is nothing to prove, since $F(n)\ge1$. Otherwise
+$x=\ell-2\log_2(\ell+2)>1$, and the integer $t=\lfloor x\rfloor$
+satisfies $t\ge1$ and $\omega(n)=x-1<t\le x$. As $t\le\ell$ we have
+$\log_2(t+2)\le\log_2(\ell+2)$, and so
+\[
+\log_2\bigl((t+2)^{2}2^{t}\bigr)=t+2\log_2(t+2)\ \le\ x+2\log_2(\ell+2)=\ell ,
+\]
+that is, $(t+2)^{2}2^{t}\le\log_2n$. Theorem~\ref{thm:lower} gives
+$F(n)\ge n^{t}\ge n^{\omega(n)}$. As $\ell\to\infty$ and
+$\log_2(\ell+2)=o(\ell)$, we have $\omega(n)\to\infty$.
+
+(ii) Put $\eps(n)=F(n)^{1/n}-1+1/n$ for $n\ge1$. Then
+$(1+\eps(n))^{n}=(F(n)^{1/n}+1/n)^{n}>F(n)$. By Theorem~\ref{thm:upper},
+$\log F(n)=O((\log n)^{2})$, so $F(n)^{1/n}\to1$ and $\eps(n)\to0$.
+
+(iii) Let $n\ge2$ and write $\lambda=\log_2n$ and
+$D=\lambda+\log_2\lambda+3$. Theorem~\ref{thm:upper} gives
+$n^{\omega(n)}\le F(n)\le D\,n^{D-1}$, hence
+\[
+\omega(n)\ \le\ D-1+\frac{\log_2D}{\log_2n}
+\ =\ \lambda+O(\log\lambda),
+\]
+which is at most $(1+\eps)\lambda$ for all large $n$.
+
+(iv) For every $t\ge1$, Theorem~\ref{thm:lower} gives $F_k(n)\ge
+c_{k,t}n^{t+1}\ge n^{t}$ as soon as $n\ge1/c_{k,t}$. Let $\omega_k(n)$ be
+the largest integer $t\le n$ with $n^{t}\le F_k(n)$; the value $t=0$
+qualifies because $F_k(n)\ge1$. Then $\omega_k(n)\ge t$ whenever $n\ge
+\max(t,1/c_{k,t})$, so $\omega_k(n)\to\infty$. For the second statement
+take $\eps_k=\eps$ from (ii) and use $F_k(n)\le F(n)$.
+\end{proof}

@@ -7,7 +7,7 @@ desc: |
   [0,x], and computes its first values.
 license: reserved
 created: 2026-09-21T00:00:00Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Grekos et al.: On the Erdős–Turán conjecture
@@ -193,11 +193,55 @@ same ordered-pair convention. It assumes one set, exact coverage
 $P+P=\mathbb N$, and allows $0$; E1145 has two positive sets, only eventual
 coverage, and the additional balance condition $a_n/b_n\to1$.
 
-The paper's results concern single exact bases. The mixed-radix identity of
-Lemma 5.4 and Proposition 5.6 combines digit blocks into one set $C$, and its
-factors are self-representation functions; the computed bound $\Lambda\ge6$
-applies to exact single-set bases only. None of these results gives a bound for
-$r_{A,B}$ for the complementary pairs of E1145.
+The diagonal specialization of E1145 is essentially the classical Erdős–Turán
+problem. If $A=B$, then the balance condition is automatic. If $A+A$ contains
+every integer from some $N$ onward, adjoining the finite set $F=[0,N]$ gives an
+exact basis $P=A\cup F$ of $\mathbb N$. Boundedness of $r_{A,A}$ would imply
+boundedness of $r_{P,P}$, since representations involving $F$ contribute only a
+uniformly bounded amount. Conversely, from an exact basis $P$ one may take
+$A=B=P+1$; then $A+A$ contains every integer at least $2$ and
+$r_{A,A}(n)=r(P,n-2)$. Hence E1145 contains (ET) as its $A=B$ case. Theorem 2.1
+and Corollary 2.4 therefore provide a finite-extremal formulation of this
+diagonal subproblem, but the paper does not prove that formulation.
+
+The Diagonal Lemma 2.2 is potentially useful for E1145 only after a suitable
+two-set finite model has been formulated. Applied simultaneously to pairs of
+traces, the same pigeonhole argument would preserve local conditions such as
+coverage of $[0,x]$ and a uniform bound on $r_{A,B}(n)$. The obstruction is that
+$a_n/b_n\to1$ is a global tail condition and is not preserved by arbitrary
+tracewise diagonalization. A viable compactness argument would need finite
+balance conditions with a uniform modulus strong enough to survive the diagonal
+limit; no such conditions or estimates appear in the paper.
+
+A precise parity encoding illustrates both the connection and the gap. Set
+
+$$
+D=2A\cup(2B+1).
+$$
+
+Then
+
+$$
+r_{D,D}(2n+1)=2r_{A,B}(n),
+\qquad
+r_{D,D}(2m)=r_{A,A}(m)+r_{B,B}(m-1).
+$$
+
+Thus the complementary-basis hypothesis makes all sufficiently large odd
+integers representable by $D+D$, but gives no coverage of the even integers.
+Consequently one cannot invoke the paper’s single-basis results without
+additional control of $A+A$ or $B+B$. The balance $a_n/b_n\to1$ does not by
+itself supply such control in any result proved here.
+
+The mixed-radix identity in Lemma 5.4 and Proposition 5.6 may be useful when
+designing finite constructions or computational searches, but its sets are digit
+blocks used to form one set $C$ and its factors are self-representation
+functions. It gives no bound for $r_{A,B}$ under asymptotic balance. Likewise,
+the computed theorem $\Lambda\ge6$ applies to exact single-set bases only and
+does not yield a lower bound, let alone unboundedness, for general complementary
+pairs in E1145. The paper’s relevance is therefore structural: it supplies
+compactness and finite-optimization machinery for the unresolved diagonal case,
+while leaving the decisive two-set balance-to-collision mechanism entirely open.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

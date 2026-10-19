@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [epsilon_version, stronger_version]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 679
@@ -101,6 +101,27 @@ Neither result settles an instance of the question.
 posts of 11 and 12 January 2026) and the two arXiv versions of [La26]; the
 erdosproblems.com proof-claims tab lists no claim for the problem; no literature
 database searched.
+
+## Prime-factor and interval interface
+
+Let $M_r$ be the product of the first $r$ primes. For any $n>2M_r$, choose
+$k\in[M_r,2M_r)$ congruent to $n$ modulo $M_r$. Then $\omega(n-k)\ge r$. The
+prime number theorem gives
+
+$$
+r-\frac{\log(2M_r)}{\log\log(2M_r)}\sim\frac r{\log r}\longrightarrow\infty.
+$$
+
+Thus no fixed additive constant works beyond a fixed offset cutoff: choose $r$
+large first, then every $n>2M_r$ has such a violating offset. The relative gain
+is only $1+o(1)$, so this does not refute the factor $1+\epsilon$ question.
+This reconstructs the recorded primorial obstruction. The fixed multiplicative
+gain in
+[[../library/arithmetic_functions/lau_2026_number_prime_factors_consecutive_integers/_index|Lau's
+Theorem 7.3]] remains conditional on its uniform short-interval hypothesis. The
+source's conditional argument was read; its conjecture is not proved by the
+primorial construction.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 283
@@ -51,11 +51,11 @@ The cases $p(x)=x$ (Graham 1963, refereed) and $p(x)=x^2$ (Alekseyev 2019, a
 published book chapter) are recorded below (Graham's accepted, Alekseyev's
 pending); the general case is the question.
 
-**Status.** The erdosproblems.com label was PROVED (LEAN). The Lean suffix is a
-catalog label explained under Formalization and the Lean label. The standing in
-the frontmatter derives from the claim pages. These are the full claim
-[[problems/unit_fractions/E0283/claims/2026_05_03_price|Price 2026]], accepted
-on the curator's review alone, and the partial claims
+**Status.** The erdosproblems.com label was PROVED (LEAN). The Lean suffix is an
+erdosproblems.com label explained under Formalization and the Lean label. The
+standing in the frontmatter derives from the claim pages. These are the full
+claim [[problems/unit_fractions/E0283/claims/2026_05_03_price|Price 2026]],
+accepted on the curator's review alone, and the partial claims
 [[problems/unit_fractions/E0283/claims/1963_03_17_graham|Graham 1963]],
 [[problems/unit_fractions/E0283/claims/2018_01_18_alekseyev|Alekseyev 2018]] and
 [[problems/unit_fractions/E0283/claims/2025_08_31_van_doorn|van Doorn 2025]].
@@ -311,8 +311,8 @@ review outside the erdosproblems.com thread of the general case was found on
 acceptance of an AI-generated argument with a public formalization, and does not
 judge the argument.
 
-**Formalization and the Lean label.** The erdosproblems.com Lean suffix is a
-catalog label. Behind it, as they stood on 2026-09-18: (1) the
+**Formalization and the Lean label.** The erdosproblems.com Lean suffix is an
+erdosproblems.com label. Behind it, as they stood on 2026-09-18: (1) the
 formal-conjectures statement above, whose `formal_proof` attribute pins a commit
 of `Shashi456/erdos-formalizations`. (2) The file `Erdos/P283/Proof_flat.lean`
 at that commit (dated 14 May 2026; the file itself last changed on

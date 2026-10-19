@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 639
@@ -71,9 +71,9 @@ read that sentence as Erdős suggesting "that generalizations of this result
 should be possible" for other fixed graphs $H$, the paper's Theorems 1.2--1.5.
 
 **Status.** erdosproblems.com showed PROVED (LEAN), a label that describes the
-modified Statement. The suffix is a catalog label explained under Formalization,
-and no local kernel credit is claimed. The modified Statement is **proved**. The
-claim page
+modified Statement. The suffix is an erdosproblems.com label explained under
+Formalization, and no local kernel credit is claimed. The modified Statement is
+**proved**. The claim page
 [[problems/ramsey_theory/E0639/claims/2003_07_16_keevash_sudakov|Keevash and Sudakov 2003]]
 records the theorem, its postings and its acceptance evidence, and the
 frontmatter standing derives from it. The page also carries the Lean file behind
@@ -216,32 +216,30 @@ Erdős's generalization question for those graphs, while the paper's
 Problem 5.1 (p. 52) leaves open whether $f(n,H)=\mathrm{ex}(n,H)$ for every
 fixed $H$ and all large $n$; they are adjacent to this problem.
 
-**The (Lean) label.** erdosproblems.com's (Lean) suffix is a catalog label. The
-formal-conjectures file at the pinned commit is a statement with a
+**The (Lean) label.** erdosproblems.com's (Lean) suffix is an erdosproblems.com
+label. The formal-conjectures file at the pinned commit is a statement with a
 `sorry` body whose `formal_proof` attribute names
-`src/latest/ErdosProblems/Erdos639.lean` in the repository `plby/lean-proofs`
-at a commit of 1 August 2026 (the formalization link on the claim page
-carries the pin). That
-file (20,240 bytes at that commit) imports
-`Mathlib.Combinatorics.SimpleGraph.Extremal.Turan`, defines `NIMT C x y`
-(the edge $xy$ lies in no monochromatic triangle under the coloring $C$)
-and the graph `nimt C` of such edges, and proves
-`theorem erdos639 (hn : 10 ≤ n V) : #(nimt C).edgeFinset ≤ n V ^ 2 / 4`
-for every finite vertex type `V` with at least $10$ vertices, that is,
-Proposition 2.1 of [KeSu04] (the file's header names Keevash and Sudakov
-as the informal authors and Aristotle, an automated proof system, among its
-formal authors); it contains no `sorry` and no `axiom`, two of its
-lemmas are marked as proved by Aristotle, and its closing
-comment records `#print axioms erdos639` as `propext`, `Classical.choice`,
-`Quot.sound`. The formal-conjectures statement follows from that theorem
-(the docstring: "The linked file proves the bound for every finite vertex
-type with at least $10$ vertices, which gives the `atTop` reading"); the
-artifact formalizes neither the exact values for $n\le9$ nor the
+`src/latest/ErdosProblems/Erdos639.lean` in the repository `plby/lean-proofs` at
+a commit of 1 August 2026 (the formalization link on the claim page carries the
+pin). That file (20,240 bytes at that commit) imports
+`Mathlib.Combinatorics.SimpleGraph.Extremal.Turan`, defines `NIMT C x y` (the
+edge $xy$ lies in no monochromatic triangle under the coloring $C$) and the
+graph `nimt C` of such edges, and proves
+`theorem erdos639 (hn : 10 ≤ n V) : #(nimt C).edgeFinset ≤ n V ^ 2 / 4` for
+every finite vertex type `V` with at least $10$ vertices, that is, Proposition
+2.1 of [KeSu04] (the file's header names Keevash and Sudakov as the informal
+authors and Aristotle, an automated proof system, among its formal authors); it
+contains no `sorry` and no `axiom`, two of its lemmas are marked as proved by
+Aristotle, and its closing comment records `#print axioms erdos639` as
+`propext`, `Classical.choice`, `Quot.sound`. The formal-conjectures statement
+follows from that theorem (the docstring: "The linked file proves the bound for
+every finite vertex type with at least $10$ vertices, which gives the `atTop`
+reading"); the artifact formalizes neither the exact values for $n\le9$ nor the
 small-$n$ failures of the erdosproblems.com wording. These are statement-only
 static inspections at pinned commits: nothing was built or audited here, and no
-kernel credit is claimed. The thread's comment of 3 May 2026 links the
-same development on a Lean web editor. The file is a formalization link on
-the Keevash--Sudakov claim page, which lists no `formalized` evidence.
+kernel credit is claimed. The thread's comment of 3 May 2026 links the same
+development on a Lean web editor. The file is a formalization link on the
+Keevash--Sudakov claim page, which lists no `formalized` evidence.
 
 **Search scope.** None of the routes below found a
 dispute of Theorem 1.1, a correction to it, or a second determination of

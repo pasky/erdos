@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 654
@@ -63,13 +63,19 @@ https://www.erdosproblems.com/654.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/distance_multiplicity_interfaces/counts|Distance counts,
+multiplicities and pinned occupancy]] account records the following scope.
+Writing $r_j$ for the number of radii through exactly $j$ other points gives
+$3d-(n-1)=2r_1+r_2$ when no four points are cocircular. The desired improvement
+requires a linear deficit on the right; the identity alone does not supply it.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

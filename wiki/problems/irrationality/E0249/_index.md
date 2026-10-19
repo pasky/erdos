@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 249
@@ -180,18 +180,46 @@ squarefree $d$ with terms of size about $4^{-d}$ and no positivity, so the tail
 arguments that settle positive sparse series do not apply to it as it
 stands.
 
-**Finite exclusions.** The
-[Plectis author page](https://wcook04.github.io/plectis/maths/problems/erdos_249.html)
-reports that a rational value would need a denominator above
-$7.96\cdot10^{34}$. Such exclusions leave all larger denominators and
-irrationality unresolved.
+**Research.** Finite exclusions exist: the Plectis page reports an exclusion
+to $7.96\cdot10^{34}$. Such exclusions leave all larger denominators and
+irrationality unresolved. The project's editable sketch is
+[[research/leads/totient_binary_series/_index|the research home]]. It holds
+author-recorded, unreviewed research on the integer tails forced by a rational
+value, 2-adic criteria, integer-interpolation, phase and dilation arguments,
+and the limits of transferring
+[[../library/irrationality/bell_2026_mahler_series_multiplicative_coefficients/theorem_1_3|Bell--Smertnig's Theorem 1.3]],
+[[../library/irrationality/kaneko_2026_refinements_erdos_s_irrationality_criterion_certain/theorem_3|Kaneko--Suzuki--Tachiya's criterion]]
+and
+[[../library/irrationality/duverney_tachiya_2019_refinement_chowla_erdos_method_linear_independence_certain_lambert_series/theorem_1_1|Duverney–Tachiya's Theorem 1.1]];
+none of it is a claim, and none of it changes the status above. The
+author-recorded kernel separation theorem
+[[theory/irrationality/L16_totient_kernel_separation/_index|L16]] applies
+to nonzero infinite absolutely summable kernels of normalized totients.
+It is filed at tier 0, without independent acceptance; the implication
+from rationality to a vanishing kernel is not proved.
 
-Two published criteria delimit potential transfers.
-[[../library/irrationality/bell_2026_mahler_series_multiplicative_coefficients/theorem_1_3|Bell--Smertnig's Theorem 1.3]]
-excludes a Mahler equation for $\sum\varphi(n)z^n$; this does not decide
-its value at $z=1/2$.
-[[../library/irrationality/kaneko_2026_refinements_erdos_s_irrationality_criterion_certain/theorem_3|Kaneko--Suzuki--Tachiya's integer-base criterion]]
-requires sparse support, which the target's coefficients do not have.
+The
+[[research/totient_binary_new_attack/proof_sketch|kernel and comparison sketch]]
+adds scoped restrictions on possible constructions. The author-recorded
+[[theory/irrationality/L220_partial_multiplicativity_interval/_index|L220]]
+constructs positive integer functions with every prime-power value unchanged,
+all totient multiplication laws at any fixed finite set of primes, arbitrarily
+small relative error, and binary sums filling an interval about $S$.
+Only $O(X/\log X)$ values up to $X$ change. These are partially multiplicative
+comparisons; full multiplicativity is not asserted. Applying a dyadic rational
+comparison to a kernel whose cancellation holds for every such function gives
+an exponential cost lower bound once the lower cutoff is sufficiently large,
+even on arbitrarily long supports. Thus widening the support alone cannot give
+a sufficiently cheap kernel from those fixed-prime laws. Scalar kernels using more information remain unrestricted.
+
+The same sketch records
+[[theory/irrationality/L218_sparse_perturbation_any_value/_index|L218's sparse interpolation of arbitrary binary-series values]]
+and
+[[theory/irrationality/L219_dilation_design_prime_count/_index|L219's lower bound on the number of primes in a universal signed dilation design]].
+Neither is an obstruction to all irrationality proofs. The quantitative
+short-support construction still needs an unproved estimate for an
+inhomogeneous dyadic phase. All three claims remain at tier 0, and none
+resolves Problem 249.
 
 **Unverified web items (none is progress).** These are dated leads with
 their authors' own qualifications; none is accepted by erdosproblems.com or by a
@@ -273,7 +301,9 @@ proof, disproof, preprint or claim on the full series.
   5037](https://github.com/google-deepmind/formal-conjectures/issues/5037)
   (opened 2026-08-18) state that their reductions do not decide irrationality.
   A further search found no resolution; the Plectis page labels the target
-  open and separates its adjacent reductions from a proof.
+  open and separates its adjacent reductions from a proof, and its
+  evaluation-matrix argument was compared with the project's
+  integer-interpolation construction.
 
 Not searched: MathSciNet; full-text search of arXiv or Google Scholar; X
 (keyword search only).

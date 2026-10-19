@@ -6,7 +6,7 @@ desc: |
   to the alpha divided by n factorial, for all positive non-integral real
   alpha, are linearly independent over the rationals.
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -45,4 +45,4 @@ $F(x)=x^{\alpha-1}$, which the Remark on p. 17 lists as satisfying
 (i)--(iii) with $K=[\alpha]$ (the case $\gamma=1$ of $\gamma x^{\alpha-1}$,
 $\alpha-1>-1$ not an integer); then $f(N)=[N^\alpha]=N\,F(N)+O(1)$.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

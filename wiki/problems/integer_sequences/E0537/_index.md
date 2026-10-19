@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 537
@@ -56,7 +56,7 @@ edited proceedings volume, and no record found documents its refereeing. So the
 chapter is the source, not acceptance evidence. The external Lean formalization,
 inspected statically at a pinned revision (below), is recorded on the claim page
 and is not acceptance evidence. No dispute was found on 2026-09-18. The (LEAN)
-suffix is a catalog label. Nothing was built or kernel-checked here.
+suffix is an erdosproblems.com label. Nothing was built or kernel-checked here.
 
 **Source.** [erdosproblems.com/537](https://www.erdosproblems.com/537),
 accessed 2026-09-18: the problem page (DISPROVED (LEAN), the erdosproblems.com
@@ -80,8 +80,9 @@ Problem #537, https://www.erdosproblems.com/537, accessed 2026-09-18.
   [`src/v4.29.1/ErdosProblems/Erdos537.lean`](https://github.com/plby/lean-proofs/blob/1d7b3f00780b85ed0462e79a1cd5650ee9055655/src/v4.29.1/ErdosProblems/Erdos537.lean)
   (30 June 2026); not a library source.
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label; see
-"Formalization and the Lean label" below for what was inspected. The file
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below for what was inspected. The
+file
 [`ErdosProblems/537.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/537.lean)
 of formal-conjectures (main on 2026-09-18) declares
 `erdos_537 : answer(False) ↔ ∀ ε : ℝ, 0 < ε → ∀ᶠ N : ℕ in atTop, ∀ A ⊆ Finset.Icc 1 N, (A.card : ℝ) ≥ ε * N → ∃ a₁ ∈ A, ∃ a₂ ∈ A, ∃ a₃ ∈ A, ∃ p₁ p₂ p₃ : ℕ, p₁.Prime ∧ p₂.Prime ∧ p₃.Prime ∧ p₁ ≠ p₂ ∧ p₁ ≠ p₃ ∧ p₂ ≠ p₃ ∧ a₁ * p₁ = a₂ * p₂ ∧ a₂ * p₂ = a₃ * p₃`
@@ -90,8 +91,8 @@ attribute naming the external file above; its docstring reproduces the
 erdosproblems.com commentary. The community database (fetched 2026-09-18)
 records the problem disproved with Lean since 6 February 2026, `formal_status`
 Lean since the same date, the statement formalized since 3 August 2026 and no
-formal-proof URL. The erdosproblems.com page marks the
-statement as formalized. Nothing was built or kernel-checked here.
+formal-proof URL. The erdosproblems.com page marks the statement as formalized.
+Nothing was built or kernel-checked here.
 
 ## Current assessment
 
@@ -146,8 +147,8 @@ erdosproblems.com's answer to Problem 536 remains open: Ruzsa's set has at most
 two solutions of $pa=m$, so it excludes triples with equal pairwise least common
 multiples of that special shape only.
 
-**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos537.lean` in `plby/lean-proofs` at its
 revision of 30 June 2026. That file (108,554 bytes, 1,852 lines)

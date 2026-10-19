@@ -26,7 +26,7 @@ links:
   kind: discussion
   date: 2026-09-13
 created: 2026-10-07T06:27:56Z
-updated: 2026-10-08T03:53:39Z
+updated: 2026-10-18T10:11:03Z
 ---
 
 ***
@@ -120,9 +120,10 @@ of 14 September 2026 is the erdosproblems.com curator's, saying that Bloom has
 thought much about the problem, had worked at proving a linear bound for Problem
 96, and looks forward to reading the proof, which is not an acceptance; the
 others are a congratulation and the authors' new address. No outside review is
-recorded. The claim is therefore claimed, and the problem's standing is claimed
-through it. The separate disproof of Problem 96 by two of the authors, a Lean
-proof certified by the bounty site Conjectures.io on 14 September 2026, is on
+recorded. The claim is therefore claimed; the problem's standing is solved
+through the project's deduction below. The separate disproof of Problem 96 by
+two of the authors, a Lean proof certified by the bounty site Conjectures.io on
+14 September 2026, is on
 [[problems/distance_problems/E0096/claims/2026_09_10_kruer_kohlmeyer|its own claim page]].
 That result also yields a counterexample to this problem: with $d=13$ it gives a
 set in strictly convex position with more than three unit pairs per point, and
@@ -131,7 +132,7 @@ in strictly convex position in which every point has at least four, as the
 erdosproblems.com remarks on Problems 96 and 97 anticipate and as this
 manuscript's Lemma 4.1 and Remark 4.5 state in general. Kruer and Kohlmeyer's
 explanation does not state the consequence, so the project claims it as its own,
-pending review, on
+pending an outside sign-off after Plasma AI's internal review, on
 [[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]].
 The manuscript's answer to Problem 96 has
 [[problems/distance_problems/E0096/claims/2026_09_13_kruer_kohlmeyer_price|its own claim page]]

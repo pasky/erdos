@@ -10,7 +10,7 @@ status: claimed
 claim: disproved
 parts: [quarter]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:28:40Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1070
@@ -98,6 +98,15 @@ formal-conjectures had no statement file for the problem on 2026-10-07.
 - **Proof coverage and review.** None. The paper's certificate and blow-ups
   have not been independently checked, no own-words proof is held, and no
   independent review is recorded.
+
+## Route analysis
+
+The
+[[research/geometric_configuration_interfaces/unit_distance_independence|finite
+independence ratios and their extensions]] account records the following scope.
+The cited extension theorems imply inf_G alpha(G)/|G|=1/sup_G chi_gf(G) for
+finite planar unit-distance graphs.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

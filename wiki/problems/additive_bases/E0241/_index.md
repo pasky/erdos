@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 241
@@ -29,7 +29,11 @@ $$
 f(N)\sim N^{1/3}?
 $$
 
-**Status.** Open.
+**Status.** Open. Bose and Chowla [BoCh62] prove the lower half of the
+asymptotic, $\liminf_{N\to\infty}f(N)/N^{1/3}\ge1$, and their refereed result is
+recorded as an accepted partial claim on
+[[problems/additive_bases/E0241/claims/1962_12_01_bose_chowla|its claim page]].
+The upper half is open.
 
 **Source.** [erdosproblems.com/241](https://www.erdosproblems.com/241), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #241,
@@ -52,13 +56,19 @@ https://www.erdosproblems.com/241.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/241.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/constants_and_polynomial_images|Sidon
+constants and polynomial images]] account records the following scope. The held
+construction supplies the proposed lower constant, while the inspected general
+upper bound still has a larger constant. Matching the exponent does not resolve
+that constant gap.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

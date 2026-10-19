@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 709
@@ -107,6 +107,12 @@ statement not formalized, `formal_status` unformalized, no prize and an OEIS
 sequence marked possible.
 
 ## Current assessment
+
+The
+[[research/arithmetic_construction_interfaces/multiplicative_selection|matching
+interface]] makes the lower-bound transfer from Problem 711 explicit by
+adjoining a spare representative for $1$. It also records why an upper theorem
+for initial segments does not automatically cover arbitrary divisor sets.
 
 **The question (erdosproblems.com formulation, accessed 2026-09-18).** The
 statement above; labeled OPEN, with the erdosproblems.com note that no finite

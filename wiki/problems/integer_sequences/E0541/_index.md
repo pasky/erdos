@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 541
@@ -113,21 +113,21 @@ Problem #541, https://www.erdosproblems.com/541, accessed 2026-09-18.
   28 (1980); printed p. 95. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label; see
-"Formalization and the Lean label" below. The file
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below. The file
 [`ErdosProblems/541.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/541.lean)
 of formal-conjectures (main on 2026-09-18) declares
 `erdos_541 : answer(True) ↔ (∀ p, Fact p.Prime → ∀ (a : Fin p → ZMod p), (∃ r, ∀ (S : Finset (Fin p)), S ≠ ∅ → ∑ i ∈ S, a i = 0 → S.card = r) → (Set.range a).ncard ≤ 2)`
 under `category research solved` with proof `sorry` and a `formal_proof`
-attribute naming `src/v4.24.0/ErdosProblems/Erdos541.lean` in
-`plby/lean-proofs` on its `main` branch, together with two `research solved`
-variants with `sorry` bodies: `erdos_541.variants.general_moduli` (every
-$p$, the Gao--Hamidoune--Wang form) and `erdos_541.variants.large_primes`
-(eventually in $p$, the Erdős--Szemerédi form). The community database
-lists the problem as "proved (Lean)", as of its last update on 30 December
-2025, the statement formalized since 31 August 2025, `formal_status` Lean
-and no formal-proof URL. This corpus built and audited a later revision of
-the proof the attribute names; the claim page
+attribute naming `src/v4.24.0/ErdosProblems/Erdos541.lean` in `plby/lean-proofs`
+on its `main` branch, together with two `research solved` variants with `sorry`
+bodies: `erdos_541.variants.general_moduli` (every $p$, the Gao--Hamidoune--Wang
+form) and `erdos_541.variants.large_primes` (eventually in $p$, the
+Erdős--Szemerédi form). The community database lists the problem as "proved
+(Lean)", as of its last update on 30 December 2025, the statement formalized
+since 31 August 2025, `formal_status` Lean and no formal-proof URL. This corpus
+built and audited a later revision of the proof the attribute names; the claim
+page
 [[problems/integer_sequences/E0541/claims/2025_12_31_alexeev|Alexeev's Lean proof of 2025]]
 records the acceptance.
 
@@ -219,8 +219,8 @@ such sequences; the introduction (pp. 1--2) presents it as a short proof of
 the original conjecture using only the Cauchy--Davenport theorem and the
 pigeonhole principle for prime moduli. Its proof was not read.
 
-**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.24.0/ErdosProblems/Erdos541.lean` in `plby/lean-proofs` on its
 `main` branch, not a fixed commit. At that repository's head on 2026-09-18

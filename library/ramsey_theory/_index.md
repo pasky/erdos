@@ -3,7 +3,7 @@ name: ramsey_theory
 title: "Ramsey Theory"
 desc: "Sources filed under Ramsey Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-18T10:18:12Z
 ---
 
 # Ramsey Theory
@@ -80,6 +80,10 @@ K_p^*) ≤ r(ν(r(n_1, ..., n_{k-1})), p), the exact values R(TT_n, K_2^*) =
 ν(n), R(TT_3, K_3^*) = 9 and R(TT_3, TT_3, K_2^*) = 14, and the
 directed-path Ramsey numbers R(P_{n_1}, ..., P_{n_{k-1}}, G) =
 n_1 ... n_{k-1}(p-1) + 1 for a directed hamiltonian G on p vertices.
+
+[[ramsey_theory/bhattacharjee_mandal_bhattacharya_2026_monochromatic_union_closed_families/_index|bhattacharjee_mandal_bhattacharya_2026_monochromatic_union_closed_families/]]: An arXiv preprint claiming superpolynomial lower and subexponential upper
+bounds for the largest monochromatic union-closed family forced by a
+coloring of a finite power set.
 
 [[ramsey_theory/bikov_2020_independence_number_ramsey_graphs_folkman_number/_index|bikov_2020_independence_number_ramsey_graphs_folkman_number/]]: On the independence number of $(3,3)$-Ramsey graphs and the Folkman number
 $F_e(3,3;4)$.
@@ -178,12 +182,12 @@ to the kth power, the first exponential gain since 1935.
 [[ramsey_theory/campos_2025_new_lower_bound_ramsey_numbers/_index|campos_2025_new_lower_bound_ramsey_numbers/]]: Improves the lower bound for the off-diagonal Ramsey numbers R(3,k) from a
 quarter to a third of k squared over log k.
 
-[[ramsey_theory/caro_2000_asymptotic_bounds_some_bipartite_graph_complete_graph_ramsey_numbers/_index|caro_2000_asymptotic_bounds_some_bipartite_graph_complete_graph_ramsey_numbers/]]: Caro, Li, Rousseau and Zhang's 2000 upper bounds for bipartite-versus-complete
-Ramsey numbers: r(K_{2,m}, K_n) at most (m - 1 + o(1))(n / log n)^2 and
-r(C_{2m}, K_n) at most c (n / log n)^{m/(m-1)} for fixed m, from a Turán
-number to independence number transfer; the case m = 2 prints a proof of
-the bound r(C_4, K_n) at most c (n / log n)^2, which the paper says
-Szemerédi noted around 1980 and whose proof was never published. Also
+[[ramsey_theory/caro_2000_asymptotic_bounds_some_bipartite_graph_complete_graph_ramsey_numbers/_index|caro_2000_asymptotic_bounds_some_bipartite_graph_complete_graph_ramsey_numbers/]]: Caro, Li, Rousseau and Zhang's 2000 upper bounds for
+bipartite-versus-complete Ramsey numbers: r(K_{2,m}, K_n) at most
+(m - 1 + o(1))(n / log n)^2 and r(C_{2m}, K_n) at most
+c (n / log n)^{m/(m-1)} for fixed m, by a Turán-number transfer; the case
+m = 2 prints a proof of r(C_4, K_n) at most c (n / log n)^2, which the paper
+says Szemerédi noted around 1980 and whose proof was never published. Also
 r(K_{2,n}, K_n) of order n^3 / log^2 n and r(C_5, K_n) at most
 2 (3n)^{3/2} / (log n)^{1/2}.
 
@@ -608,13 +612,12 @@ with every edge count up to nearly its total.
 triangle in any two-coloring from 941 to 786 vertices.
 
 [[ramsey_theory/larson_mitchell_1997_problem_erdos_rado/_index|larson_mitchell_1997_problem_erdos_rado/]]: Larson and Mitchell's 1997 estimates for the digraph Ramsey numbers
-r(K_n^*, L_m), the least order forcing an independent set of n vertices or
-a transitive tournament of order m: r(K_n^*, L_3) ≤ n^2 (Lemma 4.2),
-r(K_4^*, L_3) > 13 by an explicit 13-vertex digraph (Proposition 3.1),
-the cubic bound r(K_n^*, L_4) ≤ 2n^3/3 + n^2 + 4n/3 − 4 (Lemma 4.4), and
-a polynomial bound of degree m − 1 in n with leading coefficient
-2^(m−2)/(m−1)! (Lemma 4.13) that improves Erdős and Rado's 1967 bound in
-its dependence on m.
+r(K_n^*, L_m), the least order forcing an independent set of n vertices or a
+transitive tournament of order m: r(K_n^*, L_3) ≤ n^2 (Lemma 4.2),
+r(K_4^*, L_3) > 13 by an explicit 13-vertex digraph (Proposition 3.1), the
+cubic bound r(K_n^*, L_4) ≤ 2n^3/3 + n^2 + 4n/3 − 4 (Lemma 4.4), and a
+polynomial bound of degree m − 1 in n with leading coefficient
+2^(m−2)/(m−1)! (Lemma 4.13), improving Erdős and Rado's 1967 bound in m.
 
 [[ramsey_theory/laywine_mayberry_1988_simple_construction_two_non_isomorphic_triangle_free_3_colored_k_16/_index|laywine_mayberry_1988_simple_construction_two_non_isomorphic_triangle_free_3_colored_k_16/]]: Laywine and Mayberry's 1988 construction of the two triangle-free
 3-colorings of the edges of the complete graph on 16 vertices from four
@@ -910,11 +913,11 @@ always n + floor(sqrt(n-1)) + 1 or + 2.
 
 [[ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars/_index|zhang_2017_some_values_ramsey_numbers_c_4_versus_stars/]]: Zhang, Chen and Cheng's 2017 exact values of R(C_4, K_{1,n}) for two new
 forms of n, motivated by n not near the square of a prime power, from a
-C_4-free graph on q^2 - 1 vertices built over the Galois field F_q:
-Theorem 6, R(C_4, K_{1,(q-1)^2+t}) = (q-1)^2 + q + t for even prime powers
-q at least 4 and t = 1, 0, -2; Theorem 7, R(C_4, K_{1,q(q-1)-t}) = q^2 - t
-for odd prime powers q at least 5 and even t up to 2 ceil(q/4); and the
-question whether R(C_4, K_{1,n}) is always n + floor(sqrt(n-1)) + 1 or + 2.
+C_4-free graph on q^2 - 1 vertices built over F_q: Theorem 6,
+R(C_4, K_{1,(q-1)^2+t}) = (q-1)^2 + q + t for even prime powers q at least 4
+and t = 1, 0, -2; Theorem 7, R(C_4, K_{1,q(q-1)-t}) = q^2 - t for odd prime
+powers q at least 5 and even t up to 2 ceil(q/4); and the question whether
+R(C_4, K_{1,n}) is always n + floor(sqrt(n-1)) + 1 or + 2.
 
 ***
 
@@ -1065,6 +1068,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/ramsey_theory/E0544/_index|E0544]]
   - [[../wiki/problems/ramsey_theory/E0812/_index|E0812]]
   - [[../wiki/problems/ramsey_theory/E1030/_index|E1030]]
+- [[group_theory/brouwer_1986_inequality_binary_vector_spaces/_index|brouwer_1986_inequality_binary_vector_spaces]]
+  - [[../wiki/problems/ramsey_theory/E0483/_index|E0483]]
 - [[integer_sequences/conlon_2021_subset_sums_completeness_colorings/_index|conlon_2021_subset_sums_completeness_colorings]]
   - [[../wiki/problems/ramsey_theory/E0054/_index|E0054]]
   - [[../wiki/problems/ramsey_theory/E0055/_index|E0055]]

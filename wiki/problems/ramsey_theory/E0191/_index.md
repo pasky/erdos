@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 191
@@ -69,10 +69,10 @@ results are quoted second-hand from the Conlon--Fox--Sudakov introduction,
 erdosproblems.com and Erdős's 1982 report. The refereed theorem of Conlon, Fox
 and Sudakov answers the question on its own. It is cited from the arXiv version
 headed "Accepted for publication in Duke Mathematical Journal".
-erdosproblems.com's "(Lean)" suffix is a catalog label explained under
-Formalization. An external Lean file that declares itself a formalization of
-Rödl's result states the problem and claims a proof. It was not built or checked
-here, and it is linked from Rödl's claim page.
+erdosproblems.com's "(Lean)" suffix is an erdosproblems.com label explained
+under Formalization. An external Lean file that declares itself a formalization
+of Rödl's result states the problem and claims a proof. It was not built or
+checked here, and it is linked from Rödl's claim page.
 
 **Source.** [erdosproblems.com/191](https://www.erdosproblems.com/191),
 accessed 2026-09-18: the problem page (labeled
@@ -121,24 +121,23 @@ https://www.erdosproblems.com/191, accessed 2026-09-18.
   p. 78. Library home:
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 
-**Formalization.** erdosproblems.com's "(Lean)" suffix is a catalog label; see
-"Formalization and the Lean label" below. The file
+**Formalization.** erdosproblems.com's "(Lean)" suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below. The file
 [`ErdosProblems/191.lean`](https://github.com/google-deepmind/formal-conjectures/blob/ded870fdb5614dae05b5c2f20831d4cabaf6fb8c/FormalConjectures/ErdosProblems/191.lean)
-of formal-conjectures, added at the linked commit on 19 September 2026,
-declares
+of formal-conjectures, added at the linked commit on 19 September 2026, declares
 `erdos_191 : answer(True) ↔ ∀ C : ℝ, 0 < C → ∀ᶠ n : ℕ in atTop, ∀ G : SimpleGraph (Finset.Icc 2 n), ∃ X : Finset (Finset.Icc 2 n), (G.IsClique X ∨ G.IsIndepSet X) ∧ C ≤ ∑ x ∈ X, 1 / Real.log (x : ℕ)`
 under `category research solved`. It has proof `sorry` and a `formal_proof`
-attribute pointing at line 1272 of the external file below. It adds three
-solved variants (`conlon_fox_sudakov`, `rodl_upper`, `three_colours`)
-without proofs. The
+attribute pointing at line 1272 of the external file below. It adds three solved
+variants (`conlon_fox_sudakov`, `rodl_upper`, `three_colours`) without proofs.
+The
 [community database](https://github.com/teorth/erdosproblems/blob/68294815d917c9c43c4723a7c70e36fe825ae2db/data/problems.yaml)
-lists the problem "proved (Lean)", with formal status Lean and no
-formal-proof URL, as of its entry's last update on 24 August 2026, and the
-statement formalized since 19 September 2026. The external file
+lists the problem "proved (Lean)", with formal status Lean and no formal-proof
+URL, as of its entry's last update on 24 August 2026, and the statement
+formalized since 19 September 2026. The external file
 [`src/latest/ErdosProblems/Erdos191.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/latest/ErdosProblems/Erdos191.lean)
-of Boris Alexeev's `lean-proofs` repository (GitHub user `plby`), at the
-linked commit (committer date 15 September 2026), states the problem and
-claims a proof (not built or checked here).
+of Boris Alexeev's `lean-proofs` repository (GitHub user `plby`), at the linked
+commit (committer date 15 September 2026), states the problem and claims a proof
+(not built or checked here).
 
 ## Current assessment
 
@@ -241,21 +240,21 @@ sharp if the exponential constant in the upper bound for diagonal Ramsey
 numbers is best possible, i.e., if $c_0=2$". Nothing found since determines
 the constant (search below).
 
-**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is a
-catalog label. Since 19 September 2026 the formal-conjectures statement
-`erdos_191` has carried a `formal_proof` attribute pointing at the artifact
-below; the community database's "proved (Lean)", listed as of its entry's last
-update on 24 August 2026, names no file. The artifact behind the label is
-`src/latest/ErdosProblems/Erdos191.lean` in Boris Alexeev's `lean-proofs`
-repository (GitHub user `plby`), at the commit linked under Formalization
-(committer date 15 September 2026): a file of 62,820 bytes and 1,403 lines for
-Lean and Mathlib v4.33.0 that names Rödl as its informal author and Codex and
-GPT-5.6 Sol as its formal authors, imports Mathlib and a repository utility
-module (`Util.Ramsey`), defines `Vertices n` as the subtype of `Finset.Icc 2 n`,
-`weight x` as `(Real.log x)⁻¹`, `Monochromatic G X` as "`X` is a clique or an
-independent set of the simple graph `G`" and `HasLargeMonochromaticSet C n` as
-"every simple graph on `Vertices n` has a finset `X` that is monochromatic with
-`C ≤ ∑ x ∈ X, weight x.1`", and states
+**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is an
+erdosproblems.com label. Since 19 September 2026 the formal-conjectures
+statement `erdos_191` has carried a `formal_proof` attribute pointing at the
+artifact below; the community database's "proved (Lean)", listed as of its
+entry's last update on 24 August 2026, names no file. The artifact behind the
+label is `src/latest/ErdosProblems/Erdos191.lean` in Boris Alexeev's
+`lean-proofs` repository (GitHub user `plby`), at the commit linked under
+Formalization (committer date 15 September 2026): a file of 62,820 bytes and
+1,403 lines for Lean and Mathlib v4.33.0 that names Rödl as its informal author
+and Codex and GPT-5.6 Sol as its formal authors, imports Mathlib and a
+repository utility module (`Util.Ramsey`), defines `Vertices n` as the subtype
+of `Finset.Icc 2 n`, `weight x` as `(Real.log x)⁻¹`, `Monochromatic G X` as "`X`
+is a clique or an independent set of the simple graph `G`" and
+`HasLargeMonochromaticSet C n` as "every simple graph on `Vertices n` has a
+finset `X` that is monochromatic with `C ≤ ∑ x ∈ X, weight x.1`", and states
 `erdos_191 : ∀ C : ℝ, 0 < C → ∃ N : ℕ, ∀ n ≥ N, HasLargeMonochromaticSet C n`
 (line 1272), for which it claims a proof. Its module comment describes the proof
 as "a qualitative finite specialization of the block argument of Rödl and

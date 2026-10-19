@@ -1,0 +1,20 @@
+\bibitem[Go01]{Go01}
+W.~T. Gowers,
+\emph{A new proof of Szemer\'edi's theorem},
+Geom. Funct. Anal. \textbf{11} (2001), no.~3, 465--588.
+\href{https://doi.org/10.1007/s00039-001-0332-9}{doi:10.1007/s00039-001-0332-9}
+
+[cut]
+
+\bibitem[Sa72]{Sa72}
+N.~Sauer,
+\emph{On the density of families of sets},
+J. Combin. Theory Ser. A \textbf{13} (1972), no.~1, 145--147.
+\href{https://doi.org/10.1016/0097-3165(72)90019-2}{doi:10.1016/0097-3165(72)90019-2}
+
+\bibitem[Sh72]{Sh72}
+S.~Shelah,
+\emph{A combinatorial problem; stability and order for models and
+theories in infinitary languages},
+Pacific J. Math. \textbf{41} (1972), no.~1, 247--261.
+\href{https://doi.org/10.2140/pjm.1972.41.247}{doi:10.2140/pjm.1972.41.247}

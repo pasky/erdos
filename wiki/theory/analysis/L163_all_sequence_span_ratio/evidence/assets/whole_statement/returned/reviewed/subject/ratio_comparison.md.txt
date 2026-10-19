@@ -1,0 +1,52 @@
+## The ratio part
+
+Put $\alpha=1/200$ and $c_0=1/(16\log4)$, so that $3\alpha<c_0/2$ (already
+$\log4<2$ suffices). Let $r$ be
+large, put $A=\alpha\log r$, and suppose that some sequence has
+$\limsup_nM_n^{(r)}/m_n^{(r)}<1+A/r$. Then there is $C<A$ with
+$M_n^{(r)}/m_n^{(r)}\le1+C/r$ for all large $n$, and the mean identity gives
+$n(M_n-m_n)\le C$ and $nM_n\le r+C$. As on the
+[[research/erdos_1221/ko26b_theorem_1_1_reconstruction|Theorem 1.1 page]],
+$a_t=r-nm_n$ and $b_t=tM_n-r$ with $n=\lfloor t\rfloor$ are nonnegative,
+bound every $r$-span of the time-$t$ set between $(r-a_t)/t$ and $(r+b_t)/t$,
+and satisfy $a_t+b_t\le C+(r+C)/n<A$ for all large $t$. This is hypothesis
+(2.1).
+
+For large $r$ we have $A\ge1$ and $r\ge C_0A$, so Proposition 3.1 gives, at
+all late integer times and for every arc of length $D/n$ with $0\le D\le S$,
+counting error at most $B$, where
+
+$$
+\Lambda=\log\frac rA,\qquad S=\frac{\sqrt{Ar}}{\Lambda^2},\qquad
+B=3A+\frac{C_1A}\Lambda .
+$$
+
+Its hypotheses $B\ge1$ and $S\ge2$ hold for large $r$. Also
+$\lfloor S\rfloor>B$ eventually, because $B=O(\log r)$ and
+$S/(\log r)\to\infty$. Thus Proposition 1221.1 gives a nonempty list of
+length $L'\ge\lfloor S\rfloor-B$ with $H_{L'}\le B$, and Proposition FP
+gives
+
+$$
+B\ \ge\ c_0\log L'-\frac1{16}.
+$$
+
+As $r\to\infty$, $A/\Lambda\to\alpha$, so $B=3\alpha\log r+O(1)$, and
+
+$$
+\log S=\tfrac12\log r-\tfrac32\log\log r+O(1).
+$$
+
+Since $B=O(\log r)$ is much smaller than $S$, $L'\ge S/2$ for large $r$.
+Therefore
+
+$$
+3\alpha\log r+O(1)\ \ge\ \frac{c_0}2\log r-\frac{3c_0}2\log\log r-O(1),
+$$
+
+which fails for all large $r$ because $3\alpha<c_0/2$. The implied constants
+depend only on $\alpha$ and the absolute constants $C_0$, $C_1$, so the
+threshold $r_0$ is independent of the sequence. The time thresholds inside the
+argument depend on the sequence, but only their existence is used. This proves
+$\limsup_nM_n^{(r)}/m_n^{(r)}\ge1+\log r/(200r)$ for $r\ge r_0$.
+

@@ -3,7 +3,7 @@ name: divisors
 title: "Divisors and Multiples"
 desc: "Sources filed under Divisors and Multiples, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Divisors and Multiples
@@ -215,6 +215,8 @@ Explicit links to this subject's problems support these cross-references.
 - [[arithmetic_functions/tao_2025_quantitative_correlations_problems_prime_factors_consecutive/_index|tao_2025_quantitative_correlations_problems_prime_factors_consecutive]]
   - [[../wiki/problems/divisors/E0946/_index|E0946]]
   - [[../wiki/problems/divisors/E0964/_index|E0964]]
+- [[discrete_geometry/chevyrev_2013_facets_comparative_probability_orders/_index|chevyrev_2013_facets_comparative_probability_orders]]
+  - [[../wiki/problems/divisors/E1100/_index|E1100]]
 - [[discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]]
   - [[../wiki/problems/divisors/E0673/_index|E0673]]
 - [[extremal_graph_theory/erdos_1992_my_favourite_problems_various_branches_combinatorics/_index|erdos_1992_my_favourite_problems_various_branches_combinatorics]]

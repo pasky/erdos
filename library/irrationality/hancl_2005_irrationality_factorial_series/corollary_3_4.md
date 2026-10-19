@@ -6,7 +6,7 @@ desc: |
   positive leading coefficient the sum of the integer part of P(N) over
   N factorial is irrational.
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -44,4 +44,4 @@ leading coefficient, and
 [[irrationality/hancl_2005_irrationality_factorial_series/corollary_3_1|Corollary 3.1]]
 gives a contradiction.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

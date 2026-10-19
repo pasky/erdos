@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T10:53:17Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 779
@@ -46,3 +46,16 @@ question to Deaconescu, records the proposer's verification of it for
 $n\le1000$, and reports Erdős's expectation that the least such $p$ is at most a
 fixed power of $n$; its probabilistic heuristic makes a failure at any $n$
 extremely unlikely. Nothing here is independently reviewed.
+
+## Exact local reduction and remaining uniformity
+
+The forms $X$ and $X+P$ are locally admissible. For a prime $q\mid P$ they
+forbid only the residue zero; for $q\nmid P$, one has $q>p_n\ge3$ and they
+forbid at most two residues. Thus no prime covers all possible inputs. This
+elementary check is necessary, not a prime-pair theorem.
+
+Even qualitative infinitude for each fixed $P$ would not force a pair with
+$p_n<p<P$, uniformly as the primorial grows. The missing input is an effective
+lower count of prime pairs in that exact bounded interval. The reported finite
+computation was not inspected or replayed, and local admissibility supplies no
+new existence result.

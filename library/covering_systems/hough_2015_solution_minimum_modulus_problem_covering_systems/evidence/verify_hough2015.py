@@ -1,3 +1,4 @@
+# evidence: entry
 """Certify Hough (Annals 2015), pp. 377--379, at the stated parameters.
 
 Python 3.10+ standard library plus the root ``tools`` package; no downloaded

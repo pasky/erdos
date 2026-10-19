@@ -7,7 +7,7 @@ desc: |
   closed interval, from Ford's order-of-magnitude theorem, exact telescoping
   and the unit jumps of V; the width of the interval is not controlled.
 created: 2026-09-28T04:33:16Z
-updated: 2026-09-28T06:43:25Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 [[research/erdos_416/_index|..]]
@@ -404,8 +404,12 @@ V(2x)-V(x)=P(2x)+\sum_{k\ge1}P\bigl(2x/2^k\bigr)-\sum_{k\ge0}P\bigl(x/2^k\bigr)
 $$
 
 So the number of totient values in $(x,2x]$ equals the number of dyadically
-primitive values up to $2x$; the preprint uses the identity for its entropy
-recursion.
+primitive values up to $2x$, and the doubling law $V(2x)/V(x)\to2$ is
+equivalent to $P(2x)\sim V(x)$, that is, to $P(x)\sim V(x)/2$ (this
+rephrasing, that asymptotically half of the totient values are dyadically
+primitive, is this page's and not the preprint's; the preprint uses the
+identity for its entropy recursion). The identity is exact and elementary
+and is available to any attack on the $c=2$ question.
 
 ## What is not reconstructed
 

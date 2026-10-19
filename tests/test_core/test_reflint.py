@@ -23,6 +23,7 @@ __all__ = [
     'test_dangling_links_and_definitions_are_findings',
     'test_resolving_and_masked_link_forms_never_count',
     'test_link_targets_must_match_the_spelling_on_disk',
+    'test_a_link_that_climbs_out_of_the_repository_is_a_finding',
     'test_a_fence_is_indented_three_spaces_at_most',
     'test_indented_code_is_masked_outside_a_list_item',
     'test_hook_excludes_and_retained_copies_are_skipped',
@@ -323,6 +324,32 @@ def test_link_targets_must_match_the_spelling_on_disk(repository: pathlib.Path) 
         'wiki/research/notes.md:3: dangling link target ../../Docs/anatomy.md',
     ]
     assert notes == ['reflint: 13 page(s), 11 link(s), 2 finding(s)']
+
+
+@pytest.mark.parametrize(
+    'target',
+    [
+        '../../../outside.md',
+        '../../../repo/docs/anatomy.md',
+        '../../../repo/../outside.md#part',
+    ],
+    ids=['outside', 'back in through the folder name', 'climb with an anchor'],
+)
+def test_a_link_that_climbs_out_of_the_repository_is_a_finding(
+    repository: pathlib.Path, target: str
+) -> None:
+    """Test that a target above the root is a finding even where the file exists."""
+    write_page(repository.parent / 'outside.md', '# outside')
+    write_page(
+        repository / 'wiki' / 'research' / 'notes.md',
+        '# notes',
+        '',
+        f'See [it]({target}) and [the anatomy](../../docs/anatomy.md).',
+    )
+    findings, _ = lint_references(repository)
+    assert findings == [
+        f'wiki/research/notes.md:3: link target outside the repository {target}'
+    ]
 
 
 def test_a_fence_is_indented_three_spaces_at_most(repository: pathlib.Path) -> None:

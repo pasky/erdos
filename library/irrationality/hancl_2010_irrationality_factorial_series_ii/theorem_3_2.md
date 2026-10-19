@@ -6,7 +6,7 @@ desc: |
   positive integers, a_N through a_4N form a geometric sequence for
   infinitely many N, and a_n is o(n to the n over 7).
 created: 2026-10-08T15:48:52Z
-updated: 2026-10-08T15:48:52Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -62,4 +62,4 @@ applies this theorem:
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

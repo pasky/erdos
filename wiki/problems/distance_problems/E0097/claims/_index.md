@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 97, one per claimant's result; the problem's 
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-14T00:23:36Z
+updated: 2026-10-19T10:58:49Z
 ---
 
 # problems/distance_problems/E0097/claims
@@ -20,6 +20,9 @@ polygon refutes the question.
 disproof of Problem 96: deleting points with at most three others at distance
 one from their strictly convex set with at least $13/4$ unit pairs per point
 leaves a convex polygon each of whose vertices has at least four others at
-distance one. It awaits review.
+distance one. Plasma AI's internal review finds that it holds; an outside sign-off is pending.
+
+[[problems/distance_problems/E0097/claims/evidence/_index|evidence/]]: Retains the review of the project's deduction of a counterexample to Problem
+97 from the accepted disproof of Problem 96.
 
 ***

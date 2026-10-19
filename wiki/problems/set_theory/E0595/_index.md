@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 595
@@ -75,9 +75,9 @@ problem as open.
 ## Known Results
 
 The question is the first question of [[problems/set_theory/E1174/_index|Problem 1174]]
-in other words, and Komjáth's survey notes the same cardinality obstruction: the
-required graph has more than $2^{\aleph_0}$ vertices, since the complete graph
-on $2^{\aleph_0}$ vertices is a countable union of bipartite graphs.
+in other words. [[research/erdos_1171/connections|The Problem 1171 connections page]]
+holds author-recorded research on the reach of that folder's finite-color
+partition relations here; it is not a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

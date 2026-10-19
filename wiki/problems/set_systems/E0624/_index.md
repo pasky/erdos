@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:20Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 624
@@ -47,13 +47,14 @@ https://www.erdosproblems.com/624.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/624.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/methods/finite_set_thresholds|cube-counting argument]] proves
+$H(2^h)\ge h+1$ for $h\ge2$, and hence $H(n)>\log_2n$ for $n\ge3$.
+It uses the unrestricted map in the Statement. The argument is
+author-recorded, supplies only a unit gap on powers of two, and does not
+prove the gap diverges. The source's outside-the-input map convention is
+not silently identified with this one. No wider standing search is supplied.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

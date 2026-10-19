@@ -14,7 +14,7 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 668
@@ -62,6 +62,15 @@ https://www.erdosproblems.com/668.
   $n=6,8,11,14,17,18,19,21$, so the count exceeds one for those $n$. As
   erdosproblems.com notes, [EHSVZ25] and [AMP25] count graphs up to isomorphism,
   not point sets up to congruence.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/dimension|Realization rank and
+dimension-sensitive constructions]] account records the following scope. The
+finite distance-set examples distinguish abstract distance graphs from their
+Euclidean realizations and can admit continuous families. They do not establish
+an eventual assertion as the set size grows.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

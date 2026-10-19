@@ -1,0 +1,171 @@
+## Statement
+
+For a list $\mathcal P$ of $M\ge1$ points $p=(p_1,p_2)\in[0,1]^2$, repeated
+points allowed, put
+
+$$
+D(x)=\#\{p\in\mathcal P:\ p_1<x_1,\ p_2<x_2\}-Mx_1x_2
+\qquad(x\in[0,1]^2),
+$$
+
+counting with multiplicity.
+
+**Theorem (Halász).** Every such list satisfies
+
+$$
+\int_{[0,1]^2}|D(x)|\,dx\ \ge\ \frac{\sqrt{\log M}}{41000}.
+$$
+
+## Proof
+
+**Haar functions.** A dyadic interval is $I=[a2^{-e},(a+1)2^{-e})\subseteq
+[0,1)$ with integers $e\ge0$, $0\le a<2^e$. Its Haar function is
+$h_I=-\mathbf 1_{I_l}+\mathbf 1_{I_r}$, where $I_l$ and $I_r$ are the left and
+right halves of $I$. For a dyadic rectangle $R=R_1\times R_2$ put
+$h_R(x)=h_{R_1}(x_1)h_{R_2}(x_2)$. For integers $s_1,s_2\ge0$, the
+$2^{s_1+s_2}$ dyadic rectangles with $|R_1|=2^{-s_1}$ and $|R_2|=2^{-s_2}$
+partition $[0,1)^2$; call $(s_1,s_2)$ their shape. A function
+$f=\sum_R\varepsilon_Rh_R$ over the rectangles of one shape, with signs
+$\varepsilon_R=\pm1$, is an r-function of that shape. It takes only the
+values $\pm1$ on $[0,1)^2$, so $f^2=1$ almost everywhere. Write
+$\langle\phi,\psi\rangle=\int_{[0,1]^2}\phi\psi$.
+
+**The coefficients of $D$.** Let $I=[a,a+\ell)$ be a dyadic interval. A direct
+computation gives $\int_0^1x\,h_I(x)\,dx=\ell^2/4$. For $q\in[0,1]$ put
+$\psi_I(q)=\int_0^1\mathbf 1[q<x]\,h_I(x)\,dx$. If $q\le a$ the integral covers
+all of $I$ and vanishes; if $q\ge a+\ell$ it is empty. For $a<q<a+\ell$ it
+equals $q-a$ on the left half and $a+\ell-q$ on the right half. Hence
+
+$$
+0\le\psi_I(q)\le\ell/2,\qquad \psi_I(q)=0\ \text{unless}\ a<q<a+\ell .
+$$
+
+Since the counting part of $D$ is a sum of products
+$\mathbf 1[p_1<x_1]\mathbf 1[p_2<x_2]$, every dyadic rectangle $R$ has
+
+$$
+\langle D,h_R\rangle=\sum_{p\in\mathcal P}\psi_{R_1}(p_1)\,\psi_{R_2}(p_2)
+-\frac{M|R|^2}{16},
+\tag{H0}
+$$
+
+and the term of $p$ vanishes unless $p$ lies in the interior of $R$, in which
+case it lies in $[0,|R|/4]$.
+
+**(H1) Large projections.** Choose the integer $n\ge2$ with
+$2^{n-2}\le M<2^{n-1}$. For $k=0,1,\ldots,n$ consider the $2^n$ rectangles of
+shape $(k,n-k)$, each of area $2^{-n}$. Their interiors are disjoint, so at most
+$M$ of them have a point of $\mathcal P$ in the interior, and at least
+$2^n-M\ge2^{n-1}$ do not. For each of the latter, (H0) gives
+$\langle D,h_R\rangle=-M2^{-2n}/16$. Let $f_k$ be the r-function of shape
+$(k,n-k)$ with $\varepsilon_R$ the sign of $\langle D,h_R\rangle$ ($+1$ when
+it vanishes). Then, using $M\ge2^{n-2}$,
+
+$$
+\langle D,f_k\rangle=\sum_R\bigl|\langle D,h_R\rangle\bigr|
+\ \ge\ 2^{n-1}\cdot2^{n-2}\cdot\frac{2^{-2n}}{16}=\frac1{128}.
+$$
+
+**(H2) Every r-function.** Let $f$ be any r-function of shape $(s_1,s_2)$ and
+$s=s_1+s_2$. Each point lies in the interior of at most one rectangle of the
+shape, where its term in (H0) is at most $2^{-s}/4$, and the $2^s$ area terms
+total $2^s\cdot M2^{-2s}/16$. Hence
+
+$$
+\bigl|\langle D,f\rangle\bigr|\ \le\ \sum_R\bigl|\langle D,h_R\rangle\bigr|
+\ \le\ \frac5{16}\,M2^{-s}.
+$$
+
+**(H3) The product rule in the plane.** For $y\in[0,1)$ and $e\ge0$ let
+$\rho_e(y)=h_I(y)$ for the dyadic interval $I\ni y$ of length $2^{-e}$; it is
+$\pm1$ according to the binary digit of $y$ in place $e+1$. On a rectangle
+$R$ of shape $(k,n-k)$, $h_R(x)=\rho_k(x_1)\rho_{n-k}(x_2)$, so
+$f_k(x)=\varepsilon_k(x)\rho_k(x_1)\rho_{n-k}(x_2)$, where $\varepsilon_k(x)$ is
+the sign of the rectangle containing $x$ and depends only on the first $k$
+digits of $x_1$ and the first $n-k$ digits of $x_2$. Let
+$0\le k_1<\cdots<k_j\le n$ with $j\ge2$, and fix a rectangle $R'$ of shape
+$(k_j,n-k_1)$, on which the first $k_j$ digits of $x_1$ and the first
+$n-k_1$ digits of $x_2$ are constant. On $R'$ every $\varepsilon_{k_i}$ is
+constant, every $\rho_{k_i}(x_1)$ with $i<j$ is constant (its digit has place at
+most $k_j$), and every $\rho_{n-k_i}(x_2)$ with $i>1$ is constant (its digit has
+place at most $n-k_1$). The two remaining factors are
+$\rho_{k_j}(x_1)\rho_{n-k_1}(x_2)=h_{R'}(x)$. Hence, almost everywhere,
+
+$$
+f_{k_1}f_{k_2}\cdots f_{k_j}\ \text{is an r-function of shape}\ (k_j,n-k_1),
+\ \text{of area}\ 2^{-n-(k_j-k_1)} .
+$$
+
+This uses that a rectangle of area $2^{-n}$ in the plane is fixed by one side
+length; it fails in higher dimensions, as the survey notes at (4.6).
+
+**(H4) The complex Riesz product.** Let $0<\alpha\le\frac12$ and
+
+$$
+\Gamma=\prod_{k=0}^n\bigl(1+i\alpha f_k\bigr)-1
+=i\alpha\sum_{k=0}^nf_k+\Gamma_2,\qquad
+\Gamma_2=\sum_{S\subseteq\{0,\ldots,n\},\ |S|\ge2}(i\alpha)^{|S|}
+\prod_{k\in S}f_k .
+$$
+
+Since $|1+i\alpha f_k|=\sqrt{1+\alpha^2}$ almost everywhere,
+
+$$
+\|\Gamma\|_\infty\ \le\ (1+\alpha^2)^{(n+1)/2}+1\ \le\
+e^{\alpha^2(n+1)/2}+1 .
+$$
+
+Group the sets $S$ with $|S|=j\ge2$ by $d=\max S-\min S\in\{1,\ldots,n\}$:
+there are $n-d+1$ choices of the two extreme indices and
+$\binom{d-1}{j-2}$ choices of the others, and by (H3) and (H2) each product has
+$|\langle D,\prod_Sf_k\rangle|\le\frac5{16}M2^{-n-d}$. Since $M2^{-n}<\frac12$
+and $\sum_{d\ge1}2^{-d}(1+\alpha)^{d-1}=1/(1-\alpha)\le2$,
+
+$$
+\bigl|\langle D,\Gamma_2\rangle\bigr|
+\ \le\ \frac5{16}M2^{-n}\sum_{d=1}^n(n-d+1)2^{-d}
+\sum_{j=2}^{d+1}\binom{d-1}{j-2}\alpha^j
+=\frac5{16}M2^{-n}\alpha^2\sum_{d=1}^n(n-d+1)2^{-d}(1+\alpha)^{d-1}
+\ \le\ \frac5{16}(n+1)\alpha^2 .
+$$
+
+**Conclusion.** Take $\alpha=\gamma/\sqrt{n+1}$ with $\gamma=1/80$. By (H1)
+the linear term $\langle D,i\alpha\sum_kf_k\rangle$ is purely imaginary of
+modulus at least $\alpha(n+1)/128=\gamma\sqrt{n+1}/128$, while
+$|\langle D,\Gamma_2\rangle|\le\frac5{16}\gamma^2$ and
+$\|\Gamma\|_\infty\le e^{\gamma^2/2}+1<2.0001$: indeed
+$e^{1/12800}\le(1-1/12800)^{-1}<1.0001$. By Hölder's inequality,
+
+$$
+\int_{[0,1]^2}|D|\ \ge\ \frac{|\langle D,\Gamma\rangle|}{\|\Gamma\|_\infty}
+\ \ge\ \frac{\sqrt{n+1}/10240-1/20480}{2.0001}
+\ \ge\ \frac{\sqrt{n+1}}{41000},
+$$
+
+using $\sqrt{n+1}\ge1$ and $20480\cdot2.0001<41000$.
+Finally $M<2^{n-1}$ gives
+$n+1>\log_2M+2>\log M$, so the right side exceeds $\sqrt{\log M}/41000$.
+$\square$
+
+
+[cut: outside this mathematical subject]
+
+## Anchored-box conventions
+
+For a list in $(0,1]^2$, replacing $[0,u)\times[0,v)$ by
+$(0,u]\times(0,v]$ changes its counting function only on finitely many
+lines, so its $L^1$ discrepancy is unchanged. This equality need not hold
+when a point has a zero coordinate: for example, the point $(0,0)$ is counted
+by the first box almost everywhere and by the second box nowhere.
+
+The same lower bound nevertheless holds for the second box convention even
+on $[0,1]^2$. Write its discrepancy as $D^+$. A point with a zero coordinate
+contributes zero to $D^+$'s counting term. Its contribution to (H0) for $D$
+is also zero, since $\psi_I(0)=0$. For points with positive coordinates the
+two counting terms agree almost everywhere. Thus
+$\langle D^+,h_R\rangle=\langle D,h_R\rangle$ for every dyadic rectangle
+$R$, with the same area term $-M|R|^2/16$. Estimates (H1)--(H4) and the
+Hölder step therefore apply to $D^+$ as well. This proves the version of
+the planar theorem stated on the Lemma 7.2 page without discarding boundary
+points or changing $M$.
+

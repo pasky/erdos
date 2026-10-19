@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-14T15:30:27Z
 ---
 
 # Problem 831
@@ -32,10 +32,16 @@ https://www.erdosproblems.com/831.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/geometric_configuration_interfaces/circumradii|circle counts and
+distinct circumradii]] account records the following scope. Every triple gives a
+distinct circle, while fixed-radius circles use at least three pairs and every
+pair lies on at most two such circles. Hence there are at least
+$\lceil(n-2)/2\rceil$ distinct radii. The conjectured little-$o$ bound in
+E0104 would imply a superlinear number; that premise remains open.

@@ -1,3 +1,4 @@
+# evidence: entry
 """Replay sufficient numerical bounds in BBMST's published density paper.
 
 Uses only Python 3.10+ standard-library integer and rational arithmetic, with

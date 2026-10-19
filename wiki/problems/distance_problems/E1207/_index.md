@@ -12,7 +12,7 @@ status: claimed
 claim: proved
 parts: [planar_saving]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:27:16Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1207
@@ -98,6 +98,14 @@ record.
 
 Search scope: the erdosproblems.com problem page and the arXiv
 record and text of [LPZ26]. Not searched: zbMATH and MathSciNet.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/distance_subsets|repeated
+distances and geometric sidon subsets]] account records the following scope. The
+robust estimate mu(A)>=c|A|^2/N^(1-delta), with ordered nonzero pairs, implies
+|A|<=c^(-1)N^(1-delta) when every distance graph on A is a matching.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

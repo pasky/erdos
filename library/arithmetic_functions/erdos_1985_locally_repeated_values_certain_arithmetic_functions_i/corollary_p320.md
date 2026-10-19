@@ -5,7 +5,7 @@ desc: |
   Each of n+nu(n)=m+nu(m), n+Omega(n)=m+Omega(m) and n+tau(n)=m+tau(m), with
   n different from m, has infinitely many solutions.
 created: 2026-10-08T14:33:26Z
-updated: 2026-10-08T14:33:26Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -37,7 +37,7 @@ $\sum_{n\leq x}\tau(n)=x\log x+c_3x+O(\sqrt{x})$.
 gives a quantitative lower bound for the number of solutions up to $x$, by a
 different method.
 
-**Bears on.** No catalog problem directly. It concerns collisions of
+**Bears on.** No erdosproblems.com problem directly. It concerns collisions of
 $n+f(n)$ for $f=\nu,\Omega,\tau$, not Euler's totient function.
 
 **Living verification.** Needs review. The three equations and the

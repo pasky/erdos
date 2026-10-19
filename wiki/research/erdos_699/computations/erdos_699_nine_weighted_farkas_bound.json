@@ -1,0 +1,6217 @@
+{
+  "index": 9,
+  "height_variable": "h=n-8",
+  "claim": "The algebraic part of the retained proof holds above the stated power, conditional on the retained effective analytic-source thresholds.",
+  "leaf_count": 23973,
+  "root_count": 917,
+  "old_cap": 5109634000001,
+  "weighted_leaf_max": {
+    "root_index": 753,
+    "node_index": 186,
+    "positions": [
+      4,
+      0,
+      2,
+      1
+    ],
+    "vector_scaled": [
+      3296,
+      502,
+      3931,
+      505
+    ],
+    "cap": "5741050000000/8343",
+    "cap_decimal": 688127771.7847297,
+    "alpha": "2781/1250000000",
+    "weighted_constant": "114821/75",
+    "polynomial_weights": [
+      [
+        "baseline_52",
+        "1/150",
+        229642,
+        0
+      ]
+    ]
+  },
+  "baseline_max": {
+    "polynomial": "baseline_15",
+    "cases": 44,
+    "gain_scaled": 22,
+    "constant": 1751263,
+    "cap": "8756315000/11",
+    "cap_decimal": 796028636.3636364
+  },
+  "basepoint_max": {
+    "polynomial": "round3_001",
+    "cap": 2756506682
+  },
+  "overall_exact_cap": "2756506682",
+  "overall_integer_power": 2756506683,
+  "top_leaves": [
+    {
+      "root_index": 753,
+      "node_index": 186,
+      "positions": [
+        4,
+        0,
+        2,
+        1
+      ],
+      "vector_scaled": [
+        3296,
+        502,
+        3931,
+        505
+      ],
+      "cap": "5741050000000/8343",
+      "cap_decimal": 688127771.7847297,
+      "alpha": "2781/1250000000",
+      "weighted_constant": "114821/75",
+      "polynomial_weights": [
+        [
+          "baseline_52",
+          "1/150",
+          229642,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 222,
+      "node_index": 315,
+      "positions": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "vector_scaled": [
+        3296,
+        502,
+        3931,
+        505
+      ],
+      "cap": "50644900000000/121319",
+      "cap_decimal": 417452336.4023772,
+      "alpha": "121319/20750000000",
+      "weighted_constant": "1012898/415",
+      "polynomial_weights": [
+        [
+          "round2_008",
+          "1/415",
+          1012898,
+          315199250
+        ]
+      ]
+    },
+    {
+      "root_index": 40,
+      "node_index": 318,
+      "positions": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "vector_scaled": [
+        0,
+        2921,
+        2711,
+        3218
+      ],
+      "cap": "63870425000000/219987",
+      "cap_decimal": 290337269.92958677,
+      "alpha": "24443/1000000000",
+      "weighted_constant": "2554817/360",
+      "polynomial_weights": [
+        [
+          "round3_001",
+          "1/720",
+          5109634,
+          2756506682
+        ]
+      ]
+    },
+    {
+      "root_index": 668,
+      "node_index": 17,
+      "positions": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "vector_scaled": [
+        2757,
+        2921,
+        0,
+        2667
+      ],
+      "cap": "45163400000000/158927",
+      "cap_decimal": 284177012.08731055,
+      "alpha": "158927/19100000000",
+      "weighted_constant": "451634/191",
+      "polynomial_weights": [
+        [
+          "coprime_004",
+          "1/382",
+          903268,
+          270183002
+        ]
+      ]
+    },
+    {
+      "root_index": 305,
+      "node_index": 35,
+      "positions": [
+        1,
+        2,
+        0,
+        4
+      ],
+      "vector_scaled": [
+        2757,
+        2921,
+        0,
+        2667
+      ],
+      "cap": "2453970000/11",
+      "cap_decimal": 223088181.8181818,
+      "alpha": "11/1660000",
+      "weighted_constant": "245397/166",
+      "polynomial_weights": [
+        [
+          "baseline_21",
+          "1/166",
+          245397,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 710,
+      "node_index": 3,
+      "positions": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "vector_scaled": [
+        0,
+        2921,
+        2711,
+        3218
+      ],
+      "cap": "18065360000000/84913",
+      "cap_decimal": 212751404.3785993,
+      "alpha": "84913/10420000000",
+      "weighted_constant": "903268/521",
+      "polynomial_weights": [
+        [
+          "coprime_004",
+          "1/521",
+          903268,
+          270183002
+        ]
+      ]
+    },
+    {
+      "root_index": 466,
+      "node_index": 274,
+      "positions": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "vector_scaled": [
+        3296,
+        502,
+        3931,
+        505
+      ],
+      "cap": "69372400000000/359381",
+      "cap_decimal": 193033020.66608974,
+      "alpha": "359381/43300000000",
+      "weighted_constant": "693724/433",
+      "polynomial_weights": [
+        [
+          "gap_028",
+          "1/433",
+          693724,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 752,
+      "node_index": 249,
+      "positions": [
+        4,
+        0,
+        2,
+        1
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "22964200000000/183879",
+      "cap_decimal": 124887561.92931221,
+      "alpha": "183879/21500000000",
+      "weighted_constant": "229642/215",
+      "polynomial_weights": [
+        [
+          "baseline_52",
+          "1/215",
+          229642,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 752,
+      "node_index": 197,
+      "positions": [
+        4,
+        0,
+        2,
+        1
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "22964200000000/183879",
+      "cap_decimal": 124887561.92931221,
+      "alpha": "183879/21500000000",
+      "weighted_constant": "229642/215",
+      "polynomial_weights": [
+        [
+          "baseline_52",
+          "1/215",
+          229642,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 748,
+      "node_index": 0,
+      "positions": [
+        4,
+        0,
+        1,
+        2
+      ],
+      "vector_scaled": [
+        0,
+        2921,
+        2711,
+        3218
+      ],
+      "cap": "1265915000/11",
+      "cap_decimal": 115083181.81818181,
+      "alpha": "11/1060000",
+      "weighted_constant": "253183/212",
+      "polynomial_weights": [
+        [
+          "poly_021",
+          "1/212",
+          253183,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 295,
+      "node_index": 146,
+      "positions": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "vector_scaled": [
+        3296,
+        2562,
+        0,
+        2667
+      ],
+      "cap": "4241368750000/39597",
+      "cap_decimal": 107113386.11510973,
+      "alpha": "39597/2525000000",
+      "weighted_constant": "6719/4",
+      "polynomial_weights": [
+        [
+          "coprime_002",
+          "1/404",
+          678619,
+          183856226
+        ]
+      ]
+    },
+    {
+      "root_index": 685,
+      "node_index": 114,
+      "positions": [
+        3,
+        1,
+        2,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "53597350000000/512549",
+      "cap_decimal": 104570197.19090272,
+      "alpha": "512549/23450000000",
+      "weighted_constant": "1071947/469",
+      "polynomial_weights": [
+        [
+          "round2_013",
+          "1/469",
+          1071947,
+          339855188
+        ]
+      ]
+    },
+    {
+      "root_index": 145,
+      "node_index": 198,
+      "positions": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "vector_scaled": [
+        0,
+        2921,
+        2711,
+        3218
+      ],
+      "cap": "374048900000000/4038931",
+      "cap_decimal": 92610866.58821356,
+      "alpha": "4038931/64700000000",
+      "weighted_constant": "3740489/647",
+      "polynomial_weights": [
+        [
+          "round3_000",
+          "1/647",
+          3740489,
+          1815704750
+        ]
+      ]
+    },
+    {
+      "root_index": 752,
+      "node_index": 485,
+      "positions": [
+        4,
+        0,
+        2,
+        1
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "5741050000000/65451",
+      "cap_decimal": 87715237.35313441,
+      "alpha": "21817/1475000000",
+      "weighted_constant": "229642/177",
+      "polynomial_weights": [
+        [
+          "baseline_52",
+          "1/177",
+          229642,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 709,
+      "node_index": 55,
+      "positions": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "vector_scaled": [
+        2679,
+        2921,
+        0,
+        3218
+      ],
+      "cap": "67861900000000/790711",
+      "cap_decimal": 85823897.73254703,
+      "alpha": "790711/40400000000",
+      "weighted_constant": "6719/4",
+      "polynomial_weights": [
+        [
+          "coprime_002",
+          "1/404",
+          678619,
+          183856226
+        ]
+      ]
+    },
+    {
+      "root_index": 374,
+      "node_index": 945,
+      "positions": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "132163000000/1569",
+      "cap_decimal": 84233906.94710006,
+      "alpha": "1569/33200000",
+      "weighted_constant": "660815/166",
+      "polynomial_weights": [
+        [
+          "round3_002",
+          "1/498",
+          1982445,
+          775932642
+        ]
+      ]
+    },
+    {
+      "root_index": 581,
+      "node_index": 113,
+      "positions": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "18081400000000/237977",
+      "cap_decimal": 75979611.47505851,
+      "alpha": "237977/11725000000",
+      "weighted_constant": "723256/469",
+      "polynomial_weights": [
+        [
+          "gap_023",
+          "1/469",
+          723256,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 375,
+      "node_index": 816,
+      "positions": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        502,
+        3931,
+        505
+      ],
+      "cap": "198244500000000/2738299",
+      "cap_decimal": 72396951.53816293,
+      "alpha": "2738299/49800000000",
+      "weighted_constant": "660815/166",
+      "polynomial_weights": [
+        [
+          "round3_002",
+          "1/498",
+          1982445,
+          775932642
+        ]
+      ]
+    },
+    {
+      "root_index": 221,
+      "node_index": 412,
+      "positions": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "53568050000000/773481",
+      "cap_decimal": 69255805.89568457,
+      "alpha": "773481/26150000000",
+      "weighted_constant": "1071361/523",
+      "polynomial_weights": [
+        [
+          "round2_007",
+          "1/523",
+          1071361,
+          339855188
+        ]
+      ]
+    },
+    {
+      "root_index": 582,
+      "node_index": 356,
+      "positions": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        502,
+        3931,
+        505
+      ],
+      "cap": "14465120000000/211811",
+      "cap_decimal": 68292581.59396821,
+      "alpha": "211811/7900000000",
+      "weighted_constant": "723256/395",
+      "polynomial_weights": [
+        [
+          "gap_023",
+          "1/395",
+          723256,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 87,
+      "node_index": 0,
+      "positions": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "vector_scaled": [
+        3296,
+        0,
+        3774,
+        3271
+      ],
+      "cap": "884397500/13",
+      "cap_decimal": 68030576.92307693,
+      "alpha": "13/600000",
+      "weighted_constant": "353759/240",
+      "polynomial_weights": [
+        [
+          "coprime_003",
+          "1/480",
+          707518,
+          194592698
+        ]
+      ]
+    },
+    {
+      "root_index": 650,
+      "node_index": 275,
+      "positions": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "vector_scaled": [
+        3296,
+        502,
+        3931,
+        505
+      ],
+      "cap": "5305668750000/78541",
+      "cap_decimal": 67552854.5600387,
+      "alpha": "78541/1081250000",
+      "weighted_constant": "848907/173",
+      "polynomial_weights": [
+        [
+          "round3_003",
+          "1/346",
+          1697814,
+          630396410
+        ]
+      ]
+    },
+    {
+      "root_index": 254,
+      "node_index": 12,
+      "positions": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "vector_scaled": [
+        2757,
+        2921,
+        0,
+        2667
+      ],
+      "cap": "2526850000000/40479",
+      "cap_decimal": 62423725.88255639,
+      "alpha": "283353/9650000000",
+      "weighted_constant": "353759/193",
+      "polynomial_weights": [
+        [
+          "coprime_003",
+          "1/386",
+          707518,
+          194592698
+        ]
+      ]
+    },
+    {
+      "root_index": 581,
+      "node_index": 660,
+      "positions": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "18081400000000/308839",
+      "cap_decimal": 58546362.344133995,
+      "alpha": "308839/6450000000",
+      "weighted_constant": "361628/129",
+      "polynomial_weights": [
+        [
+          "gap_023",
+          "1/258",
+          723256,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 581,
+      "node_index": 425,
+      "positions": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "1130087500000/19397",
+      "cap_decimal": 58260942.413775325,
+      "alpha": "19397/759375000",
+      "weighted_constant": "361628/243",
+      "polynomial_weights": [
+        [
+          "gap_023",
+          "1/486",
+          723256,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 581,
+      "node_index": 370,
+      "positions": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "1130087500000/19397",
+      "cap_decimal": 58260942.413775325,
+      "alpha": "19397/759375000",
+      "weighted_constant": "361628/243",
+      "polynomial_weights": [
+        [
+          "gap_023",
+          "1/486",
+          723256,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 581,
+      "node_index": 289,
+      "positions": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "1130087500000/19397",
+      "cap_decimal": 58260942.413775325,
+      "alpha": "19397/759375000",
+      "weighted_constant": "361628/243",
+      "polynomial_weights": [
+        [
+          "gap_023",
+          "1/486",
+          723256,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 581,
+      "node_index": 228,
+      "positions": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "vector_scaled": [
+        3296,
+        505,
+        3931,
+        0
+      ],
+      "cap": "1130087500000/19397",
+      "cap_decimal": 58260942.413775325,
+      "alpha": "19397/759375000",
+      "weighted_constant": "361628/243",
+      "polynomial_weights": [
+        [
+          "gap_023",
+          "1/486",
+          723256,
+          0
+        ]
+      ]
+    },
+    {
+      "root_index": 668,
+      "node_index": 128,
+      "positions": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "vector_scaled": [
+        2757,
+        2921,
+        0,
+        2667
+      ],
+      "cap": "90326800000000/1676177",
+      "cap_decimal": 53888580.9792164,
+      "alpha": "1676177/40400000000",
+      "weighted_constant": "225817/101",
+      "polynomial_weights": [
+        [
+          "coprime_004",
+          "1/404",
+          903268,
+          270183002
+        ]
+      ]
+    },
+    {
+      "root_index": 222,
+      "node_index": 575,
+      "positions": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "vector_scaled": [
+        3296,
+        502,
+        3931,
+        505
+      ],
+      "cap": "1674001562500/32133",
+      "cap_decimal": 52096024.72536022,
+      "alpha": "32133/582812500",
+      "weighted_constant": "1071361/373",
+      "polynomial_weights": [
+        [
+          "round2_007",
+          "1/373",
+          1071361,
+          339855188
+        ]
+      ]
+    }
+  ],
+  "baseline_caps": [
+    {
+      "polynomial": "baseline_15",
+      "cases": 44,
+      "gain_scaled": 22,
+      "constant": 1751263,
+      "cap": "8756315000/11",
+      "cap_decimal": 796028636.3636364
+    },
+    {
+      "polynomial": "baseline_10",
+      "cases": 817,
+      "gain_scaled": 11,
+      "constant": 245777,
+      "cap": "2457770000/11",
+      "cap_decimal": 223433636.36363637
+    },
+    {
+      "polynomial": "baseline_27",
+      "cases": 17,
+      "gain_scaled": 15,
+      "constant": 245760,
+      "cap": "163840000",
+      "cap_decimal": 163840000.0
+    },
+    {
+      "polynomial": "baseline_34",
+      "cases": 16811,
+      "gain_scaled": 3,
+      "constant": 34902,
+      "cap": "116340000",
+      "cap_decimal": 116340000.0
+    },
+    {
+      "polynomial": "baseline_35",
+      "cases": 124,
+      "gain_scaled": 5,
+      "constant": 36640,
+      "cap": "73280000",
+      "cap_decimal": 73280000.0
+    },
+    {
+      "polynomial": "baseline_4",
+      "cases": 7772,
+      "gain_scaled": 7,
+      "constant": 32562,
+      "cap": "325620000/7",
+      "cap_decimal": 46517142.85714286
+    },
+    {
+      "polynomial": "baseline_5",
+      "cases": 1562,
+      "gain_scaled": 8,
+      "constant": 34500,
+      "cap": "43125000",
+      "cap_decimal": 43125000.0
+    },
+    {
+      "polynomial": "baseline_3",
+      "cases": 30033,
+      "gain_scaled": 68,
+      "constant": 276857,
+      "cap": "692142500/17",
+      "cap_decimal": 40714264.705882356
+    },
+    {
+      "polynomial": "baseline_66",
+      "cases": 168,
+      "gain_scaled": 22,
+      "constant": 84911,
+      "cap": "424555000/11",
+      "cap_decimal": 38595909.09090909
+    },
+    {
+      "polynomial": "baseline_7",
+      "cases": 651,
+      "gain_scaled": 137,
+      "constant": 527551,
+      "cap": "5275510000/137",
+      "cap_decimal": 38507372.26277372
+    },
+    {
+      "polynomial": "baseline_8",
+      "cases": 500,
+      "gain_scaled": 65,
+      "constant": 216708,
+      "cap": "433416000/13",
+      "cap_decimal": 33339692.307692308
+    },
+    {
+      "polynomial": "baseline_13",
+      "cases": 1889,
+      "gain_scaled": 74,
+      "constant": 237476,
+      "cap": "1187380000/37",
+      "cap_decimal": 32091351.35135135
+    },
+    {
+      "polynomial": "baseline_69",
+      "cases": 50,
+      "gain_scaled": 31,
+      "constant": 83770,
+      "cap": "837700000/31",
+      "cap_decimal": 27022580.64516129
+    },
+    {
+      "polynomial": "baseline_36",
+      "cases": 279,
+      "gain_scaled": 140,
+      "constant": 200302,
+      "cap": "100151000/7",
+      "cap_decimal": 14307285.714285715
+    },
+    {
+      "polynomial": "baseline_67",
+      "cases": 4,
+      "gain_scaled": 289,
+      "constant": 243240,
+      "cap": "2432400000/289",
+      "cap_decimal": 8416608.996539792
+    },
+    {
+      "polynomial": "baseline_68",
+      "cases": 51,
+      "gain_scaled": 272,
+      "constant": 224066,
+      "cap": "140041250/17",
+      "cap_decimal": 8237720.588235294
+    },
+    {
+      "polynomial": "baseline_20",
+      "cases": 46,
+      "gain_scaled": 417,
+      "constant": 260718,
+      "cap": "869060000/139",
+      "cap_decimal": 6252230.215827338
+    },
+    {
+      "polynomial": "baseline_41",
+      "cases": 35,
+      "gain_scaled": 454,
+      "constant": 228315,
+      "cap": "1141575000/227",
+      "cap_decimal": 5028964.757709251
+    },
+    {
+      "polynomial": "baseline_11",
+      "cases": 355,
+      "gain_scaled": 62,
+      "constant": 30455,
+      "cap": "152275000/31",
+      "cap_decimal": 4912096.774193549
+    },
+    {
+      "polynomial": "baseline_45",
+      "cases": 28,
+      "gain_scaled": 550,
+      "constant": 188412,
+      "cap": "37682400/11",
+      "cap_decimal": 3425672.727272727
+    },
+    {
+      "polynomial": "baseline_16",
+      "cases": 140,
+      "gain_scaled": 207,
+      "constant": 60471,
+      "cap": "67190000/23",
+      "cap_decimal": 2921304.347826087
+    },
+    {
+      "polynomial": "baseline_9",
+      "cases": 1675,
+      "gain_scaled": 123,
+      "constant": 32299,
+      "cap": "322990000/123",
+      "cap_decimal": 2625934.9593495936
+    },
+    {
+      "polynomial": "baseline_57",
+      "cases": 11,
+      "gain_scaled": 825,
+      "constant": 210698,
+      "cap": "84279200/33",
+      "cap_decimal": 2553915.1515151514
+    },
+    {
+      "polynomial": "baseline_44",
+      "cases": 13,
+      "gain_scaled": 887,
+      "constant": 220634,
+      "cap": "2206340000/887",
+      "cap_decimal": 2487418.2638105974
+    },
+    {
+      "polynomial": "baseline_53",
+      "cases": 20,
+      "gain_scaled": 268,
+      "constant": 62057,
+      "cap": "155142500/67",
+      "cap_decimal": 2315559.7014925373
+    },
+    {
+      "polynomial": "baseline_43",
+      "cases": 9,
+      "gain_scaled": 328,
+      "constant": 73409,
+      "cap": "91761250/41",
+      "cap_decimal": 2238079.2682926827
+    },
+    {
+      "polynomial": "baseline_14",
+      "cases": 32133,
+      "gain_scaled": 60,
+      "constant": 13248,
+      "cap": "2208000",
+      "cap_decimal": 2208000.0
+    },
+    {
+      "polynomial": "baseline_37",
+      "cases": 393,
+      "gain_scaled": 165,
+      "constant": 34714,
+      "cap": "69428000/33",
+      "cap_decimal": 2103878.787878788
+    },
+    {
+      "polynomial": "baseline_60",
+      "cases": 60,
+      "gain_scaled": 24,
+      "constant": 4665,
+      "cap": "1943750",
+      "cap_decimal": 1943750.0
+    },
+    {
+      "polynomial": "baseline_39",
+      "cases": 8,
+      "gain_scaled": 1166,
+      "constant": 208413,
+      "cap": "1042065000/583",
+      "cap_decimal": 1787418.5248713552
+    },
+    {
+      "polynomial": "baseline_12",
+      "cases": 395,
+      "gain_scaled": 36,
+      "constant": 5479,
+      "cap": "13697500/9",
+      "cap_decimal": 1521944.4444444445
+    },
+    {
+      "polynomial": "baseline_23",
+      "cases": 4,
+      "gain_scaled": 1539,
+      "constant": 229729,
+      "cap": "120910000/81",
+      "cap_decimal": 1492716.049382716
+    },
+    {
+      "polynomial": "baseline_28",
+      "cases": 14,
+      "gain_scaled": 1960,
+      "constant": 245654,
+      "cap": "61413500/49",
+      "cap_decimal": 1253336.7346938776
+    },
+    {
+      "polynomial": "baseline_54",
+      "cases": 27,
+      "gain_scaled": 570,
+      "constant": 60217,
+      "cap": "60217000/57",
+      "cap_decimal": 1056438.596491228
+    },
+    {
+      "polynomial": "baseline_22",
+      "cases": 2,
+      "gain_scaled": 919,
+      "constant": 95403,
+      "cap": "954030000/919",
+      "cap_decimal": 1038117.5190424374
+    },
+    {
+      "polynomial": "baseline_40",
+      "cases": 43,
+      "gain_scaled": 587,
+      "constant": 60906,
+      "cap": "609060000/587",
+      "cap_decimal": 1037580.9199318569
+    },
+    {
+      "polynomial": "baseline_25",
+      "cases": 4,
+      "gain_scaled": 2181,
+      "constant": 202077,
+      "cap": "673590000/727",
+      "cap_decimal": 926533.7001375515
+    },
+    {
+      "polynomial": "baseline_32",
+      "cases": 77,
+      "gain_scaled": 72,
+      "constant": 6453,
+      "cap": "896250",
+      "cap_decimal": 896250.0
+    },
+    {
+      "polynomial": "baseline_42",
+      "cases": 47,
+      "gain_scaled": 393,
+      "constant": 27944,
+      "cap": "279440000/393",
+      "cap_decimal": 711043.2569974555
+    },
+    {
+      "polynomial": "baseline_31",
+      "cases": 118,
+      "gain_scaled": 68,
+      "constant": 4662,
+      "cap": "11655000/17",
+      "cap_decimal": 685588.2352941176
+    },
+    {
+      "polynomial": "baseline_24",
+      "cases": 19,
+      "gain_scaled": 1719,
+      "constant": 83765,
+      "cap": "837650000/1719",
+      "cap_decimal": 487289.1215823153
+    },
+    {
+      "polynomial": "baseline_56",
+      "cases": 1,
+      "gain_scaled": 4512,
+      "constant": 208588,
+      "cap": "65183750/141",
+      "cap_decimal": 462296.09929078014
+    },
+    {
+      "polynomial": "baseline_0",
+      "cases": 5964,
+      "gain_scaled": 268,
+      "constant": 11538,
+      "cap": "28845000/67",
+      "cap_decimal": 430522.3880597015
+    },
+    {
+      "polynomial": "baseline_2",
+      "cases": 648,
+      "gain_scaled": 66,
+      "constant": 2616,
+      "cap": "4360000/11",
+      "cap_decimal": 396363.63636363635
+    },
+    {
+      "polynomial": "baseline_17",
+      "cases": 11,
+      "gain_scaled": 1871,
+      "constant": 73315,
+      "cap": "733150000/1871",
+      "cap_decimal": 391849.2784607162
+    },
+    {
+      "polynomial": "baseline_47",
+      "cases": 3,
+      "gain_scaled": 1656,
+      "constant": 61067,
+      "cap": "76333750/207",
+      "cap_decimal": 368762.077294686
+    },
+    {
+      "polynomial": "baseline_30",
+      "cases": 97,
+      "gain_scaled": 5779,
+      "constant": 211318,
+      "cap": "2113180000/5779",
+      "cap_decimal": 365665.34002422565
+    },
+    {
+      "polynomial": "baseline_49",
+      "cases": 23,
+      "gain_scaled": 6578,
+      "constant": 223933,
+      "cap": "1119665000/3289",
+      "cap_decimal": 340427.18151413806
+    },
+    {
+      "polynomial": "baseline_26",
+      "cases": 3,
+      "gain_scaled": 2344,
+      "constant": 73830,
+      "cap": "92287500/293",
+      "cap_decimal": 314974.4027303754
+    },
+    {
+      "polynomial": "baseline_58",
+      "cases": 28,
+      "gain_scaled": 7312,
+      "constant": 210309,
+      "cap": "131443125/457",
+      "cap_decimal": 287621.7177242888
+    },
+    {
+      "polynomial": "baseline_64",
+      "cases": 6,
+      "gain_scaled": 8355,
+      "constant": 228505,
+      "cap": "457010000/1671",
+      "cap_decimal": 273494.9132256134
+    },
+    {
+      "polynomial": "baseline_33",
+      "cases": 24,
+      "gain_scaled": 176,
+      "constant": 4567,
+      "cap": "2854375/11",
+      "cap_decimal": 259488.63636363635
+    },
+    {
+      "polynomial": "baseline_19",
+      "cases": 2,
+      "gain_scaled": 3925,
+      "constant": 80188,
+      "cap": "32075200/157",
+      "cap_decimal": 204300.63694267516
+    },
+    {
+      "polynomial": "baseline_50",
+      "cases": 22,
+      "gain_scaled": 2158,
+      "constant": 40311,
+      "cap": "201555000/1079",
+      "cap_decimal": 186797.9610750695
+    },
+    {
+      "polynomial": "baseline_21",
+      "cases": 1,
+      "gain_scaled": 13385,
+      "constant": 245397,
+      "cap": "490794000/2677",
+      "cap_decimal": 183337.317893164
+    },
+    {
+      "polynomial": "baseline_18",
+      "cases": 2,
+      "gain_scaled": 4226,
+      "constant": 61076,
+      "cap": "305380000/2113",
+      "cap_decimal": 144524.37292948415
+    },
+    {
+      "polynomial": "baseline_48",
+      "cases": 2,
+      "gain_scaled": 1816,
+      "constant": 25278,
+      "cap": "31597500/227",
+      "cap_decimal": 139196.03524229076
+    },
+    {
+      "polynomial": "baseline_61",
+      "cases": 44,
+      "gain_scaled": 635,
+      "constant": 5083,
+      "cap": "10166000/127",
+      "cap_decimal": 80047.24409448818
+    },
+    {
+      "polynomial": "baseline_1",
+      "cases": 200,
+      "gain_scaled": 4016,
+      "constant": 26526,
+      "cap": "16578750/251",
+      "cap_decimal": 66050.796812749
+    },
+    {
+      "polynomial": "baseline_55",
+      "cases": 1,
+      "gain_scaled": 5088,
+      "constant": 28177,
+      "cap": "17610625/318",
+      "cap_decimal": 55379.32389937107
+    },
+    {
+      "polynomial": "baseline_46",
+      "cases": 2,
+      "gain_scaled": 7575,
+      "constant": 28243,
+      "cap": "11297200/303",
+      "cap_decimal": 37284.48844884489
+    },
+    {
+      "polynomial": "baseline_6",
+      "cases": 17,
+      "gain_scaled": 6526,
+      "constant": 23519,
+      "cap": "117595000/3263",
+      "cap_decimal": 36038.92123812443
+    },
+    {
+      "polynomial": "baseline_65",
+      "cases": 1,
+      "gain_scaled": 13183,
+      "constant": 39094,
+      "cap": "390940000/13183",
+      "cap_decimal": 29654.858529924903
+    },
+    {
+      "polynomial": "baseline_51",
+      "cases": 2,
+      "gain_scaled": 2993,
+      "constant": 7310,
+      "cap": "73100000/2993",
+      "cap_decimal": 24423.655195456064
+    },
+    {
+      "polynomial": "baseline_38",
+      "cases": 504,
+      "gain_scaled": 8145,
+      "constant": 19424,
+      "cap": "38848000/1629",
+      "cap_decimal": 23847.759361571516
+    },
+    {
+      "polynomial": "baseline_62",
+      "cases": 2,
+      "gain_scaled": 1303,
+      "constant": 1443,
+      "cap": "14430000/1303",
+      "cap_decimal": 11074.443591711435
+    },
+    {
+      "polynomial": "baseline_63",
+      "cases": 1,
+      "gain_scaled": 2966,
+      "constant": 2255,
+      "cap": "11275000/1483",
+      "cap_decimal": 7602.832097100472
+    }
+  ],
+  "basepoint_caps": [
+    {
+      "polynomial": "round3_001",
+      "cap": 2756506682
+    },
+    {
+      "polynomial": "round3_000",
+      "cap": 1815704750
+    },
+    {
+      "polynomial": "round3_002",
+      "cap": 775932642
+    },
+    {
+      "polynomial": "round3_003",
+      "cap": 630396410
+    },
+    {
+      "polynomial": "round2_013",
+      "cap": 339855188
+    },
+    {
+      "polynomial": "round2_007",
+      "cap": 339855188
+    },
+    {
+      "polynomial": "round2_011",
+      "cap": 331628730
+    },
+    {
+      "polynomial": "round2_003",
+      "cap": 331628730
+    },
+    {
+      "polynomial": "round2_012",
+      "cap": 331473258
+    },
+    {
+      "polynomial": "round2_005",
+      "cap": 323221240
+    },
+    {
+      "polynomial": "round2_006",
+      "cap": 323170058
+    },
+    {
+      "polynomial": "round2_010",
+      "cap": 315300338
+    },
+    {
+      "polynomial": "round2_004",
+      "cap": 315300338
+    },
+    {
+      "polynomial": "round2_001",
+      "cap": 315300338
+    },
+    {
+      "polynomial": "round2_008",
+      "cap": 315199250
+    },
+    {
+      "polynomial": "round2_000",
+      "cap": 299481338
+    },
+    {
+      "polynomial": "round2_002",
+      "cap": 284740386
+    },
+    {
+      "polynomial": "coprime_004",
+      "cap": 270183002
+    },
+    {
+      "polynomial": "coprime_003",
+      "cap": 194592698
+    },
+    {
+      "polynomial": "coprime_002",
+      "cap": 183856226
+    },
+    {
+      "polynomial": "coprime_000",
+      "cap": 178554242
+    },
+    {
+      "polynomial": "coprime_001",
+      "cap": 173423338
+    }
+  ],
+  "root_caps": [
+    {
+      "root_index": 0,
+      "weighted_cap": "97334200000000/48350229",
+      "weighted_cap_decimal": 2013107.321580628
+    },
+    {
+      "root_index": 1,
+      "weighted_cap": "2118900000000/2984153",
+      "weighted_cap_decimal": 710050.72461097
+    },
+    {
+      "root_index": 2,
+      "weighted_cap": "33185800000000/141068021",
+      "weighted_cap_decimal": 235246.79629552612
+    },
+    {
+      "root_index": 3,
+      "weighted_cap": "33185800000000/257801621",
+      "weighted_cap_decimal": 128726.11068648013
+    },
+    {
+      "root_index": 4,
+      "weighted_cap": "22581700000000/37715039",
+      "weighted_cap_decimal": 598745.2379407588
+    },
+    {
+      "root_index": 5,
+      "weighted_cap": "22581700000000/58402539",
+      "weighted_cap_decimal": 386656.1349327638
+    },
+    {
+      "root_index": 6,
+      "weighted_cap": "505370000000/67109",
+      "weighted_cap_decimal": 7530584.571368967
+    },
+    {
+      "root_index": 7,
+      "weighted_cap": "66371600000000/363765223",
+      "weighted_cap_decimal": 182457.24385808042
+    },
+    {
+      "root_index": 8,
+      "weighted_cap": "1768795000000/7107459",
+      "weighted_cap_decimal": 248864.60829390644
+    },
+    {
+      "root_index": 9,
+      "weighted_cap": "7549790000000/9313291",
+      "weighted_cap_decimal": 810646.8486810946
+    },
+    {
+      "root_index": 10,
+      "weighted_cap": "45163400000000/43894537",
+      "weighted_cap_decimal": 1028907.0824462734
+    },
+    {
+      "root_index": 11,
+      "weighted_cap": "45163400000000/174079537",
+      "weighted_cap_decimal": 259441.1771671934
+    },
+    {
+      "root_index": 12,
+      "weighted_cap": "64962300000000/963381539",
+      "weighted_cap_decimal": 67431.53918792293
+    },
+    {
+      "root_index": 13,
+      "weighted_cap": "8120287500000/154679251",
+      "weighted_cap_decimal": 52497.58741073811
+    },
+    {
+      "root_index": 14,
+      "weighted_cap": "25318300000000/38688827",
+      "weighted_cap_decimal": 654408.5712394434
+    },
+    {
+      "root_index": 15,
+      "weighted_cap": "3616900000000/29135541",
+      "weighted_cap_decimal": 124140.47846237007
+    },
+    {
+      "root_index": 16,
+      "weighted_cap": "2531830000000/11755971",
+      "weighted_cap_decimal": 215365.45130980673
+    },
+    {
+      "root_index": 17,
+      "weighted_cap": "12659150000000/61938241",
+      "weighted_cap_decimal": 204383.4276791942
+    },
+    {
+      "root_index": 18,
+      "weighted_cap": "361690000000/247581",
+      "weighted_cap_decimal": 1460895.62607793
+    },
+    {
+      "root_index": 19,
+      "weighted_cap": "12659150000000/79355931",
+      "weighted_cap_decimal": 159523.67819867175
+    },
+    {
+      "root_index": 20,
+      "weighted_cap": "12659150000000/9687849",
+      "weighted_cap_decimal": 1306703.8926804082
+    },
+    {
+      "root_index": 21,
+      "weighted_cap": "43795125000000/685677527",
+      "weighted_cap_decimal": 63871.31453996158
+    },
+    {
+      "root_index": 22,
+      "weighted_cap": "2531830000/9797",
+      "weighted_cap_decimal": 258429.11095233235
+    },
+    {
+      "root_index": 23,
+      "weighted_cap": "2531830000/243",
+      "weighted_cap_decimal": 10419053.497942386
+    },
+    {
+      "root_index": 24,
+      "weighted_cap": "22063400000000/366258239",
+      "weighted_cap_decimal": 60240.010054763574
+    },
+    {
+      "root_index": 25,
+      "weighted_cap": "22063400000000/480923959",
+      "weighted_cap_decimal": 45877.10715406466
+    },
+    {
+      "root_index": 26,
+      "weighted_cap": "2375609750000000/31027154893",
+      "weighted_cap_decimal": 76565.50393332902
+    },
+    {
+      "root_index": 27,
+      "weighted_cap": "4972150000000/92505453",
+      "weighted_cap_decimal": 53749.804349371705
+    },
+    {
+      "root_index": 28,
+      "weighted_cap": "593902437500000/13572978357",
+      "weighted_cap_decimal": 43756.235505503944
+    },
+    {
+      "root_index": 29,
+      "weighted_cap": "17332175000000/107945603",
+      "weighted_cap_decimal": 160563.97406015694
+    },
+    {
+      "root_index": 30,
+      "weighted_cap": "173321750000/1245213",
+      "weighted_cap_decimal": 139190.4437232827
+    },
+    {
+      "root_index": 31,
+      "weighted_cap": "1010385000/21139",
+      "weighted_cap_decimal": 47797.19948909598
+    },
+    {
+      "root_index": 32,
+      "weighted_cap": "1238012500000/9115861",
+      "weighted_cap_decimal": 135808.6197233591
+    },
+    {
+      "root_index": 33,
+      "weighted_cap": "161718400000/1412943",
+      "weighted_cap_decimal": 114455.00632368043
+    },
+    {
+      "root_index": 34,
+      "weighted_cap": "64962300000000/831963773",
+      "weighted_cap_decimal": 78083.08739904712
+    },
+    {
+      "root_index": 35,
+      "weighted_cap": "90326800000000/13612861",
+      "weighted_cap_decimal": 6635401.624978026
+    },
+    {
+      "root_index": 36,
+      "weighted_cap": "45163400000000/28173333",
+      "weighted_cap_decimal": 1603054.91721551
+    },
+    {
+      "root_index": 37,
+      "weighted_cap": "18065360000000/41269461",
+      "weighted_cap_decimal": 437741.60268291365
+    },
+    {
+      "root_index": 38,
+      "weighted_cap": "90326800000000/237678747",
+      "weighted_cap_decimal": 380037.34511441196
+    },
+    {
+      "root_index": 39,
+      "weighted_cap": "22581700000000/41105079",
+      "weighted_cap_decimal": 549365.201317336
+    },
+    {
+      "root_index": 40,
+      "weighted_cap": "63870425000000/219987",
+      "weighted_cap_decimal": 290337269.92958677
+    },
+    {
+      "root_index": 41,
+      "weighted_cap": "1132028800000/11407869",
+      "weighted_cap_decimal": 99232.27554594114
+    },
+    {
+      "root_index": 42,
+      "weighted_cap": "283007200000/273387",
+      "weighted_cap_decimal": 1035188.9446096559
+    },
+    {
+      "root_index": 43,
+      "weighted_cap": "66371600000000/797971111",
+      "weighted_cap_decimal": 83175.44217462279
+    },
+    {
+      "root_index": 44,
+      "weighted_cap": "1082705000000/15922303",
+      "weighted_cap_decimal": 67999.27121095484
+    },
+    {
+      "root_index": 45,
+      "weighted_cap": "17343100000000/122328513",
+      "weighted_cap_decimal": 141774.7961998034
+    },
+    {
+      "root_index": 46,
+      "weighted_cap": "433577500/459",
+      "weighted_cap_decimal": 944613.2897603486
+    },
+    {
+      "root_index": 47,
+      "weighted_cap": "6515550000000/40616419",
+      "weighted_cap_decimal": 160416.65317663774
+    },
+    {
+      "root_index": 48,
+      "weighted_cap": "3164787500000/30442823",
+      "weighted_cap_decimal": 103958.41082149313
+    },
+    {
+      "root_index": 49,
+      "weighted_cap": "1265915000000/4341081",
+      "weighted_cap_decimal": 291612.84942621435
+    },
+    {
+      "root_index": 50,
+      "weighted_cap": "1265915000000/4148581",
+      "weighted_cap_decimal": 305144.0962584556
+    },
+    {
+      "root_index": 51,
+      "weighted_cap": "180845000000/1501083",
+      "weighted_cap_decimal": 120476.34940905999
+    },
+    {
+      "root_index": 52,
+      "weighted_cap": "1265915000000/14502081",
+      "weighted_cap_decimal": 87291.95485806486
+    },
+    {
+      "root_index": 53,
+      "weighted_cap": "25318300000000/282946101",
+      "weighted_cap_decimal": 89480.99977528935
+    },
+    {
+      "root_index": 54,
+      "weighted_cap": "475656250000/2556001",
+      "weighted_cap_decimal": 186093.92171599306
+    },
+    {
+      "root_index": 55,
+      "weighted_cap": "129175000000/3203121",
+      "weighted_cap_decimal": 40327.855238687516
+    },
+    {
+      "root_index": 56,
+      "weighted_cap": "2606220000/7649",
+      "weighted_cap_decimal": 340726.89240423584
+    },
+    {
+      "root_index": 57,
+      "weighted_cap": "7233800000000/216345873",
+      "weighted_cap_decimal": 33436.274515853605
+    },
+    {
+      "root_index": 58,
+      "weighted_cap": "1265915000000/37652497",
+      "weighted_cap_decimal": 33621.01057998889
+    },
+    {
+      "root_index": 59,
+      "weighted_cap": "837700000000/1891511",
+      "weighted_cap_decimal": 442873.44879305485
+    },
+    {
+      "root_index": 60,
+      "weighted_cap": "8377000000000/78767509",
+      "weighted_cap_decimal": 106350.95747410267
+    },
+    {
+      "root_index": 61,
+      "weighted_cap": "154751562500/672087",
+      "weighted_cap_decimal": 230255.25341213265
+    },
+    {
+      "root_index": 62,
+      "weighted_cap": "33919000000000/820695697",
+      "weighted_cap_decimal": 41329.5696858028
+    },
+    {
+      "root_index": 63,
+      "weighted_cap": "275792500000/609949",
+      "weighted_cap_decimal": 452156.6557203963
+    },
+    {
+      "root_index": 64,
+      "weighted_cap": "8666087500000/133260187",
+      "weighted_cap_decimal": 65031.33227630845
+    },
+    {
+      "root_index": 65,
+      "weighted_cap": "6932870000/20383",
+      "weighted_cap_decimal": 340130.01030270325
+    },
+    {
+      "root_index": 66,
+      "weighted_cap": "5117050000000/9086751",
+      "weighted_cap_decimal": 563133.0714355439
+    },
+    {
+      "root_index": 67,
+      "weighted_cap": "10234100000000/98092461",
+      "weighted_cap_decimal": 104331.15751882298
+    },
+    {
+      "root_index": 68,
+      "weighted_cap": "619006250000/9732723",
+      "weighted_cap_decimal": 63600.52063538642
+    },
+    {
+      "root_index": 69,
+      "weighted_cap": "2355150000000/71107031",
+      "weighted_cap_decimal": 33121.1972554444
+    },
+    {
+      "root_index": 70,
+      "weighted_cap": "51170500/89",
+      "weighted_cap_decimal": 574949.4382022471
+    },
+    {
+      "root_index": 71,
+      "weighted_cap": "309503125000/7304799",
+      "weighted_cap_decimal": 42369.83454301754
+    },
+    {
+      "root_index": 72,
+      "weighted_cap": "13273200000000/543801107",
+      "weighted_cap_decimal": 24408.18863577635
+    },
+    {
+      "root_index": 73,
+      "weighted_cap": "619006250000/19486473",
+      "weighted_cap_decimal": 31765.946048830898
+    },
+    {
+      "root_index": 74,
+      "weighted_cap": "11718900000000/1920937",
+      "weighted_cap_decimal": 6100616.522041067
+    },
+    {
+      "root_index": 75,
+      "weighted_cap": "3390240000000/634219",
+      "weighted_cap_decimal": 5345535.217330291
+    },
+    {
+      "root_index": 76,
+      "weighted_cap": "90326800000000/186844503",
+      "weighted_cap_decimal": 483433.0073922485
+    },
+    {
+      "root_index": 77,
+      "weighted_cap": "16741200000000/54545017",
+      "weighted_cap_decimal": 306924.46204572637
+    },
+    {
+      "root_index": 78,
+      "weighted_cap": "33185800000000/54587809",
+      "weighted_cap_decimal": 607934.273383275
+    },
+    {
+      "root_index": 79,
+      "weighted_cap": "13274320000000/38921203",
+      "weighted_cap_decimal": 341056.2618015687
+    },
+    {
+      "root_index": 80,
+      "weighted_cap": "13274320000000/27118713",
+      "weighted_cap_decimal": 489489.3057793709
+    },
+    {
+      "root_index": 81,
+      "weighted_cap": "33185800000000/70148441",
+      "weighted_cap_decimal": 473079.65119281836
+    },
+    {
+      "root_index": 82,
+      "weighted_cap": "8120287500000/11196763",
+      "weighted_cap_decimal": 725235.2755881321
+    },
+    {
+      "root_index": 83,
+      "weighted_cap": "2262810850000000/393171517",
+      "weighted_cap_decimal": 5755276.646858424
+    },
+    {
+      "root_index": 84,
+      "weighted_cap": "45163400000000/154994537",
+      "weighted_cap_decimal": 291387.04417691834
+    },
+    {
+      "root_index": 85,
+      "weighted_cap": "45163400000000/285729537",
+      "weighted_cap_decimal": 158063.4626513954
+    },
+    {
+      "root_index": 86,
+      "weighted_cap": "28300720000000/287049069",
+      "weighted_cap_decimal": 98591.92401700492
+    },
+    {
+      "root_index": 87,
+      "weighted_cap": "884397500/13",
+      "weighted_cap_decimal": 68030576.92307693
+    },
+    {
+      "root_index": 88,
+      "weighted_cap": "1129085000/3853",
+      "weighted_cap_decimal": 293040.48793148197
+    },
+    {
+      "root_index": 89,
+      "weighted_cap": "452112500000/13161643",
+      "weighted_cap_decimal": 34350.7645663995
+    },
+    {
+      "root_index": 90,
+      "weighted_cap": "253183000/347",
+      "weighted_cap_decimal": 729634.0057636887
+    },
+    {
+      "root_index": 91,
+      "weighted_cap": "50636600000000/254372091",
+      "weighted_cap_decimal": 199065.0774655935
+    },
+    {
+      "root_index": 92,
+      "weighted_cap": "50636600000000/308801903",
+      "weighted_cap_decimal": 163977.61642032367
+    },
+    {
+      "root_index": 93,
+      "weighted_cap": "25318300000000/267952627",
+      "weighted_cap_decimal": 94487.97081582634
+    },
+    {
+      "root_index": 94,
+      "weighted_cap": "50636600000000/346683527",
+      "weighted_cap_decimal": 146060.01167168235
+    },
+    {
+      "root_index": 95,
+      "weighted_cap": "3164787500000/32596803",
+      "weighted_cap_decimal": 97088.89242911337
+    },
+    {
+      "root_index": 96,
+      "weighted_cap": "506366000/3641",
+      "weighted_cap_decimal": 139073.33150233453
+    },
+    {
+      "root_index": 97,
+      "weighted_cap": "6783800000000/170130611",
+      "weighted_cap_decimal": 39874.07063388493
+    },
+    {
+      "root_index": 98,
+      "weighted_cap": "216962500000/975847",
+      "weighted_cap_decimal": 222332.49679509187
+    },
+    {
+      "root_index": 99,
+      "weighted_cap": "54240625000/805403",
+      "weighted_cap_decimal": 67345.94358352278
+    },
+    {
+      "root_index": 100,
+      "weighted_cap": "51050000000/734971",
+      "weighted_cap_decimal": 69458.52285328264
+    },
+    {
+      "root_index": 101,
+      "weighted_cap": "33919000000000/1086461217",
+      "weighted_cap_decimal": 31219.706206963485
+    },
+    {
+      "root_index": 102,
+      "weighted_cap": "126298125/1583",
+      "weighted_cap_decimal": 79784.03348073279
+    },
+    {
+      "root_index": 103,
+      "weighted_cap": "13274320000000/11656607",
+      "weighted_cap_decimal": 1138780.7790037014
+    },
+    {
+      "root_index": 104,
+      "weighted_cap": "13274320000000/11656607",
+      "weighted_cap_decimal": 1138780.7790037014
+    },
+    {
+      "root_index": 105,
+      "weighted_cap": "90326800000000/27057689",
+      "weighted_cap_decimal": 3338304.317120357
+    },
+    {
+      "root_index": 106,
+      "weighted_cap": "11290850000000/6400629",
+      "weighted_cap_decimal": 1764021.9422184913
+    },
+    {
+      "root_index": 107,
+      "weighted_cap": "45163400000000/53457659",
+      "weighted_cap_decimal": 844844.3281064739
+    },
+    {
+      "root_index": 108,
+      "weighted_cap": "90326800000000/188508771",
+      "weighted_cap_decimal": 479164.9721168677
+    },
+    {
+      "root_index": 109,
+      "weighted_cap": "90326800000000/217733771",
+      "weighted_cap_decimal": 414849.74786019756
+    },
+    {
+      "root_index": 110,
+      "weighted_cap": "10524770000000/489279",
+      "weighted_cap_decimal": 21510774.016460955
+    },
+    {
+      "root_index": 111,
+      "weighted_cap": "43308200000000/74541131",
+      "weighted_cap_decimal": 580997.3556746811
+    },
+    {
+      "root_index": 112,
+      "weighted_cap": "129924600000000/212723393",
+      "weighted_cap_decimal": 610767.8058707911
+    },
+    {
+      "root_index": 113,
+      "weighted_cap": "28300720000000/149285069",
+      "weighted_cap_decimal": 189575.0203926958
+    },
+    {
+      "root_index": 114,
+      "weighted_cap": "7075180000000/63869937",
+      "weighted_cap_decimal": 110774.8078724424
+    },
+    {
+      "root_index": 115,
+      "weighted_cap": "564542500/1917",
+      "weighted_cap_decimal": 294492.69692227436
+    },
+    {
+      "root_index": 116,
+      "weighted_cap": "6329575000000/14298679",
+      "weighted_cap_decimal": 442668.51504254347
+    },
+    {
+      "root_index": 117,
+      "weighted_cap": "12659150000000/100407983",
+      "weighted_cap_decimal": 126077.12675594729
+    },
+    {
+      "root_index": 118,
+      "weighted_cap": "5063660000000/2415391",
+      "weighted_cap_decimal": 2096414.2037458946
+    },
+    {
+      "root_index": 119,
+      "weighted_cap": "5063660000000/11902193",
+      "weighted_cap_decimal": 425439.2446837318
+    },
+    {
+      "root_index": 120,
+      "weighted_cap": "5063660000000/27251391",
+      "weighted_cap_decimal": 185812.90033965604
+    },
+    {
+      "root_index": 121,
+      "weighted_cap": "25318300000000/324641463",
+      "weighted_cap_decimal": 77988.49772926264
+    },
+    {
+      "root_index": 122,
+      "weighted_cap": "25318300000000/279939477",
+      "weighted_cap_decimal": 90442.04937197907
+    },
+    {
+      "root_index": 123,
+      "weighted_cap": "713484375000/1373551",
+      "weighted_cap_decimal": 519445.12799306324
+    },
+    {
+      "root_index": 124,
+      "weighted_cap": "10127320000000/72651637",
+      "weighted_cap_decimal": 139395.62022532267
+    },
+    {
+      "root_index": 125,
+      "weighted_cap": "10127320000000/122323637",
+      "weighted_cap_decimal": 82791.1943134915
+    },
+    {
+      "root_index": 126,
+      "weighted_cap": "506366000/7307",
+      "weighted_cap_decimal": 69298.75461885863
+    },
+    {
+      "root_index": 127,
+      "weighted_cap": "57916000/1029",
+      "weighted_cap_decimal": 56283.77065111759
+    },
+    {
+      "root_index": 128,
+      "weighted_cap": "54240625000/285709",
+      "weighted_cap_decimal": 189845.69964544344
+    },
+    {
+      "root_index": 129,
+      "weighted_cap": "216962500000/1099711",
+      "weighted_cap_decimal": 197290.4699507416
+    },
+    {
+      "root_index": 130,
+      "weighted_cap": "331544387500000/2002963759",
+      "weighted_cap_decimal": 165526.90282600364
+    },
+    {
+      "root_index": 131,
+      "weighted_cap": "16959500000000/777858961",
+      "weighted_cap_decimal": 21802.795687019152
+    },
+    {
+      "root_index": 132,
+      "weighted_cap": "16959500000000/776633961",
+      "weighted_cap_decimal": 21837.185664869477
+    },
+    {
+      "root_index": 133,
+      "weighted_cap": "17698625000000/365659361",
+      "weighted_cap_decimal": 48401.9469694364
+    },
+    {
+      "root_index": 134,
+      "weighted_cap": "17698625000000/365659361",
+      "weighted_cap_decimal": 48401.9469694364
+    },
+    {
+      "root_index": 135,
+      "weighted_cap": "457010000000/4452607",
+      "weighted_cap_decimal": 102638.74624461579
+    },
+    {
+      "root_index": 136,
+      "weighted_cap": "228505000000/4283579",
+      "weighted_cap_decimal": 53344.411297188635
+    },
+    {
+      "root_index": 137,
+      "weighted_cap": "260516250000/8487473",
+      "weighted_cap_decimal": 30694.206626636693
+    },
+    {
+      "root_index": 138,
+      "weighted_cap": "418530000000/1759153",
+      "weighted_cap_decimal": 237915.63326214376
+    },
+    {
+      "root_index": 139,
+      "weighted_cap": "17687950000000/18872409",
+      "weighted_cap_decimal": 937238.589943658
+    },
+    {
+      "root_index": 140,
+      "weighted_cap": "2533285000000/416757",
+      "weighted_cap_decimal": 6078566.166855026
+    },
+    {
+      "root_index": 141,
+      "weighted_cap": "12992460000000/5841253",
+      "weighted_cap_decimal": 2224259.075920868
+    },
+    {
+      "root_index": 142,
+      "weighted_cap": "3248115000000/3574669",
+      "weighted_cap_decimal": 908647.7657092167
+    },
+    {
+      "root_index": 143,
+      "weighted_cap": "64962300000000/69494239",
+      "weighted_cap_decimal": 934786.8389493409
+    },
+    {
+      "root_index": 144,
+      "weighted_cap": "21654100000000/15855087",
+      "weighted_cap_decimal": 1365750.9416378478
+    },
+    {
+      "root_index": 145,
+      "weighted_cap": "374048900000000/4038931",
+      "weighted_cap_decimal": 92610866.58821356
+    },
+    {
+      "root_index": 146,
+      "weighted_cap": "7075180000000/426577",
+      "weighted_cap_decimal": 16585938.763693307
+    },
+    {
+      "root_index": 147,
+      "weighted_cap": "7075180000000/25376577",
+      "weighted_cap_decimal": 278807.5003181083
+    },
+    {
+      "root_index": 148,
+      "weighted_cap": "9032680000/24107",
+      "weighted_cap_decimal": 374691.168540258
+    },
+    {
+      "root_index": 149,
+      "weighted_cap": "1010740000/3557",
+      "weighted_cap_decimal": 284155.1869552994
+    },
+    {
+      "root_index": 150,
+      "weighted_cap": "21726500000/635889",
+      "weighted_cap_decimal": 34167.12665260761
+    },
+    {
+      "root_index": 151,
+      "weighted_cap": "4335775000000/18412079",
+      "weighted_cap_decimal": 235485.35719404637
+    },
+    {
+      "root_index": 152,
+      "weighted_cap": "6937240000000/37391979",
+      "weighted_cap_decimal": 185527.4897324905
+    },
+    {
+      "root_index": 153,
+      "weighted_cap": "4335775000000/34437079",
+      "weighted_cap_decimal": 125904.26150835848
+    },
+    {
+      "root_index": 154,
+      "weighted_cap": "1734310000000/27191633",
+      "weighted_cap_decimal": 63781.01675614701
+    },
+    {
+      "root_index": 155,
+      "weighted_cap": "69372400000000/1056110253",
+      "weighted_cap_decimal": 65686.70250377733
+    },
+    {
+      "root_index": 156,
+      "weighted_cap": "11290850000000/35659349",
+      "weighted_cap_decimal": 316630.8504398103
+    },
+    {
+      "root_index": 157,
+      "weighted_cap": "20468200000000/20975171",
+      "weighted_cap_decimal": 975829.9467498978
+    },
+    {
+      "root_index": 158,
+      "weighted_cap": "7075180000000/3674171",
+      "weighted_cap_decimal": 1925653.433114572
+    },
+    {
+      "root_index": 159,
+      "weighted_cap": "7075180000000/3211671",
+      "weighted_cap_decimal": 2202959.144943551
+    },
+    {
+      "root_index": 160,
+      "weighted_cap": "28300720000000/91063937",
+      "weighted_cap_decimal": 310778.5686885029
+    },
+    {
+      "root_index": 161,
+      "weighted_cap": "10107400000000/19816597",
+      "weighted_cap_decimal": 510047.20941743936
+    },
+    {
+      "root_index": 162,
+      "weighted_cap": "70751800000000/209098381",
+      "weighted_cap_decimal": 338366.0823275337
+    },
+    {
+      "root_index": 163,
+      "weighted_cap": "21131800000000/8482123",
+      "weighted_cap_decimal": 2491333.8323436244
+    },
+    {
+      "root_index": 164,
+      "weighted_cap": "2498550000000/13424479",
+      "weighted_cap_decimal": 186118.95478401807
+    },
+    {
+      "root_index": 165,
+      "weighted_cap": "10827050000000/100559409",
+      "weighted_cap_decimal": 107668.19443021985
+    },
+    {
+      "root_index": 166,
+      "weighted_cap": "90326800000000/1637030087",
+      "weighted_cap_decimal": 55177.23877972928
+    },
+    {
+      "root_index": 167,
+      "weighted_cap": "157500",
+      "weighted_cap_decimal": 157500.0
+    },
+    {
+      "root_index": 168,
+      "weighted_cap": "7075180000/24819",
+      "weighted_cap_decimal": 285071.1148716709
+    },
+    {
+      "root_index": 169,
+      "weighted_cap": "2094250000000/22093293",
+      "weighted_cap_decimal": 94791.21107025558
+    },
+    {
+      "root_index": 170,
+      "weighted_cap": "1675400000000/18264321",
+      "weighted_cap_decimal": 91730.75746971376
+    },
+    {
+      "root_index": 171,
+      "weighted_cap": "173431000000/844681",
+      "weighted_cap_decimal": 205321.29880984654
+    },
+    {
+      "root_index": 172,
+      "weighted_cap": "3468620000000/40808973",
+      "weighted_cap_decimal": 84996.5030974928
+    },
+    {
+      "root_index": 173,
+      "weighted_cap": "1265915000000/15210091",
+      "weighted_cap_decimal": 83228.62762622525
+    },
+    {
+      "root_index": 174,
+      "weighted_cap": "2531830000/3497",
+      "weighted_cap_decimal": 724000.5719187876
+    },
+    {
+      "root_index": 175,
+      "weighted_cap": "12659150000000/6753161",
+      "weighted_cap_decimal": 1874551.78397198
+    },
+    {
+      "root_index": 176,
+      "weighted_cap": "506366000000/451917",
+      "weighted_cap_decimal": 1120484.5137492062
+    },
+    {
+      "root_index": 177,
+      "weighted_cap": "25318300000000/45918503",
+      "weighted_cap_decimal": 551374.6822277721
+    },
+    {
+      "root_index": 178,
+      "weighted_cap": "5063660000000/2237157",
+      "weighted_cap_decimal": 2263435.243927896
+    },
+    {
+      "root_index": 179,
+      "weighted_cap": "6329575000000/12143029",
+      "weighted_cap_decimal": 521251.7404018388
+    },
+    {
+      "root_index": 180,
+      "weighted_cap": "45663000000000/41216401",
+      "weighted_cap_decimal": 1107884.2133741856
+    },
+    {
+      "root_index": 181,
+      "weighted_cap": "1303110000/9481",
+      "weighted_cap_decimal": 137444.36240902857
+    },
+    {
+      "root_index": 182,
+      "weighted_cap": "289580000/3331",
+      "weighted_cap_decimal": 86934.85439807865
+    },
+    {
+      "root_index": 183,
+      "weighted_cap": "12659150000000/58435491",
+      "weighted_cap_decimal": 216634.6133722056
+    },
+    {
+      "root_index": 184,
+      "weighted_cap": "25318300000000/239597787",
+      "weighted_cap_decimal": 105670.00771171563
+    },
+    {
+      "root_index": 185,
+      "weighted_cap": "12659150000000/207827827",
+      "weighted_cap_decimal": 60911.71804437911
+    },
+    {
+      "root_index": 186,
+      "weighted_cap": "1582393750000/991729",
+      "weighted_cap_decimal": 1595590.882186565
+    },
+    {
+      "root_index": 187,
+      "weighted_cap": "6329575000000/17365461",
+      "weighted_cap_decimal": 364492.19516832865
+    },
+    {
+      "root_index": 188,
+      "weighted_cap": "25318300000000/215308521",
+      "weighted_cap_decimal": 117590.79428166246
+    },
+    {
+      "root_index": 189,
+      "weighted_cap": "5063660000000/47937843",
+      "weighted_cap_decimal": 105629.70052699283
+    },
+    {
+      "root_index": 190,
+      "weighted_cap": "1228800000000/3792473",
+      "weighted_cap_decimal": 324010.2170799898
+    },
+    {
+      "root_index": 191,
+      "weighted_cap": "12659150000000/249560491",
+      "weighted_cap_decimal": 50725.7777434009
+    },
+    {
+      "root_index": 192,
+      "weighted_cap": "12659150000000/311875491",
+      "weighted_cap_decimal": 40590.39701840501
+    },
+    {
+      "root_index": 193,
+      "weighted_cap": "220634000000/3351037",
+      "weighted_cap_decimal": 65840.51444373786
+    },
+    {
+      "root_index": 194,
+      "weighted_cap": "6783800000000/22973747",
+      "weighted_cap_decimal": 295284.8745135045
+    },
+    {
+      "root_index": 195,
+      "weighted_cap": "10615425000000/23145313",
+      "weighted_cap_decimal": 458642.5338037122
+    },
+    {
+      "root_index": 196,
+      "weighted_cap": "6783800000000/42984761",
+      "weighted_cap_decimal": 157818.7209183273
+    },
+    {
+      "root_index": 197,
+      "weighted_cap": "54240625000/513137",
+      "weighted_cap_decimal": 105703.98353656041
+    },
+    {
+      "root_index": 198,
+      "weighted_cap": "1695950000000/5031567",
+      "weighted_cap_decimal": 337061.99281456455
+    },
+    {
+      "root_index": 199,
+      "weighted_cap": "1735700000000/12599303",
+      "weighted_cap_decimal": 137761.58887519414
+    },
+    {
+      "root_index": 200,
+      "weighted_cap": "433577500000/2704951",
+      "weighted_cap_decimal": 160290.33427962282
+    },
+    {
+      "root_index": 201,
+      "weighted_cap": "346862000000/2658613",
+      "weighted_cap_decimal": 130467.27748641866
+    },
+    {
+      "root_index": 202,
+      "weighted_cap": "216788750000/2157163",
+      "weighted_cap_decimal": 100497.15760932298
+    },
+    {
+      "root_index": 203,
+      "weighted_cap": "34686200000000/442998839",
+      "weighted_cap_decimal": 78298.62506705125
+    },
+    {
+      "root_index": 204,
+      "weighted_cap": "69372400000000/1121450253",
+      "weighted_cap_decimal": 61859.542868193545
+    },
+    {
+      "root_index": 205,
+      "weighted_cap": "11031700000000/193971287",
+      "weighted_cap_decimal": 56872.850464718525
+    },
+    {
+      "root_index": 206,
+      "weighted_cap": "22063400000000/519356959",
+      "weighted_cap_decimal": 42482.149546011955
+    },
+    {
+      "root_index": 207,
+      "weighted_cap": "4952050000000/36354511",
+      "weighted_cap_decimal": 136215.55795372959
+    },
+    {
+      "root_index": 208,
+      "weighted_cap": "4952050000000/35854511",
+      "weighted_cap_decimal": 138115.11750920268
+    },
+    {
+      "root_index": 209,
+      "weighted_cap": "138657400000/1420193",
+      "weighted_cap_decimal": 97632.78652971814
+    },
+    {
+      "root_index": 210,
+      "weighted_cap": "1733217500000/3690191",
+      "weighted_cap_decimal": 469682.32809629635
+    },
+    {
+      "root_index": 211,
+      "weighted_cap": "34664350000000/179835911",
+      "weighted_cap_decimal": 192755.4391514162
+    },
+    {
+      "root_index": 212,
+      "weighted_cap": "898120000000/16679307",
+      "weighted_cap_decimal": 53846.3618422516
+    },
+    {
+      "root_index": 213,
+      "weighted_cap": "8479750000000/469160359",
+      "weighted_cap_decimal": 18074.310493909397
+    },
+    {
+      "root_index": 214,
+      "weighted_cap": "867155000000/6198761",
+      "weighted_cap_decimal": 139891.66544733697
+    },
+    {
+      "root_index": 215,
+      "weighted_cap": "6937240000/7461",
+      "weighted_cap_decimal": 929800.2948666399
+    },
+    {
+      "root_index": 216,
+      "weighted_cap": "138657400000/3269633",
+      "weighted_cap_decimal": 42407.63412896799
+    },
+    {
+      "root_index": 217,
+      "weighted_cap": "1884120000000/44137853",
+      "weighted_cap_decimal": 42687.16921958121
+    },
+    {
+      "root_index": 218,
+      "weighted_cap": "138657400000/3262033",
+      "weighted_cap_decimal": 42506.436936720136
+    },
+    {
+      "root_index": 219,
+      "weighted_cap": "25756325000000/8072343",
+      "weighted_cap_decimal": 3190687.6355476966
+    },
+    {
+      "root_index": 220,
+      "weighted_cap": "67810800000000/111442787",
+      "weighted_cap_decimal": 608480.8342059859
+    },
+    {
+      "root_index": 221,
+      "weighted_cap": "53568050000000/773481",
+      "weighted_cap_decimal": 69255805.89568457
+    },
+    {
+      "root_index": 222,
+      "weighted_cap": "50644900000000/121319",
+      "weighted_cap_decimal": 417452336.4023772
+    },
+    {
+      "root_index": 223,
+      "weighted_cap": "70751800000000/98046733",
+      "weighted_cap_decimal": 721613.0291664078
+    },
+    {
+      "root_index": 224,
+      "weighted_cap": "10107400000000/17971059",
+      "weighted_cap_decimal": 562426.5103130538
+    },
+    {
+      "root_index": 225,
+      "weighted_cap": "8843975000000/1208899",
+      "weighted_cap_decimal": 7315726.954857271
+    },
+    {
+      "root_index": 226,
+      "weighted_cap": "70751800000000/110916707",
+      "weighted_cap_decimal": 637882.2624079527
+    },
+    {
+      "root_index": 227,
+      "weighted_cap": "28300720000000/22162593",
+      "weighted_cap_decimal": 1276958.8829249358
+    },
+    {
+      "root_index": 228,
+      "weighted_cap": "129924600000000/53317283",
+      "weighted_cap_decimal": 2436819.5956271817
+    },
+    {
+      "root_index": 229,
+      "weighted_cap": "45163400000000/63574537",
+      "weighted_cap_decimal": 710400.7694149625
+    },
+    {
+      "root_index": 230,
+      "weighted_cap": "45163400000000/173479537",
+      "weighted_cap_decimal": 260338.48591606514
+    },
+    {
+      "root_index": 231,
+      "weighted_cap": "33930950000000/15971151",
+      "weighted_cap_decimal": 2124515.008342229
+    },
+    {
+      "root_index": 232,
+      "weighted_cap": "8482737500000/3012753",
+      "weighted_cap_decimal": 2815610.0085204463
+    },
+    {
+      "root_index": 233,
+      "weighted_cap": "15343750000/31121",
+      "weighted_cap_decimal": 493035.2495099772
+    },
+    {
+      "root_index": 234,
+      "weighted_cap": "1522100000000/2403099",
+      "weighted_cap_decimal": 633390.4678916682
+    },
+    {
+      "root_index": 235,
+      "weighted_cap": "3164787500000/17017339",
+      "weighted_cap_decimal": 185974.2877543898
+    },
+    {
+      "root_index": 236,
+      "weighted_cap": "452112500000/2908727",
+      "weighted_cap_decimal": 155433.11558630288
+    },
+    {
+      "root_index": 237,
+      "weighted_cap": "12659150000000/17809353",
+      "weighted_cap_decimal": 710814.7050597515
+    },
+    {
+      "root_index": 238,
+      "weighted_cap": "12659150000000/13295931",
+      "weighted_cap_decimal": 952107.0769696384
+    },
+    {
+      "root_index": 239,
+      "weighted_cap": "52124400000000/13786679",
+      "weighted_cap_decimal": 3780779.9833447924
+    },
+    {
+      "root_index": 240,
+      "weighted_cap": "103340000000/109533",
+      "weighted_cap_decimal": 943459.9618379849
+    },
+    {
+      "root_index": 241,
+      "weighted_cap": "1902625000000/39595071",
+      "weighted_cap_decimal": 48052.066884789776
+    },
+    {
+      "root_index": 242,
+      "weighted_cap": "38456287500000/823721213",
+      "weighted_cap_decimal": 46686.04728527248
+    },
+    {
+      "root_index": 243,
+      "weighted_cap": "11031700000000/13734251",
+      "weighted_cap_decimal": 803225.4543767986
+    },
+    {
+      "root_index": 244,
+      "weighted_cap": "441268000000/6304307",
+      "weighted_cap_decimal": 69994.6877587021
+    },
+    {
+      "root_index": 245,
+      "weighted_cap": "17332175000000/87697489",
+      "weighted_cap_decimal": 197635.93231272564
+    },
+    {
+      "root_index": 246,
+      "weighted_cap": "2476025000000/15388927",
+      "weighted_cap_decimal": 160896.5329421603
+    },
+    {
+      "root_index": 247,
+      "weighted_cap": "19888600000000/48753723",
+      "weighted_cap_decimal": 407940.1279775085
+    },
+    {
+      "root_index": 248,
+      "weighted_cap": "441268000000/1684111",
+      "weighted_cap_decimal": 262018.3586473813
+    },
+    {
+      "root_index": 249,
+      "weighted_cap": "19888600000000/8300513",
+      "weighted_cap_decimal": 2396068.773098723
+    },
+    {
+      "root_index": 250,
+      "weighted_cap": "33919000000000/639800793",
+      "weighted_cap_decimal": 53014.9389796083
+    },
+    {
+      "root_index": 251,
+      "weighted_cap": "1733217500000/36989213",
+      "weighted_cap_decimal": 46857.377041247135
+    },
+    {
+      "root_index": 252,
+      "weighted_cap": "17707600000000/11952403",
+      "weighted_cap_decimal": 1481509.6177730956
+    },
+    {
+      "root_index": 253,
+      "weighted_cap": "36162800000000/3209843",
+      "weighted_cap_decimal": 11266220.808930531
+    },
+    {
+      "root_index": 254,
+      "weighted_cap": "2526850000000/40479",
+      "weighted_cap_decimal": 62423725.88255639
+    },
+    {
+      "root_index": 255,
+      "weighted_cap": "22581700000000/10169737",
+      "weighted_cap_decimal": 2220480.2346412693
+    },
+    {
+      "root_index": 256,
+      "weighted_cap": "22581700000000/19644503",
+      "weighted_cap_decimal": 1149517.5011554123
+    },
+    {
+      "root_index": 257,
+      "weighted_cap": "4516340000000/22848187",
+      "weighted_cap_decimal": 197667.3247641049
+    },
+    {
+      "root_index": 258,
+      "weighted_cap": "11290850000000/64504779",
+      "weighted_cap_decimal": 175038.9688181088
+    },
+    {
+      "root_index": 259,
+      "weighted_cap": "33185800000000/490978619",
+      "weighted_cap_decimal": 67591.13068424676
+    },
+    {
+      "root_index": 260,
+      "weighted_cap": "7075180000000/47969429",
+      "weighted_cap_decimal": 147493.52134252005
+    },
+    {
+      "root_index": 261,
+      "weighted_cap": "7075180000000/67694429",
+      "weighted_cap_decimal": 104516.42926185255
+    },
+    {
+      "root_index": 262,
+      "weighted_cap": "67861900000000/36694093",
+      "weighted_cap_decimal": 1849395.7596935288
+    },
+    {
+      "root_index": 263,
+      "weighted_cap": "42263600000000/42468977",
+      "weighted_cap_decimal": 995164.0699986722
+    },
+    {
+      "root_index": 264,
+      "weighted_cap": "1734310000000/29704019",
+      "weighted_cap_decimal": 58386.37525783969
+    },
+    {
+      "root_index": 265,
+      "weighted_cap": "5707875000000/44997721",
+      "weighted_cap_decimal": 126848.09081775497
+    },
+    {
+      "root_index": 266,
+      "weighted_cap": "203022656250/3600899",
+      "weighted_cap_decimal": 56381.102677414725
+    },
+    {
+      "root_index": 267,
+      "weighted_cap": "25318300000000/353905891",
+      "weighted_cap_decimal": 71539.63989822367
+    },
+    {
+      "root_index": 268,
+      "weighted_cap": "12659150000000/194878767",
+      "weighted_cap_decimal": 64959.10352306365
+    },
+    {
+      "root_index": 269,
+      "weighted_cap": "12659150000000/201474017",
+      "weighted_cap_decimal": 62832.66789682364
+    },
+    {
+      "root_index": 270,
+      "weighted_cap": "50636600000000/519495259",
+      "weighted_cap_decimal": 97472.68935133824
+    },
+    {
+      "root_index": 271,
+      "weighted_cap": "7233800000000/155425981",
+      "weighted_cap_decimal": 46541.76832893852
+    },
+    {
+      "root_index": 272,
+      "weighted_cap": "3616900000000/44200829",
+      "weighted_cap_decimal": 81828.78198958667
+    },
+    {
+      "root_index": 273,
+      "weighted_cap": "26062200000000/461975401",
+      "weighted_cap_decimal": 56414.69208876773
+    },
+    {
+      "root_index": 274,
+      "weighted_cap": "434370000/1259",
+      "weighted_cap_decimal": 345011.914217633
+    },
+    {
+      "root_index": 275,
+      "weighted_cap": "11415750000000/126488219",
+      "weighted_cap_decimal": 90251.48816428508
+    },
+    {
+      "root_index": 276,
+      "weighted_cap": "2048000000000/30623403",
+      "weighted_cap_decimal": 66876.9568163277
+    },
+    {
+      "root_index": 277,
+      "weighted_cap": "657215625000/3051823",
+      "weighted_cap_decimal": 215351.8159473862
+    },
+    {
+      "root_index": 278,
+      "weighted_cap": "21030900000000/66472033",
+      "weighted_cap_decimal": 316387.1939948038
+    },
+    {
+      "root_index": 279,
+      "weighted_cap": "44126800000000/32333281",
+      "weighted_cap_decimal": 1364748.60067557
+    },
+    {
+      "root_index": 280,
+      "weighted_cap": "11031700000000/134237441",
+      "weighted_cap_decimal": 82180.49985026159
+    },
+    {
+      "root_index": 281,
+      "weighted_cap": "33919000000000/1888856583",
+      "weighted_cap_decimal": 17957.42477500739
+    },
+    {
+      "root_index": 282,
+      "weighted_cap": "6932870000/667",
+      "weighted_cap_decimal": 10394107.946026986
+    },
+    {
+      "root_index": 283,
+      "weighted_cap": "6932870000/20303",
+      "weighted_cap_decimal": 341470.2260749643
+    },
+    {
+      "root_index": 284,
+      "weighted_cap": "3468620000/4599",
+      "weighted_cap_decimal": 754211.7851706892
+    },
+    {
+      "root_index": 285,
+      "weighted_cap": "13667408125000/241952091",
+      "weighted_cap_decimal": 56488.07608362434
+    },
+    {
+      "root_index": 286,
+      "weighted_cap": "3502526000000/39310221",
+      "weighted_cap_decimal": 89099.62627785787
+    },
+    {
+      "root_index": 287,
+      "weighted_cap": "346643500000/9958517",
+      "weighted_cap_decimal": 34808.74712570155
+    },
+    {
+      "root_index": 288,
+      "weighted_cap": "151965625000/7232123",
+      "weighted_cap_decimal": 21012.58855802093
+    },
+    {
+      "root_index": 289,
+      "weighted_cap": "346643500000/12689567",
+      "weighted_cap_decimal": 27317.204755686304
+    },
+    {
+      "root_index": 290,
+      "weighted_cap": "3556287500000/19950719",
+      "weighted_cap_decimal": 178253.6007850143
+    },
+    {
+      "root_index": 291,
+      "weighted_cap": "2388162500000/16573889",
+      "weighted_cap_decimal": 144091.86039558973
+    },
+    {
+      "root_index": 292,
+      "weighted_cap": "33930950000000/22380827",
+      "weighted_cap_decimal": 1516072.216634354
+    },
+    {
+      "root_index": 293,
+      "weighted_cap": "13572380000000/8885223",
+      "weighted_cap_decimal": 1527522.7194635407
+    },
+    {
+      "root_index": 294,
+      "weighted_cap": "67861900000000/44107599",
+      "weighted_cap_decimal": 1538553.4814533885
+    },
+    {
+      "root_index": 295,
+      "weighted_cap": "4241368750000/39597",
+      "weighted_cap_decimal": 107113386.11510973
+    },
+    {
+      "root_index": 296,
+      "weighted_cap": "16965475000000/6843521",
+      "weighted_cap_decimal": 2479056.4681543317
+    },
+    {
+      "root_index": 297,
+      "weighted_cap": "25984920000000/4588273",
+      "weighted_cap_decimal": 5663333.459016061
+    },
+    {
+      "root_index": 298,
+      "weighted_cap": "1121400000/2441",
+      "weighted_cap_decimal": 459401.8844735764
+    },
+    {
+      "root_index": 299,
+      "weighted_cap": "373800000/1877",
+      "weighted_cap_decimal": 199147.5759190197
+    },
+    {
+      "root_index": 300,
+      "weighted_cap": "3537590000/5001",
+      "weighted_cap_decimal": 707376.524695061
+    },
+    {
+      "root_index": 301,
+      "weighted_cap": "1768795000/3611",
+      "weighted_cap_decimal": 489835.2256992523
+    },
+    {
+      "root_index": 302,
+      "weighted_cap": "1129085000/3583",
+      "weighted_cap_decimal": 315122.80212112755
+    },
+    {
+      "root_index": 303,
+      "weighted_cap": "1265915000000/29033617",
+      "weighted_cap_decimal": 43601.69799029863
+    },
+    {
+      "root_index": 304,
+      "weighted_cap": "25318300/149",
+      "weighted_cap_decimal": 169921.47651006712
+    },
+    {
+      "root_index": 305,
+      "weighted_cap": "2453970000/11",
+      "weighted_cap_decimal": 223088181.8181818
+    },
+    {
+      "root_index": 306,
+      "weighted_cap": "11415750000000/6059861",
+      "weighted_cap_decimal": 1883830.338682686
+    },
+    {
+      "root_index": 307,
+      "weighted_cap": "5707875000000/15144769",
+      "weighted_cap_decimal": 376887.55767750565
+    },
+    {
+      "root_index": 308,
+      "weighted_cap": "5707875000000/5744689",
+      "weighted_cap_decimal": 993591.6461274057
+    },
+    {
+      "root_index": 309,
+      "weighted_cap": "1505629200000000/799954313",
+      "weighted_cap_decimal": 1882143.9868904112
+    },
+    {
+      "root_index": 310,
+      "weighted_cap": "50636600000000/245806521",
+      "weighted_cap_decimal": 206001.85785958054
+    },
+    {
+      "root_index": 311,
+      "weighted_cap": "11031700000000/82254251",
+      "weighted_cap_decimal": 134117.08046554335
+    },
+    {
+      "root_index": 312,
+      "weighted_cap": "596268750000/1228879",
+      "weighted_cap_decimal": 485213.5564201195
+    },
+    {
+      "root_index": 313,
+      "weighted_cap": "596268750000/2585129",
+      "weighted_cap_decimal": 230653.38325476213
+    },
+    {
+      "root_index": 314,
+      "weighted_cap": "128084600000000/50936587",
+      "weighted_cap_decimal": 2514589.365793197
+    },
+    {
+      "root_index": 315,
+      "weighted_cap": "2206340000000/2297071",
+      "weighted_cap_decimal": 960501.4385711194
+    },
+    {
+      "root_index": 316,
+      "weighted_cap": "13471800000000/46478423",
+      "weighted_cap_decimal": 289850.6259560485
+    },
+    {
+      "root_index": 317,
+      "weighted_cap": "173570000000/4207877",
+      "weighted_cap_decimal": 41248.82927899271
+    },
+    {
+      "root_index": 318,
+      "weighted_cap": "43781575000000/275186409",
+      "weighted_cap_decimal": 159097.8826283532
+    },
+    {
+      "root_index": 319,
+      "weighted_cap": "43781575000000/284561409",
+      "weighted_cap_decimal": 153856.3333442027
+    },
+    {
+      "root_index": 320,
+      "weighted_cap": "7358950000000/834711",
+      "weighted_cap_decimal": 8816165.115830509
+    },
+    {
+      "root_index": 321,
+      "weighted_cap": "16952700000000/12809383",
+      "weighted_cap_decimal": 1323459.5296276174
+    },
+    {
+      "root_index": 322,
+      "weighted_cap": "289302400000000/129652619",
+      "weighted_cap_decimal": 2231365.646381582
+    },
+    {
+      "root_index": 323,
+      "weighted_cap": "3616280000000/1154849",
+      "weighted_cap_decimal": 3131387.739869022
+    },
+    {
+      "root_index": 324,
+      "weighted_cap": "2645126800000000/8922942443",
+      "weighted_cap_decimal": 296441.0918144034
+    },
+    {
+      "root_index": 325,
+      "weighted_cap": "2645126800000000/8386142797",
+      "weighted_cap_decimal": 315416.3796192749
+    },
+    {
+      "root_index": 326,
+      "weighted_cap": "90326800000000/739887813",
+      "weighted_cap_decimal": 122081.75133167114
+    },
+    {
+      "root_index": 327,
+      "weighted_cap": "180653600000000/398665361",
+      "weighted_cap_decimal": 453145.9656962773
+    },
+    {
+      "root_index": 328,
+      "weighted_cap": "264512680000000/562001519",
+      "weighted_cap_decimal": 470661.8595456145
+    },
+    {
+      "root_index": 329,
+      "weighted_cap": "12992460000000/153735017",
+      "weighted_cap_decimal": 84512.04061076079
+    },
+    {
+      "root_index": 330,
+      "weighted_cap": "16965475000000/34180417",
+      "weighted_cap_decimal": 496350.73205806705
+    },
+    {
+      "root_index": 331,
+      "weighted_cap": "2113180000000/1364591",
+      "weighted_cap_decimal": 1548581.2232383182
+    },
+    {
+      "root_index": 332,
+      "weighted_cap": "14150360000000/152186653",
+      "weighted_cap_decimal": 92980.29571620843
+    },
+    {
+      "root_index": 333,
+      "weighted_cap": "1768795000000/35975427",
+      "weighted_cap_decimal": 49166.75485186041
+    },
+    {
+      "root_index": 334,
+      "weighted_cap": "141135625/444",
+      "weighted_cap_decimal": 317873.0292792793
+    },
+    {
+      "root_index": 335,
+      "weighted_cap": "265380500000000/802310981",
+      "weighted_cap_decimal": 330770.12066970574
+    },
+    {
+      "root_index": 336,
+      "weighted_cap": "1473000000000/9215417",
+      "weighted_cap_decimal": 159840.8406260943
+    },
+    {
+      "root_index": 337,
+      "weighted_cap": "25318300000000/265005891",
+      "weighted_cap_decimal": 95538.63087519062
+    },
+    {
+      "root_index": 338,
+      "weighted_cap": "12659150000000/166178767",
+      "weighted_cap_decimal": 76177.90304100643
+    },
+    {
+      "root_index": 339,
+      "weighted_cap": "12659150000000/157899017",
+      "weighted_cap_decimal": 80172.4433787957
+    },
+    {
+      "root_index": 340,
+      "weighted_cap": "50636600000000/592995259",
+      "weighted_cap_decimal": 85391.23919032884
+    },
+    {
+      "root_index": 341,
+      "weighted_cap": "2531830000/8529",
+      "weighted_cap_decimal": 296849.57204830577
+    },
+    {
+      "root_index": 342,
+      "weighted_cap": "3616900000000/59050829",
+      "weighted_cap_decimal": 61250.62190066798
+    },
+    {
+      "root_index": 343,
+      "weighted_cap": "3072000000000/1677191",
+      "weighted_cap_decimal": 1831633.9641698531
+    },
+    {
+      "root_index": 344,
+      "weighted_cap": "256000000000/782957",
+      "weighted_cap_decimal": 326965.59325735644
+    },
+    {
+      "root_index": 345,
+      "weighted_cap": "2531830000/25141",
+      "weighted_cap_decimal": 100705.22254484706
+    },
+    {
+      "root_index": 346,
+      "weighted_cap": "260622000/4583",
+      "weighted_cap_decimal": 56867.11760855335
+    },
+    {
+      "root_index": 347,
+      "weighted_cap": "40415400000000/307624273",
+      "weighted_cap_decimal": 131379.09959400375
+    },
+    {
+      "root_index": 348,
+      "weighted_cap": "11031700000000/134297441",
+      "weighted_cap_decimal": 82143.78410978062
+    },
+    {
+      "root_index": 349,
+      "weighted_cap": "16959500000000/862331399",
+      "weighted_cap_decimal": 19667.032905988384
+    },
+    {
+      "root_index": 350,
+      "weighted_cap": "6735900000000/162028957",
+      "weighted_cap_decimal": 41572.19872741636
+    },
+    {
+      "root_index": 351,
+      "weighted_cap": "10103850000000/276804277",
+      "weighted_cap_decimal": 36501.78425530614
+    },
+    {
+      "root_index": 352,
+      "weighted_cap": "175126300000000/944589159",
+      "weighted_cap_decimal": 185399.43882629296
+    },
+    {
+      "root_index": 353,
+      "weighted_cap": "2189078750000/13740189",
+      "weighted_cap_decimal": 159319.40601399296
+    },
+    {
+      "root_index": 354,
+      "weighted_cap": "2374760000000/98585451",
+      "weighted_cap_decimal": 24088.341392281098
+    },
+    {
+      "root_index": 355,
+      "weighted_cap": "593690000000/24454219",
+      "weighted_cap_decimal": 24277.61033791347
+    },
+    {
+      "root_index": 356,
+      "weighted_cap": "1733217500000/106761693",
+      "weighted_cap_decimal": 16234.451246478453
+    },
+    {
+      "root_index": 357,
+      "weighted_cap": "17687950000000/30475997",
+      "weighted_cap_decimal": 580389.5439417454
+    },
+    {
+      "root_index": 358,
+      "weighted_cap": "9552650000000/32751151",
+      "weighted_cap_decimal": 291673.7185816767
+    },
+    {
+      "root_index": 359,
+      "weighted_cap": "4241368750000/746261",
+      "weighted_cap_decimal": 5683492.43763241
+    },
+    {
+      "root_index": 360,
+      "weighted_cap": "6786190000000/3871423",
+      "weighted_cap_decimal": 1752892.9285174985
+    },
+    {
+      "root_index": 361,
+      "weighted_cap": "8482737500000/12587473",
+      "weighted_cap_decimal": 673903.1336949045
+    },
+    {
+      "root_index": 362,
+      "weighted_cap": "16965475000000/4442533",
+      "weighted_cap_decimal": 3818874.277354833
+    },
+    {
+      "root_index": 363,
+      "weighted_cap": "11290850000000/11998777",
+      "weighted_cap_decimal": 941000.0702571603
+    },
+    {
+      "root_index": 364,
+      "weighted_cap": "33185800000000/154903643",
+      "weighted_cap_decimal": 214235.11647172816
+    },
+    {
+      "root_index": 365,
+      "weighted_cap": "5660144000000/55403003",
+      "weighted_cap_decimal": 102163.12642836345
+    },
+    {
+      "root_index": 366,
+      "weighted_cap": "5660144000000/71427003",
+      "weighted_cap_decimal": 79243.756034395
+    },
+    {
+      "root_index": 367,
+      "weighted_cap": "1910530000/14257",
+      "weighted_cap_decimal": 134006.45297047065
+    },
+    {
+      "root_index": 368,
+      "weighted_cap": "1129085000/3067",
+      "weighted_cap_decimal": 368139.87610042386
+    },
+    {
+      "root_index": 369,
+      "weighted_cap": "1218120000000/1578229",
+      "weighted_cap_decimal": 771827.155628239
+    },
+    {
+      "root_index": 370,
+      "weighted_cap": "1218120000000/3301067",
+      "weighted_cap_decimal": 369007.9601534898
+    },
+    {
+      "root_index": 371,
+      "weighted_cap": "467675000000/878271",
+      "weighted_cap_decimal": 532495.095477364
+    },
+    {
+      "root_index": 372,
+      "weighted_cap": "6090600000000/56878663",
+      "weighted_cap_decimal": 107080.57606768992
+    },
+    {
+      "root_index": 373,
+      "weighted_cap": "1734310000000/27042999",
+      "weighted_cap_decimal": 64131.57061463486
+    },
+    {
+      "root_index": 374,
+      "weighted_cap": "132163000000/1569",
+      "weighted_cap_decimal": 84233906.94710006
+    },
+    {
+      "root_index": 375,
+      "weighted_cap": "198244500000000/2738299",
+      "weighted_cap_decimal": 72396951.53816293
+    },
+    {
+      "root_index": 376,
+      "weighted_cap": "35375900000000/4621367",
+      "weighted_cap_decimal": 7654856.2362608295
+    },
+    {
+      "root_index": 377,
+      "weighted_cap": "14150360000000/8070249",
+      "weighted_cap_decimal": 1753398.191307356
+    },
+    {
+      "root_index": 378,
+      "weighted_cap": "141503600000000/264366973",
+      "weighted_cap_decimal": 535254.4547990871
+    },
+    {
+      "root_index": 379,
+      "weighted_cap": "180653600000000/450232307",
+      "weighted_cap_decimal": 401245.3064590942
+    },
+    {
+      "root_index": 380,
+      "weighted_cap": "1768795000000/3909057",
+      "weighted_cap_decimal": 452486.36691662465
+    },
+    {
+      "root_index": 381,
+      "weighted_cap": "338345312500/79929",
+      "weighted_cap_decimal": 4233073.258767156
+    },
+    {
+      "root_index": 382,
+      "weighted_cap": "33930950000000/8505161",
+      "weighted_cap_decimal": 3989454.167887004
+    },
+    {
+      "root_index": 383,
+      "weighted_cap": "33930950000000/22042509",
+      "weighted_cap_decimal": 1539341.5513633227
+    },
+    {
+      "root_index": 384,
+      "weighted_cap": "45163400000000/340487931",
+      "weighted_cap_decimal": 132643.17436261786
+    },
+    {
+      "root_index": 385,
+      "weighted_cap": "24920000/151",
+      "weighted_cap_decimal": 165033.11258278147
+    },
+    {
+      "root_index": 386,
+      "weighted_cap": "282271250/761",
+      "weighted_cap_decimal": 370921.48488830484
+    },
+    {
+      "root_index": 387,
+      "weighted_cap": "62543300000000/556583053",
+      "weighted_cap_decimal": 112370.11199476819
+    },
+    {
+      "root_index": 388,
+      "weighted_cap": "62543300000000/560370553",
+      "weighted_cap_decimal": 111610.61134488271
+    },
+    {
+      "root_index": 389,
+      "weighted_cap": "3468620000/10539",
+      "weighted_cap_decimal": 329122.3076193187
+    },
+    {
+      "root_index": 390,
+      "weighted_cap": "2606220000/2447",
+      "weighted_cap_decimal": 1065067.429505517
+    },
+    {
+      "root_index": 391,
+      "weighted_cap": "2531830000/14927",
+      "weighted_cap_decimal": 169614.12206069537
+    },
+    {
+      "root_index": 392,
+      "weighted_cap": "2283150000000/383447",
+      "weighted_cap_decimal": 5954277.905421088
+    },
+    {
+      "root_index": 393,
+      "weighted_cap": "11415750000000/2341159",
+      "weighted_cap_decimal": 4876110.507658813
+    },
+    {
+      "root_index": 394,
+      "weighted_cap": "356742187500/147587",
+      "weighted_cap_decimal": 2417165.383807517
+    },
+    {
+      "root_index": 395,
+      "weighted_cap": "98244010000000/276926459",
+      "weighted_cap_decimal": 354765.70333786705
+    },
+    {
+      "root_index": 396,
+      "weighted_cap": "11415750000000/20447687",
+      "weighted_cap_decimal": 558290.5293884829
+    },
+    {
+      "root_index": 397,
+      "weighted_cap": "2531830000000/1970467",
+      "weighted_cap_decimal": 1284888.3031281417
+    },
+    {
+      "root_index": 398,
+      "weighted_cap": "217185000/3439",
+      "weighted_cap_decimal": 63153.53300378017
+    },
+    {
+      "root_index": 399,
+      "weighted_cap": "2606220000/49169",
+      "weighted_cap_decimal": 53005.348898696335
+    },
+    {
+      "root_index": 400,
+      "weighted_cap": "103212475000000/1713818443",
+      "weighted_cap_decimal": 60223.69255131187
+    },
+    {
+      "root_index": 401,
+      "weighted_cap": "103212475000000/1853580943",
+      "weighted_cap_decimal": 55682.745007591504
+    },
+    {
+      "root_index": 402,
+      "weighted_cap": "412849900000000/6464287751",
+      "weighted_cap_decimal": 63866.26275046833
+    },
+    {
+      "root_index": 403,
+      "weighted_cap": "7610500000000/5276203",
+      "weighted_cap_decimal": 1442419.8614041195
+    },
+    {
+      "root_index": 404,
+      "weighted_cap": "736500000000/442867",
+      "weighted_cap_decimal": 1663027.5003556372
+    },
+    {
+      "root_index": 405,
+      "weighted_cap": "1582393750000/3461861",
+      "weighted_cap_decimal": 457093.38127671793
+    },
+    {
+      "root_index": 406,
+      "weighted_cap": "2531830000000/10064837",
+      "weighted_cap_decimal": 251552.01221837968
+    },
+    {
+      "root_index": 407,
+      "weighted_cap": "8073437500/47991",
+      "weighted_cap_decimal": 168228.15736283886
+    },
+    {
+      "root_index": 408,
+      "weighted_cap": "3616900000000/10520439",
+      "weighted_cap_decimal": 343797.44039198366
+    },
+    {
+      "root_index": 409,
+      "weighted_cap": "12659150000000/96807849",
+      "weighted_cap_decimal": 130765.73987301381
+    },
+    {
+      "root_index": 410,
+      "weighted_cap": "3616900000000/1411143",
+      "weighted_cap_decimal": 2563099.5583013203
+    },
+    {
+      "root_index": 411,
+      "weighted_cap": "22831500000000/23381297",
+      "weighted_cap_decimal": 976485.6072783303
+    },
+    {
+      "root_index": 412,
+      "weighted_cap": "12017589843750/58904903",
+      "weighted_cap_decimal": 204016.80049876324
+    },
+    {
+      "root_index": 413,
+      "weighted_cap": "34764100000000/212391703",
+      "weighted_cap_decimal": 163679.18100830898
+    },
+    {
+      "root_index": 414,
+      "weighted_cap": "220634000000/2779537",
+      "weighted_cap_decimal": 79377.96834508769
+    },
+    {
+      "root_index": 415,
+      "weighted_cap": "5051925000000/31382461",
+      "weighted_cap_decimal": 160979.2488868225
+    },
+    {
+      "root_index": 416,
+      "weighted_cap": "347140000000/17869099",
+      "weighted_cap_decimal": 19426.832880605787
+    },
+    {
+      "root_index": 417,
+      "weighted_cap": "6735900000000/21567701",
+      "weighted_cap_decimal": 312314.2332138228
+    },
+    {
+      "root_index": 418,
+      "weighted_cap": "11031700000000/2778019",
+      "weighted_cap_decimal": 3971067.1525284746
+    },
+    {
+      "root_index": 419,
+      "weighted_cap": "3471400000000/23285309",
+      "weighted_cap_decimal": 149081.12235057735
+    },
+    {
+      "root_index": 420,
+      "weighted_cap": "43392500000/185461",
+      "weighted_cap_decimal": 233971.02355751343
+    },
+    {
+      "root_index": 421,
+      "weighted_cap": "3468620000000/42076551",
+      "weighted_cap_decimal": 82435.93920043494
+    },
+    {
+      "root_index": 422,
+      "weighted_cap": "1428651562500/7967681",
+      "weighted_cap_decimal": 179305.81840563146
+    },
+    {
+      "root_index": 423,
+      "weighted_cap": "22063400000000/109396641",
+      "weighted_cap_decimal": 201682.609249401
+    },
+    {
+      "root_index": 424,
+      "weighted_cap": "325239980000000/3176706541",
+      "weighted_cap_decimal": 102382.75893675002
+    },
+    {
+      "root_index": 425,
+      "weighted_cap": "69328700000/131361",
+      "weighted_cap_decimal": 527772.3220742838
+    },
+    {
+      "root_index": 426,
+      "weighted_cap": "1733217500000/6093431",
+      "weighted_cap_decimal": 284440.32598383405
+    },
+    {
+      "root_index": 427,
+      "weighted_cap": "69328700000000/10307457",
+      "weighted_cap_decimal": 6726072.201901983
+    },
+    {
+      "root_index": 428,
+      "weighted_cap": "216652187500/1700351",
+      "weighted_cap_decimal": 127416.15554670771
+    },
+    {
+      "root_index": 429,
+      "weighted_cap": "847975000000/688141",
+      "weighted_cap_decimal": 1232269.258771095
+    },
+    {
+      "root_index": 430,
+      "weighted_cap": "3468620000/8229",
+      "weighted_cap_decimal": 421511.7268197837
+    },
+    {
+      "root_index": 431,
+      "weighted_cap": "136674081250000/174685047",
+      "weighted_cap_decimal": 782402.8650259916
+    },
+    {
+      "root_index": 432,
+      "weighted_cap": "13667408125000/34233867",
+      "weighted_cap_decimal": 399236.4673555576
+    },
+    {
+      "root_index": 433,
+      "weighted_cap": "136674081250000/632256297",
+      "weighted_cap_decimal": 216168.79404524143
+    },
+    {
+      "root_index": 434,
+      "weighted_cap": "1733217500000/24127431",
+      "weighted_cap_decimal": 71835.9737512046
+    },
+    {
+      "root_index": 435,
+      "weighted_cap": "9904100000/150233",
+      "weighted_cap_decimal": 65924.92994215652
+    },
+    {
+      "root_index": 436,
+      "weighted_cap": "72325600000000/3578653",
+      "weighted_cap_decimal": 20210285.825420905
+    },
+    {
+      "root_index": 437,
+      "weighted_cap": "3613072000000/178601",
+      "weighted_cap_decimal": 20229853.136320625
+    },
+    {
+      "root_index": 438,
+      "weighted_cap": "129924600000000/86683033",
+      "weighted_cap_decimal": 1498846.9542822756
+    },
+    {
+      "root_index": 439,
+      "weighted_cap": "12992460000000/2309809",
+      "weighted_cap_decimal": 5624906.648125451
+    },
+    {
+      "root_index": 440,
+      "weighted_cap": "9994200000000/13995629",
+      "weighted_cap_decimal": 714094.3790379125
+    },
+    {
+      "root_index": 441,
+      "weighted_cap": "90326800000000/131088659",
+      "weighted_cap_decimal": 689051.2168562195
+    },
+    {
+      "root_index": 442,
+      "weighted_cap": "208212500000/298173",
+      "weighted_cap_decimal": 698294.2788247091
+    },
+    {
+      "root_index": 443,
+      "weighted_cap": "3537590000/3911",
+      "weighted_cap_decimal": 904523.139861928
+    },
+    {
+      "root_index": 444,
+      "weighted_cap": "45163400000000/192714537",
+      "weighted_cap_decimal": 234353.88270683493
+    },
+    {
+      "root_index": 445,
+      "weighted_cap": "45163400000000/284579537",
+      "weighted_cap_decimal": 158702.20493049716
+    },
+    {
+      "root_index": 446,
+      "weighted_cap": "16965475000000/554149",
+      "weighted_cap_decimal": 30615366.986135498
+    },
+    {
+      "root_index": 447,
+      "weighted_cap": "56967740000000/26150711",
+      "weighted_cap_decimal": 2178439.431340892
+    },
+    {
+      "root_index": 448,
+      "weighted_cap": "285393750000/2401171",
+      "weighted_cap_decimal": 118856.07064219916
+    },
+    {
+      "root_index": 449,
+      "weighted_cap": "11415750000000/240892441",
+      "weighted_cap_decimal": 47389.40729153058
+    },
+    {
+      "root_index": 450,
+      "weighted_cap": "7233800000000/28083869",
+      "weighted_cap_decimal": 257578.4696901983
+    },
+    {
+      "root_index": 451,
+      "weighted_cap": "6329575000000/23942469",
+      "weighted_cap_decimal": 264366.01003848016
+    },
+    {
+      "root_index": 452,
+      "weighted_cap": "50636600000000/357295203",
+      "weighted_cap_decimal": 141722.02586218322
+    },
+    {
+      "root_index": 453,
+      "weighted_cap": "20254640000000/33459193",
+      "weighted_cap_decimal": 605353.5122619366
+    },
+    {
+      "root_index": 454,
+      "weighted_cap": "101273200000000/376437237",
+      "weighted_cap_decimal": 269030.7707257983
+    },
+    {
+      "root_index": 455,
+      "weighted_cap": "12659150000000/216231557",
+      "weighted_cap_decimal": 58544.41495789627
+    },
+    {
+      "root_index": 456,
+      "weighted_cap": "11031700000000/55009251",
+      "weighted_cap_decimal": 200542.63236559974
+    },
+    {
+      "root_index": 457,
+      "weighted_cap": "6783800000000/107360253",
+      "weighted_cap_decimal": 63187.25795104078
+    },
+    {
+      "root_index": 458,
+      "weighted_cap": "216962500000/1609597",
+      "weighted_cap_decimal": 134793.05689560802
+    },
+    {
+      "root_index": 459,
+      "weighted_cap": "108481250000/1601431",
+      "weighted_cap_decimal": 67740.19611210223
+    },
+    {
+      "root_index": 460,
+      "weighted_cap": "867850000000/1484507",
+      "weighted_cap_decimal": 584604.8553492844
+    },
+    {
+      "root_index": 461,
+      "weighted_cap": "33919000000000/769185391",
+      "weighted_cap_decimal": 44097.30137477351
+    },
+    {
+      "root_index": 462,
+      "weighted_cap": "3466435000/30791",
+      "weighted_cap_decimal": 112579.48751258485
+    },
+    {
+      "root_index": 463,
+      "weighted_cap": "70794500000000/14343699",
+      "weighted_cap_decimal": 4935581.818887861
+    },
+    {
+      "root_index": 464,
+      "weighted_cap": "35397250000000/13672529",
+      "weighted_cap_decimal": 2588932.157320712
+    },
+    {
+      "root_index": 465,
+      "weighted_cap": "2120684375000/74537",
+      "weighted_cap_decimal": 28451431.83922079
+    },
+    {
+      "root_index": 466,
+      "weighted_cap": "69372400000000/359381",
+      "weighted_cap_decimal": 193033020.66608974
+    },
+    {
+      "root_index": 467,
+      "weighted_cap": "176419531250/162167",
+      "weighted_cap_decimal": 1087887.9873833763
+    },
+    {
+      "root_index": 468,
+      "weighted_cap": "22581700000000/10444737",
+      "weighted_cap_decimal": 2162017.1000954835
+    },
+    {
+      "root_index": 469,
+      "weighted_cap": "16592900000000/5139973",
+      "weighted_cap_decimal": 3228207.6189894383
+    },
+    {
+      "root_index": 470,
+      "weighted_cap": "90326800000000/96551141",
+      "weighted_cap_decimal": 935533.2217151116
+    },
+    {
+      "root_index": 471,
+      "weighted_cap": "11290850000000/79327279",
+      "weighted_cap_decimal": 142332.50077820013
+    },
+    {
+      "root_index": 472,
+      "weighted_cap": "35375900000000/48511199",
+      "weighted_cap_decimal": 729231.6151575639
+    },
+    {
+      "root_index": 473,
+      "weighted_cap": "129924600000000/157044349",
+      "weighted_cap_decimal": 827311.5258671294
+    },
+    {
+      "root_index": 474,
+      "weighted_cap": "129924600000000/141244349",
+      "weighted_cap_decimal": 919856.9777825235
+    },
+    {
+      "root_index": 475,
+      "weighted_cap": "16965475000000/19244653",
+      "weighted_cap_decimal": 881568.246515019
+    },
+    {
+      "root_index": 476,
+      "weighted_cap": "6786190000000/54728591",
+      "weighted_cap_decimal": 123997.16265306373
+    },
+    {
+      "root_index": 477,
+      "weighted_cap": "22964200000000/8966877",
+      "weighted_cap_decimal": 2561003.1229378968
+    },
+    {
+      "root_index": 478,
+      "weighted_cap": "761050000000/74217",
+      "weighted_cap_decimal": 10254389.15612326
+    },
+    {
+      "root_index": 479,
+      "weighted_cap": "25318300000000/84553269",
+      "weighted_cap_decimal": 299436.08685312927
+    },
+    {
+      "root_index": 480,
+      "weighted_cap": "25318300000000/135553269",
+      "weighted_cap_decimal": 186777.49483120174
+    },
+    {
+      "root_index": 481,
+      "weighted_cap": "25318300000000/149583269",
+      "weighted_cap_decimal": 169258.9028790379
+    },
+    {
+      "root_index": 482,
+      "weighted_cap": "25318300000000/67741463",
+      "weighted_cap_decimal": 373748.940143203
+    },
+    {
+      "root_index": 483,
+      "weighted_cap": "2531830000/7297",
+      "weighted_cap_decimal": 346968.61723996163
+    },
+    {
+      "root_index": 484,
+      "weighted_cap": "5063660000000/61396631",
+      "weighted_cap_decimal": 82474.5579281052
+    },
+    {
+      "root_index": 485,
+      "weighted_cap": "10127320000000/95611637",
+      "weighted_cap_decimal": 105921.41623932241
+    },
+    {
+      "root_index": 486,
+      "weighted_cap": "10127320000000/121623637",
+      "weighted_cap_decimal": 83267.69573582149
+    },
+    {
+      "root_index": 487,
+      "weighted_cap": "5707875000000/40051399",
+      "weighted_cap_decimal": 142513.74839615464
+    },
+    {
+      "root_index": 488,
+      "weighted_cap": "8750375000000/75697327",
+      "weighted_cap_decimal": 115596.88230470807
+    },
+    {
+      "root_index": 489,
+      "weighted_cap": "3471400000000/64976971",
+      "weighted_cap_decimal": 53425.08194172363
+    },
+    {
+      "root_index": 490,
+      "weighted_cap": "3471400000000/75974619",
+      "weighted_cap_decimal": 45691.5749718995
+    },
+    {
+      "root_index": 491,
+      "weighted_cap": "34664350000000/200793027",
+      "weighted_cap_decimal": 172637.2201162145
+    },
+    {
+      "root_index": 492,
+      "weighted_cap": "16959500000000/598770303",
+      "weighted_cap_decimal": 28323.882989901722
+    },
+    {
+      "root_index": 493,
+      "weighted_cap": "16959500000000/597195303",
+      "weighted_cap_decimal": 28398.58236460376
+    },
+    {
+      "root_index": 494,
+      "weighted_cap": "175126300000000/245828127",
+      "weighted_cap_decimal": 712393.2567732576
+    },
+    {
+      "root_index": 495,
+      "weighted_cap": "175126300000000/245828127",
+      "weighted_cap_decimal": 712393.2567732576
+    },
+    {
+      "root_index": 496,
+      "weighted_cap": "45701000000000/1422431203",
+      "weighted_cap_decimal": 32128.794632467016
+    },
+    {
+      "root_index": 497,
+      "weighted_cap": "228505000000/651379",
+      "weighted_cap_decimal": 350801.91409302416
+    },
+    {
+      "root_index": 498,
+      "weighted_cap": "349020000000/14477299",
+      "weighted_cap_decimal": 24108.088117818108
+    },
+    {
+      "root_index": 499,
+      "weighted_cap": "174510000000/15579203",
+      "weighted_cap_decimal": 11201.471602879814
+    },
+    {
+      "root_index": 500,
+      "weighted_cap": "223580000000/1542013",
+      "weighted_cap_decimal": 144992.29254228077
+    },
+    {
+      "root_index": 501,
+      "weighted_cap": "23227350000000/243422519",
+      "weighted_cap_decimal": 95419.89005544718
+    },
+    {
+      "root_index": 502,
+      "weighted_cap": "103899830000000/66171783",
+      "weighted_cap_decimal": 1570153.096826785
+    },
+    {
+      "root_index": 503,
+      "weighted_cap": "129874787500000/72060081",
+      "weighted_cap_decimal": 1802312.5383386677
+    },
+    {
+      "root_index": 504,
+      "weighted_cap": "67861900000000/67414897",
+      "weighted_cap_decimal": 1006630.6264622788
+    },
+    {
+      "root_index": 505,
+      "weighted_cap": "67861900000000/20603303",
+      "weighted_cap_decimal": 3293738.872839952
+    },
+    {
+      "root_index": 506,
+      "weighted_cap": "67861900000000/8815343",
+      "weighted_cap_decimal": 7698157.632663868
+    },
+    {
+      "root_index": 507,
+      "weighted_cap": "90326800000000/867197763",
+      "weighted_cap_decimal": 104159.40152742299
+    },
+    {
+      "root_index": 508,
+      "weighted_cap": "373800000/923",
+      "weighted_cap_decimal": 404983.7486457205
+    },
+    {
+      "root_index": 509,
+      "weighted_cap": "160200000/803",
+      "weighted_cap_decimal": 199501.8679950187
+    },
+    {
+      "root_index": 510,
+      "weighted_cap": "33185800000000/575703787",
+      "weighted_cap_decimal": 57643.87997677007
+    },
+    {
+      "root_index": 511,
+      "weighted_cap": "33185800000000/710168373",
+      "weighted_cap_decimal": 46729.481714049805
+    },
+    {
+      "root_index": 512,
+      "weighted_cap": "25318300000000/260938827",
+      "weighted_cap_decimal": 97027.72213350986
+    },
+    {
+      "root_index": 513,
+      "weighted_cap": "3616900000000/60885541",
+      "weighted_cap_decimal": 59404.908630113016
+    },
+    {
+      "root_index": 514,
+      "weighted_cap": "2853937500000/1877251",
+      "weighted_cap_decimal": 1520274.859355515
+    },
+    {
+      "root_index": 515,
+      "weighted_cap": "237828125000/176469",
+      "weighted_cap_decimal": 1347704.8376768725
+    },
+    {
+      "root_index": 516,
+      "weighted_cap": "2853937500000/1537829",
+      "weighted_cap_decimal": 1855822.3963782708
+    },
+    {
+      "root_index": 517,
+      "weighted_cap": "3805250000000/12703421",
+      "weighted_cap_decimal": 299545.2957120763
+    },
+    {
+      "root_index": 518,
+      "weighted_cap": "7610500000000/16968259",
+      "weighted_cap_decimal": 448513.8988036427
+    },
+    {
+      "root_index": 519,
+      "weighted_cap": "108592500/1441",
+      "weighted_cap_decimal": 75359.12560721721
+    },
+    {
+      "root_index": 520,
+      "weighted_cap": "2531830000/26527",
+      "weighted_cap_decimal": 95443.51038564481
+    },
+    {
+      "root_index": 521,
+      "weighted_cap": "2531830000/16973",
+      "weighted_cap_decimal": 149168.09049667118
+    },
+    {
+      "root_index": 522,
+      "weighted_cap": "22063400000000/391658239",
+      "weighted_cap_decimal": 56333.297255110214
+    },
+    {
+      "root_index": 523,
+      "weighted_cap": "22063400000000/506323959",
+      "weighted_cap_decimal": 43575.65864269125
+    },
+    {
+      "root_index": 524,
+      "weighted_cap": "53306000000000/75917541",
+      "weighted_cap_decimal": 702156.5674789177
+    },
+    {
+      "root_index": 525,
+      "weighted_cap": "4846000000000/11653539",
+      "weighted_cap_decimal": 415839.34288116253
+    },
+    {
+      "root_index": 526,
+      "weighted_cap": "53306000000000/854441581",
+      "weighted_cap_decimal": 62386.9450941433
+    },
+    {
+      "root_index": 527,
+      "weighted_cap": "20207700000000/146590327",
+      "weighted_cap_decimal": 137851.52413228466
+    },
+    {
+      "root_index": 528,
+      "weighted_cap": "168397500000/211849",
+      "weighted_cap_decimal": 794894.0046920212
+    },
+    {
+      "root_index": 529,
+      "weighted_cap": "495205000/5753",
+      "weighted_cap_decimal": 86077.69859203894
+    },
+    {
+      "root_index": 530,
+      "weighted_cap": "26791686718750/22583091",
+      "weighted_cap_decimal": 1186360.4817759446
+    },
+    {
+      "root_index": 531,
+      "weighted_cap": "21433349375000/25704033",
+      "weighted_cap_decimal": 833851.6128966999
+    },
+    {
+      "root_index": 532,
+      "weighted_cap": "25756325000000/6419439",
+      "weighted_cap_decimal": 4012239.2314967085
+    },
+    {
+      "root_index": 533,
+      "weighted_cap": "8849312500000/10931561",
+      "weighted_cap_decimal": 809519.5644976961
+    },
+    {
+      "root_index": 534,
+      "weighted_cap": "138744800000000/636972283",
+      "weighted_cap_decimal": 217819.21082428008
+    },
+    {
+      "root_index": 535,
+      "weighted_cap": "678619000000/124747",
+      "weighted_cap_decimal": 5439962.484067753
+    },
+    {
+      "root_index": 536,
+      "weighted_cap": "1806536000000/169379",
+      "weighted_cap_decimal": 10665643.320600547
+    },
+    {
+      "root_index": 537,
+      "weighted_cap": "36130720000000/18536059",
+      "weighted_cap_decimal": 1949212.6131018465
+    },
+    {
+      "root_index": 538,
+      "weighted_cap": "9032680000000/833399",
+      "weighted_cap_decimal": 10838361.937079359
+    },
+    {
+      "root_index": 539,
+      "weighted_cap": "678440600000000/1449031909",
+      "weighted_cap_decimal": 468202.66398978245
+    },
+    {
+      "root_index": 540,
+      "weighted_cap": "1869000000000/942257",
+      "weighted_cap_decimal": 1983535.2775304401
+    },
+    {
+      "root_index": 541,
+      "weighted_cap": "35375900000000/123138219",
+      "weighted_cap_decimal": 287286.1105779027
+    },
+    {
+      "root_index": 542,
+      "weighted_cap": "33930950000000/215465931",
+      "weighted_cap_decimal": 157477.10017320557
+    },
+    {
+      "root_index": 543,
+      "weighted_cap": "33930950000000/301077881",
+      "weighted_cap_decimal": 112698.2489955813
+    },
+    {
+      "root_index": 544,
+      "weighted_cap": "129924600000000/1046965367",
+      "weighted_cap_decimal": 124096.36850958032
+    },
+    {
+      "root_index": 545,
+      "weighted_cap": "3248115000000/47154409",
+      "weighted_cap_decimal": 68882.53015746629
+    },
+    {
+      "root_index": 546,
+      "weighted_cap": "49079400000000/503978071",
+      "weighted_cap_decimal": 97383.99907483277
+    },
+    {
+      "root_index": 547,
+      "weighted_cap": "11482100000000/243987201",
+      "weighted_cap_decimal": 47060.25542708693
+    },
+    {
+      "root_index": 548,
+      "weighted_cap": "5063660000000/4751391",
+      "weighted_cap_decimal": 1065721.5960547132
+    },
+    {
+      "root_index": 549,
+      "weighted_cap": "5063660000000/17828193",
+      "weighted_cap_decimal": 284025.41973827634
+    },
+    {
+      "root_index": 550,
+      "weighted_cap": "5063660000000/17937391",
+      "weighted_cap_decimal": 282296.3495638803
+    },
+    {
+      "root_index": 551,
+      "weighted_cap": "25318300000000/86641463",
+      "weighted_cap_decimal": 292219.2114876915
+    },
+    {
+      "root_index": 552,
+      "weighted_cap": "2531830000/12643",
+      "weighted_cap_decimal": 200255.4773392391
+    },
+    {
+      "root_index": 553,
+      "weighted_cap": "316478750000/3326627",
+      "weighted_cap_decimal": 95135.02716114551
+    },
+    {
+      "root_index": 554,
+      "weighted_cap": "2165575000000/42295771",
+      "weighted_cap_decimal": 51200.745341656024
+    },
+    {
+      "root_index": 555,
+      "weighted_cap": "768000000000/2530259",
+      "weighted_cap_decimal": 303526.2398039094
+    },
+    {
+      "root_index": 556,
+      "weighted_cap": "7233800000000/153045873",
+      "weighted_cap_decimal": 47265.56723290408
+    },
+    {
+      "root_index": 557,
+      "weighted_cap": "1265915000000/37214997",
+      "weighted_cap_decimal": 34016.259627805426
+    },
+    {
+      "root_index": 558,
+      "weighted_cap": "33919000000000/1172766227",
+      "weighted_cap_decimal": 28922.217590428616
+    },
+    {
+      "root_index": 559,
+      "weighted_cap": "33919000000000/1172766227",
+      "weighted_cap_decimal": 28922.217590428616
+    },
+    {
+      "root_index": 560,
+      "weighted_cap": "17332175000000/197639121",
+      "weighted_cap_decimal": 87696.07409860926
+    },
+    {
+      "root_index": 561,
+      "weighted_cap": "3367950000000/75327511",
+      "weighted_cap_decimal": 44710.7564724925
+    },
+    {
+      "root_index": 562,
+      "weighted_cap": "3367950000000/93367511",
+      "weighted_cap_decimal": 36071.969402718685
+    },
+    {
+      "root_index": 563,
+      "weighted_cap": "184060051562500/701170653",
+      "weighted_cap_decimal": 262503.9293572659
+    },
+    {
+      "root_index": 564,
+      "weighted_cap": "184060051562500/701170653",
+      "weighted_cap_decimal": 262503.9293572659
+    },
+    {
+      "root_index": 565,
+      "weighted_cap": "2968450000000/83379121",
+      "weighted_cap_decimal": 35601.838498633246
+    },
+    {
+      "root_index": 566,
+      "weighted_cap": "2968450000000/83379121",
+      "weighted_cap_decimal": 35601.838498633246
+    },
+    {
+      "root_index": 567,
+      "weighted_cap": "21150631250000/1317597963",
+      "weighted_cap_decimal": 16052.416475996024
+    },
+    {
+      "root_index": 568,
+      "weighted_cap": "1302581250000/85295719",
+      "weighted_cap_decimal": 15271.355529578219
+    },
+    {
+      "root_index": 569,
+      "weighted_cap": "15484900000000/131768493",
+      "weighted_cap_decimal": 117515.95277028781
+    },
+    {
+      "root_index": 570,
+      "weighted_cap": "15484900000000/196532147",
+      "weighted_cap_decimal": 78790.67234735902
+    },
+    {
+      "root_index": 571,
+      "weighted_cap": "8482737500000/4557033",
+      "weighted_cap_decimal": 1861460.6258063086
+    },
+    {
+      "root_index": 572,
+      "weighted_cap": "8482737500000/4557033",
+      "weighted_cap_decimal": 1861460.6258063086
+    },
+    {
+      "root_index": 573,
+      "weighted_cap": "13867020000000/9411529",
+      "weighted_cap_decimal": 1473407.7746559565
+    },
+    {
+      "root_index": 574,
+      "weighted_cap": "1075334800000000/2121553701",
+      "weighted_cap_decimal": 506861.92835615616
+    },
+    {
+      "root_index": 575,
+      "weighted_cap": "2150669600000000/2233241521",
+      "weighted_cap_decimal": 963025.9780576595
+    },
+    {
+      "root_index": 576,
+      "weighted_cap": "70751800000000/637087189",
+      "weighted_cap_decimal": 111055.12906491673
+    },
+    {
+      "root_index": 577,
+      "weighted_cap": "16592900000000/223875491",
+      "weighted_cap_decimal": 74116.64370174402
+    },
+    {
+      "root_index": 578,
+      "weighted_cap": "16592900000000/264967991",
+      "weighted_cap_decimal": 62622.28104375068
+    },
+    {
+      "root_index": 579,
+      "weighted_cap": "2042170000/10651",
+      "weighted_cap_decimal": 191735.0483522674
+    },
+    {
+      "root_index": 580,
+      "weighted_cap": "2258170000/5617",
+      "weighted_cap_decimal": 402024.212212925
+    },
+    {
+      "root_index": 581,
+      "weighted_cap": "18081400000000/237977",
+      "weighted_cap_decimal": 75979611.47505851
+    },
+    {
+      "root_index": 582,
+      "weighted_cap": "14465120000000/211811",
+      "weighted_cap_decimal": 68292581.59396821
+    },
+    {
+      "root_index": 583,
+      "weighted_cap": "20266280000000/1097539",
+      "weighted_cap_decimal": 18465202.60327879
+    },
+    {
+      "root_index": 584,
+      "weighted_cap": "5413525000000/3027647",
+      "weighted_cap_decimal": 1788030.4408010577
+    },
+    {
+      "root_index": 585,
+      "weighted_cap": "4330820000000/1268643",
+      "weighted_cap_decimal": 3413742.0850467784
+    },
+    {
+      "root_index": 586,
+      "weighted_cap": "10827050000000/1630217",
+      "weighted_cap_decimal": 6641477.790993469
+    },
+    {
+      "root_index": 587,
+      "weighted_cap": "12992460000000/11101621",
+      "weighted_cap_decimal": 1170320.982854666
+    },
+    {
+      "root_index": 588,
+      "weighted_cap": "7075180000000/10592667",
+      "weighted_cap_decimal": 667931.8815554194
+    },
+    {
+      "root_index": 589,
+      "weighted_cap": "72325600000000/13785169",
+      "weighted_cap_decimal": 5246624.107401222
+    },
+    {
+      "root_index": 590,
+      "weighted_cap": "71209675000000/95770081",
+      "weighted_cap_decimal": 743548.238201866
+    },
+    {
+      "root_index": 591,
+      "weighted_cap": "45163400000000/393067931",
+      "weighted_cap_decimal": 114899.7321788635
+    },
+    {
+      "root_index": 592,
+      "weighted_cap": "2258170000/5593",
+      "weighted_cap_decimal": 403749.32951904164
+    },
+    {
+      "root_index": 593,
+      "weighted_cap": "12659150000000/169560491",
+      "weighted_cap_decimal": 74658.60664439808
+    },
+    {
+      "root_index": 594,
+      "weighted_cap": "25318300000000/461847787",
+      "weighted_cap_decimal": 54819.57630339365
+    },
+    {
+      "root_index": 595,
+      "weighted_cap": "6134925000000/34632673",
+      "weighted_cap_decimal": 177142.694125862
+    },
+    {
+      "root_index": 596,
+      "weighted_cap": "175007500000000/1073605471",
+      "weighted_cap_decimal": 163009.13578336264
+    },
+    {
+      "root_index": 597,
+      "weighted_cap": "2044975000000/11385891",
+      "weighted_cap_decimal": 179606.0580590487
+    },
+    {
+      "root_index": 598,
+      "weighted_cap": "2044975000000/175891",
+      "weighted_cap_decimal": 11626376.562757617
+    },
+    {
+      "root_index": 599,
+      "weighted_cap": "45663000000000/109226213",
+      "weighted_cap_decimal": 418058.98736047914
+    },
+    {
+      "root_index": 600,
+      "weighted_cap": "5063660000000/42916631",
+      "weighted_cap_decimal": 117988.29223104674
+    },
+    {
+      "root_index": 601,
+      "weighted_cap": "12659150000000/455010491",
+      "weighted_cap_decimal": 27821.666204175497
+    },
+    {
+      "root_index": 602,
+      "weighted_cap": "2531830000/1597",
+      "weighted_cap_decimal": 1585366.31183469
+    },
+    {
+      "root_index": 603,
+      "weighted_cap": "1141575000000/8471383",
+      "weighted_cap_decimal": 134756.62710563318
+    },
+    {
+      "root_index": 604,
+      "weighted_cap": "285393750000/2802019",
+      "weighted_cap_decimal": 101852.8960724392
+    },
+    {
+      "root_index": 605,
+      "weighted_cap": "12659150000000/13526161",
+      "weighted_cap_decimal": 935901.1769858425
+    },
+    {
+      "root_index": 606,
+      "weighted_cap": "12659150000000/11179459",
+      "weighted_cap_decimal": 1132358.0148198584
+    },
+    {
+      "root_index": 607,
+      "weighted_cap": "253183000000/529441",
+      "weighted_cap_decimal": 478208.14783894713
+    },
+    {
+      "root_index": 608,
+      "weighted_cap": "2531830000000/1158161",
+      "weighted_cap_decimal": 2186077.756028739
+    },
+    {
+      "root_index": 609,
+      "weighted_cap": "3164787500000/31272181",
+      "weighted_cap_decimal": 101201.3680785488
+    },
+    {
+      "root_index": 610,
+      "weighted_cap": "12659150000000/281571557",
+      "weighted_cap_decimal": 44958.90897105065
+    },
+    {
+      "root_index": 611,
+      "weighted_cap": "1024000000000/8393531",
+      "weighted_cap_decimal": 121998.71543930678
+    },
+    {
+      "root_index": 612,
+      "weighted_cap": "512000000000/5199947",
+      "weighted_cap_decimal": 98462.54202206292
+    },
+    {
+      "root_index": 613,
+      "weighted_cap": "11031700000000/206671287",
+      "weighted_cap_decimal": 53378.000205708304
+    },
+    {
+      "root_index": 614,
+      "weighted_cap": "22063400000000/544756959",
+      "weighted_cap_decimal": 40501.364205610815
+    },
+    {
+      "root_index": 615,
+      "weighted_cap": "13629300000000/7121621",
+      "weighted_cap_decimal": 1913791.8179021322
+    },
+    {
+      "root_index": 616,
+      "weighted_cap": "640577100000000/152766187",
+      "weighted_cap_decimal": 4193186.415001639
+    },
+    {
+      "root_index": 617,
+      "weighted_cap": "640577100000000/6153130531",
+      "weighted_cap_decimal": 104105.8850893407
+    },
+    {
+      "root_index": 618,
+      "weighted_cap": "2525962500000/12596903",
+      "weighted_cap_decimal": 200522.50144341035
+    },
+    {
+      "root_index": 619,
+      "weighted_cap": "1122650000000/7412361",
+      "weighted_cap_decimal": 151456.46576036973
+    },
+    {
+      "root_index": 620,
+      "weighted_cap": "6932870000000/64834907",
+      "weighted_cap_decimal": 106931.13202121198
+    },
+    {
+      "root_index": 621,
+      "weighted_cap": "1695950000/4793",
+      "weighted_cap_decimal": 353838.93177550595
+    },
+    {
+      "root_index": 622,
+      "weighted_cap": "5515850000000/60067599",
+      "weighted_cap_decimal": 91827.37602014025
+    },
+    {
+      "root_index": 623,
+      "weighted_cap": "6783800000000/45869501",
+      "weighted_cap_decimal": 147893.47719304817
+    },
+    {
+      "root_index": 624,
+      "weighted_cap": "867850000000/1717079",
+      "weighted_cap_decimal": 505422.28983057855
+    },
+    {
+      "root_index": 625,
+      "weighted_cap": "4239875000000/15594787",
+      "weighted_cap_decimal": 271877.71144293284
+    },
+    {
+      "root_index": 626,
+      "weighted_cap": "3391900000000/38449003",
+      "weighted_cap_decimal": 88218.15223661326
+    },
+    {
+      "root_index": 627,
+      "weighted_cap": "1695950000000/2497441",
+      "weighted_cap_decimal": 679075.1012736637
+    },
+    {
+      "root_index": 628,
+      "weighted_cap": "1626199900000000/6852744487",
+      "weighted_cap_decimal": 237306.36726423737
+    },
+    {
+      "root_index": 629,
+      "weighted_cap": "8756315000000/31213077",
+      "weighted_cap_decimal": 280533.5404772814
+    },
+    {
+      "root_index": 630,
+      "weighted_cap": "8756315000000/30958077",
+      "weighted_cap_decimal": 282844.28002424055
+    },
+    {
+      "root_index": 631,
+      "weighted_cap": "8756315000000/39457077",
+      "weighted_cap_decimal": 221920.01196642112
+    },
+    {
+      "root_index": 632,
+      "weighted_cap": "72325600000000/101379801",
+      "weighted_cap_decimal": 713412.3295428446
+    },
+    {
+      "root_index": 633,
+      "weighted_cap": "36162800000000/8489069",
+      "weighted_cap_decimal": 4259925.322788635
+    },
+    {
+      "root_index": 634,
+      "weighted_cap": "12992460000000/14277791",
+      "weighted_cap_decimal": 909976.9004883178
+    },
+    {
+      "root_index": 635,
+      "weighted_cap": "9994200000000/10701527",
+      "weighted_cap_decimal": 933904.1054608375
+    },
+    {
+      "root_index": 636,
+      "weighted_cap": "866164000000/1962619",
+      "weighted_cap_decimal": 441330.6912854711
+    },
+    {
+      "root_index": 637,
+      "weighted_cap": "12992460000000/8100167",
+      "weighted_cap_decimal": 1603974.3378130351
+    },
+    {
+      "root_index": 638,
+      "weighted_cap": "64962300000000/44237629",
+      "weighted_cap_decimal": 1468485.1215692414
+    },
+    {
+      "root_index": 639,
+      "weighted_cap": "418530000000/812933",
+      "weighted_cap_decimal": 514839.4763160064
+    },
+    {
+      "root_index": 640,
+      "weighted_cap": "45163400000000/458079533",
+      "weighted_cap_decimal": 98592.92272724178
+    },
+    {
+      "root_index": 641,
+      "weighted_cap": "45163400000000/536824533",
+      "weighted_cap_decimal": 84130.65577984678
+    },
+    {
+      "root_index": 642,
+      "weighted_cap": "12326240000/106773",
+      "weighted_cap_decimal": 115443.41734333587
+    },
+    {
+      "root_index": 643,
+      "weighted_cap": "6508932700000000/20770458497",
+      "weighted_cap_decimal": 313374.5314741186
+    },
+    {
+      "root_index": 644,
+      "weighted_cap": "4335775000000/22512079",
+      "weighted_cap_decimal": 192597.71609721164
+    },
+    {
+      "root_index": 645,
+      "weighted_cap": "6937240000000/44151979",
+      "weighted_cap_decimal": 157121.83592042385
+    },
+    {
+      "root_index": 646,
+      "weighted_cap": "4335775000000/34312079",
+      "weighted_cap_decimal": 126362.93475542535
+    },
+    {
+      "root_index": 647,
+      "weighted_cap": "69372400000000/967749407",
+      "weighted_cap_decimal": 71684.2598902259
+    },
+    {
+      "root_index": 648,
+      "weighted_cap": "1734310000000/25066407",
+      "weighted_cap_decimal": 69188.61566398408
+    },
+    {
+      "root_index": 649,
+      "weighted_cap": "84890700000000/3759841",
+      "weighted_cap_decimal": 22578268.602315895
+    },
+    {
+      "root_index": 650,
+      "weighted_cap": "5305668750000/78541",
+      "weighted_cap_decimal": 67552854.5600387
+    },
+    {
+      "root_index": 651,
+      "weighted_cap": "14150360000000/36234581",
+      "weighted_cap_decimal": 390520.86734492664
+    },
+    {
+      "root_index": 652,
+      "weighted_cap": "1768795000000/2699917",
+      "weighted_cap_decimal": 655129.3984222478
+    },
+    {
+      "root_index": 653,
+      "weighted_cap": "14150360000000/2817217",
+      "weighted_cap_decimal": 5022815.068913754
+    },
+    {
+      "root_index": 654,
+      "weighted_cap": "14150360000000/13792631",
+      "weighted_cap_decimal": 1025936.2408810908
+    },
+    {
+      "root_index": 655,
+      "weighted_cap": "14150360000000/7194319",
+      "weighted_cap_decimal": 1966879.7004970172
+    },
+    {
+      "root_index": 656,
+      "weighted_cap": "90326800000000/32465561",
+      "weighted_cap_decimal": 2782234.380610272
+    },
+    {
+      "root_index": 657,
+      "weighted_cap": "16240575000000/9375377",
+      "weighted_cap_decimal": 1732258.3401179493
+    },
+    {
+      "root_index": 658,
+      "weighted_cap": "16240575000000/7400377",
+      "weighted_cap_decimal": 2194560.4933370287
+    },
+    {
+      "root_index": 659,
+      "weighted_cap": "14465120000000/137008307",
+      "weighted_cap_decimal": 105578.4157671549
+    },
+    {
+      "root_index": 660,
+      "weighted_cap": "1627233175000000/3504254017",
+      "weighted_cap_decimal": 464359.3663889349
+    },
+    {
+      "root_index": 661,
+      "weighted_cap": "10015100000000/5155513",
+      "weighted_cap_decimal": 1942600.0865481282
+    },
+    {
+      "root_index": 662,
+      "weighted_cap": "5007550000000/4106447",
+      "weighted_cap_decimal": 1219436.1695158856
+    },
+    {
+      "root_index": 663,
+      "weighted_cap": "8671550000000/3157807",
+      "weighted_cap_decimal": 2746067.1282317126
+    },
+    {
+      "root_index": 664,
+      "weighted_cap": "4335775000000/124031",
+      "weighted_cap_decimal": 34957188.12232426
+    },
+    {
+      "root_index": 665,
+      "weighted_cap": "154092025000000/337471811",
+      "weighted_cap_decimal": 456607.10014087666
+    },
+    {
+      "root_index": 666,
+      "weighted_cap": "33185800000000/103099091",
+      "weighted_cap_decimal": 321882.5663555074
+    },
+    {
+      "root_index": 667,
+      "weighted_cap": "33185800000000/54003841",
+      "weighted_cap_decimal": 614508.1421152988
+    },
+    {
+      "root_index": 668,
+      "weighted_cap": "45163400000000/158927",
+      "weighted_cap_decimal": 284177012.08731055
+    },
+    {
+      "root_index": 669,
+      "weighted_cap": "33930950000000/12205423",
+      "weighted_cap_decimal": 2779989.681635778
+    },
+    {
+      "root_index": 670,
+      "weighted_cap": "90326800000000/46550973",
+      "weighted_cap_decimal": 1940384.7906680705
+    },
+    {
+      "root_index": 671,
+      "weighted_cap": "33930950000000/3822421",
+      "weighted_cap_decimal": 8876821.783890367
+    },
+    {
+      "root_index": 672,
+      "weighted_cap": "1696547500000/213523",
+      "weighted_cap_decimal": 7945502.358059787
+    },
+    {
+      "root_index": 673,
+      "weighted_cap": "90326800000000/133793023",
+      "weighted_cap_decimal": 675123.3956347634
+    },
+    {
+      "root_index": 674,
+      "weighted_cap": "5660144000000/59470203",
+      "weighted_cap_decimal": 95176.13383630117
+    },
+    {
+      "root_index": 675,
+      "weighted_cap": "5660144000000/71303003",
+      "weighted_cap_decimal": 79381.5654580495
+    },
+    {
+      "root_index": 676,
+      "weighted_cap": "66371600000000/426312051",
+      "weighted_cap_decimal": 155687.83440278587
+    },
+    {
+      "root_index": 677,
+      "weighted_cap": "32481150000000/261051631",
+      "weighted_cap_decimal": 124424.23698168735
+    },
+    {
+      "root_index": 678,
+      "weighted_cap": "564542500/1923",
+      "weighted_cap_decimal": 293573.84295371815
+    },
+    {
+      "root_index": 679,
+      "weighted_cap": "1218120000000/4858229",
+      "weighted_cap_decimal": 250733.34336442355
+    },
+    {
+      "root_index": 680,
+      "weighted_cap": "1218120000000/6681067",
+      "weighted_cap_decimal": 182324.17067513318
+    },
+    {
+      "root_index": 681,
+      "weighted_cap": "4209075000000/7726939",
+      "weighted_cap_decimal": 544727.3493423463
+    },
+    {
+      "root_index": 682,
+      "weighted_cap": "6090600000000/67521197",
+      "weighted_cap_decimal": 90202.7847640201
+    },
+    {
+      "root_index": 683,
+      "weighted_cap": "3468620000000/112104561",
+      "weighted_cap_decimal": 30940.93557888336
+    },
+    {
+      "root_index": 684,
+      "weighted_cap": "867155000/4093",
+      "weighted_cap_decimal": 211862.93672123138
+    },
+    {
+      "root_index": 685,
+      "weighted_cap": "53597350000000/512549",
+      "weighted_cap_decimal": 104570197.19090272
+    },
+    {
+      "root_index": 686,
+      "weighted_cap": "107194700000000/32267519",
+      "weighted_cap_decimal": 3322062.040158712
+    },
+    {
+      "root_index": 687,
+      "weighted_cap": "17687950000000/33367683",
+      "weighted_cap_decimal": 530092.2452422003
+    },
+    {
+      "root_index": 688,
+      "weighted_cap": "7075180000000/6925147",
+      "weighted_cap_decimal": 1021664.9552709856
+    },
+    {
+      "root_index": 689,
+      "weighted_cap": "45163400000000/112708609",
+      "weighted_cap_decimal": 400709.40809854196
+    },
+    {
+      "root_index": 690,
+      "weighted_cap": "14150360000000/21348301",
+      "weighted_cap_decimal": 662833.0751004495
+    },
+    {
+      "root_index": 691,
+      "weighted_cap": "141503600000000/397037407",
+      "weighted_cap_decimal": 356398.660441584
+    },
+    {
+      "root_index": 692,
+      "weighted_cap": "35375900000000/242166199",
+      "weighted_cap_decimal": 146081.08045664954
+    },
+    {
+      "root_index": 693,
+      "weighted_cap": "16965475000000/15066001",
+      "weighted_cap_decimal": 1126076.8534397415
+    },
+    {
+      "root_index": 694,
+      "weighted_cap": "33930950000000/21167509",
+      "weighted_cap_decimal": 1602973.2171130765
+    },
+    {
+      "root_index": 695,
+      "weighted_cap": "8661640000000/50968331",
+      "weighted_cap_decimal": 169941.60550401386
+    },
+    {
+      "root_index": 696,
+      "weighted_cap": "10827050000000/45938877",
+      "weighted_cap_decimal": 235683.81961100182
+    },
+    {
+      "root_index": 697,
+      "weighted_cap": "1129085000/3823",
+      "weighted_cap_decimal": 295340.04708344233
+    },
+    {
+      "root_index": 698,
+      "weighted_cap": "491173450000000/1925775911",
+      "weighted_cap_decimal": 255052.23489110306
+    },
+    {
+      "root_index": 699,
+      "weighted_cap": "10015100000000/39425221",
+      "weighted_cap_decimal": 254027.74533591073
+    },
+    {
+      "root_index": 700,
+      "weighted_cap": "1548490000/66321",
+      "weighted_cap_decimal": 23348.411513698527
+    },
+    {
+      "root_index": 701,
+      "weighted_cap": "8671550000000/598181",
+      "weighted_cap_decimal": 14496531.986137975
+    },
+    {
+      "root_index": 702,
+      "weighted_cap": "69372400000000/84168931",
+      "weighted_cap_decimal": 824204.3611080198
+    },
+    {
+      "root_index": 703,
+      "weighted_cap": "129924600000000/528425519",
+      "weighted_cap_decimal": 245871.16883732483
+    },
+    {
+      "root_index": 704,
+      "weighted_cap": "66371600000000/645589353",
+      "weighted_cap_decimal": 102807.76733937247
+    },
+    {
+      "root_index": 705,
+      "weighted_cap": "90326800000000/3374841",
+      "weighted_cap_decimal": 26764757.213747256
+    },
+    {
+      "root_index": 706,
+      "weighted_cap": "67861900000000/10029647",
+      "weighted_cap_decimal": 6766130.453045855
+    },
+    {
+      "root_index": 707,
+      "weighted_cap": "1357238000000/508999",
+      "weighted_cap_decimal": 2666484.6099894107
+    },
+    {
+      "root_index": 708,
+      "weighted_cap": "33930950000000/23595629",
+      "weighted_cap_decimal": 1438018.4567234889
+    },
+    {
+      "root_index": 709,
+      "weighted_cap": "67861900000000/790711",
+      "weighted_cap_decimal": 85823897.73254703
+    },
+    {
+      "root_index": 710,
+      "weighted_cap": "18065360000000/84913",
+      "weighted_cap_decimal": 212751404.3785993
+    },
+    {
+      "root_index": 711,
+      "weighted_cap": "129924600000000/1359411161",
+      "weighted_cap_decimal": 95574.1748540786
+    },
+    {
+      "root_index": 712,
+      "weighted_cap": "32481150000000/26676343",
+      "weighted_cap_decimal": 1217601.3031471367
+    },
+    {
+      "root_index": 713,
+      "weighted_cap": "132743200000000/2441352787",
+      "weighted_cap_decimal": 54372.80539987767
+    },
+    {
+      "root_index": 714,
+      "weighted_cap": "7075180000/13669",
+      "weighted_cap_decimal": 517607.7255102787
+    },
+    {
+      "root_index": 715,
+      "weighted_cap": "2258170000/6273",
+      "weighted_cap_decimal": 359982.46453052765
+    },
+    {
+      "root_index": 716,
+      "weighted_cap": "16965475000000/8119431",
+      "weighted_cap_decimal": 2089490.630562659
+    },
+    {
+      "root_index": 717,
+      "weighted_cap": "32535200000000/3256951",
+      "weighted_cap_decimal": 9989465.607557498
+    },
+    {
+      "root_index": 718,
+      "weighted_cap": "21654100000000/2827363",
+      "weighted_cap_decimal": 7658761.892264984
+    },
+    {
+      "root_index": 719,
+      "weighted_cap": "8120287500000/10252057",
+      "weighted_cap_decimal": 792064.2169664098
+    },
+    {
+      "root_index": 720,
+      "weighted_cap": "21654100000000/18226677",
+      "weighted_cap_decimal": 1188044.3154832886
+    },
+    {
+      "root_index": 721,
+      "weighted_cap": "66371600000000/45783321",
+      "weighted_cap_decimal": 1449689.5059229103
+    },
+    {
+      "root_index": 722,
+      "weighted_cap": "1015035937500/2705603",
+      "weighted_cap_decimal": 375160.7081674584
+    },
+    {
+      "root_index": 723,
+      "weighted_cap": "66371600000000/437007747",
+      "weighted_cap_decimal": 151877.39909791577
+    },
+    {
+      "root_index": 724,
+      "weighted_cap": "5282950000000/780409",
+      "weighted_cap_decimal": 6769463.19173664
+    },
+    {
+      "root_index": 725,
+      "weighted_cap": "71209675000000/94695081",
+      "weighted_cap_decimal": 751989.1661532029
+    },
+    {
+      "root_index": 726,
+      "weighted_cap": "90326800000000/994458781",
+      "weighted_cap_decimal": 90830.10952869247
+    },
+    {
+      "root_index": 727,
+      "weighted_cap": "252685000000/5668561",
+      "weighted_cap_decimal": 44576.56890346597
+    },
+    {
+      "root_index": 728,
+      "weighted_cap": "2258170000/6249",
+      "weighted_cap_decimal": 361365.0184029445
+    },
+    {
+      "root_index": 729,
+      "weighted_cap": "1548490000/66321",
+      "weighted_cap_decimal": 23348.411513698527
+    },
+    {
+      "root_index": 730,
+      "weighted_cap": "103212475000000/1684005943",
+      "weighted_cap_decimal": 61289.851991929696
+    },
+    {
+      "root_index": 731,
+      "weighted_cap": "103212475000000/1855237193",
+      "weighted_cap_decimal": 55633.03462728714
+    },
+    {
+      "root_index": 732,
+      "weighted_cap": "412849900000000/6127737751",
+      "weighted_cap_decimal": 67373.95051422135
+    },
+    {
+      "root_index": 733,
+      "weighted_cap": "412849900000000/8342065007",
+      "weighted_cap_decimal": 49490.13219791132
+    },
+    {
+      "root_index": 734,
+      "weighted_cap": "3468620000000/99721269",
+      "weighted_cap_decimal": 34783.15142580065
+    },
+    {
+      "root_index": 735,
+      "weighted_cap": "6937240000/32861",
+      "weighted_cap_decimal": 211108.6089893795
+    },
+    {
+      "root_index": 736,
+      "weighted_cap": "34686200000000/243446979",
+      "weighted_cap_decimal": 142479.48420834582
+    },
+    {
+      "root_index": 737,
+      "weighted_cap": "34686200000000/312446979",
+      "weighted_cap_decimal": 111014.67554915934
+    },
+    {
+      "root_index": 738,
+      "weighted_cap": "34686200000000/341846979",
+      "weighted_cap_decimal": 101467.03680537718
+    },
+    {
+      "root_index": 739,
+      "weighted_cap": "34686200000000/317198839",
+      "weighted_cap_decimal": 109351.59822574256
+    },
+    {
+      "root_index": 740,
+      "weighted_cap": "3468620000/6309",
+      "weighted_cap_decimal": 549789.1900459661
+    },
+    {
+      "root_index": 741,
+      "weighted_cap": "25318300000000/4502849",
+      "weighted_cap_decimal": 5622729.076635703
+    },
+    {
+      "root_index": 742,
+      "weighted_cap": "11415750000000/11480533",
+      "weighted_cap_decimal": 994357.1435228661
+    },
+    {
+      "root_index": 743,
+      "weighted_cap": "25318300000000/89751497",
+      "weighted_cap_decimal": 282093.3449165756
+    },
+    {
+      "root_index": 744,
+      "weighted_cap": "25318300000000/8485973",
+      "weighted_cap_decimal": 2983547.0841116277
+    },
+    {
+      "root_index": 745,
+      "weighted_cap": "25318300000000/42175493",
+      "weighted_cap_decimal": 600308.335459173
+    },
+    {
+      "root_index": 746,
+      "weighted_cap": "5063660000000/6193477",
+      "weighted_cap_decimal": 817579.5276223678
+    },
+    {
+      "root_index": 747,
+      "weighted_cap": "1808450000000/8678179",
+      "weighted_cap_decimal": 208390.49298245634
+    },
+    {
+      "root_index": 748,
+      "weighted_cap": "1265915000/11",
+      "weighted_cap_decimal": 115083181.81818181
+    },
+    {
+      "root_index": 749,
+      "weighted_cap": "144790000/1427",
+      "weighted_cap_decimal": 101464.6110721794
+    },
+    {
+      "root_index": 750,
+      "weighted_cap": "1303110000/14887",
+      "weighted_cap_decimal": 87533.41841875462
+    },
+    {
+      "root_index": 751,
+      "weighted_cap": "951312500000/18109459",
+      "weighted_cap_decimal": 52531.24900086745
+    },
+    {
+      "root_index": 752,
+      "weighted_cap": "22964200000000/183879",
+      "weighted_cap_decimal": 124887561.92931221
+    },
+    {
+      "root_index": 753,
+      "weighted_cap": "5741050000000/8343",
+      "weighted_cap_decimal": 688127771.7847297
+    },
+    {
+      "root_index": 754,
+      "weighted_cap": "1582393750000/2357979",
+      "weighted_cap_decimal": 671080.5100469512
+    },
+    {
+      "root_index": 755,
+      "weighted_cap": "1582393750000/5639229",
+      "weighted_cap_decimal": 280604.62698003574
+    },
+    {
+      "root_index": 756,
+      "weighted_cap": "6329575000000/16815461",
+      "weighted_cap_decimal": 376414.00375523453
+    },
+    {
+      "root_index": 757,
+      "weighted_cap": "2531830000000/2090309",
+      "weighted_cap_decimal": 1211222.8383459097
+    },
+    {
+      "root_index": 758,
+      "weighted_cap": "723380000000/9890549",
+      "weighted_cap_decimal": 73138.50828705262
+    },
+    {
+      "root_index": 759,
+      "weighted_cap": "2531830000/8641",
+      "weighted_cap_decimal": 293001.96736488835
+    },
+    {
+      "root_index": 760,
+      "weighted_cap": "359764650000000/1074956887",
+      "weighted_cap_decimal": 334678.2130063231
+    },
+    {
+      "root_index": 761,
+      "weighted_cap": "359764650000000/1906356887",
+      "weighted_cap_decimal": 188718.41492709963
+    },
+    {
+      "root_index": 762,
+      "weighted_cap": "1902625000000/21660071",
+      "weighted_cap_decimal": 87840.20144716978
+    },
+    {
+      "root_index": 763,
+      "weighted_cap": "12818762500000/269900821",
+      "weighted_cap_decimal": 47494.34422802293
+    },
+    {
+      "root_index": 764,
+      "weighted_cap": "20030200000000/3235507",
+      "weighted_cap_decimal": 6190745.376226972
+    },
+    {
+      "root_index": 765,
+      "weighted_cap": "24577700000000/187905507",
+      "weighted_cap_decimal": 130798.18890033914
+    },
+    {
+      "root_index": 766,
+      "weighted_cap": "25318300000000/221307381",
+      "weighted_cap_decimal": 114403.32394516928
+    },
+    {
+      "root_index": 767,
+      "weighted_cap": "12659150000000/153931179",
+      "weighted_cap_decimal": 82239.02449288717
+    },
+    {
+      "root_index": 768,
+      "weighted_cap": "5707875000000/7244531",
+      "weighted_cap_decimal": 787887.4422650686
+    },
+    {
+      "root_index": 769,
+      "weighted_cap": "5707875000000/7244531",
+      "weighted_cap_decimal": 787887.4422650686
+    },
+    {
+      "root_index": 770,
+      "weighted_cap": "5707875000000/6376811",
+      "weighted_cap_decimal": 895098.6629523754
+    },
+    {
+      "root_index": 771,
+      "weighted_cap": "11415750000000/5431637",
+      "weighted_cap_decimal": 2101714.4555131355
+    },
+    {
+      "root_index": 772,
+      "weighted_cap": "22831500000000/44314831",
+      "weighted_cap_decimal": 515211.2618910811
+    },
+    {
+      "root_index": 773,
+      "weighted_cap": "5063660000000/78037937",
+      "weighted_cap_decimal": 64887.15866489397
+    },
+    {
+      "root_index": 774,
+      "weighted_cap": "651555000/11219",
+      "weighted_cap_decimal": 58076.03173188341
+    },
+    {
+      "root_index": 775,
+      "weighted_cap": "289580000/5451",
+      "weighted_cap_decimal": 53124.1973949734
+    },
+    {
+      "root_index": 776,
+      "weighted_cap": "253183000/2083",
+      "weighted_cap_decimal": 121547.28756601056
+    },
+    {
+      "root_index": 777,
+      "weighted_cap": "632957500/4187",
+      "weighted_cap_decimal": 151172.08024838788
+    },
+    {
+      "root_index": 778,
+      "weighted_cap": "7826925000000/2508523",
+      "weighted_cap_decimal": 3120132.843111265
+    },
+    {
+      "root_index": 779,
+      "weighted_cap": "12523080000000/32043073",
+      "weighted_cap_decimal": 390820.19380600605
+    },
+    {
+      "root_index": 780,
+      "weighted_cap": "99075000000/277687",
+      "weighted_cap_decimal": 356786.5978601807
+    },
+    {
+      "root_index": 781,
+      "weighted_cap": "1251887500000/1806559",
+      "weighted_cap_decimal": 692967.9573155375
+    },
+    {
+      "root_index": 782,
+      "weighted_cap": "3616900000000/3696951",
+      "weighted_cap_decimal": 978346.751147094
+    },
+    {
+      "root_index": 783,
+      "weighted_cap": "4756562500/7769",
+      "weighted_cap_decimal": 612249.0024456172
+    },
+    {
+      "root_index": 784,
+      "weighted_cap": "1582393750000/6126861",
+      "weighted_cap_decimal": 258271.52762238283
+    },
+    {
+      "root_index": 785,
+      "weighted_cap": "2531830000000/14458837",
+      "weighted_cap_decimal": 175106.06143495496
+    },
+    {
+      "root_index": 786,
+      "weighted_cap": "791196875000/4662493",
+      "weighted_cap_decimal": 169693.95450030704
+    },
+    {
+      "root_index": 787,
+      "weighted_cap": "26062200000000/59478937",
+      "weighted_cap_decimal": 438175.28211709636
+    },
+    {
+      "root_index": 788,
+      "weighted_cap": "51008550000000/356233547",
+      "weighted_cap_decimal": 143188.5077347867
+    },
+    {
+      "root_index": 789,
+      "weighted_cap": "2531830000/13987",
+      "weighted_cap_decimal": 181013.0835776078
+    },
+    {
+      "root_index": 790,
+      "weighted_cap": "48070359375000/96792737",
+      "weighted_cap_decimal": 496631.8844253779
+    },
+    {
+      "root_index": 791,
+      "weighted_cap": "32046906250000/154743283",
+      "weighted_cap_decimal": 207097.23633044545
+    },
+    {
+      "root_index": 792,
+      "weighted_cap": "50636600000000/494122051",
+      "weighted_cap_decimal": 102477.91997447205
+    },
+    {
+      "root_index": 793,
+      "weighted_cap": "12659150000000/218675823",
+      "weighted_cap_decimal": 57890.03021152457
+    },
+    {
+      "root_index": 794,
+      "weighted_cap": "982346900000000/136077383",
+      "weighted_cap_decimal": 7219031.394805704
+    },
+    {
+      "root_index": 795,
+      "weighted_cap": "10015100000000/23406439",
+      "weighted_cap_decimal": 427877.98690779065
+    },
+    {
+      "root_index": 796,
+      "weighted_cap": "1548490000/57431",
+      "weighted_cap_decimal": 26962.61600877575
+    },
+    {
+      "root_index": 797,
+      "weighted_cap": "506366000000/1200977",
+      "weighted_cap_decimal": 421628.3908850877
+    },
+    {
+      "root_index": 798,
+      "weighted_cap": "12659150000000/70629723",
+      "weighted_cap_decimal": 179232.61570769575
+    },
+    {
+      "root_index": 799,
+      "weighted_cap": "365304000000/552649",
+      "weighted_cap_decimal": 661005.4483044392
+    },
+    {
+      "root_index": 800,
+      "weighted_cap": "4566300000000/5400901",
+      "weighted_cap_decimal": 845470.0428687732
+    },
+    {
+      "root_index": 801,
+      "weighted_cap": "22831500000000/138699397",
+      "weighted_cap_decimal": 164611.38616197446
+    },
+    {
+      "root_index": 802,
+      "weighted_cap": "3072000000000/1702921",
+      "weighted_cap_decimal": 1803959.1971676901
+    },
+    {
+      "root_index": 803,
+      "weighted_cap": "45663000000000/66938981",
+      "weighted_cap_decimal": 682158.5766296622
+    },
+    {
+      "root_index": 804,
+      "weighted_cap": "2531830000/1291",
+      "weighted_cap_decimal": 1961138.652207591
+    },
+    {
+      "root_index": 805,
+      "weighted_cap": "12659150000000/254674383",
+      "weighted_cap_decimal": 49707.19807339241
+    },
+    {
+      "root_index": 806,
+      "weighted_cap": "158239375/97",
+      "weighted_cap_decimal": 1631333.762886598
+    },
+    {
+      "root_index": 807,
+      "weighted_cap": "2531830000/57567",
+      "weighted_cap_decimal": 43980.57915124985
+    },
+    {
+      "root_index": 808,
+      "weighted_cap": "856596800000000/2017136151",
+      "weighted_cap_decimal": 424659.882068615
+    },
+    {
+      "root_index": 809,
+      "weighted_cap": "105737500000/3092081",
+      "weighted_cap_decimal": 34196.225778043976
+    },
+    {
+      "root_index": 810,
+      "weighted_cap": "12659150000000/24970997",
+      "weighted_cap_decimal": 506954.12762253743
+    },
+    {
+      "root_index": 811,
+      "weighted_cap": "12659150000000/27466197",
+      "weighted_cap_decimal": 460899.2646488336
+    },
+    {
+      "root_index": 812,
+      "weighted_cap": "3616900000000/11390437",
+      "weighted_cap_decimal": 317538.29989139136
+    },
+    {
+      "root_index": 813,
+      "weighted_cap": "12659150000000/14998421",
+      "weighted_cap_decimal": 844032.1817876695
+    },
+    {
+      "root_index": 814,
+      "weighted_cap": "3164787500000/20603381",
+      "weighted_cap_decimal": 153605.2505168933
+    },
+    {
+      "root_index": 815,
+      "weighted_cap": "2531830000/10417",
+      "weighted_cap_decimal": 243047.90246712105
+    },
+    {
+      "root_index": 816,
+      "weighted_cap": "768000000000/5835757",
+      "weighted_cap_decimal": 131602.46391342202
+    },
+    {
+      "root_index": 817,
+      "weighted_cap": "256000000000/2645669",
+      "weighted_cap_decimal": 96761.91541723473
+    },
+    {
+      "root_index": 818,
+      "weighted_cap": "361690000/5367",
+      "weighted_cap_decimal": 67391.46636854854
+    },
+    {
+      "root_index": 819,
+      "weighted_cap": "1548490000/57431",
+      "weighted_cap_decimal": 26962.61600877575
+    },
+    {
+      "root_index": 820,
+      "weighted_cap": "3258975000000/22348517",
+      "weighted_cap_decimal": 145825.11224346564
+    },
+    {
+      "root_index": 821,
+      "weighted_cap": "406040000000/1163689",
+      "weighted_cap_decimal": 348924.8416028681
+    },
+    {
+      "root_index": 822,
+      "weighted_cap": "1218120000000/2202229",
+      "weighted_cap_decimal": 553130.4873380561
+    },
+    {
+      "root_index": 823,
+      "weighted_cap": "62615400000000/24093893",
+      "weighted_cap_decimal": 2598807.9219908547
+    },
+    {
+      "root_index": 824,
+      "weighted_cap": "5515850000000/534409",
+      "weighted_cap_decimal": 10321401.772799484
+    },
+    {
+      "root_index": 825,
+      "weighted_cap": "172370312500/86261",
+      "weighted_cap_decimal": 1998241.5286166403
+    },
+    {
+      "root_index": 826,
+      "weighted_cap": "433925000000/17968923",
+      "weighted_cap_decimal": 24148.63706633948
+    },
+    {
+      "root_index": 827,
+      "weighted_cap": "28307800000000/1111348083",
+      "weighted_cap_decimal": 25471.587554805727
+    },
+    {
+      "root_index": 828,
+      "weighted_cap": "2653856250000/136728083",
+      "weighted_cap_decimal": 19409.737866360636
+    },
+    {
+      "root_index": 829,
+      "weighted_cap": "33919000000000/435372953",
+      "weighted_cap_decimal": 77907.91726099714
+    },
+    {
+      "root_index": 830,
+      "weighted_cap": "433925000000/6796907",
+      "weighted_cap_decimal": 63841.538511561215
+    },
+    {
+      "root_index": 831,
+      "weighted_cap": "173431000000/978233",
+      "weighted_cap_decimal": 177290.07301941357
+    },
+    {
+      "root_index": 832,
+      "weighted_cap": "173431000000/965983",
+      "weighted_cap_decimal": 179538.35626506884
+    },
+    {
+      "root_index": 833,
+      "weighted_cap": "173431000000/1360033",
+      "weighted_cap_decimal": 127519.69988963503
+    },
+    {
+      "root_index": 834,
+      "weighted_cap": "173431000000/862783",
+      "weighted_cap_decimal": 201013.46456756798
+    },
+    {
+      "root_index": 835,
+      "weighted_cap": "3468620000/3031",
+      "weighted_cap_decimal": 1144381.3922797756
+    },
+    {
+      "root_index": 836,
+      "weighted_cap": "3471400000000/13874551",
+      "weighted_cap_decimal": 250199.0875236251
+    },
+    {
+      "root_index": 837,
+      "weighted_cap": "867850000000/1414099",
+      "weighted_cap_decimal": 613712.3355578358
+    },
+    {
+      "root_index": 838,
+      "weighted_cap": "19888600000000/603200269",
+      "weighted_cap_decimal": 32971.802272190296
+    },
+    {
+      "root_index": 839,
+      "weighted_cap": "346643500000/364103",
+      "weighted_cap_decimal": 952047.9095201084
+    },
+    {
+      "root_index": 840,
+      "weighted_cap": "8666087500000/16761873",
+      "weighted_cap_decimal": 517011.88166740077
+    },
+    {
+      "root_index": 841,
+      "weighted_cap": "3466435000000/12882991",
+      "weighted_cap_decimal": 269070.66844958597
+    },
+    {
+      "root_index": 842,
+      "weighted_cap": "4751219500000000/12228445251",
+      "weighted_cap_decimal": 388538.31394563115
+    },
+    {
+      "root_index": 843,
+      "weighted_cap": "529984375000/6648979",
+      "weighted_cap_decimal": 79709.13654562602
+    },
+    {
+      "root_index": 844,
+      "weighted_cap": "69372400000000/125417881",
+      "weighted_cap_decimal": 553130.0596603127
+    },
+    {
+      "root_index": 845,
+      "weighted_cap": "867155000000/225507",
+      "weighted_cap_decimal": 3845357.350326154
+    },
+    {
+      "root_index": 846,
+      "weighted_cap": "4954000000000/1900391",
+      "weighted_cap_decimal": 2606831.9624750908
+    },
+    {
+      "root_index": 847,
+      "weighted_cap": "8777480000000/126635569",
+      "weighted_cap_decimal": 69312.91160384804
+    },
+    {
+      "root_index": 848,
+      "weighted_cap": "768507600000000/8788756309",
+      "weighted_cap_decimal": 87442.13321889706
+    },
+    {
+      "root_index": 849,
+      "weighted_cap": "768507600000000/10157737949",
+      "weighted_cap_decimal": 75657.35637782006
+    },
+    {
+      "root_index": 850,
+      "weighted_cap": "768507600000000/10161436309",
+      "weighted_cap_decimal": 75629.82009928377
+    },
+    {
+      "root_index": 851,
+      "weighted_cap": "20207700000000/558997147",
+      "weighted_cap_decimal": 36149.916164062284
+    },
+    {
+      "root_index": 852,
+      "weighted_cap": "1378962500000/2343689",
+      "weighted_cap_decimal": 588372.6467120851
+    },
+    {
+      "root_index": 853,
+      "weighted_cap": "1117900000/991",
+      "weighted_cap_decimal": 1128052.4722502523
+    },
+    {
+      "root_index": 854,
+      "weighted_cap": "127926250/991",
+      "weighted_cap_decimal": 129088.0423814329
+    },
+    {
+      "root_index": 855,
+      "weighted_cap": "2385075000000/31801193",
+      "weighted_cap_decimal": 74999.54482839684
+    },
+    {
+      "root_index": 856,
+      "weighted_cap": "867850000000/20083339",
+      "weighted_cap_decimal": 43212.43594005957
+    },
+    {
+      "root_index": 857,
+      "weighted_cap": "1733217500000/2555681",
+      "weighted_cap_decimal": 678182.2535754658
+    },
+    {
+      "root_index": 858,
+      "weighted_cap": "69328700000/190511",
+      "weighted_cap_decimal": 363909.170599073
+    },
+    {
+      "root_index": 859,
+      "weighted_cap": "1733217500000/6049681",
+      "weighted_cap_decimal": 286497.33762821543
+    },
+    {
+      "root_index": 860,
+      "weighted_cap": "17332175000000/27748103",
+      "weighted_cap_decimal": 624625.5825127937
+    },
+    {
+      "root_index": 861,
+      "weighted_cap": "279483500000000/870615603",
+      "weighted_cap_decimal": 321018.2531038328
+    },
+    {
+      "root_index": 862,
+      "weighted_cap": "34686200000000/27156343",
+      "weighted_cap_decimal": 1277278.0193562882
+    },
+    {
+      "root_index": 863,
+      "weighted_cap": "13874480000000/11876943",
+      "weighted_cap_decimal": 1168186.1233147283
+    },
+    {
+      "root_index": 864,
+      "weighted_cap": "34678000000000/60293511",
+      "weighted_cap_decimal": 575153.103955084
+    },
+    {
+      "root_index": 865,
+      "weighted_cap": "154812500000/162909",
+      "weighted_cap_decimal": 950300.4744980326
+    },
+    {
+      "root_index": 866,
+      "weighted_cap": "2206340000000/20251987",
+      "weighted_cap_decimal": 108944.37173004309
+    },
+    {
+      "root_index": 867,
+      "weighted_cap": "11031700000000/123077337",
+      "weighted_cap_decimal": 89632.26105550204
+    },
+    {
+      "root_index": 868,
+      "weighted_cap": "384253800000000/4295328829",
+      "weighted_cap_decimal": 89458.52932276166
+    },
+    {
+      "root_index": 869,
+      "weighted_cap": "2525962500000/69314111",
+      "weighted_cap_decimal": 36442.25488227065
+    },
+    {
+      "root_index": 870,
+      "weighted_cap": "1103170000000/4064369",
+      "weighted_cap_decimal": 271424.66641193256
+    },
+    {
+      "root_index": 871,
+      "weighted_cap": "1103170000000/1662757",
+      "weighted_cap_decimal": 663458.3405753216
+    },
+    {
+      "root_index": 872,
+      "weighted_cap": "11031700000000/6740629",
+      "weighted_cap_decimal": 1636598.00888018
+    },
+    {
+      "root_index": 873,
+      "weighted_cap": "3471400000000/137268673",
+      "weighted_cap_decimal": 25289.091269936005
+    },
+    {
+      "root_index": 874,
+      "weighted_cap": "867850000000/39036119",
+      "weighted_cap_decimal": 22231.974443975847
+    },
+    {
+      "root_index": 875,
+      "weighted_cap": "3471400000000/242728901",
+      "weighted_cap_decimal": 14301.552001835991
+    },
+    {
+      "root_index": 876,
+      "weighted_cap": "6783800000000/87260939",
+      "weighted_cap_decimal": 77741.5425245424
+    },
+    {
+      "root_index": 877,
+      "weighted_cap": "433925000000/9024407",
+      "weighted_cap_decimal": 48083.49180173279
+    },
+    {
+      "root_index": 878,
+      "weighted_cap": "433577500000/9405893",
+      "weighted_cap_decimal": 46096.36745814565
+    },
+    {
+      "root_index": 879,
+      "weighted_cap": "2046820000/15919",
+      "weighted_cap_decimal": 128577.17193291037
+    },
+    {
+      "root_index": 880,
+      "weighted_cap": "13874480000000/114674199",
+      "weighted_cap_decimal": 120990.42435866503
+    },
+    {
+      "root_index": 881,
+      "weighted_cap": "13874480000000/140986377",
+      "weighted_cap_decimal": 98410.07546424148
+    },
+    {
+      "root_index": 882,
+      "weighted_cap": "13874480000000/145618199",
+      "weighted_cap_decimal": 95279.84891503843
+    },
+    {
+      "root_index": 883,
+      "weighted_cap": "1734310000000/17442133",
+      "weighted_cap_decimal": 99432.21967175689
+    },
+    {
+      "root_index": 884,
+      "weighted_cap": "3468620000/8971",
+      "weighted_cap_decimal": 386648.0882844722
+    },
+    {
+      "root_index": 885,
+      "weighted_cap": "18841200000000/121776161",
+      "weighted_cap_decimal": 154719.9373447156
+    },
+    {
+      "root_index": 886,
+      "weighted_cap": "56075000000/687533",
+      "weighted_cap_decimal": 81559.7214970045
+    },
+    {
+      "root_index": 887,
+      "weighted_cap": "6937240000000/1061327",
+      "weighted_cap_decimal": 6536383.2259049285
+    },
+    {
+      "root_index": 888,
+      "weighted_cap": "56353213750000/80922413",
+      "weighted_cap_decimal": 696385.7312312226
+    },
+    {
+      "root_index": 889,
+      "weighted_cap": "3588800000/72587",
+      "weighted_cap_decimal": 49441.36002314464
+    },
+    {
+      "root_index": 890,
+      "weighted_cap": "75364800000/1708327",
+      "weighted_cap_decimal": 44116.144040338884
+    },
+    {
+      "root_index": 891,
+      "weighted_cap": "3466435000000/56458991",
+      "weighted_cap_decimal": 61397.395500744955
+    },
+    {
+      "root_index": 892,
+      "weighted_cap": "35397250000000/327045809",
+      "weighted_cap_decimal": 108233.30868612354
+    },
+    {
+      "root_index": 893,
+      "weighted_cap": "136674081250000/446822547",
+      "weighted_cap_decimal": 305880.0012838206
+    },
+    {
+      "root_index": 894,
+      "weighted_cap": "27334816250000/124554609",
+      "weighted_cap_decimal": 219460.4958376129
+    },
+    {
+      "root_index": 895,
+      "weighted_cap": "68337040625000/311979711",
+      "weighted_cap_decimal": 219043.22049006578
+    },
+    {
+      "root_index": 896,
+      "weighted_cap": "87563150000000/443902641",
+      "weighted_cap_decimal": 197257.5558522077
+    },
+    {
+      "root_index": 897,
+      "weighted_cap": "175126300000000/295152819",
+      "weighted_cap_decimal": 593341.1057815443
+    },
+    {
+      "root_index": 898,
+      "weighted_cap": "175126300000000/85131987",
+      "weighted_cap_decimal": 2057115.1475649218
+    },
+    {
+      "root_index": 899,
+      "weighted_cap": "1733217500000/26095431",
+      "weighted_cap_decimal": 66418.427808301
+    },
+    {
+      "root_index": 900,
+      "weighted_cap": "125608000000/2511837",
+      "weighted_cap_decimal": 50006.42955733195
+    },
+    {
+      "root_index": 901,
+      "weighted_cap": "33645000000/169069",
+      "weighted_cap_decimal": 199001.59106636935
+    },
+    {
+      "root_index": 902,
+      "weighted_cap": "1751263000000/9688641",
+      "weighted_cap_decimal": 180754.24613214587
+    },
+    {
+      "root_index": 903,
+      "weighted_cap": "43781575000000/242343081",
+      "weighted_cap_decimal": 180659.48002039306
+    },
+    {
+      "root_index": 904,
+      "weighted_cap": "136674081250000/428090919",
+      "weighted_cap_decimal": 319264.1450308363
+    },
+    {
+      "root_index": 905,
+      "weighted_cap": "1177575000000/189821",
+      "weighted_cap_decimal": 6203607.609274
+    },
+    {
+      "root_index": 906,
+      "weighted_cap": "53832000000/349481",
+      "weighted_cap_decimal": 154034.12488804827
+    },
+    {
+      "root_index": 907,
+      "weighted_cap": "3670450000000/84322643",
+      "weighted_cap_decimal": 43528.64034397024
+    },
+    {
+      "root_index": 908,
+      "weighted_cap": "248375000000/156351",
+      "weighted_cap_decimal": 1588573.1463182198
+    },
+    {
+      "root_index": 909,
+      "weighted_cap": "22850500000000/309429309",
+      "weighted_cap_decimal": 73847.23856265342
+    },
+    {
+      "root_index": 910,
+      "weighted_cap": "35397250000000/595205809",
+      "weighted_cap_decimal": 59470.60573798936
+    },
+    {
+      "root_index": 911,
+      "weighted_cap": "2302357500000/36681319",
+      "weighted_cap_decimal": 62766.48612335887
+    },
+    {
+      "root_index": 912,
+      "weighted_cap": "9140200000000/279144347",
+      "weighted_cap_decimal": 32743.632813026303
+    },
+    {
+      "root_index": 913,
+      "weighted_cap": "529984375000/6241723",
+      "weighted_cap_decimal": 84909.94794225889
+    },
+    {
+      "root_index": 914,
+      "weighted_cap": "173675000000/3496991",
+      "weighted_cap_decimal": 49664.12552963391
+    },
+    {
+      "root_index": 915,
+      "weighted_cap": "48867500000/3065033",
+      "weighted_cap_decimal": 15943.547752993198
+    },
+    {
+      "root_index": 916,
+      "weighted_cap": "82408063750000/1786076603",
+      "weighted_cap_decimal": 46139.154172661205
+    }
+  ],
+  "input_files": [
+    "erdos_699_index_9_effective.json.gz",
+    "erdos_699_index_9_baseline.json",
+    "erdos_699_nine_polynomial_cuts.json",
+    "erdos_699_nine_cofactor_clauses.json.gz"
+  ],
+  "ranks_recomputed": false,
+  "basepoint_polynomials_actually_used_by_farkas": [
+    "baseline_0",
+    "baseline_10",
+    "baseline_13",
+    "baseline_14",
+    "baseline_15",
+    "baseline_16",
+    "baseline_20",
+    "baseline_21",
+    "baseline_22",
+    "baseline_23",
+    "baseline_25",
+    "baseline_26",
+    "baseline_27",
+    "baseline_28",
+    "baseline_29",
+    "baseline_3",
+    "baseline_30",
+    "baseline_34",
+    "baseline_36",
+    "baseline_37",
+    "baseline_39",
+    "baseline_4",
+    "baseline_40",
+    "baseline_41",
+    "baseline_43",
+    "baseline_44",
+    "baseline_45",
+    "baseline_46",
+    "baseline_48",
+    "baseline_49",
+    "baseline_5",
+    "baseline_50",
+    "baseline_52",
+    "baseline_54",
+    "baseline_56",
+    "baseline_57",
+    "baseline_58",
+    "baseline_59",
+    "baseline_64",
+    "baseline_65",
+    "baseline_68",
+    "baseline_69",
+    "baseline_7",
+    "coprime_000",
+    "coprime_001",
+    "coprime_002",
+    "coprime_003",
+    "coprime_004",
+    "gap_000",
+    "gap_002",
+    "gap_008",
+    "gap_009",
+    "gap_010",
+    "gap_011",
+    "gap_012",
+    "gap_013",
+    "gap_014",
+    "gap_015",
+    "gap_016",
+    "gap_020",
+    "gap_021",
+    "gap_022",
+    "gap_023",
+    "gap_024",
+    "gap_028",
+    "gap_033",
+    "poly_000",
+    "poly_001",
+    "poly_002",
+    "poly_004",
+    "poly_005",
+    "poly_007",
+    "poly_009",
+    "poly_015",
+    "poly_017",
+    "poly_019",
+    "poly_021",
+    "poly_023",
+    "poly_025",
+    "poly_027",
+    "poly_029",
+    "poly_031",
+    "poly_039",
+    "poly_041",
+    "round2_000",
+    "round2_001",
+    "round2_002",
+    "round2_003",
+    "round2_004",
+    "round2_005",
+    "round2_006",
+    "round2_007",
+    "round2_008",
+    "round2_010",
+    "round2_011",
+    "round2_012",
+    "round2_013",
+    "round3_000",
+    "round3_001",
+    "round3_002",
+    "round3_003"
+  ]
+}

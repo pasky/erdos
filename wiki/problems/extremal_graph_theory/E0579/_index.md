@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:13:56Z
 ---
 
 # Problem 579
@@ -66,7 +66,7 @@ and Staden.
 
 The status-defining source is a Lean proof accepted by the bounty site
 Conjectures.io (record `e4934265-aa96-4bf5-a3c0-d01153dfcfaa`, task type
-disprove). The erdosproblems.com Lean kernel verified the proof on 3 October
+disprove). The Conjectures.io Lean kernel verified the proof on 3 October
 2026, its review approved the record, and it certified the record on 6 October
 2026 under its policy v3. The formal statement Conjectures.io attacked is the
 formal-conjectures statement `Erdos579.erdos_579`, quoted under Formalization

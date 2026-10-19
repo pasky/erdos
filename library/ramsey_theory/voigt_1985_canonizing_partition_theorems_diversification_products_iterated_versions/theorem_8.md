@@ -8,7 +8,7 @@ desc: |
   diversification property, then the products of their attribute functions
   form a canonizing set for the product category.
 created: 2026-10-08T17:23:39Z
-updated: 2026-10-08T17:23:39Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -114,5 +114,5 @@ remark on a $q$-analogue of Rado's product theorem (p. 370), and
 
 ## Bears on
 
-No Erdős problem directly. The source card records how the paper bears on
-Problem 774.
+No Erdős problem directly. The source card records the corpus's use of the
+paper for Problem 774.

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-14T15:30:27Z
 ---
 
 # Problem 1107
@@ -47,10 +47,25 @@ theorem that every large integer is a sum of at most three 2-powerful numbers,
 an accepted partial claim on
 [[problems/diophantine_problems/E1107/claims/1988_01_01_heath_brown|its claim page]],
 credited by the erdosproblems.com curator on
-[[problems/diophantine_problems/E0941/_index|Problem 941]].
+[[problems/diophantine_problems/E0941/_index|Problem 941]]. The notes below
+record author-recorded transfers from research folders and are not
+independently reviewed.
 
 ## Progress
 
-At $r=2$ the question coincides with
+The [[research/erdos_939/connections|Problem 939 connections page]] records that
+the binomial construction of Problem 939 bears on no case of this question,
+because the totals of any identity of its transfer lemma's kind are $r$-powerful
+integers, which have density zero; at $r=2$ the question coincides with
 [[problems/diophantine_problems/E0941/_index|Problem 941]], answered by
 [[problems/diophantine_problems/E1107/claims/1988_01_01_heath_brown|Heath-Brown's theorem]].
+
+## Route analysis
+
+The
+[[research/diophantine_representation_interfaces/local_congruences|congruence
+coverage and lifting obstructions]] account records the following scope. Every
+residue modulo any fixed M is a sum of at most three units (two for an even
+target modulo even M, three for odd). Raising those unit representatives to
+suitable powers preserves their residues and makes them $r$-powerful. This
+rules out a fixed-modulus obstruction, but gives no global size control.

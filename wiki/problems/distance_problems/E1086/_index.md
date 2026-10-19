@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1086
@@ -49,13 +49,19 @@ https://www.erdosproblems.com/1086.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/geometric_configuration_interfaces/areas_and_tilings|Area
+constraints and congruent tilings]] account records the following scope. Scaling
+reduces a fixed positive area to area one, but parallel rich lines show why an
+unweighted incidence count loses the pair multiplicities needed for a triangle
+bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

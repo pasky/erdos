@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 222
@@ -43,13 +43,15 @@ https://www.erdosproblems.com/222.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/density_quantifiers|rounding argument]]
+produces a sum of two squares in $[X,X+O(X^{1/4})]$: take
+$a=\lfloor\sqrt X\rfloor$ and $b=\lceil\sqrt{X-a^2}\rceil$.
+This elementary author-recorded bound leaves the much smaller lower-bound
+scale far away. It neither determines the gap order nor supplies a new
+examination of the best source bounds.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

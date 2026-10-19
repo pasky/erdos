@@ -5,7 +5,7 @@ desc: |
   A focused E0774 digest of the complete paper.
 license: unstated
 created: 2026-09-18T02:43:17Z
-updated: 2026-10-08T16:18:49Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Minimum partition of a matroid into independent subsets
@@ -44,6 +44,18 @@ subset \(A\) has rank at least \(|A|/k\) (equivalently
 \(|A|\le k r(A)\)).  This is the exact
 matroid analogue of the implication asked about in E0774.
 See [[additive_combinatorics/edmonds_1965_minimum_partition_matroid_into_independent_subsets/theorem_1|Theorem 1]].
+
+This paragraph is the corpus's own reading, not the paper's. The theorem
+sharply identifies what must fail in any counterexample strategy. If
+dissociated subsets were the independent sets of a matroid, proportional
+extraction would partition every finite subset into boundedly many dissociated
+sets, and since dissociation is a property of finite subsets, a compactness
+argument would extend this to a finite coloring of the whole infinite set.
+Therefore a successful construction must exploit non-matroidal behavior of
+signed relations—most concretely, a failure of circuit elimination—or use an
+encoding for which ordinary linear/matroid rank does not control dissociated
+rank. Conversely, a positive proof could try to recover enough submodularity or
+an approximate partition theorem from the special additive circuit system.
 
 
 **Bears on.**

@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 290
@@ -42,12 +42,12 @@ where an exact inequality is quoted, its convention is named. The
 formal-conjectures statement uses the erdosproblems.com convention.
 
 **Status.** The erdosproblems.com label was PROVED (LEAN), and the Lean suffix
-is a catalog label explained under Formalization. For every $a\ge1$ such a $b$
-exists, and $b(a)$ grows linearly. van Doorn's Corollary 1 gives $b(a)\le6(a-1)$
-for $a>1$, and Theorem 2 gives $b(a)\le4.374(a-1)$ for $a\ge6$, both in van
-Doorn's convention. Corollary 1 comes from the $3$-adic valuation of the block
-ending at $2\cdot3^{k+1}$. Theorem 2 comes from a computer-checked table of
-endpoints for $a\le3^{10}$, and beyond that from $3$-adic valuations at
+is an erdosproblems.com label explained under Formalization. For every $a\ge1$
+such a $b$ exists, and $b(a)$ grows linearly. van Doorn's Corollary 1 gives
+$b(a)\le6(a-1)$ for $a>1$, and Theorem 2 gives $b(a)\le4.374(a-1)$ for $a\ge6$,
+both in van Doorn's convention. Corollary 1 comes from the $3$-adic valuation of
+the block ending at $2\cdot3^{k+1}$. Theorem 2 comes from a computer-checked
+table of endpoints for $a\le3^{10}$, and beyond that from $3$-adic valuations at
 endpoints chosen on six subintervals of $(3^k,3^{k+1}]$. This is the accepted
 claim
 [[problems/unit_fractions/E0290/claims/2024_11_05_van_doorn|van Doorn 2024]]. It
@@ -244,25 +244,23 @@ the problem.
   erdosproblems.com's $b(a)$ for $a\le10000$ and van Doorn's formula lines.
 
 **Formalization and the Lean label.** The erdosproblems.com Lean suffix, in the
-label PROVED (LEAN), is a catalog label. The formal-conjectures file at the
-pinned commit is a statement with a `sorry` body whose `formal_proof` attribute
-names `ErdosProblem290.lean` in the repository `Woett/Lean-files` on its
-`main` branch, not a fixed commit. That file was last changed on 2 March
+label PROVED (LEAN), is an erdosproblems.com label. The formal-conjectures file
+at the pinned commit is a statement with a `sorry` body whose `formal_proof`
+attribute names `ErdosProblem290.lean` in the repository `Woett/Lean-files` on
+its `main` branch, not a fixed commit. That file was last changed on 2 March
 2026, the commit the 2024 claim page links. At that commit (35,552 bytes,
-imports Mathlib) it contains no
-`sorry`, defines `v a b` as the denominator of $\sum_{i=a}^b1/i$ in
-$\mathbb Q$, and proves
+imports Mathlib) it contains no `sorry`, defines `v a b` as the denominator of
+$\sum_{i=a}^b1/i$ in $\mathbb Q$, and proves
 `theorem main (a : ℕ) (ha : a > 0) : ∃ b, a < b ∧ b ≤ 6 * a ∧ v a b < v a (b - 1)`,
 in the paper's convention; its closing comment lists the axioms `propext`,
 `Classical.choice` and `Quot.sound`. The two files of 10 July 2026
 (`ErdosProblem290lower.lean`, no `sorry`, no axiom;
-`ErdosProblem290lowertight.lean`, one declared `axiom`) are described at
-the commit of 10 July 2026 that the claim page links. These are facts
-about the files' text: no build or audit is recorded and no kernel credit
-is claimed, so the 2024 claim page links the files as formalizations and
-lists no `formalized` evidence. The community database
-(teorth/erdosproblems, accessed 2026-09-17) records `formal_status` Lean since
-14 January 2026 and no formal-proof URL.
+`ErdosProblem290lowertight.lean`, one declared `axiom`) are described at the
+commit of 10 July 2026 that the claim page links. These are facts about the
+files' text: no build or audit is recorded and no kernel credit is claimed, so
+the 2024 claim page links the files as formalizations and lists no `formalized`
+evidence. The community database (teorth/erdosproblems, accessed 2026-09-17)
+records `formal_status` Lean since 14 January 2026 and no formal-proof URL.
 
 **Search scope.** None of the routes below found a
 refereed version of [vD24] or [vD26], a citing paper beyond [vD26], or an

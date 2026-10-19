@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 1099
@@ -85,8 +85,17 @@ credit and the journal publication, and
 journal publication alone. A thread comment of 4 July 2026 reports a chat
 transcript in which GPT-5.5 claims an improved bound, with no manuscript; it
 is not recorded as a claim. Neither proof has been reproduced or reviewed in
-this wiki. No literature search beyond the erdosproblems.com page and thread is
-recorded.
+this wiki. The Progress note below records a reading from
+[[research/erdos_18/connections|the Problem 18 connections page]]; no literature
+search beyond the erdosproblems.com page and thread is recorded.
+
+## Progress
+
+[[research/erdos_18/connections|The Problem 18 connections page]] records that
+Tenenbaum's 1987 paper (Ann. Inst. Fourier 37, no. 2, 1–18, Théorème 1, open
+access, not held in the library) already proves boundedness along $n!$ and
+$\mathrm{lcm}(1,\dots,n)$, the two sequences the erdosproblems.com commentary
+reports as unknown, and along the primorials.
 
 ## Known Results
 

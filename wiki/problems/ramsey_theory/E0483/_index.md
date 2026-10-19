@@ -13,12 +13,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 483
 
 [[problems/ramsey_theory/_index|..]]
+
+[[problems/ramsey_theory/E0483/claims/_index|claims/]]: The 1 claim page of Problem 483, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -155,16 +157,34 @@ https://www.erdosproblems.com/483, accessed 2026-09-18.
   on sum-free partitions, Acta Arith. 25 (1973), 55--64 (the bound
   $S(k)\le\lfloor k!(e-1/24)\rfloor$, attested by Heule, p. 2).
 
-**Formalization.** None: the directory
-[`FormalConjectures/ErdosProblems/`](https://github.com/google-deepmind/formal-conjectures/tree/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems)
-of formal-conjectures at the linked commit has no `483.lean`, nor does `main`
-on 2026-10-07; the erdosproblems.com page shows "Formalised statement? No"; the
-[community
-database](https://github.com/teorth/erdosproblems/blob/3c68e941162f81d650fc886eed34e58bed3a6a01/data/problems.yaml)
-records the problem open (last changed 31 August 2025), not formalized, OEIS
-A030126 and no formal proof.
+**Formalization.** Statement only. The
+[`FormalConjectures/ErdosProblems/483.lean` file](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/483.lean),
+read on 2026-10-15, defines a monochromatic triple with equal summands allowed
+and asks for a positive real $C$ such that every positive number $k$ of colors
+has a forcing interval of length $N<C^k$. Its `erdos_483` is marked
+`category research open` and has proof `sorry`. This is the exponential
+question, not a proof of it; no Lean command was run here.
 
 ## Current assessment
+
+The [[research/schur_number_growth/_index|constant-loss recursion study]]
+records author-proved failures of three uniform transfer premises and an
+exponential bound for sum-free arc colorings, all at tier 0; the bound is
+Plasma AI's pending partial claim on
+[[problems/ramsey_theory/E0483/claims/2026_10_19_plasma_ai|its claim page]]. Its
+[[research/schur_number_growth/invariant_palette_rule|palette-rule page]]
+proves, also at author standing, that the recursion behind the
+superexponential bound for $R_k(3)$ gains at most a factor $2$ per color
+when colors depend only on differences, on every partition into cosets or
+coordinate subcubes. Its two-sided replacement through fixed binary
+linear quotient maps is also capped: Proposition 8 gives dimension at
+most the color count from a zero seed, using Brouwer's binary affine-cover
+theorem. These are obstructions to specified construction models. A
+recursion for extremal interval colorings, an adaptive invariant
+excluding sparse Bohr cells, and a nonlinear lower-bound construction
+remain missing; the full exponential question is unresolved. The
+[[research/leads/schur_exponential_growth/_index|Schur exponential-growth lead]]
+records the route.
 
 **The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above, labeled OPEN and marked by erdosproblems.com as beyond any finite
@@ -297,14 +317,26 @@ $x_1+\cdots+x_{m+1}=y_1+\cdots+y_m$ by $3^r(r!)^{1/m}$; for $m=1$ that is weaker
 than $(e-1/6)r!$ and does not bear on the bounds here. No proof claim exists on
 erdosproblems.com.
 
+Adam McKenna's
+[Palomar entry PALOMAR-2026-10-06-000003, version 1](https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000003-v1.json)
+(registered 6 October 2026; abstract and metadata read 2026-10-15) reports a
+Lean formalization giving $S(6)\le1801$ under the explicit, unproved hypothesis
+$R_4(3)\le61$, hence $f(6)\le1802$ under that hypothesis. It also describes
+structure at the remaining boundary without ruling it out. The entry credits
+AI assistance and says the work is not peer reviewed. The proof and kernel
+evidence were not examined here. It is a conditional small-value lead, with no
+exponential upper bound or improvement to the asymptotic growth question;
+it therefore has no claim page for this problem's stated scope.
+
 **Search scope.** None of the routes below found an
 exponential upper bound, a superexponential lower bound, a new exact value,
 or a proof claim.
 
 - erdosproblems.com: problem page, discussion thread and proof-claim tab; the
-  formal-conjectures directory listing at the commit linked under
-  Formalization (no file); the community database at the commit linked under
-  Formalization; the erdosproblems.com bibliography page for [El20].
+  formal-conjectures directory listing in the source assessment of
+  2026-09-18 (no file then); the community database;
+  the erdosproblems.com bibliography page for [El20]. The separate dated
+  statement-file read is recorded under Formalization.
 - arXiv: the abstract pages of 2112.03175 (two versions, no journal
   reference), 1711.08076 (one version, "accepted by AAAI 2018") and
   2607.15034 (one version); the API queries `abs:"Schur number"` by date
@@ -358,6 +390,7 @@ These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
 - [[../library/additive_combinatorics/erdos_1965_extremal_problems_number_theory/_index|erdos_1965_extremal_problems_number_theory]]
+- [[../library/group_theory/brouwer_1986_inequality_binary_vector_spaces/_index|brouwer_1986_inequality_binary_vector_spaces]]
 - [[../library/number_theory/erdos_1961_unsolved_problems/_index|erdos_1961_unsolved_problems]]
 - [[../library/ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur/_index|ageron_2021_new_lower_bounds_schur_weak_schur]]
 - [[../library/ramsey_theory/ageron_2021_new_lower_bounds_schur_weak_schur/corollary_2_9|ageron_2021_new_lower_bounds_schur_weak_schur / corollary_2_9]]

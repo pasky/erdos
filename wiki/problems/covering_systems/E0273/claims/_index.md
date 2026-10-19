@@ -1,10 +1,10 @@
 ---
 name: problems/covering_systems/E0273/claims
-desc: The 2 claim pages of Problem 273, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 273, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T08:44:40Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/covering_systems/E0273/claims
@@ -20,5 +20,7 @@ reciprocal sum.
 covering system with distinct moduli all of the form $p-1$, $p\ge5$ prime, has
 moduli with least common multiple at least 393120. Whether such a system
 exists stays open.
+
+[[problems/covering_systems/E0273/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: An exact digit-sieve certificate shows that the 149 moduli p-1 with 5 <= p <= 877 cover the integers for no choice of residues; author-recorded at tier 0, catalog acceptance pending.
 
 ***

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 864: Erdös–Turán: On a Problem of Sidon in A
 tags: []
 sources: []
 created: 2026-09-24T22:18:22Z
-updated: 2026-09-24T22:18:22Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Erdös–Turán: On a Problem of Sidon in Additive Number Theory, and on some Related Problems
@@ -55,5 +55,14 @@ while §II gives $|A|\leq(1+o(1))\sqrt N$ only under the stronger condition
 that **no** sum repeats. Neither reaches E864’s proposed $2/\sqrt3$ threshold
 for sets with one exceptional sum.
 
-Section III concerns eventual representation counts for infinite sequences
-and provides no upper bound for E864’s finite sets.
+The §II interval count can be adapted to give a weaker upper bound for E864. If
+three distinct pairs $(t_i,t_i+d)$ had the same positive difference $d$,
+each choice of two pairs would produce a repeated sum $t_i+t_j+d$. All such
+sums would have to be the sole exceptional sum, forcing two of the $t_i$ to
+coincide. Hence each positive difference occurs at most twice. With the paper’s
+interval counts $A_u$, this gives $x(mx/(N+m)-1)\leq2(m-1)$, where
+$x=|A|$. Taking $m=\lfloor N^{2/3}\rfloor$ yields
+$M(N)\leq(\sqrt2+o(1))\sqrt N$. This is a consequence of the paper’s method,
+not a result stated there, and it does not prove E864’s proposed bound. Section
+III concerns eventual representation counts for infinite sequences and provides
+no upper bound for E864’s finite sets.

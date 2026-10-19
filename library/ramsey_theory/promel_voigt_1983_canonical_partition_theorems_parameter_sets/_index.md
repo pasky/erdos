@@ -7,7 +7,7 @@ desc: |
   theorem and a canonical Schur theorem as corollaries.
 license: reserved
 created: 2026-09-18T02:43:17Z
-updated: 2026-10-08T17:25:16Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Canonical partition theorems for parameter sets
@@ -78,7 +78,19 @@ colorings of two-element chains, each matched to a 1-canonical sequence
 (pp. 326--327).
 
 The paper is about canonical forms of colorings of parameter words and of
-finite unions; it contains no subset-sum or dissociativity statement.
+finite unions; it contains no subset-sum or dissociativity statement. The
+corpus's research on Problem 774 lists it as a possible structural tool for
+a parameter-set encoding of additive relations. That use would have to name
+the encoding, the canonical form obtained, and why that form either
+preserves proportional dissociated subsets or forces a monochromatic signed
+relation; the theorem does not by itself produce a high-chromatic relation
+hypergraph. A later route in that research,
+[[../wiki/research/erdos_774/routes/parameter_word_limits|parameter_word_limits]],
+checks the paper's parameter-word definitions and Theorems C.3 and C.7 and
+records an obstruction: for a fixed alphabet encoded coordinatewise into
+conductor-disjoint odd-root groups, some finite coloring makes every
+monochromatic parameter-subspace image rationally independent, so these
+theorems give no relation-preserving amplification by themselves.
 
 Read status: claims checked for the definitions of Section B and
 Definitions C.1 to C.6, Theorem C.7, its Lemma and Proposition 5, the
@@ -93,7 +105,15 @@ and
 [[ramsey_theory/promel_voigt_1983_canonical_partition_theorems_parameter_sets/theorem_d_5|theorem_d_5]].
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0774/_index|E0774]]: no
-result of the paper concerns the problem.
+result of the paper concerns the problem. The problem's research lists
+[[ramsey_theory/promel_voigt_1983_canonical_partition_theorems_parameter_sets/theorem_c_7|Theorem C.7]]
+as a candidate tool for canonizing colorings in a parameter-set encoding of
+subset-sum relations, and its route
+[[../wiki/research/erdos_774/routes/parameter_word_limits|parameter_word_limits]]
+records that, for fixed-alphabet coordinatewise encodings into
+conductor-disjoint odd-root groups, this theorem and Theorem C.3 supply no
+relation-preserving amplification by themselves. No application to the
+problem has been made.
 
 **Results.**
 

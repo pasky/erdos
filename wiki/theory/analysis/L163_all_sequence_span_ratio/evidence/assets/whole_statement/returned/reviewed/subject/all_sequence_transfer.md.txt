@@ -1,0 +1,39 @@
+**Labels and lifts.** The moves $F_s$ and $B_s$ by $kr$ places are bijections
+of labels. The displacement of $F_s$ at the label in place $i$ is the lifted
+difference $y_{i+kr}-y_i$, a sum of $k$ consecutive $r$-spans. Lemmas 2.1 and
+6.2 use only these displacements as real numbers, positions modulo $1$ for
+membership in arcs shorter than $1$, injectivity of maps between label sets,
+and counts with multiplicity, so their proofs apply as written. Lemma 6.1 uses
+only the mean identity, the decomposition of a $kr$-span into $k$ consecutive
+$r$-spans, and the triangle inequality.
+
+**The terminal bounds (3.2) of Proposition 3.1.** Let (2.1) hold at time $t$
+with $a_t+b_t\le A$, and let $n=\lfloor t\rfloor$ be large.
+
+- An arc $(x,x+(r-A)/t]$ holds at most $r$ labels. The labels in an arc form a
+  contiguous block of the cyclic order. If there were $r+1$ of them, the first
+  label of the block and the label $r$ places after it would both lie in the
+  arc, and the $r$-span between them, which is the difference of their
+  positions within the arc, would be less than $(r-A)/t\le(r-a_t)/t$, contrary
+  to (2.1).
+- An arc $I=(x,x+(r+A)/t]$ holds at least $r$ labels. Choose the lift so that
+  $y_1\le\cdots\le y_n$ lie in $(x-1,x]$. The last label has position
+  $y_n\le x$, and the next $r$ labels have lifted positions
+  $y_1+1,\ldots,y_r+1$, which exceed $x$ and are at most
+  $y_n+(r+b_t)/t\le x+(r+A)/t$, by (2.1) for the span from the last label. So
+  these $r$ labels lie in $I$.
+
+
+[cut: outside this mathematical subject]
+
+The least-distance step of Lemma 4.2 is replaced by
+Proposition 1221.1, which chooses the short arc away from the positions of the
+first $n_0$ terms by a measure argument.
+
+
+[cut: outside this mathematical subject]
+
+**Positivity.** The one-sided hypotheses need no positive spans. Under the ratio
+hypothesis every late $r$-span is positive, since a vanishing span makes the
+ratio $+\infty$.
+

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 404
@@ -84,4 +84,15 @@ infinite, and give a lemma for lifting a lower bound on $f(a,p)$ from $N$ to
 $N+H$ when the subset sums of $H$ consecutive factorials cover the residues
 modulo the relevant power of $p$; the posts are comments without a manuscript
 and have no pages. No result on the behavior of $f$ beyond these values, and
-nothing on the third question, is recorded; no refereed result is known.
+nothing establishing the third question, is recorded in those accounts.
+
+The author-recorded
+[[research/factorial_sum_valuation_tree|finite congruence and compactness argument]]
+gives a complete decision at each fixed precision and proves that
+unboundedness of $f(a,p)$ for one fixed pair is equivalent to an infinite
+sequence beginning with $a$ whose partial-sum valuations tend to infinity.
+It also gives a direct eight-residue proof of $f(4,2)=6$ and the identity
+$f(a,p)=v_p(a!)$ when $p\mid a+1$. It exhibits no unbounded pair, and
+does not independently review the reported 2026 tables. A uniform lifting
+argument at every precision is the missing step for the infinite-sequence
+question; survival to a fixed precision is insufficient.

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 513
@@ -126,6 +126,29 @@ does not touch the upper bound; it is unreviewed and stays claimed.
 (2026-10-06), its discussion thread (2026-10-07), Sothanaphan's note, the
 description of Lystad's Zenodo record, and the library card of [HeTa26]. No
 refereed work beyond the references was found.
+## The all-radius interface
+
+The [[../library/analysis/he_2026_generalizing_clunie_hayman_construction_erdos_maximum/theorem_2_8|He–Tang formula]]
+controls the liminf over all radii, not only the geometric subsequence.
+For $A_n=\varepsilon^{n(n-1)/2}K^{-n(n+1)/2}$, $K>1$ and
+$|\varepsilon|=1$, the nonzero coefficients have
+$|A_n|^{1/n}\to0$, so $f=\sum_{n\ge0}A_nz^n$ is transcendental entire.
+Between $K^m$ and $K^{m+1}$ its maximum term has index $m$.
+Thus $\log\mu(r,f)$ is affine in $\log r$, while Hadamard's
+three-circles theorem makes $\log M(r,f)$ convex. Their difference is
+concave, so its minimum on each such interval occurs at an endpoint.
+The bilateral scaling identity and the $O(1/r)$ negative Laurent tail
+therefore give the source's exact formula
+$\beta(f)=1/A(K,\varepsilon)$ for the full liminf.
+
+This checks the analytic interface of Section 2 through Theorem 2.8, with
+Hadamard's theorem imported. It supplies no universal upper bound or reduction
+of every entire function to this family. The numerical certificate in Section 3
+and Appendix A is not checked here, and the pending numerical claims keep their
+standing. A useful next step toward the exact supremum would be a matching
+upper bound or an extremizer reduction; further parameter optimization alone
+would remain a lower-bound improvement.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

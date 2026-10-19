@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 476
@@ -57,7 +57,7 @@ $p\le2k-3$)? It is surprising this old question of Erdős and Heilbronn
 has $A\hat{+}A=\{1,\ldots,2k-3\}$ ([ANR95], p. 5).
 
 **Status.** Proved. The erdosproblems.com label was PROVED (LEAN), and its Lean
-mark is a catalog label explained under Formalization.
+mark is an erdosproblems.com label explained under Formalization.
 
 erdosproblems.com's status-defining source is the paper of Dias da Silva and
 Hamidoune [dSHa94] (Bull. London Math. Soc. 26 (1994), no. 2, 140--146,
@@ -306,19 +306,19 @@ full and that of Theorem 1 for structure, and for Theorems 1.3, 3.2 and 3.3 of
 [ANR96], the proof of Theorem 3.3 read in full and those of Theorem 3.2 and
 Proposition 1.2 for structure; none of these proofs is independently reviewed.
 
-**Formalization and the Lean label.** The erdosproblems.com Lean mark is a
-catalog label. The formal-conjectures statement at the pin is exactly the
-displayed inequality over every prime, with a `sorry` body and the
-`formal_proof` attribute described under Formalization; the external file
-it names proves the statement by the polynomial method with no `sorry`
-and the standard three axioms recorded in its closing comment. The thread
-comment of 31 December 2025 presents it as a solution different from the
-original, which it is: the method is [ANR95]'s, not [dSHa94]'s, and the
-file is therefore a formalization link on
+**Formalization and the Lean label.** The erdosproblems.com Lean mark is an
+erdosproblems.com label. The formal-conjectures statement at the pin is exactly
+the displayed inequality over every prime, with a `sorry` body and the
+`formal_proof` attribute described under Formalization; the external file it
+names proves the statement by the polynomial method with no `sorry` and the
+standard three axioms recorded in its closing comment. The thread comment of 31
+December 2025 presents it as a solution different from the original, which it
+is: the method is [ANR95]'s, not [dSHa94]'s, and the file is therefore a
+formalization link on
 [[problems/additive_combinatorics/E0476/claims/1995_03_01_alon_nathanson_ruzsa|the Alon--Nathanson--Ruzsa page]]
-rather than a claim of its own. The description above is of the file at
-the repository head of 2026-09-15; it is not Lean this corpus built, and
-the community database records no formal-proof URL.
+rather than a claim of its own. The description above is of the file at the
+repository head of 2026-09-15; it is not Lean this corpus built, and the
+community database records no formal-proof URL.
 
 **Search scope.** None of the routes below found a
 dispute of the theorem, an error report on either proof, or a reason to

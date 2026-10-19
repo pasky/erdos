@@ -14,7 +14,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:55:41Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 14
@@ -129,10 +129,10 @@ every definition its statement reaches, are identical to the formal-conjectures
 statement of the record's task, and those statements were checked against the
 Statement above, as the claim page records. The records pin a formal-conjectures
 commit that does not resolve on GitHub (2026-10-07); Conjectures.io builds it
-from a public catalog commit and an audit patch, and the replay reproduced it
-exactly. The formal-conjectures definitions `allUniqueSums` and `≫` live in
-`FormalConjecturesUtil`, while each proof file restates them in its own
-namespace and closes its target by `exact`; the replayed kernel checks that
+from a public formal-conjectures commit and an audit patch, and the replay
+reproduced it exactly. The formal-conjectures definitions `allUniqueSums` and
+`≫` live in `FormalConjecturesUtil`, while each proof file restates them in its
+own namespace and closes its target by `exact`; the replayed kernel checks that
 closing step, so the local definitions agree with the formal-conjectures ones.
 
 The claim value is `answered` with these qualifications. It is the word for a

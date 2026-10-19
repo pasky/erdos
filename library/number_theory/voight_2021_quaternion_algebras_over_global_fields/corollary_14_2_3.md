@@ -6,7 +6,7 @@ desc: |
   quaternion algebra B over Q, the set Ram B of places where B is ramified is
   finite and has even cardinality.
 created: 2026-10-08T17:07:54Z
-updated: 2026-10-08T17:07:54Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -55,5 +55,12 @@ symbol computation (12.4.12).
 
 ## Bears on
 
-The corollary concerns ramification of quaternion algebras and bears on no
-Erdős problem directly.
+- [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+  research note
+  [[../wiki/research/erdos_940/quartic_complement|on the quartic complement]]
+  uses this parity statement for its $r=4$ step, with the quaternion algebra
+  attached to a positive definite rational quaternary form of square
+  determinant: ramified at $\infty$, the algebra must ramify at some prime, so
+  the form cannot be isotropic at every finite place. The corollary supplies
+  only the parity; the local calculations and the density argument are the
+  note's own.

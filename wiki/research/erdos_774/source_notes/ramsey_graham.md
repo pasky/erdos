@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Ramsey–Graham: planar Sidonicity and quas
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Ramsey–Graham: planar Sidonicity and quasi-independence
@@ -19,9 +19,9 @@ L. Thomas Ramsey and Colin C. Graham, "Planar Sidonicity and
 quasi-independence for multiplicative subgroups of the roots of unity,"
 *Pacific Journal of Mathematics* 225 (2006), no. 2, 325--360.
 
-The paper treats the roots of unity as vectors in the additive plane,
-decomposes them into prime-coordinate arrays, and develops local criteria for
-quasi-independence.
+This is the closest new source to the active roots-of-unity program.  It treats
+the roots of unity as vectors in the additive plane, decomposes them into
+prime-coordinate arrays, and develops local criteria for quasi-independence.
 
 ## Useful machinery
 
@@ -43,4 +43,5 @@ The paper supplies a structured finite model in which both extraction density
 and covering by quasi-independent classes can be studied.  It does not itself
 produce unbounded quasi-independent chromatic number with a uniform extraction
 constant.  Also keep the ambient groups straight: its additive relations are
-in $\mathbb C$, not in the cyclic exponent group.
+in $\mathbb C$, not in the cyclic exponent group.  A transfer to integer
+dissociation still needs a carry-free or relation-preserving embedding.

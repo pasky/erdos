@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T12:25:21Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 120
@@ -209,6 +209,11 @@ Known results come. A later search of arXiv's new mathematics listings found
 Jiang and Xi's preprint. No other literature search was made; the refereed
 theorems Known results cites through [JLM24] are not separately listed in
 References.
+
+**A deduction and its scope.**
+[[research/erdos_120/superlacunary_route_obstructions|A superlacunary test for similarity criteria]] gives the author-recorded
+argument and source boundaries: the sequence 2 to the minus 2 to the j escapes ratio, sumset, and Fourier-decaying-measure hypotheses; these are method obstructions, not a similarity counterexample.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

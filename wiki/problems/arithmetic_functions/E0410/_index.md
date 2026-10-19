@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 410
@@ -45,9 +45,29 @@ https://www.erdosproblems.com/410.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/410.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+For a fixed start $n\ge2$, put $a_0=n$ and $a_{j+1}=\sigma(a_j)$. Telescoping
+gives the exact identity
+
+$$
+\frac{\log a_k}{k}=\frac{\log n}{k}
+ +\frac1k\sum_{j<k}\log\frac{\sigma(a_j)}{a_j}.
+$$
+
+The question is therefore divergence of the Cesàro average on each fixed orbit.
+Unbounded isolated abundancy ratios do not imply that average diverges.
+[[../library/arithmetic_functions/erdos_1990_normal_behavior_iterates_arithmetic_functions/_index|Erdős
+and collaborators]] separate this iteration question from their almost-all
+results;
+[[../library/arithmetic_functions/cohen_1996_iterating_sum_divisors_function/_index|Cohen's
+numerical discussion]] concerns finite prefixes. The averages in
+[[../library/arithmetic_functions/pomerance_2018_first_function_iterates/_index|Pomerance's
+Theorem 1.1]] concern the different map $s(n)=\sigma(n)-n$ and finitely many
+iterates averaged over starts. The inspected statements supply no persistent
+growth on every fixed $\sigma$ orbit. A useful input would bound the displayed
+cumulative logarithmic abundancy from below; no source computation has been
+replayed.
 
 ## Known Results
 

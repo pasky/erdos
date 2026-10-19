@@ -6,7 +6,7 @@ desc: |
   of f is O(1/(log log n)^{2+eps}) for some eps > 0, then the averages of
   f(n_k x) along every lacunary sequence tend to 0 for almost all x.
 created: 2026-10-08T16:16:06Z
-updated: 2026-10-08T16:16:06Z
+updated: 2026-10-13T16:46:38Z
 ---
 
 ***
@@ -34,7 +34,7 @@ $$
 $$
 
 The paper adds (p. 52) that it seems probable that (4) can be replaced by
-$1/(\log\log n)^{\eta}$, but that much sharper methods would be needed. It
+$1/(\log\log\log n)^{\eta}$, but that much sharper methods would be needed. It
 proves nothing in that direction.
 
 ## Proof pointer

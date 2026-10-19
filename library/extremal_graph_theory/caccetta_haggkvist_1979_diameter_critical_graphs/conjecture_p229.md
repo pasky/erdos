@@ -6,7 +6,7 @@ desc: |
   graph on v vertices has more edges than the class G(k) built there from
   paths joined to two sets of new vertices, about 2v^2/(k+1)^2 edges.
 created: 2026-10-08T15:08:59Z
-updated: 2026-10-08T15:08:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -66,6 +66,6 @@ None.
 
 ## Bears on
 
-No catalog problem: the conjecture is for $k\ge3$, and
+No erdosproblems.com problem: the conjecture is for $k\ge3$, and
 [[../wiki/problems/extremal_graph_theory/E0742/_index|Problem 742]] is the
 case $k=2$, recorded on the Conjecture 1 page.

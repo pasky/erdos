@@ -4,7 +4,7 @@ title: "The line counterexample in every dimension"
 desc: |
   Derives the exponential line obstruction and handles dimension one.
 created: 2026-09-05T12:22:53Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:20:03Z
 ---
 
 ***
@@ -44,6 +44,6 @@ all-dimensional conclusion remains valid; this supplies its elementary
 endpoint case.
 
 **Related proof pages.**
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_1_2|theorem 1 2]].
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_1_2|Theorem 1.2]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|Problem 188]].

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:12:01Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 602
@@ -46,8 +46,8 @@ https://www.erdosproblems.com/602.
 **The question (erdosproblems.com formulation, accessed 2026-09-04).** The
 statement above; OPEN. The erdosproblems.com commentary attributes the problem
 to Komjáth and notes that the existence of such a $2$-coloring is called
-Property B. No assessment of the mathematics is recorded here beyond the known
-special cases below.
+Property B. The known special cases and the countable/compactness analysis
+below do not settle the remaining uncountable case.
 
 **Known special cases.** Countable families have Property B by Bernstein's
 lemma, which the formal-conjectures file states as a solved variant, so the
@@ -100,11 +100,32 @@ thread (one comment by 2026-10-07, post 5648 of 2026-04-20) and proof-claims
 page, with the Zenodo record of the claim. arXiv, Crossref, MathSciNet, zbMATH,
 Google Scholar and X were not searched.
 
-**Remaining gaps.** (1) The mathematics of the question has not been
-assessed, and the literature on Property B for the stated families was not
-searched beyond the classical results named above. (2) The finite criterion
+**Remaining gaps.** (1) The remaining uncountable case has no proof here,
+and the literature on Property B for the stated families was not searched
+beyond the classical results named above. (2) The finite criterion
 filed on erdosproblems.com was not read beyond its record and the claim's
 summary.
+
+## Countable recursion and the compactness obstruction
+
+The countable special case has a direct proof. Enumerate the family as
+$(A_n)_{n<\omega}$ and choose distinct $x_n,y_n\in A_n$ outside
+$\bigcup_{j<n}A_j$. The excluded part of $A_n$ is finite, so these choices
+exist. Color $x_n$ red and $y_n$ blue, and color all other points arbitrarily.
+Earlier choices lie in earlier sets and later choices avoid $A_n$, so the
+assignments are consistent and every set has both colors. This argument
+needs only pairwise finite intersections. At an uncountable stage the union
+of earlier intersections need not be finite.
+
+Ordinary product-space compactness does not extend a finite peeling criterion
+to infinite edges. In $2^V$, the condition that an infinite set $A$ have
+both colors is open, but need not be closed. For $A=V=\omega$, color only
+the point $n$ red. These nonmonochromatic colorings converge coordinatewise
+to the constant blue coloring. Thus the closed-constraint hypothesis of
+compactness fails. This author-recorded obstruction defeats that proposed
+passage from finite to infinite; it supplies no non-Property-B family with
+the problem's intersection conditions.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

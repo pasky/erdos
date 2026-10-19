@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1060
@@ -159,6 +159,32 @@ The only general arithmetic facts used are unique prime factorization, the
 divisor-sum formula on squarefree integers, and multiplicativity of $\sigma$
 for coprime arguments. The cancellation, exceptional prime pair, and counting
 steps above supply the deductions needed for this pointwise bound.
+
+## Exact scope of the arithmetic reduction
+
+The powerful-part reconstruction above has the coarse majorant
+
+$$
+M(N)=\#\{D\mid N:D\text{ powerful},\ D<\sqrt N\}\qquad(N>1).
+$$
+
+This majorant cannot yield the requested vanishing exponent constant. Put
+$Q_y=\prod_{p\le y}p$ and $N_y=Q_y^2$. A powerful divisor of $N_y$ chooses
+exponent zero or two at every prime, giving $2^{\pi(y)}$ choices.
+Complementation $D\mapsto N_y/D$ pairs those below and above $\sqrt{N_y}$;
+equality is impossible since $Q_y$ is not powerful. Hence
+$M(N_y)=2^{\pi(y)-1}$. The prime number theorem gives
+
+$$
+\frac{\log M(N_y)}{\log N_y/\log\log N_y}\longrightarrow\frac{\log2}{2}>0.
+$$
+
+This is an author-recorded obstruction to that particular bound. It supplies no
+lower bound on actual fibers, nor does it address the separate odd-output
+refinement. A stronger count must exploit $D\sigma(D)\mid N$ and realizability
+of the squarefree quotient, which the coarse majorant omits. The exceptional
+output $N=1$ has the single preimage $k=1$.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

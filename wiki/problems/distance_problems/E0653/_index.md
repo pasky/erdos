@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 653
@@ -69,9 +69,9 @@ and what the corpus did and did not check are recorded on
   the proof file on the pinned toolchain and its check of the target against
   the Statement, listed as `formalized`; the bounty site's certification of
   September 2026 is reported, not counted. No refereed publication, no
-  erdosproblems.com acceptance and no catalog agreement exist. A reported
-  fidelity defect or a kernel rejection on replay would return the problem to
-  open.
+  erdosproblems.com acceptance and no formal-conjectures agreement exist. A
+  reported fidelity defect or a kernel rejection on replay would return the
+  problem to open.
 - **Best progress before the solution.** erdosproblems.com records the lower
   bounds $g(n)>\tfrac38n$ (Erdős and Fishburn) and $g(n)>\tfrac7{10}n$
   (Csizmadia) and the upper bound $g(n)<n-cn^{2/3}$. Rafik Zeraoulia's preprint

@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 890
@@ -50,9 +50,27 @@ https://www.erdosproblems.com/890.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/890.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The Pólya gap argument in
+[[../library/arithmetic_functions/erdos_1967_problems_prime_factors_consecutive_integers/_index|Erdős–Selfridge]]
+gives the opposite bound: at most one member of a sufficiently late length-$k$
+block is $k$-smooth, so the total count of prime factors above $k$ is at least
+$k-1$. It does not give the desired liminf upper bound $k$. The proof was
+followed with Pólya's theorem imported as stated.
+
+A simultaneous-primality construction makes the missing step explicit. Fix
+$n_0>0$, let $s_i$ be the part of $n_0+i$ supported on primes at most $k$, and
+set $M=\prod_{p\le k}p^{1+\max_i v_p(n_0+i)}$. The forms
+$L_i(t)=(n_0+i+Mt)/s_i$ are integral and admissible: primes at most $k$ divide
+their slopes but not constants, while a prime greater than $k$ excludes at most
+$k$ residues. Infinitely many simultaneous prime values would give the desired
+sum exactly $k$, but that is an unproved tuple premise.
+
+For the separate limsup, elementary maximal order and primorial inputs give
+only $1\le L_k\le k$. The lower bound uses the first term alone; the upper sums
+the usual maximal-order bound over $k$ terms. An upper coefficient one requires
+simultaneous control, not another construction for the lower bound.
 
 ## Known Results
 

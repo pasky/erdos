@@ -4,23 +4,23 @@ title: Problem 1033
 desc: |
   Asks to estimate $h(n)$, the largest degree sum forced on some triangle in a
   graph on $n$ vertices with more than $n^2/4$ edges, and whether
-  $h(n)\ge(2(\sqrt3-1)-o(1))n$, about $1.464n$. The estimate is open, between
-  Fan's $21n/16$ and a construction's $2(\sqrt3-1)n+O(1)$, and a pending 2026
-  claim answers the displayed question no.
+  $h(n)\ge(2(\sqrt3-1)-o(1))n$, about $1.464n$. A reviewed rational
+  butterfly construction refutes that proposed constant and gives
+  $h(n)<183n/125$ for $n\ge10^{13}$; the optimum remains undetermined.
 tags:
 - Graph theory
 status: claimed
 claim: disproved
 parts: [conjectured_bound]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-18T10:09:26Z
 ---
 
 # Problem 1033
 
 [[problems/extremal_graph_theory/_index|..]]
 
-[[problems/extremal_graph_theory/E1033/claims/_index|claims/]]: The 1 claim page of Problem 1033, one per claimant's result; the problem's standing derives from them.
+[[problems/extremal_graph_theory/E1033/claims/_index|claims/]]: The 2 claim pages of Problem 1033, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -43,15 +43,27 @@ fewest edges) and Bollobás and Nikiforov's $\Delta_3(n,m)$ at
 $m=\lfloor n^2/4\rfloor+1=t_2(n)+1$. The page-level question is the estimate;
 the "in particular" question is yes or no, and its constant
 $2(\sqrt3-1)\approx1.4641$ is the value of the construction below, so it
-asks whether that construction is asymptotically best. The thread carries
-an unreviewed claim that the answer is no (recorded below and on its own
-claim page as a pending partial claim). The second question is the part `conjectured_bound`. The first asks for an estimate
-of $h(n)$ with no target rather than a definite question, so it is open-ended: it is not a part, and it never blocks the standing.
+asks whether that construction is asymptotically best. The independently
+reviewed [[theory/combinatorics/L113_butterfly_triangle_degree_sum/_index|L113]]
+answers that definite question negatively. The thread's sharper constant
+remains a separate unreviewed claim, recorded below and on its claim page.
+The second question is the part `conjectured_bound`. The first asks for an
+estimate of $h(n)$ without a specified target, so it is open-ended and does not
+block the derived standing.
 
-**Status.** Claimed: a pending partial claim would settle the definite second part,
-and the open-ended first question does not block the standing. The bounds in hand
-are $\frac{21}{16}n<h(n)\le2(\sqrt3-1)n+O(1)$, with $21/16=1.3125$ and
-$2(\sqrt3-1)\approx1.4641$.
+**Status.** Claimed: the pending claims settle the definite part
+`conjectured_bound`; the open-ended estimate does not block this standing.
+The separate
+[[problems/extremal_graph_theory/E1033/claims/2026_10_19_plasma_ai|Plasma AI claim]]
+records the exact rational realization and all-order padding, with the
+butterfly construction and parameters credited to Wouter CvB. Its catalog
+acceptance remains pending.
+The explicit proposed asymptotic lower bound is refuted by the
+independently reviewed
+[[theory/combinatorics/L113_butterfly_triangle_degree_sum/_index|rational butterfly construction]].
+The bounds recorded here are $\frac{21}{16}n<h(n)<183n/125$ for
+$n\ge10^{13}$, with $21/16=1.3125$ and $183/125=1.464$. The optimum and
+a complete asymptotic evaluation are not established.
 
 The lower bound is Fan's Theorem 1 with its Corollary 1.1 (J. Graph Theory 12
 (1988), refereed). Every graph with $n$ vertices and $e>n^2/4$ edges has a
@@ -62,7 +74,8 @@ The earlier lower bound $h(n)\ge(1+\eta)n$, for a fixed $\eta>0$ and large $n$,
 is Theorem 2 of the Erdős--Laskar note
 ([[../library/extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/theorem_2|theorem_2]]).
 
-The upper bound is erdosproblems.com's construction, recomputed below as an
+The older upper bound $2(\sqrt3-1)n+O(1)$ is erdosproblems.com's
+construction, recomputed below as an
 authored check. erdosproblems.com attributes it to Erdős and Laskar and says the
 bound is not explicit in their 1985 note. The note's six pages indeed contain no
 such construction. Fan's § 2 (pp. 251--252) prints the construction in full,
@@ -71,13 +84,13 @@ with the bound $f(n,e)<4\sqrt{3e}-2n+5$ for $n^2/4<e<n^2/3$
 Fan credits it to "the construction described in [4]", the paper's reference [4]
 being that same 1985 note.
 
-The value of $h(n)/n$ is not known. No source settling the "in particular"
-question was found in the search whose scope the Current assessment records.
-This is a bounded negative finding, not a certificate of openness. The thread's
-June--July 2026 claims that the conjectured lower bound fails are a pending
-partial claim, unreviewed and recorded below. Erdős's 1982 report that the
-inequality $3n/2$ was proved by Edwards is recorded beside these bounds. The
-report is inconsistent with them and is not resolved here.
+The optimum of $h(n)/n$ is not established. L113's exact finite realization
+and all-order padding give a fixed gap below the proposed constant. The
+June--July 2026 butterfly template keeps its original credit; the sharper
+$1.463878$ claim remains unreviewed and is not certified by L113. Erdős's
+1982 report that the inequality $3n/2$ was proved by Edwards is recorded
+beside these bounds. The report is inconsistent with them and is not resolved
+here.
 
 **Source.** [erdosproblems.com/1033](https://www.erdosproblems.com/1033),
 accessed 2026-09-18T15:02Z: the problem page
@@ -436,6 +449,16 @@ statement of the problem.
 - [Er93], pp. 343--344: the bounds
   $2(\sqrt3-1)n\ge h(n)>21n/16$ as stated in 1993, credited to Erdős--Laskar
   and Fan, with the guess that the upper bound is the true value.
+
+
+The [[theory/combinatorics/L113_butterfly_triangle_degree_sum/_index|reviewed rational butterfly certificate]]
+gives, for every $n\ge10^{13}$, a graph with more than $n^2/4$ edges and every
+triangle degree sum less than $183n/125<2(\sqrt3-1)n$. Its whole-conclusion
+examination and separate passing grade cover the finite realization, exact
+arithmetic, all-order padding and the negative answer to the proposed constant.
+They retain the checker and isolation-record limitations and do not determine
+$h(n)$ or certify the original claim's sharper value.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

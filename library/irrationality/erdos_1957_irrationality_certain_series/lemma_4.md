@@ -7,7 +7,7 @@ desc: |
   sequence and an interlacing condition, with the sharper Lemma 4′ stated
   without proof.
 created: 2026-09-17T07:21:00Z
-updated: 2026-10-07T20:53:41Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -101,5 +101,5 @@ Used in the proof of
 [[irrationality/erdos_1957_irrationality_certain_series/theorem_2|Theorem 2]]
 (pp. 218--219).
 
-**Bears on.** No catalog problem directly; it is the tool behind
+**Bears on.** No erdosproblems.com problem directly; it is the tool behind
 Theorem 2 and contains Lemma 1 as a special case.

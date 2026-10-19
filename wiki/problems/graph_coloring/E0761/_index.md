@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 761
@@ -41,13 +41,14 @@ https://www.erdosproblems.com/761.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+For finite graphs, the two qualitative threshold questions are equivalent
+by the [[research/methods/chromatic_threshold_interfaces|chromatic/cochromatic reduction]].
+It uses $\zeta(G)\le\chi(G)\le\zeta(G)\omega(G)$, monotonicity of
+the orientation-maximized dichromatic number, and tournaments with arbitrarily
+large dichromatic number. This author-recorded equivalence does not prove
+either threshold exists. No broader standing survey is supplied.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T15:47:04Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 11
@@ -46,13 +46,32 @@ https://www.erdosproblems.com/11.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/11.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+A bounded exponent search cannot resolve the eventual assertion. In the held
+[[../library/additive_bases/hercher_2024_sum_squarefree_integers_power_two/_index|Hercher account]],
+Theorem 5 covers odd $1<n<2^{50}$ using exponents $1\le k\le13$; its
+computation has not been replayed here. Remark 4 gives the Chinese remainder
+obstruction for any fixed positive-exponent cap. The argument below also
+covers exponent zero.
 
-## Known Results
+Fix $K\ge1$ and choose distinct odd primes $q_1,\ldots,q_K$. The congruences
 
-Not yet compiled.
+$$
+n\equiv1\pmod4,\qquad n\equiv2^k\pmod{q_k^2}\quad(1\le k\le K)
+$$
+
+have infinitely many positive solutions by the Chinese remainder theorem.
+For sufficiently large solutions all differences are positive: $n-1$ is
+divisible by $4$, and $n-2^k$ is divisible by $q_k^2$. None is squarefree.
+Thus infinitely many odd integers defeat every fixed cap $0\le k\le K$.
+This author-recorded observation by Plasma AI does not defeat exponents that grow with $n$.
+
+The held Granville–Soundararajan conditional exceptional-set estimate still
+allows an infinite exceptional set. Neither it nor a larger fixed search
+window removes the all-exponents gap. The source statements were inspected;
+no independent proof review or comprehensive new status search is asserted.
+A useful new estimate must treat all admissible exponents up to $\log_2 n$.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

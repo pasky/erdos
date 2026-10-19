@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 694
@@ -58,22 +58,22 @@ https://www.erdosproblems.com/694.
   pp. 4--5. Library home:
   [[../library/arithmetic_functions/gpt_5_5_pro_2026_totient_fibre_extremes/_index|gpt_5_5_pro_2026_totient_fibre_extremes]].
 
-**Formalization.** The erdosproblems.com Lean qualification is a catalog label;
-see "Formalization and the Lean label" below for the Lean developments. The file
+**Formalization.** The erdosproblems.com Lean qualification is an
+erdosproblems.com label; see "Formalization and the Lean label" below for the
+Lean developments. The file
 [`ErdosProblems/694.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/694.lean)
 of formal-conjectures, at the pinned commit, states
 `erdos_694 : ∀ᵉ (fmax : ℕ → ℕ) (fmin : ℕ → ℕ), (∀ n, (∃ m, Nat.totient m = n) → IsGreatest (Nat.totient ⁻¹' {n}) (fmax n)) → (∀ n, (∃ m, Nat.totient m = n) → IsLeast (Nat.totient ⁻¹' {n}) (fmin n)) → ∃ o : ℕ → ℝ, Tendsto o atTop (𝓝 0) ∧ ∀ᶠ x : ℕ in atTop, sSup { (fmax n : ℝ) / fmin n | (n : ℕ) (_ : n ≤ x) (_ : ∃ m, Nat.totient m = n) } = (exp eulerMascheroniConstant + o x) * log (log (x : ℝ))`
 under `category research solved` with a `sorry` body and no `formal_proof`
 attribute; its docstring attributes the proof of
-$\max_{n\le x}f_{\max}(n)/f_{\min}(n)=(e^\gamma+o(1))\log\log x$ to GPT-5.5
-Pro, prompted by Price, points to the erdosproblems.com thread for a summary,
-says that a Lean formalization of the reduction exists conditional on Mertens'
-product theorem and Linnik's theorem, linking the `Shashi456` file, and
-notes that the extrema are required only on nonempty fibres and the identity
-only for large $x$. Two variants:
-`erdos_694.variants.carmichael` (`research open`) and
-`erdos_694.variants.inf_unique` (`research solved`, `sorry`). The statement
-file is not a formalization link; this corpus has not built or audited the
+$\max_{n\le x}f_{\max}(n)/f_{\min}(n)=(e^\gamma+o(1))\log\log x$ to GPT-5.5 Pro,
+prompted by Price, points to the erdosproblems.com thread for a summary, says
+that a Lean formalization of the reduction exists conditional on Mertens'
+product theorem and Linnik's theorem, linking the `Shashi456` file, and notes
+that the extrema are required only on nonempty fibres and the identity only for
+large $x$. Two variants: `erdos_694.variants.carmichael` (`research open`) and
+`erdos_694.variants.inf_unique` (`research solved`, `sorry`). The statement file
+is not a formalization link; this corpus has not built or audited the
 developments, so they give no formalized evidence.
 
 ## Current assessment
@@ -116,9 +116,9 @@ says "Proof by Liam Price + GPT-5.5 Pro, May 2026"; the collection's
 docstring credits GPT-5.5 Pro and names Price as the prompter.
 
 **Formalization and the Lean label.** The erdosproblems.com Lean qualification
-is a catalog label. The collection's statement is a `sorry` body. Two external
-developments exist, and a third repository carries versions of them; this
-corpus has built, kernel-checked or audited none of them, so they give no
+is an erdosproblems.com label. The collection's statement is a `sorry` body. Two
+external developments exist, and a third repository carries versions of them;
+this corpus has built, kernel-checked or audited none of them, so they give no
 formalized evidence.
 
 - `Shashi456/erdos-formalizations`, `Erdos/P694/Proof.lean` (143,271
@@ -215,9 +215,19 @@ Linnik's theorem at statement level (p. 1); none is checked by this project.
 (5) The note's identity rests on a repository file with no version marker;
 the card records the hosting repository's revision and the file's size.
 
-The note's Proposition 3.1 is the existence half of the multiplication device
+The accepted Problem 416 proof and the cluster-interval preprint have no bearing
+on the extreme ratio, as recorded on
+[[research/erdos_416/connections|the connections page of the Problem 416 folder]];
+the note's Proposition 3.1 is the existence half of the multiplication device
 behind Ford's Theorem 8, giving $(r-1)n$ the preimages $ra$ and $rb$ from a
-collision $\varphi(a)=\varphi(b)=n$ for every prime $r\nmid ab$.
+collision $\varphi(a)=\varphi(b)=n$ for every prime $r\nmid ab$, and not the
+exact-preimage clause that page uses for Problem 417, under which the witness
+$54$ does not propagate ($54\cdot(5-1)=216=\varphi(7\cdot37)$).
+
+[[research/erdos_49/connections|The Problem 49 connections page]] holds
+author-recorded research notes on the convenient-integer construction of
+Pollack, Pomerance and Treviño's Lemma 4.1 applied to these ratios; they are
+not a claim and say nothing about the maximum.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -3,7 +3,7 @@ name: polynomials
 title: "Polynomials"
 desc: "Sources filed under Polynomials, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:25:18Z
+updated: 2026-10-14T23:06:55Z
 ---
 
 # Polynomials
@@ -188,6 +188,12 @@ construction plus a correction wave on its gaps. Problems 1150, 228 and 230.
 whose polynomial has modulus between (1-epsilon)sqrt N and (1+epsilon)sqrt N
 on the whole unit circle, by a capped near-unimodular wave construction on
 the circle and discrepancy rounding; bears on Problems 1150, 228 and 230.
+
+[[polynomials/price_2026_perturbed_lobatto_nodes/_index|price_2026_perturbed_lobatto_nodes/]]: An unsigned write-up, posted by Liam Price, who credits the disproof to
+GPT-5.5 Pro, claiming that the least interpolation integral of Problem 1131
+is at most 2 - (1 + epsilon)/n for all large n, witnessed by the roots of
+the integral of P_{n-1} + a P_{n-3}, a perturbation of the Legendre-Lobatto
+nodes; so it is not 2 - (1 + o(1))/n.
 
 [[polynomials/rack_2015_optimal_cubic_lagrange_interpolation_extremal_node/_index|rack_2015_optimal_cubic_lagrange_interpolation_extremal_node/]]: Describes explicitly all node systems of four points on [-1,1] that minimize
 the Lebesgue constant of cubic Lagrange interpolation.

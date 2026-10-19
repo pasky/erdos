@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 827
@@ -94,6 +94,16 @@ calculations. Erdős's 1978 argument has no page, since it is incorrect.
 With the claimed results, $n_k\ll k^5/\log k$ and $n_4=7$, and SamKorsky's
 post gives $n_k\ge k^{2-o(1)}$. The order of growth of $n_k$ and every value
 with $k\ge5$ are open.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/circumradii|circle counts and
+distinct circumradii]] account records the following scope. For fixed N,k the
+counterexample condition is a finite real polynomial formula: strict
+distinctness/general-position constraints, and for each k-subset an equality A_T
+D_U^2=A_U D_T^2 between two triple radii, where A is the product of squared side
+lengths and D is the determinant.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

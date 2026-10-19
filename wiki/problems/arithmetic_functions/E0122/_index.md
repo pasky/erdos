@@ -9,14 +9,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 122
 
 [[problems/arithmetic_functions/_index|..]]
 
-[[problems/arithmetic_functions/E0122/claims/_index|claims/]]: The 1 claim page of Problem 122, one per claimant's result; the problem's standing derives from them.
+[[problems/arithmetic_functions/E0122/claims/_index|claims/]]: The 2 claim pages of Problem 122, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -56,10 +56,15 @@ their length. The erdosproblems.com commentary adds that [Er97] considers only
 $f$ growing more slowly than $(\log n)^{1-c}$ for some $c>0$.
 
 **Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited
-2026-04-01), and its proof-claims tab carries no entry. The one claim page,
+2026-04-01), and its proof-claims tab carries no entry. The claim page
 [[problems/arithmetic_functions/E0122/claims/1997_01_01_erdos_pomerance_sarkozy|Erdős's report of a proof for the divisor and prime-divisor counting functions]],
-records a claimed partial answer with no published proof. The derived standing
-is therefore open.
+records a claimed partial answer with no published proof. The
+[[theory/number_theory/L34_exceptional_widths_for_omega/_index|Plasma AI counterexample]], at tier 1 on the
+project's own review and grade, answers the modified $f=\omega$ case negatively
+under natural-density-one smallness, without classifying the other functions.
+It is recorded as a pending partial claim on
+[[problems/arithmetic_functions/E0122/claims/2026_10_19_plasma_ai|its claim page]],
+whose outside sign-off is outstanding. The derived standing remains open.
 
 **Source.** [erdosproblems.com/122](https://www.erdosproblems.com/122), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #122,
@@ -82,7 +87,7 @@ database entry records no formalized statement.
 
 ## Current assessment
 
-The corrected question is open for every $f$. Erdős's report of a proof by
+The complete classification remains open. Erdős's report of a proof by
 Erdős, Pomerance and Sárközy for $\tau$ and $\omega$ is the claimed partial
 answer on
 [[problems/arithmetic_functions/E0122/claims/1997_01_01_erdos_pomerance_sarkozy|its
@@ -102,6 +107,20 @@ curator wrote on 2026-03-27 that the results Erdős describes do not really
 appear in that paper. No publication of the reported proofs for $\tau$ or
 $\omega$ was found on 2026-10-07 in the erdosproblems.com page, remarks and
 five-comment thread, the [EPS97] card or the formal-conjectures tree.
+The
+[[research/leads/exceptional_widths_shifted_omega/_index|exceptional-width construction]]
+gives a complete author argument against the $f=\omega$ instance of the
+literal modified statement. Its
+[[theory/number_theory/L34_exceptional_widths_for_omega/_index|claim L34]]
+constructs $F\to\infty$ with $F(n)/\omega(n)\to0$ on a density-one
+set while bounding the normalized count by $7$ at every sufficiently
+large real location. Enlarging widths on the exceptional set is crucial.
+L34 has independently graded tier 1 standing, with the
+[[research/leads/exceptional_widths_shifted_omega/evidence/verify/width_counterexample/_index|whole-conclusion review and its limits retained]].
+The historical report's width convention remains unexamined; this result
+does not adjudicate its unpublished proof. No full classification or
+whole-problem closure follows.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 # Problem 1169
@@ -89,7 +89,12 @@ independently reviewed by this project.
 
 ## Known Results
 
-The Current assessment above records the known results.
+The Current assessment above records the known results from the literature.
+
+[[research/erdos_1171/connections|The Problem 1171 connections page]] holds
+author-recorded research on transferring the color-reduction lemma of
+[[research/erdos_1171/lemma_2_1_reconstruction|the Problem 1171 folder]] to
+this problem; it is not a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -6,7 +6,7 @@ desc: |
   of genus g, meaning that of its dual graph, is o(g^(3/7)), in response to a
   question of Croft, Falconer and Guy.
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -48,5 +48,5 @@ with $s=5$ bounds the chromatic number by $c_2(g/\log g)^{3/7}$.
 
 ## Bears on
 
-No catalog problem directly. The paper's Problem 2 (p. 4558) asks whether
-there exists an $S_g$-polytope with chromatic number at least $100$.
+No erdosproblems.com problem directly. The paper's Problem 2 (p. 4558) asks
+whether there exists an $S_g$-polytope with chromatic number at least $100$.

@@ -7,7 +7,7 @@ desc: |
   two terms a_ix_i^d and a_jx_j^d sum to zero number
   O_d(B^{3/sqrt d}(log B)^4+1), uniformly in the coefficients.
 created: 2026-10-08T16:39:21Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -61,5 +61,12 @@ print; the proof was read for its structure only.
 
 ## Bears on
 
-None directly. Like the rest of the paper, it settles neither question of
-[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
+- [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+  [[../wiki/research/erdos_940/cubic_collision_ranges|E940 cubic collision-range note]]
+  applies the corollary with $d=3$ to $ax^3+by^3=au^3+bv^3$, where $a,b>0$
+  are rational with $a/b$ not a rational cube. Every primitive positive
+  solution with $(x,y)\ne(u,v)$ then lies in $X'$, which gives
+  $O(N^{\sqrt3}(1+\log N)^4)$ such solutions in $[1,N]^4$. The note uses this
+  to bound the off-diagonal collisions of a positive ternary diagonal cubic
+  form that share a coordinate. It does not bound the other collisions and
+  does not settle either question of the problem.

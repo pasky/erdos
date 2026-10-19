@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T15:47:04Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 17
@@ -47,13 +47,16 @@ https://www.erdosproblems.com/17.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/17.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/prime_pattern_uniformity|uniformity analysis]]
+explains why the recorded sparse upper bound for cluster primes is compatible
+with either finitely or infinitely many of them. The target requires all
+specified differences, in a growing range, at the same prime. Results for
+each fixed difference separately do not supply this simultaneous conclusion.
+The source statement enters at its recorded standing; no new source-proof
+verification or infinitude argument is supplied.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,3 +1,4 @@
+# evidence: entry
 """Directly verify the published 111-digit progression from Section 4.
 
 Checked clauses: each term N + jd for j = 0, 1, 2, 3 equals the published

@@ -6,7 +6,7 @@ desc: |
   he could not prove, the second being the series of problem 251, with the
   pointer to the 1957 note for similar series.
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -42,7 +42,7 @@ that "m'échappe entièrement", and the 1988 survey repeats the expectation
 on
 [[irrationality/erdos_1988_irrationality_certain_series_problems_results/problem_p103|its p. 103]]
 ("This is probably very difficult already for $k=1$"). The first and third
-series are not catalog problems, and this library records no result on
+series are not erdosproblems.com problems, and this library records no result on
 either.
 
 **Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]].

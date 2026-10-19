@@ -1,0 +1,1065 @@
+{
+  "source": {
+    "authors": "Bennett, Filaseta and Trifonov",
+    "title": "On the factorization of consecutive integers",
+    "doi": "10.1515/CRELLE.2009.030",
+    "locator": "Corollary 2.3, lambda_2 column",
+    "weight_denominator": 10000,
+    "edges": [
+      [
+        2,
+        3,
+        2921
+      ],
+      [
+        2,
+        5,
+        2679
+      ],
+      [
+        2,
+        7,
+        2757
+      ],
+      [
+        2,
+        11,
+        698
+      ],
+      [
+        2,
+        13,
+        798
+      ],
+      [
+        3,
+        5,
+        2238
+      ],
+      [
+        3,
+        7,
+        505
+      ],
+      [
+        3,
+        11,
+        3453
+      ],
+      [
+        3,
+        13,
+        2372
+      ],
+      [
+        5,
+        7,
+        2667
+      ],
+      [
+        5,
+        11,
+        2091
+      ],
+      [
+        5,
+        13,
+        1838
+      ],
+      [
+        7,
+        13,
+        1243
+      ],
+      [
+        11,
+        13,
+        729
+      ]
+    ],
+    "explicit_locator": "Theorem 2.1, lambda column",
+    "explicit_edges": [
+      [
+        2,
+        3,
+        2850
+      ],
+      [
+        2,
+        5,
+        2580
+      ],
+      [
+        2,
+        7,
+        2590
+      ],
+      [
+        2,
+        11,
+        590
+      ],
+      [
+        2,
+        13,
+        540
+      ],
+      [
+        3,
+        5,
+        2160
+      ],
+      [
+        3,
+        7,
+        380
+      ],
+      [
+        3,
+        11,
+        3290
+      ],
+      [
+        3,
+        13,
+        2310
+      ],
+      [
+        5,
+        7,
+        2270
+      ],
+      [
+        5,
+        11,
+        1990
+      ],
+      [
+        5,
+        13,
+        1630
+      ],
+      [
+        7,
+        13,
+        980
+      ],
+      [
+        11,
+        13,
+        370
+      ]
+    ],
+    "explicit_maximum_gap": 100,
+    "explicit_largest_exception": 1771561
+  },
+  "scope": "Finite exact proof optimization; no rows or columns enumerated.",
+  "bound_scope": "algebraic_bound_power_of_two uses Corollary 2.3 and still needs its effective x_0(i-1). full_row_bound_power_of_two uses the smaller Theorem 2.1 weights and already includes its numerical threshold and all exceptional pairs.",
+  "graphs": [
+    {
+      "primes": [
+        2,
+        3
+      ],
+      "edge_count": 1,
+      "orientations_checked": 2,
+      "minimum_scaled": 2921,
+      "minimum": "2921/10000",
+      "minimizers_scaled": [
+        [
+          0,
+          2921
+        ],
+        [
+          2921,
+          0
+        ]
+      ]
+    },
+    {
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "edge_count": 3,
+      "orientations_checked": 8,
+      "minimum_scaled": 5159,
+      "minimum": "5159/10000",
+      "minimizers_scaled": [
+        [
+          2921,
+          0,
+          2238
+        ],
+        [
+          2921,
+          2238,
+          0
+        ]
+      ]
+    },
+    {
+      "primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "edge_count": 6,
+      "orientations_checked": 64,
+      "minimum_scaled": 6093,
+      "minimum": "6093/10000",
+      "minimizers_scaled": [
+        [
+          2921,
+          0,
+          2667,
+          505
+        ],
+        [
+          2921,
+          505,
+          2667,
+          0
+        ]
+      ]
+    },
+    {
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "edge_count": 9,
+      "orientations_checked": 512,
+      "minimum_scaled": 8877,
+      "minimum": "8877/10000",
+      "minimizers_scaled": [
+        [
+          2757,
+          3453,
+          2667,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "edge_count": 14,
+      "orientations_checked": 16384,
+      "minimum_scaled": 10120,
+      "minimum": "253/250",
+      "minimizers_scaled": [
+        [
+          2757,
+          3453,
+          2667,
+          0,
+          0,
+          1243
+        ]
+      ]
+    }
+  ],
+  "explicit_graphs": [
+    {
+      "primes": [
+        2,
+        3
+      ],
+      "edge_count": 1,
+      "orientations_checked": 2,
+      "minimum_scaled": 2850,
+      "minimum": "57/200",
+      "minimizers_scaled": [
+        [
+          0,
+          2850
+        ],
+        [
+          2850,
+          0
+        ]
+      ]
+    },
+    {
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "edge_count": 3,
+      "orientations_checked": 8,
+      "minimum_scaled": 5010,
+      "minimum": "501/1000",
+      "minimizers_scaled": [
+        [
+          2850,
+          0,
+          2160
+        ],
+        [
+          2850,
+          2160,
+          0
+        ]
+      ]
+    },
+    {
+      "primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "edge_count": 6,
+      "orientations_checked": 64,
+      "minimum_scaled": 5500,
+      "minimum": "11/20",
+      "minimizers_scaled": [
+        [
+          2850,
+          0,
+          2270,
+          380
+        ],
+        [
+          2850,
+          380,
+          2270,
+          0
+        ]
+      ]
+    },
+    {
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "edge_count": 9,
+      "orientations_checked": 512,
+      "minimum_scaled": 8150,
+      "minimum": "163/200",
+      "minimizers_scaled": [
+        [
+          2590,
+          3290,
+          2270,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "edge_count": 14,
+      "orientations_checked": 16384,
+      "minimum_scaled": 9130,
+      "minimum": "913/1000",
+      "minimizers_scaled": [
+        [
+          2590,
+          3290,
+          2270,
+          0,
+          0,
+          980
+        ]
+      ]
+    }
+  ],
+  "newly_effective_indices": [
+    16,
+    17,
+    19,
+    22,
+    23,
+    25,
+    26,
+    27,
+    30,
+    32,
+    33
+  ],
+  "new_numerical_bounds": {
+    "17": 324,
+    "23": 445,
+    "26": 506,
+    "27": 230,
+    "30": 256,
+    "32": 628,
+    "33": 338
+  },
+  "previously_effective_now_numerical_bounds": {
+    "28": 155,
+    "31": 171,
+    "34": 225
+  },
+  "indices": [
+    {
+      "i": 4,
+      "small_prime_count": 2,
+      "table_primes": [
+        2,
+        3
+      ],
+      "rho": "17/6",
+      "saving": "2921/10000",
+      "remaining_exponent": "-16237/30000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "57/200",
+      "explicit_remaining_exponent": "-329/600",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 5,
+      "small_prime_count": 2,
+      "table_primes": [
+        2,
+        3
+      ],
+      "rho": "18/5",
+      "saving": "2921/10000",
+      "remaining_exponent": "-3079/10000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "57/200",
+      "explicit_remaining_exponent": "-63/200",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 6,
+      "small_prime_count": 3,
+      "table_primes": [
+        2,
+        3,
+        5
+      ],
+      "rho": "30/7",
+      "saving": "5159/10000",
+      "remaining_exponent": "-53887/70000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "501/1000",
+      "explicit_remaining_exponent": "-5493/7000",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 7,
+      "small_prime_count": 3,
+      "table_primes": [
+        2,
+        3,
+        5
+      ],
+      "rho": "5",
+      "saving": "5159/10000",
+      "remaining_exponent": "-4841/10000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "501/1000",
+      "explicit_remaining_exponent": "-499/1000",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 8,
+      "small_prime_count": 4,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "rho": "45/8",
+      "saving": "6093/10000",
+      "remaining_exponent": "-10157/10000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "11/20",
+      "explicit_remaining_exponent": "-43/40",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 9,
+      "small_prime_count": 4,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "rho": "63/10",
+      "saving": "6093/10000",
+      "remaining_exponent": "-6907/10000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "11/20",
+      "explicit_remaining_exponent": "-3/4",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 10,
+      "small_prime_count": 4,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "rho": "7",
+      "saving": "6093/10000",
+      "remaining_exponent": "-3907/10000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "11/20",
+      "explicit_remaining_exponent": "-9/20",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 11,
+      "small_prime_count": 4,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "rho": "84/11",
+      "saving": "6093/10000",
+      "remaining_exponent": "-2977/110000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "11/20",
+      "explicit_remaining_exponent": "-19/220",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 12,
+      "small_prime_count": 5,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "rho": "108/13",
+      "saving": "8877/10000",
+      "remaining_exponent": "-54599/130000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "163/200",
+      "explicit_remaining_exponent": "-1281/2600",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 13,
+      "small_prime_count": 5,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "rho": "9",
+      "saving": "8877/10000",
+      "remaining_exponent": "-1123/10000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "163/200",
+      "explicit_remaining_exponent": "-37/200",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 14,
+      "small_prime_count": 6,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "135/14",
+      "saving": "253/250",
+      "remaining_exponent": "-552/875",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-5109/7000",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 15,
+      "small_prime_count": 6,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "165/16",
+      "saving": "253/250",
+      "remaining_exponent": "-601/2000",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-799/2000",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 16,
+      "small_prime_count": 6,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "11",
+      "saving": "253/250",
+      "remaining_exponent": "3/250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-87/1000",
+      "numerical_bound_by_prime_pairs": false,
+      "algebraic_bound_power_of_two": 5500
+    },
+    {
+      "i": 17,
+      "small_prime_count": 6,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "198/17",
+      "saving": "253/250",
+      "remaining_exponent": "1551/4250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "4521/17000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 239,
+      "full_row_bound_power_of_two": 324
+    },
+    {
+      "i": 18,
+      "small_prime_count": 7,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "234/19",
+      "saving": "253/250",
+      "remaining_exponent": "-1443/4750",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-7653/19000",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 19,
+      "small_prime_count": 7,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "13",
+      "saving": "253/250",
+      "remaining_exponent": "3/250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-87/1000",
+      "numerical_bound_by_prime_pairs": false,
+      "algebraic_bound_power_of_two": 8084
+    },
+    {
+      "i": 20,
+      "small_prime_count": 8,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "273/20",
+      "saving": "253/250",
+      "remaining_exponent": "-319/500",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-737/1000",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 21,
+      "small_prime_count": 8,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "315/22",
+      "saving": "253/250",
+      "remaining_exponent": "-421/1375",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-4457/11000",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 22,
+      "small_prime_count": 8,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "15",
+      "saving": "253/250",
+      "remaining_exponent": "3/250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-87/1000",
+      "numerical_bound_by_prime_pairs": false,
+      "algebraic_bound_power_of_two": 9334
+    },
+    {
+      "i": 23,
+      "small_prime_count": 8,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "360/23",
+      "saving": "253/250",
+      "remaining_exponent": "2069/5750",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "5999/23000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 326,
+      "full_row_bound_power_of_two": 445
+    },
+    {
+      "i": 24,
+      "small_prime_count": 9,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "408/25",
+      "saving": "253/250",
+      "remaining_exponent": "-77/250",
+      "effective_by_prime_pairs": false,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-407/1000",
+      "numerical_bound_by_prime_pairs": false
+    },
+    {
+      "i": 25,
+      "small_prime_count": 9,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "17",
+      "saving": "253/250",
+      "remaining_exponent": "3/250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "-87/1000",
+      "numerical_bound_by_prime_pairs": false,
+      "algebraic_bound_power_of_two": 10584
+    },
+    {
+      "i": 26,
+      "small_prime_count": 9,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "459/26",
+      "saving": "253/250",
+      "remaining_exponent": "582/1625",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "3369/13000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 369,
+      "full_row_bound_power_of_two": 506
+    },
+    {
+      "i": 27,
+      "small_prime_count": 9,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "513/28",
+      "saving": "253/250",
+      "remaining_exponent": "2417/3500",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "4141/7000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 199,
+      "full_row_bound_power_of_two": 230
+    },
+    {
+      "i": 28,
+      "small_prime_count": 9,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "19",
+      "saving": "253/250",
+      "remaining_exponent": "253/250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "913/1000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 141,
+      "full_row_bound_power_of_two": 155
+    },
+    {
+      "i": 29,
+      "small_prime_count": 9,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "570/29",
+      "saving": "253/250",
+      "remaining_exponent": "9837/7250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "36477/29000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 109,
+      "full_row_bound_power_of_two": 117
+    },
+    {
+      "i": 30,
+      "small_prime_count": 10,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "630/31",
+      "saving": "253/250",
+      "remaining_exponent": "5343/7750",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "18303/31000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 221,
+      "full_row_bound_power_of_two": 256
+    },
+    {
+      "i": 31,
+      "small_prime_count": 10,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "21",
+      "saving": "253/250",
+      "remaining_exponent": "253/250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "913/1000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 156,
+      "full_row_bound_power_of_two": 171
+    },
+    {
+      "i": 32,
+      "small_prime_count": 11,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "693/32",
+      "saving": "253/250",
+      "remaining_exponent": "1423/4000",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "1027/4000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 456,
+      "full_row_bound_power_of_two": 628
+    },
+    {
+      "i": 33,
+      "small_prime_count": 11,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "759/34",
+      "saving": "253/250",
+      "remaining_exponent": "1463/2125",
+      "effective_by_prime_pairs": true,
+      "newly_effective": true,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "10021/17000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 291,
+      "full_row_bound_power_of_two": 338
+    },
+    {
+      "i": 34,
+      "small_prime_count": 11,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "23",
+      "saving": "253/250",
+      "remaining_exponent": "253/250",
+      "effective_by_prime_pairs": true,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "913/1000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 204,
+      "full_row_bound_power_of_two": 225
+    },
+    {
+      "i": 35,
+      "small_prime_count": 11,
+      "table_primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "rho": "828/35",
+      "saving": "253/250",
+      "remaining_exponent": "2371/1750",
+      "effective_by_prime_pairs": true,
+      "newly_effective": false,
+      "explicit_saving": "913/1000",
+      "explicit_remaining_exponent": "8791/7000",
+      "numerical_bound_by_prime_pairs": true,
+      "algebraic_bound_power_of_two": 157,
+      "full_row_bound_power_of_two": 169
+    }
+  ]
+}

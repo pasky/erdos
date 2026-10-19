@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [tends_to_infinity, exceeds_n]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1106
@@ -86,6 +86,22 @@ not a claim. The
 [formal-conjectures file](https://github.com/google-deepmind/formal-conjectures/blob/da878b6b63ca0439443d754c41a226a1f816bee6/FormalConjectures/ErdosProblems/1106.lean)
 states the first question as solved with `answer(True)`, citing [ScWi87], and
 the second as open, both with `sorry` bodies.
+
+## Prime-factor and interval interface
+
+Let $N(q)$ be the first positive index for which $q\mid p(N(q))$.
+[[../library/arithmetic_functions/ono_2000_distribution_partition_function_modulo_m/_index|Ono's
+theorem and Corollary 2]] give $N(q)<\infty$ for each fixed prime $q$. Taking
+the maximum over any fixed finite set of primes proves $F(n)\to\infty$. This
+does not give a growing set of more than $n$ primes by time $n$.
+
+The remaining assertion is exactly $\#\{q\text{ prime}:N(q)\le n\}>n$
+eventually. Even reaching all primes $q\le n$ gives only $\pi(n)<n$. A usable
+effective bound must count enough distinct primes, with uniform
+first-occurrence control. The theorem statements were inspected; their
+modular-form proof and numerical data were not audited. Nonintegral arguments
+assigned the value zero in the source's convention are not partition witnesses.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

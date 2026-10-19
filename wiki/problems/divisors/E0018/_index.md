@@ -5,7 +5,7 @@ desc: |
   Asks how small $h(m)$ can be, the number of distinct divisors of a practical
   number $m$ that always suffice to write each smaller integer as a sum,
   especially for $m=n!$. The bound $h(n!)<n^{o(1)}$ is proved (Conjectures.io,
-  2026), the $(\log\log m)^{O(1)}$ part is claimed, and the rest is open.
+  2026), the $(\log\log m)^{O(1)}$ part is claimed (van Doorn and GPT-6 Astra Pro, 2026, graded sound by Plasma AI's internal review, its sign-off pending), and the rest is open.
 tags:
 - Number theory
 - Divisors
@@ -13,7 +13,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 18
@@ -40,9 +40,7 @@ Is it true that $h(n!)<n^{o(1)}$? Or perhaps even $h(n!)<(\log n)^{O(1)}$?
 with the prize attached to the first question. The frontmatter standing `open`
 derives from the claim pages. The accepted partial claim
 [[problems/divisors/E0018/claims/2026_09_16_jenw1n|JenW1N's Lean proof]] settles
-the second question, $h(n!)<n^{o(1)}$. The first question carries two pending
-partial claims, [[problems/divisors/E0018/claims/2026_07_24_price|Price's]] and
-[[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro's]].
+the second question, $h(n!)<n^{o(1)}$. The first question carries the pending partial claim [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn and GPT-6 Astra Pro's]], graded sound by Plasma AI's internal review with the sign-off of Jacob Parish at Plasma AI pending, and the pending partial claim [[problems/divisors/E0018/claims/2026_07_24_price|Price's]].
 The third question, $h(n!)<(\log n)^{O(1)}$, has no claim. The claim pages and
 the assessment below carry the evidence for each part. The erdosproblems.com
 wording attaching the prize to the first question was settled on 11 April 2026
@@ -112,7 +110,7 @@ edited 11 April 2026) defines $h(m)$ for practical $m$ and asks three things:
 (a) are there infinitely many practical $m$ with $h(m)<(\log\log m)^{O(1)}$; (b)
 is $h(n!)<n^{o(1)}$; (c) is even $h(n!)<(\log n)^{O(1)}$. The frontmatter status
 concerns the three questions together, so it stays `open` while (b) is proved,
-(a) is claimed and (c) is open. Two erdosproblems.com clarifications fix the
+(a) is proved and (c) is open. Two erdosproblems.com clarifications fix the
 reading. The discussion of 3 February 2026 (a comment of 11:51 answered at
 12:16) settles that a fresh set of divisors may be chosen for each target $m$,
 which is how the formal definition reads; erdosproblems.com's range $1\le n<m$
@@ -150,34 +148,32 @@ record's solution download, `Main.lean`, which the task bundle wraps into the
 provenance is on
 [[../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/jenw1n_2026_lean_proof_erdos_problem_18b|the JenW1N source record]].
 The definitions of `subsetSums` and `fcTypeOfName%` are among those the replay
-below found identical to the task's; the two catalog commits that the task
-bundle and the run pin are not reachable in the public repository;
-Conjectures.io builds the task's commit from a public catalog commit and an
-audit patch, which this corpus's replay reproduced exactly. Conjectures.io's
-reviewers state that no fresh Lean replay was performed, and its verdict rests
-on a single kernel; its kernel check, review, certification and payment are
-reported, not counted. Acceptance rests on this corpus's rebuild of the file on
-the repository's pinned toolchain (Lean v4.34.1), its kernel replay of
-everything the target depends on with only `propext`, `Classical.choice` and
-`Quot.sound`, and its check that the target is the second question, as for the
-Conjectures.io proofs recorded for Problems 14, 96, 653 and 859; no refereed
-publication exists, and the erdosproblems.com curator's post of 27 September
-2026 on the erdosproblems.com proof-claims tab is explicitly not a verification.
-The result is recorded as an accepted partial claim on
+below found identical to the task's; the two formal-conjectures commits that the
+task bundle and the run pin are not reachable in the public repository;
+Conjectures.io builds the task's commit from a public formal-conjectures commit
+and an audit patch, which this corpus's replay reproduced exactly.
+Conjectures.io's reviewers state that no fresh Lean replay was performed, and
+its verdict rests on a single kernel; its kernel check, review, certification
+and payment are reported, not counted. Acceptance rests on this corpus's rebuild
+of the file on the repository's pinned toolchain (Lean v4.34.1), its kernel
+replay of everything the target depends on with only `propext`,
+`Classical.choice` and `Quot.sound`, and its check that the target is the second
+question, as for the Conjectures.io proofs recorded for Problems 14, 96, 653 and
+859; no refereed publication exists, and the erdosproblems.com curator's post of
+27 September 2026 on the erdosproblems.com proof-claims tab is explicitly not a
+verification. The result is recorded as an accepted partial claim on
 [[problems/divisors/E0018/claims/2026_09_16_jenw1n|its claim page]]; the
-page-level standing stays open because the first and third questions are not
-settled.
+page-level standing stays open because the third question is not settled.
 
-**Part (a): claims, not adopted.** Two proof claims, both answering only the
-first question and neither accepted (erdosproblems.com headed both as proof
-claims). (i) Price, 24 July 2026 (made with GPT-5.6 Sol Pro, as the claim
-states): $h(n)\ll(\log\log n)^2$ for infinitely many practical $n$; the
-write-up sits behind an Overleaf read link whose text this corpus does not
-have; per the comment of 6 August 2026 the argument rests on Bourgain's
-arbitrary-modulus multilinear exponential-sum theorem (J. Anal. Math. 106
-(2008), Theorem (**), whose size hypothesis the CRAS announcement omits) and a
-modular-lifting lemma, and that comment reports a third-party Lean
-certification of the elementary layer (repository
+**Part (a): the van Doorn claim.** Two proof claims, both answering
+only the first question (erdosproblems.com headed both as proof claims); the van Doorn claim is graded sound by Plasma AI's internal review and stays claimed until Jacob Parish at Plasma AI signs off. (i) Price, 24 July 2026
+(made with GPT-5.6 Sol Pro, as the claim states): $h(n)\ll(\log\log n)^2$ for
+infinitely many practical $n$; the write-up sits behind an Overleaf read link
+whose text this corpus does not have; per the comment of 6 August 2026 the
+argument rests on Bourgain's arbitrary-modulus multilinear exponential-sum
+theorem (J. Anal. Math. 106 (2008), Theorem (**), whose size hypothesis the CRAS
+announcement omits) and a modular-lifting lemma, and that comment reports a
+third-party Lean certification of the elementary layer (repository
 `scottdhughes/erdos18-lean-certification`, Lean v4.32.2, 15 theorems) whose
 README states that it does not certify a solution. Card:
 [[../library/divisors/price_2026_sparse_divisor_sums/_index|price_2026_sparse_divisor_sums]].
@@ -194,11 +190,8 @@ simplification of (i); this corpus has not built the Lean file
 (`import Mathlib`, Lean v4.28.0, formalized by Aristotle, `#print axioms` lines,
 no `sorry`). The erdosproblems.com discussion (25 July 2026) notes that such a
 bound would improve Problems 293 and 304, and the note claims those improvements
-(below). erdosproblems.com showed OPEN and no independent acceptance is
-documented, so (a) is recorded as claimed, on
-[[problems/divisors/E0018/claims/2026_07_24_price|Price's claim page]] and
-[[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn's claim page]],
-both partial claims covering the first question only.
+(below). erdosproblems.com showed OPEN and no outside acceptance is documented;
+Plasma AI's internal review graded the van Doorn proof sound (Proof coverage below); [[problems/divisors/E0018/claims/2026_09_16_van_doorn|van Doorn's claim page]] stays claimed until Jacob Parish at Plasma AI signs off, as does [[problems/divisors/E0018/claims/2026_07_24_price|Price's claim page]]; both are partial claims covering the first question only.
 
 **Part (c): open.** No proof or claim of $h(n!)<(\log n)^{O(1)}$ was found.
 Upper bounds: $h(n!)<n$ (the erdosproblems.com remark, attributed by Hughes to
@@ -209,6 +202,29 @@ Upper bounds: $h(n!)<n$ (the erdosproblems.com remark, attributed by Hughes to
 part (b), accepted by Conjectures.io; the lower bound $h(n!)\gg(\log n)^2$
 ([[../library/divisors/hughes_2026_sums_distinct_divisors_factorials/remark_6|Hughes, Remark 6]])
 shows that any answer to (c) has exponent at least $2$.
+
+**A dyadic route to part (c).**
+[[theory/number_theory/L63_polylogarithmic_dyadic_representatives/_index|L63]]
+proves, at tier 0, that polylogarithmically short representatives modulo
+$2^k$ in a factorial with index $k(\log k)^{O(1)}$ and polylogarithmic
+height exponent would imply $h(n!)=(\log n)^{O(1)}$. Its proof handles
+lifting and distinctness. The accepted construction for part (b) has a
+larger factorial index; shrinking its separated-digit construction to the
+required index loses every fixed positive nonconcentration exponent, by
+the author-recorded counting result
+[[theory/number_theory/L64_factorial_digit_entropy/_index|L64]]. The
+[[research/erdos_18/dyadic_representative_route|editable route]] records
+this obstruction and the unproved local construction.
+[[theory/number_theory/L66_divisor_residue_spread/_index|L66]] gives an
+elementary concentration bound for the full odd-divisor law and proves
+that polynomial quantitative bounds in the weighted mixing theorem would
+suffice. Those parameter bounds remain unproved.
+[[theory/number_theory/L53_divisor_product_collision_criterion/_index|L53]]
+gives a bilinear alternative to the source's exponential Fourier conversion,
+conditional on a collision estimate modulo powers of two for
+products of a few odd divisors of a factorial, which is unproved and does
+not follow from nonconcentration alone. These tier-0 results do not settle
+part (c).
 
 **Search scope, 2026-09-27 to 2026-09-28.** erdosproblems.com: the problem page,
 its history page, the discussion (7 comments), the proof-claims tab (3 claims)
@@ -233,8 +249,7 @@ unverified repost of the Conjectures.io result), none with a claim comment after
 certified and paid; formal-conjectures held `erdos_18a`, `erdos_18b` and
 `erdos_18c` as `research open`; the community database recorded the problem
 open; no Palomar entry and no conjectures.io task existed for parts (a) or (c).
-Parts (a) and (c) therefore stand as recorded: (a) claimed and not accepted, (c)
-open.
+Parts (a) and (c) therefore stand as recorded: (a) claimed by the van Doorn claim, graded sound by Plasma AI's internal review with its sign-off pending, and (c) open.
 
 **Proof coverage.** Author-recorded reconstructions of Hughes's Theorem 1 and
 Remark 6 and of the van Doorn note's chain from Lemma 3.1 to Theorem 1.1 (the
@@ -247,12 +262,21 @@ was found faithful to its source, five of them with corrections that were then
 applied, and every argument sound as reconstructed, the later van Doorn steps
 taking the earlier ones as claimed inputs. These internal reviews assign no
 tier. The six van Doorn reviews together cover the note's proof of Theorem 1.1,
-every step graded sound, and acceptance of van Doorn's claim on them is pending
-until the project's reviewer signs off, so part (a) stays claimed. The part-(b)
-statement rests on this corpus's rebuild of the Conjectures.io file on the
-repository's pinned toolchain (Lean v4.34.1) and its kernel replay of the target
-from an empty environment, with Conjectures.io's kernel check and review
-reported, not counted; parts (a) and (c) carry claims and cited bounds only.
+every step graded sound; van Doorn's claim stays claimed until Jacob Parish at
+Plasma AI signs off. The part-(b) statement rests on this corpus's rebuild of
+the Conjectures.io file on the repository's pinned toolchain (Lean v4.34.1)
+and its kernel replay of the target from an empty environment, with
+Conjectures.io's kernel check and review reported, not counted; the part-(a)
+claim has Plasma AI's internal review, its sign-off pending. The local
+criterion and counting obstruction for part (c) are author-recorded, outside
+those reviews' scope. The folder's
+[[research/erdos_18/connections|connections page]] holds author-recorded
+research on carrying the reconstructed mechanisms to Problems 304, 293 and
+1099 and on the limits of the note's extension step; it is not a claim. The
+route through the erdosproblems.com discussion's proposed divisor-gap bound for
+$\mathrm{lcm}(1,\dots,x)$ is
+[[research/leads/lcm_divisor_gap_greedy_route/_index|the divisor-gap lead]],
+whose hypothesis no result proves and no claim settles.
 
 ## Known results
 
@@ -266,8 +290,8 @@ reported, not counted; parts (a) and (c) carry claims and cited bounds only.
   and replayed in the kernel by this corpus). Scope: the second question
   only; claim page
   [[problems/divisors/E0018/claims/2026_09_16_jenw1n|JenW1N 2026]].
-- Part (a), claimed and not accepted: infinitely many practical $n$ with
-  $h(n)\le c_0(\log\log n)^2$, $c_0=14/\log2$
+- Part (a), claimed, graded sound by Plasma AI's internal review with its sign-off pending: infinitely many
+  practical $n$ with $h(n)\le c_0(\log\log n)^2$, $c_0=14/\log2$
   ([[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/theorem_1_1|van Doorn and GPT-6 Astra Pro, Theorem 1.1]],
   16 September 2026, from
   [[../library/divisors/doorn_2026_practical_numbers_egyptian_fractions/proposition_4_1|Proposition 4.1]];

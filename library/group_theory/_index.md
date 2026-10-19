@@ -3,7 +3,7 @@ name: group_theory
 title: "Group Theory"
 desc: "Sources filed under Group Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T17:47:53Z
+updated: 2026-10-16T16:08:20Z
 ---
 
 # Group Theory
@@ -32,6 +32,8 @@ encoding cosets as prime-power product sets and compressing their union.
 
 [[group_theory/berger_et_al_1987_remark_multiplicity_partition_group_into_cosets/_index|berger_et_al_1987_remark_multiplicity_partition_group_into_cosets/]]: Proves repeated-index multiplicity bounds for exact coset partitions of
 finite pyramidal groups, including all finite supersolvable groups.
+
+[[group_theory/brouwer_1986_inequality_binary_vector_spaces/_index|brouwer_1986_inequality_binary_vector_spaces/]]: Brouwer's codimension bound for irredundant covers of a binary vector space by affine subspaces.
 
 [[group_theory/erdos_1965_probabilistic_methods_group_theory/_index|erdos_1965_probabilistic_methods_group_theory/]]: Shows that about log base two of n random elements of an abelian group of
 order n let every element be written as a subset sum.

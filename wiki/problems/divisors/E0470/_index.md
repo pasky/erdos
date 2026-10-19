@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 470
@@ -82,9 +82,24 @@ https://www.erdosproblems.com/470.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/470.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The two prime windows in
+[[../library/divisors/melfi_2015_conditional_infiniteness_primitive_weird_numbers/theorem_1|Melfi's
+conditional construction]] occur around $x=2^{k+2}$: it needs primes $x-a,x+b$
+with $b+3<a<\sqrt x/(2\sqrt2)$. A uniform prime-gap function $h$ meeting
+$2h(x)+O(1)<\sqrt x/(2\sqrt2)$ would supply a sufficient interface. An exponent
+$0.525$ cannot satisfy this eventually. The resulting $2^kpq$ construction is
+even and supplies no odd example.
+
+For an abundant $n$, complementation within its proper divisors converts a
+subset sum of $n$ into a subset sum of the abundance $\sigma(n)-2n$, and
+conversely. This is useful only if that exact complementary sum can be excluded
+for the proposed odd numbers. The source hypotheses and algebra were inspected,
+without a full proof audit. The finite ranges reported by
+[[../library/divisors/fang_2022_searching_boundary_abundance_odd_weird_numbers/_index|Fang]]
+were not replayed. Neither a larger finite search nor an even construction
+settles the odd question.
 
 ## Known Results
 

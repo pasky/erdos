@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:33Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 451
@@ -273,6 +273,9 @@ problem; Erdős's $e^{\varepsilon k}$ expectation and the $k/\log k$ heuristic
 are unproved. (3) The monograph's "We can prove $n_k>k^{1+c}$" is accompanied by
 no proof or reference. (4) Proof coverage is at statement level; [Ko99] and
 [BHP01] are not held.
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,0 +1,164 @@
+{
+  "scope": "Interval certificate, using a separate finite prime-power certificate; no row enumeration.",
+  "finite_pair_certificate_file": "erdos_699_finite_prime_pairs.json",
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "maximum_nodes_per_index": 2000000,
+  "records": [
+    {
+      "i": 19,
+      "terminal_prime_lower_row": 887,
+      "inclusive_cap_power_of_ten": 43,
+      "visited_intervals": 403279,
+      "certified_intervals": 201640,
+      "intervals_requiring_local_prime_pairs": 126958,
+      "minimal_prime_pair_vectors": 15,
+      "minimum_certified_log_margin": "0.000006247759650524925159303163929308328554387919930965365",
+      "interval_partition_sha256": "dc87a816430478fe10f976f9d714a484200deee49fc7d5962c288efa21e8b387",
+      "conclusion": "no bad triples",
+      "finite_prime_pairs": [
+        [
+          2,
+          17
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "original_numerical_cap_power_of_ten": 976,
+      "cofactor_saving_scaled": 13549
+    },
+    {
+      "i": 22,
+      "terminal_prime_lower_row": 1327,
+      "inclusive_cap_power_of_ten": 957,
+      "visited_intervals": 488719,
+      "certified_intervals": 244360,
+      "intervals_requiring_local_prime_pairs": 179710,
+      "minimal_prime_pair_vectors": 46,
+      "minimum_certified_log_margin": "0.000002460744858015507347761213279972597804118488115434850",
+      "interval_partition_sha256": "106434093bce30651a812494bf204fbbbcc863f07d1c35220e690ae551caecca",
+      "conclusion": "no bad triples",
+      "finite_prime_pairs": [
+        [
+          17,
+          19
+        ],
+        [
+          2,
+          17
+        ]
+      ],
+      "original_numerical_cap_power_of_ten": 957,
+      "cofactor_saving_scaled": 12463
+    },
+    {
+      "i": 24,
+      "terminal_prime_lower_row": 1327,
+      "inclusive_cap_power_of_ten": 61,
+      "visited_intervals": 625401,
+      "certified_intervals": 312701,
+      "intervals_requiring_local_prime_pairs": 216896,
+      "minimal_prime_pair_vectors": 34,
+      "minimum_certified_log_margin": "0.000010488149957092861425740230633590659384554166142617586",
+      "interval_partition_sha256": "229846f984c1351b993232eeeaff62d516a5c02fea54f04dc8cde5b990d3fdfe",
+      "conclusion": "no bad triples",
+      "finite_prime_pairs": [
+        [
+          17,
+          19
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          11,
+          23
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "original_numerical_cap_power_of_ten": 976,
+      "cofactor_saving_scaled": 16462
+    },
+    {
+      "i": 25,
+      "terminal_prime_lower_row": 1327,
+      "inclusive_cap_power_of_ten": 957,
+      "visited_intervals": 274431,
+      "certified_intervals": 137216,
+      "intervals_requiring_local_prime_pairs": 83179,
+      "minimal_prime_pair_vectors": 70,
+      "minimum_certified_log_margin": "0.000011820291234771404804637635112858741434971383562368170",
+      "interval_partition_sha256": "d523af29842ecff1ce5a71d2f461c732f3b734c5fe38c4c25f1c0c76621fb048",
+      "conclusion": "no bad triples",
+      "finite_prime_pairs": [
+        [
+          17,
+          19
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          11,
+          23
+        ]
+      ],
+      "original_numerical_cap_power_of_ten": 957,
+      "cofactor_saving_scaled": 14476
+    }
+  ],
+  "total_visited_intervals": 1791830,
+  "total_certified_intervals": 895917,
+  "minimum_certified_log_margin": "0.000002460744858015507347761213279972597804118488115434850",
+  "conclusion": "No bad triples at indices 19, 22, 24, and 25, with the original threshold p>=i."
+}

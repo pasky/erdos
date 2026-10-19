@@ -7,7 +7,7 @@ desc: |
   arithmetic conclusion about the value at one half.
 license: reserved
 created: 2026-09-17T15:54:43Z
-updated: 2026-10-07T20:53:42Z
+updated: 2026-10-13T14:13:11Z
 ---
 
 # Bell and Smertnig (2026): Mahler Series with Multiplicative Coefficients
@@ -52,8 +52,12 @@ It does not adopt the printed corollary without that qualification.
 For the totient coefficients, the decomposition would force an eventually
 periodic function to take infinitely many distinct values on primes.
 The resulting non-Mahler conclusion is a functional statement.
+The [[../wiki/research/leads/totient_binary_series/analytic_sources|research specialization]]
+gives its elementary derivation, a non-Mahler integer series taking a
+rational value at one half, and the resulting limit on this approach.
 
-The source has been read in full as extracted text. This extraction checks
+The source has been read in full as extracted text for that research
+account, with the image coverage recorded there. This extraction checks
 the statement against the p. 2 image and reads the definitions on pp. 4–6,
 the totient example on p. 3, and the proof assembly on p. 27.
 It provides a statement and a proof pointer, not a complete source-proof

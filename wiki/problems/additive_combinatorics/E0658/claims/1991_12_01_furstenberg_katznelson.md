@@ -23,7 +23,7 @@ links:
 - url: https://www.erdosproblems.com/658
   kind: discussion
 created: 2026-10-07T07:55:13Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-18T03:27:26Z
 ---
 
 ***
@@ -54,5 +54,5 @@ Reviewed: the erdosproblems.com curator, Thomas Bloom, labeled the problem
 proved. The problem page's commentary credits the answer without a bound to
 Furstenberg and Katznelson's density Hales–Jewett theorem. The proof-claim tab
 is empty. Solymosi's later
-[[problems/additive_combinatorics/E0658/claims/2004_03_01_solymosi|quantitative proof]]
+[[problems/additive_combinatorics/E0658/claims/2004_03_03_solymosi|quantitative proof]]
 gives the same conclusion with a bound that is at best of tower type.

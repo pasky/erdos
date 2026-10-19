@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 475
@@ -237,6 +237,13 @@ February 2026, unformalized, with no formal proof.
 
 ## Current assessment
 
+The
+[[research/arithmetic_construction_interfaces/progression_transfers|range-composition
+analysis]] states the eventual overlap and the constants still needed for a
+numerical prime cutoff. Its proposed certificate format is conditional on such
+a cutoff and checks only nonempty prefix sums. No bounded residual verification
+is supplied.
+
 **The question (erdosproblems.com formulation as accessed 2026-09-18).** The
 statement above; DECIDABLE, a label erdosproblems.com explains as resolved
 except for a finite check; last edited 5 March 2026. The commentary, in this
@@ -446,27 +453,27 @@ the journal texts of [BeKr24], [MuPo25], [CoPe20] and [HOS19].
 **Remaining gaps.** (1) The threshold $p_0$ is not explicit, so the finite
 remainder has no stated bound; reopening condition: an explicit $p_0$ with a
 check of the primes below it, or a proof for every prime. (2) Two links of the
-chain, [PhSa26] and [BBKMM25], and the current small-range record [CoDe26],
-are preprints; a refereed version of each is the reopening condition for that
-qualification. (3) The zero-sum $(p-3)$-subsets
-$\mathbb Z_p\setminus\{0,x,-x\}$, inside erdosproblems.com's range
-$p-3\le t\le p-1$, are covered by no cited source for a fixed prime: Alspach's
-conjecture leaves them out, and the appending step of [ADMS16] would need
-Alspach's conjecture at size $p-4$. [BoHa05]'s Theorem 2 is cited from the paper
-itself, so the size $p-2$ of Alspach's conjecture is first-hand; the appending
-step that carries it to $\mathbb Z_p\setminus\{0\}$ is quoted from [CoPe20], p.
-7, as [ADMS16] is not held. (4) [Gr71], the source of the problem, is quoted at
-its Question 10 under Formulation; the paper states the conjecture without proof
-and without the case $t=p-1$, so Graham's proof of that case, reported by
-[Er73], is stated in none of the sources cited here. The odd-$n$ directed cycle
-in the proof of [BoHa05]'s Theorem 2 (p. 4) is an ordering of all of
-$\mathbb Z_p\setminus\{0\}$ with distinct partial sums, the last being $0$,
-which is that case; this is the corpus's own reading, recorded on the result
-page, and not a statement of the paper. (5) Proof coverage is statements only:
-the result pages record claims checked at statement level, and no argument of
-the chain has been reviewed; the anticoncentration theorem of [PhSa26] and the
-absorption argument of [BBKMM25] are the natural candidates for an independent
-review.
+chain, [PhSa26] and [BBKMM25], and the current small-range record [CoDe26], are
+preprints; a refereed version of each is the reopening condition for that
+qualification. (3) The zero-sum $(p-3)$-subsets $\mathbb Z_p\setminus\{0,x,-x\}$
+lie inside the range $p-3\le t\le p-1$ that erdosproblems.com lists as known,
+yet no cited source covers them for a fixed prime: Alspach's conjecture leaves
+them out, and the appending step of [ADMS16] would need Alspach's conjecture at
+size $p-4$. The gap is in the sourcing, not a case erdosproblems.com leaves
+open. [BoHa05]'s Theorem 2 is cited from the paper itself, so the size $p-2$ of
+Alspach's conjecture is first-hand; the appending step that carries it to
+$\mathbb Z_p\setminus\{0\}$ is quoted from [CoPe20], p. 7, as [ADMS16] is not
+held. (4) [Gr71], the source of the problem, is quoted at its Question 10 under
+Formulation; the paper states the conjecture without proof and without the case
+$t=p-1$, so Graham's proof of that case, reported by [Er73], is stated in none
+of the sources cited here. The odd-$n$ directed cycle in the proof of [BoHa05]'s
+Theorem 2 (p. 4) is an ordering of all of $\mathbb Z_p\setminus\{0\}$ with
+distinct partial sums, the last being $0$, which is that case; this is the
+corpus's own reading, recorded on the result page, and not a statement of the
+paper. (5) Proof coverage is statements only: the result pages record claims
+checked at statement level, and no argument of the chain has been reviewed; the
+anticoncentration theorem of [PhSa26] and the absorption argument of [BBKMM25]
+are the natural candidates for an independent review.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -9,14 +9,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:56Z
+updated: 2026-10-16T12:32:50Z
 ---
 
 # Problem 257
 
 [[problems/irrationality/_index|..]]
 
-[[problems/irrationality/E0257/claims/_index|claims/]]: The 5 claim pages of Problem 257, one per claimant's result; the problem's standing derives from them.
+[[problems/irrationality/E0257/claims/_index|claims/]]: The 6 claim pages of Problem 257, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -40,9 +40,13 @@ covers pairwise coprime supports with convergent reciprocal sum.
 covers the sets $F_s(E)$ of products of powers below $s$ of a pairwise coprime,
 polynomially bounded sequence, such as the squarefree integers.
 [[problems/irrationality/E0257/claims/2025_12_01_tao_teravainen|Tao and Teräväinen's theorem]]
-covers the primes. One pending partial claim,
-[[problems/irrationality/E0257/claims/2026_09_11_cook|Cook's 2026 note]],
+covers the primes. The pending partial claim in
+[[problems/irrationality/E0257/claims/2026_09_11_cook|Cook's 2026 note]]
 asserts irrationality for every support with convergent reciprocal sum.
+His
+[[problems/irrationality/E0257/claims/2026_09_25_cook|registered weighted-support criterion]]
+claims a broader sufficient condition, still short of arbitrary infinite
+supports.
 
 **Source.** [erdosproblems.com/257](https://www.erdosproblems.com/257), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #257,
@@ -89,7 +93,11 @@ the paper only sketches the prime powers. Every $A$ with
 $\sum_{a\in A}1/a<\infty$, at every integer base: Theorem 1.1 of Cook's note
 of 2026, drafted with AI agents and without independent review, the pending
 partial claim on
-[[problems/irrationality/E0257/claims/2026_09_11_cook|its claim page]]. Two
+[[problems/irrationality/E0257/claims/2026_09_11_cook|its claim page]]. Cook's
+[[problems/irrationality/E0257/claims/2026_09_25_cook|weighted-support claim]]
+extends the sufficient condition to a finite-prime weighted sum. The selected
+formal statements have been inspected, but their proofs have not been
+replayed here; the claim remains pending and leaves the full question open. Two
 further classes have no claim page because their source states no instance of
 the problem. Borwein's Theorem 1 (Math. Proc. Cambridge Philos. Soc. 112
 (1992), 141--146;
@@ -119,6 +127,57 @@ erdosproblems.com page and remarks (2026-09-04), its discussion thread (posts
 through 2026-09-11), the arXiv record of Tao and Teräväinen's preprint
 (2026-09-06) and the formal-conjectures file at its commit of 2026-09-23; no
 wider literature search is recorded, and no proof is checked here.
+
+## Scope of the irrationality criterion
+
+The exact coefficient transform, justified by nonnegative summation, is
+
+$$
+\sum_{a\in A}\frac1{2^a-1}
+ =\sum_{m\ge1}\frac{\theta_A(m)}{2^m},\qquad
+\theta_A(m)=\#\{a\in A:a\mid m\}.
+$$
+
+It is not the coefficient $\tau(m)\mathbf1_A(m)$.
+[[../library/irrationality/borwein_1992_irrationality_certain_series/_index|Borwein's
+Theorem 1]] handles fixed-shift full power sequences and hence individual
+arithmetic progressions after rescaling and a finite rational correction; it
+does not permit arbitrary support deletion. Even adding finitely many known
+irrational sums needs an independence argument.
+
+The multiplicative supports in
+[[../library/irrationality/duverney_tachiya_2019_refinement_chowla_erdos_method_linear_independence_certain_lambert_series/_index|Duverney–Tachiya's
+Corollary 1.2]] have extra hypotheses. For $A=\{2^j:j\ge0\}$,
+$\theta_A(m)=v_2(m)+1$. Any infinite pairwise-coprime candidate sequence for
+their H1 contains arbitrarily large odd members $e$; at $m=e^\gamma$, the
+required divisibility by two fails because $\theta_A(m)=1$. This obstructs that
+direct criterion, not irrationality of this example. The relevant theorem
+statements, including
+[[../library/irrationality/vandehey_2012_incomplete_argument_erdos_irrationality_lambert_series/_index|Vandehey's
+finite-alphabet version]], were inspected without full proof audits. A usable
+theorem must control the actual support-divisor count.
+
+## Greedy expansions of rationals
+
+The sums $\sum_{n\in A}\frac1{2^n-1}$ over all $A\subseteq\mathbb N$ are
+pairwise distinct and form a Cantor set of Lebesgue measure one inside $[0,E]$,
+$E=\sum_{n\ge1}\frac1{2^n-1}$; the gap left at step $n$ of the greedy
+expansion has length between $\frac23 4^{-n}$ and $\frac{4^{-n}}{1-2^{-n}}$.
+A rational lies in the set exactly when its greedy expansion never meets a
+gap, and for $\frac12$, or any other dyadic rational that is not an integer,
+the support would then be infinite, since every finite subsum has odd
+denominator. Plasma AI's
+[[research/leads/reciprocal_mersenne_greedy/_index|greedy-expansion lead]]
+records these criteria with certified finite checks: $\frac12$ and
+$\frac1{21}$ pass their first 20000 greedy steps; of the reduced fractions in
+$(0,E)$ with denominator at most 200 that are not finite subsums, about 62
+percent pass their first 1000 steps, close to the share $1/E$ that a uniformly
+placed point would have, and each of the others meets a gap by step 12; and no
+nonempty support periodic with period at most 10 has a rational sum with
+denominator below $2^{1000}$. These results are author-recorded and unreviewed.
+A finite check does not reach the later steps, so no rational
+with infinite support is proved to lie in the set, and the question stays open.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

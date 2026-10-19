@@ -3,7 +3,7 @@ name: factorials_binomials
 title: "Factorials and Binomial Coefficients"
 desc: "Sources filed under Factorials and Binomial Coefficients, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T17:04:21Z
+updated: 2026-10-19T05:41:44Z
 ---
 
 # Factorials and Binomial Coefficients
@@ -203,6 +203,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/factorials_binomials/E0373/_index|E0373]]
 - [[diophantine_problems/luca_2014_squares_factorials_products_factorials/_index|luca_2014_squares_factorials_products_factorials]]
   - [[../wiki/problems/factorials_binomials/E0373/_index|E0373]]
+- [[diophantine_problems/ulas_2013_note_erdos_straus_erdos_graham/_index|ulas_2013_note_erdos_straus_erdos_graham]]
+  - [[../wiki/problems/factorials_binomials/E0396/_index|E0396]]
 - [[distance_problems/feng_2026_semi_autonomous_mathematics_discovery_gemini_case/_index|feng_2026_semi_autonomous_mathematics_discovery_gemini_case]]
   - [[../wiki/problems/factorials_binomials/E0397/_index|E0397]]
 - [[extremal_graph_theory/erdos_1993_my_favorite_solved_unsolved_problems_graph_theory/_index|erdos_1993_my_favorite_solved_unsolved_problems_graph_theory]]
@@ -233,5 +235,7 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/factorials_binomials/E0478/_index|E0478]]
   - [[../wiki/problems/factorials_binomials/E0699/_index|E0699]]
   - [[../wiki/problems/factorials_binomials/E1094/_index|E1094]]
+- [[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/_index|johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem]]
+  - [[../wiki/problems/factorials_binomials/E0699/_index|E0699]]
 
 <!-- END library subjects -->

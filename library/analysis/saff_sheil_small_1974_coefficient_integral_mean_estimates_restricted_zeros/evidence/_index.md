@@ -6,7 +6,7 @@ desc: |
   review of the Theorem 1 chain and Problem 225 transfer, the later blind
   reviews with their grades.
 created: 2026-09-16T20:10:00Z
-updated: 2026-10-07T12:10:39Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 # Evidence for Saff and Sheil-Small (1974)
@@ -31,4 +31,10 @@ stood on 2026-09-18T09:26:42Z with its grade, which passes both rulings and
 finds no defect. No review reproves the external Lax, Gauss--Lucas, Littlewood or
 beta-integral inputs.
 
-Extracts reproducing the paper's text are not held, since no license on record permits redistribution.
+The frozen extractions the records cite as their exact subjects
+(`assets/frozen_theorem_2.md`, `assets/frozen_r3_saff.md` and
+`assets/frozen_transfer_check.md`) are not held in the repository; the records
+name the pages they extracted and the dates.
+
+Extracts reproducing the paper's text are not held, since no license on record
+permits redistribution.

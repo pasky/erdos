@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 66
@@ -43,9 +43,22 @@ https://www.erdosproblems.com/66.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/66.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The two positive logarithmic constants in
+[[../library/additive_combinatorics/erdos_1956_problems_results_additive_number_theory/inequality_6|Erdős's
+inequality (6)]] do not give a limit. His subsequent equation (7) gives one
+coefficient away from a density-zero exceptional set; its accompanying text
+says that eventual everywhere validity has probability zero in the specified
+random model. This obstructs that model, not every set $A$.
+
+The fluctuation bound in [Horváth's primary
+abstract](https://real.mtak.hu/65700/), specialized to $g(n)=c\log n$, has
+scale $\sqrt{\log n}=o(\log n)$. Such fluctuations do not contradict the
+proposed normalized limit. Only the abstract was inspected, so its full proof
+is not an input. The remaining task is uniform $o(\log n)$ error, or an
+obstruction of logarithmic order; density-one asymptotics and smaller nonzero
+fluctuations do not decide it.
 
 ## Known Results
 

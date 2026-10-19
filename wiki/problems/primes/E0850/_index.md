@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 850
@@ -68,9 +68,9 @@ The status above is imported from the dated erdosproblems.com record. Shorey and
 Tijdeman prove that the answer is no under Baker's explicit form of the abc
 conjecture;
 [[problems/primes/E0850/claims/2016_12_16_shorey_tijdeman|their claim page]]
-records that conditional result, which gives no unconditional answer. The note
-below records an author-recorded reconstruction from a research folder and is
-not independently reviewed. This page records no current literature search or
+records that conditional result, which gives no unconditional answer. The notes
+below record author-recorded transfers from research folders and are not
+independently reviewed. This page records no current literature search or
 independent assessment of proof coverage.
 
 ## Known Results
@@ -78,7 +78,31 @@ independent assessment of proof coverage.
 Lemma 3.2 of Pollack, Pomerance and Treviño, reconstructed on
 [[research/erdos_49/lemma_3_2_reconstruction|its page]], bounds the number of
 $j$ with $j$ and $j+k$ sharing their prime factors by $3\cdot7^{3+2\omega(k)}$
-for each fixed $k$.
+for each fixed $k$;
+[[research/erdos_49/connections|the Problem 49 connections page]] records why a
+per-difference bound does not bear on this question.
+
+## Exact local reduction and remaining uniformity
+
+For $1\le x<y$, put $d=y-x$. Every prime dividing any $y+i$, $0\le i\le2$, also
+divides $x+i$ by the support hypothesis, hence divides $d$. Therefore
+
+$$
+\operatorname{rad}(y(y+1)(y+2))\mid d<y,
+\qquad 6\mid d.
+$$
+
+The coprime positive triple $1+y(y+2)=(y+1)^2$ consequently has abc quality
+greater than two. The short proof of
+[[../library/primes/shorey_2016_arithmetic_properties_blocks_consecutive_integers/theorem_9_1|Shorey–Tijdeman's
+conditional exclusion]] was inspected, but its explicit-abc premise remains
+conjectural and the imported consequence was not independently checked. The
+existing fixed-difference candidate bound likewise does not control all
+differences or prove that the three support conditions have empty intersection.
+This author reduction needs an unconditional exclusion of these triples or a
+finite height bound; it gives no positive-integer answer from the
+negative-integer example.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 840
@@ -53,13 +53,19 @@ https://www.erdosproblems.com/840.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/constants_and_polynomial_images|sidon
+constants and polynomial images]] account records the following scope. Pikhurko
+Theorem 2 combined with the quasi-Sidon hypothesis yields
+k<=(1/4+1/(pi+2)^2)^(-1/2)sqrt(N)(1+o(1)), approximately 1.863 sqrt(N), while
+the inspected lower account gives 2/sqrt(3).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 608
@@ -35,8 +35,8 @@ $n$. So no range on $n$ removes the failures, the Statement stands as printed,
 and both readings have the negative answer.
 
 **Status.** Disproved, the erdosproblems.com label (DISPROVED (LEAN)), whose
-suffix is a catalog label explained under Formalization. The result and its
-acceptance evidence are recorded on the claim page
+suffix is an erdosproblems.com label explained under Formalization. The result
+and its acceptance evidence are recorded on the claim page
 [[problems/extremal_graph_theory/E0608/claims/2016_05_29_grzesik_hu_volec|Grzesik--Hu--Volec]],
 from which the frontmatter is derived. The Statement fails trivially at small
 orders, first at $K_3$ (Formulation). It also fails at every large order. The
@@ -142,7 +142,7 @@ $(n/2)-O(1)$ vertices joined to at least two of its vertices; the conjecture
 is stated for graphs with $\lfloor n^2/4\rfloor+1$ edges and no lower bound on
 $n$.
 
-erdosproblems.com's word "Lean" and the formalization link are catalog
+erdosproblems.com's word "Lean" and the formalization link are erdosproblems.com
 information. The repository's README at the pinned commit reports an
 eventual-form disproof with an explicit gap and a separate counterexample to the
 form with no lower bound on $n$, and names Füredi and Maleki, as described by

@@ -5,10 +5,11 @@ order), each with at most eight vectors, with at most 3**8 signed sums
 enumerated per layer. The checks are that every layer is dissociated, that
 the successive signed-span intersections of the 52-point subset of
 X tensor S_7 have the recorded sizes 2187, 339, 75, 25, 15, 9, 1, and that
-both complementary subsets of X tensor S_11 reach intersection {0}.
-Arithmetic is exact integer arithmetic; no search runs. The layer lists come
-from Ramsey--Graham, Pacific J. Math. 225 (2006), Example 7.3 and Appendix;
-the script verifies the data rather than assuming the reported outcome.
+both complementary subsets of X tensor S_11 reach intersection {0} by their
+tenth layer. Arithmetic is exact integer arithmetic; no search runs. The
+layer lists come from Ramsey--Graham, Pacific J. Math. 225 (2006), Example
+7.3 and Appendix; the script verifies the data rather than assuming the
+reported outcome.
 
 Run from the repository root:
     uv run --no-sync python wiki/research/erdos_774/evidence/tensor_layers/main.py
@@ -96,8 +97,14 @@ def main() -> int:
     checker.check('E105 intersection sizes are as recorded', sizes_105 == _SIZES_105, f'observed {sizes_105}')
     first = _FIRST_165 + [_FIRST_165[0]]
     second = [sorted(set(range(1, 16)) - set(a)) for a in first]
-    _verify(checker, 'E165 first color', first)
-    _verify(checker, 'E165 second color', second)
+    first_sizes = _verify(checker, 'E165 first color', first)
+    second_sizes = _verify(checker, 'E165 second color', second)
+    # the tenth prefix already certifies two colors for the abstract 3x5x10 grid
+    checker.check(
+        'both colors reach intersection zero by the tenth layer',
+        first_sizes[9] == second_sizes[9] == 1,
+        f'observed {first_sizes[9]}, {second_sizes[9]}',
+    )
     return checker.finish()
 
 

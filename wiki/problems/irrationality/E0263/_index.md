@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [two_tower_sequence, growth_necessary]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:12:01Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 263
@@ -151,6 +151,11 @@ form, citing `Folklore.lean` of the claimant's repository at an earlier commit
 as its formal proof, and in the eventual form that matches the claim, citing no
 proof; its variant `folklore` states the second criterion without a proof
 link. The formal-conjectures catalog links proofs without refereeing them.
+The [[research/relative_perturbation_irrationality/_index|research account]] files the
+author-recorded [[research/relative_perturbation_irrationality/increasing_blocks|increasing-block reconstruction]].
+The increasing-block construction has a complete author reconstruction with root liminf one; the fixed sequence $2^{2^n}$ remains separate. Existing claimant credit is retained. No independent review or
+change of catalog standing follows from this filing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

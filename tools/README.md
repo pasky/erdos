@@ -127,13 +127,15 @@ keys and vocabularies, claim page names, the `authors` list between `desc` and
 finding with `--settled`), the evidence order, the shape of `links`, the
 **Covers.** and **Depends on.** paragraphs, the dependency rule, the `parts` and
 `settles` labels of a multi-part problem and the derivation of each problem's
-`status` and `claim`, and prints one note per dependence on a library result
-page with the page's read status. A problem without a claim page keeps its
-provisional standing; unless that standing is `open`/`none`, it is counted in
-the leg's detail, and `--settled` makes each such problem a finding.
-`erdos problem-claims` runs the check standalone, `--write` sets the derived
-values first, and repeatable `--problem E####` options scope both to the named
-folders. Exit 0 means no findings, 1 findings, 2 a command or usage error.
+`status` and `claim`, and counts the dependences on library result pages. A
+problem without a claim page keeps its provisional standing; unless that
+standing is `open`/`none`, it is counted in the leg's detail, and `--settled`
+makes each such problem a finding. The leg's detail shows the first ten
+findings. `erdos problem-claims` runs the check standalone and prints every
+finding and one note per dependence on a library result page with the page's
+read status; `--write` sets the derived values first, and repeatable
+`--problem E####` options scope both to the named folders. Exit 0 means no
+findings, 1 findings, 2 a command or usage error.
 
 By default the incoming-library leg checks the sorted union of problem pages
 carrying either managed marker. Add a newly affected page with repeated
@@ -173,10 +175,11 @@ The default run is each program's full declared computation; `--quick` is the
 reduced run, `--lean` admits programs declared `lean` and unblocks the Lean
 toolchain, `--jobs` sets how many owners run at once, and `--stop-file` names
 the cooperative stop. Exit 0 means at least one program passed and none failed
-or stopped; 1 a failure or nothing passed; 2 a command or usage error. The
-third-party packages the evidence programs import live in the `evidence`
-dependency group, a default group the sync above installs. No gate leg or hook
-runs the command; `docs/tools.md` "Evidence command contract" states its rules.
+or stopped; 1 a failure, a stopped program or nothing passed; 2 a command or
+usage error. The third-party packages the evidence programs import live in the
+`evidence` dependency group, a default group the sync above installs. No gate
+leg or hook runs the command; `docs/tools.md` "Evidence command contract" states
+its rules.
 
 ## Lead audit
 
@@ -214,17 +217,18 @@ two levels below `library/` (`LIBRARY_CARD_DEPTH` in `tools/constants.py`, 2
 here: `library/<subject>/<slug>/`), among the tracked and non-ignored untracked
 files -- and prints one line per defect of its `license` key against the
 third-party files the card folder holds (every file directly in it but its
-markdown pages and `.json` records, a transcription whose file is not held, and
-the conversion sidecars beside no held file): held files or sidecars without a
-`license`, a mapping for one held file or a scalar for several, mapping keys
-that do not name exactly the held files in byte order, a term outside the
-vocabulary (an SPDX license identifier, an unversioned Creative Commons
-`LicenseRef-CC-*` term, `reserved` or `unstated`), a held file or sidecar under
-a term that is not an open license when the holding policy is enforced
-(`LIBRARY_OPEN_TERMS_ONLY` in `tools/constants.py`, on here: the library holds a
-file only under an open license), the term of a PDF disagreeing with its arXiv
-record, a record naming a license URL with no mapping, a held PDF with neither
-its transcription (`<stem>.md` beside it) nor a reason in the card's
+markdown pages and `.json` or `.json.gz` records, a transcription whose file is
+not held, and the conversion sidecars beside no held file): held files or
+sidecars without a `license`, a mapping for one held file or a scalar for
+several, mapping keys that do not name exactly the held files in byte order, a
+term outside the vocabulary (an SPDX license identifier, an unversioned Creative
+Commons `LicenseRef-CC-*` term, `reserved` or `unstated`), a held file or
+sidecar under a term that is not an open license when the holding policy is
+enforced (`LIBRARY_OPEN_TERMS_ONLY` in `tools/constants.py`, on here: the
+library holds a file only under an open license), the term of a PDF disagreeing
+with its arXiv record, a record naming a license URL with no mapping, a record
+that cannot be read (not UTF-8, not JSON or not a JSON object), a held PDF with
+neither its transcription (`<stem>.md` beside it) nor a reason in the card's
 `transcription` key (`book`, `terms` or `unreadable`), a reason that does not
 fit, or frontmatter that does not parse. `reserved` terms whose arXiv record
 maps differently are notes, as is a missing `library/`. It writes nothing. Exit
@@ -252,17 +256,19 @@ in any form outside the dated note's mapping table in `docs/verification.md`, an
 unclosed marker of that table, an inline Markdown link or link reference
 definition whose relative target does not resolve on disk from the page's folder
 (spelled as the entry is on disk, an `#anchor` and trailing sentence punctuation
-dropped), or one whose target is an absolute path. The filed verification
+dropped), or one whose target is an absolute path or climbs above the repository
+root at any step, whatever exists outside the clone. The filed verification
 records under `evidence/**/verify/` get the retired-names check only; their
 links stay as written. Fenced code, HTML comments, code spans, math spans and
-wikilinks are not link contexts; the wiki tool's lint owns the wikilinks. A page
-of the research layer (`wiki/research/` and `wiki/theory/`) that writes a tier
-or a status beside a claim id must write the ledger's, and a refuted claim is
-not cited as a warrant in a sentence that does not say it is refuted. It writes
-nothing. Exit 0 means no findings; 1 findings; 2 a command or usage error. The
-path must be the repository root, the folder holding `wiki/`; a subfolder is
-refused. The gate's `reflint` leg runs the same check and shows the first ten
-findings; `docs/tools.md` "Repository gate" states its rules.
+wikilinks are not link contexts; the wiki tool's lint owns the wikilinks, and
+the gate's wiki legs fail on a stale one. A page of the research layer
+(`wiki/research/` and `wiki/theory/`) that writes a tier or a status beside a
+claim id must write the ledger's, and a refuted claim is not cited as a warrant
+in a sentence that does not say it is refuted. It writes nothing. Exit 0 means
+no findings; 1 findings; 2 a command or usage error. The path must be the
+repository root, the folder holding `wiki/`; a subfolder is refused. The gate's
+`reflint` leg runs the same check and shows the first ten findings;
+`docs/tools.md` "Repository gate" states its rules.
 
 ## Native claim metadata
 

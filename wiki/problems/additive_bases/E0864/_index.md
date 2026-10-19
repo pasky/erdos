@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 864
@@ -86,6 +86,11 @@ the lower bound in detail.
 This account is partial. The status above is imported from the dated
 erdosproblems.com record, and this page records no current literature search or
 independent assessment of proof coverage.
+
+## Research
+
+[[research/erdos_864/_index|Research guide for Problem 864]]
+records the current arguments, their scope, and the remaining gap.
 
 <!-- BEGIN problem library links -->
 

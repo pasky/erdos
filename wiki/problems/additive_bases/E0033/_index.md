@@ -11,14 +11,14 @@ status: open
 claim: none
 parts: [limsup, liminf]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-18T03:35:51Z
 ---
 
 # Problem 33
 
 [[problems/additive_bases/_index|..]]
 
-[[problems/additive_bases/E0033/claims/_index|claims/]]: The 3 claim pages of Problem 33, one per claimant's result; the problem's standing derives from them.
+[[problems/additive_bases/E0033/claims/_index|claims/]]: The 6 claim pages of Problem 33, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -41,9 +41,14 @@ $$
 answered yes, but the limsup part is unsettled, so the problem stays open.
 
 No source compiled here, and nothing in the erdosproblems.com thread, accessed
-2026-10-07, determines the smallest limsup. The construction of van Doorn and
-the thread's write-up of 2026-09-07 bound the infimum from above without
-determining it, and neither is a claim.
+2026-10-07, determines the smallest limsup. The pending partial claims of
+[[problems/additive_bases/E0033/claims/2025_08_12_van_doorn|van Doorn]], $2\varphi^{5/2}$, and of
+[[problems/additive_bases/E0033/claims/2026_09_07_donteatllamas|the thread's write-up of 2026-09-07]],
+$13\sqrt2/4$, bound the infimum from above without determining it. A
+pending
+[[problems/additive_bases/E0033/claims/2026_10_19_plasma_ai|partial claim by Plasma AI]]
+bounds it by $9/2$, below both. The one research lead naming the
+problem is recorded under Progress.
 
 For the liminf question, Moser [Mo65] first proved
 $\liminf\lvert A\cap\{1,\ldots,N\}\rvert/N^{1/2}>1.06$ for every such $A$.
@@ -81,11 +86,11 @@ https://www.erdosproblems.com/33.
 On 2026-09-05 Bloom's catalog labeled the problem OPEN and its proof-claims tab
 held no submitted resolution. On 2026-10-07 the thread held six comments and no
 proof claim; the latest, of 2026-09-07, announces a
-[write-up](https://github.com/LeanMeanBean/erdos-33/blob/main/erdos33_limsup_4_596.pdf)
+[write-up](https://github.com/LeanMeanBean/erdos-33/blob/132f71eeb57427f18b8050e780ed49bcf5d68917/erdos33_limsup_4_596.pdf)
 claiming a complement with limsup at most $13\sqrt2/4\approx4.596$, below van
-Doorn's bound and developed with GPT; an upper bound on the infimum settles no
-instance of the limsup question, so it is not a claim, and the thread held no
-review of it on 2026-10-07. The arXiv record of
+Doorn's bound and developed with GPT, recorded on
+[[problems/additive_bases/E0033/claims/2026_09_07_donteatllamas|its claim page]]; the
+thread held no review of it on 2026-10-07. The arXiv record of
 [2512.15407v6](https://arxiv.org/abs/2512.15407v6), revised 2026-07-09, and the
 published [Ding–Sun–Wang–Xia](https://doi.org/10.1016/j.disc.2025.114763) paper
 do not give the exact limsup constant.
@@ -98,9 +103,10 @@ a generalization to higher powers but explicitly leaves its calculation
 for checking; it is unchecked and gives no proved improvement.
 
 Van Doorn's construction and its limsup calculation are compiled from the
-source. The formal-conjectures link above is a statement reference. The corpus
-holds no compiled proof of the historical lower bounds; the liminf claim pages
-rest on the cited publications.
+source; L3 is an author-recorded project result at tier 0
+and adds no independent acceptance. The formal-conjectures link above is a
+statement reference. The corpus holds no compiled proof of the historical
+lower bounds; the liminf claim pages rest on the cited publications.
 
 ## Progress
 
@@ -109,6 +115,32 @@ its exact limsup calculation. The historical lower bounds and the later
 representation-excess results are cited from their sources, their proofs not
 reproduced. The open status concerns the optimal limsup constant,
 not whether the liminf exceeds one.
+
+The native
+[[theory/additive_bases/L3_square_complement_nine_halves/_index|L3 construction]]
+records an explicit positive-integer set $A$ representing every positive
+integer as $m^2+a$, with $m\geq0$ and $a\in A$, and
+
+$$
+\liminf_{X\to\infty}\frac{A(X)}{\sqrt X}=3\sqrt2,
+\qquad
+\limsup_{X\to\infty}\frac{A(X)}{\sqrt X}=\frac92.
+$$
+
+Its complete symbolic proof includes a uniform counting error for every
+real cutoff. It is author-recorded at tier 0, without independent acceptance
+or native Lean verification. These are the limits of one specified set,
+not an optimality or attainment claim for the infimum over all complements.
+No bound $A(X)\leq(9/2)\sqrt X$ at every cutoff or literature-priority
+claim is made.
+
+The author-recorded
+[[research/leads/square_complement_repair_frontier/_index|repair frontier]]
+separates restricted annular and parity calculations from unproved
+smaller-radius and seven-adic repairs. Its conditional one-step mass bound
+does not establish a universal obstruction, and its formal seven-adic
+count does not establish coverage or an improved limsup. These research
+routes remain unreviewed and do not extend the public-source assessment.
 
 ## Known Results
 
@@ -136,12 +168,32 @@ not whether the liminf exceeds one.
   $\varphi=(1+\sqrt5)/2$. See the
   [[../library/additive_bases/doorn_2025_smallest_set_such_that_every_positive/main_theorem|complete construction proof]]
   and [[../library/additive_bases/doorn_2025_smallest_set_such_that_every_positive/limsup_sharpness|limsup equality for that set]].
-  Equality for this construction does not prove optimality.
+  Equality for this construction does not prove optimality. The bound has
+  [[problems/additive_bases/E0033/claims/2025_08_12_van_doorn|its claim page]].
 - **Related representation progress.** The current
   [[../library/additive_bases/ding_2025_cross_representations_additive_complements_r_th/_index|Ding–Krause–Sándor–Sun–Zhang source]]
   proves a representation excess of at least $N^{3/4-o(1)}$ for square
   complements. This is a different quantity from the counting constant
   asked for here. Its current version does not settle that constant.
+
+## Limits of the available transfer
+
+The representation excess in
+[[../library/additive_bases/ding_2025_cross_representations_additive_complements_r_th/_index|Ding–Krause–Sándor–Sun–Zhang,
+Theorem 2 and Corollary 2]] is $N^{3/4-o(1)}$, which is sublinear. Even in the
+source's positive-square setting, the crude counting consequence
+
+$$
+A(N)\sqrt N\ge N+N^{3/4-o(1)}
+$$
+
+would give only $A(N)\ge\sqrt N+N^{1/4-o(1)}$, with no new leading coefficient
+above the recorded $4/\pi$. The problem also allows the zero square; no
+automatic transfer of the positive-square complement hypothesis is asserted.
+The source statements were inspected, not their full proofs. A linear excess
+with a useful coefficient, or a sharper weighted counting argument, is needed.
+The annular construction's existing obstruction applies to that construction
+class, not to all square complements.
 
 <!-- BEGIN problem library links -->
 

@@ -6,7 +6,7 @@ desc: |
   the two-tree and two-color star unit; the exact reviewed subjects are not
   held.
 created: 2026-09-10T19:09:26Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 # Evidence for the two-tree bound and star sharpness
@@ -36,6 +36,7 @@ review of the six pages as they stood on 2026-09-18T07:24:04Z.
 
 The native rendition passed fidelity review and hand check before it was filed.
 No source-proof, mathematical execution, formal-verification, native-tier
-or catalog-status credit follows from these documentary records.
+or problem-status credit follows from these documentary records.
 
-Extracts reproducing the paper's text are not held, since no license on record permits redistribution.
+Extracts reproducing the paper's text are not held, since no license on record
+permits redistribution.

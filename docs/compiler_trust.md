@@ -7,7 +7,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-16T22:24:06Z
-updated: 2026-09-16T22:24:06Z
+updated: 2026-10-19T09:36:02Z
 ---
 
 # compiler_trust
@@ -96,11 +96,11 @@ enclosing binder. Universe parameters on `e` are carried into the evaluation as
 `nativeEqTrue` carries them. A hand-written axiom of the shape is admitted
 exactly when it asserts an evaluation the audit observed;
 `axiom foo : decide False = true` fails. The deprecated `Lean.ofReduceBool` and
-`Lean.trustCompiler` originate in Init, so the existing forbidden-axiom check
-refuses them. Admission is by shape plus the audit's own re-evaluation, never by
-name or declaration range: the pinned Lean records no origin on a minted axiom,
-and a name or range rule would admit `axiom spoof : decide False = true` and
-prove anything. The audit also refuses `@[csimp]` on any corpus constant.
+`Lean.trustCompiler` originate in Init, so the forbidden-axiom check refuses
+them. Admission is by shape plus the audit's own re-evaluation, never by name or
+declaration range: the pinned Lean records no origin on a minted axiom, and a
+name or range rule would admit `axiom spoof : decide False = true` and prove
+anything. The audit also refuses `@[csimp]` on any corpus constant.
 
 The audit reports one NOTE line per declaration whose proof uses admitted
 axioms,
@@ -114,18 +114,21 @@ reach it. Its refusal lines are
 axioms:
 `audited N constants in M modules, K claims, C compiler axioms: AUDIT PASS|FAIL`.
 `AUDIT PASS` with a nonzero compiler-axiom count is a pass with a recorded
-assumption. Everything the audit refuses it keeps refusing: `sorryAx`, custom
-axioms, unsafe, opaque and partial constants, `implemented_by`, `extern`,
-metaprogramming, and claim-shape defects.
+assumption. The admission covers compiler axioms only: the audit refuses
+`sorryAx`, custom axioms, unsafe, opaque and partial constants,
+`implemented_by`, `extern`, metaprogramming, and claim-shape defects.
 
 The refusal suite under `lean/scripts/selftest/` carries the admit fixture
 `native_decide_admitted.lean` (`-- MODE: admit`), which must pass with its
 expected NOTE line, `... 1 compiler axiom evaluated true`, and fails the suite
-if the audit ever refuses a `native_decide` proof again; the refusal fixtures
-`compiler_axiom_false.lean`, `compiler_axiom_noncomputable.lean` and
-`csimp_attr.lean`, which must fail with their expected diagnostics; and
-`custom_axiom.lean`, whose hand-written axiom of another type keeps its
-`is an axiom` refusal.
+if the audit refuses a `native_decide` proof; the print fixture
+`compiler_record.lean` (`-- MODE: print`), a `native_decide` claim and a claim
+that uses it, whose manifest printed by `lake exe audit --print` must hold the
+minted axiom's record in both claim rows and in the top-level array, as the
+consumer rule below says; the refusal fixtures `compiler_axiom_false.lean`,
+`compiler_axiom_noncomputable.lean` and `csimp_attr.lean`, which must fail with
+their expected diagnostics; and `custom_axiom.lean`, whose hand-written axiom of
+another type keeps its `is an axiom` refusal.
 
 The audit re-evaluates every compiler axiom on each run: the gate's `--check`,
 `--emit`, and every audit run of the refusal suite (one per fixture plus the
@@ -138,7 +141,7 @@ reason: hours at the most, never days.
 
 Each claim row of `lean/Manifest.json` carries a `compiler` list, rendered
 between `decls` and `axioms`, with one record per admitted axiom the row's
-declarations reach:
+declarations reach and per declaration that uses it:
 
 ```json
 "compiler": [
@@ -259,8 +262,8 @@ The rules below are specific to this repository and hold in addition to the
 shared text above; a sentence that differs from the shared text says that it
 governs here.
 
-Here a full problem is a catalog problem whose claim page for the project's
-proof moves to `accepted`, resting on the claim card, so that the problem's
-`status` and `claim` follow. A claim card's own change to proved or refuted
-closes no problem. The disclosure sentence goes in the problem page's
+Here a full problem is an erdosproblems.com problem whose claim page for the
+project's proof moves to `accepted`, resting on the claim card, so that the
+problem's `status` and `claim` follow. A claim card's own change to proved or
+refuted closes no problem. The disclosure sentence goes in the problem page's
 Formalization paragraph.

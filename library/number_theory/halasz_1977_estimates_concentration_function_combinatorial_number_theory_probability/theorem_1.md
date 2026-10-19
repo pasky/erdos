@@ -7,7 +7,7 @@ desc: |
   unit vector, at least delta n of the vectors have inner product at least
   1 in absolute value with it.
 created: 2026-10-08T15:20:50Z
-updated: 2026-10-08T15:20:50Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -78,6 +78,7 @@ Within the paper:
 
 ## Bears on
 
-No catalog problem directly. Its hypothesis is part of the hypothesis of
+No erdosproblems.com problem directly. Its hypothesis is part of the hypothesis
+of
 [[number_theory/halasz_1977_estimates_concentration_function_combinatorial_number_theory_probability/theorem_2|Theorem 2]],
 whose page states that theorem's relation to Problem 362.

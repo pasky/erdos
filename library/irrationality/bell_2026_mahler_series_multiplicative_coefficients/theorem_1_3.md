@@ -6,7 +6,7 @@ desc: |
   are k-regular and split into a recurrence on powers of one prime and
   a power times an eventually periodic factor on coprime indices.
 created: 2026-09-17T15:54:43Z
-updated: 2026-10-07T19:30:53Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -71,10 +71,11 @@ $$
 
 These values form an infinite set, for each fixed integer $r\ge0$,
 contradicting eventual periodicity. Thus
-$\sum_{n\ge1}\varphi(n)x^n$ is not $k$-Mahler for any $k\ge2$; this
-says nothing about its value at $x=1/2$. Its applicable regularity branch
-is Proposition 5.1, since $\varphi(q^2)-\varphi(q)^2=q-1\ne0$ at every
-prime $q$.
+$\sum_{n\ge1}\varphi(n)x^n$ is not $k$-Mahler for any $k\ge2$.
+The [[../wiki/research/leads/totient_binary_series/analytic_sources|research account]]
+details this deduction and separates it from an assertion about its
+value at $x=1/2$. Its applicable regularity branch is Proposition 5.1,
+since $\varphi(q^2)-\varphi(q)^2=q-1\ne0$ at every prime $q$.
 
 The complete statement was compared with the source image; the
 definitions and proof assembly were read. This is an author extraction

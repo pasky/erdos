@@ -1,0 +1,70 @@
+**Statement.** Let $a=(a_1,\ldots,a_n)$ be points, ordered consecutively,
+around the circle (normalised to have circumference $1$). Let
+
+$$
+M_r(a)=\max_r \lvert a_{i+r}-a_i\rvert
+$$
+
+and
+
+$$
+m_r(a)=\min_r \lvert a_{i+r}-a_i\rvert,
+$$
+
+where the indices are interpreted in a cyclic fashion and the distance is
+around the circle (in other words, the maximum and minimum distance between
+$r$-consecutive points). Let
+
+$$
+\Lambda_r=\inf_a \limsup_n n M_r(a_1,\ldots,a_n),
+$$
+
+$$
+\lambda_r = \sup_a \liminf_n nm_r(a_1,\ldots,a_n),
+$$
+
+and
+
+$$
+\mu_r=\inf_a \limsup_n \frac{M_r(a)}{m_r(a)},
+$$
+
+where the outer $\inf/\sup$ is over all infinite sequences $a=(a_1,\ldots)$.
+Is it true that $r(\Lambda_r-1)$, $r(1-\lambda_r)$, and $r(\mu_r-1)$ tend to
+infinity as $r\to \infty$?
+
+**Statement (modified).** Let $a=(a_1,\ldots,a_n)$ be points, ordered
+consecutively, around the circle (normalised to have circumference $1$). Let
+
+$$
+M_r(a)=\max_r \lvert a_{i+r}-a_i\rvert
+$$
+
+and
+
+$$
+m_r(a)=\min_r \lvert a_{i+r}-a_i\rvert,
+$$
+
+where the indices are interpreted in a cyclic fashion and the distance is
+around the circle (in other words, the maximum and minimum distance between
+$r$-consecutive points). Let
+
+$$
+\Lambda_r=\inf_a \limsup_n n M_r(a_1,\ldots,a_n),
+$$
+
+$$
+\lambda_r = \sup_a \liminf_n nm_r(a_1,\ldots,a_n),
+$$
+
+and
+
+$$
+\mu_r=\inf_a \limsup_n \frac{M_r(a)}{m_r(a)},
+$$
+
+where the outer $\inf/\sup$ is over all infinite sequences $a=(a_1,\ldots)$.
+Is it true that $\Lambda_r-r$, $r-\lambda_r$, and $r(\mu_r-1)$ tend to
+infinity as $r\to \infty$?
+

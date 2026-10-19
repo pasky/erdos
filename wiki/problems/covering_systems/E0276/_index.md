@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 276
@@ -40,13 +40,15 @@ https://www.erdosproblems.com/276.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/276.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/finite_certificates|prime-cover comparison]]
+shows that, for positive terms greater than one, escape from every finite
+prime cover is equivalent to unbounded least prime factors. Coprime initial
+terms and algebraic compositeness for selected exponent classes do not give
+that escape. The reduction is author-recorded and supplies no construction
+meeting both the compositeness and no-finite-cover requirements.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

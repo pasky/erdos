@@ -398,7 +398,7 @@ $$
 *then for every* $N\geq Q$,
 
 $$
-\|(I-S_N)F\|_2^2\leq C_2^2\frac{\lambda Q}{N}. \tag{3.8}
+\|(I-S_N)F\|_2^2\leq C_2\frac{\lambda Q}{N}. \tag{3.8}
 $$
 
 *Proof.* In $F(x)$, the index-$q$ summand has nonzero Fourier coefficients only in the dyadic valuation band

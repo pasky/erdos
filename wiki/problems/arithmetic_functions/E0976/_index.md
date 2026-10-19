@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 976
@@ -36,14 +36,14 @@ constant $c>0$? Or even $\gg n^d$?
 **Formulation.** The questions are read for each fixed $f$: does
 $F_f(n)\gg_f n^{1+c_f}$ hold for some $c_f>0$, or even
 $F_f(n)\gg_f n^d$? This records the asymptotic questions on
-[the live catalog page](https://www.erdosproblems.com/976), last edited
-1 February 2026. erdosproblems.com says "some constant $c>0$" after fixing $f$;
-it does not explicitly require one exponent to work for all polynomials. The
-stronger quantifier order $\exists c>0\,\forall f$ is separate. Constants
-and thresholds here may depend on the fixed polynomial. Read greatest prime
-factors on absolute values, with $P^+(1)=1$ for any small unit products.
-Irreducibility and $d\geq2$ exclude zero factors, and the products have
-absolute value greater than one eventually.
+[the live erdosproblems.com page](https://www.erdosproblems.com/976), last
+edited 1 February 2026. erdosproblems.com says "some constant $c>0$" after
+fixing $f$; it does not explicitly require one exponent to work for all
+polynomials. The stronger quantifier order $\exists c>0\,\forall f$ is separate.
+Constants and thresholds here may depend on the fixed polynomial. Read greatest
+prime factors on absolute values, with $P^+(1)=1$ for any small unit products.
+Irreducibility and $d\geq2$ exclude zero factors, and the products have absolute
+value greater than one eventually.
 
 **Status.** Open. Bloom's catalog labeled the problem OPEN (page last edited 1
 February 2026). Neither the general fixed-$f$ power-gain question nor the
@@ -89,7 +89,7 @@ https://www.erdosproblems.com/976.
 - [Te90] Tenenbaum, Gérald, Sur une question d'Erdős et Schinzel. (1990),
   405-443.
 
-These six catalog references are retained as historical bibliography.
+These six erdosproblems.com references are retained as historical bibliography.
 
 **Formalization.** None recorded.
 
@@ -310,6 +310,26 @@ this is a research lead with no unconditional solution credit. The result is
 recorded as
 [[problems/arithmetic_functions/E0976/claims/2026_04_16_bhalla|a conditional claim]],
 pending and settling nothing unconditionally; the lead keeps its scope.
+
+## Prime-factor and interval interface
+
+The divisor-count interface in
+[[../library/arithmetic_functions/tenenbaum_1990_sur_une_question_erdos_schinzel_ii/_index|Tenenbaum
+II, equation (1.3)]] would give a power gain from an appropriate
+positive-density input. Its logarithmically decaying input instead yields a
+factor $\exp((\log x)^\alpha)$ with $\alpha<1$, which is $x^{o(1)}$ and does
+not give any fixed power gain.
+
+There is also a progression obstruction to extending a monic theorem. After
+replacing $f$ by $-f$ if necessary, let its leading coefficient be $a>0$ and
+degree $d$. Then $g(t)=a^{d-1}f(t/a)$ is an integral monic polynomial and
+$g(am)=a^{d-1}f(m)$. An application of the
+[[../library/arithmetic_functions/ermoshin_2026_largest_prime_factor_irreducible_cubic_polynomial/_index|monic
+cubic result]] must therefore work on the prescribed progression $t\equiv0\pmod
+a$. Positive proportion among all inputs need not meet that progression. The
+statements and substitution were inspected, not the full analytic proofs. The
+conditional prime-value route above retains its prime-supply premise; no
+unconditional polynomial-wide power gain follows here.
 
 <!-- BEGIN problem library links -->
 

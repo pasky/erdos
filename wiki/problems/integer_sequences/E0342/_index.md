@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T13:27:26Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 342
@@ -44,13 +44,17 @@ https://www.erdosproblems.com/342.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/342.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+[[research/ulam_sequence/periodic_tail_certificates|Periodic tails of the Ulam
+sequence]] gives the complete author-recorded argument and its remaining gap. A
+proposed ultimately periodic membership set with cutoff K and modulus m has a
+genuine finite certificate: test the exact recurrence below 2K+5m and one
+residue condition per class thereafter. The certificate is proved in the linked
+note, but no candidate certificate for U(1,2) is supplied. The inspected 2025
+source proves small relative gaps and an exponential upper bound, neither gap 2
+nor a finite state for the actual sequence.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

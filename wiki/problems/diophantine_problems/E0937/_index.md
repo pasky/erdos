@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 937
@@ -120,6 +120,11 @@ and Bennett--Walsh's later
 have both been checked by exact integer arithmetic. These examples illustrate
 the theorem but do not establish the infinitude; that comes from the full
 elliptic-curve family above.
+
+For $r$-powerful numbers with $r\ge3$, the
+[[research/erdos_939/connections|Problem 939 connections page]] holds
+author-recorded research on polynomial families of three-term progressions; it
+is not a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:20Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1173
@@ -46,9 +46,29 @@ https://www.erdosproblems.com/1173.
 
 ## Current assessment
 
-No current assessment is recorded. The status above is imported from the dated
-erdosproblems.com record. This page records no current literature search or
-independent assessment of proof coverage.
+The held free-set theorem handles the subcase in which sufficiently many
+values have size strictly below $\aleph_\omega$, as follows. This is an
+author-recorded specialization of a theorem read at statement depth, not an
+independent review of its proof or a current literature survey. The full
+question, including values of size exactly $\aleph_\omega$, is unresolved
+by this argument.
+
+Put $\mu=\aleph_\omega$ and $\lambda=\mu^+$. If
+$A=\{x<\lambda:|f(x)|<\mu\}$ has size $\lambda$, transport $A$ by a
+bijection to $\lambda$ and restrict each value to $A$.
+[[../library/set_systems/kunen_2013_impact_paul_erdos_set_theory/theorem_p359_free_set_lemma|Hajnal's Free Set Lemma]]
+applies with bound $\mu<\lambda$ and gives a free set of size $\lambda$.
+The lemma requires no regularity of $\mu$; neither GCH nor the pairwise
+intersection hypothesis is needed for this subcase.
+
+Consequently a counterexample must have at most $\mu$ vertices with smaller
+values, and $\lambda$ vertices whose original values have size exactly
+$\mu$. This does not imply that restricting the map to those vertices
+preserves the size of every value. The distinction matters for any proposed
+normalization. The example $f(\alpha)=\alpha$ on $\mu^+$ shows that
+replacing the strict bound in Hajnal's lemma by $\le\mu$ is impossible:
+it has no free pair. It fails the pairwise intersection hypothesis here and
+is not a counterexample to the problem.
 
 <!-- BEGIN problem library links -->
 

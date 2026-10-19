@@ -6,7 +6,7 @@ desc: |
   a reviewed reconstruction relative to two identified literature premises.
 license: unstated
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-08T14:50:10Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Pipeline-math (2026): Erdős problem 477
@@ -198,7 +198,7 @@ Corvaja-Zannier-recalled unit bounds and Heath-Brown's journal Theorem 2, with
 the recorded nonconstant-family qualification. The external proofs were not
 independently reviewed; no formal verification is claimed. This records
 independently reviewed compilation proof coverage only in that premise-relative
-scope, not full-manuscript acceptance, a native L-tier or a change to catalog
+scope, not full-manuscript acceptance, a native L-tier or a change to problem
 status. Primary-source reading and public acceptance of the erdosproblems.com
 conclusion remain separate facts.
 

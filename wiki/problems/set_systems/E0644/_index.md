@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:45Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 644
@@ -91,6 +91,11 @@ are in
 The assessment covers the library sources linked here, whose proofs were read
 for structure only; no wider literature search is recorded, and nothing here
 is independently reviewed.
+
+## Research
+
+[[research/erdos_644/_index|Research guide for Problem 644]]
+records the current arguments, their scope, and the remaining gap.
 
 <!-- BEGIN problem library links -->
 

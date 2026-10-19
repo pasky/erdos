@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Finite unions of quasi-independent sets."
 tags: []
 sources: []
 created: 2026-09-17T21:51:08Z
-updated: 2026-09-17T22:01:10Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Finite unions of quasi-independent sets
@@ -27,9 +27,13 @@ research consumes all three.
 
 The example $E=\{3^j+kj:1\leq j\leq5,\ 0\leq k\leq2\}$, with hereditary
 extraction ratio two and no proper two-coloring, is verified exhaustively
-by the [Grow–Whicher probe](../evidence/grow_whicher/_index.md). The
-reduction to finite blocks, with the growth inequality displayed on printed
-p. 492, is restated and proved for positive integer blocks in the
+by the [Grow–Whicher probe](../evidence/grow_whicher/_index.md), which adds
+its fractional dissociated coloring number $27/13$; the deletion of the
+point $3$ is the source of the
+[boundary-anchor certificate](../evidence/boundary_anchor/_index.md) and
+of the [anchor-gluing route](../routes/anchor_gluing.md). The reduction to
+finite blocks, with the growth inequality displayed on printed p. 492, is
+restated and proved for positive integer blocks in the
 [finite-block theorem](../lemmas/finite_blocks.md). The paper's computation
 is not accompanied by its programs; the probe replaces it. Reading depth is
 claims checked, with the reduction reproved and the example recomputed

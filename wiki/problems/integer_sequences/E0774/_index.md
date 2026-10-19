@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-16T06:44:50Z
 ---
 
 # Problem 774
@@ -49,10 +49,16 @@ https://www.erdosproblems.com/774.
 
 ## Current assessment
 
-The integer problem remains open. Pisier's arithmetic characterization
-identifies proportionate dissociation with harmonic-analysis Sidonicity, so the
-question is equivalently whether every Sidon subset of the positive integers
-is a finite union of quasi-independent sets; see
+The integer problem remains open; the repository's Lean claims
+[[theory/integer_sequences/L20_roots_of_unity_analytic_sidon/_index|L20]] and
+[[theory/integer_sequences/L21_roots_of_unity_proportional_dissociation/_index|L21]]
+(tier 2 for the Lean sources and statements as they stood on 2026-09-28, the
+warrant bound by a grade decision to the Lean v4.34.1 tree that the non-author
+clean gate of 2026-10-13 checked) concern the roots-of-unity analog only, as the
+closing paragraph of this assessment states. Pisier's arithmetic
+characterization identifies proportionate dissociation with harmonic-analysis
+Sidonicity, so the question is equivalently whether every Sidon subset of the
+positive integers is a finite union of quasi-independent sets; see
 [[../library/analysis/pisier_1983_arithmetic_characterizations_sidon_sets/_index|Pisier 1983]].
 
 The closest negative result is fixed-order. Nešetřil, Rödl, and Sales construct,
@@ -86,6 +92,30 @@ No such uniform family is known; see
 and
 [[../library/analysis/harrison_ramsey_1996_partitioning_sidon_sets_quasi_independent_sets/_index|Harrison--Ramsey 1996]].
 
+The repository's own research on this problem
+([[research/erdos_774/_index|research guide]]) has machine-checked the
+roots-of-unity analog of the hypothesis: all complex roots of unity, viewed
+in the discrete additive group of the complex numbers, form an analytic
+Sidon set and contain proportionally large dissociated subsets with one
+uniform denominator (native claims
+[[theory/integer_sequences/L20_roots_of_unity_analytic_sidon/_index|L20]] and
+[[theory/integer_sequences/L21_roots_of_unity_proportional_dissociation/_index|L21]],
+tier 2). These concern a set of complex numbers, not a subset of the natural
+numbers, and settle neither direction of the question, so they are recorded
+here and not as claims on the problem.
+
+## Research
+
+[[research/erdos_774/_index|Research guide for Problem 774]]
+records the current arguments, their scope, and the remaining gap.
+
+The [[research/dissociated_covering_attack/_index|finite covering attack]]
+isolates an integral-versus-fractional covering gap and gives a finite
+three-class obstruction, together with qualified extraction results for
+tensor configurations at tier 0. Unbounded integral covering with one
+hereditary extraction constant remains unproved, so these results do not
+resolve the integer question.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -118,6 +148,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/question_38|bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique / question_38]]
 - [[../library/analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/question_39|bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique / question_39]]
 - [[../library/analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/theorem_a|bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique / theorem_a]]
+- [[../library/analysis/bourgain_1985_sidon_sets_riesz_products/_index|bourgain_1985_sidon_sets_riesz_products]]
 - [[../library/analysis/grow_whicher_1984_finite_unions_quasi_independent_sets/_index|grow_whicher_1984_finite_unions_quasi_independent_sets]]
 - [[../library/analysis/grow_whicher_1984_finite_unions_quasi_independent_sets/equivalence_p491|grow_whicher_1984_finite_unions_quasi_independent_sets / equivalence_p491]]
 - [[../library/analysis/grow_whicher_1984_finite_unions_quasi_independent_sets/proposition_p490|grow_whicher_1984_finite_unions_quasi_independent_sets / proposition_p490]]
@@ -186,6 +217,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/number_theory/steinberger_2012_lowest_degree_polynomial_nonnegative_coefficients_divisible_by_n_th_cyclotomic_polynomial/lemma_1|steinberger_2012_lowest_degree_polynomial_nonnegative_coefficients_divisible_by_n_th_cyclotomic_polynomial / lemma_1]]
 - [[../library/number_theory/steinberger_2012_lowest_degree_polynomial_nonnegative_coefficients_divisible_by_n_th_cyclotomic_polynomial/theorem_1|steinberger_2012_lowest_degree_polynomial_nonnegative_coefficients_divisible_by_n_th_cyclotomic_polynomial / theorem_1]]
 - [[../library/number_theory/tan_zhang_2026_sharp_diameter_bounds_nonnegative_cyclotomic_multiples/_index|tan_zhang_2026_sharp_diameter_bounds_nonnegative_cyclotomic_multiples]]
+- [[../library/number_theory/tao_2014_254a_notes_1_elementary_multiplicative_number_theory/_index|tao_2014_254a_notes_1_elementary_multiplicative_number_theory]]
 - [[../library/ramsey_theory/graham_et_al_1972_ramseys_theorem_class_categories/_index|graham_et_al_1972_ramseys_theorem_class_categories]]
 - [[../library/ramsey_theory/graham_et_al_1972_ramseys_theorem_class_categories/corollary_4|graham_et_al_1972_ramseys_theorem_class_categories / corollary_4]]
 - [[../library/ramsey_theory/graham_et_al_1972_ramseys_theorem_class_categories/proposition_1|graham_et_al_1972_ramseys_theorem_class_categories / proposition_1]]

@@ -4,7 +4,9 @@ Each probe directory beside this script holds its own ``main.py`` under the
 shared evidence contract: it states its checked clauses, reads only the
 assets beside it, and exits nonzero on any failed obligation. This entry
 point runs each probe in a fresh interpreter, records its exit status as one
-named check, and returns the shared checker's exit code.
+named check, and returns the shared checker's exit code. Probe directories
+that hold only a ``produce.py`` are exploratory discovery scripts with
+undeclared dependencies; they are not run here and produce no evidence.
 
 Run from the repository root:
     uv run --no-sync python wiki/research/erdos_774/evidence/main.py
@@ -12,7 +14,8 @@ Run from the repository root:
 Dependencies are the standard library and the installed root ``tools``
 package. There are no file inputs beyond the probes' own assets, no output
 files, no random choices and no reduced mode. Expected runtime is a few
-seconds, mostly interpreter start-up. Failed obligations exit nonzero, including under ``python -O``.
+seconds, mostly interpreter start-up. Failed obligations exit nonzero, including under ``python -O``. No probe proves
+the missing unbounded coloring theorem.
 """
 
 from __future__ import annotations
@@ -31,7 +34,18 @@ __all__ = [
 # list every probe with a checker entry point, in a fixed order
 PROBES = (
     'grow_whicher',
+    'boundary_anchor',
     'tensor_layers',
+    'tensor_boundary',
+    'prime_circuit',
+    'prime_reset_span',
+    'axis_line_circuit',
+    'axis_flat_preimages',
+    'polynomial_checksum',
+    'moment_band_determinants',
+    'moment_scalar_bound',
+    'long_shift_gf2',
+    'angular_flat_multiples',
 )
 
 _HERE = pathlib.Path(__file__).resolve().parent

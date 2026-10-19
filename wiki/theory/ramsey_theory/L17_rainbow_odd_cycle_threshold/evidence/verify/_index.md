@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-25T00:00:00Z
-updated: 2026-10-13T18:32:16Z
+updated: 2026-10-13T18:43:19Z
 ---
 
 # Verification records for L17
@@ -28,6 +28,12 @@ moved the project to Lean v4.34.1, as committed at 2026-10-13T17:35:38Z,
 exit 0, AUDIT PASS over 1 claim with 0 compiler axioms and the committed
 self-test stamp matched; the receipt, the captured log and the wrapper.
 
+[[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/clean_gate_3/_index|clean_gate_3/]]: The non-author clean gate of 2026-10-13 for L17, one run serving L17, L20, L21
+and L22: the committed Lean gate in clean mode over a fresh archive of the whole
+lean/ tree as it stood on 2026-10-13T04:56:43Z, exit 0, AUDIT PASS over 4 claims
+with 0 compiler axioms and the committed self-test stamp matched; the receipt,
+the captured log and the wrapper.
+
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/evidence/verify/statement_fidelity/_index|statement_fidelity/]]: The fidelity review, distinct grade, non-author clean gate, native binding
 and acceptance warrant for the first acceptance of L17, for the sources as
 they stood on 2026-09-25T03:40:15Z; the acceptance is kernel-only.
@@ -42,27 +48,27 @@ of 2026-09-29 checked, and the reviewer's census scripts.
 
 The [current record](statement_fidelity_2/_index.md) holds the second-cycle
 independent whole-statement fidelity review of 2026-10-02, verdict
-refutation-failed, the distinct grade that asserts tier 2 for L17,
-kernel-only with zero compiler axioms, bound to the `lean/` tree the
-non-author clean gate of 2026-09-29 checked and cited there, and the
-reviewer's census scripts; the assertion is in force from the filing that
-cites the grade and the gate together. The
-[clean gate](clean_gate_2/_index.md) of 2026-10-13 holds the non-author
-runner's receipt, captured log and wrapper for the whole `lean/` tree of the
-change that moved the project to Lean v4.34.1, as committed at
-2026-10-13T17:35:38Z (exit 0, `AUDIT PASS` over 1 claim with 0 compiler
-axioms, the self-test stamp matched), the gate the card's standing cites with
-that grade and with the grade decision that applied the grade to that tree.
-The [earlier clean gate](clean_gate/_index.md) of 2026-10-08 holds the same
-for the `lean/` tree as it stood on 2026-10-08T13:58:11Z, on Lean
-v4.32.0-rc1. The
+refutation-failed, the distinct grade that asserts tier 2 for L17, kernel-only
+with zero compiler axioms, bound to the `lean/` tree the non-author clean gate
+of 2026-09-29 checked and cited there, and the reviewer's census scripts; the
+assertion is in force from the filing that cites the grade and the gate
+together. The [clean gate](clean_gate_2/_index.md) of 2026-10-13 holds the
+non-author runner's receipt, captured log and wrapper for the whole `lean/` tree
+of the change that moved the project to Lean v4.34.1, as committed at
+2026-10-13T17:35:38Z (exit 0, `AUDIT PASS` over 1 claim with 0 compiler axioms,
+the self-test stamp matched), the gate the card's standing cites with that grade
+and with the grade decision that applied the grade to that tree. The
+[earlier clean gate](clean_gate/_index.md) of 2026-10-08 holds the same for the
+`lean/` tree as it stood on 2026-10-08T13:58:11Z, on Lean v4.32.0-rc1, and the
+[clean gate](clean_gate_3/_index.md) run from 2026-10-13T05:05:07Z holds it for
+the `lean/` tree as it stood on 2026-10-13T04:56:43Z, with the claims L20, L21
+and L22, on the same Lean, one run serving the four claims. The
 [earlier record](statement_fidelity/_index.md) holds the first acceptance of
-2026-09-25: its fidelity review, distinct grade, non-author clean-gate
-receipt with its log and wrapper, the
+2026-09-25: its fidelity review, distinct grade, non-author clean-gate receipt
+with its log and wrapper, the
 [native binding](statement_fidelity/native_binding.json) with the English
 subject's extraction rule, and the
-[acceptance warrant](statement_fidelity/acceptance_warrant.json), for a
-branch tree as it stood on 2026-09-25T03:40:15Z, which the default branch
-never carried; it is retained as an assessment of that subject, its
-extension rule reaches no later tree, and no delivery confirmation was filed
-under it.
+[acceptance warrant](statement_fidelity/acceptance_warrant.json), for a branch
+tree as it stood on 2026-09-25T03:40:15Z, which the default branch never
+carried; it is retained as an assessment of that subject, its extension rule
+reaches no later tree, and no delivery confirmation was filed under it.

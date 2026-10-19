@@ -6,7 +6,7 @@ desc: |
   of the sets satisfying the Central Sets Theorem.
 license: unstated
 created: 2026-09-18T18:30:59Z
-updated: 2026-10-08T17:25:16Z
+updated: 2026-10-14T00:37:26Z
 ---
 
 # A simple characterization of sets satisfying the Central Sets Theorem
@@ -112,7 +112,7 @@ of $A$-valued functions, each with domain a finite ordinal, whose successor
 sets $B_f(T)$ (Definition 2.5) belong to $p$, with
 $B_{f\mathbin{\frown}x}(T)\subseteq x^{-1}B_f(T)$. Necessity is proved by
 iterating the refinement
-$B^*=\{x\in B:x^{-1}B\in p\}$; sufficiency reads the idempotence condition
+$B^\star=\{x\in B:x^{-1}B\in p\}$; sufficiency reads the idempotence condition
 directly from the successor sets. **Theorem 2.7** then gives the main
 characterization. It makes the following three conditions equivalent: $A$
 is a $C$-set; $A$ carries such a set of functions (successor sets no longer
@@ -170,7 +170,10 @@ condition concerns addition of complex roots of unity. Theorems **2.4** and
 **2.7** produce product-rich subsets; they neither force additive dependence
 among their complex values nor bound the chromatic number of the full
 signed-relation hypergraph. A multiplicatively product-rich set can still
-avoid every additive relation with coefficients in $\{-1,0,1\}$.
+avoid every additive relation with coefficients in $\{-1,0,1\}$. The
+uniform-height premise that a conditional focusing argument for E0774 would
+need is discussed in
+[[../wiki/research/erdos_774/source_notes/hindman_strauss|the Problem 774 research notes on this paper]].
 
 Read status: claims checked for Definitions 1.2, 2.1, 2.2 and 2.5,
 Theorems 2.3, 2.4, 2.7, 2.8 and 2.9, Lemma 2.6 and Corollary 2.10, read

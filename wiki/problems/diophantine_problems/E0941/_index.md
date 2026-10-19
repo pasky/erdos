@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 941
@@ -24,7 +24,10 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Are all large integers the sum of at most three powerful numbers
 (i.e. if $p\mid n$ then $p^2\mid n$)?
 
-**Status.** Proved.
+**Status.** Proved. Heath-Brown [He88] proves that every sufficiently large
+integer is a sum of at most three powerful numbers. It is recorded as an
+accepted full claim on
+[[problems/diophantine_problems/E0941/claims/1988_01_01_heath_brown|its claim page]].
 
 **Source.** [erdosproblems.com/941](https://www.erdosproblems.com/941), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #941,

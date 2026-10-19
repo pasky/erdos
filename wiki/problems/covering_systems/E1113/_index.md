@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1113
@@ -60,13 +60,17 @@ https://www.erdosproblems.com/1113.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1113.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/finite_certificates|covering-set analysis]]
+separates algebraic compositeness from escape from every finite prime set.
+An all-composite fourth-power construction does not itself supply the latter.
+The source's restriction to non-perfect-power parameters is a different
+assertion from the full question. For a Sierpiński parameter greater than
+one, adding the exponent-zero term does not change the least-prime-factor
+unboundedness target. These are author-recorded scope checks, not a
+counterexample or a source-proof audit.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

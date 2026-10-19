@@ -5,7 +5,7 @@ desc: |
   and logarithmic density both equal to the inclusion-exclusion limit A.
 license: unstated
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-14T00:37:26Z
 ---
 
 # divisors/davenport_1951_sequences_positive_integers
@@ -92,6 +92,21 @@ normalized finite approximants from divisibility-upward closure, obtains F(s)
 argument is elementary in that analytic sense but retains the same structural
 reliance on a union of sets of multiples.
 
+Boundary at Problem 25. There the forbidden classes are U_i = {n >= n_i : n =
+a_i (mod n_i)} and the target set is their complement. When every a_i = 0 the
+delay is automatic and U_i = n_i N, so the theorem proves that the forbidden
+union, and hence its complement, has logarithmic density. For a translated
+class membership is not upward closed under multiplication or divisibility
+(with modulus 3 and residue 1 the delayed class contains 4, while 4 | 8 and 8
+is 2 mod 3), so a forbidden element need not keep its status after
+multiplication; the 1951 factorization of the remainder as smooth forbidden
+elements times complementary prime-supported factors, and hence the identity
+Pi_h (B_h - B_k), no longer holds, and the delay makes each U_i an eventual
+residue-class tail rather than a full periodic class. The theorem therefore
+covers the zero-residue specialization of Problem 25, a deduction the paper
+does not state, and not the arbitrary delayed translated singleton-class
+problem.
+
 Source: <https://users.renyi.hu/~p_erdos/1951-07.pdf>. No notice is printed in
 the copy read (pp. 1--2 and 5--6 read); the hosting archive's site footer
 (https://users.renyi.hu/~p_erdos/, read 2026-10-02), "(C) 2005-2007 All rights
@@ -116,9 +131,11 @@ the term is unstated.
   passes from it to the problem's set of non-proper-multiples through
   Behrend's bound, a step the paper does not take. Other residue choices are
   not covered.
-- [[../wiki/problems/integer_sequences/E0025/_index|#25]]: context only. The
-  paper concerns sets of multiples, while the problem sieves one residue class
-  per modulus.
+- [[../wiki/problems/integer_sequences/E0025/_index|#25]]: the main theorem
+  gives the problem's set a logarithmic density when every residue is zero, a
+  deduction the paper does not state; its argument relies on the forbidden set
+  being closed under taking multiples, which fails for nonzero residues, so
+  the general problem is not covered.
 - [[../wiki/problems/divisors/E1217/_index|#1217]]: context only. The
   problem's references list the paper, which has no divisibility-chain result;
   the chain theorem behind the citation is Theorem 2 of the 1936 paper, whose

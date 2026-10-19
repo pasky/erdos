@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 432
@@ -42,10 +42,37 @@ https://www.erdosproblems.com/432.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+These deductions leave the full question unresolved. They have author-recorded
+standing; this assessment is limited to the arguments and source interfaces
+stated below. No comprehensive search for recent proof claims is recorded here.
 
-## Known Results
+Let $A,B$ be infinite positive-integer sets, with distinct elements of $S=A+B$
+pairwise coprime. At most one element of $S$ is even. An infinite parity class
+of $A$ would give infinitely many even sums if $B$ contained that parity. So all
+of $B$ has the opposite parity. Since $B$ is infinite, the same argument forces
+all of $A$ to have the original parity. Every sum is therefore odd.
 
-Not yet compiled.
+If $p\mid a+b$, then
+$$
+ A\cap(a+p\mathbb Z)=\{a\},\qquad
+ B\cap(b+p\mathbb Z)=\{b\};
+$$
+another member would give a distinct sum sharing $p$.
+Choosing a prime divisor of each distinct sum is an injection into the
+primes, giving $S(x)\le\pi(x)$ (one may exclude 2).
+This does not assume unique representations of a sum. If 0 is permitted
+and 1 occurs as a sum, the count needs an additional 1; the nonunit
+argument is unchanged.
+
+These restrictions are too weak for the requested growth bounds. The Lee
+manuscript linked by the problem page was not read; no argument here depends on
+its reported claims.
+
+The unresolved obligation is to exploit several translates jointly to improve
+the prime-divisor injection bound. A useful test is to check whether two fixed
+translates give a uniform density saving beyond the local exclusions, without
+assuming prime-tuples conjectures. Stop if a count of representations is
+substituted for distinct sums or a conditional construction is treated as
+unconditional.

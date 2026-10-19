@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:31Z
+updated: 2026-10-17T22:11:11Z
 ---
 
 # Problem 955
@@ -224,6 +224,61 @@ their Remark 3.4, but the paper states no preimage theorem for a fixed target.
 Luca and Pomerance's theorem concerns a target of positive lower density, and
 the congruence estimates of Lebowitz-Lockard and coauthors supply no
 density-zero target; neither settles an instance.
+
+## Exact scope of the arithmetic reduction
+
+The uniform finite-target theorem in
+[[../library/arithmetic_functions/pollack_2018_divisor_sum_fibers/_index|Pollack–Pomerance–Thompson,
+Theorem 1.2]] applies when the target cardinality is at most
+$x^{1/2+\epsilon(x)}$, with $\epsilon(x)\to0$. Splitting an arbitrary
+density-zero target into many such pieces multiplies an uncontrolled $o(x)$
+error and does not prove the desired extension.
+
+A complete abstract countermodel shows the missing implication. Let
+$A=\{\lfloor j^{3/2}\rfloor:j\ge1\}$, and let $T(n)$ be its largest member at
+most $n$. Consecutive members near $x$ are separated by $O(x^{1/3})$, so every
+fiber restricted to $[1,x]$ has size at most $Cx^{1/3}$. Uniformly over sets
+$B$ of size at most $x^{1/2+\epsilon(x)}$,
+
+$$
+\#\{n\le x:T(n)\in B\}\le Cx^{5/6+\epsilon(x)}=o(x).
+$$
+
+Nevertheless $A(x)=O(x^{2/3})$, $T(n)\sim n$, and $T^{-1}(A)=\mathbb N$. Thus
+even uniform small-target control and linear output size do not imply
+preservation of every density-zero set. This countermodel, independently
+examined in the
+[[research/leads/aliquot_collision_density/evidence/verify/analytic_conclusions/grade|graded analytic review]],
+concerns a general inference, not the arithmetic function $s$. The source
+theorem and initial proof reduction were inspected, without auditing the whole
+proof. Additional arithmetic control on larger sparse target sets remains
+necessary.
+
+How much control is needed is recorded in
+[[research/leads/aliquot_collision_density/_index|the collision-count lead]].
+It proves that the problem is equivalent to the same uniform control for
+targets of size $\eta x$, with the bound tending to zero with $\eta$, and to
+a linear bound on the collisions $s(n)=s(n')$ after an arbitrarily small
+proportion of inputs is removed. It also proves that no density-zero
+exclusion of inputs gives a linear collision bound. The independent review
+and separate grade accept those exact analytic propositions at the stated
+external theorem interfaces. Neither proves that the equivalent conditions
+hold; the stronger condition (D) also remains unproved. The review excludes
+the numerical census and the sieve route, and does not change the problem
+status above. The lead also reduces the problem to collision bounds for
+inputs made of a small cofactor and boundedly many large primes. Its
+coefficient-uniform two-form sieve estimate is proved. After an arbitrarily
+small input deletion, its averaged sieve input reduces to one open estimate
+for large common divisors of values of $s$; that estimate and the
+smooth-input count remain unproved.
+For the full equation with at least three large primes on each side,
+the lead proves uniform bounds on the prime-power local densities and
+their cofactor average after a negligible removal. These local bounds
+do not count the prime solutions in integer boxes. Inputs with
+many comparable prime factors make the sum of an error of one over every
+pair of short-slice fixed parts too large; an averaged estimate remains
+possible. These additions are author-recorded and outside the review,
+and do not prove the class collision bounds or the problem.
 
 <!-- BEGIN problem library links -->
 

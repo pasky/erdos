@@ -7,7 +7,7 @@ desc: |
   irrational series with totient or divisor-sum exponents at every integer
   base.
 created: 2026-09-17T15:54:43Z
-updated: 2026-10-07T15:37:17Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -52,5 +52,7 @@ were read; no complete reconstruction or independent review is claimed.
 
 **Bears on.** [[../wiki/problems/irrationality/E0249/_index|Problem 249]] only by
 comparison. Here the totient is in the exponent, whereas E0249 has
-$\varphi(n)$ in the numerator and exponent $n$. This corollary does not
-resolve E0249.
+$\varphi(n)$ in the numerator and exponent $n$. The
+[[../wiki/research/leads/totient_binary_series/analytic_sources|research account]]
+also checks that choosing $f=\varphi$ would violate the weight-growth
+hypothesis. This corollary does not resolve E0249.

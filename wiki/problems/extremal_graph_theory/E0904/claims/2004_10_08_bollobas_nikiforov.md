@@ -36,7 +36,7 @@ links:
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/ErdosProblems/Erdos904.md
   kind: record
 created: 2026-10-07T07:19:46Z
-updated: 2026-10-07T20:39:38Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -109,5 +109,5 @@ clique. A closing comment records the axioms `propext`, `Classical.choice` and
 Statement's $n\ge r$ widened to $r=1$. No build, replay or audit of it is
 recorded and the fidelity of the Lean statement to the question has not been
 independently reviewed; erdosproblems.com's "(LEAN)" suffix and the community
-database's "proved (Lean)" are catalog labels, not a documented independent
+database's "proved (Lean)" are labels, not a documented independent
 review of the whole statement, so the page lists no `formalized` evidence.

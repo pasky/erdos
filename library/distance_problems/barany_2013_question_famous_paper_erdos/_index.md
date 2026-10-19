@@ -1,18 +1,16 @@
 ---
 name: distance_problems/barany_2013_question_famous_paper_erdos
 desc: |
-  Bárány and Roldán-Pensado's study of Erdős's 1946 statement that every
-  convex curve has a point whose centred circles meet it at most twice: with
-  N(K) the least such bound over boundary points, they construct a convex
-  15-gon with N(K) = 6, prove N(K) finite for every planar convex body,
-  build for each ε > 0 a body on which centres of circles meeting the
-  boundary infinitely often fill more than a (1 − ε)-fraction of the
-  perimeter, and show that for most bodies, in the Baire category sense,
-  most boundary points are centres of circles meeting the boundary in at
-  least n points for every n.
+  Bárány and Roldán-Pensado on Erdős's 1946 statement that every convex curve
+  has a point whose centred circles meet it at most twice: with N(K) the least
+  such bound over its points, a convex 15-gon has N(K) = 6, N(K) is finite for
+  every planar convex body, for ε > 0 some body has centres of circles meeting
+  its boundary infinitely often on over a (1 − ε)-fraction of the perimeter,
+  and for Baire-generic bodies most boundary points are, for every n, centres
+  of circles meeting it at least n times.
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T16:58:15Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # distance_problems/barany_2013_question_famous_paper_erdos

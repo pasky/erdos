@@ -21,9 +21,11 @@ __all__ = ['repository_files', 'precommit_coverage', 'prospective_tree']
 _PRECOMMIT_CONFIG = '.pre-commit-config.yaml'
 
 
-def repository_files(root: pathlib.Path) -> list[pathlib.Path]:
+def repository_files(root: pathlib.Path, *pathspecs: str) -> list[pathlib.Path]:
     """Return existing regular tracked and non-ignored untracked files.
 
+    ``pathspecs``, Git pathspecs such as ``'*.pdf'``, narrow the listing to the
+    files they match, so a caller wanting a few files does not check them all.
     Git supplies the authoritative repository and ignore policy. Deleted paths
     are absent, and paths with symlinks in any component are skipped before
     ``is_file`` so neither internal nor external targets reach mutating hooks.
@@ -33,7 +35,16 @@ def repository_files(root: pathlib.Path) -> list[pathlib.Path]:
     # enumerate paths using the repository's ignore policy
     try:
         listing = subprocess.run(
-            ['git', 'ls-files', '--cached', '--others', '--exclude-standard', '-z'],
+            [
+                'git',
+                'ls-files',
+                '--cached',
+                '--others',
+                '--exclude-standard',
+                '-z',
+                '--',
+                *pathspecs,
+            ],
             cwd=root,
             capture_output=True,
             text=True,

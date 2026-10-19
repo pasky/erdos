@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 453
@@ -29,13 +29,13 @@ $$
 
 where $p_k$ is the $k$th prime?
 
-**Status.** Disproved, the erdosproblems.com label, with a Lean suffix that is a
-catalog label. The Lean file announced in the thread is linked from the claim
-page as a formalization of Pomerance's proof. It was neither built nor audited
-here. This page records the statement file of formal-conjectures, which points
-at that Lean file. The disproof is Pomerance's 1979 corollary that infinitely
-many $n$ have $p_n^2>p_{n-i}p_{n+i}$ for all $0<i<n$. It is recorded on the
-claim page
+**Status.** Disproved, the erdosproblems.com label, with a Lean suffix that is
+an erdosproblems.com label. The Lean file announced in the thread is linked from
+the claim page as a formalization of Pomerance's proof. It was neither built nor
+audited here. This page records the statement file of formal-conjectures, which
+points at that Lean file. The disproof is Pomerance's 1979 corollary that
+infinitely many $n$ have $p_n^2>p_{n-i}p_{n+i}$ for all $0<i<n$. It is recorded
+on the claim page
 [[problems/integer_sequences/E0453/claims/1979_01_01_pomerance|Pomerance's infinitely many good primes]]
 (accepted; refereed in Mathematics of Computation, and the result the
 erdosproblems.com commentary names).
@@ -82,7 +82,7 @@ linked, at a fixed commit, from the claim page
 The community database (teorth/erdosproblems, accessed 2026-10-07) lists the
 problem as disproved (Lean) as of its last update on 31 January 2026, and the
 statement as formalized since 6 July 2026. Nothing was built or audited here,
-and the Lean suffix is a catalog label.
+and the Lean suffix is an erdosproblems.com label.
 
 ## Progress
 

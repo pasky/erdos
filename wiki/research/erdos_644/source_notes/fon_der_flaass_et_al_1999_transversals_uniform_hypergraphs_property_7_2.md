@@ -5,7 +5,7 @@ desc: "Source notes for Problem 644: Fon-Der-Flaass et al.: Transversals in unif
 tags: []
 sources: []
 created: 2026-09-24T22:18:20Z
-updated: 2026-09-24T22:18:20Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Fon-Der-Flaass et al.: Transversals in uniform hypergraphs with property (7,2)
@@ -162,7 +162,10 @@ f_E(k,7)\le\left\lceil\frac{7k}{8}\right\rceil.
 $$
 
 Thus the paper places the relevant scale between $3k/4$ and $7k/8$, with the
-lower estimate proved on the subsequence $4\mid k$.
+lower estimate proved on the subsequence $4\mid k$. Lemma 1 and its
+inequalities (2)–(6) are the natural entry point for improving the upper bound:
+an argument forcing a good triple with stronger intersection estimates could
+potentially lower the $7/8$ threshold.
 
 The paper does **not** prove $f_E(k,7)=(3/4+o(1))k$: its upper bound has
 constant $7/8$, and its lower construction alone does not establish existence

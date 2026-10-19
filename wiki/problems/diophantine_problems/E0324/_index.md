@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 324
@@ -68,6 +68,15 @@ no instance. erdosproblems.com expects $f(x)=x^5$ to work, and notes that the
 Lander, Parkin and Selfridge conjecture would give the property for $x^n$ with
 every $n\ge5$. The sources cited here decide no polynomial of degree four or
 more other than $x^4$.
+
+## Route analysis
+
+The [[research/diophantine_representation_interfaces/rational_coefficients|a
+rational coefficient would remove a floor]] account records the following scope.
+If a rational c=A/B works in Ruzsa's tail n^5+floor(cn^4), restricting n=B(t+T)
+gives the integer polynomial B^5(t+T)^5+AB^3(t+T)^4 and solves the exact
+question.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

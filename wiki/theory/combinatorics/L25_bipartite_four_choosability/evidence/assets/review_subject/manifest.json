@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-10-14T16:42:51.414936+00:00",
+  "cut_marker": "[cut]",
+  "original_paths": {
+    "statement.md": "wiki/theory/combinatorics/L25_bipartite_four_choosability/_index.md",
+    "proof.md": "wiki/theory/combinatorics/L25_bipartite_four_choosability/_proof.md",
+    "checker_excerpt.txt": "wiki/research/finite_graph_coloring_obstructions/evidence/main.py"
+  }
+}

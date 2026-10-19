@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:53Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1146
@@ -67,13 +67,16 @@ https://www.erdosproblems.com/1146.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1146.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+[[research/smooth_essential_component_tests/_index|Periodic tests for essential
+components]] gives the complete author-recorded argument and its remaining gap.
+A(x)=O(log^2 x), so no fixed h-fold sum of A union {0} is a basis. Conversely,
+every eventually periodic B with 0<sigma(B)<1 is strictly enlarged in
+Schnirelmann density already by {0,1}: a finite-prefix gain and a strict
+tail-density gain combine to give a uniform positive gain. Periodic test sets
+therefore cannot refute this particular essential-component question.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

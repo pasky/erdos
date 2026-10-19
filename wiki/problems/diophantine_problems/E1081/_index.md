@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 1081
@@ -31,7 +31,18 @@ $$
 
 for some $c>0$?
 
-**Status.** Disproved.
+**Status.** Disproved. Odoni proves that $A(x)\sqrt{\log x}/x\to\infty$, so
+$A(x)$ is not asymptotic to $c\,x/\sqrt{\log x}$ for any $c>0$ (Acta Arith.
+1981, refereed), and erdosproblems.com credits his paper for the disproof. Two
+later refereed lower bounds each refute the asymptotic independently: Blomer's
+$A(x)\gg x(\log x)^{-0.253}$ (J. Reine Angew. Math. 2004), and Blomer and
+Granville's, which with their upper bound fixes the order of $A(x)$ as
+$x/(\log x)^{1-2^{-1/3}}$ up to powers of $\log\log x$ (Duke Math. J. 2006). The
+accepted full claims are
+[[problems/diophantine_problems/E1081/claims/1981_01_01_odoni|Odoni 1981]],
+[[problems/diophantine_problems/E1081/claims/2004_01_30_blomer|Blomer 2004]]
+and
+[[problems/diophantine_problems/E1081/claims/2006_11_01_blomer_granville|Blomer and Granville 2006]].
 
 **Source.** [erdosproblems.com/1081](https://www.erdosproblems.com/1081),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1081,

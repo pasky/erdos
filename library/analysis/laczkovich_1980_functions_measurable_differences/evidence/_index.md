@@ -4,7 +4,7 @@ title: Evidence for Laczkovich (1980)
 desc: |
   Retains the bounded independent review of the Theorem 3 statement.
 created: 2026-09-16T20:10:00Z
-updated: 2026-10-07T21:11:03Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 # Evidence for Laczkovich (1980)
@@ -20,4 +20,5 @@ The [verification record](verify/_index.md) retains the bounded review of the
 exact Theorem 3 statement and opening definitions. It does not reconstruct or
 review the source proof of Theorem 3.
 
-Extracts reproducing the paper's text are not held, since no license on record permits redistribution.
+Extracts reproducing the paper's text are not held, since no license on record
+permits redistribution.

@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 316
@@ -52,10 +52,10 @@ the erdosproblems.com commentary (sum $120047/60060$) has no admissible split
 either. Both are finite computations, rechecked here with exact arithmetic.
 Sándor's paper (J. Number Theory 63 (1997), refereed) is not held, so its
 statements are recorded second-hand from erdosproblems.com. The label's Lean
-qualifier is a catalog label whose referent is the formal-conjectures file. That
-file proves the disproof by a `decide +kernel` step on the eleven-element set.
-Nothing was built here, and no local kernel credit is claimed (see
-Formalization). The accepted claim is recorded on
+qualifier is an erdosproblems.com label whose referent is the formal-conjectures
+file. That file proves the disproof by a `decide +kernel` step on the
+eleven-element set. Nothing was built here, and no local kernel credit is
+claimed (see Formalization). The accepted claim is recorded on
 [[problems/unit_fractions/E0316/claims/1997_04_01_sandor|Sándor's claim page]].
 
 **Source.** [erdosproblems.com/316](https://www.erdosproblems.com/316),

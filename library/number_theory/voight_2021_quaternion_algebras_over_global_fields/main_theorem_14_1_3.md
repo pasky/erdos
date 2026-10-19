@@ -8,7 +8,7 @@ desc: |
   bijection from those sets to the positive squarefree integers, the
   composite being B -> disc B.
 created: 2026-10-08T17:07:32Z
-updated: 2026-10-08T17:07:32Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -75,4 +75,6 @@ the correspondence between quaternion algebras and ternary quadratic forms
 ## Bears on
 
 The theorem classifies quaternion algebras and bears on no Erdős problem
-directly.
+directly. Its parity half, Corollary 14.2.3, is the part the corpus's
+[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]] research
+uses; see that page.

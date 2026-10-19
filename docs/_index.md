@@ -7,7 +7,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-05T01:21:25Z
-updated: 2026-10-08T14:11:42Z
+updated: 2026-10-19T02:06:42Z
 ---
 
 # docs
@@ -47,11 +47,12 @@ views, evidence hygiene, formatting conventions, and the update/lint cycle.
 Complements anatomy.md (the law); this page is the tooling how-to, with the
 Erdos-specific rules in their own section.
 
-[[research|research]]: Develop editable arguments, preserve useful partial work
-and obstructions, connect research to precise targets, source results, and
-evidence, and state the lead page format, with the Erdos-specific problem
-targets, research folders, generated views, and lead target field in their own
-section.
+[[research|research]]: Advance each target along an editable proof sketch,
+attempt boldly where known methods stall, keep the partial results and
+obstructions met on the way, connect research to precise targets, source
+results, and evidence, and state the lead page format, with the Erdos-specific
+problem targets, research folders, generated views, and lead target field in
+their own section.
 
 [[tools|tools]]: The shared Python layer: the evidence harness, the ledger
 generator and gate battery contracts, how evidence code builds on them, and the

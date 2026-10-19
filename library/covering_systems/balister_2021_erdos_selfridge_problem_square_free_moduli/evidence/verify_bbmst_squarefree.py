@@ -1,3 +1,4 @@
+# evidence: entry
 """Verify the finite certificates in BBMST's square-free covering proof.
 
 Uses only the Python 3.10+ standard library, with the root ``tools`` package

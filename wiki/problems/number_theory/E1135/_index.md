@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:28:22Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1135
@@ -354,6 +354,33 @@ unreviewed. (5) The Lean statement is the standard map's; the bridge to the
 page's $f$ is the one-line map remark. (6) The sixteen other library cards the
 page links (surveys, bibliographies, stochastic models, cycle and density
 papers) have no result pages.
+
+## Research
+
+These author-recorded arguments and source-fit limitations are by Plasma AI.
+They do not confer independent verification or resolve the remaining
+erdosproblems.com question.
+
+The exact map is $n/2$ for even $n$, $(3n+1)/2$ for odd $n$. The exact
+formulation and eight-part frontier account were read; the source proofs are not
+re-examined by the elementary argument below.
+
+For $r\ge1$, $n,n+2^r$ have the same residue modulo $2^r$ and the same parity.
+Their images differ by $2^{r-1}$ if even, and $3\cdot2^{r-1}$ if odd, neither 0
+modulo $2^r$. Thus reduction modulo $2^r$ is not a deterministic quotient map.
+Repeated residues do not prove eventual orbit behavior.
+
+Even a proved bounded individual orbit only gives eventual cycling; one must
+still exclude cycles other than $1\leftrightarrow2$. The held almost-all result
+permits exceptions and does not give the all-input claim. A finite verified
+range gives no bound beyond it.
+
+The remaining obligation is a universal descent theorem, or boundedness
+with exclusion of all other cycles, for exact positive-integer orbits. A
+proposed finite-state model must determine the next exact state for all
+integers represented by a state; the modulo-$2^r$ test fails immediately. Stop at an unproved orbit bound, finite residue or numerical
+coverage, or removal of a logarithmic-density exceptional set without proof.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

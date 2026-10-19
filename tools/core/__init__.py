@@ -8,6 +8,7 @@ from . import (
     gate,
     harness,
     ledger,
+    problem_claims,
     problem_layout,
     reflint,
 )
@@ -18,5 +19,6 @@ from .files import *
 from .gate import *
 from .harness import *
 from .ledger import *
+from .problem_claims import *
 from .problem_layout import *
 from .reflint import *

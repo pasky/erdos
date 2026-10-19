@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 589
@@ -48,13 +48,18 @@ https://www.erdosproblems.com/589.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/geometric_configuration_interfaces/rich_lines|rich lines and
+real-planar realization]] account records the following scope. Collinear triples
+form a linear three-uniform hypergraph because two triples sharing a pair would
+put four points on its line.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

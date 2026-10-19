@@ -8,7 +8,7 @@ desc: |
   most C_h N^(1-c_h) elements; the proof rests on the release's claimed 7/8
   zero-free half-plane. Claims checked only.
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 ***
@@ -146,7 +146,7 @@ whose read status there is claims checked only and which nothing in this
 corpus has reviewed; the manuscript says only that assertion is needed, so
 the Hecke part over $\mathbb Q(\sqrt{-3})$ is not used. The release's Lean
 catalog lists a comparator for this Dirichlet statement among its main
-results (the catalog's review field reads unchecked); nothing was built or
+results (its review field reads unchecked); nothing was built or
 audited here (see the card's Formalization paragraph). Theorem 5.1 enters
 only through Proposition 5.2, and through that only in the major-arc
 comparison of Lemma 6.2. The other inputs are reproved in the text or

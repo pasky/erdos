@@ -7,7 +7,7 @@ desc: |
   distribution of primes in short intervals under it.
 license: CC-BY-4.0
 created: 2026-09-17T07:45:00Z
-updated: 2026-10-07T20:33:22Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # primes/kuperberg_2023_sums_singular_series_large_sets_tail
@@ -88,20 +88,19 @@ here is independently reviewed.
 
 ## Relation to Bloom's catalog
 
-The paper proves nothing about a catalog problem. Its Conjecture 1.3 is
-the hypothesis assumed by the two 2026 conditional claims on
+The paper proves nothing about an erdosproblems.com problem. Its Conjecture 1.3
+is the hypothesis assumed by the two 2026 conditional claims on
 [[../wiki/problems/irrationality/E0251/_index|Problem 251]]:
 [[irrationality/land_2026_conditional_proof_irrationality_prime_series/theorem_2|Land's Theorem 2]]
 assumes it in a large-$x$ form, and
 [[irrationality/ringer_2026_local_gap_statistics_telescoping_normality/corollary_1_2|Ringer's Corollary 1.2]]
-derives its averaged one-sided hypothesis from the conjecture's equation
-(7). Tao's 2023 paper on Problem 15, filed as
+derives its averaged one-sided hypothesis from the conjecture's equation (7).
+Tao's 2023 paper on Problem 15, filed as
 [[primes/tao_2023_convergence_alternating_series_erdos_assuming_hardy/_index|tao_2023_convergence_alternating_series_erdos_assuming_hardy]],
-restates the conjecture with the wider range $k\le(\log\log x)^5$; that
-card, not this one, carries the Problem 15 account. No unconditional result
-of this uniformity is known: the paper itself reports only small computer
-tests (p. 3), and even the fixed-$k$ Hardy–Littlewood conjecture is open
-for $k\ge2$.
+restates the conjecture with the wider range $k\le(\log\log x)^5$; that card,
+not this one, carries the Problem 15 account. No unconditional result of this
+uniformity is known: the paper itself reports only small computer tests (p. 3),
+and even the fixed-$k$ Hardy–Littlewood conjecture is open for $k\ge2$.
 
 **Bears on.** [[../wiki/problems/irrationality/E0251/_index|#251]], as the assumed
 hypothesis of claimed conditional results only; the paper contains no

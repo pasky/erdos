@@ -1,0 +1,24 @@
+# Arithmetic progression discrepancy: exact subject
+
+For positive integers k and real l>0, let N(k,l), when it exists, be the
+least positive integer N such that every map f:{0,...,N-1}->{-1,1}
+has integers a>=0 and d>=1 with a+(k-1)d<N and
+|sum_{j=0}^{k-1} f(a+jd)|>=l. The target inequalities are non-strict.
+Translation by one gives the identical minimum for the interval {1,...,N}.
+
+The complete proposed conclusions are:
+
+1. For every integer k>=5,
+   N(k,2)<=floor(2(k^2-1)(k-1)(2k+1)/(k-3))+1.
+2. For every integer k>=2,
+   N(k,sqrt(k))<=floor((4/3)(k^2-k+1)(k-1)(k(k-1)+1))+1.
+3. For every integer k>=2, N(k,2)<=16^k, including the finite claims
+   N(2,2)=3, N(3,2)=9 and N(4,2)=13. N(1,2) does not exist.
+4. For every integer k>=1, N(k,sqrt(k))<=64^k, including N(1,1)=1.
+
+Floors and divisions in the displayed bounds are real operations before
+taking the integer floor. Cyclic progressions are intermediate objects;
+the final ordinary progression has positive difference and no wrapping.
+Source abbreviations N176 and N176Sqrt have default values outside their
+guarded domains. In particular the source's N176Sqrt 1=0 is not the
+mathematical minimum N(1,1)=1.

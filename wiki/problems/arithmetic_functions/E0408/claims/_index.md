@@ -1,10 +1,10 @@
 ---
 name: problems/arithmetic_functions/E0408/claims
-desc: The 1 claim page of Problem 408, one per claimant's result; the problem's standing derives from them.
+desc: The 2 claim pages of Problem 408, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T20:32:50Z
-updated: 2026-10-14T22:52:40Z
+updated: 2026-10-18T10:11:03Z
 ---
 
 # problems/arithmetic_functions/E0408/claims

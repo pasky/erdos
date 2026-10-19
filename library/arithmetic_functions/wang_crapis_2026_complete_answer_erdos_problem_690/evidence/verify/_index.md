@@ -6,7 +6,7 @@ desc: |
   the scoped exact delta pass of the locator correction it required; no tier
   and no certificate credit.
 created: 2026-09-21T17:35:12Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:57Z
 ---
 
 # Independent reviews of the Wang–Crapis route
@@ -30,7 +30,7 @@ selected PDF: the Wang–Crapis all-$k$ route is a complete symbolic
 derivation conditional on the forty-two declared pending finite
 certificates, four declared external premise classes and the separately
 accepted Cambie reuse. It required one bounded correction, twelve source
-locators in the lane's obligation table, before exact-byte acceptance.
+locators in the checker's obligation table, before exact-byte acceptance.
 
 The
 [[arithmetic_functions/wang_crapis_2026_complete_answer_erdos_problem_690/evidence/verify/locator_delta_review|locator delta review]]
@@ -44,3 +44,9 @@ the four external premise classes remain uncompiled, and no checker was read
 or run. Neither review alters the status of
 [[../wiki/problems/arithmetic_functions/E0690/_index|Problem 690]]. No distinct grader is
 recorded, so no tier is assigned.
+
+Edits to the filed records: on 2026-10-18 both reviews were edited in place to
+identify their subject as this folder's pages as filed on 2026-09-21T17:35:12Z
+in place of the commit that first added the folder, and to cite `AGENTS.md`
+convention 9 by its short name, Paths and dates, not hashes; no path, scope,
+date or verdict changed.

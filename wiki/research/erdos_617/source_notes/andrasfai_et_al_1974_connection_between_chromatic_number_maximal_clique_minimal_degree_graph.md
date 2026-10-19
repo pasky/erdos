@@ -5,7 +5,7 @@ desc: "Source notes for Problem 617: On the connection between chromatic number,
 tags: []
 sources: []
 created: 2026-09-24T22:18:26Z
-updated: 2026-09-24T22:18:26Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # On the connection between chromatic number, maximal clique and minimal degree of a graph
@@ -67,6 +67,63 @@ Section 2 returns to the equality case: equation (25) and the sentence after
 it on reading-copy p. 13 (journal p. 217) again identify equality with this
 graph, and Corollary 2.2 on the same page isolates it among the specified
 high-chromatic Zarankiewicz-extremal graphs.
+
+## Fixed-case reduction for Problem 617
+
+Fix $r\geq3$, put $N=r^2+1$, and suppose an $r$-edge-coloring of $K_N$ were a
+counterexample to
+[Problem 617](../../../problems/extremal_graph_theory/E0617/_index.md). For color $i$,
+let $C_i$ be its color graph and let
+
+$$
+H_i=K_N-C_i=\bigcup_{j\ne i}C_j.
+$$
+
+Every $(r+1)$-set must use color $i$, so $H_i$ is $K_{r+1}$-free. Apply
+Theorem 1.1 with $s=r+1$. It gives
+
+$$
+\delta(H_i)>\frac{3r-4}{3r-1}(r^2+1)
+\quad\Longrightarrow\quad
+\chi(H_i)\leq r.
+$$
+
+Here
+
+$$
+\frac{3r-4}{3r-1}(r^2+1)
+=r^2-r+\frac{2r-4}{3r-1},
+$$
+
+and the final fraction lies strictly between $0$ and $1$. Consequently each
+missing-color graph in a hypothetical counterexample admits the exact branch
+
+$$
+\delta(H_i)\leq r^2-r
+\qquad\text{or}\qquad
+\chi(H_i)\leq r.
+$$
+
+The first is the low-degree branch: for a minimum-degree vertex $v$,
+
+$$
+d_{C_i}(v)=r^2-d_{H_i}(v)\geq r,
+$$
+
+so it supplies a vertex incident with at least $r$ edges of color $i$. In the
+second branch, an $r$-partite partition of $H_i$ forces every edge within a
+part to have color $i$; equivalently, $C_i$ contains a spanning disjoint
+union of at most $r$ cliques. This is useful in fixed-$r$ reductions because
+each color either supplies a local degree witness or a global partition
+template. It does not by itself make the templates for different colors
+compatible and does not settle Problem 617.
+
+The sharp equality graph cannot occur at the order used in Problem 617:
+$3r-1\nmid r^2+1$ for $r\geq3$. Indeed, divisibility would imply
+$3r-1\mid9(r^2+1)=(3r-1)(3r+1)+10$, which is impossible for these values of
+$r$. Thus the source's divisible-order equality classification supplies
+sharpness context, while the E0617 specialization uses the one-integer gap
+above.
 
 **Reading and proof scope.** All fourteen pages of the complete Markdown
 reading copy were inspected. Theorem 1.1, its extremal construction,

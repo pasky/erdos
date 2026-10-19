@@ -7,7 +7,7 @@ desc: |
   g(5)=12.
 license: reserved
 created: 2026-09-21T00:00:00Z
-updated: 2026-10-08T16:16:06Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Erdős–Fishburn: Maximum planar sets that determine k distances
@@ -163,13 +163,37 @@ $$
 
 its points are in convex position when $|A_D|\ge3$, and a set of at most
 $\lceil |A_D|/2\rceil$ vertices meets every diameter pair. Deleting those
-vertices removes $D$.
+vertices removes $D$. This is a natural diameter-peeling device for an attempted
+induction on $|\Delta(A)|$ or $|A|$.
 
-The triangular-lattice constructions in Section 5 have unusually few distinct
-distances, but the paper tabulates only the number of distance values, not
-their multiplicities. It therefore neither verifies nor refutes E132 for these
-arrays. Conjectures 1 and 2 concern the shape and size of sets with a
-prescribed number of distances and provide no multiplicity bound.
+The obstruction is that the diameter of the residual set need not be rare in the
+original set: pairs joining its endpoints to deleted points may raise its full
+multiplicity above $n$. Lemma 1 controls a vertex cover of the current diameter
+graph, not the multiplicities of any other distance class. Consequently,
+iterating it does not by itself produce a second E132 distance.
+
+Theorem 1 provides sharply classified test configurations. Directly counting
+within the stated models, both distances of $R_5$ occur five times; all three
+distances of $R_7$ occur seven times; and in $R_6^+$ the three multiplicities
+are $12,6,3$, so two are at most seven. These checks concern only the classified
+extremizers with exactly two or three distances, not arbitrary five- or
+seven-point sets. Likewise, $g(5)=12$ implies that every 13-point set determines
+at least six distances, but having six distinct distances does not force two of
+their multiplicities to be at most 13.
+
+The triangular-lattice constructions in Section 5 are relevant as candidate
+stress tests because they have unusually few distinct distances. However, the
+paper tabulates only the number of distance values, not their multiplicities. It
+therefore neither verifies nor refutes E132 for these arrays. Conjectures 1 and
+2 concern the shape and size of sets with a prescribed number of distances and
+provide no multiplicity bound.
+
+Thus the paper contributes a useful structural lemma for the uniquely guaranteed
+rare distance, exact low-$k$ extremal models on which multiplicities can be
+tested, and economical lattice families that any proposed general argument
+should handle. It does not prove the existence of a second rare distance for
+arbitrary $A$, does not establish divergence of $R(A)$, and gives no general
+control of $\nu_A(r)$ for non-diameter distances.
 
 ## Result pages
 

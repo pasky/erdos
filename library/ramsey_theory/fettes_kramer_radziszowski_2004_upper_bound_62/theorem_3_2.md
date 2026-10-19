@@ -5,7 +5,7 @@ desc: |
   Reconstructs the analytic attaching-set reduction, including Lemma 3.1
   and its elementary Ramsey bounds, with independently reviewed proof coverage.
 created: 2026-09-15T03:15:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -239,7 +239,7 @@ and independence. The [full substantive review](evidence/verify/theorem_3_2_revi
 [grade](evidence/verify/theorem_3_2_grade.md), and exact
 [reviewed subject](evidence/assets/theorem_3_2_reviewed.txt) retain the
 scope and reasoning. No formal verification, numerical claim tier or
-catalog-status change is asserted.
+problem-status change is asserted.
 
 The argument uses no classification of good three-colorings, labeled
 seed coloring, computational table or program output. It supplies only

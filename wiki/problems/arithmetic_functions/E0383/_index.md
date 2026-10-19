@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 383
@@ -96,3 +96,19 @@ Zenodo record of the proof claim, the formal-conjectures file and its commit
 history, and the community database, which lists the problem as open and
 formalized as of its last update on 2025-08-31, without dating when either
 state was set.
+
+## Prime-factor and interval interface
+
+For $k=1$, a prime solution $p>3$ of $p^2-2b^2=-1$ suffices: $p^2+1=2b^2$ and
+$b<p$, so every prime factor of $p^2+1$ is below $p$. The integer $b$ need not
+be prime; $p=7,b=5$ is an exact example. Infinitely many Pell solutions do not
+imply infinitely many solutions with $p$ prime.
+
+More generally an integer-input density theorem need not hold on prime inputs,
+and a smoothness exponent $2-1/(2k)+\epsilon>1$ does not reach the required
+bound $p$. These are elementary interface checks. The reported prime-input
+theorem and finite searches have not been proof-inspected or replayed here. A
+viable input must meet both the prime restriction and the exponent-one
+threshold; the subfamily would then also bear on
+[[problems/arithmetic_functions/E0382/_index|unbounded bad-interval length in
+Problem 382]].

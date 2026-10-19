@@ -4,8 +4,10 @@ title: Bhattacharjee, Mandal and Bhattacharya, both Erdős–Ulam conjectures on
 desc: |
   Bhattacharjee, Mandal and Bhattacharya (Zenodo 30 September 2026, arXiv 2
   October) claim $F(n)\ge n^{\omega(n)}$ with $\omega(n)\to\infty$ and
-  $F(n)<(1+o(1))^n$ for any number of colors, with a Lean 4 development of their
-  own. The claim is unreviewed here.
+  $F(n)<(1+o(1))^n$ for each fixed number of colors, with a Lean 4 development of their
+  own. Its exact arXiv v1 union-family arguments have a whole-proof examination
+  and distinct passing grade; the upper bounds retain an explicit Sauer–Shelah
+  premise. Catalog acceptance remains pending.
 authors:
 - Deep Bhattacharjee
 - Priyabrata Mandal
@@ -35,7 +37,7 @@ links:
 - url: https://www.erdosproblems.com/1183
   kind: discussion
 created: 2026-10-07T05:19:29Z
-updated: 2026-10-08T02:31:50Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -93,7 +95,7 @@ October 2026, giving "Claude Code" as the AI used:
 > are verified in Lean.
 
 **Covers.** Both "in particular" questions of the problem, answered yes if
-the claim holds, for two and for any number of colors. The estimates of
+the claim holds, for two and for each fixed number of colors. The estimates of
 $F(n)$ and $f(n)$ remain open by the authors' own account: the README puts
 $\log F(n)/\log n$ between $(1-o(1))\log_2\log_2n$ and $(1+o(1))\log_2n$
 and $f(n)$ between $13n/24$ and $(2+o(1))n\log_2n$, and names both orders
@@ -101,25 +103,36 @@ as open.
 
 **Depends on.** Nothing in this wiki.
 
-**Standing.** Claimed. The first posting is the Zenodo deposit's v1.0.0 of
-30 September 2026 (the date this page is named by), whose description
-already claims both conjectures with a Lean formalization; the arXiv listing
-(v1, 2 October 2026, 31 KB of source, three authors) and the deposit's
-v2.1.0 of 6 October 2026 followed. This page rests on the Zenodo record's
-version list and descriptions, the arXiv listing and, at the pinned commit
-of 6 October 2026 (whose message cites the paper's version 2.1 on Zenodo),
-the repository's file listing and README, not on any Lean file or page of
-the paper; nothing was built or kernel-checked, and no statement-fidelity
-review exists, so no evidence kind is listed. The README's credits and the
-Zenodo descriptions say that Claude (Anthropic) assisted with the coding,
-and the erdosproblems.com tab lists the claim as made using Claude Code; that is
-provenance only. The paper's license is stated as CC BY 4.0 in the README
-and on the Zenodo record. The earlier partial claim
+**Standing.** Pending catalog acceptance, with independently reviewed
+mathematical evidence for the exact arXiv v1 $F/F_k$ argument. The
+[whole-proof examination](../evidence/verify/union_closed/report.md) and
+[distinct passing grade](../evidence/verify/union_closed/grade.md) cover all
+eight conclusions of Theorems 1.1 and 1.2 and Corollary 1.3, including their
+small cases, strict inequalities and fixed-color quantifiers. The complete
+[verification record](../evidence/verify/union_closed/_index.md) retains the
+examined source text and independent derivations.
+
+The lower polynomial, threshold and superpolynomial conclusions have no unread
+external theorem premise. The upper estimates and their descendants consume
+the exact finite Sauer–Shelah statement supplied with the source; its
+application was verified, but the original Sauer and Shelah proofs were not
+read. This is the explicit limit of the graded upper warrant. The $f$ results,
+other source versions, original-PDF fidelity and all Lean claims are outside
+this examination. Nothing was built or kernel-checked, so no formalized
+evidence is asserted.
+
+The first posting is the Zenodo deposit's v1.0.0 of 30 September 2026; the
+examined mathematical text is arXiv:2610.02833v1, not the initial Zenodo
+23050880. Related Zenodo 23067141 and the repository's later formalization
+claims remain separately identified. The paper's CC BY 4.0 license is recorded
+in the retained source attribution. Source theorem and proof credit remains
+with Bhattacharjee, Mandal and Bhattacharya; the source's coding-assistance
+provenance is not proof evidence. Plasma AI receives the extraction and
+independent-derivation credit.
+
+The earlier partial claim
 [[problems/ramsey_theory/E1183/claims/2026_03_18_chojecki|Chojecki 2026]]
 covers the subexponential half by a similar random-coloring argument; this
-claim does not rest on it. The preprint was posted in the erdosproblems.com
-thread on 5 October 2026 by a reader as partial progress and listed on the tab
-the same day; the tab says a listing there does not mean erdosproblems.com has
-examined the proof. The claim has no comments, and the erdosproblems.com label
-(OPEN) and commentary are unchanged; the claim is accepted neither by
-erdosproblems.com nor by a named mathematician.
+examination does not rest on it and does not review that separate manuscript.
+No external acceptance or verification of the authors' formalization is
+inferred from the graded mathematical record.

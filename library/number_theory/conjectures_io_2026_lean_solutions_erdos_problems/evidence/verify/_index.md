@@ -5,8 +5,8 @@ desc: |
   The replay driver, the formal-conjectures ports to Lean v4.34.1 and one dated
   receipt per record for the sixteen Conjectures.io solutions replayed in the
   kernel from an empty environment; all sixteen passed.
-created: 2026-10-14T02:00:00Z
-updated: 2026-10-14T01:29:24Z
+created: 2026-10-14T01:27:55Z
+updated: 2026-10-18T10:20:09Z
 ---
 
 # Kernel replays of sixteen Conjectures.io solutions

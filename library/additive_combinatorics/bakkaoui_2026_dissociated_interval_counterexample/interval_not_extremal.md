@@ -5,7 +5,7 @@ desc: |
   A fixed 13-element positive integer set has largest dissociated subset
   size four, compared with five for the interval from 1 to 13.
 created: 2026-09-10T04:06:38Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -123,4 +123,4 @@ an exceptionality claim. No native claim, status change, formal verification
 or current literature-search conclusion is asserted.
 
 **Bears on.** [[../wiki/problems/number_theory/E0963/_index|Problem 963]], by ruling out the
-initial interval as a universal minimizer; it supplies no catalog solution.
+initial interval as a universal minimizer; it supplies no solution.

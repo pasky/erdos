@@ -1,0 +1,21 @@
+[cut]
+
+From the repository root run:
+
+```sh
+uv run --no-sync python wiki/research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/main.py
+```
+
+The [exact input](assets/parameters.json) specifies five part numerators,
+the common denominator, all six supported pairs and their density
+numerators, the comparison constant and the cutoff. The program uses
+integer and rational arithmetic only. It checks all ten triples of part
+labels, the handshaking identity, the exact two triangle sums, the positive
+edge-density surplus, the rational comparison with $2(\sqrt3-1)$, and the
+padding inequality at the cutoff. Monotonicity extends the latter check to
+every larger order, as proved on the owning page.
+
+The run takes less than a second in the repository environment. It has no
+search parameters, external source input or generated witness. The
+construction and the reduction from rational parameters to actual graphs
+are proved on the owning page; [cut]

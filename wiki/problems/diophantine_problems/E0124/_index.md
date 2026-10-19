@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 124
@@ -138,6 +138,43 @@ Melfi's construction [Me04] of infinite sets of bases with arbitrarily small
 reciprocal sum whose power sums still cover every large integer; neither
 settles an instance of either question, so neither has a claim page. The
 necessity of the gcd condition in the second question is immediate.
+
+## Progress
+
+The Problem 354 research folder's
+[[research/erdos_354/connections|connections page]] records that nothing in the
+reconstructed Problem 354 proofs transfers to this problem; Fan's Theorem 1.5 is
+not reconstructed there.
+
+## Completeness at cutoff zero
+
+For the modified reciprocal-sum condition, the cutoff-zero question has a
+direct author proof. Sort all labelled powers $d_i^j$, $j\ge0$, into a
+nondecreasing list; equal numerical powers from different bases are separately
+allowed. For a coin value $x>1$, let $m_i$ be least with $d_i^{m_i}\ge x$. The
+sum of coins strictly below $x$ is
+
+$$
+\sum_i\frac{d_i^{m_i}-1}{d_i-1}
+ \ge(x-1)\sum_i\frac1{d_i-1}\ge x-1.
+$$
+
+The first coin is one. Thus each next coin is at most one plus the sum $S$ of
+its predecessors. If those predecessors cover $[0,S]$ by subset sums, the
+intervals $[0,S]$ and $[x,x+S]$ meet or are adjacent, extending coverage to
+$[0,S+x]$. Induction covers every nonnegative integer; grouping the coins by
+base gives the requested form. This reconstructs the already claimed first part
+and supplies no independent acceptance of the outside proof.
+
+For cutoff $k\ge1$, deletion of the small coins removes the initial coverage
+interval. Gcd one alone has not supplied a consecutive seed long enough for
+this induction.
+[[../library/diophantine_problems/burr_1996_complete_sequences_sets_integer_powers/_index|Burr
+and collaborators' Theorem 1]] starts from an infinite positive-density base
+set and selects a complete finite subset, not every prescribed tuple. The
+additional partition hypotheses in the other recorded claims cannot be omitted;
+their full proofs remain uninspected here. The surviving gap is strong
+completeness for the exact finite tuple.
 
 <!-- BEGIN problem library links -->
 

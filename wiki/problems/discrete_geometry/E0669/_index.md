@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 669
@@ -65,6 +65,14 @@ for $k\ge4$ are open as far as they show. erdosproblems.com also points to
 behind this account covered the erdosproblems.com page, the two papers above and
 the formal-conjectures repository, which had no statement file for the problem
 on 2026-10-07.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/rich_lines|rich lines and
+real-planar realization]] account records the following scope. The pair budget
+gives F_k(n)<=binom(n,2)/binom(k,2), while the incidence theorem gives
+O(n^2/k^3+n/k).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

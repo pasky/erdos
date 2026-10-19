@@ -4,7 +4,7 @@ title: "Lemma 2.3: Voronoi facets"
 desc: |
   Bounds every lifted cell by at most five to the n half-spaces.
 created: 2026-09-05T12:22:53Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:20:03Z
 ---
 
 ***
@@ -49,6 +49,6 @@ argument.
 
 **Related proof pages.**
 [[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/definitions|definitions]],
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_2|lemma 2 2]].
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_2|Lemma 2.2]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|Problem 188]].

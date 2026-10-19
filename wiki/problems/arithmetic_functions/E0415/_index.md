@@ -10,7 +10,7 @@ tags:
 status: claimed
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 415
@@ -128,11 +128,13 @@ nonincreasing the length $\log_3x/\log_6x+O(\log_3x/(\log_6x)^2)$; since $F(n)$
 requires the strictly decreasing pattern of length $F(n)$ to occur,
 $F(n)\le(1+o(1))\log_3n/\log_6n=o(\log_3n)$, a negative answer to the first
 question for every $c>0$ (see Formulation), which the erdosproblems.com page
-(last edited 28 May 2026) records. The bound $F(n)\asymp\log\log\log n$, which
-[ErGr80] attributes to [Er36b], does not appear there: the erdosproblems.com
-commentary records that [Er36b] shows only that $\phi(m)<\phi(m+1)$ and
-$\phi(m)>\phi(m+1)$ each hold for $\sim n/2$ of the $m\le n$, and its lower half
-is false by [PPT13].
+(last edited 28 May 2026) records; the collision bounds reconstructed for
+Problem 49 control only distinctness of consecutive totients, not their order
+([[research/erdos_49/connections|connections page]]). The bound
+$F(n)\asymp\log\log\log n$, which [ErGr80] attributes to [Er36b], does not
+appear there: the erdosproblems.com commentary records that [Er36b] shows only
+that $\phi(m)<\phi(m+1)$ and $\phi(m)>\phi(m+1)$ each hold for $\sim n/2$ of the
+$m\le n$, and its lower half is false by [PPT13].
 <!-- BEGIN problem library links -->
 
 ## Linked library material

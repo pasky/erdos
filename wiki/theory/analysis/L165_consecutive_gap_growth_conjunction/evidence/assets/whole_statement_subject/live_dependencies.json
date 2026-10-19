@@ -1,0 +1,54 @@
+{
+  "utc": "2026-10-15T22:26:35.670409+00:00",
+  "dependencies": [
+    {
+      "path": "wiki/theory/analysis/L163_all_sequence_span_ratio/_index.md",
+      "statement": "  On the circle R/Z, let X be any infinite sequence, repeated terms allowed.\n  For n >= r, order the first n labels by position, breaking ties by arrival\n  index, and extend their real lifts by y_(i+n) = y_i + 1. Let M_n^(r) and\n  m_n^(r) be the maximum and minimum of y_(i+r)-y_i over 1 <= i <= n.\n  Interpret M/0 as positive infinity and log as the natural logarithm.\n  There is an absolute integer r0 such that for every integer r >= r0\n  and every X, limsup_n M_n^(r)/m_n^(r) >= 1 + log(r)/(200r).\n  If mu_r = inf_X limsup_n M_n^(r)/m_n^(r) over the same sequence family,\n  then r(mu_r-1) >= log(r)/200 for r >= r0, and r(mu_r-1) tends to\n  positive infinity as r tends to infinity through the positive integers.\n",
+      "id": "L163",
+      "status": "proved",
+      "tier": "1",
+      "standing": null,
+      "depends_on": "[]",
+      "conventions_and_scope": "## Conventions and scope\n\nSpans are forward lifted arcs, or sums of $r$ consecutive nonnegative gaps;\nthey are not shortest unoriented distances. Their sum is $r$, so\n$nm_n^{(r)}\\le r\\le nM_n^{(r)}$ and $M_n^{(r)}>0$. Counts in the proof\nretain label multiplicity in half-open arcs $(x,x+\\ell]$, $\\ell<1$.\nAll limits in $n$ use integers $n\\ge r$. The constant $r_0$ is independent of\n$X$, although intermediate time thresholds can depend on $X$ and $r$.\nNo optimal coefficient, attained infimum or conclusion for every small $r$\nis asserted.",
+      "standing_rows": [
+        "| L163 | [all sequence span ratio](theory/analysis/L163_all_sequence_span_ratio/_index.md) | analysis | proved | 1 |  |"
+      ]
+    },
+    {
+      "path": "wiki/theory/analysis/L164_all_sequence_span_deviations/_index.md",
+      "statement": "  On the circle R/Z, let X be any infinite sequence, repeated terms allowed.\n  For n >= r, order the first n labels by position, breaking ties by arrival\n  index, and extend their real lifts by y_(i+n) = y_i + 1. Let M_n^(r) and\n  m_n^(r) be the maximum and minimum of y_(i+r)-y_i over 1 <= i <= n.\n  There are absolute constants c > 0 and integer r0 such that, for every\n  integer r >= r0 and every X, limsup_n(n M_n^(r)-r) >= c sqrt(log r)\n  and limsup_n(r-n m_n^(r)) >= c sqrt(log r), with natural logarithms.\n  Set Lambda_r = inf_X limsup_n n M_n^(r) and\n  lambda_r = sup_X liminf_n n m_n^(r) over this same family.\n  Then Lambda_r-r and r-lambda_r are each at least c sqrt(log r) for\n  every integer r >= r0, and both tend to positive infinity as r tends\n  to infinity through positive integers. The two deviations need not\n  occur at the same times.\n",
+      "id": "L164",
+      "status": "proved",
+      "tier": "1",
+      "standing": null,
+      "depends_on": "[]",
+      "conventions_and_scope": "## Conventions and scope\n\nThe $r$-spans are forward lifted arcs, each a sum of $r$ consecutive gaps,\nincluding zero and full-turn spans. They are not shortest circle distances.\nTheir sum is $r$. Counting arcs are half-open $(x,x+\\ell]$, $\\ell<1$,\nand counts retain multiplicity. Limits use integer $n\\ge r$.\nThe constants $c,r_0$ are independent of the sequence, whereas intermediate\nonset times may depend on it and on $r$. The two limsups are separate\nassertions, with no common subsequence required. Small-$r$ bounds, optimal\nconstants and attained extrema are outside the statement.",
+      "standing_rows": [
+        "| L164 | [all sequence span deviations](theory/analysis/L164_all_sequence_span_deviations/_index.md) | analysis | proved | 1 |  |"
+      ]
+    }
+  ],
+  "comparison_to_frozen_premises": [
+    {
+      "id": "L163",
+      "statement_match_after_yaml_dedent": true,
+      "conventions_match": true,
+      "standing_row_matches_frozen": true,
+      "status": "proved",
+      "tier": "1",
+      "standing": null,
+      "depends_on": "[]"
+    },
+    {
+      "id": "L164",
+      "statement_match_after_yaml_dedent": true,
+      "conventions_match": true,
+      "standing_row_matches_frozen": true,
+      "status": "proved",
+      "tier": "1",
+      "standing": null,
+      "depends_on": "[]"
+    }
+  ],
+  "comparison_convention": "Remove YAML block-scalar indentation and leading/trailing whitespace from statement fields; conventions and selected standing rows otherwise agree exactly."
+}

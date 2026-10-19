@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 739
@@ -107,6 +107,14 @@ Shelah and of Erdős (1981). Komjáth's and Galvin's papers are not held in the
 library; the claim page rests on the refereed record, erdosproblems.com's
 account and Shelah's introduction. The community database records no
 formalization.
+
+## Scoped deduction
+
+The [[research/methods/chromatic_threshold_interfaces|countable extraction argument]]
+spells out the existing $\aleph_0$ case, discarding cross edges between
+selected finite subgraphs. The resulting subgraph need not be induced;
+the argument does not settle an uncountable target cardinal.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

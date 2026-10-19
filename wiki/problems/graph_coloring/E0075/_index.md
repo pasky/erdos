@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 75
@@ -93,6 +93,17 @@ as an example, is recorded by erdosproblems.com; the vertex-deletion relative is
 original source is
 [[../library/graph_coloring/erdos_1982_almost_bipartite_large_chromatic_graphs/_index|erdos_1982_almost_bipartite_large_chromatic_graphs]];
 its proofs are not compiled.
+
+## Scoped deduction
+
+The [[research/finite_graph_coloring_obstructions/_index|explicit triple-pattern coloring]]
+proves a finite bound $2\lceil\log_2(3n)\rceil$ and the resulting
+independence lower bound. Its identification with the infinite graph in
+Erdős–Hajnal–Szemerédi remains a source gap: their printed general
+definition has an inconsistent repeated index. The finite argument does
+not by itself certify uncountable chromatic number or a linear bound,
+and it changes no existing claim's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

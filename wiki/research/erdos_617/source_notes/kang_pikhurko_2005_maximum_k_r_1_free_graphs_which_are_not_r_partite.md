@@ -5,7 +5,7 @@ desc: "Source notes for Problem 617: Maximum $K_r+1$-free graphs which are not $
 tags: []
 sources: []
 created: 2026-09-24T22:18:26Z
-updated: 2026-09-24T22:18:26Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Maximum $K_r+1$-free graphs which are not $r$-partite
@@ -116,7 +116,62 @@ branches pins down all missing edges and yields the classification by
 $G(\mathbf n)$. Thus the result is an exact finite stability statement one
 step below Turán's bound, rather than only an asymptotic stability theorem.
 
-## Shortest odd cycles
+## Specialization to Problem 617
+
+Fix $r\geq3$, put $N=r^2+1$, and suppose an $r$-edge-coloring of $K_N$ were a
+counterexample to
+[Problem 617](../../../problems/extremal_graph_theory/E0617/_index.md). For each color
+$i$, let $C_i$ be its color graph and let
+
+$$
+H_i=K_N-C_i=\bigcup_{j\ne i}C_j.
+$$
+
+Every $(r+1)$-set uses color $i$, so $H_i$ is $K_{r+1}$-free. Since
+$r\leq(N-1)/2$ and $\lfloor N/r\rfloor=r$, Theorem 1 specializes to
+
+$$
+\chi(H_i)>r
+\quad\Longrightarrow\quad
+e(H_i)\leq t_r(N)-r+1. \tag{*}
+$$
+
+Here
+
+$$
+t_r(N)=\frac{r(r-1)(r^2+2)}2.
+$$
+
+Consequently, if $t_i=t_r(N)-e(H_i)$ is the Turán deficit, then
+$t_i\leq r-2$ forces $H_i$ to be $r$-partite, while a non-$r$-partite
+$H_i$ has $t_i\geq r-1$. Equality in (*) is completely explicit. Substituting
+$\sum n_j=N-1=r^2$ in Lemma 5 gives the possible ordered part-size vectors
+
+$$
+(r^{(r)}),\qquad
+(r-1,r^{(r-2)},r+1),
+$$
+
+and, when $r\geq4$,
+
+$$
+((r-1)^{(2)},r^{(r-4)},(r+1)^{(2)}).
+$$
+
+For each vector, Theorem 4 describes every non-$r$-partite graph at deficit
+$r-1$ by the single added vertex and switched $A$--$y$ edges above. This
+turns a near-Turán missing-color graph in a hypothetical balanced coloring
+into a small, exact family rather than an unspecified exceptional case.
+
+There are two important limits to this transfer. First, the theorem treats
+the graphs $H_i$ separately. It does not make their $r$-partitions compatible
+or use the fact that the complementary color graphs $C_i$ partition one
+common edge set. Second, an $r$-partition of $H_i$ makes every pair *within*
+a part an edge of color $i$. A split coloring instead asks for a partition
+$S_1,\ldots,S_r$ in which $S_i$ contains no color-$i$ edge. Thus the
+partitions supplied here point in the opposite local direction and are not a
+split certificate. Nor does the paper control all $H_i$ at once, so it does
+not settle the extra-vertex obstruction for balanced $(r,2)$-colorings.
 
 The paper's other principal result, Theorem 2 (p. 13), gives a new proof of
 the value, due to Andrásfai and independently to Erdős and Gallai, of the
@@ -129,7 +184,8 @@ b_l(n)=\left\lfloor\frac{(n-2l+3)^2}{4}\right\rfloor+2l-3
 $$
 
 with every equality graph given by the construction at the start of Section
-3 (p. 17). This includes $b_2(n)=p_2(n)$.
+3 (p. 17). This includes $b_2(n)=p_2(n)$ but is not used in the E0617
+specialization.
 
 Read status: the complete nine-page Markdown reading copy was inspected.
 Claims were checked clause by clause for Theorems 1, 2 and 4, Lemmas 3 and 5,

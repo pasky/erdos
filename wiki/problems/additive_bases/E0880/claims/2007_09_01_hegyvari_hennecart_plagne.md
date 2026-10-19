@@ -29,7 +29,7 @@ links:
   kind: formalization
   date: 2026-08-31
 created: 2026-10-07T08:10:18Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -81,7 +81,7 @@ outline is a reading aid, not proof coverage.
 **Acceptance.** The `refereed` evidence is the journal publication cited above,
 in Combinatorics, Probability and Computing. Crossref gives the issue date
 2007-09-01, which is the page's date. The `reviewed` evidence is the documented
-acceptance by the catalog erdosproblems.com. Its curator, Thomas Bloom, credits
+acceptance by erdosproblems.com. Its curator, Thomas Bloom, credits
 both answers to this paper in the problem's remarks (accessed 2026-10-07), and
 the page's last label was PROVED. The proof is not compiled or reviewed here.
 

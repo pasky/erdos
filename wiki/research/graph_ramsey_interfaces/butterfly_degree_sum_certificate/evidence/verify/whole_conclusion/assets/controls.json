@@ -1,0 +1,306 @@
+{
+  "purpose": "Exact adversarial inputs for checker coverage and failure exits; not alternative mathematical subjects or counterexamples to the supplied theorem.",
+  "cases": [
+    {
+      "name": "supplied_parameters",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4273,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 4352,
+          "DE": 3011
+        },
+        "triangle_sum_bound": [
+          183,
+          125
+        ],
+        "all_order_cutoff": 10000000000000
+      },
+      "author_exit": 0,
+      "author_failure": null,
+      "recount_exit": 0,
+      "recount_failure": null
+    },
+    {
+      "name": "part_total_wrong",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4274,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 4352,
+          "DE": 3011
+        },
+        "triangle_sum_bound": [
+          183,
+          125
+        ],
+        "all_order_cutoff": 10000000000000
+      },
+      "author_exit": 1,
+      "author_failure": "positive part proportions sum to one",
+      "recount_exit": 1,
+      "recount_failure": "part cardinalities partition the construction unit"
+    },
+    {
+      "name": "pair_density_too_large",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4273,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 10001,
+          "DE": 3011
+        },
+        "triangle_sum_bound": [
+          183,
+          125
+        ],
+        "all_order_cutoff": 10000000000000
+      },
+      "author_exit": 1,
+      "author_failure": "every pair density is in (0,1]",
+      "recount_exit": 1,
+      "recount_failure": "residue counts are integers between one and M"
+    },
+    {
+      "name": "extra_supported_pair",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4273,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 4352,
+          "DE": 3011,
+          "BD": 1
+        },
+        "triangle_sum_bound": [
+          183,
+          125
+        ],
+        "all_order_cutoff": 10000000000000
+      },
+      "author_exit": 1,
+      "author_failure": "the only supported triples are ABC and ADE",
+      "recount_exit": 1,
+      "recount_failure": "exact six-pair support with full AB BC AD AE"
+    },
+    {
+      "name": "off_by_one_residue",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4273,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 4351,
+          "DE": 3011
+        },
+        "triangle_sum_bound": [
+          183,
+          125
+        ],
+        "all_order_cutoff": 10000000000000
+      },
+      "author_exit": 1,
+      "author_failure": "exact triangle degree sums",
+      "recount_exit": 1,
+      "recount_failure": "displayed triangle degree sums from integer degrees"
+    },
+    {
+      "name": "triangle_bound_too_small",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4273,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 4352,
+          "DE": 3011
+        },
+        "triangle_sum_bound": [
+          14639,
+          10000
+        ],
+        "all_order_cutoff": 10000000000000
+      },
+      "author_exit": 1,
+      "author_failure": "both triangle sums are strictly below the comparison bound",
+      "recount_exit": 1,
+      "recount_failure": "strict triangle margins in integer units"
+    },
+    {
+      "name": "comparison_bound_too_large",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4273,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 4352,
+          "DE": 3011
+        },
+        "triangle_sum_bound": [
+          3,
+          2
+        ],
+        "all_order_cutoff": 10000000000000
+      },
+      "author_exit": 1,
+      "author_failure": "comparison bound is below twice sqrt(3) minus two",
+      "recount_exit": 1,
+      "recount_failure": "positive irrational comparison after clearing denominators"
+    },
+    {
+      "name": "cutoff_too_small",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4273,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 4352,
+          "DE": 3011
+        },
+        "triangle_sum_bound": [
+          183,
+          125
+        ],
+        "all_order_cutoff": 1000000000000
+      },
+      "author_exit": 1,
+      "author_failure": "padding inequality at the all-order cutoff",
+      "recount_exit": 1,
+      "recount_failure": "strict cutoff padding margin in integer units"
+    },
+    {
+      "name": "cutoff_equals_unit",
+      "parameters": {
+        "denominator": 10000,
+        "part_numerators": {
+          "A": 4273,
+          "B": 2471,
+          "C": 709,
+          "D": 1274,
+          "E": 1273
+        },
+        "pair_density_numerators": {
+          "AB": 10000,
+          "BC": 10000,
+          "AD": 10000,
+          "AE": 10000,
+          "AC": 4352,
+          "DE": 3011
+        },
+        "triangle_sum_bound": [
+          183,
+          125
+        ],
+        "all_order_cutoff": 100000000
+      },
+      "author_exit": 1,
+      "author_failure": "cutoff exceeds the construction unit",
+      "recount_exit": 1,
+      "recount_failure": "integer cutoff exceeds the construction unit"
+    },
+    {
+      "name": "sign_reversed_domain",
+      "parameters": {
+        "denominator": -10000,
+        "part_numerators": {
+          "A": -4273,
+          "B": -2471,
+          "C": -709,
+          "D": -1274,
+          "E": -1273
+        },
+        "pair_density_numerators": {
+          "AB": -10000,
+          "BC": -10000,
+          "AD": -10000,
+          "AE": -10000,
+          "AC": -4352,
+          "DE": -3011
+        },
+        "triangle_sum_bound": [
+          183,
+          125
+        ],
+        "all_order_cutoff": 10000000000000
+      },
+      "author_exit": 0,
+      "author_failure": null,
+      "recount_exit": 1,
+      "recount_failure": "positive integer construction denominator"
+    }
+  ]
+}

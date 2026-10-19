@@ -5,7 +5,7 @@ desc: |
   are equidistributed in progressions to moduli up to x^(5/8-epsilon).
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T00:25:14Z
 ---
 
 # additive_bases/pascadi_2025_exponents_distribution_primes_smooth_numbers
@@ -75,7 +75,11 @@ Source: <https://arxiv.org/abs/2505.00653v2>.
 **Bears on.** [[../wiki/problems/additive_bases/E0158/_index|#158]]: indirect
 only, through Theorem 1.3. An exponent of distribution here controls a
 weighted sum over all moduli up to the level for one fixed residue class
-(p. 2); the paper does not mention the problem.
+(p. 2), whereas the collision count in the
+[[../wiki/research/leads/two_representation_exponent_frontier/_index|exponent-frontier lead]]
+fixes nested moduli and lets the product residue vary, so the stronger level
+does not by itself give the third-moment bound that lead asks for; the paper
+does not mention the problem.
 
 **Results.** Labels and pages are those of v2.
 

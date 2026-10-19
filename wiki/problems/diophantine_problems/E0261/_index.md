@@ -13,7 +13,7 @@ parts:
 - all_n
 - continuum
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:01:57Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 261
@@ -156,6 +156,37 @@ termination conjecture and study the multiplicity of representations;
 verify the second question for $n\le10^4$, bound the solutions for each
 fixed number of terms and enumerate them for at most eight terms. The claim
 pages above record what each settles.
+
+## Finite identities and greedy representations
+
+For $m\ge2$, set $n=2^{m+1}-m-2$. The finite-sum identity
+
+$$
+\sum_{k=n+1}^{n+m}\frac{k}{2^k}
+ =\frac{n+2}{2^n}-\frac{n+m+2}{2^{n+m}}
+ =\frac n{2^n}
+$$
+
+gives infinitely many examples with at least two distinct exponents, all
+greater than $n$. This is the construction recorded in
+[[../library/diophantine_problems/borwein_1990_questions_erdos_graham_numbers_form_sum_g_n_2_g_n/_index|Borwein–Loring]].
+
+For a fixed $n\ge2$, a greedy diagnostic starts at $R_n=n$ and uses
+$R_k=2R_{k-1}-k\mathbf1_{\{2R_{k-1}\ge k\}}$ for $k>n$. Induction gives $0\le
+R_k<k$, so this is also $2R_{k-1}\bmod k$, with a changing modulus. Hitting
+zero gives a finite representation with at least two terms: the first selected
+exponent is $n+1$ and leaves positive residual $n-1$. At $n=1$ that diagnostic
+stops with only one term, so it does not itself meet $t\ge2$. The identity
+$1/2=2/2^2=3/2^3+6/2^6+8/2^8$ handles both $n=1$ and $n=2$ directly.
+
+A finite failure to terminate does not disprove representability. Even
+nontermination of this greedy choice excludes no other choice. The residual
+bound gives an infinite expansion, a different conclusion.
+[[../library/diophantine_problems/tengely_2020_diophantine_equation_erdos_graham/_index|Tengely–Ulas–Zygadło]]
+report finite coverage and at least nine representations of certain rationals;
+these computations were not replayed. Neither finite coverage nor finite
+multiplicity gives continuum many representations of a rational.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

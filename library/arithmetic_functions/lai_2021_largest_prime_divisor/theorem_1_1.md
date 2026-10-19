@@ -5,7 +5,7 @@ desc: |
   Gives a 1+9 log 2 limsup bound, with a positive-lower-density strengthening,
   for every nonzero polynomial shift of n!.
 created: 2026-09-07T13:17:33Z
-updated: 2026-10-08T15:32:23Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -52,6 +52,6 @@ or proof-verification claim.
 - [[../wiki/problems/arithmetic_functions/E0977/_index|Problem 977]] (context
   only): the case $f=1$ gives
   $\limsup_{n\to\infty}P(n!+1)/n\geq1+9\log2$ for the factorial sequence
-  that the problem's catalog remarks mention. It is a finite limsup lower
-  bound, so it does not show that $P(n!+1)/n\to\infty$, and it says nothing
-  about $P(2^n-1)/n$, the quantity the problem asks about.
+  that the problem's erdosproblems.com remarks mention. It is a finite limsup
+  lower bound, so it does not show that $P(n!+1)/n\to\infty$, and it says
+  nothing about $P(2^n-1)/n$, the quantity the problem asks about.

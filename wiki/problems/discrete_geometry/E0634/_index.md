@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 634
@@ -164,6 +164,12 @@ and Zhang preprints, the repositories of George, Harries and Bonfioli at the
 commits the claim pages pin, and the two library cards above; Soifer's book
 and Beeson's earlier preprints are not carded, and no further literature
 search is recorded.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/areas_and_tilings|area
+constraints and congruent tilings]] account records the following scope. Any
+actual N-tiling propagates to Nq^2 by congruent grid subdivision of each tile.
 
 <!-- BEGIN problem library links -->
 

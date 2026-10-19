@@ -7,7 +7,7 @@ desc: |
   Pisier's characterization, the proportional-dissociation hypothesis of
   Problem 774 posed for this set.
 created: 2026-10-08T16:23:33Z
-updated: 2026-10-08T16:23:33Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -64,5 +64,12 @@ The characterization recalled on p. 19; see
 - [[../wiki/problems/integer_sequences/E0774/_index|Problem 774]]: through the
   characterization recalled on p. 19, Question 39 asks whether the roots of
   unity satisfy the proportional-dissociation hypothesis of E0774, posed in the
-  additive group $\mathbb C$ rather than for natural numbers. Neither the
-  question nor an answer to it decides E0774 for natural numbers.
+  additive group $\mathbb C$ rather than for natural numbers. The repository's
+  native claims
+  [[../wiki/theory/integer_sequences/L20_roots_of_unity_analytic_sidon/_index|L20]]
+  and
+  [[../wiki/theory/integer_sequences/L21_roots_of_unity_proportional_dissociation/_index|L21]]
+  state, respectively, a Sidon inequality for this set with the characters of
+  the discrete group $\mathbb C$ and the proportional extraction of dissociated
+  subsets; their own pages record their standing. Neither the question nor an
+  answer to it decides E0774 for natural numbers.

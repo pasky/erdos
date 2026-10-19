@@ -1,0 +1,219 @@
+---
+name: research/smooth_successor_estimates/block_sieve
+title: The block sieve with explicit coefficients and level
+desc: |
+  The weighted-dilation manuscript's block sieve (its Lemma 2.9) derived with
+  explicit constants for z >= 1: pointwise upper and lower polynomials with
+  coefficients of modulus at most one and level z^(4h+2), relative error O(e^(-h)) uniformly
+  in growing h, and the fixed h=2 upper bound, with the five instances the
+  successor extraction consumes checked against its hypotheses.
+created: 2026-10-15T15:28:45Z
+updated: 2026-10-15T15:28:45Z
+---
+
+# The block sieve with explicit coefficients and level
+
+***
+
+This page reconstructs the block sieve of the
+[[../library/arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|weighted-dilation manuscript]],
+its Lemma 2.9, for the
+[[research/smooth_successor_estimates/_index|elementary estimates of the smooth-successor route]].
+The sieve is a Brun–Hooley sieve; its block upper bound and one-block
+correction are the inequalities of Ford and Halberstam (The Brun–Hooley sieve,
+J. Number Theory 81 (2000)). The estimate is drawn from the manuscript; the
+explicit cutoff restriction, derivation and checks of each consumed instance
+are Plasma AI's, at author-recorded standing.
+The same statement is used at five places, listed
+at the end, so its constants are tracked explicitly.
+
+The
+[[research/smooth_successor_estimates/evidence/verify/elementary_estimates/_index|examination of 2026-10-15]]
+refutes the frozen unrestricted cutoff statement for $0<z<1$ and records
+**refutation-failed** for the consumed $z\ge1$ range. The
+[independent grade](evidence/verify/elementary_estimates/grade.md), examined
+on 2026-10-16 UTC, is **PASS** for both the adverse and surviving scopes. The explicit $z\ge1$ hypothesis and the empty-prime paragraph below
+are statement and proof additions to that frozen text; the report does not
+purport to examine those later additions.
+
+## Statement
+
+Let $z\ge1$ and let a finite set of objects carry nonnegative weights. Let
+$\mathcal P$ be a finite set of primes, all at most $z$, and attach to each
+$p\in\mathcal P$ a bad
+condition $E_p$. For a set $S\subset\mathcal P$ write $d_S=\prod_{p\in S}p$ and
+suppose that the weight of the objects on which every $E_p$, $p\in S$, holds is
+
+$$
+Xg(d_S)+r(d_S)\qquad(S\subset\mathcal P,\ S=\emptyset\text{ included}),
+$$
+
+with $X\ge0$ and $g$ multiplicative on squarefree products of $\mathcal P$,
+where for fixed $\eta_0\in(0,1)$ and $C\ge1$
+
+$$
+0\le g(p)\le1-\eta_0\quad(p\in\mathcal P),\qquad
+\sum_{\substack{p\in\mathcal P\\ w<p\le w^2}}g(p)\le C\quad(w>1).
+$$
+
+Let $\mathcal S$ be the weight of the objects on which no $E_p$ holds, and
+$G=\prod_{p\in\mathcal P}(1-g(p))$.
+
+**Block sieve.** For every even integer $h\ge h_0(\eta_0,C)$,
+
+$$
+|\mathcal S-XG|\le c_1e^{-h}XG+\sum_{d\le z^{4h+2}}|r(d)|,
+$$
+
+where $d$ runs over the squarefree products of $\mathcal P$, and $h_0,c_1$
+depend only on $\eta_0$ and $C$. For $h=2$,
+$\mathcal S\le c_2XG+\sum_{d\le z^{10}}|r(d)|$ with $c_2$ depending only on
+$\eta_0$ and $C$. More precisely there are polynomials $U$ and $V$ in the
+indicators of the $E_p$, both with coefficients in $\{-1,0,1\}$ supported on
+sets $S$ with $d_S\le z^{4h+1}$, such that pointwise
+$V\le\mathbf 1_{\mathcal E}\le U$, where $\mathcal E$ is the event that no
+$E_p$ holds, $U\ge0$, and $U-V\ge0$ also has coefficients in $\{-1,0,1\}$ on
+the same supports.
+
+The uniformity in $h$ is what lets the cells of the proxy discrepancy use the
+growing value $h=2\lceil T^2\rceil$, with $T=\log\log x$.
+
+## Proof
+
+*The empty cutoff range.* If $1\le z<2$, then $\mathcal P=\emptyset$,
+$G=1$ and $\mathcal S=X+r(1)$. The remainder sums include $d=1$, and
+$U=V=1$ has the required support, so both bounds hold. For $z\ge2$ use
+the following block argument. The lower cutoff is necessary: at $z=1/2$,
+one object of weight one with $X=0$ and $r(1)=1$ would satisfy the other
+hypotheses, while the remainder sums and polynomial supports omit $d=1$.
+
+*An alternating identity.* For integers $t\ge1$ and $a_0\ge0$,
+
+$$
+\sum_{a=0}^{a_0}(-1)^a\binom ta=(-1)^{a_0}\binom{t-1}{a_0},
+$$
+
+by induction on $a_0$ with Pascal's rule. For even $a_0$ the right side is
+$\binom{t-1}{a_0}\ge0$, and it is at most $\binom t{a_0+1}=\binom{t-1}{a_0+1}
++\binom{t-1}{a_0}$. For $t=0$ the sum is $1$.
+
+*Blocks.* Put $\mathcal B_j=\mathcal P\cap(z^{2^{-j-1}},z^{2^{-j}}]$ for
+$j\ge0$; only finitely many are nonempty, and $\mathcal B_j$ lies in an interval
+$(w,w^2]$ with $w=z^{2^{-j-1}}$, so $\sum_{p\in\mathcal B_j}g(p)\le C$. Put
+$h_j=(j+1)h$, which is even. Let $e_a^{(j)}$ be the $a$-th elementary symmetric
+polynomial in the indicators of $E_p$, $p\in\mathcal B_j$, and
+
+$$
+U_j=\sum_{a=0}^{h_j}(-1)^ae_a^{(j)},\qquad E_j=e_{h_j+1}^{(j)},\qquad
+I_j=\mathbf 1_{\text{no }E_p\text{ holds for }p\in\mathcal B_j}.
+$$
+
+At an object where exactly $t$ conditions of block $j$ hold, $U_j$ takes the
+value of the alternating sum above with $a_0=h_j$, and $E_j=\binom t{h_j+1}$.
+Hence $U_j\ge I_j\ge0$ and $0\le U_j-I_j\le E_j$ pointwise. Telescoping the
+product over blocks,
+
+$$
+0\le\prod_jU_j-\prod_jI_j
+=\sum_j\Bigl(\prod_{k<j}U_k\Bigr)(U_j-I_j)\Bigl(\prod_{k>j}I_k\Bigr)
+\le\sum_jE_j\prod_{k\ne j}U_k,
+$$
+
+since every factor is nonnegative and $I_k\le U_k$. So $U=\prod_jU_j$ and
+$V=U-\sum_jE_j\prod_{k\ne j}U_k$ satisfy
+$V\le\prod_jI_j=\mathbf 1_{\mathcal E}\le U$.
+
+*Coefficients.* Expanding, $U=\sum_S(-1)^{|S|}\prod_{p\in S}\mathbf 1_{E_p}$
+over the sets $S$ with $|S\cap\mathcal B_j|\le h_j$ for every $j$; distinct
+choices in distinct blocks give distinct sets, so every coefficient is $\pm1$.
+The term $E_j\prod_{k\ne j}U_k$ is supported on the sets with
+$|S\cap\mathcal B_j|=h_j+1$ and $|S\cap\mathcal B_k|\le h_k$ for $k\ne j$. These
+supports are disjoint for different $j$ and disjoint from that of $U$, so $V$
+and $U-V$ have coefficients in $\{-1,0,1\}$.
+
+*Level.* On the support of $U$, $\log d_S\le\sum_jh_j2^{-j}\log z=4h\log z$,
+because $\sum_{j\ge0}(j+1)2^{-j}=4$. A correction term adds one prime of
+$\mathcal B_j$, at most $z^{2^{-j}}\le z$. So every $d_S$ in the supports is at
+most $z^{4h+1}$.
+
+*Expectations.* Let the $E_p$ be independent events with probabilities $g(p)$,
+so that the expectation of $\prod_{p\in S}\mathbf 1_{E_p}$ is $g(d_S)$. Then
+$a_j=\mathbb EI_j=\prod_{p\in\mathcal B_j}(1-g(p))$ and, since
+$-\log(1-u)\le u/\eta_0$ for $0\le u\le1-\eta_0$,
+$a_j\ge a_*=e^{-C/\eta_0}$. Also
+
+$$
+\mathbb EE_j\le\frac1{(h_j+1)!}\Bigl(\sum_{p\in\mathcal B_j}g(p)\Bigr)^{h_j+1}
+\le\frac{C^{h_j+1}}{(h_j+1)!}=:e_j,\qquad a_j\le\mathbb EU_j\le a_j+e_j .
+$$
+
+The blocks involve disjoint sets of independent events, so
+
+$$
+G\le\mathbb EU\le G\,e^{R_h},\qquad
+\mathbb E(U-V)\le\sum_je_j\prod_{k\ne j}(a_k+e_k)\le G\,R_he^{R_h},\qquad
+R_h=\sum_j\frac{e_j}{a_j},
+$$
+
+with $G=\prod_ja_j$. As $n!\ge(n/e)^n$, $C^n/n!\le e^{-n}$ once $n\ge e^2C$.
+So for $h\ge e^2C$,
+
+$$
+R_h\le e^{C/\eta_0}\sum_{j\ge0}e^{-(j+1)h-1}\le2e^{C/\eta_0-1}e^{-h},
+$$
+
+and for $h$ also so large that $R_h\le1$, both $\mathbb EU$ and $\mathbb EV$
+differ from $G$ by at most $eR_hG\le c_1e^{-h}G$ with $c_1=2e^{C/\eta_0}$. For
+$h=2$, $R_2\le e^{C/\eta_0}\sinh C$, so $\mathbb EU\le c_2G$ with
+$c_2=\exp(e^{C/\eta_0}\sinh C)$.
+
+*Evaluation.* For a polynomial $P=\sum_Sc_S\prod_{p\in S}\mathbf 1_{E_p}$, the
+weighted sum of $P$ over the objects is
+$\sum_Sc_S(Xg(d_S)+r(d_S))=X\,\mathbb EP+\sum_Sc_Sr(d_S)$. With
+$|c_S|\le1$ and the level bound, the second term is at most
+$\sum_{d\le z^{4h+1}}|r(d)|$. Squeezing $\mathcal S$ between the sums of $V$
+and $U$ proves both assertions. $\square$
+
+## The consumed instances
+
+The successor extraction and the estimates on the sibling pages use the
+statement exactly five times. In every instance the hypotheses are checked
+with the stated constants; none of them depends on a later parameter.
+
+1. **Cells and residue classes** (proxy discrepancy). The objects are the
+   integers $m$ of an arbitrary real interval $J'$ with $m\equiv a\pmod r$,
+   where $(a,r)=1$ and $r\le L^B<W$; $\mathcal P$ is the set of primes
+   $p\le W$ with $p\nmid r$, $E_p$ is $p\mid m$, $g(p)=1/p$ and $X=|J'|/r$.
+   By the Chinese remainder theorem $|r(d)|\le1$. Here $\eta_0=1/2$, and
+   $C$ is an absolute bound for $\sum_{w<p\le w^2}1/p$, finite by Mertens'
+   estimate. The choice is $h=2\lceil T^2\rceil$, with level
+   $D_W=W^{4h+2}=\exp(O(T^2\sqrt L))=x^{o(1)}$.
+2. **The per-prime sieve of the composite subtraction.** For a prime
+   $p\in(x^\gamma,x^{\gamma'}]$ the objects are the $u$ with $p\mid2u-1$,
+   weighted by $A(u)\Psi(u/x)$; $\mathcal P$ is the set of odd primes
+   $l\le W$, $E_l$ is $l\mid2u-1$, $g(l)=1/(l-1)$, $X=X_A/(p-1)$ and
+   $r(d)=r(pd)$ in the notation of the Type I proposition. Here
+   $g(3)=1/2$, so $\eta_0=1/2$; $h=2\lceil T^2\rceil$ as in item 1.
+3. **The preliminary sieve** (the manuscript's (7.11)). The objects are the
+   $u$ weighted by $A(u)\Psi(u/x)$, $\mathcal P$ the odd primes up to
+   $z=x^{b_1}$, $E_p$ is $p\mid2u-1$, $g(p)=1/(p-1)$, $X=X_A$ and $r(d)$ the
+   Type I remainder; $h=2\lfloor1/(40b_1)\rfloor$, so
+   $c_1e^{-h}\le c_1e^2e^{-1/(20b_1)}$ and the level is
+   $x^{b_1(4h+2)}\le x^{1/5+2b_1}$, below the Type I level
+   $x^{1/2-\kappa/2}$ for $b_1<1/10$ and $\kappa<1/50$.
+4. **Ordinary rough integers** (the upper half of the bound (7.19)). The
+   objects are the integers of $(x,2x]$, $\mathcal P$ the primes up to
+   $x^{b_1}$, $g(p)=1/p$, $X=x$, $|r(d)|\le1$, and the same $h$ as in
+   item 3. The remainder is $O(x^{1/5+2b_1})=o(x/L)$.
+5. **The balanced box** (the manuscript's (7.28)–(7.30)). The objects are the
+   lattice points of a box with $mn\equiv-1\pmod{D_1}$; $\mathcal P$ is the
+   set of odd primes $l\le x^\theta$ with $l\nmid D_1$, with the bad residue
+   sets of the extraction page and $g(l)=\nu(l)/l^2\le(3l-2)/l^2\le7/9$, so
+   $\eta_0=2/9$ and $C$ is three times the constant of item 1. Only the
+   $h=2$ upper bound is used, at level $x^{10\theta}$.
+
+In items 1 and 2 the relative error is $O(e^{-2T^2})$, smaller than every fixed
+power of $L$. In items 3 and 4 it is $O(e^{-c/b_1})$ with $c=1/20$ and an
+absolute implied constant, which is the uniformity in small $b_1$ that the
+preliminary sieve and (7.19) state. Item 5 supplies a constant independent of
+$\kappa$, $b_1$, $j_{**}$ and the proxy precision.

@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 254
@@ -72,10 +72,10 @@ pointer to the Star Fleet Math development behind Snyder's claim, the file
 repository at a pinned commit (the formalization link on Snyder's claim page);
 the variant `erdos_254.variants.cassels`, Cassels's theorem under his
 hypotheses, is also marked `research solved`. Both statements end in `sorry` in
-that file. The category and the pointer are catalog registrations, not reviews.
-This corpus built Boris Alexeev's formalization of Fan's six-per-interval
-criterion, whose theorem `erdos_254` proves the Statement, at a pinned commit
-and audited that theorem; Fan's claim page records the build.
+that file. The category and the pointer are formal-conjectures registrations,
+not reviews. This corpus built Boris Alexeev's formalization of Fan's
+six-per-interval criterion, whose theorem `erdos_254` proves the Statement, at a
+pinned commit and audited that theorem; Fan's claim page records the build.
 
 ## Current assessment
 
@@ -88,7 +88,20 @@ through Fan's six-per-interval criterion; the five-per-interval Corollary 1.2 of
 the preprint's current version is not built. The search scope is the
 erdosproblems.com page, its discussion thread and its proof-claims tab with the
 comments under each claim, and the arXiv record of Fan's preprint, which listed
-no journal reference on 2026-10-07; no search beyond these was made.
+no journal reference on 2026-10-07; no search beyond these was made. The notes
+below record author-recorded transfers from research folders and are not
+independently reviewed.
+
+## Progress
+
+The Problem 354 research folder's
+[[research/erdos_354/connections|connections page]] records the reconstructed
+base-two case of Fan's Remark 4.1, that $\{2^k+1:k\ge1\}$ has divergent distance
+sums for every non-integer $\theta$, one element in every dyadic interval and is
+incomplete, so the growth hypothesis here cannot be weakened to one element per
+dyadic interval, and records the two-ray sets of Problem 354 as author-recorded
+context for Fan's threshold $M_2^*$; it holds no reconstruction of Fan's
+Corollary 1.2.
 
 ## Known Results
 
@@ -122,7 +135,7 @@ classes and a correction class and proves the Bergelson–Furstenberg–Weiss
 piecewise-Bohr theorem by finite cyclic Fourier analysis; the
 [[problems/integer_sequences/E0254/claims/2026_07_15_snyder|claim page]] has the
 details, and formal-conjectures registers the development as the formal proof of
-its statement, a catalog registration and not a review. The eight comments under
+its statement, a registration and not a review. The eight comments under
 Snyder's claim (16 to 18 July 2026) concern Fan's preprint, which one
 contributor reported reading and finding correct, and none assesses the Lean
 proof. The erdosproblems.com label was OPEN (page last edited 7 December 2025).

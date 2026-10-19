@@ -1,0 +1,22 @@
+{
+  "index": 8,
+  "scope": "Conditional restriction on the actual column and common-prime valuations; no whole-index assertion.",
+  "prime_order": [2, 3, 5, 7],
+  "selected_positions": [1, 3, 0, 2],
+  "height_variable": "h=n-7",
+  "cofactor_lower_bounds": {"2": "3/10", "3": "3/10", "5": "3/10"},
+  "line_exponents": [39, 29, 21, 10, 0, 0, 0, 0],
+  "row_multiplicities": [102, 81, 73, 56, 56, 46, 40, 33],
+  "interpolation_degree": 84,
+  "modular_prime": 251,
+  "symmetric_jet_count": 1845,
+  "symmetric_monomial_count": 1849,
+  "symmetric_rank": 1845,
+  "polynomial_degree": 283,
+  "overlap_power_numerator": "367/10",
+  "overlap_power_denominator": 73,
+  "gain_with_square_root_overlap": "1/5",
+  "integer_logarithmic_constant_bound": 167228,
+  "overlap_constant_power_of_ten": 169000,
+  "height_threshold_power_of_ten": 850001
+}

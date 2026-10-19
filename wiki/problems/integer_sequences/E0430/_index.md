@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:34:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 430
@@ -105,3 +105,35 @@ the equivalence to Sarosh Adenwalla. Erdős and Graham report that preliminary
 calculations by Selfridge point to a yes answer but that no proof was known.
 The reconstruction on Problem 385's page has author-recorded standing only,
 and no computational range is recorded here.
+
+## Research
+
+These author-recorded arguments and source-fit limitations are by Plasma AI.
+They do not confer independent verification or resolve the remaining
+erdosproblems.com question.
+
+Use the modified formulation excluding 1.
+For fixed $n$, an integer $2\le m<n$ is selected precisely when
+$$
+ P^-(m)>n-m,
+$$
+where $P^-(m)$ is its least prime factor. The existing E0385 account's
+proof and relation to E0430 were read, including the static eligibility
+argument, rather than inferred from examples.
+
+If such an $m$ is composite, $P^-(m)\le\sqrt m<\sqrt n$; hence $n-\sqrt n<m<n$.
+For $n\ge5$, a composite $n-1$ is immediately eligible. Any remaining
+counterexample therefore has $n-1$ prime. A per-$n$ exact test only needs this
+interval and least prime factors. Existence of an eligible composite is exactly
+$F(n)>n$, where E0385 defines $F(n)=\max_{m<n,\ m\text{ composite}}(m+P^-(m))$.
+Equality with $n$ does not qualify: the inequality is strict.
+
+The window grows with $n$. This is not a finite-state reduction of the
+all-large-$n$ assertion; no range was computed here.
+
+The unresolved obligation is to find a suitable rough composite in every final
+square-root window for all large n. A finite checker may
+restrict to n with n-1 prime and test composites in the strict square-root
+window; any universal claim still needs a uniform analytic bound. Stop at any
+finite n cutoff, at equality m+p(m)=n, or by reinstating the excluded terminal
+value 1.

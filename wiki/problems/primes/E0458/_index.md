@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:20Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 458
@@ -61,3 +61,27 @@ search. As thread posts these have no claim page.
 Search scope: the erdosproblems.com page, its thread (three comments by
 2026-10-07, of 2025-08-19, 2026-04-27 and 2026-06-12) and the formal-conjectures
 statement file.
+
+## Exact local reduction and remaining uniformity
+
+For consecutive primes $p<q$, increasing the lcm endpoint across a proper prime
+power $\ell^a$ multiplies it by $\ell$. Thus the exact ratio is
+
+$$
+\frac{\operatorname{lcm}(1,\ldots,q-1)}{\operatorname{lcm}(1,\ldots,p)}
+ =\prod_{p<\ell^a<q,\ a\ge2}\ell.
+$$
+
+Bertrand's theorem gives $q<2p$, so two powers of one prime cannot both occur
+in the gap. Two prime squares force the product above $p$, hence a
+counterexample. With at most two events and at most one square, the product is
+below $q^{5/6}<(2p)^{5/6}<p$ for $p>32$. For $p=2,3,5,7,11,13,17,19,23,29,31$,
+the event products are respectively $1,2,1,6,1,2,1,1,15,1,2$, all below $p$.
+
+Consequently only gaps containing two prime squares or at least three proper
+prime-power events can fail. This is an author-recorded structural filter, with
+the displayed small cases, not an extended numerical search. The held
+[[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Erdős–Graham
+passage]] identifies the related obstacles; external verification ranges were
+not replayed. A finite search would still need certified consecutive-prime
+endpoints and would not cover all such patterns.

@@ -3,14 +3,14 @@ name: ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars
 desc: |
   Zhang, Chen and Cheng's 2017 exact values of R(C_4, K_{1,n}) for two new
   forms of n, motivated by n not near the square of a prime power, from a
-  C_4-free graph on q^2 - 1 vertices built over the Galois field F_q:
-  Theorem 6, R(C_4, K_{1,(q-1)^2+t}) = (q-1)^2 + q + t for even prime powers
-  q at least 4 and t = 1, 0, -2; Theorem 7, R(C_4, K_{1,q(q-1)-t}) = q^2 - t
-  for odd prime powers q at least 5 and even t up to 2 ceil(q/4); and the
-  question whether R(C_4, K_{1,n}) is always n + floor(sqrt(n-1)) + 1 or + 2.
+  C_4-free graph on q^2 - 1 vertices built over F_q: Theorem 6,
+  R(C_4, K_{1,(q-1)^2+t}) = (q-1)^2 + q + t for even prime powers q at least 4
+  and t = 1, 0, -2; Theorem 7, R(C_4, K_{1,q(q-1)-t}) = q^2 - t for odd prime
+  powers q at least 5 and even t up to 2 ceil(q/4); and the question whether
+  R(C_4, K_{1,n}) is always n + floor(sqrt(n-1)) + 1 or + 2.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T14:56:45Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # ramsey_theory/zhang_2017_some_values_ramsey_numbers_c_4_versus_stars

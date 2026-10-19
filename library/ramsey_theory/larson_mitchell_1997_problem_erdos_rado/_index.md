@@ -2,16 +2,15 @@
 name: ramsey_theory/larson_mitchell_1997_problem_erdos_rado
 desc: |
   Larson and Mitchell's 1997 estimates for the digraph Ramsey numbers
-  r(K_n^*, L_m), the least order forcing an independent set of n vertices or
-  a transitive tournament of order m: r(K_n^*, L_3) ≤ n^2 (Lemma 4.2),
-  r(K_4^*, L_3) > 13 by an explicit 13-vertex digraph (Proposition 3.1),
-  the cubic bound r(K_n^*, L_4) ≤ 2n^3/3 + n^2 + 4n/3 − 4 (Lemma 4.4), and
-  a polynomial bound of degree m − 1 in n with leading coefficient
-  2^(m−2)/(m−1)! (Lemma 4.13) that improves Erdős and Rado's 1967 bound in
-  its dependence on m.
+  r(K_n^*, L_m), the least order forcing an independent set of n vertices or a
+  transitive tournament of order m: r(K_n^*, L_3) ≤ n^2 (Lemma 4.2),
+  r(K_4^*, L_3) > 13 by an explicit 13-vertex digraph (Proposition 3.1), the
+  cubic bound r(K_n^*, L_4) ≤ 2n^3/3 + n^2 + 4n/3 − 4 (Lemma 4.4), and a
+  polynomial bound of degree m − 1 in n with leading coefficient
+  2^(m−2)/(m−1)! (Lemma 4.13), improving Erdős and Rado's 1967 bound in m.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # ramsey_theory/larson_mitchell_1997_problem_erdos_rado

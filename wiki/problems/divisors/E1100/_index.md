@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1100
@@ -137,7 +137,7 @@ negative; its upper half rests on [ErTe89].
 [[problems/divisors/E1100/claims/2026_08_04_ross|Ross's golden-ratio bound]] (a
 Zenodo manuscript of 4 August 2026 prepared with Claude Fable 5 and GPT-5.6 Sol,
 posted 2026-08-05; no review is recorded) claims $g(k)\gg\varphi^k/\sqrt k$.
-This page derives a larger lower bound from refereed work. Theorem 3 of
+This page derives a larger lower bound from refereed work. Theorem 3(a) of
 Chevyrev, Searles and Slinko [ChSS13] gives, for every $k$, a comparative
 probability order on $k$ atoms, representable by positive integer weights, with
 $F_{k+1}$ flippable pairs. By their Definitions 4 and 5, each flippable pair is
@@ -163,6 +163,56 @@ full claim would.
 with the proofs unchecked; Korsky's manuscript in full and Ross's to its
 introduction and acknowledgments. No independent review of any argument is
 recorded.
+## Transport from a strict subset-sum order
+
+The exact source interface is provided by
+[[../library/discrete_geometry/chevyrev_2013_facets_comparative_probability_orders/_index|Chevyrev, Searles and Slinko]],
+arXiv:1103.3938v1, Section 2.1, Definitions 4–5 and Theorem 3(a).
+Their orders exclude ties. Representability supplies positive weights,
+and every flippable pair is a critical pair, hence consists of disjoint
+subsets adjacent in that same order. Theorem 3(a) supplies one such order
+with $F_{k+1}$ pairs simultaneously. The TeX source's construction and
+recurrence proving part (a) have been read; the friendly-flip assertion
+in part (b) is not needed. This is a source-statement fit and an
+author-recorded deduction, not independent verification of the source or
+of the application. The journal version has not been compared.
+
+Here is the complete transfer. Write the positive weights as
+$w_1,\ldots,w_k$, and let $\delta>0$ be the minimum gap between two
+distinct subset sums. Choose $T$ sufficiently large that
+$T\delta>k\log2$. Bertrand's postulate supplies primes
+
+$$
+e^{Tw_i}<p_i<2e^{Tw_i}\qquad(1\le i\le k).
+$$
+
+The singleton weights are distinct, so the intervals are disjoint for
+large $T$ and the primes are distinct. For each subset $A$, put
+$d_A=\prod_{i\in A}p_i$. Its logarithm differs from
+$T\sum_{i\in A}w_i$ by a number in $[0,k\log2]$.
+Consequently every strict comparison of subset sums is preserved, so
+every adjacency is preserved. The $d_A$ are all divisors of the
+squarefree integer $\prod_i p_i$, with no additional divisors between
+them. Disjoint subsets give coprime divisors. Thus the source's
+$F_{k+1}$ flippable pairs give
+
+$$
+g(k)\ge F_{k+1}\gg\varphi^k.
+$$
+
+This supplies the exact source premise for the derivation above;
+the resulting bound remains author-recorded. It neither settles the
+growth of $g(k)$ nor removes the gap between the exponential bases
+$\varphi$ and $3\cdot2^{-2/3}$.
+
+For comparison, $\tau_\perp(n)\ge\omega(n)$ because the divisor
+immediately before each prime $p\mid n$ is smaller than $p$ and
+coprime to it. For squarefree primes chosen successively larger than the
+product $N$ of their predecessors, the divisor order of $Np$ consists
+of the blocks $D(N)$ and $pD(N)$. The second has no internal coprime
+pair and the boundary contributes exactly one. Induction therefore gives
+exactly $k$ coprime adjacencies. Control of numerical divisor gaps alone
+does not distinguish these examples from the many-adjacency construction.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -172,6 +222,7 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/additive_bases/erdos_1981_problems_results_additive_multiplicative_number_theory/_index|erdos_1981_problems_results_additive_multiplicative_number_theory]]
 - [[../library/additive_bases/erdos_1981_problems_results_additive_multiplicative_number_theory/display_1_6|erdos_1981_problems_results_additive_multiplicative_number_theory / display_1_6]]
+- [[../library/discrete_geometry/chevyrev_2013_facets_comparative_probability_orders/_index|chevyrev_2013_facets_comparative_probability_orders]]
 - [[../library/divisors/erdos_1978_unconventional_problems_divisors_integers/_index|erdos_1978_unconventional_problems_divisors_integers]]
 - [[../library/divisors/erdos_1978_unconventional_problems_divisors_integers/theorem_1|erdos_1978_unconventional_problems_divisors_integers / theorem_1]]
 

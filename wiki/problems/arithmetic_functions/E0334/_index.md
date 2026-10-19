@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:34:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 334
@@ -102,6 +102,19 @@ page and forum thread, on Erdős's statements of the question in [Er76e],
 [Er82d] and [ErGr80], and on the publisher's record of Balog's paper. Balog's
 proof is not checked here, and no literature search beyond these sources is
 recorded.
+
+## Prime-factor and interval interface
+
+A uniform smooth-sum bound has a necessary quadratic-character consequence. Let
+$p\equiv3\pmod4$ be prime and suppose $p=a+b$ with positive $y$-smooth $a,b$.
+If every prime factor of $ab$ were a quadratic residue modulo $p$, then both
+$a$ and $b$ would have Legendre symbol $+1$. But $a\equiv-b\pmod p$ and
+$(-1/p)=-1$, a contradiction. Thus a prime quadratic nonresidue at most $y$
+must exist. This elementary author argument explains the obstruction already
+mentioned above; it is not a converse construction. Counting smooth integers
+alone does not give the additive convolution needed at every $n$. No new
+exponent or proof audit of Balog's theorem is asserted.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

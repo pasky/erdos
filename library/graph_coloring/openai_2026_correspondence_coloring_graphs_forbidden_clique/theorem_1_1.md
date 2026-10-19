@@ -7,7 +7,7 @@ desc: |
   list and ordinary, chromatic number O_r(Delta/log Delta). Claims checked
   only.
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 ***
@@ -144,14 +144,10 @@ The manuscript names no Erdős problem; the row is an input inferred on this
 page, not stated in the manuscript and not verified here.
 
 - [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: input.
-  At $r=4$ the theorem would supply the independence step of the
-  neighborhood argument the page records (written out on
-  [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Shearer's Corollary 1 page]]):
-  a $K_4$-free graph of maximum degree below $D=\sqrt{n\log n}$ has
-  $\chi\le\max\{\Delta_4,\lceil C_4D/\log D\rceil\}$, so a color class of size
-  $\gg\sqrt{n\log n}$, while a vertex of degree at least $D$ has a
-  triangle-free neighborhood; hence $f(n)\gg\sqrt{n\log n}$. The page already
-  derives that bound from Corollary 2 of Joret, Micek, Reed and Smid,
-  subject to the gap claim recorded on Problem 610; the companion's accepted
-  independence bound gives it as well, as the page records. Nothing here
-  bears on the open upper bound. Unverified.
+  At $r=4$ the theorem bears on the lower bound for $f(n)$ through the
+  neighborhood argument written out on
+  [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_1|Shearer's Corollary 1 page]];
+  no claim page applies it to this problem. The page derives
+  $f(n)\ge c\sqrt{n\log n}$ from Corollary 2 of Joret, Micek, Reed and Smid,
+  subject to the gap claim recorded on Problem 610. Nothing here bears on the
+  open upper bound. Unverified.

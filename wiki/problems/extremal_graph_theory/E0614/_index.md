@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T14:38:26Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 614
@@ -32,10 +32,16 @@ https://www.erdosproblems.com/614.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/graph_ramsey_interfaces/local_degree_complement_reduction|complement reduction]]
+gives $f(n,k)=\binom n2-\operatorname{ex}(n,\mathcal F_{k+2})$ for
+$k\ge1$ and $n\ge k+2$, where $\mathcal F_{k+2}$ is the family of
+$(k+2)$-vertex graphs with minimum degree at least two. Mantel's theorem
+then evaluates the case $k=1$, while $k=2$ reduces exactly to
+$\operatorname{ex}(n,C_4)$. The reduction is author-recorded by Plasma AI;
+it leaves the all-order four-cycle extremal function and the general
+parameter unresolved. An unrefereed note by Ma and Tang, posted on the
+erdosproblems.com discussion thread, gives the same complement reduction and
+the same consequences for $k=1$ and $k=2$; it is a pending partial claim on
+[[problems/extremal_graph_theory/E0614/claims/2026_01_07_ma_tang|its claim page]].

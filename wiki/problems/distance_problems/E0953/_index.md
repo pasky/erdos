@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 953
@@ -80,6 +80,16 @@ lower bound: whether $M(r)$ has order exactly $r^{1/2}$. Search scope: the
 erdosproblems.com problem page and discussion thread, the claimant's notes, the
 Lean repository linked from the thread and the formal-conjectures catalog; no
 forum proof claim, release item or lead names the problem.
+
+## Route analysis
+
+The
+[[research/distance_multiplicity_interfaces/quantitative_constructions|quantitative
+distance constructions]] account records the following scope. Chojecki's robust
+reduction is exact up to constants and a radius shift: a finite P in B_(r-1)
+with dist(|p-q|,Z)>=delta, 0<delta<1/10, thickens to disjoint radius-delta/4
+disks of area pi delta^2 |P|/16, still avoiding integer distances.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -2,10 +2,12 @@
 name: discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies
 title: "Regular ellipsoids and a Blaschke-Santaló-type inequality for projections of non-symmetric convex bodies"
 desc: |
-  Extends Pisier's regular ellipsoid estimates to non-symmetric convex bodies.
+  Extends Pisier's regular ellipsoid estimates to non-symmetric convex bodies;
+  its restatement of Pisier's symmetric theorem is used in the stable-lattice
+  extraction argument for the E0774 Boolean-moment construction.
 license: CC-BY-NC-ND-4.0
 created: 2026-09-21T17:56:01Z
-updated: 2026-10-08T16:42:58Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Regular ellipsoids and a Blaschke-Santaló-type inequality for projections of non-symmetric convex bodies
@@ -150,10 +152,16 @@ for each finite $E\subset A$, one would need a canonically associated convex
 body whose sections or entropy numbers quantitatively control the hypergraph of
 nontrivial signed relations in $E$, followed by a uniform theorem converting
 those controls into a bounded colouring by relation-free classes. The paper
-supplies neither conversion. It was consulted only as a potential source of
-symmetrization and entropy machinery; none of Theorems 2 or 4, Proposition 3,
-or their applications establishes proportional dissociation, finite
-dissociated decomposability, or a counterexample to E774.
+supplies neither conversion. Apart from the one use named below, it was
+consulted only as a potential source of symmetrization and entropy machinery;
+none of Theorems 2 or 4, Proposition 3, or their applications establishes
+proportional dissociation, finite dissociated decomposability, or a
+counterexample to E774. The one statement the corpus's E774 work consumes is the
+recalled Theorem 1 at $\alpha=1$, Pisier's symmetric regular-ellipsoid theorem,
+cited in the stable-lattice free-energy lemma
+([[../wiki/research/erdos_774/lemmas/stable_lattice_free_energy|lemma page]]);
+that input is Pisier's 1989 result as restated here, not a result this paper
+proves.
 
 Read status: claims checked for Theorems 1, 2 and 4, Proposition 3 and
 Corollary 17, read clause by clause on the page images of the print; the
@@ -166,7 +174,12 @@ independently reviewed. Result pages: [[discrete_geometry/vritsiou_2023_regular_
 [[discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/corollary_17|corollary_17]].
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0774/_index|E0774]]:
-none of the paper's results proves or refutes the problem.
+the recalled [[discrete_geometry/vritsiou_2023_regular_ellipsoids_blaschke_santalo_type_inequality_projections_non_symmetric_convex_bodies/theorem_1|Theorem 1]] (pp. 1-2), Pisier's symmetric
+regular-ellipsoid theorem, is used at $\alpha=1$ as a convex-body input in
+the corpus's
+[[../wiki/research/erdos_774/lemmas/stable_lattice_free_energy|stable-lattice free-energy lemma]],
+part of a research route on the problem. None of the paper's results
+proves or refutes the problem.
 
 **Results.**
 

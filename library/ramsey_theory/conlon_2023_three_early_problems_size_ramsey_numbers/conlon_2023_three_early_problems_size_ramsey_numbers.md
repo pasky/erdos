@@ -110,7 +110,7 @@ The lower bound argument, essentially due to Erdős and Rousseau [17], is somewh
 
 **Proposition 2.2 ([17]).** *For all* $t\geq s+2$, $\hat{r}(K_{s,t})\geq st2^s/100$.
 
-*Proof.* Since the desired result is obvious for $s=1$, we will assume throughout that $s\geq 2$. Let $G$ be a graph with $q$ edges. We first give an upper bound for the number of copies of $\overline{K}_{s,t}$ in $G$. Suppose $G$ has $N$ vertices $v_1,\ldots,v_N$ and let $d_i=\deg(v_i)$. Assume, without loss of generality, that $d_1\geq d_2\geq\cdots\geq d_N$. We recall the simple fact that $d_i\leq 2q/i$ for all $i$, which follows by double-counting the number of edges incident to $\{v_1,\ldots,v_i\}$: it is at least $id_i/2$, but at most $q$, from which the bound follows. Let $N_i$ denote the number of copies of $K_{s,t}$ in $G$ where $v_i$ is the last (i.e., maximum index) vertex in the side of order $s$. Then
+*Proof.* Since the desired result is obvious for $s=1$, we will assume throughout that $s\geq 2$. Let $G$ be a graph with $q$ edges. We first give an upper bound for the number of copies of $K_{s,t}$ in $G$. Suppose $G$ has $N$ vertices $v_1,\ldots,v_N$ and let $d_i=\deg(v_i)$. Assume, without loss of generality, that $d_1\geq d_2\geq\cdots\geq d_N$. We recall the simple fact that $d_i\leq 2q/i$ for all $i$, which follows by double-counting the number of edges incident to $\{v_1,\ldots,v_i\}$: it is at least $id_i/2$, but at most $q$, from which the bound follows. Let $N_i$ denote the number of copies of $K_{s,t}$ in $G$ where $v_i$ is the last (i.e., maximum index) vertex in the side of order $s$. Then
 
 $$
 N_i\leq\binom{i-1}{s-1}\binom{d_i}{t}\leq\left(\frac{ei}{s}\right)^s\left(\frac{2eq}{it}\right)^t\leq\frac{(2e^2q)^t}{s^st^ti^{t-s}}. \tag{1}

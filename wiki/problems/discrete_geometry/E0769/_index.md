@@ -12,14 +12,14 @@ status: claimed
 claim: disproved
 parts: [n_to_n]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-18T10:28:03Z
 ---
 
 # Problem 769
 
 [[problems/discrete_geometry/_index|..]]
 
-[[problems/discrete_geometry/E0769/claims/_index|claims/]]: The 6 claim pages of Problem 769, one per claimant's result; the problem's standing derives from them.
+[[problems/discrete_geometry/E0769/claims/_index|claims/]]: The 7 claim pages of Problem 769, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -31,7 +31,7 @@ n^n$?
 **Formulation.** The second question is the part `n_to_n`. The first asks for good bounds with no target rather than a definite
 question, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** Claimed: three pending partial claims answer the definite part,
+**Status.** Claimed: four pending partial claims answer the definite part,
 whether $c(n)\gg n^n$, in the negative, and the open-ended request for good
 bounds does not block the standing. The erdosproblems.com page labeled the
 problem OPEN (page last edited 1 October 2025). Its proof-claims tab
@@ -41,6 +41,8 @@ tab. It is the Lean disproof of the $n^n$ bound, which Star Fleet Math lists
 with a report dated 14 July 2026 and which the formal-conjectures catalog links.
 Each of the three is recorded on its own page under
 [[problems/discrete_geometry/E0769/claims/_index|claims]] without being adopted.
+A fourth, Plasma AI's own, is not on the tab either; it is recorded on
+[[problems/discrete_geometry/E0769/claims/2026_10_19_plasma_ai|its claim page]].
 The standing in the frontmatter is derived from the claim pages.
 
 **Source.** [erdosproblems.com/769](https://www.erdosproblems.com/769), accessed
@@ -147,6 +149,15 @@ links that proof.
   unreviewed; the numerical-semigroup step from $h(n)$ to the bound on $c(n)$,
   Korsky's arguments and Star Fleet Math's Lean development are unchecked in
   this corpus.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/cube_dissections|cube
+dissection by numerical semigroups]] account records the following scope. The
+author-recorded L28 gives every cube count above $1+(2^d-2)(M^d-1)$ under its
+gcd-one hypothesis, which it proves for odd $d$ with
+$M=\lfloor\sqrt{3d}\rfloor+1$. This gives $c(d)=o(d^d)$ along odd dimensions,
+leaving the full growth order unresolved.
 
 <!-- BEGIN problem library links -->
 

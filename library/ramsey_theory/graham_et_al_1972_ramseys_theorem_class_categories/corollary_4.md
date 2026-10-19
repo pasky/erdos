@@ -7,7 +7,7 @@ desc: |
   {1, ..., k} union A that fix A, labelled by G, satisfies
   C(k; l_1, ..., l_r) for all k and l_1, ..., l_r.
 created: 2026-10-08T17:19:41Z
-updated: 2026-10-08T17:19:41Z
+updated: 2026-10-13T20:02:22Z
 ---
 
 ***
@@ -18,7 +18,7 @@ Notation as on the
 [[ramsey_theory/graham_et_al_1972_ramseys_theorem_class_categories/theorem_1|Theorem 1 page]].
 
 Setting (pp. 430--431). Let $G$ be a finite group and
-$A=\{a_1,\ldots,a_{l_0}\}$ a finite set. The category $C(A,G)$ has objects
+$A=\{a_1,\ldots,a_{t_0}\}$ a finite set. The category $C(A,G)$ has objects
 $0,1,2,\ldots$; a morphism $k\to l$ is a pair $(f,s)$ of a surjective
 function $f\colon\{1,\ldots,l\}\cup A\to\{1,\ldots,k\}\cup A$ that is the
 identity on $A$ and a function $s\colon\{1,\ldots,l\}\cup A\to G$ with

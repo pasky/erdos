@@ -8,7 +8,7 @@ desc: |
   promoted from suggested ones on the grader's own verification), every page is
   graded on fidelity and argument, and no tier is assigned.
 created: 2026-09-28T06:45:36Z
-updated: 2026-10-07T21:41:29Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -25,7 +25,8 @@ the committed text of that state:
 `wiki/research/erdos_49/theorem_3_3_reconstruction.md`. The working-tree copies
 of the six pages are byte-identical to the frozen pages (the diff against that
 state on the six paths is empty); the folder index differs in the working tree
-and was not used. The folder index was read in that state. Reports, each read whole:
+and a connections page is new there, and neither was used. The folder index was
+read in that state. Reports, each read whole:
 [[research/erdos_49/evidence/verify/lemma_3_2_reconstruction_review|the Lemma 3.2 review]],
 [[research/erdos_49/evidence/verify/lemma_4_1_reconstruction_review|the Lemma 4.1 review]],
 [[research/erdos_49/evidence/verify/lemma_5_1_reconstruction_review|the Lemma 5.1 review]],

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 64
@@ -186,13 +186,13 @@ Ballester's manuscript, which contains Hu and Shen's $P_{10}$-free case
 
 Liu and Montgomery's paper proves the power-of-two conclusion when the
 average degree exceeds an absolute constant. This is partial progress toward
-the dated catalog statement: minimum degree at least three only guarantees
-average degree at least three, which need not meet the source's threshold.
-The precise result is
+the dated erdosproblems.com statement: minimum degree at least three only
+guarantees average degree at least three, which need not meet the source's
+threshold. The precise result is
 [[../library/graph_coloring/liu_2020_solution_erdos_hajnal_s_odd_cycle/corollary_1_3|Corollary 1.3]],
-with the source-proof qualification above. The formal-conjectures link
-is a statement file, not a proof, and this corpus records no formalization
-for the problem.
+with the source-proof qualification above. The formal-conjectures link is a
+statement file, not a proof, and this corpus records no formalization for the
+problem.
 
 ## Known Results
 

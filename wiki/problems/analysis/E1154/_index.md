@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1154
@@ -109,6 +109,11 @@ Borel subring it would show that such a subring of dimension above $1/2$ is
 $\mathbb{R}$, a strengthening of Falconer's bound [Fa84] (no dimension strictly
 between $1/2$ and $1$) that [EdMi03] already supersedes, and it bears on no
 non-Borel ring.
+
+**A deduction and its scope.**
+[[research/erdos_1154/analytic_generator_obstruction|Analytic generators cannot give intermediate-dimensional rings]] gives the author-recorded
+argument and source boundaries: a real subring of intermediate Hausdorff dimension contains no positive-dimensional analytic subset, by Edgar–Miller and analytic ring generation, including the non-unital convention.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

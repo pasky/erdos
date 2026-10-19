@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Martin–Reiner: cyclotomic and simplicial 
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Martin–Reiner: cyclotomic and simplicial matroids
@@ -27,3 +27,10 @@ prime factors $p_1,p_2$ that simplicial matroid is the graphic matroid of
 $K_{p_1,p_2}$, so the roots-of-unity matroid is cographic; in that case the
 paper also derives a generating function for the independent root subsets
 (Corollary 9, p. 7).
+
+This is a useful dictionary for E0774: cyclotomic dependencies can sometimes be
+studied as cycles, cuts, or higher-dimensional boundaries.  The limitation is
+important: the matroid records arbitrary rational dependence, while
+dissociation forbids only coefficients in $\{-1,0,1\}$.  A matroid coloring
+argument may therefore be stronger than necessary and cannot be transferred
+without checking the coefficients of its circuits.

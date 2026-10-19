@@ -11,7 +11,7 @@ status: solved
 claim: proved
 parts: [kth_root]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 # Problem 138
@@ -45,7 +45,7 @@ records from [Er81] are not parts: Google DeepMind's accepted claim settles the
 difference question, $W(k+1)-W(k)\to\infty$
 ([[problems/additive_combinatorics/E0138/claims/2026_04_10_deepmind|its claim page]]),
 and the quotient question, $W(k+1)/W(k)\to\infty$, remains open. The
-erdosproblems.com label is OPEN (page last edited 2 June 2026).
+erdosproblems.com label was OPEN (page last edited 2 June 2026).
 
 **Source.** [erdosproblems.com/138](https://www.erdosproblems.com/138), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #138,
@@ -120,13 +120,23 @@ The record bounds named under Formulation have no claim pages; the results that
 improve them do. Fox and Hunter's $W_3(k)^{1/k}\ge C^{\log_*k}$ [FoHu26]
 concerns three colors, not the problem's two-color number, and has no page.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The accepted uniform lower bound recorded on the
+[[problems/additive_combinatorics/E0138/claims/2026_09_23_openai|OpenAI claim page]]
+gives $W(k)^{1/k}>k^{1/100000}$ for all sufficiently large $k$, answering
+the displayed root-growth question. This uses the bound at its recorded
+standing and does not add a proof examination.
 
-## Known Results
-
-Not yet compiled.
+The separate question whether $W(k+1)/W(k)\to\infty$ needs information
+comparing adjacent values. Plasma AI's
+[[research/arithmetic_construction_interfaces/progression_transfers|formulation check]]
+constructs an increasing numerical sequence whose roots and successive
+differences tend to infinity but whose consecutive quotients approach one
+along a subsequence. Thus neither root growth nor a growing difference
+alone supplies that further limit. The example concerns an implication
+between numerical properties, not the van der Waerden numbers themselves;
+it is author-recorded and unreviewed.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

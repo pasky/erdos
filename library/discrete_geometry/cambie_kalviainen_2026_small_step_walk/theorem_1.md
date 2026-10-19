@@ -5,7 +5,7 @@ desc: |
   Gives an infinite sequence in the integer lattice of dimension three with
   at most sixteen allowed bounded steps and no three collinear points.
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-07T20:53:39Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -205,22 +205,22 @@ restriction.
 ## Verification and dependencies
 
 This complete reconstruction of the two-page v1 argument and its exact
-catalog consequence received **refutation-failed** in independent review
-on 2026-09-08. A distinct grader passed the report contract and independence.
-The
-[[discrete_geometry/cambie_kalviainen_2026_small_step_walk/evidence/verify/source_proof_review|retained
-review and grade]] identify the exact native snapshots, independent reviewer,
-grader, source reading, and limits. Both source pages were visually read.
-The reconstruction makes the source's parity, nonvanishing, and squared-slope
-deductions explicit. It assumes only elementary integer and Gaussian-integer
-arithmetic, binary digit identities, and the stated valuation rules. Equations
-(1)–(5) are proved here; there is no external theorem or local L-claim premise.
+erdosproblems.com consequence received **refutation-failed** in independent
+review on 2026-09-08. A distinct grader passed the report contract and
+independence. The
+[[discrete_geometry/cambie_kalviainen_2026_small_step_walk/evidence/verify/source_proof_review|retained review and grade]]
+identify the exact native snapshots, independent reviewer, grader, source
+reading, and limits. Both source pages were visually read. The reconstruction
+makes the source's parity, nonvanishing, and squared-slope deductions explicit.
+It assumes only elementary integer and Gaussian-integer arithmetic, binary digit
+identities, and the stated valuation rules. Equations (1)–(5) are proved here;
+there is no external theorem or local L-claim premise.
 
 The Gerver–Ramsey and Lidbetter constructions provide historical context and
 are not dependencies. Neither finite computation nor any reported Lean build
 is a premise. No mathematical computation or formal verification was run for
 this reconstruction. The accepted review covers the exact statement, every
-essential deduction, and its catalog consequence. Exact occurrence or
+essential deduction, and its erdosproblems.com consequence. Exact occurrence or
 optimality of sixteen steps and external formalization remain outside its
 scope; no numerical tier or historical-source proof credit is assigned.
 

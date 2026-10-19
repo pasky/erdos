@@ -7,7 +7,7 @@ desc: |
   d_{i+1}, with the remarks that such a ratio is the least prime factor and
   that the theorem is best possible.
 created: 2026-10-08T15:47:30Z
-updated: 2026-10-08T15:47:30Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -86,4 +86,9 @@ first $k$ primes covers a set of lower density at least $1-\eta$.
 
 ## Bears on
 
-No problem page of the corpus cites this theorem.
+No problem page of the corpus cites this theorem. A
+[[../wiki/research/erdos_18/evidence/verify/connections_problem_673_the_sum_of_consecutive_divisor_ratio_review|research review]]
+cites remark (iv), with the remark after Théorème 1, only to record that the
+paper leaves these distribution questions open and does not contain the
+distribution result for the sum of consecutive divisor ratios of
+[[../wiki/problems/divisors/E0673/_index|Problem 673]].

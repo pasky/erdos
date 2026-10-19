@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 914
@@ -34,7 +34,7 @@ a proper coloring with $m$ colors in which each class has exactly $r$ vertices;
 the passage between the two forms is the complement, written out under Status
 support. At $r=2$ the statement asks for a perfect matching in a graph on $2m$
 vertices of minimum degree $m$, which Dirac's theorem gives through a
-Hamiltonian cycle. The erdosproblems.com label PROVED (LEAN) carries a catalog
+Hamiltonian cycle. The erdosproblems.com label PROVED (LEAN) carries a
 suffix explained under Formalization.
 
 **Status.** Proved. The statement is the Hajnal--Szemerédi theorem of 1970 in
@@ -113,17 +113,16 @@ Problem #914, https://www.erdosproblems.com/914, accessed 2026-09-19.
   circuits in a graph. Acta Math. Acad. Sci. Hungar. 14 (1963), 423--439.
   The case $r=3$, per erdosproblems.com and [Er67b]. Not held.
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/914.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/914.lean)
 of formal-conjectures (the link pins the version of 2026-09-19; 2,609 bytes)
 declares
 `erdos_914 {r m : ℕ} (hr : 2 ≤ r) (hm : 1 ≤ m) {V : Type*} [Fintype V] (G : SimpleGraph V) [DecidableRel G.Adj] (hV : Fintype.card V = r * m) (hdeg : m * (r - 1) ≤ G.minDegree) : ∃ K : Fin m → Finset V, (∀ i, G.IsNClique r (K i)) ∧ Pairwise fun i j => Disjoint (K i) (K j)`
-under `category research solved, AMS 5`, with proof `sorry` and a
-`formal_proof` attribute naming the file
-`src/v4.29.1/ErdosProblems/Erdos914.lean` in the repository `plby/lean-proofs`
-on its `main` branch (unpinned), together with the variant
-`erdos_914.variants.equitable_colouring`
+under `category research solved, AMS 5`, with proof `sorry` and a `formal_proof`
+attribute naming the file `src/v4.29.1/ErdosProblems/Erdos914.lean` in the
+repository `plby/lean-proofs` on its `main` branch (unpinned), together with the
+variant `erdos_914.variants.equitable_colouring`
 (`G.maxDegree ≤ m - 1 → ∃ C : G.Coloring (Fin m), ∀ i, (C.colorClass i).ncard = r`),
 also `sorry`; its docstring repeats the erdosproblems.com commentary. The
 external file at the repository's head of 15 September 2026 (the version the
@@ -145,9 +144,9 @@ recording the output `[propext, choice, Quot.sound]`. Relation to the
 collection's statement: the same hypotheses on the vertex count and the minimum
 degree, `1 ≤ r` in place of the collection's `2 ≤ r` and no hypothesis on `m`
 (both wider), and a conclusion that is the collection's up to the spelling of a
-clique. The file contains no `sorry`, `axiom`, `native_decide` or `unsafe`.
-This project has not built, audited or kernel-checked the file, so no
-`formalized` evidence is listed. The community database (teorth/erdosproblems,
+clique. The file contains no `sorry`, `axiom`, `native_decide` or `unsafe`. This
+project has not built, audited or kernel-checked the file, so no `formalized`
+evidence is listed. The community database (teorth/erdosproblems,
 `data/problems.yaml`, accessed 2026-09-19) lists `status` "proved (Lean)" as of
 its last update of 14 April 2026, `formal_status` Lean with no URL, the
 statement formalized since 4 August 2026 and no formal-proof field; the

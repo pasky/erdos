@@ -7,7 +7,7 @@ desc: |
   through a_n is irrational, relaxing Oppenheim's condition that b_n lie
   between zero and a_n.
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-07T20:33:22Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -40,4 +40,4 @@ Not used for the prime series of this library's problems: for $a_n=2$ and
 $b_n=p_n$ the hypothesis $b_n=O(a_n)$ fails, and for $a_n=n$, $b_n=p_n$
 the ratios $p_n/n$ tend to infinity. Recorded for the card's coverage.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

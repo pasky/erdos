@@ -32,9 +32,9 @@ figures, book pages or forum threads.
   posed, a phrase whose reading is disputed). Keep the quotation short, mark it
   as one, and cite its page.
 - Two quotations are part of the structure: a problem page's Statement quotes
-  the catalog at [erdosproblems.com](https://www.erdosproblems.com/) verbatim,
-  as [erdosproblems.ai](https://erdosproblems.ai/) shows it, and a claim page's
-  Submission note quotes the claimant's own post.
+  Thomas Bloom's catalog at [erdosproblems.com](https://www.erdosproblems.com/)
+  verbatim, as [erdosproblems.ai](https://erdosproblems.ai/) shows it, and a
+  claim page's Submission note quotes the claimant's own post.
 - Add a work's file, a PDF or a Markdown transcription, only when the work is
   under an open license (for example CC BY, CC BY-SA, CC0, MIT or Apache-2.0).
   Record its term in the card's `license` key and say on the card where you read
@@ -56,7 +56,8 @@ the pages around yours.
 
 - `wiki/problems/<subject>/E<nnnn>/` holds one problem: its page `_index.md`
   (statement, standing, known results and sources) and its claim pages under
-  `claims/`, one per claimed result, named `YYYY_MM_DD_<claimant>.md`.
+  `claims/`, one per claimed result, named `YYYY_MM_DD_<claimant>.md` (a
+  claimant's same-day pages take the suffixes `_i`, `_ii`, ...).
 - `wiki/research/` holds working notes. `wiki/theory/` holds the corpus's own
   precise claims with their evidence, under `L<n>` IDs that never change.
 - `library/<subject>/<author_year_slug>/` holds one source: the card `_index.md`
@@ -77,8 +78,8 @@ These rules catch most first contributions:
 - A claim page's `submitted` is the date the claim was submitted to
   erdosproblems.com, erdosproblems.ai or the Palomar registry, as its Submission
   note gives it, or `null` when there was no such submission.
-- Pages lean toward the rulings of the catalog's curator. A page whose statement
-  or standing departs from the catalog explains why.
+- Pages lean toward the rulings of the erdosproblems.com curator. A page whose
+  statement or standing departs from Bloom's catalog explains why.
 - Never edit a generated file by hand: `wiki/lemmas.md`, `wiki/standing.md`,
   `lean/Manifest.json` and the link rows of index pages. Fix the source and
   regenerate.
@@ -98,8 +99,9 @@ These rules catch most first contributions:
   [verification](docs/verification.md) states the rules.
 - A computation lives in the claim's `evidence/main.py`, so anyone can run it
   again.
-- A new proof or disproof of a catalog problem made here is accepted only after
-  an independent review of the whole argument against the exact statement.
+- A new proof or disproof of an erdosproblems.com problem made here is accepted
+  only after an independent review of the whole argument against the exact
+  statement.
 - Name any AI system that produced a result or text you submit, on the page that
   records it.
 

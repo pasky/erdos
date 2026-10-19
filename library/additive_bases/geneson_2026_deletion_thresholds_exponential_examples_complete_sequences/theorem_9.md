@@ -7,7 +7,7 @@ desc: |
   complete; a counterexample to Graham's conjecture for bases below the
   golden ratio (Problem 349).
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-08T03:51:49Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -53,10 +53,15 @@ $t_m=2\eta\gamma^m\to\infty$ works for all $n\ge0$. For Theorem 9,
 $P(1)=-5$; the sign checks $5^{18}P(6/5)<0<10^{18}P(13/10)$ locate the
 root in $(6/5,13/10)$, and as every other root of $P$ has modulus at most
 $1$, the root found is $\gamma$; all terms are even, so no odd integer is
-a sum of terms (p. 12). The paper adds that van Doorn's Proposition 8
-(complete for $1.2<\gamma\le1.3$ and $0<t\le5$) forces every
-counterexample coefficient at this base to exceed $5$, and that the
-argument gives no explicit coefficient.
+a sum of terms (p. 12); the proof, with
+Proposition 11, is written out as an author-recorded reconstruction, not
+a review, on
+[[../wiki/research/erdos_354/geneson_theorem_9_reconstruction|the Theorem 9 reconstruction page]]
+in the Problem 354 research folder, whose evidence rechecks the two
+evaluations. The paper adds that van
+Doorn's Proposition 8 (complete for $1.2<\gamma\le1.3$ and $0<t\le5$)
+forces every counterexample coefficient at this base to exceed $5$, and
+that the argument gives no explicit coefficient.
 
 ## Dependencies
 

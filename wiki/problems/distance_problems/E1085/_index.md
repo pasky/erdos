@@ -15,7 +15,7 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1085
@@ -177,6 +177,13 @@ bound of [CEGSW90] has been improved to $O(n^{295/197+\varepsilon})$ (Zahl
   $\lfloor n^2/4\rfloor+n-1$ otherwise, for $n\ge5$ ([Br97], [vW99]);
   $f_d(n)$ exact for even $d\ge6$ and $n\ge n_0(d)$ ([Sw09]).
 - odd $d\ge5$: $f_d(n)=\frac{p-1}{2p}n^2+\Theta(n^{4/3})$ ([ErPa90]).
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/dimension|realization rank and
+dimension-sensitive constructions]] account records the following scope.
+Swanepoel's extremal Lenz theorem requires d>=4.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -31,7 +31,7 @@ links:
 - url: https://github.com/Jayyhk/erdos-lean/blob/5585e6807ac00eb3946950a9433d9d8477e482f7/problems/760/Erdos760.lean
   kind: formalization
 created: 2026-10-07T07:44:33Z
-updated: 2026-10-07T22:03:10Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -74,11 +74,11 @@ and simple; the thread then led the curator to replace "empty graph" by
 The posted gist closes one step with `native_decide`, so its proof rests on the
 compiler axioms. The variant in the erdos-lean catalog closes that step with
 `decide` instead, a change announced in a post on the erdosproblems.com thread
-of 2026-06-02 that links the catalog's folder for the problem; the variant in
-Boris Alexeev's lean-proofs collection, marked as modified from the posting,
-closes it with a lemma. The statement file of
+of 2026-06-02 that links the erdos-lean catalog's folder for the problem; the
+variant in Boris Alexeev's lean-proofs collection, marked as modified from the
+posting, closes it with a lemma. The statement file of
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/760.lean),
 as last changed on 2026-09-18, marks the problem solved and points its formal
-proof at the lean-proofs variant, which names the three authors as the
-informal authors. The erdosproblems.com Lean qualifier refers to these. The
-corpus did not build any of them, so this page lists no `formalized` evidence.
+proof at the lean-proofs variant, which names the three authors as the informal
+authors. The erdosproblems.com Lean qualifier refers to these. The corpus did
+not build any of them, so this page lists no `formalized` evidence.

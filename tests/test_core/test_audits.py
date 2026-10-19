@@ -34,6 +34,7 @@ __all__ = [
     'test_arxiv_records_map_to_card_terms',
     'test_reserved_against_a_mapped_record_is_a_note',
     'test_arxiv_checks_cover_only_held_pdfs_with_vocabulary_terms',
+    'test_an_unreadable_arxiv_record_is_a_finding_on_its_card',
     'test_every_file_but_the_pages_and_records_is_held',
     'test_a_transcription_is_held_when_its_file_is_not',
     'test_sidecars_beside_no_held_file_are_held_under_the_card_terms',
@@ -738,6 +739,41 @@ def test_arxiv_checks_cover_only_held_pdfs_with_vocabulary_terms(
         ],
         ['license-audit: 3 cards, 4 held files, 3 findings, 0 notes'],
     )
+
+
+@pytest.mark.parametrize(
+    argnames=('content', 'problem'),
+    argvalues=[
+        pytest.param(b'{"id": "2305.07', 'is not JSON (', id='truncated'),
+        pytest.param(
+            b'<<<<<<< HEAD\n{"id": "2305.07394"}\n=======\n{}\n>>>>>>> other\n',
+            'is not JSON (',
+            id='conflict-marked',
+        ),
+        pytest.param(b'{"id": "\xff"}', 'is not UTF-8 text', id='not-utf-8'),
+        pytest.param(b'[]', 'is a JSON list, not an object', id='list'),
+    ],
+)
+def test_an_unreadable_arxiv_record_is_a_finding_on_its_card(
+    repository: pathlib.Path, content: bytes, problem: str
+) -> None:
+    """Test that a record the audit cannot read is a finding naming it, and the audit goes on."""
+    record = repository / 'library' / _FIRST / '.arxiv' / 'first.json'
+    record.parent.mkdir(parents=True)
+    record.write_bytes(content)
+    _card(repository, _FIRST, 'license: MIT', files=(_PDF,))
+    # a second card is still audited
+    _card(repository, _SECOND, 'license: unknown', files=('second.pdf',))
+    findings, notes = audit_library_licenses(repository)
+    assert len(findings) == 2, findings
+    assert findings[0].startswith(
+        f'{_CARD}: arXiv record library/{_FIRST}/.arxiv/first.json {problem}'
+    )
+    assert (
+        findings[1]
+        == f"library/{_SECOND}/_index.md: license term 'unknown' is not {_TERMS}"
+    )
+    assert notes == ['license-audit: 2 cards, 2 held files, 2 findings, 0 notes']
 
 
 # ------ scope

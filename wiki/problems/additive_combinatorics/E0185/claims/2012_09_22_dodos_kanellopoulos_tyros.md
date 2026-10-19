@@ -35,7 +35,7 @@ links:
 - url: https://www.erdosproblems.com/185
   kind: discussion
 created: 2026-10-07T07:48:54Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-18T03:27:26Z
 ---
 
 ***
@@ -57,7 +57,7 @@ only. The paper is not held in the library and is not among the
 erdosproblems.com references; its statement is taken from its abstract and from
 the Lean file below. The same corollary through the original proof of
 Furstenberg and Katznelson has its own claim page
-([[problems/additive_combinatorics/E0185/claims/1991_12_01_furstenberg_katznelson|claim page]]).
+([[problems/additive_combinatorics/E0185/claims/1989_05_01_furstenberg_katznelson|claim page]]).
 
 **Depends on.**
 [[problems/additive_combinatorics/E0171/claims/2012_09_22_dodos_kanellopoulos_tyros|Dodos, Kanellopoulos and Tyros's proof of the density Hales--Jewett theorem]],

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 467
@@ -151,6 +151,9 @@ from each class with the same index $i$ for every $x$, say) would be a different
 problem, and no other source of the question was found. (2) No result bears
 on the statement itself; the relation to Problems 687 and 689 is recorded
 as context. (3) No formalization was found on 2026-09-18.
+
+The author-recorded [[research/covering_prime_interfaces/finite_certificates|finite-certificate comparison]] specifies the relevant periodic or finite-set test and the additional condition needed for the full question. It supplies no new witness or resolution.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

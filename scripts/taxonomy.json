@@ -143,14 +143,14 @@
         "covering systems"
       ],
       "folder": "covering_systems",
-      "note": "Before [group theory], [primes] and [number theory], so all 22 covering-system problems land together, including #274, the exact covering of a group by cosets (AMS 20), which the folder description now claims."
+      "note": "Before [group theory], [primes] and [number theory], so all 22 covering-system problems land together, including #274, the exact covering of a group by cosets (AMS 20), which the folder description claims."
     },
     {
       "tags": [
         "group theory"
       ],
       "folder": "group_theory",
-      "note": "Moved early (after covering systems) to give the stable invariant 'every group-theory-tagged problem except #274 is here'. Left late, the folder's 7 members would depend on the site never adding [graph theory] to the non-commuting-graph problems (#1098 defines a SimpleGraph, AMS 5+20). Accepted cost: a future [group theory + additive combinatorics] problem lands here rather than with sumsets."
+      "note": "Early, right after covering systems, to give the stable invariant 'every group-theory-tagged problem except #274 is here'. Left late, the folder's 7 members would depend on the site never adding [graph theory] to the non-commuting-graph problems (#1098 defines a SimpleGraph, AMS 5+20). Accepted cost: a future [group theory + additive combinatorics] problem lands here rather than with sumsets."
     },
     {
       "tags": [
@@ -283,7 +283,7 @@
         "graph theory"
       ],
       "folder": "extremal_graph_theory",
-      "note": "Broad graph rule: the 92 bare graph-theory problems plus a few crossovers. AMS codes (31/31 combinatorics) and the statements (#22, #24, #85, #61 Erdos-Hajnal, #82 regular induced subgraphs) show the residue is extremal or structural, so it merges into the extremal folder instead of forming a second generic graph door -- the one unguessable boundary in the faithful and browsing proposals. Idempotent: adding a 'turan number' or 'cycles' tag later does not move a problem."
+      "note": "Broad graph rule: the 92 bare graph-theory problems plus a few crossovers. AMS codes (31/31 combinatorics) and the statements (#22, #24, #85, #61 Erdos-Hajnal, #82 regular induced subgraphs) show the residue is extremal or structural, so it merges into the extremal folder instead of forming a second generic graph door. Idempotent: adding a 'turan number' or 'cycles' tag later does not move a problem."
     },
     {
       "tags": [
@@ -326,7 +326,7 @@
         "divisors"
       ],
       "folder": "divisors",
-      "note": "Moved ahead of [factorials]: the only tag set carrying both is #18, whose statement is about practical numbers and representing m as a sum of distinct divisors of n (AMS 11), with no factorial in it. Divisor functions, divisor distribution and multiplication tables (32 problems)."
+      "note": "Ahead of [factorials]: the only tag set carrying both is #18, whose statement is about practical numbers and representing m as a sum of distinct divisors of n (AMS 11), with no factorial in it. Divisor functions, divisor distribution and multiplication tables (32 problems)."
     },
     {
       "tags": [
@@ -354,7 +354,7 @@
         "primes"
       ],
       "folder": "primes",
-      "note": "After the covering-system, additive, binomial and discrepancy rules, so this folder holds the 47 core prime-distribution problems. Its description no longer promises 'prime divisors': largest-prime-factor and omega(n) problems carry [number theory] alone and are in General Number Theory."
+      "note": "After the covering-system, additive, binomial and discrepancy rules, so this folder holds the 47 core prime-distribution problems. Its description does not promise 'prime divisors': largest-prime-factor and omega(n) problems carry [number theory] alone and are in General Number Theory."
     },
     {
       "tags": [
@@ -368,7 +368,7 @@
         "algebra"
       ],
       "folder": "set_theory",
-      "note": "A single-problem rule decided by reading the problem, now verified against the site: #1123 asks whether the Boolean algebra of sets of integers modulo density-zero sets is isomorphic to the one modulo logarithmic-density-zero sets; it is independent of ZFC (isomorphic under CH by Just-Krawczyk, non-isomorphic under OCA+MA by Farah), which the set-theory folder's description covers. Placed late so a future algebra problem with a substantive co-tag routes by that co-tag."
+      "note": "A single-problem rule decided by reading the problem and checked against the site: #1123 asks whether the Boolean algebra of sets of integers modulo density-zero sets is isomorphic to the one modulo logarithmic-density-zero sets; it is independent of ZFC (isomorphic under CH by Just-Krawczyk, non-isomorphic under OCA+MA by Farah), which the set-theory folder's description covers. Placed late so a future algebra problem with a substantive co-tag routes by that co-tag."
     },
     {
       "tags": [
@@ -403,7 +403,7 @@
         "powerful"
       ],
       "folder": "number_theory",
-      "note": "2 problems on powerful and r-full numbers in this snapshot; the live tag index shows 16, which is why 'Powers, Squares and Digits' is named in the rationale as the first folder to add if that count holds."
+      "note": "2 problems on powerful and r-full numbers in this snapshot; the live tag index shows 16; if that count holds, 'Powers, Squares and Digits' is the first folder to add."
     },
     {
       "tags": [
@@ -422,7 +422,7 @@
     {
       "tags": [],
       "folder": "number_theory",
-      "note": "Fallback: an empty tag list is a subset of every tag set, so nothing can be left unrouted even if the site adds a 42nd tag. It does not fire on the current corpus -- all 41 tags are claimed by the rules above -- and the build script must treat a match as an error, exiting non-zero and naming the problem number and its unrecognized tags, rather than quietly filing the page under General Number Theory."
+      "note": "Fallback: an empty tag list is a subset of every tag set, so nothing can be left unrouted even if the site adds a new tag. It does not fire on the current corpus -- all 42 tags are claimed by the rules above -- and the build script must treat a match as an error, exiting non-zero and naming the problem number and its unrecognized tags, rather than quietly filing the page under General Number Theory."
     }
   ],
   "overrides": {

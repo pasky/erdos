@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 323
@@ -110,6 +110,13 @@ Browning and Heath-Brown's corollary,
 [[problems/diophantine_problems/E0325/claims/2004_03_17_browning_heath_brown|accepted on Problem 325]]:
 $f_{k,3}(x)\ge(c/6+o(1))x^{3/k}$. Other pairs $(k,m)$ with $k\ge4$ are not
 assessed here.
+
+## Route analysis
+
+The [[research/diophantine_representation_interfaces/power_sums|power-sum
+representations and collision counts]] account records the following scope. The
+unrestricted binary-form theorem gives m=2 for even k>=4 by absolute values.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

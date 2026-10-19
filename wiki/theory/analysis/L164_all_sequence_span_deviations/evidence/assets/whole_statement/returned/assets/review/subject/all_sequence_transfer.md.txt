@@ -1,0 +1,42 @@
+**Labels and lifts.** The moves $F_s$ and $B_s$ by $kr$ places are bijections
+of labels. The displacement of $F_s$ at the label in place $i$ is the lifted
+difference $y_{i+kr}-y_i$, a sum of $k$ consecutive $r$-spans. Lemmas 2.1 and
+6.2 use only these displacements as real numbers, positions modulo $1$ for
+membership in arcs shorter than $1$, injectivity of maps between label sets,
+and counts with multiplicity, so their proofs apply as written. Lemma 6.1 uses
+only the mean identity, the decomposition of a $kr$-span into $k$ consecutive
+$r$-spans, and the triangle inequality.
+
+
+[cut: outside this mathematical subject]
+
+**The covering identity of Lemma 6.3.** For coincident terms a lifted span arc
+$(y_{i-r},y_i]$ can have length $0$, an empty arc, or length $1$, a full turn.
+Read each lifted arc modulo $1$. For $x$ at no position, with lift $\tilde x$,
+
+$$
+\sum_{i=1}^n\mathbf 1_{(y_{i-r},y_i]}(x)
+=\sum_{i\in\mathbb Z}\mathbf 1\bigl[y_{i-r}<\tilde x\le y_i\bigr]=r,
+$$
+
+since the translates by integers of the arcs with $1\le i\le n$ are the lifted
+arcs with $i\in\mathbb Z$, and if $j$ is the largest index with
+$y_j<\tilde x$, exactly the indices $i=j+1,\ldots,j+r$ qualify. In the pairing
+step, the arc of length $r/t$ ending at $y_i$ and the lifted arc of length
+$y_i-y_{i-r}\in[0,1]$ ending at $y_i$ have indicators differing on a set of
+measure $|y_i-y_{i-r}-r/t|$. So Lemma 6.3 holds as stated, without its
+assumption that every span is shorter than $1$. That assumption also holds at
+large times under either one-sided hypothesis: under $nM_n^{(r)}-r\le A$ every
+span is at most $(r+A)/n<1$; under $r-nm_n^{(r)}\le A$ with $r>A$ and
+$n\ge2r$, a span of length $1$ would leave $n-r\ge r$ consecutive zero gaps and
+hence a zero $r$-span, contrary to $m_n^{(r)}\ge(r-A)/n>0$.
+
+**Localization and extraction.** In Lemma 7.2 the planar points
+$((x_i-a)/w,\,i/N)$ have distinct second coordinates, and the planar bound holds
+for lists in any case. 
+[cut: outside this mathematical subject]
+
+**Positivity.** The one-sided hypotheses need no positive spans. Under the ratio
+hypothesis every late $r$-span is positive, since a vanishing span makes the
+ratio $+\infty$.
+

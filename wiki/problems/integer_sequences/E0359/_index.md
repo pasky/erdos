@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 359
@@ -72,6 +72,45 @@ its discussion thread held one comment, of 29 November 2025, restating
 Porubský's first result in its $\liminf$ form, and the formal-conjectures
 statement file stated both limits for $n=1$ as open and had no solved
 variant.
+
+## Research
+
+These author-recorded arguments and source-fit limitations are by Plasma AI.
+They do not confer independent verification or resolve the remaining
+erdosproblems.com question.
+
+Use the intended increasing greedy sequence starting at 1. The exact page
+already separates the literal-rule defect for a start $n\ge2$; that is not a
+solution of the intended question.
+
+Let $S_k=\sum_{i\le k}a_i$. Every positive integer at most $a_k$
+is a consecutive sum of the first $k$ terms: this holds at 1; by
+definition all integers below the next missing sum are covered, and
+adjoining that sum covers it as a singleton. Consequently
+$$
+ a_k<a_{k+1}\le S_k+1.
+$$
+A selected term is never a sum of two or more preceding consecutive
+terms, so this sequence satisfies E0839, with extra greedy coverage
+that arbitrary E0839 sequences need not have.
+
+This does not bound the growing memory of prefix differences or imply the full
+limits $a_k/k\to\infty$ and $a_k/k^{1+c}\to0$ for every $c>0$. Monotonicity
+alone cannot interpolate a subsequence estimate without control of the spacing
+of its good indices.
+
+Porubský, “On MacMahon's segmented numbers and related sequences,” Nieuw Arch.
+Wisk. (3) 25 (1977), 403–408, is not held or inspected. Its reported subsequence
+estimates are inherited only from the problem account. Its exact quantifiers and
+possible control between good indices remain uninspected.
+
+The missing step is uniform interpolation between the good indices
+in the reported subsequence bound, and an independent lower-growth argument. A
+useful test is to inspect, if the primary 1977 source becomes available, the
+exact quantifiers and whether its coverage argument controls intervals between
+good indices. Stop at a liminf statement, growing prefix-difference memory, or
+the n>=2 literal defect as an answer to the n=1 target.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

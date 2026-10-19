@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 382
@@ -54,6 +54,24 @@ is not a proof; a positive answer to
 question yes. A comment of 11 August 2025 in the problem's forum thread gives
 an interval with $v-u=13$ whose largest prime factor $4237033$ appears squared
 and one with $v-u=5$ whose largest prime factor $211193$ appears cubed.
+
+## Prime-factor and interval interface
+
+Put $H=v-u+1>1$. For an interval whose largest prime factor occurs at least
+twice,
+[[../library/diophantine_problems/tao_2026_products_consecutive_integers_unusual_anatomy/_index|Tao's
+Lemma 6.1]] gives $p>H$. Therefore $p$ divides only one term, which must be
+$p^2m$; in particular $p\le\sqrt v$ and $m\le v/p^2$. Every term, and $m$, is
+$p$-smooth. Conversely a $p$-smooth interval containing $p^2m$ has largest
+prime $p$ occurring twice. This is an exact structural interface, with
+Sylvester–Schur imported through the inspected lemma proof.
+
+[[problems/arithmetic_functions/E0383/_index|Problem 383's prime-square
+blocks]] give the subfamily $m=1$ and would imply unbounded lengths here. A
+density estimate for starting points does not bound the maximum exceptional
+interval length. The remaining input must control every such block, or
+construct arbitrarily long ones; no new interval computation is claimed.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

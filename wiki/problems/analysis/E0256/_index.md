@@ -11,7 +11,7 @@ status: solved
 claim: disproved
 parts: [power_growth]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:29:39Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 # Problem 256
@@ -40,7 +40,7 @@ $$
 
 **Status.** Solved: an accepted partial claim settles the definite second part
 in the negative, and the open-ended estimate does not block the standing. The
-erdosproblems.com label is OPEN (page last edited 20 January 2026). The
+erdosproblems.com label was OPEN (page last edited 20 January 2026). The
 erdosproblems.com commentary answers the specific question no. Belov and
 Konyagin proved $\log f(n)\ll(\log n)^4$
 ([[problems/analysis/E0256/claims/1996_12_01_belov_konyagin|their 1996 paper]],
@@ -111,9 +111,11 @@ proved in
 [[../library/analysis/bourgain_2018_paper_erdos_szekeres/proposition_1_1|Proposition 1.1]]
 that some set of $n$ distinct exponents in $\{1,\ldots,N\}$, with $n$
 comparable to $N/2$, has product maximum at most
-$\exp(c(n\log n)^{1/2}\log\log n)$. This gives
-$\log f^*(n)\ll(n\log n)^{1/2}\log\log n$ only at the sizes $n$ the
-construction produces; the paper states no bound for $f^*(n)$ at every $n$. [BoCh18]
+$\exp(c(n\log n)^{1/2}\log\log n)$. The paper states this only at the sizes its construction produces. The
+[[research/erdos_256/distinct_exponent_cardinality_extension|block-dilation deduction]]
+extends the same bound to every sufficiently large cardinality, with no
+linear bound on the largest exponent. The deduction uses the published
+dense-block theorem and is author-recorded. [BoCh18]
 also recalls, as Atkinson's relation (1.9), a link between $f^*$ and the
 Chowla cosine problem, [[problems/analysis/E0510/_index|Problem 510]]: with
 $M_2(n)$ the infimum, over integers $a_1<\cdots<a_n$, of
@@ -141,6 +143,11 @@ on that date) and the arXiv and Crossref records of Tang's paper. No proof claim
 is recorded for the problem. Remaining gaps: the order of $f(n)$, between
 $2\sqrt n$ and $\exp(C(\log n)^4)$; no proof has been compiled or independently
 reviewed by this corpus.
+
+**A deduction and its scope.**
+[[research/erdos_256/distinct_exponent_cardinality_extension|Distinct exponent products at every cardinality]] gives the author-recorded
+argument and source boundaries: integer dilations combine Bourgain–Chang dense blocks into every prescribed cardinality with the same logarithmic norm order, without a linear frequency bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

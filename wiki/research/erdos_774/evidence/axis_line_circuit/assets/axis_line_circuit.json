@@ -1,0 +1,257 @@
+{
+  "dimensions": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "meaning": "axis i is 0-based; fixed lists the other three coordinates in increasing coordinate order; column is indicator of that full axis-parallel line",
+  "support_size": 27,
+  "rational_rank": 26,
+  "coefficient_height": 2,
+  "columns": [
+    {
+      "axis": 0,
+      "fixed": [
+        0,
+        2,
+        1
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 0,
+      "fixed": [
+        0,
+        2,
+        2
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 0,
+      "fixed": [
+        1,
+        2,
+        0
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 0,
+      "fixed": [
+        2,
+        0,
+        0
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 0,
+      "fixed": [
+        2,
+        1,
+        0
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        0,
+        0,
+        0
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        0,
+        1,
+        0
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        1,
+        2,
+        0
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        2,
+        0,
+        1
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        2,
+        0,
+        2
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        2,
+        1,
+        0
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        2,
+        2,
+        0
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        2,
+        2,
+        1
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 1,
+      "fixed": [
+        2,
+        2,
+        2
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 2,
+      "fixed": [
+        0,
+        0,
+        0
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 2,
+      "fixed": [
+        0,
+        1,
+        0
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 2,
+      "fixed": [
+        1,
+        2,
+        0
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 2,
+      "fixed": [
+        2,
+        0,
+        0
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 2,
+      "fixed": [
+        2,
+        1,
+        1
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 2,
+      "fixed": [
+        2,
+        1,
+        2
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 3,
+      "fixed": [
+        0,
+        0,
+        2
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 3,
+      "fixed": [
+        1,
+        0,
+        2
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 3,
+      "fixed": [
+        2,
+        0,
+        0
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 3,
+      "fixed": [
+        2,
+        0,
+        2
+      ],
+      "coefficient": 2
+    },
+    {
+      "axis": 3,
+      "fixed": [
+        2,
+        1,
+        1
+      ],
+      "coefficient": -1
+    },
+    {
+      "axis": 3,
+      "fixed": [
+        2,
+        2,
+        0
+      ],
+      "coefficient": 1
+    },
+    {
+      "axis": 3,
+      "fixed": [
+        2,
+        2,
+        2
+      ],
+      "coefficient": 1
+    }
+  ]
+}

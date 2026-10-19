@@ -1,0 +1,155 @@
+\section{A box inequality and supersaturation}
+\label{sec:cube}
+
+The proof of Theorem~\ref{thm:lower} needs, for every $r$, a shape whose
+base size lies a little above $r$ and which is monochromatic with
+probability bounded below by a quantity depending on $k$ and $t$ alone.
+This section obtains such a shape from an inequality of Cauchy--Schwarz
+type for products taken over the vertices of a box.
+
+Let $G$ be a finite set and $t\ge0$. For $x,x'\in G^{t}$ and
+$\omega\in\{0,1\}^{t}$ let $x^{(\omega)}\in G^{t}$ be the point whose
+$i$-th coordinate is $x'_i$ if $\omega_i=1$ and $x_i$ if $\omega_i=0$. The
+$2^{t}$ points $x^{(\omega)}$ are the vertices of the \emph{box} spanned by
+$x$ and $x'$; they are distinct precisely when $x_i\ne x'_i$ for every
+$i$. Expectations are taken with respect to the uniform distribution on
+the finite set indicated by the variables.
+
+\begin{lemma}[Box inequality]
+\label{lem:box}
+Let $f:G^{t}\to[0,\infty)$. If $x$ and $x'$ are independent and uniformly
+distributed in $G^{t}$, then
+\[
+\Ex\prod_{\omega\in\{0,1\}^{t}}f\bigl(x^{(\omega)}\bigr)\ \ge\
+\bigl(\Ex f(x)\bigr)^{2^{t}} .
+\]
+\end{lemma}
+
+\begin{proof}
+We use induction on $t$. For $t=0$ both sides equal the value of $f$ at
+the only point of $G^{0}$. Let $t\ge1$ and write the points of $G^{t}$ as
+$(a,y)$ with $a\in G$ and $y\in G^{t-1}$. For $y,y'\in G^{t-1}$ and $a\in
+G$ put
+\[
+h_{y,y'}(a)=\prod_{\omega\in\{0,1\}^{t-1}}f\bigl(a,y^{(\omega)}\bigr).
+\]
+Splitting $\omega\in\{0,1\}^{t}$ according to its first coordinate shows
+that the product over the box spanned by $x=(a,y)$ and $x'=(a',y')$ equals
+$h_{y,y'}(a)\,h_{y,y'}(a')$. The variables $a,a',y,y'$ are independent,
+so the Cauchy--Schwarz inequality gives
+\[
+\Ex\prod_{\omega}f\bigl(x^{(\omega)}\bigr)
+=\Ex_{y,y'}\bigl(\Ex_a h_{y,y'}(a)\bigr)^{2}
+\ \ge\ \bigl(\Ex_{a}\Ex_{y,y'}h_{y,y'}(a)\bigr)^{2}.
+\]
+For fixed $a$, the induction hypothesis applied to $f(a,\cdot)$ gives
+$\Ex_{y,y'}h_{y,y'}(a)\ge(\Ex_yf(a,y))^{2^{t-1}}$, and since $z\mapsto
+z^{2^{t-1}}$ is convex on $[0,\infty)$, Jensen's inequality gives
+\[
+\Ex_a\bigl(\Ex_yf(a,y)\bigr)^{2^{t-1}}\ \ge\
+\bigl(\Ex_a\Ex_yf(a,y)\bigr)^{2^{t-1}}=\bigl(\Ex f\bigr)^{2^{t-1}}.
+\]
+Squaring, the left-hand side of the lemma is at least
+$(\Ex f)^{2^{t}}$.
+\end{proof}
+
+The quantity on the left of Lemma~\ref{lem:box} is the $2^{t}$-th power
+of the box norm of $f$, and the argument is the one Gowers used for the
+uniformity norms in a proof of Szemer\'edi's theorem
+\cite{Go01}.\footnote{In that setting one works with a function on an
+abelian group and the vertices of a parallelepiped $x+\omega\cdot h$, and
+repeated use of the Cauchy--Schwarz inequality compares the average over
+parallelepipeds with the average of the function. Here the underlying
+set is a product and the box is a combinatorial one, which is the
+simplest case of the method.} Applied to the indicator of each colour
+class it says that a random box is monochromatic with probability at
+least $k^{1-2^{t}}$, whatever the colouring. What remains is to turn boxes
+in a grid into cubes of sets, and this is where the order of the ground
+set is randomised.
+
+For the rest of the paper put
+\begin{equation}
+\label{eq:Mt}
+L_k(t)=t\,k^{2^{t}}\qquad\text{and}\qquad M_k(t)=t\,L_k(t)=t^{2}\,k^{2^{t}}
+\qquad(t\ge1),
+\end{equation}
+so that $M_2(1)=4$, $M_2(2)=64$ and $M_2(3)=2304$. Note that
+$M_k(t)\ge t+1$.
+
+\begin{proposition}[Supersaturation]
+\label{prop:saturation}
+Let $t\ge1$ and $L\ge1$ be integers, put $M=tL$, and let $r\ge0$ be an
+integer with $r+M\le n$. There are integers $u$ and $a_1,\dots,a_t\ge1$
+with
+\[
+r\le u,\qquad (u-r)+a_1+\dots+a_t\le M,\qquad
+\rho_\chi(u;a_1,\dots,a_t)\ \ge\ k^{1-2^{t}}-\frac{t}{L+1}.
+\]
+In particular, with $L=L_k(t)$ and $M=M_k(t)$ as in \eqref{eq:Mt}, one
+can achieve $\rho_\chi(u;a_1,\dots,a_t)\ge k^{-2^{t}}$, and then $u\le r+M-t$ and
+$a_i\le M$ for every $i$.
+\end{proposition}
+
+\begin{proof}
+Choose pairwise disjoint sets $R,Z_1,\dots,Z_t\subseteq[n]$ with $|R|=r$
+and $|Z_i|=L$, which is possible because $r+tL\le n$, and list
+$Z_i=\{z_{i,1},\dots,z_{i,L}\}$. Put $G=\{0,1,\dots,L\}$ and, for $x\in
+G^{t}$,
+\[
+S(x)=R\cup\bigcup_{i=1}^{t}\{z_{i,q}:\ 1\le q\le x_i\},
+\]
+so that $x$ records how far along each of the $t$ chains
+$z_{i,1},z_{i,2},\dots$ the set $S(x)$ reaches. Let $\sigma\in S_n$ and
+$x,x'\in G^{t}$ be independent and uniform, and let $E$ be the event
+that $\chi(\sigma(S(\cdot)))$ is constant on the box spanned by $x$ and
+$x'$.
+
+Fix $\sigma$, and for each colour $c$ let $p_c$ be the probability that
+$\chi(\sigma(S(x)))=c$ for uniform $x$. Lemma~\ref{lem:box} applied to the
+indicator function of the colour class of $c$ shows that, conditionally
+on $\sigma$, all vertices of the box have colour $c$ with probability at
+least $p_c^{2^{t}}$. Since $p_1+\dots+p_k=1$, convexity gives
+$\sum_cp_c^{2^{t}}\ge k\cdot k^{-2^{t}}$, and averaging over $\sigma$ gives
+$\Pr(E)\ge k^{1-2^{t}}$. The event $D$ that $x_i=x'_i$ for some $i$ has
+probability at most $t/(L+1)$, so
+\[
+\Pr(E\setminus D)\ \ge\ k^{1-2^{t}}-\frac{t}{L+1}.
+\]
+
+Suppose now that $x_i\ne x'_i$ for every $i$, and put
+$\ell_i=\min(x_i,x'_i)$ and $h_i=\max(x_i,x'_i)$. The vertices of the box
+are the points whose $i$-th coordinate is $\ell_i$ or $h_i$ for every
+$i$, so the sets $S(x^{(\omega)})$ form the $t$-cube
+$Q_{x,x'}=Q(U;X_1,\dots,X_t)$ with
+\[
+U=S(\ell),\qquad X_i=\{z_{i,q}:\ \ell_i<q\le h_i\}
+\]
+(Figure~\ref{fig:box}). Its shape is
+$(r+\sum_i\ell_i;\ h_1-\ell_1,\dots,h_t-\ell_t)$, and $u=r+\sum_i\ell_i$
+and $a_i=h_i-\ell_i$ satisfy $u\ge r$, $a_i\ge1$ and
+$(u-r)+\sum_ia_i=\sum_ih_i\le tL=M$. The event $E\setminus D$ says that
+$\sigma(Q_{x,x'})$ is monochromatic. For a fixed pair $(x,x')$ outside
+$D$, the probability of this over $\sigma$ is $\rho_\chi$ at the shape of
+$Q_{x,x'}$, because $\sigma(Q_{x,x'})$ is then a uniformly random cube of
+that shape. Hence $\Pr(E\setminus D)$ is an average, over all pairs
+$(x,x')$, of numbers that vanish on $D$ and are values of $\rho_\chi$
+at admissible shapes elsewhere, and one of these values is at least
+$\Pr(E\setminus D)$.
+
+For $L=L_k(t)$ we have $t/(L+1)<t/L=k^{-2^{t}}$, so the value found is at
+least $(k-1)k^{-2^{t}}\ge k^{-2^{t}}$. The bounds on $u$ and $a_i$ follow
+from $a_i\ge1$.
+\end{proof}
+
+\begin{figure}[t]
+\centering
+\input{figures/fig-box.tex}
+\caption{The grid $G^{3}$ with $G=\{0,1,\dots,4\}$, as in the proof of
+Proposition~\ref{prop:saturation} with $t=3$ and $L=4$, and the box
+spanned by $x=(1,1,2)$ and $x'=(3,3,0)$. Its eight vertices are the
+points of $\{1,3\}\times\{1,3\}\times\{0,2\}$, between the corners
+$\ell=(1,1,0)$ and $h=(3,3,2)$. The sets $S(y)$ at these vertices form
+the $3$-cube with base $S(\ell)$ and generators
+$X_i=\{z_{i,q}:\ell_i<q\le h_i\}$, whose shape is $(r+2;2,2,2)$.}
+\label{fig:box}
+\end{figure}

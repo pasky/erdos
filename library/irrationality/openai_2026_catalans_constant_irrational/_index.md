@@ -7,7 +7,7 @@ desc: |
   bound for growing determinants of mixed moments; it names no Erdős problem.
 license: Apache-2.0
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 # irrationality/openai_2026_catalans_constant_irrational
@@ -80,7 +80,7 @@ configuration `Catalan.json` names the solution module
 Theorem 1.1 alone; the manuscript's intermediate propositions and its
 hyperbolic-volume consequences are not part of it. The release's catalog
 `lean/formalization.yaml` at this revision lists no entry for this comparator
-under its `status.main_results`, and the catalog's own `review` field reads
+under its `status.main_results`, and its own `review` field reads
 `status: unchecked`. All of this is read statically from the release's files;
 nothing was built, replayed or audited for fidelity in this repository. No Lean
 file here is a proof of any Erdős problem.

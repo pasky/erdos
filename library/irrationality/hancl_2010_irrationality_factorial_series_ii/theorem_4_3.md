@@ -7,7 +7,7 @@ desc: |
   progression for infinitely many N with 2N minus 1 prime and b_n is
   o(n log n), and records Corollary 4.2, the irrationality of pi.
 created: 2026-10-08T15:37:37Z
-updated: 2026-10-08T15:37:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -52,4 +52,4 @@ Proposition 3.2 and Lemma 2.3 of the same paper.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

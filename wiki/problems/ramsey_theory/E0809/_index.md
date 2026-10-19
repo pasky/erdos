@@ -4,15 +4,16 @@ title: Problem 809
 desc: |
   Asks whether, for every $k\ge3$, the fewest colors that make every $C_{2k+1}$
   rainbow in some $n$-vertex graph with $\lfloor n^2/4\rfloor+1$ edges is
-  asymptotically $n^2/8$. Proved by two Lean developments built and audited
-  here: Asad Shahab's, filed first, and the project's claim L17.
+  asymptotically $n^2/8$. Proved by two independent Lean developments built and
+  audited here: the project's claim L17, published first, and Asad Shahab's,
+  filed first on erdosproblems.com.
 tags:
 - Graph theory
 - Ramsey theory
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:40:07Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 809
@@ -53,7 +54,7 @@ every $k\ge4$ and records nothing for $k=3$. The frontmatter standing is derived
 from the claim pages. Two accepted full claims settle the problem on
 `formalized` evidence. Each is a Lean proof of the full statement for every
 $k\ge3$ that this corpus built and audited. No outside review of either proof is
-known. The first is Asad Shahab's claim, filed on erdosproblems.com first
+known. One is Asad Shahab's claim, filed on erdosproblems.com first
 (erdosproblems.com's proof claim 358, before the project's 367, both on 27
 September 2026). It is a seven-cycle proof with a Lean development for every
 $k\ge3$. That development was built here at its pinned commit and audited clause
@@ -61,10 +62,11 @@ by clause against the Statement (see the Formalization paragraph)
 ([[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|claim page]]). The
 other is the project's claim
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], a
-kernel-checked Lean proof of the full statement for every $k\ge3$. Its statement
-was audited by the project's fidelity review and grade of 2026-10-02 (see the
-Formalization paragraph)
-([[problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|claim page]]). Its
+kernel-checked Lean proof of the full statement for every $k\ge3$, public on
+GitHub from 24 September 2026, before Shahab's (see "Outside claims and
+priority"). Its statement was audited by the project's fidelity review and grade
+of 2026-10-02 (see the Formalization paragraph)
+([[problems/ramsey_theory/E0809/claims/2026_09_24_plasma_ai|claim page]]). Its
 tier-2 standing is the project's own verification, not community acceptance.
 Bucić, Chen and Ma's theorem is an accepted partial claim covering $k\ge4$ on
 `formalized` evidence, namely the $k\ge4$ branches of both developments
@@ -115,7 +117,7 @@ accessed 2026-09-18.
   identified and not held.
 
 **Formalization.** Two Lean developments, both built and audited here, prove the
-full statement (below). No catalog formalization is recorded: no file
+full statement (below). No formal-conjectures formalization is recorded: no file
 `ErdosProblems/809.lean` existed in formal-conjectures on 2026-09-18
 ([directory listing](https://github.com/google-deepmind/formal-conjectures/tree/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems));
 the erdosproblems.com page shows "Formalised statement? No", and the community
@@ -124,7 +126,7 @@ formalized, with no formal proof (record last updated 31 August 2025).
 
 Two Lean developments prove the full statement for every $k\ge3$, and this
 corpus built and audited both. Asad Shahab's, posted with erdosproblems.com's
-proof claim 358, the first filed (27 September 2026), proves it as
+proof claim 358, filed first there (27 September 2026), proves it as
 `Erdos809.erdos_809` in the repository `Asad-Shahab/erdos-809-lean`, which this
 corpus built at its pinned commit, the head of 27 September 2026, on 2026-10-08
 (Lean `v4.28.0`, Mathlib `v4.28.0`; exit 0, no errors); the theorem's axioms are
@@ -152,8 +154,8 @@ claim page [[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab 2026]]
 records the checks and the comparison of the two commits.
 
 This repository also answers the question in the affirmative for every $k\ge3$,
-in the development posted with erdosproblems.com's proof claim 367, filed after
-Shahab's: the project's claim
+in the development published on GitHub on 24 September 2026 and posted with
+erdosproblems.com's proof claim 367, filed after Shahab's: the project's claim
 [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]], whose
 [Lean surface](../../../../lean/Erdos/L17.lean) states the full $k\ge3$ question
 in erdosproblems.com's exact-edge form, is proved at tier 2 under the
@@ -195,19 +197,24 @@ request (6634, opened on 27 September 2026; open and unmerged on 2026-10-07)
 carries a statement file that marks the problem research solved and names that
 development as its formal proof. This project's, erdosproblems.com's proof claim
 367, filed later the same day under the name Plasma AI, is the L17 development,
-registered on the Palomar registry on 30 September 2026 as
-`PALOMAR-2026-09-30-000004` (`plasma-ai/erdos-809`, theorem
-`Erdos809.main_result`, trust level high, automated review outcome neutral).
-Shahab's claim is independent of L17 and earlier the same day, so wherever this
-page or the research folder calls the seven-cycle argument the project's own,
-that is authorship and not priority: an independent proof of the $C_7$ case was
-posted first. Neither claim has comments, neither is refereed, and the
-erdosproblems.com label on that date was OPEN; none of this changes the standing
-of L17, whose tier rests on the filed records above and not on priority or
-community acceptance. This corpus has not read Shahab's preprint, so that
-claim's acceptance rests on the Lean alone. The two postings have their claim
-pages, [[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab 2026]] and
-[[problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|the project's development]],
+public on GitHub since 24 September 2026 and registered on the Palomar registry
+on 30 September 2026 as `PALOMAR-2026-09-30-000004` (`plasma-ai/erdos-809`,
+theorem `Erdos809.main_result`, trust level high, automated review outcome
+neutral). The two proofs are independent, and the project's was public first.
+The repository `plasma-ai/erdos-809` was created public on 24 September 2026,
+and its first push, at 23:25 UTC that day, held the whole development: the
+seven-cycle proof assembled with the formalized cases $k\ge4$ into the statement
+for every $k\ge3$. Shahab's repository `Asad-Shahab/erdos-809-lean` was created
+public on 27 September 2026 at 03:47 UTC (GitHub's event records of the two
+repositories, read on 2026-10-14). So the project published first, and Shahab
+filed first on erdosproblems.com. Neither claim has comments, neither is
+refereed, and the erdosproblems.com label on that date was OPEN; none of this
+changes the standing of L17, whose tier rests on the filed records above and not
+on priority or community acceptance. This corpus has not read Shahab's preprint,
+so that claim's acceptance rests on the Lean alone. The two postings have their
+claim pages,
+[[problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab 2026]] and
+[[problems/ramsey_theory/E0809/claims/2026_09_24_plasma_ai|the project's development]],
 both accepted on `formalized` evidence.
 
 ## Current assessment
@@ -254,7 +261,7 @@ $C_5$ value rests on a paper not identified here. The value $3$ for $C_3$ is
 **Status-defining result for $k\ge4$.** [BCM26], arXiv v1.
 [[../library/ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/conjecture_1_1|Conjecture 1.1]]
 (p. 2) states the problem in the paper's words for $k\ge3$, attributed to
-[BEGS89] and [Er91] with a pointer to this catalog entry.
+[BEGS89] and [Er91] with a pointer to this erdosproblems.com entry.
 [[../library/ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos/theorem_1_2|Theorem 1.2]]
 (p. 2): for $k\ge4$ and $\lfloor n^2/4\rfloor+1\le e\le\binom n2$,
 
@@ -327,16 +334,17 @@ independent review, whose $k\ge4$ instances L17 and Shahab's development both
 formalize; this corpus has not read its proof. (2) $C_7$ is settled in no
 refereed source found, and the search did not cover arXiv abstracts; Shahab's
 preprint arXiv:2609.38286 states the constant but is unrefereed and not read
-here, and the case's proofs are Shahab's independent claim, filed first (item
-7), and this repository's claim L17 (item 6). A refereed version of that
-preprint or of [BCM26] would change the literature account above. (3) [Er91],
-erdosproblems.com's second source, is not held; its p. 398 passage is
-second-hand. (4) The exact $C_5$ value is attributed by the 1989 paper to a
-paper "to appear" that is not identified here. (5) Proof coverage is statements
-only: claims checked for Theorems 4.1, 5.1 and 1.2 and the two conjecture
-statements; nothing is independently reviewed. (6) This repository holds a proof
-of the $C_7$ case and a Lean development for all $k\ge3$, recorded as native
-claim [[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]] with a
+here, and the case's proofs are this repository's claim L17 (item 6), published
+first, and Shahab's independent claim, filed first on erdosproblems.com (item
+7). A refereed version of that preprint or of [BCM26] would change the
+literature account above. (3) [Er91], erdosproblems.com's second source, is not
+held; its p. 398 passage is second-hand. (4) The exact $C_5$ value is attributed
+by the 1989 paper to a paper "to appear" that is not identified here. (5) Proof
+coverage is statements only: claims checked for Theorems 4.1, 5.1 and 1.2 and
+the two conjecture statements; nothing is independently reviewed. (6) This
+repository holds a proof of the $C_7$ case and a Lean development for all
+$k\ge3$, recorded as native claim
+[[theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_index|L17]] with a
 [[research/erdos_809/_index|research guide]]; the corpus build and axiom audit
 pass, and the independent whole-statement fidelity audit, its distinct grade and
 the non-author clean gate the verification contract requires are filed (see the
@@ -344,12 +352,13 @@ Formalization paragraph), so the claim stands at tier 2 under the fidelity
 review and grade of 2026-10-02 named there, and the frontmatter standing derives
 through its claim page and Shahab's (item 7), each accepted on a formalized
 proof; the literature qualifications in items (1) to (5) are unchanged. (7)
-Priority: Shahab's independent claim, a $C_7$ proof with a Lean development for
-every $k\ge3$, was filed on erdosproblems.com first, as proof claim 358 before
-the project's 367, both on 27 September 2026 (the outside-claims paragraph
-above); this corpus built that development at its pinned commit and audited its
-statement on 2026-10-08, and the claim is accepted on that formalized proof.
-L17's standing does not rest on priority.
+Priority: the project's development was public on GitHub first, from 24
+September 2026, and Shahab's independent claim, a $C_7$ proof with a Lean
+development for every $k\ge3$, was filed on erdosproblems.com first, as proof
+claim 358 before the project's 367, both on 27 September 2026 (the
+outside-claims paragraph above); this corpus built Shahab's development at its
+pinned commit and audited its statement on 2026-10-08, and the claim is accepted
+on that formalized proof. L17's standing does not rest on priority.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

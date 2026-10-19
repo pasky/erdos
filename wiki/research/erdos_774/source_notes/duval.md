@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Duval–Klivans–Martin: cuts and flows of
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Duval–Klivans–Martin: cuts and flows of cell complexes
@@ -23,3 +23,11 @@ This paper extends graphic cut/flow duality and critical groups to finite cell
 complexes.  Cellular circuits can carry integral coefficients larger than one;
 the discussion around torsion and the explicit coefficient examples are the
 main reason to keep this source nearby.
+
+The relevance to E0774 is diagnostic.  The cyclotomic matroid has a simplicial
+model, so one might hope to use graph-style circuit coloring.  In higher
+dimension, however, minimal integral dependencies need not be signed incidence
+vectors with coefficients only $0,\pm1$.  Thus ordinary matroid independence,
+cellular acyclicity, and dissociation can diverge.  Any proposed transfer should
+isolate a regular/totally-unimodular subfamily or prove a coefficient bound for
+the particular circuits it uses.

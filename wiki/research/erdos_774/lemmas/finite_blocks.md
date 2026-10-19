@@ -5,7 +5,7 @@ desc: A complete elementary proof of the sufficient finite-block criterion and f
 tags: [E0774, proved, reduction]
 sources: []
 created: 2026-09-17T23:53:25Z
-updated: 2026-09-17T23:53:25Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 
@@ -78,3 +78,12 @@ would occur at one level, so every branch color class is dissociated.
 Consequently an infinite counterexample with extraction constant $\delta$
 would itself supply finite witnesses $E_q$ with the same constant and
 $\chi(E_q)>q$. The finite-block target is therefore exact.
+
+## Direct sums do not amplify — proved
+
+For any finite collection of relation-separated blocks, a union is dissociated
+exactly when its intersection with each block is dissociated. Thus the coloring
+number of their union is the maximum, not the sum, of their coloring numbers. If
+$\eta(E)=\min_{\varnothing\neq F\subseteq E} r(F)/|F|$, its value on this union
+is $\min_i\eta(E_i)$: the lower bound comes from blockwise extraction, and a
+minimizing subset in a single block gives the reverse bound.

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Ghidelli: Arbitrarily long gaps between the
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T05:28:09Z
 ---
 
 # Ghidelli: Arbitrarily long gaps between the values of positive-definite cubic and biquadratic diagonal forms
@@ -150,6 +150,14 @@ order $O(\log N/\log\log N)$ discussed heuristically in §1.
 This source bears on
 [Problem 940](../../../problems/diophantine_problems/E0940/_index.md).
 
+The current E940 research uses Proposition 5.2 more narrowly than the paper's
+gap theorems: its quartic Jacobi-sum character is the Gaussian Hecke character
+of infinity type (2) appearing in the Euler-product majorant for the proposed
+(r=4) complement theorem. That citation supports the character correspondence
+and infinity type; the research note supplies its own conductor bound and
+uniform (L)-function estimate. Thus this source is a direct input to the
+quartic argument as well as a source of related fixed-form gap results.
+
 Let
 
 $$
@@ -182,3 +190,36 @@ powers may be completely filled by sums of non-perfect $r$-powerful numbers.
 Consequently none of the paper's gap theorems supplies even one interval
 disjoint from $\mathcal A_r$, and they do not prove density zero—or
 positive-density complement—for E940's set.
+
+There is nevertheless a precise stratified translation. Every $q\in\mathcal Q_r$
+has a unique decomposition $q=ax^r$ with $a$ $r$th-power-free; moreover
+$\operatorname{rad}(a)\mid x$. Writing $x=\operatorname{rad}(a)y$ gives
+
+$$
+q=\bigl(a\operatorname{rad}(a)^r\bigr)y^r.
+$$
+
+Hence $\mathcal A_r$ is an infinite union, over $r$th-power-free tuples
+$\mathbf a=(a_1,\ldots,a_r)$, of value sets of the fixed diagonal forms
+
+$$
+F_{\mathbf a}(\mathbf y)=\sum_{i=1}^r a_i\operatorname{rad}(a_i)^r y_i^r.
+$$
+
+For $r=3$, the paper applies to every individual coefficient tuple. For $r=4$,
+it applies only when the resulting coefficient tuple is nonexceptional in the
+sense of Definition 6.1 and Theorem 6.2. This is potentially useful for a finite
+or otherwise controlled kernel decomposition of powerful numbers: equations
+(4.10), (4.11), and Proposition 8.1 provide local deficits for one fixed
+stratum, while Propositions 8.4–8.5 show how an aggregate analog of (8.6)
+would yield genuine missing intervals.
+
+The missing E940 ingredient is uniform control of the infinite union of
+coefficient strata. The prime sets, moduli, and constants in Theorem 8.8 depend
+on the fixed form, and the paper neither sums the representation counts over
+varying $\mathbf a$ nor constructs one progression that is simultaneously sparse
+for all relevant kernels. Exceptional quartic strata create an additional
+obstruction, and Remark 2.4 says that the same local-deficit strategy already
+fails for fixed $r$-variable diagonal forms when $r\ge5$. Thus the paper
+supplies a useful local-congruence/Maier-matrix template and sharp fixed-form
+test cases, but it does not resolve any case of E940's density-zero assertion.

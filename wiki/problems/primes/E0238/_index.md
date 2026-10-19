@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 238
@@ -49,14 +49,18 @@ catalog labeled the problem OPEN, and its commentary credits Erdős [Er49c] with
 the case of small $c_1$: for every $c_2>0$ the answer is yes once $c_1$ is small
 enough in terms of $c_2$ (Theorem 3 of that paper, proved by Brun's method
 through Schnirelmann's bound on the number of small prime gaps). That result is
-recorded in `claims/` as an accepted partial claim with refereed evidence; the
-question for every pair $c_1,c_2>0$, in particular for $c_1$ large, is not
-answered by it, and the derived standing stays open. The erdosproblems.com
+recorded as an accepted partial claim with refereed evidence on
+[[problems/primes/E0238/claims/1949_01_01_erdos|its claim page]]; the question
+for every pair $c_1,c_2>0$, in particular for $c_1$ large, is not answered by
+it, and the derived standing stays open. The erdosproblems.com
 thread discusses a conditional route through a uniform form of the
 Hardy–Littlewood prime tuples conjecture, but no proof or disproof of the full
 question is claimed there. The only formalization recorded is the
 formal-conjectures statement named under Formalization. This page records no
 literature search beyond erdosproblems.com and the cited paper.
+
+The author-recorded [[research/covering_prime_interfaces/prime_pattern_uniformity|prime-pattern comparison]] states the parameter ranges and missing uniformity needed to use the available results here. Its source dependence and unresolved implications remain explicit.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

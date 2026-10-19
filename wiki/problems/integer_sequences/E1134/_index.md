@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1134
@@ -46,9 +46,9 @@ $|A\cap[1,T]|\le C(\epsilon)T^{\tau_1+\epsilon}$ with $\tau_1\approx0.900526<1$,
 so $A$ has density zero. The erdosproblems.com curator, Thomas Bloom, records
 this as the resolution. The claim page
 [[problems/integer_sequences/E1134/claims/2016_09_28_lagarias|Lagarias 2016]]
-records the acceptance. erdosproblems.com's (LEAN) suffix is its catalog label.
-The outside Lean files it rests on are described under Formalization and on the
-claim pages. This corpus has built none of them.
+records the acceptance. erdosproblems.com's (LEAN) suffix is an
+erdosproblems.com label. The outside Lean files it rests on are described under
+Formalization and on the claim pages. This corpus has built none of them.
 
 **Source.** [erdosproblems.com/1134](https://www.erdosproblems.com/1134),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1134,

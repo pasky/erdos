@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 71
@@ -29,9 +29,9 @@ graph with average degree at least $c$ contains a cycle whose length is in $P$?
 **Status.** PROVED (LEAN). The claim page is
 [[problems/extremal_graph_theory/E0071/claims/1977_03_01_bollobas|Bollobás]],
 accepted on the refereed publication and the erdosproblems.com credit, and the
-frontmatter standing is derived from it. The erdosproblems.com suffix is a
-catalog label explained under Formalization. The Current assessment explains how
-the printed theorem reaches the erdosproblems.com question.
+frontmatter standing is derived from it. The erdosproblems.com suffix is an
+erdosproblems.com label explained under Formalization. The Current assessment
+explains how the printed theorem reaches the erdosproblems.com question.
 
 **Source.** [erdosproblems.com/71](https://www.erdosproblems.com/71), accessed
 2026-10-07 (problem page; discussion thread with four posts, on the
@@ -53,8 +53,8 @@ https://www.erdosproblems.com/71, accessed 2026-10-07.
   Library home:
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 
-**Formalization.** erdosproblems.com's (Lean) suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's (Lean) suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/71.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/71.lean)
 of formal-conjectures, at its commit of 2026-09-18, the latest on 2026-10-07,
 states `erdos_71` with the progression as a set `P.IsAPOfLength ⊤` having an

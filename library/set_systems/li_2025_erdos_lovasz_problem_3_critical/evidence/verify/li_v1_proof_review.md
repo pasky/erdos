@@ -5,7 +5,7 @@ desc: |
   Preserves the independent review of thirteen exact proof subjects, including
   its source coverage, mathematical findings and computational limits.
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-07T12:43:51Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 ***
@@ -73,8 +73,8 @@ paragraph and a status-search sentence; its authored mathematics is unchanged.
 (line 7 `status: solved`; line 19
 `**Status.** Solved.`; lines 54-55 and 68 stating the no and yes answers; lines
 70-71 reporting that the site marks the problem solved because [Li25] settles
-both readings) and the source digest, retained as
-`reviewed_digest.md` lines 47-49 (old-slug
+both readings) and the source digest at lines 47-49 of its copy
+`reviewed_digest.md`, which is not held in the repository (old-slug
 `_index.md` lines 86-88 as of the same date), reporting the Erdős Problems
 page's adoption of [Li25]. A separately spawned grader (model: Claude Fable
 5.1) ruled this exposure immaterial under the content test on 2026-09-18: the
@@ -84,12 +84,11 @@ prior-review text about the reconstruction existed at that revision, and the
 recorded verdict rests on itemized checks including a source gap the reviewer
 found and attributed.
 
-The reviewed digest is retained as exact subject
-bytes. Compared with the source digest before this evidence reconciliation, only
-its `updated` timestamp and generated result navigation differed; the authored
-body was byte-identical. That comparison does not extend the old review to the
-new evidence prose. Relative links in the snapshot retain their original
-source-directory context; use the live result links above.
+The exact subject bytes of the reviewed digest (`reviewed_digest.md`) are not
+held in the repository. Compared with the source digest before this evidence
+reconciliation, only its `updated` timestamp and generated result navigation
+differed; the authored body was byte-identical. That comparison does not
+extend the old review to the new evidence prose.
 
 ## Transversal branch
 
@@ -165,13 +164,12 @@ Proposition 4.6 and its table, and p. 2 with pp. 7–15 for Theorem 1.2.
 
 ## Computational record and reproduction limit
 
-The original reviewed checker is retained.
-The reviewed execution used Python 3.13.12 with assertions enabled,
+The original reviewed checker (`reviewed_checker.py`) is not held in the
+repository. The reviewed execution used Python 3.13.12 with assertions enabled,
 returned zero and printed `E0834 hypergraph checks passed`. Its historical
 command was `python3 scripts/verify_e0834_hypergraph.py`; that path was
-retired when the revised implementation moved to
-`evidence/verify_e0834_hypergraph.py` beside the evidence index. The snapshot
-identifies the old subject and is not the current evidence entry point.
+retired when the revised implementation, the current evidence entry point,
+moved to `evidence/verify_e0834_hypergraph.py` beside the evidence index.
 
 The review checked the monochromatic-edge predicate, exhaustive coverage
 of all 512 Boolean assignments, all certificate keys and deletion cases,
@@ -182,7 +180,7 @@ with the actual link. That calculation reported no proper two-coloring
 and no failed certificate.
 
 No standalone source file or replay command for that bit-mask calculation
-was recovered. The retained set-based checker is not a replacement for
+was recovered. The original set-based checker is not a replacement for
 its missing independent derivation. The reported outcome is preserved at
 its historical scope, with this explicit reproduction limitation. No
 fresh execution of either calculation is asserted here.

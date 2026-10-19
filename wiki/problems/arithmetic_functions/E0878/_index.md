@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [almost_all, max_asymptotic, equal_maxima, equality_count, h_asymptotic, h_upper_bound]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 878
@@ -146,6 +146,18 @@ The questions on the number of $n$ with $f(n)=F(n)$ and on $H(x)$ are not
 assessed here beyond the results of [Er84e] on its library pages. Search scope:
 the erdosproblems.com page and its commentary, the [Er84e] library card and
 Kitamura's posts; no wider literature search was made.
+
+## Prime-support criterion
+
+The author-recorded
+[[research/coprime_prime_support_partition|prime-support partition argument]]
+gives an exhaustive finite criterion for $F(n)=f(n)$. It also proves the
+exact value $F(210)=442$, by checking all partitions of the four prime
+divisors of $210$, and $f(210)=383$. This calculation does not check the
+maximum of $f$ over all $n\le210$. Its finite criterion supplies no
+asymptotic count of equality cases, and the argument has not received
+independent review. The pending 2026 claim above retains its exact scope
+and standing.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

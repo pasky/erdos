@@ -1,0 +1,197 @@
+{
+  "schema": "clean-gate-receipt-v1",
+  "state": "successful clean committed-source gate: the archived lean/ tree of the checked source fetched its cache, built, passed the axiom audit against the committed manifest and matched the committed self-test stamp",
+  "owner": "wiki/theory/integer_sequences/L20_roots_of_unity_analytic_sidon",
+  "role": "Portable mechanical validation evidence for the tier-2 standing of L20 on the checked source named below (the working tree as it stood on 2026-10-13T04:56:43Z, after the restore of the claims L20, L21 and L22), not an independent mathematical acceptance warrant, review or grade.",
+  "shared_run": {
+    "statement": "A single run of the gate on the checked source (the working tree as it stood on 2026-10-13T04:56:43Z) serves the four claims in its manifest. The wrapper ran once from a working folder outside the repository; each of the four record folders files this receipt with its own owner and manifest row, a byte-identical copy of the one filed log and a byte-identical copy of the one filed wrapper.",
+    "checked_source_date": "2026-10-13T04:56:43Z",
+    "owners": [
+      "wiki/theory/ramsey_theory/L17_rainbow_odd_cycle_threshold",
+      "wiki/theory/integer_sequences/L20_roots_of_unity_analytic_sidon",
+      "wiki/theory/integer_sequences/L21_roots_of_unity_proportional_dissociation",
+      "wiki/theory/number_theory/L22_near_logarithmic_dissociated_subset"
+    ]
+  },
+  "validation_date": "2026-10-13",
+  "checked_source": {
+    "source_date": "2026-10-13T04:56:43Z",
+    "worktree_state_before_launch": "git rev-parse HEAD named the checked source and git status --porcelain --untracked-files=no listed 0 tracked changes (log lines 5 and 6).",
+    "worktree_state_after_exit": "git rev-parse HEAD named the checked source again and the tracked tree again had 0 changes (log lines 365 and 366).",
+    "archive_scope": "The clean gate archives REV:lean (git archive run from lean/), not the full REV^{tree}, so every Lean source, lean/Manifest.json and lean/scripts/selftest.stamp it checks are those of the checked source; the worktree's own ignored lean/.lake was not used.",
+    "complete_manifest": {
+      "path": "lean/Manifest.json",
+      "modules": 278,
+      "declarations": [
+        "Erdos.L17.statement",
+        "Erdos.L17.claim",
+        "Erdos.L20.statement",
+        "Erdos.L20.claim",
+        "Erdos.L21.statement",
+        "Erdos.L21.claim",
+        "Erdos.L22.statement",
+        "Erdos.L22.claim"
+      ],
+      "claims": [
+        "L17",
+        "L20",
+        "L21",
+        "L22"
+      ],
+      "top_level_compiler_axioms": [],
+      "l20_claim_entry": {
+        "surface": {
+          "fingerprint": "the sha256 value of the L20 row's surface field in lean/Manifest.json as it stood on 2026-10-13T04:56:43Z, cited by file name and not copied",
+          "constants": 2,
+          "external": 56
+        },
+        "statement": {
+          "fingerprints": "the sha256Unfolded and sha256 values of the L20 row of lean/Manifest.json as it stood on 2026-10-13T04:56:43Z, cited by file name and not copied",
+          "pretty": "∃ (K : ℝ),\n  0 < K ∧\n    ∀ (A : Finset ℂ),\n      ↑A ⊆ Erdos.L20.rootsOfUnity →\n        ∀ (c : ℂ → ℂ), ∃ (χ : AddChar ℂ Circle), ∑ z ∈ A, ‖c z‖ ≤ K * ‖∑ z ∈ A, c z * ↑(χ z)‖"
+        },
+        "module": "Erdos.L20",
+        "id": "L20",
+        "depends": [],
+        "decls": [
+          {
+            "role": "statement",
+            "name": "Erdos.L20.statement"
+          },
+          {
+            "role": "claim",
+            "name": "Erdos.L20.claim"
+          }
+        ],
+        "compiler": [],
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    "committed_selftest_stamp": "the value lean/scripts/selftest.stamp held on 2026-10-13T04:56:43Z, cited by file name and not copied",
+    "subject_link_basis": "This receipt records a mechanical validation of the checked source named above. It claims no review of the mathematics or the statement."
+  },
+  "command": {
+    "argv": [
+      "nice",
+      "-n",
+      "10",
+      "/bin/bash",
+      "lean/scripts/gate.sh",
+      "--clean"
+    ],
+    "clean_argument": "the checked source, the working tree as it stood on 2026-10-13T04:56:43Z; the gate archived its lean/ tree",
+    "scheduling": "nice -n 10 lowered the gate's scheduling priority beside other work; it changes no input or output of the gate",
+    "wrapper": "run_clean_gate.sh, filed beside this receipt as run_clean_gate_sh.txt, as run apart from its comments and two assignments: at filing its REV line, which named the checked source's commit, became the script's one argument, its REPO line, which named a local path, became git -C \"$HERE\" rev-parse --show-toplevel, and its comments lost the commit and the runner's role name and gained a note on the log's redaction. It exports LEAN_NUM_THREADS=4, changes to the repository root, writes a header naming the checked source by date and the worktree state, runs the argv above with that revision as its --clean argument and both streams appended to clean_gate_log.txt, and records the worktree state, the UTC window and the exit code in the log.",
+    "working_directory": "the repository root of the worktree, checked out at the checked source (the gate resolves lean/ from its own path and archives the checked source's lean/ tree from the repository's object store)",
+    "unchanged_gate": true,
+    "archive_location": "a fresh directory created by mktemp -d in the user's temporary directory, removed by the gate's EXIT trap"
+  },
+  "environment": {
+    "explicit_child_environment": {
+      "LEAN_NUM_THREADS": "4"
+    },
+    "lean_toolchain": "leanprover/lean4:v4.32.0-rc1",
+    "mathlib_revision": "79aee35d9696d759b73eed71d7dde666750bc35e",
+    "host": "not recorded by the runner",
+    "host_readings_before_launch": "not recorded by the runner; the log records the worktree state before launch and no memory reading"
+  },
+  "outcome": {
+    "gate_shell_exit_code": 0,
+    "dependency_fetch": {
+      "result": "passed",
+      "reported_lines": [
+        "info: mathlib: cloning https://github.com/leanprover-community/mathlib4",
+        "info: mathlib: checking out revision '79aee35d9696d759b73eed71d7dde666750bc35e'",
+        "info: plausible: cloning https://github.com/leanprover-community/plausible",
+        "info: plausible: checking out revision 'f3c7bd5061bd81b4480295c524d4f245c8b7e4e2'",
+        "info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient",
+        "info: LeanSearchClient: checking out revision 'c5d5b8fe6e5158def25cd28eb94e4141ad97c843'",
+        "info: importGraph: cloning https://github.com/leanprover-community/import-graph",
+        "info: importGraph: checking out revision '41f407a8e85b0fdc00910633a8f14754139b63f4'",
+        "info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4",
+        "info: proofwidgets: checking out revision 'e4952ae2afde0dd2868b313356d1ce00da677bd9'",
+        "info: aesop: cloning https://github.com/leanprover-community/aesop",
+        "info: aesop: checking out revision '24fa6b3599743c23e6debd53d5fd09ebfa587d29'",
+        "info: Qq: cloning https://github.com/leanprover-community/quote4",
+        "info: Qq: checking out revision '7a62bd13860cd39ac98da16ffc8c24d601353f69'",
+        "info: batteries: cloning https://github.com/leanprover-community/batteries",
+        "info: batteries: checking out revision '9647daaa8c0bc688fcfcb04252c864b859b51f57'",
+        "info: Cli: cloning https://github.com/leanprover/lean4-cli",
+        "info: Cli: checking out revision '406ebb8c8e2f7e852a1b47764b42494022ce652c'",
+        "info: Erdos/RootsOfUnitySidon/FiniteMomentExponential.lean:23:32: Try this:",
+        "info: Erdos/RootsOfUnitySidon/TensorExtension.lean:178:8: Try this:",
+        "info: Erdos/RootsOfUnitySidon/FiniteRieszMomentBound.lean:186:29: Try this:"
+      ],
+      "qualification": "Lines as printed by lake exe cache get inside the archive while cloning the pinned dependencies."
+    },
+    "cache": {
+      "reported_lines": [
+        "Current branch: HEAD",
+        "Using cache from origin: (some leanprover-community/mathlib4)",
+        "Decompressing 8446 already-cached file(s) (188 already decompressed)",
+        "No files to download",
+        "Decompressed 8446 already-cached file(s)",
+        "Completed successfully in 9726 ms!"
+      ],
+      "qualification": "Lines as printed by lake exe cache get inside the archive; no file-body identity or public-cache content authentication."
+    },
+    "complete_native_build": {
+      "result": "passed",
+      "reported_jobs": 3889,
+      "modules_built": "all 278 modules under lean/Erdos/, one build line each, among them Erdos.L17 (log line 320), Erdos.L22 (line 146), Erdos.L20 (line 359) and Erdos.L21 (line 360)",
+      "marker": "Build completed successfully (3889 jobs)."
+    },
+    "universal_axiom_audit": {
+      "result": "passed",
+      "constants": 3788,
+      "modules": 278,
+      "claims": 4,
+      "compiler_axioms": 0,
+      "marker": "audited 3788 constants in 278 modules, 4 claims, 0 compiler axioms: AUDIT PASS"
+    },
+    "selftest_stamp": {
+      "committed_stamp_path": "lean/scripts/selftest.stamp",
+      "committed_stamp": "the value lean/scripts/selftest.stamp held on 2026-10-13T04:56:43Z, cited by file name and not copied",
+      "committed_stamp_freshness": "passed by the gate digest comparison (the gate reached its final marker)",
+      "new_refusal_suite_executed": false
+    },
+    "gate_marker": "Lean gate passed.",
+    "marker_lines": "log lines 361 (build), 362 (audit) and 363 (gate)",
+    "gate_leg_basis": "Committed set -euo pipefail gate source: each leg must exit 0 for the next to run, and the final marker follows the last leg. Per-leg exit codes were not separately instrumented; the markers were located in the captured streams.",
+    "warning_lines": 3,
+    "warning_files": [
+      "lean/Erdos/RootsOfUnitySidon/FiniteRieszMomentBound.lean"
+    ],
+    "error_lines": 1,
+    "diagnostic_count_basis": "warning_lines counts stream lines matching a case-insensitive grep for 'warning' and error_lines those matching one for 'error'. One stream line begins 'warning:' (log line 351): a linter note at Erdos/RootsOfUnitySidon/FiniteRieszMomentBound.lean:186:25 that `tac1 <;> tac2` could be `(tac1; tac2)`, a style suggestion that does not stop the build; the other 2 counted are Lake build progress lines for Cache.Warning and its compiled object, whose names contain the word. 0 stream lines begin 'error:'; the 1 counted is the build progress line of Erdos.Library.Problem809.UpperBound.Error, whose name contains the word.",
+    "log": "clean_gate_log.txt beside this receipt: a header naming the checked source and the worktree state, then the gate's stdout and stderr interleaved as captured, then the worktree state, the end time, wall seconds and exit code"
+  },
+  "observation": {
+    "start_utc": "2026-10-13T05:05:07Z",
+    "end_utc": "2026-10-13T05:09:06Z",
+    "wall_seconds": 239,
+    "log_bytes": 27292,
+    "log_lines": 369,
+    "reading_depth": "The filer read the whole filed log, header, every stream line and trailer."
+  },
+  "resources": {
+    "admitted_limits": {
+      "memory_quota": null,
+      "time_cutoff": "none"
+    },
+    "qualification": "No memory sampler ran; LEAN_NUM_THREADS is a thread-pool hint, not a process cap; nice -n 10 lowers scheduling priority only; no CPU, disk or wall-time limit was imposed."
+  },
+  "roles": {
+    "runner_attribution": "non-author clean-gate runner, distinct from the restorer of the claims L20, L21 and L22 and from their authors",
+    "filer": "the restorer, who filed the runner's log and wrapper with the redactions stated under provenance and wrote this receipt from them"
+  },
+  "provenance": {
+    "originals": "The captured log and the wrapper are filed beside this receipt as clean_gate_log.txt and run_clean_gate_sh.txt.",
+    "filed_log": "The filed clean_gate_log.txt is the captured log byte for byte, except that the commit id printed on its two worktree_head lines is replaced by the words \"the checked source (commit id removed at filing)\"; the streams printed no detail that identifies the computer.",
+    "no_commit_ids": "No filed file names a commit, tree or blob id of this repository or a per-file hash; the Mathlib and dependency revisions are quoted as the gate printed them, under the external-version case."
+  },
+  "acceptance_boundary": "Any mathematical or source activation requires the separate independent warrant. This receipt confers no tier, status, novelty or community-acceptance claim and does not authorize a push."
+}

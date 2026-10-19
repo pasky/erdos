@@ -8,7 +8,7 @@ desc: |
   colors on the k- and l-subsets of X are either disjoint or compared
   through the J_k- and J_l-subsets.
 created: 2026-10-08T17:11:19Z
-updated: 2026-10-08T17:11:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -66,5 +66,5 @@ pp. 353--354.
 
 ## Bears on
 
-No Erdős problem directly. The source card records how the paper bears on
-Problem 774.
+No Erdős problem directly. The source card records the corpus's use of the
+paper for Problem 774.

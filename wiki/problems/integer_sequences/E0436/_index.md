@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 436
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E0436/claims/_index|claims/]]: The 2 claim pages of Problem 436, one per claimant's result; the problem's standing derives from them.
+[[problems/integer_sequences/E0436/claims/_index|claims/]]: The 3 claim pages of Problem 436, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -46,9 +46,13 @@ $\Lambda(3,3)=23532$. It names two questions as remaining: whether
 $\Lambda(k,3)$ is finite for every odd $k\geq5$, and how $\Lambda(k,2)$ and
 $\Lambda(k,3)$ grow with $k$. Claim pages:
 [[problems/integer_sequences/E0436/claims/1991_01_01_hildebrand|Hildebrand 1991]]
-(accepted, partial: the first question) and
+(accepted, partial: the first question),
 [[problems/integer_sequences/E0436/claims/1962_01_01_lehmer_lehmer_mills_selfridge|Lehmer, Lehmer, Mills and Selfridge 1962]]
-(accepted, partial: the case $k=3$ of the second question).
+(accepted, partial: the case $k=3$ of the second question) and
+[[problems/integer_sequences/E0436/claims/2026_10_19_plasma_ai|Plasma AI 2026]]
+(pending, conditional: a yes to the second question for every odd $k$, assuming
+the three-function case of the logarithmically averaged Elliott conjecture,
+which is open).
 
 **Source.** [erdosproblems.com/436](https://www.erdosproblems.com/436), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #436,
@@ -100,14 +104,37 @@ for all $l\ge4$, concern cases the questions do not ask about (even $k$, runs
 of four or more), so they have no claim pages.
 
 The third question, the growth of $\Lambda(k,2)$ and of $\Lambda(k,3)$ for odd
-$k$ in the reading of the Formulation, is open; the exact values above are the
-only data recorded. Both accepted claims are refereed journal publications.
+$k$ in the reading of the Formulation, is open. Both accepted claims are
+refereed journal publications.
 Bloom's catalog labeled the problem OPEN, so its commentary is not acceptance of
 the problem, and while Hildebrand's claim answers the first question, only the
 case $k=3$ of the second is settled and the third is open, so the derived
 standing is open. The community database lists the problem as unformalized as
-of its last update, and no search beyond erdosproblems.com and its discussion
-thread is recorded here.
+of its last update. The outside report below supplies a further numerical
+lower-bound claim, without changing these answers.
+
+An [Erdős Problem a Day report](https://www.erdosproblemaday.com/report/436)
+dated 2026-07-28 claims $\Lambda(5,3)\ge37{,}329{,}226$, with the same
+lower bound for odd multiples of five. It sums prime-exponent labels
+modulo five, assigning label zero to $2,5,7$ and one to every other
+prime; the report says its first zero triple starts at that number. The transfer uses Mills's
+1963 preassigned-character Theorem 3. The report's construction and
+argument were read on 2026-10-16, but its exhaustive code was not replayed
+and the cited theorem was not checked. No independent acceptance is
+recorded. This numerical lower bound decides neither finiteness nor
+growth in $k$, and is not used as a premise here.
+
+Plasma AI's author-recorded
+[[research/leads/odd_multiplicative_triples/_index|odd-order triple lead]]
+proves that, for odd $k$, $\Lambda(k,3)$ is finite exactly when every
+completely multiplicative function from the positive integers into the $k$th
+roots of unity takes the value $1$ at three consecutive integers, and that
+every such function which weakly pretends to a Dirichlet character does so.
+It reduces the remaining non-pretentious case to an open zero-sum correlation
+statement. An alternative route would cover every odd $k$ under a precise
+spectral hypothesis for a quotient of the function by its bounded-distance
+core; that hypothesis is unproved. The lead is unreviewed and does not change
+the status of the second question.
 
 <!-- BEGIN problem library links -->
 
@@ -116,6 +143,8 @@ thread is recorded here.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/integer_sequences/dietzel_2019_theorem_hildebrand/_index|dietzel_2019_theorem_hildebrand]]
+- [[../library/integer_sequences/hildebrand_1991_consecutive_kth_power_residues_ii/_index|hildebrand_1991_consecutive_kth_power_residues_ii]]
 - [[../library/integer_sequences/lehmer_1963_pairs_consecutive_power_residues/_index|lehmer_1963_pairs_consecutive_power_residues]]
 - [[../library/integer_sequences/lehmer_1963_pairs_consecutive_power_residues/display_5|lehmer_1963_pairs_consecutive_power_residues / display_5]]
 - [[../library/integer_sequences/lehmer_1963_pairs_consecutive_power_residues/display_6|lehmer_1963_pairs_consecutive_power_residues / display_6]]

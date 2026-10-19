@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-16T06:44:50Z
 ---
 
 # Problem 156
@@ -46,6 +46,12 @@ independent assessment of proof coverage.
 
 [[research/erdos_156/_index|Research guide for Problem 156]]
 collects notes on the published sources and their arguments.
+
+The [[research/small_maximal_sidon_attack/_index|finite-group constructions
+and integer-transfer analysis]] give cubic-root-size maximal strong Sidon
+sets in specified finite groups and author-recorded obstructions to certain
+integer lifts. Carry-compatible completion in intervals remains missing;
+these tier-0 results do not settle the stated integer problem.
 
 <!-- BEGIN problem library links -->
 

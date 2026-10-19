@@ -8,7 +8,7 @@ desc: |
   identities.
 license: reserved
 created: 2026-09-17T11:35:00Z
-updated: 2026-10-08T14:17:40Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # unit_fractions/elsholtz_2016_egyptian_fractions_odd_denominators
@@ -101,10 +101,10 @@ no proof was rewritten and none has been independently reviewed.
 Statements only. The construction is recorded as a sketch on the
 Theorem 1.1 page; the paper's lemmas and the parity argument for the necessity
 of odd $k$ when $P$ is even were read but not checked step by step. Nothing in
-the paper decides a catalog problem's status: for Problem 148 it gives an
-independent doubly exponential lower bound for a restricted count, which
-together with the monotonicity of the unrestricted count in $k$ bounds $F(k)$
-from below with an unspecified constant.
+the paper decides an erdosproblems.com problem's status: for Problem 148 it
+gives an independent doubly exponential lower bound for a restricted count,
+which together with the monotonicity of the unrestricted count in $k$ bounds
+$F(k)$ from below with an unspecified constant.
 
 **Bears on.** [[../wiki/problems/unit_fractions/E0148/_index|#148]] (Theorem
 1.1 at $P=2$, that is Corollary 1.2: a lower bound

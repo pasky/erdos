@@ -8,7 +8,7 @@ desc: |
   and bounds progression coverings of B_2[g] sets.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T16:18:49Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Erdős et al.: On sum sets of Sidon sets, II
@@ -102,12 +102,19 @@ and the problem page does not cite it. Its results concern the same
 objects: Theorem 1 bounds the sums of a Sidon set in an interval, and
 Theorem 3 bounds coverings of sets in $B_2[g]$.
 
-E864 permits one sum $s_0$ with $r_A(s_0)>1$, in the paper’s representation
-convention (Eq. (1.1), p. 221). Theorem 1 does not apply to such sets: its
-proof, Eq. (3.8), uses that each positive difference occurs at most once, and a
-repeated sum $a+b=c+d$ with $a<c\leq d<b$ repeats the difference $c-a=b-d$.
-Theorem 3 applies with $g=r_A(s_0)$, which may grow with $|A|$, and then gives
-no bound of the order E864 asks for.
+Write $n=|A|$ and $r_A(s)=|\{(a,b)\in A^2:a\leq b,\ a+b=s\}|$, exactly the
+paper’s representation convention (Eq. (1.1), p. 221). E864 permits one sum
+$s_0$ with $r_A(s_0)>1$; every other sum has one representation. Hence
+$|A+A|=n(n+1)/2-(r_A(s_0)-1)$, taking the subtraction as zero when there is no
+exceptional sum. The exceptional representations use disjoint elements, apart
+from a possible diagonal pair, so $r_A(s_0)\leq\lfloor(n+1)/2\rfloor$. Together
+with $A+A\subseteq[2,2N]$, this gives only $n\leq(2+o(1))\sqrt N$, short of
+E864’s proposed $2/\sqrt3$ constant.
+
+Theorem 1 does not apply to such sets: its proof, Eq. (3.8), uses that each
+positive difference occurs at most once, and a repeated sum $a+b=c+d$ with
+$a<c\leq d<b$ repeats the difference $c-a=b-d$. Theorem 3 applies with $g=r_A(s_0)$, which
+may grow with $n$, and then gives no bound of the order E864 asks for.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

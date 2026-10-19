@@ -1,0 +1,488 @@
+[cut]
+
+# The Type II estimate for factorizations of 2u-1
+
+***
+
+This page proves, for factorizations $mn=2u-1$, the Type II estimate that the
+[[../library/arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|weighted-dilation manuscript]]
+proves as its Theorem 6.1 for $mn=2u+1$. It is the first link of the
+[[research/smooth_successor_primes/_index|smooth-successor route]] to Problem
+824. The method is OpenAI's; the observation that its change of sign is
+harmless is Shisheng Li and Zhong Zhuang's; this derivation and its checks are
+Plasma AI's, [cut]. Of the
+manuscript's Sections 3–5 it consumes only the statement of Theorem 5.1,
+quoted below as premise (P). Its other inputs are the elementary estimates of
+the manuscript's Section 2: the fixed divisor moments (Lemma 2.5) and Fourier
+separation of smooth cutoffs (Lemma 2.8).
+
+## Conventions and the weight
+
+Write $L=\log x$, $T=\log L$ and $W=\exp(\sqrt L)$; $P^+(n)$ and $P^-(n)$ are
+the largest and least prime factors of $n$, with $P^-(1)=\infty$; $\tau$ is the
+divisor function and $(z)_j=z(z-1)\cdots(z-j+1)$. Every constant is fixed before
+$x\to\infty$, and $L^{O(1)}$ means a power of $L$ with a fixed exponent.
+
+*Prime groups.* Fix $0<a<b<c<d<0.47$, constants $c_0,C_0,v_\pm>0$, a damping
+$q\in(0,1)$ and an integer $\ell\ge1$. For each large $x$ there are pairwise
+disjoint finite sets of primes $\mathcal P_g$, indexed by disjoint sets
+$\mathcal S$ (small groups) and $\mathcal B$ (big groups) with
+$c_0T\le|\mathcal S|,|\mathcal B|\le C_0T$. The small primes lie in
+$[\exp(L^a),\exp(L^b)]$; each big group is the set of all primes in an interval
+inside $[\exp(L^c),\exp(L^d)]$; and $v_-\le V_g=\sum_{p\in\mathcal P_g}1/p\le
+v_+$. Put $\omega_g(n)=\#\{p\in\mathcal P_g:p\mid n\}$, let $n_*$ be the largest
+divisor of $n$ coprime to every group prime, $n_P=n/n_*$, and
+
+$$
+W_\ell(n)=\prod_g q^{\omega_g(n)-\ell}\,\frac{(\omega_g(n))_\ell}{V_g^\ell}.
+$$
+
+The weight depends only on $n_P$, and $W_\ell(n)\le L^{O(1)}$, because
+$q^{y-\ell}(y)_\ell$ is bounded over integers $y\ge\ell$ and there are $O(T)$
+groups.
+
+*Bands.* Fix $0<c_1<c_2$, $s'>0$ and $\lambda>1$ with $c_2s'<1/4$. Put
+$s_j=s'L\lambda^{-j}$ and $\mathcal Q_j=\{p\text{ prime}:c_1s_j\le\log p\le
+c_2s_j\}$ for $0\le j\le j_x$, where these sets are pairwise disjoint and
+disjoint from the groups and $c_-T\le s_{j_x}\le c_+T$ for fixed $0<c_-\le c_+$.
+Fix an integer $r_0$ with $(r_0-1)c_1/\lambda\ge c_2+1$. Every band has $r_0$
+labelled slots, each holding a prime of the band, with repetitions allowed,
+except one designated slot of a fixed band $j_{**}$, which holds an integer $p$,
+not necessarily prime, with
+
+$$
+p\in I_{**}=[x^{\tau_*},x^{\eta_*}],\qquad P^-(p)>W,\qquad
+\tau_*=c_1s'\lambda^{-j_{**}},\quad \eta_*=c_2s'\lambda^{-j_{**}}.
+$$
+
+Let $a_Q(v)$ be $\prod_{j\le j_x}(1/r_0!)$ times the number of such slot lists
+with product $v$, and put
+
+$$
+A(u)=a_Q(u_*)\,W_\ell(u).
+$$
+
+For large $x$ every slot entry is coprime to every group prime, since the bands
+avoid the groups and $W$ exceeds every group prime; so $a_Q$ lives on
+group-free integers. Once the exceptional integer is fixed as a divisor, the
+prime multiplicities determine the band assignments up to the $r_0!$
+permutations in each band; every pure slot has bounded harmonic mass and the
+exceptional slot has mass $O(L)$. Hence, for a fixed $C_A'$ (the manuscript's
+(6.4)),
+
+$$
+0\le a_Q(v)\le\tau(v),\qquad 0\le A(u)\le L^{C_A'}\tau(u_*),\qquad
+\sum_v\frac{a_Q(v)}v\le L^{C_A'}.
+$$
+
+*Discrepancy.* A sequence $\alpha$ satisfies $(\mathrm D_B)$ if
+
+$$
+\Bigl|\sum_{m\in I}\frac{\alpha_m\chi(m)m^{it}}m\Bigr|\le L^{-B}
+$$
+
+for every interval $I\subset[1,x^2]$, every Dirichlet character $\chi$ of
+modulus at most $L^B$, principal and imprimitive ones included, and every real
+$|t|\le L^B$.
+
+## The premise
+
+An *endpoint* is a function
+
+$$
+F_0(n)=\sum_{mpr=n_*}\alpha_m\chi_0(m)m^{i\sigma_0}\,
+\mathbf 1_{p\in I_p,\ P^-(p)>W}\,p^{i\sigma_1}\,c_r ,
+$$
+
+where $p$ runs over integers, $|\alpha_m|,|c_r|\le L^C$, $\alpha_m=0$ unless
+$P^-(m)>W$, $I_p\subset[x^{\tau},x^{\eta}]$ is an interval with fixed
+$0<\tau<\eta<1/4$, $\chi_0$ is a Dirichlet character of modulus at most $L^C$,
+and $|\sigma_0|,|\sigma_1|\le L^C$. An endpoint depends on $n$ only through
+$n_*$.
+
+**Premise (P)**, the manuscript's Theorem 5.1 as stated. Fix the group data,
+the endpoint bounds $C,\tau,\eta$, a target $D_0>0$ and a compact interval
+$[c_\Psi,C_\Psi]\subset(0,\infty)$. There is a fixed $B$ with the following
+property for all large $x$. Let $k$ be an integer with $0<|k|\le L^C$, let
+$xL^{-C}\le Z\le xL^C$ and $|a_1|,|a_2|\le L^C$, let $\Psi$ be supported in
+$[c_\Psi,C_\Psi]$ with $\|\Psi^{(j)}\|_\infty\ll_jL^{C(j+1)}$ for every $j$,
+and let $F_0,G_0$ be endpoints, the $\alpha$ of $F_0$ satisfying
+$(\mathrm D_B)$. Then
+
+$$
+\sum_{\substack{z>0\\ z+k>0}}\frac{\Psi(z/Z)}z\,z^{ia_1}(z+k)^{ia_2}\,
+\overline{F_0(z)}\,G_0(z+k)\,W_\ell(z)\,W_\ell(z+k)\ll L^{-D_0},
+$$
+
+uniformly in all these data. The bound also holds when the discrepancy-bearing
+endpoint or its coefficients are conjugated.
+
+The statement covers either sign of $k$, and the manuscript's own Type II
+estimate for $2u+1$ consumes both signs. [cut] Premise (P) is unrefereed and is not established here.
+
+## The estimate
+
+**Theorem.** Assume (P) and the Section 2 estimates identified above.
+Fix $D_*,b_*,C>0$ and suppose $\eta_*<b_*/4$. Let
+$U,V\ge1$ with $UV\asymp x$ and $x^{b_*}\le U,V\le x^{1-b_*}$, let $\Psi$ be a
+fixed smooth function with compact support in $(0,\infty)$, and let
+$|\alpha_m|,|\beta_n|\le L^C$ with $\alpha_m=0$ unless $P^-(m)>W$. There is a
+fixed $B$, depending only on these data and on the group and band constants,
+such that if $\alpha$, with its restriction to $m\asymp U$ and any further
+interval restriction, satisfies $(\mathrm D_B)$, then
+
+$$
+\sum_{\substack{m\asymp U,\ n\asymp V,\ u\ge1\\ mn=2u-1}}
+A(u)\,\Psi(u/x)\,\alpha_m\beta_n\ll xL^{-D_*},
+$$
+
+uniformly over the sequences, scales and restrictions satisfying these
+conditions. No discrepancy hypothesis is placed on $\beta$.
+
+This is the manuscript's Theorem 6.1 with $2u+1$ replaced by $2u-1$ and the
+same hypotheses.
+
+## Proof
+
+On the support of $\Psi(u/x)$ we have $u\asymp x$, so $N=2u-1\asymp x$ is odd
+and every factorization $mn=N$ has $m$ and $n$ odd.
+
+### 1. A large group part
+
+Discard the $u$ with $u_P>x^{b_*/4}$. Put $\theta=L^{-d}$ and, for a group
+prime $p$, $a_p=(p^{1-\theta}-1)^{-1}$; as $p^\theta\le e$, $a_p\le2e/p$ for
+large $x$. Counting ordered lists of $\ell$ distinct marked primes,
+
+$$
+\sum_{v}\frac{q^{\omega_g(v)-\ell}(\omega_g(v))_\ell}{V_g^\ell\,v^{1-\theta}}
+=\frac1{V_g^\ell}\prod_{p\in\mathcal P_g}(1+qa_p)
+\sum_{\substack{p_1,\dots,p_\ell\in\mathcal P_g\\ \text{distinct}}}
+\prod_{i=1}^\ell\frac{a_{p_i}}{1+qa_{p_i}},
+$$
+
+where $v$ runs over the integers composed of primes of $\mathcal P_g$. Since
+$\sum_{p\in\mathcal P_g}a_p\le2eV_g$, the right side is at most
+$v_-^{-\ell}e^{2eqv_+}(2ev_+)^\ell$, a fixed constant. The weight $W_\ell$
+factors over the groups, so multiplying over the $O(T)$ groups and inserting
+$v^\theta\ge x^{\theta b_*/4}$ gives
+
+$$
+\sum_{\substack{v>x^{b_*/4}\\ v_*=1}}\frac{W_\ell(v)}v
+\le\exp\bigl(-\tfrac14b_*L^{1-d}\bigr)L^{O(1)}.
+$$
+
+For each $u$, the number of divisors $m$ of $N$ with $P^-(m)>W$ is at most
+$2^{\Omega}$, where $\Omega\le\log N/\log W=O(\sqrt L)$ counts the prime
+factors of $N$ above $W$ with multiplicity, and $n=N/m$ is then determined.
+Writing $u=u_*u_P$ with coprime factors and using $u\ll x$,
+
+$$
+\sum_{\substack{u\asymp x\\ u_P>x^{b_*/4}}}A(u)
+\ll x\sum_v\frac{a_Q(v)}v\sum_{\substack{w>x^{b_*/4}\\ w_*=1}}\frac{W_\ell(w)}w
+\le x\exp\bigl(-\tfrac14b_*L^{1-d}\bigr)L^{O(1)} .
+$$
+
+These $u$ therefore contribute $O(x\exp(-\tfrac14b_*L^{1-d}+O(\sqrt
+L))L^{O(1)})$, which is smaller than $xL^{-A}$ for every fixed $A$ because
+$1-d>1/2$. Call a slot list *good* when its $u$ has $u_P\le x^{b_*/4}$. This
+step uses $N$ only through $N\ll x$ and its count of divisors.
+
+### 2. Splitting u = eh
+
+Put $E=UL^{-K_0}$, where the fixed integer $K_0$ is chosen in step 3. Fix a good
+slot list of $u$. Assign $u_P$ and the exceptional slot to a factor $h$.
+Process the remaining pure-prime slots in increasing order of the band index
+$j$, from the largest primes down, in a fixed order within each band. For slot
+$i$ write $v_i=\log p_i$ and $s_{j(i)}$ for the scale of its band, and let
+$\delta_i\in\{0,1\}$ record whether the slot is assigned to $e$. With
+
+$$
+R_i=\log E-\sum_{t<i}\delta_tv_t,
+$$
+
+assign slot $i$ to $e$ with probability $\gamma((R_i-v_i)/s_{j(i)})$ and to $h$
+otherwise. Here $\gamma\in C^\infty(\mathbb R)$, $0\le\gamma\le1$, $\gamma=0$ on
+$(-\infty,0]$ and $\gamma=1$ on $[1,\infty)$.
+
+*The range of $e$.* Along every branch of positive probability,
+
+$$
+0\le R_i\le\sum_{t\ge i}v_t+(c_2+1)s_{j_x}.
+$$
+
+At the start, $\sum_tv_t=\log(u_*/p)\ge(1-b_*/2)L-O(1)$, since $u_P\le
+x^{b_*/4}$ and $p\le x^{\eta_*}<x^{b_*/4}$, whereas $\log E\le(1-b_*)L-K_0T$.
+Taking slot $i$ requires $R_i>v_i$ and lowers both $R$ and the remaining sum by
+$v_i$. Skipping it with positive probability requires
+$R_i<v_i+s_{j(i)}\le(c_2+1)s_{j(i)}$. If $j(i)<j_x$, band $j(i)+1$ has at
+least $r_0-1$ pure slots, all still unprocessed, with total logarithm at least
+$(r_0-1)c_1s_{j(i)}/\lambda\ge(c_2+1)s_{j(i)}$, so the bound persists; in the
+last band $R$ stays at most $(c_2+1)s_{j_x}$ from then on. After the last slot,
+$e=\prod_{\delta_i=1}p_i$ satisfies
+
+$$
+EL^{-C_s}\le e\le E,\qquad C_s=(c_2+1)c_+,
+$$
+
+and $C_s$ does not depend on $K_0$. Moreover $(R_i-v_i)/s_{j(i)}$ lies in a
+fixed compact interval $K$: at the first slot $R_1\le L=s_0/s'$, and later the
+remaining logarithms form a geometric series in $s_{j(i)}$.
+
+Fix $\rho\in C_c^\infty(\mathbb R)$ with $0\le\rho\le1$ and $\rho=1$ on $K$, and
+put $f_1=\rho\gamma$, $f_0=\rho(1-\gamma)$. If $N_s=O(T)$ is the number of pure
+slots, the sum over $\delta\in\{0,1\}^{N_s}$ of
+$\prod_if_{\delta_i}((R_i-v_i)/s_{j(i)})$ equals one on every good list and lies
+in $[0,1]$ on every list. Insert it into the definition of $a_Q$; on the lists
+that are not good this changes the sum by at most the bound of step 1.
+
+*Fourier separation.* Let $C_F\ge1$ bound the Fourier $L^1$ norms of $f_0$ and
+$f_1$, normalized with the factor $(2\pi)^{-1}$. Expanding each factor by
+Fourier inversion, the exponent is linear in the $v_t$:
+
+$$
+\sum_i\xi_i\,\frac{R_i-v_i}{s_{j(i)}}
+=\log E\sum_i\frac{\xi_i}{s_{j(i)}}+\sum_t\sigma_tv_t,\qquad
+\sigma_t=-\frac{\xi_t}{s_{j(t)}}-\delta_t\sum_{i>t}\frac{\xi_i}{s_{j(i)}} .
+$$
+
+Each pattern becomes a superposition of $\prod_tp_t^{i\sigma_t}$, with total
+variation at most $(2C_F)^{N_s}=L^{O(1)}$ over all patterns. Truncating every
+$|\xi_i|$ at $L$ costs at most $2^{N_s}N_sC_MC_F^{N_s-1}L^{-M}$ for every fixed
+$M$, and $\sum_i1/s_{j(i)}\ll1/T$ makes the retained $\sigma_t$ of size
+$O(L/T)$. Separate $\Psi(eh/x)$ in the same way in $\log(eh/x)$, truncating at
+frequency $L$. Every truncation error is taken against the absolute bound
+
+$$
+\sum_{u\asymp x}A(u)\sum_{mn=2u-1}|\alpha_m\beta_n|
+\ll L^{O(1)}\sum_{u\asymp x}\tau(u)\,\tau(2u-1)\ll xL^{O(1)},
+$$
+
+which follows from Cauchy's inequality and the fixed divisor moments applied to
+$u$ and to the odd integers $2u-1\ll x$.
+
+Thus, up to $O(xL^{-D_*-1})$, the sum in the theorem is an integral and a sum,
+of total variation at most $L^{C_f}$, of expressions
+
+$$
+B_0=\sum_{\substack{EL^{-C_s}\le e\le E\\ n\asymp V}}a_e(e)\,\beta_n
+\sum_{\substack{m\asymp U,\ h\ge1\\ mn=2eh-1}}\alpha_m\,a_h(h),
+$$
+
+where $|a_e(e)|\le L^{C_a}$ and
+
+$$
+a_h(h)=h^{i\varrho}\,W_\ell(h)\,H(h_*),\qquad
+H(t)=\sum_{pr=t}\mathbf 1_{p\in I_{**},\ P^-(p)>W}\,p^{i\sigma}\,c_r,\qquad
+|c_r|\le L^{C_a},
+$$
+
+with real $\varrho,\sigma$ of size $L^{O(1)}$. Here $e$ is a product of pure
+band primes, hence group-free, so $(eh)_*=eh_*$ and $W_\ell(eh)=W_\ell(h)$. The
+coefficient bounds hold because a pattern with a fixed product of pure primes
+has at most $(r_0!)^{j_x+1}=L^{O(1)}$ ordered lists, the slot twists have
+modulus one, and the normalization of $a_Q$ is at most one. Every $h$ contains
+the exceptional integer. The exponents $C_f$ and $C_a$ do not depend on $K_0$.
+
+### 3. Cauchy's inequality and the diagonal
+
+Let $\eta_e,\eta_n\ge0$ be smooth and bounded by a fixed constant, with
+$\eta_e(e/E)=1$ for $EL^{-C_s}\le e\le E$ and $\eta_e(e/E)=0$ unless
+$\frac12EL^{-C_s}\le e\le2E$, with $\eta_n(n/V)=1$ on the range of $n$ and $0$
+unless $n\asymp V$, and with derivatives of order $j$ in their arguments of size
+$O_j(L^{C_4(j+1)})$. The lower edge of $\eta_e$ is a fixed cutoff rescaled by
+$L^{C_s}$. By Cauchy's inequality in $(e,n)$,
+
+$$
+|B_0|^2\le EVL^{C_3}\,\mathcal N,\qquad
+\mathcal N=\sum_{e,n}\eta_e(e/E)\,\eta_n(n/V)
+\Bigl|\sum_{\substack{m\asymp U,\ h\ge1\\ mn=2eh-1}}\alpha_m\,a_h(h)\Bigr|^2,
+$$
+
+with $C_3,C_4$ independent of $K_0$. Expand the square into pairs $(m,h)$ and
+$(m',h')$, the second conjugated.
+
+*The diagonal.* If $m=m'$, the equations $mn=2eh-1=2eh'-1$ force $h=h'$. For
+fixed $m,n$ the admissible $e$ divide $(mn+1)/2$, with $h=(mn+1)/(2e)$, and
+$|a_h(h)|\le L^{O(1)}\tau(h)$. There are at most $\tau(mn+1)$ such $e$, each
+term being at most $\tau(mn+1)^2$, so
+
+$$
+\sum_{e\mid(mn+1)/2}\tau\Bigl(\frac{mn+1}{2e}\Bigr)^2\le\tau(mn+1)^3 .
+$$
+
+Grouping the pairs $(m,n)$ by $v=mn$, at most $\tau(v)$ for each $v$,
+
+$$
+\mathcal N_{\rm diag}\ll L^{O(1)}\sum_{v\ll x}\tau(v)\,\tau(v+1)^3\ll xL^{C_5}
+$$
+
+by Cauchy's inequality and the fixed divisor moments, with $C_5$ independent of
+$K_0$. Since $EV\asymp xL^{-K_0}$, the diagonal contributes
+$O(x^2L^{-K_0+C_3+C_5})$ to $|B_0|^2$. Fix $K_0\ge C_3+C_5+2C_f+2D_*+2$, so
+that $L^{C_f}$ times its square root is $O(xL^{-D_*-1})$. Every later precision
+may depend on $K_0$.
+
+### 4. The signed determinant identity
+
+*Forward.* Take an off-diagonal pair
+
+$$
+mn=2eh-1,\qquad m'n=2eh'-1,\qquad m\ne m'.
+$$
+
+The first equation gives $mn\equiv-1\pmod{2e}$, so $n$ is a unit modulo $2e$.
+Subtracting, $(m'-m)n=2e(h'-h)$, hence $2e\mid m'-m$. Write $m'-m=-2ek$ with an
+integer $k\ne0$. Then $h'-h=-kn$, and
+
+$$
+mh'-m'h=m(h-kn)-(m-2ek)h=-k(mn-2eh)=k .
+$$
+
+Put $z=m'h$. Then $z+k=mh'$, and $z$ and $z+k$ are positive. As $m,m'$ lie in
+a fixed enlargement of $[U,2U]$ and $e\ge\frac12UL^{-K_0-C_s}$,
+
+$$
+0<|k|=\frac{|m-m'|}{2e}\ll L^{K_0+C_s}.
+$$
+
+*Converse.* Let $k\ne0$ be an integer with $|k|<W$, and let $m,m',h,h'$ be
+positive integers with $P^-(m),P^-(m')>W$, $m'h=z$, $mh'=z+k$,
+$m'\equiv m\pmod{2|k|}$ and $e=(m-m')/(2k)>0$. Then $e$ is a positive integer,
+and since $m=m'+2ek$,
+
+$$
+m(h'-h)=(z+k)-(z+2ekh)=-k(2eh-1).
+$$
+
+Every prime factor of $m$ exceeds $W>|k|$, so $(m,k)=1$ and $m\mid2eh-1$.
+Hence $n=(2eh-1)/m$ is a positive integer, since $2eh-1\ge1$; then
+$h'-h=-kn$ and
+
+$$
+m'n=(m-2ek)n=2eh-1-2ekn=2eh-1+2e(h'-h)=2eh'-1 .
+$$
+
+The two constructions are mutually inverse, and no divisibility condition is
+lost. The off-diagonal part of $\mathcal N$ is therefore exactly the sum over
+such $(k,m,m',h,h')$ of
+
+$$
+\alpha_m\overline{\alpha_{m'}}\,a_h(h)\overline{a_h(h')}\;
+\eta_e\Bigl(\frac{m-m'}{2kE}\Bigr)\,
+\eta_n\Bigl(\frac1V\Bigl(\frac{(m-m')z}{kmm'}-\frac1m\Bigr)\Bigr),
+$$
+
+where $n=(2eh-1)/m=2ez/(mm')-1/m$ has been written through $e=(m-m')/(2k)$
+and $z$. The cutoffs, extended by zero to nonpositive arguments, impose $e>0$,
+the range of $e$ and $n\asymp V$. The integers $m,m'$ are odd and coprime to
+$k$, so they are units modulo $q_k=2|k|$ and
+
+$$
+\mathbf 1_{m'\equiv m\ (\mathrm{mod}\ q_k)}
+=\frac1{\varphi(q_k)}\sum_{\chi\bmod q_k}\chi(m)\,\overline{\chi(m')} .
+$$
+
+For $2u+1$ the manuscript has $m'-m=2ek$ and $h'-h=kn$; here both signs are
+reversed, $e=(m-m')/(2k)$ replaces $(m'-m)/(2k)$, and $-1/m$ replaces $+1/m$ in
+$n$. The cross products are again $z=m'h$ and $z+k=mh'$, and both signs of $k$
+occur, as they do for $2u+1$.
+
+### 5. Separation and the shifted endpoints
+
+On the support, $m,m'\asymp U$, $n\asymp V$ and $h\asymp x/e$, so
+$z=m'h\in[xL^{-C_6},xL^{C_6}]$ for a fixed $C_6$ depending on $K_0$. Insert a
+smooth dyadic partition $\psi_Z(z/Z)$ with $O(T)$ terms, $Z=xL^{O(1)}$, kept
+outside the Fourier expansion below. In the variables $t_1=\log(m/U)$,
+$t_2=\log(m'/U)$ and $t_3=\log(z/Z)$, every derivative of
+$e/E=U(e^{t_1}-e^{t_2})/(2kE)$ is $O(U/(|k|E))$, and every derivative of
+$n/V$ is $O(Z/(|k|UV)+1/(UV))$; both are fixed powers of $L$. With fixed smooth
+localizations in $t_1,t_2,t_3$ and the derivative bounds on $\eta_e,\eta_n$,
+the chain rule bounds the $j$-th derivatives of the localized product cutoff by
+$O_j(L^{C_7(j+1)})$ on a fixed compact box. Fourier inversion (the
+manuscript's Lemma 2.8) writes it as a superposition of
+$m^{i\xi_1}(m')^{i\xi_2}z^{i\xi_3}$ of total variation $L^{O(1)}$, and
+truncating the frequencies at a fixed power of $L$ costs $O(L^{-A})$ for every
+fixed $A$.
+
+These errors are summed against an absolute bound. With all coefficients
+replaced by their absolute values and the congruence dropped, each endpoint
+convolution below is at most $L^{O(1)}\tau(z_*)^2$, its product with
+$W_\ell(z)$ has square sum $O(ZL^{O(1)})$ over $z\asymp Z$, and Cauchy's
+inequality at $z$ and at $z+k$ bounds the absolute correlation by $ZL^{O(1)}$,
+before summing over the $L^{O(1)}$ values of $k$, dyads and characters.
+
+*The endpoints.* Fix $k$, a character $\chi\bmod2|k|$ and frequencies
+$\xi_1,\xi_2,\xi_3$. Since $m,m'$ are group-free, $z_*=m'h_*$,
+$(z+k)_*=mh'_*$, $W_\ell(z)=W_\ell(h)$ and $W_\ell(z+k)=W_\ell(h')$. Define
+
+$$
+F_0(v)=\sum_{mpr=v_*}\alpha_m\chi(m)m^{i(\varrho-\xi_2)}\,
+\mathbf 1_{p\in I_{**},\ P^-(p)>W}\,p^{-i\sigma}\,\overline{c_r},
+\qquad
+G_0(v)=\sum_{mpr=v_*}\alpha_m\chi(m)m^{i(\xi_1+\varrho)}\,
+\mathbf 1_{p\in I_{**},\ P^-(p)>W}\,p^{-i\sigma}\,\overline{c_r}.
+$$
+
+At $z=m'h$ the factor $h^{i\varrho}$ equals $z^{i\varrho}(m')^{-i\varrho}$, and
+at $z+k=mh'$ the factor $\overline{h'^{i\varrho}}$ equals
+$(z+k)^{-i\varrho}m^{i\varrho}$. Summing $m'$ over the divisors of $z_*$ and $m$
+over those of $(z+k)_*$, the separated term is exactly
+
+$$
+\sum_z\psi_Z(z/Z)\,z^{i(\varrho+\xi_3)}(z+k)^{-i\varrho}\,
+\overline{F_0(z)}\,G_0(z+k)\,W_\ell(z)\,W_\ell(z+k),
+$$
+
+up to a scalar of modulus one and the Fourier coefficient. With
+$\widetilde\psi_Z(t)=t\psi_Z(t)$ this is $Z$ times the sum in (P) with
+$\Psi=\widetilde\psi_Z$, $a_1=\varrho+\xi_3$ and $a_2=-\varrho$; the conditions
+$z>0$ and $z+k>0$ hold on the support.
+
+Both $F_0$ and $G_0$ are endpoints. Their character has modulus $2|k|\le
+L^{K_0+C_s+2}$; their frequencies and coefficient bounds are fixed powers of
+$L$; their interval $I_{**}$ lies in $[x^{\tau_*},x^{\eta_*}]$ with
+$0<\tau_*<\eta_*<b_*/4<1/4$; the residual coefficient $\overline{c_r}$ is
+bounded by $L^{C_a}$ and needs no roughness condition. The sequence inside $F_0$
+is the original $\alpha$ with its actual restrictions, which satisfies
+$(\mathrm D_B)$; the character and power factors are those an endpoint allows.
+So the discrepancy hypothesis is not transferred to a new sequence.
+
+Given any $D_0$, (P) bounds each separated correlation by $O(ZL^{-D_0})$ once
+$B$ is large enough. Summing over the $O(L^{K_0+C_s})$ values of $k$, over the
+characters with the weight $1/\varphi(2|k|)$, over the $O(T)$ dyads and over the
+Fourier integrals, the off-diagonal part of $\mathcal N$ is $O(xL^{-D_0+C_9})$,
+with $C_9$ depending only on the earlier choices. Choose $D_0\ge
+C_3+C_9-K_0+2C_f+2D_*+2$; then $EVL^{C_3}$ times the off-diagonal part is at
+most $x^2L^{-2D_*-2C_f-2}$. With the diagonal, $|B_0|\ll xL^{-D_*-C_f-1}$, and
+summing the expansion of step 2 and the errors of steps 1 and 2 proves the
+theorem. $\square$
+
+### 6. The order of choices
+
+The group and band data, $j_{**}$, $b_*$, $C$ and $D_*$ come first. The
+transition functions and the exponents $C_s$, $C_f$, $C_a$, $C_3$, $C_4$ and
+$C_5$ do not depend on $K_0$, which is fixed next. Then come the separation
+precisions and $D_0$, and last the discrepancy exponent $B$ supplied by (P).
+Consequently, when $\alpha$ is the difference between a test and a proxy whose
+coefficient bound does not depend on the proxy's precision, that precision can
+be chosen after $B$, which the
+[[research/smooth_successor_primes/successor_prime_extraction|extraction of primes]]
+uses.
+
+## What differs from the predecessor estimate
+
+The proof above is the manuscript's proof of its Theorem 6.1 with exactly these
+changes:
+
+- the absolute bound uses $\tau(2u-1)$ in place of $\tau(2u+1)$;
+- the diagonal uses $e\mid(mn+1)/2$ and $\tau(v+1)$ in place of $(mn-1)/2$ and
+  $\tau(v-1)$;
+- the determinant identity reads $m'-m=-2ek$ and $h'-h=-kn$, still with
+  $mh'-m'h=k$;
+- the converse reads $m(h'-h)=-k(2eh-1)$ with $e=(m-m')/(2k)$;
+- the pulled-back cutoff for $n$ is $2ez/(mm')-1/m$.
+
+The endpoint forms, the character modulus $2|k|$, the frequency and
+coefficient bounds, the range of $k$ and the sequence carrying the discrepancy
+are unchanged. Steps 1 and 2 involve $N$ only through $N\asymp x$ and its
+number of divisors, and the split of $u$ does not involve $N$ at all.

@@ -6,7 +6,7 @@ desc: |
   whose union is not the integers: if P is the least modulus of a progression
   disjoint from the union, the collection has at least g(P) members.
 created: 2026-10-08T15:50:52Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -81,4 +81,9 @@ sharpness remark were read clause by clause on pp. 397 and 399. The proof
 ## Bears on
 
 - [[../wiki/problems/covering_systems/E0007/_index|Problem 7]]: background
-  only. The theorem says nothing about odd moduli or distinct moduli.
+  only. The research method
+  [[../wiki/research/methods/private_progression_discounts/_index|private progressions and discounted reciprocal budgets]]
+  applies Theorem 1 to the collection obtained from a finite irredundant
+  covering by deleting one class, to bound $g(P_i)$ by the number of classes
+  minus one. The theorem says nothing about odd moduli or distinct moduli, and
+  that page records that its conclusions do not resolve the problem.

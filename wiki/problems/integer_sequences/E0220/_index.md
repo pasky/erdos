@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 220
@@ -73,7 +73,7 @@ with a `formal_proof` pointer to the file
 its commit of 2026-09-15, the formalization link on the claim page. The
 community database records the statement formalized since 2026-09-19 and
 the formal status Lean as of that field's last update on 2026-08-24, without
-recording when that state was set. These are catalog registrations,
+recording when that state was set. These are registrations,
 not reviews.
 
 ## Progress

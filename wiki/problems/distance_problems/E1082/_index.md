@@ -14,7 +14,7 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1082
@@ -131,6 +131,15 @@ a convex polyhedron (see [[problems/distance_problems/E0660/_index|Problem
 **Search scope.** The erdosproblems.com page, last edited 11 April 2026, carried
 no proof claim, and its thread held the items above on 2026-10-07. No search
 beyond erdosproblems.com and the formal-conjectures repository is recorded.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/exact_optimizers|exact
+optimizers and local geometric obstructions]] account records the following
+scope. The cited g(2)=5, g(3)=7 and g(4)=9 statements prove the global assertion
+for n<=11 (with the elementary equilateral bound for the smallest cases), even
+without no-three-collinear.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

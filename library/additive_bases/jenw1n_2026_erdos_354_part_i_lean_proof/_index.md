@@ -10,7 +10,7 @@ desc: |
   and was replayed in the kernel here, and no refereed publication exists.
 license: reserved
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-14T01:39:13Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # JenW1N: Lean proof of Problem 354 part (i), Conjectures.io record 815c1d5f
@@ -90,7 +90,7 @@ True ↔ ∀ α > 0, ∀ β > 0, Irrational (α / β) →
 
 which is `Erdos354.erdos_354.parts.i` of
 `FormalConjectures/ErdosProblems/354.lean` with `answer(sorry)` instantiated
-to `True`, at the pinned catalog commits `8432eac9` (record page) and
+to `True`, at the pinned formal-conjectures commits `8432eac9` (record page) and
 `6a786f99` (task bundle), both with the same source type SHA-256. Neither pinned
 commit is reachable on GitHub; formal-conjectures' default branch, read
 2026-09-28, prints the same statement and docstring. In formal-conjectures,

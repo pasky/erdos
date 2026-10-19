@@ -1,10 +1,10 @@
 ---
 name: problems/distance_problems/E0132/claims
-desc: The 7 claim pages of Problem 132, one per claimant's result; the problem's standing derives from them.
+desc: The 8 claim pages of Problem 132, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/distance_problems/E0132/claims
@@ -44,5 +44,7 @@ of the first question. It deduces this in Lean from three published results.
 and the second-largest distance each occur at most $n$ times. It also bounds
 the smaller multiplicity of the second-largest and smallest distances by
 $4n/3$ plus a constant.
+
+[[problems/distance_problems/E0132/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Plasma AI proves that a planar point set has at least (n-1-2 kappa(M+2))/4 distances occurring at most n times, where kappa counts the distance classes some traceless quadratic form splits and M is the largest number of points on one circle. Author-recorded at tier 0; catalog acceptance is pending.
 
 ***

@@ -1,0 +1,150 @@
+{
+  "description": "Exact neutral mathematical extracts assessed by the independent p=2 examination, with a print-fidelity witness.",
+  "frozen_utc": "2026-10-15T05:52:55.296610+00:00",
+  "scope": "Theorem1.6 at p=2 and the stated E995 consequence only.",
+  "omission_marker": "[cut]",
+  "source_author": "Boon Suan Ho",
+  "source_title": "Counterexamples for lacunary dilates via dyadic spike blocks",
+  "source_version": "arXiv:2604.18535v2",
+  "source_url": "https://arxiv.org/abs/2604.18535v2",
+  "source_extract_license": "CC-BY-4.0",
+  "extracts": [
+    {
+      "retained_file": "source_math.md.txt",
+      "canonical_source": "library/analysis/ho_2026_counterexamples_lacunary_dilates_via_dyadic_spike/ho_2026_counterexamples_lacunary_dilates_via_dyadic_spike.md",
+      "source_ranges": [
+        {
+          "start_inclusive": {
+            "line": 45,
+            "column": 1,
+            "utf8_byte_offset": 1924
+          },
+          "end_exclusive": {
+            "line": 68,
+            "column": 1,
+            "utf8_byte_offset": 3102
+          }
+        },
+        {
+          "start_inclusive": {
+            "line": 184,
+            "column": 1,
+            "utf8_byte_offset": 7636
+          },
+          "end_exclusive": {
+            "line": 192,
+            "column": 1,
+            "utf8_byte_offset": 8226
+          }
+        },
+        {
+          "start_inclusive": {
+            "line": 296,
+            "column": 1,
+            "utf8_byte_offset": 15753
+          },
+          "end_exclusive": {
+            "line": 818,
+            "column": 1,
+            "utf8_byte_offset": 35977
+          }
+        },
+        {
+          "start_inclusive": {
+            "line": 1076,
+            "column": 1,
+            "utf8_byte_offset": 44859
+          },
+          "end_exclusive": {
+            "line": 1241,
+            "column": 1,
+            "utf8_byte_offset": 51200
+          }
+        }
+      ],
+      "relationship": "Verbatim commissioned mathematical extract, including the supplied omission markers; no mathematical corrections made."
+    },
+    {
+      "retained_file": "catalog_statement.md.txt",
+      "canonical_source": "wiki/problems/discrepancy/E0995/_index.md",
+      "source_ranges": [
+        {
+          "start_inclusive": {
+            "line": 25,
+            "column": 1,
+            "utf8_byte_offset": 555
+          },
+          "end_exclusive": {
+            "line": 38,
+            "column": 1,
+            "utf8_byte_offset": 871
+          }
+        }
+      ],
+      "relationship": "Verbatim commissioned mathematical extract, including the supplied omission markers; no mathematical corrections made."
+    },
+    {
+      "retained_file": "claim_math.md.txt",
+      "canonical_source": "wiki/problems/discrepancy/E0995/claims/2026_04_20_ho.md",
+      "source_ranges": [
+        {
+          "start_inclusive": {
+            "line": 28,
+            "column": 1,
+            "utf8_byte_offset": 732
+          },
+          "end_exclusive": {
+            "line": 45,
+            "column": 44,
+            "utf8_byte_offset": 1630
+          }
+        },
+        {
+          "start_inclusive": {
+            "line": 59,
+            "column": 1,
+            "utf8_byte_offset": 2502
+          },
+          "end_exclusive": {
+            "line": 63,
+            "column": 37,
+            "utf8_byte_offset": 2828
+          }
+        },
+        {
+          "start_inclusive": {
+            "line": 71,
+            "column": 1,
+            "utf8_byte_offset": 3300
+          },
+          "end_exclusive": {
+            "line": 73,
+            "column": 1,
+            "utf8_byte_offset": 3379
+          }
+        }
+      ],
+      "relationship": "Verbatim commissioned mathematical extract, including the supplied omission markers; no mathematical corrections made."
+    }
+  ],
+  "print_witness": {
+    "retained_file": "p09_equation_3_8.png",
+    "canonical_source": "library/analysis/ho_2026_counterexamples_lacunary_dilates_via_dyadic_spike/ho_2026_counterexamples_lacunary_dilates_via_dyadic_spike.pdf",
+    "printed_page": 9,
+    "equation": "(3.8)",
+    "attribution": "Boon Suan Ho, Counterexamples for lacunary dilates via dyadic spike blocks, arXiv:2604.18535v2, CC-BY-4.0.",
+    "relationship": "Unaltered raster crop of the printed equation at 300 dpi; the printed coefficient is C_2, whereas the supplied text has C_2^2. This Fourier-tail clause is not consumed by the assigned p=2 theorem.",
+    "render": {
+      "program": "pdftoppm",
+      "dpi": 300,
+      "first_page": 9,
+      "last_page": 9,
+      "singlefile": true,
+      "x_pixels": 291,
+      "y_pixels": 2254,
+      "width_pixels": 1967,
+      "height_pixels": 167,
+      "format": "png"
+    }
+  }
+}

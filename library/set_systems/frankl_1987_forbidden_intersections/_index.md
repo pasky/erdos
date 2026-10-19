@@ -7,7 +7,7 @@ desc: >
   and explicit numerical and metric limitations.
 license: reserved
 created: 2026-09-05T14:25:21Z
-updated: 2026-10-08T14:21:53Z
+updated: 2026-10-07T20:53:42Z
 ---
 
 # Forbidden intersections
@@ -40,7 +40,7 @@ updated: 2026-10-08T14:21:53Z
 
 [[set_systems/frankl_1987_forbidden_intersections/slice_separation|slice_separation]]: Supplies uniform proximity of dense layer families at the averaging endpoint.
 
-[[set_systems/frankl_1987_forbidden_intersections/source_scope|source_scope]]: Inventories the complete chains, historical inputs, and uncompiled printed claims.
+[[set_systems/frankl_1987_forbidden_intersections/source_scope|source_scope]]: Inventories the complete chains, historical inputs, and uncompiled or contradicted printed claims.
 
 [[set_systems/frankl_1987_forbidden_intersections/theorem_10_2|theorem_10_2]]: Proves the two parity bounds and the equality information used for constant intersections.
 
@@ -80,7 +80,7 @@ updated: 2026-10-08T14:21:53Z
 
 [[set_systems/frankl_1987_forbidden_intersections/theorem_6_1|theorem_6_1]]: Reconstructs the two-stage counting and fiber argument with the corrected fiber bound.
 
-[[set_systems/frankl_1987_forbidden_intersections/theorem_9_1_scope|theorem_9_1_scope]]: Records Theorem 9.1 as printed and the exact feasible-array consequence that Theorem 1.16 proves.
+[[set_systems/frankl_1987_forbidden_intersections/theorem_9_1_scope|theorem_9_1_scope]]: Records an explicit obstruction and the exact feasible-array consequence that remains valid.
 
 [[set_systems/frankl_1987_forbidden_intersections/weighted_deletion_inequality|weighted_deletion_inequality]]: Expands the biased branching step omitted from the source Section 3 sketch.
 

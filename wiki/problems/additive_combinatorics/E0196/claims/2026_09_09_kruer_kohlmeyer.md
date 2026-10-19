@@ -42,7 +42,7 @@ links:
   kind: code
   date: 2026-09-15
 created: 2026-10-07T07:47:49Z
-updated: 2026-10-08T03:53:16Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -68,11 +68,11 @@ bounty site pinned) with its open answer fixed to true, that is, of
 `∀ f : ℕ ≃ ℕ, HasMonotoneAP f 4`; the problem page's Status records the
 clause-by-clause comparison of that statement with the erdosproblems.com wording
 (both directions, bijections as permutations, the shift from positive to
-zero-based naturals). The pinned catalog revision is not public; Conjectures.io
-builds it from a public catalog commit and an audit patch, and this corpus's
-replay reproduced it exactly and found the target's type identical to its
-statement. Conjectures.io's record prints the target in its unnegated template
-form.
+zero-based naturals). The pinned formal-conjectures revision is not public;
+Conjectures.io builds it from a public formal-conjectures commit and an audit
+patch, and this corpus's replay reproduced it exactly and found the target's
+type identical to its statement. Conjectures.io's record prints the target in
+its unnegated template form.
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Liam Kruer
 and Jensen Kohlmeyer (account lkruer) on 14 September 2026, giving "GPT-6 Astra"

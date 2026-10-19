@@ -30,7 +30,7 @@ links:
   kind: formalization
   date: 2026-04-15
 created: 2026-10-07T07:27:05Z
-updated: 2026-10-07T22:02:13Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -84,7 +84,7 @@ hypothesis on $m$, both wider. It ends with
 `propext`, `Classical.choice` and `Quot.sound`. This project has not built,
 replayed or audited the file, so the page lists no `formalized` evidence; the
 erdosproblems.com suffix "(LEAN)" and the community database's "proved (Lean)",
-listed as of its last update of 14 April 2026, are catalog labels. The
+listed as of its last update of 14 April 2026, are labels. The
 formal-conjectures statement file for the problem names this proof in its
 `formal_proof` attribute; it is a statement, not a formalization, and is
 described on the problem page.

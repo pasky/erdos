@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 785
@@ -94,8 +94,8 @@ https://www.erdosproblems.com/785.
   theory. Acta Math. Hungar. 64 (1994), no. 3, 237-245, doi:10.1007/BF01874252
   (Crossref record); not held.
 
-**Formalization.** The erdosproblems.com Lean qualifier is a catalog label. The
-statement `erdos_785` in
+**Formalization.** The erdosproblems.com Lean qualifier is an erdosproblems.com
+label. The statement `erdos_785` in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/785.lean)
 is marked solved with a `formal_proof` link to van Doorn's Lean module
 `ErdosProblem785.lean` in the `Lean-files` repository, a formalization of

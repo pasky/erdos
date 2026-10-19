@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: The Sidon Decomposition Problem in Abelian 
 tags: []
 sources: []
 created: 2026-09-17T21:51:11Z
-updated: 2026-09-17T22:01:10Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # The Sidon Decomposition Problem in Abelian Groups of Bounded Torsion
@@ -54,7 +54,8 @@ signed-relation condition as quasi-independence: canceling the intersection of
 two unequal finite subsets converts an equality of subset sums into a nonzero
 $\{-1,0,1\}$ relation, and conversely.
 
-Lewko's proof packages those relations as follows:
+Lewko's proof packages those relations in a way that suggests a route to a
+finite form of E0774:
 
 1. For each $T\subseteq A$, collect the signed zero-relations supported on
    $T$. Proportional quasi-independence gives at least
@@ -81,6 +82,13 @@ Lewko's proof packages those relations as follows:
    the support-avoiding coloring rules out the original signed relations and
    makes every color class quasi-independent (Section 5, source lines
    203--229).
+
+The most portable component for E0774 is therefore Theorem 4.3: it separates
+the coloring step from the arithmetic step. A transfer to $\mathbb Z$ would
+follow from a suitable field-valued representation of the integer signed
+relations together with a local span-dimension gap bounded away from $|T|$.
+The finite-to-infinite compactness step is also directly reusable once the
+number of colors is uniform.
 
 ## Why the theorem does not settle E0774
 

@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 490
@@ -145,10 +145,10 @@ records Erdős's limit question under `category research open`. No file for
 this problem existed on 2026-09-18. The community database (snapshot of
 2026-10-06) records the problem proved with Lean and `formal_status` Lean
 since 22 May 2026 and the statement formalized since 19 September 2026.
-erdosproblems.com's (LEAN) suffix is a catalog label; the two external
-developments, the file the attribute names and the file the erdosproblems.com
-thread links, are described under "Formalization and the Lean label" below;
-neither was built here.
+erdosproblems.com's (LEAN) suffix is an erdosproblems.com label; the two
+external developments, the file the attribute names and the file the
+erdosproblems.com thread links, are described under "Formalization and the Lean
+label" below; neither was built here.
 
 ## Current assessment
 
@@ -275,14 +275,14 @@ $n\le39$ are in A397205. Erdős's further question in [Er72], to estimate the
 number of integers with exactly one representation $a_ib_j$, is Problem 896 and
 not this problem.
 
-**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
-catalog label, which the community database records since 22 May 2026. At that
-date the Lean development on record was the thread's file of 17 May 2026,
-mirrored in `plby/lean-proofs` from 19 May, which rests on four declared axioms.
-The formal-conjectures file above, added on 19 September 2026, names the later
-axiom-free version of the second file as its proof. Two external developments
-exist, both linked from Szemerédi's claim page as formalizations of the
-theorem. The first, the one the erdosproblems.com thread names, is
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is an
+erdosproblems.com label, which the community database records since 22 May 2026.
+At that date the Lean development on record was the thread's file of 17 May
+2026, mirrored in `plby/lean-proofs` from 19 May, which rests on four declared
+axioms. The formal-conjectures file above, added on 19 September 2026, names the
+later axiom-free version of the second file as its proof. Two external
+developments exist, both linked from Szemerédi's claim page as formalizations of
+the theorem. The first, the one the erdosproblems.com thread names, is
 `ErdosProblem490.lean` in the repository `Woett/Lean-files`, linked from the
 claim page at the repository's head of 10 September 2026 (the file last changed
 on 17 May 2026; 232,045 bytes, 3,029 lines). Its header says it formalizes
@@ -296,29 +296,29 @@ bound $\pi(x)\ge x/\log x+x/\log^2x+2x/\log^3x$ for $x\ge88789$, the upper bound
 $\pi(x)\le x/\log x+x/\log^2x+2.53816\,x/\log^3x$ for $x>1$, and
 $|\psi(x)-x|<1.66\,x/\log^2x$ for $x\ge2$; it proves
 `theorem main_theorem : ∃ N₀ : ℕ, ∀ n : ℕ, N₀ ≤ n → ∀ A B : Finset ℕ, A ⊆ Finset.Icc 1 n → B ⊆ Finset.Icc 1 n → (∀ a₁ ∈ A, ∀ b₁ ∈ B, ∀ a₂ ∈ A, ∀ b₂ ∈ B, a₁ * b₁ = a₂ * b₂ → a₁ = a₂ ∧ b₁ = b₂) → A.card * B.card < 60 * n ^ 2 / Real.log n`,
-contains no `sorry`, and ends with `#print axioms main_theorem` whose output
-is not recorded in the file; it proves the theorem relative to its four
-declared axioms. The second, the file the formal-conjectures attribute names,
-is `src/latest/ErdosProblems/Erdos490.lean` in `plby/lean-proofs`, linked from
-the claim page at a pinned commit (54 lines; its last change is the commit of
-25 August 2026 titled "Prove Erdos490 without custom analytic axioms"). Its
-header names Endre Szemerédi and ChatGPT 5.5 Pro as the informal authors of
-the original argument, Aristotle and Wouter van Doorn as the formal authors of
-the original formalization, and Codex for the axiom-free analytic replacement
-and the rectangle-counting proof, and it links the thread comment and the
-Woett file as its originals. It imports its submodules `Erdos490.Assembly` and
+contains no `sorry`, and ends with `#print axioms main_theorem` whose output is
+not recorded in the file; it proves the theorem relative to its four declared
+axioms. The second, the file the formal-conjectures attribute names, is
+`src/latest/ErdosProblems/Erdos490.lean` in `plby/lean-proofs`, linked from the
+claim page at a pinned commit (54 lines; its last change is the commit of 25
+August 2026 titled "Prove Erdos490 without custom analytic axioms"). Its header
+names Endre Szemerédi and ChatGPT 5.5 Pro as the informal authors of the
+original argument, Aristotle and Wouter van Doorn as the formal authors of the
+original formalization, and Codex for the axiom-free analytic replacement and
+the rectangle-counting proof, and it links the thread comment and the Woett file
+as its originals. It imports its submodules `Erdos490.Assembly` and
 `Erdos490.ParameterProduct`, declares no axiom itself, and proves
 `theorem erdos_490 : ∃ N₀ : ℕ, ∀ n : ℕ, N₀ ≤ n → ∀ A B : Finset ℕ, A ⊆ Finset.Icc 1 n → B ⊆ Finset.Icc 1 n → (∀ a₁ ∈ A, ∀ b₁ ∈ B, ∀ a₂ ∈ A, ∀ b₂ ∈ B, a₁ * b₁ = a₂ * b₂ → a₁ = a₂ ∧ b₁ = b₂) → A.card * B.card < 60 * n ^ 2 / Real.log n`,
 the same constant-$60$ bound, which its module comment says rests on an
-elementary estimate for the Chebyshev function, a proved Mertens product
-theorem and a kernel-checked finite Euler-product certificate in place of the
-Dusart estimates; it ends with `#print axioms erdos_490`, whose output it does
-not record. The formal-conjectures commit that added the pointer reports that
-its author rebuilt the development against that repository's Mathlib, with the
-axioms `propext`, `Classical.choice` and `Quot.sound`, and compiled a bridge
-to the statement `erdos_490`. The submodules of the second were not read;
-nothing was built or kernel-checked here, no local kernel credit is claimed,
-and neither file is acceptance evidence.
+elementary estimate for the Chebyshev function, a proved Mertens product theorem
+and a kernel-checked finite Euler-product certificate in place of the Dusart
+estimates; it ends with `#print axioms erdos_490`, whose output it does not
+record. The formal-conjectures commit that added the pointer reports that its
+author rebuilt the development against that repository's Mathlib, with the
+axioms `propext`, `Classical.choice` and `Quot.sound`, and compiled a bridge to
+the statement `erdos_490`. The submodules of the second were not read; nothing
+was built or kernel-checked here, no local kernel credit is claimed, and neither
+file is acceptance evidence.
 
 **Search scope.** None of the routes below found a
 dispute of the theorem or a determination of the limit; [Sz76] is open

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 963: Arithmetic characterizations of Sidon sets.
 tags: []
 sources: []
 created: 2026-09-24T22:18:25Z
-updated: 2026-09-24T22:18:25Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Arithmetic characterizations of Sidon sets
@@ -113,6 +113,20 @@ integer translation above, that is precisely E0774.
 - A union of $k$ quasi-independent sets has the proportional extraction
   property immediately: one color class contains at least $|A|/k$ elements of
   every finite $A$. E0774 asks for the converse.
+- Theorem 2 permits either side of a proposed construction to be checked in a
+  different language. Proportional dissociation can be established directly by
+  extracting a large relation-free subset, or indirectly by proving that the
+  resulting integer set is Sidon.
+- Theorem 1 supplies finite obstructions to Sidonicity. To prove that a
+  candidate is proportionately dissociated, it is enough in principle to
+  obtain a uniform exponential saving in one of the relation counts. To
+  disprove proportional dissociation, one should seek finite blocks for which
+  these counts approach the unrestricted exponents $2^{|A|}$ or $3^{|A|}$.
+- For the desired counterexample, the two requirements are therefore sharply
+  separated: retain one of the uniform Sidon/extraction bounds, while forcing
+  the quasi-independent chromatic number of finite subconfigurations to be
+  unbounded. Pisier’s equivalence validates this target but does not construct
+  it.
 - The identity displayed as (1) on p. 88 expands
   $\prod_{\lambda\in A}[1+\delta(\lambda+\bar\lambda)]$ in terms of the
   weighted counts $R_s(\gamma,A)$. Pisier says the Sidon-to-relation-count

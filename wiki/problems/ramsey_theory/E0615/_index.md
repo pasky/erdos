@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 615
@@ -45,7 +45,7 @@ reading "for all sufficiently large $n$", which the formal-conjectures file
 makes explicit, is the reading assessed on this page; the answer is no in
 both readings. The threshold $1/8$ is exact: $\mathbf{RT}(n,K_4,o(n))=(1/8+o(1))n^2$
 by Szemerédi's upper bound and the Bollobás--Erdős construction. The
-erdosproblems.com label DISPROVED (LEAN) carries a catalog suffix explained
+erdosproblems.com label DISPROVED (LEAN) carries a suffix explained
 under Formalization.
 
 **Status.** Bloom's catalog labeled the problem DISPROVED (LEAN). The claim page
@@ -112,8 +112,8 @@ https://www.erdosproblems.com/615, accessed 2026-09-18.
   behind the threshold; not consumed on this page (its card and result pages
   are on [[problems/extremal_graph_theory/E0022/_index|Problem 22]]).
 
-**Formalization.** The suffix (LEAN) of the erdosproblems.com label was a
-catalog label. The file
+**Formalization.** The suffix (LEAN) of the erdosproblems.com label was an
+erdosproblems.com label. The file
 [`ErdosProblems/615.lean`](https://github.com/google-deepmind/formal-conjectures/blob/62fbe629b211d6b14ce65c56df0ec92866d2af42/FormalConjectures/ErdosProblems/615.lean)
 of formal-conjectures, linked at the head of `main` on 2026-09-18 (5,479
 bytes), declares
@@ -264,10 +264,10 @@ that file, at the pin, proves the negation of the statement
 from a construction module unexamined here, declares the automated systems
 Codex and GPT-5.6 Sol as its formal authors, and prints its axioms without
 recording them. Neither file was built in this corpus; the (LEAN) suffix is
-a catalog label with a locatable external artifact behind it on 2026-09-18,
-linked and not checked, and that artifact is recorded as a
-formalization link on the Fox--Loh--Zhao claim page, which lists no
-`formalized` evidence.
+an erdosproblems.com label with a locatable external artifact behind it on
+2026-09-18, linked and not checked, and that artifact is recorded as a
+formalization link on the Fox--Loh--Zhao claim page, which lists no `formalized`
+evidence.
 
 **Search scope.** None of the routes below found a
 dispute of Theorem 1.10, a retraction or a second proof.

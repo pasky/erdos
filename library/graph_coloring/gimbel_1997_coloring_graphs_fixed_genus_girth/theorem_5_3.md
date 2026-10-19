@@ -7,7 +7,7 @@ desc: |
   quadrangulated subgraph bounded by the cycle forces opposite vertices to
   share a color.
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -53,5 +53,5 @@ and Thomassen's 1994 extension of it.
 
 ## Bears on
 
-No catalog problem directly. It is the main step in
+No erdosproblems.com problem directly. It is the main step in
 [[graph_coloring/gimbel_1997_coloring_graphs_fixed_genus_girth/theorem_5_4|Theorem 5.4]].

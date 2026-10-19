@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:20Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 853
@@ -40,13 +40,16 @@ https://www.erdosproblems.com/853.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/853.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/prime_gap_statistics|first-occurrence reduction]]
+shows that the first target is equivalent to every positive even gap occurring
+at least once. For the stronger target, let $T(y)$ be the largest first-occurrence
+index among positive even gaps at most $y$. The required uniform condition is
+that every $T(y)$ is finite and $\log T(y)=o(y)$. This author-recorded
+equivalence does not establish that bound; separate fixed-gap existence
+statements with uncontrolled thresholds do not supply it.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

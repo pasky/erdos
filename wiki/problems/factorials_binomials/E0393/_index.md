@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 393
@@ -104,6 +104,26 @@ The status search covered the erdosproblems.com problem page and discussion
 thread (accessed 2026-10-07), the journal records of the three cited papers and
 Luca's text; no formal-conjectures statement file exists for the problem, and no
 proof was checked here.
+
+## Finite reductions and uniformity requirements
+
+For each fixed integer $M\ge1$, a factorization of spread at most $M$ has the
+form $n!=P_S(a)$, where $0\in S\subseteq\{0,\ldots,M\}$, $|S|\ge2$, and
+$P_S(X)=\prod_{s\in S}(X+s)$. There are $2^M-1$ possibilities. Applying
+[[../library/factorials_binomials/bui_2023_power_savings_counting_solutions_polynomial_factorial/_index|Bui–Pratt–Zaharescu's
+Theorem 1.1]] to each and summing dyadic ranges gives
+
+$$
+\#\{n\le X:f(n)\le M\}\ll_M X^{33/34}.
+$$
+
+This proves divergence in density, not eventual divergence: the bound permits
+infinitely many exceptions at each fixed $M$, and its polynomial-dependent
+constants do not give uniform control when $M$ grows. Already $M=1$ asks about
+$n!=a(a+1)$, equivalently $(2a+1)^2=4n!+1$. The source was inspected at
+statement and proof-outline depth; the abc-conditional finiteness proof remains
+uninspected. No unconditional finiteness conclusion is inferred.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

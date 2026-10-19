@@ -1,0 +1,50 @@
+[cut]
+
+from __future__ import annotations
+
+import sys
+from fractions import Fraction
+from itertools import combinations
+from math import comb
+
+from tools import Checker, evidence_parser
+
+
+def choose(n: int, k: int) -> int:
+    """Return a binomial coefficient, with zero outside the valid lower range."""
+    return comb(n, k) if 0 <= k <= n else 0
+
+
+def palette_checks(checker: Checker) -> None:
+
+[cut]
+
+    expected = [
+        70,
+        70,
+        42,
+        42,
+        33,
+        33,
+        Fraction(143, 5),
+        Fraction(143, 5),
+        26,
+        26,
+        Fraction(170, 7),
+    ]
+    actual = []
+    for palette in range(7, 18):
+        middle = palette // 2
+        bound = Fraction(
+            2 * comb(palette, middle),
+            choose(palette - 4, middle) + choose(palette - 4, middle - 4),
+        )
+        incidence = (palette * ((palette - 1 + 2) // 3) + 3) // 4
+        actual.append(bound)
+        checker.check(f'palette N={palette} excludes v<=25', max(bound, incidence) > 25)
+        print(f'    N={palette}: midpoint bound={bound}, incidence bound={incidence}')
+    checker.check('exact midpoint table N=7..17', actual == expected)
+    checker.check('pair coverage excludes N>=18 at v<=25', comb(18, 2) > 6 * 25)
+
+
+[cut]

@@ -12,7 +12,7 @@ parts:
 - asymptotic_formula
 - order_statistics
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1162
@@ -94,6 +94,16 @@ claim, and the derived standing is open.
 
 Search scope: the erdosproblems.com problem page, its proof-claims tab and the
 claimant's repository, and the preprint of Roney-Dougal and Tracey.
+
+## Scoped deduction
+
+The [[research/methods/subgroup_counting_interfaces|counting and conditioning analysis]]
+checks why the logarithmic estimate supplies no relative asymptotic, why
+Theorem 5's nilpotence conditioning cannot be dropped, and what Theorem 6
+says about the order. It preserves the distinction between any statistical
+theorem and the limit law chosen in the Formulation. Its source statements
+are inspected, without an independent proof audit.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

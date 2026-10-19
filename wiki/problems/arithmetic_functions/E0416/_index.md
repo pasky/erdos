@@ -11,7 +11,7 @@ tags:
 status: claimed
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 416
@@ -182,8 +182,8 @@ verification with only `propext`, `Classical.choice` and `Quot.sound`, its
 comparator fingerprint checked, and its statement audited, so it is the
 [[problems/arithmetic_functions/E0416/claims/2026_09_25_openai|second accepted partial claim]]
 on the first question (not reviewed outside, not refereed; formal-conjectures
-has linked it as the formal proof of `parts.i` since 11 October 2026, a catalog
-label). On the second question the same theorem gives
+has linked it as the formal proof of `parts.i` since 11 October 2026, a
+formal-conjectures label). On the second question the same theorem gives
 $V(x)\sim(x/\log x)\,G_mA(1;\theta)$: Ford's counting scale $xG_m/\log x$ times
 a positive bounded function of the phase
 $\theta(x)=\{(\log B-\log\log B)/\lambda\}$, $B=\log\log x$ (with $\rho$,
@@ -195,7 +195,12 @@ inclusion–exclusion sums over bounded prime data. Settled by it: Ford's
 $e^{O(1)}$ factor converges to one explicit periodic function of $\theta$,
 namely $e^{Q(\theta)}A(1;\theta)$, the limit of the ratio of $V(x)$ to Ford's
 elementary expression, with $Q$ an explicit quadratic in $\theta$. Not settled:
-the limit of Ford's $O(1)$ factor has no closed form, no computed value and no
+$A(1;\cdot)$ itself is not constant (since $g_j\rho^j\to\gamma$, the
+manuscript's (3.5), from Ford,
+$G_{m+1}/G_m=B/((m+1)g_{m+1})\to\lambda/\gamma\approx1.89$ at each increment of
+$m$, a deduction of this corpus, not a statement of the manuscript, so
+$A(1;\theta)$ falls by that factor as $\theta$ passes from $1$ to $0$), the
+limit of Ford's $O(1)$ factor has no closed form, no computed value and no
 convergence rate, and whether that limit is constant is not known, so whether
 the release delivers the formula in elementary functions that Erdős asked for in
 1974 (remark_p201) and doubted in 1979 is unsettled; the release's own catalog
@@ -251,7 +256,13 @@ Lean-only premise, and the preprint's unconditional cluster-interval argument
 are reconstructed, author-recorded and changing nothing here, in
 [[research/erdos_416/_index|the Problem 416 research folder]]; those
 reconstructions are superseded as routes by the release's theorem, which proves
-the general-scale law outright.
+the general-scale law outright. The general-scale variant $V(cx)/V(x)\to c$ that
+Erdős posed with the problem was assessed on
+[[research/erdos_416/connections|the folder's connections page]] as a reduction
+to one balance estimate for the accepted family, the lead
+[[research/leads/general_scale_totient_doubling/_index|general_scale_totient_doubling]],
+closed as superseded because the release's accepted claim proves the law for
+every $c>0$.
 
 ## Progress
 
@@ -333,13 +344,22 @@ known to be elementary, is the pending claim on the second question.
   release theorem proves $V(x)\sim(x/\log x)\,G_mA(1;\theta)$, Ford's scale
   times an explicit positive bounded function of the phase $\theta(x)$, defined
   as a uniform limit of finite arithmetic sums without reference to $V$; the
-  limit of Ford's $O(1)$ factor, $e^{Q(\theta)}A(1;\theta)$, has no closed
-  form, computed value or convergence rate, and whether it is constant is not
-  known, so whether it is the formula in elementary functions Erdős asked for
-  is unsettled and the claim stays pending
+  coefficient $A(1;\cdot)$ is not constant (it falls by a factor tending to
+  $\lambda/\gamma\approx1.89$ as the phase passes from $1$ to $0$, with
+  $\lambda$ and $\gamma$ defined on the claim page; the factor is a deduction of
+  this corpus from the manuscript's (3.5), not a statement of the manuscript),
+  and the limit of Ford's $O(1)$ factor, $e^{Q(\theta)}A(1;\theta)$, has no
+  closed form, computed value or convergence rate, and whether it is constant is
+  not known, so whether it is the formula in elementary functions Erdős asked
+  for is unsettled and the claim stays pending
   ([[problems/arithmetic_functions/E0416/claims/2026_09_25_openai_formula|claim page]]).
   Before it, no source beyond Ford's order-of-magnitude theorem was found;
   `erdos_416.parts.ii` has no accepted proof.
+- The convenient-integer construction of Pollack, Pomerance and Treviño's
+  Lemma 4.1, reconstructed for Problem 49, yields only the lower-bound half of
+  Ford's order of magnitude;
+  [[research/erdos_49/connections|the Problem 49 connections page]] records that
+  no asymptotic formula can come from it.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

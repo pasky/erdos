@@ -7,7 +7,7 @@ desc: |
   Hilbert symbols (a,b)_v over all places v of Q, the primes and infinity,
   equals 1.
 created: 2026-10-08T17:07:43Z
-updated: 2026-10-08T17:07:43Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -65,5 +65,13 @@ computation of the odd and even Hilbert symbols (the book's 12.4.12 and
 
 ## Bears on
 
-The proposition is a reciprocity law for Hilbert symbols and bears on no Erdős
-problem directly.
+- [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+  research note
+  [[../wiki/research/erdos_940/quartic_complement|on the quartic complement]]
+  cites this proposition with
+  [[number_theory/voight_2021_quaternion_algebras_over_global_fields/corollary_14_2_3|Corollary 14.2.3]]
+  for its $r=4$ step: a positive definite rational quaternary quadratic form of
+  square determinant is similar to the norm form of a quaternion algebra
+  ramified at $\infty$, so by reciprocity it is anisotropic at some finite
+  place. The proposition supplies only the reciprocity law; the local
+  calculations and the density argument are the note's own.

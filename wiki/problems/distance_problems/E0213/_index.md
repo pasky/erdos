@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:41Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 213
@@ -78,13 +78,18 @@ https://www.erdosproblems.com/213.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/213.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/distance_multiplicity_interfaces/integral_realizations|finite
+integral blocks and infinite distance graphs]] account records the following
+scope. Greenfeld-Iliopoulou-Peluse Corollary 1.3 gives n <= C(log N)^A for an
+integral general-position set in [-N,N]^2.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

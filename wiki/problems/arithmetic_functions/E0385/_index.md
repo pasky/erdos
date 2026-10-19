@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 385
@@ -122,3 +122,18 @@ with $m+p(m)=n$ does not qualify. The integer $1$ has no prime factors, so it
 satisfies the sequence's condition vacuously and is its final term; it is
 neither prime nor composite. This is the endpoint defect in the literal
 not-all-prime wording of Problem 430.
+
+## Prime-factor and interval interface
+
+A witness $m+p(m)>n$ with $m<n$ composite must satisfy $m>n-\sqrt n$, since
+$p(m)\le\sqrt m$. For a fixed $2<u<3$, an integer near $x$ with no prime factor
+below $x^{1/u}$ has at most two prime factors counted with multiplicity, once
+$x$ is large. It may still be prime, which is excluded from $F$.
+
+A sufficient input for both questions is a uniform gap bound $o(x^{1/u})$ for
+composite numbers whose least prime factor is at least $x^{1/u}$, with coverage
+up to every endpoint. It supplies $m=n-o(n^{1/u})$ and
+$p(m)\ge(1-o(1))n^{1/u}$, hence $m+p(m)-n\to\infty$. This is a conditional
+author deduction, not a proved short-interval theorem. A sieve that counts
+primes together with semiprimes does not supply the needed composite survivors;
+the prime contribution must be separated uniformly.

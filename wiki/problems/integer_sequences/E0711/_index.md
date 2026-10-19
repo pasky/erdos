@@ -13,7 +13,7 @@ status: open
 claim: none
 parts: [upper_bound, comparison]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 711
@@ -132,6 +132,12 @@ last update, dated 31 August 2025), the statement not formalized,
 erdosproblems.com field converts both) and an OEIS sequence marked possible.
 
 ## Current assessment
+
+The
+[[research/arithmetic_construction_interfaces/multiplicative_selection|simultaneous-choice
+comparison]] distinguishes the accepted divergence result from the remaining
+$n^{1+o(1)}$ upper-bound question. It explains the one-way passage from
+counterexample intervals here to lower bounds for Problem 709.
 
 **The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; labeled OPEN, with the erdosproblems.com note that no finite computation

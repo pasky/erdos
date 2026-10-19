@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:20Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 734
@@ -38,13 +38,20 @@ https://www.erdosproblems.com/734.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/734.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+Under the usual nontrivial design convention $2\le|A_i|<n$, the
+incidence argument in [[theory/combinatorics/L26_design_size_multiplicity/_index|L26]]
+forces at least $\sqrt n/C$ distinct sizes if each size occurs at most
+$C\sqrt n$ times. It also proves that minimum size
+$(1-o(1))\sqrt n$ leaves only $o(\sqrt n)$ possible sizes. Thus a
+near-uniform construction of the kind sought in Problem 665 cannot also
+satisfy this multiplicity bound. The
+[[research/design_size_multiplicity/_index|research account]]
+records the six-size obstruction for the held Erdős–Larson construction.
+The result is author-recorded at tier 0 and does not exclude designs with
+a wider size range. No full construction or broader standing search is
+supplied here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

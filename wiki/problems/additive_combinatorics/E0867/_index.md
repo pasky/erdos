@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 867
@@ -244,35 +244,32 @@ Read depth: the proof paragraph of Theorem 3.7 (p. 177) in full, and Lemmas
 3.2--3.6 behind it (pp. 175--177) for structure only; none is independently
 checked.
 
-**Formalization and the Lean label.** The erdosproblems.com Lean suffix is a
-catalog label. The formal-conjectures statement at the pinned commit has a
-`sorry` body (its `lower_bound` variant is proved in the file) and points to
-`src/v4.29.1/ErdosProblems/Erdos867.lean` in `plby/lean-proofs` on `main`,
-not a fixed commit; Freud's claim page pins the file at the repository's
-commit of 2026-09-15, its head on 2026-09-18. The file there
-(41,094 bytes, 755 lines; `import Mathlib`) declares
-itself "a Lean formalization of a solution to Erdős Problem 867", names
-Freud as the informal author and the prover Aristotle and Monticone as the
-formal authors, defines `ConsecutiveSumFree S` as: for every contiguous sublist of
-length at least two of the sorted elements of `S`, its sum is not in `S`;
-defines `freudSet y` as Freud's four blocks with $x=17y-2$ (`Icc (32y-4)
-(36y-4)`, the non-multiples of $3$ in `Icc (48y-5) (54y-7)`, the even
-numbers in `Icc (64y-6) (72y-10)`, and `Icc (72y-6) (144y-12)` minus the
+**Formalization and the Lean label.** The erdosproblems.com Lean suffix is an
+erdosproblems.com label. The formal-conjectures statement at the pinned commit
+has a `sorry` body (its `lower_bound` variant is proved in the file) and points
+to `src/v4.29.1/ErdosProblems/Erdos867.lean` in `plby/lean-proofs` on `main`,
+not a fixed commit; Freud's claim page pins the file at the repository's commit
+of 2026-09-15, its head on 2026-09-18. The file there (41,094 bytes, 755 lines;
+`import Mathlib`) declares itself "a Lean formalization of a solution to Erdős
+Problem 867", names Freud as the informal author and the prover Aristotle and
+Monticone as the formal authors, defines `ConsecutiveSumFree S` as: for every
+contiguous sublist of length at least two of the sorted elements of `S`, its sum
+is not in `S`; defines `freudSet y` as Freud's four blocks with $x=17y-2$
+(`Icc (32y-4) (36y-4)`, the non-multiples of $3$ in `Icc (48y-5) (54y-7)`, the
+even numbers in `Icc (64y-6) (72y-10)`, and `Icc (72y-6) (144y-12)` minus the
 deleted sums), proves `freudSet_card : (freudSet y).card = 76 * y - 7`,
-`freudSet_subset : freudSet y ⊆ Icc 1 (144 * y - 12)` and `freudSet_csf`
-for $y\ge1$, then
+`freudSet_subset : freudSet y ⊆ Icc 1 (144 * y - 12)` and `freudSet_csf` for
+$y\ge1$, then
 `construction_19_36 : ∃ C : ℕ, ∀ n : ℕ, 144 ≤ n → ∃ S : Finset ℕ, S ⊆ Icc 1 n ∧ ConsecutiveSumFree S ∧ 36 * S.card + C ≥ 19 * n`
 (with $C=2741$) and
 `csf_exceeds_half_plus_constant : ¬∃ C : ℕ, ∀ n : ℕ, ∀ S : Finset ℕ, S ⊆ Icc 1 n → ConsecutiveSumFree S → 2 * S.card ≤ n + C`;
-it contains no `sorry` and no `axiom` declaration, and its closing
-comments record `#print axioms` for both theorems as `propext`,
-`Classical.choice` and `Quot.sound`. Its definition of
-consecutive-sum-freeness (sorted contiguous sublists) and its
-natural-number constant differ in form from the collection's
-interval-based `ConsecutiveSumFree` and real `C`; no bridging declaration
-to `erdos_867` exists in either file, and no statement-fidelity review
-exists. The community database records `formal_status` Lean and no
-formal-proof URL.
+it contains no `sorry` and no `axiom` declaration, and its closing comments
+record `#print axioms` for both theorems as `propext`, `Classical.choice` and
+`Quot.sound`. Its definition of consecutive-sum-freeness (sorted contiguous
+sublists) and its natural-number constant differ in form from the collection's
+interval-based `ConsecutiveSumFree` and real `C`; no bridging declaration to
+`erdos_867` exists in either file, and no statement-fidelity review exists. The
+community database records `formal_status` Lean and no formal-proof URL.
 
 **The origin ([Er92c], pp. 42--43).** Section 4: "Let again
 $a_1<a_2<\cdots$ be an infinite sequence of integers and assume that (19)

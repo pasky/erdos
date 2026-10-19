@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 282
@@ -48,7 +48,12 @@ algorithm never repeats a denominator when $x<2/3$, and the two conventions
 make the same choice at every step and produce the same run for every $x<2/3$;
 for $x\ge2/3$ they part at the second step ($3,3,\dots$ against $3,5,\dots$),
 and whether they terminate on the same such inputs is not settled by the
-sources. The first question is Stein's odd-denominator question; the second,
+sources. Their *universal* termination assertions are nevertheless equivalent:
+the [[research/arithmetic_construction_interfaces/odd_greedy|finite-prefix
+reduction]] sends either rule to ordinary odd greedy below $2/3$; for the
+unused rule this takes at most six initial consecutive odd denominators. It
+does not prove termination of the remaining trajectory. The first question is
+Stein's odd-denominator question; the second,
 "for which pairs $x$ and $A$", is the general classification, of which the
 erdosproblems.com commentary names two further instances, denominators in a
 residue class and square denominators.
@@ -335,7 +340,9 @@ the monograph cites a personal communication, and Guy's book attributes the
 question to Stein, Selfridge, Graham and others. (2) erdosproblems.com's
 unused-denominator convention and Pihko's agree on every $x<2/3$
 (Remark 2.4); whether they terminate on the same inputs $x\ge2/3$ is not
-settled by the sources. (3) [LoMa23] is consumed at the abstract level;
+settled by the sources; the universal assertions are equivalent by the
+finite-prefix reduction linked under Formulation. (3) [LoMa23] is consumed at
+the abstract level;
 [Pi10] and Koizumi's published version have library cards. (4) The general
 question, for which pairs $(x,A)$ the process terminates, has no source
 beyond the monograph's dense-set remark (stated without proof) and the

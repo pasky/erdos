@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 188
@@ -229,9 +229,10 @@ The
 [[../library/discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/_index|Conlon–Fox source record]]
 describes a reconstructed proof chain and an explicitly compilation-supplied
 boundary repair. This source-record check does not verify that reconstruction
-or the separate sharper constant reported in the retained catalog discussion. The original four-point arguments
-are compiled in the linked 1975 source record, and the historical formulation
-is checked in the linked 1979 paper and 1980 book.
+or the separate sharper constant reported in the retained erdosproblems.com
+discussion. The original four-point arguments are compiled in the linked 1975
+source record, and the historical formulation is checked in the linked 1979
+paper and 1980 book.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -29,7 +29,7 @@ links:
 - url: https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/v4.29.1/ErdosProblems/Erdos905.lean
   kind: formalization
 created: 2026-10-07T07:20:39Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -111,7 +111,7 @@ $3\sum_vd(v)^2\le6e\hat t+2ne$ (`bollobas_nikiforov`, line 752). A closing
 comment records the axioms `propext`, `Classical.choice` and `Quot.sound`. No
 build, replay or audit of it is recorded, so the page lists no `formalized`
 evidence; the erdosproblems.com suffix "(LEAN)" and the community database's
-"proved (Lean)", as of its last update dated 7 April 2026, are catalog labels.
+"proved (Lean)", as of its last update dated 7 April 2026, are labels.
 The formal-conjectures statement file for the problem names this proof in its
 `formal_proof` attribute; it is a statement, not a formalization, and is
 described on the problem page.

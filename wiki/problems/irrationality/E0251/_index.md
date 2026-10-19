@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:31Z
+updated: 2026-10-17T22:11:11Z
 ---
 
 # Problem 251
@@ -207,7 +207,11 @@ congruence and the short-block statistics are kept; the author presents it as
 a countermodel to weaker hypotheses rather than a solution, says that AI
 tools contributed substantially to it, and says that the notes have had
 no independent mathematical review. It is a statement about integer
-sequences, not primes, and is not filed as a source.
+sequences, not primes, and is not filed as a source. Plasma AI's research
+sketch
+[[research/prime_binary_series/truncation_certificates|on truncation certificates isolates the counting and tail inputs in the two conditional approaches]],
+and the gaps in the attempted replacements by proved prime theorems. It is
+author-recorded, not independently reviewed, and does not change the status.
 
 **Adjacent theorems (historical; not progress on $S$).**
 
@@ -233,6 +237,18 @@ sequences, not primes, and is not filed as a source.
   satisfies. The statements and page numbers follow the authors' preprint.
   Card:
   [[../library/irrationality/hancl_2004_irrationality_cantor_series/_index|hancl_2004_irrationality_cantor_series]].
+  Their
+  [[../library/irrationality/hancl_2004_irrationality_cantor_series/theorem_6_1|Theorem 6.1]]
+  (preprint p. 11) weakens the growth requirement to $a_n/\log n\to\infty$.
+  Neither criterion applies to the target: $a_1\cdots a_n=2^n$ for every
+  $n$ forces $a_n=2$, so $a_n/\log n\to0$ and $p_n/a_n^2=p_n/4\to\infty$.
+  The exceptional rationality ratio in both theorems is $p_n/(a_n-1)$.
+  Example 3.1 instead puts $p_n$ in the exponent, giving denominators
+  $2^{p_n}$; it is a different series. These are author-recorded
+  checks of the printed statements, not an audit of their proofs.
+  An application to the target still needs a criterion for fixed base two
+  with unbounded numerators, or the unconditional prime-gap or carry
+  input missing from the conditional results above.
 - Erdős–Straus 1974 [ErSt74] gives rationality criteria for
   $\sum b_n/(a_1\cdots a_n)$ with monotone denominators, including a
   reproof of the $k=1$ factorial theorem; cited by statement. Card:
@@ -251,11 +267,65 @@ sequences, not primes, and is not filed as a source.
   [Po12], eq. (1.1); OEIS A098990). The identity says nothing about
   irrationality.
 
-**Proof coverage and review.** No proof on or linked from this page is
-independently reviewed. The Kovač theorem carries an author-recorded
-proof sketch; the reformulation is a checked two-line identity; the
-conditional claims carry statements with proof pointers; the historical
-theorems are cited by statement.
+**Proof coverage and review.** The
+[[research/prime_binary_new_attack/matching_gap_windows|conditional
+matching-window constraint]] has an independent review accepted by a separate
+grade on 2026-10-16. Its exact scope is the lattice and matching-window
+implications, with a localized wording refutation and the authorized
+correction disclosed there. It supplies neither the required prime pairs nor
+irrationality. The other proof accounts here are not independently reviewed:
+the Kovač theorem carries an author-recorded proof sketch; the reformulation
+is a checked two-line identity; the conditional claims carry statements with
+proof pointers; the historical theorems are cited by statement.
+
+## Project research
+
+The
+[[research/prime_binary_new_attack/proof_sketch|parity-prediction sketch]]
+uses the earlier averaged-tail bound with halved gaps
+$h_n=(p_{n+1}-p_n)/2$ for $n\ge2$. A rational value with odd denominator
+part $d$ forces all but $O(dX/2^K)$ starts with $X<p_n\le2X$ to obey an
+explicit parity rule. A sufficiently large count of failures at
+$K=\log_2\log X+O_d(1)$ would exclude $d$. The needed count for the actual
+primes remains open; finite observations exclude no denominator.
+[[research/prime_binary_new_attack/zero_phase_certificates|The zero-phase analysis]]
+builds such failures from one congruence among consecutive primes followed by
+short enough gaps, and shows that the counts proved by the known cluster
+theorems fall short of the count it needs.
+[[research/prime_binary_new_attack/consecutive_block_counts|The upper-count note]]
+shows that a rational value would make one value of the weighted gap tails
+recur at a proportion of order $1/(d\log X)$ of those starts, so an upper
+bound within a fixed factor on how often weighted sums of about
+$\log_2\log X$ consecutive gaps fall in a short interval would exclude
+every rational value at once. No such bound for consecutive primes is known.
+The same note gives a second criterion: an upper bound for the number of
+consecutive blocks in a small carry window, allowing comparison loss
+$Cc^K$ for any $1\le c<2$ at $K=\lceil A\log_2\log X\rceil$ with
+$A>1/\log_2(2/c)$. Reference models satisfy the phase estimate, but its
+transfer to the primes is unproved. These are author-recorded reductions,
+not an irrationality proof.
+[[research/leads/prime_binary_irrationality/_index|The project's lead for this problem]]
+summarizes the route and its open step.
+
+The author-recorded
+[[theory/irrationality/L228_sparse_prime_position_interpolation/_index|L228]]
+constructs increasing integer comparison sequences that agree with $p_n$
+outside a density-zero set, retain any prescribed nested congruence moduli
+$o(\log n)$, and change each gap by $o(\log n)$. Their binary sums fill a
+one-sided interval starting at the prime sum, so rational comparison values
+are possible. The modified terms need not be primes. The proof uses the
+classical absolute prime-pair upper bound to locate gaps that absorb negative
+corrections.
+
+The complementary counting bounds
+[[theory/irrationality/L229_critical_modulus_interpolation/_index|L229]] and
+[[theory/irrationality/L230_sparse_interpolation_support/_index|L230]]
+show that interval interpolation cannot survive, respectively, nested moduli
+at least $c\log n$ eventually, or changes to only $o(N/\log\log N)$ of the
+first $N$ positions. The corresponding value sets have Hausdorff dimension
+zero, which does not exclude any specified rational value. These claims are
+tier 0 and unreviewed. They delimit information-based constructions without
+settling the prime-phase estimate or Problem 251.
 
 ## Progress
 
@@ -330,9 +400,11 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/arithmetic_functions/erdos_1978_largest_prime_factors/theorem_p320|erdos_1978_largest_prime_factors / theorem_p320]]
 - [[../library/integer_sequences/erdos_1961_szamelmeleti_megjegyzesek/_index|erdos_1961_szamelmeleti_megjegyzesek]]
 - [[../library/integer_sequences/erdos_1961_szamelmeleti_megjegyzesek/equation_3|erdos_1961_szamelmeleti_megjegyzesek / equation_3]]
+- [[../library/integer_sequences/kimmel_kuperberg_2024_consecutive_runs_sums_two_squares/_index|kimmel_kuperberg_2024_consecutive_runs_sums_two_squares]]
 - [[../library/irrationality/bloom_2026_erdos_problem_251_discussion/_index|bloom_2026_erdos_problem_251_discussion]]
 - [[../library/irrationality/bloom_2026_erdos_problem_251_discussion/bloom_2026_erdos_problem_251_discussion|bloom_2026_erdos_problem_251_discussion / bloom_2026_erdos_problem_251_discussion]]
 - [[../library/irrationality/bloom_2026_erdos_problem_251_discussion/reformulation_gap_series|bloom_2026_erdos_problem_251_discussion / reformulation_gap_series]]
+- [[../library/irrationality/cook_2026_prime_gap_dyadic_series/_index|cook_2026_prime_gap_dyadic_series]]
 - [[../library/irrationality/erdos_1958_sur_certaines_series_valeur_irrationnelle_french/_index|erdos_1958_sur_certaines_series_valeur_irrationnelle_french]]
 - [[../library/irrationality/erdos_1958_sur_certaines_series_valeur_irrationnelle_french/density_lemma|erdos_1958_sur_certaines_series_valeur_irrationnelle_french / density_lemma]]
 - [[../library/irrationality/erdos_1958_sur_certaines_series_valeur_irrationnelle_french/main_theorem|erdos_1958_sur_certaines_series_valeur_irrationnelle_french / main_theorem]]
@@ -368,7 +440,10 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/irrationality/tijdeman_2002_rationality_cantor_ahmes_series/_index|tijdeman_2002_rationality_cantor_ahmes_series]]
 - [[../library/irrationality/tijdeman_2002_rationality_cantor_ahmes_series/theorem_3_1|tijdeman_2002_rationality_cantor_ahmes_series / theorem_3_1]]
 - [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
+- [[../library/primes/goldston_pintz_yildirim_2011_small_prime_gaps/_index|goldston_pintz_yildirim_2011_small_prime_gaps]]
 - [[../library/primes/kuperberg_2023_sums_singular_series_large_sets_tail/_index|kuperberg_2023_sums_singular_series_large_sets_tail]]
 - [[../library/primes/kuperberg_2023_sums_singular_series_large_sets_tail/conjecture_1_3|kuperberg_2023_sums_singular_series_large_sets_tail / conjecture_1_3]]
+- [[../library/primes/lau_2024_prime_residue_patterns/_index|lau_2024_prime_residue_patterns]]
+- [[../library/primes/maynard_2014_dense_clusters_primes_subsets/_index|maynard_2014_dense_clusters_primes_subsets]]
 
 <!-- END problem library links -->

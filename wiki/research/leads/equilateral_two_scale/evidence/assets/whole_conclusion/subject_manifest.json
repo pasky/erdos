@@ -1,0 +1,164 @@
+{
+  "frozen_date": "2026-10-17",
+  "marker": "[cut]",
+  "scope": "The whole E0173 conclusion and every dependency of its seven-step proof. Shared pages are frozen in full; the retained mathematical sections identify the proof under examination. Unused alternative routes and their consequences are outside this subject.",
+  "native_files": [
+    {
+      "snapshot": "native_subject/problem_statement.md",
+      "subject": "wiki/problems/discrete_geometry/E0173/_index.md",
+      "retained_lines": [
+        [
+          24,
+          27
+        ]
+      ]
+    },
+    {
+      "snapshot": "native_subject/whole_conclusion.md",
+      "subject": "wiki/research/leads/equilateral_two_scale/_index.md",
+      "retained_lines": [
+        [
+          69,
+          83
+        ],
+        [
+          91,
+          97
+        ],
+        [
+          103,
+          135
+        ],
+        [
+          137,
+          164
+        ]
+      ]
+    },
+    {
+      "snapshot": "native_subject/unit_templates.md",
+      "subject": "wiki/research/leads/equilateral_two_scale/unit_templates.md",
+      "retained_lines": [
+        [
+          22,
+          273
+        ]
+      ]
+    },
+    {
+      "snapshot": "native_subject/rigidity_extension.md",
+      "subject": "wiki/research/leads/equilateral_two_scale/rigidity_extension.md",
+      "retained_lines": [
+        [
+          26,
+          222
+        ]
+      ]
+    },
+    {
+      "snapshot": "native_subject/template_conversion.md",
+      "subject": "wiki/research/leads/equilateral_two_scale/transcendental_scales.md",
+      "retained_lines": [
+        [
+          112,
+          114
+        ],
+        [
+          129,
+          137
+        ],
+        [
+          231,
+          259
+        ],
+        [
+          341,
+          379
+        ],
+        [
+          383,
+          397
+        ],
+        [
+          400,
+          445
+        ],
+        [
+          452,
+          473
+        ]
+      ]
+    },
+    {
+      "snapshot": "native_subject/binary_transfer.md",
+      "subject": "wiki/research/leads/equilateral_two_scale/binary_transfer.md",
+      "retained_lines": [
+        [
+          26,
+          59
+        ],
+        [
+          60,
+          62
+        ],
+        [
+          64,
+          210
+        ]
+      ]
+    },
+    {
+      "snapshot": "native_subject/circle_exclusion.md",
+      "subject": "wiki/research/leads/equilateral_two_scale/circle_exclusion.md",
+      "retained_lines": [
+        [
+          32,
+          196
+        ],
+        [
+          199,
+          282
+        ]
+      ]
+    },
+    {
+      "snapshot": "native_subject/spectral_exclusion.md",
+      "subject": "wiki/research/leads/equilateral_two_scale/spectral_exclusion.md",
+      "retained_lines": [
+        [
+          22,
+          139
+        ],
+        [
+          145,
+          200
+        ],
+        [
+          229,
+          236
+        ],
+        [
+          256,
+          301
+        ]
+      ]
+    }
+  ],
+  "source_editions": [
+    {
+      "source": "OpenAI, The Euclidean plane is not five-colorable",
+      "edition": "September 23, 2026 Math Release",
+      "scope": "Supplied Sections 2 and 3, Section 4 through Proposition 4.2, and selected bibliography; text only."
+    },
+    {
+      "source": "Jelinek, Kyncl, Stolar and Valla, Monochromatic triangles in two-colored plane",
+      "edition": "arXiv:math/0701940v1, January 31, 2007",
+      "scope": "Conventions, Lemma 1.3 and Corollary 1.4; text only."
+    },
+    {
+      "source": "Lahti, Federer's characterization of sets of finite perimeter in metric spaces",
+      "edition": "arXiv:1804.11216v1, April 27, 2018",
+      "scope": "Euclidean introduction, Theorem 1.1, metric hypotheses, formulas (2.2)--(2.4), macros and selected bibliography; text only."
+    }
+  ]
+}

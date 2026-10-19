@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 843
@@ -27,7 +27,14 @@ That is, is it true that, in any 2-colouring of the square numbers, every
 sufficiently large $n\in \mathbb{N}$ can be written as a monochromatic sum of
 distinct squares?
 
-**Status.** Proved.
+**Status.** Proved. Conlon, Fox and Pham [CFP21] prove that every complete
+polynomial sequence contains an $r$-Ramsey complete subsequence for every
+$r\ge2$; for the squares and $r=2$ this answers the question in the
+affirmative, and the same theorem covers the $k$-th powers for every $k\ge2$
+and every number of colors. It is recorded as an accepted full claim on
+[[problems/diophantine_problems/E0843/claims/2021_04_30_conlon_fox_pham|its claim page]].
+Its acceptance rests on the erdosproblems.com curator's credit; the paper is an
+arXiv preprint with no published version recorded.
 
 **Source.** [erdosproblems.com/843](https://www.erdosproblems.com/843), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #843,

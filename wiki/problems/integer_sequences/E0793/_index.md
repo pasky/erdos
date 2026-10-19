@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 793
@@ -159,9 +159,9 @@ proved with Lean, with `formal_status` Lean (both
 dated 31 August 2025 in its fields), the statement not formalized, and no
 formal-proof URL; its snapshot of 2026-10-06 records the statement as
 formalized since 19 September 2026 and names OEIS A399779. erdosproblems.com's
-"(Lean)" suffix is a catalog label; the Lean development it refers to is
-the external file described under "Formalization and the Lean label"
-below, not built here.
+"(Lean)" suffix is an erdosproblems.com label; the Lean development it refers to
+is the external file described under "Formalization and the Lean label" below,
+not built here.
 
 ## Current assessment
 
@@ -272,35 +272,32 @@ footnote "AI assistance was used in exploring the argument and in writing
 this text"; the erdosproblems.com attribution of the proof to GPT 5.6 Sol
 prompted by the author; the manuscript names one human author.
 
-**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is a
-catalog label; the formal-conjectures collection, which had no file for
-the problem on 2026-09-18, has carried one since 19 September 2026
+**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is an
+erdosproblems.com label; the formal-conjectures collection, which had no file
+for the problem on 2026-09-18, has carried one since 19 September 2026
 (Formalization above). The development the thread names is
-`ErdosProblem793.lean` in the repository `Woett/Lean-files`, at the
-repository's head of 10 September 2026 (the file was added on 14 July 2026
-and has not changed since; 163,200 bytes, 2,209 lines). Its header states that it
-formalizes
-this manuscript's result, attributing the informal proof to GPT-5.6 Sol
-Ultra with Chojecki's preprint and the formalization to Aristotle, the
-automated prover of Harmonic; it imports Mathlib and calls itself
-self-contained apart from the prime number theorem, introduced as
-`pi_alt`. It declares exactly one axiom,
+`ErdosProblem793.lean` in the repository `Woett/Lean-files`, at the repository's
+head of 10 September 2026 (the file was added on 14 July 2026 and has not
+changed since; 163,200 bytes, 2,209 lines). Its header states that it formalizes
+this manuscript's result, attributing the informal proof to GPT-5.6 Sol Ultra
+with Chojecki's preprint and the formalization to Aristotle, the automated
+prover of Harmonic; it imports Mathlib and calls itself self-contained apart
+from the prime number theorem, introduced as `pi_alt`. It declares exactly one
+axiom,
 `pi_alt : ∃ c : ℝ → ℝ, c =o[atTop] (fun _ ↦ (1 : ℝ)) ∧ ∀ x : ℝ, Nat.primeCounting ⌊x⌋₊ = (1 + c x) * x / log x`,
-defines `Strongly2Primitive A` as `∀ a ∈ A, ∀ b ∈ A, ∀ c ∈ A, a ≠ b → a ≠ c → ¬ a ∣ b * c`
-and `F n` as the largest size of such a subset of `Finset.Icc 1 n`, and
-proves
+defines `Strongly2Primitive A` as
+`∀ a ∈ A, ∀ b ∈ A, ∀ c ∈ A, a ≠ b → a ≠ c → ¬ a ∣ b * c` and `F n` as the
+largest size of such a subset of `Finset.Icc 1 n`, and proves
 `theorem main : Tendsto (fun n : ℕ => ((F n : ℝ) - Nat.primeCounting n) / ((n : ℝ) ^ ((2:ℝ)/3) / (Real.log n) ^ 2)) atTop (𝓝 (27/2))`
-as `second_order_asymptotic_of_PNT pi_alt`; it contains no `sorry` and ends
-with `#print axioms main` whose output is not recorded in the file.
-Nothing was built or kernel-checked here, and the prime number theorem
-enters as a declared axiom, so the development
-proves the theorem relative to that axiom. The port of this development
-that the formal-conjectures file names as its formal proof (Formalization
-above) replaces the axiom with the PrimeNumberTheoremAnd project's theorem;
-it was not built here. The community database recorded `formal_status`
-Lean and no formal-proof URL on 2026-09-18, and records the statement
-as formalized since 19 September 2026
-in its snapshot of 2026-10-06.
+as `second_order_asymptotic_of_PNT pi_alt`; it contains no `sorry` and ends with
+`#print axioms main` whose output is not recorded in the file. Nothing was built
+or kernel-checked here, and the prime number theorem enters as a declared axiom,
+so the development proves the theorem relative to that axiom. The port of this
+development that the formal-conjectures file names as its formal proof
+(Formalization above) replaces the axiom with the PrimeNumberTheoremAnd
+project's theorem; it was not built here. The community database recorded
+`formal_status` Lean and no formal-proof URL on 2026-09-18, and records the
+statement as formalized since 19 September 2026 in its snapshot of 2026-10-06.
 
 **Forum and AI-assisted items (leads with provenance, not status).**
 

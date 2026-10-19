@@ -6,7 +6,7 @@ desc: |
   required corrections; two suggested corrections and two notes, all in prose
   outside the statement and the proof.
 created: 2026-09-28T06:27:48Z
-updated: 2026-09-28T08:33:28Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -50,8 +50,8 @@ whole. (f) File listings, names only, of the research folder and the card
 folder, and existence checks of the page's wikilink targets at the frozen
 commit. The page cites no other reconstruction page as an input, so none was
 read. The Lean file, `formal_source.json`, the research folder's
-`_index.md`, the problem pages E0937, E0940 and E1107, two theory claims and
-the Problem 940 research folder were not read.
+`_index.md`, the problem pages E0937, E0940 and E1107, the theory claims L18
+and L19 and the Problem 940 research folder were not read.
 
 **Exposures.** Three, disclosed here. The library card and its result page
 were read whole, so their "Read status", "Mathematics", "Bears on" and "Proof
@@ -204,9 +204,9 @@ failed; the argument stands as written on the page.
   lowest-terms form of a positive rational.
 - **Infinitude of primes.** Standard; used to pick one prime $q>B$ and then
   infinitely many.
-- **Local claims consumed.** None. Two other claims are mentioned in a
-  relation paragraph only and are not consumed; their content and standing
-  were outside the read set and are not checked here.
+- **Local claims consumed.** None. L18 and L19 are mentioned in a relation
+  paragraph only and are not consumed; their content and standing were
+  outside the read set and are not checked here.
 - **Explicit assumptions.** $r$ an integer with $r\ge6$; nothing else.
 - **Held description of the formal counterpart.** The card's "Formal source"
   paragraph only; the Lean file itself was not read.
@@ -297,9 +297,9 @@ the manuscript are the manuscript's; nothing the manuscript proves is altered
 or strengthened.
 
 **Limitations.** The relation paragraph on Problem 940 (the wording of that
-problem's questions, the content and tier of two other claims, and the
-remark on the Conjectures.io submission's $r=4$ leg) lies outside the
-commissioned read set and was not checked. The Lean file was not read, so F2 rests on the
+problem's questions, the content and tier of L18 and L19, and the remark on
+the Conjectures.io submission's $r=4$ leg) lies outside the commissioned read
+set and was not checked. The Lean file was not read, so F2 rests on the
 card's description. The held PDF is a local typesetting of a snapshot whose
 relationship to the text as posted is not known. This focused review assigns
 no tier and changes no status.

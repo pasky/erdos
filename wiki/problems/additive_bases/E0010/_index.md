@@ -13,7 +13,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 10
@@ -139,7 +139,7 @@ the formal target `Erdos10.erdos_10.variants.grechuk`, task
 `({n | Even n} \ Erdos10.sumPrimeAndTwoPows 3).Infinite`. Record
 `244ff2d0-399d-4e37-a307-4ff6f3cb3493` (claim page
 [[problems/additive_bases/E0010/claims/2026_08_06_5gegry_uluscv|the certified Conjectures.io proof]]):
-the erdosproblems.com Lean kernel accepted the proof on 6 August 2026 (05:12:22
+the Conjectures.io Lean kernel accepted the proof on 6 August 2026 (05:12:22
 UTC, per the decision text on the duplicate record below); its review approved
 the record the same day, its decision text finding that Lean verified the exact
 published task and that the proof establishes infinitely many even natural
@@ -163,14 +163,15 @@ theorem target" under Conjectures.io's policy v1), not on mathematical grounds.
 Its proof and a write-up are published in a gist of 2026-08-07, recorded on the
 [[../library/additive_bases/daryxx_2026_erdos_problem_10_grechuk_partial_result/_index|gist card]],
 and that gist is the `formal_proof` the formal-conjectures catalog cites when it
-marks the variant `research solved` (2026-09-14, PR #5998), which is catalog
-agreement; the erdosproblems.com proof-claims thread lists the same gist as a
-partial claim (submitted 2026-08-07 10:33:54). The certification is reported,
-not counted: the accepted partial claim page rests on this corpus's rebuild and
-kernel replay of the file on the repository's pinned toolchain (Lean v4.34.1)
-and its check of the target against the claim, listed as `formalized`; no
-refereed publication of the variant exists. The page-level standing does not
-rest on it, since a partial claim settles no question of the page.
+marks the variant `research solved` (2026-09-14, PR #5998), which is
+formal-conjectures agreement; the erdosproblems.com proof-claims thread lists
+the same gist as a partial claim (submitted 2026-08-07 10:33:54). The
+certification is reported, not counted: the accepted partial claim page rests on
+this corpus's rebuild and kernel replay of the file on the repository's pinned
+toolchain (Lean v4.34.1) and its check of the target against the claim, listed
+as `formalized`; no refereed publication of the variant exists. The page-level
+standing does not rest on it, since a partial claim settles no question of the
+page.
 
 **Reading depth.** The corpus rebuilt the accepted file and replayed its target
 in the kernel, as its claim page records; it has not built the second proof's
@@ -274,6 +275,19 @@ the file Conjectures.io certified.
 - Not results on this question: Johnston–Trudgian, arXiv:2605.17825 (two
   primes plus six powers of $2$ under GRH), and the OEIS A387053 formula line
   that misreads it as a one-prime bound.
+
+## Limits of the available transfer
+
+The density statement discussed in
+[[../library/additive_bases/granville_1998_binary_additive_problem_erdos_order_2_mod_p_2/_index|Granville–Soundararajan]]
+has quantifiers $\forall\epsilon>0\,\exists k$: a density at least $1-\epsilon$
+is obtained. It does not give $\exists k\,\exists N_0\,\forall n\ge N_0$, as
+required here. Even density one for one $k$ permits infinitely many exceptions.
+Their odd-three/even-four assertions are conjectures. A two-prime theorem
+changes the representation and also cannot supply the missing one-prime
+statement. This comparison uses the introduction's statements, not a new proof
+audit; the accepted small-$k$ exclusions above retain their scope.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -33,7 +33,7 @@ links:
   kind: formalization
   date: 2026-09-15
 created: 2026-10-07T07:39:53Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -62,7 +62,7 @@ problem's prize asked for a construction; "explicit" is read as
 polynomial-time membership, the sense the authors adopt.
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
-The `reviewed` evidence is the documented acceptance by the catalog
+The `reviewed` evidence is the documented acceptance by
 erdosproblems.com. Its page for the problem (last edited 28 December 2025, the
 `discussion` link) carried the label PROVED (LEAN), and its curator, Thomas
 Bloom, credits these authors with the explicit construction. The

@@ -10,7 +10,7 @@ tags:
 status: claimed
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 821
@@ -98,7 +98,25 @@ commentary on a problem it labeled OPEN is not an acceptance. Erdős [Er35b]
 proved $g(n)>n^{c}$ for infinitely many $n$ with some $c>0$, but the exponent is
 not explicit (Part 3 of the paper gives $m^{C_5}$ with $C_5>\sigma/2$ for a
 small unspecified $\sigma$), so the result settles no named $\epsilon$ and gets
-no claim page.
+no claim page. The two failed transfers below bear on none of these, since
+neither concerns the fiber count. The notes under Progress and Known Results
+record author-recorded transfers from research folders and are not
+independently reviewed.
+
+## Progress
+
+The collision estimate of the accepted Problem 416 proof counts pair
+representations $b(p-1)$ of a value, at most $d(n)$ of them per value, and so
+bears neither way on the fiber count $g(n)$; the obstruction is recorded on
+[[research/erdos_416/connections|the connections page of the Problem 416 folder]].
+
+## Known Results
+
+Multiplying a totient by convenient integers (Ford's Theorem 2; Lemma 4.1 of
+Pollack, Pomerance and Treviño) preserves multiplicity and never increases it,
+so that mechanism does not bear on large fibers;
+[[research/erdos_49/connections|the Problem 49 connections page]] records the
+failed transfer.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

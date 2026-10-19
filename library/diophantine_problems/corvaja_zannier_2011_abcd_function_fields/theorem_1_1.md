@@ -7,7 +7,7 @@ desc: |
   outside S is at least the height of (1:u:v) minus explicit error terms in
   chi, with a separate bound when u and v are multiplicatively dependent.
 created: 2026-10-08T15:46:05Z
-updated: 2026-10-08T15:46:05Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -130,6 +130,7 @@ paper's reference [6] shows that $u,v$ satisfy the same relation, and part
 
 ## Bears on
 
-No problem page of this corpus. The three- and four-summand bounds that the
-paper recalls on p. 438 are recorded on the
+No problem page of this corpus. The corpus's research pages use only the
+three- and four-summand bounds that the paper recalls on p. 438, recorded on
+the
 [[diophantine_problems/corvaja_zannier_2011_abcd_function_fields/recalled_abc_abcd_bounds|recalled-bounds page]].

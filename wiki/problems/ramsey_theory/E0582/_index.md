@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 582
@@ -119,8 +119,8 @@ $$
 Taking $k_1=k_2=3$ gives a graph of clique number $3$ that arrows
 $(K_3,K_3)$, hence a $K_4$-free graph with the property required in the
 question. The editor's note on printed p. 19 states this
-specialization explicitly. Thus the existential catalog problem is settled
-independently of any exact-order calculation or formalization claim; the
+specialization explicitly. Thus the existential erdosproblems.com problem is
+settled independently of any exact-order calculation or formalization claim; the
 claim page above carries the acceptance evidence.
 
 If $F_e(3,3;4)$ denotes the least order of such a graph, the sources

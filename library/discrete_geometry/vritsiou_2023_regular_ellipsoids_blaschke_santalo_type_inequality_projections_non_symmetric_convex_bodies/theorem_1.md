@@ -7,7 +7,7 @@ desc: |
   its polar and their reverse coverings need at most exp(C_alpha n/t^alpha)
   translates of t-dilates for all t >= C_alpha^{1/alpha}.
 created: 2026-10-08T16:41:11Z
-updated: 2026-10-08T16:41:11Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -84,5 +84,8 @@ bodies," arXiv:2303.17753v2 (2023); the edition read is named on the
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0774/_index|Problem 774]]: the
-  theorem concerns convex bodies only and proves nothing about dissociated
-  sets or the problem.
+  corpus's
+  [[../wiki/research/erdos_774/lemmas/stable_lattice_free_energy|stable-lattice free-energy lemma]]
+  uses this statement at $\alpha=1$ as a convex-body input to a research
+  route on the problem. The theorem concerns convex bodies only and proves
+  nothing about dissociated sets or the problem.

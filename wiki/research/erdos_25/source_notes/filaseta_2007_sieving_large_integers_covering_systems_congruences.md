@@ -5,7 +5,7 @@ desc: "Source notes for Problem 25: library/integer_sequences/filaseta_2007_siev
 tags: []
 sources: []
 created: 2026-09-24T22:18:28Z
-updated: 2026-09-24T22:18:28Z
+updated: 2026-10-13T14:13:11Z
 ---
 
 # library/integer_sequences/filaseta_2007_sieving_large_integers_covering_systems_congruences
@@ -54,7 +54,8 @@ apart from its finite delayed prefix, the residual set of a finite residue
 system. More specifically, Chojecki's Proposition 4.2 turns each first-kill set
 into a translate-dilate of a finite quotient sieve: its moduli are
 $q_{ij}=n_j/(n_i,n_j)$, with one forbidden class for every compatible earlier
-index $j$.
+index $j$. Thus this paper supplies finite local estimates that can be tested on
+those quotient systems.
 
 The exact finite estimates and their hypotheses are as follows.
 
@@ -105,6 +106,16 @@ The exact finite estimates and their hypotheses are as follows.
   bounded-multiplicity protection can fail, but it is not itself a Problem 25
   construction because Problem 25 has strictly increasing, hence distinct,
   moduli.
+
+The most direct transfer opportunity is to apply Lemma 2.1 or the Section 3
+smooth/rough decomposition to a fixed Chojecki quotient sieve. If some
+$q_{ij}=1$, that sieve is empty; otherwise one deletes duplicate identical
+forbidden classes and records the remaining multiplicity of each quotient
+modulus. Theorems A, 2, B, and 4 then give useful positivity or
+$\alpha$-comparison only when those quotient moduli satisfy their respective
+large-minimum, reciprocal-charge, window, and multiplicity hypotheses. The
+fiber decomposition in Lemmas 3.1-3.4 is also a plausible starting point for
+separating prime-power towers from a transverse part of the quotient sieve.
 
 The limitation is essential. All systems in this paper are finite and the
 conclusions concern their ordinary periodic density. Chojecki's Conjecture 5.1

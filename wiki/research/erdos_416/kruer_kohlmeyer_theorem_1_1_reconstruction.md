@@ -7,7 +7,7 @@ desc: |
   quotient written out; the proposition itself is stated as an imported
   premise whose proof exists only in the accepted Lean file.
 created: 2026-09-28T04:33:16Z
-updated: 2026-09-28T06:43:25Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 [[research/erdos_416/_index|..]]
@@ -249,7 +249,15 @@ and the card.
 
 ## What the theorem does not give
 
-The statement is the single scale $c=2$ with no rate. The write-up claims
-nothing for $c\ne2$ and gives no asymptotic formula for $V(x)$; the mass
-$H(y)$ depends on $\varepsilon$ through the family and is defined only as a
-Lean object.
+The statement is the single scale $c=2$ with no rate. The same Steps 1–5
+with $T_0=T(y/c)$, $B_y$ counting pairs with value at most $y/c$ and a
+version of (5) reading $A_y-cB_y=o(A_y)$ would give $V(cx)/V(x)\to c$, but
+the write-up claims nothing for $c\ne2$ and the accepted target is the $c=2$
+statement only. No asymptotic formula for $V(x)$ follows: the mass $H(y)$
+depends on $\varepsilon$ through the family, and (3), (4) and the
+convergence $A_y/H(y)\to1$ only place $H(y)/V(y)$ eventually between
+$1-\varepsilon-o(1)$ and $1+o(1)$. An asymptotic formula would need an
+explicit evaluation of these masses with a main term independent of
+$\varepsilon$ up to factors $1+O(\varepsilon)$, which the write-up neither
+defines nor claims; the folder index says what else the second question of
+Problem 416 needs.

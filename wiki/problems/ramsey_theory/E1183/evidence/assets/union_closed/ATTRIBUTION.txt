@@ -1,0 +1,11 @@
+The source excerpts under subject/ are selections from Deep Bhattacharjee,
+Priyabrata Mandal and Ushashi Bhattacharya, Resolving Erdos-Ulam Monochromatic
+Union-Closed Family Conjectures, arXiv:2610.02833v1 (2 October 2026).
+Source: https://arxiv.org/abs/2610.02833v1
+License: Creative Commons Attribution 4.0 International,
+https://creativecommons.org/licenses/by/4.0/
+The retained arXiv acquisition record was inspected on 2026-10-15 UTC and
+identifies that license. The exact source selections are in subject/manifest.json;
+[cut] marks omitted ranges. Mathematical excerpt text is unchanged. The neutral
+model, extraction, independent derivations and examination records are Plasma AI
+work. No endorsement by the source authors is implied.

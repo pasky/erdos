@@ -3,7 +3,7 @@ name: diophantine_problems
 title: "Diophantine Problems and Powers"
 desc: "Sources filed under Diophantine Problems and Powers, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-12T23:44:47Z
+updated: 2026-10-14T23:06:55Z
 ---
 
 # Diophantine Problems and Powers
@@ -89,7 +89,7 @@ coprime 3-powerful triples a + b = c with none a perfect cube, strengthening
 Nitaj's answer to the third question of Problem 939; the text was not read.
 
 [[diophantine_problems/conjectures_io_2026_erdos_939_lean_r_powerful_sums/_index|conjectures_io_2026_erdos_939_lean_r_powerful_sums/]]: Records the Conjectures.io Lean submission for Problem 939, kernel-checked
-against a catalog statement that omitted positivity and paid as a
+against a formal-conjectures statement that omitted positivity and paid as a
 formalization-defect award, whose accepted file also proves the infinitude
 of solutions for r at least 6 with positive summands.
 
@@ -318,6 +318,8 @@ representations as a sum of n products of powers of given primes.
 [[diophantine_problems/uchiyama_1984_diophantine_equation/_index|uchiyama_1984_diophantine_equation/]]: Proves new cases in which the equation x^x y^y = z^z has no nontrivial
 solutions, and shows solutions of each fixed index below 1/4 are
 effectively finite.
+
+[[diophantine_problems/ulas_2013_note_erdos_straus_erdos_graham/_index|ulas_2013_note_erdos_straus_erdos_graham/]]: Recasts the Erdős–Straus and Erdős–Graham divisibility questions (Problems 389 and 396) as base-p digit-sum inequalities, reports least solutions for small cases from computer searches and proves some infinitude results; Schinzel's appendix treats arithmetic-progression analogues.
 
 [[diophantine_problems/walker_1976_consecutive_integer_pairs_powerful_numbers_related/_index|walker_1976_consecutive_integer_pairs_powerful_numbers_related/]]: Characterizes all pairs of consecutive powerful numbers via Pell equation
 solutions having a prime-divisibility property.

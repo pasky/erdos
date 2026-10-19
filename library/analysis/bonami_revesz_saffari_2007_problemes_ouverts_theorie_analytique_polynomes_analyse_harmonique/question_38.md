@@ -6,7 +6,7 @@ desc: |
   additive group of the complex numbers, is a finite union of
   quasi-independent sets; the conclusion of Problem 774 posed for this set.
 created: 2026-10-08T16:33:52Z
-updated: 2026-10-08T16:33:52Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -66,4 +66,7 @@ None.
   [[analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/question_39|Question 39]]
   would make the roots of unity a counterexample to the analogue of E0774 in the
   additive group $\mathbb C$; it would not by itself decide the question for
-  natural numbers.
+  natural numbers. The repository's native claim
+  [[../wiki/theory/integer_sequences/L21_roots_of_unity_proportional_dissociation/_index|L21]]
+  states the proportional-extraction hypothesis for this set and not the
+  finite-union conclusion; its own page records its standing.

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 933
@@ -27,9 +27,10 @@ $$
 $$
 
 **Status.** Open. On 7 February 2026, Mohamed Amine Belachhab claimed a negative
-answer, namely that the limsup equals $3/\log 2$. The erdosproblems.com
-discussion thread refuted this claim with the counterexample
-$n=3^{14}\cdot 311$. The claim is recorded as rejected on
+answer, deriving a limsup of $3/\log 2$ from a uniform bound by that
+constant. The erdosproblems.com discussion thread refuted the uniform bound
+with the counterexample $n=3^{14}\cdot311$; a single finite value alone
+does not refute an asymptotic limsup. The claim is recorded as rejected on
 [[problems/diophantine_problems/E0933/claims/2026_02_07_belachhab|its claim page]].
 
 **Source.** [erdosproblems.com/933](https://www.erdosproblems.com/933), accessed
@@ -46,13 +47,16 @@ https://www.erdosproblems.com/933.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/933.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/powerful_numbers_and_products/_index|exact smooth-part check]]
+verifies the displayed finite counterexample with integer inequalities.
+A finite value above $3/\log2$ refutes a uniform bound by that constant;
+by itself it does not refute an asymptotic limsup value. The same research
+account proves that the entire family $n=2^t$ has ratio at most
+$3/\log2$, with equality for odd powers $t=3^j$. Thus that family cannot
+supply the requested unbounded limsup. These are scoped author checks;
+they give no unbounded variable-cofactor construction.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

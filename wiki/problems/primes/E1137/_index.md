@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1137
@@ -37,13 +37,16 @@ https://www.erdosproblems.com/1137.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1137.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/prime_gap_statistics|adjacent-gap reduction]]
+defines $D_N=\max_{1\le n\le N}d_n$ and
+$B_N=\max_{2\le n\le N}\min(d_n,d_{n-1})$. The inequalities
+$B_N^2\le\max_{2\le n\le N}d_nd_{n-1}\le D_NB_N$ make the target
+equivalent to $B_N/D_N\to0$. This author-recorded equivalence requires
+isolation of near-record gaps. A lower bound for a single large gap does
+not provide the needed upper control of adjacent pairs.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

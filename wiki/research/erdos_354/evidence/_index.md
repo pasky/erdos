@@ -8,7 +8,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-28T04:36:12Z
-updated: 2026-10-08T01:30:39Z
+updated: 2026-10-15T02:28:16Z
 ---
 
 # Evidence
@@ -17,7 +17,8 @@ updated: 2026-10-08T01:30:39Z
 
 [[research/erdos_354/evidence/verify/_index|verify/]]: Independent focused reviews of each Problem 354 reconstruction page as of
 2026-09-28T05:03:27Z, one report per page, and one distinct grade of the
-fourteen reports; no tier is assigned.
+fourteen reports, together with the independently graded dyadic-root
+deduction that warrants L33 at tier 1.
 
 ***
 

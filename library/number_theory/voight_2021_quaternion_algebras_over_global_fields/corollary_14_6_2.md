@@ -6,7 +6,7 @@ desc: |
   Voight's Main Theorem 14.6.1: for all nonzero a and b in F, the product of
   the Hilbert symbols (a,b)_v over all places v of F equals 1.
 created: 2026-10-08T17:08:36Z
-updated: 2026-10-08T17:08:36Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -58,4 +58,7 @@ Lemma 14.5.3 (p. 230).
 
 ## Bears on
 
-The corollary bears on no Erdős problem directly.
+The corollary bears on no Erdős problem directly. The corpus's
+[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]] research
+uses only the rational case,
+[[number_theory/voight_2021_quaternion_algebras_over_global_fields/proposition_14_2_1|Proposition 14.2.1]].

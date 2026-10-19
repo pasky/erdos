@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 857
@@ -63,7 +63,8 @@ the connection, observed by Alon, Shpilka and Umans [ASU13]
 ([[../library/set_systems/alon_2013_sunflowers_matrix_multiplication/_index|card]]),
 between the case $k=3$ and the cap set problem, the largest subset of
 $\mathbb F_3^n$ with no three-term arithmetic progression; Naslund and
-Sawin's Theorem 3 quantifies that reduction as $\mu_3^S\le\sqrt{1+C}$, $C$
+Sawin's [[../library/set_systems/naslund_2017_upper_bounds_sunflower_free_sets/theorem_8|Theorem 8]]
+quantifies that reduction as $\mu_3^S\le\sqrt{1+C}$, $C$
 the cap set capacity, which with the Ellenberg-Gijswijt bound $C\le2.7552$
 gives only $1.938$. erdosproblems.com credits no asymptotic formula and no bound
 for $k\ge4$. Erdős's 1970 formulation [Er70]
@@ -91,6 +92,27 @@ which leaves the asymptotic answer as `sorry` and names no formal proof), the
 journal and arXiv records of Naslund and Sawin's paper, and the linked
 library cards. No other bound on $m(n,k)$ credited by erdosproblems.com or found
 in these sources is recorded.
+## Threshold conventions and the cap-set comparison
+
+If $F_k(n)$ is the maximum size of a distinct sunflower-free family, the
+forcing threshold for distinct families is $F_k(n)+1$. For indexed lists
+that permit repetitions, each set appears at most $k-1$ times in a
+sunflower-free list, and its support is also sunflower-free. Consequently
+the corresponding threshold satisfies
+
+$$
+F_k(n)+1\le m_{\mathrm{list}}(n,k)\le(k-1)F_k(n)+1.
+$$
+
+The fixed-$k$ exponential capacities agree, but exact finite thresholds
+and relative asymptotics need their convention stated.
+
+To improve the direct base $a=3/2^{2/3}$ through Theorem 8 alone requires
+$C<a^2-1=9/2^{4/3}-1$. The quoted upper bound $2.7552$ does not meet
+that cutoff. This is a comparison of the inspected theorem statements;
+it supplies neither a sharper cap-set estimate nor a matching sunflower
+lower bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

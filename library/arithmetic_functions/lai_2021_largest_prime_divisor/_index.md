@@ -5,7 +5,7 @@ desc: |
   1+9 log 2, about 7.238, and extends it to polynomial shifts.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T15:32:23Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # arithmetic_functions/lai_2021_largest_prime_divisor
@@ -68,8 +68,8 @@ proof is transcribed.
 **Bears on.** [[../wiki/problems/arithmetic_functions/E0977/_index|#977]]
 (context only): Theorem 1.1 with $f=1$ gives
 $\limsup_{n\to\infty}P(n!+1)/n\geq1+9\log2$ for the factorial variant that
-the problem's catalog remarks mention; it does not show that $P(n!+1)/n$
-tends to infinity and says nothing about $P(2^n-1)/n$.
+the problem's erdosproblems.com remarks mention; it does not show that
+$P(n!+1)/n$ tends to infinity and says nothing about $P(2^n-1)/n$.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

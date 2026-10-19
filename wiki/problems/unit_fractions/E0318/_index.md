@@ -15,7 +15,7 @@ parts:
 - positive_density
 - squares
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 # Problem 318
@@ -164,7 +164,7 @@ of the state changes), pointing to Collin Yuanjie Ren's package for the
 squares (prepared with OpenAI Codex; it reproduces the progression and density
 parts of Alexeev's file as credited prior work), a formalization link on
 [[problems/unit_fractions/E0318/claims/2026_02_01_larsen|Larsen's page]].
-erdosproblems.com's own label is SOLVED, without a Lean suffix.
+erdosproblems.com's own label was SOLVED, without a Lean suffix.
 
 ## Current assessment
 

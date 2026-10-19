@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1204
@@ -318,6 +318,9 @@ its Davenport attribution differ from erdosproblems.com's account; both are
 recorded and the difference was not raised with erdosproblems.com. (4) The
 asymptotic of $B(k)$ rests on a heuristic and on data to $k=147$ from an
 unrefereed forum computation, of which only $k\le10$ was recomputed here.
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

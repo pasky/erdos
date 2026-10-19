@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1120
@@ -54,13 +54,23 @@ https://www.erdosproblems.com/1120.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The target is the worst-case shortest escape length $S(n)$ for every degree.
+The two pending Pendyala claims in Status cover bounds and some fixed degrees,
+and neither supplies the exact function. Section 9 of the held arXiv paper
+has been inspected through Proposition 9.7: reflection to a zero-free
+polynomial, two exits on a level graph, and Crofton's formula give its claimed
+upper bound $S(n)\le\pi n$, with its topological and integral-geometric
+inputs retained as source dependencies. The lower-bound maze proof has not
+been checked. The separate degree-six radial witness and its angular
+certificate remain uninspected. This is a bounded source-interface assessment,
+not a wider status search or independent review.
 
-## Known Results
+**A deduction and its scope.**
+[[research/erdos_1120/radial_obstruction_transfer|Radial obstructions and degree transfer]] gives the author-recorded
+argument and source boundaries: compactness turns the absence of an allowed radius into shortest escape length greater than one; powers preserve that obstruction only at degree multiples.
 
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -68,6 +78,10 @@ Not yet compiled.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/analysis/pendyala_2026_radial_access_lemniscates/_index|pendyala_2026_radial_access_lemniscates]]
+- [[../library/analysis/pendyala_2026_radial_access_lemniscates/theorem_1_1|pendyala_2026_radial_access_lemniscates / theorem_1_1]]
+- [[../library/analysis/pendyala_2026_radial_access_lemniscates/theorem_5_1|pendyala_2026_radial_access_lemniscates / theorem_5_1]]
+- [[../library/analysis/pendyala_2026_radial_access_lemniscates/theorem_6_2|pendyala_2026_radial_access_lemniscates / theorem_6_2]]
 - [[../library/analysis/pendyala_2026_shortest_paths_polynomial_lemniscate_sublevel_sets/_index|pendyala_2026_shortest_paths_polynomial_lemniscate_sublevel_sets]]
 - [[../library/analysis/pendyala_2026_shortest_paths_polynomial_lemniscate_sublevel_sets/proposition_9_7|pendyala_2026_shortest_paths_polynomial_lemniscate_sublevel_sets / proposition_9_7]]
 - [[../library/analysis/pendyala_2026_shortest_paths_polynomial_lemniscate_sublevel_sets/theorem_1_2|pendyala_2026_shortest_paths_polynomial_lemniscate_sublevel_sets / theorem_1_2]]

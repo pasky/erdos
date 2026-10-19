@@ -1,18 +1,16 @@
 ---
 name: extremal_graph_theory/lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs
 desc: |
-  Lazebnik, Ustimenko and Woldar's 1994 note: for k >= 3 and
-  2 <= t <= k - 1, taking t copies of each vertex in the smaller part of a
-  bipartite 2k-cycle-free graph of girth at least 2k + 2 gives bipartite
-  2k-cycle-free graphs of the same magnitude r and constant at least
-  t (2/(t+1))^r times the old one, so C_2k-extremal graphs are eventually
-  non-bipartite or of girth at most 2k - 2; applied to the known girth-eight
-  and girth-twelve families, lambda_3 >= 2/3^(4/3) and
-  lambda_5 >= 4/5^(6/5), whose bipartite graphs disprove Problem 574 at
-  k = 3 and k = 5 by the corpus's deduction.
+  Lazebnik, Ustimenko and Woldar's 1994 note: for k >= 3 and 2 <= t <= k - 1,
+  t copies of each vertex in the smaller part of a bipartite C_2k-free graph
+  of girth >= 2k + 2 keep the magnitude r and raise the constant by a factor
+  at least t (2/(t+1))^r, so C_2k-extremal graphs are eventually non-bipartite
+  or of girth at most 2k - 2; girth-8 and girth-12 families give
+  lambda_3 >= 2/3^(4/3) and lambda_5 >= 4/5^(6/5), whose bipartite graphs
+  disprove Problem 574 at k = 3, 5 (the corpus's deduction).
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:00:04Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # extremal_graph_theory/lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs

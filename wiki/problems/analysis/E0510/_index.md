@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 510
@@ -116,6 +116,11 @@ proof-claims tab, the arXiv records of [Be25c] and [JMTZ25], the
 formal-conjectures statement file and the library cards of [Bo86], [Be25c]
 and [JMTZ25]; [Ru04] and [Er61] are cited from erdosproblems.com and the Rényi
 archive scan.
+
+**A deduction and its scope.**
+[[research/erdos_510/positive_difference_normalization|Positive differences and the square-root scale]] gives the author-recorded
+argument and source boundaries: an exact cosine identity for positive differences, with the factor two retained, supplies small-excursion examples at every cardinality but no universal lower bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -3,7 +3,7 @@ name: discrepancy
 title: "Discrepancy"
 desc: "Sources filed under Discrepancy, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:03:01Z
+updated: 2026-10-15T05:59:54Z
 ---
 
 # Discrepancy
@@ -14,6 +14,9 @@ updated: 2026-10-08T18:03:01Z
 and homogeneous hypergraphs in terms of the weights, extending the
 Erdős and Spencer order n to the 3/2 for the complete graph, through
 random unconditional convergence of Rademacher chaos in L-infinity.
+
+[[discrepancy/bilyk_2011_roth_orthogonal_function_method/_index|bilyk_2011_roth_orthogonal_function_method/]]: Bilyk's exposition of Roth's method includes Halász's planar L1 bound,
+with a complex Riesz product argument relevant to consecutive gaps.
 
 [[discrepancy/champagne_2024_well_distribution_modulo_one_primes/_index|champagne_2024_well_distribution_modulo_one_primes/]]: Constructs an irrational number whose products with the primes fail to be
 well-distributed modulo one.

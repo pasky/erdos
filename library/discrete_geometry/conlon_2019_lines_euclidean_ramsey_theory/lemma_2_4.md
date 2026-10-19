@@ -4,7 +4,7 @@ title: "Lemma 2.4: a sparse subset"
 desc: |
   Extracts separated subsets with a quantitative greedy bound.
 created: 2026-09-05T12:22:53Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:20:03Z
 ---
 
 ***
@@ -32,6 +32,6 @@ In particular $s=5$ gives a $5$-separated subset with
 $|K'|\ge11^{-n}|K|$, as needed in the main theorem.
 
 **Related proof pages.**
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_2|lemma 2 2]].
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/lemma_2_2|Lemma 2.2]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|Problem 188]].

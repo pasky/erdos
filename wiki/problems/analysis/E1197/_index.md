@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1197
@@ -44,8 +44,9 @@ https://www.erdosproblems.com/1197.
   $\sum^\infty_{n=1}f(nx)$ for measurable functions. Mathematika (1999),
   337-341.
 
-**Formalization.** The erdosproblems.com label carried the suffix "(LEAN)", a
-catalog label; this corpus has built none of the Lean developments. Statement in
+**Formalization.** The erdosproblems.com label carried the suffix "(LEAN)", an
+erdosproblems.com label; this corpus has built none of the Lean developments.
+Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/83397bad317ac2cf180ffd418f791b8613d1a78f/FormalConjectures/ErdosProblems/1197.lean),
 pinned to its revision of 2026-10-07 (the file was added on 20 September 2026).
 Its theorem `erdos_1197`, tagged `research solved` with `answer(False)`, states

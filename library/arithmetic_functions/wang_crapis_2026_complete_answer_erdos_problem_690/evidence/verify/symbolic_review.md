@@ -6,7 +6,7 @@ desc: |
   the nine result pages, card and PDF: conditional symbolic pass, forty-two
   finite certificates pending, one locator correction required.
 created: 2026-09-21T17:35:12Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:57Z
 ---
 
 ***
@@ -22,11 +22,10 @@ examination completed 2026-09-07T15:43:23Z. No distinct grader is recorded,
 so no numerical claim tier is assigned. This record does not supersede the
 frozen preparatory audit that preceded it; that audit is not retained here.
 
-The subject is identified by git identity. The reviewed pages are the ten
-Markdown pages and the PDF of this folder at the commit that lands this
-folder (the first commit that adds
-`library/arithmetic_functions/wang_crapis_2026_complete_answer_erdos_problem_690/`),
-with these qualifications:
+The subject is identified by path and date. The reviewed pages are the ten
+Markdown pages and the PDF of this folder,
+`library/arithmetic_functions/wang_crapis_2026_complete_answer_erdos_problem_690/`,
+as filed on 2026-09-21T17:35:12Z, with these qualifications:
 
 - The bodies of the nine result pages `lemma_3_1.md`, `lemma_3_2.md`,
   `lemma_4_1.md`, `certificate_4_2.md`, `certificate_4_3.md`,
@@ -51,7 +50,7 @@ with these qualifications:
 
 The report below is the reviewer's text, edited in place under
 `docs/verification.md` "Exact subjects and durable evidence" and `AGENTS.md`
-convention 9 (Git identity, not byte hashes): the byte-count and SHA-256
+convention 9 (Paths and dates, not hashes): the byte-count and SHA-256
 tables and every per-file hash are replaced by the identification above,
 names of seats and harnesses are removed, private working paths are replaced
 by the repository paths, and the commissioning authority is called the lane's

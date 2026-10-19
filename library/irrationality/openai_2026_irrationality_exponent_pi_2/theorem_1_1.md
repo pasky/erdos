@@ -7,7 +7,7 @@ desc: |
   irrationality exponent of pi is 2, with an ineffective threshold. Claims
   checked only.
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 ***
@@ -44,8 +44,8 @@ $p$ and all integers $q\ge Q$; and the supremum of the set of $\nu>0$ for
 which infinitely many rationals $r$ with reduced denominator at least $2$
 satisfy $0<|\pi-r|<\operatorname{den}(r)^{-\nu}$ equals $2$. The Lean page
 places the Flint–Hills consequence outside the formalized statement. It was
-read statically and not built or audited here, and the catalog lists no
-entry for it at this revision (see the card).
+read statically and not built or audited here, and the release's catalog lists
+no entry for it at this revision (see the card).
 
 **Source.** OpenAI, *The irrationality exponent of $\pi$ is $2$*, release
 folder `preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026`;

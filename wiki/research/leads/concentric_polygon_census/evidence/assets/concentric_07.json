@@ -1,0 +1,38 @@
+{
+  "family": "half_step_concentric",
+  "order": 7,
+  "field_order": 14,
+  "threshold": 7,
+  "generic_counts": [
+    7,
+    7
+  ],
+  "equations": 24,
+  "real_root_events": {
+    "negative": 24,
+    "zero": 0,
+    "positive": 20
+  },
+  "critical": [
+    {"events": [["P", 1, 0, -1]], "position": "below", "counts": [6, 7]},
+    {"events": [["Q", 3, 0, 1]], "position": "below", "counts": [7, 6]},
+    {"events": [["Q", 2, 0, 1]], "position": "below", "counts": [7, 6]},
+    {"events": [["Q", 3, 1, 1]], "position": "below", "counts": [7, 6]},
+    {"events": [["P", 2, 3, 1]], "position": "below", "counts": [6, 7]},
+    {"events": [["Q", 1, 0, -1]], "position": "below", "counts": [7, 6]},
+    {"events": [["Q", 2, 1, 1]], "position": "below", "counts": [7, 6]},
+    {"events": [["P", 2, 2, 1]], "position": "below", "counts": [6, 7]},
+    {"events": [["Q", 3, 2, 1]], "position": "below", "counts": [7, 6]},
+    {"events": [["P", 3, 3, 1]], "position": "inside", "counts": [6, 7]},
+    {"events": [["Q", 3, 3, 1]], "position": "inside", "counts": [7, 6]},
+    {"events": [["P", 3, 2, 1]], "position": "above", "counts": [6, 7]},
+    {"events": [["Q", 2, 2, 1]], "position": "above", "counts": [7, 6]},
+    {"events": [["P", 2, 1, 1]], "position": "above", "counts": [6, 7]},
+    {"events": [["P", 1, 0, 1]], "position": "above", "counts": [6, 7]},
+    {"events": [["Q", 2, 3, 1]], "position": "above", "counts": [7, 6]},
+    {"events": [["P", 3, 1, 1]], "position": "above", "counts": [6, 7]},
+    {"events": [["P", 2, 0, 1]], "position": "above", "counts": [6, 7]},
+    {"events": [["P", 3, 0, 1]], "position": "above", "counts": [6, 7]},
+    {"events": [["Q", 1, 0, 1]], "position": "above", "counts": [7, 6]}
+  ]
+}

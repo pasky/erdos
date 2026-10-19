@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 7
 
 [[problems/covering_systems/_index|..]]
 
-[[problems/covering_systems/E0007/claims/_index|claims/]]: The 7 claim pages of Problem 7, one per claimant's result; the problem's standing derives from them.
+[[problems/covering_systems/E0007/claims/_index|claims/]]: The 13 claim pages of Problem 7, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -101,6 +101,18 @@ claim is rejected on
 [[problems/covering_systems/E0007/claims/2026_05_02_lee|its claim page]].
 Neither changes the standing.
 
+Further pending partial claims are the
+[[problems/covering_systems/E0007/claims/2026_08_18_egeozturk|finite-period certificates announced by egeozturk]]
+and Schroeder's necessary conditions of
+[[problems/covering_systems/E0007/claims/2026_09_01_schroeder|seven]],
+[[problems/covering_systems/E0007/claims/2026_09_06_schroeder|eight]] and
+[[problems/covering_systems/E0007/claims/2026_09_13_schroeder|nine prime divisors in the period]],
+and
+[[problems/covering_systems/E0007/claims/2026_09_09_schroeder|four prime divisors in some individual modulus]].
+These announcements explicitly leave the unrestricted question open. Their
+statements were read in the forum and the linked author descriptions; their
+proofs and formalizations have not been checked here.
+
 The search covered the July 2026 Mian–Siddique preprint,
 a pending partial claim on
 [[problems/covering_systems/E0007/claims/2026_07_28_mian_siddique|its claim page]],
@@ -166,6 +178,49 @@ Lean development is third-party; this corpus has not built or audited it.
   pending partial claim on
   [[problems/covering_systems/E0007/claims/2026_07_28_mian_siddique|its claim page]];
   this corpus has not built the Lean.
+
+## Related project research
+
+The author-recorded [[research/covering_prime_interfaces/finite_certificates|finite-certificate comparison]] specifies the relevant periodic or finite-set test and the additional condition needed for the full question. It supplies no new witness or resolution.
+
+The
+[[theory/covering_systems/L13_useful_supply_obstruction/_index|strict useful-supply criterion]]
+gives a cylinder-counting restriction on distinct covers under its explicit
+hypotheses. It is author-recorded at tier 0 and supplies neither a new
+unrestricted necessary bound nor a solution of the erdosproblems.com question.
+
+The author-recorded
+[[research/leads/odd_covering_distortion/_index|digit distortion lead]]
+runs the square-free sieve of Balister, Bollobás, Morris, Sahasrabudhe and
+Tiba along base-$p$ digits, so that prime powers enter as nested digit
+coordinates and only the odd primes up to $73$ remain to be handled. It proves
+that specified moment certificates cannot supply that small-prime stage. The
+excluded models keep the full prefix inventory and charge every pair its
+class-mass bound without residue compatibility. At depth two, initial blocks
+through $7$ are excluded for any class-mass bounds, and those through $17$
+for the capped source recursion. At uniform depth four, every initial block
+through $17$ is excluded for any class-mass bounds, in three digit orders.
+An explicit
+[[research/leads/odd_covering_distortion/support_concentration|distinct odd
+family]] also refutes the proposed universal small-prime measure bound
+$138.877$: every measure on its nonempty uncovered set has system constant
+above $152.14$. A replacement
+[[research/leads/odd_covering_distortion/exact_loss_tail|exact-loss tail]]
+accepts any surviving uniform density at least $1/4$ in the reduced
+small-prime box, and handles that example; this quarter-density criterion is
+Plasma AI's pending partial claim on
+[[problems/covering_systems/E0007/claims/2026_10_19_plasma_ai|its claim page]].
+This density hypothesis does not hold for every configuration. The remaining
+gap is a supported measure satisfying the replacement tail for arbitrary
+$73$-smooth classes and depths.
+The full problem remains unresolved by the lead. The account is unreviewed,
+at tier 0.
+
+The author-recorded
+[[research/methods/private_progression_discounts/_index|private-progression budget]]
+retains an incomplete route. Its discounted reciprocal weights cannot simply be
+dropped. The account is unreviewed; its missing transfers and lack of strict
+slack are explicit.
 
 ## Formalization evidence
 
@@ -276,6 +331,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/covering_systems/mian_2026_kernel_checked_exclusions_odd_covering/odd_covering_lcm_gt_10000|mian_2026_kernel_checked_exclusions_odd_covering / odd_covering_lcm_gt_10000]]
 - [[../library/covering_systems/mian_2026_kernel_checked_exclusions_odd_covering/periodicity|mian_2026_kernel_checked_exclusions_odd_covering / periodicity]]
 - [[../library/covering_systems/mian_2026_kernel_checked_exclusions_odd_covering/theorem_4_4|mian_2026_kernel_checked_exclusions_odd_covering / theorem_4_4]]
+- [[../library/covering_systems/ozturk_2026_closed_form_nonexistence_odd_covering_systems/_index|ozturk_2026_closed_form_nonexistence_odd_covering_systems]]
 - [[../library/covering_systems/schinzel_nd_reducibility_polynomials_covering_systems_congruences/_index|schinzel_nd_reducibility_polynomials_covering_systems_congruences]]
 - [[../library/covering_systems/simpson_1997_crittenden_vanden_eynden_coverings/_index|simpson_1997_crittenden_vanden_eynden_coverings]]
 - [[../library/covering_systems/simpson_1997_crittenden_vanden_eynden_coverings/theorem_1|simpson_1997_crittenden_vanden_eynden_coverings / theorem_1]]

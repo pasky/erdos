@@ -7,7 +7,7 @@ desc: |
   every S in the interval from T/(k+1), excluded, to T, included, equals the
   sum of b_n over a_1 through a_n for some a_n in {k, ..., k^2}.
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -70,4 +70,4 @@ number in $(T/3,T]$, where $T=\sum p_n/2^n$, is
 $\sum p_n/(a_1\cdots a_n)$ for some $a_n\in\{2,3,4\}$; this specialization
 is the corpus's, and it says nothing about the rationality of $T$ itself.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

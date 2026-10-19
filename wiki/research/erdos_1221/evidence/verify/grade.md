@@ -8,7 +8,7 @@ desc: |
   of the ten governing items; twelve corrections are accepted, one required
   finding is rejected, and no tier is assigned.
 created: 2026-09-28T06:38:56Z
-updated: 2026-09-28T08:26:41Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -94,7 +94,7 @@ pages and from every reviewer: a fresh context given only the grading
 assignment, taking no part in writing any page or report, with no contact
 with their authors and with no other review of these pages read. The
 working-tree diff of the folder index was seen while resolving the subject;
-an untracked research page was not read. No web search was made.
+the untracked `connections.md` was not read. No web search was made.
 
 **Ruling on disclosed exposures.** Every report discloses over-wide prints:
 the problem page's Status paragraph, the library cards' read-status and

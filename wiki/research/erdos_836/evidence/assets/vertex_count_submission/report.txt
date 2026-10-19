@@ -1,0 +1,552 @@
+---
+title: "Independent vertex-count examination for Problem 836"
+desc: |
+  Adversarial examination of the complete finite intersecting hypergraph
+  construction, its exact chromatic number and vertex count, and its negative
+  answer to the first question under both supplied formulations.
+---
+
+***
+
+## Subject and independence
+
+**Reviewer role:** independent mathematical reviewer. Disclosed model:
+gpt-6-astra. Project attribution: Plasma AI. **Examination date:** 2026-10-14
+UTC. **Subject freeze:** 2026-10-14 at 16:11:31.169108 UTC.
+
+The subject is the complete self-contained corpus reconstruction of the
+vertex-count construction and its consequence for the first question of Problem
+836. The following preserved extracts fix the text examined:
+
+- Original target: `wiki/problems/graph_coloring/E0836/_index.md`.
+  The [target snapshot](../../assets/vertex_count_subject/target.md) preserves
+  **Statement** and **Statement (modified)**, lines 3–18. Both first questions
+  are assessed. The second question is present in the snapshot but excluded
+  from this examination.
+- Original argument:
+  `wiki/problems/graph_coloring/E0836/claims/1975_01_01_erdos_lovasz.md`.
+  The [argument snapshot](../../assets/vertex_count_subject/argument.md)
+  preserves **Claim** (lines 3–13), **The argument** (lines 15–59),
+  **Covers** (lines 63–67), and **Depends on** (lines 69–70).
+
+The snapshot directory is
+`wiki/research/erdos_836/evidence/assets/vertex_count_subject/`; its
+[manifest](../../assets/vertex_count_subject/manifest.json) records the original
+paths, freeze instant, and uniform `[cut]` marker. The omitted text behind those
+markers is not part of the examined subject. The original complete pages were
+not read. Snapshot identities were checked against the supplied manifest before
+reading and on checking the completed package; the examined extracts remained
+unchanged. These checks establish package consistency, not fidelity to an
+external publication.
+
+Coverage includes every integer $r\geq2$, finiteness, $r$-uniformity, pairwise
+edge intersection, incidence of every vertex, chromatic number exactly three,
+the exact vertex count, the asserted limit, and the negative first-question
+answer under both displayed formulations, including mere three-colourability.
+A proper colouring means a vertex colouring with no monochromatic edge.
+Theorem 8's upper bound, the second edge-intersection question, historical
+attribution, source-fidelity certification, and all Lean artifacts are outside
+the examination. No assertion about them supports the verdict.
+
+The independent reasoning and attacks are retained in this report at
+`wiki/research/erdos_836/evidence/verify/vertex_count/report.md`. This is a
+noncomputational examination: no mathematical program, executable result,
+unretained mathematical input, or cached output is used. The reconstruction
+route is the explicit set construction in Restatement, followed by the
+arbitrary-$r$ derivations below. The two snapshots and this reasoning suffice
+to reconstruct the assessment from an ordinary clone; there is no mathematical
+rerun command.
+
+### Reading and isolation
+
+The reviewer began in a fresh context without prior exposure to the argument,
+was neither its author nor a collaborator in its construction, and had not
+built on it in another context. The refutation charge was to find a false
+statement, missing hypothesis, unsupported essential inference, quantifier
+error, or incorrect consequence. Agreement was not a success condition.
+
+The only permitted mathematical inputs were the supplied manifest and the two
+extracts. All three were read in full, including the argument's consequence
+and dependency sentences. The only private mathematical continuation read was
+written within this examination. No complete source card, author plan or
+account, prior review, sibling state, message body, repository history, web
+page, or search result was read. No excluded material was exposed. Empty
+subscriptions were checked before the first mathematical reading and on
+returning to the examination; the communication boundary remained sealed,
+without synchronization or mathematical steering. These facts supplement the
+actual reading record rather than replacing it.
+
+Operating guidance actually read comprised `README.md`; `docs/anatomy.md`
+(introductory corpus rules, Claims, Evidence, Tiers, Naming, and Project claims,
+including Claim scrutiny); `docs/verification.md` in full;
+`campaign/AGENTS.md` and `campaign/guides/verification.md` in full;
+`campaign/guides/research.md`, Reading only; and `docs/math_authoring.md` and
+`docs/weaving.md` in full. Root `AGENTS.md` was supplied as operating
+instructions. The rendered assignment and steps, effective node settings, and
+installed operating instructions for resources, isolation, and continuation
+were also read within their authorized scope. Their identities were checked
+before use. Links and examples in that guidance were not followed to other
+mathematical material. No live native dependency standing was read; the
+Premises section explains why none is consumed.
+
+## Restatement
+
+For each integer $r\geq2$, put $n=r-1$ and choose a set $S$ of size $2n$.
+Let $\mathcal P$ consist of all unordered partitions
+$\{A,S\setminus A\}$ with $|A|=n$. Attach a distinct vertex $x_P$ outside $S$
+to each $P\in\mathcal P$. Define
+
+$$
+V_r=S\mathbin{\dot\cup}\{x_P:P\in\mathcal P\},
+$$
+
+$$
+\mathcal E_r=
+\{T\subseteq S:|T|=n+1\}
+\;\cup\;
+\{A\cup\{x_P\}:P\in\mathcal P,\ A\in P\}.
+$$
+
+The claim is that this finite hypergraph has edges of size $r$, any two
+distinct edges intersect, every member of $V_r$ belongs to an edge, and its
+chromatic number for the nonmonochromatic-edge convention is exactly three.
+Moreover, writing $N_r=|V_r|$,
+
+$$
+N_r=2r-2+\frac12\binom{2r-2}{r-1},
+\qquad
+\lim_{\substack{r\to\infty\\r\in\mathbb Z}}\frac{N_r}{r^2}=+\infty.
+$$
+
+Consequently there are no constants $C>0$ and $r_0$ such that every admissible
+hypergraph of every integer uniformity $r\geq r_0$ has at most $Cr^2$ vertices.
+Here admissibility can mean the modified formulation, with exact chromatic
+number three and all vertices incident, or either reading of the first
+formulation: exact chromatic number three, or merely the existence of a proper
+three-colouring. The constant is uniform in both $r$ and the hypergraph.
+
+The equality for $N_r$ describes this construction. It is not an assertion of
+maximality among all admissible hypergraphs, nor does it assert unbounded size
+at one fixed value of $r$.
+
+## Domain and boundary checks
+
+The finite family of subsets of $S$ supplies a finite partition set. Distinct
+labels outside $S$ can be supplied by a disjoint tagged set; no existence
+theorem about hypergraphs is being assumed. The two halves of each partition
+are disjoint and nonempty because $n\geq1$. Complementation does not fix a
+half-set, and a half-set determines its unordered partition uniquely.
+Both the family of edges inside $S$ and the pairs of edges indexed by
+partitions are finite, so the vertex set and edge set are finite.
+
+Every listed edge has $n+1=r$ elements. An edge inside $S$ cannot equal one
+containing a new vertex. Edges assigned different new vertices cannot coincide,
+and the two edges assigned to one partition are distinct. Thus the definition
+also gives a simple hypergraph; no convention allowing repeated edges is
+needed.
+
+For any $s\in S$, there are $2n-1\geq n$ other points, so adjoining any $n$ of
+them gives an edge inside $S$ containing $s$. Each $x_P$ belongs to both edges
+indexed by $P$. Thus $V_r=\bigcup\mathcal E_r$, and the cardinality counts
+incident vertices without padding by isolated labels.
+
+The endpoint $r=2$ gives $S=\{a,b\}$, a single partition, and a single new
+vertex $x$. The complete edge list is $\{a,b\}$, $\{a,x\}$, $\{b,x\}$.
+It is the three-vertex triangle: all edges have size two and meet pairwise,
+all vertices are incident, two colours force a monochromatic edge, and three
+distinct colours work. The count is $2+\tfrac12\binom21=3$. At this endpoint
+there are no two distinct edges inside $S$ and no two distinct partitions;
+those cases of the general intersection argument are vacuous, not exceptions
+to its conclusion. This explicit case is a boundary diagnostic, not a finite
+substitute for the arbitrary-$r$ arguments.
+
+## Weakest steps
+
+The following three steps carry the intersection, chromatic, and asymptotic
+claims. They expand the elementary inferences in the frozen argument; none
+changes the construction or supplies a replacement for a defective proof.
+
+### 1. Complementary halves and all edge-pair types
+
+For subsets $U,W$ of $S$, counting their union gives
+
+$$
+|U\cap W|=|U|+|W|-|U\cup W|\geq |U|+|W|-2n.
+$$
+
+Two edges lying inside $S$ each have size $n+1$, so their intersection has
+size at least two. An edge $T$ inside $S$ and a half-set $A$ have intersection
+of size at least $(n+1)+n-2n=1$, proving intersection with
+$A\cup\{x_P\}$ as well.
+
+The two distinct edges indexed by the same partition have intersection exactly
+$\{x_P\}$. It remains to try to separate edges indexed by distinct
+partitions $P,Q$. Write their old parts as $A\in P$ and $B\in Q$.
+Their new vertices are distinct and outside $S$, so their intersection is
+precisely $A\cap B$. If this were empty, then
+$B\subseteq S\setminus A$ and both sets would have size $n$. Therefore
+$B=S\setminus A$, forcing
+
+$$
+Q=\{B,S\setminus B\}=\{S\setminus A,A\}=P,
+$$
+
+contrary to their being distinct. These cases exhaust pairs of edges. This
+attack fails for every $n\geq1$; it does not assert a common vertex in all
+edges, which the question does not require.
+
+### 2. Exact chromatic number and the extension obstruction
+
+Try any two-colouring of $V_r$, with colours red and blue. If either colour
+occurs at least $n+1$ times on $S$, those vertices contain a monochromatic
+edge inside $S$. Avoiding this requires at most $n$ old vertices of each
+colour. Since all $2n$ old vertices receive a colour, the red class $R$ and
+blue class $B$ must each have size $n$.
+
+This balancing condition gives an actual index
+$P_0=\{R,B\}\in\mathcal P$, not merely an abstract partition of the same
+sizes. Giving $x_{P_0}$ red makes $R\cup\{x_{P_0}\}$ monochromatic; giving
+it blue makes $B\cup\{x_{P_0}\}$ monochromatic. These are both edges in
+the frozen definition and use the same new vertex. Hence no two-colouring
+extends even this best possible colouring of $S$.
+
+The obstruction is especially sharp: if $Q\ne P_0$, a half-set in $Q$
+cannot be all red, since a red $n$-subset would have to be $R$ and would
+determine $P_0$; the same holds for blue. Thus both old halves of $Q$ are
+mixed, and either colour could be given to $x_Q$. When $n=1$, there is no
+such $Q$. Even granting independent, unrestricted colour choices at all these
+other new vertices cannot resolve the impossible choice at $x_{P_0}$.
+
+For the separate upper bound of three colours, choose any partition
+$S=A_0\mathbin{\dot\cup}B_0$ with both parts of size $n$. Colour $A_0$
+with colour 1, $B_0$ with colour 2, and every new vertex with colour 3.
+An $(n+1)$-subset of $S$ cannot lie in either old colour class, so it meets
+both. Every edge with a new vertex contains colour 3 and also $n\geq1$ old
+vertices, whose colours are 1 or 2. This verifies the colouring for all
+partitions, not just the one chosen for the colour split. All three colours
+occur. Together with the failure of every two-colouring, this proves exact
+chromatic number three.
+
+### 3. The count, its growth, and both consequence sentences
+
+The map taking an $n$-subset $A$ to $\{A,S\setminus A\}$ has exactly two
+preimages per partition: its two halves. They are distinct since they are
+disjoint nonempty sets. Thus
+
+$$
+|\mathcal P|=\frac12\binom{2n}{n},
+\qquad
+N_r=2n+|\mathcal P|=2r-2+\frac12\binom{2r-2}{r-1}.
+$$
+
+The distinct new labels are outside $S$, so this is a disjoint-union count.
+Counting ordered pairs instead would introduce a factor of two; the frozen
+definition explicitly uses unordered partitions. This also explains why the
+half-binomial expression is an integer.
+
+To check the displayed growth estimate, the consecutive-coefficient identity
+
+$$
+\frac{\binom{2n}{k+1}}{\binom{2n}{k}}=
+\frac{2n-k}{k+1}\qquad(0\leq k<2n)
+$$
+
+shows strict increase up to the central entry and strict decrease after it.
+Counting all subsets of a $2n$-element set by their size gives
+$\sum_{k=0}^{2n}\binom{2n}{k}=2^{2n}=4^n$. There are $2n+1$ entries, so
+the maximum is at least their arithmetic mean. Therefore
+
+$$
+\frac{N_r}{r^2}\geq
+\frac{\binom{2r-2}{r-1}}{2r^2}\geq
+b_r:=\frac{4^{r-1}}{2(2r-1)r^2}>0.
+$$
+
+This is an exact finite counting inequality for arbitrary $n$, not a
+probabilistic averaging heuristic. In the ratio's own coordinates,
+
+$$
+\frac{b_{r+1}}{b_r}=
+4\frac{2r-1}{2r+1}\left(\frac{r}{r+1}\right)^2
+\longrightarrow 4.
+$$
+
+An explicit version of the frozen argument's eventual doubling is available:
+for every $r\geq5$, the two fractions are at least $9/11$ and $5/6$,
+respectively. Consequently $b_{r+1}/b_r\geq25/11>2$, and for every integer
+$k\geq0$,
+
+$$
+b_{5+k}\geq b_5\,2^k=\frac{128}{225}\,2^k\longrightarrow+\infty.
+$$
+
+This proves the claimed limit through integers. The threshold matters:
+$b_5/b_4=448/225<2$. An assertion of doubling at every $r\geq2$ would
+fail, but the frozen text asserts eventual doubling only.
+
+Now suppose a uniform quadratic bound held, even only for $r\geq r_0$.
+Choose $k$ with $5+k\geq r_0$ and $(128/225)2^k>C$; the graph
+$G_{5+k}$ then has $N_{5+k}>C(5+k)^2$. Thus both the stated limit and its
+negative answer to the uniform-bound question follow, with no exchange of
+limits or hidden dependence of the constants on the graph.
+
+The hypotheses of each target reading have also been checked separately:
+
+| Target reading | Why the same counterexample family belongs to it |
+| --- | --- |
+| Statement (modified): exact chromatic number three, every vertex incident | Both colouring bounds and incidence were proved above. Uniformity and pairwise intersection also hold. |
+| Statement: exact chromatic number three as its leading phrase says | The construction has that exact chromatic number. Its additional incidence property does not exclude it from this class. |
+| Statement: mere three-colourability as its parenthetical gloss says | The displayed proper three-colouring supplies this weaker hypothesis directly. A uniform bound on this larger class would also bound the constructed family. |
+
+Even if the first formulation permits isolated vertices or does not stipulate
+finiteness, these finite examples with every vertex incident are admissible.
+No isolated-vertex trick or implicit reinterpretation of chromatic number is
+needed. The first formulation's stronger phrase and weaker gloss therefore
+lead to the same negative first-question answer here.
+
+## Strongest attack and retained failed attacks
+
+The strongest attempted refutation sought a two-colouring by first using an
+arbitrary balanced split of $S$, which removes every monochromatic edge inside
+$S$, and then choosing the colours of all new vertices independently. This
+could have broken the proof if one balanced split were absent from the
+partition indices, if complementary halves used different new vertices, or if
+one of the two edges were missing. The frozen definition has none of these
+defects. The exact obstruction is $x_{\{R,B\}}$: its red choice violates
+$R\cup\{x_{\{R,B\}}\}$ and its blue choice violates
+$B\cup\{x_{\{R,B\}}\}$. Every other partition imposes no restriction
+on its new vertex under this balanced split. This locates the unavoidable
+failure after giving a proposed colouring all available freedom; unbalanced
+splits already fail on an edge inside $S$. The attack therefore covers all
+two-colourings symbolically, without a bounded search.
+
+Other attempted failures and their exact resolutions are retained as follows:
+
+- **Disjoint edges from different partitions.** Distinct new vertices offer
+  no shared point. Disjoint old halves would have to be complements, which
+  identifies their unordered partitions and contradicts distinctness. The
+  other edge-pair types are covered in weakest step 1.
+- **A degenerate endpoint or empty half-set.** The explicit $r=2$ triangle
+  meets every clause. Nonemptiness needed for the colouring and count follows
+  from $r-1\geq1$; no inference silently assumes $r\geq3$.
+- **Double-counted or nonincident vertices.** Complement fibres have exactly
+  two elements, labels are distinct and outside $S$, and every label is
+  incident. The formula counts actual vertices, not ordered representations.
+- **An asymptotic statement stronger than its estimate.** The exact quotient
+  and $448/225<2$ test distinguish eventual from all-order doubling. The
+  fixed threshold $r=5$ and positive geometric lower bound prove the limit
+  actually asserted.
+- **A conclusion lost on changing formulations.** The same graphs meet the
+  stricter hypotheses and have a proper three-colouring. The class-containment
+  argument above negates the bound under each reading with one uniform
+  quantifier structure.
+
+No counterexample to the frozen claim or essential defect in its supplied
+argument was found by these attacks.
+
+## Checklist
+
+These are mathematical findings under `docs/verification.md`, including its
+governing Erdos-specific checklist. They are not a grade of this report.
+
+### Governing checklist
+
+1. **Quantifiers and scope — no defect found.** The construction and structural
+   proofs apply to arbitrary integer $r\geq2$. The endpoint is checked
+   explicitly. The divergence is through integers and the doubling assertion
+   is eventual. No exceptional orders are discarded from the existence claim.
+   Both formulations and the weaker colouring reading are covered separately.
+
+2. **Circularity — no defect found.** The set construction precedes its
+   validation. Assuming a two-colouring for contradiction does not assume a
+   three-chromatic example. The third-colour assignment is exhibited
+   independently. Neither the negative answer nor an equivalent external
+   result is used as a premise. Iterating the growth inequality uses ordinary
+   induction on a finite nonnegative integer, not assumed termination.
+
+3. **Model and convention changes — no defect found.** The objects are genuine
+   finite hypergraphs with the specified edge size and weak vertex-colouring
+   convention. The counted vertices equal the union of the edges. Pairwise
+   intersection is not replaced by a global common intersection. The target
+   transfer uses proved inclusion of the constructed family in each admissible
+   class. No relaxed or averaged hypergraph is substituted.
+
+4. **Finite and statistical overreach — no defect found.** The arbitrary-$r$
+   proofs, not the triangle example, justify universal scope. The binomial
+   maximum-versus-mean inequality is exact counting. There is no statistical
+   inference, independence assumption about samples, or heuristic probability.
+
+5. **Uniformity — no defect found.** The threshold 5 and geometric factor 2
+   are fixed for the whole family; the exact cardinality has no hidden
+   constants. The rejected quadratic bound has one constant independent of
+   both uniformity and the graph. No exchange of an infinite sum and a limit
+   occurs: each binomial row is handled finitely before the limit in $r$.
+
+6. **Extremal conclusions — no defect found in the conclusions asserted.**
+   The attained vertex count and the ratio $N_r/r^2$ are computed in exactly
+   those units. The maximum within the finite binomial row is proved directly.
+   Hypergraph optimality, a supremum formula, or a fixed-order upper bound is
+   not claimed and is not assessed.
+
+7. **Consequences and composition — no defect found.** Weakest step 3 checks
+   the limit, negates the uniform quadratic bound with its full quantifiers,
+   and checks the interfaces to all target readings. Every structural clause
+   needed for those witnesses is proved. Theorem 8's upper bound and any
+   external statement play no role. No unsupplied native interface was found.
+
+8. **Computation — not applicable as an executable-evidence mode.** No
+   mathematical program, search, floating-point approximation, numerical
+   enclosure, or capped iteration is used. The displayed counts and quotients
+   are exact symbolic calculations. There is no computational leg whose ranges,
+   failure exits, or failing input must be certified.
+
+9. **Reproduction — satisfied by the retained mathematical derivation.** The
+   exact extracts, construction, exhaustive edge-type cases, colouring
+   obstruction, counting map, and growth calculation are all retained. There
+   is no claimed executable rerun, computational batch, or cached success to
+   reproduce. Identity checks are boundary checks, not evidence for the
+   mathematics.
+
+10. **Source and verdict fidelity — scoped finding, no defect found.** The
+    consequence is matched to both supplied target texts without strengthening
+    the conclusion. External source fidelity and historical attribution are
+    excluded and were not certified. No prior verifier ruling was supplied or
+    characterized. The mathematical verdict is written in full, and no
+    independent grade or tier is asserted here.
+
+### Canonical failure modes
+
+The generic checklist's modes are recorded explicitly as well:
+
+- **Almost all upgraded to all — absent.** The structural proof covers every
+  integer $r\geq2$; only growth uses an expressly eventual threshold.
+- **Induction presupposing termination — absent.** The comparison
+  $b_{5+k}\geq b_5 2^k$ follows for each finite $k$ from a proved ratio bound.
+  No algorithm or recursive construction is assumed to terminate.
+- **Probabilistic or averaging heuristics presented as proofs — absent.** The
+  average used is the exact sum of a finite row divided by its exact number of
+  entries; its maximum is at least this value by addition of inequalities.
+- **Circular use of an equivalent statement — absent.** The finite subsets,
+  labelled vertices, colour obstruction, and ratio argument are derived without
+  assuming a qualifying large hypergraph or the target's negative answer.
+- **Exceptional sets dropped from density arguments — not applicable.** There
+  is no density argument or exceptional set. All orders in the stated domain
+  remain covered.
+- **Finite verification beyond base-case coverage — absent.** The explicit
+  endpoint supports only the endpoint; the unrestricted symbolic derivation
+  supplies the rest of the claim.
+- **Relaxed or averaged convergence substituted for actual objects — absent.**
+  The auxiliary sequence $b_r$ is a proved pointwise lower bound on the actual
+  ratio $N_r/r^2$. Its divergence therefore implies the required divergence;
+  no unproved transfer from a relaxed model is made.
+
+### Named patterns
+
+- **Model-class transport instead of entailment — no defect found.** There is
+  no axiom-system classification claim. For the relevant transfer, exact
+  chromatic number three implies three-colourability, and the same constructed
+  graphs satisfy the extra incidence condition. The target-class inclusions
+  are actual implications, not similarities of wording.
+- **Uniformity over an infinite family asserted from finitely many instances —
+  absent.** The $r\geq5$ ratio bound is proved by inequalities in an arbitrary
+  parameter. No checked list of orders is used to infer a uniform constant.
+- **Extremal claims audited in their own units — satisfied.** Both $N_r$ and
+  $N_r/r^2$ are evaluated directly; the central-binomial maximum is also
+  established. A claim about optimal hypergraphs is not inferred from them.
+- **Consequence sentences as claim surfaces — satisfied.** The first
+  consequence in argument lines 11–13, the limit in lines 49–56, and the
+  formulation conclusions in lines 57–59 and 63–67 are assessed separately.
+  Excluded coverage statements do not supply an additional theorem premise.
+- **Carry hypotheses actually used by quantified arguments — satisfied.**
+  Integer $r\geq2$ guarantees nonempty halves, the available subset sizes,
+  and positivity of all denominators. Distinct labels and all unordered
+  partitions are supplied by the construction. No further bounded inventory
+  or realizability premise is assumed.
+- **A composition inherits its unproved premises — no missing link found.**
+  Incidence, both colouring bounds, pairwise intersection, the count, and the
+  limit have been checked at their required strength. The target link is a
+  conclusion identifier, not an unproved premise. No native or external theorem
+  is needed to close the chain.
+- **Reproducibility notes are claims — no mismatch found.** The snapshots and
+  manual reconstruction route are specified. No mathematical executable,
+  numerical pass count, or harness-coverage assertion is made.
+- **Verifier quotations are claims — not applicable to the frozen subject.**
+  No verifier quotation or earlier standing sentence occurs in the permitted
+  extracts, and none is introduced as evidence. A later characterization of
+  this report remains for its grader or integrator to check.
+- **Verdict words spelled in full — satisfied.** The verdict is
+  **refutation-failed**; it is not abbreviated or presented as a report grade.
+- **Certified-bracket functions fail loudly — not applicable.** There is no
+  numerical enclosure, periodic sampling window, or capped numeric routine.
+- **A harness leg with no failing input is decoration — not applicable.** No
+  mathematical harness leg is offered; the proof obligations are discharged by
+  derivations and explicit attacks.
+- **A gate reading caches instead of rerunning is defective — not applicable.**
+  The verdict rests on the retained reasoning, not a gate, stored output, or a
+  previous success report.
+
+The neighboring discipline of correlated-sample analysis is inapplicable
+because there is no statistical inference. Under `docs/anatomy.md`, Evidence,
+the retained universal derivation supplies the stated mathematical scope; the
+small example and mechanical identity checks are not credited with broader
+coverage.
+
+## Premises and routine inference reconstruction
+
+At verdict filing on 2026-10-14 UTC, the consumed-premise inventory was derived
+from the entire frozen statement, proof, and consequence sentences. It is
+empty of native claim results and external-source theorems. **No live native
+dependency standing was consumed.** No ledger or live claim card was read, and
+there is no pending dependency grade or batch acceptance order to resolve.
+This conclusion follows from the proof's actual interfaces, not just from its
+**Depends on** declaration. The E0836 link identifies the question answered;
+Theorem 8's upper bound is mentioned only as excluded coverage.
+
+The mathematical assumptions are an integer $r\geq2$ and ordinary finite-set
+and integer arithmetic foundations. Hypergraphs, their colourings, and their
+incidence are defined and checked in the report. No separate existence,
+chromatic, extremal, or asymptotic theorem is assumed. External publications
+and their proofs were **unread** and supply no premise. Only the exact corpus
+reconstruction was examined; its provenance or fidelity to a printed source
+is not certified.
+
+The report makes the following routine inferences explicit:
+
+- The finite-set intersection inequality and the equal-cardinality argument
+  identifying disjoint half-sets as complements.
+- The choice of an edge through each old vertex and the finite construction of
+  distinct new labels.
+- The forced balanced old colour classes, the specific obstructing partition,
+  and the absence of any relief from colouring other new vertices differently.
+- The two-element complement fibres, central-binomial monotonicity, and row
+  sum obtained by counting all subsets.
+- The exact consecutive quotient of the displayed lower bound and an explicit
+  eventual doubling threshold. The geometric comparison merely spells out
+  the frozen argument's ratio-to-four inference.
+- The quantified contradiction to a uniform quadratic bound and inclusion of
+  the witness family in each target class.
+
+These expand steps already present in the frozen proof by elementary
+derivations. No substantive missing lemma, new construction, or repaired
+mathematical premise was needed. They are part of this examination's evidence,
+not changes to the frozen argument.
+
+## Verdict and grading
+
+**Refutation-failed.** The complete frozen construction and its negative
+answer to the first, vertex-count question survive the commissioned attacks
+for every integer $r\geq2$. Finiteness, exact uniformity, pairwise edge
+intersection, incidence of every vertex, exact chromatic number three, the
+stated cardinality, its divergent ratio to $r^2$, and the consequence under
+both displayed formulations are covered. No in-scope mathematical obligation
+is left unsupported by the retained derivation.
+
+This verdict concerns the preserved extracts alone and makes no assertion
+about later changes. It does not cover Theorem 8's upper bound, the second
+edge-intersection question, historical attribution, fidelity to an external
+source, or any Lean statement or proof. It does not assert an optimal vertex
+count for fixed $r$.
+
+No grade or tier is awarded in this report. A distinct eligible grader must
+judge its independence and compliance with the whole-claim report contract;
+any acceptance or standing decision belongs to that separate process.

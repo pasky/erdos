@@ -5,7 +5,7 @@ desc: Paper summaries and source comparisons used in the research on Problem 774
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Source notes for Problem 774
@@ -94,7 +94,7 @@ canonical library records for retained reading copies and bibliographic details.
 - [hare](hare.md), [lewko](lewko.md), [alon](alon.md): nearby positive results
   and boundary cases.
 
-## Roots-of-unity and matroid sources
+## Roots-of-unity route
 
 - [ramsey-graham](ramsey_graham.md): closest source; spike/shadow machinery and
   the explicit $T_{105},T_{165},T_{195}$ test cases.
@@ -115,12 +115,15 @@ canonical library records for retained reading copies and bibliographic details.
   product tensors.
 - [poonen-rubinstein](poonen_rubinstein.md): Mann localization and recursive
   structure for short minimal vanishing sums.
-- [bzdega](bzdega.md): coefficient bounds and jumps in ternary cyclotomic
-  polynomials.
+- [bzdega](bzdega.md): coefficient jumps in ternary cyclotomic polynomials and
+  the resulting flat signed relations.
 - [hindman-strauss](hindman_strauss.md): central sets, idempotents, and
-  multiplicative recurrence.
-- [moser-tardos](moser_tardos.md): the constructive asymmetric local lemma.
-- [tao-notes](tao_notes.md): elementary prime-sum and Mertens estimates.
+  multiplicative recurrence; it does not supply the missing additive height
+  bound.
+- [moser-tardos](moser_tardos.md): the constructive asymmetric local lemma used
+  for bounded relation-support families.
+- [tao-notes](tao_notes.md): elementary prime-sum and Mertens estimates used in
+  the prime-tensor extraction bounds.
 - [Révész](revesz_open_problems.md): the 2007 historical formulation of the
   roots-of-unity Sidon and finite quasi-independent-cover questions.
 
@@ -137,6 +140,8 @@ canonical library records for retained reading copies and bibliographic details.
 
 - Canfield et al., on the asymptotic enumeration of correlation-immune
   Boolean functions (arXiv:0909.3321), abstract, Theorem 1.2 and
-  Corollary 1.1: the stated real-Walsh correlation-immunity enumeration
-  range is only of order $d/\log d$, not the order near $d/2$. Not held in
-  the library.
+  Corollary 1.1, checked for the
+  [Boolean moment route](../routes/boolean_moments.md): the stated
+  real-Walsh correlation-immunity enumeration range is only of order
+  $d/\log d$, not the critical order near $d/2$, so the result is not used
+  to claim boundary enumeration or coloring. Not held in the library.

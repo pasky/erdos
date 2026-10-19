@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 195
@@ -70,13 +70,16 @@ https://www.erdosproblems.com/195.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/195.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/arithmetic_construction_interfaces/progression_transfers|permutation-transfer analysis]]
+separates a bijection $\mathbb N\to\mathbb N$ from the required bijection
+$\mathbb N\to\mathbb Z$. The known four-term-progression-free construction
+uses positivity and a finite saturation step that do not transfer literally
+to the integers. This author-recorded obstruction by Plasma AI leaves the
+alternatives $3$ and $4$ unresolved; a two-sided extension argument is still
+needed.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -3,7 +3,7 @@ name: covering_systems
 title: "Covering Systems"
 desc: "Sources filed under Covering Systems, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-16T18:48:42Z
 ---
 
 # Covering Systems
@@ -137,6 +137,8 @@ congruence classes and develops a finite search for minimal counterexamples.
 
 [[covering_systems/owens_2014_covering_system_minimum_modulus_42/_index|owens_2014_covering_system_minimum_modulus_42/]]: Owens's 2014 master's thesis construction claiming a distinct covering
 system with least modulus 42, with the exact local reconstruction boundary.
+
+[[covering_systems/ozturk_2026_closed_form_nonexistence_odd_covering_systems/_index|ozturk_2026_closed_form_nonexistence_odd_covering_systems/]]: An unreviewed preprint with closed-form certificates against covering systems of distinct odd moduli, claiming that no such covering has least common multiple below 11,486,475.
 
 [[covering_systems/park_2024_proof_kahn_kalai_conjecture/_index|park_2024_proof_kahn_kalai_conjecture/]]: Proves the Kahn--Kalai expectation-threshold conjecture by iterating minimum
 fragments and covering, at low expected cost, the edges whose minimum

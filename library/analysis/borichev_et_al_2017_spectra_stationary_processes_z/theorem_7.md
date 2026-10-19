@@ -7,7 +7,7 @@ desc: |
   from Borichev, Nishry and Sodin and proves it from Theorem 5 and cyclotomic
   factorization.
 created: 2026-10-08T15:50:52Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -50,4 +50,4 @@ card]]; labels and pages are that version's.
 **Read depth.** Claims checked: the statement and the proof were read clause
 by clause on pp. 12--13. Nothing here is independently reviewed.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

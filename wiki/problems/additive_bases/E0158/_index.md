@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 158
@@ -34,7 +34,8 @@ $$
 answers the question yes for sets in which each integer has at most one
 representation, as the erdosproblems.com remark records. No claim covers sets in
 which some integer has two. No proof claim on erdosproblems.com, no release item
-and no other claimed resolution names the problem.
+and no other claimed resolution names the problem, and the two research leads
+naming it are recorded under Progress.
 
 **Source.** [erdosproblems.com/158](https://www.erdosproblems.com/158), accessed
 2026-09-10. Cite as: T. F. Bloom, Erdős Problem #158,
@@ -66,9 +67,69 @@ different hypotheses described under Known Results.
 *Existence of infinite $B_h[g]$-sets with large density* as forthcoming, with
 no manuscript, theorem statement or venue, so its scope is unknown.
 
+L2 and L4 are author-recorded at tier 0, with no independent acceptance,
+formal-verification, novelty or record credit. Neither answers the
+square-root question, and no accepted project solution is recorded. The
+lemmas of the exponent-frontier notes are unproved and their calculations
+are unverified.
+
 ## Progress
 
-The Current assessment above records the known progress.
+The native claim
+[[theory/additive_bases/L2_two_representation_exponent/_index|L2]]
+records a construction of one fixed infinite set $A\subseteq\mathbb Z_{>0}$
+with at most two unordered representations of every integer, counting a
+diagonal once, and
+
+$$
+\liminf_{x\to\infty}\frac{\log A(x)}{\log x}\ge\frac37,
+\qquad A(x)=|A\cap[1,x]|.
+$$
+
+Its complete symbolic proof and stated consequence are author-recorded at
+tier 0, not independently accepted or formally verified. The same set has
+$A(x)\ge x^\alpha$ eventually for each $\alpha<3/7$; it is not a different
+set for each exponent. The proof also gives cutoffs at which the full ambient
+encoding, and hence every subset of it, has ratio to $x^{3/7}$ tending to
+zero. That limitation concerns this encoding, not all possible constructions.
+
+The parallel native claim
+[[theory/additive_bases/L4_random_modulus_exponent/_index|L4]]
+uses independently chosen auxiliary primes to give one infinite set with
+the same representation convention and, for $\gamma=\sqrt6-2$,
+
+$$
+A(x)\geq x^\gamma
+\exp\{-C\sqrt{\ln x}\,\ln\ln x\}
+$$
+
+for some $C>0$ and every sufficiently large real $x$. Thus the same set
+has lower counting exponent at least $\gamma$ and satisfies
+$A(x)\geq x^\alpha$ eventually for every $\alpha<\gamma$. Its full
+symbolic proof is also author-recorded at tier 0, without independent
+acceptance or native Lean verification. It reproduces the needed elementary
+deductions rather than consuming L2 as an accepted premise. The bound uses
+the specified auxiliary-prime intervals and shells; it asserts neither a
+positive constant multiple of $x^\gamma$ nor an optimized-schedule bound.
+The separate author-recorded
+[[research/leads/balanced_auxiliary_prime_density/_index|balanced auxiliary-prime lead]]
+holds research on a balanced schedule for that loss term; it is not a claim
+and alters no L4 statement, status or tier.
+
+Since $3/7<\gamma<1/2$, neither result answers the square-root question
+above. Neither makes a novelty, optimality or current-record claim. Their
+shifted discrete-logarithm methods are related to
+[[../library/additive_bases/cilleruelo_2014_infinite_sidon_sequences/_index|Cilleruelo's construction]],
+while the capacity-two selection arguments are proved in the native claims.
+No accepted project solution to the erdosproblems.com problem is recorded here.
+
+The author-recorded
+[[research/leads/two_representation_exponent_frontier/_index|exponent frontier]]
+records conditional counting estimates, limitations of particular encodings,
+and missing compatible-tower and online-extension lemmas. It distinguishes
+invalid local-to-global shortcuts from routes that remain incomplete. None
+of these unreviewed calculations gives a stronger exponent or a positive
+square-root density.
 
 ## Known Results
 
@@ -130,6 +191,12 @@ terms of the greedy $B_2[2]$ sequence, ending at $7{,}445{,}662$.
 It presents a possible counterexample candidate and finite data, not a
 proof that its normalized counting function stays bounded away from zero.
 No independent reproduction of the computation is recorded.
+
+## Route analysis
+
+The [[research/sidon_extension_interfaces/infinite_density|infinite sidon
+density and representation conventions]] account records the following scope.
+The implication B2[2]=>bounded difference multiplicity is false.
 
 <!-- BEGIN problem library links -->
 

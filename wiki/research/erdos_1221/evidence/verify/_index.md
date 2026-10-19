@@ -8,7 +8,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-28T06:39:15Z
-updated: 2026-10-08T13:55:35Z
+updated: 2026-10-03T01:50:03Z
 ---
 
 # Reviews of the Problem 1221 reconstructions
@@ -19,6 +19,37 @@ updated: 2026-10-08T13:55:35Z
 derivation applies Theorem 3 at R = 1, an instance the page itself records
 as false, for every r below 2 + c log 2, which always includes r = 2; one
 required correction, one suggested correction and three notes.
+
+[[research/erdos_1221/evidence/verify/connections_grade|connections_grade]]: Distinct grade of the four independent focused reviews of the Problem
+1221 connections page and its lead as they stood on 2026-09-28T13:50:48Z: all
+four reports pass, eight corrections are accepted, the remaining findings are
+downgraded to optional or rejected, and the lead's route is reviewed. No tier
+is assigned and no status changes.
+
+[[research/erdos_1221/evidence/verify/connections_problem_1221_itself_the_site_s_family_against_se_review|connections_problem_1221_itself_the_site_s_family_against_se_review]]: Fresh-context refutation review of the extension of the 2026 consecutive-gap
+lower bounds from sequences of distinct points to the site's family. Every
+statement survives (refutation-failed): zero required corrections, two
+suggested wording corrections (the "same r_0" clause of deduction 1221.3 and
+the description of the imported Theorem 4.1 in premise (P)) and four notes.
+
+[[research/erdos_1221/evidence/verify/connections_problem_255_the_1949_implication_toward_the_disc_review|connections_problem_255_the_1949_implication_toward_the_disc_review]]: Refutation review of Proposition 255.1 and the section's transfer,
+obstruction, dependency and conditional sentences as they stood on
+2026-09-28T13:50:48Z: all twelve restated statements are refutation-failed;
+zero required corrections, one suggested wording repair and four notes.
+
+[[research/erdos_1221/evidence/verify/connections_problem_480_the_clustering_constant_and_the_sect_review|connections_problem_480_the_clustering_constant_and_the_sect_review]]: Refutation review of the Problem 480 section: Proposition 480.1, the
+interval bound 1/log 4, the incomparability of C and omega and the descent
+analysis survive attack, while the sharpness paragraph's argument is
+defective (its exact description of the log sequence's first n terms and
+smallest gap fails unless n is a power of 2; the limit survives). One
+required correction, one suggested change, two notes.
+
+[[research/erdos_1221/evidence/verify/connections_the_span_to_count_transfer_has_no_second_consume_review|connections_the_span_to_count_transfer_has_no_second_consume_review]]: Focused refutation review of the section's fourteen author-recorded
+statements: eleven refutation-failed, one refuted-as-stated (the scope
+sentence's implication omits the range r >= C A that both counting
+propositions assume; a witness is given), two inventory sentences that
+are not mathematical claims; one required correction, two suggested,
+three notes.
 
 [[research/erdos_1221/evidence/verify/dber49_inequality_3_3_reconstruction_review|dber49_inequality_3_3_reconstruction_review]]: Refutation-charged review of the Section 3 reconstruction: source fidelity
 faithful with corrections (one required correction, the silently corrected
@@ -122,3 +153,15 @@ filed after the first review of that page was voided on form, is graded in
 [[research/erdos_1221/evidence/verify/grade_2|the second grade]], which accepts
 no new correction. These are focused reviews of author-recorded reconstructions:
 they carry no tier, assign none, and change no status; the problem stays open.
+The four independent focused reviews of the sections of
+[[research/erdos_1221/connections|the connections page]] as it stood on
+2026-09-28T13:50:48Z,
+[[research/erdos_1221/evidence/verify/connections_problem_255_the_1949_implication_toward_the_disc_review|connections_problem_255_the_1949_implication_toward_the_disc_review]],
+[[research/erdos_1221/evidence/verify/connections_problem_480_the_clustering_constant_and_the_sect_review|connections_problem_480_the_clustering_constant_and_the_sect_review]],
+[[research/erdos_1221/evidence/verify/connections_problem_1221_itself_the_site_s_family_against_se_review|connections_problem_1221_itself_the_site_s_family_against_se_review]]
+and
+[[research/erdos_1221/evidence/verify/connections_the_span_to_count_transfer_has_no_second_consume_review|connections_the_span_to_count_transfer_has_no_second_consume_review]],
+are graded in
+[[research/erdos_1221/evidence/verify/connections_grade|the connections grade]],
+which passes all four, accepts the corrections C1--C8 on the page and its lead,
+and assigns no tier.

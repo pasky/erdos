@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [existence, log, liminf]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 32
@@ -85,9 +85,19 @@ https://www.erdosproblems.com/32.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/32.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+In
+[[../library/additive_bases/ruzsa_1998_additive_completion_primes/_index|Ruzsa's
+Theorem 1(b)]], taking the auxiliary function $\omega(x)=\sqrt{\log x}$ gives a
+set $B$ with $B(x)=O((\log x)^{3/2})$ and density-one coverage by primes plus
+$B$. This has the requested small size but still allows infinitely many missing
+integers. Repairing each missing integer $e$ separately by adding $e-2$ may
+cost $o(x)$ new shifts, far more than $o((\log x)^2)$. Theorem 2 is a lower
+bound and does not repair these exceptions. The statements and construction
+setup were inspected, not the whole probabilistic proof. A usable completion
+must cover the exceptional set with the much smaller number of additional
+shifts while preserving the bound at every cutoff.
 
 ## Known Results
 

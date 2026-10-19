@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 481
@@ -46,12 +46,12 @@ acceptance and on Terence Tao's endorsement in the thread. Klarner's paper is
 not held. Kolpakov and Talambutsa report that it omits the second part of its
 proof, which their Theorem 3 supplies in print.
 
-The (Lean) suffix is a catalog label. The community database lists the Lean
-status as of its last update on 1 December 2025, the day of the thread proof.
-The comment with the thread proof links a Lean 4 web-editor formalization. A
-second Lean proof of the statement, with Barreto and Claude Opus 4.5 as its
-formal authors, sits in Boris Alexeev's lean-proofs repository. Only the
-statement is in formal-conjectures. Neither proof is recorded in
+The (Lean) suffix is an erdosproblems.com label. The community database lists
+the Lean status as of its last update on 1 December 2025, the day of the thread
+proof. The comment with the thread proof links a Lean 4 web-editor
+formalization. A second Lean proof of the statement, with Barreto and Claude
+Opus 4.5 as its formal authors, sits in Boris Alexeev's lean-proofs repository.
+Only the statement is in formal-conjectures. Neither proof is recorded in
 formal-conjectures or the community database, and nothing was built or checked
 here (see Formalization).
 
@@ -88,39 +88,37 @@ erdosproblems.com history view (2026-10-07). Cite as: T. F. Bloom, Erdős Proble
   (1980); the problem on printed p. 96. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
-**Formalization.** erdosproblems.com's (Lean) suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's (Lean) suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/481.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/481.lean)
-of formal-conjectures, pinned to the file's last change (2026-09-18;
-unchanged on main on 2026-10-06), declares `erdos_481` for
-`a b : Fin r → ℕ` with `0 < a i` for all `i` and `1 < ∑ i, (1 : ℝ) / a i`,
-concluding `∃ k, ¬ ((T a b)^[k] [1]).Nodup`
-for the list map `T`, under `category research solved`, with proof `sorry` and
-no `formal_proof` attribute; its docstring repeats the erdosproblems.com
-commentary. The community database (pinned copy of 2026-09-18) lists the problem
-as proved with the Lean marker and `formal_status` Lean, as of its last update
-on 1 December 2025, the statement as formalized as of its last update on 4
-August 2026, and no formal-proof URL; the erdosproblems.com indicator records a
-formalized statement. Two Lean proofs are on record, neither in
-formal-conjectures or the community database: the web-editor formalization
-linked from the thread comment of 1 December 2025, carried in the link itself
-and not retained here, and the file
+of formal-conjectures, pinned to the file's last change (2026-09-18; unchanged
+on main on 2026-10-06), declares `erdos_481` for `a b : Fin r → ℕ` with
+`0 < a i` for all `i` and `1 < ∑ i, (1 : ℝ) / a i`, concluding
+`∃ k, ¬ ((T a b)^[k] [1]).Nodup` for the list map `T`, under
+`category research solved`, with proof `sorry` and no `formal_proof` attribute;
+its docstring repeats the erdosproblems.com commentary. The community database
+(pinned copy of 2026-09-18) lists the problem as proved with the Lean marker and
+`formal_status` Lean, as of its last update on 1 December 2025, the statement as
+formalized as of its last update on 4 August 2026, and no formal-proof URL; the
+erdosproblems.com indicator records a formalized statement. Two Lean proofs are
+on record, neither in formal-conjectures or the community database: the
+web-editor formalization linked from the thread comment of 1 December 2025,
+carried in the link itself and not retained here, and the file
 [`ErdosProblems/Erdos481.lean`](https://github.com/plby/lean-proofs/blob/edf311c2916704f817e2af8af186315835c5a9c4/src/latest/ErdosProblems/Erdos481.lean)
-of Boris Alexeev's lean-proofs repository (added 5 May 2026, pinned to its
-last change of 2026-08-10), whose header names
-Kevin Barreto as the informal author and Claude Opus 4.5 and Barreto as the
-formal authors, describing the result as proved and formalized by Barreto
-with assistance from Claude Opus 4.5, and which proves
+of Boris Alexeev's lean-proofs repository (added 5 May 2026, pinned to its last
+change of 2026-08-10), whose header names Kevin Barreto as the informal author
+and Claude Opus 4.5 and Barreto as the formal authors, describing the result as
+proved and formalized by Barreto with assistance from Claude Opus 4.5, and which
+proves
 `theorem erdos_481 (hr : 0 < r) (hC : 1 < C a) : ∃ k, 1 ≤ k ∧ ¬(A a b k).Nodup`
-for its own list map `A` and reciprocal sum `C`, with no `sorry` and a
-closing comment recording the axioms `propext`, `Classical.choice` and
-`Quot.sound`. Neither proof was built or audited here, and no kernel credit
-is claimed. Terence Tao's thread comment of 1 December 2025 reports that,
-asked for a literature review, ChatGPT DeepResearch cited the erdosproblems.com
-page and declared the problem open, while Gemini DeepResearch reproduced
-essentially the same argument as Barreto's without recognizing that it had
-established the result; that is a thread remark, and no such proof is on
-record as a claim.
+for its own list map `A` and reciprocal sum `C`, with no `sorry` and a closing
+comment recording the axioms `propext`, `Classical.choice` and `Quot.sound`.
+Neither proof was built or audited here, and no kernel credit is claimed.
+Terence Tao's thread comment of 1 December 2025 reports that, asked for a
+literature review, ChatGPT DeepResearch cited the erdosproblems.com page and
+declared the problem open, while Gemini DeepResearch reproduced essentially the
+same argument as Barreto's without recognizing that it had established the
+result; that is a thread remark, and no such proof is on record as a claim.
 
 ## Progress
 

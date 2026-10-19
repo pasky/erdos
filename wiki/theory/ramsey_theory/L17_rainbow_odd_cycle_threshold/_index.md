@@ -24,7 +24,7 @@ tier: 2
 depends_on: []
 lean: Erdos.L17.claim
 created: 2026-09-24T23:05:18Z
-updated: 2026-10-02T19:25:49Z
+updated: 2026-10-16T07:31:20Z
 ---
 
 # The rainbow odd-cycle threshold one edge past the Turán number
@@ -66,16 +66,16 @@ and the $k=3$ case, the seven-cycle, is the project's own argument. The claim
 does not determine $\chi_S$ at any fixed $n$ and says nothing about $C_3$ or
 $C_5$, where the function is constant or linear.
 
-Priority: the seven-cycle argument is the project's own in authorship, not in
-priority. Asad Shahab's independent proof claim, a proof of the $C_7$ case with
-a Lean development whose headline theorem covers every odd cycle $C_{2k+1}$ with
-$k\ge3$, was filed on the erdosproblems.com proof-claims tab first, as proof
-claim 358, before the project's 367 on the same day, 27 September 2026 (preprint
-arXiv:2609.38286, 29 September 2026), as
-[[problems/ramsey_theory/E0809/_index|the problem page]] records with its dated
-check of 2026-10-05; this corpus built that development at its pinned commit and
-audited its statement on 2026-10-08. The standing below does not rest on
-priority.
+Priority: the seven-cycle argument is the project's own, and it was published
+first, in the project's Lean development, public on GitHub from 24 September
+2026. Asad Shahab's independent proof claim, a proof of the $C_7$ case with a
+Lean development whose headline theorem covers every odd cycle $C_{2k+1}$ with
+$k\ge3$, was published on GitHub on 27 September 2026 and filed on the
+erdosproblems.com proof-claims tab first, as proof claim 358, before the
+project's 367 the same day (preprint arXiv:2609.38286, 29 September 2026), as
+[[problems/ramsey_theory/E0809/_index|the problem page]] records with its
+sources; this corpus built that development at its pinned commit and audited its
+statement on 2026-10-08. The standing below does not rest on priority.
 
 ## Argument and formal surface
 
@@ -130,7 +130,7 @@ unchanged in meaning: its declaration `Erdos.L17.statement`, every definition it
 reaches, its manifest row over every field both rows carry except `module`, and
 the `statement:` field above. A later change under `lean/` does not lower this
 card; only a change that ends coverage is listed here, with what it touched,
-until the claim is re-graded, and none is listed. The tier assertion is in force
+until the claim is re-graded, and none is listed. The carry-forward check last ran on 2026-10-16, over that day's tree, and found the statement unchanged in meaning. The tier assertion is in force
 from the filing that cites the grade, the grade decision and the gate together.
 
 The review compared the `statement:` field above, this card's Statement and

@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 480
@@ -57,9 +57,9 @@ announced without proof in [ChGr81] (Proc. Natl. Acad. Sci. USA 78 (1981), 4001;
 no file held), the authors' own first publication. The claim is accepted on this
 refereed announcement, which carries no proof, and on the curator's credit. The
 chapter is a proceedings chapter not shown to be refereed. The 1980 monograph's
-added-in-proof note also reports the theorem. The "(Lean)" suffix is a catalog
-label explained under Formalization below. The Lean file is a formalization link
-on the claim page and gives no evidence here.
+added-in-proof note also reports the theorem. The "(Lean)" suffix is an
+erdosproblems.com label explained under Formalization below. The Lean file is a
+formalization link on the claim page and gives no evidence here.
 
 **Source.** [erdosproblems.com/480](https://www.erdosproblems.com/480),
 accessed 2026-09-18: the problem page (PROVED (LEAN), with the erdosproblems.com
@@ -103,39 +103,38 @@ accessed 2026-09-18.
   arXiv:2511.14637 of 2025 and a 2018 paper in J. Number Theory on well
   dispersed sequences in $[0,1]^d$).
 
-**Formalization.** erdosproblems.com's "(Lean)" suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's "(Lean)" suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/480.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/480.lean)
 of formal-conjectures, linked at its state of 18 September 2026, declares
 `erdos_480 : answer(True) ↔ ∀ (x : ℕ → ℝ), (∀ n, x n ∈ Set.Icc 0 1) → ⨅ (n : ℕ+), atTop.liminf (fun m => (n : ℕ) * |x (m + (n : ℕ)) - x m|) ≤ 1 / √5`
 under `category research solved, AMS 11`, with proof `sorry` and a
-`formal_proof` attribute naming
-`src/latest/ErdosProblems/Erdos480.lean#L973` in Boris Alexeev's repository
-`plby/lean-proofs` at the commit of 7 September 2026 that the claim page's
-link pins; it also declares the variants
+`formal_proof` attribute naming `src/latest/ErdosProblems/Erdos480.lean#L973` in
+Boris Alexeev's repository `plby/lean-proofs` at the commit of 7 September 2026
+that the claim page's link pins; it also declares the variants
 `erdos_480.variants.chung_graham` (the bound $1/c$ with
 $c=1+\sum_{k\ge1}1/F_{2k}$) and `erdos_480.variants.chung_graham_best_possible`,
-both `research solved` with proof `sorry`. The statement quantifies $n$
-over the positive naturals and indexes the sequence from $0$, and matches
-the erdosproblems.com question. At that commit the external file has 1,033
-lines, imports Mathlib, and names Fan Chung and Ronald Graham as the informal
-authors, the formal-conjectures authors as the statement authors, and the
-AI systems Codex and GPT-5.6 Sol as the formal authors; its
-`theorem erdos_480` at line 973 proves the right-hand side from a finite
-statement (`close_pair_thirteen`: among any thirteen consecutive terms some pair
-$n\le12$ apart has $n|x_{m+n}-x_m|\le3/7$, described in the header as
-"Chung and Graham's reciprocal-jump argument gives the stronger finite bound
-$3/7$") and $3/7\le1/\sqrt5$; the file contains no `sorry` and no `axiom`.
-It proves erdosproblems.com's inequality with the constant $3/7=0.4286\ldots$,
-not Chung and Graham's $\alpha$. This corpus has built and audited neither file,
-and no kernel credit is claimed. The thread's comment of 28 November 2025
-reports that Aristotle, the prover of Harmonic, found a proof of an earlier
-version of the formal statement, which turned out to be a misformalization (it
-assumed $m\ne0$ where $n\ne0$ was meant, so $n=0$ gave a trivial proof); the
-issue it filed (formal-conjectures issue 1282, opened 28 November 2025) was
-closed on 14 January 2026, and the pinned statement quantifies $n$ over `ℕ+`.
-The community database (teorth/erdosproblems, accessed 2026-09-18) lists the
-state `proved (Lean)` as of its last update on 23 August 2026, the statement
+both `research solved` with proof `sorry`. The statement quantifies $n$ over the
+positive naturals and indexes the sequence from $0$, and matches the
+erdosproblems.com question. At that commit the external file has 1,033 lines,
+imports Mathlib, and names Fan Chung and Ronald Graham as the informal authors,
+the formal-conjectures authors as the statement authors, and the AI systems
+Codex and GPT-5.6 Sol as the formal authors; its `theorem erdos_480` at line 973
+proves the right-hand side from a finite statement (`close_pair_thirteen`: among
+any thirteen consecutive terms some pair $n\le12$ apart has
+$n|x_{m+n}-x_m|\le3/7$, described in the header as "Chung and Graham's
+reciprocal-jump argument gives the stronger finite bound $3/7$") and
+$3/7\le1/\sqrt5$; the file contains no `sorry` and no `axiom`. It proves
+erdosproblems.com's inequality with the constant $3/7=0.4286\ldots$, not Chung
+and Graham's $\alpha$. This corpus has built and audited neither file, and no
+kernel credit is claimed. The thread's comment of 28 November 2025 reports that
+Aristotle, the prover of Harmonic, found a proof of an earlier version of the
+formal statement, which turned out to be a misformalization (it assumed $m\ne0$
+where $n\ne0$ was meant, so $n=0$ gave a trivial proof); the issue it filed
+(formal-conjectures issue 1282, opened 28 November 2025) was closed on 14
+January 2026, and the pinned statement quantifies $n$ over `ℕ+`. The community
+database (teorth/erdosproblems, accessed 2026-09-18) lists the state
+`proved (Lean)` as of its last update on 23 August 2026, the statement
 formalized since 31 August 2025, and no formal-proof URL.
 
 ## Current assessment
@@ -225,13 +224,18 @@ proofs.
 
 **Later work (leads).** The chapter's concluding remarks (pp. 219--221)
 introduce, on pp. 220--221, the variant
-$C'(\bar x)=\liminf_n\liminf_mn|x_{m+n}-x_m|$, which can be arbitrarily
-large, and the two-dimensional analog $C_2$ for sequences in $[0,1]^2$
-with the sup norm, which "can remain above $\sqrt{2/7}-\epsilon$", with
-the true value unknown; the thread's two
-linked later papers (the circle; $[0,1]^d$) and the 2018 J. Number Theory
-paper on well dispersed sequences in $[0,1]^d$ found among the citing
-records are leads on those questions, not this problem.
+$C'(\bar x)=\liminf_n\liminf_mn|x_{m+n}-x_m|$, which can be arbitrarily large,
+and the two-dimensional analog $C_2$ for sequences in $[0,1]^2$ with the sup
+norm, which "can remain above $\sqrt{2/7}-\epsilon$", with the true value
+unknown; the thread's two linked later papers (the circle; $[0,1]^d$) and the
+2018 J. Number Theory paper on well dispersed sequences in $[0,1]^d$ found among
+the citing records are leads on those questions, not this problem. The bound
+$\omega(\bar x)\le1/\log4$ that the chapter's introduction attributes to de
+Bruijn and Erdős is discussed on
+[[research/erdos_1221/connections|the Problem 1221 connections page]]
+(author-recorded research, not a claim), which also records that the clustering
+measure $C$ and the de Bruijn--Erdős measures are not comparable in either
+direction, so nothing there bears on this problem's question.
 
 **Search scope.** None of the routes below found a
 dispute of the theorems or a sharper statement of this problem.

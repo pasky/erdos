@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:39:38Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 366
@@ -129,6 +129,14 @@ proof-claims tab, the manuscript's abstract and main statements, the Lean
 repository's README, and the community database's entry (formal status
 unformalized); the tab recorded no other claim on the problem, and on 2026-10-07
 none of the others did. Nothing on this page is independently reviewed.
+
+## Scoped deduction
+
+The [[research/powerful_numbers_and_products/_index|conditional radical argument]]
+records why abc gives finiteness in the exact orientation of the Statement.
+It does not provide an unconditional witness, an unconditional exclusion
+or an effective finite domain.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

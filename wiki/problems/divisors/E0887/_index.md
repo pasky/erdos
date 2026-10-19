@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 887
@@ -70,6 +70,28 @@ preprint
 ([[../library/divisors/letendre_2025_divisors_integer_short_interval/_index|card]]),
 cited in the thread, bounds the count only in windows of length
 $n^{1/4-\delta}$, shorter than this question's, and settles no instance.
+
+## Finite reductions and uniformity requirements
+
+The identity in [[problems/divisors/E0886/_index|Problem 886's upper-divisor
+reduction]] gives at most $\lceil C^2\rceil$ divisors, which has the wrong
+dependence on $C$ for this question. Complementary pairing sharpens two
+restricted source statements. The symmetric bound of five in
+[[../library/divisors/chan_2014_factors_perfect_square/_index|Chan's
+perfect-square theorem]] gives at most two upper divisors: each has a distinct
+closer lower partner, and the central divisor is also present. Its primary
+proof was not inspected. The symmetric bound of eighteen in
+[[../library/divisors/chan_2015_factors_almost_squares_lattice_points_circles/_index|Chan's
+almost-square Theorem 2]] similarly gives at most nine upper divisors, and
+eventually covers any fixed $C$.
+
+The latter statement requires $N=(A-a)(A+b)$ with $0\le a\le b\le\exp((\log
+N)^{2/7})$. A factor merely within $O(N^{1/4})$ of $\sqrt N$ does not supply
+those much smaller offsets. These author specializations preserve the source
+hypotheses and do not prove a bound for all $N$. Removing the small-offset
+restriction, rather than adjusting the restricted constant, is the remaining
+issue.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

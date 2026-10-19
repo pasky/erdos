@@ -1,0 +1,86 @@
+{
+  "scope": "Conditional on r2+r7=r3+r5 and different unordered position pairs.",
+  "source": "BFT Theorem 2.4 with rational residual products; Dusart coefficient-gcd bounds.",
+  "equal_position_sums": [
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "height_variable": "h=n-13",
+  "gcd_certificate": {
+    "c": 5,
+    "d": 3,
+    "terms": 4000,
+    "m0": 100000000,
+    "rounding_denominator": 1000000000000,
+    "root_scale": 1000000,
+    "eligible_terms": 1500,
+    "positive_terms": 158,
+    "largest_positive_t": 559,
+    "ell_lower": "481050309501/1000000000000",
+    "upper_relative_error": "1/36260",
+    "lower_relative_error_floor": "1/60000",
+    "source": "Dusart 2010 Proposition 5.1 and Theorem 5.2; BFT Lemmas 5.2 and 5.4"
+  },
+  "seed": [
+    225,
+    224,
+    1,
+    1,
+    5,
+    3
+  ],
+  "m0": 100000000,
+  "gap": 169,
+  "degree": 2,
+  "maximum_shift": 13,
+  "components": [
+    [
+      3,
+      2,
+      1,
+      0,
+      ".35"
+    ],
+    [
+      5,
+      2,
+      1,
+      0,
+      ".03"
+    ],
+    [
+      2,
+      5,
+      1,
+      1,
+      ".35"
+    ],
+    [
+      7,
+      1,
+      1,
+      1,
+      ".35"
+    ]
+  ],
+  "block_parameter": "18287447141/60685589176",
+  "C": "[1.6224041825871417091772585908353, 1.6224041825871417091772585908353]",
+  "K": "[8.0510897948114905432447368500873, 8.0510897948114905432447368500873]",
+  "J": "[6.428685612224348834067478259252, 6.428685612224348834067478259252]",
+  "denominator_cost": "[0.40651866197938372449976243592883, 0.40651866197938372449976243592883]",
+  "first_margin": "[0.082388690379871989696675624194724, 0.082388690379871989696675624194724]",
+  "second_margin": "[0.019656663155102687840074806165244, 0.019656663155102687840074806165244]",
+  "log_threshold_terms": [
+    "[2.5649493574615367360534874415653, 2.5649493574615367360534874415653]",
+    "[1659214359.3077109788814563332823, 1659214359.3077109788814563332823]",
+    "[2048.8660071862136728550437779381, 2048.8660071862136728550437779381]"
+  ],
+  "threshold_power_of_ten": 720587641,
+  "conclusion": "At least one cofactor exceeds its listed power of h."
+}

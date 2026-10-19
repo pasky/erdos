@@ -6,7 +6,7 @@ desc: |
   embed on a given surface, and so the chromatic number of a graph of girth
   at least six on a fixed surface can be found in polynomial time.
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -55,4 +55,4 @@ and there are finitely many to test (an observation of this page).
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

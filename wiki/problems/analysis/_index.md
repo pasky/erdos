@@ -6,7 +6,7 @@ desc: |
   and series, and the few purely probabilistic and topological problems that
   carry no subject co-tag.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-16T04:55:23Z
 ---
 
 # Analysis
@@ -244,11 +244,10 @@ ensures that every nonconstant polynomial $P$ with $P(0)=1$ and all roots on the
 unit circle has a path of length at most $C$ from $0$ to the unit circle lying
 in $\{z:|P(z)|<1\}$ except at $0$.
 
-[[problems/analysis/E1221/_index|E1221/]]: Asks whether $\Lambda_r-r$,
-$r-\lambda_r$ and $r(\mu_r-1)$ tend to infinity for the de Bruijn–Erdős
-constants of the largest and smallest sums of $r$ consecutive gaps on the circle
-and their ratio; an unrefereed, unreviewed 2026 preprint claims all three for
-distinct points.
+[[problems/analysis/E1221/_index|E1221/]]: Asks whether the three
+mean-normalized consecutive-gap expressions diverge. L165 has an independently
+graded tier-1 whole-conclusion warrant over all sequences; the full catalog
+claim remains pending.
 
 ***
 

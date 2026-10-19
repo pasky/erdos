@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T14:38:26Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 657
@@ -134,6 +134,14 @@ spaced collinear triples. The method uses the fact that each fixed-distance
 graph is a matching, together with a combinatorial large sieve. A bound on
 the size of a subset of a fixed arithmetic box does not establish a
 superlinear distance lower bound for an arbitrary real planar set.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/counts|distance counts,
+multiplicities and pinned occupancy]] account records the following scope. Each
+distance graph is a matching, giving D>=binom(n,2)/floor(n/2): n-1 for even n
+and n for odd n.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

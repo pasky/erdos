@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1080
@@ -53,11 +53,11 @@ $e\ge n^{1+\varepsilon}$ for a fixed $\varepsilon>0$ therefore gives, for every
 $c$, graphs of the erdosproblems.com form with at least $cN$ edges and no $C_6$
 once $N$ is large ($N\le2n$). Only the order of magnitude of the edge count
 enters, so the exponents recorded below do not depend on the choice of wording.
-The erdosproblems.com label DISPROVED (LEAN) carries a catalog suffix explained
+The erdosproblems.com label DISPROVED (LEAN) carries a suffix explained
 under Formalization.
 
 **Status.** Disproved. The erdosproblems.com label was DISPROVED (LEAN), whose
-catalog suffix is explained under Formalization. The original texts are not
+suffix is explained under Formalization. The original texts are not
 held. The erdosproblems.com commentary credits the negative answer to de Caen
 and Székely [DeSz92]. Their bounds are
 $n^{10/9}\gg f(n,\lfloor n^{2/3}\rfloor)\gg n^{58/57+o(1)}$ for $m\sim n^{2/3}$,
@@ -136,8 +136,8 @@ accessed 2026-09-18.
   $f(n,m)\ll(nm)^{2/3}$ with no reference key; the paper is not identified, and
   no copy is held.
 
-**Formalization.** The suffix (LEAN) of the erdosproblems.com label was a
-catalog label. The file
+**Formalization.** The suffix (LEAN) of the erdosproblems.com label was an
+erdosproblems.com label. The file
 [`ErdosProblems/1080.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1080.lean)
 of formal-conjectures, at the commit the link pins, declares
 `erdos_1080 : answer(False) ↔ ∃ c > (0 : ℝ), ∀ (V : Type) [Fintype V] [Nonempty V] (G : SimpleGraph V) (X Y : Set V), IsBipartition G X Y → X.ncard = ⌊(Fintype.card V : ℝ) ^ (2/3 : ℝ)⌋₊ → G.edgeSet.ncard ≥ c * Fintype.card V → ∃ (v : V) (walk : G.Walk v v), walk.IsCycle ∧ walk.length = 6`

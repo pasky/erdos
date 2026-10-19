@@ -6,7 +6,7 @@ desc: |
   with b_n small against a_(n-1) a_n, is rational exactly when B b_n equals
   c_n a_n minus c_(n+1) for integers c_n with |c_(n+1)| below a_n over two.
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-07T19:30:53Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -75,5 +75,5 @@ modifies [2, Lemma 2.29] of the authors' 1971 paper. The Archive of Formal
 Proofs entry named on the card reports a formalization of this theorem;
 not inspected here.
 
-**Bears on.** No catalog problem directly; it is the tool behind the
+**Bears on.** No erdosproblems.com problem directly; it is the tool behind the
 results linked above.

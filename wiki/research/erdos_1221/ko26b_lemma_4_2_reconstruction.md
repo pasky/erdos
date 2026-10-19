@@ -8,7 +8,7 @@ desc: |
   states the finite-prefix form of Schmidt's theorem, derived by the source
   from Larcher's proof, which then forces B ≥ (log floor(S))/16.
 created: 2026-09-28T04:38:10Z
-updated: 2026-09-28T08:34:46Z
+updated: 2026-10-16T06:44:50Z
 ---
 
 [[research/erdos_1221/_index|..]]
@@ -26,9 +26,10 @@ the text layer; held by its library card,
 independent review; changes no status and assigns no tier. Theorem 4.1 is
 an external input whose stated form is the source's own derivation from
 G. Larcher, *On the star discrepancy of sequences in the unit interval*,
-J. Complexity 31 (2015), 474--485 (arXiv:1407.2094), Section 3. Larcher's
-paper is not held and the derivation is not checked here; see "The
-imported input" below.
+J. Complexity 31 (2015), 474--485 (arXiv:1407.2094), Section 3. The arXiv
+version has a library card,
+[[../library/analysis/larcher_2014_star_discrepancy_sequences_unit_interval/_index|Larcher 2014]];
+the derivation is not checked here; see "The imported input" below.
 
 ## Definitions
 
@@ -70,11 +71,12 @@ independent of the list, and the strict margin $c_a>1/16$ gives the
 statement for $L\ge L_0$. (The arithmetic $c_{7/2}=31/(384\log3.5)\approx0.0644$
 is checked here.)
 
-**What is and is not checked.** Whether Larcher's Section 3 proves the
-finite-list statement $H_N\ge c_a\log N$ for every list of length
-$N=\lfloor a^h\rfloor$, as opposed to a statement about infinitely many
-prefixes of an infinite sequence, is exactly what the source asserts and
-what is not verified here. The numerical constant $1/100$ in the ratio
+**What is and is not checked.** Larcher's Section 3 starts from an
+arbitrary finite list of length $\lfloor a^t\rfloor$ and bounds its maximum
+prefix error before passing to infinite sequences, as the
+[[research/erdos_1221/larcher_finite_prefix_interface|interface page]]
+records. The auxiliary minimization behind $c_a$ and the suppressed integer
+rounding are not verified here. The numerical constant $1/100$ in the ratio
 bound depends on $c_a>1/16$. An authored remark, checked here: the
 qualitative form of Theorem 4.1, $H_L\ge c\log L-1$ for every list with
 some absolute $c>0$, follows from Schmidt's theorem for planar point sets
@@ -84,7 +86,11 @@ whose count differs from $Nuv$ by at least $c\log N$), applied to the set
 $\{(z_i,i/L)\}$, since the count of that set in $[0,u)\times[0,v]$ is
 $\#\{i\le j:z_i<u\}$ with $j=\lfloor Lv\rfloor$ and $|ju-Luv|\le1$. That
 form suffices for the growth statement $r(\mu_r-1)\to\infty$, with a
-smaller unspecified constant in place of $1/100$.
+smaller unspecified constant in place of $1/100$. An explicit form,
+$H_L\ge\lfloor\log_4L\rfloor/16$ for every list, is proved on the
+[[research/erdos_1221/finite_list_prefix_bound|finite-list page]]; with it
+the ratio part holds with $1/200$ in place of $1/100$, as the
+[[research/erdos_1221/all_sequence_composition|composition page]] shows.
 
 ## Statement (Lemma 4.2, p. 8)
 

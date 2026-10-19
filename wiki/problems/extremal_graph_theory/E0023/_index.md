@@ -9,14 +9,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-18T10:11:24Z
 ---
 
 # Problem 23
 
 [[problems/extremal_graph_theory/_index|..]]
 
-[[problems/extremal_graph_theory/E0023/claims/_index|claims/]]: The 1 claim page of Problem 23, one per claimant's result; the problem's standing derives from them.
+[[problems/extremal_graph_theory/E0023/claims/_index|claims/]]: The 3 claim pages of Problem 23, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -25,9 +25,13 @@ by deleting at most $n^2$ edges?
 
 **Status.** Falsifiable. The erdosproblems.com label is a note on an open
 problem (Current assessment), not a claim. The frontmatter standing derives from
-the one claim page under `claims/`, Ferudun's finite-range claim
-([[problems/extremal_graph_theory/E0023/claims/2026_06_26_ferudun|claim page]]).
-That claim is partial and settles nothing for all $n$.
+the three claim pages under `claims/`: Balogh, Clemen and Lidický's two
+edge-density ranges for large $n$ ([[problems/extremal_graph_theory/E0023/claims/2021_03_25_balogh_clemen_lidicky|claim page]]), Ferudun's
+finite-range claim
+([[problems/extremal_graph_theory/E0023/claims/2026_06_26_ferudun|claim page]])
+and Plasma AI's claim for the two density tails at every order
+([[problems/extremal_graph_theory/E0023/claims/2026_10_19_plasma_ai|claim page]]). All three are partial, and none settles the question
+for all $n$.
 
 **Source.** [erdosproblems.com/23](https://www.erdosproblems.com/23), accessed
 2026-09-04 and 2026-10-06 (label FALSIFIABLE; page last edited 18 January
@@ -48,19 +52,18 @@ Bloom, Erdős Problem #23, https://www.erdosproblems.com/23, accessed
 
 ## Current assessment
 
-The dated catalog question uses $5n$ vertices. With $N=5n$ and $D_2(G)$
-denoting the minimum number of edge deletions needed for bipartiteness, its
-target is $D_2(G)\leq N^2/25$. The
+The dated erdosproblems.com question uses $5n$ vertices. With $N=5n$ and
+$D_2(G)$ denoting the minimum number of edge deletions needed for bipartiteness,
+its target is $D_2(G)\leq N^2/25$. The
 [[../library/extremal_graph_theory/balogh_2021_max_cuts_triangle_free_graphs/theorem_2|Balogh--Clemen--Lidický theorem]]
 gives, for sufficiently large $n$, both the weaker general bound
-$D_2(G)\leq(50/47)n^2$ and the target $n^2$ bound in two specified
-edge-density ranges.
-These conclusions do not resolve the universal question. The erdosproblems.com
-label falsifiable records that a counterexample would be a finite graph, whose
-triangle-freeness and failure of every cut to leave at most $n^2$ uncut
-edges can be checked by finite enumeration; no counterexample is known, and
-the label asserts nothing about the answer. No counterexample or proof for
-all $n$ is established.
+$D_2(G)\leq(50/47)n^2$ and the target $n^2$ bound in two specified edge-density
+ranges. These conclusions do not resolve the universal question. The
+erdosproblems.com label falsifiable records that a counterexample would be a
+finite graph, whose triangle-freeness and failure of every cut to leave at most
+$n^2$ uncut edges can be checked by finite enumeration; no counterexample is
+known, and the label asserts nothing about the answer. No counterexample or
+proof for all $n$ is established.
 
 A primary-source search covered the [2021 arXiv
 record](https://arxiv.org/abs/2103.14179v1), publication records, later arXiv
@@ -71,13 +74,14 @@ priority or the absence of unindexed work.
 
 Alper Ferudun's
 [arXiv:2606.28041v1](https://arxiv.org/abs/2606.28041v1), submitted 26 June
-2026, is the one claim on the problem. Its
+2026, is the one claim on the problem that covers every density. Its
 [Theorem 1.1 in the primary HTML](https://arxiv.org/html/2606.28041v1#S1)
 asserts that the maximum $D_2(G)$ over triangle-free graphs on $5n$ vertices
 equals $n^2$ for every integer $1\leq n\leq40$: the two edge-density tails
-are cited from Theorem 2(b),(c) of [BCL21], proved for large orders and
-carried to each order up to $200$ by a blow-up argument, and an order-10
-certificate of Ferudun's own covers the middle density band. The
+are cited from Theorem 2(b),(c) of [BCL21], proved for large orders; the
+preprint's Corollary 4.2 states them at every order and its Theorem 1.1 uses
+them up to order $200$, and an order-10 certificate of Ferudun's own covers
+the middle density band. The
 introduction also contains conflicting prose referring to eleven multiples
 of five and to $n\geq12$, beyond the theorem's range. No journal acceptance
 or independent review of the certificates or the full proof is recorded.
@@ -85,8 +89,15 @@ This is a finite-range author claim with an unresolved textual
 inconsistency, not a resolution of the all-$n$ question; it is recorded as a
 pending partial claim on
 [[problems/extremal_graph_theory/E0023/claims/2026_06_26_ferudun|its claim page]].
+The held
+[[../library/extremal_graph_theory/ferudun_2026_erdos_max_cut_small_multiples/_index|source and ancillary package]]
+make the finite-range transfer explicit, but do not supply a complete
+certificate replay: the full verifier imports absent modules and reads absent
+state files, while the companion check trusts a saved residual verdict.
+The elementary transfer was checked; the numerical certificate remains
+unverified here.
 
-Three smaller results bear on the question and have no claim page, for the
+Two smaller results bear on the question and have no claim page, for the
 reasons given. (1) OEIS A389646 (Elijah Beregovsky, 9 October 2025), linked
 from erdosproblems.com's external-database panel, gives the maximum number of
 edge deletions over triangle-free graphs on $N$ vertices for every $N\le23$, by
@@ -101,11 +112,12 @@ triangle-free graph on $25$ vertices can be made bipartite by removing at
 most $25$ edges), marked `category research solved` with proof `sorry` and a
 docstring deriving it from the high-density range of [BCL21] and McKay's
 catalogue of the $23$-vertex extremal graphs; a statement with `sorry` is
-neither a proof nor a formalization link. (3) Theorem 2(b),(c) of [BCL21]
-proves the $n^2$ bound for sufficiently large $n$ in two edge-density
-ranges; it settles the question for no $n$, since every $n$ leaves the
-middle densities open, so under the schema it is a known result and not a
-partial claim. Ferudun's claim uses it, as its page records.
+neither a proof nor a formalization link.
+
+Theorem 2(b),(c) of [BCL21] proves the $n^2$ bound for sufficiently large $n$
+in two edge-density ranges, a special case of the question, and is a partial
+claim on [[problems/extremal_graph_theory/E0023/claims/2021_03_25_balogh_clemen_lidicky|its claim page]]; the middle densities stay open at every
+$n$. Ferudun's claim uses it, as its page records.
 
 In the 2021 source the flag-algebra and high-density arguments are sketches
 with omitted computations; no reconstruction, independent proof review or
@@ -118,6 +130,32 @@ database (teorth/erdosproblems, read 2026-10-06) records the statement
 formalized since 2026-02-17 and `formal_status` unformalized.
 
 ## Known Results
+
+The [[research/triangle_free_bipartization/_index|middle-density research]]
+uses the normalization $d_{\rm mono}=2D_2(G)/N^2$, with target $2/25$.
+Its tier-0 result
+[[theory/extremal_graph_theory/L240_seven_root_linear_band_obstruction/_index|L240]]
+proves an exact obstruction to the specified
+seven-root aggregate objective in every universal convex density relaxation
+of order at least nine. An order-five rooted degree inequality excludes
+the obstructing mixture, but a universal certificate on the full middle
+band remains missing. This is an obstruction to that aggregate method,
+not a graph contradicting the conjecture or a verification of Ferudun's
+pending certificate. The same research records the circulant
+$C_{13}(1,5)$, with $d_{\rm mono}=12/169$ at density $4/13$, the largest
+value among its band examples and still below $2/25$. It also records an
+exact mixture of two band graphons obstructing constant-weight profile-cut
+contradiction certificates with at most four roots on intervals containing
+both densities. Rooted multipliers or a fifth root remove that witness.
+[[research/leads/triangle_free_middle_band/_index|The middle-band lead]]
+follows flag relaxations of graphons coloured by a maximum cut. Mixtures of
+genuine coloured states, such as those two, cannot obstruct that route
+unless a component is itself a counterexample. The lead also derives
+hereditary comparison, recursive induction inequalities, and additional
+identities for mixtures of active cuts after optimizing vertex weights.
+No full-band certificate is supplied.
+The additional arguments and local-stability limitations are recorded on
+the research pages at author standing.
 
 [[../library/extremal_graph_theory/balogh_2021_max_cuts_triangle_free_graphs/theorem_2|Theorem 2(a)--(c)]]
 of the six-page arXiv:2103.14179v1 extended abstract, printed/PDF
@@ -136,6 +174,21 @@ the two sharp ranges leave intermediate densities untreated by this
 theorem. No finite-order extension is inferred merely from the source's
 discussion of blow-ups.
 
+The corpus's
+[[research/graph_ramsey_interfaces/homogeneous_triangle_deletion_bounds|homogeneous transfer argument]]
+proves the exact blow-up identity and handles the sparse boundary by adjoining
+an isolated vertex. It therefore obtains $D_2(G)\le N^2/25$ at every order
+when $2e(G)/N^2\le0.2486$ or $2e(G)/N^2\ge0.3197$, conditional only on the
+imported tail theorem at its recorded standing. The same transfer carries the
+general bound $D_2(G)\le2N^2/47$ to every order. The remaining interval in
+this normalization is $0.2486<2e(G)/N^2<0.3197$. Corollary 4.2 of Ferudun's
+preprint states the same tail bounds at every order, but its proof sends the
+two boundary densities to its band certificate. Plasma AI's transfer is
+recorded as a pending partial claim on [[problems/extremal_graph_theory/E0023/claims/2026_10_19_plasma_ai|its claim page]],
+author-recorded at tier 0, and
+[[research/leads/triangle_free_density_tails/_index|the density-tail lead]]
+records the route and the middle band it cannot reach.
+
 The source's sharpness example on p. 1 is the balanced blow-up of $C_5$:
 five independent classes of $n$ vertices, with complete bipartite graphs
 between cyclically consecutive classes. It is triangle-free and needs
@@ -153,6 +206,9 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/extremal_graph_theory/balogh_2021_max_cuts_triangle_free_graphs/_index|balogh_2021_max_cuts_triangle_free_graphs]]
 - [[../library/extremal_graph_theory/balogh_2021_max_cuts_triangle_free_graphs/theorem_2|balogh_2021_max_cuts_triangle_free_graphs / theorem_2]]
 - [[../library/extremal_graph_theory/erdos_1992_my_favourite_problems_various_branches_combinatorics/_index|erdos_1992_my_favourite_problems_various_branches_combinatorics]]
+- [[../library/extremal_graph_theory/ferudun_2026_erdos_max_cut_small_multiples/_index|ferudun_2026_erdos_max_cut_small_multiples]]
+- [[../library/extremal_graph_theory/ferudun_2026_erdos_max_cut_small_multiples/proposition_2_2|ferudun_2026_erdos_max_cut_small_multiples / proposition_2_2]]
+- [[../library/extremal_graph_theory/ferudun_2026_erdos_max_cut_small_multiples/theorem_1_1|ferudun_2026_erdos_max_cut_small_multiples / theorem_1_1]]
 - [[../library/extremal_graph_theory/krivelevich_1995_edge_distribution_triangle_free_graphs/_index|krivelevich_1995_edge_distribution_triangle_free_graphs]]
 - [[../library/extremal_graph_theory/krivelevich_1995_edge_distribution_triangle_free_graphs/claim_p3|krivelevich_1995_edge_distribution_triangle_free_graphs / claim_p3]]
 - [[../library/extremal_graph_theory/krivelevich_1995_edge_distribution_triangle_free_graphs/theorem_3|krivelevich_1995_edge_distribution_triangle_free_graphs / theorem_3]]

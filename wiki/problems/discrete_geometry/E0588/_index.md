@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 588
@@ -50,13 +50,19 @@ https://www.erdosproblems.com/588.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/geometric_configuration_interfaces/rich_lines|Rich lines and
+real-planar realization]] account records the following scope. For each fixed
+$k\ge4$, the known $n^{2-o(1)}$ lower bound rules out a fixed power saving. The
+displayed lower bound divided by $n^2$ tends to zero; the actual construction
+count is not thereby proved to have vanishing density.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

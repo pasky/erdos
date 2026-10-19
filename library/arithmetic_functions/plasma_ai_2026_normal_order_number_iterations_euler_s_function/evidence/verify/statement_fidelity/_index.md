@@ -6,7 +6,7 @@ desc: |
   statements in the Problem 408 formalization's challenge file, with its
   distinct grade: all three faithful, coverage partial, no tier awarded.
 created: 2026-10-14T20:39:30Z
-updated: 2026-10-14T20:39:30Z
+updated: 2026-10-19T06:24:13Z
 ---
 
 # Statement fidelity of the Problem 408 challenge statements
@@ -49,9 +49,10 @@ is held, byte for byte, under
   `wiki/problems/arithmetic_functions/E0408/_index.md` as they stood on
   2026-10-14.
 - `challenge.lean`: `Challenge.lean` of plasma-ai/erdos-408 at commit
-  bd581ee, the parent of the held commit 5b02bf9. The two differ in one
-  reflowed line of its module doc comment and nowhere in its definitions or
-  statements, so the audit applies to the held copy unchanged.
+  bd581ee, the parent of 5b02bf9. The two differ in one reflowed line of its
+  module doc comment and nowhere in its definitions or statements, and the
+  held commit 4ea44bf has the `Challenge.lean` of 5b02bf9 byte for byte, so
+  the audit applies to the held copy unchanged.
 - `paper_theorem_1_1.tex`: lines 37–62 of the preprint's TeX source, the
   definition of $f$ and Theorem 1.1.
 - `fc_408.lean` and `fc_density.lean`: formal-conjectures'

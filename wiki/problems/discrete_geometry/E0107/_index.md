@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 107
@@ -90,6 +90,14 @@ and $f(n)\le 2^{n+O(\sqrt{n\log n})}$ of Holmsen, Mojarrad, Pach and Tardos
 [HMPT20] exceed $2^{n-2}+1$ for every $n\ge5$, so each settles no instance and
 none is a claim. The erdosproblems.com page records $f(4)=5$ (Klein), $f(5)=9$
 (Makai and Turán) and the bounds above.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/convex_subsets|convex-polygon
+thresholds and subset counts]] account records the following scope. The cited
+theorem gives ES(k) <= 2^(k+O(sqrt(k log k))), including real point sets, but
+not the exact threshold.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,0 +1,280 @@
+{
+  "input_file": "erdos_699_bft_prime_bootstrap_parameters.json",
+  "prime_log_certificate": {
+    "sieve_limit": 100000000,
+    "prime_count": 5761455,
+    "fixed_point_scale": 4294967296,
+    "logarithm_buckets": 16384,
+    "prime_array_sha256": "a7eead5377c738f5ecdd62fd01a0cedbcecee527cbf31739d4ecc1f3fae07766",
+    "lower_prefix_sha256": "4304ce7a015e2d94d35d15599d9b26dc795a6f1c858aa6d380a47eb30acfcf11",
+    "upper_prefix_sha256": "4219bf59b49c1064a731280a3928c33fd1a0c1aa1f13f8968858441606d43d10",
+    "log_table_lower_sha256": "dbde445fb6e3e5c17e77b4ccd03f316233df9b3dab4c42801dd6fe602dfc3306",
+    "log_table_upper_sha256": "c0679e5eed9e99b48ec716b190e1bf3389055ae363885ac88f11bb65e4c3e1d7"
+  },
+  "records": [
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "seed": [
+        9,
+        8,
+        1,
+        1,
+        29,
+        20
+      ],
+      "targets_by_prime": {
+        "2": ".3286",
+        "3": ".2911"
+      },
+      "ell_lower": "1702881759/4000000000",
+      "finite_interval_start": 12744,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "c": 29,
+        "d": 20,
+        "terms": 4000,
+        "m0": 100000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1959,
+        "positive_terms": 306,
+        "largest_positive_t": 979,
+        "ell_lower": "1702881759/4000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "Dusart 2010 Proposition 5.1 and Theorem 5.2; BFT Lemmas 5.2 and 5.4"
+      },
+      "terms": 4000,
+      "certified_intervals": 49436,
+      "visited_nodes": 98880,
+      "largest_unsupported_singleton": 12743,
+      "minimum_margin": "1405846348601227/47956296204288000000000",
+      "partition_sha256": "6ff812e86f6458535650ad2959f79defb1e4c0d1c32e5a17141a12236e709864",
+      "elapsed_seconds": 4.647,
+      "conclusion": "G(c,d,dm-delta) >= exp(d*m*ell) for every m >= finite_interval_start and delta in {0,1}"
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "seed": [
+        128,
+        125,
+        1,
+        1,
+        43,
+        35
+      ],
+      "targets_by_prime": {
+        "2": ".2669",
+        "5": ".2701"
+      },
+      "ell_lower": "280222279237/1000000000000",
+      "finite_interval_start": 1046,
+      "finite_interval_end": 2999999,
+      "analytic_gcd_certificate": {
+        "c": 43,
+        "d": 35,
+        "terms": 4000,
+        "m0": 3000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1949,
+        "positive_terms": 112,
+        "largest_positive_t": 340,
+        "ell_lower": "280222279237/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "Dusart 2010 Proposition 5.1 and Theorem 5.2; BFT Lemmas 5.2 and 5.4"
+      },
+      "terms": 4000,
+      "certified_intervals": 13255,
+      "visited_nodes": 26516,
+      "largest_unsupported_singleton": 1045,
+      "minimum_margin": "224297475228683357/615056932864000000000000",
+      "partition_sha256": "d8472104eef929db46e507600731d229710b5ff742ea22c268034585bb1eb2a8",
+      "elapsed_seconds": 0.582,
+      "conclusion": "G(c,d,dm-delta) >= exp(d*m*ell) for every m >= finite_interval_start and delta in {0,1}"
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "seed": [
+        8,
+        7,
+        1,
+        1,
+        47,
+        32
+      ],
+      "targets_by_prime": {
+        "2": ".2747",
+        "7": ".3208"
+      },
+      "ell_lower": "444329464383/1000000000000",
+      "finite_interval_start": 9825,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "c": 47,
+        "d": 32,
+        "terms": 4000,
+        "m0": 100000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1974,
+        "positive_terms": 360,
+        "largest_positive_t": 1184,
+        "ell_lower": "444329464383/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "Dusart 2010 Proposition 5.1 and Theorem 5.2; BFT Lemmas 5.2 and 5.4"
+      },
+      "terms": 4000,
+      "certified_intervals": 60168,
+      "visited_nodes": 120343,
+      "largest_unsupported_singleton": 9824,
+      "minimum_margin": "2538641005325343/31409045504000000000000",
+      "partition_sha256": "5888b5cd1f9af587567ede5c4f2c9a08181583b7ea952660785df517148de7ac",
+      "elapsed_seconds": 6.665,
+      "conclusion": "G(c,d,dm-delta) >= exp(d*m*ell) for every m >= finite_interval_start and delta in {0,1}"
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "seed": [
+        625,
+        2187,
+        7,
+        2,
+        55,
+        34
+      ],
+      "targets_by_prime": {
+        "3": ".2552",
+        "5": ".3764"
+      },
+      "ell_lower": "477383377397/1000000000000",
+      "finite_interval_start": 4038,
+      "finite_interval_end": 29999999,
+      "analytic_gcd_certificate": {
+        "c": 55,
+        "d": 34,
+        "terms": 4000,
+        "m0": 30000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1978,
+        "positive_terms": 251,
+        "largest_positive_t": 800,
+        "ell_lower": "477383377397/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "Dusart 2010 Proposition 5.1 and Theorem 5.2; BFT Lemmas 5.2 and 5.4"
+      },
+      "terms": 4000,
+      "certified_intervals": 39143,
+      "visited_nodes": 78293,
+      "largest_unsupported_singleton": 4037,
+      "minimum_margin": "16296321408772598741/216301119209472000000000000",
+      "partition_sha256": "71ff313b1106c06223235d221024ccd806eaafebdbdf7c942700e6f0a639679e",
+      "elapsed_seconds": 3.147,
+      "conclusion": "G(c,d,dm-delta) >= exp(d*m*ell) for every m >= finite_interval_start and delta in {0,1}"
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "seed": [
+        49,
+        243,
+        5,
+        1,
+        28,
+        17
+      ],
+      "targets_by_prime": {
+        "3": ".0495",
+        "7": ".3261"
+      },
+      "ell_lower": "120244724163/250000000000",
+      "finite_interval_start": 13075,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "c": 28,
+        "d": 17,
+        "terms": 4000,
+        "m0": 100000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1956,
+        "positive_terms": 299,
+        "largest_positive_t": 989,
+        "ell_lower": "120244724163/250000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "Dusart 2010 Proposition 5.1 and Theorem 5.2; BFT Lemmas 5.2 and 5.4"
+      },
+      "terms": 4000,
+      "certified_intervals": 49928,
+      "visited_nodes": 99866,
+      "largest_unsupported_singleton": 13074,
+      "minimum_margin": "1095328985122903221/12687502999552000000000000",
+      "partition_sha256": "a2e8fe882edaf9c5eca1b3c6a7d4d7f854ec3c10e0393676b4c5eb0310b62fd8",
+      "elapsed_seconds": 4.673,
+      "conclusion": "G(c,d,dm-delta) >= exp(d*m*ell) for every m >= finite_interval_start and delta in {0,1}"
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "seed": [
+        25,
+        49,
+        2,
+        1,
+        3,
+        2
+      ],
+      "targets_by_prime": {
+        "5": ".3921",
+        "7": ".2657"
+      },
+      "ell_lower": "7614497793/15625000000",
+      "finite_interval_start": 28602,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "c": 3,
+        "d": 2,
+        "terms": 4000,
+        "m0": 100000000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1600,
+        "positive_terms": 157,
+        "largest_positive_t": 479,
+        "ell_lower": "7614497793/15625000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "Dusart 2010 Proposition 5.1 and Theorem 5.2; BFT Lemmas 5.2 and 5.4"
+      },
+      "terms": 4000,
+      "certified_intervals": 19376,
+      "visited_nodes": 38759,
+      "largest_unsupported_singleton": 28601,
+      "minimum_margin": "790579024997042973/4773250072576000000000000",
+      "partition_sha256": "b34f78ebae3520e9bba399b1fb1746004023d9cc3d3e0246fe1a143fa2539ef3",
+      "elapsed_seconds": 0.936,
+      "conclusion": "G(c,d,dm-delta) >= exp(d*m*ell) for every m >= finite_interval_start and delta in {0,1}"
+    }
+  ]
+}

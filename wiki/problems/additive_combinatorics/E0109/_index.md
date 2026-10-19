@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 109
@@ -23,12 +23,12 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Any $A\subseteq \mathbb{N}$ of positive upper density contains a
 sumset $B+C$ where both $B$ and $C$ are infinite.
 
-**Status.** PROVED (LEAN), the erdosproblems.com label. Its suffix is a catalog
-label explained under Formalization. The status-defining source is Theorem 1.2
-of Moreira, Richter and Robertson (Ann. of Math. (2) 189 (2019), 605--652,
-refereed). It proves the statement for positive upper density along any Følner
-sequence. The erdosproblems.com statement is the case of the intervals
-$\{1,\ldots,N\}$. The claim page is
+**Status.** PROVED (LEAN), the erdosproblems.com label. Its suffix is an
+erdosproblems.com label explained under Formalization. The status-defining
+source is Theorem 1.2 of Moreira, Richter and Robertson (Ann. of Math. (2) 189
+(2019), 605--652, refereed). It proves the statement for positive upper density
+along any Følner sequence. The erdosproblems.com statement is the case of the
+intervals $\{1,\ldots,N\}$. The claim page is
 [[problems/additive_combinatorics/E0109/claims/2018_03_01_moreira_richter_robertson|Moreira, Richter and Robertson]],
 accepted on the erdosproblems.com curator's credit and the refereed publication.
 A 2026 Lean development that declares itself a formalization of their theorem is
@@ -50,7 +50,7 @@ Cite as: T. F. Bloom, Erdős Problem #109, https://www.erdosproblems.com/109.
   [[../library/additive_combinatorics/moreira_2019_proof_sumset_conjecture_erdos/_index|moreira_2019_proof_sumset_conjecture_erdos]].
 
 **Formalization.** The erdosproblems.com label was PROVED (LEAN); its suffix is
-a catalog label. The statement is in
+an erdosproblems.com label. The statement is in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/109.lean),
 with formal-conjectures' `Set.upperDensity` (Mathlib has no upper-density
 definition); at its commit of 2026-10-06, linked, the file is tagged solved

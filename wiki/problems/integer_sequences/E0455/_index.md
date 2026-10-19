@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 455
@@ -95,13 +95,38 @@ bound, as the claim page records; it is not built here. The community
 database records a formalized statement since 3 January 2026 and no formal
 proof.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+These deductions leave the full question unresolved. They have author-recorded
+standing; this assessment is limited to the arguments and source interfaces
+stated below. No comprehensive search for recent proof claims is recorded here.
 
-## Known Results
+Write $d_n=q_{n+1}-q_n$ for
+an increasing prime sequence. Suppose $e_n=d_{n+1}-d_n$ is eventually
+periodic with period $h$. Start after periodicity begins, let $E$
+be one period's sum, and $D$ the next block sum of $h$ first
+differences. At period boundaries,
+$$
+ Q(t)=q+tD+hE\,t(t-1)/2.
+$$
+Indeed successive block increments are $D,D+hE,D+2hE,\ldots$.
+At $t=2q$, both nonconstant terms are divisible by the initial prime
+$q$; the resulting term exceeds $q$, since the sequence increases.
+It is composite, a contradiction.
 
-Not yet compiled.
+A deterministic finite mechanism forcing eventual periodicity of second
+differences therefore cannot construct an infinite prime sequence. This recovers
+the periodic-word obstruction in the page's account. It does not exclude
+aperiodic bounded second differences or prove $q_n/n^2\to\infty$ under
+nondecreasing prime gaps.
+
+The unresolved obligation is to control arbitrary aperiodic nondecreasing gaps
+strongly enough to force q_n/n^2 to diverge. Before any
+periodic recurrence search, apply the explicit Q(2q) divisibility obstruction; a
+new route must quantify aperiodic residue avoidance. Stop at periodic-word
+exclusions, improved fixed constants, or averages in place of the requested
+limit.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 329
@@ -89,6 +89,49 @@ Search scope. On 2026-10-07 the erdosproblems.com page listed no proof claim,
 its discussion thread held one comment, of 18 November 2025, on the page's tags,
 and the formal-conjectures statement file stated the question as open and
 recorded the three credited bounds as variants without a formal proof.
+
+## Research
+
+These author-recorded arguments and source-fit limitations are by Plasma AI.
+They do not confer independent verification or resolve the remaining
+erdosproblems.com question.
+
+Sidon sums are unordered, with doubles allowed; the target concerns an infinite
+set's limsup.
+
+Let $A\subset[1,M]$, $B\subset[1,L]$ be Sidon, $L\ge M$.
+Each positive difference of $A$ occurs in at most one ordered pair in
+$B$. Delete one endpoint of every such pair to obtain $B'$, losing
+at most $\binom{|A|}{2}$ points. Then $A,B'$ share no positive
+difference. For $T=L+M+1$, old-old, old-new and new-new sums in
+$A\cup(T+B')$ occupy disjoint intervals
+$$
+ [2,2M],\quad[T+2,T+L+M],\quad[2T+2,2T+2L].
+$$
+A middle-interval collision would give a common nonzero difference;
+the other two intervals are Sidon already. Thus the union is Sidon
+and lies in $[1,2L+M+1]$.
+
+For a fixed prefix and near-optimal finite block of size $(1-o(1))\sqrt L$, this
+gives ratio $1/\sqrt2$, not an improvement. A displacement $o(L)$ leaves mixed
+relations with three new elements and one old, $T+b_1+b_2-b_3=a$, uncontrolled
+by difference deletions.
+
+E0044's exact extension statement and the held Kolountzakis Theorem 4 account
+were read. The latter is $B_2[2]$; permitting a second representation is
+precisely the relaxation that cannot be removed.
+
+The unresolved obligation is to adjoin a near-optimal block at displacement
+o(block length) while controlling all mixed sum coincidences. A useful test is
+to use a fixed old prefix and a translated new block T+B of length L with
+T=o(L), bound the deletions needed to exclude T+b1+b2-b3=a with a in the prefix,
+beyond the easy repeated-difference deletions. Stop at an unproved o(sqrt(N))
+deletion estimate or use of a B2[2] construction as if it were Sidon.
+
+Source interfaces:
+[[../library/additive_bases/kolountzakis_1996_density_b_h_g_sequences_minimum/theorem_4|Theorem
+4, definitions and extension proof account]].
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

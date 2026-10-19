@@ -1,0 +1,2078 @@
+{
+  "coverage": "exact constraint inclusion-exclusion and four-block recurrence",
+  "total_colorings_represented": 17421,
+  "records": [
+    {
+      "k": 2,
+      "claimed_minimum": 3,
+      "rows": [
+        {
+          "N": 0,
+          "ap_count": 0,
+          "colorings": 1,
+          "avoiding_colorings": 1,
+          "first_avoiding_coloring": []
+        },
+        {
+          "N": 1,
+          "ap_count": 0,
+          "colorings": 2,
+          "avoiding_colorings": 2,
+          "first_avoiding_coloring": [
+            -1
+          ]
+        },
+        {
+          "N": 2,
+          "ap_count": 1,
+          "colorings": 4,
+          "avoiding_colorings": 2,
+          "first_avoiding_coloring": [
+            -1,
+            1
+          ]
+        },
+        {
+          "N": 3,
+          "ap_count": 3,
+          "colorings": 8,
+          "avoiding_colorings": 0,
+          "first_avoiding_coloring": null
+        }
+      ]
+    },
+    {
+      "k": 3,
+      "claimed_minimum": 9,
+      "rows": [
+        {
+          "N": 0,
+          "ap_count": 0,
+          "colorings": 1,
+          "avoiding_colorings": 1,
+          "first_avoiding_coloring": []
+        },
+        {
+          "N": 1,
+          "ap_count": 0,
+          "colorings": 2,
+          "avoiding_colorings": 2,
+          "first_avoiding_coloring": [
+            -1
+          ]
+        },
+        {
+          "N": 2,
+          "ap_count": 0,
+          "colorings": 4,
+          "avoiding_colorings": 4,
+          "first_avoiding_coloring": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "N": 3,
+          "ap_count": 1,
+          "colorings": 8,
+          "avoiding_colorings": 6,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "N": 4,
+          "ap_count": 2,
+          "colorings": 16,
+          "avoiding_colorings": 10,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            -1
+          ]
+        },
+        {
+          "N": 5,
+          "ap_count": 4,
+          "colorings": 32,
+          "avoiding_colorings": 14,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "N": 6,
+          "ap_count": 6,
+          "colorings": 64,
+          "avoiding_colorings": 20,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "N": 7,
+          "ap_count": 9,
+          "colorings": 128,
+          "avoiding_colorings": 16,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "N": 8,
+          "ap_count": 12,
+          "colorings": 256,
+          "avoiding_colorings": 6,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "N": 9,
+          "ap_count": 16,
+          "colorings": 512,
+          "avoiding_colorings": 0,
+          "first_avoiding_coloring": null
+        }
+      ]
+    },
+    {
+      "k": 4,
+      "claimed_minimum": 13,
+      "rows": [
+        {
+          "N": 0,
+          "ap_count": 0,
+          "colorings": 1,
+          "avoiding_colorings": 1,
+          "first_avoiding_coloring": []
+        },
+        {
+          "N": 1,
+          "ap_count": 0,
+          "colorings": 2,
+          "avoiding_colorings": 2,
+          "first_avoiding_coloring": [
+            -1
+          ]
+        },
+        {
+          "N": 2,
+          "ap_count": 0,
+          "colorings": 4,
+          "avoiding_colorings": 4,
+          "first_avoiding_coloring": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "N": 3,
+          "ap_count": 0,
+          "colorings": 8,
+          "avoiding_colorings": 8,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "N": 4,
+          "ap_count": 1,
+          "colorings": 16,
+          "avoiding_colorings": 6,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "N": 5,
+          "ap_count": 2,
+          "colorings": 32,
+          "avoiding_colorings": 6,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ]
+        },
+        {
+          "N": 6,
+          "ap_count": 3,
+          "colorings": 64,
+          "avoiding_colorings": 6,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "N": 7,
+          "ap_count": 5,
+          "colorings": 128,
+          "avoiding_colorings": 4,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "N": 8,
+          "ap_count": 7,
+          "colorings": 256,
+          "avoiding_colorings": 4,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "N": 9,
+          "ap_count": 9,
+          "colorings": 512,
+          "avoiding_colorings": 4,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1
+          ]
+        },
+        {
+          "N": 10,
+          "ap_count": 12,
+          "colorings": 1024,
+          "avoiding_colorings": 4,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1
+          ]
+        },
+        {
+          "N": 11,
+          "ap_count": 15,
+          "colorings": 2048,
+          "avoiding_colorings": 4,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1
+          ]
+        },
+        {
+          "N": 12,
+          "ap_count": 18,
+          "colorings": 4096,
+          "avoiding_colorings": 4,
+          "first_avoiding_coloring": [
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1,
+            -1,
+            -1,
+            1,
+            1
+          ]
+        },
+        {
+          "N": 13,
+          "ap_count": 22,
+          "colorings": 8192,
+          "avoiding_colorings": 0,
+          "first_avoiding_coloring": null
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "k": 2,
+      "rows": [
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 1,
+          "coefficient_polynomial": [
+            [
+              0,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [],
+          "N": 0,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 1,
+          "coefficient_polynomial": [
+            [
+              1,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 1,
+              "plus_count": 1
+            }
+          ],
+          "N": 1,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 2,
+          "coefficient_polynomial": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 1,
+              "plus_count": 1
+            },
+            {
+              "vertex": 1,
+              "minus_count": 0,
+              "plus_count": 1
+            }
+          ],
+          "N": 2,
+          "endpoint_progressions": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 5,
+          "coefficient_polynomial": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              -3
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [],
+          "N": 3,
+          "endpoint_progressions": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "k": 3,
+      "rows": [
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 1,
+          "coefficient_polynomial": [
+            [
+              0,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [],
+          "N": 0,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 1,
+          "coefficient_polynomial": [
+            [
+              1,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 1,
+              "plus_count": 1
+            }
+          ],
+          "N": 1,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 1,
+          "coefficient_polynomial": [
+            [
+              2,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 2,
+              "plus_count": 2
+            },
+            {
+              "vertex": 1,
+              "minus_count": 1,
+              "plus_count": 1
+            }
+          ],
+          "N": 2,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 2,
+          "coefficient_polynomial": [
+            [
+              1,
+              -1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 3,
+              "plus_count": 3
+            },
+            {
+              "vertex": 1,
+              "minus_count": 1,
+              "plus_count": 2
+            },
+            {
+              "vertex": 2,
+              "minus_count": 0,
+              "plus_count": 1
+            }
+          ],
+          "N": 3,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 4,
+          "coefficient_polynomial": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              -2
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 5,
+              "plus_count": 5
+            },
+            {
+              "vertex": 1,
+              "minus_count": 2,
+              "plus_count": 3
+            },
+            {
+              "vertex": 2,
+              "minus_count": 0,
+              "plus_count": 2
+            },
+            {
+              "vertex": 3,
+              "minus_count": 1,
+              "plus_count": 1
+            }
+          ],
+          "N": 4,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              1,
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 10,
+          "coefficient_polynomial": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              -4
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 7,
+              "plus_count": 7
+            },
+            {
+              "vertex": 1,
+              "minus_count": 3,
+              "plus_count": 4
+            },
+            {
+              "vertex": 2,
+              "minus_count": 0,
+              "plus_count": 3
+            },
+            {
+              "vertex": 3,
+              "minus_count": 2,
+              "plus_count": 1
+            },
+            {
+              "vertex": 4,
+              "minus_count": 1,
+              "plus_count": 1
+            }
+          ],
+          "N": 5,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              2,
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 19,
+          "coefficient_polynomial": [
+            [
+              1,
+              -2
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              -6
+            ],
+            [
+              6,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 10,
+              "plus_count": 10
+            },
+            {
+              "vertex": 1,
+              "minus_count": 4,
+              "plus_count": 6
+            },
+            {
+              "vertex": 2,
+              "minus_count": 0,
+              "plus_count": 4
+            },
+            {
+              "vertex": 3,
+              "minus_count": 2,
+              "plus_count": 2
+            },
+            {
+              "vertex": 4,
+              "minus_count": 1,
+              "plus_count": 1
+            },
+            {
+              "vertex": 5,
+              "minus_count": 0,
+              "plus_count": 1
+            }
+          ],
+          "N": 6,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              3,
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 43,
+          "coefficient_polynomial": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              -12
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              -9
+            ],
+            [
+              7,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 8,
+              "plus_count": 8
+            },
+            {
+              "vertex": 1,
+              "minus_count": 4,
+              "plus_count": 4
+            },
+            {
+              "vertex": 2,
+              "minus_count": 0,
+              "plus_count": 4
+            },
+            {
+              "vertex": 3,
+              "minus_count": 1,
+              "plus_count": 3
+            },
+            {
+              "vertex": 4,
+              "minus_count": 1,
+              "plus_count": 0
+            },
+            {
+              "vertex": 5,
+              "minus_count": 0,
+              "plus_count": 1
+            },
+            {
+              "vertex": 6,
+              "minus_count": 0,
+              "plus_count": 1
+            }
+          ],
+          "N": 7,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              0,
+              3,
+              6
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              4,
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 101,
+          "coefficient_polynomial": [
+            [
+              1,
+              -3
+            ],
+            [
+              2,
+              21
+            ],
+            [
+              3,
+              -39
+            ],
+            [
+              4,
+              17
+            ],
+            [
+              5,
+              15
+            ],
+            [
+              6,
+              -12
+            ],
+            [
+              8,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [
+            {
+              "vertex": 0,
+              "minus_count": 3,
+              "plus_count": 3
+            },
+            {
+              "vertex": 1,
+              "minus_count": 1,
+              "plus_count": 2
+            },
+            {
+              "vertex": 2,
+              "minus_count": 0,
+              "plus_count": 1
+            },
+            {
+              "vertex": 3,
+              "minus_count": 0,
+              "plus_count": 1
+            },
+            {
+              "vertex": 4,
+              "minus_count": 1,
+              "plus_count": 0
+            },
+            {
+              "vertex": 5,
+              "minus_count": 1,
+              "plus_count": 0
+            },
+            {
+              "vertex": 6,
+              "minus_count": 0,
+              "plus_count": 1
+            },
+            {
+              "vertex": 7,
+              "minus_count": 0,
+              "plus_count": 1
+            }
+          ],
+          "N": 8,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              0,
+              3,
+              6
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              1,
+              4,
+              7
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              3,
+              5,
+              7
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              5,
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "route": "inclusion-exclusion over monochromatic constraints",
+          "nonzero_partition_terms": 264,
+          "coefficient_polynomial": [
+            [
+              1,
+              -10
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              58
+            ],
+            [
+              4,
+              -101
+            ],
+            [
+              5,
+              42
+            ],
+            [
+              6,
+              21
+            ],
+            [
+              7,
+              -16
+            ],
+            [
+              9,
+              1
+            ]
+          ],
+          "first_witness_prefix_counts": [],
+          "N": 9,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              0,
+              2,
+              4
+            ],
+            [
+              0,
+              3,
+              6
+            ],
+            [
+              0,
+              4,
+              8
+            ],
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              3,
+              5
+            ],
+            [
+              1,
+              4,
+              7
+            ],
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              4,
+              6
+            ],
+            [
+              2,
+              5,
+              8
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              3,
+              5,
+              7
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              4,
+              6,
+              8
+            ],
+            [
+              5,
+              6,
+              7
+            ],
+            [
+              6,
+              7,
+              8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "k": 4,
+      "rows": [
+        {
+          "route": "no four-point progression",
+          "seeds": [],
+          "N": 0,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "no four-point progression",
+          "seeds": [],
+          "N": 1,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "no four-point progression",
+          "seeds": [],
+          "N": 2,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "no four-point progression",
+          "seeds": [],
+          "N": 3,
+          "endpoint_progressions": []
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              -1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 4,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              -1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 5,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              -1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              -1,
+              1,
+              -1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 6,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 7,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 8,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              4,
+              5,
+              6,
+              7
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 9,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              2,
+              4,
+              6,
+              8
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              6,
+              7,
+              8
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 10,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              0,
+              3,
+              6,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              2,
+              4,
+              6,
+              8
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              3,
+              5,
+              7,
+              9
+            ],
+            [
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              6,
+              7,
+              8,
+              9
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 11,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              0,
+              3,
+              6,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              1,
+              4,
+              7,
+              10
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              2,
+              4,
+              6,
+              8
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              3,
+              5,
+              7,
+              9
+            ],
+            [
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              4,
+              6,
+              8,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              7,
+              8,
+              9,
+              10
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [
+            [
+              -1,
+              -1,
+              1,
+              1
+            ],
+            [
+              -1,
+              1,
+              1,
+              -1
+            ],
+            [
+              1,
+              -1,
+              -1,
+              1
+            ],
+            [
+              1,
+              1,
+              -1,
+              -1
+            ]
+          ],
+          "N": 12,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              0,
+              3,
+              6,
+              9
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              1,
+              4,
+              7,
+              10
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              2,
+              4,
+              6,
+              8
+            ],
+            [
+              2,
+              5,
+              8,
+              11
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              3,
+              5,
+              7,
+              9
+            ],
+            [
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              4,
+              6,
+              8,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              5,
+              7,
+              9,
+              11
+            ],
+            [
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              8,
+              9,
+              10,
+              11
+            ]
+          ]
+        },
+        {
+          "route": "balanced four-block recurrence",
+          "seeds": [],
+          "N": 13,
+          "endpoint_progressions": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              6
+            ],
+            [
+              0,
+              3,
+              6,
+              9
+            ],
+            [
+              0,
+              4,
+              8,
+              12
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              1,
+              4,
+              7,
+              10
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              2,
+              4,
+              6,
+              8
+            ],
+            [
+              2,
+              5,
+              8,
+              11
+            ],
+            [
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              3,
+              5,
+              7,
+              9
+            ],
+            [
+              3,
+              6,
+              9,
+              12
+            ],
+            [
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              4,
+              6,
+              8,
+              10
+            ],
+            [
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              5,
+              7,
+              9,
+              11
+            ],
+            [
+              6,
+              7,
+              8,
+              9
+            ],
+            [
+              6,
+              8,
+              10,
+              12
+            ],
+            [
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              8,
+              9,
+              10,
+              11
+            ],
+            [
+              9,
+              10,
+              11,
+              12
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

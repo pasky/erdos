@@ -1,0 +1,42 @@
+{
+  "freeze_date_utc": "2026-10-15",
+  "marker": "[cut]",
+  "consumed_native_ledger_rows": [],
+  "files": [
+    {
+      "path": "signed_type_ii.md.txt",
+      "source_path": "wiki/research/smooth_successor_primes/signed_type_ii.md"
+    },
+    {
+      "path": "extraction.md.txt",
+      "source_path": "wiki/research/smooth_successor_primes/successor_prime_extraction.md"
+    },
+    {
+      "path": "product_reduction.md.txt",
+      "source_path": "wiki/research/smooth_successor_primes/li_zhuang_reduction.md"
+    },
+    {
+      "path": "catalog_statement.md.txt",
+      "source_path": "wiki/problems/arithmetic_functions/E0824/_index.md"
+    },
+    {
+      "path": "source_sections_2_6_7.md.txt",
+      "source_path": "library/arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers.md"
+    }
+  ],
+  "source_identities": [
+    {
+      "author": "OpenAI",
+      "title": "Weighted dilation graphs, smooth shifted primes and totient fibers",
+      "version": "24 September 2026 release",
+      "kind": "unrefereed manuscript"
+    },
+    {
+      "authors": "Shisheng Li and Zhong Zhuang",
+      "title": "Coprime pairs with equal sum of divisors, assuming smooth shifted primes",
+      "version": "11 October 2026 draft",
+      "locators": "Theorem 1.3 and Section 3, pages 1–3",
+      "supplied_form": "project exposition of the full counting reduction"
+    }
+  ]
+}

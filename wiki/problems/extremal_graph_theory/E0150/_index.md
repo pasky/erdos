@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 150
@@ -46,7 +46,7 @@ paper recorded below. Erdős and Nešetřil's guess $c(3m+2)=3^m$ is a separate
 subquestion, which erdosproblems.com and Bradač report as answered in the
 negative by Gaspers and Mackenzie's published lower bound, whose proof is
 unchecked (Status); the value of $\alpha$ is unknown. The erdosproblems.com
-label PROVED (LEAN) carries a catalog suffix explained under Formalization.
+label PROVED (LEAN) carries a suffix explained under Formalization.
 
 **Status.** PROVED (LEAN). The limit exists and satisfies
 $1.4457\le\alpha\le\frac{1+\sqrt5}2\approx1.618$ (erdosproblems.com's interval),
@@ -148,8 +148,8 @@ Problem #150, https://www.erdosproblems.com/150, accessed 2026-09-19.
   and
   [[../library/extremal_graph_theory/gaspers_2018_number_minimal_separators_graphs/theorem_2|theorem_2]].
 
-**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is a
-catalog label. The file
+**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is an
+erdosproblems.com label. The file
 [`ErdosProblems/150.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/150.lean)
 of formal-conjectures at the commit linked (the head of `main` on
 2026-09-19; 4,662 bytes) declares

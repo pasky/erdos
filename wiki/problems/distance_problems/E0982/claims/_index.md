@@ -1,10 +1,10 @@
 ---
 name: problems/distance_problems/E0982/claims
-desc: The 3 claim pages of Problem 982, one per claimant's result; the problem's standing derives from them.
+desc: The 4 claim pages of Problem 982, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/distance_problems/E0982/claims
@@ -24,5 +24,7 @@ $\lfloor n/2\rfloor$ for $n=4$ to $7$ and $n=9$.
 $\lceil(13n-6)/36\rceil$ distinct distances to the other vertices (Discrete
 Comput. Geom., 2006). The bound equals $\lfloor n/2\rfloor$ for $n=3,4,5,7$
 and $9$.
+
+[[problems/distance_problems/E0982/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: An exact critical-parameter census shows that every strictly convex half-step concentric 2m-gon with 3 <= m <= 32, and every regular n-gon stretched along a coordinate axis with 8 <= n <= 24, has a vertex with at least floor(n/2) distinct distances; author-recorded at tier 0, catalog acceptance pending.
 
 ***

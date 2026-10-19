@@ -5,7 +5,7 @@ desc: |
   and the certified published bound of ten to the sixteenth.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-07T19:30:53Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # covering_systems/hough_2015_solution_minimum_modulus_problem_covering_systems
@@ -121,6 +121,21 @@ moduli exceed $10^{16}$ cannot cover every integer, and its periodic
 complement has positive density. These locations and statements are
 those of the journal article.
 
+This obstructs a finite family from covering every integer (a complete
+cover, not merely the technical exactly-once kind); it is not a tail
+estimate for Problem 25. The theorem records positivity for each fixed
+finite system, not a density bound shown to stay away from zero over
+growing blocks with unbounded largest modulus. Nor does ambient noncoverage
+by a late block control how much that block deletes from the survivors of
+an earlier, possibly highly biased block: a positive-density ambient
+complement can have a very small intersection with those survivors. The
+Problem 25 cutoffs can also postpone agreement with the periodic model to
+the largest modulus in the block. Consequently, ruling out complete covers
+by large distinct moduli still permits a moving block to delete a
+macroscopic share on a long finite scale—a transient effect that can matter
+to logarithmic averages. Hough's theorem alone therefore does not establish
+existence of the logarithmic density in Problem 25.
+
 **Proof coverage.** The published main proof and
 both appendices are reconstructed in the following linked components.
 The square-free discussion in Section 2 is an overview of this same
@@ -162,8 +177,14 @@ Theorem 2 gives a precise integer-moment witness rather than treating
 an unattained maximum as automatic.
 
 The coarse displayed tail estimate alone is insufficient to start the
-source's final comparison with its growth envelope. The actual initial
-comparison reported by the source is not asserted false.
+source's final comparison with its growth envelope. The compilation
+retains the factor $0.88$ already proved in Appendix A for $n\ge14$
+and certifies it also for $n=11,12,13$. This makes the entire numerical
+induction explicit at the published parameters $M=10^{16}$,
+$P_i=e^{11+i}$, $e^\lambda=2$, $\pi=1/2$, and $\delta=0.86$.
+The actual initial comparison reported by the source is not asserted
+false. These are proved compilation clarifications and a sufficient
+uniform completion, not an author-issued erratum or a new bound.
 
 **Other versions.** The
 arXiv v3 preprint
@@ -189,7 +210,11 @@ distribution license (arXiv:1307.0874), every other right reserved.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0002/_index|Problem 2]] and
 [[../wiki/problems/integer_sequences/E0025/_index|Problem 25]].
-A comment on the erdosproblems.com thread for
+It also answers
+[[../wiki/problems/covering_systems/E0027/_index|Problem 27]] as literally
+worded: for $N>10^{16}$, each of the finitely many systems with distinct
+moduli in $[N,CN]$ leaves a positive density uncovered, so for every $C$ some
+$\epsilon>0$ is too small. A comment on the erdosproblems.com thread for
 [[../wiki/problems/covering_systems/E0277/_index|Problem 277]] uses it to
 answer Erdős's follow-up question there negatively: the largest
 $\sigma(m)/m$ over $m<x$ whose divisors do not form a covering system is not

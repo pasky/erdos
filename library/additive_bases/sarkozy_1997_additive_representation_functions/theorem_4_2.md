@@ -7,7 +7,7 @@ desc: |
   the sums up to N with exactly one representation are fewer than
   (1 + epsilon) 2/(2g - 3) times the sums up to N with more than one.
 created: 2026-10-08T16:18:49Z
-updated: 2026-10-08T16:18:49Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -81,8 +81,8 @@ Only the existence of an infinite Sidon set; the argument is self-contained.
 ## Bears on
 
 No problem page of the corpus asks the question this theorem answers. The
-Erdős--Freud conjecture recalled above has no catalog problem here, and the
-theorem compares the uniquely and the multiply represented sums of a set in
-$B_2[g]$; it gives no bound on the integers in $\{1,\ldots,N\}$ without
+Erdős--Freud conjecture recalled above has no erdosproblems.com problem here,
+and the theorem compares the uniquely and the multiply represented sums of a set
+in $B_2[g]$; it gives no bound on the integers in $\{1,\ldots,N\}$ without
 exactly one representation, which
 [[../wiki/problems/additive_bases/E0014/_index|Problem 14]] asks about.

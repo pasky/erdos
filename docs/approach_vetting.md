@@ -8,7 +8,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-07-24T15:00:00Z
-updated: 2026-09-06T00:00:00Z
+updated: 2026-10-19T02:48:45Z
 ---
 
 # approach_vetting
@@ -54,10 +54,13 @@ through what it enables. Counts of claim cards, verified statements, computed
 cases, or closed boxes do not measure progress toward the target. Continue while
 useful work remains within the task's actual scope and resources. A failed idea,
 a preliminary result, or the fact that the target is open does not end the
-attempt. Locate the obstruction and try a materially different attack when the
-mechanism fails; avoid repeatedly polishing the same stalled argument. When a
-task ends, preserve the unresolved gap and the best next attempt. There is no
-quota of successful lemmas.
+attempt. When the mechanism fails, locate where it broke and write a post-mortem
+that asks from first principles whether to retry the same angle or a slightly
+different one, or to revise the sketch and try a wholly different angle
+([[research]] "Develop the argument"); a retry carries what the post-mortem
+taught, rather than polishing the same stalled argument. When a task ends,
+preserve the unresolved gap and the best next attempt. There is no quota of
+successful lemmas.
 
 Integrate inexpensive checks into discovery where they can change the next move.
 Try to falsify pivotal conjectures; test boundary cases, quantifier order, and
@@ -198,8 +201,8 @@ The rules below are specific to this repository and hold in addition to the
 shared text above; a sentence that differs from the shared text says that it
 governs here.
 
-Follow [[anatomy]] for a status search before treating a catalog problem as an
-open research target.
+Follow [[anatomy]] for a status search before treating an erdosproblems.com
+problem as an open research target.
 
-For a catalog target Q, identify the exact E-number and formulation of Q,
-including subquestions and corrected variants.
+For an erdosproblems.com target Q, identify the exact E-number and formulation
+of Q, including subquestions and corrected variants.

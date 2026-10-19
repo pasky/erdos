@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-18T03:27:26Z
 ---
 
 # Problem 1078
@@ -84,7 +84,7 @@ $\lim_{r\to\infty}(c_r-r+2)=\frac12$, which is the 1975 conjecture. The claim
 pages record Haxell's note
 ([[problems/extremal_graph_theory/E1078/claims/2001_07_01_haxell|Haxell 2001]])
 and the Haxell--Szabó theorem
-([[problems/extremal_graph_theory/E1078/claims/2006_01_01_haxell_szabo|Haxell and Szabó 2006]]).
+([[problems/extremal_graph_theory/E1078/claims/2006_01_03_haxell_szabo|Haxell and Szabó 2006]]).
 Both are refereed and both are named by erdosproblems.com.
 
 **Source.** [erdosproblems.com/1078](https://www.erdosproblems.com/1078),

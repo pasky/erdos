@@ -1,0 +1,55 @@
+## Target
+
+[[problems/analysis/E1221/_index|Problem 1221]], in its mean-normalized
+reading, asks whether $\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ tend to
+infinity. The constants are taken over all sequences on the circle, coincident
+terms allowed, as in the erdosproblems.com wording and Section 1 of the 1949
+note.
+
+**The all-sequence circle model.** Let $X=(x_n)_{n\ge1}$ be any sequence on
+$\mathbb T=\mathbb R/\mathbb Z$. At time $n$ the labels $1,\ldots,n$ are
+ordered cyclically by position, coincident terms by index. Let
+$y_1\le\cdots\le y_n$ be their positions in this order on a lift to
+$\mathbb R$, extended by $y_{i+n}=y_i+1$. The $n$ gaps $y_{i+1}-y_i\ge0$ sum to
+$1$, and for $n\ge r$ the $r$-span from the label in place $i$ is
+$y_{i+r}-y_i\in[0,1]$. Each gap lies in exactly $r$ spans, so the spans sum to
+$r$ (the mean identity) and $nm_n^{(r)}\le r\le nM_n^{(r)}$, where
+$M_n^{(r)}$ and $m_n^{(r)}$ are the largest and smallest $r$-spans. Counts
+$N_n(I)$ of arcs count labels, that is, terms with multiplicity. Counting
+intervals $(x,x+\ell]$ have $\ell<1$; the lifted span arcs in the covering
+identity below may also have length $1$. All logarithms are natural unless
+a base is displayed. The constants are
+
+$$
+\Lambda_r=\inf_X\limsup_{n\to\infty}nM_n^{(r)},\qquad
+\lambda_r=\sup_X\liminf_{n\to\infty}nm_n^{(r)},\qquad
+\mu_r=\inf_X\limsup_{n\to\infty}\frac{M_n^{(r)}}{m_n^{(r)}},
+$$
+
+with $M/0=+\infty$.
+
+**Quantifiers.** An infimum is at least a number exactly when every member is.
+So $\Lambda_r-r\ge K$ holds when every sequence has
+$\limsup_n(nM_n^{(r)}-r)\ge K$; $r-\lambda_r\ge K$ when every sequence has
+$\limsup_n(r-nm_n^{(r)})\ge K$; and $r(\mu_r-1)\ge K$ when every sequence has
+$\limsup_nM_n^{(r)}/m_n^{(r)}\ge1+K/r$. Here
+$\limsup_n(r-nm_n^{(r)})=r-\liminf_{n\to\infty}nm_n^{(r)}$. No limit is exchanged
+with the infimum or the supremum.
+
+**Theorem (composed).** There are absolute constants $c>0$
+and $r_0$ such that, for every integer $r\ge r_0$ and every sequence on
+$\mathbb T$, coincident terms allowed,
+
+$$
+\limsup_{n\to\infty}\bigl(nM_n^{(r)}-r\bigr)\ge c\sqrt{\log r},\qquad
+\limsup_{n\to\infty}\bigl(r-nm_n^{(r)}\bigr)\ge c\sqrt{\log r},\qquad
+\limsup_{n\to\infty}\frac{M_n^{(r)}}{m_n^{(r)}}\ge1+\frac{\log r}{200\,r}.
+$$
+
+Consequently $\Lambda_r-r\ge c\sqrt{\log r}$, $r-\lambda_r\ge c\sqrt{\log r}$
+and $r(\mu_r-1)\ge(\log r)/200$ for $r\ge r_0$, and all three expressions
+tend to infinity. The argument runs for an arbitrary sequence, so it uses no
+relation between the constants over all sequences and those over sequences of
+distinct points; whether those constants agree remains unsettled and is not
+needed.
+

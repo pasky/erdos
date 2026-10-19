@@ -8,7 +8,7 @@ desc: |
   ideals of norm at most T is at most c1 T exp(-2 c2 log T / (log v(H) +
   sqrt(log T))) for every T >= 2.
 created: 2026-10-08T16:39:21Z
-updated: 2026-10-08T16:39:21Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -68,5 +68,9 @@ read clause by clause on pp. 10--12; there is no proof in the paper to read.
 ## Bears on
 
 - [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]:
-  background only. The lemma proves nothing about the problem and confers no
-  standing.
+  [[../wiki/research/erdos_940/quadratic_prime_harmonics|the quadratic
+  prime-harmonics research note]] cites the lemma's case of a single fixed
+  character, via partial summation, for the convergence of
+  $\sum_p\chi(p)/p$ and hence $L(1,\chi)>0$. The lemma is an input to that
+  note's argument; it proves nothing about the problem by itself and confers
+  no standing.

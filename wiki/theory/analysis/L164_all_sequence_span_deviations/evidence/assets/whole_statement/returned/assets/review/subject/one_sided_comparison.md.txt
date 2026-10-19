@@ -1,0 +1,23 @@
+## The one-sided parts
+
+Let $C_2,C_3$ be the absolute constants of Proposition 6.4 and $c_4,S_0$ those
+of Lemma 7.2 with the planar constant $c_H=1/41000$, and fix an absolute $c$
+with $0<c<c_4/(2C_3\sqrt3)$. Let $r$ be large and suppose that some sequence
+has $\limsup_n(nM_n^{(r)}-r)<c\sqrt{\log r}=:A$. Then $nM_n^{(r)}-r\le A$ for
+all large $n$, the first alternative of hypothesis (6.1).
+
+For large $r$: $A\ge1$, $C_3A\ge1$, $r\ge C_2A$,
+$S=\sqrt{Ar}/\log^2(r/A)\ge S_0$, and $\log S\ge(\log r)/3$, because
+$\log S=\frac12\log r+O(\log\log r)$. Proposition 6.4 gives hypothesis (7.1)
+of Lemma 7.2 with $B=C_3A$ at all late integer times, and Lemma 7.2 gives
+
+$$
+C_3c\sqrt{\log r}=C_3A\ \ge\ c_4\sqrt{\log S}\ \ge\ c_4\sqrt{(\log r)/3},
+$$
+
+that is, $c\ge c_4/(C_3\sqrt3)$, contrary to the choice of $c$. If instead
+$\limsup_n(r-nm_n^{(r)})<c\sqrt{\log r}$, the same argument runs with the second
+alternative $r-nm_n^{(r)}\le A$; Lemmas 6.1--6.3 and Proposition 6.4 use one
+alternative at a time, with the same constants. This proves the two one-sided
+bounds for $r\ge r_0$.
+

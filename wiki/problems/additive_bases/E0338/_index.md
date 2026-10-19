@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 338
@@ -89,9 +89,18 @@ https://www.erdosproblems.com/338.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+[[../library/additive_bases/hegyvari_2007_answer_question_burr_erdos_restricted_addition/theorem_4|Hegyvári–Hennecart–Plagne's
+Theorem 4]] constructs, for each $h\ge3$, examples of ordinary order $h$ and
+restricted order $2^{h-2}+h-1$. Any proposed universal bound must accommodate
+these examples. The formula is not an upper bound for arbitrary bases and does
+not make the restricted order unbounded with $h$ fixed. Their Theorem 1
+concerns gaps at restricted order $h$, not at every larger order. The exact
+statements and order conventions were inspected; no general existence or
+equality criterion is supplied. A new application must either control all bases
+at a fixed $h$ or construct unbounded restricted orders while keeping that $h$
+fixed.
 
 ## Known Results
 

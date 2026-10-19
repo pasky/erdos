@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 972
@@ -229,6 +229,26 @@ the citation as Erdős's and erdosproblems.com's. (3) Proof coverage: claims
 checked for Theorem 5.4 and its corollaries and for the hypotheses of Theorems
 1--4 of [Vi48]; nothing is proved or reviewed here, and there is no resolving
 proof to compile. (4) The Lean file is a statement, not a proof.
+
+## Exact local reduction and remaining uniformity
+
+The one-prime estimate in
+[[../library/number_theory/banks_2007_prime_numbers_beatty_sequences/_index|Banks–Shparlinski,
+Theorem 5.4]] weights $\Lambda(\lfloor\alpha n+\beta\rfloor)$ over all $n$. The
+target needs the additional weight $\Lambda(n)$ or an equivalent
+simultaneous-primality argument. Metric results also lose the every-$\alpha$
+quantifier.
+
+There can be no uniform first-witness bound independent of $\alpha$. For any
+prescribed $X$ and integer $A\ge2$, choose irrational $A<\alpha<A+1/X$. Then
+$\lfloor\alpha p\rfloor=Ap$ is composite for every prime $p\le X$. This author
+example does not refute infinitude for any fixed irrational. The held theorem
+was read at statement depth; the newer Song full theorem and proof remain
+inaccessible in the inspected read set, and no conclusion about their exact
+parameter range is inferred from the incomplete abstract. The remaining input
+is an individual-irrational two-prime correlation with its dependence on
+$\alpha$ preserved.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

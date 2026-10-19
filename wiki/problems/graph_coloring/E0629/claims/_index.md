@@ -1,10 +1,10 @@
 ---
 name: problems/graph_coloring/E0629/claims
-desc: The 2 claim pages of Problem 629, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 629, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T14:38:22Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/graph_coloring/E0629/claims
@@ -20,5 +20,7 @@ record of refereeing.
 bipartite graph that is not $3$-choosable has at least $14$ vertices. The
 lines of the Fano plane as lists on $K_{7,7}$ show that $14$ is attained, so
 $n(3)=14$.
+
+[[problems/graph_coloring/E0629/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Every bipartite graph with at most 26 vertices is 4-choosable, so $n(4)\ge27$; tier 1 on an independent examination and a separate passing grade, with catalog acceptance pending.
 
 ***

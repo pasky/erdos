@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 247
@@ -107,6 +107,26 @@ thread recorded no proof claim and no result on the exact question beyond the
 statements above. The erdosproblems.com proof-claims tab registered no claim; no
 wider literature search was made. The erdosproblems.com label OPEN matches the
 derived standing: the one claim is partial.
+
+## Scope of the irrationality criterion
+
+The given sparsity already proves irrationality. Every rational binary
+expansion is eventually periodic, allowing the two conventional expansions of a
+dyadic rational. An infinite periodic tail with ones has positive density of
+ones, forcing the enumerated positions to satisfy $a_n/n\to c<\infty$. A
+terminating expansion cannot contain all the prescribed infinitely many ones,
+and an eventually-all-one expansion also has positive density. Each possibility
+contradicts the hypothesis.
+
+This author argument stops at irrationality.
+[[../library/irrationality/erdos_1957_irrationality_certain_series/_index|Erdős's
+Theorem 2]] excludes degree at most $l$ only under $\limsup a_n/n^l=\infty$.
+The present condition gives $l=1$, not every $l$: $a_n=n^2$ already separates
+the hypotheses at $l=2$. Removing a possible first digit adds only a rational
+term and respects the source convention. The theorem was inspected at statement
+depth; no algebraic counterexample or new transcendence conclusion is asserted.
+A further digit theorem must address the actual weak sparsity condition.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

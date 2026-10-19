@@ -8,7 +8,7 @@ desc: |
   combinatorial interpretation of the arithmetic Tutte polynomial.
 license: reserved
 created: 2026-09-18T02:43:17Z
-updated: 2026-10-08T16:18:49Z
+updated: 2026-10-14T00:58:57Z
 ---
 
 # Arithmetic matroids, Tutte polynomial, and toric arrangements
@@ -70,11 +70,11 @@ polynomial, and Section 8 gives an example in which its evaluations
 finitely generated abelian group the multiplicity records saturation indices
 and torsion, which the underlying matroid of rational dependence does not.
 
-This may be useful if an E0774 construction encodes roots-of-unity or
-simplicial dependencies into an integer lattice: multiplicities record the
-index of the lattice a sublist generates inside its saturation, which rational
-dependence alone does not see. That use is prospective and is not a statement
-of the paper. The paper does not supply a coloring theorem tailored to
+This may be useful if the E0774 attack encodes roots-of-unity or simplicial
+dependencies into an integer lattice: multiplicities record the index of the
+lattice a sublist generates inside its saturation, which rational dependence
+alone does not see. That use is prospective and is not a statement of the
+paper. The paper does not supply a coloring theorem tailored to
 quasi-independence, so use it as language and invariant machinery rather than
 as a claimed bridge.
 

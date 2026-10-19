@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "Cheuk Fung Lau"
+  ],
+  "category": "math.NT",
+  "date": "2026-07-13",
+  "fetched": "2026-10-15",
+  "html": {
+    "bytes": 769853,
+    "files": 1,
+    "sha256": "58d65bf4956b0804fe04d0515038d391c7cad673062c123b1f3b893c5c4c555c",
+    "skipped": [],
+    "url": "https://arxiv.org/html/2409.12819v2"
+  },
+  "id": "2409.12819",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "pdf": {
+    "bytes": 573001,
+    "previous": [
+      {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": null
+      }
+    ],
+    "sha256": "dc9c7753d9a5c49f61f3114a33313a52f2bd58c8cc3e7bc315936e1f722a80e5",
+    "url": "https://arxiv.org/pdf/2409.12819v2"
+  },
+  "schema": 1,
+  "stamp": null,
+  "tex": {
+    "archive": {
+      "bytes": 20616,
+      "name": "arXiv-2409.12819v2.tar.gz",
+      "sha256": "a646db727964bbad125a001b41c74f0c24986daedbdb82f461023e421a60d95f"
+    },
+    "bytes": 79559,
+    "files": 3,
+    "sha256": "2f35b0a65a6855f6ca38c32208f10cb8969db8e2d79fda71e00330124d84de6e",
+    "url": "https://arxiv.org/src/2409.12819v2"
+  },
+  "title": "Residue Class Patterns of Consecutive Primes",
+  "version": 2
+}

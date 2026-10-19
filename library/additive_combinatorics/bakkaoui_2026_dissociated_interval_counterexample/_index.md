@@ -6,7 +6,7 @@ desc: |
   has size four, whereas the initial interval of length 13 admits five.
 license: unstated
 created: 2026-09-10T04:06:38Z
-updated: 2026-10-08T01:51:15Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # BAKKAOUI's dissociated-set counterexample
@@ -60,7 +60,8 @@ and shared-harness adaptation passed full normal and optimized runs; the
 [execution account](evidence/verify/_index.md#observed-filing-checks) records
 their outcomes and failure controls. These author runs do not independently
 certify the adaptation or extend the frozen finite report's scope. No native
-L-tier, formal verification or catalog resolution is claimed.
+L-tier, formal verification or resolution of an erdosproblems.com problem is
+claimed.
 
 **Bears on.** [[../wiki/problems/number_theory/E0963/_index|Problem 963]], by ruling out the
-initial interval as a universal minimizer; it supplies no catalog solution.
+initial interval as a universal minimizer; it supplies no solution.

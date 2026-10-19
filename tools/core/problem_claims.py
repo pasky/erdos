@@ -15,7 +15,7 @@ from __future__ import annotations
 import datetime as dt
 import pathlib
 import re
-from typing import Any, Optional
+from typing import Any, Optional, TypeGuard
 
 from tools.constants import LIBRARY_DIR, MATH_DIR, PROBLEM_TAGS
 
@@ -71,6 +71,14 @@ _CLAIMS_DIR = 'claims'
 _INDEX = '_index.md'
 #: a claim page is named by its date, underscored as every page name is, and its claimant
 _CLAIM_NAME = re.compile(r'(\d{4})_(\d{2})_(\d{2})_([a-z0-9][a-z0-9_]*)\.md')
+#: the lowercase roman suffixes of one claimant's same-day pages, i to x; xi and beyond
+#: would read real surnames such as Xi as suffixes
+_NUMERALS = {
+    numeral: number
+    for number, numeral in enumerate(
+        ('i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x'), 1
+    )
+}
 _DATE = re.compile(r'\d{4}-\d{2}-\d{2}')
 #: a date known only to its month or year: no day or month is invented
 _COARSE_DATE = re.compile(r'\d{4}(?:-(?:0[1-9]|1[0-2]))?')
@@ -103,9 +111,9 @@ def lint_problem_claims(
     check for a batch; a name matching no folder is a finding, and a selected
     page's ``claim_id`` is still compared with every other claim page's. A
     dependence on a library result page is a note naming the page's read
-    status; it never enters the derivation. Nothing here assesses the
-    mathematics or awards standing: the derivation reads the claim pages' own
-    words.
+    status; it never enters the derivation. The notes list those dependences,
+    then the counts, then a disclaimer. Nothing here assesses the mathematics
+    or awards standing: the derivation reads the claim pages' own words.
     """
     root = root.expanduser().resolve()
     problems = everywhere = _problems(root)
@@ -135,6 +143,7 @@ def lint_problem_claims(
 
         # read the claims beside the problem page
         claims = []
+        named_pages = []
         for page in _claim_pages(problem.parent):
             page_relative = page.relative_to(root).as_posix()
             name = _CLAIM_NAME.fullmatch(page.name)
@@ -157,6 +166,10 @@ def lint_problem_claims(
                 findings.append(f'{page_relative}: {error}')
                 continue
             findings.extend(f'{page_relative}: {issue}' for issue in issues)
+            # the same-day suffixes bind public pages; a pending page's name is temporary
+            pending = 'published' in claim and claim['published'] is None
+            if named is not None and not pending:
+                named_pages.append((page_relative, named, name.group(4)))
             # the page name carries the published date, an unknown month or day as 01
             if (
                 named is not None
@@ -185,6 +198,7 @@ def lint_problem_claims(
             )
             claims.append(claim)
         claim_count += len(claims)
+        findings.extend(_same_day_issues(named_pages))
 
         # compare the recorded standing with the one the claims derive
         if claims:
@@ -257,8 +271,17 @@ def derive(
     a finite check (``decidable``), except one-sided ones: partial claims that
     the statement is not provable and that it is not disprovable together
     settle the problem, or a part both name, as ``independent``, accepted when
-    both are accepted and claimed when one of them is pending.
+    both are accepted and claimed when one of them is pending. A claim whose
+    status, claim or scope is outside its vocabulary derives nothing (its page
+    carries the finding), nor does a ``settles`` label that is not a string.
     """
+    claims = [
+        c
+        for c in claims
+        if c.get('status') in CLAIM_STATUSES
+        and c.get('claim') in CLAIM_VALUES
+        and c.get('scope') in CLAIM_SCOPES
+    ]
     settling = sorted(
         {
             c['claim']
@@ -281,7 +304,8 @@ def derive(
         if not isinstance(labels, list) or c.get('claim') in (None, 'decidable'):
             continue
         for label in labels:
-            settled[c['status']].setdefault(label, set()).add(c['claim'])
+            if isinstance(label, str):
+                settled[c['status']].setdefault(label, set()).add(c['claim'])
     # a part counts as settled, by the accepted claims or by the accepted and pending
     # claims together, only when they say more than one side of an independence result
     accepted: dict[str, set[str]] = {}
@@ -338,6 +362,61 @@ def derive(
     return ('open', 'none'), None
 
 
+def _same_day_issues(named_pages: list[tuple[str, str, str]]) -> list[str]:
+    """Return the findings on the roman suffixes of one problem's same-day claim pages.
+
+    ``named_pages`` holds each well-named public page's path, date and
+    claimant slug; a pending page is left out, since the release renames it.
+    When one claimant has more than one page for a day, every one takes a
+    roman suffix, the first included, numbered from ``i`` without a gap; a
+    lone page keeps the plain name. A slug's last word reads as a suffix only
+    when it is ``i`` or another page of the same day and base also has a
+    suffix, since a claimant's own name may end in such a word (``jiang_xi``
+    beside ``jiang`` is two claimants).
+    """
+    issues = []
+    days: dict[str, list[tuple[str, str]]] = {}
+    for relative, day, slug in named_pages:
+        days.setdefault(day, []).append((relative, slug))
+    for pages in days.values():
+        split = {slug: slug.rpartition('_') for _, slug in pages}
+        suffixed = {
+            slug: (base, word)
+            for slug, (base, _, word) in split.items()
+            if base and word in _NUMERALS
+        }
+        bases = [base for base, _ in suffixed.values()]
+        groups: dict[str, list[tuple[str, int]]] = {}
+        for relative, slug in pages:
+            if slug not in suffixed:
+                continue
+            base, word = suffixed[slug]
+            if word == 'i' or bases.count(base) > 1:
+                groups.setdefault(base, []).append((relative, _NUMERALS[word]))
+        for base, members in groups.items():
+            plain = [relative for relative, slug in pages if slug == base]
+            issues.extend(
+                f'{relative}: same-day claim pages by one claimant all take a roman'
+                ' suffix, the first included (_i, _ii, ...)'
+                for relative in plain
+            )
+            if len(members) + len(plain) == 1:
+                issues.extend(
+                    f'{relative}: a lone claim page keeps the plain name, without a'
+                    ' roman suffix'
+                    for relative, _ in members
+                )
+                continue
+            numbers = sorted(number for _, number in members)
+            if numbers != list(range(1, len(numbers) + 1)):
+                issues.extend(
+                    f'{relative}: same-day roman suffixes run _i, _ii, ... without a gap'
+                    for relative, number in members
+                    if number > len(numbers)
+                )
+    return issues
+
+
 def _independent(values: set[str]) -> set[str]:
     """Return ``values`` with both sides of an independence result read as independence.
 
@@ -390,11 +469,21 @@ def write_derived(root: pathlib.Path, *, select: tuple[str, ...] = ()) -> list[s
 
 
 def _with_standing(text: str, status: str, claim: str) -> str:
-    """Return the page text with its ``status`` and ``claim`` lines set."""
+    """Return the page text with its frontmatter ``status`` and ``claim`` lines set.
+
+    Only the frontmatter block is rewritten, so a body line opening with either
+    key stays as written; a page without closed frontmatter is returned unchanged.
+    """
+    from wiki.core import format
+
+    frontmatter, _ = format.extract_frontmatter(text.split('\n'))
+    if not frontmatter:
+        return text
     values = {'status': status, 'claim': claim}
-    return _FRONTMATTER_LINE.sub(
-        lambda match: f'{match[1]}: {values[match[1]]}', text, count=2
+    block = _FRONTMATTER_LINE.sub(
+        lambda match: f'{match[1]}: {values[match[1]]}', frontmatter, count=2
     )
+    return block + text[len(frontmatter) :]
 
 
 def _problems(root: pathlib.Path) -> list[pathlib.Path]:
@@ -485,7 +574,7 @@ def _problem_issues(metadata: dict[str, Any]) -> list[str]:
     return issues
 
 
-def _valid_parts(parts: Any) -> bool:
+def _valid_parts(parts: Any) -> TypeGuard[list[str]]:
     """Return whether ``parts`` is a nonempty list of distinct part labels."""
     return (
         isinstance(parts, list)
@@ -545,7 +634,12 @@ def _claim_issues(
         issues.append(
             "claim 'decidable' is a reduction to a finite check; scope must be partial"
         )
-    if metadata.get('claim') in ONE_SIDED and metadata.get('scope') != 'partial':
+    claim = metadata.get('claim')
+    if (
+        isinstance(claim, str)
+        and claim in ONE_SIDED
+        and metadata.get('scope') != 'partial'
+    ):
         issues.append(
             f'claim {metadata["claim"]!r} is one side of an independence result;'
             ' scope must be partial'
@@ -650,7 +744,8 @@ def _claim_issues(
         ):
             issues.append('claim_id must come just after submitted')
 
-    # the postings of the claim, url first; none while the claim is not yet public
+    # the postings of the claim, url first; a claim not yet public may list those
+    # due public by its release, or none
     links = metadata.get('links')
     if links is None:
         issues.append(
@@ -665,11 +760,6 @@ def _claim_issues(
     elif not isinstance(links, list):
         issues.append('links must be a nonempty list of {url, kind, date?}')
     else:
-        if unpublished:
-            issues.append(
-                'published may be null only while links is [] (a claim not yet'
-                ' public has no posting)'
-            )
         for index, link in enumerate(links):
             issues.extend(f'links[{index}] {issue}' for issue in _link_issues(link))
         # one posting, one entry
@@ -715,10 +805,15 @@ def _claim_issues(
         if metadata.get('status') != 'accepted':
             continue
         try:
-            standing = _metadata(path).get('status')
+            dependency = _metadata(path)
         except ValueError:
-            standing = None
-        # an accepted claim page, a solved problem page or a proved claim card
+            dependency = {}
+        standing = dependency.get('status')
+        # a stale card no longer warrants its status, read as the ledger renders it
+        if standing is not None and dependency.get('standing') == 'stale':
+            standing = f'{standing} (stale)'
+        # an accepted claim page, a solved problem page or a proved claim card that
+        # is not stale
         if standing is not None and standing not in ('accepted', 'solved', 'proved'):
             issues.append(
                 f'an accepted claim depends on {target!r}, whose status is {standing!r}'
@@ -765,7 +860,8 @@ def _resolve(root: pathlib.Path, target: str) -> Optional[pathlib.Path]:
     """Return the wiki page a root-relative wikilink target names, or ``None``.
 
     Only pages of the mathematics wiki qualify: a prefixed target into another
-    root is not a wiki page, nor is a bare folder.
+    root is not a wiki page, nor is a bare folder (an index page is named by its
+    explicit ``/_index``).
     """
     if (
         target.startswith('../')
@@ -774,10 +870,8 @@ def _resolve(root: pathlib.Path, target: str) -> Optional[pathlib.Path]:
     ):
         return None
     base = root / MATH_DIR / target
-    for candidate in (base.with_name(base.name + '.md'), base / _INDEX):
-        if candidate.is_file():
-            return candidate
-    return None
+    page = base.with_name(base.name + '.md')
+    return page if page.is_file() else None
 
 
 def _library_target(target: str) -> Optional[str]:

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 495
@@ -36,9 +36,22 @@ https://www.erdosproblems.com/495.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/495.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+[[../library/irrationality/einsiedler_2006_invariant_measures_set_exceptions_littlewood_s/_index|Einsiedler–Katok–Lindenstrauss,
+Theorem 1.5]] gives dimension zero for the exceptional set, not emptiness; a
+singleton already has that size. Their measure-classification Theorem 1.3
+assumes positive entropy for a diagonal one-parameter subgroup, and Corollary
+1.4 excludes compact support under that hypothesis. A hypothetical exceptional
+orbit does not automatically provide positive entropy.
+
+Elementary cases are separate: a rational coordinate supplies a subsequence on
+which one factor vanishes; if $\liminf n\|n\alpha\|=0$, then $\|n\beta\|\le1/2$
+supplies the conclusion. These do not cover all badly approximable pairs. Only
+the primary statements were inspected, not the measure-classification proof.
+The remaining interface needs individual-orbit rigidity or an entropy argument
+from the actual exceptional-orbit hypotheses, not genericity or a dimension
+bound.
 
 ## Known Results
 

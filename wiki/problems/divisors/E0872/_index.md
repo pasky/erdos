@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 872
@@ -138,6 +138,26 @@ verification notes, its Lean project unbuilt; and on Price's write-up as
 the thread and the erdosproblems.com remarks describe it. No independent review
 of any argument is recorded; the curator's remark on Price's result is
 commentary on a problem Bloom's catalog labeled OPEN.
+
+## Finite reductions and uniformity requirements
+
+Every terminal position has at least $\pi(n)$ elements. For each prime $p\le
+n$, let $q_p$ be its largest power at most $n$. If $p<q$, then
+$q_pq_q>(n/p)q>n$. Maximality forces some chosen element to be comparable by
+divisibility with each $q_p$. No chosen element can serve two distinct primes:
+dividing both would make it one; being divisible by both would make it exceed
+$n$; and mixed comparisons would make one distinct prime divide a power of the
+other. This proves the bound. It is sharp for static terminal positions, since
+the primes themselves form a maximal primitive set.
+
+At the other extreme, odd-part doubling chains bound any primitive subset by
+$\lceil n/2\rceil$, attained by the upper half. Neither static example supplies
+a strategy against an opponent. The pending sublinear-game claim above rests on
+a strategy-inheritance recurrence whose manuscript proof remains uninspected
+here. The elementary bounds do not certify that recurrence or refute it. The
+relevant next input is a valid strategy and its behavior under successive play,
+with the starting-player convention retained.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

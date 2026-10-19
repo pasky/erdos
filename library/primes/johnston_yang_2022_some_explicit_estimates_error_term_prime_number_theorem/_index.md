@@ -6,7 +6,7 @@ desc: |
   |pi(x)-li(x)| <= 9.59x(log x)^0.515 exp(-0.8274 sqrt(log x)) for x >= 2.
 license: reserved
 created: 2026-09-21T00:00:00Z
-updated: 2026-10-08T17:25:16Z
+updated: 2026-10-19T04:19:04Z
 ---
 
 # Johnston–Yang: Some explicit estimates for the error term in the prime number theorem
@@ -132,7 +132,8 @@ that of Corollary 1.3 step by step, without recomputing any constant.
 [[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/corollary_1_3|Corollary 1.3]] (p. 2),
 [[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/theorem_1_4|Theorem 1.4]] (p. 2, with the misprint in (1.9) noted),
 [[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/theorem_1_5|Theorem 1.5]] (p. 2) and
-[[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/lemma_2_2|Lemma 2.2]] (p. 4).
+[[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/lemma_2_2|Lemma 2.2]] (p. 4), the finite-range lemma the corpus's
+research pages cite.
 
 **Bears on.**
 
@@ -140,6 +141,10 @@ that of Corollary 1.3 step by step, without recomputing any constant.
   nothing when $y$ is small against $x$ (for $y\le\sqrt x$ its error bound
   at $x$ already exceeds $y$), and it answers neither direction of the
   problem.
+- [[../wiki/problems/factorials_binomials/E0699/_index|#699]], through
+  research pages only: the corpus's research on the problem uses the
+  $\theta$-bound of Lemma 2.2 as one input to numerical coefficient-gcd
+  certificates; the paper says nothing about the problem.
 
 ## Relation to E855
 

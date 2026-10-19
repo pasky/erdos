@@ -8,7 +8,7 @@ desc: |
   progressions, with possibly different differences, a coloring that records
   exactly the positions in a fixed set J of coordinates.
 created: 2026-10-08T17:10:42Z
-updated: 2026-10-08T17:10:42Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -76,5 +76,5 @@ The Erdős–Graham canonization theorem (p. 351);
 
 ## Bears on
 
-No Erdős problem directly. The source card records how the paper bears on
-Problem 774.
+No Erdős problem directly. The source card records the corpus's use of the
+paper for Problem 774.

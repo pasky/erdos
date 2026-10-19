@@ -5,15 +5,16 @@ desc: |
   Connects saturated matrices, coordinate covers and separated palettes to
   the recursive coloring proof and the infinite Ramsey root limit.
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:10:48Z
 ---
 
 # Chapter 9 - Super-exponential lower bounds for multicolour triangles
 
 [[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/_index|..]]
 
-[[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence/_index|evidence/]]: Preserves the exact reviewed subjects and accepted independent review of
-the five-result lower-bound route and its full root-limit consequence.
+[[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence/_index|evidence/]]: Holds the accepted independent review of the five-result lower-bound route
+and its full root-limit consequence; the exact lower-route subjects are not
+held.
 
 [[ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/factorial_upper_bound|factorial_upper_bound]]: Derives the refined factorial upper bound from the published four-color
 bound 62, with independently reviewed premise-relative proof coverage.

@@ -8,7 +8,7 @@ desc: |
   form and Wilson's integrality criterion for W_{tk} x = b.
 license: reserved
 created: 2026-09-21T17:56:01Z
-updated: 2026-10-08T17:25:16Z
+updated: 2026-10-14T00:58:57Z
 ---
 
 # Inclusion Matrices and Chains
@@ -164,7 +164,10 @@ is special to the authors' chain decomposition and does not hold for arbitrary
 symmetric-chain decompositions. Accordingly, the relation to E774 is weak and
 hypothetical: the paper is relevant as a source of incidence-matrix and chain
 machinery, but it supplies no torsion-free additive input and does not resolve,
-or directly advance, the stated finite-union problem.
+or directly advance, the stated finite-union problem. In the corpus, the
+[[../wiki/research/erdos_774/lemmas/moment_middle_layer|middle-layer determinant lemma]]
+of a research route on the problem uses Corollary 3 and its proof, with range
+$k\le w\le d-k$, to compute the index of the image of an inclusion matrix.
 
 Read status: claims checked for the definitions of Sections 1 to 5, Theorems 1
 and 2 and Corollaries 1 to 4, read clause by clause on the page images of
@@ -178,8 +181,13 @@ and
 [[set_systems/ghorbani_et_al_2007_inclusion_matrices_chains/theorem_2|theorem_2]].
 
 **Bears on.** [[../wiki/problems/integer_sequences/E0774/_index|E0774]]: the
-paper proves nothing about dissociated sets or additive relations, and decides
-nothing about the problem.
+paper proves nothing about dissociated sets or additive relations;
+[[set_systems/ghorbani_et_al_2007_inclusion_matrices_chains/corollary_3|Corollary 3]]
+(p. 10), with the unimodular submatrix from the proof of
+[[set_systems/ghorbani_et_al_2007_inclusion_matrices_chains/theorem_1|Theorem 1]]
+(p. 8), is the integer-matrix input of the corpus's middle-layer determinant
+lemma in a research route on the problem, and decides nothing about the
+problem itself.
 
 **Results.**
 

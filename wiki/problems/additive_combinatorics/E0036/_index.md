@@ -101,9 +101,18 @@ the limit as `erdos_36` with `answer(sorry)` and a `sorry` body and
 carries no `formal_proof` attribute; its variants record the
 published lower and upper bounds and neither claimed bound above.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+[[../library/additive_combinatorics/white_2022_erdos_minimum_overlap_problem/_index|White's
+continuum formulation]] provides an exact analytic target, while Proposition 9
+maps each admissible function to a feasible point of a finite relaxation. This
+is a one-way implication. A feasible optimizer of the relaxation need not be
+realized by an admissible function. Consequently a numerical optimizer alone
+does not determine the optimal constant. A decisive certificate would match a
+universal lower bound to an actual admissible function, with all Fourier tails
+controlled. This comparison inspects the formulation and feasibility argument;
+no solver, primal or dual certificate, or full source proof was checked here.
+The separately recorded bounds retain their stated standing.
 
 ## Known Results
 

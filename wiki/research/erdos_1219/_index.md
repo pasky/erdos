@@ -5,12 +5,19 @@ desc: "Author-recorded reconstruction of Shelah's Canonization Lemma 1.1, Theore
 tags: []
 sources: []
 created: 2026-09-28T04:33:22Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-14T07:04:59Z
 ---
 
 # Shelah's canonization proof for Problem 1219
 
 [[research/_index|..]]
+
+[[research/erdos_1219/connections|connections]]: Assesses, target by target, what the reconstructed Canonization Lemma and
+the block-to-cofinality reduction of Theorem 1.2 give for other
+erdosproblems.com problems: the exact dividing line behind Problem 1219, the
+strong-limit transfer and the type-count obstruction for Problem 1220, the
+reduction of Hajnal's triple conjecture to a canonization statement with its
+gaps, and the reasons the mechanism does not reach Problems 1218 and 1167.
 
 [[research/erdos_1219/corollary_1_3_reconstruction|corollary_1_3_reconstruction]]: Reconstructs Shelah's Corollary 1.3, the specialization of Theorem 1.2 to
 λ = ℵ_ω under ℵ_ω < 2^{ℵ_{n(0)}} < 2^{ℵ_{n(1)}} < ⋯, and proves that
@@ -112,3 +119,29 @@ coloring of pairs on $\sum_{\mu<\lambda}2^\mu$ thus becomes a coloring of
 pairs on $\operatorname{cf}\lambda$, where $\kappa\to(\kappa)^2_2$ finishes,
 with the unbalanced Erdős--Rado relation supplying homogeneous sets of both
 colors of size $\mu(i)$ inside every large subset of a block.
+
+**Connections.** The transfers of this mechanism to other problems are
+assessed on [[research/erdos_1219/connections|the connections page]],
+target by target: the converse of Theorem 1.2 at the cofinality and the
+exact dividing line for singular $\lambda$ behind this problem; the
+strong-limit transfer and the type-count obstruction for
+[[problems/set_theory/E1220/_index|Problem 1220]]; the reduction of Hajnal's
+Conjecture 1A to a canonization statement for triples, with what clause
+(3) supplies and where the same-block pairs escape the lemma; and the
+reasons the mechanism does not reach
+[[problems/set_theory/E1218/_index|Problem 1218]] and
+[[problems/set_theory/E1167/_index|Problem 1167]], with the stepping-up implication
+between those two recorded. One route is filed as the lead
+triple canonization for Hajnal's conjecture.
+The statements of the connections page were independently reviewed, as they
+stood at 2026-09-28T13:50:48Z, by seven focused reviews filed under
+[[research/erdos_1219/evidence/verify/_index|evidence/verify/]] and graded in
+[[research/erdos_1219/evidence/verify/connections_grade|a distinct grade]],
+which passes all seven reviews, accepts fourteen corrections, since applied, and
+marks the lead needs_update at its statement of (P3); no tier is assigned. Since
+those reviews, the connections page was corrected as the re-review of 2026-10-02
+specified: the case count in the endgame lemma (five cases), the heredity clause
+of the fiber argument, the (P2) block statement made joint with the (P3)
+coloring, the Erdős--Rado relation sourced to Theorem 39 of the held 1956 paper,
+and the outcome paragraph; the connections reviews read the text before these
+corrections.

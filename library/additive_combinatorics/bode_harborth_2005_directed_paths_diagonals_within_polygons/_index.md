@@ -10,7 +10,7 @@ desc: |
   Problem 475.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T14:29:35Z
+updated: 2026-10-19T04:19:04Z
 ---
 
 # additive_combinatorics/bode_harborth_2005_directed_paths_diagonals_within_polygons
@@ -211,22 +211,21 @@ in the text layer for structure only and its figures were not checked. The
 authors' checks for $t\le5$ and $n\le16$ are statements without printed
 detail. Nothing here is independently reviewed.
 
-**Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]: Theorem 2
-(printed p. 4, PDF p. 2), "Conjecture 1 is true for $t=n-2$", is the source
-of the size $p-2$ in erdosproblems.com's range $p-3\le t\le p-1$, which Hicks,
-Ollis and Schmitt's
+**Bears on.** [[../wiki/problems/additive_combinatorics/E0475/_index|#475]]:
+Theorem 2 (printed p. 4, PDF p. 2), "Conjecture 1 is true for $t=n-2$", is the
+source of the size $p-2$ in erdosproblems.com's range $p-3\le t\le p-1$, which
+Hicks, Ollis and Schmitt's
 [[additive_combinatorics/hicks_2019_distinct_partial_sums_cyclic_groups_polynomial/theorem_4_6|Theorem 4.6]]
-completes with the size $p-3$ and the implication of Archdeacon, Dinitz,
-Mattern and Stinson (not held) carries to the erdosproblems.com statement,
-except for the $(p-3)$-sets of sum $0$, which Alspach's conjecture leaves out
-(Hicks, Ollis and Schmitt set them aside, their p. 16). Theorem 1 (p. 4),
-"Conjecture 1 is true for $t=n-1$", is the paper's size $n-1$, and its
-proof says in which cases it has content:
-"$\binom n2$, which is $\not\equiv0\pmod n$ only for $n$ even", so for
-every odd prime the theorem is vacuous and erdosproblems.com's case $t=p-1$
-remains Graham's, which the paper does not state; the reading recorded above,
-that the odd-$n$ cycle of Theorem 2's proof is such an ordering, is made here.
-The paper's own checks ($t\le5$; $n\le16$ by computer, p. 4) are
+completes with the size $p-3$ and the implication of Archdeacon, Dinitz, Mattern
+and Stinson (not held) carries to the erdosproblems.com statement, except for
+the $(p-3)$-sets of sum $0$, which Alspach's conjecture leaves out (Hicks, Ollis
+and Schmitt set them aside, their p. 16). Theorem 1 (p. 4), "Conjecture 1 is
+true for $t=n-1$", is the paper's size $n-1$, and its proof says in which cases
+it has content: "$\binom n2$, which is $\not\equiv0\pmod n$ only for $n$ even",
+so for every odd prime the theorem is vacuous and erdosproblems.com's case
+$t=p-1$ remains Graham's, which the paper does not state; the reading recorded
+above, that the odd-$n$ cycle of Theorem 2's proof is such an ordering, is made
+here. The paper's own checks ($t\le5$; $n\le16$ by computer, p. 4) are
 superseded for the problem by Costa and Pellegrini's
 [[additive_combinatorics/costa_2020_new_results_about_conjecture_brian_alspach/proposition_4_2|Proposition 4.2]].
 The paper does not settle the problem; the page's status is unchanged.

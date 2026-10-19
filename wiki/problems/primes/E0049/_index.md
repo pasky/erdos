@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 49
@@ -58,11 +58,12 @@ gave $o(x)$ for the weak maximum in 2013. The answer under the exact reading is
 unknown for the strict maximum: no source located asserts or refutes
 $M_<(N)=\pi(N)$ for $N\ge2$, and at $N=1$ the exact statement fails trivially
 ($\{1\}$ has one element and $\pi(1)=0$; this corpus's check). For the weak
-variant of [Er95c] the exact reading is false: [PoPoTr13]'s numerics and OEIS
-A365339 give $M_\le(x)\ge\pi(x)+64$ for every $x\ge31957$. The exact question is
-recorded in Formulation as Erdős's conjecture, with no claim page. Results about
-the erdosproblems.com wording, credited and never counted: erdosproblems.com's
-'(LEAN)' rests on Boris Alexeev's plby/lean-proofs file `Erdos49.lean` (commit
+variant of [Er95c] the exact reading is false: [PoPoTr13]'s numerics and the
+deduction on their numerics page give $M_\le(x)\ge\pi(x)+64$ for every
+$x\ge31957$. The exact question is recorded in Formulation as Erdős's
+conjecture, with no claim page. Results about the erdosproblems.com wording,
+credited and never counted: erdosproblems.com's '(LEAN)' rests on Boris
+Alexeev's plby/lean-proofs file `Erdos49.lean` (commit
 `1e0ec64f07933c62401e0053041e5bece2cbe325`, 2026-09-04), whose `erdos_49` states
 $M_<(N)=o(N)$ and whose `erdos_49_quantitative` states the weak bound with Tao's
 rate, neither built here. The page's standing judges the modified Statement.
@@ -175,10 +176,13 @@ The proof of [PoPoTr13] Theorem 1.2, the source result for the $o(N)$
 clause, is reconstructed step by step under
 [[research/erdos_49/_index|research/erdos_49]], together with the map of
 which clause it settles and which remain open; that reconstruction is
-author-recorded and changes no status.
+author-recorded and changes no status. The folder's
+[[research/erdos_49/connections|connections page]] records that none of the
+reconstructed mechanisms bears on the exact strict-extremality clause.
 
-erdosproblems.com's older Erdős references remain historical pointers; their
-complete source comparison is not claimed by the Tao proof compilation.
+Before choosing the exact-extremality question as a research target, extend that
+search. erdosproblems.com's older Erdős references remain historical pointers;
+their complete source comparison is not claimed by the Tao proof compilation.
 
 A public [24 August 2026 commit
 message](https://github.com/plby/lean-proofs/commit/cecc3fc4b7725db36692f0eca3c24712a481cfba)
@@ -242,7 +246,7 @@ predating Tao's rate.
   above 31957, and the conjecture $M_{\le}(x)=\pi(x)+64$ for all
   $x\ge31957$, which Tao records as checked at $x=10^m$ for $m\le7$ and, in
   the paper's footnote 2, at $m=8,9$ by Chai Wah Wu (OEIS A365339 and
-  A365474, as erdosproblems.com cites). OEIS A365339 records
+  A365474, as erdosproblems.com cites). The corpus deduction on that page gives
   $M_{\le}(x)\ge\pi(x)+64$ for every $x\ge31957$, so the primes are not a
   largest example for the weak variant of [Er95c]. Whether
   $M_{\le}(x)-\pi(x)\to\infty$ is the
@@ -251,9 +255,12 @@ predating Tao's rate.
   $M_{\le}(x)\le\pi(x)+O(1)$; Tao's
   [[../library/primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/external_context|external-context page]]
   records the related conjectures. All of this concerns the weak variant,
-  not the strict catalog question.
+  not the strict erdosproblems.com question.
 - The count $W(N)$ of this page is the $V'(N)$ of
-  [[problems/arithmetic_functions/E0417/_index|Problem 417]].
+  [[problems/arithmetic_functions/E0417/_index|Problem 417]]; the order of magnitude
+  $V\asymp W$ and the reversed pair $d_1=2^{18}\cdot257$, Ford's witness for
+  totients with all preimages divisible by $4$, are used on
+  [[research/erdos_416/connections|the connections page of the Problem 416 folder]].
 
 erdosproblems.com also cross-references
 [[problems/arithmetic_functions/E0415/_index|Problem 415]].

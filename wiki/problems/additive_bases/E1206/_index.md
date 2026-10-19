@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:31:26Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1206
@@ -43,13 +43,18 @@ https://www.erdosproblems.com/1206.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1206.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/constants_and_polynomial_images|sidon
+constants and polynomial images]] account records the following scope. Garaev
+Theorem 3 gives all-cube blocks with root length of order sqrt(N) near N;
+Theorem 5 improves to N^(4/7-epsilon) only for infinitely many starting N.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

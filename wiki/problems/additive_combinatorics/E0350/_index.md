@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 350
@@ -110,25 +110,26 @@ Bloom, Erdős Problem #350, https://www.erdosproblems.com/350, accessed
   28, Université de Genève (1980); printed p. 60. Library home:
   [[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]].
 
-**Formalization.** The erdosproblems.com Lean mark is a catalog label; see
-"Formalization and the Lean label" below for the two external files. The file
+**Formalization.** The erdosproblems.com Lean mark is an erdosproblems.com
+label; see "Formalization and the Lean label" below for the two external files.
+The file
 [`ErdosProblems/350.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/350.lean)
 of formal-conjectures at its main-branch commit of 2026-09-18 declares
 `erdos_350 (A : Finset ℕ) (hA : DecidableDistinctSubsetSums A) : ∑ n ∈ A, (1 / n : ℝ) < 2`
 under `category research solved` with proof `sorry` and two `formal_proof`
-attributes, one naming `src/v4.24.0/ErdosProblems/Erdos350.lean` on the
-`main` branch of `plby/lean-proofs` and one naming
+attributes, one naming `src/v4.24.0/ErdosProblems/Erdos350.lean` on the `main`
+branch of `plby/lean-proofs` and one naming
 `FormalConjectures/ErdosProblems/350.lean#L226` of the fork
-`XC0R/formal-conjectures` at its fixed commit of 13 April 2026; the
-docstring of `erdos_350` says that the problem was formalized in Lean by
-Alexeev using Aristotle. The variant `erdos_350.variants.strengthening`
-(the Hanson--Steele--Stenger bound for real $s>0$, its docstring crediting
-Hanson, Steele and Stenger and noting that $s=0$ is excluded because the
-right side would be infinite) is `research solved` with proof `sorry` and
-no `formal_proof` attribute. The community database on 2026-09-18 lists
-the problem as "proved (Lean)", its entry last updated on 25 November 2025,
-with `formal_status` Lean, the statement formalized since 31 August 2025,
-and no formal-proof URL. Neither external file is Lean this corpus built.
+`XC0R/formal-conjectures` at its fixed commit of 13 April 2026; the docstring of
+`erdos_350` says that the problem was formalized in Lean by Alexeev using
+Aristotle. The variant `erdos_350.variants.strengthening` (the
+Hanson--Steele--Stenger bound for real $s>0$, its docstring crediting Hanson,
+Steele and Stenger and noting that $s=0$ is excluded because the right side
+would be infinite) is `research solved` with proof `sorry` and no `formal_proof`
+attribute. The community database on 2026-09-18 lists the problem as "proved
+(Lean)", its entry last updated on 25 November 2025, with `formal_status` Lean,
+the statement formalized since 31 August 2025, and no formal-proof URL. Neither
+external file is Lean this corpus built.
 
 ## Current assessment
 
@@ -203,10 +204,10 @@ note in a refereed journal (volume 66 per the Crossref record, not the "63" of
 some catalogs); no page of this wiki records its argument.
 
 **Formalization and the Lean label.** The erdosproblems.com Lean mark dates from
-25 November 2025, the day Alexeev announced the file; it is a catalog label
-attached to the formal-conjectures statement, which has a `sorry` body and
-points to two external developments, described at the commits named below
-and neither built by this corpus.
+25 November 2025, the day Alexeev announced the file; it is an erdosproblems.com
+label attached to the formal-conjectures statement, which has a `sorry` body and
+points to two external developments, described at the commits named below and
+neither built by this corpus.
 
 - `plby/lean-proofs`, `src/v4.24.0/ErdosProblems/Erdos350.lean`, on the
   branch `main`, at its head of 2026-09-15 (the commit the link on the

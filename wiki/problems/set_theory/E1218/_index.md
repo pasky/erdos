@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 1218
@@ -92,11 +92,11 @@ The erdosproblems.com formulation (accessed 2026-10-06) asks, under GCH and with
 $\beta=\omega_{\omega+1}$, whether
 $\aleph_{\beta+1}\not\to(\aleph_\beta,(4)_{\aleph_0})^3$, the least instance of
 the conjecture of [EHR65, p. 131]. The erdosproblems.com label was OPEN. No
-result on this relation is compiled; the same-cardinal relation of the earlier
-wording is a theorem of [EHR65], as Known Results records. Search scope: the
-erdosproblems.com problem page, discussion thread and proof-claims tab; [EHR65].
-Not searched: arXiv, zbMATH and MathSciNet. The notes below are author-recorded
-and not independently reviewed.
+result on this relation is compiled; the
+same-cardinal relation of the earlier wording is a theorem of [EHR65], as Known
+Results records. Search scope: the erdosproblems.com problem page, discussion
+thread and proof-claims tab; [EHR65]. Not searched: arXiv, zbMATH and
+MathSciNet. The notes below are author-recorded and not independently reviewed.
 
 **Claims.** One result is claimed from outside the project.
 [[problems/set_theory/E1218/claims/2026_09_02_li|Li's lexicographic coloring]]
@@ -113,6 +113,18 @@ asked. The relation it claims is true, but it answers that mistyped wording, not
 the Statement (first target $\aleph_{\omega_{\omega+1}}$), so it is rejected and
 does not count toward the problem's standing, which stays `open`.
 
+## Progress
+
+The canonization mechanism of
+[[research/erdos_1219/_index|the Problem 1219 folder]] does not reach this
+problem (regular resource, positive direction only). Author-recorded research
+relating the corrected relation to
+[[problems/set_theory/E1167/_index|Problem 1167]], with the two
+erdosproblems.com wordings (first target $\aleph_{\beta+1}$ in the earlier
+wording and in Komjáth's Problem 1, $\aleph_\beta$ on erdosproblems.com since 7
+September 2026), is on [[research/erdos_1219/connections|the connections page]];
+it is not a claim.
+
 ## Known Results
 
 The erdosproblems.com commentary records that Erdős and Hajnal [ErHa71]
@@ -124,8 +136,10 @@ and first target, is a theorem of [EHR65]: Corollary 13 (p. 138) gives, under
 GCH, $\aleph_\delta\not\to(\aleph_\delta,4)^3$ for every non-inaccessible
 $\aleph_\delta$, and the countably many further colors may be left unused. The
 erdosproblems.com curator records this attribution to the 1965 work in a comment
-of 8 September 2026 under the claim. The claim of that relation and its
-rejection are on
+of 8 September 2026 under the claim, and the Sierpiński-type coloring behind it
+is written out as Lemma B of
+[[research/erdos_1219/evidence/verify/connections_problem_1167_the_negative_stepping_up_lemma_review|the review of the Problem 1219 folder's section on Problem 1167]]
+(author-recorded). The claim of that relation and its rejection are on
 [[problems/set_theory/E1218/claims/2026_09_02_li|Li's claim page]]. No result on
 the corrected relation, with first target $\aleph_{\omega_{\omega+1}}$, is
 compiled.

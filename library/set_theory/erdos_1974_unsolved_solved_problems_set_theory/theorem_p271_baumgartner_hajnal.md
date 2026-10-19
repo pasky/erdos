@@ -6,7 +6,7 @@ desc: |
   with Φ → (ω)^1_ℵ0 satisfies Φ → (α)^2_k for every α < ω_1 and k < ω,
   answering several problems of the 1967 list.
 created: 2026-10-08T15:46:37Z
-updated: 2026-10-08T15:46:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -56,4 +56,4 @@ None in this survey.
 ## Bears on
 
 No Erdős problem page is linked: the problems it answers are numbered problems
-of the 1967 list, not catalog problems recorded here.
+of the 1967 list, not erdosproblems.com problems recorded here.

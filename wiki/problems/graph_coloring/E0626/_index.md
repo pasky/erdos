@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 626
@@ -54,13 +54,14 @@ https://www.erdosproblems.com/626.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+For the second question at $m=3$, triangle-free chromatic bounds give
+$h^{(3)}(n)=\Theta(\sqrt{n/\log n})$ and therefore logarithmic
+exponent $1/2$. The [[research/methods/chromatic_threshold_interfaces|threshold note]]
+explains this specialization and its source dependencies. It gives no
+limit for fixed chromatic number in the first question and no uniform
+answer over all girths. No broader standing survey is supplied.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

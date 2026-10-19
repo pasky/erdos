@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 37
@@ -28,10 +28,10 @@ is the Schnirelmann density.
 
 Can a lacunary set $A\subset\mathbb{N}$ be an essential component?
 
-**Status.** DISPROVED (LEAN), the erdosproblems.com label. Its suffix is a
-catalog label explained under Formalization. The status-defining source is
-Ruzsa's theorem (Proc. London Math. Soc. (3) 54 (1987), 38--56, refereed). An
-essential component $A$ satisfies
+**Status.** DISPROVED (LEAN), the erdosproblems.com label. Its suffix is an
+erdosproblems.com label explained under Formalization. The status-defining
+source is Ruzsa's theorem (Proc. London Math. Soc. (3) 54 (1987), 38--56,
+refereed). An essential component $A$ satisfies
 $\lvert A\cap\{1,\ldots,N\}\rvert\ge(\log N)^{1+c}$ for some $c>0$ and all large
 $N$. A lacunary set has only $O(\log N)$ elements up to $N$, so the answer is
 no. The claim page is
@@ -51,8 +51,8 @@ https://www.erdosproblems.com/37.
 - [Ru87] Ruzsa, I., Essential Components. Proc. London Math. Soc. (3) 54
   (1987), no. 1, 38-56, doi:10.1112/plms/s3-54.1.38; not held.
 
-**Formalization.** The Lean qualification in the erdosproblems.com label was a
-catalog label. formal-conjectures has no file for Problem 37, and the
+**Formalization.** The Lean qualification in the erdosproblems.com label was an
+erdosproblems.com label. formal-conjectures has no file for Problem 37, and the
 erdosproblems.com indicator reads "Formalised statement? No" (2026-10-07). The
 community database (teorth/erdosproblems, file commit of 2026-09-28) lists
 `status` "disproved (Lean)", `formal_status` Lean and `formalized` "no" as of

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 479
@@ -108,6 +108,16 @@ This is a dated computational report, not a current minimum claim or an
 infinitude proof. The underlying Graham–D. H. Lehmer–Emma Lehmer source
 remains unlocated. Tang's partial family receives no universal-solution,
 acceptance, formal, or complete-proof credit here.
+
+## Route analysis
+
+The
+[[research/diophantine_representation_interfaces/local_congruences|Congruence
+coverage and lifting obstructions]] account records the following scope. For
+each fixed exponent $m$, Fermat's theorem forces any qualifying prime to divide
+$2^m-k$, apart from the explicit exceptional case $k=2^m$. Thus a fixed exponent
+does not yield the required prime family.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

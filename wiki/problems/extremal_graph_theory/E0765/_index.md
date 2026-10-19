@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 765
@@ -163,22 +163,21 @@ and [[problems/extremal_graph_theory/E0765/claims/1966_08_01_brown|Brown]],
 from which the frontmatter's `claim: answered` derives; the leading formula
 does not assert a linear second term.
 
-The erdosproblems.com label SOLVED (LEAN) is catalog data, not a native
-verification record. The announcement by Jeremy Tan Jie Rui (the forum account
-parclytaxel) on 16 May 2026 in the problem's thread links a gist, written
-with the prover Aristotle, proving the
-leading asymptotic with one axiom, `prime_between` (a prime in
-$(x,(1+\epsilon)x)$ for all large $x$), in place of the PNT+ theorem; Boris
-Alexeev's lean-proofs repository carries the same proof since 2026-08-26
-with the axiom discharged by its PNT+ library, and formal-conjectures links
-that file as the problem's formal proof since 2026-09-18. The claim page
+The erdosproblems.com label SOLVED (LEAN) is erdosproblems.com data, not a
+native verification record. The announcement by Jeremy Tan Jie Rui (the forum
+account parclytaxel) on 16 May 2026 in the problem's thread links a gist,
+written with the prover Aristotle, proving the leading asymptotic with one
+axiom, `prime_between` (a prime in $(x,(1+\epsilon)x)$ for all large $x$), in
+place of the PNT+ theorem; Boris Alexeev's lean-proofs repository carries the
+same proof since 2026-08-26 with the axiom discharged by its PNT+ library, and
+formal-conjectures links that file as the problem's formal proof since
+2026-09-18. The claim page
 [[problems/extremal_graph_theory/E0765/claims/1966_01_01_erdos_renyi_sos|Erdős, Rényi and Sós]]
 records these artifacts at pinned revisions, and Brown's page links the
-repository file, whose header names Brown; this corpus has built, replayed
-or checked none of them for statement fidelity, so no external Lean
-acceptance and no native Lean proof coverage is claimed. The classical
-source theorem supports the mathematical status independently of the
-formalization.
+repository file, whose header names Brown; this corpus has built, replayed or
+checked none of them for statement fidelity, so no external Lean acceptance and
+no native Lean proof coverage is claimed. The classical source theorem supports
+the mathematical status independently of the formalization.
 
 ## Known Results
 

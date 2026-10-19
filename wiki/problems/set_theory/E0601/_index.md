@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 601
@@ -122,7 +122,12 @@ MathSciNet, Google Scholar and arXiv were not searched.
 
 ## Known Results
 
-The Current assessment above records the known results.
+The Current assessment above records the known results from the literature.
+
+[[research/erdos_1171/connections|The Problem 1171 connections page]] holds
+author-recorded research on transferring the color-reduction lemma of
+[[research/erdos_1171/lemma_2_1_reconstruction|the Problem 1171 folder]] to
+this problem; it is not a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

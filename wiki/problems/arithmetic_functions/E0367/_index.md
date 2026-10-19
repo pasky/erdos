@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [weak_bound, strong_bound]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 367
@@ -125,6 +125,27 @@ March 2026), its thread, accessed 2026-10-07 (the posts of 2025-11-20,
 and Hughes's repository with its README; no submitted forum proof claim and no
 OpenAI release item names this problem. An arXiv search found no posting of
 Hughes's paper and no other literature on the exact question.
+
+## Prime-factor and interval interface
+
+For a prime power $p^e$, its contribution to $B_2$ is one when $e=1$, and
+$p^e\le p^{2(e-1)}$ when $e\ge2$. Consequently, writing
+$Q=\prod_{i=0}^{k-1}(n+i)$,
+
+$$
+\prod_{i=0}^{k-1}B_2(n+i)
+ \le\left(\frac{Q}{\prod_{i=0}^{k-1}\operatorname{rad}(n+i)}\right)^2
+ \le\left(\frac{Q}{\operatorname{rad}(Q)}\right)^2.
+$$
+
+No pairwise-coprimality assumption is needed: each prime appears at least once
+in the product of the individual radicals. For fixed $k$, a bound
+$\operatorname{rad}(Q)\gg_{k,\eta}n^{k-1-\eta}$ would imply
+$\prod_iB_2(n+i)\ll_{k,\eta}n^{2+2\eta}$. The radical estimate remains the
+missing unconditional input. This completed author implication does not prove
+the radical hypothesis or improve the standing of the abc-dependent account
+above.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

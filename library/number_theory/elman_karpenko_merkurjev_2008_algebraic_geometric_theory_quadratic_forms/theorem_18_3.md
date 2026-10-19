@@ -7,7 +7,7 @@ desc: |
   phi becomes isotropic over F(p) for every irreducible p dividing f to an odd
   power.
 created: 2026-10-08T17:08:21Z
-updated: 2026-10-08T17:08:21Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -76,5 +76,7 @@ Lemma 18.1 and the division relation (18.2) on this page; the book's Lemma
 ## Bears on
 
 None directly. Theorem 18.3 and Lemma 18.1 are the inputs to
-[[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/corollary_18_5|Springer's Theorem]];
-the theorem itself says nothing about any Erdős problem.
+[[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/corollary_18_5|Springer's Theorem]],
+which the corpus's research on
+[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]] uses; the
+theorem itself says nothing about any Erdős problem.

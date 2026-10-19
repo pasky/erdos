@@ -6,7 +6,7 @@ desc: |
   series, while restating the totient and divisor-sum series as unproved.
 license: reserved
 created: 2026-09-17T07:21:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # irrationality/erdos_1957_irrationality_certain_series
@@ -121,7 +121,7 @@ Every statement above was read on the page images. The proofs of Lemmas
 2--4 and of Theorems 1--2 were read for their structure, which the result
 pages summarize with the paper's equation numbers and page pointers; no
 proof is rewritten in full and none has been independently reviewed.
-Nothing in the paper decides a catalog problem's status: for problems
+Nothing in the paper decides an erdosproblems.com problem's status: for problems
 249 and 250 it supplies restatements and exponent variants, for problem
 252 a statement of the conjecture, and for problem 247 a partial result.
 

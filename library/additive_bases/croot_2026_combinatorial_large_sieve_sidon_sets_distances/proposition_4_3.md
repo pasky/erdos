@@ -7,7 +7,7 @@ desc: |
   times exp of -(r - 1) times their total entropy defect; the lower bound
   in the proof of Theorem 4.1.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -68,5 +68,5 @@ Lemma 4.2 of the paper (p. 22) and Corollary A.2 of its appendix (p. 39).
 
 ## Bears on
 
-No catalog problem directly; it supplies the lower bound in
+No erdosproblems.com problem directly; it supplies the lower bound in
 [[additive_bases/croot_2026_combinatorial_large_sieve_sidon_sets_distances/theorem_4_1|Theorem 4.1]].

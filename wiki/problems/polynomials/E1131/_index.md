@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1131
@@ -138,6 +138,11 @@ preprints.org records of Rafik's manuscript and the Crossref record of
 [BrTo97], read 2026-10-07; the proof-claims tab, which lists no claim for
 the problem. Price's write-up is not readable from its link. No proof is
 compiled in this wiki.
+
+**A deduction and its scope.**
+[[research/erdos_1131/symmetric_four_node_test|An exact four-node integral comparison]] gives the author-recorded
+argument and source boundaries: a rational symmetric node choice improves on the Fejér integral at four nodes; the exact calculation gives no all-cardinality asymptotic.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -154,5 +159,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/polynomials/fejer_1932_bestimmung_derjenigen_abszissen_eines_intervalles/equation_69|fejer_1932_bestimmung_derjenigen_abszissen_eines_intervalles / equation_69]]
 - [[../library/polynomials/fejer_1932_bestimmung_derjenigen_abszissen_eines_intervalles/equation_97|fejer_1932_bestimmung_derjenigen_abszissen_eines_intervalles / equation_97]]
 - [[../library/polynomials/fejer_1932_bestimmung_derjenigen_abszissen_eines_intervalles/main_theorem|fejer_1932_bestimmung_derjenigen_abszissen_eines_intervalles / main_theorem]]
+- [[../library/polynomials/price_2026_perturbed_lobatto_nodes/_index|price_2026_perturbed_lobatto_nodes]]
+- [[../library/polynomials/price_2026_perturbed_lobatto_nodes/theorem_1|price_2026_perturbed_lobatto_nodes / theorem_1]]
 
 <!-- END problem library links -->

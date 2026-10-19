@@ -1,0 +1,121 @@
+{
+  "index": 6,
+  "scope": "Conditional column restrictions, not whole-index effectivity.",
+  "height_variable": "h=n-5",
+  "height_threshold_power_of_ten": 425,
+  "selected_positions": {
+    "2": 2,
+    "3": 1,
+    "5": 0
+  },
+  "lower_cofactor_exponents": {
+    "2": "31/100",
+    "3": "9/25",
+    "5": "31/100"
+  },
+  "additional_upper_exponents_for_2_and_3": "2/5",
+  "line_exponents": [
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+  ],
+  "row_multiplicities": [
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "polynomial_degree": 12,
+  "overlap_bounds": [
+    {
+      "prime": 2,
+      "overlap_power": 4,
+      "height_exponent": "83/50",
+      "constant": 6115295232000000,
+      "limiting_overlap_exponent": "83/200",
+      "low_branch_gain": "3/50",
+      "low_branch_constant": 97844723712000000
+    },
+    {
+      "prime": 3,
+      "overlap_power": 5,
+      "height_exponent": "21/10",
+      "constant": 3057647616000000,
+      "limiting_overlap_exponent": "21/50",
+      "low_branch_gain": "1/10",
+      "low_branch_constant": 3057647616000000
+    },
+    {
+      "prime": 5,
+      "overlap_power": 6,
+      "height_exponent": "76/25",
+      "constant": 1528823808000000,
+      "limiting_overlap_exponent": "38/75",
+      "low_branch_gain": "1/25",
+      "low_branch_constant": 12230590464000000
+    }
+  ],
+  "valuation_identity_examples": [
+    {
+      "n": 18,
+      "j": 7,
+      "prime": 2,
+      "r": 2,
+      "row_power": 16,
+      "cofactor": 1,
+      "column_valuation": 4,
+      "falling_factorial_valuation": 1,
+      "low_residue_branch": false
+    },
+    {
+      "n": 50,
+      "j": 17,
+      "prime": 2,
+      "r": 2,
+      "row_power": 16,
+      "cofactor": 3,
+      "column_valuation": 1,
+      "falling_factorial_valuation": 4,
+      "low_residue_branch": true
+    },
+    {
+      "n": 28,
+      "j": 10,
+      "prime": 3,
+      "r": 1,
+      "row_power": 27,
+      "cofactor": 1,
+      "column_valuation": 1,
+      "falling_factorial_valuation": 2,
+      "low_residue_branch": false
+    },
+    {
+      "n": 125,
+      "j": 40,
+      "prime": 5,
+      "r": 0,
+      "row_power": 125,
+      "cofactor": 1,
+      "column_valuation": 2,
+      "falling_factorial_valuation": 1,
+      "low_residue_branch": false
+    },
+    {
+      "n": 130,
+      "j": 35,
+      "prime": 5,
+      "r": 0,
+      "row_power": 5,
+      "cofactor": 26,
+      "column_valuation": 2,
+      "falling_factorial_valuation": 1,
+      "low_residue_branch": true
+    }
+  ],
+  "matrix_ranks_used": false
+}

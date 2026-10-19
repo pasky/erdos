@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:31Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 132
 
 [[problems/distance_problems/_index|..]]
 
-[[problems/distance_problems/E0132/claims/_index|claims/]]: The 7 claim pages of Problem 132, one per claimant's result; the problem's standing derives from them.
+[[problems/distance_problems/E0132/claims/_index|claims/]]: The 8 claim pages of Problem 132, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -127,6 +127,11 @@ concern rich distance classes, and
 no resolution of these two rare-distance questions was identified. This
 is a scoped search, not proof that no later result exists.
 
+The [[research/leads/number_field_rare_distances/_index|number-field research
+note]] holds author-recorded research on point sets in products of number
+fields and records why it does not extend to arbitrary configurations. It is
+not a claim and does not change the problem's open standing.
+
 **Proof claims.** The standing is derived from the claim pages in `claims/`:
 every claim is partial, so the problem stays open, and the erdosproblems.com
 label was OPEN. Two accepted partial claims rest on refereed publications: Erdős
@@ -172,8 +177,17 @@ $\tfrac43n+C_0$, which concerns a related question of [CDL25] rather than
 this problem's; it also claims, without formal verification, a positive
 answer to the second question for convex sets with all but $o(n)$ of their
 points on one circle; the first two results have a Lean development. Neither
-claimant's Lean was built or audited by this corpus, and no acceptance
-evidence is documented for any of the five pending claims. One thread post
+claimant's Lean was built or audited by this corpus. One pending partial claim
+is Plasma AI's: (vi)
+[[problems/distance_problems/E0132/claims/2026_10_19_plasma_ai|its claim page]]
+records Plasma AI's theorem that a set of $n$ points has at least
+$(n-1-2\kappa(M+2))/4$ distances occurring between at most $n$ pairs, where
+$\kappa$ is the least number of distance classes that a traceless quadratic
+form splits and $M$ is the largest number of points on one circle. It covers
+both questions for the sets on which some quadratic form splits few classes,
+and gives nothing when every form splits many, as for sets invariant under a
+rotation of order three; it is author-recorded at tier 0. No acceptance
+evidence is documented for any of the six pending claims. One thread post
 has no page: Przemek Chojecki's post of 28 January 2026 gives an argument for
 $n=8$, attributed to GPT-5.2, through the classification of eight-point
 four-distance sets, but it is a thread post without a manuscript;
@@ -181,6 +195,11 @@ ienjoymath's thread post of 25 July 2026 says the classification it invokes
 does not exist, while Marchetto's note identifies it as Theorem 1.2(a) of
 Shinohara's 2008 paper, which the library's card records, and notes that the
 post cites no source and exhibits no multiplicity tables.
+
+## Research
+
+[[research/erdos_132/_index|Research guide for Problem 132]]
+records the current arguments, their scope, and the remaining gap.
 
 <!-- BEGIN problem library links -->
 

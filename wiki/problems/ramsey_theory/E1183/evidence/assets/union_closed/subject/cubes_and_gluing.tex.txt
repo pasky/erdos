@@ -1,0 +1,155 @@
+\section{Cubes and block chains}
+\label{sec:cubes}
+
+Throughout, $k\ge2$ and $\chi$ is a $k$-colouring of $2^{[n]}$, and $S_n$
+is the group of permutations of $[n]$. A permutation acts on sets and on
+families of sets in the obvious way: $\sigma(S)=\{\sigma(x):x\in S\}$ and
+$\sigma(\cF)=\{\sigma(S):S\in\cF\}$. For sets $X_1,X_2,\dots$ and a finite
+set $I$ of indices we write $X_I=\bigcup_{i\in I}X_i$, so that
+$X_\emptyset=\emptyset$.
+
+\begin{definition}
+\label{def:cube}
+Let $t\ge0$. A \emph{$t$-cube} in $2^{[n]}$ is a family
+\[
+Q(U;X_1,\dots,X_t)=\{U\cup X_I:\ I\subseteq[t]\},
+\]
+where $U,X_1,\dots,X_t\subseteq[n]$ are pairwise disjoint and
+$X_1,\dots,X_t$ are nonempty. We call $U$ the \emph{base},
+$T=U\cup X_{[t]}$ the \emph{top} and $X_1,\dots,X_t$ the
+\emph{generators}. The \emph{shape} of the cube is the tuple
+$(|U|;|X_1|,\dots,|X_t|)$.
+\end{definition}
+
+The $2^{t}$ sets $U\cup X_I$ are distinct, and
+\[
+(U\cup X_I)\cup(U\cup X_J)=U\cup X_{I\cup J},\qquad
+(U\cup X_I)\cap(U\cup X_J)=U\cup X_{I\cap J},
+\]
+so a $t$-cube is a sublattice of $2^{[n]}$ isomorphic to $2^{[t]}$.
+Writing $U\cup X_I=T\setminus X_{[t]\setminus I}$ describes the same
+cube from the top downwards, as the family $\{T\setminus X_I:\
+I\subseteq[t]\}$; this is the form in which cubes appear in block chains.
+Figure~\ref{fig:holecube} shows a $3$-cube in this form.
+
+\begin{figure}[t]
+\centering
+\input{figures/fig-holecube.tex}
+\caption{A $3$-cube with top $T$ and generators $X_1,X_2,X_3$, where
+$X_{12}=X_1\cup X_2$ and so on. Moving along an edge in direction $i$
+adds or removes $X_i$. The vertex $U=T\setminus X_{123}$ is the base.}
+\label{fig:holecube}
+\end{figure}
+
+\begin{lemma}
+\label{lem:shape}
+If $Q$ and $Q'$ are $t$-cubes in $2^{[n]}$ of the same shape, then
+\begin{multline*}
+\bigl|\{\sigma\in S_n:\ \sigma(Q)\text{ is monochromatic}\}\bigr|\\
+=\bigl|\{\sigma\in S_n:\ \sigma(Q')\text{ is monochromatic}\}\bigr| .
+\end{multline*}
+\end{lemma}
+
+\begin{proof}
+Let $Q=Q(U;X_1,\dots,X_t)$ and $Q'=Q(U';X'_1,\dots,X'_t)$ with tops $T$
+and $T'$. The sets $U,X_1,\dots,X_t,[n]\setminus T$ partition $[n]$, as do
+$U',X'_1,\dots,X'_t,[n]\setminus T'$, and corresponding parts have the
+same size. So there is $\tau\in S_n$ with $\tau(U)=U'$ and
+$\tau(X_i)=X'_i$ for every $i$, and then $\tau(Q)=Q'$. Now
+$\sigma(Q')=(\sigma\tau)(Q)$, and $\sigma\mapsto\sigma\tau$ is a bijection
+of $S_n$.
+\end{proof}
+
+For integers $u\ge0$ and $a_1,\dots,a_t\ge1$ with
+$u+a_1+\dots+a_t\le n$ we may therefore define
+\[
+\rho_\chi(u;a_1,\dots,a_t)=\frac{1}{n!}\,
+\bigl|\{\sigma\in S_n:\ \sigma(Q)\text{ is monochromatic}\}\bigr|,
+\]
+where $Q$ is any $t$-cube of shape $(u;a_1,\dots,a_t)$. Since $\sigma(Q)$
+is a uniformly random cube of that shape when $\sigma$ is uniform,
+$\rho_\chi(u;a)$ is the probability that a random cube of shape $(u;a)$ is
+monochromatic.
+
+\begin{definition}
+\label{def:chain}
+Let $Y_1,\dots,Y_m\subseteq[n]$ be pairwise disjoint nonempty sets, the
+\emph{blocks}, and put $C_j=Y_1\cup\dots\cup Y_j$ for $0\le j\le m$. For
+$1\le j\le m$ and $A\subseteq[j-1]$ let
+\[
+Q(j,A)=\{C_j\setminus Y_B:\ B\subseteq A\}.
+\]
+This is the $|A|$-cube with top $C_j$, generators $Y_a$ $(a\in A)$ and base
+$C_j\setminus Y_A$; its shape is
+$\bigl(\sum_{i\le j,\,i\notin A}|Y_i|;\ (|Y_a|)_{a\in A}\bigr)$, the
+generators being listed in increasing order of $a$.
+\end{definition}
+
+Figure~\ref{fig:chain} shows a member of such a cube. The chain
+structure enters through the following rule, illustrated in
+Figure~\ref{fig:union}.
+
+\begin{figure}[t]
+\centering
+\input{figures/fig-chain.tex}
+\caption{A block chain with $m=10$ blocks placed in slots $G_1,\dots,G_{10}$
+of size $M=6$, with $|Y_k|=\beta_k$ and
+$\beta=(4,2,5,3,6,2,4,5,3,4)$. Here $s=5$, and the teal blocks form the
+member $C_8\setminus Y_{\{4\}}$ of the cube $Q(8,\{2,4\})$; the hatched
+block $Y_4$ is removed and the grey blocks lie beyond $C_8$.}
+\label{fig:chain}
+\end{figure}
+
+\begin{lemma}[Union rule]
+\label{lem:union}
+Let $1\le j\le j'\le m$ and $B,B'\subseteq[j]$. Then
+\[
+(C_j\setminus Y_B)\cup(C_{j'}\setminus Y_{B'})=C_{j'}\setminus
+Y_{B\cap B'} .
+\]
+\end{lemma}
+
+\begin{proof}
+Both sides are contained in $C_{j'}$. Let $x\in C_{j'}$. If $x\notin
+Y_{B'}$, then $x$ lies in $C_{j'}\setminus Y_{B'}$ and also outside
+$Y_{B\cap B'}$. Otherwise $x\in Y_b$ for some $b\in B'$; then $b\le j$, so
+$x\in C_j$, and $x$ lies in the left side if and only if $b\notin B$, that
+is, if and only if $x\notin Y_{B\cap B'}$.
+\end{proof}
+
+\begin{figure}[t]
+\centering
+\input{figures/fig-union.tex}
+\caption{The union rule with $s=5$: $C_6\setminus Y_{\{2,4\}}$ and
+$C_8\setminus Y_{\{3,4\}}$ have union $C_8\setminus Y_{\{4\}}$. Filled
+squares are blocks present in the set.}
+\label{fig:union}
+\end{figure}
+
+\begin{proposition}[Gluing]
+\label{prop:glue}
+Let $1\le s<m$, and let $\cS$ be a set of pairs $(j,A)$ with $s<j\le m$
+and $A\subseteq[s]$ such that the cube $Q(j,A)$ is monochromatic for every
+$(j,A)\in\cS$. Then there is a monochromatic union-closed family with at
+least $|\cS|/k$ members.
+\end{proposition}
+
+\begin{proof}
+Choose a colour $c$ such that the set $\cS_c$ of pairs in $\cS$ whose cube
+has colour $c$ satisfies $|\cS_c|\ge|\cS|/k$, and let $\cF$ be the union
+of the cubes $Q(j,A)$ over $(j,A)\in\cS_c$. Every member of $\cF$ has
+colour $c$.
+
+Let $C_j\setminus Y_B\in Q(j,A)$ and $C_{j'}\setminus Y_{B'}\in Q(j',A')$
+be members of $\cF$, where $(j,A),(j',A')\in\cS_c$ and, say, $j\le j'$.
+As $B,B'\subseteq[s]\subseteq[j]$, Lemma~\ref{lem:union} shows that
+their union is $C_{j'}\setminus Y_{B\cap B'}$, and since $B\cap
+B'\subseteq A'$ this set belongs to $Q(j',A')\subseteq\cF$. So $\cF$ is
+union-closed.
+
+Finally, the map $(j,A)\mapsto C_j\setminus Y_A$ from $\cS_c$ to $\cF$ is
+injective. Indeed, $j>s$ means $j\notin A$, so $C_j\setminus Y_A$ meets
+$Y_j$ and no block of larger index, which determines $j$; and then $A$ is
+the set of indices $i\le s$ for which $Y_i$ is disjoint from
+$C_j\setminus Y_A$. Hence $|\cF|\ge|\cS_c|\ge|\cS|/k$.
+\end{proof}

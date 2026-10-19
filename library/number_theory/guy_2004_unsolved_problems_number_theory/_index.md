@@ -2,15 +2,15 @@
 name: number_theory/guy_2004_unsolved_problems_number_theory
 desc: |
   Guy's third edition of Unsolved Problems in Number Theory (2004), the
-  190-section problem book in six parts (primes, divisibility, additive
-  number theory, Diophantine equations, sequences of integers, none of the
-  above) that states results and conjectures, mostly with references and
-  without proofs; cited on 95 problem pages, from the Erdős--Turán Sidon and
-  basis questions of C9 and the nonaveraging sets of C16 to the barriers,
-  totient iterates and weird numbers of part B and the 3x+1 problem of E16.
+  190-section book in six parts (primes, divisibility, additive number theory,
+  Diophantine equations, sequences of integers, none of the above) stating
+  results and conjectures, mostly with references and without proofs; cited on
+  95 problem pages, from the Erdős--Turán Sidon and basis questions of C9 and
+  the nonaveraging sets of C16 to the barriers, totient iterates and weird
+  numbers of part B and the 3x+1 problem of E16.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # number_theory/guy_2004_unsolved_problems_number_theory

@@ -1,0 +1,15 @@
+{
+  "description": "Nine labeled proper 2-colorings of the 15th roots of unity, each given by its color-0 class as a list of exponents e of zeta_15^e (color 1 is the complement). Both colors have trivial signed-span intersection over the nine layers.",
+  "conductor": 15,
+  "color0_classes": [
+    [0, 1, 2, 3, 4, 5, 6],
+    [7, 8, 9, 10, 11, 12, 13, 14],
+    [0, 1, 2, 8, 9, 10, 11],
+    [0, 2, 3, 6, 7, 10, 11, 14],
+    [3, 5, 7, 9, 10, 11, 13],
+    [1, 2, 4, 5, 6, 8, 12, 13],
+    [0, 1, 2, 3, 4, 6, 8],
+    [2, 4, 5, 6, 7, 9, 13],
+    [1, 2, 3, 4, 5, 8, 9, 10]
+  ]
+}

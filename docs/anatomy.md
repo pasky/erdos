@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-05T01:22:27Z
-updated: 2026-09-05T01:22:27Z
+updated: 2026-10-19T09:36:25Z
 ---
 
 # anatomy
@@ -66,10 +66,10 @@ forum thread, a registry, a live page ("page last edited 2026-04-06") or a
 repository ("its commit of 2026-09-15"), and the reading of a license page,
 whether or not the release holds the file; and an outside event in the history
 of a problem or a source, such as a publication, posting, submission, revision
-or catalog decision, with the dates a claim page's name and a link's `date`
-carry. A filed review whose subject has since changed may say so on the owning
-page, without a date. When an as-of date is removed, an observation that held
-only on that date ("the repository had no statement file on 2026-09-27") is
+or a problem catalog's decision, with the dates a claim page's name and a link's
+`date` carry. A filed review whose subject has since changed may say so on the
+owning page, without a date. When an as-of date is removed, an observation that
+held only on that date ("the repository had no statement file on 2026-09-27") is
 dropped or kept as a dated observation of the outside source, never restated in
 the present tense as if it still holds.
 
@@ -132,9 +132,10 @@ in the claim's row of `lean/Manifest.json`, and the card says so. It requires
 (`Erdos.L<n>.claim` or `Erdos.L<n>.refutation`), sits directly before `lean`,
 and is independent of `tier` and of `status`; status-to-role coherence stays the
 reference linter's job. It is dropped in the change that lands a kernel-only
-proof of the same declaration. The reference linter fails a card whose manifest
-row lists compiler axioms without the key, and a card with the key whose row
-lists none; the card's standing paragraph carries the compiler sentence under
+proof of the same declaration. The reference linter fails a card without the key
+whose manifest row lists compiler axioms and whose claim surface includes a
+`claim` or `refutation` declaration, and a card with the key whose row lists
+none; the card's standing paragraph carries the compiler sentence under
 [[compiler_trust]].
 
 `depends_on` declares substantive consumption, no more and no less. A claim
@@ -297,9 +298,12 @@ constructions made by a fresh-context verifier. Computational legs follow the
 same executable contract as `main.py`: deterministic, with failure reported by a
 nonzero exit. Noncomputational legs retain the mathematical derivation and
 attacks. These are frozen records, not continuously gated checks; the evidence
-command (`erdos evidence`) runs the computational legs in its reports, which
-gate nothing. Re-run relevant computational legs when assessing their content
-and for promotion, re-verification, and removal of a stale mark.
+command (`erdos evidence`) runs only the legs enrolled as its entry points (a
+`main.py`, or a program declared `# evidence: entry`) in its reports, which gate
+nothing; [[tools]] "Evidence command contract" states which programs it starts
+and which program regions it reports as coverage gaps. Re-run relevant
+computational legs when assessing their content and for promotion,
+re-verification, and removal of a stale mark.
 
 Verification legs are **maintained, never re-derived**: mechanical maintenance
 of paths, filenames, comments, or self-containment is legal and listed on the
@@ -414,24 +418,24 @@ check: the ids of the other claims whose namespace constants the proof closure
 of the claim's triple reaches. The reference linter gates every recorded id
 against the claim page's `depends_on`, so a page always discloses what its
 kernel proof relies on. `compiler` lists the compiler axioms that
-`native_decide` minted in the triple's closure, each with the declaration and
-module that minted it; the reference linter matches them to the card's
-`assumes: compiler` in both directions.
+`native_decide` minted in the triple's closure, each with a declaration whose
+proof term uses it and that declaration's module; the reference linter matches
+them to the card's `assumes: compiler` in both directions.
 
-A claim's `lean:` field names a fully qualified declaration in that claim's own
-namespace (`Erdos.L<id>.*`). The field certifies the claim's own
-statement/claim/refutation triple. It never points into another claim's
-namespace or at a declaration outside every claim namespace. When a card's
-statement is held in the kernel only by an interior theorem of another claim, or
-only by a disclosed fragment landed outside its own namespace (a vocabulary
-landing), the card leaves the field empty and names the holding declarations in
-its standing prose. The reference linter's forward check verifies the pin
-against the manifest for tier-2 claims only. An own-namespace pin on a claim
-below tier 2 that names no surfaced declaration (a partial-warrant pin) is
-therefore not covered by the forward check; only a source grep checks it. The
+A claim's `lean:` field names one of that claim's own triple declarations
+(`Erdos.L<id>.statement`, `.claim` or `.refutation`). The field certifies the
+claim's own statement/claim/refutation triple. It never points into another
+claim's namespace or at a declaration outside every claim namespace. When a
+card's statement is held in the kernel only by an interior theorem of another
+claim, or only by a disclosed fragment landed outside its own namespace (a
+vocabulary landing), the card leaves the field empty and names the holding
+declarations in its standing prose. The ledger scan enforces this rule on every
+pin, at every tier. The reference linter's forward check verifies the pin
+against the manifest for tier-2 claims only. A pin on a claim below tier 2 that
+names no surfaced declaration (a partial-warrant pin) is therefore not covered
+by the forward check; only a source grep checks that its declaration exists. The
 backward check gates the pin of every claim that surfaces in the manifest, at
-any tier, which enforces the own-namespace rule for surfaced claims. The rule
-binds unsurfaced pins too, even though only a source grep can check them.
+any tier.
 
 Generated files carry whatever their tooling writes, including the manifest's
 statement fingerprints. They are never hand-edited and never cited by digest:
@@ -499,15 +503,25 @@ A problem is a folder under the mathematics wiki's `problems/` tree whose
 `_index.md` is the problem page; the results claimed about it from outside the
 project are claim pages in a `claims/` folder beside that page, one page per
 claimant's result, named `<YYYY_MM_DD>_<claimant>.md` by the claim's date (for a
-claim not yet public, the day its page was filed) and its claimant. The claim's
-date is the earliest date the result was public, such as an arXiv posting or an
-online-first date before the print issue. No day or month is invented: where
-only the year or the month is known, the name fills the rest with `01`
-(`1936_04_01` for April 1936), and the claim page's `published` gives only what
-is known (`1936-04`, not `1936-04-01`). The project's own theorems are claim
-cards (`L<n>`) and keep their form. When one of them settles a problem, the
-problem derives its standing like any other: a claim page names the project as
-claimant, under the name it uses for itself, links the card under **Depends
+claim not yet public, the day its page was filed) and its claimant. When one
+claimant has more than one public claim page for the same day, every one of them
+takes a lowercase roman suffix, the first included, numbered from `_i` without a
+gap up to at most `_x` (`2026_10_19_plasma_ai_i.md`,
+`2026_10_19_plasma_ai_ii.md`, and so on); a lone page keeps the plain name. A
+last word reads as a suffix only when it is `_i` or another page of the same day
+and claimant has a suffix too, since a claimant's own name may end in such a
+word. A page not yet public (`published: null`) carries a temporary name: its
+filing day, with a suffix from `_i` when the plain name is taken or another
+pending page of the claimant shares that day. The release renames it to the
+release day and assigns the final suffixes, and never renames a public page. The
+claim's date is the earliest date the result was public, such as an arXiv
+posting or an online-first date before the print issue. No day or month is
+invented: where only the year or the month is known, the name fills the rest
+with `01` (`1936_04_01` for April 1936), and the claim page's `published` gives
+only what is known (`1936-04`, not `1936-04-01`). The project's own theorems are
+claim cards (`L<n>`) and keep their form. When one of them settles a problem,
+the problem derives its standing like any other: a claim page names the project
+as claimant, under the name it uses for itself, links the card under **Depends
 on.** and lists only the evidence that exists, `formalized` when a landed Lean
 proof checks the statement and `reviewed` only for an outside reviewer; without
 either it stays `claimed`.
@@ -579,37 +593,39 @@ post included, and not the date a journal printed it, whose refereeing
 `evidence` records as `refereed`. It is written to the precision known:
 `YYYY-MM-DD`, or `YYYY-MM` or `YYYY` when only the month or the year is known,
 so that filling its missing parts with `01` gives the name's date. A claim not
-yet public, such as the project's own unreleased result, has `published: null`
-and `links: []`, and its page name carries the day the page was filed, which the
-check does not compare; on the day the claim is made public, `published` becomes
-that day, the page is renamed to it and its links are added. `published` is
-`null` exactly when `links` is empty. `claim_id`, just after `submitted`, is the
-claim's id on the site the claim was submitted to, so that the site can match
-the claim page to that claim; it is absent unless the site gave one, never
-`null`, and no two claim pages carry the same id. `submitted` is the date the
-claim was submitted to erdosproblems.com, as a proof claim or a forum post, to
-erdosproblems.ai, as a proof claim, or to the Palomar registry: the date its
-**Submission note** gives, as `YYYY-MM-DD`, and `null` when no such submission
-is known. On this repository's claim pages, `claim_id` is the claim's id on
-erdosproblems.ai. The body says what a partial claim settles under **Covers.**,
-what the claim rests on under **Depends on.** (wikilinks to wiki pages, or to
-library result pages, which the check reports with their read status and never
-counts toward the standing; an accepted claim depends on no unaccepted wiki
-page, a `solved` problem page counting as accepted), and states unproven
-hypotheses in prose. Claims are scoped and valued against the statement the
-problem page shows, the modified Statement where there is one: a theorem of the
-whole statement is `full`, one on a narrower range is `partial`, and the claim
-value follows the statement's polarity. A result that answers only the
-erdosproblems.com wording keeps its claim page with `status` `rejected` and the
-reason "answers the erdosproblems.com wording, not the modified Statement". A
-result that answers only a variant, a reading or version of the problem that the
-problem page sets aside, settles no instance of the problem. Such a result
-submitted to erdosproblems.com or erdosproblems.ai as a claim keeps its claim
-page with `status` `rejected`, the reason "answers a variant, not the
-Statement", and a note that its mathematics answers the named variant and so
-does not settle the problem. Every claim erdosproblems.com shows has a claim
-page, rejected if need be, and so does every claim erdosproblems.ai publishes:
-the `claims` list of the problem's read-only discussion endpoint
+yet public, such as the project's own unreleased result, has `published: null`,
+and its page name carries the day the page was filed, which the check does not
+compare; its `links` are `[]` or list only postings that will be public by its
+release day, such as the project's formalization repository. On the day the
+claim is made public, `published` becomes that day, the page is renamed to it
+and its public postings are added. `links` is empty only while `published` is
+`null`. `claim_id`, just after `submitted`, is the claim's id on the site the
+claim was submitted to, so that the site can match the claim page to that claim;
+it is absent unless the site gave one, never `null`, and no two claim pages
+carry the same id. `submitted` is the date the claim was submitted to
+erdosproblems.com, as a proof claim or a forum post, to erdosproblems.ai, as a
+proof claim, or to the Palomar registry: the date its **Submission note** gives,
+as `YYYY-MM-DD`, and `null` when no such submission is known. On this
+repository's claim pages, `claim_id` is the claim's id on erdosproblems.ai. The
+body says what a partial claim settles under **Covers.**, what the claim rests
+on under **Depends on.** (wikilinks to wiki pages, or to library result pages,
+which the check reports with their read status and never counts toward the
+standing; an accepted claim depends on no unaccepted wiki page, a `solved`
+problem page counting as accepted), and states unproven hypotheses in prose.
+Claims are scoped and valued against the statement the problem page shows, the
+modified Statement where there is one: a theorem of the whole statement is
+`full`, one on a narrower range is `partial`, and the claim value follows the
+statement's polarity. A result that answers only the erdosproblems.com wording
+keeps its claim page with `status` `rejected` and the reason "answers the
+erdosproblems.com wording, not the modified Statement". A result that answers
+only a variant, a reading or version of the problem that the problem page sets
+aside, settles no instance of the problem. Such a result submitted to
+erdosproblems.com or erdosproblems.ai as a claim keeps its claim page with
+`status` `rejected`, the reason "answers a variant, not the Statement", and a
+note that its mathematics answers the named variant and so does not settle the
+problem. Every claim erdosproblems.com shows has a claim page, rejected if need
+be, and so does every claim erdosproblems.ai publishes: the `claims` list of the
+problem's read-only discussion endpoint
 `https://erdosproblems.ai/api/v1/problems/<number>/discussion`, whose
 `repoClaims` list mirrors this corpus's own claim pages and which does not list
 a claim still awaiting the site's approval. Which of these claim pages a
@@ -711,20 +727,20 @@ page navigation under [[math_authoring]].
   included, names Thomas Bloom's site as erdosproblems.com and never as "the
   site", which a reader could take for this repository's own presentation at
   erdosproblems.ai; the bounty site is named Conjectures.io in the same way. A
-  page or feature of the site, its curator, and a part of a catalog entry take
-  the domain as a modifier: "the erdosproblems.com page, accessed 2026-09-04",
-  "the erdosproblems.com forum thread", "the erdosproblems.com proof-claims
-  tab", "the erdosproblems.com curator", "the erdosproblems.com label", "the
-  erdosproblems.com wording". Where no such noun follows, the possessive serves:
-  "erdosproblems.com's own label", "erdosproblems.com's $f(n)$". The catalog as
-  the author of its labels and wording is Bloom's catalog: "Bloom's catalog
-  labeled the problem OPEN", "read as Bloom's catalog words it". "The catalog"
-  alone is not used, since it could mean Bloom's catalog or the
-  formal-conjectures catalog. The domain keeps its lowercase spelling at the
-  start of a sentence too: "erdosproblems.com credits the result to ...". A
-  quotation, a transcription, a filed record and code keep their own words, and
-  "site" in another sense (another website, a lattice site, the sites of a
-  proof) is unaffected.
+  page or feature of the site, its curator, and a part of an entry in Bloom's
+  catalog take the domain as a modifier: "the erdosproblems.com page, accessed
+  2026-09-04", "the erdosproblems.com forum thread", "the erdosproblems.com
+  proof-claims tab", "the erdosproblems.com curator", "the erdosproblems.com
+  label", "the erdosproblems.com wording". Where no such noun follows, the
+  possessive serves: "erdosproblems.com's own label", "erdosproblems.com's
+  $f(n)$". The catalog as the author of its labels and wording is Bloom's
+  catalog: "Bloom's catalog labeled the problem OPEN", "read as Bloom's catalog
+  words it". "The catalog" alone is not used, since it could mean Bloom's
+  catalog or the formal-conjectures catalog. The domain keeps its lowercase
+  spelling at the start of a sentence too: "erdosproblems.com credits the result
+  to ...". A quotation, a transcription, a filed record and code keep their own
+  words, and "site" in another sense (another website, a lattice site, the sites
+  of a proof) is unaffected.
 - **The erdosproblems.com number is the problem's identity.** A problem is the
   folder `wiki/problems/<subject>/E<nnnn>/`, named by its erdosproblems.com
   number zero-padded to four digits (`E0570/` for Problem 570), whose
@@ -871,20 +887,21 @@ review.
 Before a claim page moves from `claimed` to `accepted`, identify evidence of
 acceptance and list its kinds under `evidence`. Refereed publication or
 documented independent acceptance suffices. Journal publication, a reproof by
-this project, and catalog agreement are not individually required when
-acceptance is otherwise documented. This project's own review or check of an
-outside proof is reported on the claim page as coverage, saying what it covered
-and how it was graded, and the claim stays `claimed`, its acceptance pending,
-until the project's reviewer signs off. Keep any specific unresolved proof
-dispute prominent. A theorem statement in a manuscript is not sufficient by
-itself: such a claim stays `claimed`, and the problem's `status` stays `claimed`
-with it. Source-supported standing, local proof coverage and formal verification
-remain distinct. A provisional standing retained from the erdosproblems.com
-label, on a problem with no claim page yet, still needs the qualifications
-above; unless it is `open`/`none`, the schema check counts it and fails it in
-its settled mode, and it certifies nothing. Project-authored resolutions require
-the independent whole-conclusion and exact-formulation scrutiny in
-[[verification]] before acceptance as project solutions.
+this project, and agreement by Bloom's catalog or the formal-conjectures catalog
+are not individually required when acceptance is otherwise documented. This
+project's own review or check of an outside proof is reported on the claim page
+as coverage, saying what it covered and how it was graded, and the claim stays
+`claimed`, its acceptance pending, until the project's reviewer signs off. Keep
+any specific unresolved proof dispute prominent. A theorem statement in a
+manuscript is not sufficient by itself: such a claim stays `claimed`, and the
+problem's `status` stays `claimed` with it. Source-supported standing, local
+proof coverage and formal verification remain distinct. A provisional standing
+retained from the erdosproblems.com label, on a problem with no claim page yet,
+still needs the qualifications above; unless it is `open`/`none`, the schema
+check counts it and fails it in its settled mode, and it certifies nothing.
+Project-authored resolutions require the independent whole-conclusion and
+exact-formulation scrutiny in [[verification]] before acceptance as project
+solutions.
 
 A claim page with an erdosproblems.com or erdosproblems.ai proof claim, a
 claimant's forum post that the page cites, or a Palomar registry link carries a
@@ -909,14 +926,15 @@ page's reading.
 ### Library
 
 - **One folder per source.** `library/<subject>/author_year_slug/` holds the
-  source, an `_index.md` — the source card — whose desc is the catalog entry and
-  whose body is the digest, and one page per extracted result. The source is its
-  PDF when one exists, named after the folder (`author_year_slug.pdf`) or after
-  the folder and its edition (`author_year_slug_arxiv_v2.pdf`), with its
-  markdown transcription beside it at the PDF's stem (`author_year_slug.md`,
-  `author_year_slug_arxiv_v2.md`) unless the card's `transcription` key records
-  why not ("Library cards"). When no PDF exists — a web page, a forum answer —
-  that markdown file is the source itself and records the URL.
+  source, an `_index.md` — the source card — whose desc is the library's catalog
+  entry and whose body is the digest, and one page per extracted result. The
+  source is its PDF when one exists, named after the folder
+  (`author_year_slug.pdf`) or after the folder and its edition
+  (`author_year_slug_arxiv_v2.pdf`), with its markdown transcription beside it
+  at the PDF's stem (`author_year_slug.md`, `author_year_slug_arxiv_v2.md`)
+  unless the card's `transcription` key records why not ("Library cards"). When
+  no PDF exists — a web page, a forum answer — that markdown file is the source
+  itself and records the URL.
 - **Conversion sidecars sit beside the PDF.** An arXiv source may carry
   `.arxiv/` (the record of the arXiv version held), `.tex/` and `.html/` (its
   extracted source and rendered pages) in its folder. A source bundle from
@@ -1149,12 +1167,12 @@ A claim's `proved` status at tier 0 records a complete author-supplied argument;
 it does not supply independently accepted proof coverage or community
 acceptance. New research follows the selective-review rule in [[verification]];
 completing or sharing an intermediate argument does not automatically require an
-audit. A new project proof or disproof claimed to resolve a catalog problem
-needs independent whole-conclusion scrutiny before acceptance as a project
-solution. Literature-compilation proof coverage retains its separate review
-obligations. A narrower Lean result is partial formal coverage, not a tier-2
-warrant for the enclosing claim. These tier definitions and this acceptance rule
-govern here.
+audit. A new project proof or disproof claimed to resolve an erdosproblems.com
+problem needs independent whole-conclusion scrutiny before acceptance as a
+project solution. Literature-compilation proof coverage retains its separate
+review obligations. A narrower Lean result is partial formal coverage, not a
+tier-2 warrant for the enclosing claim. These tier definitions and this
+acceptance rule govern here.
 
 Generated views and claim-to-Lean reference checks are separate generated
 tooling. `wiki/lemmas.md` (the ledger) and `wiki/standing.md` (the compact
@@ -1175,8 +1193,8 @@ join: it gates every manifest `depends` id against the claim page's
 against the claim's own manifest surface at every tier, so the partial-warrant
 pin the shared text leaves to source grep fails here. It follows no link to
 disk; the gate's `reflint` leg (`erdos reflint`) resolves every inline Markdown
-link on disk, cross-root links included, and only wikilinks are verified by
-reading.
+link on disk, cross-root links included, and each wiki leg of `erdos gate` reads
+`wiki lint --json` and fails on a stale-link note.
 
 ### Research
 

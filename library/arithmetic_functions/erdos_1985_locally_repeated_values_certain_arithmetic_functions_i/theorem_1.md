@@ -6,7 +6,7 @@ desc: |
   integer-valued arithmetic function f under which n+f(n)=m+f(m) has
   infinitely many solutions with n different from m.
 created: 2026-10-08T14:33:26Z
-updated: 2026-10-08T14:33:26Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -61,7 +61,7 @@ yields a contradiction.
 [[arithmetic_functions/erdos_1985_locally_repeated_values_certain_arithmetic_functions_i/corollary_p320|Corollary]]
 on printed p. 320 applies the theorem to $\nu$, $\Omega$ and $\tau$.
 
-**Bears on.** No catalog problem directly. It concerns collisions of
+**Bears on.** No erdosproblems.com problem directly. It concerns collisions of
 $n+f(n)$, not Euler's totient function.
 
 **Living verification.** Needs review. The statement, its five conditions

@@ -6,7 +6,7 @@ desc: |
   Problem 996 and the example question of Problem 995 in the negative.
 license: CC-BY-4.0
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-07T20:53:39Z
+updated: 2026-10-16T07:28:38Z
 ---
 
 # analysis/ho_2026_counterexamples_lacunary_dilates_via_dyadic_spike
@@ -22,8 +22,15 @@ Attribution 4.0 license. The folder's PDF is arXiv:2604.18535v2 [math.CA] (21
 April 2026; 27 pages). Read status: claims checked for Theorem 1.1, Definition
 1.2 and Corollary 1.3 (p. 3), Corollaries 1.4 and 1.5 and Theorem 1.6 (p. 4) and
 Theorem 1.7 (p. 5), each read clause by clause on the page images, with the
-short deductions of the three corollaries from Theorem 1.1 (pp. 20--21); the
-proofs of Theorems 1.1, 1.6 and 1.7 were not read.
+short deductions of the three corollaries from Theorem 1.1 (pp. 20--21).
+Sections 2--5 and 7 were read at proof depth on 2026-10-15 by a bounded
+inspection of Theorem 1.6 at $p=2$ for Problem 995: Lemmas 2.1--2.2 and
+3.1--3.3, Definition 3.4, Lemma 3.5, the recursion of Section 4, Lemmas
+4.1--4.2, Proposition 4.3, Lemma 5.1, Proposition 5.2 and the proofs of Theorems
+1.1 and 1.6 (pp. 7--23), with the statement and the construction's formulas
+checked on the page images; it found no gap, and it is an inspection, not an
+independent review. A blind review of Theorem 1.6 at $p=2$ failed to refute it, and its separate grade passed, both on 2026-10-15 ([[../wiki/problems/discrepancy/E0995/claims/evidence/verify/ho_theorem_1_6/report|review]], [[../wiki/problems/discrepancy/E0995/claims/evidence/verify/ho_theorem_1_6/grading|grade]]). Sections 6, 8 and 9 and the proof of Theorem 1.7 were not
+read.
 
 The construction is built from dyadic spikes: functions of mean zero and unit
 L^2 norm that are large and positive on one short dyadic interval and slightly

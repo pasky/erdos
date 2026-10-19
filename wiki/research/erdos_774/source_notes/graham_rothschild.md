@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Graham–Rothschild: Ramsey theorem for par
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Graham–Rothschild: Ramsey theorem for parameter sets
@@ -24,3 +24,11 @@ subset has all its k-parameter subsets in one class (in later language, finite
 colorings of parameter words contain monochromatic parameter subspaces).  It
 is the general product/variable-word engine behind many finite Ramsey
 constructions.
+
+For E0774, it is a candidate amplification mechanism once a finite signed
+relation gadget has been encoded by parameter words: a sufficiently large host
+could force a monochromatic copy under every bounded coloring.  The missing
+part is the local-density side.  The theorem alone gives no uniform lower bound
+on the largest relation-free subset of the host, and an indiscriminate Ramsey
+construction can destroy precisely the proportional extraction property that
+E0774 requires.

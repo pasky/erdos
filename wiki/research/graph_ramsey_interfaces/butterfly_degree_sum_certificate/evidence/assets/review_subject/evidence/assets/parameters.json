@@ -1,0 +1,7 @@
+{
+  "denominator": 10000,
+  "part_numerators": {"A": 4273, "B": 2471, "C": 709, "D": 1274, "E": 1273},
+  "pair_density_numerators": {"AB": 10000, "BC": 10000, "AD": 10000, "AE": 10000, "AC": 4352, "DE": 3011},
+  "triangle_sum_bound": [183, 125],
+  "all_order_cutoff": 10000000000000
+}

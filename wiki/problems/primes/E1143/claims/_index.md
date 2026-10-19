@@ -1,10 +1,10 @@
 ---
 name: problems/primes/E1143/claims
-desc: The 1 claim page of Problem 1143, one per claimant's result; the problem's standing derives from them.
+desc: The 2 claim pages of Problem 1143, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T14:38:22Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/primes/E1143/claims
@@ -15,5 +15,10 @@ updated: 2026-10-11T22:24:14Z
 longer than $2p_u$ holds at least $2k$ distinct multiples of them, and for
 every $\alpha<3$ some primes and an interval of length $\alpha p_u$ hold
 exactly $2k$. The claim is pending acceptance.
+
+[[problems/primes/E1143/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Over all sets of $u$ primes with largest member $P$, the fewest
+once-counted multiples in a block of $\lfloor\alpha P\rfloor$ integers is
+exactly $\lceil2\sqrt u\rceil$ for $2<\alpha<3$ and every $u$;
+author-recorded at tier 0, catalog acceptance pending.
 
 ***

@@ -7,7 +7,7 @@ desc: |
   names no Erdős problem and deduces a polylogarithmic least-nonresidue bound.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T17:30:13Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 # primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_7_8
@@ -87,8 +87,8 @@ statements, and that "The paper's later applications are not included" (so
 Corollary 1.2 is outside it); the same page lists the companion's Siegel-zero
 gap (`SiegelZeros.lean`). The zeta comparator statement reads, in words, that
 $\zeta(s)\ne0$ whenever $\operatorname{Re}s>7/8$; the Dirichlet one adds the
-hypothesis that not both $\chi=1$ and $s=1$. The catalog's own `review`
-field reads `status: unchecked`. All of this is read statically from the
+hypothesis that not both $\chi=1$ and $s=1$. The `review` field of the release's
+catalog reads `status: unchecked`. All of this is read statically from the
 release's catalog; not built, replayed or audited for fidelity in this
 repository. No Lean file here is a proof of any Erdős problem.
 
@@ -269,18 +269,12 @@ evidence.
   Erdős--Granville--Pomerance--Spiro normal order of the number of totient
   iterations. The claim rests on Theorem 1.1, unverified here, and is
   pending this corpus's review.
-- [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]]: input. The
-  page records Plasma AI's observation that the Dirichlet part of Theorem
-  1.1, a zero-free half-plane uniform in the conductor, answers the third
-  question: it puts a prime below $C_0(\log r)^8$ outside every proper
-  subgroup of $\mathbf F_r^*$, which gives
-  $h(n)\le\max\{P(n),C(\log n)^8\}$, so that $P(n)>n^\epsilon$ forces
-  $h(n)=P(n)$ for every fixed $\epsilon>0$ and all large $n$. The argument is
-  the observation's, not the manuscript's, and it rests on Theorem 1.1, which
-  is unverified here. Corollary 1.2, the quadratic case, does not suffice: a
-  quadratic nonresidue lies outside the subgroup the argument meets only when
-  that subgroup lies inside the squares. The observation answers neither the
-  density question nor the question on $\liminf h(n)$. Unverified.
+- [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]]: background
+  only: neither the manuscript nor the page records a deduction from Theorem
+  1.1 for this problem. The page's recorded results on the third question stop
+  at $\epsilon>1/2$ (Zeng's claim) and, by the notes of Korsky's 5 August
+  2026 proof-claim post on Problem 769, at $\epsilon>1/(4\sqrt e)$
+  unconditionally. Unverified.
 - [[../wiki/problems/integer_sequences/E0985/_index|Problem 985]]: background only:
   a uniform Dirichlet zero-free half-plane (the Dirichlet part of Theorem
   1.1) is the kind of hypothesis under which small prime primitive roots are

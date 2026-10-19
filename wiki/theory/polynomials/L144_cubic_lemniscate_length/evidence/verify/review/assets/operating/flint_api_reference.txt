@@ -1,0 +1,271 @@
+Installed python-flint API documentation
+Package version: 0.9.0
+This is a direct capture of installed object docstrings. No examples were executed.
+
+=== arb ===
+arb(mid=None, rad=None)
+
+Represents a real number `x` by a midpoint `m` and a radius `r`
+such that `x \in [m \pm r] = [m-r, m+r]`.
+The midpoint and radius are both floating-point numbers. The radius
+uses a fixed, implementation-defined precision (30 bits).
+The precision used for midpoints is controlled by :attr:`ctx.prec` (bits)
+or equivalently :attr:`ctx.dps` (digits).
+
+The constructor accepts a midpoint *mid* and a radius *rad*, either of
+which defaults to zero if omitted. The arguments can be tuples
+`(a, b)` representing exact floating-point data `a 2^b`, integers,
+floating-point numbers, rational strings, or decimal strings.
+If the radius is nonzero, it might be rounded up to a slightly larger
+value than the exact value passed by the user.
+
+    >>> arb(10.25)
+    10.2500000000000
+    >>> print(1 / arb(4))  # exact
+    0.250000000000000
+    >>> print(1 / arb(3))  # approximate
+    [0.333333333333333 +/- 3.71e-16]
+    >>> print(arb("3.0"))
+    3.00000000000000
+    >>> print(arb("0.1")) # doctest: +SKIP
+    [0.100000000000000 +/- 2.23e-17]
+    >>> print(arb("1/10")) # doctest: +SKIP
+    [0.100000000000000 +/- 2.23e-17]
+    >>> print(arb("3.14159 +/- 0.00001"))
+    [3.1416 +/- 2.01e-5]
+    >>> ctx.dps = 50
+    >>> print(arb("1/3"))
+    [0.33333333333333333333333333333333333333333333333333 +/- 3.78e-51]
+    >>> ctx.default()
+
+Converting to or from decimal results in some loss of accuracy.
+See :meth:`.arb.str` for details.
+
+=== arb.upper ===
+arb.upper(self)
+
+Upper bound for *self* (towards `+\infty`).
+The output is an *arb* holding an exact floating-point number
+that has been rounded up to the current precision.
+
+    >>> print(arb("-5 +/- 2").upper().str(5, radius=False))
+    -3.0000
+
+=== arb.lower ===
+arb.lower(self)
+
+Lower bound for *self* (towards `-\infty`).
+The output is an *arb* holding an exact floating-point number
+that has been rounded down to the current precision.
+
+    >>> print(arb("-5 +/- 2").lower().str(5, radius=False))
+    -7.0000
+
+=== arb.union ===
+arb.union(s, t)
+
+Returns a ball containing the union of *s* and *t*.
+
+    >>> from flint import arb, ctx
+    >>> ctx.prec = 53
+    >>> x = arb(3).union(5); x.lower(); x.upper()
+    [2.99999999813735 +/- 4.86e-15]
+    [5.00000000186265 +/- 4.86e-15]
+
+=== arb.contains ===
+arb.contains(self, other)
+
+=== arb.mid ===
+arb.mid(self)
+
+Returns the midpoint of *self* as an exact *arb*:
+
+    >>> from flint import arb, ctx
+    >>> ctx.prec = 53
+    >>> arb("1 +/- 0.3").mid()
+    1.00000000000000
+
+=== arb.rad ===
+arb.rad(self)
+
+Returns the radius of *self* as an exact *arb*:
+
+    >>> print(arb("1 +/- 0.3").rad().str(5, radius=False))
+    0.30000
+
+=== arb.is_exact ===
+arb.is_exact(self) -> bool
+
+=== arb.is_finite ===
+arb.is_finite(self) -> bool
+
+=== arb.overlaps ===
+arb.overlaps(self, other)
+
+=== arb.sqrt ===
+arb.sqrt(s)
+
+Square root `\sqrt{s}`.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: arb(3).sqrt(), dps=25)
+    1.732050807568877293527446
+    >>> showgood(lambda: arb(0).sqrt(), dps=25)
+    0
+    >>> showgood(lambda: arb(-1).sqrt(), dps=25)
+    Traceback (most recent call last):
+      ...
+    ValueError: no convergence (maxprec=960, try higher maxprec)
+
+This function is undefined for negative input.
+Use :meth:`.acb.sqrt` for the complex extension.
+
+=== arb.root ===
+arb.root(s, ulong n)
+
+Principal *n*-th root of *s*.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: arb(10).root(3), dps=25)
+    2.154434690031883721759294
+
+=== arb.sin ===
+arb.sin(s)
+
+Sine function `\sin(s)`.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: arb(1).sin(), dps=25)
+    0.8414709848078965066525023
+
+=== arb.cos ===
+arb.cos(s)
+
+Cosine function `\cos(s)`.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: arb(1).cos(), dps=25)
+    0.5403023058681397174009366
+
+=== arb.asin ===
+arb.asin(s)
+
+Inverse sine `\operatorname{asin}(s)`.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: arb(1).asin(), dps=25)
+    1.570796326794896619231322
+
+=== arb.gamma ===
+arb.gamma(s)
+
+Gamma function `\Gamma(s)`.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: arb(10).gamma(), dps=25)
+    362880.0000000000000000000
+    >>> showgood(lambda: arb(-2.5).gamma(), dps=25)
+    -0.9453087204829418812256893
+    >>> showgood(lambda: (arb.pi() ** 10).gamma(), dps=25)
+    1.705646271897306403570389e+424898
+    >>> showgood(lambda: arb(0).gamma(), dps=25)  # pole
+    Traceback (most recent call last):
+      ...
+    ValueError: no convergence (maxprec=960, try higher maxprec)
+
+=== arb.pi ===
+arb.pi()
+
+Returns the constant `\pi` as an *arb*.
+
+    >>> from flint import showgood
+    >>> showgood(arb.pi, dps=25)
+    3.141592653589793238462643
+
+=== arb.__abs__ ===
+abs(self)
+
+=== arb.__pow__ ===
+Return pow(self, value, mod).
+
+=== arb.__lt__ ===
+Return self<value.
+
+=== arb.__le__ ===
+Return self<=value.
+
+=== arb.__eq__ ===
+Return self==value.
+
+=== acb ===
+acb(real=None, imag=None)
+
+An *acb* represents a complex number by a rectangular enclosure
+consisting of *arb* balls for the real and imaginary parts.
+
+    >>> from flint import fmpq
+    >>> acb(2)
+    2.00000000000000
+    >>> acb(2+3j)
+    2.00000000000000 + 3.00000000000000j
+    >>> acb("2 +/- 0.001", fmpq(2,3))
+    [2.00 +/- 1.01e-3] + [0.666666666666667 +/- 4.82e-16]j
+    >>> acb(-1) ** 0.25
+    [0.707106781186547 +/- 6.14e-16] + [0.707106781186547 +/- 6.15e-16]j
+
+=== acb.sqrt ===
+acb.sqrt(s, bool analytic=False)
+
+Square root `\sqrt{s}`.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: acb(1,2).sqrt(), dps=25)
+    1.272019649514068964252422 + 0.7861513777574232860695586j
+
+The *analytic* flag allows verifying that the branch cut is not
+touched; this is useful for numerical integration.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: acb.integral(lambda z, a: z.sqrt(), 0, 1).real, dps=25)  # WRONG!!!
+    0.6738873386790491615691993
+    >>> showgood(lambda: acb.integral(lambda z, a: z.sqrt(analytic=a), 0, 1).real, dps=25)
+    0.6666666666666666666666667
+
+=== acb.root ===
+acb.root(s, ulong n)
+
+Principal *n*-th root of *s*.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: acb(-1).root(3), dps=25)
+    0.5000000000000000000000000 + 0.8660254037844386467637232j
+    >>> showgood(lambda: acb(10,11).root(3), dps=25)
+    2.364674532267765964410078 + 0.6739866114818132500777466j
+
+=== acb.mid ===
+acb.mid(self)
+
+Returns an exact *acb* representing the midpoint of *self*:
+
+    >>> acb("1 +/- 0.3", "2 +/- 0.4").mid()
+    1.00000000000000 + 2.00000000000000j
+
+=== acb.exp_pi_i ===
+acb.exp_pi_i(s)
+
+Exponential function of modified argument `\exp(\pi i s)`.
+
+    >>> from flint import showgood
+    >>> showgood(lambda: acb(1,2).exp_pi_i(), dps=25)
+    -0.001867442731707988814430213
+    >>> showgood(lambda: acb(1.5,2.5).exp_pi_i(), dps=25)
+    -0.0003882032039267662472325299j
+    >>> showgood(lambda: acb(1.25,2.25).exp_pi_i(), dps=25)
+    -0.0006020578259597635239581705 - 0.0006020578259597635239581705j
+
+=== acb.__abs__ ===
+abs(self)
+
+=== acb.__pow__ ===
+Return pow(self, value, mod).
+

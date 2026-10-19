@@ -12,7 +12,7 @@ tags:
 status: claimed
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T00:19:38Z
+updated: 2026-10-17T23:49:32Z
 ---
 
 # Problem 97
@@ -47,8 +47,7 @@ of Liam Kruer, Jensen Kohlmeyer and Liam Price of 13 September 2026. It is
 recorded on
 [[problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price|its claim page]]
 without being adopted. The project's deduction of a counterexample from the
-accepted disproof of Problem 96, which awaits review, is recorded on
-[[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]].
+accepted disproof of Problem 96 is recorded on [[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]] as a pending full claim: Plasma AI's internal review finds that it holds, and an outside sign-off is pending.
 
 **Source.** [erdosproblems.com/97](https://www.erdosproblems.com/97), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #97,
@@ -75,8 +74,8 @@ every convex polygon has a vertex from which no four other vertices are
 equidistant, the distance allowed to depend on the vertex. Bloom's catalog
 labeled it falsifiable: one convex polygon in which every vertex has four other
 vertices at a common distance from it would refute it, a finite check once the
-polygon is given, and that is a note on an open question, not a claim. Two
-pending full claims assert exactly such polygons. The first,
+polygon is given, and that is a note on an open question, not a claim. Two full
+claims assert exactly such polygons. The first,
 [[problems/distance_problems/E0097/claims/2026_09_13_kruer_kohlmeyer_price|Kruer, Kohlmeyer and Price's manuscript]],
 constructs, for every large $n$, $n$ points in strictly convex position each
 with at least $(\frac14-o(1))\log_2\log_2n$ others at distance exactly one, with
@@ -85,8 +84,7 @@ the general form in which some fixed $k$ replaces four. The manuscript is
 unrefereed and unreviewed, this corpus has not built its Lean file, and the
 erdosproblems.com export of 2026-09-04 labeled the problem "FALSIFIABLE" with no
 acceptance recorded, so the claim is pending. The second is the project's
-deduction from the accepted disproof of Problem 96, described below, which
-awaits review. The frontmatter standing is claimed through the two, not solved.
+deduction from the accepted disproof of Problem 96, described below, reviewed internally by Plasma AI with an outside sign-off pending. The frontmatter standing is claimed through both.
 
 The erdosproblems.com remarks tie this problem to
 [[problems/distance_problems/E0096/_index|Problem 96]]: a positive answer here
@@ -100,28 +98,27 @@ one leaves a nonempty set in strictly convex position in which every point has
 at least four. Kruer and Kohlmeyer's explanation does not state this
 consequence, so the deduction is the project's claim, written out in full on
 [[problems/distance_problems/E0097/claims/2026_10_14_plasma_ai|its claim page]]
-and pending review; Kruer, Kohlmeyer and Price state that strictly convex sets
-with arbitrarily large minimum unit-distance degree exist exactly when the ratio
-of unit pairs to points is unbounded over strictly convex sets (Lemma 4.1 and
-Remark 4.5 of their manuscript); since this problem lets the common distance
-vary with the vertex, only the direction from Problem 96 to this problem
-follows.
+and reviewed internally by Plasma AI, with an outside sign-off pending; Kruer, Kohlmeyer and Price state that
+strictly convex sets with arbitrarily large minimum unit-distance degree exist
+exactly when the ratio of unit pairs to points is unbounded over strictly convex
+sets (Lemma 4.1 and Remark 4.5 of their manuscript); since this problem lets the
+common distance vary with the vertex, only the direction from Problem 96 to this
+problem follows.
 
 The three-neighbor example below is distinct from the four-neighbor question
-and supplies no proof or disproof of this catalog statement. Small cases are
-excluded in the problem's discussion thread: a post of 14 September 2026 by
-the account veljjanoski reports that no counterexample has at most ten
+and supplies no proof or disproof of this erdosproblems.com statement. Small
+cases are excluded in the problem's discussion thread: a post of 14 September
+2026 by the account veljjanoski reports that no counterexample has at most ten
 vertices, with Nullstellensatz certificates for at most nine vertices and
 Gröbner-basis computations for ten, in code the account published, and the
 account sallerk reported on 17 September 2026 that it had rechecked the
-certificates for seven to nine vertices; a post of 15 June 2026 by the
-account mysticflounder reports a Lean exclusion of nine-point
-counterexamples in a repository that was no longer public on 7 October 2026.
-These are thread posts with code and no manuscript, so they have no claim
-page. The erdosproblems.com remark that Erdős in 1975 [Er75f] credited Danzer
-with a disproof of the general form for every $k$, a claim he did not repeat and
-erdosproblems.com presumes mistaken, names no manuscript and has no claim page
-either.
+certificates for seven to nine vertices; a post of 15 June 2026 by the account
+mysticflounder reports a Lean exclusion of nine-point counterexamples in a
+repository that was no longer public on 7 October 2026. These are thread posts
+with code and no manuscript, so they have no claim page. The erdosproblems.com
+remark that Erdős in 1975 [Er75f] credited Danzer with a disproof of the general
+form for every $k$, a claim he did not repeat and erdosproblems.com presumes
+mistaken, names no manuscript and has no claim page either.
 
 The account mysticflounder announced a proof on 18 May 2026: a reduction of the
 problem to nine-point sets, resting on a descent step that removes a vertex from

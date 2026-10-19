@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 959
@@ -104,6 +104,16 @@ no claim on this problem asserts a better one. Search scope: the
 erdosproblems.com problem page, discussion thread and proof-claims tab, the
 arXiv and publisher records of [CDL25], the formal-conjectures file and the
 hosted Lean file; on 2026-10-06 no release item or lead named the problem.
+
+## Route analysis
+
+The
+[[research/distance_multiplicity_interfaces/quantitative_constructions|Quantitative
+distance constructions]] account records the following scope. Generic
+unit-vector subset sums give a largest distance multiplicity exceeding the
+second largest by order $n\log n$. This does not approach the requested order
+$n^{1+c}$ for fixed positive $c$.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

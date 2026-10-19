@@ -7,7 +7,7 @@ desc: |
   results and near-tight lower constructions.
 license: reserved
 created: 2026-09-06T01:08:40Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-14T00:25:14Z
 ---
 
 # Irredundant families of subcubes
@@ -136,7 +136,11 @@ statements recorded here were read against pp. 1–23 of arXiv:1003.2960v1; the
 result pages record each one's read depth, and none claims a checked proof.
 
 **Bears on.** [[../wiki/problems/covering_systems/E0007/_index|#7]]:
-background only. No result of this paper concerns congruences.
+background only. The research method
+[[../wiki/research/methods/private_progression_discounts/_index|private progressions and discounted reciprocal budgets]]
+cites Theorem 3 for the set-pairs inequality it applies to private points of an
+irredundant congruence cover; no result of this paper concerns congruences,
+and that page records that its conclusions do not resolve the problem.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

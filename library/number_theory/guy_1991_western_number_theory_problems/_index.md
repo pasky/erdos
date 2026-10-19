@@ -9,7 +9,7 @@ desc: |
   Graham and the gap question on sums of powers of q with Joó.
 license: unstated
 created: 2026-09-19T01:00:00Z
-updated: 2026-10-08T14:17:40Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # number_theory/guy_1991_western_number_theory_problems
@@ -129,8 +129,8 @@ restated:
   Pomerance): false for
   $n=2k$ with $k$ odd, $k\ge5$, by the set
   $\{k-1,k,k+1,\tfrac{3k-1}2,\tfrac{3k+1}2\}\cup\{2k,\ldots,4k\}\setminus\{2k+1,\tfrac{5k+1}2,3k,\tfrac{7k+1}2\}$;
-  example $k=5$: $\{4,5,6,7,8,10,12,14,16,17,19,20\}$. No catalog problem
-  states this finite form; Problem 839 asks the infinite version.
+  example $k=5$: $\{4,5,6,7,8,10,12,14,16,17,19,20\}$. No erdosproblems.com
+  problem states this finite form; Problem 839 asks the infinite version.
 - 91:03 (Paul Erdős, Carole Lacampagne & John Selfridge), p. 9: "Obtain a
   good lower bound for $g(k)$, the least integer $>k+1$ such that
   $\gcd\left(\binom{g(k)}k,k!\right)=1$. Is it true that for $k>k_0$,
@@ -144,8 +144,8 @@ restated:
   sequence, i.e., all the sums $a_i+a_j$ are distinct. Is it true that
   $\frac1{\ln x}\sum_{a_i+a_j\le x}\frac1{a_i+a_j}\to0$ as $x\to\infty$? In
   fact perhaps $\sum_{a_i+a_j<x}\frac1{a_i+a_j}<c_1\ln\ln x$. It is known
-  that it can be $>c_2\ln\ln x$." No catalog problem was located for this
-  item.
+  that it can be $>c_2\ln\ln x$." No erdosproblems.com problem was located for
+  this item.
 - 91:05 (Paul Erdős), p. 10, four questions on a Sidon sequence
   $a_1<a_2<\ldots<a_k$: "Can it be prolonged to a perfect difference set,
   i.e., $a_1<a_2<\ldots<a_k<a_{k+1}<\ldots<a_{p+1}=p^2+p+1$ so that the
@@ -229,8 +229,8 @@ question);
 (gaps between denominators);
 [[number_theory/guy_1991_western_number_theory_problems/problem_91_18|Problem 91:18, p. 16]]
 (gaps between sums of powers of $q$). Problem 91:04 (p. 9), Erdős's
-question on reciprocal sums over a Sidon sequence, has no page: no catalog
-problem or corpus page was found that it bears on.
+question on reciprocal sums over a Sidon sequence, has no page: no
+erdosproblems.com problem or corpus page was found that it bears on.
 
 **Bears on.** Each row says what the item poses; none of the items records
 a result that settles a problem.

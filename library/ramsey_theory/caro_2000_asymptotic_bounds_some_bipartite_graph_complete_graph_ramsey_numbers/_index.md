@@ -1,17 +1,17 @@
 ---
 name: ramsey_theory/caro_2000_asymptotic_bounds_some_bipartite_graph_complete_graph_ramsey_numbers
 desc: |
-  Caro, Li, Rousseau and Zhang's 2000 upper bounds for bipartite-versus-complete
-  Ramsey numbers: r(K_{2,m}, K_n) at most (m - 1 + o(1))(n / log n)^2 and
-  r(C_{2m}, K_n) at most c (n / log n)^{m/(m-1)} for fixed m, from a Turán
-  number to independence number transfer; the case m = 2 prints a proof of
-  the bound r(C_4, K_n) at most c (n / log n)^2, which the paper says
-  Szemerédi noted around 1980 and whose proof was never published. Also
+  Caro, Li, Rousseau and Zhang's 2000 upper bounds for
+  bipartite-versus-complete Ramsey numbers: r(K_{2,m}, K_n) at most
+  (m - 1 + o(1))(n / log n)^2 and r(C_{2m}, K_n) at most
+  c (n / log n)^{m/(m-1)} for fixed m, by a Turán-number transfer; the case
+  m = 2 prints a proof of r(C_4, K_n) at most c (n / log n)^2, which the paper
+  says Szemerédi noted around 1980 and whose proof was never published. Also
   r(K_{2,n}, K_n) of order n^3 / log^2 n and r(C_5, K_n) at most
   2 (3n)^{3/2} / (log n)^{1/2}.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T14:56:45Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # ramsey_theory/caro_2000_asymptotic_bounds_some_bipartite_graph_complete_graph_ramsey_numbers

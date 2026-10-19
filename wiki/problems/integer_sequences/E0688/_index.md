@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 688
@@ -205,6 +205,9 @@ written proof is the reopening condition for its qualification. (2) No
 upper bound tending to $0$ is known, only the counting bound
 $\limsup\epsilon_n\le1/e$, and the displayed question is tied to Problem
 1200 in both directions.
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

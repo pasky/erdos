@@ -1,0 +1,5363 @@
+{
+  "primes": [
+    2,
+    3,
+    5
+  ],
+  "cap_power_of_ten": 1000,
+  "difference": 6,
+  "cofactor_exponent": "61/100",
+  "height_variable": "h=n-6",
+  "row_start": 134,
+  "position_pattern_count": 127,
+  "position_scope": "All positions in [0,D] whose minimum is zero, including coincidences.",
+  "initial_exponents": [
+    3,
+    2,
+    2
+  ],
+  "last_exponents": [
+    3321,
+    2095,
+    1430
+  ],
+  "anchors": [
+    {
+      "exponents": [
+        3,
+        2,
+        2
+      ],
+      "power_bits": [
+        4,
+        4,
+        5
+      ],
+      "minimum_cofactor_bits": [
+        2,
+        2,
+        1
+      ],
+      "method": "exact boundary planes",
+      "boundary_triples": 56,
+      "exponent_advance": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        3
+      ],
+      "power_bits": [
+        5,
+        5,
+        7
+      ],
+      "minimum_cofactor_bits": [
+        6,
+        5,
+        3
+      ],
+      "method": "exact boundary planes",
+      "boundary_triples": 136,
+      "exponent_advance": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        4
+      ],
+      "power_bits": [
+        6,
+        7,
+        10
+      ],
+      "minimum_cofactor_bits": [
+        9,
+        8,
+        5
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        -1,
+        -1
+      ],
+      "exponent_advance": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        4
+      ],
+      "power_bits": [
+        7,
+        7,
+        10
+      ],
+      "minimum_cofactor_bits": [
+        8,
+        8,
+        5
+      ],
+      "method": "exact boundary planes",
+      "boundary_triples": 245,
+      "exponent_advance": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        5
+      ],
+      "power_bits": [
+        8,
+        8,
+        12
+      ],
+      "minimum_cofactor_bits": [
+        14,
+        13,
+        9
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        -1,
+        -1
+      ],
+      "exponent_advance": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        5
+      ],
+      "power_bits": [
+        9,
+        8,
+        12
+      ],
+      "minimum_cofactor_bits": [
+        13,
+        13,
+        9
+      ],
+      "method": "exact boundary planes",
+      "boundary_triples": 353,
+      "exponent_advance": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        6,
+        6
+      ],
+      "power_bits": [
+        10,
+        10,
+        14
+      ],
+      "minimum_cofactor_bits": [
+        18,
+        17,
+        13
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        1,
+        0,
+        -1
+      ],
+      "exponent_advance": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        11,
+        7,
+        6
+      ],
+      "power_bits": [
+        12,
+        12,
+        14
+      ],
+      "minimum_cofactor_bits": [
+        19,
+        19,
+        17
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        0,
+        -1
+      ],
+      "exponent_advance": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        12,
+        8,
+        6
+      ],
+      "power_bits": [
+        13,
+        13,
+        14
+      ],
+      "minimum_cofactor_bits": [
+        20,
+        19,
+        18
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        -1,
+        -1
+      ],
+      "exponent_advance": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        13,
+        8,
+        6
+      ],
+      "power_bits": [
+        14,
+        13,
+        14
+      ],
+      "minimum_cofactor_bits": [
+        20,
+        20,
+        19
+      ],
+      "method": "exact boundary planes",
+      "boundary_triples": 605,
+      "exponent_advance": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        14,
+        9,
+        7
+      ],
+      "power_bits": [
+        15,
+        15,
+        17
+      ],
+      "minimum_cofactor_bits": [
+        24,
+        23,
+        21
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        0,
+        -1
+      ],
+      "exponent_advance": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        15,
+        10,
+        7
+      ],
+      "power_bits": [
+        16,
+        16,
+        17
+      ],
+      "minimum_cofactor_bits": [
+        26,
+        25,
+        24
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        -1,
+        -1
+      ],
+      "exponent_advance": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        16,
+        10,
+        7
+      ],
+      "power_bits": [
+        17,
+        16,
+        17
+      ],
+      "minimum_cofactor_bits": [
+        26,
+        26,
+        25
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        0,
+        -1
+      ],
+      "exponent_advance": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        17,
+        11,
+        7
+      ],
+      "power_bits": [
+        18,
+        18,
+        17
+      ],
+      "minimum_cofactor_bits": [
+        28,
+        27,
+        28
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        -1,
+        0
+      ],
+      "exponent_advance": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        18,
+        11,
+        8
+      ],
+      "power_bits": [
+        19,
+        18,
+        19
+      ],
+      "minimum_cofactor_bits": [
+        30,
+        31,
+        30
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        0,
+        0
+      ],
+      "exponent_advance": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        19,
+        12,
+        9
+      ],
+      "power_bits": [
+        20,
+        20,
+        21
+      ],
+      "minimum_cofactor_bits": [
+        32,
+        32,
+        30
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        0,
+        0,
+        -1
+      ],
+      "exponent_advance": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "exponents": [
+        20,
+        13,
+        9
+      ],
+      "power_bits": [
+        21,
+        21,
+        21
+      ],
+      "minimum_cofactor_bits": [
+        31,
+        30,
+        30
+      ],
+      "method": "exact boundary planes",
+      "boundary_triples": 1388,
+      "exponent_advance": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        21,
+        14,
+        10
+      ],
+      "power_bits": [
+        22,
+        23,
+        24
+      ],
+      "minimum_cofactor_bits": [
+        40,
+        39,
+        38
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        2,
+        0,
+        0
+      ],
+      "exponent_advance": [
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        24,
+        15,
+        11
+      ],
+      "power_bits": [
+        25,
+        24,
+        26
+      ],
+      "minimum_cofactor_bits": [
+        43,
+        43,
+        41
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        1,
+        1,
+        0
+      ],
+      "exponent_advance": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        26,
+        17,
+        12
+      ],
+      "power_bits": [
+        27,
+        27,
+        28
+      ],
+      "minimum_cofactor_bits": [
+        48,
+        47,
+        46
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        2,
+        1,
+        0
+      ],
+      "exponent_advance": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        29,
+        19,
+        13
+      ],
+      "power_bits": [
+        30,
+        31,
+        31
+      ],
+      "minimum_cofactor_bits": [
+        49,
+        48,
+        48
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        1,
+        0,
+        0
+      ],
+      "exponent_advance": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        31,
+        20,
+        14
+      ],
+      "power_bits": [
+        32,
+        32,
+        33
+      ],
+      "minimum_cofactor_bits": [
+        58,
+        57,
+        56
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        3,
+        1,
+        0
+      ],
+      "exponent_advance": [
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        35,
+        22,
+        15
+      ],
+      "power_bits": [
+        36,
+        35,
+        35
+      ],
+      "minimum_cofactor_bits": [
+        61,
+        61,
+        61
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        2,
+        1,
+        0
+      ],
+      "exponent_advance": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        38,
+        24,
+        16
+      ],
+      "power_bits": [
+        39,
+        39,
+        38
+      ],
+      "minimum_cofactor_bits": [
+        69,
+        69,
+        70
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        3,
+        2,
+        1
+      ],
+      "exponent_advance": [
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "exponents": [
+        42,
+        27,
+        18
+      ],
+      "power_bits": [
+        43,
+        43,
+        42
+      ],
+      "minimum_cofactor_bits": [
+        79,
+        78,
+        79
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        5,
+        2,
+        2
+      ],
+      "exponent_advance": [
+        6,
+        3,
+        3
+      ]
+    },
+    {
+      "exponents": [
+        48,
+        30,
+        21
+      ],
+      "power_bits": [
+        49,
+        48,
+        49
+      ],
+      "minimum_cofactor_bits": [
+        87,
+        88,
+        87
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        4,
+        3,
+        1
+      ],
+      "exponent_advance": [
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "exponents": [
+        53,
+        34,
+        23
+      ],
+      "power_bits": [
+        54,
+        54,
+        54
+      ],
+      "minimum_cofactor_bits": [
+        100,
+        99,
+        100
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        6,
+        3,
+        2
+      ],
+      "exponent_advance": [
+        7,
+        4,
+        3
+      ]
+    },
+    {
+      "exponents": [
+        60,
+        38,
+        26
+      ],
+      "power_bits": [
+        61,
+        61,
+        61
+      ],
+      "minimum_cofactor_bits": [
+        110,
+        109,
+        109
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        5,
+        3,
+        2
+      ],
+      "exponent_advance": [
+        6,
+        4,
+        3
+      ]
+    },
+    {
+      "exponents": [
+        66,
+        42,
+        29
+      ],
+      "power_bits": [
+        67,
+        67,
+        68
+      ],
+      "minimum_cofactor_bits": [
+        127,
+        127,
+        126
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        9,
+        5,
+        3
+      ],
+      "exponent_advance": [
+        10,
+        6,
+        4
+      ]
+    },
+    {
+      "exponents": [
+        76,
+        48,
+        33
+      ],
+      "power_bits": [
+        77,
+        77,
+        77
+      ],
+      "minimum_cofactor_bits": [
+        145,
+        145,
+        145
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        10,
+        6,
+        4
+      ],
+      "exponent_advance": [
+        11,
+        7,
+        5
+      ]
+    },
+    {
+      "exponents": [
+        87,
+        55,
+        38
+      ],
+      "power_bits": [
+        88,
+        88,
+        89
+      ],
+      "minimum_cofactor_bits": [
+        170,
+        169,
+        168
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        12,
+        8,
+        5
+      ],
+      "exponent_advance": [
+        13,
+        9,
+        6
+      ]
+    },
+    {
+      "exponents": [
+        100,
+        64,
+        44
+      ],
+      "power_bits": [
+        101,
+        102,
+        103
+      ],
+      "minimum_cofactor_bits": [
+        198,
+        196,
+        196
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        15,
+        9,
+        5
+      ],
+      "exponent_advance": [
+        16,
+        10,
+        6
+      ]
+    },
+    {
+      "exponents": [
+        116,
+        74,
+        50
+      ],
+      "power_bits": [
+        117,
+        118,
+        117
+      ],
+      "minimum_cofactor_bits": [
+        225,
+        224,
+        225
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        16,
+        9,
+        7
+      ],
+      "exponent_advance": [
+        17,
+        10,
+        8
+      ]
+    },
+    {
+      "exponents": [
+        133,
+        84,
+        58
+      ],
+      "power_bits": [
+        134,
+        134,
+        135
+      ],
+      "minimum_cofactor_bits": [
+        260,
+        260,
+        258
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        20,
+        12,
+        7
+      ],
+      "exponent_advance": [
+        21,
+        13,
+        8
+      ]
+    },
+    {
+      "exponents": [
+        154,
+        97,
+        66
+      ],
+      "power_bits": [
+        155,
+        154,
+        154
+      ],
+      "minimum_cofactor_bits": [
+        297,
+        298,
+        298
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        21,
+        13,
+        9
+      ],
+      "exponent_advance": [
+        22,
+        14,
+        10
+      ]
+    },
+    {
+      "exponents": [
+        176,
+        111,
+        76
+      ],
+      "power_bits": [
+        177,
+        176,
+        177
+      ],
+      "minimum_cofactor_bits": [
+        343,
+        343,
+        343
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        26,
+        16,
+        11
+      ],
+      "exponent_advance": [
+        27,
+        17,
+        12
+      ]
+    },
+    {
+      "exponents": [
+        203,
+        128,
+        88
+      ],
+      "power_bits": [
+        204,
+        203,
+        205
+      ],
+      "minimum_cofactor_bits": [
+        401,
+        401,
+        400
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        32,
+        20,
+        13
+      ],
+      "exponent_advance": [
+        33,
+        21,
+        14
+      ]
+    },
+    {
+      "exponents": [
+        236,
+        149,
+        102
+      ],
+      "power_bits": [
+        237,
+        237,
+        237
+      ],
+      "minimum_cofactor_bits": [
+        468,
+        468,
+        467
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        38,
+        24,
+        16
+      ],
+      "exponent_advance": [
+        39,
+        25,
+        17
+      ]
+    },
+    {
+      "exponents": [
+        275,
+        174,
+        119
+      ],
+      "power_bits": [
+        276,
+        276,
+        277
+      ],
+      "minimum_cofactor_bits": [
+        545,
+        544,
+        543
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        44,
+        27,
+        18
+      ],
+      "exponent_advance": [
+        45,
+        28,
+        19
+      ]
+    },
+    {
+      "exponents": [
+        320,
+        202,
+        138
+      ],
+      "power_bits": [
+        321,
+        321,
+        321
+      ],
+      "minimum_cofactor_bits": [
+        629,
+        629,
+        629
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        50,
+        31,
+        21
+      ],
+      "exponent_advance": [
+        51,
+        32,
+        22
+      ]
+    },
+    {
+      "exponents": [
+        371,
+        234,
+        160
+      ],
+      "power_bits": [
+        372,
+        371,
+        372
+      ],
+      "minimum_cofactor_bits": [
+        737,
+        737,
+        736
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        60,
+        38,
+        26
+      ],
+      "exponent_advance": [
+        61,
+        39,
+        27
+      ]
+    },
+    {
+      "exponents": [
+        432,
+        273,
+        187
+      ],
+      "power_bits": [
+        433,
+        433,
+        435
+      ],
+      "minimum_cofactor_bits": [
+        855,
+        854,
+        853
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        69,
+        43,
+        29
+      ],
+      "exponent_advance": [
+        70,
+        44,
+        30
+      ]
+    },
+    {
+      "exponents": [
+        502,
+        317,
+        217
+      ],
+      "power_bits": [
+        503,
+        503,
+        504
+      ],
+      "minimum_cofactor_bits": [
+        998,
+        998,
+        996
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        82,
+        51,
+        34
+      ],
+      "exponent_advance": [
+        83,
+        52,
+        35
+      ]
+    },
+    {
+      "exponents": [
+        585,
+        369,
+        252
+      ],
+      "power_bits": [
+        586,
+        585,
+        586
+      ],
+      "minimum_cofactor_bits": [
+        1164,
+        1164,
+        1163
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        96,
+        61,
+        41
+      ],
+      "exponent_advance": [
+        97,
+        62,
+        42
+      ]
+    },
+    {
+      "exponents": [
+        682,
+        431,
+        294
+      ],
+      "power_bits": [
+        683,
+        684,
+        683
+      ],
+      "minimum_cofactor_bits": [
+        1357,
+        1356,
+        1357
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        113,
+        70,
+        48
+      ],
+      "exponent_advance": [
+        114,
+        71,
+        49
+      ]
+    },
+    {
+      "exponents": [
+        796,
+        502,
+        343
+      ],
+      "power_bits": [
+        797,
+        796,
+        797
+      ],
+      "minimum_cofactor_bits": [
+        1586,
+        1586,
+        1586
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        132,
+        84,
+        57
+      ],
+      "exponent_advance": [
+        133,
+        85,
+        58
+      ]
+    },
+    {
+      "exponents": [
+        929,
+        587,
+        401
+      ],
+      "power_bits": [
+        930,
+        931,
+        932
+      ],
+      "minimum_cofactor_bits": [
+        1855,
+        1854,
+        1853
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        156,
+        97,
+        66
+      ],
+      "exponent_advance": [
+        157,
+        98,
+        67
+      ]
+    },
+    {
+      "exponents": [
+        1086,
+        685,
+        468
+      ],
+      "power_bits": [
+        1087,
+        1086,
+        1087
+      ],
+      "minimum_cofactor_bits": [
+        2163,
+        2164,
+        2163
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        181,
+        114,
+        77
+      ],
+      "exponent_advance": [
+        182,
+        115,
+        78
+      ]
+    },
+    {
+      "exponents": [
+        1268,
+        800,
+        546
+      ],
+      "power_bits": [
+        1269,
+        1268,
+        1268
+      ],
+      "minimum_cofactor_bits": [
+        2528,
+        2528,
+        2529
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        212,
+        134,
+        91
+      ],
+      "exponent_advance": [
+        213,
+        135,
+        92
+      ]
+    },
+    {
+      "exponents": [
+        1481,
+        935,
+        638
+      ],
+      "power_bits": [
+        1482,
+        1482,
+        1482
+      ],
+      "minimum_cofactor_bits": [
+        2956,
+        2955,
+        2956
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        249,
+        156,
+        107
+      ],
+      "exponent_advance": [
+        250,
+        157,
+        108
+      ]
+    },
+    {
+      "exponents": [
+        1731,
+        1092,
+        746
+      ],
+      "power_bits": [
+        1732,
+        1731,
+        1733
+      ],
+      "minimum_cofactor_bits": [
+        3458,
+        3458,
+        3456
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        292,
+        184,
+        125
+      ],
+      "exponent_advance": [
+        293,
+        185,
+        126
+      ]
+    },
+    {
+      "exponents": [
+        2024,
+        1277,
+        872
+      ],
+      "power_bits": [
+        2025,
+        2024,
+        2025
+      ],
+      "minimum_cofactor_bits": [
+        4043,
+        4043,
+        4042
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        341,
+        215,
+        146
+      ],
+      "exponent_advance": [
+        342,
+        216,
+        147
+      ]
+    },
+    {
+      "exponents": [
+        2366,
+        1493,
+        1019
+      ],
+      "power_bits": [
+        2367,
+        2367,
+        2367
+      ],
+      "minimum_cofactor_bits": [
+        4719,
+        4719,
+        4719
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        396,
+        250,
+        170
+      ],
+      "exponent_advance": [
+        397,
+        251,
+        171
+      ]
+    },
+    {
+      "exponents": [
+        2763,
+        1744,
+        1190
+      ],
+      "power_bits": [
+        2764,
+        2765,
+        2764
+      ],
+      "minimum_cofactor_bits": [
+        5522,
+        5521,
+        5522
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        467,
+        294,
+        201
+      ],
+      "exponent_advance": [
+        468,
+        295,
+        202
+      ]
+    },
+    {
+      "exponents": [
+        3231,
+        2039,
+        1392
+      ],
+      "power_bits": [
+        3232,
+        3232,
+        3233
+      ],
+      "minimum_cofactor_bits": [
+        6457,
+        6456,
+        6456
+      ],
+      "method": "cofactor lower-bound slabs",
+      "safe_steps": [
+        547,
+        344,
+        235
+      ],
+      "exponent_advance": [
+        548,
+        345,
+        236
+      ]
+    }
+  ],
+  "anchor_count": 55,
+  "boundary_triples": 2783,
+  "exceptions": [
+    {
+      "exponents": [
+        3,
+        2,
+        2
+      ],
+      "positions": [
+        6,
+        6,
+        0
+      ],
+      "row": 150,
+      "cofactors": [
+        18,
+        16,
+        6
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        2,
+        2
+      ],
+      "positions": [
+        6,
+        6,
+        0
+      ],
+      "row": 150,
+      "cofactors": [
+        9,
+        16,
+        6
+      ]
+    },
+    {
+      "exponents": [
+        3,
+        2,
+        2
+      ],
+      "positions": [
+        1,
+        0,
+        3
+      ],
+      "row": 153,
+      "cofactors": [
+        19,
+        17,
+        6
+      ]
+    },
+    {
+      "exponents": [
+        3,
+        2,
+        2
+      ],
+      "positions": [
+        0,
+        5,
+        1
+      ],
+      "row": 176,
+      "cofactors": [
+        22,
+        19,
+        7
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        2,
+        2
+      ],
+      "positions": [
+        0,
+        5,
+        1
+      ],
+      "row": 176,
+      "cofactors": [
+        11,
+        19,
+        7
+      ]
+    },
+    {
+      "exponents": [
+        3,
+        2,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        5
+      ],
+      "row": 180,
+      "cofactors": [
+        22,
+        20,
+        7
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        2,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        5
+      ],
+      "row": 180,
+      "cofactors": [
+        11,
+        20,
+        7
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        2,
+        2
+      ],
+      "positions": [
+        1,
+        0,
+        0
+      ],
+      "row": 225,
+      "cofactors": [
+        14,
+        25,
+        9
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        2,
+        2
+      ],
+      "positions": [
+        1,
+        0,
+        0
+      ],
+      "row": 225,
+      "cofactors": [
+        7,
+        25,
+        9
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        2,
+        2
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        16,
+        28,
+        10
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        2,
+        3
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        16,
+        28,
+        2
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        2,
+        2
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        8,
+        28,
+        10
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        2,
+        3
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        8,
+        28,
+        2
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        2,
+        2
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        4,
+        28,
+        10
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        2,
+        3
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        4,
+        28,
+        2
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        2,
+        2
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        2,
+        28,
+        10
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        2,
+        3
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        2,
+        28,
+        2
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        2,
+        2
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        1,
+        28,
+        10
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        2,
+        3
+      ],
+      "positions": [
+        0,
+        4,
+        6
+      ],
+      "row": 256,
+      "cofactors": [
+        1,
+        28,
+        2
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        2,
+        2
+      ],
+      "positions": [
+        3,
+        5,
+        0
+      ],
+      "row": 275,
+      "cofactors": [
+        17,
+        30,
+        11
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        3,
+        5,
+        0
+      ],
+      "row": 275,
+      "cofactors": [
+        17,
+        10,
+        11
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        5,
+        1,
+        0
+      ],
+      "row": 325,
+      "cofactors": [
+        20,
+        12,
+        13
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        4,
+        2
+      ],
+      "positions": [
+        5,
+        1,
+        0
+      ],
+      "row": 325,
+      "cofactors": [
+        20,
+        4,
+        13
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        5,
+        1,
+        0
+      ],
+      "row": 325,
+      "cofactors": [
+        10,
+        12,
+        13
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        2
+      ],
+      "positions": [
+        5,
+        1,
+        0
+      ],
+      "row": 325,
+      "cofactors": [
+        10,
+        4,
+        13
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        5,
+        1,
+        0
+      ],
+      "row": 325,
+      "cofactors": [
+        5,
+        12,
+        13
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        2
+      ],
+      "positions": [
+        5,
+        1,
+        0
+      ],
+      "row": 325,
+      "cofactors": [
+        5,
+        4,
+        13
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "row": 352,
+      "cofactors": [
+        22,
+        13,
+        14
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "row": 352,
+      "cofactors": [
+        11,
+        13,
+        14
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        5,
+        0,
+        5
+      ],
+      "row": 405,
+      "cofactors": [
+        25,
+        15,
+        16
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        4,
+        2
+      ],
+      "positions": [
+        5,
+        0,
+        5
+      ],
+      "row": 405,
+      "cofactors": [
+        25,
+        5,
+        16
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        1,
+        4,
+        0
+      ],
+      "row": 625,
+      "cofactors": [
+        39,
+        23,
+        25
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        3
+      ],
+      "positions": [
+        1,
+        4,
+        0
+      ],
+      "row": 625,
+      "cofactors": [
+        39,
+        23,
+        5
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        4
+      ],
+      "positions": [
+        1,
+        4,
+        0
+      ],
+      "row": 625,
+      "cofactors": [
+        39,
+        23,
+        1
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        3,
+        0,
+        0
+      ],
+      "row": 675,
+      "cofactors": [
+        42,
+        25,
+        27
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        3,
+        0,
+        0
+      ],
+      "row": 675,
+      "cofactors": [
+        21,
+        25,
+        27
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        2,
+        4
+      ],
+      "row": 704,
+      "cofactors": [
+        44,
+        26,
+        28
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        2,
+        4
+      ],
+      "row": 704,
+      "cofactors": [
+        22,
+        26,
+        28
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        2,
+        4
+      ],
+      "row": 704,
+      "cofactors": [
+        11,
+        26,
+        28
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        6
+      ],
+      "row": 756,
+      "cofactors": [
+        47,
+        28,
+        30
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        3
+      ],
+      "positions": [
+        4,
+        0,
+        6
+      ],
+      "row": 756,
+      "cofactors": [
+        47,
+        28,
+        6
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        5,
+        0
+      ],
+      "row": 950,
+      "cofactors": [
+        59,
+        35,
+        38
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        4,
+        1
+      ],
+      "row": 976,
+      "cofactors": [
+        61,
+        36,
+        39
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        4,
+        2
+      ],
+      "positions": [
+        0,
+        4,
+        1
+      ],
+      "row": 976,
+      "cofactors": [
+        61,
+        12,
+        39
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        5,
+        2
+      ],
+      "positions": [
+        0,
+        4,
+        1
+      ],
+      "row": 976,
+      "cofactors": [
+        61,
+        4,
+        39
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        1
+      ],
+      "row": 1026,
+      "cofactors": [
+        64,
+        38,
+        41
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        1
+      ],
+      "row": 1026,
+      "cofactors": [
+        32,
+        38,
+        41
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        1
+      ],
+      "row": 1026,
+      "cofactors": [
+        16,
+        38,
+        41
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        1
+      ],
+      "row": 1026,
+      "cofactors": [
+        8,
+        38,
+        41
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        1
+      ],
+      "row": 1026,
+      "cofactors": [
+        4,
+        38,
+        41
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        1
+      ],
+      "row": 1026,
+      "cofactors": [
+        2,
+        38,
+        41
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        1
+      ],
+      "row": 1026,
+      "cofactors": [
+        1,
+        38,
+        41
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        3,
+        6
+      ],
+      "row": 1056,
+      "cofactors": [
+        66,
+        39,
+        42
+      ]
+    },
+    {
+      "exponents": [
+        4,
+        4,
+        2
+      ],
+      "positions": [
+        0,
+        3,
+        6
+      ],
+      "row": 1056,
+      "cofactors": [
+        66,
+        13,
+        42
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        3,
+        6
+      ],
+      "row": 1056,
+      "cofactors": [
+        33,
+        39,
+        42
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        2
+      ],
+      "positions": [
+        0,
+        3,
+        6
+      ],
+      "row": 1056,
+      "cofactors": [
+        33,
+        13,
+        42
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        0
+      ],
+      "row": 1350,
+      "cofactors": [
+        42,
+        50,
+        54
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        0
+      ],
+      "row": 1350,
+      "cofactors": [
+        21,
+        50,
+        54
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        1,
+        0,
+        2
+      ],
+      "row": 1377,
+      "cofactors": [
+        43,
+        51,
+        55
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        3
+      ],
+      "positions": [
+        1,
+        0,
+        2
+      ],
+      "row": 1377,
+      "cofactors": [
+        43,
+        51,
+        11
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        2
+      ],
+      "positions": [
+        1,
+        0,
+        2
+      ],
+      "row": 1377,
+      "cofactors": [
+        43,
+        17,
+        55
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        3
+      ],
+      "positions": [
+        1,
+        0,
+        2
+      ],
+      "row": 1377,
+      "cofactors": [
+        43,
+        17,
+        11
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        5,
+        0,
+        1
+      ],
+      "row": 1701,
+      "cofactors": [
+        53,
+        63,
+        68
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        2
+      ],
+      "positions": [
+        5,
+        0,
+        1
+      ],
+      "row": 1701,
+      "cofactors": [
+        53,
+        21,
+        68
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        5,
+        2
+      ],
+      "positions": [
+        5,
+        0,
+        1
+      ],
+      "row": 1701,
+      "cofactors": [
+        53,
+        7,
+        68
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        0,
+        3
+      ],
+      "row": 1728,
+      "cofactors": [
+        54,
+        64,
+        69
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        0,
+        3
+      ],
+      "row": 1728,
+      "cofactors": [
+        27,
+        64,
+        69
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 2052,
+      "cofactors": [
+        64,
+        76,
+        82
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 2052,
+      "cofactors": [
+        32,
+        76,
+        82
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 2052,
+      "cofactors": [
+        16,
+        76,
+        82
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 2052,
+      "cofactors": [
+        8,
+        76,
+        82
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 2052,
+      "cofactors": [
+        4,
+        76,
+        82
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 2052,
+      "cofactors": [
+        2,
+        76,
+        82
+      ]
+    },
+    {
+      "exponents": [
+        11,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 2052,
+      "cofactors": [
+        1,
+        76,
+        82
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        1,
+        5
+      ],
+      "row": 2080,
+      "cofactors": [
+        65,
+        77,
+        83
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        3,
+        0,
+        3
+      ],
+      "row": 2403,
+      "cofactors": [
+        75,
+        89,
+        96
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        1,
+        6,
+        0
+      ],
+      "row": 2625,
+      "cofactors": [
+        82,
+        97,
+        105
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        3
+      ],
+      "positions": [
+        1,
+        6,
+        0
+      ],
+      "row": 2625,
+      "cofactors": [
+        82,
+        97,
+        21
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        1,
+        6,
+        0
+      ],
+      "row": 2625,
+      "cofactors": [
+        41,
+        97,
+        105
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        3
+      ],
+      "positions": [
+        1,
+        6,
+        0
+      ],
+      "row": 2625,
+      "cofactors": [
+        41,
+        97,
+        21
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        4
+      ],
+      "row": 2754,
+      "cofactors": [
+        86,
+        102,
+        110
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        3
+      ],
+      "positions": [
+        2,
+        0,
+        4
+      ],
+      "row": 2754,
+      "cofactors": [
+        86,
+        102,
+        22
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        4
+      ],
+      "row": 2754,
+      "cofactors": [
+        86,
+        34,
+        110
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        3
+      ],
+      "positions": [
+        2,
+        0,
+        4
+      ],
+      "row": 2754,
+      "cofactors": [
+        86,
+        34,
+        22
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        4
+      ],
+      "row": 2754,
+      "cofactors": [
+        43,
+        102,
+        110
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        3
+      ],
+      "positions": [
+        2,
+        0,
+        4
+      ],
+      "row": 2754,
+      "cofactors": [
+        43,
+        102,
+        22
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        2
+      ],
+      "positions": [
+        2,
+        0,
+        4
+      ],
+      "row": 2754,
+      "cofactors": [
+        43,
+        34,
+        110
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        3
+      ],
+      "positions": [
+        2,
+        0,
+        4
+      ],
+      "row": 2754,
+      "cofactors": [
+        43,
+        34,
+        22
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        6,
+        1
+      ],
+      "row": 2976,
+      "cofactors": [
+        93,
+        110,
+        119
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        96,
+        114,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        96,
+        38,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        48,
+        114,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        48,
+        38,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        24,
+        114,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        24,
+        38,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        12,
+        114,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        4,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        12,
+        38,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        6,
+        114,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        4,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        6,
+        38,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        3,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        3,
+        114,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        4,
+        2
+      ],
+      "positions": [
+        6,
+        0,
+        3
+      ],
+      "row": 3078,
+      "cofactors": [
+        3,
+        38,
+        123
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        1,
+        0,
+        5
+      ],
+      "row": 3105,
+      "cofactors": [
+        97,
+        115,
+        124
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        6,
+        0
+      ],
+      "row": 3300,
+      "cofactors": [
+        103,
+        122,
+        132
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        5,
+        0,
+        4
+      ],
+      "row": 3429,
+      "cofactors": [
+        107,
+        127,
+        137
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        0,
+        6
+      ],
+      "row": 3456,
+      "cofactors": [
+        108,
+        128,
+        138
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        0,
+        6
+      ],
+      "row": 3456,
+      "cofactors": [
+        54,
+        128,
+        138
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        3,
+        2
+      ],
+      "positions": [
+        0,
+        0,
+        6
+      ],
+      "row": 3456,
+      "cofactors": [
+        27,
+        128,
+        138
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        5,
+        0
+      ],
+      "row": 3650,
+      "cofactors": [
+        114,
+        135,
+        146
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        2
+      ],
+      "positions": [
+        2,
+        5,
+        0
+      ],
+      "row": 3650,
+      "cofactors": [
+        114,
+        45,
+        146
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        5,
+        2
+      ],
+      "positions": [
+        2,
+        5,
+        0
+      ],
+      "row": 3650,
+      "cofactors": [
+        114,
+        15,
+        146
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        6,
+        2
+      ],
+      "positions": [
+        2,
+        5,
+        0
+      ],
+      "row": 3650,
+      "cofactors": [
+        114,
+        5,
+        146
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        2,
+        5,
+        0
+      ],
+      "row": 3650,
+      "cofactors": [
+        57,
+        135,
+        146
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        2
+      ],
+      "positions": [
+        2,
+        5,
+        0
+      ],
+      "row": 3650,
+      "cofactors": [
+        57,
+        45,
+        146
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        5,
+        2
+      ],
+      "positions": [
+        2,
+        5,
+        0
+      ],
+      "row": 3650,
+      "cofactors": [
+        57,
+        15,
+        146
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        6,
+        2
+      ],
+      "positions": [
+        2,
+        5,
+        0
+      ],
+      "row": 3650,
+      "cofactors": [
+        57,
+        5,
+        146
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        5
+      ],
+      "row": 3780,
+      "cofactors": [
+        118,
+        140,
+        151
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        3,
+        2
+      ],
+      "positions": [
+        4,
+        0,
+        5
+      ],
+      "row": 3780,
+      "cofactors": [
+        59,
+        140,
+        151
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        3
+      ],
+      "positions": [
+        0,
+        4,
+        0
+      ],
+      "row": 4000,
+      "cofactors": [
+        125,
+        148,
+        32
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        3,
+        3
+      ],
+      "positions": [
+        3,
+        0,
+        6
+      ],
+      "row": 4131,
+      "cofactors": [
+        129,
+        153,
+        33
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        4,
+        3
+      ],
+      "positions": [
+        3,
+        0,
+        6
+      ],
+      "row": 4131,
+      "cofactors": [
+        129,
+        51,
+        33
+      ]
+    },
+    {
+      "exponents": [
+        5,
+        5,
+        3
+      ],
+      "positions": [
+        3,
+        0,
+        6
+      ],
+      "row": 4131,
+      "cofactors": [
+        129,
+        17,
+        33
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        3
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        162,
+        105
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        4
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        162,
+        21
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        5,
+        3
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        54,
+        105
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        5,
+        4
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        54,
+        21
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        6,
+        3
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        18,
+        105
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        6,
+        4
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        18,
+        21
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        7,
+        3
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        6,
+        105
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        7,
+        4
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        6,
+        21
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        8,
+        3
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        2,
+        105
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        8,
+        4
+      ],
+      "positions": [
+        5,
+        3,
+        0
+      ],
+      "row": 13125,
+      "cofactors": [
+        205,
+        2,
+        21
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        3
+      ],
+      "positions": [
+        4,
+        0,
+        1
+      ],
+      "row": 15876,
+      "cofactors": [
+        248,
+        196,
+        127
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        3
+      ],
+      "positions": [
+        4,
+        0,
+        1
+      ],
+      "row": 15876,
+      "cofactors": [
+        124,
+        196,
+        127
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        4,
+        3
+      ],
+      "positions": [
+        4,
+        0,
+        1
+      ],
+      "row": 15876,
+      "cofactors": [
+        62,
+        196,
+        127
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        4,
+        3
+      ],
+      "positions": [
+        4,
+        0,
+        1
+      ],
+      "row": 15876,
+      "cofactors": [
+        31,
+        196,
+        127
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        3
+      ],
+      "positions": [
+        6,
+        0,
+        5
+      ],
+      "row": 18630,
+      "cofactors": [
+        291,
+        230,
+        149
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        3
+      ],
+      "positions": [
+        0,
+        5,
+        0
+      ],
+      "row": 32000,
+      "cofactors": [
+        500,
+        395,
+        256
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        3
+      ],
+      "positions": [
+        0,
+        5,
+        0
+      ],
+      "row": 32000,
+      "cofactors": [
+        250,
+        395,
+        256
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        4,
+        3
+      ],
+      "positions": [
+        0,
+        5,
+        0
+      ],
+      "row": 32000,
+      "cofactors": [
+        125,
+        395,
+        256
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        3
+      ],
+      "positions": [
+        0,
+        3,
+        2
+      ],
+      "row": 34752,
+      "cofactors": [
+        543,
+        429,
+        278
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        5,
+        3
+      ],
+      "positions": [
+        0,
+        3,
+        2
+      ],
+      "row": 34752,
+      "cofactors": [
+        543,
+        143,
+        278
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        3
+      ],
+      "positions": [
+        0,
+        1,
+        4
+      ],
+      "row": 37504,
+      "cofactors": [
+        586,
+        463,
+        300
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        4
+      ],
+      "positions": [
+        0,
+        1,
+        4
+      ],
+      "row": 37504,
+      "cofactors": [
+        586,
+        463,
+        60
+      ]
+    },
+    {
+      "exponents": [
+        6,
+        4,
+        5
+      ],
+      "positions": [
+        0,
+        1,
+        4
+      ],
+      "row": 37504,
+      "cofactors": [
+        586,
+        463,
+        12
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        3
+      ],
+      "positions": [
+        0,
+        1,
+        4
+      ],
+      "row": 37504,
+      "cofactors": [
+        293,
+        463,
+        300
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        4
+      ],
+      "positions": [
+        0,
+        1,
+        4
+      ],
+      "row": 37504,
+      "cofactors": [
+        293,
+        463,
+        60
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        5
+      ],
+      "positions": [
+        0,
+        1,
+        4
+      ],
+      "row": 37504,
+      "cofactors": [
+        293,
+        463,
+        12
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        3
+      ],
+      "positions": [
+        3,
+        4,
+        0
+      ],
+      "row": 47875,
+      "cofactors": [
+        374,
+        591,
+        383
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        3
+      ],
+      "positions": [
+        3,
+        4,
+        0
+      ],
+      "row": 47875,
+      "cofactors": [
+        374,
+        197,
+        383
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        4,
+        3
+      ],
+      "positions": [
+        3,
+        4,
+        0
+      ],
+      "row": 47875,
+      "cofactors": [
+        187,
+        591,
+        383
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        3
+      ],
+      "positions": [
+        3,
+        4,
+        0
+      ],
+      "row": 47875,
+      "cofactors": [
+        187,
+        197,
+        383
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        3
+      ],
+      "positions": [
+        3,
+        0,
+        4
+      ],
+      "row": 53379,
+      "cofactors": [
+        417,
+        659,
+        427
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        3
+      ],
+      "positions": [
+        6,
+        3,
+        0
+      ],
+      "row": 63750,
+      "cofactors": [
+        498,
+        787,
+        510
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        4
+      ],
+      "positions": [
+        6,
+        3,
+        0
+      ],
+      "row": 63750,
+      "cofactors": [
+        498,
+        787,
+        102
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        4,
+        3
+      ],
+      "positions": [
+        6,
+        3,
+        0
+      ],
+      "row": 63750,
+      "cofactors": [
+        249,
+        787,
+        510
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        4,
+        4
+      ],
+      "positions": [
+        6,
+        3,
+        0
+      ],
+      "row": 63750,
+      "cofactors": [
+        249,
+        787,
+        102
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        4,
+        3
+      ],
+      "positions": [
+        0,
+        6,
+        4
+      ],
+      "row": 69504,
+      "cofactors": [
+        543,
+        858,
+        556
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        3
+      ],
+      "positions": [
+        0,
+        6,
+        4
+      ],
+      "row": 69504,
+      "cofactors": [
+        543,
+        286,
+        556
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        3
+      ],
+      "positions": [
+        6,
+        0,
+        1
+      ],
+      "row": 117126,
+      "cofactors": [
+        915,
+        482,
+        937
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        3
+      ],
+      "positions": [
+        1,
+        0,
+        3
+      ],
+      "row": 138753,
+      "cofactors": [
+        1084,
+        571,
+        1110
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        4
+      ],
+      "positions": [
+        1,
+        0,
+        3
+      ],
+      "row": 138753,
+      "cofactors": [
+        1084,
+        571,
+        222
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        3
+      ],
+      "positions": [
+        1,
+        0,
+        3
+      ],
+      "row": 138753,
+      "cofactors": [
+        542,
+        571,
+        1110
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        4
+      ],
+      "positions": [
+        1,
+        0,
+        3
+      ],
+      "row": 138753,
+      "cofactors": [
+        542,
+        571,
+        222
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        5,
+        3
+      ],
+      "positions": [
+        1,
+        0,
+        3
+      ],
+      "row": 138753,
+      "cofactors": [
+        271,
+        571,
+        1110
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        5,
+        4
+      ],
+      "positions": [
+        1,
+        0,
+        3
+      ],
+      "row": 138753,
+      "cofactors": [
+        271,
+        571,
+        222
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        3
+      ],
+      "positions": [
+        1,
+        1,
+        0
+      ],
+      "row": 186625,
+      "cofactors": [
+        1458,
+        768,
+        1493
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        6,
+        3
+      ],
+      "positions": [
+        1,
+        1,
+        0
+      ],
+      "row": 186625,
+      "cofactors": [
+        1458,
+        256,
+        1493
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        3
+      ],
+      "positions": [
+        1,
+        1,
+        0
+      ],
+      "row": 186625,
+      "cofactors": [
+        729,
+        768,
+        1493
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        6,
+        3
+      ],
+      "positions": [
+        1,
+        1,
+        0
+      ],
+      "row": 186625,
+      "cofactors": [
+        729,
+        256,
+        1493
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        3
+      ],
+      "positions": [
+        0,
+        5,
+        6
+      ],
+      "row": 208256,
+      "cofactors": [
+        1627,
+        857,
+        1666
+      ]
+    },
+    {
+      "exponents": [
+        7,
+        5,
+        3
+      ],
+      "positions": [
+        4,
+        5,
+        0
+      ],
+      "row": 234500,
+      "cofactors": [
+        1832,
+        965,
+        1876
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        3
+      ],
+      "positions": [
+        4,
+        5,
+        0
+      ],
+      "row": 234500,
+      "cofactors": [
+        916,
+        965,
+        1876
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        5,
+        3
+      ],
+      "positions": [
+        4,
+        5,
+        0
+      ],
+      "row": 234500,
+      "cofactors": [
+        458,
+        965,
+        1876
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        5,
+        3
+      ],
+      "positions": [
+        4,
+        5,
+        0
+      ],
+      "row": 234500,
+      "cofactors": [
+        229,
+        965,
+        1876
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        4
+      ],
+      "positions": [
+        2,
+        0,
+        6
+      ],
+      "row": 277506,
+      "cofactors": [
+        1084,
+        1142,
+        444
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        5,
+        4
+      ],
+      "positions": [
+        2,
+        0,
+        6
+      ],
+      "row": 277506,
+      "cofactors": [
+        542,
+        1142,
+        444
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        5,
+        4
+      ],
+      "positions": [
+        2,
+        0,
+        6
+      ],
+      "row": 277506,
+      "cofactors": [
+        271,
+        1142,
+        444
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        4
+      ],
+      "positions": [
+        5,
+        5,
+        0
+      ],
+      "row": 933125,
+      "cofactors": [
+        3645,
+        3840,
+        1493
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        6,
+        4
+      ],
+      "positions": [
+        5,
+        5,
+        0
+      ],
+      "row": 933125,
+      "cofactors": [
+        3645,
+        1280,
+        1493
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        4
+      ],
+      "positions": [
+        3,
+        2,
+        0
+      ],
+      "row": 1071875,
+      "cofactors": [
+        4187,
+        4411,
+        1715
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        5
+      ],
+      "positions": [
+        3,
+        2,
+        0
+      ],
+      "row": 1071875,
+      "cofactors": [
+        4187,
+        4411,
+        343
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        5,
+        4
+      ],
+      "positions": [
+        2,
+        0,
+        1
+      ],
+      "row": 1210626,
+      "cofactors": [
+        4729,
+        4982,
+        1937
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        6,
+        4
+      ],
+      "positions": [
+        3,
+        0,
+        4
+      ],
+      "row": 1349379,
+      "cofactors": [
+        5271,
+        1851,
+        2159
+      ]
+    },
+    {
+      "exponents": [
+        8,
+        7,
+        4
+      ],
+      "positions": [
+        3,
+        0,
+        4
+      ],
+      "row": 1349379,
+      "cofactors": [
+        5271,
+        617,
+        2159
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        6,
+        4
+      ],
+      "positions": [
+        4,
+        1,
+        0
+      ],
+      "row": 2282500,
+      "cofactors": [
+        4458,
+        3131,
+        3652
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        6,
+        4
+      ],
+      "positions": [
+        4,
+        1,
+        0
+      ],
+      "row": 2282500,
+      "cofactors": [
+        2229,
+        3131,
+        3652
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        6,
+        4
+      ],
+      "positions": [
+        0,
+        5,
+        1
+      ],
+      "row": 5029376,
+      "cofactors": [
+        9823,
+        6899,
+        8047
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        6,
+        4
+      ],
+      "positions": [
+        3,
+        5,
+        0
+      ],
+      "row": 7311875,
+      "cofactors": [
+        14281,
+        10030,
+        11699
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        6,
+        4
+      ],
+      "positions": [
+        1,
+        0,
+        4
+      ],
+      "row": 7728129,
+      "cofactors": [
+        15094,
+        10601,
+        12365
+      ]
+    },
+    {
+      "exponents": [
+        9,
+        6,
+        5
+      ],
+      "positions": [
+        1,
+        0,
+        4
+      ],
+      "row": 7728129,
+      "cofactors": [
+        15094,
+        10601,
+        2473
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        6,
+        4
+      ],
+      "positions": [
+        1,
+        0,
+        4
+      ],
+      "row": 7728129,
+      "cofactors": [
+        7547,
+        10601,
+        12365
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        6,
+        5
+      ],
+      "positions": [
+        1,
+        0,
+        4
+      ],
+      "row": 7728129,
+      "cofactors": [
+        7547,
+        10601,
+        2473
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        6,
+        4
+      ],
+      "positions": [
+        4,
+        0,
+        3
+      ],
+      "row": 10010628,
+      "cofactors": [
+        9776,
+        13732,
+        16017
+      ]
+    },
+    {
+      "exponents": [
+        11,
+        6,
+        4
+      ],
+      "positions": [
+        4,
+        0,
+        3
+      ],
+      "row": 10010628,
+      "cofactors": [
+        4888,
+        13732,
+        16017
+      ]
+    },
+    {
+      "exponents": [
+        12,
+        6,
+        4
+      ],
+      "positions": [
+        4,
+        0,
+        3
+      ],
+      "row": 10010628,
+      "cofactors": [
+        2444,
+        13732,
+        16017
+      ]
+    },
+    {
+      "exponents": [
+        13,
+        6,
+        4
+      ],
+      "positions": [
+        4,
+        0,
+        3
+      ],
+      "row": 10010628,
+      "cofactors": [
+        1222,
+        13732,
+        16017
+      ]
+    },
+    {
+      "exponents": [
+        14,
+        6,
+        4
+      ],
+      "positions": [
+        4,
+        0,
+        3
+      ],
+      "row": 10010628,
+      "cofactors": [
+        611,
+        13732,
+        16017
+      ]
+    },
+    {
+      "exponents": [
+        10,
+        7,
+        5
+      ],
+      "positions": [
+        3,
+        0,
+        5
+      ],
+      "row": 47818755,
+      "cofactors": [
+        46698,
+        21865,
+        15302
+      ]
+    },
+    {
+      "exponents": [
+        11,
+        7,
+        5
+      ],
+      "positions": [
+        3,
+        0,
+        5
+      ],
+      "row": 47818755,
+      "cofactors": [
+        23349,
+        21865,
+        15302
+      ]
+    },
+    {
+      "exponents": [
+        12,
+        8,
+        5
+      ],
+      "positions": [
+        2,
+        4,
+        0
+      ],
+      "row": 636981250,
+      "cofactors": [
+        155513,
+        97086,
+        203834
+      ]
+    },
+    {
+      "exponents": [
+        12,
+        9,
+        5
+      ],
+      "positions": [
+        2,
+        4,
+        0
+      ],
+      "row": 636981250,
+      "cofactors": [
+        155513,
+        32362,
+        203834
+      ]
+    },
+    {
+      "exponents": [
+        13,
+        8,
+        6
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 4745781252,
+      "cofactors": [
+        579319,
+        723332,
+        303730
+      ]
+    },
+    {
+      "exponents": [
+        13,
+        8,
+        7
+      ],
+      "positions": [
+        4,
+        0,
+        2
+      ],
+      "row": 4745781252,
+      "cofactors": [
+        579319,
+        723332,
+        60746
+      ]
+    },
+    {
+      "exponents": [
+        13,
+        9,
+        6
+      ],
+      "positions": [
+        0,
+        5,
+        2
+      ],
+      "row": 8566218752,
+      "cofactors": [
+        1045681,
+        435209,
+        548238
+      ]
+    },
+    {
+      "exponents": [
+        14,
+        9,
+        6
+      ],
+      "positions": [
+        0,
+        3,
+        0
+      ],
+      "row": 39936000000,
+      "cofactors": [
+        2437500,
+        2028959,
+        2555904
+      ]
+    },
+    {
+      "exponents": [
+        15,
+        9,
+        6
+      ],
+      "positions": [
+        0,
+        3,
+        0
+      ],
+      "row": 39936000000,
+      "cofactors": [
+        1218750,
+        2028959,
+        2555904
+      ]
+    },
+    {
+      "exponents": [
+        16,
+        9,
+        6
+      ],
+      "positions": [
+        0,
+        3,
+        0
+      ],
+      "row": 39936000000,
+      "cofactors": [
+        609375,
+        2028959,
+        2555904
+      ]
+    },
+    {
+      "exponents": [
+        20,
+        13,
+        9
+      ],
+      "positions": [
+        5,
+        0,
+        0
+      ],
+      "row": 1379463064453125,
+      "cofactors": [
+        1315558495,
+        865234375,
+        706285089
+      ]
+    }
+  ],
+  "exception_count": 208,
+  "exceptional_rows": [
+    150,
+    153,
+    176,
+    180,
+    225,
+    256,
+    275,
+    325,
+    352,
+    405,
+    625,
+    675,
+    704,
+    756,
+    950,
+    976,
+    1026,
+    1056,
+    1350,
+    1377,
+    1701,
+    1728,
+    2052,
+    2080,
+    2403,
+    2625,
+    2754,
+    2976,
+    3078,
+    3105,
+    3300,
+    3429,
+    3456,
+    3650,
+    3780,
+    4000,
+    4131,
+    13125,
+    15876,
+    18630,
+    32000,
+    34752,
+    37504,
+    47875,
+    53379,
+    63750,
+    69504,
+    117126,
+    138753,
+    186625,
+    208256,
+    234500,
+    277506,
+    933125,
+    1071875,
+    1210626,
+    1349379,
+    2282500,
+    5029376,
+    7311875,
+    7728129,
+    10010628,
+    47818755,
+    636981250,
+    4745781252,
+    8566218752,
+    39936000000,
+    1379463064453125
+  ],
+  "backend": "gmpy2",
+  "conclusion": "Except at the listed CRT rows and position patterns, max(u_p)>=h^delta throughout the stated finite height range."
+}

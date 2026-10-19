@@ -1,10 +1,10 @@
 ---
 name: problems/irrationality/E0257/claims
-desc: The 5 claim pages of Problem 257, one per claimant's result; the problem's standing derives from them.
+desc: The 6 claim pages of Problem 257, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-16T12:32:50Z
 ---
 
 # problems/irrationality/E0257/claims
@@ -31,5 +31,7 @@ problem for the support consisting of the primes. This case is Problem 69.
 [[problems/irrationality/E0257/claims/2026_09_11_cook|2026_09_11_cook]]: Cook's 2026 note, drafted with AI agents, claims that $\sum_{a\in A}1/(b^a-1)$
 is irrational at every integer base $b\ge2$ for every infinite set $A$ with
 convergent reciprocal sum.
+
+[[problems/irrationality/E0257/claims/2026_09_25_cook|2026_09_25_cook]]: A registered partial claim gives irrationality under a finite-prime weighted summability condition and an all-base conclusion for every infinite subset of a qualifying host.
 
 ***

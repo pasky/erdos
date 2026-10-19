@@ -7,7 +7,7 @@ desc: |
   exactly the necessary equivalence relations on the k-parameter words of
   length m, and they form a canonical set.
 created: 2026-10-08T17:25:16Z
-updated: 2026-10-08T17:25:16Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -113,4 +113,13 @@ doi:10.1016/0097-3165(83)90016-x; the edition read is named on the
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0774/_index|Problem 774]]: no direct
-  bearing. The paper says nothing about subset sums or dissociated sets.
+  bearing. The paper says nothing about subset sums or dissociated sets; the
+  corpus's research on the problem lists this theorem as a possible tool for
+  putting colorings of parameter-word encodings into canonical form. Its
+  route
+  [[../wiki/research/erdos_774/routes/parameter_word_limits|parameter_word_limits]]
+  records that, for fixed-alphabet coordinatewise encodings into
+  conductor-disjoint odd-root groups, some finite coloring makes every
+  monochromatic parameter-subspace image rationally independent, so this
+  theorem and Theorem C.3 supply no relation-preserving amplification by
+  themselves. No use of the theorem for the problem has been carried out.

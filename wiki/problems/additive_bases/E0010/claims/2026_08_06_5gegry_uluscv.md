@@ -25,7 +25,7 @@ links:
   kind: formalization
   date: 2026-08-06
 created: 2026-10-07T10:51:47Z
-updated: 2026-10-07T22:51:53Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -71,7 +71,7 @@ file's `theorem target` closes the formal-conjectures catalog's own type
 **Claimant and posting.** The bounty site credits the proof to the solver
 address it prints as 5GeGrY…uLUScV, the only name the result carries; the file
 has no header, names no author and declares no AI system, and no paper,
-preprint or write-up accompanies it. The erdosproblems.com Lean kernel accepted
+preprint or write-up accompanies it. The Conjectures.io Lean kernel accepted
 the proof on 6 August 2026 (05:12:22 UTC, the time its decision on the later
 duplicate record gives), the earliest posting of the result, which dates this
 page. A second Lean proof of the same formal statement, submitted to
@@ -89,13 +89,13 @@ formal-conjectures included, and accepted them all. The target's axioms are
 exactly `propext`, `Classical.choice` and `Quot.sound`. Its type, and every
 definition its statement reaches, are identical to the statement of
 Conjectures.io's task, `Erdos10.erdos_10.variants.grechuk`. The task pins a
-catalog commit that Conjectures.io built from a public catalog commit and an
-audit patch; the replay reproduced it exactly, and its `10.lean` is
-byte-identical to the file at the formal-conjectures commit of Conjectures.io's
-later tasks, whose port to the pinned toolchain the file was built against. In
-that statement `sumPrimeAndTwoPows 3` is the set of primes plus at most three
-powers of $2$, exponent zero and repeats allowed, so the target is the claim
-above. Acceptance rests on this replay and that check.
+formal-conjectures commit that Conjectures.io built from a public
+formal-conjectures commit and an audit patch; the replay reproduced it exactly,
+and its `10.lean` is byte-identical to the file at the formal-conjectures commit
+of Conjectures.io's later tasks, whose port to the pinned toolchain the file was
+built against. In that statement `sumPrimeAndTwoPows 3` is the set of primes
+plus at most three powers of $2$, exponent zero and repeats allowed, so the
+target is the claim above. Acceptance rests on this replay and that check.
 
 The bounty site Conjectures.io documented its acceptance of the exact statement;
 that certification is reported, not counted. Its Lean kernel accepted the proof

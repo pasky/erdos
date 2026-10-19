@@ -9,7 +9,7 @@ tags:
 status: claimed
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 260
@@ -64,21 +64,21 @@ edited 2026-02-01). The frontmatter standing, `claimed`/`proved`, is derived
 from the pending full claim page: the 2026 preprint of Han Wang and Jose Maria
 Grau Ribas (later versions by Wang alone) asserts a positive answer through a
 density theorem, with an author-built Lean development that the
-formal-conjectures catalog cites, and nothing accepts it beyond that catalog
-tag. In the erdosproblems.com discussion thread, an audit of v1 posted on
-2026-07-08 and made with GPT-5.5 Pro found that the preprint's Lemma B.6 does
-not support its Theorems 6.1 and 6.4. A second attempt of 2026-07-11, with
-GPT-5.6 Sol Pro, did not complete the argument. On 2026-07-16 Wang wrote there
-that v1 contained errors, corrected in the revised version that the Lean
-development formalizes. The comments on the proof claim itself discuss only the
-limsup question. Erdős's 1981 note proves the statement under the stronger
-hypothesis $a_{n+1}-a_n\to\infty$, which forces $a_n/n\to\infty$, so it settles
-those instances; it is the accepted partial claim on
+formal-conjectures catalog cites, and nothing accepts it beyond that
+formal-conjectures tag. In the erdosproblems.com discussion thread, an audit of
+v1 posted on 2026-07-08 and made with GPT-5.5 Pro found that the preprint's
+Lemma B.6 does not support its Theorems 6.1 and 6.4. A second attempt of
+2026-07-11, with GPT-5.6 Sol Pro, did not complete the argument. On 2026-07-16
+Wang wrote there that v1 contained errors, corrected in the revised version that
+the Lean development formalizes. The comments on the proof claim itself discuss
+only the limsup question. Erdős's 1981 note proves the statement under the
+stronger hypothesis $a_{n+1}-a_n\to\infty$, which forces $a_n/n\to\infty$, so it
+settles those instances; it is the accepted partial claim on
 [[problems/irrationality/E0260/claims/1981_05_11_erdos|its claim page]]. The
 erdosproblems.com remarks also credit the same note with the case
 $a_n\gg n\sqrt{\log n\log\log n}$; the note does not contain that condition and
-says only that the case $a_n>cn\log n$ was known before (its reference [2]).
-The condition is printed in [ErGr80], p. 62, one of the erdosproblems.com source
+says only that the case $a_n>cn\log n$ was known before (its reference [2]). The
+condition is printed in [ErGr80], p. 62, one of the erdosproblems.com source
 keys for this problem: Erdős and Graham write that the sum "is known to be
 irrational under the stronger hypothesis that $a_n>cn\sqrt{\log n\log\log n}$",
 without a proof or a reference, and in the same paragraph that the case
@@ -117,9 +117,9 @@ that development, the audit of v1 posted in the erdosproblems.com discussion
 thread on 2026-07-08 and Wang's statement there that the revised version
 corrects v1's errors, and erdosproblems.com's OPEN label (page last edited
 2026-02-01). The frontmatter stays short of `solved` under the anatomy's
-acceptance rule: a catalog tag links a formal proof without refereeing it, and
-no refereed version, named review or documented acceptance was found. One
-accepted partial claim,
+acceptance rule: a formal-conjectures tag links a formal proof without
+refereeing it, and no refereed version, named review or documented acceptance
+was found. One accepted partial claim,
 [[problems/irrationality/E0260/claims/1981_05_11_erdos|Erdős's 1981 theorem]],
 settles the sequences whose gaps tend to infinity.
 

@@ -125,14 +125,14 @@ def gate(app: typer.Typer) -> typer.Typer:
         """Run the repository's non-mathematical gate battery.
 
         The incoming-link leg checks pages carrying either managed marker plus
-        every repeated ``--problem`` selection; it never defaults to ``--all``.
+        every repeated `--problem` selection; it never defaults to `--all`.
         Mathematical evidence is not run. Lean validation is opt-in and a skip
-        is reported visibly: ``--lean`` always runs it and refreshes the
-        validated-tree receipt (lean/.lake/validated.json); ``--lean-if-changed``
+        is reported visibly: `--lean` always runs it and refreshes the
+        validated-tree receipt (lean/.lake/validated.json); `--lean-if-changed`
         skips it while the receipt names the prospective lean/ tree and runs it
         otherwise. The receipt is a gate convenience, never an acceptance
-        record. With ``--strict``, a leg whose required tool (wiki, pre-commit)
-        is unavailable fails instead of skipping. With ``--settled``, the
+        record. With `--strict`, a leg whose required tool (wiki, pre-commit)
+        is unavailable fails instead of skipping. With `--settled`, the
         problem claims leg fails on a problem whose provisional standing, other
         than open with claim none, rests on no claim page; without it such
         problems are counted and reported.
@@ -260,9 +260,9 @@ def evidence(app: typer.Typer) -> typer.Typer:
 
         No gate leg, hook or merge step runs this command. Scripts should
         branch on the exit code rather than parse the lines (0 at least
-        one program passed and none failed or stopped, 1 a failure or
-        nothing passed, 2 a command or usage error, a stop file present
-        at start included).
+        one program passed and none failed or stopped, 1 a failure, a
+        stopped program or nothing passed, 2 a command or usage error, a
+        stop file present at start included).
         """
         # validate arguments before any program starts
         if jobs < 1:
@@ -416,7 +416,7 @@ def license_audit(app: typer.Typer) -> typer.Typer:
         tracked and non-ignored untracked files -- and prints one line
         per defect of its `license` key against the third-party files
         the card folder holds (every file directly in it but its
-        markdown pages and `.json` records, a transcription whose file
+        markdown pages and `.json` or `.json.gz` records, a transcription whose file
         is not held, and the conversion sidecars beside no held file):
         held files or sidecars without a `license`, a mapping for one
         held file or a scalar for several, mapping keys that do not
@@ -426,7 +426,8 @@ def license_audit(app: typer.Typer) -> typer.Typer:
         held file or sidecar under a term that is not an open license
         when the holding policy is enforced, the term of a PDF
         disagreeing with its arXiv record, a record naming a license URL
-        with no mapping, a held PDF with neither its transcription
+        with no mapping, a record that cannot be read (not UTF-8, not
+        JSON or not a JSON object), a held PDF with neither its transcription
         (`<stem>.md` beside it) nor a reason in the card's
         `transcription` key (`book`, `terms` or `unreadable`), a reason
         that does not fit, or frontmatter that is missing or invalid.
@@ -483,23 +484,24 @@ def problem_claims(app: typer.Typer) -> typer.Typer:
         """Check the problem folders and their claim pages against the claims schema.
 
         Reads every problem page (an index page under the problems tree
-        carrying a status) and the claim pages of its ``claims/`` folder, and
+        carrying a status) and the claim pages of its `claims/` folder, and
         prints one line per defect: a key outside its vocabulary, a claim page
-        name that is not ``<YYYY_MM_DD>_<claimant>.md``, evidence missing on an
-        accepted claim or out of its fixed order, a link without ``url`` first
+        name that is not `<YYYY_MM_DD>_<claimant>.md` (a claimant's same-day
+        public pages all take a roman suffix `_i`, `_ii`, ...), evidence missing
+        on an accepted claim or out of its fixed order, a link without `url` first
         or with a kind outside the vocabulary, a partial claim without its
-        ``Covers.`` paragraph, a ``Depends on.`` link that is not a wiki page,
+        `Covers.` paragraph, a `Depends on.` link that is not a wiki page,
         an accepted claim resting on an unaccepted page, or a recorded status
         and claim that the claim pages do not derive. A problem with no claim
         page keeps its provisional standing and, unless that standing is open
-        with claim none, is counted in the check's detail; with ``--settled``,
-        the release mode, it is a finding. With ``--write``, each problem with
+        with claim none, is counted in the check's detail; with `--settled`,
+        the release mode, it is a finding. With `--write`, each problem with
         claim pages gets the derived status and claim written into its two
-        frontmatter lines before the check. With ``--problem E####``
+        frontmatter lines before the check. With `--problem E####`
         (repeatable) only the named problem folders are written and checked,
         a batch's scoped check.
 
-        The same check is the ``problem claims`` gate leg. Scripts should
+        The same check is the `problem claims` gate leg. Scripts should
         branch on the exit code (0 no findings, 1 findings, 2 a command or
         usage error).
         """
@@ -543,12 +545,12 @@ def ledger(app: typer.Typer) -> typer.Typer:
         """Regenerate the claim ledger and standing view from claim metadata.
 
         Scans the theory tree for claim folders once and rewrites both
-        generated views at the mathematics wiki root -- ``lemmas.md`` (one
-        row per claim with the exact statement) and ``standing.md`` (the
+        generated views at the mathematics wiki root -- `lemmas.md` (one
+        row per claim with the exact statement) and `standing.md` (the
         compact standing table) -- preserving each existing file's
         frontmatter and naming each view written. A card carrying
-        ``assumes: compiler`` marks its lean cell ``(compiler)``. With
-        ``--check``, reports invalid metadata and each stale view without
+        `assumes: compiler` marks its lean cell `(compiler)`. With
+        `--check`, reports invalid metadata and each stale view without
         writing.
 
         Scripts should branch on the exit code: 0 success, 1 check findings,
@@ -635,9 +637,11 @@ def reflint(app: typer.Typer) -> typer.Typer:
         inline Markdown link or link reference definition whose
         relative target does not name an entry on disk as spelled
         there, from the page's folder, or one whose target is an
-        absolute path. The filed records under `evidence/**/verify/`
-        are read for retired names only; their links stay as written.
-        Wikilinks are the wiki tool's lint's surface. A page of the
+        absolute path or climbs above the repository root at any step.
+        The filed records under `evidence/**/verify/` are read for
+        retired names only; their links stay as written. Wikilinks are
+        the wiki tool's lint's surface; the gate's wiki legs fail on a
+        stale one. A page of the
         research layer (`wiki/research/`, `wiki/theory/`), outside
         evidence records, refutation records and the folders of
         refuted claims, that writes a tier or a status beside a claim

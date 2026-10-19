@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 429
@@ -47,15 +47,15 @@ in place of $p$; the erdosproblems.com statement follows the monograph, and the
 squarefree variant is recorded below as erdosproblems.com's.
 
 **Status.** Disproved. erdosproblems.com records DISPROVED (LEAN). The suffix is
-a catalog label, explained under Formalization and the Lean label below. The two
-external Lean files have not been built or audited in this corpus. The
-status-defining source is Theorem 1 of D. Weisenberg, *Sparse admissible sets
-and a problem of Erdős and Graham*, Integers 24 (2024), Article A89 (received 24
-June 2024, accepted 20 September 2024, published 9 October 2024; a refereed
-journal). It shows that for every nondecreasing unbounded $f$ there is an
-admissible $A$ with $|A\cap\{1,\ldots,N\}|\le f(N)$ for all $N$ such that no
-integer $n$ makes $A+n$ a set of primes. So no sparsity threshold exists and the
-answer is no. The claim page
+an erdosproblems.com label, explained under Formalization and the Lean label
+below. The two external Lean files have not been built or audited in this
+corpus. The status-defining source is Theorem 1 of D. Weisenberg, *Sparse
+admissible sets and a problem of Erdős and Graham*, Integers 24 (2024), Article
+A89 (received 24 June 2024, accepted 20 September 2024, published 9 October
+2024; a refereed journal). It shows that for every nondecreasing unbounded $f$
+there is an admissible $A$ with $|A\cap\{1,\ldots,N\}|\le f(N)$ for all $N$ such
+that no integer $n$ makes $A+n$ a set of primes. So no sparsity threshold exists
+and the answer is no. The claim page
 [[problems/integer_sequences/E0429/claims/2024_05_20_weisenberg|Weisenberg 2024]]
 records the result as accepted on the refereed publication. The standing in the
 frontmatter is derived from it. The erdosproblems.com curator is not an
@@ -100,13 +100,12 @@ T. F. Bloom, Erdős Problem #429, https://www.erdosproblems.com/429, accessed
   positive integer that is a primitive root modulo infinitely many primes;
   not held.
 
-**Formalization.** erdosproblems.com's "(Lean)" suffix is a catalog label; see
-"Formalization and the Lean label" below. The file
+**Formalization.** erdosproblems.com's "(Lean)" suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below. The file
 [`ErdosProblems/429.lean`](https://github.com/google-deepmind/formal-conjectures/blob/fe0601160638ba1feedc32858970070c326b7534/FormalConjectures/ErdosProblems/429.lean)
 of formal-conjectures, linked at the commit of its main branch of 2026-09-18,
-declares `erdos_429 : answer(False) ↔ ∃ f : ℕ → ℕ, Tendsto f atTop atTop ∧ ∀ A :
-Set ℕ, A.Infinite → (∀ N, (A ∩ Set.Icc 1 N).ncard ≤ f N) → (∀ p : ℕ, p.Prime → ∃
-b : ZMod p, ∀ a ∈ A, (a : ZMod p) ≠ b) → ∃ n : ℤ, ∀ a ∈ A, (n + a).toNat.Prime`
+declares
+`erdos_429 : answer(False) ↔ ∃ f : ℕ → ℕ, Tendsto f atTop atTop ∧ ∀ A : Set ℕ, A.Infinite → (∀ N, (A ∩ Set.Icc 1 N).ncard ≤ f N) → (∀ p : ℕ, p.Prime → ∃ b : ZMod p, ∀ a ∈ A, (a : ZMod p) ≠ b) → ∃ n : ℤ, ∀ a ∈ A, (n + a).toNat.Prime`
 under `category research solved` with proof `sorry` and a `formal_proof`
 attribute naming `src/v4.29.1/ErdosProblems/Erdos429.lean` of `plby/lean-proofs`
 at a commit of 30 June 2026, where the claim page links it. The community
@@ -212,8 +211,8 @@ the construction it points to is not written out on erdosproblems.com. Problem
 1209 records erdosproblems.com's parallel construction with $q_k^2$ for
 sequences that tend to infinity fast.
 
-**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** erdosproblems.com's "(Lean)" suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
 statement whose proof is `sorry`; its `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos429.lean` in `plby/lean-proofs` at a commit
 of 30 June 2026, where the claim page links it. That file's header names the toolchain `leanprover/lean4:v4.29.1`

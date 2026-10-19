@@ -3,7 +3,7 @@ name: graph_coloring
 title: "Graph Coloring"
 desc: "Sources filed under Graph Coloring, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-18T10:18:06Z
 ---
 
 # Graph Coloring
@@ -187,12 +187,11 @@ space with k forbidden distances as convex minimization, solved for k up to
 20.
 
 [[graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/_index|graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem/]]: Graver and Yackel's 1968 study of the two-color Ramsey numbers as graphs
-with bounded clique and independence numbers: counting propositions
-bounding R(3,6) by 17 and R(3,7) by 22 in the paper's convention and two
-special constructions attaining both (18 and 23 in the usual one), cyclic
-graphs for the other lower bounds, welding for graphs with few edges,
-Corollary 4 adding three points per unit of independence number, and
-Proposition 9 with its Corollary, the upper bound R(x,y) at most
+with bounded clique and independence numbers: counting propositions bounding
+R(3,6) by 17 and R(3,7) by 22 in the paper's convention and two special
+constructions attaining both (18 and 23 in the usual one), cyclic graphs for
+the other lower bounds, Corollary 4 adding three points per unit of
+independence number, and Proposition 9, the upper bound R(x,y) at most
 B y^{x-1} log log y / log y for x at least 3.
 
 [[graph_coloring/gu_2026_twelve_critical_graphs/_index|gu_2026_twelve_critical_graphs/]]: Records two distinct Zenodo versions of Gu's unreviewed E917 preprint and
@@ -301,6 +300,13 @@ such a coloring.
 
 [[graph_coloring/reiher_2024_graphs_large_girth/_index|reiher_2024_graphs_large_girth/]]: A survey of graphs of large girth, covering Moore-bound extremal problems
 and Ramsey-theoretic constructions including the girth Ramsey theorem.
+
+[[graph_coloring/rinot_2015_chromatic_numbers_graphs_large_gaps/_index|rinot_2015_chromatic_numbers_graphs_large_gaps/]]: Shows that if square_lambda and 2^lambda = lambda^+ hold, then for every
+cardinal kappa <= lambda some graph of size lambda^+ has chromatic number
+kappa while all its smaller subgraphs are countably chromatic, and gives
+such graphs of chromatic number lambda^+ when lambda is singular and, from
+square_lambda and lambda^{<lambda} = lambda, after adding a Cohen subset of
+lambda.
 
 [[graph_coloring/sachs_1993_elementary_proof_cycle_plus_triangles_theorem/_index|sachs_1993_elementary_proof_cycle_plus_triangles_theorem/]]: Sachs proves that the number of distinct color-class partitions is odd,
 giving the cycle-plus-triangles theorem as a direct corollary.

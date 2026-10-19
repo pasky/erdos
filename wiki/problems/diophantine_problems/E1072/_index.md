@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1072
@@ -42,13 +42,19 @@ https://www.erdosproblems.com/1072.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1072.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The
+[[research/diophantine_representation_interfaces/factorial_residues|factorial
+reflections and prime cofactors]] account records the following scope. Theorem
+2.1 forces f(p)<p-1 for infinitely many primes, the opposite class from the
+first target.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1008
@@ -41,7 +41,7 @@ subgraph with at least $cm^{2/3}$ edges; the formal-conjectures statement
 encodes exactly this, and its variant `three_quarters` states the first form
 with the answer false. Whether the exponent $2/3$ is best possible is not part
 of the question; it is, by Folkman's example and by Theorem 2.3 below. The
-erdosproblems.com label PROVED (LEAN) carries a catalog suffix explained under
+erdosproblems.com label PROVED (LEAN) carries a suffix explained under
 Formalization.
 
 **Status.** PROVED (LEAN). Theorem 2.1 of Conlon, Fox and Sudakov [CFS14b]
@@ -116,8 +116,8 @@ Problem #1008, https://www.erdosproblems.com/1008, accessed 2026-09-18.
   in a citation list only). Cited by [CFS14b] as its [3] for the estimate
   within a logarithmic factor.
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/1008.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/1008.lean)
 of formal-conjectures (the link pins that commit, main on 2026-09-18) declares
 `erdos_1008 : answer(True) ↔ ∃ c > (0 : ℝ), ∀ (V : Type) [Fintype V] (G : SimpleGraph V), ∃ H ≤ G, (cycleGraph 4).Free H ∧ c * (G.edgeSet.ncard : ℝ) ^ (2 / 3 : ℝ) ≤ (H.edgeSet.ncard : ℝ)`

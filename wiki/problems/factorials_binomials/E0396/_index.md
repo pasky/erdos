@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:56Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 396
@@ -93,6 +93,21 @@ density heuristics made with GPT-5.4 Thinking) are comments without a
 manuscript and have no pages. The formal-conjectures statement file marks the
 problem open, and the community database lists it as open with its statement
 formalized and no formal proof.
+
+## Research
+
+The author-recorded
+[[theory/number_theory/L23_central_binomial_product_density/_index|fixed-window density comparison]]
+identifies this problem's solution set at parameter $k-1$, up to a shift
+and a density-zero symmetric difference, with the solution set of
+[[problems/factorials_binomials/E0727/_index|Problem 727]] at parameter $k$.
+This transfers positive upper density, but neither a single witness nor mere
+infinitude. The
+[[research/methods/central_binomial_product_windows|product-window note]]
+gives the valuation comparison and explains why a fixed finite system of
+congruences cannot by itself ensure divisibility for all its sufficiently
+large solutions. The problem remains open.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -100,6 +115,12 @@ formalized and no formal proof.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/diophantine_problems/ulas_2013_note_erdos_straus_erdos_graham/_index|ulas_2013_note_erdos_straus_erdos_graham]]
+- [[../library/diophantine_problems/ulas_2013_note_erdos_straus_erdos_graham/table_4|ulas_2013_note_erdos_straus_erdos_graham / table_4]]
+- [[../library/diophantine_problems/ulas_2013_note_erdos_straus_erdos_graham/theorem_3_1|ulas_2013_note_erdos_straus_erdos_graham / theorem_3_1]]
+- [[../library/diophantine_problems/ulas_2013_note_erdos_straus_erdos_graham/theorem_3_2|ulas_2013_note_erdos_straus_erdos_graham / theorem_3_2]]
+- [[../library/diophantine_problems/ulas_2013_note_erdos_straus_erdos_graham/theorem_3_4|ulas_2013_note_erdos_straus_erdos_graham / theorem_3_4]]
+- [[../library/diophantine_problems/ulas_2013_note_erdos_straus_erdos_graham/theorem_a_2|ulas_2013_note_erdos_straus_erdos_graham / theorem_a_2]]
 - [[../library/factorials_binomials/pomerance_2015_divisors_middle_binomial_coefficient/_index|pomerance_2015_divisors_middle_binomial_coefficient]]
 - [[../library/factorials_binomials/pomerance_2015_divisors_middle_binomial_coefficient/theorem_2|pomerance_2015_divisors_middle_binomial_coefficient / theorem_2]]
 - [[../library/factorials_binomials/pomerance_2015_divisors_middle_binomial_coefficient/theorem_3|pomerance_2015_divisors_middle_binomial_coefficient / theorem_3]]

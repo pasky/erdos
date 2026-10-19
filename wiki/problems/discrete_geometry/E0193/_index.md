@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:55:41Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 193
@@ -85,9 +85,9 @@ The complete local
 [[../library/discrete_geometry/cambie_kalviainen_2026_small_step_walk/theorem_1|proof
 reconstruction]] has passed an independent whole-proof review. The
 [[../library/discrete_geometry/cambie_kalviainen_2026_small_step_walk/evidence/verify/source_proof_review|retained review]]
-checks every essential deduction against the v1 PDF and the exact catalog
-consequence. It certifies no claim that all sixteen possible steps occur and
-no formal verification.
+checks every essential deduction against the v1 PDF and the exact
+erdosproblems.com consequence. It certifies no claim that all sixteen possible
+steps occur and no formal verification.
 
 Thomas Bloom explicitly agreed that the result should be marked solved in
 [a September 3, 2026 comment](https://www.erdosproblems.com/forum/thread/proof-claim:5a48dd7b490340c598f617b09282d003#post-8704).

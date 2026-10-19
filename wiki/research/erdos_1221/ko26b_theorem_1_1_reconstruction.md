@@ -9,7 +9,7 @@ desc: |
   which reading of Problem 1221 each part addresses and which inputs are
   imported unchecked.
 created: 2026-09-28T04:38:10Z
-updated: 2026-09-28T08:34:46Z
+updated: 2026-10-16T06:44:50Z
 ---
 
 [[research/erdos_1221/_index|..]]
@@ -44,7 +44,10 @@ problem page keeps status open. Two inputs are imported and not checked
 here: the finite-prefix discrepancy bound (Theorem 4.1, derived by the
 source from Larcher's proof) and Halász's planar $L^1$ discrepancy
 theorem (Theorem 7.1). Everything else in the chain is written out on the
-linked pages.
+linked pages. The
+[[research/erdos_1221/all_sequence_composition|composed argument]] replaces
+both imports by written proofs, with ratio coefficient $1/200$, and reads the
+chain for all sequences.
 
 ## Definitions
 
@@ -215,20 +218,28 @@ this places $\mu_r-1$ between two constant multiples of $\log r/r$.
 
 - **Theorem 4.1** (finite-prefix discrepancy, $H_L\ge\frac1{16}\log L$ for
   $L\ge L_0$). Stated by the source as a consequence of Section 3 of
-  Larcher's 2015 proof; Larcher's paper is not held and the derivation is
-  not checked. The constant $1/16$ is what makes $1/100$ work. An
-  authored remark on the Lemma 4.2 page notes that the qualitative form
-  $H_L\ge c\log L-1$ follows from Schmidt's planar theorem, which would
-  give the ratio part with an unspecified constant in place of $1/100$.
+  Larcher's 2015 proof. Larcher's paper has a library card, and its
+  Section 3 is a finite-list argument, as the
+  [[research/erdos_1221/larcher_finite_prefix_interface|interface page]]
+  records; the optimized lemmas behind its constant are not checked. The
+  constant $1/16$ is what makes $1/100$ work. An authored remark on the
+  Lemma 4.2 page notes that the qualitative form $H_L\ge c\log L-1$ follows
+  from Schmidt's planar theorem, which would give the ratio part with an
+  unspecified constant in place of $1/100$; the
+  [[research/erdos_1221/finite_list_prefix_bound|finite-list page]] proves
+  $H_L\ge\lfloor\log_4L\rfloor/16$, which gives it with $1/200$.
 - **Theorem 7.1** (Halász, planar $L^1$ discrepancy). Stated by the source
-  in unnormalized form; the 1981 paper is not held and the statement is
-  not checked against it.
+  in unnormalized form; the 1981 paper is not held. The statement agrees
+  with (1.14) of Bilyk's survey, and the
+  [[research/erdos_1221/halasz_planar_l1_bound|planar page]] writes out a
+  proof following its exposition (author-recorded).
 - **Distinct points.** Lemma 4.2 uses the least distance $\delta>0$
   between distinct points of $P_{n_0}$ to keep early points out of the
   short interval, and all pages use that spans are positive. The 1949
   note's constants are defined over sequences that may repeat points;
   whether they agree with the distinct-point constants is not settled in
-  the sources read.
+  the sources read. The composition page reads every step for sequences
+  with coincident terms, so it does not need that agreement.
 - **Constants.** $c$ and $r_0$ are not made explicit. The ratio proof
   needs $A=(\log r)/100\ge1$, hence $r\ge e^{100}$, before the absolute
   constants of Proposition 3.1 and Lemma 4.2 enter; the theorem is an

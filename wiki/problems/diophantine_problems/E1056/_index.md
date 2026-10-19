@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1056
@@ -107,6 +107,16 @@ Aristotle, gives a Lean derivation of the Noll--Simmons formulation from the
 original question; it relates two formulations, settles no instance and has no
 page. The other thread comments point to OEIS A060427 and to a related
 construction of Hardy and Subbarao, and claim no result.
+
+## Route analysis
+
+The
+[[research/diophantine_representation_interfaces/factorial_residues|Factorial
+reflections and prime cofactors]] account records the following scope. Equal
+nonzero factorial residues correspond exactly to intervening products congruent
+to one. The reflection identity supplies only fixed-size orbits, so it does not
+give the required unbounded multiplicity.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

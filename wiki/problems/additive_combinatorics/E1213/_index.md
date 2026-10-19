@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 # Problem 1213
@@ -85,8 +85,8 @@ https://www.erdosproblems.com/1213, accessed 2026-09-18.
   (a card of [[problems/integer_sequences/E0356/_index|Problem 356]]; it
   restates no result on this problem).
 
-**Formalization.** Statement only. The catalog
-google-deepmind/formal-conjectures holds
+**Formalization.** Statement only. The formal-conjectures
+catalog (google-deepmind/formal-conjectures) holds
 [`ErdosProblems/1213.lean`](https://github.com/google-deepmind/formal-conjectures/blob/b7dc15e28b010669de2951289072b2eab03a1637/FormalConjectures/ErdosProblems/1213.lean),
 added on 2026-09-20 (the linked revision, the file's only change), stating the
 question with `answer(True)` and a `sorry` body and pointing its `formal_proof`

@@ -3,10 +3,11 @@ name: number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes
 title: "Colliot-Thélène–Skorobogatov: Brauer groups of schemes"
 desc: |
   Surveys Brauer groups of schemes (Azumaya versus cohomological, residues,
-  purity) and proves injectivity into the function-field Brauer group.
+  purity) and proves injectivity into the function-field Brauer group, an input
+  to the E940 quadratic-compression obstruction.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T17:21:06Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Colliot-Thélène–Skorobogatov: Brauer groups of schemes
@@ -188,6 +189,17 @@ Diophantine family.
 
 This source bears on [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
 
+[[../wiki/research/erdos_940/quadratic_compression|The E940 quadratic-compression
+note]] uses Theorem 3.5.4 in a proved obstruction to a specific higher-exponent
+strategy. Applied to the smooth projective hypersurface cut out by a positive
+diagonal form, it injects the variety's Brauer group into the Brauer group of
+its function field. Together with Corollary 4.4.5 from the following chapter,
+this shows that a quaternion division algebra over the ground field remains
+division over that function field. A valuation argument then rules out
+representing the diagonal form by a fixed positive quadratic form in at most
+four rational functions. This is a direct input to the quadratic-compression
+obstruction, not a density theorem.
+
 Write
 
 $$
@@ -239,6 +251,9 @@ $r\ge4$. It is relevant only if an approach to E940 first produces a regular
 parameter space and Brauer classes whose specialization can be tied—by
 additional arguments absent here—to integral representations.
 
+No file of this source is held: no license on record permits its redistribution,
+and the card cites the edition it names above.
+
 Read status: claims checked for Theorems 3.3.2, 3.5.4, 3.7.1, 3.7.2, 3.7.5
 and 3.7.6, Corollary 3.7.3, Lemmas 3.5.2 and 3.5.3 and Propositions
 3.7.7--3.7.9, read clause by clause on the page images of the copy; the
@@ -252,9 +267,13 @@ independently reviewed. Result pages:
 [[number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes/corollary_3_7_3|Corollary 3.7.3]] and
 [[number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes/theorem_3_7_6|Theorem 3.7.6]].
 
-**Bears on.** [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the
-chapter proves nothing about $r$-powerful numbers, sums of them or density, and
-decides neither question of the problem.
-
-No file of this source is held: no license on record permits its redistribution,
-and the card cites the edition it names above.
+**Bears on.** [[../wiki/problems/diophantine_problems/E0940/_index|#940]]:
+[[number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes/theorem_3_5_4|Theorem 3.5.4]] (p. 88) is an input to the corpus's
+[[../wiki/research/erdos_940/quadratic_compression|quadratic-compression note]],
+which rules out, for $r\ge5$, writing a positive diagonal form of degree $r$
+as a fixed positive-definite quadratic form in at most four rational
+functions, and
+[[number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes/theorem_3_7_1|Theorem 3.7.1]] (p. 93) is a step in the
+[[../wiki/research/erdos_940/affine_fiber_brauer|affine-fibre Brauer note]].
+The chapter proves nothing about $r$-powerful numbers, sums of them or
+density, and decides neither question of the problem.

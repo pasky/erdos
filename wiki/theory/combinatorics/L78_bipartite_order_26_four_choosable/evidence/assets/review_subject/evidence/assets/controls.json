@@ -1,0 +1,133 @@
+{
+ "description": "Bad list assignments used as controls: every palette subset misses a left list or contains a right list. k2_k24 is the K_{2,4} assignment with lists of size 2; k3_nine is an assignment of 18 distinct 3-lists on 9 colours found by a local search and re-checked here by exhaustion.",
+ "k2_k24": {
+  "colours": 4,
+  "list_size": 2,
+  "left": [
+   [
+    0,
+    1
+   ],
+   [
+    2,
+    3
+   ]
+  ],
+  "right": [
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    3
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ]
+  ]
+ },
+ "k3_nine": {
+  "colours": 9,
+  "list_size": 3,
+  "left": [
+   [
+    0,
+    4,
+    6
+   ],
+   [
+    2,
+    4,
+    5
+   ],
+   [
+    2,
+    4,
+    6
+   ],
+   [
+    3,
+    4,
+    7
+   ],
+   [
+    3,
+    7,
+    8
+   ],
+   [
+    1,
+    2,
+    5
+   ],
+   [
+    0,
+    3,
+    5
+   ],
+   [
+    6,
+    7,
+    8
+   ]
+  ],
+  "right": [
+   [
+    2,
+    3,
+    4
+   ],
+   [
+    3,
+    5,
+    6
+   ],
+   [
+    4,
+    5,
+    8
+   ],
+   [
+    1,
+    3,
+    4
+   ],
+   [
+    4,
+    5,
+    7
+   ],
+   [
+    2,
+    3,
+    6
+   ],
+   [
+    0,
+    2,
+    8
+   ],
+   [
+    0,
+    2,
+    7
+   ],
+   [
+    5,
+    6,
+    7
+   ],
+   [
+    0,
+    1,
+    4
+   ]
+  ]
+ }
+}

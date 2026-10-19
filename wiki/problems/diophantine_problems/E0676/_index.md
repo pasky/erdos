@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 676
@@ -82,6 +82,16 @@ The only status search on record is the erdosproblems.com record itself, its
 forum thread included (problem page accessed 2026-09-04, proof-claims tab
 2026-10-06); the literature beyond erdosproblems.com's three references is
 unassessed.
+
+## Route analysis
+
+The
+[[research/diophantine_representation_interfaces/local_congruences|Congruence
+coverage and lifting obstructions]] account records the following scope. The
+factorial-tail identity makes each individual prime test finite. A fixed
+collection of congruence classes cannot cover every offset, and a density-zero
+exceptional set need not be finite.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

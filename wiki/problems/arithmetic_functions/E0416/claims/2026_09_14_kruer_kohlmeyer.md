@@ -33,7 +33,7 @@ links:
   kind: discussion
   date: 2026-09-27
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-08T02:31:50Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -98,10 +98,10 @@ target's axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its
 type, and every definition its statement reaches, are identical to the
 formal-conjectures statement `Erdos416.erdos_416.parts.i` of Conjectures.io's
 task, at the formal-conjectures commit the task pins, which Conjectures.io
-builds from a public catalog commit and an audit patch and the replay reproduced
-exactly. That statement is the claim above, $V(2x)/V(x)\to2$ with `V` counting
-the values $1\le n\le\lfloor x\rfloor$. Acceptance rests on this replay and that
-check.
+builds from a public formal-conjectures commit and an audit patch and the replay
+reproduced exactly. That statement is the claim above, $V(2x)/V(x)\to2$ with `V`
+counting the values $1\le n\le\lfloor x\rfloor$. Acceptance rests on this replay
+and that check.
 
 The bounty site Conjectures.io certified the record; the certification is
 reported, not counted. Its Lean kernel accepted the file on 14 September 2026.

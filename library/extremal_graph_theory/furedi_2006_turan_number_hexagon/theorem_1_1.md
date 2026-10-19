@@ -5,7 +5,7 @@ desc: |
   Gives an infinite family of hexagon-free graphs above the one-half
   leading constant and a universal upper bound with coefficient lambda.
 created: 2026-09-09T16:34:11Z
-updated: 2026-10-08T15:05:15Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -37,7 +37,7 @@ $\operatorname{ex}(N,C_6)\leq\lambda N^{4/3}+O(N)$, with an implied constant
 independent of $N$, and the right side is below $0.6272N^{4/3}$ once $N$ is
 sufficiently large.
 
-## Relation to the two-cycle catalog question
+## Relation to the two-cycle erdosproblems.com question
 
 The source's introduction discusses the single-cycle conjecture
 $\operatorname{ex}(N,C_{2k})\sim N^{1+1/k}/2$. The lower bound above

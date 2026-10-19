@@ -1,0 +1,872 @@
+{
+  "index": 7,
+  "height_variable": "h=n-6",
+  "input_file": "erdos_699_index_7_effective.json",
+  "coverage": {
+    "root_cases": 540,
+    "nodes": 4294,
+    "leaves": 3356,
+    "branches": 938,
+    "used_joint_sources": 258,
+    "used_polynomial_cuts": 48
+  },
+  "polynomial_bounds": [
+    {
+      "name": "poly_005",
+      "minor_power_of_ten": 0,
+      "coefficient_power_of_ten": 105,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_006",
+      "jet_count": 2022,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 62,
+      "row_bounds_sha256": "b4d42d7fd9953a1e898a3839768b04151798e907d00818dc3e3e977b55809707",
+      "minor_power_of_ten": 33416,
+      "coefficient_power_of_ten": 34362,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_007",
+      "jet_count": 2204,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 65,
+      "row_bounds_sha256": "2875e225c9b2f658ddb54266057a3b962f7e2a79f1ff6ef491a159c461b9cf53",
+      "minor_power_of_ten": 38161,
+      "coefficient_power_of_ten": 39210,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_009",
+      "jet_count": 2114,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 63,
+      "row_bounds_sha256": "49be6859f811ad94bcf834c34479c963ee9bf80324281d84d7afcf292fa57999",
+      "minor_power_of_ten": 36661,
+      "coefficient_power_of_ten": 39383,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_011",
+      "jet_count": 2397,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 68,
+      "row_bounds_sha256": "a20c538ca557c4f330143225107a68f621fb124901f2b6bc9c9c3fe2ab3e6355",
+      "minor_power_of_ten": 42502,
+      "coefficient_power_of_ten": 43380,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_012",
+      "jet_count": 2450,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 68,
+      "row_bounds_sha256": "3fd031085321f65406ccb944ede945cbc48aa50ef866d821c11ccb673e91a8d2",
+      "minor_power_of_ten": 43928,
+      "coefficient_power_of_ten": 44782,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_014",
+      "jet_count": 2255,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "e173c1a6773217f618019e4b588c093de35d3d8f76dce66fa650c0781ccffef3",
+      "minor_power_of_ten": 39127,
+      "coefficient_power_of_ten": 40386,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_015",
+      "jet_count": 2497,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "124e76e4c7a00de1099c4482532bb2fc4b405d03cb18a78c80f4259c7b747300",
+      "minor_power_of_ten": 45534,
+      "coefficient_power_of_ten": 46359,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_016",
+      "jet_count": 2450,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 68,
+      "row_bounds_sha256": "73adc4412d46ea0c11a6684f2ca764f9465fb80bc5e9a66431800dc8396531a4",
+      "minor_power_of_ten": 44700,
+      "coefficient_power_of_ten": 45827,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_018",
+      "jet_count": 2497,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "509f1773005954982b8a76cdca37b6ad6c651291c48a474e540e178ed4260596",
+      "minor_power_of_ten": 47214,
+      "coefficient_power_of_ten": 48098,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_019",
+      "jet_count": 2447,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 68,
+      "row_bounds_sha256": "1133c04f451fe7b1dfc5b8293262943da7b9061a8c6713afac9b88fffcbe637a",
+      "minor_power_of_ten": 45856,
+      "coefficient_power_of_ten": 46712,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_021",
+      "jet_count": 2302,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "95401c24f289fa625747e19edcddefd523a9f97999fdc7a8349f06f5990f0f67",
+      "minor_power_of_ten": 40610,
+      "coefficient_power_of_ten": 41770,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_023",
+      "jet_count": 2160,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 64,
+      "row_bounds_sha256": "b6b832d7d531a1b42248729e6cfca0052a1f9de1052df78f13d5a17acdff16a4",
+      "minor_power_of_ten": 36702,
+      "coefficient_power_of_ten": 39126,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_031",
+      "jet_count": 2352,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 67,
+      "row_bounds_sha256": "41c8c3153b9c7e3a2c83d25f1e854de8dbc66a1aace8ee53995ead5473f55176",
+      "minor_power_of_ten": 41409,
+      "coefficient_power_of_ten": 43560,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_035",
+      "jet_count": 1891,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 60,
+      "row_bounds_sha256": "615a64541147f7b67ca89c63773c7ccd119f14fbad8b0497434549d162c1bcc1",
+      "minor_power_of_ten": 30214,
+      "coefficient_power_of_ten": 31190,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_039",
+      "jet_count": 2350,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 67,
+      "row_bounds_sha256": "0b5a9a2bb6b719d0171a644f68ac843f51f8d5bf987a7b745e2d7b597ded07c4",
+      "minor_power_of_ten": 40966,
+      "coefficient_power_of_ten": 41761,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_041",
+      "minor_power_of_ten": 0,
+      "coefficient_power_of_ten": 13279,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_045",
+      "jet_count": 2196,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 65,
+      "row_bounds_sha256": "64b8c98de28402f6d6bbd1ac1352c09a00b1b588045da9303193fdb4b1727d7b",
+      "minor_power_of_ten": 38127,
+      "coefficient_power_of_ten": 38858,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_046",
+      "jet_count": 2400,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 68,
+      "row_bounds_sha256": "fc9342bd824e61dfe4c86d12d3ef62334b03eadf14e2e2fdb4497abbd5a093b3",
+      "minor_power_of_ten": 41677,
+      "coefficient_power_of_ten": 43866,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_047",
+      "jet_count": 1822,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 59,
+      "row_bounds_sha256": "917bb701e2731d3b3b5e29dd5eea3367d59706ab171d88ed78b233c74cd247db",
+      "minor_power_of_ten": 30633,
+      "coefficient_power_of_ten": 31644,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_053",
+      "jet_count": 2497,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "28f2752b929aef4a922241c8e81fae1b0600c492c6e867d3a5e6a92a637a1a3d",
+      "minor_power_of_ten": 44707,
+      "coefficient_power_of_ten": 46163,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_054",
+      "jet_count": 2499,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "bdc706df3798fb0f0590365bf4cd42d2a24123d56b593937388771e6986cd953",
+      "minor_power_of_ten": 45083,
+      "coefficient_power_of_ten": 47742,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_057",
+      "jet_count": 2253,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "642458fb237b4abef295be658feabc172d7f6630c6027ea1acd4c456cdd0abbb",
+      "minor_power_of_ten": 38575,
+      "coefficient_power_of_ten": 41041,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_059",
+      "jet_count": 2301,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "0913030f49a2f8640c3cd98f22e32df96c7d2e1cdcbf7988ad7c8b68f15727f8",
+      "minor_power_of_ten": 40469,
+      "coefficient_power_of_ten": 41612,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_060",
+      "jet_count": 2349,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 67,
+      "row_bounds_sha256": "7443d564bbaee868e944a4884f2ab8ab8f00f1726a44e435c74122cd64280c48",
+      "minor_power_of_ten": 41745,
+      "coefficient_power_of_ten": 44511,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_061",
+      "jet_count": 2065,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 63,
+      "row_bounds_sha256": "52f8876270aebdc63ac0bdc3a37b1a56d22942281615c24cbc69eed7e962fda2",
+      "minor_power_of_ten": 34778,
+      "coefficient_power_of_ten": 37605,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_064",
+      "jet_count": 2400,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 68,
+      "row_bounds_sha256": "5e89044ef79122269a842b87f0f7cdc1af058d829d01e3fbeb1cfc2aee84544f",
+      "minor_power_of_ten": 42009,
+      "coefficient_power_of_ten": 43499,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_067",
+      "jet_count": 2351,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 67,
+      "row_bounds_sha256": "eb85d3ceb3943cefce216f6f66d0f1632a6fc70cea2515eb0598540c0fd51716",
+      "minor_power_of_ten": 40741,
+      "coefficient_power_of_ten": 42841,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_068",
+      "jet_count": 2303,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "ce5d6a2899c483433a2c549d4312a0051805f584082505e95e72684a764362fb",
+      "minor_power_of_ten": 40097,
+      "coefficient_power_of_ten": 41136,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_069",
+      "jet_count": 2303,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "49e799861f341a86a117de9439330febfd52c71bf1994a1908cd518ec387a3c3",
+      "minor_power_of_ten": 40823,
+      "coefficient_power_of_ten": 41745,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_070",
+      "jet_count": 2295,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "1836a12ac889342c6c44bdac4c0e477e8ca2e6c0ee4097117a9771499ace4bf9",
+      "minor_power_of_ten": 42146,
+      "coefficient_power_of_ten": 43018,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_071",
+      "jet_count": 2294,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "b60aa515906597a61e279d4a50cb99738c06a2784e04a527f3988951c44782b0",
+      "minor_power_of_ten": 42175,
+      "coefficient_power_of_ten": 43099,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_072",
+      "jet_count": 2162,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 64,
+      "row_bounds_sha256": "1562d43651027586ddc062223a1a5a0e697610a0222739c6be76f1effcfced60",
+      "minor_power_of_ten": 37422,
+      "coefficient_power_of_ten": 38291,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_074",
+      "jet_count": 2115,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 63,
+      "row_bounds_sha256": "89b7f06a65bdbb5684a83a5969ae1ce6355447c6b1deb5a36c8a6520e3121c4e",
+      "minor_power_of_ten": 35394,
+      "coefficient_power_of_ten": 36306,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_079",
+      "jet_count": 2500,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "e9773e2bfdafd0e064ad7cede96a4e364014140054de78c3f234f9204c3c11c1",
+      "minor_power_of_ten": 45511,
+      "coefficient_power_of_ten": 47267,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_085",
+      "jet_count": 2500,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "6f7ff4fb18d13b8213017b6cc89a7318913f2d2eb92e472d228f1b1d5a7119fe",
+      "minor_power_of_ten": 45257,
+      "coefficient_power_of_ten": 46677,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_087",
+      "jet_count": 2498,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "e6338b84410d2250bf9b6666a1540ff757ea771edc149e44557e6d6a92725f60",
+      "minor_power_of_ten": 45027,
+      "coefficient_power_of_ten": 46653,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_089",
+      "jet_count": 2344,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 67,
+      "row_bounds_sha256": "ea73de31403e18946147d7fcc4354d589d9756cf33bd7a7bf82a320cb05da4b7",
+      "minor_power_of_ten": 40915,
+      "coefficient_power_of_ten": 42380,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_094",
+      "jet_count": 2401,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 68,
+      "row_bounds_sha256": "422f438331a71cfaa27f850211fba84a8a078528102d68170b816bead5619b65",
+      "minor_power_of_ten": 42116,
+      "coefficient_power_of_ten": 43490,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_095",
+      "jet_count": 2499,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "a4a900fc7f889d63ae87aad21d33d62be9739f8625be4d59ed56c251593acd1c",
+      "minor_power_of_ten": 44919,
+      "coefficient_power_of_ten": 46348,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_096",
+      "jet_count": 2500,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "e5a4b47598455072885ad1c202a8b882ef6339b5d11ec831f36d0965f2404966",
+      "minor_power_of_ten": 44055,
+      "coefficient_power_of_ten": 45142,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_097",
+      "jet_count": 2400,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 68,
+      "row_bounds_sha256": "12c88123674b5bdbd0b5cdd8d615a99d74e95c17e6c997d8c8618053316153c1",
+      "minor_power_of_ten": 41553,
+      "coefficient_power_of_ten": 43685,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_115",
+      "jet_count": 2101,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 63,
+      "row_bounds_sha256": "fe8959e3ee85d9f9a4454846e40b217d97c8be62c823035ab21b26aa59a2792a",
+      "minor_power_of_ten": 36926,
+      "coefficient_power_of_ten": 37927,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_117",
+      "jet_count": 2288,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 66,
+      "row_bounds_sha256": "d9f81d556af872b826b237a31b2bc3b7e6d0bc0dedbb14720628c5800c0e93f7",
+      "minor_power_of_ten": 41407,
+      "coefficient_power_of_ten": 42418,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_119",
+      "jet_count": 2498,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 69,
+      "row_bounds_sha256": "bb1691e4229671c96371abb3dc93a61bf2b8769ed668a93b2e77a1bb39a62254",
+      "minor_power_of_ten": 46476,
+      "coefficient_power_of_ten": 47423,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_target_1",
+      "jet_count": 3136,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 77,
+      "row_bounds_sha256": "9273bd1cd1646840a79e58335123e0f0633db15f9ed9c54257462dcc5c7b2c24",
+      "minor_power_of_ten": 60655,
+      "coefficient_power_of_ten": 62864,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_strong_102",
+      "jet_count": 9409,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 135,
+      "row_bounds_sha256": "4ddce5bd49eaa47d4e8efd2a82a210fc8aa0f5ed4a594f6111fac6c85d8c488e",
+      "minor_power_of_ten": 311040,
+      "coefficient_power_of_ten": 314633,
+      "common_zero_power_of_ten": 0
+    },
+    {
+      "name": "poly_coprime_last",
+      "jet_count": 9792,
+      "basis": "monic periodic Newton",
+      "basis_roots": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "basis_norm_power_of_ten": 137,
+      "row_bounds_sha256": "1b924b52595263d33eb4614abe96ab4a8d5575413d9cbeb1acdb1960dadf693e",
+      "minor_power_of_ten": 320354,
+      "coefficient_power_of_ten": 323861,
+      "common_zero_power_of_ten": 125720282
+    }
+  ],
+  "collision_bound": {
+    "name": "collision",
+    "jet_count": 71,
+    "basis": "monic periodic Newton",
+    "basis_roots": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "basis_norm_power_of_ten": 12,
+    "row_bounds_sha256": "16a651cce772ebac656745975e9683bd2b204e0a677b844be98df00b68a978fe",
+    "minor_power_of_ten": 315,
+    "coefficient_power_of_ten": 821,
+    "common_zero_power_of_ten": 0
+  },
+  "collision_gain": 1,
+  "collision_power_of_ten": 822,
+  "largest_weighted_ratio": "32386100000000/731957",
+  "worst_leaf": {
+    "root": 31,
+    "path": "/5/1/1/5/1/5/1/2",
+    "positions": [
+      0,
+      2,
+      1
+    ],
+    "vector": [
+      0,
+      2921,
+      2711
+    ],
+    "margin_without_slack": "731957/48100000000",
+    "weighted_coefficient_power": "8753/13"
+  },
+  "weighted_coefficient_power_of_ten": 44245906,
+  "maximum_common_zero_power_of_ten": 0,
+  "former_resultant_power_with_newton_basis": 125720282,
+  "arithmetic_nonvanishing": {
+    "prime": 251,
+    "degree": 196,
+    "support_points": 26,
+    "retained_kernel_columns": 9,
+    "selected_columns": [
+      0,
+      1,
+      2
+    ],
+    "extra_residue_points": 4,
+    "extra_points_excluded_by_third_section": true,
+    "ordinary_tangent_checks": 24,
+    "second_blowup_determinants": [
+      90,
+      48
+    ],
+    "large_rank_repeated": false,
+    "conclusion": "Three p-integral symmetric lifts have no common integer zero outside the support."
+  },
+  "nonvanishing_certificate_file": "erdos_699_index_7_nonvanishing.json",
+  "algebraic_height_power_of_ten": 44245906,
+  "previous_algebraic_height_power_of_ten": 19813540001,
+  "conclusion": "All polynomial and common-zero estimates used in the index-seven proof hold above the displayed algebraic height; analytic thresholds must also be included."
+}

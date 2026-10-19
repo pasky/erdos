@@ -6,7 +6,7 @@ desc: |
   of psi and theta are below sqrt(x) log^2 x/(8 pi), and that of pi below
   sqrt(x) log x/(8 pi), from 59, 599 and 2657 respectively up to 2.169 x 10^25.
 created: 2026-10-08T17:07:28Z
-updated: 2026-10-08T17:07:28Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -54,6 +54,14 @@ Lemma 2.1 (the Riemann height of Platt and Trudgian); Büthe's Theorem 2.
 
 ## Bears on
 
+- [[../wiki/problems/factorials_binomials/E0699/_index|Problem 699]],
+  through research pages only. The corpus's research on that problem uses
+  the $\theta$-bound of this lemma, patched above $2.169\cdot10^{25}$ by
+  global tables of Broadbent et al., as one input to uniform prime-interval
+  estimates in numerical coefficient-gcd certificates
+  ([[../wiki/research/erdos_699/methods/details/sharp_theta_gcd|sharper uniform prime bounds]],
+  [[../wiki/research/erdos_699/methods/details/joint_numerical_thresholds|numerical heights for joint cofactor clauses]]).
+  The lemma says nothing about the problem itself.
 - [[../wiki/problems/primes/E0855/_index|Problem 855]], as a step only: the
   lemma covers the range $2657<x\le\exp(58)$ in the proof of
   [[primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/corollary_1_3|Corollary 1.3]].

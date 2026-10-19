@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1052
@@ -43,9 +43,29 @@ https://www.erdosproblems.com/1052.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1052.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Every unitary perfect positive integer is even. For odd $n>1$, the equation
+$\sigma^*(n)=\prod_{p^e\parallel n}(p^e+1)=2n$ forces at most one prime-power
+factor by its $2$-adic valuation. But one factor would give $p^e+1=2p^e$,
+impossible for $p^e>1$; $n=1$ also fails. For
+
+$$
+n=2^a\prod_i p_i^{e_i},\qquad p_i\text{ odd},
+$$
+
+comparison of $2$-adic valuations yields $\sum_i v_2(p_i^{e_i}+1)=a+1$. The
+number of odd prime factors is therefore at most $a+1$, which is not a uniform
+bound because $a$ is unbounded.
+
+The finite box in
+[[../library/arithmetic_functions/maciejewski_2026_bounded_box_reductions_subbarao_warren_problem/_index|Maciejewski's
+source]] does not cover all parameters. Its already-recorded Proposition 1 gap
+is substantive: an odd prime dividing $p-1$ need not divide $p^e+1$ for odd
+$e$, as $p=7,e=1,q=3$ shows. This defeats that proof step, not the finiteness
+assertion. The parity argument above is author-recorded; the source's suspect
+site and finite scope were inspected, without replaying its computation. A
+global parameter bound remains necessary.
 
 ## Known Results
 

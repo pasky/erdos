@@ -3,7 +3,7 @@ name: additive_combinatorics
 title: "Sumsets and Arithmetic Progressions"
 desc: "Sources filed under Sumsets and Arithmetic Progressions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-18T10:17:54Z
 ---
 
 # Sumsets and Arithmetic Progressions
@@ -154,15 +154,13 @@ parabola; the matching lower bound to the n^{1/4+o(1)} upper bound of
 Problem 186, and the alpha = 1/4 input to the N^{1/5} bound of
 Problem 131.
 
-[[additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/_index|bourgain_1997_estimates_related_sumfree_subsets_sets_integers/]]: Bourgain's 1997 harmonic-analysis paper on sum-free subsets: Proposition
-1.3, every set B of at least three positive integers has a sum-free subset
-of size at least (|B| + 2)/3 (the printed statement omits the size
-condition, which B = {1, 2} shows is needed), the bound after Erdős's
-|B|/3 and Alon and Kleitman's (|B| + 1)/3; Proposition 1.4, the excess
-over |B|/3 is at least a constant times the L^1 norm of the cosine sum
-over B divided by log |B|; Proposition 1.7, a log |B| / log log |B| gain
-for 3-sum-free subsets; and the fact that the k-sum-free constant tends
-to 0.
+[[additive_combinatorics/bourgain_1997_estimates_related_sumfree_subsets_sets_integers/_index|bourgain_1997_estimates_related_sumfree_subsets_sets_integers/]]: Bourgain's 1997 paper on sum-free subsets: Proposition 1.3, every set B of
+at least three positive integers has a sum-free subset of size at least
+(|B| + 2)/3 (the printed statement omits the size condition, which
+B = {1, 2} shows is needed); Proposition 1.4, the excess over |B|/3 is at
+least a constant times the L^1 norm of the cosine sum over B divided by
+log |B|; Proposition 1.7, a log |B| / log log |B| gain for 3-sum-free
+subsets; and the fact that the k-sum-free constant tends to 0.
 
 [[additive_combinatorics/bourgain_chang_2009_sum_product_theorems_algebraic_number_fields/_index|bourgain_chang_2009_sum_product_theorems_algebraic_number_fields/]]: Develops a fixed-degree algebraic-number version of the few-products,
 many-sums principle and isolates the degree barrier escaped by later real
@@ -554,6 +552,10 @@ reciprocal-sum conjecture (Problem 3), and it bears on Problems 139, 140,
 [[additive_combinatorics/parrilo_2008_asymptotic_minimum_number_monochromatic_3_term/_index|parrilo_2008_asymptotic_minimum_number_monochromatic_3_term/]]: Bounds the least number of monochromatic 3-term progressions in a 2-coloring
 of [1,n] between 1675n^2/32768 and 117n^2/2192, each up to a factor 1+o(1).
 
+[[additive_combinatorics/petridis_2012_new_proofs_plunnecke_type_estimates/_index|petridis_2012_new_proofs_plunnecke_type_estimates/]]: Petridis gives elementary proofs of sumset growth bounds and product-set
+estimates; the abelian bounds are prospective inputs for sunflower
+arguments restricted by a small-doubling hypothesis.
+
 [[additive_combinatorics/pham_2024_sharp_bound_erdos_straus_non_averaging/_index|pham_2024_sharp_bound_erdos_straus_non_averaging/]]: Determines the largest non-averaging subset of the first n integers as n to
 the power one quarter plus o(1), solving the Erdos-Straus problem.
 
@@ -712,6 +714,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/additive_combinatorics/E0037/_index|E0037]]
 - [[additive_bases/pikhurko_2006_dense_edge_magic_graphs_thin_additive/_index|pikhurko_2006_dense_edge_magic_graphs_thin_additive]]
   - [[../wiki/problems/additive_combinatorics/E0819/_index|E0819]]
+- [[additive_bases/ruzsa_1990_just_basis/_index|ruzsa_1990_just_basis]]
+  - [[../wiki/problems/additive_combinatorics/E0749/_index|E0749]]
 - [[additive_bases/sarkozy_1997_additive_representation_functions/_index|sarkozy_1997_additive_representation_functions]]
   - [[../wiki/problems/additive_combinatorics/E0763/_index|E0763]]
 - [[diophantine_problems/melfi_2004_certain_positive_integer_sequences/_index|melfi_2004_certain_positive_integer_sequences]]

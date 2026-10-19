@@ -6,7 +6,7 @@ desc: |
   conjecture in Z_D^n with b_k = c_k, and the latter with constant b_k implies
   the former with c_k = e b_k.
 created: 2026-10-08T17:19:40Z
-updated: 2026-10-08T17:19:40Z
+updated: 2026-10-15T16:19:58Z
 ---
 
 ***
@@ -20,8 +20,13 @@ contains a $k$-sunflower.
 
 Vectors $v_1,\ldots,v_k\in\mathbb Z_D^n$ form a $k$-sunflower when in every
 coordinate $i\in[n]$ either $(v_1)_i=\cdots=(v_k)_i$ or the $k$ entries are
-pairwise distinct (Definition 2.5, p. 5); identifying a set with its
-characteristic vector recovers the usual notion. Conjecture 3 (p. 5) asserts
+pairwise distinct (Definition 2.5, p. 5). The paper remarks that this
+generalizes the usual notion when a set is identified with its characteristic
+vector. For $k\ge3$ the remark fails, since a $0/1$ coordinate cannot hold $k$
+pairwise distinct entries: the singletons $\{1\},\{2\},\{3\}$ form a
+$3$-sunflower, but their characteristic vectors $100,010,001$ do not. The proof
+of Theorem 2.6 does not use the remark; it uses the prime-power encoding below,
+under which sunflowers correspond exactly. Conjecture 3 (p. 5) asserts
 that for every $k$ there is an absolute constant $b_k$ such that, for every
 $D$ and every $n$, every set of at least $b_k^n$ vectors in $\mathbb Z_D^n$
 contains a $k$-sunflower.

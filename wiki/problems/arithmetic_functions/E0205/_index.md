@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:51:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 205
@@ -49,20 +49,19 @@ https://www.erdosproblems.com/205.
 - [Ro34] Romanoff, N. P., Über einige Sätze der additiven Zahlentheorie. Math.
   Ann. (1934), 668-678.
 
-**Formalization.** The Lean suffix of the erdosproblems.com label was a catalog
-label; see "Formalization and the Lean label" below for what the files state.
-The file
+**Formalization.** The Lean suffix of the erdosproblems.com label was an
+erdosproblems.com label; see "Formalization and the Lean label" below for what
+the files state. The file
 [`ErdosProblems/205.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/205.lean)
-of formal-conjectures (pinned at its commit of 2026-09-18, 4,190 bytes)
-defines
+of formal-conjectures (pinned at its commit of 2026-09-18, 4,190 bytes) defines
 `IsRepresentable (f : ℕ → ℝ) (n : ℕ) : Prop := ∃ k m : ℕ, n = 2 ^ k + m ∧ (Ω m : ℝ) < f m`
-and states the three clauses of the question as `erdos_205.parts.i`, `.ii`
-and `.iii`, each `answer(False)`, `category research solved` and `sorry`;
-the variant `erdos_205.variants.many_prime_factors` (`research solved`,
-`sorry`, with a `formal_proof` attribute naming `plby/lean-proofs`
+and states the three clauses of the question as `erdos_205.parts.i`, `.ii` and
+`.iii`, each `answer(False)`, `category research solved` and `sorry`; the
+variant `erdos_205.variants.many_prime_factors` (`research solved`, `sorry`,
+with a `formal_proof` attribute naming `plby/lean-proofs`
 `src/v4.29.1/ErdosProblems/Erdos205.lean`); and
-`erdos_205.variants.odd_counterexamples` (`research open`). Nothing was
-built or kernel-checked by this corpus.
+`erdos_205.variants.odd_counterexamples` (`research open`). Nothing was built or
+kernel-checked by this corpus.
 
 ## Current assessment
 
@@ -195,16 +194,16 @@ named above as the files name them.
 1934 has a library card, and neither paper's text bears on the disproof.
 
 **Formalization and the Lean label.** The Lean suffix of the erdosproblems.com
-label was a catalog label. The Aristotle session linked from the Barreto–Leeham
-page proves the negation of the first clause from Mathlib alone, and the four
-community files prove the quantified variant. The collection's three parts are
-`sorry` statements marked solved; its variant is a `sorry` statement whose
-`formal_proof` attribute names the `v4.29.1` community copy, whose header still
-says "Conditional on: nth_prime_asymp" although its imports and axiom comment
-match the `src/latest` copy; the `src/latest` copy proves the bound through an
-imported project, and the current Jayyhk file through a vendored proof. None was
-built or kernel-checked by this corpus, and the `#print axioms` outputs are the
-files' own comments.
+label was an erdosproblems.com label. The Aristotle session linked from the
+Barreto–Leeham page proves the negation of the first clause from Mathlib alone,
+and the four community files prove the quantified variant. The collection's
+three parts are `sorry` statements marked solved; its variant is a `sorry`
+statement whose `formal_proof` attribute names the `v4.29.1` community copy,
+whose header still says "Conditional on: nth_prime_asymp" although its imports
+and axiom comment match the `src/latest` copy; the `src/latest` copy proves the
+bound through an imported project, and the current Jayyhk file through a
+vendored proof. None was built or kernel-checked by this corpus, and the
+`#print axioms` outputs are the files' own comments.
 
 **Search scope.** The Aristotle session of 2026-01-11, the four community Lean
 files, the collection's statement file at its pinned commit and the Jayyhk

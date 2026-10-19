@@ -14,7 +14,7 @@ parts:
 - every_x
 - large_x
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 951
@@ -345,6 +345,23 @@ refuting it, or a result under the separation hypothesis in the Beurling
 literature. (4) There is nothing to compile: no proof exists for the
 statement; the Lean file is a statement. (5) The [Er69] question is a finite
 form whose range $a_k\le n$ is implicit on the printed page.
+
+## Exact local reduction and remaining uniformity
+
+Unit separation of generalized integers does not imply positive linear density
+of those integers. Taking generators $a_i=p_i^2$ gives distinct products
+exactly the positive squares, by unique factorization. They are separated by at
+least one, while their counting function is $\lfloor\sqrt x\rfloor=o(x)$. This
+complete author example refutes only a proposed density premise, not the
+generator-count conjecture.
+
+The pending finite every-$x$ claims require the actual certificates controlling
+all products and a valid infinite extension. Those certificates were not
+inspected; their absence from the available read set is not a negative
+mathematical verdict. The eventual-$x$ question remains distinct. A
+Beurling-type argument must work under separation alone, or prove any
+additional density hypothesis it consumes.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -356,5 +373,14 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/integer_sequences/erdos_1969_applications_graph_theory_number_theory/_index|erdos_1969_applications_graph_theory_number_theory]]
 - [[../library/integer_sequences/erdos_1977_problems_results_combinatorial_number_theory_iii/_index|erdos_1977_problems_results_combinatorial_number_theory_iii]]
 - [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]]
+- [[../library/number_theory/price_2026_counterexample_prime_counting_bound_one_separated_semigroups/_index|price_2026_counterexample_prime_counting_bound_one_separated_semigroups]]
+- [[../library/number_theory/price_2026_counterexample_prime_counting_bound_one_separated_semigroups/lemma_11|price_2026_counterexample_prime_counting_bound_one_separated_semigroups / lemma_11]]
+- [[../library/number_theory/price_2026_counterexample_prime_counting_bound_one_separated_semigroups/proposition_1|price_2026_counterexample_prime_counting_bound_one_separated_semigroups / proposition_1]]
+- [[../library/number_theory/price_2026_counterexample_prime_counting_bound_one_separated_semigroups/theorem_1|price_2026_counterexample_prime_counting_bound_one_separated_semigroups / theorem_1]]
+- [[../library/number_theory/sothanaphan_2026_one_separated_semigroups_prime_minimality/_index|sothanaphan_2026_one_separated_semigroups_prime_minimality]]
+- [[../library/number_theory/sothanaphan_2026_one_separated_semigroups_prime_minimality/theorem_2|sothanaphan_2026_one_separated_semigroups_prime_minimality / theorem_2]]
+- [[../library/number_theory/sothanaphan_2026_probabilistic_box_certification_one_separated_semigroups/_index|sothanaphan_2026_probabilistic_box_certification_one_separated_semigroups]]
+- [[../library/number_theory/sothanaphan_2026_probabilistic_box_certification_one_separated_semigroups/theorem_1|sothanaphan_2026_probabilistic_box_certification_one_separated_semigroups / theorem_1]]
+- [[../library/number_theory/sothanaphan_2026_probabilistic_box_certification_one_separated_semigroups/theorem_2|sothanaphan_2026_probabilistic_box_certification_one_separated_semigroups / theorem_2]]
 
 <!-- END problem library links -->

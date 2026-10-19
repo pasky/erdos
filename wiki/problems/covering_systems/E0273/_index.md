@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-18T00:09:30Z
 ---
 
 # Problem 273
 
 [[problems/covering_systems/_index|..]]
 
-[[problems/covering_systems/E0273/claims/_index|claims/]]: The 2 claim pages of Problem 273, one per claimant's result; the problem's standing derives from them.
+[[problems/covering_systems/E0273/claims/_index|claims/]]: The 3 claim pages of Problem 273, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -77,7 +77,7 @@ use, and the standing answers the erdosproblems.com wording in that reading.
 Bloom's catalog labeled the problem OPEN (page last edited 1 October 2025); no
 proof claim of the problem itself is recorded.
 
-Partial results. Two claims restrict where such a covering system can live
+Partial results. Three claims restrict where such a covering system can live
 without deciding whether one exists. The research note of July 2026 by the
 pseudonymous user ideal_ombrer asserts that every such covering system uses a
 modulus $p-1$ with $p>877$, and that its reciprocal sum is at least
@@ -90,7 +90,7 @@ common multiple of the moduli is at least $393120$, by an exact
 computer-assisted sieve; it is recorded as a claimed partial result on
 [[problems/covering_systems/E0273/claims/2026_07_26_zeraoulia|its claim page]]:
 unrefereed, with no named outside review, and its verification script has not
-been rerun by this corpus. Posts of 2026-09-24 and 2026-09-28 on the
+been rerun by this corpus. Plasma AI proves the first restriction independently: the $149$ moduli $p-1$ with $5\le p\le877$ cover the integers for no choice of residues, by an exact certificate. It is recorded as a pending partial claim on [[problems/covering_systems/E0273/claims/2026_10_19_plasma_ai|its claim page]], author-recorded. Posts of 2026-09-24 and 2026-09-28 on the
 erdosproblems.com discussion thread by a second pseudonymous user report a
 re-implementation of Zeraoulia's certificate and exact searches excluding every
 least common multiple below $4\times10^6$ and then below $8\times10^6$, with
@@ -103,6 +103,9 @@ statement file at the revision current on 2026-10-06, which carries no
 `formal_proof` attribute. Remaining gap: whether any such covering system
 exists; neither claim constructs or excludes one, and no proof has been
 compiled or independently reviewed by this corpus.
+
+The author-recorded [[research/covering_prime_interfaces/finite_certificates|finite-certificate comparison]] specifies the relevant periodic or finite-set test and the additional condition needed for the full question. It supplies no new witness or resolution.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

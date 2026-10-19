@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 757
@@ -41,13 +41,20 @@ https://www.erdosproblems.com/757.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/757.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/four_point_sidon_certificates/_index|four-point difference
+conditions and sidon certificates]] account records the following scope. An
+exact replay of the fourteen-point Ma–Tang example certifies maximum strong
+Sidon size eight. A separate source-qualified transversal specialization
+excludes improvements to $4/7$ on at most fifteen points; the sixteen-point
+possibility has not been searched.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

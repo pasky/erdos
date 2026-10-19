@@ -6,7 +6,7 @@ desc: |
   n.
 license: CC-BY-4.0
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-07T20:54:27Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # analysis/he_2024_reverse_littlewood_offord_problem_erdos
@@ -114,5 +114,5 @@ Theorem 1.2 (Beck, p. 2) is quoted as an exact external theorem and is
 not used in the paper's proof; Beck's paper is not held here.
 
 **Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — Theorem 1.1 is the
-elementary proof of the exact radius-$\sqrt2$ catalog question cited on
-the problem page.
+elementary proof of the exact radius-$\sqrt2$ erdosproblems.com question cited
+on the problem page.

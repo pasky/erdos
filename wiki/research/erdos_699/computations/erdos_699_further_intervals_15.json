@@ -1,0 +1,89 @@
+{
+  "scope": "Interval certificate, using a separate finite prime-power certificate; no row enumeration.",
+  "finite_pair_certificate_file": "erdos_699_prime_pair_strips_15.json",
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "maximum_nodes_per_index": 2000000,
+  "records": [
+    {
+      "i": 15,
+      "terminal_prime_lower_row": 523,
+      "inclusive_cap_power_of_ten": 27,
+      "visited_intervals": 1150387,
+      "certified_intervals": 575194,
+      "intervals_requiring_local_prime_pairs": 241784,
+      "minimal_prime_pair_vectors": 6,
+      "minimum_certified_log_margin": "0.000005231954736847252739560717827014506574713502378411039",
+      "interval_partition_sha256": "8812096abaf51f4c8fa540fd92d37d2fe78701c283dd50dee999055abc61983e",
+      "exact_singleton_rows": [],
+      "total_partition_leaves": 575194,
+      "conclusion": "no bad triples",
+      "finite_prime_pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          11,
+          13
+        ]
+      ],
+      "original_numerical_cap_power_of_ten": 15170264,
+      "cofactor_saving_scaled": 16665,
+      "finite_pair_row_threshold": 73516020,
+      "exact_singleton_limit": 10000,
+      "exact_columns_checked": 0
+    }
+  ]
+}

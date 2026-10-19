@@ -2,16 +2,15 @@
 name: graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem
 desc: |
   Graver and Yackel's 1968 study of the two-color Ramsey numbers as graphs
-  with bounded clique and independence numbers: counting propositions
-  bounding R(3,6) by 17 and R(3,7) by 22 in the paper's convention and two
-  special constructions attaining both (18 and 23 in the usual one), cyclic
-  graphs for the other lower bounds, welding for graphs with few edges,
-  Corollary 4 adding three points per unit of independence number, and
-  Proposition 9 with its Corollary, the upper bound R(x,y) at most
+  with bounded clique and independence numbers: counting propositions bounding
+  R(3,6) by 17 and R(3,7) by 22 in the paper's convention and two special
+  constructions attaining both (18 and 23 in the usual one), cyclic graphs for
+  the other lower bounds, Corollary 4 adding three points per unit of
+  independence number, and Proposition 9, the upper bound R(x,y) at most
   B y^{x-1} log log y / log y for x at least 3.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # graph_coloring/graver_yackel_1968_graph_theoretic_results_associated_ramsey_theorem

@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1096
@@ -45,10 +45,10 @@ sufficiently close to $1$ has this property?" The 1991 problem session
 erdosproblems.com names is problem 91:18 of the 1991 Western Number Theory
 problem set (p. 16), which asks for a proof that $x_{k+1}-x_k\to0$ when
 $\epsilon$ is small and guesses that every $q<q_0$, $q_0^3=q_0+1$, has this
-property. The erdosproblems.com label PROVED (LEAN) carries a catalog suffix
+property. The erdosproblems.com label PROVED (LEAN) carries a suffix
 explained under Formalization.
 
-**Status.** The erdosproblems.com label was PROVED (LEAN), whose catalog suffix
+**Status.** The erdosproblems.com label was PROVED (LEAN), whose suffix
 is explained under Formalization. The frontmatter standing is derived from the
 three accepted pages described below.
 
@@ -151,8 +151,8 @@ Erdős Problem #1096, https://www.erdosproblems.com/1096, accessed
   that $q_0$ is the smallest Pisot number; not held, cited as the standard
   reference for a fact the erdosproblems.com commentary also states.
 
-**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is a
-catalog label. The file
+**Formalization.** The suffix of the erdosproblems.com label PROVED (LEAN) is an
+erdosproblems.com label. The file
 [`ErdosProblems/1096.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/1096.lean)
 of formal-conjectures at the linked commit declares
 `erdos_1096 : answer(True) ↔ ∃ ε > 0, ∀ q, 1 < q → q < 1 + ε → ∀ x : ℕ → ℝ, StrictMono x → Set.range x = { ∑ i ∈ S, q ^ i | S : Finset ℕ } → Tendsto (fun k => x (k + 1) - x k) atTop (𝓝 0)`

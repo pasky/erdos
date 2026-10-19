@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1136
@@ -30,9 +30,10 @@ to a power of two. The paper also shows that no set with the property has lower
 density above $1/2$. The erdosproblems.com curator, Thomas Bloom, records this
 as the resolution. The claim page
 [[problems/integer_sequences/E1136/claims/2011_01_01_muller|Müller 2011]]
-records the acceptance. erdosproblems.com's (LEAN) suffix is its catalog label.
-The outside Lean files it rests on are described under Formalization and on the
-claim pages from their text alone. They were not built here.
+records the acceptance. erdosproblems.com's (LEAN) suffix is an
+erdosproblems.com label. The outside Lean files it rests on are described under
+Formalization and on the claim pages from their text alone. They were not built
+here.
 
 **Source.** [erdosproblems.com/1136](https://www.erdosproblems.com/1136),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1136,

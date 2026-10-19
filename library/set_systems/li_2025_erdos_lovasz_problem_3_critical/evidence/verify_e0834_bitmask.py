@@ -1,3 +1,4 @@
+# evidence: entry
 """Check Li's fixed nine-vertex hypergraph with independent integer masks.
 
 Checked clauses: the degree sequence (10, 7, 7, 7, 7, 7, 7, 7, 7) of the 22

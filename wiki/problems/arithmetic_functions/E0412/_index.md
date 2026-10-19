@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 412
@@ -64,6 +64,20 @@ answer and express doubt that a proof would be available in the near
 future. This describes the historical evidence and outlook, not a
 certified counterexample or a current-status argument. Er79d remains the
 distinct 1979 source already cited above.
+
+## Exact scope of the arithmetic reduction
+
+[[../library/arithmetic_functions/cohen_1996_iterating_sum_divisors_function/_index|Cohen's
+Theorem 3.1]] assumes $\sigma_{M+a}(n)=\sigma_M(tn)$ before deriving its
+coprime-iterate bound. It cannot be used to produce the assumed meeting of
+orbits. Its numerical discussion reports 21 trees for starts $2$ through $200$
+distinct below $10^{200}$, and 64 for starts $2$ through $1000$ below
+$10^{100}$. These are finite source reports, not certificates that full orbits
+never meet; their computations have not been replayed. The fixed point at $1$
+is outside the question's domain. An actual joining value or an invariant
+separating two entire orbits, such as those from $2$ and $5$, would address the
+remaining question.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

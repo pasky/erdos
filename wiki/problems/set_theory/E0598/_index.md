@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 598
@@ -102,6 +102,13 @@ is open with no claim.
 erdosproblemaday ledger and the formal-conjectures statement file, as they
 stood on 2026-10-07. arXiv, Crossref, MathSciNet, zbMATH and Google Scholar
 were not searched.
+The author-recorded
+[[research/methods/bounded_countable_coloring|bounded-to-all-countable domain bridge]]
+explains how the Magidor relation yields a failing instance with
+$\kappa=\mathfrak c^+$ without assuming CH. Its forcing preservation and
+the positive-in-$L$ textbook imports remain explicit; it is not independent
+acceptance of the whole claim.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

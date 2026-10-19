@@ -1,0 +1,16 @@
+{
+  "frozen_at_utc": "2026-10-14T20:34:18.162510+00:00",
+  "original_subject_paths": [
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/_index.md",
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/_proof.md",
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/evidence/_index.md",
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/evidence/main.py",
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/evidence/produce.py",
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/evidence/util/certificate.py",
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/evidence/assets/compact_certificate.json",
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/evidence/assets/certificates.json",
+    "wiki/theory/combinatorics/L78_bipartite_order_26_four_choosable/evidence/assets/controls.json",
+    "wiki/problems/graph_coloring/E0629/_index.md"
+  ],
+  "uniform_omission_marker": "[cut]"
+}

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 428
@@ -88,6 +88,9 @@ density requirement. It is a different variant from the positive-$\liminf$
 question; no implication between the two density requirements is asserted
 here. Neither the historical question nor this conditional report gives
 an unconditional resolution or a new status claim for Problem 428.
+
+The author-recorded [[research/covering_prime_interfaces/prime_pattern_uniformity|prime-pattern comparison]] states the parameter ranges and missing uniformity needed to use the available results here. Its source dependence and unresolved implications remain explicit.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

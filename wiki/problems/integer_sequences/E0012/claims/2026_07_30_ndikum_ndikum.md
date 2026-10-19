@@ -25,7 +25,7 @@ links:
   kind: discussion
   date: 2026-07-30
 created: 2026-10-07T05:33:13Z
-updated: 2026-10-08T02:31:50Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 ***
@@ -81,7 +81,7 @@ Superintelligence © (open-weight models, white-box reasoning)" as the AI used:
 > wishes to review them. The PDF paper (8 pages) has been sent to Dr. Bloom
 > directly.
 
-**Covers.** The third question only. The first two are answered by the pending
+**Covers.** The third question only. The first two are answered by the accepted
 claim on
 [[problems/integer_sequences/E0012/claims/2026_04_03_deepmind|the DeepMind claim page]].
 

@@ -5,7 +5,7 @@ desc: |
   Shows that every n-vertex topological graph with no self-crossing
   four-cycle has O(n^{3/2}) edges, which is tight.
 created: 2026-10-08T14:56:09Z
-updated: 2026-10-08T14:56:09Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -53,4 +53,4 @@ and the observation of Pinchasi and Radoičić (the paper's reference [26]).
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

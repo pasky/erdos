@@ -9,7 +9,7 @@ desc: |
   natural density one; its Lean formalization is rebuilt and kernel-replayed
   here.
 created: 2026-10-14T20:20:13Z
-updated: 2026-10-14T20:20:13Z
+updated: 2026-10-19T06:24:13Z
 ---
 
 ***
@@ -43,7 +43,7 @@ $n\ge2$, and no density changes.
 **Source.** Plasma AI, *The normal order of the number of iterations of
 Euler's function*, preprint (2026), `paper/totient_iterates.tex`, label
 `thm:main`, Section 1, in
-[plasma-ai/erdos-408 at 5b02bf9](https://github.com/plasma-ai/erdos-408/tree/5b02bf9ab59fd813af8f19c604ba70254fced08d).
+[plasma-ai/erdos-408 at 4ea44bf](https://github.com/plasma-ai/erdos-408/tree/4ea44bf911f8668aec10ec25c4b309e8ed476666).
 The formalization states the two bounds as `Erdos408.normal_order_rate` in
 `Challenge.lean`, with the exceptional count taken over $1\le n\le x$ and
 $\log n/\log\log n<|f(n)-\alpha\log n|$, and proves it in `Solution.lean`.

@@ -6,7 +6,7 @@ desc: |
   symbols have total length O(n^{3/2}), removing the log n factor from the
   Marcus-Tardos bound.
 created: 2026-10-08T14:55:41Z
-updated: 2026-10-08T14:55:41Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -54,7 +54,7 @@ which bounds $\sum_i\lvert B^i\rvert=\sum_i\lvert A^i\rvert$.
 
 ## Bears on
 
-No catalog problem directly. It is the input to
+No erdosproblems.com problem directly. It is the input to
 [[distance_problems/janzer_2024_tight_bounds_intersection_reverse_sequences_edge/corollary_1_8|Corollary 1.8]]
 and
 [[distance_problems/janzer_2024_tight_bounds_intersection_reverse_sequences_edge/corollary_1_11|Corollary 1.11]],

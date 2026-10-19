@@ -7,7 +7,7 @@ desc: |
   r-powerful numbers for every r at least 6, with the distinctness step
   supplied.
 created: 2026-09-28T04:32:26Z
-updated: 2026-09-28T07:22:15Z
+updated: 2026-10-19T04:18:52Z
 ---
 
 [[research/erdos_939/_index|..]]
@@ -288,3 +288,23 @@ Neither states that $N$ differs from the summands, which positivity
 supplies. Both are kernel-checked by Conjectures.io and not built in this
 repository; neither is a native L-claim here, and this reconstruction was
 not compared with the Lean text line by line.
+
+**Relation to Problem 940.** [[problems/diophantine_problems/E0940/_index|Problem 940]]
+concerns the same objects and the opposite direction: it asks whether
+infinitely many integers fail to be a sum of at most $r$ $r$-powerful
+numbers, and whether such sums have density zero. That the
+non-representable integers have positive lower density is claimed for $r=3$
+in the manuscript behind
+[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's pending claim]]
+and argued for $r=4$ in the author-recorded
+[[research/erdos_940/quartic_complement|quartic complement argument]], by
+the sieve and class-field-theoretic arguments recorded in
+[[research/erdos_940/_index|the Problem 940 research folder]]. Theorem 1 neither uses nor
+informs those results: each $N$ it produces is itself $r$-powerful, hence
+trivially representable in the sense of Problem 940, and the construction
+exists only for $r\ge6$, outside the exponents $3$ and $4$ they treat. One
+convention matters for formal statements. The formal-conjectures encoding of
+Problem 939 counts $0$ and $1$ as vacuously $r$-powerful summands, which is
+what let the Conjectures.io submission discharge its $r=4$ leg with the set
+$\{0,1\}$, as that card records. Theorem 1 uses positive summands
+throughout, so the vacuity does not enter here.

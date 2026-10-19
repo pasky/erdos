@@ -7,7 +7,7 @@ desc: |
   with c absolute, its case n, n+h presented as the ordinary two-point Chowla
   conjecture. Claims checked only.
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:43:13Z
 ---
 
 ***
@@ -47,7 +47,7 @@ $b_1,b_2$ with $a_1b_2\ne a_2b_1$ there is $C>0$ such that
 $|\sum_{n=1}^{\lfloor X\rfloor}\lambda(a_1n+b_1)\lambda(a_2n+b_2)|$ is at
 most $CX/(\log X)^c$ for every real $X\ge3$, with $\lambda$ taken from
 Mathlib. It was read statically and not built or audited here, and the
-catalog lists no entry for it at this revision (see the card).
+release's catalog lists no entry for it at this revision (see the card).
 
 **Source.** OpenAI, *Ordinary two-point correlations of multiplicative
 functions*, release folder

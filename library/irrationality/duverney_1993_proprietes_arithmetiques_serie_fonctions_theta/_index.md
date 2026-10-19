@@ -6,7 +6,7 @@ desc: |
   irrationality criterion by partial sums that Duverney 1995 reuses.
 license: LicenseRef-CC-BY
 created: 2026-09-17T07:45:00Z
-updated: 2026-10-07T20:33:23Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # irrationality/duverney_1993_proprietes_arithmetiques_serie_fonctions_theta
@@ -49,9 +49,9 @@ stated.
   $\sum_{n\ge1}(-1)^n/(q^n+r)\notin\mathbb Q$ for rational $r\ne-q^n$, and
   the relation $2x_q=1+\theta_3(0,\log q/(i\pi))$ (3). Page 176 also records
   Erdős's conjecture (the paper's [7]) that $\sum_k q^{-n_k}$ is not
-  quadratic whenever $n_k>ck^2$. No catalog page is identified for $x_q$
-  here; the transcendence of $\theta_3(q)$ for algebraic $q$ later followed
-  from Nesterenko's 1996 theorem (Corollaire 4 of
+  quadratic whenever $n_k>ck^2$. No erdosproblems.com page is identified for
+  $x_q$ here; the transcendence of $\theta_3(q)$ for algebraic $q$ later
+  followed from Nesterenko's 1996 theorem (Corollaire 4 of
   [[irrationality/waldschmidt_1997_nature_arithmetique_valeurs_fonctions_modulaires/_index|Waldschmidt's exposé]]).
 - [[irrationality/duverney_1993_proprietes_arithmetiques_serie_fonctions_theta/theoreme_2|Théorème 2]]
   (p. 176; proof in section 2, p. 178): the irrationality criterion by

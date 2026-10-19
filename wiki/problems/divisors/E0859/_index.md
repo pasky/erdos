@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 859
@@ -143,22 +143,30 @@ and the kernel replayed everything its target depends on, with only `propext`,
 (`theorem target : ¬ (fcTypeOfName% "Erdos859.erdos_859")`), header and key
 declarations were checked against Conjectures.io's statement; the 36,197-line
 file contains no `sorry`, `axiom`, `native_decide`, `unsafe`, `implemented_by`,
-`opaque` or `set_option` and no import; no catalog or Mathlib name is redefined
-in the file; the reduction from the target to the two estimates was checked step
-by step; the finite content was recomputed independently (the constant
-identities to sixteen digits, the exact densities $d_1,\ldots,d_8$ two ways, the
-consistency of the two estimates, and the dyadic and Stirling bookkeeping); the
-two estimates themselves, some 30,000 lines, are checked by the kernel replay,
-and by reading only at the level of their module structure and theorem
-statements; and no numerical check of the asymptotic regime is possible at this
-exponent. The replay also settles two limits of the reading: the statement file
-was compared on the formal-conjectures default branch, while the replay
-reproduced the pinned commit, which Conjectures.io builds from a public catalog
-commit and an audit patch, and found the target's statement identical to it; and
-the shared definitions of the density (`Set.HasDensity`) and of the target
-macro, which the reading took from how the proof unfolds them, are among the
-definitions the replay found identical to the task's. The file's seven
-docstrings cite the authors' manuscript, which was not obtained.
+`opaque` or `set_option` and no import; no formal-conjectures or Mathlib name is
+redefined in the file; the reduction from the target to the two estimates was
+checked step by step; the finite content was recomputed independently (the
+constant identities to sixteen digits, the exact densities $d_1,\ldots,d_8$ two
+ways, the consistency of the two estimates, and the dyadic and Stirling
+bookkeeping); the two estimates themselves, some 30,000 lines, are checked by
+the kernel replay, and by reading only at the level of their module structure
+and theorem statements; and no numerical check of the asymptotic regime is
+possible at this exponent. The replay also settles two limits of the reading:
+the statement file was compared on the formal-conjectures default branch, while
+the replay reproduced the pinned commit, which Conjectures.io builds from a
+public formal-conjectures commit and an audit patch, and found the target's
+statement identical to it; and the shared definitions of the density
+(`Set.HasDensity`) and of the target macro, which the reading took from how the
+proof unfolds them, are among the definitions the replay found identical to the
+task's. The file's seven docstrings cite the authors' manuscript, which was not
+obtained.
+
+## Progress
+
+[[research/erdos_18/connections|The Problem 18 connections page]] records that
+the practical-number constructions of that folder give only $d_t\ge1/N$ for a
+practical $N\ge t$ and do not bear on the disproved asymptotic in either
+direction.
 
 <!-- BEGIN problem library links -->
 

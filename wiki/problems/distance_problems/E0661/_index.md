@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 661
@@ -88,6 +88,13 @@ dimensions through a modified Elekes--Sharir--Guth--Katz reduction. Theorem 4
 also gives $D(m,n)=\Omega(\sqrt{mn})$ for $2\leq m\leq n^{1/3}$, using the
 crossing lemma; that unbalanced range does not include the question's
 $m=n$ regime. See [[../library/distance_problems/mathialagan_2021_bipartite_distinct_distances_plane/_index|Mathialagan's paper]] (pp. 3--4, §§3--5).
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/counts|distance counts,
+multiplicities and pinned occupancy]] account records the following scope.
+Mathialagan Theorem 3 specializes at m=n to Omega(n/log n), whose ratio to
+n/sqrt(log n) tends to zero.
 
 <!-- BEGIN problem library links -->
 

@@ -1,0 +1,30 @@
+{
+  "index": 8,
+  "scope": "An abstract profile compatible with specified retained inequalities; not an integer counterexample.",
+  "prime_order": [
+    2,
+    3,
+    5,
+    7
+  ],
+  "positions": [
+    1,
+    3,
+    0,
+    2
+  ],
+  "cofactor_exponents": [
+    "3/10",
+    "3/10",
+    "3/10",
+    "3/10"
+  ],
+  "ordinary_pair_alternatives_checked": 162,
+  "applicable_rational_clauses_checked": 680,
+  "smallest_rational_compatibility_margin": "2480439/100000000",
+  "closest_rational_clause": "source_1050",
+  "applicable_ordinary_product_alternatives_checked": 2,
+  "transferred_index_nine_polynomials_checked": 196,
+  "largest_transferred_polynomial_gain": "-17/5",
+  "best_transferred_polynomial": "poly_003"
+}

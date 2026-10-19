@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 50
@@ -41,13 +41,43 @@ https://www.erdosproblems.com/50.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/50.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The held
+[[../library/arithmetic_functions/erdos_1974_distribution_numbers_form_sigma_n_n/question_p59|singularity account]]
+gives derivative zero almost everywhere, which leaves exceptional points.
+The same paper's
+[[../library/arithmetic_functions/erdos_1974_distribution_numbers_form_sigma_n_n/theorem_p60|logarithmic modulus estimate]]
+is proved for $\sigma(n)/n$ and asserted without proof for $\phi(n)/n$.
+Even that asserted analogue permits linear increments and hence does not
+exclude a positive derivative. This assessment concerns those precise
+implications; it is not a complete current-literature or formalization
+audit.
 
-## Known Results
+The following author-recorded countermodel of Plasma AI shows why
+singularity alone is insufficient. For each $j\ge1$, place a continuous
+singular measure of total mass $|I_j|/2$ inside
+$I_j=(1/(j+1),1/j]$, and reflect it across zero. Such a measure can be
+obtained by an affine copy of the usual Cantor probability measure on a
+closed subinterval of $I_j$. The resulting measure has total mass one,
+no atoms, and is supported on a countable union of null sets. Its
+continuous distribution function $G$ is therefore singular.
 
-Not yet compiled.
+If $t\in I_j$, the total mass on $(0,1/(j+1)]$ is $1/(2(j+1))$.
+The remaining mass before $t$ lies between zero and $|I_j|/2$, so
+
+$$
+\left|G(t)-G(0)-\frac t2\right|
+\le\frac{|I_j|}{2}=O(t^2).
+$$
+
+Reflection gives the same estimate for negative $t$, hence $G'(0)=1/2$.
+An affine change of variable places the example inside $[0,1]$, with a
+positive derivative at an interior point. This is a countermodel to the
+general implication from singularity, not to the assertion about the
+totient distribution, and has not been independently reviewed. The
+arithmetic problem needs local two-sided control at every exceptional
+point of its particular distribution.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

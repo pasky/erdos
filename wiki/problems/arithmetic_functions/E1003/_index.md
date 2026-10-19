@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1003
@@ -40,7 +40,7 @@ https://www.erdosproblems.com/1003.
 
 ## Current assessment
 
-The standing judges the dated catalog formulation above.
+The standing judges the dated erdosproblems.com formulation above.
 
 A bounded status search checked primary arXiv records, author
 paper routes, searches for consecutive equal totients, and indexed X
@@ -48,8 +48,9 @@ announcements. It found
 [Li v2](https://arxiv.org/abs/2606.23681v2) still listed as the latest
 version on 2026-09-09 and no primary proof settling unit-shift infinitude. This
 sampled search does not establish an exhaustive survey or independent acceptance
-of Li's proof. Direct catalog retrieval returned HTTP 403, so its 2026-09-04
-statement is retained without claiming a fresh erdosproblems.com reading.
+of Li's proof. Direct erdosproblems.com retrieval returned HTTP 403, so its
+2026-09-04 statement is retained without claiming a fresh erdosproblems.com
+reading.
 
 Complete relevant pages were inspected: Erdős 1985 printed p. 67 /
 physical p. 3; Part II pp. 251--253 and its proof outline on pp. 257--258;
@@ -69,6 +70,11 @@ here. The problem's
 [formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1003.lean)
 is likewise not proof coverage for infinitude. The unresolved mathematical
 question and the outstanding full-proof reviews remain separate.
+
+The collision estimate of the accepted Problem 416 proof concerns two
+representations of one value, not equal values at consecutive arguments, and
+says nothing about $\varphi(n)=\varphi(n+1)$; the obstruction is recorded on
+[[research/erdos_416/connections|the connections page of the Problem 416 folder]].
 
 ## Progress
 
@@ -91,6 +97,11 @@ same-prime-support diagonal and an error over its stated growing shift
 range. The diagonal is empty for odd $h$, so in particular for $h=1$.
 The analytic estimates behind the theorem have not been fully reconstructed
 or independently reviewed here.
+
+[[research/erdos_49/connections|The Problem 49 connections page]] records why
+the reconstructed uniform collision bounds give nothing here: they bound counts
+from above, and the one constructive ingredient, the parametrized family of
+Graham, Holt and Pomerance, needs an even shift.
 
 ## Known Results
 
@@ -174,6 +185,21 @@ $\sigma(n)=\sigma(n+k)$*, arXiv:2002.12155v5: the arXiv v5 stamp is
 14 August 2020, its PDF footer says 17 August 2020, and the journal
 publication is *IMRN* 2022(5), 3561--3570. Theorem 1 is on local p. 2,
 with its proof on p. 4.
+
+## Exact scope of the arithmetic reduction
+
+The shifts in
+[[../library/arithmetic_functions/ford_2020_solutions_phi_n_phi_n_k/_index|Ford's
+infinitude theorem]] are even multiples and cannot be specialized to one. The
+shared-prime-support construction for $j$ and $j+h$ is empty for odd $h$:
+shared support forces the same parity, while odd displacement forces opposite
+parity.
+[[../library/arithmetic_functions/li_2026_rank_amplification_shifted_equal_values_euler_totient_function/theorem_1_4|Li's
+stated odd-shift upper bound]] and reciprocal-sum convergence also do not prove
+existence. These statements and the existing construction account were
+inspected, not their full proofs. A viable new family must treat $h=1$ exactly
+and supply infinitely many admissible parameters outside the shared-support
+template.
 
 <!-- BEGIN problem library links -->
 

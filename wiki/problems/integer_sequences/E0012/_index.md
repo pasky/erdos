@@ -12,14 +12,14 @@ status: open
 claim: none
 parts: [liminf, density, reciprocal_sum]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 12
 
 [[problems/integer_sequences/_index|..]]
 
-[[problems/integer_sequences/E0012/claims/_index|claims/]]: The 5 claim pages of Problem 12, one per claimant's result; the problem's standing derives from them.
+[[problems/integer_sequences/E0012/claims/_index|claims/]]: The 6 claim pages of Problem 12, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -101,10 +101,18 @@ and they answer the second question for that subclass only.
 
 For the third question nothing is proved either way. Every known construction
 has convergent reciprocal sum, and a comment in the thread explains why
-congruence constructions cannot reach divergence. The one proof claim on it, of
-30 July 2026, is recorded as a rejected partial claim on
+congruence constructions cannot reach divergence. The one proof claim on it for
+every set, of 30 July 2026, is recorded as a rejected partial claim on
 [[problems/integer_sequences/E0012/claims/2026_07_30_ndikum_ndikum|the Ndikums' claim page]].
-It does not change the standing.
+Plasma AI proves that the reciprocal sum converges for several classes of sets.
+Among them are the sets whose shared primes, those dividing two elements, have
+convergent reciprocal sum; these include pairwise coprime sets and sets with
+bounded pairwise greatest common divisors. It also bounds the partial sums
+$\sum_{a\in A,\,a\le N}1/a$ of every set with property P by $O(\log\log N)$,
+which does not give convergence. This is recorded as a pending partial claim on
+[[problems/integer_sequences/E0012/claims/2026_10_19_plasma_ai|its claim page]],
+author-recorded at tier 0, and settles no part. Neither claim changes the
+standing.
 
 **Source.** [erdosproblems.com/12](https://www.erdosproblems.com/12), accessed
 2026-09-18: the problem page (OPEN, a label erdosproblems.com glosses as open
@@ -425,11 +433,39 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X. Not held: [Er95c],
 refereed publication of [TKS26], whose Science text and supplement were not
 read here (the account follows arXiv v2), and on Lean files not built by this
 corpus; this corpus has not reviewed the arguments. (2) The third question is
-open; the only claim on it rests on a false declared axiom and is rejected.
-(3) Four Erdős problem papers erdosproblems.com cites are not held; [Er97b]
-restates the three questions without new results. (4) Proofs are compiled as
-statements only, except Schoen's, followed step by step but not independently
-reviewed.
+open; the only claim on it for every set rests on a false declared axiom and
+is rejected. (3) Four Erdős problem papers erdosproblems.com cites are not
+held; [Er97b] restates the three questions without new results. (4) Proofs are
+compiled as statements only, except Schoen's, followed step by step but not
+independently reviewed.
+
+## Research
+
+[[research/property_p_reciprocal_sum/_index|Property P and reciprocal
+summability]] gives the complete author-recorded argument and its remaining gap.
+Density zero gives dyadic reciprocal masses tending to zero, not a summable
+series. The 1970 proof fixes density-dependent parameters and compares widely
+separated scales, so its inspected mechanism does not give the needed
+summability. Property P rules out every infinite arithmetic progression, hence
+every infinite ultimately periodic set; that obstruction does not rule out a
+nonperiodic divergent example.
+
+[[research/leads/property_p_sieve_multiplicity/_index|The composite-modulus
+sieve lead proves, by gluing finite blocks placed in residue classes, that the
+third question is equivalent to a uniform bound on the reciprocal sums of
+finite property-P sets]]. It also proves convergence for pairwise coprime sets,
+bounds the reciprocal sum of a property-P subset of $\{1,\ldots,N\}$ by an
+absolute constant when its elements have no prime factor up to
+$8(\log_2N+1)$ and by $O(\log\log N)$ in general, and records the multiscale
+charges that fail. Its whole sketch reduces the third question to one open
+joint guard budget. It also proves that block constructions whose protection
+is visible in their block residues and whose blocks have ratio at most $3/2$,
+the kind recorded above, have reciprocal sum at most $\log(3/2)$ plus an
+explicit counting error. An odd-modulus extension and an unproved inverse
+estimate retain that error: certification alone does not give a bound for
+arbitrary sets. Its arguments are author-recorded and unreviewed, and
+neither the uniform bound nor its failure is proved.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -455,5 +491,9 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/integer_sequences/schoen_2001_problem_erdos_sarkozy/_index|schoen_2001_problem_erdos_sarkozy]]
 - [[../library/integer_sequences/schoen_2001_problem_erdos_sarkozy/theorem|schoen_2001_problem_erdos_sarkozy / theorem]]
 - [[../library/number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]]
+- [[../library/primes/montgomery_vaughan_2006_multiplicative_number_theory_i/_index|montgomery_vaughan_2006_multiplicative_number_theory_i]]
+- [[../library/primes/montgomery_vaughan_2006_multiplicative_number_theory_i/theorem_3_9|montgomery_vaughan_2006_multiplicative_number_theory_i / theorem_3_9]]
+- [[../library/primes/ramare_ruzsa_2001_dense_subsets_sifted_sequences/_index|ramare_ruzsa_2001_dense_subsets_sifted_sequences]]
+- [[../library/primes/ramare_ruzsa_2001_dense_subsets_sifted_sequences/theorem_5|ramare_ruzsa_2001_dense_subsets_sifted_sequences / theorem_5]]
 
 <!-- END problem library links -->

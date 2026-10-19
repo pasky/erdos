@@ -23,7 +23,7 @@ links:
 - url: https://www.erdosproblems.com/1001
   kind: discussion
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -59,7 +59,7 @@ the card
 records the paper.
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
-The `reviewed` evidence is the documented acceptance by the catalog
+The `reviewed` evidence is the documented acceptance by
 erdosproblems.com. Its page for the problem (the `discussion` link) carried the
 label SOLVED. Its curator, Thomas Bloom, credits Xiong and Zaharescu,
 independently of Boca, with an alternative, more explicit proof of the existence

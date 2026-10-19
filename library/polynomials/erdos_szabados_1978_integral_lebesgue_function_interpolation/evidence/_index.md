@@ -5,7 +5,7 @@ desc: |
   Retains the independent reviews of the diagonal and late-proof companions,
   the composed full chain, and the publication successor.
 created: 2026-09-16T20:10:00Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 # Evidence for Erdős and Szabados (1978)
@@ -23,4 +23,5 @@ composed full chain with $c_3=1/256$, and the exact publication successor. All
 are conditional on the Bernstein, Markov and Erdős--Turán interfaces, whose
 proofs are not reviewed here.
 
-Extracts reproducing the paper's text are not held, since no license on record permits redistribution.
+Extracts reproducing the paper's text are not held, since no license on record
+permits redistribution.

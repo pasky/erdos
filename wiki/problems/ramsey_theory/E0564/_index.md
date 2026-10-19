@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-17T22:11:11Z
 ---
 
 # Problem 564
@@ -228,9 +228,27 @@ double-exponential bound rests on [EHMR84], which is not held, and on the 1997
 sentence of [Er97c] attributing it to Hajnal, printed without proof. (2) The
 range of Lemma 6 is printed "for $r>4$"; the deduction that follows uses it
 from $r=4$ on, so the printed range looks like a misprint for $r\ge4$; this is
-recorded, not corrected. (3) There is no resolving proof to compile; no
-argument here is rewritten or independently reviewed. (4) The Lean file is a
-statement, not a proof.
+recorded, not corrected. (3) No resolving proof is supplied or independently
+reviewed. (4) The Lean file is a statement, not a proof.
+
+**Research.** The lead
+[[research/leads/two_colour_triples_stepping_up/_index|two-colour stepping-up for triples]]
+records scoped obstructions proved by Plasma AI, author-recorded and not
+independently reviewed. Every two-colour lift of a graph colouring to the
+binary cube $\{0,1\}^M$ that reads only the two deltas of a triple, the bits
+at $w$ further positions fixed by that delta pair, and the common prefix
+above the upper delta has dimension $M\le n^2-2n$ when $w=0$, and
+$M<(27w/4)n^4$ when $w\ge1$, if it avoids a monochromatic $n$-set. This includes
+every merger of the four stepping-up colours. Squaring a two-colour system
+by copying its colouring on blocks and on positions, with either natural
+rule for the remaining triples, turns a monochromatic set of $n-1$ points
+into one of $2n-4$. A separate argument excludes the rule that XORs the
+seed colour, delta orientation and one outsider bit selected by the common
+prefix: every such rule has a monochromatic set of at least $M^{1/3}/4+1$
+words for $M\ge8$. The lead retains exact sufficient interfaces, their
+failure within these families, and the conditional two-colour transfer from
+a triple solution to Problem 562. These obstructions are not upper bounds
+on the Ramsey number and do not cover every two-colour construction.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

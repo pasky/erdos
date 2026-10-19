@@ -9,7 +9,7 @@ desc: |
   problem.
 license: Apache-2.0
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 # number_theory/openai_2026_unconditional_first_moment_cubic_gauss_sums
@@ -99,9 +99,10 @@ and that for every nonzero integer $\ell$ the sum of $(p/|p|)^\ell G(p)$ is
 $o(X^{5/6}/\log X)$ (equation (A.2)). The fixed-power consequence (A.14) is
 not among them. The release's catalog `lean/formalization.yaml` names
 neither this manuscript nor this comparator at this revision, so its
-`status.main_results` lists no entry for them; the catalog's own `review`
-field reads `status: unchecked`. Nothing was built, replayed or audited for
-fidelity in this repository. No Lean file here is a proof of any Erdős problem.
+`status.main_results` lists no entry for them; the `review` field of the
+release's catalog reads `status: unchecked`. Nothing was built, replayed or
+audited for fidelity in this repository. No Lean file here is a proof of any
+Erdős problem.
 
 **Companions.** The release's manuscript map lists this manuscript as the
 only member of its family, "Patterson's first moment for cubic Gauss sums", and

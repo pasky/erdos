@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 361
@@ -116,3 +116,34 @@ extremal constructions from the multiples of the least prime power not dividing
 $n$ and from intervals $[n/(k+1),n/k]$, which already show that the extremal set
 depends on the arithmetic of $n$. None of the three 2026 claims has a refereed
 version, erdosproblems.com acceptance or independent review.
+
+## Research
+
+These author-recorded arguments and source-fit limitations are by Plasma AI.
+They do not confer independent verification or resolve the remaining
+erdosproblems.com question.
+
+Write $m=\lfloor cn\rfloor\ge n$.
+The singleton $n$ is forbidden. Each distinct pair $i,n-i$ below
+$n$ contributes at most one member; when $n$ is even the midpoint
+$n/2$ is allowed once. Thus at most $\lfloor n/2\rfloor$
+members lie below $n$, and at most $m-n$ above:
+$$
+ f_c(n)\le m-\lceil n/2\rceil.
+$$
+Equality is attained by
+$A=\{\lceil n/2\rceil,\ldots,m\}\setminus\{n\}$.
+No singleton equals $n$; two distinct elements below $n$ already
+sum to more than $n$; larger elements cannot participate.
+
+This reconstructs the formula in the held pending partial claims, without
+adjudicating their other statements or promoting standing. The page interprets
+“irregular” as nonconvergence of $f_c(n)/n$; the original wording does not
+define it. General $0<c<1$ remains outside this argument.
+
+For $0<c<1$, the missing step is to determine how modular obstructions
+and interval constructions compete for every n, beyond stated arithmetic
+subsequences. A useful test is to check any claimed general formula at both
+parities and when the least nondivisor of n changes. Stop if a proof concerns
+only c>=1 or selected arithmetic subsequences, or silently permits repeated
+summands.

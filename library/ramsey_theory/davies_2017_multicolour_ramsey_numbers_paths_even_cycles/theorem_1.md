@@ -5,7 +5,7 @@ desc: |
   An explicit linear upper bound for the k-color Ramsey number of the
   n-vertex path, valid for every k at least 4 and every n at least 64k.
 created: 2026-10-08T14:35:33Z
-updated: 2026-10-08T14:35:33Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -68,7 +68,7 @@ $c$-partite refinement of Lemma 3).
 
 ## Bears on
 
-No catalog problem directly. The cycle problem
+No erdosproblems.com problem directly. The cycle problem
 [[../wiki/problems/ramsey_theory/E0555/_index|Problem 555]] asks for
 $R_k(C_{2n})$, and since $R_k(P_m)\le R_k(C_m)$ (p. 2) a path upper bound
 gives no upper bound for the cycle; the even-cycle bound is

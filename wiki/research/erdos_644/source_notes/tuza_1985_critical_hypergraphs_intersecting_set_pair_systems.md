@@ -5,7 +5,7 @@ desc: "Source notes for Problem 644: Tuza: Critical hypergraphs and intersecting
 tags: []
 sources: []
 created: 2026-09-24T22:18:20Z
-updated: 2026-09-24T22:18:20Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Tuza: Critical hypergraphs and intersecting set-pair systems
@@ -123,11 +123,21 @@ Thus $(E_i,T_i)$ is a $(k,t-1)$ ISP-system. Bollobás's inequality $(*)$ on p.
 $$|E(\mathcal G)|\leq\binom{k+t-1}{k},$$
 while Theorem 17 (p. 142) gives
 $$|V(\mathcal G)|\leq n_1(k,t-1)<\binom{k+t}{k}.$$
+These bounds can make a minimal-counterexample argument finite and encode each
+critical edge by a small transversal certificate. The E644 condition $P_r$ could
+then be imposed on every $r$ of the first coordinates $E_i$; obtaining a bound
+$t\leq(c_r+o(1))k$ would require a new inequality for $(k,t-1)$ ISP-systems
+satisfying this additional local two-point-piercing condition. No such
+inequality appears in the paper.
 
-Construction 15 (pp. 141–142) does not preserve $k$-uniformity or guarantee
-$P_r$. Theorem 20 is not directly applicable: its hypothesis that every
-specified number of edges has a common vertex is strictly a different condition
-from their being jointly pierceable by two vertices.
+Construction 15 (pp. 141–142) is potentially useful for converting a proposed
+ISP-system into a $\tau$-critical test object, but it does not preserve
+$k$-uniformity or guarantee $P_r$. Likewise, the uniform examples in Remark 16
+(p. 142) become candidates for E644 lower-bound constructions only after their
+local two-point property is separately verified. Theorem 20 is not directly
+applicable: its hypothesis that every specified number of edges has a common
+vertex is strictly a different condition from their being jointly pierceable by
+two vertices.
 
 Consequently, the paper supplies the critical-core/ISP framework and
 quantitative bounds conditional on the unknown global value $t$, but it neither

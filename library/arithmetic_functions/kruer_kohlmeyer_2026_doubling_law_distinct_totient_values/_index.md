@@ -7,7 +7,7 @@ desc: |
   up to x satisfies V(2x)/V(x) -> 2, the first question of Problem 416.
 license: reserved
 created: 2026-09-28T03:08:55Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:13:56Z
 ---
 
 # Kruer–Kohlmeyer: Erdős Problem 416(i), the doubling law for distinct totient values
@@ -86,31 +86,31 @@ repository's pinned toolchain.
 **Formal statement and acceptance.** Conjectures.io's record verified
 `Filter.Tendsto (fun x => Erdos416.V (2 * x) / Erdos416.V x) Filter.atTop (nhds 2)`,
 the statement `Erdos416.erdos_416.parts.i` of formal-conjectures
-(`FormalConjectures/ErdosProblems/416.lean`; the erdosproblems.com problem page
-pins catalog commit `6a786f99` and its record page names `8432eac9`, neither
-reachable on GitHub on 2026-09-27, so the statement was compared at `main`,
-whose text equals the task bundle's printed type, and Conjectures.io's "Source
-type hash matches" gate is the evidence that the pinned statement agrees), where
-`Erdos416.V x` is the number of integers $n$ with $1\le n\le\lfloor x\rfloor$
-such that $\varphi(m)=n$ for some $m\in\mathbb{N}$. This is the first question
-of Problem 416 clause for clause: real $x\to\infty$, unrestricted preimages,
-each value counted once, and $m=0$ contributing only the excluded value $0$.
-The record page (fetched 2026-09-27) shows Lean verification Passed (accepted
-14 September 2026 at 04:31:57 UTC; checked in 16 min 37 s in Conjectures.io's
-sandbox; fourteen gates passed, among them the static scan, "Statement
-unchanged", "Only permitted axioms" with `propext`, `Quot.sound` and
+(`FormalConjectures/ErdosProblems/416.lean`; the Conjectures.io problem page
+pins formal-conjectures commit `6a786f99` and its record page names `8432eac9`,
+neither reachable on GitHub on 2026-09-27, so the statement was compared at
+`main`, whose text equals the task bundle's printed type, and Conjectures.io's
+"Source type hash matches" gate is the evidence that the pinned statement
+agrees), where `Erdos416.V x` is the number of integers $n$ with
+$1\le n\le\lfloor x\rfloor$ such that $\varphi(m)=n$ for some $m\in\mathbb{N}$.
+This is the first question of Problem 416 clause for clause: real $x\to\infty$,
+unrestricted preimages, each value counted once, and $m=0$ contributing only the
+excluded value $0$. The record page (fetched 2026-09-27) shows Lean verification
+Passed (accepted 14 September 2026 at 04:31:57 UTC; checked in 16 min 37 s in
+Conjectures.io's sandbox; fourteen gates passed, among them the static scan,
+"Statement unchanged", "Only permitted axioms" with `propext`, `Quot.sound` and
 `Classical.choice`, and "Lean kernel accepted"; the second kernel, Nanoda, "Not
 run", so "the verdict rests on a single kernel implementation"); Conjectures
 review Approved, decided 15 September 2026, "REVIEW_APPROVED under
 submission-time policy v3" for the full locked bounty; Certified 16 September
-2026; Reward Paid. The review decision states that two
-separately conducted agent assessments recommend approval, that the agents
-"used independent contexts in the same model family; no distinct-model
-consensus is claimed", that the review "relies on the successful hash-matched
-production Lean and Comparator verification", and that "No fresh Lean replay,
-separate complete axiom export, exhaustive line-by-line audit of the
-64,775-line proof or proof of originality is claimed"; it distinguishes the
-accepted target from the July 2026 partial claim of
+2026; Reward Paid. The review decision states that two separately conducted
+agent assessments recommend approval, that the agents "used independent contexts
+in the same model family; no distinct-model consensus is claimed", that the
+review "relies on the successful hash-matched production Lean and Comparator
+verification", and that "No fresh Lean replay, separate complete axiom export,
+exhaustive line-by-line audit of the 64,775-line proof or proof of originality
+is claimed"; it distinguishes the accepted target from the July 2026 partial
+claim of
 [[arithmetic_functions/zeraoulia_2026_fixed_scale_limit_points_distinct_totients/_index|Zeraoulia]],
 whose argument, it says, leaves the cluster interval's width uncontrolled.
 Conjectures.io's certification is reported, not counted: no refereed

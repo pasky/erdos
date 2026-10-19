@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: independent
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 1127
@@ -25,7 +25,19 @@ updated: 2026-10-08T00:44:25Z
 **Statement.** Can $\mathbb{R}^n$ be decomposed into countably many sets, such
 that within each set all the pairwise distances are distinct?
 
-**Status.** Independent.
+**Status.** Independent. Under the continuum hypothesis (CH), Erdős and
+Kakutani [ErKa43] split $\mathbb{R}$ into countably many rationally independent
+sets, in which no distance repeats; this case $n=1$ under CH is an accepted
+partial claim on
+[[problems/set_theory/E1127/claims/1943_06_01_erdos_kakutani|its claim page]].
+Davies [Da72] proves that under CH the plane has such a decomposition and that
+a decomposition of the plane, or even of the line, implies CH, so when CH fails
+no dimension has one. This is an accepted partial claim on
+[[problems/set_theory/E1127/claims/1972_09_01_davies|its claim page]], covering
+the line and the plane completely. Kunen's decomposition of $\mathbb{R}^n$ for
+every finite $n$ under CH, the accepted full claim on
+[[problems/set_theory/E1127/claims/1987_11_01_kunen|its claim page]], supplies
+the remaining dimensions, and the two halves together give the independence.
 
 **Source.** [erdosproblems.com/1127](https://www.erdosproblems.com/1127),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1127,

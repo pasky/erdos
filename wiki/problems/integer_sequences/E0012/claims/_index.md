@@ -1,10 +1,10 @@
 ---
 name: problems/integer_sequences/E0012/claims
-desc: The 5 claim pages of Problem 12, one per claimant's result; the problem's standing derives from them.
+desc: The 6 claim pages of Problem 12, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:23:56Z
-updated: 2026-10-13T10:05:41Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/integer_sequences/E0012/claims
@@ -33,5 +33,7 @@ it answers the first question yes and the second no, and it is not refereed.
 [[problems/integer_sequences/E0012/claims/2026_07_30_ndikum_ndikum|2026_07_30_ndikum_ndikum]]: A partial proof claim of 30 July 2026 by Philip Ndikum and Serge Ndikum, made
 with Libertas Superintelligence, asserts that every good set has a convergent
 reciprocal sum. Its Lean development rests on a declared axiom that is false.
+
+[[problems/integer_sequences/E0012/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Property-P sets whose shared primes have convergent reciprocal sum, pairwise coprime sets included, have convergent reciprocal sum, and every property-P set has partial reciprocal sums O(log log N); author-recorded at tier 0, catalog acceptance pending.
 
 ***

@@ -6,8 +6,10 @@ import hashlib
 import json
 import os
 import pathlib
+import shlex
 import shutil
 import subprocess
+import sys
 
 import pytest
 
@@ -25,17 +27,22 @@ __all__ = [
     'test_wiki_lint_failure_reports_issues_before_advisory_notes',
     'test_wiki_lint_command_errors_keep_their_diagnostics',
     'test_wiki_lint_advisory_notes_do_not_fail_the_gate',
+    'test_wiki_lint_stale_wikilinks_fail_the_gate',
     'test_reflint_leg_caps_its_detail_and_fails_closed',
     'test_native_claim_legs_check_current_files_and_continue_other_legs',
     'test_problem_layout_leg_is_required_and_continues_other_legs',
+    'test_problem_claims_leg_caps_its_detail_and_counts_library_dependences',
+    'test_library_licenses_leg_names_an_unreadable_record_and_continues_other_legs',
+    'test_library_licenses_leg_caps_its_detail',
     'test_gate_collects_root_tests_and_package_doctests_only',
     'test_missing_pytest_configuration_fails_without_starting_pytest',
     'test_missing_required_roots_fail_their_legs_by_name',
-    'test_lean_legs_skip_by_default_and_never_silently_certify',
-    'test_untrackable_lean_tree_runs_the_legs_and_states_why',
+    'test_lean_leg_skips_by_default_and_never_silently_certifies',
+    'test_untrackable_lean_tree_runs_the_leg_and_states_why',
     'test_precommit_covers_all_existing_working_files',
     'test_precommit_does_not_follow_working_tree_symlinks',
     'test_precommit_fails_closed_on_unenumerable_working_files',
+    'test_precommit_failures_name_the_hook_and_the_files_written',
     'test_lean_if_changed_writes_a_receipt_then_skips_unchanged_inputs',
     'test_lean_if_changed_revalidates_untrusted_receipts',
     'test_lean_gate_requires_a_fresh_selftest_stamp',
@@ -67,6 +74,19 @@ _RECEIPT_SKIP = (
 _CHANGED_INPUTS = (
     'inputs under lean/ changed during validation; rerun the gate (no receipt written)'
 )
+
+
+def _lint_report(*rows: dict[str, str]) -> str:
+    """Render a ``wiki lint --json`` document carrying ``rows``, issues and notes."""
+    issues = [row for row in rows if row['severity'] == 'issue']
+    notes = [row for row in rows if row['severity'] == 'note']
+    summary = {'issues': len(issues), 'notes': len(notes)}
+    return json.dumps({'issues': issues, 'notes': notes, 'summary': summary})
+
+
+def _lint_row(severity: str, kind: str, text: str) -> dict[str, str]:
+    """Build one ``wiki lint --json`` finding of ``kind`` with its rendered ``text``."""
+    return {'severity': severity, 'kind': kind, 'path': 'page.md', 'text': text}
 
 
 def _warm_cache(root: pathlib.Path) -> None:
@@ -158,8 +178,10 @@ def stub_binaries(monkeypatch: pytest.MonkeyPatch) -> dict[str, int]:
         calls[name] = calls.get(name, 0) + 1
         if name == 'bash':
             return real(name, *args, cwd=cwd)
+        # a clean wiki lint reports its findings as one JSON document
+        stdout = _lint_report() if (name, *args[:1]) == ('wiki', 'lint') else ''
         return subprocess.CompletedProcess(
-            args=(name, *args), returncode=0, stdout='', stderr=''
+            args=(name, *args), returncode=0, stdout=stdout, stderr=''
         )
 
     monkeypatch.setattr(tools.core.gate, '_run_binary', runner)
@@ -231,8 +253,10 @@ def green_runner(
         cwd: pathlib.Path,
     ) -> subprocess.CompletedProcess:
         calls.append((name, arguments, cwd))
+        # a clean wiki lint reports its findings as one JSON document
+        stdout = _lint_report() if (name, *arguments[:1]) == ('wiki', 'lint') else ''
         return subprocess.CompletedProcess(
-            args=(name, *arguments), returncode=0, stdout='', stderr=''
+            args=(name, *arguments), returncode=0, stdout=stdout, stderr=''
         )
 
     monkeypatch.setattr(tools.core.gate, '_run_binary', runner)
@@ -294,7 +318,7 @@ def test_gate_checks_marker_union_without_all(
     precommit = [
         arguments for name, arguments, _ in green_runner if name == 'pre-commit'
     ]
-    assert precommit == [('run', '--files', 'tracked.md', 'new.py')]
+    assert precommit == [('run', '--color=never', '--files', 'tracked.md', 'new.py')]
     assert by_name['lean build+audit+stamp'].state == 'SKIPPED'
     assert not any(leg.failed for leg in legs)
 
@@ -355,15 +379,15 @@ def test_wiki_lint_failure_reports_issues_before_advisory_notes(
     (tmp_path / 'docs').mkdir()
     runner = tools.core.gate._run_binary
     issue = 'library/example.md:59: Hyphen dangle: rejoin the wrapped line.'
+    report = _lint_report(
+        _lint_row('issue', 'hyphen_dangle', issue),
+        *[_lint_row('issue', 'hyphen_dangle', 'Another hard issue.')] * 100,
+        *[_lint_row('note', 'desc_long', 'unrelated.md: advisory note')] * 100,
+    )
 
     def lint(name: str, *args: str, cwd: pathlib.Path) -> subprocess.CompletedProcess:
         if name == 'wiki' and args[0] == 'lint':
-            return subprocess.CompletedProcess(
-                (name, *args),
-                1,
-                stdout=issue + '\n' + 'Another hard issue.\n' * 100,
-                stderr='unrelated.md: advisory description note\n' * 100,
-            )
+            return subprocess.CompletedProcess((name, *args), 1, report, '')
         return runner(name, *args, cwd=cwd)
 
     monkeypatch.setattr(tools.core.gate, '_run_binary', lint)
@@ -408,20 +432,47 @@ def test_wiki_lint_advisory_notes_do_not_fail_the_gate(
     (tmp_path / 'docs').mkdir()
     runner = tools.core.gate._run_binary
 
+    report = _lint_report(
+        *[_lint_row('note', 'desc_long', 'page.md: advisory note')] * 30
+    )
+
     def lint(name: str, *args: str, cwd: pathlib.Path) -> subprocess.CompletedProcess:
         if name == 'wiki' and args[0] == 'lint':
-            return subprocess.CompletedProcess(
-                (name, *args),
-                0,
-                stdout='No issues found (30 notes).',
-                stderr='Advisory description note\n' * 30,
-            )
+            return subprocess.CompletedProcess((name, *args), 0, report, '')
         return runner(name, *args, cwd=cwd)
 
     monkeypatch.setattr(tools.core.gate, '_run_binary', lint)
     leg = next(leg for leg in run_gate(tmp_path) if leg.name == 'wiki docs')
     assert leg.state == 'PASS'
     assert leg.detail == ''
+
+
+def test_wiki_lint_stale_wikilinks_fail_the_gate(
+    tmp_path: pathlib.Path,
+    stub_binaries: dict[str, int],
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """A stale wikilink fails the leg although wiki lint reports it as a note."""
+    (tmp_path / 'docs').mkdir()
+    runner = tools.core.gate._run_binary
+    stale = 'guide.md: Stale link [[absent]]'
+    report = _lint_report(
+        _lint_row('note', 'desc_long', 'page.md: advisory note'),
+        _lint_row('note', 'link_stale', stale),
+    )
+    arguments = []
+
+    def lint(name: str, *args: str, cwd: pathlib.Path) -> subprocess.CompletedProcess:
+        if name == 'wiki' and args[0] == 'lint':
+            arguments.append(args)
+            return subprocess.CompletedProcess((name, *args), 0, report, '')
+        return runner(name, *args, cwd=cwd)
+
+    monkeypatch.setattr(tools.core.gate, '_run_binary', lint)
+    leg = next(leg for leg in run_gate(tmp_path) if leg.name == 'wiki docs')
+    assert leg.failed
+    assert leg.detail == f'lint: {stale}'
+    assert ('lint', '--path', 'docs', '--json') in arguments
 
 
 def test_reflint_leg_caps_its_detail_and_fails_closed(
@@ -584,6 +635,163 @@ def test_problem_layout_leg_is_required_and_continues_other_legs(
     assert page.read_bytes() == before
 
 
+def test_problem_claims_leg_caps_its_detail_and_counts_library_dependences(
+    tmp_path: pathlib.Path, stub_binaries: dict[str, int]
+) -> None:
+    """Test the capped findings, the dependence count and the closing notes."""
+    _repository(tmp_path)
+    disclaimer = 'Schema checks read the claims as recorded and award no standing.'
+    leg = next(
+        leg
+        for leg in run_gate(tmp_path, precommit=False)
+        if leg.name == 'problem claims'
+    )
+    assert leg == tools.core.gate.LegResult(
+        'problem claims',
+        'PASS',
+        '0 problem(s); 0 claim page(s); 0 provisional standing(s) without a claim'
+        f' page; 0 claim page(s) without authors; {disclaimer}',
+    )
+    # thirteen solved problems, one with an accepted claim resting on two library
+    # result pages and twelve with no claim page
+    problems = tmp_path / 'wiki' / 'problems' / 'number_theory'
+    standing = 'desc: Synthetic problem.\nstatus: solved\nclaim: proved\ntags: [primes]'
+    for number in range(3, 16):
+        write_page(
+            problems / f'E{number:04d}' / '_index.md',
+            _PROBLEM.replace('desc: Synthetic problem.', standing),
+        )
+    write_page(
+        problems / 'E0003' / 'claims' / '2026_01_02_claimant.md',
+        '---',
+        'title: A claimed proof',
+        'desc: A synthetic claim.',
+        'authors:',
+        '- A. Claimant',
+        'status: accepted',
+        'claim: proved',
+        'scope: full',
+        'evidence:',
+        '- refereed',
+        'published: 2026-01-02',
+        'submitted: 2026-01-02',
+        'links:',
+        '- url: https://example.org/paper',
+        '  kind: paper',
+        '  date: 2026-01-02',
+        '---',
+        '',
+        '***',
+        '',
+        'The claimant proves the statement.',
+        '',
+        '**Depends on.** [[../library/subject/first/theorem_1|Theorem 1]] and',
+        '[[../library/subject/first/lemma_2|Lemma 2]].',
+    )
+    card = tmp_path / 'library' / 'subject' / 'first'
+    write_page(card / '_index.md', '---', 'name: subject/first', '---', '', '***')
+    for result in ('theorem_1', 'lemma_2'):
+        write_page(card / f'{result}.md', '---', f'name: subject/first/{result}', '---')
+    # the dependences show as a count beside the counts and the disclaimer
+    dependences = '2 library dependence(s) (run `erdos problem-claims` to list them)'
+    counts = (
+        '13 problem(s); 1 claim page(s); 12 provisional standing(s) without a claim'
+        ' page; 0 claim page(s) without authors'
+    )
+    leg = next(
+        leg
+        for leg in run_gate(tmp_path, precommit=False)
+        if leg.name == 'problem claims'
+    )
+    assert leg == tools.core.gate.LegResult(
+        'problem claims', 'PASS', '; '.join([dependences, counts, disclaimer])
+    )
+    # with --settled, twelve findings show as ten and a count of the rest, and
+    # the pointers name the settled command
+    settled_dependences = (
+        '2 library dependence(s) (run `erdos problem-claims --settled` to list them)'
+    )
+    findings = [
+        f'wiki/problems/number_theory/E{number:04d}/_index.md:'
+        " provisional 'solved'/'proved' with no claim page"
+        for number in range(4, 14)
+    ]
+    leg = next(
+        leg
+        for leg in run_gate(tmp_path, precommit=False, settled=True)
+        if leg.name == 'problem claims'
+    )
+    assert leg == tools.core.gate.LegResult(
+        'problem claims',
+        'FAIL',
+        '; '.join(
+            [
+                *findings,
+                '... 2 more (run `erdos problem-claims --settled` for the full list)',
+                settled_dependences,
+                counts,
+                disclaimer,
+            ]
+        ),
+    )
+
+
+def test_library_licenses_leg_names_an_unreadable_record_and_continues_other_legs(
+    tmp_path: pathlib.Path, stub_binaries: dict[str, int]
+) -> None:
+    """Test an arXiv record that is not JSON is a finding of the leg naming it, and the gate goes on."""
+    _repository(tmp_path)
+    # a card holding a PDF and its transcription, with a malformed arXiv record
+    card = tmp_path / 'library' / 'subject' / 'first'
+    write_page(card / '_index.md', '---', 'license: MIT', '---', '', '***')
+    (card / 'first.pdf').write_bytes(b'')
+    write_page(card / 'first.md', 'The paper.')
+    write_page(card / '.arxiv' / 'first.json', '{not json')
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
+    legs = run_gate(tmp_path, precommit=False)
+    by_name = {leg.name: leg for leg in legs}
+    assert by_name['library licenses'].state == 'FAIL'
+    assert by_name['library licenses'].detail.startswith(
+        'library/subject/first/_index.md: arXiv record'
+        ' library/subject/first/.arxiv/first.json is not JSON ('
+    )
+    for name in ('problem layout', 'problem claims', 'native claim ledger'):
+        assert by_name[name].state == 'PASS'
+
+
+def test_library_licenses_leg_caps_its_detail(
+    tmp_path: pathlib.Path, stub_binaries: dict[str, int]
+) -> None:
+    """Test twelve findings show as ten, a count of the rest and the summary."""
+    _repository(tmp_path)
+    # twelve cards, each holding a file under no license
+    for number in range(12):
+        card = tmp_path / 'library' / 'subject' / f'card_{number:02d}'
+        write_page(card / '_index.md', '---', 'desc: A card.', '---', '', '***')
+        write_page(card / 'notes.txt', 'Notes.')
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
+    leg = next(
+        leg
+        for leg in run_gate(tmp_path, precommit=False)
+        if leg.name == 'library licenses'
+    )
+    findings = [
+        f'library/subject/card_{number:02d}/_index.md: missing license (holds notes.txt)'
+        for number in range(10)
+    ]
+    assert leg == tools.core.gate.LegResult(
+        'library licenses',
+        'FAIL',
+        '; '.join(
+            [
+                *findings,
+                '... 2 more (run `erdos license-audit` for the full list)',
+                'license-audit: 12 cards, 12 held files, 12 findings, 0 notes',
+            ]
+        ),
+    )
+
+
 def test_gate_collects_root_tests_and_package_doctests_only(
     tmp_path: pathlib.Path,
     monkeypatch: pytest.MonkeyPatch,
@@ -691,13 +899,13 @@ def test_missing_required_roots_fail_their_legs_by_name(
     assert stub_binaries['wiki'] == 2
 
 
-def test_lean_legs_skip_by_default_and_never_silently_certify(
+def test_lean_leg_skips_by_default_and_never_silently_certifies(
     tmp_path: pathlib.Path, fake_lake: pathlib.Path
 ) -> None:
-    """Test that lean legs run only under a flag, else report SKIPPED.
+    """Test that the lean leg runs only under a flag, else reports SKIPPED.
 
     A requested leg without the launcher fails by name. Off a git checkout
-    there is no prospective tree to record, so both flags run the legs and
+    there is no prospective tree to record, so both flags run the leg and
     neither writes a receipt.
     """
     write_claim(tmp_path / 'wiki', 'graphs', 1, 'fixture')
@@ -715,7 +923,7 @@ def test_lean_legs_skip_by_default_and_never_silently_certify(
     assert 'never certified' in by_name['lean build+audit+stamp'].detail
     assert by_name['lean build+audit+stamp'].unavailable is False
     assert not fake_lake.exists()
-    # --lean runs both legs; off a git checkout no receipt can be recorded
+    # --lean runs the leg; off a git checkout no receipt can be recorded
     legs = run_gate(tmp_path, lean=True)
     by_name = {leg.name: leg for leg in legs}
     assert by_name['lean build+audit+stamp'].state == 'PASS'
@@ -727,7 +935,7 @@ def test_lean_legs_skip_by_default_and_never_silently_certify(
         'build',
         'exe audit --check',
     ]
-    # --lean-if-changed falls back to running the legs, saying why
+    # --lean-if-changed falls back to running the leg, saying why
     legs = run_gate(tmp_path, lean_if_changed=True)
     by_name = {leg.name: leg for leg in legs}
     assert by_name['lean build+audit+stamp'].state == 'PASS'
@@ -746,14 +954,14 @@ def test_lean_legs_skip_by_default_and_never_silently_certify(
     assert not (tmp_path / 'lean' / '.lake' / 'validated.json').exists()
 
 
-def test_untrackable_lean_tree_runs_the_legs_and_states_why(
+def test_untrackable_lean_tree_runs_the_leg_and_states_why(
     tmp_path: pathlib.Path, fake_lake: pathlib.Path
 ) -> None:
-    """Test that a lean/ tree Git cannot fingerprint runs the legs, saying why.
+    """Test that a lean/ tree Git cannot fingerprint runs the leg, saying why.
 
     A checkout whose lean/ holds only ignored content has no prospective
     tree, which is not the same as being outside a checkout: the detail
-    carries Git's reason, the legs run every time, and no receipt is
+    carries Git's reason, the leg runs every time, and no receipt is
     written.
     """
     # a committed checkout whose entire lean/ project is ignored
@@ -765,7 +973,7 @@ def test_untrackable_lean_tree_runs_the_legs_and_states_why(
     run_git(root, 'init', '-q', '-b', 'main')
     run_git(root, 'add', '-A')
     run_git(root, 'commit', '-qm', 'seed')
-    # the legs run, the detail names git's reason, and nothing is recorded
+    # the leg runs, the detail names git's reason, and nothing is recorded
     legs = run_gate(root, lean_if_changed=True)
     leg = _lean(legs)
     assert leg.state == 'PASS', leg
@@ -779,7 +987,7 @@ def test_untrackable_lean_tree_runs_the_legs_and_states_why(
         'exe audit --check',
     ]
     assert not (root / tools.core.gate._LEAN_RECEIPT).exists()
-    # with nothing recorded, the next conditional run runs the legs again
+    # with nothing recorded, the next conditional run runs the leg again
     legs = run_gate(root, lean_if_changed=True)
     assert _lean(legs).state == 'PASS'
     assert (
@@ -798,7 +1006,7 @@ def test_precommit_covers_all_existing_working_files(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     """Test untracked coverage, ignored/deleted omissions, and complete batches."""
-    subprocess.run(['git', 'init', '-q', str(tmp_path)], check=True)
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
     write_page(
         tmp_path / '.pre-commit-config.yaml',
         'exclude: ^wiki/|^lean/(?!scripts/.*\\.sh$)',
@@ -807,7 +1015,7 @@ def test_precommit_covers_all_existing_working_files(
     write_page(tmp_path / '.gitignore', 'ignored.py')
     write_page(tmp_path / 'existing.py', 'pass')
     write_page(tmp_path / 'deleted.py', 'pass')
-    subprocess.run(['git', 'add', '.'], cwd=tmp_path, check=True)
+    run_git(tmp_path, 'add', '.')
     (tmp_path / 'deleted.py').unlink()
     write_page(tmp_path / 'ignored.py', 'pass')
     expected = {'.pre-commit-config.yaml', '.gitignore', 'existing.py'}
@@ -818,16 +1026,18 @@ def test_precommit_covers_all_existing_working_files(
     write_page(tmp_path / 'lean' / 'scripts' / 'README.md', '# scripts')
     write_page(tmp_path / 'lean' / 'scripts' / 'gate.sh', '#!/usr/bin/env bash')
     expected.add('lean/scripts/gate.sh')
-    for index in range(205):
-        name = f'scripts/helper_{index:03d}.py'
+    # enough long names that their arguments need more than one run
+    folder = '/'.join(['scripts', *(letter * 200 for letter in 'abc')])
+    for index in range(450):
+        name = f'{folder}/helper_{index:03d}.py'
         write_page(tmp_path / name, 'pass')
         expected.add(name)
     batches = []
 
     def runner(name: str, *args: str, cwd: pathlib.Path) -> subprocess.CompletedProcess:
         if name == 'pre-commit':
-            assert args[:2] == ('run', '--files')
-            batches.append(args[2:])
+            assert args[:3] == ('run', '--color=never', '--files')
+            batches.append(args[3:])
         return subprocess.CompletedProcess(
             args=(name, *args), returncode=0, stdout='', stderr=''
         )
@@ -835,7 +1045,7 @@ def test_precommit_covers_all_existing_working_files(
     monkeypatch.setattr(tools.core.gate, '_run_binary', runner)
     legs = run_gate(tmp_path)
     covered = [path for batch in batches for path in batch]
-    assert len(batches) == 2
+    assert len(batches) > 1
     assert set(covered) == expected
     assert len(covered) == len(expected)
     assert next(leg for leg in legs if leg.name == 'pre-commit').state == 'PASS'
@@ -864,9 +1074,9 @@ def test_precommit_does_not_follow_working_tree_symlinks(
 
     def runner(name: str, *args: str, cwd: pathlib.Path) -> subprocess.CompletedProcess:
         if name == 'pre-commit':
-            assert args[:2] == ('run', '--files')
-            covered.extend(args[2:])
-            for name in args[2:]:
+            assert args[:3] == ('run', '--color=never', '--files')
+            covered.extend(args[3:])
+            for name in args[3:]:
                 path = cwd / name
                 if path.suffix == '.py':
                     path.write_text('formatted\n', encoding='utf-8')
@@ -913,7 +1123,97 @@ def test_precommit_fails_closed_on_unenumerable_working_files(
     assert 'pre-commit' not in stub_binaries
 
 
-# ------ conditional lean legs
+@pytest.mark.parametrize(
+    ('hook', 'reported', 'absent'),
+    [
+        # a fixing hook rewrites a batch file in place
+        (
+            'path = pathlib.Path("page.md")\n'
+            'path.write_text(path.read_text().replace(" \\n", "\\n"))',
+            [
+                'hook probe failed (files were modified by this hook)',
+                'written in the batch during the run',
+                'review and commit): page.md',
+            ],
+            ['outside the batch', 'nothing written'],
+        ),
+        # another writer edits a tracked file the hooks never see
+        (
+            'pathlib.Path(".notes/memory.md").write_text("# Edited\\n")',
+            [
+                'hook probe failed (files were modified by this hook)',
+                'written outside the batch during the run',
+                'while the gate runs): .notes/memory.md',
+            ],
+            ['in the batch', 'nothing written'],
+        ),
+        # another process stages an earlier edit, writing no file
+        (
+            'subprocess.run(["git", "add", ".notes/memory.md"], check=True)',
+            [
+                'hook probe failed (files were modified by this hook)',
+                'nothing written during the run (another process changed the index',
+            ],
+            ['written in', 'written outside'],
+        ),
+        # a checker reports a fault in its own output
+        (
+            'print("page.md:1: trailing space")\nraise SystemExit(1)',
+            ['hook probe failed (exit code: 1): page.md:1: trailing space'],
+            ['written', 'modified'],
+        ),
+    ],
+)
+def test_precommit_failures_name_the_hook_and_the_files_written(
+    tmp_path: pathlib.Path,
+    monkeypatch: pytest.MonkeyPatch,
+    hook: str,
+    reported: list[str],
+    absent: list[str],
+) -> None:
+    """Test a failed batch names its hook, its output and the files written meanwhile."""
+    root = tmp_path / 'repo'
+    write_page(
+        root / '.pre-commit-config.yaml',
+        'exclude: ^\\.notes/',
+        'repos:',
+        '  - repo: local',
+        '    hooks:',
+        '      - id: probe',
+        '        name: probe',
+        f'        entry: {json.dumps(f"{shlex.quote(sys.executable)} hook.py")}',
+        '        language: unsupported',
+        '        files: ^page\\.md$',
+    )
+    write_page(root / 'hook.py', 'import pathlib', 'import subprocess', hook)
+    write_page(root / 'page.md', '# Page ')
+    write_page(root / '.notes' / 'memory.md', '# Memory')
+    run_git(root, 'init', '-q', '-b', 'main')
+    run_git(root, 'add', '-A')
+    run_git(root, 'commit', '-qm', 'seed')
+    # an uncommitted edit outside the hooks' files, which the staging scenario adds
+    write_page(root / '.notes' / 'memory.md', '# Memory', 'More.')
+    real = tools.core.gate._run_binary
+
+    def runner(name: str, *args: str, cwd: pathlib.Path) -> subprocess.CompletedProcess:
+        if name == 'pre-commit':
+            return real(name, *args, cwd=cwd)
+        return subprocess.CompletedProcess(
+            args=(name, *args), returncode=0, stdout='', stderr=''
+        )
+
+    monkeypatch.setattr(tools.core.gate, '_run_binary', runner)
+    # keep pre-commit's store out of the user's cache
+    monkeypatch.setenv('PRE_COMMIT_HOME', str(tmp_path / 'store'))
+    leg = next(leg for leg in run_gate(root) if leg.name == 'pre-commit')
+    assert leg.state == 'FAIL'
+    for text in reported:
+        assert text in leg.detail
+    for text in absent:
+        assert text not in leg.detail
+
+
+# ------ conditional lean leg
 
 
 @pytest.mark.parametrize('conditional', [False, True])
@@ -924,11 +1224,11 @@ def test_lean_if_changed_writes_a_receipt_then_skips_unchanged_inputs(
 
     The receipt names the prospective ``lean/`` tree, so on a clean
     checkout it equals the committed subtree; a docs-only change leaves
-    it matching, an explicit ``--lean`` always runs the legs, and the
+    it matching, an explicit ``--lean`` always runs the leg, and the
     real index is never touched along the way.
     """
     index = run_git(lean_repo, 'ls-files', '-s').stdout
-    # the first conditional run finds no receipt: both legs run and record the tree
+    # the first conditional run finds no receipt: the leg runs and records the tree
     legs = run_gate(lean_repo, lean_if_changed=True)
     leg = _lean(legs)
     assert leg.state == 'PASS', leg
@@ -957,7 +1257,7 @@ def test_lean_if_changed_writes_a_receipt_then_skips_unchanged_inputs(
         'build',
         'exe audit --check',
     ]
-    # an explicit --lean always runs the legs and refreshes the receipt
+    # an explicit --lean always runs the leg and refreshes the receipt
     legs = run_gate(lean_repo, lean=True, lean_if_changed=conditional)
     assert _lean(legs).state == 'PASS'
     assert (
@@ -1052,7 +1352,7 @@ def test_lean_gate_requires_a_fresh_selftest_stamp(
 def test_lean_changes_invalidate_the_receipt(
     lean_repo: pathlib.Path, fake_lake: pathlib.Path, change: str
 ) -> None:
-    """Test that every kind of lean/ change makes the conditional legs run again.
+    """Test that every kind of lean/ change makes the conditional leg run again.
 
     The fingerprint reads the working tree as a commit made now would,
     so an unstaged edit, a bare deletion, a rename, and an ignored file
@@ -1087,7 +1387,7 @@ def test_lean_changes_invalidate_the_receipt(
     elif change == 'committed without the gate':
         source.write_text('theorem t : True := by trivial\n', encoding='utf-8')
         run_git(lean_repo, 'commit', '-qam', 'force-save')
-    # the receipt no longer matches: both legs run again
+    # the receipt no longer matches: the leg runs again
     legs = run_gate(lean_repo, lean_if_changed=True)
     leg = _lean(legs)
     assert leg.state == 'PASS', leg
@@ -1154,7 +1454,7 @@ def test_lean_failures_and_shifting_inputs_write_no_receipt(
 
     A build or audit failure fails the leg, a launcher that cannot run fails
     it whether or not the gate is strict, and inputs that shift while the
-    legs run fail it too, since the validated bytes are not the bytes a
+    leg runs fail it too, since the validated bytes are not the bytes a
     commit would record. No case writes a receipt.
     """
     monkeypatch.setenv('LEAN_TEST_SCENARIO', scenario)

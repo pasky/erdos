@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1104
@@ -40,13 +40,14 @@ https://www.erdosproblems.com/1104.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1104.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/methods/chromatic_threshold_interfaces|inverse-threshold analysis]]
+relates this maximum $F(n)$ to the minimum-order function $h_3(k)$ in
+Problem 1013, retaining the qualifications of the held bounds. The
+identity transfers order estimates; it does not supply a sharp leading
+constant or regularity between adjacent chromatic thresholds. This is a
+scoped author analysis rather than a broader standing survey.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:31:26Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 51
@@ -60,10 +60,35 @@ dichotomy for the counts of totients with least preimage between $kx$ and
 $(k+1)x$ (manuscript of 2026-09-25), gets no claim page: it proves a
 reformulation of the question, a dichotomy that decides neither answer and
 settles no instance beyond the known cases $k=1,2$, so Known Results records
-the theorem and its Lean declarations instead. No further literature search is
-recorded.
+the theorem and its Lean declarations instead. The Progress notes below are
+author-recorded, drawn from the research pages they link, and are not
+independently reviewed; no further literature search is recorded.
+
+## Progress
+
+The question is equivalent to the unboundedness of the least-preimage ratio
+$f_{\min}(v)/v$ over totients;
+[[research/erdos_416/connections|the connections page of the Problem 416 folder]]
+holds author-recorded research notes on totients all of whose preimages share
+a divisor $k$, which Ford found only for prime-power $k\le11$ and $k=11$; the
+notes are not a claim.
+[[research/erdos_51/_index|The Problem 51 research home]] records the
+substitution principle behind the collision $\varphi(105)=\varphi(65)$, small
+values all of whose preimages are divisible by $2$ or by $3$, and a value
+$54\cdot2^{32}$ showing that two forced divisors need not combine: a preimage
+prime to $6$ uses primes $q$ with $q-1$ drawing on both factors.
+It also proves an obstruction to one proposed repair: a fixed finite set of
+covering primes, with only boundedly many designated divisors, cannot exclude
+all unwanted shifted divisors across a family with unbounded least-preimage
+ratio. This does not exclude covers that grow with the family.
 
 ## Known Results
+
+The convenient-integer construction of Pollack, Pomerance and Treviño's
+Lemma 4.1 transports a totient's least-preimage ratio, within a bounded factor,
+to a positive proportion of totients but cannot create unbounded ratios;
+[[research/erdos_49/connections|the Problem 49 connections page]] records this
+failed transfer with its obstruction.
 
 The OpenAI release's manuscript *An asymptotic formula for the number of
 totients* (2026-09-25; the
@@ -103,6 +128,25 @@ declaration of the family asserts or refutes the seed condition for all $k$;
 this corpus has not built them. The $k=1$ case of the same theorem bears on
 [[problems/arithmetic_functions/E0417/_index|Problem 417]], whose page records
 the item and why it is not a claim there.
+
+## Exact scope of the arithmetic reduction
+
+The multiplier argument in the existing research transports a fixed
+minimum-preimage ratio into a bounded interval; it does not construct seed
+ratios tending to infinity. A sufficient forcing condition is concrete: if
+every preimage of a totient value $v$ is divisible by $k$, then
+
+$$
+\frac{\min\{n:\phi(n)=v\}}{v}\ge\frac{k}{\phi(k)},
+$$
+
+because $k\mid n$ implies $\phi(n)/n\le\phi(k)/k$. The missing input is
+all-preimage divisibility with $k/\phi(k)$ unbounded. Exhibiting one divisible
+preimage is insufficient: $\phi(105)=\phi(65)=48$ and $\phi(6)=\phi(3)=2$.
+These exact elementary comparisons confer no new standing on the
+source-dependent research. The next useful condition must control every smaller
+alternative preimage.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 414
@@ -33,9 +33,24 @@ https://www.erdosproblems.com/414.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/414.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The annular transfer construction in
+[[../library/arithmetic_functions/li_2026_square_annular_dynamics_coalescence_frontiers_n/_index|Li's
+Theorem 4.4]] converts coalescence into a precise condition: for every starting
+square annulus, some later first-hit transfer image is a singleton. The
+construction and this proof were inspected. A bound on static annular width
+does not by itself give the dynamic width required by Corollary 5.10.
+
+Theorem 12.2 assumes an eventual two-point frontier, opposite parities when two
+points remain, and infinitely many frontiers containing zero. Those hypotheses
+remain unproved. The necessary gate equation in Proposition 12.3 is
+$\tau((k+1)^2-j)=j$; fixing $j=2$ demands primes $(k+1)^2-2$, and even their
+infinitude would not prove reachability of the gates. Variable offsets may
+follow another mechanism. Thus the source supplies a representation and
+conditional criteria, not a coalescence proof. A finite singleton computation
+settles only its specified starts; the universal frontier mechanism is still
+missing.
 
 ## Known Results
 

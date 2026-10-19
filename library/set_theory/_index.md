@@ -3,7 +3,7 @@ name: set_theory
 title: "Set Theory and Infinite Combinatorics"
 desc: "Sources filed under Set Theory and Infinite Combinatorics, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-18T02:15:08Z
 ---
 
 # Set Theory and Infinite Combinatorics
@@ -43,6 +43,12 @@ for countable α, and its note of Milner's and Larson's later results.
 
 [[set_theory/chen_2018_cardinal_characteristics_continuum_partitions/_index|chen_2018_cardinal_characteristics_continuum_partitions/]]: Shows that small values of cardinal characteristics and the stick principle
 force many ordinary and polarized partition relations to fail.
+
+[[set_theory/darby_1999_negative_partition_relations_ordinals/_index|darby_1999_negative_partition_relations_ordinals/]]: Darby's 1999 proof that ω^α ↛ (ω^α, 6)^2 for every countable α that is
+additively but not multiplicatively indecomposable, and ω^α ↛ (ω^α, 4)^2
+when α has at least three multiplicative factors, by explicit colorings of
+finite sequences; it states without proof Darby's ω^{ω^2} → (ω^{ω^2}, 3)^2
+and conjectures a positive answer in the three-summand case of Problem 592.
 
 [[set_theory/erdos_1943_non_denumerable_graphs/_index|erdos_1943_non_denumerable_graphs/]]: Shows the continuum hypothesis is equivalent to splitting the reals into
 countably many rationally independent sets.
@@ -106,6 +112,12 @@ model in which every family of sets of outer measure below one has an
 infinite independent set, so the first question of Problem 501 is
 independent of ZFC; a self-published draft with a public Lean development.
 
+[[set_theory/hajnal_komjath_2003_simultaneous_chromatic_number/_index|hajnal_komjath_2003_simultaneous_chromatic_number/]]: Shows that adding a Cohen subset of kappa, where kappa^{<kappa} = kappa,
+makes every graph of chromatic number kappa^+ edge-colorable with kappa^+
+colors so that every partition of its vertices into at most kappa parts has
+a part spanning all colors (one Cohen real suffices at aleph_1), with
+related ZFC, diamond-plus and consistency results.
+
 [[set_theory/koepke_1984_consistency_strength_free_subset_property_omega/_index|koepke_1984_consistency_strength_free_subset_property_omega/]]: Shows the free-subset property for omega_omega is equiconsistent with the
 existence of a measurable cardinal.
 
@@ -124,6 +136,12 @@ Erdos-Hajnal problem list, recording which remain open.
 taking fewer than continuum many values at each point is undecidable in ZFC
 plus the negation of CH.
 
+[[set_theory/laver_1982_saturated_ideal_omega1/_index|laver_1982_saturated_ideal_omega1/]]: Laver's 1982 paper building, from a huge cardinal, a model of 2^ℵ₀ = ℵ₁ and
+2^ℵ₁ = ℵ₂ with a normal (ℵ₂, ℵ₂, ℵ₀)-saturated ideal on ω₁, and showing that
+CH with such an ideal gives a polarized relation for ω₂ × ω₁ and, for a
+normal ideal, ω₂ → (ω₁ + ω₁ + 1, α)^2 for every α < ω₂; the paper does not
+state that GCH holds in its model.
+
 [[set_theory/lee_2026_erdos_problem_623_free_subset_property/_index|lee_2026_erdos_problem_623_free_subset_property/]]: Proves in ZFC that Erdős Problem 623 has a positive answer exactly when
 Koepke's property Fr_omega(aleph_omega, omega) holds, so a positive answer
 has the consistency strength of a measurable cardinal.
@@ -141,6 +159,12 @@ dichotomy.
 values of measure less than one has an infinite free set, answering
 Problem 38(B) of Erdős and Hajnal, with finite free-set bounds under an
 integral condition.
+
+[[set_theory/plasma_ai_2026_bipartizing_finite_subgraphs_uncountably_chromatic_graphs/_index|plasma_ai_2026_bipartizing_finite_subgraphs_uncountably_chromatic_graphs/]]: Plasma AI's 2026 Lean formalization proving that every graph whose finite
+subgraphs on $m$ vertices can be made bipartite by deleting at most $Cm$
+edges has countable chromatic number, and hence that $h_G(n)/n\to\infty$
+for every graph $G$ that is not countably colorable, answering the second
+question of Problem 111; it carries a prose blueprint of the proof.
 
 [[set_theory/schilhan_2024_wetzel_families_continuum/_index|schilhan_2024_wetzel_families_continuum/]]: Shows a family of entire functions taking few values at each point is
 consistent with any value of the continuum of uncountable cofinality.
@@ -200,6 +224,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/set_theory/E0118/_index|E0118]]
   - [[../wiki/problems/set_theory/E0474/_index|E0474]]
   - [[../wiki/problems/set_theory/E0593/_index|E0593]]
+- [[graph_coloring/lambiehanson_2020_growth_rate_chromatic_numbers_finite_subgraphs/_index|lambiehanson_2020_growth_rate_chromatic_numbers_finite_subgraphs]]
+  - [[../wiki/problems/set_theory/E0111/_index|E0111]]
 - [[number_theory/various_1999_some_pauls_favorite_problems/_index|various_1999_some_pauls_favorite_problems]]
   - [[../wiki/problems/set_theory/E1169/_index|E1169]]
   - [[../wiki/problems/set_theory/E1171/_index|E1171]]

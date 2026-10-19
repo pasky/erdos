@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 196
@@ -52,12 +52,13 @@ a bijection exclude the constant progression. That Lean's $\mathbb{N}$ contains
 $0$ is immaterial, since shifting indices and values by one carries permutations
 to permutations and preserves progressions in both directions. The accepted file
 proves the negation of that statement from an explicit bijection with no
-monotone four-term progression. The pinned catalog revision is not public; the
-bounty site builds it from a public catalog commit and an audit patch, and this
-corpus's replay reproduced it exactly. The bounty site's review compared the
-proof with the earlier literature. It found that, under its policy, unresolved
-provenance questions alone do not deny the reward. It called its approval a
-decision on eligibility for the bounty, not a guarantee of originality.
+monotone four-term progression. The pinned formal-conjectures revision is not
+public; the bounty site builds it from a public formal-conjectures commit and an
+audit patch, and this corpus's replay reproduced it exactly. The bounty site's
+review compared the proof with the earlier literature. It found that, under its
+policy, unresolved provenance questions alone do not deny the reward. It called
+its approval a decision on eligibility for the bounty, not a guarantee of
+originality.
 
 A second construction answering the question no is Ho's arXiv preprint of 11
 September 2026, with a Lean formalization by its author. It is recorded as a

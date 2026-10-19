@@ -13,7 +13,7 @@ status: open
 claim: none
 parts: [ever, finitely_many, triples]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 939
@@ -126,10 +126,10 @@ $x^3+y^3=\ell^4z^3$, hence coprime $3$-powerful triples; the Walsh card
 records Logan's Selmer computation pointing to rank one in exactly these
 classes. The release names no Erdős problem and claims nothing about this
 one; the observation bears only on part 3, which the refereed sources settle,
-and not on the open cases $r=4$ and $r=5$. It is recorded as context at the
-level of the release's own statement, with no verification recorded; the
-release has no Lean for it and claims nothing about this problem, so no claim
-page is written for it.
+and not on the open cases $r=4$ and $r=5$ or on the lead below. It is
+recorded as context at the level of the release's own statement, with no
+verification recorded; the release has no Lean for it and claims nothing
+about this problem, so no claim page is written for it.
 
 Part 1 (can it ever happen for $r\geq 4$): instances exist at $r=5$ (Cambie;
 Kitamura), at $r=7$ and $r=8$ (Cambie, asserted in the erdosproblems.com text
@@ -191,6 +191,16 @@ The manuscript's proof is written out in the corpus's own words, with the
 distinctness step it omits supplied and labeled, in the
 [[research/erdos_939/_index|research folder for Problem 939]]; that
 reconstruction is author-recorded and changes no status.
+
+The folder's [[research/erdos_939/connections|connections page]] holds
+author-recorded research on polynomial families of coprime $r$-powerful
+solutions of $a+b=c$ and on a route at $r=5$ through four-term identities, the
+lead
+[[research/leads/quintic_powerful_identity_route/_index|quintic_powerful_identity_route]];
+none of it is a claim. The page records that the abc conjecture implies
+finiteness at $r=4$
+([[../library/diophantine_problems/crowdmath_2020_applications_abc_conjecture_powerful_numbers/_index|CrowdMath 2020]],
+Theorem 2.1, statement transcribed at claims level).
 
 ## Known results
 

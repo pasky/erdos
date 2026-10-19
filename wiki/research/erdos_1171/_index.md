@@ -7,12 +7,18 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-28T04:28:49Z
-updated: 2026-10-08T13:55:35Z
+updated: 2026-10-14T07:04:59Z
 ---
 
 # Color reduction for the omega_1 squared relation
 
 [[research/_index|..]]
+
+[[research/erdos_1171/connections|connections]]: Assesses, target by target, what the reconstructed color-reduction
+induction and its restriction step give for other erdosproblems.com problems:
+the equivalences and corollaries that transfer, the conditional deductions
+with their premises, and the precise obstructions where the mechanism fails,
+including the ZFC question of Problem 1171 itself.
 
 [[research/erdos_1171/evidence/_index|evidence/]]: Review records for the two reconstruction pages of the color-reduction
 proof; no executable evidence is held.
@@ -95,3 +101,34 @@ route passes through the initial segment $\omega_1\omega$ and why it needs
 $\mathrm{MA}_{\aleph_1}$ there, since under the continuum hypothesis
 $\omega_1\omega\not\to(\omega_1\omega,3)^2$ while the ZFC relation
 $\omega_1^2\to(\omega_1\omega,3)^2$ has a target smaller than its resource.
+The induction uses nothing about the number $3$ except that the target is
+fixed, so the same argument gives $\alpha\to(\alpha,H_1,\ldots,H_k)^2_{k+1}$
+from $\alpha\to(\alpha,H_i)^2$ for $i=1,\ldots,k$ with any fixed order types
+or finite graphs $H_i$ as targets (an author-recorded observation here, not
+in the source).
+
+**Connections.** The transfers of this mechanism to other problems are
+assessed on [[research/erdos_1171/connections|the connections page]], target
+by target: the descent-chain form of the induction and its CH obstruction
+for the ZFC case $k\ge3$ of this problem; the equivalences and conditional
+deductions for [[problems/set_theory/E1169/_index|Problem 1169]],
+[[problems/set_theory/E0597/_index|Problem 597]] and the countable partition
+ordinals of [[problems/set_theory/E0590/_index|Problem 590]],
+[[problems/set_theory/E0591/_index|Problem 591]],
+[[problems/set_theory/E0592/_index|Problem 592]] and
+[[problems/set_theory/E0118/_index|Problem 118]]; and the obstructions for the
+countable-color problems [[problems/set_theory/E1174/_index|Problem 1174]],
+[[problems/set_theory/E0595/_index|Problem 595]] and
+[[problems/set_theory/E1168/_index|Problem 1168]]. The connections page records
+the route through Problem 597 under $\mathrm{MA}_{\aleph_1}$, with its finite
+case as a premise for this problem in ZFC, and a lead records the route
+[[research/leads/four_clique_versus_triangle_colors/_index|four-clique versus triangle colors]],
+Komjáth's four-versus-three-triangle-colors question through the undecided
+case of Problem 592. The connections page's statements and both leads were
+independently reviewed as they stood on 2026-09-28T13:50:48Z by eleven
+focused reviews, one per section, filed under
+[[research/erdos_1171/evidence/verify/_index|evidence/verify/]] and graded in
+[[research/erdos_1171/evidence/verify/connections_grade|the connections grade]],
+which passes all eleven reports, accepts sixteen corrections since applied
+to the page and the leads, records both leads as reviewed and assigns no
+tier.

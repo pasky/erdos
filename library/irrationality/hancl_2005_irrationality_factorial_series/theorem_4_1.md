@@ -7,7 +7,7 @@ desc: |
   with F ranging over a family W of smooth functions with separated growth
   are linearly independent over the rationals.
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -106,4 +106,4 @@ and otherwise as in
   $\sum[e^{(\log n)^{1/2}}]/n!$ are linearly independent over the
   rationals.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

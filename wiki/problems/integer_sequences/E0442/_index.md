@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 442
@@ -48,8 +48,8 @@ the primes, in this logarithmic sense, has large pairwise greatest common
 divisors on average.
 
 **Status.** Disproved. The erdosproblems.com label was DISPROVED (LEAN). The
-suffix is a catalog label explained under Formalization, and no local kernel
-credit is claimed. Tao's Theorem 1 (Integers 24 (2024), paper A100;
+suffix is an erdosproblems.com label explained under Formalization, and no local
+kernel credit is claimed. Tao's Theorem 1 (Integers 24 (2024), paper A100;
 arXiv:2407.04226, v5) constructs, for every $C_0>0$, a set $A$ with
 $\sum_{n\in A,\,n\le x}1/n=\exp((C_0/2+o(1))(\log\log x)^{1/2}\log\log\log x)$
 and
@@ -121,7 +121,7 @@ and Codex and GPT-5.6 Sol as formal authors, and the file contains no
 `sorry` and no `axiom`. Because the file declares itself a formalization of
 Tao's result, it is recorded as a formalization link on Tao's claim page.
 Nothing here was built, audited or kernel-checked, and the Lean suffix is
-a catalog label.
+an erdosproblems.com label.
 
 ## Current assessment
 

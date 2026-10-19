@@ -4,7 +4,7 @@ title: "Linear sign patterns, including zeros"
 desc: |
   Proves the affine specialization used to count cell assignments.
 created: 2026-09-05T12:22:53Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:20:03Z
 ---
 
 ***
@@ -53,6 +53,6 @@ Finally $e<3$ gives the displayed bound. This counts all lower-dimensional
 faces as well as the open cells, so boundary equalities are included.
 
 **Related proof pages.**
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_2_5|theorem 2 5]].
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_2_5|Theorem 2.5]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0188/_index|Problem 188]].

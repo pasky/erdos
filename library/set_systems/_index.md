@@ -3,7 +3,7 @@ name: set_systems
 title: "Set Systems, Designs and Hypergraphs"
 desc: "Sources filed under Set Systems, Designs and Hypergraphs, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-17T00:39:36Z
 ---
 
 # Set Systems, Designs and Hypergraphs
@@ -33,6 +33,12 @@ shows they obstruct known approaches to fast matrix multiplication.
 [[set_systems/alweiss_2020_improved_bounds_sunflower_lemma/_index|alweiss_2020_improved_bounds_sunflower_lemma/]]: Improves the Erdos-Rado sunflower bound from roughly w^w to (log w)^w sets,
 and proves a sharp version for robust sunflowers.
 
+[[set_systems/asgarli_2025_blocking_sets_union_plane_curves/_index|asgarli_2025_blocking_sets_union_plane_curves/]]: Fixed-degree curve obstructions to blocking in large characteristic, and
+logarithmic-size curve families giving blocking sets. The consumed
+Frobenius class count is recorded at statement-reading depth.
+
+[[set_systems/ball_1996_multiple_blocking_sets_arcs/_index|ball_1996_multiple_blocking_sets_arcs/]]: Size bounds for multiple blocking sets and small-plane arc constructions, with the author manuscript distinguished from the journal edition.
+
 [[set_systems/barat_2021_intersecting_hypergraphs_maximal_covering_number/_index|barat_2021_intersecting_hypergraphs_maximal_covering_number/]]: Determines the minimum number of edges in intersecting r-uniform hypergraphs
 of covering number r for small r, showing q(5) = 13.
 
@@ -59,8 +65,8 @@ means at least n blocks, with n only for the near-pencil or a uniform regular
 system on k(k-1)+1 points.
 
 [[set_systems/bucic_et_al_2019_covering_graphs_by_monochromatic_trees_helly_type_results_hypergraphs/_index|bucic_et_al_2019_covering_graphs_by_monochromatic_trees_helly_type_results_hypergraphs/]]: Bounds the global cover number of a uniform hypergraph whose every q edges
-have a small cover, a Helly-type parameter whose two-point case is the
-Problem 644 quantity f(k,q).
+have a small cover, showing the Problem 644 quantity f(k,q) grows linearly in
+k without fixing its constant.
 
 [[set_systems/chowla_1960_maximum_number_pairwise_orthogonal_latin_squares/_index|chowla_1960_maximum_number_pairwise_orthogonal_latin_squares/]]: Proves the maximum number of pairwise orthogonal Latin squares of order n
 tends to infinity, and exceeds (1/3) n^{1/91} for all sufficiently large n.
@@ -82,6 +88,9 @@ replacing the log e error term by one of order log e over log log e.
 [[set_systems/edmonds_1965_transversals_matroid_partition/_index|edmonds_1965_transversals_matroid_partition/]]: Compiles both finite transversal and matroid-partition routes, all prescribed variants, and the relative matching representation.
 
 [[set_systems/ellis_2010_irredundant_families_subcubes/_index|ellis_2010_irredundant_families_subcubes/]]: Bounds the size of irredundant families of k-subcubes in the Boolean cube, gives a new proof of Meshulam's estimate, and records principal-family results and near-tight lower constructions.
+
+[[set_systems/entin_2018_monodromy_hyperplane_sections_curves/_index|entin_2018_monodromy_hyperplane_sections_curves/]]: Frobenius conjugacy classes of transverse sections of quasireflexive curves,
+with fixed-degree uniformity and the odd-characteristic reflexivity interface.
 
 [[set_systems/erdos_1946_asymptotic_number_latin_rectangles/_index|erdos_1946_asymptotic_number_latin_rectangles/]]: Proves the conjectured asymptotic count (n!)^k exp(-binom(k,2)) of n by k
 Latin rectangles (k rows on n symbols) for k < (log n)^{3/2-eps}.
@@ -154,6 +163,9 @@ of covering number at most two.
 [[set_systems/frankston_2019_thresholds_versus_fractional_expectation_thresholds/_index|frankston_2019_thresholds_versus_fractional_expectation_thresholds/]]: Proves Talagrand's fractional expectation-threshold conjecture, showing a
 threshold is within a log factor of its fractional lower bound.
 
+[[set_systems/fukuyama_2022_sunflower_conjecture_proven/_index|fukuyama_2022_sunflower_conjecture_proven/]]: An unrefereed claimed exponential sunflower bound, with the sequence
+selection in Section 2 requiring proof examination.
+
 [[set_systems/furedi_1984_hypergraphs_which_all_disjoint_pairs_have/_index|furedi_1984_hypergraphs_which_all_disjoint_pairs_have/]]: Shows a disjoint-union-free family of r-sets on n points, r >= 3, has fewer
 than 3.5 binom(n,r-1) members, settling the order of magnitude.
 
@@ -164,6 +176,8 @@ biclique partition formulations.
 [[set_systems/gao_2025_cliques_hypergraphs/_index|gao_2025_cliques_hypergraphs/]]: Proves that for k at least 3 and n large every k-uniform hypergraph on n
 vertices has at most n minus any fixed constant distinct clique sizes,
 answering a question of Erdős.
+
+[[set_systems/ge_2026_bounded_vc_dimension_implies_sunflower_conjecture/_index|ge_2026_bounded_vc_dimension_implies_sunflower_conjecture/]]: Reports an exponential sunflower bound for uniform set families of bounded VC dimension.
 
 [[set_systems/ghorbani_et_al_2007_inclusion_matrices_chains/_index|ghorbani_et_al_2007_inclusion_matrices_chains/]]: Builds, from a rank-chain decomposition of the Boolean lattice, a
 modification of the t-subset versus k-subset inclusion matrix with Smith
@@ -187,6 +201,9 @@ between 2r+2 and 2r + 2 log_2 r + O(log log r) for every r >= 4.
 
 [[set_systems/he_li_liu_wang_xia_2017_variable_lovasz_local_lemma/_index|he_li_liu_wang_xia_2017_variable_lovasz_local_lemma/]]: Variable-version Lovász local lemma results beyond Shearer's bound, including exclusive event systems and gapless event-variable bigraphs.
 
+[[set_systems/hefez_1989_non_reflexive_curves/_index|hefez_1989_non_reflexive_curves/]]: Reflexivity and generic tangent contact for projective curves in positive
+characteristic, including the degree-below-characteristic consequence.
+
 [[set_systems/huang_2012_size_hypergraph_matching_number/_index|huang_2012_size_hypergraph_matching_number/]]: Verifies Erdos's conjectured maximum edge count for k-uniform hypergraphs
 with no t disjoint edges whenever t is less than n/(3k^2).
 
@@ -196,6 +213,8 @@ random k-uniform hypergraphs, which it presents as resolving Shamir's
 problem.
 
 [[set_systems/kaced_romashchenko_vereshchagin_2017_conditional_information_inequality/_index|kaced_romashchenko_vereshchagin_2017_conditional_information_inequality/]]: Proves an entropy inequality under an explicit support condition and applies it to proper rich bipartite edge colorings, biclique covers, and a conditional Ingleton inequality.
+
+[[set_systems/kahn_1992_random_lines_projective_plane/_index|kahn_1992_random_lines_projective_plane/]]: Kahn shows that about k log k random lines of a projective plane of order k-1 almost surely have cover number k, so n(k) = O(k log k) whenever such a plane exists.
 
 [[set_systems/kahn_1994_problem_erdos_lovasz_ii/_index|kahn_1994_problem_erdos_lovasz_ii/]]: Proves that the least size n(r) of an intersecting family of r-sets such
 that every set of size r minus 1 misses some member is O(r), settling the
@@ -286,6 +305,8 @@ hypergraph has more than 0.5268 n^{1/4} 2^n edges for n >= 3.
 [[set_systems/rao_2020_coding_sunflowers/_index|rao_2020_coding_sunflowers/]]: Gives a short coding-theoretic proof that any family of more than (alpha p
 log(pk))^k sets of size k contains a p-sunflower.
 
+[[set_systems/shangguan_2026_thresholds_spread_set_systems_bounded_vc_dimension/_index|shangguan_2026_thresholds_spread_set_systems_bounded_vc_dimension/]]: Reports threshold and spread estimates with logarithmic dependence on VC dimension, including a sunflower bound for bounded VC dimension.
+
 [[set_systems/solymosi_2017_small_cores_3_uniform_hypergraphs/_index|solymosi_2017_small_cores_3_uniform_hypergraphs/]]: Proves that for every c > 0 and large n, any 3-uniform hypergraph on n
 vertices with at least cn^2 edges contains a core, a subgraph of minimum
 degree two, on at most 15 vertices.
@@ -294,6 +315,8 @@ degree two, on at most 15 vertices.
 its variations, with new results on monotone subsequences of windows of an
 infinite sequence and a list of open problems, among them Erdős's weighted
 question and his question on the largest sum of a monotone subsequence.
+
+[[set_systems/szonyi_1992_blocking_sets_finite_planes_spaces/_index|szonyi_1992_blocking_sets_finite_planes_spaces/]]: Survey of blocking sets in finite geometries, including probabilistic methods and the few-collinear-points question.
 
 [[set_systems/tamir_1983_balanced_matrices_location_problems/_index|tamir_1983_balanced_matrices_location_problems/]]: Proves balancedness for intersection matrices of neighborhood subtrees, distinguishes an equality-polyhedron theorem from fractional covering examples, and gives two restricted polynomial location cases.
 
@@ -349,6 +372,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/set_systems/E1178/_index|E1178]]
 - [[additive_combinatorics/frankl_furedi_1986_non_trivial_intersecting_families/_index|frankl_furedi_1986_non_trivial_intersecting_families]]
   - [[../wiki/problems/set_systems/E1020/_index|E1020]]
+- [[additive_combinatorics/petridis_2012_new_proofs_plunnecke_type_estimates/_index|petridis_2012_new_proofs_plunnecke_type_estimates]]
+  - [[../wiki/problems/set_systems/E0020/_index|E0020]]
 - [[discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]]
   - [[../wiki/problems/set_systems/E0702/_index|E0702]]
 - [[discrete_geometry/furedi_1991_maximal_independent_subsets_steiner_systems_planar_sets/_index|furedi_1991_maximal_independent_subsets_steiner_systems_planar_sets]]

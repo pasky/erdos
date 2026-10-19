@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 59
@@ -39,10 +39,10 @@ no, by Morris and Saxton's $C_6$ construction, so the two have the same
 answer.
 
 **Status.** Disproved. The erdosproblems.com label read "DISPROVED (LEAN)", and
-its suffix is a catalog label explained under Formalization. The Statement
-quantifies over every graph $G$, and its answer is no. It fails trivially for
-forests. For $G=P_3$, the path with two edges, the $G$-free graphs are the
-matchings. Then $\mathrm{ex}(n;P_3)=\lfloor n/2\rfloor$, while there are
+its suffix is an erdosproblems.com label explained under Formalization. The
+Statement quantifies over every graph $G$, and its answer is no. It fails
+trivially for forests. For $G=P_3$, the path with two edges, the $G$-free graphs
+are the matchings. Then $\mathrm{ex}(n;P_3)=\lfloor n/2\rfloor$, while there are
 $2^{(1/2+o(1))n\log_2 n}$ labeled matchings on $n$ vertices. For the stars
 $K_{1,k}$ with $k\ge4$, the bound fails even for unlabeled graphs. It also fails
 for a graph containing a cycle, by the status-defining source, Proposition 1.4
@@ -82,18 +82,18 @@ Problem #59, https://www.erdosproblems.com/59, accessed 2026-10-07.
 - [Va99] Various, Some of Paul's favorite problems. Booklet produced for the
   conference "Paul Erdős and his mathematics", Budapest, July 1999 (1999).
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label.
-formal-conjectures had no file for Problem 59 at `main` on 2026-10-07,
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label. formal-conjectures had no file for Problem 59 at `main` on 2026-10-07,
 and the erdosproblems.com indicator reads "Formalised statement? No". The
 community database (teorth/erdosproblems, accessed 2026-10-06) records `status`
-"disproved (Lean)", `formal_status` Lean and `formalized` "no", with its
-last update dated 2026-08-24, and names no artifact. The locatable artifact
-is the Lean development `src/latest/ErdosProblems/Erdos59.lean` of
-plby/lean-proofs (added 2026-08-17; pinned on the
+"disproved (Lean)", `formal_status` Lean and `formalized` "no", with its last
+update dated 2026-08-24, and names no artifact. The locatable artifact is the
+Lean development `src/latest/ErdosProblems/Erdos59.lean` of plby/lean-proofs
+(added 2026-08-17; pinned on the
 [[problems/extremal_graph_theory/E0059/claims/2013_09_11_morris_saxton|Morris--Saxton claim page]],
 whose proposition its header names as the informal source), repackaged as
-`problems/59/Erdos59.lean` of Jayyhk/erdos-lean (2026-08-31).
-Neither development was built or audited by this project.
+`problems/59/Erdos59.lean` of Jayyhk/erdos-lean (2026-08-31). Neither
+development was built or audited by this project.
 
 ## Current assessment
 

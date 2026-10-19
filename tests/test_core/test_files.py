@@ -2,13 +2,13 @@
 
 from __future__ import annotations
 
-import os
 import pathlib
-import subprocess
 
 import pytest
 
 from tools.core.files import precommit_coverage, prospective_tree, repository_files
+
+from .._helpers import run_git
 
 __all__ = [
     'test_repository_files_uses_git_ignore_policy',
@@ -30,39 +30,13 @@ def _write(path: pathlib.Path, text: str = 'content\n') -> None:
     path.write_text(text, encoding='utf-8')
 
 
-def _git(
-    root: pathlib.Path,
-    *arguments: str,
-    check: bool = True,
-) -> subprocess.CompletedProcess:
-    """Run fixture Git with isolated configuration and a pinned identity."""
-    env = dict(os.environ)
-    env['GIT_CONFIG_GLOBAL'] = os.devnull
-    env['GIT_CONFIG_SYSTEM'] = os.devnull
-    return subprocess.run(
-        [
-            'git',
-            '-c',
-            'user.name=tools',
-            '-c',
-            'user.email=tools@erdos.test',
-            *arguments,
-        ],
-        cwd=root,
-        capture_output=True,
-        text=True,
-        check=check,
-        env=env,
-    )
-
-
 def test_repository_files_uses_git_ignore_policy(tmp_path: pathlib.Path) -> None:
     """Test unstaged/new inclusion and ignored-output/deleted omission."""
-    subprocess.run(['git', 'init', '-q', str(tmp_path)], check=True)
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
     _write(tmp_path / '.gitignore', 'ignored.txt\n**/evidence/**/output/\n')
     _write(tmp_path / 'tracked.txt', 'before\n')
     _write(tmp_path / 'deleted.txt')
-    subprocess.run(['git', 'add', '.'], cwd=tmp_path, check=True)
+    run_git(tmp_path, 'add', '.')
     _write(tmp_path / 'tracked.txt', 'unstaged\n')
     (tmp_path / 'deleted.txt').unlink()
     _write(tmp_path / 'untracked.txt')
@@ -76,7 +50,7 @@ def test_repository_files_uses_git_ignore_policy(tmp_path: pathlib.Path) -> None
 
 def test_repository_files_never_follows_symlinks(tmp_path: pathlib.Path) -> None:
     """Test that internal, external, directory, and dangling links are omitted."""
-    subprocess.run(['git', 'init', '-q', str(tmp_path)], check=True)
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
     _write(tmp_path / 'inside.txt', 'inside\n')
     _write(tmp_path / 'directory' / 'nested.txt', 'nested\n')
     outside = tmp_path.parent / f'{tmp_path.name}_outside.txt'
@@ -99,9 +73,9 @@ def test_repository_files_omits_replaced_directory_symlinks(
 ) -> None:
     """Test tracked descendants of a replaced directory never follow its link."""
     root = tmp_path / 'repo'
-    subprocess.run(['git', 'init', '-q', str(root)], check=True)
+    run_git(tmp_path, 'init', '-q', '-b', 'main', str(root))
     _write(root / 'nested' / 'child' / 'tracked.txt')
-    subprocess.run(['git', 'add', '.'], cwd=root, check=True)
+    run_git(root, 'add', '.')
     index = root / '.git' / 'index'
     before = (index.read_bytes(), index.stat().st_mtime_ns)
     destination = tmp_path / 'outside' if external else root / 'moved'
@@ -118,7 +92,7 @@ def test_repository_files_fails_when_git_is_missing(
 ) -> None:
     """Test that unavailable Git cannot silently weaken repository coverage."""
 
-    subprocess.run(['git', 'init', '-q', str(tmp_path)], check=True)
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
     monkeypatch.setenv('PATH', str(tmp_path / 'no-executables'))
     with pytest.raises(RuntimeError, match='git unavailable'):
         repository_files(tmp_path)
@@ -129,7 +103,7 @@ def test_repository_files_does_not_mask_git_errors(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     """Test that an enumeration failure never becomes weaker source coverage."""
-    subprocess.run(['git', 'init', '-q', str(tmp_path)], check=True)
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
     broken = tmp_path / 'broken-index'
     _write(broken, 'broken\n')
     monkeypatch.setenv('GIT_INDEX_FILE', str(broken))
@@ -196,12 +170,12 @@ def test_prospective_tree_reads_the_working_tree_and_spares_the_index(
     _write(source, 'theorem t : True := trivial\n')
     runtime = repo / 'lean' / '.lake' / 'build' / 'Basic.olean'
     _write(runtime, 'object\n')
-    _git(repo, 'init', '-q', '-b', 'main')
-    _git(repo, 'add', '-A')
-    _git(repo, 'commit', '-qm', 'seed')
-    index = _git(repo, 'ls-files', '-s').stdout
+    run_git(repo, 'init', '-q', '-b', 'main')
+    run_git(repo, 'add', '-A')
+    run_git(repo, 'commit', '-qm', 'seed')
+    index = run_git(repo, 'ls-files', '-s').stdout
     # a clean checkout fingerprints to the committed subtree
-    committed = _git(repo, 'rev-parse', 'HEAD:lean').stdout.strip()
+    committed = run_git(repo, 'rev-parse', 'HEAD:lean').stdout.strip()
     assert prospective_tree(repo, 'lean', exclude=('lean/.lake',)) == committed
     # an unstaged edit changes the id; excluded runtime content never does
     _write(source, 'theorem t : True := by trivial\n')
@@ -213,18 +187,18 @@ def test_prospective_tree_reads_the_working_tree_and_spares_the_index(
     # the copy, and its blob never reaches the object database (an index entry
     # would have written one)
     (repo / '.gitignore').unlink()
-    blob = _git(repo, 'hash-object', str(runtime)).stdout.strip()
+    blob = run_git(repo, 'hash-object', str(runtime)).stdout.strip()
     assert prospective_tree(repo, 'lean', exclude=('lean/.lake',)) == edited
-    assert _git(repo, 'cat-file', '-e', blob, check=False).returncode != 0
+    assert run_git(repo, 'cat-file', '-e', blob, check=False).returncode != 0
     # the real index never changed
-    assert _git(repo, 'ls-files', '-s').stdout == index
+    assert run_git(repo, 'ls-files', '-s').stdout == index
     # excluded content the real index carries is dropped from the copy, even
     # when its staged and working copies disagree, and the real entry stays put
-    _git(repo, 'add', '-f', 'lean/.lake/build/Basic.olean')
+    run_git(repo, 'add', '-f', 'lean/.lake/build/Basic.olean')
     _write(runtime, 'rebuilt again\n')
-    forced = _git(repo, 'ls-files', '-s').stdout
+    forced = run_git(repo, 'ls-files', '-s').stdout
     assert prospective_tree(repo, 'lean', exclude=('lean/.lake',)) == edited
-    assert _git(repo, 'ls-files', '-s').stdout == forced
+    assert run_git(repo, 'ls-files', '-s').stdout == forced
     # a prefix left without trackable content has no tree: git's reason surfaces
     source.unlink()
     with pytest.raises(RuntimeError, match='prefix lean/ not found'):
@@ -241,16 +215,16 @@ def test_prospective_tree_rejects_non_top_level_roots(tmp_path: pathlib.Path) ->
     _write(root / 'lean' / 'Top.lean', 'theorem top : True := trivial\n')
     nested = root / 'sub'
     _write(nested / 'lean' / 'Nested.lean', 'theorem nested : True := trivial\n')
-    _git(root, 'init', '-q', '-b', 'main')
-    _git(root, 'add', '-A')
-    _git(root, 'commit', '-qm', 'seed')
+    run_git(root, 'init', '-q', '-b', 'main')
+    run_git(root, 'add', '-A')
+    run_git(root, 'commit', '-qm', 'seed')
     index = root / '.git' / 'index'
     before = (index.read_bytes(), index.stat().st_mtime_ns)
-    staged = _git(root, 'diff', '--cached', '--binary').stdout
+    staged = run_git(root, 'diff', '--cached', '--binary').stdout
     with pytest.raises(RuntimeError, match='requires the repository root'):
         prospective_tree(nested, 'lean')
     assert (index.read_bytes(), index.stat().st_mtime_ns) == before
-    assert _git(root, 'diff', '--cached', '--binary').stdout == staged
+    assert run_git(root, 'diff', '--cached', '--binary').stdout == staged
 
 
 def test_prospective_tree_fails_when_git_is_missing(
@@ -258,7 +232,7 @@ def test_prospective_tree_fails_when_git_is_missing(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     """Test absent Git raises a fingerprint failure instead of claiming no checkout."""
-    _git(tmp_path, 'init', '-q', '-b', 'main')
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
     monkeypatch.setenv('PATH', str(tmp_path / 'no-executables'))
     with pytest.raises(RuntimeError, match='git unavailable'):
         prospective_tree(tmp_path, 'lean')
@@ -281,15 +255,15 @@ def test_prospective_tree_hashes_entries_the_index_marks_as_unchanged(
     repo = tmp_path / 'repo'
     source = repo / 'lean' / 'Erdos' / 'Basic.lean'
     _write(source, 'theorem t : True := trivial\n')
-    _git(repo, 'init', '-q', '-b', 'main')
-    _git(repo, 'add', '-A')
-    _git(repo, 'commit', '-qm', 'seed')
-    committed = _git(repo, 'rev-parse', 'HEAD:lean').stdout.strip()
-    _git(repo, 'update-index', mark, 'lean/Erdos/Basic.lean')
-    marked = _git(repo, 'ls-files', '-v').stdout
+    run_git(repo, 'init', '-q', '-b', 'main')
+    run_git(repo, 'add', '-A')
+    run_git(repo, 'commit', '-qm', 'seed')
+    committed = run_git(repo, 'rev-parse', 'HEAD:lean').stdout.strip()
+    run_git(repo, 'update-index', mark, 'lean/Erdos/Basic.lean')
+    marked = run_git(repo, 'ls-files', '-v').stdout
     # the same edit in an unmarked clone names the expected tree
     clone = tmp_path / 'clone'
-    _git(tmp_path, 'clone', '-q', str(repo), str(clone))
+    run_git(tmp_path, 'clone', '-q', str(repo), str(clone))
     edit = 'theorem t : False := by sorry\n'
     _write(clone / 'lean' / 'Erdos' / 'Basic.lean', edit)
     expected = prospective_tree(clone, 'lean')
@@ -298,4 +272,4 @@ def test_prospective_tree_hashes_entries_the_index_marks_as_unchanged(
     _write(source, edit)
     assert prospective_tree(repo, 'lean') == expected
     # the real index keeps its mark
-    assert _git(repo, 'ls-files', '-v').stdout == marked
+    assert run_git(repo, 'ls-files', '-v').stdout == marked

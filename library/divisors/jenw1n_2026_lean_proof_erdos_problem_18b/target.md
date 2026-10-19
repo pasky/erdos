@@ -6,7 +6,7 @@ desc: |
   closed in the accepted file through a dyadic Fourier-mixing property proved
   in the same file.
 created: 2026-09-28T03:05:00Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -36,8 +36,8 @@ that is, $h(n!)<n^{o(1)}$.
 `True ↔ ∀ (ε : ℝ), 0 < ε → ∀ᶠ (n : ℕ) in Filter.atTop, ↑(Erdos18.practicalH n.factorial) < ↑n ^ ε`,
 with `Erdos18.practicalH n` the `Finset.sup` over `Finset.Icc 1 n` of the
 `sInf` of the sizes of divisor sets `D ⊆ n.divisors` with `m ∈ subsetSums D`
-(catalog file on `main`). The cast `↑(practicalH n.factorial)` is to the
-reals and `↑n ^ ε` is the real power; `∀ᶠ … in Filter.atTop` on `ℕ` is "for
+(formal-conjectures file on `main`). The cast `↑(practicalH n.factorial)` is to
+the reals and `↑n ^ ε` is the real power; `∀ᶠ … in Filter.atTop` on `ℕ` is "for
 all sufficiently large `n`"; the `True ↔` prefix is formal-conjectures' answer
 marker filled affirmatively, so proving the iff proves the right side.
 

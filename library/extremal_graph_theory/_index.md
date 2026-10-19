@@ -3,7 +3,7 @@ name: extremal_graph_theory
 title: "Extremal and Structural Graph Theory"
 desc: "Sources filed under Extremal and Structural Graph Theory, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-19T05:41:44Z
 ---
 
 # Extremal and Structural Graph Theory
@@ -483,14 +483,13 @@ graphs: Satz 6, every finite graph on N at least 4 vertices with at least
 and 5) forcing such a subgraph, and counts of the K_4 subdivisions through
 given vertices, edges and cycles of 3-connected and n-connected graphs.
 
-[[extremal_graph_theory/dirac_1963_extensions_turan_s_theorem_graphs/_index|dirac_1963_extensions_turan_s_theorem_graphs/]]: Dirac's 1963 extensions of Turán's theorem: a graph on n vertices with at
-least d_k(n) + α edges (α ≤ 1) contains, for every n' from k to n − 1, a
-subgraph on n' vertices with at least d_k(n') + α edges; so more than d_k(n)
+[[extremal_graph_theory/dirac_1963_extensions_turan_s_theorem_graphs/_index|dirac_1963_extensions_turan_s_theorem_graphs/]]: Dirac's 1963 extensions of Turán's theorem: an n-vertex graph with at least
+d_k(n) + α edges (α ≤ 1) contains, for every n' from k to n − 1, an
+n'-vertex subgraph with at least d_k(n') + α edges; so more than d_k(n)
 edges force K_{k+p} minus p edges for n ≥ k + p ≥ 2p + 2, and at exactly
-d_k(n) edges only the Turán graph avoids them if n ≥ k + p + 1 and p ≤ k − 3.
-At k = 3 the first theorem is the Dirac half of the statement that
-[n²/4] + 1 edges force, for every n' from 3 to n, an n'-vertex subgraph
-with [n'²/4] + 1 edges.
+d_k(n) edges only the Turán graph avoids them if n ≥ k + p + 1 and
+p ≤ k − 3. At k = 3 it is the Dirac half of: [n²/4] + 1 edges force an
+n'-vertex subgraph with [n'²/4] + 1 edges for each n' from 3 to n.
 
 [[extremal_graph_theory/diskin_samotij_2025_isoperimetry_product_graphs/_index|diskin_samotij_2025_isoperimetry_product_graphs/]]: Establishes a tensorized edge-isoperimetric inequality for Cartesian
 products through convex minorants of coordinate isoperimetric profiles, with
@@ -711,13 +710,13 @@ or asymptotic bounds for target diameters two, three, and five.
 conjecture of Problem 617, and proves its r=3 and r=4 cases.
 
 [[extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph/_index|erdos_harary_tutte_1965_dimension_graph/]]: Erdős, Harary and Tutte's 1965 note defining the dimension of a graph, the
-least n such that the graph embeds in Euclidean n-space with every edge of
-length 1 and its vertices at distinct points: the values for complete
-graphs, complete graphs less an edge and complete bipartite graphs
-(dim K_{m,n} = 4 for m, n at least 3, the upper bound by Lenz's
-construction), wheels, cubes and the Petersen graph, the bound dim G at most
-twice the chromatic number, and two unsolved problems, on critical graphs
-and on graphs whose k-vertex subgraphs have bounded dimension.
+least n such that the graph embeds in Euclidean n-space with distinct
+vertices and unit edges: the values for complete graphs, complete graphs
+less an edge and complete bipartite graphs
+(dim K_{m,n} = 4 for m, n at least 3), wheels, cubes and the Petersen graph,
+the bound dim G at most twice the chromatic number, and two unsolved
+problems, on critical graphs and on graphs whose k-vertex subgraphs have
+bounded dimension.
 
 [[extremal_graph_theory/fan_1987_diameter_2_critical_graphs/_index|fan_1987_diameter_2_critical_graphs/]]: Fan's 1987 paper on diameter 2-critical graphs: the Simon–Murty conjecture
 that such a graph on n vertices has at most [n^2/4] edges holds for n ≤ 24
@@ -751,6 +750,8 @@ chromatic index conjecture, dated to a Prague seminar of 1985 (Erdős's
 bipartite graphs of maximum degree d with no induced (k + 1)-matching, the
 description of the extremal graphs, and the conjecture that bipartite
 graphs have strong chromatic index at most d².
+
+[[extremal_graph_theory/ferudun_2026_erdos_max_cut_small_multiples/_index|ferudun_2026_erdos_max_cut_small_multiples/]]: An unrefereed order-ten certificate claims the sharp bipartization bound on 5n vertices for n at most forty; the source's integrality transfer and its remaining all-order gap are explicit, while the supplied verification package is incomplete.
 
 [[extremal_graph_theory/fishburn_1983_balanced_integer_arrays_matrix_packing_theorem/_index|fishburn_1983_balanced_integer_arrays_matrix_packing_theorem/]]: Fishburn's 1983 note proving Graham's degree-sequence form of the tree
 packing conjecture: vectors t^i of i positive integers summing to 2i − 1,
@@ -1079,15 +1080,13 @@ function, with h_3(4) ≥ 71 from the odd graph O_4 and
 liminf h_3(Δ)/Δ³ ≥ 253/225; unrefereed, with a declared use of AI tools in
 its ideation.
 
-[[extremal_graph_theory/lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs/_index|lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs/]]: Lazebnik, Ustimenko and Woldar's 1994 note: for k >= 3 and
-2 <= t <= k - 1, taking t copies of each vertex in the smaller part of a
-bipartite 2k-cycle-free graph of girth at least 2k + 2 gives bipartite
-2k-cycle-free graphs of the same magnitude r and constant at least
-t (2/(t+1))^r times the old one, so C_2k-extremal graphs are eventually
-non-bipartite or of girth at most 2k - 2; applied to the known girth-eight
-and girth-twelve families, lambda_3 >= 2/3^(4/3) and
-lambda_5 >= 4/5^(6/5), whose bipartite graphs disprove Problem 574 at
-k = 3 and k = 5 by the corpus's deduction.
+[[extremal_graph_theory/lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs/_index|lazebnik_ustimenko_woldar_1994_properties_certain_families_2k_cycle_free_graphs/]]: Lazebnik, Ustimenko and Woldar's 1994 note: for k >= 3 and 2 <= t <= k - 1,
+t copies of each vertex in the smaller part of a bipartite C_2k-free graph
+of girth >= 2k + 2 keep the magnitude r and raise the constant by a factor
+at least t (2/(t+1))^r, so C_2k-extremal graphs are eventually non-bipartite
+or of girth at most 2k - 2; girth-8 and girth-12 families give
+lambda_3 >= 2/3^(4/3) and lambda_5 >= 4/5^(6/5), whose bipartite graphs
+disprove Problem 574 at k = 3, 5 (the corpus's deduction).
 
 [[extremal_graph_theory/leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/_index|leonard_1972_graphs_at_most_four_line_disjoint_paths_connecting_any_two_vertices/]]: Leonard's 1972 determination of l_5(n), the least number of edges forcing
 two vertices joined by five edge-disjoint paths in a graph on n vertices:
@@ -1272,14 +1271,13 @@ c_k n log Δ(G) edges force a k-regular subgraph, the very dense case
 ex(n, f(c)n-reg) ≤ cn², and closing remarks on cycles with diagonals, two
 edge-disjoint cycles on one vertex set, and induced regular subgraphs.
 
-[[extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/_index|pyber_1996_covering_edges_connected_graph_paths/]]: Pyber's 1996 paper on Gallai's path conjecture: Theorem 0, a graph in
-which every cycle contains a vertex of odd degree (the even-degree
-vertices induce a forest) is covered by floor(n/2) edge-disjoint paths,
-shown best possible by K_{2m+1} minus m-1 independent edges, an odd
-semi-clique; Theorem I, every connected graph on n vertices is covered by
-n/2 + O(n^(3/4)) paths that may share edges; Theorem II, n/2 + 4e/n paths
-for e edges; and the example showing that no asymptotic form of Gallai's
-conjecture is weaker than the conjecture.
+[[extremal_graph_theory/pyber_1996_covering_edges_connected_graph_paths/_index|pyber_1996_covering_edges_connected_graph_paths/]]: Pyber's 1996 paper on Gallai's path conjecture: Theorem 0, a graph in which
+every cycle contains a vertex of odd degree is covered by floor(n/2)
+edge-disjoint paths, shown best possible by K_{2m+1} minus m-1 independent
+edges, an odd semi-clique; Theorem I, every connected graph on n vertices is
+covered by n/2 + O(n^(3/4)) paths that may share edges; Theorem II,
+n/2 + 4e/n paths for e edges; and the example showing that no asymptotic
+form of Gallai's conjecture is weaker than the conjecture.
 
 [[extremal_graph_theory/ramos_sun_2025_ai_enhanced_approach_tree_unimodality_conjecture/_index|ramos_sun_2025_ai_enhanced_approach_tree_unimodality_conjecture/]]: Reports a transformer-guided search finding tens of thousands of trees with
 non-log-concave independence sequences on 27 to 101 vertices; it reports no

@@ -6,7 +6,7 @@ desc: |
   from Martin's axiom for aleph_1 dense sets, with Baumgartner's relation
   omega_1 omega -> (omega_1 omega, 3)^2 stated as the imported input.
 created: 2026-09-28T04:28:49Z
-updated: 2026-09-28T04:28:49Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 [[research/erdos_1171/_index|..]]
@@ -152,9 +152,9 @@ by the same restriction and the transport fact of the lemma page.
 
 ## Fidelity and scope
 
-- *The erdosproblems.com question.* The catalog asks the relation for all finite
-  $k<\omega$ with $k$ triangle targets and $k+1$ colors. The theorem covers
-  every $k\ge1$. The instance $k=0$ is the one-color relation
+- *The erdosproblems.com question.* Bloom's catalog asks the relation for all
+  finite $k<\omega$ with $k$ triangle targets and $k+1$ colors. The theorem
+  covers every $k\ge1$. The instance $k=0$ is the one-color relation
   $\omega_1^2\to(\omega_1\omega)^2_1$, which holds outright: under the only
   coloring with one color the subset $\omega_1\omega$ of $\omega_1^2$ is
   homogeneous of order type $\omega_1\omega$. So, under
@@ -174,6 +174,14 @@ by the same restriction and the transport fact of the lemma page.
   $\omega_1\omega\to(\omega_1\omega,3)^2$, the case $k=1$ of the intermediate
   relation of Step 1. The slip is confined to the introduction and does not
   affect the proof.
+- *An alternative bridge, not reconstructed here.* With Theorem A at the full
+  strength the review reports, $\omega_1\omega\to(\omega_1\omega,n)^2$ for
+  every finite $n$, the finite Ramsey theorem for triangles in $k$ colors
+  replaces Lemma 2.1 in Step 1; that deduction is recorded on
+  [[../library/set_theory/baumgartner_1989_remarks_partition_ordinals/main_theorem|Baumgartner's result page]]
+  as an author-recorded step with no written source. The two bridges are
+  distinct methods with the same conclusion; only the deposit's is
+  reconstructed here.
 
 **Depends on.** Theorem A, imported with its proof not held, and
 [[research/erdos_1171/lemma_2_1_reconstruction|Lemma 2.1]]; Theorem C is

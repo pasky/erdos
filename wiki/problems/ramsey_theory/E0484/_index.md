@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 484
@@ -45,9 +45,9 @@ $M>M_0(k)$. Here $C^2_M$ counts the even integers up to $M$ that are sums of two
 distinct integers of one class. So for any fixed $c<\tfrac12$, at least $cM$
 integers up to $M$ are monochromatic sums once $M$ is large in terms of $k$.
 This is the statement with the absolute constant $c$. The source is a chapter of
-a Springer conference volume. The erdosproblems.com suffix (LEAN) is a catalog
-label whose scope is qualified under Existing formalization below. No local
-kernel credit is claimed. The claim page
+a Springer conference volume. The erdosproblems.com suffix (LEAN) is an
+erdosproblems.com label whose scope is qualified under Existing formalization
+below. No local kernel credit is claimed. The claim page
 [[problems/ramsey_theory/E0484/claims/1989_01_01_erdos_sarkozy_sos|Erdős, Sárközy and Sós 1989]]
 records the result, its postings and its acceptance evidence, and the
 frontmatter standing derives from it. The claim is accepted on
@@ -188,9 +188,9 @@ with $c=1/8$, without `sorry` or any declared axiom, followed by a comment
 recording `#print axioms` as `propext`, `Classical.choice`, `Quot.sound`.
 Aristotle is an automated prover; its authorship is recorded as provenance,
 and no independent check of the file is claimed. Nothing was built, audited
-or kernel-checked here; erdosproblems.com's "(LEAN)" suffix is a catalog label,
-the community database records no formal-proof URL, and the statements above are
-the only formal content inspected.
+or kernel-checked here; erdosproblems.com's "(LEAN)" suffix is an
+erdosproblems.com label, the community database records no formal-proof URL, and
+the statements above are the only formal content inspected.
 
 **Search scope (2026-09-17 UTC).** The problem, discussion and proof-claim
 pages; the community database record; the formal-conjectures file at the

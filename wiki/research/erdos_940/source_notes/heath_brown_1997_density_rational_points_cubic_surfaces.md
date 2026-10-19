@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Heath-Brown: The density of rational points
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Heath-Brown: The density of rational points on cubic surfaces
@@ -186,9 +186,34 @@ $$
 set for sums of two cubes, not on all integers represented by three cubes or by
 three arbitrary 3-powerful numbers.
 
-The collision bound cannot be converted into the required upper bound for the
-support of the representation function: integers having exactly one
-representation are not counted by the corollary. The paper therefore neither
+One concrete use in an E940 argument is to isolate collision-prone pair sums. If
+$E(x)$ denotes the exceptional set in the corollary and
+$C(x)=\{c^3\le x:c\ge0\}$, then the paper's result and the elementary bound
+$|C(x)|=O(x^{1/3})$ give
+
+$$
+|(E(x)+C(x))\cap[1,x]|\le |E(x)|\,|C(x)|
+ \ll_\varepsilon x^{7/9+\varepsilon}.
+$$
+
+Consequently, triple-cube sums admitting a decomposition $n=c^3+m$ in which
+the pair sum $m$ has multiple nontrivial two-cube representations form a
+density-zero exceptional class. Any attempted proof for three cubes could
+therefore discard this class and focus on decompositions whose two-cube subsums
+are uniquely represented. The paper supplies no estimate for that remaining
+class, which could still have positive density.
+
+Theorem 2 is potentially reusable if an E940 counting problem can be sliced into
+primitive zeros of nonsingular ternary quadratic forms with controlled
+determinant and bounded gcd of the $2\times2$ minors; Theorem 3 can complement
+it when one coordinate is fixed. Equations (2)–(5) and Lemmas 4–6 show exactly
+how this works for a cubic surface possessing three rational coplanar lines. No
+analogous reduction is provided for equal sums of three cubes, for sums
+involving general 3-powerful numbers, or for exponent $r\ge4$.
+
+In particular, the collision bound cannot be converted into the required upper
+bound for the support of the representation function: integers having exactly
+one representation are not counted by the corollary. The paper therefore neither
 proves density zero for sums of three cubes nor resolves any case of E940 as
 stated; its relevance is as a sharp geometric and quadratic-form treatment of
 one restricted collision locus inside the $r=3$ problem.

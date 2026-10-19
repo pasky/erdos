@@ -1,0 +1,160 @@
+{
+  "threshold": "p>=3",
+  "min_v2_n": 49,
+  "max_v2_n": 63,
+  "n_at_most": 10000000000000000000,
+  "necessary_row_conditions": "n=2^h*u, h>=2, u odd, 3*u^3<2^h",
+  "maximum_row_requiring_search": 9999680022622765056,
+  "totals": {
+    "rows": 17763,
+    "large_prime_power_in_n_minus_1": 7519,
+    "incompatible_prime_power_residues": 3423,
+    "large_prime_power_in_n_minus_2": 6821
+  },
+  "prime_power_residue_candidates": [],
+  "bad_triples": [],
+  "by_v2_n": [
+    {
+      "v2_n": 49,
+      "rows": 8882,
+      "large_prime_power_in_n_minus_1": 3797,
+      "incompatible_prime_power_residues": 1668,
+      "large_prime_power_in_n_minus_2": 3417
+    },
+    {
+      "v2_n": 50,
+      "rows": 4441,
+      "large_prime_power_in_n_minus_2": 1717,
+      "incompatible_prime_power_residues": 869,
+      "large_prime_power_in_n_minus_1": 1855
+    },
+    {
+      "v2_n": 51,
+      "rows": 2220,
+      "incompatible_prime_power_residues": 447,
+      "large_prime_power_in_n_minus_1": 908,
+      "large_prime_power_in_n_minus_2": 865
+    },
+    {
+      "v2_n": 52,
+      "rows": 1110,
+      "incompatible_prime_power_residues": 215,
+      "large_prime_power_in_n_minus_2": 401,
+      "large_prime_power_in_n_minus_1": 494
+    },
+    {
+      "v2_n": 53,
+      "rows": 555,
+      "incompatible_prime_power_residues": 107,
+      "large_prime_power_in_n_minus_1": 240,
+      "large_prime_power_in_n_minus_2": 208
+    },
+    {
+      "v2_n": 54,
+      "rows": 278,
+      "incompatible_prime_power_residues": 52,
+      "large_prime_power_in_n_minus_2": 112,
+      "large_prime_power_in_n_minus_1": 114
+    },
+    {
+      "v2_n": 55,
+      "rows": 139,
+      "incompatible_prime_power_residues": 34,
+      "large_prime_power_in_n_minus_1": 57,
+      "large_prime_power_in_n_minus_2": 48
+    },
+    {
+      "v2_n": 56,
+      "rows": 69,
+      "incompatible_prime_power_residues": 12,
+      "large_prime_power_in_n_minus_1": 27,
+      "large_prime_power_in_n_minus_2": 30
+    },
+    {
+      "v2_n": 57,
+      "rows": 35,
+      "incompatible_prime_power_residues": 9,
+      "large_prime_power_in_n_minus_2": 13,
+      "large_prime_power_in_n_minus_1": 13
+    },
+    {
+      "v2_n": 58,
+      "rows": 17,
+      "incompatible_prime_power_residues": 7,
+      "large_prime_power_in_n_minus_1": 4,
+      "large_prime_power_in_n_minus_2": 6
+    },
+    {
+      "v2_n": 59,
+      "rows": 9,
+      "large_prime_power_in_n_minus_1": 7,
+      "incompatible_prime_power_residues": 2
+    },
+    {
+      "v2_n": 60,
+      "rows": 4,
+      "large_prime_power_in_n_minus_2": 3,
+      "large_prime_power_in_n_minus_1": 1
+    },
+    {
+      "v2_n": 61,
+      "rows": 2,
+      "large_prime_power_in_n_minus_1": 2
+    },
+    {
+      "v2_n": 62,
+      "rows": 1,
+      "large_prime_power_in_n_minus_2": 1
+    },
+    {
+      "v2_n": 63,
+      "rows": 1,
+      "incompatible_prime_power_residues": 1
+    }
+  ],
+  "checks": {
+    "small_n_limit": 200,
+    "binomial_gcd_comparisons": 18818,
+    "cubic_discriminant_identity": "verified on every admissible tested pair",
+    "strict_threshold_positive_controls": [
+      [
+        10,
+        3,
+        5
+      ],
+      [
+        28,
+        3,
+        14
+      ],
+      [
+        244,
+        3,
+        122
+      ],
+      [
+        2188,
+        3,
+        1094
+      ]
+    ],
+    "endpoint_comparisons": 11174,
+    "last_two_label_positive_controls": [
+      [
+        76672,
+        26775
+      ],
+      [
+        175492,
+        60606
+      ]
+    ],
+    "alternating_cubic_identity_checks": 11174,
+    "proved_column_family_gcd_checks": 3145
+  },
+  "factorization_discovery": "SymPy 1.14.0; results checked by multiplication and exact primality certificates",
+  "sieve_primality_limit": 100000,
+  "recursive_prime_certificates": 57531,
+  "primality_witnesses": 229330,
+  "scope": "Exhaustive for the stated bound, using the proved reductions. No conclusion for unbounded v_2(n)."
+}

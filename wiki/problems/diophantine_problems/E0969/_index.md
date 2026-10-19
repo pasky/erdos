@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 969
@@ -106,6 +106,13 @@ the release asserts nothing about Problem 969, and even a verified power
 saving $E(x)\ll x^{1/2-\delta}$ would not determine the order of magnitude,
 so it would settle no instance of the question. The connection is recorded
 as context.
+
+## Route analysis
+
+The [[research/diophantine_representation_interfaces/mobius_split|the limitation
+of a pointwise mobius split]] account records the following scope. Assuming
+M(t)=O(t^theta), 0<=theta<1, the exact floor-sum split gives
+E(x)=O(D+xD^(theta-2)); balance D=x^(1/(3-theta)).
 
 <!-- BEGIN problem library links -->
 

@@ -5,7 +5,7 @@ desc: |
   Holds exact reviewed subjects, the full independent review and distinct
   grade, and the source-reading and commentary-correction records.
 created: 2026-09-10T21:29:05Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Evidence for Eberhard's divisor-ratio theorem
@@ -27,4 +27,4 @@ The outcome is refutation-failed relative to the quoted GGPY statement.
 That statement was checked against Eberhard's published Theorem 1; the
 original sieve proof was not inspected or certified. These records do not
 review the arXiv variants, community Lean file or later extension, and do
-not supply a catalog-status change, native tier or formal verification.
+not supply a problem-status change, native tier or formal verification.

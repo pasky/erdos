@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 938
@@ -35,13 +35,17 @@ https://www.erdosproblems.com/938.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/938.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/powerful_numbers_and_products/_index|Pell interval certificate]]
+exhausts every powerful number in $[130530625,130576327]$, the first
+interval in the held van Doorn construction, and finds four additional
+powerful numbers between the proposed progression terms. The seed therefore
+fails consecutiveness. The construction's one-core-at-a-time avoidance
+result does not establish simultaneous avoidance for all unwanted cores.
+Neither the finite certificate nor that quantifier observation decides the
+whole Pell family or the catalog question. No broader standing survey is
+supplied here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

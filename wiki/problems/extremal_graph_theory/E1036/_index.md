@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1036
@@ -34,8 +34,8 @@ no complete or edgeless subgraph on $c_1\log n$ vertices has at least $2^{c_2n}$
 induced subgraphs up to isomorphism. The claim page
 [[problems/extremal_graph_theory/E1036/claims/1997_07_15_shelah|Shelah]] records
 it as accepted on the refereed venue and on erdosproblems.com's acceptance after
-the forum comment of 13 September 2025. The erdosproblems.com Lean suffix is its
-catalog label for the external Lean development that declares itself a
+the forum comment of 13 September 2025. The erdosproblems.com Lean suffix is an
+erdosproblems.com label for the external Lean development that declares itself a
 formalization of Shelah's theorem. That development is carried as a
 `formalization` link on the claim page and described under Formalization below.
 It was not built or audited here. The proof-claim tab is empty, and nothing is
@@ -62,29 +62,27 @@ https://www.erdosproblems.com/1036.
 - [Sh98] Shelah, Saharon, Erdős and Rényi conjecture. J. Combin. Theory Ser. A
   82 (1998), no. 2, 179--185.
 
-**Formalization.** The erdosproblems.com Lean suffix is a catalog label. The
-file
+**Formalization.** The erdosproblems.com Lean suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/1036.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/1036.lean)
-of formal-conjectures at the pinned commit (4,172 bytes) declares `erdos_1036 :
-answer(True) ↔ ∀ c : ℝ, 0 < c → ∃ δ : ℝ, 0 < δ ∧ ∀ᶠ n : ℕ in atTop, ∀ G :
-SimpleGraph (Fin n), (G.cliqueNum : ℝ) ≤ c * Real.log n → (G.indepNum : ℝ) ≤ c *
-Real.log n → HasManyNonIsomorphicInducedSubgraphs G (2 ^ (δ * n))`, where the
-predicate asks for a family of at least that many vertex sets whose induced
-graphs are pairwise non-isomorphic, under `category research solved, AMS 5`,
-with proof `sorry` and a `formal_proof` attribute naming the file
-`src/v4.29.1/ErdosProblems/Erdos1036.lean` of the repository
-`plby/lean-proofs` on its `main` branch (unpinned); two variants, each
-`research solved` with `sorry`, state the Alon--Hajnal bound and the
-Erdős--Hajnal biclique form. The external file, at the pinned commit of
-15 September 2026, proves `erdos_1036` for every finite simple
-graph with the larger of clique number and independence number at most
-$c\log_2 n$, with a comment after `#print axioms` recording `propext`,
-`choice` and `Quot.sound`; the claim page
-[[problems/extremal_graph_theory/E1036/claims/1997_07_15_shelah|Shelah]]
-carries it as a `formalization` link and describes it. Nothing was built,
-audited or kernel-checked here, and no local credit is claimed. The
-community database records "proved (Lean)" and the erdosproblems.com indicator
-reads "Formalised statement? Yes".
+of formal-conjectures at the pinned commit (4,172 bytes) declares
+`erdos_1036 : answer(True) ↔ ∀ c : ℝ, 0 < c → ∃ δ : ℝ, 0 < δ ∧ ∀ᶠ n : ℕ in atTop, ∀ G : SimpleGraph (Fin n), (G.cliqueNum : ℝ) ≤ c * Real.log n → (G.indepNum : ℝ) ≤ c * Real.log n → HasManyNonIsomorphicInducedSubgraphs G (2 ^ (δ * n))`,
+where the predicate asks for a family of at least that many vertex sets whose
+induced graphs are pairwise non-isomorphic, under
+`category research solved, AMS 5`, with proof `sorry` and a `formal_proof`
+attribute naming the file `src/v4.29.1/ErdosProblems/Erdos1036.lean` of the
+repository `plby/lean-proofs` on its `main` branch (unpinned); two variants,
+each `research solved` with `sorry`, state the Alon--Hajnal bound and the
+Erdős--Hajnal biclique form. The external file, at the pinned commit of 15
+September 2026, proves `erdos_1036` for every finite simple graph with the
+larger of clique number and independence number at most $c\log_2 n$, with a
+comment after `#print axioms` recording `propext`, `choice` and `Quot.sound`;
+the claim page
+[[problems/extremal_graph_theory/E1036/claims/1997_07_15_shelah|Shelah]] carries
+it as a `formalization` link and describes it. Nothing was built, audited or
+kernel-checked here, and no local credit is claimed. The community database
+records "proved (Lean)" and the erdosproblems.com indicator reads "Formalised
+statement? Yes".
 
 ## Progress
 

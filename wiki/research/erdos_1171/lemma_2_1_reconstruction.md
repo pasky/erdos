@@ -6,7 +6,7 @@ desc: |
   (alpha, 3)^2 into alpha -> (alpha, 3, ..., 3)^2_{k+1} with k triangle
   targets for every finite k >= 1.
 created: 2026-09-28T04:28:49Z
-updated: 2026-09-28T06:30:56Z
+updated: 2026-10-14T01:24:39Z
 ---
 
 [[research/erdos_1171/_index|..]]
@@ -155,6 +155,9 @@ lemma.
   induction never uses that a triangle has three points. The source does not
   state this; Remark 3.2 (p. 4) only restates the lemma as the stability of
   $\alpha\to(\alpha,3)^2$ under adding finitely many colors with target $3$.
+  The generalization to distinct fixed targets in different colors is stated
+  as a lead in the [[research/erdos_1171/_index|folder index]] and is not part
+  of the source.
 
 **Depends on.** Nothing beyond the hypothesis $\alpha\to(\alpha,3)^2$.
 

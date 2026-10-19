@@ -1,0 +1,105 @@
+{
+  "i": 9,
+  "supplied_tail_power_of_ten": 122,
+  "inclusive_interval_cap_power_of_ten": 26,
+  "terminal_prime_lower_row": 113,
+  "coarse_cofactor_saving_scaled": 13500,
+  "visited_intervals": 1215975,
+  "certified_intervals": 607975,
+  "intervals_requiring_prime_pairs": 370403,
+  "total_partition_leaves": 607988,
+  "minimum_certified_log_margin": "0.0000021817297972731128077467069320170693857067897548923216",
+  "interval_partition_sha256": "7fe653f62ea6d48a177ce0c49d7da6dc85f30355fd0d17b4a3a97f8b3d6cd4d7",
+  "active_cofactor_graphs_used": 98,
+  "finite_pair_constraints": 12,
+  "exceptional_row_windows": 281,
+  "exact_singleton_rows": [
+    5832,
+    2408,
+    1380,
+    1032,
+    1030,
+    736,
+    256,
+    250,
+    246,
+    196,
+    133,
+    132,
+    128
+  ],
+  "exact_columns_checked": 6762,
+  "source_certificates": [
+    {
+      "file": "erdos_699_prime_pair_strips_9_middle.json"
+    },
+    {
+      "file": "erdos_699_prime_pair_strips_two_fifths.json"
+    }
+  ],
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "conclusion": "No bad index-nine triple has n<=10^122.",
+  "weighted_ramp_reduction": {
+    "i": 9,
+    "k": 6,
+    "primes": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "degree": 42,
+    "total_multiplicity": 72,
+    "weighted_moment": 228,
+    "minimal_vector_count": 4,
+    "capacity_configurations_checked": 20,
+    "minimum_gain": "3/2",
+    "worst_vector_scaled": [
+      0,
+      4500,
+      4500,
+      4500
+    ],
+    "worst_row_capacities_scaled": [
+      10000,
+      5500,
+      5500,
+      5500
+    ],
+    "off_maximum_factors": [
+      {
+        "prime": 2,
+        "exponent": 68,
+        "maximizing_positions": [
+          8
+        ]
+      },
+      {
+        "prime": 3,
+        "exponent": 21,
+        "maximizing_positions": [
+          6
+        ]
+      },
+      {
+        "prime": 5,
+        "exponent": 12,
+        "maximizing_positions": [
+          5
+        ]
+      },
+      {
+        "prime": 7,
+        "exponent": 12,
+        "maximizing_positions": [
+          7
+        ]
+      }
+    ],
+    "rough_denominator": 1,
+    "elementary_threshold": 612000,
+    "algebraic_cap_power_of_ten": 25,
+    "source_threshold": "FiniteK4 cofactor exponent9/20.",
+    "full_bound": "max(10^25, FiniteK4 cofactor exponent9/20.)"
+  }
+}

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:20Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 454
@@ -58,13 +58,15 @@ infimum over $0<i<n$ and carries no `formal_proof` annotation; its variant
 `two_le_limsup`, the Pomerance bound, is marked `research solved` with a
 `sorry` proof.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/prime_pattern_uniformity|gap-sum identity]]
+writes the margin as the minimum of all partial sums of forward prime gaps
+minus backward prime gaps. A large first difference, or infinitely many
+positive margins, does not make that minimum unbounded. The recorded finite
+data do not settle its growth. This author-recorded comparison identifies
+the missing simultaneous control of every partial sum at one center.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

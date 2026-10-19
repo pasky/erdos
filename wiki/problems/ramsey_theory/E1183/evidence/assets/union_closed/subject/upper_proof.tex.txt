@@ -1,0 +1,63 @@
+\section{The upper bound and the random colouring}
+\label{sec:upper}
+
+A family $A_1,\dots,A_d$ of subsets of $[n]$ is an \emph{independent
+system} if each $A_i$ has a \emph{private element}, that is, some
+$x_i\in A_i$ lying in no $A_{i'}$ with $i'\ne i$. A set $X\subseteq[n]$ is
+\emph{shattered} by a family $\cF$ if $\{A\cap X:\ A\in\cF\}=2^{X}$, and
+the \emph{Vapnik--Chervonenkis dimension} $\vc(\cF)$ is the largest size of
+a shattered set.
+
+\begin{lemma}
+\label{lem:indep}
+Let $d\ge0$ and $\cF\subseteq2^{[n]}$.
+\begin{enumerate}[label=\textup{(\alph*)},leftmargin=2em]
+\item If $A_1,\dots,A_d$ is an independent system, the $2^{d}-1$ unions
+$\bigcup_{i\in I}A_i$, $\emptyset\ne I\subseteq[d]$, are pairwise
+distinct.
+\item If $\cF$ shatters a set of size $d$, then $\cF$ contains an
+independent system of $d$ sets.
+\item \textup{(Sauer \cite{Sa72}, Shelah \cite{Sh72})} If $\vc(\cF)\le
+d$, then $|\cF|\le\sum_{j=0}^{d}\binom nj$.
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+(a) The private element $x_i$ lies in $\bigcup_{i'\in I}A_{i'}$ exactly
+when $i\in I$, so the union determines $I$. (b) If $X=\{x_1,\dots,x_d\}$
+is shattered, choose $A_i\in\cF$ with $A_i\cap X=\{x_i\}$; then $x_i$ is a
+private element of $A_i$. (c) This is the Sauer--Shelah lemma.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:upper}]
+Let $\chi$ be a uniformly random $2$-colouring of $2^{[n]}$, the colours
+of the $2^{n}$ sets being independent and uniform. Call an ordered
+$d$-tuple $(A_1,\dots,A_d)$ of subsets of $[n]$ \emph{bad} if it is an
+independent system and the $2^{d}-1$ sets $\bigcup_{i\in I}A_i$,
+$\emptyset\ne I\subseteq[d]$, all have the same colour. By
+Lemma~\ref{lem:indep}(a) these sets are distinct, so a fixed independent
+tuple is bad with probability $2^{1-(2^d-1)}=2^{2-2^{d}}$. There are at
+most $2^{nd}$ tuples, and $2^{nd}\cdot2^{2-2^{d}}<1$ by hypothesis, so
+some colouring has no bad tuple. Fix it.
+
+Let $\cF$ be a monochromatic union-closed family. If $\cF$ contained an
+independent system of $d$ sets, all unions of its members would lie in
+$\cF$ and have the same colour, and the system would be bad. So $\cF$
+contains no independent system of $d$ sets, $\vc(\cF)\le d-1$ by
+Lemma~\ref{lem:indep}(b), and $|\cF|\le\sum_{j<d}\binom nj$ by
+Lemma~\ref{lem:indep}(c).
+
+For the second assertion let $n\ge2$, and put $a=\lfloor\log_2n\rfloor$
+and $b=\lfloor\log_2a\rfloor$, so that $a\ge1$, $n<2^{a+1}$, $a<2^{b+1}$
+and $b+1\le a$. For $d=a+b+3$ we get
+\[
+2^{d}=2^{a+1}\cdot2\cdot2^{b+1}\ \ge\ 2(n+1)(a+1),
+\]
+whereas $nd+2=n(a+1)+n(b+2)+2\le2n(a+1)+2<2(n+1)(a+1)$, because
+$b+2\le a+1$ and $a\ge1$. So $2^{d}>nd+2$, and the first assertion gives
+$F(n)\le\sum_{j<d}\binom nj\le\sum_{j<d}n^{j}\le d\,n^{d-1}$. Finally
+$a\le\log_2n$ and $b\le\log_2a\le\log_2\log_2n$, so $d\le\log_2n+
+\log_2\log_2n+3$.
+\end{proof}
+
+[cut]

@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T14:15:22Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1088
@@ -93,6 +93,15 @@ and Straus. Neither settles an instance, so neither has a claim page. The
 behavior of $f_d(n)$ for fixed $d$ as $n\to\infty$ is
 [[problems/distance_problems/E1208/_index|Problem 1208]]. The question whether
 $f_d(n)=2^{o(d)}$ is open for every $n\ge4$.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/distance_subsets|repeated
+distances and geometric sidon subsets]] account records the following scope. For
+k=3, the vectors e_i+e_j in the d-dimensional affine hyperplane of R^(d+1) give
+binom(d+1,2) points with only two distances, hence no scalene triple; the held
+Blokhuis upper bound gives f_d(3)=d^2/2+O(d).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

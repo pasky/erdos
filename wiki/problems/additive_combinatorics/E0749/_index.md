@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 749
@@ -38,9 +38,22 @@ https://www.erdosproblems.com/749.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/749.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+[[../library/additive_bases/ruzsa_1990_just_basis/theorem_2|Ruzsa's
+second-moment bound]] $\sum_{n\le x}r_A(n)^2\le Cx$ implies that at most
+$Cx/M^2$ targets have $r_A(n)>M$. Discarding these target integers does not
+construct a set of generators with bounded representation function. Deleting
+generators can also destroy unique representations of other targets; that loss
+needs a separate estimate.
+
+A periodic lift cannot solve the problem either. If a nonempty residue class
+$r\bmod q$ is included in $A$, then at sufficiently large integers
+$n\equiv2r\pmod q$, the pairs of positive elements in that class summing to $n$
+already grow linearly with $n$. Thus the representation bound fails. These
+elementary deductions are author-recorded by Plasma AI; the source's second-moment theorem
+was inspected at statement depth. A useful thinning lemma must bound both the
+surviving multiplicities and the newly uncovered targets.
 
 ## Known Results
 

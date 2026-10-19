@@ -1,0 +1,33 @@
+{
+  "i": 11,
+  "terminal_prime_lower_row": 113,
+  "inclusive_cap_power_of_ten": 19,
+  "visited_intervals": 63613,
+  "certified_intervals": 31796,
+  "intervals_requiring_local_prime_pairs": 8134,
+  "minimal_prime_pair_vectors": 4,
+  "minimum_certified_log_margin": "0.0000076428820607233318079103055677674557604179781453689360",
+  "interval_partition_sha256": "be540286c6ccd54b084b81ea0ed61548515538853d3e5f80d4a83245dbcb3071",
+  "exact_singleton_rows": [
+    1380,
+    1032,
+    1030,
+    385,
+    352,
+    253,
+    252,
+    250,
+    135,
+    130,
+    129
+  ],
+  "total_partition_leaves": 31807,
+  "conclusion": "no bad triples",
+  "initial_numerical_tail_power_of_ten": 914,
+  "finite_pair_threshold": 19529739,
+  "finite_pair_sum": ".9999",
+  "exact_columns_checked": 2541,
+  "finite_pair_certificate_file": "erdos_699_finite_prime_pairs_small.json",
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "scope": "Full index-11 exclusion: analytic tail, intervals and exact small-row gcd checks."
+}

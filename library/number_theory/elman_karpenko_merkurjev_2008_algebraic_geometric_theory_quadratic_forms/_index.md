@@ -3,10 +3,11 @@ name: number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_qua
 title: "Elman–Karpenko–Merkurjev: Sections 17–18 of The Algebraic and Geometric Theory of Quadratic Forms"
 desc: |
   Proves the Cassels–Pfister, Representation, Quadratic Value and Springer
-  theorems on values and isotropy of quadratic forms over field extensions.
+  theorems on values and isotropy of quadratic forms over field extensions, two
+  of which drive the E940 compression obstruction.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T17:21:06Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Elman–Karpenko–Merkurjev: Sections 17–18 of The Algebraic and Geometric Theory of Quadratic Forms
@@ -124,6 +125,17 @@ no analytic counting theorem or density estimate.
 
 This source bears on [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
 
+[[../wiki/research/erdos_940/quadratic_compression|The E940 quadratic-compression
+note]] uses two results from the two sections in its obstruction. Theorem 17.12
+turns representation of the generic value of one anisotropic quadratic form by
+another into a subform inclusion. Corollary 18.5 (Springer's theorem) descends
+isotropy through the odd-degree extension obtained by replacing variables with
+odd powers. Together they give the note's obstruction for $r=2k$ with $k$ odd:
+a diagonal form $\sum_{i=1}^rd_iX_i^r$ with positive rational $d_i$ is not
+$Q(G_1,\ldots,G_m)$ for any positive-definite rational quadratic form $Q$ of
+dimension $m<r$ and rational functions $G_i$. This limits one construction
+strategy and settles no case of E940.
+
 Let
 $$
 P_r=\{m\in\mathbb N:\ v_p(m)>0\Rightarrow v_p(m)\ge r\text{ for every prime }p\}
@@ -172,7 +184,13 @@ structure. Nothing here is independently reviewed.
 
 **Bears on.**
 
-- [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the excerpt does
+- [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the corpus's
+  [[../wiki/research/erdos_940/quadratic_compression|quadratic-compression note]]
+  uses [[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/theorem_17_12|Theorem 17.12]] (p. 73) and
+  [[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/corollary_18_5|Corollary 18.5]] (p. 77) to show that, for $r=2k$ with
+  $k$ odd, a diagonal degree-$r$ form in $r$ variables with positive rational
+  coefficients is not a positive-definite rational quadratic form of
+  dimension less than $r$ evaluated at rational functions. The excerpt does
   not mention $r$-powerful numbers and proves nothing about the problem.
 
 **Results.**

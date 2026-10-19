@@ -42,8 +42,8 @@ Browse the record, discuss approaches and submit proofs at
 Each result claimed about a problem has a claim page: who claimed it, where and
 when, what it covers, and its evidence, listed as reviewed, refereed or
 formalized. A problem is open, claimed or solved according to its claim pages.
-The pages lean toward the catalog's rulings, and a page whose statement or
-standing departs from the catalog explains why.
+The pages lean toward the rulings of Bloom's catalog, and a page whose statement
+or standing departs from it explains why.
 
 The record's own precisely stated claims are claim cards (`L<n>`) under
 `wiki/theory/`. A card's verification tier records the scrutiny its evidence
@@ -56,18 +56,19 @@ supports:
   produce the proof.
 - **0:** recorded by its author.
 
-A new proof or disproof of a catalog problem made here is accepted only after an
-independent review of the whole argument against the exact statement.
-[The corpus anatomy](docs/anatomy.md#tiers) gives the full rules for each tier,
-and [verification](docs/verification.md) defines independent verification.
+A new proof or disproof of an erdosproblems.com problem made here is accepted
+only after an independent review of the whole argument against the exact
+statement. [The corpus anatomy](docs/anatomy.md#tiers) gives the full rules for
+each tier, and [verification](docs/verification.md) defines independent
+verification.
 
 ## Layout
 
 - `wiki/` — the mathematics wiki, a
   [plasma-wiki](https://github.com/plasma-ai/wiki) named `wiki`
-  - `problems/` — one folder per problem, `<subject>/E<nnnn>/`, with the catalog
-    number zero-padded to four digits. Each folder holds the problem page
-    `_index.md` and its claim pages under `claims/`. For example,
+  - `problems/` — one folder per problem, `<subject>/E<nnnn>/`, with the
+    erdosproblems.com number zero-padded to four digits. Each folder holds the
+    problem page `_index.md` and its claim pages under `claims/`. For example,
     `ramsey_theory/E0570/` is Problem 570 on
     [erdosproblems.ai](https://erdosproblems.ai/problems/570) and
     [erdosproblems.com](https://www.erdosproblems.com/570).
@@ -145,8 +146,8 @@ repository" button reads it.
 The problems, their numbers and their statements follow Thomas Bloom's catalog
 at [erdosproblems.com](https://www.erdosproblems.com/). This repository builds
 its record on that catalog, and [erdosproblems.ai](https://erdosproblems.ai/)
-presents the record. The pages take the catalog's status labels and rulings into
-account. The problem data also draws on the community database at
+presents the record. The pages take the status labels and rulings of Bloom's
+catalog into account. The problem data also draws on the community database at
 [teorth/erdosproblems](https://github.com/teorth/erdosproblems).
 
 ## License
@@ -157,4 +158,4 @@ licensed under the [Apache License 2.0](LICENSE). The writing (the pages under
 [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0). Third-party
 material keeps its own terms: the files the library holds, each under the term
 its card's `license` key records; the copies retained under `evidence/` folders;
-and quotations, including each problem's statement as the catalog prints it.
+and quotations, including each problem's statement as Bloom's catalog prints it.

@@ -12,14 +12,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 354
 
 [[problems/additive_bases/_index|..]]
 
-[[problems/additive_bases/E0354/claims/_index|claims/]]: The 5 claim pages of Problem 354, one per claimant's result; the problem's standing derives from them.
+[[problems/additive_bases/E0354/claims/_index|claims/]]: The 6 claim pages of Problem 354, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -55,8 +55,9 @@ $\gamma$ where $1<\gamma<2$?"; the two readings have different answers below.
 The erdosproblems.com source key is [ErGr80, p.58].
 
 **Status.** Open, the erdosproblems.com label OPEN (accessed 2026-09-28), which
-attached to the pair of questions. No claim settles the pair of questions, so
-the derived standing is open.
+attached to the pair of questions. The second question has pending
+answers of opposite polarity under its two unfixed readings, so the
+derived standing remains open.
 
 The first question (base $2$) has two accepted partial claims. One is
 [[problems/additive_bases/E0354/claims/2026_09_11_jenw1n|the bounty site Conjectures.io's certified Lean proof]],
@@ -64,21 +65,24 @@ which answers it yes for all $\alpha,\beta>0$ with $\alpha/\beta$ irrational.
 The other is
 [[problems/additive_bases/E0354/claims/1989_03_01_hegyvari|Hegyvári's 1989 theorem]]
 (Acta Math. Hungar.; refereed), which answers it yes when one coefficient is a
-dyadic rational and the other is not. The first question also has one pending
-partial claim,
-[[problems/additive_bases/E0354/claims/2026_09_13_yu_chen|the Yu–Chen manuscript]],
-which claims the stronger strong completeness. The full answer to the first
-question rests on this corpus's rebuild of the Conjectures.io file on the
-repository's pinned toolchain (Lean v4.34.1) and its kernel replay of the
-target, with Conjectures.io's certification reported, not counted; there is no
-refereed publication and no erdosproblems.com acceptance. The Current assessment
-records its provenance and limits.
+dyadic rational and the other is not. A third partial claim, [[problems/additive_bases/E0354/claims/2026_09_13_yu_chen|the Yu–Chen manuscript]], proves the stronger strong completeness; Plasma AI's internal review graded it sound, and it stays claimed until Jacob Parish at Plasma AI signs off. The full answer to the first question rests on this corpus's
+rebuild of the Conjectures.io file on the repository's pinned toolchain (Lean
+v4.34.1) and its kernel replay of the target, with Conjectures.io's certification reported, not counted; there is no
+refereed publication and no erdosproblems.com acceptance. The Current
+assessment records its provenance and limits.
 
-The second question has a pending partial claim under each of its two readings.
+The second question has results under each of its two readings.
 [[problems/additive_bases/E0354/claims/2026_09_05_kitamura|Kitamura's Lean proof at one base]]
 answers yes under the reading "for some $\gamma\in(1,2)$".
 [[problems/additive_bases/E0354/claims/2026_09_20_geneson|Geneson's Salem-base counterexample]]
-answers no under the reading "for every $\gamma\in(1,2)$".
+answers no under the reading "for every $\gamma\in(1,2)$", graded sound by Plasma AI's internal review with the sign-off of Jacob Parish at Plasma AI pending; Kitamura's claim is pending too. The separate
+[[theory/additive_bases/L33_dyadic_root_floor_completeness/_index|Plasma AI deduction at $\sqrt2$]]
+answers the existential reading yes; its whole-conclusion examination and
+separate grade are internal to Plasma AI, and it is recorded as a pending
+partial claim on
+[[problems/additive_bases/E0354/claims/2026_10_19_plasma_ai|its claim page]],
+which awaits an outside sign-off. Neither reading fixes
+the ambiguity of the original question.
 
 **Source.** [erdosproblems.com/354](https://www.erdosproblems.com/354),
 accessed 2026-09-28: the problem page (OPEN, with the erdosproblems.com note
@@ -330,20 +334,18 @@ and are touched by no 2026 source. The later Yu--Chen manuscript ([YuCh26],
 claims the stronger strong completeness of the nonzero value set, which would
 imply the first answer; it is dated 13 September 2026, its repository was
 created 12 September, it is listed on the erdosproblems.com proof-claims tab and
-in an open catalog PR, and it has no outside review or acceptance evidence, so
-it changes nothing here. Its argument is reconstructed section by section in
-[[research/erdos_354/_index|the research folder for this problem]], with
-Dirichlet's approximation theorem imported and the finite certificate of its
-Appendix A rechecked; an internal review of 2026-09-28 graded each of that
-folder's fourteen pages, the Fan and Geneson reconstructions included,
-faithful to its source and its argument sound
+in an open formal-conjectures PR, and it has no outside review; it stays claimed, pending the sign-off of Jacob Parish at Plasma AI after the internal review below, and, being stronger than the answer already accepted, changes no standing here. Its argument is reconstructed section by
+section in [[research/erdos_354/_index|the research folder for this problem]],
+with Dirichlet's approximation theorem imported and the finite certificate of
+its Appendix A rechecked; an internal review of 2026-09-28 graded each of that
+folder's fourteen pages, the Fan and Geneson reconstructions included, faithful
+to its source and its argument sound
 ([[research/erdos_354/evidence/verify/grade|the grade]]). That internal review
-assigns no tier; it covers the whole Yu--Chen argument, and acceptance of the
-Yu--Chen claim on it is pending until the project's reviewer signs off. Van
-Doorn's results of September and October 2025 are thread posts, so they have no
-claim page. [He91], [He94], [JiMa24] and [FaHe25] settle no instance of the
-problem, since [He91] is a measure statement and the other three concern pairs
-with $\beta=2^k\alpha$, a rational ratio; they have no claim page either.
+assigns no tier; it covers the whole Yu--Chen argument, and the Yu--Chen claim stays claimed until Jacob Parish at Plasma AI signs off. Van Doorn's results of September and
+October 2025 are thread posts, so they have no claim page. [He91], [He94],
+[JiMa24] and [FaHe25] settle no instance of the problem, since [He91] is a
+measure statement and the other three concern pairs with $\beta=2^k\alpha$, a
+rational ratio; they have no claim page either.
 
 **Standing of the second question: unresolved, two readings.** Under
 "for every $\gamma\in(1,2)$",
@@ -360,8 +362,8 @@ it "does not resolve the original question with base 2" (p. 13). A preprint
 of 20 September 2026 with no outside review; its Theorem 9 and Corollary 12
 are reconstructed in the same research folder, with Dubickas's theorem
 imported, and the internal review graded both reconstructions faithful and
-sound, with no tier; acceptance of Geneson's claim on that review is pending
-until the project's reviewer signs off.
+sound, with no tier; Geneson's claim stays claimed until Jacob Parish at
+Plasma AI signs off.
 Under "for some $\gamma\in(1,2)$", the formal-conjectures catalog's existential
 form,
 [[../library/additive_bases/kitamura_2026_lean_proof_erdos_problem_354_ii/erdos_354_part_ii_solved|Kitamura's theorem]]
@@ -369,7 +371,7 @@ form,
 $\lfloor\gamma^n\alpha\rfloor$ is complete for every $\alpha>0$, so the
 second sequence and the irrational ratio are not needed; an unreviewed
 GitHub proof of 5 September 2026 (the author's axiom report only), its
-catalog PR open and the existential quantifier disputed as a
+formal-conjectures PR open and the existential quantifier disputed as a
 misformalization in issue #6542. The thread adds two erdosproblems.com-attested
 items, neither verified by anyone in the thread or by this corpus: van Doorn's
 remark of 20 September 2025 that the proof of completeness for
@@ -380,8 +382,11 @@ in the thread verified. Fan's Remark 4.2 ([Fa26],
 [[../library/additive_bases/fan_2026_strongly_complete_sets_conjecture_erdos/remark_4_2|Remark 4.2]])
 concerns base $2$ only (the threshold $M_2^*=2$ would imply Hegyvári's
 conjecture; the paper proves $2\le M_2^*\le5$) and is context. Neither
-reading has a refereed or site-accepted source, so the second question is
-unresolved and its reading undetermined.
+reading has a refereed or erdosproblems.com-accepted source; the every-base reading's no is claimed, graded sound by Plasma AI's internal review with its sign-off pending. The some-base reading's yes is claimed, with an outside sign-off pending, through the Plasma AI deduction
+[[theory/additive_bases/L33_dyadic_root_floor_completeness/_index|L33]]
+at $\gamma=\sqrt2$, which uses the accepted indexed base-two theorem.
+Kitamura's separate proof remains pending. The two readings have opposite
+answers, so their unresolved interpretation leaves the problem open.
 
 **Search.** erdosproblems.com (problem page, history, all eleven thread
 comments, proof-claims tab); the community database copy
@@ -404,17 +409,45 @@ version of any 2026 source was looked for beyond the arXiv records, which
 show no journal reference or DOI for either preprint.
 
 **Remaining gaps.** (1) The second question's reading, "for some" or "for every"
-$\gamma$, is unfixed by erdosproblems.com and by both origins, and neither
-reading has acceptance evidence. (2) The first answer rests on this corpus's
-kernel replay of the bounty site's file, with no refereed publication, no
-erdosproblems.com acceptance and no catalog agreement. (3) The pinned catalog
+$\gamma$, is unfixed by erdosproblems.com and by both origins. Both
+readings have pending answers, with opposite polarity, so the ambiguity
+continues to prevent whole-problem closure. (2) The
+first answer rests on this corpus's kernel replay of the bounty site's file,
+with no refereed publication, no erdosproblems.com acceptance and no
+formal-conjectures agreement; the stronger Yu--Chen claim has Plasma AI's
+internal review, its sign-off pending. (3) The pinned formal-conjectures
 commits returned HTTP 404 on 2026-09-28; the replay reproduced the task's
 commit, and the proof's core rests on the kernel replay. (4) [He89], [JiMa24],
-[FaHe25] and van Doorn's ceiling write-up are not held; their results are
-erdosproblems.com-attested. (5) The rational-ratio cases of Hegyvári's
-conjecture are untouched by every 2026 source. (6) The Geneson preprint also
-bears on Problems 348 (Theorem 1) and 349 (Theorem 9), and the Fan preprint on
-Problems 254 and 124; those results belong to the pages of those problems.
+[FaHe25] and van Doorn's ceiling
+write-up are not held; their results are erdosproblems.com-attested. (5) The
+rational-ratio cases of Hegyvári's conjecture are untouched by every 2026
+source. (6) The Geneson preprint also bears on Problems 348 (Theorem 1) and 349
+(Theorem 9), and the Fan preprint on Problems 254 and 124; those results belong
+to the pages of those problems.
+
+**Research.** The Yu--Chen argument for the first question, Fan's Remarks
+4.1 and 4.2 and Geneson's Theorem 9 and Corollary 12 are reconstructed as
+author-recorded research pages, with their finite inputs rechecked, in
+[[research/erdos_354/_index|the Problem 354 research folder]], which changes
+nothing recorded here. The folder's
+[[research/erdos_354/connections|connections page]] holds author-recorded
+research on carrying the Yu--Chen descent to rational ratios, with the lead
+[[research/leads/rational_ratio_dyadic_floor_descent/_index|rational_ratio_dyadic_floor_descent]],
+on Fan's criterion at small bases and on Geneson's Corollary 12 at other
+Pisot and Salem bases; none of it is a claim, and none of it changes the
+status recorded here.
+
+The separate
+[[research/leads/dyadic_root_floor_completeness/_index|dyadic-root deduction]]
+uses the accepted base-two theorem to prove, at independently graded tier 1 in
+[[theory/additive_bases/L33_dyadic_root_floor_completeness/_index|L33]],
+that every ray $\lfloor t2^{n/m}\rfloor$, $t>0$, $m\ge2$, remains
+complete after finite deletion. At $m=2$ this supplies the existential
+reading using one ray alone. Its
+[[research/erdos_354/evidence/verify/dyadic_roots/_index|independent examination and separate grade]]
+accept the whole deduction and this consequence, with the source boundary
+and disclosed exposure ruling preserved. The result gives no
+universal-base conclusion and does not settle the ambiguous question.
 
 ## Progress and known results
 
@@ -456,17 +489,17 @@ Problems 254 and 124; those results belong to the pages of those problems.
   [[../library/additive_bases/jenw1n_2026_erdos_354_part_i_lean_proof/target|target]].
   Scope: base $2$ only, indexed (multiset) sums, no strong-completeness or
   set-union claim; Conjectures.io-accepted on a single kernel, no refereed
-  publication, no erdosproblems.com or catalog acceptance; replayed in the
-  kernel by this corpus.
+  publication, no erdosproblems.com or formal-conjectures acceptance; replayed
+  in the kernel by this corpus.
 - Yu--Chen 2026 manuscript [YuCh26] (13 September 2026; unrefereed; own Lean;
   later than Conjectures.io acceptance; a proof claim on erdosproblems.com;
-  catalog PR #6433 open): claims strong completeness of
+  formal-conjectures PR #6433 open): claims strong completeness of
   $\{\lfloor2^n\alpha\rfloor,\lfloor2^n\beta\rfloor\}\setminus\{0\}$ for
   $\alpha/\beta$ irrational, every finite deletion leaving all sufficiently
   large integers as sums of distinct remaining values, which implies the first
   answer;
   [[../library/additive_bases/yu_chen_2026_erdos_problem_354_i_strong_completeness_two_dyadic_floor_sequences/theorem|Theorem]];
-  a claim with no outside review, reconstructed in the research folder.
+  no outside review; graded sound by Plasma AI's internal review of its reconstruction in the research folder, its sign-off pending.
 - Kitamura 2026 Lean proof [Ki26] (5 September 2026; unreviewed; PR #5286 open;
   issue #6542 disputes the formalization): the formal-conjectures catalog's
   existential form of the second question holds with
@@ -482,8 +515,7 @@ Problems 254 and 124; those results belong to the pages of those problems.
   the interleaving is not complete;
   [[../library/additive_bases/geneson_2026_deletion_thresholds_exponential_examples_complete_sequences/corollary_12|Corollary
   12]]; answers the reading "for every $\gamma\in(1,2)$" negatively,
-  existentially and with no explicit coefficient; the author states it does not
-  resolve the base-$2$ question.
+  existentially and with no explicit coefficient; the author states it does not resolve the base-$2$ question; graded sound by Plasma AI's internal review, its sign-off pending.
 - Fan 2026 [Fa26] (arXiv:2607.14071v5, preprint), Corollary 1.2 and Remark 4.2:
   $2\le M_2^*\le5$, and $M_2^*=2$ would imply that $A_{\alpha,\beta}$ is
   strongly complete, hence Hegyvári's conjecture that it is complete, when

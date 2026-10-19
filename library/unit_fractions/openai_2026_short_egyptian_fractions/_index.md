@@ -7,7 +7,7 @@ desc: |
   consequences log log F(k) and log log v(k) of order k (Problems 148, 293).
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:50:13Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 # unit_fractions/openai_2026_short_egyptian_fractions
@@ -93,44 +93,43 @@ with `sorry`, matched against the `Problem337` declarations by
 `lean/ComparatorChallenges/ShortEgyptianFractions.lean` (one statement,
 `OAI.ShortEgyptian.main`, existence plus the two-sided bound, matched by
 `ShortEgyptianFractions.json` against a second development under
-`OAI/NumberTheory/ShortEgyptian/`); the catalog's main-results list names
-only the three `Problem337` declarations. All of this is read statically from
-the release's catalog. The corpus's verification built the `Problem337`
-declarations `main_double_log_order` and `egyptian_length_is_minimum` (for
-Problem 304), `counting_double_log_order` and
+`OAI/NumberTheory/ShortEgyptian/`); the main-results list of the release's
+catalog names only the three `Problem337` declarations. All of this is read
+statically from the release's catalog. The corpus's verification built the
+`Problem337` declarations `main_double_log_order` and
+`egyptian_length_is_minimum` (for Problem 304), `counting_double_log_order` and
 `one_expansions_finite_and_bounded` (for Problem 148), and
 `prescribed_denominator_corollary` and `missing_denominator_semantics` (for
 Problem 293), and checked their axioms (`propext`, `Classical.choice` and
 `Quot.sound` only). For Problem 304 that verification covers the question,
 answered yes: there are $c_1,c_2>0$ and $b_0$ with
-$c_1\log\log b\le N(b)\le c_2\log\log b$ for every $b\ge b_0$, where
-$N(a,b)$ is the least number of terms $1<n_1<\dots<n_k$ with sum $a/b$ and
-$N(b)$ is the maximum over all $1\le a<b$; so $N(b)\ll\log\log b$, in fact
+$c_1\log\log b\le N(b)\le c_2\log\log b$ for every $b\ge b_0$, where $N(a,b)$ is
+the least number of terms $1<n_1<\dots<n_k$ with sum $a/b$ and $N(b)$ is the
+maximum over all $1\le a<b$; so $N(b)\ll\log\log b$, in fact
 $N(b)\asymp\log\log b$, which also gives the order of magnitude that the
 problem's request to estimate $N(b)$ asks for. For Problem 148 it covers the
-double-exponential order of $F(k)$, the number of $k$-element sets of
-positive integers with reciprocal sum $1$: there are $c,C>0$ with
-$ck\le\log\log F(k)\le Ck$ for all large $k$, so
-$F(k)=\exp(\exp(\Theta(k)))$, which replaces the recorded lower bound
-$\exp(\exp(c'k/\log k))$, the upper half being already known
-(Elsholtz--Planitzer); not settled are an asymptotic formula, $F(k)$ up to
-constant factors, and the constant in $\log\log F(k)$ (the monograph's
-$c_0^{2^{k(1-\varepsilon)}}$ guess). For Problem 293 it covers the
-double-exponential order of $v(k)$ (the problem page's Formulation: the
-least $m>1$ in no $k$-term representation of $1$): for all large $k$,
+double-exponential order of $F(k)$, the number of $k$-element sets of positive
+integers with reciprocal sum $1$: there are $c,C>0$ with
+$ck\le\log\log F(k)\le Ck$ for all large $k$, so $F(k)=\exp(\exp(\Theta(k)))$,
+which replaces the recorded lower bound $\exp(\exp(c'k/\log k))$, the upper half
+being already known (Elsholtz--Planitzer); not settled are an asymptotic
+formula, $F(k)$ up to constant factors, and the constant in $\log\log F(k)$ (the
+monograph's $c_0^{2^{k(1-\varepsilon)}}$ guess). For Problem 293 it covers the
+double-exponential order of $v(k)$ (the problem page's Formulation: the least
+$m>1$ in no $k$-term representation of $1$): for all large $k$,
 $e^{e^{k/600}}\le v(k)\le1+k^{2^{k-1}}$ and
-$\log2/257\le\liminf\log\log v(k)/k\le\limsup\log\log v(k)/k\le\log2$,
-with $v(k)\ge e^{e^{ck}}$ eventually for each $c<\log2/257$; so
+$\log2/257\le\liminf\log\log v(k)/k\le\limsup\log\log v(k)/k\le\log2$, with
+$v(k)\ge e^{e^{ck}}$ eventually for each $c<\log2/257$; so
 $\log\log v(k)=\Theta(k)$, which proves the $e^{e^{ck}}$ lower bound van
 Doorn--Tang anticipated and rules out the monograph's $2^{2^{\sqrt k}}$
 alternative, while the exact slope (whether $\log\log v(k)/k\to\log2$, the
-monograph's $2^{2^{k(1-\varepsilon)}}$ guess) and any asymptotic for $v(k)$
-are not settled. The records are kept on the claim pages of
+monograph's $2^{2^{k(1-\varepsilon)}}$ guess) and any asymptotic for $v(k)$ are
+not settled. The records are kept on the claim pages of
 [[../wiki/problems/unit_fractions/E0304/_index|Problem 304]],
 [[../wiki/problems/unit_fractions/E0293/_index|Problem 293]] and
-[[../wiki/problems/unit_fractions/E0148/_index|Problem 148]], not on this
-card; `OAI.ShortEgyptian.main` is not named in that record and has no build
-or fidelity audit recorded here.
+[[../wiki/problems/unit_fractions/E0148/_index|Problem 148]], not on this card;
+`OAI.ShortEgyptian.main` is not named in that record and has no build or
+fidelity audit recorded here.
 
 Companions: the release groups this manuscript alone; no
 other manuscript of the release is listed as a companion.

@@ -6,7 +6,7 @@ desc: |
   sufficiently small mass and a support-interlacing condition give an
   irrational value at every integer base satisfying those hypotheses.
 created: 2026-09-17T15:54:43Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -67,7 +67,10 @@ Since $z_j\ge1$, its support count is not $o(x_j/z_j)$.
 Any coefficientwise splitting $a(n)+b(n)=\varphi(n)$ also fails:
 the union of the two supports must contain every positive integer.
 This is a failure of direct application, not a ban on other series with
-the same value.
+the same value. The
+[[../wiki/research/leads/totient_binary_series/analytic_sources|research account]]
+proves a fixed-dyadic-filter obstruction and gives a conditional signed
+multiplier to which this theorem would apply.
 
 The theorem and inherited condition were compared with the page images.
 The proof route and integer specialization were read. No independent

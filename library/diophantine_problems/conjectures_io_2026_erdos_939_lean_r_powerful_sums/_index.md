@@ -3,12 +3,12 @@ name: diophantine_problems/conjectures_io_2026_erdos_939_lean_r_powerful_sums
 title: "Conjectures.io: the Erdős 939 Lean submission and its formalization-defect review"
 desc: |
   Records the Conjectures.io Lean submission for Problem 939, kernel-checked
-  against a catalog statement that omitted positivity and paid as a
+  against a formal-conjectures statement that omitted positivity and paid as a
   formalization-defect award, whose accepted file also proves the infinitude
   of solutions for r at least 6 with positive summands.
 license: reserved
 created: 2026-09-28T03:04:00Z
-updated: 2026-10-08T01:51:15Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 # Conjectures.io: the Erdős 939 Lean submission and its formalization-defect review
@@ -47,18 +47,19 @@ so the record is not a resolution of the question; the file's
 `infinite_rpowerful_sums` is a kernel-checked proof that the second question (at
 most finitely many solutions) fails for every $r\ge6$, with positive summands.
 
-**Read status.** Claims checked: the certified target, the pinned catalog
-definitions, the statements of `IsPowerful`, `infinite_rpowerful_sums`,
-`infinite_rpowerful_sum_tuples`, `isPowerful_full`, `leg_ge_six`, `leg_four`,
-`leg_five`, `main_claim` and `target` were read clause by clause in the
-downloaded file; the proofs were not read, and the file was not built here.
-The verification and review records were read as Conjectures.io publishes them.
+**Read status.** Claims checked: the certified target, the pinned
+formal-conjectures definitions, the statements of `IsPowerful`,
+`infinite_rpowerful_sums`, `infinite_rpowerful_sum_tuples`, `isPowerful_full`,
+`leg_ge_six`, `leg_four`, `leg_five`, `main_claim` and `target` were read clause
+by clause in the downloaded file; the proofs were not read, and the file was not
+built here. The verification and review records were read as Conjectures.io
+publishes them.
 
 ## Verified target
 
 The certified theorem is `Bounty.target`, bound by
-`fcTypeOfName% "Erdos939.erdos_939"` to the catalog declaration at
-formal-conjectures commit `379fc0298dc146df549e7061c3ede0353a5bb51f`, whose
+`fcTypeOfName% "Erdos939.erdos_939"` to the formal-conjectures declaration at
+commit `379fc0298dc146df549e7061c3ede0353a5bb51f`, whose
 type the result page prints as
 
 ```lean
@@ -133,8 +134,8 @@ The result page (read 2026-09-27) shows Lean verification *Passed*, review
 establishes a result about a faulty formal statement. It does not settle the
 intended mathematical problem." The public verification report (schema 2)
 records `accepted: true`, `reason_code: VERIFIED`, every check passed except the
-two Nanoda boxes (not run), and the task id and catalog commit listed on the
-source record.
+two Nanoda boxes (not run), and the task id and formal-conjectures commit listed
+on the source record.
 
 The review decision, published in Conjectures.io's validator repository as
 `docs/review-decisions/2026-08-06-erdos-939.md` (decision date 2026-08-06,

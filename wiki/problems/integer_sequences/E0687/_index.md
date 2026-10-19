@@ -4,7 +4,7 @@ title: Problem 687
 desc: |
   Asks for the order of the longest initial interval that one residue class for
   each prime $p\le x$ can cover, the covering form of Jacobsthal's function. It
-  is open: an accepted partial claim gives $Y(x)\ll x^2/(\log x)^2$, so
+  is open: a pending partial claim gives $Y(x)\ll x^2/(\log x)^2$, so
   $Y(x)=o(x^2)$, and the order lies between $x\log x$ times iterated
   logarithms and that bound.
 tags:
@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-18T10:49:17Z
 ---
 
 # Problem 687
@@ -49,13 +49,13 @@ $Y(x)\ll x^{1+o(1)}$. The same inverse function is the $S(k)$ of
 is therefore the second question here (an observation made here;
 erdosproblems.com does not cross-reference the two pages). Three questions: the
 estimate, to which the label OPEN attaches and which stays open; the first
-displayed question, $Y(x)=o(x^2)$, answered yes by the accepted partial claim
+displayed question, $Y(x)=o(x^2)$, answered yes by the pending partial claim
 recorded under Status; and the second, $Y(x)\ll x^{1+o(1)}$, open.
 
 **Status.** Open. The label attaches to the estimate, which stays open, as
 does the second displayed question, $Y(x)\ll x^{1+o(1)}$: the exponent $2$ is
 not lowered. The first displayed question, $Y(x)=o(x^2)$, is answered yes by
-the accepted partial claim of 25 September 2026
+the pending partial claim of 25 September 2026
 ([[problems/integer_sequences/E0687/claims/2026_09_25_openai|its claim page]]).
 Apart from that claim, the search whose scope the Current assessment records
 found no upper bound below Iwaniec's $Y(x)\ll x^2$; this is a bounded negative
@@ -75,7 +75,8 @@ $$
 
 a saving of $(\log x)^2$ over Iwaniec's bound. The step from $h$ to $Y$ is
 authored, not formalized; Plasma AI reviewed it on 2026-10-12, and the claim
-page records the acceptance. The constant is not explicit. The manuscript's
+stays claimed until Jacob Parish at Plasma AI signs off. The constant is not
+explicit. The manuscript's
 Theorem 1.2 states the covering form directly with constant 1,
 $Y(z)<z^2/(\log z)^2$ for large $z$, without naming $Y(x)$ or this problem;
 that form is unreviewed. Theorem 1.2 and the Lean bound are one argument, not
@@ -240,7 +241,7 @@ bound known is $Y(x)\ll x^2$, which comes from Iwaniec's work [26] on
 Jacobsthal's function"), by [Er79d] p. 79 in the inverse form $B(n)>c\sqrt n$,
 and by [Gr26] Problem 46 ("The best upper bound is $y\ll x^2$, due to
 Iwaniec"); the search found nothing better in the literature, and the
-accepted partial claim recorded under Status lowers it to $x^2/(\log x)^2$
+pending partial claim recorded under Status lowers it to $x^2/(\log x)^2$
 with an unspecified constant. The conjectured order: [FGKMT18]
 p. 4 attests the Maier--Pomerance conjecture $Y(x)\ll x(\log x)^{2+o(1)}$ and
 remarks that it "places a serious (albeit conjectural) upper bound on how
@@ -330,7 +331,7 @@ repository linked; whether it yields a bound for $Y(x)$ is not determined on
 this page.
 
 **Bounds map.** From refereed and attested sources,
-$x\log x\log_3x/\log_2x\ll Y(x)\ll x^2$; the accepted partial claim of 25
+$x\log x\log_3x/\log_2x\ll Y(x)\ll x^2$; the pending partial claim of 25
 September 2026 (the
 [[problems/integer_sequences/E0687/claims/2026_09_25_openai|claim page]]) lowers
 the upper bound to $x^2/(\log x)^2$ with an unspecified constant and so answers
@@ -349,7 +350,7 @@ Iwaniec's $a(n)\ll n^2(\log n)^2$; and A058989, the largest number of
 consecutive integers each divisible by a prime at most the $n$-th prime, which
 is $Y(p_n)=$ A048670$(n)-1$.
 
-**Search scope.** Apart from the release behind the accepted partial claim
+**Search scope.** Apart from the release behind the pending partial claim
 above, which the routes below do not cover, none of them found an upper bound
 below $x^2$, a refereed account of the erdosproblems.com-accepted improvement,
 or a proof claim on this page.
@@ -393,17 +394,19 @@ the erdosproblems.com curator's credit; it has no refereed version, and its
 manuscript is not checked here. (3) [Er96b] is not held; its passage is unknown
 here. (4) The Maier--Pomerance conjecture is recorded only as attested by
 [FGKMT18]. (5) Proofs are compiled at statement level; the proof of (1.2) is not
-checked here. (6) The accepted answer to the first displayed question rests on
+checked here. (6) The claimed answer to the first displayed question rests on
 the release's Lean declaration `erdos_970_quadratic`, built and audited for
 Problem 970, and on an authored step from $h$ to $Y$ ([FGKMT18]'s (1.3),
-$\omega(P(x))=\pi(x)$ and Chebyshev's bound) that Plasma AI reviewed and that is
-not formalized; its constant is not explicit. The manuscript's constant-1 form
+$\omega(P(x))=\pi(x)$ and Chebyshev's bound) that Plasma AI reviewed, with the sign-off of Jacob Parish at Plasma AI pending, and that is not formalized; its constant is not explicit. The manuscript's constant-1 form
 $Y(z)<z^2/(\log z)^2$ (its Theorem 1.2, whose survivor form in the release's
 tree is an interior declaration, not audited) and the sharper declaration
 `erdos_970_iterated_log`, which would give
 $Y(x)\ll x^2/((\log x)^2(\log\log x)^2)$, are not accepted here; a refereed
 version, an independent review of the manuscript, or an audited formal statement
 would be needed for either.
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

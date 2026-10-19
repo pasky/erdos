@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1014
@@ -120,25 +120,24 @@ Bloom, Erdős Problem #1014, https://www.erdosproblems.com/1014, accessed
   $r(s,k)\ge c_sk^{s-1}/(\log k)^{2s-4}$ for fixed $s\ge3$. Library home:
   [[../library/ramsey_theory/bradac_2026_off_diagonal_ramsey_numbers/theorem_1_1|bradac_2026_off_diagonal_ramsey_numbers / theorem_1_1]].
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label; see
-"Formalization and the Lean label" below for the two Lean developments and
-their standing. The file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below for the two Lean
+developments and their standing. The file
 [`ErdosProblems/1014.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/1014.lean)
-of formal-conjectures at the `main` revision of 2026-09-18 (pinned in the
-link) declares
+of formal-conjectures at the `main` revision of 2026-09-18 (pinned in the link)
+declares
 `erdos_1014 : ∀ k : ℕ, 3 ≤ k → Tendsto (fun l : ℕ ↦ (R(k, l + 1) : ℝ) / (R(k, l) : ℝ)) atTop (𝓝 1)`
 (with `R(k, l)` local notation for `SimpleGraph.classicalRamsey k l`) under
 `category research solved` with proof `sorry` and a `formal_proof` attribute
-naming `src/v4.29.1/ErdosProblems/Erdos1014.lean` in Boris Alexeev's
-repository `plby/lean-proofs` on that repository's `main` branch, and the
-variant
+naming `src/v4.29.1/ErdosProblems/Erdos1014.lean` in Boris Alexeev's repository
+`plby/lean-proofs` on that repository's `main` branch, and the variant
 `erdos_1014.variants.upper_bound : ∃ c : ℝ, 0 < c ∧ ∀ k : ℕ, 3 ≤ k → ∃ C : ℝ, ∀ᶠ l : ℕ in atTop, (R(k, l + 1) : ℝ) ≤ (1 + C * (l : ℝ) ^ (-c / (k : ℝ) ^ 2)) * (R(k, l) : ℝ)`,
 also `research solved` and `sorry`, without a formal-proof attribute. The
 community database (accessed 2026-09-18) lists the problem as proved (Lean) as
-of its last update on 24 April 2026, the statement as formalized as of its
-last update on 5 August 2026, `formal_status` Lean and no formal-proof URL.
-The erdosproblems.com indicator records a formalized statement. Nothing was
-built or kernel-checked here.
+of its last update on 24 April 2026, the statement as formalized as of its last
+update on 5 August 2026, `formal_status` Lean and no formal-proof URL. The
+erdosproblems.com indicator records a formalized statement. Nothing was built or
+kernel-checked here.
 
 ## Current assessment
 
@@ -250,8 +249,8 @@ $R(k,l+1)/R(k,l)\le1+O_k((\log l)^{2k-4}/l)$; this is the sharpening the
 thread's comment of 22 June 2026 reports, checked here from the two cited
 statements.
 
-**Formalization and the Lean label.** erdosproblems.com's "(LEAN)" suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** erdosproblems.com's "(LEAN)" suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos1014.lean` in `plby/lean-proofs` on its
 `main` branch, not a fixed commit. That repository's head on

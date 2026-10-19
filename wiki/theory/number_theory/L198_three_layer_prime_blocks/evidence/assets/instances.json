@@ -1,0 +1,14 @@
+{
+  "base_cells": [[0, 1], [2, 1], [2, 2]],
+  "instances": [
+    {"m": 1, "alpha": "3", "q": 441, "primes": 4, "count": 8},
+    {"m": 1, "alpha": "7/2", "q": 1095, "primes": 4, "count": 8},
+    {"m": 1, "alpha": "39/10", "q": 4449, "primes": 4, "count": 8},
+    {"m": 2, "alpha": "3", "q": 11883, "primes": 27, "count": 36},
+    {"m": 2, "alpha": "7/2", "q": 23353, "primes": 27, "count": 39},
+    {"m": 2, "alpha": "39/10", "q": 116757, "primes": 23, "count": 33},
+    {"m": 3, "alpha": "3", "q": 315023, "primes": 302, "count": 220},
+    {"m": 3, "alpha": "7/2", "q": 630017, "primes": 272, "count": 218},
+    {"m": 3, "alpha": "39/10", "q": 3149441, "primes": 254, "count": 217}
+  ]
+}

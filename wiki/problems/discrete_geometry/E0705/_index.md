@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 705
@@ -30,10 +30,19 @@ cycles of length $<k$) then $\chi(G)\leq 3$?
 
 **Status.** Disproved. erdosproblems.com credits O'Donnell's 1999 dissertation,
 which gives a finite unit distance graph of girth $k$ and chromatic number $4$
-for every $k\ge3$. The accepted claim is
+for every $k\ge3$. The accepted full claim is
 [[problems/discrete_geometry/E0705/claims/1999_10_01_odonnell|the dissertation's Theorem 28]].
 O'Donnell's unit distance graphs allow unit distances between non-adjacent
 vertices. The claim page records how the problem's faithful graph is reached.
+Earlier constructions exclude small girth bounds. Wormald's $4$-chromatic
+graph of girth $5$ excludes every $k\le5$ and is an accepted partial claim on
+[[problems/discrete_geometry/E0705/claims/1979_08_01_wormald|its claim page]].
+The $4$-chromatic graphs of girth $4$ of
+[[problems/discrete_geometry/E0705/claims/1994_07_01_odonnell|O'Donnell 1994]]
+and
+[[problems/discrete_geometry/E0705/claims/1995_01_01_chilakamarri|Chilakamarri 1995]]
+exclude every $k\le4$ if their point sets carry no unit distance besides the
+edges; both are pending partial claims.
 
 **Source.** [erdosproblems.com/705](https://www.erdosproblems.com/705), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #705,

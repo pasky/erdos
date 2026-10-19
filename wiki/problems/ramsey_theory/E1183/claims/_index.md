@@ -4,7 +4,7 @@ desc: The 2 claim pages of Problem 1183, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:13:08Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-15T23:59:17Z
 ---
 
 # problems/ramsey_theory/E1183/claims
@@ -18,7 +18,9 @@ is unreviewed.
 
 [[problems/ramsey_theory/E1183/claims/2026_09_30_bhattacharjee_mandal_bhattacharya|2026_09_30_bhattacharjee_mandal_bhattacharya]]: Bhattacharjee, Mandal and Bhattacharya (Zenodo 30 September 2026, arXiv 2
 October) claim $F(n)\ge n^{\omega(n)}$ with $\omega(n)\to\infty$ and
-$F(n)<(1+o(1))^n$ for any number of colors, with a Lean 4 development of their
-own. The claim is unreviewed here.
+$F(n)<(1+o(1))^n$ for each fixed number of colors, with a Lean 4 development of their
+own. Its exact arXiv v1 union-family arguments have a whole-proof examination
+and distinct passing grade; the upper bounds retain an explicit Sauer–Shelah
+premise. Catalog acceptance remains pending.
 
 ***

@@ -6,7 +6,7 @@ desc: |
   consecutive prime gaps is nonzero for almost all n, proved from a
   Selberg-sieve bound on shifted prime tuples.
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-08T14:33:49Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -54,5 +54,5 @@ coefficient polynomial $Q_i(\delta_n,\ldots,\delta_{n+\ell})$ is nonzero
 for almost all $n$; the same passage (p. 9) also uses that, for almost all $n$, none
 of $\delta_n,\ldots,\delta_{n+\ell}$ exceeds $\log^2n$.
 
-**Bears on.** No catalog problem directly; it is a tool for Theorem 3,
+**Bears on.** No erdosproblems.com problem directly; it is a tool for Theorem 3,
 which is context for [[../wiki/problems/irrationality/E0251/_index|#251]].

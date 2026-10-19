@@ -2,10 +2,11 @@
 name: discrete_geometry/regev_stephens_davidowitz_2016_reverse_minkowski_theorem
 title: "A Reverse Minkowski Theorem"
 desc: |
-  Develops reverse-Minkowski and stable-lattice Gaussian estimates.
+  Develops reverse-Minkowski and stable-lattice Gaussian estimates used in
+  the E0774 Boolean-moment construction.
 license: CC-BY-4.0
 created: 2026-09-21T17:56:01Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T00:37:26Z
 ---
 
 # A Reverse Minkowski Theorem

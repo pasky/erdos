@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-18T10:11:03Z
 ---
 
 # Problem 1063
@@ -42,8 +42,11 @@ evidence. The erdosproblems.com label was unchanged, and these claims are
 recorded without being adopted.
 
 Two further upper bounds lie outside the tab. Patrick White's repository of 25
-July 2026 claims $n_k\le\exp(Ck\log\log k/\log k)$ for large $k$. It is recorded
-on [[problems/integer_sequences/E1063/claims/2026_07_25_white|its claim page]].
+July 2026 gives $n_k\le\exp(Ck\log\log k/\log k)$ for large $k$,
+graded sound by an independent whole-proof examination and a separate passing
+grade under explicit classical interfaces; it stays claimed until Jacob Parish
+at Plasma AI signs off. It is recorded on
+[[problems/integer_sequences/E1063/claims/2026_07_25_white|its claim page]].
 A Lean 4 proof of 1 October 2026 by the LEAP prover agent, linked by the
 formal-conjectures catalog, gives the stronger bound
 $n_k=O(\exp(\frac{k}{\log k}(\log\log k+\log\log\log k+\log2)))$. It is recorded
@@ -84,13 +87,24 @@ Lean proofs of it and of the four companion statements, produced by the LEAP
 prover agent and recorded on
 [[problems/integer_sequences/E1063/claims/2026_10_01_leap|its claim page]].
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+[[problems/integer_sequences/E1063/claims/2026_07_25_white|White's partial result]], claimed pending the sign-off of Jacob Parish at Plasma AI, proves the eventual upper bound $n_k\le\exp(Ck\log\log k/\log k)$,
+$\log n_k=o(k)$ and $n_k=o(k\operatorname{lcm}(1,\ldots,k-1))$.
+The [whole-proof examination](claims/evidence/verify/white_upper_bound/report.md)
+and [separate PASS grade](claims/evidence/verify/white_upper_bound/grading.md)
+preserve the least-value definition, exactly one failed divisor and every
+sufficiently large integer. Their explicit classical interfaces and source
+provenance limits remain on the claim page. This does not determine the
+sharp growth of $n_k$, so Problem 1063 remains open.
 
-## Known Results
+The [[research/arithmetic_construction_interfaces/sequence_upper_bound_scope|statement comparison]]
+relates these upper-bound conclusions to the formal little-o improvement
+question, whose comparator uses the natural-number least common multiple.
+White's pending lcm consequence supplies that improvement. The stronger
+LEAP formula and Cipollini claims keep their own stated standing; this review
+does not inspect their proofs or transfer acceptance to them.
 
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

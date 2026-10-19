@@ -5,7 +5,7 @@ desc: |
   Gimbel and Thomassen's two-sided bound on the maximum chromatic number of a
   triangle-free graph of genus g; the bounds differ by a factor (log g)^(2/3).
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -65,4 +65,4 @@ extend its method.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

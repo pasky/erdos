@@ -7,7 +7,7 @@ desc: |
   the erdosproblems.com entry, and the trichotomy for C_3, C_5 and longer odd
   cycles.
 created: 2026-09-18T11:30:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T06:58:01Z
 ---
 
 ***
@@ -70,6 +70,7 @@ None.
   accepted full claims on Problem 809, each with formalized evidence:
   [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab]]'s
   proof of the seven-cycle case with a Lean development for every $k\ge3$,
-  filed first, and
-  [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|Plasma AI]]'s
-  kernel-checked Lean proof covering every $k\ge3$.
+  filed first on erdosproblems.com, and
+  [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_24_plasma_ai|Plasma AI]]'s
+  independent kernel-checked Lean proof covering every $k\ge3$, published first
+  on GitHub.

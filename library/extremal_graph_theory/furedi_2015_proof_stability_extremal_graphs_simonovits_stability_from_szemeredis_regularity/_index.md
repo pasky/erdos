@@ -6,7 +6,7 @@ desc: |
   graphs.
 license: reserved
 created: 2026-09-18T02:00:29Z
-updated: 2026-10-08T16:58:15Z
+updated: 2026-10-19T04:19:04Z
 ---
 
 # A proof of the stability of extremal graphs, Simonovits' stability from Szemerédi's regularity
@@ -91,10 +91,7 @@ stability theorem.
 **Bears on.**
 
 - [[../wiki/problems/extremal_graph_theory/E0617/_index|Problem 617]]:
-  ingredients only. Theorem 1 and Corollary 2 apply to each graph left by
-  deleting one colour class of a hypothetical counterexample, giving the edit
-  budget of the reduction above; the paper does not mention the problem, and
-  the reduction does not settle it.
+  ingredients only; the paper does not mention the problem.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

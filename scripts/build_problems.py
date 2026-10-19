@@ -64,9 +64,15 @@ def route(tags: list[str], number: str, taxonomy: dict) -> str:
     if number in taxonomy['overrides']:
         return taxonomy['overrides'][number]
     for rule in taxonomy['rules']:
+        # the fallback rule's empty tag list matches every problem, so reaching
+        # it means the problem carries no tag a rule claims
+        if not rule['tags']:
+            break
         if all(tag in tags for tag in rule['tags']):
             return rule['folder']
-    raise ValueError(f'problem {number} with tags {tags} matches no rule')
+    known = {tag for rule in taxonomy['rules'] for tag in rule['tags']}
+    unknown = [tag for tag in tags if tag not in known]
+    raise ValueError(f'problem {number} with tags {tags} matches no rule; unrecognized tags: {unknown}')
 
 
 def page_tags(number: str, tags: list[str], edits: dict) -> list[str]:
@@ -294,7 +300,7 @@ def main() -> None:
     # locate existing problem folders anywhere under problems/
     existing = {path.parent.name: path.parent for path in root.glob('*/E[0-9][0-9][0-9][0-9]/_index.md')}
     pending = []
-    for name, folder in folders.items():
+    for name in folders:
         if not (root / name / '_index.md').exists():
             pending.append(('index', name, root / name / '_index.md'))
     for number, folder in sorted(placement.items(), key=lambda item: int(item[0])):

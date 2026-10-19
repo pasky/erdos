@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 838
@@ -41,13 +41,17 @@ https://www.erdosproblems.com/838.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/geometric_configuration_interfaces/convex_subsets|convex-polygon
+thresholds and subset counts]] account records the following scope. Double
+counting, for $n\ge M=ES(k)$, gives at least $\binom nk/\binom Mk$ convex $k$-subsets.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,0 +1,8 @@
+{
+  "convention": "ordinary positive-difference APs in [0,N), absolute signed sum >= 2",
+  "cases": [
+    {"k": 2, "claimed_minimum": 2},
+    {"k": 3, "claimed_minimum": 8},
+    {"k": 4, "claimed_minimum": 12}
+  ]
+}

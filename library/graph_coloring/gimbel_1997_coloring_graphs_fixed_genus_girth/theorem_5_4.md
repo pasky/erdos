@@ -8,7 +8,7 @@ desc: |
   polynomial algorithm for the chromatic number of triangle-free projective
   graphs.
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -68,4 +68,4 @@ Theorem 5.1 (Thomassen, J. Combin. Theory Ser. B 62 (1994)) and Theorem 5.2
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

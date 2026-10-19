@@ -6,7 +6,7 @@ desc: |
   F stays anisotropic over every finite field extension of odd degree, with
   no assumption on the characteristic.
 created: 2026-10-08T17:08:01Z
-updated: 2026-10-08T17:08:01Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -54,4 +54,13 @@ reviewed.
 
 ## Bears on
 
-No problem page of this corpus.
+- [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+  corpus's note
+  [[../wiki/research/erdos_940/quadratic_compression|on quadratic compression]]
+  uses it to descend isotropy from $\mathbb Q(X_1,\ldots,X_r)$ to
+  $\mathbb Q(X_1^k,\ldots,X_r^k)$, an extension of odd degree $k^r$ when
+  $r=2k$ with $k$ odd, before applying the
+  [[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/theorem_17_12|Representation Theorem 17.12]].
+  The resulting obstruction limits one construction strategy for the
+  problem; the corollary says nothing about $r$-powerful numbers, and neither
+  it nor the note settles any case of the problem.

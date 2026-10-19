@@ -1,0 +1,228 @@
+{
+  "scope": "Analytic extension of the pair cofactor ranges. Existing finite-index aggregate certificates remain unchanged.",
+  "source_file": "erdos_699_i10_numerical_pairs.json",
+  "groups": [
+    {
+      "index": 7,
+      "input_strip_file": "erdos_699_prime_pair_strips_7_extended.json",
+      "common_extended_pair_cap_power_of_ten": 149273239,
+      "records": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "final_exponents": [
+            367123584,
+            231629193
+          ],
+          "original_finite_exponent": "11/25",
+          "numerical_global_targets": [
+            "1643/5000",
+            "2911/10000"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 497522,
+          "previous_finite_cap_power_of_ten": 100000001,
+          "terminal_corner_cap_power_of_ten": 155896756,
+          "logarithmic_margins": [
+            "[13461208.61267951307374404810154858, 13461208.61267951307374404810154858]",
+            "[1.2996546800353278168240699231932135, 1.2996546800353278168240699231932135]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "final_exponents": [
+            368618091,
+            158755171
+          ],
+          "original_finite_exponent": "11/25",
+          "numerical_global_targets": [
+            "2669/10000",
+            "2701/10000"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 718704,
+          "previous_finite_cap_power_of_ten": 100000001,
+          "terminal_corner_cap_power_of_ten": 151364209,
+          "logarithmic_margins": [
+            "[0.958946169775147781957656744140036, 0.958946169775147781957656744140036]",
+            "[1115294.1892854024876189506166155477, 1115294.1892854024876189506166155477]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "final_exponents": [
+            233019820,
+            159060773
+          ],
+          "original_finite_exponent": "11/25",
+          "numerical_global_targets": [
+            "319/1250",
+            "941/2500"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 996148,
+          "previous_finite_cap_power_of_ten": 100000001,
+          "terminal_corner_cap_power_of_ten": 149273239,
+          "logarithmic_margins": [
+            "[0.4253332787599583433273378914341475, 0.4253332787599583433273378914341475]",
+            "[41658178.507782329598810232881980468, 41658178.507782329598810232881980468]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "input_strip_file": "erdos_699_prime_pair_strips_9_extended.json",
+      "common_extended_pair_cap_power_of_ten": 266368210,
+      "records": [
+        {
+          "pair": [
+            2,
+            3
+          ],
+          "final_exponents": [
+            854470325,
+            539110752
+          ],
+          "original_finite_exponent": "41/100",
+          "numerical_global_targets": [
+            "1643/5000",
+            "2911/10000"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 497522,
+          "previous_finite_cap_power_of_ten": 241547629,
+          "terminal_corner_cap_power_of_ten": 362845532,
+          "logarithmic_margins": [
+            "[31330602.415878232425978800541761166, 31330602.415878232425978800541761166]",
+            "[1.1311927518382215477601844828169157, 1.1311927518382215477601844828169157]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        },
+        {
+          "pair": [
+            2,
+            5
+          ],
+          "final_exponents": [
+            946834770,
+            407779540
+          ],
+          "original_finite_exponent": "41/100",
+          "numerical_global_targets": [
+            "2669/10000",
+            "2701/10000"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 718704,
+          "previous_finite_cap_power_of_ten": 241547629,
+          "terminal_corner_cap_power_of_ten": 388795070,
+          "logarithmic_margins": [
+            "[1.3575503745909552901618052621441514, 1.3575503745909552901618052621441514]",
+            "[2864749.6105808622089999181384490078, 2864749.6105808622089999181384490078]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        },
+        {
+          "pair": [
+            2,
+            7
+          ],
+          "final_exponents": [
+            877060171,
+            312415137
+          ],
+          "original_finite_exponent": "41/100",
+          "numerical_global_targets": [
+            "2747/10000",
+            "401/1250"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 575027,
+          "previous_finite_cap_power_of_ten": 241547629,
+          "terminal_corner_cap_power_of_ten": 364016847,
+          "logarithmic_margins": [
+            "[0.0991276927173931821732062566829099, 0.0991276927173931821732062566829099]",
+            "[38640088.385451537896474889778521407, 38640088.385451537896474889778521407]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        },
+        {
+          "pair": [
+            3,
+            5
+          ],
+          "final_exponents": [
+            554940385,
+            378805744
+          ],
+          "original_finite_exponent": "41/100",
+          "numerical_global_targets": [
+            "319/1250",
+            "941/2500"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 996148,
+          "previous_finite_cap_power_of_ten": 241547629,
+          "terminal_corner_cap_power_of_ten": 355496579,
+          "logarithmic_margins": [
+            "[1.0259917243383782439566026878101997, 1.0259917243383782439566026878101997]",
+            "[99209608.586178587438808052711982817, 99209608.586178587438808052711982817]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        },
+        {
+          "pair": [
+            3,
+            7
+          ],
+          "final_exponents": [
+            530647046,
+            299590074
+          ],
+          "original_finite_exponent": "41/100",
+          "numerical_global_targets": [
+            "99/2000",
+            "3261/10000"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 918924,
+          "previous_finite_cap_power_of_ten": 241547629,
+          "terminal_corner_cap_power_of_ten": 266368210,
+          "logarithmic_margins": [
+            "[1.1392556328035650530048947909491643, 1.1392556328035650530048947909491643]",
+            "[169648591.90062046542889686026154074, 169648591.90062046542889686026154074]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        },
+        {
+          "pair": [
+            5,
+            7
+          ],
+          "final_exponents": [
+            407097015,
+            336704843
+          ],
+          "original_finite_exponent": "41/100",
+          "numerical_global_targets": [
+            "3921/10000",
+            "2657/10000"
+          ],
+          "numerical_global_height_threshold_power_of_ten": 197514,
+          "previous_finite_cap_power_of_ten": 241547629,
+          "terminal_corner_cap_power_of_ten": 387510013,
+          "logarithmic_margins": [
+            "[112783530.9381432970582645698587379, 112783530.9381432970582645698587379]",
+            "[0.08215178817446083433961926718613487, 0.08215178817446083433961926718613487]"
+          ],
+          "conclusion": "The remaining orthant contains no positive pair solution below the stated height cap."
+        }
+      ]
+    }
+  ],
+  "new_modular_inversions": 0
+}

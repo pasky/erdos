@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T13:55:35Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 708
@@ -109,6 +109,15 @@ linked from
 it was not built or audited here.
 
 ## Current assessment
+
+The
+[[research/arithmetic_construction_interfaces/multiplicative_selection|sign and
+residue reductions]] show that the at-most formulation over positive intervals
+is equivalent to the one over arbitrary integer intervals: reflect negative
+intervals and use $\{0\}$ when zero is present. For fixed $A$, starts modulo
+$\prod A$ give a complete finite test. Even conditional on the claimed
+large-maximum theorem, $n$ remains unbounded, so this is not a finite complement
+to either displayed question.
 
 The modified Statement, the sources' at-most reading of the erdosproblems.com
 question, is the dated target; Bloom's catalog labeled the question OPEN.
@@ -213,8 +222,9 @@ These are source statements, not new bounds proved in this account.
 
 The 1992 domain consists of positive intervals, whereas the displayed
 erdosproblems.com statement and the 1959 summaries allow arbitrary consecutive
-integers. The at-most interpretation above does not assert equivalence of those
-interval domains or silently transfer a result or status between them.
+integers. The sign reduction linked under Current assessment proves equivalence
+of those domains for the at-most formulation. It transfers a bound with all its
+original hypotheses and standing; it does not verify the external proof.
 
 <!-- BEGIN problem library links -->
 

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Bounds on ternary cyclotomic coefficients."
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Bounds on ternary cyclotomic coefficients
@@ -73,3 +73,30 @@ entirely of $1$'s and the other to contain no $1$'s.  The alternative count
 formulas then force, after permuting $p,q,r$, a mixed second difference of
 $F$ to have absolute value $2$, contradicting the values $0,\pm1$ prescribed
 by Lemma 2.3.  This excludes jumps of size $2$ and proves Theorem 1.5.
+
+## Relation to E0774
+
+Let $n=pqr$ be a product of three distinct odd primes.  The coefficient of
+$x^j$ in $(1-x)\Phi_n(x)$ is
+$a_n(j)-a_n(j-1)$ (with coefficients outside the natural range taken as
+zero), so Theorem 1.5 says exactly that $(1-x)\Phi_n(x)$ is flat: all of its
+coefficients lie in $\{-1,0,1\}$.  Since $n$ is odd,
+$\Phi_{2n}(x)=\Phi_n(-x)$, and the coefficient of $x^j$ in
+$(1+x)\Phi_{2n}(x)$ is $(-1)^j(a_n(j)-a_n(j-1))$; this polynomial is flat as
+well.
+
+Consequently, if $\zeta$ is a primitive $n$th root of unity, the vanishing
+of $(1-\zeta)\Phi_n(\zeta)$ gives a nontrivial signed relation among
+$1,\zeta,\ldots,\zeta^{\varphi(n)+1}$, with coefficients in
+$\{-1,0,1\}$ and support of size at most $\varphi(n)+2$.  The same statement
+for a primitive $2n$th root follows from $(1+x)\Phi_{2n}(x)$.  These are
+explicit short signed root relations of the kind whose supports obstruct
+dissociation in the relation-hypergraph formulation of E0774.
+
+The consequence is limited to the finite root sets attached to ternary orders
+(and their doubles).  Theorem 1.5 controls coefficient size, not the number of
+nonzero coefficients, and the upper bound $\varphi(n)+2$ grows with $n$.
+It therefore supplies neither bounded-length relations along an infinite
+family nor a uniform coloring or finite decomposition of an infinite
+proportionately dissociated set; in particular, it does not address the
+asymptotic extraction and compatibility issues in E0774.

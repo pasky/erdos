@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 460
@@ -118,3 +118,36 @@ divergence of the prime reciprocal sum and of its tails, and a negated existence
 statement for the sequence, posted without a file; it is not a formalization of
 the problem. No search beyond erdosproblems.com, its discussion thread and the
 notes linked there is recorded here.
+
+## Research
+
+These author-recorded arguments and source-fit limitations are by Plasma AI.
+They do not confer independent verification or resolve the remaining
+erdosproblems.com question.
+
+Keep the truncated sum, full sum, and rough-complement variant distinct, as well
+as average versus all-$n$ conclusions.
+
+For any fixed $K$, take $n>K+1$ divisible by
+$\operatorname{lcm}(1,\ldots,K)$.
+In the coprime greedy formulation $n-a_0=n$, $a_0=0$, is
+already selected. Offset 1 is allowed, since $\gcd(n,n-1)=1$.
+For $2\le a\le K$,
+$$
+ \gcd(n-a,n)=\gcd(a,n)=a>1,
+$$
+so every such offset fails already against $n$.
+For the rough-complement condition, $a\mid n-a$ also gives
+$P^-(n-a)\le a$, rejecting it.
+Thus the reciprocal contribution from positive offsets at most $K$
+is exactly 1 on infinitely many $n$, in both variants.
+
+This defeats a proof from a fixed finite supply of small offsets. It neither
+bounds the total sum on those inputs nor contradicts divergence: the
+contributing offsets can grow with $n$.
+
+The missing step is a uniform multiscale lower bound on accepted
+offsets, separately for the rough and complementary subseries. A useful test is
+to test a proposed uniform lower bound on multiples of lcm(1,...,K), with K
+allowed to grow only within its proved range. Stop if an average or limsup is
+promoted to a limit, or an uncut sum is used.

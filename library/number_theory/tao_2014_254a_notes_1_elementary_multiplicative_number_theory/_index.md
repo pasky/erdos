@@ -6,7 +6,7 @@ desc: |
   page with no PDF.
 license: unstated
 created: 2026-09-18T18:30:59Z
-updated: 2026-10-08T01:50:54Z
+updated: 2026-10-14T00:37:26Z
 ---
 
 # 254A, Notes 1: Elementary multiplicative number theory
@@ -25,10 +25,11 @@ source is a web page, so no PDF is held (a print of a web page is not a source
 PDF), and no capture of the page is held. The lemma, theorem, exercise and
 equation numbers below are the post's own.
 
-Read status: the summary below follows a partial transcription of the post's
-text, covering Sections 1--3 up to the proof of Theorem 36(ii), and was not
-checked against the post; the post was fetched only to confirm its URL, title
-and date and to compare the transcription's extent with it.
+Read status: the summary and the E0774 relation below follow a partial
+transcription of the post's text, covering Sections 1--3 up to the proof of
+Theorem 36(ii), and were not checked against the post; the post was fetched
+only to confirm its URL, title and date and to compare the transcription's
+extent with it.
 
 ## Summary
 
@@ -105,6 +106,37 @@ logarithmic and ordinary mean-value bounds in Exercises 34 and 35. Finally,
 Theorem 36 isolates the Euler-product singular series for divisor-type
 multiplicative functions and gives its leading terms in the Dirichlet series,
 the logarithmic mean, and, for $k\geq1$, the ordinary mean.
+
+## Relation to E0774
+
+The prime-sum estimates supply the analytic input for a uniform prime-tensor
+extraction. Theorem 15 implies, for every fixed logarithmic interval
+$[a,b]\subset(0,\infty)$,
+$$
+\sum_{x^a\leq p\leq x^b}\frac1p
+=\log\frac ba+O_{a,b}\!\left(\frac1{\log x}\right).
+$$
+Thus a prime chosen with harmonic weight has an asymptotically nondegenerate,
+scale-invariant distribution in the coordinate $\log p/\log x$. Exercise
+16(ii)--(iii) makes the tensor step explicit: for fixed dimension $d$, weighted
+sums over independent prime coordinates converge to integration against
+$dt_1\cdots dt_d/(t_1\cdots t_d)$. Consequently any fixed finite collection of
+boxes, or continuous approximations to the indicator functions used in an
+extraction rule, acquires simultaneous positive lower bounds once $x$ is large.
+Proposition 12 and Theorem 13 provide the accompanying log-weighted bounds used
+to control truncations, prime-power replacements, and boundary losses.
+
+In the E0774 argument this supports the step that realizes a finite tensor
+pattern by actual, separately chosen primes while retaining a fixed positive
+fraction of the available harmonic mass. The notes pose as exercises, without
+proofs, the facts that such a choice is available and that independent prime
+coordinates tensorize; they do not by themselves provide uniform error terms
+when the dimension, the family of test sets, or the extraction parameters
+vary. The E0774 route therefore proves the specific finite prime-sum
+inequalities and numerical constants it uses directly, rather than invoking
+the qualitative $o(1)$ statements of Exercise 16 as a black box.
+
+**Bears on.** [[../wiki/problems/integer_sequences/E0774/_index|E0774]].
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

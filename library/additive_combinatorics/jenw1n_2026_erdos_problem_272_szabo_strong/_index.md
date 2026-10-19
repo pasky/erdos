@@ -9,7 +9,7 @@ desc: |
   refereed publication and Conjectures.io's kernel check not repeated here.
 license: reserved
 created: 2026-09-28T02:57:24Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # JenW1N: Lean proof of Szabó's linear-error asymptotic for Problem 272
@@ -59,9 +59,9 @@ Conjectures.io's record and its problem page print the target type
 ```
 
 which is `Erdos272.erdos_272.variants.szabo_strong` in
-`FormalConjectures/ErdosProblems/272.lean` at the pinned catalog commit
-`8432eac9` (its source type SHA-256 is identical on the record page and in the
-task bundle). In formal-conjectures, `IsArithInterSet N A` requires
+`FormalConjectures/ErdosProblems/272.lean` at the pinned formal-conjectures
+commit `8432eac9` (its source type SHA-256 is identical on the record page and
+in the task bundle). In formal-conjectures, `IsArithInterSet N A` requires
 $A\subseteq\mathcal P(\{1,\ldots,N\})$ and every pair of distinct members to
 intersect in a set that `IsAPOfLength l` for some $l>0$; the shared definition
 `Set.IsAPOfLengthWith s l a d` is `ENat.card s = l ∧ s = {a + n • d | n < l}`,

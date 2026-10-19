@@ -1,0 +1,603 @@
+# Weighted dilation graphs, smooth shifted primes and totient fibers
+
+OpenAI
+
+[cut]
+
+## Notation and preliminary estimates
+
+All factor variables are positive integers unless another domain is specified. We write $P^{+}(n)$ and $P^{-}(n)$ for the largest and least prime factors of $n>1$, with $P^{+}(1)=1$ and $P^{-}(1)=\infty$. An integer is $y$-smooth if $P^{+}(n)\le y$, and is rough above $y$ if $P^{-}(n)>y$. We use $\varphi$ for Euler’s function, $\tau$ for the divisor function, and $$e(t)=\exp(2\pi i t),\qquad
+ (z)_j=z(z-1)\cdots(z-j+1),\qquad (z)_0=1.$$ We write $\mu(n)=0$ if $n$ is divisible by a prime square, and $\mu(n)=(-1)^r$ if $n$ is a product of $r$ distinct primes. The symbol $\omega$ will count distinct prime divisors in the specified prime groups; an unrestricted distinct-prime count will be identified when it occurs. In particular, multiplicities in an integer do not increase its group count.
+
+Throughout the analytic argument, $$\begin{equation}
+\tag{2.1}
+ L=\log x,\qquad T=\log L,\qquad W=\exp(\sqrt L),
+\end{equation}$$ and $x$ tends to infinity. A dyad is an interval $[Y,2Y)$, or a fixed constant enlargement of one; subinterval restrictions will be allowed explicitly. We write $n\asymp Y$ when $n$ is bounded above and below by fixed positive multiples of $Y$.
+
+**Convention 2.1** (Parameters and uniformity). Every constant is fixed before $x\to\infty$. A bound $L^{O(1)}$ has an exponent independent of $x$. Its dependence on earlier fixed parameters is permitted unless explicitly excluded. For a two-sided size statement $Y=xL^{O(1)}$, we mean $|\log(Y/x)|=O(T)$. Arbitrary logarithmic accuracy means a bound $O_A(L^{-A})$ for every desired fixed $A$, with the auxiliary choices made in the specified order.
+
+The geometric parameters used in the final sieve application are chosen first. The required Type II accuracy is chosen next. Inside the analytic argument the physical and ideal norm targets precede the comparison kernels; the mark length $J$ is chosen after those kernels. The strength of the character and Mellin discrepancy is chosen after the graph and Fourier parameters, and the precision of the cofactor proxies is chosen last. Each result below specifies the uniformity needed to respect this order.
+
+All Hilbert spaces are complex. An operator defined by transitions acts on a function at the target and sums or integrates its weighted values at the input. Symmetrization of a list means the orthogonal projection that averages all permutations of its coordinates.
+
+##### A guide to recurring notation.
+
+The following table locates the objects used across sections. Their full definitions and hypotheses appear at the indicated references.
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Notation</th>
+<th style="text-align: left;">Role</th>
+<th style="text-align: left;">Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span class="math inline">$L,T,W$</span></td>
+<td style="text-align: left;">Logarithmic scales and the roughness cutoff.</td>
+<td style="text-align: left;">Equation (2.1)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">$\mathcal P_g,V_g,\mu_g$</span></td>
+<td style="text-align: left;">Prime groups, harmonic masses, and probability laws; the number of groups is <span class="math inline">$s\asymp T$</span>.</td>
+<td style="text-align: left;">Theorem 3.1</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">$q,\omega_g,\omega$</span></td>
+<td style="text-align: left;">Fixed damping parameter and distinct group-prime counts.</td>
+<td style="text-align: left;">Theorem 3.1</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">$J,\ell,M=J+\ell$</span></td>
+<td style="text-align: left;">Fixed slot counts; <span class="math inline">$J$</span> is chosen after the comparison kernels.</td>
+<td style="text-align: left;">Section 3</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">$m$</span>, later <span class="math inline">$m_{\rm probe}$</span></td>
+<td style="text-align: left;">Fixed bound on probes per big group, independent of <span class="math inline">$J$</span>.</td>
+<td style="text-align: left;">Theorem 4.1</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">$W_{\mathbf t},W_\ell$</span></td>
+<td style="text-align: left;">Marked divisor weights; in <span class="math inline">$W_\ell$</span> every group has <span class="math inline">$\ell$</span> marks.</td>
+<td style="text-align: left;">Equation (5.1)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="math inline">$n_*,F_0,G_0$</span></td>
+<td style="text-align: left;">Group-free part and endpoint cores invariant under multiplication by group primes.</td>
+<td style="text-align: left;"><p>Section 5</p>
+<p>Equation (5.3)</p></td>
+</tr>
+</tbody>
+</table>
+
+### Classical prime estimates
+
+We use the prime number theorem with an error smaller than any fixed negative power of the logarithm [22, Corollary 39 and Exercise 40], and Mertens’ estimates [21, Theorems 15 and 26] $$\begin{equation}
+\tag{2.2}
+ \sum_{p\le y}\frac1p=\log\log y+O(1),\qquad
+ \prod_{p\le y}\left(1-\frac1p\right)
+ \sim\frac{e^{-\gamma_E}}{\log y}.
+\end{equation}$$ Here and below sums or products indexed by $p$ are over primes. The following forms of Siegel–Walfisz and the multiplicative large sieve will be used. The former follows from its von Mangoldt formulation by partial summation; see [22, Exercise 64]. For the latter see [15, Theorem 19.16].
+
+**Theorem 2.2** (Siegel–Walfisz). *For fixed $A,C>0$, uniformly for $(a,r)=1$ and $1\le r\le(\log y)^C$, $$\#\{p\le y:p\equiv a\pmod r\}
+ =\frac{\mathop{\mathrm{Li}}(y)}{\varphi(r)}
+  +O_{A,C}\!\left(\frac{y}{(\log y)^A}\right).$$ The constants, which need not be effective, are independent of $y,a,r$.*
+
+**Theorem 2.3** (Multiplicative large sieve). *Let $I$ be a real interval of length $H$, let $a_n$ be complex numbers supported on $I\cap\mathbb Z$, and let $R\ge1$. Then $$\sum_{r\le R}\frac r{\varphi(r)}
+ \sum_{\chi\bmod r}^{*}
+ \left|\sum_{n\in I\cap\mathbb Z}a_n\chi(n)\right|^2
+ \ll (H+1+R^2)\sum_n|a_n|^2,$$ where the asterisk restricts the sum to primitive Dirichlet characters.*
+
+We will use absolute character estimates on intervals that may be very short. The next consequence records precisely what is required; it does not require a relative prime asymptotic on every such interval.
+
+**Corollary 2.4** (Harmonic character estimates). *Fix $c,C,B,A>0$. If $\chi$ is nonprincipal modulo $r\le L^B$, then, uniformly for real $|t|\le L^B$ and intervals $I\subset[\exp(L^c),x^C]$, $$\sum_{p\in I}\frac{\chi(p)p^{it}}p\ll_{c,C,B,A}L^{-A}.$$ The same conclusion holds for a nonprincipal character induced from a smaller modulus.*
+
+*Proof.* Writing $A_\chi(y)=\sum_{p\le y}\chi(p)$, sum Theorem 2.2 against $\chi$ over reduced residue classes. The main terms cancel, and the loss from the number of classes is at most $L^B$. Because $\log y\ge L^c$, the permitted moduli are bounded by a fixed power of $\log y$. Thus $A_\chi(y)\ll_K L^B y(\log y)^{-K}$ for every fixed $K$. Partial summation on $I=(a,b]$ against $y^{-1+it}$ gives boundary terms of size $O_K(L^B(\log a)^{-K})$ and an integral bounded by $$C_KL^B(1+|t|)\int_a^b\frac{dy}{y(\log y)^K}
+ \ll_K L^{2B}(\log a)^{1-K}.$$ Choose $K$ sufficiently large. The argument is uniform in both endpoints and also covers an empty interval. An induced nonprincipal character is itself nonprincipal on the modulus on which it is used, so the same argument applies. ◻
+
+### Divisors, Dirichlet polynomials, and smooth separation
+
+**Lemma 2.5** (Fixed divisor moments). *For each fixed nonnegative integer $k$, $$\sum_{n\le Y}\frac{\tau(n)^k}{n}\ll_k(\log(2Y))^{C_k},
+ \qquad
+ \sum_{n\le Y}\tau(n)^k\ll_k Y(\log(2Y))^{C_k}$$ for a constant $C_k$. Consequently, a convolution of a fixed number of sequences bounded by fixed logarithmic powers has coefficient-square sum $U L^{O(1)}$ on a dyad of size $U\le x^{O(1)}$. If its coefficients include the reciprocal of the product index, this bound is $L^{O(1)}/U$ instead.*
+
+*Proof.* Positivity and unique factorization bound the harmonic sum by $$\prod_{p\le Y}\sum_{a\ge0}\frac{(a+1)^k}{p^a}
+ =\prod_{p\le Y}\left(1+\frac{2^k}{p}+O_k(p^{-2})\right)
+ \ll_k (\log(2Y))^{C_k},$$ using Equation (2.2). The counting bound follows by multiplying by $Y$. If there are $b$ convolution factors, their coefficient at $n$ has absolute value at most a fixed logarithmic power times the number of ordered $b$-factorizations of $n$. The latter is at most $\tau(n)^{b-1}$: choose the first $b-1$ divisors, which determine the last factor. Apply the counting moment bound with $k=2(b-1)$. On a dyad the reciprocal index is comparable to $1/U$. ◻
+
+The next coefficient-independent estimate is a weaker elementary form of the Dirichlet-polynomial mean-value theorem; compare [16, Theorem 2 and Corollary 3].
+
+**Lemma 2.6** (Mean squares). *If $P(t)=\sum_{n\le Y}c_n n^{it}$ and $I$ is an interval of length $H$, then $$\int_I|P(t)|^2\,dt
+ \ll \bigl(H+Y\log(2Y)\bigr)\sum_n|c_n|^2.$$ For a set $\mathcal T$ of real points at mutual distance at least one, contained in an interval of length $H$, one also has $$\begin{equation}
+\tag{2.3}
+ \sum_{t\in\mathcal T}|P(t)|^2
+ \ll \bigl(H+1+Y\log(2Y)\bigr)(\log(2Y))^2
+       \sum_n|c_n|^2.
+\end{equation}$$ The constants are absolute, independently of any factorization used to form the coefficients $c_n$.*
+
+*Proof.* Integration gives the diagonal $H\sum|c_n|^2$. For $n\ne m$, the absolute value of the exponential integral is at most $2/|\log(n/m)|\ll Y/|n-m|$. Apply $2|c_nc_m|\le |c_n|^2+|c_m|^2$ and sum $1/|n-m|$ to obtain the first bound. On the unit interval centered at $t$, the elementary one-dimensional Sobolev inequality bounds $|P(t)|^2$ by a constant times the integral of $|P|^2+|P'|^2$. These unit intervals have bounded overlap. The derivative has coefficients $i(\log n)c_n$, so the first bound applied twice gives Equation (2.3). ◻
+
+We also use two elementary exponential-sum estimates in the following forms; see [15, Corollary 16.6 and Theorem 16.7].
+
+**Lemma 2.7** (Derivative tests). *Let $f$ be real-valued on an interval containing $H$ consecutive integers.*
+
+1.  *If $f'$ is monotone and stays in $[j+\lambda,j+1-\lambda]$ for some integer $j$ and $0<\lambda\le1/2$, then $\sum_n e(f(n))\ll\lambda^{-1}$.*
+
+2.  *If $f$ is twice continuously differentiable and $\lambda\le|f''|\le C\lambda$ throughout the interval, then $\sum_n e(f(n))\ll_C H\lambda^{1/2}+\lambda^{-1/2}$.*
+
+*Both estimates hold on every subinterval on which the stated hypotheses hold.*
+
+**Lemma 2.8** (Fourier separation). *Let $F$ be smooth, supported in a fixed bounded box in $\mathbb R^b$, where $b$ is fixed. Suppose that for every nonnegative integer $j$ its derivatives of order $j$ are bounded by $C_jL^{C(j+1)}$. Then Fourier inversion separates the variables with integrated absolute coefficient mass $L^{O(1)}$. There is a fixed $C'>0$, depending on $b,C$, such that restricting each Fourier frequency to absolute value at most $L^{C'}$ leaves an error $O_A(L^{-A})$ for every fixed $A$. The exponent $C'$ may be fixed before the desired $A$.*
+
+*Proof.* Repeated integration by parts gives a bound for $\widehat F(\xi)$ by a derivative norm times an arbitrary fixed negative power of $1+|\xi|$. Taking more than $b$ derivatives first makes this bound integrable, with a fixed power of $L$. For the tail, take $j>b$ derivatives and integrate outside $|\xi|\ge L^{C'}$. The resulting bound is at most a constant depending on $j$ times $$L^{C(j+1)-C'(j-b)}.$$ Fix $C'>C$ sufficiently large for the chosen Fourier convention and box. Increasing $j$ then supplies any prescribed negative power of $L$. Fourier inversion expresses the integrand as a product of one-variable phases. Applying this in normalized logarithmic coordinates gives the corresponding Mellin separation on fixed dyads. Fixed-dimensional smooth cutoffs localized at logarithmic precision are included in the derivative hypothesis. ◻
+
+### An elementary weighted sieve
+
+We record a form with explicit coefficient and level bounds. This will be used both for congruence counts and for oscillatory sums over rough integers. The construction is a version of the Brun–Hooley sieve: the product of block upper bounds and its one-block correction are the inequalities of Ford and Halberstam [8, Section 1, Lemma 1]. We prove the form needed here, including its coefficient and level bounds.
+
+**Lemma 2.9** (Block sieve). *Consider a finite set of objects with nonnegative weights. For some primes $p\le z$, let a bad condition be specified. If $d$ is a squarefree product of these primes, suppose the weight of the objects on which all conditions at $p\mid d$ hold is $$Xg(d)+r(d),$$ including $d=1$, where $X\ge0$, $g$ is multiplicative, and $$\begin{equation}
+\tag{2.4}
+ 0\le g(p)\le1-\eta_0,\qquad
+ \sum_{w<p\le w^2}g(p)\le C\quad(w>1)
+\end{equation}$$ for fixed $\eta_0>0$ and $C$. For every sufficiently large even integer $h$, the weight $S$ of objects avoiding all bad conditions satisfies $$\begin{equation}
+\tag{2.5}
+ S=X\prod_{p\le z}(1-g(p))\bigl(1+O(e^{-h})\bigr)
+   +O\!\left(\sum_{d\le z^{4h+2}}|r(d)|\right).
+\end{equation}$$ Only the indicated primes and their squarefree products are used. The implied constants depend on $\eta_0,C$, uniformly also when $h$ grows. For the fixed even choice $h=2$, there is an upper bound by a constant times $X\prod(1-g(p))$ plus the same remainder sum.*
+
+*More precisely, the proof supplies polynomials $U$ and $V$ in the indicators of the bad conditions such that $$V\le\mathbf 1_{\text{no bad condition}}\le U,\qquad U\ge0.$$ Both have coefficients of absolute value at most one, supported on squarefree $d\le z^{4h+2}$. The nonnegative overcount $U-\mathbf 1_{\text{no bad condition}}$ is dominated by the pointwise nonnegative polynomial $U-V$, whose absolute coefficients are also at most one and which has the same level bound.*
+
+*Proof.* Partition the indicated primes into blocks $$\mathcal B_j=\{p:z^{2^{-j-1}}<p\le z^{2^{-j}}\},\qquad j\ge0.$$ Only finitely many blocks are nonempty. Set $h_j=(j+1)h$, which is even. In block $j$, write $I_j$ for avoidance of all its bad conditions, $U_j$ for the inclusion–exclusion polynomial through degree $h_j$, and $E_j$ for the sum of all monomials of degree $h_j+1$. If exactly $t$ bad conditions hold in the block, then $$U_j=\sum_{a=0}^{h_j}(-1)^a\binom ta
+ =\begin{cases}
+  1,&t=0,\\
+  \binom{t-1}{h_j},&t\ge1.
+ \end{cases}$$ Here a binomial coefficient is zero when its lower index exceeds its nonnegative upper index. It follows that $U_j\ge I_j\ge0$ and $U_j-I_j\le E_j$. Telescoping a product of nonnegative factors gives $$0\le\prod_jU_j-\prod_jI_j
+ \le\sum_jE_j\prod_{k\ne j}U_k.$$ The upper and lower polynomials are therefore $$\begin{equation}
+\tag{2.6}
+ U=\prod_jU_j,\qquad
+ V=U-\sum_jE_j\prod_{k\ne j}U_k.
+\end{equation}$$ In $U$, every block has degree at most $h_j$. A monomial from correction $j$ has degree exactly $h_j+1$ in block $j$ and at most $h_k$ elsewhere. These supports are disjoint across $j$ and disjoint from the support of $U$. Thus the absolute coefficients in $U,V$ are at most one. The same disjointness gives this bound for $U-V$.
+
+The logarithm of a product in $U$, divided by $\log z$, is at most $$\sum_{j\ge0}h(j+1)2^{-j}=4h.$$ A correction adds at most one more unit to this upper bound. Hence the stated level $z^{4h+2}$ is valid for all the polynomials above.
+
+Now give the bad conditions independent probabilities $g(p)$. Their block avoidance probability $a_j=\mathbb EI_j$ obeys $$a_j=\prod_{p\in\mathcal B_j}(1-g(p))
+ \ge\exp(-C/\eta_0)=:a_*>0,$$ because $-\log(1-u)\le u/\eta_0$ for $0\le u\le1-\eta_0$. Also $$e_j:=\mathbb EE_j\le\frac{C^{h_j+1}}{(h_j+1)!},\qquad
+ a_j\le\mathbb EU_j\le a_j+e_j.$$ For all large even $h$, $$R_h:=\sum_j e_j/a_j\ll e^{-h}.$$ Indeed the factorial tails eventually decrease geometrically in their index, and $h_j=(j+1)h$; the same sum is bounded by an absolute constant when $h=2$. Independence between blocks yields $$\prod_ja_j\le\mathbb EU\le\prod_ja_j\,e^{R_h},
+ \qquad
+ \mathbb E\sum_jE_j\prod_{k\ne j}U_k
+ \le\prod_ja_j\,R_he^{R_h}.$$ Consequently the expectations of both bounding polynomials differ from $\prod a_j$ by $O(e^{-h})\prod a_j$ for large $h$. For $h=2$, the upper expectation is at most a constant times $\prod a_j$.
+
+Evaluate the two polynomials in the original counting problem. The main terms of their monomials are exactly their independent expectations multiplied by $X$. The absolute remainder for either polynomial is at most $\sum_{d\le z^{4h+2}}|r(d)|$, by the coefficient bound. Squeezing $S$ between them proves the result. ◻
+
+**Corollary 2.10** (A polynomial for rough integers). *For the ordinary bad conditions $p\mid n$ at primes $p\le z$, let $U(n)=\sum_{d\mid n}\lambda_d$ be the upper polynomial in Equation (2.6), and put $D=z^{4h+2}$. Then $$U(n)\ge\mathbf 1_{P^{-}(n)>z}\ge0,\quad
+ |\lambda_d|\le1,\quad
+ \lambda_d=0\quad\text{unless $d\le D$ is squarefree},$$ and $$\begin{equation}
+\tag{2.7}
+ \sum_{n\in I\cap\mathbb N}
+ \bigl(U(n)-\mathbf 1_{P^{-}(n)>z}\bigr)
+ \ll |I|e^{-h}+D
+\end{equation}$$ for every finite interval $I\subset[1,\infty)$ and all sufficiently large even $h$. The bound is uniform in $h,z,I$. Moreover, $$\begin{equation}
+\tag{2.8}
+ \sum_d\frac{|\lambda_d|}{d}
+ \le\prod_{p\le z}(1+p^{-1})\ll\log(2z).
+\end{equation}$$*
+
+*Proof.* The pointwise claims and harmonic sum follow from the coefficient and support bounds. For the overcount, use its pointwise upper bound $U-V=\sum_jE_j\prod_{k\ne j}U_k$, which is nonnegative pointwise and has absolute coefficients at most one. In the interval $I$, the count of multiples of $d$ is $|I|/d+O(1)$. The independent expectation of $U-V$ was bounded in the proof by $O(e^{-h})\prod_{p\le z}(1-1/p)$; the sum of absolute remainders is $O(D)$. Dropping the avoidance product proves Equation (2.7). Finally, $\prod(1+1/p)\le\prod(1-1/p)^{-1}\ll\log(2z)$ by Mertens. ◻
+
+[cut]
+
+## A Type II estimate
+
+We apply the shifted-correlation estimate to factorizations $mn=2u+1$, where $u$ carries a weight supported on many geometric prime bands. The coefficient of $m$ will satisfy the discrepancy hypothesis of Theorem 5.1; the coefficient of $n$ may be arbitrary within its stated bound. The task is to retain that discrepancy while converting multiplicative factorizations into additive correlations.
+
+We split $u=eh$ with $e$ slightly smaller than the scale of $m$, using a smooth allocation of the band primes. Cauchy’s inequality in $(e,n)$ then has a small enough outside factor to control its diagonal. Off the diagonal, the two factorizations give cross-products whose difference is a small nonzero integer. These are the shifted endpoints. All group factors and the compulsory rough integer are assigned to $h$, so both endpoints retain the form required by Theorem 5.1.
+
+### The weight and the uniform statement
+
+Use the prime groups and the weight $W_\ell$ of Section 5. In particular, the groups are disjoint, their harmonic masses belong to a fixed interval $[v_-,v_+]\subset(0,\infty)$, and there are between fixed positive multiples of $T$ small groups and big groups. For fixed $0<a<b<c<d<0.47$, the small primes lie in $[\exp(L^a),\exp(L^b)]$ and the big primes in $[\exp(L^c),\exp(L^d)]$. The big groups have the interval structure required there. The damping $q\in(0,1)$ and the integer $\ell\geq1$ are fixed. Write $u_*$ for the factor of $u$ supported outside all these groups and $u_P=u/u_*$. Thus $$W_\ell(u)=\prod_g
+       q^{\omega_g(u)-\ell}\frac{(\omega_g(u))_\ell}{V_g^\ell}.$$ All constants describing these groups are among the fixed data below.
+
+Fix $0<c_1<c_2$, $s'>0$, and $\lambda>1$, with $c_2s'<1/4$. For $0\leq j\leq j_x$ put $$s_j=s'L\lambda^{-j},\qquad
+ \mathcal Q_j=\{p\text{ prime}:c_1s_j\leq\log p\leq c_2s_j\}.$$ Assume that these intervals are pairwise disjoint and disjoint from the prime groups above, and that $c_-T\leq s_{j_x}\leq c_+T$ for fixed $0<c_-\leq c_+$. Choose a fixed integer $r_0$ such that $$\begin{equation}
+\tag{6.1}
+       (r_0-1)c_1/\lambda\geq c_2+1.
+\end{equation}$$ There are $r_0$ labelled slots in every band. Each normally takes a prime in $\mathcal Q_j$, with repetitions allowed. In one specified slot of a fixed band $j_{**}$ replace the prime by an integer in $$\begin{equation}
+\tag{6.2}
+\begin{gathered}
+ I_{**}=[x^{\tau_*},x^{\eta_*}],\qquad P^{-}(p)>W,\\
+ \tau_*=c_1s'\lambda^{-j_{**}},\qquad
+ \eta_*=c_2s'\lambda^{-j_{**}}.
+\end{gathered}
+\end{equation}$$ The notation $p$ for this slot will never assert that it is prime. For sufficiently large $x$, this slot is free of group primes, since $\exp(L^d)<W$.
+
+Define $$\begin{equation}
+\tag{6.3}
+\begin{aligned}
+ a_Q(v)&=\left(\prod_{j=0}^{j_x}\frac1{r_0!}\right)
+   \#\{\text{admissible labelled slot lists with product }v\},\\
+ A(u)&=a_Q(u_*)W_\ell(u).
+\end{aligned}
+\end{equation}$$ The exceptional integer can be fixed as a divisor of $v$. Thereafter the prime multiplicities in each disjoint band determine the list up to at most $r_0!$ permutations. Consequently $$\begin{equation}
+\tag{6.4}
+ 0\leq a_Q(v)\leq\tau(v),\qquad
+ 0\leq A(u)\leq L^{C_A'}\tau(u_*),\qquad
+ \sum_v\frac{a_Q(v)}v\leq L^{C_A'}
+\end{equation}$$ for a fixed exponent $C_A'$. Here the bound for $W_\ell$ follows by maximizing $q^{t-\ell}(t)_\ell/V_g^\ell$ in each group. For the last bound, factor the harmonic sum slot by slot: every prime slot has bounded harmonic mass, the exceptional slot has mass $O(L)$, and there are $O(T)$ slots. The exponent in Equation (6.4) depends only on the fixed data.
+
+**Theorem 6.1** (Type II). *Fix $D_*>0$, $b_*>0$, and $C>0$, and require $\eta_*<b_*/4$ in Equation (6.2). Let $U,V$ be dyadic scales satisfying $$UV\asymp x,\qquad x^{b_*}\leq U,V\leq x^{1-b_*}.$$ Let $\Psi$ be a fixed smooth function with compact support in a fixed compact subinterval of $(0,\infty)$. Suppose that $\lvert \alpha_m\rvert,\lvert \beta_n\rvert\leq L^C$, and that $\alpha_m=0$ unless $P^{-}(m)>W$. There is a fixed exponent $B$, depending only on these data and the fixed group and band constants, such that the discrepancy hypothesis in Equation (5.4) on $\alpha$ implies $$\begin{equation}
+\tag{6.5}
+ \sum_{\substack{m\asymp U,\ n\asymp V,\ u\geq1\\mn=2u+1}}
+      A(u)\Psi(u/x)\alpha_m\beta_n
+       \ll xL^{-D_*}.
+\end{equation}$$ Here the sequence to which the discrepancy hypothesis is applied includes the actual restriction $m\asymp U$ and any additional interval restriction on $m$. Explicitly, for that restricted sequence one requires $$\left|\sum_{m\in I}\frac{\alpha_m\chi(m)m^{it}}m\right|
+       \leq L^{-B}
+ \quad\left(I\subset[1,x^2],\quad
+       \operatorname{mod}(\chi)\leq L^B,\quad |t|\leq L^B\right).$$ There is no discrepancy hypothesis on $\beta$. The constants are uniform over the sequences, scales, and interval restrictions satisfying these conditions.*
+
+[cut]
+
+## Extracting primes with smooth predecessors
+
+We prove Theorem 1.2. Throughout this section $0<\delta<1/4$ is fixed. The task is to detect primes among $N_u:=2u+1$ for a positive weight on integers $u$ all of whose prime factors are small. The distribution estimate of Theorem 6.1 will replace tests on a factor of $N_u$ by simpler tests on rough integers. We specify the order of all remaining parameter choices at the end of the section.
+
+The extraction separates the composites according to their least prime factor. A preliminary sieve retains those $N_u$ with no prime factor below $x^{b_1}$, where $b_1>0$ is fixed and small. For a fixed small $\kappa>0$ and least prime factors up to $x^{1/2-\kappa}$, Type II replaces the roughness condition on the complementary factor by a local density on ordinary integers. Integrating these densities accounts for the composite part of the sieve mass. The remaining composites have two prime factors close to $x^{1/2}$; a separate upper-bound sieve makes their contribution small with $\kappa$. Its constant must be independent of $\kappa$, so we will establish that uniformity before making the final choices.
+
+### The candidate and its mass
+
+Fix a nonnegative smooth function $\Psi$ supported in $[1,2]$ that is bounded below by a positive constant on a closed interval of positive length contained in $(1,2)$. In the marked weight of Section 5 take $q=1/2$ and $\ell=1$. Set $$c_1=1,\quad c_2=\frac65,\quad c_3=\frac32,\quad c_4=\frac95,
+ \qquad s'=\frac1{r_0(c_1+c_2)},\qquad s_j=s'2^{-j}L,$$ where the fixed integer $r_0$ is sufficiently large that $$\begin{equation}
+\tag{7.1}
+ c_2s'<\delta,\qquad \frac{(r_0-1)c_1}{2}\ge c_2+1.
+\end{equation}$$ Let $j_x$ be the largest integer with $c_1s_{j_x}\ge20T$, and let $$Q_j=\{p\text{ prime}:c_1s_j\le\log p\le c_2s_j\}
+ \qquad(0\le j\le j_x).$$ At each scale for which $[c_3s_j,c_4s_j]$ lies wholly in $[L^{1/10},L^{1/5}]$ or $[L^{3/10},L^{2/5}]$, take the primes in that interval of logarithms as a small or big P-group, respectively. The P-groups and the Q-bands are pairwise disjoint: the four constants lie in the displayed order, and $c_4<2c_1$. The prime number theorem and partial summation give fixed upper and positive lower bounds for each of their reciprocal prime masses. Both numbers of P-groups are comparable to $T$, and their exponent ranges and endpoint ratios meet the hypotheses of the preceding sections.
+
+There are $r_0$ ordered slots in each Q-band. Except for one designated slot in a fixed band $j_{**}$, a slot contains a prime of its band. The designated slot instead contains any integer $v$ satisfying $$e^{c_1s_{j_{**}}}\le v\le e^{c_2s_{j_{**}}},\qquad P^{-}(v)>W.$$ We always require $j_{**}\ge j_0$, where $j_0$ is a sufficiently large fixed lower bound chosen below using only the candidate geometry. In particular $j_{**}\ge1$. Define $$a_Q(v)=\prod_{j=0}^{j_x}\frac1{r_0!}
+       \#\{\text{admissible ordered Q-lists with product }v\},
+ \qquad A(u)=a_Q(u_*)W_1(u).$$ The P-free part $u_*$ and the marked weight $W_1$ are those of Section 5. The rough slot has no P-prime divisor for large $x$, since all P primes are less than $W$.
+
+The candidate must have substantial ordinary mass near $x$, despite the restrictions on all its factors. Reciprocal weights make the slot choices independent. The band geometry leaves room for one prime in the largest band to adjust their product to size $x$; under this harmonic sampling, that prime supplies a local probability of order $1/L$. The next proposition records the resulting mass and the pointwise bound needed to convert that mass into a count of distinct primes.
+
+**Proposition 7.1** (Candidate mass). *Put $$X_A=\sum_u A(u)\Psi(u/x),\quad
+ H_Q=\sum_v\frac{a_Q(v)}v,\quad
+ H_P=\sum_{r:r_*=1}\frac{W_1(r)}r.$$ There are constants $C,C_A$ depending only on the early candidate choices such that, for sufficiently large $x$ after fixing $j_{**}$, $$\begin{align}
+ 0\le A(u)&\le L^C\tau(u_*),
+ & A(u)&\le\exp(C\sqrt L)\quad(u\asymp x),\tag{7.2}\\
+ H_P&\sim\exp\left(q\sum_g V_g\right),
+ & X_A&\asymp\frac{x}{L}H_QH_P\gg xL^{-C_A}.
+ \tag{7.3}
+\end{align}$$ The comparison constants in (7.3) can be chosen independently of $j_{**}\ge j_0$. On the support of $A(u)\Psi(u/x)$ every prime divisor of $u$ lies in $[L^{20},x^\delta]$.*
+
+*Proof.* After fixing the value of the rough slot as a divisor of $v$, the remaining prime multiplicities determine their band assignments. The normalized number of ordered lists in each band is at most one. This gives $a_Q(v)\le\tau(v)$. For $v\ll x$, any possible rough-slot divisor divides the part of $v$ supported on primes exceeding $W$. That part has at most $O(L/\log W)=O(\sqrt L)$ prime factors counted with multiplicity, and hence at most $\exp(O(\sqrt L))$ divisors. Together with the pointwise bound $W_1(u)\le L^{O(1)}$ this proves (7.2). The claimed lower and upper bounds on prime factors follow from the definitions, (7.1), and $\exp(L^{2/5})<x^{c_2s'}$ for large $x$.
+
+##### Harmonic masses and the P-part.
+
+The Q harmonic sum factorizes into the reciprocal masses of all its slots, divided by $r_0!$ in each band. Each pure-prime slot has mass between two fixed positive constants. The rough-slot mass is at most $O(L)$ and is bounded below by a fixed positive constant for sufficiently large $x$ after fixing $j_{**}$; for the latter assertion one may restrict that slot to primes of $Q_{j_{**}}$, which then all exceed $W$. Since there are $O(T)$ slots, $$\begin{equation}
+\tag{7.4}
+ L^{-C}\le H_Q\le L^C.
+\end{equation}$$ This exponent and these eventual bounds do not depend on $j_{**}$.
+
+For one P-group write $F_g(q)=\prod_{p\in\mathcal P_g}(1+q/(p-1))$. Summing over all powers of its prime divisors shows that its factor in $H_P$ is $$\begin{equation}
+\tag{7.5}
+ \frac{F_g'(q)}{V_g}
+  =F_g(q)\frac1{V_g}\sum_{p\in\mathcal P_g}\frac1{p-1+q}.
+\end{equation}$$ As $\sum_{g,p\in\mathcal P_g}p^{-2}=o(1)$ and $V_g$ is bounded above and below, multiplying (7.5) proves the asymptotic for $H_P$. It also proves the useful exact inequality $$\begin{equation}
+\tag{7.6}
+ H_P\ge\prod_{p\text{ a P prime}}\left(1+\frac q{p-1}\right),
+\end{equation}$$ since $p-1+q\le p$.
+
+The harmonic P-measure assigns negligible mass to $r>x^\sigma$ for any fixed $\sigma>0$. Indeed set $\xi=L^{-2/5}$ and replace $p^{-1}$ by $p^{-1+\xi}$ in the preceding Euler calculation. Since $p^\xi\le e$ for every P prime, the tilted factor of each group is bounded by a fixed constant. Consequently $$\begin{equation}
+\tag{7.7}
+ \sum_{r>x^\sigma,\ r_*=1}\frac{W_1(r)}r
+ \le \exp(-\sigma L^{3/5})L^{O(1)}.
+\end{equation}$$
+
+##### Localizing the product near $x$.
+
+Normalize the independent P choice and all the Q-slot harmonic choices by $H_PH_Q$, and denote their product by $U$. Then $$X_A=H_PH_Q\,\mathbb E\{U\Psi(U/x)\}.$$ For the upper comparison we need probability $O(1/L)$ throughout $x\le U\le2x$; for the lower comparison we need probability $\gg1/L$ where $U/x$ lies in the positivity interval of $\Psi$. Both are intervals of bounded length for $\log U$. The P-tail estimate ensures that the P-part does not move the product out of reach of the largest Q-band. Condition on everything except one pure-prime slot in $Q_0$. The prime number theorem implies that its logarithm falls in any interval of bounded length with probability $O(1/L)$, uniformly in the location of that interval. Thus $\mathbb P(x\le U\le2x)=O(1/L)$, giving the upper mass bound.
+
+Here is a uniform lower bound. The sum of the midpoints of all the infinite Q-bands, counting their $r_0$ slots, is exactly $$\sum_{j\ge0}r_0\frac{c_1+c_2}{2}s'2^{-j}L=L.$$ Let $\Delta=(c_2-c_1)s'L$, the logarithmic width of the free slot. Choose a fixed prefix of bands so long that the sum of all later band widths and midpoints is less than $\Delta/24$. Within that prefix, restrict all slots except the free slot to fixed small relative neighborhoods of their midpoints, so that their total deviation is at most $\Delta/24$. This event has probability bounded below by a positive constant: it involves only a fixed number of pure-prime slots. Choose $j_0$ larger than the prefix length so that the exceptional slot is always in the unrestricted tail. Its full range obeys the same deterministic tail bound. Missing bands after $j_x$ also obey that bound. Finally restrict the P choice to $\log r\le\Delta/12$, at negligible loss by (7.7). On this event, a target interval for $\log U$ coming from the positivity interval of $\Psi$ gives an interval of fixed positive length for the free slot, lying a distance at least $\Delta/4$ from its range endpoints for large $x$. The prime number theorem gives conditional probability $\gg1/L$. Multiplying by $U\asymp x$ proves the lower comparison in (7.3). This argument uses no property of the tail distribution beyond its range, so its constants are uniform in the later choice of $j_{**}$. The final lower bound follows from (7.4) and the Euler calculation. ◻
+
+### Congruence distribution and the preliminary sieve
+
+For odd squarefree $d$ define $$r(d)=\sum_{d\mid N_u}A(u)\Psi(u/x)-\frac{X_A}{\varphi(d)}.$$
+
+**Proposition 7.2** (Type I distribution). *For every fixed $\vartheta<1/2$ and $D>0$, $$\begin{equation}
+\tag{7.8}
+ \sum_{\substack{d\le x^\vartheta\\d\text{ odd and squarefree}}}
+ |r(d)|\ll xL^{-D}+X_AL^{-18}.
+\end{equation}$$*
+
+*Proof.* The congruence $2u+1\equiv0\pmod d$ specifies a unit class for $u$. Use character orthogonality on that class. Replacing the principal coprime mass by $X_A$ has total cost at most $X_AL^{-18}$, because for each supported $u$, $$\sum_{\substack{d\le x^\vartheta\\(d,u)>1}}
+       \frac{\mu^2(d)}{\varphi(d)}
+ \le \sum_{p\mid u}\frac1{p-1}
+             \sum_{d'\le x}\frac{\mu^2(d')}{\varphi(d')}
+ \ll L^{-18}.$$ Here every $p\mid u$ is at least $L^{20}$, there are at most $O(L/\log L)$ such primes, and the last sum is $O(L)$ by its Euler product and Mertens’ theorem.
+
+Extract one fixed $Q_0$ slot, as in the proof of Theorem 7.1, to write $$A(u)=\sum_{\substack{pr=u\\p\in Q_0}}b(r),
+ \qquad 0\le b(r)\le L^{O(1)}\tau(r).$$ Split $p,r$ into dyads of sizes $P,U$ with $PU\asymp x$. There is a fixed $a>0$ such that $x^a\ll P,U\ll x^{1-a}$ in every contributing dyad. A nonprincipal character modulo squarefree $d$ is induced by a primitive nonprincipal character modulo $f>1$, where $d=hf$ and $(h,f)=1$. It acts as that primitive character together with the restrictions $(p,h)=(r,h)=1$, and $\varphi(d)=\varphi(h)\varphi(f)$.
+
+Fix $h$. On conductors $f\asymp R>L^{C'}$, separate $\Psi(pr/x)$ by Mellin inversion, which has bounded integrated absolute cost. For each resulting twist, Theorem 2.3, Cauchy–Schwarz, and Theorem 2.5 give $$\begin{align*}
+ &\sum_{f\asymp R}\frac1{\varphi(f)}
+     \sum_{\chi\bmod f}^{*}
+     \left|\sum_{p\asymp P}a_p\chi(p)\right|
+     \left|\sum_{r\asymp U}b_r\chi(r)\right|\\
+ &\hspace{12mm}\ll
+  \frac{L^{O(1)}}R\sqrt{(P+R^2)(U+R^2)PU}\\
+ &\hspace{12mm}\ll xL^{O(1)}
+       \left(R^{-1}+P^{-1/2}+U^{-1/2}+R/\sqrt x\right).
+\end{align*}$$ The coefficients include coprimality to $h$ and unit-modulus Mellin twists, so their squared sums are $O(P)$ and $UL^{O(1)}$. Discarding $(h,f)=1$ and squarefreeness only enlarges this positive bound. Summing dyads and $1/\varphi(h)$ costs a fixed power of $L$. Since $R\le x^\vartheta$, a sufficiently large $C'$ gives any prescribed logarithmic saving.
+
+For $1<f\le2L^{C'}$, fix $r$ and apply Theorem 2.2 to the $p$-sum with the original smooth cutoff $\Psi(pr/x)$, using partial summation. The nonprincipal character sum is $O_A(PL^{-A})$ for arbitrary fixed $A$. Omitting primes dividing $h$ costs only $O(1)$ terms, since such primes in this range are at least $x^a$ and $h\le x^\vartheta$. Their total cost after summing $r$, moduli and dyads is $x^{1-a}L^{O(1)}$. The remaining costs are fixed powers of $L$, absorbed by choosing $A$ large. This proves (7.8). ◻
+
+Define $$V(y)=\prod_{p\le y}(1-1/p),\qquad
+ V_1(y)=\prod_{3\le p\le y}(1-1/(p-1)),\qquad
+ \mathfrak S=2\prod_{p\ge3}\left(1-\frac1{(p-1)^2}\right)>0.$$ Writing $\gamma_E$ for Euler’s constant, Mertens’ theorem gives $$\begin{equation}
+\tag{7.9}
+ V(y)\sim\frac{e^{-\gamma_E}}{\log y},\qquad
+ V_1(y)\sim\mathfrak S V(y).
+\end{equation}$$ We will choose a small fixed $0<\kappa<1/50$ and then a sufficiently small fixed $b_1>0$. Set $b_*=b_1/3$ for Theorem 6.1, and eventually require $$\begin{equation}
+\tag{7.10}
+ j_{**}\ge j_0,\qquad c_2s'2^{-j_{**}}<b_*/4.
+\end{equation}$$ Apply Theorem 2.9 to odd prime divisors of $N_u$ up to $x^{b_1}$, with density $g(p)=1/(p-1)$ and the remainders from Theorem 7.2. Take $$h=2\left\lfloor\frac1{40b_1}\right\rfloor,
+ \qquad \vartheta=\frac12-\frac\kappa2.$$ For sufficiently small $b_1$, $h$ is large enough for that lemma and $b_1(4h+2)<\vartheta$. Choose $D>C_A+10$ in (7.8). It follows that $$\begin{equation}
+\tag{7.11}
+ \sum_{P^{-}(N_u)>x^{b_1}}A(u)\Psi(u/x)
+ \ge \frac{\mathfrak S X_A}{L}
+   \left\{\frac{e^{-\gamma_E}}{b_1}
+                 (1-O(e^{-c/b_1}))+o(1)\right\}.
+\end{equation}$$ The constants in the exponential error are uniform for small $b_1$ and $0<\kappa<1/50$.
+
+### Proxies with character and Mellin discrepancy
+
+We now construct the coefficients that Type II will compare with the factor tests. The proxy has exactly the same sum as the test on each short logarithmic cell, but is constant among the $W$-rough integers in that cell. This count matching handles the principal characters; prime estimates and the elementary sieve will give the nonprincipal cancellation independently of Type II. The cell width may therefore be chosen after Type II specifies its required discrepancy.
+
+At fixed $b_1,\kappa$, partition $(b_1,1/2-\kappa]$ into finitely many exponent bins $(\gamma,\gamma']$. Their mesh will be chosen later. On the factor ranges used below consider the tests $$I_\gamma(m)=\mathbf 1_{P^{-}(m)>x^\gamma},\qquad
+ I_{\mathrm{pr}}(m)=\mathbf 1_{m\text{ prime}}.$$ Every such range lies between two fixed positive powers of $x$; in particular we can work throughout the ambient interval $[x^{b_1/4},x^{1-b_1/4}]$. Put $\Delta_L=L^{-S}$, with $S$ a fixed precision to be chosen last. Partition the logarithmic axis into intervals of width $\Delta_L$. For a full cell $C_Y=(Y,e^{\Delta_L}Y]$ meeting this ambient interval, set $$\begin{equation}
+\tag{7.12}
+ c_I(C_Y)=\frac{\sum_{m\in C_Y}I(m)}
+                   {\#\{m\in C_Y:P^{-}(m)>W\}},\qquad
+ B_I(m)=c_I(C_Y)\mathbf 1_{P^{-}(m)>W}\quad(m\in C_Y).
+\end{equation}$$ The counts defining $c_I$ are full-cell counts even when the factor range cuts a cell. Range restrictions are imposed afterwards.
+
+**Lemma 7.3** (Proxy discrepancy). *The denominators in (7.12) are positive for large $x$. Moreover $0\le B_I\le1$. Given any fixed discrepancy exponent $B$, taking $S>2B+3$ makes $$\alpha_m=(I(m)-B_I(m))\mathbf 1_{m\in K}$$ satisfy (5.4), uniformly for every interval $K$ inside a dyad in the stated factor ranges, for each of the finitely many tests above. Thus the coefficient bound required by Theorem 6.1 is independent of $S$.*
+
+*Proof.* Use Theorem 2.9 on ordinary integers in a cell with $z=W$, $g(p)=1/p$, and $h=2\lceil T^2\rceil$. Each divisibility remainder is $O(1)$, and the sieve level is $$D_W=W^{4h+2}=\exp(O(\sqrt L\,T^2))=x^{o(1)}.$$ Since $Y\gg x^{b_1/4}$, uniformly for these cells, $$\begin{equation}
+\tag{7.13}
+ \#\{m\in C_Y:P^{-}(m)>W\}
+  =(e^{\Delta_L}-1)YV(W)(1+O(e^{-T^2}))+O(D_W)
+  \sim\Delta_L YV(W).
+\end{equation}$$ Both actual tests select subsets of these rough integers for large $x$: for the prime test all integers in the cell exceed $W$, and for the other tests $x^\gamma>W$. Hence $0\le c_I\le1$ exactly.
+
+Every prime divisor of a modulus $r\le L^B$ is below $W$, so a principal character is one throughout the support of $\alpha$. On a full cell the unweighted sum of $I-B_I$ is zero. For $f(t)=t^{iv-1}$, $|v|\le L^B$, its variation on that cell is at most $O((1+|v|)\Delta_L/Y)$. The absolute harmonic mass on a dyad is $O(1)$ (even the weaker $O(L^{1/2})$ would suffice). Consequently the full cells contribute $O(L^{B-S})$. Intersecting the test interval in (5.4) with $K$ leaves at most two partial cells; their combined harmonic mass is $O(L^{-S}+x^{-b_1/4})$. These bounds imply the principal-character case with room to spare when $S>2B+3$.
+
+For a nonprincipal character, first treat the actual roughness test. Each admitted integer has a unique nondecreasing list of at most $O(1/b_1)$ prime factors. Fix the first $l-1$ factors and sum over the last prime. Its order restriction, its lower bound $x^\gamma$, and the interval restriction on the full product intersect in one prime interval. Its endpoints lie between $x^\gamma$ and $x^2$. By Theorem 2.2 and partial summation, the harmonic sum of this prime against a nonprincipal character and the twist $p^{iv}$ has arbitrarily strong logarithmic saving, uniformly for a prescribed logarithmic bound on the modulus and $v$. The reciprocal masses of the remaining factors are bounded in terms of $b_1$, because $\sum_{x^\gamma<p\le x^2}p^{-1}=O_{b_1}(1)$. Summing the bounded number of list lengths preserves the saving. Repeated primes are included by the nondecreasing enumeration. Imprimitive nonprincipal characters give the same estimate via their nonprincipal primitive characters; primes dividing the modulus are too small to occur. For $I_{\mathrm{pr}}$ this is the same argument with one prime.
+
+It remains to treat the proxy. For every subinterval $J'$ of a cell and every unit class $a\pmod r$, apply Theorem 2.9 to that class, omitting primes dividing $r$ from the sieve. The CRT gives an $O(1)$ remainder at each squarefree sieve product. Since all prime divisors of $r$ are below $W$, the main term is $$\frac{|J'|}{r}\prod_{\substack{p\le W\\p\nmid r}}(1-1/p)
+ =\frac{|J'|V(W)}{\varphi(r)}.$$ Thus, also for very short $J'$ as an absolute-error assertion, $$\begin{equation}
+\tag{7.14}
+ \#\{m\in J':m\equiv a\pmod r,\ P^{-}(m)>W\}
+ =\frac{|J'|V(W)}{\varphi(r)}(1+O(e^{-T^2}))+O(D_W).
+\end{equation}$$ Summing against a nonprincipal character cancels the common main term, and bounds the remaining sum by $O(|J'|V(W)e^{-T^2}+\varphi(r)D_W)$. Multiply by the cell constant $c_I\le1$ and use partial summation against $m^{iv-1}$. The number of cells is at most $O(L^{S+1})$; the moduli and twists cost fixed powers of $L$. The first error therefore remains smaller than every fixed negative power of $L$, and the second is $x^{-b_1/4+o(1)}$ times a fixed power of $L$. This proves the nonprincipal assertion, including all interval truncations. ◻
+
+For all later applications, prescribe the saving in Theorem 6.1 large enough that its errors, after the required dyadic decompositions, are $o(X_A/L)$. Its coefficient exponent is fixed before $S$, by Theorem 7.3; obtain its required discrepancy exponent and then choose $S$. There are only finitely many test types, so the same $S$ works for all.
+
+### The local densities and their integral identity
+
+The proxy discrepancy allows replacement of a factor test, while its local density controls the size of the replacement. We need ordinary rough-integer counts for the cofactor left after a least prime factor has been selected. For a product of $l$ primes, their logarithms, divided by $L$, sum to the logarithmic size of that cofactor. This leads to the following finite sum of integrals over those logarithms.
+
+For $w>\gamma>0$ define $$\begin{equation}
+\tag{7.15}
+ D_\gamma(w)=\frac1w+
+ \sum_{l\ge2}\frac1{l!}
+  \int_{\substack{t_i\ge\gamma\ (1\le i<l)\\
+                    \sum_{i<l}t_i\le w-\gamma}}
+  \frac1{w-\sum_{i<l}t_i}\prod_{i<l}\frac{dt_i}{t_i}.
+\end{equation}$$ Only finitely many terms are nonzero. On compact subsets of $w>\gamma>0$ the functions are jointly continuous, including at thresholds $w=l\gamma$: the integrands have bounded denominators and the moving boundaries have measure zero.
+
+These are Buchstab’s rough-number densities in logarithmic coordinates, and the minimum-coordinate decomposition below is the corresponding Buchstab identity [4]. We derive the short-cell bounds and integral identity needed here directly.
+
+**Lemma 7.4** (Proxy density bounds). *For the prime proxy in the interval $x^{1/2-2\kappa}\le m\le x^{1/2+2\kappa}$, $$\begin{equation}
+\tag{7.16}
+ c_{\mathrm{pr}}(m)\le\frac{C}{LV(W)},
+\end{equation}$$ where $C$ is absolute for $0<\kappa<1/50$. If $mn=N_u$ on the support of $\Psi(u/x)$ and $\log n/L\in(\gamma,\gamma']$, then $$\begin{equation}
+\tag{7.17}
+ c_\gamma(m)\le
+ \frac{\sup_{\gamma\le a\le\gamma'}D_\gamma(1-a)+o(1)}{LV(W)}.
+\end{equation}$$ At fixed $b_1$ one also has $$\begin{align}
+ \int_{b_1}^{1/2}D_\alpha(1-\alpha)\frac{d\alpha}{\alpha}
+       &=D_{b_1}(1)-1,\tag{7.18}\\
+ D_{b_1}(1)&\le\frac{e^{-\gamma_E}}{b_1}
+                 (1+O(e^{-c/b_1})).\tag{7.19}
+\end{align}$$ The integrand at the endpoint $\alpha=1/2$ is understood by its left limit; changing that endpoint value has no effect.*
+
+*Proof.* The prime number theorem with an arbitrarily large logarithmic error, applied at both endpoints of a cell, gives $$\#\{p\in(Y,e^{\Delta_L}Y]\}
+   =(1+o(1))\frac{\Delta_LY}{\log Y}.$$ For $w=\log Y/L\in[0.46+o(1),0.54+o(1)]$, divide by (7.13) to obtain (7.16) with an absolute eventual constant. Increasing fixed $S$ changes the threshold for $x$, not that constant.
+
+More generally, uniformly on compact sets with $\gamma\ge b_1$, $w-\gamma$ bounded below positively, and $w$ bounded above, the number of integers rough above $x^\gamma$ in the cell is at most $$\begin{equation}
+\tag{7.20}
+ (D_\gamma(w)+o(1))\frac{\Delta_LY}{L}.
+\end{equation}$$ To see this, repeated prime factors contribute at most $$\sum_{p>x^\gamma}\left\lfloor\frac{2Y}{p^2}\right\rfloor
+ \ll Yx^{-b_1}=o(\Delta_LY/L).$$ Count the squarefree remaining integers by ordered lists of $l$ primes with weight $1/l!$, where $l$ is bounded in terms of $b_1$. Fix the first $l-1$ primes, write $Q=\prod_{i<l}p_i$ and $t_i=\log p_i/L$. A last prime can occur only when $\sum_{i<l}t_i\le w-\gamma+O(\Delta_L/L)$. Dropping its lower cutoff, its count is at most $$(1+o(1))\frac{\Delta_LY}{LQ(w-\sum_{i<l}t_i)}.$$ The prime number theorem is uniform here because $Y/Q\ge x^\gamma/2$, and its logarithmic accuracy is chosen larger than $S+3$. The reciprocal-prime measures for the remaining slots converge to $dt_i/t_i$. A finite grid approximation proves uniform convergence of the resulting integrals: denominators stay bounded away from zero, while strips around the moving hyperplane boundary have uniformly vanishing volume. This is exactly (7.15), proving (7.20). In the application $w=1-\log n/L+o(1)$ and $w-\gamma\ge2\kappa+o(1)$. Continuity, followed by division by (7.13), proves (7.17).
+
+For (7.18), write the $l$th term of $D_{b_1}(1)$, $l\ge2$, on the simplex $$t_1+\cdots+t_l=1,\qquad t_i\ge b_1,
+ \qquad \frac1{l!}\frac{dt_1\cdots dt_{l-1}}{t_1\cdots t_l}.$$ This measure is invariant under every permutation of the $l$ coordinates: exchanging a dependent and an independent coordinate has absolute Jacobian one. Except on a null set exactly one coordinate is the minimum, say $\alpha$. Select that coordinate in $l$ ways. Its measure is $d\alpha/\alpha$, and the remaining coordinates, with sum $1-\alpha$ and lower bound $\alpha$, give the $(l-1)$-factor term of $D_\alpha(1-\alpha)$. The coefficient $l/l!$ is precisely $1/(l-1)!$. Summing proves the identity; the one-prime term of $D_{b_1}(1)$ equals one.
+
+For the inequality, first obtain a lower density for ordinary rough integers in $(x,2x]$. Ordered prime lists with weight $1/l!$ assign at most unit mass to every integer, including those with repetitions. For $l\ge2$ restrict the first $l-1$ logarithms to $\sum t_i<1-b_1-\eta$, with $\eta>0$ fixed, and sum the last prime over $(x/Q,2x/Q]$. It is then wholly above the threshold. The prime number theorem and the same reciprocal-measure convergence give the corresponding integrals times $x/L$. Include the one-prime term and let $\eta$ decrease to zero. Null boundaries give $$\liminf_{x\to\infty}\frac Lx
+        \#\{x<m\le2x:P^{-}(m)>x^{b_1}\}\ge D_{b_1}(1).$$ On the other hand Theorem 2.9, with $g(p)=1/p$, $O(1)$ remainders and $h=2\lfloor1/(40b_1)\rfloor$, bounds this count by $$xV(x^{b_1})(1+O(e^{-c/b_1}))+O(x^{b_1(4h+2)}).$$ Its remainder is $o(x/L)$ for small $b_1$, and (7.9) proves (7.19). ◻
+
+The term $1$ in (7.18) is the one-prime contribution to $D_{b_1}(1)$. Selecting a least prime factor accounts for all the other terms. Thus the integral provides the composite density to subtract from the preliminary sieve mass, with the one-prime term left over. These are densities for ordinary rough integers used in the proxies; their application to $N_u$ uses Type II followed by Type I and the sieve.
+
+### Subtracting composites away from balance
+
+Consider a composite $N_u$ counted in (7.11), whose least prime factor is at most $x^{1/2-\kappa}$. Its least prime factor $p$ lies in one bin $(x^\gamma,x^{\gamma'}]$, and $m=N_u/p$ satisfies $P^{-}(m)>x^\gamma$. Its contribution is therefore bounded by $$\sum_{\substack{mp=N_u\\x^\gamma<p\le x^{\gamma'}\text{ prime}}}
+       A(u)\Psi(u/x)I_\gamma(m).$$ All contributing dyads of $m,p$ lie between $x^{b_*}$ and $x^{1-b_*}$ for large $x$, with $b_*=b_1/3$: the factors bounded by constants in $N_u\asymp x$ are absorbed by the strict exponent slack. Apply Theorem 6.1 with $\alpha=I_\gamma-B_\gamma$ restricted to each actual cofactor range, and $\beta$ the prime indicator restricted to its bin and dyad. Theorem 7.3 supplies precisely its discrepancy hypothesis. Replacing $I_\gamma$ by $B_\gamma$ costs $o(X_A/L)$ in total.
+
+For a prime $p>W$, the condition that $m=N_u/p$ be rough above $W$ is equivalent to $P^{-}(N_u)>W$. By (7.17), the resulting upper bound reduces to a constant divided by $LV(W)$ times $$\sum_{x^\gamma<p\le x^{\gamma'}}
+       \sum_{\substack{p\mid N_u\\P^{-}(N_u)>W}}
+                     A(u)\Psi(u/x).$$ For each such $p$, sieve the odd primes up to $W$, using the base mass $X_A/(p-1)$, density $1/(l-1)$, and remainders $r(pd)$. Take $h=2\lceil T^2\rceil$ in Theorem 2.9. All products $pd$ are at most $x^{1/2-\kappa+o(1)}$, which is below the Type I level $x^{1/2-\kappa/2}$. Moreover different pairs $(p,d)$ give different products: $p>W$ is their unique prime factor above $W$. Thus (7.8) bounds the summed remainders without any divisor multiplicity loss. We obtain $$\begin{align*}
+ &\sum_{x^\gamma<p\le x^{\gamma'}}
+       \sum_{\substack{p\mid N_u\\P^{-}(N_u)>W}}
+                  A(u)\Psi(u/x)\\
+ &\hspace{12mm}=X_AV_1(W)
+          \sum_{x^\gamma<p\le x^{\gamma'}}\frac1{p-1}
+                   +o(X_AV(W)).
+\end{align*}$$ Since the reciprocal sum tends to $\log(\gamma'/\gamma)$, the composite contribution of the bin is at most $$\begin{equation}
+\tag{7.21}
+ \frac{\mathfrak S X_A}{L}
+ \left\{\sup_{\gamma\le a\le\gamma'}D_\gamma(1-a)
+                    \log(\gamma'/\gamma)+o(1)\right\}.
+\end{equation}$$ At fixed $b_1,\kappa$, joint continuity in Theorem 7.4 permits a sufficiently fine fixed mesh such that the sum of these constants is at most $$\int_{b_1}^{1/2-\kappa}D_\alpha(1-\alpha)
+                       \frac{d\alpha}{\alpha}+\frac1{10}.$$ Subtracting (7.21) from (7.11) and using Equations (7.18) and (7.19) leaves at least $$\begin{equation}
+\tag{7.22}
+ \frac{\mathfrak S X_A}{L}
+      \left\{1-\frac1{10}
+               -O(b_1^{-1}e^{-c/b_1})+o(1)\right\}
+ \ge \frac{\mathfrak S X_A}{2L}
+\end{equation}$$ on primes and composites with least prime factor exceeding $x^{1/2-\kappa}$, provided $b_1$ is sufficiently small.
+
+### A uniform upper bound for balanced composites
+
+If a composite $N_u\ll x$ has least prime factor above $x^{1/2-\kappa}$, it has exactly two prime factors counted with multiplicity, because $3(1/2-\kappa)>1$. Both factors belong, for large $x$, to $$\mathcal B_\kappa=[x^{1/2-2\kappa},x^{1/2+2\kappa}].$$ We may overcount them by ordered pairs $m,n$ of primes in that range with $mn=N_u$. Replace the first prime indicator by its proxy using Theorem 6.1, then replace the second using the same theorem with the factor roles exchanged. The remaining coefficient in the second application is a proxy bounded by one. All required discrepancy and range hypotheses follow from Theorem 7.3, as before. By (7.16), the resulting upper bound is $o(X_A/L)$ plus $$\begin{equation}
+\tag{7.23}
+ \frac{C}{L^2V(W)^2}
+ \sum_{\substack{m,n\in\mathcal B_\kappa,\ mn=2u+1\\
+                   P^{-}(m)>W,\ P^{-}(n)>W}}
+                     A(u)\Psi(u/x).
+\end{equation}$$ We now bound this positive sum with a constant independent of $\kappa,b_1,j_{**}$ and $S$.
+
+More precisely, we will show that each dyadic pair with $mn\asymp x$ contributes $O(X_AV(W)^2)$. There are only $O(\kappa L+1)$ such pairs in the indicated range, so the prefactor in (7.23) will give an $O((\kappa+L^{-1})X_A/L)$ bound. To prove the dyadic estimate, we retain a small divisor of $u$ from its Q-slots and P-marks. After discarding the remaining large Q-prime restrictions, a two-variable sieve enforces roughness of $m,n$ and the remaining small-prime restrictions on $u=(mn-1)/2$.
+
+Choose a fixed large index $j'$ and then $\theta$ in the gap $$\begin{equation}
+\tag{7.24}
+ c_2s'2^{-j'}<\theta<c_1s'2^{-j'+1},\qquad
+ 10\theta\le\frac1{20},\qquad
+ \sum_{j\ge j'}r_0c_2s'2^{-j}\le\frac1{25}.
+\end{equation}$$ Such a gap exists because $c_2<2c_1$. These choices depend only on the candidate geometry. Increase the early lower bound $j_0$ to ensure $j_0\ge j'$, so the rough slot is in a band $j\ge j'$. Call these the micro bands. Write $H_Q^{\mathrm{mic}}$ for the Q harmonic mass using just these bands. Omitting the finitely many fixed bands $j<j'$ gives $$\begin{equation}
+\tag{7.25}
+ H_Q^{\mathrm{mic}}\ll H_Q
+\end{equation}$$ with a constant independent of $j_{**}$.
+
+An assignment consists of the complete ordered Q-lists in the micro bands, including the rough slot, and one marked prime from every P-group. Give it weight $$\lambda_{\mathrm{assgn}}
+  =\prod_{j=j'}^{j_x}\frac1{r_0!}\prod_g\frac1{V_g},$$ and let $D_1$ be the product of all its entries, with multiplicity. The Q contribution has size at most $x^{1/25}$ by (7.24); the P marks have product $\exp(O(TL^{2/5}))=x^{o(1)}$. Thus $$\begin{equation}
+\tag{7.26}
+ D_1\le x^{1/20},\qquad
+ \sum_{\mathrm{assgn}}\frac{\lambda_{\mathrm{assgn}}}{D_1}
+            =H_Q^{\mathrm{mic}},\qquad
+ \sum_{\mathrm{assgn}}\lambda_{\mathrm{assgn}}
+            \le x^{1/20}H_Q^{\mathrm{mic}}.
+\end{equation}$$ In the middle identity the harmonic sum of the normalized P mark in each group is exactly $V_g^{-1}\sum p^{-1}=1$.
+
+The damping in $W_1$ can also be retained in this upper bound. Once one P-prime per group is marked in $D_1$, every additional distinct P-prime divisor of $u$ contributes a factor $q$. We represent these factors by independent random permissions for those primes; averaging the permissions recovers exactly the damping.
+
+For each assignment, ban every odd non-P prime $l\le x^\theta$ not dividing $D_1$. For each P prime not dividing $D_1$, independently allow it with probability $q$ and otherwise ban it. Primes dividing $D_1$ are never banned. All P primes are below $x^\theta$ and indeed below $W$ for large $x$. We have the pointwise majorant $$\begin{equation}
+\tag{7.27}
+ A(u)\le
+ \sum_{\mathrm{assgn}}\lambda_{\mathrm{assgn}}
+     \mathbf 1_{D_1\mid u}\,
+     \mathbb E_{\mathrm{mask}}\mathbf 1_{\{l\nmid u\text{ for every banned }l\}}.
+\end{equation}$$ To verify it, expand $A(u)$ into Q-lists and one P mark per group. For every genuine list the divisibility $D_1\mid u$ holds, and every non-P prime divisor of $u$ below $x^\theta$ occurs in $D_1$: omitted Q-bands contain only pure primes above $x^\theta$. The micro Q product has no P factors, so $D_1$ contains exactly one distinct P prime per group. For such a genuine list, the mask expectation is $q^{\omega(u)-s}$, precisely the damping in $W_1(u)$. Once the micro entries are fixed, the normalized number of omitted pure-prime lists with any fixed residual product is at most one. Explicitly, a band with prime multiplicities $a_p$ contributes $\prod_p1/a_p!\le1$; disjointness prevents alternative band assignments. Dropping these residual restrictions proves (7.27).
+
+Fix now a pair of dyads $m\asymp M_1$, $n\asymp M_2$ meeting the product support $mn\asymp x$, an assignment, and a mask. Since $D_1$ is odd, $D_1\mid u$ and $mn=2u+1$ imply $mn\equiv1\pmod{D_1}$. We may drop parity and use this congruence to bound the number of pairs in the full dyadic box. For an odd prime $l\le z':=x^\theta$ with $l\nmid D_1$, the bad events are $$mn\equiv0\pmod l\quad(l\le W),\qquad
+ mn\equiv1\pmod l\quad(l\text{ banned}).$$ The two residue sets are disjoint and contain respectively $2l-1$ and $l-1$ pairs. Put $$\nu(l)=(2l-1)\mathbf 1_{l\le W}+(l-1)\mathbf 1_{l\text{ banned}},
+ \qquad g(l)=\nu(l)/l^2.$$ These densities satisfy the hypotheses of Theorem 2.9 uniformly in assignment and mask: $g(l)\le3/l$, and for $l\ge3$ they are bounded away from one. The base mass is the product of the two real side lengths times $\varphi(D_1)/D_1^2$.
+
+For a squarefree product $d$ of the sieve primes, the CRT gives exactly $\varphi(D_1)\nu(d)$ residue pairs modulo $D_1d$, including when $D_1$ has prime-power factors. Each pair of residue classes has lattice count equal to its area term with error $$O\left(1+\frac{M_1+M_2}{D_1d}\right).$$ As $\nu(d)\le d\,3^{\omega(d)}$ and $\varphi(D_1)\le D_1$, the sum of absolute remainders up to $D=(z')^{10}=x^{10\theta}$ is $$\begin{equation}
+\tag{7.28}
+ \ll L^{O(1)}\bigl((M_1+M_2)D+D_1D^2\bigr)
+ \le L^{O(1)}\bigl((M_1+M_2)x^{1/20}+D_1x^{1/10}\bigr).
+\end{equation}$$ Here the ordinary $\omega(d)$ occurs only in this elementary divisor bound; its sums follow, for example, from $3^{\omega(d)}\le\tau_3(d)$, where $\tau_3(d)$ counts ordered triples of positive integers with product $d$. Apply the upper-bound version of Theorem 2.9 with $h=2$.
+
+We record its Euler product explicitly. A banned prime below $W$ has factor $1-3/l+2/l^2$, and a banned prime above $W$ has factor $1-1/l+1/l^2$. Each is at most $$(1-1/l)^{1+2\mathbf 1_{l\le W}}(1+O(l^{-2})).$$ An allowed P prime has factor $(1-1/l)^2$, so it requires one compensating factor $(1-1/l)^{-1}$. Omitting the prime 2 changes only an absolute constant, as does the convergent product of the $1+O(l^{-2})$ factors. Removed primes dividing $D_1$ require at most three compensating factors. Therefore $$\begin{equation}
+\tag{7.29}
+ \prod_{\substack{3\le l\le z'\\l\nmid D_1}}(1-g(l))
+ \le C V(W)^2V(z')
+       \prod_{l\mid D_1}(1-1/l)^{-3}
+       \prod_{\substack{p\text{ allowed}\\p\nmid D_1}}(1-1/p)^{-1}.
+\end{equation}$$ Every prime dividing $D_1$ is at least $L^{20}$, so $D_1\le x^{1/20}$ makes its compensating product uniformly bounded. The expectation of the last product is $$\prod_{\substack{p\text{ a P prime}\\p\nmid D_1}}
+       \left(1-q+\frac q{1-1/p}\right)
+ =\prod_{\substack{p\text{ a P prime}\\p\nmid D_1}}
+       \left(1+\frac q{p-1}\right)\le H_P$$ by (7.6).
+
+Since $\varphi(D_1)/D_1^2\le1/D_1$, sum the main sieve terms over assignments using (7.26), and bound $\Psi$ by its fixed supremum. Their contribution on this dyadic pair is $$\ll xV(W)^2V(x^\theta)H_Q^{\mathrm{mic}}H_P
+ \ll X_AV(W)^2,$$ by Equations (7.3) and (7.25) and $V(x^\theta)\ll1/L$. To sum the error (7.28), use $M_i\ll x^{0.54}$ and (7.26). The result is $$\ll x^{0.64}L^{O(1)}H_Q^{\mathrm{mic}}
+       =o(X_AV(W)^2).$$ The comparison is uniform in the later parameters: use $H_Q^{\mathrm{mic}}\ll H_Q$, $H_P\ge1$, and $X_AV(W)^2\asymp xH_QH_P/L^2$. We have proved the promised dyadic estimate $$\begin{equation}
+\tag{7.30}
+ \sum_{\substack{m\asymp M_1,\ n\asymp M_2,\ mn=2u+1\\
+                   P^{-}(m)>W,\ P^{-}(n)>W}}
+             A(u)\Psi(u/x)\ll X_AV(W)^2.
+\end{equation}$$
+
+There are $O(\kappa L+1)$ possible dyads for $m$ in $\mathcal B_\kappa$, and, for each, only $O(1)$ possible dyads for $n$ because $mn\asymp x$. Combining (7.23) and (7.30) bounds the entire balanced composite contribution by $$\begin{equation}
+\tag{7.31}
+ C_{\mathrm{bal}}(\kappa+L^{-1})\frac{X_A}{L}+o(X_A/L).
+\end{equation}$$ The constant $C_{\mathrm{bal}}$ depends only on $\delta,r_0,\Psi,j',\theta$ and the fixed P-group geometry. It does not depend on $\kappa,b_1,j_{**}$, the later analytic parameters, or $S$. Indeed the candidate comparison is uniform in $j_{**}$; the omitted macro bands are fixed before the gap; the prime proxy bound is uniform on $[0.46,0.54]$; and the sieve-density and lattice constants just used are absolute. Thresholds for $x$ may depend on all parameters after they are fixed.
+
+### Closing the parameter choices and counting primes
+
+For clarity, the choices in the preceding argument can be made in the following order.
+
+1.  Fix $\delta$, $\Psi$, $r_0$ and the Q/P geometry. Choose the finite prefix for the candidate lower bound, then $j'$ and $\theta$ in (7.24), and enlarge $j_0$ to cover both requirements. All these are early choices.
+
+2.  Fix $\kappa\in(0,1/50)$ so small that $C_{\mathrm{bal}}\kappa<\mathfrak S/4$. This is possible because the constant in (7.31) is independent of the gap.
+
+3.  Choose $b_1$ sufficiently small for (7.11), (7.19), and (7.22). Set $b_*=b_1/3$. Choose $j_{**}$ to meet (7.10), and then choose the finite exponent mesh for (7.21).
+
+4.  Prescribe the saving in Theorem 6.1 so that every replacement error, including dyadic sums, is $o(X_A/L)$. The coefficient exponents are already bounded independently of $S$. The proof of that theorem fixes its Cauchy splitting precision, shift-saving target, graph and analytic parameters, and finally a required discrepancy exponent in (5.4).
+
+5.  Choose $S$ sufficiently large in Theorem 7.3 for that exponent, fix any prime-number-theorem accuracies needed for this $S$, and let $x$ tend to infinity.
+
+In particular the precision of the proxy cells causes no feedback into the Type II coefficient bound.
+
+Subtract (7.31) from (7.22). For all sufficiently large $x$ there remains a positive constant multiple of $X_A/L$ on prime values of $N_u$: $$\sum_{2u+1\text{ prime}}A(u)\Psi(u/x)\gg X_A/L.$$ By Theorem 7.1 each summand is at most $\exp(O(\sqrt L))$ and $X_A\gg xL^{-C_A}$. The map $u\mapsto2u+1$ is injective, so the number of distinct primes is at least $$xL^{-C_A-1}\exp(-O(\sqrt L))=x^{1-o(1)}.$$ Their range is $2x<p\le4x+1\le5x$. Finally $P^{+}(p-1)=P^{+}(2u)=\max(2,P^{+}(u))\le x^\delta$ for large $x$; the strict inequality $c_2s'<\delta$ in the candidate geometry leaves room for every subpower P prime, and the factor 2 is eventually below $x^\delta$. This proves Theorem 1.2.
+
+[cut]
+
+## References
+
+**[1]** W. R. Alford, Andrew Granville, and Carl Pomerance. There are infinitely many Carmichael numbers. *Annals of Mathematics*, 139(3):703–722, 1994.
+
+**[2]** R. C. Baker and Glyn Harman. Shifted primes without large prime factors. *Acta Arithmetica*, 83(4):331–361, 1998.
+
+**[3]** Abhishek Bharadwaj and Brad Rodgers. Large prime factors of well-distributed sequences. *Canadian Mathematical Bulletin*, pages 1–17, 2026. First View, published online April 17, 2026; arXiv:2402.11884v4, April 9, 2026.
+
+**[4]** A. Buchstab. Asymptotische abschätzung einer allgemeinen zahlentheoretischen funktion. *Rec. Math. \[Mat. Sbornik\] N.S.*, 2(44)(6):1239–1246, 1937.
+
+**[5]** Bradley Efron and Charles Stein. The jackknife estimate of variance. *The Annals of Statistics*, 9(3):586–596, 1981.
+
+**[6]** Paul Erdős. On the normal number of prime factors of $p-1$ and some related problems concerning Euler’s $\varphi$-function. *The Quarterly Journal of Mathematics*, os-6(1):205–213, 1935.
+
+**[7]** Paul Erdős. On pseudoprimes and Carmichael numbers. *Publicationes Mathematicae Debrecen*, 4:201–206, 1956.
+
+**[8]** Kevin Ford and Heini Halberstam. The Brun–Hooley sieve. *Journal of Number Theory*, 81(2):335–350, 2000.
+
+**[9]** John Friedlander and Henryk Iwaniec. Asymptotic sieve for primes. *Annals of Mathematics*, 148(3):1041–1065, 1998.
+
+**[10]** Andrew Granville. Smooth numbers: computational number theory and beyond. In J. P. Buhler and P. Stevenhagen, editors, *Algorithmic Number Theory: Lattices, Number Fields, Curves and Cryptography*, volume 44 of *Mathematical Sciences Research Institute Publications*, pages 267–323. Cambridge University Press, 2008.
+
+**[11]** Harald Andrés Helfgott and Maksym Radziwiłł. Expansion, divisibility and parity. <https://arxiv.org/abs/2103.06853v2>, 2021. Version 2, April 13, 2021.
+
+**[12]** Jared Duker Lichtman. Primes in arithmetic progressions to large moduli, and shifted primes without large prime factors. <https://arxiv.org/abs/2211.09641v1>, 2022. Version 1, 14 November 2022.
+
+**[13]** Kaisa Matomäki and Maksym Radziwiłł. Multiplicative functions in short intervals. *Annals of Mathematics*, 183(3):1015–1056, 2016. Section and lemma locators refer to <https://arxiv.org/abs/1501.04585v4>.
+
+**[14]** Kaisa Matomäki, Maksym Radziwiłł, and Terence Tao. Sign patterns of the Liouville and Möbius functions. *Forum of Mathematics, Sigma*, 4:e14, 2016. 44 pages.
+
+**[15]** Hugh L. Montgomery and Robert C. Vaughan. Multiplicative number theory II: Primes and sieves. <https://personal.science.psu.edu/rcv4/571s25/montgomery-vaughanII.pdf>. Undated author-hosted draft, accessed 13 September 2026. Lemma 16.4, Corollary 16.6, Theorem 16.7, and Theorem 19.16.
+
+**[16]** Hugh L. Montgomery and Robert C. Vaughan. Hilbert’s inequality. *Journal of the London Mathematical Society*, 8:73–82, 1974.
+
+**[17]** OpenAI. The Poisson–Dirichlet law for prime predecessors. OpenAI Math Release preprint [OAI:The-Poisson-Dirichlet-Law-for-Prime-Predecessors-September-24-2026](https://github.com/openai/math/blob/main/preprints/The-Poisson-Dirichlet-Law-for-Prime-Predecessors-September-24-2026/paper.pdf), 2026.
+
+**[18]** Cédric Pilatte. Improved bounds for the two-point logarithmic Chowla conjecture. <https://arxiv.org/abs/2310.19357v3>, 2026. Version 3, August 25, 2026; first submitted in 2023.
+
+**[19]** Carl Pomerance. Popular values of Euler’s function. *Mathematika*, 27(1):84–89, 1980.
+
+**[20]** Kannan Soundararajan. Moments of the Riemann zeta function. *Annals of Mathematics*, 170(2):981–993, 2009.
+
+**[21]** Terence Tao. 254A, notes 1: Elementary multiplicative number theory. <https://terrytao.wordpress.com/2014/11/23/254a-notes-1-elementary-multiplicative-number-theory/>, 2014. 23 November 2014. Theorems 15 and 26.
+
+**[22]** Terence Tao. 254A, notes 2: Complex-analytic multiplicative number theory. <https://terrytao.wordpress.com/2014/12/09/254a-notes-2-complex-analytic-multiplicative-number-theory/>, 2014. 9 December 2014. Corollary 39, Exercise 40, and Exercise 64.
+
+**[23]** Terence Tao. The logarithmically averaged Chowla and Elliott conjectures for two-point correlations. *Forum of Mathematics, Pi*, 4:e8, 2016. 36 pages.

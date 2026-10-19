@@ -6,7 +6,7 @@ desc: |
   (-1)^j/(2j+1)^2 over j >= 0, is irrational; a qualitative statement with no
   irrationality measure. Claims checked only.
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 ***
@@ -40,8 +40,8 @@ formalization of this statement, with the comparator theorem
 number given by Mathlib's unconditional sum over all natural numbers $j$ of
 $(-1)^j/(2j+1)^2$ is irrational; the terms are absolutely summable, so that
 sum is $G$. The hyperbolic-volume consequences are not part of it. It was
-read statically and not built or audited here, and the catalog lists no
-entry for it at this revision (see the card).
+read statically and not built or audited here, and the release's catalog lists
+no entry for it at this revision (see the card).
 
 **Source.** OpenAI, *Catalan's constant is irrational*, release folder
 `preprints/Catalans-constant-is-irrational-September-24-2026`; TeX file

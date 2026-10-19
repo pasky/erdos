@@ -1,0 +1,710 @@
+{
+  "scope": "Exact finite exponent-pair certificate; no binomial rows enumerated.",
+  "records": [
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "height_cap_power_of_ten": 914,
+      "maximum_difference": 10,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 641,
+      "p_power_count": 3036,
+      "q_power_count": 1915,
+      "exponent_pairs_considered": 5802129,
+      "exponent_pairs_after_safe_filter": 1942943,
+      "signed_differences_considered": 38858860,
+      "exact_candidate_tests": 11,
+      "exception_count": 11,
+      "exceptions": [
+        {
+          "p_exponent": 4,
+          "q_exponent": 3,
+          "signed_difference": 5,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 27,
+          "larger_height": 32
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 3,
+          "signed_difference": -6,
+          "p_cofactor": 3,
+          "q_cofactor": 2,
+          "smaller_height": 48,
+          "larger_height": 54
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 5,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 27,
+          "larger_height": 32
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 4,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 10,
+          "p_cofactor": 2,
+          "q_cofactor": 2,
+          "smaller_height": 54,
+          "larger_height": 64
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 2,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 10,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 54,
+          "larger_height": 64
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 1,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 4,
+          "signed_difference": -2,
+          "p_cofactor": 5,
+          "q_cofactor": 2,
+          "smaller_height": 160,
+          "larger_height": 162
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -4,
+          "p_cofactor": 5,
+          "q_cofactor": 4,
+          "smaller_height": 320,
+          "larger_height": 324
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -8,
+          "p_cofactor": 5,
+          "q_cofactor": 8,
+          "smaller_height": 640,
+          "larger_height": 648
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "height_cap_power_of_ten": 914,
+      "maximum_difference": 10,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 5626,
+      "p_power_count": 3036,
+      "q_power_count": 1307,
+      "exponent_pairs_considered": 3961098,
+      "exponent_pairs_after_safe_filter": 1326232,
+      "signed_differences_considered": 26524640,
+      "exact_candidate_tests": 14,
+      "exception_count": 14,
+      "exceptions": [
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": -2,
+          "p_cofactor": 3,
+          "q_cofactor": 2,
+          "smaller_height": 48,
+          "larger_height": 50
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": 7,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 25,
+          "larger_height": 32
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": -9,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 16,
+          "larger_height": 25
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": -4,
+          "p_cofactor": 3,
+          "q_cofactor": 4,
+          "smaller_height": 96,
+          "larger_height": 100
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": 7,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 25,
+          "larger_height": 32
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 3,
+          "p_cofactor": 4,
+          "q_cofactor": 1,
+          "smaller_height": 125,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 3,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 125,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 6,
+          "p_cofactor": 4,
+          "q_cofactor": 2,
+          "smaller_height": 250,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 9,
+          "p_cofactor": 6,
+          "q_cofactor": 3,
+          "smaller_height": 375,
+          "larger_height": 384
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 3,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 125,
+          "larger_height": 128
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 6,
+          "p_cofactor": 2,
+          "q_cofactor": 2,
+          "smaller_height": 250,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": 9,
+          "p_cofactor": 3,
+          "q_cofactor": 3,
+          "smaller_height": 375,
+          "larger_height": 384
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 3,
+          "signed_difference": 6,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 250,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 4,
+          "signed_difference": 7,
+          "p_cofactor": 11,
+          "q_cofactor": 9,
+          "smaller_height": 5625,
+          "larger_height": 5632
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "height_cap_power_of_ten": 914,
+      "maximum_difference": 10,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 19529729,
+      "p_power_count": 3036,
+      "q_power_count": 1081,
+      "exponent_pairs_considered": 3275640,
+      "exponent_pairs_after_safe_filter": 1096996,
+      "signed_differences_considered": 21939920,
+      "exact_candidate_tests": 15,
+      "exception_count": 15,
+      "exceptions": [
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": -1,
+          "p_cofactor": 3,
+          "q_cofactor": 1,
+          "smaller_height": 48,
+          "larger_height": 49
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": -2,
+          "p_cofactor": 3,
+          "q_cofactor": 2,
+          "smaller_height": 96,
+          "larger_height": 98
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 2,
+          "signed_difference": -4,
+          "p_cofactor": 3,
+          "q_cofactor": 4,
+          "smaller_height": 192,
+          "larger_height": 196
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": -5,
+          "p_cofactor": 8,
+          "q_cofactor": 3,
+          "smaller_height": 1024,
+          "larger_height": 1029
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 3,
+          "signed_difference": -5,
+          "p_cofactor": 4,
+          "q_cofactor": 3,
+          "smaller_height": 1024,
+          "larger_height": 1029
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 3,
+          "signed_difference": -10,
+          "p_cofactor": 8,
+          "q_cofactor": 6,
+          "smaller_height": 2048,
+          "larger_height": 2058
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 3,
+          "signed_difference": -5,
+          "p_cofactor": 2,
+          "q_cofactor": 3,
+          "smaller_height": 1024,
+          "larger_height": 1029
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 3,
+          "signed_difference": -10,
+          "p_cofactor": 4,
+          "q_cofactor": 6,
+          "smaller_height": 2048,
+          "larger_height": 2058
+        },
+        {
+          "p_exponent": 10,
+          "q_exponent": 3,
+          "signed_difference": -5,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 1024,
+          "larger_height": 1029
+        },
+        {
+          "p_exponent": 10,
+          "q_exponent": 3,
+          "signed_difference": -10,
+          "p_cofactor": 2,
+          "q_cofactor": 6,
+          "smaller_height": 2048,
+          "larger_height": 2058
+        },
+        {
+          "p_exponent": 11,
+          "q_exponent": 3,
+          "signed_difference": -10,
+          "p_cofactor": 1,
+          "q_cofactor": 6,
+          "smaller_height": 2048,
+          "larger_height": 2058
+        },
+        {
+          "p_exponent": 11,
+          "q_exponent": 4,
+          "signed_difference": 3,
+          "p_cofactor": 34,
+          "q_cofactor": 29,
+          "smaller_height": 69629,
+          "larger_height": 69632
+        },
+        {
+          "p_exponent": 12,
+          "q_exponent": 4,
+          "signed_difference": 3,
+          "p_cofactor": 17,
+          "q_cofactor": 29,
+          "smaller_height": 69629,
+          "larger_height": 69632
+        },
+        {
+          "p_exponent": 16,
+          "q_exponent": 6,
+          "signed_difference": -3,
+          "p_cofactor": 149,
+          "q_cofactor": 83,
+          "smaller_height": 9764864,
+          "larger_height": 9764867
+        },
+        {
+          "p_exponent": 17,
+          "q_exponent": 6,
+          "signed_difference": -6,
+          "p_cofactor": 149,
+          "q_cofactor": 166,
+          "smaller_height": 19529728,
+          "larger_height": 19529734
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "height_cap_power_of_ten": 914,
+      "maximum_difference": 10,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 43741,
+      "p_power_count": 1915,
+      "q_power_count": 1307,
+      "exponent_pairs_considered": 2498378,
+      "exponent_pairs_after_safe_filter": 835929,
+      "signed_differences_considered": 16718580,
+      "exact_candidate_tests": 17,
+      "exception_count": 16,
+      "exceptions": [
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 2,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 25,
+          "larger_height": 27
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 4,
+          "p_cofactor": 2,
+          "q_cofactor": 2,
+          "smaller_height": 50,
+          "larger_height": 54
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 6,
+          "p_cofactor": 3,
+          "q_cofactor": 3,
+          "smaller_height": 75,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 8,
+          "p_cofactor": 4,
+          "q_cofactor": 4,
+          "smaller_height": 100,
+          "larger_height": 108
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": 6,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 75,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 3,
+          "q_cofactor": 2,
+          "smaller_height": 243,
+          "larger_height": 250
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 243,
+          "larger_height": 250
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -1,
+          "p_cofactor": 6,
+          "q_cofactor": 7,
+          "smaller_height": 4374,
+          "larger_height": 4375
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -2,
+          "p_cofactor": 12,
+          "q_cofactor": 14,
+          "smaller_height": 8748,
+          "larger_height": 8750
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -3,
+          "p_cofactor": 18,
+          "q_cofactor": 21,
+          "smaller_height": 13122,
+          "larger_height": 13125
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -1,
+          "p_cofactor": 2,
+          "q_cofactor": 7,
+          "smaller_height": 4374,
+          "larger_height": 4375
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -2,
+          "p_cofactor": 4,
+          "q_cofactor": 14,
+          "smaller_height": 8748,
+          "larger_height": 8750
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -3,
+          "p_cofactor": 6,
+          "q_cofactor": 21,
+          "smaller_height": 13122,
+          "larger_height": 13125
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 4,
+          "signed_difference": -3,
+          "p_cofactor": 2,
+          "q_cofactor": 21,
+          "smaller_height": 13122,
+          "larger_height": 13125
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "signed_difference": -5,
+          "p_cofactor": 10,
+          "q_cofactor": 7,
+          "smaller_height": 21870,
+          "larger_height": 21875
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "signed_difference": -10,
+          "p_cofactor": 20,
+          "q_cofactor": 14,
+          "smaller_height": 43740,
+          "larger_height": 43750
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "height_cap_power_of_ten": 914,
+      "maximum_difference": 10,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 5832,
+      "p_power_count": 1915,
+      "q_power_count": 1081,
+      "exponent_pairs_considered": 2066040,
+      "exponent_pairs_after_safe_filter": 691444,
+      "signed_differences_considered": 13828880,
+      "exact_candidate_tests": 5,
+      "exception_count": 5,
+      "exceptions": [
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 5,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 49,
+          "larger_height": 54
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 10,
+          "p_cofactor": 4,
+          "q_cofactor": 2,
+          "smaller_height": 98,
+          "larger_height": 108
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 2,
+          "signed_difference": -2,
+          "p_cofactor": 3,
+          "q_cofactor": 5,
+          "smaller_height": 243,
+          "larger_height": 245
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 2,
+          "signed_difference": -2,
+          "p_cofactor": 1,
+          "q_cofactor": 5,
+          "smaller_height": 243,
+          "larger_height": 245
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 1,
+          "p_cofactor": 8,
+          "q_cofactor": 17,
+          "smaller_height": 5831,
+          "larger_height": 5832
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "height_cap_power_of_ten": 914,
+      "maximum_difference": 10,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 1373,
+      "p_power_count": 1307,
+      "q_power_count": 1081,
+      "exponent_pairs_considered": 1410480,
+      "exponent_pairs_after_safe_filter": 471979,
+      "signed_differences_considered": 9439580,
+      "exact_candidate_tests": 4,
+      "exception_count": 4,
+      "exceptions": [
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": 1,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 49,
+          "larger_height": 50
+        },
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": 2,
+          "p_cofactor": 4,
+          "q_cofactor": 2,
+          "smaller_height": 98,
+          "larger_height": 100
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 2,
+          "signed_difference": 5,
+          "p_cofactor": 2,
+          "q_cofactor": 5,
+          "smaller_height": 245,
+          "larger_height": 250
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 3,
+          "signed_difference": 3,
+          "p_cofactor": 11,
+          "q_cofactor": 4,
+          "smaller_height": 1372,
+          "larger_height": 1375
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    }
+  ]
+}

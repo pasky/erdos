@@ -7,7 +7,7 @@ desc: |
   that the maximum is pi(x)+64 for x >= 31957, and the lower bound pi(x)+64
   for every x >= 31957 that OEIS A365339 records.
 created: 2026-09-28T02:57:15Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-19T04:19:04Z
 ---
 
 ***
@@ -59,11 +59,11 @@ no computation was replayed here.
 
 ## Later records
 
-The OEIS entry A365339 ($a(n)=M^\uparrow(n)$), read 2026-09-27, states the lower
-bound $a(n)\ge\pi(n)+64$ for $n\ge31957$ in its formula section and records the
-conjecture $a(n)=\pi(n)+64$ for $n\ge31957$ as verified to $10^7$ by this paper
-and to $10^9$ afterwards; A365474 lists $a(10^k)$ for $k\le9$. Tao's 2024 paper
-cites the same extension in its footnote 2, as recorded on the
+The OEIS entry A365339 ($a(n)=M^\uparrow(n)$) states the lower bound
+$a(n)\ge\pi(n)+64$ for $n\ge31957$ in its formula section and records the
+conjecture $a(n)=\pi(n)+64$ for $n\ge31957$ as verified to $10^7$ by this
+paper and to $10^9$ afterwards; A365474 lists $a(10^k)$ for $k\le9$. Tao's 2024 paper cites the same extension in its
+footnote 2, as recorded on the
 [[primes/tao_2024_monotone_nondecreasing_sequences_euler_totient_function/external_context|external-context page]].
 
 ## Bears on
@@ -71,8 +71,8 @@ cites the same extension in its footnote 2, as recorded on the
 - [[../wiki/problems/primes/E0049/_index|Problem 49]]: these records concern the weak
   (nondecreasing) variant that Erdős further asks about in erdosproblems.com's
   [Er95c], not the strict question of the erdosproblems.com statement. For the
-  weak variant the bound that OEIS A365339 records shows that the primes are not
-  a largest example for any $x\ge31957$, and the paper's conjecture puts
+  weak variant the bound that OEIS A365339 records shows that the primes are
+  not a largest example for any $x\ge31957$, and the paper's conjecture puts
   the excess at exactly 64; whether $M^\uparrow(x)-\pi(x)$ is bounded is the
   [[primes/pollack_et_al_2013_sets_monotonicity_euler_totient_function/question_p2|open p. 2 question]].
   Nothing here computes the strict maximum $M_<(x)$. The extremal sets are

@@ -1,0 +1,62 @@
+[cut]
+
+# L163: premise statement
+
+On the circle R/Z, let X be any infinite sequence, repeated terms allowed.
+For n >= r, order the first n labels by position, breaking ties by arrival
+index, and extend their real lifts by y_(i+n) = y_i + 1. Let M_n^(r) and
+m_n^(r) be the maximum and minimum of y_(i+r)-y_i over 1 <= i <= n.
+Interpret M/0 as positive infinity and log as the natural logarithm.
+There is an absolute integer r0 such that for every integer r >= r0
+and every X, limsup_n M_n^(r)/m_n^(r) >= 1 + log(r)/(200r).
+If mu_r = inf_X limsup_n M_n^(r)/m_n^(r) over the same sequence family,
+then r(mu_r-1) >= log(r)/200 for r >= r0, and r(mu_r-1) tends to
+positive infinity as r tends to infinity through the positive integers.
+
+[cut]
+
+## Conventions and scope
+
+Spans are forward lifted arcs, or sums of $r$ consecutive nonnegative gaps;
+they are not shortest unoriented distances. Their sum is $r$, so
+$nm_n^{(r)}\le r\le nM_n^{(r)}$ and $M_n^{(r)}>0$. Counts in the proof
+retain label multiplicity in half-open arcs $(x,x+\ell]$, $\ell<1$.
+All limits in $n$ use integers $n\ge r$. The constant $r_0$ is independent of
+$X$, although intermediate time thresholds can depend on $X$ and $r$.
+No optimal coefficient, attained infimum or conclusion for every small $r$
+is asserted.
+
+[cut]
+
+[cut]
+
+# L164: premise statement
+
+On the circle R/Z, let X be any infinite sequence, repeated terms allowed.
+For n >= r, order the first n labels by position, breaking ties by arrival
+index, and extend their real lifts by y_(i+n) = y_i + 1. Let M_n^(r) and
+m_n^(r) be the maximum and minimum of y_(i+r)-y_i over 1 <= i <= n.
+There are absolute constants c > 0 and integer r0 such that, for every
+integer r >= r0 and every X, limsup_n(n M_n^(r)-r) >= c sqrt(log r)
+and limsup_n(r-n m_n^(r)) >= c sqrt(log r), with natural logarithms.
+Set Lambda_r = inf_X limsup_n n M_n^(r) and
+lambda_r = sup_X liminf_n n m_n^(r) over this same family.
+Then Lambda_r-r and r-lambda_r are each at least c sqrt(log r) for
+every integer r >= r0, and both tend to positive infinity as r tends
+to infinity through positive integers. The two deviations need not
+occur at the same times.
+
+[cut]
+
+## Conventions and scope
+
+The $r$-spans are forward lifted arcs, each a sum of $r$ consecutive gaps,
+including zero and full-turn spans. They are not shortest circle distances.
+Their sum is $r$. Counting arcs are half-open $(x,x+\ell]$, $\ell<1$,
+and counts retain multiplicity. Limits use integer $n\ge r$.
+The constants $c,r_0$ are independent of the sequence, whereas intermediate
+onset times may depend on it and on $r$. The two limsups are separate
+assertions, with no common subsequence required. Small-$r$ bounds, optimal
+constants and attained extrema are outside the statement.
+
+[cut]

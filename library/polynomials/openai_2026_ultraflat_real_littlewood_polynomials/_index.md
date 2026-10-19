@@ -7,7 +7,7 @@ desc: |
   the circle and discrepancy rounding; bears on Problems 1150, 228 and 230.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T13:55:32Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # polynomials/openai_2026_ultraflat_real_littlewood_polynomials
@@ -250,8 +250,8 @@ is pure.
   each $\varepsilon$, a degree-$n$ sign polynomial with maximum modulus at
   most $(1+\varepsilon)\sqrt{n+1}$ for every large $n$, which would leave no
   such $c$; the lower bound of Theorem 1 plays no role here. The manuscript
-  does not name the problem by its catalog number (it cites Erdős 1957,
-  Problem 26, for the two-sided constant-factor question). The claim is
+  does not name the problem by its erdosproblems.com number (it cites Erdős
+  1957, Problem 26, for the two-sided constant-factor question). The claim is
   unverified here, the manuscript is attributed to a model and is not refereed
   or formalized, and the page's status rests on acceptance evidence.
 - [[../wiki/problems/polynomials/E0228/_index|Problem 228]]: claimed stronger form

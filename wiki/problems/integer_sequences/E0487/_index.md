@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 487
@@ -103,20 +103,20 @@ https://www.erdosproblems.com/487, accessed 2026-09-18.
   result page
   [[../library/integer_sequences/davenport_1936_sequences_positive_integers/theorem_2|Theorem 2]].
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label; see
-"Formalization and the Lean label" below for what it refers to. The file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below for what it refers to. The
+file
 [`ErdosProblems/487.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/487.lean)
 of formal-conjectures, pinned to the head of main on 2026-09-18, declares
 `erdos_487 : answer(True) ↔ ∀ A : Set ℕ, A.HasPosDensity → ∃ a ∈ A, ∃ b ∈ A, ∃ c ∈ A, a ≠ b ∧ b ≠ c ∧ a ≠ c ∧ Nat.lcm a b = c`
 under `category research solved` with proof `sorry` and a `formal_proof`
-attribute naming `src/v4.29.1/ErdosProblems/Erdos487.lean` of
-`plby/lean-proofs` at the commit of 2026-06-30 that the Kleitman page's
-link pins; its docstring repeats the
-erdosproblems.com commentary. The community database (pinned copy of 2026-09-18)
-lists the problem as "proved (Lean)" as of its last update on 16 February 2026,
-the statement formalized since 3 August 2026, `formal_status` Lean and no
-formal-proof URL. The erdosproblems.com indicator reads "Formalised statement?
-Yes". Nothing was built or kernel-checked here.
+attribute naming `src/v4.29.1/ErdosProblems/Erdos487.lean` of `plby/lean-proofs`
+at the commit of 2026-06-30 that the Kleitman page's link pins; its docstring
+repeats the erdosproblems.com commentary. The community database (pinned copy of
+2026-09-18) lists the problem as "proved (Lean)" as of its last update on 16
+February 2026, the statement formalized since 3 August 2026, `formal_status`
+Lean and no formal-proof URL. The erdosproblems.com indicator reads "Formalised
+statement? Yes". Nothing was built or kernel-checked here.
 
 ## Current assessment
 
@@ -192,8 +192,8 @@ Davenport--Erdős theorem are quoted from the printed sources; Kleitman's
 theorem rests on erdosproblems.com's account, and the reduction on the
 attestations above and the Lean file's summary.
 
-**Formalization and the Lean label.** erdosproblems.com's "(LEAN)" suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** erdosproblems.com's "(LEAN)" suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body whose `formal_proof` attribute names
 `src/v4.29.1/ErdosProblems/Erdos487.lean` in `plby/lean-proofs` at the
 commit of 2026-06-30 that Kleitman's page pins. That file (135,027 bytes,

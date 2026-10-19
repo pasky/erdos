@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 304
@@ -124,7 +124,8 @@ proof, cited the release's manuscript and added a `formal_proof` attribute
 linking the release's
 [`OAI.ShortEgyptian.main`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/ShortEgyptian/Main.lean#L33),
 the second development of the theorem that the claim page describes and that
-was not built here; the link is a catalog label, not acceptance evidence.
+was not built here; the link is a formal-conjectures label, not acceptance
+evidence.
 
 ## Current assessment
 

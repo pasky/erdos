@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 830
@@ -49,9 +49,23 @@ https://www.erdosproblems.com/830.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/830.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+An equal-divisor-sum construction does not automatically construct amicable
+pairs. For example $\sigma(6)=\sigma(11)=12$, while $6+11=17$. The additional
+equation that the common value equals $a+b$ must hold. Aliquot reversals
+likewise need not be two-cycles. The definitions and statements in
+[[../library/arithmetic_functions/pollack_2016_problems_erdos_sum_divisors_function/_index|Pollack–Pomerance]]
+make these distinctions explicit.
+
+The upper bound in
+[[../library/arithmetic_functions/pomerance_2015_amicable_numbers/_index|Pomerance's
+Theorem 1.1]] concerns distinct amicable numbers and supplies no infinitude.
+This question also admits the perfect-number diagonal $a=b$. Neither convention
+may be silently dropped. These are statement-level comparisons and the exact
+example above, not new constructions or proof audits. A candidate collision
+family must satisfy the extra sum equation before it bears on either infinitude
+question.
 
 ## Known Results
 

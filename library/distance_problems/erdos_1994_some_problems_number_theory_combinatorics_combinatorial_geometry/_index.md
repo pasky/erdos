@@ -7,7 +7,7 @@ desc: |
   minimal-diameter sets and distinct distances in general position.
 license: reserved
 created: 2026-09-17T10:48:33Z
-updated: 2026-10-08T00:43:48Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # distance_problems/erdos_1994_some_problems_number_theory_combinatorics_combinatorial_geometry
@@ -88,8 +88,8 @@ sections: 1. Number theory (1.1--1.6, pp. 261--264), 2. Combinatorics
   four concyclic), $h(n)$ is the largest integer such that any such $n$
   points determine at least $h(n)$ distinct distances; Erdős conjectured
   $h(n)/n\to\infty$ but could not prove $h(n)>n-1$, nor exclude
-  $h(n)<cn$ for some $c<1$. This is the question of catalog problem #98;
-  that page does not yet cite this paper, so it is not linked here.
+  $h(n)<cn$ for some $c<1$. This is the question of erdosproblems.com
+  problem #98; that page does not yet cite this paper, so it is not linked here.
 
 The other items (1.1 sets with no product of $k$ terms a square, 1.2 the
 Cameron--Erdős count of sequences in which no term is a sum of distinct
@@ -98,8 +98,8 @@ decomposition question, 1.6 Sidon sequences with
 $g(n)=n^{1/2}+o(n^{\epsilon})$, 2.1--2.4 and 2.6--2.8 on
 independent sets, cycle lengths, $C_4$-free subgraphs of the hypercube and
 related graph questions, 3.3 squares packed in a unit square, 3.5
-equilateral triangles in six-dimensional space) were not matched to catalog
-pages here.
+equilateral triangles in six-dimensional space) were not matched to
+erdosproblems.com pages here.
 
 ## Compiled scope
 

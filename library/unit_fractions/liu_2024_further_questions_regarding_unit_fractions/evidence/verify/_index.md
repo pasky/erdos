@@ -5,7 +5,7 @@ desc: |
   Links the main-proof, preliminary, source-check and supplement reviews of
   2026-09-05 and the fresh main-proof review and grade of 2026-09-18.
 created: 2026-09-16T20:10:00Z
-updated: 2026-10-07T15:37:17Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 # Verification of the Liu--Sawhney chain
@@ -51,8 +51,8 @@ The [fresh main-proof review](main_proof_review_fresh.md), by a fresh-context
 blind reviewer (model Claude Fable 5.1) who read none of the four retained
 reviews, covers the corrected Theorem 1.1 chain (Lemmas 6.1, 6.2, 5.1 in its
 application form, Proposition 5.2 and the outer proof) as it stood at
-2026-09-18T07:24:04Z through the redacted extraction retained as
-`../assets/frozen_theorem_1_1.md`
+2026-09-18T07:24:04Z through a redacted extraction
+(`../assets/frozen_theorem_1_1.md`, not held in the repository)
 and records refutation-failed. Its [distinct grade](main_proof_review_grade_fresh.md),
 by a grader (model Claude Fable 5.1) distinct from the reviewer, records PASS
 for the report contract and PASS for independence, with the reviewer's

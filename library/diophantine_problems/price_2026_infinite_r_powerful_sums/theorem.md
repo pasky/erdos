@@ -6,7 +6,7 @@ desc: |
   are sums of exactly r-2 distinct positive r-powerful numbers with joint gcd
   one, by splitting the odd part of the binomial expansion of (X+Y)^r.
 created: 2026-09-28T03:04:00Z
-updated: 2026-10-07T20:53:41Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -28,7 +28,7 @@ $$
 Coprimality is joint: the gcd of all summands is $1$, and the summands need
 not be pairwise coprime. The formal-conjectures declaration
 `erdos_939.variants.infinite_of_six_le` (`∀ r ≥ 6, (Erdos939Sums r).Infinite`,
-tagged research solved with proof `sorry`, catalog main on
+tagged research solved with proof `sorry`, formal-conjectures main on
 2026-09-18) states the same fact for formal-conjectures' `Finset`
 formulation with positive summands; the decoded playground theorem
 `infinite_rpowerful_sums` states it with an injective summand tuple, and it

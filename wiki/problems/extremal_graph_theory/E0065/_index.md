@@ -14,7 +14,7 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 65
@@ -231,6 +231,10 @@ respectively; the general family, not this single example, supplies the
 unbounded contradiction. Both graphs are complete bipartite, so this
 correction does not disprove erdosproblems.com's broader complete-bipartite
 minimizer question or the asymptotic leading constant above.
+
+
+
+The [[research/graph_ramsey_interfaces/finite_reduction_obstructions|parameter-dependence account]] records why a theorem for every sufficiently large smaller bipartition class leaves small class sizes with unbounded host order. It does not reduce the remaining exact question to a finite graph census.
 
 <!-- BEGIN problem library links -->
 

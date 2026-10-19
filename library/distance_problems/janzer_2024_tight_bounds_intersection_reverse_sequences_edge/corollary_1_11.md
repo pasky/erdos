@@ -5,7 +5,7 @@ desc: |
   Shows that a collection of n pseudo-parabolas or n pseudo-circles can be
   cut into O(n^{3/2}) pseudo-segments.
 created: 2026-10-08T14:56:09Z
-updated: 2026-10-08T14:56:09Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -53,6 +53,6 @@ and the reduction of the paper's reference [19].
 
 ## Bears on
 
-No catalog problem directly. It is the input to
+No erdosproblems.com problem directly. It is the input to
 [[distance_problems/janzer_2024_tight_bounds_intersection_reverse_sequences_edge/corollary_1_12|Corollary 1.12]],
 which bears on Problem 92.

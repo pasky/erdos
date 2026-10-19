@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:28:39Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 38
@@ -46,9 +46,9 @@ user. Thomas Bloom, the erdosproblems.com curator, accepted it. Nat Sothanaphan
 checked the write-up and found no issues. There is no refereed version. The
 claim page
 [[problems/integer_sequences/E0038/claims/2026_04_25_gebyjaff|the 2026
-construction]] records the acceptance. erdosproblems.com's (LEAN) suffix is a
-catalog label. The linked Lean files are a statement with a placeholder and an
-unbuilt community proof, described under Formalization.
+construction]] records the acceptance. erdosproblems.com's (LEAN) suffix is an
+erdosproblems.com label. The linked Lean files are a statement with a
+placeholder and an unbuilt community proof, described under Formalization.
 
 **Source.** [erdosproblems.com/38](https://www.erdosproblems.com/38), accessed
 2026-09-05. Cite as: T. F. Bloom, Erdős Problem #38,

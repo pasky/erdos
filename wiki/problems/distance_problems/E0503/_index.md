@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 503
@@ -112,6 +112,15 @@ answer $8$), `upper_bound` and `lower_bound` as research solved, all without
 proof and with no formal proof pointer. Chojecki's Lean file proves the
 reduction's case analysis from the cited results as hypotheses and has not
 been built here. No formalization enters the standing.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/dimension|realization rank and
+dimension-sensitive constructions]] account records the following scope. For
+d>=2, vectors e_i+e_j in the hyperplane sum x_i=2 of R^(d+1), plus their
+centroid, give binom(d+1,2)+1 points: original pairs have squared distances 2 or
+4 and every centroid distance has squared value 2-4/(d+1).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

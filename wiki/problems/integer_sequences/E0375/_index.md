@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 375
@@ -111,6 +111,9 @@ variants the prime-gap bound, also with a `sorry` body, the asymptotic form of
 Legendre's conjecture derived from it, a proof of the cases $k\le2$, and the
 Ramachandra--Shorey--Tijdeman range $k\ll(\log n/\log\log n)^3$ of [RST75], also
 with a `sorry` body.
+
+The author-recorded [[research/covering_prime_interfaces/finite_certificates|finite-certificate comparison]] specifies the relevant periodic or finite-set test and the additional condition needed for the full question. It supplies no new witness or resolution.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

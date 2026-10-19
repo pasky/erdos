@@ -7,7 +7,7 @@ desc: |
   accumulation point, and locates an interval it contains and one it misses.
 license: CC-BY-4.0
 created: 2026-09-21T00:00:00Z
-updated: 2026-10-07T20:53:40Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Bárány et al.: Lagrange-like spectrum of perfect additive complements
@@ -107,5 +107,58 @@ $r_{A,B}(n)$. Consequently, every perfect complement in the paper would become a
 counterexample to E1145 if it also satisfied the balance condition on
 corresponding ordered elements.
 
-The paper concerns pairs with $r_{A,B}=1$ and does not address E1145’s balance
-condition $a_n/b_n\to1$.
+More precisely, let $A_0,B_0\subseteq\mathbb Z_{\ge0}$ be a pair of the form
+(1.1), and put
+
+$$
+A=A_0+1,\qquad B=B_0+1.
+$$
+
+Then $A,B\subseteq\mathbb Z^+$ and
+
+$$
+1_A*1_B(n)=r_{A_0,B_0}(n-2)=1\qquad(n\ge2).
+$$
+
+Thus $A+B$ contains every integer at least $2$, while $\limsup_n1_A*1_B(n)=1$.
+If $A_0=\{\alpha_1<\alpha_2<\cdots\}$ and $B_0=\{\beta_1<\beta_2<\cdots\}$, the
+remaining E1145 hypothesis is precisely
+
+$$
+\frac{\alpha_n+1}{\beta_n+1}\longrightarrow1,
+$$
+
+or equivalently $\alpha_n/\beta_n\to1$. The paper neither constructs a radix
+sequence $(m_i)$ with this property nor proves that none exists. This is the
+decisive missing step, so its perfect-complement constructions do not resolve
+E1145.
+
+The most directly usable reduction is the cited mixed-radix classification,
+**Theorem A / equation (1.1)**: any attempt to refute E1145 using unique
+representations may be reduced to asking whether the two digit sets in (1.1),
+possibly interchanged, can have asymptotically equal $n$th elements. Conversely,
+ruling out $\alpha_n/\beta_n\to1$ for every such radix sequence would eliminate
+all perfect-complement counterexamples, though not counterexamples with another
+fixed representation bound.
+
+**Theorem B** and equation (2.3) provide only a coarser invariant. For the
+shifted pair above, the shift does not alter
+
+$$
+\limsup_{x\to\infty}\frac{A(x)B(x)}x\in\mathfrak L.
+$$
+
+Hence this limsup lies in $[3/2,2]$, with the finer interval, gap, closedness,
+and measure restrictions of **Theorem 1.1**. These results constrain the product
+of the two counting functions, but E1145’s condition compares their inverse
+counting functions at the same index. No theorem in the paper controls the
+quotient $\alpha_n/\beta_n$, derives balance from $A(x)B(x)$, or converts
+balance into repeated sums.
+
+The IFS formalism $D_k=T_{m_k}\circ\cdots\circ T_{m_1}(0)$ could be adapted
+hypothetically if the ratio of the two ordered digit sets were encoded by an
+additional dynamical observable. In the present paper, however, the IFS tracks
+only the normalized product $A(x)B(x)/x$. The paper therefore supplies a sharp
+model class and useful necessary spectral tests for a perfect-representation
+counterexample, but proves neither the assertion of E1145 nor a counterexample
+satisfying its balance hypothesis.

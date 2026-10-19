@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 # Problem 252
@@ -196,7 +196,7 @@ formal statement to be the question, as their retained records and
 kernel-checked check files show. Established as accepted: the third-round
 graded fresh-context review of the statement's fidelity is in force, so under
 `docs/anatomy.md` the locally rebuilt, kernel-replayed proof counts as
-documented independent acceptance and the status above is `proved`; the
+documented independent acceptance and the claim above is `proved`; the
 frontmatter standing derives from the
 [[problems/irrationality/E0252/claims/2026_09_08_tokengrinder|claim page]],
 whose only acceptance evidence is `formalized`. The trust
@@ -204,27 +204,27 @@ base of the mechanical facts
 is Lean 4.33.1's kernel and the consistency of its type theory with those
 axioms, the same as for every Lean-based status in this corpus
 (`leanchecker` is Lean's own kernel, not a second implementation). Not
-established: refereed publication, catalog or community-database
-agreement, maintainer response or expert acknowledgment; none existed on
-2026-09-17 (erdosproblems.com OPEN; community database `status: open`;
-formal-conjectures `research open`, issue #5334 unanswered; the author's
-entry on the erdosproblems.com proof-claims page is the author's own claim under
-the erdosproblems.com disclaimer). The bounty site Conjectures.io's rejection of
-a submission adapted from the proof (16 September 2026) and its retirement of
-the formal-conjectures target as solved externally (6 October 2026)
-acknowledge the proof, but were made without a rebuild or a named reviewer
-and are not reviews. The `proved` status rests on the kernel-checked source,
-on this repository's replay and on the third-round graded fidelity review; it
-is not refereed publication or catalog agreement. Only the reviewed commit
-of 2026-09-13, the pin of the claim page's first `formalization` link, is
-reviewed; the author's notes say further "compression" passes are possible,
-and any later commit is unreviewed, including the commit of 10 October 2026
-registered on the Palomar registry, whose statement is unchanged. No native
-L-claim, native Lean coverage, numerical tier or local prose proof coverage is
-assigned: the development lies outside `lean/Erdos/`, and the argument's
-structure under Progress is this compilation's reading of the Lean source, not a
-reviewed source-proof reconstruction. Novelty of the argument was not
-investigated.
+established: refereed publication, erdosproblems.com, formal-conjectures or
+community-database agreement, maintainer response or expert acknowledgment; none
+existed on 2026-09-17 (erdosproblems.com OPEN; community database
+`status: open`; formal-conjectures `research open`, issue #5334 unanswered; the
+author's entry on the erdosproblems.com proof-claims page is the author's own
+claim under the erdosproblems.com disclaimer). The bounty site Conjectures.io's
+rejection of a submission adapted from the proof (16 September 2026) and its
+retirement of the formal-conjectures target as solved externally (6 October
+2026) acknowledge the proof, but were made without a rebuild or a named reviewer
+and are not reviews. The `proved` claim rests on the kernel-checked source, on
+this repository's replay and on the third-round graded fidelity review; it is
+not refereed publication or agreement by erdosproblems.com or
+formal-conjectures. Only the reviewed commit of 2026-09-13, the pin of the claim
+page's first `formalization` link, is reviewed; the author's notes say further
+"compression" passes are possible, and any later commit is unreviewed, including
+the commit of 10 October 2026 registered on the Palomar registry, whose
+statement is unchanged. No native L-claim, native Lean coverage, numerical tier
+or local prose proof coverage is assigned: the development lies outside
+`lean/Erdos/`, and the argument's structure under Progress is this compilation's
+reading of the Lean source, not a reviewed source-proof reconstruction. Novelty
+of the argument was not investigated.
 
 **Search scope.** Checked, as they stood on 2026-09-17: the erdosproblems.com
 problem page, discussion thread (three comments, 2025-09-05 to 2026-04-14, none

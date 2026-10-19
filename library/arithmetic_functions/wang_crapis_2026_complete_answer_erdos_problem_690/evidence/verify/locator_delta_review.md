@@ -6,7 +6,7 @@ desc: |
   source-locator corrections the symbolic review required and carried its
   conditional verdict forward to the unchanged pages.
 created: 2026-09-21T17:35:12Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:57Z
 ---
 
 ***
@@ -20,24 +20,23 @@ that applied the twelve locator corrections that review required. Completed
 the symbolic review and does not reconstruct unchanged proofs. No distinct
 grader is recorded, so no numerical claim tier is assigned.
 
-The subject is identified by git identity. The unchanged pages are the nine
-result pages of this folder at the commit that lands this folder (the first
-commit that adds
-`library/arithmetic_functions/wang_crapis_2026_complete_answer_erdos_problem_690/`),
-whose bodies below the first `***` separator are the bytes both reviews
-examined, except that the end-of-file fixer removed a second trailing newline
-from `theorem_1_1.md` (no other byte differs), together with the PDF
-identified on the source card, the reviewed card retained as
+The subject is identified by path and date. The unchanged pages are the nine
+result pages of this folder,
+`library/arithmetic_functions/wang_crapis_2026_complete_answer_erdos_problem_690/`,
+as filed on 2026-09-21T17:35:12Z, whose bodies below the first `***` separator
+are the bytes both reviews examined, except that the end-of-file fixer removed a
+second trailing newline from `theorem_1_1.md` (no other byte differs), together
+with the PDF identified on the source card, the reviewed card retained as
 [reviewed_index.md](../assets/reviewed_index.md) and the reviewed problem
 overlay retained as [reviewed_E0690.md](../assets/reviewed_E0690.md). The
-changed file, the lane's obligation table, and the successor's correction
-note and manifest are not filed in this folder; they belong with the
-separately decided checker run, and the table's twelve corrected values are
-recorded in full below.
+changed file, the lane's obligation table, and the successor's correction note
+and manifest are not filed in this folder; they belong with the separately
+decided checker run, and the table's twelve corrected values are recorded in
+full below.
 
 The report below is the reviewer's text, edited in place under
 `docs/verification.md` "Exact subjects and durable evidence" and `AGENTS.md`
-convention 9 (Git identity, not byte hashes): byte counts and SHA-256 values
+convention 9 (Paths and dates, not hashes): byte counts and SHA-256 values
 are replaced by the identification above, names of seats and harnesses are
 removed, private working paths are replaced by repository paths, and the
 commissioning authority is called the lane's commissioner. The scope, dates

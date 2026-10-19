@@ -9,9 +9,12 @@ import sys
 
 import pytest
 
+from ._helpers import run_git
+
 __all__ = [
     'test_generated_block_lists_one_slot_per_pdf_after_hand_patterns',
     'test_check_names_a_stale_list_without_writing',
+    'test_a_checkout_counts_unstaged_pdfs_and_skips_ignored_ones',
 ]
 
 _ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -144,5 +147,31 @@ def test_check_names_a_stale_list_without_writing(
     applied = _run(wiki)
     assert applied.returncode == 0, (applied.stdout, applied.stderr)
     assert _patterns(wiki) == [*_HAND, _BEGIN, *_SLOTS, _CONVERT, _END]
+    converged = _run(wiki, '--check')
+    assert converged.returncode == 0, (converged.stdout, converged.stderr)
+
+
+def test_a_checkout_counts_unstaged_pdfs_and_skips_ignored_ones(
+    tmp_path: pathlib.Path,
+) -> None:
+    """In a checkout an unstaged PDF fails the check until its slot is listed; an ignored one needs none."""
+    wiki = _wiki(tmp_path, _HAND)
+    _write(tmp_path / '.gitignore', 'library/gamma/held_copy/\n')
+    run_git(tmp_path, 'init', '-q')
+    run_git(tmp_path, 'add', '-A')
+    run_git(tmp_path, 'commit', '-qm', 'seed')
+    seeded = _run(wiki)
+    assert seeded.returncode == 0, (seeded.stdout, seeded.stderr)
+
+    # a paper just fetched and not yet staged, and an ignored copy of a held work
+    _write(wiki / 'gamma/new_source/new_source.pdf', 'pdf')
+    _write(wiki / 'gamma/held_copy/held_copy.pdf', 'pdf')
+    checked = _run(wiki, '--check')
+    assert checked.returncode == 1, (checked.stdout, checked.stderr)
+    applied = _run(wiki)
+    assert applied.returncode == 0, (applied.stdout, applied.stderr)
+    patterns = _patterns(wiki)
+    assert 'gamma/new_source/new_source.md' in patterns
+    assert not any('held_copy' in pattern for pattern in patterns)
     converged = _run(wiki, '--check')
     assert converged.returncode == 0, (converged.stdout, converged.stderr)

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1184
@@ -46,9 +46,36 @@ https://www.erdosproblems.com/1184.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The inspected statements of
+[[../library/primes/erdos_1976_problems_results_consecutive_integers/_index|Erdős's
+Theorems 1 and 3]] give, along $n=k^{\alpha+o(1)}$,
+
+$$
+1-1/\alpha\le\liminf f(n,k)/k
+ \le\limsup f(n,k)/k\le\min(\alpha-1,1).
+$$
+
+Apply their strict ranges first with $1<\beta<\alpha<\gamma$ and then let
+$\beta\uparrow\alpha$, $\gamma\downarrow\alpha$. In contrast,
+[[../library/primes/ramachandra_1976_grimm_s_problem_relating_factorisation_block/theorem_2|Ramachandra–Shorey–Tijdeman's
+Theorem 2]] requires $\log n\ge C(\log k)^2$, outside every fixed-$\alpha$
+regime eventually. Neither theorem proof was audited.
+
+For $1<\alpha<2$, eventually $n+k<k^2$, so a term has at most one prime factor
+greater than $k$. Consequently
+
+$$
+f(n,k)=\sum_{1\le a<(n+k)/k}
+ \#\{q>k\text{ prime}:n/a<q\le(n+k)/a\}.
+$$
+
+This is exact: each eligible term is counted once with its cofactor. Cofactors
+reach size $k^{\alpha-1+o(1)}$, giving intervals as short as
+$k^{2-\alpha+o(1)}$ near $k$. The author reduction identifies the needed
+summable uniform errors; it supplies no such estimate. Global Dickman counts or
+the disjoint logarithmic range do not settle these fixed blocks.
 
 ## Known Results
 

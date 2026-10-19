@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 395
@@ -45,11 +45,12 @@ and that question sets the standing; the formal-conjectures file states the
 radius-$1$ form as the variant `erdos_395.variants.one`, with the answer no.
 The Current assessment records what is known for odd $n$ at radius $1$.
 
-**Status.** Proved. erdosproblems.com showed PROVED (LEAN), a catalog label
-explained under Formalization. Two accepted full claims answer the question. The
-first is [[problems/analysis/E0395/claims/1983_03_01_beck|Beck's 1983 theorem]],
-a refereed journal paper. It is recorded as [HJNS24] and [HPS25] quote it, and
-its planar case is the question. The second is
+**Status.** Proved. erdosproblems.com showed PROVED (LEAN), an erdosproblems.com
+label explained under Formalization. Two accepted full claims answer the
+question. The first is
+[[problems/analysis/E0395/claims/1983_03_01_beck|Beck's 1983 theorem]], a
+refereed journal paper. It is recorded as [HJNS24] and [HPS25] quote it, and its
+planar case is the question. The second is
 [[problems/analysis/E0395/claims/2024_08_20_he_juskevicius_narayanan_spiro|Theorem 1.1 of He, Juškevičius, Narayanan and Spiro]]
 [HJNS24], an arXiv preprint credited by the erdosproblems.com curator.
 
@@ -77,9 +78,9 @@ https://www.erdosproblems.com/395.
   parity conditions. arXiv:2510.05044v1 (6 October 2025). Library home:
   [[../library/analysis/hollom_sorkin_2025_reverse_littlewood_offord_parity_conditions/_index|hollom_sorkin_2025_reverse_littlewood_offord_parity_conditions]].
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. A
-statement file in `google-deepmind/formal-conjectures` and the proof file
-it names in `plby/lean-proofs` are described, at the commits their links
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label. A statement file in `google-deepmind/formal-conjectures` and the proof
+file it names in `plby/lean-proofs` are described, at the commits their links
 pin, under "Formalization and the Lean label" below; neither was built or
 kernel-checked here, and the status rests on the sources above, not on the
 label.

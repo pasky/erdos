@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Steinberger: low-degree nonnegative cycloto
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Steinberger: low-degree nonnegative cyclotomic multiples
@@ -25,3 +25,10 @@ multidimensional cyclotomic arrays: fibers represent prime cycles, and dual
 zero-sum arrays provide linear-programming certificates.  The main theorem
 settles broad families, including even $n$, prime powers, and a range
 controlled by a reciprocal-prime inequality.
+
+For E0774 the array viewpoint is useful because it makes prime-coordinate
+geometry and certificate duality explicit.  It may help prove that a proposed
+finite block excludes certain positive relations or to design a sparse shadow
+pattern.  The result is about nonnegative multiples, not arbitrary signed
+square-free relations, and the paper itself explains where the certificate
+geometry becomes too thin in higher dimensions.

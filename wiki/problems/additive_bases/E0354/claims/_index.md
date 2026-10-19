@@ -1,10 +1,10 @@
 ---
 name: problems/additive_bases/E0354/claims
-desc: The 5 claim pages of Problem 354, one per claimant's result; the problem's standing derives from them.
+desc: The 6 claim pages of Problem 354, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T08:51:25Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-19T10:58:49Z
 ---
 
 # problems/additive_bases/E0354/claims
@@ -29,13 +29,16 @@ paid the bounty in September 2026.
 [[problems/additive_bases/E0354/claims/2026_09_13_yu_chen|2026_09_13_yu_chen]]: Yu and Chen's unrefereed manuscript of September 2026, with its own Lean
 formalization, claims that the nonzero values of $\lfloor2^n\alpha\rfloor$ and
 $\lfloor2^n\beta\rfloor$ for two reals with irrational ratio stay complete
-after any finite deletion. It has no outside review; it was reviewed
-internally and graded sound, and its acceptance is pending.
+after any finite deletion. It has no outside review; Plasma AI's internal review graded it sound, and it stays claimed until Jacob Parish at Plasma AI signs off.
 
 [[problems/additive_bases/E0354/claims/2026_09_20_geneson|2026_09_20_geneson]]: Geneson's unrefereed preprint of September 2026 gives a Salem base between
 $6/5$ and $13/10$ and two coefficients with irrational ratio whose interleaved
 floors are all even, so the sequence is not complete. This answers the
-every-base reading of the second question no. It was reviewed internally and
-graded sound, and its acceptance is pending.
+every-base reading of the second question no. Plasma AI's internal review graded it sound; it stays claimed until Jacob Parish at Plasma AI signs off.
+
+[[problems/additive_bases/E0354/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Plasma AI's deduction from the accepted indexed dyadic theorem proves
+strong completeness of every positive-coefficient single ray at a base
+2^(1/m), m at least two, and answers the existential reading of the
+second question at sqrt(2). Reviewed and graded internally, with an outside sign-off pending.
 
 ***

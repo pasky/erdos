@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:27:36Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 650
@@ -66,8 +66,9 @@ upper bound to GPT 5.4 Pro, prompted by He, Li and Tang, and the lower bound to
 GPT 5.4 Pro and Aristotle, before citing the paper. The classical bounds are
 Erdős and Surányi's $f(m)\ge\sqrt m$ (1959) and Erdős and Selfridge's
 $f(k^2)\le2k$, hence $f(m)\le2\lceil\sqrt m\rceil$ (1978 and 1986). The
-erdosproblems.com label carried the suffix (Lean), a catalog label explained
-under Formalization and the Lean label, and no local kernel credit is claimed.
+erdosproblems.com label carried the suffix (Lean), an erdosproblems.com label
+explained under Formalization and the Lean label, and no local kernel credit is
+claimed.
 
 **Source.** [erdosproblems.com/650](https://www.erdosproblems.com/650),
 accessed 2026-09-18: the problem page (SOLVED
@@ -140,9 +141,9 @@ solved` with `sorry` and no attribute. The community database, accessed
 2026, `formal_status` Lean, the statement as formalized with a last update of 4
 August 2026, no formal-proof URL and OEIS A027434; those dates are when the
 entries were last updated, not necessarily when the states changed. The (LEAN)
-suffix of the erdosproblems.com label was a catalog label; the external file it
-refers to is described under "Formalization and the Lean label" below, and this
-corpus has not built it.
+suffix of the erdosproblems.com label was an erdosproblems.com label; the
+external file it refers to is described under "Formalization and the Lean label"
+below, and this corpus has not built it.
 
 ## Current assessment
 
@@ -277,34 +278,33 @@ theorem, not by search); the thread reports a model's direct computation
 agreeing for $4\le m\le9$ with $f(m)=m$ for $m=1,2,3$.
 
 **Formalization and the Lean label.** The (LEAN) suffix of the erdosproblems.com
-label was a catalog label. The formal-conjectures file at the pinned commit is a
-statement with `sorry` bodies whose `formal_proof` attribute names
-`ErdosProblem650.lean` in `Woett/Lean-files` on its `main` branch, not a
-fixed commit. That file, last changed on 31 March 2026, is described here at
-the repository's head of 10 September 2026, which the claim page pins
-(87,072 bytes, 1,116 lines). Its header attributes the two bounds to GPT 5.4
-Pro and Aristotle and says the formalization is due to Aristotle; it records
-Lean `v4.28.0` and a Mathlib commit. It imports Mathlib, defines
-`HasDivMatching A B r` (an injective $r$-matching of members of `A` to
-integers of `B` they divide) and `erdos_f m` as the supremum of the $r$ such
-that every set `A` of $m$ positive integers and every real $x$ admit such a
-matching into the open interval $(x,x+2\max A)$, and proves
-`erdos_f_upper_bound` ($f(st)\le s+t$), `large_3maxA_version`,
+label was an erdosproblems.com label. The formal-conjectures file at the pinned
+commit is a statement with `sorry` bodies whose `formal_proof` attribute names
+`ErdosProblem650.lean` in `Woett/Lean-files` on its `main` branch, not a fixed
+commit. That file, last changed on 31 March 2026, is described here at the
+repository's head of 10 September 2026, which the claim page pins (87,072 bytes,
+1,116 lines). Its header attributes the two bounds to GPT 5.4 Pro and Aristotle
+and says the formalization is due to Aristotle; it records Lean `v4.28.0` and a
+Mathlib commit. It imports Mathlib, defines `HasDivMatching A B r` (an injective
+$r$-matching of members of `A` to integers of `B` they divide) and `erdos_f m`
+as the supremum of the $r$ such that every set `A` of $m$ positive integers and
+every real $x$ admit such a matching into the open interval $(x,x+2\max A)$, and
+proves `erdos_f_upper_bound` ($f(st)\le s+t$), `large_3maxA_version`,
 `erdos_f_lower_bound` ($\min(m,\lceil2\sqrt m\rceil)\le f(m)$ for $m>0$),
 `theorem erdos_f_eq (m : ℕ) (hm : 0 < m) : erdos_f m = min m ⌈(2 : ℝ) * Real.sqrt ↑m⌉₊`
-and `erdos_f_eq_ge4`; its text contains no `sorry`, no `axiom` declaration
-and no `native_decide`, and its `#print axioms erdos_f_eq` line has no
-recorded output. The file's $f$ is the paper's (any positive set, interval
-$2\max A$); the formal-conjectures $f$ is erdosproblems.com's
-($A\subseteq[1,N]$, interval $2N$); the two definitions differ in form, and
-erdosproblems.com identifies them by taking the paper's formula as its answer.
-This corpus has not built or kernel-checked the file and claims no kernel
-credit. Boris Alexeev's lean-proofs repository carries a copy, added on 6 May
-2026, that declares itself a formalization of the solution, naming GPT-5.4 Pro,
-van Doorn, He, Li and Tang as informal authors and Aristotle and van Doorn as
-formal authors; it is linked on the claim page and has not been built either.
-The community database lists `formal_status` Lean, with the problem's entry last
-updated on 6 March 2026, and no formal-proof URL.
+and `erdos_f_eq_ge4`; its text contains no `sorry`, no `axiom` declaration and
+no `native_decide`, and its `#print axioms erdos_f_eq` line has no recorded
+output. The file's $f$ is the paper's (any positive set, interval $2\max A$);
+the formal-conjectures $f$ is erdosproblems.com's ($A\subseteq[1,N]$, interval
+$2N$); the two definitions differ in form, and erdosproblems.com identifies them
+by taking the paper's formula as its answer. This corpus has not built or
+kernel-checked the file and claims no kernel credit. Boris Alexeev's lean-proofs
+repository carries a copy, added on 6 May 2026, that declares itself a
+formalization of the solution, naming GPT-5.4 Pro, van Doorn, He, Li and Tang as
+informal authors and Aristotle and van Doorn as formal authors; it is linked on
+the claim page and has not been built either. The community database lists
+`formal_status` Lean, with the problem's entry last updated on 6 March 2026, and
+no formal-proof URL.
 
 **Search scope.** None of the routes below found a
 refereed version of [VLT26], an independent review of its argument, a

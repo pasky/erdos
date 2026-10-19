@@ -7,7 +7,7 @@ desc: |
   Euler's function, derived from Theorem 1.2 by products of smooth-predecessor
   primes and a pigeonhole count; Problem 821's question, unverified here.
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -88,3 +88,8 @@ the source of the method, not used as an input. None was checked here.
   comparison concerns the exponent alone: both corollaries assert a
   sequence of $n$ with $\log n_{i+1}/\log n_i\to1$, and Theorem 1.1 claims
   only infinitely many $n$; unverified here.
+- [[../wiki/research/erdos_416/connections|Problem 416 connections page]]
+  and [[../wiki/research/erdos_49/connections|Problem 49 connections page]]:
+  both record that Problem 821 needs the smooth-shifted-prime mechanism
+  rather than the mechanisms examined there; this theorem is the claimed
+  completion of that mechanism, unverified here.

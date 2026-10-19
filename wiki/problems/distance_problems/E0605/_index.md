@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 605
@@ -25,7 +25,16 @@ updated: 2026-10-08T00:44:25Z
 there exist $n$ distinct points on the surface of a two-dimensional sphere with
 at least $f(n)n$ many pairs of points whose distances are the same?
 
-**Status.** Proved.
+**Status.** Proved. Erdős, Hickerson and Pach [EHP89] show that for every $n$
+and every distance strictly between $0$ and $2$, some $n$ points on the unit
+sphere have at least $c\,n\log^* n$ pairs at that distance, so $f(n)=c\log^* n$
+answers the question; this is the accepted full claim on
+[[problems/distance_problems/E0605/claims/1989_08_01_erdos_hickerson_pach|its
+claim page]]. Swanepoel and Valtr [SwVa04] give more than $c\,n\sqrt{\log n}$
+unit distances among $n$ points on every sphere of diameter above $1$, a second
+proof with a stronger bound, recorded as an accepted full claim on
+[[problems/distance_problems/E0605/claims/2004_01_01_swanepoel_valtr|its claim
+page]].
 
 **Source.** [erdosproblems.com/605](https://www.erdosproblems.com/605), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #605,

@@ -1,10 +1,10 @@
 ---
 name: problems/discrete_geometry/E0769/claims
-desc: The 6 claim pages of Problem 769, one per claimant's result; the problem's standing derives from them.
+desc: The 7 claim pages of Problem 769, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:56:38Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/discrete_geometry/E0769/claims
@@ -37,5 +37,11 @@ claim is partial and unreviewed.
 $(C\max\{P(n),n^{1/(4\sqrt e)+\varepsilon}\})^n$, with $(\log n)^2$ in place
 of the power under GRH, and below for even $n$ by about
 $(1-1/\log_2 3)\,n2^n$. The claim is partial and unreviewed.
+
+[[problems/discrete_geometry/E0769/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: An author-recorded residue-path argument and an odd-dimensional gcd bound
+show that every cube count from $1+(2^d-2)(M^d-1)$ on, with
+$M=\lfloor\sqrt{3d}\rfloor+1$, is realized for odd $d\ge3$, so
+$c(d)/d^d\to0$ along odd $d$ and $c(n)\gg n^n$ fails; tier 0, catalog
+acceptance pending.
 
 ***

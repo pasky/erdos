@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 406
@@ -54,9 +54,29 @@ https://www.erdosproblems.com/406.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/406.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The counting bounds and exceptional-set dimension statements in
+[[../library/diophantine_problems/lagarias_2009_ternary_expansions_powers_2/_index|Lagarias's
+Theorems 1.1–1.4]] do not prove finiteness at multiplier one.
+[[../library/diophantine_problems/saye_2022_two_conjectures_concerning_ternary_digits_powers/_index|Saye]]
+reports that through exponent $2\cdot3^{45}$ the only examples are $0,2,8$.
+That finite computation has not been replayed.
+
+A fixed-depth digit sieve has an exact obstruction. The order of two modulo
+$3^k$ is $2\cdot3^{k-1}$: starting with order two modulo three, cubing a number
+$1+c3^k$ with $3\nmid c$ raises the exact valuation of its difference from one
+by one. Powers of two therefore enumerate all units modulo $3^k$. Exactly
+$2^{k-1}$ of these units have only zero and one in their lowest $k$ ternary
+digits: the last digit is one and each higher digit has two choices. Thus that
+many exponent residue classes survive at every fixed depth, each with
+arbitrarily large members.
+
+This author-recorded argument does not obstruct a sieve whose depth grows with
+the exponent. Such a growing-depth estimate, or a theorem excluding the
+specified multiplier from the exceptional set, remains necessary. The source
+statements and order-lifting argument were inspected, not the full source
+proofs.
 
 ## Known Results
 

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 25
@@ -61,6 +61,14 @@ single residue per modulus, as its card explains
 ([[../library/integer_sequences/wang_2026_proposed_solution_erdos_problem_486/_index|card]]).
 No literature search beyond these sources and no independent review of any
 proof is recorded.
+
+## Research
+
+[[research/erdos_25/_index|Research guide for Problem 25]]
+records the current arguments, their scope, and the remaining gap.
+
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
 
 <!-- BEGIN problem library links -->
 

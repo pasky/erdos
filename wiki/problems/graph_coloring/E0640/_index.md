@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 640
@@ -31,10 +31,12 @@ https://www.erdosproblems.com/640.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/methods/chromatic_threshold_interfaces|path/BFS reduction]]
+compares the proposed odd-cycle threshold $f(k)$ with the analogous
+threshold $p(k)$ for a path whose vertices span a $k$-chromatic graph:
+$p(k)\le f(k)\le2p(k+1)-1$, whenever the corresponding thresholds
+exist. It also gives $f(3)=3$ and $f(4)\ge5$. The reduction does not
+prove the needed path threshold finite. These are scoped author deductions,
+not a resolution or a full literature survey.

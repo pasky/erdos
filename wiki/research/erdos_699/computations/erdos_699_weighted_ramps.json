@@ -1,0 +1,1270 @@
+{
+  "scope": "Exact finite weighted certificates; no binomial rows searched.",
+  "weight_denominator": 10000,
+  "index_21_additional_edges": [
+    [
+      2,
+      17,
+      3560
+    ],
+    [
+      17,
+      19,
+      2176
+    ]
+  ],
+  "index_24_additional_edges": [
+    [
+      17,
+      19,
+      2100
+    ],
+    [
+      11,
+      23,
+      1450
+    ]
+  ],
+  "records": [
+    {
+      "i": 16,
+      "k": 11,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "degree": 132,
+      "total_multiplicity": 232,
+      "weighted_moment": 1400,
+      "minimal_vector_count": 31,
+      "capacity_configurations_checked": 1442,
+      "minimum_gain": "693/500",
+      "worst_vector_scaled": [
+        2757,
+        3453,
+        2667,
+        0,
+        0,
+        1243
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        8757,
+        7333,
+        7243,
+        6547
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 182,
+          "maximizing_positions": [
+            12
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 96,
+          "maximizing_positions": [
+            9,
+            12,
+            15
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 51,
+          "maximizing_positions": [
+            15
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 37,
+          "maximizing_positions": [
+            14
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 22,
+          "maximizing_positions": [
+            11
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 22,
+          "maximizing_positions": [
+            13
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 3380000,
+      "algebraic_cap_power_of_ten": 127,
+      "source_threshold": "X_BFT(33) + 33",
+      "full_bound": "max(10^127, X_BFT(33) + 33)"
+    },
+    {
+      "i": 19,
+      "k": 13,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "degree": 182,
+      "total_multiplicity": 323,
+      "weighted_moment": 2337,
+      "minimal_vector_count": 31,
+      "capacity_configurations_checked": 1960,
+      "minimum_gain": "711/500",
+      "worst_vector_scaled": [
+        2757,
+        3453,
+        2667,
+        0,
+        0,
+        1243,
+        0
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        8757,
+        7333,
+        7243,
+        6547
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 310,
+          "maximizing_positions": [
+            16
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 154,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 63,
+          "maximizing_positions": [
+            15
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 45,
+          "maximizing_positions": [
+            14
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 26,
+          "maximizing_positions": [
+            11
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 26,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 26,
+          "maximizing_positions": [
+            17
+          ]
+        }
+      ],
+      "rough_denominator": 19,
+      "elementary_threshold": 5613000,
+      "algebraic_cap_power_of_ten": 222,
+      "source_threshold": "X_BFT(33) + 33",
+      "full_bound": "max(10^222, X_BFT(33) + 33)"
+    },
+    {
+      "i": 22,
+      "k": 15,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19
+      ],
+      "degree": 240,
+      "total_multiplicity": 429,
+      "weighted_moment": 3619,
+      "minimal_vector_count": 31,
+      "capacity_configurations_checked": 2448,
+      "minimum_gain": "729/500",
+      "worst_vector_scaled": [
+        2757,
+        3453,
+        2667,
+        0,
+        0,
+        1243,
+        0,
+        0
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        10000,
+        8757,
+        7333,
+        7243,
+        6547
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 394,
+          "maximizing_positions": [
+            16
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 195,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 90,
+          "maximizing_positions": [
+            20
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 69,
+          "maximizing_positions": [
+            21
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 30,
+          "maximizing_positions": [
+            11
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 30,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 30,
+          "maximizing_positions": [
+            17
+          ]
+        },
+        {
+          "prime": 19,
+          "exponent": 30,
+          "maximizing_positions": [
+            19
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 8659000,
+      "algebraic_cap_power_of_ten": 275,
+      "source_threshold": "X_BFT(33) + 33",
+      "full_bound": "max(10^275, X_BFT(33) + 33)"
+    },
+    {
+      "i": 25,
+      "k": 17,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23
+      ],
+      "degree": 306,
+      "total_multiplicity": 550,
+      "weighted_moment": 5300,
+      "minimal_vector_count": 31,
+      "capacity_configurations_checked": 2936,
+      "minimum_gain": "747/500",
+      "worst_vector_scaled": [
+        2757,
+        3453,
+        2667,
+        0,
+        0,
+        1243,
+        0,
+        0,
+        0
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        10000,
+        10000,
+        8757,
+        7333,
+        7243,
+        6547
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 524,
+          "maximizing_positions": [
+            24
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 241,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 106,
+          "maximizing_positions": [
+            20
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 81,
+          "maximizing_positions": [
+            21
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 57,
+          "maximizing_positions": [
+            22
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 34,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 34,
+          "maximizing_positions": [
+            17
+          ]
+        },
+        {
+          "prime": 19,
+          "exponent": 34,
+          "maximizing_positions": [
+            19
+          ]
+        },
+        {
+          "prime": 23,
+          "exponent": 34,
+          "maximizing_positions": [
+            23
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 12644000,
+      "algebraic_cap_power_of_ten": 370,
+      "source_threshold": "X_BFT(33) + 33",
+      "full_bound": "max(10^370, X_BFT(33) + 33)"
+    },
+    {
+      "i": 24,
+      "k": 16,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23
+      ],
+      "degree": 272,
+      "total_multiplicity": 492,
+      "weighted_moment": 4508,
+      "minimal_vector_count": 74,
+      "capacity_configurations_checked": 13760,
+      "minimum_gain": "21893/10000",
+      "worst_vector_scaled": [
+        0,
+        3453,
+        2679,
+        2757,
+        1450,
+        798,
+        0,
+        2100,
+        0
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        9202,
+        8550,
+        7900,
+        7321,
+        7243,
+        6547
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 440,
+          "maximizing_positions": [
+            16
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 213,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 98,
+          "maximizing_positions": [
+            20
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 75,
+          "maximizing_positions": [
+            21
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 53,
+          "maximizing_positions": [
+            22
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 32,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 32,
+          "maximizing_positions": [
+            17
+          ]
+        },
+        {
+          "prime": 19,
+          "exponent": 32,
+          "maximizing_positions": [
+            19
+          ]
+        },
+        {
+          "prime": 23,
+          "exponent": 32,
+          "maximizing_positions": [
+            23
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 11132000,
+      "algebraic_cap_power_of_ten": 228,
+      "source_threshold": "X_24 + 23",
+      "full_bound": "max(10^228, X_24 + 23)"
+    },
+    {
+      "i": 21,
+      "k": 14,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19
+      ],
+      "degree": 210,
+      "total_multiplicity": 378,
+      "weighted_moment": 3010,
+      "minimal_vector_count": 61,
+      "capacity_configurations_checked": 7664,
+      "minimum_gain": "7683/5000",
+      "worst_vector_scaled": [
+        3560,
+        3453,
+        2667,
+        0,
+        0,
+        1243,
+        0,
+        2176
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        8757,
+        7824,
+        7333,
+        6547,
+        6440
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 358,
+          "maximizing_positions": [
+            16
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 170,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 82,
+          "maximizing_positions": [
+            20
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 49,
+          "maximizing_positions": [
+            14
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 28,
+          "maximizing_positions": [
+            11
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 28,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 28,
+          "maximizing_positions": [
+            17
+          ]
+        },
+        {
+          "prime": 19,
+          "exponent": 28,
+          "maximizing_positions": [
+            19
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 7490000,
+      "algebraic_cap_power_of_ten": 232,
+      "source_threshold": "X_21 + 20",
+      "full_bound": "max(10^232, X_21 + 20)"
+    }
+  ],
+  "numerical_records": [
+    {
+      "i": 19,
+      "k": 12,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "degree": 156,
+      "total_multiplicity": 285,
+      "weighted_moment": 1995,
+      "minimal_vector_count": 46,
+      "capacity_configurations_checked": 3850,
+      "minimum_gain": "7121/10000",
+      "worst_vector_scaled": [
+        3259,
+        3290,
+        2270,
+        0,
+        0,
+        980,
+        0
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        9020,
+        7730,
+        6741,
+        6710
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 278,
+          "maximizing_positions": [
+            16
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 138,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 57,
+          "maximizing_positions": [
+            15
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 41,
+          "maximizing_positions": [
+            14
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 24,
+          "maximizing_positions": [
+            11
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 24,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 24,
+          "maximizing_positions": [
+            17
+          ]
+        }
+      ],
+      "rough_denominator": 19,
+      "elementary_threshold": 5019000,
+      "algebraic_cap_power_of_ten": 406,
+      "source_threshold": "10^976",
+      "full_bound": "10^976",
+      "route": "one new prime pair",
+      "numerical_source_cap_power_of_ten": 976,
+      "full_numerical_cap_power_of_ten": 976
+    },
+    {
+      "i": 22,
+      "k": 15,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19
+      ],
+      "degree": 240,
+      "total_multiplicity": 429,
+      "weighted_moment": 3619,
+      "minimal_vector_count": 62,
+      "capacity_configurations_checked": 7840,
+      "minimum_gain": "3927/1000",
+      "worst_vector_scaled": [
+        2590,
+        3290,
+        2270,
+        0,
+        0,
+        980,
+        0,
+        1855
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        9020,
+        8145,
+        7730,
+        7410,
+        6710
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 394,
+          "maximizing_positions": [
+            16
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 195,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 90,
+          "maximizing_positions": [
+            20
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 69,
+          "maximizing_positions": [
+            21
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 30,
+          "maximizing_positions": [
+            11
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 30,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 30,
+          "maximizing_positions": [
+            17
+          ]
+        },
+        {
+          "prime": 19,
+          "exponent": 30,
+          "maximizing_positions": [
+            19
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 8659000,
+      "algebraic_cap_power_of_ten": 102,
+      "source_threshold": "10^957",
+      "full_bound": "10^957",
+      "route": "one new prime pair",
+      "numerical_source_cap_power_of_ten": 957,
+      "full_numerical_cap_power_of_ten": 957
+    },
+    {
+      "i": 25,
+      "k": 17,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23
+      ],
+      "degree": 306,
+      "total_multiplicity": 550,
+      "weighted_moment": 5300,
+      "minimal_vector_count": 62,
+      "capacity_configurations_checked": 9792,
+      "minimum_gain": "1689/400",
+      "worst_vector_scaled": [
+        2590,
+        3290,
+        2270,
+        0,
+        0,
+        980,
+        0,
+        1855,
+        0
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        10000,
+        9020,
+        8145,
+        7730,
+        7410,
+        6710
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 524,
+          "maximizing_positions": [
+            24
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 241,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 106,
+          "maximizing_positions": [
+            20
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 81,
+          "maximizing_positions": [
+            21
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 57,
+          "maximizing_positions": [
+            22
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 34,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 34,
+          "maximizing_positions": [
+            17
+          ]
+        },
+        {
+          "prime": 19,
+          "exponent": 34,
+          "maximizing_positions": [
+            19
+          ]
+        },
+        {
+          "prime": 23,
+          "exponent": 34,
+          "maximizing_positions": [
+            23
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 12644000,
+      "algebraic_cap_power_of_ten": 131,
+      "source_threshold": "10^957",
+      "full_bound": "10^957",
+      "route": "one new prime pair",
+      "numerical_source_cap_power_of_ten": 957,
+      "full_numerical_cap_power_of_ten": 957
+    },
+    {
+      "i": 24,
+      "k": 16,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23
+      ],
+      "degree": 272,
+      "total_multiplicity": 492,
+      "weighted_moment": 4508,
+      "minimal_vector_count": 73,
+      "capacity_configurations_checked": 13408,
+      "minimum_gain": "983/1250",
+      "worst_vector_scaled": [
+        3259,
+        3290,
+        2270,
+        0,
+        0,
+        980,
+        0,
+        1855,
+        1068
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        9020,
+        8932,
+        8145,
+        7730,
+        6741,
+        6710
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 440,
+          "maximizing_positions": [
+            16
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 213,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 98,
+          "maximizing_positions": [
+            20
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 75,
+          "maximizing_positions": [
+            21
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 53,
+          "maximizing_positions": [
+            22
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 32,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 32,
+          "maximizing_positions": [
+            17
+          ]
+        },
+        {
+          "prime": 19,
+          "exponent": 32,
+          "maximizing_positions": [
+            19
+          ]
+        },
+        {
+          "prime": 23,
+          "exponent": 32,
+          "maximizing_positions": [
+            23
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 11132000,
+      "algebraic_cap_power_of_ten": 635,
+      "source_threshold": "10^976",
+      "full_bound": "10^976",
+      "route": "three new prime pairs",
+      "numerical_source_cap_power_of_ten": 976,
+      "full_numerical_cap_power_of_ten": 976
+    },
+    {
+      "i": 21,
+      "k": 14,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19
+      ],
+      "degree": 210,
+      "total_multiplicity": 378,
+      "weighted_moment": 3010,
+      "minimal_vector_count": 61,
+      "capacity_configurations_checked": 7664,
+      "minimum_gain": "1711/10000",
+      "worst_vector_scaled": [
+        3379,
+        3432,
+        2587,
+        0,
+        0,
+        1184,
+        0,
+        1925
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        10000,
+        8816,
+        8075,
+        7413,
+        6621,
+        6568
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 358,
+          "maximizing_positions": [
+            16
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 170,
+          "maximizing_positions": [
+            18
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 82,
+          "maximizing_positions": [
+            20
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 49,
+          "maximizing_positions": [
+            14
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 28,
+          "maximizing_positions": [
+            11
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 28,
+          "maximizing_positions": [
+            13
+          ]
+        },
+        {
+          "prime": 17,
+          "exponent": 28,
+          "maximizing_positions": [
+            17
+          ]
+        },
+        {
+          "prime": 19,
+          "exponent": 28,
+          "maximizing_positions": [
+            19
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 7490000,
+      "algebraic_cap_power_of_ten": 2075,
+      "source_threshold": "10^45411831",
+      "full_bound": "10^45411831",
+      "route": "improved GCD bounds and two new prime pairs",
+      "numerical_source_cap_power_of_ten": 45411831,
+      "full_numerical_cap_power_of_ten": 45411831
+    },
+    {
+      "i": 16,
+      "k": 10,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "degree": 110,
+      "total_multiplicity": 200,
+      "weighted_moment": 1160,
+      "minimal_vector_count": 31,
+      "capacity_configurations_checked": 1442,
+      "minimum_gain": "1841/100000",
+      "worst_vector_scaled": [
+        "27307/10",
+        3290,
+        "23237/10",
+        0,
+        0,
+        980
+      ],
+      "worst_row_capacities_scaled": [
+        10000,
+        10000,
+        9020,
+        "76763/10",
+        "72693/10",
+        6710
+      ],
+      "off_maximum_factors": [
+        {
+          "prime": 2,
+          "exponent": 160,
+          "maximizing_positions": [
+            12
+          ]
+        },
+        {
+          "prime": 3,
+          "exponent": 84,
+          "maximizing_positions": [
+            9,
+            12,
+            15
+          ]
+        },
+        {
+          "prime": 5,
+          "exponent": 45,
+          "maximizing_positions": [
+            15
+          ]
+        },
+        {
+          "prime": 7,
+          "exponent": 33,
+          "maximizing_positions": [
+            14
+          ]
+        },
+        {
+          "prime": 11,
+          "exponent": 20,
+          "maximizing_positions": [
+            11
+          ]
+        },
+        {
+          "prime": 13,
+          "exponent": 20,
+          "maximizing_positions": [
+            13
+          ]
+        }
+      ],
+      "rough_denominator": 1,
+      "elementary_threshold": 2960000,
+      "algebraic_cap_power_of_ten": 8560,
+      "source_threshold": "10^163785",
+      "full_bound": "10^163785",
+      "route": "two targeted explicit improvements",
+      "numerical_source_cap_power_of_ten": 163785,
+      "full_numerical_cap_power_of_ten": 163785
+    }
+  ]
+}

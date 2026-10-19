@@ -1,10 +1,10 @@
 ---
 name: problems/covering_systems/E0007/claims
-desc: The 7 claim pages of Problem 7, one per claimant's result; the problem's standing derives from them.
+desc: The 13 claim pages of Problem 7, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T11:52:14Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/covering_systems/E0007/claims
@@ -42,5 +42,17 @@ is rejected.
 every covering system with distinct odd moduli greater than one has least
 common multiple above 10000. The bound was already known, and the Lean
 development has not been built here.
+
+[[problems/covering_systems/E0007/claims/2026_08_18_egeozturk|2026_08_18_egeozturk]]: A forum announcement claims exact certificates excluding distinct odd coverings with period below 11,486,475 and some families with unbounded prime exponents.
+
+[[problems/covering_systems/E0007/claims/2026_09_01_schroeder|2026_09_01_schroeder]]: A pending author claim excludes distinct odd covering systems whose periods have fewer than 7 distinct prime divisors, with arbitrary prime powers allowed.
+
+[[problems/covering_systems/E0007/claims/2026_09_06_schroeder|2026_09_06_schroeder]]: A pending author claim excludes distinct odd covering systems whose periods have fewer than 8 distinct prime divisors, with arbitrary prime powers allowed.
+
+[[problems/covering_systems/E0007/claims/2026_09_09_schroeder|2026_09_09_schroeder]]: A pending claim excludes distinct odd covering systems when every modulus has at most three prime divisors, without bounding the total prime support.
+
+[[problems/covering_systems/E0007/claims/2026_09_13_schroeder|2026_09_13_schroeder]]: A pending author claim excludes distinct odd covering systems whose periods have fewer than 9 distinct prime divisors, with arbitrary prime powers allowed.
+
+[[problems/covering_systems/E0007/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: A distinct odd family whose classes with 73-smooth moduli leave at least a quarter of the reduced small-prime box uncovered cannot cover the integers, by an exact-loss large-prime tail; author-recorded at tier 0, catalog acceptance pending.
 
 ***

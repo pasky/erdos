@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:06:00Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1030
@@ -173,9 +173,13 @@ unproved.
 $R(k,k)\ge(\sqrt2/e+o(1))k2^{k/2}$ by display (1), an additive increment of
 order $k$ changes $R(k+1,k)/R(k,k)$ by $O(k2^{-k/2})$, which tends to $0$;
 the question needs $R(k+1,k)\ge(1+c)R(k,k)$ for a fixed $c>0$, which no
-result in hand gives; the superlinear gap (8) of [Er81], were its proof in
-hand, would change the ratio by $o(1)$ as well, since any gap of order
-$k^{A}$ is still $o(R(k,k))$. Lower bounds for $R(k+1,k)$ and $R(k,k)$ separately,
+result in hand gives. The superlinear lower bound (8) of [Er81], even
+if its proof were in hand, would not by itself bound the ratio away from
+$1$: it gives no upper bound on the actual gap, and the guaranteed increment
+could still be negligible relative to $R(k,k)$. In particular, a lower bound
+of order $k^A$ for fixed $A$ is negligible at that scale; this does not assert
+that the actual gap has polynomial order. Lower bounds for $R(k+1,k)$ and
+$R(k,k)$ separately,
 such as the near-diagonal bounds
 $r(s,s+a)\ge(1+o(1))(s/e)2^{(s+a/2+1)/2+O(a^2/s)}$ from the local lemma (Bradač 2026, display (5), p. 3) and
 Bradač's Theorem 1.5 for $a\ge5$, or the bounds on $r(s,Cs)$ for $C>1$ of

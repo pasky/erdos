@@ -5,7 +5,7 @@ desc: "Source notes for Problem 644: Bucić et al.: Covering graphs by monochrom
 tags: []
 sources: []
 created: 2026-09-24T22:18:20Z
-updated: 2026-09-24T22:18:20Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Bucić et al.: Covering graphs by monochromatic trees and Helly-type results for hypergraphs
@@ -132,4 +132,63 @@ This is the direct connection; the partite parameter $\mathrm{hp}_r(k)$ and
 most of the monochromatic-tree results impose additional partiteness or
 transversal-cover structure and should not be identified with E644.
 
-Proposition 5.6 with $s=K$ and $\ell=2$ gives $f(K,3)=2K$.
+Several results specialize immediately:
+
+- Proposition 5.6 with $s=K$ and $\ell=2$ gives $f(K,3)=2K$.
+
+- Observation 5.1(2)–(3) gives the uniform upper bound $f(K,q)\le2K$ for every
+  fixed $q\ge3$.
+
+- Theorem 5.7 gives, for every integer $t\ge2$,
+  $$q<\frac{\binom{K+t}{2}}{\binom{t}{2}}=\frac{(K+t)(K+t-1)}{t(t-1)}\quad\Longrightarrow\quad f(K,q)>t.$$
+  Taking $t\sim cK$ shows
+  $$\liminf_{K\to\infty}\frac{f(K,q)}K\ge\frac1{\sqrt q-1}.$$
+  In particular,
+  $$\liminf_{K\to\infty}\frac{f(K,7)}K\ge\frac1{\sqrt7-1}=\frac{\sqrt7+1}{6}\approx0.607625.$$
+  The construction is explicit: the complete $K$-uniform hypergraph on $K+t$
+  vertices has cover number $t+1$, and the counting argument in Theorem 5.7
+  verifies its local two-cover property. This falls well short of the
+  conjectured coefficient $3/4$.
+
+- Theorem 5.3 translates to
+  $$q\ge \binom{K+t}{t}^{1/\lfloor t/2\rfloor}\,4K\log(2K)\quad\Longrightarrow\quad f(K,q)\le t,$$
+  for $2\le t\le2K$. This can be useful when the local parameter $q=q(K)$ grows,
+  but it gives no improvement for E644’s fixed $q$: its right-hand condition is
+  already at least of order $K\log K$.
+
+- Theorem 5.2 gives the far-end exact statement $f(K,q)=2$ once
+  $q\ge\binom{K+2}{2}$. It does not bear directly on fixed $q$.
+
+Two constructions may be useful inside a future E644 argument. First,
+Corollary 2.9 says that a cover-critical $K$-uniform obstruction with
+$τ(H)=t+1$ has at most $\binom{K+t}{t}$ edges. This permits an upper-bound
+proof to pass to a finite minimal obstruction before applying counting or
+sampling. Claim 5.4 and the deletion argument proving Theorem 5.3 then provide
+a template: show that some pair covers a sufficiently large fraction of every
+remaining subhypergraph and iterate. The quantitative estimate presently
+obtained by that method is too weak when $q=7$ is fixed.
+
+Second, Lemma 5.8 is a flexible lower-bound device. For an auxiliary graph $G$
+on $V(H)$, if every $K$-edge of $H$ meets at least $δ$ of the $e(G)$ graph
+edges, then any $\lfloor(e(G)-1)/(e(G)-δ)\rfloor$ edges of $H$ have a common
+two-point cover which is itself an edge of $G$. Designing $H$ and $G$ so that
+this quantity is at least $7$ while $τ(H)\sim3K/4$ would prove the lower-bound
+half of the first E644 conjecture; the paper’s complete-hypergraph choice
+reaches only $(\sqrt7+1)K/6$ asymptotically.
+
+Proposition A.1 gives a particularly exact reformulation. Define
+$\mathrm{ch}_2(H)$ on vertex set $E(H)$, with one hyperedge consisting of all
+members of $H$ disjoint from each two-set $S\subseteq V(H)$. Then $H$ has the
+$(q,2)$-covering property exactly when
+$$τ(\mathrm{ch}_2(H))\ge q+1,$$
+and $τ(H)>2t$ exactly when $\mathrm{ch}_2(H)$ is $t$-intersecting.
+Consequently E644 asks for the largest $τ(H)$ among $K$-uniform $H$ satisfying
+$τ(\mathrm{ch}_2(H))\ge q+1$. This is a plausible insertion point for
+fractional-cover or intersecting-hypergraph estimates such as Theorem A.2,
+although the theorem as stated does not yield the desired fixed-$q$ constants.
+
+Overall, the paper's results give $f(K,q)=\Theta_q(K)$ for every fixed
+$q\ge3$—combining Theorem 5.7 with Observation 5.1—but it neither proves
+convergence of $f(K,q)/K$ nor determines its limit. In particular, it does not
+prove $f(K,7)=(3/4+o(1))K$, and it does not establish the existence of
+constants $c_q$ for all fixed $q$.

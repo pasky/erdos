@@ -699,10 +699,10 @@ def _region(relative: pathlib.Path) -> str:
 def _entry_point(root: pathlib.Path, relative: pathlib.Path) -> Optional[EntryPoint]:
     """Return the entry point at ``relative``, or ``None`` when it is not one.
 
-    Every ``main.py`` is one, and so is every program carrying a
-    ``# evidence:`` line: with ``entry`` it enrolls, without it the
-    declaration is invalid and the program fails without running, so a
-    misplaced declaration never disappears silently.
+    Every ``main.py`` under an ``evidence/`` folder is one, and so is every
+    program carrying a ``# evidence:`` line: with ``entry`` it enrolls,
+    without it the declaration is invalid and the program fails without
+    running, so a misplaced declaration never disappears silently.
     """
     # keep inputs, helpers and run products out, and find the owner
     parts = relative.parts
@@ -713,14 +713,15 @@ def _entry_point(root: pathlib.Path, relative: pathlib.Path) -> Optional[EntryPo
         owner = pathlib.PurePosixPath(*parts[:index]).as_posix()
     else:
         owner = relative.parent.as_posix()
-    # read the declaration; only main.py and declared programs enroll
+    # read the declaration; only a main.py under evidence/ and declared
+    # programs enroll
     source = (root / relative).read_text(encoding='utf-8', errors='replace')
     declaration = _read_declaration(source)
-    if relative.name != 'main.py':
+    if relative.name != 'main.py' or 'evidence' not in parts:
         if not declaration.text:
             return None
         if not declaration.entry and not declaration.error:
-            error = 'a program not named main.py needs the entry word'
+            error = 'only a main.py under evidence/ enrolls without the entry word'
             declaration = dataclasses.replace(declaration, error=error)
     # read the flags the runner may pass
     python = relative.suffix == '.py'
@@ -913,7 +914,7 @@ def _child_env(
     checkout being run; bytecode writes are off and ``PYTHONOPTIMIZE`` is
     dropped, so a theorem check never runs under ``-O``. Without ``lean`` the
     shim directory comes first on ``PATH``; with it the Lean thread cap is set
-    unless the caller chose one.
+    unless the caller chose one (an empty value chooses none).
     """
     # bind the checkout and the interpreter flags
     env = dict(os.environ)
@@ -922,9 +923,9 @@ def _child_env(
     )
     env['PYTHONDONTWRITEBYTECODE'] = '1'
     env.pop('PYTHONOPTIMIZE', None)
-    # block or cap the Lean toolchain
+    # block or cap the Lean toolchain (an empty cap reads as unset)
     if lean:
-        env.setdefault('LEAN_NUM_THREADS', _LEAN_THREADS)
+        env['LEAN_NUM_THREADS'] = env.get('LEAN_NUM_THREADS') or _LEAN_THREADS
     else:
         env['PATH'] = os.pathsep.join(
             part for part in (f'{shim}', env.get('PATH', '')) if part

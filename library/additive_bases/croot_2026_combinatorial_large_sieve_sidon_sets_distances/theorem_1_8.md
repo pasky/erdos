@@ -7,7 +7,7 @@ desc: |
   call the first nontrivial bound for such sets; proved by the weighted
   entropy sieve of Theorem 4.1 with a Gauss-sum count.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -60,5 +60,5 @@ and Lemma 4.5 of the paper (p. 28).
 
 ## Bears on
 
-No catalog problem directly; p. 5 cites Problem #322 on sums of $k$
+No erdosproblems.com problem directly; p. 5 cites Problem #322 on sums of $k$
 $k$-th powers as context only.

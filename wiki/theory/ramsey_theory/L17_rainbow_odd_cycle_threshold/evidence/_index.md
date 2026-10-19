@@ -29,10 +29,12 @@ distinct grade that asserts the tier and cites the non-author clean gate of
 2026-09-29, and the reviewer's census scripts; the non-author clean gate of
 2026-10-13, which the card's standing cites with that grade, is filed in
 [clean_gate_2/](verify/clean_gate_2/_index.md) with its receipt, log and
-wrapper, and the earlier non-author clean gate of 2026-10-08 in
-[clean_gate/](verify/clean_gate/_index.md).
-The earlier record, [statement_fidelity/](verify/statement_fidelity/_index.md),
-holds the fidelity review, the distinct grade, the
+wrapper, the earlier non-author clean gate of 2026-10-08 in
+[clean_gate/](verify/clean_gate/_index.md), and the non-author clean gate run
+from 2026-10-13T05:05:07Z over the tree with L20, L21 and L22 in
+[clean_gate_3/](verify/clean_gate_3/_index.md). The earlier record,
+[statement_fidelity/](verify/statement_fidelity/_index.md), holds the fidelity
+review, the distinct grade, the
 [acceptance warrant](verify/statement_fidelity/acceptance_warrant.json), the
 [native binding](verify/statement_fidelity/native_binding.json) and the
 [clean-gate receipt](verify/statement_fidelity/clean_gate.json) of the first

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 647
@@ -125,6 +125,29 @@ thread (18 comments on 2026-10-07) and its empty proof-claims tab, the community
 database entry, the formal-conjectures file, the Zenodo records and repositories
 linked from the thread, and the arXiv record of Mian and Siddique. MathSciNet
 and zbMATH were not searched and X was not used.
+
+## Prime-factor and interval interface
+
+For any proposed $n$, the exact inequalities are $\tau(n-j)\le j+2$ for $1\le
+j<n$. Since $\tau(m)\le2\sqrt m$, all offsets with $j+2\ge2\sqrt n$ are
+automatic, including equality. Thus only $j+2<2\sqrt n$ require factorization.
+This is a complete finite checking window for a fixed candidate, not a global
+bound on $n$.
+
+For $n>84$, the first four offsets force $24\mid n$ and primality of
+$n-1,(n-2)/2,(n-3)/3,(n-4)/4$. Indeed $j=1$ forces $n$ even; $j=2$ makes
+$n-2=2q$ with $q$ odd prime, hence $4\mid n$. The alternatives
+$n\equiv1,2\pmod3$ force respectively $n-1\in\{3,9\}$ or $q=3$, so $3\mid n$.
+If $n\equiv4\pmod8$, the bound at $j=4$ makes $n-4$ a power of two at most
+$32$, impossible. Thus $24\mid n$. Now $n-1\equiv23\pmod{24}$ cannot be a prime
+square; the bound at $j=3$ excludes pure powers of three above $81$ and forces
+$(n-3)/3$ prime; the exact valuation $v_2(n-4)=2$ forces $(n-4)/4$ prime.
+
+These author-recorded necessary conditions are weaker than the previously
+reported $2520$ and seven-prime reductions. No search or external exclusion
+range was replayed. A solution still needs every offset in the checking window,
+or a proof that no candidate can pass it.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

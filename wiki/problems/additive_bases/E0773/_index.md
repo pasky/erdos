@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:31:26Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 773
@@ -41,13 +41,18 @@ https://www.erdosproblems.com/773.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/773.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/constants_and_polynomial_images|sidon
+constants and polynomial images]] account records the following scope. Bosio’s
+fixed-g theorem gives N^(2g/(2g+1)) times a logarithmic factor; at g=1 the
+result is N^(2/3).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

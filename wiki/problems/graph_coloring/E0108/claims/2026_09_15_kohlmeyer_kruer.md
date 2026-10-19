@@ -36,7 +36,7 @@ links:
   kind: discussion
   date: 2026-09-27
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-08T03:54:20Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -92,7 +92,7 @@ proved in Lean 4 with only the standard axioms, and discloses that the work
 was developed with substantial assistance from OpenAI ChatGPT/Codex, in the
 mathematical exploration, the estimates, the Lean proofs and the drafting,
 with the authors responsible for the mathematical content. The proof was
-published on Conjectures.io, a Bittensor subnet that publishes catalog
+published on Conjectures.io, a Bittensor subnet that publishes erdosproblems.com
 problems as pinned formal-conjectures statements and pays for kernel-checked
 Lean proofs passing its review, under the handle JenW1N, which the record
 credits as the solver. The platform's exposition of the proof (fourth link,
@@ -104,7 +104,7 @@ author-approved publication; the Lean file's header states nothing about how
 the proof was found. Nguyen and Walczak's note cites both manuscripts and
 credits Kohlmeyer and Kruer with the negative solution.
 
-**Formal statement.** The file's final theorem is the negation of the catalog
+**Formal statement.** The file's final theorem is the negation of the
 statement `Erdos108.erdos_108` of formal-conjectures (the
 [formal-conjectures
 file](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/108.lean)

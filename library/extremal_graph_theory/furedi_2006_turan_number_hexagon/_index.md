@@ -5,7 +5,7 @@ desc: |
   disproving the proposed constant for simultaneous C5 and C6 avoidance.
 license: unstated
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T14:57:18Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # extremal_graph_theory/furedi_2006_turan_number_hexagon
@@ -76,7 +76,8 @@ order $N=3a$, avoids $C_5$ as well as $C_6$, and yields leading coefficient
 $2/3^{4/3}>2^{-4/3}$. The resulting disproof of erdosproblems.com's $k=3$
 formula $(N/2)^{4/3}$ is a deduction by this compilation. Theorem 1.1's
 nonbipartite construction does not assert $C_5$-freeness, so its larger
-coefficient is not the lower bound used for the two-cycle catalog question.
+coefficient is not the lower bound used for the two-cycle erdosproblems.com
+question.
 
 [[extremal_graph_theory/furedi_2006_turan_number_hexagon/theorem_1_3|Theorem 1.3]],
 also on p. 2, is the paper's third main result: every hexagon-free graph has a

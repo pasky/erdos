@@ -1,0 +1,192 @@
+{
+  "threshold": "p>=3",
+  "n_at_most": 1000000000000,
+  "necessary_row_conditions": "n=2^h*u, h>=2, u odd, 3*u^3<2^h",
+  "excluded_columns": "j=n/2 is good; admissibility requires j>=4",
+  "rows_requiring_search": 2184,
+  "prime_power_residue_candidates": 0,
+  "first_residue_candidates": [],
+  "bad_triples": [],
+  "by_v2_n": [
+    {
+      "v2_n": 2,
+      "rows": 0
+    },
+    {
+      "v2_n": 3,
+      "rows": 1
+    },
+    {
+      "v2_n": 4,
+      "rows": 1
+    },
+    {
+      "v2_n": 5,
+      "rows": 1
+    },
+    {
+      "v2_n": 6,
+      "rows": 1
+    },
+    {
+      "v2_n": 7,
+      "rows": 2
+    },
+    {
+      "v2_n": 8,
+      "rows": 2
+    },
+    {
+      "v2_n": 9,
+      "rows": 3
+    },
+    {
+      "v2_n": 10,
+      "rows": 3
+    },
+    {
+      "v2_n": 11,
+      "rows": 4
+    },
+    {
+      "v2_n": 12,
+      "rows": 6
+    },
+    {
+      "v2_n": 13,
+      "rows": 7
+    },
+    {
+      "v2_n": 14,
+      "rows": 9
+    },
+    {
+      "v2_n": 15,
+      "rows": 11
+    },
+    {
+      "v2_n": 16,
+      "rows": 14
+    },
+    {
+      "v2_n": 17,
+      "rows": 18
+    },
+    {
+      "v2_n": 18,
+      "rows": 22
+    },
+    {
+      "v2_n": 19,
+      "rows": 28
+    },
+    {
+      "v2_n": 20,
+      "rows": 35
+    },
+    {
+      "v2_n": 21,
+      "rows": 44
+    },
+    {
+      "v2_n": 22,
+      "rows": 56
+    },
+    {
+      "v2_n": 23,
+      "rows": 70
+    },
+    {
+      "v2_n": 24,
+      "rows": 89
+    },
+    {
+      "v2_n": 25,
+      "rows": 112
+    },
+    {
+      "v2_n": 26,
+      "rows": 141
+    },
+    {
+      "v2_n": 27,
+      "rows": 178
+    },
+    {
+      "v2_n": 28,
+      "rows": 224
+    },
+    {
+      "v2_n": 29,
+      "rows": 282
+    },
+    {
+      "v2_n": 30,
+      "rows": 355
+    },
+    {
+      "v2_n": 31,
+      "rows": 233
+    },
+    {
+      "v2_n": 32,
+      "rows": 116
+    },
+    {
+      "v2_n": 33,
+      "rows": 58
+    },
+    {
+      "v2_n": 34,
+      "rows": 29
+    },
+    {
+      "v2_n": 35,
+      "rows": 15
+    },
+    {
+      "v2_n": 36,
+      "rows": 7
+    },
+    {
+      "v2_n": 37,
+      "rows": 4
+    },
+    {
+      "v2_n": 38,
+      "rows": 2
+    },
+    {
+      "v2_n": 39,
+      "rows": 1
+    }
+  ],
+  "checks": {
+    "small_n_limit": 200,
+    "binomial_gcd_comparisons": 18818,
+    "cubic_discriminant_identity": "verified on every admissible tested pair",
+    "strict_threshold_positive_controls": [
+      [
+        10,
+        3,
+        5
+      ],
+      [
+        28,
+        3,
+        14
+      ],
+      [
+        244,
+        3,
+        122
+      ],
+      [
+        2188,
+        3,
+        1094
+      ]
+    ]
+  },
+  "scope": "Exhaustive for the stated row bound using the proved reductions; no global finiteness claim."
+}

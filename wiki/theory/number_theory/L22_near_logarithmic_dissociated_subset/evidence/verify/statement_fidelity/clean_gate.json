@@ -1,0 +1,256 @@
+{
+  "schema": "clean-gate-receipt-v1",
+  "state": "successful clean committed-source gate: the archived lean/ tree of the checked source fetched its cache, built, passed the axiom audit against the committed manifest and matched the committed self-test stamp",
+  "owner": "wiki/theory/number_theory/L22_near_logarithmic_dissociated_subset",
+  "role": "Portable mechanical validation evidence for the statement-fidelity examination of L22 on the checked source named below (the repository as it stood on 2026-09-28), not an independent mathematical acceptance warrant, review or grade.",
+  "shared_run": {
+    "statement": "A single run of the gate on the checked source (the repository as it stood on 2026-09-28) serves the five claims whose statement-fidelity records name that source. The wrapper ran once from the L18 record folder; each of the five record folders files this receipt with its own owner and manifest row, a byte-identical copy of the one captured log and a byte-identical copy of the one wrapper.",
+    "checked_source_date": "2026-09-28",
+    "owners": [
+      "wiki/theory/diophantine_problems/L18_three_powerful_complement_density",
+      "wiki/theory/diophantine_problems/L19_four_powerful_complement_density",
+      "wiki/theory/integer_sequences/L20_roots_of_unity_analytic_sidon",
+      "wiki/theory/integer_sequences/L21_roots_of_unity_proportional_dissociation",
+      "wiki/theory/number_theory/L22_near_logarithmic_dissociated_subset"
+    ]
+  },
+  "validation_date": "2026-09-29",
+  "checked_source": {
+    "source_date": "2026-09-28",
+    "worktree_state_before_launch": "git rev-parse HEAD named the default branch as it stood on 2026-09-29, a later state whose lean/ matched the checked source's: lean/ and lean/scripts/gate.sh were identical between the two states. git status --porcelain --untracked-files=no printed nothing; the untracked files were this runner's wrapper and, in each of the five record folders, files under the three names this filing writes, all outside the archived lean/ tree.",
+    "worktree_state_after_exit": "git rev-parse HEAD named the same state again and git status --porcelain --untracked-files=no printed nothing; the untracked files were this runner's wrapper and log in the L18 record folder and, in each of the five record folders, files under the three names this filing writes. No lakefile.toml remained under the host's temporary directory (the gate's EXIT trap removed its archive directory) and no lean or lake process was running.",
+    "archive_scope": "The clean gate archives REV:lean (git archive run from lean/), not the full REV^{tree}, so every Lean source, lean/Manifest.json and lean/scripts/selftest.stamp it checks are those of the checked source; the runner worktree's own ignored lean/.lake was not used.",
+    "complete_manifest": {
+      "path": "lean/Manifest.json",
+      "modules": 2977,
+      "declarations": [
+        "Erdos.L14.statement",
+        "Erdos.L14.claim",
+        "Erdos.L17.statement",
+        "Erdos.L17.claim",
+        "Erdos.L18.statement",
+        "Erdos.L18.claim",
+        "Erdos.L19.statement",
+        "Erdos.L19.claim",
+        "Erdos.L20.statement",
+        "Erdos.L20.claim",
+        "Erdos.L21.statement",
+        "Erdos.L21.claim",
+        "Erdos.L22.statement",
+        "Erdos.L22.claim"
+      ],
+      "claims": [
+        "L14",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L22"
+      ],
+      "top_level_compiler_axioms": [],
+      "l22_claim_entry": {
+        "statement": {
+          "fingerprints": "the sha256Unfolded and sha256 values of the L22 row of lean/Manifest.json as it stood on 2026-09-28, cited by file name and not copied",
+          "pretty": "∀ (A : Finset ℝ),\n  A.Nonempty →\n    ∃ B ⊆ A,\n      AddDissociated ↑B ∧ Real.logb 2 ↑A.card - Real.logb 2 (Real.logb 2 ↑A.card + 1) ≤ ↑B.card"
+        },
+        "module": "Erdos.L22",
+        "id": "L22",
+        "depends": [],
+        "decls": [
+          {
+            "role": "statement",
+            "name": "Erdos.L22.statement"
+          },
+          {
+            "role": "claim",
+            "name": "Erdos.L22.claim"
+          }
+        ],
+        "compiler": [],
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    "committed_selftest_stamp": "the value lean/scripts/selftest.stamp held on 2026-09-28, cited by file name and not copied",
+    "subject_link_basis": "This receipt records a mechanical validation of the checked source named above. It claims no review of the mathematics or the statement."
+  },
+  "command": {
+    "argv": [
+      "/bin/bash",
+      "lean/scripts/gate.sh",
+      "--clean"
+    ],
+    "clean_argument": "the checked source, the repository as it stood on 2026-09-28; the gate archived its lean/ tree",
+    "wrapper": "run_clean_gate.sh, filed beside this receipt as run_clean_gate_sh.txt: exports LEAN_NUM_THREADS=4, changes to the repository root of the worktree, runs the argv above with the checked source as its --clean argument and both streams appended to clean_gate_log.txt, and records the UTC window and exit code in the log.",
+    "working_directory": "the repository root of the runner worktree, checked out at a later state of the default branch (2026-09-29) whose lean/ subtree matched the checked source's (the gate resolves lean/ from its own path and archives the checked source's lean/ tree from the repository's object store)",
+    "unchanged_gate": true,
+    "archive_location": "a fresh directory created by mktemp -d in the host's user temporary directory, removed by the gate's EXIT trap",
+    "stale_state_check_before_launch": "No lakefile.toml under the user's temporary directory, no lean or lake process, and the runner worktree clean of tracked changes; nothing was removed."
+  },
+  "environment": {
+    "explicit_child_environment": {
+      "LEAN_NUM_THREADS": "4"
+    },
+    "lean_toolchain": "leanprover/lean4:v4.32.0-rc1",
+    "lake_version": "Lake version 5.0.0-src+b4812ae (Lean version 4.32.0-rc1)",
+    "mathlib_revision": "79aee35d9696d759b73eed71d7dde666750bc35e",
+    "host": "macOS 26.6.2 (build 25G83), arm64 (Apple M5 Max), 18 cores, 137,438,953,472 bytes of memory",
+    "tools": "git 2.55.0, bsdtar 3.5.3, elan 4.2.3, CPython 3.13.12 (the watcher and this receipt's extractor)",
+    "host_readings_before_launch": "free memory 23 GiB (vm_stat free pages 1528808 times the 16384-byte page size), swap used 0.00M (sysctl vm.swapusage), no lean or lake process (pgrep -x, and ps -axww -o comm= classified by the basename of the full executable path), no lakefile.toml under the user's temporary directory; read at 2026-09-29T20:09:44Z, 27 seconds before launch."
+  },
+  "outcome": {
+    "gate_shell_exit_code": 0,
+    "dependency_fetch": {
+      "result": "passed",
+      "reported_lines": [
+        "info: mathlib: cloning https://github.com/leanprover-community/mathlib4",
+        "info: mathlib: checking out revision '79aee35d9696d759b73eed71d7dde666750bc35e'",
+        "info: plausible: cloning https://github.com/leanprover-community/plausible",
+        "info: plausible: checking out revision 'f3c7bd5061bd81b4480295c524d4f245c8b7e4e2'",
+        "info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient",
+        "info: LeanSearchClient: checking out revision 'c5d5b8fe6e5158def25cd28eb94e4141ad97c843'",
+        "info: importGraph: cloning https://github.com/leanprover-community/import-graph",
+        "info: importGraph: checking out revision '41f407a8e85b0fdc00910633a8f14754139b63f4'",
+        "info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4",
+        "info: proofwidgets: checking out revision 'e4952ae2afde0dd2868b313356d1ce00da677bd9'",
+        "info: aesop: cloning https://github.com/leanprover-community/aesop",
+        "info: aesop: checking out revision '24fa6b3599743c23e6debd53d5fd09ebfa587d29'",
+        "info: Qq: cloning https://github.com/leanprover-community/quote4",
+        "info: Qq: checking out revision '7a62bd13860cd39ac98da16ffc8c24d601353f69'",
+        "info: batteries: cloning https://github.com/leanprover-community/batteries",
+        "info: batteries: checking out revision '9647daaa8c0bc688fcfcb04252c864b859b51f57'",
+        "info: Cli: cloning https://github.com/leanprover/lean4-cli",
+        "info: Cli: checking out revision '406ebb8c8e2f7e852a1b47764b42494022ce652c'"
+      ],
+      "qualification": "Lines as printed by lake exe cache get inside the archive while cloning the pinned dependencies."
+    },
+    "cache": {
+      "reported_lines": [
+        "Current branch: HEAD",
+        "Using cache from origin: (some leanprover-community/mathlib4)",
+        "Decompressing 8446 already-cached file(s) (188 already decompressed)",
+        "No files to download",
+        "Decompressed 8446 already-cached file(s)",
+        "Completed successfully in 13266 ms!"
+      ],
+      "qualification": "Lines as printed by lake exe cache get inside the archive; no file-body identity or public-cache content authentication."
+    },
+    "complete_native_build": {
+      "result": "passed",
+      "reported_jobs": 7501,
+      "marker": "Build completed successfully (7501 jobs)."
+    },
+    "universal_axiom_audit": {
+      "result": "passed",
+      "constants": 42230,
+      "modules": 2977,
+      "claims": 7,
+      "compiler_axioms": 0,
+      "marker": "audited 42230 constants in 2977 modules, 7 claims, 0 compiler axioms: AUDIT PASS"
+    },
+    "selftest_stamp": {
+      "committed_stamp_path": "lean/scripts/selftest.stamp",
+      "committed_stamp": "the value lean/scripts/selftest.stamp held on 2026-09-28, cited by file name and not copied",
+      "committed_stamp_freshness": "passed by the gate digest comparison (the gate reached its final marker)",
+      "new_refusal_suite_executed": false
+    },
+    "gate_marker": "Lean gate passed.",
+    "gate_leg_basis": "Committed set -euo pipefail gate source: each leg must exit 0 for the next to run, and the final marker follows the last leg. Per-leg exit codes were not separately instrumented; the markers were located in the captured streams.",
+    "warning_lines": 106,
+    "warning_files": [
+      "Erdos/PeriodicDiskColorings/Coordinates.lean",
+      "Erdos/PeriodicDiskColorings/Directions.lean",
+      "Erdos/Problem940/Cubic/LocalCubic.lean",
+      "Erdos/Problem940/Cubic/Modulus.lean",
+      "Erdos/Problem940/Quartic/CanonicalParts.lean",
+      "Erdos/Problem940/Quartic/GaussianAnyConductorPeriodicity.lean",
+      "Erdos/Problem940/Quartic/GaussianCMCharacter.lean",
+      "Erdos/Problem940/Quartic/GaussianCMConstituentBridge.lean",
+      "Erdos/Problem940/Quartic/GaussianCharacters.lean",
+      "Erdos/Problem940/Quartic/GaussianConductor.lean",
+      "Erdos/Problem940/Quartic/GaussianConductorPeriodicity.lean",
+      "Erdos/Problem940/Quartic/GaussianConjugateSymbol.lean",
+      "Erdos/Problem940/Quartic/GaussianDyadicNontrivial.lean",
+      "Erdos/Problem940/Quartic/GaussianFiniteCharacterNontrivial.lean",
+      "Erdos/Problem940/Quartic/GaussianFiniteConstituentAlignment.lean",
+      "Erdos/Problem940/Quartic/GaussianIdealEulerIdentity.lean",
+      "Erdos/Problem940/Quartic/GaussianIdealEulerProduct.lean",
+      "Erdos/Problem940/Quartic/GaussianIdealEulerUniversal.lean",
+      "Erdos/Problem940/Quartic/GaussianIdealLatticeSeries.lean",
+      "Erdos/Problem940/Quartic/GaussianKummerNontrivial.lean",
+      "Erdos/Problem940/Quartic/GaussianPrimeIdealNorm.lean",
+      "Erdos/Problem940/Quartic/GaussianRationalFactorization.lean",
+      "Erdos/Problem940/Quartic/GlobalElevenCharacter.lean",
+      "Erdos/Problem940/Quartic/LocalFactorAssembly.lean",
+      "Erdos/Problem940/Quartic/LocalQuartic.lean",
+      "Erdos/Problem940/Quartic/PrimeSelector.lean",
+      "Erdos/Problem940/Quartic/RationalQuadraticHenselLift.lean",
+      "Erdos/Problem940/Quartic/SieveAssembly.lean",
+      "Erdos/Problem940/Shared/Chebotarev/Abelian.lean",
+      "Erdos/Problem940/Shared/Chebotarev/FixedFieldDensity.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/AlgebraicNumberTheory/Adele/InfinitePlaceTensorBlock.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/AlgebraicNumberTheory/Idele/BaseChange.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/AlgebraicNumberTheory/Idele/Extension/IdealClass.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/AlgebraicNumberTheory/Idele/Extension/InfiniteOnePlaceBaseNorm.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/AlgebraicNumberTheory/Idele/NormTopology/Continuity.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/AlgebraicNumberTheory/Idele/NormTopology/ExtensionBehavior.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/AlgebraicNumberTheory/RayClass/Ideal.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/GaloisCohomology/Cyclic/Herbrand/HerbrandLowDegree/Cardinality.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/GlobalClassFieldTheory/Reciprocity/InfinitePlaceArtin.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/KummerTheory/Concrete/SimpleExtensionLocalBehavior.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/LocalClassFieldTheory/ClassFormation/ArchimedeanNormQuotient.lean",
+      "Erdos/Problem940/Shared/ClassFieldTheory/LocalClassFieldTheory/LubinTateApplication/EqualCharacteristicTransportedUpperRamification.lean",
+      "Erdos/RootsOfUnitySidon/FiniteRieszMomentBound.lean"
+    ],
+    "error_lines": 2,
+    "diagnostic_count_basis": "warning_lines counts stream lines matching a case-insensitive grep for 'warning' and error_lines those matching one for 'error'. 104 stream line(s) begin 'warning:'; the other 2 are Lake build progress lines for modules whose names contain the word. 0 stream line(s) begin 'error:'; the other 2 are Lake build progress lines for modules whose names contain the word. warning_files lists the Lean source files named by the 'warning:' lines, relative to the archived lean/ tree.",
+    "log": "clean_gate_log.txt beside this receipt: a header, then the gate's stdout and stderr interleaved as captured, then the end time, wall seconds and exit code",
+    "mathematical_acceptance": false
+  },
+  "observation": {
+    "start_utc": "2026-09-29T20:10:11Z",
+    "end_utc": "2026-09-29T21:30:54Z",
+    "wall_seconds": 4843,
+    "log_bytes": 341326,
+    "stream_lines": 3536,
+    "reading_depth": "The runner read the captured stream head (dependency clone and cache lines), every warning or error line (grep), the three marker lines and the trailer; not every routine build line was separately interpreted.",
+    "serialization": {
+      "rule": "no second Lean build on the host during the gate",
+      "watcher": "observation-only process watch (ps every 5 s, each process classified by the basename of its full executable path) counting lean or lake processes outside the wrapper's process tree; it enforced nothing",
+      "watch_start_utc": "2026-09-29T20:11:23Z",
+      "watch_end_utc": "2026-09-29T21:30:57Z",
+      "samples": 903,
+      "max_own_lean_or_lake_processes": 5,
+      "samples_with_foreign_processes": 0,
+      "max_foreign_procs": 0,
+      "first_foreign_observation": null,
+      "foreign_commands_seen": [],
+      "rule_met": true,
+      "note": "The host showed no lean or lake process when the gate launched. The watcher saw no lean or lake process outside the wrapper's process tree in any of its 903 samples taken every 5 s; the gate's own processes in that class peaked at 5 (the lake driver and its lean workers). The watcher started 72 s after launch, during the dependency clone; in that window the runner ran one lake --version query (no build, no workspace load) in the worktree's lean/ directory to record the Lake version, and nothing else in that class."
+    }
+  },
+  "resources": {
+    "admitted_limits": {
+      "memory_quota": null,
+      "time_cutoff": "none"
+    },
+    "qualification": "No memory sampler ran; LEAN_NUM_THREADS is a thread-pool hint, not a process cap; no CPU, disk or wall-time limit was imposed."
+  },
+  "roles": {
+    "runner_attribution": "non-author clean-gate runner, in a fresh context",
+    "runner_authored_or_coconstructed_selected_native_mathematics_or_audit_logic": false,
+    "exposure": "The runner received its commission naming the checked source, the worktree and the five record folders. It read the gate script, the Lean README's clean-checkout paragraph, the tier law, the committed manifest's claim rows, the L18 grade's clean-gate condition and the precedent receipts for their shape. It asserts no tier.",
+    "runner_operational_authorship": "run_clean_gate.sh and this receipt; the watcher and the receipt extractor stayed in working storage."
+  },
+  "provenance": {
+    "originals": "The captured log and the wrapper are filed beside this receipt as clean_gate_log.txt and run_clean_gate_sh.txt, byte-identical in the five record folders; the watcher summary and the extractor stay in working storage.",
+    "filed_log": "The filed clean_gate_log.txt was 341,290 bytes at filing, 36 fewer than the 341,326 that observation.log_bytes records for the captured log: the repository's pre-commit trailing-whitespace hook stripped trailing whitespace from the captured lines at filing and changed nothing else, so the filed copy keeps the 3,536 stream lines, the runner's 7 header lines and 4 trailer lines (3,547 lines in all), and every marker and counted diagnostic line. The pre-hook bytes are not retained; the five filed copies are byte-identical. The header's three identity lines (the checked source, its lean/ tree and the --clean argument) now name the checked source by date; the stream lines are verbatim.",
+    "scope": "Necessary mechanical facts and qualifications are reproduced here; process identifiers and private absolute paths are omitted.",
+    "earlier_runs": "Two earlier runs of the same command on the same day exited during the dependency fetch on network disconnects before any Lean build; their logs are not filed."
+  },
+  "acceptance_boundary": "Any mathematical or source activation requires the separate independent warrant. This receipt confers no tier, status, novelty or community-acceptance claim and does not authorize a push."
+}

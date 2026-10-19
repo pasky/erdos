@@ -2,16 +2,16 @@
 name: extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph
 desc: |
   Erdős, Harary and Tutte's 1965 note defining the dimension of a graph, the
-  least n such that the graph embeds in Euclidean n-space with every edge of
-  length 1 and its vertices at distinct points: the values for complete
-  graphs, complete graphs less an edge and complete bipartite graphs
-  (dim K_{m,n} = 4 for m, n at least 3, the upper bound by Lenz's
-  construction), wheels, cubes and the Petersen graph, the bound dim G at most
-  twice the chromatic number, and two unsolved problems, on critical graphs
-  and on graphs whose k-vertex subgraphs have bounded dimension.
+  least n such that the graph embeds in Euclidean n-space with distinct
+  vertices and unit edges: the values for complete graphs, complete graphs
+  less an edge and complete bipartite graphs
+  (dim K_{m,n} = 4 for m, n at least 3), wheels, cubes and the Petersen graph,
+  the bound dim G at most twice the chromatic number, and two unsolved
+  problems, on critical graphs and on graphs whose k-vertex subgraphs have
+  bounded dimension.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T15:11:47Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # extremal_graph_theory/erdos_harary_tutte_1965_dimension_graph

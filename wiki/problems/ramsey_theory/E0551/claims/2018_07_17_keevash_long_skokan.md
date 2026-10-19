@@ -26,7 +26,7 @@ links:
 - url: https://www.erdosproblems.com/551
   kind: discussion
 created: 2026-10-07T06:23:44Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 ***
@@ -72,7 +72,7 @@ $n=8$ cases (for $n=8$ the lengths $16\le k\le33$ below the threshold
 remain). The extent of
 that set is unknown because $C$ is not explicit; this is the finite check
 that the erdosproblems.com label DECIDABLE refers to. A manuscript claiming to
-close it in full is recorded on the pending claim page
+close it in full is recorded on the accepted claim page
 [[problems/ramsey_theory/E0551/claims/2026_09_25_openai|OpenAI 2026]].
 
 **Depends on.** Nothing in this wiki; the result is the paper's own theorem.

@@ -23,13 +23,16 @@ __all__ = [
     'test_a_claim_page_without_authors_is_debt_until_settled',
     'test_an_empty_authors_list_records_an_unknown_name',
     'test_a_published_date_gives_only_what_is_known',
-    'test_a_claim_not_yet_public_has_no_published_date_or_links',
+    'test_a_claim_not_yet_public_has_no_published_date',
     'test_a_null_submitted_records_an_unknown_date',
     'test_a_claim_id_names_one_claim_on_the_site',
+    'test_same_day_pages_of_one_claimant_take_roman_suffixes',
+    'test_a_pending_page_keeps_a_temporary_suffix_beside_a_public_page',
     'test_a_link_date_gives_only_what_is_known',
     'test_an_accepted_claim_rests_only_on_accepted_pages',
     'test_a_dependence_on_a_library_result_page_is_noted_with_its_read_status',
     'test_write_derived_sets_the_two_standing_lines_only',
+    'test_write_derived_leaves_a_body_line_alone',
     'test_a_selection_scopes_the_check_and_the_write_to_named_folders',
     'test_only_index_pages_with_a_status_are_problems',
 ]
@@ -179,6 +182,13 @@ def test_a_problem_with_consistent_claims_passes(tmp_path: pathlib.Path) -> None
             None,
             "status 'believed' is not one of",
         ),
+        (_without(_CLAIM, 'claim:'), _BODY, None, 'missing claim (one of'),
+        (
+            _replace(_CLAIM, 'claim:', 'claim: [proved]'),
+            _BODY,
+            None,
+            "claim ['proved'] is not one of",
+        ),
         (
             _replace(_CLAIM, 'claim:', 'claim: decidable'),
             _BODY,
@@ -238,12 +248,6 @@ def test_a_problem_with_consistent_claims_passes(tmp_path: pathlib.Path) -> None
             _BODY,
             None,
             "published 2026-01 does not match the page name's date 2026-01-02",
-        ),
-        (
-            _replace(_CLAIM, 'published:', 'published: null'),
-            _BODY,
-            None,
-            'published may be null only while links is []',
         ),
         (
             _replace(
@@ -316,6 +320,16 @@ def test_a_problem_with_consistent_claims_passes(tmp_path: pathlib.Path) -> None
                 _BODY,
                 '**Depends on.**',
                 '**Depends on.** [[research/missing|a missing page]].',
+            ),
+            None,
+            'is not a wiki page',
+        ),
+        (
+            _CLAIM,
+            _replace(
+                _BODY,
+                '**Depends on.**',
+                '**Depends on.** [[problems/alpha/p1|the problem folder]].',
             ),
             None,
             'is not a wiki page',
@@ -497,6 +511,23 @@ def _partial(status: str, claim: str, *settles: str) -> dict[str, object]:
             ],
             ('solved', 'disproved'),
         ),
+        # a claim without a claim value, a list claim, an empty claim and a
+        # label that is not a string derive nothing, and do not stop the check
+        (
+            [
+                {'status': 'accepted', 'scope': 'full'},
+                {'status': 'accepted', 'claim': ['proved'], 'scope': 'full'},
+                {'status': 'accepted', 'claim': '', 'scope': 'full'},
+                _partial('accepted', 'proved', 'lower'),
+                {
+                    'status': 'accepted',
+                    'claim': 'proved',
+                    'scope': 'partial',
+                    'settles': [{'upper': 'proved'}],
+                },
+            ],
+            ('open', 'none'),
+        ),
     ],
     ids=[
         'all_accepted',
@@ -507,6 +538,7 @@ def _partial(status: str, claim: str, *settles: str) -> dict[str, object]:
         'decidable_settles_nothing',
         'pending_part_contested',
         'full_claim_wins',
+        'malformed_claims_derive_nothing',
     ],
 )
 def test_named_parts_settle_the_problem_together(
@@ -746,10 +778,18 @@ def test_a_published_date_gives_only_what_is_known(
     assert findings == []
 
 
-def test_a_claim_not_yet_public_has_no_published_date_or_links(
-    tmp_path: pathlib.Path,
+@pytest.mark.parametrize(
+    'links',
+    [
+        ('links: []',),
+        ('links:', '- url: https://example.org/formalization', '  kind: formalization'),
+    ],
+    ids=['no_links', 'formalization'],
+)
+def test_a_claim_not_yet_public_has_no_published_date(
+    tmp_path: pathlib.Path, links: tuple[str, ...]
 ) -> None:
-    """An unreleased claim has published: null and links: [], and its filing-day name goes unchecked."""
+    """An unreleased claim has published: null, no links or those due public by its release, and an unchecked filing-day name."""
     _problem(tmp_path, status='claimed', claim='proved')
     unreleased = _replace(
         _without(
@@ -761,7 +801,7 @@ def test_a_claim_not_yet_public_has_no_published_date_or_links(
             '  date:',
         ),
         'links:',
-        'links: []',
+        *links,
     )
     unreleased = _replace(unreleased, 'published:', 'published: null')
     unreleased = _replace(unreleased, 'submitted:', 'submitted: null')
@@ -801,6 +841,80 @@ def test_a_claim_id_names_one_claim_on_the_site(tmp_path: pathlib.Path) -> None:
     assert lint_problem_claims(tmp_path)[0] == []
 
 
+_SUFFIX = 'same-day claim pages by one claimant all take a roman suffix'
+_LONE = 'a lone claim page keeps the plain name'
+_GAP = 'same-day roman suffixes run _i, _ii, ... without a gap'
+
+
+@pytest.mark.parametrize(
+    ('names', 'expected'),
+    [
+        (('2026_01_02_claimant_i.md', '2026_01_02_claimant_ii.md'), []),
+        (('2026_01_02_jiang_xi.md',), []),
+        (('2026_01_02_claimant_i.md',), [('2026_01_02_claimant_i.md', _LONE)]),
+        (
+            (
+                '2026_01_02_claimant.md',
+                '2026_01_02_claimant_i.md',
+                '2026_01_02_claimant_ii.md',
+            ),
+            [('2026_01_02_claimant.md', _SUFFIX)],
+        ),
+        (
+            ('2026_01_02_claimant_i.md', '2026_01_02_claimant_iii.md'),
+            [('2026_01_02_claimant_iii.md', _GAP)],
+        ),
+        (('2026_01_02_jiang.md', '2026_01_02_jiang_xi.md'), []),
+        (
+            (
+                '2026_01_02_jiang_i.md',
+                '2026_01_02_jiang_ii.md',
+                '2026_01_02_jiang_xi.md',
+            ),
+            [],
+        ),
+    ],
+)
+def test_same_day_pages_of_one_claimant_take_roman_suffixes(
+    tmp_path: pathlib.Path, names: tuple[str, ...], expected: list[tuple[str, str]]
+) -> None:
+    """One claimant's same-day pages all take roman suffixes from _i; a lone page does not."""
+    _problem(tmp_path)
+    for name in names:
+        _claim(tmp_path, name)
+    findings, _ = lint_problem_claims(tmp_path)
+    folder = 'wiki/problems/alpha/p1/claims'
+    assert len(findings) == len(expected), findings
+    for finding, (name, message) in zip(sorted(findings), sorted(expected)):
+        assert finding.startswith(f'{folder}/{name}: '), findings
+        assert message in finding
+
+
+def test_a_pending_page_keeps_a_temporary_suffix_beside_a_public_page(
+    tmp_path: pathlib.Path,
+) -> None:
+    """A pending page filed on the day of its claimant's public page takes _i; the public page keeps its name."""
+    _problem(tmp_path)
+    _claim(tmp_path, '2026_01_02_claimant.md')
+    pending = _replace(
+        _without(
+            _replace(_CLAIM, 'status:', 'status: claimed'),
+            'evidence:',
+            '- refereed',
+            '- url:',
+            '  kind:',
+            '  date:',
+        ),
+        'links:',
+        'links: []',
+    )
+    pending = _replace(pending, 'published:', 'published: null')
+    pending = _replace(pending, 'submitted:', 'submitted: null')
+    _claim(tmp_path, '2026_01_02_claimant_i.md', frontmatter=pending)
+    findings, _ = lint_problem_claims(tmp_path)
+    assert findings == []
+
+
 @pytest.mark.parametrize('date', ['1936-04', '1936'])
 def test_a_link_date_gives_only_what_is_known(
     tmp_path: pathlib.Path, date: str
@@ -813,7 +927,7 @@ def test_a_link_date_gives_only_what_is_known(
 
 
 def test_an_accepted_claim_rests_only_on_accepted_pages(tmp_path: pathlib.Path) -> None:
-    """An accepted claim may depend on accepted claims, solved problems and proved cards, not on pending ones."""
+    """An accepted claim may depend on accepted claims, solved problems and proved cards, not on pending pages or stale cards."""
     _problem(tmp_path, 'alpha/p1', status='solved', claim='proved')
     _problem(tmp_path, 'alpha/p2', status='claimed', claim='proved')
     _problem(tmp_path, 'alpha/p3', status='solved', claim='proved')
@@ -839,11 +953,20 @@ def test_an_accepted_claim_rests_only_on_accepted_pages(tmp_path: pathlib.Path) 
         'status: proved',
         '---',
     )
+    write_page(
+        tmp_path / 'wiki/theory/alpha/L2_stale/_index.md',
+        '---',
+        'id: L2',
+        'status: proved',
+        'standing: stale',
+        '---',
+    )
     write_page(tmp_path / 'wiki/research/note.md', '---', 'desc: A note.', '---')
     body = _replace(
         _BODY,
         '**Depends on.**',
         '**Depends on.** [[theory/alpha/L1_card/_index|L1]], [[research/note|a note]],',
+        '[[theory/alpha/L2_stale/_index|a stale card]],',
         '[[problems/alpha/p3/_index|a solved problem]] and',
         '[[problems/alpha/p2/claims/2026_01_01_other|the pending claim]].',
     )
@@ -851,7 +974,9 @@ def test_an_accepted_claim_rests_only_on_accepted_pages(tmp_path: pathlib.Path) 
     findings, _ = lint_problem_claims(tmp_path)
     assert findings == [
         'wiki/problems/alpha/p1/claims/2026_01_02_claimant.md: an accepted claim depends on '
-        "'problems/alpha/p2/claims/2026_01_01_other', whose status is 'claimed'"
+        "'theory/alpha/L2_stale/_index', whose status is 'proved (stale)'",
+        'wiki/problems/alpha/p1/claims/2026_01_02_claimant.md: an accepted claim depends on '
+        "'problems/alpha/p2/claims/2026_01_01_other', whose status is 'claimed'",
     ]
 
 
@@ -939,6 +1064,25 @@ def test_write_derived_sets_the_two_standing_lines_only(tmp_path: pathlib.Path) 
     )
     assert write_derived(tmp_path) == []
     assert lint_problem_claims(tmp_path)[0] == []
+
+
+def test_write_derived_leaves_a_body_line_alone(tmp_path: pathlib.Path) -> None:
+    """A body line opening with a standing key stays as written when the frontmatter lacks the key."""
+    page = _problem(tmp_path, status='open', claim='none')
+    text = page.read_text(encoding='utf-8').replace('claim: none\n', '', 1)
+    page.write_text(text + '\n```yaml\nclaim: none\n```\n', encoding='utf-8')
+    _claim(tmp_path)
+    before = page.read_text(encoding='utf-8')
+    assert write_derived(tmp_path) == ['wiki/problems/alpha/p1/_index.md']
+    after = page.read_text(encoding='utf-8')
+    assert after == before.replace('status: open', 'status: solved')
+    # the missing key is the check's to report
+    findings, _ = lint_problem_claims(tmp_path)
+    assert findings == [
+        'wiki/problems/alpha/p1/_index.md: missing claim (one of none, proved,'
+        ' disproved, answered, independent, contested)',
+        "wiki/problems/alpha/p1/_index.md: claim None but the claims derive 'proved'",
+    ]
 
 
 def test_a_selection_scopes_the_check_and_the_write_to_named_folders(

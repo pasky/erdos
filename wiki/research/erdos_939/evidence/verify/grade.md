@@ -8,7 +8,7 @@ desc: |
   formal-counterpart sentence is accepted, three findings are downgraded to
   notes, and no tier or status follows.
 created: 2026-09-28T07:19:34Z
-updated: 2026-09-28T08:33:28Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -57,12 +57,12 @@ report filed for the folder.
 - [[problems/diophantine_problems/E0939/_index|Problem 939]] from its title through
   "Current assessment", and the Statement paragraph of
   [[problems/diophantine_problems/E0940/_index|Problem 940]].
-- The ledger rows and card front matter of two other claims, and a keyword
-  check of their proof pages for the characterization that the page's
-  relation paragraph gives; the front matter and holding lines of the Cohn
-  (1998) and Nitaj (1995) cards, which hold no text and which the page does
-  not consume; the folder listing of the Walsh (2024) card, which the page
-  does not cite.
+- The ledger rows and card front matter of L18 and L19, and a keyword check
+  of their proof pages for the sieve and class-field characterization that
+  the page's relation paragraph gives; the front matter and holding lines of
+  the Cohn (1998) and Nitaj (1995) cards, which hold no text and which the
+  page does not consume; the folder listing of the Walsh (2024) card, which
+  the page does not cite.
 - The folder listing at the commit, and the existence at the commit of every
   wikilink target on the page (nine; all resolve).
 
@@ -204,8 +204,10 @@ forms; no further change is needed. No other defect of fidelity or argument
 was found: the definitions, the statement, every step attributed to the
 manuscript, the quoted step "$\gcd(X-Y,XY)=1$ since $\gcd(X,Y)=1$", the
 locators, the counts at $r=4,5$, and the relation paragraph's
-characterizations of Problem 940, of two other claims and of the
-Conjectures.io $r=4$ leg all read as their sources say.
+characterizations of Problem 940, L18 and L19 (positive lower density of the
+non-representable integers at $r=3,4$, tier 0, $0$ and $1$ counted as
+vacuously $r$-powerful) and of the Conjectures.io $r=4$ leg all read as
+their sources say.
 
 ## Graded verdicts
 

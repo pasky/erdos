@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 509
@@ -141,6 +141,11 @@ papers filed in the library; no other literature search is recorded.
   [[problems/polynomials/E0509/claims/1961_01_01_pommerenke|Pommerenke 1961]].
 - Claimed, not accepted: the answer yes for monic $f$ of degree two, three or
   four, on [[problems/polynomials/E0509/claims/2026_07_19_hong|Hong 2026]].
+
+**A deduction and its scope.**
+[[research/erdos_509/componentwise_cover_obstruction|Why separate component covers lose the radius budget]] gives the author-recorded
+argument and source boundaries: pommerenke lemniscates with many long components rule out summing separate component radius or capacity budgets; a successful cover must share disks across components.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

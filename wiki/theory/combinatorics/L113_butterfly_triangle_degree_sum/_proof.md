@@ -1,0 +1,111 @@
+---
+name: theory/combinatorics/L113_butterfly_triangle_degree_sum/_proof
+title: Proof of the butterfly triangle degree-sum bound
+desc: Exact residue graphs and isolated-vertex padding realize the rational certificate at every order at least ten trillion.
+created: 2026-10-15T04:32:53Z
+updated: 2026-10-15T04:32:53Z
+---
+
+# Proof of the butterfly triangle degree-sum bound
+
+***
+
+## Exact parameters and realization
+
+Put $M=10000$ and set
+
+$$
+(a,b,c,d,e)=\frac1M(4273,2471,709,1274,1273),\qquad
+x=\frac{4352}{M},\quad y=\frac{3011}{M}.
+$$
+
+The five positive proportions sum to one. Let $s\ge1$ be an integer,
+and put $N=M^2s$. Make five independent parts $A,B,C,D,E$ with
+sizes $aN,bN,cN,dN,eN$. In a part whose weight numerator is $w$, label
+the vertices by $(j,z,t)\in\{1,\ldots,w\}\times\mathbb Z/M\mathbb Z
+\times\{1,\ldots,s\}$.
+
+Put in every edge between $A,B$, between $B,C$, between $A,D$ and between
+$A,E$. Between $A$ and $C$, join two vertices exactly when
+$z_C-z_A$ modulo $M$ belongs to $\{0,\ldots,4351\}$.
+Between $D$ and $E$, use the analogous condition
+$z_E-z_D\in\{0,\ldots,3010\}$ modulo $M$. There are no other edges.
+
+For each fixed vertex in $A$, exactly $4352$ of the $M$ residue classes in
+$C$ are neighbors. Each class has $709s$ vertices. The same count in the
+opposite direction gives exactly $4352\cdot4273s$ neighbors for each
+vertex in $C$. Thus the $AC$ graph has density exactly $x$, and every
+vertex in either part has exactly that proportion of the other part as
+neighbors. The identical argument gives density $y$ and equal degrees
+on each side of $DE$.
+
+All degrees, divided by $N$, are consequently
+
+$$
+\begin{array}{c|ccccc}
+\text{part}&A&B&C&D&E\\ \hline
+\deg/N&b+xc+d+e&a+c&xa+b&a+ye&a+yd.
+\end{array}
+$$
+
+The normalized edge count is
+
+$$
+\rho=ab+bc+ad+ae+xac+yde
+=\frac14+\frac{3203943}{500000000000}>\frac14.
+$$
+
+Because the parts are independent, each triangle uses three distinct
+parts. The only triangles in the six-edge support on the five part labels
+are $ABC$ and $ADE$. Their degree sums, divided by $N$, are respectively
+
+$$
+\begin{aligned}
+T_1&=(b+xc+d+e)+(a+c)+(xa+b)
+     =\frac{9149479}{6250000},\\
+T_2&=(b+xc+d+e)+(a+ye)+(a+yd)
+     =\frac{29278917}{20000000}.
+\end{aligned}
+$$
+
+Both are strictly less than $183/125$. This proves the claimed construction
+at every order $N$ divisible by $M^2$.
+
+## Every sufficiently large order
+
+For arbitrary $n\ge10^{13}$ set
+$s=\lfloor n/M^2\rfloor$ and $N=M^2s$, construct the preceding graph on
+$N$ vertices, and add $n-N$ isolated vertices. Then
+$N>n-M^2$, so
+
+$$
+\frac{e(G)}{n^2}
+=\rho\left(\frac Nn\right)^2
+>\rho\left(1-\frac{M^2}{n}\right)^2
+\ge\rho\left(1-\frac1{100000}\right)^2
+>\frac14.
+$$
+
+The last strict inequality is an exact rational inequality, checked in the
+linked evidence. Adding isolates creates no triangles and changes no old
+degree. Every triangle therefore has degree sum at most
+$\max(T_1,T_2)N<(183/125)N\le(183/125)n$.
+
+Finally $433^2=187489<187500=12\cdot125^2$, and both sides of
+$433/125<2\sqrt3$ are positive. Subtracting $2$ proves
+$183/125<2(\sqrt3-1)$. Hence a fixed positive gap separates the construction
+from the proposed constant. No function tending to zero can repair that
+asymptotic lower bound.
+
+## Scope and evidence
+
+The definition of $h(n)$ minimizes the largest triangle degree sum over
+all graphs with more than $n^2/4$ edges. The displayed graphs are in exactly
+that class, and give $h(n)<183n/125$ for every $n\ge10^{13}$.
+Isolated vertices are allowed by the problem. The proof uses neither a
+random graph limit nor a rounding claim with an unspecified error.
+
+The
+[[research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/evidence/_index|retained arithmetic evidence]]
+checks the exact input and displayed rational inequalities. The graph
+realization and all-order deduction are the analytic argument above.

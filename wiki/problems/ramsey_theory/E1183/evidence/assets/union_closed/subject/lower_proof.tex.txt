@@ -1,0 +1,109 @@
+\section{Proof of Theorem~\ref{thm:lower}}
+\label{sec:lower}
+
+Fix $k\ge2$ and $t\ge1$, put $M=M_k(t)$ as in \eqref{eq:Mt}, and let $n$
+be large enough that
+\[
+m=\Bigl\lfloor\frac{n-1}{M}\Bigr\rfloor\qquad\text{and}\qquad
+s=\Bigl\lfloor\frac m2\Bigr\rfloor
+\]
+satisfy $s\ge t$. Note that $mM\le n-1$. Fix pairwise disjoint sets
+$G_1,\dots,G_m\subseteq[n]$ of size $M$, the \emph{slots}, and list each
+slot as $G_i=\{g_{i,1},\dots,g_{i,M}\}$; for instance
+$g_{i,q}=(i-1)M+q$. For a vector $\beta\in[M]^{m}$ of block sizes let
+\[
+Y_i^{\beta}=\{g_{i,1},\dots,g_{i,\beta_i}\}\qquad(1\le i\le m),
+\]
+and for $\sigma\in S_n$ let $Q_{\sigma,\beta}(j,A)$ denote the cube
+$Q(j,A)$ of Definition~\ref{def:chain} built from the blocks
+$\sigma(Y_1^{\beta}),\dots,\sigma(Y_m^{\beta})$. Thus
+$Q_{\sigma,\beta}(j,A)=\sigma\bigl(Q_{\mathrm{id},\beta}(j,A)\bigr)$, and
+$Q_{\sigma,\beta}(j,A)$ has shape
+\begin{equation}
+\label{eq:chainshape}
+\Bigl(\sum_{i\le j,\ i\notin A}\beta_i;\ (\beta_a)_{a\in A}\Bigr).
+\end{equation}
+Let $\cP$ be the set of pairs $(j,A)$ with $s<j\le m$, $A\subseteq[s]$
+and $|A|=t$. Call $\beta$ \emph{good for} $(j,A)$ if the shape
+\eqref{eq:chainshape} satisfies $\rho_\chi\ge k^{-2^{t}}$.
+
+\begin{lemma}[Slices]
+\label{lem:slices}
+Let $1\le j\le m$ and $A\subseteq[j-1]$ with $|A|=t$. At least
+$M^{m-t-1}$ vectors $\beta\in[M]^{m}$ are good for $(j,A)$.
+\end{lemma}
+
+\begin{proof}
+Write $A=\{a_{(1)}<\dots<a_{(t)}\}$ and let $K=[m]\setminus(A\cup\{j\})$,
+a set of $m-t-1$ indices. We show that every choice of $(\beta_i)_{i\in
+K}\in[M]^{K}$ extends to a vector $\beta$ that is good for $(j,A)$.
+Different choices give different vectors, which proves the lemma.
+
+Fix $(\beta_i)_{i\in K}$, let $R=\sum_{i<j,\,i\notin A}\beta_i$, which
+involves only indices in $K$, and put $r=R+1$. Since $R\le(j-1-t)M\le
+(m-2)M$, we have $r+M\le(m-1)M+1\le n$. Proposition~\ref{prop:saturation}
+gives $u$ and $a_1,\dots,a_t$ with $\rho_\chi(u;a)\ge k^{-2^{t}}$, where
+$z=u-r$ satisfies $0\le z\le M-t\le M-1$ and $1\le a_i\le M$. Set
+\[
+\beta_j=z+1,\qquad \beta_{a_{(i)}}=a_i\quad(1\le i\le t).
+\]
+These values lie in $[M]$, and the shape \eqref{eq:chainshape} becomes
+$(R+z+1;a_1,\dots,a_t)=(u;a_1,\dots,a_t)$. So $\beta$ is good for
+$(j,A)$.
+\end{proof}
+
+\begin{lemma}[Averaging]
+\label{lem:average}
+There are $\sigma\in S_n$ and $\beta\in[M]^{m}$ such that at least
+\[
+\frac{|\cP|}{k^{2^{t}}M^{t+1}}
+\]
+of the cubes $Q_{\sigma,\beta}(j,A)$, $(j,A)\in\cP$, are monochromatic.
+\end{lemma}
+
+\begin{proof}
+Count the triples $(\sigma,\beta,(j,A))\in S_n\times[M]^m\times\cP$ for
+which $Q_{\sigma,\beta}(j,A)$ is monochromatic. For fixed $(j,A)\in\cP$
+and $\beta$ good for $(j,A)$, the number of suitable $\sigma$ is $n!$
+times the value of $\rho_\chi$ at the shape \eqref{eq:chainshape}, which
+is at least $n!\,k^{-2^{t}}$. By Lemma~\ref{lem:slices} the number of
+triples is at least $|\cP|\,M^{m-t-1}\,n!\,k^{-2^{t}}$. There are
+$n!\,M^{m}$ pairs $(\sigma,\beta)$, so one of them occurs in at least
+$|\cP|\,k^{-2^{t}}M^{-t-1}$ triples.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:lower}]
+Let $c_{k,t}$ be as in the statement. Since $M\ge t+1$ we have
+$(4M^{2})^{t+1}\ge(4M(t+1))^{t+1}$, so for $1\le n<4M(t+1)$ the bound
+$F_k(n)\ge1>c_{k,t}n^{t+1}$ is trivial. Let $n\ge4M(t+1)$.
+
+Take $\sigma,\beta$ as in Lemma~\ref{lem:average} and apply
+Proposition~\ref{prop:glue} to the blocks
+$\sigma(Y_1^\beta),\dots,\sigma(Y_m^\beta)$, which are pairwise disjoint
+and nonempty, and to the set $\cS\subseteq\cP$ of pairs whose cube is
+monochromatic. Every $k$-colouring therefore has a monochromatic
+union-closed family with at least
+\begin{equation}
+\label{eq:Pbound}
+\frac{|\cP|}{k^{2^{t}+1}M^{t+1}}
+\end{equation}
+members. It remains to bound $|\cP|=(m-s)\binom st$ from below. Since
+$n-1<M(m+1)$ and $m\le2s+1$, we have $n\le2M(s+1)$. Together with
+$n\ge4M(t+1)$ this gives $s\ge2t+1$, so $s\ge1$ and therefore $n\le4Ms$.
+Also $m-s\ge s$, and $\binom st\ge(s/t)^{t}$ because $s\ge t$. Hence
+\[
+|\cP|\ \ge\ \frac{s^{t+1}}{t^{t}}\ \ge\
+\frac{n^{t+1}}{t^{t}(4M)^{t+1}},
+\]
+and \eqref{eq:Pbound} is at least $c_{k,t}\,n^{t+1}$.
+
+For the last assertion let $k=2$, so that $\log_2M=2\log_2t+2^{t}$ and
+\begin{align*}
+\log_2\frac1{c_{2,t}}&=2^{t}+1+t\log_2t+(t+1)(2+2\log_2M)\\
+&=(2t+3)\,2^{t}+(5t+4)\log_2t+2t+3 .
+\end{align*}
+Since $\log_2t\le t-1$ and $2^{t}\ge2t$, the last two terms are at most
+$5t^{2}+t-1\le2t(t+1)^{2}\le(t+1)^{2}2^{t}$, so
+$\log_2(1/c_{2,t})\le(t+2)^{2}2^{t}$. If $\log_2n\ge(t+2)^{2}2^{t}$, then
+$c_{2,t}n\ge1$ and $F(n)\ge c_{2,t}n^{t+1}\ge n^{t}$.
+\end{proof}

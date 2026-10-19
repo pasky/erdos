@@ -5,7 +5,7 @@ desc: |
   Records the accepted independent source-proof review, exact native subjects,
   and remaining limits for the Gaussian walk construction.
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Evidence for the Cambie–Kalviainen walk
@@ -50,6 +50,6 @@ Both printed/PDF pages were visually inspected in the independent review.
 No executable certificate is required for the mathematical proof. Hashes and
 rendering establish artifact identity and reading access, not correctness.
 
-The present theorem's statement, proof, catalog deduction, and dependencies
-are unchanged from the reviewed snapshot; the standing now records the
-accepted review. A substantive mathematical change requires reassessment.
+The present theorem's statement, proof, erdosproblems.com deduction, and
+dependencies are unchanged from the reviewed snapshot; the standing now records
+the accepted review. A substantive mathematical change requires reassessment.

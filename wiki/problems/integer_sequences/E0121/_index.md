@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 121
@@ -34,9 +34,9 @@ $F_5(N)$ nor $F_{2k+1}(N)$ for any $k\ge2$ is $(1-o(1))N$. The paper appeared in
 Acta Math. Hungar. 175 (2025). Thomas Bloom, the erdosproblems.com curator,
 attributes the negative answer to it. The claim page
 [[problems/integer_sequences/E0121/claims/2024_05_19_tao|Tao 2024]] records the
-acceptance. erdosproblems.com's (LEAN) suffix is a catalog label. The outside
-Lean proof it refers to is linked from the claim page and described under
-Formalization. This corpus has not built that proof.
+acceptance. erdosproblems.com's (LEAN) suffix is an erdosproblems.com label. The
+outside Lean proof it refers to is linked from the claim page and described
+under Formalization. This corpus has not built that proof.
 
 **Source.** [erdosproblems.com/121](https://www.erdosproblems.com/121), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #121,

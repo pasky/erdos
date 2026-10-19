@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 885
@@ -91,6 +91,31 @@ $515504$, $3542528$, $6010004$ and $19523504$, sharing $872$, $4328$, $5003$ and
 $11672$. Two notes posted by zoahdev on 29 September 2026 give three integers
 sharing five values and do not reach $k=5$. Every membership in these examples
 checks by computation.
+
+## Finite reductions and uniformity requirements
+
+For $N>0$ and $r\ge0$, the exact factor-difference test is
+
+$$
+r\in D(N)\quad\Longleftrightarrow\quad
+4N+r^2=s^2,\quad s>r,\quad s\equiv r\pmod2.
+$$
+
+The maps are $s=a+b$ and $a,b=(s\mp r)/2$. Fix $0\le r_0<r_1$ and write
+$\Delta=r_1^2-r_0^2$. Every $N$ admitting both differences comes from a
+positive factorization $uv=\Delta$ with $u<v$ and $u\equiv v\pmod2$: set
+$s_0=(v-u)/2$, $s_1=(u+v)/2$, and retain $N=(s_0^2-r_0^2)/4$ only when
+positive, integral, and satisfying both parity conditions. In particular
+$N\le(\Delta-1)^2/16$.
+
+Thus a fixed pair of seed differences gives a complete finite search, while
+every additional common difference imposes another square condition. This
+author reduction was compared with the inspected constructions in
+[[../library/divisors/erdos_1997_factor_difference_set_integers/_index|Erdős–Rosenfeld]].
+No bound on the seed pair is proved for the unrestricted problem, and no
+numerical search was run. Increasing the number of integers sharing only two
+differences does not produce a five-by-five array.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,0 +1,19 @@
+{
+  "i": 16,
+  "terminal_prime_lower_row": 523,
+  "inclusive_cap_power_of_ten": 41,
+  "visited_intervals": 200407,
+  "certified_intervals": 100204,
+  "intervals_requiring_local_prime_pairs": 57311,
+  "minimal_prime_pair_vectors": 13,
+  "minimum_certified_log_margin": "0.000015922085670308186452647323639868978608022312196899924",
+  "interval_partition_sha256": "ee2d95febaaaae13eb546d357d6977df12c0df3667e9795ba69238aca672fc77",
+  "conclusion": "no bad triples",
+  "initial_numerical_tail_power_of_ten": 914,
+  "finite_pair_sum": "1.2589",
+  "finite_pair_threshold": 1771595,
+  "finite_pair_certificate_file": "erdos_699_finite_prime_pairs_16.json",
+  "analytic_tail_certificate_file": "erdos_699_asymmetric_ramp_caps.json",
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "scope": "Complete index-16 exclusion by analytic tail and certified intervals."
+}

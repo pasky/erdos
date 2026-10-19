@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 # Problem 55
@@ -42,7 +42,7 @@ possible growth for every $r\ge2$, up to an absolute constant factor. There is
 an $r$-Ramsey complete $A$ with $|A\cap[n]|\le Cr\log^2n$ for all $n$. No $A$
 with $|A\cap[n]|\le cr\log^2n$ for all large $n$ is $r$-Ramsey complete. The
 problem asks for bounds rather than for a proposition, so the erdosproblems.com
-label is SOLVED and not PROVED. The status-defining source is an arXiv preprint
+label was SOLVED and not PROVED. The status-defining source is an arXiv preprint
 of 2021. The erdosproblems.com curator accepted it and names it as the solution.
 On the curator's acceptance, the claim page records the result as accepted, with
 no refereed version, and the frontmatter standing is derived from it.

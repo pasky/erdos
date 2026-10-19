@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-14T15:30:27Z
 ---
 
 # Problem 1191
@@ -50,10 +50,15 @@ https://www.erdosproblems.com/1191.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/infinite_density|infinite sidon
+density and representation conventions]] account records the following scope.
+O’Bryant I (arXiv:2606.28651v3) Theorem 1 at difference cap 1 gives only
+liminf<=2/sqrt(log 2), and II (arXiv:2607.23795v1) describes that finite-bound
+history.

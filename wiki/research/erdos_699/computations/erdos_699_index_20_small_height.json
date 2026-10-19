@@ -1,0 +1,79 @@
+{
+  "index": 20,
+  "degree": 97,
+  "jet_equations": 2399,
+  "symmetric_monomials": 2450,
+  "generator_count": 51,
+  "independence_minor_modulus": 65521,
+  "independence_minor_determinant": 13345,
+  "maximum_coefficient_digits": 121,
+  "maximum_L1_norm": "160524418180360572761866583367857253738526666129845524614032488169477318800629557644114071266064007040069035683892967002808",
+  "maximum_L1_digits": 123,
+  "leading_Bernstein_bound": "7848927543503780125160732509336560",
+  "evaluation_constant": "7848927543503780125160732509336561",
+  "evaluation_threshold_power_of_ten": 123,
+  "basis_gzip_file": "erdos_699_index_20_small_height_basis.json.gz",
+  "off_maximum_factors": [
+    {
+      "prime": 2,
+      "exponent": 885,
+      "maximizing_positions": [
+        16
+      ]
+    },
+    {
+      "prime": 3,
+      "exponent": 441,
+      "maximizing_positions": [
+        18
+      ]
+    },
+    {
+      "prime": 5,
+      "exponent": 177,
+      "maximizing_positions": [
+        15
+      ]
+    },
+    {
+      "prime": 7,
+      "exponent": 124,
+      "maximizing_positions": [
+        14
+      ]
+    },
+    {
+      "prime": 11,
+      "exponent": 67,
+      "maximizing_positions": [
+        11
+      ]
+    },
+    {
+      "prime": 13,
+      "exponent": 67,
+      "maximizing_positions": [
+        13
+      ]
+    },
+    {
+      "prime": 17,
+      "exponent": 67,
+      "maximizing_positions": [
+        17
+      ]
+    },
+    {
+      "prime": 19,
+      "exponent": 67,
+      "maximizing_positions": [
+        19
+      ]
+    }
+  ],
+  "constant_log10_upper": 912,
+  "exponent_gain": "713/5000",
+  "algebraic_tail_power_of_ten": 6396,
+  "elementary_threshold": 17876000,
+  "scope": "Algebraic tail after the specified cofactor source thresholds hold"
+}

@@ -1,0 +1,375 @@
+{
+  "threshold": "p>=3",
+  "max_v2_n": 48,
+  "n_at_most": null,
+  "necessary_row_conditions": "n=2^h*u, h>=2, u odd, 3*u^3<2^h",
+  "maximum_row_requiring_search": 12789941466755497984,
+  "totals": {
+    "rows": 110129,
+    "large_prime_power_in_n_minus_1": 46564,
+    "incompatible_prime_power_residues": 21343,
+    "large_prime_power_in_n_minus_2": 42222
+  },
+  "prime_power_residue_candidates": [],
+  "bad_triples": [],
+  "by_v2_n": [
+    {
+      "v2_n": 2
+    },
+    {
+      "v2_n": 3,
+      "rows": 1,
+      "large_prime_power_in_n_minus_1": 1
+    },
+    {
+      "v2_n": 4,
+      "rows": 1,
+      "incompatible_prime_power_residues": 1
+    },
+    {
+      "v2_n": 5,
+      "rows": 1,
+      "large_prime_power_in_n_minus_1": 1
+    },
+    {
+      "v2_n": 6,
+      "rows": 1,
+      "large_prime_power_in_n_minus_2": 1
+    },
+    {
+      "v2_n": 7,
+      "rows": 2,
+      "large_prime_power_in_n_minus_1": 2
+    },
+    {
+      "v2_n": 8,
+      "rows": 2,
+      "large_prime_power_in_n_minus_2": 2
+    },
+    {
+      "v2_n": 9,
+      "rows": 3,
+      "incompatible_prime_power_residues": 1,
+      "large_prime_power_in_n_minus_1": 2
+    },
+    {
+      "v2_n": 10,
+      "rows": 3,
+      "incompatible_prime_power_residues": 1,
+      "large_prime_power_in_n_minus_2": 1,
+      "large_prime_power_in_n_minus_1": 1
+    },
+    {
+      "v2_n": 11,
+      "rows": 4,
+      "incompatible_prime_power_residues": 1,
+      "large_prime_power_in_n_minus_1": 2,
+      "large_prime_power_in_n_minus_2": 1
+    },
+    {
+      "v2_n": 12,
+      "rows": 6,
+      "incompatible_prime_power_residues": 2,
+      "large_prime_power_in_n_minus_1": 3,
+      "large_prime_power_in_n_minus_2": 1
+    },
+    {
+      "v2_n": 13,
+      "rows": 7,
+      "large_prime_power_in_n_minus_1": 2,
+      "large_prime_power_in_n_minus_2": 4,
+      "incompatible_prime_power_residues": 1
+    },
+    {
+      "v2_n": 14,
+      "rows": 9,
+      "large_prime_power_in_n_minus_2": 2,
+      "large_prime_power_in_n_minus_1": 5,
+      "incompatible_prime_power_residues": 2
+    },
+    {
+      "v2_n": 15,
+      "rows": 11,
+      "incompatible_prime_power_residues": 2,
+      "large_prime_power_in_n_minus_2": 5,
+      "large_prime_power_in_n_minus_1": 4
+    },
+    {
+      "v2_n": 16,
+      "rows": 14,
+      "incompatible_prime_power_residues": 5,
+      "large_prime_power_in_n_minus_1": 6,
+      "large_prime_power_in_n_minus_2": 3
+    },
+    {
+      "v2_n": 17,
+      "rows": 18,
+      "large_prime_power_in_n_minus_1": 9,
+      "incompatible_prime_power_residues": 4,
+      "large_prime_power_in_n_minus_2": 5
+    },
+    {
+      "v2_n": 18,
+      "rows": 22,
+      "large_prime_power_in_n_minus_2": 8,
+      "large_prime_power_in_n_minus_1": 10,
+      "incompatible_prime_power_residues": 4
+    },
+    {
+      "v2_n": 19,
+      "rows": 28,
+      "large_prime_power_in_n_minus_1": 17,
+      "incompatible_prime_power_residues": 5,
+      "large_prime_power_in_n_minus_2": 6
+    },
+    {
+      "v2_n": 20,
+      "rows": 35,
+      "large_prime_power_in_n_minus_2": 13,
+      "large_prime_power_in_n_minus_1": 16,
+      "incompatible_prime_power_residues": 6
+    },
+    {
+      "v2_n": 21,
+      "rows": 44,
+      "incompatible_prime_power_residues": 12,
+      "large_prime_power_in_n_minus_1": 23,
+      "large_prime_power_in_n_minus_2": 9
+    },
+    {
+      "v2_n": 22,
+      "rows": 56,
+      "incompatible_prime_power_residues": 10,
+      "large_prime_power_in_n_minus_1": 25,
+      "large_prime_power_in_n_minus_2": 21
+    },
+    {
+      "v2_n": 23,
+      "rows": 70,
+      "large_prime_power_in_n_minus_1": 33,
+      "large_prime_power_in_n_minus_2": 20,
+      "incompatible_prime_power_residues": 17
+    },
+    {
+      "v2_n": 24,
+      "rows": 89,
+      "large_prime_power_in_n_minus_2": 31,
+      "large_prime_power_in_n_minus_1": 45,
+      "incompatible_prime_power_residues": 13
+    },
+    {
+      "v2_n": 25,
+      "rows": 112,
+      "incompatible_prime_power_residues": 21,
+      "large_prime_power_in_n_minus_1": 52,
+      "large_prime_power_in_n_minus_2": 39
+    },
+    {
+      "v2_n": 26,
+      "rows": 141,
+      "incompatible_prime_power_residues": 32,
+      "large_prime_power_in_n_minus_2": 51,
+      "large_prime_power_in_n_minus_1": 58
+    },
+    {
+      "v2_n": 27,
+      "rows": 178,
+      "incompatible_prime_power_residues": 40,
+      "large_prime_power_in_n_minus_2": 64,
+      "large_prime_power_in_n_minus_1": 74
+    },
+    {
+      "v2_n": 28,
+      "rows": 224,
+      "large_prime_power_in_n_minus_2": 77,
+      "incompatible_prime_power_residues": 51,
+      "large_prime_power_in_n_minus_1": 96
+    },
+    {
+      "v2_n": 29,
+      "rows": 282,
+      "incompatible_prime_power_residues": 46,
+      "large_prime_power_in_n_minus_1": 133,
+      "large_prime_power_in_n_minus_2": 103
+    },
+    {
+      "v2_n": 30,
+      "rows": 355,
+      "incompatible_prime_power_residues": 65,
+      "large_prime_power_in_n_minus_1": 157,
+      "large_prime_power_in_n_minus_2": 133
+    },
+    {
+      "v2_n": 31,
+      "rows": 447,
+      "large_prime_power_in_n_minus_1": 188,
+      "large_prime_power_in_n_minus_2": 179,
+      "incompatible_prime_power_residues": 80
+    },
+    {
+      "v2_n": 32,
+      "rows": 564,
+      "large_prime_power_in_n_minus_2": 208,
+      "large_prime_power_in_n_minus_1": 239,
+      "incompatible_prime_power_residues": 117
+    },
+    {
+      "v2_n": 33,
+      "rows": 710,
+      "incompatible_prime_power_residues": 145,
+      "large_prime_power_in_n_minus_1": 295,
+      "large_prime_power_in_n_minus_2": 270
+    },
+    {
+      "v2_n": 34,
+      "rows": 895,
+      "large_prime_power_in_n_minus_2": 318,
+      "large_prime_power_in_n_minus_1": 402,
+      "incompatible_prime_power_residues": 175
+    },
+    {
+      "v2_n": 35,
+      "rows": 1127,
+      "incompatible_prime_power_residues": 213,
+      "large_prime_power_in_n_minus_2": 431,
+      "large_prime_power_in_n_minus_1": 483
+    },
+    {
+      "v2_n": 36,
+      "rows": 1420,
+      "incompatible_prime_power_residues": 268,
+      "large_prime_power_in_n_minus_1": 623,
+      "large_prime_power_in_n_minus_2": 529
+    },
+    {
+      "v2_n": 37,
+      "rows": 1789,
+      "large_prime_power_in_n_minus_1": 762,
+      "large_prime_power_in_n_minus_2": 691,
+      "incompatible_prime_power_residues": 336
+    },
+    {
+      "v2_n": 38,
+      "rows": 2254,
+      "large_prime_power_in_n_minus_2": 834,
+      "large_prime_power_in_n_minus_1": 948,
+      "incompatible_prime_power_residues": 472
+    },
+    {
+      "v2_n": 39,
+      "rows": 2840,
+      "incompatible_prime_power_residues": 542,
+      "large_prime_power_in_n_minus_2": 1067,
+      "large_prime_power_in_n_minus_1": 1231
+    },
+    {
+      "v2_n": 40,
+      "rows": 3578,
+      "incompatible_prime_power_residues": 663,
+      "large_prime_power_in_n_minus_1": 1502,
+      "large_prime_power_in_n_minus_2": 1413
+    },
+    {
+      "v2_n": 41,
+      "rows": 4508,
+      "incompatible_prime_power_residues": 913,
+      "large_prime_power_in_n_minus_2": 1713,
+      "large_prime_power_in_n_minus_1": 1882
+    },
+    {
+      "v2_n": 42,
+      "rows": 5680,
+      "large_prime_power_in_n_minus_2": 2202,
+      "large_prime_power_in_n_minus_1": 2428,
+      "incompatible_prime_power_residues": 1050
+    },
+    {
+      "v2_n": 43,
+      "rows": 7156,
+      "incompatible_prime_power_residues": 1440,
+      "large_prime_power_in_n_minus_1": 3054,
+      "large_prime_power_in_n_minus_2": 2662
+    },
+    {
+      "v2_n": 44,
+      "rows": 9016,
+      "incompatible_prime_power_residues": 1722,
+      "large_prime_power_in_n_minus_2": 3432,
+      "large_prime_power_in_n_minus_1": 3862
+    },
+    {
+      "v2_n": 45,
+      "rows": 11360,
+      "incompatible_prime_power_residues": 2184,
+      "large_prime_power_in_n_minus_2": 4339,
+      "large_prime_power_in_n_minus_1": 4837
+    },
+    {
+      "v2_n": 46,
+      "rows": 14313,
+      "incompatible_prime_power_residues": 2793,
+      "large_prime_power_in_n_minus_2": 5629,
+      "large_prime_power_in_n_minus_1": 5891
+    },
+    {
+      "v2_n": 47,
+      "rows": 18033,
+      "incompatible_prime_power_residues": 3526,
+      "large_prime_power_in_n_minus_2": 6925,
+      "large_prime_power_in_n_minus_1": 7582
+    },
+    {
+      "v2_n": 48,
+      "rows": 22720,
+      "incompatible_prime_power_residues": 4362,
+      "large_prime_power_in_n_minus_1": 9578,
+      "large_prime_power_in_n_minus_2": 8780
+    }
+  ],
+  "checks": {
+    "small_n_limit": 200,
+    "binomial_gcd_comparisons": 18818,
+    "cubic_discriminant_identity": "verified on every admissible tested pair",
+    "strict_threshold_positive_controls": [
+      [
+        10,
+        3,
+        5
+      ],
+      [
+        28,
+        3,
+        14
+      ],
+      [
+        244,
+        3,
+        122
+      ],
+      [
+        2188,
+        3,
+        1094
+      ]
+    ],
+    "endpoint_comparisons": 11174,
+    "last_two_label_positive_controls": [
+      [
+        76672,
+        26775
+      ],
+      [
+        175492,
+        60606
+      ]
+    ],
+    "alternating_cubic_identity_checks": 11174,
+    "proved_column_family_gcd_checks": 3145
+  },
+  "factorization_discovery": "SymPy 1.14.0; results checked by multiplication and exact primality certificates",
+  "sieve_primality_limit": 100000,
+  "recursive_prime_certificates": 249884,
+  "primality_witnesses": 999915,
+  "scope": "Exhaustive for the stated bound, using the proved reductions. No conclusion for unbounded v_2(n).",
+  "min_v2_n": 2
+}

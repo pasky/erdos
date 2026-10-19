@@ -7,6 +7,8 @@ import json
 import pathlib
 import sys
 
+import tools.core.files
+
 # bound the generated entries so the hand-written patterns remain untouched
 BEGIN = '<!-- BEGIN wiki excludes -->'
 END = '<!-- END wiki excludes -->'
@@ -22,8 +24,20 @@ def slots(root: pathlib.Path) -> list[str]:
     # a folder holds several PDFs; a folder without a PDF keeps its page
     return sorted(
         path.with_suffix('.md').relative_to(root).as_posix()
-        for path in root.glob('*/*/*.pdf')
+        for path in held_pdfs(root)
     )
+
+
+def held_pdfs(root: pathlib.Path) -> list[pathlib.Path]:
+    """List the PDFs card folders hold: the working files in a git checkout, else those on disk."""
+    # in a checkout the working files decide, tracked and untracked under the
+    # repository's ignore policy, as for the gate's other legs, so a PDF just
+    # fetched needs its slot before it is staged
+    try:
+        pdfs = tools.core.files.repository_files(root, '*.pdf')
+    except RuntimeError:
+        return list(root.glob('*/*/*.pdf'))
+    return [path for path in pdfs if len(path.relative_to(root).parts) == 3]
 
 
 def update_patterns(patterns: list[str], generated: list[str]) -> list[str]:

@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [pell, count]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 365
@@ -104,7 +104,10 @@ item names this problem. No wider literature search was made.
 
 ## Known Results
 
-The Current assessment above records the known results.
+The Current assessment above records the known results. The
+[[research/erdos_939/connections|Problem 939 connections page]] holds
+author-recorded research on polynomial families of powerful numbers; it is not
+a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

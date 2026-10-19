@@ -1,0 +1,11 @@
+{
+  "index": 14,
+  "numerical_tail_power_of_ten": 8516269,
+  "certified_finite_range_power_of_ten": 15170264,
+  "inclusive_interval_cap_power_of_ten": 41,
+  "certified_intervals": 400818,
+  "minimum_certified_log_margin": "0.000003099979643454809817500644576458276751276971948702190",
+  "numerical_tail_file": "erdos_699_index_14_numerical_tail.json",
+  "finite_certificate_file": "erdos_699_index_14_finite.json",
+  "conclusion": "No admissible bad triples exist at index fourteen."
+}

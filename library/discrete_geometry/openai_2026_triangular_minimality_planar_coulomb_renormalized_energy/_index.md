@@ -4,13 +4,13 @@ desc: |
   Claims the Sandier-Serfaty conjecture, that the covolume-one triangular
   lattice minimizes the planar Coulomb renormalized energy over all admissible
   curl-free fields with unit background, by a Voronoi-sector comparison on
-  square tori whose two scalar inequalities the manuscript checks by an
-  interval-arithmetic computation; with the Betermin-Sandier formula this
-  gives the linear term of the minimal logarithmic energy of n points on the
-  two-sphere, the energy of the configurations Problem 991 concerns.
+  square tori whose two scalar inequalities the manuscript checks by interval
+  arithmetic; with the Betermin-Sandier formula this gives the linear term of
+  the minimal logarithmic energy of n points on the two-sphere, the energy of
+  the configurations Problem 991 concerns.
 license: Apache-2.0
 created: 2026-10-06T23:57:55Z
-updated: 2026-10-08T01:50:25Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # discrete_geometry/openai_2026_triangular_minimality_planar_coulomb_renormalized_energy

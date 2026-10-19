@@ -4,9 +4,10 @@ title: "Corollary 4.4.5 (p. 117): Br(k) = Br(X) for a smooth complete intersecti
 desc: |
   For a smooth complete intersection X of dimension at least 3 in projective
   n-space over a field k of characteristic 0, the natural map Br(k) to Br(X)
-  is an isomorphism.
+  is an isomorphism; the E940 quadratic-compression obstruction uses it for a
+  smooth diagonal hypersurface.
 created: 2026-10-08T17:21:06Z
-updated: 2026-10-08T17:21:06Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -57,4 +58,13 @@ cited.
 
 ## Bears on
 
-No problem page of this corpus.
+- [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+  [[../wiki/research/erdos_940/quadratic_compression|quadratic-compression note]]
+  applies the corollary to the smooth hypersurface $\sum_{i=1}^r d_iX_i^r=0$
+  in $\mathbb P^{r-1}_L$, $r\ge5$, $d_i$ positive rationals, over a real
+  quadratic or rational number field $L$, together with Theorem 3.5.4 of the
+  preceding chapter, to rule out writing that diagonal form as a fixed
+  positive-definite rational quadratic form in at most four rational functions
+  over $\mathbb Q$. That limits one proposed route; neither the
+  corollary nor the note proves that any integer is not a sum of at most $r$
+  $r$-powerful numbers, or any density statement.

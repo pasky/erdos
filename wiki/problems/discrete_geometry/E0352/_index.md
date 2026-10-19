@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 352
@@ -108,6 +108,14 @@ chapters and the arXiv listing; on 2026-10-07 the Bulj–Kovač preprint was the
 only paper in them that states the problem and bears on the general case. The
 standing is open with claim none. No formalization and no independent proof
 review is recorded here.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/areas_and_tilings|area
+constraints and congruent tilings]] account records the following scope. The
+finite-union reduction quantifies over every number of convex components, not
+just up to three.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

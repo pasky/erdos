@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 39
@@ -59,13 +59,17 @@ https://www.erdosproblems.com/39.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/39.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/infinite_density|infinite sidon
+density and representation conventions]] account records the following scope.
+Fabian at alpha=0 supplies exponent sqrt(2)-1, below 1/2.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

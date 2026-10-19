@@ -9,7 +9,7 @@ desc: |
   Erdős problem.
 license: Apache-2.0
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 # irrationality/openai_2026_irrationality_exponent_pi_2
@@ -101,7 +101,7 @@ the release tree holds that module as
 `lean/OAI/NumberTheory/PiExponent/Main.lean`, whose contents were not read.
 At revision fd4aeeb2e the release's catalog `lean/formalization.yaml` lists
 no entry for this comparator under `status.main_results` and does not name
-this manuscript among its sources; the catalog's own `review` field reads
+this manuscript among its sources; its own `review` field reads
 `status: unchecked`. All of this is read statically from the release's
 files; nothing was built, replayed or audited for fidelity in this
 repository. No Lean file here is a proof of any Erdős problem.

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T15:30:27Z
 ---
 
 # Problem 153
@@ -59,10 +59,16 @@ https://www.erdosproblems.com/153.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/153.lean),
 tagged research open with no `formal_proof` attribute.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/finite_extremality|finite sidon
+extremality and prefix extension]] account records the following scope.
+For an $n$-point strong Sidon set of diameter $D$, Cauchy–Schwarz gives
+$Q(A)\ge4D^2/[t(t-1)]$, where $t=n(n+1)/2$ and $Q(A)$ is the displayed
+mean squared gap. This proves divergence when $D/n^2\to\infty$, while
+leaving bounded diameter ratios unresolved.

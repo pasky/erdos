@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 927
@@ -51,7 +51,7 @@ Since $\log_*(n)\to\infty$, any construction giving $g(n)\ge n-\log_2n-c$
 for a fixed $c$ along an infinite sequence of $n$ refutes it; Spencer's
 paper states $c=4$ for every $N>33000$ ([Sp71], p. 419), with $c=5$ in one
 case by its own counts. The erdosproblems.com label DISPROVED (LEAN) carries a
-catalog suffix explained under Formalization.
+suffix explained under Formalization.
 
 **Status.** Bloom's catalog labeled the problem DISPROVED (LEAN). The label's
 Lean clause is a separate matter, treated under Formalization. The claim page is
@@ -153,8 +153,8 @@ Bloom, Erdős Problem #927, https://www.erdosproblems.com/927, accessed
   (the card carries no row for this problem; the passage is quoted below
   with its locator).
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/927.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/927.lean)
 of formal-conjectures (added 2026-09-18; the link pins the version that added
 it) declares `erdos_927` under `category research solved`, with `answer(False)`:

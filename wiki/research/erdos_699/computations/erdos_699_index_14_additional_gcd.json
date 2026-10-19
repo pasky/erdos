@@ -1,0 +1,143 @@
+{
+  "source_file": "erdos_699_index_14_additional_pairs.json",
+  "records": [
+    {
+      "directions": [
+        32,
+        15,
+        32
+      ],
+      "rectangular_shifts": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          -2,
+          1
+        ]
+      ],
+      "terms": 4000,
+      "m0": 100000000,
+      "floor_stability_bound": 3988,
+      "rounding_denominator": 1000000000000,
+      "root_scale": 1000000,
+      "eligible_terms": 1974,
+      "positive_terms": 360,
+      "largest_positive_t": 1184,
+      "ell_lower": "14218542834683/1000000000000",
+      "upper_relative_error": "1/36260",
+      "lower_relative_error_floor": "1/60000",
+      "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+      "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+      "edge": [
+        2,
+        7,
+        2747,
+        3213
+      ],
+      "source_edge": [
+        2,
+        7,
+        2747,
+        3213
+      ],
+      "requested_log_rate": "1421/100",
+      "strict_rate_margin": "8542834683/1000000000000"
+    },
+    {
+      "directions": [
+        2,
+        1,
+        2
+      ],
+      "rectangular_shifts": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          -2,
+          1
+        ]
+      ],
+      "terms": 4000,
+      "m0": 100000000,
+      "floor_stability_bound": 3998,
+      "rounding_denominator": 1000000000000,
+      "root_scale": 1000000,
+      "eligible_terms": 1600,
+      "positive_terms": 157,
+      "largest_positive_t": 479,
+      "ell_lower": "487327842933/500000000000",
+      "upper_relative_error": "1/36260",
+      "lower_relative_error_floor": "1/60000",
+      "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+      "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+      "edge": [
+        5,
+        7,
+        3921,
+        2653
+      ],
+      "source_edge": [
+        5,
+        7,
+        3921,
+        2653
+      ],
+      "requested_log_rate": "97/100",
+      "strict_rate_margin": "2327842933/500000000000"
+    },
+    {
+      "directions": [
+        147,
+        59,
+        147
+      ],
+      "rectangular_shifts": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          -2,
+          1
+        ]
+      ],
+      "terms": 4000,
+      "m0": 10000000000,
+      "floor_stability_bound": 3896,
+      "rounding_denominator": 1000000000000,
+      "root_scale": 1000000,
+      "eligible_terms": 1994,
+      "positive_terms": 1666,
+      "largest_positive_t": 4000,
+      "ell_lower": "28595345036793/500000000000",
+      "upper_relative_error": "1/36260",
+      "lower_relative_error_floor": "1/60000",
+      "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+      "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+      "edge": [
+        11,
+        13,
+        726,
+        726
+      ],
+      "source_edge": [
+        11,
+        13,
+        726,
+        726
+      ],
+      "requested_log_rate": "2859/50",
+      "strict_rate_margin": "5345036793/500000000000"
+    }
+  ]
+}

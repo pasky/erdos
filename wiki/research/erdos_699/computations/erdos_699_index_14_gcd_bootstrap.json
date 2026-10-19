@@ -1,0 +1,4695 @@
+{
+  "input_file": "erdos_699_index_14_gcd_selected.json",
+  "reused_bootstrap_file": "erdos_699_off_diagonal_gcd_bootstrap.json",
+  "prime_log_certificate": {
+    "sieve_limit": 100000000,
+    "prime_count": 5761455,
+    "fixed_point_scale": 4294967296,
+    "logarithm_buckets": 16384,
+    "prime_array_sha256": "a7eead5377c738f5ecdd62fd01a0cedbcecee527cbf31739d4ecc1f3fae07766",
+    "lower_prefix_sha256": "4304ce7a015e2d94d35d15599d9b26dc795a6f1c858aa6d380a47eb30acfcf11",
+    "upper_prefix_sha256": "4219bf59b49c1064a731280a3928c33fd1a0c1aa1f13f8968858441606d43d10",
+    "log_table_lower_sha256": "dbde445fb6e3e5c17e77b4ccd03f316233df9b3dab4c42801dd6fe602dfc3306",
+    "log_table_upper_sha256": "c0679e5eed9e99b48ec716b190e1bf3389055ae363885ac88f11bb65e4c3e1d7"
+  },
+  "records": [
+    {
+      "edge": [
+        2,
+        3,
+        200,
+        5600
+      ],
+      "source_edge": [
+        2,
+        3,
+        200,
+        5600
+      ],
+      "directions": [
+        11,
+        10,
+        40
+      ],
+      "requested_log_rate": "1706855306885350670652845118965757208931482807307486752648855628743391393/342153863501357643347392262618418332714982825351002768621273243982000000",
+      "finite_interval_start": 14583,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          11,
+          10,
+          40
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3998,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1969,
+        "positive_terms": 559,
+        "largest_positive_t": 2317,
+        "ell_lower": "2507139340877/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          3,
+          200,
+          5600
+        ],
+        "source_edge": [
+          2,
+          3,
+          200,
+          5600
+        ],
+        "requested_log_rate": "1706855306885350670652845118965757208931482807307486752648855628743391393/342153863501357643347392262618418332714982825351002768621273243982000000",
+        "strict_rate_margin": "2199879187318747005102260877516210188776961499572455583856662292925695176107/85538465875339410836848065654604583178745706337750692155318310995500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 79730,
+      "visited_nodes": 159470,
+      "largest_unsupported_singleton": 14582,
+      "minimum_margin": "1432965010137307943097903512520699512118843788468422868830792239685146796635371/3736608810769808367511424889444544973747352394548923400707081612190247337066496000000",
+      "partition_sha256": "4aeff54b43f788056592cb3cb7e604abb34a04f4cca31ae31899d8aa12cced46",
+      "elapsed_seconds": 10.416,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        3,
+        300,
+        5200
+      ],
+      "source_edge": [
+        2,
+        3,
+        300,
+        5200
+      ],
+      "directions": [
+        9,
+        8,
+        29
+      ],
+      "requested_log_rate": "5252150127763243118905562997254692459255245851747939206047530867/1379375265744323255696633620290442263102891323766775278070500000",
+      "finite_interval_start": 25899,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          9,
+          8,
+          29
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3976,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1913,
+        "positive_terms": 472,
+        "largest_positive_t": 2115,
+        "ell_lower": "955581386953/250000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          3,
+          300,
+          5200
+        ],
+        "source_edge": [
+          2,
+          3,
+          300,
+          5200
+        ],
+        "requested_log_rate": "5252150127763243118905562997254692459255245851747939206047530867/1379375265744323255696633620290442263102891323766775278070500000",
+        "strict_rate_margin": "10135595255625173677141727553114531303635131145000982013995837928373/689687632872161627848316810145221131551445661883387639035250000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 79619,
+      "visited_nodes": 159247,
+      "largest_unsupported_singleton": 25898,
+      "minimum_margin": "98792449581281490814954349576528945048474640187216592357492298883/3147322441869188036711808769984563631370421163017112655056242475008000000",
+      "partition_sha256": "f86d20f2a963e10837ea1ddd8856e7e05b9711b7cffcf5d501445205c24e8d7d",
+      "elapsed_seconds": 10.511,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        3,
+        1800,
+        3000
+      ],
+      "source_edge": [
+        2,
+        3,
+        1800,
+        3000
+      ],
+      "directions": [
+        36,
+        23,
+        50
+      ],
+      "requested_log_rate": "7095428579035718286829943615805146470790815176215504604182573/718333934149915365572224768141231896963081397156277427000000",
+      "finite_interval_start": 7946,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          36,
+          23,
+          50
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3928,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1985,
+        "positive_terms": 300,
+        "largest_positive_t": 1307,
+        "ell_lower": "9879871036283/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          3,
+          1800,
+          3000
+        ],
+        "source_edge": [
+          2,
+          3,
+          1800,
+          3000
+        ],
+        "requested_log_rate": "7095428579035718286829943615805146470790815176215504604182573/718333934149915365572224768141231896963081397156277427000000",
+        "strict_rate_margin": "1618051351250318702857485492165714758037707699765547810557883841/718333934149915365572224768141231896963081397156277427000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 82467,
+      "visited_nodes": 164940,
+      "largest_unsupported_singleton": 7945,
+      "minimum_margin": "14037538328553044947232108407169861559171955268476387966840584008173/22839841041068739277167385890346766128558384440792286136745011970048000000",
+      "partition_sha256": "a1dc8957b56d10fba57813bf16c3f93ee998acd07b132120ac6c7d698854d54a",
+      "elapsed_seconds": 11.219,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        3,
+        3300,
+        2500
+      ],
+      "source_edge": [
+        2,
+        3,
+        3300,
+        2500
+      ],
+      "directions": [
+        50,
+        23,
+        46
+      ],
+      "requested_log_rate": "3944434206019956422717113055046477213704743921358088009125123393/216294853731356090503437780726095083865780394378952475982000000",
+      "finite_interval_start": 5049,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          50,
+          23,
+          46
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3997,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1984,
+        "positive_terms": 358,
+        "largest_positive_t": 1308,
+        "ell_lower": "18264342858331/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          3,
+          3300,
+          2500
+        ],
+        "source_edge": [
+          2,
+          3,
+          3300,
+          2500
+        ],
+        "requested_log_rate": "3944434206019956422717113055046477213704743921358088009125123393/216294853731356090503437780726095083865780394378952475982000000",
+        "strict_rate_margin": "3024580511042718054615632881092745474235364036564650818784056553021/108147426865678045251718890363047541932890197189476237991000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 59148,
+      "visited_nodes": 118303,
+      "largest_unsupported_singleton": 5048,
+      "minimum_margin": "8180710477644523027548885650205186237965921430914992085983990517047/19980313096950955270724234490251651326400045643945158717326252572672000000",
+      "partition_sha256": "cf7416da5fff3c51216757ea034fe629fa7538f1177adde026050392e88d5ab5",
+      "elapsed_seconds": 7.385,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        3,
+        3600,
+        1300
+      ],
+      "source_edge": [
+        2,
+        3,
+        3600,
+        1300
+      ],
+      "directions": [
+        49,
+        22,
+        33
+      ],
+      "requested_log_rate": "11195743550835982670215108046597001635279180144398691615052863239157220109/1130442106957464230274132378451339400113938396032561437275585959391000000",
+      "finite_interval_start": 5825,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          49,
+          22,
+          33
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3936,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1962,
+        "positive_terms": 306,
+        "largest_positive_t": 1247,
+        "ell_lower": "1239130372521/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          3,
+          3600,
+          1300
+        ],
+        "source_edge": [
+          2,
+          3,
+          3600,
+          1300
+        ],
+        "requested_log_rate": "11195743550835982670215108046597001635279180144398691615052863239157220109/1130442106957464230274132378451339400113938396032561437275585959391000000",
+        "strict_rate_margin": "1297205253128943784229674235850739524691636470436630335508100304074494669711/141305263369683028784266547306417425014242299504070179659448244923875000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 72147,
+      "visited_nodes": 144301,
+      "largest_unsupported_singleton": 5824,
+      "minimum_margin": "19433821690406570606015744895529742187898358884361199979080884143880444276451971/17558722036492043300160267378662188052795019326631979666693152832773275145732096000000",
+      "partition_sha256": "fbe1af285dbe624f98e21227efad12b1d5cefb01fb9418972a22515b6a4a613b",
+      "elapsed_seconds": 9.229,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        3,
+        4500,
+        900
+      ],
+      "source_edge": [
+        2,
+        3,
+        4500,
+        900
+      ],
+      "directions": [
+        50,
+        18,
+        25
+      ],
+      "requested_log_rate": "99031257271332295092766633833865472851433798109778552359549829037/10290701744116696389194188613199592522817117455645758107838000000",
+      "finite_interval_start": 6083,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          50,
+          18,
+          25
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3933,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1935,
+        "positive_terms": 327,
+        "largest_positive_t": 1208,
+        "ell_lower": "9639601360189/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          3,
+          4500,
+          900
+        ],
+        "source_edge": [
+          2,
+          3,
+          4500,
+          900
+        ],
+        "requested_log_rate": "99031257271332295092766633833865472851433798109778552359549829037/10290701744116696389194188613199592522817117455645758107838000000",
+        "strict_rate_margin": "83502629277163024427405821793767415427320666878236187056715352530691/5145350872058348194597094306599796261408558727822879053919000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 53200,
+      "visited_nodes": 106407,
+      "largest_unsupported_singleton": 6082,
+      "minimum_margin": "10989148802402752466217939908361693615194812883747121839493157251617387/29447759631783111684862017678552234495824060635966298521059448703680512000000",
+      "partition_sha256": "41ac70c9ec10617502293fd2c75410d265caf7741523759f8d9c2826184b08ef",
+      "elapsed_seconds": 6.193,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        3,
+        5000,
+        500
+      ],
+      "source_edge": [
+        2,
+        3,
+        5000,
+        500
+      ],
+      "directions": [
+        49,
+        16,
+        20
+      ],
+      "requested_log_rate": "23227916254221845996448859093560240610629198561209494601845597876663/2985599114320808476684797847005180308845772749302032639251774500000",
+      "finite_interval_start": 14192,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          49,
+          16,
+          20
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3937,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1883,
+        "positive_terms": 272,
+        "largest_positive_t": 1189,
+        "ell_lower": "1945699610107/250000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          3,
+          5000,
+          500
+        ],
+        "source_edge": [
+          2,
+          3,
+          5000,
+          500
+        ],
+        "requested_log_rate": "23227916254221845996448859093560240610629198561209494601845597876663/2985599114320808476684797847005180308845772749302032639251774500000",
+        "strict_rate_margin": "4199938228680148180833994924064423746308482419433424226732719384269743/1492799557160404238342398923502590154422886374651016319625887250000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 60644,
+      "visited_nodes": 121294,
+      "largest_unsupported_singleton": 14191,
+      "minimum_margin": "8369683850949840659125715634679550906242415385048340024519111192709697587/5867347069560491131639386802444074547162733596582489697762498288352755712000000",
+      "partition_sha256": "317781cabcec0bebda6164a280302d4aca3932744c29decd58937485f07aeddb",
+      "elapsed_seconds": 6.819,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m).",
+      "reused_source_edge": [
+        2,
+        3,
+        5000,
+        500
+      ]
+    },
+    {
+      "edge": [
+        2,
+        5,
+        900,
+        3900
+      ],
+      "source_edge": [
+        2,
+        5,
+        900,
+        3900
+      ],
+      "directions": [
+        49,
+        10,
+        30
+      ],
+      "requested_log_rate": "488767952900920393335267758578097212000279834889522452801068433/110978116453442729492394639703971307590037721167176352738875000",
+      "finite_interval_start": 4996,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          49,
+          10,
+          30
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3986,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1976,
+        "positive_terms": 305,
+        "largest_positive_t": 1245,
+        "ell_lower": "442019827443/100000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          900,
+          3900
+        ],
+        "source_edge": [
+          2,
+          5,
+          900,
+          3900
+        ],
+        "requested_log_rate": "488767952900920393335267758578097212000279834889522452801068433/110978116453442729492394639703971307590037721167176352738875000",
+        "strict_rate_margin": "1421860756863000799875438119982662261948529657791957704646277103573/88782493162754183593915711763177046072030176933741082191100000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 44875,
+      "visited_nodes": 89757,
+      "largest_unsupported_singleton": 4995,
+      "minimum_margin": "1178453395139954827289578991729997588860658859689735626402771927588161/214282788103573806387436116988930710638958928261554239799753531457536000000",
+      "partition_sha256": "30da7e313d086661a6f65dfd0f4c583529d26fee34e6e4db7902f449de4dcb0d",
+      "elapsed_seconds": 4.867,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        5,
+        1200,
+        3600
+      ],
+      "source_edge": [
+        2,
+        5,
+        1200,
+        3600
+      ],
+      "directions": [
+        46,
+        10,
+        31
+      ],
+      "requested_log_rate": "45413030754293421616806416249086745374049353462765668463564442412187/9819821549340032471221203268734901984817092265613800290323438000000",
+      "finite_interval_start": 13737,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          46,
+          10,
+          31
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3933,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1977,
+        "positive_terms": 276,
+        "largest_positive_t": 1217,
+        "ell_lower": "4626761357179/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          1200,
+          3600
+        ],
+        "source_edge": [
+          2,
+          5,
+          1200,
+          3600
+        ],
+        "requested_log_rate": "45413030754293421616806416249086745374049353462765668463564442412187/9819821549340032471221203268734901984817092265613800290323438000000",
+        "strict_rate_margin": "10470062293328765748463723043290395794258600081051060582145904783130701/4909910774670016235610601634367450992408546132806900145161719000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 55753,
+      "visited_nodes": 111512,
+      "largest_unsupported_singleton": 13736,
+      "minimum_margin": "9265129827109096734292593058934819490824207707460545138894784933320921507/32517015930656570792159578380668392976239478921742850950463189743285829632000000",
+      "partition_sha256": "b76aacd97240b70980bfeffcfbaabb1c957e0828c02a33e7ce1a1a91111ab433",
+      "elapsed_seconds": 6.484,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m).",
+      "reused_source_edge": [
+        5,
+        11,
+        500,
+        3100
+      ]
+    },
+    {
+      "edge": [
+        2,
+        5,
+        1400,
+        3300
+      ],
+      "source_edge": [
+        2,
+        5,
+        1400,
+        3300
+      ],
+      "directions": [
+        48,
+        11,
+        35
+      ],
+      "requested_log_rate": "284949684024568902958521761770619731531581946934055853278323/68699435807110837833577326126264627062087615607157630125000",
+      "finite_interval_start": 12643,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          48,
+          11,
+          35
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 4000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1957,
+        "positive_terms": 283,
+        "largest_positive_t": 1221,
+        "ell_lower": "4154687270943/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          1400,
+          3300
+        ],
+        "source_edge": [
+          2,
+          5,
+          1400,
+          3300
+        ],
+        "requested_log_rate": "284949684024568902958521761770619731531581946934055853278323/68699435807110837833577326126264627062087615607157630125000",
+        "strict_rate_margin": "3799899553601907470254829790989965693108100585631160023461231663/549595486456886702668618609010117016496700924857261041000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 51919,
+      "visited_nodes": 103845,
+      "largest_unsupported_singleton": 12642,
+      "minimum_margin": "113080956259044976429071434235939836963444029072721609464736807597/48058195568610714225414182579807640081864205035840956248696553472000000",
+      "partition_sha256": "69bbe5ea9b0b7b95419d83686120d8d2ccf8dc8eee2ca1ff0ea0c88c44c13ea3",
+      "elapsed_seconds": 5.862,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        5,
+        1800,
+        3000
+      ],
+      "source_edge": [
+        2,
+        5,
+        1800,
+        3000
+      ],
+      "directions": [
+        50,
+        12,
+        41
+      ],
+      "requested_log_rate": "279579434954970741469004810707145658715000285710400474054072909/47636866139133112444301654519548444688537550407600900466000000",
+      "finite_interval_start": 4708,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          50,
+          12,
+          41
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3950,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1984,
+        "positive_terms": 290,
+        "largest_positive_t": 1235,
+        "ell_lower": "5870789868803/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          1800,
+          3000
+        ],
+        "source_edge": [
+          2,
+          5,
+          1800,
+          3000
+        ],
+        "requested_log_rate": "279579434954970741469004810707145658715000285710400474054072909/47636866139133112444301654519548444688537550407600900466000000",
+        "strict_rate_margin": "43298078088308441014973137314993438410891022488907783349946281099/23818433069566556222150827259774222344268775203800450233000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 82721,
+      "visited_nodes": 165451,
+      "largest_unsupported_singleton": 4707,
+      "minimum_margin": "1260534065382591736516085820159621591304725883821889343182767645317197/1311080185022752586471218811946307095867281104980473926473833169027072000000",
+      "partition_sha256": "7ac62e2b41b7bc9d8bb6186e035437ae03356fd5b814cf65fdba9bc870664762",
+      "elapsed_seconds": 10.414,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        5,
+        2000,
+        2900
+      ],
+      "source_edge": [
+        2,
+        5,
+        2000,
+        2900
+      ],
+      "directions": [
+        50,
+        12,
+        43
+      ],
+      "requested_log_rate": "8804447248740069380499224410375996947784347971156988141085084728587513/1187212530535582974319807715258454133707592172529293298174656862000000",
+      "finite_interval_start": 5719,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          50,
+          12,
+          43
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3969,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1867,
+        "positive_terms": 289,
+        "largest_positive_t": 1259,
+        "ell_lower": "2375205813/320000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          2000,
+          2900
+        ],
+        "source_edge": [
+          2,
+          5,
+          2000,
+          2900
+        ],
+        "requested_log_rate": "8804447248740069380499224410375996947784347971156988141085084728587513/1187212530535582974319807715258454133707592172529293298174656862000000",
+        "strict_rate_margin": "1225492098867241094242597501905016242580409827320074729580077377367323/189954004885693275891169234441352661393214747604686927707945097920000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 71396,
+      "visited_nodes": 142800,
+      "largest_unsupported_singleton": 5718,
+      "minimum_margin": "3336691121871950916478321445317986937215910968901723703191341724325934853607/3226655939673484733580926129543458663700125843767307905634273757248704479232000000",
+      "partition_sha256": "099ef642efcab887ca8e30d63e9821be7c9c63767227063327a98f08a34ff7b3",
+      "elapsed_seconds": 8.706,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        5,
+        2700,
+        2500
+      ],
+      "source_edge": [
+        2,
+        5,
+        2700,
+        2500
+      ],
+      "directions": [
+        29,
+        7,
+        30
+      ],
+      "requested_log_rate": "9147975828536653286513953350703391827251352314298114680259297519649231/1290227080484324890437667982733700732531057912498242296764124019000000",
+      "finite_interval_start": 10497,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          29,
+          7,
+          30
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3986,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1818,
+        "positive_terms": 516,
+        "largest_positive_t": 2375,
+        "ell_lower": "444646548549/62500000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          2700,
+          2500
+        ],
+        "source_edge": [
+          2,
+          5,
+          2700,
+          2500
+        ],
+        "requested_log_rate": "9147975828536653286513953350703391827251352314298114680259297519649231/1290227080484324890437667982733700732531057912498242296764124019000000",
+        "strict_rate_margin": "1946528898267067422359558123981367302598386096348119769088241237663560931/80639192530270305652354248920856295783191119531140143547757751187500000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 86667,
+      "visited_nodes": 173343,
+      "largest_unsupported_singleton": 10496,
+      "minimum_margin": "41590216739652012378681920949521767648433923138755964973393310412423457/173171347346679226408392722260860541352254282451936885065182477740408832000000",
+      "partition_sha256": "720fd94b8d6e6b4729868a234fade42d4792fb5f619e62adf4070bb296a49d02",
+      "elapsed_seconds": 10.86,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        5,
+        2900,
+        2000
+      ],
+      "source_edge": [
+        2,
+        5,
+        2900,
+        2000
+      ],
+      "directions": [
+        43,
+        12,
+        50
+      ],
+      "requested_log_rate": "8804447248740069380499224410375996947784347971156988141085084728587513/1187212530535582974319807715258454133707592172529293298174656862000000",
+      "finite_interval_start": 5719,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          43,
+          12,
+          50
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3969,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1867,
+        "positive_terms": 289,
+        "largest_positive_t": 1259,
+        "ell_lower": "2375205813/320000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          2900,
+          2000
+        ],
+        "source_edge": [
+          2,
+          5,
+          2900,
+          2000
+        ],
+        "requested_log_rate": "8804447248740069380499224410375996947784347971156988141085084728587513/1187212530535582974319807715258454133707592172529293298174656862000000",
+        "strict_rate_margin": "1225492098867241094242597501905016242580409827320074729580077377367323/189954004885693275891169234441352661393214747604686927707945097920000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 71396,
+      "visited_nodes": 142800,
+      "largest_unsupported_singleton": 5718,
+      "minimum_margin": "3336691121871950916478321445317986937215910968901723703191341724325934853607/3226655939673484733580926129543458663700125843767307905634273757248704479232000000",
+      "partition_sha256": "099ef642efcab887ca8e30d63e9821be7c9c63767227063327a98f08a34ff7b3",
+      "elapsed_seconds": 8.547,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        5,
+        3000,
+        1800
+      ],
+      "source_edge": [
+        2,
+        5,
+        3000,
+        1800
+      ],
+      "directions": [
+        31,
+        9,
+        38
+      ],
+      "requested_log_rate": "254003768281753500718700215391724629456325629986292031582029/60372345522353657864857867512965818696086258239049471000000",
+      "finite_interval_start": 15235,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          31,
+          9,
+          38
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3984,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1901,
+        "positive_terms": 551,
+        "largest_positive_t": 2495,
+        "ell_lower": "2117742516729/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          3000,
+          1800
+        ],
+        "source_edge": [
+          2,
+          5,
+          3000,
+          1800
+        ],
+        "requested_log_rate": "254003768281753500718700215391724629456325629986292031582029/60372345522353657864857867512965818696086258239049471000000",
+        "strict_rate_margin": "851198806465259174972997216921966196238818712491222629261600359/30186172761176828932428933756482909348043129119524735500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 97477,
+      "visited_nodes": 194964,
+      "largest_unsupported_singleton": 15234,
+      "minimum_margin": "83279137105877243239527257087513137286242119173279340270093184481/2905239311884650827246464706853487923107831095065336625016504057856000000",
+      "partition_sha256": "eae515636de00fdc6806ea8019491c17e8d8b74d15afc94818b6591c276f1f12",
+      "elapsed_seconds": 13.218,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        5,
+        3600,
+        1200
+      ],
+      "source_edge": [
+        2,
+        5,
+        3600,
+        1200
+      ],
+      "directions": [
+        33,
+        11,
+        50
+      ],
+      "requested_log_rate": "83066308351252151429368394862158456993227479453601819415771329/15353628941282771640574711537864681319126009100584185671000000",
+      "finite_interval_start": 12666,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          33,
+          11,
+          50
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3986,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1957,
+        "positive_terms": 313,
+        "largest_positive_t": 1221,
+        "ell_lower": "2712330454139/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          3600,
+          1200
+        ],
+        "source_edge": [
+          2,
+          5,
+          3600,
+          1200
+        ],
+        "requested_log_rate": "83066308351252151429368394862158456993227479453601819415771329/15353628941282771640574711537864681319126009100584185671000000",
+        "strict_rate_margin": "110961183365118054412439993376205680019818123553241543339261942269/7676814470641385820287355768932340659563004550292092835500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 46547,
+      "visited_nodes": 93103,
+      "largest_unsupported_singleton": 12665,
+      "minimum_margin": "38777271311013251000211705350140804466758974930970906061274663030317257/25219052400999395236895135270241317082325638847915766607426146776645632000000",
+      "partition_sha256": "cc6f4f2a4cdec6d60ef1b212a4aa43fced1cec1f175f6d1c2b6dc12ef5791c9c",
+      "elapsed_seconds": 5.333,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        5,
+        4400,
+        600
+      ],
+      "source_edge": [
+        2,
+        5,
+        4400,
+        600
+      ],
+      "directions": [
+        26,
+        9,
+        50
+      ],
+      "requested_log_rate": "25517752192505976917706593901632259713882486807084152115421878037755836883/4332254260673805182641612561662777463378359104631816150808887513117000000",
+      "finite_interval_start": 10707,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          26,
+          9,
+          50
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3960,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1882,
+        "positive_terms": 270,
+        "largest_positive_t": 1189,
+        "ell_lower": "147312297787/25000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          5,
+          4400,
+          600
+        ],
+        "source_edge": [
+          2,
+          5,
+          4400,
+          600
+        ],
+        "requested_log_rate": "25517752192505976917706593901632259713882486807084152115421878037755836883/4332254260673805182641612561662777463378359104631816150808887513117000000",
+        "strict_rate_margin": "250524924729689393060305440740480711643153295840988917047987314581450497079/108306356516845129566040314041569436584458977615795403770222187827925000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 61008,
+      "visited_nodes": 122023,
+      "largest_unsupported_singleton": 10706,
+      "minimum_margin": "9168450936411291064628738457748275682972319255621362114392628730069804923996211/5358602717940842216958729713759452500350278751167737900326841411513004207374336000000",
+      "partition_sha256": "a18df3482999b4430e33a026f38b0348ee69e2614c86bc808a992ea00e19ec8d",
+      "elapsed_seconds": 6.961,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        7,
+        800,
+        3600
+      ],
+      "source_edge": [
+        2,
+        7,
+        800,
+        3600
+      ],
+      "directions": [
+        49,
+        22,
+        30
+      ],
+      "requested_log_rate": "612416720190027478798803561478959689186508842415258854888718838951303799/70329463449540657833031098905414414292552513810265935193629979951000000",
+      "finite_interval_start": 9042,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          49,
+          22,
+          30
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3977,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1981,
+        "positive_terms": 291,
+        "largest_positive_t": 1211,
+        "ell_lower": "544403113149/62500000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          7,
+          800,
+          3600
+        ],
+        "source_edge": [
+          2,
+          7,
+          800,
+          3600
+        ],
+        "requested_log_rate": "612416720190027478798803561478959689186508842415258854888718838951303799/70329463449540657833031098905414414292552513810265935193629979951000000",
+        "strict_rate_margin": "11533836152025173426299894605152858687226312920912604453115764846367038199/4395591465596291114564443681588400893284532113141620949601873746937500000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 78953,
+      "visited_nodes": 157913,
+      "largest_unsupported_singleton": 9041,
+      "minimum_margin": "20171400043839656051478934136112341614213073906316697779131915552016251119985129/82146015545154542165895784272805876964791223287361706712509925418630311003029504000000",
+      "partition_sha256": "23f875676d3d849015ba4b2b8e940e30558eba19d041cc2fcc34d8470c9fc101",
+      "elapsed_seconds": 10.239,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        7,
+        3700,
+        1200
+      ],
+      "source_edge": [
+        2,
+        7,
+        3700,
+        1200
+      ],
+      "directions": [
+        46,
+        33,
+        46
+      ],
+      "requested_log_rate": "75691522431398757378644112951244523496460688037608303846180144783/3215958147466077861820396392119063993620207815510296150217000000",
+      "finite_interval_start": 5004,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          46,
+          33,
+          46
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3895,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1984,
+        "positive_terms": 414,
+        "largest_positive_t": 1374,
+        "ell_lower": "11792465095459/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          7,
+          3700,
+          1200
+        ],
+        "source_edge": [
+          2,
+          7,
+          3700,
+          1200
+        ],
+        "requested_log_rate": "75691522431398757378644112951244523496460688037608303846180144783/3215958147466077861820396392119063993620207815510296150217000000",
+        "strict_rate_margin": "78312986751331982434130876081295424589909705318890428776002717064603/1607979073733038930910198196059531996810103907755148075108500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 47789,
+      "visited_nodes": 95587,
+      "largest_unsupported_singleton": 5003,
+      "minimum_margin": "188934104839114164107251421398651990003638329975890093090199433200668171/116330270522033323391393521502848398986363794976875690013592983275831296000000",
+      "partition_sha256": "8e4f537249f3586710596f276a57b71b17252bee36efafd6c4ff1ab79cd889ec",
+      "elapsed_seconds": 5.805,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        7,
+        3800,
+        1000
+      ],
+      "source_edge": [
+        2,
+        7,
+        3800,
+        1000
+      ],
+      "directions": [
+        25,
+        19,
+        50
+      ],
+      "requested_log_rate": "7603984160140744487997465647395298481899269670040344680840304439735514601/801860766678544174977988226038194780325699796369373290006697259149000000",
+      "finite_interval_start": 6009,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          25,
+          19,
+          50
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3964,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1955,
+        "positive_terms": 328,
+        "largest_positive_t": 1221,
+        "ell_lower": "9502795505077/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          7,
+          3800,
+          1000
+        ],
+        "source_edge": [
+          2,
+          7,
+          3800,
+          1000
+        ],
+        "requested_log_rate": "7603984160140744487997465647395298481899269670040344680840304439735514601/801860766678544174977988226038194780325699796369373290006697259149000000",
+        "strict_rate_margin": "15934729149722156961542242416687928299193788963030023422841437731938413199473/801860766678544174977988226038194780325699796369373290006697259149000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 47489,
+      "visited_nodes": 94983,
+      "largest_unsupported_singleton": 6008,
+      "minimum_margin": "9932325152951117265231441328657505292246059417061464063324496696458922438623549/8185956854735118106561607944734225806781548080081489480267326307579843967975424000000",
+      "partition_sha256": "86e996b04d8822889609e7c540c7573dd273698ece9d0997287c8146621406fc",
+      "elapsed_seconds": 5.451,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        7,
+        3900,
+        700
+      ],
+      "source_edge": [
+        2,
+        7,
+        3900,
+        700
+      ],
+      "directions": [
+        50,
+        34,
+        43
+      ],
+      "requested_log_rate": "682979868048065710847327102169586388045959520184720311393/39675126092740777473753201871358793399889614647044500000",
+      "finite_interval_start": 8883,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          50,
+          34,
+          43
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 4000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1985,
+        "positive_terms": 312,
+        "largest_positive_t": 1396,
+        "ell_lower": "8613582431731/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          7,
+          3900,
+          700
+        ],
+        "source_edge": [
+          2,
+          7,
+          3900,
+          700
+        ],
+        "requested_log_rate": "682979868048065710847327102169586388045959520184720311393/39675126092740777473753201871358793399889614647044500000",
+        "strict_rate_margin": "510070130222598470662201035305642943262919892203847771338059/39675126092740777473753201871358793399889614647044500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 65874,
+      "visited_nodes": 131755,
+      "largest_unsupported_singleton": 8882,
+      "minimum_margin": "1358479028361397268038886781653236493979323816568932086961527/529847975586977852325333071595962989533980663107822553137152000000",
+      "partition_sha256": "fd263a3ca64c3975c09de14dd315f0e064900b8d06dc6701b8e6a26375bcf181",
+      "elapsed_seconds": 8.375,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        7,
+        4400,
+        600
+      ],
+      "source_edge": [
+        2,
+        7,
+        4400,
+        600
+      ],
+      "directions": [
+        17,
+        14,
+        42
+      ],
+      "requested_log_rate": "249127074533555893051946629536565405369125216643289483230835627117/34727159679889672741605817629782550429863180318362194601758000000",
+      "finite_interval_start": 16321,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          17,
+          14,
+          42
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3976,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1972,
+        "positive_terms": 290,
+        "largest_positive_t": 1167,
+        "ell_lower": "1435783853019/200000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          7,
+          4400,
+          600
+        ],
+        "source_edge": [
+          2,
+          7,
+          4400,
+          600
+        ],
+        "requested_log_rate": "249127074533555893051946629536565405369125216643289483230835627117/34727159679889672741605817629782550429863180318362194601758000000",
+        "strict_rate_margin": "17640111443439183690226059240973634748294214920671097364829043803701/3472715967988967274160581762978255042986318031836219460175800000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 53266,
+      "visited_nodes": 106538,
+      "largest_unsupported_singleton": 16320,
+      "minimum_margin": "9378906340798891175481450212512600254801616680756756195837441805669253297/8359605723521835288277944340033256136851563288639337776478842349967900672000000",
+      "partition_sha256": "60ba37d3ddc2390d1c31ac90fa3af89b60a246ace553376d5edf4494650addc8",
+      "elapsed_seconds": 6.504,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        7,
+        4600,
+        400
+      ],
+      "source_edge": [
+        2,
+        7,
+        4600,
+        400
+      ],
+      "directions": [
+        8,
+        7,
+        22
+      ],
+      "requested_log_rate": "11377729904667319738048448613100203528312569057442781851823673507727607/3276652962651018426220219234452645799495191068160486089949353643000000",
+      "finite_interval_start": 32351,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          8,
+          7,
+          22
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3983,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1946,
+        "positive_terms": 446,
+        "largest_positive_t": 1960,
+        "ell_lower": "870793381657/250000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          7,
+          4600,
+          400
+        ],
+        "source_edge": [
+          2,
+          7,
+          4600,
+          400
+        ],
+        "requested_log_rate": "11377729904667319738048448613100203528312569057442781851823673507727607/3276652962651018426220219234452645799495191068160486089949353643000000",
+        "strict_rate_margin": "8855237696478120411210710481884275095111549392116201695988761717460576451/819163240662754606555054808613161449873797767040121522487338410750000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 78838,
+      "visited_nodes": 157685,
+      "largest_unsupported_singleton": 32350,
+      "minimum_margin": "216853796162452421015636853958134226416128237733352591026795593133553/774269218470930545868685657236150427459486077630974616846137114492928000000",
+      "partition_sha256": "0d28cfe96b0700923012e932bfb9651c15281a94d06833b844a97376c7eb0d86",
+      "elapsed_seconds": 10.221,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        11,
+        1600,
+        1700
+      ],
+      "source_edge": [
+        2,
+        11,
+        1600,
+        1700
+      ],
+      "directions": [
+        25,
+        24,
+        18
+      ],
+      "requested_log_rate": "1567615467279447069224013000955098445855016709503133012924377/138247077013819086677402132504700490987877211879255498000000",
+      "finite_interval_start": 13843,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          25,
+          24,
+          18
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3980,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1970,
+        "positive_terms": 546,
+        "largest_positive_t": 2344,
+        "ell_lower": "11364928660501/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          11,
+          1600,
+          1700
+        ],
+        "source_edge": [
+          2,
+          11,
+          1600,
+          1700
+        ],
+        "requested_log_rate": "1567615467279447069224013000955098445855016709503133012924377/138247077013819086677402132504700490987877211879255498000000",
+        "strict_rate_margin": "1776350252697235297471015759034108637017837164618369454951342249/69123538506909543338701066252350245493938605939627749000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 84797,
+      "visited_nodes": 169604,
+      "largest_unsupported_singleton": 13842,
+      "minimum_margin": "9560650042444459244808809675649313982268181887105525994425148031/11346510046325005407919663706703571798566502534441165221481414656000000",
+      "partition_sha256": "1ed537165c82705d9cbb34d5323ef144f03a94a2151c003553cf23a35fda8615",
+      "elapsed_seconds": 11.217,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        11,
+        2100,
+        1400
+      ],
+      "source_edge": [
+        2,
+        11,
+        2100,
+        1400
+      ],
+      "directions": [
+        49,
+        50,
+        43
+      ],
+      "requested_log_rate": "25376757456146984479255840565999914086815741588078824665249694949/912164749131899773406896446119159177996786569253809695051000000",
+      "finite_interval_start": 9559,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          49,
+          50,
+          43
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3948,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1971,
+        "positive_terms": 325,
+        "largest_positive_t": 1419,
+        "ell_lower": "6959459351597/250000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          11,
+          2100,
+          1400
+        ],
+        "source_edge": [
+          2,
+          11,
+          2100,
+          1400
+        ],
+        "requested_log_rate": "25376757456146984479255840565999914086815741588078824665249694949/912164749131899773406896446119159177996786569253809695051000000",
+        "strict_rate_margin": "3984129506385245849190623056588658196412369589010390129241022596447/228041187282974943351724111529789794499196642313452423762750000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 67157,
+      "visited_nodes": 134323,
+      "largest_unsupported_singleton": 9558,
+      "minimum_margin": "40968847996050930980178843292138491998018026103482245250269739157/30607170047543389977597115132346990535269071156540248153529516032000000",
+      "partition_sha256": "68f6172aa9e3702b850af5c3359f8575e3f4691c95c26e840a8bf4f1c9229f74",
+      "elapsed_seconds": 8.498,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        11,
+        2800,
+        800
+      ],
+      "source_edge": [
+        2,
+        11,
+        2800,
+        800
+      ],
+      "directions": [
+        38,
+        45,
+        47
+      ],
+      "requested_log_rate": "6292001697305537344187512022700782233103582482348864062296083787/270485461425715316716983941799943803620219802506126958400500000",
+      "finite_interval_start": 7138,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          38,
+          45,
+          47
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3948,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1907,
+        "positive_terms": 312,
+        "largest_positive_t": 1299,
+        "ell_lower": "11638758466219/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          11,
+          2800,
+          800
+        ],
+        "source_edge": [
+          2,
+          11,
+          2800,
+          800
+        ],
+        "requested_log_rate": "6292001697305537344187512022700782233103582482348864062296083787/270485461425715316716983941799943803620219802506126958400500000",
+        "strict_rate_margin": "4228211009856433008287643241551178822942254034858519110898208045419/270485461425715316716983941799943803620219802506126958400500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 67110,
+      "visited_nodes": 134225,
+      "largest_unsupported_singleton": 7137,
+      "minimum_margin": "3012389477186573942499275727131690968645712219340213570865646763599311/490066941265390941740894495688100413281535452088491415820449859239936000000",
+      "partition_sha256": "db115605034edaf5fb6b2c07cc86dbc4b535cf710b1d85b3b8e0defb76207847",
+      "elapsed_seconds": 8.305,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        11,
+        3100,
+        500
+      ],
+      "source_edge": [
+        2,
+        11,
+        3100,
+        500
+      ],
+      "directions": [
+        27,
+        35,
+        39
+      ],
+      "requested_log_rate": "3908983867088465627582789553873751233132156216782103516977911921/263323022584957291499396786527229472237554815848609000579000000",
+      "finite_interval_start": 9130,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          27,
+          35,
+          39
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3984,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1978,
+        "positive_terms": 288,
+        "largest_positive_t": 1211,
+        "ell_lower": "1856487227497/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          11,
+          3100,
+          500
+        ],
+        "source_edge": [
+          2,
+          11,
+          3100,
+          500
+        ],
+        "requested_log_rate": "3908983867088465627582789553873751233132156216782103516977911921/263323022584957291499396786527229472237554815848609000579000000",
+        "strict_rate_margin": "232844748819072786020892033628501669485145939581579146668787595763/32915377823119661437424598315903684029694351981076125072375000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 64286,
+      "visited_nodes": 128580,
+      "largest_unsupported_singleton": 9129,
+      "minimum_margin": "12882276045247201753664170989598064786587316384637079411636488448673/138198471336307871064204073415020828540076594026270150463635008258048000000",
+      "partition_sha256": "4b36fa85873407bb7d4b96edf1622acd098a9a3361eea216fde7d8fbc6671cce",
+      "elapsed_seconds": 7.385,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m).",
+      "reused_source_edge": [
+        2,
+        11,
+        3100,
+        500
+      ]
+    },
+    {
+      "edge": [
+        2,
+        11,
+        3300,
+        200
+      ],
+      "source_edge": [
+        2,
+        11,
+        3300,
+        200
+      ],
+      "directions": [
+        30,
+        42,
+        49
+      ],
+      "requested_log_rate": "1742224960842999930703142632341870411075052926648857201677/116596565799671691029449417103034477767415699466698000000",
+      "finite_interval_start": 7134,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          30,
+          42,
+          49
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3998,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1983,
+        "positive_terms": 314,
+        "largest_positive_t": 1330,
+        "ell_lower": "14953854407537/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          11,
+          3300,
+          200
+        ],
+        "source_edge": [
+          2,
+          11,
+          3300,
+          200
+        ],
+        "requested_log_rate": "1742224960842999930703142632341870411075052926648857201677/116596565799671691029449417103034477767415699466698000000",
+        "strict_rate_margin": "671554272049210592577799235368612172244683191657232987351413/58298282899835845514724708551517238883707849733349000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 70681,
+      "visited_nodes": 141367,
+      "largest_unsupported_singleton": 7133,
+      "minimum_margin": "4558254421954513845201221988196501080773308590483659542657766393/24901869938730738019922644091346231540571026521146023906291744768000000",
+      "partition_sha256": "4e90a2c3d3778d87135b158ad952f91099bb7a8b91698b1ef14941551cb6d284",
+      "elapsed_seconds": 9.037,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        11,
+        3500,
+        100
+      ],
+      "source_edge": [
+        2,
+        11,
+        3500,
+        100
+      ],
+      "directions": [
+        15,
+        22,
+        27
+      ],
+      "requested_log_rate": "1840793696092253854541260073585261013479734575054519301262185088951/238483790391606581269577785800065865591906323304596539731549000000",
+      "finite_interval_start": 18531,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          15,
+          22,
+          27
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3986,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1937,
+        "positive_terms": 524,
+        "largest_positive_t": 2303,
+        "ell_lower": "7742004086279/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          11,
+          3500,
+          100
+        ],
+        "source_edge": [
+          2,
+          11,
+          3500,
+          100
+        ],
+        "requested_log_rate": "1840793696092253854541260073585261013479734575054519301262185088951/238483790391606581269577785800065865591906323304596539731549000000",
+        "strict_rate_margin": "5548783630868815271560447747893899240149364999045996122911046743316171/238483790391606581269577785800065865591906323304596539731549000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 82993,
+      "visited_nodes": 165993,
+      "largest_unsupported_singleton": 18530,
+      "minimum_margin": "7763281200128802234428363045639670907747664629893928868963259502035341/25803055618082769188128150519801704638301090153875625062600699560329216000000",
+      "partition_sha256": "34b3737536c9cb9881991735e771770fb1b9ef08a0b106a3212b9ab3505a0af8",
+      "elapsed_seconds": 10.987,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        13,
+        1500,
+        600
+      ],
+      "source_edge": [
+        2,
+        13,
+        1500,
+        600
+      ],
+      "directions": [
+        30,
+        19,
+        47
+      ],
+      "requested_log_rate": "83755396625724006159753861530637554630196823096196090089261061797/13164138051240145245603853959445140535336320153775711182734250000",
+      "finite_interval_start": 9513,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          30,
+          19,
+          47
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3986,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1879,
+        "positive_terms": 285,
+        "largest_positive_t": 1247,
+        "ell_lower": "6362722896291/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          13,
+          1500,
+          600
+        ],
+        "source_edge": [
+          2,
+          13,
+          1500,
+          600
+        ],
+        "requested_log_rate": "83755396625724006159753861530637554630196823096196090089261061797/13164138051240145245603853959445140535336320153775711182734250000",
+        "strict_rate_margin": "17463851349005446904822677740072048495256409606949866216490062254667/52656552204960580982415415837780562141345280615102844730937000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 83668,
+      "visited_nodes": 167345,
+      "largest_unsupported_singleton": 9512,
+      "minimum_margin": "125323874755720080712502065368259377307601125217276986631477556964522189019/165343117634428804936297963839158317698339851044014524615922457989447942144000000",
+      "partition_sha256": "e77e0ba64972e50337c0fc3779532b925856f2e62230b3a31b25b16def1261b7",
+      "elapsed_seconds": 10.614,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        13,
+        1700,
+        200
+      ],
+      "source_edge": [
+        2,
+        13,
+        1700,
+        200
+      ],
+      "directions": [
+        28,
+        19,
+        48
+      ],
+      "requested_log_rate": "18565556071983193770585859945287408362024839671012372051391/3228723088714917369749853152405678610270282346704234000000",
+      "finite_interval_start": 9670,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          28,
+          19,
+          48
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3989,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1598,
+        "positive_terms": 245,
+        "largest_positive_t": 1234,
+        "ell_lower": "180077050971/31250000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          13,
+          1700,
+          200
+        ],
+        "source_edge": [
+          2,
+          13,
+          1700,
+          200
+        ],
+        "requested_log_rate": "18565556071983193770585859945287408362024839671012372051391/3228723088714917369749853152405678610270282346704234000000",
+        "strict_rate_margin": "19457890129467574213897443051420422784528726795050207399101/1576524945661580746948170484573085258921036302101676757812500"
+      },
+      "terms": 4000,
+      "certified_intervals": 46013,
+      "visited_nodes": 92035,
+      "largest_unsupported_singleton": 9669,
+      "minimum_margin": "3003937670872454890891725874229042145565133242710188969695134557/1805343920867038732048788036060733303757899060546465297367826432000000",
+      "partition_sha256": "7b65820a008d43d2f707d0ba1f7461eefefc2b52882daececaeca7fdaf2c5615",
+      "elapsed_seconds": 4.504,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        2,
+        13,
+        1900,
+        100
+      ],
+      "source_edge": [
+        2,
+        13,
+        1900,
+        100
+      ],
+      "directions": [
+        27,
+        19,
+        50
+      ],
+      "requested_log_rate": "38030184089126810263931841259193459553644078653678997613655990862737/5079337670176962863748787672494435501131882328327763360207263000000",
+      "finite_interval_start": 9495,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          27,
+          19,
+          50
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 1980,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1917,
+        "positive_terms": 283,
+        "largest_positive_t": 1247,
+        "ell_lower": "1498410060641/200000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          2,
+          13,
+          1900,
+          100
+        ],
+        "source_edge": [
+          2,
+          13,
+          1900,
+          100
+        ],
+        "requested_log_rate": "38030184089126810263931841259193459553644078653678997613655990862737/5079337670176962863748787672494435501131882328327763360207263000000",
+        "strict_rate_margin": "4893848560616529084657705093928436257271292992280645960864705611235583/1015867534035392572749757534498887100226376465665552672041452600000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 63058,
+      "visited_nodes": 126123,
+      "largest_unsupported_singleton": 9494,
+      "minimum_margin": "4333726057052455911622454660172345230003725445126221010314651515077167343/7852419064317107472368069636956887249318602200231382951064539289215827968000000",
+      "partition_sha256": "c0f4ee8da5ec910a31c26d4bd96dec4495f2ddf848fccc9d1f5823249d8b145a",
+      "elapsed_seconds": 7.506,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        5,
+        3000,
+        2800
+      ],
+      "source_edge": [
+        3,
+        5,
+        3000,
+        2800
+      ],
+      "directions": [
+        50,
+        29,
+        35
+      ],
+      "requested_log_rate": "18140314344794252830429213974788580198209204536253315668541/1344133817975412080722834306428342681030393064471959000000",
+      "finite_interval_start": 8134,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          50,
+          29,
+          35
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3890,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1964,
+        "positive_terms": 298,
+        "largest_positive_t": 1253,
+        "ell_lower": "1688019432049/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          5,
+          3000,
+          2800
+        ],
+        "source_edge": [
+          3,
+          5,
+          3000,
+          2800
+        ],
+        "requested_log_rate": "18140314344794252830429213974788580198209204536253315668541/1344133817975412080722834306428342681030393064471959000000",
+        "strict_rate_margin": "1384710917427443744840360474131317373119499765520412698788991/168016727246926510090354288303542835128799133058994875000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 71293,
+      "visited_nodes": 142593,
+      "largest_unsupported_singleton": 8133,
+      "minimum_margin": "350317038696986019120332091148257236934655078223667469877779/1629296990438897866837166871786201168500369006295341705723904000000",
+      "partition_sha256": "5b37034b83f07318250ae3cf9eee816b24660fb6416e652f1fcf4b16f62ad400",
+      "elapsed_seconds": 8.939,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        2800,
+        4600
+      ],
+      "source_edge": [
+        3,
+        11,
+        2800,
+        4600
+      ],
+      "directions": [
+        50,
+        17,
+        41
+      ],
+      "requested_log_rate": "850499538677069059913434629879961692639404002113383817448708955219/83056360666062455793534674055116484493557299394017891225031000000",
+      "finite_interval_start": 11044,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          50,
+          17,
+          41
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3968,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1963,
+        "positive_terms": 294,
+        "largest_positive_t": 1295,
+        "ell_lower": "1280887764819/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          2800,
+          4600
+        ],
+        "source_edge": [
+          3,
+          11,
+          2800,
+          4600
+        ],
+        "requested_log_rate": "850499538677069059913434629879961692639404002113383817448708955219/83056360666062455793534674055116484493557299394017891225031000000",
+        "strict_rate_margin": "73433832919816582055296866836653053708182162732582689837211931609389/10382045083257806974191834256889560561694662424252236403128875000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 69512,
+      "visited_nodes": 139032,
+      "largest_unsupported_singleton": 11043,
+      "minimum_margin": "860631556991806883396789198322782163232114629299314768985461967245331/2001000666406270779326204656841241497671012199565314038207676160147456000000",
+      "partition_sha256": "3924fdd45527fe4ced40863b3a71ff95d12a62e2f368f21e852e3e33db878642",
+      "elapsed_seconds": 8.815,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        3600,
+        3700
+      ],
+      "source_edge": [
+        3,
+        11,
+        3600,
+        3700
+      ],
+      "directions": [
+        37,
+        16,
+        44
+      ],
+      "requested_log_rate": "364158405168701912344944550904486388784574512153659807374659855596543311/37941047029256761823245279322528035978016994468021282721957311939000000",
+      "finite_interval_start": 15365,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          37,
+          16,
+          44
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3989,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1981,
+        "positive_terms": 294,
+        "largest_positive_t": 1260,
+        "ell_lower": "1199923417097/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          3600,
+          3700
+        ],
+        "source_edge": [
+          3,
+          11,
+          3600,
+          3700
+        ],
+        "requested_log_rate": "364158405168701912344944550904486388784574512153659807374659855596543311/37941047029256761823245279322528035978016994468021282721957311939000000",
+        "strict_rate_margin": "6550153496015136023462627601279505254494356798367334019661144441720946083/4742630878657095227905659915316004497252124308502660340244663992375000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 71816,
+      "visited_nodes": 143641,
+      "largest_unsupported_singleton": 15364,
+      "minimum_margin": "1287832222721843356610139358713928317832036151353415642115193933246724230589/5879130924825126880088575859402633950986176429562331739476421487202312126464000000",
+      "partition_sha256": "42da7b41762cf1b2950673fbabaa6b6266ab724a7997c2603afedecb9122442d",
+      "elapsed_seconds": 9.224,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        3900,
+        3200
+      ],
+      "source_edge": [
+        3,
+        11,
+        3900,
+        3200
+      ],
+      "directions": [
+        34,
+        17,
+        48
+      ],
+      "requested_log_rate": "10981869863710552227209609799321411636679437306802967600345581904920495499/1415113535457769673456219298671805706207965063551622945084320877126000000",
+      "finite_interval_start": 5941,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          34,
+          17,
+          48
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3993,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1940,
+        "positive_terms": 335,
+        "largest_positive_t": 1286,
+        "ell_lower": "972359716137/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          3900,
+          3200
+        ],
+        "source_edge": [
+          3,
+          11,
+          3900,
+          3200
+        ],
+        "requested_log_rate": "10981869863710552227209609799321411636679437306802967600345581904920495499/1415113535457769673456219298671805706207965063551622945084320877126000000",
+        "strict_rate_margin": "1632831337762187815907678019280881514332032266549150942324224748299139503631/88444595966110604591013706166987856637997816471976434067770054820375000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 56982,
+      "visited_nodes": 113972,
+      "largest_unsupported_singleton": 5940,
+      "minimum_margin": "63965151692223913971584124554220419838169939041032826221666194483648013564567/103561144688095957929014284562362703646730535793217889719628514099333999624192000000",
+      "partition_sha256": "e4ca37b0303971efb3a6b770848afe2b6e46b3503bc0c272eb646561dc05ff8b",
+      "elapsed_seconds": 6.939,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        4100,
+        2900
+      ],
+      "source_edge": [
+        3,
+        11,
+        4100,
+        2900
+      ],
+      "directions": [
+        29,
+        16,
+        46
+      ],
+      "requested_log_rate": "3212833920586958895332335496076400957867473561195956563/608042034063354868054894152674972340829720660062000000",
+      "finite_interval_start": 9636,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          29,
+          16,
+          46
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3983,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1978,
+        "positive_terms": 276,
+        "largest_positive_t": 1182,
+        "ell_lower": "330649704843/62500000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          4100,
+          2900
+        ],
+        "source_edge": [
+          3,
+          11,
+          4100,
+          2900
+        ],
+        "requested_log_rate": "3212833920586958895332335496076400957867473561195956563/608042034063354868054894152674972340829720660062000000",
+        "strict_rate_margin": "123399529250354063223496299405561770909418198446076446383/19001313564479839626715442271092885650928770626937500000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 54353,
+      "visited_nodes": 108713,
+      "largest_unsupported_singleton": 9635,
+      "minimum_margin": "101010030059290326122954203374357019381273733432025989672377/30792480799718151770686533662241418560365856291138413002752000000",
+      "partition_sha256": "b27f216b20558df21e38256a4386d3c1151004c582c55228f86b46df8a2a23c3",
+      "elapsed_seconds": 5.95,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m).",
+      "reused_source_edge": [
+        3,
+        11,
+        4100,
+        2900
+      ]
+    },
+    {
+      "edge": [
+        3,
+        11,
+        4300,
+        2800
+      ],
+      "source_edge": [
+        3,
+        11,
+        4300,
+        2800
+      ],
+      "directions": [
+        23,
+        13,
+        39
+      ],
+      "requested_log_rate": "1483956491326596440426394988235194842753845929027340536397494457/252936316275703591059065429959631493727495802225283956793000000",
+      "finite_interval_start": 11870,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          23,
+          13,
+          39
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3989,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1920,
+        "positive_terms": 291,
+        "largest_positive_t": 1124,
+        "ell_lower": "2937349729287/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          4300,
+          2800
+        ],
+        "source_edge": [
+          3,
+          11,
+          4300,
+          2800
+        ],
+        "requested_log_rate": "1483956491326596440426394988235194842753845929027340536397494457/252936316275703591059065429959631493727495802225283956793000000",
+        "strict_rate_margin": "984174475990735039602100201546406061816268701196454473875526196591/126468158137851795529532714979815746863747901112641978396500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 49464,
+      "visited_nodes": 98938,
+      "largest_unsupported_singleton": 11869,
+      "minimum_margin": "4563405077394844246129216039821896252734522568889718767255716055076429/10323572084508165268772191842990797456335431244478821245184588124258304000000",
+      "partition_sha256": "e92e0366318b748a333119d291f0da6709e2187308ed415c50d6b764c73b00eb",
+      "elapsed_seconds": 5.633,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        4400,
+        2600
+      ],
+      "source_edge": [
+        3,
+        11,
+        4400,
+        2600
+      ],
+      "directions": [
+        24,
+        14,
+        43
+      ],
+      "requested_log_rate": "1047203141835230607551273279389067309219723339278769404539135847/159710487445724960808651878207868834680571906729206887278000000",
+      "finite_interval_start": 11296,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          24,
+          14,
+          43
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3921,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1925,
+        "positive_terms": 267,
+        "largest_positive_t": 1133,
+        "ell_lower": "1311851344369/200000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          4400,
+          2600
+        ],
+        "source_edge": [
+          3,
+          11,
+          4400,
+          2600
+        ],
+        "requested_log_rate": "1047203141835230607551273279389067309219723339278769404539135847/159710487445724960808651878207868834680571906729206887278000000",
+        "strict_rate_margin": "37894649228232624197573957848061683090499336364925902475486818791/15971048744572496080865187820786883468057190672920688727800000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 58584,
+      "visited_nodes": 117179,
+      "largest_unsupported_singleton": 11295,
+      "minimum_margin": "900000071962188879646579874721434290569903666210074717680890230069137/8672445030950544071308119977273437055694767598561363417327120534208512000000",
+      "partition_sha256": "af43db45dcc4e804077ce1159ed9acd9815ae338f0f184168d2bad8bc5e04764",
+      "elapsed_seconds": 6.756,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        4600,
+        2400
+      ],
+      "source_edge": [
+        3,
+        11,
+        4600,
+        2400
+      ],
+      "directions": [
+        3,
+        2,
+        6
+      ],
+      "requested_log_rate": "19665140566896092975339414303515518896472283635404860419031416209/15667323970733637011659372103038916110992152080465307775666000000",
+      "finite_interval_start": 80867,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          3,
+          2,
+          6
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 4001,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1818,
+        "positive_terms": 383,
+        "largest_positive_t": 1330,
+        "ell_lower": "251878026163/200000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          4600,
+          2400
+        ],
+        "source_edge": [
+          3,
+          11,
+          4600,
+          2400
+        ],
+        "requested_log_rate": "19665140566896092975339414303515518896472283635404860419031416209/15667323970733637011659372103038916110992152080465307775666000000",
+        "strict_rate_margin": "6613261812712737229500800955142332358593383265071794663382420474779/1566732397073363701165937210303891611099215208046530777566600000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 42346,
+      "visited_nodes": 84704,
+      "largest_unsupported_singleton": 80866,
+      "minimum_margin": "174108338079336577065358123592690019177281074800144737171641730242208761/408049677079080616879454791763233331059904718958700306577792509606363136000000",
+      "partition_sha256": "478a4bfd11bc77307e6424f212ede1e795260b5cd061b9e87eb716b26e7e17c7",
+      "elapsed_seconds": 4.696,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        4700,
+        2300
+      ],
+      "source_edge": [
+        3,
+        11,
+        4700,
+        2300
+      ],
+      "directions": [
+        22,
+        15,
+        47
+      ],
+      "requested_log_rate": "24853773317653648345078277238350891795398798351817003279342197/3305814922854352941654580005576783651027076938473399652609375",
+      "finite_interval_start": 14259,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          22,
+          15,
+          47
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3974,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1904,
+        "positive_terms": 272,
+        "largest_positive_t": 1175,
+        "ell_lower": "7520711252223/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          4700,
+          2300
+        ],
+        "source_edge": [
+          3,
+          11,
+          4700,
+          2300
+        ],
+        "requested_log_rate": "24853773317653648345078277238350891795398798351817003279342197/3305814922854352941654580005576783651027076938473399652609375",
+        "strict_rate_margin": "531594907122720524745140026471622406003410573353174272613686126041/211572155062678588265893120356914153665732924062297577767000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 58762,
+      "visited_nodes": 117530,
+      "largest_unsupported_singleton": 14258,
+      "minimum_margin": "494666886979121783750523150470703371526181171508821975233555122203/1993095764857957318111562346829202594498288906168624940223014371328000000",
+      "partition_sha256": "75c95c9c964aa42a6a182760ccdb1d3a73039853243170ea1cf08a944cfcb2f7",
+      "elapsed_seconds": 6.849,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        4800,
+        2200
+      ],
+      "source_edge": [
+        3,
+        11,
+        4800,
+        2200
+      ],
+      "directions": [
+        22,
+        15,
+        49
+      ],
+      "requested_log_rate": "755907531805652880678451439244155874858635350734307629288422989769/110362603234892246573334044662088999433024686658427996139481000000",
+      "finite_interval_start": 14277,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          22,
+          15,
+          49
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3964,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1954,
+        "positive_terms": 274,
+        "largest_positive_t": 1203,
+        "ell_lower": "6850727962573/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          4800,
+          2200
+        ],
+        "source_edge": [
+          3,
+          11,
+          4800,
+          2200
+        ],
+        "requested_log_rate": "755907531805652880678451439244155874858635350734307629288422989769/110362603234892246573334044662088999433024686658427996139481000000",
+        "strict_rate_margin": "156640197972858632080041375494482481166013067996532283226790886644613/110362603234892246573334044662088999433024686658427996139481000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 59839,
+      "visited_nodes": 119686,
+      "largest_unsupported_singleton": 14276,
+      "minimum_margin": "679674039412753674617228058756413626839217754754556597137252616053709/5562138007313434216288199662778340520754045035007897193884433550147584000000",
+      "partition_sha256": "3744365fa8e0a2a90a661e9edce75ab5f315ce9d988c35bb86ef41dd768b44e7",
+      "elapsed_seconds": 7.232,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        4900,
+        2100
+      ],
+      "source_edge": [
+        3,
+        11,
+        4900,
+        2100
+      ],
+      "directions": [
+        21,
+        15,
+        49
+      ],
+      "requested_log_rate": "51244220641519811757892210220687007725749145957213847270048911/7834732974020707796443333492008132708529763607128564214000000",
+      "finite_interval_start": 7941,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          21,
+          15,
+          49
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 4000,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1883,
+        "positive_terms": 274,
+        "largest_positive_t": 1189,
+        "ell_lower": "6543529405407/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          4900,
+          2100
+        ],
+        "source_edge": [
+          3,
+          11,
+          4900,
+          2100
+        ],
+        "requested_log_rate": "51244220641519811757892210220687007725749145957213847270048911/7834732974020707796443333492008132708529763607128564214000000",
+        "strict_rate_margin": "11292478748263553736962486820988941452483268051197033896063652549/3917366487010353898221666746004066354264881803564282107000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 65214,
+      "visited_nodes": 130434,
+      "largest_unsupported_singleton": 7940,
+      "minimum_margin": "142377220196363531043920481266867052004826672351031747287919332373743/1869980315121096247261329362103233603736078524931853610193443899834368000000",
+      "partition_sha256": "836d8570a06e4542e452f58dc1f37f13d34df3cbb7a506bc455151de6cc42280",
+      "elapsed_seconds": 7.847,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        5000,
+        2000
+      ],
+      "source_edge": [
+        3,
+        11,
+        5000,
+        2000
+      ],
+      "directions": [
+        19,
+        14,
+        47
+      ],
+      "requested_log_rate": "7462540059652154322979306617982215451009744344109245860442625077727/1164621186965279066365442025924575036973218375771387256589773000000",
+      "finite_interval_start": 14996,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          19,
+          14,
+          47
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3942,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1950,
+        "positive_terms": 559,
+        "largest_positive_t": 2479,
+        "ell_lower": "6438518866133/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          5000,
+          2000
+        ],
+        "source_edge": [
+          3,
+          11,
+          5000,
+          2000
+        ],
+        "requested_log_rate": "7462540059652154322979306617982215451009744344109245860442625077727/1164621186965279066365442025924575036973218375771387256589773000000",
+        "strict_rate_margin": "35895424522002850635840032189025807022938184950146338080205710556857809/1164621186965279066365442025924575036973218375771387256589773000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 84119,
+      "visited_nodes": 168247,
+      "largest_unsupported_singleton": 14995,
+      "minimum_margin": "3860745547800676148551169539126802167121732698991779568828341647051282167/4952067967546976898263043980493951263813398144969925512130686984013217792000000",
+      "partition_sha256": "020b6c6d428b6aef734133e5c48ed9fc39667537702c247ce374ad068acb9ef4",
+      "elapsed_seconds": 10.789,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m).",
+      "reused_source_edge": [
+        3,
+        11,
+        5000,
+        2000
+      ]
+    },
+    {
+      "edge": [
+        3,
+        11,
+        5100,
+        1900
+      ],
+      "source_edge": [
+        3,
+        11,
+        5100,
+        1900
+      ],
+      "directions": [
+        19,
+        14,
+        48
+      ],
+      "requested_log_rate": "310672885995298935726335068989071152360752946152363528265488487/48583831512618151244077793118252604158117000153778776513000000",
+      "finite_interval_start": 14711,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          19,
+          14,
+          48
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3987,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1925,
+        "positive_terms": 561,
+        "largest_positive_t": 2510,
+        "ell_lower": "3213040401043/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          5100,
+          1900
+        ],
+        "source_edge": [
+          3,
+          11,
+          5100,
+          1900
+        ],
+        "requested_log_rate": "310672885995298935726335068989071152360752946152363528265488487/48583831512618151244077793118252604158117000153778776513000000",
+        "strict_rate_margin": "765370489858698125025407284825156607198902481631688626487145603059/24291915756309075622038896559126302079058500076889388256500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 83407,
+      "visited_nodes": 166820,
+      "largest_unsupported_singleton": 14710,
+      "minimum_margin": "21597834079613233519302897930809335167773938139501298578853016832657/31669951170829615497214298351012819145957464377758821197731732652032000000",
+      "partition_sha256": "d7692aa10bc710d5aaadefa03d41096eafa5e3edfa755c863b5bbdf0b239e6b3",
+      "elapsed_seconds": 11.044,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        5300,
+        1800
+      ],
+      "source_edge": [
+        3,
+        11,
+        5300,
+        1800
+      ],
+      "directions": [
+        14,
+        11,
+        39
+      ],
+      "requested_log_rate": "49571808966088805242777076827610474548385554220513513362637261549777/9606683719971874503967215246039350926853771790950934391155535500000",
+      "finite_interval_start": 18662,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          14,
+          11,
+          39
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3946,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1937,
+        "positive_terms": 522,
+        "largest_positive_t": 2303,
+        "ell_lower": "2591824822999/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          5300,
+          1800
+        ],
+        "source_edge": [
+          3,
+          11,
+          5300,
+          1800
+        ],
+        "requested_log_rate": "49571808966088805242777076827610474548385554220513513362637261549777/9606683719971874503967215246039350926853771790950934391155535500000",
+        "strict_rate_margin": "225873698158151792229060329119275355177693115560376153863453706956121929/9606683719971874503967215246039350926853771790950934391155535500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 77815,
+      "visited_nodes": 155636,
+      "largest_unsupported_singleton": 18661,
+      "minimum_margin": "99514121605460436962647780749623828160179526807224926855866492817548433/137964437088485814521125907998708806759679795867276014960001641829367808000000",
+      "partition_sha256": "2b44492088418a8d0e7718033b2266bba8707b8e7635dd7f1e9e7988e2d61f5a",
+      "elapsed_seconds": 10.268,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        5400,
+        1700
+      ],
+      "source_edge": [
+        3,
+        11,
+        5400,
+        1700
+      ],
+      "directions": [
+        16,
+        13,
+        47
+      ],
+      "requested_log_rate": "1940879965353279289230769941263910481601468185057531141842641897969549/301527997262489565301358247368878450667515778604545864560231232250000",
+      "finite_interval_start": 16749,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          16,
+          13,
+          47
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3974,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1894,
+        "positive_terms": 263,
+        "largest_positive_t": 1139,
+        "ell_lower": "128753103147/20000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          5400,
+          1700
+        ],
+        "source_edge": [
+          3,
+          11,
+          5400,
+          1700
+        ],
+        "requested_log_rate": "1940879965353279289230769941263910481601468185057531141842641897969549/301527997262489565301358247368878450667515778604545864560231232250000",
+        "strict_rate_margin": "20264104720267402566286949624555537883385375081946343851622722656731563/24122239780999165224108659789510276053401262288363669164818498580000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 57549,
+      "visited_nodes": 115106,
+      "largest_unsupported_singleton": 16748,
+      "minimum_margin": "132951162297191457278289042383922750176196237728580505369714474320112542233/217973589055099011056563688940066575396677319808728700440794778423009476608000000",
+      "partition_sha256": "4829245cf6abe4a02b94c1e1f8a9694cc499f3613bc8f92fde3b8c4e1ca38300",
+      "elapsed_seconds": 6.811,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        5500,
+        1500
+      ],
+      "source_edge": [
+        3,
+        11,
+        5500,
+        1500
+      ],
+      "directions": [
+        15,
+        13,
+        48
+      ],
+      "requested_log_rate": "79023539048900100141346290323136705153196520119191162456131500001/13156323629877276922039482006088356380799796159243326873249000000",
+      "finite_interval_start": 11952,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          15,
+          13,
+          48
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3958,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1895,
+        "positive_terms": 549,
+        "largest_positive_t": 2431,
+        "ell_lower": "3017928109931/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          5500,
+          1500
+        ],
+        "source_edge": [
+          3,
+          11,
+          5500,
+          1500
+        ],
+        "requested_log_rate": "79023539048900100141346290323136705153196520119191162456131500001/13156323629877276922039482006088356380799796159243326873249000000",
+        "strict_rate_margin": "193069381506033472142554006824165030295212461379705337643024574635819/6578161814938638461019741003044178190399898079621663436624500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 83743,
+      "visited_nodes": 167497,
+      "largest_unsupported_singleton": 11951,
+      "minimum_margin": "337764106827736245378096095375899031215727450935252436292978945950133733/3977670459048922550364216585298240352171638474234645072731584783720644608000000",
+      "partition_sha256": "f3e7de20fe5a32205e913d83ed4ea2e489bdcb9c5348289c2256974552ec311f",
+      "elapsed_seconds": 10.407,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m).",
+      "reused_source_edge": [
+        3,
+        11,
+        5500,
+        1500
+      ]
+    },
+    {
+      "edge": [
+        3,
+        11,
+        5700,
+        1400
+      ],
+      "source_edge": [
+        3,
+        11,
+        5700,
+        1400
+      ],
+      "directions": [
+        14,
+        13,
+        49
+      ],
+      "requested_log_rate": "3822019271535067101922696615122687936107548754508396138117922834559/593408091952561009833536182114200497226888464300189190621066000000",
+      "finite_interval_start": 11715,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          14,
+          13,
+          49
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3984,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1947,
+        "positive_terms": 272,
+        "largest_positive_t": 1139,
+        "ell_lower": "1288466247043/200000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          5700,
+          1400
+        ],
+        "source_edge": [
+          3,
+          11,
+          5700,
+          1400
+        ],
+        "requested_log_rate": "3822019271535067101922696615122687936107548754508396138117922834559/593408091952561009833536182114200497226888464300189190621066000000",
+        "strict_rate_margin": "91221448025156974083629852848454338431878781767612085408038222103919/59340809195256100983353618211420049722688846430018919062106600000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 59874,
+      "visited_nodes": 119755,
+      "largest_unsupported_singleton": 11714,
+      "minimum_margin": "19733610938785545328218381274361830987447709616704607402032628963874073/38304226564668854207350164389954686244790556369586929200256628461928448000000",
+      "partition_sha256": "c47e0e3e372309133ce829c1553f660ceda4435fbe78cd16d145a613fe91d007",
+      "elapsed_seconds": 7.052,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        5900,
+        1200
+      ],
+      "source_edge": [
+        3,
+        11,
+        5900,
+        1200
+      ],
+      "directions": [
+        12,
+        12,
+        47
+      ],
+      "requested_log_rate": "19223603627179790290386147787149155724369253601799834538153229/2944676314078212938164513945259494462108027064489501552250000",
+      "finite_interval_start": 9828,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          12,
+          12,
+          47
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3980,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1972,
+        "positive_terms": 347,
+        "largest_positive_t": 1135,
+        "ell_lower": "6544795534819/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          5900,
+          1200
+        ],
+        "source_edge": [
+          3,
+          11,
+          5900,
+          1200
+        ],
+        "requested_log_rate": "19223603627179790290386147787149155724369253601799834538153229/2944676314078212938164513945259494462108027064489501552250000",
+        "strict_rate_margin": "194803058746275900976150541690564094002480479554637506862161691171/11778705256312851752658055781037977848432108257958006209000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 43875,
+      "visited_nodes": 87758,
+      "largest_unsupported_singleton": 9827,
+      "minimum_margin": "4898306321080219650996351374959440050924484706359228421886366903/338314966472769284560712592475231133865609589583496563735320854528000000",
+      "partition_sha256": "1c607b7af696d6a5ce80c314e4aba9ac07fa5e8530f15f222053a9e1e09e9992",
+      "elapsed_seconds": 5.266,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        3,
+        11,
+        6100,
+        1000
+      ],
+      "source_edge": [
+        3,
+        11,
+        6100,
+        1000
+      ],
+      "directions": [
+        11,
+        12,
+        49
+      ],
+      "requested_log_rate": "454852137924160985167858754278149240351371361340375135443312060868501/89340439349024432984531319163388615119478124663706652429773374000000",
+      "finite_interval_start": 16697,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          11,
+          12,
+          49
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3974,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1666,
+        "positive_terms": 232,
+        "largest_positive_t": 1151,
+        "ell_lower": "636929266399/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          6100,
+          1000
+        ],
+        "source_edge": [
+          3,
+          11,
+          6100,
+          1000
+        ],
+        "requested_log_rate": "454852137924160985167858754278149240351371361340375135443312060868501/89340439349024432984531319163388615119478124663706652429773374000000",
+        "strict_rate_margin": "23511626909181035591063472404093001538170755118027390908809179540217613/5583777459314027061533207447711788444967382791481665776860835875000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 49618,
+      "visited_nodes": 99243,
+      "largest_unsupported_singleton": 16696,
+      "minimum_margin": "175619019389654132638054119045777090139148977850387444122621015126087686239/207589417480953324822866578124720270719997315807754809045021927709672996864000000",
+      "partition_sha256": "0c6d49dd26c869f374e9c5a45737b222f507804eeb064aa664f422b3e39fda1d",
+      "elapsed_seconds": 4.907,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m).",
+      "reused_source_edge": [
+        3,
+        11,
+        6100,
+        1000
+      ]
+    },
+    {
+      "edge": [
+        3,
+        11,
+        6200,
+        800
+      ],
+      "source_edge": [
+        3,
+        11,
+        6200,
+        800
+      ],
+      "directions": [
+        10,
+        12,
+        49
+      ],
+      "requested_log_rate": "28580835951135382877422331087717894300406824035145939560968776509/6097826289710888373740249951373982994028426451649578388991000000",
+      "finite_interval_start": 16714,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          10,
+          12,
+          49
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3984,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1971,
+        "positive_terms": 544,
+        "largest_positive_t": 2413,
+        "ell_lower": "4715592106249/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          3,
+          11,
+          6200,
+          800
+        ],
+        "source_edge": [
+          3,
+          11,
+          6200,
+          800
+        ],
+        "requested_log_rate": "28580835951135382877422331087717894300406824035145939560968776509/6097826289710888373740249951373982994028426451649578388991000000",
+        "strict_rate_margin": "174025565902910106172380482509465997903990645367481154846125414904759/6097826289710888373740249951373982994028426451649578388991000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 73148,
+      "visited_nodes": 146304,
+      "largest_unsupported_singleton": 16713,
+      "minimum_margin": "62439407124031342488158846395213941809204618819850545441874739419064507/46924232003963701401551379430003934961747469458626310781129960175173632000000",
+      "partition_sha256": "4b9b6a4ef94e6bf53c3ad4c6c32f2acedb940baa4b31d546c2bd5b53c9362975",
+      "elapsed_seconds": 9.291,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        5,
+        7,
+        1900,
+        3600
+      ],
+      "source_edge": [
+        5,
+        7,
+        1900,
+        3600
+      ],
+      "directions": [
+        38,
+        17,
+        19
+      ],
+      "requested_log_rate": "51036642782567297778319574345119282448912952789496362909671213/6213921007270287333845446830863792554589048485925042224500000",
+      "finite_interval_start": 7130,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          38,
+          17,
+          19
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3958,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1945,
+        "positive_terms": 306,
+        "largest_positive_t": 1109,
+        "ell_lower": "1028046404829/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          5,
+          7,
+          1900,
+          3600
+        ],
+        "source_edge": [
+          5,
+          7,
+          1900,
+          3600
+        ],
+        "requested_log_rate": "51036642782567297778319574345119282448912952789496362909671213/6213921007270287333845446830863792554589048485925042224500000",
+        "strict_rate_margin": "17237607189410084687361025721366532438419845608320207136688154221/1553480251817571833461361707715948138647262121481260556125000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 46217,
+      "visited_nodes": 92438,
+      "largest_unsupported_singleton": 7129,
+      "minimum_margin": "881792190756254284573260684042714113465932226078858643284438603696579/1413651945264600373931846758600614164744081871340598962230990370504704000000",
+      "partition_sha256": "725a6bca04dddce677dc3da52870756ea0585a697acdf2acaf8d05bdcbb08ab3",
+      "elapsed_seconds": 5.192,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        5,
+        7,
+        2400,
+        3100
+      ],
+      "source_edge": [
+        5,
+        7,
+        2400,
+        3100
+      ],
+      "directions": [
+        49,
+        24,
+        31
+      ],
+      "requested_log_rate": "132562123100765841680039953273819775475490359792086559344903338319592677/11460519270868428241344949692984595576277814213774743527898732073000000",
+      "finite_interval_start": 9066,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          49,
+          24,
+          31
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3936,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1846,
+        "positive_terms": 284,
+        "largest_positive_t": 1247,
+        "ell_lower": "11573503196187/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          5,
+          7,
+          2400,
+          3100
+        ],
+        "source_edge": [
+          5,
+          7,
+          2400,
+          3100
+        ],
+        "requested_log_rate": "132562123100765841680039953273819775475490359792086559344903338319592677/11460519270868428241344949692984595576277814213774743527898732073000000",
+        "strict_rate_margin": "76233310592619370314877417528165797916504167693613357288829531337591205651/11460519270868428241344949692984595576277814213774743527898732073000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 74016,
+      "visited_nodes": 148039,
+      "largest_unsupported_singleton": 9065,
+      "minimum_margin": "2313118380161980662624580202897920934628681017528424328542205699379244563057/11204668738606872497884411539796786321075432092227233874723556719488697106432000000",
+      "partition_sha256": "0369b62a9ba2ac132663a253337b89998494f9ee30575114a53938090894d96d",
+      "elapsed_seconds": 9.242,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        5,
+        7,
+        4600,
+        1300
+      ],
+      "source_edge": [
+        5,
+        7,
+        4600,
+        1300
+      ],
+      "directions": [
+        25,
+        17,
+        40
+      ],
+      "requested_log_rate": "15525461843374028732846788659997979883048102861708530084897/2473790548910103869234414325307830746237965567669353000000",
+      "finite_interval_start": 11095,
+      "finite_interval_end": 999999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          25,
+          17,
+          40
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 1000000000,
+        "floor_stability_bound": 3996,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1953,
+        "positive_terms": 567,
+        "largest_positive_t": 2541,
+        "ell_lower": "3153307846947/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          5,
+          7,
+          4600,
+          1300
+        ],
+        "source_edge": [
+          5,
+          7,
+          4600,
+          1300
+        ],
+        "requested_log_rate": "15525461843374028732846788659997979883048102861708530084897/2473790548910103869234414325307830746237965567669353000000",
+        "strict_rate_margin": "37892227894542562926310739373979481894676093442703098778015291/1236895274455051934617207162653915373118982783834676500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 100102,
+      "visited_nodes": 200211,
+      "largest_unsupported_singleton": 11094,
+      "minimum_margin": "11025183045744267087062940759423282532851245884323236894122457/24237937932648852282803609881203305865908112865941189486968832000000",
+      "partition_sha256": "c4f9a7224c2a05af94e762cd597356d0585560c32cc2ee116d2e2924d34f52c2",
+      "elapsed_seconds": 13.856,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        5,
+        11,
+        1800,
+        2200
+      ],
+      "source_edge": [
+        5,
+        11,
+        1800,
+        2200
+      ],
+      "directions": [
+        38,
+        9,
+        36
+      ],
+      "requested_log_rate": "285591707048053852038279572613603495467207375253200342879431967/33312591132986397656192876615332796090417147630749126158000000",
+      "finite_interval_start": 7471,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          38,
+          9,
+          36
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3955,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1976,
+        "positive_terms": 291,
+        "largest_positive_t": 1161,
+        "ell_lower": "4289672255399/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          5,
+          11,
+          1800,
+          2200
+        ],
+        "source_edge": [
+          5,
+          11,
+          1800,
+          2200
+        ],
+        "requested_log_rate": "285591707048053852038279572613603495467207375253200342879431967/33312591132986397656192876615332796090417147630749126158000000",
+        "strict_rate_margin": "52122207297781580544699051725306508274503790669890905210132063521/8328147783246599414048219153833199022604286907687281539500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 62000,
+      "visited_nodes": 124008,
+      "largest_unsupported_singleton": 7470,
+      "minimum_margin": "10328122066795317302121044257109327024771164014210784372379002667/7824495517409165259557782800915021246500376222669528639096225792000000",
+      "partition_sha256": "24b4099556cf4196f2d99d9bbfb4fe0c3660e9946712ed05d782acad1024b130",
+      "elapsed_seconds": 7.637,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        5,
+        13,
+        3300,
+        500
+      ],
+      "source_edge": [
+        5,
+        13,
+        3300,
+        500
+      ],
+      "directions": [
+        50,
+        25,
+        17
+      ],
+      "requested_log_rate": "5283832561084101763131760568800424175619158889429350581/524949055812840920328678719511837590884116808419000000",
+      "finite_interval_start": 9671,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          50,
+          25,
+          17
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3984,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1958,
+        "positive_terms": 325,
+        "largest_positive_t": 1195,
+        "ell_lower": "5040375337893/500000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          5,
+          13,
+          3300,
+          500
+        ],
+        "source_edge": [
+          5,
+          13,
+          3300,
+          500
+        ],
+        "requested_log_rate": "5283832561084101763131760568800424175619158889429350581/524949055812840920328678719511837590884116808419000000",
+        "strict_rate_margin": "4023994027208488004040809077504881356289910127122581621167/262474527906420460164339359755918795442058404209500000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 51426,
+      "visited_nodes": 102861,
+      "largest_unsupported_singleton": 9670,
+      "minimum_margin": "69898947246125902754057908979051649484137210435129206293277/33361611849418316184845612306581110347063153419520575537152000000",
+      "partition_sha256": "44fdd51f7b9c067ff9f8c7a28f33302840435536afe02ab51766b409533707b0",
+      "elapsed_seconds": 6.16,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        7,
+        13,
+        1500,
+        1400
+      ],
+      "source_edge": [
+        7,
+        13,
+        1500,
+        1400
+      ],
+      "directions": [
+        41,
+        17,
+        50
+      ],
+      "requested_log_rate": "850499538677069059913434629879961692639404002113383817448708955219/83056360666062455793534674055116484493557299394017891225031000000",
+      "finite_interval_start": 11044,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          41,
+          17,
+          50
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3968,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1963,
+        "positive_terms": 294,
+        "largest_positive_t": 1295,
+        "ell_lower": "1280887764819/125000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          7,
+          13,
+          1500,
+          1400
+        ],
+        "source_edge": [
+          7,
+          13,
+          1500,
+          1400
+        ],
+        "requested_log_rate": "850499538677069059913434629879961692639404002113383817448708955219/83056360666062455793534674055116484493557299394017891225031000000",
+        "strict_rate_margin": "73433832919816582055296866836653053708182162732582689837211931609389/10382045083257806974191834256889560561694662424252236403128875000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 69512,
+      "visited_nodes": 139032,
+      "largest_unsupported_singleton": 11043,
+      "minimum_margin": "860631556991806883396789198322782163232114629299314768985461967245331/2001000666406270779326204656841241497671012199565314038207676160147456000000",
+      "partition_sha256": "3924fdd45527fe4ced40863b3a71ff95d12a62e2f368f21e852e3e33db878642",
+      "elapsed_seconds": 8.835,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        7,
+        13,
+        1700,
+        1000
+      ],
+      "source_edge": [
+        7,
+        13,
+        1700,
+        1000
+      ],
+      "directions": [
+        35,
+        16,
+        47
+      ],
+      "requested_log_rate": "1048711914287322271398912360207500247428623460365900509831594438889/136117154240304890720261232264366457624208242351636285082923500000",
+      "finite_interval_start": 8955,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          35,
+          16,
+          47
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3946,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1838,
+        "positive_terms": 284,
+        "largest_positive_t": 1273,
+        "ell_lower": "7708724503147/1000000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          7,
+          13,
+          1700,
+          1000
+        ],
+        "source_edge": [
+          7,
+          13,
+          1700,
+          1000
+        ],
+        "requested_log_rate": "1048711914287322271398912360207500247428623460365900509831594438889/136117154240304890720261232264366457624208242351636285082923500000",
+        "strict_rate_margin": "1155455807111223120855076891348078746567305390958149513443732685420509/272234308480609781440522464528732915248416484703272570165847000000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 72172,
+      "visited_nodes": 144352,
+      "largest_unsupported_singleton": 8954,
+      "minimum_margin": "11950460055966723764570764066826892494803475062279503966922751133608259353/17681507144858609047376605470442497714472160011595408499801100594056265728000000",
+      "partition_sha256": "6bc6c09e71e2b8ce533e14c531b77db1d5c281ad83d4590e9659f2b8adaf41fe",
+      "elapsed_seconds": 8.805,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        7,
+        13,
+        2800,
+        500
+      ],
+      "source_edge": [
+        7,
+        13,
+        2800,
+        500
+      ],
+      "directions": [
+        46,
+        37,
+        46
+      ],
+      "requested_log_rate": "180697857802200680957147884490867817722467078360119075476542411797197/7072959189513223989489784737111611487557168041821722979353178000000",
+      "finite_interval_start": 4853,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          46,
+          37,
+          46
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3885,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1984,
+        "positive_terms": 417,
+        "largest_positive_t": 1303,
+        "ell_lower": "6400359792663/250000000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          7,
+          13,
+          2800,
+          500
+        ],
+        "source_edge": [
+          7,
+          13,
+          2800,
+          500
+        ],
+        "requested_log_rate": "180697857802200680957147884490867817722467078360119075476542411797197/7072959189513223989489784737111611487557168041821722979353178000000",
+        "strict_rate_margin": "47509580578274288990272604229610615687217731241881865903363012315441507/884119898689152998686223092138951435944646005227715372419147250000000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 45935,
+      "visited_nodes": 91876,
+      "largest_unsupported_singleton": 4852,
+      "minimum_margin": "21268359175833258511681948456849804110549859505620087520357154213313154543/2256525350576623953532633947805718114214287737862236559697332693177991168000000",
+      "partition_sha256": "488d197a1727d66ca9a2198e57358ead14ce30cd22c974f350ffc5f68431ba2f",
+      "elapsed_seconds": 5.737,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    },
+    {
+      "edge": [
+        11,
+        13,
+        300,
+        800
+      ],
+      "source_edge": [
+        11,
+        13,
+        300,
+        800
+      ],
+      "directions": [
+        42,
+        21,
+        50
+      ],
+      "requested_log_rate": "20160639858978364159091555226096129662482148265729494752669/1416404000994178804540945997375929831168725227584206000000",
+      "finite_interval_start": 7330,
+      "finite_interval_end": 99999999,
+      "analytic_gcd_certificate": {
+        "directions": [
+          42,
+          21,
+          50
+        ],
+        "rectangular_shifts": [
+          [
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            -2,
+            1
+          ]
+        ],
+        "terms": 4000,
+        "m0": 100000000,
+        "floor_stability_bound": 3921,
+        "rounding_denominator": 1000000000000,
+        "root_scale": 1000000,
+        "eligible_terms": 1983,
+        "positive_terms": 347,
+        "largest_positive_t": 1285,
+        "ell_lower": "222764131909/15625000000",
+        "upper_relative_error": "1/36260",
+        "lower_relative_error_floor": "1/60000",
+        "source": "BFT Lemma 5.2; Dusart 2010 Proposition 5.1 and Theorem 5.2; retained BFT theta lower bound through 10^11",
+        "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+        "edge": [
+          11,
+          13,
+          300,
+          800
+        ],
+        "source_edge": [
+          11,
+          13,
+          300,
+          800
+        ],
+        "requested_log_rate": "20160639858978364159091555226096129662482148265729494752669/1416404000994178804540945997375929831168725227584206000000",
+        "strict_rate_margin": "514009917365674370085671943345174795714439580920755278576129/22131312515534043820952281208998903612011331681003218750000000"
+      },
+      "terms": 4000,
+      "certified_intervals": 58243,
+      "visited_nodes": 116493,
+      "largest_unsupported_singleton": 7329,
+      "minimum_margin": "254971156860107900303540194189154215943942658359805908340224497/372804840165265438236141878450141946216525654210764306091343872000000",
+      "partition_sha256": "23665ea385c807881df455b4c5e1c7198b6fdcfc794b57cbe9dfb795a216bd74",
+      "elapsed_seconds": 7.332,
+      "conclusion": "For every integer m>=finite_interval_start, both rectangle coefficient gcds are at least exp(requested_log_rate*m)."
+    }
+  ]
+}

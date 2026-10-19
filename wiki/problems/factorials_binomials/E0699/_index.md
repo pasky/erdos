@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 699
 
 [[problems/factorials_binomials/_index|..]]
 
-[[problems/factorials_binomials/E0699/claims/_index|claims/]]: The 2 claim pages of Problem 699, one per claimant's result; the problem's standing derives from them.
+[[problems/factorials_binomials/E0699/claims/_index|claims/]]: The 3 claim pages of Problem 699, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -64,22 +64,40 @@ Erdős and Szekeres [ErSz78].
 
 ## Current assessment
 
-Van Doorn and Rocca's two unpublished 2026 manuscripts,
+The [[research/erdos_699/_index|P699 research guide]] records the current
+author-checked argument: there are no counterexamples for $i=1,2,7$ or
+$i\ge9$. At $i=4,5,6,8$, only finitely many counterexamples can exist,
+but their possible rows have not been bounded effectively. At $i=3$,
+unconditional global finiteness remains open. Research on the case $i=3$
+under the $abc$ conjecture is in the
+[[research/erdos_699/remaining/details/cubic_abc|conditional argument]]; it is
+not a claim.
+
+The case results by origin. Van Doorn and Rocca's two unpublished 2026
+manuscripts,
 [[../library/factorials_binomials/van_doorn_rocca_2026_partial_progress_erdos_problem_699/_index|Partial Progress on Erdős Problem #699]]
 and
 [[../library/factorials_binomials/van_doorn_rocca_2026_binomial_coefficients_sharing_large_prime_divisor/_index|Binomial coefficients sharing a large prime divisor]],
 settle $i=1,2$, exclude every $i\ge1476$, and prove finiteness for each fixed
-$i\ge4$. The first manuscript says that all results and arguments specific to
-its solution follow L. Price's Overleaf project *Common Prime Divisor of
-Binomial Coefficients* (2026). The manuscripts' proofs have not been reviewed
-here; the full problem remains unresolved. erdosproblems.com's falsifiable label
-means that a single bad triple $(n,i,j)$, checked by finite arithmetic, would
-refute the statement; the finiteness results above bound where such a triple
-could lie but do not exhibit one. This page records no literature-status search
-supporting erdosproblems.com's falsifiable label beyond the erdosproblems.com
-record (accessed 2026-09-04) and the sources named here.
+$i\ge4$, which is the source of the finiteness at $i=4,5,6,8$. The first
+manuscript says that all results and arguments specific to its solution follow
+L. Price's Overleaf project *Common Prime Divisor of Binomial Coefficients*
+(2026). The extension to no counterexamples for $i=7$ and every $i\ge9$, and the
+restrictions at $i=3$ named on the Plasma AI claim page, are subsequent
+deductions by Plasma AI; the guide gives their proof and computation
+trail, and the
+[[research/leads/binomial_common_prime_indices/_index|index-exclusion lead]]
+records their route and what blocks it. The
+manuscripts' proofs have not been reviewed here, and a complete independent
+review of the repository deductions is not claimed; the full problem remains
+unresolved. erdosproblems.com's falsifiable label means that a single bad triple
+$(n,i,j)$, checked by finite arithmetic, would refute the statement; the
+finiteness results above bound where such a triple could lie but do not exhibit
+one. This page records no literature-status search supporting
+erdosproblems.com's falsifiable label beyond the erdosproblems.com record
+(accessed 2026-09-04) and the sources named here.
 
-**Claims.** The two results claimed about the problem have claim pages, from
+**Claims.** The three results claimed about the problem have claim pages, from
 which the frontmatter standing derives. Price's partial claim of 2026-07-18, on
 the
 [[problems/factorials_binomials/E0699/claims/2026_07_18_price|Price claim page]],
@@ -88,12 +106,26 @@ the curator's mark of the claim as accepted as correct. Van Doorn and Rocca's
 partial claim of 2026-07-25, on the
 [[problems/factorials_binomials/E0699/claims/2026_07_25_van_doorn_rocca|van Doorn–Rocca claim page]],
 is the forum posting of the first manuscript above, with the second added to the
-same Overleaf project later, and is pending. Neither settles the problem, and no
-claim settles the case $i=3$ (both cover only its triples with $j=4$, and
-Price's also those with $n=2j$). A proof posted to the erdosproblems.com thread
-on 2026-04-30, since deleted, was judged invalid by the curator on 2026-05-11,
-who also found that its Lean code did not formalize the statement; as a deleted
+same Overleaf project later, and is pending. Plasma AI's partial claim, on the
+[[problems/factorials_binomials/E0699/claims/2026_10_19_plasma_ai|Plasma AI claim page]],
+proves the cases $i=7$ and $i\ge9$, building on both manuscripts, and excludes
+the rows at $i=3$ with $n\le10^{19}$, with $v_2(n)\le48$, or with $(n-2)/2$
+divisible by at most two distinct primes; it is author-recorded at tier 0 and
+pending. None settles the problem, and no claim settles the case $i=3$: Price's
+and van Doorn and Rocca's cover only its triples with $j=4$, Price's also those
+with $n=2j$, and Plasma AI's only the rows just named. A proof posted to the
+erdosproblems.com thread on 2026-04-30, since deleted, was judged invalid by the
+curator on 2026-05-11, who also found that its Lean code did not formalize the
+statement; as a deleted
 thread post it has no claim page.
+
+## Finite research
+
+The [[research/finite_experiments/binomial_gcd_search/_index|binomial-gcd experiment]]
+checks the stated threshold for every eligible pair through $n=30$, a domain
+of 1,015 triples. It separately records four exceptions to the stricter
+condition $p>i$. These are author-checked finite observations, not an
+all-order proof or counterexamples to this page's $p\ge i$ question.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -157,5 +189,7 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/factorials_binomials/xiao_2024_greatest_common_divisors_polynomials_almost_units_applications_linear_recurrence_sequences/theorem_6_1|xiao_2024_greatest_common_divisors_polynomials_almost_units_applications_linear_recurrence_sequences / theorem_6_1]]
 - [[../library/factorials_binomials/yasufuku_2026_gcd_inequalities_arising_from_codimension_2_blowups/_index|yasufuku_2026_gcd_inequalities_arising_from_codimension_2_blowups]]
 - [[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]]
+- [[../library/primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/_index|johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem]]
+- [[../library/primes/johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem/lemma_2_2|johnston_yang_2022_some_explicit_estimates_error_term_prime_number_theorem / lemma_2_2]]
 
 <!-- END problem library links -->

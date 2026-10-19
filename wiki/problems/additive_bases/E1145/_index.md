@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1145
@@ -47,6 +47,32 @@ https://www.erdosproblems.com/1145.
 No current assessment is recorded. The status above is imported from the dated
 erdosproblems.com record. This page records no current literature search or
 independent assessment of proof coverage.
+
+## Research
+
+[[research/erdos_1145/_index|Research guide for Problem 1145]]
+records the current arguments, their scope, and the remaining gap.
+
+## Limits of the available transfer
+
+[[../library/additive_bases/narkiewicz_1960_remarks_conjecture_hanani_additive_number_theory/_index|Narkiewicz's
+theorem]] requires both a lower representation threshold $k$ almost everywhere
+and $\limsup A(x)B(x)/x\le k$. A bounded representation function $1\le r(n)\le
+M$ eventually gives only
+
+$$
+A(x)B(x)\le\sum_{n\le2x}r(n)\le2Mx+O(1),
+$$
+
+not the needed product hypothesis with $k=1$. The perfect-complement
+classification in
+[[../library/additive_bases/barany_et_al_2023_lagrange_like_spectrum_perfect_additive_complements/_index|Bárány
+and collaborators]] concerns unique representations. The existing research
+already separates constant and periodic representation functions from bounded,
+persistently varying ones. These source statements do not bridge the latter
+case. A new theorem must address that case under the balance hypothesis, or
+uniformly control all cross-terms in the existing shell construction. This
+comparison supplies no such theorem.
 
 <!-- BEGIN problem library links -->
 

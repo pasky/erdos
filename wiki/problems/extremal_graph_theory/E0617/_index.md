@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 617
@@ -158,6 +158,11 @@ They are recorded on the claim pages and give no acceptance evidence. The
 discussion thread, accessed 2026-10-07, held two comments: a typo report and the
 15 July 2026 priority report on Chung and Liu recorded above. The page's
 standing is derived from the claim pages, on which every claim is partial.
+
+## Research
+
+[[research/erdos_617/_index|Research guide for Problem 617]]
+records the current arguments, their scope, and the remaining gap.
 
 <!-- BEGIN problem library links -->
 

@@ -8,7 +8,7 @@ desc: |
   complement: those of its regular locus in Theorem 3.7.1, all irreducible
   divisors in X minus U in Theorem 3.7.2.
 created: 2026-10-08T17:21:06Z
-updated: 2026-10-08T17:21:06Z
+updated: 2026-10-13T05:28:09Z
 ---
 
 ***
@@ -80,5 +80,8 @@ case $c=1$).
 
 ## Bears on
 
-None directly. Like the rest of the chapter, it decides neither question of
-[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
+[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+corpus's [[../wiki/research/erdos_940/affine_fiber_brauer|affine-fiber Brauer
+note]] applies (3.11) over an algebraic closure of $\mathbb Q$ to a smooth
+projective variety minus a smooth divisor, as one step in computing the
+Brauer group of an affine fiber. It decides neither question of the problem.

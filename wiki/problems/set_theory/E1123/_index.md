@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: independent
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 1123
@@ -28,7 +28,14 @@ modulo sets of logarithmic density $0$.
 
 Prove that $B_1$ and $B_2$ are not isomorphic.
 
-**Status.** Independent.
+**Status.** Independent. Assuming the continuum hypothesis, $B_1$ and $B_2$
+are isomorphic, so ZFC does not prove $B_1\not\cong B_2$; this is the accepted
+partial claim of
+[[problems/set_theory/E1123/claims/1984_09_01_just_krawczyk|Just and Krawczyk 1984]].
+Assuming the Open Coloring Axiom and Martin's Axiom, they are not isomorphic,
+so ZFC, if consistent, does not refute $B_1\not\cong B_2$ either. With the
+1984 half this gives the independence, the accepted full claim of
+[[problems/set_theory/E1123/claims/2000_01_01_farah|Farah 2000]].
 
 **Source.** [erdosproblems.com/1123](https://www.erdosproblems.com/1123),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1123,

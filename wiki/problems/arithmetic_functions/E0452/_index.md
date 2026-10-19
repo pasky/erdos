@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 452
@@ -76,6 +76,30 @@ manuscript, so neither has a claim page.
 **Search scope.** The erdosproblems.com page, its two comments and its empty
 proof-claims tab, the report, the formal-conjectures statement file and the
 community database; no other literature search was made.
+
+## Prime-factor and interval interface
+
+The standard disjoint-prime construction explains the recorded lower scale. Set
+$r=\lfloor\log\log(2x)\rfloor+1$, assign $r$ distinct primes to each of $h$
+offsets, with all $hr$ primes distinct, and force their products to divide the
+corresponding shifted integers by the Chinese remainder theorem. Using the
+first $hr$ primes gives modulus $M$ with $\log M\sim hr\log(hr)$ by the prime
+number theorem. At
+
+$$
+h=\left\lfloor(1-\epsilon)\frac{\log x}{(\log\log x)^2}\right\rfloor
+$$
+
+for fixed $0<\epsilon<1$, this gives $M=x^{1-\epsilon+o(1)}=o(x)$. A
+representative of the resulting progression places the whole block inside
+$[x,2x]$. Each term has at least $r>\log\log n$ distinct factors. This author
+reconstruction imports the prime number theorem; it makes no new record claim
+beyond the
+[[../library/arithmetic_functions/erdos_1937_note_number_prime_divisors_integers/main_theorem|held
+lower-bound account]]. Its modulus cost is specific to disjoint prime
+allocation, not an impossibility theorem for other constructions. A proposed
+improvement must compute its actual modulus and guarantee every offset.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

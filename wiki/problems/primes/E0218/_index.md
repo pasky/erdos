@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:53Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 218
@@ -54,6 +54,9 @@ single large gaps $d_n>C\log p_n$ and the indices at which $p_n/n$
 increases. Nothing in it compares $d_{n+1}$ with $d_n$ or concerns equal
 consecutive gaps, so it bears on none of the three assertions and no claim
 page records it.
+
+
+The author-recorded [[research/covering_prime_interfaces/prime_gap_statistics|prime-gap comparison]] isolates the support, moment or uniform limiting information needed for this question and proves the stated elementary reductions. It does not establish the requested prime-gap law.
 
 <!-- BEGIN problem library links -->
 

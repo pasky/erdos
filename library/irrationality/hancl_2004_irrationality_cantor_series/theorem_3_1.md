@@ -7,7 +7,7 @@ desc: |
   zero along a subsequence, give an irrational sum of b_n over a_1 through
   a_n.
 created: 2026-09-17T07:55:00Z
-updated: 2026-10-08T14:29:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -41,4 +41,5 @@ is the signed version ($a_n\nmid b_n$, $|b_{n+1}|<(1+\epsilon)|b_n|$ for
 some $\epsilon$ with $0<\epsilon<1$ and all $n\ge n_0$,
 $\liminf|b_n|/a_n=0$).
 
-**Bears on.** No catalog problem directly; the tool behind Example 3.1.
+**Bears on.** No erdosproblems.com problem directly; the tool behind Example
+3.1.

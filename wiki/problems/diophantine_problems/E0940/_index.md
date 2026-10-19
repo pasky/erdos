@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-19T04:18:52Z
 ---
 
 # Problem 940
@@ -109,7 +109,8 @@ $r\ge4$.
 ## Research
 
 The [[research/erdos_940/_index|research folder for Problem 940]] holds
-reading notes on the sources cited above.
+reading notes on the sources cited above and research notes on both
+questions.
 
 <!-- BEGIN problem library links -->
 
@@ -147,10 +148,21 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes/theorem_3_5_4|colliot_thelene_skorobogatov_2021_brauer_groups_schemes / theorem_3_5_4]]
 - [[../library/number_theory/colliot_thelene_skorobogatov_2021_brauer_groups_schemes/theorem_3_7_1|colliot_thelene_skorobogatov_2021_brauer_groups_schemes / theorem_3_7_1]]
 - [[../library/number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/_index|colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii]]
+- [[../library/number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/corollary_4_4_5|colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii / corollary_4_4_5]]
 - [[../library/number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/theorem_4_3_10|colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii / theorem_4_3_10]]
 - [[../library/number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/_index|elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms]]
+- [[../library/number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/corollary_18_5|elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms / corollary_18_5]]
+- [[../library/number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/theorem_17_12|elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms / theorem_17_12]]
+- [[../library/number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/theorem_17_14|elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms / theorem_17_14]]
+- [[../library/number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/theorem_17_3|elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms / theorem_17_3]]
+- [[../library/number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/theorem_18_10|elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms / theorem_18_10]]
+- [[../library/number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/theorem_18_3|elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms / theorem_18_3]]
 - [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/_index|voight_2021_quaternion_algebras_over_global_fields]]
+- [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/corollary_14_2_3|voight_2021_quaternion_algebras_over_global_fields / corollary_14_2_3]]
+- [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/corollary_14_6_2|voight_2021_quaternion_algebras_over_global_fields / corollary_14_6_2]]
+- [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/main_theorem_14_1_3|voight_2021_quaternion_algebras_over_global_fields / main_theorem_14_1_3]]
 - [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/main_theorem_14_7_4|voight_2021_quaternion_algebras_over_global_fields / main_theorem_14_7_4]]
+- [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/proposition_14_2_1|voight_2021_quaternion_algebras_over_global_fields / proposition_14_2_1]]
 - [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/theorem_14_3_3|voight_2021_quaternion_algebras_over_global_fields / theorem_14_3_3]]
 - [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/theorem_14_3_8|voight_2021_quaternion_algebras_over_global_fields / theorem_14_3_8]]
 - [[../library/number_theory/voight_2021_quaternion_algebras_over_global_fields/theorem_14_6_9|voight_2021_quaternion_algebras_over_global_fields / theorem_14_6_9]]

@@ -1,3 +1,4 @@
+# evidence: entry
 """Exact and structural checks for the Owens 2014 reconstruction.
 
 The source is the 26-physical-page BYU master's thesis PDF beside this

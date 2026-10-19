@@ -11,7 +11,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-09-08T01:42:35Z
+updated: 2026-10-18T10:08:56Z
 ---
 
 # lean_authoring
@@ -39,11 +39,11 @@ does not establish its premises or close the final target.
   byte. This is faster than a fresh `lake exe cache get`.
 - Iterate with targeted builds: `lake build <module>`. A leaf builds in ~1-10 s
   once mathlib is cached.
-- Regenerate `lean/Manifest.json` with `lake exe audit --emit` after landing;
-  `--check` must be green at every commit. `--emit` needs a FULL `lake build`
-  first, because it imports every globbed module's `.olean`; a targeted build of
-  your own claim is not enough. Run that build with `LEAN_NUM_THREADS=4`, as
-  `lean/README.md` states.
+- Regenerate `lean/Manifest.json` with `lake exe audit --emit` before committing
+  a change to accepted modules; `--check` must be green at every commit.
+  `--emit` needs a FULL `lake build` first, because it imports every globbed
+  module's `.olean`; a targeted build of your own claim is not enough. Run that
+  build with `LEAN_NUM_THREADS=4`, as `lean/README.md` states.
 - The module docstring `/-! -/` comes AFTER the import block, never before it.
 - Instance names must be unique library-wide: the audit imports every glob
   module into one environment, so duplicate instance names across files collide
@@ -319,16 +319,16 @@ inside them honest.
   fix the clustered mechanical errors (def-unfold, Fin literals, omega
   nonlinearity, pin renames); factor analytic cores into small `have`s with
   explicit positivity facts — those compile essentially first-try.
-- **The legacy `statement.sha256` is BLIND inside named parts**: it fingerprints
+- **The plain `statement.sha256` is BLIND inside named parts**: it fingerprints
   `ppExpr` of the `statement` body without delta-unfolding, so for the
   named-parts shape (`statement := partA ∧ partB ∧ ...`) the digest renders only
   the part names and is invariant under ANY edit inside a part — a part-body
-  edit ships a byte-identical legacy field. The additive
-  `statement.sha256Unfolded` field closes this class: it delta-unfolds every
-  constant in the claim's own `Erdos.L<id>` namespace before digesting (the
-  `deltaExpand` step of `lean/Audit/Main.lean`). Never cite the legacy field as
-  statement-fidelity evidence for a named-parts claim; the Fidelity pins and
-  hand-transcription probes remain the actual defense.
+  edit ships a byte-identical `statement.sha256`. The `statement.sha256Unfolded`
+  field closes this class: it delta-unfolds every constant in the claim's own
+  `Erdos.L<id>` namespace before digesting (the `deltaExpand` step of
+  `lean/Audit/Main.lean`). Never cite `statement.sha256` as statement-fidelity
+  evidence for a named-parts claim; the Fidelity pins and hand-transcription
+  probes remain the actual defense.
 - **Statement digests and the bare shared namespace.** Constants in the bare
   `Erdos` namespace (shared coordinates, connector decls) are tracked by neither
   statement digest: `sha256Unfolded` unfolds the claim's own namespace only, so
@@ -397,7 +397,7 @@ discovery before a proof is complete; dedicated formalization follows
 
 An allocated L-number identifies one precise project proposition under
 [[anatomy]]. Its declaration namespace is `Erdos.L<n>`, independent of its
-subject folder or linked catalog E-numbers. The formal surface is:
+subject folder or linked erdosproblems.com E-numbers. The formal surface is:
 
 ```text
 def Erdos.L<n>.statement : Prop

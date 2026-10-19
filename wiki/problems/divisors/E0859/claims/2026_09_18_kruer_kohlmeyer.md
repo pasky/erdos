@@ -33,7 +33,7 @@ links:
   kind: discussion
   date: 2026-09-27
 created: 2026-10-07T06:53:16Z
-updated: 2026-10-08T03:53:58Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -62,9 +62,9 @@ over one period.
 **The formal statement.** The Lean file proves the negation of the
 formal-conjectures statement `Erdos859.erdos_859`
 ([`FormalConjectures/ErdosProblems/859.lean`](https://github.com/google-deepmind/formal-conjectures/blob/6fbb54f24ccc2e64dcfaffc28c58950e377110d2/FormalConjectures/ErdosProblems/859.lean)
-at the formal-conjectures commit of 18 September 2026; the record pins a catalog
-commit that the public repository does not contain, and the statement it
-displays is the one in this file):
+at the formal-conjectures commit of 18 September 2026; the record pins a
+formal-conjectures commit that the public repository does not contain, and the
+statement it displays is the one in this file):
 
 ```lean
 ∃ c₁ > 0, ∃ c₂ > 0, ∃ d, (∀ t > 0, (Erdos859.DivisorSumSet t).HasDensity (d t)) ∧
@@ -106,12 +106,12 @@ core, Mathlib and formal-conjectures included, and accepted them all. The
 target's axioms are exactly `propext`, `Classical.choice` and `Quot.sound`. Its
 type, and every definition its statement reaches, are identical to the
 formal-conjectures statement of Conjectures.io's task, at the formal-conjectures
-commit the task pins, which Conjectures.io builds from a public catalog commit
-and an audit patch and the replay reproduced exactly. **The formal statement.**
-above reads that statement as the erdosproblems.com wording clause by clause;
-the replayed closure contains both estimates and the proof that every density
-$d_t$ exists, so the negation is not vacuous. Acceptance rests on this replay
-and that check.
+commit the task pins, which Conjectures.io builds from a public
+formal-conjectures commit and an audit patch and the replay reproduced exactly.
+**The formal statement.** above reads that statement as the erdosproblems.com
+wording clause by clause; the replayed closure contains both estimates and the
+proof that every density $d_t$ exists, so the negation is not vacuous.
+Acceptance rests on this replay and that check.
 
 The certification by the bounty site Conjectures.io is reported, not counted.
 Its Lean kernel verified the proof on 18 September 2026 under Lean 4.33.1 with

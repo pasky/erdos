@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 101
@@ -42,13 +42,19 @@ https://www.erdosproblems.com/101.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/101.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/geometric_configuration_interfaces/rich_lines|Rich lines and
+real-planar realization]] account records the following scope. The known lower
+bound $n^{2-c/\sqrt{\log_2 n}}$ rules out a fixed power saving. Its ratio to
+$n^2$ tends to zero, so that lower bound alone neither proves nor refutes the
+proposed little-$o$ bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

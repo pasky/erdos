@@ -6,7 +6,7 @@ desc: |
   allowed steps and no collinear triple, disproving Problem 193.
 license: CC-BY-4.0
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-08T03:55:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Cambie–Kalviainen small-step walk
@@ -42,7 +42,7 @@ Attribution 4.0 license.
 The source's single theorem is retained as
 [[discrete_geometry/cambie_kalviainen_2026_small_step_walk/theorem_1|Theorem
 1]], with a complete local reconstruction of the proof on pp. 1–2. The
-reconstruction and its exact catalog consequence received
+reconstruction and its exact erdosproblems.com consequence received
 **refutation-failed** in independent review on 2026-09-08; a distinct grader
 passed the report contract and independence. The
 [[discrete_geometry/cambie_kalviainen_2026_small_step_walk/evidence/verify/source_proof_review|retained

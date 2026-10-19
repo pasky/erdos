@@ -11,7 +11,7 @@ status: open
 claim: none
 parts: [powers_of_two, factorial]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 264
@@ -83,6 +83,32 @@ Their Theorem 2.4 allows a rational sum with denominators asymptotic to $n!$,
 but the perturbations it constructs are not bounded, so it does not answer the
 factorial case. See
 [[../library/irrationality/kovac_2024_several_irrationality_problems_ahmes_series/_index|Kovač–Tao]].
+
+## Scope of the irrationality criterion
+
+The negative criterion in
+[[../library/irrationality/kovac_2024_several_irrationality_problems_ahmes_series/_index|Kovač–Tao's
+Theorem 2.5]] applies to $a_n=2^n$, since $a_n^2\sum_{k>n}a_k^{-2}=1/3$. Its
+proof and geometric example were read, with the earlier lemma dependency not
+independently audited. This preserves the recorded negative answer for that
+sequence.
+
+For the exact factorial sequence, however,
+
+$$
+0<(n!)^2\sum_{k>n}\frac1{(k!)^2}
+ \le\sum_{j\ge1}(n+1)^{-2j}
+ =\frac1{(n+1)^2-1}\longrightarrow0.
+$$
+
+The same criterion therefore fails, as does bounded successive ratio. A
+sequence asymptotic to $n!$ need not differ from it by a bounded additive
+amount, and an existential nearby sequence is not the exact factorial sequence.
+These elementary distinctions leave all bounded nonzero signed perturbations
+unresolved. The special perturbation $-1$, with the initial denominator
+repaired, already includes [[problems/irrationality/E0068/_index|Problem 68]];
+no factorial irrationality proof follows here.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

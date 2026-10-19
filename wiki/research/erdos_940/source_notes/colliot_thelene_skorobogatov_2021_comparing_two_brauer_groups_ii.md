@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Colliot-Thélène–Skorobogatov: Comparing
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Colliot-Thélène–Skorobogatov: Comparing the two Brauer groups, II
@@ -165,6 +165,17 @@ Section 5.3; those surrounding results lie outside the chapter excerpt.
 This source bears on
 [Problem 940](../../../problems/diophantine_problems/E0940/_index.md).
 
+The current E940 research uses Corollary 4.4.5 in its quadratic-compression
+obstruction. For the relevant smooth hypersurface, of dimension at least three
+over a field of characteristic zero, the corollary identifies its Brauer group
+with the Brauer group of the ground field. Combined with Theorem 3.5.4 from
+the preceding chapter, this keeps a chosen quaternion algebra division after
+passage to the hypersurface function field. The resulting valuation
+contradiction excludes a fixed at-most-four-dimensional positive
+quadratic-form encoding of a positive diagonal degree-$r$ form for $r\ge5$.
+This limits one proposed route to E940; it does not establish a density
+statement.
+
 For E940, write
 
 $$
@@ -184,6 +195,23 @@ $\operatorname{Br}(X)$ denote respectively torsion levels, algebraic
 varieties, and cohomological Brauer groups; they should not be identified with
 E940’s counting parameter or representation set.
 
-The paper proves no density estimate for $\mathcal S_r$, gives no
-parametrization or counting theorem for $r$-powerful numbers, and does not
-address the three-cubes barrier mentioned in E940’s status.
+A possible but only hypothetical use would be to encode representations of a
+fixed integer $N$ by rational or integral points on an auxiliary variety and
+then compactify it. Equations (4.9) and (4.12) could organize algebraic and
+transcendental Brauer obstructions on such a variety, while Theorem 4.3.10 could
+compare arithmetic Brauer classes with Galois-invariant geometric classes in
+characteristic zero. Corollary 4.4.5 might show that certain smooth
+complete-intersection models have no Brauer classes beyond those of the ground
+field. These tools concern existence obstructions for points on each fixed
+variety, however, and provide neither uniform estimates in $N$ nor bounds for
+the number of represented integers.
+
+In particular, the paper proves no density estimate for $\mathcal S_r$, gives
+no parametrization or counting theorem for $r$-powerful numbers, and does not
+address the three-cubes barrier mentioned in E940’s status. Even triviality of
+an auxiliary variety’s Brauer obstruction would not imply that it has a rational
+or integral point, much less that the exceptional set has density one. Thus the
+relation to E940 is weak: the source supplies general arithmetic-geometric
+obstruction machinery that might become relevant after a suitable geometric
+reformulation, but it does not presently advance or resolve the stated density
+problem.

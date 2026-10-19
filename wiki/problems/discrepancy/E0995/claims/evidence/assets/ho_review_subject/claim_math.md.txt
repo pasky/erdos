@@ -1,0 +1,29 @@
+Boon Suan Ho, *Counterexamples for lacunary dilates via dyadic spike blocks*,
+arXiv:2604.18535 (v1 of 20 April 2026, v2 of 21 April 2026), answers the
+example question of [[problems/discrepancy/E0995/_index|Problem 995]] in the
+negative. Theorem 1.6 of v2 (Theorem 1.5 of v1, for $p=2$ only) constructs,
+for every $2\le p<\infty$, a real mean-zero $f\in L^p(\mathbb T)$ and a
+lacunary integer sequence $(n_j)$ with $n_{j+1}/n_j\ge2$ such that, for almost
+every $x$,
+
+$$
+\limsup_{N\to\infty}\frac{\sum_{j\le N}f(n_jx)}{N(\log N)^{1/p-\varepsilon}}
+=+\infty\qquad\text{for every }\varepsilon>0.
+$$
+
+At $p=2$, fix $0<\varepsilon<1/2$, for example $\varepsilon=1/4$. Then
+$N(\log N)^{1/2-\varepsilon}$ grows faster than $N\sqrt{\log\log N}$, so
+the partial sums of this $f$ are not
+$o(N\sqrt{\log\log N})$ almost everywhere, and Section 7 of v2 (Section 6 of
+v1) draws that conclusion for the problem. 
+[cut]
+
+**Covers.** The example question: for a lacunary sequence and a mean-zero
+$f\in L^2$ the sums $\sum_{k\le N}f(\{\alpha n_k\})$ need not be
+$o(N\sqrt{\log\log N})$ for almost all $\alpha$, since Theorem 1.6 of v2 at
+$p=2$ gives a pair for which the sums exceed $N(\log N)^{1/2-\varepsilon}$
+infinitely often almost everywhere. 
+[cut]
+
+**Depends on.** Nothing in this wiki; the result rests on the preprint alone.
+

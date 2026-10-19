@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 528
@@ -67,13 +67,17 @@ https://www.erdosproblems.com/528.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/geometric_configuration_interfaces/self_avoiding_walks|walk
+concatenation and displacement bounds]] account records the following scope.
+Splitting a walk gives c_(m+n) <= c_m c_n, hence C_k=inf c_n^(1/n).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

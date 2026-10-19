@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-09-08T01:42:35Z
+updated: 2026-10-14T17:41:39Z
 ---
 
 # verification
@@ -119,19 +119,19 @@ For a review seeking tier 1, the assignment contains:
    Standing, Status, History and Roadmap text and its front-matter tier are
    outside the reviewer's subject. The commissioner, or a preparer distinct from
    the reviewer, builds the extraction to this cut and names its path in the
-   assignment. The reviewer reads the supplied extraction and does not extract
-   card files itself, since a card file carries its own standing and tier. The
-   same cut applies when the subject is a problem page or a source card: its
-   statement, formulation and mathematical sections (proof and result pages,
-   evidence excluding `evidence/verify/`) travel; its status field, Current
-   assessment, standing, acceptance and review-report sentences do not. A lead
-   page joins the same cut: its body and its evidence excluding
-   `evidence/verify/` travel; its status field or lead metadata
-   (`research_state`, `review_status`, `last_reviewed`), its Current assessment
-   or Current review section, and its standing and review-report sentences do
-   not. A preserved snapshot under `evidence/assets/`, named by its path, may
-   stand for frozen text the tree no longer holds, provided its relation to the
-   reviewed subject is explicit.
+   assignment. The reviewer reads the supplied extraction and never extracts
+   anything from the repository itself: a card file carries its own standing and
+   tier, and the subject's other files carry text outside this cut. The same cut
+   applies when the subject is a problem page or a source card: its statement,
+   formulation and mathematical sections (proof and result pages, evidence
+   excluding `evidence/verify/`) travel; its status field, Current assessment,
+   standing, acceptance and review-report sentences do not. A lead page joins
+   the same cut: its body and its evidence excluding `evidence/verify/` travel;
+   its status field or lead metadata (`research_state`, `review_status`,
+   `last_reviewed`), its Current assessment or Current review section, and its
+   standing and review-report sentences do not. A preserved snapshot under
+   `evidence/assets/`, named by its path, may stand for frozen text the tree no
+   longer holds, provided its relation to the reviewed subject is explicit.
 4. The complete audit checklist and report contract on this page, without a
    shortened substitute.
 5. The claim's durable verification home, normally `evidence/verify/`, and
@@ -238,11 +238,14 @@ now `wiki/`. In the tree itself, every path that resolved before the swap was
 updated in place, so a filed record's subject paths read under the new names
 while its date stays. A path tied to a revision (`<rev>:path`, a `git archive`
 or `git show` line, a frozen extraction) keeps the layout of that revision's
-day. Under the earlier note's rule, one record keeps the old name `wiki` as
-history, as a bare `wiki/` (under
-`wiki/research/leads/polynomial_product_prime_value_condition/`), and one
-retained copy keeps six page paths as received. No stub marks a retired name, no
-index page lists these edits, and no statement, check or verdict changed.
+day. Under the earlier note's rule, three records keep the old name `wiki` as
+history, two as a bare `wiki/` (under `wiki/research/erdos_18/` and
+`wiki/research/leads/polynomial_product_prime_value_condition/`) and one as the
+word without a slash (under
+`wiki/theory/integer_sequences/L21_roots_of_unity_proportional_dissociation/`),
+and one retained copy keeps six page paths as received. No stub marks a retired
+name, no index page lists these edits, and no statement, check or verdict
+changed.
 
 <!-- end swap note -->
 
@@ -711,10 +714,10 @@ artifact fidelity while assuming stated surrounding premises. It reports only
 that scope and does not certify an omitted full proof. Dedicated formalization
 follows independent mathematical verification of the argument; exploratory Lean
 can help discovery earlier under [[lean_authoring]]. A new project proof or
-disproof claimed to resolve a catalog problem requires independent scrutiny of
-the whole conclusion and exact formulation before being presented as an accepted
-project solution. This does not make source-supported problem status depend on
-assigning a new local claim tier.
+disproof claimed to resolve an erdosproblems.com problem requires independent
+scrutiny of the whole conclusion and exact formulation before being presented as
+an accepted project solution. This does not make source-supported problem status
+depend on assigning a new local claim tier.
 
 The native tier contracts in [[anatomy]] require evidence about the exact claim.
 Existing review labels retain the scope their records establish; they are
@@ -748,6 +751,80 @@ The binding convention that names this gold set here is `AGENTS.md` convention 9
 repository keeps, each with the program that recomputes the object and what the
 digest covers:
 
+- The Problem 699 computations: the fields `interval_partition_sha256`,
+  `partition_sha256`, `row_bounds_sha256` and `boundary_pairs_sha256`, digests
+  of the interval partitions, row-bound tables and boundary pair sets the
+  programs enumerate without storing them, carried by the 38 JSON records
+  `wiki/research/erdos_699/computations/erdos_699_*.json` and written or checked
+  by these eleven programs, of which `erdos_699_prime_pair_log_strips.py`
+  recomputes a boundary pair set against the digest an earlier record holds:
+  - `wiki/research/erdos_699/computations/erdos_699_bft_prime_bootstrap.py`
+  - `wiki/research/erdos_699/computations/erdos_699_effective_intervals.py`
+  - `wiki/research/erdos_699/computations/erdos_699_i10_numerical_pairs.py`
+  - `wiki/research/erdos_699/computations/erdos_699_i_ge_35.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_7_finite_intervals.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_7_polynomial_bounds.py`
+  - `wiki/research/erdos_699/computations/erdos_699_nine_newton_farkas_bound.py`
+  - `wiki/research/erdos_699/computations/erdos_699_off_diagonal_gcd_bootstrap.py`
+  - `wiki/research/erdos_699/computations/erdos_699_prime_pair_log_strips.py`
+  - `wiki/research/erdos_699/computations/erdos_699_prime_pair_strips.py`
+  - `wiki/research/erdos_699/computations/erdos_699_window_intervals.py`
+- The same two Problem 699 partition fields, written through the interval and
+  bootstrap routines these ten programs import: `interval_partition_sha256` by
+  the first six and `partition_sha256` by the last four, of which the two
+  `base_pairs_numerical` programs copy the bootstrap's digest into their
+  records:
+  - `wiki/research/erdos_699/computations/erdos_699_further_intervals.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_11_complete.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_12_complete.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_14_finite.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_16_complete.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_9_finite_intervals.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_14_gcd_bootstrap.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_7_base_pairs_numerical_bootstrap.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_7_base_pairs_numerical.py`
+  - `wiki/research/erdos_699/computations/erdos_699_index_7_base_pairs_numerical_relaxed.py`
+- The Problem 699 joint witness sequences: the field `witness_sequence_sha256`
+  of each direction record in
+  `wiki/research/erdos_699/computations/erdos_699_index_7_height_cover.json` and
+  `wiki/research/erdos_699/computations/erdos_699_index_9_height_cover.json`,
+  the digest of that direction's regenerated witness sequence (9,811,438
+  witnesses at seven and 11,599,987 at nine, not stored); written by
+  `wiki/research/erdos_699/computations/erdos_699_index_7_height_cover.py` and
+  `wiki/research/erdos_699/computations/erdos_699_index_9_height_cover.py`, and
+  compared with a fresh regeneration by the combined checkers
+  `wiki/research/erdos_699/computations/erdos_699_index_7_complete.py` and
+  `wiki/research/erdos_699/computations/erdos_699_index_9_complete.py` in their
+  default run (about an hour of processor time per index) and by the seven
+  driver's `--replay` mode.
+- The Problem 699 prime-log cache: the `prime_log_certificate` and
+  `prime_power_certificate` dictionaries of ten records under
+  `wiki/research/erdos_699/computations/`, whose `*_sha256` entries digest the
+  arrays of the directed prime-log cache and its prime-power addendum (the prime
+  sieve, prefix sums, logarithm tables, compact words, weights and prime
+  powers), built under the ignored `tmp/erdos699/` and never committed; written
+  by `wiki/research/erdos_699/computations/erdos_699_bft_prime_bootstrap.py`,
+  `wiki/research/erdos_699/computations/erdos_699_compact_prime_prefix.py` and
+  `wiki/research/erdos_699/computations/erdos_699_prime_power_addendum.py`
+  through the programs that build the cache, and compared as whole dictionaries
+  with a freshly built cache by `erdos_699_index_14_gcd_bootstrap.py`,
+  `erdos_699_index_7_initial_height_cover.py`,
+  `erdos_699_index_9_initial_height_cover.py`,
+  `erdos_699_index_7_height_cover.py`, `erdos_699_index_9_height_cover.py`,
+  `erdos_699_index_7_base_pairs_numerical.py` and
+  `erdos_699_index_7_base_pairs_numerical_relaxed.py` in the same directory;
+  `erdos_699_index_7_height_cover_cache.py` and
+  `erdos_699_index_7_height_cover_dense.py` there check the loaded cache arrays
+  against the same entries.
+- The Problem 699 polynomial coverage: the field `coverage_sha256` of
+  `wiki/research/erdos_699/computations/erdos_699_index_9_baseline.json` and
+  `wiki/research/erdos_699/computations/erdos_699_index_9_relaxed_baseline.json`,
+  the digest of the polynomial coverage of the 104,976 root cases (the
+  `positions:vector:k:gain` lines, not stored); recomputed and compared with the
+  record by
+  `wiki/research/erdos_699/computations/erdos_699_index_9_baseline.py`, and
+  written and compared by
+  `wiki/research/erdos_699/computations/erdos_699_index_9_relaxed_baseline.py`.
 - The three test messages the audit's SHA-256 routine recomputes at compile
   time: `lean/Audit/Sha256.lean` checks its digest routine against the FIPS
   180-4 vectors for the empty string, `abc` and the two-block message, so that

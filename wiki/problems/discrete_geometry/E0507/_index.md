@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T13:36:19Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 507
@@ -145,6 +145,14 @@ and the superseded exponent $8/7$ of Komlós, Pintz and Szemerédi [KPS81] on
 [[problems/discrete_geometry/E0507/claims/1981_12_01_komlos_pintz_szemeredi|its page]].
 The intermediate bound [CPZ23] (arXiv:2305.18253) gets no page: it is an
 unrefereed preprint superseded by the same authors' [CPZ24].
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/areas_and_tilings|area
+constraints and congruent tilings]] account records the following scope. The
+cited point-tube result supplies the known incidence route to an
+n^(-7/6+epsilon) upper bound; the disk/square comparison changes only a
+constant.
 
 <!-- BEGIN problem library links -->
 

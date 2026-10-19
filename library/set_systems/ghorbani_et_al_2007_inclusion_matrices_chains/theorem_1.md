@@ -8,7 +8,7 @@ desc: |
   normal form (I | O) with I of order C(v,t) whenever t <= k <= v - t, with
   Corollaries 1 and 2 on its p-rank and row space.
 created: 2026-10-08T17:13:27Z
-updated: 2026-10-08T17:13:27Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -93,4 +93,10 @@ doi:10.1016/j.jcta.2007.09.002; the edition read is named on the
 ## Bears on
 
 - [[../wiki/problems/integer_sequences/E0774/_index|Problem 774]]: no
-  statement about dissociated sets.
+  statement about dissociated sets. The unimodular submatrix built in this
+  proof is what the proof of
+  [[set_systems/ghorbani_et_al_2007_inclusion_matrices_chains/corollary_3|Corollary 3]]
+  uses, and the corpus's
+  [[../wiki/research/erdos_774/lemmas/moment_middle_layer|middle-layer determinant lemma]]
+  cites Corollary 3 with its proof for an index computation in a research
+  route on the problem.

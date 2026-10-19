@@ -6,7 +6,7 @@ desc: |
   value outside the base field when their averaged complete tails are
   small and a positive sequence enters sufficiently large signed gaps.
 created: 2026-09-17T15:54:43Z
-updated: 2026-10-07T20:53:41Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -95,4 +95,6 @@ The quantitative replacement of the tail hypothesis is
 
 **Bears on.** [[../wiki/problems/irrationality/E0249/_index|Problem 249]] as a possible
 transformation criterion. Its dense numerator sequence does not meet the
-sparsity hypothesis.
+sparsity hypothesis; the
+[[../wiki/research/leads/totient_binary_series/analytic_sources|research account]]
+states the remaining signed-transform and complete-tail obligations.

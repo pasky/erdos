@@ -1,0 +1,165 @@
+[cut]
+
+## Exact implication
+
+For real $x$, define
+
+$$
+h(x)=\#\{(a,b)\in\mathbb N^2:
+1\le a<b<x,\ (a,b)=1,\ \sigma(a)=\sigma(b)\},
+$$
+
+where $\sigma(n)$ is the sum of the positive divisors of $n$. Let
+$h_{\rm sf}(x)$ count the same pairs with both entries squarefree.
+
+Hypothesis $\mathrm A^+$ says that for every $0<\delta<1/4$ and every
+$\eta>0$, every sufficiently large real $y$ has at least $y^{1-\eta}$ primes
+$p\le5y$ satisfying $P^+(p+1)\le y^\delta$. Under this hypothesis, for every
+$\varepsilon>0$ and every sufficiently large real $x$,
+
+$$
+h(x)\ge h_{\rm sf}(x)>x^{2-\varepsilon}.
+$$
+
+This implication uses no weighted-dilation estimate. Such an estimate is needed
+only to supply its antecedent.
+
+## Many products and few divisor sums
+
+It suffices to fix $0<\varepsilon<1$: a conclusion with any smaller positive
+exponent loss also gives the conclusion when $\varepsilon\ge1$. Set
+
+$$
+B\ge8/\varepsilon,\qquad \eta=\varepsilon/16,\qquad
+\delta=\frac1{2B},\qquad L=\log x,\qquad y=L^B.
+$$
+
+The first three parameters are fixed before $x$ grows. In particular,
+$0<\delta<1/4$, $B(1-\eta)>2$ and $y^\delta=\sqrt L$. Let
+
+$$
+\mathcal P=\{p\text{ prime}:p\le5y,\ P^+(p+1)\le\sqrt L\},\qquad
+M=|\mathcal P|,\qquad k=\left\lfloor\frac L{\log(5y+1)}\right\rfloor.
+$$
+
+Hypothesis $\mathrm A^+$ gives $M\ge L^{B(1-\eta)}$ for all sufficiently large
+real $x$. Also
+
+$$
+k=\frac{L}{B\log L}(1+o(1)),\qquad
+(5y+1)^k\le x,\qquad M\ge2k
+$$
+
+eventually. Form $\mathcal A$ from all products of $k$ distinct members of
+$\mathcal P$. Unique factorization gives $N:=|\mathcal A|=\binom Mk$.
+Every member is squarefree, and the strict bound
+
+$$
+a\le(5y)^k<(5y+1)^k\le x
+$$
+
+holds once $k\ge1$, including when $x$ is an integer or $(5y+1)^k=x$.
+Using $\binom Mk\ge(M/k)^k$ and $\log k\le\log L$,
+
+$$
+\log N\ge k\log(M/k)
+\ge \left(1-\eta-\frac1B\right)L-o(L).
+$$
+
+For $a=\prod_{p\in S}p\in\mathcal A$, squarefreeness gives
+$\sigma(a)=\prod_{p\in S}(p+1)\le(5y+1)^k\le x$. Its prime divisors are all
+at most $\sqrt L$. Each exponent in a $\sqrt L$-smooth integer at most $x$
+is at most $L/\log2$, and there are at most $\sqrt L$ primes available.
+Thus the number of possible values of $\sigma(a)$ is bounded by
+
+$$
+U=\left(1+\frac L{\log2}\right)^{\sqrt L},\qquad \log U=o(L).
+$$
+
+If $r(s)=\#\{a\in\mathcal A:\sigma(a)=s\}$, Cauchy's inequality yields
+$\sum_s r(s)^2\ge N^2/U$ ordered equal-value pairs, including the diagonal.
+
+## Removing pairs with a large common support
+
+Put $t=\lceil\eta k\rceil$. For large $x$, $1\le t<k$. For a fixed member
+$a$, choose $t$ of its primes and then the remaining $k-t$ primes of a member
+$b$. This overcounts every pair sharing at least $t$ primes, so their number
+is at most
+
+$$
+N\binom kt\binom M{k-t}.
+$$
+
+After division by $N^2$, the fraction is at most
+
+$$
+\binom kt
+\prod_{i=0}^{t-1}\frac{k-i}{M-k+t-i}
+\le 2^k\left(\frac{2k}{M}\right)^t.
+$$
+
+Since $2k/M<1$ and $t\ge\eta k$, the logarithm of $2U$ times this last bound
+is at most
+
+$$
+(k+1)\log2+\log U
+-\eta k\bigl(B(1-\eta)\log L-\log(2L)\bigr)
+=-\eta\left(1-\eta-\frac1B\right)L+o(L).
+$$
+
+Its leading coefficient is negative. Consequently fewer than $N^2/(2U)$
+ordered pairs share at least $t$ primes. At least $N^2/(2U)$ ordered
+equal-value pairs share fewer than $t$ primes. In particular, these are
+off-diagonal: identical members share all $k$ primes.
+
+## Cancelling the gcd and controlling multiplicity
+
+For a retained pair let $g=(a,b)$ and write $a=gu$, $b=gv$.
+Squarefreeness of $a,b$ implies that $g,u,v$ are pairwise coprime and
+squarefree. Multiplicativity therefore gives
+
+$$
+\sigma(g)\sigma(u)=\sigma(a)=\sigma(b)=\sigma(g)\sigma(v),
+$$
+
+so $\sigma(u)=\sigma(v)$. Also $(u,v)=1$, $u\ne v$, and $u,v<x$.
+The common factor uses at most $t-1<\eta k$ primes, whence
+
+$$
+g<(5y+1)^{\eta k}\le x^\eta.
+$$
+
+For a fixed unordered reduced pair $\{u,v\}$ and a fixed positive integer
+$g\le x^\eta$, there are at most two ordered original pairs, $(gu,gv)$ and
+$(gv,gu)$. Hence the map to unordered reduced pairs has fibers of size at
+most $2\lfloor x^\eta\rfloor\le2x^\eta$. Each unordered reduced pair gives
+exactly one pair ordered by $u<v$ in the definition of $h_{\rm sf}$. Thus
+
+$$
+h_{\rm sf}(x)\ge\frac{N^2}{4Ux^\eta},\qquad
+\log h_{\rm sf}(x)
+\ge\left(2-3\eta-\frac2B\right)L-o(L).
+$$
+
+Finally,
+$3\eta+2/B\le3\varepsilon/16+\varepsilon/4=7\varepsilon/16<\varepsilon$,
+so the last inequality is strictly greater than $(2-\varepsilon)L$ for
+all sufficiently large real $x$. This proves the stated implication.
+
+
+[cut]
+
+## Quantifier interface
+
+For each fixed $\varepsilon$, the proof calls $\mathrm A^+$ only with
+$\delta=1/(2B)$ and $\eta=\varepsilon/16$, at the real argument
+$y=(\log x)^B$. These constants need not be uniform as $\varepsilon$ tends
+to zero. A result for infinitely many $y$ would not supply the eventual
+conclusion proved here.
+
+The argument handles real $x$ directly. Equivalently, the strict integer
+range in the definition gives $h(x)=h(\lceil x\rceil)$ and the same identity
+for $h_{\rm sf}$, so a natural-number version with $0<\varepsilon<1$ also
+extends to real $x$.
+
+[cut]

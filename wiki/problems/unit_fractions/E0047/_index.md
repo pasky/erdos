@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 47
@@ -34,11 +34,12 @@ exceeds $\delta\log N$; $S$ is a subset of $A$, hence a set of distinct
 integers. Write $R(A)=\sum_{a\in A}1/a$ for the reciprocal sum.
 
 **Status.** Proved. erdosproblems.com records "PROVED (LEAN)". The Lean suffix
-is a catalog label, qualified under Existing formalization below, and no local
-kernel credit is claimed. Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) gives
-a unit subsum from a reciprocal sum of order $\log N\log\log\log N/\log\log N$.
-This is below $\delta\log N$ for large $N$. Liu and Sawhney (Int. Math. Res.
-Not. 2026) lowered the threshold to $(\log N)^{4/5+o(1)}$. The claim pages
+is an erdosproblems.com label, qualified under Existing formalization below, and
+no local kernel credit is claimed. Bloom's Theorem 3 (J. Eur. Math. Soc. 27
+(2025)) gives a unit subsum from a reciprocal sum of order
+$\log N\log\log\log N/\log\log N$. This is below $\delta\log N$ for large $N$.
+Liu and Sawhney (Int. Math. Res. Not. 2026) lowered the threshold to
+$(\log N)^{4/5+o(1)}$. The claim pages
 [[problems/unit_fractions/E0047/claims/2021_12_07_bloom|Bloom 2021]] and
 [[problems/unit_fractions/E0047/claims/2024_04_10_liu_sawhney|Liu and Sawhney 2024]]
 record the two results, their postings and the acceptance evidence from which
@@ -251,8 +252,8 @@ at line 2042 of `src/final_results.lean`; Appendix B of the paper describes
 that verification. No formalization of the Liu–Sawhney threshold was found. The
 collection's README says its source subdirectories "build as a whole (last
 I checked)". This corpus has built, audited or kernel-checked none of it;
-the erdosproblems.com Lean suffix is a catalog label, and the community database
-records no formal-proof URL.
+the erdosproblems.com Lean suffix is an erdosproblems.com label, and the
+community database records no formal-proof URL.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

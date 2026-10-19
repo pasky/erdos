@@ -1,24 +1,20 @@
 ---
 name: problems/analysis/E1221
 title: Problem 1221
-desc: |
-  Asks whether $\Lambda_r-r$, $r-\lambda_r$ and $r(\mu_r-1)$ tend to infinity
-  for the de Bruijn–Erdős constants of the largest and smallest sums of $r$
-  consecutive gaps on the circle and their ratio; an unrefereed, unreviewed 2026
-  preprint claims all three for distinct points.
+desc: "Asks whether the three mean-normalized consecutive-gap expressions diverge. L165 has an independently graded tier-1 whole-conclusion warrant over all sequences; the full catalog claim remains pending."
 tags:
 - Analysis
-status: open
-claim: none
+status: claimed
+claim: proved
 created: 2026-09-28T03:26:53Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-18T10:09:26Z
 ---
 
 # Problem 1221
 
 [[problems/analysis/_index|..]]
 
-[[problems/analysis/E1221/claims/_index|claims/]]: The 1 claim page of Problem 1221, one per claimant's result; the problem's standing derives from them.
+[[problems/analysis/E1221/claims/_index|claims/]]: The 2 claim pages of Problem 1221, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -155,17 +151,29 @@ the erdosproblems.com wording nor Section 1 of [dBEr49] (numbers mod $1$; $n$
 intervals of total length $1$) excludes coincident points, while the 2026
 preprint [Ko26b] takes its infimum and supremum over sequences of distinct
 points; whether the constants over the two families agree is not settled in the
-sources.
+sources. The all-sequence local bounds recorded below do not require that
+equality: bounds universal over all sequences also hold on the distinct-point
+subclass.
 
-**Status.** The erdosproblems.com label was OPEN. A preprint [Ko26b]
+**Status.** A pending
+[[problems/analysis/E1221/claims/2026_10_19_plasma_ai|full claim by Plasma AI]]
+addresses the mean-normalized modified Statement over all sequences. Its
+ratio and one-sided inputs have separate whole-statement examinations and
+passing grades. The conjunction and its exact match to the supplied modified
+formulation have an independent examination with verdict **refutation-failed**
+and a distinct whole-contract **PASS** grade, examined on 2026-10-16 UTC.
+L165 records the native tier-1 warrant. Catalog acceptance remains pending;
+no accepted catalog solution is recorded.
+
+The erdosproblems.com label at the dated source check was OPEN. A preprint [Ko26b]
 (arXiv:2609.07196v2, 9 September 2026) claims all three parts of the modified
 Statement for sequences of distinct points. erdosproblems.com registers it as a
 full proof claim (submitted 2026-09-08). Here it is recorded as the pending
 partial claim [[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]],
-since its constants run over sequences of distinct points only, and the
-frontmatter standing is `open`. A search found no evidence of acceptance: the
-preprint is unrefereed, erdosproblems.com showed OPEN, the community database
-keeps open (2026-09-18), and no independent review exists.
+since its constants run over sequences of distinct points only. The dated
+source searches below found no external acceptance of that exact source
+claim. The preprint remains an unrefereed source; the local reproofs have
+their own scope and warrants.
 
 **Source.** [erdosproblems.com/1221](https://www.erdosproblems.com/1221),
 accessed 2026-09-27: the problem page (OPEN, with the erdosproblems.com note
@@ -259,7 +267,8 @@ distinct points
 ([[../library/analysis/korsky_2026_improved_lower_bound_debruijn_erdos_consecutive_gap_problem/theorem_1_1|Theorem 1.1 of Ko26a]]);
 $\mu_r\le1+c\log r/r$ for every $r\ge2$
 ([[../library/analysis/clement_steinerberger_2025_balanced_stick_breaking/theorem_2|Theorem 2 of ClSt25]]),
-so the third part can grow at most like $\log r/r$; small-$r$ upper bounds on
+so $\mu_r-1$ can grow at most like $\log r/r$, and the third expression
+$r(\mu_r-1)$ at most like $\log r$; small-$r$ upper bounds on
 $\inf_a\mu_r(a)$ in [Be26] (abstract only).
 
 **The claim.**
@@ -286,17 +295,31 @@ built on the ratio work. The two erdosproblems.com comments (10 September 2026)
 concern the speed of posting and the attribution of the AI's role, not the
 mathematics. Acceptance: none found (unrefereed; no journal reference; Crossref
 finds no published version; erdosproblems.com OPEN; community database open on
-2026-09-18; no independent review; no citing evaluation located). The claim's
+2026-09-18; no independent review found in that search; no citing evaluation
+located). The claim's
 scope is the distinct-point family (Formulation). The claim page
 [[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]] records it as a
-pending partial claim, which leaves the standing open.
+pending partial claim. This is separate from the complete local proofs with
+coefficient $1/200$ and their warrants.
 
 **Reconstructions.** The proofs of the three 1949 bounds, of the
 fixed-$r$ improvement [Ko26a], of the upper bound [ClSt25] and of the
 claimed resolution [Ko26b], each with the reading of the ambiguous
 statement it addresses and with its imported inputs labeled, are
-reconstructed (author-recorded, unreviewed; no status or tier follows)
-in [[research/erdos_1221/_index|the Problem 1221 research folder]].
+reconstructed in [[research/erdos_1221/_index|the Problem 1221 research folder]].
+Its earlier focused reviews cover the deductions at their stated imported
+premises. The complete all-sequence ratio chain, including an elementary
+finite-list discrepancy proof, is
+[[theory/analysis/L163_all_sequence_span_ratio/_index|L163]] at tier 1.
+The complete two one-sided chains, including a written-out planar $L^1$
+proof, are
+[[theory/analysis/L164_all_sequence_span_deviations/_index|L164]] at tier 1.
+Each has a whole-statement examination and distinct passing grade, with exact
+subjects and independence qualifications. Their conjunction is
+[[theory/analysis/L165_consecutive_gap_growth_conjunction/_index|L165]] at
+tier 1. Its whole-conclusion examination has verdict **refutation-failed**
+for the supplied modified Statement, accepted by the [distinct whole-contract grade](../../../theory/analysis/L165_consecutive_gap_growth_conjunction/evidence/verify/whole_statement/grade.md)
+on 2026-10-16 UTC.
 
 **Search scope.** erdosproblems.com (page, LaTeX source, history, discussion
 thread, proof-claims tab and its comments, the bibliography entry dBEr49, the
@@ -319,17 +342,20 @@ Scholar, X. Outside the search: the full texts of 2607.00775 and 2605.29166
 (abstracts only), the Brethouwer thesis, van Aardenne-Ehrenfest 1945/46, the
 author's earlier potential-function manuscript on Google Drive.
 
-**Remaining gaps.** (1) No independent review of [Ko26b]; the ratio part
-(Sections 2--5, the shorter of the two arguments) is the first candidate for
-review. (2) For [Ko26a] and [ClSt25] only the main theorems are checked, as
-statements; [Be26] and the other leads are known from their abstracts. (3) The
-normalization defect is inherited from [dBEr49], as the Notes record. (4) The
-claim page would move to accepted only on refereed publication of [Ko26b] or
-documented independent acceptance (an erdosproblems.com status change with
-review, or a reviewed reproof). (5) [Ko26b] proves its bounds for sequences of
-distinct points, and whether the constants over all sequences equal those over
-distinct sequences is not settled in the sources. (6) X was not searched for
-research announcements.
+**Remaining gaps.** Catalog acceptance of the proposed full conclusion is
+pending. L165's own whole-conclusion examination and passing grade include
+the exact match to the supplied mean-normalized question, beyond the
+separate warrants for its two native premises. The original-publication fidelity of
+the complete local chains was outside those examinations. Korsky's stronger
+coefficient $1/100$ still depends on an unchecked optimized finite-list input;
+the local coefficient $1/200$ avoids that input. Equality of the constants over
+all sequences and distinct-point sequences remains unsettled and is unnecessary
+for the local proof. The
+[[research/leads/consecutive_gap_bounds_coincident_points/_index|conditional extension lead]]
+retains the stronger route and its provisional premise. The normalization
+defect remains as recorded in the Notes. Other source-reading limits remain
+in the reconstruction pages and Search scope; the full texts of [Be26] and
+the other abstract-only leads, and announcements on X, were not examined.
 
 **Status check (2026-10-05).** On 2026-10-05 erdosproblems.com showed OPEN (last
 edited 7 September 2026) with the one full proof claim of 2026-09-08 and its two
@@ -391,6 +417,29 @@ of at most $1.755$ for distinct points, fixed $r$ only, known from its abstract.
   [[problems/analysis/E1221/claims/2026_09_08_korsky|claim page]]).
 - [Be26] (abstract only; lead): explicit upper bounds on $\inf_a\mu_r(a)$
   for small $r$ from a family of sequences whose $\mu_r(a)$ is computable.
+- [[theory/analysis/L163_all_sequence_span_ratio/_index|L163]] and
+  [[theory/analysis/L164_all_sequence_span_deviations/_index|L164]] (tier 1,
+  separate whole-statement warrants): for all sufficiently large $r$, every
+  sequence, including repeated points, has the two separate deviation limsups
+  at least $c\sqrt{\log r}$ and ratio limsup at least
+  $1+\log r/(200r)$. Their combined conclusion and extremum consequences are
+  [[theory/analysis/L165_consecutive_gap_growth_conjunction/_index|L165]]
+  (tier 1), with its own passing whole-conclusion grade for the supplied
+  modified formulation and a pending full catalog claim.
+
+**Finite-prefix source interface.**
+[[research/erdos_1221/larcher_finite_prefix_interface|The Larcher interface note]]
+records Section 3's explicit finite-list step and the weaker positive-constant
+input sufficient for qualitative ratio growth. Its optimized constant remains
+outside the complete local reproof. The
+[[research/erdos_1221/finite_list_prefix_bound|elementary finite-list proof]]
+instead supplies the ratio chain in L163, and the
+[[research/erdos_1221/halasz_planar_l1_bound|written-out planar proof]]
+supplies the one-sided chain in L164. Each complete chain includes repeated
+points and its own independent warrant. The conjunction and its supplied
+problem-formulation comparison have their own whole-conclusion examination
+and distinct passing grade; catalog acceptance remains pending.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -410,5 +459,8 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/analysis/korsky_2026_improved_lower_bound_debruijn_erdos_consecutive_gap_problem/theorem_1_1|korsky_2026_improved_lower_bound_debruijn_erdos_consecutive_gap_problem / theorem_1_1]]
 - [[../library/analysis/korsky_2026_resolution_debruijn_erdos_consecutive_gap_problem/_index|korsky_2026_resolution_debruijn_erdos_consecutive_gap_problem]]
 - [[../library/analysis/korsky_2026_resolution_debruijn_erdos_consecutive_gap_problem/theorem_1_1|korsky_2026_resolution_debruijn_erdos_consecutive_gap_problem / theorem_1_1]]
+- [[../library/analysis/larcher_2014_star_discrepancy_sequences_unit_interval/_index|larcher_2014_star_discrepancy_sequences_unit_interval]]
+- [[../library/discrepancy/bilyk_2011_roth_orthogonal_function_method/_index|bilyk_2011_roth_orthogonal_function_method]]
+- [[../library/discrepancy/bilyk_2011_roth_orthogonal_function_method/equation_1_14|bilyk_2011_roth_orthogonal_function_method / equation_1_14]]
 
 <!-- END problem library links -->

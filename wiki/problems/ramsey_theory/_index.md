@@ -7,7 +7,7 @@ desc: |
   of Schur and Rado type; Euclidean Ramsey problems and colorings of the
   plane are filed with discrete geometry.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T23:01:39Z
+updated: 2026-10-15T23:59:17Z
 ---
 
 # Ramsey Theory
@@ -322,8 +322,8 @@ most $\sqrt n$ vertices spanning $\gg\sqrt n\log n$ edges.
 [[problems/ramsey_theory/E0809/_index|E0809/]]: Asks whether, for every $k\ge3$,
 the fewest colors that make every $C_{2k+1}$ rainbow in some $n$-vertex graph
 with $\lfloor n^2/4\rfloor+1$ edges is asymptotically $n^2/8$. Proved by two
-Lean developments built and audited here: Asad Shahab's, filed first, and the
-project's claim L17.
+independent Lean developments built and audited here: the project's claim L17,
+published first, and Asad Shahab's, filed first on erdosproblems.com.
 
 [[problems/ramsey_theory/E0810/_index|E0810/]]: Asks whether there is an
 $\epsilon>0$ such that, for all large $n$, some graph on $n$ vertices with at
@@ -413,9 +413,10 @@ closing question.
 
 [[problems/ramsey_theory/E1183/_index|E1183/]]: Asks to estimate the size of the
 largest monochromatic family closed under unions and intersections that every
-two-coloring of the subsets of $\{1,\ldots,n\}$ must contain. The estimates are
-open, with nothing proved beyond the trivial chain bound, and two pending 2026
-claims answer the displayed questions.
+two-coloring of the subsets of $\{1,\ldots,n\}$ must contain. The exact orders
+remain open. A graded examination supports the claimed superpolynomial
+union-family lower bound and the subexponential upper argument with its explicit
+Sauer–Shelah premise; catalog acceptance remains pending.
 
 [[problems/ramsey_theory/E1198/_index|E1198/]]: Asks whether every two-coloring
 of $\mathbb{N}$ admits an infinite set all of whose sums of products of distinct

@@ -1,0 +1,19 @@
+{
+  "r": 12,
+  "deleted_row": ["q", "u0", "u1", "u2", "u3", "u4", "v0", "v1", "v2", "v3", "v4"],
+  "receiving_row": ["j0", "j1", "j2", "j3"],
+  "test_set": ["t0", "t1", "t2", "t3", "t4", "t5", "t6", "t7", "t8", "t9", "t10", "t11"],
+  "exceptions": ["x", "y"],
+  "missing_test_edges": [["t0", "t1"]],
+  "row_test_edges": [
+    ["u0", "t2"], ["u1", "t3"], ["u2", "t4"],
+    ["u3", "t5"], ["u4", "t6"], ["v0", "t7"],
+    ["v1", "t8"], ["v2", "t9"], ["v3", "t10"], ["v4", "t11"]
+  ],
+  "exception_neighbors": {
+    "x": ["q", "v0", "v1", "v2", "v3", "v4", "j0", "j1", "j2", "j3", "t2", "t3"],
+    "y": ["q", "u0", "u1", "u2", "u3", "u4", "j0", "j1", "j2", "j3", "t4"]
+  },
+  "anchors": ["q", "j0", "t0", "t1"],
+  "scope": "Local cap obstruction only; underloaded and not minimum-anchor normalized."
+}

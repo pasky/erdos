@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Edmonds: partitioning a matroid into indepe
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Edmonds: partitioning a matroid into independent sets
@@ -23,3 +23,14 @@ which the paper's definition makes finite, can be partitioned into $k$
 independent sets exactly when every subset $A$ has rank at least $|A|/k$
 (equivalently $|A|\le k r(A)$).  This is the exact matroid analogue of the
 implication asked about in E0774.
+
+The theorem sharply identifies what must fail in any counterexample strategy.
+If dissociated subsets were the independent sets of a matroid, proportional
+extraction would partition every finite subset into boundedly many dissociated
+sets, and since dissociation is a property of finite subsets, a compactness
+argument would extend this to a finite coloring of the whole infinite set.
+Therefore a successful construction must exploit non-matroidal behavior of
+signed relations—most concretely, a failure of circuit elimination—or use an
+encoding for which ordinary linear/matroid rank does not control dissociated
+rank.  Conversely, a positive proof could try to recover enough submodularity
+or an approximate partition theorem from the special additive circuit system.

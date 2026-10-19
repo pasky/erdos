@@ -1,0 +1,197 @@
+---
+name: research/erdos_1221/finite_list_prefix_bound
+title: "An elementary logarithmic bound for the prefix discrepancy of every finite list"
+desc: |
+  Every list of L points in [0,1), repeated entries allowed, has a prefix
+  whose counting discrepancy is at least floor(log_4 L)/16. Larcher's range
+  splitting with four equal integer blocks and a quadratic potential replace
+  his optimized auxiliary minimization; the bound supplies the finite-list
+  input of the all-sequence ratio argument for Problem 1221.
+problems: [1221]
+created: 2026-10-15T07:30:49Z
+updated: 2026-10-15T07:30:49Z
+---
+
+[[research/erdos_1221/_index|..]]
+
+***
+
+**Standing.** Proof by Plasma AI, included in the complete ratio-chain
+examination and distinct passing grade of
+[[theory/analysis/L163_all_sequence_span_ratio/evidence/verify/whole_statement/_index|L163]]
+on 2026-10-15. This page has no separate claim tier. That examination checked
+the supplied proof; the original publications remained unread by the reviewer
+and grader. The range decomposition is Lemma
+2.1 and Section 3 of Gerhard Larcher's
+[[../library/analysis/larcher_2014_star_discrepancy_sequences_unit_interval/_index|On
+the star discrepancy of sequences in the unit interval]], arXiv:1407.2094v1,
+which follows a method of Liardet. The quadratic potential and the four-block
+integer specialization below are this page's argument; no literature search
+was made for them. They replace Larcher's optimized minimization over
+admissible functions (his Lemmas 2.2--2.13), which has not been checked. The
+bound proved is weaker than Larcher's: its constant $1/(16\log4)\approx0.0451$
+is below his $0.0646$ and below the $1/16$ of Theorem 4.1 of Korsky's 2026
+preprint. Neither of those constants is verified here.
+
+## Statement
+
+For a finite list $z_1,\ldots,z_L\in[0,1)$, repeated entries allowed, put
+
+$$
+D_j(x)=\#\{i\le j:\ z_i<x\}-jx\qquad(1\le j\le L,\ 0\le x\le1),
+$$
+
+and let
+
+$$
+H_L(z_1,\ldots,z_L)=\max_{1\le j\le L}\ \sup_{0\le x\le1}|D_j(x)|
+$$
+
+be its maximum prefix counting error, the quantity of the
+[[research/erdos_1221/ko26b_lemma_4_2_reconstruction|Lemma 4.2 reconstruction]].
+
+**Proposition FP.** Every list of length $L\ge1$ in $[0,1)$ satisfies
+
+$$
+H_L\ \ge\ \frac{\lfloor\log_4L\rfloor}{16}\ \ge\ \frac{\log L}{16\log4}-\frac1{16}.
+$$
+
+There is no exceptional length and no condition on the entries.
+
+## Proof
+
+**The range functional.** For a list of length $N$ put
+
+$$
+R_N(x)=\max_{1\le j\le N}D_j(x)-\min_{1\le j\le N}D_j(x),\qquad
+P_N=\int_0^1R_N(x)\,dx .
+$$
+
+Since $R_N(x)\le2\max_j|D_j(x)|$, we have $P_N\le2H_N$.
+
+**Larcher's range lemma.** For nonempty sets $A_0,A_2\subseteq A$ and any
+real function $\phi$ on the finite set $A$,
+
+$$
+\max_A\phi-\min_A\phi\ \ge\ \tfrac12\Bigl(\max_{A_0}\phi-\min_{A_0}\phi\Bigr)
++\tfrac12\Bigl(\max_{A_2}\phi-\min_{A_2}\phi\Bigr)
++\tfrac12\Bigl|\max_{A_2}\phi-\max_{A_0}\phi\Bigr|
++\tfrac12\Bigl|\min_{A_2}\phi-\min_{A_0}\phi\Bigr| .
+$$
+
+Indeed $\max_A\phi$ is at least the larger of the two block maxima, which is
+their mean plus half their difference, and symmetrically $\min_A\phi$ is at
+most the mean of the two block minima minus half their difference.
+
+**Four blocks.** Let $N=4m$ and take the index blocks
+$A_0=\{1,\ldots,m\}$, $A_1=\{m+1,\ldots,3m\}$ and $A_2=\{3m+1,\ldots,4m\}$.
+Put
+
+$$
+f=\max_{j\in A_2}D_j-\max_{j\in A_0}D_j,\qquad
+g=\min_{j\in A_2}D_j-\min_{j\in A_0}D_j .
+$$
+
+We show $\int_0^1|f|\ge\frac18$ and $\int_0^1|g|\ge\frac18$ for every list.
+
+*Boundary values.* $D_j(0)=0$, and $D_j(1)=j-j=0$ because every entry is
+below $1$. Hence $f$ and $g$ vanish at $0$ and at $1$.
+
+*Between coordinates.* On an open interval containing no entry, each $D_j$ is
+affine with slope $-j$. A maximum or a minimum of finitely many affine
+functions is continuous and piecewise affine, with slope equal to minus an
+index active there. So $f$ and $g$ are continuous and piecewise affine on such
+an interval, and off finitely many points $-f'$ and $-g'$ equal $j_2-j_0$ for
+some $j_2\in A_2$ and $j_0\in A_0$. Hence they lie in $[2m+1,4m-1]$, in
+particular in $(0,N)$.
+
+*Jumps.* Each $D_j$ is left-continuous, so $f$ and $g$ are left-continuous. At
+a coordinate $v$, let $q_b(v)$ be the number of indices in $A_b$ whose entry
+equals $v$ ($b=0,1,2$). At $v$ every $D_j$ jumps up by
+$\#\{i\le j:\ z_i=v\}$, which is at least $q_0(v)+q_1(v)$ for $j\in A_2$ and at
+most $q_0(v)$ for $j\in A_0$. Taking maxima, or minima, of the shifted values
+gives
+
+$$
+h(v):=f(v+)-f(v)\ \ge\ q_1(v),\qquad g(v+)-g(v)\ \ge\ q_1(v).
+$$
+
+All jumps are therefore nonnegative, including those at coordinates with
+$q_1(v)=0$. A coordinate $v=0$ is included, with its jump from $f(0)=0$ to
+$f(0+)$; there is no coordinate at $1$.
+
+*The potential.* Put $F(s)=s|s|/2$, a $C^1$ function with $F'(s)=|s|$. On each
+interval between consecutive coordinates, and between $0$ or $1$ and the
+nearest coordinate, $F\circ f$ is continuous and piecewise $C^1$, so the
+fundamental theorem of calculus applies on it with one-sided limits at its
+ends. Summing over these intervals, the values at $0$ and $1$ contribute
+$F(0)=0$, and only the jumps remain:
+
+$$
+\int_0^1|f(x)|\,\bigl(-f'(x)\bigr)\,dx
+=\sum_v\Bigl(F\bigl(f(v+)\bigr)-F\bigl(f(v)\bigr)\Bigr)
+=\sum_v\int_{f(v)}^{f(v)+h(v)}|s|\,ds .
+$$
+
+An integral of $|s|$ over an interval of length $h\ge0$ is at least $h^2/4$,
+its value on the interval centered at $0$. Since $h(v)\ge q_1(v)$ and $q_1(v)$
+is a nonnegative integer, $h(v)^2\ge q_1(v)^2\ge q_1(v)$. Hence
+
+$$
+\int_0^1|f|\,(-f')\ \ge\ \frac14\sum_vq_1(v)=\frac{|A_1|}4=\frac m2 .
+$$
+
+As $0<-f'<4m$ almost everywhere, $\int_0^1|f|\ge(m/2)/(4m)=1/8$. The same
+argument, with the same jump bound, gives $\int_0^1|g|\ge1/8$.
+
+**One level of the recursion.** Apply the range lemma at each $x$ with
+$A=\{1,\ldots,N\}$ and integrate over $x$:
+
+$$
+P_N\ \ge\ \frac12\int_0^1\Bigl(\max_{A_0}D_j-\min_{A_0}D_j\Bigr)
++\frac12\int_0^1\Bigl(\max_{A_2}D_j-\min_{A_2}D_j\Bigr)
++\frac12\int_0^1|f|+\frac12\int_0^1|g| .
+$$
+
+The first integral is $P_m$ of the early list $z_1,\ldots,z_m$. For $j\in A_2$,
+$D_j=D_{3m}+D'_{j-3m}$, where $D'_k$ is the discrepancy function of the late
+list $z_{3m+1},\ldots,z_{4m}$; the common term $D_{3m}$ cancels from the range,
+so the second integral is $P_m$ of the late list. Therefore
+
+$$
+P_{4m}(z_1,\ldots,z_{4m})\ \ge\ \frac12P_m(z_1,\ldots,z_m)
++\frac12P_m(z_{3m+1},\ldots,z_{4m})+\frac18 .
+$$
+
+**Induction.** For $N=4^h$ every list satisfies $P_N\ge h/8$: the case $h=0$ is
+$P_1\ge0$, and the recursion with $m=4^{h-1}$ passes from $h-1$ to $h$ for the
+early and late sublists alike. Thus $H_{4^h}\ge P_{4^h}/2\ge h/16$.
+
+**Every length.** Given $L\ge1$, let $h=\lfloor\log_4L\rfloor$. The prefix of
+length $4^h\le L$ is itself a list in $[0,1)$, and $H_L$ maximizes over more
+prefixes, so $H_L\ge H_{4^h}\ge h/16\ge(\log_4L-1)/16$. $\square$
+
+## Remarks
+
+- **Integer rounding.** Block lengths are exact integers because only the
+  lengths $4^h$ are split; an arbitrary length loses at most $1/16$ through the
+  prefix restriction. Larcher's text writes block endpoints such as $a^{t-1}$
+  for real $a\in(3,4)$ and suppresses the rounding; nothing here needs those
+  adjustments.
+- **Repeated entries.** Repetitions enter only through the jump bound
+  $h(v)\ge q_1(v)$, which counts entries with multiplicity. No perturbation to
+  a list of distinct entries is needed, and no count of distinct jump
+  locations is used.
+- **What is not claimed.** The proposition is a weaker relative of Larcher's
+  finite-list estimate with a separate proof. It does not check Larcher's
+  optimized lemmas, his constant $0.0646$, or the bound $\frac1{16}\log L$ for
+  $L\ge L_0$ that Korsky's Theorem 4.1 states.
+
+## Role in Problem 1221
+
+In the
+[[research/erdos_1221/all_sequence_composition|all-sequence composition]],
+Proposition FP replaces the imported Theorem 4.1 of the ratio argument. Its
+constant $c_0=1/(16\log4)$ admits any ratio coefficient $\alpha<c_0/6$, for
+example $\alpha=1/200$ in place of the preprint's $1/100$; the comparison is
+written out there.

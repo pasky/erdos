@@ -15,10 +15,10 @@ free-form working notes; `theory/` holds precise original claims and their local
 evidence. The library is a second wiki beside it: `library/` files sources by
 subject, each with its card, digest and extracted results, and its file when an
 open license lets the library hold it, and the two wikis link each other through
-the wiki tool's external links. Catalog E-numbers, native L-claim identities,
-and source-owned result labels are distinct. `docs/` extends these instructions
-with repository rules and conventions, and `tools/` holds the shared package and
-its maintained commands.
+the wiki tool's external links. erdosproblems.com E-numbers, native L-claim
+identities, and source-owned result labels are distinct. `docs/` extends these
+instructions with repository rules and conventions, and `tools/` holds the
+shared package and its maintained commands.
 
 ### Read first
 
@@ -37,14 +37,26 @@ reading links do not expand that set.
 
 Aim at solving meaningful mathematical problems. Sustained attacks own editable
 proof sketches and may replace their decomposition or the existing strategy.
-Scouting can precede a sketch. Collaborators may build on explicit provisional
-premises; sharing or reusing a result does not trigger an independent audit.
-Attack first; spend on verification only when a result becomes load-bearing, is
-about to be built on or contested, or is claimed as a solution. Commission
-review when pivotal uncertainty threatens substantial wasted effort, and
-preserve the exact standing of every retained result. `docs/research.md`
-explains the method; `docs/anatomy.md` "Tiers" states when review is
-commissioned.
+Each round of work on an attack places the bet with the highest expected value
+toward solving its target and aims at tangible progress along its sketch, real
+distance toward the target, as `docs/research.md` "Develop the argument" defines
+it; agents tend to undershoot toward more reachable goals, and reaching one does
+not advance the target. Partial results and obstructions met on the way are kept
+at their exact standing, but they are not the round's goal. Where known methods
+stall, attempt boldly: seek connections not yet made to the problem and build
+new theory. A failed attempt is useful work when it meets the conditions in
+`docs/research.md` "Develop the argument", and every failed attempt ends in a
+post-mortem that asks whether to retry its angle or revise the sketch. Boldness
+governs what is attempted, never what is claimed. Scouting can precede a sketch
+and aims to lay one out. Independent examinations keep their charge to refute,
+and other non-research work its own product. Collaborators may build on explicit
+provisional premises; sharing or reusing a result does not trigger an
+independent audit. Attack first; spend on verification only when a result
+becomes load-bearing, is about to be built on or contested, or is claimed as a
+solution. Commission review when pivotal uncertainty threatens substantial
+wasted effort, and preserve the exact standing of every retained result.
+`docs/research.md` explains the method; `docs/anatomy.md` "Tiers" states when
+review is commissioned.
 
 ## Build & Development
 

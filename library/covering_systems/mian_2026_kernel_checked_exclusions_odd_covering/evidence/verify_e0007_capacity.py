@@ -1,3 +1,4 @@
+# evidence: entry
 """Replay the finite arithmetic in Mian–Siddique's odd-covering exclusion.
 
 Checked clauses: the odd non-deficient integers at most 10000 are exactly the

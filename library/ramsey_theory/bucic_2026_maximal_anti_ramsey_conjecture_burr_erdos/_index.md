@@ -6,7 +6,7 @@ desc: |
   counts.
 license: reserved
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-14T06:58:01Z
 ---
 
 # ramsey_theory/bucic_2026_maximal_anti_ramsey_conjecture_burr_erdos
@@ -66,13 +66,14 @@ a more involved "stability" argument, not given in the paper, that bypasses
 this "in the second case", leaving "the first case as the main bottleneck". The
 case k = 3 is proved by two accepted full claims on Problem 809, each with
 formalized evidence: [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_shahab|Shahab]]'s proof
-of the seven-cycle case with a Lean development for every k >= 3, filed first,
-and [[../wiki/problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|Plasma AI]]'s
-kernel-checked Lean proof covering every k >= 3. The
-introduction (p. 2) also records the trichotomy f(n, floor(n^2/4)+1, C_3) = 3
-("easy to see"), f(n, floor(n^2/4)+1, C_5) = floor(n/2)+3 for large n (Erdős
-and Simonovits, "see [6]") and the quadratic lower bound of the 1989 paper for
-longer odd cycles.
+of the seven-cycle case with a Lean development for every k >= 3, filed first
+on erdosproblems.com, and
+[[../wiki/problems/ramsey_theory/E0809/claims/2026_09_24_plasma_ai|Plasma AI]]'s
+independent kernel-checked Lean proof covering every k >= 3, published first on
+GitHub. The introduction (p. 2) also records the trichotomy f(n, floor(n^2/4)+1,
+C_3) = 3 ("easy to see"), f(n, floor(n^2/4)+1, C_5) = floor(n/2)+3 for large n
+(Erdős and Simonovits, "see [6]") and the quadratic lower bound of the 1989
+paper for longer odd cycles.
 
 Source: <https://arxiv.org/abs/2603.18952>.
 

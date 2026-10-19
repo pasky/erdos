@@ -6,7 +6,7 @@ desc: |
   character, conductor and height, for finite-order Hecke L-functions over
   Q(sqrt(-3)) and for all Dirichlet L-functions. Claims checked only.
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-07T20:33:22Z
+updated: 2026-10-19T04:18:48Z
 ---
 
 ***
@@ -135,13 +135,9 @@ obstruction removals inferred on this page and not stated in the manuscript,
 all unverified here, and each page's status rests on its own acceptance
 evidence.
 
-- [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]]: input. The
-  page records Plasma AI's observation that the Dirichlet part, uniform in
-  the conductor, puts a prime below $C_0(\log r)^8$ outside every proper
-  subgroup of $\mathbf F_r^*$ and so gives
-  $h(n)\le\max\{P(n),C(\log n)^8\}$, answering the third question for
-  every fixed $\epsilon>0$; the argument is the observation's, not the
-  manuscript's, and it answers neither of the other two questions.
+- [[../wiki/problems/integer_sequences/E0770/_index|Problem 770]]: background
+  only: neither the manuscript nor the page records a deduction from the
+  Dirichlet part for this problem.
 - [[../wiki/problems/integer_sequences/E0985/_index|Problem 985]]: background only:
   the Dirichlet part is a claimed zero-free half-plane uniform in the
   modulus, the kind of hypothesis under which small prime primitive roots

@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:55:41Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 13
@@ -67,8 +67,8 @@ collection marks the statement `research solved`. An outside Lean proof of the
 $N/3+C$ statement, not built here, is linked from the claim page. The claim page
 [[problems/integer_sequences/E0013/claims/2023_01_17_bedert|Bedert 2023]]
 records the acceptance with this preprint qualification. erdosproblems.com's
-(LEAN) suffix is a catalog label, explained under Formalization and the Lean
-label below.
+(LEAN) suffix is an erdosproblems.com label, explained under Formalization and
+the Lean label below.
 
 **Source.** [erdosproblems.com/13](https://www.erdosproblems.com/13), accessed
 2026-09-18: the problem page (labeled PROVED (LEAN), with erdosproblems.com's
@@ -130,8 +130,8 @@ https://www.erdosproblems.com/13, accessed 2026-09-18.
 - [Er95c], [Er97], [Er97e], [Er98]: Erdős's problem papers of 1995--1998
   cited by erdosproblems.com; not held (see Problem 12 for the entries).
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label; see
-"Formalization and the Lean label" below for the Lean files. The file
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below for the Lean files. The file
 [`ErdosProblems/13.lean`](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/13.lean)
 of formal-conjectures, at the linked revision of 17 September 2026, defines
 `IsForbiddenTripleFree (A : Finset ℕ) : Prop := ∀ a ∈ A, ∀ b ∈ A, ∀ c ∈ A, a < min b c → ¬ (a ∣ b + c)`
@@ -139,14 +139,13 @@ and declares
 `erdos_13 : ∃ C : ℝ, ∀ N : ℕ, ∀ A ⊆ Icc 1 N, IsForbiddenTripleFree A → (A.card : ℝ) ≤ (N : ℝ) / 3 + C`
 under `category research solved` with proof `sorry` and no `formal_proof`
 attribute, and the open variant `erdos_13.variants.general` (the $r$-fold
-question with $N/(r+1)+C$). On 18 September 2026 formal-conjectures
-registered Alexeev's `Erdos13.lean` (below) as the statement's
-`formal_proof`, so the file on `main` carries that attribute from that
-date. The community database (accessed 2026-09-18) lists the problem as
-"proved (Lean)", the statement as formalized and `formal_status` as Lean, as
-of last updates dated 23 August, 2 February and 23 August 2026, without
-recording when each state changed; it has no field for a formal proof's
-location. Nothing was built here.
+question with $N/(r+1)+C$). On 18 September 2026 formal-conjectures registered
+Alexeev's `Erdos13.lean` (below) as the statement's `formal_proof`, so the file
+on `main` carries that attribute from that date. The community database
+(accessed 2026-09-18) lists the problem as "proved (Lean)", the statement as
+formalized and `formal_status` as Lean, as of last updates dated 23 August, 2
+February and 23 August 2026, without recording when each state changed; it has
+no field for a formal proof's location. Nothing was built here.
 
 ## Current assessment
 
@@ -199,8 +198,8 @@ citing paper (Semantic Scholar returned none), or any dispute. Read depth:
 claims checked for Definition 1 and Theorems 1--2; the 40-page proof was not
 read.
 
-**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a
+**Formalization and the Lean label.** erdosproblems.com's (LEAN) suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
 statement with a `sorry` body and no `formal_proof` attribute. Boris
 Alexeev's collection `lean-proofs` holds, at its revision of 15 September
 2026 that the claim page links, `src/latest/ErdosProblems/Erdos13.lean`,

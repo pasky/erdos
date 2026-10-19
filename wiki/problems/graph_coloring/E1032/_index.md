@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1032
@@ -54,13 +54,16 @@ https://www.erdosproblems.com/1032.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/finite_graph_coloring_obstructions/_index|explicit Toft-family argument]]
+gives 4-chromatic edge-critical graphs on $4s$ vertices with
+$s^2+4s$ edges but minimum degree three, for odd $s\ge3$. It includes
+colorings after every type of edge deletion and exact checks for
+$s=3,5,7$. The dense bipartite core illustrates why a subgraph chosen
+only to improve minimum degree can lose the required chromatic number
+and criticality. This author-recorded obstruction does not rule out the
+requested constructions, and no broader standing survey is supplied.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

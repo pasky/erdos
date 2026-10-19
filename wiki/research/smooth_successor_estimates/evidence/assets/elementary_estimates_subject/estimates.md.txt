@@ -1,0 +1,125 @@
+[cut]
+
+# Elementary estimates for the smooth-successor extraction
+
+[cut]
+
+***
+
+This folder's results that are not drawn from a cited source are Plasma AI's,
+[cut]. The estimates themselves are
+OpenAI's, from Sections 2 and 7 of the
+[[../library/arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|weighted-dilation manuscript]],
+read in the retained library transcription; result and equation numbers refer
+to that manuscript. Classical theorems are cited by their standard statements.
+
+## Target
+
+The [[research/smooth_successor_primes/_index|smooth-successor route]] to
+[[problems/arithmetic_functions/E0824/_index|Problem 824]] derives Li and
+Zhuang's Hypothesis $\mathrm A^+$, and from it $h(x)>x^{2-\varepsilon}$ for
+every $\varepsilon>0$ and all large real $x$, from two source premises: the
+uniform shift-cancellation estimate (P) and the elementary estimates (E). This
+folder is the editable proof sketch for (E). Its target is (E) exactly as the
+[[research/smooth_successor_primes/signed_type_ii|signed Type II estimate]] and
+the
+[[research/smooth_successor_primes/successor_prime_extraction|extraction of primes 2u-1]]
+consume it, with their factor ranges, uniformity and order of choices:
+
+- **E1**, the block sieve (Lemma 2.9) at its five consumed scales;
+- **E2**, proxy discrepancy (Lemma 7.3): the restricted differences
+  $(I-B_I)\mathbf 1_K$ satisfy $(\mathrm D_B)$ for every interval restriction
+  $K$, every character of modulus at most $L^B$ and every twist up to $L^B$,
+  once the cell precision $S$ is large in terms of $B$, with the coefficient
+  bound independent of $S$;
+- **E3**, the densities (Lemma 7.4): the balanced prime proxy bound (7.16) with
+  an absolute constant, the cofactor bound (7.17) on the range
+  $w-\gamma\ge2\kappa+o(1)$, the identity (7.18) and the bound (7.19), and the
+  mesh step that sums the bins;
+- **E4**, candidate mass (Proposition 7.1) with comparison constants
+  independent of the exceptional band $j_{**}\ge j_0$, and the micro-band
+  comparison (7.25);
+- **E5**, the other Section 2 inputs: harmonic character sums
+  (Corollary 2.4), divisor moments (Lemma 2.5), Fourier separation (Lemma 2.8),
+  and the large-sieve application in Type I.
+
+## The sketch
+
+[cut] None uses premise (P), and none involves
+the sign of $2u\pm1$ beyond the size relation $x\le2u-1\le5x$.
+
+1. **E1.** The [[research/smooth_successor_estimates/block_sieve|block sieve]]
+   is derived with coefficients in $\{-1,0,1\}$, level $z^{4h+2}$, relative
+   error $c_1e^{-h}$ uniformly in growing even $h$, and the fixed $h=2$ upper
+   bound, with $c_1$ and the threshold for $h$ depending only on the density
+   constants. All five consumed instances are checked: cells and residue
+   classes at $z=W$ with $h=2\lceil T^2\rceil$, the per-prime sieve of the
+   composite subtraction, the preliminary sieve and ordinary rough integers at
+   $z=x^{b_1}$ with $h=2\lfloor1/(40b_1)\rfloor$, and the balanced box at
+   $h=2$.
+2. **E2.** The
+   [[research/smooth_successor_estimates/proxy_discrepancy|proxy discrepancy]]
+   is proved for every interval $K$ inside the ambient range
+   $[x^{b_1/4},x^{1-b_1/4}]$, which contains every restriction the extraction
+   makes, and for every $S\ge2B+2$; the extraction's choice $S>2B+3$ is
+   included. Principal characters cancel on full cells, with at most two cut
+   cells; nonprincipal characters are handled for the actual tests by
+   nondecreasing prime lists and Siegel–Walfisz on one last-prime interval,
+   and for the proxy by residue-class counts on every subinterval, as
+   absolute-error statements. The losses $L^{S+1}$ from the number of cells
+   meet savings $e^{-2T^2}$ and $x^{-b_1/4+o(1)}$ that beat every fixed power
+   of $L$.
+3. **E3.** The [[research/smooth_successor_estimates/proxy_densities|densities]]
+   are derived from short-cell prime counts with prime-number-theorem accuracy
+   $L^{-S-2}$ and a cube comparison of reciprocal-prime measures with $dt/t$.
+   The bound (7.17) is proved only where it is used, with $(\gamma,w)$ in the
+   compact set $\gamma\ge b_1$, $w-\gamma\ge\kappa$, $w\le1$; no density at
+   $w=\gamma$ is used. The identity (7.18) is the minimum-coordinate
+   decomposition with factor $l/l!$, and (7.19) follows from an ordinary lower
+   count by ordered prime lists and the block-sieve upper bound at $z=x^{b_1}$.
+   The balanced constant in (7.16) is $3$, independent of $\kappa$ and $S$.
+4. **E4.** The
+   [[research/smooth_successor_estimates/candidate_mass|candidate mass]]
+   is derived in a sampling model. The upper comparison uses one pure slot of
+   band $0$; the lower comparison restricts a fixed prefix and the P-part and
+   uses only the deterministic range of the tail, which contains the
+   exceptional slot because $j_{**}\ge j_0$. Both comparison constants and the
+   exponent $C_A$ are independent of $j_{**}$; only the threshold for $x$
+   depends on it.
+5. **E5.** The
+   [[research/smooth_successor_estimates/classical_inputs|Section 2 inventory]]
+   lists every consumed input with its parameters, derives the divisor moments
+   and Fourier separation, and writes out the Type I large-sieve application
+   with the order $D$, then the conductor split $C'$, then the Siegel–Walfisz
+   exponent.
+
+**Classical boundary.** The prime number theorem with error
+$O_A(y(\log y)^{-A})$, Mertens' estimates, Chebyshev's bound, the
+Siegel–Walfisz theorem and the multiplicative large sieve are used in their
+standard forms, with moduli and twists explicitly bounded by fixed powers of
+$L$. These are the only inputs not derived in this folder or on the pages it
+links.
+
+**Order of choices.** The reconstruction respects the extraction's order with
+no feedback: the candidate geometry, the prefix, $(j',\theta)$ and $j_0$; then
+$\kappa$, using the balanced constant, which depends only on the absolute bound
+in (7.16), the comparison constants of E4 and absolute sieve constants; then
+$b_1$, $b_*=b_1/3$, $j_{**}$ and the bin mesh; then the Type II saving, $K_0$,
+$D_0$ and the discrepancy exponent $B$ supplied by (P); then the extraction's
+choice $S>2B+3$ and the prime-number-theorem accuracy $A=S+2$; then
+$x\to\infty$. The proxy coefficient
+bound is $1$ and does not depend on $S$, so the choice of $S$ cannot change
+$B$.
+
+[cut]
+
+## Consequence for Problem 824
+
+With (E) reconstructed, the conditional chain of the
+[[research/smooth_successor_primes/_index|combined sketch]] rests on premise
+(P)[cut], on the classical theorems above, and on
+[cut] derivations: the signed Type II estimate, the
+extraction, this folder, and the written-out Li–Zhuang counting reduction. If
+(P) and these derivations hold, every sufficiently large real $x$ satisfies
+$h(x)>x^{2-\varepsilon}$ for each fixed $\varepsilon>0$, even with squarefree
+pairs. [cut] nothing here concerns Problem 821.

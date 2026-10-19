@@ -1,0 +1,111 @@
+{
+  "scope": "Interval certificate, using a separate finite prime-power certificate; no row enumeration.",
+  "finite_pair_certificate_file": "erdos_699_finite_prime_pairs_21.json",
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "maximum_nodes_per_index": 2000000,
+  "records": [
+    {
+      "i": 13,
+      "terminal_prime_lower_row": 113,
+      "inclusive_cap_power_of_ten": 27,
+      "visited_intervals": 1060961,
+      "certified_intervals": 530441,
+      "intervals_requiring_local_prime_pairs": 185878,
+      "minimal_prime_pair_vectors": 5,
+      "minimum_certified_log_margin": "0.000007410879185339611569207697484655055491997611148103608",
+      "interval_partition_sha256": "ea2f039bffe12e937ecc1b322675e2a20c179c4c291695e07f2e1f8cadaa9a0c",
+      "exact_singleton_rows": [
+        2060,
+        2058,
+        1332,
+        1036,
+        1035,
+        1032,
+        980,
+        738,
+        737,
+        736,
+        732,
+        495,
+        492,
+        396,
+        352,
+        330,
+        256,
+        255,
+        254,
+        253,
+        252,
+        251,
+        250,
+        246,
+        243,
+        201,
+        200,
+        162,
+        156,
+        155,
+        137,
+        136,
+        135,
+        133,
+        132,
+        131,
+        130,
+        129,
+        128,
+        126
+      ],
+      "total_partition_leaves": 530481,
+      "conclusion": "no bad triples",
+      "finite_prime_pairs": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          7,
+          11
+        ]
+      ],
+      "original_numerical_cap_power_of_ten": 1046,
+      "cofactor_saving_scaled": 13332,
+      "finite_pair_row_threshold": 39059469,
+      "exact_singleton_limit": 2100,
+      "exact_columns_checked": 8969
+    }
+  ],
+  "extra_finite_pair_certificate_file": "erdos_699_finite_prime_pairs_13_extra.json"
+}

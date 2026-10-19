@@ -4,10 +4,10 @@ title: "Colliot-Thélène–Skorobogatov: Comparing the two Brauer groups, II"
 desc: |
   Proves finite cokernel for the Brauer comparison map and that smooth complete
   intersections of dimension at least three in characteristic zero have only
-  constant Brauer classes.
+  constant Brauer classes, an input to the E940 compression obstruction.
 license: reserved
 created: 2026-09-22T00:00:00Z
-updated: 2026-10-08T18:42:15Z
+updated: 2026-10-08T17:21:06Z
 ---
 
 # Colliot-Thélène–Skorobogatov: Comparing the two Brauer groups, II
@@ -16,7 +16,8 @@ updated: 2026-10-08T18:42:15Z
 
 [[number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/corollary_4_4_5|corollary_4_4_5]]: For a smooth complete intersection X of dimension at least 3 in projective
 n-space over a field k of characteristic 0, the natural map Br(k) to Br(X)
-is an isomorphism.
+is an isomorphism; the E940 quadratic-compression obstruction uses it for a
+smooth diagonal hypersurface.
 
 [[number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/proposition_4_2_6|proposition_4_2_6]]: For a smooth, proper, geometrically integral variety X and a prime l other
 than the characteristic, the l-primary part of Br(X^s) is an extension of
@@ -196,9 +197,15 @@ proof is checked step by step. Nothing here is independently reviewed.
 
 **Bears on.**
 
-- [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the chapter
-  proves nothing about sums of $r$-powerful numbers, and neither question of
-  the problem is answered.
+- [[../wiki/problems/diophantine_problems/E0940/_index|#940]]: the
+  [[../wiki/research/erdos_940/quadratic_compression|quadratic-compression
+  note]] uses [[number_theory/colliot_thelene_skorobogatov_2021_comparing_two_brauer_groups_ii/corollary_4_4_5|Corollary 4.4.5]] (p. 117), with Theorem
+  3.5.4 of the preceding chapter, to show that for $r\ge5$ and positive
+  rationals $d_i$ the form $\sum_{i=1}^r d_iX_i^r$ is not a fixed
+  positive-definite rational quadratic form in at most four rational functions
+  over $\mathbb Q$. That limits one proposed route; the
+  chapter proves nothing about sums of $r$-powerful numbers, and neither
+  question of the problem is answered.
 
 **Results.**
 
@@ -226,6 +233,17 @@ proof is checked step by step. Nothing here is independently reviewed.
 ## Relation to E940
 
 This source bears on [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
+
+[[../wiki/research/erdos_940/quadratic_compression|The E940 quadratic-compression
+note]] uses Corollary 4.4.5 in its obstruction. For the relevant smooth
+hypersurface, of dimension at least three over a field of characteristic zero,
+the corollary identifies its Brauer group with the Brauer group of the ground
+field. Combined with Theorem 3.5.4 from the preceding chapter, this keeps a
+chosen quaternion algebra division after passage to the hypersurface function
+field. The resulting valuation contradiction
+excludes a fixed at-most-four-dimensional positive quadratic-form encoding of a
+positive diagonal degree-$r$ form for $r\ge5$. This limits one proposed route to
+E940; it does not establish a density statement.
 
 For E940, write
 

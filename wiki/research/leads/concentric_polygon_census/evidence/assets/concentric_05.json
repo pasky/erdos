@@ -1,0 +1,28 @@
+{
+  "family": "half_step_concentric",
+  "order": 5,
+  "field_order": 10,
+  "threshold": 5,
+  "generic_counts": [
+    5,
+    5
+  ],
+  "equations": 12,
+  "real_root_events": {
+    "negative": 12,
+    "zero": 0,
+    "positive": 12
+  },
+  "critical": [
+    {"events": [["P", 1, 2, 1]], "position": "below", "counts": [4, 5]},
+    {"events": [["P", 1, 1, 1], ["Q", 2, 0, 1]], "position": "below", "counts": [4, 4]},
+    {"events": [["Q", 1, 0, 1]], "position": "below", "counts": [5, 4]},
+    {"events": [["Q", 2, 1, 1]], "position": "below", "counts": [5, 4]},
+    {"events": [["P", 2, 2, 1]], "position": "inside", "counts": [4, 5]},
+    {"events": [["Q", 2, 2, 1]], "position": "inside", "counts": [5, 4]},
+    {"events": [["P", 2, 1, 1]], "position": "above", "counts": [4, 5]},
+    {"events": [["P", 1, 0, 1]], "position": "above", "counts": [4, 5]},
+    {"events": [["P", 2, 0, 1], ["Q", 1, 1, 1]], "position": "above", "counts": [4, 4]},
+    {"events": [["Q", 1, 2, 1]], "position": "above", "counts": [5, 4]}
+  ]
+}

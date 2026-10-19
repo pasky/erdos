@@ -8,7 +8,7 @@ desc: |
   proportion of each of infinitely many dyadic ranges give an irrational
   Cantor series; the growth condition cannot be dropped.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -72,4 +72,4 @@ Theorem 5.2 shows that $\sum_{n\ge1}(p_n/n!)^k$ is irrational for every
 integer $k\ge1$. This series differs from $\sum p_n^k/n!$, the series of
 Erdős's 1958 claim.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

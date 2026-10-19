@@ -6,7 +6,7 @@ desc: |
   when the lim inf of |b_n| over a_n is zero and b_n over a_(n-1) a_n
   tends to zero; the theorem closes one case of the proof of Theorem 5.1.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -57,5 +57,5 @@ The proof of
 than half the indices of a dyadic range, after showing that $a_n$ then
 grows fast.
 
-**Bears on.** No catalog problem directly; a tool in the proof of Theorem
-5.1.
+**Bears on.** No erdosproblems.com problem directly; a tool in the proof of
+Theorem 5.1.

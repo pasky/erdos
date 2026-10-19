@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 296
@@ -35,12 +35,13 @@ and Graham's guess ("No doubt $k=o(\log n)$ but we have not proved this",
 monograph printed p. 36).
 
 **Status.** The erdosproblems.com label was PROVED (LEAN), and it attaches to
-the estimate. The Lean suffix is a catalog label qualified under Existing
-formalization below. The Lean files are formalization links on the claim page,
-and no local kernel credit is claimed. The estimate is $k(N)=(1-o(1))\log N$. It
-follows from Bloom's Theorem 3 (J. Eur. Math. Soc. 27 (2025)) combined with a
-greedy removal argument. erdosproblems.com credits this observation to Hunter
-and Sawhney, and it is written out below. This is the accepted claim
+the estimate. The Lean suffix is an erdosproblems.com label qualified under
+Existing formalization below. The Lean files are formalization links on the
+claim page, and no local kernel credit is claimed. The estimate is
+$k(N)=(1-o(1))\log N$. It follows from Bloom's Theorem 3 (J. Eur. Math. Soc. 27
+(2025)) combined with a greedy removal argument. erdosproblems.com credits this
+observation to Hunter and Sawhney, and it is written out below. This is the
+accepted claim
 [[problems/unit_fractions/E0296/claims/2024_06_16_hunter_sawhney|Hunter and Sawhney]],
 recorded with the value answered. It determines $k(N)$ to first order. It also
 answers the closing question in the negative, since $k(N)/\log N\to1$ rules out
@@ -228,9 +229,9 @@ HasDisjointUnitDecomps N ⌊(1 - ε) * Real.log N⌋₊`
 
 with a comment recording the same three axioms. None of the three files was
 built, audited or kernel-checked by this corpus; the erdosproblems.com Lean
-suffix is a catalog label, and the community database records no formal-proof
-URL. The three files are formalization links on the claim page, which lists no
-`formalized` evidence.
+suffix is an erdosproblems.com label, and the community database records no
+formal-proof URL. The three files are formalization links on the claim page,
+which lists no `formalized` evidence.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

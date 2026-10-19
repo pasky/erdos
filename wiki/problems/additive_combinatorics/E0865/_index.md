@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 865
@@ -118,14 +118,14 @@ https://www.erdosproblems.com/865, accessed 2026-09-18.
   3, printed pp. 40--41. Library home:
   [[../library/integer_sequences/erdos_1992_my_forgotten_problems_number_theory/_index|erdos_1992_my_forgotten_problems_number_theory]].
 
-**Formalization.** The erdosproblems.com Lean suffix is a catalog label; see
-"Formalization and the Lean label" below for what the files state. The file
+**Formalization.** The erdosproblems.com Lean suffix is an erdosproblems.com
+label; see "Formalization and the Lean label" below for what the files state.
+The file
 [`ErdosProblems/865.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/865.lean)
-of formal-conjectures, at the commit the link pins, declares `erdos_865 : ∃ C >
-0, ∀ᶠ (N : ℕ) in atTop, ∀ A ⊆ Icc 1 N, A.card ≥ (5 / 8 : ℝ) * N + C → ∃ a ∈ A, ∃
-b ∈ A, ∃ c ∈ A, a ≠ b ∧ a ≠ c ∧ b ≠ c ∧ a + b ∈ A ∧ a + c ∈ A ∧ b + c ∈ A` under
-`category research solved` with proof `sorry` and two `formal_proof` attributes,
-naming `problems/865/Erdos865.lean` in `Jayyhk/erdos-lean` and
+of formal-conjectures, at the commit the link pins, declares
+`erdos_865 : ∃ C > 0, ∀ᶠ (N : ℕ) in atTop, ∀ A ⊆ Icc 1 N, A.card ≥ (5 / 8 : ℝ) * N + C → ∃ a ∈ A, ∃ b ∈ A, ∃ c ∈ A, a ≠ b ∧ a ≠ c ∧ b ≠ c ∧ a + b ∈ A ∧ a + c ∈ A ∧ b + c ∈ A`
+under `category research solved` with proof `sorry` and two `formal_proof`
+attributes, naming `problems/865/Erdos865.lean` in `Jayyhk/erdos-lean` and
 `RequestProject/Main.lean#L45` in `mrricky22/erdos-865-lean`, each at a fixed
 commit (the claim page's links pin both). Its docstring credits the solution to
 Cipollini and GPT Pro [Ci26] and remarks that the linked proof gives the bound
@@ -290,10 +290,10 @@ $k\ge4$ the conjecture is open (the formal-conjectures variant `sos` is
 `research open`); the 1972 note's "we suspect that $\varepsilon_3=\tfrac1{24}$"
 is the $k=3$ case now settled.
 
-**Formalization and the Lean label.** The erdosproblems.com Lean suffix is a
-catalog label. The formal-conjectures statement at the pinned commit has a
-`sorry` body and points to two external developments, both described below at
-the fixed commits the attributes name (pinned by the claim page's links); the
+**Formalization and the Lean label.** The erdosproblems.com Lean suffix is an
+erdosproblems.com label. The formal-conjectures statement at the pinned commit
+has a `sorry` body and points to two external developments, both described below
+at the fixed commits the attributes name (pinned by the claim page's links); the
 corpus holds no build of either, so neither gives formalized evidence.
 
 - `Jayyhk/erdos-lean`, `problems/865/Erdos865.lean` (49,606 bytes, 878

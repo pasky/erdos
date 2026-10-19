@@ -8,7 +8,7 @@ desc: |
   power of two, one of them not a dyadic rational, would be strongly
   complete; the proved threshold is five; context for Problem 354.
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-07T20:53:41Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 ***
@@ -74,7 +74,11 @@ triangle inequality gives
 $\|\theta\|\le\|\lfloor2^{k+1}\alpha\rfloor\theta\|+2\|\lfloor2^k\alpha\rfloor\theta\|$,
 so the sum in (1.5) diverges. With two elements in every such interval and
 (1.5), $M_2^*=2$ would make $A_{\alpha,\beta}$ strongly complete. Read
-through; not reviewed.
+through; not reviewed. The remark's argument, with the rescaling and the
+divergence step written out, and the base-two case of Remark 4.1 are author-recorded
+reconstructions, not reviews, on
+[[../wiki/research/erdos_354/fan_remark_4_2_reconstruction|the Remark 4.2 reconstruction page]]
+and its neighbor in the Problem 354 research folder.
 
 ## Dependencies
 

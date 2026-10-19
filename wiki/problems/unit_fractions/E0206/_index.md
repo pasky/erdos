@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:27:09Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 206
@@ -54,11 +54,11 @@ The companion questions for every rational $x$ and for every algebraic $x$
 are variants, not the problem; they are recorded separately below.
 
 **Status.** Disproved. The erdosproblems.com label was DISPROVED (LEAN), and the
-suffix is a catalog label explained under Formalization. Kovač's Theorem 1 (J.
-Number Theory 268 (2025), 39--48) shows that the set of $x>0$ whose best
-Egyptian underapproximations are eventually greedy has Lebesgue measure zero. So
-the assertion fails for almost every $x$, instead of holding for almost every
-$x$. The claim page
+suffix is an erdosproblems.com label explained under Formalization. Kovač's
+Theorem 1 (J. Number Theory 268 (2025), 39--48) shows that the set of $x>0$
+whose best Egyptian underapproximations are eventually greedy has Lebesgue
+measure zero. So the assertion fails for almost every $x$, instead of holding
+for almost every $x$. The claim page
 [[problems/unit_fractions/E0206/claims/2024_06_11_kovac|Kovač 2024]] records the
 result, its postings and the acceptance evidence from which the standing above
 derives. That evidence is refereed publication and the curator's credit.
@@ -235,26 +235,25 @@ gives, non-constructively, a transcendental number without the property.
   $n$-term underapproximation is the unique best one for every $n$, in both
   conventions, answering Nathanson's Open problem (1).
 
-**Formalization and the Lean label.** The erdosproblems.com Lean suffix is a
-catalog label. The formal-conjectures file at the pinned commit is a statement
-with a `sorry` body; its `formal_proof` attribute names the file
+**Formalization and the Lean label.** The erdosproblems.com Lean suffix is an
+erdosproblems.com label. The formal-conjectures file at the pinned commit is a
+statement with a `sorry` body; its `formal_proof` attribute names the file
 [`src/latest/ErdosProblems/Erdos206.lean`](https://github.com/plby/lean-proofs/blob/68da20b96673899166e94638f5a7fffeb7231d35/src/latest/ErdosProblems/Erdos206.lean)
-of the repository `plby/lean-proofs` at the linked revision. That file
-(89,993 bytes, imports Mathlib) contains no `sorry`, ends with
+of the repository `plby/lean-proofs` at the linked revision. That file (89,993
+bytes, imports Mathlib) contains no `sorry`, ends with
 `theorem erdos_206 : volume {x : ℝ | EventuallyGreedy x} = 0` and a
 `#print axioms` comment listing only `propext`, `Classical.choice` and
 `Quot.sound`; its header names Aristotle and Matteo Del Vecchio as formal
 authors and links the gist that the erdosproblems.com discussion (comment of 28
-April
-2026) describes as an autoformalization of Kovač's proof by Aristotle. Its
-`EventuallyGreedy` has the same shape as the formal-conjectures definition
-(a strictly increasing sequence of positive denominators whose prefixes are
-best $n$-term underapproximations, quantified over all finite sets of
-positive naturals with sum below $x$). The comparison covers the statement
-only: no build, no audit of the 1,980-line proof and no kernel credit is
-claimed. The community database (teorth/erdosproblems, accessed 2026-09-17)
-lists `formal_status` Lean, as of its entry's last update on 28 April 2026,
-and no formal-proof URL.
+April 2026) describes as an autoformalization of Kovač's proof by Aristotle. Its
+`EventuallyGreedy` has the same shape as the formal-conjectures definition (a
+strictly increasing sequence of positive denominators whose prefixes are best
+$n$-term underapproximations, quantified over all finite sets of positive
+naturals with sum below $x$). The comparison covers the statement only: no
+build, no audit of the 1,980-line proof and no kernel credit is claimed. The
+community database (teorth/erdosproblems, accessed 2026-09-17) lists
+`formal_status` Lean, as of its entry's last update on 28 April 2026, and no
+formal-proof URL.
 
 **Search scope.** None of the routes below found a refereed source changing
 the answer above, a published version of the rational claim, or a refereed

@@ -7,7 +7,7 @@ desc: |
   sqrt(BL) exp(-c_K log L / log log L), where L is the largest norm of a
   nonzero difference; the number-field form of Theorem 1.5.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -59,5 +59,5 @@ Lemma 2.1 of the paper (p. 8) and the Chebotarev density theorem.
 
 ## Bears on
 
-No catalog problem directly; it is the source of
+No erdosproblems.com problem directly; it is the source of
 [[additive_bases/croot_2026_combinatorial_large_sieve_sidon_sets_distances/theorem_1_10|Theorem 1.10]].

@@ -1,10 +1,10 @@
 ---
 name: problems/polynomials/E0114/claims
-desc: The 6 claim pages of Problem 114, one per claimant's result; the problem's standing derives from them.
+desc: The 7 claim pages of Problem 114, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T10:44:32Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/polynomials/E0114/claims
@@ -37,5 +37,7 @@ states it. It is a partial claim, pending.
 [[problems/polynomials/E0114/claims/2026_08_22_chatelet|2026_08_22_chatelet]]: Chatelet's 2026 write-up and Lean development assert that among monic cubics
 the lemniscate of $z^3-1$ is the longest, under a domain reduction cited from
 Eremenko–Hayman and Tao. It is a partial claim, pending review.
+
+[[problems/polynomials/E0114/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Plasma AI proves that z^3-1 maximizes the lemniscate length among monic complex cubics and is the only maximizer up to rotation and translation, at tier 1 on an independently graded whole-claim examination. Catalog acceptance is pending.
 
 ***

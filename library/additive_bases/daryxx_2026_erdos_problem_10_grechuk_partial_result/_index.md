@@ -8,7 +8,7 @@ desc: |
   of Problem 10 and not the question itself.
 license: unstated
 created: 2026-09-28T03:02:00Z
-updated: 2026-10-08T03:51:41Z
+updated: 2026-10-14T07:13:56Z
 ---
 
 # Daryxx: the Grechuk variant of Erdős Problem 10 in Lean 4
@@ -85,25 +85,25 @@ proof; the bundled pieces carry their own digests in comments.
 ## Standing
 
 - Conjectures.io record `ce95887b-8b61-4a89-9069-9131a58906e0`, task
-  `fc-379fc029-variants-grechuk-e26c885566-formalized-v1`, catalog commit
-  `379fc0298dc146df549e7061c3ede0353a5bb51f`: the erdosproblems.com Lean kernel
-  accepted the proof on 6 August 2026 (11:24:37 UTC per Conjectures.io's
+  `fc-379fc029-variants-grechuk-e26c885566-formalized-v1`, formal-conjectures
+  commit `379fc0298dc146df549e7061c3ede0353a5bb51f`: the Conjectures.io Lean
+  kernel accepted the proof on 6 August 2026 (11:24:37 UTC per Conjectures.io's
   decision text), with the same verification checklist as the accepted record
   (static scan clean, statement unchanged, axioms inside `propext`, `Quot.sound`
   and `Classical.choice`, second kernel not run); the review decision is
   DUPLICATE_OF_EARLIER_SUBMISSION, "one reward is paid per stable theorem
   target" under Conjectures.io's policy v1, and no reward was paid. The
   status-defining acceptance of the variant is the earlier record
-  `244ff2d0-399d-4e37-a307-4ff6f3cb3493` (kernel accepted 05:12:22 UTC,
-  approved and certified 6 August 2026, bounty paid), credited by Conjectures.io
-  to a different solver and recorded with its provenance on
-  [[../wiki/problems/additive_bases/E0010/_index|Problem 10]]. The write-up describes this
-  file as independently developed; that is the source's own statement, not a
-  finding checked here.
+  `244ff2d0-399d-4e37-a307-4ff6f3cb3493` (kernel accepted 05:12:22 UTC, approved
+  and certified 6 August 2026, bounty paid), credited by Conjectures.io to a
+  different solver and recorded with its provenance on
+  [[../wiki/problems/additive_bases/E0010/_index|Problem 10]]. The write-up
+  describes this file as independently developed; that is the source's own
+  statement, not a finding checked here.
 - formal-conjectures marks `erdos_10.variants.grechuk` `research solved` since
   its commit of 2026-09-14 (PR #5998), citing this gist as its
-  `formal_proof`; this is catalog agreement with the variant, not with the
-  question, which formal-conjectures keeps research open.
+  `formal_proof`; this is formal-conjectures agreement with the variant, not
+  with the question, which formal-conjectures keeps research open.
 - erdosproblems.com lists one partial proof claim for Problem 10, submitted
   2026-08-07 10:33:54, linking this gist as both its proof and its
   formalization; the claim's summary says it is not a solution of the main

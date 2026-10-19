@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "Alper Ferudun"
+  ],
+  "category": "math.CO",
+  "date": "2026-06-26",
+  "fetched": "2026-10-15",
+  "html": {
+    "bytes": 221560,
+    "files": 1,
+    "sha256": "3870283760366173421e2b788dd8aa9fe0ddffd225b2a7ce117de0102d654f75",
+    "skipped": [],
+    "url": "https://arxiv.org/html/2606.28041v1"
+  },
+  "id": "2606.28041",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "pdf": {
+    "bytes": 335961,
+    "previous": [
+      {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": null
+      }
+    ],
+    "sha256": "2488d84856fd9814ce8d74b31353a776111ec1c5000714b7b6f0d7a61e93ec52",
+    "url": "https://arxiv.org/pdf/2606.28041v1"
+  },
+  "schema": 1,
+  "stamp": null,
+  "tex": {
+    "archive": {
+      "bytes": 3267840,
+      "name": "arXiv-2606.28041v1.tar.gz",
+      "sha256": "15e49186a7bf2496abfc9617817269db6adf28d48c25850f54982096a8d474cf"
+    },
+    "bytes": 4193757,
+    "files": 16,
+    "sha256": "5450ac26eeb8a229bc7aa674d58edf264c20045e8d11eae4df8013463edb3ce7",
+    "url": "https://arxiv.org/src/2606.28041v1"
+  },
+  "title": "The Erdos n^2/25 max-cut conjecture for small multiples of five, via a per-root-MaxCut envelope and blow-up integrality",
+  "version": 1
+}

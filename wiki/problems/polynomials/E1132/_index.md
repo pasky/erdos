@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1132
@@ -151,6 +151,28 @@ tab with its one claim and one comment; the community database at
 teorth/erdosproblems, which lists the problem as open and unformalized; the
 formal-conjectures tree; the Zenodo record's version 9 and its companion
 note; Tao's arXiv preprint through its card.
+## Category, measure, and nested nodes
+
+The proof of [[../library/polynomials/tao_2026_local_bernstein_theory_lower_bounds_lebesgue/corollary_1_11|Tao's Corollary 1.11]]
+uses the interval-dependent error $O_I(1)$ from Theorem 1.10 and a diverging
+loss $\omega(n)$. A constant cannot simply replace $\omega$: the interval
+provided by the Baire argument is obtained only after a proposed constant is
+fixed, and its error need not be bounded by that constant.
+Taking $\omega(n)=o(\log n)$ does give the normalized limsup bound on a
+comeager set, by Remark 1.12. It does not imply the measure conclusion.
+Indeed choose dense open sets $U_j\subset(-1,1)$ with measure below $2^{-j}$
+by taking sufficiently short neighborhoods of every rational point. Their
+intersection is comeager and null.
+
+The sequence formulation also requires nested prefixes. Positive theorems for
+all triangular arrays apply to those prefixes, but a counterexample with
+independently chosen rows need not: retaining old nodes changes every later
+Lagrange denominator. The proof of the corollary and the statement of
+Theorem 1.10 are inspected at those scopes; the full local Bernstein argument
+and Gu's companion counterexample are not checked here. A quantitative
+measure estimate or a construction preserving every old node would address
+these gaps. Unbounded additive loss, category alone, and unrelated rows do not.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

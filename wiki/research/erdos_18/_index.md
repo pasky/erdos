@@ -1,16 +1,26 @@
 ---
 name: research/erdos_18
 title: Divisor representations of practical numbers
-desc: "Author-recorded reconstructions of the proved factorial bounds and of the claimed (log log n)^2 construction for Problem 18; all three questions keep their recorded status."
+desc: |
+  Source reconstructions for Problem 18 and a dyadic route to its open
+  part (c), with a conditional local criterion and a proved limitation
+  of the accepted part-(b) proof's separated-digit construction.
 tags: []
 sources: []
 created: 2026-09-28T04:40:32Z
-updated: 2026-10-08T13:55:35Z
+updated: 2026-10-18T10:11:03Z
 ---
 
 # Divisor representations of practical numbers
 
 [[research/_index|..]]
+
+[[research/erdos_18/connections|connections]]: Assesses, as mathematics, what the reconstructed factorial and
+practical-number arguments give for Problems 304, 293, 1099, 673 and 859
+and for the other questions of Problem 18: four proved transfer lemmas,
+two conditional deductions from the accepted factorial bound, a counting
+floor for the extension method, and the precise obstruction where a
+transfer fails.
 
 [[research/erdos_18/doorn_corollary_3_4_reconstruction|doorn_corollary_3_4_reconstruction]]: Reconstructs the claimed step that the modulus of Lemma 3.3 extends a
 practical n = 2^E V to a practical An with h(An) at most h(n) + 4.
@@ -34,6 +44,11 @@ practical n in [x, x^2) prime to p* with h(n) at most c0 (log log x)^2 - 1.
 [[research/erdos_18/doorn_theorem_1_1_reconstruction|doorn_theorem_1_1_reconstruction]]: Reconstructs the claimed deduction of the (log log n)^2 bound for
 infinitely many practical numbers from the uniform Proposition 4.1, and
 records what it would settle for Problem 18.
+
+[[research/erdos_18/dyadic_representative_route|dyadic_representative_route]]: An editable route to Problem 18(c): a proved criterion with factorial
+index, length and height costs, counting obstructions to extracting it
+from the accepted proof of (b), and a stopped test of the full-divisor
+law at the collision estimate it needs.
 
 [[research/erdos_18/evidence/_index|evidence/]]: Independent focused reviews of the Problem 18 reconstruction pages and
 their distinct grade, with no executable evidence and no tier.
@@ -93,18 +108,23 @@ extension costs four divisors),
 (the iteration and its recurrence) and
 [[research/erdos_18/doorn_theorem_1_1_reconstruction|Theorem 1.1]],
 infinitely many practical $n$ with $h(n)\le c_0(\log\log n)^2$,
-$c_0=14/\log2$. Every `doorn_` page is labeled *claimed*: the note is an
-erdosproblems.com proof claim without documented independent acceptance.
+$c_0=14/\log2$. The reconstruction pages retain their source-claim labels
+and their focused review scopes. The problem's
+[[problems/divisors/E0018/claims/2026_09_16_van_doorn|claim page]] records
+part (a) as claimed, graded sound by Plasma AI's internal review of this chain
+with its sign-off pending.
 
 ## Where things stand
 
-**Status unchanged.** Question (b) is proved by the Conjectures.io-accepted Lean
+**Status.** Question (b) is proved by the Conjectures.io-accepted Lean
 proof filed as
 [[../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/_index|the accepted record]],
-which has no written proof, so it is not reconstructed here. Question (a)
-carries the claimed van Doorn chain reconstructed here and the earlier
-[[../library/divisors/price_2026_sparse_divisor_sums/_index|Price claim]],
-whose write-up is not held and could not be reconstructed. Question (c) is
+which has no written proof. Its dyadic construction is examined in the
+[[research/erdos_18/dyadic_representative_route|route to part (c)]]. Question
+(a) is claimed by the van Doorn chain, graded sound by Plasma AI's internal
+review with its sign-off pending. The earlier
+[[../library/divisors/price_2026_sparse_divisor_sums/_index|Price claim]]
+has no held write-up and is not reconstructed here. Question (c) is
 open between Remark 6's $(\log n)^2$ and the $n^{o(1)}$ of (b); Theorem 1
 is superseded as a bound and kept for its explicit constant. The problem
 page keeps `status: open`.
@@ -131,10 +151,26 @@ sound on Lemma 4, Corollary 3 and the two elementary asymptotics the page
 proves. No report was graded void. The corrections C1 to C5 were applied, so the
 current text of the Lemma 3.2, Lemma 3.3, Proposition 4.1, Theorem 1.1 and Lemma
 4 pages differs from the reviewed text at the places the grade names; the other
-five pages are the reviewed text. No tier is assigned, the van Doorn results
-remain claims, and the problem's status is unchanged. After the review, line
-wrapping was normalized on the reconstruction pages, changing no formula or
-sentence.
+five pages are the reviewed text. These reviews assign no tier. The problem
+claim page records them as the coverage of the van Doorn answer to part (a),
+its sign-off pending; part (c) remains open. The dyadic criterion L63,
+counting obstruction L64 and full-divisor criterion L66 are separate
+author-recorded results outside these reviews' scope.
+
+**The factorial polylogarithmic question.** The editable
+[[research/erdos_18/dyadic_representative_route|dyadic route]] isolates a
+sufficient local construction: short representatives modulo $2^k$ in a
+factorial with index $k(\log k)^{O(1)}$, allowing a polylogarithmic height
+exponent. [[theory/number_theory/L63_polylogarithmic_dyadic_representatives/_index|L63]]
+proves its implication for part (c), including positive lifting and removal
+of repeated summands.
+[[theory/number_theory/L64_factorial_digit_entropy/_index|L64]] proves that
+the accepted proof's separated digits cannot retain a fixed positive
+nonconcentration exponent at that factorial index.
+[[theory/number_theory/L66_divisor_residue_spread/_index|L66]] supplies a
+weaker, scale-dependent concentration bound for the full odd-divisor law;
+polynomial quantitative mixing bounds would make this alternative suffice.
+All three are tier 0, and the required quantitative construction remains open.
 
 **Mechanism.** Both arguments turn a *divisor-gap* or *residue-covering*
 property of a highly composite $N$ into a short representation by
@@ -152,3 +188,37 @@ The residue-covering step is proved by a second-moment (Cauchy–Schwarz and
 Plancherel) bound on the divisor sets modulo $d\mid A$, averaged over random
 choices of $A$, in place of the sum-product exponential-sum input the Price
 claim uses.
+
+**Connections.** [[research/erdos_18/connections|The connections page]]
+transports these mechanisms to the problems they touch. It reconstructs the
+note's Lemma 5.1, the transfer from $h(n)$ to $N(b)$ behind its Theorems 1.2
+and 1.3 for [[problems/unit_fractions/E0304/_index|Problem 304]] and
+[[problems/unit_fractions/E0293/_index|Problem 293]], and deduces from the accepted
+part (b) the bounds $N(b)\ll_\varepsilon(\log b)^{\varepsilon}$ and
+$v(k)\ge\exp(k^{A})$, recorded as the lead
+[[research/leads/factorial_unit_fraction_transfer/_index|factorial_unit_fraction_transfer]];
+it turns the greedy count into a transfer lemma for any sequence with a
+divisor-gap profile and applies it to $\mathrm{lcm}(1,\dots,x)$, where
+erdosproblems.com's proposed gap bound, corrected to the lower half, would give
+exponent $2$ in question (a), the lead
+[[research/leads/lcm_divisor_gap_greedy_route/_index|lcm_divisor_gap_greedy_route]];
+it evaluates $h_\alpha(n!)$ for [[problems/divisors/E1099/_index|Problem 1099]]
+from the factorial gap estimate and records that the factorial and lcm cases are
+theorems of Tenenbaum (1987); and it records why
+[[problems/divisors/E0673/_index|Problem 673]],
+[[problems/divisors/E0859/_index|Problem 859]] and the other divisor problems
+examined receive no transfer, with a counting floor showing that the extension
+method cannot certify an exponent below $2$. The connections page's statements
+and both leads were independently reviewed, as they stood at
+2026-09-28T13:50:48Z, by nine focused reviews, one per section, filed under
+[[research/erdos_18/evidence/verify/_index|evidence/verify/]] and graded in
+[[research/erdos_18/evidence/verify/connections_grade|the connections grade]],
+which passes all nine reports, accepts seventeen corrections since applied to
+the page and the leads, records the factorial lead as reviewed and the lcm lead
+as needing an update, and assigns no tier. Since those reviews, the connections
+page was corrected as
+[[research/erdos_18/evidence/verify/lead_lcm_divisor_gap_greedy_route_rereview|the re-review of 2026-10-02]]
+specified: the comment's recurrence identified with Lemma B's lower-range step
+only up to a constant factor, "with $m$ fixed" added to the scale remark, and
+the 2000 corrigendum to Tenenbaum 1987 disclosed as not read; the connections
+reviews read the text before these corrections.

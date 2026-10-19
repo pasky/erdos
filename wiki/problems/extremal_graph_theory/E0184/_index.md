@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T10:25:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 184
@@ -170,17 +170,17 @@ one edge), with at most $f(|V|)$ parts. Until that commit `erdos_184` was
 `research open` with no `formal_proof` attribute; the commit cited the release's
 manuscript and added a `formal_proof` attribute linking the release's
 [`erdos_gallai`](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/CycleDecomposition/Main.lean#L207)
-at the revision pinned on the claim page. The link is a catalog label: the
-release's `MainStatement`, over graphs on `Fin n` with at most $Cn$ classes,
-formalizes the question differently, and no Lean bridge between the two has been
-built, as the claim page records. The file carries five variants, all `sorry`
-and all under `research solved`: `n_log_n`, `lower_bound` (the graph $K_{3,n-3}$
-needs at least $(1+c)n$ parts), `bucic_montgomery`, `conlon_fox_sudakov`
-(minimum degree $\varepsilon n$ gives $O_\varepsilon(n)$ parts) and `covering`,
-which asks with `answer(True)` whether $n-1$ cycles and edges whose edge sets
-cover the graph always exist and cites Pyber [Py85]. Since 2026-10-08
-`lower_bound` carries a `formal_proof` link to a Lean proof outside the
-repository, not built here. At the file's
+at the revision pinned on the claim page. The link is a formal-conjectures
+label: the release's `MainStatement`, over graphs on `Fin n` with at most $Cn$
+classes, formalizes the question differently, and no Lean bridge between the two
+has been built, as the claim page records. The file carries five variants, all
+`sorry` and all under `research solved`: `n_log_n`, `lower_bound` (the graph
+$K_{3,n-3}$ needs at least $(1+c)n$ parts), `bucic_montgomery`,
+`conlon_fox_sudakov` (minimum degree $\varepsilon n$ gives $O_\varepsilon(n)$
+parts) and `covering`, which asks with `answer(True)` whether $n-1$ cycles and
+edges whose edge sets cover the graph always exist and cites Pyber [Py85]. Since
+2026-10-08 `lower_bound` carries a `formal_proof` link to a Lean proof outside
+the repository, not built here. At the file's
 [commit of 2026-09-17](https://github.com/google-deepmind/formal-conjectures/blob/d5ba143cc2fafd48cc6d5b6320a3aab287c38df7/FormalConjectures/ErdosProblems/184.lean),
 `covering` was `research open` with `answer(sorry)`, although Pyber proved it in
 1985 according to [BM22] and [CFS14]; the file has labeled it solved since 30

@@ -7,7 +7,7 @@ desc: |
   bound for Problem 1085, compared against the disproved Problem 90.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:50:16Z
+updated: 2026-10-13T20:29:01Z
 ---
 
 # distance_problems/openai_2026_power_saving_planar_unit_distances
@@ -283,3 +283,12 @@ manuscript.
   the page's question concerns the three-rich end, where those bounds give
   nothing below $n^2$.
   No input to the page is supplied, and the claim is unverified here.
+- [[../wiki/research/erdos_132/layers_and_obstructions|Convex-layer reduction
+  for Problem 132]]: optional input the page could replace. The page imports
+  the unit-distance estimate $e\le Cs^{4/3}$ for a fixed-distance graph on
+  $s$ points to obtain $R(A)\ge\lfloor cn^{3/4}/h\rfloor$; after rescaling
+  the distance to one, Theorem 1.1 would give $e\le Cs^\beta$ and the same
+  step $R(A)\ge\lfloor cn^{1/\beta}/h\rfloor$, an exponent above $3/4$ by an
+  unspecified amount. The page says its angular and elementary bounds do not
+  depend on that input, and Problem 132 remains open. The claim is unverified
+  here.

@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T12:25:21Z
+updated: 2026-10-16T06:44:50Z
 ---
 
 # Problem 824
@@ -58,8 +58,8 @@ $\mathrm{A}^+$ by the argument of [PoPo16, §6] with the smoothness exponent
 sent to zero. Its Theorem 1.4 says that the method of OpenAI's manuscript
 [[problems/arithmetic_functions/E0821/claims/2026_09_24_openai|claimed for Problem 821]],
 which counts primes $p$ with $P^+(p-1)\le x^\delta$, proves $\mathrm{A}^+$
-when rerun for primes $2u-1$ in place of $2u+1$. That manuscript has no outside
-review, and its theorem as stated concerns $p-1$, not $p+1$, so the problem
+when rerun for primes $2u-1$ in place of $2u+1$. That manuscript remains
+unrefereed, and its theorem as stated concerns $p-1$, not $p+1$, so the problem
 stays open: $\mathrm{A}^+$ is unproved.
 
 **Source.** [erdosproblems.com/824](https://www.erdosproblems.com/824), accessed
@@ -75,9 +75,47 @@ https://www.erdosproblems.com/824.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The construction in
+[[../library/arithmetic_functions/pollack_2016_problems_erdos_sum_divisors_function/_index|Pollack–Pomerance,
+Section 6]] uses primes $p$ with smooth $p+1$, forms squarefree products,
+pigeonholes their divisor sums, and cancels common factors. Multiplicativity
+permits cancellation because the uncancelled factors are coprime to the
+cancelled part, so the resulting pair remains coprime.
+
+The inspected input, for fixed $\theta>1$, supplies at least $y^\theta/(\log
+y)^C$ primes $p\le y^\theta$ with $P^+(p+1)\le y$ for all large $y$. Its
+resulting exponent is $(2-\epsilon)(1-1/\theta)+o(1)$. The stated
+$\theta=3.377$ yields a fixed exponent above $1.4$; reaching $2-o(1)$ by this
+route needs arbitrarily large fixed $\theta$, with all threshold dependence
+retained. A smooth-$p-1$ theorem is not the needed smooth-$p+1$ input without a
+proved adaptation. No unconditional stronger exponent follows from this
+comparison.
+
+The [[research/erdos_824/_index|research route for this problem]] links the
+[[research/smooth_successor_primes/_index|complete conditional derivation]]
+of the signed Type II estimate, prime extraction and Li–Zhuang counting
+reduction. Under the manuscript's uniform shift-cancellation estimate (P)
+and its named elementary estimates (E), it gives $\mathrm{A}^+$ for every
+sufficiently large real input, then $h(x)>x^{2-\varepsilon}$ with squarefree
+pairs in the strict range $1\le a<b<x$. The
+[[research/smooth_successor_primes/evidence/verify/conditional_chain/_index|conditional-chain examination]]
+and the
+[[research/smooth_successor_estimates/evidence/verify/elementary_estimates/_index|E examination]]
+have distinct **PASS** grades, examined on 2026-10-16 UTC, at their exact
+split and conditional scopes. The [graded interface comparison](../../../research/smooth_successor_primes/evidence/verify/conditional_chain/interface_disposition.md)
+uses the operative $z\ge1$ sieve and balanced dyads, preserving the two
+**refuted-as-stated** wider assertions and all quoted classical premises. The
+[[research/erdos_824_uniformity/evidence/verify/endpoint_cancellation/_index|P examination's grade remains VOID with zero accepted independent weight]],
+despite a separate ruling resolving its exposure obstacle. The unrefereed
+manuscript and stated classical-premise boundaries remain explicit; no
+unconditional accepted solution follows.
+The full consumed uniformity of (P), including a discrepancy exponent
+chosen before the proxy precision, remains without accepted independent
+weight. E's accepted local deductions retain their exact quoted classical
+premises and unread-original boundaries. They do not establish
+$\mathrm{A}^+$ unconditionally; the problem stays open.
 
 ## Known Results
 

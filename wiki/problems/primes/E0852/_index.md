@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 852
@@ -113,6 +113,9 @@ the community database (teorth/erdosproblems, which listed the problem as open
 and not formalized), the formal-conjectures catalog (no statement file for the
 problem), the library card of Stadlmann's paper, and the two write-ups through
 their links. They showed no refereed result on $h(x)$ beyond Brun's sieve.
+
+The author-recorded [[research/covering_prime_interfaces/prime_gap_statistics|prime-gap comparison]] isolates the support, moment or uniform limiting information needed for this question and proves the stated elementary reductions. It does not establish the requested prime-gap law.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 590
@@ -68,10 +68,18 @@ not built here.
 
 The problem's solved standing rests on the claim pages
 [[problems/set_theory/E0590/claims/1972_05_01_chang|Chang 1972]] and
-[[problems/set_theory/E0590/claims/1973_12_01_larson|Larson 1973]], which
-record the two proofs' sources, their acceptance evidence and the Lean
-formalization link, whose proof follows Larson's. This page records no current
+[[problems/set_theory/E0590/claims/1973_12_01_larson|Larson 1973]], which record
+the two proofs' sources, their acceptance evidence and the Lean formalization
+link, whose proof follows Larson's. The note below points to author-recorded
+research, which is not independently reviewed. This page records no current
 literature search or independent assessment of proof coverage.
+
+## Known Results
+
+[[research/erdos_1171/connections|The Problem 1171 connections page]] holds
+author-recorded research on transferring the color-reduction lemma of
+[[research/erdos_1171/lemma_2_1_reconstruction|the Problem 1171 folder]] to
+this problem; it is not a claim.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

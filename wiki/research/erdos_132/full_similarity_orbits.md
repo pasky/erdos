@@ -1,0 +1,244 @@
+---
+name: research/erdos_132/full_similarity_orbits
+title: Full fixed-similarity orbits have unbounded rarity despite collisions
+desc: |
+  All growing full word orbits of fixed planar contractive similarities
+  have R tending to infinity, with no separation or density assumption.
+sources: []
+research_state: closed
+created: 2026-09-23T02:33:01Z
+updated: 2026-09-24T22:12:56Z
+---
+
+
+# Full fixed-similarity orbits have unbounded rarity despite collisions
+
+***
+
+Fix contractive planar similarities $f_1,\ldots,f_b$, allowing
+reflections, and a point $p$. Put
+
+$$A_d=\{f_{w_1}\circ\cdots\circ f_{w_d}(p):
+w_i\in\{1,\ldots,b\}\},\qquad N_d=|A_d|.$$
+
+**Theorem.** If $N_d\to\infty$, then $R(A_d)\to\infty$.
+If the generators do not have a common fixed point, then
+
+$$R(A_d)\ge N_d^{1/6-o(1)}.$$
+
+Unlike the [dense-word theorem](similarity_word_sets.md), this allows
+arbitrarily severe exact collisions. It concerns the full image sets of a fixed
+finite family, not arbitrary sparse selections or depth-dependent similarities.
+It does not resolve either unrestricted question of
+[Problem 132](../../problems/distance_problems/E0132/_index.md).
+
+## 1. Positive entropy and convex sumsets
+
+Let $G_d$ be the distinct affine maps represented by words of
+length $d$. Write their generating linear parts as
+$r_iR_{\theta_i}J^{\epsilon_i}$, where $J$ is reflection in the
+real axis. A word's scale is a product $\prod r_i^{c_i}$ with
+$0\le c_i\le d$, and its angle is $\sum a_i\theta_i$ with
+$|a_i|\le d$. There are therefore at most
+
+$$P(d)=2(d+1)^b(2d+1)^b$$
+
+possible linear parts. A map is determined by its linear part
+and its value at $p$, giving
+
+$$N_d\le |G_d|\le P(d)N_d.$$
+
+Submultiplicativity $|G_{d+e}|\le|G_d||G_e|$ and Fekete's lemma
+show that $N_d=\exp(hd+o(d))$ for some $h\ge0$.
+
+If two generators have distinct fixed points, choose a large
+closed ball containing $p$ and preserved by every generator.
+Sufficiently large equal powers of these two generators map it
+into disjoint neighborhoods of their fixed points. Words in
+these two blocks have pairwise distinct images of $p$: remove
+their common prefix and use injectivity and the disjoint images
+at the first differing block. Hence $N_{k\ell}\ge2^\ell$ for a
+fixed block length $k$. The limit defining $h$ gives $h>0$.
+
+Translate $p$ to zero and split each word at $s=\lfloor d/2\rfloor$,
+$t=d-s$. Grouping prefixes by linear part gives
+
+$$A_d=\bigcup_L(B_L+LA_t),\qquad B_L\subseteq A_s,$$
+
+with at most $P(s)$ summands. The convex-sumset theorem checked
+in [minkowski_sum_layers](minkowski_sum_layers.md) bounds every
+convexly independent subset of $P+Q$ by
+$C(|P|^{2/3}|Q|^{2/3}+|P|+|Q|)$. Thus every convexly independent
+subset of $A_d$ has size at most
+
+$$H_d=CP(s)(N_s^{2/3}N_t^{2/3}+N_s+N_t)
+=N_d^{2/3+o(1)}.$$
+
+The external input is Theorem 1 of Eisenbrand--Pach--Rothvoß--Sopher, [*Convexly
+independent subsets of the Minkowski sum of planar point
+sets*](https://www.combinatorics.org/ojs/index.php/eljc/article/download/v15i1n8/pdf/).
+Its full statement imposes no separation or unique-representation condition; it
+was checked in the full paper in this attempt and in the earlier sumset
+argument.
+
+Every convex vertex layer obeys this same bound. The
+[rank--layer argument](layers_and_obstructions.md) gives
+
+$$R(A_d)\ge\left\lfloor\sqrt{N_d/(2H_d)}\right\rfloor
+=N_d^{1/6-o(1)}.$$
+
+Rank existence follows exactly as in the selected-sumset proof.
+This also proves, for every fixed $\epsilon>0$,
+
+$$B_d\subseteq A_d,\quad |B_d|\ge N_d^{2/3+\epsilon}
+\quad\Longrightarrow\quad
+R(B_d)\ge N_d^{\epsilon/2-o(1)}.$$
+
+## 2. Common fixed points: normalization and counting
+
+Move the common fixed point to zero. The case $p=0$ has bounded
+orbit, so assume $|p|=1$. Let $R$ be the largest contraction ratio,
+put $g_i=R^{-1}f_i$, and choose a ratio-one generator $g_0=U_0$.
+The sets
+
+$$S_d=U_0^{-d}\{g_w(p):|w|=d\}$$
+
+are similar to $A_d$, lie in the unit disk, and are nested:
+prepend $U_0$ to obtain $S_d\subseteq S_{d+1}$.
+If every generator has ratio one, $S_d$ lies on one circle;
+all its distance graphs have maximum degree two and at least
+$(N_d-1)/2$ distances occur. The conclusion follows.
+
+Otherwise call a factor with ratio less than one *subunit*.
+We prove that there is a fixed integer $r\ge0$ such that
+
+$$
+\#\{x\in S_d:x\text{ has a representation with at most }K
+\text{ subunit factors}\}=O_K((d+1)^r), \tag{1}
+$$
+$$N_d\ge c(d+1)^{r+1}\quad(d\text{ sufficiently large}). \tag{2}$$
+
+We use elementary finitely generated Abelian group counting.
+If an angular subgroup $\Gamma\subset S^1$ has torsion-free
+rank $r$, its bounded-exponent sets have $O((d+1)^r)$ elements.
+Positive products of at most $d$ generators have
+$\Omega((d+1)^r)$ elements: select $r$ generators with linearly
+independent free-coordinate vectors in $\Gamma\cong\mathbb Z^r\oplus F$.
+
+There are three cases, with angles understood modulo $2\pi$.
+
+**A ratio-one reflection is available.** Choose it as $U_0=J$.
+Let $\Gamma$ be generated by the angles of all ratio-one
+generators. A word with at most $K$ subunit factors has boundedly
+many possible subunit contributions; its remaining angular part
+is a bounded-exponent element of $\Gamma$. This proves (1).
+Even ratio-one words generate rotations $R_{2\theta}$ from
+direct generators and $R_\theta=(R_\theta J)J$ from reversing
+ones. Their subgroup has the same rank as $\Gamma$. Padding
+with $J^2$, and using a single $J$ for odd lengths, gives
+$\Omega(d^r)$ images at each sufficiently large exact length.
+For $0\le k\le d/2$, insert $k$ copies of one fixed subunit
+generator. These give distinct radii and $\Omega(d^r)$ points
+at each radius, proving (2).
+
+**All generators are direct.** Write $U_0=R_\alpha$ and let
+$\Gamma$ be generated by $\theta_i-\alpha$ for the ratio-one
+generators. Commutativity and padding by $U_0$ give (1) and
+$\Omega(d^r)$ exact-length ratio-one images. Inserting $k$
+copies of a subunit generator as above gives (2).
+
+**All ratio-one generators are direct, but a subunit reflection
+exists.** Again write $U_0=R_\alpha$; take $\Gamma$ generated by
+$2\alpha$ and the ratio-one angles $\theta_i-\alpha$.
+If a word has $k\le K$ subunit factors, the signed number of
+its ratio-one letters has the parity of $d-k$. After subtracting
+$d\alpha$, its angular contribution is a bounded-exponent element
+of $\Gamma$, up to one of boundedly many offsets, including
+$-k\alpha$. This proves (1).
+
+For (2), fix a subunit reflection $g=sR_\phi J$. For each odd
+$k\le d/2$, set $D=d-k$ and use words
+
+$$U_{\rm left}\,g^k\,U_0^{D-\ell},$$
+
+where $U_{\rm left}$ is any ratio-one word of length $\ell\le D$.
+Their varying normalized angles include all positive products
+of at most $D$ elements from $2\alpha$ and $\theta_i+\alpha$.
+These generate the same group $\Gamma$. Thus there are
+$\Omega(d^r)$ points at each of the $\Omega(d)$ distinct radii
+$s^k$, proving (2).
+
+## 3. A finite surrounding set, or finitely many lines
+
+In the reflection-reference case, consider the group generated
+by the angles of all generators. If it is finite, finitely many
+lines cover every $S_d$. If infinite, a direct generator's even
+powers or the block $(R_\theta J)J$ give a dense angular sequence
+among the nested sets $S_d$.
+
+In the direct-only case use instead all angles $\theta_i-\alpha$.
+An infinite-order generator gives a dense sequence by its powers;
+a finite group again gives finitely many lines.
+
+In the last case choose a subunit reflection angle $\phi_*$.
+The normalized directions lie in a bounded number of cosets of
+the group generated by
+
+$$2\alpha,\quad \theta_i-\alpha\ (i\text{ direct}),
+\quad \phi_j-\phi_*\ (j\text{ reversing}).$$
+
+If finite, this gives a uniform finite line cover. If infinite,
+a dense angular sequence comes from, respectively, words
+$g_*U_0^k$, powers of a direct generator, or powers of a pair
+of reflections. For the last case one may assume $2\alpha$ is
+torsion, since otherwise the first case already supplies the
+sequence; subtracting $2\alpha$ then preserves infinite order.
+
+Finite line covers imply rarity growth by [line_covers](line_covers.md).
+In the remaining case, choose three directions of the dense sequence
+not contained in a closed semicircle. Their radii are positive,
+so their convex hull contains zero in its interior. Nesting gives
+a fixed $D$ and $\epsilon>0$ with
+
+$$B(0,\epsilon)\subseteq\operatorname{conv}(S_D). \tag{3}$$
+
+## 4. Negligible fixed layers in the zero-entropy case
+
+Choose a subunit generator $g$ and $L$ so that the contraction
+ratio $\rho$ of $V=g^L$ is smaller than $\epsilon$. Put
+
+$$C_j=U_0^{-(D+jL)}V^jU_0^D S_D.$$
+
+Then $C_j\subseteq S_{D+jL}$. Each $C_j$ is an orthogonal image
+of $\rho^j S_D$, so (3) implies
+
+$$C_{j+1}\subset\operatorname{int}\operatorname{conv}(C_j),
+\qquad B(0,\epsilon\rho^j)\subseteq\operatorname{conv}(C_j).$$
+
+For sufficiently large $d$, $C_j$ survives the first $j$ convex
+vertex-layer deletions from $S_d$, by induction using the nested
+convex hulls. Every vertex of layer $j+1$ consequently has radius
+at least $\epsilon\rho^j$.
+
+Let $\kappa<1$ be the largest subunit ratio. A point of that
+radius can use at most
+$\lfloor\log(\epsilon\rho^j)/\log\kappa\rfloor$ subunit factors.
+By (1)--(2), the $(j+1)$-st layer therefore has
+$O_j(d^r)=O_j(N_d/d)=o(N_d)$ points. Every fixed number of outer
+layers is negligible. The rank--layer theorem now makes every
+fixed number of largest distances rare eventually, completing
+the proof.
+
+## Checks and remaining scope
+
+The author checked the positive-entropy argument, including exact
+overlaps and the polynomial count of linear parts; the three angular
+normal forms; the distinct-radius lower bounds; the normalization
+of the nested sets; and the rotation-independent nesting of $C_j$.
+The proofs were supplied by a separate author and are author-recorded.
+
+This excludes full fixed-similarity word sets as bounded-rarity
+families even when $N_d/b^d\to0$. The positive-entropy selected-set
+bound above does not cover arbitrary sparse selections, and there
+is no reduction from arbitrary planar sets or nonstationary
+recursive constructions to this theorem.

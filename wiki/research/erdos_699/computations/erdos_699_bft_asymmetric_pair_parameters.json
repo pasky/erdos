@@ -1,0 +1,948 @@
+{
+  "source": "Bennett\u2013Filaseta\u2013Trifonov, Proposition 5.1 and Section 7",
+  "weight_denominator": 10000,
+  "published_gcd_parameters": [
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "seed": [
+        9,
+        8,
+        1,
+        1,
+        25,
+        17
+      ],
+      "L1": "1.5540",
+      "m0": 582,
+      "endpoints_scaled": [
+        3234,
+        2850
+      ]
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "seed": [
+        128,
+        125,
+        1,
+        1,
+        5,
+        4
+      ],
+      "L1": "1.3098",
+      "m0": 50,
+      "endpoints_scaled": [
+        2583,
+        2620
+      ]
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "seed": [
+        8,
+        7,
+        1,
+        1,
+        25,
+        17
+      ],
+      "L1": "1.5540",
+      "m0": 582,
+      "endpoints_scaled": [
+        2734,
+        3201
+      ]
+    },
+    {
+      "pair": [
+        2,
+        11
+      ],
+      "seed": [
+        32768,
+        14641,
+        21,
+        47,
+        9,
+        4
+      ],
+      "L1": "1.7666",
+      "m0": 87,
+      "endpoints_scaled": [
+        1197,
+        1879
+      ]
+    },
+    {
+      "pair": [
+        2,
+        13
+      ],
+      "seed": [
+        512,
+        169,
+        1,
+        3,
+        25,
+        17
+      ],
+      "L1": "1.5540",
+      "m0": 582,
+      "endpoints_scaled": [
+        642,
+        2304
+      ]
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "seed": [
+        625,
+        2187,
+        7,
+        2,
+        5,
+        3
+      ],
+      "L1": "1.5454",
+      "m0": 86,
+      "endpoints_scaled": [
+        2412,
+        3648
+      ]
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "seed": [
+        49,
+        243,
+        5,
+        1,
+        5,
+        3
+      ],
+      "L1": "1.5454",
+      "m0": 86,
+      "endpoints_scaled": [
+        389,
+        3190
+      ]
+    },
+    {
+      "pair": [
+        3,
+        11
+      ],
+      "seed": [
+        243,
+        121,
+        1,
+        2,
+        7,
+        5
+      ],
+      "L1": "1.4135",
+      "m0": 74,
+      "endpoints_scaled": [
+        3296,
+        4147
+      ]
+    },
+    {
+      "pair": [
+        3,
+        13
+      ],
+      "seed": [
+        2197,
+        2187,
+        1,
+        1,
+        7,
+        6
+      ],
+      "L1": "1.2219",
+      "m0": 53,
+      "endpoints_scaled": [
+        2315,
+        2310
+      ]
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "seed": [
+        25,
+        49,
+        2,
+        1,
+        8,
+        5
+      ],
+      "L1": "1.5407",
+      "m0": 53,
+      "endpoints_scaled": [
+        3613,
+        2277
+      ]
+    },
+    {
+      "pair": [
+        5,
+        11
+      ],
+      "seed": [
+        125,
+        121,
+        1,
+        1,
+        5,
+        4
+      ],
+      "L1": "1.3098",
+      "m0": 50,
+      "endpoints_scaled": [
+        1994,
+        2048
+      ]
+    },
+    {
+      "pair": [
+        5,
+        13
+      ],
+      "seed": [
+        13,
+        25,
+        2,
+        1,
+        5,
+        3
+      ],
+      "L1": "1.5454",
+      "m0": 86,
+      "endpoints_scaled": [
+        1638,
+        3337
+      ]
+    },
+    {
+      "pair": [
+        7,
+        13
+      ],
+      "seed": [
+        343,
+        169,
+        1,
+        2,
+        7,
+        5
+      ],
+      "L1": "1.4135",
+      "m0": 74,
+      "endpoints_scaled": [
+        987,
+        2080
+      ]
+    },
+    {
+      "pair": [
+        11,
+        13
+      ],
+      "seed": [
+        13,
+        11,
+        1,
+        1,
+        25,
+        17
+      ],
+      "L1": "1.5540",
+      "m0": 582,
+      "endpoints_scaled": [
+        1140,
+        522
+      ]
+    },
+    {
+      "pair": [
+        2,
+        17
+      ],
+      "seed": [
+        17,
+        16,
+        1,
+        1,
+        7,
+        5
+      ],
+      "L1": "1.4135",
+      "m0": 74,
+      "endpoints_scaled": [
+        3521,
+        3379
+      ]
+    },
+    {
+      "pair": [
+        3,
+        17
+      ],
+      "seed": [
+        9,
+        17,
+        2,
+        1,
+        7,
+        4
+      ],
+      "L1": "1.6219",
+      "m0": 60,
+      "endpoints_scaled": [
+        3045,
+        1032
+      ]
+    },
+    {
+      "pair": [
+        3,
+        19
+      ],
+      "seed": [
+        729,
+        361,
+        1,
+        2,
+        4,
+        3
+      ],
+      "L1": "1.4170",
+      "m0": 153,
+      "endpoints_scaled": [
+        1162,
+        2104
+      ]
+    },
+    {
+      "pair": [
+        7,
+        19
+      ],
+      "seed": [
+        343,
+        6859,
+        20,
+        1,
+        7,
+        4
+      ],
+      "L1": "1.6219",
+      "m0": 60,
+      "endpoints_scaled": [
+        4299,
+        1374
+      ]
+    },
+    {
+      "pair": [
+        11,
+        19
+      ],
+      "seed": [
+        121,
+        361,
+        3,
+        1,
+        25,
+        17
+      ],
+      "L1": "1.5540",
+      "m0": 582,
+      "endpoints_scaled": [
+        3464,
+        1975
+      ]
+    },
+    {
+      "pair": [
+        17,
+        19
+      ],
+      "seed": [
+        289,
+        361,
+        5,
+        4,
+        2,
+        1
+      ],
+      "L1": "1.9377",
+      "m0": 150,
+      "endpoints_scaled": [
+        2230,
+        1925
+      ]
+    },
+    {
+      "pair": [
+        2,
+        23
+      ],
+      "seed": [
+        529,
+        512,
+        1,
+        1,
+        6,
+        5
+      ],
+      "L1": "1.2581",
+      "m0": 35,
+      "endpoints_scaled": [
+        218,
+        167
+      ]
+    },
+    {
+      "pair": [
+        5,
+        23
+      ],
+      "seed": [
+        25,
+        23,
+        1,
+        1,
+        4,
+        3
+      ],
+      "L1": "1.4170",
+      "m0": 153,
+      "endpoints_scaled": [
+        2079,
+        2284
+      ]
+    },
+    {
+      "pair": [
+        11,
+        23
+      ],
+      "seed": [
+        23,
+        11,
+        1,
+        2,
+        7,
+        4
+      ],
+      "L1": "1.6219",
+      "m0": 60,
+      "endpoints_scaled": [
+        3254,
+        1178
+      ]
+    }
+  ],
+  "effective_gcd_parameters": [
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "seed": [
+        9,
+        8,
+        1,
+        1,
+        29,
+        20
+      ],
+      "log_L1": "428454527/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        3296,
+        2916
+      ]
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "seed": [
+        128,
+        125,
+        1,
+        1,
+        43,
+        35
+      ],
+      "log_L1": "143305737/500000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        2676,
+        2711
+      ]
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "seed": [
+        8,
+        7,
+        1,
+        1,
+        47,
+        32
+      ],
+      "log_L1": "446715499/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        2752,
+        3218
+      ]
+    },
+    {
+      "pair": [
+        2,
+        11
+      ],
+      "seed": [
+        32768,
+        14641,
+        21,
+        47,
+        13,
+        6
+      ],
+      "log_L1": "649310901/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        1399,
+        2065
+      ]
+    },
+    {
+      "pair": [
+        2,
+        13
+      ],
+      "seed": [
+        512,
+        169,
+        1,
+        3,
+        38,
+        27
+      ],
+      "log_L1": "98675853/250000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        798,
+        2433
+      ]
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "seed": [
+        625,
+        2187,
+        7,
+        2,
+        55,
+        34
+      ],
+      "log_L1": "480939281/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        2562,
+        3774
+      ]
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "seed": [
+        49,
+        243,
+        5,
+        1,
+        28,
+        17
+      ],
+      "log_L1": "9680983/20000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        502,
+        3271
+      ]
+    },
+    {
+      "pair": [
+        3,
+        11
+      ],
+      "seed": [
+        243,
+        121,
+        1,
+        2,
+        19,
+        14
+      ],
+      "log_L1": "376903297/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        3447,
+        4279
+      ]
+    },
+    {
+      "pair": [
+        3,
+        13
+      ],
+      "seed": [
+        2197,
+        2187,
+        1,
+        1,
+        15,
+        13
+      ],
+      "log_L1": "221540401/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        2370,
+        2366
+      ]
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "seed": [
+        25,
+        49,
+        2,
+        1,
+        3,
+        2
+      ],
+      "log_L1": "98566727/200000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        3931,
+        2663
+      ]
+    },
+    {
+      "pair": [
+        5,
+        11
+      ],
+      "seed": [
+        125,
+        121,
+        1,
+        1,
+        43,
+        35
+      ],
+      "log_L1": "143305737/500000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        2091,
+        2145
+      ]
+    },
+    {
+      "pair": [
+        5,
+        13
+      ],
+      "seed": [
+        13,
+        25,
+        2,
+        1,
+        57,
+        35
+      ],
+      "log_L1": "241155197/500000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        1834,
+        3493
+      ]
+    },
+    {
+      "pair": [
+        7,
+        13
+      ],
+      "seed": [
+        343,
+        169,
+        1,
+        2,
+        4,
+        3
+      ],
+      "log_L1": "95600049/250000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        1241,
+        2303
+      ]
+    },
+    {
+      "pair": [
+        11,
+        13
+      ],
+      "seed": [
+        13,
+        11,
+        1,
+        1,
+        52,
+        37
+      ],
+      "log_L1": "98259289/250000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        1320,
+        716
+      ]
+    },
+    {
+      "pair": [
+        2,
+        17
+      ],
+      "seed": [
+        17,
+        16,
+        1,
+        1,
+        34,
+        25
+      ],
+      "log_L1": "377102533/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        3698,
+        3560
+      ]
+    },
+    {
+      "pair": [
+        3,
+        17
+      ],
+      "seed": [
+        9,
+        17,
+        2,
+        1,
+        31,
+        18
+      ],
+      "log_L1": "32342201/62500000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        3168,
+        1190
+      ]
+    },
+    {
+      "pair": [
+        5,
+        17
+      ],
+      "seed": [
+        17,
+        25,
+        3,
+        2,
+        57,
+        26
+      ],
+      "log_L1": "20035027/31250000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        93,
+        1280
+      ]
+    },
+    {
+      "pair": [
+        3,
+        19
+      ],
+      "seed": [
+        729,
+        361,
+        1,
+        2,
+        35,
+        27
+      ],
+      "log_L1": "4182603/12500000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        1268,
+        2199
+      ]
+    },
+    {
+      "pair": [
+        7,
+        19
+      ],
+      "seed": [
+        343,
+        6859,
+        20,
+        1,
+        67,
+        40
+      ],
+      "log_L1": "122624961/250000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        4441,
+        1588
+      ]
+    },
+    {
+      "pair": [
+        11,
+        19
+      ],
+      "seed": [
+        121,
+        361,
+        3,
+        1,
+        53,
+        37
+      ],
+      "log_L1": "207399377/500000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        3548,
+        2077
+      ]
+    },
+    {
+      "pair": [
+        17,
+        19
+      ],
+      "seed": [
+        289,
+        361,
+        5,
+        4,
+        32,
+        17
+      ],
+      "log_L1": "305967971/500000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        2471,
+        2176
+      ]
+    },
+    {
+      "pair": [
+        2,
+        23
+      ],
+      "seed": [
+        529,
+        512,
+        1,
+        1,
+        45,
+        38
+      ],
+      "log_L1": "124853221/500000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        296,
+        245
+      ]
+    },
+    {
+      "pair": [
+        5,
+        23
+      ],
+      "seed": [
+        25,
+        23,
+        1,
+        1,
+        41,
+        31
+      ],
+      "log_L1": "362806567/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        2144,
+        2348
+      ]
+    },
+    {
+      "pair": [
+        11,
+        23
+      ],
+      "seed": [
+        23,
+        11,
+        1,
+        2,
+        5,
+        3
+      ],
+      "log_L1": "485565127/1000000000",
+      "m0": "effectively computable from BFT proof; not numerically evaluated",
+      "endpoints_scaled": [
+        3483,
+        1478
+      ]
+    }
+  ]
+}

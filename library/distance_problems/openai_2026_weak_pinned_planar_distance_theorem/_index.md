@@ -5,12 +5,12 @@ desc: |
   s > 0 the fraction of ordered pairs (x, y) of an n-point planar set whose
   distance from x is repeated at least n^s times tends to zero, so for every
   fixed eps > 0 all but o(n) points see at least n^{1-eps} distinct distances;
-  proved by contradiction through an extremal graph, a product-formula identity
-  over a number field with nested grid partitions, a variance estimate, tree
-  transport and a Mobius-map obstruction; no rate. Bears on Problem 604.
+  proved by contradiction via an extremal graph, a product-formula identity
+  over a number field, a variance estimate, tree transport and a Mobius-map
+  obstruction; no rate. Bears on Problem 604.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:50:25Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # distance_problems/openai_2026_weak_pinned_planar_distance_theorem

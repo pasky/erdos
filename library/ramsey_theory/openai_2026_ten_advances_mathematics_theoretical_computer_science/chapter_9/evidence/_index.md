@@ -2,10 +2,11 @@
 name: ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence
 title: Chapter 9 proof evidence
 desc: |
-  Preserves the exact reviewed subjects and accepted independent review of
-  the five-result lower-bound route and its full root-limit consequence.
+  Holds the accepted independent review of the five-result lower-bound route
+  and its full root-limit consequence; the exact lower-route subjects are not
+  held.
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-07T12:39:15Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 # Chapter 9 proof evidence
@@ -25,10 +26,9 @@ Theorem 1.1. The record retains the mathematical restatements, independent
 derivations, attacks, per-result checklists, source-reading scope and
 dependency order.
 
-Eight exact Markdown snapshots in the assets directory preserve the subject
-read by the reviewer and grader, including the then-current E0183 page.
-The review maps each snapshot to its native path. These are
-historical subjects, not replacement current proof pages. The reviewed
+The review maps each of the eight pages the reviewer and grader read, the
+E0183 page among them, to a copy (`assets/reviewed_*.md`) that it cites as its
+exact subject. Those copies are not held in the repository. The reviewed
 edition is the August 6, 2026 PDF the source card names.
 
 The current pages change their verification wording to record the accepted
@@ -52,4 +52,5 @@ The native rendition passed fidelity review and hand-check before it was
 filed; the finite computational proof is not brought into local
 coverage.
 
-Extracts reproducing the paper's text are not held, since no license on record permits redistribution.
+Extracts reproducing the paper's text are not held, since no license on record
+permits redistribution.

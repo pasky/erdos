@@ -7,7 +7,7 @@ desc: |
   manuscript by a weighted triangle bound and closed-neighborhood deletion;
   unverified here, with a Lean statement listed by the release.
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 ***
@@ -125,12 +125,6 @@ None was checked here.
   the page's status rests on acceptance evidence, and the best bound in the
   refereed record remains
   [[extremal_graph_theory/shearer_1995_independence_number_sparse_graphs/corollary_2|Shearer's Corollary 2]].
-- [[../wiki/problems/extremal_graph_theory/E0620/_index|Problem 620]]: at
-  $r=4$, with the neighborhood argument, the theorem gives
-  $f(n)\gg\sqrt{n\log n}$ for the Erdős--Rogers function, the deduction the
-  problem page records: a vertex of degree at least $\sqrt{n\log n}$ has a
-  triangle-free neighborhood, and otherwise the average degree is below that
-  bound. The upper bound is untouched. The deduction is not formalized.
 - [[extremal_graph_theory/ajtai_1981_turan_s_theorem_sparse_graphs/conjecture_3|Ajtai--Erdős--Komlós--Szemerédi, display (3)]]:
   the conjecture this theorem claims to prove for every fixed $p\ge4$,
   cited by the manuscript by page and equation number. Claimed only;

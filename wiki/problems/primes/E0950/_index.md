@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:12:15Z
 ---
 
 # Problem 950
@@ -48,10 +48,11 @@ https://www.erdosproblems.com/950.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/950.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+The [[research/covering_prime_interfaces/prime_pattern_uniformity|summation-by-parts identity]]
+expresses the reciprocal sum through counts of primes in short backward
+intervals, with the largest weights on the shortest intervals. A global
+prime-number-theorem asymptotic does not provide the required uniform
+control for every $n$. The identity is author-recorded; no proof of the
+three requested asymptotic assertions is supplied by this account.

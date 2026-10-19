@@ -5,7 +5,7 @@ desc: |
   Checks both dissociated witnesses and all 1287 five-element subsets of
   the fixed set A*, using exact integer arithmetic.
 created: 2026-09-10T04:06:38Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Fixed evidence for the 13-element comparison
@@ -89,4 +89,5 @@ These historical observations are not executions of the adapter.
 
 The result's heredity, interval upper bound and universal-quantifier consequence
 are prose deductions covered by the frozen whole-proof review; this checker
-supplies only the finite clauses. No finite run settles the catalog question.
+supplies only the finite clauses. No finite run settles the erdosproblems.com
+question.

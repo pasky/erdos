@@ -7,7 +7,7 @@ desc: |
   reports pass, one wording correction is accepted, both pages are graded
   faithful and sound, and no tier is assigned.
 created: 2026-09-28T06:27:39Z
-updated: 2026-09-28T06:27:39Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -165,13 +165,18 @@ states at printed p. 425 "In [40], Erdős and Hajnal proved
 $\omega_1^2\to(\omega_1\alpha,3)^2$ for $\alpha<\omega_1$", with [40] the
 1970 paper in Acta Math. Acad. Sci. Hungar. 21, and at printed p. 443 "It is
 unknown if $\omega_1^2\to(\omega_1\omega,3,3,3)^2$ holds"; p. 425 also
-states Theorem B in ZFC, with [11] the 1987 paper. The locators on both
-pages (Lemma 2.1 stated p. 2 and proved pp. 2--3 under the title "A general
-color-reduction lemma"; Theorem 3.1 stated p. 3 and proved pp. 3--4 under
-"The main theorem"; relation (1) p. 2; Remark 3.2 p. 4; printed and physical
-page numbers equal) match the PDF, and the quotation "is exactly" (p. 2) is
-verbatim. The convention the pages adopt is the source's clause for clause
-(p. 1).
+states Theorem B in ZFC, with [11] the 1987 paper. The lemma page's pointer
+to the folder index holds: the frozen index states the generalization to
+arbitrary fixed targets in its Mechanism paragraph as an author-recorded
+observation, and the induction does give it (induct on the length of the
+target list, merge the first two colors, and apply the two-color relation for
+the first target on the returned set of order type $\alpha$). The locators on
+both pages (Lemma 2.1 stated p. 2 and proved pp. 2--3 under the title "A
+general color-reduction lemma"; Theorem 3.1 stated p. 3 and proved pp. 3--4
+under "The main theorem"; relation (1) p. 2; Remark 3.2 p. 4; printed and
+physical page numbers equal) match the PDF, and the quotation "is exactly"
+(p. 2) is verbatim. The convention the pages adopt is the source's clause for
+clause (p. 1).
 
 ## Graded verdicts
 

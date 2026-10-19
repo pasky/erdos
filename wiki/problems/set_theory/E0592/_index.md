@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 592
@@ -114,8 +114,56 @@ indecomposable ordinals, no for four or more). Apart from the trivial
 $\beta\le1$, only $\beta=\omega^\gamma$ with $\gamma$ the sum of three
 indecomposable ordinals stays undecided, so the problem stays open. The
 erdosproblems.com label was OPEN, and its commentary is not acceptance; the
-claims rest on their journal publication. This page records no current
-literature search.
+claims rest on their journal publication. The notes below are author-recorded,
+drawn from the linked research pages, and are not independently reviewed. This
+status search of 14 October 2026 checked the
+[formal-conjectures statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/592.lean),
+which still labels the question research open, the
+[Palomar registry](https://palomar-registry.org/), the
+[Conjectures.io problems](https://conjectures.io/problems) and
+[results](https://conjectures.io/results), and arXiv searches for 2026 work
+on ordinal partition relations and Problem 592. No claimed resolution of
+the three-summand case was found. The registry's ordinal-partition match
+concerns Problem 1219, and the
+[28 July 2026 working report](https://www.erdosproblemaday.com/report/592)
+records only partial work on this question. This search is not a proof
+that no other work exists.
+
+## Known Results
+
+[[research/erdos_1171/connections|The Problem 1171 connections page]] and the
+[[research/leads/four_clique_versus_triangle_colors/_index|four-clique lead]]
+hold author-recorded research relating this problem to finite-color relations
+and to Komjáth's question whether $\alpha\not\to(\beta,4)^2$ and
+$\alpha\to(\beta,3,3,3)^2$ can hold together; it is not a claim.
+
+At the first unresolved exponent $\gamma=3$, the author-recorded
+[[research/erdos_592/height_three_attack|height-three attack]] builds
+the three compatible games that the positive route needs, for strategies
+that read numerical history, whenever every output is outside or the
+first tree's top split falls at its first or last pair of selected
+leaves. The
+[[research/erdos_592/successor_builder_theorem|coherent finite-height source argument]]
+supplies the dichotomy, finite-cover refinement and normalized Builder
+implication at author standing. Together these reduce the positive
+answer at $\gamma=3$ to the
+remaining *middle* strategies, for which the construction is open. The
+reduction is not a resolution, and it does not reach the other sums of
+three indecomposable ordinals; the
+[[research/leads/three_summand_partition/_index|three-summand lead]]
+records the route. Under a reading of the negative patterns' cell
+levels by selection shapes, a triangle-free pattern coloring would have
+to be of the same middle kind, and Theorem 32's pattern has an explicit
+triangle
+([[research/erdos_592/pattern_level_obstruction|pattern-level page]]).
+[[theory/ramsey_theory/L67_containment_pattern_levels/_index|L67]] rules
+out a different reading, by containment, which admits every finite
+clique on unrestricted trees but makes the pattern impossible on good
+pairs. A fixed-prefix embedding also shows that disjoint-leaf pattern
+colorings on the unrestricted tree space always have a full-type
+color-0 subset: a negative construction needs a separated host and
+unavoidability in every full-type subset of that host. None of this
+refutes the published negative relation or settles the three-summand case.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -126,6 +174,9 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/set_theory/chang_1972_partition_theorem_complete_graph_omega_omega/_index|chang_1972_partition_theorem_complete_graph_omega_omega]]
 - [[../library/set_theory/chang_1972_partition_theorem_complete_graph_omega_omega/problems_p397|chang_1972_partition_theorem_complete_graph_omega_omega / problems_p397]]
 - [[../library/set_theory/chang_1972_partition_theorem_complete_graph_omega_omega/theorem_p396|chang_1972_partition_theorem_complete_graph_omega_omega / theorem_p396]]
+- [[../library/set_theory/darby_1999_negative_partition_relations_ordinals/_index|darby_1999_negative_partition_relations_ordinals]]
+- [[../library/set_theory/darby_1999_negative_partition_relations_ordinals/definitions|darby_1999_negative_partition_relations_ordinals / definitions]]
+- [[../library/set_theory/darby_1999_negative_partition_relations_ordinals/theorem_6_1|darby_1999_negative_partition_relations_ordinals / theorem_6_1]]
 - [[../library/set_theory/erdos_1974_unsolved_solved_problems_set_theory/_index|erdos_1974_unsolved_solved_problems_set_theory]]
 - [[../library/set_theory/erdos_1974_unsolved_solved_problems_set_theory/question_p270|erdos_1974_unsolved_solved_problems_set_theory / question_p270]]
 - [[../library/set_theory/erdos_1974_unsolved_solved_problems_set_theory/theorem_p270_chang|erdos_1974_unsolved_solved_problems_set_theory / theorem_p270_chang]]

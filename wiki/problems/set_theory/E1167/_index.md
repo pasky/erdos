@@ -13,7 +13,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 1167
@@ -134,9 +134,20 @@ The modified Statement, with the list's conditions $2\le r<\omega$,
 $\gamma\ge2$ and $\kappa_\alpha>r$, is open. Erdős, Hajnal, Máté and Rado prove
 five cases of it (see Known Results), and the case Erdős and Hajnal named as the
 most difficult in [ErHa71], $r=2$ with one singular $\kappa_\alpha$ and the
-others finite, is open even under GCH. This page records no current literature
-search beyond erdosproblems.com, its thread, the formal-conjectures file and
-Komjáth's survey.
+others finite, is open even under GCH. The note below points to
+author-recorded research, which is not independently reviewed. This page
+records no current literature search beyond erdosproblems.com, its thread, the
+formal-conjectures file and Komjáth's survey.
+
+## Progress
+
+Author-recorded research on
+[[research/erdos_1219/connections|the Problem 1219 connections page]] relates
+the difficult case named on the erdosproblems.com page ($r=2$, one singular
+target, the others finite) to
+[[problems/set_theory/E1218/_index|Problem 1218]]; it is not a claim, and the
+canonization mechanism of that folder does not otherwise bear on the
+stepping-up lemma.
 
 ## Known Results
 

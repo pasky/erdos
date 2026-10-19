@@ -1,0 +1,38 @@
+{
+  "scope": "Finite exact polynomial certificate; no binomial rows searched.",
+  "i": 13,
+  "degree": 641,
+  "symmetric_jet_matrix": [
+    2911,
+    2916
+  ],
+  "modular_rank": 2911,
+  "modulus": 65521,
+  "minimum_gain": "1287/200",
+  "minimal_vector_count": 18,
+  "capacity_configurations_checked": 411,
+  "worst_vector_scaled": [
+    0,
+    3290,
+    2580,
+    2590,
+    590
+  ],
+  "worst_capacities_scaled": [
+    10000,
+    9410,
+    7420,
+    7410,
+    6710
+  ],
+  "source_asymmetric_edge_scaled": [
+    5,
+    7,
+    3500,
+    2200
+  ],
+  "source_threshold_power_of_ten": 1731,
+  "elementary_threshold": 12263000,
+  "evaluation_constant_less_than_power_of_ten": 356876,
+  "complete_row_bound_power_of_ten": 56000
+}

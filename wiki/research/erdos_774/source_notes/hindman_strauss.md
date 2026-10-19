@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: A simple characterization of sets satisfyin
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # A simple characterization of sets satisfying the Central Sets Theorem
@@ -94,3 +94,49 @@ $C$-sets, and central sets are preserved by both image and inverse image; at
 the ultrafilter level, the extension satisfies
 $\widetilde h[J(S)]=J(T)$. **Corollary 2.10** consequently transports any
 $C$-set that is not central back along a surjective homomorphism.
+
+## Relation to E0774
+
+Let $\mu_{\mathrm{odd}}$ be the countable multiplicative group of all roots of
+unity of odd order. The paper applies to this semigroup without changing its
+definitions. Given a finite coloring of $\mu_{\mathrm{odd}}$, fix a minimal
+idempotent $p\in K(\beta\mu_{\mathrm{odd}})$; exactly one color class belongs
+to $p$, hence that class is central by **Definition 1.2** and is a $C$-set
+by **Theorem 2.3**. **Definition 2.2(b)** therefore supplies coherent
+monochromatic multiplicative words for arbitrary finite families of sequences,
+while **Lemma 2.6** and **Theorem 2.7** recast the same focusing mechanism as a
+recursive tree or a downward directed family of $J$-set reservoirs.
+
+In the usual Stone--Čech terminology, the occurrence of the ultrafilter in
+$K(\beta S)$ also makes a central set piecewise syndetic: finitely many left
+translates cover a thick set. That largeness is relevant to a potential
+focusing argument because it provides a finite translate set from which one
+can repeatedly continue products. It is important, however, that the paper's
+new characterization concerns $C$-sets, not piecewise syndetic sets as such.
+The introduction explicitly contrasts its $J$-set conditions with earlier
+characterizations involving *collectionwise* piecewise syndetic families, and
+**Theorem 2.8** shows that a $C$-set need not be central. Thus the
+$J(S)$-idempotent conclusion of **Theorem 2.4** cannot silently be upgraded to
+minimal-idempotent or piecewise-syndetic control.
+
+This multiplicative recurrence does not supply the statement needed for
+E0774. In the roots-of-unity model, multiplication organizes conductor
+coordinates and finite-product focusing, but dissociation concerns addition
+of the resulting complex roots. A multiplicatively product-rich set can still
+avoid every additive relation with coefficients in $\{-1,0,1\}$. The useful
+conditional argument therefore requires a separate uniform-height premise:
+for one fixed $h$, every relevant ultrafilter neighborhood must contain a
+nonzero additive relation whose integer coefficients have magnitude at most
+$h$. Repeated finite-product focusing can then combine conductor-disjoint
+relations and flatten their coefficients. Piecewise syndeticity gives a finite
+translate cover for each individual neighborhood, but the cover size, and
+hence the available coefficient-height bound, may vary without limit.
+
+Theorems **2.4** and **2.7** are qualitative inside one fixed semigroup and
+provide no such numerical uniformity. Their conclusion produces product-rich
+subsets; it neither forces additive dependence among their complex values nor
+bounds the chromatic number of the full signed-relation hypergraph. Minimal
+idempotents and piecewise syndeticity thus explain why one color can be made
+multiplicatively rich among odd roots of unity, but the height-uniform additive
+input required by the E0774 argument is an additional problem, not a
+consequence of this paper.

@@ -1,0 +1,11 @@
+{
+  "note": "Each entry: prime p, Singer cubic (a, b, c) with w^3 = a w^2 + b w + c, divisor M of p^2 + p + 1, cap, and the residue classes modulo M whose union of points meets every line in 1 to cap points.",
+  "witnesses": [
+    {"p": 11, "cubic": [0, 1, 3], "M": 19, "cap": 4, "classes": [0, 1, 8]},
+    {"p": 23, "cubic": [0, 1, 4], "M": 79, "cap": 5, "classes": [0, 1, 2, 23, 24, 25, 27, 56, 64]},
+    {"p": 29, "cubic": [0, 1, 1], "M": 67, "cap": 5, "classes": [0, 6, 9, 12, 26, 61]},
+    {"p": 31, "cubic": [0, 1, 3], "M": 331, "cap": 6, "classes": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 26, 63, 66, 67, 70, 73, 76, 97, 128, 138, 145, 193, 196, 214, 236, 240, 259, 261, 262, 300, 330]},
+    {"p": 37, "cubic": [0, 1, 2], "M": 201, "cap": 6, "classes": [0, 1, 2, 3, 5, 8, 12, 22, 25, 77, 93, 109, 126, 131, 143, 159, 174]},
+    {"p": 67, "cubic": [0, 1, 13], "M": 147, "cap": 6, "classes": [0, 1, 42, 46, 105, 121, 126]}
+  ]
+}

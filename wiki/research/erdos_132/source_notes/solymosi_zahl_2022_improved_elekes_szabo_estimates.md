@@ -5,7 +5,7 @@ desc: "Source notes for Problem 132: Solymosi--Zahl: Improved Elekes--Szabó typ
 tags: []
 sources: []
 created: 2026-09-24T22:18:23Z
-updated: 2026-09-24T22:18:23Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Solymosi--Zahl: Improved Elekes--Szabó type estimates using proximity
@@ -23,5 +23,10 @@ with local additive-group structure are the exceptions.
 
 Section 1.1 explicitly applies the theorem to distances from three noncollinear
 planar anchors, giving at least $cN^{7/12}$ distinct distances to $N$ points.
-The full theorem and application were checked. This improves the earlier
-$N^{6/11}$ bound.
+The full theorem and application were checked. The degree-two distance-triple
+surface and a uniform non-specialness calculation are recorded in
+[translated-triangle analysis](../translated_triangles.md).
+
+This improves the earlier $N^{6/11}$ input, but the resulting
+inverse-image-union upper bound still does not contradict the
+bounded-rarity lower bound.

@@ -7,7 +7,7 @@ desc: |
   edge is deleted, is a union of r - 1 vertex-disjoint complete bipartite
   graphs.
 created: 2026-10-08T15:11:47Z
-updated: 2026-10-08T15:11:47Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -65,7 +65,7 @@ Theorem 2.2 and Lemmas 3.1, 3.4, 3.5 and 3.6 of the paper.
 
 ## Bears on
 
-No catalog problem directly. It is the first half of the proof of
+No erdosproblems.com problem directly. It is the first half of the proof of
 [[extremal_graph_theory/haxell_2006_odd_independent_transversals_are_odd/theorem_1_1|Theorem 1.1]],
 which bears on
 [[../wiki/problems/extremal_graph_theory/E1078/_index|Problem 1078]]: for odd

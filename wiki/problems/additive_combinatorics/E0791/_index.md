@@ -12,7 +12,7 @@ status: solved
 claim: disproved
 parts: [asymptotic]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:29:34Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 # Problem 791
@@ -51,7 +51,7 @@ for an estimate with no target, so it is open-ended: it is not a part, and it ne
 
 **Status.** Solved: accepted partial claims settle the definite second part in
 the negative, and the open-ended estimate does not block the standing. The
-erdosproblems.com label is OPEN. Read on this page, the label concerns the
+erdosproblems.com label was OPEN. Read on this page, the label concerns the
 estimate. The wording is a compound of an estimate, which has no
 truth value, and a displayed particular guess. The negative answer to that guess
 is recorded on the claim pages. The best source-supported bounds are
@@ -289,6 +289,26 @@ subquestion's negative answer on its claim pages.
 (4) [Ko17]'s construction was followed at claims-checked depth, with
 Facts 1--3 not reproved and no independent review, and the OEIS terms were
 not recomputed.
+
+## Limits of the available transfer
+
+The uniform liminf statement in
+[[../library/additive_combinatorics/kohonen_2017_improved_lower_bound_finite_additive_2/_index|Kohonen's
+construction]] is sufficient for inversion, not merely a subsequence bound. For
+fixed $\epsilon>0$, eventually $n(k)\ge(85/294-\epsilon)k^2$. Choose
+
+$$
+k=\left\lceil\sqrt{N/(85/294-\epsilon)}\right\rceil.
+$$
+
+A basis of that size covers $[0,N]$; removing its elements above $N$ preserves
+this coverage because all summands are nonnegative. Hence
+$g(N)^2\le(294/85+o(1))N$ as already recorded. This refutes the coefficient two
+but does not determine the best coefficient. The construction statement was
+inspected; its placement computation was not replayed. Further finite
+placements matter only with exact consecutive coverage and an all-large-size
+asymptotic implication.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

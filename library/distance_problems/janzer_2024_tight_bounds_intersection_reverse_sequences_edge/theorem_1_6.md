@@ -6,7 +6,7 @@ desc: |
   any three common symbols the same way, have total length at most
   C n^{3/2} for an absolute constant C.
 created: 2026-10-08T14:55:41Z
-updated: 2026-10-08T14:55:41Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -69,7 +69,7 @@ Dilworth's theorem; Lemmas 2.3--2.7 and Claim 2.6 of the paper.
 
 ## Bears on
 
-No catalog problem directly. Through
+No erdosproblems.com problem directly. Through
 [[distance_problems/janzer_2024_tight_bounds_intersection_reverse_sequences_edge/theorem_1_5|Theorem 1.5]]
 it underlies
 [[distance_problems/janzer_2024_tight_bounds_intersection_reverse_sequences_edge/corollary_1_12|Corollary 1.12]],

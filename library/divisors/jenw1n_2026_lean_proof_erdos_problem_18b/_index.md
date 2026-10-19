@@ -8,7 +8,7 @@ desc: |
   September 2026, not refereed, and rebuilt and kernel-replayed here.
 license: unstated
 created: 2026-09-28T03:05:00Z
-updated: 2026-10-08T01:50:18Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # JenW1N: Lean proof of the factorial question of Problem 18, accepted by Conjectures.io
@@ -29,10 +29,11 @@ JenW1N (the solver handle the record credits), Lean proof of "Erdős problem
 $\varepsilon>0$), Conjectures.io record
 `e93a2766-4c70-4564-b565-d0c556f35929`, Lean-verified 16 September 2026, review
 approved 16 September 2026, certified 17 September 2026, bounty paid.
-Conjectures.io is a Bittensor subnet that publishes catalog problems as pinned
-formal-conjectures statements and pays for Lean proofs that pass its kernel
-check and its review; its certification is reported, not counted, and whether
-the statement it verified is the erdosproblems.com question is checked below.
+Conjectures.io is a Bittensor subnet that publishes erdosproblems.com problems
+as pinned formal-conjectures statements and pays for Lean proofs that pass its
+kernel check and its review; its certification is reported, not counted, and
+whether the statement it verified is the erdosproblems.com question is checked
+below.
 
 The folder holds no folder-name PDF: the source is a web record holding a
 Lean proof file, with no write-up and no paper, so the folder-name Markdown

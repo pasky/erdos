@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-17T22:11:11Z
 ---
 
 # Problem 560
@@ -273,6 +273,12 @@ bound, or a proof claim.
 - The UCSD graphs problem collection page for this problem, which carries
   erdosproblems.com's two bounds with the same attributions and cites the brooms
   paper as its first reference.
+- A status check on 2026-10-16: the erdosproblems.com problem page and its
+  proof-claim tab, the erdosproblems.ai discussion of the problem, the Palomar
+  registry searched by the problem number and by "size Ramsey", and an arXiv
+  title and abstract search for size Ramsey results on bipartite graphs
+  submitted from 2023 to that date, whose four records concern other size
+  Ramsey or bipartite variants and were read at title and abstract depth.
 
 Not searched: MathSciNet, Google Scholar, X. Not consulted: [Pi02], the
 brooms paper beyond the keyword search, and the journal text of [CFW23].
@@ -281,8 +287,24 @@ brooms paper beyond the keyword search, and the journal text of [CFW23].
 **Remaining gaps.** (1) The order of $\hat R(K_{n,n})$ is open with a gap
 of a factor $n$; the conjectured $\Theta(n^32^n)$ needs a diagonal lower
 bound beyond the hypergeometric-coloring argument, whose saving vanishes at
-$s=t$; no route is chosen here. (2) In [ErRo93], erdosproblems.com's constant
-$\frac1{60}$ is its Theorem 1 for all $n\ge1$ and its constant $\frac32$ is
+$s=t$.
+[[research/leads/complete_bipartite_size_ramsey/_index|The packing-colouring lead]]
+records a necessary consequence and the failure of two natural random
+colourings to supply it: since
+$\hat R(K_{n,n})\le b(n)^2$ and $\hat R(K_{n,n})\le\binom{r(K_{n,n})}2$,
+where $b(n)$ is the least $N$ with $K_{N,N}\to K_{n,n}$, any lower bound
+beyond order $n^22^n$ gives lower bounds for $b(n)$ and $r(K_{n,n})$ beyond
+order $n2^{n/2}$, the order of the best lower bounds in the sources it read,
+and Conjecture 5.1 would improve them by a factor of order $\sqrt n$ (an
+author-recorded observation, not independently reviewed). The same lead
+records the opposite, direct route: an integral bound (N0) on colourings of
+complete bipartite hosts with sides of orders $n^2$ and $2^n$ would make such
+a host Ramsey with $O(n^22^n)$ edges and give the order $n^22^n$. That bound
+is open. The lead proves an overload bound for its specified affine class
+and a common-neighbourhood reduction, with the remaining global step
+unproved. (2) In [ErRo93],
+erdosproblems.com's constant $\frac1{60}$ is its Theorem 1 for all $n\ge1$
+and its constant $\frac32$ is
 its display (1) for $n\ge6$, credited there to [EFRS78b]; the erdosproblems.com
 commentary places the qualification $n\ge6$ on the lower bound, where the
 paper has none. [NeRo78] concerns critical Ramsey graphs and contains no

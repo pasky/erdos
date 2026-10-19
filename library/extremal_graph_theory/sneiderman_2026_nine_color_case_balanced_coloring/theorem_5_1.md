@@ -7,7 +7,7 @@ desc: |
   three and clique number at most eight; the 10-regular case is refuted by
   50 LRAT certificates.
 created: 2026-10-08T14:36:14Z
-updated: 2026-10-08T14:36:14Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 ***
@@ -21,7 +21,7 @@ identified on the
 **Read depth.** Claims checked: Theorem 5.1 and Proposition 5.2 were read
 clause by clause against the print, and the core counts on p. 9 were checked
 to sum to $332$ with $50$ survivors; the proofs were read for structure only,
-and neither the catalog nor the LRAT certificates were replayed.
+and neither the 332-core catalog nor the LRAT certificates were replayed.
 
 ## Statement
 

@@ -9,6 +9,8 @@ import sys
 
 import pytest
 
+from ._helpers import run_git
+
 __all__ = [
     'test_unchanged_row_and_card_carry_forward',
     'test_each_meaning_change_ends_carry_forward',
@@ -28,7 +30,6 @@ _SCRIPT = _ROOT / 'scripts' / 'claim_carry_forward.py'
 sys.path.insert(0, str(_SCRIPT.parent))
 from claim_carry_forward import check_carry_forward  # noqa: E402
 
-_GIT = ['git', '-c', 'user.name=t', '-c', 'user.email=t@example.invalid']
 _CLAIM = 'lean/Erdos/L5.lean'
 _SHARED = 'lean/Erdos/Shared/Def.lean'
 _OUTSIDE = 'lean/Erdos/Other.lean'
@@ -95,15 +96,9 @@ def _lake_manifest(rev: str = 'aaa111', input_rev: str = 'master') -> str:
 
 
 def _commit(root: pathlib.Path, message: str) -> str:
-    subprocess.run([*_GIT, 'add', '-A'], cwd=root, check=True)
-    subprocess.run([*_GIT, 'commit', '-qm', message], cwd=root, check=True)
-    return subprocess.run(
-        ['git', 'rev-parse', 'HEAD'],
-        cwd=root,
-        capture_output=True,
-        text=True,
-        check=True,
-    ).stdout.strip()
+    run_git(root, 'add', '-A')
+    run_git(root, 'commit', '-qm', message)
+    return run_git(root, 'rev-parse', 'HEAD').stdout.strip()
 
 
 def _seed(
@@ -115,7 +110,7 @@ def _seed(
     claim_text: str = _CLAIM_TEXT,
 ) -> None:
     root.mkdir()
-    subprocess.run([*_GIT, 'init', '-q', '-b', 'main'], cwd=root, check=True)
+    run_git(root, 'init', '-q', '-b', 'main')
     _write(root, _SHARED, _SHARED_TEXT)
     _write(root, _OUTSIDE, 'def Erdos.Other.m : Nat := 4\n')
     _write(root, _CLAIM, claim_text)
@@ -309,7 +304,7 @@ def test_a_card_is_found_under_a_renamed_wiki_root(repo: pathlib.Path) -> None:
     """A rename of the wiki root between the two trees is a path move: the card is read at each root."""
     moved = _CARD.replace('wiki/', 'corpus/', 1)
     (repo / moved).parent.mkdir(parents=True)
-    subprocess.run([*_GIT, 'mv', _CARD, moved], cwd=repo, check=True)
+    run_git(repo, 'mv', _CARD, moved)
     assert check_carry_forward(repo, 'L5', 'HEAD', None) == []
     _write(repo, moved, _card('|\n  k equals four.'))
     assert check_carry_forward(repo, 'L5', 'HEAD', None) == [

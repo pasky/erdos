@@ -10,9 +10,10 @@ tags:
 - Discrepancy
 status: claimed
 claim: disproved
-parts: [example]
+parts:
+- example
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-16T06:44:50Z
 ---
 
 # Problem 995
@@ -40,14 +41,13 @@ $$
 a definite question, so it is open-ended: it is not a part, and it never blocks the standing. The
 second, the example the statement names, asks yes or no, so it is definite.
 
-**Status.** Claimed: a pending partial claim would settle the definite second part,
-and the open-ended first question does not block the standing. Labeled OPEN on
-erdosproblems.com. The erdosproblems.com commentary records Erdős's bounds and
-does not name a later result. The erdosproblems.com proof-claims tab carried no
-claim. One pending partial claim answers the example question in the negative.
-It is Boon Suan Ho's preprint of 20 April 2026,
-[[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho 2026]], announced in the
-problem's thread on 21 April 2026.
+**Status.** Claimed. The definite little-o question is answered negatively by
+[[problems/discrepancy/E0995/claims/2026_04_20_ho|Ho's claimed $p=2$ result]],
+whose project acceptance is pending.
+Its whole proof and the exact catalog consequence have an independent
+examination and a separate passing grade. This is the statement's sole
+definite part; the request to estimate growth without a specified target
+remains in the discussion below. Credit for the counterexample is Ho's.
 
 **Source.** [erdosproblems.com/995](https://www.erdosproblems.com/995), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #995,
@@ -65,24 +65,30 @@ https://www.erdosproblems.com/995.
 
 ## Current assessment
 
-The erdosproblems.com formulation asks two things: to estimate the
-almost-everywhere growth of $\sum_{k\le N}f(\{\alpha n_k\})$ for a lacunary
-sequence and $f\in L^2$, and, as an example, whether the sums are
-$o(N\sqrt{\log\log N})$. Theorem 1.6 of Ho's v2 (Theorem 1.5 of v1) at $p=2$
-answers the example question no, with a mean-zero $f\in L^2$ and a lacunary
-sequence whose sums exceed $N(\log N)^{1/2-\varepsilon}$ infinitely often
-almost everywhere for every $\varepsilon>0$; the claim is pending on its claim
-page; Bloom's catalog labeled the problem OPEN and records no proof claim.
-Together with Erdős's upper bound $o(N(\log N)^{1/2+\varepsilon})$, the worst
-case over lacunary sequences and square-integrable $f$ grows like
-$N(\log N)^{1/2+o(1)}$, the reading on which the author suggested the growth
-question is answered, while noting that this depends on interpretation, and a
-thread participant said it may qualify as a full solution pending
-confirmation; the problem names no target for "estimate the growth", so this
-corpus records that reading here and claims only the example question on the
-claim page. No independent review of the proofs is recorded. The pending claim
-settles the part `example`, the definite part, so the derived standing is
-claimed; the open-ended question does not block the standing.
+Ho's Theorem 1.6 at $p=2$ supplies a single real mean-zero $L^2$ function,
+a factor-two lacunary integer sequence and a common full-measure set on which
+the positive limsup after division by $N(\log N)^{1/2-\varepsilon}$ is
+infinite for every $\varepsilon>0$. The choice $\varepsilon=1/4$ refutes the
+displayed $o(N\sqrt{\log\log N})$ question for the same pair.
+The [whole-proof review](claims/evidence/verify/ho_theorem_1_6/report.md)
+and its [independent PASS grade](claims/evidence/verify/ho_theorem_1_6/grading.md)
+cover both conclusions. The exact frozen extracts and print witness are
+retained with their qualifications on the claim page.
+
+The reviewed scope is the $p=2$ construction and this definite consequence;
+project acceptance remains pending.
+The all-$p$ theorem, Remark 7.1's upper bound and the wider growth
+interpretation remain source-reported. In particular, the request to estimate
+growth is not assigned an extra definite target. Comparing the source's
+lower bounds with Erdős's reported upper bound motivates the scale
+$N(\log N)^{1/2+o(1)}$ in the worst case, but that broader comparison has
+no independent whole-proof acceptance here.
+
+The grade discloses the internal processing of boundary-page text and rules
+it immaterial because no neighboring mathematical content reached the
+reviewer's displayed inputs or supplied an attack direction. It also retains
+the nonconsumed (3.8) transcription discrepancy. These qualifications are part
+of the filed examination and grade.
 
 ## Known Results
 
@@ -93,15 +99,21 @@ infinitely often, and proved that for every lacunary sequence and every
 $f\in L^2$ the sums are $o(N(\log N)^{1/2+\epsilon})$ for almost all
 $\alpha$; in [Er64b] he thought the lower bound closer to the truth.
 
-Ho (arXiv:2604.18535, Theorem 1.6 and Remark 7.1 of v2) gives, for each
+Ho (arXiv:2604.18535, Theorem 1.6 and Remark 7.1 of v2) states, for each
 $2\le p<\infty$, a mean-zero $f\in L^p$ and a lacunary sequence with
 $n_{j+1}/n_j\ge2$ whose partial sums exceed $N(\log N)^{1/p-\varepsilon}$
 infinitely often almost everywhere, against the elementary upper bound
 $O(N(\log N)^{1/p+\varepsilon})$ valid for every increasing sequence; at
 $p=2$ this refutes the $o(N\sqrt{\log\log N})$ example and shows Erdős's
-upper bound sharp up to the $\varepsilon$ gap. See
+upper bound sharp up to the $\varepsilon$ gap as a source-reported comparison.
+Only the $p=2$ lower construction and little-o refutation have the filed
+independent examination and passing grade; project acceptance is pending. See
 [[problems/discrepancy/E0995/claims/2026_04_20_ho|the claim page]] and the
 [[../library/analysis/ho_2026_counterexamples_lacunary_dilates_via_dyadic_spike/_index|library card]].
+
+
+The [[research/graph_ramsey_interfaces/probability_and_growth_interfaces|growth-comparison account]] writes out the $\varepsilon=1/4$ implication, including centering and lacunarity. The claim page holds the independent whole-proof review and passing grade for the source specialization and this consequence; project acceptance is pending.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

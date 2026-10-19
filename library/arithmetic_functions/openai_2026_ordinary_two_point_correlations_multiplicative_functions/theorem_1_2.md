@@ -7,7 +7,7 @@ desc: |
   shifts, the ordinary average of f_1(n+h_1)f_2(n+h_2) tends to zero, with no
   rate. Claims checked only.
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 ***
@@ -74,7 +74,7 @@ $q\ge1$, character $\chi$ modulo $q$ and real $K$, once $N$ is large the
 squared distance up to $N$ is at least $K$ for every $|t|\le N$. The one in
 `OrdinaryElliott.lean` bounds them at every argument and writes (1.2) as the
 infimum above. Both were read statically and not built or audited here, and
-the catalog lists no entry for either at this revision (see the card).
+the release's catalog lists no entry for either at this revision (see the card).
 
 **Source.** OpenAI, *Ordinary two-point correlations of multiplicative
 functions*, release folder

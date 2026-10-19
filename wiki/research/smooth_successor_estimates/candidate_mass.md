@@ -1,0 +1,227 @@
+---
+name: research/smooth_successor_estimates/candidate_mass
+title: Candidate mass, uniformly in the exceptional slot
+desc: |
+  The weighted-dilation manuscript's Proposition 7.1 derived for the successor
+  candidate: pointwise bounds, prime support in [L^20,x^delta], harmonic
+  masses, the P-part Euler product and tail, and the comparison
+  X_A of order (x/L)H_Q H_P with constants independent of the later exceptional
+  band j_** at least j_0; the micro-band mass comparison used by the balanced
+  box is included.
+created: 2026-10-15T15:28:45Z
+updated: 2026-10-15T15:28:45Z
+---
+
+# Candidate mass, uniformly in the exceptional slot
+
+***
+
+This page reconstructs Proposition 7.1 of the
+[[../library/arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers/_index|weighted-dilation manuscript]]
+for the
+[[research/smooth_successor_primes/successor_prime_extraction|extraction of primes 2u-1]],
+as part of the
+[[research/smooth_successor_estimates/_index|elementary estimates of the smooth-successor route]].
+The candidate and the proposition are OpenAI's; the derivation and the
+uniformity accounting are Plasma AI's. The
+[[research/smooth_successor_estimates/evidence/verify/elementary_estimates/_index|E4 examination]]
+has a distinct **PASS** grade, examined on 2026-10-16 UTC, accepting
+**refutation-failed** at its stated classical-premise and parameter scopes.
+The [grade](evidence/verify/elementary_estimates/grade.md) retains the original-source
+reading limits and, for the weighted E3 consumer consequence, its Type II/P
+hypothesis.
+The candidate is unchanged by the sign of $2u\pm1$: the proposition
+concerns $u$ alone.
+
+## The candidate
+
+Fix $0<\delta<1/4$, the smooth $\Psi\ge0$ supported in $[1,2]$ with
+$\Psi\ge c_\Psi>0$ on $[\alpha_0,\beta_0]\subset(1,2)$, $q=1/2$, $\ell=1$,
+$(c_1,c_2,c_3,c_4)=(1,\frac65,\frac32,\frac95)$,
+$s'=1/(r_0(c_1+c_2))$ and $s_j=s'2^{-j}L$, with $r_0$ as on the extraction page
+($c_2s'<\delta$ and $(r_0-1)c_1/2\ge c_2+1$). The bands are
+$\mathcal Q_j=\{p:c_1s_j\le\log p\le c_2s_j\}$ for $0\le j\le j_x$, where $j_x$
+is the largest $j$ with $c_1s_j\ge20T$, so $j_x\le\log_2L$. The P-groups are the
+primes with $\log p\in[c_3s_j,c_4s_j]$ at the scales where this interval lies in
+$[L^{1/10},L^{1/5}]$ (small groups) or $[L^{3/10},L^{2/5}]$ (big groups). By
+Mertens' estimate with error $O(1/\log y)$,
+
+$$
+M_j=\sum_{p\in\mathcal Q_j}\frac1p=\log\frac65+O(T^{-1}),\qquad
+V_g=\log\frac65+O(L^{-1/10}),
+$$
+
+uniformly in $j\le j_x$ and in $g$, and each kind of group occurs at
+$\frac1{10}\log_2L+O(1)$ scales. Since $c_2<c_3<c_4<2c_1$, bands and groups are
+pairwise disjoint.
+
+Each band has $r_0$ ordered slots holding primes of the band, except one
+designated slot of band $j_{**}$, which holds an integer $v_0$ with
+$e^{c_1s_{j_{**}}}\le v_0\le e^{c_2s_{j_{**}}}$ and $P^-(v_0)>W$. Let $a_Q(v)$
+be $\prod_{j\le j_x}(1/r_0!)$ times the number of slot lists with product $v$,
+$W_1$ the marked weight with $\ell=1$ (on the
+[[research/smooth_successor_primes/signed_type_ii|Type II page]]),
+$A(u)=a_Q(u_*)W_1(u)$, and
+
+$$
+X_A=\sum_uA(u)\Psi(u/x),\qquad H_Q=\sum_v\frac{a_Q(v)}v,\qquad
+H_P=\sum_{r_*=1}\frac{W_1(r)}r .
+$$
+
+Write $M_{\rm rough}=\sum1/v_0$ over the admissible $v_0$.
+
+## Statement
+
+**Proposition (candidate mass).** The early choices are $\delta,\Psi,r_0$, the
+geometry, a prefix length $J_1$ fixed below from the geometry alone, the
+balanced-box index $j'$, and $j_0\ge\max(J_1,j')$. There are constants
+$C,C_Q,C_{\rm up},c_{\rm low}>0$ and $c_{\rm mic}>0$ depending only on these
+early choices such that, for every fixed $j_{**}\ge j_0$ and every $x$ beyond a
+threshold that may depend on $j_{**}$:
+
+1. $0\le a_Q(v)\le\tau(v)$, $0\le A(u)\le L^C\tau(u_*)$, and
+   $A(u)\le\exp(C\sqrt L)$ for $u\le2x$;
+2. on the support of $A(u)\Psi(u/x)$ every prime factor of $u$ lies in
+   $[L^{20},x^\delta]$;
+3. $L^{-C_Q}\le H_Q\le L^{C_Q}$;
+4. $H_P\sim\exp(q\sum_gV_g)$, $H_P\ge\prod_p(1+q/(p-1))$ over all P-primes,
+   and $\sum_{r>x^\sigma,\,r_*=1}W_1(r)/r\le\exp(-\sigma L^{3/5})L^{O(1)}$ for
+   each fixed $\sigma>0$;
+5. $c_{\rm low}\frac xLH_QH_P\le X_A\le C_{\rm up}\frac xLH_QH_P$, hence
+   $X_A\ge c_{\rm low}xL^{-1-C_Q}$;
+6. the harmonic mass $H_Q^{\rm mic}$ of the bands $j\ge j'$, the exceptional
+   slot included, satisfies $H_Q^{\rm mic}\le c_{\rm mic}^{-1}H_Q$.
+
+Items 5 and 6 are the uniformity in the exceptional-slot position: the balanced
+constant $C_{\rm bal}$ of the extraction, fixed before $\kappa$, $b_1$ and
+$j_{**}$, uses only $c_{\rm low}$, $c_{\rm mic}$ and absolute sieve constants.
+The exponent $C_A=1+C_Q$ is also independent of $j_{**}$.
+
+## Proof
+
+*Item 1.* Fix the value $v_0$ of the exceptional slot as a divisor of $v$. The
+remaining prime factors of $v$ each lie in exactly one band, so the multiset in
+every band is determined, and the number of orderings in a band is at most
+$r_0!$ (at most $(r_0-1)!$ in band $j_{**}$). So $a_Q(v)$ is at most the number
+of admissible $v_0\mid v$, which is at most $\tau(v)$. Every factor of $W_1$ is
+$q^{\omega_g-1}\omega_g/V_g\le1/V_g$, bounded, over $O(T)$ groups, so
+$W_1\le L^{O(1)}$. For $u\le2x$, an admissible $v_0$ divides the part of $u_*$
+composed of primes above $W$, which has at most $\log(2x)/\sqrt L$ prime
+factors with multiplicity, hence at most $2^{O(\sqrt L)}$ divisors.
+
+*Item 2.* Band primes satisfy $\log p\ge c_1s_{j_x}\ge20T$ and
+$\log p\le c_2s'L<\delta L$; $v_0\le x^{c_2s'}$ and $P^-(v_0)>W$; the P-primes
+lie in $[\exp(L^{1/10}),\exp(L^{2/5})]$. A $u$ with $A(u)\ne0$ is a product of
+these.
+
+*The sampling model.* Expanding the slot lists,
+$\sum_va_Q(v)f(v)/v=H_Q\,\mathbb Ef(V)$, where $V$ is the product of
+independent slot variables: a pure slot of band $j$ equals the prime $p$ with
+probability $p^{-1}/M_j$, and the exceptional slot equals $v_0$ with probability
+$v_0^{-1}/M_{\rm rough}$. This also gives
+
+$$
+H_Q=\prod_{j=0}^{j_x}\frac{M_j^{r_0}}{r_0!}\cdot
+\frac{M_{\rm rough}}{M_{j_{**}}} .
+$$
+
+Likewise $\sum_{r_*=1}W_1(r)g(r)/r=H_P\,\mathbb Eg(R)$ for a random P-integer
+$R$ independent of $V$. Every $u$ with $A(u)\ne0$ factors uniquely as $u=vr$
+with $v=u_*$, and $A(u)=a_Q(v)W_1(r)$, so
+
+$$
+X_A=H_QH_P\,\mathbb E\bigl[VR\,\Psi(VR/x)\bigr].
+$$
+
+*Item 3.* Each factor $M_j^{r_0}/r_0!$ lies between two positive constants
+depending on $r_0$, and there are at most $\log_2L+1$ bands. For large $x$
+(depending on $j_{**}$) every prime of $\mathcal Q_{j_{**}}$ exceeds $W$ and is
+an admissible $v_0$, so $M_{\rm rough}\ge M_{j_{**}}$; and
+$M_{\rm rough}\le\sum_{n\le x}1/n\le L+1$. Hence $H_Q=L^{\pm O(1)}$ with an
+exponent independent of $j_{**}$.
+
+*Item 4.* For one group put $F_g(q)=\prod_{p\in\mathcal P_g}(1+q/(p-1))$.
+Summing $q^{\omega_g(r)-1}\omega_g(r)/(V_gr)$ over all integers $r$ composed of
+primes of $\mathcal P_g$ gives $F_g'(q)/V_g=F_g(q)V_g^{-1}
+\sum_{p\in\mathcal P_g}(p-1+q)^{-1}$, and $H_P$ is the product of these factors
+over the groups. Since $\sum_{p\in\mathcal P_g}(p-1+q)^{-1}=V_g+O(\sum p^{-2})$,
+$\log F_g(q)=qV_g+O(\sum p^{-2})$, and $\sum p^{-2}$ over all P-primes tends to
+zero, $H_P\sim\exp(q\sum_gV_g)$. As $p-1+q\le p$, each factor
+$V_g^{-1}\sum(p-1+q)^{-1}$ is at least one, which gives the product lower
+bound (the manuscript's (7.6)). For the tail put $\xi=L^{-2/5}$; every P-prime
+has $p^\xi\le e$. Replacing $1/p^k$ by $p^{-k(1-\xi)}$ in the same computation
+bounds each group's tilted factor by a constant depending on $v_\pm$, so
+$\sum_rW_1(r)r^{\xi-1}\le L^{O(1)}$, and
+$\sum_{r>x^\sigma}W_1(r)/r\le x^{-\sigma\xi}L^{O(1)}=
+\exp(-\sigma L^{3/5})L^{O(1)}$.
+
+*Item 5, upper bound.* Let $p_0$ be the first slot of band $0$, which is pure.
+Conditionally on all other slots and on $R$, with product $U'$, the event
+$x\le VR\le2x$ forces $p_0\in[x/U',2x/U']\cap\mathcal Q_0$. By Chebyshev's
+bound, $\sum_{y<p\le2y}1/p\le C_{\rm Ch}/\log y$, and a nonempty intersection
+has $y=x/U'\ge e^{c_1s'L}/2$; so the conditional probability is at most
+$C_{\rm Ch}/((c_1s'L-1)M_0)\le C_2/L$. Thus $\mathbb E[VR\Psi(VR/x)]\le
+2x\|\Psi\|_\infty C_2/L$, and $C_{\rm up}=2\|\Psi\|_\infty C_2$ depends only on
+the early choices.
+
+*Item 5, lower bound.* The midpoints $m_j=\frac{c_1+c_2}2s_j$ of all bands
+$j\ge0$, each counted $r_0$ times, sum to $r_0(c_1+c_2)s'L=L$. Put
+$\Delta_0=(c_2-c_1)s'L$, the logarithmic width of $\mathcal Q_0$. Fix $J_1$ with
+$\sum_{j\ge J_1}r_0c_2s_j\le\Delta_0/24$, and $\epsilon\le(c_2-c_1)/(48r_0)$.
+Consider the events
+
+- $E_{\rm pre}$: every slot of the bands $j<J_1$ other than $p_0$ has logarithm
+  in $[m_j-\epsilon s_j,m_j+\epsilon s_j]$;
+- $E_P$: $\log R\le\Delta_0/12$.
+
+These involve fixed numbers of pure slots and the P-part only. As $x\to\infty$
+each restricted slot has probability tending to
+$\log\frac{(c_1+c_2)/2+\epsilon}{(c_1+c_2)/2-\epsilon}/\log\frac{c_2}{c_1}>0$,
+so $\mathbb P(E_{\rm pre})\ge c_{\rm pre}>0$ for large $x$, with $c_{\rm pre}$
+depending on $r_0,J_1,\epsilon$. By item 4 and $H_P\ge1$,
+$\mathbb P(E_P^c)\le\exp(-\frac{\Delta_0}{12L}L^{3/5})L^{O(1)}\to0$, so
+$\mathbb P(E_P)\ge\frac12$. Both events are independent of $p_0$. The slots of
+the bands $J_1\le j\le j_x$, including the exceptional slot (as
+$j_{**}\ge j_0\ge J_1$), have logarithms summing to a number in
+$[0,\Delta_0/24]$, and so do the midpoints of all bands $j\ge J_1$, the missing
+bands $j>j_x$ included; this uses only the range of each slot. On
+$E_{\rm pre}\cap E_P$ therefore
+
+$$
+\log(VR)-L=(\log p_0-m_0)+\mathrm{dev},\qquad
+\mathrm{dev}\in\bigl[-\tfrac{\Delta_0}{12},\tfrac{\Delta_0}6\bigr],
+$$
+
+where $\mathrm{dev}$ does not depend on $p_0$. The target
+$\log(VR)\in L+[\log\alpha_0,\log\beta_0]$ becomes
+$\log p_0\in[A_0,A_0+\ell_0]$ with $\ell_0=\log(\beta_0/\alpha_0)>0$ and
+$A_0=m_0-\mathrm{dev}+\log\alpha_0$. Since $m_0$ is the midpoint of
+$\mathcal Q_0$, this interval lies at distance at least $\Delta_0/4$ from the
+ends of $\log\mathcal Q_0$ for large $x$. The prime number theorem gives
+$\sum_{e^{A_0}<p\le e^{A_0+\ell_0}}1/p=\log(1+\ell_0/A_0)+O(A_0^{-2})\ge
+\ell_0/(2A_0)$, uniformly for $A_0\asymp L$, so the conditional probability is
+at least $c_3/L$. Hence
+
+$$
+\mathbb E[VR\,\Psi(VR/x)]\ge\alpha_0x\,c_\Psi\cdot\frac{c_{\rm pre}c_3}{2L},
+$$
+
+and $c_{\rm low}=\alpha_0c_\Psi c_{\rm pre}c_3/2$ does not depend on $j_{**}$.
+With item 3 and $H_P\ge1$, $X_A\ge c_{\rm low}xL^{-1-C_Q}$.
+
+*Item 6.* $H_Q/H_Q^{\rm mic}=\prod_{j<j'}M_j^{r_0}/r_0!$, a product of $j'$
+factors each at least $(\frac12\log\frac65)^{r_0}/r_0!$ for large $x$. The
+exceptional slot lies in a micro band because $j_{**}\ge j_0\ge j'$, so it
+cancels from the ratio. $\square$
+
+## The order of choices
+
+The proposition is used in the extraction's order. The prefix length $J_1$,
+the balanced-box pair $(j',\theta)$ and $j_0$ are fixed from the geometry; then
+$\kappa$ is fixed using $C_{\rm bal}$, which depends on $c_{\rm low}$,
+$c_{\rm mic}$, the micro-band harmonic identity and absolute sieve constants,
+none of which depends on $j_{**}$; then $b_1$, $b_*=b_1/3$ and $j_{**}$ with
+$c_2s'2^{-j_{**}}<b_*/4$. Only the threshold for $x$ depends on $j_{**}$:
+through $j_{**}\le j_x$, the primes of $\mathcal Q_{j_{**}}$ exceeding $W$, and
+the prime number theorem on the bands. The exceptional slot enters the lower
+bound only through its deterministic range, and the upper bound not at all.

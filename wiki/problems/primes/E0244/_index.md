@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:45Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 244
@@ -60,13 +60,16 @@ https://www.erdosproblems.com/244.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/244.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/prime_pattern_uniformity|exceptional-base analysis]]
+keeps the inspected version-four almost-everywhere theorem separate from
+the golden-ratio claim recorded for version five, whose proof was not
+inspected in that account. Neither supplies an every-base theorem: a
+measure-zero exceptional set can contain a specified base. The remaining
+interface is a theorem for an uncovered fixed base with its hypotheses
+checked, rather than treating the exceptional set as empty.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

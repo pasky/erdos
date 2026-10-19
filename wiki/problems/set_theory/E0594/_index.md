@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 594
@@ -24,7 +24,11 @@ updated: 2026-10-08T02:16:54Z
 **Statement.** Does every graph $G$ with chromatic number $\geq \aleph_1$
 contain all sufficiently large odd cycles?
 
-**Status.** PROVED (LEAN).
+**Status.** PROVED (LEAN). Erdős and Hajnal's 1966 paper states, without proof,
+that a graph of chromatic number greater than $\omega_2$ contains all
+sufficiently long odd circuits. This special case is recorded as a pending
+partial claim on
+[[problems/set_theory/E0594/claims/1966_03_01_erdos_hajnal|its claim page]].
 
 **Source.** [erdosproblems.com/594](https://www.erdosproblems.com/594), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #594,

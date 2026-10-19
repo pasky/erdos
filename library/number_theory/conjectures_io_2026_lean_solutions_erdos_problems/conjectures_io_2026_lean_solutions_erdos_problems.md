@@ -5,8 +5,8 @@ desc: |
   Lists the sixteen Conjectures.io records whose Lean solution files were
   replayed, with each file's URL, size and SHA-256, and the terms that keep
   the files out of the library.
-created: 2026-10-14T02:00:00Z
-updated: 2026-10-14T02:00:00Z
+created: 2026-10-14T01:27:55Z
+updated: 2026-10-18T10:20:09Z
 ---
 
 ***

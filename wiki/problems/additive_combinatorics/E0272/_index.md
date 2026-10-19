@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 272
@@ -81,6 +81,14 @@ is the statement the Conjectures.io proof establishes, which the
 formal-conjectures default branch labeled `research open` on 2026-09-27.
 
 ## Current assessment
+
+The
+[[research/arithmetic_construction_interfaces/progression_transfers|common-point
+interface]] isolates the missing implication from the common-point upper bound
+to the unrestricted exact value. In particular, the additional hypotheses in
+the $N\ge10000$ structural results do not give a finite complement below that
+threshold; a private triple cannot simply replace a larger member while
+preserving nonempty intersections.
 
 The erdosproblems.com formulation asks for the exact largest $t=t(N)$ for each
 $N\geq1$; on 2026-09-28 the page showed the label OPEN, which erdosproblems.com
@@ -155,9 +163,10 @@ Conjectures.io's statement; the 12,791-line file contains no `sorry`, `axiom`,
 `set_option` or `import`; its header declares no author and no AI system, and
 one comment says a lemma comes "from the third supplied proof". The
 formal-conjectures commit the bounty task pinned was not reachable in the
-catalog's repository on 2026-09-27; the default branch's `szabo_strong`
+formal-conjectures repository on 2026-09-27; the default branch's `szabo_strong`
 statement is identical, and the replay reproduced the pinned commit, which
-Conjectures.io builds from a public catalog commit and an audit patch.
+Conjectures.io builds from a public formal-conjectures commit and an audit
+patch.
 
 Search scope, 2026-09-27 and 2026-09-28: erdosproblems.com (the page, its
 discussion thread and its proof-claims thread), the community database,
@@ -246,8 +255,8 @@ manuscript; Yang's are recorded on
   $t(N)\leq\binom N2+22051N$ for $N\geq N_0$ (big-O constant $30000$ as
   Conjectures.io's record quotes it). Scope: linear-error asymptotic only; not
   the exact value, not the kernel conjecture; Conjectures.io-accepted, no
-  refereed publication, no erdosproblems.com or catalog acceptance; accepted
-  here on this corpus's kernel replay of the file.
+  refereed publication, no erdosproblems.com or formal-conjectures acceptance;
+  accepted here on this corpus's kernel replay of the file.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

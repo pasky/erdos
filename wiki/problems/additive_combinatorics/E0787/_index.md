@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T12:07:18Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 787
@@ -160,6 +160,13 @@ open (last update 31 August 2025), the statement not formalized and an OEIS
 entry marked "possible".
 
 ## Current assessment
+
+The
+[[research/arithmetic_construction_interfaces/progression_transfers|finite relation-preserving
+reduction]] gives an elementary map of any finite real set to integers,
+preserving exactly the equations $a+b=c$. It justifies that domain transfer
+without determining the growth of $g(n)$, and distinguishes this sum-avoidance
+condition from the ordinary sum-free condition in Problem 792.
 
 **The question (erdosproblems.com formulation of 2026-09-18).** The statement
 above; OPEN, a label erdosproblems.com explains as not settled by any finite

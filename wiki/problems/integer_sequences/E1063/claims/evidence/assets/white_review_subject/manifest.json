@@ -1,0 +1,91 @@
+{
+  "frozen_utc": "2026-10-15T05:52:55.296610+00:00",
+  "examination_date_utc": "2026-10-15",
+  "omission_marker": "[cut]",
+  "scope": "The quantitative eventual upper bound and its two displayed asymptotic consequences only.",
+  "canonical_report": "wiki/problems/integer_sequences/E1063/claims/evidence/verify/white_upper_bound/report.md",
+  "canonical_asset_directory": "wiki/problems/integer_sequences/E1063/claims/evidence/assets/white_review_subject/",
+  "subjects": [
+    {
+      "source": "wiki/problems/integer_sequences/E1063/_index.md",
+      "source_ranges": [
+        {
+          "start_inclusive": {
+            "line": 23,
+            "column": 1,
+            "utf8_byte_offset": 525
+          },
+          "end_exclusive": {
+            "line": 27,
+            "column": 1,
+            "utf8_byte_offset": 692
+          }
+        }
+      ],
+      "snapshot": "catalog_statement.md.txt",
+      "scope": "Exact supplied mathematical fragment; omitted sections are not part of the assessed subject."
+    },
+    {
+      "source": "wiki/problems/integer_sequences/E1063/claims/2026_07_25_white.md",
+      "source_ranges": [
+        {
+          "start_inclusive": {
+            "line": 25,
+            "column": 1,
+            "utf8_byte_offset": 680
+          },
+          "end_exclusive": {
+            "line": 35,
+            "column": 1,
+            "utf8_byte_offset": 1027
+          }
+        },
+        {
+          "start_inclusive": {
+            "line": 56,
+            "column": 1,
+            "utf8_byte_offset": 2236
+          },
+          "end_exclusive": {
+            "line": 56,
+            "column": 38,
+            "utf8_byte_offset": 2273
+          }
+        }
+      ],
+      "snapshot": "claim_math.md.txt",
+      "scope": "Exact supplied mathematical fragment; omitted sections are not part of the assessed subject."
+    },
+    {
+      "source": "https://raw.githubusercontent.com/pw/erdos1063-upper-bound/a28481f5b4bda374086533397269c5b550c759b8/README.md",
+      "source_ranges": [
+        {
+          "start_inclusive": {
+            "line": 47,
+            "column": 1,
+            "utf8_byte_offset": 3510
+          },
+          "end_exclusive": {
+            "line": 55,
+            "column": 1,
+            "utf8_byte_offset": 3703
+          }
+        },
+        {
+          "start_inclusive": {
+            "line": 61,
+            "column": 1,
+            "utf8_byte_offset": 4163
+          },
+          "end_exclusive": {
+            "line": 191,
+            "column": 1,
+            "utf8_byte_offset": 11798
+          }
+        }
+      ],
+      "scope": "Theorem and Sections 1–5 only; identified by immutable URL. Copied source text is not included in public assets because an open republication license has not been established."
+    }
+  ],
+  "provenance_basis": "Source paths, ranges, and immutable external URL were supplied in the frozen subject manifest. This public provenance record omits private operational identities."
+}

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-16T07:25:46Z
 ---
 
 # Problem 30
@@ -74,13 +74,25 @@ https://www.erdosproblems.com/30.
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/30.lean),
 tagged research open with no `formal_proof` attribute.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/finite_extremality|finite sidon
+extremality and prefix extension]] account records the following scope. The
+cited diameter estimate gives h(N)<=sqrt(N)+0.98183 N^(1/4)+O(1), still exponent
+1/4.
+
+The [[research/sidon_extremal_error/_index|Sidon error-term attack]]
+records tier-0 barriers for fixed nonnegative linear-capacity arguments
+and specified quartic moment repairs, while a signed linear completion
+solves the corresponding linear constraints. Full moment-matrix positivity
+remains open, as do both the extremal upper bound and the all-$N$ lower
+bound required by the question.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -91,9 +103,11 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/additive_bases/balogh_2021_upper_bound_size_sidon_sets/_index|balogh_2021_upper_bound_size_sidon_sets]]
 - [[../library/additive_bases/balogh_2021_upper_bound_size_sidon_sets/theorem_1_1|balogh_2021_upper_bound_size_sidon_sets / theorem_1_1]]
 - [[../library/additive_bases/carter_2025_diameter_finite_sidon_sets/_index|carter_2025_diameter_finite_sidon_sets]]
+- [[../library/additive_bases/chen_2026_explicit_second_order_bound_sidon_sets/_index|chen_2026_explicit_second_order_bound_sidon_sets]]
 - [[../library/additive_bases/erdos_1941_problem_sidon_additive_number_theory_related/_index|erdos_1941_problem_sidon_additive_number_theory_related]]
 - [[../library/additive_bases/erdos_1941_problem_sidon_additive_number_theory_related/theorem_p212_lower_bound|erdos_1941_problem_sidon_additive_number_theory_related / theorem_p212_lower_bound]]
 - [[../library/additive_bases/erdos_1941_problem_sidon_additive_number_theory_related/theorem_p212_upper_bound|erdos_1941_problem_sidon_additive_number_theory_related / theorem_p212_upper_bound]]
+- [[../library/additive_bases/hou_2026_improved_upper_bound_finite_sidon_sets/_index|hou_2026_improved_upper_bound_finite_sidon_sets]]
 - [[../library/additive_bases/kolountzakis_1996_density_b_h_g_sequences_minimum/_index|kolountzakis_1996_density_b_h_g_sequences_minimum]]
 - [[../library/additive_bases/kolountzakis_1996_density_b_h_g_sequences_minimum/theorem_1|kolountzakis_1996_density_b_h_g_sequences_minimum / theorem_1]]
 - [[../library/additive_bases/martin_2005_constructions_generalized_sidon_sets/_index|martin_2005_constructions_generalized_sidon_sets]]

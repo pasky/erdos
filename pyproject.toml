@@ -29,8 +29,9 @@ docs = [
     "sphinx-autodoc-typehints",
     "pydata-sphinx-theme",
 ]
-# the third-party packages the evidence programs under wiki/ and library/ import; a
-# default group, so the documented three-group sync installs it too
+# third-party packages for the evidence programs, the same list as the sibling
+# corpus's group, so an entry may serve only one corpus; a default group, so the
+# documented three-group sync installs it too
 evidence = [
     "gmpy2>=2.2,<3",
     "mpmath>=1.3,<2",
@@ -229,6 +230,7 @@ suppress-dummy-args = true
 
 [tool.pyright]
 include = ["tools", "tests"]
+extraPaths = ["scripts"]
 
 [tool.pytest.ini_options]
 # https://docs.pytest.org/en/stable/customize.html

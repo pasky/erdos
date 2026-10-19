@@ -8,7 +8,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:24:20Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 725
@@ -84,6 +84,16 @@ proof-claims page, the community database entry, the formal-conjectures problem
 listing, the OEIS entry A001009, the arXiv record of arXiv:2608.01671 and the
 repository README it links, the Crossref records of [ErKa46], [Ya51] and
 [GoMc90], and the two library cards.
+
+## Scoped deduction
+
+The [[research/methods/finite_set_thresholds|normalization calculation]]
+compares the recorded Godsil–McKay expression with the simpler
+$e^{-\binom k2}(n!)^k$ at $k\sim cn^{1/3}$: their ratio tends to
+$e^{-c^3/6}$. This is a formula comparison. Its application to the
+actual count uses the recorded theorem, whose primary proof has not been
+inspected in that calculation.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

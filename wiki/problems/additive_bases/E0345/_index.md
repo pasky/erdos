@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T15:37:31Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 345
@@ -45,10 +45,30 @@ https://www.erdosproblems.com/345.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The successive-exponent comparison remains unresolved. The powers-of-two
+congruence mechanism in the
+[[../library/number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|Erdős–Graham completeness discussion]]
+has the following explicit author-recorded consequence by Plasma AI. Write
+$T(k)=T(\{1^k,2^k,\ldots\})$. For $t\ge2$, put $k=2^t$ and $q=4k$.
+Every odd integer $b$ has $b^k\equiv1\pmod q$: start with
+$b^2\equiv1\pmod8$ and square successively. Every even $b$ has
+$b^k\equiv0\pmod q$, since $2^t\ge t+2$.
 
-## Known Results
+A sum of distinct $k$th powers congruent to $-1\pmod q$ must therefore
+contain at least $q-1$ odd powers. Its size is at least
+$S_k=\sum_{j=1}^{q-1}(2j-1)^k$. The positive integer $S_k-q$ has the same
+residue and is smaller, so it is not representable. Consequently
 
-Not yet compiled.
+$$
+T(2^t)\ge
+\sum_{j=1}^{2^{t+2}-1}(2j-1)^{2^t}-2^{t+2}+1\qquad(t\ge2).
+$$
+
+No threshold search is needed for this deduction. To establish infinitely many
+drops by this route one still needs an upper bound for $T(2^t+1)$ below this
+lower bound along infinitely many $t$. Neither the formula nor finitely many
+exact thresholds provides that comparison. The account is a partial deduction
+from the held congruence idea, without independent review or a new complete
+literature search.

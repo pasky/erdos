@@ -7,7 +7,7 @@ desc: |
   to about N plus 5R(N) over one minus delta and satisfy the printed growth
   bound, with Corollary 3.1 the case delta equal to one sixth.
 created: 2026-10-08T15:48:37Z
-updated: 2026-10-08T15:48:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -75,5 +75,5 @@ Proposition 3.1, Lemma 2.1 and Lemma 2.3 of the same paper.
 
 ## Bears on
 
-No catalog problem directly. It is the tool behind
+No erdosproblems.com problem directly. It is the tool behind
 [[irrationality/hancl_2010_irrationality_factorial_series_ii/corollary_3_2|Corollary 3.2]].

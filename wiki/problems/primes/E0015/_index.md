@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 15
@@ -167,6 +167,9 @@ the Known Results below.
   erdosproblems.com records a Selberg-sieve argument it credits to Sawhney, that
   $\sum(-1)^n/(n(p_{n+1}-p_n)(\log\log n)^c)$ converges absolutely for $c>2$,
   while Erdős conjectured convergence for every $c>0$.
+
+The author-recorded [[research/covering_prime_interfaces/prime_pattern_uniformity|prime-pattern comparison]] states the parameter ranges and missing uniformity needed to use the available results here. Its source dependence and unresolved implications remain explicit.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

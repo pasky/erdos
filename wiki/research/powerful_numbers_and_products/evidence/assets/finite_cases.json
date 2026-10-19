@@ -1,0 +1,21 @@
+{
+  "square_quotients_k2": [
+    {"root": 2, "pairs": []},
+    {"root": 3, "pairs": []},
+    {"root": 4, "pairs": []},
+    {"root": 5, "pairs": []},
+    {"root": 6, "pairs": [[0, 7]]},
+    {"root": 10, "pairs": [[1, 23]]},
+    {"root": 35, "pairs": [[0, 48]]}
+  ],
+  "pell_progression": {
+    "x": 11427,
+    "y": 617,
+    "core": 7,
+    "interval": [130530625, 130576327],
+    "powerful_values": [130530625, 130533497, 130553476, 130560500, 130561227, 130572800, 130576327]
+  },
+  "smooth_part_counterexample": {"n": 1487503359, "v2": 15, "v3": 14},
+  "divisibility_witnesses": [[1, 1], [2, 5], [3, 4]],
+  "separated_blocks": {"blocks": [[2, 4], [48, 50]], "square_root": 1680}
+}

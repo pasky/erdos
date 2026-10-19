@@ -7,7 +7,7 @@ desc: |
   which the authors call the first nontrivial bound for such sets; proved
   by the weighted entropy sieve of Theorem 4.1.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -63,7 +63,7 @@ and Lemma 3.4 of the paper (p. 18).
 
 ## Bears on
 
-No catalog problem directly. P. 5 mentions Erdős Problem #1206 (whether a
-Sidon subset of the cubes can have size $\gg N$) and Problem #322 (sums of
-$k$ $k$-th powers) as context; a $B_3[g]$ bound is not a bound for Sidon
-subsets of the cubes, and the paper draws no consequence for either.
+No erdosproblems.com problem directly. P. 5 mentions Erdős Problem #1206
+(whether a Sidon subset of the cubes can have size $\gg N$) and Problem #322
+(sums of $k$ $k$-th powers) as context; a $B_3[g]$ bound is not a bound for
+Sidon subsets of the cubes, and the paper draws no consequence for either.

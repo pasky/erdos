@@ -5,7 +5,7 @@ desc: "Source notes for Problem 132: Szöllősi–Östergård: Constructions of 
 tags: []
 sources: []
 created: 2026-09-24T22:18:23Z
-updated: 2026-09-24T22:18:23Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Szöllősi–Östergård: Constructions of maximum few-distance sets
@@ -25,3 +25,8 @@ and the three types, up to similarity, are a regular 13-gon, a regular
 and its following discussion were checked in the full paper, pp. 15–16.
 It is a computer-assisted classification using graph generation and
 Gröbner bases; its exhaustive computation was not rerun here.
+
+For Erdős 132 this settles order 13 by exact multiplicity counts of the
+three models. The cardinality bound and the existing unique-diameter
+theorem also settle order 14. It does not classify arbitrary eleven-point
+five-distance sets or settle either unrestricted rarity question.

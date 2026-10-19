@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:39:38Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1055
@@ -80,9 +80,32 @@ https://www.erdosproblems.com/1055.
 pinned at the revision of 2026-08-16 that made the classes exclusive, as the
 Notes record.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Under the modified exclusive definition, every prime has finite class: outside
+$2,3$, every prime factor of $p+1$ is smaller than $p$, and outside class one
+the class is one plus the maximum factor class. Every class is nonempty. Class
+two contains $13$. If $q$ has class $r\ge2$, Dirichlet gives a larger prime
+$p\equiv-1\pmod q$ of class at least $r+1$. Repeatedly following a
+maximal-class factor gives a prime of class exactly $r+1$.
+
+This proves nonemptiness, not infinitude at a fixed class: the descents may
+repeatedly reach the same prime. The least primes satisfy $p_2=13$ and, for
+$r\ge3$, $p_r\ge2p_{r-1}-1$, because a factor of class $r-1$ is odd and $2q\mid
+p_r+1$. Therefore
+
+$$
+p_r\ge3\cdot2^r+1\quad(r\ge2),\qquad
+\liminf_{r\to\infty}p_r^{1/r}\ge2.
+$$
+
+These complete author deductions use Dirichlet's theorem and the definition;
+they do not decide convergence or divergence of the roots.
+[[../library/number_theory/guy_2004_unsolved_problems_number_theory/_index|Guy's
+A18 account]] supplies the historical class question, not a resolving theorem.
+Even class-one infinitude needs infinitely many primes $2^a3^b-1$. Forcing one
+factor of $p+1$ in an arithmetic progression does not control every other
+factor, which is the missing exact-height requirement.
 
 ## Known Results
 

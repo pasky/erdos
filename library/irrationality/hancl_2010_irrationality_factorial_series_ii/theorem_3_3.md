@@ -7,7 +7,7 @@ desc: |
   ratio of modulus at most 2 for infinitely many N, and a_n is o(n to the
   n over 7).
 created: 2026-10-08T15:37:11Z
-updated: 2026-10-08T15:37:11Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -44,4 +44,4 @@ Proposition 3.2 and Lemma 2.3 of the same paper.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

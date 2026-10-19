@@ -32,7 +32,7 @@ links:
 - url: https://www.erdosproblems.com/1033
   kind: discussion
 created: 2026-10-07T08:01:27Z
-updated: 2026-10-08T00:36:27Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -124,3 +124,11 @@ community database records the problem as open. The thread's separate reports of
 flag algebra to about $1.45016$ and then to about $1.4525$, with a note to
 follow, are an improvement of a bound, not an answer to either question, and are
 recorded on the problem page as a lead.
+
+**Local consequence.** The
+[[research/graph_ramsey_interfaces/butterfly_degree_sum_certificate/_index|rational butterfly certificate]]
+gives an author-recorded realization of this template with the weaker bound
+$h(n)<183n/125$ for every $n\ge10^{13}$. Its explicit bipartite residue
+construction and exact arithmetic do not use the claimed optimization or
+certify the value $1.463878$. The local argument has no independent review,
+and this claim's standing is unchanged.

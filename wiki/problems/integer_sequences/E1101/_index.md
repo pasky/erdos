@@ -10,7 +10,7 @@ status: open
 claim: none
 parts: [polynomial, subexponential]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1101
@@ -62,13 +62,52 @@ https://www.erdosproblems.com/1101.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1101.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+These deductions leave the full question unresolved. They have author-recorded
+standing; this assessment is limited to the arguments and source interfaces
+stated below. No comprehensive search for recent proof claims is recorded here.
 
-## Known Results
+In the nondegenerate setting $u_i>1$, pairwise coprime, $\sum1/u_i<\infty$, put
+$\delta=\prod_i(1-1/u_i)>0$, $Q_t=\prod_{i\le t}u_i$, and
+$G(x)=\max_{a_k<x}(a_{k+1}-a_k)$ for the free integers. Goodness requires for
+every $\epsilon>0$ the uniform eventual bound $G(x)<(1+\epsilon)t_x/\delta$, not
+merely a most-$x$ assertion.
 
-Not yet compiled.
+CRT gives $y\in[0,Q_t)$ with $y+i\equiv0\pmod{u_i}$,
+$1\le i\le t$. It cannot be 0, since the first congruence would
+give $u_1\mid1$. Thus $y+1,\ldots,y+t$ are all excluded.
+There are infinitely many free integers: the first $s$ divisors give
+density $\prod_{i\le s}(1-1/u_i)$ by CRT, and the tail removes
+a proportion at most $\sum_{i>s}1/u_i$, tending to zero.
+Since 1 is free, the nearest free integers on either side satisfy
+$a\le y<Q_t$, $b\ge y+t+1$. They are consecutive, so
+$$
+ G(Q_t)\ge t+1,\qquad t_{Q_t}=t.
+$$
+Its leading constant 1 is below $\delta^{-1}$. This neither
+disproves polynomial goodness nor certifies any construction.
+
+The Li claim card describes a 2026 construction with $\log u_n=\sqrt
+n+O(n^{-1/2})$ and a probabilistic exclusion argument. The [primary
+manuscript](https://drive.google.com/file/d/1rRfKzo0JMjUYlzgJ0kGvj_HUVXiit9-M/view)
+was not inspected as proof. Its excluding-certificates lemma and uniform-in-$x$
+conclusion are the relevant uninspected proof sites. The Erdős display (3.5)
+account was also read; its original formulation ambiguity is not substituted for
+the exact erdosproblems.com quantifiers.
+
+The unresolved obligation is, for the pending part, to validate the
+probability/covering estimate uniformly in x. For polynomial growth: beat the
+allowed delta^(-1) factor, not just obtain a CRT gap of order t_x. A useful test
+is to inspect, if the primary proof becomes available, Li's exact certificate
+count and Borel-Cantelli quantifiers; for a polynomial obstruction, first prove
+a gap larger than (1+epsilon)delta^(-1)t_x. Stop at a claim-page summary, a gap
+at only the t_x scale, or nonuniform-in-x estimates.
+
+Source interfaces:
+[[../library/additive_bases/erdos_1981_problems_results_additive_multiplicative_number_theory/display_3_5|Displays
+(3.3')-(3.5), question and proof pointer]].
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -78,5 +117,8 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/additive_bases/erdos_1981_problems_results_additive_multiplicative_number_theory/_index|erdos_1981_problems_results_additive_multiplicative_number_theory]]
 - [[../library/additive_bases/erdos_1981_problems_results_additive_multiplicative_number_theory/display_3_5|erdos_1981_problems_results_additive_multiplicative_number_theory / display_3_5]]
+- [[../library/integer_sequences/li_2026_subexponential_good_sequence/_index|li_2026_subexponential_good_sequence]]
+- [[../library/integer_sequences/li_2026_subexponential_good_sequence/lemma_1|li_2026_subexponential_good_sequence / lemma_1]]
+- [[../library/integer_sequences/li_2026_subexponential_good_sequence/theorem_1|li_2026_subexponential_good_sequence / theorem_1]]
 
 <!-- END problem library links -->

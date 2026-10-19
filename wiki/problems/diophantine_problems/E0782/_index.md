@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 782
@@ -54,13 +54,19 @@ https://www.erdosproblems.com/782.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/diophantine_representation_interfaces/square_cubes|Uniform curve
+bounds and cubes of squares]] account records the following scope. A uniform
+bound $B$ for rational points on the indicated genus-two curves would bound
+proper cube dimension and force general cube dimension at most $B+2$. The
+argument is conditional on that unproved uniform bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

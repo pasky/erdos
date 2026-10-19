@@ -5,8 +5,8 @@ desc: |
   Keeps the kernel replays of sixteen Conjectures.io Lean solutions on the
   repository's pinned toolchain; the solution files themselves are fetched by
   URL.
-created: 2026-10-14T02:00:00Z
-updated: 2026-10-14T01:39:13Z
+created: 2026-10-14T01:27:55Z
+updated: 2026-10-18T10:20:09Z
 ---
 
 # Evidence for the kernel replays of sixteen Conjectures.io solutions

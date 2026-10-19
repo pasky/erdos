@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 860
@@ -97,6 +97,32 @@ no tab claim carries, is on
 [[problems/primes/E0860/claims/2026_08_13_chen_korsky|the joint page of Chen and Korsky]].
 This page records the claims without adopting them; no claim would settle
 the problem, which asks for the order of magnitude of $h(n)$.
+
+## Exact local reduction and remaining uniformity
+
+Hall's condition requires the union of available multiples to have size at
+least $|S|$ for every subset $S$ of primes up to $n$, not just the full prime
+set. For fixed $n$, these incidence graphs are periodic modulo the primorial,
+giving finite tests but no asymptotic bound by themselves.
+
+The partial matching in
+[[../library/primes/doorn_2026_optimal_bounds_erdos_problem_matching_integers/_index|van
+Doorn–Li–Tang's Theorem 2.1]] matches at least $\min(r,\lceil2\sqrt r\rceil)$
+of any remaining $r$ primes in an open interval of length $2n$. Apply it in
+consecutive disjoint such intervals. While $r>4$, removal of at least $2\sqrt
+r$ decreases the square root of the remainder by at least one; one last block
+handles $r\le4$. Hence
+
+$$
+h(n)\le2n\bigl(\lceil\sqrt{\pi(n)}\rceil+1\bigr)
+ \ll n^{3/2}/\sqrt{\log n}.
+$$
+
+This checked specialization recovers the known scale only. The source's full
+proof and formalization were not audited or run; pending stronger claims are
+not adopted. A prime-specific Hall estimate beating this depletion rate must
+treat every subset, not merely count all multiples.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -1,0 +1,41 @@
+{
+  "precision_decimal_digits": 50,
+  "counterexample_bound": {
+    "description": "n < N_i from the uncoarsened factorial-product form of Lemma 1 and G <= n^pi(i)",
+    "lcm_bound": "lcm(1,...,i) < exp(1.04*i)"
+  },
+  "finite_checks": [
+    {
+      "range": "906 <= i < 1476",
+      "comparison": "N_i is below the first lower endpoint of a prime gap longer than i",
+      "minimum_log_margin": "0.264355152498426379860162491835695598454151933036",
+      "minimum_at_i": 912
+    },
+    {
+      "range": "1476 <= i < 1000000",
+      "comparison": "N_i < 4e18, where every prime gap is at most 1476",
+      "minimum_log_margin": "11.481382035743336994652817251692033480725471049646",
+      "minimum_at_i": 1500
+    }
+  ],
+  "method_boundary": {
+    "i": 905,
+    "first_longer_gap": 906,
+    "first_longer_gap_lower_endpoint": 218209405436543,
+    "log_margin": "-0.925601492071455179223058085872637464450525127939",
+    "interpretation": "the same confinement comparison does not certify i=905"
+  },
+  "analytic_tail": {
+    "start": "1000000",
+    "numerator_constant_C": "1.3865741868536879346396041235118031798010340989778",
+    "upper_bound_for_log_N_i_minus_log_i": "16.597795262004372550740688125578014898245316960318",
+    "log_delta": "17.158866939936579568439071556851897804622467368527",
+    "log_margin": "0.561071677932207017698383431273882906377150408209"
+  },
+  "prime_interval_input": {
+    "delta": 28314000,
+    "start": 10726905041,
+    "statement": "for x above start, (x*(1-1/delta), x] contains a prime"
+  },
+  "conclusion": "Every admissible triple with i >= 906 has a common prime divisor p > i."
+}

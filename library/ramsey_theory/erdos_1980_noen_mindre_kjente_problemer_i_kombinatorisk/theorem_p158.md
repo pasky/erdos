@@ -7,7 +7,7 @@ desc: |
   1/a_i diverges, and if it exceeds cx for all x the partial sums of 1/a_i up
   to x exceed c log x, which a_k = [k log k] shows best possible.
 created: 2026-10-08T15:32:44Z
-updated: 2026-10-08T15:32:44Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -67,6 +67,8 @@ None outside the paper.
 
 ## Bears on
 
-No catalog problem is recorded for this statement. The paper uses it beside
-the [[ramsey_theory/erdos_1980_noen_mindre_kjente_problemer_i_kombinatorisk/theorem_p160|theorem of Section 3]], whose proof turns the same
-count $g(A,x)$ against the hypothesis that all consecutive sums are distinct.
+No erdosproblems.com problem is recorded for this statement. The paper uses it
+beside the
+[[ramsey_theory/erdos_1980_noen_mindre_kjente_problemer_i_kombinatorisk/theorem_p160|theorem of Section 3]],
+whose proof turns the same count $g(A,x)$ against the hypothesis that all
+consecutive sums are distinct.

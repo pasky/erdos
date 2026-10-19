@@ -1,0 +1,37 @@
+# Source identity and examination boundary
+
+Kenta Kitamura / KitaKen1 supplies the source mechanism in:
+- erdos176-nk2-polynomial-bound-lean, external revision 88be9174c1b85548fa48d2498ba907a9e80f04c7.
+- erdos176-nksqrtk-polynomial-bound-lean, external revision 19b2ad31c81207613f7cfdaa68467d3dca98b3b7.
+
+Both source archives carry Apache 2.0. The source's credit for preparation
+assistance names Codex 5.5 and ChatGPT 5.5 Pro. The analytic extraction,
+finite Python probe and exponential deductions are original Plasma AI work.
+The available upstream proof is the supplied Lean source text; no upstream
+prose manuscript is supplied. No source label or reported build is a premise.
+
+The second repository's Basic.lean has the same mathematical bytes as the
+first; it differs by five header lines. Its Sqrt.lean uses this common Basic
+foundation. The provided mathematical slices retain every declaration through
+the first public bound and the complete weighted extension. Source code is
+for static reading only, never execution. No Lean, Lake, kernel replay or
+Mathlib dependency installation is authorized. This is a whole mathematical
+proof examination, not formal acceptance or an elaboration certificate.
+
+The cyclic Fourier identity, finite Fejer pair sum, wrapping estimate,
+floor/minimum bridge, Boolean-code/sign-coloring bridge, small finite values,
+and both exponential consequences are internal obligations. No Cassels,
+Turan or native L-claim is supplied as an accepted premise. Elementary finite
+Fourier orthogonality, inversion and Parseval are given in the local argument.
+
+The exact finite evidence uses every sign tuple and the complete retained
+AP inventory. Its independent reproduction uses partition inclusion-exclusion
+and a balanced four-block recurrence. The report gives the proof reductions,
+coverage, actual controls and portable reproduction commands. The retained
+runtime files support only the declared finite computations.
+
+The public filing omits private operating instructions and custody hashes.
+The author checker's docstring uses its public relative filename; its executable
+body is unchanged. No mathematical statement, proof, numerical input or control
+has been changed. Source excerpts preserve the reviewed mathematical lines,
+with a non-mathematical attribution and extraction notice appended where needed.

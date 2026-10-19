@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 829
@@ -41,13 +41,18 @@ https://www.erdosproblems.com/829.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/829.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/diophantine_representation_interfaces/power_sums|power-sum
+representations and collision counts]] account records the following scope.
+Representations correspond exactly to divisors s of n in [n^(1/3),(4n)^(1/3)]
+with (4n/s-s^2)/3=t^2, t=s mod 2 and 0<=t<s.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

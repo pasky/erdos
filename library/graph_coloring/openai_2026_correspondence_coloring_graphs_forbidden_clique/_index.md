@@ -8,7 +8,7 @@ desc: |
   forbidden subgraph; it names no Erdős problem.
 license: Apache-2.0
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 # graph_coloring/openai_2026_correspondence_coloring_graphs_forbidden_clique
@@ -260,21 +260,10 @@ the page's status rests on its own acceptance evidence.
   [[extremal_graph_theory/bollobas_hind_1991_graphs_without_large_triangle_free_subgraphs/theorem_1|Bollobás and Hind's Theorem 1]]):
   a vertex of degree at least $D$ has a triangle-free neighborhood, and
   otherwise a $K_4$-free graph of maximum degree below $D$ has a large
-  independent set. Theorem 1.1 at $r=4$, inside its range $r\ge4$ and with
-  $C_4$, $\Delta_4$ absolute, would supply that second step without the
-  $\log\log$ loss: since $\chi\le\chi_{\mathrm{DP}}$ and $x/\log x$ increases
-  for $x\ge e$, maximum degree $\Delta$ with $\Delta_4\le\Delta<D$ gives
-  $\chi\le\lceil C_4D/\log D\rceil$, and $\Delta<\Delta_4$ gives
-  $\chi\le\Delta_4$, so the largest color class has at least $n/\chi$
-  vertices and spans no triangle; with $D=\sqrt{n\log n}$ this gives
-  $f(n)\ge c\sqrt{n\log n}$ for large $n$. That is the bound the page already
-  derives in one line from Corollary 2 of Joret, Micek, Reed and Smid, and
-  the lower half of the pending Morris--Sahasrabudhe--Verstraëte claim; this
-  route avoids that theorem and the unexamined gap claim the page records
-  through Problem 610, but it rests on an unrefereed manuscript. The
-  companion's Theorem 1.1, recorded as accepted on Problem 802's claim page,
-  gives the same bound by the same argument (maximum degree below $D$ forces
-  average degree below $D$, and Turán's bound covers average degree below
-  $2$); Problem 620's page records that route. Neither result touches the open
-  upper bound $O(\sqrt{n\log n})$, the new part of the pending claim, or
+  independent set. Theorem 1.1 at $r=4$ bears on that second step; no claim
+  page applies it to this problem. The page derives $f(n)\ge c\sqrt{n\log n}$
+  in one line from Corollary 2 of Joret, Micek, Reed and Smid, subject to the
+  gap claim recorded through Problem 610; that bound is the lower half of the
+  pending Morris--Sahasrabudhe--Verstraëte claim. Nothing here touches the
+  open upper bound $O(\sqrt{n\log n})$, the new part of the pending claim, or
   determines the order of $f(n)$. Unverified.

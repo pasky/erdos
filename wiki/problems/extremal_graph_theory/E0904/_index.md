@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 904
@@ -79,14 +79,14 @@ having degree $2m/n$, once an $r$-clique exists; the content is the
 non-regular case. Erdős's 1975 survey states only the case $r=3$, under
 $e\ge n^2/3$ in place of $m\ge t_3(n)$ (the erdosproblems.com commentary notes
 the difference; $t_3(n)=\lfloor n^2/3\rfloor$, so the two hypotheses differ by
-at most one edge). The erdosproblems.com label PROVED (LEAN) carries a catalog
+at most one edge). The erdosproblems.com label PROVED (LEAN) carries a
 suffix explained under Formalization.
 
 **Status.** erdosproblems.com showed PROVED (LEAN). The label describes the
-modified Statement, the form the sources prove. Its Lean qualification is a
-catalog suffix explained under Formalization. The modified Statement holds by
-Theorem 2 of [BoNi05] with its display (13), for every $r\ge2$ and $n\ge r$.
-This is recorded as the accepted full claim
+modified Statement, the form the sources prove. Its Lean qualification is an
+erdosproblems.com suffix explained under Formalization. The modified Statement
+holds by Theorem 2 of [BoNi05] with its display (13), for every $r\ge2$ and
+$n\ge r$. This is recorded as the accepted full claim
 [[problems/extremal_graph_theory/E0904/claims/2004_10_08_bollobas_nikiforov|Bollobás--Nikiforov]],
 accepted on the refereed publication and the erdosproblems.com credit, and the
 frontmatter standing derives from it. The earlier ranges are accepted partial
@@ -157,36 +157,34 @@ accessed 2026-09-18.
   erdosproblems.com key for this problem. Library home:
   [[../library/extremal_graph_theory/erdos_1985_note_size_chordal_subgraph/_index|erdos_1985_note_size_chordal_subgraph]].
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/904.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/904.lean)
 of formal-conjectures, at the commit linked, declares
 `erdos_904 : answer(True) ↔ ∀ (V : Type*) [Fintype V] (G : SimpleGraph V) [DecidableRel G.Adj] (r : ℕ) (hr : r ∈ Set.Icc 1 (n V)) (hm : turanNumber (n V) r ≤ #G.edgeFinset), ∃ s, G.IsNClique r s ∧ 2 * r * #G.edgeFinset ≤ n V * ∑ v ∈ s, G.degree v`
-under `category research solved, AMS 5`, with proof `sorry` and a
-`formal_proof` attribute naming the file
-`src/v4.29.1/ErdosProblems/Erdos904.lean` in Boris Alexeev's repository
-`plby/lean-proofs` on its `main` branch (unpinned). Its `turanNumber n r` is
-the edge count of Mathlib's `turanGraph n r`, the inequality is cleared of the
-denominator $n$, and the quantifier `r ∈ Set.Icc 1 (n V)` restricts to
-$1\le r\le n$ (the file's choice, wider than erdosproblems.com's $r\ge2$ in one
-direction and carrying the modified Statement's $n\ge r$ in the other). The
-external file, at the repository's commit of 15 September 2026 that the claim
-page's link pins, has 766 lines, is headed
-`leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports four Mathlib modules,
-names Bollobás and Nikiforov as informal authors and the AI system Aristotle
-and Parcly Taxel as formal authors, and links the erdosproblems.com thread post
-of 18 April 2026 and the gist first holding the file. It defines Faudree's
-greedy sequences (`IsPSequence`) and proves, in lemmas named for the paper's
-displays (`equation_8`, `equation_11`, `equation_12`, `equation_16`), the final
-theorem
+under `category research solved, AMS 5`, with proof `sorry` and a `formal_proof`
+attribute naming the file `src/v4.29.1/ErdosProblems/Erdos904.lean` in Boris
+Alexeev's repository `plby/lean-proofs` on its `main` branch (unpinned). Its
+`turanNumber n r` is the edge count of Mathlib's `turanGraph n r`, the
+inequality is cleared of the denominator $n$, and the quantifier
+`r ∈ Set.Icc 1 (n V)` restricts to $1\le r\le n$ (the file's choice, wider than
+erdosproblems.com's $r\ge2$ in one direction and carrying the modified
+Statement's $n\ge r$ in the other). The external file, at the repository's
+commit of 15 September 2026 that the claim page's link pins, has 766 lines, is
+headed `leanprover/lean4:v4.29.1 mathlib v4.29.1`, imports four Mathlib modules,
+names Bollobás and Nikiforov as informal authors and the AI system Aristotle and
+Parcly Taxel as formal authors, and links the erdosproblems.com thread post of
+18 April 2026 and the gist first holding the file. It defines Faudree's greedy
+sequences (`IsPSequence`) and proves, in lemmas named for the paper's displays
+(`equation_8`, `equation_11`, `equation_12`, `equation_16`), the final theorem
 `erdos904 : ∃ s, G.IsNClique r s ∧ 2 * r * #G.edgeFinset ≤ n V * ∑ v ∈ s, G.degree v`
 (line 741) under the same hypotheses `hr`, `hm` as the collection's statement,
-whose conclusion it is; a closing comment records `#print axioms` as
-`propext`, `Classical.choice` and `Quot.sound`. The file contains no `sorry`,
-`axiom`, `native_decide` or `unsafe`. The thread's formalization notice (18
-April 2026) says that the Bollobás--Nikiforov paper was formalized and that
-some declaration names follow the paper's equation numbers, which the lemma
-names bear out. The file is a formalization link on the
+whose conclusion it is; a closing comment records `#print axioms` as `propext`,
+`Classical.choice` and `Quot.sound`. The file contains no `sorry`, `axiom`,
+`native_decide` or `unsafe`. The thread's formalization notice (18 April 2026)
+says that the Bollobás--Nikiforov paper was formalized and that some declaration
+names follow the paper's equation numbers, which the lemma names bear out. The
+file is a formalization link on the
 [[problems/extremal_graph_theory/E0904/claims/2004_10_08_bollobas_nikiforov|Bollobás--Nikiforov claim page]];
 no build, audit or kernel check of it is recorded, so it gives no `formalized`
 evidence. The community database (`data/problems.yaml`, accessed 2026-09-18)

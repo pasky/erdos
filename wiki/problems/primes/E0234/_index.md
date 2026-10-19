@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 234
@@ -63,6 +63,9 @@ intervals, from which $f(c)$ exists and equals $1-e^{-c}$ for every $c\ge0$;
 Tao states the same consequence on the erdosproblems.com discussion thread (29
 September 2025). The hypothesis is unproved, so the claim settles no standing
 and the problem stays open.
+
+The author-recorded [[research/covering_prime_interfaces/prime_gap_statistics|prime-gap comparison]] isolates the support, moment or uniform limiting information needed for this question and proves the stated elementary reductions. It does not establish the requested prime-gap law.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

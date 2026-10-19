@@ -6,7 +6,7 @@ desc: |
   chromatic number of a graph of genus g with girth greater than s lies
   between c_1 g^((1-epsilon)/(2s+2)) and c_2 g^(2/(s+3)).
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -52,4 +52,4 @@ probability* (Canad. J. Math. 11 (1959)), and the upper bound from inequality
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

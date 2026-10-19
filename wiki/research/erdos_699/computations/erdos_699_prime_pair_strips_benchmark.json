@@ -1,0 +1,1549 @@
+{
+  "scope": "Exact coverage of prime-power exponent quadrants; no binomial rows enumerated.",
+  "records": [
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "height_cap_power_of_ten": 4000000,
+      "maximum_difference": 19,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 5104,
+      "backend": "gmpy2",
+      "initial_exponents": [
+        5,
+        3
+      ],
+      "maximum_exponents": [
+        13287712,
+        8383613
+      ],
+      "final_exponents": [
+        14424909,
+        9101104
+      ],
+      "anchor_count": 61,
+      "exact_boundary_pairs": 23,
+      "boundary_pairs_sha256": "b2bd4637c4644eee9f193cc34a64e776d3bea2cf5b757e021458d265401592f3",
+      "exception_count": 24,
+      "exceptions": [
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -17,
+          "p_cofactor": 2,
+          "q_cofactor": 3,
+          "smaller_height": 64,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -12,
+          "p_cofactor": 3,
+          "q_cofactor": 4,
+          "smaller_height": 96,
+          "larger_height": 108
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 4,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 5,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 27,
+          "larger_height": 32
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 10,
+          "p_cofactor": 2,
+          "q_cofactor": 2,
+          "smaller_height": 54,
+          "larger_height": 64
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "signed_difference": 15,
+          "p_cofactor": 3,
+          "q_cofactor": 3,
+          "smaller_height": 81,
+          "larger_height": 96
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 4,
+          "signed_difference": -17,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 64,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 4,
+          "signed_difference": -2,
+          "p_cofactor": 5,
+          "q_cofactor": 2,
+          "smaller_height": 160,
+          "larger_height": 162
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 4,
+          "signed_difference": 15,
+          "p_cofactor": 3,
+          "q_cofactor": 1,
+          "smaller_height": 81,
+          "larger_height": 96
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": -17,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 64,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 2,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 3,
+          "signed_difference": 10,
+          "p_cofactor": 1,
+          "q_cofactor": 2,
+          "smaller_height": 54,
+          "larger_height": 64
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -17,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 64,
+          "larger_height": 81
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": -4,
+          "p_cofactor": 5,
+          "q_cofactor": 4,
+          "smaller_height": 320,
+          "larger_height": 324
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "signed_difference": 13,
+          "p_cofactor": 4,
+          "q_cofactor": 3,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 5,
+          "signed_difference": 13,
+          "p_cofactor": 4,
+          "q_cofactor": 1,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 3,
+          "signed_difference": -7,
+          "p_cofactor": 1,
+          "q_cofactor": 5,
+          "smaller_height": 128,
+          "larger_height": 135
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": -8,
+          "p_cofactor": 5,
+          "q_cofactor": 8,
+          "smaller_height": 640,
+          "larger_height": 648
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 4,
+          "signed_difference": 13,
+          "p_cofactor": 2,
+          "q_cofactor": 3,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "signed_difference": 13,
+          "p_cofactor": 2,
+          "q_cofactor": 1,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 4,
+          "signed_difference": 13,
+          "p_cofactor": 1,
+          "q_cofactor": 3,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 5,
+          "signed_difference": 13,
+          "p_cofactor": 1,
+          "q_cofactor": 1,
+          "smaller_height": 243,
+          "larger_height": 256
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 6,
+          "signed_difference": 17,
+          "p_cofactor": 10,
+          "q_cofactor": 7,
+          "smaller_height": 5103,
+          "larger_height": 5120
+        },
+        {
+          "p_exponent": 10,
+          "q_exponent": 6,
+          "signed_difference": 17,
+          "p_cofactor": 5,
+          "q_cofactor": 7,
+          "smaller_height": 5103,
+          "larger_height": 5120
+        }
+      ],
+      "anchors": [
+        {
+          "p_exponent": 5,
+          "q_exponent": 3,
+          "p_power_bits": 6,
+          "q_power_bits": 5,
+          "minimum_u_bits": 1,
+          "minimum_v_bits": 1,
+          "method": "exact boundary lines",
+          "boundary_pairs": 4,
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 4,
+          "p_power_bits": 7,
+          "q_power_bits": 7,
+          "minimum_u_bits": 1,
+          "minimum_v_bits": 1,
+          "method": "exact boundary lines",
+          "boundary_pairs": 5,
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 7,
+          "q_exponent": 5,
+          "p_power_bits": 8,
+          "q_power_bits": 8,
+          "minimum_u_bits": 2,
+          "minimum_v_bits": 1,
+          "method": "exact boundary lines",
+          "boundary_pairs": 6,
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 6,
+          "p_power_bits": 9,
+          "q_power_bits": 10,
+          "minimum_u_bits": 5,
+          "minimum_v_bits": 3,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 0
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 6,
+          "p_power_bits": 10,
+          "q_power_bits": 10,
+          "minimum_u_bits": 4,
+          "minimum_v_bits": 3,
+          "method": "exact boundary lines",
+          "boundary_pairs": 8,
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 10,
+          "q_exponent": 7,
+          "p_power_bits": 11,
+          "q_power_bits": 12,
+          "minimum_u_bits": 6,
+          "minimum_v_bits": 5,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 0
+        },
+        {
+          "p_exponent": 11,
+          "q_exponent": 7,
+          "p_power_bits": 12,
+          "q_power_bits": 12,
+          "minimum_u_bits": 6,
+          "minimum_v_bits": 6,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 12,
+          "q_exponent": 8,
+          "p_power_bits": 13,
+          "q_power_bits": 13,
+          "minimum_u_bits": 8,
+          "minimum_v_bits": 7,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 13,
+          "q_exponent": 9,
+          "p_power_bits": 14,
+          "q_power_bits": 15,
+          "minimum_u_bits": 10,
+          "minimum_v_bits": 8,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 15,
+          "q_exponent": 10,
+          "p_power_bits": 16,
+          "q_power_bits": 16,
+          "minimum_u_bits": 9,
+          "minimum_v_bits": 8,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 0
+        },
+        {
+          "p_exponent": 16,
+          "q_exponent": 10,
+          "p_power_bits": 17,
+          "q_power_bits": 16,
+          "minimum_u_bits": 11,
+          "minimum_v_bits": 12,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2,
+          "q_exponent_advance": 2
+        },
+        {
+          "p_exponent": 18,
+          "q_exponent": 12,
+          "p_power_bits": 19,
+          "q_power_bits": 20,
+          "minimum_u_bits": 12,
+          "minimum_v_bits": 11,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 20,
+          "q_exponent": 13,
+          "p_power_bits": 21,
+          "q_power_bits": 21,
+          "minimum_u_bits": 16,
+          "minimum_v_bits": 15,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 4,
+          "q_exponent_advance": 2
+        },
+        {
+          "p_exponent": 24,
+          "q_exponent": 15,
+          "p_power_bits": 25,
+          "q_power_bits": 24,
+          "minimum_u_bits": 19,
+          "minimum_v_bits": 19,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 5,
+          "q_exponent_advance": 3
+        },
+        {
+          "p_exponent": 29,
+          "q_exponent": 18,
+          "p_power_bits": 30,
+          "q_power_bits": 29,
+          "minimum_u_bits": 23,
+          "minimum_v_bits": 24,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 6,
+          "q_exponent_advance": 4
+        },
+        {
+          "p_exponent": 35,
+          "q_exponent": 22,
+          "p_power_bits": 36,
+          "q_power_bits": 35,
+          "minimum_u_bits": 29,
+          "minimum_v_bits": 29,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 8,
+          "q_exponent_advance": 5
+        },
+        {
+          "p_exponent": 43,
+          "q_exponent": 27,
+          "p_power_bits": 44,
+          "q_power_bits": 43,
+          "minimum_u_bits": 39,
+          "minimum_v_bits": 39,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 12,
+          "q_exponent_advance": 8
+        },
+        {
+          "p_exponent": 55,
+          "q_exponent": 35,
+          "p_power_bits": 56,
+          "q_power_bits": 56,
+          "minimum_u_bits": 51,
+          "minimum_v_bits": 51,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 16,
+          "q_exponent_advance": 10
+        },
+        {
+          "p_exponent": 71,
+          "q_exponent": 45,
+          "p_power_bits": 72,
+          "q_power_bits": 72,
+          "minimum_u_bits": 67,
+          "minimum_v_bits": 66,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 21,
+          "q_exponent_advance": 13
+        },
+        {
+          "p_exponent": 92,
+          "q_exponent": 58,
+          "p_power_bits": 93,
+          "q_power_bits": 92,
+          "minimum_u_bits": 87,
+          "minimum_v_bits": 87,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 27,
+          "q_exponent_advance": 17
+        },
+        {
+          "p_exponent": 119,
+          "q_exponent": 75,
+          "p_power_bits": 120,
+          "q_power_bits": 119,
+          "minimum_u_bits": 114,
+          "minimum_v_bits": 115,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 37,
+          "q_exponent_advance": 23
+        },
+        {
+          "p_exponent": 156,
+          "q_exponent": 98,
+          "p_power_bits": 157,
+          "q_power_bits": 156,
+          "minimum_u_bits": 151,
+          "minimum_v_bits": 151,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 49,
+          "q_exponent_advance": 31
+        },
+        {
+          "p_exponent": 205,
+          "q_exponent": 129,
+          "p_power_bits": 206,
+          "q_power_bits": 205,
+          "minimum_u_bits": 199,
+          "minimum_v_bits": 199,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 64,
+          "q_exponent_advance": 41
+        },
+        {
+          "p_exponent": 269,
+          "q_exponent": 170,
+          "p_power_bits": 270,
+          "q_power_bits": 270,
+          "minimum_u_bits": 259,
+          "minimum_v_bits": 259,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 83,
+          "q_exponent_advance": 53
+        },
+        {
+          "p_exponent": 352,
+          "q_exponent": 223,
+          "p_power_bits": 353,
+          "q_power_bits": 354,
+          "minimum_u_bits": 348,
+          "minimum_v_bits": 347,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 115,
+          "q_exponent_advance": 72
+        },
+        {
+          "p_exponent": 467,
+          "q_exponent": 295,
+          "p_power_bits": 468,
+          "q_power_bits": 468,
+          "minimum_u_bits": 463,
+          "minimum_v_bits": 463,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 153,
+          "q_exponent_advance": 97
+        },
+        {
+          "p_exponent": 620,
+          "q_exponent": 392,
+          "p_power_bits": 621,
+          "q_power_bits": 622,
+          "minimum_u_bits": 617,
+          "minimum_v_bits": 616,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 205,
+          "q_exponent_advance": 129
+        },
+        {
+          "p_exponent": 825,
+          "q_exponent": 521,
+          "p_power_bits": 826,
+          "q_power_bits": 826,
+          "minimum_u_bits": 821,
+          "minimum_v_bits": 820,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 272,
+          "q_exponent_advance": 172
+        },
+        {
+          "p_exponent": 1097,
+          "q_exponent": 693,
+          "p_power_bits": 1098,
+          "q_power_bits": 1099,
+          "minimum_u_bits": 1093,
+          "minimum_v_bits": 1092,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 363,
+          "q_exponent_advance": 228
+        },
+        {
+          "p_exponent": 1460,
+          "q_exponent": 921,
+          "p_power_bits": 1461,
+          "q_power_bits": 1460,
+          "minimum_u_bits": 1455,
+          "minimum_v_bits": 1455,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 484,
+          "q_exponent_advance": 305
+        },
+        {
+          "p_exponent": 1944,
+          "q_exponent": 1226,
+          "p_power_bits": 1945,
+          "q_power_bits": 1944,
+          "minimum_u_bits": 1939,
+          "minimum_v_bits": 1939,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 645,
+          "q_exponent_advance": 407
+        },
+        {
+          "p_exponent": 2589,
+          "q_exponent": 1633,
+          "p_power_bits": 2590,
+          "q_power_bits": 2589,
+          "minimum_u_bits": 2577,
+          "minimum_v_bits": 2578,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 855,
+          "q_exponent_advance": 540
+        },
+        {
+          "p_exponent": 3444,
+          "q_exponent": 2173,
+          "p_power_bits": 3445,
+          "q_power_bits": 3445,
+          "minimum_u_bits": 3438,
+          "minimum_v_bits": 3438,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1144,
+          "q_exponent_advance": 722
+        },
+        {
+          "p_exponent": 4588,
+          "q_exponent": 2895,
+          "p_power_bits": 4589,
+          "q_power_bits": 4589,
+          "minimum_u_bits": 4584,
+          "minimum_v_bits": 4584,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1527,
+          "q_exponent_advance": 963
+        },
+        {
+          "p_exponent": 6115,
+          "q_exponent": 3858,
+          "p_power_bits": 6116,
+          "q_power_bits": 6115,
+          "minimum_u_bits": 6111,
+          "minimum_v_bits": 6111,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2036,
+          "q_exponent_advance": 1285
+        },
+        {
+          "p_exponent": 8151,
+          "q_exponent": 5143,
+          "p_power_bits": 8152,
+          "q_power_bits": 8152,
+          "minimum_u_bits": 8146,
+          "minimum_v_bits": 8146,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2714,
+          "q_exponent_advance": 1712
+        },
+        {
+          "p_exponent": 10865,
+          "q_exponent": 6855,
+          "p_power_bits": 10866,
+          "q_power_bits": 10865,
+          "minimum_u_bits": 10859,
+          "minimum_v_bits": 10859,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 3618,
+          "q_exponent_advance": 2283
+        },
+        {
+          "p_exponent": 14483,
+          "q_exponent": 9138,
+          "p_power_bits": 14484,
+          "q_power_bits": 14484,
+          "minimum_u_bits": 14477,
+          "minimum_v_bits": 14477,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 4824,
+          "q_exponent_advance": 3044
+        },
+        {
+          "p_exponent": 19307,
+          "q_exponent": 12182,
+          "p_power_bits": 19308,
+          "q_power_bits": 19309,
+          "minimum_u_bits": 19304,
+          "minimum_v_bits": 19303,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 6434,
+          "q_exponent_advance": 4059
+        },
+        {
+          "p_exponent": 25741,
+          "q_exponent": 16241,
+          "p_power_bits": 25742,
+          "q_power_bits": 25742,
+          "minimum_u_bits": 25737,
+          "minimum_v_bits": 25736,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 8578,
+          "q_exponent_advance": 5412
+        },
+        {
+          "p_exponent": 34319,
+          "q_exponent": 21653,
+          "p_power_bits": 34320,
+          "q_power_bits": 34320,
+          "minimum_u_bits": 34312,
+          "minimum_v_bits": 34312,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 11435,
+          "q_exponent_advance": 7215
+        },
+        {
+          "p_exponent": 45754,
+          "q_exponent": 28868,
+          "p_power_bits": 45755,
+          "q_power_bits": 45755,
+          "minimum_u_bits": 45748,
+          "minimum_v_bits": 45747,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 15247,
+          "q_exponent_advance": 9620
+        },
+        {
+          "p_exponent": 61001,
+          "q_exponent": 38488,
+          "p_power_bits": 61002,
+          "q_power_bits": 61003,
+          "minimum_u_bits": 60998,
+          "minimum_v_bits": 60997,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 20332,
+          "q_exponent_advance": 12827
+        },
+        {
+          "p_exponent": 81333,
+          "q_exponent": 51315,
+          "p_power_bits": 81334,
+          "q_power_bits": 81333,
+          "minimum_u_bits": 81328,
+          "minimum_v_bits": 81329,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 27108,
+          "q_exponent_advance": 17104
+        },
+        {
+          "p_exponent": 108441,
+          "q_exponent": 68419,
+          "p_power_bits": 108442,
+          "q_power_bits": 108442,
+          "minimum_u_bits": 108437,
+          "minimum_v_bits": 108436,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 36145,
+          "q_exponent_advance": 22804
+        },
+        {
+          "p_exponent": 144586,
+          "q_exponent": 91223,
+          "p_power_bits": 144587,
+          "q_power_bits": 144586,
+          "minimum_u_bits": 144577,
+          "minimum_v_bits": 144578,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 48190,
+          "q_exponent_advance": 30405
+        },
+        {
+          "p_exponent": 192776,
+          "q_exponent": 121628,
+          "p_power_bits": 192777,
+          "q_power_bits": 192776,
+          "minimum_u_bits": 192771,
+          "minimum_v_bits": 192771,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 64255,
+          "q_exponent_advance": 40541
+        },
+        {
+          "p_exponent": 257031,
+          "q_exponent": 162169,
+          "p_power_bits": 257032,
+          "q_power_bits": 257032,
+          "minimum_u_bits": 257027,
+          "minimum_v_bits": 257026,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 85674,
+          "q_exponent_advance": 54054
+        },
+        {
+          "p_exponent": 342705,
+          "q_exponent": 216223,
+          "p_power_bits": 342706,
+          "q_power_bits": 342706,
+          "minimum_u_bits": 342701,
+          "minimum_v_bits": 342701,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 114233,
+          "q_exponent_advance": 72073
+        },
+        {
+          "p_exponent": 456938,
+          "q_exponent": 288296,
+          "p_power_bits": 456939,
+          "q_power_bits": 456939,
+          "minimum_u_bits": 456933,
+          "minimum_v_bits": 456933,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 152310,
+          "q_exponent_advance": 96097
+        },
+        {
+          "p_exponent": 609248,
+          "q_exponent": 384393,
+          "p_power_bits": 609249,
+          "q_power_bits": 609249,
+          "minimum_u_bits": 609244,
+          "minimum_v_bits": 609244,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 203080,
+          "q_exponent_advance": 128129
+        },
+        {
+          "p_exponent": 812328,
+          "q_exponent": 512522,
+          "p_power_bits": 812329,
+          "q_power_bits": 812329,
+          "minimum_u_bits": 812321,
+          "minimum_v_bits": 812321,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 270772,
+          "q_exponent_advance": 170838
+        },
+        {
+          "p_exponent": 1083100,
+          "q_exponent": 683360,
+          "p_power_bits": 1083101,
+          "q_power_bits": 1083100,
+          "minimum_u_bits": 1083094,
+          "minimum_v_bits": 1083094,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 361030,
+          "q_exponent_advance": 227785
+        },
+        {
+          "p_exponent": 1444130,
+          "q_exponent": 911145,
+          "p_power_bits": 1444131,
+          "q_power_bits": 1444131,
+          "minimum_u_bits": 1444123,
+          "minimum_v_bits": 1444123,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 481372,
+          "q_exponent_advance": 303712
+        },
+        {
+          "p_exponent": 1925502,
+          "q_exponent": 1214857,
+          "p_power_bits": 1925503,
+          "q_power_bits": 1925503,
+          "minimum_u_bits": 1925495,
+          "minimum_v_bits": 1925494,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 641829,
+          "q_exponent_advance": 404949
+        },
+        {
+          "p_exponent": 2567331,
+          "q_exponent": 1619806,
+          "p_power_bits": 2567332,
+          "q_power_bits": 2567332,
+          "minimum_u_bits": 2567327,
+          "minimum_v_bits": 2567326,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 855775,
+          "q_exponent_advance": 539933
+        },
+        {
+          "p_exponent": 3423106,
+          "q_exponent": 2159739,
+          "p_power_bits": 3423107,
+          "q_power_bits": 3423106,
+          "minimum_u_bits": 3423101,
+          "minimum_v_bits": 3423101,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1141032,
+          "q_exponent_advance": 719912
+        },
+        {
+          "p_exponent": 4564138,
+          "q_exponent": 2879651,
+          "p_power_bits": 4564139,
+          "q_power_bits": 4564139,
+          "minimum_u_bits": 4564134,
+          "minimum_v_bits": 4564133,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1521377,
+          "q_exponent_advance": 959882
+        },
+        {
+          "p_exponent": 6085515,
+          "q_exponent": 3839533,
+          "p_power_bits": 6085516,
+          "q_power_bits": 6085516,
+          "minimum_u_bits": 6085509,
+          "minimum_v_bits": 6085508,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2028501,
+          "q_exponent_advance": 1279841
+        },
+        {
+          "p_exponent": 8114016,
+          "q_exponent": 5119374,
+          "p_power_bits": 8114017,
+          "q_power_bits": 8114016,
+          "minimum_u_bits": 8114010,
+          "minimum_v_bits": 8114010,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2704668,
+          "q_exponent_advance": 1706456
+        },
+        {
+          "p_exponent": 10818684,
+          "q_exponent": 6825830,
+          "p_power_bits": 10818685,
+          "q_power_bits": 10818685,
+          "minimum_u_bits": 10818679,
+          "minimum_v_bits": 10818679,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 3606225,
+          "q_exponent_advance": 2275274
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    },
+    {
+      "pair": [
+        17,
+        19
+      ],
+      "height_cap_power_of_ten": 4000000,
+      "maximum_difference": 19,
+      "reciprocal_exponent_denominator": 3,
+      "height_threshold": 4333,
+      "backend": "gmpy2",
+      "initial_exponents": [
+        2,
+        2
+      ],
+      "maximum_exponents": [
+        3250846,
+        3128045
+      ],
+      "final_exponents": [
+        3259485,
+        3136358
+      ],
+      "anchor_count": 51,
+      "exact_boundary_pairs": 2,
+      "boundary_pairs_sha256": "5c09e58d0b47ed8f2329812da3e470e937ebcd531801a727b667e49b9cb1dc9e",
+      "exception_count": 3,
+      "exceptions": [
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": 1,
+          "p_cofactor": 5,
+          "q_cofactor": 4,
+          "smaller_height": 1444,
+          "larger_height": 1445
+        },
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": 2,
+          "p_cofactor": 10,
+          "q_cofactor": 8,
+          "smaller_height": 2888,
+          "larger_height": 2890
+        },
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "signed_difference": 3,
+          "p_cofactor": 15,
+          "q_cofactor": 12,
+          "smaller_height": 4332,
+          "larger_height": 4335
+        }
+      ],
+      "anchors": [
+        {
+          "p_exponent": 2,
+          "q_exponent": 2,
+          "p_power_bits": 9,
+          "q_power_bits": 9,
+          "minimum_u_bits": 3,
+          "minimum_v_bits": 3,
+          "method": "exact boundary lines",
+          "boundary_pairs": 2,
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 3,
+          "q_exponent": 3,
+          "p_power_bits": 13,
+          "q_power_bits": 13,
+          "minimum_u_bits": 8,
+          "minimum_v_bits": 8,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 4,
+          "q_exponent": 4,
+          "p_power_bits": 17,
+          "q_power_bits": 17,
+          "minimum_u_bits": 11,
+          "minimum_v_bits": 11,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 5,
+          "q_exponent": 5,
+          "p_power_bits": 21,
+          "q_power_bits": 22,
+          "minimum_u_bits": 13,
+          "minimum_v_bits": 12,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 6,
+          "q_exponent": 6,
+          "p_power_bits": 25,
+          "q_power_bits": 26,
+          "minimum_u_bits": 20,
+          "minimum_v_bits": 19,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2,
+          "q_exponent_advance": 1
+        },
+        {
+          "p_exponent": 8,
+          "q_exponent": 7,
+          "p_power_bits": 33,
+          "q_power_bits": 30,
+          "minimum_u_bits": 23,
+          "minimum_v_bits": 26,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1,
+          "q_exponent_advance": 2
+        },
+        {
+          "p_exponent": 9,
+          "q_exponent": 9,
+          "p_power_bits": 37,
+          "q_power_bits": 39,
+          "minimum_u_bits": 34,
+          "minimum_v_bits": 32,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 3,
+          "q_exponent_advance": 2
+        },
+        {
+          "p_exponent": 12,
+          "q_exponent": 11,
+          "p_power_bits": 50,
+          "q_power_bits": 47,
+          "minimum_u_bits": 43,
+          "minimum_v_bits": 45,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 3,
+          "q_exponent_advance": 4
+        },
+        {
+          "p_exponent": 15,
+          "q_exponent": 15,
+          "p_power_bits": 62,
+          "q_power_bits": 64,
+          "minimum_u_bits": 59,
+          "minimum_v_bits": 57,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 5,
+          "q_exponent_advance": 4
+        },
+        {
+          "p_exponent": 20,
+          "q_exponent": 19,
+          "p_power_bits": 82,
+          "q_power_bits": 81,
+          "minimum_u_bits": 76,
+          "minimum_v_bits": 77,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 6,
+          "q_exponent_advance": 6
+        },
+        {
+          "p_exponent": 26,
+          "q_exponent": 25,
+          "p_power_bits": 107,
+          "q_power_bits": 107,
+          "minimum_u_bits": 101,
+          "minimum_v_bits": 101,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 8,
+          "q_exponent_advance": 8
+        },
+        {
+          "p_exponent": 34,
+          "q_exponent": 33,
+          "p_power_bits": 139,
+          "q_power_bits": 141,
+          "minimum_u_bits": 133,
+          "minimum_v_bits": 132,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 11,
+          "q_exponent_advance": 10
+        },
+        {
+          "p_exponent": 45,
+          "q_exponent": 43,
+          "p_power_bits": 184,
+          "q_power_bits": 183,
+          "minimum_u_bits": 177,
+          "minimum_v_bits": 178,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 14,
+          "q_exponent_advance": 14
+        },
+        {
+          "p_exponent": 59,
+          "q_exponent": 57,
+          "p_power_bits": 242,
+          "q_power_bits": 243,
+          "minimum_u_bits": 238,
+          "minimum_v_bits": 237,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 20,
+          "q_exponent_advance": 19
+        },
+        {
+          "p_exponent": 79,
+          "q_exponent": 76,
+          "p_power_bits": 323,
+          "q_power_bits": 323,
+          "minimum_u_bits": 319,
+          "minimum_v_bits": 319,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 26,
+          "q_exponent_advance": 25
+        },
+        {
+          "p_exponent": 105,
+          "q_exponent": 101,
+          "p_power_bits": 430,
+          "q_power_bits": 430,
+          "minimum_u_bits": 424,
+          "minimum_v_bits": 424,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 35,
+          "q_exponent_advance": 33
+        },
+        {
+          "p_exponent": 140,
+          "q_exponent": 134,
+          "p_power_bits": 573,
+          "q_power_bits": 570,
+          "minimum_u_bits": 565,
+          "minimum_v_bits": 568,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 46,
+          "q_exponent_advance": 45
+        },
+        {
+          "p_exponent": 186,
+          "q_exponent": 179,
+          "p_power_bits": 761,
+          "q_power_bits": 761,
+          "minimum_u_bits": 752,
+          "minimum_v_bits": 752,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 61,
+          "q_exponent_advance": 59
+        },
+        {
+          "p_exponent": 247,
+          "q_exponent": 238,
+          "p_power_bits": 1010,
+          "q_power_bits": 1012,
+          "minimum_u_bits": 1005,
+          "minimum_v_bits": 1004,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 82,
+          "q_exponent_advance": 79
+        },
+        {
+          "p_exponent": 329,
+          "q_exponent": 317,
+          "p_power_bits": 1345,
+          "q_power_bits": 1347,
+          "minimum_u_bits": 1342,
+          "minimum_v_bits": 1340,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 110,
+          "q_exponent_advance": 105
+        },
+        {
+          "p_exponent": 439,
+          "q_exponent": 422,
+          "p_power_bits": 1795,
+          "q_power_bits": 1793,
+          "minimum_u_bits": 1786,
+          "minimum_v_bits": 1788,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 145,
+          "q_exponent_advance": 140
+        },
+        {
+          "p_exponent": 584,
+          "q_exponent": 562,
+          "p_power_bits": 2388,
+          "q_power_bits": 2388,
+          "minimum_u_bits": 2379,
+          "minimum_v_bits": 2379,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 194,
+          "q_exponent_advance": 186
+        },
+        {
+          "p_exponent": 778,
+          "q_exponent": 748,
+          "p_power_bits": 3181,
+          "q_power_bits": 3178,
+          "minimum_u_bits": 3173,
+          "minimum_v_bits": 3176,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 259,
+          "q_exponent_advance": 249
+        },
+        {
+          "p_exponent": 1037,
+          "q_exponent": 997,
+          "p_power_bits": 4239,
+          "q_power_bits": 4236,
+          "minimum_u_bits": 4231,
+          "minimum_v_bits": 4234,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 345,
+          "q_exponent_advance": 333
+        },
+        {
+          "p_exponent": 1382,
+          "q_exponent": 1330,
+          "p_power_bits": 5649,
+          "q_power_bits": 5650,
+          "minimum_u_bits": 5645,
+          "minimum_v_bits": 5644,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 460,
+          "q_exponent_advance": 443
+        },
+        {
+          "p_exponent": 1842,
+          "q_exponent": 1773,
+          "p_power_bits": 7530,
+          "q_power_bits": 7532,
+          "minimum_u_bits": 7522,
+          "minimum_v_bits": 7519,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 613,
+          "q_exponent_advance": 590
+        },
+        {
+          "p_exponent": 2455,
+          "q_exponent": 2363,
+          "p_power_bits": 10035,
+          "q_power_bits": 10038,
+          "minimum_u_bits": 10033,
+          "minimum_v_bits": 10030,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 818,
+          "q_exponent_advance": 787
+        },
+        {
+          "p_exponent": 3273,
+          "q_exponent": 3150,
+          "p_power_bits": 13379,
+          "q_power_bits": 13381,
+          "minimum_u_bits": 13371,
+          "minimum_v_bits": 13368,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1090,
+          "q_exponent_advance": 1048
+        },
+        {
+          "p_exponent": 4363,
+          "q_exponent": 4198,
+          "p_power_bits": 17834,
+          "q_power_bits": 17833,
+          "minimum_u_bits": 17819,
+          "minimum_v_bits": 17820,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1452,
+          "q_exponent_advance": 1398
+        },
+        {
+          "p_exponent": 5815,
+          "q_exponent": 5596,
+          "p_power_bits": 23769,
+          "q_power_bits": 23772,
+          "minimum_u_bits": 23767,
+          "minimum_v_bits": 23764,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 1938,
+          "q_exponent_advance": 1865
+        },
+        {
+          "p_exponent": 7753,
+          "q_exponent": 7461,
+          "p_power_bits": 31691,
+          "q_power_bits": 31694,
+          "minimum_u_bits": 31688,
+          "minimum_v_bits": 31684,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 2584,
+          "q_exponent_advance": 2486
+        },
+        {
+          "p_exponent": 10337,
+          "q_exponent": 9947,
+          "p_power_bits": 42253,
+          "q_power_bits": 42255,
+          "minimum_u_bits": 42249,
+          "minimum_v_bits": 42247,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 3446,
+          "q_exponent_advance": 3315
+        },
+        {
+          "p_exponent": 13783,
+          "q_exponent": 13262,
+          "p_power_bits": 56338,
+          "q_power_bits": 56337,
+          "minimum_u_bits": 56331,
+          "minimum_v_bits": 56333,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 4594,
+          "q_exponent_advance": 4421
+        },
+        {
+          "p_exponent": 18377,
+          "q_exponent": 17683,
+          "p_power_bits": 75116,
+          "q_power_bits": 75117,
+          "minimum_u_bits": 75112,
+          "minimum_v_bits": 75111,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 6126,
+          "q_exponent_advance": 5894
+        },
+        {
+          "p_exponent": 24503,
+          "q_exponent": 23577,
+          "p_power_bits": 100156,
+          "q_power_bits": 100154,
+          "minimum_u_bits": 100146,
+          "minimum_v_bits": 100147,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 8167,
+          "q_exponent_advance": 7858
+        },
+        {
+          "p_exponent": 32670,
+          "q_exponent": 31435,
+          "p_power_bits": 133538,
+          "q_power_bits": 133534,
+          "minimum_u_bits": 133529,
+          "minimum_v_bits": 133533,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 10889,
+          "q_exponent_advance": 10479
+        },
+        {
+          "p_exponent": 43559,
+          "q_exponent": 41914,
+          "p_power_bits": 178046,
+          "q_power_bits": 178048,
+          "minimum_u_bits": 178043,
+          "minimum_v_bits": 178042,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 14520,
+          "q_exponent_advance": 13971
+        },
+        {
+          "p_exponent": 58079,
+          "q_exponent": 55885,
+          "p_power_bits": 237396,
+          "q_power_bits": 237396,
+          "minimum_u_bits": 237391,
+          "minimum_v_bits": 237392,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 19359,
+          "q_exponent_advance": 18628
+        },
+        {
+          "p_exponent": 77438,
+          "q_exponent": 74513,
+          "p_power_bits": 316525,
+          "q_power_bits": 316526,
+          "minimum_u_bits": 316516,
+          "minimum_v_bits": 316515,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 25812,
+          "q_exponent_advance": 24836
+        },
+        {
+          "p_exponent": 103250,
+          "q_exponent": 99349,
+          "p_power_bits": 422031,
+          "q_power_bits": 422028,
+          "minimum_u_bits": 422023,
+          "minimum_v_bits": 422026,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 34416,
+          "q_exponent_advance": 33117
+        },
+        {
+          "p_exponent": 137666,
+          "q_exponent": 132466,
+          "p_power_bits": 562705,
+          "q_power_bits": 562706,
+          "minimum_u_bits": 562701,
+          "minimum_v_bits": 562700,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 45889,
+          "q_exponent_advance": 44155
+        },
+        {
+          "p_exponent": 183555,
+          "q_exponent": 176621,
+          "p_power_bits": 750275,
+          "q_power_bits": 750274,
+          "minimum_u_bits": 750264,
+          "minimum_v_bits": 750265,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 61184,
+          "q_exponent_advance": 58873
+        },
+        {
+          "p_exponent": 244739,
+          "q_exponent": 235494,
+          "p_power_bits": 1000362,
+          "q_power_bits": 1000362,
+          "minimum_u_bits": 1000353,
+          "minimum_v_bits": 1000353,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 81579,
+          "q_exponent_advance": 78497
+        },
+        {
+          "p_exponent": 326318,
+          "q_exponent": 313991,
+          "p_power_bits": 1333813,
+          "q_power_bits": 1333812,
+          "minimum_u_bits": 1333805,
+          "minimum_v_bits": 1333807,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 108772,
+          "q_exponent_advance": 104663
+        },
+        {
+          "p_exponent": 435090,
+          "q_exponent": 418654,
+          "p_power_bits": 1778415,
+          "q_power_bits": 1778412,
+          "minimum_u_bits": 1778407,
+          "minimum_v_bits": 1778409,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 145029,
+          "q_exponent_advance": 139551
+        },
+        {
+          "p_exponent": 580119,
+          "q_exponent": 558205,
+          "p_power_bits": 2371215,
+          "q_power_bits": 2371215,
+          "minimum_u_bits": 2371210,
+          "minimum_v_bits": 2371210,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 193373,
+          "q_exponent_advance": 186068
+        },
+        {
+          "p_exponent": 773492,
+          "q_exponent": 744273,
+          "p_power_bits": 3161620,
+          "q_power_bits": 3161618,
+          "minimum_u_bits": 3161613,
+          "minimum_v_bits": 3161615,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 257830,
+          "q_exponent_advance": 248091
+        },
+        {
+          "p_exponent": 1031322,
+          "q_exponent": 992364,
+          "p_power_bits": 4215491,
+          "q_power_bits": 4215491,
+          "minimum_u_bits": 4215486,
+          "minimum_v_bits": 4215486,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 343774,
+          "q_exponent_advance": 330788
+        },
+        {
+          "p_exponent": 1375096,
+          "q_exponent": 1323152,
+          "p_power_bits": 5620654,
+          "q_power_bits": 5620654,
+          "minimum_u_bits": 5620648,
+          "minimum_v_bits": 5620648,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 458365,
+          "q_exponent_advance": 441050
+        },
+        {
+          "p_exponent": 1833461,
+          "q_exponent": 1764202,
+          "p_power_bits": 7494204,
+          "q_power_bits": 7494203,
+          "minimum_u_bits": 7494198,
+          "minimum_v_bits": 7494200,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 611153,
+          "q_exponent_advance": 588067
+        },
+        {
+          "p_exponent": 2444614,
+          "q_exponent": 2352269,
+          "p_power_bits": 9992269,
+          "q_power_bits": 9992269,
+          "minimum_u_bits": 9992264,
+          "minimum_v_bits": 9992264,
+          "method": "coefficient lower-bound strips",
+          "p_exponent_advance": 814871,
+          "q_exponent_advance": 784089
+        }
+      ],
+      "conclusion": "max(u,v)^3 >= min(p^a*u,q^b*v) throughout the stated height range"
+    }
+  ]
+}

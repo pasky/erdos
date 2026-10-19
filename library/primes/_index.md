@@ -3,7 +3,7 @@ name: primes
 title: "Primes"
 desc: "Sources filed under Primes, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-08T18:42:15Z
+updated: 2026-10-19T05:41:44Z
 ---
 
 # Primes
@@ -126,6 +126,10 @@ at least the gap length, confirming a prediction of Erdos.
 [[primes/goldston_2009_primes_tuples_i/_index|goldston_2009_primes_tuples_i/]]: Proves that liminf (p_{n+1} - p_n)/log p_n = 0, and that the
 Elliott-Halberstam conjecture gives p_{n+1} - p_n <= 16 infinitely often.
 
+[[primes/goldston_pintz_yildirim_2011_small_prime_gaps/_index|goldston_pintz_yildirim_2011_small_prime_gaps/]]: Goldston, Pintz and Yıldırım show that gaps below any fixed positive
+multiple of the average spacing occur with positive lower proportion;
+this is a comparison input for consecutive-prime arguments.
+
 [[primes/granville_1990_note_sums_primes/_index|granville_1990_note_sums_primes/]]: Assuming the prime k-tuplets conjecture, constructs infinite sets of odd
 primes whose weighted sums, divided by a fixed gcd, are all prime.
 
@@ -153,6 +157,10 @@ Hardy–Littlewood prime-tuples conjecture (Conjecture 1.3) assumed by the
 2026 conditional claims on problem 251, and bounds the tail of the
 distribution of primes in short intervals under it.
 
+[[primes/lau_2024_prime_residue_patterns/_index|lau_2024_prime_residue_patterns/]]: Lau obtains families of residue patterns recurring among consecutive
+primes for squarefree moduli, using a modified sieve and an Erdős–Rankin
+construction; the statements retain their existence quantifiers.
+
 [[primes/lebowitz_lockard_2025_increasing_sequences_decreasing_prime_factors/_index|lebowitz_lockard_2025_increasing_sequences_decreasing_prime_factors/]]: Bounds the longest increasing sequence of integers up to x whose smallest
 prime factors decrease: at most about 2 sqrt(x)/log x unconditionally,
 and of order at least sqrt(x)/(log x)^2 under a Cramér-type prime gap
@@ -164,6 +172,10 @@ limit coloring that follow from Vardi's theorems.
 
 [[primes/matomaki_2016_multiplicative_functions_short_intervals/_index|matomaki_2016_multiplicative_functions_short_intervals/]]: Shows that the short-interval average of a bounded multiplicative function
 matches its long average in almost all intervals of any growing length.
+
+[[primes/maynard_2014_dense_clusters_primes_subsets/_index|maynard_2014_dense_clusters_primes_subsets/]]: Maynard obtains clusters from distribution hypotheses and gives a
+quantitative theorem for consecutive primes in one residue class, with
+explicit growing ranges for the run length and modulus.
 
 [[primes/maynard_2015_small_gaps_between_primes/_index|maynard_2015_small_gaps_between_primes/]]: A multidimensional refinement of the GPY sieve shows that gaps between
 primes m apart are bounded for every m, with liminf of p_{n+1} - p_n at most
@@ -178,6 +190,10 @@ the prime number graph, resolving conjectures of Pomerance and Tutaj.
 [[primes/merikoski_2020_limit_points_normalized_prime_gaps/_index|merikoski_2020_limit_points_normalized_prime_gaps/]]: At least one third of positive reals are limit points of normalized prime
 gaps, and gaps between such limit points are bounded by an absolute
 constant.
+
+[[primes/montgomery_vaughan_2006_multiplicative_number_theory_i/_index|montgomery_vaughan_2006_multiplicative_number_theory_i/]]: Montgomery and Vaughan's classical text, with Chapter 3's
+Brun–Titchmarsh inequality and its error-free sharpening used at
+statement scope for reciprocal-mass estimates in Problem 12.
 
 [[primes/openai_2026_additive_indecomposability_primes/_index|openai_2026_additive_indecomposability_primes/]]: An 80-page manuscript of the OpenAI mathematics release claiming Ostmann's
 inverse Goldbach conjecture: no set that differs from the primes in finitely
@@ -227,6 +243,9 @@ defect is unbounded.
 for g up to exp(c (log n)^{1/2}), a weakened form of Grimm's conjecture in
 that range, and that for k >= 2 at most pi(k) of u+1, ..., u+k are k-smooth
 once u is at least exp(C (log k)^2), using linear forms in logarithms.
+
+[[primes/ramare_ruzsa_2001_dense_subsets_sifted_sequences/_index|ramare_ruzsa_2001_dense_subsets_sifted_sequences/]]: Ramaré and Ruzsa's supporting compact, sieve G-functions, exact Fourier
+identity and improved large-sieve bound for sifted sequences.
 
 [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/_index|richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/]]: Sketches the midpoint-sieve proof that some admissible set in an interval of
 length x exceeds pi(x) by (log 2 - o(1))x/(log x)^2, so the prime k-tuples
@@ -325,6 +344,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/primes/E0005/_index|E0005]]
 - [[number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
   - [[../wiki/problems/primes/E0428/_index|E0428]]
+  - [[../wiki/problems/primes/E0458/_index|E0458]]
+  - [[../wiki/problems/primes/E0461/_index|E0461]]
 - [[number_theory/erdos_1980_survey_problems_combinatorial_number_theory/_index|erdos_1980_survey_problems_combinatorial_number_theory]]
   - [[../wiki/problems/primes/E1200/_index|E1200]]
   - [[../wiki/problems/primes/E1201/_index|E1201]]

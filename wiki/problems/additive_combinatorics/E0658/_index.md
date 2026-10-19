@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-18T03:27:26Z
 ---
 
 # Problem 658
@@ -25,17 +25,17 @@ updated: 2026-10-08T01:29:58Z
 $\delta$. Is it true that if $A\subseteq \{1,\ldots,N\}^2$ has $\lvert A\rvert
 \geq \delta N^2$ then $A$ must contain the vertices of a square?
 
-**Status.** Proved, the erdosproblems.com label (PROVED (LEAN)). The suffix is a
-catalog label explained under Formalization. The answer is yes. Without a bound,
-it follows from Furstenberg and Katznelson's density Hales–Jewett theorem (J.
-Analyse Math. 57 (1991), 64--119, refereed). Solymosi (Combin. Probab. Comput.
-13 (2004), 263--267, refereed) gives a quantitative proof. Because of the
-regularity lemma, its bound on the threshold $N_0(\delta)$ is at best of tower
-type. Both prove Graham's axis-parallel form, which implies the form allowing
-any square. The claim pages are
+**Status.** Proved, the erdosproblems.com label (PROVED (LEAN)). The suffix is
+an erdosproblems.com label explained under Formalization. The answer is yes.
+Without a bound, it follows from Furstenberg and Katznelson's density
+Hales–Jewett theorem (J. Analyse Math. 57 (1991), 64--119, refereed). Solymosi
+(Combin. Probab. Comput. 13 (2004), 263--267, refereed) gives a quantitative
+proof. Because of the regularity lemma, its bound on the threshold $N_0(\delta)$
+is at best of tower type. Both prove Graham's axis-parallel form, which implies
+the form allowing any square. The claim pages are
 [[problems/additive_combinatorics/E0658/claims/1991_12_01_furstenberg_katznelson|Furstenberg–Katznelson]]
 and
-[[problems/additive_combinatorics/E0658/claims/2004_03_01_solymosi|Solymosi]],
+[[problems/additive_combinatorics/E0658/claims/2004_03_03_solymosi|Solymosi]],
 both accepted on the refereed publications and the erdosproblems.com credit. The
 2026 Lean formalization of Solymosi's paper is linked on its page. This corpus
 has not built it, so it gives no `formalized` evidence.
@@ -58,25 +58,23 @@ as: T. F. Bloom, Erdős Problem #658, https://www.erdosproblems.com/658.
   doi:10.1017/S0963548303005959 (Crossref record accessed 2026-10-07); not
   held.
 
-**Formalization.** erdosproblems.com's (LEAN) suffix is a catalog label. The
-statement is in
+**Formalization.** erdosproblems.com's (LEAN) suffix is an erdosproblems.com
+label. The statement is in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/658.lean),
-over `Finset (ℕ × ℕ)` inside $\{1,\ldots,N\}^2$ with an axis-parallel
-square of side $d>0$; at its commit of 2026-10-06 (accessed 2026-10-07) the
-file is tagged solved and names line 1516 of
-`src/latest/ErdosProblems/Erdos658.lean` of Boris Alexeev's lean-proofs
-repository as the formal proof. That development (first added
-2026-05-12; formal authors Aristotle and John Jennings, after two gists
+over `Finset (ℕ × ℕ)` inside $\{1,\ldots,N\}^2$ with an axis-parallel square of
+side $d>0$; at its commit of 2026-10-06 (accessed 2026-10-07) the file is tagged
+solved and names line 1516 of `src/latest/ErdosProblems/Erdos658.lean` of Boris
+Alexeev's lean-proofs repository as the formal proof. That development (first
+added 2026-05-12; formal authors Aristotle and John Jennings, after two gists
 posted on the erdosproblems.com thread in April 2026) formalizes Solymosi's
 Theorem 1.1 and derives the Frankl–Rödl theorem it uses from the repository's
 hypergraph removal development; it is pinned on
-[[problems/additive_combinatorics/E0658/claims/2004_03_01_solymosi|Solymosi's claim page]].
-The community database (teorth/erdosproblems, file commit of 2026-09-28)
-lists `status` "proved (Lean)", with a last update of 2026-04-20, and
-`formalized` "yes", with a last update of 2026-09-20; those dates are when
-the entries were last updated, not necessarily when the states changed.
-This corpus has not built the development, so no `formalized` evidence is
-listed.
+[[problems/additive_combinatorics/E0658/claims/2004_03_03_solymosi|Solymosi's claim page]].
+The community database (teorth/erdosproblems, file commit of 2026-09-28) lists
+`status` "proved (Lean)", with a last update of 2026-04-20, and `formalized`
+"yes", with a last update of 2026-09-20; those dates are when the entries were
+last updated, not necessarily when the states changed. This corpus has not built
+the development, so no `formalized` evidence is listed.
 
 ## Progress
 

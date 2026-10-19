@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-18T01:30:50Z
 ---
 
 # Problem 164
@@ -58,7 +58,7 @@ and the standing derives from two accepted full claims:
 [[problems/divisors/E0164/claims/2022_02_04_lichtman|Lichtman 2022]], the
 first proof, refereed in Forum of Mathematics, Pi in 2023 and credited by
 the erdosproblems.com curator, and
-[[problems/divisors/E0164/claims/2026_05_01_alexeev_barreto_li_lichtman_price_shah_tang_tao|Alexeev and coauthors 2026]],
+[[problems/divisors/E0164/claims/2026_04_23_alexeev_barreto_li_lichtman_price_shah_tang_tao|Alexeev and coauthors 2026]],
 a shorter proof by Markov chains with von Mangoldt weights, a preprint the
 curator credits as an alternative proof. Erdős proved in 1935 that the sum
 converges for every primitive set. Lichtman's paper also shows every odd

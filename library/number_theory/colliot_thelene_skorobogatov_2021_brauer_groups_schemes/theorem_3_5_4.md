@@ -7,7 +7,7 @@ desc: |
   injective, and so is the restriction Br(X) to Br(U) for every non-empty open
   subset U of X.
 created: 2026-10-08T17:21:06Z
-updated: 2026-10-08T17:21:06Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -49,5 +49,13 @@ followed. Nothing here is independently reviewed.
 
 ## Bears on
 
-None directly. Like the rest of the chapter, it decides neither question of
-[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]].
+[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+corpus's
+[[../wiki/research/erdos_940/quadratic_compression|quadratic-compression note]]
+applies this injection, with Corollary 4.4.5 of the book's next chapter, to
+the smooth projective hypersurface of a positive diagonal form of degree
+$r\ge5$, so that a quaternion division algebra over the ground field stays
+division over the hypersurface's function field. The note uses this to rule
+out writing the form as a fixed positive-definite quadratic form in at most
+four rational functions. That limits one proposed approach; it decides
+neither question of the problem.

@@ -2,10 +2,11 @@
 name: ramsey_theory/openai_2026_ten_advances_mathematics_theoretical_computer_science/chapter_9/evidence/verify/lower_bound_route_review
 title: Independent review of the Chapter 9 lower-bound route
 desc: |
-  Retains the complete five-result review, its passing distinct grade, and
-  exact native subjects for the all-integer lower bound and root limit.
+  Retains the complete five-result review and its passing distinct grade for
+  the all-integer lower bound and root limit, and names their exact native
+  subjects.
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 ***

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 322
@@ -74,6 +74,14 @@ every $k\ge4$. The bound $1_A^{(k)}(n)\gg n^{c/\log\log n}$ for infinitely many
 $n$, proved independently by Erdős [Er36] and Chowla for every $k\ge3$, is
 smaller than every fixed power of $n$, so it settles no instance of the
 second question and has no claim page.
+
+## Route analysis
+
+The [[research/diophantine_representation_interfaces/power_sums|power-sum
+representations and collision counts]] account records the following scope.
+Mahler (2') yields at least 9^(-1/3)N^(1/12)-1 strictly positive ordered triples
+at N=v^12, hence c<1/12 for k=3 only.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

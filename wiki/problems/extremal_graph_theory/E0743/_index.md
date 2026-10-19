@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 743
@@ -435,6 +435,10 @@ counterexample would refute the conjecture is this body note, not a claim.
   key suggests.
 - [GyLe78] (not held; per erdosproblems.com and [JaMo24]): stars and paths.
 - [Er81], p. 15: the conjecture in Erdős's words.
+
+
+The [[research/graph_ramsey_interfaces/finite_reduction_obstructions|parameter-dependence account]] separates a cutoff depending on fixed maximum degree from a theorem covering arbitrary tree families. Packing two subfamilies separately into complete graphs does not establish their compatibility in one exact edge partition.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

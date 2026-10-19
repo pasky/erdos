@@ -4,7 +4,7 @@ title: "Avoiding both colors for one configuration"
 desc: |
   Applies the asymmetric construction after scaling the closest pair.
 created: 2026-09-05T12:22:53Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:20:03Z
 ---
 
 ***
@@ -34,7 +34,7 @@ configuration. The source explicitly identifies removal of that dependence
 as a further question; its remark is historical, not a current-status audit.
 
 **Related proof pages.**
-[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_1_2|theorem 1 2]],
+[[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/theorem_1_2|Theorem 1.2]],
 [[discrete_geometry/conlon_2019_lines_euclidean_ramsey_theory/constant_bounds|constant bounds]].
 
 **Bears on.** [[../wiki/problems/discrete_geometry/E0174/_index|Problem 174]],

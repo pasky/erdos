@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 468
@@ -37,10 +37,17 @@ https://www.erdosproblems.com/468.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The finite argument below leaves both the asymptotic question and the general
+question about newly occurring sums unresolved. No broader source or status
+review is supplied here.
 
-## Known Results
-
-Not yet compiled.
+[[theory/number_theory/L35_divisor_prefix_compression/_index|L35]] gives
+an exact finite reduction: a divisor prefix may be replaced by its least
+common multiple without changing that prefix. Exhausting the resulting
+distinct-part partitions computes the true minimum over all original
+integers for each $2\le N\le64$. Only $N=4$ is unrepresented in this
+range, and the largest minimum is $f(58)=265$.
+The retained checker and inputs establish this finite author-recorded
+result; no asymptotic estimate or general novelty count follows.

@@ -7,7 +7,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-10-14T20:24:15Z
-updated: 2026-10-14T22:52:50Z
+updated: 2026-10-19T06:24:13Z
 ---
 
 # arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence
@@ -24,8 +24,8 @@ challenge statements with the audit's distinct grade.
 The formalization is held as
 [assets/erdos_408_formalization.tar.gz](assets/erdos_408_formalization.tar.gz):
 the tree of [plasma-ai/erdos-408](https://github.com/plasma-ai/erdos-408) at
-commit 5b02bf9 without its `paper/` folder, made by
-`git archive 5b02bf9 -- . ':(exclude)paper' | gzip -n`. The statement-fidelity
+commit 4ea44bf without its `paper/` folder, made by
+`git archive 4ea44bf -- . ':(exclude)paper' | gzip -n`. The statement-fidelity
 audit of its challenge statements is filed under
 [[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/verify/_index|verify/]].
 [util/replay.sh](util/replay.sh) rebuilds it at its pinned toolchain under

@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T03:43:48Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 332
@@ -90,6 +90,17 @@ its discussion thread held one comment, of 4 May 2026, the posting that the
 pending claim page records, and the formal-conjectures statement file stated
 the question as a single open theorem whose sufficient condition is left to be
 supplied, with no formal proof.
+
+## Research
+
+[[research/recurrent_difference_sets/_index|Recurrent difference sets]] gives
+the complete author-recorded argument and its remaining gap. A maximal finite
+family of pairwise finitely intersecting translates gives syndetic recurrent
+differences whenever upper Banach density is delta>0, with at most
+floor(1/delta) translates. The gap length itself cannot be bounded by delta
+alone. The explicit sequence a_n=n(1+floor(log_2 n)) has divergent reciprocal
+sum and no recurrent positive difference.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

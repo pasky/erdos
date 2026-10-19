@@ -5,7 +5,7 @@ desc: "Source notes for Problem 132: Fishburn: Convex polygons with few interver
 tags: []
 sources: []
 created: 2026-09-24T22:18:23Z
-updated: 2026-09-24T22:18:23Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Fishburn: Convex polygons with few intervertex distances
@@ -92,16 +92,50 @@ the decreasing rearrangement of the numbers $\mu_A(\delta)$. An E132-rare
 distance is therefore an entry between $1$ and $n$ in this vector. The paper
 primarily controls $|D(A)|$, not these individual entries.
 
+A useful bridge is the elementary count
+
+$$\binom n2=\sum_{\delta\in D(A)}\mu_A(\delta)\ge (q-r)(n+1)+r,$$
+
+where $q=|D(A)|$ and $r=|\{\delta:1\le\mu_A(\delta)\le n\}|$. Hence
+
+$$r\ge \left\lceil\frac{q(n+1)-\binom n2}{n}\right\rceil.$$
+
+Thus a convex polygon with more than Altman’s minimum number of distances
+already has at least two rare distances (indeed at least three when $n$ is even
+and $q\ge n/2+1$). The delicate even case is consequently $q=n/2$, exactly the
+case classified by Theorem 2.
+
+For even $n\ge8$, Theorem 2 reduces that case to $R_n$ and $R_{n+1}-1$. In
+$R_n$, each non-diameter chord length occurs exactly $n$ times and the diameter
+occurs $n/2$ times. In $R_{n+1}-1$, where $n+1$ is odd, each chord class had
+$n+1$ pairs before deletion and loses the two pairs incident with the deleted
+vertex, leaving multiplicity $n-1$. Hence every one of the $n/2$ distances in
+either classified polygon is E132-rare. For $n=6$, the forced labels in Section
+2 give multiplicity vector $(6,6,3)$ for $A_6$; the other two classes are $R_6$
+and $R_7-1$, whose multiplicities are likewise at most six. Combined with
+Altman’s odd-order equality classification, these observations yield the
+two-rare-distance assertion for convex configurations (apart from trivial very
+small-order qualifications). This is a consequence of the paper plus the
+counting argument, not a theorem stated in E132’s language.
+
+The small odd classifications provide sharper test cases. All fifteen vectors in
+Figure 2 have at least two entries at most five. For the five heptagons of
+Theorem 3, Figure 10 gives $(6,6,6,3)$ or $(6,5,5,5)$, so all four distances are
+rare. These examples can be used as rigid base cases in deletion or induction
+arguments, just as Sections 3 and 5 use lower-order classifications.
+
 The paper does not prove E132 for arbitrary planar sets: every structural
 argument assumes convex position, and interior points destroy the cyclic
 ordering, opposite-segment propagation, and maximal-side subpolygon arguments
 used in Lemmas 1–8. Nor does it prove that the number of rare distances tends to
-infinity, even in convex position. Proposition 1 suggests a possible
-convex-position route: vertices drawn from a regular polygon have multiplicity
-at most $n$ for every chord length, so a sufficiently strong lower bound with
-$f(n)\to\infty$ would force increasingly many rare distances. Fishburn
-conjectures only that $f$ is unbounded and supplies upper bounds, not the
-required growth statement. The paper is therefore useful to E132 as a complete
-analysis of the extremal convex obstruction and as a source of rigid cyclic
-templates, but it neither treats nonconvex configurations nor resolves the
-asymptotic question.
+infinity, even in convex position. The counting bound can remain constant when
+$m(C)$ exceeds its minimum by only a fixed amount, while the proposed
+classifications for near-minimal odd polygons are conjectural beyond the stated
+small cases. Proposition 1 suggests a possible convex-position route: vertices
+drawn from a regular polygon have multiplicity at most $n$ for every chord
+length, so a sufficiently strong lower bound with $f(n)\to\infty$ would force
+increasingly many rare distances. Fishburn conjectures only that $f$ is
+unbounded and supplies upper bounds, not the required growth statement. The
+paper is therefore useful to E132 as a complete analysis of the extremal convex
+obstruction and as a source of rigid cyclic templates, but it neither treats
+nonconvex configurations nor resolves the asymptotic question.

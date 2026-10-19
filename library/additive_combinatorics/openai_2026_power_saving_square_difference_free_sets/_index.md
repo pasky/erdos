@@ -9,7 +9,7 @@ desc: |
   induction on scales; it names no Erdős problem.
 license: Apache-2.0
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 # additive_combinatorics/openai_2026_power_saving_square_difference_free_sets
@@ -85,9 +85,9 @@ of integers contained in $\{1,\ldots,N\}$, $|A|\le C\,N^{1-c}$. The companion
 `OAI.SquareDifference.power_saving` and the permitted axioms `propext`,
 `Quot.sound` and `Classical.choice`; the release tree holds that library under
 `lean/OAI/Combinatorics/SquareDifference/` (81 files). The release's catalog
-`lean/formalization.yaml` lists no entry for this manuscript at this revision:
-it is absent from the catalog's `sources` and from its `status.main_results`,
-and the catalog's own `review` field reads `status: unchecked`. All of this is
+`lean/formalization.yaml` lists no entry for this manuscript at this revision,
+either among its `sources` or under its `status.main_results`,
+and its own `review` field reads `status: unchecked`. All of this is
 read statically from the release; nothing was built, replayed or audited for
 fidelity in this repository. No Lean file here is a proof of any Erdős problem.
 

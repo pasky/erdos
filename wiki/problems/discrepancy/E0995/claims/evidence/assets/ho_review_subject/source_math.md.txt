@@ -1,0 +1,727 @@
+## Notation
+
+|  |  |
+|----|----|
+| $\mathbb{T}$ | the circle $\mathbb{R}/\mathbb{Z}$, identified with $[0,1)$ when convenient |
+| $\widehat{f}(m)$ | the $m$th Fourier coefficient of $f$ |
+| $S_Nf$ | symmetric Fourier partial sum |
+| $\|\cdot\|_2$ | the $L^2(\mathbb{T})$ norm |
+| $\nu_2(r)$ | dyadic valuation of a nonzero integer $r$ |
+| $\phi_d,h_d,-g_d$ | dyadic spike of depth $d$, its maximum, and its minimum |
+| $\lambda_k$ | squared $L^2$ cost of the $k$th block |
+| $B_k$ | target signal height at stage $k$ |
+| $F_k$ | spike block added at stage $k$ |
+| $L_k,d_k,D_k,U_k$ | number of layers, depth, spacing, and base shift of $F_k$ |
+| $T_k$ | number of trials run at stage $k$ |
+| $\mathcal{I}_{k,t}$ | exponents inserted by $t$th trial of stage $k$ |
+| $M_{k,t},\ell_{k,t}$ | start and length of the $t$th trial at stage $k$ |
+| $P_{k,t},N_{k,t}$ | number of selected exponents before, and at the end of, a trial |
+| $N_k^*$ | number of selected exponents after stage $k$ |
+| $Q_k$ | Fourier threshold attached to $F_k$ |
+| $\mathcal{V}_k$ | dyadic valuation bands used by $F_k$ |
+| $\Omega_k$ | largest bit coordinate used by good-trial events through stage $k$ |
+
+
+[cut]
+
+**Theorem 1.6 (Large $L^p$ partial sums; Erdős Problem \#995 at $p=2$).** *Let $2\leq p<\infty$. There exist a real-valued mean-zero function $f\in L^p(\mathbb{T})$ and a lacunary integer sequence $(n_j)$ with $n_{j+1}/n_j\geq 2$ such that, for almost every $x\in\mathbb{T}$,*
+
+$$\limsup_{N\to\infty}\frac{\sum_{j\leq N}f(n_jx)}{N(\log N)^{1/p-\varepsilon}}=+\infty\qquad\text{for every }\varepsilon>0. \tag{1.4}$$
+
+*In particular, taking $p=2$ gives an $L^2$ example for which $\sum_{j\leq N}f(n_jx)$ is not $o(N\sqrt{\log\log N})$ almost everywhere.*
+
+*Proof.* See Section 7. $\square$
+
+
+[cut]
+
+## 2. DYADIC SPIKES
+
+We identify $\mathbb{T}$ with $[0,1)$ and remove once and for all the countable set of points whose binary expansion is ambiguous after one of the dyadic shifts used below. This null set is invariantly harmless because only countably many shifts and dilations occur in the construction.
+
+For $d\geq 1$ we define the *spike* by
+
+$$
+\phi_d(x):=\frac{\mathbf{1}_{[0,2^{-d})}(x)-2^{-d}}{\sqrt{2^{-d}(1-2^{-d})}}=(h_d+g_d)\mathbf{1}_{[0,2^{-d})}(x)-g_d, \tag{2.1}
+$$
+
+where $h_d:=\sqrt{2^d-1}$ and $g_d:=1/\sqrt{2^d-1}$. Then $\int_{\mathbb{T}}\phi_d=0$ and $\|\phi_d\|_2=1$.
+
+For a nonzero integer $r$, let $\nu_2(r)$ be its dyadic valuation. The following facts are elementary but drive the whole construction.
+
+**Figure 1.** The spike $\phi_d$. Here $h_d := \sqrt{2^d-1}$ and $g_d := 1/\sqrt{2^d-1}$.
+
+[[figure: Plot of $\phi_d(x)$ with height $h_d$ on $[0,2^{-d})$ and value $-g_d$ on $[2^{-d},1)$.]]
+
+**Lemma 2.1 (Distribution, independence, and Fourier support).** Let $d\geq 1$.
+
+(a) The random variable $\phi_d(x)$ takes the values $h_d$ and $-g_d$ with probabilities $2^{-d}$ and $1-2^{-d}$ respectively.
+
+(b) If $0\leq v_1<\cdots<v_s$ and $v_{i+1}-v_i\geq d$, then the random variables $\phi_d(2^{v_i}x)$, $1\leq i\leq s$, are independent.
+
+(c) For $r\neq 0$, $\widehat{\phi_d}(r)=0$ whenever $2^d\mid r$. Hence, for $v\geq 0$, the nonzero Fourier coefficients of $\phi_d(2^v x)$ occur only at frequencies whose dyadic valuations lie in the interval
+
+$$
+[v,v+d-1]:=\{v,v+1,\ldots,v+d-1\}.
+$$
+
+*Proof.* For $v\geq 0$, the value of $\phi_d(2^v x)$ is determined by whether the first $d$ binary digits of $\{2^v x\}$ are all zero; equivalently, it depends only on the digit window $v+1,\ldots,v+d$. Disjoint windows are independent, giving (a) and (b). For (c), when $r\neq 0$,
+
+$$
+\widehat{\mathbf{1}_{[0,2^{-d})}}(r)=\frac{1-e^{-2\pi ir2^{-d}}}{2\pi ir},
+$$
+
+which vanishes if $2^d\mid r$. The constant subtraction in (2.1) only affects the zero Fourier coefficient. Dilating by $2^v$ shifts all dyadic valuations by $v$. $\square$
+
+**Lemma 2.2 (Fourier tail of one spike).** There is an absolute constant $C_1>0$ such that, for every $d\geq 1$ and $R\geq 1$,
+
+$$
+\sum_{|r|>R}|\widehat{\phi_d}(r)|^2\leq C_1\min\left(1,\frac{2^d}{R}\right). \tag{2.2}
+$$
+
+Consequently, for every $v\geq 0$ and $N\geq 1$,
+
+$$
+\|(I-S_N)\phi_d(2^v\cdot)\|_2^2\leq C_1\min\left(1,\frac{2^{d+v}}{N}\right). \tag{2.3}
+$$
+
+*Proof.* Parseval gives the bound by $1$. The total variation of $\phi_d$ is $2/(2^{-d}(1-2^{-d}))^{1/2}\ll 2^{d/2}$, so for $r\neq 0$, $|\widehat{\phi_d}(r)|\ll 2^{d/2}/|r|$. Summing $r^{-2}$ over $|r|>R$ gives (2.2). The dilated estimate follows by applying (2.2) with $R=N/2^v$ when $N\geq 2^v$, and by using the trivial Parseval bound otherwise. $\square$
+
+## 3. Blocks and local trials
+
+This section proves the local amplification lemma. There is no global function yet. We fix one spike block and one trial interval, and show that a single central hit produces a contribution proportional to the trial length.
+
+Fix once and for all
+
+$$
+B_0=100. \tag{3.1}
+$$
+
+A *block parameter set* consists of
+
+$$
+0<\lambda\leq 1,\qquad B\geq B_0,\qquad L\geq 1,\qquad d\geq 1,\qquad D\geq d+2,\qquad U\geq 0,
+$$
+
+with
+
+$$
+64\frac{B^2L}{\lambda}\leq 2^d<128\frac{B^2L}{\lambda}. \tag{3.2}
+$$
+
+(See Section 1.2 for how to interpret the parameters.) The associated block is
+
+$$
+F(x)=\sqrt{\frac{\lambda}{L}}\sum_{q=1}^{L}\phi_d(2^{U+qD}x). \tag{3.3}
+$$
+
+**Lemma 3.1** (Norm, lower floor, and Fourier tail of one block). *There are absolute constants* $C_2,C_3>0$ *such that every block* (3.3) *satisfies*
+
+$$
+\int_{\mathbb T}F=0,\qquad \|F\|_2^2=\lambda, \tag{3.4}
+$$
+
+$$
+F(x)\geq-C_3\frac{\lambda}{B}\qquad (x\in\mathbb T), \tag{3.5}
+$$
+
+*and, for every* $N\geq 1$,
+
+$$
+\|(I-S_N)F\|_2^2\leq\frac{C_2\lambda}{L}\sum_{q=1}^{L}\min\left(1,\frac{2^{d+U+qD}}{N}\right). \tag{3.6}
+$$
+
+*If*
+
+$$
+Q=2^{U+LD+d+2}, \tag{3.7}
+$$
+
+*then for every* $N\geq Q$,
+
+$$
+\|(I-S_N)F\|_2^2\leq C_2^2\frac{\lambda Q}{N}. \tag{3.8}
+$$
+
+*Proof.* In $F(x)$, the index-$q$ summand has nonzero Fourier coefficients only in the dyadic valuation band
+
+$$
+[U+qD,\,U+qD+d-1].
+$$
+
+Since $D\geq d+2$, these bands are pairwise disjoint. Hence the summands are orthogonal, have mean zero, and have $L^2$ norm one. This proves (3.4).
+
+Since $\phi_d\geq-g_d$ with $g_d\leq 2^{-(d-1)/2}$,
+
+$$
+F(x)\geq-\sqrt{\frac{\lambda}{L}}\,Lg_d=-\sqrt{\lambda L}\,g_d.
+$$
+
+The choice $(3.2)$ gives $2^{-d/2}\leq(1/8)\sqrt{\lambda/(B^2L)}$, and hence
+
+$$
+\sqrt{\lambda L}g_d\leq C_3\frac{\lambda}{B}.
+$$
+
+This proves $(3.5)$.
+
+The tail estimate $(3.6)$ then follows from orthogonality of the valuation bands and Lemma 2.2. If $N\geq Q$, every minimum in $(3.6)$ is attained by the second term and
+
+$$
+\sum_{q=1}^{L}2^{d+U+qD}\leq 2^{d+U+LD+1}\leq Q.
+$$
+
+This proves $(3.8)$ after increasing $C_2$ if necessary. $\square$
+
+The same block has a simple finite-$L^p$ estimate. This estimate is the only additional input needed for the $L^p$ refinements in Sections 5 and 7.
+
+**Lemma 3.2** ($L^p$ size of one block). *For every $2\leq p<\infty$ there is a constant $C_p$ such that every block $(3.3)$ satisfies*
+
+$$
+\lVert F\rVert_p^p\leq C_p\lambda B^{p-2}. \tag{3.9}
+$$
+
+*Proof.* The summands
+
+$$
+X_q(x)=\sqrt{\lambda/L}\,\phi_d(2^{U+qD}x),\qquad 1\leq q\leq L,
+$$
+
+are independent and mean zero. For $p=2$ the estimate is immediate from $(3.4)$. Assume $p>2$. Rosenthal’s inequality [14] gives
+
+$$
+\lVert F\rVert_p^p\leq C_p\left(\left(\sum_{q=1}^{L}\lVert X_q\rVert_2^2\right)^{p/2}+\sum_{q=1}^{L}\lVert X_q\rVert_p^p\right).
+$$
+
+Since $\lVert X_q\rVert_2^2=(\lambda/L)\lVert\phi_d(2^{U+qD}\cdot)\rVert_2^2=\lambda/L$, $0<\lambda\leq 1$, and $B\geq 1$, the first term is $C_p\lambda^{p/2}\leq C_p\lambda B^{p-2}$. Also
+
+$$
+\lVert\phi_d\rVert_p^p=2^{-d}h_d^p+(1-2^{-d})g_d^p\leq C_p2^{d(p/2-1)}.
+$$
+
+Therefore, using $(3.2)$,
+
+$$
+\begin{aligned}
+\sum_{q=1}^{L}\lVert X_q\rVert_p^p
+&\leq C_pL\left(\frac{\lambda}{L}\right)^{p/2}2^{d(p/2-1)}\\
+&\leq C_pL\left(\frac{\lambda}{L}\right)^{p/2}
+\left(\frac{B^2L}{\lambda}\right)^{p/2-1}
+=C_p\lambda B^{p-2}.
+\end{aligned}
+$$
+
+This proves $(3.9)$. $\square$
+
+We shall also use the following standard summability criterion.
+
+**Lemma 3.3** (Independent $L^p$ summability). *Let $2\leq p<\infty$, and let $(G_k)$ be independent mean-zero functions on $\mathbb{T}$. If*
+
+$$
+\sum_k\lVert G_k\rVert_2^2<\infty,\qquad \sum_k\lVert G_k\rVert_p^p<\infty,
+$$
+
+*then $\sum_k G_k$ converges in $L^p$.*
+
+*Proof.* For $p=2$ this is just the Hilbert-space Cauchy criterion. Assume $p>2$. For $m\leq n$, Rosenthal’s inequality [14] gives
+
+$$
+\left\lVert\sum_{k=m}^{n}G_k\right\rVert_p^p\leq C_p\left(\left(\sum_{k=m}^{n}\lVert G_k\rVert_2^2\right)^{p/2}+\sum_{k=m}^{n}\lVert G_k\rVert_p^p\right).
+$$
+
+The right-hand side tends to zero as $m,n\to\infty$. Hence the partial sums are Cauchy in $L^p$. $\square$
+
+A trial is specified by an integer starting offset $M$ and a length $\ell$, where $1\leq\ell\leq L/8$. We assume
+
+$$
+M+D\geq 0, \tag{3.10}
+$$
+
+so that every dilation appearing below is an integer endomorphism of $\mathbb{T}$. It uses the exponent block
+
+$$
+M+D,\ M+2D,\ldots,M+\ell D. \tag{3.11}
+$$
+
+Define
+
+$$
+Z_h(x)=\phi_d(2^{U+M+hD}x),\qquad 2\leq h\leq L+\ell. \tag{3.12}
+$$
+
+Then
+
+$$
+\sum_{r=1}^{\ell}F(2^{M+rD}x)=\sqrt{\frac{\lambda}{L}}\sum_{h=2}^{L+\ell}w_hZ_h(x), \tag{3.13}
+$$
+
+where
+
+$$
+w_h=\#\{(q,r):1\leq q\leq L,\,1\leq r\leq\ell,\,q+r=h\}.
+$$
+
+Always $0\leq w_h\leq\ell$, and in the central range
+
+$$
+w_h=\ell,\qquad \ell+1\leq h\leq L+1. \tag{3.14}
+$$
+
+**Definition 3.4 (Good trial event).** *The good event $\mathcal{E}(M,\ell)$ is the event that at least one central variable $Z_h$, $\ell+1\leq h\leq L+1$, equals $h_d$.*
+
+**Lemma 3.5 (Local amplification).** *There is an absolute constant $c_0>0$ such that, for every block parameter set, every integer $M$ satisfying (3.10), and every $1\leq\ell\leq L/8$,*
+
+$$
+\Pr(\mathcal{E}(M,\ell))\geq c_0\frac{\lambda}{B^2}. \tag{3.15}
+$$
+
+*On $\mathcal{E}(M,\ell)$ one has*
+
+$$
+\sum_{r=1}^{\ell}F(2^{M+rD}x)\geq 2B\ell. \tag{3.16}
+$$
+
+*Proof.* The central variables are independent by Lemma 2.1, because their digit windows have length $d$ and are separated by $D\geq d+2$. Let $p=2^{-d}$. By (3.2),
+
+$$
+\frac{\lambda}{128B^2L}<p\leq\frac{\lambda}{64B^2L}. \tag{3.17}
+$$
+
+The number of central indices is $n_c=L-\ell+1\geq 7L/8$. Since $n_cp\leq\lambda/(64B^2)\leq1/64$, we have
+
+$$
+\Pr(\mathcal{E}(M,\ell))=1-(1-p)^{n_c}\geq\frac{1}{2}n_cp\geq c_0\frac{\lambda}{B^2}.
+$$
+
+Suppose $Z_{h_0}=h_d$ for some central $h_0$. Using $\sum_h w_h=L\ell$, $w_{h_0}=\ell$, and $Z_h\geq-g_d$ for all $h$,
+
+$$
+\begin{aligned}
+\sum_{r=1}^{\ell}F(2^{M+rD}x)&\geq\sqrt{\frac{\lambda}{L}}\left(\ell h_d-L\ell g_d\right)\\
+&=\ell\left(\sqrt{\frac{\lambda}{L}}h_d-\sqrt{\lambda L}\,g_d\right).
+\end{aligned}
+$$
+
+The choice (3.2) implies
+
+$$
+\sqrt{\frac{\lambda}{L}}\,h_d\geq\frac{1}{\sqrt{2}}\sqrt{\frac{\lambda 2^d}{L}}\geq4\sqrt{2}\,B,
+$$
+
+where we used $h_d=\sqrt{2^d-1}\geq2^{d/2}/\sqrt{2}$. It also implies
+
+$$
+\sqrt{\lambda L}\,g_d\leq\sqrt{\frac{2\lambda L}{2^d}}\leq\frac{\lambda}{4\sqrt{2}B}\leq B.
+$$
+
+Thus the expression in parentheses is at least $2B$, proving (3.16). $\Box$
+
+## 4. THE MASTER CONSTRUCTION
+
+This section assembles the local trials into a global function and a global dyadic lacunary sequence. The stage parameters are deliberately left flexible: $\lambda_k$, $B_k$, and the number of trials $T_k$ will be chosen differently in Sections 5 and 7.
+
+Fix
+
+$$
+\eta=\frac{1}{20}. \tag{4.1}
+$$
+
+This small constant fixes the scale on which each trial length will dominate the number of exponents already selected.
+
+At the beginning of stage $k$, suppose stages $1,\ldots,k-1$ have been fixed. We keep four bookkeeping quantities. Let $P_{k,1}$ be the number of selected exponents before stage $k$; $P_{1,1}=0$. Let $m^{\rm last}_{k-1}$ be the largest selected exponent before stage $k$, with $m^{\rm last}_{0}=0$. Let $V_{k-1}^{\max}$ be the largest dyadic valuation used by previous spike blocks, with $V_{0}^{\max}=0$. Finally let $\Omega_{k-1}$ be the largest binary digit coordinate used by the good-trial events from previous stages, with $\Omega_{0}=0$.
+
+At stage $k$ choose
+
+$$
+0<\lambda_k\leq1,\qquad B_k\geq B_0,\qquad T_k\geq1. \tag{4.2}
+$$
+
+Here $\lambda_k$ is the squared $L^2$ cost assigned to the stage, $B_k$ is the target signal height, and $T_k$ is the number of trials run at the stage.
+
+The trial lengths are defined recursively by
+
+$$
+\ell_{k,t}=\left\lceil\eta^{-1}(P_{k,t}+1)\right\rceil,\qquad P_{k,t+1}=P_{k,t}+\ell_{k,t}\quad(1\leq t\leq T_k). \tag{4.3}
+$$
+
+Thus each trial is chosen long compared with the number $P_{k,t}$ of exponents already selected, and $P_{k,t+1}$ is the updated count after adding that trial.
+
+Set
+
+$$N_k^*=P_{k,T_k+1},\qquad L_k=8\max_{1\leq t\leq T_k}\ell_{k,t}. \tag{4.4}$$
+
+Here $N_k^*$ is the total number of selected exponents after stage $k$, while $L_k$ is a block length chosen uniformly larger than every trial length in the stage.
+
+Choose $d_k$ by
+
+$$64\frac{B_k^2L_k}{\lambda_k}\leq 2^{d_k}<128\frac{B_k^2L_k}{\lambda_k}, \tag{4.5}$$
+
+so that the normalized spike height $\sqrt{\lambda_k/L_k}\,2^{d_k/2}$ is comparable to $B_k$, up to absolute constants.
+
+Put
+
+$$D_k=d_k+2,\qquad U_k=V_{k-1}^{\max}+1. \tag{4.6}$$
+
+The spacing $D_k$ leaves a two-coordinate gap between adjacent depth-$d_k$ windows, and $U_k$ starts the new Fourier valuation bands just after the previous ones.
+
+The $k$th block is
+
+$$F_k(x)=\sqrt{\frac{\lambda_k}{L_k}}\sum_{q=1}^{L_k}\phi_{d_k}(2^{U_k+qD_k}x). \tag{4.7}$$
+
+This is a sum of $L_k$ separated spikes, normalized so that the block has squared $L^2$ norm $\lambda_k$.
+
+Its dyadic valuation set is the finite union of intervals
+
+$$\mathcal{V}_k=\bigcup_{q=1}^{L_k}[U_k+qD_k,\,U_k+qD_k+d_k-1]\subset\mathbb{Z}. \tag{4.8}$$
+
+This records exactly the dyadic valuation bands on which $\widehat F_k$ may be nonzero.
+
+These sets are pairwise disjoint across all stages by construction. Define
+
+$$V_k^{\max}=U_k+L_kD_k+d_k-1,\qquad Q_k=2^{U_k+L_kD_k+d_k+2}. \tag{4.9}$$
+
+The first quantity records the last valuation used by the stage, and $Q_k$ is the corresponding Fourier-tail threshold used later.
+
+It remains to place the trials in the exponent sequence. Choose $M_{k,1}$ so large that
+
+$$M_{k,1}+D_k>m_{k-1}^{\rm last},\qquad U_k+M_{k,1}+D_k+1>\Omega_{k-1}. \tag{4.10}$$
+
+The first inequality puts the new exponents after the previous stage, while the second puts the first new digit window beyond all previously used good-event digit windows.
+
+For $1\leq t<T_k$, define
+
+$$M_{k,t+1}=M_{k,t}+(L_k+\ell_{k,t})D_k+d_k+2. \tag{4.11}$$
+
+This increment skips past the digit range generated by trial $t$, ensuring that different trials use disjoint digit windows.
+
+The $t$th trial contributes the exponent interval
+
+$$\mathcal{I}_{k,t}=\{M_{k,t}+D_k,\,M_{k,t}+2D_k,\ldots,M_{k,t}+\ell_{k,t}D_k\}. \tag{4.12}$$
+
+These are the selected exponents added by the trial; their spacing matches the spacing of the layers in $F_k$.
+
+The recursion ensures that all selected exponents are strictly increasing. At the end of stage $k$ put
+
+$$
+m_k^{\mathrm{last}}=M_{k,T_k}+\ell_{k,T_k}D_k,\qquad P_{k+1,1}=N_k^*,
+\tag{4.13}
+$$
+
+recording both the last selected exponent in the stage and the count that is passed to the next stage.
+
+Finally let
+
+$$
+\Omega_k=U_k+M_{k,T_k}+(L_k+\ell_{k,T_k})D_k+d_k.
+\tag{4.14}
+$$
+
+This records an upper bound for the binary digit coordinates used by all good-trial events through stage $k$. The choice of $\Omega_k$ is slightly larger than needed for the good events, but it makes independence transparent.
+
+The next lemma records the elementary bookkeeping consequences of the length recursion. The point of choosing $\ell_{k,t}$ proportional to $P_{k,t}+1$ is that, at a trial endpoint, the newly added $\ell_{k,t}$ exponents dominate the $P_{k,t}$ exponents already chosen; this will let a successful trial control the full average up to $N_{k,t}$. The final estimate gives a uniform exponential upper bound, in the number of trials, for the total number of exponents produced by the stage.
+
+**Lemma 4.1** (Length recursion). *For every stage $k$ and every $1\leq t\leq T_k$,*
+
+$$
+P_{k,t}\leq\eta\ell_{k,t},\qquad N_{k,t}:=P_{k,t}+\ell_{k,t}\leq(1+\eta)\ell_{k,t}.
+\tag{4.15}
+$$
+
+*Moreover there is a constant $C_\eta>1$, depending only on $\eta$, such that*
+
+$$
+1+N_k^*\leq(1+P_{k,1})C_\eta^{T_k}.
+\tag{4.16}
+$$
+
+*Proof.* The first inequality follows immediately from $\ell_{k,t}\geq\eta^{-1}(P_{k,t}+1)$. The second follows by adding $\ell_{k,t}$. Also
+
+$$
+1+P_{k,t+1}=1+P_{k,t}+\ell_{k,t}\leq C_\eta(1+P_{k,t})
+$$
+
+for a constant $C_\eta$ depending only on $\eta$. Iterating gives (4.16). $\square$
+
+For each trial let $\mathcal{E}_{k,t}$ denote the local good event from Definition 3.4, formed with the block $F_k$ and the trial $(M_{k,t},\ell_{k,t})$.
+
+**Lemma 4.2** (Independence and success probability). *The events $\mathcal{E}_{k,t}$, over all pairs $(k,t)$, are independent. Moreover*
+
+$$
+\Pr(\mathcal{E}_{k,t})\geq c_0\frac{\lambda_k}{B_k^2},
+\tag{4.17}
+$$
+
+*where $c_0$ is the constant from Lemma 3.5. Consequently, for the stage event $S_k=\bigcup_{t=1}^{T_k}\mathcal{E}_{k,t}$,*
+
+$$
+\Pr(S_k^c)\leq\exp\left(-c_0T_k\frac{\lambda_k}{B_k^2}\right).
+\tag{4.18}
+$$
+
+*Proof.* The event $\mathcal{E}_{k,t}$ depends only on digit windows
+
+$$
+[U_k+M_{k,t}+hD_k+1,\,U_k+M_{k,t}+hD_k+d_k],\qquad \ell_{k,t}+1\leq h\leq L_k+1.
+$$
+
+The initial condition (4.10) places the first such window of stage $k$ beyond all windows used in earlier stages. The recursion (4.11) places all windows of trial $t+1$ beyond all windows of trial $t$. Hence all good-trial events depend on disjoint binary digit coordinates, and are independent. The lower bound (4.17) is exactly Lemma 3.5. The estimate (4.18) follows from independence and $1-u\leq e^{-u}$. $\square$
+
+**Proposition 4.3 (Master principle).** *Assume that stages are constructed as above and that*
+
+$$
+\sum_{k=1}^{\infty}\lambda_k<\infty. \tag{4.19}
+$$
+
+*Let $(m_j)$ be the increasing enumeration of all selected exponents $\bigcup_{k,t}\mathcal{I}_{k,t}$, and set $n_j=2^{m_j}$. Let*
+
+$$
+f=\sum_{k=1}^{\infty}F_k. \tag{4.20}
+$$
+
+*Then $f$ converges in $L^2(\mathbb{T})$ and almost everywhere to a real-valued mean-zero function in $L^2(\mathbb{T})$, and $(n_j)$ is lacunary with $n_{j+1}/n_j\geq 2$. Moreover, if for some fixed $2\leq p<\infty$,*
+
+$$
+\sum_{k=1}^{\infty}\lambda_kB_k^{p-2}<\infty, \tag{4.21}
+$$
+
+*then the same series converges in $L^p(\mathbb{T})$ and $f\in L^p(\mathbb{T})$.*
+
+*There is a finite constant*
+
+$$
+\mu=C_3\sum_{k=1}^{\infty}\frac{\lambda_k}{B_k}<\infty \tag{4.22}
+$$
+
+*such that, on a set of full measure, every successful trial satisfies*
+
+$$
+\frac{1}{N_{k,t}}\sum_{j\leq N_{k,t}}f(n_jx)\geq B_k-\mu. \tag{4.23}
+$$
+
+*Consequently:*
+
+*(i) if $\sum_k\Pr(S_k)=\infty$, then almost surely there are infinitely many stages $k$ for which some successful trial $t$ satisfies (4.23);*
+
+*(ii) if $\sum_k\Pr(S_k^c)<\infty$, then almost surely, for every sufficiently large stage $k$, some successful trial $t$ satisfies (4.23).*
+
+*Proof.* The valuation sets $\mathcal{V}_k$ are disjoint. Hence the blocks $F_k$ are orthogonal, and Lemma 3.1 gives $\|F_k\|_2^2=\lambda_k$. Thus (4.19) gives $L^2$ convergence to a real-valued mean-zero function. Since, after the removal of a null set, the blocks depend on disjoint finite collections of binary digits, the random variables $F_k$ are independent and mean zero. Moreover
+
+$$
+\sum_k\operatorname{Var}(F_k)=\sum_k\|F_k\|_2^2=\sum_k\lambda_k<\infty.
+$$
+
+Kolmogorov’s convergence criterion for independent mean-zero random variables with summable variances therefore gives almost-everywhere convergence of $\sum_k F_k$. If (4.21) holds for some $2\leq p<\infty$, then Lemma 3.2 gives $\sum_k\|F_k\|_p^p<\infty$. Together with $\sum_k\lambda_k<\infty$, Lemma 3.3 shows convergence in $L^p(\mathbb{T})$.
+
+The exponent intervals were placed in strictly increasing order, so the increasing enumeration $(m_j)$ satisfies $m_{j+1}\geq m_j+1$. Hence $n_{j+1}/n_j\geq 2$.
+
+Since $B_k\geq B_0$, the quantity $\mu$ in (4.22) is finite. By (3.5), each block satisfies $F_k\geq-C_3\lambda_k/B_k$. Hence every finite partial sum satisfies
+
+$$
+\sum_{i\leq K}F_i(y)\geq-\sum_{i\leq K}C_3\frac{\lambda_i}{B_i}\geq-\mu.
+$$
+
+On the full-measure set where $\sum_iF_i(y)$ converges, passing to the limit gives $f(y)\geq-\mu$. Applying the same argument to each omitted series $\sum_{i\ne k}F_i(y)$ and then intersecting over the countably many values of $k$, we also have $f(y)-F_k(y)\geq-\mu$ for every $k$ on a common full-measure set. Pulling this set back under the countably many dyadic maps $x\mapsto 2^{m_j}x$, we may use these pointwise lower bounds at every selected dilation for almost every $x$.
+
+Fix such an $x$, and suppose $\mathcal{E}_{k,t}$ occurs. At the endpoint $N_{k,t}=P_{k,t}+\ell_{k,t}$,
+
+$$
+\begin{aligned}
+\sum_{j\leq N_{k,t}}f(2^{m_j}x)
+&=\sum_{r=1}^{\ell_{k,t}}F_k(2^{M_{k,t}+rD_k}x)\\
+&\quad+\sum_{m_j<M_{k,t}+D_k}f(2^{m_j}x)\\
+&\quad+\sum_{r=1}^{\ell_{k,t}}(f-F_k)(2^{M_{k,t}+rD_k}x).
+\end{aligned}
+$$
+
+The first term is at least $2B_k\ell_{k,t}$ by Lemma 3.5. The second has $P_{k,t}$ terms and is bounded below by $-\mu P_{k,t}$; the third has $\ell_{k,t}$ terms and is bounded below by $-\mu\ell_{k,t}$. Hence
+
+$$
+\sum_{j\leq N_{k,t}}f(2^{m_j}x)\geq 2B_k\ell_{k,t}-\mu P_{k,t}-\mu\ell_{k,t}.
+$$
+
+Since $N_{k,t}=P_{k,t}+\ell_{k,t}$, the two error terms combine exactly as $-\mu N_{k,t}$, and hence
+
+$$
+\sum_{j\leq N_{k,t}}f(2^{m_j}x)\geq 2B_k\ell_{k,t}-\mu N_{k,t}.
+$$
+
+Dividing by $N_{k,t}$ and using Lemma 4.1 gives
+
+$$
+\frac{1}{N_{k,t}}\sum_{j\leq N_{k,t}}f(2^{m_j}x)\geq 2B_k\frac{\ell_{k,t}}{N_{k,t}}-\mu\geq\frac{2B_k}{1+\eta}-\mu.
+$$
+
+Since $\eta=1/20$, the last quantity is at least $B_k-\mu$, which proves (4.23).
+
+The stage events $S_k$ are independent by Lemma 4.2. If $S_k$ occurs, then at least one trial $\mathcal{E}_{k,t}$ occurs, and the estimate just proved applies to that trial. Part (i) follows from the second Borel–Cantelli lemma, and part (ii) follows from the first Borel–Cantelli lemma.
+
+$\square$
+
+
+[cut]
+
+## 7. Large partial sums in finite $L^{p}$
+
+We now prove Theorem 1.6. The Fourier tail is no longer part of the problem, so the stage parameters can be chosen to make failure summable. For a fixed finite $L^{p}$ target, we take the squared $L^{2}$ cost $\lambda_k$ to be a negative power of the desired signal height $B_k$. This keeps the $L^{p}$ costs summable while leaving enough room for the signal to beat the logarithmic scale.
+
+*Proof of Theorem 1.6.* Fix $2\leq p<\infty$. Choose a summable positive sequence $(a_k)$, for instance $a_k=2^{-k-2}$. The number $a_k$ will be the $L^{p}$ budget spent by stage $k$.
+
+We construct the stages recursively. Suppose stages $1,\ldots,k-1$ have already been fixed. We leave the signal height $B_k\geq B_0$ temporarily free, and once a value of $B_k$ is proposed we set
+
+$$
+\lambda_k=a_kB_k^{-(p-2)}. \tag{7.1}
+$$
+
+Thus
+
+$$
+\lambda_kB_k^{p-2}=a_k,
+$$
+
+which is exactly the normalization that will make the $L^{p}$ costs summable. Since $B_0\geq 1$, we also have $0<\lambda_k\leq a_k\leq 1$.
+
+Next choose the number of trials by
+
+$$
+T_k=\left\lceil\Gamma\frac{B_k^2}{\lambda_k}\log(k+1)\right\rceil=\left\lceil\Gamma\frac{B_k^p}{a_k}\log(k+1)\right\rceil, \tag{7.2}
+$$
+
+where $\Gamma\geq 8/c_0$ is fixed. This choice is calibrated so that the quantity $T_k\lambda_k/B_k^2$ is a large multiple of $\log(k+1)$; later this will make the probability that all stage-$k$ trials fail summable in $k$.
+
+We first record how large the stage endpoint $N_k^*$ can be as a function of $B_k$. By Lemma 4.1,
+
+$$
+1+N_k^*\leq(1+P_{k,1})C_{\eta}^{T_k}.
+$$
+
+Here $P_{k,1}$ is already fixed when stage $k$ begins. Hence
+
+$$
+\log N_k^*\leq C_k+CT_k\leq C^{\prime}_{k}\frac{B_k^p}{a_k}\log(k+1), \tag{7.3}
+$$
+
+where the constants may depend on the earlier stages, on $\eta$, and on the fixed choices of $p$ and $\Gamma$, but not on the proposed value of $B_k$.
+
+Let
+
+$$
+\varepsilon_k=\frac{1}{2p(k+2)}.
+$$
+
+Then $1/p-\varepsilon_k>0$. From (7.3),
+
+$$
+(\log N_k^*)^{1/p-\varepsilon_k}\ll_k B_k^{1-p\varepsilon_k}a_k^{-1/p+\varepsilon_k}(\log(k+1))^{1/p-\varepsilon_k}.
+$$
+
+Therefore
+
+$$
+\frac{B_k}{(\log N_k^*)^{1/p-\varepsilon_k}} \gg_k B_k^{p\varepsilon_k}a_k^{1/p-\varepsilon_k}(\log(k+1))^{-1/p+\varepsilon_k}.
+$$
+
+For the fixed stage $k$, all factors except $B_k^{p\varepsilon_k}$ are fixed, and $p\varepsilon_k>0$. Hence
+
+$$
+\frac{B_k}{(\log N_k^*)^{1/p-\varepsilon_k}}\longrightarrow\infty\qquad\text{as }B_k\to\infty.
+$$
+
+We must also choose $B_k$ large enough to dominate the eventual lower-floor constant $\mu$ from Proposition 4.3. For a proposed value of $B_k$, define the deterministic upper bound
+
+$$
+\overline{\mu}_k(B_k)=C_3\sum_{i<k}\frac{\lambda_i}{B_i}+C_3\frac{a_k}{B_k^{p-1}}+C_3\sum_{i>k}\frac{a_i}{B_0^{p-1}}. \tag{7.4}
+$$
+
+The first sum is the contribution of stages already chosen. The middle term is the contribution of the current stage, since
+
+$$
+\frac{\lambda_k}{B_k}=\frac{a_k}{B_k^{p-1}}.
+$$
+
+The final sum bounds all future contributions, because every later stage will satisfy $B_i\geq B_0$ and hence
+
+$$
+\frac{\lambda_i}{B_i}=\frac{a_i}{B_i^{p-1}}\leq\frac{a_i}{B_0^{p-1}}.
+$$
+
+Thus, after all future stages have been chosen, the constant $\mu$ in Proposition 4.3 will satisfy
+
+$$
+\mu\leq\overline{\mu}_k(B_k).
+$$
+
+For fixed $k$, the quantity $\overline{\mu}_k(B_k)$ stays bounded as $B_k\to\infty$, and in fact converges to a finite limit, since only the current term depends on $B_k$.
+
+Combining this boundedness with the divergence above, we may now choose $B_k$ so large that
+
+$$
+\frac{B_k-\overline{\mu}_k(B_k)}{(\log N_k^*)^{1/p-\varepsilon_k}}\geq k. \tag{7.5}
+$$
+
+We then freeze this value of $B_k$ and complete stage $k$ with the parameters defined by (7.1) and (7.2). This completes the recursive construction of all stages.
+
+The resulting function belongs to $L^p(\mathbb{T})$. Indeed,
+
+$$
+\sum_k\lambda_k\leq\sum_k a_k<\infty,
+$$
+
+so the $L^2$ summability hypothesis of Proposition 4.3 holds. Moreover, Lemma 3.2 gives
+
+$$
+\lVert F_k\rVert_p^p\leq C_p\lambda_kB_k^{p-2}=C_pa_k,
+$$
+
+and therefore $\sum_k\lVert F_k\rVert_p^p<\infty$. Hence Lemma 3.3 gives convergence in $L^p(\mathbb{T})$, and the master proposition applies to the constructed function and lacunary sequence.
+
+It remains to show that the successful stages occur eventually almost surely. By Lemma 4.2 and (7.2),
+
+$$
+\Pr(S_k^c)\leq\exp\left(-c_0T_k\frac{\lambda_k}{B_k^2}\right)\leq\exp\left(-c_0\Gamma\log(k+1)\right)\leq(k+1)^{-8}.
+$$
+
+The failure probabilities are summable. Therefore Proposition 4.3 implies that, for almost every $x$, every sufficiently large stage $k$ has some trial endpoint $N_{k,t}\leq N_k^*$ such that
+
+$$
+\frac{1}{N_{k,t}}\sum_{j\leq N_{k,t}}f(n_jx)\geq B_k-\mu.
+$$
+
+Fix such an $x$ and such a large $k$. Since $N_{k,t}\leq N_k^*$ and $1/p-\varepsilon_k>0$,
+
+$$
+(\log N_{k,t})^{1/p-\varepsilon_k}\leq(\log N_k^*)^{1/p-\varepsilon_k}.
+$$
+
+Also $\mu\leq\overline{\mu}_k(B_k)$ by the construction of $\overline{\mu}_k(B_k)$. Hence (7.5) gives
+
+$$
+\frac{\sum_{j\leq N_{k,t}}f(n_jx)}{N_{k,t}(\log N_{k,t})^{1/p-\varepsilon_k}}
+\geq\frac{B_k-\mu}{(\log N_k^*)^{1/p-\varepsilon_k}}
+\geq\frac{B_k-\overline{\mu}_k(B_k)}{(\log N_k^*)^{1/p-\varepsilon_k}}
+\geq k.
+$$
+
+Thus, along one trial endpoint from every sufficiently large stage, the normalized partial sums with exponent $1/p-\varepsilon_k$ are at least $k$.
+
+Now fix any $\varepsilon>0$. Since $\varepsilon_k\to0$, we have $\varepsilon_k<\varepsilon$ for all sufficiently large $k$. For such $k$,
+
+$$
+1/p-\varepsilon\leq1/p-\varepsilon_k,
+$$
+
+so replacing $\varepsilon_k$ by $\varepsilon$ only decreases the logarithmic denominator. Therefore the same endpoints satisfy
+
+$$
+\frac{\sum_{j\leq N_{k,t}}f(n_jx)}{N_{k,t}(\log N_{k,t})^{1/p-\varepsilon}}\geq k
+$$
+
+for all sufficiently large $k$. The endpoints tend to infinity, since each stage appends at least one new exponent. This proves (1.4).
+
+Finally take $p=2$. For any fixed $0<\varepsilon<1/2$,
+
+$$
+\frac{(\log N)^{1/2-\varepsilon}}{\sqrt{\log\log N}}\longrightarrow\infty.
+$$
+
+Thus, if the partial sums were $o(N\sqrt{\log\log N})$ almost everywhere, then the normalized quantities in (1.4) would tend to $0$ for this choice of $\varepsilon$, contradicting the infinite limsup. Hence the proposed $o(N\sqrt{\log\log N})$ bound in Erdős Problem \#995 cannot hold. $\square$
+

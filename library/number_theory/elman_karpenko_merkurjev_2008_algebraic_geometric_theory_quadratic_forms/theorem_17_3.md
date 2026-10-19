@@ -6,7 +6,7 @@ desc: |
   represented by a polynomial vector; with Corollary 17.7, a nonzero defined
   specialization of a value over F(T) is a value over F.
 created: 2026-10-08T17:15:35Z
-updated: 2026-10-08T17:15:35Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -77,4 +77,8 @@ hyperbolic plane) and Example 7.2 (reflections), outside the excerpt.
 ## Bears on
 
 None. The theorem and its corollaries concern quadratic forms over
-rational-function fields and say nothing about any Erdős problem.
+rational-function fields and say nothing about any Erdős problem; the
+[[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/_index|source card]]
+records how the corpus's research on
+[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]] uses other
+results of the excerpt.

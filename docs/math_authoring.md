@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-09-08T01:42:35Z
+updated: 2026-10-19T09:02:42Z
 ---
 
 # math_authoring
@@ -31,17 +31,15 @@ before exploring an idea. Shared provisional work and editable arguments follow
   `[[theory/<area>/_index|area chapter]]`,
   `[[theory/<area>/L<id>_<slug>/_index|L<id>]]`. A target that names the
   directory without `/_index` does not resolve, and `wiki lint` fails it; a
-  target whose page does not exist is only noted by `wiki lint`, and the
-  reference linter, where the repository has one, fails it too: its wikilink
-  sweep resolves every `[[target]]` under the wiki roots and reports the
-  dangling ones. Same-folder non-index pages can use plain relative markdown
-  links (`[_proof.md](_proof.md)`).
+  target whose page does not exist is only noted by `wiki lint` (a stale-link
+  note), and the repository gate fails on that note. Same-folder non-index pages
+  can use plain relative markdown links (`[_proof.md](_proof.md)`).
 - **Claim frontmatter.** Wiki fields (name, desc, tags, sources, created,
   updated) PLUS the anatomy fields (id, statement, status, tier, lean,
-  depends_on, and the optional standing) coexist in one block; `wiki update`
-  preserves the anatomy fields and owns `created:` and `updated:`. It re-stamps
-  `updated:` only when it writes the file itself, so a body edit alone leaves
-  the stamp unchanged; never hand-edit either stamp.
+  depends_on, and the optional standing and assumes) coexist in one block;
+  `wiki update` preserves the anatomy fields and owns `created:` and `updated:`.
+  It re-stamps `updated:` only when it writes the file itself, so a body edit
+  alone leaves the stamp unchanged; never hand-edit either stamp.
 - **Generated stubs.** `wiki update --path wiki` creates `_index.md` stubs for
   new directories (e.g. `evidence/`) with `desc: ...` placeholders and generates
   the link blocks in every `_index.md`. Fill the stub descs yourself -- lint
@@ -282,11 +280,12 @@ imposing a template on exploration.
 
 Page names are root-relative without a `wiki/` prefix. An `_index.md` takes its
 directory as its `name`; a linked directory uses explicit `/_index`. Use
-underscores in descriptive paths. Preserve catalog `E<nnnn>` identities, native
-`L<n>` identities, and source result labels in their distinct roles. Cross-root
-references use ordinary relative Markdown links, except that the mathematics
-wiki and the library link each other's pages through the wiki tool's external
-links (`[[../library/...]]` from `wiki/`, `[[../wiki/...]]` from `library/`).
+underscores in descriptive paths. Preserve erdosproblems.com `E<nnnn>`
+identities, native `L<n>` identities, and source result labels in their distinct
+roles. Cross-root references use ordinary relative Markdown links, except that
+the mathematics wiki and the library link each other's pages through the wiki
+tool's external links (`[[../library/...]]` from `wiki/`, `[[../wiki/...]]` from
+`library/`).
 
 Here `theory/ramsey_theory/L17_rainbow_odd_cycle_threshold` is a claim index,
 `theory/ramsey_theory/L17_rainbow_odd_cycle_threshold/_proof` its proof page,
@@ -313,12 +312,10 @@ by taking one side and regenerating the views with `erdos ledger`.
 
 The `erdos` command has `gate`, `evidence`, `lead-audit`, `license-audit`,
 `problem-claims`, `ledger`, `claim-check`, and `reflint`. The reference linter
-of this repository, `erdos claim-check`, follows no link to disk. This governs
-here over the shared Wikilinks rule: no wikilink sweep fails a target whose page
-does not exist, and `wiki lint` only notes it. The gate's `reflint` leg
-(`erdos reflint`) resolves every inline Markdown link on disk, cross-root links
-included, so only a stale wikilink must be caught by reading, as [[weaving]]
-records.
+of this repository, `erdos claim-check`, follows no link to disk. The gate is
+`erdos gate`: each of its wiki legs reads `wiki lint --json` and fails on the
+stale-link note the shared text names, and its `reflint` leg (`erdos reflint`)
+resolves every inline Markdown link on disk, cross-root links included.
 
 Evidence Python and attachments are not wiki pages. The settings exclude
 implementation helpers, assets, output, and Python caches from navigation; link

@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1150
@@ -50,7 +50,7 @@ release's manuscript of 5 October 2026 on ultraflat polynomials; the post says
 that the curator has not yet looked seriously at the proofs or checked the Lean,
 and that it is not an endorsement. The formal-conjectures catalog marked its
 statement solved on 2026-10-11, linking that declaration (see Formalization), a
-catalog label. No outside review is known.
+formal-conjectures label. No outside review is known.
 
 The erdosproblems.com commentary was written before the release. It restates the
 question as whether ultraflat polynomials with coefficients $\pm1$ exist. It

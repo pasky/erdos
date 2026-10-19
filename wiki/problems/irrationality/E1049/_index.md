@@ -8,7 +8,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1049
@@ -62,6 +62,27 @@ $\log b/\log a\ge\theta^*$, and the problem is open.
 proof claim on 2026-10-07 was the comment of 11 September 2026), the
 formal-conjectures statement file, the Numdam record of Bundschuh and
 Väänänen's paper, and Crossref.
+
+## Scope of the irrationality criterion
+
+Write $t=a/b>1$ in lowest terms. The inspected integer-base theorems of
+[[../library/irrationality/vandehey_2012_incomplete_argument_erdos_irrationality_lambert_series/_index|Vandehey]]
+and
+[[../library/irrationality/duverney_tachiya_2019_refinement_chowla_erdos_method_linear_independence_certain_lambert_series/_index|Duverney–Tachiya]]
+do not become rational-base theorems by moving $b^n$ into the numerator. The
+resulting coefficients $\tau(n)b^n$ have exponential multiplier growth for
+$b\ge2$, violating the finite-alphabet or polylogarithmic and mean-growth
+hypotheses.
+
+The separately recorded Bundschuh–Väänänen and pending Cook ranges both miss
+$t=3/2$; their original proofs remain uninspected here. Raising $a/b$ to any
+positive integer power cannot improve a condition on $\log b/\log a$, since
+that ratio is unchanged and coprimality persists. Nor does irrationality at a
+power imply irrationality at the original base without another relation. These
+exact interface obstructions do not establish a rational value. A new
+denominator-clearing estimate must include the numerator-height cost and reach
+an unresolved base such as $3/2$.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

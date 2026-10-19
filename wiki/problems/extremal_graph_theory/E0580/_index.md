@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 580
@@ -239,6 +239,10 @@ proof was not read. (4) [AKS95] and [EFLS95] are not held; the approximate
 theorem and the conjecture's wording rest on two secondary sources, Zhao
 (the edge form) and Chung's Problem (69) (the vertex form), which differ in
 form, so the original wording of [EFLS95] is not confirmed first-hand.
+
+
+The [[research/graph_ramsey_interfaces/finite_reduction_obstructions|exact finite-remainder account]] checks the edge-versus-vertex implication and proves that an odd-order instance follows from the preceding even order by deleting a high-degree vertex. No numerical cutoff is obtained, and the pending finite verification is not replayed.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

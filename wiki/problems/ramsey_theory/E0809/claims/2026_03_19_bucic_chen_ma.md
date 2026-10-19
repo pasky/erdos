@@ -30,7 +30,7 @@ links:
   kind: formalization
   date: 2026-09-27
 created: 2026-10-07T06:38:59Z
-updated: 2026-10-08T01:38:41Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -87,7 +87,7 @@ Section 2 sketch clause by clause, and did not read the proof.
 
 Two Lean developments declare a formalization of the theorem and are linked
 above as such. The first is the $k\ge4$ branch of L17, which also gives
-[[problems/ramsey_theory/E0809/claims/2026_09_27_plasma_ai|the project's own claim page]]
+[[problems/ramsey_theory/E0809/claims/2026_09_24_plasma_ai|the project's own claim page]]
 its `formalized` evidence. Its repository is linked at `0f27743`, the commit
 the registry entry pins, and its Lean files are unchanged after that commit
 up to the one that [[research/erdos_809/evidence/_index|the research evidence]]

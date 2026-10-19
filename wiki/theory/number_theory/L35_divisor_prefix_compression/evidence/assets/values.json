@@ -1,0 +1,678 @@
+{
+  "scope": {
+    "minimum_target": 2,
+    "maximum_target": 64,
+    "brute_crosscheck_limit": 10000
+  },
+  "rows": [
+    {
+      "N": 2,
+      "f": 2,
+      "prefix": [
+        2
+      ],
+      "partitions_tested": 1
+    },
+    {
+      "N": 3,
+      "f": 3,
+      "prefix": [
+        3
+      ],
+      "partitions_tested": 1
+    },
+    {
+      "N": 4,
+      "f": null,
+      "prefix": null,
+      "partitions_tested": 1
+    },
+    {
+      "N": 5,
+      "f": 5,
+      "prefix": [
+        5
+      ],
+      "partitions_tested": 2
+    },
+    {
+      "N": 6,
+      "f": 4,
+      "prefix": [
+        2,
+        4
+      ],
+      "partitions_tested": 2
+    },
+    {
+      "N": 7,
+      "f": 7,
+      "prefix": [
+        7
+      ],
+      "partitions_tested": 3
+    },
+    {
+      "N": 8,
+      "f": 15,
+      "prefix": [
+        3,
+        5
+      ],
+      "partitions_tested": 3
+    },
+    {
+      "N": 9,
+      "f": 12,
+      "prefix": [
+        2,
+        3,
+        4
+      ],
+      "partitions_tested": 5
+    },
+    {
+      "N": 10,
+      "f": 21,
+      "prefix": [
+        3,
+        7
+      ],
+      "partitions_tested": 5
+    },
+    {
+      "N": 11,
+      "f": 6,
+      "prefix": [
+        2,
+        3,
+        6
+      ],
+      "partitions_tested": 7
+    },
+    {
+      "N": 12,
+      "f": 9,
+      "prefix": [
+        3,
+        9
+      ],
+      "partitions_tested": 8
+    },
+    {
+      "N": 13,
+      "f": 13,
+      "prefix": [
+        13
+      ],
+      "partitions_tested": 10
+    },
+    {
+      "N": 14,
+      "f": 8,
+      "prefix": [
+        2,
+        4,
+        8
+      ],
+      "partitions_tested": 12
+    },
+    {
+      "N": 15,
+      "f": 12,
+      "prefix": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "partitions_tested": 15
+    },
+    {
+      "N": 16,
+      "f": 30,
+      "prefix": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "partitions_tested": 17
+    },
+    {
+      "N": 17,
+      "f": 10,
+      "prefix": [
+        2,
+        5,
+        10
+      ],
+      "partitions_tested": 21
+    },
+    {
+      "N": 18,
+      "f": 42,
+      "prefix": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "partitions_tested": 25
+    },
+    {
+      "N": 19,
+      "f": 19,
+      "prefix": [
+        19
+      ],
+      "partitions_tested": 29
+    },
+    {
+      "N": 20,
+      "f": 18,
+      "prefix": [
+        2,
+        3,
+        6,
+        9
+      ],
+      "partitions_tested": 35
+    },
+    {
+      "N": 21,
+      "f": 20,
+      "prefix": [
+        2,
+        4,
+        5,
+        10
+      ],
+      "partitions_tested": 41
+    },
+    {
+      "N": 22,
+      "f": 57,
+      "prefix": [
+        3,
+        19
+      ],
+      "partitions_tested": 48
+    },
+    {
+      "N": 23,
+      "f": 14,
+      "prefix": [
+        2,
+        7,
+        14
+      ],
+      "partitions_tested": 56
+    },
+    {
+      "N": 24,
+      "f": 36,
+      "prefix": [
+        2,
+        3,
+        4,
+        6,
+        9
+      ],
+      "partitions_tested": 66
+    },
+    {
+      "N": 25,
+      "f": 46,
+      "prefix": [
+        2,
+        23
+      ],
+      "partitions_tested": 76
+    },
+    {
+      "N": 26,
+      "f": 30,
+      "prefix": [
+        2,
+        3,
+        5,
+        6,
+        10
+      ],
+      "partitions_tested": 89
+    },
+    {
+      "N": 27,
+      "f": 12,
+      "prefix": [
+        2,
+        3,
+        4,
+        6,
+        12
+      ],
+      "partitions_tested": 103
+    },
+    {
+      "N": 28,
+      "f": 102,
+      "prefix": [
+        2,
+        3,
+        6,
+        17
+      ],
+      "partitions_tested": 119
+    },
+    {
+      "N": 29,
+      "f": 29,
+      "prefix": [
+        29
+      ],
+      "partitions_tested": 137
+    },
+    {
+      "N": 30,
+      "f": 16,
+      "prefix": [
+        2,
+        4,
+        8,
+        16
+      ],
+      "partitions_tested": 159
+    },
+    {
+      "N": 31,
+      "f": 21,
+      "prefix": [
+        3,
+        7,
+        21
+      ],
+      "partitions_tested": 181
+    },
+    {
+      "N": 32,
+      "f": 42,
+      "prefix": [
+        2,
+        3,
+        6,
+        7,
+        14
+      ],
+      "partitions_tested": 209
+    },
+    {
+      "N": 33,
+      "f": 62,
+      "prefix": [
+        2,
+        31
+      ],
+      "partitions_tested": 239
+    },
+    {
+      "N": 34,
+      "f": 84,
+      "prefix": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        12
+      ],
+      "partitions_tested": 273
+    },
+    {
+      "N": 35,
+      "f": 22,
+      "prefix": [
+        2,
+        11,
+        22
+      ],
+      "partitions_tested": 312
+    },
+    {
+      "N": 36,
+      "f": 36,
+      "prefix": [
+        2,
+        3,
+        4,
+        6,
+        9,
+        12
+      ],
+      "partitions_tested": 356
+    },
+    {
+      "N": 37,
+      "f": 37,
+      "prefix": [
+        37
+      ],
+      "partitions_tested": 404
+    },
+    {
+      "N": 38,
+      "f": 18,
+      "prefix": [
+        2,
+        3,
+        6,
+        9,
+        18
+      ],
+      "partitions_tested": 460
+    },
+    {
+      "N": 39,
+      "f": 27,
+      "prefix": [
+        3,
+        9,
+        27
+      ],
+      "partitions_tested": 522
+    },
+    {
+      "N": 40,
+      "f": 63,
+      "prefix": [
+        3,
+        7,
+        9,
+        21
+      ],
+      "partitions_tested": 591
+    },
+    {
+      "N": 41,
+      "f": 20,
+      "prefix": [
+        2,
+        4,
+        5,
+        10,
+        20
+      ],
+      "partitions_tested": 669
+    },
+    {
+      "N": 42,
+      "f": 50,
+      "prefix": [
+        2,
+        5,
+        10,
+        25
+      ],
+      "partitions_tested": 757
+    },
+    {
+      "N": 43,
+      "f": 43,
+      "prefix": [
+        43
+      ],
+      "partitions_tested": 853
+    },
+    {
+      "N": 44,
+      "f": 66,
+      "prefix": [
+        2,
+        3,
+        6,
+        11,
+        22
+      ],
+      "partitions_tested": 963
+    },
+    {
+      "N": 45,
+      "f": 52,
+      "prefix": [
+        2,
+        4,
+        13,
+        26
+      ],
+      "partitions_tested": 1085
+    },
+    {
+      "N": 46,
+      "f": 129,
+      "prefix": [
+        3,
+        43
+      ],
+      "partitions_tested": 1219
+    },
+    {
+      "N": 47,
+      "f": 33,
+      "prefix": [
+        3,
+        11,
+        33
+      ],
+      "partitions_tested": 1371
+    },
+    {
+      "N": 48,
+      "f": 75,
+      "prefix": [
+        3,
+        5,
+        15,
+        25
+      ],
+      "partitions_tested": 1539
+    },
+    {
+      "N": 49,
+      "f": 40,
+      "prefix": [
+        2,
+        4,
+        5,
+        8,
+        10,
+        20
+      ],
+      "partitions_tested": 1725
+    },
+    {
+      "N": 50,
+      "f": 78,
+      "prefix": [
+        2,
+        3,
+        6,
+        13,
+        26
+      ],
+      "partitions_tested": 1933
+    },
+    {
+      "N": 51,
+      "f": 48,
+      "prefix": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        16
+      ],
+      "partitions_tested": 2164
+    },
+    {
+      "N": 52,
+      "f": 220,
+      "prefix": [
+        2,
+        4,
+        5,
+        10,
+        11,
+        20
+      ],
+      "partitions_tested": 2418
+    },
+    {
+      "N": 53,
+      "f": 34,
+      "prefix": [
+        2,
+        17,
+        34
+      ],
+      "partitions_tested": 2702
+    },
+    {
+      "N": 54,
+      "f": 36,
+      "prefix": [
+        2,
+        3,
+        4,
+        6,
+        9,
+        12,
+        18
+      ],
+      "partitions_tested": 3016
+    },
+    {
+      "N": 55,
+      "f": 28,
+      "prefix": [
+        2,
+        4,
+        7,
+        14,
+        28
+      ],
+      "partitions_tested": 3362
+    },
+    {
+      "N": 56,
+      "f": 49,
+      "prefix": [
+        7,
+        49
+      ],
+      "partitions_tested": 3746
+    },
+    {
+      "N": 57,
+      "f": 60,
+      "prefix": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        12,
+        15
+      ],
+      "partitions_tested": 4171
+    },
+    {
+      "N": 58,
+      "f": 265,
+      "prefix": [
+        5,
+        53
+      ],
+      "partitions_tested": 4637
+    },
+    {
+      "N": 59,
+      "f": 24,
+      "prefix": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        24
+      ],
+      "partitions_tested": 5155
+    },
+    {
+      "N": 60,
+      "f": 132,
+      "prefix": [
+        2,
+        3,
+        4,
+        6,
+        11,
+        12,
+        22
+      ],
+      "partitions_tested": 5725
+    },
+    {
+      "N": 61,
+      "f": 61,
+      "prefix": [
+        61
+      ],
+      "partitions_tested": 6351
+    },
+    {
+      "N": 62,
+      "f": 32,
+      "prefix": [
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "partitions_tested": 7043
+    },
+    {
+      "N": 63,
+      "f": 56,
+      "prefix": [
+        2,
+        4,
+        7,
+        8,
+        14,
+        28
+      ],
+      "partitions_tested": 7805
+    },
+    {
+      "N": 64,
+      "f": 117,
+      "prefix": [
+        3,
+        9,
+        13,
+        39
+      ],
+      "partitions_tested": 8639
+    }
+  ],
+  "unrepresented": [
+    4
+  ],
+  "largest_minimal_integer": 265,
+  "total_partitions": 83691
+}

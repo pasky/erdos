@@ -1,6 +1,6 @@
 {
   "subject_date": "2026-09-17",
-  "provenance": "subject_date and the path and original_path fields are the campaign working repository's date and paths, not this repository's; that repository's history is no part of this repository's history. Each frozen_copy and asset field names the retained copy beside this manifest, which is the reviewed text (the PDF's SHA-256 value in subjects/_index.txt was replaced by a removal marker on 2026-10-02); the PDF is identified by its path and byte count, and Git LFS records its digest.",
+  "provenance": "subject_date and the path and original_path fields are the campaign working repository's date and paths, not this repository's; that repository's history is no part of this repository's history. Each frozen_copy and asset field names a copy of the reviewed text that is not held in the repository (the PDF's SHA-256 value in subjects/_index.txt was replaced by a removal marker on 2026-10-02); the PDF is identified by its path and byte count, and Git LFS records its digest.",
   "mathematical_subjects": [
     {
       "role": "primary source",

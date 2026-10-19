@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:38:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 891
@@ -47,9 +47,24 @@ https://www.erdosproblems.com/891.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/891.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The longer interval result can be reconstructed exactly. Put $A=p_1\cdots p_k$
+and $B=p_1\cdots p_{k-1}p_{k+1}$. Every block of $B$ consecutive integers
+contains a multiple $a$ of $A$ and a multiple $b$ of $B$. If $a=b$, their
+common multiple has at least $k+1$ distinct prime factors. Otherwise, if
+neither has more than $k$, both are supported on the fixed first $k+1$ primes
+and $|a-b|<B$.
+
+[[../library/arithmetic_functions/polya_1918_zur_arithmetischen_untersuchung_der_polynome/_index|Pólya's
+fixed-prime-set gap theorem]] excludes the latter pair sufficiently far out.
+This gives the Schinzel implication reported by
+[[../library/arithmetic_functions/erdos_1967_problems_prime_factors_consecutive_integers/_index|Erdős–Selfridge]].
+Pólya's reduction was inspected with Thue's theorem left as an external
+premise; no effective starting point is claimed. At the desired shorter length
+$A$, only one such multiple is forced. Pólya does not forbid one isolated
+smooth number, so that exceptional case remains. Counting factors with
+multiplicity would change and trivialize the question.
 
 ## Known Results
 

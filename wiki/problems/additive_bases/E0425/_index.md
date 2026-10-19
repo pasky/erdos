@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:31:26Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 425
@@ -72,13 +72,18 @@ https://www.erdosproblems.com/425.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/constants_and_polynomial_images|sidon
+constants and polynomial images]] account records the following scope. Erdos
+1968 gives two positive constants around the pair-product secondary term, not
+convergence to one constant.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 46
@@ -32,11 +32,11 @@ color, with the number of terms $k\ge1$ free. Integers below $2$ never occur in
 a solution, so their colors play no role.
 
 **Status.** Proved. erdosproblems.com records "PROVED (LEAN)". The Lean suffix
-is a catalog label qualified under Existing formalization below, and no local
-kernel credit is claimed. Croot's coloring theorem (Annals of Mathematics 157
-(2003)) gives an interval $[2,b^r]$ such that every $r$-coloring of it has a
-monochromatic set with reciprocal sum one. Restricting a coloring of the
-integers to that interval answers the question. Bloom's theorem on sets of
+is an erdosproblems.com label qualified under Existing formalization below, and
+no local kernel credit is claimed. Croot's coloring theorem (Annals of
+Mathematics 157 (2003)) gives an interval $[2,b^r]$ such that every $r$-coloring
+of it has a monochromatic set with reciprocal sum one. Restricting a coloring of
+the integers to that interval answers the question. Bloom's theorem on sets of
 positive upper density gives a second route. The claim pages
 [[problems/unit_fractions/E0046/claims/2003_03_01_croot|Croot 2003]] and
 [[problems/unit_fractions/E0046/claims/2021_12_07_bloom|Bloom 2021]] record the
@@ -240,8 +240,8 @@ without `sorry`, ending with a comment that records `#print axioms erdos46`
 as `propext`, `Classical.choice`, `Quot.sound`. Its route is the density
 route above, not Croot's argument. The collection's README says its source
 subdirectories "build as a whole (last I checked)". This corpus has built,
-audited or kernel-checked none of it; the erdosproblems.com Lean suffix is a
-catalog label, and the community database records no formal-proof URL.
+audited or kernel-checked none of it; the erdosproblems.com Lean suffix is an
+erdosproblems.com label, and the community database records no formal-proof URL.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

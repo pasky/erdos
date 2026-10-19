@@ -8,7 +8,7 @@ desc: |
   coordinate, as planar point sets to which Halász's L^1 discrepancy lower
   bound applies.
 created: 2026-09-28T04:38:10Z
-updated: 2026-09-28T08:34:46Z
+updated: 2026-10-16T06:44:50Z
 ---
 
 [[research/erdos_1221/_index|..]]
@@ -27,7 +27,15 @@ independent review; changes no status and assigns no tier. Theorem 7.1 is
 an external input, cited by the source to G. Halász, *On Roth's method in
 the theory of irregularities of point distributions*, in Recent Progress
 in Analytic Number Theory, vol. 2 (Academic Press, 1981), 79--94; that
-paper is not held and the statement is not checked against it here.
+paper is not held. The statement agrees with (1.14) of Bilyk's
+[[../library/discrepancy/bilyk_2011_roth_orthogonal_function_method/_index|survey
+of Roth's method]], and the
+[[research/erdos_1221/halasz_planar_l1_bound|planar page]] writes out a proof
+following that survey's exposition (author-recorded). The focused review
+listed in the folder index covered this reconstruction relative to its
+import. The endpoint-convention clarification below and the planar page's
+proof are outside that review's subject; the localization argument is
+unchanged.
 
 ## Definitions
 
@@ -38,7 +46,12 @@ D_{\mathcal P}(u,v)=\#\bigl(\mathcal P\cap((0,u]\times(0,v])\bigr)-Muv
 \qquad(0\le u,v\le1);
 $$
 
-endpoint conventions do not affect the integrals below. Points, $P_n$ and
+For points in $(0,1]^2$, changing to $[0,u)\times[0,v)$ affects the count
+only on finitely many lines, so it preserves the integrals below. For a
+general list in $[0,1]^2$ this equality need not hold; the planar page's
+"Anchored-box conventions" argument proves the same lower bound for both
+conventions directly from their identical Haar coefficients. The localized
+sets used here lie in $(0,1]^2$. Points, $P_n$ and
 $N_n(\cdot)$ are as on the
 [[research/erdos_1221/ko26b_lemma_2_1_reconstruction|Lemma 2.1 page]];
 only integer times occur here.
@@ -54,8 +67,9 @@ c_H\sqrt{\log M}.
 $$
 
 This is the unnormalized form of Halász's planar $L^1$ discrepancy
-theorem, as the source states it; the source gives no further derivation
-and none is supplied here.
+theorem, as the source states it; the source gives no further derivation.
+The [[research/erdos_1221/halasz_planar_l1_bound|planar page]] supplies
+one, with $c_H=1/41000$, for lists of $M\ge1$ points.
 
 ## Statement (Lemma 7.2, p. 13)
 

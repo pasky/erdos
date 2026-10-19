@@ -14,7 +14,7 @@ status: claimed
 claim: answered
 parts: [ell_ck, ell_two, ell_sqrt_k]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-18T10:11:03Z
 ---
 
 # Problem 176
@@ -22,6 +22,8 @@ updated: 2026-10-08T01:29:58Z
 [[problems/discrepancy/_index|..]]
 
 [[problems/discrepancy/E0176/claims/_index|claims/]]: The 3 claim pages of Problem 176, one per claimant's result; the problem's standing derives from them.
+
+[[problems/discrepancy/E0176/evidence/_index|evidence/]]: Exact proof examination and finite evidence for the two polynomial bounds and their stated consequences; no Lean execution is certified.
 
 ***
 
@@ -88,30 +90,29 @@ it out; the beliefs about $W(n)$ in both texts concern the answer, not the
 question, and a later theorem about $c=1$ does not license a change. The last three questions are the parts `ell_ck`, `ell_two` and `ell_sqrt_k`, in order. The first asks for good upper bounds with no target rather than a
 definite question, so it is open-ended: it is not a part, and it never blocks the standing.
 
-**Status.** Claimed: pending partial claims would settle the three definite parts,
-`ell_ck` no and `ell_two` and `ell_sqrt_k` yes, so the answers differ across
-parts and the claim is `answered`; the open-ended request for good upper bounds
+**Status.** Claimed: pending partial claims would settle `ell_ck` no and `ell_two` and `ell_sqrt_k` yes, so the
+answers differ across parts and the claim is `answered`; the open-ended request for good upper bounds
 does not block the standing. The
 erdosproblems.com label, as accessed 2026-09-04, was OPEN. No full claim
 exists, and the standing derives from the claim pages.
 
 The OpenAI release of 23 September 2026 gives the superexponential lower bound
-$W(k)>k^{k/100000}$ for all large $k$. It is recorded as a claimed partial
-result on the claim page
+$W(k)>k^{k/100000}$ for all large $k$. It is recorded as a pending partial claim on the claim page
 [[problems/discrepancy/E0176/claims/2026_09_23_openai|OpenAI 2026]]. Through the
 identity above, it makes $N(k,k)\le C^k$ fail for every $C$, and since the first
 displayed question asks for every $c>0$, a failure at $c=1$ answers that
 question, as stated, no. The bound itself is accepted, formalized, on Problem
 138. The only step beyond it is the identity $N(k,k)=W(k)$, which follows from
-the definition; Plasma AI checked it, and acceptance on that check is pending
-until the project's reviewer signs off, so the no is claimed, not accepted. Once
-the claim is accepted, the first displayed question reads answered no. Erdős
-and Graham's strict form [ErGr79], which leaves out $c=1$ (Formulation), is a
-separate variant, open for $0<c<1$.
+the definition; Plasma AI checked it. The claim stays claimed until Jacob
+Parish at Plasma AI signs off, and once accepted it answers the first displayed
+question no. Erdős and Graham's strict form [ErGr79], which leaves out $c=1$
+(Formulation), is a separate variant, open for $0<c<1$.
 
 Lean developments posted in the erdosproblems.com thread in June 2026 claim yes
 answers, with polynomial bounds, to the questions $N(k,2)\le C^k$ and
-$N(k,\sqrt k)\le C^k$. They are recorded as claimed partial results on
+$N(k,\sqrt k)\le C^k$. Their exact polynomial statements, required bases and exponential
+consequences have a [whole-proof examination and distinct passing grade](evidence/verify/kitamura/_index.md).
+They remain pending partial catalog claims on
 [[problems/discrepancy/E0176/claims/2026_06_21_kitamura|Kitamura, 21 June 2026]]
 and
 [[problems/discrepancy/E0176/claims/2026_06_23_kitamura|Kitamura, 23 June 2026]].
@@ -150,9 +151,11 @@ comments on 2026-10-06 and the proof-claim tab was empty.
 **Claims.** The three claim pages named under Status: the OpenAI release's
 bound for $W(k)$, which rules out the case $c=1$ of the first displayed
 question through $N(k,k)=W(k)$ and so answers that question, as stated, no
-(claimed, partial), and Kitamura's two Lean developments of June 2026, which
-answer the displayed questions for $N(k,2)$ and $N(k,\sqrt k)$ with polynomial
-bounds (claimed, partial; neither built nor audited by this corpus). The
+(checked by Plasma AI, partial, pending the sign-off of Jacob Parish at Plasma AI), and Kitamura's two Lean developments
+of June 2026, which answer the displayed questions for $N(k,2)$ and
+$N(k,\sqrt k)$ with polynomial bounds (pending partial catalog claims; their supplied mathematical arguments
+have a whole-proof examination and distinct passing grade, without Lean
+execution or a formal axiom audit). The
 thread also records, on 21 June 2026, a screening check of the first
 development by another commenter and the remark that its argument generalizes
 to the bound $N(k,c\sqrt k)=O(k^3)$ that Zach Hunter announced in the thread
@@ -186,11 +189,13 @@ variant that leaves out $c=1$, is open for $0<c<1$, and no upper bound for it
 is recorded here. The no to the first displayed question as stated rests on its
 case $c=1$, which rests on the release's bound for $W(k)$, accepted on Problem
 138, through the identity $N(k,k)=W(k)$, which follows from the definition and
-which Plasma AI checked, with acceptance pending until the project's reviewer
-signs off; the two polynomial bounds rest on Lean developments that this corpus
-has not built; the erdosproblems.com commentary records none of the three. Proof
-coverage is at statement level throughout, and apart from that check nothing is
-reviewed by this project.
+which Plasma AI checked; the claim stays claimed until Jacob Parish at Plasma AI signs off; the two
+polynomial bounds have the exact independently graded proof examination
+linked above, including all finite bases and both exponential consequences.
+Their catalog acceptance remains pending, and the nine-conclusion examination
+does not cover the separate linear-target formulation or certify any Lean
+execution. The erdosproblems.com commentary records none of these three
+claims in the historical search recorded here.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

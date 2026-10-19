@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 670
@@ -75,6 +75,14 @@ is not a claim. The literature search behind this account, dated 2026-10-07,
 covered the erdosproblems.com page and thread, Erdős's 1997 chapter, Ho's paper
 and the formal-conjectures repository, which has no statement file for the
 problem.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/dimension|realization rank and
+dimension-sensitive constructions]] account records the following scope. For
+n>=3, reverse triangle inequality forces every pair length >=1; thus the
+elementary bound is binom(n,2).
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

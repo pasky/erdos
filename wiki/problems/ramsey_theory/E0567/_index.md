@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 567
@@ -144,7 +144,7 @@ red-blue coloring of $K_n$ has a red $G$ or a blue $H$, and the docstring reads
 $R(G,H)\ll m$, matching erdosproblems.com. The version of 2026-09-18 linked
 above postdates the fix. Under the earlier definition the bounty site
 Conjectures.io published `erdos_567.parts.i` as a task (frozen statement
-`True ↔ Erdos567.Q3.IsRamseySizeLinear`; the catalog revision Conjectures.io
+`True ↔ Erdos567.Q3.IsRamseySizeLinear`; the revision Conjectures.io
 names is one of its own task catalog, not of formal-conjectures) and accepted a
 Lean refutation of it (record 145e01a5-a004-4b17-a9fa-7503a28ff052,
 [solution](https://conjectures.io/results/145e01a5-a004-4b17-a9fa-7503a28ff052/solution)
@@ -176,7 +176,7 @@ matching Conjectures.io's printed proof digest) has not been built here; its
 final theorems are `not_isRamseySizeLinear_Q3 : ¬ IsRamseySizeLinear Q3` (line
 727), `main : ¬ (True ↔ IsRamseySizeLinear Q3)` (line 755) and
 `target : ¬ (fcTypeOfName% "Erdos567.erdos_567.parts.i") := main` (line 759).
-The pinned catalog blob Conjectures.io links was not reachable on 2026-09-27, so
+The pinned blob Conjectures.io links was not reachable on 2026-09-27, so
 the frozen definition is taken from the diff of the fix of 9 September 2026
 against its parent, and from the proof itself, which at line 751 rewrites
 `F.edgeSet.ncard = sizeRamsey Q3 (⊤ : SimpleGraph (Fin n))` into the

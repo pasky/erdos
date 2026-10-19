@@ -1,0 +1,6016 @@
+{
+  "index": 7,
+  "finite_row_cap_power_of_ten": 100000001,
+  "original_polynomial_file": "erdos_699_index_7_effective.json",
+  "stages": [
+    {
+      "source_file": "erdos_699_prime_pair_strips_7_extended.json",
+      "cofactor_exponent": "11/25",
+      "input_cap_power_of_ten": 100000001,
+      "position_cases": 270,
+      "used_polynomials": [
+        "poly_023",
+        "poly_041"
+      ],
+      "maximum_height_exponent_bound": "132425",
+      "distinct_row_cap_power_of_ten": 132427,
+      "collision_row_cap_power_of_ten": 2057,
+      "row_cap_power_of_ten": 132427,
+      "cases": [
+        {
+          "positions": [
+            0,
+            1,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_023",
+          "gain": "8/5",
+          "height_exponent_bound": "132425"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "102/5",
+          "height_exponent_bound": "66395/102"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2039/25",
+          "height_exponent_bound": "331975/2039"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "924/25",
+          "height_exponent_bound": "47425/132"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2442/25",
+          "height_exponent_bound": "331975/2442"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "5489/25",
+          "height_exponent_bound": "331975/5489"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4388/25",
+          "height_exponent_bound": "331975/4388"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "8964/25",
+          "height_exponent_bound": "331975/8964"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4802/25",
+          "height_exponent_bound": "6775/98"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1264/5",
+          "height_exponent_bound": "66395/1264"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "12414/25",
+          "height_exponent_bound": "331975/12414"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "6734/25",
+          "height_exponent_bound": "47425/962"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "8252/25",
+          "height_exponent_bound": "331975/8252"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "15864/25",
+          "height_exponent_bound": "331975/15864"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_023",
+          "gain": "8/5",
+          "height_exponent_bound": "132425"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2039/25",
+          "height_exponent_bound": "331975/2039"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "102/5",
+          "height_exponent_bound": "66395/102"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "5917/25",
+          "height_exponent_bound": "331975/5917"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1487/5",
+          "height_exponent_bound": "66395/1487"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4816/25",
+          "height_exponent_bound": "47425/688"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7863/25",
+          "height_exponent_bound": "331975/7863"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2182/5",
+          "height_exponent_bound": "66395/2182"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1959/5",
+          "height_exponent_bound": "66395/1959"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2872/5",
+          "height_exponent_bound": "66395/2872"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "11727/25",
+          "height_exponent_bound": "331975/11727"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "3562/5",
+          "height_exponent_bound": "66395/3562"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "924/25",
+          "height_exponent_bound": "47425/132"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "5489/25",
+          "height_exponent_bound": "331975/5489"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2442/25",
+          "height_exponent_bound": "331975/2442"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1487/5",
+          "height_exponent_bound": "66395/1487"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "5917/25",
+          "height_exponent_bound": "331975/5917"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "11313/25",
+          "height_exponent_bound": "331975/11313"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "12842/25",
+          "height_exponent_bound": "331975/12842"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2649/5",
+          "height_exponent_bound": "66395/2649"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "16292/25",
+          "height_exponent_bound": "331975/16292"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "10612/25",
+          "height_exponent_bound": "47425/1516"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "15177/25",
+          "height_exponent_bound": "331975/15177"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "19742/25",
+          "height_exponent_bound": "331975/19742"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "8964/25",
+          "height_exponent_bound": "331975/8964"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4388/25",
+          "height_exponent_bound": "331975/4388"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4816/25",
+          "height_exponent_bound": "47425/688"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2182/5",
+          "height_exponent_bound": "66395/2182"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7863/25",
+          "height_exponent_bound": "331975/7863"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "12842/25",
+          "height_exponent_bound": "331975/12842"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "11313/25",
+          "height_exponent_bound": "331975/11313"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "10626/25",
+          "height_exponent_bound": "47425/1518"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "3344/5",
+          "height_exponent_bound": "66395/3344"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "18238/25",
+          "height_exponent_bound": "331975/18238"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "12558/25",
+          "height_exponent_bound": "47425/1794"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "18652/25",
+          "height_exponent_bound": "331975/18652"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "21688/25",
+          "height_exponent_bound": "331975/21688"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4802/25",
+          "height_exponent_bound": "6775/98"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "12414/25",
+          "height_exponent_bound": "331975/12414"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1264/5",
+          "height_exponent_bound": "66395/1264"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2872/5",
+          "height_exponent_bound": "66395/2872"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1959/5",
+          "height_exponent_bound": "66395/1959"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "16292/25",
+          "height_exponent_bound": "331975/16292"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2649/5",
+          "height_exponent_bound": "66395/2649"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "10626/25",
+          "height_exponent_bound": "47425/1518"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "18238/25",
+          "height_exponent_bound": "331975/18238"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "3344/5",
+          "height_exponent_bound": "66395/3344"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2898/5",
+          "height_exponent_bound": "9485/414"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "22102/25",
+          "height_exponent_bound": "331975/22102"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4724/5",
+          "height_exponent_bound": "66395/4724"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "6734/25",
+          "height_exponent_bound": "47425/962"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "15864/25",
+          "height_exponent_bound": "331975/15864"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "8252/25",
+          "height_exponent_bound": "331975/8252"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "3562/5",
+          "height_exponent_bound": "66395/3562"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "11727/25",
+          "height_exponent_bound": "331975/11727"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "10612/25",
+          "height_exponent_bound": "47425/1516"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "19742/25",
+          "height_exponent_bound": "331975/19742"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "15177/25",
+          "height_exponent_bound": "331975/15177"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "12558/25",
+          "height_exponent_bound": "47425/1794"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "21688/25",
+          "height_exponent_bound": "331975/21688"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "18652/25",
+          "height_exponent_bound": "331975/18652"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2898/5",
+          "height_exponent_bound": "9485/414"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4724/5",
+          "height_exponent_bound": "66395/4724"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "22102/25",
+          "height_exponent_bound": "331975/22102"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "102/5",
+          "height_exponent_bound": "66395/102"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_023",
+          "gain": "8/5",
+          "height_exponent_bound": "132425"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2039/25",
+          "height_exponent_bound": "331975/2039"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2442/25",
+          "height_exponent_bound": "331975/2442"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "924/25",
+          "height_exponent_bound": "47425/132"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "5489/25",
+          "height_exponent_bound": "331975/5489"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4388/25",
+          "height_exponent_bound": "331975/4388"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "8964/25",
+          "height_exponent_bound": "331975/8964"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1264/5",
+          "height_exponent_bound": "66395/1264"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4802/25",
+          "height_exponent_bound": "6775/98"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "12414/25",
+          "height_exponent_bound": "331975/12414"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "8252/25",
+          "height_exponent_bound": "331975/8252"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "6734/25",
+          "height_exponent_bound": "47425/962"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "15864/25",
+          "height_exponent_bound": "331975/15864"
+        },
+        {
+          "positions": [
+            1,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "102/5",
+          "height_exponent_bound": "66395/102"
+        },
+        {
+          "positions": [
+            1,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2039/25",
+          "height_exponent_bound": "331975/2039"
+        },
+        {
+          "positions": [
+            1,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_023",
+          "gain": "8/5",
+          "height_exponent_bound": "132425"
+        },
+        {
+          "positions": [
+            1,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2442/25",
+          "height_exponent_bound": "331975/2442"
+        },
+        {
+          "positions": [
+            1,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "5489/25",
+          "height_exponent_bound": "331975/5489"
+        },
+        {
+          "positions": [
+            1,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "924/25",
+          "height_exponent_bound": "47425/132"
+        },
+        {
+          "positions": [
+            1,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4388/25",
+          "height_exponent_bound": "331975/4388"
+        },
+        {
+          "positions": [
+            1,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "8964/25",
+          "height_exponent_bound": "331975/8964"
+        },
+        {
+          "positions": [
+            1,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            1,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1264/5",
+          "height_exponent_bound": "66395/1264"
+        },
+        {
+          "positions": [
+            1,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "12414/25",
+          "height_exponent_bound": "331975/12414"
+        },
+        {
+          "positions": [
+            1,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4802/25",
+          "height_exponent_bound": "6775/98"
+        },
+        {
+          "positions": [
+            1,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "8252/25",
+          "height_exponent_bound": "331975/8252"
+        },
+        {
+          "positions": [
+            1,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "15864/25",
+          "height_exponent_bound": "331975/15864"
+        },
+        {
+          "positions": [
+            1,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "6734/25",
+          "height_exponent_bound": "47425/962"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2039/25",
+          "height_exponent_bound": "331975/2039"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_023",
+          "gain": "8/5",
+          "height_exponent_bound": "132425"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "102/5",
+          "height_exponent_bound": "66395/102"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "5917/25",
+          "height_exponent_bound": "331975/5917"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1487/5",
+          "height_exponent_bound": "66395/1487"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7863/25",
+          "height_exponent_bound": "331975/7863"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4816/25",
+          "height_exponent_bound": "47425/688"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2182/5",
+          "height_exponent_bound": "66395/2182"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1959/5",
+          "height_exponent_bound": "66395/1959"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2872/5",
+          "height_exponent_bound": "66395/2872"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "11727/25",
+          "height_exponent_bound": "331975/11727"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "3562/5",
+          "height_exponent_bound": "66395/3562"
+        },
+        {
+          "positions": [
+            2,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2039/25",
+          "height_exponent_bound": "331975/2039"
+        },
+        {
+          "positions": [
+            2,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "102/5",
+          "height_exponent_bound": "66395/102"
+        },
+        {
+          "positions": [
+            2,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_023",
+          "gain": "8/5",
+          "height_exponent_bound": "132425"
+        },
+        {
+          "positions": [
+            2,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "5917/25",
+          "height_exponent_bound": "331975/5917"
+        },
+        {
+          "positions": [
+            2,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1487/5",
+          "height_exponent_bound": "66395/1487"
+        },
+        {
+          "positions": [
+            2,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            2,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7863/25",
+          "height_exponent_bound": "331975/7863"
+        },
+        {
+          "positions": [
+            2,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2182/5",
+          "height_exponent_bound": "66395/2182"
+        },
+        {
+          "positions": [
+            2,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4816/25",
+          "height_exponent_bound": "47425/688"
+        },
+        {
+          "positions": [
+            2,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1959/5",
+          "height_exponent_bound": "66395/1959"
+        },
+        {
+          "positions": [
+            2,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2872/5",
+          "height_exponent_bound": "66395/2872"
+        },
+        {
+          "positions": [
+            2,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            2,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "11727/25",
+          "height_exponent_bound": "331975/11727"
+        },
+        {
+          "positions": [
+            2,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "3562/5",
+          "height_exponent_bound": "66395/3562"
+        },
+        {
+          "positions": [
+            2,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "5489/25",
+          "height_exponent_bound": "331975/5489"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "924/25",
+          "height_exponent_bound": "47425/132"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2442/25",
+          "height_exponent_bound": "331975/2442"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1487/5",
+          "height_exponent_bound": "66395/1487"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "5917/25",
+          "height_exponent_bound": "331975/5917"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "11313/25",
+          "height_exponent_bound": "331975/11313"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "12842/25",
+          "height_exponent_bound": "331975/12842"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2649/5",
+          "height_exponent_bound": "66395/2649"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "16292/25",
+          "height_exponent_bound": "331975/16292"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "15177/25",
+          "height_exponent_bound": "331975/15177"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "10612/25",
+          "height_exponent_bound": "47425/1516"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "19742/25",
+          "height_exponent_bound": "331975/19742"
+        },
+        {
+          "positions": [
+            3,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "5489/25",
+          "height_exponent_bound": "331975/5489"
+        },
+        {
+          "positions": [
+            3,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2442/25",
+          "height_exponent_bound": "331975/2442"
+        },
+        {
+          "positions": [
+            3,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "924/25",
+          "height_exponent_bound": "47425/132"
+        },
+        {
+          "positions": [
+            3,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1487/5",
+          "height_exponent_bound": "66395/1487"
+        },
+        {
+          "positions": [
+            3,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "5917/25",
+          "height_exponent_bound": "331975/5917"
+        },
+        {
+          "positions": [
+            3,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            3,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "11313/25",
+          "height_exponent_bound": "331975/11313"
+        },
+        {
+          "positions": [
+            3,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "12842/25",
+          "height_exponent_bound": "331975/12842"
+        },
+        {
+          "positions": [
+            3,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            3,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2649/5",
+          "height_exponent_bound": "66395/2649"
+        },
+        {
+          "positions": [
+            3,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "16292/25",
+          "height_exponent_bound": "331975/16292"
+        },
+        {
+          "positions": [
+            3,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            3,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "15177/25",
+          "height_exponent_bound": "331975/15177"
+        },
+        {
+          "positions": [
+            3,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "19742/25",
+          "height_exponent_bound": "331975/19742"
+        },
+        {
+          "positions": [
+            3,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "10612/25",
+          "height_exponent_bound": "47425/1516"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "8964/25",
+          "height_exponent_bound": "331975/8964"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4388/25",
+          "height_exponent_bound": "331975/4388"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2182/5",
+          "height_exponent_bound": "66395/2182"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4816/25",
+          "height_exponent_bound": "47425/688"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7863/25",
+          "height_exponent_bound": "331975/7863"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "12842/25",
+          "height_exponent_bound": "331975/12842"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "11313/25",
+          "height_exponent_bound": "331975/11313"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "3344/5",
+          "height_exponent_bound": "66395/3344"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "10626/25",
+          "height_exponent_bound": "47425/1518"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "18238/25",
+          "height_exponent_bound": "331975/18238"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "18652/25",
+          "height_exponent_bound": "331975/18652"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "12558/25",
+          "height_exponent_bound": "47425/1794"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "21688/25",
+          "height_exponent_bound": "331975/21688"
+        },
+        {
+          "positions": [
+            4,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "8964/25",
+          "height_exponent_bound": "331975/8964"
+        },
+        {
+          "positions": [
+            4,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4388/25",
+          "height_exponent_bound": "331975/4388"
+        },
+        {
+          "positions": [
+            4,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "574/5",
+          "height_exponent_bound": "9485/82"
+        },
+        {
+          "positions": [
+            4,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2182/5",
+          "height_exponent_bound": "66395/2182"
+        },
+        {
+          "positions": [
+            4,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7863/25",
+          "height_exponent_bound": "331975/7863"
+        },
+        {
+          "positions": [
+            4,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4816/25",
+          "height_exponent_bound": "47425/688"
+        },
+        {
+          "positions": [
+            4,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "12842/25",
+          "height_exponent_bound": "331975/12842"
+        },
+        {
+          "positions": [
+            4,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "11313/25",
+          "height_exponent_bound": "331975/11313"
+        },
+        {
+          "positions": [
+            4,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            4,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "3344/5",
+          "height_exponent_bound": "66395/3344"
+        },
+        {
+          "positions": [
+            4,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "18238/25",
+          "height_exponent_bound": "331975/18238"
+        },
+        {
+          "positions": [
+            4,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "10626/25",
+          "height_exponent_bound": "47425/1518"
+        },
+        {
+          "positions": [
+            4,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "18652/25",
+          "height_exponent_bound": "331975/18652"
+        },
+        {
+          "positions": [
+            4,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "21688/25",
+          "height_exponent_bound": "331975/21688"
+        },
+        {
+          "positions": [
+            4,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "12558/25",
+          "height_exponent_bound": "47425/1794"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "12414/25",
+          "height_exponent_bound": "331975/12414"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4802/25",
+          "height_exponent_bound": "6775/98"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1264/5",
+          "height_exponent_bound": "66395/1264"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2872/5",
+          "height_exponent_bound": "66395/2872"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1959/5",
+          "height_exponent_bound": "66395/1959"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "16292/25",
+          "height_exponent_bound": "331975/16292"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2649/5",
+          "height_exponent_bound": "66395/2649"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "18238/25",
+          "height_exponent_bound": "331975/18238"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "10626/25",
+          "height_exponent_bound": "47425/1518"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "3344/5",
+          "height_exponent_bound": "66395/3344"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "22102/25",
+          "height_exponent_bound": "331975/22102"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2898/5",
+          "height_exponent_bound": "9485/414"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4724/5",
+          "height_exponent_bound": "66395/4724"
+        },
+        {
+          "positions": [
+            5,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "12414/25",
+          "height_exponent_bound": "331975/12414"
+        },
+        {
+          "positions": [
+            5,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1264/5",
+          "height_exponent_bound": "66395/1264"
+        },
+        {
+          "positions": [
+            5,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4802/25",
+          "height_exponent_bound": "6775/98"
+        },
+        {
+          "positions": [
+            5,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2872/5",
+          "height_exponent_bound": "66395/2872"
+        },
+        {
+          "positions": [
+            5,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1959/5",
+          "height_exponent_bound": "66395/1959"
+        },
+        {
+          "positions": [
+            5,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "6748/25",
+          "height_exponent_bound": "47425/964"
+        },
+        {
+          "positions": [
+            5,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "16292/25",
+          "height_exponent_bound": "331975/16292"
+        },
+        {
+          "positions": [
+            5,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2649/5",
+          "height_exponent_bound": "66395/2649"
+        },
+        {
+          "positions": [
+            5,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            5,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "18238/25",
+          "height_exponent_bound": "331975/18238"
+        },
+        {
+          "positions": [
+            5,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "3344/5",
+          "height_exponent_bound": "66395/3344"
+        },
+        {
+          "positions": [
+            5,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "10626/25",
+          "height_exponent_bound": "47425/1518"
+        },
+        {
+          "positions": [
+            5,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "22102/25",
+          "height_exponent_bound": "331975/22102"
+        },
+        {
+          "positions": [
+            5,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4724/5",
+          "height_exponent_bound": "66395/4724"
+        },
+        {
+          "positions": [
+            5,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2898/5",
+          "height_exponent_bound": "9485/414"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "15864/25",
+          "height_exponent_bound": "331975/15864"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "6734/25",
+          "height_exponent_bound": "47425/962"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "8252/25",
+          "height_exponent_bound": "331975/8252"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "3562/5",
+          "height_exponent_bound": "66395/3562"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "11727/25",
+          "height_exponent_bound": "331975/11727"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "19742/25",
+          "height_exponent_bound": "331975/19742"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "10612/25",
+          "height_exponent_bound": "47425/1516"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "15177/25",
+          "height_exponent_bound": "331975/15177"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "21688/25",
+          "height_exponent_bound": "331975/21688"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "12558/25",
+          "height_exponent_bound": "47425/1794"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "18652/25",
+          "height_exponent_bound": "331975/18652"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4724/5",
+          "height_exponent_bound": "66395/4724"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2898/5",
+          "height_exponent_bound": "9485/414"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "22102/25",
+          "height_exponent_bound": "331975/22102"
+        },
+        {
+          "positions": [
+            6,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "15864/25",
+          "height_exponent_bound": "331975/15864"
+        },
+        {
+          "positions": [
+            6,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "8252/25",
+          "height_exponent_bound": "331975/8252"
+        },
+        {
+          "positions": [
+            6,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "6734/25",
+          "height_exponent_bound": "47425/962"
+        },
+        {
+          "positions": [
+            6,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "3562/5",
+          "height_exponent_bound": "66395/3562"
+        },
+        {
+          "positions": [
+            6,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "11727/25",
+          "height_exponent_bound": "331975/11727"
+        },
+        {
+          "positions": [
+            6,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1736/5",
+          "height_exponent_bound": "9485/248"
+        },
+        {
+          "positions": [
+            6,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "19742/25",
+          "height_exponent_bound": "331975/19742"
+        },
+        {
+          "positions": [
+            6,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "15177/25",
+          "height_exponent_bound": "331975/15177"
+        },
+        {
+          "positions": [
+            6,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "10612/25",
+          "height_exponent_bound": "47425/1516"
+        },
+        {
+          "positions": [
+            6,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "21688/25",
+          "height_exponent_bound": "331975/21688"
+        },
+        {
+          "positions": [
+            6,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "18652/25",
+          "height_exponent_bound": "331975/18652"
+        },
+        {
+          "positions": [
+            6,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "12558/25",
+          "height_exponent_bound": "47425/1794"
+        },
+        {
+          "positions": [
+            6,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4724/5",
+          "height_exponent_bound": "66395/4724"
+        },
+        {
+          "positions": [
+            6,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "22102/25",
+          "height_exponent_bound": "331975/22102"
+        },
+        {
+          "positions": [
+            6,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2898/5",
+          "height_exponent_bound": "9485/414"
+        }
+      ]
+    },
+    {
+      "source_file": "erdos_699_prime_pair_strips_7_middle.json",
+      "cofactor_exponent": "47/100",
+      "input_cap_power_of_ten": 132427,
+      "position_cases": 270,
+      "used_polynomials": [
+        "poly_005",
+        "poly_041"
+      ],
+      "maximum_height_exponent_bound": "10500/11",
+      "distinct_row_cap_power_of_ten": 956,
+      "collision_row_cap_power_of_ten": 2057,
+      "row_cap_power_of_ten": 2057,
+      "cases": [
+        {
+          "positions": [
+            0,
+            1,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_005",
+          "gain": "11/100",
+          "height_exponent_bound": "10500/11"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1569/20",
+          "height_exponent_bound": "265580/1569"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7189/50",
+          "height_exponent_bound": "94850/1027"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "8673/100",
+          "height_exponent_bound": "27100/177"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "15159/100",
+          "height_exponent_bound": "1327900/15159"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "14089/50",
+          "height_exponent_bound": "663950/14089"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "11263/50",
+          "height_exponent_bound": "94850/1609"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "21039/50",
+          "height_exponent_bound": "663950/21039"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "11677/50",
+          "height_exponent_bound": "663950/11677"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1492/5",
+          "height_exponent_bound": "66395/1492"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "27939/50",
+          "height_exponent_bound": "663950/27939"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7667/25",
+          "height_exponent_bound": "331975/7667"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "18577/50",
+          "height_exponent_bound": "663950/18577"
+        },
+        {
+          "positions": [
+            0,
+            1,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "34839/50",
+          "height_exponent_bound": "13550/711"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_005",
+          "gain": "11/100",
+          "height_exponent_bound": "10500/11"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7189/50",
+          "height_exponent_bound": "94850/1027"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1569/20",
+          "height_exponent_bound": "265580/1569"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "29059/100",
+          "height_exponent_bound": "1327900/29059"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7109/20",
+          "height_exponent_bound": "265580/7109"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "23407/100",
+          "height_exponent_bound": "1327900/23407"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "18213/50",
+          "height_exponent_bound": "663950/18213"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "9889/20",
+          "height_exponent_bound": "265580/9889"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2187/5",
+          "height_exponent_bound": "66395/2187"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "12649/20",
+          "height_exponent_bound": "37940/1807"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "25527/50",
+          "height_exponent_bound": "663950/25527"
+        },
+        {
+          "positions": [
+            0,
+            2,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "15409/20",
+          "height_exponent_bound": "265580/15409"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "8673/100",
+          "height_exponent_bound": "27100/177"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "14089/50",
+          "height_exponent_bound": "663950/14089"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "15159/100",
+          "height_exponent_bound": "1327900/15159"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7109/20",
+          "height_exponent_bound": "265580/7109"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "29059/100",
+          "height_exponent_bound": "1327900/29059"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "25113/50",
+          "height_exponent_bound": "663950/25113"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "56759/100",
+          "height_exponent_bound": "1327900/56759"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2877/5",
+          "height_exponent_bound": "9485/411"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "70559/100",
+          "height_exponent_bound": "1327900/70559"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "45349/100",
+          "height_exponent_bound": "1327900/45349"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "32427/50",
+          "height_exponent_bound": "663950/32427"
+        },
+        {
+          "positions": [
+            0,
+            3,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "84359/100",
+          "height_exponent_bound": "1327900/84359"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "21039/50",
+          "height_exponent_bound": "663950/21039"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "11263/50",
+          "height_exponent_bound": "94850/1609"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "23407/100",
+          "height_exponent_bound": "1327900/23407"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "9889/20",
+          "height_exponent_bound": "265580/9889"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "18213/50",
+          "height_exponent_bound": "663950/18213"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "56759/100",
+          "height_exponent_bound": "1327900/56759"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "25113/50",
+          "height_exponent_bound": "663950/25113"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "22701/50",
+          "height_exponent_bound": "94850/3243"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "3572/5",
+          "height_exponent_bound": "66395/3572"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "38963/50",
+          "height_exponent_bound": "663950/38963"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "13179/25",
+          "height_exponent_bound": "331975/13179"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "39377/50",
+          "height_exponent_bound": "663950/39377"
+        },
+        {
+          "positions": [
+            0,
+            4,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "45863/50",
+          "height_exponent_bound": "663950/45863"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "11677/50",
+          "height_exponent_bound": "663950/11677"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "27939/50",
+          "height_exponent_bound": "663950/27939"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1492/5",
+          "height_exponent_bound": "66395/1492"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "12649/20",
+          "height_exponent_bound": "37940/1807"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2187/5",
+          "height_exponent_bound": "66395/2187"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "70559/100",
+          "height_exponent_bound": "1327900/70559"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2877/5",
+          "height_exponent_bound": "9485/411"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "22701/50",
+          "height_exponent_bound": "94850/3243"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "38963/50",
+          "height_exponent_bound": "663950/38963"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "3572/5",
+          "height_exponent_bound": "66395/3572"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "6003/10",
+          "height_exponent_bound": "132790/6003"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "46277/50",
+          "height_exponent_bound": "94850/6611"
+        },
+        {
+          "positions": [
+            0,
+            5,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4952/5",
+          "height_exponent_bound": "66395/4952"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7667/25",
+          "height_exponent_bound": "331975/7667"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "34839/50",
+          "height_exponent_bound": "13550/711"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "18577/50",
+          "height_exponent_bound": "663950/18577"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "15409/20",
+          "height_exponent_bound": "265580/15409"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "25527/50",
+          "height_exponent_bound": "663950/25527"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "45349/100",
+          "height_exponent_bound": "1327900/45349"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "84359/100",
+          "height_exponent_bound": "1327900/84359"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "32427/50",
+          "height_exponent_bound": "663950/32427"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "13179/25",
+          "height_exponent_bound": "331975/13179"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "45863/50",
+          "height_exponent_bound": "663950/45863"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "39377/50",
+          "height_exponent_bound": "663950/39377"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "6003/10",
+          "height_exponent_bound": "132790/6003"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4952/5",
+          "height_exponent_bound": "66395/4952"
+        },
+        {
+          "positions": [
+            0,
+            6,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "46277/50",
+          "height_exponent_bound": "94850/6611"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1569/20",
+          "height_exponent_bound": "265580/1569"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_005",
+          "gain": "11/100",
+          "height_exponent_bound": "10500/11"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7189/50",
+          "height_exponent_bound": "94850/1027"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "15159/100",
+          "height_exponent_bound": "1327900/15159"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "8673/100",
+          "height_exponent_bound": "27100/177"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "14089/50",
+          "height_exponent_bound": "663950/14089"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "11263/50",
+          "height_exponent_bound": "94850/1609"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "21039/50",
+          "height_exponent_bound": "663950/21039"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1492/5",
+          "height_exponent_bound": "66395/1492"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "11677/50",
+          "height_exponent_bound": "663950/11677"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "27939/50",
+          "height_exponent_bound": "663950/27939"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "18577/50",
+          "height_exponent_bound": "663950/18577"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7667/25",
+          "height_exponent_bound": "331975/7667"
+        },
+        {
+          "positions": [
+            1,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "34839/50",
+          "height_exponent_bound": "13550/711"
+        },
+        {
+          "positions": [
+            1,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1569/20",
+          "height_exponent_bound": "265580/1569"
+        },
+        {
+          "positions": [
+            1,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7189/50",
+          "height_exponent_bound": "94850/1027"
+        },
+        {
+          "positions": [
+            1,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_005",
+          "gain": "11/100",
+          "height_exponent_bound": "10500/11"
+        },
+        {
+          "positions": [
+            1,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "15159/100",
+          "height_exponent_bound": "1327900/15159"
+        },
+        {
+          "positions": [
+            1,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "14089/50",
+          "height_exponent_bound": "663950/14089"
+        },
+        {
+          "positions": [
+            1,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "8673/100",
+          "height_exponent_bound": "27100/177"
+        },
+        {
+          "positions": [
+            1,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "11263/50",
+          "height_exponent_bound": "94850/1609"
+        },
+        {
+          "positions": [
+            1,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "21039/50",
+          "height_exponent_bound": "663950/21039"
+        },
+        {
+          "positions": [
+            1,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            1,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "1492/5",
+          "height_exponent_bound": "66395/1492"
+        },
+        {
+          "positions": [
+            1,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "27939/50",
+          "height_exponent_bound": "663950/27939"
+        },
+        {
+          "positions": [
+            1,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "11677/50",
+          "height_exponent_bound": "663950/11677"
+        },
+        {
+          "positions": [
+            1,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "18577/50",
+          "height_exponent_bound": "663950/18577"
+        },
+        {
+          "positions": [
+            1,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "34839/50",
+          "height_exponent_bound": "13550/711"
+        },
+        {
+          "positions": [
+            1,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7667/25",
+          "height_exponent_bound": "331975/7667"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7189/50",
+          "height_exponent_bound": "94850/1027"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_005",
+          "gain": "11/100",
+          "height_exponent_bound": "10500/11"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1569/20",
+          "height_exponent_bound": "265580/1569"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "29059/100",
+          "height_exponent_bound": "1327900/29059"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7109/20",
+          "height_exponent_bound": "265580/7109"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "18213/50",
+          "height_exponent_bound": "663950/18213"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "23407/100",
+          "height_exponent_bound": "1327900/23407"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "9889/20",
+          "height_exponent_bound": "265580/9889"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2187/5",
+          "height_exponent_bound": "66395/2187"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "12649/20",
+          "height_exponent_bound": "37940/1807"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "25527/50",
+          "height_exponent_bound": "663950/25527"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            2,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "15409/20",
+          "height_exponent_bound": "265580/15409"
+        },
+        {
+          "positions": [
+            2,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7189/50",
+          "height_exponent_bound": "94850/1027"
+        },
+        {
+          "positions": [
+            2,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1569/20",
+          "height_exponent_bound": "265580/1569"
+        },
+        {
+          "positions": [
+            2,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_005",
+          "gain": "11/100",
+          "height_exponent_bound": "10500/11"
+        },
+        {
+          "positions": [
+            2,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "29059/100",
+          "height_exponent_bound": "1327900/29059"
+        },
+        {
+          "positions": [
+            2,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7109/20",
+          "height_exponent_bound": "265580/7109"
+        },
+        {
+          "positions": [
+            2,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            2,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "18213/50",
+          "height_exponent_bound": "663950/18213"
+        },
+        {
+          "positions": [
+            2,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "9889/20",
+          "height_exponent_bound": "265580/9889"
+        },
+        {
+          "positions": [
+            2,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "23407/100",
+          "height_exponent_bound": "1327900/23407"
+        },
+        {
+          "positions": [
+            2,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2187/5",
+          "height_exponent_bound": "66395/2187"
+        },
+        {
+          "positions": [
+            2,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "12649/20",
+          "height_exponent_bound": "37940/1807"
+        },
+        {
+          "positions": [
+            2,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            2,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "25527/50",
+          "height_exponent_bound": "663950/25527"
+        },
+        {
+          "positions": [
+            2,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "15409/20",
+          "height_exponent_bound": "265580/15409"
+        },
+        {
+          "positions": [
+            2,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "14089/50",
+          "height_exponent_bound": "663950/14089"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "8673/100",
+          "height_exponent_bound": "27100/177"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "15159/100",
+          "height_exponent_bound": "1327900/15159"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7109/20",
+          "height_exponent_bound": "265580/7109"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "29059/100",
+          "height_exponent_bound": "1327900/29059"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "25113/50",
+          "height_exponent_bound": "663950/25113"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "56759/100",
+          "height_exponent_bound": "1327900/56759"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2877/5",
+          "height_exponent_bound": "9485/411"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "70559/100",
+          "height_exponent_bound": "1327900/70559"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "32427/50",
+          "height_exponent_bound": "663950/32427"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "45349/100",
+          "height_exponent_bound": "1327900/45349"
+        },
+        {
+          "positions": [
+            3,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "84359/100",
+          "height_exponent_bound": "1327900/84359"
+        },
+        {
+          "positions": [
+            3,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "14089/50",
+          "height_exponent_bound": "663950/14089"
+        },
+        {
+          "positions": [
+            3,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "15159/100",
+          "height_exponent_bound": "1327900/15159"
+        },
+        {
+          "positions": [
+            3,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "8673/100",
+          "height_exponent_bound": "27100/177"
+        },
+        {
+          "positions": [
+            3,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "7109/20",
+          "height_exponent_bound": "265580/7109"
+        },
+        {
+          "positions": [
+            3,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "29059/100",
+          "height_exponent_bound": "1327900/29059"
+        },
+        {
+          "positions": [
+            3,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            3,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "25113/50",
+          "height_exponent_bound": "663950/25113"
+        },
+        {
+          "positions": [
+            3,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "56759/100",
+          "height_exponent_bound": "1327900/56759"
+        },
+        {
+          "positions": [
+            3,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            3,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "2877/5",
+          "height_exponent_bound": "9485/411"
+        },
+        {
+          "positions": [
+            3,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "70559/100",
+          "height_exponent_bound": "1327900/70559"
+        },
+        {
+          "positions": [
+            3,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            3,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "32427/50",
+          "height_exponent_bound": "663950/32427"
+        },
+        {
+          "positions": [
+            3,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "84359/100",
+          "height_exponent_bound": "1327900/84359"
+        },
+        {
+          "positions": [
+            3,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "45349/100",
+          "height_exponent_bound": "1327900/45349"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "21039/50",
+          "height_exponent_bound": "663950/21039"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "11263/50",
+          "height_exponent_bound": "94850/1609"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "9889/20",
+          "height_exponent_bound": "265580/9889"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "23407/100",
+          "height_exponent_bound": "1327900/23407"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "18213/50",
+          "height_exponent_bound": "663950/18213"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "56759/100",
+          "height_exponent_bound": "1327900/56759"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "25113/50",
+          "height_exponent_bound": "663950/25113"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "3572/5",
+          "height_exponent_bound": "66395/3572"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "22701/50",
+          "height_exponent_bound": "94850/3243"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "38963/50",
+          "height_exponent_bound": "663950/38963"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "39377/50",
+          "height_exponent_bound": "663950/39377"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "13179/25",
+          "height_exponent_bound": "331975/13179"
+        },
+        {
+          "positions": [
+            4,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "45863/50",
+          "height_exponent_bound": "663950/45863"
+        },
+        {
+          "positions": [
+            4,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "21039/50",
+          "height_exponent_bound": "663950/21039"
+        },
+        {
+          "positions": [
+            4,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "11263/50",
+          "height_exponent_bound": "94850/1609"
+        },
+        {
+          "positions": [
+            4,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "802/5",
+          "height_exponent_bound": "66395/802"
+        },
+        {
+          "positions": [
+            4,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "9889/20",
+          "height_exponent_bound": "265580/9889"
+        },
+        {
+          "positions": [
+            4,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "18213/50",
+          "height_exponent_bound": "663950/18213"
+        },
+        {
+          "positions": [
+            4,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "23407/100",
+          "height_exponent_bound": "1327900/23407"
+        },
+        {
+          "positions": [
+            4,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "56759/100",
+          "height_exponent_bound": "1327900/56759"
+        },
+        {
+          "positions": [
+            4,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "25113/50",
+          "height_exponent_bound": "663950/25113"
+        },
+        {
+          "positions": [
+            4,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            4,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "3572/5",
+          "height_exponent_bound": "66395/3572"
+        },
+        {
+          "positions": [
+            4,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "38963/50",
+          "height_exponent_bound": "663950/38963"
+        },
+        {
+          "positions": [
+            4,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "22701/50",
+          "height_exponent_bound": "94850/3243"
+        },
+        {
+          "positions": [
+            4,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "39377/50",
+          "height_exponent_bound": "663950/39377"
+        },
+        {
+          "positions": [
+            4,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "45863/50",
+          "height_exponent_bound": "663950/45863"
+        },
+        {
+          "positions": [
+            4,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "13179/25",
+          "height_exponent_bound": "331975/13179"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "27939/50",
+          "height_exponent_bound": "663950/27939"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "11677/50",
+          "height_exponent_bound": "663950/11677"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "1492/5",
+          "height_exponent_bound": "66395/1492"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "12649/20",
+          "height_exponent_bound": "37940/1807"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2187/5",
+          "height_exponent_bound": "66395/2187"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "70559/100",
+          "height_exponent_bound": "1327900/70559"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "2877/5",
+          "height_exponent_bound": "9485/411"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "38963/50",
+          "height_exponent_bound": "663950/38963"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "22701/50",
+          "height_exponent_bound": "94850/3243"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "3572/5",
+          "height_exponent_bound": "66395/3572"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "46277/50",
+          "height_exponent_bound": "94850/6611"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "6003/10",
+          "height_exponent_bound": "132790/6003"
+        },
+        {
+          "positions": [
+            5,
+            0,
+            6
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "4952/5",
+          "height_exponent_bound": "66395/4952"
+        },
+        {
+          "positions": [
+            5,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "27939/50",
+          "height_exponent_bound": "663950/27939"
+        },
+        {
+          "positions": [
+            5,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "1492/5",
+          "height_exponent_bound": "66395/1492"
+        },
+        {
+          "positions": [
+            5,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "11677/50",
+          "height_exponent_bound": "663950/11677"
+        },
+        {
+          "positions": [
+            5,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "12649/20",
+          "height_exponent_bound": "37940/1807"
+        },
+        {
+          "positions": [
+            5,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2187/5",
+          "height_exponent_bound": "66395/2187"
+        },
+        {
+          "positions": [
+            5,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "30721/100",
+          "height_exponent_bound": "1327900/30721"
+        },
+        {
+          "positions": [
+            5,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "70559/100",
+          "height_exponent_bound": "1327900/70559"
+        },
+        {
+          "positions": [
+            5,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "2877/5",
+          "height_exponent_bound": "9485/411"
+        },
+        {
+          "positions": [
+            5,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            5,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "38963/50",
+          "height_exponent_bound": "663950/38963"
+        },
+        {
+          "positions": [
+            5,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "3572/5",
+          "height_exponent_bound": "66395/3572"
+        },
+        {
+          "positions": [
+            5,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "22701/50",
+          "height_exponent_bound": "94850/3243"
+        },
+        {
+          "positions": [
+            5,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "46277/50",
+          "height_exponent_bound": "94850/6611"
+        },
+        {
+          "positions": [
+            5,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "4952/5",
+          "height_exponent_bound": "66395/4952"
+        },
+        {
+          "positions": [
+            5,
+            6,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "6003/10",
+          "height_exponent_bound": "132790/6003"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "34839/50",
+          "height_exponent_bound": "13550/711"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7667/25",
+          "height_exponent_bound": "331975/7667"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            1
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "18577/50",
+          "height_exponent_bound": "663950/18577"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "15409/20",
+          "height_exponent_bound": "265580/15409"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            2
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "25527/50",
+          "height_exponent_bound": "663950/25527"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "84359/100",
+          "height_exponent_bound": "1327900/84359"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "45349/100",
+          "height_exponent_bound": "1327900/45349"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            3
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "32427/50",
+          "height_exponent_bound": "663950/32427"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "45863/50",
+          "height_exponent_bound": "663950/45863"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "13179/25",
+          "height_exponent_bound": "331975/13179"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            4
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "39377/50",
+          "height_exponent_bound": "663950/39377"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4952/5",
+          "height_exponent_bound": "66395/4952"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "6003/10",
+          "height_exponent_bound": "132790/6003"
+        },
+        {
+          "positions": [
+            6,
+            0,
+            5
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "46277/50",
+          "height_exponent_bound": "94850/6611"
+        },
+        {
+          "positions": [
+            6,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "34839/50",
+          "height_exponent_bound": "13550/711"
+        },
+        {
+          "positions": [
+            6,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "18577/50",
+          "height_exponent_bound": "663950/18577"
+        },
+        {
+          "positions": [
+            6,
+            1,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7667/25",
+          "height_exponent_bound": "331975/7667"
+        },
+        {
+          "positions": [
+            6,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "15409/20",
+          "height_exponent_bound": "265580/15409"
+        },
+        {
+          "positions": [
+            6,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "25527/50",
+          "height_exponent_bound": "663950/25527"
+        },
+        {
+          "positions": [
+            6,
+            2,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "7607/20",
+          "height_exponent_bound": "265580/7607"
+        },
+        {
+          "positions": [
+            6,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "84359/100",
+          "height_exponent_bound": "1327900/84359"
+        },
+        {
+          "positions": [
+            6,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "32427/50",
+          "height_exponent_bound": "663950/32427"
+        },
+        {
+          "positions": [
+            6,
+            3,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "45349/100",
+          "height_exponent_bound": "1327900/45349"
+        },
+        {
+          "positions": [
+            6,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "45863/50",
+          "height_exponent_bound": "663950/45863"
+        },
+        {
+          "positions": [
+            6,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "39377/50",
+          "height_exponent_bound": "663950/39377"
+        },
+        {
+          "positions": [
+            6,
+            4,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "13179/25",
+          "height_exponent_bound": "331975/13179"
+        },
+        {
+          "positions": [
+            6,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 0,
+          "polynomial": "poly_041",
+          "gain": "4952/5",
+          "height_exponent_bound": "66395/4952"
+        },
+        {
+          "positions": [
+            6,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 1,
+          "polynomial": "poly_041",
+          "gain": "46277/50",
+          "height_exponent_bound": "94850/6611"
+        },
+        {
+          "positions": [
+            6,
+            5,
+            0
+          ],
+          "zero_cofactor_coordinate": 2,
+          "polynomial": "poly_041",
+          "gain": "6003/10",
+          "height_exponent_bound": "132790/6003"
+        }
+      ]
+    }
+  ],
+  "interval_file": "erdos_699_index_7_finite_intervals.json",
+  "interval_cap_power_of_ten": 40,
+  "certified_intervals": 18000,
+  "row_congruence_intervals": 145,
+  "exact_singleton_rows": [
+    26250,
+    13128,
+    13125,
+    8750,
+    5376,
+    4376,
+    3078,
+    2052,
+    1056,
+    1026,
+    756,
+    630,
+    625,
+    486,
+    450,
+    405,
+    325,
+    300,
+    261,
+    256,
+    225,
+    180,
+    162,
+    150,
+    128,
+    126,
+    100,
+    96
+  ],
+  "exact_columns_checked": 41740,
+  "new_ranks_recomputed": false,
+  "conclusion": "No admissible bad triples at index7 have n<=10^100000001. The infinite tail is a separate theorem."
+}

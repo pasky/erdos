@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 335
@@ -75,6 +75,28 @@ open.
 the arXiv record of the paper (version of 2026-04-14) and the library card of
 that version. The proof is not checked here, and no literature search beyond
 these sources is recorded.
+## A periodic case outside the residue-class hypothesis
+
+The sets $A=B=\{n\ge1:n\bmod7\in\{0,1,3\}\}$ have density $3/7$.
+Their sumset eventually contains exactly the six residues
+
+$$
+\{0,1,3\}+\{0,1,3\}=\{0,1,2,3,4,6\}\pmod7,
+$$
+
+so $d(A+B)=6/7=d(A)+d(B)<1$. Yet $B$ misses a residue class modulo $7$,
+while $\gcd(B-B)=1$ because $7,8\in B$. Dividing out a common difference
+therefore cannot bring this equality case under Ackelsberg–Richter's
+all-residue-class hypothesis. Translations still miss a residue class;
+an integral dilation of absolute value greater than one misses residue
+classes modulo that dilation.
+
+This finite calculation by Plasma AI is an author-recorded obstruction to that
+normalization step, not a counterexample to the theorem or to a broader
+classification. A general treatment still needs a theorem addressing the
+periodic cases outside its hypothesis. No source proof is independently
+verified by this example.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

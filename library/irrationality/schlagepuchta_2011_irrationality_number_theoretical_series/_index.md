@@ -7,7 +7,7 @@ desc: |
   account, had no proof in print.
 license: reserved
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T14:33:49Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # irrationality/schlagepuchta_2011_irrationality_number_theoretical_series
@@ -116,7 +116,7 @@ cases $k\ge2$ of the statement that the remark on erdosproblems.com/251
 attributes to Erdős 1958 ($\sum p_n^k/n!$ irrational for every $k\ge1$),
 whose case $k=1$ Erdős proved; it is not progress on the problem's own
 series $\sum p_n/2^n$, and Theorem 2 is related to that series by analogy
-only. Theorem 1 and Lemma 4 bear on no catalog problem directly.
+only. Theorem 1 and Lemma 4 bear on no erdosproblems.com problem directly.
 
 No file of this source is held: no license on record permits its redistribution,
 and the card cites the edition it names above.

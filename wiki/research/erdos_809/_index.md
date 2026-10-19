@@ -3,7 +3,7 @@ name: research/erdos_809
 title: Proof of the rainbow odd-cycle threshold
 desc: The seven-cycle argument and Lean formalization of the full k≥3 threshold, recorded as claim L17, which stands at tier 2 on its independent statement-fidelity review, grade and non-author clean gate.
 created: 2026-09-24T00:00:00Z
-updated: 2026-10-13T02:31:05Z
+updated: 2026-10-19T06:41:58Z
 ---
 
 # Proof of the rainbow odd-cycle threshold
@@ -14,8 +14,8 @@ updated: 2026-10-13T02:31:05Z
 
 [[research/erdos_809/evidence/_index|evidence/]]: Retained publication files of the Erdős 809 formalization: the Mathlib-only
 challenge statement, the solution module, the comparator configuration, the
-registry entry (PALOMAR-2026-09-30-000004) and the write-up, kept as assets
-beside the research folder.
+project's registry metadata and the write-up, kept as assets beside the
+research folder.
 
 [[research/erdos_809/formalization|formalization]]: The Lean theorem covers every k≥3 by combining the seven-cycle proof with the Bucić–Chen–Ma k≥4 theorem.
 
@@ -39,15 +39,17 @@ the second-cycle review and grade of 2026-10-02 and the non-author clean gate
 of 2026-10-13, as the claim page states) and the problem page records the
 question as proved.
 
-Priority. Asad Shahab's independent proof claim, a proof of the seven-cycle case
-with a preprint (arXiv:2609.38286, 29 September 2026) and a Lean development
-whose headline theorem covers every odd cycle $C_{2k+1}$ with $k\ge3$, was filed
-on the erdosproblems.com proof-claims tab first, as proof claim 358, before the
-project's claim 367 on the same day, 27 September 2026; this corpus built that
-development at its pinned commit and audited its statement on 2026-10-08. The
-seven-cycle argument here is the project's own in authorship and was not the
-first posted, as [[problems/ramsey_theory/E0809/_index|the problem page]]
-records from the erdosproblems.com page as it stood on 2026-10-05.
+Priority. The seven-cycle argument here is the project's own, and it was
+published first: the project's Lean development was public on GitHub from 24
+September 2026. Asad Shahab's independent proof claim, a proof of the
+seven-cycle case with a preprint (arXiv:2609.38286, 29 September 2026) and a
+Lean development whose headline theorem covers every odd cycle $C_{2k+1}$ with
+$k\ge3$, was published on GitHub on 27 September 2026 and filed on the
+erdosproblems.com proof-claims tab first, as proof claim 358, before the
+project's claim 367 the same day; this corpus built that development at its
+pinned commit and audited its statement on 2026-10-08.
+[[problems/ramsey_theory/E0809/_index|The problem page]] records both dates and
+their sources.
 
 Read the [six C7 proof notes](proofs/_index.md) in their stated order, then
 the [formalization account](formalization.md) for the Lean assembly. The

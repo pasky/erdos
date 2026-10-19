@@ -5,7 +5,7 @@ desc: Ruzsa's lifting reduction and why its union bound loses a logarithm.
 tags: [construction, reduction, unresolved]
 sources: []
 created: 2026-09-23T02:24:17Z
-updated: 2026-09-24T19:15:35Z
+updated: 2026-10-16T06:44:50Z
 ---
 
 
@@ -49,6 +49,12 @@ $q$ in $(-N,N)$, so only $O(N/q)$ additions are possible. This proves
 Ruzsa's $O((N\log N)^{1/3})$ bound.
 
 At $p\asymp N^{1/3}$, the displayed failure estimate is only a constant.
-Removing the logarithm is not justified by reusing the same union bound. Nor is
-there a proved theorem saying that the residual candidates admit an
-$O(p)$-size maximal completion.
+Removing the logarithm is not justified by reusing the same union bound. The
+[uniform-coverage page](../uniform_coverage.md) proves that the completion has
+size $O(p)$ whenever only $O(p)$ targets outside the residue classes of $B$
+remain unblocked. The bounded-dependence proof in
+[[theory/additive_bases/L125_random_singer_lift_residual/_index|L125, tier 0]]
+shows that uniform independent lifts leave a positive proportion of
+$[1,N]$ unblocked with probability tending to one at this scale. It does
+not exclude exceptional structured lifts or a repair of $O(p)$ elements;
+neither is constructed here.

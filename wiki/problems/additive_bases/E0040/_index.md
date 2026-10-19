@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:24Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 40
@@ -37,13 +37,19 @@ https://www.erdosproblems.com/40.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/40.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/infinite_density|infinite sidon
+density and representation conventions]] account records the following scope.
+Conditional on the inspected Pliego Theorem 1.1, every polynomial G(N)=N^delta
+with fixed delta>0 fails: choose a fixed integer r>=2 with 1/(4r+2)<=delta, use
+A(N)>>N^(r/(2r+1)), and bound ordered convolution by 2r.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

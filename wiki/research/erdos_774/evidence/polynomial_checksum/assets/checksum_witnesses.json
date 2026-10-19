@@ -1,0 +1,475 @@
+{
+  "role": "Exact witnesses returned by the bounded checksum discovery search and retained as inputs to main.py; each is a signed set of eight columns of one color whose supports sum to zero.",
+  "characteristic": 2,
+  "checksum": "L(t^i) = Catalan(i) mod 2; a slope-r coset with representative (u,v) has color L(v - r u); a vertical coset has color L(u)",
+  "witnesses": [
+    {
+      "m": 1,
+      "color": 0,
+      "row_count": 32,
+      "total_columns": 64,
+      "class_columns": 32,
+      "columns": [
+        {
+          "r": null,
+          "j": 0,
+          "rep": [
+            3,
+            4
+          ],
+          "support": [
+            19,
+            23
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": null,
+          "j": 0,
+          "rep": [
+            3,
+            6
+          ],
+          "support": [
+            27,
+            31
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 0,
+          "j": 0,
+          "rep": [
+            0,
+            3
+          ],
+          "support": [
+            12,
+            13
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 0,
+          "j": 0,
+          "rep": [
+            2,
+            4
+          ],
+          "support": [
+            18,
+            19
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 1,
+          "j": 0,
+          "rep": [
+            1,
+            2
+          ],
+          "support": [
+            9,
+            12
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 1,
+          "j": 0,
+          "rep": [
+            2,
+            6
+          ],
+          "support": [
+            26,
+            31
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 2,
+          "j": 1,
+          "rep": [
+            0,
+            0
+          ],
+          "support": [
+            0,
+            9,
+            18,
+            27
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 3,
+          "j": 1,
+          "rep": [
+            0,
+            0
+          ],
+          "support": [
+            0,
+            13,
+            23,
+            26
+          ],
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "m": 1,
+      "color": 1,
+      "row_count": 32,
+      "total_columns": 64,
+      "class_columns": 32,
+      "columns": [
+        {
+          "r": null,
+          "j": 0,
+          "rep": [
+            1,
+            4
+          ],
+          "support": [
+            17,
+            21
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": null,
+          "j": 0,
+          "rep": [
+            1,
+            6
+          ],
+          "support": [
+            25,
+            29
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 0,
+          "j": 0,
+          "rep": [
+            2,
+            2
+          ],
+          "support": [
+            10,
+            11
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 0,
+          "j": 0,
+          "rep": [
+            0,
+            5
+          ],
+          "support": [
+            20,
+            21
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 1,
+          "j": 0,
+          "rep": [
+            3,
+            2
+          ],
+          "support": [
+            11,
+            14
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 1,
+          "j": 0,
+          "rep": [
+            0,
+            6
+          ],
+          "support": [
+            24,
+            29
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 2,
+          "j": 1,
+          "rep": [
+            3,
+            0
+          ],
+          "support": [
+            3,
+            10,
+            17,
+            24
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 3,
+          "j": 1,
+          "rep": [
+            3,
+            0
+          ],
+          "support": [
+            3,
+            14,
+            20,
+            25
+          ],
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "m": 2,
+      "color": 0,
+      "row_count": 256,
+      "total_columns": 640,
+      "class_columns": 320,
+      "columns": [
+        {
+          "r": null,
+          "j": 0,
+          "rep": [
+            4,
+            4
+          ],
+          "support": [
+            36,
+            44
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": null,
+          "j": 0,
+          "rep": [
+            4,
+            6
+          ],
+          "support": [
+            52,
+            60
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 0,
+          "j": 0,
+          "rep": [
+            6,
+            0
+          ],
+          "support": [
+            6,
+            7
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 0,
+          "j": 0,
+          "rep": [
+            4,
+            7
+          ],
+          "support": [
+            60,
+            61
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 1,
+          "j": 0,
+          "rep": [
+            7,
+            0
+          ],
+          "support": [
+            7,
+            14
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 1,
+          "j": 0,
+          "rep": [
+            4,
+            4
+          ],
+          "support": [
+            36,
+            45
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 2,
+          "j": 1,
+          "rep": [
+            6,
+            1
+          ],
+          "support": [
+            14,
+            31,
+            44,
+            61
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 3,
+          "j": 1,
+          "rep": [
+            6,
+            0
+          ],
+          "support": [
+            6,
+            31,
+            45,
+            52
+          ],
+          "coefficient": -1
+        }
+      ]
+    },
+    {
+      "m": 2,
+      "color": 1,
+      "row_count": 256,
+      "total_columns": 640,
+      "class_columns": 320,
+      "columns": [
+        {
+          "r": null,
+          "j": 0,
+          "rep": [
+            1,
+            28
+          ],
+          "support": [
+            225,
+            233
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": null,
+          "j": 0,
+          "rep": [
+            1,
+            30
+          ],
+          "support": [
+            241,
+            249
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 0,
+          "j": 0,
+          "rep": [
+            2,
+            27
+          ],
+          "support": [
+            218,
+            219
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 0,
+          "j": 0,
+          "rep": [
+            0,
+            28
+          ],
+          "support": [
+            224,
+            225
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 1,
+          "j": 0,
+          "rep": [
+            2,
+            26
+          ],
+          "support": [
+            210,
+            219
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 1,
+          "j": 0,
+          "rep": [
+            1,
+            30
+          ],
+          "support": [
+            241,
+            248
+          ],
+          "coefficient": 1
+        },
+        {
+          "r": 2,
+          "j": 1,
+          "rep": [
+            3,
+            25
+          ],
+          "support": [
+            203,
+            218,
+            233,
+            248
+          ],
+          "coefficient": -1
+        },
+        {
+          "r": 3,
+          "j": 1,
+          "rep": [
+            3,
+            25
+          ],
+          "support": [
+            203,
+            210,
+            224,
+            249
+          ],
+          "coefficient": 1
+        }
+      ]
+    }
+  ]
+}

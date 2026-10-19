@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 706
@@ -35,13 +35,14 @@ https://www.erdosproblems.com/706.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
-
-## Known Results
-
-Not yet compiled.
+A direct square-grid product coloring gives $r+1\le L(r)\le16^r$;
+the construction and the collinear clique lower bound are in the
+[[research/methods/chromatic_threshold_interfaces|distance-coloring analysis]].
+The upper bound proves finiteness for fixed $r$ but remains exponential,
+so it does not answer the polynomial question. This elementary author
+argument is not a claim of a best bound or a broader literature survey.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

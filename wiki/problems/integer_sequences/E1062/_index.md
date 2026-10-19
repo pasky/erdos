@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:13:56Z
 ---
 
 # Problem 1062
@@ -36,7 +36,7 @@ The standing derived here rests on the claim pages. A Lean proof submitted to
 the bounty site Conjectures.io under the username JenW1N proves that
 $\lim f(n)/n$ exists and is irrational
 ([[problems/integer_sequences/E1062/claims/2026_09_21_jenw1n|claim page]],
-accepted). The erdosproblems.com Lean kernel verified it on 21 September 2026.
+accepted). The Conjectures.io Lean kernel verified it on 21 September 2026.
 It was approved in review on 22 September 2026 and certified on 23 September
 2026, and its bounty was paid. That certification is reported, not counted;
 acceptance rests on this corpus's rebuild and kernel replay of the file on the
@@ -209,10 +209,10 @@ Conjectures.io's statement; the file contains no `sorry`, `axiom`,
 `native_decide`, `unsafe`, `implemented_by`, `opaque` or `set_option` and no
 import, one `theorem` (the target; every other proposition is a `def`), and
 3,609 `decide +kernel` lines on finite certificates, all inside the
-combinatorial part; no catalog or Mathlib name is redefined in the file; the
-chain from the target back to the constructions is complete at the level of
-every statement; the exact formula was confirmed by brute force for every
-$n\le42$, the explicit series was summed in exact arithmetic to
+combinatorial part; no formal-conjectures or Mathlib name is redefined in the
+file; the chain from the target back to the constructions is complete at the
+level of every statement; the exact formula was confirmed by brute force for
+every $n\le42$, the explicit series was summed in exact arithmetic to
 $0.672965651199489$, the closed form's ratio $f(n)/n$ was evaluated to nine
 digits at $n=10^9$ and agrees with the series, and the final exponent
 bookkeeping and the irrationality of $\log4/\log3$ were re-derived by hand; the
@@ -226,12 +226,13 @@ hypothesis, notes written before the final component, which proves that theorem
 and closes the target without hypotheses. The replay settles two further limits
 of the reading: the statement file was compared against the formal-conjectures
 default branch, while the replay reproduced the pinned commit, which
-Conjectures.io builds from a public catalog commit and an audit patch, and found
-the target's statement identical to it (the record's solution page prints its
-proof target under a different task id and catalog revision than the record's);
-and the shared definitions of the target macro and the formal-conjectures answer
-marker, which the reading knew only through the proof's unfolding of them, are
-among the definitions the replay found identical to the task's.
+Conjectures.io builds from a public formal-conjectures commit and an audit
+patch, and found the target's statement identical to it (the record's solution
+page prints its proof target under a different task id and formal-conjectures
+revision than the record's); and the shared definitions of the target macro and
+the formal-conjectures answer marker, which the reading knew only through the
+proof's unfolding of them, are among the definitions the replay found identical
+to the task's.
 
 ## Progress
 

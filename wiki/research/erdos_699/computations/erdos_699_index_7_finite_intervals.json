@@ -1,0 +1,67 @@
+{
+  "i": 7,
+  "supplied_tail_power_of_ten": 2057,
+  "inclusive_interval_cap_power_of_ten": 40,
+  "terminal_prime_lower_row": 89,
+  "coarse_cofactor_saving_scaled": 10800,
+  "visited_intervals": 36055,
+  "certified_intervals": 18000,
+  "intervals_requiring_prime_pairs": 11289,
+  "intervals_excluded_by_row_congruences": 145,
+  "total_partition_leaves": 18028,
+  "minimum_certified_log_margin": "0.0000080839392542773432861891473378816042358444945960177155",
+  "interval_partition_sha256": "a679fb02eab7f26f57a11f98e4421532ed3bae02887e15bdf0beb584060cb80e",
+  "active_cofactor_graphs_used": 47,
+  "finite_pair_constraints": 6,
+  "exceptional_row_windows": 210,
+  "exact_singleton_rows": [
+    26250,
+    13128,
+    13125,
+    8750,
+    5376,
+    4376,
+    3078,
+    2052,
+    1056,
+    1026,
+    756,
+    630,
+    625,
+    486,
+    450,
+    405,
+    325,
+    300,
+    261,
+    256,
+    225,
+    180,
+    162,
+    150,
+    128,
+    126,
+    100,
+    96
+  ],
+  "exact_columns_checked": 41740,
+  "source_certificates": [
+    {
+      "file": "erdos_699_prime_pair_strips_7_middle.json"
+    },
+    {
+      "file": "erdos_699_prime_pair_strips_20.json"
+    }
+  ],
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "triple_sources": [
+    {
+      "file": "erdos_699_triple_prime_power_strips_7_061.json"
+    },
+    {
+      "file": "erdos_699_triple_prime_power_strips_066_3000.json"
+    }
+  ],
+  "coarse_triple_exponent_scaled": 6100,
+  "conclusion": "No bad index-seven rows remain through the supplied finite cap."
+}

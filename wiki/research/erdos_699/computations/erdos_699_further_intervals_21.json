@@ -1,0 +1,64 @@
+{
+  "scope": "Interval certificate, using a separate finite prime-power certificate; no row enumeration.",
+  "finite_pair_certificate_file": "erdos_699_finite_prime_pairs_21.json",
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "maximum_nodes_per_index": 2000000,
+  "records": [
+    {
+      "i": 21,
+      "terminal_prime_lower_row": 1129,
+      "inclusive_cap_power_of_ten": 59,
+      "visited_intervals": 689781,
+      "certified_intervals": 344891,
+      "intervals_requiring_local_prime_pairs": 226383,
+      "minimal_prime_pair_vectors": 19,
+      "minimum_certified_log_margin": "0.000020358875373093660984748939938613225984778296365284880",
+      "interval_partition_sha256": "11a19838d7bb5fefb5ef2047e060a231054322d132bc7377a765d1be8c71a8ff",
+      "conclusion": "no bad triples",
+      "finite_prime_pairs": [
+        [
+          17,
+          19
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          11,
+          13
+        ]
+      ],
+      "original_numerical_cap_power_of_ten": 1732,
+      "cofactor_saving_scaled": 15922
+    }
+  ]
+}

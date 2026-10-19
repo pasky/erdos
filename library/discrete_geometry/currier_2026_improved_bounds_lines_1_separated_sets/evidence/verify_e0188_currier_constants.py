@@ -1,3 +1,4 @@
+# evidence: entry
 """Check the rational bounds in Currier et al.'s planar E0188 argument.
 
 Checked clauses: with p = 1/19 and r = p (1 - p)^18, the exponential

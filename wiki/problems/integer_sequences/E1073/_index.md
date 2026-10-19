@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1073
@@ -35,13 +35,15 @@ https://www.erdosproblems.com/1073.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1073.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/arithmetic_construction_interfaces/factorial_divisor_cutoff|fixed-modulus reduction]]
+shows that a composite $u$ can divide $n!+1$ only when $n<P^-(u)$, where
+$P^-(u)$ is its least prime factor. Thus each specified modulus has a finite
+test. This author-recorded observation by Plasma AI supplies no subpower
+bound for the number of eligible composite moduli. The counting estimate,
+rather than the per-modulus decision, remains the missing step.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

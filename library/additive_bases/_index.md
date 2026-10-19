@@ -3,7 +3,7 @@ name: additive_bases
 title: "Additive Bases and Sidon Sets"
 desc: "Sources filed under Additive Bases and Sidon Sets, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:39:13Z
+updated: 2026-10-16T07:23:06Z
 ---
 
 # Additive Bases and Sidon Sets
@@ -54,6 +54,8 @@ at least k^2 - 1.96365 k^{3/2} - O(k).
 [[additive_bases/chen_2017_additive_complements_squares/_index|chen_2017_additive_complements_squares/]]: Shows every additive complement of the squares has an unbounded excess of
 representations, and that its n-th term falls below (pi^2/16)n^2 by more
 than 0.57 n^(1/2) log n infinitely often.
+
+[[additive_bases/chen_2026_explicit_second_order_bound_sidon_sets/_index|chen_2026_explicit_second_order_bound_sidon_sets/]]: Reports an explicit Sidon bound with coefficient 2 sqrt(2)/3 and a limitation for a specified scalar fixed-kernel method.
 
 [[additive_bases/cilleruelo_1993_additive_completion_kth_powers/_index|cilleruelo_1993_additive_completion_kth_powers/]]: Improves the lower bound on the size of a set that additively completes the
 kth powers up to N, with an explicit gamma-function constant.
@@ -316,6 +318,8 @@ h >= 3.
 
 [[additive_bases/hercher_2024_sum_squarefree_integers_power_two/_index|hercher_2024_sum_squarefree_integers_power_two/]]: Verifies computationally that every odd integer below 2^50 is a squarefree
 number plus a power of two, using at most 2^13.
+
+[[additive_bases/hou_2026_improved_upper_bound_finite_sidon_sets/_index|hou_2026_improved_upper_bound_finite_sidon_sets/]]: Reports a vector-valued smoothing bound for finite Sidon sets with coefficient below 0.9435 at the fourth-root scale.
 
 [[additive_bases/huber_2026_saturated_sidon_sets_consecutive_intervals_eight_mark_threshold_144/_index|huber_2026_saturated_sidon_sets_consecutive_intervals_eight_mark_threshold_144/]]: Proves 144 is the largest interval length with a maximal Sidon set of exactly
 eight elements, by an explicit ruler and a computer-assisted exclusion, giving
@@ -614,6 +618,7 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/additive_bases/E0326/_index|E0326]]
   - [[../wiki/problems/additive_bases/E0330/_index|E0330]]
   - [[../wiki/problems/additive_bases/E0343/_index|E0343]]
+  - [[../wiki/problems/additive_bases/E0345/_index|E0345]]
   - [[../wiki/problems/additive_bases/E0349/_index|E0349]]
   - [[../wiki/problems/additive_bases/E0354/_index|E0354]]
 - [[number_theory/guy_1991_western_number_theory_problems/_index|guy_1991_western_number_theory_problems]]

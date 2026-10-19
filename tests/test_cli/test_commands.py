@@ -33,6 +33,8 @@ __all__ = [
     'test_lead_audit_reports_unusable_roots_as_command_errors',
     'test_license_audit_reports_findings_with_exit_codes',
     'test_license_audit_reports_unusable_roots_as_command_errors',
+    'test_problem_claims_reports_findings_with_exit_codes',
+    'test_problem_claims_reports_unusable_roots_as_command_errors',
 ]
 
 
@@ -470,6 +472,80 @@ def test_license_audit_reports_unusable_roots_as_command_errors(
     assert 'Traceback' not in result.stderr
 
 
+def test_problem_claims_reports_findings_with_exit_codes(
+    tmp_path: pathlib.Path,
+) -> None:
+    """Test the stream split, the final line, the scoped write and the exit codes."""
+    root = tmp_path / 'repo'
+    first = _problem_page(root, 'E0001', 'open', 'none')
+    notes = 'Schema checks read the claims as recorded and award no standing.\n'
+    # a clean tree passes, with the notes as disclosures on stderr
+    result = run_erdos(root, 'problem-claims')
+    assert result.returncode == 0, (result.stdout, result.stderr)
+    assert result.stdout == 'Problem claims check passed.\n'
+    assert result.stderr == (
+        '1 problem(s); 0 claim page(s); 0 provisional standing(s) without a claim'
+        ' page; 0 claim page(s) without authors\n' + notes
+    )
+    # a provisional standing without a claim page is counted, and with
+    # --settled a finding on stdout with exit 1
+    _problem_page(root, 'E0002', 'solved', 'proved')
+    result = run_erdos(root, 'problem-claims')
+    assert result.returncode == 0, (result.stdout, result.stderr)
+    result = run_erdos(tmp_path, 'problem-claims', '--path', f'{root}', '--settled')
+    assert result.returncode == 1, (result.stdout, result.stderr)
+    assert result.stdout == (
+        "wiki/problems/subject/E0002/_index.md: provisional 'solved'/'proved' with"
+        ' no claim page\n'
+    )
+    assert result.stderr == (
+        '2 problem(s); 0 claim page(s); 1 provisional standing(s) without a claim'
+        ' page; 0 claim page(s) without authors\n' + notes
+    )
+    # --write --problem writes and checks the named problem alone
+    _problem_page(root, 'E0001', 'open', 'none', claimed=True)
+    third = _problem_page(root, 'E0003', 'open', 'none', claimed=True)
+    untouched = third.read_text(encoding='utf-8')
+    result = run_erdos(root, 'problem-claims', '--write', '--problem', 'E0001')
+    assert result.returncode == 0, (result.stdout, result.stderr)
+    assert result.stdout == 'Problem claims check passed.\n'
+    assert result.stderr == (
+        'wrote wiki/problems/subject/E0001/_index.md\n'
+        '1 problem(s); 1 claim page(s); 0 provisional standing(s) without a claim'
+        ' page; 0 claim page(s) without authors\n' + notes
+    )
+    assert 'status: solved\nclaim: proved\n' in first.read_text(encoding='utf-8')
+    assert third.read_text(encoding='utf-8') == untouched
+    # an unknown problem folder is a finding
+    result = run_erdos(root, 'problem-claims', '--problem', 'E9999')
+    assert result.returncode == 1, (result.stdout, result.stderr)
+    assert result.stdout == 'E9999: no problem folder of that name\n'
+
+
+@pytest.mark.parametrize(
+    argnames=('root', 'message'),
+    argvalues=[
+        ('missing', 'Error: No repository at '),
+        ('no problems', 'Error: No problem directory at '),
+    ],
+    ids=['missing', 'no problems'],
+)
+def test_problem_claims_reports_unusable_roots_as_command_errors(
+    tmp_path: pathlib.Path,
+    root: str,
+    message: str,
+) -> None:
+    """Test that a missing root or one without a problems tree exits 2 on stderr."""
+    path = tmp_path / 'repo'
+    if root == 'no problems':
+        write_page(path / 'wiki' / '_index.md', '# erdos')
+    result = run_erdos(tmp_path, 'problem-claims', '--path', f'{path}')
+    assert result.returncode == 2, (result.stdout, result.stderr)
+    assert result.stdout == ''
+    assert message in result.stderr
+    assert 'Traceback' not in result.stderr
+
+
 # ------ helpers
 
 
@@ -520,3 +596,53 @@ def _license_repository(tmp_path: pathlib.Path) -> pathlib.Path:
     run_git(root, 'add', '-A')
     run_git(root, 'commit', '-qm', 'seed')
     return root
+
+
+def _problem_page(
+    root: pathlib.Path,
+    number: str,
+    status: str,
+    claim: str,
+    *,
+    claimed: bool = False,
+) -> pathlib.Path:
+    """Write one problem page, with an accepted full claim page when ``claimed``."""
+    folder = root / 'wiki' / 'problems' / 'subject' / number
+    page = write_page(
+        folder / '_index.md',
+        '---',
+        f'name: problems/subject/{number}',
+        'desc: A synthetic question.',
+        'tags: [subject]',
+        f'status: {status}',
+        f'claim: {claim}',
+        '---',
+        '',
+        '***',
+        '',
+        '**Statement.** A synthetic question.',
+    )
+    if claimed:
+        write_page(
+            folder / 'claims' / '2026_01_02_claimant.md',
+            '---',
+            'desc: A synthetic claim.',
+            'authors:',
+            '- A. Claimant',
+            'status: accepted',
+            'claim: proved',
+            'scope: full',
+            'evidence:',
+            '- refereed',
+            'published: 2026-01-02',
+            'submitted: 2026-01-02',
+            'links:',
+            '- url: https://example.org/paper',
+            '  kind: paper',
+            '---',
+            '',
+            '***',
+            '',
+            '**Depends on.** Nothing beyond the cited paper.',
+        )
+    return page

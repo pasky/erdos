@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 905
@@ -43,7 +43,7 @@ $\lceil n/6\rceil=1$, since Corollary 2 of [BoNi05] gives a book of size at
 least $2m/n-n/3$, which is $7/6$, $17/15$ and $4/3$ there; it holds at $n=3$
 ($K_3$) and at $n=7$, where the octahedron $K_{2,2,2}$ with a pendant edge has
 $13$ edges and every edge on at most two triangles. The erdosproblems.com label
-PROVED (LEAN) carries a catalog suffix explained under Formalization.
+PROVED (LEAN) carries a suffix explained under Formalization.
 
 **Status.** Proved. The status-defining source erdosproblems.com names is N. G.
 Khadzhiivanov and V. Nikiforov, *Solution of a problem of P. Erdős about the
@@ -192,14 +192,14 @@ accessed 2026-09-18.
   precise form $\hat t\ge n/6$. Not an erdosproblems.com key for this problem;
   not held.
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/905.lean`](https://github.com/google-deepmind/formal-conjectures/blob/f5f23b44304be14f7caf502e4fecb7beecdcfa73/FormalConjectures/ErdosProblems/905.lean)
 of formal-conjectures, linked at the `main` revision of 2026-09-18 (1,594
 bytes), declares
 `erdos_905 (n : ℕ) (G : SimpleGraph (Fin n)) [DecidableRel G.Adj] (hG : (n : ℝ) ^ 2 / 4 < (#G.edgeFinset : ℝ)) : ∃ e ∈ G.edgeFinset, (n : ℝ) / 6 ≤ (#(G.trianglesContaining e) : ℝ)`
-under `category research solved, AMS 5`, with proof `sorry`, no `answer`
-value, and a `formal_proof` attribute naming the file
+under `category research solved, AMS 5`, with proof `sorry`, no `answer` value,
+and a `formal_proof` attribute naming the file
 `src/v4.29.1/ErdosProblems/Erdos905.lean` in the repository `plby/lean-proofs`
 on its `main` branch (unpinned); its docstring repeats the erdosproblems.com
 commentary. The external file, at the repository's commit of 15 September 2026
@@ -210,25 +210,25 @@ systems Aristotle and GPT 5.4 and the file's human author, and linking the
 erdosproblems.com thread post of 7 April 2026. Its docstring credits independent
 proofs to Edwards (unpublished) and to Khadžiivanov and Nikiforov [KhNi79] and a
 cleaner proof to Bollobás and Nikiforov, [BoNi05] under the docstring's key
-[BoNi04], and its proof follows that route: with `triangleDegree` the number
-of common neighbors of an edge and `maxTriangleDegree` its maximum, it proves
+[BoNi04], and its proof follows that route: with `triangleDegree` the number of
+common neighbors of an edge and `maxTriangleDegree` its maximum, it proves
 `bollobas_nikiforov : 3 * ∑ v, G.degree v ^ 2 ≤ 6 * #E * maxTriangleDegree G + 2 * n * #E`
-under `n ^ 2 / 4 < #E` (line 752), then `n < 6 * maxTriangleDegree G` (the
-lemma at line 764, all in natural numbers), then the final theorem
+under `n ^ 2 / 4 < #E` (line 752), then `n < 6 * maxTriangleDegree G` (the lemma
+at line 764, all in natural numbers), then the final theorem
 `erdos_905 (h : Fintype.card V ^ 2 / 4 < G.edgeFinset.card) : ∃ e ∈ G.edgeFinset, Fintype.card V / 6 ≤ triangleDegree G e`
 (line 840), with `#print axioms` recorded as `propext`, `Classical.choice` and
 `Quot.sound`. The relation to the collection's statement: the hypothesis
 $\lfloor n^2/4\rfloor<e$ is the collection's $n^2/4<e$ for integer $e$; the
 final theorem's conclusion $\lfloor n/6\rfloor\le t$ is weaker than the
-collection's $n/6\le t$ when $6\nmid n$, while the file's lemma $n<6\,\hat t$
-is the strict real inequality $\hat t>n/6$, which implies the collection's
+collection's $n/6\le t$ when $6\nmid n$, while the file's lemma $n<6\,\hat t$ is
+the strict real inequality $\hat t>n/6$, which implies the collection's
 conclusion; no bridging theorem in the collection's form is in the file. The
-file contains no `sorry`, `axiom`, `native_decide` or `unsafe`. No build,
-audit or kernel check of it is recorded. The community database
-(`data/problems.yaml`, 2026-09-18) records `status` "proved (Lean)", as of its
-last update, dated 7 April 2026, `formal_status` Lean with no URL, the
-statement formalized since 4 August 2026 and no formal-proof field; the
-erdosproblems.com indicator reads "Formalised statement? Yes".
+file contains no `sorry`, `axiom`, `native_decide` or `unsafe`. No build, audit
+or kernel check of it is recorded. The community database (`data/problems.yaml`,
+2026-09-18) records `status` "proved (Lean)", as of its last update, dated 7
+April 2026, `formal_status` Lean with no URL, the statement formalized since 4
+August 2026 and no formal-proof field; the erdosproblems.com indicator reads
+"Formalised statement? Yes".
 
 ## Current assessment
 

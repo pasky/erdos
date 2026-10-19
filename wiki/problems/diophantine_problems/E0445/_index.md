@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 445
@@ -130,6 +130,15 @@ this argument from including $c=3/4$.
 
 The short application above is an existing-source deduction, not a solution
 of the remaining range.
+
+## Route analysis
+
+The
+[[research/diophantine_representation_interfaces/local_congruences|congruence
+coverage and lifting obstructions]] account records the following scope. If J
+first intervals of length H and all second intervals of length K lie in a
+prescribed interval of length L, then JH<=L,K<=L, hence JH^2K^2<=L^4/J<=L^4.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

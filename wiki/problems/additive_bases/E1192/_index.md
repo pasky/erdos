@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1192
@@ -49,13 +49,38 @@ https://www.erdosproblems.com/1192.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1192.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The held
+[[../library/additive_bases/ruzsa_1990_just_basis/theorem_2|Ruzsa second-moment theorem]]
+supplies the order-two case at its recorded source standing. Its statement was
+inspected; its complete source proof is not independently audited here.
+The higher-order question needs a different density scale, as the following
+author-recorded argument by Plasma AI shows.
 
-## Known Results
+Let $A(y)=|A\cap[0,y]|$ and count ordered $r$-tuples. If
+$\sum_{n\le x}f_r(n)^2\le Cx$ for large $x$, Cauchy–Schwarz gives
+$\sum_{n\le x}f_r(n)=O(x)$. Every tuple from $A\cap[0,y]$ has sum at
+most $ry$, so $A(y)^r=O(y)$. Conversely, eventual $r$-fold coverage gives
+$A(y)^r\ge y-O(1)$. Thus the desired basis must satisfy
+$A(y)\asymp y^{1/r}$.
 
-Not yet compiled.
+An asymptotic order-two basis has $A(y)\gg\sqrt y$. Reusing the same set
+for any fixed $r\ge3$ therefore gives, with $y=\lfloor x/r\rfloor$,
+
+$$
+\sum_{n\le x}f_r(n)^2
+\ge\frac{\bigl(\sum_{n\le x}f_r(n)\bigr)^2}{\lfloor x\rfloor+1}
+\ge\frac{A(\lfloor x/r\rfloor)^{2r}}{\lfloor x\rfloor+1}
+\gg x^{r-1}.
+$$
+
+This rules out direct higher convolution of Ruzsa's same basis. It does not
+rule out a new basis at scale $y^{1/r}$. The required construction would need
+$r$-fold coverage and an energy bound at that scale, with control of mixed
+sums across its blocks. Two-summand cyclic representation bounds do not supply
+that interface. This is a scoped obstruction, not a new status search or a
+negative answer for $r\ge3$.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

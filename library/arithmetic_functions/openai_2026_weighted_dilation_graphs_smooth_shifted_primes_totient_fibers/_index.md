@@ -1,17 +1,16 @@
 ---
 name: arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers
 desc: |
-  A 68-page release manuscript claiming Erdős's conjecture on the largest
-  totient fibers, $g(n)>n^{1-\varepsilon}$ for infinitely many $n$, derived by
-  a product-and-pigeonhole step from a claimed count of $x^{1-o(1)}$ primes
-  $p\in(2x,5x]$ with $P^+(p-1)\le x^\delta$ for every fixed $\delta>0$, which
-  the manuscript derives from a transference theorem for weighted dilation
-  graphs, a Type II estimate and a sieve; bears on Problem 821, on Problem 824
-  through a draft that reruns it with a change of sign, and, as background, on
-  Problem 1057.
+  A 68-page manuscript claiming Erdős's conjecture on the largest totient
+  fibers, $g(n)>n^{1-\varepsilon}$ for infinitely many $n$, by a
+  product-and-pigeonhole step from a claimed count of $x^{1-o(1)}$ primes
+  $p\in(2x,5x]$ with $P^+(p-1)\le x^\delta$ for fixed $\delta>0$, itself from
+  a transference theorem for weighted dilation graphs, a Type II estimate and
+  a sieve; bears on Problem 821, on Problem 824 through a draft that reruns it
+  with a change of sign, and, as background, on Problem 1057.
 license: Apache-2.0
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:50:13Z
+updated: 2026-10-18T10:20:12Z
 ---
 
 # arithmetic_functions/openai_2026_weighted_dilation_graphs_smooth_shifted_primes_totient_fibers
@@ -290,3 +289,14 @@ uses the printed statement labels.
   ($\beta>15/(32\sqrt e)$, count $x/(\log x)^C$) and Theorem 1.1 against
   Corollary 1.3 there (exponent $0.7156$), with the same count caveat;
   unverified here.
+- [[../wiki/research/erdos_416/connections|Problem 416 connections page]]:
+  its Problem 821 section names the exponent $1-\epsilon$ for every
+  $\epsilon$ as the open gap and the smooth-shifted-prime route as the one on
+  the problem page; the manuscript claims to close that gap by that route,
+  unverified here. Its obstruction (pair representations bounded by the divisor function) is
+  about a different object and is untouched.
+- [[../wiki/research/erdos_49/connections|Problem 49 connections page]]: its
+  Problem 821 section says large multiplicity needs many primes $p$ with
+  $p-1$ dividing a fixed smooth number, a different mechanism from
+  multiplication by convenient integers; Section 8 here is that mechanism,
+  supplied by Theorem 1.2 and unverified here.

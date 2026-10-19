@@ -6,7 +6,7 @@ desc: |
   the Chebyshev-node interpolation polynomials of every continuous function
   converge along a subsequence; as printed it fails at -1/2.
 created: 2026-10-08T17:47:40Z
-updated: 2026-10-08T17:47:40Z
+updated: 2026-10-13T16:46:38Z
 ---
 
 ***
@@ -25,7 +25,7 @@ polynomial of $f$ at the roots of the Chebyshev polynomial $T_n$.
 
 **Theorem 2** (p. 313). "If $x_0\ne\cos\frac{p}{q}\pi$, $p\equiv q\equiv1$
 (mod 2) then there exists for every continuous $f(x)$ a sequence of integers
-$n_1<n_2<\cdots$ such that $L_{n_k}(f(x_0))\to f(x_0)$."
+$n_1<n_2<\cdots$ such that $L_{n_i}(f(x_0))\to f(x_0)$."
 
 **As printed the statement is false.** The nodes are symmetric about $0$.
 Take $x_0=\cos\frac{\pi}{3}=\frac12$, which is of the excluded form, and a

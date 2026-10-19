@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:27:11Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 1143
 
 [[problems/primes/_index|..]]
 
-[[problems/primes/E1143/claims/_index|claims/]]: The 1 claim page of Problem 1143, one per claimant's result; the problem's standing derives from them.
+[[problems/primes/E1143/claims/_index|claims/]]: The 2 claim pages of Problem 1143, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -35,7 +35,7 @@ and Selfridge found the exact bound for $2<\alpha<3$ and that very little is
 known for $\alpha>3$. It gives no reference for the first of these. The
 reference is Theorem 1 of Section 6 of [Er78], recorded as the partial claim
 [[problems/primes/E1143/claims/1978_01_01_erdos_selfridge|Erdős and Selfridge 1978]].
-Nothing is claimed for $\alpha\ge3$.
+That historical claim covers $2<\alpha<3$.
 
 **Source.** [erdosproblems.com/1143](https://www.erdosproblems.com/1143),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1143,
@@ -50,7 +50,7 @@ https://www.erdosproblems.com/1143.
   combinatorial number theory. Proceedings of the Ninth Southeastern
   Conference on Combinatorics, Graph Theory, and Computing (Boca Raton,
   1978), Congressus Numerantium XXI, Utilitas Math., Winnipeg (1978), 29--40;
-  Section 6, Theorem 1, pp. 35--37. Not cited by erdosproblems.com. Rényi
+  Section 6, Theorem 1 and its proof, pp. 36--38 (the section begins on p. 35). Not cited by erdosproblems.com. Rényi
   archive copy: https://users.renyi.hu/~p_erdos/1978-36.pdf. Library home:
   [[../library/extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/_index|erdos_1978_problems_results_combinatorial_analysis_combinatorial_number]].
 - [Er86c] Erdős, P., Some problems on number theory. Analytic and elementary
@@ -97,8 +97,8 @@ interval of length $(3-\varepsilon)p_u$ with exactly $2\sqrt u$ distinct
 multiples, so the least value of $F$ over prime sets is exactly $2\sqrt u$
 on the whole range. [Er78] says that next to nothing is known for intervals
 longer than $3p_u$; the claim is partial for that reason and the problem's
-standing stays open. For $\alpha\ge3$ three results are progress and not
-claims, since none determines an instance of $F$:
+standing stays open. Three source results give progress for $\alpha\ge3$ without
+determining $F$ for prescribed primes:
 [[../library/integer_sequences/erdos_1986_problems_number_theory/theorem_p62|a theorem on p. 62 of [Er86c]]]
 states that for $u=k^2$ primes every interval of length at least $3p_u$
 holds at least $(6u)^{1/2}$ distinct multiples, so
@@ -115,6 +115,35 @@ $\gamma_k\to0$ as $k\to\infty$ (their Conjecture 5) is equivalent to that
 conjecture, and with their Theorem 1.2 the least count is at most
 $k\,u^{1-c/\log\log k+o(1)}$.
 
+**Author-recorded project progress.** Put $G_\alpha(u)$ for the minimum
+of $F_{\lfloor\alpha P\rfloor}$ over all sets of $u$ distinct primes with
+largest member $P$. The
+[[research/prime_multiple_long_intervals/_index|three-position analysis]]
+gives
+
+$$
+F'_3(u)\le G_\alpha(u)\le3F'_3(u),\qquad
+G_\alpha(u)\le C u^{56213/100000}
+\quad(3\le\alpha<4,\ u\ge2),
+$$
+
+where $F'_3(u)$ is the least cardinality of a finite integer set containing
+three-term progressions with at least $u$ distinct positive common differences,
+and
+$C$ is absolute. The complete author-recorded chain is
+[[theory/number_theory/L198_three_layer_prime_blocks/_index|L198's exact
+three-layer block]],
+[[theory/number_theory/L202_prime_realization_three_projections/_index|L202's
+realization of every cell pattern using Green--Tao]], and
+[[theory/number_theory/L203_rational_entropy_prime_block_bound/_index|L203's
+rational entropy certificate and type classes on Lemm's seven-point
+configuration]]. These deductions by Plasma AI are at tier 0, without
+independent review. The source construction retains Lemm's credit; no new
+sums--differences record is claimed. The constants are uniform in $\alpha$,
+while the realizing primes may depend on it and on $u$. The exact extremal
+exponent, the prescribed-prime minima and the range $\alpha\ge4$ remain open
+in this work; no catalog resolution follows.
+
 **Thread inputs.** A note posted in the thread on 2026-04-29 by Przemek
 Chojecki, written with GPT-5.5 Pro, connects the problem to the inverse
 arithmetic Kakeya problem and to Problem 1097 and claims the unconditional
@@ -127,7 +156,10 @@ claim and the erdosproblems.com proof-claim tab is empty (2026-10-06).
 **Search scope.** The erdosproblems.com problem page, proof-claim tab and
 community database record (2026-10-06) and the discussion thread (2026-10-07);
 the Rényi archive copies of [Er78] (pp. 35--37) and [Er86c] (pp. 59--61); the
-library cards of [Ru95] and [GrRu17]. Not searched: MathSciNet, zbMATH,
+library cards of [Ru95] and [GrRu17]. Printed pages 36 and 38 of [Er78]
+were checked on page images on 2026-10-15 UTC for the theorem statement and
+its concluding Chinese-remainder construction. This is a source-location
+check, not independent proof verification. Not searched: MathSciNet, zbMATH,
 Google Scholar, arXiv beyond [GrRu17], X. No proof is checked here, and
 nothing on this page is independently reviewed.
 
@@ -152,6 +184,13 @@ nothing on this page is independently reviewed.
   $G_k(N)\gg_k N^{1-\gamma_k}$ with $\gamma_k\to0$ as $k\to\infty$ is
   equivalent to the arithmetic Kakeya conjecture, and with Theorem 1.2
   $G_k(N)\le N^{1-c/\log\log k+o(1)}$ for fixed $k$.
+The [[research/prime_multiple_interval_extrema/_index|research account]] files the
+author-recorded [[theory/number_theory/L37_prime_multiple_block_extremum/_index|partial result]]
+of Plasma AI, a pending partial claim on
+[[problems/primes/E1143/claims/2026_10_19_plasma_ai|its claim page]].
+For every integer $u\ge1$ and fixed $2<\alpha<3$, the minimum over prime sets and blocks of $\lfloor\alpha P\rfloor$ integers equals $\lceil2\sqrt u\rceil$. This is not a formula for each prescribed prime set or for $\alpha\ge3$. Existing claimant credit is retained. No independent review or
+change of catalog standing follows from this filing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

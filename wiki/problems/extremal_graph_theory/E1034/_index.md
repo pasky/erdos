@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1034
@@ -44,7 +44,7 @@ triangle $T$ and more than $(\frac12-\varepsilon)n$ vertices each joined to at
 least two vertices of $T$; the formal statement encodes exactly this. Whether
 the $y_i$ may include the three vertices of $T$ (the note's count does; Erdős's
 "other vertices" does not) changes the count by at most three and is absorbed by
-the $o(1)$. The erdosproblems.com label DISPROVED (LEAN) carries a catalog
+the $o(1)$. The erdosproblems.com label DISPROVED (LEAN) carries a
 suffix explained under Formalization.
 
 **Status.** Disproved. The status-defining source is Theorem 2.1 of a three-page
@@ -70,8 +70,8 @@ the external Lean file that declares itself a formalization of the note's
 solution and proves the negation of the formalized statement. That file was not
 built here. This is a source-supported solution accepted by erdosproblems.com,
 distinct from a claim of journal refereeing. The erdosproblems.com Lean suffix
-is its catalog label for that external proof, which this corpus has not built or
-audited.
+is an erdosproblems.com label for that external proof, which this corpus has not
+built or audited.
 
 Erdős's general question stays open between $(\frac16-o(1))n$ and
 $(2-\sqrt{5/2}+o(1))n$. It asks for the largest $h(n)$ for which every such
@@ -127,57 +127,54 @@ https://www.erdosproblems.com/1034, accessed 2026-09-19.
   strengthens. Library home:
   [[../library/discrete_geometry/erdos_1982_my_favourite_problems_which_recently_have/_index|erdos_1982_my_favourite_problems_which_recently_have]].
 
-**Formalization.** The erdosproblems.com Lean suffix is a catalog label. The
-file
+**Formalization.** The erdosproblems.com Lean suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/1034.lean`](https://github.com/google-deepmind/formal-conjectures/blob/5657b3b9ae1c174fdbab9d9d600b018238ba573c/FormalConjectures/ErdosProblems/1034.lean)
 of formal-conjectures at the pinned commit (main on 2026-09-19; 4,694 bytes)
-defines `JoinedToTwo G T Y := ∀ y ∈ Y, ∃ u ∈ T, ∃ v ∈ T, u ≠ v ∧ G.Adj y u ∧ G.Adj y v`
+defines
+`JoinedToTwo G T Y := ∀ y ∈ Y, ∃ u ∈ T, ∃ v ∈ T, u ≠ v ∧ G.Adj y u ∧ G.Adj y v`
 and declares
 `erdos_1034 : answer(False) ↔ ∀ ε : ℝ, 0 < ε → ∀ᶠ (n : ℕ) in atTop, ∀ G : SimpleGraph (Fin n), (n : ℝ) ^ 2 / 4 < (G.edgeSet.ncard : ℝ) → ∃ T : Finset (Fin n), G.IsNClique 3 T ∧ ∃ Y : Finset (Fin n), JoinedToTwo G T Y ∧ (1 / 2 - ε) * (n : ℝ) < (Y.card : ℝ)`
-under `category research solved, AMS 5`, with proof `sorry` and a
-`formal_proof` attribute naming the file
-`src/v4.29.1/ErdosProblems/Erdos1034.lean` in the repository
-`plby/lean-proofs` on its `main` branch (unpinned); its docstring repeats the
-erdosproblems.com commentary and cites the note as [MaTa25]. Three variants,
-each `research solved` with `sorry` and no formal-proof attribute: `lower_bound`
-(a $T$ and $Y$ with $(\frac16-\varepsilon)n\le|Y|$), `upper_bound` (a graph
-with more than $n^2/4$ edges in which every triangle's $Y$ has
+under `category research solved, AMS 5`, with proof `sorry` and a `formal_proof`
+attribute naming the file `src/v4.29.1/ErdosProblems/Erdos1034.lean` in the
+repository `plby/lean-proofs` on its `main` branch (unpinned); its docstring
+repeats the erdosproblems.com commentary and cites the note as [MaTa25]. Three
+variants, each `research solved` with `sorry` and no formal-proof attribute:
+`lower_bound` (a $T$ and $Y$ with $(\frac16-\varepsilon)n\le|Y|$), `upper_bound`
+(a graph with more than $n^2/4$ edges in which every triangle's $Y$ has
 $|Y|\le(2-\sqrt{5/2}+\varepsilon)n$) and `k4_free` (the same with
 `G.CliqueFree 4` and $(2\sqrt3-3+\varepsilon)n$). The external file, at the
-repository's head commit of 15 September 2026 (the commit the claim page's
-link pins), is 81,732 bytes and 1,575 lines, headed
-`leanprover/lean4:v4.29.1 mathlib v4.29.1`, "This is a Lean
-formalization of a solution to Erdős Problem 1034"; its header lists Jie Ma,
-Quanyu Tang and ChatGPT as informal authors and Aristotle, Namrata Anand and
-Boris Alexeev as formal authors, one name per line; it imports `Mathlib`. It
-defines
-`Y_set G T` (the vertices with at least two neighbors in `T`), the graph
-`MaTangGraph n α s` (two vertices adjacent when they lie on different sides
-of the cut at $\lfloor\alpha n\rfloor$, or both below it in the same block
-of $s$ consecutive indices), `alpha_star = 1 - 1/√10`, `c1 α` and the block
-size, and proves `MaTang_edge_density_lower_bound`, `MaTang_Y_upper_bound`
-and
+repository's head commit of 15 September 2026 (the commit the claim page's link
+pins), is 81,732 bytes and 1,575 lines, headed
+`leanprover/lean4:v4.29.1 mathlib v4.29.1`, "This is a Lean formalization of a
+solution to Erdős Problem 1034"; its header lists Jie Ma, Quanyu Tang and
+ChatGPT as informal authors and Aristotle, Namrata Anand and Boris Alexeev as
+formal authors, one name per line; it imports `Mathlib`. It defines `Y_set G T`
+(the vertices with at least two neighbors in `T`), the graph `MaTangGraph n α s`
+(two vertices adjacent when they lie on different sides of the cut at
+$\lfloor\alpha n\rfloor$, or both below it in the same block of $s$ consecutive
+indices), `alpha_star = 1 - 1/√10`, `c1 α` and the block size, and proves
+`MaTang_edge_density_lower_bound`, `MaTang_Y_upper_bound` and
 `MaTang_main (ε) : ∃ N, ∀ n ≥ N, (G.edgeFinset.card : ℝ) > n^2/4 ∧ ∀ T ∈ G.cliqueFinset 3, (Y_set G T).card ≤ (2 - √(5/2) + ε) * n`
 for that graph; it then defines its own
 `erdos_1034 : Prop := ∀ ε > 0, ∃ n0, ∀ n ≥ n0, ∀ G : SimpleGraph (Fin n), (G.edgeFinset.card : ℝ) > n^2/4 → ∃ T ∈ G.cliqueFinset 3, (Y_set G T).card > (1/2 - ε) * n`
-and proves `not_erdos_1034 : ¬ erdos_1034` (with $\varepsilon=1/100$); the
-file ends with `#print axioms MaTang_main` and `#print axioms not_erdos_1034`,
-both recorded as `propext`, `Classical.choice`, `Quot.sound`, and contains
-no `sorry`, `axiom`, `native_decide` or `unsafe`. The relation to the
-collection's statement: the file's `erdos_1034` is
-the collection's right-hand side with `∀ᶠ n in atTop` written as
-`∃ n0, ∀ n ≥ n0`, edge and clique counts in `Finset` form, and
-erdosproblems.com's $Y$ taken as the full set `Y_set G T`, which contains every
-set satisfying `JoinedToTwo G T Y`, so the two forms are equivalent (a one-line
-observation made here); no bridging theorem in the collection's form is in the
-file. The repository's note `ErdosProblems/Erdos1034.md` lists copies for five
-toolchains (Lean v4.24.0 to v4.33.0). Nothing was built, audited or
-kernel-checked here, and no local credit is claimed. The community database
-(`data/problems.yaml` as fetched 2026-09-19T06:50Z) lists `status`
-"disproved (Lean)" as of its last update of 4 December 2025, `formal_status`
-Lean with no URL, the statement formalized since 5 August 2026 and no
-formal-proof field; the erdosproblems.com indicator reads "Formalised statement?
-Yes".
+and proves `not_erdos_1034 : ¬ erdos_1034` (with $\varepsilon=1/100$); the file
+ends with `#print axioms MaTang_main` and `#print axioms not_erdos_1034`, both
+recorded as `propext`, `Classical.choice`, `Quot.sound`, and contains no
+`sorry`, `axiom`, `native_decide` or `unsafe`. The relation to the collection's
+statement: the file's `erdos_1034` is the collection's right-hand side with
+`∀ᶠ n in atTop` written as `∃ n0, ∀ n ≥ n0`, edge and clique counts in `Finset`
+form, and erdosproblems.com's $Y$ taken as the full set `Y_set G T`, which
+contains every set satisfying `JoinedToTwo G T Y`, so the two forms are
+equivalent (a one-line observation made here); no bridging theorem in the
+collection's form is in the file. The repository's note
+`ErdosProblems/Erdos1034.md` lists copies for five toolchains (Lean v4.24.0 to
+v4.33.0). Nothing was built, audited or kernel-checked here, and no local credit
+is claimed. The community database (`data/problems.yaml` as fetched
+2026-09-19T06:50Z) lists `status` "disproved (Lean)" as of its last update of 4
+December 2025, `formal_status` Lean with no URL, the statement formalized since
+5 August 2026 and no formal-proof field; the erdosproblems.com indicator reads
+"Formalised statement? Yes".
 
 ## Current assessment
 

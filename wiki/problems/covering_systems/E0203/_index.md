@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 203
@@ -31,13 +31,16 @@ https://www.erdosproblems.com/203.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/203.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/covering_prime_interfaces/finite_certificates|finite-cover reduction]]
+gives a sufficient certificate: a finite collection of primes greater than
+$3$ and compatible residues covering the full product of the exponent cycles.
+The Chinese remainder theorem then gives $m$ coprime to $6$, and choosing
+$m$ larger than every covering prime makes each divisor proper. No such
+covering witness is supplied; this author-recorded reduction is not a
+solution.
 
-## Known Results
-
-Not yet compiled.
 <!-- BEGIN problem library links -->
 
 ## Linked library material

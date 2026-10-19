@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Colliot-Thélène–Skorobogatov: Brauer gr
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T05:28:09Z
 ---
 
 # Colliot-Thélène–Skorobogatov: Brauer groups of schemes
@@ -155,6 +155,16 @@ Diophantine family.
 This source bears on
 [Problem 940](../../../problems/diophantine_problems/E0940/_index.md).
 
+The current E940 research uses Theorem 3.5.4 in a proved obstruction to a
+specific higher-exponent strategy. Applied to the smooth projective
+hypersurface cut out by a positive diagonal form, it injects the variety's
+Brauer group into the Brauer group of its function field. Together with
+Corollary 4.4.5 from the following chapter, this shows that a quaternion
+division algebra over the ground field remains division over that function
+field. A valuation argument then rules out representing the diagonal form by
+a fixed positive quadratic form in at most four rational functions. This is a
+direct input to the quadratic-compression obstruction, not a density theorem.
+
 Write
 
 $$
@@ -175,4 +185,33 @@ $$
 
 for every $r\ge3$. The paper contains no theorem about $\mathcal P_r$,
 $\Sigma_r$, additive representations, or natural density, so its relation to
-E940 is weak.
+E940 is weak and infrastructural.
+
+A possible translation would begin with a separately constructed
+representation family $V\to\mathbb A^1_N$, whose fiber $V_N$ parametrizes
+decompositions of $N$ into at most $r$ $r$-powerful summands. The chapter’s
+scheme $X$ would then be such a regular model $V$, with function field
+$F=k(V)$. For a proposed torsion class $\alpha\in\operatorname{Br}(V)$,
+equation (3.1) (printed p. 77) supplies pullback and specialization; Theorem
+3.3.2 (p. 80) realizes $\alpha$ by an Azumaya algebra under its hypotheses
+(for example, $V$ quasi-projective over an affine scheme). Corollary 3.7.3,
+equation (3.13) (p. 94), could certify that the $\ell$-primary part of a
+generic class, for $\ell$ different from the residual characteristics, extends
+over $V$ by checking all codimension-one residues, and Theorem 3.7.6
+(pp. 96–97) reduces extension of any class to the local rings at
+codimension-one points. Theorem 3.7.4 (p. 96) would control those residues
+after a change of variables or a ramified base change, and Proposition 3.8.1
+(pp. 98–99) would control restriction and corestriction under finite locally
+free base change.
+
+These tools could therefore organize cohomological data on an algebraic family
+already known to encode the representations. They do not construct such a
+family: the condition $v_p(m)=0$ or $v_p(m)\ge r$ simultaneously over all
+primes is not represented in the chapter by a finite-type scheme. More
+decisively, none of the cited results bounds $\#(\Sigma_r\cap[1,B])$, supplies
+a sieve or additive estimate, or converts fibrewise cohomological information
+into a density statement. The paper proves neither density zero nor even
+nonrepresentability for any positive-density set of integers, for $r=3$ or for
+$r\ge4$. It is relevant only if an approach to E940 first produces a regular
+parameter space and Brauer classes whose specialization can be tied—by
+additional arguments absent here—to integral representations.

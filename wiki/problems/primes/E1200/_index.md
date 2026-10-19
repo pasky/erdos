@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-17T22:11:11Z
 ---
 
 # Problem 1200
@@ -40,9 +40,78 @@ https://www.erdosproblems.com/1200.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[../library/primes/erdos_1980_small_sieve/problem_2|source's Problem 2]]
+uses the positive initial interval. Put $N=\lceil x\rceil-1$. If one residue
+for each of $s$ distinct primes $p_i<x$ covers $1,\ldots,N$, union counting
+gives
+
+$$
+N\le N\sum_i\frac1{p_i}+s,\qquad
+\sum_i\frac1{p_i}\ge1-\frac{\pi(x)}N=1-o(1).
+$$
+
+Thus no constant $C<1$ works, but this does not exclude $C=1$ or larger fixed
+constants. It is a necessary bound for actual covers, not a construction.
+
+The zero-residue theorem in
+[[../library/primes/erdos_1980_small_sieve/_index|Erdős–Ruzsa]] supplies no
+uniformity for an arbitrary translated interval after a CRT shift.
+[[../library/primes/ruzsa_1982_small_sieve_ii_sifting_composite_numbers/theorem_iii|Ruzsa's
+composite-modulus covers]] can have cost below one and therefore cannot
+transfer unchanged to distinct prime moduli.
+[[../library/primes/warlimont_1991_problem_posed_i_z_ruzsa/inequality_2|Warlimont's
+inequality]] concerns a necessary counting relaxation, not an actual cover. The
+source statements and interval convention were inspected; proofs of the latter
+two inputs were not checked. The counting deduction is author-recorded, and the
+bounded-cost prime construction remains missing.
+
+The author-recorded
+[[research/leads/bounded_cost_prime_covers/_index|attack on bounded-cost covers]]
+gives an explicit cover of $1,\ldots,N$ for every large $N$ at reciprocal cost
+$\log\log\log N+O(1)$: the class $1\bmod2$, residue $0$ for the primes in
+$(N^{1/u},N/2]$ with $u=4\log\log N$, and one prime in $(N/2,N]$ for each
+integer still uncovered. A midpoint variant omits the extra prime $2$ and
+gives $\mu(N)\le\log\log\log N+\log4+o(1)$; its fixed-exponent windows
+still leave a positive proportion of survivors. So $\mu(N)$ grows at most
+triple-logarithmically. An argument from the published Erdős–Ruzsa sieve
+theorem shows that this
+zero-residue design cannot beat a constant multiple of that cost. By sieve
+arguments the same page shows that every cover of bounded cost has almost one
+unit of reciprocal mass on primes in a window $(N^{\theta},N^{1-\eta}]$ whose
+endpoints depend on the cost bound and the allowed loss, and that a cover of
+cost tending to one has
+vanishing mass on primes up to $N^\tau$ for each fixed $\tau<1/3$.
+None of this is independently reviewed. An exact finite survivor inequality
+on the same page makes the
+middle-mass obstruction explicit. In the window $(N^{1/3},N]$, a cover must
+also have a prime at most $\sqrt N$ interacting through coincident short
+triples with at least
+$(\sqrt{2\rho(3)}-o(1))N^{1/4}\sqrt{\log N}$ other selected primes, where
+$\rho$ is Dickman's function. Small groups of such coincidences therefore
+cannot supply a cover. These are restricted obstructions; whether a bounded
+cost suffices remains open. The same page records an exact identity that,
+for each fixed $u\ge3$, reduces a cover of cost $\log u+o(1)$ with
+reserved cleanup primes in $(N/2,N]$ to one net-gain inequality for the
+classes of the primes in $(N^{1/u},N/2]$; no construction attaining it is
+known. It also shows from the linear sieve that the selected primes up to
+$N^{1/2-\delta}$, in any number and with any classes, leave at least a
+fixed proportion of $[1,N]$ uncovered, depending only on $\delta$ and the
+cost.
+
+An [Erdős Problem a Day report](https://www.erdosproblemaday.com/report/1200)
+dated 2026-07-27 defines $\mu(N)$ as the least reciprocal-prime cost
+of covering $1,\ldots,N$ by one class for each selected prime at most
+$N$, with value $+\infty$ if no cover exists. It reports exact values
+for $1\le N\le40$ and an explicit cover at $N=40$. Its maximum finite
+value in that range is claimed to be
+$\mu(28)=24403493/17160990$; some smaller orders have no cover.
+The report and its stated exhaustive-search method were read on
+2026-10-16, but the companion checker was not inspected or replayed.
+No independent acceptance is recorded. Neither the finite table nor
+its necessary counting bounds establishes or refutes an eventually
+bounded $\mu(N)$; the report explicitly leaves that question open.
 
 ## Known Results
 

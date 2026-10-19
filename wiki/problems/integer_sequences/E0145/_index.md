@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 145
@@ -123,6 +123,9 @@ the gaps built from many squares of mid-sized primes.
   library card.
 - [[problems/integer_sequences/E0145/claims/1998_01_01_granville|Granville 1998]]:
   every $\alpha\ge0$ under the abc conjecture, a conditional claim.
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

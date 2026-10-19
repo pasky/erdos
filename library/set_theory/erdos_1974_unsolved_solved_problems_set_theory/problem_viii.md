@@ -6,7 +6,7 @@ desc: |
   is provable in ZFC + GCH or whether its negation is consistent with
   ZFC + GCH.
 created: 2026-10-08T15:46:44Z
-updated: 2026-10-08T15:46:44Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -52,4 +52,4 @@ No Erdős problem page is linked. The consistency of
 $\omega_2\not\to(\omega_1+\omega)^2_2$ with G.C.H. that motivates it is the
 negative side of the question on
 [[set_theory/erdos_1974_unsolved_solved_problems_set_theory/question_p272|question_p272]];
-Problem VIII itself is not a catalog problem recorded here.
+Problem VIII itself is not an erdosproblems.com problem recorded here.

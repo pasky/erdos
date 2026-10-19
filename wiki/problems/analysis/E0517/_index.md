@@ -9,7 +9,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 517
@@ -115,6 +115,11 @@ formal-conjectures file; no literature search beyond Murai's bibliography.
   implies Biernacki's theorem; and there is an entire function with
   $k/n_k\to0$ whose deficiency at $0$ is $1$
   ([[problems/analysis/E0517/claims/1983_01_01_murai|Murai 1983]]).
+
+**A deduction and its scope.**
+[[research/erdos_517/fabry_nonfejer_boundary|An infinite-order Fabry series outside the Fejér class]] gives the author-recorded
+argument and source boundaries: explicit exponents and coefficients produce an entire function of infinite order with Fabry gaps and divergent reciprocal sum; its value distribution remains unresolved.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

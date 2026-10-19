@@ -7,7 +7,7 @@ desc: |
   clause by clause, with seven corrections and one substantive gap closed by
   a compilation-supplied replacement.
 created: 2026-09-21T06:17:37Z
-updated: 2026-10-07T20:53:39Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -168,5 +168,5 @@ whole-proof review has been filed, so this page supplies no accepted proof
 coverage and no verification tier. The paper's Section 4 questions and
 their later answers are recorded on the source card.
 
-**Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — the exact catalog
-question; this theorem is its cited elementary proof.
+**Bears on.** [[../wiki/problems/analysis/E0395/_index|#395]] — the exact
+erdosproblems.com question; this theorem is its cited elementary proof.

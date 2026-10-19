@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T15:47:04Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 889
@@ -52,9 +52,24 @@ https://www.erdosproblems.com/889.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/889.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+For a fixed threshold $r\ge2$, a witness $v(n,k)\ge r$ requires $r$ distinct
+primes above $k$ dividing $n+k$. Hence $(k+1)^r\le n+k$. This forces $k<n$,
+because $k\ge n$ would give $(k+1)^2>2k\ge n+k$, and then $k<(2n)^{1/r}$. For
+$r=2$, distinctness gives $(k+1)(k+2)\le n+k$, improving the window to
+
+$$
+k\le\left\lfloor\sqrt{n-1}-1\right\rfloor.
+$$
+
+Factoring $n+k$ in this finite window decides $v_0(n)\ge r$ for fixed $n,r$. It
+gives no cutoff for all large $n$. The definition and known $v_0(n)>1$ argument
+in
+[[../library/arithmetic_functions/erdos_1967_problems_prime_factors_consecutive_integers/_index|Erdős–Selfridge]]
+were inspected; no new enumeration or independent check of its imported
+perfect-power results is claimed. Divergence needs arbitrarily many new primes,
+each above its actual offset, uniformly for every sufficiently large $n$.
 
 ## Known Results
 

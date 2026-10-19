@@ -7,15 +7,17 @@ desc: |
   depending on $k$.
 tags:
 - Combinatorics
-status: open
-claim: none
+status: claimed
+claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 20
 
 [[problems/set_systems/_index|..]]
+
+[[problems/set_systems/E0020/claims/_index|claims/]]: Pending sunflower claims, one full and one partial, with source versions and unestablished acceptance stated explicitly.
 
 ***
 
@@ -29,7 +31,11 @@ $$
 
 for some constant $c_k>0$?
 
-**Status.** Open.
+**Status.** Claimed, with acceptance pending. Junichiro Fukuyama's
+[[problems/set_systems/E0020/claims/2022_12_27_fukuyama|version-3 preprint]]
+claims the full exponential bound. Its abstract and version record were
+read on 2026-10-15 UTC; no independent proof acceptance is established here.
+The claim is not used as an established input to the research below.
 
 **Source.** [erdosproblems.com/20](https://www.erdosproblems.com/20), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #20,
@@ -57,13 +63,26 @@ https://www.erdosproblems.com/20.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/20.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The [[research/methods/finite_set_thresholds|spread-family obstruction]]
+shows why a constant spread parameter cannot suffice in the same
+random-subset hitting lemma: the family of all transversals of $n$ fixed
+$s$-point classes is $s$-spread, but its hitting probability tends to zero
+at fixed sampling density as $n$ grows. This is the product construction
+in Bell–Chueluecha–Warnke's Lemma 4. The family has $s$ disjoint
+transversals, so it does not obstruct the requested sunflower bound.
+This checks one proposed implication and is not a wider standing survey.
 
-## Known Results
-
-Not yet compiled.
+The [[research/sunflower_exponential_bound/_index|spread-family research]]
+gives author-recorded obstructions to constant-spread matching and
+bounded-core replacements, alongside exponential bounds for affine word
+families, recorded as Plasma AI's pending partial claim on
+[[problems/set_systems/E0020/claims/2026_10_19_plasma_ai|its claim page]], and
+for bounded-additive-growth subclasses. The missing step is a structural
+restriction with controlled total loss for arbitrary families.
+Its source test concerns particular intermediate assertions in the pending
+preprint, and supplies no resolution of the full sunflower question.
 <!-- BEGIN problem library links -->
 
 ## Linked library material
@@ -71,6 +90,7 @@ Not yet compiled.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/additive_combinatorics/petridis_2012_new_proofs_plunnecke_type_estimates/_index|petridis_2012_new_proofs_plunnecke_type_estimates]]
 - [[../library/set_systems/alon_2013_sunflowers_matrix_multiplication/_index|alon_2013_sunflowers_matrix_multiplication]]
 - [[../library/set_systems/alon_2013_sunflowers_matrix_multiplication/theorem_2_3|alon_2013_sunflowers_matrix_multiplication / theorem_2_3]]
 - [[../library/set_systems/alon_2013_sunflowers_matrix_multiplication/theorem_2_6|alon_2013_sunflowers_matrix_multiplication / theorem_2_6]]
@@ -93,6 +113,8 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/set_systems/frankston_2019_thresholds_versus_fractional_expectation_thresholds/_index|frankston_2019_thresholds_versus_fractional_expectation_thresholds]]
 - [[../library/set_systems/frankston_2019_thresholds_versus_fractional_expectation_thresholds/lemma_3_1|frankston_2019_thresholds_versus_fractional_expectation_thresholds / lemma_3_1]]
 - [[../library/set_systems/frankston_2019_thresholds_versus_fractional_expectation_thresholds/theorem_1_1|frankston_2019_thresholds_versus_fractional_expectation_thresholds / theorem_1_1]]
+- [[../library/set_systems/fukuyama_2022_sunflower_conjecture_proven/_index|fukuyama_2022_sunflower_conjecture_proven]]
+- [[../library/set_systems/ge_2026_bounded_vc_dimension_implies_sunflower_conjecture/_index|ge_2026_bounded_vc_dimension_implies_sunflower_conjecture]]
 - [[../library/set_systems/kostochka_1999_systems_small_sets_no_large_subsystems/_index|kostochka_1999_systems_small_sets_no_large_subsystems]]
 - [[../library/set_systems/kostochka_1999_systems_small_sets_no_large_subsystems/theorem_1|kostochka_1999_systems_small_sets_no_large_subsystems / theorem_1]]
 - [[../library/set_systems/kostochka_1999_systems_small_sets_no_large_subsystems/theorem_2|kostochka_1999_systems_small_sets_no_large_subsystems / theorem_2]]
@@ -102,5 +124,6 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/set_systems/rao_2020_coding_sunflowers/lemma_2|rao_2020_coding_sunflowers / lemma_2]]
 - [[../library/set_systems/rao_2020_coding_sunflowers/lemma_4|rao_2020_coding_sunflowers / lemma_4]]
 - [[../library/set_systems/rao_2020_coding_sunflowers/theorem_1|rao_2020_coding_sunflowers / theorem_1]]
+- [[../library/set_systems/shangguan_2026_thresholds_spread_set_systems_bounded_vc_dimension/_index|shangguan_2026_thresholds_spread_set_systems_bounded_vc_dimension]]
 
 <!-- END problem library links -->

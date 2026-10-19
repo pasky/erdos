@@ -5,7 +5,7 @@ desc: |
   Links the diagonal, late-proof, full-chain and publication reviews of
   2026-09-06.
 created: 2026-09-16T20:10:00Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 # Verification of the Erdős--Szabados chain
@@ -46,8 +46,8 @@ an independent warrant for the composition and stands as the reviewer's record.
 The [fresh full-chain review](full_chain_review_fresh.md), by a fresh-context
 blind reviewer (model: Claude Fable 5.1) distinct from every earlier reviewer
 of this card, read the result page and both companions as they stood on
-2026-09-18T07:24:04Z through the redacted extraction retained as
-`../assets/frozen_integral_lower_bound.md`
+2026-09-18T07:24:04Z through a redacted extraction
+(`../assets/frozen_integral_lower_bound.md`, not held in the repository)
 and returned refutation-failed for theorem (4) with $c_3=1/256$, conditional on
 the same three interfaces; its [distinct
 grade](full_chain_review_grade_fresh.md), by a grader (model: Claude Fable 5.1)

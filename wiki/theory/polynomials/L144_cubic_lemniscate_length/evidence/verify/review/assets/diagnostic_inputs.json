@@ -1,0 +1,27 @@
+{
+  "scope": "Prescribed Gaussian-rational roots of z^3 + 3 a2 z, with quadratic division giving the other two roots; local input boxes and specified failing cases.",
+  "box_radius": "1/1099511627776",
+  "root_perturbation": "1/1125899906842624",
+  "cases": [
+    {"name": "origin", "a2": "1", "root": ["0", "0"]},
+    {"name": "positive_real", "a2": "1", "root": ["1", "0"]},
+    {"name": "negative_real_cut", "a2": "1", "root": ["-1", "0"]},
+    {"name": "between_critical_values", "a2": "1", "root": ["0", "1/2"]},
+    {"name": "negative_imaginary_discriminant_cut", "a2": "1", "root": ["0", "5/2"]},
+    {"name": "positive_imaginary_discriminant_cut", "a2": "1", "root": ["0", "-5/2"]},
+    {"name": "near_positive_critical_value", "a2": "1", "root": ["0", "1025/1024"]},
+    {"name": "near_negative_critical_value", "a2": "1", "root": ["0", "-1025/1024"]},
+    {"name": "complex_left", "a2": "1", "root": ["1", "2"]},
+    {"name": "complex_right", "a2": "1", "root": ["-1", "2"]},
+    {"name": "scaled_family", "a2": "1/4", "root": ["1/4", "3/4"]},
+    {"name": "zero_linear_coefficient", "a2": "0", "root": ["1", "1/2"]}
+  ],
+  "failing_cases": {
+    "wrong_density_factor": "Replace G1(0)=2/3 by 4/3.",
+    "nonfinite_integrand": "The identically indeterminate arb ball with max_depth=0 must raise ArithmeticError.",
+    "invalid_window": "beta_lo=beta_hi=0 puts the critical window outside [0,pi] and must raise ArithmeticError.",
+    "unresolved_cover": "cover_b(0,2^(-41)) must record failure and make Checker.finish return 1.",
+    "critical_density": "G1(2i) is singular and must not be a finite enclosure.",
+    "finite_cap_family": "Constant integrands f_c=c for 2<=c<=4 at depth zero require lower<=2 and upper>=4; the midpoint 3 would fail at c=2 or 4."
+  }
+}

@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 22
@@ -45,7 +45,7 @@ edges force a $K_4$ or an independent set of size $\delta(\epsilon)n$, so the
 question asks what happens at the threshold itself.
 
 **Status.** Proved. The erdosproblems.com label read "PROVED (LEAN)". Its suffix
-is a catalog label, explained under Formalization. The claim page is
+is an erdosproblems.com label, explained under Formalization. The claim page is
 [[problems/extremal_graph_theory/E0022/claims/2012_08_16_fox_loh_zhao|Fox, Loh and Zhao]],
 accepted on the refereed publication and the curator's credit. The 2026 Lean
 proof in the lean-proofs repository declares itself a formalization of their
@@ -110,29 +110,28 @@ https://www.erdosproblems.com/22, accessed 2026-09-18.
   Context on the critical window; the preprint is filed as
   [[../library/extremal_graph_theory/csaba_2025_ramsey_turan_problem_4_cliques/_index|csaba_2025_ramsey_turan_problem_4_cliques]].
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/22.lean`](https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/22.lean)
 of formal-conjectures, at its commit of 2026-10-06, declares
 `erdos_22 : answer(True) ↔ ∀ ε : ℝ, 0 < ε → ∀ᶠ (n : ℕ) in atTop, ∃ G : SimpleGraph (Fin n), G.CliqueFree 4 ∧ (G.indepNum : ℝ) ≤ ε * n ∧ (n : ℝ) ^ 2 / 8 ≤ G.edgeFinset.card`
-under `category research solved`, with proof `sorry`, together with the
-variants `szemeredi_upper`, `bollobas_erdos_lower` and `fox_loh_zhao`
-(Szemerédi's upper bound, the Bollobás--Erdős construction and Theorem 1.9's
-quantitative form, all `research solved` with proof `sorry`) and a trivial
-`test_bot`. Its `formal_proof` attribute names
-`src/latest/ErdosProblems/Erdos22.lean` of plby/lean-proofs, a Lean
-`v4.33.0` file first added on 2026-08-16 whose header names Fox, Loh and
-Zhao as informal authors and Codex and GPT-5.6 Sol as formal authors (the
-claim page pins the commit); the file at its commit of 2026-08-23 carried
-the same declarations and no `formal_proof` attribute, which the commits of
-2026-09-18 added. The community database (teorth/erdosproblems, accessed
-2026-09-18 and 2026-10-06) lists `status` "proved (Lean)",
-`formal_status` Lean with no URL, and the statement as formalized, as of last
-updates dated 23 August, 23 August and 20 June 2026, without recording when
-each state changed; the erdosproblems.com indicator reads "Formalised statement?
-Yes". Neither Lean file was built or audited by this project. The lean-proofs
-file declares itself a formalization of Fox, Loh and Zhao's theorem, so it is a
-formalization link on their
+under `category research solved`, with proof `sorry`, together with the variants
+`szemeredi_upper`, `bollobas_erdos_lower` and `fox_loh_zhao` (Szemerédi's upper
+bound, the Bollobás--Erdős construction and Theorem 1.9's quantitative form, all
+`research solved` with proof `sorry`) and a trivial `test_bot`. Its
+`formal_proof` attribute names `src/latest/ErdosProblems/Erdos22.lean` of
+plby/lean-proofs, a Lean `v4.33.0` file first added on 2026-08-16 whose header
+names Fox, Loh and Zhao as informal authors and Codex and GPT-5.6 Sol as formal
+authors (the claim page pins the commit); the file at its commit of 2026-08-23
+carried the same declarations and no `formal_proof` attribute, which the commits
+of 2026-09-18 added. The community database (teorth/erdosproblems, accessed
+2026-09-18 and 2026-10-06) lists `status` "proved (Lean)", `formal_status` Lean
+with no URL, and the statement as formalized, as of last updates dated 23
+August, 23 August and 20 June 2026, without recording when each state changed;
+the erdosproblems.com indicator reads "Formalised statement? Yes". Neither Lean
+file was built or audited by this project. The lean-proofs file declares itself
+a formalization of Fox, Loh and Zhao's theorem, so it is a formalization link on
+their
 [[problems/extremal_graph_theory/E0022/claims/2012_08_16_fox_loh_zhao|claim page]],
 not a claim of its own.
 
@@ -240,15 +239,15 @@ shows it refereed; the journal text is not held.
 formal-conjectures file is a statement with `sorry` whose `formal_proof`
 attribute, at the 2026-10-06 commit, names a Lean proof in plby/lean-proofs
 (first added 2026-08-16), and the community database names no formal-proof
-URL, so the "(LEAN)" suffix is a catalog label pointing at that proof. The
-file's docstring dates Szemerédi's paper 1972 where the reference lists of
-[BoEr76] and of the 1983 Erdős--Hajnal--Sós--Szemerédi paper print 1973;
-this does not affect the status. The lean-proofs proof declares itself a
+URL, so the "(LEAN)" suffix is an erdosproblems.com label pointing at that
+proof. The file's docstring dates Szemerédi's paper 1972 where the reference
+lists of [BoEr76] and of the 1983 Erdős--Hajnal--Sós--Szemerédi paper print
+1973; this does not affect the status. The lean-proofs proof declares itself a
 formalization of Fox, Loh and Zhao's theorem and is a formalization link on
 their
 [[problems/extremal_graph_theory/E0022/claims/2012_08_16_fox_loh_zhao|claim page]]:
-it was not built or audited by this project, and no outside examination of
-it is published, so it adds no acceptance evidence to the refereed one.
+it was not built or audited by this project, and no outside examination of it is
+published, so it adds no acceptance evidence to the refereed one.
 
 **Search scope (2026-09-18 and 2026-10-07 UTC).** None of the routes below found
 a dispute of Theorem 1.9, a retraction, or a second proof.

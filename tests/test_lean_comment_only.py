@@ -8,6 +8,8 @@ import sys
 
 import pytest
 
+from ._helpers import run_git
+
 __all__ = [
     'test_strip_removes_every_comment_form_and_keeps_literals',
     'test_strip_replaces_each_comment_by_one_space',
@@ -46,7 +48,6 @@ def dash : Char := '-'
 def h' : Nat := 3 -- an identifier with a prime before this comment
 """
 _MULTILINE = 'def text : String := "line one\n\nline three"\n'
-_GIT = ['git', '-c', 'user.name=t', '-c', 'user.email=t@example.invalid']
 
 
 def test_strip_removes_every_comment_form_and_keeps_literals() -> None:
@@ -204,13 +205,13 @@ def _run(repo: pathlib.Path, *args: str) -> subprocess.CompletedProcess[str]:
 def _init(repo: pathlib.Path, files: dict[str, str]) -> None:
     """A repository at ``repo`` with ``files`` committed."""
     repo.mkdir()
-    subprocess.run([*_GIT, 'init', '-q', '-b', 'main'], cwd=repo, check=True)
+    run_git(repo, 'init', '-q', '-b', 'main')
     for path, text in files.items():
         file = repo / path
         file.parent.mkdir(parents=True, exist_ok=True)
         file.write_text(text, encoding='utf-8')
-    subprocess.run([*_GIT, 'add', '-A'], cwd=repo, check=True)
-    subprocess.run([*_GIT, 'commit', '-qm', 'base'], cwd=repo, check=True)
+    run_git(repo, 'add', '-A')
+    run_git(repo, 'commit', '-qm', 'base')
 
 
 def test_cli_reports_each_changed_file(tmp_path: pathlib.Path) -> None:
@@ -266,15 +267,13 @@ def test_cli_pairs_renames(tmp_path: pathlib.Path) -> None:
             'lean/Erdos/M.lean': _SOURCE.replace('foo', 'moo'),
         },
     )
-    subprocess.run([*_GIT, 'mv', 'A.lean', 'F.lean'], cwd=repo, check=True)
-    subprocess.run([*_GIT, 'mv', 'B.lean', 'G.lean'], cwd=repo, check=True)
+    run_git(repo, 'mv', 'A.lean', 'F.lean')
+    run_git(repo, 'mv', 'B.lean', 'G.lean')
     (repo / 'G.lean').write_text(
         _SOURCE.replace('foo', 'goo').replace('a line comment', 'reworded'),
         encoding='utf-8',
     )
-    subprocess.run(
-        [*_GIT, 'mv', 'lean/Erdos/M.lean', 'lean/Erdos/N.lean'], cwd=repo, check=True
-    )
+    run_git(repo, 'mv', 'lean/Erdos/M.lean', 'lean/Erdos/N.lean')
     expected = [
         'A.lean -> F.lean: comment-only',
         'B.lean -> G.lean: comment-only',
@@ -283,8 +282,8 @@ def test_cli_pairs_renames(tmp_path: pathlib.Path) -> None:
     result = _run(repo, 'HEAD')
     assert result.returncode == 1, result.stdout + result.stderr
     assert result.stdout.strip().splitlines() == expected
-    subprocess.run([*_GIT, 'add', '-A'], cwd=repo, check=True)
-    subprocess.run([*_GIT, 'commit', '-qm', 'moves'], cwd=repo, check=True)
+    run_git(repo, 'add', '-A')
+    run_git(repo, 'commit', '-qm', 'moves')
     result = _run(repo, 'HEAD~1', 'HEAD')
     assert result.returncode == 1, result.stdout + result.stderr
     assert result.stdout.strip().splitlines() == expected

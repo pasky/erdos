@@ -37,7 +37,7 @@ links:
 - url: https://www.erdosproblems.com/1147
   kind: discussion
 created: 2026-10-07T08:25:57Z
-updated: 2026-10-08T18:27:01Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -97,7 +97,7 @@ compiled or reviewed here.
 **Acceptance.** The `refereed` evidence is the journal publication cited above,
 in Acta Arithmetica. The publisher gives the online date 2016-07-12, which is
 the paper link's date. The `reviewed` evidence is the documented acceptance by
-the catalog erdosproblems.com. Its curator, Thomas Bloom, credits the disproof
+erdosproblems.com. Its curator, Thomas Bloom, credits the disproof
 to this paper in the problem's remarks, for almost every $\alpha$ and for
 $\alpha=\sqrt2$. The page carried the label DISPROVED (last edited 2026-01-27).
 
@@ -105,7 +105,7 @@ The formal-conjectures statement file (the `record` link, pinned to the commit
 it names) tags `erdos_1147` research solved with the answer False. It records a
 formal proof at the Lean file below, for the full statement and for its $\sqrt2$
 variant. The statements themselves are left as `sorry` there, so the record is a
-catalog entry and not a formalization.
+formal-conjectures entry and not a formalization.
 
 A thread post of 2026-01-26 (the dated `discussion` link) located the paper and
 credits ChatGPT-5.2 Thinking with finding it. The problem lists no proof claim.

@@ -7,7 +7,7 @@ desc: |
   nonproportional affine forms, intercepts zero and common factors allowed.
   Claims checked only.
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 ***
@@ -49,8 +49,8 @@ them uniformly nonpretentious (in the file's form of (1.2), which the
 Theorem 1.2 page describes), and says that for natural numbers $a_1,a_2\ge1$
 and $b_1,b_2$ with $a_1b_2\ne a_2b_1$ the average
 $N^{-1}\sum_{n=1}^Nf_1(a_1n+b_1)f_2(a_2n+b_2)$ tends to $0$. It was read
-statically and not built or audited here, and the catalog lists no entry for
-it at this revision (see the card).
+statically and not built or audited here, and the release's catalog lists no
+entry for it at this revision (see the card).
 
 **Source.** OpenAI, *Ordinary two-point correlations of multiplicative
 functions*, release folder

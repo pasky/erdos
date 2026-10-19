@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:00:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 936
@@ -64,9 +64,19 @@ the half for $n!-k$ is left to the reader as an exercise. CrowdMath [Cr20]
 proves, assuming abc, that $k^n+r$ is powerful only finitely often for fixed
 coprime positive $k$ and $r$, which covers $2^n+1$
 ([[problems/diophantine_problems/E0936/claims/2020_05_15_crowdmath|claim page]]);
-the paper does not treat $2^n-1$, so even conditionally the first question is
-answered only for $2^n+1$, although erdosproblems.com credits the paper with the
-whole first question.
+the paper's stated theorem does not treat $2^n-1$, although erdosproblems.com
+credits it with the whole first question. The direct conditional deduction
+below supplies the other sign without changing the scope attributed to
+that source.
+
+## Scoped deduction
+
+The [[research/powerful_numbers_and_products/_index|conditional radical argument]]
+proves finiteness for all four signs under abc directly, including
+$2^n-1$. This is an author-recorded conditional deduction rather than an
+extension attributed to CrowdMath's statement. It supplies neither an
+unconditional bound nor an effective search range.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

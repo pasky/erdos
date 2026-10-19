@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 604
@@ -107,6 +107,13 @@ solution, without making clear whether the prize is for one such point or
 for $\gg n$ of them, and wrote that he had at first expected the pinned count
 to behave like the total count of distinct distances, which Harborth showed
 to be false; the two could still agree up to a factor $n^{o(1)}$.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/counts|distance counts,
+multiplicities and pinned occupancy]] account records the following scope. The
+accepted fixed-epsilon statement does not supply an epsilon depending on n with
+a controlled threshold.
 
 <!-- BEGIN problem library links -->
 

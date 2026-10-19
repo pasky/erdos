@@ -1,0 +1,165 @@
+{
+  "scope": "Sample uniform analytic gcd bounds; no finite bootstrap is claimed here.",
+  "records": [
+    {
+      "A": 17,
+      "B": 11,
+      "C": 26,
+      "directions": [
+        17,
+        11,
+        26
+      ],
+      "terms": 10000,
+      "m0": 1000000000000,
+      "rounding_denominator": 1000000000000,
+      "root_scale": 1000000,
+      "eligible_terms": 4816,
+      "positive_terms": 4009,
+      "largest_positive_t": 9999,
+      "floor_stability_bound": 9956,
+      "ell_lower": "1064826114977/250000000000",
+      "theta_mode": "broadbent_johnston_yang",
+      "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+      "finite_RH_range_patched": true,
+      "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+      "requested_log_rate": "85141791/20000000",
+      "strict_margin": "553727477/250000000000",
+      "old_log_helper_margin_at_same_m0": "-678149637/200000000000",
+      "trials": [
+        [
+          8,
+          -0.042891642523
+        ],
+        [
+          10,
+          -0.005768615418
+        ],
+        [
+          12,
+          0.002214909908
+        ]
+      ]
+    },
+    {
+      "A": 152,
+      "B": 71,
+      "C": 152,
+      "directions": [
+        152,
+        71,
+        152
+      ],
+      "terms": 100000,
+      "m0": 100000000000000,
+      "rounding_denominator": 1000000000000,
+      "root_scale": 1000000,
+      "eligible_terms": 49867,
+      "positive_terms": 43550,
+      "largest_positive_t": 99996,
+      "floor_stability_bound": 99788,
+      "ell_lower": "3382222836947/50000000000",
+      "theta_mode": "broadbent_johnston_yang",
+      "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+      "finite_RH_range_patched": true,
+      "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+      "requested_log_rate": "33820369970999/500000000000",
+      "strict_margin": "1858398471/500000000000",
+      "old_log_helper_margin_at_same_m0": "-7909951837/250000000000",
+      "trials": [
+        [
+          10,
+          -0.037739276923
+        ],
+        [
+          12,
+          -0.003521129807
+        ],
+        [
+          14,
+          0.003716796942
+        ]
+      ]
+    },
+    {
+      "A": 65,
+      "B": 42,
+      "C": 65,
+      "directions": [
+        65,
+        42,
+        65
+      ],
+      "terms": 100000,
+      "m0": 100000000000000,
+      "rounding_denominator": 1000000000000,
+      "root_scale": 1000000,
+      "eligible_terms": 49419,
+      "positive_terms": 40474,
+      "largest_positive_t": 100000,
+      "floor_stability_bound": 99888,
+      "ell_lower": "31453143071373/1000000000000",
+      "theta_mode": "broadbent_johnston_yang",
+      "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+      "finite_RH_range_patched": true,
+      "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+      "requested_log_rate": "1258063123473/40000000000",
+      "strict_margin": "391246137/250000000000",
+      "old_log_helper_margin_at_same_m0": "-15605042937/1000000000000",
+      "trials": [
+        [
+          10,
+          -0.023133933503
+        ],
+        [
+          12,
+          -0.002799965996
+        ],
+        [
+          14,
+          0.001564984548
+        ]
+      ]
+    },
+    {
+      "A": 159,
+      "B": 79,
+      "C": 159,
+      "directions": [
+        159,
+        79,
+        159
+      ],
+      "terms": 100000,
+      "m0": 100000000000000,
+      "rounding_denominator": 1000000000000,
+      "root_scale": 1000000,
+      "eligible_terms": 49870,
+      "positive_terms": 43715,
+      "largest_positive_t": 99998,
+      "floor_stability_bound": 99643,
+      "ell_lower": "77159654306033/1000000000000",
+      "theta_mode": "broadbent_johnston_yang",
+      "source": "BFT Lemma 5.2 and retained small-x theta lower bound; Broadbent et al. Corollary 2.1 and final global theta table; Johnston--Yang Lemma 2.2",
+      "finite_RH_range_patched": true,
+      "conclusion": "For every integer m>=m0, both coefficient gcds are at least exp(ell_lower*m).",
+      "requested_log_rate": "77155925155351/1000000000000",
+      "strict_margin": "1864575341/500000000000",
+      "old_log_helper_margin_at_same_m0": "-6362174247/200000000000",
+      "trials": [
+        [
+          10,
+          -0.038668429392
+        ],
+        [
+          12,
+          -0.003719702562
+        ],
+        [
+          14,
+          0.003729150682
+        ]
+      ]
+    }
+  ]
+}

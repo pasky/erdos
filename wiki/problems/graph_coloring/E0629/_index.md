@@ -10,14 +10,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T14:38:26Z
+updated: 2026-10-18T10:11:14Z
 ---
 
 # Problem 629
 
 [[problems/graph_coloring/_index|..]]
 
-[[problems/graph_coloring/E0629/claims/_index|claims/]]: The 2 claim pages of Problem 629, one per claimant's result; the problem's standing derives from them.
+[[problems/graph_coloring/E0629/claims/_index|claims/]]: The 3 claim pages of Problem 629, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -53,8 +53,10 @@ https://www.erdosproblems.com/629.
 ## Current assessment
 
 **The question.** The statement asks for the exact value of $n(k)$ for every
-$k$. Exact values are known only for $k\le3$, and the two partial claim pages
-record the instances $k=2$ and $k=3$, so the derived standing is open.
+$k$. Exact values are known only for $k\le3$. Two partial claim pages record
+the instances $k=2$ and $k=3$, and
+[[problems/graph_coloring/E0629/claims/2026_10_19_plasma_ai|a third]] raises
+the lower bound for $k=4$ to $27$, so the derived standing is open.
 
 **Small values.** $n(1)=2$ is the single edge. $n(2)=6$ is stated by Erdős,
 Rubin and Taylor
@@ -81,6 +83,18 @@ Erdős, Rubin and Taylor (p. 129) asserts $m(k)+1<n(k)$ for $k>1$, which would
 give $n(4)\ge25$, but the paper states it without proof, so $25$ is not
 recorded here as a bound.
 
+**Project bound.** The independently examined
+[[theory/combinatorics/L78_bipartite_order_26_four_choosable/_index|L78 proof by Plasma AI]]
+shows that every bipartite graph with at most 26 vertices is 4-choosable,
+giving $n(4)\ge27$ at tier 1, as recorded by its separate passing grade.
+The palette reduction and exact weighted count are self-contained; the
+claim page retains the grade's support, metadata and independence
+qualifications. This lower bound does not determine $n(4)$ or resolve the
+problem. The
+[[research/bipartite_four_list_search/_index|associated search account]]
+records the finite obstruction to small modifications of the order-40
+construction and the limits of the incomplete searches.
+
 **General bounds.** Erdős, Rubin and Taylor print
 $2^{k-1}<m(k)\le n(k)\le2m(k)<k^22^{k+2}$ (in their notation $M_k$ and
 $N(2,k)$). The erdosproblems.com remark writes the upper bound as
@@ -98,6 +112,20 @@ the literature beyond these sources, arXiv, MathSciNet, zbMATH, Google Scholar,
 X. Proofs are compiled at statement level: those of Hanson, MacGillivray and
 Toft were not checked, and Erdős, Rubin and Taylor state their values and
 footnote without proof.
+
+## Scoped deduction
+
+[[theory/combinatorics/L25_bipartite_four_choosability/_index|L25]] gives a
+complete proof of $n(4)\ge26$, using minimal-palette incidence and
+subset-covering counts. Its independent whole-claim examination and
+separate passing grade warrant tier 1; it does not rely on the unproved
+footnote above. The
+[[research/finite_graph_coloring_obstructions/_index|palette restrictions]]
+reduce a hypothetical bad assignment at order 26 to 17 colors with explicit
+side-size and incidence constraints. The separately examined L78 excludes
+those remaining cases, as recorded above. Neither lower bound determines
+$n(4)$ or the values for all $k$.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

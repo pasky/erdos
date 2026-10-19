@@ -27,7 +27,7 @@ assets=$here/../assets
 repo=$(git -C "$here" rev-parse --show-toplevel)
 replay=$repo/library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/Replay.lean
 # the commit the archive was made from
-commit=5b02bf9ab59fd813af8f19c604ba70254fced08d
+commit=4ea44bf911f8668aec10ec25c4b309e8ed476666
 targets=(Erdos408.normal_order_rate Erdos408.erdos_408.parts.i Erdos408.erdos_408.parts.ii)
 [ $# -ge 1 ] && [ $# -le 2 ] || {
     echo "usage: replay.sh WORKDIR [fetch|check]" >&2

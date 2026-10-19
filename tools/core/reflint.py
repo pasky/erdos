@@ -34,7 +34,9 @@ requires it to name a file or folder on disk from the page's folder, spelled
 as the entry is on disk (a target differing in letter case is dangling
 on a case-insensitive host too), after dropping an ``#anchor`` and, when the
 exact target does not resolve, the punctuation a sentence leaves on it; an
-absolute target is a finding, since it survives no clone. Fenced code (a
+absolute target is a finding, since it survives no clone, and so is a target
+that climbs above the repository root at any step, whatever exists outside
+the clone. Fenced code (a
 fence indented three spaces at most), indented code (a block indented four
 columns or more, a tab counting as four, after a blank line and outside a
 list item, whose continuation indents as far), HTML comments, code spans,
@@ -172,7 +174,8 @@ def lint_references(root: pathlib.Path) -> tuple[list[str], list[str]]:
     revision, a marker of that table left unclosed,
     an inline link or link reference definition, outside the filed records,
     whose relative target does not name an entry on disk as it is spelled
-    there, or one whose target is an absolute path, and a tier or status a
+    there, or one whose target is an absolute path or climbs above the root,
+    and a tier or status a
     research-layer page writes beside a claim id that is not the ledger's, or a
     refuted claim cited as a warrant. Nothing is written.
 
@@ -339,9 +342,34 @@ def _inline_links(
             checked += 1
             if target.startswith('/'):
                 issues.append(f'{relative}:{number}: absolute link target {target}')
+            elif _leaves_root(relative, target):
+                issues.append(
+                    f'{relative}:{number}: link target outside the repository {target}'
+                )
             elif not _resolves(path.parent, target):
                 issues.append(f'{relative}:{number}: dangling link target {target}')
     return issues, checked
+
+
+def _leaves_root(relative: str, target: str) -> bool:
+    """Return whether ``target``, read from the page at ``relative``, climbs above the root.
+
+    The climb is walked step by step rather than judged by where it ends, so a
+    target that leaves the repository and comes back in through the checkout's
+    own folder name still leaves it.
+    """
+    # walk the target's steps from the page folder's depth below the root
+    depth = len(pathlib.PurePosixPath(relative).parent.parts)
+    for part in urllib.parse.unquote(target.split('#', 1)[0]).split('/'):
+        if part in ('', '.'):
+            continue
+        if part == '..':
+            depth -= 1
+            if depth < 0:
+                return True
+        else:
+            depth += 1
+    return False
 
 
 def _resolves(folder: pathlib.Path, target: str) -> bool:

@@ -4,9 +4,10 @@ title: Problem 1183
 desc: |
   Asks to estimate the size of the largest monochromatic family closed under
   unions and intersections that every two-coloring of the subsets of
-  $\{1,\ldots,n\}$ must contain. The estimates are open, with nothing proved
-  beyond the trivial chain bound, and two pending 2026 claims answer the
-  displayed questions.
+  $\{1,\ldots,n\}$ must contain. The exact orders remain open. A graded examination supports the
+  claimed superpolynomial union-family lower bound and the subexponential
+  upper argument with its explicit Sauer–Shelah premise; catalog acceptance
+  remains pending.
 tags:
 - Combinatorics
 - Ramsey theory
@@ -14,7 +15,7 @@ status: claimed
 claim: proved
 parts: [superpolynomial, subexponential]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-16T07:25:46Z
 ---
 
 # Problem 1183
@@ -22,6 +23,8 @@ updated: 2026-10-08T01:29:59Z
 [[problems/ramsey_theory/_index|..]]
 
 [[problems/ramsey_theory/E1183/claims/_index|claims/]]: The 2 claim pages of Problem 1183, one per claimant's result; the problem's standing derives from them.
+
+[[problems/ramsey_theory/E1183/evidence/_index|evidence/]]: Whole-proof examination and distinct passing grade for eight union-closed-family conclusions, with the upper bounds explicitly relative to Sauer–Shelah.
 
 ***
 
@@ -61,7 +64,10 @@ record is described in the Current assessment without a claim page, since a
 thread post without a dated manuscript gets none. All three report partial
 results on the two "in particular" questions: Chojecki's claim answers the
 subexponential question yes, and the claim of 30 September 2026 answers both
-yes. The only bounds verified here are two from the origin. One is the trivial
+yes. The [graded union-family examination](evidence/verify/union_closed/_index.md)
+supports the exact arXiv v1 lower arguments and the upper arguments with their
+explicit Sauer–Shelah premise; catalog acceptance remains pending. Two other
+bounds come from the origin. One is the trivial
 $f(n)\ge(n+1)/2$. The other is the origin's Theorem 2, which bounds the number
 of generators with distinct monochromatic unions by $(1+o(1))\log_2n$, and not
 $F(n)$ itself.
@@ -196,15 +202,17 @@ accepted by erdosproblems.com or by a named mathematician:
   day as made using Claude Code, recorded on
   [[problems/ramsey_theory/E1183/claims/2026_09_30_bhattacharjee_mandal_bhattacharya|its claim page]].
   It asserts both of Erdős's conjectures, $F(n)\ge n^{\omega(n)}$ with
-  $\omega(n)\to\infty$ and $F(n)<(1+o(1))^n$, for any number of colors, with
+  $\omega(n)\to\infty$ and $F(n)<(1+o(1))^n$, for each fixed number of colors, with
   explicit bounds and a Lean 4 development whose README says the statements it
   lists are proved without `sorry` (the Zenodo deposit excepts two lemmas,
   replaced by a kernel-evaluated finite check); by their own account the
   orders of $F(n)$ and $f(n)$ stay open. If it holds, both "in particular"
-  questions have the answer yes. Its claim page rests on the repository's
-  README and file listing and the Zenodo and arXiv records; nothing was built
-  or audited, the erdosproblems.com label was unchanged (OPEN), and nothing here
-  depends on it.
+  questions have the answer yes. Its exact arXiv v1 union-family arguments have the
+  [whole-proof examination and distinct passing grade](evidence/verify/union_closed/_index.md).
+  The lower bounds have no unread external theorem premise; the upper bounds
+  retain the supplied finite Sauer–Shelah theorem, whose original proofs were
+  unread. The lattice claims and Lean execution are outside this examination,
+  and catalog acceptance remains pending.
 
 **Search scope.** None of the routes below found a
 refereed result on either function, a disproof, or a proof claim on the
@@ -226,15 +234,16 @@ Not searched: MathSciNet, zbMATH, Google Scholar, X, Semantic Scholar. Not
 identified: Howorka's paper and the Rado--Sanders paper behind the p. 39
 remark.
 
-**Remaining gaps.** (1) Nothing proved bounds $F(n)$ or $f(n)$ from above
-below $2^n$, and nothing bounds them from below beyond the chain; both
-estimates and both "in particular" questions are open as far as refereed or
-erdosproblems.com-accepted sources go. (2) The two 2026 manuscripts and the chat
-record are unreviewed and AI-assisted; Chojecki's would answer the
-subexponential question yes and the Bhattacharjee--Mandal--Bhattacharya preprint
-both questions. (3) Howorka's theorem and the Rado--Sanders result rest on
-[Er78]'s unreferenced attributions. (4) Theorem 2 is compiled as a statement;
-its half-page counting proof is not checked line by line.
+**Remaining gaps.** The exact orders of $F(n)$ and $f(n)$ remain open.
+The Bhattacharjee–Mandal–Bhattacharya arXiv v1 union-family conclusions have the
+[graded proof examination](evidence/verify/union_closed/_index.md), with the
+original Sauer/Shelah proofs unread and retained as an explicit premise for
+all upper descendants. Its source claim remains pending catalog acceptance;
+no examination of the lattice-family results or Lean execution is inferred.
+Chojecki's separate manuscript and the chat record remain unreviewed here.
+Howorka's theorem and the Rado–Sanders result rest on [Er78]'s unreferenced
+attributions. The origin's Theorem 2 is recorded separately and is not silently
+substituted for a family-size upper bound.
 
 <!-- BEGIN problem library links -->
 
@@ -245,5 +254,6 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/_index|erdos_1978_problems_results_combinatorial_analysis_combinatorial_number]]
 - [[../library/extremal_graph_theory/erdos_1978_problems_results_combinatorial_analysis_combinatorial_number/theorem_2|erdos_1978_problems_results_combinatorial_analysis_combinatorial_number / theorem_2]]
+- [[../library/ramsey_theory/bhattacharjee_mandal_bhattacharya_2026_monochromatic_union_closed_families/_index|bhattacharjee_mandal_bhattacharya_2026_monochromatic_union_closed_families]]
 
 <!-- END problem library links -->

@@ -12,14 +12,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 982
 
 [[problems/distance_problems/_index|..]]
 
-[[problems/distance_problems/E0982/claims/_index|claims/]]: The 3 claim pages of Problem 982, one per claimant's result; the problem's standing derives from them.
+[[problems/distance_problems/E0982/claims/_index|claims/]]: The 4 claim pages of Problem 982, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -107,6 +107,24 @@ Erdős's stronger conjecture about convex curves. The first three bounds
 have the claim pages named under Status; the last two results follow the
 erdosproblems.com remarks, and the bound of [NPPZ13], with its unspecified
 $O(1)$, settles no case and has no claim page.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/exact_optimizers|exact
+optimizers and local geometric obstructions]] account records the following
+scope. At n=8 the explicit Dumitrescu bound is ceil(98/36)=3, below the target
+4.
+
+The [[research/leads/concentric_polygon_census/_index|exact symmetric-family
+census]] of Plasma AI, a pending partial claim on
+[[problems/distance_problems/E0982/claims/2026_10_19_plasma_ai|its claim page]],
+excludes counterexamples among two half-step concentric regular
+$m$-gons for $3\le m\le32$ and the specified diagonal stretches of regular
+$n$-gons for $8\le n\le24$. It enumerates all positive critical parameters
+exactly, checks strict convexity and every vertex orbit, and covers the
+generic complement by proof. This is author-recorded finite evidence, without
+independent review; unbounded orders and other families are not exhausted.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

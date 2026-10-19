@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1142
@@ -47,9 +47,21 @@ https://www.erdosproblems.com/1142.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1142.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+For $n>4$, any solution is odd. For an odd prime $q$, let
+$h=\operatorname{ord}_q(2)$ and $H_q=\{2^j\bmod q:1\le j\le h\}$. If $n>q+2^h$
+and $n\bmod q\in H_q$, one of these exponents makes $n-2^j>q$ a multiple of
+$q$, contradicting primality. The equality exceptions $n=q+2^j$ must be
+retained.
+
+Thus $3\mid n$ for solutions $n>7$ and $5\mid n$ for solutions $n>21$; modulo
+seven the residues $1,2,4$ are excluded for $n>15$. But any fixed finite
+collection $S$ of odd test primes leaves arbitrarily large odd multiples of
+$\prod_{q\in S}q$ surviving all these tests, because zero belongs to no $H_q$.
+A fixed-prime sieve cannot prove finiteness. These are exact author deductions
+with no replay of the reported search range. A useful extension must grow the
+moduli and control every prime-equality exception.
 
 ## Known Results
 

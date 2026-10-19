@@ -6,6 +6,11 @@ under `Erdos/` from the filesystem (the same set the lakefile glob
 builds -- a module that fails to import is a hard failure, never
 silence), imports them into a fresh environment, and checks:
 
+0. No audit-library imports: no corpus module may import a
+   non-corpus module of this repository (the audit library under
+   `Audit/`, which shares the Lake package) -- such a constant would
+   enter a statement's surface by name and type only, never
+   expanded, so the surface could miss an edit to it.
 1. Universal axiom hygiene: EVERY constant originating in a
    `Erdos.*` module reaches the kernel through at most
    {propext, Classical.choice, Quot.sound} plus the compiler axioms
@@ -38,8 +43,11 @@ silence), imports them into a fresh environment, and checks:
    `Erdos.L<id>.statement`; a `refutation` must have type
    syntactically `¬ Erdos.L<id>.statement`.
 4. The manifest: `--emit` writes `Manifest.json` (committed);
-   `--check` re-derives it and fails on any difference. Without a
-   flag, checks 1-3 run alone. Each claim row records `depends`: the
+   `--check` re-derives it and fails on any difference; `--print`
+   writes it to standard output between the report lines and the
+   verdict line, whether or not the audit passes, and neither reads
+   nor writes the file (the self-test reads a probe's rows). Without a
+   flag, checks 0-3 run alone. Each claim row records `depends`: the
    kernel dependency check -- the ids of the other claims whose
    namespace constants the claim triple's transitive constant
    closure reaches. The walk expands corpus constants only (a
@@ -563,8 +571,9 @@ unsafe def main (args : List String) : IO UInt32 := do
     | [] => pure "audit"
     | ["--emit"] => pure "emit"
     | ["--check"] => pure "check"
+    | ["--print"] => pure "print"
     | _ => do
-      IO.eprintln "usage: lake exe audit [--emit | --check]"
+      IO.eprintln "usage: lake exe audit [--emit | --check | --print]"
       return 2
   -- enumerate the corpus modules from the filesystem (the lakefile
   -- glob's set); run from lean/
@@ -589,7 +598,7 @@ unsafe def main (args : List String) : IO UInt32 := do
     IO.println s!"NOTE {note}"
   for failure in result.failures do
     IO.println s!"FAIL {failure}"
-  -- manifest emit / check
+  -- manifest emit / print / check
   let mut manifestFailure := false
   if mode != "audit" then
     let rendered := (manifestJson ourModules result).pretty ppWidth ++ "\n"
@@ -599,6 +608,8 @@ unsafe def main (args : List String) : IO UInt32 := do
         IO.println s!"wrote {manifestPath}"
       else
         IO.println s!"FAIL not writing {manifestPath}: the audit is failing"
+    else if mode == "print" then
+      IO.print rendered
     else
       let committed ← try IO.FS.readFile manifestPath catch _ => pure ""
       if committed != rendered then

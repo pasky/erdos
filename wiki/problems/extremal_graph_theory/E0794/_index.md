@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 794
@@ -69,7 +69,7 @@ Current assessment records; this is a bounded negative finding for the exact
 value of $\pi(K_4^-)$, not a certificate of openness.
 
 **Status.** Disproved, by an elementary counterexample to the statement as
-printed. The erdosproblems.com label was DISPROVED (LEAN). It carries a catalog
+printed. The erdosproblems.com label was DISPROVED (LEAN). It carries a
 suffix explained under Formalization: the counterexample has been checked in
 Lean in external files the corpus has not built. The frontmatter standing is
 derived from the accepted claim page
@@ -122,8 +122,8 @@ https://www.erdosproblems.com/794, accessed 2026-09-18.
   2026; abstract read). A preprint on Problem 1 of [FrFu84]; lead,
   recorded below.
 
-**Formalization.** erdosproblems.com's "(Lean)" suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's "(Lean)" suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/794.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/794.lean)
 of formal-conjectures (main on 2026-09-18; the link is pinned to that revision)
 declares

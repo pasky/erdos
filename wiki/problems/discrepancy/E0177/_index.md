@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 177
@@ -93,15 +93,21 @@ $\max_{P_d}\lvert\sum f\rvert=O(d^p)$ for $p<1/2$; the inference to $h(d)$
 is erdosproblems.com's. Beck's 2017 chapter gives $h(d)\le d^{8+\epsilon}$, and
 Korsky's manuscript of September 2026 claims $h(d)\ll d^{5/2+2\sqrt2}$ by a
 weighted refinement of Beck's method, with the mathematical insights
-attributed by its author to GPT Astra. So $d^{1/2}\ll h(d)\ll d^{8+\epsilon}$
-on the accepted and claimed-but-published record, and
-$h(d)\ll d^{5/2+2\sqrt2}$ if Korsky's claim holds.
+attributed by its author to GPT Astra. The lower bound excludes a uniform
+power bound $O(d^p)$ with $p<1/2$; it does not by this argument bound every
+individual $h(d)$ from below. For the monotone envelope
+$H(D)=\max_{d\le D}h(d)$ it gives $H(D)\gg\sqrt D$. The recorded upper
+bound is $h(d)\ll d^{8+\epsilon}$, or $h(d)\ll d^{5/2+2\sqrt2}$ if
+Korsky's claim holds.
 
-**Results without a claim page.** Van der Waerden's theorem implies
-$h(d)\to\infty$: a coloring with bounded sums on every progression would
-have, for each $d$, no monochromatic progression of length exceeding $h(d)$
-and difference $d$, against the theorem. Roth's bound supersedes this
-unquantified growth, so it gets no page. Erdős's 1966 paper also proves, in
+**Results without a claim page.** Van der Waerden's theorem implies that
+$h$ is unbounded: for every $L$ it supplies a monochromatic progression of
+length $L$ and hence some difference $d$ with $h(d)\ge L$. This gives
+$\limsup_d h(d)=\infty$ and divergence of the monotone envelope, rather
+than pointwise divergence by that argument alone. The
+[[research/graph_ramsey_interfaces/discrepancy_quantifiers|difference-parameter account]]
+gives the exact quantifiers and the stronger envelope consequence of Roth's
+corollary. Erdős's 1966 paper also proves, in
 its Section I.9, that the minimax $G(n)$ of
 $\lvert\sum_{k\le m}\varphi(a+kd)\rvert$ over progressions inside $[1,n]$ is
 $O(n^{1/2})$, a bound on a different quantity that settles no instance of

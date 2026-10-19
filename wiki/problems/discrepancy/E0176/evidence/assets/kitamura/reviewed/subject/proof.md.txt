@@ -1,0 +1,148 @@
+# Candidate derivation
+
+## Common objects and conventions
+
+For positive integers N and k, put
+
+    S_d(a) = sum_{j=0}^{k-1} f((a+jd) mod N),  0 <= a < N,
+
+where f takes integer values -1 and 1. An ordinary progression is returned
+only when d is a positive integer and a+(k-1)d<N. Then none of its k indices
+wraps and, since d>0, its k terms are distinct. The cyclic intermediate may
+repeat residues; that is harmless for its moment estimate, and never used to
+claim an ordinary progression without the non-wrap condition.
+
+Translation is exact in both directions: set g(x)=f(x-1) on {1,...,N}.
+The ordinary progression a+jd in [0,N) becomes (a+1)+jd in {1,...,N}, with
+the same d, k and signed sum. Thus the least interval length is unchanged.
+
+For integer S and natural k, coercion into the reals preserves both order and
+squares. Since |S| and sqrt(k) are nonnegative and sqrt(k)^2=k,
+
+    (k : integer) <= S^2  iff  sqrt(k) <= |S|.
+
+Equality is included, in particular for square k. Failure of the square target
+gives S^2<k and hence S^2<=k-1 by integrality. Failure of |S|>=2 gives
+S in {-1,0,1}, hence S^2<=1. These are non-strict target conditions, not the
+strict discrepancy variant excluded by the commission.
+
+For a fixed d the number of wrapping starts is
+min(N,(k-1)d), in particular at most (k-1)d. For every start |S_d(a)|<=k,
+even when the cyclic indices repeat. Consequently, if every non-wrapping
+progression at that difference misses a target with square cap b, then
+
+    E_a S_d(a)^2 <= b + (k^2-b)(k-1)d/N.                 (1)
+
+Here b=1 for discrepancy 2 and b=k-1 for discrepancy sqrt(k). Both have
+k^2-b>=0 on their used domains. No hypothesis d<N, gcd(d,N)=1, primality
+of N, or (k-1)d<N is needed for this estimate; if all starts wrap, its upper
+bound is merely loose.
+
+## The common finite Fourier and Fejer argument
+
+For |z|=1 define G_d(z)=sum_{j=0}^{k-1} z^(jd). For an integer D>=0 let
+w_d=1-d/(D+1), 1<=d<=D. Consider the nonnegative pair sum
+
+    Q = sum_{p,q=0}^{k-1} (1/(D+1))
+          |sum_{r=0}^D (z^p conjugate(z^q))^r|^2.
+
+Each of its k diagonal terms is D+1, so Q>=k(D+1). Expand each squared
+modulus into r,s terms and interchange the four finite sums. The p,q sum
+becomes |G_{r-s}(z)|^2. The r=s contribution is k^2 after division by D+1.
+For each 1<=d<=D the differences +d and -d occur D+1-d times each and
+have the same squared modulus. Thus
+
+    Q = k^2 + 2 sum_{d=1}^D w_d |G_d(z)|^2,
+
+and therefore
+
+    sum_{d=1}^D w_d |G_d(z)|^2 >= (k(D+1)-k^2)/2.       (2)
+
+Since 0<=w_d<=1, the same lower bound holds without weights. In nk2,
+Basic.lean proves the unweighted inequality through an upper estimate on
+Q; nksqrtk Sqrt.lean preserves the exact weighted identity. The local
+`casselsGeomLowerClaim` is proved by `casselsGeomLowerClaim_true`, not
+left as an assumption of the final theorem. No external Cassels or Turan
+paper is a mathematical premise of these source declarations.
+
+For completeness the Fourier step has an elementary finite formulation.
+Choose omega=exp(2*pi*i/N), and for t in {0,...,N-1} set
+fhat(t)=N^(-1) sum_a f(a) omega^(-ta). The finite geometric sum gives
+N^(-1)sum_a omega^((t-u)a)=1 if t=u and 0 otherwise. It yields inversion
+and Parseval, including sum_t |fhat(t)|^2=N^(-1)sum_a|f(a)|^2=1. For each d,
+
+    E_a |S_d(a)|^2 = sum_t |fhat(t)|^2 |G_d(omega^t)|^2.
+
+Multiply (2) by these nonnegative Fourier masses and sum. Both the weighted
+and unweighted cyclic second moments have the lower bound in (2).
+
+[cut]
+
+## Discrepancy 2
+
+Assume there is no ordinary k-term AP with |sum f|>=2. Average (1), with
+b=1, uniformly over d=1,...,D, then take D=2k. The upper bound is
+
+    U = 1 + (k^2-1)(k-1)(2k+1)/(2N).
+
+The unweighted version of (2), divided by 2k, gives L=(k+1)/4. For k>3,
+
+    U<L iff N > 2(k^2-1)(k-1)(2k+1)/(k-3).             (3)
+
+For the public theorem k>=5, all factors and the denominator are positive.
+The chosen N=floor(right side of (3))+1 strictly exceeds that real
+threshold, even when the threshold is integral. This contradiction produces
+a positive difference in 1,...,2k and a non-wrapping start. The property
+is proved before `Nat.find` defines the least N, so existence is not a
+default value hidden in the definition.
+
+The k=2,3,4 values are a separate finite assertion. The source checks Boolean
+`exactAtCode`, whose bridge to arbitrary signs is straightforward but not
+formalized there: code=sum_{x:f(x)=1}2^x lies in [0,2^N), every code gives
+such a sign coloring, and binary digits recover every f. For k>=2 an
+admissible progression necessarily has d<N. Thus the source's a,d<N loops
+exhaust all ordinary progressions. Its endpoint test implies every j<k is
+in range, so the fold that skips out-of-range points actually skips none on
+accepted candidates. `goodCode` is therefore the universal sign-coloring
+property, and `allBeforeFalse` rules it out at every smaller length. N=0
+also fails: there is an empty coloring but no progression.
+
+[cut]
+
+| k | All tested lengths | Minimum | Avoiding coloring at length one less |
+| --- | --- | --- | --- |
+| 2 | 0,...,3 | 3 | -+ |
+| 3 | 0,...,9 | 9 | --++--++ |
+| 4 | 0,...,13 | 13 | --++--++--++ |
+
+[cut]
+
+## Discrepancy sqrt(k)
+
+Assume every ordinary k-term AP fails S^2>=k. Weight (1), with b=k-1, by
+w_d and sum. The identities
+
+    sum_d w_d = D/2,       sum_d d*w_d = D(D+2)/6
+
+follow by subtracting the standard sums of d and d^2. Write
+A=(k^2-k+1)(k-1). The resulting upper and lower bounds are
+
+    U = (k-1)D/2 + A*D(D+2)/(6N),
+    L = (k(D+1)-k^2)/2.
+
+Put K=k(k-1) and D=2K. Then L-(k-1)D/2=K/2>0 for k>=2. Hence U<L is
+equivalent to
+
+    N > (4/3)(k^2-k+1)(k-1)(k(k-1)+1).                (4)
+
+Again floor(threshold)+1 ensures the strict inequality needed for the
+contradiction while the returned discrepancy inequality remains non-strict.
+The source gives a positive difference at most 2k(k-1), then proves the
+universal property before forming its least N with `Nat.find`.
+
+For k=1 the actual quantity is 1: at N=1 take a=0,d=1. This is an ordinary
+one-term AP, with |sum f|=1=sqrt(1). The source public abbreviation
+`N176Sqrt 1` is instead its declared fallback 0, so it must not be cited
+as the actual quantity outside k>=2. The stated bound has that restriction
+and does not rely on the fallback. Likewise `N176` has fallback 0 below
+k=5; the small-case claims use separate definitions.

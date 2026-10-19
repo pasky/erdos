@@ -1,0 +1,541 @@
+{
+  "scope": "61 fixed-slope divisor cases; no interval of rows searched",
+  "conclusion_index_4": "Every bad triple has 4|n or 9|n (elementary proof in note)",
+  "conclusion_index_5": "Every bad triple has 8|n or 9|n",
+  "case_count": 61,
+  "largest_fixed_divisor_constant": 782595,
+  "surviving_candidates_and_common_primes": [
+    {
+      "n": 28,
+      "j": 7,
+      "common_prime": 5,
+      "binomial_valuations": [
+        1,
+        1
+      ]
+    },
+    {
+      "n": 210,
+      "j": 77,
+      "common_prime": 7,
+      "binomial_valuations": [
+        1,
+        1
+      ]
+    },
+    {
+      "n": 780,
+      "j": 247,
+      "common_prime": 7,
+      "binomial_valuations": [
+        1,
+        1
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "a": 1,
+      "q": 2,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -1,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 2,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -1,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 2,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": 9,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 3,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -2,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 3,
+      "n_mod_6": 3,
+      "t": 2,
+      "farey_product": 8,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 4,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -3,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 4,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -3,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 4,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": -135,
+      "candidates": [
+        [
+          28,
+          7
+        ]
+      ]
+    },
+    {
+      "a": 1,
+      "q": 5,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -4,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 5,
+      "n_mod_6": 1,
+      "t": 2,
+      "farey_product": 48,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 5,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -4,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 5,
+      "n_mod_6": 3,
+      "t": 2,
+      "farey_product": 48,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 5,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": -504,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 5,
+      "n_mod_6": 5,
+      "t": 4,
+      "farey_product": 4224,
+      "candidates": []
+    },
+    {
+      "a": 2,
+      "q": 5,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -6,
+      "candidates": []
+    },
+    {
+      "a": 2,
+      "q": 5,
+      "n_mod_6": 1,
+      "t": 2,
+      "farey_product": 24,
+      "candidates": []
+    },
+    {
+      "a": 2,
+      "q": 5,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -6,
+      "candidates": []
+    },
+    {
+      "a": 2,
+      "q": 5,
+      "n_mod_6": 3,
+      "t": 2,
+      "farey_product": 24,
+      "candidates": []
+    },
+    {
+      "a": 2,
+      "q": 5,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": 216,
+      "candidates": []
+    },
+    {
+      "a": 2,
+      "q": 5,
+      "n_mod_6": 5,
+      "t": 4,
+      "farey_product": -4032,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 6,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -5,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 10,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -9,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 10,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -9,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 10,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": -9639,
+      "candidates": []
+    },
+    {
+      "a": 3,
+      "q": 10,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -21,
+      "candidates": []
+    },
+    {
+      "a": 3,
+      "q": 10,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -21,
+      "candidates": []
+    },
+    {
+      "a": 3,
+      "q": 10,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": -2079,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 12,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -11,
+      "candidates": []
+    },
+    {
+      "a": 5,
+      "q": 12,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -35,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 15,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -14,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 15,
+      "n_mod_6": 3,
+      "t": 2,
+      "farey_product": 728,
+      "candidates": []
+    },
+    {
+      "a": 2,
+      "q": 15,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -26,
+      "candidates": []
+    },
+    {
+      "a": 2,
+      "q": 15,
+      "n_mod_6": 3,
+      "t": 2,
+      "farey_product": 1144,
+      "candidates": []
+    },
+    {
+      "a": 4,
+      "q": 15,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -44,
+      "candidates": []
+    },
+    {
+      "a": 4,
+      "q": 15,
+      "n_mod_6": 3,
+      "t": 2,
+      "farey_product": 1232,
+      "candidates": []
+    },
+    {
+      "a": 7,
+      "q": 15,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -56,
+      "candidates": []
+    },
+    {
+      "a": 7,
+      "q": 15,
+      "n_mod_6": 3,
+      "t": 2,
+      "farey_product": 224,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 20,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -19,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 20,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -19,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 20,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": -107559,
+      "candidates": []
+    },
+    {
+      "a": 3,
+      "q": 20,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -51,
+      "candidates": []
+    },
+    {
+      "a": 3,
+      "q": 20,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -51,
+      "candidates": []
+    },
+    {
+      "a": 3,
+      "q": 20,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": -156519,
+      "candidates": []
+    },
+    {
+      "a": 7,
+      "q": 20,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -91,
+      "candidates": []
+    },
+    {
+      "a": 7,
+      "q": 20,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -91,
+      "candidates": []
+    },
+    {
+      "a": 7,
+      "q": 20,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": 15561,
+      "candidates": []
+    },
+    {
+      "a": 9,
+      "q": 20,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -99,
+      "candidates": []
+    },
+    {
+      "a": 9,
+      "q": 20,
+      "n_mod_6": 2,
+      "t": 1,
+      "farey_product": -99,
+      "candidates": []
+    },
+    {
+      "a": 9,
+      "q": 20,
+      "n_mod_6": 4,
+      "t": 3,
+      "farey_product": 81081,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 30,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -29,
+      "candidates": []
+    },
+    {
+      "a": 7,
+      "q": 30,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -161,
+      "candidates": []
+    },
+    {
+      "a": 11,
+      "q": 30,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -209,
+      "candidates": [
+        [
+          210,
+          77
+        ]
+      ]
+    },
+    {
+      "a": 13,
+      "q": 30,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -221,
+      "candidates": []
+    },
+    {
+      "a": 1,
+      "q": 60,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -59,
+      "candidates": []
+    },
+    {
+      "a": 7,
+      "q": 60,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -371,
+      "candidates": []
+    },
+    {
+      "a": 11,
+      "q": 60,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -539,
+      "candidates": []
+    },
+    {
+      "a": 13,
+      "q": 60,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -611,
+      "candidates": []
+    },
+    {
+      "a": 17,
+      "q": 60,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -731,
+      "candidates": []
+    },
+    {
+      "a": 19,
+      "q": 60,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -779,
+      "candidates": [
+        [
+          780,
+          247
+        ]
+      ]
+    },
+    {
+      "a": 23,
+      "q": 60,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -851,
+      "candidates": []
+    },
+    {
+      "a": 29,
+      "q": 60,
+      "n_mod_6": 0,
+      "t": 1,
+      "farey_product": -899,
+      "candidates": []
+    }
+  ]
+}

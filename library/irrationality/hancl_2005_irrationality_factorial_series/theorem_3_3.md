@@ -6,7 +6,7 @@ desc: |
   real polynomial P and the sum of f(N) over the products of an plus b is
   rational, then every coefficient of P is rational.
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -44,4 +44,4 @@ $a_U$ (irrational) plus $O(1/N)$, which is impossible for large $N$.
 $\sum[P(N)]/N!$ is irrational for a real polynomial with nonnegative
 coefficients and positive leading coefficient.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

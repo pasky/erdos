@@ -11,7 +11,7 @@ status: claimed
 claim: proved
 parts: [coprime]
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1110
@@ -131,6 +131,18 @@ erdosproblems.com page, its proof-claims thread, the claimants' postings and
 the formal-conjectures statement file; the statements attributed above to Yu
 and Chen [YuCh22] and to Yang and Zhao [YaZh25] follow the erdosproblems.com
 remarks, not the papers.
+
+## Route analysis
+
+The
+[[research/diophantine_representation_interfaces/nondividing_sums|nondividing
+smooth sums and density implications]] account records the following scope.
+Density zero of representables would imply an infinite pairwise-coprime family
+of exceptions prime to $pq$. The note distinguishes the unrestricted
+rectangle sentence from the two size conditions of the claimed embedding.
+The primary lemma and recursion remain uninspected here; the development's
+standing remains claimed.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -6,7 +6,7 @@ desc: |
   generic value psi(T) is represented by phi over F(T) exactly when psi is
   isometric to a subform of phi, and then dim psi <= dim phi.
 created: 2026-10-08T17:07:24Z
-updated: 2026-10-08T17:07:24Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -70,4 +70,14 @@ here is independently reviewed.
 
 ## Bears on
 
-No problem page of this corpus.
+- [[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]]: the
+  corpus's note
+  [[../wiki/research/erdos_940/quadratic_compression|on quadratic compression]]
+  uses the implication (2) to (3), with
+  [[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/corollary_18_5|Springer's Theorem]],
+  to show that for $r=2k$ with $k$ odd a diagonal form
+  $\sum_{i=1}^rd_iX_i^r$ with positive rational $d_i$ is not
+  $Q(G_1,\ldots,G_m)$ for any positive-definite rational quadratic form $Q$ of
+  dimension $m<r$ and rational functions $G_i$. That limits one construction
+  strategy for the problem; the theorem says nothing about $r$-powerful
+  numbers, and neither it nor the note settles any case of the problem.

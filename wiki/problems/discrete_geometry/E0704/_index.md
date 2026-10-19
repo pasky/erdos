@@ -15,7 +15,7 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T12:25:21Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 704
@@ -128,6 +128,16 @@ theorem between arbitrary and measurable colorings is stated for the plane.
 Search scope: the erdosproblems.com page and proof-claims thread, and the
 release of 23 September 2026; no further literature search. A search of arXiv's
 new mathematics listings found Davies's preprint.
+
+## Route analysis
+
+The [[research/geometric_configuration_interfaces/colorings|Finite geometric
+colorings and nonuniform witness sizes]] account records the following scope.
+A direct product of proper one-dimensional unit-distance colorings need not
+color the plane properly: $c(x)=\lfloor x\rfloor\bmod2$ is proper on the line,
+but its product gives $(0,0)$ and $(1/\sqrt2,1/\sqrt2)$ the same color at
+Euclidean distance one. This rules out that construction, without deciding
+a numerical submultiplicativity inequality for chromatic numbers.
 
 <!-- BEGIN problem library links -->
 

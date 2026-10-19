@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T00:14:27Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 893
@@ -77,6 +77,29 @@ derive $f(2n)/f(n)\to\infty$ from either of two unproven conjectures
 ([[problems/divisors/E0893/claims/2025_06_05_kovac_luca_conditional|conditional claim page]]),
 and their computations support divergence. Erdős [Er98] expected no simple
 asymptotic formula for $f(n)$, since it grows too fast.
+
+## Finite reductions and uniformity requirements
+
+Let $N$ be the earliest index maximizing $\tau(2^k-1)$ for $k\le n$. Then $N$
+is a strict record and $N>n/2$: otherwise the coprime factorization
+$(2^N-1)(2^N+1)$ would give a larger value at $2N\le n$. Therefore
+
+$$
+\frac{f(2n)-f(n)}{f(n)}
+ \ge\frac{\tau(2^{2N}-1)}{n\tau(2^N-1)}
+ =\frac{\tau(2^N+1)}n
+ \ge\frac{\tau(2^N+1)}{2N}.
+$$
+
+This reproduces the inspected reduction in
+[[../library/divisors/kovac_2025_number_divisors_mersenne_numbers/_index|Kovač–Luca,
+Section 3.1]]. It would prove the desired limit from $\tau(2^N+1)/N\to\infty$
+along all strict records, which is their unproved Conjecture 1. A lower
+comparison with their auxiliary function proves unbounded limsup by excluding
+polynomial growth; it cannot compare ratios without an upper bound on the
+denominator. The all-large-$n$ record estimate remains missing. This account
+adds no independent verification of the source.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

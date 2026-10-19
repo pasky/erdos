@@ -5,7 +5,7 @@ desc: |
   Graphs of girth at least six on the double torus are 3-colorable; the paper
   gives only an outline of the proof, through (4,6)-restricted graphs.
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -54,4 +54,4 @@ structure of the low-degree part of a critical graph.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

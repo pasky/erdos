@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T23:33:05Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 719
@@ -106,6 +106,15 @@ erdosproblems.com problem page, discussion thread (one comment) and proof-claims
 tab (one claim), the community database entry (teorth/erdosproblems), the
 formal-conjectures statement file, the lean-proofs catalog, and the cards of
 [Er81] and [EGP66]. None of them showed another claim on the problem.
+
+## Scoped deduction
+
+The [[research/methods/finite_set_thresholds|maximal-packing calculation]]
+shows the precise loss in the greedy route: maximality guarantees only
+$(e-\mathrm{ex}_r)/(r+1)$ cliques, while the requested piece count needs
+$(e-\mathrm{ex}_r)/r$. This elementary obstruction supplies no new
+counterexample or packing improvement.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 25: Wang: A Proposed Solution to Erdős Problem 
 tags: []
 sources: []
 created: 2026-09-24T22:18:28Z
-updated: 2026-09-24T22:18:28Z
+updated: 2026-10-13T05:28:09Z
 ---
 
 # Wang: A Proposed Solution to Erdős Problem 486
@@ -137,16 +137,34 @@ inclusive conventions have the same logarithmic-density behavior, since their
 difference has harmonic sum $o(\log x)$. Activation convention is therefore
 not the obstruction to transferring the counterexample.
 
-The paper's blocks are not singleton blocks. In Lemma 3.4, $q_{j,m}=q_{K(m)}$,
-so all endpoints with the same label set $K(m)=S$ use the same modulus and
-become distinct elements of the multi-residue set $X_{q_S}$. There are at most
-$|\mathcal S_k|\le2^k=\exp(O(\sqrt j))$ available moduli at scale $j$, while
-$|E_j|\ge3\cdot2^j/8$. Retaining at most one endpoint per modulus would
-therefore leave only $\exp(O(\sqrt j))$ endpoints of size $\asymp2^j$, losing
-the fixed harmonic deletion required in (4.5). Remark 4.1 also explicitly
-counts the many residue classes through $|X_q|$. No argument is given for
-replacing repeated uses of $q_S$ by distinct moduli while preserving the
-small-footprint estimate of Lemma 3.3.
+Several components are directly usable for E25. Lemma 2.1 applies verbatim to
+a finite singleton system $Y_{n_i}=\{a_i\}$, identifying its recovered
+logarithmic density with
+
+$$
+1-\mu\!\left(\bigcup_i[a_i]_{n_i}\right).
+$$
+
+Sections 4.1 and 4.3 then give a general gliding-hump principle: after finitely
+many singleton classes have recovered, later moduli can be placed above the
+chosen cutoff and are inactive below it. Likewise, the deletion argument of
+Section 4.4 would transfer if one could construct singleton blocks having (i)
+a fixed positive local harmonic deletion, (ii) summably small completed
+periodic footprints, (iii) moduli below their deleted endpoints, and (iv)
+separation between scales.
+
+The paper does not supply such singleton blocks. In Lemma 3.4,
+$q_{j,m}=q_{K(m)}$, so all endpoints with the same label set $K(m)=S$ use the
+same modulus and become distinct elements of the multi-residue set $X_{q_S}$.
+There are at most $|\mathcal S_k|\le2^k=\exp(O(\sqrt j))$ available moduli at
+scale $j$, while $|E_j|\ge3\cdot2^j/8$. Retaining at most one endpoint per
+modulus would therefore leave only $\exp(O(\sqrt j))$ endpoints of size
+$\asymp2^j$, losing the fixed harmonic deletion required in (4.5). Remark 4.1
+also explicitly counts the many residue classes through $|X_q|$. No argument
+is given for replacing repeated uses of $q_S$ by distinct moduli while
+preserving the small-footprint estimate of Lemma 3.3.
 
 Consequently, Theorem 1.1 is a counterexample only for the multi-residue
-generalization.
+generalization. Its concrete contribution to E25 is the recovery-and-epoch
+framework and a sharply identified missing ingredient: a singleton analog of
+the finite block in Lemma 3.4.

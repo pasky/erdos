@@ -12,12 +12,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 44
 
 [[problems/additive_bases/_index|..]]
+
+[[problems/additive_bases/E0044/claims/_index|claims/]]: The 1 claim page of Problem 44, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -45,13 +47,21 @@ https://www.erdosproblems.com/44.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/44.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/sidon_extension_interfaces/finite_extremality|finite sidon
+extremality and prefix extension]] account records the following scope. The
+author-recorded L31 extends every fixed strong Sidon prefix to arbitrarily large
+intervals with coefficient $1/\sqrt2$, using Singer sets. This extension is
+Plasma AI's pending partial claim on
+[[problems/additive_bases/E0044/claims/2026_10_19_plasma_ai|its claim page]].
+It leaves the coefficient $1$ and the newly exposed mixed equations unresolved.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 940: Voight: Quaternion algebras over global fie
 tags: []
 sources: []
 created: 2026-09-24T22:18:29Z
-updated: 2026-09-24T22:18:29Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Voight: Quaternion algebras over global fields
@@ -86,6 +86,16 @@ not develop counting or density estimates.
 This source bears on
 [Problem 940](../../../problems/diophantine_problems/E0940/_index.md).
 
+The current E940 research uses Proposition 14.2.1 and Corollary 14.2.3
+directly in its (r=4) elimination lemma. For a positive-definite rational
+quaternary quadratic form of square determinant, the associated quaternion
+algebra is ramified at the real place; Hilbert reciprocity forces ramification
+at some finite place. This contradicts the local isotropy forced by a
+putative representation in the chosen congruence class and is one ingredient
+in the proposed positive-lower-density complement theorem for sums of four
+4-powerful numbers. The source supplies the reciprocity theorem, not the
+E940-specific local calculations or density argument.
+
 Write E940’s set as
 
 $$
@@ -101,11 +111,20 @@ reciprocity, or norm theorems proves a density statement for E940.
 
 The nearest result is Theorem 14.3.8 (p. 226), an exact characterization of sums
 of three squares. It concerns quadratic variables and all integers, not sums of
-three $3$-powerful numbers.
+three $3$-powerful numbers. Even if a proposed E940 argument reduced some
+auxiliary condition to the rational solvability of a quadratic form, Theorem
+14.3.3 (p. 223; proof p. 225) or Theorem 14.6.9 (p. 233) could replace that
+rational solvability question by local ones. Proposition 14.6.7 (p. 232) could
+likewise test a quadratic-field embedding or norm construction through ramified
+places, and Main Theorem 14.7.4 (p. 234) could characterize reduced norms by
+signs at ramified real places. These tools might certify individual auxiliary
+representations, but they supply neither uniform integral control nor bounds for
+the number of represented integers.
 
-Hasse–Minkowski concerns isotropy over a global field, whereas E940 imposes
-integral prime-exponent restrictions on each summand. The passage from rational
-to integral solutions in Theorem 14.3.8 uses a special maximal-order argument
-for three squares and does not extend here to higher powers or to $r$-powerful
-summands. The chapter’s relation to the unresolved density problem is therefore
-indirect and weak.
+In particular, Hasse–Minkowski concerns isotropy over a global field, whereas
+E940 imposes integral prime-exponent restrictions on each summand. The passage
+from rational to integral solutions in Theorem 14.3.8 uses a special
+maximal-order argument for three squares and does not extend here to higher
+powers or to $r$-powerful summands. The paper was therefore consulted as
+background for possible local obstructions and norm-form reformulations; its
+relation to the unresolved density problem is indirect and weak.

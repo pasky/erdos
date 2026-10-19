@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 89
@@ -87,6 +87,16 @@ https://www.erdosproblems.com/89.
   broader literature search is recorded.
 - **Proof coverage and review.** None: the problem is open, and no proof is
   held or reviewed.
+
+## Route analysis
+
+The [[research/distance_multiplicity_interfaces/counts|Distance counts,
+multiplicities and pinned occupancy]] account records the following scope.
+Cauchy--Schwarz with the held distance-energy estimate gives order $n/\log n$
+distinct distances. A uniform improvement to energy $O(n^3\sqrt{\log n})$ is
+false for square grids, so this particular shortcut cannot reach the conjectured
+scale.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

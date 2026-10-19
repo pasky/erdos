@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 1007
@@ -41,8 +41,8 @@ if two vertices are distance 1 apart, so $G$ is not necessarily induced", p.
 Formalization (an injective map with adjacent vertices at distance $1$). The
 three conventions agree, so no Formulation qualification is needed. The
 question asks for a number, and Bloom's catalog labeled it SOLVED, its label for
-a resolution that is neither a proof nor a disproof; the suffix "(LEAN)" is a
-catalog label explained under Formalization.
+a resolution that is neither a proof nor a disproof; the suffix "(LEAN)" is an
+erdosproblems.com label explained under Formalization.
 
 **Status.** SOLVED (LEAN). The smallest number of edges is $9$, attained only by
 $K_{3,3}$ among graphs without isolated vertices.
@@ -129,28 +129,27 @@ and its empty proof-claim tab. Cite as: T. F. Bloom, Erdős Problem
   Graphs and Combinatorics (2017), doi:10.1007/s00373-017-1854-8. A citing paper
   found by title (the next dimension); title and record only; not held.
 
-**Formalization.** erdosproblems.com's "(LEAN)" suffix is a catalog label. The
-file
+**Formalization.** erdosproblems.com's "(LEAN)" suffix is an erdosproblems.com
+label. The file
 [`ErdosProblems/1007.lean`](https://github.com/google-deepmind/formal-conjectures/blob/468a1438e567ae6dd1d733cfbecacdd3b33afaed/FormalConjectures/ErdosProblems/1007.lean)
-of formal-conjectures, at the revision of main of 2026-09-18
-(the link is pinned to it), declares
+of formal-conjectures, at the revision of main of 2026-09-18 (the link is pinned
+to it), declares
 `erdos_1007 : IsLeast {m | ∃ (n : ℕ) (G : SimpleGraph (Fin n)), G.HasDimension 4 ∧ G.edgeSet.ncard = m} 9`
 under `category research solved, AMS 5 52`, with proof `sorry` and a
 `formal_proof` attribute naming
 [`src/v4.29.1/ErdosProblems/Erdos1007.lean`](https://github.com/plby/lean-proofs/blob/8822f7ddef30fadbd92e1c6ab4ed897af356af5e/src/v4.29.1/ErdosProblems/Erdos1007.lean)
 in Boris Alexeev's repository plby/lean-proofs, on its `main` branch (an
 unpinned link; this page's link is pinned to the revision of 2026-09-18),
-together with the variants `dimension_four_extremal` (a dimension-4 graph
-with nine edges and no isolated vertex is isomorphic to $K_{3,3}$),
-`dimension_five` (`IsLeast ... 15`) and `dimension_five_extremal` ($K_6$ and
-$K_{1,3,3}$ have dimension $5$ and fifteen edges), all `research solved`
-with proof `sorry`. The collection's `HasDimension` is defined in its
-utility library. The external file at the repository's head of 2026-09-15
-(the pinned link above) has 1,101 lines, is headed
-`leanprover/lean4:v4.29.1 mathlib v4.29.1` with `import Mathlib` its only
-import, and names House, Chaffee and Noble as informal authors and, as
-formal authors, the automated theorem-proving system Aristotle and Alexeev.
-It defines
+together with the variants `dimension_four_extremal` (a dimension-4 graph with
+nine edges and no isolated vertex is isomorphic to $K_{3,3}$), `dimension_five`
+(`IsLeast ... 15`) and `dimension_five_extremal` ($K_6$ and $K_{1,3,3}$ have
+dimension $5$ and fifteen edges), all `research solved` with proof `sorry`. The
+collection's `HasDimension` is defined in its utility library. The external file
+at the repository's head of 2026-09-15 (the pinned link above) has 1,101 lines,
+is headed `leanprover/lean4:v4.29.1 mathlib v4.29.1` with `import Mathlib` its
+only import, and names House, Chaffee and Noble as informal authors and, as
+formal authors, the automated theorem-proving system Aristotle and Alexeev. It
+defines
 `IsUnitDistanceEmbedding G d f := Function.Injective f ∧ ∀ {u v}, G.Adj u v → dist (f u) (f v) = 1`,
 `HasUnitDistanceEmbedding G d := ∃ f, IsUnitDistanceEmbedding G d f` and
 `GraphDimension G := sInf {d | HasUnitDistanceEmbedding G d}`, proves
@@ -159,29 +158,28 @@ It defines
 $\mathbb R^3$), and ends with
 `theorem erdos_1007 : IsLeast {n : ℕ | ∃ (V : Type) (_ : Fintype V) (_ : DecidableEq V) (G : SimpleGraph V), GraphDimension G = 4 ∧ G.edgeFinset.card = n} 9`
 (line 1085), followed by a `#print axioms` comment recording `propext`,
-`Classical.choice` and `Quot.sound`. It contains no `sorry`,
-`axiom`, `native_decide` or `unsafe`. Its `GraphDimension` is its own
-definition, not the collection's `HasDimension`, and neither file states a
-bridge between the two. The repository's note
-`ErdosProblems/Erdos1007.md` at the same revision lists copies of the proof
-for Mathlib/Lean v4.24.0, v4.29.1, v4.30.0, v4.32.0 and v4.33.0; the
-thread's link of 19 January 2026 points at the v4.24.0 copy. No build or
-audit of the file by this corpus is recorded, and no `formalized` evidence
-is claimed. Because the file names House, Chaffee and Noble as the informal
-authors of what it proves, it is recorded as a formalization link on their
-two claim pages and not as a claim of its own. On 2026-09-23 the collection's
-variant `dimension_four_extremal` gained a `formal_proof` attribute naming
-the Lean development Dishah3241/Erdos1007 (its file
-`Erdos1007/Standalone/Mathlib/InlineErdos1007Proof.lean`, whose target
-theorem names Theorem 7 of Chaffee and Noble; linked from
+`Classical.choice` and `Quot.sound`. It contains no `sorry`, `axiom`,
+`native_decide` or `unsafe`. Its `GraphDimension` is its own definition, not the
+collection's `HasDimension`, and neither file states a bridge between the two.
+The repository's note `ErdosProblems/Erdos1007.md` at the same revision lists
+copies of the proof for Mathlib/Lean v4.24.0, v4.29.1, v4.30.0, v4.32.0 and
+v4.33.0; the thread's link of 19 January 2026 points at the v4.24.0 copy. No
+build or audit of the file by this corpus is recorded, and no `formalized`
+evidence is claimed. Because the file names House, Chaffee and Noble as the
+informal authors of what it proves, it is recorded as a formalization link on
+their two claim pages and not as a claim of its own. On 2026-09-23 the
+collection's variant `dimension_four_extremal` gained a `formal_proof` attribute
+naming the Lean development Dishah3241/Erdos1007 (its file
+`Erdos1007/Standalone/Mathlib/InlineErdos1007Proof.lean`, whose target theorem
+names Theorem 7 of Chaffee and Noble; linked from
 [[problems/extremal_graph_theory/E1007/claims/2016_02_01_chaffee_noble|their claim page]]),
-and on 2026-09-27 the variants `dimension_five` and
-`dimension_five_extremal` gained attributes naming Dishah3241/Erdos1007Dim5;
-the four statements themselves kept proof `sorry` at main on 2026-10-07. The
-community database (teorth/erdosproblems, 2026-09-18) lists `status` "solved
-(Lean)" and `formal_status` Lean with no URL, each as of its last update on 19
-January 2026, and the statement as formalized as of its last update on 5 August
-2026; the erdosproblems.com indicator says a formalized statement exists.
+and on 2026-09-27 the variants `dimension_five` and `dimension_five_extremal`
+gained attributes naming Dishah3241/Erdos1007Dim5; the four statements
+themselves kept proof `sorry` at main on 2026-10-07. The community database
+(teorth/erdosproblems, 2026-09-18) lists `status` "solved (Lean)" and
+`formal_status` Lean with no URL, each as of its last update on 19 January 2026,
+and the statement as formalized as of its last update on 5 August 2026; the
+erdosproblems.com indicator says a formalized statement exists.
 
 ## Current assessment
 

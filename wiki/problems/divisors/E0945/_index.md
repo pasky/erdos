@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:33:46Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 945
@@ -72,6 +72,25 @@ give $F(x)\ll(\log x)^2$. That is a conditional yes to whether
 $F(x)\le(\log x)^{O(1)}$, but no manuscript of it is linked, so it has no
 claim page. Erdős [Er85e] said the lower bound could be raised to
 $(\log x)^{1-o(1)}$ but gave no proof.
+
+## Finite reductions and uniformity requirements
+
+A uniform squarefree-gap bound would give the needed local collision mechanism.
+Suppose every block of $H$ consecutive integers in $[x,2x]$ contains a
+squarefree number, and put $R=\lfloor\log_2(2x)\rfloor+1$. In any run of
+$(R+1)H$ integers contained in that range, disjoint blocks provide $R+1$
+squarefree numbers. Their divisor counts have the form $2^{\omega(m)}$ and take
+at most $R$ values, since $2^{\omega(m)}\le m\le2x$. Two counts coincide.
+
+Thus a uniform $H\ll\log x$ would give a local $O(\log^2x)$ collision bound.
+Global squarefree density does not imply this premise. The
+[[../library/divisors/erdos_1952_distribution_values_divisor_function/theorem_v|held
+global divisor-value bound]] is still superpolylogarithmic; its result account
+was read, not its primary proof. The displayed implication is complete at
+author standing, while the local squarefree supply remains unproved. A
+different locally guaranteed class with few divisor-count values could replace
+it.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

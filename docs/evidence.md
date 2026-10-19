@@ -8,7 +8,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-05T04:32:22Z
-updated: 2026-09-05T04:32:22Z
+updated: 2026-10-19T09:09:39Z
 ---
 
 # evidence
@@ -177,9 +177,9 @@ line among its leading comments, after any shebang and before the docstring:
 for one that needs external supervision or dedicated machine time, `historical`
 for one that read an earlier text, which its page dates, and is never run,
 `lean` for one that needs the built Lean project, `entry` to enroll a program
-not named `main.py`, and `args <argv>` for documented full-check arguments.
-Without a line the program runs in both modes and needs only the repository
-environment.
+other than a `main.py` under an `evidence/` folder, and `args <argv>` for
+documented full-check arguments. Without a line the program runs in both modes
+and needs only the repository environment.
 
 Checks must test the stated property and have meaningful failure cases. A bound
 or enclosure routine must fail on exhausted limits rather than returning an
@@ -258,14 +258,14 @@ The rules below are specific to this repository and hold in addition to the
 shared text above; a sentence that differs from the shared text says that it
 governs here.
 
-Here the target problem is a catalog problem, identified by its E-number under
-[[anatomy]]; the recorded mathematical status of the target is the `status` and
-`claim` of its problem page, derived from its claim pages, and the dependent
-conclusions a changed premise can affect are problem conclusions. Literature
-compilation is this repository's recording of the published literature in the
-library and on the problem pages: a repair supplied by the repository is a
-repair supplied by the compilation, and the literature review obligations above
-are its literature-compilation review obligations.
+Here the target problem is an erdosproblems.com problem, identified by its
+E-number under [[anatomy]]; the recorded mathematical status of the target is
+the `status` and `claim` of its problem page, derived from its claim pages, and
+the dependent conclusions a changed premise can affect are problem conclusions.
+Literature compilation is this repository's recording of the published
+literature in the library and on the problem pages: a repair supplied by the
+repository is a repair supplied by the compilation, and the literature review
+obligations above are its literature-compilation review obligations.
 
 The independent review of a complete source-proof reconstruction under
 Mathematical review above is the review that the proof-coverage contract of

@@ -7,7 +7,7 @@ desc: |
   derivatives up to order K satisfy the Taylor, size and limit conditions
   (18) to (21).
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -84,4 +84,4 @@ the factorial theorem discussed on
 [[../wiki/problems/irrationality/E0251/_index|Problem 251]] are not given in
 that form, and the paper does not apply the theorem to them.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

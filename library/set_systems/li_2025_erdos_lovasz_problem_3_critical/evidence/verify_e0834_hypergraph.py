@@ -1,3 +1,4 @@
+# evidence: entry
 """Verify Li's finite construction and criticality certificates for E0834.
 
 Checked clauses: the 22-edge 3-uniform construction on nine vertices, its

@@ -3,7 +3,7 @@ name: irrationality
 title: "Irrationality and Diophantine Approximation"
 desc: "Sources filed under Irrationality and Diophantine Approximation, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-16T07:23:06Z
 ---
 
 # Irrationality and Diophantine Approximation
@@ -40,6 +40,9 @@ irrational for integer |q|>1 and nonzero rational r other than -q^n; the
 first case gives the E257 sum over a cofinite set or a single arithmetic
 progression.
 
+[[irrationality/bugeaud_2022_transcendence_continued_fraction_hecke_mahler/_index|bugeaud_2022_transcendence_continued_fraction_hecke_mahler/]]: Transcendence of Hecke–Mahler values and the inspected theorem hypotheses
+for the two-prime running-lcm deduction; the source proof is not audited.
+
 [[irrationality/campbell_2026_binary_digits_erdos_borwein_constant/_index|campbell_2026_binary_digits_erdos_borwein_constant/]]: Proves the string 11 occurs infinitely often in the base-two expansion of
 the Erdos-Borwein constant.
 
@@ -48,6 +51,10 @@ approximation, cited as a precursor to Erdős Problem 1000.
 
 [[irrationality/chen_ruzsa_1999_irrationality_certain_series/_index|chen_ruzsa_1999_irrationality_certain_series/]]: Bibliographic record for the Chen--Ruzsa paper cited on Erdős Problem 259;
 its full text and exact theorem have not been checked here.
+
+[[irrationality/cook_2026_prime_gap_dyadic_series/_index|cook_2026_prime_gap_dyadic_series/]]: Reports sparse rationalizing perturbations and exact prime-gap tail criteria while leaving the prime-index dyadic series unresolved.
+
+[[irrationality/cook_2026_running_least_common_multiples/_index|cook_2026_running_least_common_multiples/]]: Separates distinct-value running-LCM sums from the multiplicity-preserving series and records three-prime kernel and tail criteria.
 
 [[irrationality/crmaric_2025_irrationality_certain_super_polynomially_decaying_series/_index|crmaric_2025_irrationality_certain_super_polynomially_decaying_series/]]: Answers an Erdos-Graham question negatively: every positive real, rational
 ones included, is the sum of the reciprocal-product series for some f
@@ -304,6 +311,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/irrationality/E1051/_index|E1051]]
 - [[integer_sequences/erdos_1961_szamelmeleti_megjegyzesek/_index|erdos_1961_szamelmeleti_megjegyzesek]]
   - [[../wiki/problems/irrationality/E0251/_index|E0251]]
+- [[integer_sequences/kimmel_kuperberg_2024_consecutive_runs_sums_two_squares/_index|kimmel_kuperberg_2024_consecutive_runs_sums_two_squares]]
+  - [[../wiki/problems/irrationality/E0251/_index|E0251]]
 - [[number_theory/erdos_1961_unsolved_problems/_index|erdos_1961_unsolved_problems]]
   - [[../wiki/problems/irrationality/E0496/_index|E0496]]
 - [[number_theory/erdos_1980_old_new_problems_results_combinatorial_number_theory/_index|erdos_1980_old_new_problems_results_combinatorial_number_theory]]
@@ -315,7 +324,13 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/irrationality/E0260/_index|E0260]]
 - [[number_theory/guy_2004_unsolved_problems_number_theory/_index|guy_2004_unsolved_problems_number_theory]]
   - [[../wiki/problems/irrationality/E0252/_index|E0252]]
+- [[primes/goldston_pintz_yildirim_2011_small_prime_gaps/_index|goldston_pintz_yildirim_2011_small_prime_gaps]]
+  - [[../wiki/problems/irrationality/E0251/_index|E0251]]
 - [[primes/kuperberg_2023_sums_singular_series_large_sets_tail/_index|kuperberg_2023_sums_singular_series_large_sets_tail]]
+  - [[../wiki/problems/irrationality/E0251/_index|E0251]]
+- [[primes/lau_2024_prime_residue_patterns/_index|lau_2024_prime_residue_patterns]]
+  - [[../wiki/problems/irrationality/E0251/_index|E0251]]
+- [[primes/maynard_2014_dense_clusters_primes_subsets/_index|maynard_2014_dense_clusters_primes_subsets]]
   - [[../wiki/problems/irrationality/E0251/_index|E0251]]
 - [[unit_fractions/koizumi_2025_irrationality_reciprocal_sum_doubly_exponential_sequences/_index|koizumi_2025_irrationality_reciprocal_sum_doubly_exponential_sequences]]
   - [[../wiki/problems/irrationality/E0243/_index|E0243]]

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: A generalization of Kruskal's theorem on te
 tags: []
 sources: []
 created: 2026-09-24T22:18:19Z
-updated: 2026-09-24T22:18:19Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # A generalization of Kruskal's theorem on tensor decomposition
@@ -83,3 +83,31 @@ dissociation gives a uniform positive lower bound on the independence ratio
 of every finite induced subhypergraph; E0774 asks whether the special
 hypergraphs arising from integer relations must consequently have bounded
 chromatic number.
+
+Theorem 4 supplies a structural estimate when a minimal relation support is
+realized instead as a minimally dependent family of product tensors. In the
+paper's notation, let
+$C=\{z_a=z_{a,1}\otimes\cdots\otimes z_{a,m}:a\in I\}$ be such a circuit and
+write
+$r_j(C)=\dim\operatorname{span}\{z_{a,j}:a\in I\}$. Minimal dependence gives
+$\dim\operatorname{span}(C)=|C|-1$, while a circuit is connected. The
+contrapositive of Theorem 4 therefore yields
+$$
+|C|-1\geq\sum_{j=1}^m(r_j(C)-1)+1,
+\qquad\text{hence}\qquad
+\sum_{j=1}^m(r_j(C)-1)\leq |C|-2.
+$$
+Corollary 21 records the immediate coarser consequence that at most $|C|-2$
+tensor factors can vary on $C$. In a product-tensor model for an E0774
+relation system, this is how the splitting theorem constrains each minimal
+dependent support: excessive aggregate local rank would force the support to
+split, contradicting minimality.
+
+The paper does not construct such a product-tensor realization for arbitrary
+signed relations among integers, and its matroid circuits allow dependence
+coefficients from the ambient field rather than specifically
+$\{-1,0,1\}$. It also proves neither that proportionate dissociation supplies
+the local-rank hypotheses above nor that these circuit bounds imply a bounded
+coloring of the relation hypergraph. Consequently it provides a potentially
+useful local obstruction for product-structured minimal relations, but it
+does not resolve, or give a finite-union theorem for, E0774.

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1087
@@ -38,13 +38,20 @@ https://www.erdosproblems.com/1087.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Current standing is as stated above; the route analysis records a scoped
+mathematical comparison.
 
-## Known Results
+## Route analysis
 
-Not yet compiled.
+The [[research/geometric_configuration_interfaces/distance_subsets|repeated
+distances and geometric sidon subsets]] account records the following scope. The
+author-recorded L29 separates disjoint equal-distance pairs from isosceles
+triples with arbitrary fourth points. With the external Guth–Katz energy bound,
+the proposed $n^{3+o(1)}$ upper bound is equivalent to a uniform $n^{2+o(1)}$
+isosceles-triple bound, including midpoint triples.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

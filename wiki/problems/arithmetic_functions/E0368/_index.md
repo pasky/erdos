@@ -8,7 +8,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:33:08Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 368
@@ -100,6 +100,31 @@ accessed 2026-10-07, the community database entry, the formal-conjectures tree
 proof claim and no OpenAI release item names this problem. No wider
 literature search was made, none being needed for refereed bounds
 erdosproblems.com credits.
+
+## Prime-factor and interval interface
+
+[[../library/arithmetic_functions/pasten_2024_largest_prime_factor_improvements_subexponential/_index|Pasten's
+Corollary 1.5]], with coprime inputs $1<n$, supplies the recorded logarithmic
+lower bound, not a lower bound of order $(\log n)^2$. The corollary deduction
+was inspected; its analytic input was not independently audited. The source
+says its constants can be made explicit, so ineffectivity is not the
+obstruction asserted here.
+
+For a fixed smoothness bound $y$, write $n(n+1)=Dz^2$, with $D$ squarefree and
+$y$-smooth. Then
+
+$$
+(2n+1)^2-4Dz^2=1.
+$$
+
+There are finitely many possible $D$, but $z$ must also be $y$-smooth.
+Enumerating unrestricted Pell solutions is not a complete smooth-solution
+argument.
+[[../library/arithmetic_functions/polya_1918_zur_arithmetischen_untersuchung_der_polynome/_index|Pólya's
+fixed-prime-set finiteness]] does not supply the desired uniform threshold as
+$y$ grows. No enumeration was run; a useful quantitative input must retain that
+growing-$y$ dependence.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

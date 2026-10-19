@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 9
@@ -50,9 +50,24 @@ https://www.erdosproblems.com/9.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/9.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+The lower bound in
+[[../library/additive_bases/pan_2011_integers_not_form/_index|Pan's Theorem
+1.1]] has size
+
+$$
+x\exp\!\left(-C\log x\frac{\log\log\log\log x}{\log\log\log x}\right)=x^{1-o(1)}.
+$$
+
+Its ratio to $x$ tends to zero. Such a lower bound therefore does not force
+positive upper density: even $x/\log x$ exceeds $x^{1-\epsilon}$ eventually for
+each fixed $\epsilon>0$ and has zero density. Pan's final remark allows both
+exponents to be zero, so the obstruction here is quantitative, not a mismatch
+of exponent conventions. The theorem and remark were inspected; the full sieve
+proof was not checked. A useful strengthening would retain a fixed positive
+proportion along arbitrarily large cutoffs while controlling both powers
+uniformly.
 
 ## Known Results
 

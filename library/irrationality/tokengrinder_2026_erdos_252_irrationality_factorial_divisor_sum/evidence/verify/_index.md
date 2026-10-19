@@ -7,7 +7,7 @@ desc: |
   outputs and the exposure facts; the first two grades are void for
   independence and the third-round pair is in force as acceptance.
 created: 2026-09-17T08:06:32Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:57Z
 ---
 
 # Verification records for the Problem 252 Lean development
@@ -188,9 +188,9 @@ standing or any prior verdict, and ruled each immaterial. Two limits stay
 recorded and do not void: Mathlib was unfolded at a checkout on toolchain
 `v4.32.0-rc1` rather than the pinned tag `v4.33.1` (the primitives involved
 are long-stable, and either shape of the `tsum` definition gives the same
-value), and the extraction file was untracked at the commit and is committed
-when the session lands. The third-round grade is the graded fresh-context
-review in force.
+value), and the extraction file, not yet committed when the review ran, is
+retained as [`../assets/frozen_r3_E0252.md`](../assets/frozen_r3_E0252.md). The
+third-round grade is the graded fresh-context review in force.
 
 ## Filing edits
 

@@ -6,7 +6,7 @@ desc: |
   phi + t psi over F(t) is isotropic if and only if phi and psi have a common
   isotropic vector, in any characteristic.
 created: 2026-10-08T17:15:25Z
-updated: 2026-10-08T17:15:25Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -58,4 +58,8 @@ None beyond the reflection identity (17.1) of §17.
 ## Bears on
 
 None. The theorem concerns common zeros of two quadratic forms over a field
-and says nothing about any Erdős problem.
+and says nothing about any Erdős problem; the
+[[number_theory/elman_karpenko_merkurjev_2008_algebraic_geometric_theory_quadratic_forms/_index|source card]]
+records how the corpus's research on
+[[../wiki/problems/diophantine_problems/E0940/_index|Problem 940]] uses other
+results of the excerpt.

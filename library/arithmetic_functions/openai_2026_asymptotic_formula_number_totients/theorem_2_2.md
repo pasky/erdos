@@ -6,7 +6,7 @@ desc: |
   in (kx,(k+1)x]: of order V(x) when some totient d has l(d) > kd (so for
   k = 1, 2) and identically zero otherwise; unverified here.
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T03:51:47Z
+updated: 2026-10-19T04:19:04Z
 ---
 
 ***
@@ -118,10 +118,9 @@ level; none was checked here.
 
 - [[../wiki/problems/arithmetic_functions/E0417/_index|Problem 417]]: with $k=1$,
   claims that the totients $v\le x$ with $x<\ell(v)\le2x$ number $\asymp V(x)$;
-  these are counted by $V(x)$ and not by $V'(x)$, so (an inference drawn here,
-  not stated in the manuscript) $\liminf V(x)/V'(x)>1$ would follow. The
-  existence of the limit is not addressed; unverified here, and the page's
-  status rests on acceptance evidence.
+  these are counted by $V(x)$ and not by $V'(x)$. The existence of the limit is
+  not addressed; unverified here, and the page's status rests on acceptance
+  evidence.
 - [[../wiki/problems/arithmetic_functions/E0051/_index|Problem 51]]: the dichotomy
   makes a positive answer equivalent to the first alternative for every $k$,
   which the manuscript says it does not establish; comparison only, no change

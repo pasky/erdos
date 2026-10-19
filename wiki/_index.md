@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-04T05:56:06Z
-updated: 2026-10-14T01:26:14Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # wiki
@@ -24,8 +24,10 @@ at erdosproblems.ai, holding the problem page with the statement, standing,
 known results and sources, and the claim pages recording the results claimed
 about it.
 
-[[research/_index|research/]]: Research notes — reconstructions of published
-proofs, source notes, and reading guides in whatever shape the work needs.
+[[research/_index|research/]]: Research notes — original work on the problems
+(proved cases, reductions, constructions, obstructions, connections between
+problems, and leads) and reconstructions of published proofs, source notes, and
+reading guides, in whatever shape the work needs.
 
 [[standing|standing]]: The compact claim standing table: one generated row per
 claim with a readable name, area, status, tier and Lean declaration. Regenerated
@@ -44,9 +46,9 @@ results claimed about it; [[../library/_index|library/]] holds one folder per
 source with its digest and extracted results, and its file when an open license
 allows; [[research/_index|research/]] holds free-form working notes;
 [[theory/_index|theory/]] holds precise original claims and their evidence.
-Catalog problem identities and source-owned result labels remain separate from
-native claim identities. Repository conventions live in `AGENTS.md` and the
-separate repository guidance wiki under `docs/`.
+erdosproblems.com problem identities and source-owned result labels remain
+separate from native claim identities. Repository conventions live in
+`AGENTS.md` and the separate repository guidance wiki under `docs/`.
 
 Browse the literature through [[../library/_index|the subject folders]], which
 use the same categories as the problems. Each source has one primary home; other

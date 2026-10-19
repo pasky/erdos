@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 583
@@ -467,6 +467,10 @@ The thread's computation and its reproduction in the thread are unreviewed.
   [[problems/extremal_graph_theory/E0583/claims/1968_01_01_lovasz|claim page]]):
   the class in the table above; Dean--Kouider 2000 and Yan 1998 (quoted):
   $\lfloor\tfrac23n\rfloor$ paths for every graph.
+
+
+The [[research/graph_ramsey_interfaces/finite_reduction_obstructions|hub amplification account]] reconstructs Pyber's obstruction: a connected counterexample with path number $p$ on $m$ vertices gives graphs on $km+1$ vertices needing at least $kp-\lfloor k/2\rfloor$ paths. A universal $n/2+o(n)$ partition bound would already imply the exact conjecture. Covering results allowing overlap do not supply such a partition bound.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

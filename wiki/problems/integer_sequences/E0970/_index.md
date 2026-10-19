@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 970
@@ -355,6 +355,9 @@ and the covering theorem accepted on Problem 4 on the erdosproblems.com
 curator's credit, which has no refereed version and whose manuscript is not
 checked here. (4) Jacobsthal's original papers and Erdős's 1962 paper are not
 held.
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

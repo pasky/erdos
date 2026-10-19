@@ -1,10 +1,10 @@
 ---
 name: problems/integer_sequences/E0436/claims
-desc: The 2 claim pages of Problem 436, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 436, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-19T10:54:07Z
 ---
 
 # problems/integer_sequences/E0436/claims
@@ -20,5 +20,9 @@ for infinitely many primes.
 $k$ the least pair of consecutive $k$th power residues modulo $p$ is bounded
 in $p$. So $\Lambda(k,2)$ is finite, and the first question of Problem 436 has
 answer yes.
+
+[[problems/integer_sequences/E0436/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Assuming the three-function case of the logarithmically averaged Elliott
+conjecture, $\Lambda(k,3)$ is finite for every odd $k$; author-recorded at
+tier 0, conditional on that open conjecture, catalog acceptance pending.
 
 ***

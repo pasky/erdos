@@ -12,7 +12,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:43:13Z
 ---
 
 # Problem 108
@@ -132,7 +132,7 @@ version fails for girth above $4$. This is the page's own one-line deduction
 from the accepted claim.
 
 **The accepted record.** The proof's final theorem is the negation of the
-catalog statement `Erdos108.erdos_108` of formal-conjectures (the
+statement `Erdos108.erdos_108` of formal-conjectures (the
 formal-conjectures file linked under **Formalization.**), whose Lean form
 matches the wording clause by clause except that its $r$ ranges over the
 extended naturals, so $r=\infty$ is admitted, where a girth of at least $\infty$

@@ -7,7 +7,7 @@ desc: |
   floor sequences are all even and so not complete; the every-base reading of
   the second question of Problem 354 answered no.
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-07T20:23:45Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 ***
@@ -62,6 +62,10 @@ $\gamma=\gamma^{2k}$, impossible for $\gamma>1$. The case $k=0$ gives
 irrationality of $\beta/\alpha$; a tail relation would force
 $\beta/\alpha=\gamma^{\pm k}$ in the limit. All finite sums from the
 interleaving are even, so no odd integer is represented (p. 13).
+The proof is written out as an author-recorded reconstruction, not a
+review, on
+[[../wiki/research/erdos_354/geneson_corollary_12_reconstruction|the Corollary 12 reconstruction page]]
+in the Problem 354 research folder.
 
 ## Dependencies
 

@@ -6,7 +6,7 @@ desc: |
   for planar unit distances, with an unspecified exponent; the manuscript's
   proof is by contradiction along a sequence of near-extremal configurations.
 created: 2026-10-06T23:57:54Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -133,3 +133,9 @@ ideas, not as inputs. None was checked here.
   and narrows the exponent window $[1.014114,4/3]$ from above by an
   unspecified amount. Unverified here; the page's recorded status is
   unchanged.
+- [[../wiki/research/erdos_132/layers_and_obstructions|Convex-layer reduction
+  for Problem 132]]: would replace the page's optional import
+  $e\le Cs^{4/3}$ by $e\le Cs^\beta$, raising its displayed bound
+  $\lfloor cn^{3/4}/h\rfloor$ to $\lfloor cn^{1/\beta}/h\rfloor$; the page's
+  main bounds do not depend on that import, and Problem 132 stays open.
+  Unverified here.

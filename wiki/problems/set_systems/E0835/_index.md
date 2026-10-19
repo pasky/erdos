@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T12:38:34Z
 ---
 
 # Problem 835
@@ -148,3 +148,12 @@ formal-conjectures statement file and the pull request behind it, Brouwer's
 table of Johnson-graph parameters, the Ma--Tang note at its posted address, and
 a web search for an arXiv or journal version of that note, which found none on
 2026-10-07.
+
+## Scoped deduction
+
+The [[research/methods/steiner_color_partitions|Steiner-partition derivation]]
+gives elementary proofs of the design equivalence, the exact stopping point
+of divisibility at prime $k+1$, and complement closure for even $k$.
+It distinguishes a single derived $S(4,5,21)$ at $k=16$ from a partition
+of the whole $16$-set layer. These author reconstructions of reported
+necessary conditions exclude no additional parameter here.

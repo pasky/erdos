@@ -1,0 +1,13 @@
+[cut]
+
+**Statement.** Let $h(n)$ be such that every graph on $n$ vertices with $>n^2/4$
+many edges contains a triangle whose vertices have degrees summing to at least
+$h(n)$. Estimate $h(n)$. In particular, is it true that
+
+$$
+h(n)\geq (2(\sqrt{3}-1)-o(1))n?
+$$
+
+**Formulation.** [cut] $h(n)$ is the largest value that works, the minimum over all graphs $G$
+with $n$ vertices and more than $n^2/4$ edges of the largest degree sum of a
+triangle of $G$; [cut]

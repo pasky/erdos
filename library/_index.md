@@ -7,7 +7,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-04T05:56:07Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # library
@@ -63,56 +63,56 @@ updated: 2026-10-05T05:52:35Z
 The literature, filed under the same subject categories as the problems. Each
 source has one primary home at `<subject>/author_year_slug/`, with
 cross-references from other relevant categories. Its folder holds an
-`_index.md` whose desc is the catalog entry and whose body is the digest — what
-the paper does, its method, and which problems it touches — and one page per
-extracted result, named by the paper's own label (`theorem_1`, `lemma_2_3`,
-`corollary_4`; `conjecture_p30` for an unnumbered statement on page 30; a
-descriptive name such as `main_theorem` when the paper gives none), and the
-source's file when the library may hold it. A result page carries a `title:`,
-a one-sentence desc, the precise statement, a pointer
-to the proof or a sketch, the results it depends on, and a "Bears on" list
-linking the problem pages it concerns. Result pages, digests and Bears-on rows
-are written in the corpus's own words: the statement restated with its
-hypotheses intact, the proof pointed to or sketched here, a quotation kept
-short, attributed and used only where the exact wording matters. The source's
-text lives only in the PDF and in a transcription beside it. The source is its
-PDF when one exists, named after the folder (`author_year_slug.pdf`) or after
-the folder and its edition (`author_year_slug_arxiv_v2.pdf`), with its markdown
-transcription beside it at the PDF's stem (`author_year_slug.md`,
-`author_year_slug_arxiv_v2.md`), a reading aid, unless the card's
-`transcription` key records why not. When no PDF exists — a web page, a forum
-answer — that markdown file is the source itself and records the URL. Where a
-PDF exists it is canonical: result pages cite it by page and theorem number, and
-when a transcription disagrees with it, the PDF wins. Held PDFs and files over 1
-MB live in Git LFS, whose pointer records each file's size and SHA-256; a
-smaller held file is identified by its path. The card's provenance line names
-which edition the held file is (a publisher PDF, an author preprint or a scan)
-and the URL it was fetched from, where known, and gives no retrieval date, since
-the held bytes identify it; when the held edition differs from the one a problem
-page cites, the card says so and result pages cite the held edition's pages. The
-repository holds a paper's file only under an open license; otherwise the card
-cites the source, names the version read and says that no file is held because
-no license on record permits redistribution. Each card records the terms it
-observed for every file it holds or read. The frontmatter key `license` carries
-one term when the folder holds one file and a mapping from file name to term,
-keys in byte order, when it holds several; a card holding no file may still
-carry the term it read. A term is an SPDX license identifier as the SPDX list
-spells it (`CC-BY-4.0`, `Apache-2.0`), a Creative Commons license whose version
-the source does not state, named without one (`LicenseRef-CC-BY`,
-`LicenseRef-CC-BY-NC-ND`), `reserved` (every right reserved: a copyright or
-usage notice, a publisher's or repository's non-exclusive distribution license,
-or arXiv's assumed license), or `unstated` (no terms found on the file or in its
-record). When sources disagree, an explicitly named open license on the rights
-holder's page for the held edition decides, and the card records the older
-notice beside it with the date the page was read; otherwise the term comes from
-the arXiv record for an arXiv file, then the notice the file prints, then the
-publisher's page, then a web source's terms. "Free to read" without a named
-license is not a license, and where nothing in that order yields a term (the
-work's page cannot be read and no other source was observed), the term is
-`unstated`, with the reason. The card's provenance text says where each term was
-read -- the notice the file prints, quoted as printed; the publisher's or
-repository's record, with its URL and the date it was read; or an archive's own
-license file -- infers nothing beyond it, and claims no redistribution right the
-record does not establish. `erdos license-audit` checks the key against the held
-files and the arXiv records, and each held PDF for its transcription or the
-reason its card records (`docs/tools.md` "License audit contract").
+`_index.md` whose desc is the library's catalog entry and whose body is the
+digest — what the paper does, its method, and which problems it touches — and
+one page per extracted result, named by the paper's own label (`theorem_1`,
+`lemma_2_3`, `corollary_4`; `conjecture_p30` for an unnumbered statement on page
+30; a descriptive name such as `main_theorem` when the paper gives none), and
+the source's file when the library may hold it. A result page carries a
+`title:`, a one-sentence desc, the precise statement, a pointer to the proof or
+a sketch, the results it depends on, and a "Bears on" list linking the problem
+pages it concerns. Result pages, digests and Bears-on rows are written in the
+corpus's own words: the statement restated with its hypotheses intact, the proof
+pointed to or sketched here, a quotation kept short, attributed and used only
+where the exact wording matters. The source's text lives only in the PDF and in
+a transcription beside it. The source is its PDF when one exists, named after
+the folder (`author_year_slug.pdf`) or after the folder and its edition
+(`author_year_slug_arxiv_v2.pdf`), with its markdown transcription beside it at
+the PDF's stem (`author_year_slug.md`, `author_year_slug_arxiv_v2.md`), a
+reading aid, unless the card's `transcription` key records why not. When no PDF
+exists — a web page, a forum answer — that markdown file is the source itself
+and records the URL. Where a PDF exists it is canonical: result pages cite it by
+page and theorem number, and when a transcription disagrees with it, the PDF
+wins. Held PDFs and files over 1 MB live in Git LFS, whose pointer records each
+file's size and SHA-256; a smaller held file is identified by its path. The
+card's provenance line names which edition the held file is (a publisher PDF, an
+author preprint or a scan) and the URL it was fetched from, where known, and
+gives no retrieval date, since the held bytes identify it; when the held edition
+differs from the one a problem page cites, the card says so and result pages
+cite the held edition's pages. The repository holds a paper's file only under an
+open license; otherwise the card cites the source, names the version read and
+says that no file is held because no license on record permits redistribution.
+Each card records the terms it observed for every file it holds or read. The
+frontmatter key `license` carries one term when the folder holds one file and a
+mapping from file name to term, keys in byte order, when it holds several; a
+card holding no file may still carry the term it read. A term is an SPDX license
+identifier as the SPDX list spells it (`CC-BY-4.0`, `Apache-2.0`), a Creative
+Commons license whose version the source does not state, named without one
+(`LicenseRef-CC-BY`, `LicenseRef-CC-BY-NC-ND`), `reserved` (every right
+reserved: a copyright or usage notice, a publisher's or repository's
+non-exclusive distribution license, or arXiv's assumed license), or `unstated`
+(no terms found on the file or in its record). When sources disagree, an
+explicitly named open license on the rights holder's page for the held edition
+decides, and the card records the older notice beside it with the date the page
+was read; otherwise the term comes from the arXiv record for an arXiv file, then
+the notice the file prints, then the publisher's page, then a web source's
+terms. "Free to read" without a named license is not a license, and where
+nothing in that order yields a term (the work's page cannot be read and no other
+source was observed), the term is `unstated`, with the reason. The card's
+provenance text says where each term was read -- the notice the file prints,
+quoted as printed; the publisher's or repository's record, with its URL and the
+date it was read; or an archive's own license file -- infers nothing beyond it,
+and claims no redistribution right the record does not establish.
+`erdos license-audit` checks the key against the held files and the arXiv
+records, and each held PDF for its transcription or the reason its card records
+(`docs/tools.md` "License audit contract").

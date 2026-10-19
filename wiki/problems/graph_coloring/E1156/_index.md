@@ -12,7 +12,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1156
@@ -104,6 +104,16 @@ Search scope: the erdosproblems.com problem page (last edited 27 January 2026),
 its discussion thread, the community database (no formalized statement),
 formal-conjectures (no file for Problem 1156) and arXiv, accessed 2026-10-07,
 and the erdosproblems.com proof-claims tab (no proof claim).
+
+## Scoped deduction
+
+The [[research/methods/chromatic_threshold_interfaces|two-atom countermodel]]
+separates interval-width nonconcentration from the exact questions. An
+abstract law can put probability one on two widely separated values while
+no short interval carries more than one half, attaining rather than beating
+that threshold. It is a logical counterexample to an implication, not a
+claimed law for the random graph.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

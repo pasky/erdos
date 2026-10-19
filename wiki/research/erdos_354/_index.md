@@ -8,12 +8,20 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-28T04:36:12Z
-updated: 2026-10-08T13:55:35Z
+updated: 2026-10-14T18:42:37Z
 ---
 
 # Two dyadic floor sequences
 
 [[research/_index|..]]
+
+[[research/erdos_354/connections|connections]]: Assesses the connections of the reconstructed Problem 354 proofs: the
+Yu--Chen descent transported to rational ratios (strong completeness for
+almost every coefficient on each rational-ratio line, and certified pairs),
+the conditional route to the second question through Fan's criterion at
+bases up to the plastic number, with its divergence premise explicit and
+the Salem bases where it fails, the dyadic-root transfer to Problem 349,
+and the remaining obstructions for Problems 348, 254 and 124.
 
 [[research/erdos_354/evidence/_index|evidence/]]: Finite data of the Problem 354 reconstructions rechecked by one entry
 point: the Yu--Chen mask certificate and the Salem polynomial evaluations
@@ -148,7 +156,21 @@ page (C5); Step 4 of the Theorem 5.1 page (C6); Steps 1 and 3 of the
 digit-budget page (C7, C8); the three step headings of the bounded-spacing page
 (C9); and Step 4 of the theorem page (C10). No tier is assigned and the
 problem's status is unchanged. After the review, line wrapping was normalized on
-the reconstruction pages, changing no formula or sentence.
+the reconstruction pages, changing no formula or sentence. The statements of
+[[research/erdos_354/connections|the connections page]] and its two leads were
+independently reviewed, as they stood at 2026-09-28T13:50:48Z, by seven focused
+reviews graded in
+[[research/erdos_354/evidence/verify/connections_grade|the connections grade]],
+whose outcome is that all seven reviews pass, every transported result keeps
+its statement, twelve corrections C1--C12 were accepted and applied, both leads
+need an update, and no tier is assigned. Since those reviews, the connections
+page was corrected as
+[[research/erdos_354/evidence/verify/lead_rational_ratio_dyadic_floor_descent_rereview|the re-review of 2026-10-02]]
+specified: the mesh lemma's application identified as its abutting case with the
+span one short of the hypothesis, "is not covered" weakened to "is not known to
+be covered" for the three certified pairs, and the periodic correction term
+$r_i$ made explicit; the connections reviews read the text before these
+corrections.
 
 **First question (base 2).** The problem page records the first question
 as answered yes on a bounty site's accepted Lean proof, with the stated
@@ -178,17 +200,42 @@ $(1,2)$ at which every pair with irrational ratio gives a complete
 interleaving; the only candidate on the problem page is an unreviewed
 Lean claim at $\gamma=\sqrt\varphi$ in which the single sequence
 $\lfloor\gamma^n\alpha\rfloor$ is already complete for every $\alpha$,
-and it needs review. The rational-ratio cases of Hegyvári's base-2
-conjecture remain untouched by every source here; Remark 4.2 shows they
-would follow from the sharp threshold $M_2^*=2$, and the reconstructed
-Remark 4.1 gives only $2\le M_2^*\le5$.
+and it needs review. The Yu--Chen route does not transfer as it stands:
+its events, exact doubling blocks, modular invariant and certificate all
+rest on the digit recurrence $a_{i+1}=2a_i+u_i$, which a non-integer base
+does not have, so a variable-base analog would need a replacement for
+the digit budget and the binary-sum compactness. Fan's Theorem 1.1
+offers a different door for small bases: its constant $M_\rho$ equals
+$2$ for $1<\rho\le\rho_0\approx1.3247$ (source, p. 4), so at such bases a
+set with two elements in every large $\rho$-adic interval is strongly
+complete as soon as it satisfies condition (1.5); Geneson's all-even
+example shows (1.5) can fail at a base in that range, and whether the
+two-ray sets at some base meet both hypotheses for every irrational
+ratio is an open lead, not a result. The rational-ratio cases of
+Hegyvári's base-2 conjecture remain untouched by every source here;
+Remark 4.2 shows they would follow from the sharp threshold $M_2^*=2$,
+and the reconstructed Remark 4.1 gives only $2\le M_2^*\le5$.
 
-**Mechanism.** The Yu--Chen mechanism has two scales: a modular gap
-invariant on the subset sums modulo $\gcd(a_n,b_n)$ that a long exact
-doubling block followed by a nonzero digit lowers permanently (a finite
-certificate of six-weight representations makes the descent uniform in
-the layer), and a potential argument showing the count of unrepresented
-positions decays exponentially in the number of digit events, which
-together with Dirichlet approximation of the ratio and the compactness
-of ratios of sparse binary sums turns bounded event spacing into a
-contradiction.
+**Mechanism and leads.** The Yu--Chen mechanism has two scales: a
+modular gap invariant on the subset sums modulo $\gcd(a_n,b_n)$ that a
+long exact doubling block followed by a nonzero digit lowers permanently
+(a finite certificate of six-weight representations makes the descent
+uniform in the layer), and a potential argument showing the count of
+unrepresented positions decays exponentially in the number of digit
+events, which together with Dirichlet approximation of the ratio and the
+compactness of ratios of sparse binary sums turns bounded event spacing
+into a contradiction. The permanent-descent and certificate part uses
+only the integer base and the interlacing; what it gives when
+transported, to the rational-ratio cases of Hegyvári's conjecture on this
+problem and to
+[[problems/additive_bases/E0349/_index|Problem 349]],
+[[problems/additive_bases/E0348/_index|Problem 348]],
+[[problems/integer_sequences/E0254/_index|Problem 254]] and
+[[problems/diophantine_problems/E0124/_index|Problem 124]], is assessed on
+[[research/erdos_354/connections|the connections page]], with the two
+routes it opens recorded as the leads
+[[research/leads/rational_ratio_dyadic_floor_descent/_index|rational_ratio_dyadic_floor_descent]]
+(the descent at a rational ratio, with certified pairs) and
+small_base_two_ray_distance_divergence
+(the second question through Fan's criterion at bases up to the plastic
+number).

@@ -5,7 +5,7 @@ desc: "Source notes for Problem 774: Arithmetic characterizations of Sidon sets.
 tags: []
 sources: []
 created: 2026-09-17T21:51:07Z
-updated: 2026-09-17T22:01:10Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 # Arithmetic characterizations of Sidon sets
@@ -30,9 +30,17 @@ $\mathbb N\subset\mathbb Z=\widehat{\mathbb T}$, quasi-independence is
 dissociation, so "proportionately dissociated" is "Sidon," and Pisier's
 reformulation of the finite-union question is exactly E0774.
 
-Reading depth is claims checked: the statement of Theorem 2 was read clause
-by clause in the published article, which the library does not hold. Its
-proof is not in the announcement.
+Every extraction theorem in the research applies Theorem 2 once, to a
+nested union of finite configurations placed in one free abelian group or
+countable direct sum, after a positive-real Sidon estimate has been proved
+directly on that union: the
+[prime tensors](../routes/prime_tensor_extraction.md), the
+[line family and its covers](../routes/incidence_cover_extraction.md), the
+[direction matchings](../routes/resolvable_matchings.md), and the
+[original tensor theorem](../routes/tensor_extraction.md). Reading depth is
+claims checked: the statement of Theorem 2 was read clause by clause in
+the published article, which the library does not hold. Its proof is not in
+the announcement.
 
 ## Exact limits
 

@@ -5,7 +5,7 @@ desc: |
   Records the reviewed proof subjects, the finite hypergraph checks, and the
   distinction between the earlier verdict and the current checker.
 created: 2026-09-09T01:21:03Z
-updated: 2026-10-05T05:52:35Z
+updated: 2026-10-18T10:19:51Z
 ---
 
 # Li's proof review and finite checks
@@ -22,16 +22,18 @@ with exact reviewed subjects and computational limitations.
 The [source-proof review](verify/li_v1_proof_review.md) records the
 independent PASS given on 5 September 2026 to the thirteen reconstructed
 proofs of Li's two answers to the critical-hypergraph question. Their exact
-subjects and source version are identified there. The proof review includes
-the general transversal bound, the nine-vertex chromatic construction and
-its deletion certificates. It does not assert a new verification tier or
-formal proof.
+subjects and source version are identified there. The source digest the review
+read (`assets/reviewed_digest.md`) is not held in the repository. The proof
+review includes the general transversal bound, the nine-vertex chromatic
+construction and its deletion certificates. It does not assert a new
+verification tier or formal proof.
 
 The separate bit-mask calculation described in that review still has no
 recovered standalone program or replay command. Its reported outcome remains
 part of the earlier assessment, with that historical reproduction limitation.
-The retained reviewed checker is the original
-set-based checker, not that missing program.
+The original reviewed checker, the set-based checker
+(`assets/reviewed_checker.py`), is not held in the repository; it is not that
+missing program either.
 
 A [new integer-mask implementation](verify_e0834_bitmask.py), with an [exact
 external input](assets/li_v1_bitmask_input.json), received a distinct non-author
@@ -63,8 +65,8 @@ The current
 replaces removable assertions with explicit checked obligations. The old
 checker has a known optimized-Python defect: assertions disappear under
 `python -O`, but its success message remains. Its reviewed execution used
-assertions-enabled Python. The original bytes are retained only to identify
-that reviewed subject; use the current commands below for new checks.
+assertions-enabled Python. The original bytes are not held; use the current
+commands below for new checks.
 
 The repaired checker completed the full finite replay under both normal
 and optimized Python. An independent reviewer reviewed the frozen
@@ -165,4 +167,5 @@ portable runtime forecasts. The checker and test hashes were verified
 unchanged before and after both runs. Ordinary repository checks do not
 execute this mathematical evidence.
 
-Extracts reproducing the paper's text are not held, since no license on record permits redistribution.
+Extracts reproducing the paper's text are not held, since no license on record
+permits redistribution.

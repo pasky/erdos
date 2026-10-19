@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # Problem 355
@@ -46,9 +46,9 @@ refereed) constructs, for every $\lambda\in(1,2)$, a $\lambda$-lacunary sequence
 of positive integers whose finite reciprocal sums contain every rational in
 $[0,2]$. Their Theorem 1(c) shows that no $2$-lacunary sequence does this, and
 hence no sequence with $\lambda\ge2$ does. The Bleicher--Erdős conjecture is
-refuted. The label's suffix is a catalog label whose scope is qualified under
-Formalization and the Lean label below, and no local kernel credit is claimed.
-The claim page is
+refuted. The label's suffix is an erdosproblems.com label whose scope is
+qualified under Formalization and the Lean label below, and no local kernel
+credit is claimed. The claim page is
 [[problems/unit_fractions/E0355/claims/2025_09_29_van_doorn_kovac|van Doorn and Kovač's theorem]],
 from which the standing derives.
 
@@ -177,32 +177,32 @@ $i$ whose finite reciprocal sums contain every rational in
 $[0,\sum_i1/n_i)$.
 
 **Formalization and the Lean label.** The Lean suffix of the erdosproblems.com
-label PROVED (LEAN) is a catalog label. The formal-conjectures file at the
-pinned commit is a statement with a `sorry` body whose `formal_proof` attribute
-names `ErdosProblem355.lean` in the repository `Woett/Lean-files` on its
-`main` branch, not a fixed commit. That file was last changed on 1 June
+label PROVED (LEAN) is an erdosproblems.com label. The formal-conjectures file
+at the pinned commit is a statement with a `sorry` body whose `formal_proof`
+attribute names `ErdosProblem355.lean` in the repository `Woett/Lean-files` on
+its `main` branch, not a fixed commit. That file was last changed on 1 June
 2026, the commit that the formalization link on
 [[problems/unit_fractions/E0355/claims/2025_09_29_van_doorn_kovac|the claim page]]
 pins. At that commit (3,835 lines, `import Mathlib`, no `sorry`, no `axiom`
 declaration; Lean 4.24.0 and a fixed Mathlib commit named in the header), it
-describes itself as a formalization of the main results of the paper
-obtained by Aristotle from Harmonic, proves
+describes itself as a formalization of the main results of the paper obtained by
+Aristotle from Harmonic, proves
 `Theorem_1 (lambda : ℝ) (h_lambda : 1 < lambda ∧ lambda < 2) : ∃ n : ℕ → ℕ, (∀ i, 0 < n i) ∧ IsLambdaLacunary lambda (fun i => n i) ∧ Filter.Tendsto (fun i => (n (i + 1) : ℝ) / n i) Filter.atTop (nhds 2) ∧ Set.Icc 0 2 ∩ {x : ℝ | ∃ q : ℚ, x = q} ⊆ SubsetSums (fun i => (1 : ℝ) / n i)`
 (Theorem 1(a) and (b) without the infinitely-many-representations clause),
-`Theorem_2`, `Theorem_3` and `Theorem_4` (the paper's Theorem 12, on sets
-closed under doubling), and finally
+`Theorem_2`, `Theorem_3` and `Theorem_4` (the paper's Theorem 12, on sets closed
+under doubling), and finally
 `theorem erdos_355 : ∃ A : ℕ → ℕ, IsLacunary A ∧ ∃ u v : ℝ, u < v ∧ ∀ q : ℚ, ↑q ∈ Set.Ioo u v → q ∈ {∑ a ∈ A', (1 / a : ℚ) | (A' : Finset ℕ) (_ : A'.toSet ⊆ Set.range A)}`,
-the formal-conjectures statement, deduced from `Theorem_1` at $\lambda=3/2$
-with the interval $(0,1)$; here
+the formal-conjectures statement, deduced from `Theorem_1` at $\lambda=3/2$ with
+the interval $(0,1)$; here
 `IsLacunary a := ∃ λ > 1, ∀ i ≥ 1, (a (i + 1) : ℝ) / a i ≥ λ`. The file ends
 with `#print axioms` commands for the five theorems whose outputs are not
-recorded in it. The thread's comments of 30 January and 13 March 2026
-describe the route: Kovač's simplified version at $\lambda=1.01$, given to
-Gemini3 (as the thread names it) to make it easier to formalize, then
-formalized by Aristotle, and later extended with Aristotle to versions of
-the paper's Theorems 1--3 and 12. Nothing is built or kernel-checked here
-and no local credit is claimed. The community database lists `formal_status`
-Lean, with the update date 2 February 2026, and no formal-proof URL.
+recorded in it. The thread's comments of 30 January and 13 March 2026 describe
+the route: Kovač's simplified version at $\lambda=1.01$, given to Gemini3 (as
+the thread names it) to make it easier to formalize, then formalized by
+Aristotle, and later extended with Aristotle to versions of the paper's Theorems
+1--3 and 12. Nothing is built or kernel-checked here and no local credit is
+claimed. The community database lists `formal_status` Lean, with the update date
+2 February 2026, and no formal-proof URL.
 
 **Search scope (2026-09-18 UTC).** The erdosproblems.com problem, discussion and
 proof-claim pages; the community database record; the formal-conjectures

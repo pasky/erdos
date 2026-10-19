@@ -7,8 +7,8 @@ desc: |
   of each on the repository's pinned toolchain on which fifteen claim pages
   rest their acceptance.
 license: reserved
-created: 2026-10-14T02:00:00Z
-updated: 2026-10-14T01:27:55Z
+created: 2026-10-14T01:27:55Z
+updated: 2026-10-18T10:20:09Z
 ---
 
 # Conjectures.io: sixteen Lean solutions of Erdős problems, replayed

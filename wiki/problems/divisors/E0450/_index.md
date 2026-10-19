@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 450
@@ -113,6 +113,25 @@ it; it bears on the claim's scope, which the claim page records as partial.
 its proof-claims thread, and the solution page's statements and the outline of
 its argument; its Lean project was not built. No independent
 review of the argument is recorded.
+
+## Finite reductions and uniformity requirements
+
+For fixed $n\ge2$, the marked integers form a periodic set with period
+$M=\operatorname{lcm}\{n+1,\ldots,2n-1\}$ and density $\delta$. The
+author-recorded [[research/divisor_interval_window_thresholds|periodic
+threshold reduction]] proves that, for real endpoints and the
+every-start/every-large-length reading, a threshold exists exactly when
+$\epsilon>\delta$. It supplies the upper bound $M/(\epsilon-\delta)$ and an
+exact finite cyclic-discrepancy algorithm for integer half-open windows at
+rational $\epsilon$.
+
+The same note handles the equality failure for real endpoints and the $L-1$
+adjustment for integer open windows. It does not give sharp dependence on
+$n,\epsilon$ or settle every formulation above. No period enumeration was run.
+Ford's short-window theorem is used only at statement depth, and the separate
+linear-order claim retains its pending standing. The useful next quantity is
+the maximal cyclic discrepancy with the endpoint convention fixed.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

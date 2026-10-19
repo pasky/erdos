@@ -10,7 +10,7 @@ tags:
 status: claimed
 claim: answered
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T01:01:57Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 348
@@ -59,13 +59,17 @@ https://www.erdosproblems.com/348.
 Bloom's catalog labeled Problem 348 OPEN (accessed 2026-10-06). The frontmatter
 standing, `claimed`/`answered`, is derived from the one claim page below:
 Geneson's 2026 preprint asserts the full classification, exactly $m\le1$, and no
-acceptance of it is recorded. This page records no literature search beyond
-the erdosproblems.com thread and the preprint's card and no independent
-assessment of proof coverage.
+acceptance of it is recorded. The Progress note records author-recorded
+transfers from research folders and is not independently reviewed. This page
+records no literature search beyond the erdosproblems.com thread and the
+preprint's card and no independent assessment of proof coverage.
 
 ## Progress
 
-Geneson's Theorem 1 is recorded on its library card, linked below.
+The Problem 354 research folder's
+[[research/erdos_354/connections|connections page]] records that nothing in the
+reconstructed Problem 354 proofs bears on this problem. Geneson's Theorem 1 is
+recorded on its library card, linked below.
 
 ## Known Results
 

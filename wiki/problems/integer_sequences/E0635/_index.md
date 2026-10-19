@@ -12,7 +12,7 @@ parts:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 635
@@ -84,3 +84,15 @@ Search scope: the erdosproblems.com problem page (last edited 1 February 2026)
 and discussion thread (six comments on 2026-10-07; no proof claims), the
 community database, the formal-conjectures repository and the reference listed
 above. On that date none of them held another claim on the problem.
+
+
+The [[research/divisible_difference_prime_averages|finite-prime reconstruction]]
+gives a complete author-recorded proof of the known half-density subanswer.
+For any fixed finite set of primes above $t$, admissibility bounds the
+weighted count of their divisibilities by half its ambient mean plus a
+bounded endpoint term. The exact variance over their common period controls
+the discrepancy for every $A$.
+First letting $N$ grow with those primes fixed, then increasing their
+reciprocal sum, gives $F_t(N)/N\to1/2$. This reconstruction by Plasma AI
+does not verify the external manuscript or formalization, determine the
+exact maximum or its sharper error, or supply independent acceptance.

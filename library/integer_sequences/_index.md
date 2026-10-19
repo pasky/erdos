@@ -3,7 +3,7 @@ name: integer_sequences
 title: "Sequences and Densities of Integers"
 desc: "Sources filed under Sequences and Densities of Integers, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T01:26:18Z
+updated: 2026-10-17T01:52:45Z
 ---
 
 # Sequences and Densities of Integers
@@ -154,6 +154,10 @@ remains open in this paper.
 [[integer_sequences/dietmann_2023_longer_gaps_between_values_binary_quadratic/_index|dietmann_2023_longer_gaps_between_values_binary_quadratic/]]: Improves Richards's lower bounds on large gaps between integers represented
 by a binary quadratic form, and between sums of two squares.
 
+[[integer_sequences/dietzel_2019_theorem_hildebrand/_index|dietzel_2019_theorem_hildebrand/]]: Dietzel gives an IP-set of consecutive pairs in every finite-index
+multiplicative subgroup of the positive rationals; the odd-index
+three-consecutive-integer question remains outside the theorem.
+
 [[integer_sequences/doorn_2025_growth_rates_sequences_governed_squarefree_properties/_index|doorn_2025_growth_rates_sequences_governed_squarefree_properties/]]: Settles several Erdos questions on how fast a sequence must grow when its
 translates meet the squarefree numbers in prescribed ways.
 
@@ -272,6 +276,8 @@ integer-distance graph of Problem 130, the triangle-free diameter-two
 question of Problem 133, the five-distances conjecture of Problem 135,
 and the odd-cycle and power-of-two cycle conjectures of Problems 57 and 63.
 
+[[integer_sequences/erdos_sarkozy_1979_prime_factors_consecutive_integers/_index|erdos_sarkozy_1979_prime_factors_consecutive_integers/]]: Erdős and Sárközy prove that the first block of k consecutive integers whose largest prime factors all exceed k starts beyond k to the power 5/2 divided by sixteen, for sufficiently large k.
+
 [[integer_sequences/fan_2025_maximal_order_shifted_prime_divisor_function/_index|fan_2025_maximal_order_shifted_prime_divisor_function/]]: Proves new unconditional and GRH-conditional lower bounds for the maximal
 order of the shifted-prime divisor function.
 
@@ -292,6 +298,10 @@ log log log log X divided by log log log X.
 their residue-class covering construction, and the distinction from the
 admissible-survivor optimization in Problem 1204.
 
+[[integer_sequences/friedlander_lagarias_1987_short_intervals_smooth_integers/_index|friedlander_lagarias_1987_short_intervals_smooth_integers/]]: Friedlander and Lagarias study existence and positive proportions of
+smooth integers in short intervals, including an explicit product
+construction. The selected text is an author-hosted preprint.
+
 [[integer_sequences/gao_2010_distinct_length_modular_zero_sum_subsequences_graham_conjecture/_index|gao_2010_distinct_length_modular_zero_sum_subsequences_graham_conjecture/]]: Proves Graham's conjecture for every modulus n: a sequence of n integers
 between 0 and n minus 1 that takes at least three distinct values has two
 nonempty zero-sum subsequences modulo n of distinct lengths, extending the
@@ -308,6 +318,10 @@ shows that the values of ab over gcd(a, b) squared number at least |A|.
 [[integer_sequences/granville_2001_spectrum_multiplicative_functions/_index|granville_2001_spectrum_multiplicative_functions/]]: Determines the spectrum of [-1,1], the set of limits of averages up to N
 of completely multiplicative functions with values in [-1,1] when the
 function may change with N, and bounds spectra of general value sets.
+
+[[integer_sequences/granville_2008_smooth_numbers_computational_number_theory/_index|granville_2008_smooth_numbers_computational_number_theory/]]: Granville surveys smooth-number estimates, algorithms and short-interval
+questions. Its short-interval section is a guide to original sources,
+whose endpoint and conditional hypotheses require separate checking.
 
 [[integer_sequences/granville_2020_sieving_intervals_siegel_zeros/_index|granville_2020_sieving_intervals_siegel_zeros/]]: Granville's conditional extremal interval-sieve results, their Jacobsthal
 context, and the consequence for the least diameter of admissible k-tuples.
@@ -337,8 +351,14 @@ term must contain a nonempty subset summing to zero.
 [[integer_sequences/hardy_2002_modified_problem_pillai_related_questions/_index|hardy_2002_modified_problem_pillai_related_questions/]]: Proves there are infinitely many Pillai primes and infinitely many integers
 n admitting such a prime, and lists related open problems.
 
+[[integer_sequences/harman_1999_smooth_integers_short_intervals_progressions/_index|harman_1999_smooth_integers_short_intervals_progressions/]]: Harman gives lower bounds for smooth integers in intervals and residue
+classes. The short-interval theorem retains its exponent-pair condition;
+the stated exponent-pair-conjecture specialization is conditional.
+
 [[integer_sequences/hildebrand_1987_quantitative_mean_value_theorems_nonnegative_multiplicative/_index|hildebrand_1987_quantitative_mean_value_theorems_nonnegative_multiplicative/]]: Gives a sharp lower bound for the mean value of a nonnegative multiplicative
 function, matching the known upper bound via Dickman's function.
+
+[[integer_sequences/hildebrand_1991_consecutive_kth_power_residues_ii/_index|hildebrand_1991_consecutive_kth_power_residues_ii/]]: Hildebrand proves that for every k and every large prime p there are consecutive kth power residues below a constant depending only on k, so Lambda(k,2) is finite for all k.
 
 [[integer_sequences/hooley_1965_difference_between_consecutive_numbers_prime/_index|hooley_1965_difference_between_consecutive_numbers_prime/]]: Shows that, as n tends to infinity with n/phi(n) also tending to infinity,
 the gaps between consecutive integers prime to n, normalized by n/phi(n),
@@ -356,6 +376,11 @@ elements sum to a perfect square has at most (11/32 plus o(1)) N elements,
 matching Massias's construction of density 11/32 and sharpening the 0.475
 bound of Lagarias, Odlyzko and Shearer; read as the DIMACS technical
 report preprint of December 2000.
+
+[[integer_sequences/kimmel_kuperberg_2024_consecutive_runs_sums_two_squares/_index|kimmel_kuperberg_2024_consecutive_runs_sums_two_squares/]]: Kimmel and Kuperberg prove positive-density residue runs for consecutive
+sums of two squares. Their introductory comparison with prime runs is
+relevant to proposed prime-pattern inputs, but their theorem concerns a
+different sequence.
 
 [[integer_sequences/klarner_1974_arithmetic_properties_certain_recursively_defined_sets/_index|klarner_1974_arithmetic_properties_certain_recursively_defined_sets/]]: Studies sets of integers closed under given linear operations, showing broad
 classes are finite unions of arithmetic progressions.
@@ -392,6 +417,11 @@ progression mod k is at least a constant times phi(k) log k log_2 k log_4 k
 [[integer_sequences/li_2026_resolution_erdos_problem_768_sylow_divisor/_index|li_2026_resolution_erdos_problem_768_sylow_divisor/]]: Determines the exact decay constant for integers satisfying the Sylow
 divisor condition, with a Lean 4 formalization the author reports as
 verified.
+
+[[integer_sequences/li_2026_subexponential_good_sequence/_index|li_2026_subexponential_good_sequence/]]: Peter Li's seven-page manuscript of April 2026, produced with use of
+GPT-5.5 Pro, claiming by a probabilistic proof a good sequence of primes
+with log u_n = √n + O(1/√n), so u_n ≤ e^{o(n)}, which would answer the
+second question of Problem 1101; unreviewed.
 
 [[integer_sequences/linnik_1942_erdos_theorem_addition_numerical_sequences/_index|linnik_1942_erdos_theorem_addition_numerical_sequences/]]: Archives Linnik's non-basic essential-component construction, with an
 explicit reconstruction of its power-sum proof and source corrections.
@@ -635,6 +665,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/integer_sequences/E0012/_index|E0012]]
 - [[analysis/bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique/_index|bonami_revesz_saffari_2007_problemes_ouverts_theorie_analytique_polynomes_analyse_harmonique]]
   - [[../wiki/problems/integer_sequences/E0774/_index|E0774]]
+- [[analysis/bourgain_1985_sidon_sets_riesz_products/_index|bourgain_1985_sidon_sets_riesz_products]]
+  - [[../wiki/problems/integer_sequences/E0774/_index|E0774]]
 - [[analysis/grow_whicher_1984_finite_unions_quasi_independent_sets/_index|grow_whicher_1984_finite_unions_quasi_independent_sets]]
   - [[../wiki/problems/integer_sequences/E0774/_index|E0774]]
 - [[analysis/hare_yang_2018_sidon_sets_proportionally_sidon_small_constants/_index|hare_yang_2018_sidon_sets_proportionally_sidon_small_constants]]
@@ -730,6 +762,8 @@ Explicit links to this subject's problems support these cross-references.
 - [[number_theory/bloom_2026_erdos_problems_openai_proofs/_index|bloom_2026_erdos_problems_openai_proofs]]
   - [[../wiki/problems/integer_sequences/E0968/_index|E0968]]
   - [[../wiki/problems/integer_sequences/E0970/_index|E0970]]
+- [[number_theory/bourgain_2017_decoupling_exponential_sums_riemann_zeta/_index|bourgain_2017_decoupling_exponential_sums_riemann_zeta]]
+  - [[../wiki/problems/integer_sequences/E0962/_index|E0962]]
 - [[number_theory/bzdega_2010_bounds_ternary_cyclotomic_coefficients/_index|bzdega_2010_bounds_ternary_cyclotomic_coefficients]]
   - [[../wiki/problems/integer_sequences/E0774/_index|E0774]]
 - [[number_theory/christie_et_al_2020_classifying_minimal_vanishing_sums_roots_unity/_index|christie_et_al_2020_classifying_minimal_vanishing_sums_roots_unity]]
@@ -832,6 +866,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/integer_sequences/E0774/_index|E0774]]
 - [[number_theory/tan_zhang_2026_sharp_diameter_bounds_nonnegative_cyclotomic_multiples/_index|tan_zhang_2026_sharp_diameter_bounds_nonnegative_cyclotomic_multiples]]
   - [[../wiki/problems/integer_sequences/E0774/_index|E0774]]
+- [[number_theory/tao_2014_254a_notes_1_elementary_multiplicative_number_theory/_index|tao_2014_254a_notes_1_elementary_multiplicative_number_theory]]
+  - [[../wiki/problems/integer_sequences/E0774/_index|E0774]]
 - [[primes/doorn_2026_optimal_bounds_erdos_problem_matching_integers/_index|doorn_2026_optimal_bounds_erdos_problem_matching_integers]]
   - [[../wiki/problems/integer_sequences/E0650/_index|E0650]]
 - [[primes/erdos_1949_applications_brun_s_method/_index|erdos_1949_applications_brun_s_method]]
@@ -858,6 +894,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/integer_sequences/E1204/_index|E1204]]
 - [[primes/maynard_2016_large_gaps_between_primes/_index|maynard_2016_large_gaps_between_primes]]
   - [[../wiki/problems/integer_sequences/E0689/_index|E0689]]
+- [[primes/montgomery_vaughan_2006_multiplicative_number_theory_i/_index|montgomery_vaughan_2006_multiplicative_number_theory_i]]
+  - [[../wiki/problems/integer_sequences/E0012/_index|E0012]]
 - [[primes/openai_2026_positive_lower_density_large_prime_gaps/_index|openai_2026_positive_lower_density_large_prime_gaps]]
   - [[../wiki/problems/integer_sequences/E0968/_index|E0968]]
 - [[primes/openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12/_index|openai_2026_quasi_riemann_hypothesis_zero_free_half_plane_11_12]]
@@ -877,6 +915,8 @@ Explicit links to this subject's problems support these cross-references.
   - [[../wiki/problems/integer_sequences/E0453/_index|E0453]]
 - [[primes/ramachandra_1976_grimm_s_problem_relating_factorisation_block/_index|ramachandra_1976_grimm_s_problem_relating_factorisation_block]]
   - [[../wiki/problems/integer_sequences/E0375/_index|E0375]]
+- [[primes/ramare_ruzsa_2001_dense_subsets_sifted_sequences/_index|ramare_ruzsa_2001_dense_subsets_sifted_sequences]]
+  - [[../wiki/problems/integer_sequences/E0012/_index|E0012]]
 - [[primes/richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro/_index|richards_1974_incompatibility_two_conjectures_concerning_primes_discussion_use_computers_attacking_theoretical_pro]]
   - [[../wiki/problems/integer_sequences/E1204/_index|E1204]]
 - [[primes/ruzsa_1982_small_sieve_ii_sifting_composite_numbers/_index|ruzsa_1982_small_sieve_ii_sifting_composite_numbers]]

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T21:53:37Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 665
@@ -112,6 +112,16 @@ erdosproblems.com problem page, discussion thread (one comment of 17 January
 database entry (teorth/erdosproblems), the formal-conjectures statement file
 (research open, no formal proof), and the cards of [Er97f] and [ErLa82]. None of
 them showed a claim on the problem beyond the conditional result.
+
+## Scoped deduction
+
+The [[research/design_size_multiplicity/_index|size-multiplicity analysis]]
+shows that these near-uniform designs cannot also solve Problem 734's
+$O(\sqrt n)$ multiplicity demand. Its rank and size-window argument is
+[[theory/combinatorics/L26_design_size_multiplicity/_index|L26]], author-recorded
+at tier 0. This cross-problem obstruction supplies no converse embedding
+theorem or resolution of the present constant-error question.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

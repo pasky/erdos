@@ -6,7 +6,7 @@ desc: |
   cycles whose lengths differ by one, with the paper's example showing that
   2-connectedness and large minimum degree do not suffice.
 created: 2026-10-08T15:09:13Z
-updated: 2026-10-08T15:09:13Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -61,6 +61,7 @@ Combinatorial Theory B 31 (1981), 199-224.
 
 ## Bears on
 
-No catalog problem directly. Problem 751 concerns graphs of chromatic number
-four, which need not be $3$-connected; its relation to this paper runs through
+No erdosproblems.com problem directly. Problem 751 concerns graphs of chromatic
+number four, which need not be $3$-connected; its relation to this paper runs
+through
 [[graph_coloring/bondy_1998_cycles_graph_lengths_differ_one_two/theorem_1|Theorem 1]].

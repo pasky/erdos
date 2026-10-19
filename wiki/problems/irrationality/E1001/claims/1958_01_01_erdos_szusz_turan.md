@@ -25,7 +25,7 @@ links:
 - url: https://www.erdosproblems.com/1001
   kind: discussion
 created: 2026-10-07T19:40:10Z
-updated: 2026-10-08T01:29:59Z
+updated: 2026-10-17T21:49:34Z
 ---
 
 ***
@@ -65,7 +65,7 @@ and the general form is given by
 and [[problems/irrationality/E1001/claims/2008_08_01_boca|Boca]].
 
 **Acceptance.** The `refereed` evidence is the journal publication cited above.
-The `reviewed` evidence is the documented acceptance by the catalog
+The `reviewed` evidence is the documented acceptance by
 erdosproblems.com. Its page for the problem (the `discussion` link) carried the
 label SOLVED. Its curator, Thomas Bloom, credits Erdős, Szüsz and Turán with the
 value $12A\log c/\pi^2$ in this range (accessed 2026-09-04). Bloom is not an

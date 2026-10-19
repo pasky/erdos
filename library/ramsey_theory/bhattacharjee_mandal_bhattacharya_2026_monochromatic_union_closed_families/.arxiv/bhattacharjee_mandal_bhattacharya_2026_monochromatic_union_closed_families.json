@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "Deep Bhattacharjee",
+    "Priyabrata Mandal",
+    "Ushashi Bhattacharya"
+  ],
+  "category": "math.CO",
+  "date": "2026-10-02",
+  "fetched": "2026-10-15",
+  "html": {
+    "bytes": 888797,
+    "files": 1,
+    "sha256": "69ed8e445d138edffe27777496609b7a94f80dfbfe9c2b9eaedfb94f4d438049",
+    "skipped": [],
+    "url": "https://arxiv.org/html/2610.02833v1"
+  },
+  "id": "2610.02833",
+  "license": "http://creativecommons.org/licenses/by/4.0/",
+  "pdf": {
+    "bytes": 832792,
+    "previous": [
+      {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "version": null
+      }
+    ],
+    "sha256": "37885b5cd2847ed17c0a000f72f59ccd532bffb44903af2fdd8ab8be8c275646",
+    "url": "https://arxiv.org/pdf/2610.02833v1"
+  },
+  "schema": 1,
+  "stamp": null,
+  "tex": {
+    "archive": {
+      "bytes": 31592,
+      "name": "arXiv-2610.02833v1.tar.gz",
+      "sha256": "fd28e3d783801d375936292da60fce38fd377e4c5da31a50ab61bafac541b2f1"
+    },
+    "bytes": 92215,
+    "files": 12,
+    "sha256": "fffca725330a106f6e2e4d4bfae47c8cc380c053cea749013e72580a2b0d697b",
+    "url": "https://arxiv.org/src/2610.02833v1"
+  },
+  "title": "Resolving Erd\\H{o}s-Ulam Monochromatic Union-Closed Family Conjectures",
+  "version": 1
+}

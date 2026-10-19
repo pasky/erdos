@@ -7,7 +7,7 @@ license:
   bloom_2021_density_conjecture_about_unit_fractions.pdf: CC-BY-4.0
   bloom_2021_density_conjecture_about_unit_fractions_published_2024.pdf: CC-BY-4.0
 created: 2026-09-04T09:21:15Z
-updated: 2026-10-08T03:52:53Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 # unit_fractions/bloom_2021_density_conjecture_about_unit_fractions
@@ -84,7 +84,7 @@ interval dichotomy. [[unit_fractions/bloom_2021_density_conjecture_about_unit_fr
 Complete rewritten proofs are recorded on those pages, with the variant
 and scope qualifications below.
 
-Theorem 3 also settles two further catalog questions directly. For
+Theorem 3 also settles two further erdosproblems.com questions directly. For
 [[../wiki/problems/unit_fractions/E0047/_index|Problem 47]], a fixed $\delta>0$ makes
 $\delta\log N$ exceed the threshold $C\log N\log\log\log N/\log\log N$
 for all $N\ge N_0(\delta)$, so every $A\subseteq\{1,\ldots,N\}$ with

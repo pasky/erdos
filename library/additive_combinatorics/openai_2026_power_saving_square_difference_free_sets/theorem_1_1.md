@@ -6,7 +6,7 @@ desc: |
   subset of {1,...,N} in which no difference is a positive square has at
   most C N^(1-c) elements, for every N >= 1. Claims checked only.
 created: 2026-10-12T23:13:55Z
-updated: 2026-10-12T23:13:55Z
+updated: 2026-10-14T07:41:33Z
 ---
 
 ***
@@ -47,8 +47,8 @@ chromatic number $\chi(G_N)\ge N/s(N)\ge C^{-1}N^c$.
 **Formalization.** The release's Lean page for the family describes a
 formalization of this statement, with the comparator theorem
 `OAI.SquareDifference.power_saving`; it was read statically and not built
-or audited here, and the catalog lists no entry for it at this revision (see
-the card).
+or audited here, and the release's catalog lists no entry for it at this
+revision (see the card).
 
 **Source.** OpenAI, *A power saving for square-difference-free sets*, release
 folder

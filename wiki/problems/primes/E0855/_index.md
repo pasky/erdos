@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-13T13:29:21Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 855
@@ -137,6 +137,9 @@ Granville's conditional interval constructions, recorded on
 which assume infinitely many Siegel zeros; if the release's claims stand,
 those constructions have a false hypothesis, and the inequality itself is
 untouched either way. The claims are unverified here.
+
+
+The author-recorded [[research/covering_prime_interfaces/prime_pattern_uniformity|prime-pattern comparison]] states the parameter ranges and missing uniformity needed to use the available results here. Its source dependence and unresolved implications remain explicit.
 
 <!-- BEGIN problem library links -->
 

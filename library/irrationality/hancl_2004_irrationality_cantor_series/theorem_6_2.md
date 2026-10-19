@@ -6,7 +6,7 @@ desc: |
   when a_n is an unbounded monotonic sequence of positive integers; for a
   bounded monotonic sequence the sum is always rational.
 created: 2026-10-08T14:30:02Z
-updated: 2026-10-08T14:30:02Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -48,5 +48,5 @@ that a rise of the tails needs $a_n\le2q$, which happens for only finitely
 many $n$; the positive integers $qS_n$ can fall only finitely often, so
 the tails are eventually constant and $n/(a_n-1)$ equals that constant.
 
-**Bears on.** No catalog problem directly; the analog of Theorem 6.1 with
-numerators $n$ in place of the primes.
+**Bears on.** No erdosproblems.com problem directly; the analog of Theorem 6.1
+with numerators $n$ in place of the primes.

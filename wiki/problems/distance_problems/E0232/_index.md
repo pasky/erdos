@@ -10,7 +10,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T18:26:53Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 232
@@ -42,7 +42,8 @@ points distance $1$ apart. In particular, is $m_1\leq 1/4$?
 Ambrus, Csiszárik, Matolcsi, Varga and Zsámboki proved $m_1\le0.247<1/4$. This
 answers the erdosproblems.com question. It also proves Erdős's conjecture
 $m_1<1/4$ [Er85], read with the circle's area as the normalization. The result
-is recorded in `claims/` as an accepted claim. The
+is recorded as an accepted full claim on
+[[problems/distance_problems/E0232/claims/2022_07_28_ambrus_csiszarik_matolcsi_varga_zsamboki|its claim page]]. The
 [[../library/distance_problems/erdos_1985_problems_results_combinatorial_geometry/conjecture_p4|conjecture as printed]]
 (p. 4) divides the measure by $R^2$ rather than by the area $\pi R^2$, and in
 that form it is false. The estimate of $m_1$ itself remains between Croft's

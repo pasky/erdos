@@ -7,7 +7,7 @@ desc: |
   triply-well-factorable weights of level Q <= x^(5/8-epsilon) or upper-bound
   well-factorable linear sieve weights of level Q <= x^(3/5-epsilon).
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -80,5 +80,8 @@ exceptional Maass forms with additively structured sequences
 
 - [[../wiki/problems/additive_bases/E0158/_index|Problem 158]]: indirect only.
   An exponent of distribution here controls a weighted sum over all moduli up
-  to the level for one fixed residue class (p. 2), and the paper does not
-  mention the problem.
+  to the level for one fixed residue class (p. 2), while the
+  [[../wiki/research/leads/two_representation_exponent_frontier/_index|exponent-frontier lead]]
+  asks for a third-moment bound on fiber occupancies at fixed moduli as the
+  residues vary; the theorem does not by itself supply that bound, and the
+  paper does not mention the problem.

@@ -6,7 +6,7 @@ desc: |
   of Problem 354 with its answer instantiated to true, unfolded to the
   erdosproblems.com wording, with the proof's reduction chain.
 created: 2026-09-28T03:20:00Z
-updated: 2026-10-08T01:29:58Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -19,8 +19,8 @@ reduction chain named below by line number in that file.
 
 **Read depth.** Claims checked: the theorem's type was read against
 Conjectures.io's printed type, the task bundle's `source-metadata.json` and the
-default-branch catalog file, and unfolded as below; the reduction chain
-was read to the two digit criteria. The proofs of the criteria (lines
+default-branch formal-conjectures file, and unfolded as below; the reduction
+chain was read to the two digit criteria. The proofs of the criteria (lines
 about 1,100 to 10,140) were not read line by line; the file was rebuilt and its
 target replayed in the kernel, as the
 [[number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/verify/receipt_e0354_815c1d5f|replay receipt]]

@@ -6,7 +6,7 @@ desc: |
   bound irredundant families of subcubes: the reciprocal binomial weights of
   pairs that meet exactly off the diagonal sum to at most one.
 created: 2026-10-08T15:50:52Z
-updated: 2026-10-08T15:50:52Z
+updated: 2026-10-13T04:56:43Z
 ---
 
 ***
@@ -55,4 +55,9 @@ read clause by clause on p. 6. The paper contains no proof to check.
 ## Bears on
 
 - [[../wiki/problems/covering_systems/E0007/_index|Problem 7]]: background
-  only. The theorem is about finite sets and says nothing about congruences.
+  only. The research method
+  [[../wiki/research/methods/private_progression_discounts/_index|private progressions and discounted reciprocal budgets]]
+  cites Theorem 3 for the inequality it applies to private points of an
+  irredundant congruence cover, and supplies its own proof of the inequality.
+  The theorem is about finite sets and says nothing about congruences; that
+  page records that its conclusions do not resolve the problem.

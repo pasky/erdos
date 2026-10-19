@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T00:44:25Z
+updated: 2026-10-18T22:19:33Z
 ---
 
 # Problem 1058
@@ -24,7 +24,11 @@ updated: 2026-10-08T00:44:25Z
 there only finitely many $n$ such that $n\in [p_{k-1},p_k)$ and the only primes
 dividing $n!+1$ are $p_{k}$ and $p_{k+1}$?
 
-**Status.** Proved.
+**Status.** Proved. Luca [Lu01] shows that if $p_{k-1}\le n<p_k$ and every
+prime dividing $n!+1$ is $p_k$ or $p_{k+1}$, then $n\le5$, so $n=1,2,3,4,5$ are
+the only such $n$, with the convention $p_0=1$. This is the accepted full claim
+on [[problems/diophantine_problems/E1058/claims/2000_03_08_luca|its claim
+page]].
 
 **Source.** [erdosproblems.com/1058](https://www.erdosproblems.com/1058),
 accessed 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #1058,

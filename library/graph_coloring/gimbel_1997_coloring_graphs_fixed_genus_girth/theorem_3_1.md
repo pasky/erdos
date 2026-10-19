@@ -6,7 +6,7 @@ desc: |
   with clique number less than s lies between c_1 g^((s-1)/(2s))/log g and
   c_2 (g/log g)^((s-2)/(2s-3)).
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -50,5 +50,5 @@ used in Theorem 2.1 is replaced by Theorem 17, p. 298, of the same book.
 
 ## Bears on
 
-No catalog problem directly. Its case $s=5$ gives
+No erdosproblems.com problem directly. Its case $s=5$ gives
 [[graph_coloring/gimbel_1997_coloring_graphs_fixed_genus_girth/theorem_3_3|Theorem 3.3]].

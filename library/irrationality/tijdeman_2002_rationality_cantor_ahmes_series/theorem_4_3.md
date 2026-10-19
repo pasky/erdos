@@ -7,7 +7,7 @@ desc: |
   over a_1 through a_n is rational exactly when (a_n minus one) over b_n is
   constant from some n_0 on, without any monotonicity of a_n.
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -55,7 +55,7 @@ and
 [[irrationality/tijdeman_2002_rationality_cantor_ahmes_series/corollary_4_2|Corollary 4.2]]
 (pp. 9--10) is obtained in a similar way.
 
-**Bears on.** No catalog problem directly; its consequences
+**Bears on.** No erdosproblems.com problem directly; its consequences
 [[irrationality/tijdeman_2002_rationality_cantor_ahmes_series/corollary_4_1|Corollary 4.1]]
 and
 [[irrationality/tijdeman_2002_rationality_cantor_ahmes_series/corollary_4_2|Corollary 4.2]]

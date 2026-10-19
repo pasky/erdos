@@ -7,7 +7,7 @@ desc: |
   of the paper's Theorem 1 holds and at least delta n^d of the signed d-fold
   sums of the vectors can be chosen pairwise at distance at least 1.
 created: 2026-10-08T15:26:05Z
-updated: 2026-10-08T15:26:05Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -76,4 +76,4 @@ and its proof in § 3 (pp. 200--208), and Wiener's lemma of § 5
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.

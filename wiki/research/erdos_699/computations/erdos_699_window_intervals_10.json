@@ -1,0 +1,34 @@
+{
+  "i": 10,
+  "supplied_tail_power_of_ten": 15000000,
+  "inclusive_interval_cap_power_of_ten": 80,
+  "terminal_prime_lower_row": 113,
+  "coarse_cofactor_saving_scaled": 10590,
+  "visited_intervals": 87973,
+  "certified_intervals": 43985,
+  "intervals_requiring_prime_pairs": 20749,
+  "total_partition_leaves": 43987,
+  "minimum_certified_log_margin": "0.0000532220364668384825093463339016781367412225282570530676",
+  "interval_partition_sha256": "5932606b72cb44c059ea468afba8efe801288e100b14c42a4fcbcda7e4a2baf6",
+  "active_cofactor_graphs_used": 35,
+  "finite_pair_constraints": 11,
+  "exceptional_row_windows": 142,
+  "exact_singleton_rows": [
+    1029,
+    252
+  ],
+  "exact_columns_checked": 620,
+  "source_certificates": [
+    {
+      "file": "erdos_699_prime_pair_strips_20.json"
+    },
+    {
+      "file": "erdos_699_prime_pair_strips_10_global.json"
+    },
+    {
+      "file": "erdos_699_prime_pair_strips_two_fifths.json"
+    }
+  ],
+  "gap_data_file": "erdos_699_prime_gap_records.json",
+  "conclusion": "All rows are excluded under the separately supplied numerical tail theorem."
+}

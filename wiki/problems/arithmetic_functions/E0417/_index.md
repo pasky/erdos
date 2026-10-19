@@ -4,13 +4,14 @@ title: Problem 417
 desc: |
   Asks whether the ratio of the number of totient values up to $x$ to the number
   of distinct values $\phi(m)$ with $m\le x$ has a limit, and whether that limit
-  exceeds 1; open.
+  exceeds 1; phase reductions conditional on an unrefereed manuscript leave
+  convergence open, and an unrefereed non-arXiv note claims a conditional upper bound.
 tags:
 - Number theory
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T20:31:26Z
+updated: 2026-10-19T06:04:51Z
 ---
 
 # Problem 417
@@ -43,12 +44,11 @@ the first.
 
 **Status.** Open. Bloom's catalog labeled the problem OPEN, and the derived
 standing is open. The erdosproblems.com proof-claims thread carried no claim on
-2026-10-06. No claim page is recorded, since no one claims either question.
-Theorem 2.2 of the OpenAI release manuscript of 25 September 2026 bears on the
-problem without claiming it. With $k=1$ it implies, by a deduction drawn here,
-that $\liminf V(x)/V'(x)>1$, so any limit would exceed $1$; the theorem is
-unrefereed, and whether the limit exists stays open. The Current assessment
-records this item, the deduction and why neither is a claim.
+2026-10-06. No resolution claim was identified in the search described below.
+An unrefereed, non-arXiv October note claims the conditional upper bound
+$\limsup V(x)/V'(x)<2.195202$ using the unrefereed OpenAI manuscript of 25
+September 2026. The bound does not decide whether the limit exists, and it is
+not recorded as a resolution claim.
 
 **Source.** [erdosproblems.com/417](https://www.erdosproblems.com/417), accessed
 2026-09-04. Cite as: T. F. Bloom, Erdős Problem #417,
@@ -73,8 +73,9 @@ $\lim V(x)/V'(x)$ exists and whether it exceeds $1$. OPEN. The erdosproblems.com
 commentary records that $V'(x)\le V(x)$ trivially and that Erdős [Er98]
 suggested the limit may be infinite.
 
-**Standing.** No claim page: no one claims either question, and the derived
-standing is open.
+**Standing.** No resolution claim page is recorded, and the derived standing
+is open. The native coefficient deductions below are author-recorded at
+tier 0.
 
 **The OpenAI release item (family 024).** Theorem 2.2 of the release
 manuscript of 25 September 2026, *An asymptotic formula for the number of
@@ -87,33 +88,108 @@ the least preimage of $v$, and that $N_k(x)$ is of order $V(x)$ for $k=1$
 and $2$; the manuscript is unrefereed, and this corpus has not built the
 release's Lean for these counts (`weighted_totient_asymptotic`,
 `weighted_totient_one_two`). The manuscript does not mention $V'$ or this
-problem, and the release claims nothing about it, so the item is recorded here
-and not as a claim.
+problem, and the release claims nothing about it. A totient
+$v\le x$ is counted by $V'(x)$ exactly when $\ell(v)\le x$, so
+$V(x)-V'(x)=\sum_{k\ge1}N_k(x)$, an identity the manuscript does not state.
+The item settles neither question and is recorded here, not as a claim.
 
-**A consequence drawn here.** Every value $\phi(m)$ with $m\le x$ is at most
-$x$, so $V'(x)$ counts the totients $v$ with $\ell(v)\le x$, and $V(x)-V'(x)$
-counts the totients $v\le x$ with $\ell(v)>x$, which is
-$\sum_{k\ge1}N_k(x)\ge N_1(x)$. If Theorem 2.2 holds, its first alternative for
-$k=1$ gives $N_1(x)\ge cV(x)$ for some $c>0$ and all large $x$, so
-$V'(x)\le(1-c)V(x)$ and $\liminf V(x)/V'(x)\ge1/(1-c)>1$. With
-$V(x)\asymp V'(x)$ under Known Results, any limit of $V(x)/V'(x)$ would then be
-finite and greater than $1$. The Theorem 2.2 page draws the same inference. This
-answers neither question, since whether the limit exists stays open, but if
-Theorem 2.2 holds, a yes to the first question is also a yes to the second. The
-deduction rests on the unrefereed Theorem 2.2, whose Lean this corpus has not
-built, and it is not a claim, since neither the release nor anyone else claims
-the problem.
+**The conditional coefficient reduction.**
+[[theory/number_theory/L65_conditional_totient_ratio_coefficient/_index|L65]]
+extends the manuscript's largest-prime count to the weight $f_0(r)=1/r$,
+where $r$ is the least-preimage ratio of a tail totient. Assuming the
+manuscript's structural and approximation estimates, it proves
 
-**Search scope.** The erdosproblems.com page and its proof-claims thread (empty
-on 2026-10-06), the formal-conjectures statement file and the OpenAI release at
-the pinned revision of its manuscript; no other literature search was made, and
-no proof was independently assessed.
+$$
+V'(x)=\frac{xG_m}{\log x}\bigl(A(f_0;\theta(x))+o(1)\bigr),
+$$
+
+with $A(f_0;s)$ defined by a uniform cut limit and bounded away from zero.
+The manuscript's Lemma 7.3 also gives the uniform tail control in
+$V-V'=\sum_kN_k$. Consequently the limit exists if and only if
+$s\mapsto A(f_0;s)/A(1;s)$ is constant; if it is not, the ratio has a
+nondegenerate interval of limit points. L65 is a tier-0 conditional
+deduction by Plasma AI, outside the existing reviews and dependent on the
+unrefereed manuscript. It does not decide constancy.
+
+[[theory/number_theory/L43_continuous_totient_phase_ratio/_index|L43]]
+deduces that the quotient is continuous on the phase circle; both numerator
+and denominator have the same nontrivial boundary factor. The limit set is
+exactly the image of that circle under the reciprocal quotient.
+[[theory/number_theory/L44_finite_prime_totient_phase/_index|L44]]
+constructs continuous phase profiles for
+$\#\{v\le x:k\mid\ell(v)\}/V(x)$ for fixed squarefree $k$. A finite
+weighted sum of these profiles, using primes at most $Y$, approximates the
+quotient from above with error at most $1/(Y-1)$, uniformly in phase.
+These are further tier-0 deductions conditional on the unrefereed manuscript.
+They prove no phase independence.
+[[theory/number_theory/L103_totient_tail_cofactor_factorization/_index|L103]],
+also tier 0 and conditional, applies the manuscript's common-prefix
+proposition at two cuts: outside vanishing mass each tail totient factors
+through one prime tuple and a coprime cofactor, so the quotient becomes a
+cofactor statistic averaged over a phase-dependent law. The
+[[research/leads/distinct_totient_preimage_ratio/_index|distinct totient preimage ratio lead]]
+records the unresolved cancellation, the missing fiber estimate in a
+proposed renewal comparison, the scale obstruction to a direct rectangle
+comparison, and precise sufficient estimates for reopening the test.
+
+**The October ratio bound.** The unrefereed, non-arXiv two-page note
+[*An explicit bound for Erdős problem 417*](https://github.com/LeanMeanBean/417/blob/3620821345595c5e2b60de4f86561e1872c81840/417.pdf),
+posted by the account LeanMeanBean on 10 October 2026, claims
+
+$$
+\limsup_{x\to\infty}\frac{V(x)}{V'(x)}\le e^{M_*}<2.195202,
+\qquad
+M_*=\frac{\log2}{2}+
+\sum_{p\ge3\text{ prime}}\frac{p}{(p-1)^2}\log\frac p{p-1}.
+$$
+
+It compares $V'(x)$ with the sum of $v/\ell(v)$ over totients at most $x$,
+bounds prime divisibility of the least preimage by deleting a prime power,
+and applies Jensen's inequality. Its inputs include Theorem 2.1 and
+Proposition 5.3 of the unrefereed September manuscript, beyond the accepted
+fixed-dilation result for Problem 416. Both pages, including the proof and
+the stated numerical procedure, were read; the rational prime sum was not
+rerun, and no independent acceptance of the note is recorded. It claims a
+bound, not convergence or a resolution of either question.
+
+**Search scope.** The historical erdosproblems.com page and its proof-claims
+thread (empty on 2026-10-06), the OpenAI manuscript, and a search on
+2026-10-14 of the
+[live formal-conjectures statement](https://raw.githubusercontent.com/google-deepmind/formal-conjectures/main/FormalConjectures/ErdosProblems/417.lean),
+[Palomar's registry search](https://data.palomar-registry.org/api/v1/results?q=417),
+Conjectures.io's visible problem listing and first ten recent results, and
+targeted web and arXiv-index searches. The live statement still marks both
+questions open. Palomar's text search returned no entry for 417 at registry
+revision 265, and no newer primary resolution was found in the targeted
+searches. Conjectures.io's results pagination was not exhausted. The October
+announcement was traced to the actual two-page note cited above. These
+searches do not establish openness, and no new independent proof review was
+performed.
+
+## Progress
+
+Author-recorded research on the limit points of $V(x)/V'(x)$ is on
+[[research/erdos_416/connections|the connections page of the Problem 416 folder]]
+and in the lead
+[[research/leads/distinct_totient_preimage_ratio/_index|distinct totient preimage ratio]];
+it is not a claim, and the existence of the limit is open.
+L65 supplies the conditional coefficient for $V'$ and controls the uniform
+tail; L43 supplies continuity; L44 reduces the single expectation to
+finite-prime weighted sums with an explicit uniform truncation error; L103
+expresses the quotient through a smooth-cofactor statistic under a
+phase-dependent law. All four are tier-0 deductions conditional on the
+unrefereed manuscript and leave phase constancy open. The unrefereed,
+non-arXiv October note claims the
+conditional upper bound recorded in the assessment, with its numerical check
+unverified here.
 
 ## Known Results
 
 The ratio $V(x)/V'(x)$ is bounded: Pollack, Pomerance and Treviño quote
 $V(x)\asymp V'(x)$ from Ford on p. 7 of their manuscript, which excludes the
 infinite limit erdosproblems.com reports Erdős suggested.
+[[research/erdos_49/connections|The Problem 49 connections page]] holds
+author-recorded research notes on this ratio; they are not a claim.
 
 ## Method connection
 
@@ -128,6 +204,8 @@ for $V(x)/V'(x)$ is recorded.
 These entries are derived from explicit links on library pages. They are
 navigation only and do not by themselves record mathematical progress.
 
+- [[../library/arithmetic_functions/leanmeanbean_2026_explicit_bound_erdos_problem_417/_index|leanmeanbean_2026_explicit_bound_erdos_problem_417]]
+- [[../library/arithmetic_functions/leanmeanbean_2026_explicit_bound_erdos_problem_417/theorem_1|leanmeanbean_2026_explicit_bound_erdos_problem_417 / theorem_1]]
 - [[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/_index|openai_2026_asymptotic_formula_number_totients]]
 - [[../library/arithmetic_functions/openai_2026_asymptotic_formula_number_totients/theorem_2_2|openai_2026_asymptotic_formula_number_totients / theorem_2_2]]
 - [[../library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|plasma_ai_2026_normal_order_number_iterations_euler_s_function]]

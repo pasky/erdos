@@ -9,7 +9,7 @@ tags:
 status: solved
 claim: proved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T02:16:54Z
+updated: 2026-10-19T04:19:00Z
 ---
 
 # Problem 255
@@ -81,7 +81,13 @@ independent assessment of proof coverage.
 
 The third part of Problem 1221's conjecture, $r(\mu_r-1)\to\infty$, implies the
 uniform form of this problem's conclusion, that no sequence has $\sup_I|D_N(I)|$
-bounded in $N$, as the 1949 note remarks.
+bounded in $N$, as the 1949 note remarks; the implication is discussed on
+[[research/erdos_1221/connections|the Problem 1221 connections page]], which
+also records that it yields no single fixed interval and that the only claimed
+proof of its premise consumes a finite-list form of Schmidt's planar
+discrepancy theorem (part VII of Schmidt's series, Acta Arith. 21 (1972), a
+different theorem from the 1968 one that answers this problem), which already
+gives the uniform statement, so nothing new follows for this problem.
 
 ## Known Results
 

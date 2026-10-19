@@ -1,0 +1,973 @@
+import Erdos176Lean.Basic
+
+set_option linter.style.header false
+
+
+[cut]
+
+namespace Erdos176Lean
+
+open scoped BigOperators
+
+section FejerWeights
+
+/-- The Fejér weight used for differences `1 ≤ d ≤ D`. -/
+noncomputable def fejerWeight (D d : ℕ) : ℝ :=
+  1 - (d : ℝ) / (D + 1 : ℝ)
+
+theorem fejerWeight_nonneg {D d : ℕ} (hd : d ≤ D) :
+    0 ≤ fejerWeight D d := by
+  unfold fejerWeight
+  have hpos : (0 : ℝ) < D + 1 := by positivity
+  have hdreal : (d : ℝ) ≤ (D : ℝ) := by exact_mod_cast hd
+  have hle : (d : ℝ) / (D + 1 : ℝ) ≤ 1 := by
+    rw [div_le_one hpos]
+    linarith
+  linarith
+
+theorem sum_range_succ_real (D : ℕ) :
+    (∑ i ∈ Finset.range D, (((i + 1 : ℕ) : ℝ)))
+      = (D : ℝ) * (D + 1 : ℝ) / 2 := by
+  induction D with
+  | zero =>
+      simp
+  | succ D ih =>
+      rw [Finset.sum_range_succ, ih]
+      norm_num [Nat.cast_add, Nat.cast_one]
+      ring
+
+theorem sum_range_succ_sq_real (D : ℕ) :
+    (∑ i ∈ Finset.range D, (((i + 1 : ℕ) : ℝ) ^ 2))
+      = (D : ℝ) * (D + 1 : ℝ) * (2 * (D : ℝ) + 1) / 6 := by
+  induction D with
+  | zero =>
+      simp
+  | succ D ih =>
+      rw [Finset.sum_range_succ, ih]
+      norm_num [Nat.cast_add, Nat.cast_one]
+      ring
+
+theorem sum_fejerWeight_range (D : ℕ) :
+    (∑ i ∈ Finset.range D, fejerWeight D (i + 1)) = (D : ℝ) / 2 := by
+  unfold fejerWeight
+  rw [Finset.sum_sub_distrib]
+  have hconst : (∑ _i ∈ Finset.range D, (1 : ℝ)) = (D : ℝ) := by
+    simp
+  have hdiv :
+      (∑ i ∈ Finset.range D, (((i + 1 : ℕ) : ℝ) / (D + 1 : ℝ)))
+        = ((∑ i ∈ Finset.range D, (((i + 1 : ℕ) : ℝ))) / (D + 1 : ℝ)) := by
+    simp only [div_eq_mul_inv]
+    rw [Finset.sum_mul]
+  rw [hconst, hdiv, sum_range_succ_real]
+  have hpos : (0 : ℝ) < D + 1 := by positivity
+  field_simp [ne_of_gt hpos]
+  ring
+
+theorem sum_mul_fejerWeight_range (D : ℕ) :
+    (∑ i ∈ Finset.range D, (((i + 1 : ℕ) : ℝ) * fejerWeight D (i + 1)))
+      = (D : ℝ) * (D + 2 : ℝ) / 6 := by
+  unfold fejerWeight
+  simp_rw [mul_sub, mul_one, mul_div_assoc]
+  rw [Finset.sum_sub_distrib]
+  have hdiv :
+      (∑ i ∈ Finset.range D, (((i + 1 : ℕ) : ℝ) * (((i + 1 : ℕ) : ℝ) / (D + 1 : ℝ))))
+        =
+      ((∑ i ∈ Finset.range D, (((i + 1 : ℕ) : ℝ) ^ 2)) / (D + 1 : ℝ)) := by
+    calc
+      (∑ i ∈ Finset.range D,
+          (((i + 1 : ℕ) : ℝ) * (((i + 1 : ℕ) : ℝ) / (D + 1 : ℝ))))
+          = ∑ i ∈ Finset.range D,
+              (((i + 1 : ℕ) : ℝ) ^ 2 / (D + 1 : ℝ)) := by
+            refine Finset.sum_congr rfl ?_
+            intro i hi
+            ring
+      _ = ((∑ i ∈ Finset.range D, (((i + 1 : ℕ) : ℝ) ^ 2)) / (D + 1 : ℝ)) := by
+            simp only [div_eq_mul_inv]
+            rw [Finset.sum_mul]
+  rw [sum_range_succ_real, hdiv, sum_range_succ_sq_real]
+  have hpos : (0 : ℝ) < D + 1 := by positivity
+  field_simp [ne_of_gt hpos]
+  ring
+
+/--
+Exact count of the lower triangular differences:
+the difference `i + 1` occurs exactly `D - i` times.
+-/
+theorem lowerTriangle_sum_eq_weighted_count (F : ℕ → ℝ) (D : ℕ) :
+    (∑ r ∈ Finset.range (D + 1), ∑ s ∈ Finset.range r, F (r - s)) =
+      ∑ i ∈ Finset.range D, ((D - i : ℕ) : ℝ) * F (i + 1) := by
+  rw [Finset.sum_range_succ']
+  simp only [Finset.range_zero, Finset.sum_empty, add_zero]
+  have hrow :
+      (∑ x ∈ Finset.range D, ∑ s ∈ Finset.range (x + 1), F (x + 1 - s)) =
+      (∑ x ∈ Finset.range D, ∑ t ∈ Finset.range (x + 1), F (t + 1)) := by
+    refine Finset.sum_congr rfl ?_
+    intro x hx
+    have h := Finset.sum_range_reflect (fun t => F (t + 1)) (x + 1)
+    calc
+      (∑ s ∈ Finset.range (x + 1), F (x + 1 - s))
+          = ∑ s ∈ Finset.range (x + 1), F (x - s + 1) := by
+            refine Finset.sum_congr rfl ?_
+            intro s hs
+            simp only [Finset.mem_range] at hs
+            congr 1
+            omega
+      _ = ∑ t ∈ Finset.range (x + 1), F (t + 1) := h
+  rw [hrow]
+  have hflip := Finset.sum_range_diag_flip D (fun k _l => F (k + 1))
+  calc
+    (∑ x ∈ Finset.range D, ∑ t ∈ Finset.range (x + 1), F (t + 1))
+        = ∑ i ∈ Finset.range D, ∑ _k ∈ Finset.range (D - i), F (i + 1) := by
+          simpa using hflip
+    _ = ∑ i ∈ Finset.range D, ((D - i : ℕ) : ℝ) * F (i + 1) := by
+          refine Finset.sum_congr rfl ?_
+          intro i hi
+          simp [Finset.sum_const, nsmul_eq_mul]
+
+end FejerWeights
+
+section WeightedFourierLower
+
+/-- The weighted scalar power energy corresponding to the Fejér weights. -/
+noncomputable def weightedGeomPowerEnergy (z : ℂ) (k D : ℕ) : ℝ :=
+  ∑ i ∈ Finset.range D, fejerWeight D (i + 1) * ‖geomPowerSum z k (i + 1)‖ ^ 2
+
+theorem weightedGeomPowerEnergy_eq_count_form (z : ℂ) (k D : ℕ) :
+    weightedGeomPowerEnergy z k D =
+      (D + 1 : ℝ)⁻¹ *
+        (∑ i ∈ Finset.range D,
+          ((D - i : ℕ) : ℝ) * ‖geomPowerSum z k (i + 1)‖ ^ 2) := by
+  unfold weightedGeomPowerEnergy fejerWeight
+  rw [Finset.mul_sum]
+  refine Finset.sum_congr rfl ?_
+  intro i hi
+  simp only [Finset.mem_range] at hi
+  have hpos : (0 : ℝ) < D + 1 := by positivity
+  have hweight :
+      1 - (((i + 1 : ℕ) : ℝ) / (D + 1 : ℝ))
+        = (D - i : ℕ) / (D + 1 : ℝ) := by
+    have hcast : ((D - i : ℕ) : ℝ) = (D : ℝ) - (i : ℝ) := by
+      rw [Nat.cast_sub (Nat.le_of_lt hi)]
+    field_simp [ne_of_gt hpos]
+    rw [hcast]
+    norm_num [Nat.cast_add, Nat.cast_one]
+  rw [hweight]
+  field_simp [ne_of_gt hpos]
+
+theorem lowerTriangle_fejerBaseNorm_eq_weighted_count
+    {z : ℂ} (hz : ‖z‖ = 1) (k D : ℕ) :
+    (∑ r ∈ Finset.range (D + 1),
+        ∑ s ∈ Finset.range r,
+          ‖∑ p ∈ Finset.range k, (z ^ r * starRingEnd ℂ (z ^ s)) ^ p‖ ^ 2)
+      =
+    ∑ i ∈ Finset.range D,
+      ((D - i : ℕ) : ℝ) * ‖geomPowerSum z k (i + 1)‖ ^ 2 := by
+  let F : ℕ → ℝ := fun d => ‖geomPowerSum z k d‖ ^ 2
+  calc
+    (∑ r ∈ Finset.range (D + 1),
+        ∑ s ∈ Finset.range r,
+          ‖∑ p ∈ Finset.range k, (z ^ r * starRingEnd ℂ (z ^ s)) ^ p‖ ^ 2)
+        = ∑ r ∈ Finset.range (D + 1),
+            ∑ s ∈ Finset.range r, F (r - s) := by
+          refine Finset.sum_congr rfl ?_
+          intro r hr
+          refine Finset.sum_congr rfl ?_
+          intro s hs
+          have hsr : s ≤ r := by
+            simp only [Finset.mem_range] at hs
+            omega
+          dsimp [F]
+          rw [norm_geomPowerSum_base_sub_of_le hz k hsr]
+    _ = ∑ i ∈ Finset.range D,
+        ((D - i : ℕ) : ℝ) * ‖geomPowerSum z k (i + 1)‖ ^ 2 := by
+          simpa [F] using lowerTriangle_sum_eq_weighted_count F D
+
+theorem upperTriangle_fejerBaseNorm_eq_weighted_count
+    {z : ℂ} (hz : ‖z‖ = 1) (k D : ℕ) :
+    (∑ s ∈ Finset.range (D + 1),
+        ∑ r ∈ Finset.range s,
+          ‖∑ p ∈ Finset.range k, (z ^ r * starRingEnd ℂ (z ^ s)) ^ p‖ ^ 2)
+      =
+    ∑ i ∈ Finset.range D,
+      ((D - i : ℕ) : ℝ) * ‖geomPowerSum z k (i + 1)‖ ^ 2 := by
+  let F : ℕ → ℝ := fun d => ‖geomPowerSum z k d‖ ^ 2
+  calc
+    (∑ s ∈ Finset.range (D + 1),
+        ∑ r ∈ Finset.range s,
+          ‖∑ p ∈ Finset.range k, (z ^ r * starRingEnd ℂ (z ^ s)) ^ p‖ ^ 2)
+        = ∑ s ∈ Finset.range (D + 1),
+            ∑ r ∈ Finset.range s, F (s - r) := by
+          refine Finset.sum_congr rfl ?_
+          intro s hs
+          refine Finset.sum_congr rfl ?_
+          intro r hr
+          have hrs : r ≤ s := by
+            simp only [Finset.mem_range] at hr
+            omega
+          dsimp [F]
+          rw [norm_geomPowerSum_base_conj_sub_of_le hz k hrs]
+    _ = ∑ i ∈ Finset.range D,
+        ((D - i : ℕ) : ℝ) * ‖geomPowerSum z k (i + 1)‖ ^ 2 := by
+          simpa [F] using lowerTriangle_sum_eq_weighted_count F D
+
+theorem fejerPairEnergy_eq_sq_add_two_weighted
+    {z : ℂ} (hz : ‖z‖ = 1) (k D : ℕ) :
+    fejerPairEnergy z k D =
+      (k : ℝ) ^ 2 + 2 * weightedGeomPowerEnergy z k D := by
+  let B : ℕ → ℕ → ℝ := fun r s =>
+    ‖∑ p ∈ Finset.range k, (z ^ r * starRingEnd ℂ (z ^ s)) ^ p‖ ^ 2
+  let Cnt : ℝ :=
+    ∑ i ∈ Finset.range D,
+      ((D - i : ℕ) : ℝ) * ‖geomPowerSum z k (i + 1)‖ ^ 2
+  have hsplit :
+      (∑ r ∈ Finset.range (D + 1), ∑ s ∈ Finset.range (D + 1), B r s)
+        =
+      (∑ r ∈ Finset.range (D + 1), ∑ s ∈ Finset.range r, B r s)
+        + (∑ r ∈ Finset.range (D + 1), B r r)
+        + (∑ s ∈ Finset.range (D + 1), ∑ r ∈ Finset.range s, B r s) := by
+    simpa [B] using square_sum_eq_lower_diag_upper B (D + 1)
+  have hlower :
+      (∑ r ∈ Finset.range (D + 1), ∑ s ∈ Finset.range r, B r s) = Cnt := by
+    simpa [B, Cnt] using lowerTriangle_fejerBaseNorm_eq_weighted_count
+      (z := z) hz k D
+  have hupper :
+      (∑ s ∈ Finset.range (D + 1), ∑ r ∈ Finset.range s, B r s) = Cnt := by
+    simpa [B, Cnt] using upperTriangle_fejerBaseNorm_eq_weighted_count
+      (z := z) hz k D
+  have hdiag :
+      (∑ r ∈ Finset.range (D + 1), B r r)
+        = (D + 1 : ℝ) * (k : ℝ) ^ 2 := by
+    simpa [B] using diagonal_fejerBaseNorm_sum (z := z) hz k D
+  have hweighted :
+      weightedGeomPowerEnergy z k D = (D + 1 : ℝ)⁻¹ * Cnt := by
+    simpa [Cnt] using weightedGeomPowerEnergy_eq_count_form z k D
+  rw [fejerPairEnergy_eq_average_fejerBaseNormSum]
+  change (D + 1 : ℝ)⁻¹ *
+      (∑ r ∈ Finset.range (D + 1), ∑ s ∈ Finset.range (D + 1), B r s)
+    = (k : ℝ) ^ 2 + 2 * weightedGeomPowerEnergy z k D
+  rw [hsplit, hlower, hupper, hdiag, hweighted]
+  have hpos : (0 : ℝ) < D + 1 := by positivity
+  field_simp [ne_of_gt hpos]
+  ring
+
+theorem weightedGeomPowerEnergy_lower (z : ℂ) (k D : ℕ) (hz : ‖z‖ = 1) :
+    ((k : ℝ) * (D + 1 : ℝ) - (k : ℝ) ^ 2) / 2
+      ≤ weightedGeomPowerEnergy z k D := by
+  have hlo := fejerPairEnergy_diag_lower (z := z) hz k D
+  rw [fejerPairEnergy_eq_sq_add_two_weighted (z := z) hz k D] at hlo
+  nlinarith
+
+end WeightedFourierLower
+
+section WeightedFourierBridge
+
+variable {N : ℕ} [NeZero N]
+
+/-- Fourier-side decomposition of the weighted AP second moment. -/
+theorem weighted_sum_expect_normSq_zmodAPSum
+    (f : ZMod N → ℂ) (k D : ℕ) :
+    (∑ i ∈ Finset.range D,
+        fejerWeight D (i + 1) *
+          (Finset.univ.expect fun a : ZMod N =>
+            ‖zmodAPSum f k a ((i + 1 : ℕ) : ZMod N)‖ ^ 2))
+      = ∑ ψ : AddChar (ZMod N) ℂ,
+          ‖fourierCoeff f ψ‖ ^ 2 * weightedGeomPowerEnergy (ψ (1 : ZMod N)) k D := by
+  unfold weightedGeomPowerEnergy
+  calc
+    (∑ i ∈ Finset.range D,
+        fejerWeight D (i + 1) *
+          (Finset.univ.expect fun a : ZMod N =>
+            ‖zmodAPSum f k a ((i + 1 : ℕ) : ZMod N)‖ ^ 2))
+        = ∑ i ∈ Finset.range D,
+            fejerWeight D (i + 1) *
+              (∑ ψ : AddChar (ZMod N) ℂ,
+                ‖apFourierCoeff f k ((i + 1 : ℕ) : ZMod N) ψ‖ ^ 2) := by
+            refine Finset.sum_congr rfl ?_
+            intro i hi
+            rw [expect_normSq_zmodAPSum]
+    _ = ∑ i ∈ Finset.range D,
+          ∑ ψ : AddChar (ZMod N) ℂ,
+            fejerWeight D (i + 1) *
+              (‖fourierCoeff f ψ‖ ^ 2 *
+                ‖∑ j ∈ Finset.range k,
+                  ψ (j • ((i + 1 : ℕ) : ZMod N))‖ ^ 2) := by
+            refine Finset.sum_congr rfl ?_
+            intro i hi
+            rw [Finset.mul_sum]
+            refine Finset.sum_congr rfl ?_
+            intro ψ hψ
+            rw [normSq_apFourierCoeff]
+    _ = ∑ ψ : AddChar (ZMod N) ℂ,
+          ∑ i ∈ Finset.range D,
+            fejerWeight D (i + 1) *
+              (‖fourierCoeff f ψ‖ ^ 2 *
+                ‖∑ j ∈ Finset.range k,
+                  ψ (j • ((i + 1 : ℕ) : ZMod N))‖ ^ 2) := by
+            rw [Finset.sum_comm]
+    _ = ∑ ψ : AddChar (ZMod N) ℂ,
+          ‖fourierCoeff f ψ‖ ^ 2 *
+            (∑ i ∈ Finset.range D,
+              fejerWeight D (i + 1) *
+                ‖∑ j ∈ Finset.range k,
+                  ψ (j • ((i + 1 : ℕ) : ZMod N))‖ ^ 2) := by
+            refine Finset.sum_congr rfl ?_
+            intro ψ hψ
+            rw [Finset.mul_sum]
+            refine Finset.sum_congr rfl ?_
+            intro i hi
+            ring
+    _ = ∑ ψ : AddChar (ZMod N) ℂ,
+          ‖fourierCoeff f ψ‖ ^ 2 *
+            (∑ i ∈ Finset.range D,
+              fejerWeight D (i + 1) *
+                ‖geomPowerSum (ψ (1 : ZMod N)) k (i + 1)‖ ^ 2) := by
+            refine Finset.sum_congr rfl ?_
+            intro ψ hψ
+            congr 1
+            refine Finset.sum_congr rfl ?_
+            intro i hi
+            rw [addChar_zmod_power_sum_eq]
+
+theorem weighted_sum_expect_normSq_zmodAPSum_lower
+    (f : ZMod N → ℂ) (k D : ℕ)
+    (hunit : ∀ a : ZMod N, ‖f a‖ = 1) :
+    ((k : ℝ) * (D + 1 : ℝ) - (k : ℝ) ^ 2) / 2
+      ≤
+    (∑ i ∈ Finset.range D,
+        fejerWeight D (i + 1) *
+          (Finset.univ.expect fun a : ZMod N =>
+            ‖zmodAPSum f k a ((i + 1 : ℕ) : ZMod N)‖ ^ 2)) := by
+  rw [weighted_sum_expect_normSq_zmodAPSum]
+  have hcoeff := sum_normSq_fourierCoeff_of_unit f hunit
+  calc
+    ((k : ℝ) * (D + 1 : ℝ) - (k : ℝ) ^ 2) / 2
+        = (1 : ℝ) * (((k : ℝ) * (D + 1 : ℝ) - (k : ℝ) ^ 2) / 2) := by
+          ring
+    _ = (∑ ψ : AddChar (ZMod N) ℂ, ‖fourierCoeff f ψ‖ ^ 2)
+          * (((k : ℝ) * (D + 1 : ℝ) - (k : ℝ) ^ 2) / 2) := by
+          rw [hcoeff]
+    _ = ∑ ψ : AddChar (ZMod N) ℂ,
+          ‖fourierCoeff f ψ‖ ^ 2
+            * (((k : ℝ) * (D + 1 : ℝ) - (k : ℝ) ^ 2) / 2) := by
+          rw [Finset.sum_mul]
+    _ ≤ ∑ ψ : AddChar (ZMod N) ℂ,
+          ‖fourierCoeff f ψ‖ ^ 2 * weightedGeomPowerEnergy (ψ (1 : ZMod N)) k D := by
+          refine Finset.sum_le_sum ?_
+          intro ψ hψ
+          exact mul_le_mul_of_nonneg_left
+            (weightedGeomPowerEnergy_lower (ψ (1 : ZMod N)) k D
+              (AddChar.norm_apply ψ (1 : ZMod N)))
+            (sq_nonneg ‖fourierCoeff f ψ‖)
+
+theorem weighted_sum_expect_normSq_zmodAPSum_zmodColoringOfFin
+    (f : Fin N → ℤ) (k D : ℕ) :
+    (∑ i ∈ Finset.range D,
+        fejerWeight D (i + 1) *
+          (Finset.univ.expect fun x : ZMod N =>
+            ‖zmodAPSum (zmodColoringOfFin f) k x ((i + 1 : ℕ) : ZMod N)‖ ^ 2))
+      =
+    (∑ i ∈ Finset.range D,
+        fejerWeight D (i + 1) *
+          (Finset.univ.expect fun a : Fin N =>
+            (((cyclicAPSum f k a (i + 1)) ^ 2 : ℤ) : ℝ))) := by
+  refine Finset.sum_congr rfl ?_
+  intro i hi
+  rw [expect_normSq_zmodAPSum_zmodColoringOfFin]
+
+theorem weighted_cyclicAPSum_lower
+    (f : Fin N → ℤ)
+    (hpm : ∀ x, f x = -1 ∨ f x = 1)
+    (k D : ℕ) :
+    ((k : ℝ) * (D + 1 : ℝ) - (k : ℝ) ^ 2) / 2
+      ≤
+    (∑ i ∈ Finset.range D,
+        fejerWeight D (i + 1) *
+          (Finset.univ.expect fun a : Fin N =>
+            (((cyclicAPSum f k a (i + 1)) ^ 2 : ℤ) : ℝ))) := by
+  have hlo := weighted_sum_expect_normSq_zmodAPSum_lower
+    (N := N) (zmodColoringOfFin f) k D (zmodColoringOfFin_unit f hpm)
+  rw [weighted_sum_expect_normSq_zmodAPSum_zmodColoringOfFin] at hlo
+  exact hlo
+
+end WeightedFourierBridge
+
+section SqrtAlgebra
+
+/-- Real Fejér lower bound before specializing `D`. -/
+noncomputable def sqrtFejerLowerReal (k D : ℝ) : ℝ :=
+  (k * (D + 1) - k ^ 2) / 2
+
+/-- Real wrap-error upper bound before specializing `D`. -/
+noncomputable def sqrtWrapUpperReal (k N D : ℝ) : ℝ :=
+  (k - 1) * (D / 2)
+    + (((k ^ 2 - (k - 1)) * (k - 1)) / N) * (D * (D + 2) / 6)
+
+/-- The report's real threshold for the `sqrt(k)` target. -/
+noncomputable def sqrtThresholdReal (k : ℝ) : ℝ :=
+  (4 / 3) * (k ^ 2 - k + 1) * (k - 1) * (k * (k - 1) + 1)
+
+theorem sqrt_upper_lt_lower_of_threshold_real
+    {k N : ℝ}
+    (hk : 1 < k)
+    (hNpos : 0 < N)
+    (hN : sqrtThresholdReal k < N) :
+    sqrtWrapUpperReal k N (2 * k * (k - 1)) <
+      sqrtFejerLowerReal k (2 * k * (k - 1)) := by
+  have hN_ne : N ≠ 0 := ne_of_gt hNpos
+  have hmain :
+      (4 / 3) * (k ^ 2 - k + 1) * (k - 1) * (k * (k - 1) + 1) < N := by
+    simpa [sqrtThresholdReal, mul_comm, mul_left_comm, mul_assoc] using hN
+  unfold sqrtWrapUpperReal sqrtFejerLowerReal
+  field_simp [hN_ne]
+  nlinarith [hmain]
+
+theorem sqrt_average_bounds_incompatible_real
+    {k N A : ℝ}
+    (hk : 1 < k)
+    (hNpos : 0 < N)
+    (hN : sqrtThresholdReal k < N)
+    (hlo : sqrtFejerLowerReal k (2 * k * (k - 1)) ≤ A)
+    (hhi : A ≤ sqrtWrapUpperReal k N (2 * k * (k - 1))) :
+    False := by
+  have hlt := sqrt_upper_lt_lower_of_threshold_real
+    (k := k) (N := N) hk hNpos hN
+  linarith
+
+end SqrtAlgebra
+
+section SqrtThreshold
+
+variable {N : ℕ} [NeZero N]
+
+/--
+Squared version of the `sqrt(k)` discrepancy target.
+
+For an integer AP sum `z`, this is equivalent to `sqrt(k) ≤ |z|` over the reals.
+-/
+def sqrtLargeSq (k : ℕ) (z : ℤ) : Prop :=
+  (k : ℤ) ≤ z ^ 2
+
+/--
+If the squared `sqrt(k)` target fails and `k ≥ 1`, then the integer square is at
+most `k - 1`.
+-/
+theorem sq_le_pred_of_not_sqrtLargeSq
+    {k : ℕ} (hk : 1 ≤ k) {z : ℤ}
+    (h : ¬ sqrtLargeSq k z) :
+    z ^ 2 ≤ ((k - 1 : ℕ) : ℤ) := by
+  unfold sqrtLargeSq at h
+  have hzlt : z ^ 2 < (k : ℤ) := lt_of_not_ge h
+  have hpred : ((k - 1 : ℕ) : ℤ) = (k : ℤ) - 1 := by
+    rw [Nat.cast_sub hk]
+    norm_num
+  omega
+
+/--
+For a fixed difference `d`, if every non-wrapping AP misses the `sqrt(k)`
+target, then the second moment is bounded by:
+
+* `(k - 1)` on non-wrapping starts;
+* `k^2` on wrapping starts;
+* at most `(k - 1) * d` wrapping starts.
+
+This is the `sqrt(k)` analogue of `fixedD_second_moment_upper`.
+-/
+theorem fixedD_second_moment_upper_sqrt
+    (f : Fin N → ℤ)
+    (hpm : ∀ x, f x = -1 ∨ f x = 1)
+    {k d : ℕ}
+    (hk : 1 ≤ k)
+    (hsmall : ∀ a : Fin N, ¬ wraps (N := N) k a d →
+      ¬ sqrtLargeSq k (cyclicAPSum f k a d)) :
+    (∑ a : Fin N, (cyclicAPSum f k a d) ^ 2)
+      ≤ (N : ℤ) * (((k - 1 : ℕ) : ℤ))
+        + ((((k : ℤ) ^ 2 - (((k - 1 : ℕ) : ℤ)))
+            * (((k - 1) * d : ℕ) : ℤ))) := by
+  classical
+  let B : ℤ := ((k - 1 : ℕ) : ℤ)
+  let K : ℤ := (k : ℤ) ^ 2 - B
+  let p : Fin N → Prop := fun a => wraps (N := N) k a d
+  have hKnonneg : 0 ≤ K := by
+    have hkz : (1 : ℤ) ≤ k := by exact_mod_cast hk
+    have hB : B = (k : ℤ) - 1 := by
+      dsimp [B]
+      rw [Nat.cast_sub hk]
+      norm_num
+    dsimp [K]
+    rw [hB]
+    nlinarith
+  have hpoint :
+      ∀ a : Fin N,
+        (cyclicAPSum f k a d) ^ 2 ≤ B + if p a then K else 0 := by
+    intro a
+    by_cases hp : p a
+    · have hsq := cyclicAPSum_sq_le (N := N) f hpm k a d
+      have hBK : B + K = (k : ℤ) ^ 2 := by
+        dsimp [K]
+        ring
+      simpa [hp, hBK] using hsq
+    · have hs := sq_le_pred_of_not_sqrtLargeSq
+        (k := k) hk (z := cyclicAPSum f k a d)
+        (hsmall a (by simpa [p] using hp))
+      simpa [B, hp] using hs
+  calc
+    (∑ a : Fin N, (cyclicAPSum f k a d) ^ 2)
+        ≤ ∑ a : Fin N, (B + if p a then K else 0) :=
+          Finset.sum_le_sum (by
+            intro a ha
+            exact hpoint a)
+    _ = (N : ℤ) * B + K * (((Finset.univ : Finset (Fin N)).filter p).card : ℤ) := by
+          rw [Finset.sum_add_distrib]
+          have hconst : (∑ _a : Fin N, B) = (N : ℤ) * B := by
+            simp [Finset.sum_const, Fintype.card_fin]
+          have hif :
+              (∑ a : Fin N, (if p a then K else 0))
+                = K * (((Finset.univ : Finset (Fin N)).filter p).card : ℤ) := by
+            rw [Finset.sum_ite]
+            simp [Finset.sum_const, mul_comm]
+          rw [hconst, hif]
+    _ ≤ (N : ℤ) * B + K * (((k - 1) * d : ℕ) : ℤ) := by
+          have hcardNat :
+              ((Finset.univ : Finset (Fin N)).filter p).card ≤ (k - 1) * d := by
+            simpa [p, wraps] using card_wrapStarts_le N ((k - 1) * d)
+          have hcard :
+              (((Finset.univ : Finset (Fin N)).filter p).card : ℤ)
+                ≤ (((k - 1) * d : ℕ) : ℤ) := by
+            exact_mod_cast hcardNat
+          nlinarith
+    _ = (N : ℤ) * (((k - 1 : ℕ) : ℤ))
+        + ((((k : ℤ) ^ 2 - (((k - 1 : ℕ) : ℤ)))
+            * (((k - 1) * d : ℕ) : ℤ))) := by
+          rfl
+
+theorem real_sum_cyclicAPSum_sq_eq_intCast_sum_fixed
+    (f : Fin N → ℤ) (k d : ℕ) :
+    (∑ a : Fin N, (((cyclicAPSum f k a d) ^ 2 : ℤ) : ℝ))
+      =
+    (((∑ a : Fin N, (cyclicAPSum f k a d) ^ 2 : ℤ)) : ℝ) := by
+  have h :
+      (Int.castRingHom ℝ)
+        (∑ a : Fin N, (cyclicAPSum f k a d) ^ 2)
+        =
+      ∑ a : Fin N,
+        (Int.castRingHom ℝ) ((cyclicAPSum f k a d) ^ 2) :=
+    map_sum (Int.castRingHom ℝ)
+      (fun a : Fin N => (cyclicAPSum f k a d) ^ 2)
+      Finset.univ
+  exact h.symm
+
+/-- Fixed-difference expected second-moment upper bound for the `sqrt(k)` target. -/
+theorem fixedD_expect_upper_sqrt
+    (f : Fin N → ℤ)
+    (hpm : ∀ x, f x = -1 ∨ f x = 1)
+    {k d : ℕ}
+    (hk : 1 ≤ k)
+    (hsmall : ∀ a : Fin N, ¬ wraps (N := N) k a d →
+      ¬ sqrtLargeSq k (cyclicAPSum f k a d)) :
+    (Finset.univ.expect fun a : Fin N =>
+        (((cyclicAPSum f k a d) ^ 2 : ℤ) : ℝ))
+      ≤ (((k - 1 : ℕ) : ℝ))
+        + ((((k : ℝ) ^ 2 - (((k - 1 : ℕ) : ℝ)))
+            * (((k - 1) * d : ℕ) : ℝ)) / (N : ℝ)) := by
+  have hZ := fixedD_second_moment_upper_sqrt
+    (N := N) f hpm (k := k) (d := d) hk hsmall
+  have hR :
+      (∑ a : Fin N, (((cyclicAPSum f k a d) ^ 2 : ℤ) : ℝ))
+        ≤ (N : ℝ) * (((k - 1 : ℕ) : ℝ))
+          + ((((k : ℝ) ^ 2 - (((k - 1 : ℕ) : ℝ)))
+              * (((k - 1) * d : ℕ) : ℝ))) := by
+    rw [real_sum_cyclicAPSum_sq_eq_intCast_sum_fixed]
+    exact_mod_cast hZ
+  rw [Fintype.expect_eq_sum_div_card]
+  simp only [Fintype.card_fin]
+  have hNpos : 0 < (N : ℝ) := by
+    exact_mod_cast (Nat.pos_of_neZero N)
+  calc
+    (∑ a : Fin N, (((cyclicAPSum f k a d) ^ 2 : ℤ) : ℝ)) / (N : ℝ)
+        ≤ ((N : ℝ) * (((k - 1 : ℕ) : ℝ))
+          + ((((k : ℝ) ^ 2 - (((k - 1 : ℕ) : ℝ)))
+              * (((k - 1) * d : ℕ) : ℝ)))) / (N : ℝ) := by
+            exact div_le_div_of_nonneg_right hR hNpos.le
+    _ = (((k - 1 : ℕ) : ℝ))
+        + ((((k : ℝ) ^ 2 - (((k - 1 : ℕ) : ℝ)))
+            * (((k - 1) * d : ℕ) : ℝ)) / (N : ℝ)) := by
+          field_simp [ne_of_gt hNpos]
+
+/--
+Weighted upper bound for the Fejér average, under the assumption that no
+non-wrapping AP reaches the squared `sqrt(k)` target.
+-/
+theorem weighted_expect_upper_sqrt
+    (f : Fin N → ℤ)
+    (hpm : ∀ x, f x = -1 ∨ f x = 1)
+    {k D : ℕ}
+    (hk : 1 ≤ k)
+    (hsmall : ∀ i ∈ Finset.range D, ∀ a : Fin N,
+      ¬ wraps (N := N) k a (i + 1) →
+        ¬ sqrtLargeSq k (cyclicAPSum f k a (i + 1))) :
+    (∑ i ∈ Finset.range D,
+        fejerWeight D (i + 1) *
+          (Finset.univ.expect fun a : Fin N =>
+            (((cyclicAPSum f k a (i + 1)) ^ 2 : ℤ) : ℝ)))
+      ≤ (((k - 1 : ℕ) : ℝ)) * ((D : ℝ) / 2)
+        + ((((k : ℝ) ^ 2 - (((k - 1 : ℕ) : ℝ)))
+            * (((k - 1 : ℕ) : ℝ)) / (N : ℝ))
+          * ((D : ℝ) * (D + 2 : ℝ) / 6)) := by
+  let B : ℝ := ((k - 1 : ℕ) : ℝ)
+  let K : ℝ := (k : ℝ) ^ 2 - B
+  let C : ℝ := K * B / (N : ℝ)
+  have hpoint : ∀ i ∈ Finset.range D,
+      fejerWeight D (i + 1) *
+          (Finset.univ.expect fun a : Fin N =>
+            (((cyclicAPSum f k a (i + 1)) ^ 2 : ℤ) : ℝ))
+        ≤ fejerWeight D (i + 1) *
+            (B + C * (((i + 1 : ℕ) : ℝ))) := by
+    intro i hi
+    have hid : i + 1 ≤ D := by
+      simp only [Finset.mem_range] at hi
+      omega
+    have hw : 0 ≤ fejerWeight D (i + 1) := fejerWeight_nonneg hid
+    have hfix := fixedD_expect_upper_sqrt
+      (N := N) f hpm (k := k) (d := i + 1) hk (hsmall i hi)
+    have hfix' :
+        (Finset.univ.expect fun a : Fin N =>
+            (((cyclicAPSum f k a (i + 1)) ^ 2 : ℤ) : ℝ))
+          ≤ B + C * (((i + 1 : ℕ) : ℝ)) := by
+      calc
+        (Finset.univ.expect fun a : Fin N =>
+            (((cyclicAPSum f k a (i + 1)) ^ 2 : ℤ) : ℝ))
+            ≤ B + (K * (B * (((i + 1 : ℕ) : ℝ))) / (N : ℝ)) := by
+              simpa [B, K, Nat.cast_mul, mul_comm, mul_left_comm, mul_assoc]
+                using hfix
+        _ = B + C * (((i + 1 : ℕ) : ℝ)) := by
+              dsimp [C]
+              ring
+    exact mul_le_mul_of_nonneg_left hfix' hw
+  calc
+    (∑ i ∈ Finset.range D,
+        fejerWeight D (i + 1) *
+          (Finset.univ.expect fun a : Fin N =>
+            (((cyclicAPSum f k a (i + 1)) ^ 2 : ℤ) : ℝ)))
+        ≤ ∑ i ∈ Finset.range D,
+            fejerWeight D (i + 1) * (B + C * (((i + 1 : ℕ) : ℝ))) := by
+          exact Finset.sum_le_sum hpoint
+    _ = B * (∑ i ∈ Finset.range D, fejerWeight D (i + 1))
+        + C * (∑ i ∈ Finset.range D,
+            (((i + 1 : ℕ) : ℝ) * fejerWeight D (i + 1))) := by
+          calc
+            (∑ i ∈ Finset.range D,
+                fejerWeight D (i + 1) * (B + C * (((i + 1 : ℕ) : ℝ))))
+                = ∑ i ∈ Finset.range D,
+                    (fejerWeight D (i + 1) * B
+                      + fejerWeight D (i + 1) * (C * (((i + 1 : ℕ) : ℝ)))) := by
+                    refine Finset.sum_congr rfl ?_
+                    intro i hi
+                    ring
+            _ = B * (∑ i ∈ Finset.range D, fejerWeight D (i + 1))
+                + C * (∑ i ∈ Finset.range D,
+                    (((i + 1 : ℕ) : ℝ) * fejerWeight D (i + 1))) := by
+                  rw [Finset.sum_add_distrib]
+                  have hleft :
+                      (∑ i ∈ Finset.range D, fejerWeight D (i + 1) * B)
+                        = B * (∑ i ∈ Finset.range D, fejerWeight D (i + 1)) := by
+                    rw [Finset.mul_sum]
+                    refine Finset.sum_congr rfl ?_
+                    intro i hi
+                    ring
+                  have hright :
+                      (∑ i ∈ Finset.range D,
+                          fejerWeight D (i + 1) * (C * (((i + 1 : ℕ) : ℝ))))
+                        = C * (∑ i ∈ Finset.range D,
+                            (((i + 1 : ℕ) : ℝ) * fejerWeight D (i + 1))) := by
+                    rw [Finset.mul_sum]
+                    refine Finset.sum_congr rfl ?_
+                    intro i hi
+                    ring
+                  rw [hleft, hright]
+    _ = B * ((D : ℝ) / 2)
+        + C * ((D : ℝ) * (D + 2 : ℝ) / 6) := by
+          rw [sum_fejerWeight_range, sum_mul_fejerWeight_range]
+    _ = (((k - 1 : ℕ) : ℝ)) * ((D : ℝ) / 2)
+        + ((((k : ℝ) ^ 2 - (((k - 1 : ℕ) : ℝ)))
+            * (((k - 1 : ℕ) : ℝ)) / (N : ℝ))
+          * ((D : ℝ) * (D + 2 : ℝ) / 6)) := by
+          rfl
+
+theorem no_small_nonwrapping_ap_of_sqrt_threshold
+    (f : Fin N → ℤ)
+    (hpm : ∀ x, f x = -1 ∨ f x = 1)
+    {k : ℕ}
+    (hk : 2 ≤ k)
+    (hN : sqrtThresholdReal (k : ℝ) < (N : ℝ))
+    (hsmall : ∀ i ∈ Finset.range (2 * k * (k - 1)), ∀ a : Fin N,
+      ¬ wraps (N := N) k a (i + 1) →
+        ¬ sqrtLargeSq k (cyclicAPSum f k a (i + 1))) :
+    False := by
+  let D : ℕ := 2 * k * (k - 1)
+  let A : ℝ :=
+    ∑ i ∈ Finset.range D,
+      fejerWeight D (i + 1) *
+        (Finset.univ.expect fun a : Fin N =>
+          (((cyclicAPSum f k a (i + 1)) ^ 2 : ℤ) : ℝ))
+  have hkone : 1 ≤ k := by omega
+  have hkReal : (1 : ℝ) < (k : ℝ) := by exact_mod_cast hk
+  have hNpos : 0 < (N : ℝ) := by
+    exact_mod_cast (Nat.pos_of_neZero N)
+  have hloRaw := weighted_cyclicAPSum_lower (N := N) f hpm k D
+  have hlo : sqrtFejerLowerReal (k : ℝ) (2 * (k : ℝ) * ((k : ℝ) - 1)) ≤ A := by
+    simpa [A, D, sqrtFejerLowerReal, Nat.cast_mul, Nat.cast_sub hkone,
+      mul_comm, mul_left_comm, mul_assoc] using hloRaw
+  have hhiRaw := weighted_expect_upper_sqrt
+    (N := N) f hpm (k := k) (D := D) hkone (by
+      intro i hi a hnowrap
+      exact hsmall i (by simpa [D] using hi) a hnowrap)
+  have hhi :
+      A ≤ sqrtWrapUpperReal (k : ℝ) (N : ℝ)
+        (2 * (k : ℝ) * ((k : ℝ) - 1)) := by
+    simpa [A, D, sqrtWrapUpperReal, Nat.cast_mul, Nat.cast_sub hkone,
+      pow_two, mul_comm, mul_left_comm, mul_assoc] using hhiRaw
+  exact sqrt_average_bounds_incompatible_real
+    (k := (k : ℝ)) (N := (N : ℝ)) hkReal hNpos hN hlo hhi
+
+theorem exists_nonwrap_cyclicAPSum_sqrtLargeSq_of_threshold
+    (f : Fin N → ℤ)
+    (hpm : ∀ x, f x = -1 ∨ f x = 1)
+    {k : ℕ}
+    (hk : 2 ≤ k)
+    (hN : sqrtThresholdReal (k : ℝ) < (N : ℝ)) :
+    ∃ i ∈ Finset.range (2 * k * (k - 1)), ∃ a : Fin N,
+      ¬ wraps (N := N) k a (i + 1) ∧
+        sqrtLargeSq k (cyclicAPSum f k a (i + 1)) := by
+  by_contra hnone
+  have hsmall : ∀ i ∈ Finset.range (2 * k * (k - 1)), ∀ a : Fin N,
+      ¬ wraps (N := N) k a (i + 1) →
+        ¬ sqrtLargeSq k (cyclicAPSum f k a (i + 1)) := by
+    intro i hi a hnowrap hlarge
+    exact hnone ⟨i, hi, a, hnowrap, hlarge⟩
+  exact no_small_nonwrapping_ap_of_sqrt_threshold
+    (N := N) f hpm (k := k) hk hN hsmall
+
+theorem exists_ordinaryAPSum_sqrtLargeSq_of_threshold
+    (f : Fin N → ℤ)
+    (hpm : ∀ x, f x = -1 ∨ f x = 1)
+    {k : ℕ}
+    (hk : 2 ≤ k)
+    (hN : sqrtThresholdReal (k : ℝ) < (N : ℝ)) :
+    ∃ i ∈ Finset.range (2 * k * (k - 1)), ∃ a : Fin N,
+      ∃ hnowrap : ¬ wraps (N := N) k a (i + 1),
+        sqrtLargeSq k (ordinaryAPSum f k a (i + 1) hnowrap) := by
+  rcases exists_nonwrap_cyclicAPSum_sqrtLargeSq_of_threshold
+      (N := N) f hpm (k := k) hk hN with
+    ⟨i, hi, a, hnowrap, hlarge⟩
+  refine ⟨i, hi, a, hnowrap, ?_⟩
+  have heq := cyclicAPSum_eq_ordinaryAPSum (N := N) f k a (i + 1) hnowrap
+  simpa [heq] using hlarge
+
+end SqrtThreshold
+
+section PublicSqrtBound
+
+/-- The report's displayed real threshold, with `k : ℕ`. -/
+noncomputable def sqrtHtmlThresholdReal (k : ℕ) : ℝ :=
+  sqrtThresholdReal (k : ℝ)
+
+/-- The displayed integer upper bound, `floor(threshold) + 1`. -/
+noncomputable def sqrtHtmlBoundNat (k : ℕ) : ℕ :=
+  Nat.floor (sqrtHtmlThresholdReal k) + 1
+
+theorem sqrtHtmlBoundNat_pos (k : ℕ) :
+    0 < sqrtHtmlBoundNat k := by
+  simp [sqrtHtmlBoundNat]
+
+theorem sqrtHtmlThresholdReal_lt_sqrtHtmlBoundNat (k : ℕ) :
+    sqrtHtmlThresholdReal k < (sqrtHtmlBoundNat k : ℝ) := by
+  simpa [sqrtHtmlBoundNat, Nat.cast_add, Nat.cast_one]
+    using Nat.lt_floor_add_one (sqrtHtmlThresholdReal k)
+
+theorem sqrtHtmlThresholdReal_lt_of_sqrtHtmlBoundNat_le
+    {k N : ℕ}
+    (hN : sqrtHtmlBoundNat k ≤ N) :
+    sqrtHtmlThresholdReal k < (N : ℝ) := by
+  have hfloor := sqrtHtmlThresholdReal_lt_sqrtHtmlBoundNat k
+  have hNreal : (sqrtHtmlBoundNat k : ℝ) ≤ (N : ℝ) := by
+    exact_mod_cast hN
+  exact lt_of_lt_of_le hfloor hNreal
+
+theorem exists_ordinaryAPSum_sqrtLargeSq_of_sqrtHtmlBoundNat_le
+    {N : ℕ} [NeZero N]
+    (f : Fin N → ℤ)
+    (hpm : ∀ x, f x = -1 ∨ f x = 1)
+    {k : ℕ}
+    (hk : 2 ≤ k)
+    (hN : sqrtHtmlBoundNat k ≤ N) :
+    ∃ i ∈ Finset.range (2 * k * (k - 1)), ∃ a : Fin N,
+      ∃ hnowrap : ¬ wraps (N := N) k a (i + 1),
+        sqrtLargeSq k (ordinaryAPSum f k a (i + 1) hnowrap) := by
+  have hThreshold :
+      sqrtThresholdReal (k : ℝ) < (N : ℝ) := by
+    simpa [sqrtHtmlThresholdReal] using
+      sqrtHtmlThresholdReal_lt_of_sqrtHtmlBoundNat_le (k := k) (N := N) hN
+  exact exists_ordinaryAPSum_sqrtLargeSq_of_threshold
+    (N := N) f hpm (k := k) hk hThreshold
+
+/--
+For a fixed coloring on `[0, N)`, there is a non-wrapping ordinary `k`-term AP
+whose squared signed sum is at least `k`.
+-/
+def hasLargeOrdinaryAPSqrtAt
+    (k N : ℕ) (hNpos : 0 < N) (f : Fin N → ℤ) : Prop :=
+  letI : NeZero N := ⟨Nat.ne_of_gt hNpos⟩
+  ∃ d : ℕ, 0 < d ∧ ∃ a : Fin N,
+    ∃ hnowrap : ¬ wraps (N := N) k a d,
+      sqrtLargeSq k (ordinaryAPSum f k a d hnowrap)
+
+/--
+Formalized `N(k, sqrt(k))` property in squared form: every `±1` coloring of
+`[0, N)` has a non-wrapping ordinary `k`-term AP whose squared sum is at least
+`k`.
+-/
+def erdos176SqrtGood (k N : ℕ) : Prop :=
+  ∃ hNpos : 0 < N,
+    ∀ f : Fin N → ℤ,
+      (∀ x, f x = -1 ∨ f x = 1) →
+        hasLargeOrdinaryAPSqrtAt k N hNpos f
+
+theorem erdos176SqrtGood_of_sqrtHtmlBoundNat_le
+    {k N : ℕ}
+    (hk : 2 ≤ k)
+    (hN : sqrtHtmlBoundNat k ≤ N) :
+    erdos176SqrtGood k N := by
+  have hNpos : 0 < N := lt_of_lt_of_le (sqrtHtmlBoundNat_pos k) hN
+  refine ⟨hNpos, ?_⟩
+  intro f hpm
+  haveI : NeZero N := ⟨Nat.ne_of_gt hNpos⟩
+  rcases
+    exists_ordinaryAPSum_sqrtLargeSq_of_sqrtHtmlBoundNat_le
+      (N := N) f hpm (k := k) hk hN with
+    ⟨i, _hi, a, hnowrap, hlarge⟩
+  exact ⟨i + 1, Nat.succ_pos i, a, hnowrap, hlarge⟩
+
+theorem exists_erdos176SqrtGood (k : ℕ) (hk : 2 ≤ k) :
+    ∃ N : ℕ, erdos176SqrtGood k N :=
+  ⟨sqrtHtmlBoundNat k, erdos176SqrtGood_of_sqrtHtmlBoundNat_le
+    (k := k) hk le_rfl⟩
+
+/-- The formal `N(k, sqrt(k))` value for the squared property above, for `k ≥ 2`. -/
+noncomputable def erdos176SqrtNumber (k : ℕ) (hk : 2 ≤ k) : ℕ := by
+  classical
+  exact Nat.find (exists_erdos176SqrtGood k hk)
+
+theorem erdos176SqrtNumber_spec (k : ℕ) (hk : 2 ≤ k) :
+    erdos176SqrtGood k (erdos176SqrtNumber k hk) := by
+  classical
+  unfold erdos176SqrtNumber
+  exact Nat.find_spec (exists_erdos176SqrtGood k hk)
+
+theorem erdos176SqrtNumber_le_sqrtHtmlBoundNat (k : ℕ) (hk : 2 ≤ k) :
+    erdos176SqrtNumber k hk ≤ sqrtHtmlBoundNat k := by
+  classical
+  unfold erdos176SqrtNumber
+  exact Nat.find_min' (exists_erdos176SqrtGood k hk)
+    (erdos176SqrtGood_of_sqrtHtmlBoundNat_le
+      (k := k) (N := sqrtHtmlBoundNat k) hk le_rfl)
+
+theorem erdos176SqrtNumber_le_report_bound (k : ℕ) (hk : 2 ≤ k) :
+    erdos176SqrtNumber k hk
+      ≤ Nat.floor
+        ((4 / 3) * (((k : ℝ) ^ 2 - (k : ℝ) + 1)
+          * ((k : ℝ) - 1) * ((k : ℝ) * ((k : ℝ) - 1) + 1))) + 1 := by
+  simpa [sqrtHtmlBoundNat, sqrtHtmlThresholdReal, sqrtThresholdReal,
+    mul_comm, mul_left_comm, mul_assoc] using
+    erdos176SqrtNumber_le_sqrtHtmlBoundNat k hk
+
+theorem erdos176SqrtNumber_le_report_bound_expanded
+    (k : ℕ) (hk : 2 ≤ k) :
+    ∃ M : ℕ,
+      (∃ hMpos : 0 < M,
+        letI : NeZero M := ⟨Nat.ne_of_gt hMpos⟩
+        ∀ f : Fin M → ℤ,
+          (∀ x : Fin M, f x = -1 ∨ f x = 1) →
+            ∃ d : ℕ, 0 < d ∧ ∃ a : Fin M,
+              ∃ hnowrap : ¬ (M ≤ a.val + (k - 1) * d),
+                sqrtLargeSq k
+                  (∑ j : Fin k, f
+                    ⟨a.val + j.val * d, by
+                      have hbound : a.val + (k - 1) * d < M := Nat.lt_of_not_ge hnowrap
+                      have hjle : j.val ≤ k - 1 := Nat.le_pred_of_lt j.isLt
+                      exact lt_of_le_of_lt
+                        (Nat.add_le_add_left (Nat.mul_le_mul_right d hjle) a.val) hbound⟩))
+      ∧ (∀ N : ℕ,
+        (∃ hNpos : 0 < N,
+          letI : NeZero N := ⟨Nat.ne_of_gt hNpos⟩
+          ∀ f : Fin N → ℤ,
+            (∀ x : Fin N, f x = -1 ∨ f x = 1) →
+              ∃ d : ℕ, 0 < d ∧ ∃ a : Fin N,
+                ∃ hnowrap : ¬ (N ≤ a.val + (k - 1) * d),
+                  sqrtLargeSq k
+                    (∑ j : Fin k, f
+                      ⟨a.val + j.val * d, by
+                        have hbound : a.val + (k - 1) * d < N := Nat.lt_of_not_ge hnowrap
+                        have hjle : j.val ≤ k - 1 := Nat.le_pred_of_lt j.isLt
+                        exact lt_of_le_of_lt
+                          (Nat.add_le_add_left (Nat.mul_le_mul_right d hjle) a.val) hbound⟩)) →
+          M ≤ N)
+      ∧ M ≤ Nat.floor
+        ((4 / 3) * (((k : ℝ) ^ 2 - (k : ℝ) + 1)
+          * ((k : ℝ) - 1) * ((k : ℝ) * ((k : ℝ) - 1) + 1))) + 1 := by
+  classical
+  let M := erdos176SqrtNumber k hk
+  refine ⟨M, ?_, ?_, ?_⟩
+  · simpa [M, erdos176SqrtGood, hasLargeOrdinaryAPSqrtAt, wraps,
+      ordinaryAPSum] using erdos176SqrtNumber_spec k hk
+  · intro N hN
+    have hGood : erdos176SqrtGood k N := by
+      simpa [erdos176SqrtGood, hasLargeOrdinaryAPSqrtAt, wraps,
+        ordinaryAPSum] using hN
+    simpa [M, erdos176SqrtNumber] using
+      (Nat.find_min' (exists_erdos176SqrtGood k hk) hGood)
+  · simpa [M] using erdos176SqrtNumber_le_report_bound k hk
+
+/-- Public-facing name for the displayed `sqrt(k)` bound. -/
+noncomputable abbrev sqrtReportBound (k : ℕ) : ℕ :=
+  sqrtHtmlBoundNat k
+
+/--
+Public-facing name for the formalized `N(k, sqrt(k))` quantity.
+
+For `k < 2`, this defaults to `0` so the notation does not need to carry a
+proof argument.  The public theorem below is stated only for `k ≥ 2`.
+-/
+noncomputable def N176Sqrt (k : ℕ) : ℕ :=
+  if hk : 2 ≤ k then erdos176SqrtNumber k hk else 0
+
+theorem N176Sqrt_eq_erdos176SqrtNumber (k : ℕ) (hk : 2 ≤ k) :
+    N176Sqrt k = erdos176SqrtNumber k hk := by
+  simp [N176Sqrt, hk]
+
+/-- Public-facing final theorem: `N176Sqrt(k)` is at most the report's bound. -/
+theorem N176Sqrt_le_report_bound (k : ℕ) (hk : 2 ≤ k) :
+    N176Sqrt k ≤ sqrtReportBound k := by
+  rw [N176Sqrt_eq_erdos176SqrtNumber k hk]
+  exact erdos176SqrtNumber_le_sqrtHtmlBoundNat k hk
+
+theorem N176Sqrt_le_report_bound_explicit (k : ℕ) (hk : 2 ≤ k) :
+    N176Sqrt k
+      ≤ Nat.floor
+        ((4 / 3) * (((k : ℝ) ^ 2 - (k : ℝ) + 1)
+          * ((k : ℝ) - 1) * ((k : ℝ) * ((k : ℝ) - 1) + 1))) + 1 := by
+  simpa [sqrtReportBound, sqrtHtmlBoundNat, sqrtHtmlThresholdReal,
+    sqrtThresholdReal, mul_comm, mul_left_comm, mul_assoc] using
+    N176Sqrt_le_report_bound k hk
+
+end PublicSqrtBound
+
+end Erdos176Lean
+
+/-
+Source extraction notice: the mathematical text above is an excerpt of
+Kenta Kitamura / KitaKen1's source under the Apache License, Version 2.0;
+see LICENSE.txt and the source mapping in ../manifest.json. Plasma AI's
+extraction omits only the ranges identified in that mapping, marking each
+omission by [cut]. This notice is metadata, not a mathematical modification.
+The source credits Codex 5.5 and ChatGPT 5.5 Pro preparation assistance.
+-/

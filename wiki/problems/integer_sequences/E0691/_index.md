@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T19:40:10Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 691
@@ -91,6 +91,9 @@ exchange of 17 and 18 April 2026 on the Davenport--Erdős criterion described in
 Status; its proof-claims page listed no claim. The library card of [Te96]
 records the statements of its Theorem 1 and Corollaries 1 and 2; nothing here is
 independently reviewed.
+
+The author-recorded [[research/covering_prime_interfaces/density_quantifiers|density and threshold comparison]] gives the precise implication of the available density or bound, with its remaining uniformity gap. It does not change the problem's standing.
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

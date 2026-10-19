@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 693
@@ -38,9 +38,24 @@ https://www.erdosproblems.com/693.
 
 **Formalization.** None recorded.
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+Multiples of $n+1$ give the elementary bound $a_{i+1}-a_i\le n+1$ between
+consecutive qualifying integers. A sufficient sharper local condition, for
+every relevant integer $u$, is a divisor $n<d<2n$ with
+
+$$
+1\le d\left(\left\lfloor\frac ud\right\rfloor+1\right)-u\le H.
+$$
+
+This produces a qualifying integer in $(u,u+H]$; endpoint cases must stay
+inside the target range.
+[[../library/divisors/ford_2008_distribution_integers_divisor_given_interval/theorem_2|Ford's
+short-window theorem]], specialized to $y=n$, requires $X\ge n^2$ and length at
+least $X/(\log(2n))^{10}$, which is already longer than $n$ eventually. It
+therefore does not improve the elementary gap bound in this application. Only
+its statement was inspected. A uniform remainder-approximation theorem at
+polylogarithmic $H$, not global density, is the missing input.
 
 ## Known Results
 

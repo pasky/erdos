@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-14T00:16:44Z
+updated: 2026-10-15T01:58:15Z
 ---
 
 # Problem 1109
@@ -57,13 +57,46 @@ https://www.erdosproblems.com/1109.
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/1109.lean).
 
-## Progress
+## Current assessment
 
-Not yet compiled.
+These deductions leave the full question unresolved. They have author-recorded
+standing; this assessment is limited to the arguments and source interfaces
+stated below. No comprehensive search for recent proof claims is recorded here.
 
-## Known Results
+For fixed $N$, use vertices $a\in[1,N]$ with $2a$ squarefree, and an edge
+between distinct $a,b$ exactly when $a+b$ is squarefree. Then $f(N)$ is exactly
+the maximum clique size. All sums are at most $2N$, so only primes $p^2\le2N$
+need be tested. The vertex condition handles doubles; omitting it changes the
+problem. No clique computation was run.
 
-Not yet compiled.
+This is finite for each specified $N$, not a fixed finite state space for the
+extremal function. E1103's countermodel rules out a fixed prime list as
+$N\to\infty$.
+
+The elementary CRT bound explains its own quantitative limit. For $k$ tested odd
+primes, its density factor is comparable to $2^{-k}$, since $\prod(1-1/p^2)$ is
+bounded away from zero. Making the main term at most $N^\epsilon$,
+$0<\epsilon<1$, requires $k$ of order $\log N$. But $M_F\ge4(k!)^2$, whose
+logarithm is then of order at least $\log N\log\log N$; the error overwhelms the
+target. This obstructs that naive complete-period count, not every sieve.
+
+Konyagin's introduction, Proposition 1, Theorems 1–3 and discussion of the
+quadratic large sieve were read as statements. Their proofs were not audited.
+Existing bounds do not settle the subpolynomial or stronger polylogarithmic
+question.
+
+The missing step is uniform structural information beyond finite
+clique data and the independent half-residue exclusions. A useful test is to use
+a clique computation only for a concrete conjectured finite structural lemma;
+its vertex and edge tests must include doubles and every prime square <=2N. Stop
+at any finite N table or at ignoring the growing CRT-period error in an
+asymptotic bound.
+
+Source interfaces:
+[[../library/integer_sequences/konyagin_2004_problems_set_square_free_numbers/_index|Section
+1 definitions, Proposition 1, Theorems 1-3 and discussion of the quadratic large
+sieve]].
+
 <!-- BEGIN problem library links -->
 
 ## Linked library material

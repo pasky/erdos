@@ -1,0 +1,440 @@
+{
+  "index": 8,
+  "denominator": 100,
+  "selected_positions_in_prime_order_2_3_5_7": [
+    1,
+    3,
+    0,
+    2
+  ],
+  "cofactor_exponents": [
+    "3/10",
+    "3/10",
+    "3/10",
+    "3/10"
+  ],
+  "row_capacities": [
+    "3/10",
+    "3/10",
+    "3/10",
+    "3/10",
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "points": [
+    {
+      "point": [
+        0,
+        0
+      ],
+      "weight_numerator": 30,
+      "cover_numerator": 30
+    },
+    {
+      "point": [
+        0,
+        1
+      ],
+      "weight_numerator": 15,
+      "cover_numerator": 15
+    },
+    {
+      "point": [
+        1,
+        0
+      ],
+      "weight_numerator": 15,
+      "cover_numerator": 15
+    },
+    {
+      "point": [
+        0,
+        2
+      ],
+      "weight_numerator": 11,
+      "cover_numerator": 13
+    },
+    {
+      "point": [
+        1,
+        1
+      ],
+      "weight_numerator": 8,
+      "cover_numerator": 28
+    },
+    {
+      "point": [
+        2,
+        0
+      ],
+      "weight_numerator": 11,
+      "cover_numerator": 13
+    },
+    {
+      "point": [
+        0,
+        3
+      ],
+      "weight_numerator": 3,
+      "cover_numerator": 14
+    },
+    {
+      "point": [
+        1,
+        2
+      ],
+      "weight_numerator": 12,
+      "cover_numerator": 12
+    },
+    {
+      "point": [
+        2,
+        1
+      ],
+      "weight_numerator": 12,
+      "cover_numerator": 12
+    },
+    {
+      "point": [
+        3,
+        0
+      ],
+      "weight_numerator": 3,
+      "cover_numerator": 14
+    },
+    {
+      "point": [
+        0,
+        4
+      ],
+      "weight_numerator": 15,
+      "cover_numerator": 15
+    },
+    {
+      "point": [
+        1,
+        3
+      ],
+      "weight_numerator": 20,
+      "cover_numerator": 20
+    },
+    {
+      "point": [
+        2,
+        2
+      ],
+      "weight_numerator": 30,
+      "cover_numerator": 31
+    },
+    {
+      "point": [
+        3,
+        1
+      ],
+      "weight_numerator": 20,
+      "cover_numerator": 20
+    },
+    {
+      "point": [
+        4,
+        0
+      ],
+      "weight_numerator": 15,
+      "cover_numerator": 15
+    },
+    {
+      "point": [
+        0,
+        5
+      ],
+      "weight_numerator": 16,
+      "cover_numerator": 16
+    },
+    {
+      "point": [
+        1,
+        4
+      ],
+      "weight_numerator": 15,
+      "cover_numerator": 15
+    },
+    {
+      "point": [
+        2,
+        3
+      ],
+      "weight_numerator": 19,
+      "cover_numerator": 19
+    },
+    {
+      "point": [
+        3,
+        2
+      ],
+      "weight_numerator": 19,
+      "cover_numerator": 19
+    },
+    {
+      "point": [
+        4,
+        1
+      ],
+      "weight_numerator": 15,
+      "cover_numerator": 15
+    },
+    {
+      "point": [
+        5,
+        0
+      ],
+      "weight_numerator": 16,
+      "cover_numerator": 16
+    },
+    {
+      "point": [
+        0,
+        6
+      ],
+      "weight_numerator": 10,
+      "cover_numerator": 14
+    },
+    {
+      "point": [
+        1,
+        5
+      ],
+      "weight_numerator": 13,
+      "cover_numerator": 13
+    },
+    {
+      "point": [
+        2,
+        4
+      ],
+      "weight_numerator": 11,
+      "cover_numerator": 11
+    },
+    {
+      "point": [
+        3,
+        3
+      ],
+      "weight_numerator": 32,
+      "cover_numerator": 32
+    },
+    {
+      "point": [
+        4,
+        2
+      ],
+      "weight_numerator": 11,
+      "cover_numerator": 11
+    },
+    {
+      "point": [
+        5,
+        1
+      ],
+      "weight_numerator": 13,
+      "cover_numerator": 13
+    },
+    {
+      "point": [
+        6,
+        0
+      ],
+      "weight_numerator": 10,
+      "cover_numerator": 14
+    },
+    {
+      "point": [
+        0,
+        7
+      ],
+      "weight_numerator": 0,
+      "cover_numerator": 19
+    },
+    {
+      "point": [
+        1,
+        6
+      ],
+      "weight_numerator": 17,
+      "cover_numerator": 18
+    },
+    {
+      "point": [
+        2,
+        5
+      ],
+      "weight_numerator": 16,
+      "cover_numerator": 16
+    },
+    {
+      "point": [
+        3,
+        4
+      ],
+      "weight_numerator": 17,
+      "cover_numerator": 17
+    },
+    {
+      "point": [
+        4,
+        3
+      ],
+      "weight_numerator": 17,
+      "cover_numerator": 17
+    },
+    {
+      "point": [
+        5,
+        2
+      ],
+      "weight_numerator": 16,
+      "cover_numerator": 16
+    },
+    {
+      "point": [
+        6,
+        1
+      ],
+      "weight_numerator": 17,
+      "cover_numerator": 18
+    },
+    {
+      "point": [
+        7,
+        0
+      ],
+      "weight_numerator": 0,
+      "cover_numerator": 19
+    }
+  ],
+  "line_cover": [
+    {
+      "coefficients": [
+        1,
+        0,
+        0
+      ],
+      "cover_numerator": 8,
+      "own_incidence_numerator": 100
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        0
+      ],
+      "cover_numerator": 8,
+      "own_incidence_numerator": 100
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -1
+      ],
+      "cover_numerator": 7,
+      "own_incidence_numerator": 100
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        -1
+      ],
+      "cover_numerator": 7,
+      "own_incidence_numerator": 100
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -2
+      ],
+      "cover_numerator": 5,
+      "own_incidence_numerator": 99
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        -2
+      ],
+      "cover_numerator": 5,
+      "own_incidence_numerator": 99
+    },
+    {
+      "coefficients": [
+        1,
+        0,
+        -3
+      ],
+      "cover_numerator": 6,
+      "own_incidence_numerator": 91
+    },
+    {
+      "coefficients": [
+        0,
+        1,
+        -3
+      ],
+      "cover_numerator": 6,
+      "own_incidence_numerator": 91
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -4
+      ],
+      "cover_numerator": 7,
+      "own_incidence_numerator": 100
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -5
+      ],
+      "cover_numerator": 8,
+      "own_incidence_numerator": 100
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -6
+      ],
+      "cover_numerator": 6,
+      "own_incidence_numerator": 100
+    },
+    {
+      "coefficients": [
+        1,
+        1,
+        -7
+      ],
+      "cover_numerator": 11,
+      "own_incidence_numerator": 100
+    },
+    {
+      "coefficients": [
+        1,
+        -1,
+        0
+      ],
+      "cover_numerator": 14,
+      "own_incidence_numerator": 100
+    }
+  ],
+  "cover_total": "49/50",
+  "universal_polynomial_inequality": "sum_P w_P ord_P(F) <= deg(F) for every nonzero complex polynomial F",
+  "row_multiplicity_consequence": "deg(F) >= 3/10*(m0+m1+m2+m3)+m4+m5+m6+m7",
+  "noncover_irreducible_bound": "sum_P w_P mult_P(C) <= 49/50*deg(C)",
+  "scope": "An obstruction to strict weighted-multiplicity versus total-degree gain at this cofactor profile; no bad triple or whole-index result is claimed."
+}

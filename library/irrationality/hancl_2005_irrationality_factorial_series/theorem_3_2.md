@@ -6,7 +6,7 @@ desc: |
   plus o(N) and the sum of f(N) over the products of an plus b is rational,
   then f(N) equals P(N) minus the constant Q_1 of Lemma 3.1.
 created: 2026-10-08T15:54:55Z
-updated: 2026-10-08T15:54:55Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -67,4 +67,4 @@ uses this theorem with Theorem 3.3. The numerators $\sigma_k(n)$ of
 [[../wiki/problems/irrationality/E0252/_index|Problem 252]] are not of the
 form $P(N)+o(N)$ for $k\ge1$, so the theorem does not apply to that series.
 
-**Bears on.** No catalog problem directly.
+**Bears on.** No erdosproblems.com problem directly.

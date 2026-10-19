@@ -6,7 +6,7 @@ desc: |
   8g - 8 - (k-1)/(k^2-3) >= (k - 5 + (k-3)/(k^2-3))v, so for k >= 5 only
   finitely many such graphs embed on a given surface (Corollary 4.2).
 created: 2026-10-08T15:28:38Z
-updated: 2026-10-08T15:28:38Z
+updated: 2026-10-14T07:12:04Z
 ---
 
 ***
@@ -65,4 +65,4 @@ edge bound.
 
 ## Bears on
 
-No catalog problem directly.
+No erdosproblems.com problem directly.
