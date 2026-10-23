@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-10-19T09:02:42Z
+updated: 2026-10-19T20:47:03Z
 ---
 
 # math_authoring
@@ -37,9 +37,8 @@ before exploring an idea. Shared provisional work and editable arguments follow
 - **Claim frontmatter.** Wiki fields (name, desc, tags, sources, created,
   updated) PLUS the anatomy fields (id, statement, status, tier, lean,
   depends_on, and the optional standing and assumes) coexist in one block;
-  `wiki update` preserves the anatomy fields and owns `created:` and `updated:`.
-  It re-stamps `updated:` only when it writes the file itself, so a body edit
-  alone leaves the stamp unchanged; never hand-edit either stamp.
+  `wiki update` preserves the anatomy fields and re-stamps `updated:` only on a
+  page it rewrites; a hand edit leaves the stamp as it was.
 - **Generated stubs.** `wiki update --path wiki` creates `_index.md` stubs for
   new directories (e.g. `evidence/`) with `desc: ...` placeholders and generates
   the link blocks in every `_index.md`. Fill the stub descs yourself -- lint
@@ -110,11 +109,11 @@ before exploring an idea. Shared provisional work and editable arguments follow
   quotation. Digests and Bears-on rows follow the same rule; the held PDF and a
   transcription beside it are the only files that carry the source's text.
 - **Evidence homes in practice.** Two facts to know when checking the anatomy's
-  evidence layout (main.py, util/, assets/, output/) mechanically: `wiki update`
-  generates a legal `_index.md` inside each `evidence/` directory (it is a wiki
-  page), and running `main.py` leaves `util/__pycache__/` behind -- so check the
-  layout over tracked files (`git ls-files`), never a filesystem walk, or
-  runtime artifacts and the generated index read as violations.
+  evidence layout (main.py, util/, assets/, verify/, output/) mechanically:
+  `wiki update` generates a legal `_index.md` inside each `evidence/` directory
+  (it is a wiki page), and running `main.py` leaves `util/__pycache__/` behind
+  -- so check the layout over tracked files (`git ls-files`), never a filesystem
+  walk, or runtime artifacts and the generated index read as violations.
 - **Generated descs propagate.** The link-row descriptions in an area
   `_index.md` are generated from each claim's own frontmatter `desc:`. Editing a
   link row by hand is silently overwritten on the next `wiki update` -- put the

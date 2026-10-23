@@ -9,7 +9,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-05T01:22:27Z
-updated: 2026-10-19T09:36:25Z
+updated: 2026-10-20T17:29:46Z
 ---
 
 # anatomy
@@ -432,10 +432,9 @@ vocabulary landing), the card leaves the field empty and names the holding
 declarations in its standing prose. The ledger scan enforces this rule on every
 pin, at every tier. The reference linter's forward check verifies the pin
 against the manifest for tier-2 claims only. A pin on a claim below tier 2 that
-names no surfaced declaration (a partial-warrant pin) is therefore not covered
-by the forward check; only a source grep checks that its declaration exists. The
-backward check gates the pin of every claim that surfaces in the manifest, at
-any tier.
+names no surfaced declaration is therefore not covered by the forward check;
+only a source grep checks that its declaration exists. The backward check gates
+the pin of every claim that surfaces in the manifest, at any tier.
 
 Generated files carry whatever their tooling writes, including the manifest's
 statement fingerprints. They are never hand-edited and never cited by digest:
@@ -615,11 +614,17 @@ problem page counting as accepted), and states unproven hypotheses in prose.
 Claims are scoped and valued against the statement the problem page shows, the
 modified Statement where there is one: a theorem of the whole statement is
 `full`, one on a narrower range is `partial`, and the claim value follows the
-statement's polarity. A result that answers only the erdosproblems.com wording
-keeps its claim page with `status` `rejected` and the reason "answers the
-erdosproblems.com wording, not the modified Statement". A result that answers
-only a variant, a reading or version of the problem that the problem page sets
-aside, settles no instance of the problem. Such a result submitted to
+statement's polarity. A theorem on a narrower range is still `full` when a minor
+technical completion extends its argument to the whole statement, such as a
+check that its proof runs for a case its hypotheses exclude: the claim stays its
+author's, its page records the completion, who supplied it and its warrant, and
+its acceptance evidence covers the completion as well as the theorem. A
+completion that needs a new idea is a claim of its own, and the theorem it
+completes stays `partial`. A result that answers only the erdosproblems.com
+wording keeps its claim page with `status` `rejected` and the reason "answers
+the erdosproblems.com wording, not the modified Statement". A result that
+answers only a variant, a reading or version of the problem that the problem
+page sets aside, settles no instance of the problem. Such a result submitted to
 erdosproblems.com or erdosproblems.ai as a claim keeps its claim page with
 `status` `rejected`, the reason "answers a variant, not the Statement", and a
 note that its mathematics answers the named variant and so does not settle the
@@ -1190,11 +1195,11 @@ The reference linter of this repository is `erdos claim-check`, the manifest
 join: it gates every manifest `depends` id against the claim page's
 `depends_on`, joins the manifest's compiler axioms to the card's
 `assumes: compiler` in both directions, and validates every present `lean` pin
-against the claim's own manifest surface at every tier, so the partial-warrant
-pin the shared text leaves to source grep fails here. It follows no link to
-disk; the gate's `reflint` leg (`erdos reflint`) resolves every inline Markdown
-link on disk, cross-root links included, and each wiki leg of `erdos gate` reads
-`wiki lint --json` and fails on a stale-link note.
+against the claim's own manifest surface at every tier, so a pin that names no
+surfaced declaration, which the shared text leaves to source grep, fails here.
+It follows no link to disk; the gate's `reflint` leg (`erdos reflint`) resolves
+every inline Markdown link on disk, cross-root links included, and each wiki leg
+of `erdos gate` reads `wiki lint --json` and fails on a stale-link note.
 
 ### Research
 

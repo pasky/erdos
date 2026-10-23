@@ -11,7 +11,7 @@ tags:
 status: solved
 claim: disproved
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T14:17:37Z
+updated: 2026-10-14T01:26:25Z
 ---
 
 # Problem 27
@@ -95,6 +95,7 @@ navigation only and do not by themselves record mathematical progress.
 
 - [[../library/covering_systems/balister_2018_erdos_covering_problem_density_uncovered_set/_index|balister_2018_erdos_covering_problem_density_uncovered_set]]
 - [[../library/covering_systems/balister_2018_erdos_covering_problem_density_uncovered_set/theorem_5_1|balister_2018_erdos_covering_problem_density_uncovered_set / theorem_5_1]]
+- [[../library/covering_systems/hough_2015_solution_minimum_modulus_problem_covering_systems/_index|hough_2015_solution_minimum_modulus_problem_covering_systems]]
 - [[../library/integer_sequences/filaseta_2007_sieving_large_integers_covering_systems_congruences/_index|filaseta_2007_sieving_large_integers_covering_systems_congruences]]
 - [[../library/integer_sequences/filaseta_2007_sieving_large_integers_covering_systems_congruences/theorem_4|filaseta_2007_sieving_large_integers_covering_systems_congruences / theorem_4]]
 - [[../library/integer_sequences/filaseta_2007_sieving_large_integers_covering_systems_congruences/theorem_b|filaseta_2007_sieving_large_integers_covering_systems_congruences / theorem_b]]

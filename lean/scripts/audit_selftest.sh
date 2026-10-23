@@ -52,6 +52,13 @@ PROBE_MODULE="Erdos.AuditSelfTestProbe"
 # machine's memory.
 export LEAN_NUM_THREADS="${LEAN_NUM_THREADS:-4}"
 
+# Refuse a thread cap that is not a positive whole number before any
+# Lake command.
+if ! [[ "$LEAN_NUM_THREADS" =~ ^[1-9][0-9]*$ ]]; then
+    echo "Error: LEAN_NUM_THREADS must be a positive whole number, not '$LEAN_NUM_THREADS'." >&2
+    exit 2
+fi
+
 # Print the first expected fragment (one per line) that the output lacks.
 first_missing() {
     local fragment

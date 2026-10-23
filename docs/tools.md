@@ -1,15 +1,16 @@
 ---
 name: tools
 desc: |
-  The shared Python layer: the evidence harness, the ledger generator and gate
-  battery contracts, how evidence code builds on them, and the boundary between
-  structural validation and mathematical verification, with the Erdos-specific
-  package, claim-check, problem-layout and incoming-library rules in their own
+  The shared Python layer: the evidence harness, the ledger generator, gate
+  battery, evidence command, and one-off lead and license audit contracts,
+  how evidence code builds on them, and the boundary between structural
+  validation and mathematical verification, with the Erdos-specific package,
+  claim-check, problem-layout and incoming-library rules in their own
   section.
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-10-19T09:36:25Z
+updated: 2026-10-22T05:53:04Z
 ---
 
 # tools
@@ -20,15 +21,15 @@ updated: 2026-10-19T09:36:25Z
 machine evidence (distribution `erdos-tools`, import name `tools`, one console
 script `erdos`). Root `pyproject.toml` owns packaging, dependencies, and check
 configuration; the tracked root `uv.lock` pins the local `.venv/`. From the
-repository root, install with `uv sync --group test --group lint --group type`,
-then prefix commands below with `uv run --no-sync` to use that environment.
-Verify the suite with `uv run --no-sync python -m pytest` from the same root.
-The root `pyproject.toml` holds the tooling block: the dependency groups
-(`evidence`, `test`, `lint`, `type`, `docs`, `security`) and the four-worker
-pytest default (`-n 4`). Everything computes with exact integer and
-`fractions.Fraction` arithmetic -- no floats anywhere. `tools/README.md`
-documents the package itself; this page records the contracts contributors build
-against.
+repository root, install with
+`uv sync --locked --group test --group lint --group type`, then prefix commands
+below with `uv run --no-sync` to use that environment. Verify the suite with
+`uv run --no-sync python -m pytest` from the same root. The root
+`pyproject.toml` holds the tooling block: the dependency groups (`evidence`,
+`test`, `lint`, `type`, `docs`, `security`) and the four-worker pytest default
+(`-n 4`). Everything computes with exact integer and `fractions.Fraction`
+arithmetic -- no floats anywhere. `tools/README.md` documents the package
+itself; this page records the contracts contributors build against.
 
 ## Library surface
 
@@ -157,11 +158,16 @@ no hook, such as a configuration error, keeps its tail.
   shell's command-not-found exit (127), also before any build. Either way a
   requested leg fails outright, never a skip.
 - The launcher and the self-test harness export `LEAN_NUM_THREADS` (default 4)
-  before any Lake command, capping the concurrent compiles; `lean/README.md`
+  before any Lake command, capping the concurrent compiles, and each refuses a
+  value that is not a positive whole number (exit 2); `lean/README.md`
   "Building" states the reasoning and the memory a build needs.
+- `--intake` keeps the fast structural legs, here every leg but pytest, for a
+  merge whose later full battery runs the repository tests: pytest reports
+  `SKIPPED` with `disabled by --intake`, and the Lean leg follows the Lean flag
+  as it does without the option.
 - `--strict` turns a `SKIPPED` leg whose required tool is unavailable (`wiki`,
-  `pre-commit`) into `FAIL`; deliberate skips (no Lean flag, `--no-precommit`, a
-  receipt match) stay `SKIPPED`.
+  `pre-commit`) into `FAIL`; deliberate skips (no Lean flag, `--no-precommit`,
+  `--intake`, a receipt match) stay `SKIPPED`.
 
 ## Evidence command contract
 
@@ -171,13 +177,14 @@ leg, pre-commit hook or merge step runs it. A wrapper that schedules it records
 exit 1 as "failures reported" and keeps going.
 
 - **Entry points.** Every `main.py` under an `evidence/` folder of the
-  mathematics wiki or the library, plus every program there declared
-  `# evidence: entry`, among the tracked and non-ignored untracked files; an
-  `assets/`, `util/` or `output/` folder or a dot-folder between `evidence/` and
-  the file keeps it out. Each carries a kind -- `owner`
-  (`<owner>/evidence/main.py`), `leg` (below `verify/`) or `probe` (any other)
-  -- that is reported, never used to filter. The owner is the path before the
-  first `evidence/` component.
+  mathematics wiki or the library, plus every program anywhere in either of them
+  declared `# evidence: entry`, among the tracked and non-ignored untracked
+  files; an `assets/`, `util/` or `output/` folder or a dot-folder between
+  `evidence/` and the file keeps it out. Each carries a kind -- `owner`
+  (`<owner>/evidence/main.py`), `leg` (below `verify/` in an `evidence/` tree)
+  or `probe` (any other) -- that is reported, never used to filter. The owner is
+  the path before the first `evidence/` component, or, for a declared program
+  outside an `evidence/` tree, the folder that holds it.
 - **Declarations.** The runner reads one optional `# evidence:` line among the
   leading comment lines, after any shebang and before the docstring: `full`
   (runs only in the full run), `manual` (never started; its page states the
@@ -219,9 +226,9 @@ exit 1 as "failures reported" and keeps going.
   placeholder is counted in a note on stderr, and a program that reads one
   fails, so it runs in a checkout that holds the file. The third-party packages
   the programs import form the `evidence` dependency group, a default group that
-  `uv sync --group test --group lint --group type` installs; a failure ending in
-  `ModuleNotFoundError` reads `missing module X (sync the evidence group)` and
-  is still a FAIL.
+  `uv sync --locked --group test --group lint --group type` installs; a failure
+  ending in `ModuleNotFoundError` reads
+  `missing module X (sync the evidence group)` and is still a FAIL.
 - **Output.** Streams follow the convention above. Each program prints one line
   as it completes -- `[PASS] path  1.2 s`,
   `[FAIL] path  exit 1: <last output, folded>`,
@@ -411,7 +418,7 @@ root `pyproject.toml` owns packaging, dependencies, and Python checks. Use the
 root `.venv/` and keep separate research repositories in separate environments:
 
 ```bash
-uv sync --group test --group lint --group type
+uv sync --locked --group test --group lint --group type
 uv run --no-sync erdos --help
 ```
 
@@ -561,7 +568,8 @@ The gate checks:
     then the reference lint over the repository Markdown (the `reflint` leg,
     below): no retired conventions page name at the top of the mathematics wiki
     or in any reference, and every inline Markdown link resolving on disk.
-09. The root test suite and package doctests with bounded parallelism.
+09. The root test suite and package doctests with bounded parallelism (skipped
+    under `--intake`).
 10. Pre-commit on every existing tracked and non-ignored untracked regular file
     the configuration covers. The gate reads the top-level `files` and `exclude`
     patterns of `.pre-commit-config.yaml` and applies them as pre-commit does,
@@ -618,13 +626,18 @@ id, in the forms the check reads (`L<n> (tier 0)`, `L<n>(c) (proved, tier 1)`,
 stale row. A refuted claim must not be cited as a warrant (`by L<n>`,
 `L<n> gives`) in a sentence that does not say it is refuted. A clause that
 dates, conditions or negates the citation is the page's own history or
-hypothesis and is not checked; wikilinks are read by their labels and code is
-masked. The drift this catches is the research layer's: a tier raised or lowered
-on a card, or a row refuted, while the pages that cite it keep the old words.
-The check runs from the repository root, the folder holding `wiki/`; a subfolder
-is refused. The leg's detail shows the first ten findings; `erdos reflint`
-prints them all, with the exit codes of the audits (0 no findings, 1 findings, 2
-a command or usage error).
+hypothesis and is not checked. A negation denies a citation only when the claim
+sits inside the negated phrase: it stands before the citation in its own clause,
+where a colon or a comma before a conjunction also ends the clause, with no verb
+or auxiliary between it and the claim. `No selector or L<n> is proved` is not
+checked, while `No further hypothesis is needed and L<n> is proved` is.
+Wikilinks are read by their labels and code is masked. The drift this catches is
+the research layer's: a tier raised or lowered on a card, or a row refuted,
+while the pages that cite it keep the old words. The check runs from the
+repository root, the folder holding `wiki/`; a subfolder is refused. The leg's
+detail shows the first ten findings; `erdos reflint` prints them all, with the
+exit codes of the audits (0 no findings, 1 findings, 2 a command or usage
+error).
 
 `--no-precommit` is a diagnostic shortcut, not the full repository check.
 Neither mode runs claim evidence or source acquisition. A structurally clean
@@ -646,8 +659,8 @@ root fails its wiki leg, and a requested Lean leg fails on a missing
   never committed, and is not a verification record.
 - `--strict` turns a `SKIPPED` leg whose required tool is unavailable (`wiki`,
   `pre-commit`) into `FAIL`; deliberate skips (no Lean flag, `--no-precommit`,
-  an empty incoming-library scope, a receipt match) stay `SKIPPED`. This list of
-  deliberate skips governs here.
+  `--intake`, an empty incoming-library scope, a receipt match) stay `SKIPPED`.
+  This list of deliberate skips governs here.
 
 #### Problem-layout scope
 

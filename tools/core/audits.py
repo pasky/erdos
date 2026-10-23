@@ -433,8 +433,10 @@ def _targets(value: Any) -> bool:
 def _record(root: pathlib.Path, relative: pathlib.Path) -> dict[str, Any]:
     """Read an arXiv record, the corpus's own JSON object beside a held PDF.
 
-    A record that is not UTF-8 text, not JSON (a truncated or conflict-marked
-    file) or not a JSON object raises ValueError saying which.
+    Raises:
+        ValueError: If the record is not UTF-8 text, not JSON (a truncated or
+            conflict-marked file), or not a JSON object.
+
     """
     try:
         record = json.loads((root / relative).read_text(encoding='utf-8'))

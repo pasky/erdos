@@ -98,6 +98,12 @@ def gate(app: typer.Typer) -> typer.Typer:
         '--precommit/--no-precommit',
         help=precommit_help,
     )
+    # intake flag
+    intake_help = (
+        'Skip the repository tests, reported SKIPPED, for a merge whose later'
+        ' full battery runs them.'
+    )
+    intake = typer.Option(False, '--intake', help=intake_help)
     # strict flag
     strict_help = (
         'Fail a leg whose required tool (wiki, pre-commit) is unavailable'
@@ -119,6 +125,7 @@ def gate(app: typer.Typer) -> typer.Typer:
         lean: bool = lean,
         lean_if_changed: bool = lean_if_changed,
         precommit: bool = precommit,
+        intake: bool = intake,
         strict: bool = strict,
         settled: bool = settled,
     ) -> None:
@@ -131,11 +138,12 @@ def gate(app: typer.Typer) -> typer.Typer:
         validated-tree receipt (lean/.lake/validated.json); `--lean-if-changed`
         skips it while the receipt names the prospective lean/ tree and runs it
         otherwise. The receipt is a gate convenience, never an acceptance
-        record. With `--strict`, a leg whose required tool (wiki, pre-commit)
-        is unavailable fails instead of skipping. With `--settled`, the
-        problem claims leg fails on a problem whose provisional standing, other
-        than open with claim none, rests on no claim page; without it such
-        problems are counted and reported.
+        record. With `--intake`, the repository tests are skipped visibly, for
+        a merge whose later full battery runs them. With `--strict`, a leg
+        whose required tool (wiki, pre-commit) is unavailable fails instead of
+        skipping. With `--settled`, the problem claims leg fails on a problem
+        whose provisional standing, other than open with claim none, rests on
+        no claim page; without it such problems are counted and reported.
 
         Scripts should branch on the exit code rather than parse the findings
         (0 all requested legs passed, 1 failed legs, 2 command or usage error).
@@ -161,6 +169,7 @@ def gate(app: typer.Typer) -> typer.Typer:
             lean=lean,
             lean_if_changed=lean_if_changed,
             precommit=precommit,
+            intake=intake,
             strict=strict,
             settled=settled,
         )
@@ -416,23 +425,24 @@ def license_audit(app: typer.Typer) -> typer.Typer:
         tracked and non-ignored untracked files -- and prints one line
         per defect of its `license` key against the third-party files
         the card folder holds (every file directly in it but its
-        markdown pages and `.json` or `.json.gz` records, a transcription whose file
-        is not held, and the conversion sidecars beside no held file):
-        held files or sidecars without a `license`, a mapping for one
-        held file or a scalar for several, mapping keys that do not
-        name exactly the held files in byte order, a term outside the
-        vocabulary (an SPDX license identifier, an unversioned Creative
-        Commons `LicenseRef-CC-*` term, `reserved` or `unstated`), a
-        held file or sidecar under a term that is not an open license
-        when the holding policy is enforced, the term of a PDF
-        disagreeing with its arXiv record, a record naming a license URL
-        with no mapping, a record that cannot be read (not UTF-8, not
-        JSON or not a JSON object), a held PDF with neither its transcription
-        (`<stem>.md` beside it) nor a reason in the card's
-        `transcription` key (`book`, `terms` or `unreadable`), a reason
-        that does not fit, or frontmatter that is missing or invalid.
-        `reserved` terms whose arXiv record maps differently are notes,
-        as is a missing `library/`. Nothing is written.
+        markdown pages and `.json` or `.json.gz` records, a
+        transcription whose file is not held, and the conversion
+        sidecars beside no held file): held files or sidecars without a
+        `license`, a mapping for one held file or a scalar for several,
+        mapping keys that do not name exactly the held files in byte
+        order, a term outside the vocabulary (an SPDX license
+        identifier, an unversioned Creative Commons `LicenseRef-CC-*`
+        term, `reserved` or `unstated`), a held file or sidecar under a
+        term that is not an open license when the holding policy is
+        enforced, the term of a PDF disagreeing with its arXiv record, a
+        record naming a license URL with no mapping, a record that
+        cannot be read (not UTF-8, not JSON or not a JSON object), a
+        held PDF with neither its transcription (`<stem>.md` beside it)
+        nor a reason in the card's `transcription` key (`book`, `terms`
+        or `unreadable`), a reason that does not fit, or frontmatter
+        that is missing or invalid. `reserved` terms whose arXiv record
+        maps differently are notes, as is a missing `library/`. Nothing
+        is written.
 
         The gate's `library licenses` leg runs the same audit; no hook
         or merge step runs this command. Scripts should branch on the

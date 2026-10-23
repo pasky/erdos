@@ -11,7 +11,7 @@ The single Python project is configured at the repository root, not inside this
 directory. From the repository root:
 
 ```sh
-uv sync --group test --group lint --group type
+uv sync --locked --group test --group lint --group type
 uv run --no-sync pre-commit install
 uv run --no-sync wiki config --path wiki
 uv run --no-sync wiki config --path library
@@ -106,7 +106,8 @@ missing Git, a non-checkout root, or an enumeration error fails the leg, even
 without `--strict`; it never substitutes a filesystem walk. Ordinary reading and
 local evidence do not require Git. A missing `wiki` or `pre-commit` binary skips
 its leg visibly and marks it unavailable; `--strict` fails it instead.
-`--no-precommit` is an explicit visible skip.
+`--no-precommit` is an explicit visible skip. `--intake` skips the repository
+tests visibly, for a merge whose later full battery runs them.
 
 The gate exits 0 when its requested checks pass, 1 when a check fails, and 2
 when the command itself cannot run (for example, an invalid repository path).

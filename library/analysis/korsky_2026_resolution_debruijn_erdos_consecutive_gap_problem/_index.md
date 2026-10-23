@@ -9,7 +9,7 @@ desc: |
   a proof claim for Problem 1221, with no acceptance evidence found.
 license: CC-BY-4.0
 created: 2026-09-28T03:00:00Z
-updated: 2026-10-08T01:50:18Z
+updated: 2026-10-20T17:29:46Z
 ---
 
 # Korsky: A resolution of the de Bruijn–Erdős consecutive-gap problem
@@ -145,7 +145,13 @@ $r_0$ are unspecified. erdosproblems.com showed the problem OPEN with this as
 its one registered proof claim, the community database keeps the entry open, and
 the two erdosproblems.com comments on the claim (10 September 2026) discuss the
 speed of posting and the attribution of the AI's role, not the mathematics. The
-preprint therefore does not change the problem's status here.
+problem is recorded here as claimed, by
+[[../wiki/problems/analysis/E1221/claims/2026_09_08_korsky|Korsky's full claim]],
+with acceptance pending. The extension to coincident points is documented as a
+local technical completion in
+[[../wiki/theory/analysis/L165_consecutive_gap_growth_conjunction/_index|L165]],
+whose tier-1 warrant covers the all-sequence divergences with ratio coefficient
+$1/200$, not the source's stronger $1/100$.
 
 **Bears on.** [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: a claimed proof of
 all three parts under the mean-normalized reading, for distinct points;

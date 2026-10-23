@@ -4,19 +4,20 @@ desc: The 2 claim pages of Problem 1221, one per claimant's result; the problem'
 tags: []
 sources: []
 created: 2026-10-07T07:46:39Z
-updated: 2026-10-19T10:54:07Z
+updated: 2026-10-22T19:30:36Z
 ---
 
 # problems/analysis/E1221/claims
 
 [[problems/analysis/E1221/_index|..]]
 
-[[problems/analysis/E1221/claims/2026_09_08_korsky|2026_09_08_korsky]]: Samuel Korsky claims that, for sequences of distinct points and in
-mean-normalized form, the two one-sided excesses grow at least like
-$\sqrt{\log r}$ and the ratio excess at least like $\log r/r$. The source is
-an unrefereed, AI-assisted preprint; its exact coefficient $1/100$ has no
-accepted warrant here. Complete local reproofs are recorded separately.
+[[problems/analysis/E1221/claims/2026_09_08_korsky|2026_09_08_korsky]]: Samuel Korsky's pending full claim for the mean-normalized consecutive-gap
+problem. His theorem treats distinct points; local tier-1 proofs complete
+the repeated-point case with ratio coefficient $1/200$, without certifying
+the source's stronger $1/100$ coefficient.
 
-[[problems/analysis/E1221/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Plasma AI's pending full claim over all circle sequences is supported by L165's independently graded whole-conclusion warrant at tier 1 for the supplied mean-normalized formulation; catalog acceptance remains pending.
+[[problems/analysis/E1221/claims/2026_10_19_plasma_ai|2026_10_19_plasma_ai]]: Plasma AI's separate full claim over all circle sequences, withdrawn: its
+all-sequence work is recorded as the technical completion on Korsky's claim
+page, and no mathematical error was found.
 
 ***

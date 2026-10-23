@@ -36,6 +36,7 @@ __all__ = [
     'test_library_licenses_leg_caps_its_detail',
     'test_gate_collects_root_tests_and_package_doctests_only',
     'test_missing_pytest_configuration_fails_without_starting_pytest',
+    'test_intake_skips_only_the_repository_tests',
     'test_missing_required_roots_fail_their_legs_by_name',
     'test_lean_leg_skips_by_default_and_never_silently_certifies',
     'test_untrackable_lean_tree_runs_the_leg_and_states_why',
@@ -865,6 +866,51 @@ def test_missing_pytest_configuration_fails_without_starting_pytest(
     assert not any(
         arguments[:2] == ('-m', 'pytest') for _, arguments, _ in green_runner
     )
+
+
+@pytest.mark.parametrize('strict', [False, True])
+def test_intake_skips_only_the_repository_tests(
+    tmp_path: pathlib.Path,
+    stub_binaries: dict[str, int],
+    monkeypatch: pytest.MonkeyPatch,
+    strict: bool,
+) -> None:
+    """Test that --intake skips a failing test suite visibly and runs every other leg."""
+    _repository(tmp_path)
+    run_git(tmp_path, 'init', '-q', '-b', 'main')
+    run_git(tmp_path, 'add', '-A')
+    run_git(tmp_path, 'commit', '-qm', 'seed')
+    green = tools.core.gate._run_binary
+    suites: list[tuple[str, ...]] = []
+
+    def failing_suite(
+        name: str, *args: str, cwd: pathlib.Path
+    ) -> subprocess.CompletedProcess:
+        if args[:2] != ('-m', 'pytest'):
+            return green(name, *args, cwd=cwd)
+        suites.append(args)
+        return subprocess.CompletedProcess(
+            args=(name, *args), returncode=1, stdout='1 failed', stderr=''
+        )
+
+    monkeypatch.setattr(tools.core.gate, '_run_binary', failing_suite)
+    # the full battery runs the suite and fails on it
+    full = {leg.name: leg for leg in run_gate(tmp_path, strict=strict)}
+    assert full['pytest'].state == 'FAIL'
+    assert len(suites) == 1
+    # the intake battery runs every other leg alike and never starts the suite
+    legs = run_gate(tmp_path, intake=True, strict=strict)
+    assert [leg.name for leg in legs] == list(full)
+    by_name = {leg.name: leg for leg in legs}
+    assert by_name['pytest'].state == 'SKIPPED'
+    assert by_name['pytest'].detail == 'disabled by --intake'
+    assert all(
+        (leg.state, leg.detail) == (full[leg.name].state, full[leg.name].detail)
+        for leg in legs
+        if leg.name != 'pytest'
+    )
+    assert not any(leg.failed for leg in legs)
+    assert len(suites) == 1
 
 
 @pytest.mark.parametrize('strict', [False, True])

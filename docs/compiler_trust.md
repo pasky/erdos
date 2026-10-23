@@ -7,7 +7,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-16T22:24:06Z
-updated: 2026-10-19T09:36:02Z
+updated: 2026-10-19T20:10:20Z
 ---
 
 # compiler_trust
@@ -116,7 +116,8 @@ axioms:
 `AUDIT PASS` with a nonzero compiler-axiom count is a pass with a recorded
 assumption. The admission covers compiler axioms only: the audit refuses
 `sorryAx`, custom axioms, unsafe, opaque and partial constants,
-`implemented_by`, `extern`, metaprogramming, and claim-shape defects.
+`implemented_by`, `extern`, metaprogramming, a corpus module importing the audit
+library, and claim-shape defects.
 
 The refusal suite under `lean/scripts/selftest/` carries the admit fixture
 `native_decide_admitted.lean` (`-- MODE: admit`), which must pass with its
@@ -152,11 +153,13 @@ declarations reach and per declaration that uses it:
 ```
 
 The top-level `compiler` array, rendered between `declarations` and `claims`,
-lists every admitted axiom in the corpus in the same shape, so a source-owned
-result that uses `native_decide` without a claim row is still visible. The row's
-`axioms` field stays the complete transitive set, minted names included, so a
-reader of that field alone sees the compiler axioms. A kernel-only corpus writes
-`"compiler": []` in both places.
+holds the same records for the whole corpus, one per admitted axiom and per
+declaration that uses it, so a source-owned result that uses `native_decide`
+without a claim row is still visible; an admitted axiom that no declaration uses
+has no record, though the summary line counts it. The row's `axioms` field stays
+the complete transitive set, minted names included, so a reader of that field
+alone sees the compiler axioms. A kernel-only corpus writes `"compiler": []` in
+both places.
 
 ## The claim card and the views
 
@@ -267,3 +270,8 @@ project's proof moves to `accepted`, resting on the claim card, so that the
 problem's `status` and `claim` follow. A claim card's own change to proved or
 refuted closes no problem. The disclosure sentence goes in the problem page's
 Formalization paragraph.
+
+Here the Lean gate refuses a `native_decide`, `decide +native` or `native :=`
+option inside an `example` before the build: an example leaves no declaration,
+so the audit would never see or re-evaluate the axiom it mints (`lean/README.md`
+"Building").

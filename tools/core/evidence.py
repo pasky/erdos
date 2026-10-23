@@ -1,16 +1,16 @@
 """Functions for the report-only evidence runner.
 
 An entry point is every ``main.py`` under an ``evidence/`` folder of the
-mathematics root or the library, plus every program there whose leading comment declares
-``# evidence: entry``, read from the tracked and non-ignored untracked files;
-``assets/``, ``util/`` and ``output/`` folders and dot-folders between
-``evidence/`` and the file keep it out. A coverage gap is a program region --
-an owner's ``evidence/`` tree, one of its probe folders, or one folder under
-``verify/`` -- holding ``.py``, ``.sh`` or ``.lean`` files but no entry point.
-The runner starts each entry point from the repository root with the invoking
-interpreter, one owner's programs one after another, records every outcome in
-a private JSON Lines report, and gates nothing: no gate leg, hook, or merge
-step calls it.
+mathematics root or the library, plus every program anywhere under them whose
+leading comment declares ``# evidence: entry``, read from the tracked and
+non-ignored untracked files; ``assets/``, ``util/`` and ``output/`` folders and
+dot-folders between ``evidence/`` and the file keep it out. A coverage gap is a
+program region -- an owner's ``evidence/`` tree, one of its probe folders, or
+one folder under ``verify/`` -- holding ``.py``, ``.sh`` or ``.lean`` files but
+no entry point. The runner starts each entry point from the repository root
+with the invoking interpreter, one owner's programs one after another, records
+every outcome in a private JSON Lines report, and gates nothing: no gate leg,
+hook, or merge step calls it.
 """
 
 from __future__ import annotations
@@ -87,7 +87,8 @@ class EntryPoint:
 
     # repository-relative posix path
     path: str
-    # the folder before the first evidence/ component
+    # the folder before the first evidence/ component, or the folder holding a
+    # program outside an evidence/ tree
     owner: str
     # owner, leg (below verify/) or probe; reported, never used to filter
     kind: str

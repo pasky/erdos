@@ -6,7 +6,7 @@ desc: |
   and series, and the few purely probabilistic and topological problems that
   carry no subject co-tag.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-16T04:55:23Z
+updated: 2026-10-20T17:29:46Z
 ---
 
 # Analysis
@@ -244,10 +244,9 @@ ensures that every nonconstant polynomial $P$ with $P(0)=1$ and all roots on the
 unit circle has a path of length at most $C$ from $0$ to the unit circle lying
 in $\{z:|P(z)|<1\}$ except at $0$.
 
-[[problems/analysis/E1221/_index|E1221/]]: Asks whether the three
-mean-normalized consecutive-gap expressions diverge. L165 has an independently
-graded tier-1 whole-conclusion warrant over all sequences; the full catalog
-claim remains pending.
+[[problems/analysis/E1221/_index|E1221/]]: Korsky claims all three
+mean-normalized consecutive-gap divergences. The local tier-1 completion extends
+his approach to repeated points; acceptance of his full claim remains pending.
 
 ***
 

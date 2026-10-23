@@ -7,7 +7,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-05T01:21:25Z
-updated: 2026-10-19T02:06:42Z
+updated: 2026-10-19T19:51:33Z
 ---
 
 # docs
@@ -55,10 +55,10 @@ problem targets, research folders, generated views, and lead target field in
 their own section.
 
 [[tools|tools]]: The shared Python layer: the evidence harness, the ledger
-generator and gate battery contracts, how evidence code builds on them, and the
-boundary between structural validation and mathematical verification, with the
-Erdos-specific package, claim-check, problem-layout and incoming-library rules
-in their own section.
+generator, gate battery, evidence command, and one-off lead and license audit
+contracts, how evidence code builds on them, and the boundary between structural
+validation and mathematical verification, with the Erdos-specific package,
+claim-check, problem-layout and incoming-library rules in their own section.
 
 [[verification|verification]]: Selective independent review of pivotal
 uncertainty, focused assessments, and whole-statement verification: exact

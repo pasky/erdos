@@ -605,3 +605,58 @@ def test_cited_standings_must_agree_with_the_ledger(repository: pathlib.Path) ->
         f'{page}:13: L4 cited at tier 1 without its stale mark; the ledger reads'
         ' proved (stale), tier 1',
     ]
+
+
+@pytest.mark.parametrize(
+    ('sentence', 'flagged'),
+    [
+        ('No unbounded selector, new source class, P5, or L2 is proved.', False),
+        ('No equivalence to the unbounded selector or full L2 is proved.', False),
+        ('Here neither converse from L2 is proved.', False),
+        ('No further hypothesis is needed: L2 is proved.', True),
+        ('No further hypothesis is needed, and L2 is proved.', True),
+        ('Without further hypothesis, L2 is proved.', True),
+        ('L2 is proved, not refuted.', True),
+        ('No further hypothesis is needed and L2 is proved.', True),
+        ('This does not need L5 and L2 is proved.', True),
+        ('Nothing else is required, L2 is proved.', True),
+    ],
+    ids=[
+        'negated-list',
+        'negated-phrase',
+        'neither',
+        'negation-before-colon',
+        'negation-before-and',
+        'without-is-not-a-negation-of-the-subject',
+        'negation-after-the-citation',
+        'verb-between-negation-and-claim',
+        'negated-verb-before-another-clause',
+        'comma-splice',
+    ],
+)
+def test_a_status_citation_negated_in_its_own_clause_is_not_live(
+    repository: pathlib.Path, sentence: str, flagged: bool
+) -> None:
+    """A negation denies a cited status only when the claim sits inside the negated phrase."""
+    _card(repository, 'L2_second', 'status: open')
+    lead = (
+        repository / 'wiki' / 'research' / 'wall' / 'x_l2' / 'leads' / 'y' / '_index.md'
+    )
+    write_page(
+        lead,
+        '---',
+        'name: research/wall/x_l2/leads/y',
+        'desc: A lead.',
+        '---',
+        '',
+        '# y',
+        '',
+        '***',
+        '',
+        sentence,
+    )
+    findings, _ = lint_references(repository)
+    cited = [finding for finding in findings if ' cited ' in finding]
+    page = 'wiki/research/wall/x_l2/leads/y/_index.md'
+    expected = [f'{page}:10: L2 cited as proved; the ledger reads open']
+    assert cited == (expected if flagged else [])

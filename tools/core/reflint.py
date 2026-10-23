@@ -590,7 +590,7 @@ def _standing_mismatches(
         *_CITED_STATUS_PAREN.finditer(sentence),
         *_CITED_STATUS_VERB.finditer(sentence),
     ]:
-        if _hedged(sentence, match):
+        if _hedged(sentence, match) or _negated_before(sentence, match):
             continue
         claim = ledger.get(int(match.group(1)))
         word = match.group(2).lower()
@@ -618,6 +618,26 @@ def _hedged(sentence: str, match: re.Match[str]) -> bool:
     return _SKIPPED_SENTENCE.search(_clause(sentence, match)) is not None
 
 
+def _negated_before(sentence: str, match: re.Match[str]) -> bool:
+    """Return whether a negation before ``match`` in its own clause denies the citation.
+
+    "No selector or L528 is proved" denies the status: the claim sits inside the
+    negated phrase. The negation counts only when no verb or auxiliary stands
+    between it and the claim, so in "This does not need L5 and L528 is proved"
+    it governs another clause; a colon or a comma before a coordinating
+    conjunction also ends the scope.
+    """
+    start = max(
+        (m.end() for m in _NEGATION_BREAK.finditer(sentence, 0, match.start())),
+        default=0,
+    )
+    negations = list(_SUBJECT_NEGATION.finditer(sentence, start, match.start()))
+    if not negations:
+        return False
+    between = sentence[negations[-1].end() : match.start()]
+    return _VERB_OR_AUXILIARY.search(between) is None
+
+
 def _clause(sentence: str, match: re.Match[str]) -> str:
     """Return the clause of ``sentence`` holding ``match``: between clause separators."""
     start = max(
@@ -637,6 +657,22 @@ def _ledger_standing(claim: tools.core.ledger.Claim) -> str:
 _WIKILINK_LABEL = re.compile(r'\[\[([^\]|]+)(?:\|([^\]]*))?\]\]')
 #: a clause ends at a semicolon, a parenthesis or a dash
 _CLAUSE_BREAK = re.compile(r'[;()]|\s[\u2014\u2013]\s|\s--\s')
+#: the scope of a negation: a clause break, a colon, or a comma before a conjunction
+_NEGATION_BREAK = re.compile(
+    r'[;:()]|\s[\u2014\u2013]\s|\s--\s|,\s+(?:and|but|while|whereas|yet|so)\b',
+    flags=re.I,
+)
+#: a negation of the claim it precedes (``no``, ``neither``), not ``without``
+_SUBJECT_NEGATION = re.compile(
+    r'\bno\b|\bnot\b|\bnever\b|\bnone\b|\bnothing\b|\bneither\b|\bnor\b',
+    flags=re.I,
+)
+#: a verb or auxiliary that ends a negated phrase before the claim it would deny
+_VERB_OR_AUXILIARY = re.compile(
+    r'\b(?:is|are|was|were|be|been|has|have|had|does|do|did|needs?|needed'
+    r'|requires?|required|holds?|follows?|remains?)\b',
+    flags=re.I,
+)
 #: the stale mark a stale row's citation carries
 _STALE_WORD = re.compile(r'\bstale\b', flags=re.I)
 #: a sentence that dates, conditions or negates its statement is not a live citation

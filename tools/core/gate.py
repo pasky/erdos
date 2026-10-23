@@ -6,8 +6,9 @@ Mathematical evidence is never discovered or executed. Native Lean validation is
 expensive and therefore opt-in, with an explicit visible skip otherwise:
 ``--lean`` runs it, ``--lean-if-changed`` runs it unless the validated-tree
 receipt (``lean/.lake/validated.json``) already names the prospective ``lean/``
-tree, and ``--strict`` fails a leg whose required tool is unavailable instead of
-skipping it.
+tree, ``--intake`` skips the repository tests for a merge whose later full
+battery runs them, and ``--strict`` fails a leg whose required tool is
+unavailable instead of skipping it.
 """
 
 from __future__ import annotations
@@ -103,6 +104,7 @@ def run_gate(
     lean: bool = False,
     lean_if_changed: bool = False,
     precommit: bool = True,
+    intake: bool = False,
     strict: bool = False,
     settled: bool = False,
 ) -> list[LegResult]:
@@ -110,10 +112,12 @@ def run_gate(
 
     ``lean`` runs the Lean leg unconditionally and refreshes its validated-tree
     receipt; ``lean_if_changed`` runs it only when the prospective ``lean/``
-    tree differs from the receipt's; ``strict`` fails a leg whose required tool
-    is unavailable instead of skipping it; ``settled`` makes a problem whose
-    provisional standing rests on no claim page a failure of the problem
-    claims leg instead of a count in the leg's detail (the release mode).
+    tree differs from the receipt's; ``intake`` skips the repository tests, a
+    deliberate skip, for a merge whose later full battery runs them; ``strict``
+    fails a leg whose required tool is unavailable instead of skipping it;
+    ``settled`` makes a problem whose provisional standing rests on no claim
+    page a failure of the problem claims leg instead of a count in the leg's
+    detail (the release mode).
     """
     # check generated corpus structure
     root = root.resolve()
@@ -152,7 +156,9 @@ def run_gate(
     legs.append(_reflint_leg(root))
 
     # run tests and the remaining repository checks
-    if not (root / 'pyproject.toml').is_file():
+    if intake:
+        legs.append(LegResult('pytest', 'SKIPPED', 'disabled by --intake'))
+    elif not (root / 'pyproject.toml').is_file():
         legs.append(LegResult('pytest', 'FAIL', 'missing pyproject.toml'))
     else:
         pytest = _run_binary(

@@ -6,7 +6,7 @@ desc: |
   number of primes p > x^{1−c+δ} that divide some integer in the interval
   (x, x + x^c] is at least a constant times x^c.
 created: 2026-10-08T16:09:57Z
-updated: 2026-10-08T16:09:57Z
+updated: 2026-10-22T19:13:32Z
 ---
 
 ***
@@ -49,6 +49,30 @@ positive multiple of $x^{4/9}\log x$, which the primes above
 $x^{5/9+\delta}$ must supply. Each such prime exceeds the length $x^{4/9}$
 of the interval, so it divides at most one of its integers, and with
 $\log p\le\log(2x)$ the weighted bound gives the count.
+
+## Consequence for factorial-divisor ratios
+
+Write $F(g,n)=d((n+\lfloor g(n)\rfloor)!)/d(n!)$ and let $S(t)$ be the sum
+of the prime factors of $t$, counted with multiplicity.
+The lemma implies $F(n^{4/9},n)\to\infty$, beyond the doubling bound in
+Corollary 3. Set $h=\lfloor n^{4/9}\rfloor$ and $\delta=10^{-4}$.
+Each of the $\gg n^{4/9}$ primes supplied by the lemma exceeds
+$n^{5/9+\delta}$ and contributes to the prime-factor sum of an integer
+in $(n,n+h]$. Thus $\sum_{i=1}^h S(n+i)\gg n^{1+\delta}$.
+By [[factorials_binomials/erdos_1996_number_divisors/lemma_1|Lemma 1]] and
+nonnegativity of all the factors,
+
+$$
+F(n^{4/9},n)
+\ge\prod_{i=1}^h\left(1+\frac{S(n+i)}{2(n+i)}\right)
+\ge1+\frac{1}{2(n+h)}\sum_{i=1}^h S(n+i)
+\ge1+C n^\delta
+$$
+
+for some $C>0$ and all sufficiently large $n$. This deduction is
+author-recorded, without independent review of the underlying lemma.
+The polynomial shift is larger than every fixed power of $\log n$,
+so this does not resolve Problem 420's first question.
 
 ## Dependencies
 

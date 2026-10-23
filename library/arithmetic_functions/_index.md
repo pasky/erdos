@@ -3,7 +3,7 @@ name: arithmetic_functions
 title: "Arithmetic Functions"
 desc: "Sources filed under Arithmetic Functions, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-18T10:10:48Z
+updated: 2026-10-20T18:35:14Z
 ---
 
 # Arithmetic Functions
@@ -334,6 +334,10 @@ log n)^2/log log log n, nearly squaring Chowla's bound.
 [[arithmetic_functions/pasten_2026_improvement_largest_prime_factor_n_squared_plus_one/_index|pasten_2026_improvement_largest_prime_factor_n_squared_plus_one/]]: Improves the pointwise iterated-log lower bound for the largest prime
 factor of n^2+1, gives a related radical inequality, and counts the large
 prime factors of n^2+1.
+
+[[arithmetic_functions/plasma_ai_2026_divisor_counts_shifted_factorials/_index|plasma_ai_2026_divisor_counts_shifted_factorials/]]: Plasma AI's Lean formalization of the two density questions in Problem 420:
+shifted-factorial divisor ratios are dense in (1, infinity) for every
+nondecreasing shift tending to infinity and eventually at most log n.
 
 [[arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/_index|plasma_ai_2026_normal_order_number_iterations_euler_s_function/]]: Plasma AI's 2026 preprint and Lean formalization proving that the number of
 iterations of Euler's function needed to reach $1$ has normal order

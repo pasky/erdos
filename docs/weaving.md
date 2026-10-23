@@ -11,7 +11,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-10-19T09:20:41Z
+updated: 2026-10-19T19:51:48Z
 ---
 
 # weaving
@@ -154,10 +154,11 @@ input, grouped by the part of the claim each serves.
 
 ## The roadmap currency test
 
-For theory claim Roadmaps, anatomy rules that delivered items fold into the
-standing prose or drop when the section is rewritten. Research notes are not
-required to carry Roadmaps. Folding is the step that gets skipped, so it is the
-step to check:
+For theory claim Roadmaps, anatomy has the section rewritten in place and a
+discharged item checked in the change that discharges it. Research notes are not
+required to carry Roadmaps. A rewrite may fold a delivered item into the
+standing prose or drop its box; folding is the step that gets skipped, so it is
+the step to check:
 
 1. **Read the item's fact, then look for it on the page.** A delivered item
    whose fact is already stated in the standing prose (or in the page's `desc:`)

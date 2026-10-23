@@ -22,7 +22,7 @@ __all__ = [
     'test_gate_rejects_lean_with_lean_if_changed',
     'test_gate_reports_missing_pytest_configuration_without_a_traceback',
     'test_gate_reports_missing_repository_as_command_error',
-    'test_gate_forwards_the_receipt_and_strict_flags',
+    'test_gate_forwards_the_receipt_intake_and_strict_flags',
     'test_gate_splits_findings_and_disclosures_between_streams',
     'test_gate_public_workflow_aggregates_failed_legs',
     'test_evidence_rejects_bad_options_before_any_program_starts',
@@ -86,11 +86,11 @@ def test_gate_reports_missing_repository_as_command_error(
     assert 'Traceback' not in result.stderr
 
 
-def test_gate_forwards_the_receipt_and_strict_flags(
+def test_gate_forwards_the_receipt_intake_and_strict_flags(
     tmp_path: pathlib.Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-    """Test that the conditional Lean and strict flags reach the battery unchanged."""
+    """Test that the conditional Lean, intake and strict flags reach the battery."""
     received: dict[str, object] = {}
 
     def run_gate(
@@ -102,7 +102,7 @@ def test_gate_forwards_the_receipt_and_strict_flags(
     # stub only the result boundary; core tests own the gate decisions
     monkeypatch.setattr(tools.core.gate, 'run_gate', run_gate)
     app = gate(typer.Typer())
-    arguments = ['--path', str(tmp_path), '--lean-if-changed', '--strict']
+    arguments = ['--path', str(tmp_path), '--lean-if-changed', '--intake', '--strict']
     result = CliRunner().invoke(app, arguments)
     assert result.exit_code == 0, result.output
     assert received == {
@@ -111,6 +111,7 @@ def test_gate_forwards_the_receipt_and_strict_flags(
         'lean': False,
         'lean_if_changed': True,
         'precommit': True,
+        'intake': True,
         'strict': True,
         'settled': False,
     }

@@ -11,7 +11,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-08T17:47:46Z
+updated: 2026-10-14T23:10:46Z
 ---
 
 # Problem 1176
@@ -112,6 +112,8 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/number_theory/various_1999_some_pauls_favorite_problems/_index|various_1999_some_pauls_favorite_problems]]
 - [[../library/set_theory/erdos_1975_set_systems_having_large_chromatic_number/_index|erdos_1975_set_systems_having_large_chromatic_number]]
 - [[../library/set_theory/erdos_1975_set_systems_having_large_chromatic_number/problem_3|erdos_1975_set_systems_having_large_chromatic_number / problem_3]]
+- [[../library/set_theory/hajnal_komjath_2003_simultaneous_chromatic_number/_index|hajnal_komjath_2003_simultaneous_chromatic_number]]
+- [[../library/set_theory/hajnal_komjath_2003_simultaneous_chromatic_number/theorem_1|hajnal_komjath_2003_simultaneous_chromatic_number / theorem_1]]
 - [[../library/set_theory/soukup_2015_open_problems_around_uncountable_graphs/_index|soukup_2015_open_problems_around_uncountable_graphs]]
 - [[../library/set_theory/soukup_2015_open_problems_around_uncountable_graphs/conjecture_6_1|soukup_2015_open_problems_around_uncountable_graphs / conjecture_6_1]]
 

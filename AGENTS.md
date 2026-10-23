@@ -92,7 +92,7 @@ is not cruft-managed. Use the repository-local `.venv/`, not a global editable
 install. From the repository root:
 
 ```sh
-uv sync --group test --group lint --group type
+uv sync --locked --group test --group lint --group type
 uv run --no-sync pre-commit install
 uv run --no-sync wiki config --path wiki
 uv run --no-sync wiki config --path library

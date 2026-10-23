@@ -19,6 +19,13 @@ LEAN_DIR="$(dirname "$SCRIPT_DIR")"
 # machine's memory.
 export LEAN_NUM_THREADS="${LEAN_NUM_THREADS:-4}"
 
+# Refuse a thread cap that is not a positive whole number before any
+# Lake command.
+if ! [[ "$LEAN_NUM_THREADS" =~ ^[1-9][0-9]*$ ]]; then
+    echo "Error: LEAN_NUM_THREADS must be a positive whole number, not '$LEAN_NUM_THREADS'." >&2
+    exit 2
+fi
+
 if [[ "$#" -gt 0 ]]; then
     if [[ "$1" != "--clean" || "$#" -gt 2 || "${2:-HEAD}" == -* ]]; then
         echo "Usage: scripts/gate.sh [--clean [rev]]" >&2
@@ -28,8 +35,12 @@ if [[ "$#" -gt 0 ]]; then
     GATE_TEMP_DIR="$(mktemp -d)"
     trap 'rm -rf -- "$GATE_TEMP_DIR"' EXIT
     # Archive from lean/ so the extracted project has no extra path prefix.
-    git -C "$LEAN_DIR" archive "$REV" | tar -x -C "$GATE_TEMP_DIR"
-    LEAN_DIR="$GATE_TEMP_DIR"
+    # Write the archive first: tar may stop at its end marker before Git has
+    # written the padding, giving Git SIGPIPE under pipefail on macOS.
+    git -C "$LEAN_DIR" archive --format=tar --output="$GATE_TEMP_DIR/project.tar" "$REV"
+    mkdir "$GATE_TEMP_DIR/project"
+    tar -xf "$GATE_TEMP_DIR/project.tar" -C "$GATE_TEMP_DIR/project"
+    LEAN_DIR="$GATE_TEMP_DIR/project"
     # A clean archive has no compiled dependencies: fetch them before building.
     (cd "$LEAN_DIR" && lake exe cache get)
 fi
@@ -91,7 +102,7 @@ if ! find Erdos -name '*.lean' -exec awk '
         inside = line ~ /(^|[[:space:]]|\])example([[:space:]:({[]|$)/
     }
     { code = $0; sub(/--.*/, "", code) }
-    inside && code ~ /native_decide|[+]native|native[[:space:]]*:=/ {
+    inside && code ~ /native_decide|[+]native|(^|[^[:alnum:]_.])native[[:space:]]*:=/ {
         print FILENAME ":" FNR ": " $0; found = 1
     }
     END { exit found }' {} + >&2; then

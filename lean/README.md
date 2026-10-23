@@ -125,8 +125,9 @@ not the audit passes (it exits 1 on a failure), and neither reads nor writes the
 file; the self-test reads a probe's rows this way. Each surfaced claim records
 its triple, axioms, compiler axioms, one record per axiom and per declaration
 whose proof term uses it, source module, direct L-claim kernel dependencies, and
-statement pretty-print hashes; the top-level `compiler` array lists every
-compiler axiom in the corpus.
+statement pretty-print hashes; the top-level `compiler` array holds the same
+records for the whole corpus, and an admitted axiom that no declaration uses has
+no record, though the summary line counts it.
 
 The own-namespace-unfolded hash does not expand shared or source-local
 definitions outside `Erdos.L<id>`, so a semantic change there leaves both
@@ -174,10 +175,11 @@ Lake compiles one module per worker thread of its Lean runtime, and
 `LEAN_NUM_THREADS` sets the number of threads. Memory use grows with the thread
 count, and the default of one thread per CPU can take most of a machine's
 memory. `scripts/gate.sh` and `scripts/audit_selftest.sh` set the variable to 4,
-unless it is already set, before any Lake command; set it the same way for a
-manual build. Lower the thread count to fit the machine, and start a build only
-when the memory it needs is free; a second build at the same time needs as much
-again. The thread cap trades build time for memory: an incremental gate compiles
+unless it is already set, before any Lake command, and each refuses a value that
+is not a positive whole number (exit 2); set it the same way for a manual build.
+Lower the thread count to fit the machine, and start a build only when the
+memory it needs is free; a second build at the same time needs as much again.
+The thread cap trades build time for memory: an incremental gate compiles
 nothing and is unaffected, while a fresh full build takes longer with fewer
 threads.
 

@@ -7,7 +7,7 @@ desc: |
   for each ε > 0 there are infinitely many n with f(n) at least
   (1/4 − ε) log n log log n log log log log n/(log log log n)^3.
 created: 2026-10-08T16:09:57Z
-updated: 2026-10-08T16:09:57Z
+updated: 2026-10-22T19:13:32Z
 ---
 
 ***
@@ -54,6 +54,27 @@ paper's Lemma 2, p. 7) on how often $(jM+A+i)/l$ is prime. Summing over $j$
 shows that the double sum of $S(jM+A+i)$ over $M/2\le j\le M$ and
 $1\le i\le L$ is $o(M^3)$, so some $j$ has
 $\sum_{i\le L}S(jM+A+i)<jM+A$, that is $f(jM+A)>L$; since $\log(jM+A)$ is about $2u$, this is the stated bound.
+
+## Consequence for logarithmic shifts
+
+Write $F(g,n)=d((n+\lfloor g(n)\rfloor)!)/d(n!)$.
+The proof's estimate (7), rather than just the stated threshold bound, gives
+$\liminf_{n\to\infty}F(c\log n,n)=1$ for every fixed $c>0$.
+Indeed, take $0\le A<M$. There are $\asymp M$ choices of $j$, so the
+nonnegative double sum $o(M^3)$ supplies a choice with
+$n=jM+A\asymp M^2$ and $\sum_{i\le L}S(n+i)=o(n)$.
+Also $L/\log n\to\infty$. The exponential upper bound in the proof of
+[[factorials_binomials/erdos_1996_number_divisors/lemma_1|Lemma 1]] therefore
+gives, along these choices,
+
+$$
+0\le\log F(c\log n,n)
+\le\sum_{i\le\lfloor c\log n\rfloor}\frac{S(n+i)}{n+i}
+\le\frac1n\sum_{i\le L}S(n+i)=o(1).
+$$
+
+This deduction from the source estimate is author-recorded, without
+independent review. It uses none of the manuscript's normal-order assertions.
 
 ## Dependencies
 

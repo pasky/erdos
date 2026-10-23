@@ -11,7 +11,7 @@ desc: |
 tags: []
 sources: []
 created: 2026-09-08T01:42:35Z
-updated: 2026-10-18T10:08:56Z
+updated: 2026-10-19T19:51:52Z
 ---
 
 # lean_authoring
@@ -517,8 +517,14 @@ hand-transcribing them, and prove the bridge between a finite checker and its
 mathematical target. Kernel evaluation and compiled evaluation are both
 permissible under the axiom policy; the accepted closure is `lean/Erdos/`, and a
 proof that uses `native_decide` records `assumes: compiler` on its card under
-[[compiler_trust]]. Expensive computation may warrant another encoding or
-reduction; runtime alone is not a mathematical impossibility result.
+[[compiler_trust]]. Here the Lean gate reads the sources before the build and
+refuses a `native_decide`, `decide +native` or `native :=` option inside an
+`example`, whose compiler axiom no declaration carries, so a Fidelity pin that
+needs compiled evaluation is a `#guard`. It also refuses, in a corpus module, a
+`set_option` line that mentions `sorry`, any spelling of the `warn.sorry` option
+and `#guard_msgs`, comments included, since each could hide the build's sorry
+warning (`lean/README.md` "Building"). Expensive computation may warrant another
+encoding or reduction; runtime alone is not a mathematical impossibility result.
 
 Use targeted builds while developing, followed by a full native build before
 manifest generation: the audit imports the complete module closure. Generate the

@@ -64,7 +64,7 @@ not JSON or not of the expected shape, an unreadable listing).
 
 Usage, from the repository root, in the project environment (PyYAML):
 
-    uv run --no-sync python scripts/claim_carry_forward.py L17 <base-revision> [<head-revision>]
+    uv run --no-sync python scripts/claim_carry_forward.py L17 <bound-revision> [<head-revision>]
 """
 
 from __future__ import annotations

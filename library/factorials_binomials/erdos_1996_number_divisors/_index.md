@@ -5,7 +5,7 @@ desc: |
   determines the limit points of the ratio of successive such counts.
 license: unstated
 created: 2026-09-04T09:41:06Z
-updated: 2026-10-08T16:18:49Z
+updated: 2026-10-22T20:20:35Z
 ---
 
 # factorials_binomials/erdos_1996_number_divisors
@@ -112,11 +112,73 @@ than 2 whenever ⌊f(n)⌋ < K(n). [[factorials_binomials/erdos_1996_number_divi
 for infinitely many n, K(n) > log n · log log n log log log log n/(9 (log log
 log n)^3), so F(log n, n) < 2 for infinitely many n and does not tend to
 infinity; [[factorials_binomials/erdos_1996_number_divisors/corollary_3|Corollary 3]] (p. 9) gives K(n) < n^{4/9}, so
-F(n^{4/9}, n) ≥ 2, for all large n. The first bound is o((log n)^C) for every
-C > 1 and the second concerns shifts far longer than (log n)^C, so neither
-decides whether F((log n)^C, n) tends to infinity, and neither bears on the
-questions whether F(log n, n), or F(f, n) for slower f, is everywhere dense in
-(1, ∞). The paper does not mention the problems.
+F(n^{4/9}, n) ≥ 2, for all large n. The proofs give stronger conclusions:
+[[factorials_binomials/erdos_1996_number_divisors/theorem_3|Theorem 3's averaging estimate]]
+implies liminf F(c log n, n) = 1 for every c > 0, and
+[[factorials_binomials/erdos_1996_number_divisors/lemma_3|Lemma 3]] implies
+F(n^{4/9}, n) tends to infinity. Neither decides divergence for shifts
+(log n)^C or proves the density assertions. The normal-order assertions on
+p. 5 require the correction below.
+
+## Normal-order assertions on page 5
+
+Write $F(f,n)=d((n+\lfloor f(n)\rfloor)!)/d(n!)$. The last paragraph of
+Section 3 in the authors' manuscript asserts both that $F(f,n)\sim1$ on a
+set of natural density one whenever $f=o((\log n)^2)$, and that shifts
+$f(n)\sim c\log n$ have a constant normal order $g(c)>1$. These assertions
+are incompatible at $f(n)=c\log n$; both are false as written. This concerns
+the manuscript's unnumbered assertions, not Theorems 1--4. The published
+edition was not compared.
+
+For a direct obstruction, use D. Mastrostefano, *Positive proportion of short
+intervals containing a prescribed number of primes*,
+[arXiv:1812.11784v1, Theorem 1.1, p. 1](https://arxiv.org/pdf/1812.11784v1).
+For each fixed integer $m\ge0$ there is $\varepsilon_m>0$ such that, whenever
+$0<\lambda<\varepsilon_m$ is fixed, a positive proportion of integers $n$
+satisfy $|[n,n+\lambda\log n]\cap\mathbb P|=m$. Only this consequence of
+the theorem's explicit lower bound is used.
+
+Fix $c>0$ and $m\ge1$, and choose $0<\lambda<\min(c,\varepsilon_m)$.
+Discarding prime starting points removes only a density-zero set. The
+remaining intervals supply $m$ primes in
+$(n,n+\lfloor c\log n\rfloor]$. Each prime has exponent zero in $n!$ and
+one in the larger factorial for large $n$, and every other prime's
+divisor-count factor is nondecreasing. Hence
+
+$$
+\liminf_{X\to\infty}\frac1X
+ \#\{n\le X:F(c\log n,n)\ge2^m\}>0.
+$$
+
+Since $m$ is arbitrary, no finite constant is a normal order at this scale.
+The same argument applies to $f(n)\sim c\log n$. In particular, the
+assertion for all $f=o((\log n)^2)$ fails already at $f(n)=\log n$.
+
+A valid replacement is: if $f$ is eventually nonnegative and
+$f(n)=o(\log n)$, then $F(f,n)\to1$ on a set of natural density one.
+Here is an averaging proof. Put $A(n)=\log d(n!)$ and, for integer $X$,
+$H_X=\max_{X\le n<2X}\lfloor f(n)\rfloor=o(\log X)$. The increments of
+$A$ are nonnegative. Counting how often each increment occurs gives
+
+$$
+0\le\sum_{X\le n<2X}\log F(f,n)
+\le H_X\bigl(A(2X+H_X)-A(X)\bigr)
+\ll \frac{XH_X}{\log X}=o(X),
+$$
+
+using [[factorials_binomials/erdos_1996_number_divisors/theorem_1|Theorem 1]]
+only for $A(t)\ll t/\log t$. Markov's inequality and dyadic summation show
+that, for each fixed $\eta>0$, the set where $\log F(f,n)>\eta$ has
+density zero. A diagonal choice of these exceptional sets gives convergence
+on a single density-one set. No monotonicity of $f$ is needed.
+
+These corrections and deductions are author-recorded, without independent
+review; they are not an author-issued erratum. Mastrostefano's Theorem 1.1
+and its parameter definitions were read clause by clause on the page image of
+arXiv:1812.11784v1, p. 1 (read status: claims checked); its proof is an
+external literature input and was not reconstructed.
+Neither the correction nor the valid sublogarithmic result resolves the first
+question of Problem 420.
 
 **Results.**
 

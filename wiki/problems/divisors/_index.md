@@ -6,17 +6,19 @@ desc: |
   sets of multiples, primitive sets in which no element divides another, and
   other sets of integers defined by divisibility or coprimality conditions.
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-19T10:58:49Z
+updated: 2026-10-18T00:07:21Z
 ---
 
 # Divisors and Multiples
 
 [[problems/_index|..]]
 
-[[problems/divisors/E0018/_index|E0018/]]: Asks how small $h(m)$ can be, the number of distinct divisors of a practical
-number $m$ that always suffice to write each smaller integer as a sum,
-especially for $m=n!$. The bound $h(n!)<n^{o(1)}$ is proved (Conjectures.io,
-2026), the $(\log\log m)^{O(1)}$ part is claimed (van Doorn and GPT-6 Astra Pro, 2026, graded sound by Plasma AI's internal review, its sign-off pending), and the rest is open.
+[[problems/divisors/E0018/_index|E0018/]]: Asks how small $h(m)$ can be, the
+number of distinct divisors of a practical number $m$ that always suffice to
+write each smaller integer as a sum, especially for $m=n!$. The bound
+$h(n!)<n^{o(1)}$ is proved (Conjectures.io, 2026), the $(\log\log m)^{O(1)}$
+part is claimed (van Doorn and GPT-6 Astra Pro, 2026, graded sound by Plasma
+AI's internal review, its sign-off pending), and the rest is open.
 
 [[problems/divisors/E0026/_index|E0026/]]: Asks whether every infinite set
 $A\subset\mathbb{N}$ has a shift $k\ge1$ such that almost all integers have a

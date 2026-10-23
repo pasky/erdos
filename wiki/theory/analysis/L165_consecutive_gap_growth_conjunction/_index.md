@@ -25,7 +25,7 @@ depends_on:
 - L163
 - L164
 created: 2026-10-15T20:39:29Z
-updated: 2026-10-16T04:55:23Z
+updated: 2026-10-20T17:29:46Z
 ---
 
 # The three mean-normalized consecutive-gap divergences
@@ -73,7 +73,9 @@ The span-to-count mechanism and closing comparisons come from S. Korsky's
 unrefereed arXiv:2609.07196v2. Larcher's range splitting supplies the method
 of the finite-list input; Halász's planar theorem, as presented by Bilyk,
 supplies the other method. The complete local proofs with constants,
-coincident-point extension and composition are credited to Plasma AI.
+coincident-point extension and composition are credited to Plasma AI as a
+technical completion of
+[[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky's full problem claim]].
 The input grades examine the supplied local proofs, not the original
 publications. Their source and independence qualifications remain visible on
 L163 and L164. The conjunction has its own whole-statement examination and distinct

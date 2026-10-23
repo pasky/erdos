@@ -61,12 +61,13 @@ silence), imports them into a fresh environment, and checks:
    not distinguish riding on a definition from riding on a theorem.
    The corpus reference check (`erdos claim-check`) joins each row's
    `depends` against the claim page's dependency disclosure. Each row
-   also records `compiler`: the admitted axioms its triple's axiom
-   closure reaches, each with the declaration whose proof term uses
-   it and that declaration's module; the top-level `compiler` array
-   lists every admitted axiom in the corpus the same way, so a result
-   without a claim row is still visible. Each row also records
-   `surface`: the SHA-256 of a canonical serialization of the
+   also records `compiler`: one record per admitted axiom its triple's
+   axiom closure reaches and per declaration whose proof term uses it,
+   with that declaration's module; the top-level `compiler` array
+   holds the same records for the whole corpus, so a result without a
+   claim row is still visible (an admitted axiom that no declaration
+   uses has none, though the summary line counts it). Each row also
+   records `surface`: the SHA-256 of a canonical serialization of the
    statement's definitional closure -- the walk from the statement's
    type and value through every corpus constant it reaches, stopping
    at the Mathlib boundary (Audit/Surface.lean) -- with the counts of
@@ -560,7 +561,7 @@ def printManifestDiff (committed : String) (fresh : Json) : IO Unit := do
         localized := true
     unless localized do
       IO.println "  claim rows identical -- a non-claim field moved \
-        (declarations, modules, or pp pins)"
+        (declarations, the top-level compiler array, modules, or pp pins)"
 
 end Audit
 

@@ -112,7 +112,7 @@ These rules catch most first contributions:
    Then, from the repository root:
 
    ```sh
-   uv sync --group test --group lint --group type
+   uv sync --locked --group test --group lint --group type
    uv run --no-sync pre-commit install
    uv run --no-sync wiki config --path wiki
    uv run --no-sync wiki config --path library

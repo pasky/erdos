@@ -1,13 +1,13 @@
 ---
 name: problems/analysis/E1221
 title: Problem 1221
-desc: "Asks whether the three mean-normalized consecutive-gap expressions diverge. L165 has an independently graded tier-1 whole-conclusion warrant over all sequences; the full catalog claim remains pending."
+desc: "Korsky claims all three mean-normalized consecutive-gap divergences. The local tier-1 completion extends his approach to repeated points; acceptance of his full claim remains pending."
 tags:
 - Analysis
 status: claimed
 claim: proved
 created: 2026-09-28T03:26:53Z
-updated: 2026-10-18T10:09:26Z
+updated: 2026-10-22T19:30:36Z
 ---
 
 # Problem 1221
@@ -155,25 +155,29 @@ sources. The all-sequence local bounds recorded below do not require that
 equality: bounds universal over all sequences also hold on the distinct-point
 subclass.
 
-**Status.** A pending
-[[problems/analysis/E1221/claims/2026_10_19_plasma_ai|full claim by Plasma AI]]
-addresses the mean-normalized modified Statement over all sequences. Its
-ratio and one-sided inputs have separate whole-statement examinations and
-passing grades. The conjunction and its exact match to the supplied modified
-formulation have an independent examination with verdict **refutation-failed**
-and a distinct whole-contract **PASS** grade, examined on 2026-10-16 UTC.
-L165 records the native tier-1 warrant. Catalog acceptance remains pending;
-no accepted catalog solution is recorded.
+**Status.** Claimed, by
+[[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky's full claim]]
+for the mean-normalized modified Statement. His preprint [Ko26b]
+(arXiv:2609.07196v2, 9 September 2026) claims all three divergences for
+sequences of distinct points and is registered on erdosproblems.com as a full
+proof claim (submitted 2026-09-08). The claimed resolution is credited to
+Korsky; the extension to coincident points is a technical completion of his
+approach.
 
-The erdosproblems.com label at the dated source check was OPEN. A preprint [Ko26b]
-(arXiv:2609.07196v2, 9 September 2026) claims all three parts of the modified
-Statement for sequences of distinct points. erdosproblems.com registers it as a
-full proof claim (submitted 2026-09-08). Here it is recorded as the pending
-partial claim [[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]],
-since its constants run over sequences of distinct points only. The dated
-source searches below found no external acceptance of that exact source
-claim. The preprint remains an unrefereed source; the local reproofs have
-their own scope and warrants.
+The local completion by Plasma AI is recorded in
+[[theory/analysis/L165_consecutive_gap_growth_conjunction/_index|L165]],
+composing the all-sequence ratio and one-sided bounds of L163 and L164.
+It proves all three divergences over all sequences, with ratio coefficient
+$1/200$ rather than the source's $1/100$. Each input has a separate
+whole-statement examination and passing grade. The conjunction and its exact
+match to the supplied modified formulation have an independent examination
+with verdict **refutation-failed** and a distinct whole-contract **PASS**
+grade, examined on 2026-10-16 UTC. These warrant tier 1 for the local
+completion, not acceptance of the exact source theorem.
+
+The erdosproblems.com label at the dated source check was OPEN. The dated
+source searches below found no external acceptance of Korsky's exact claim.
+The preprint remains unrefereed, and acceptance of the full claim is pending.
 
 **Source.** [erdosproblems.com/1221](https://www.erdosproblems.com/1221),
 accessed 2026-09-27: the problem page (OPEN, with the erdosproblems.com note
@@ -296,11 +300,12 @@ concern the speed of posting and the attribution of the AI's role, not the
 mathematics. Acceptance: none found (unrefereed; no journal reference; Crossref
 finds no published version; erdosproblems.com OPEN; community database open on
 2026-09-18; no independent review found in that search; no citing evaluation
-located). The claim's
-scope is the distinct-point family (Formulation). The claim page
-[[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]] records it as a
-pending partial claim. This is separate from the complete local proofs with
-coefficient $1/200$ and their warrants.
+located). The source theorem treats the distinct-point family (Formulation).
+The claim page
+[[problems/analysis/E1221/claims/2026_09_08_korsky|Korsky 2026]] records his
+pending full claim to the intended problem, with the local extension to all
+sequences documented as a technical completion. The local proofs establish
+ratio coefficient $1/200$ and have their own warrants.
 
 **Reconstructions.** The proofs of the three 1949 bounds, of the
 fixed-$r$ improvement [Ko26a], of the upper bound [ClSt25] and of the

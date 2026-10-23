@@ -10,7 +10,7 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-07T02:07:29Z
+updated: 2026-10-14T23:10:46Z
 ---
 
 # Problem 1170
@@ -59,5 +59,8 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/set_theory/erdos_1974_unsolved_solved_problems_set_theory/_index|erdos_1974_unsolved_solved_problems_set_theory]]
 - [[../library/set_theory/erdos_1974_unsolved_solved_problems_set_theory/question_p272|erdos_1974_unsolved_solved_problems_set_theory / question_p272]]
 - [[../library/set_theory/komjath_2025_erdos_hajnal_problem_list/_index|komjath_2025_erdos_hajnal_problem_list]]
+- [[../library/set_theory/laver_1982_saturated_ideal_omega1/_index|laver_1982_saturated_ideal_omega1]]
+- [[../library/set_theory/laver_1982_saturated_ideal_omega1/main_theorem|laver_1982_saturated_ideal_omega1 / main_theorem]]
+- [[../library/set_theory/laver_1982_saturated_ideal_omega1/theorem_p177|laver_1982_saturated_ideal_omega1 / theorem_p177]]
 
 <!-- END problem library links -->

@@ -8,7 +8,7 @@ desc: |
   resolution of the mean-normalized de Bruijn–Erdős conjecture, unrefereed
   and unreviewed.
 created: 2026-09-28T03:00:00Z
-updated: 2026-10-07T20:33:22Z
+updated: 2026-10-20T17:29:46Z
 ---
 
 ***
@@ -127,4 +127,7 @@ input was checked here.
 
 - [[../wiki/problems/analysis/E1221/_index|Problem 1221]]: the claimed resolution
   registered on erdosproblems.com as a full proof claim (2026-09-08); the
-  problem page keeps status open and records this theorem as a claim.
+  problem page records Korsky's full claim with acceptance pending. Its
+  [[../wiki/theory/analysis/L165_consecutive_gap_growth_conjunction/_index|local technical completion]]
+  covers coincident points with ratio coefficient $1/200$ at tier 1; this does
+  not extend verification to the exact source coefficient $1/100$.

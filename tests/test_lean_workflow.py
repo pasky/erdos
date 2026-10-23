@@ -30,6 +30,7 @@ __all__ = [
     'test_digest_is_independent_of_locale',
     'test_digest_tracks_only_refusal_inputs',
     'test_lake_calls_receive_the_thread_cap',
+    'test_invalid_thread_caps_fail_before_lake',
 ]
 
 #: the axiom name a native_decide proof of `Erdos.L9995.claim` mints
@@ -372,6 +373,11 @@ def test_gate_rejects_a_build_that_uses_sorry(
             'example : 1 + 1 = 2 := by\n/- compiled below -/\n  native_decide\n',
             _COMPILED,
         ),
+        (
+            'Erdos/Probe.lean',
+            'example : 1 + 1 = 2 := by\n  decide (config := { native := true })\n',
+            _COMPILED,
+        ),
         ('Erdos/Probe.lean', 'theorem t : 1 + 1 = 2 := by native_decide\n', None),
         (
             'Erdos/Probe.lean',
@@ -393,6 +399,11 @@ def test_gate_rejects_a_build_that_uses_sorry(
             'example : True := trivial\ntheorem t : 1 + 1 = 2 := by\n  native_decide\n',
             None,
         ),
+        (
+            'Erdos/Probe.lean',
+            'example (h : True) : True := by\n  have hnative := h\n  exact hnative\n',
+            None,
+        ),
     ],
     ids=[
         'warn-sorry',
@@ -407,11 +418,13 @@ def test_gate_rejects_a_build_that_uses_sorry(
         'attribute-example',
         'example-match-arms',
         'example-block-comment',
+        'example-native-option',
         'theorem-native-decide',
         'commented',
         'docstring',
         'docstring-lines',
         'example-then-theorem',
+        'example-native-suffix',
     ],
 )
 def test_gate_refuses_sources_the_audit_cannot_see(
@@ -924,6 +937,35 @@ def test_lake_calls_receive_the_thread_cap(
     calls = [line.split('|') for line in _calls(shell_environment)]
     assert calls
     assert {cap for _, _, _, cap in calls} == {threads}
+
+
+@pytest.mark.parametrize('threads', ['0', '-1', 'four'])
+@pytest.mark.parametrize('run', ['in-place', 'clean', 'self-test'])
+def test_invalid_thread_caps_fail_before_lake(
+    lean_project: pathlib.Path,
+    shell_environment: dict[str, str],
+    run: str,
+    threads: str,
+) -> None:
+    """Refuse a thread cap that is not a positive whole number before any Lake call."""
+    _write(
+        lean_project / '.lake/packages/mathlib/.lake/build/lib/lean/Mathlib.olean',
+        'object\n',
+    )
+    if run == 'clean':
+        _git(lean_project.parent, shell_environment, 'init', '-b', 'main')
+        _git(lean_project.parent, shell_environment, 'add', 'lean')
+        _git(lean_project.parent, shell_environment, 'commit', '-m', 'Fixture')
+    shell_environment['LEAN_NUM_THREADS'] = threads
+    arguments = ['--clean'] if run == 'clean' else []
+    script = 'audit_selftest.sh' if run == 'self-test' else 'gate.sh'
+    result = _run(lean_project, shell_environment, *arguments, script=script)
+    assert result.returncode == 2, result.stdout + result.stderr
+    assert (
+        f"Error: LEAN_NUM_THREADS must be a positive whole number, not '{threads}'."
+        in result.stderr
+    )
+    assert _calls(shell_environment) == []
 
 
 # ------ helpers

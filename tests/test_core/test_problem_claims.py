@@ -398,6 +398,16 @@ def test_each_schema_defect_is_one_finding(
             None,
         ),
         ([('claimed', 'proved', 'conditional')], ('open', 'none'), None),
+        (
+            [('accepted', 'proved', 'full'), ('accepted', 'null', 'full')],
+            ('solved', 'proved'),
+            None,
+        ),
+        (
+            [('accepted', 'proved', 'full'), ('accepted', '[disproved]', 'full')],
+            ('solved', 'proved'),
+            None,
+        ),
     ],
 )
 def test_the_standing_is_derived_from_the_full_claims(
