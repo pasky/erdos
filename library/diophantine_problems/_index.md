@@ -3,7 +3,7 @@ name: diophantine_problems
 title: "Diophantine Problems and Powers"
 desc: "Sources filed under Diophantine Problems and Powers, with cross-references to related work."
 created: 2026-09-05T02:56:28Z
-updated: 2026-10-14T23:06:55Z
+updated: 2026-10-20T15:29:47Z
 ---
 
 # Diophantine Problems and Powers
@@ -279,6 +279,11 @@ number, improving the Filaseta-Trifonov bound.
 
 [[diophantine_problems/pipeline_math_2026_tiling_complement/_index|pipeline_math_2026_tiling_complement/]]: Constructs a tiling complement for all integer thirteenth powers, with
 a reviewed reconstruction relative to two identified literature premises.
+
+[[diophantine_problems/plasma_ai_2026_powerful_sum_complements/_index|plasma_ai_2026_powerful_sum_complements/]]: Plasma AI's separate Lean development for positive lower density of the
+cubic and quartic powerful-sum complements; the cubic result is due to
+Beyer de Ryke, and the quartic result is Plasma AI's; both complement
+conclusions are accepted on checked formalizations.
 
 [[diophantine_problems/price_2026_infinite_r_powerful_sums/_index|price_2026_infinite_r_powerful_sums/]]: Public one-page manuscript, attributed by its poster to GPT-5.5 Pro, with an
 elementary binomial construction of infinitely many r-powerful sums of r-2

@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11, <3.15"
 resolution-markers = [
     "python_full_version >= '3.12'",
@@ -515,6 +515,7 @@ wheels = [
 name = "erdos-tools"
 version = "0.1.0"
 source = { editable = "." }
+default-groups = ["evidence"]
 dependencies = [
     { name = "packaging" },
     { name = "plasma-wiki" },
@@ -561,7 +562,7 @@ type = [
 [package.metadata]
 requires-dist = [
     { name = "packaging", specifier = ">=24.2,<27" },
-    { name = "plasma-wiki", specifier = ">=1.5,<2" },
+    { name = "plasma-wiki", specifier = ">=1.8,<2" },
     { name = "pyyaml", specifier = ">=6,<7" },
     { name = "typer", specifier = ">=0.24,<1" },
 ]
@@ -1082,15 +1083,15 @@ wheels = [
 
 [[package]]
 name = "plasma-wiki"
-version = "1.7.0"
+version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pyyaml" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/94/ea/845101da6e1ff18b942a84288c21b1c429b3c3694138b86badccc2fd9247/plasma_wiki-1.7.0.tar.gz", hash = "sha256:58c28c1f89d5fc8f496d40de9e8f60d291db3ee34f648fb7753818962e35a3bd", size = 200081, upload-time = "2026-10-14T21:01:27.763Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/76/26/01fd4e02fa48f94335bfa9b96cccd47380dfe68b617c26e514600e8a12a9/plasma_wiki-1.9.0.tar.gz", hash = "sha256:25615aef9fbffa15f703016b3b11696beb5a15ba73655e1e47dd4e74e007e0fa", size = 211059, upload-time = "2026-10-25T18:47:33.34Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0d/ee/bf052be475db4be8adfb52a23279517ed21adabf3518f75cefbc324f75cc/plasma_wiki-1.7.0-py3-none-any.whl", hash = "sha256:3ffd178fb0db5aa595148d7ecb26aac2d8683601d011bff85a52bb2310f84c2c", size = 183822, upload-time = "2026-10-14T21:01:26.278Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/bf/c3efddb4dca3451faa0da1566a7a22265db3d143acc5a20044b65137468f/plasma_wiki-1.9.0-py3-none-any.whl", hash = "sha256:d6915e6ad1c7f5b584573daead51d7d6f4286d8072b3b5ed72a6241401a5f0e6", size = 192500, upload-time = "2026-10-25T18:47:31.823Z" },
 ]
 
 [[package]]

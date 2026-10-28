@@ -2,15 +2,16 @@
 name: problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke
 title: Beyer de Ryke's density deficit for sums of three cube-full numbers
 desc: |
-  Beyer de Ryke claims, in an unrefereed and unreviewed manuscript, that the
-  integers that are not sums of at most three $3$-powerful numbers have positive
-  lower density. This would answer the infinitude question of Problem 940 at
-  $r=3$.
+  Beyer de Ryke's positive lower density theorem for the complement of
+  sums of at most three cube-full numbers, accepted on a separate Lean
+  formalization; the manuscript's stronger progression theorem is unreviewed.
 authors:
 - Basile Beyer de Ryke
-status: claimed
+status: accepted
 claim: proved
 scope: partial
+evidence:
+- formalized
 published: 2026-07-26
 submitted: 2026-09-06
 links:
@@ -24,25 +25,20 @@ links:
   kind: discussion
   date: 2026-09-06
 created: 2026-10-07T05:45:20Z
-updated: 2026-10-08T00:36:27Z
+updated: 2026-10-22T19:39:22Z
 ---
 
 ***
 
-**Claim.** Let $\mathcal F$ be the set of positive $3$-powerful (cube-full)
-integers, $1$ included. For every $\varepsilon>0$ there is a reduced residue
-class $a\pmod M$ on which the three-fold sumset
-$\mathcal F+\mathcal F+\mathcal F$ has upper relative density at most
-$\varepsilon$; consequently the positive integers that are not a sum of at
-most three $3$-powerful numbers have positive lower natural density, and in
-particular there are infinitely many of them. The result is Basile Beyer de
-Ryke, *A density deficit for sums of three cube-full numbers*, Theorem 1.1
-and Corollary 1.2, an unpublished manuscript first posted as arXiv:2609.35772
-on 2026-07-26 (its only version) and filed on the erdosproblems.com proof-claims
-tab on 2026-09-06 as a partial proof claim with a copy of the manuscript; both
-postings carry the same result and are recorded on this one page. The source
-card is
-[[../library/diophantine_problems/beyer_de_ryke_2026_density_deficit_cube_full_sums/_index|beyer_de_ryke_2026_density_deficit_cube_full_sums]].
+**Claim.** The positive integers that are not a sum of at most three
+$3$-powerful (cube-full) numbers have positive lower natural density, and in
+particular there are infinitely many of them. This follows from Corollary 1.2
+and equation (3) of Basile Beyer de Ryke, *A density deficit for sums of three
+cube-full numbers*: the values with one or two positive summands have density
+zero, so including them preserves the positive lower density of the complement.
+The manuscript and its posting on the erdosproblems.com proof-claims tab are
+recorded on this one page; the source card is
+[[../library/diophantine_problems/beyer_de_ryke_2026_density_deficit_cube_full_sums/_index|Beyer de Ryke's manuscript]].
 
 **Submission note.** Posted to erdosproblems.com as a proof claim by Basile
 Beyer de Ryke (account Basile_Beyer_de_Ryke) on 6 September 2026:
@@ -73,11 +69,29 @@ finitely many of them, chosen by Chebotarev's theorem with prescribed
 reciprocal sum, are combined into one reduced class on which the three-sum
 count is small, with the remaining parts controlled by the two tail weights.
 
-**Acceptance.** None is recorded. The manuscript is not refereed. The
-erdosproblems.com label was OPEN (page last edited 2025-11-03), and the tab's
-claim had no comments on 2026-10-06. No independent review is on record, and
-there is no Lean formalization of the manuscript's own argument. The statement
-was checked at claims level on the source card, but no review of the proof is
-recorded.
+**Stronger manuscript statement.** For every $\varepsilon>0$, Theorem 1.1
+claims a reduced residue class $a\pmod M$ on which the sums of exactly three
+positive cube-full numbers have upper relative density at most $\varepsilon$.
+This stronger statement remains an unreviewed manuscript claim. The separate
+formalization's comparison targets cover the complement conclusion above,
+not this arbitrary-$\varepsilon$ assertion.
 
-**Depends on.** No other wiki page; the claim rests on the manuscript above.
+**Acceptance.** Accepted on the separate Lean formalization, checked on
+2026-10-20: the [[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/evidence/verify/replay_receipt|build and replay receipt]]
+records the pinned build, Comparator, empty-environment kernel replay and
+standard-axiom closure, and the [[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/evidence/verify/statement_fidelity/grade|independently graded statement review]]
+checks the mathematical statement. The statement reviewer and grader worked
+in separate fresh contexts. Jacob Parish at Plasma AI signed off on this
+acceptance on 2026-10-20. This is `formalized` evidence, with no numerical
+tier; it does not constitute review of the prose proofs or their stronger
+progression statements. The Claim's attribution differs from the reviewed
+snapshot, `evidence/assets/statement_fidelity/mathematical_subject.md` on the
+formalization's source card, which reads "This is Corollary 1.2"; the Claim
+now cites Corollary 1.2 with equation (3) and says why sums with one or two
+positive summands do not change the density. The stated result and Covers are
+unchanged.
+
+**Depends on.** The result is attributed to the manuscript above; its
+acceptance rests on the checked proof terms in the
+[[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/complement_density|formalized cubic complement result]].
+No unreviewed wiki argument is used as acceptance evidence.

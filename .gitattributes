@@ -57,3 +57,4 @@ wiki/research/erdos_699/computations/erdos_699_nine_polynomial_cuts.json filter=
 wiki/research/erdos_699/computations/erdos_699_triple_prime_power_strips_066_3000.json filter=lfs diff=lfs merge=lfs -text
 library/arithmetic_functions/plasma_ai_2026_normal_order_number_iterations_euler_s_function/evidence/assets/erdos_408_formalization.tar.gz filter=lfs diff=lfs merge=lfs -text
 library/arithmetic_functions/plasma_ai_2026_divisor_counts_shifted_factorials/evidence/assets/erdos_420_formalization.tar.gz filter=lfs diff=lfs merge=lfs -text
+library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/evidence/assets/erdos_940_formalization.tar.gz filter=lfs diff=lfs merge=lfs -text

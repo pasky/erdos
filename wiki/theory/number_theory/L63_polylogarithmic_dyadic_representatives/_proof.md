@@ -5,7 +5,7 @@ desc: |
   Positive modular lifting, removal of repeated divisors, and a factorial
   radix chain with every index, count, and height cost retained.
 created: 2026-10-14T08:41:00Z
-updated: 2026-10-14T08:41:00Z
+updated: 2026-10-23T18:31:25Z
 ---
 
 ***
@@ -53,7 +53,7 @@ because that endpoint has a one-term representation.
 
 These operations also occur as `factorial_binary_reserve`,
 `factorial_multiset_to_distinct` and `factorial_radix_recurrence` in the
-[held source for part (b)](../../../../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/assets/solution_e93a2766/Main.lean).
+[Conjectures.io source for part (b)](../../../../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/_index.md).
 The arguments above supply the operations used here without a new Lean run.
 
 ## Lift one integer

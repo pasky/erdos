@@ -5,7 +5,7 @@ desc: Open density and higher-exponent questions, retained mechanisms, and rejec
 tags: []
 sources: []
 created: 2026-09-22T02:24:55Z
-updated: 2026-10-19T04:18:52Z
+updated: 2026-10-28T16:29:39Z
 ---
 
 
@@ -15,13 +15,16 @@ updated: 2026-10-19T04:18:52Z
 
 ## The unresolved targets
 
-The supplied cubic theorem, from Beyer de Ryke's unreviewed manuscript, claims
-positive lower density of the complement for $r=3$; it is a pending claim on
-[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|its claim page]].
-The [quartic argument](quartic_complement.md) proposes the analogous $r=4$
-result, pending whole-conclusion review of the prose. No argument here
-establishes infinitude for $r\ge5$, or decides density zero versus positive
-upper density of any $S_r$, $r\ge3$.
+Positive lower density of the complement is accepted for $r=3$, on
+[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's claim]],
+and for $r=4$, on
+[[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|Plasma AI's claim]].
+Both acceptances rest on the
+[[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/_index|separate Lean formalization]].
+The [quartic argument](quartic_complement.md) remains author-recorded as
+prose, and its stronger progression statement is outside that acceptance.
+No argument here establishes infinitude for $r\ge5$, or decides density
+zero versus positive upper density of any $S_r$, $r\ge3$.
 
 ## Unordered count congruences
 

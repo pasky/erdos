@@ -1,11 +1,11 @@
 ---
 name: research/erdos_940/quartic_complement
 title: Positive lower density of the quartic complement
-desc: Author-recorded argument for positive lower density of the quartic complement; no whole-conclusion review of the prose is filed.
+desc: Author-recorded argument for positive lower density of the quartic complement; no whole-conclusion review of the prose is filed, and a separate Lean formalization supports an accepted partial claim.
 tags: []
 sources: []
 created: 2026-09-22T02:24:55Z
-updated: 2026-10-19T04:18:52Z
+updated: 2026-10-28T16:29:39Z
 ---
 
 # Positive lower density of the quartic complement
@@ -16,8 +16,15 @@ updated: 2026-10-19T04:18:52Z
 
 The argument below proposes positive lower density of the complement for $r=4$.
 Its algebraic, analytic, and truncation steps have been checked separately, but
-an independent whole-conclusion review of this prose has not been filed. The
-argument does not address the density-zero question.
+an independent whole-conclusion review of this prose has not been filed. A
+separate Lean proof follows this route for the positive-density-complement
+conclusion; its source and checking status are recorded on the
+[[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/_index|formalization source card]].
+That conclusion is an
+[[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|accepted partial claim]].
+The stronger progression statement below is not one of the four comparison
+targets in the formalization. The argument does not address the density-zero
+question.
 
 **Theorem.** For every $\varepsilon>0$, there are integers $M,a$, with
 $a\equiv8\pmod{16}$, such that

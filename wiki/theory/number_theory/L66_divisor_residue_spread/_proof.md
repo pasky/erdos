@@ -5,7 +5,7 @@ desc: |
   A finite residue-fiber count, its uniform dyadic consequence, and the
   conversion of polynomial mixing parameters into L63's local representatives.
 created: 2026-10-14T09:12:10Z
-updated: 2026-10-14T09:12:10Z
+updated: 2026-10-23T18:22:29Z
 ---
 
 ***
@@ -175,7 +175,10 @@ mixing theorem that supplies only existential constants for each fixed $g$.
 
 ## The loss in the displayed source witnesses
 
-In the held source's `exists_dyadic_unit_product_fourier_decay`, $R$
+The Conjectures.io source is the Problem 18 solution file that Conjectures.io
+serves, as its [card](../../../../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/_index.md)
+records, and the declarations below are read from it. In its
+`exists_dyadic_unit_product_fourier_decay`, $R$
 flattening steps give a power $N=2^{R+2}$ and decay
 $t=(g-\min(g/2,1/2))/N$. The final `weighted_dyadic_mixing` takes
 $r=R+2$. Thus for $0<g\le1/2$ the displayed witnesses obey

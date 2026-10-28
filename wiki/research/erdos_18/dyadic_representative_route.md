@@ -7,7 +7,7 @@ desc: |
   from the accepted proof of (b), and a stopped test of the full-divisor
   law at the collision estimate it needs.
 created: 2026-10-14T08:41:00Z
-updated: 2026-10-18T10:11:03Z
+updated: 2026-10-23T18:22:29Z
 ---
 
 ***
@@ -79,7 +79,9 @@ verified for this factorial quotient.
 ## What the accepted proof supplies
 
 The [[../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/target|accepted target record]]
-identifies the held source. Static inspection of `WeightedDyadicMixing`,
+identifies the Conjectures.io source, the Problem 18 solution file that
+Conjectures.io serves, from which the declarations below are read. Static
+inspection of `WeightedDyadicMixing`,
 `dyadic_modular_bounds_of_block_product_decay`, and
 `dyadic_modular_bounds_of_weighted_dyadic_mixing` gives the following
 parameters, for each **fixed** $a>1$ and all sufficiently large $k$:
@@ -247,7 +249,7 @@ $$
 
 It turns a collision decay exponent above one half into additive decay for a
 product, and nothing is raised to a power that grows with the number of
-steps. The held source applies the same bound in its last step, to a
+steps. The Conjectures.io source applies the same bound in its last step, to a
 sum-product average; its loss comes from comparing the product law with
 that average. Write $\mathrm{Coll}(K,s,j)$ for the collision probability
 modulo $2^j$ of a product of $s$ independent uniform odd divisors of

@@ -5,7 +5,7 @@ desc: "Reconstruction of the binomial construction of r-powerful sums of r-2 cop
 tags: []
 sources: []
 created: 2026-09-28T04:32:26Z
-updated: 2026-10-19T04:18:52Z
+updated: 2026-10-28T16:29:39Z
 ---
 
 # Sums of coprime r-powerful numbers
@@ -110,11 +110,14 @@ substitution turns any integer identity among monomials into an identity
 among $r$-powerful numbers, at the cost of the number of terms. The
 positive-lower-density arguments for the complement in the sibling
 [[problems/diophantine_problems/E0940/_index|Problem 940]] rest on sieve
-arguments unrelated to this identity and are not affected by it: for $r=3$
-the manuscript behind
-[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's pending claim]],
-and for $r=4$ the author-recorded
-[[research/erdos_940/quartic_complement|quartic complement argument]].
+arguments unrelated to this identity and are not affected by it. The
+[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|cubic claim of Beyer de Ryke]]
+and the
+[[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|quartic claim of Plasma AI]]
+are accepted on the
+[[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/_index|separate Lean formalization]].
+The [[research/erdos_940/quartic_complement|quartic prose argument]] retains its
+own author-recorded standing.
 
 **Connections.** [[research/erdos_939/connections|The connections page]]
 transports the mechanism to the problems it touches. It separates the

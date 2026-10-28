@@ -6,7 +6,7 @@ desc: |
   cube-full numbers form a set of positive lower natural density.
 license: reserved
 created: 2026-09-22T01:17:53Z
-updated: 2026-10-07T20:53:41Z
+updated: 2026-10-20T15:46:00Z
 ---
 
 # Beyer de Ryke: A density deficit for sums of three cube-full numbers
@@ -127,8 +127,12 @@ $$
 The manuscript states that this proves the infinitude assertion of E940 for
 $r=3$ (abstract, p. 1), in fact with a positive-density exceptional set; the
 manuscript is unrefereed, its proof was not reviewed for this card, and the
-claim's standing is recorded on
+complement conclusion is accepted on the
+[[diophantine_problems/plasma_ai_2026_powerful_sum_complements/_index|separate Lean formalization]],
+as recorded on
 [[../wiki/problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|its claim page]].
+That formal acceptance does not cover the arbitrary-$\varepsilon$ progression
+theorem or constitute review of the manuscript's prose.
 
 The result does **not** prove E940’s requested conclusion $d(S_{\le3})=0$. The
 modulus $M$ depends on $\varepsilon$, and sparsity inside one progression—even

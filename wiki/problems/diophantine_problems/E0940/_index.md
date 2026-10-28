@@ -11,14 +11,14 @@ tags:
 status: open
 claim: none
 created: 2026-09-04T09:17:27Z
-updated: 2026-10-19T04:18:52Z
+updated: 2026-10-28T16:29:39Z
 ---
 
 # Problem 940
 
 [[problems/diophantine_problems/_index|..]]
 
-[[problems/diophantine_problems/E0940/claims/_index|claims/]]: The 2 claim pages of Problem 940, one per claimant's result; the problem's standing derives from them.
+[[problems/diophantine_problems/E0940/claims/_index|claims/]]: The 3 claim pages of Problem 940, one per claimant's result; the problem's standing derives from them.
 
 ***
 
@@ -29,9 +29,12 @@ Are there infinitely many integers which are not the sum of at most $r$ many
 $r$-powerful numbers? Does the set of integers which are the sum of at most $r$
 $r$-powerful numbers have density $0$?
 
-**Status.** Open. The erdosproblems.com label was OPEN, and the page was last
-edited on 2025-11-03. The erdosproblems.com remarks record that Baker and
-Brüdern [BaBr94] first proved the density-zero statement at $r=2$. They also
+**Status.** Open. The infinitude question is answered for $r=3$ and $r=4$ by
+accepted partial claims, in both cases with positive lower density of the
+complement; the higher exponents and the density-zero question remain open.
+The erdosproblems.com label was OPEN, and the page was last edited on
+2025-11-03. The erdosproblems.com remarks record that Baker and Brüdern
+[BaBr94] first proved the density-zero statement at $r=2$. They also
 record that at $r=3$ the statement is unknown even for sums of three cubes.
 Finally, they record that Heath-Brown [He88] proves every large integer is a sum
 of at most three $2$-powerful numbers
@@ -56,61 +59,73 @@ https://www.erdosproblems.com/940.
 
 **Formalization.** Statement in
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/940.lean).
+The Lean development
+[plasma-ai/erdos-940](https://github.com/plasma-ai/erdos-940)
+proves the complement statements for $r=3$ and $r=4$, the formal basis of
+[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's claim]]
+and the
+[[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|quartic claim]].
 
 ## Current assessment
 
-An unpublished manuscript of Beyer de Ryke (revised 26 July 2026) claims to
-prove that the positive integers that are not a sum of one, two or three
-$3$-powerful numbers form a set of positive lower natural density; more
-precisely, for each $\varepsilon>0$ it gives a modulus $M\geq1$ and a residue
-$a$ coprime to $M$ such that the exactly-three-summand set has upper density at
-most $\varepsilon$ relative to the progression $a\pmod M$; see
-[[../library/diophantine_problems/beyer_de_ryke_2026_density_deficit_cube_full_sums/_index|Beyer de Ryke (2026), Theorem 1.1 and Corollary 1.2]].
-No review of the proof and no acceptance evidence (a refereed version or an
-independent review) is recorded. No source-supported result for $r\geq4$ is
-recorded. On the density question there is only a conditional result: Wang's
-Theorem 1.3 (arXiv:2108.03398, first posted 7 August 2021) shows, assuming
-three unproved conjectures on Hasse--Weil $L$-functions (automorphy and a
-zero-free half-plane, a Ratios-type second-moment bound, and a square-free
-sieve), that the sums of three nonnegative cubes have positive lower
-density, so at $r=3$ the sums of at most three $3$-powerful numbers would
-not have density $0$; it is recorded as a conditional claim on
-[[problems/diophantine_problems/E0940/claims/2021_08_07_wang|its claim page]]
-and settles nothing unconditionally. Beyond the erdosproblems.com record
-(accessed 2026-09-04), the erdosproblems.com proof-claims tab (accessed
-2026-10-06) and the sources cited, no status search is recorded on this page.
+The positive integers not expressible as sums of at most $r$ $r$-powerful
+numbers have positive lower natural density for $r=3$ and $r=4$. The cubic
+result is Beyer de Ryke's
+[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|accepted partial claim]];
+the quartic result is
+[[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|Plasma AI's accepted partial claim]].
+Both acceptances rest on the
+[[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/_index|separate Lean formalization]],
+with a pinned build, Comparator, kernel replay and independently graded
+statement review. No numerical tier is assigned.
 
-On 2026-10-06 the erdosproblems.com proof-claims tab carried one partial proof
-claim, submitted 2026-09-06 by Basile Beyer de Ryke with a copy of the
-manuscript above, which the claimant describes as settling the infinitude
-question at $r=3$ and nothing else; it is the same result as the arXiv
-posting and is recorded, with both postings, as a pending (`claimed`) partial
-claim on
-[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|its claim page]].
-The erdosproblems.com label was OPEN (page last edited 2025-11-03), and on
-2026-10-06 the claim had no comments. It does not settle the problem as stated:
-the density question is open for every $r$ and the infinitude question for every
-$r\ge4$.
+The stronger progression theorem in
+[[../library/diophantine_problems/beyer_de_ryke_2026_density_deficit_cube_full_sums/_index|Beyer de Ryke's manuscript]]
+and the stronger statement in the
+[[research/erdos_940/quartic_complement|quartic prose argument]]
+remain outside those formal acceptance records. The prose proofs are not
+independently reviewed. Positive lower density of the complement does not
+imply that the representable set has density zero. That second question
+remains open for every $r\ge3$, and no infinitude conclusion for $r\ge5$
+is recorded here.
+
+On the density question, Wang's Theorem 1.3 (arXiv:2108.03398, first posted
+7 August 2021) shows, assuming three unproved conjectures on Hasse--Weil
+$L$-functions (automorphy and a zero-free half-plane, a Ratios-type
+second-moment bound, and a square-free sieve), that the sums of three
+nonnegative cubes have positive lower density. Thus at $r=3$ the sums of at
+most three $3$-powerful numbers would not have density zero; this is recorded
+as a
+[[problems/diophantine_problems/E0940/claims/2021_08_07_wang|conditional claim]]
+and settles nothing unconditionally.
+
+The erdosproblems.com proof-claims tab, read on 2026-10-06, carried Beyer de
+Ryke's partial claim submitted on 2026-09-06, with no comments. That source
+snapshot is separate from the corpus's formalization-based acceptance. Beyond
+the erdosproblems.com record (accessed 2026-09-04), the erdosproblems.com
+proof-claims tab (accessed 2026-10-06) and the sources cited, no status search
+is recorded on this page.
 
 ## Known Results
 
-- For $r=3$, the complement of the integers representable as sums of at most
-  three $3$-powerful numbers is claimed to have positive lower natural
-  density, so infinitely many integers would not be such sums: Beyer de Ryke
-  (2026, unpublished manuscript; proof not reviewed), a pending partial claim
-  on
-  [[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|its claim page]].
+- For $r=3$, the complement of sums of at most three cube-full numbers has
+  positive lower natural density: Beyer de Ryke's
+  [[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|accepted partial claim]],
+  supported here by the separate Lean formalization.
+- For $r=4$, the complement of sums of at most four $4$-powerful numbers has
+  positive lower natural density:
+  [[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|Plasma AI's accepted partial claim]],
+  supported by the same formalization project.
 - For $r=3$, conditionally on three unproved $L$-function conjectures, the
-  sums of at most three $3$-powerful numbers have positive lower density, so
-  the density question has answer no there: Wang (arXiv:2108.03398,
-  Theorem 1.3), a conditional claim on
-  [[problems/diophantine_problems/E0940/claims/2021_08_07_wang|its claim page]].
+  sums of at most three $3$-powerful numbers have positive lower density:
+  Wang's
+  [[problems/diophantine_problems/E0940/claims/2021_08_07_wang|conditional claim]].
 
 ## Research
 
 The [[research/erdos_940/_index|research folder for Problem 940]] holds
-reading notes on the sources cited above and research notes on both
-questions.
+reading notes and the repository's work on both questions, including the
+quartic prose argument and the open density and higher-exponent cases.
 
 <!-- BEGIN problem library links -->
 
@@ -134,6 +149,8 @@ navigation only and do not by themselves record mathematical progress.
 - [[../library/diophantine_problems/heath_brown_1997_density_rational_points_cubic_surfaces/_index|heath_brown_1997_density_rational_points_cubic_surfaces]]
 - [[../library/diophantine_problems/heath_brown_1997_density_rational_points_cubic_surfaces/corollary_p3|heath_brown_1997_density_rational_points_cubic_surfaces / corollary_p3]]
 - [[../library/diophantine_problems/heath_brown_1997_density_rational_points_cubic_surfaces/theorem_1|heath_brown_1997_density_rational_points_cubic_surfaces / theorem_1]]
+- [[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/_index|plasma_ai_2026_powerful_sum_complements]]
+- [[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/complement_density|plasma_ai_2026_powerful_sum_complements / complement_density]]
 - [[../library/diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/_index|salberger_2023_counting_rational_points_projective_varieties]]
 - [[../library/diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/corollary_0_7|salberger_2023_counting_rational_points_projective_varieties / corollary_0_7]]
 - [[../library/diophantine_problems/salberger_2023_counting_rational_points_projective_varieties/corollary_6_5|salberger_2023_counting_rational_points_projective_varieties / corollary_6_5]]

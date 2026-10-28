@@ -6,7 +6,7 @@ desc: |
   L63's representatives, a character form of the hypothesis, and the
   geometric-progression example.
 created: 2026-10-14T10:22:48Z
-updated: 2026-10-14T10:22:48Z
+updated: 2026-10-23T18:31:25Z
 ---
 
 ***
@@ -35,7 +35,7 @@ running over all residues. Since $a$ is a unit, $x\mapsto ax$ permutes the
 residues, and Parseval's identity gives
 $\sum_t|\widehat\beta(t)|^2=2^j\|\beta\|_2^2$.
 
-The [held source for part (b)](../../../../library/number_theory/conjectures_io_2026_lean_solutions_erdos_problems/evidence/assets/solution_e93a2766/Main.lean)
+The [Conjectures.io source for part (b)](../../../../library/divisors/jenw1n_2026_lean_proof_erdos_problem_18b/_index.md)
 uses this bound in its last step (`norm_dft_unit_mixture_sq_le`), for a
 unit law against the law produced by its sum-product averaging. Its loss
 comes from the earlier comparison `norm_dft_unit_product_final_power_le`,
@@ -200,7 +200,7 @@ $1/(sN)\ge2^{-gJ-1}/s$, since $N\le2^{gJ+1}$.
 
 For this $X$, (1) applied to two product halves gives a nontrivial bound
 only if $s>2^{(1/2-g)J-1}$, which is exponential in $J$. The weighted
-mixing theorem of the held source still gives Fourier decay after a
+mixing theorem of the Conjectures.io source still gives Fourier decay after a
 sufficiently large number of factors depending only on $g$; its proof
 reaches it through additive convolution. A proof of the hypothesis of (i)
 therefore needs information about the factorial-divisor law beyond this

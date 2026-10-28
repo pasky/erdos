@@ -1,10 +1,10 @@
 ---
 name: problems/diophantine_problems/E0940/claims
-desc: The 2 claim pages of Problem 940, one per claimant's result; the problem's standing derives from them.
+desc: The 3 claim pages of Problem 940, one per claimant's result; the problem's standing derives from them.
 tags: []
 sources: []
 created: 2026-10-07T07:33:50Z
-updated: 2026-10-11T22:24:14Z
+updated: 2026-10-28T16:29:39Z
 ---
 
 # problems/diophantine_problems/E0940/claims
@@ -16,9 +16,12 @@ nonnegative cubes have positive lower density, so the sums of at most three
 $3$-powerful numbers do not have density $0$. This is a conditional result in
 a preprint.
 
-[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|2026_07_26_beyer_de_ryke]]: Beyer de Ryke claims, in an unrefereed and unreviewed manuscript, that the
-integers that are not sums of at most three $3$-powerful numbers have positive
-lower density. This would answer the infinitude question of Problem 940 at
-$r=3$.
+[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|2026_07_26_beyer_de_ryke]]: Beyer de Ryke's positive lower density theorem for the complement of
+sums of at most three cube-full numbers, accepted on a separate Lean
+formalization; the manuscript's stronger progression theorem is unreviewed.
+
+[[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|2026_10_28_plasma_ai]]: Plasma AI's positive lower density theorem for integers not expressible
+as sums of at most four 4-powerful numbers, accepted on a separate Lean
+formalization; this answers the infinitude question at r = 4.
 
 ***

@@ -7,7 +7,7 @@ desc: |
   r-powerful numbers for every r at least 6, with the distinctness step
   supplied.
 created: 2026-09-28T04:32:26Z
-updated: 2026-10-19T04:18:52Z
+updated: 2026-10-28T16:29:39Z
 ---
 
 [[research/erdos_939/_index|..]]
@@ -28,6 +28,10 @@ states the theorem with a proof sketch.
 **Standing.** This is an author-recorded reconstruction of the manuscript's
 proof. It is not an independent review, changes no status of
 [[problems/diophantine_problems/E0939/_index|Problem 939]], and assigns no tier.
+Its [[research/erdos_939/evidence/_index|focused review]] examined the page as
+it stood on 2026-09-28T05:03:27Z; since then the Relation to Problem 940
+paragraph was updated to that problem's current record, which touches no
+examined statement or proof.
 The external inputs are the binomial theorem, unique factorization in
 $\mathbb Z$ (used through $p$-adic valuations), and the infinitude of
 primes; each is invoked in the elementary form stated where it is used. One
@@ -293,12 +297,14 @@ not compared with the Lean text line by line.
 concerns the same objects and the opposite direction: it asks whether
 infinitely many integers fail to be a sum of at most $r$ $r$-powerful
 numbers, and whether such sums have density zero. That the
-non-representable integers have positive lower density is claimed for $r=3$
-in the manuscript behind
-[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's pending claim]]
-and argued for $r=4$ in the author-recorded
-[[research/erdos_940/quartic_complement|quartic complement argument]], by
-the sieve and class-field-theoretic arguments recorded in
+non-representable integers have positive lower density is accepted for $r=3$
+and $r=4$ on a separate Lean formalization, in
+[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's accepted partial claim]]
+and the
+[[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|accepted quartic claim]]; the prose arguments, Beyer de
+Ryke's manuscript and the
+[[research/erdos_940/quartic_complement|quartic complement argument]], use
+the sieve and class-field-theoretic methods recorded in
 [[research/erdos_940/_index|the Problem 940 research folder]]. Theorem 1 neither uses nor
 informs those results: each $N$ it produces is itself $r$-powerful, hence
 trivially representable in the sense of Problem 940, and the construction

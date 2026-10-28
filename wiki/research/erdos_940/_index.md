@@ -5,7 +5,7 @@ desc: "Cubic and quartic complement arguments and the remaining density question
 tags: []
 sources: []
 created: 2026-09-22T01:40:38Z
-updated: 2026-10-19T05:41:31Z
+updated: 2026-10-28T16:29:39Z
 ---
 
 # Sums of powerful numbers
@@ -76,7 +76,7 @@ updated: 2026-10-19T05:41:31Z
 
 [[research/erdos_940/quadratic_prime_harmonics|quadratic_prime_harmonics]]: An elementary two-sided logarithmic bound for real-character prime sums, used with a small coefficient in the quartic selection proofs.
 
-[[research/erdos_940/quartic_complement|quartic_complement]]: Author-recorded argument for positive lower density of the quartic complement; no whole-conclusion review of the prose is filed.
+[[research/erdos_940/quartic_complement|quartic_complement]]: Author-recorded argument for positive lower density of the quartic complement; no whole-conclusion review of the prose is filed, and a separate Lean formalization supports an accepted partial claim.
 
 [[research/erdos_940/quartic_euler_majorant|quartic_euler_majorant]]: Coefficient-uniform quartic local Euler bounds from eleven nonprincipal character factors.
 
@@ -105,12 +105,16 @@ claims.
 
 ## Where things stand
 
-- **Target cases:** for $r=3$, Beyer de Ryke's unreviewed manuscript claims
-  positive lower density of the complement, a pending claim on
-  [[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|its claim page]];
-  for $r=4$, the author-recorded [quartic argument](quartic_complement.md)
-  proposes the same conclusion, pending whole-conclusion review. Neither
-  settles density zero.
+- **Target cases:** positive lower density of the complement is accepted
+  for $r=3$, on
+  [[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's claim]],
+  and for $r=4$, on
+  [[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|Plasma AI's claim]].
+  The acceptance evidence is the
+  [[../library/diophantine_problems/plasma_ai_2026_powerful_sum_complements/_index|separate Lean formalization]].
+  The [quartic prose argument](quartic_complement.md) remains author-recorded;
+  its stronger progression statement is not covered by that acceptance.
+  Neither complement result settles density zero.
 - **Open targets:** density remains unresolved here for every $r\ge3$, and
   complement infinitude for $r\ge5$. The
   [finite-core equivalence](finite_core_reduction.md) reduces positive upper

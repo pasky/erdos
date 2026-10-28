@@ -9,7 +9,7 @@ desc: |
   a four-term quintic identity over the cube roots of unity that is not real,
   and the precise reasons the other transfers fail.
 created: 2026-09-28T06:59:01Z
-updated: 2026-10-19T04:18:52Z
+updated: 2026-10-28T16:29:39Z
 ---
 
 [[research/erdos_939/_index|..]]
@@ -26,20 +26,20 @@ independently reviewed as they stood on 2026-09-28T13:50:48Z
 by eight focused reviews graded in
 [[research/erdos_939/evidence/verify/connections_grade|the connections grade]],
 which passes all eight and accepts sixteen corrections, C1--C16, since applied;
-it assigns no tier. Since the review, the Target paragraph of the Problem 1107
-section was updated to its page's current record and that of the Problem 939
-section was restated without a date; this touches no examined statement, proof,
-code or input. Each connection section names its target with the
-exact question and the status the target's own page records, states what the
-mechanism gives when transported, with a proof or with the missing bridge
-named, what it does not give and why, and the next investigation. Two inputs
-are consumed from outside this folder at their stated standing: the
+it assigns no tier. Since the review, the Target paragraphs of the Problem 1107
+and Problem 940 sections were updated to their pages' current records and that
+of the Problem 939 section was restated without a date; this touches no examined
+statement, proof, code or input. Each connection section names its target with
+the exact question and the status the target's own page records, states what the
+mechanism gives when transported, with a proof or with the missing bridge named,
+what it does not give and why, and the next investigation. Two inputs are
+consumed from outside this folder at their stated standing: the
 polynomial-factor proposition of the Problem 940 research folder, which that
 page records as proved and author-recorded, and the Mason–Stothers and
 Brownawell–Masser bounds recalled on a claims-checked library page; the
-Mason–Stothers bound is reproved below as Lemma 2, the Brownawell–Masser
-bound is used only to say what it does not exclude, and the proposition is
-consumed in Corollary 3.1 with its proof adapted to a progression.
+Mason–Stothers bound is reproved below as Lemma 2, the Brownawell–Masser bound
+is used only to say what it does not exclude, and the proposition is consumed in
+Corollary 3.1 with its proof adapted to a progression.
 
 **Conventions.** For an integer $r\ge2$, a positive integer $n$ is
 *$r$-powerful* if $v_p(n)\ge r$ for every prime $p\mid n$; $1$ is
@@ -454,11 +454,12 @@ comparison below records the gap.
 $r\ge3$, are there infinitely many integers that are not sums of at most $r$
 $r$-powerful numbers, and does the set of such sums have density $0$? Its
 Current assessment records the density question as open for every $r$ and
-the infinitude question as open for $r\ge4$. At $r=3$ positive lower density
-of the complement, hence infinitude, is claimed in the unreviewed manuscript
-behind
-[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's pending claim]];
-at $r=4$ the same conclusion is the author-recorded
+the infinitude question as open for $r\ge5$. At $r=3$ and $r=4$ positive lower
+density of the complement, hence infinitude, is accepted on a separate Lean
+formalization, in
+[[problems/diophantine_problems/E0940/claims/2026_07_26_beyer_de_ryke|Beyer de Ryke's accepted partial claim]]
+and the
+[[problems/diophantine_problems/E0940/claims/2026_10_28_plasma_ai|accepted quartic claim]]; the prose argument at $r=4$ is the
 [[research/erdos_940/quartic_complement|quartic complement argument]].
 
 **Outcome: fails.** The construction produces, for each $r\ge6$, integers
